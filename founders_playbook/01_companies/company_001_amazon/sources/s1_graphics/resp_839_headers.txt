@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 214
+X-Frame-Options: SAMEORIGIN
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Date: Wed, 23 Sep 2026 11:34:10 GMT
+Connection: keep-alive
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+Set-Cookie: _abck=882D550E4C1237DFEC465E1A84FBBF8F~-1~YAAQHjkgFz792I2gAQAAvG0LzhBIQtEmzDaQueehbMJ0QYNwbNvTDiIAnRAfuLkrsPswDG3krIt4HpCptCWRXlW48vhVLhE6jC3pG17zkB8+IhvfKXlIndoXkqba2mduGdkZ0a277grejvJgTLTqZfMniwusqGey7/TW1RkxvaQERL0KemPPD5RYvjgk3p9e9yQI97u87nzAdt3pKJViZBTd8nAfq6d5LsK0yRQtSivoN/leYBqaA2/gvn9WKaR1i2AHDrra5FodCuGA4iA/+QxsaCsmfSyCTGujENZuI7mnqLtZ13aFplpDma62FMccYnJN8GY3GPt1zeGwrYjEmQvCOLUHhWu+9js88Vb9iv/Rw+kRKpvYWlWRa70VHxe6pP7GnR6lmKO9glumm7rfJV43HlUjz2nghqATdLM3NPuWPOi2k3uY+XnW9QU8GY5GAXkd0mdQ4uJjCQ==~-1~-1~-1~-1~-1; Domain=.sec.gov; Path=/; Expires=Thu, 23 Sep 2027 11:34:10 GMT; Max-Age=31536000; SameSite=None; Secure
+Set-Cookie: bm_sz=6F1D7F17FB0C20782C23A7C092474F69~YAAQHjkgFz/92I2gAQAAvG0LzgEE8snv/iBlnwKgFmh9f12nFj87XD4a4hs20zkXmhZD809y2pK5lS4dAl8yf25EhQys/vmtoTOslH8EGWnKhDg3rRyZpx6TZwXQrFAcQ4cdmak5048vaTpzlUuIozh7MK/wvnX7OfIgdK4GWPQkM7bbqQNiSDaoFo4eNxiapRrhBQFhpXSj8bog4KVkNMmgcM6wyJiXLkkGv5c31ssf2aVXN+qtMdyhLZNFiXwAmniyMbjlX718mbpfNlJaYKaKn6S54siDBvar+deLZnBqOWBfIeAwidRBQTmWuIdRPetzwfu43JSrEMgsIaL3ekMT7mJhyw6NMwSCppeJV/iwCg==~3556919~3749681; Domain=.sec.gov; Path=/; Expires=Wed, 23 Sep 2026 15:34:10 GMT; Max-Age=14400; SameSite=None; Secure
+
