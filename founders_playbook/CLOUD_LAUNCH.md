@@ -94,7 +94,36 @@ POST /skills , POST /vaults , POST /memory_stores
 An Agent's `mcp_servers` and Vaults configure **downstream cloud execution**, not this host's link to
 QCA. Those credentials are distinct from the QCA PAT.
 
+## 8. Provisioned 2026-09-23 — and the one thing blocking it
+
+Created and verified against the live API (Global production, `https://api.qoder.com/api/v1/cloud`):
+
+| Resource | ID | State |
+|---|---|---|
+| Environment | `env_00qc1l2f605xdtc6phw8` (`fp-research`) | **created.** `config.type: cloud`, `networking: unrestricted`, apt packages `git curl python3 jq ripgrep`, and an idempotent `setup_script` that clones this repo into `/workspace`. Note the server echoed `allow_package_managers: false` and `allow_mcp_servers: false` despite `unrestricted` — unverified until a session runs |
+| Agent | `agent_00qc1mmg4hg5crb4221c` (`fp-forensic-researcher`, version 1) | **created.** Model `qmodel_38max`, effort `xhigh`, context window 400000; `agent_toolset_20260401`; system prompt encodes §2/§3/§7/§9/§13/§14, the write-first rule, the never-delete rule, the 8+8 budget, and "a correction is a claim" |
+| Session | — | **BLOCKED — cannot be created** |
+
+Blocker, verbatim from the API:
+
+> `402` — `{"error":{"message":"You have no available credit. Please renew your plan or purchase a
+> resource pack to continue.","quota_type":"credit","type":"billing_error"}}`
+
+So the credential is valid, resource creation works, and **execution is what costs credit and is
+currently unavailable.** Nothing here is a workaround for that: no session has run, so nothing about
+cloud research quality is yet verified.
+
 ## 7. What cloud execution cannot fix
+
+Model discovery worth keeping: **`ultimate`, `auto`, `performance` and most others report
+`is_enabled: false` for this account.** Only `qmodel_38max` and `qfmodel` are enabled, so an agent
+requesting `ultimate` would be asking for something this account cannot run.
+
+**To go live:** purchase a resource pack or renew the plan, then create a session with the saved IDs
+(`~/.qca/env_id`, `~/.qca/agent_id` on the origin machine — never committed) and run the §3 smoke test
+before assigning real research. Until that smoke test returns a clone hash, a file count, and a live web
+response, treat remote execution as unproven.
+
 
 Scale is not the constraint here; **evidence density is**. Cloud agents parallelize the wall clock, not
 the fact that pre-1970 histories have thin digital archives, that SEC blocks several important Amazon
