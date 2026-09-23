@@ -402,7 +402,38 @@ Handling, and why:
 | Company | Class (feasibility register) | Stage 1 status | Notes |
 |---|---|---|---|
 | 001 Amazon | A — single founder, continuous entity | repair passes running (numbers); audits 1, 2, 4 returned, 4 failed-then-repaired | Evidence base local: 4 filings + 11 dossiers, ~1.02M words repo |
-| 002 Walmart | A, but origins predate 1962 entity | **feasibility probe running** — depth verdict pending before a fleet is committed | Pre-1970 period has no SEC record; probe must report what trade press and public records can carry |
+| 002 Walmart | A, but origins predate 1962 entity | **Probe complete → depth verdict: FORENSIC-CORE (~6,000 words), not exemplar.** 22 records, ~4,900 words, 13 sources on disk | See the archival reality check below — this is a structural finding for much of the universe, not a Walmart quirk |
+
+**Recommended boundaries (from the probe, to be defended or overturned by the fleet):**
+Stage 1 **1950 → 1970-10-01 IPO** (the 1950 start is Low confidence, memoir/Tier-3 only; the IPO is the
+one hard documentary boundary the record actually creates). Stage 2 1970-10 → FY1979/80, where the paper
+10-K era begins. Stage 3 1980 → 1992, provisional.
+
+### Archival reality check — the constraint that governs most of the universe
+
+Walmart's Tier-1 floor for 1962–1970 is nearly bare, and the reasons are general:
+
+- **EDGAR carries essentially nothing before 1994.** Walmart's index begins **1994-02-14**; its first
+  available 10-K is acc. 0000104169-95-000004. That is not a Walmart artifact — electronic filing
+  coverage for most registrants starts in the mid-1990s, so **any company whose formative period ends
+  before ~1994 has no searchable primary filing trail for it.**
+- **No web artifact before the mid-1990s** (Walmart: earliest 1996-12-29; Amazon's Stage 1 already
+  proved the same limit from the other direction — no archived page before 1998-12-12, and that a 302).
+- **Zero contemporaneous press surfaced through open web search** for the 1950–1970 period.
+- What survives is dated but weakly sourced: the company's own uncited timeline (which is citable as
+  self-narrative — its **documented silence on pre-1962 history is itself a finding**), 2004/2012
+  retrospectives, and the 1992 memoir.
+
+Consequence, stated plainly: **exemplar depth is achievable for the Amazon-class cases and impossible
+for most of the pre-1990s cohort without padding the file with lore** — which the method forbids
+(§42/§43). Applying it there would manufacture a document that looks like research.
+
+**Four targets carry all the upside for Walmart**, and until one lands the fleet stays off: paywalled
+or archival newspaper full text (Arkansas Gazette, Southwest Record, national trade press), the original
+1962 opening flyer, Arkansas Secretary of State entity records, and a 1970 prospectus facsimile.
+Untried avenues with real potential: Hagley Museum and Library business collections, archive.org's
+digitized annual-report and trade-journal runs, and university special collections — paper archives are
+where this period's evidence lives.
 
 Rule for parallel waves: a company may start only when its probe has returned a depth verdict, so that
 exemplar density is spent where archives can support it rather than padded with retelling.
