@@ -805,7 +805,7 @@ as such. Source labels are corrected per COR-01/COR-02: **S-1 (orig.)** = acc. 0
 | P14 | 1995-02-09 | Shares sold to Miguel A. Bezos / cash | 582,528 / $100,020.06 | shares / USD | S-1 Ex. 10.13 + Certain Transactions; DERIVED P.2 d4 | 1997-03-24 | FACT + DERIVED | High → U.15 |
 | P15 | 1995-07-24 | Shares sold to Gise Family Trust / cash | 847,716 / $145,552.84 | shares / USD | S-1 Ex. 10.14 + Certain Transactions; DERIVED P.2 d5 | 1997-03-24 | FACT + DERIVED | High |
 | P16 | 1995-12 | Shares sold to director Tom A. Alberg, price / cash | 150,000 at 0.3333 / 49,995 | shares, USD/share, USD | S-1 (orig.)/S-1/A No. 5, Certain Transactions, Item 5 | 1997-03-24 | FACT + DERIVED | High |
-| P17 | 1995-02 → 1995-12 | Implied internal price step-up | +94.1 (displayed prices) / +95.2 (exact ⅓) | % | DERIVED P.2 d6 | 1997-03-24 | DERIVED | High |
+| P17 | 1995-02 → 1995-12 | Implied internal price step-up | +94.1 (94.12 on the displayed prices; 94.14 on the filing's exact ⅓ — **both render +94.1**) | % | DERIVED P.2 d6 | 1997-03-24 | DERIVED | High |
 | P18 | CY1995 | Common-equity cash received (gross) | 1,272,000 | USD | S-1 (orig.)/S-1/A No. 5, Statements of Cash Flows l.3645; decomposition at the audited equity statement l.3545–3573 = $1,122,000 share sales + $150,000 advances + **$0 option proceeds** | 1997-03-24 | FACT (audited) | High |
 | P19 | CY1995 | Named related-party common purchases, total | 295,568 (±$5: $295,573 on the filing's exact ⅓) | USD | DERIVED P.2 d7 | 1997-03-24 | DERIVED | High (inputs) |
 | P20 | CY1995 | Residual equity cash from unnamed purchasers (**not** option holders: 1995 option exercises are filed at $0) | ≈$976,000 (±$1,000) | USD | DERIVED P.2 d8 — **identity UNKNOWN**; components disclosed at d8a: $5,408 (1995-08-07) + $150,000 (advances for unissued shares) + ≈$871,000 (2,613,000 unaffiliated program sh) − $50,000 (1994 advances applied) | 1997-03-24 | DERIVED | Low-Medium (identities) / High (arithmetic) |
@@ -878,10 +878,14 @@ annualisable — which holds on either convention. d4 `582,528 × 0.1717 = $100,
 **CORRECTED from $100,019.06 (AUDIT 3 HIGH): the earlier product was wrong by exactly $1.00.** Both inputs are
 filed (orig. l.2863–2864) and the price may itself be a rounded display, so this is a ≈, not a settled amount. d5
 `847,716 × 0.1717 = $145,552.8372 → **$145,552.84**` — **cent corrected from $145,552.83**, which was a
-truncation rather than a rounding. d6 `(0.3333 − 0.1717) ÷ 0.1717 = 0.9412 → **+94.1%**` on the DISPLAYED prices;
-on the filing's exact ⅓ ($1,007,000 ÷ 3,021,000) the same Feb→Dec step-up is **+95.2%**. **Sensitivity now stated
-(AUDIT 3):** the two are the same event under two price conventions, and that ±1.1 points is the band the sources
-support. d7 `100,020.06 + 145,552.84 + 49,995 = **$295,567.89 → $295,568**` — **the old note was INVERTED (AUDIT 3
+truncation rather than a rounding. d6 `(0.3333 − 0.1717) ÷ 0.1717 = 0.94118 → **+94.1%**` on the DISPLAYED
+prices; on the filing's exact ⅓ (`$1,007,000 ÷ 3,021,000 = 0.33333…`, orig. l.4301–4302) the same Feb→Dec step-up is
+`(0.33333 − 0.1717) ÷ 0.1717 = 0.94137 → **+94.1%**`. **THE "+95.2% (exact ⅓)" SENSITIVITY IS DELETED HERE
+(AUDIT 3 RECHECK F-1, RD-024 — a figure the first repair pass introduced, absent from the filing record):** it does
+not compute. The two conventions differ by **0.02 percentage points** (94.12 vs 94.14), not 1.1, so there is no
+±1.1-point band to state; to yield +95.2% the February price would have to be **$0.1708**, and the filed price is
+**$0.1717** (orig. l.2864). What the ⅓ does change is the *money*, not this ratio — see d7's ±$5 and d8a. Both inputs
+are filed; neither is a valuation. d7 `100,020.06 + 145,552.84 + 49,995 = **$295,567.89 → $295,568**` — **the old note was INVERTED (AUDIT 3
 MEDIUM):** it offered $295,567 as the sum and $295,568 as a "dossier rounding", when $295,568 is the accurate
 rounded total and $295,567 was the artifact of the bad d4 product. **Price convention stated:** on the filing's
 exact ⅓ for the Alberg leg ($50,000 rather than $49,995) the total is **$295,572.89**, so **±$5 is the only honest
@@ -890,11 +894,20 @@ precision** available on this row. d8 `1,272,000 − 295,568 = $976,432`, render
 thousand; on rounding alone the residual spans ≈$974,900–$977,900.** d8a **COMPOSITION, replacing the old wording
 "upper bound because it absorbs commingled option-exercise proceeds", which the audited equity statement
 contradicts:** 1995 option exercises are recorded at **$—** (120,000 shares, orig. l.3560–3562), so no option cash
-sits in this residual at all. Its disclosed components are `$5,408` (the 1995-08-07 employee purchase, Item 5 ¶3)
-`+ $150,000` (advances received for shares NOT yet issued at 1995-12-31, l.3556–3559 and l.3458) `+ ≈$871,024`
-(2,613,000 unaffiliated program shares at the filing's exact ⅓) `− $50,000` (1994 advances applied against 1995
-share sales at l.3535 and l.3546, i.e. cash already received in 1994) `= $976,432` ✓. **The identities behind
-≈$871,000 of it remain UNKNOWN.** d9 `102 ÷ 511 = 19.961%`, rendered **≈20.0%**, in the company's own words
+sits in this residual at all. Its disclosed components are `$5,408` (the 1995-08-07 employee purchase, Item 5 ¶3,
+l.4296) `+ $150,000` (advances received for shares NOT yet issued at 1995-12-31, l.3556–3559 and l.3458)
+`+ $871,000` (2,613,000 unaffiliated program shares on the filing's exact ⅓: `2,613,000 × ($1,007,000 ÷ 3,021,000)
+= 2,613,000 ÷ 3 = $871,000 **exactly**`, l.4301–4302) `− $50,000` (1994 advances applied against 1995 share sales at
+l.3535 and l.3546, i.e. cash already received in 1994) `= $976,408`. **THE `≈$871,024` THIS CELL PRINTED IS DELETED
+(AUDIT 3 RECHECK F-4, RD-027 — the first repair pass's label contradicted its own number):** $871,024 is not a
+product of the filing's ⅓ but a **balancing plug**, back-solved as `1,272,000 − 295,568 − 5,408 − 150,000 + 50,000`,
+then labelled "at the filing's exact ⅓" — which is false, because an actual third of 2,613,000 shares is
+**$871,000**. The composition therefore foots to **$976,408**, and the $24 gap to the $976,432 residual is accounted
+for rather than plugged: **$19** from the filed-thousands rounding of the equity line (`245,572.89 + 5,408 + 921,000
+− 50,000 + 150,000 = $1,271,980.89` against the filed `1,272`) and **$5** from the Alberg price convention
+(d7). Computed on exact prices throughout the two meet at **$976,408** — so this is a **band-level composition
+inside the row's ±$1,000**, not an exact tie, and no figure may be reverse-engineered to force one. **The identities
+behind ≈$871,000 of it remain UNKNOWN.** d9 `102 ÷ 511 = 19.961%`, rendered **≈20.0%**, in the company's own words
 "approximately 20%". d10 `200 + 171 + 35 = 406`, tying to the filed FY1995 operating-expense total. d11
 `304 ÷ 511 = 0.5949`, rendered **≈$0.59 (one decimal: $0.6) of loss per $1 of net sales**. d12
 `198 ÷ 511 = 38.7476%`, rendered **≈38.7%** — **false precision corrected (AUDIT 3 MEDIUM):** with both inputs
@@ -1060,7 +1073,7 @@ span is the re-based boundary; the **Start** column states the position at the f
 | Geography | **Start:** work attested in a Bellevue rental house; no lease of record before 1996-02-01. **End:** Seattle (SODO) per converging recollection; first address of record is the 1996-02-01 SODO sublease, and the 1997 HQ must not be imported backwards; $0 leasehold improvements at year end evidences an unbuilt-out footprint | S-1 (orig.), Ex. 10.31 + Note 5 [T1 · FACT]; HistoryLink [T2 · RETRO]; Kaphan [T3 · RETRO] | High (sublease); Medium (Bellevue); UNKNOWN (sq ft) → U.10 |
 | Organizational structure | **Start:** sole subscriber/officer; no board record; no employee. **End:** small officer set (Bezos President/Chairman; Kaphan VP R&D); Alberg buying equity and option packages in Dec 1995 before a June 1996 board seat; contractors used in editorial/operations/finance, unquantified; no union representation | S-1 (orig.), Management + Certain Transactions + Ex. 10.16 [T1 · FACT] | High → U.26, U.27 |
 | Risks (as the company itself later disclosed them) | **Start:** execution and funding risk, unspecified in any Stage-1 document. **End:** named in the 1997 filing — limited operating history, accumulated deficit, anticipated losses, vendor dependence with no contracts, four-to-six-week (or never) availability, single-site/no-redundancy, management-resource strain at 11 employees, an accumulated deficit the filing puts at $(248,000) at 1995-12-31, sales-tax and legal-uncertainty exposure | S-1 (orig.), Risk Factors + Notes [T1 · FACT; the disclosure is 1997 describing 1995-96] | High → U.22, U.40 |
-| Weaknesses (evidenced, not hindsight) | **Start:** — . **End:** unit economics: ~20% gross margin against 39% marketing-to-sales; dependence on a wholesaler with a ten-book minimum; multi-week waits undercut the "in print, in stock" line; **≈$19,400–$21,400 average net sales per trading week** (DERIVED at §P.2 d30 and carried in `quantitative.csv`; the single "~$21,000" this row previously printed was one END of the d24 period band presented as the figure — 511,000 ÷ (5.5 × 4.345) ≈ $21,383 versus 511,000 ÷ 26.3 ≈ $19,440) | S-1 (orig.), Selected Financial Data + Risk Factors [T1 · FACT + DERIVED]; Sheff [T2 · RETRO] for the minimum | High → U.22, U.25 |
+| Weaknesses (evidenced, not hindsight) | **Start:** — . **End:** unit economics: ~20% gross margin against 39% marketing-to-sales; dependence on a wholesaler with a ten-book minimum; multi-week waits undercut the "in print, in stock" line; **≈$19,400–$21,400 average net sales per trading week** (DERIVED at §P.2 d30 and carried in `quantitative.csv` as its own row — stage1, date 1995-12-31, metric "Average net sales per trading week, FY1995 (BAND, not a point)", value `19440-21383`, unit USD/week, class DERIVED; **that row was entered by this repair pass**, the first pass having cited a CSV row it never wrote — RECHECK F-3 / RD-025, which is how D19 is now closed; the single "~$21,000" this row previously printed was one END of the d24 period band presented as the figure — 511,000 ÷ (5.5 × 4.345) ≈ $21,383 versus 511,000 ÷ 26.3 ≈ $19,440) | S-1 (orig.), Selected Financial Data + Risk Factors [T1 · FACT + DERIVED]; Sheff [T2 · RETRO] for the minimum | High → U.22, U.25 |
 | Unknowns | **Start:** idea chronology; the 1994 planning document; the rename date. **End:** launch day; first transaction; order counts; all 1995 monthly curves; salaries; distributor terms; guarantee sizes; residual ≈$871,000 of un-named 1995 equity purchasers (identity — the components are now disclosed and itemised at d8a, the NAMES are not); bibliographic-data vendor; catalogue count at 1995-12-31; **the in-window portion of the $1,007,000 program, which stays UNKNOWN** with the candidate ≈$921,000 derivation recorded and NOT adopted at d25; the $1,000 gap between cash-paid and accrual Stage-1 capex (d15a) | Full §S register, this file [T1 · documented nulls] | UNKNOWN is the finding → §S |
 | Current strategy (in-period, as stated) | **Start:** not stated in any Stage-1 document. **End:** book-specific — broad selection via distributor-mediated on-order sourcing, discount pricing, convenience of search, "first mover advantages and momentum"; category breadth appears only as market context and later as a risk factor, not as a filed plan | S-1 (orig.), Business + Risk Factors [T1 · FACT]; press release dated 1995-10-04 [T1] | High → U.7, U.11 |
 | Current objective | **Start:** legal formation, staffing the build, securing card acceptance. **End:** convert a measured audience of ≈2,200 daily visits into repeat purchase while funding through private common-stock sales; **no quantified Stage-1 target has ever surfaced** (the "$100M by 2004" formulation is untraceable) | S-1 (orig.), MD&A + Certain Transactions [T1 · FACT]; null [T1 · documented] | High / UNKNOWN (target) |

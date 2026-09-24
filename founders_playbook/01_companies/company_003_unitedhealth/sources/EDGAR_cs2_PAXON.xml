@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+    <author>
+      <email>webmaster@sec.gov</email>
+      <name>Webmaster</name>
+    </author>
+    <company-info>
+      <addresses>
+        <address type="mailing" />
+        <address type="business">
+          <city>FREMONT</city>
+          <phone>510-770-2277</phone>
+          <state>CA</state>
+          <street1>CLIPPER COURT</street1>
+          <zip>94538</zip>
+        </address>
+      </addresses>
+      <cik>0001141191</cik>
+      <cik-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001141191&amp;owner=include&amp;count=40</cik-href>
+      <conformed-name>PAXONET COMMUNICATIONS INC</conformed-name>
+      <state-location>CA</state-location>
+      <state-location-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;State=CA&amp;owner=include&amp;count=40</state-location-href>
+    </company-info>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="REGDEX/A" />
+      <content type="text/xml">
+        <accession-number>9999999997-02-007565</accession-number>
+        <amend>[Amend]</amend>
+        <file-number>021-39477</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=021-39477&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2002-02-04</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1141191/999999999702007565/9999999997-02-007565-index.htm</filing-href>
+        <filing-type>REGDEX/A</filing-type>
+        <film-number>02013101</film-number>
+        <form-name>Notice of Sale of Securities [Regulation D and Section 4(6) of the Securities Act of 1933]</form-name>
+        <items-desc>item 06</items-desc>
+        <size>1 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=9999999997-02-007565</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1141191/999999999702007565/9999999997-02-007565-index.htm" rel="alternate" type="text/html" />
+      <summary type="html">&lt;b&gt;Film#:&lt;/b&gt; 02013101  &lt;b&gt;Filed:&lt;/b&gt; 2002-02-04 &lt;b&gt;AccNo:&lt;/b&gt; 9999999997-02-007565 &lt;b&gt;Size:&lt;/b&gt; 1 KB&lt;br&gt;Item 06: Rule 506</summary>
+      <title>REGDEX/A [Amend] [Paper] - Notice of Sale of Securities [Regulation D and Section 4(6) of the Securities Act of 1933]</title>
+      <updated>2002-02-04T00:00:00-05:00</updated>
+    </entry>
+    <id>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001141191</id>
+    <link href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;company=PAXON&amp;owner=include&amp;start=0&amp;count=40" rel="alternate" type="text/html" />
+    <link href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;company=PAXON&amp;owner=include&amp;start=0&amp;count=40&amp;output=atom" rel="self" type="application/atom+xml" />
+    <title>PAXONET COMMUNICATIONS INC  (0001141191)</title>
+    <updated>2026-09-24T04:39:53-04:00</updated>
+  </feed>

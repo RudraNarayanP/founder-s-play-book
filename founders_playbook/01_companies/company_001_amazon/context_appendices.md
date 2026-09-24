@@ -146,7 +146,9 @@ demonstrably bought was small, technical and skewed.*
   evidence about the environment, not about the company — the only "Amazon" in the August-1995 "What's New"
   listing is the river, so nothing in it may be read as an Amazon listing or reference [COR-08].
 - Friction: dial up; arrive via directory/search; read a deliberately low-graphics page; **type card and
-  shipping details into a form**, with off-line doors kept open because the form was not trusted — "either by
+  shipping details into a form**, with off-line doors kept open for the buyers the filing itself calls
+  "reluctant to enter their credit card numbers through the Web site" — a company-stated purpose for a channel,
+  not a measured effect, and the coda below grades its causal force **Low** — "either by
   e-mail or by telephone," "a toll-free line for customers who are reluctant to enter their credit card
   numbers through the Web site," nine published mailboxes (S-1; T1, FACT, High) [F-53; D-53; F-79]; a Knight
   Ridder wire of Nov 1995 describes card online, toll-free phone or fax (primary not retrieved; chain of
@@ -169,11 +171,15 @@ cannot exclude:** the phone line and mailboxes were ordinary order-capture and s
 fear-management, and the low-graphics page was modem prudence rather than an answer to card anxiety — no
 document says which, and no 1995 refusal or chargeback rate exists (§J.5). **Confidence:** High that the
 channels and the page constraint existed; Low that consumer distrust produced them; the barrier itself remains
-the company's claim. The demonstrable buyer (technical, practical, book-buying) is why the launch assortment,
-the low-graphics page and the phone number in every release were the design, not an afterthought — but that
-profile is assembled from **1996–97** items (the 1996 top-ten list, the May-1996 WSJ professor, the Sept-1996
-publisher's remark), so it dates the channel's audience and not the 1995 experiment, and is used here as
-environment rather than as Stage-1 validation.
+the company's claim. The demonstrable buyer (technical, practical, book-buying) is the only basis for the
+launch assortment that a period document actually states — the filed reason for starting with books is that
+"the demographic overlap between frequent book buyers and Internet users is high" [D-77, FOUNDER CLAIM,
+Medium] — and a low-graphics page plus a published telephone number are **consistent with** designing for such
+an audience, which is not the same as evidencing why they were chosen: **no in-window document states a design
+rationale for the page or for the phone line, and whether either converted anything is not knowable inside the
+boundary** (§H). That buyer profile is in any case assembled from **1996–97** items (the 1996 top-ten list, the
+May-1996 WSJ professor, the Sept-1996 publisher's remark), so it dates the channel's audience and not the 1995
+experiment, and is used here as environment rather than as Stage-1 validation.
 
 ---
 
@@ -215,8 +221,8 @@ Amazon publicly described itself as a catalog — "1 million," then "1.1 million
 the largest conventional bookstore" — with direct shipping, arguing against bookstores on shelf-space
 economics, not technology. The launch language adopted the catalogue form ("a catalogue of more than 1 million
 titles"), which is **consistent with** an audience already accustomed to buying sight-unseen by post — B&N
-self-described as the world's largest direct-mail book supplier — and that is the whole of the mechanism this
-section can name. **Whether it made the pitch legible, cheap to explain, or cheap to buy into is not
+self-described as the world's largest direct-mail book supplier. **Mechanism:** that pre-existing buying habit,
+and it is the whole of what this section can name. **Whether it made the pitch legible, cheap to explain, or cheap to buy into is not
 evidenced:** no in-window measure of catalogs mailed, catalog dollar sales or the return norm was retrieved, and
 1995 acquisition cost is UNKNOWN (`stage_1.md` §D.1, §M.9). **Alternatives the record does not exclude:** the
 pitch was legible because it was a discount catalogue in ordinary retail language, or because the 1995 press
@@ -311,7 +317,8 @@ document.*
   all of Mr. Bezos' guarantees as soon as possible following the closing of this offering" (S-1/S-1/A
   "Certain Transactions"; T1, FACT, High; corroborated across dossiers C, E, F, H) [H-07→H-09; C-56; F-22].
   Best-dated refutation of "no one could take cards online then": the rails existed and were opened in the
-  founding months, and the barrier was **credit and account approval**, not technology. Guarantee amounts,
+  founding months, and on this firm's own record the binding condition was **credit and account approval**,
+  taken personally, rather than the absence of technology. Guarantee amounts,
   merchant discount rates and reserves are **not disclosed** (UNKNOWN) [H-07; E].
 - **The rules are unknown, by documented absence.** No in-window primary source for **card-not-present**
   rules, chargeback liability allocation, or merchant-account underwriting of micro-merchants — the networks'
@@ -342,9 +349,21 @@ document.*
   shipment [D-53; D-54; F-53; F-79, FACT, High]. The August-1995 Mosaic listing in §B shows the same service
   sold to merchants — a bank merchant account plus a web form [F-72]. **No** money-back guarantee, security
   seal, certificate-authority badge or "100% secure — guaranteed" claim is evidenceable for Stage 1; the
-  earliest such homepage language is 1999-08-28 [D-22, High]. Borrowed credibility did the work: an Amazon
-  customer-service specialist, 1997-01-05, "If we hadn't been on the cover of The Wall Street Journal and most
-  people hadn't seen us as a solvent company, they wouldn't be handing us their credit cards" [D-56, Medium].
+  earliest such homepage language is 1999-08-28 [D-22, High]. **Whether credibility borrowed from press
+  substituted for the trust devices above is not established for Stage 1.** The only statement to that effect is
+  an Amazon customer-service specialist on **1997-01-05**: "If we hadn't been on the cover of The Wall Street
+  Journal and most people hadn't seen us as a solvent company, they wouldn't be handing us their credit cards"
+  [D-56, employee self-description, `RETROSPECTIVE SOURCE`, post-boundary, Medium]. It describes **1996**
+  trading and post-dates the Stage-1 boundary, so what it evidences is an attribution the company made about
+  itself, later, and not an effect on anyone; `stage_1.md` §M.9 rejects the structurally
+  identical "Washington Post credibility" mechanism as a documented null [D-57], §D.1's acquisition-channel row
+  grades the effect of every 1995 channel **UNKNOWN**, and §H's coda below states the same result in words —
+  "Whether borrowed credibility moved demand is UNKNOWN inside Stage 1." The company claimed those channels in
+  its 1995-10-04 release (§F, §H); no measured effect of any of them survives. **Mechanism:** none evidenced —
+  no order-source, refusal or chargeback data exists for 1995 (§J.5). **Alternative the record cannot exclude:**
+  the off-web channels, e-mail confirmation and the low-graphics page carried the transaction, and press
+  credibility operated, if at all, on later cohorts; the quotation cannot separate them. **Confidence:** High
+  that it was said, **UNKNOWN** that it is true of 1995 demand.
   On losses the silence is verified: searches of the S-1, S-1/A and 424B1 for "unfulfillable," "bad debt,"
   "chargeback" and "declined" returned **no customer-side payment-failure disclosure**, and no 1994–96
   fraud-loss rate was retrieved [D-65; I-40, UNKNOWN].
@@ -357,7 +376,15 @@ did not expect a fix before the end of 1996 — while the plan actually document
 controlled fulfilment, confirmed everything by e-mail and left off-line channels open, was. And because
 card-not-present rules, chargeback allocation, merchant underwriting, SSL's 1994–95 standing and
 export-control scope produced no retrievable in-window primary source, no claim here may assert what the
-networks formally required of a 1994 merchant.
+networks formally required of a 1994 merchant. **Mechanism:** the standards bodies' own expectation of a fix at
+end-1996 (the AP and IEEE *Cipher* items above) is what makes a mass-trust plan unreasonable on period
+evidence; nothing in this section names a mechanism by which the launch design converted that fact into
+orders. **Alternative the record cannot exclude:** the documented off-web channels, e-mail confirmation and
+low-graphics page were ordinary small-merchant practice rather than trust engineering, in which case the fit
+with the period's payment constraint is contingent and not designed (§B's coda, which grades consumer distrust
+as the producer of those channels **Low**). **Confidence:** High that no secure-payment standard was in force
+during Stage 1; **Medium** that the launch design responded to that fact; **UNKNOWN** that any of it moved
+demand.
 
 ---
 
@@ -424,6 +451,14 @@ publisher of host, user or subscriber counts is retrievable — the Web's *direc
 *scale* was not. That makes the circulating "2,300% a year" a founder claim of unestablished derivation
 rather than a period datum, and it means Stage-1 technical reasonableness is judged on the disclosed
 architecture and its disclosed dependencies, never on a later capability back-projected into 1995.
+**Mechanism:** mechanism UNKNOWN, deliberately — none is named and none is owed, because this coda asserts no
+consequence; it records measurement nulls and a method directive, and the one environment it does characterise
+(gatekeeper-mediated arrival) is §H's, where the effect of each channel is **UNKNOWN** and RD-031 is open.
+**Alternative the record cannot exclude:** that the polled hostnames and the cited user counts describe
+machines and definitions rather than audiences, in which case even the observable *direction* of the Web was
+softer evidence than the growth folklore takes it to be; nothing in-window tests that either.
+**Confidence:** High that the disclosed architecture and its
+dependencies are as filed; **UNKNOWN** what any of it yielded.
 
 ---
 
@@ -454,15 +489,23 @@ evidenced only by absence from the exhibit set.*
   directions**: absent from the corporate record and not disproved, since the negative is an argument from
   silence [I-28; §J.9].
 
-**So what.** The absence of institutional validation was no mark against the founder: the programs that later
-made two-person internet startups legible to institutions did not yet exist in this form, and the same silence
-bars the opposite counter-claim that "no investor would touch it" — neither proposition is evidence. What the
-record does establish is who engaged, and that they were commercial counterparties taking real risk on a
+**So what.** The absence of institutional validation is no mark against the founder: no in-window document
+retrieved here evidences an accelerator-, grant- or incubator-style program engaging a two-person 1994 web
+firm, and §J.9 records the 1994–95 Washington/Puget Sound landscape as unmapped, so absence from this record
+settles nothing about what existed either way; the same silence bars the opposite counter-claim that "no
+investor would touch it" — neither proposition is evidence. What the record does establish is who engaged,
+and that they were commercial counterparties taking real risk on a
 founder's personal credit: a bank merchant department (Seafirst from November 1994, Wells Fargo from July
 1995), two internet service providers, and a Seattle landlord whose 1995 rent was $12,000 for the year. The
-institutional environment is thus characterized by what was *not* there — no accelerator, no grant, no
-public-program document — and by the fact that the only institutional mechanisms open to a Subchapter S,
-two-person firm were private individuals and ordinary commercial contracts.
+institutional environment is thus characterized by what was *not* there on this file — no accelerator, no
+grant, no public-program document — and by what the exhibit set actually contains: individual-money agreements,
+a §4(2) placement, and commercial contracts with a card acquirer, two ISPs and a landlord. **Whether anything
+else was open to a Subchapter S, two-person Washington firm is UNKNOWN in both directions** (the "What is
+UNKNOWN" bullet above): the negative is an argument from silence, and no in-window inventory of the 1994–95
+Washington small-business scaffold was retrieved (§J.9). **Mechanism:** mechanism UNKNOWN — nothing on file can
+name a mechanism of exclusivity; the exhibit index evidences what was used, never what was available. **Alternative the record cannot exclude:** a public
+program, SBDC route or angel network that engaged firms like this one and left no trace in one company's
+exhibits. **Confidence:** High that these are the mechanisms on file, **UNKNOWN** that they were the only ones.
 
 ---
 

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+    <author>
+      <email>webmaster@sec.gov</email>
+      <name>Webmaster</name>
+    </author>
+    <entry title="ARRAY(0x55d356364570)">
+      <content type="text/xml">
+        <company-info name="ARRAY(0x55d356371ac0)">
+          <addresses>
+            <address type="business">
+              <city>EDEN PRAIRIE</city>
+              <phone>1-800-328-5979</phone>
+              <state>MN</state>
+              <street1>1 HEALTH DRIVE</street1>
+              <zip>55344</zip>
+            </address>
+            <address type="mailing">
+              <city>EDEN PRAIRIE</city>
+              <state>MN</state>
+              <street1>1 HEALTH DRIVE</street1>
+              <zip>55344</zip>
+            </address>
+          </addresses>
+          <cancelled-ma-flag>N</cancelled-ma-flag>
+          <cik>0000731766</cik>
+          <fiscal-year-end>1231</fiscal-year-end>
+          <irs-number>411321939</irs-number>
+          <last-date>2026-09-08</last-date>
+          <revoke-flag>N</revoke-flag>
+          <revoked-ma-flag>N</revoked-ma-flag>
+          <sic>6324</sic>
+          <state>MN</state>
+          <state-of-incorporation>DE</state-of-incorporation>
+        </company-info>
+      </content>
+      <id>urn:tag:www.sec.gov:cik=0000731766</id>
+      <link href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000731766&amp;owner=exclude&amp;hidefilings=0" type="text/html" />
+      <summary type="html">&lt;strong&gt;CIK:&lt;/strong&gt; 0000731766, &lt;strong&gt;State:&lt;/strong&gt; MN&lt;br /&gt;&lt;strong&gt;SIC:&lt;/strong&gt; HOSPITAL &amp;amp; MEDICAL SERVICE PLANS</summary>
+      <updated>2026-09-24T04:39:53-04:00</updated>
+    </entry>
+    <entry title="ARRAY(0x55d356375048)">
+      <content type="text/xml">
+        <company-info name="ARRAY(0x55d356090408)">
+          <addresses>
+            <address type="business">
+              <city>KING OF PRUSSIA</city>
+              <phone>610-768-3300</phone>
+              <state>PA</state>
+              <street1>UNIVERSAL CORPORATE CENTER</street1>
+              <street2>367 S. GULPH ROAD</street2>
+              <zip>19406</zip>
+            </address>
+            <address type="mailing">
+              <city>KING OF PRUSSIA</city>
+              <state>PA</state>
+              <street1>UNIVERSAL CORPORATE CENTER</street1>
+              <street2>367 S. GULPH ROAD</street2>
+              <zip>19406</zip>
+            </address>
+          </addresses>
+          <cancelled-ma-flag>N</cancelled-ma-flag>
+          <cik>0001513683</cik>
+          <fiscal-year-end>1231</fiscal-year-end>
+          <irs-number>621244469</irs-number>
+          <last-date>2026-08-13</last-date>
+          <revoke-flag>N</revoke-flag>
+          <revoked-ma-flag>N</revoked-ma-flag>
+          <state>PA</state>
+          <state-of-incorporation>TN</state-of-incorporation>
+        </company-info>
+      </content>
+      <id>urn:tag:www.sec.gov:cik=0001513683</id>
+      <link href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001513683&amp;owner=exclude&amp;hidefilings=0" type="text/html" />
+      <summary type="html">&lt;strong&gt;CIK:&lt;/strong&gt; 0001513683, &lt;strong&gt;State:&lt;/strong&gt; PA</summary>
+      <updated>2026-09-24T04:39:53-04:00</updated>
+    </entry>
+    <entry title="ARRAY(0x55d3563759d8)">
+      <content type="text/xml">
+        <company-info name="ARRAY(0x55d356371ad8)">
+          <addresses>
+            <address type="business">
+              <city>SCOTTSDALE</city>
+              <phone>602-885-8770</phone>
+              <state>AZ</state>
+              <street1>17600 N PERIMETER DR STE 150</street1>
+              <zip>85255</zip>
+            </address>
+            <address type="mailing">
+              <city>SCOTTSDALE</city>
+              <state>AZ</state>
+              <street1>17600 N PERIMETER DR STE 150</street1>
+              <zip>85255</zip>
+            </address>
+          </addresses>
+          <cancelled-ma-flag>N</cancelled-ma-flag>
+          <cik>0001567021</cik>
+          <fiscal-year-end>1231</fiscal-year-end>
+          <irs-number>461254524</irs-number>
+          <last-date>2013-11-05</last-date>
+          <revoke-flag>N</revoke-flag>
+          <revoked-ma-flag>N</revoked-ma-flag>
+          <state>AZ</state>
+          <state-of-incorporation>AZ</state-of-incorporation>
+        </company-info>
+      </content>
+      <id>urn:tag:www.sec.gov:cik=0001567021</id>
+      <link href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001567021&amp;owner=exclude&amp;hidefilings=0" type="text/html" />
+      <summary type="html">&lt;strong&gt;CIK:&lt;/strong&gt; 0001567021, &lt;strong&gt;State:&lt;/strong&gt; AZ</summary>
+      <updated>2026-09-24T04:39:53-04:00</updated>
+    </entry>
+    <entry title="ARRAY(0x55d3562e8f58)">
+      <content type="text/xml">
+        <company-info name="ARRAY(0x55d3563751f8)">
+          <addresses>
+            <address type="business">
+              <city>MINNETONKA</city>
+              <phone>952-936-1708</phone>
+              <state>MN</state>
+              <street1>9900 BREN ROAD EAST</street1>
+              <street2>MN008-T202</street2>
+              <zip>55343</zip>
+            </address>
+            <address type="mailing">
+              <city>MINNETONKA</city>
+              <state>MN</state>
+              <street1>9900 BREN ROAD EAST</street1>
+              <street2>MN008-T202</street2>
+              <zip>55343</zip>
+            </address>
+          </addresses>
+          <cancelled-ma-flag>N</cancelled-ma-flag>
+          <cik>0001310133</cik>
+          <last-date>2005-11-09</last-date>
+          <revoke-flag>N</revoke-flag>
+          <revoked-ma-flag>N</revoked-ma-flag>
+          <state>MN</state>
+        </company-info>
+      </content>
+      <id>urn:tag:www.sec.gov:cik=0001310133</id>
+      <link href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001310133&amp;owner=exclude&amp;hidefilings=0" type="text/html" />
+      <summary type="html">&lt;strong&gt;CIK:&lt;/strong&gt; 0001310133, &lt;strong&gt;State:&lt;/strong&gt; MN</summary>
+      <updated>2026-09-24T04:39:53-04:00</updated>
+    </entry>
+    <id>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;company=UNITED HEALTHCARE&amp;owner=include&amp;count=40</id>
+    <link href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;company=UNITED HEALTHCARE&amp;owner=include&amp;count=40&amp;start=0&amp;output=atom" rel="self" type="application/atom+xml" />
+    <link href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;company=UNITED HEALTHCARE&amp;owner=include&amp;count=40&amp;start=0" rel="alternate" type="text/html" />
+    <title>Company Search Feed</title>
+    <updated>2026-09-24T04:39:53-04:00</updated>
+  </feed>

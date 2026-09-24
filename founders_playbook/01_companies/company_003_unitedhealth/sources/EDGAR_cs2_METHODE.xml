@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+    <author>
+      <email>webmaster@sec.gov</email>
+      <name>Webmaster</name>
+    </author>
+    <company-info>
+      <addresses>
+        <address type="mailing">
+          <city>CHICAGO</city>
+          <state>IL</state>
+          <street1>744 WEST WILSON AVENUE</street1>
+          <zip>60656</zip>
+        </address>
+        <address type="business">
+          <city>CHICAGO</city>
+          <phone>7088679600</phone>
+          <state>IL</state>
+          <street1>7444 WEST WILSON AVENUE</street1>
+          <zip>60656</zip>
+        </address>
+      </addresses>
+      <cik>0000313059</cik>
+      <cik-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000313059&amp;owner=include&amp;count=40</cik-href>
+      <conformed-name>METHODE ELECTRONICS INC EMPLOYEE STOCK OWNERSHIP PLAN</conformed-name>
+      <state-location>IL</state-location>
+      <state-location-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;State=IL&amp;owner=include&amp;count=40</state-location-href>
+    </company-info>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="SC 13G/A" />
+      <content type="text/xml">
+        <accession-number>0000950131-97-000778</accession-number>
+        <amend>[Amend]</amend>
+        <filing-date>1997-02-12</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/313059/0000950131-97-000778-index.html</filing-href>
+        <filing-type>SC 13G/A</filing-type>
+        <form-name>Statement of Beneficial Ownership by Certain Investors</form-name>
+        <size>11 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000950131-97-000778</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/313059/0000950131-97-000778-index.html" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 1997-02-12 &lt;b&gt;AccNo:&lt;/b&gt; 0000950131-97-000778 &lt;b&gt;Size:&lt;/b&gt; 11 KB</summary>
+      <title>SC 13G/A [Amend]  - Statement of Beneficial Ownership by Certain Investors</title>
+      <updated>1997-02-12T00:00:00-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="SC 13G/A" />
+      <content type="text/xml">
+        <accession-number>0000950131-97-000779</accession-number>
+        <amend>[Amend]</amend>
+        <filing-date>1997-02-12</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/313059/0000950131-97-000779-index.html</filing-href>
+        <filing-type>SC 13G/A</filing-type>
+        <form-name>Statement of Beneficial Ownership by Certain Investors</form-name>
+        <size>11 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000950131-97-000779</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/313059/0000950131-97-000779-index.html" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 1997-02-12 &lt;b&gt;AccNo:&lt;/b&gt; 0000950131-97-000779 &lt;b&gt;Size:&lt;/b&gt; 11 KB</summary>
+      <title>SC 13G/A [Amend]  - Statement of Beneficial Ownership by Certain Investors</title>
+      <updated>1997-02-12T00:00:00-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="SC 13G/A" />
+      <content type="text/xml">
+        <accession-number>0000950131-96-000456</accession-number>
+        <amend>[Amend]</amend>
+        <filing-date>1996-02-13</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/313059/0000950131-96-000456-index.html</filing-href>
+        <filing-type>SC 13G/A</filing-type>
+        <form-name>Statement of Beneficial Ownership by Certain Investors</form-name>
+        <size>12 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000950131-96-000456</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/313059/0000950131-96-000456-index.html" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 1996-02-13 &lt;b&gt;AccNo:&lt;/b&gt; 0000950131-96-000456 &lt;b&gt;Size:&lt;/b&gt; 12 KB</summary>
+      <title>SC 13G/A [Amend]  - Statement of Beneficial Ownership by Certain Investors</title>
+      <updated>1996-02-13T00:00:00-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="SC 13G/A" />
+      <content type="text/xml">
+        <accession-number>0000950131-96-000457</accession-number>
+        <amend>[Amend]</amend>
+        <filing-date>1996-02-13</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/313059/0000950131-96-000457-index.html</filing-href>
+        <filing-type>SC 13G/A</filing-type>
+        <form-name>Statement of Beneficial Ownership by Certain Investors</form-name>
+        <size>12 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000950131-96-000457</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/313059/0000950131-96-000457-index.html" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 1996-02-13 &lt;b&gt;AccNo:&lt;/b&gt; 0000950131-96-000457 &lt;b&gt;Size:&lt;/b&gt; 12 KB</summary>
+      <title>SC 13G/A [Amend]  - Statement of Beneficial Ownership by Certain Investors</title>
+      <updated>1996-02-13T00:00:00-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="SC 13G/A" />
+      <content type="text/xml">
+        <accession-number>0000912057-95-000812</accession-number>
+        <amend>[Amend]</amend>
+        <filing-date>1995-02-16</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/313059/0000912057-95-000812-index.html</filing-href>
+        <filing-type>SC 13G/A</filing-type>
+        <form-name>Statement of Beneficial Ownership by Certain Investors</form-name>
+        <size>10 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000912057-95-000812</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/313059/0000912057-95-000812-index.html" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 1995-02-16 &lt;b&gt;AccNo:&lt;/b&gt; 0000912057-95-000812 &lt;b&gt;Size:&lt;/b&gt; 10 KB</summary>
+      <title>SC 13G/A [Amend]  - Statement of Beneficial Ownership by Certain Investors</title>
+      <updated>1995-02-16T00:00:00-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="SC 13G/A" />
+      <content type="text/xml">
+        <accession-number>0000912057-95-000814</accession-number>
+        <amend>[Amend]</amend>
+        <filing-date>1995-02-16</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/313059/0000912057-95-000814-index.html</filing-href>
+        <filing-type>SC 13G/A</filing-type>
+        <form-name>Statement of Beneficial Ownership by Certain Investors</form-name>
+        <size>10 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000912057-95-000814</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/313059/0000912057-95-000814-index.html" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 1995-02-16 &lt;b&gt;AccNo:&lt;/b&gt; 0000912057-95-000814 &lt;b&gt;Size:&lt;/b&gt; 10 KB</summary>
+      <title>SC 13G/A [Amend]  - Statement of Beneficial Ownership by Certain Investors</title>
+      <updated>1995-02-16T00:00:00-05:00</updated>
+    </entry>
+    <id>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000313059</id>
+    <link href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;company=METHODE&amp;owner=include&amp;start=0&amp;count=40" rel="alternate" type="text/html" />
+    <link href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;company=METHODE&amp;owner=include&amp;start=0&amp;count=40&amp;output=atom" rel="self" type="application/atom+xml" />
+    <title>METHODE ELECTRONICS INC EMPLOYEE STOCK OWNERSHIP PLAN  (0000313059)</title>
+    <updated>2026-09-24T04:39:54-04:00</updated>
+  </feed>

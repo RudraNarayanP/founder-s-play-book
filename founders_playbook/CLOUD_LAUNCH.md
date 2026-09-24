@@ -102,7 +102,9 @@ Created and verified against the live API (Global production, `https://api.qoder
 |---|---|---|
 | Environment | `env_00qc1l2f605xdtc6phw8` (`fp-research`) | **created.** `config.type: cloud`, `networking: unrestricted`, apt packages `git curl python3 jq ripgrep`, and an idempotent `setup_script` that clones this repo into `/workspace`. Note the server echoed `allow_package_managers: false` and `allow_mcp_servers: false` despite `unrestricted` — unverified until a session runs |
 | Agent | `agent_00qc1mmg4hg5crb4221c` (`fp-forensic-researcher`, version 1) | **created.** Model `qmodel_38max`, effort `xhigh`, context window 400000; `agent_toolset_20260401`; system prompt encodes §2/§3/§7/§9/§13/§14, the write-first rule, the never-delete rule, the 8+8 budget, and "a correction is a claim" |
-| Session | — | **BLOCKED — cannot be created** |
+| Session | — | **BLOCKED — cannot be created.** Retested 2026-09-24 via the connected QCA MCP (`create_session` on the saved agent + environment): **HTTP 402 again, no available credit.** Configuration is not the obstacle; billing is |
+| Fast-tier agent | `agent_00qef84cg9tz48t6w0c7` (`fp-forensic-researcher-fast`, version 1) | **created 2026-09-24.** Model `qfmodel` (Qwen3.8-Flash), effort `low`, 200k context, `agent_toolset_20260401`. Scoped by its system prompt to probes, register/dataset construction, mechanical merges, citation re-verification and sibling-defect sweeps; deep dossier authorship stays on the xhigh Max-tier agent |
+
 
 Blocker, verbatim from the API:
 

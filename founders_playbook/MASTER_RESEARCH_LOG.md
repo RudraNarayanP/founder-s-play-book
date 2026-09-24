@@ -402,7 +402,10 @@ Handling, and why:
 | Company | Class (feasibility register) | Stage 1 status | Notes |
 |---|---|---|---|
 | 001 Amazon | A — single founder, continuous entity | repair passes running (numbers); audits 1, 2, 4 returned, 4 failed-then-repaired | Evidence base local: 4 filings + 11 dossiers, ~1.02M words repo |
-| 002 Walmart | A, but origins predate 1962 entity | **Probe complete → depth verdict: FORENSIC-CORE (~6,000 words), not exemplar.** 22 records, ~4,900 words, 13 sources on disk | See the archival reality check below — this is a structural finding for much of the universe, not a Walmart quirk |
+| 002 Walmart | A, but origins predate 1962 entity | **Probe complete → depth verdict: FORENSIC-CORE (~6,000 words), not exemplar.** 22 records, ~4,900 words, 13 sources on disk | Fleet gated on four named escalation targets (paywalled Arkansas/trade newspaper full text, the 1962 opening flyer, Arkansas SoS entity records, a 1970 prospectus facsimile) and on paper archives |
+| 003 UnitedHealth | D-class candidate (merger origin; register says successor) | **probe running** 2026-09-24 — must resolve which of two predecessor entities is the origin, and whether spec §6's "first real-world experiment" is answerable for an insurance venture that sold coverage rather than shipping a product | EDGAR floor is mid-1994 for most filers; 1977–1999 evidence is likely paper, trade press and retrospection. The 1997–99 crisis may be the best-documented early period |
+| 004 Apple | A, single founders, continuous entity | **probe running** 2026-09-24 | 1976 founding predates EDGAR too, but the personal-computing trade press, museum/auction artifacts and the 1980 IPO are promising; the byte-shop ownership detail and the 50/40/10 split are classic lore candidates |
+
 
 **Recommended boundaries (from the probe, to be defended or overturned by the fleet):**
 Stage 1 **1950 → 1970-10-01 IPO** (the 1950 start is Low confidence, memoir/Tier-3 only; the IPO is the
