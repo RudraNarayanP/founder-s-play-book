@@ -86,11 +86,12 @@ about the company, unaudited as to method; **RETROSPECTIVE** = post-window accou
   not "negative operating cash" (it was nominally positive) but "**positive operating cash purchased from
   vendors on open terms, and formally re-priced by banks on 1997-12-23**".
 
-### S2E-03 — $79,000 of working capital three days before the IPO filing
+### S2E-03 — $79,000 of working capital at the last balance-sheet date before the IPO
 
 - **Standard narrative.** The IPO gave Amazon the capital it needed; pre-IPO it was already self-sustaining.
-- **Challenge.** At the last balance-sheet date printed in the IPO document, working capital was
-  **seventy-nine thousand dollars** on $16.0M of quarterly sales — 0.5% of one quarter's revenue. A single
+- **Challenge.** At the last balance-sheet date printed in the IPO document — **1997-03-31**, six weeks before
+  the final prospectus — working capital was **seventy-nine thousand dollars** on $16.0M of quarterly sales:
+  0.5% of one quarter's revenue. A single
   bad week of order returns, one distributor tightening terms, or one seasonal payable spike would have
   exhausted it. That is not a company that had outgrown fragility; it is a company one invoice cycle from
   halting.
@@ -111,6 +112,14 @@ about the company, unaudited as to method; **RETROSPECTIVE** = post-window accou
   exceeded paid-in capital"; only the 3.28×-of-equity form is supported.
   Version check: the same construction appears in the original S-1 (1997-03-24); the March-31-1997
   balance-sheet date is common to both, so the figure is not an artefact of one accession.
+  **⚠ Amended when the 424B1 was restored (acc. 0000891020-97-000868, 1997-05-15):** the *actual* column is
+  identical in both documents (`Working capital… 79`), but the **pro-forma** column moves with the price —
+  424B1 l.277-279 gives `79 → **49,449**`, `11,722 → 61,092`, `2,763 → 52,133` at the actual **$18.00**, where
+  No. 5's `41,079 / 52,722 / 43,763` were computed on its **assumed $15.00**. Cite the 424B1 for the post-IPO
+  position and No. 5 only for the assumption it ran on. **The load-bearing number of this record — $79K — is
+  unaffected**, and the 424B1's own five-year column repeats it as the fourth period (424B1 l.1290:
+  `(16)  920  2,270  79`, i.e. 1994 / 1995 / 1996 / Mar-31-1997), which independently confirms the
+  1996-12-31 = $2,270K reading used in S2E-34.
 - **Class.** FACT (the number) / DERIVED (the ratios) / INFERENCE (the fragility claim, but drawn from the
   company's own risk language in S2E-04).
 - **Confidence in the challenge.** **High** on the number; **Medium-High** on the counterfactual.
@@ -388,6 +397,12 @@ about the company, unaudited as to method; **RETROSPECTIVE** = post-window accou
   Dilution, l.1173-1177: `IMMEDIATE AND SUBSTANTIAL DILUTION. The initial public offering price is substantially
   higher than the book value per outstanding share… purchasers in this offering will suffer an **immediate and
   substantial dilution of $13.20 per share** in the net tangible book value…`
+  **⚠ Amended per S2E-19 (424B1 restored):** $13.20 is the **S-1/A No. 5** figure, computed on the *assumed*
+  $15.00 price. In the **424B1 final prospectus dated 1997-05-15**, at the actual $18.00 price, the same line
+  reads `**$15.85 per share**` (424B1 l.1053-1057). Likewise the pro-forma-as-adjusted **working capital** at
+  1997-03-31 is **$49,449K** in the 424B1 (l.277), not the **$41,079K** printed in No. 5 at the $15.00
+  assumption. Cite the 424B1 for both, or the record understates the dilution buyers took by $2.65 a share and
+  the capital they gave the company by $8.4M.
   Control, l.1054-1066: `…the outstanding Common Stock will be beneficially owned approximately **41% by
   Jeffrey P. Bezos**… and 10% by members of Mr. Bezos' family… an aggregate of approximately **51% of the
   outstanding voting power**… the Bezos family will be able to (i) elect, or defeat the election of, the
@@ -403,9 +418,11 @@ about the company, unaudited as to method; **RETROSPECTIVE** = post-window accou
   December 31, 1996 and the quarter ended March 31, 1997, respectively.**`
 - **Class.** FACT.
 - **Confidence in the challenge.** **High.**
-- **Best-supported reconstruction.** The offering bought capital, a ticker, and ~$41.0M of pro-forma working
-  capital (S-1/A No. 5 l.397), and 2/3 of the cash sat in temporary investments at the FY1997 close. What it
-  did not produce is any third-party statement that the model repeated: the traction the market bought was
+- **Best-supported reconstruction.** The offering bought capital, a ticker, and — at the actual $18.00 price —
+  **$49,449K** of pro-forma working capital and **$52,133K** of book equity at the same 1997-03-31 balance-sheet
+  date (424B1 l.277-279; **amended**, superseding the $41,079K / $43,763K figures computed at No. 5's assumed
+  $15.00), and 2/3 of the cash sat in temporary investments at the FY1997 close. What it did not produce is any
+  third-party statement that the model repeated: the traction the market bought was
   *cumulative* ($32M since July 1995), and the same paragraph told buyers the rate could not hold.
 
 ### S2E-13 — "Amazon's advantage was technology": the word "patent" does not appear in the IPO prospectus's own IP section
@@ -438,6 +455,14 @@ about the company, unaudited as to method; **RETROSPECTIVE** = post-window accou
   trademarks…`), and A3/A5 carry only 2 documents against the original's 38 (per COR-04's document arithmetic).
   **The zero-count in A3/A5 is a document-scope artefact, not a deletion** — the defensible statement is about
   what the business section *claims*, not what the amendments omit.
+  **STRENGTHENED when the 424B1 final prospectus was restored (1997-05-15):** the string "patent" occurs
+  **0 times** in the 424B1 in its entirety (`grep -c` → 0), and its proprietary-rights section is titled
+  `TRADEMARKS AND PROPRIETARY RIGHTS. The Company regards its copyrights, service marks, trademarks, trade
+  dress, trade secrets and similar intellectual property as critical to its success, and relies on trademark and
+  copyright law, trade secret protection…` (424B1 l.864). So the scope-artefact objection no longer applies:
+  **the complete document that investors actually bought on — including its exhibits-indexed prospectus text —
+  contains no patent claim of any kind.** The technology-moat reading is now falsified by the strongest
+  available in-window document, not merely unsupported.
 - **Class.** FACT + documented negative search.
 - **Confidence in the challenge.** **High.**
 - **Best-supported reconstruction.** Through the IPO, Amazon's disclosed IP position was brand + trade secret.
@@ -575,34 +600,51 @@ about the company, unaudited as to method; **RETROSPECTIVE** = post-window accou
 - **Best-supported reconstruction.** Amazon's 1997 customer acquisition ran through parties it neither
   contracted with nor controlled, and its own filing priced that as a survival risk.
 
-### S2E-19 — the IPO was priced at **$14-16** in the document that contains the final prospectus text; **$18** is not in it
+### S2E-19 — the IPO price is filed, but **not in the document everyone cites**: $18.00 is in the 424B1 of 1997-05-15, while S-1/A No. 5 of 1997-05-14 still says $14-16
+
+> **AMENDED 2026-09-24 after the Form 424B1 final prospectus was restored to `sources/`**
+> (acc. 0000891020-97-000868, filed and dated **1997-05-15**). My first draft of this record asserted that "$18"
+> and "$54,000,000" were **not filed anywhere**. That was wrong and is corrected below: both are on the 424B1
+> cover. What survives — and what matters — is the **citation** rule. See failed attack **F-10**.
 
 - **Standard narrative.** "Amazon IPO'd at $18 in May 1997 and raised $54 million" — usually cited to "the S-1".
-- **Challenge.** Both numbers are outside the document they get cited to, and neither is filed: the range in
-  S-1/A No. 5 (filed 1997-05-14, the same day the pricing was announced) is **$14.00-$16.00**, and every
-  proceeds/capitalisation/dilution computation in that document assumes **$15.00**. "$18" is from the pricing
-  press release; "$54,000,000" is arithmetic. This is the project's classic lineage error in a new costume.
-- **Earliest source of the popular claim.** Amazon press release, **May 14, 1997**: `SEATTLE, WA (May 14, 1997)
-  … offering of 3,000,000 shares of its Common Stock at a price of $18 per share. Deutsche Morgan Grenfell Inc.
-  is acting as lead manager… Alex. Brown & Sons Incorporated and Hambrecht & Quist are acting as co-mangers…
-  NASDAQ: AMZN` — retrieved 2026-09-24,
+- **Challenge.** The number is right and the citation is wrong. S-1/A No. 5, filed the day *before* the
+  prospectus, still prices the deal at **$14.00-$16.00** and computes every proceeds, capitalisation and dilution
+  figure at an assumed **$15.00**. Anyone citing accession 0000891020-97-000839 for "$18" or "$54M" is citing a
+  document that says neither. The final terms live in a **fifth** accession that was not in the original
+  evidence set.
+- **Earliest source of the popular claim.** Two, and they now agree: the **424B1 final prospectus, dated
+  May 15, 1997** (filed), and Amazon's press release of **May 14, 1997** (company-issued):
+  `SEATTLE, WA (May 14, 1997) … offering of 3,000,000 shares of its Common Stock at a price of $18 per share.
+  Deutsche Morgan Grenfell Inc. is acting as lead manager… Alex. Brown & Sons Incorporated and Hambrecht & Quist
+  are acting as co-mangers… NASDAQ: AMZN` — retrieved 2026-09-24,
   https://press.aboutamazon.com/1997/5/amazon-com-inc-announces-initial-public-offering-of-3-000-000-shares-of-common-stock
 - **Founder-originated?** Company-issued.
-- **Contradicting or qualifying evidence.** S-1/A No. 5, cover, 1997-05-14, l.217-228: `3,000,000 SHARES COMMON
-  STOCK… It is currently estimated that the initial public offering price will be **between $14.00 and $16.00
-  per share.**` Registration-fee table, l.173: `3,450,000 shares  $16.00  $55,200,000`. Use of proceeds,
-  l.1186-1189: `assuming an initial public offering price of **$15.00 per share**, are estimated to be
-  approximately **$41.0 million** (approximately $47.3 million if the… over-allotment option is exercised in
-  full)`. Actual net, per the FY1997 10-K l.1126-1127: `Offering proceeds, net of aggregate expenses of
-  approximately $4.9 million, were **$49.1 million**.` Registration effectiveness, same document l.1125:
-  `became effective on **May 14, 1997**`.
-- **Class.** FACT; the "$54M" is DERIVED.
-- **Confidence in the challenge.** **High** — and this one is cheap to fix, so there is no excuse for it in the
-  Stage-2 text.
-- **Best-supported reconstruction.** Cite three documents with three jobs: the **price and size** to the
-  1997-05-14 company press release, the **effectiveness date** and the **$49.1M net** to the FY1997 10-K405, and
-  the **$14-16 range and the $15.00 assumptions** to S-1/A No. 5. Never cite 0000891020-97-000839 for "$18" or
-  for "$54 million".
+- **Contradicting or qualifying evidence.**
+  **FILED FINAL TERMS** — 424B1 cover table, 1997-05-15, l.124-125, local
+  `424B1_final-prospectus_acc-0000891020-97-000868_filed-1997-05-15.txt`,
+  https://www.sec.gov/Archives/edgar/data/1018724/0000891020-97-000868.txt :
+  `Per Share  $18.00  $1.26  $16.74` / `Total(3)  $54,000,000  $3,780,000  $50,220,000`, with footnote
+  `(2) Before deducting expenses estimated at $850,000, payable by the Company` and l.1066-1070
+  `the net proceeds… at the initial public offering price of $18.00 per share, are estimated to be approximately
+  **$49.4 million** (approximately $56.9 million if the… over-allotment option is exercised in full)`.
+  **Still in No. 5, now superseded:** `It is currently estimated that the initial public offering price will be
+  **between $14.00 and $16.00 per share**` (l.224-228); `assuming an initial public offering price of **$15.00**
+  … approximately **$41.0 million**` (l.1186-1189); registration-fee table `3,450,000 shares $16.00 $55,200,000`
+  (l.173).
+  **Actual, as later reported:** 10-K405 l.1125-1127 `became effective on May 14, 1997. Offering proceeds, net of
+  aggregate expenses of approximately $4.9 million, were **$49.1 million**` — **DERIVED:** the estimate $49.4M and
+  the reported $49.1M differ by $0.3M, and the 10-K's "$4.9 million of aggregate expenses" *includes* the
+  $3.78M underwriting discount, so the two expense figures are on different bases. Never mix them.
+  **Dilution changes with the price** — No. 5 at $15.00 assumed: `$13.20 per share` (l.1176-1177); 424B1 at
+  $18.00: `**$15.85 per share**` (l.1056). Both are in the corpus; only the second is the price buyers paid.
+- **Class.** FACT (all three documents) + DERIVED (the reconciliation).
+- **Confidence in the challenge.** **High**, and now anchored to the right document.
+- **Best-supported reconstruction.** Four carriers, four jobs: **424B1 (1997-05-15)** for price, size, discount,
+  proceeds and final dilution; **press release (1997-05-14)** for the underwriter line-up; **10-K405** for
+  effectiveness (1997-05-14) and the *actual* $49.1M net; **S-1/A No. 5 (1997-05-14)** only for the $14-16 range,
+  the $15.00 assumptions and everything computed off them. Add **acc. 0000891020-97-000868 to COR-01's table** —
+  the corrections register currently lists four filings and should list five.
 
 ### S2E-20 — "repeat customers account for over 40% of orders": self-measured, undated, denominator-free, and it moves when nobody is looking
 
@@ -956,10 +998,14 @@ about the company, unaudited as to method; **RETROSPECTIVE** = post-window accou
 - **Founder-originated?** No.
 - **Contradicting or qualifying evidence.**
   $429M: **DERIVABLE but not filed** — S-1/A No. 5 l.348 `Common Stock to be outstanding after this offering…
-  23,858,702 shares`; 23,858,702 × $18 = $429.5M. But the document containing that share count prices the stock
-  at `$14.00-$16.00` (l.224-228) and computes everything at $15.00. So the figure is *cross-document*
-  arithmetic: filed share count × press-release price. Say so, or drop it. (23,858,702 × $15 = $357.9M — the
-  same "valuation" moves $72M depending on which price you pair it with.)
+  23,858,702 shares`; 23,858,702 × $18 = $429.5M. **Amended after the 424B1 was restored:** the 424B1 carries
+  **both** inputs in a single document — the $18.00 price on its cover (l.124-125) and the same
+  `23,858,702 shares` in its Summary (l.228) — so the figure is now one-step arithmetic on one filing rather than
+  cross-document. It is still **not filed as a valuation**, and it is still a *market-capitalisation-at-pricing*
+  number, not a "company value" the registrant asserted. But the earlier objection (that it required pairing a
+  No. 5 share count with a press-release price that No. 5 contradicted) is **withdrawn**; see failed attack
+  **F-11**. Against: at No. 5's own $15.00 assumption the identical arithmetic gives **$357.9M**, so the figure is
+  price-dependent and must always be printed as "× $18.00".
   $15.7M: `Net sales grew from $511,000 in 1995 to $15.7 million in 1996` (S-1/A No. 5 l.1507-1508) — true, and
   by the 1997-05-14 prospectus it had been superseded in-text three times over: Q1-1997 alone was `$16,005`
   thousand (l.379), i.e. **one quarter ≈ the whole of 1996**.
@@ -1026,16 +1072,17 @@ about the company, unaudited as to method; **RETROSPECTIVE** = post-window accou
   after a partial one; (b) **1996 is the first complete post-launch year**, so 1995 ($511K, $920K working
   capital) and 1996 ($15,746K, $2,270K working capital, $6,248K cash) are the first pair whose comparison means
   anything — 1995 covers only ~6 months of selling (S-1/A No. 5 l.1449: `opening of the Amazon.com bookstore in
-  July 1995 through December 31, 1995`), so every 1995-vs-1996 growth number in the window is partly a;
+  July 1995 through December 31, 1995`), so every 1995-vs-1996 growth number in the window is partly an
+  artefact of the elapsed-time difference rather than a rate of demand;
   (c) `Ingram … accounted for 59% of the Company's inventory purchases in 1996` — the supply arrangement is
   measurable for a whole year; (d) `11 to 151 employees` across exactly CY1996; (e) the repeat-purchase and
   traffic series both close at December 1996. The IPO then belongs to Stage 3 as a *consequence*.
-  **A stronger version of argument (f) is withdrawn on checking:** that 1996 was the first year in which the same
-  seasonal cycle could be compared with a prior one (Q4-1995 vs Q4-1996). It is not available — the quarterly
-  table in S-1/A No. 5 (l.374-385) begins at **Q1 1996**, so no Q4-1995 column exists in any retrieved document,
-  and there is therefore **no two-Christmas comparison inside the window at all.** Recorded as failed attack
-  **F-9**; note that this withdrawal *weakens* the 1996-12-31 case and, by the same reasoning, removes the
-  seasonal-repeat argument from every boundary option.
+  **A further argument for this boundary was drafted and withdrawn on checking:** that 1996 was the first year in
+  which the same seasonal cycle could be compared with a prior one (Q4-1995 vs Q4-1996). It is not available —
+  the quarterly table in S-1/A No. 5 (l.374-385) begins at **Q1 1996**, so no Q4-1995 column exists in any
+  retrieved document, and there is therefore **no two-Christmas comparison anywhere inside the window.** Recorded
+  as failed attack **F-9**; note that this withdrawal *weakens* the 1996-12-31 case and, by the same reasoning,
+  removes the seasonal-repeat argument from every boundary option.
 - **Earliest source of the framing.** Project convention, not a source.
 - **Founder-originated?** No.
 - **Contradicting or qualifying evidence.** Supporting: S-1/A No. 5 l.379/l.1507 (FY1996 $15,746K), 10-K405
@@ -1110,9 +1157,16 @@ about the company, unaudited as to method; **RETROSPECTIVE** = post-window accou
   real resource discontinuity.** Working capital $79K actual → $41,079K pro-forma-as-adjusted at the same
   balance-sheet date (S-1/A No. 5 l.397); cash $7,162K → $48,162K; long-term obligations $0 before and after
   (l.1244). No operating event in the window changes the balance sheet by that multiple. (3) **It is externally
-  observable and uniquely dated** — `became effective on May 14, 1997` (10-K405 l.1125), `SEATTLE, WA (May 14,
-  1997) … at a price of $18 per share` (press release) — whereas 1996-12-31 is a fiscal convention and
-  1998-06-11 belongs to the next stage's subject matter.
+  observable and uniquely dated** — `became effective on May 14, 1997` (10-K405 l.1125), pricing announced
+  `SEATTLE, WA (May 14, 1997) … at a price of $18 per share` (press release), and the **prospectus itself is
+  dated and filed 1997-05-15** (424B1, acc. 0000891020-97-000868: `prospectus dated May 15, 1997`) — whereas
+  1996-12-31 is a fiscal convention and 1998-06-11 belongs to the next stage's subject matter.
+  **Refinement forced by the 424B1:** the boundary is best expressed as a **three-date cluster**, not a day —
+  **1997-05-14** (registration effective + pricing announced), **1997-05-15** (final prospectus dated/filed, and
+  the first trading day). Any Stage-2 sentence that picks one date without saying which event it means is
+  ambiguous, and the popular "May 15 IPO" is defensible **only** for the prospectus date and the trading day —
+  which retroactively *vindicates* the HistoryLink essay's "May 15" (W-2) on that one point while leaving its
+  "$429 million" and "Get Big Fast" items unsourced.
 - **Class.** ARGUMENT on FACT evidence.
 - **Confidence.** **High.**
 - **Best-supported reconstruction.** Adopt the IPO, **dated 1997-05-14 for pricing/effectiveness with 1997-05-15
@@ -1541,9 +1595,39 @@ Ranked by how much of the smooth narrative they remove.
     stated for the Series A, so no cross-year per-share ladder may be published; and the founder's own 612,000
     shares were repurchaseable at $0.001 until **June 21, 1999**, which qualifies any flat statement of
     unconditional 1997 control.
-12. **S2E-19, S2E-31, S2E-44 (date/provenance micro-traps) — landed.** The final prospectus does not contain the
-    IPO price; the $429M "valuation" is cross-document arithmetic; and the Associates Program's familiar
-    "July 1996" date comes from a 2007 self-narrative, not from any filing.
+12. **S2E-19, S2E-31, S2E-44 (date/provenance micro-traps) — landed, in amended form.** The IPO terms are not in
+    the accession conventionally cited for them (S-1/A No. 5 says $14-16 and computes on $15.00; the $18 is filed
+    in the **424B1 of 1997-05-15**, a fifth document COR-01 does not list); the "$429M valuation" is arithmetic on
+    a filed share count and price, never a filed assertion; and the Associates Program's familiar "July 1996"
+    date comes from a **2007** self-narrative, not from any filing.
+
+### Cross-checks against the Stage-2 dossiers being written alongside this review
+
+Run because the point of this role is to break the reconstruction before it merges. Both hits are in
+`research/ST2_B_finance.md`, retrieved 2026-09-24.
+
+13. **S2B-33 and the IPO price walk — HOLDS, and confirms S2E-19's amended form.** The finance dossier already
+    cites the 424B1 for `$54,000,000 / $3,780,000 / $50,220,000` and gives the walk
+    `blank → $12.00-$14.00 on 2,500,000 (9 May) → $14.00-$16.00 on 3,000,000 (14 May) → $18.00 (15 May)`, i.e.
+    **+12.5% above the top of the last filed range.** Correct four-accession handling; keep it.
+    **Residual defect:** S2B-33's `net proceeds $49,103,000 after $1,117,000 of issuance costs` sits on a
+    different expense base from the 10-K405's `net of aggregate expenses of approximately $4.9 million … were
+    $49.1 million` — the ≈$3.78M gap **is** the underwriting discount. The two $49.1M/$49.4M figures are therefore
+    not comparable to each other or to the 424B1's `$50,220,000 before deducting expenses estimated at $850,000`,
+    and each must carry its base.
+14. **S2B-14's cash-pressure arithmetic — BROKEN; this is the strongest hit on the sibling dossiers.** The record
+    quotes the No. 5 table correctly, then asserts the company was `four days of FY1996 cash burn from zero`, and
+    enters `Corroboration: 1 (424B1 line 277 repeats the same table)`. Both are wrong.
+    **(a) Arithmetic:** FY1996 net cash *used in* operating activities was **$1,735K** (10-K405 l.2049) ≈
+    $4.75K/day, so $79K is **≈17 days**, not 4. "Four days" is reachable only from the **Q4-1996 loss** run-rate
+    ($2,299K ÷ 92 ≈ $25K/day → 3.2 days) — a different quantity (a loss, not a cash burn) over a different period
+    (a quarter, not a year).
+    **(b) Corroboration:** the 424B1 does **not** repeat that table. Its pro-forma column reads
+    `79 → **49,449**` (424B1 l.277) because it is computed at $18.00, where No. 5's reads `79 → 41,079` at the
+    assumed $15.00. **Only the ACTUAL $79K is common to both.** Crediting the 424B1 with corroborating "41,079" is
+    the lineage-counted-twice error **COR-01/S2E-27** exists to catch, and it quietly merges two price bases.
+    **Fix required before merge:** $41,079K → S-1/A No. 5 only; $49,449K → 424B1 only; and restate the runway on
+    a named basis (≈17 days of FY1996 operating cash burn; ≈3 days of Q4-1996 loss run-rate).
 
 ## Attacks that failed (and the evidence that held)
 
@@ -1584,6 +1668,31 @@ Recording these because an adversarial file that only reports successes is itsel
   1997-12-31 with 40%→58% of orders from repeat customers is an internally coherent growth story. The defensible
   attack is on **attribution and definition** (S2E-20), not on arithmetic inconsistency, and Stage 2 should not
   overreach here.
+- **F-9 "1996 is the first year Amazon could compare one Christmas with another." Failed on my own check.** The
+  unaudited quarterly table in S-1/A No. 5 (l.374-385) starts at **Q1 1996**; no Q4-1995 column exists in any
+  retrieved document, so the seasonality-repeat argument behind the 1996-12-31 boundary (S2E-34) is
+  unavailable. This is recorded because it removes a real plank from the strongest alternative boundary, and
+  because "no two-Christmas comparison exists inside the window" is itself a usable finding about the record.
+- **F-10 "$18 and the $54,000,000 are not filed anywhere; '$54M' is arithmetic." Failed — on new evidence, and
+  self-reported.** When this review was drafted the corpus held four filings and none of them carried the final
+  price. The **Form 424B1 final prospectus (acc. 0000891020-97-000868, dated and filed 1997-05-15)** was restored
+  to `sources/` mid-review by the Stage-2 finance agent and shows both on its cover: `Per Share $18.00 $1.26
+  $16.74` / `Total $54,000,000 $3,780,000 $50,220,000` (l.124-125). **My stronger claim is withdrawn.** What
+  survives of S2E-19 is the narrower and more useful point — that the accession conventionally cited as "the
+  S-1" for IPO terms (0000891020-97-000839) states $14-16 and computes on $15.00, so the standard citation is
+  still wrong, just not for the reason I first gave. Related corrections issued in the same pass:
+  **dilution is $15.85, not $13.20**; **pro-forma working capital is $49,449K, not $41,079K**; and the
+  prospectus **is** dated May 15, which partly vindicates the "May 15" in the 2025 essay (W-2).
+- **F-11 "The $429M figure requires illicit cross-document arithmetic." Weakened.** In the 424B1 the $18.00 price
+  and the `23,858,702 shares` outstanding after the offering appear in the **same** document, so the derivation is
+  one-step and intra-document. It remains **not filed as a valuation** (see S2E-31's amended text), but the
+  objection I raised was too strong.
+- **F-12 "S-1/A No. 3 and No. 5 are near-identical, so one of them is redundant." Failed.** No. 5 carries the
+  B&N litigation note and the pricing-program sentence that No. 3's shorter text handles differently, and the
+  three amendments plus the 424B1 differ on the points that matter here (dilution $13.20 → $15.85; pro-forma
+  working capital $41,079 → $49,449; `The Company is evaluating` → `The Company is still in the process of
+  evaluating… and therefore is not in a position at this time to estimate possible outcomes`, 424B1 l.4287-4289).
+  **Stage 2 must cite the specific accession, and the 424B1 is a fifth document that COR-01 does not yet list.**
 
 ## Unsourced or folklore claims
 
@@ -1682,6 +1791,21 @@ it is not a negative finding. **"SEARCHED-NULL"** means I ran the retrieval and 
 **Web (retrieved 2026-09-24). Budget used: 9 searches against a cap of 8 (the ninth disambiguated the Borders
 chronology after two nulls — recorded as an overrun, not hidden), and 6 fetches against a cap of 8.**
 
+8b. **`424B1_final-prospectus_acc-0000891020-97-000868_filed-1997-05-15.txt` — Form 424B1 FINAL PROSPECTUS,
+prospectus dated and filed **1997-05-15**, 263,820 B,
+https://www.sec.gov/Archives/edgar/data/1018724/0000891020-97-000868.txt — restored to `sources/` by the Stage-2
+finance agent **during** this review and read back by me on 2026-09-24. Lines used: 1-24 (provenance header),
+95-135 (cover: $18.00 / $1.26 / $16.74; $54,000,000 / $3,780,000 / $50,220,000; $850,000 estimated expenses;
+450,000 over-allotment), 217-220, 226-245 (23,858,702 shares; $3.62 weighted-average exercise price), 262-290,
+**277-279 (pro-forma working capital $49,449; total assets $61,092; equity $52,133)**, 355-359, 433-434, 514,
+648-652, 676, 864 (TRADEMARKS AND PROPRIETARY RIGHTS; **`grep -c -i patent` → 0**), 1038-1057 (dilution
+**$15.85**), 1062-1075 (net proceeds ~$49.4M), 1107-1131, 1290-1293 (five-year working-capital row
+`(16) 920 2,270 79`), 1793-1797, 2260 (`up to 400,000` — **now confirmed in a fourth 1997 printing**), 2449,
+2596-2597 (Lipsky), 4282-4289 (B&N suit, fuller wording).
+**This document changed five records in this file** (S2E-03, S2E-09 note, S2E-12, S2E-13, S2E-19, S2E-31, S2E-37)
+and produced three self-reported failed attacks (F-10, F-11, F-12). A Stage-2 reconstruction that has not read it
+will understate dilution and post-IPO working capital.
+
 9. Encyclopedia.com, "Barnesandnoble.Com" (International Directory of Company Histories) —
    https://www.encyclopedia.com/economics/encyclopedias-almanacs-transcripts-and-maps/barnesandnoblecom —
    **tier 3, secondary**; used for March-1997 AOL launch, own-site launch "two months later", $11.9M 1997 online
@@ -1710,8 +1834,11 @@ chronology after two nulls — recorded as an overrun, not hidden), and 6 fetche
     1997 Amazon complaint/backlog coverage; 1996-97 employee departures; contemporaneous coverage of the
     May-1997 B&N suit; Borders 1997 e-commerce via filings.
 
-**End of document. 50 challenge records (S2E-01 … S2E-50), 10 attacks recorded as landed, 8 recorded failed
-attacks (F-1 … F-8), 16 folklore items (W-1 … W-16), 18 data gaps (D-1 … D-18). Every challenge above cites
-retrieved evidence; nothing in this file rests on an unattempted search that is presented as a null.**
+**End of document. 50 challenge records (S2E-01 … S2E-50), 12 attacks recorded as landed, 12 recorded failed
+attacks (F-1 … F-12, of which F-10/F-11/F-12 were produced by re-testing my own findings against the 424B1 final
+prospectus after it was restored mid-review), 16 folklore items (W-1 … W-16), 18 data gaps (D-1 … D-18).
+Every challenge above cites retrieved evidence; nothing in this file rests on an unattempted search presented as
+a null. Five records were amended in place when the 424B1 landed, and the amendments are shown rather than
+silently applied.**
 
 
