@@ -48,6 +48,16 @@ retrospective-only), **UNKNOWN** (no evidence recovered).
 
 Independence rule: repeated copying of one origin story is **one** source, not many.
 
+**Filing-lineage rule (from AUDIT 5 on Amazon Stage 1).** Documents inside the same registration
+lineage — an S-1 and its amendments, a prospectus and the filing that superseded it, or exhibits to
+the same accession — are **one source**, however many files they are. Two agents counted a figure as
+"corroborated in the original S-1 and in S-1/A No. 5" when the second is the same instrument
+refiled. The same holds for a company's own reprinted history pages and its filings when both trace
+to the same corporate record. Corroboration means an **independent origin**: an SEC accession, an
+auditor's report, a contemporaneous newspaper that did not use the filing, a court record, an
+unrelated third party's data. Where only the lineage exists, confidence is capped at what a single
+document supports and `independence_note` says `same lineage as S00xx`.
+
 ## 4. Legal / access boundary
 
 Public information only: filings, court and corporate registry records, patents, archived

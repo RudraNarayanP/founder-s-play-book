@@ -1,0 +1,91 @@
+name: nightly-periodical-harvest
+
+# Runs the corpus harvester with no local machine involved.
+# Motivation: Chronicling America and HathiTrust returned 403 bot-challenges from the
+# development network, while the tool's own README notes that re-running from unblocked
+# egress needs no code change. This workflow is that second attempt, and thereafter the
+# weekly refresh that keeps pre-1994 evidence gathering off every research agent's budget.
+
+on:
+  schedule:
+    - cron: '17 6 * * *'          # daily 06:17 UTC, off the hour to avoid load spikes
+  workflow_dispatch:               # manual run, no schedule needed
+    inputs:
+      max_requests:
+        description: 'Hard cap on network requests for this run'
+        required: false
+        default: '200'
+      dry_run:
+        description: 'Print planned URLs without fetching (true/false)'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write                  # commit harvested evidence back to main
+
+concurrency:
+  group: harvest
+  cancel-in-progress: false
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Plan (dry run, always)
+        env:
+          MAXR: ${{ github.event.inputs.max_requests || '200' }}
+        run: python tools/periodical_harvest.py --dry-run --max-requests "$MAXR"
+
+      - name: Harvest
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        env:
+          MAXR: ${{ github.event.inputs.max_requests || '200' }}
+        run: python tools/periodical_harvest.py --max-requests "$MAXR"
+
+      - name: Report per-family outcome counts
+        if: always()
+        run: |
+          if [ -f founders_playbook/00_universe/harvest/candidates.csv ]; then
+            python - <<'PY'
+          import csv, collections
+          p = 'founders_playbook/00_universe/harvest/candidates.csv'
+          rows = list(csv.DictReader(open(p, encoding='utf-8')))
+          c = collections.Counter(r.get('classification', '?') for r in rows)
+          print(f'candidate rows: {len(rows)}')
+          for k, v in sorted(c.items()):
+              print(f'  {k}: {v}')
+          print('reminder: UNANSWERED means blocked or untried, NOT a null result.')
+          PY
+          else
+            echo 'no candidates.csv produced by this run'
+          fi
+
+      - name: Commit new evidence
+        run: |
+          git config user.name  "harvest-bot"
+          git config user.email "harvest-bot@users.noreply.github.com"
+          git add founders_playbook/00_universe/harvest tools || true
+          if ! git diff --staged --quiet; then
+            git commit -m "Nightly harvest: corpus evidence refresh from scheduled runner"
+            git pull --rebase origin "${{ github.ref_name }}"
+            git push origin "HEAD:${{ github.ref_name }}"
+          else
+            echo "no changes to commit"
+          fi
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: harvest-run
+          path: |
+            founders_playbook/00_universe/harvest/_MANIFEST.md
+            founders_playbook/00_universe/harvest/candidates.csv
+          retention-days: 14
+          if-no-files-found: ignore
