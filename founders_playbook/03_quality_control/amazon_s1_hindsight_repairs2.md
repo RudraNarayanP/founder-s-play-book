@@ -1,6 +1,6 @@
 # Findings Sheet — Amazon.com (company_001_amazon) · Stage 1 · Hindsight Repair, Round 2
 Written: 2026-09-24. Author: **Level-2 Company Lead (hindsight repair, round 2)**.
-Target repaired: `01_companies/company_001_amazon/context_appendices.md` (**10,137 → 10,810 w; 616 → 662 ll.**;
+Target repaired: `01_companies/company_001_amazon/context_appendices.md` (**10,137 → 10,813 w; 616 → 659 ll.**;
 soft target §9.2 is 40,000 w, so no geometry defect is introduced).
 Binding reads: `00_METHOD_AND_STYLE.md` **§2** (hindsight firewall + the record-selection null added today), **§6**,
 **§7** including the new rule that interpretive codas carry evidence–mechanism–alternative–confidence, §13, §14.4;
@@ -52,7 +52,7 @@ from the filing and no Stage-1 proposition attached).
 | **4** | §E **ll. 379–387** (coda) | reason clause only ("since the standards bodies themselves did not expect a fix before the end of 1996"), no labels | labelled **Mechanism** (the end-1996 expectation is what makes a mass-trust plan unreasonable on period evidence — and *nothing here names a mechanism by which the design converted that into orders*), **Alternative** (the channels were ordinary small-merchant practice, so the fit is contingent not designed — §B's coda grades distrust-as-producer **Low**), **Confidence** (High no standard in force; **Medium** the design responded; **UNKNOWN** that any of it moved demand) | §7 as amended. Substance was sound; the labelling was missing. **Named (N-03)** |
 | **5** | §B **ll. 148–153** | "off-line doors kept open **because the form was not trusted**" | "kept open for the buyers **the filing itself calls** 'reluctant to enter their credit card numbers through the Web site' — a company-stated purpose for a channel, not a measured effect, and the coda below grades its causal force **Low**" | Dataset-voice cause stated in a bullet whose own coda says "Low that consumer distrust produced them" (§7's CA-5 lineage) — the bullet/coda inversion N-02 shows in §G, in the opposite direction |
 | **6** | §B coda **ll. 174–182** | "The demonstrable buyer … **is why** the launch assortment, the low-graphics page and the phone number in every release were the design, not an afterthought" | the buyer profile is "the only basis for the launch assortment that a period document actually states" — the filed reason being "the demographic overlap between frequent book buyers and Internet users is high" [D-77, FOUNDER CLAIM, Medium] — page and phone number **consistent with** designing for it, "**no in-window document states a design rationale for the page or for the phone line**, and whether either converted anything is not knowable inside the boundary (§H)" | **Sibling found by the sweep.** An unsupported motive/efficacy claim sitting *after* the coda's confidence label, i.e. outside the quad it was inside the labels for; the D-77 rationale it replaces was already in the same section's bullets, so this is re-framing |
-| **7** | §E **ll. 313–315** | "the barrier **was** credit and account approval, not technology" | "on **this firm's own record** the binding condition **was** credit and account approval, taken personally, rather than the absence of technology" | **Sibling found by the sweep.** A general claim about 1994–95 merchant access inferred from one company's two accounts — the same inference-from-a-sample §G's bullet and RD-030 refuse. The refutation of the cliché is preserved; only its reach is scoped |
+| **7** | §E **ll. 319–321** | "the barrier **was** credit and account approval, not technology" | "on **this firm's own record** the binding condition **was** credit and account approval, taken personally, rather than the absence of technology" | **Sibling found by the sweep.** A general claim about 1994–95 merchant access inferred from one company's two accounts — the same inference-from-a-sample §G's bullet and RD-030 refuse. The refutation of the cliché is preserved; only its reach is scoped |
 | **8** | §F coda **ll. 454–461** | no labels (the recheck accepted it in substance) | **Mechanism: mechanism UNKNOWN, deliberately** — no consequence is asserted here, only measurement nulls and a method directive, and the one environment characterised (gatekeeper-mediated arrival) is §H's, where the effect is UNKNOWN and RD-031 is open + **Alternative** (polled hostnames and cited user counts may describe machines and definitions, not audiences, so even the Web's *direction* was softer than the growth folklore takes it) + **Confidence** | RD-037's point applied rather than deferred: compliance judged over **all** codas as a set. Nothing was manufactured to fill the shape — the label is an explicit UNKNOWN |
 | 9 *(label only)* | §C coda **l. 224** | "…and that is the whole of the mechanism this section can name" | "**Mechanism:** that pre-existing buying habit, and it is the whole of what this section can name" | Compliant already; bold label added so a line-by-line grep finds all eight codas identically. No claim moved |
 
@@ -63,16 +63,16 @@ from the filing and no Stage-1 proposition attached).
 
 ## 4. Coda compliance, all eight enumerated by line (RD-034 / RD-037)
 
-| Coda | Line | Mechanism | Alternative | Confidence | Note |
-|---|---|---|---|---|---|
-| §A | 96 | named ("the only documented one") | yes | yes | unchanged |
-| §B | 168 | named | yes | yes | unchanged; its **unlabelled tail** was the sibling at row 6 |
-| §C | 224 | named (label added) | yes | yes | unchanged in substance |
-| §D | 293 | named | yes | yes | unchanged |
-| §E | 379 | named + conversion mechanism refused | yes | yes | **fixed (row 4)** |
-| §F | 454 | **mechanism UNKNOWN** | yes | yes | **fixed (row 8)** |
-| §G | 505 | **mechanism UNKNOWN** | yes | yes | **fixed (rows 2, 3)** |
-| §H | 562 | named, "such as it is" | yes | yes | unchanged; it is the site the §E fix re-joins |
+| Coda (starts / labels mechanism) | Mech. | Alternative | Confidence | Note |
+|---|---|---|---|---|
+| §A 88 / 96 | named ("the only documented one") | yes | yes | unchanged |
+| §B 160 / 168 | named | yes | yes | unchanged; its **unlabelled tail** was the sibling at row 6 |
+| §C 219 / 224 | named (label added) | yes | yes | unchanged in substance |
+| §D 288 / 293 | named | yes | yes | unchanged |
+| §E 371 / 379 | named + conversion mechanism refused | yes | yes | **fixed (row 4)** |
+| §F 446 / 454 | **mechanism UNKNOWN** | yes | yes | **fixed (row 8)** |
+| §G 492 / 505 | **mechanism UNKNOWN** | yes | yes | **fixed (rows 2, 3)** |
+| §H 556 / 562 | named, "such as it is" | yes | yes | unchanged; it is the site the §E fix re-joins |
 
 **Two codas still say `mechanism UNKNOWN`, and both honestly.** §F: the coda asserts no consequence — it
 reports that no in-window census of hosts, users or subscribers is retrievable and that the "2,300%" figure is a
@@ -126,9 +126,9 @@ string, not by number.
 
 ## 6. Endpoint framing, and the 2020s-knowledge check
 
-All fourteen post-boundary items were re-traced through `context_appendices.md` after the edits (ll. 552 → 594+
-table rows, §A ll. 78–86, §D ll. 267–300, §E ll. 313–387, §F ll. 415–441, §G ll. 475–508, §H ll. 515–575, §J
-contested rows). **One sentence treated a 1996–97 effect as the point of Stage 1 — §E l. 345 — and it is fixed:**
+All fourteen post-boundary items were re-traced through `context_appendices.md` after the edits (§A ll. 78–86, §D
+ll. 267–300, §E ll. 313–387, §F ll. 405–441, §G ll. 475–508, §H ll. 515–575, the §I quantitative table at
+ll. 583–617 and the §J gap/contested rows). **One sentence treated a 1996–97 effect as the point of Stage 1 — §E l. 345 — and it is fixed:**
 the replacement dates the quotation to 1997-01-05, labels its subject 1996 trading, and moves the 1995 proposition
 back to what the 1995-10-04 release claimed. Two further fences were added where a coda used 1996–97 material to
 explain 1995 design (rows 6 and 4: the buyer profile "dates the channel's audience and not the 1995 experiment";
