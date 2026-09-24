@@ -359,5 +359,16 @@ lost. Three standing rules:
    documents at auction. Report which families returned nothing **and which were never tried** — a null
    from one family is not a null, and an untried family is not a null either.
 
-
-
+7. **One path, one owner — check for live writers before dispatching.** Before any wave is launched or
+   relaunched, the orchestrator enumerates still-running agents (a stopped-looking session may merely be
+   detached) and gives each write target to exactly one of them. After a machine interruption the
+   temptation is to re-issue an identical brief; re-issuing it while the original is alive puts two
+   writers on one file.
+   **Failure observed.** A Stage-2 relaunch collided with four pre-shutdown agents on all four `_parts/`
+   paths and on a company dossier. Nothing was lost only because both writers preserved rather than
+   overwrote, but the collision cost ~35% of the wave in re-merging and produced 38 duplicate record IDs
+   in one register, which then had to be renumbered with a superseding note.
+   **Recovery rule when a collision has already happened:** never delete the other pass's records. Declare
+   one register canonical in a collision note at the top of the file, alias the duplicate IDs to it, keep
+   the genuine value-adds from the losing pass, and hand the de-duplication to the merge as an explicit
+   outbound correction.

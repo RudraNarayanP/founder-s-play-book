@@ -93,10 +93,10 @@ Statuses: `NOT STARTED` · `DISCOVERY` · `DEEP RESEARCH` · `RECONSTRUCTION` ·
 
 | # | Company | Stage 1 | Stage 2 | Stage 3 | Quant | Sources | Adversarial | QA | Final |
 |---|---|---|---|---|---|---|---|---|---|
-| 001 | Amazon | DEEP RESEARCH | NOT STARTED | NOT STARTED | DEEP RESEARCH | DEEP RESEARCH | DEEP RESEARCH | NOT STARTED | NOT STARTED |
-| 002 | Walmart | DISCOVERY | PROBE | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED |
+| 001 | Amazon | QA — REOPENED, repair in flight | RECONSTRUCTION (§P–U in flight) | NOT STARTED | RECONSTRUCTION | RECONSTRUCTION | RECONSTRUCTION | AUDIT 6 = REOPEN | NOT STARTED |
+| 002 | Walmart | DEEP RESEARCH (133-record dossier) | PROBE | NOT STARTED | DEEP RESEARCH | DEEP RESEARCH | NOT STARTED | NOT STARTED | NOT STARTED |
 | 003 | UnitedHealth Group | DISCOVERY | PROBE | — | — | — | — | — | — |
-| 004 | Apple | DISCOVERY | PROBE | — | — | — | — | — | — |
+| 004 | Apple | DEEP RESEARCH (80 records, 4 registers) | PROBE | — | DEEP RESEARCH | DEEP RESEARCH | NOT STARTED | NOT STARTED | NOT STARTED |
 | 005 | Alphabet | NOT STARTED | — | — | — | — | — | — | — |
 | 006 | CVS Health | NOT STARTED | — | — | — | — | — | — | — |
 | 007 | Berkshire Hathaway | NOT STARTED | — | — | — | — | — | — | — |
@@ -442,7 +442,9 @@ where this period's evidence lives.
 Rule for parallel waves: a company may start only when its probe has returned a depth verdict, so that
 exemplar density is spent where archives can support it rather than padded with retelling.
 
-## 5. Decision log (append-only)| Date | Decision | Why | Evidence | Reversibility |
+## 5. Decision log (append-only)
+
+| Date | Decision | Why | Evidence | Reversibility |
 |---|---|---|---|---|
 | 2026-09-23 | Research order = Fortune 2026 rank order, starting Amazon (#1) | Spec §0 freezes universe then reconstructs each company independently; rank order keeps the log auditable | `00_universe/fortune_top_50_2026.csv` | Reversible; no data dependency |
 | 2026-09-23 | One file per company per stage; 60k-word hard cap; split only at section boundaries | 500k-word/200MB per-source ceiling; projected 1.5–2.5M-word dataset cannot be one document. Word budget set far below the ceiling so no file approaches it | Method doc §9 | Structural; re-splitting later is cheap, merging is not |
@@ -455,6 +457,10 @@ exemplar density is spent where archives can support it rather than padded with 
 | 2026-09-23 | Company 001 stays Amazon | User confirmed rank-order start; richest Stage-1 archive in the top 10 (S-1, 1995–96 press, Wayback, reported books) | User answer 2026-09-23 | Reversible |
 | 2026-09-23 | Format reconciliation: the playbook A–U structure carries the deep-research skill's mandatory parts — A ≡ TL;DR/Executive Summary, H+I ≡ Status Quo, M+U+G(adversarial) ≡ Critical Assessment, T ≡ Bibliography, claim records ≡ Source Extracts, audits ≡ Methodology. No duplicate `DEEP_RESEARCH_*.md` is generated for companies | Two structures for the same evidence would drift apart; the forensic format is the stricter superset | Method doc §7 + skill output rules | Reversible; documented here |
 | 2026-09-23 | **Merge normalization: narrative tables revert to the exemplar's 4-column geometry** `\| Variable \| Value \| Source \| Confidence \|`, with a compact source token carrying tier and class inline (e.g. `S-1 orig., 1997-03-24, §History of the Enterprise [T1 · FACT]`), and the heavy metadata — verbatim passage, full URL, independence note, `[src: …]` traces — living in the claim-record appendix | The parts currently repeat per-cell metadata in both places, which is why the narrative hit 22,577 words against the exemplar's 7,150. Method §8 mandates the 4-column form. This is editorial normalization, **not** evidence reduction: nothing is dropped, duplication is relocated | Reversible; re-widening the tables costs only reformatting |
+
+| 2026-09-24 | **Stage-2 endpoint = 1997-05-15 (IPO effectiveness), with 1996-12-31 recorded as the substantive date.** A boundary is set where the facts become externally verifiable, not merely where they first exist | At 1996-12-31 repeat orders were >40% and the Associates programme stood at 4,800+, but the quarterly path was expressly unaudited, year-end headcount conflicted (151 v 158), there was no CFO, no completed board and no public price. Repeatability nobody outside could verify is not yet an institutional fact | `research/ST2_A_chronology_org.md` §Boundary assessment (S2A-04/43/53/57/63/80) | Reversible; the third candidate ("beyond books") is rejected on primary evidence, not on taste |
+| 2026-09-24 | **Method §14 rule 7: one write path, one owner; enumerate live agents before (re)dispatch** | A relaunch after a machine interruption collided with four still-running agents on all four Stage-2 part paths and one company dossier; 38 duplicate record IDs had to be renumbered. The preservation rule (§14.4) is what stopped it destroying evidence rather than the relaunch being safe | This wave's collision; `00_METHOD_AND_STYLE.md` §14.7 | Structural |
+| 2026-09-24 | **A closure may not be signed by the agent that performed its repairs** — Stage 1 held at QA despite an internally consistent register | AUDIT 6 confirmed all arithmetic (29/29 derived rows, 32/32 §P.2, 43/43 U-parity, 428-row parse) yet found four false closure assertions and one live adversarial attack. Dataset consistency is not proof that the claims *about* the dataset are true | `03_quality_control/audit6_stage1_independent_qa.md` | One-way in the right direction: a gate signed by its own repairer is worthless |
 
 ## 6. Open research debt
 
@@ -511,6 +517,11 @@ re-using those ids) is handed to the orchestrator unsolved.**
 | RD-040 | Amazon | §H, §D.1, §O.7; `validation.csv`; §U spine | Directory- and press-driven conversion in 1995 unadjudicated and unrouteable; five causal sites carrying the tags the file already prints | AUDIT 4 condition 1 FAIL; AUDIT 5 A-B2 | Company Lead (edit) — Hindsight Auditor (re-confirm) | **CLOSED as to the five sites and the routing (2026-09-24)**: §H l.463 rewritten, §D.1's existence clause re-tagged as company-claimed, `validation.csv` r9 re-keyed, §O.7's differentiator list re-named with placement removed, **U.43 appended** and the three stale `→ U.41` pointers re-pointed; `conflicts.csv` gains row U.43. **AUDIT 4 has NOT re-confirmed it — a repair is not a pass** |
 | RD-041 | Amazon (recurs across 49 companies) | `stage_1.md` header, §G.3, §J, §T, §U.1; 22 claim records; `conflicts.csv` U.1/U.8/U.9 | One registration lineage counted as two corroborations | AUDIT 5 A-B1 vs method §3 | Method owner + Evidence Registrar | **PARTLY CLOSED (2026-09-24)** — the header ruling is written, both narrative sites and the §T doctrine row are capped, 22 records re-keyed to `Corroboration: 1 (same lineage as S0801)` with 2 left at 2 on stated grounds, and no confidence moved (§3 grants High on a primary document alone). **OPEN:** `sources.csv` `independence_note` for S0803/S0805, `context_appendices.md` §F, and the Walmart/Apple/UnitedHealth re-audit. §3 itself already carries the rule (the brief calls it "new"; the method file was amended at commit `0fedd44`, so this pass applied it and wrote no method text) |
 | RD-042 | Amazon | `data_gaps.csv`; this log §6; `context_appendices.md` §J | Register mirror not closed: no survivorship row, RD-035/036/037 id collision, RD-027 unresolved | Method §13 (High-importance gap without a clean follow-up id) | **Orchestrator** | **OPEN — High.** Not touched: de-colliding ids means re-keying another agent's debts, and the survivorship row is a register-mirror decision. **Note that RD-027 is now actionable:** a 424B1 (`acc. 0000891020-97-000868`, 266,755 B, 35,054 w) appeared in `sources/` at 17:00 on 2026-09-24, during this closure. This pass **read none of it, cited none of it and claimed no verdict from it** — a file that arrives while you are closing a stage is evidence for the next pass, not for this one, and it is registered here only so its arrival is not lost |
+
+| RD-043 | Amazon | `_parts/s2_p3.md` | **§K–§O at 5,668 w against §E–§J at 14,810 w** — the money section is ~38% of its sibling's volume after four compression passes by its writer | Stage-2 density parity is per-section, not per-file; a thin §K understates the financing evidence that exists | Top-up from `ST2_B_finance.md` (67 records) and `ST2_E_adversarial.md` after the merge, without re-deriving any figure | OPEN — next assembly pass |
+| RD-044 | Walmart | `A2_chronology_finance.md` | **Several FY1968–79 "audited" years rest on later restatement rather than contemporaneous reports**, while the IA run is contiguous FY1972→1998 | A restated figure is retrospective evidence; presenting it as filed overstates the spine and flatters the depth verdict | COR-A2-10; retrieval of FY1974/75/77/78/79 dispatched | OPEN — retrieval in flight |
+| RD-045 | Walmart | periodical families | **Periodicals are UNANSWERED, not null**: Google Books 429, HathiTrust TLS/0, Chronicling America 403; and the harvest searched the town "Newport, Missouri" instead of the brand | The depth verdict cannot leave exemplar-gated provisional on one lineage with zero independent contemporaneous witness | Chain Store Age chain directories 1964–70 via an unthrottled route (the nightly GitHub Actions runner is the intended first real attempt) | OPEN |
+| RD-046 | Apple | `A_chronology_feasibility.md` | **Thirteen outbound corrections from A2 are unapplied**, incl. AP-14 (date + store name), AP-17 (full price ladder), AP-26 (a false "zero occurrences") and the probe's own provenance headers contaminating greps of its cached files | A superseded probe still on disk invites a later pass to re-import its errors | `A2_periodical_archive_mine.md` §Outbound corrections C-1…C-13 | OPEN — supersession footers, not rewrites |
 
 ### Archive route discovered mid-run — the EDGAR floor is not the last word
 
@@ -616,6 +627,71 @@ confirming the detector caught it** — the strongest verification step taken so
 chasing stale copies that survived outside that agent's write scope (known survivors: `stage_1.md`
 §S and §U.8, `data_gaps.csv` r11, `context_appendices.md` ~l.596, `_parts/NUMBER_DEFECTS.md` r43), and
 **both audit gates still need their independent re-verification — a repair is not a pass.**
+
+### Wave of 2026-09-24 (evening): Stage-2 assembly lands, Stage-1 closure REOPENED by independent QA
+
+**Stage 2 assembly (`_parts/`, window 1996-01-01 → 1997-05-15, frozen).**
+`s2_p1.md` 10,545 w (boundary + §A–§D) · `s2_p2.md` 14,810 w (§E–§J) · `s2_p3.md` 5,668 w (§K–§O) ·
+`s2_p4.md` 2,867 w (**§P only — incomplete**; §P.2/§Q/§R/§S/§T/§U and the CSV append blocks in flight).
+Density is asymmetric: p3 was compressed four times by its writer and sits at ~38% of p2's volume while
+carrying the whole money section. Logged as RD-043, not silently accepted.
+
+**Provenance carried by the completed parts:** Series A $8,000,014 on 1996-06-21 (S-1 Ex. 10.2); IPO
+3,000,000 all-primary at $18.00, net $49,103k, priced 05-14 *above* the $14–16 ceiling the company itself
+filed that morning (Amendment No. 5) after No. 3 had asked for $12–14 on 2,500,000 shares; a single
+Seattle warehouse at the boundary, with 400,000 of the 2.5m "titles" distributor-supplied and Ingram at 59%
+of 1996 inventory purchases on no vendor contract; **SIC 2731 "BOOKS: PUBLISHING OR PUBLISHING AND
+PRINTING"** — the state at the boundary was a bookseller by the company's own official classification.
+
+**Dispatch collision — the process defect of this wave.** Four pre-shutdown agents were still alive when the
+same briefs were re-issued, so two writers landed on each `_parts/` path and on the Walmart dossier. No
+evidence was lost (both writers preserved rather than overwrote, per §14 rule 4), but the collision cost
+re-merging and 38 duplicate record IDs in the Walmart register, renumbered under a superseding collision
+note. Method §14 now carries rule 7: enumerate live writers before dispatch; one path, one owner.
+
+**AUDIT 6 — independent QA of the Stage-1 closure = REOPEN** (`03_quality_control/audit6_stage1_independent_qa.md`).
+CONFIRMED 7 · DEFECT 6 · UNTRIED 0. The verifier could not break a single stored figure — 43 U blocks
+↔ 43 conflicts rows with set parity, 428 rows parsing at uniform field count, 29/29 `derived_arithmetic`,
+32/32 §P.2 recomputations, the cash bridge against S-1 orig. ll.3636–3655 — and still refused the gate,
+because four *closure assertions* were false on their own evidence:
+1. the retracted false bridge still prints live at `_parts/s1_p4.md:102–103`;
+2. `$871,000` / the unfiled `2,613,000` still run live in `context_appendices.md:596` and `:639` —
+   pre-flagged as S2E-28 by the adversarial dossier and missed by the closer;
+3. the filing-lineage demotion was partial: `stage_1.md:16–17` and `:1139` still say "independent
+   corroboration" nineteen lines below the paragraph that withdraws the phrase, §T rows 1204–1206
+   undemoted, three claim records escaped the `count == 2` re-key;
+4. adversarial attack **A-B1 still lands** on the repaired text (A-B2 closed).
+Plus four fix-introduced false closure claims, including `stage_1.md:36` ("four sites … corrected").
+**Lesson, again: the certifier must never be the repairer, and a repair pass is itself an unverified
+change.** Repairs in flight; a third verifier signs the gate, not this one.
+
+**Walmart A2 (`company_002_walmart/research/A2_chronology_finance.md`, 133 records / 38,129 w, 0 web calls).**
+Boundary proposal: start **1945**, year-only and *registrant-retrospective* (earliest attestation is the
+FY1973 "twenty-eight year history"; the 1955 office is the alternative anchor), end **1970-10-08** — the
+200,000-share public offer, dated inside the audited FY1972 note, at $3,030,467 net. Evidence families:
+digitised corporate print POSITIVE (four reports, Tier-1, the spine); filings and web archive are
+null-by-floor (EDGAR 1994-02-14, web 1996-12-29); **periodicals UNANSWERED, not null** — Google Books 429,
+HathiTrust TLS/0, Chronicling America 403. The depth verdict therefore stays **provisional
+exemplar-gated**: one lineage (registrant self-report + Arthur Young attestation) and **zero independent
+contemporaneous witness**. Its COR-A2-10 found the IA corporate_print run contiguous FY1972→FY1998, so
+FY1974/75/77/78/79 are retrievable primaries — several "audited" years in the dossier are currently later
+*restatements*, which is weaker evidence than they look like. Retrieval in flight.
+
+**Apple A2 (`company_004_apple/research/A2_periodical_archive_mine.md`, 80 records / 29,129 w, 0 web calls
+of 3 budgeted).** Earliest Apple-1 retail print is **1976-09, Computer Mart of New York, 314 Fifth Ave** —
+one month earlier than the probe's ladder, its advertiser identified from BYTE's own June-1976 column. The
+cached ad yields Apple's complete **nine-row 1977-06 price ladder** (4K $1,298 → 48K $2,638 system;
+$598 → $1,938 board-only) with an internally consistent **6.5%** tax rate derived four independent ways.
+BYTE 1977-04 gives a national directory of ~35 Byte Shop outlets across 22 jurisdictions including Tokyo,
+making the distribution circuit enumerable to manager level — the strongest structural finding for a
+company whose distribution is normally told as word of mouth (held as a conflict, U-A2-2, not reconciled).
+Negative results that matter: the **$666.66 price appears nowhere** in 30 cached files; **Wayne and Markkula
+are absent from all in-window print** (0 hits corpus-wide, first appearance Feb 1981); the "8% of
+52.4M = 4.6M shares" offering arithmetic does not close (8.78%; $101.2M vs $92.2M gross).
+Registers created: `quantitative.csv` 30 · `timeline.csv` 23 · `sources.csv` 13 · `conflicts.csv` 13 rows,
+headers byte-identical to the §13-conformant Amazon registers. Thirteen outbound corrections to
+`A_chronology_feasibility.md` await application, including the probe's own provenance headers now
+contaminating greps of its cached files.
 
 ## 7. Cross-company synthesis gate
 
