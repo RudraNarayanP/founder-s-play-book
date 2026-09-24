@@ -521,6 +521,30 @@ Consequences, to be tested rather than assumed:
    Amazon run already learned it with `matchType=prefix` returning 504 (unanswered) rather than empty
    (proven); this is the same error in a different costume.
 
+### Amazon Stage 2 — boundary evidence (dossier A, 98 records, 2026-09-24)
+
+Recommended end boundary: **1997-05-14/15**, on the offering sequence rather than on the later
+fame of the event. Amendment No. 3 (1997-05-09) set a **$12–14** range; Amendment No. 5
+(1997-05-14, that same morning) raised it to **$14–16** with a 20% upsize; Amazon's own
+1997-05-14 release reports the price at **$18.00 on 3,000,000 shares** — above its own ceiling,
+cleared in five days. That is external pricing behaviour, not management self-description, so
+it qualifies as evidence of institutionalisation under spec §6 while staying inside the firewall.
+
+Alternative tested and rejected: **1996-12-31** (repeat orders >40%, 4,800 Associates members) —
+rejected because the FY1996 quarterlies are explicitly **unaudited** and the year-end headcount
+conflicts (151 vs 158 across documents).
+
+Two substantive corrections the dossier settled: Bezos became **CEO on the 1996-05-28 merger
+signature page** (President→CEO on a single instrument), and the Delaware reincorporation was
+agreed 1996-05-28 but **effected 1996-06-18** — which bears on Stage 1's impossible
+"Delaware corporation" recital of 1995-02-09 (conflict C-H1). And the "move beyond books"
+reading of this stage **fails**: the music store shipped 1998-06, and the FY1997 10-K still
+describes Amazon as the leading online retailer of **books**.
+
+Open gaps carried: no Tier-1 event between 1997-05-15 and November (the 1997 10-Qs were never
+opened); the first trading day and day-one price are unproven; outages are an admitted condition
+with no dates or magnitudes.
+
 ### Recurrence note — the write-late failure is structural, not a fluke
 
 As of 2026-09-24 the "researched everything, wrote nothing" failure has recurred **three times** despite
