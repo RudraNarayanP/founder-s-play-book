@@ -1,0 +1,12 @@
+{
+ "url": "https://www.googleapis.com/books/v1/volumes?q=%22Walton%27s%22+%22five-and-dime%22&maxResults=10",
+ "http_status": 429,
+ "content_type": "application/json; charset=UTF-8",
+ "bytes": 1306,
+ "retrieved_at": "2026-09-24T09:59:13Z",
+ "ext": ".json",
+ "source": "google_books",
+ "query_label": "GB waltons five-and-dime",
+ "company": "walmart",
+ "kind": "search"
+}

@@ -1,0 +1,12 @@
+{
+ "url": "https://archive.org/advancedsearch.php?q=%22unitedhealthcare%22%20OR%20%22united%20health%20care%22%20AND%20mediatype%3Atexts&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=date&fl%5B%5D=year&fl%5B%5D=mediatype&fl%5B%5D=collection&rows=20&page=1&output=json",
+ "http_status": 200,
+ "content_type": "application/json",
+ "bytes": 4521,
+ "retrieved_at": "2026-09-24T09:59:18Z",
+ "ext": ".json",
+ "source": "internet_archive",
+ "query_label": "IA unitedhealthcare",
+ "company": "unitedhealth",
+ "kind": "search"
+}

@@ -1,0 +1,12 @@
+{
+ "url": "https://chroniclingamerica.loc.gov/search/pages/results/?format=json&andtext=%22UnitedHealthCare%22&date1=1971&date2=1980&dateFilterType=yearRange",
+ "http_status": 403,
+ "content_type": "text/html; charset=UTF-8",
+ "bytes": 6276,
+ "retrieved_at": "2026-09-24T10:02:00Z",
+ "ext": ".json",
+ "source": "chronicling_america",
+ "query_label": "CA unitedhealthcare",
+ "company": "unitedhealth",
+ "kind": "search"
+}

@@ -1,0 +1,12 @@
+{
+ "url": "https://archive.org/advancedsearch.php?q=%22Walton%27s%22%20store%20AND%20mediatype%3Atexts%20AND%20YEAR%3A%5B1945%20TO%201965%5D&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=date&fl%5B%5D=year&fl%5B%5D=mediatype&fl%5B%5D=collection&rows=20&page=1&output=json",
+ "http_status": 200,
+ "content_type": "application/json",
+ "bytes": 473,
+ "retrieved_at": "2026-09-24T09:58:17Z",
+ "ext": ".json",
+ "source": "internet_archive",
+ "query_label": "IA waltons store 1945-1965",
+ "company": "walmart",
+ "kind": "search"
+}

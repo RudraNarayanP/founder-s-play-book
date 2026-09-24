@@ -1,0 +1,12 @@
+{
+ "url": "https://chroniclingamerica.loc.gov/search/pages/results/?format=json&andtext=%22Metropolitan+Health+Plans%22&date1=1971&date2=1980&dateFilterType=yearRange",
+ "http_status": 403,
+ "content_type": "text/html; charset=UTF-8",
+ "bytes": 6303,
+ "retrieved_at": "2026-09-24T10:01:58Z",
+ "ext": ".json",
+ "source": "chronicling_america",
+ "query_label": "CA metropolitan health plans",
+ "company": "unitedhealth",
+ "kind": "search"
+}

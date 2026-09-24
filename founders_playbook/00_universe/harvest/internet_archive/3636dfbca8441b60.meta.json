@@ -1,0 +1,12 @@
+{
+ "url": "https://archive.org/advancedsearch.php?q=walton%20%28retailing%20OR%20%22variety%20store%22%20OR%20%22five%20and%20dime%22%29%20AND%20mediatype%3Atexts%20AND%20YEAR%3A%5B1945%20TO%201965%5D&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=date&fl%5B%5D=year&fl%5B%5D=mediatype&fl%5B%5D=collection&rows=20&page=1&output=json",
+ "http_status": 200,
+ "content_type": "application/json",
+ "bytes": 716,
+ "retrieved_at": "2026-09-24T09:58:19Z",
+ "ext": ".json",
+ "source": "internet_archive",
+ "query_label": "IA walton retail trade press 1945-1965",
+ "company": "walmart",
+ "kind": "search"
+}

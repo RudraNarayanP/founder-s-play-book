@@ -1,0 +1,12 @@
+{
+ "url": "https://www.googleapis.com/books/v1/volumes?q=%22Metropolitan+Health+Plans%22&maxResults=10",
+ "http_status": 429,
+ "content_type": "application/json; charset=UTF-8",
+ "bytes": 1306,
+ "retrieved_at": "2026-09-24T10:00:09Z",
+ "ext": ".json",
+ "source": "google_books",
+ "query_label": "GB metropolitan health plans",
+ "company": "unitedhealth",
+ "kind": "search"
+}

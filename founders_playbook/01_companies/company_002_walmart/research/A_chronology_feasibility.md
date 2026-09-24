@@ -220,3 +220,26 @@ U-3 **Newport store location state**: vintagebentonville says "Newport, Arkansas
 
 — end of probe —
 
+
+---
+SUPERSEDED IN PART 2026-09-24 by `B_periodical_retest.md`. This probe's depth verdict (forensic-core)
+and two of its factual assertions are overtaken by evidence this probe never searched:
+
+1. **Verdict reversed to exemplar, gated.** This file asserted "1970s annual-report text = paper, not
+   EDGAR" **without querying any digitised-book corpus**. Internet Archive carries a complete printed
+   Wal-Mart annual-report run, FY1972-FY1997, free with a text layer - i.e. audited in-window financials
+   at Tier 1, which this probe concluded were unobtainable.
+2. **"Pre-IPO financials are undocumented at Tier 1" is false.** The reports yield audited
+   FY1968-FY1973 sales and store counts, and a 1970-02-01 pooling note naming Walton Enterprises, Inc.
+3. **This probe's own correction was wrong and is itself corrected.** Its "Newport is in Nebraska"
+   fix against the record is the error: the FY1980 report's "Wal-Mart's Past" places the 1945 Ben
+   Franklin franchised start in **Newport, Arkansas**, alongside fifteen variety stores, and names
+   James L. Walton as co-operator of the 1962 Rogers opening. A correction that introduces a worse
+   error than the one it replaced went uncaught until a later pass - so corrections need their own
+   source line, not confidence.
+
+Unchanged and still valid: the EDGAR floor and the absence of any web artifact before the mid-1990s.
+Untried here and still untried: Google Books/HathiTrust (HTTP 429), Chronicling America and Arkansas
+local print (403 bot-block), and IA `inside.php` full-text, whose zero results are VOID because its
+positive control failed. Absence of Fortune/Time/DNR/WWD runs on IA, and of any Walmart founding
+document in public sale records, are real findings.

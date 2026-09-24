@@ -1,0 +1,12 @@
+{
+ "url": "https://babel.hathitrust.org/cgi/ls/one?q1=%22Charter+Med%22&searchtype=all&target=ls&ft=ft",
+ "http_status": 0,
+ "content_type": "",
+ "bytes": 0,
+ "retrieved_at": "2026-09-24T09:59:35Z",
+ "ext": ".html",
+ "source": "hathitrust",
+ "query_label": "HT charter med",
+ "company": "unitedhealth",
+ "kind": "search"
+}

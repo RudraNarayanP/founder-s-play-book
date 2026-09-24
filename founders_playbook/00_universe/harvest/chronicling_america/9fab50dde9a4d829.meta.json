@@ -1,0 +1,12 @@
+{
+ "url": "https://chroniclingamerica.loc.gov/search/pages/results/?format=json&andtext=%22Walton%27s%22&date1=1945&date2=1965&dateFilterType=yearRange&sort=date",
+ "http_status": 403,
+ "content_type": "text/html; charset=UTF-8",
+ "bytes": 6303,
+ "retrieved_at": "2026-09-24T09:58:06Z",
+ "ext": ".json",
+ "source": "chronicling_america",
+ "query_label": "CA waltons 1945-1965",
+ "company": "walmart",
+ "kind": "search"
+}

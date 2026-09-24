@@ -1,0 +1,12 @@
+{
+ "url": "https://chroniclingamerica.loc.gov/search/pages/results/?format=json&andtext=%22five-and-dime%22&date1=1945&date2=1965&dateFilterType=yearRange",
+ "http_status": 403,
+ "content_type": "text/html; charset=UTF-8",
+ "bytes": 6246,
+ "retrieved_at": "2026-09-24T10:01:51Z",
+ "ext": ".json",
+ "source": "chronicling_america",
+ "query_label": "CA five-and-dime 1945-1965",
+ "company": "walmart",
+ "kind": "search"
+}

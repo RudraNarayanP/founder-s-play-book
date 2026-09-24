@@ -1,0 +1,12 @@
+{
+ "url": "https://chroniclingamerica.loc.gov/search/pages/results/?format=json&andtext=%22Walton%22+Tulsa+Oklahoma&date1=1945&date2=1965&dateFilterType=yearRange&state=oklahoma",
+ "http_status": 403,
+ "content_type": "text/html; charset=UTF-8",
+ "bytes": 6372,
+ "retrieved_at": "2026-09-24T09:58:12Z",
+ "ext": ".json",
+ "source": "chronicling_america",
+ "query_label": "CA waltons tulsa ok",
+ "company": "walmart",
+ "kind": "search"
+}

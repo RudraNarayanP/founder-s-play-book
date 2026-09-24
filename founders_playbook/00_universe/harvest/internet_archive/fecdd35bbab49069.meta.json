@@ -1,0 +1,12 @@
+{
+ "url": "https://archive.org/advancedsearch.php?q=%22metropolitan%20health%20plans%22%20AND%20mediatype%3Atexts&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=date&fl%5B%5D=year&fl%5B%5D=mediatype&fl%5B%5D=collection&rows=20&page=1&output=json",
+ "http_status": 200,
+ "content_type": "application/json",
+ "bytes": 432,
+ "retrieved_at": "2026-09-24T09:59:16Z",
+ "ext": ".json",
+ "source": "internet_archive",
+ "query_label": "IA metropolitan health plans",
+ "company": "unitedhealth",
+ "kind": "search"
+}
