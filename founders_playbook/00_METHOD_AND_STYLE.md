@@ -325,10 +325,12 @@ Two of eight wave-1 agents exhausted their budget on retrieval and ended having 
 nothing — the dataset's most expensive failure mode, because the evidence was gathered and then
 lost. Three standing rules:
 
-1. **Write the skeleton first.** A specialist's first act is creating its dossier file with the
-   full section structure, then pushing at least 10 claim records to disk before any further
-   searching, then editing findings in after every source consulted. A partial dossier on disk
-   is recoverable; a complete one in memory at budget-end is not.
+1. **Write the skeleton first — enforced as the first two tool calls.** A specialist's first act is
+   creating its dossier file with the full section structure, and its **second** act is writing at
+   least 10 claim records to disk. Only then may it search further, and it must append after every
+   source rather than accumulating. Phrasing this as advice did not work: the failure recurred four
+   times across two sessions, each costing the whole retrieval pass. Four web requests max for
+   mining-only re-runs against local primaries.
 2. **Hard web budget.** Max 8 WebSearch + 8 WebFetch per specialist. Past that, the marginal
    source is worth less than the unwritten one. Time-boxed agents must spend the remainder
    writing.
