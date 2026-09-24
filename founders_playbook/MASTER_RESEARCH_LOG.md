@@ -532,6 +532,32 @@ Consequences, to be tested rather than assumed:
    Amazon run already learned it with `matchType=prefix` returning 504 (unanswered) rather than empty
    (proven); this is the same error in a different costume.
 
+### Amazon Stage 2 — audited financial spine (dossier B, 67 records, 2026-09-24)
+
+New Tier-1 primary recovered: **Form 424B1 final prospectus, acc. 0000891020-97-000868, 1997-05-15**
+— the document that actually states the offering price, and the reason the IPO terms are now
+FACT rather than company-recounted. Saved to `sources/` with a provenance header (an addition outside
+that agent's nominal write scope, non-destructive; the Evidence Cache needs a row for it).
+
+| Metric | FY1996 | FY1997 | Note |
+|---|---|---|---|
+| Net sales | $15,746k | $147,758k | audited |
+| Gross margin | 22.0% | 19.5% | **margin fell while revenue grew 9.4x** — the price-led growth is in the filing, not in later commentary |
+| Operating loss | $(5,979)k | $(29,209)k | losses widened in absolute terms |
+| Net loss | $(5,777)k | $(27,590)k | |
+| Cash | $6,248k | $109,810k | the IPO is what changed this line |
+| Accumulated deficit | $(6,025)k | $(33,615)k | |
+
+Series A resolved to instrument level: **569,396 shares at $14.05 = $8,000,014** ($8,000,013.80 in
+the executed schedule), **21 June 1996**, holders **Kleiner Perkins Caufield & Byers VIII (555,161)**
+and **Zaibatsu Fund II (14,235)**. IPO mechanics: **3,000,000 shares, all primary**, at **$18.00**,
+7.00% underwriting discount, **$49,103k net proceeds**. `2,613,000` was not resurrected.
+
+Not traceable to any filing and therefore recorded UNKNOWN, not estimated: Series A post-money
+valuation, order counts, per-order revenue, average order value, packaging cost, postage revenue vs
+cost split, merchant-processing expense, FY1996 weighted discount, payroll totals, category revenue
+split, GMV/bookings, deferred underwriter compensation.
+
 ### Amazon Stage 2 — boundary evidence (dossier A, 98 records, 2026-09-24)
 
 Recommended end boundary: **1997-05-14/15**, on the offering sequence rather than on the later
