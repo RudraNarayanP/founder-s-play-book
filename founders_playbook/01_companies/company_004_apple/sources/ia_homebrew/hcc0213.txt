@@ -1,0 +1,1489 @@
+Homebrew Computer Club 
+
+Robert Railing, Editor □ Post Office Box 626, Mountain View, CA 94042 □ Joel Miller, Staff Writer 
+
+Typesetting, graphics and editorial services donated by Laurel Publications, 1 7235 Laurel Rd., Los Gatos, CA 95030 (408) 353-3609 
+
+
+
+RANDOM DATA 
+
+By Robert Reiling 
+
+
+
+DATES— The next several meetings are scheduled 
+at SLAC on Wednesdays. This is a better meeting date 
+for many people but is not as satisfactory for some. 
+There will be some Friday meetings this year as well. 
+The complete schedule will be in the next Newsletter. 
+The February and March schedule is listed on 
+page eight. 
+
+SIXTEEN/8— A sixteen bit machine using the S-100 
+bus was demonstrated at the December 12th meeting 
+by Dick Wilcox and John French. It appears to be an 
+excellent computer system with outstanding soft- 
+ware—time sharing even. You will be hearing more 
+about this machine. For the current status and addi- 
+tional details contact the Orange County Computer 
+Mart in the Los Angeles area. Telephone numbers are 
+(714) 838-1381 or (714) 633-1222. 
+
+COMPUTER NOTES-Andrea Lewis, editor of the 
+ALTAIR Users Group publication COMPUTER 
+NOTES, has sent many copies for distribution at the 
+Club meetings. Thanks to Andrea and MITS for the 
+•coplgff-' AH of the copies (several hundred) were dis- 
+tributed in what seemed only moments. 
+■ "BAMUG— The Bay Area Microprocessor Users 
+G^qp> *||pYsletter was issued by Timothy O'Hare, 
+editor airo writer, to announce the club's new meeting 
+location and meeting on January 6, 1977. You may 
+want to contact Timothy about future meetings. His 
+address is 1211 Santa Clara Avenue, Alameda, CA 
+94501. When writing it will be a good idea to include 
+a stamped self-addressed envelope. 
+
+KILOBAUD— This magazine was delivered in 
+December and has received excellent comments from 
+readers. I haven't managed to get a copy yet but did 
+get an opportunity to scan a copy at the last club 
+meeting. It appeared full of good stuff. Why don't you 
+send me your comments about KILOBAUD for use in 
+the next Newsletter. 
+
+If you don't know, KILOBAUD is published by 
+the same organization that publishes 7 3, the amateur 
+radio magazine. Wayne Green is the publisher with 
+plenty of experience in the publication business. 
+John Craig is the editor. He has been producing the 
+I/O section in 73 for several months now. Subscrip- 
+tions are available by writing to KILOBAUD or 73, 
+Peterborough, NH 03458. □ 
+
+
+
+MPU SHOPS OPENED BY SEMI SPECS 
+
+
+
+Semiconductor Specialists, Inc., an industrial dis- 
+tributor, will now cater to the "Computerists" or 
+home computer enthusiast by establishing twelve 
+MPU Shops at their twelve U.S. branches. The first- 
+has opened in the Chicago area at the company head- 
+quarters. 
+
+The Shops will have working models of five micro- 
+processor kits, three non-assembled kits, plus four 
+additional microprocessor chips not in kit form. Two 
+complete developmental systems will be available. In 
+addition, books, power supplies, tape readers, and 
+accessories in kit form will be carried. 
+
+Paul Carroll, president, explains: "The industrial 
+distributor has never really catered to the hobbyist, 
+but always allowed cash sales because many engineers 
+and buyers from industry bought small quantities for 
+their personal use. With the advent of the micro- 
+processor, a whole new market of 'Computerists' has 
+developed. These people are engineers, programmers, 
+and technicians from industry who are learning, 
+designing, and programming microprocessor systems 
+at home. They want a place to browse, read, have 
+hands on practice, and see what they are buying. The 
+MPU Shops will have the advantage of supplying 
+many of the extra transistors or IC's they need to 
+input or output their system. The fact that many of 
+these 'Computerists' will end up designing and speci- 
+fying a future system for their employer is why Semi- 
+conductor Specialists is interested in this growing 
+market." Mail orders as well as credit cards will be 
+accepted by the MPU Shops. Contact Semiconductor 
+Specialists, Inc., P.O. Box 66125, O'Hare International 
+Airport. Chicago, Illinois 60666. □ 
+
+
+
+NEW JOYSTICK CONSOLE GIVE MORE 
+FLEXIBILITY TO MICR OCOMPUTERS 
+
+
+
+Cromemco, a leading name in the microcomputer 
+field, has introduced a new 2-axis joystick console 
+that has significant features not found in other 
+joysticks. 
+
+For one thing, the new joystick is a console rather 
+
+
+
+1 
+
+
+
+HCC •Newsletter [Vol. 2, Issue 13 /January 19, 1977 
+
+
+
+than merely a simple 2-input device. 
+
+It is called a console because it includes a speaker 
+and speaker amplifier built into the same housing 
+with the joystick. The speaker greatly enhances the 
+usefulness of this over other joysticks because it facil- 
+itates such uses as sound effects for computer and 
+other games— and provides an easy way to obtain such 
+features as acoustic warnings in other applications. 
+
+Another interesting feature of the new console is 
+that it includes four pushbutton switches. These can 
+be utilized to add much more flexibility to such 
+applications as using the console for cursor positioning 
+on a color graphics terminal. In such a case the 
+switches can select desired colors. 
+
+Cromemco also offers peripherals that simplify 
+application of the joystick. One is a fast 7 -channel 
+analog-to-digital I/O card. This unit will directly inter- 
+face two of the consoles to microcomputers. The I/O 
+is a plug-in card. 
+
+Cromemco also offers a color graphics interface 
+known as the TV Dazzler. This unit allows micro- 
+computers to display memory in color on an ordinary 
+color TV set. 
+
+The block diagram below shows how readily the 
+new console and other peripherals can be used with 
+a microcomputer to form a complete operating 
+system. 
+
+Price of the new console is $65 in kit form or $95 
+in assembled, ready-to-use form. Delivery is 15 - 
+30 days. For more information, contact: Mr. Joe 
+McCrate, Cromemco, Inc., 2432 Charleston Rd., 
+Mountain View, CA 94043, (415) 964-7400. □ 
+
+
+
+. 8800 I 
+OR , 
+! 8080 r- 
+1 COMPUTER I 
+
+
+
+CROMEMCO 
+
+
+
+
+COLOR 
+
+
+TV 
+
+
+
+
+TV 
+
+
+DAZZLER 
+
+
+
+
+SET 
+
+
+
+Plugs 
+into 
+computer 
+
+
+
+CROMEMCO 
+D+7A t/O 
+
+
+
+Plugs 
+into 
+computer 
+
+
+
+CROMEMCO 
+JOYSTICK 
+
+
+
+CROMEMCO 
+JOYSTICK 
+
+
+
+NIBL FEBRUARY 16, 1977 
+
+
+
+the meeting on the 16th. Phil explains that NIBL is in 
+the public domain and he will have instructions for 
+obtaining NIBL for copying costs. He is expected to 
+announce the future availability of NIBL in ROM. 
+Don't miss this meeting. □ 
+
+
+
+USEFUL BASIC PROGRAM 
+
+By William Marlin 
+
+
+
+This TINY BASIC program was among the first 
+prepared by William Marlin on his AMI Proto Board. 
+He needed label to tell people of his new address— so 
+the program. The label is a listing from the program. 
+
+:L1ST 
+
+100 LET 1 = 0 
+
+110 PRINT 
+
+120 PRINT*'FIRST LIKE OF MESSAGE", 
+
+13 0 LET 1=1+1 
+
+140 IF 1/3*3 <> I GOTO 1 20 
+
+150 PRINT 
+
+160 PRINT"SEC0ND LINE OF MES S AG E" » 
+
+170 LET 1=1+1 
+
+180 IF !/3*3<>I GO TO 160 
+
+19 0 PRINT 
+
+200 PR I NT"TH IRD LINE OF MESSAGE", 
+
+210 LET 1=1+1 
+
+220 IF I/3*3<>I GOTO200 
+
+230 PRINT 
+
+24 ® IF I < 2 7 GO TO 110 
+
+250 END 
+
+:RUN 
+
+FIRST LINE OF MESSAGE 
+SECOND LINE OF MESSAGE 
+THIRD LINE OF MESSAGE 
+
+FIRST LINE OF MESSAGE 
+SECOND LINE OF MESSAGE 
+THIRD LINE OF MESSAGE 
+
+FIRST LINE OF MESSAGE 
+SECOND LINE OF MESSAGE 
+THIRD LINE OF MESSAGE 
+
+
+
+NATIONAL BASIC— National Industrial Basic 
+Language, NIBL, will be discussed at the February 16, 
+1977 Homebrew Computer Club Meeting. Phil 
+Roybal, MP Product Marketing Manager, and an asso- 
+ciate, both from National Semiconductor Corp., will 
+present the NIBL story. Perhaps you read about 
+NIBL in recent articles in INTERFACE AGE and DR. 
+DOBB'S JOURNAL. Look these articles up before 
+
+
+
+CASSETTES IN THE HOMEBREW LIBRAR Y 
+By Gordon French 
+
+
+
+There are now cassettes in the Homebrew Library. 
+To make it possible and practical to interchange data 
+and software, and to put to use the experience many 
+
+
+
+HCC Newsletter I Vol. 2, Issue 13/January 19, 1977 
+
+
+
+2 
+
+
+
+of us have had using cassettes, the library procedure 
+will be as follows: 
+
+Library tapes will all be kept on TDK Audua C-60 
+cassettes. This is a non chromium dioxide tape of 
+high brilliance. It is readily available in the Bay Area. 
+This tape has excellent response at the clock frequency 
+of Tarbell standard. 
+
+Tapes with data on them will have the data side or 
+sides Write tap knocked out. 
+
+Tarbell format tapes will be with what I call "phase 
+up." Meaning: phased as if recorded on a J.C. Penney 
+Co. Model #6536 with the Tarbell board strapped as 
+recommended in the assembly manual. The need here 
+is not obvious unless you are using some Panasonic or 
+Lloyd cassette machines that record or play back 
+phase down. (My son got a Sears machine that records 
+phase down and plays phase up from a big bearded elf 
+in a funny red suit.). If you are running a Tarbell 
+cassette interface and you haven't bought the Penney's 
+machine, buy one! All the difficulties that I had went 
+away the minute mine was plugged in to replace a 
+Panasonic I had been using. 
+
+So far as phasing is concerned we have not had 
+enough experience with either Processor Technology's 
+new "CUTS" board or IMSAI'S MIO board. PTC's 
+"cuts" board has been designed to be insensitive to 
+phase so we shouldn't have a problem. When I know 
+more about the MIO board, you'll read about it here. 
+Those of you who are regularly working with cassettes 
+and discover the whys and wherefores, please call me 
+and share it. 
+
+Tapes should have handlettered information giving 
+the recorder's index to start of record, end of record. 
+This obviously will vary from user to user, but it is 
+generally useful geographic information. Next the 
+name of the program or data. Next the loaded mem- 
+ory limits, expressed in hex, so the label may look 
+like: 
+
+002 - 009 "STARFUNK" 0000 - 4800 
+
+012 - 022 "BYTES MY MOTHER LOVED" 0000 - 12 AF 
+
+027 - 099 "SUPERS YS SPILLDUMP" CCO0 - DFFF 
+
+Tapes without labels or with unreadable ones will 
+be reused for something else. 
+
+Leave plenty of blank area between records. The 
+TDK Audua C-60 is long enough to afford us lots of 
+room and avoids confusion when your index is not 
+the same as the label may show. For tapes in Tarbell 
+format be sure to include two or three minutes of 
+sync code so that it will be possible for the next user 
+to adjust his sync potentiometer setting. 
+
+When making a copy of anything, load the copy 
+that you have made. When in doubt, do it again. 
+Make a copy as good as you would like to have it for 
+your own use. 
+
+Cleanliness is next to having a tape that loads. 
+Keep your greasy paws off the tape surface. If your 
+machine tends to eat tape, borrow someone else's. 
+Sardine oil, cracker crumbs, dandruff, eraser dust, 
+and many other things likely to be found in the 
+average household may inadvertently destroy the 
+
+
+
+work of genius. Please use care in handling the tapes. 
+
+For those of you intrepid enough to have once 
+called in an attempt to get something from the 
+library, please skip to the next paragraph. First, I do 
+not have a Fortran of any kind, sort, style or descrip- 
+tion. Same for PL-1. Don't call me, I'll call you. Next, 
+I neither steal, nor duplicate, software which is pro- 
+tected by copyright. I am a librarian, not a quick 
+copy service. Next, I will not list, catalog, or describe 
+what is in the library. If you know what you want, 
+ask me and I will tell you if we have it. Being a pack 
+rat of many years' standing, I will invariably take any- 
+thing I know can be had for nothing whether I need it 
+or not. Many of you are better at this than I am, and 
+since there are four hundred of you and only one of 
+me, I'll continue to pursue my hobby between phone 
+calls. If a manufacturer makes low cost software avail- 
+able, please support them by purchasing some. You 
+get a nice clean, readable copy of the documentation. 
+Besides, if you can't get it to load and go, you can 
+write a tear stained letter or openly cry over the tele- 
+phone and someone may be sympathetic toward your 
+cause, while a lowly library user must be happy with 
+unreadable or incomplete documentation and gets no 
+sympathy whatever he does. Lastly, I get what you 
+give to the library. I constantly encourage everyone 
+to contribute to the library, but some desirable 
+materials never get into the library. If you can't get it 
+from the library, but find another source for some 
+particular thing, either put a copy in the library, or 
+tell me where you were able to locate it, I'll pass the 
+information along to the next fellow. 
+
+To get a cassette from the library, please call ahead 
+so that I can verify that it is in the library and avail- 
+able. Then, you and I will set a convenient time for 
+you to drop by my place and pick it up. Since the 
+cassette has a given value, and neither the club treas- 
+urer or myself do this for profit, please come bearing 
+a TDK Audua C-60 cassette as "deposit" against the 
+safe return of the club tape. I won't sell your tape, or 
+take money of any nationality. A couple of the mem- 
+bers who have found work have already seeded the 
+library with blank tape and program tapes. You don't 
+have to have money to play, and if your story is sad 
+enough you can probably con me out of one for 
+nothing. And if heaven rains bounty on you, bear in 
+mind we are trying to get tax exempt status, and your 
+contribution may be deductible. 
+
+One last thing. Please respect the copyright law. 
+You are specifically forbidden from making copies of 
+many materials under the new laws. Several com- 
+panies have produced software for commercial 
+exploitation, and have protected its value by copyright 
+and whereas these companies may choose not to liti- 
+gate infringement of their copyright, it is their right 
+to protect their property. Purchase these products 
+from their rightful owners. There are, on the other 
+hand, many programs in the public domain as a direct 
+result of your labors and mine. As time goes on, there 
+will be even more. Here in Silicon Valley we have the 
+best of the best programmers and I have seen some 
+really great stuff simply given away. Remember that 
+the library is really a software exchange. Give a little. 
+Take a little. Don't use our facilities to rip someone off. 
+
+
+
+3 
+
+
+
+HCCNewsletter/Vol. 2, Issue 13 /January 19, 1977 
+
+
+
+TIC-I AC-TOE IN TINY BASIC 
+or 
+
+How to Make a Program TINY 
+
+By Tom Pittman 
+
+
+
+The only game I have that runs on my 4004 system 
+plays Tic-Tac-Toe, where the computer plays one 
+side. I wrote this some three years ago, but it recently 
+occurred to me that it would be something that 
+would run in TINY BASIC very easily. It is a simple 
+program and although the computer plays aggressive- 
+ly, it is not unbeatable. This program is particularly 
+suited to TINY BASIC because there are only a few 
+variables: we need a nine-element array for the play- 
+ing board, but that could have been handled by using 
+nine variables. I chose to use the USR function to 
+access nine consecutive memory locations in lower 
+memory (0007 to 000F). That is the only use of the 
+USR function, so if you want to use this program on 
+some other TINY BASIC than mine, you know what 
+to look for. 
+
+I did use one other peculiarity of TINY in this pro- 
+gram: there are several loops where the index on the 
+loop is W, which takes on the four values 6100, 6200, 
+6300, and 6400. These are line numbers for the 
+entry points of a subroutine, and the only use of the 
+variable W is in a GOSUB W statement, which selects 
+the corresponding subroutine entry. If you want to 
+convert this program to regular BASIC you will have 
+to fix that part as well as the USR calls. 
+
+When I was in high school I worked out a combina- 
+torial solution for this game which could be imple- 
+mented in relays, and I actually knew somebody 
+who built a Tic-Tac-Toe machine. But when I wrote 
+this program I decided that a heuristic approach would 
+be more fun, so this program does not use the com- 
+binatorial approach. The heuristic is a tree-search 
+algorithm of depth one. This is trivial as game pro- 
+grams go, but then, the game is nearly trivial itself. 
+Theoretically the program can be beaten, though I 
+could not find how. 
+
+The algorithm is simple. Each empty square is 
+assigned a score representing how good a play in that 
+square is, then the highest score wins. For each row, 
+column, or diagonal going through this square, the 
+score is incremented by 1 if there is an X (the human 
+play) and two blanks, by 2 if all three squares are 
+blank (i.e., the row, column or diagonal is available), 
+by 3 if there is an O and two blanks (aggressive: prefer 
+playing to win than to block), by 20 if there are two 
+X's (must block those), and by 100 if there are two 
+O's (that's a win). This scoring is done in lines 4300- 
+4500. 
+
+I wrote the program so that the user can type in 
+the location of the beginning of the interpreter (from 
+which the program derives the address of the Peek 
+and Poke USR routines), then after that it just plays 
+one game after another. Hopefully that minimizes 
+the need to make changes in the code for different 
+processors. One change which owners of TVT ter- 
+minals might like is to add a line for a Home Cursor 
+
+
+
+operation before printing the playing board. If your 
+TVT recognizes a FormFeed (hex OC) as the Home 
+function, either of the following will do the job: 
+
+2020 LET J=USR(G-11, 0, 12) 
+2020 PRINT "[formfeed] "; 
+
+The second one will of course look strange on the 
+listing. 
+
+After writing the program I realized that it is too 
+big for a 4K system in its entirety. So 1 separated the 
+~etup operations (lines 100-500) so that you can load 
+md RUN them, then CLEAR and load the rest. Or 
+you can omit loading the setup entirely, and just 
+set G and P in the direct execution mode to the prop- 
+er values for your system. 
+
+The rest of the program is still too big. 
+
+Now comes the big squeeze. I have a nice text 
+editor on my 4004 which allows multiple string 
+substitutions. I ran the program through the editor, 
+making the following substitutions: 
+
+LET deleted 
+PRINT becomes PR 
+all REM lines removed 
+
+delete all spaces (BASIC ignores them anyway) 
+remove 4th digit of line numbers 
+(only makes GOTOs shorter) 
+
+Then I manually rewrote the PRINT messages to 
+shorten them or to re-insert needed blanks, and fixed 
+the line number computations involving the variable 
+W. The result is a program only 1189 bytes long, 
+compared to the original 3484. This is short enough 
+to run in 4K of RAM including the interpreter. 
+
+By the way, Just as I was getting ready to cheat 
+and put a deliberate bug in the program so it could 
+be beaten, my wife found a way to beat it without 
+cheating. It is not a bug, but a direct result of the way 
+the heuristic evaluates each square. Also, on my 4004 
+the program evaluates its next move in less than one 
+second, or so fast as to appear instantaneous. In 
+TINY BASIC it takes several seconds, so I put in a 
+line which prints a period from time to time as it 
+thinks. This way you know the computer has not 
+stopped. 
+
+This is the whole program; the compressed version 
+followed it. It is now in the public domain, so have 
+at it. 
+
+100 REM TIC-TAC-TOF., YOU (X) VS. THP, COMPUTER 10) 
+110 GOTO 200 
+
+120 BOAKO IS IN MEMORY LOCATIONS 0007-OOOF 
+
+130 . 0 IS EMPTY, 1 IS X, 5 IS O 
+
+140 I HAS CURRENT POSITION 
+
+150 G IS P?ES ROUTINE ADDRESS 
+
+160 P IS POKE ROUTINE ADDRESS 
+
+170 F*l IF YOU PLAY FIRST 
+
+180 U IS NUMBER OF I1NPLAYED SQUARES 
+
+190 Z^l IF SOMEONE WON 
+
+200 REM 
+
+210 PRINT "TIC-TAC-TOE, YOU AOMNST TINY PASir" 
+220 PRI.4T YOU ARE X. I AM O." 
+
+230 PSIIT "YOU PLAY YOUR TURN FY TYPING THE NUMPFR OF A S^'ARE." 
+
+240 A=0 
+
+260 B*0 
+
+260 C=0 
+
+270 D*0 
+
+230 E=0 
+
+290 F»0 
+
+300 PRINT 
+
+
+
+HCCNewsletter/Vol. 2, Issue 13 /January 19, 1977 
+
+
+
+4 
+
+
+
+G,I)»20*2200 
+
+
+
+310 PRINT "FIRST, "; 
+
+320 PRINT "PLEASE TELL ME WHERE THE COLD START IS " 
+330 PRINT IN DECIMAL ; 
+340 INPUT I 
+
+350 IF I/256»256=I GOTO 400 
+360 IF I/100»100<I GOTO 320 
+370 PRINT NO, NOT HEX. 
+380 GO TO 330 
+400 P=I+24 
+410 G=I+20 
+
+420 PRINT >HAT Is " : 1/4096 ;( 1-1/4096*4006 ) /256 ; 
+430 PRIST 00 IN HEX. THANKS . " 
+440 GO TO 500 
+
+450 TO CONSERVE MEMORY, LINES 100-500 MAY BE RUN ONCE 
+
+460 THEN DELETED (CLEAR) BEFORE LOADING THE REST OF THE PROGRAM 
+
+500 REM ON WITH THE SHOW... 
+
+1000 LET F=l 
+1010 PRINT 
+
+1020 PRINT "NEW GAME." 
+1100 LET 1=7 
+
+1110 LET I=USR(P,I,0)»0+I+1 
+1120 IF I<16 GOTO 1110 
+1130 LET U=9 
+1140 LET Z=0 
+
+1150 IF F=0 THEN GOTO 4010 
+1160 GO TO 2010 
+1500 REM X WON . 
+1510 LET Z=l 
+1520 LET F=0 
+
+2000 REM PRINT GAME STATE 
+2010 LET 1=6 
+2100 PRINT 
+2110 LET 1=1+1 
+2120 PRINT " ": 
+2130 GOTO USR 
+2200 PRINT 1-6; 
+2210 GOTO 2300 
+2220 PRINT "x"; 
+2230 GOTO 2300 
+2260 PRINT "o"i 
+2300 IF I/3»3=I GOTO 2400 
+2310 PRINT " l"j 
+2320 GOTO 2110 
+2400 PRINT 
+
+2420 IF 1=15 GOTO 3000 
+
+2430 PRINT " ♦ * " 
+
+2440 GOTO 2110 
+3000 IF Z=0 GOTO 3100 
+3010 REM THE GAME IS OVER . 
+3020 IF F=l GOTO 3050 
+3030 PRINT "YOU WIN." 
+3040 GOTO 1010 
+3050 PRINT "i WIN." 
+3060 GOTO 1010 
+3100 IF U>0 GOTO 3210 
+3110 PRINT "CAT'S GAME." 
+3120 LET F=l-F 
+3130 GOTO 1010 
+3200 REM INPUT NSX PLAY. 
+3210 PRINT "YOUR PLAY"; 
+3220 INPUT I 
+
+3230 IF I>0 IF I<10 GOTO 3270 
+
+3240 PRINT "PLEASE TYPE A NUMBER BETWEEN 1 AND 9" 
+3250 PRINT WHERE YOU WISH TO PLAY YOUR x" 
+3260 GOTO 3210 
+
+3270 IF USR (G,I»6)=0 GOTO 3310 
+3280 PRINT "THAT SQUARE IS ALREADY TAKEN." 
+3290 GOTO 3210 
+
+3 300 REM CHECK IF X WON . 
+3310 LET H=USR(P,I*6,1)»0*U-1 
+3320 LET w=6100 
+3330 GOSUB W 
+
+3340 IF J>0 IF L»M«N=1 GOTO 1510 
+3350 LET W=W+100 
+3360 IF W<6500 GOTO 3330 
+3400 REM CHECK IF CATS GAME 
+3410 IP U=0 GOTO 2010 
+4000 REM FIND BEST "o" PLAY 
+4010 LET 1=1 
+4020 LET T=-l 
+
+4290 REM EVALUATE I'TH SQUARE 
+4300 LET S=0 
+
+4310 IF USR(G,I+6)>0 GOTO 4430 
+4320 LET W=6100 
+4330 GOSUB W 
+
+4 340 IF J=0 GOTO 4410 
+4350 LET J=L+M+N 
+4360 IF J=4 THEN GOTO 4410 
+4370 IF J=2 THEN LET S=St20 
+4380 IF J=6 THEN LET S=S+100 
+4390 IF J=0 THEN LET S=S+2 
+4400 LET S=S+J 
+4410 LET W=W*100 
+4420 IF W-6500 GOTO 4330 
+4430 IF S<T THEN GOTO 4470 
+4440 LET T=S 
+4450 LET B=I 
+4460 REM SAY SOMETHING 
+4470 PRINT "."; 
+4480 LET 1=1*1 
+4490 IF I<10 GOTO 4310 
+4500 PRINT "l PLAY ";B 
+4510 PRINT 
+
+4520 LET J=USR(P,B+6,3) 
+4530 LET U=U-1 
+
+4540 IF T<100 THEN GOTO 2010 
+4550 REM I WON I WON I WON 
+4560 F=l 
+4570 Z*l 
+4580 GOTO 2010 
+
+6000 REM SUBROUTINE TO LOOK AT ONE ROW, COL OR DIAG 
+6010 REM I IS THE POSITION OF REFERENCE 
+6020 REM L,M,N ARE RETURNED WITH CONTENTS OF THE 
+6030 REM ENTER AT 6100,6200,6300, OR 6400... 
+
+6040 REM TO EXAMINE ROW, COLUMN, DOWN DIAGONAL OR UP DIAGONAL 
+6090 REM W=HORIZONTAL 
+6100 LET J*(I-l)/3»3*9 
+6110 LET D=l 
+6120 GOTO 6500 
+6190 REM W»V£RTICAL 
+6200 LET J=I-(I-l)/3»3*9 
+6210 LET D=3 
+
+
+
+SO IT WONT SEEM SO LONG . 
+
+
+
+THREE SQUARES 
+
+
+
+6220 GOTO 6500 
+
+6290 REM W=D0WN DIAGONAL 
+
+6300 IF I-lo(I-l)/4*4 GOTO 6440 
+
+6310 LET D=4 
+
+6320 REM BOTH DIAGONALS GO THRU CENTER 
+
+63 30 LET J=ll 
+
+6340 GOTO 6500 
+
+6390 REM W=UP DIAGONAL 
+
+6400 LET D=2 
+
+6410 IF I»l IP I<9 IF I=I/2«2»1 GOTO 6330 
+
+6430 REM A DIAGONAL DOES NOT GO THRU THIS SQUARE 
+
+6440 LET J»0 
+
+6450 RETURN 
+
+6490 REM NOW WE KNOW CENTER OF THIS THREE AND +/- OFFSET 
+6500 LET L=USR(G, J-D) 
+6510 LET M=USR(G,J) 
+6520 LET H=USR(G J*D) 
+6530 RETURN 
+
+
+
+100F=1 
+101PR 
+
+102PR"NEWGAME" 
+1101=7 
+
+111I=USR(P,I,0)«0+I»1 
+
+112IFI<16GOT0111 
+
+113U=9 
+
+114Z=0 
+
+115IFF=0GOTO401 
+
+116GOTO201 
+
+151Z=1 
+
+152F=0 
+
+2011=6 
+
+210PR 
+
+211I-I+1 
+
+212PR" "; 
+
+"213G0T0USR(G,I)»2»220 
+
+220PRI-6; 
+
+22JGOT0230 
+
+222PR"x"; 
+
+223GOT0230 
+
+226PR~0"; 
+
+230IFI/3»3=IGOTO240 
+231PR" l"; 
+232G0T0211 
+240PR 
+
+242IFI=15GOTO300 
+
+243PR" + + " 
+
+244GOT0211 
+300IFZ=0GOTO310 
+302IFF=lGOTO305 
+303PR*YOU WIN" 
+304GOTO101 
+305PR"l WIN" 
+306GOTO101 
+310IFU>0G0TO321 
+
+3iipr"cats" 
+
+312F=1-F 
+313GOTO101 
+321PR~YOUR PLAY"; 
+322INPUTI 
+
+323IFI>0IFI<10GOTO327 
+324PR"0NE DIGIT ONLY" 
+326G0T0321 
+
+327IFUSR(G,I+6)=0GOTO331 
+
+328Pr'*TAKEN" 
+
+329GOT0321 
+
+331U=USR(P,I + 6,l)«0+t!-l ■ 
+
+332W=610 
+
+333G0SUBW 
+
+334IFJ>0IFL*M»N=lGOTO151 
+
+33SW=W*10 
+
+336IFW<650GOTO333 
+
+341IFU=0GOTO201 
+
+4011=1 
+
+402T=-1 
+
+430S=0 
+
+431IFUSR(G, I+6)>OGOT0448 
+
+432W=610 
+
+433G0SUBW 
+
+434IFJ=0GOTO441 
+
+435J=L+M+N 
+
+436IFJ=4GOT0441 
+
+437IFJ=2S=S*20 
+
+438IFJ=6S=S*100 
+
+439IFJ«0S=S+2 
+
+440S=S+J 
+
+441W=W+10 
+
+442IFW«650GOTO433 / 
+
+443IFS<TGOT0447 
+
+444T=S 
+
+445B=I 
+
+447PR"."; 
+
+4481=1+1 
+
+449IFI<10GOTO430 
+450PR"l PLAY ";B 
+451PR 
+
+452J=USR(P,B*6,3) 
+453U=U-1 
+
+454IFT<99GOT0201 
+
+456F=1 
+
+457Z=1 
+
+453GOT0201 
+
+610J=(I-l)/3»3*8 
+
+611D=1 
+
+612GOT0650 
+
+620J=I-(I-l)/3»3+9 
+
+621D=3 
+
+622GOTO650 
+
+630IFI-l<»(I-l)/4»4GOTO644 
+
+631D=4 
+
+633J=11 
+
+634GOT0650 
+
+640D=2 
+
+641IFI»1IFI<9IFI=I/2»2.1G0T0633 
+
+644J=0 
+
+645RETURN 
+
+650L=USR(G, J-D) 
+
+651M=USRtG,J) 
+
+652N=USR(G,,J»D) 
+
+653RETURN 
+
+
+
+5 
+
+
+
+HCCNewsletter/Vol. 2, Issue 13 /January 19, 1977 
+
+
+
+ERRATA-Volume 2, Issue 11-12, page 6 (VDM-1 
+modifications). Line 4 of the modification list should 
+read: "Connect a jumper from pin 7 of IC 17 to pin 4 
+ofICX7." 
+
+THE INDY BYTE CHASER-Newsletter of the 
+
+Indianapolis Small Systems Group (ISSG) covers 
+activities of the group. Contact Keith Pieper, 54 Sherry 
+Lane, Brownsburg, IN 46112 for meeting schedules 
+and location. When writing, a stamped self addressed 
+envelope is suggested. 
+
+GULTON 1030 PRINTER TERMINAL— RS 232, 
+
+Univac print mechanism, operative NOW, replaced 
+with new terminal. David Ingram, 800 Oak Grove 
+Ave., P.O. Box 896, Menlo Park, CA 94025, telephone 
+(415) 323-6164. 
+
+ALTAIR 8800 Computer, Sanyo VM4G92 Video 
+Monitor, Cherry keyboard, 20K Pro. Tech. RAM, 
+ACS, Tarbell Cassette Interface, Proc. Tech. Video 
+Interface, 3P+S I/O board Proc. Tech. ALS-8, 2KRO, 
+beefed up power supply, mother board with all 16 
+edge connectors, listing of 115 basic programs, man- 
+uals, extra parts, past issues of Byte, Interface, Home- 
+brew Newsletters, and other documentation. Com- 
+plete system only. Retail value $2659, I want $2000 
+firm. Leaving town. D. Wier 673-6023, 9AM-6PM. 
+653-7836 after 6. 
+
+Cyclops Camera— Does anyone have a Cyclops camera 
+and controller board? If so, I would like to discuss its 
+operation with you. Call Eric in Livermore at 415- 
+443-1851 (eves). 
+
+TELETYPES— Models 28 through 40, new or rebuilt, 
+
+RO's, KSR's, ASR's. All available immediately. 
+NATIONAL TELETYPEWRITER CORP., 207 New- 
+town Rd., Plainview, NY 11803. Contact Joe Gibbons 
+at 516-293-0444, 
+
+SOL User Group. If you own or have ordered Pro- 
+cessor Technology 's SOL computer, please send your 
+name, address, phone number and ideas to BUI Burns, 
+4190 Maybell Way, Palo Alto, CA 94306. 
+
+NORTHWEST INDIANA CLUB-Now forming. For 
+
+information contact David Kominiak, Computer 
+Learning Exchange, 6637 Kennedy Ave., Hammond, 
+Indiana 46323. 
+
+SONOMA COUNTY COMPUTER CLUB-Meeting 
+
+first Tuesday of month at the LO*OP CENTER, 
+8099 La Plaza, Cotati, CA 94928. Meeting time 
+is 7: 30 PM. 
+
+
+
+
+SAN DIEGO-ELECTRONIC PRODUCT ASSO- 
+CIATES, INC. 1157 Vega Street, San Diego, California 
+92110, 714-276-8911, announces the availability 
+of the ALL NEW MICRO-68b Micro-bomputer. The 
+MICRO-68b comes completely assembled with hex- . 
+keyboard, 6 digit LED display, 8K RAM, IK PROM 
+Monitor system, CRT/TTY/Audio Cassette interface. 
+It is housed in a ruggedized aluminum cabinet with a 
+13 slot exorcisor compatible mother board and 
+20 amp power supply. THe MICRO-68b utilizes the 
+6800 microprocessor chip set now manufactured by 
+Motorolla, AMI, Fairchild, Hitachi and Thompson 
+CSF. The MICRO-68b lists for $1878.00 and is avail- 
+able from stock. 
+
+Amateur Radio Auction— One of the largest amateur 
+
+radio auction events will be held February 26, 1977 
+at the Ford Aerospace and Communications Corpora- 
+tion cafeteria. Auction starting time is 9:00 a.m. Sat- 
+urday. Doors open at 8:00 a.m. for sellers to register 
+and set up equipment. Door prizes, flea market, 
+exciting auctioneers, and time to socialize too. Loca- 
+tion is 3939 Fabian Way, Palo Alto, CA 94303, Spon- 
+sored by the South Peninsula Amateur Radio Klub— 
+SPARK. 
+
+CLUB LIBRARY— Gordon French, club librarian, has 
+
+lots of interesting material and is able to loan it to 
+anyone with a definite need, but . . . please adhere to 
+the following: 
+
+Limit your telephone calls to the hours of 7PM 
+to 9PM weekdays only. This is important. Gordon's 
+phone number is (415) 325-4209 in Menlo Park. 
+
+* Be specific with your request and Gordon can 
+probably help you— he cannot randomly review the 
+contents of the library for you. 
+
+* Np reproductions will be made of any materials, 
+■fr All materials loaned must be returned so they are 
+
+available for others to use in the future. 
+
+HOW TO GET THE NEWSLETTER-Anyone inter- 
+ested in computers as a hobby may receive the 
+Newsletter by sending a request to the Homebrew 
+Computer Club Newsletter, P.O. Box 626, Mountain 
+View, CA 94042. The Newsletter is distributed 
+monthly at the club meetings and is also mailed to 
+individuals who are unable to attend the meetings. 
+
+If you have an input to the Newsletter, send it in 
+and it will be published as quickly as possible. How- 
+ever the editors cannot promise that everything sent 
+will be published immediately. All manuscripts must 
+be typed and carefully proofed. All listings and dia- 
+grams should be as clear and easy to read as possible. 
+
+The Newsletter is made possible by your dona- 
+tions. Please remember that we must pay for postage, 
+labels and printing. Donations may be given to Ray 
+Boaz at the club meetings or sent to the above address. 
+
+
+
+HCC Newsletter/VoL 2, Issue 13 /January 19, 1977 
+
+
+
+6 
+
+
+
+SHOW & TELL 
+
+Be a SPEAKER or PANELIST at the 
+FIRST WEST COAST COMPUTER FAIRE 
+
+EXCLUSIVELY DEVOTED TO PERSONAL & HOME COMPUTING 
+
+• Present a TUTORIAL for an absolute beginner, just starting to think about owning his own computer 
+
+• Describe a COMMERCIAL or HOMEBREWED SYSTEM of interest to personal computing enthusiasts 
+
+• Discuss the DESIGN or IMPLEMENTATION of SOFTWARE for home & hobby computers 
+
+• Detail a CURRENT or FORESEEABLE APPLICATION of personal computers 
+
+• Debate a CONTROVERSIAL ISSUE in the realm of individual computing 
+
+Or, suggest an exciting speaker or interesting topic, appropriate for the Computer Faire 
+
+ALSO 
+
+EXHIBIT a HOMEBREWED SYSTEM 
+
+• Hardware, Software, or an Integrated System 
+
+• Prizes for the Best "Home Cooking" (just .like the old county fairs) 
+
+
+
+SEE & HEAR 
+
+Attend the FIRST WEST COAST COMPUTER FAIRE, 
+April 15-17, 1977, in San Francisco Civic Auditorium 
+
+
+
+• 7,000 to 10,000 people 
+
+• 100 Conference Presentations 
+8 200 Commercial & Homebrew Exhibitors 
+8 Special-Interest Social Centers 
+
+
+
+8 Banquets with nationally-known, present-world, 
+
+& future-world speakers 
+•Tutorials for Beginners 
+8 Esoterica for Experts 
+
+Co-Sponsors include amateur, professional, & educational groups. 
+
+
+
+Some Conference Sections Being Planned: 
+
+
+
+* Personal Computers for Education 
+
+associated witfi a University of California short-course 
+8 Computers & Amateur Radio 
+
+* Computer Graphics on Home Computers 
+
+8 Computer-Driven, & Computer-Assisted Music Systems 
+
+* Speech Synthesis Using Home Computers 
+
+8 Microprogrammable Microprocessors for Hobbyists 
+8 Program & Data Input via Optica! Scanning 
+
+
+
+8 Floppy Disc Systems for Personal Computers 
+
+8 Computer Games: Alphanumeric & Graphic 
+
+8 Computers & Systems for Very Small Businesses 
+
+8 Personal Computers for the Physically Handicapped 
+
+8 Personal Word-Processing Systems 
+
+8 Software Design: Modularity & Portability 
+
+8 Several Sections Concerning Standards 
+
+8 Other Sections for Club Leaders, Editors, Organizers, etc. 
+
+
+
+Get Your free Copy of the Silicon Gulch Gazette 
+
+
+
+» A tabloid newspaper for computer fanatics 
+
+' All the news about the Computer Faire 
+
+> Details about the Proceedings of the Computer Faire 
+
+
+
+»P/MS'"hot news" & raging rumors from Silicon 
+Valley (the San Francisco Peninsula), product 
+announcements, equipment descriptions, etc. 
+
+
+
+. ^ ut out ' or photocopy; then fold, and tape in position. 
+
+
+
+BUSINESS REPLY MAIL 
+
+No Postage Necessary If Mailed In U.S.A. 
+
+
+
+FIRST CLASS 
+
+Permit No. 91 
+Palo Alto, CA 
+
+
+
+POSTAGE WILL BE PAID BY 
+
+
+
+BOX 1579 
+PALO ALTO CA 94302 
+
+
+
+□ Send a free copy of the Silicon Gulch Gazette. 
+
+□ Send program & accommoda- □ Send speakers' instructions. 
+
+
+
+tions information, 
+& Pre-registration Form 
+(those who pre-register may 
+take advantage of a 
+reduced admission fee). 
+PLEASE PRINT OR TYPE 
+NAME 
+
+
+
+Q Send homebrew exhibitors' 
+instructions. 
+
+□ Send commercial exhibitors' 
+prospectus. 
+
+□ Send details on the expected 
+Computer Faire Proceedings. 
+
+
+
+ADDRESS 
+
+
+
+_STATE_ 
+
+
+
+_ZIP_ 
+
+
+
+CITY 
+
+7 7-1-1 OH 
+
+^ COMPUTER FAIRE t (415) 851-7664 
+
+
+
+i 
+i 
+t 
+
+i 
+I 
+I 
+1 
+S 
+I 
+I 
+i 
+I 
+1 
+I 
+I 
+I 
+I 
+1 
+I 
+I 
+i 
+i 
+I 
+I 
+
+s 
+1 
+t 
+
+! 
+S 
+I 
+I 
+I 
+I 
+i 
+i 
+I 
+
+
+
+HCC Newsletter iVol. 2, Issue 13 /January 19, 1977 
+
+
+
+Contents 
+
+
+
+PAGE 
+
+
+
+Random Data, Robert Reiling 1 
+
+MPU Shops Opened by SEMI SPECS .1 
+
+New Joystick Console Gives More 
+
+Flexibility to Microcomputers .1 
+
+NIBL February 16, 1977 2 
+
+Useful BASIC Program, William Marlin 2 
+
+Cassettes in the Library, Gordon French .2 
+
+Tic-Tac-Toe in Tiny Basic, Tom Pittman .4 
+
+Bulletin Board . .6 
+
+West Coast Computer Faire. 7 
+
+
+
+HOMEBREW COMPUTER CLUB MEETINGS 
+
+Where And When 
+
+The Homebrew Computer Club meets at 7PM at 
+the Stanford Linear Accelerator Center Auditorium. 
+Dates scheduled for February are the 2nd and 16th, 
+and for March the 2nd, 16th and 30th. The dates and 
+the location are subject to change. If a change does 
+occur, every effort will be made to provide advance 
+notice in the Newsletter. □ 
+
+
+
+
+
+HOMEBREW COMPUTER CLUB 
+NEWSLETTER 
+
+P.O. Box 626 
+Mountain View, CA 94042 
+
+
+
+FIRST CLASS MAIL 
+
+
+
+
+HCCNewsletter/Vol. 2, Issue 13 [January 19, 1977 
+
+
+
+8 
+
+
+

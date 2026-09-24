@@ -500,6 +500,47 @@ Every item is a named follow-up task, not a disclaimer. Populated after QA.
 | RD-038 | Amazon | `_parts/s1_p2.md` | The intermediate part mirrors an appendix claim that was fixed only in the deliverable | Parts are the merge's audit trail; a stale claim there invites re-import by a future consolidation pass | same note — amend additively with a supersession marker, do not rewrite silently | OPEN — low priority |
 | RD-039 | Amazon | data_gaps.csv | Gap register does not yet carry RD-035/036 rows | §13 requires every High-importance gap to carry a follow-up task, and these now have one | Reconcile in the same pass as RD-037 | OPEN |
 
+### Archive route discovered mid-run — the EDGAR floor is not the last word
+
+The Walmart probe concluded that pre-1994 origins cannot carry exemplar depth, because EDGAR starts
+~1994 and web archives mid-90s. The **Apple probe is now contradicting the pessimistic half of that
+inference**: it is retrieving **Byte magazine's 1976 issues in full text from Internet Archive**
+(`company_004_apple/sources/ia_byte_1976/`, twelve issues, plus a 1977 run). Contemporaneous trade
+journalism is a **Tier-1 primary source class that the EDGAR floor argument silently ignored.**
+
+Consequences, to be tested rather than assumed:
+
+1. Walmart's forensic-core verdict was reached **without checking digitised trade-press corpora**
+   (Saturday Evening Post back files, Retailing Today / Daily News Record, Arkansas periodicals on
+   archive.org and HathiTrust). If those land, its depth verdict is revisable upward — the verdict was
+   correct on the evidence examined, and the evidence examined was too narrow.
+2. The probe brief is being amended for the remaining companies to make **Internet Archive /
+   HathiTrust periodical search a mandatory step** before any depth verdict, alongside EDGAR and CDX.
+3. This is a lesson about null results generally: a null from one corpus family is not a null. The
+   Amazon run already learned it with `matchType=prefix` returning 504 (unanswered) rather than empty
+   (proven); this is the same error in a different costume.
+
+### Recurrence note — the write-late failure is structural, not a fluke
+
+As of 2026-09-24 the "researched everything, wrote nothing" failure has recurred **three times** despite
+§14: twice with wave-1 dossiers, now with the UnitedHealth probe (469-word skeleton, 1 record, but **55
+source files saved to disk**). The mitigations that worked: (a) saving primaries to `sources/` as you go,
+which made the loss recoverable, and (b) relaunching a **mining-only agent** against the local files with a
+4-search budget instead of re-running the original brief. Fast-tier agents that end with a "now writing"
+sentence and an empty file should be treated as **partially succeeded**: keep the evidence, redo the
+write-up.
+
+### Number-round status after two repair passes
+
++94.1% (not +95.2%), the true third **$871,000** (not the back-solved $871,024), composition
+**$976,408**, and **43% original / 41% S-1/A No. 5** as a version discrepancy — all established from
+the original S-1 by line (l.2864, l.4301–4302, l.985–988, l.2919, l.1055–1062, l.3149, l.3535/3546/3645).
+The second repair pass validated its CSVs **by planting the previously-dropped defect in a copy and
+confirming the detector caught it** — the strongest verification step taken so far. A residual sweep is
+chasing stale copies that survived outside that agent's write scope (known survivors: `stage_1.md`
+§S and §U.8, `data_gaps.csv` r11, `context_appendices.md` ~l.596, `_parts/NUMBER_DEFECTS.md` r43), and
+**both audit gates still need their independent re-verification — a repair is not a pass.**
+
 ## 7. Cross-company synthesis gate
 
 Spec §22 forbids cross-company pattern claims until individual reports pass QA. No

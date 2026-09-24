@@ -1,0 +1,2000 @@
+HOMEBREW MiWiHiTTI^ 
+
+COMPUTER 
+
+CLUB 
+
+Robert Reilinq, editor □ Post Office Box 626 □ Mountain View, CA 94042 
+Volume Number 1, Issue 10 December 31, 1975 
+
+IN THIS ISSUE 
+
+This month Ray Boaz concludes his discussion of displays with the final 
+installment of "Intelligent Display For Microcomputers". He includes a 
+circuit diagram of a selectable octal or hex display that has been 
+constructed and tested. 
+
+To bring everyone up to date on local sources of hobbyist computers, 
+parts, P.C. boards, time share services, publications, etc. a list of 
+local sources is presented on page 2. These organizations are interested 
+in the hobbyist and it is expected that they will be responsive to our 
+needs . 
+
+Tom Pittman explains a software system for saving 8008 processor status 
+while processing interrupts. Software listings are included for this 
+application. 
+
+WANTED FOR FUTURE ISSUES 
+
+We need more software discussions and articles. Material such as Tom 
+Pittman 1 s article in this issue would be of wide interest. Particularly 
+ALTAIR routines that you have developed and tested could be used by 
+many people in the club. Of course hardware material is welcome too. 
+Send your material to Robert Reiling, editor, P.O. Box 626, Mountain 
+View, CA 94042. 
+
+MEETING DECEMBER 10, 1975 
+
+Over 200 computer hobbyists at this meeting. Everyone wanted a copy of 
+INTERFACE Volume 1, Issue 1 which was sold for $1.00$ $.50 to the 
+HCC and $.50 to the SCCS. An auction was held to sell back panel 
+boards donated by Processor Technology Corp. and to sell a MC6860 
+modem chip donated by Dan Sokol. A great deal of information was 
+exchanged during the discussion periods. A very helpful meeting. 
+
+NEXT MEETING JANUARY 7, 1976 
+
+The next meeting is January 7, 1976 at Stanford Linear Accelerator 
+Center, Menlo Park, CA. The meeting begins about 7?00PM. Ask the 
+guard for directions to the meeting room. Processor Technology Corp. 
+is donating a 2KR0 PC board kit for the ALTAIR 8800 or IMSAI 8080. 
+It has 1702As programmed with bootstrap loader for ALTAIR 8K BASIC 
+and Intel hex format bootstrap. Valued at $70.00 this kit will be 
+raffled off during the meeting. See you at the meeting. 
+
+
+
+
+At each HCC meeting many of those attending are there for the first 
+time. Some have little knowledge of how or where to get started in' 
+a home computer hobby. To aid those interested in a hobby system the 
+HOMEBREW COMPUTER CLUB NEWSLETTER has prepared a list of local sources. 
+Recommendations for additions to this list as well as comments on these 
+suppliers are invited. 
+
+
+
+BYTE SHOP COMPUTER STORE 
+1063 El Camino Real 
+Mountain View, CA 94040 
+(415)969-5464 
+ALTAIR products 
+
+
+
+JAMES ELECTRONICS 
+P.O. Box 822 
+Belmont, CA 94002 
+(415)592-8097 
+Parts, IC's, Kits 
+
+
+
+CALL COMPUTER 
+
+1961 Old Middlefield Road 
+
+Mountain View, CA 94043 
+
+(415)964-5331 
+
+Time Share Service, K200 Account 
+
+COMPUTER j£eTS, INC. 
+1044 University Ave. 
+Berkeley, CA 94710 
+(415)845-5300 
+ALTAIR products 
+
+GODBOUT ELECTRONICS 
+Box 2355 
+
+Oakland Airport, CA 94614 
+
+(415)357-7007 
+
+Parts, IC's, Kits 
+
+
+
+M&R ENTERPRISES 
+P.O. Box 1011 
+Sunnyvale, CA 94088 
+(408)738-3772 
+Parts, IC's, Kits 
+
+MICROCOMPUTER ASSOCIATES INC 
+111 Main Street 
+Los Altos, CA 94022 
+(415)941-1977 
+JOLT products 
+
+
+
+PEOPLE'S COMPUTER COMPANY 
+
+P.O. Box 310 
+
+Menlo Park, CA 94025 
+
+(415)323-6117 
+
+Newspaper, Publications 
+
+
+
+HALTED ELECTRONICS 
+729 E. Evelyn Ave. 
+Sunnyvale, CA 94086 
+(408)732-1573, (415)969-1448 
+Surplus items 
+
+
+
+PROCESSOR TECHNOLOGY CORP 
+2465 Fourth Street 
+Berkeley, CA 94710 
+(415)549-0857 
+Kits 
+
+
+
+HALTEK ELECTRONICS 
+1060 Linda Vista 
+Mountain View, CA 94040 
+(415)969-0510 
+Surplus items 
+
+
+
+RGS ELECTRONICS 
+3650 Charles Street 
+Santa Clara, CA 95050 
+(408)247-0158 
+Kits 
+
+
+
+IMS ASSOCIATES INC. 
+1922 Republic Ave. 
+San Leandro, CA 94577 
+(415)483-2093 
+IMSAI products 
+
+
+
+SOLID STATE MUSIC 
+2102A Walsh Ave. 
+Santa Clara, CA 95050 
+(408)246-2707 
+
+Parts, IC's, Surplus items 
+
+
+
+INTERNATIONAL ELECT. UNLIMITED 
+
+P.O. Box 1708 
+
+Monterey, CA 93940 
+
+(408)659-3171 
+
+Parts 
+
+
+
+-3- 
+
+
+
+INTELLIGENT DISPLAY FOR MICROCOMPUTERS - Ray Boaz 
+
+In the last two Newsletters circuits for multiplexed display of octal (Issue #8) and 
+hexadecimal (Issue #9) 16 bit address and 8 bit data busses have been presented, in 
+this issue a circuit which is selectable octal or hex is described. As with most 
+true homebrew computers the main goal is low cost, which usually means the minimum 
+parts and the cheapest parts to do the job. The cost trade-off in either multiplexing 
+or direct drive of displays follows the general rule-if more than five digits are used 
+it cost less to multiplex them. This circuit is in response to several requests, it 
+has been constructed, and operates as shown. 
+
+Since some digits must be shared for octal and hex, the first thing to set up is the 
+arrangement of the display. This is arbitrary but must be determined for the design 
+of the digit enables. Fig. 1, is how I set it up. All digits are shown with the 
+maximum reading and the shared digits are split to show octal and hex. The numbers 
+above each digit are the counter states which enables that digit. 
+
+As before, the counter runs the show and keeps everything in sync. A 74161 (Ul) 
+synchronous, presetable, 4 bit binary counter is used in a Reset (R) mode for octal 
+display and in a preset (L-load) mode for hex. Since 15 states are required (9 for 
+octal and 6 for hex) counter states 0 to 8 are used for octal and 10 to 15 for hex, 
+with state 9 detected for reset. Switch SI causes the counter to either reset to 
+0000 or preset to 1010. The reset is asynchronous so that the counter goes to 0000 
+as soon as state 1001 (9) is detected by U9B. However, the L mode is synchronous 
+and loads the counter with 3010 on the next leading edge of the clock after Co goes 
+high, giving a full state time at state 1111. In either case the counter simply counts 
+on from R or L. This gives the 15 unique states required, 12 of which must be OR'd 
+for the shared digits. Counter outputs A,B,C, and D go to like inputs on U2, 133, U4, 
+and U7. On U5 the inputs are A,B, and C, but D must be inverted and goes to the E 
+input, which holds its output low during octal states 0 to 7. During octal state 8 
+input 0 of U5 is enabled, but since it is grounded its output is again low, just as 
+required. 
+
+Except as above, the data multiplexers U2, U3, U4 and U5 operated in a straight for- 
+ward manner. Each of the 24 inputs to the data mux must be used twice, the arrange- 
+ment of these inputs is shown in Table 1. The octal and hex inputs are marked as 
+such inside the data muxes on the logic diagram. All four data muxes are enabled 
+during the hex times but U5 is disabled during octal states 0 to 7 by counter output 
+D being inverted and connected to the E input. The setting of SI determines the 
+counter mode and, therefore, the set of inputs selected by the data muxes. U2, U3, 
+and U4 have only inverted outputs so they must be inverted by U8-A,B, and C. 
+
+The digit decoder, U7, simply activates its outputs corresponding to the binery code 
+on its inputs. To make some digits do double duty, two outputs on U7 are OR'd to* 
+gether by use of two resistors and a transistor (same as an RTL OR gate) which can 
+pass the current required for all segments of a digit. An example is: U7 outputs 
+2 and 10 OR'd to turn on digit 3 at counter states 2 and 10, which correspond to octal 
+A9 on input 2 of U2 and hex A12 on input 10 of U2. Table 1 shows exactly this. The 
+other shared digits operate the same way. 
+
+The segment decoder /driver, U6, is the same as used in the hex circuit and works 
+well for both octal and hex display. Hex display for B is b and for D is d. The 
+segment resistors determine the brightness of the display and are a low value due 
+to duty cycle of the LED's (each digit is off 8/9 of the time in octal). These 
+segment resistors are connected to the like segment inputs of each LED. 
+
+
+
+-4- 
+
+
+
+The parts cost of this circuit is less than $25.00 and is about the least number of 
+parts you can get away with and still do the job. If there are any questions or 
+comments on any of the three circuits on multiplexed displays, I will be happy to 
+answer them. Write to the Newsletter P o 0. Box. 
+
+
+
+At>o*ess 
+
+
+
+o 
+
+
+1 
+
+
+2-i« 
+
+
+3- II 
+
+
+
+
+S- 12 
+
+
+
+
+1 
+
+
+1 
+
+
+1 
+
+
+1 
+
+
+1 
+
+
+1 
+
+
+F 
+
+
+F 
+
+
+F 
+
+
+F 
+
+
+
+
+i 
+
+
+» i - 
+
+
+r* a- 
+
+
+IS 
+
+
+
+
+
+3 
+
+
+i 
+
+
+~! 
+
+
+F 
+
+
+F 
+
+
+
+OCT/U 
+
+
+
+OCT/lfc 
+
+
+
+F,c 1. 
+
+
+
+
+
+^ DO re ESS 
+
+
+
+
+D ATA 
+
+
+STATES 
+
+
+• 0 
+
+
+1 
+
+
+
+
+3-N 
+
+
+4- fl 
+
+
+5"- 13 
+
+
+
+
+7- if 
+
+
+5- 
+
+
+iff 
+
+
+0/0 
+
+
+
+
+o 
+
+
+
+
+o 
+
+
+
+
+o 
+
+
+
+
+o 
+
+
+H 
+
+
+o 
+
+
+H 
+
+
+
+
+H 
+
+
+0 
+
+
+M 
+
+
+0 
+
+
+H 
+04 
+
+
+0 
+
+DO 
+
+
+M 
+Dd 
+
+
+A 
+
+6 
+
+
+
+
+
+
+At! 
+
+m 
+
+
+
+
+AT 
+
+A if 
+
+
+A/3 
+
+
+M 
+At 
+
+
+AS 
+Al 
+
+
+A3 
+A* 
+
+
+M 
+
+45 
+
+
+/to 
+
+Al 
+
+
+/If 
+/»/ 
+
+
+07 
+
+
+
+
+03 
+04 
+
+
+o» 
+
+
+01 
+
+
+t>i 
+
+
+C 
+
+
+
+
+
+
+
+
+
+
+
+
+A 14 
+
+
+A8 
+
+
+Al$ 
+
+
+AS 
+
+
+A4 
+
+
+AX 
+
+
+AZ 
+
+
+
+
+
+
+0* 
+
+
+
+
+01 
+
+
+05L 
+
+
+0 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AH 
+
+
+
+
+A7 
+
+
+
+
+
+
+
+
+
+
+
+
+07 
+
+
+
+
+03 
+
+
+
+Microcomputer Interfacing Workshop , March 12-13, 1976. 
+A two-day workshop based on the popular Intel 8080 micro 
+processor. This course Is sponsored by the V.P.I, and S.U. 
+Extension Division at the VPI Center in Res ton, Va. (near 
+Dulles Airport) . This workshop will include many hours of 
+experience in programming and interface construction with 
+over 12 operating microcomputers for participant use. For 
+more information contact Dr. Norris Bell, V.P.I, and S.U. 
+Continuing Education Center, Blacksburg, Va. 24061. 
+703-951-6328. 
+
+Digital Electronics for Automation and Instrumentation , 
+March 21-26 which is a hands-on laboratory /lecture course 
+covering basic digital electronics as well as data 
+communications and interfacing using asynchronous serial 
+techniques. It is held at VPI and SU in Blacksburg, Va. 
+and is sponsored by the American Chemical Society, 
+Education Division, 1155 16th St., N.W. , Washington, D.C. 
+20036 (202) -872-4528. 
+
+
+
+-6- 
+
+
+
+SOFTWARE STACK FOR THE 8008 - Tom Pittman 
+
+One of the difficulties with the 8008 has been that there are no built-in facilities 
+for saving the complete processor state while processing interrupts. This problem 
+was corrected in the design of the 8080, but not before many 8008 systems were designed. 
+For the hobbyist with an 8008, two alternatives are open for handling interrupts: An 
+external hardware stack attached to 1/0 ports (see Byte #2 or my design note in Elec- 
+tronic Design in November 1974) ; or two CPU registers dedicated to the service of the 
+interrupts. 
+
+Dedicating two registers out of the six (non- accumulator) seems a little extravagant, 
+except that with a little care the loss can be minimized by converting the use of 
+those two registers to the support of a software stack, as described here. A soft- 
+ware stack can also be used by the main program for temporary data storage without 
+interference by or to the interrupt service routines. 
+
+The subroutines shown here dedicate registers D and E to the software stack: these 
+two registers may not be used for any other purpose in the program. However, register 
+E is the stack pointer, and may be incremented or decremented without calling the 
+stack service routines, if it is desired to delete or allocate extra stack space with- 
+out actually retrieving or storing data. Register D is used only for temporary storage 
+during interrupt service, and should not be used any time an interrupt is possible, 
+since its contents will be destroyed. 
+
+The stack is defined to be wholly contained in one page of memory, for a maximum of 
+256 bytes pushed. The page number is loaded into H with an immediate instruction 
+each time, using the symbolic value PAGE. Before any of the stack routines are called 
+the main program should initialize the E register with the high address of the stack 
+(it pushes downward, like the 8080 stack); E is always considered to point to the next 
+available location. Example: 
+
+MVI E,255 To use whole page for stack 
+
+The subroutines may be placed anywhere in memory, but if placed as shown, RST instruc- 
+tions may be used for access (see examples at end of listing). These stack routines 
+are designed to be completely re-entrant; that is, they may be interrupted at any 
+point and called by the interrupt service routines with no loss of data. The status 
+save & restore routines INTS and INTR are not re-entrant since they use the D register; 
+these two routines are designed only for use in servicing the beginning and end of an 
+interrupt, when another is not expected. 
+
+BULLETIN BOARD 
+
+FOR SALE MARK- 8 - IK words, TV typewriter I and keyboard. Any fair 
+offer considered, because I need the money. John (415)325-1873. 
+
+COUPLERS, MODEMS, KEYBOARDS, ETC. - Listing of items for sale with 
+details available. Send SASE to Gary Coleman, 14058 Superior Road 
+Apt. 8, Cleveland, Ohio 44116. 
+
+ON LINE - A buy and sell forum for the computer hobbyist. Get details 
+from D. H. Beetle, Publisher, 24695 Santa Cruz Hwy. , Los Gatos, CA 95030. 
+
+INTERESTED IN GROUP BUY OF INEXPENSIVE LINE PRINTER, or some suitable 
+print mechanism in the $100 to $400 range. Need suggestions and 
+interested people. A. G. Gonzalez, Box 6167, Stanford, CA 94305. 
+
+
+
+00 000 100 
+
+
+
+a x 
+u u 
+r * 
+
+h, V f- 
+
+iNf 
+
+© X •"• © 
+
+w « as h 
+Hi «e z 
+© >- a. 
+3 w xz 
+
+Z 3 « W Q I 
+J 4 3 O. © 
+
+x a o w o 3 
+
+Ok 
+
+
+
+has 
+— w 
+
+>• Z 
+
+z © 
+on u 
+
+* u a x o 
+
+X # W O H 
+3 m -i t- ~ 
+
+a. x 3 to 
+
+© © O X 
+
+o» o, x 3 < 
+z ~ * * 0k 1 
+
+
+
+if) 4 W Q J 
+
+4 « « * « 
+
+
+
+x>4a,xoooooooofai 
+
+
+
+© 
+
+h. ce 
+o hi 
+
+H 
+
+u z 
+© •-* 
+4 © 
+a. a. 
+
+H 
+hi U 
+© <D 
+
+
+
+• • 
+
+o a 
+w w 
+
+© X 
+h l/l O 
+Z 3 t- 
+
+-0. z 
+
+W H 
+
+3 O U 
+J Z 3 
+
+4 J 
+> b. 4 
+
+-J "* 
+
+t- X 
+a. «a 
+oca, 
+0u o © 
+
+* # a. 
+
+
+
+
+
+~ X 
+
+© b. 
+
+
+
+
+
+
+3 U 
+
+
+
+
+
+
+H 
+
+
+
+
+4 
+
+
+X V) O 
+O w H 
+
+
+
+
+o 
+
+
+4 © 
+
+
+
+
+H 
+
+
+H hi X 
+
+
+
+
+Z 
+
+
+W X hi 
+
+
+a 
+
+
+
+
+H 
+
+
+>* 
+
+
+
+
+X wz 
+
+
+u 
+
+
+© 
+
+
+mo a« 
+
+
+
+
+to 
+
+
+© « z o 
+
+
+X 
+
+
+s 
+
+
+<r <* 4 ft. 
+
+h. < 8 x 
+< u 
+
+
+? 
+
+
+
+
+h. 
+
+
+a. 
+
+
+ft ft A * 
+
+W O W f- 
+
+
+-J 
+
+
+i 
+
+
+•* 
+
+
+© a. x © 
+
+
+X 
+
+
+
+4 4 
+
+4 
+
+n S & 
+
+3 3 O 
+
+a. a. a. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a. 
+
+
+a. 
+
+
+
+
+?t 
+
+
+
+
+
+
+i 
+
+
+o 
+
+
+o 
+
+
+bl 
+
+
+
+
+© 
+w 
+
+
+
+
+t- 
+
+
+H> 
+
+
+©. 
+
+
+
+
+TH 
+
+
+TH 
+
+
+TH 
+
+
+© 
+
+
+
+
+
+
+
+
+
+
+
+
+hi 
+
+
+
+
+
+
+S 
+
+
+5 
+
+
+m m 
+
+
+X 
+
+
+
+
+
+
+
+
+4 
+
+
+<t s 
+
+
+
+
+
+
+s 
+
+H 
+
+
+us 
+
+
+u 
+
+
+bl © 
+
+
+
+
+
+
+
+
+© 
+
+
+o 
+
+
+V 4 
+
+
+co 
+
+
+
+
+a. 
+
+
+z 
+
+
+z 
+
+
+Z fa. 
+
+
+a» 
+
+
+© 
+
+
+o 
+
+
+4 
+
+
+<£ 
+
+
+4 
+
+
+o 
+
+
+
+
+t- 
+
+
+X 
+
+
+X 
+
+
+X * 
+
+
+J 
+
+
+X 
+
+
+
+
+o 
+
+
+
+
+o © 
+
+
+u 
+
+
+© 
+
+
+Q 
+
+
+s< 
+
+
+
+
+x © 
+
+
+
+
+3 
+
+
+Q 
+
+
+u 
+
+
+u 
+
+
+w 
+
+H 
+
+
+55 
+
+
+a. 
+
+
+< 
+
+
+o 
+
+
+o 
+
+
+© 3 
+
+
+
+
+g 
+
+
+© 
+
+
+H 
+
+
+
+
+H © 
+
+
+
+
+
+
+
+X 
+
+u 
+
+'/} 
+
+z 
+» © 
+
+5x 
+3© 
+
+u 3 
+
+ii 
+
+
+
+bt 
+© 
+
+* fal X X X X W.JQ 
+» « • « % » » » » 
+
+XJJQJUJ<Jf <XUJ 
+
+
+
+3 
+
+2 * 
+
+
+
+M3X3K3K3K0.3333H* 
+30Z0Z0Z0ZQ00gQbl 
+
+xz-.x-«z~e~4xxxx3 
+
+
+
+d H - 
+< «9 < 
+
+u oe u 
+
+
+
+4 • 
+
+X © « X 
+
+
+
+a 
+
+©X* 
+
+
+
+© X X 
+
+
+
+H 3 H Q > 
+© Q © Q O 
+XX X < X 
+
+
+
+O © 
+
+£ © ©* » 
+
+<n © © © 
+
+<r Q b,©nm©i»«o i >< S UQ 
+i/>miA^>©^'<o©4>'C©©©<o 
+
+©O©0©©©©000©0© 
+
+©ooo©o©oo©o©o© 
+
+
+
+■4 
+
+bi4oh,©r-©i»©©i-o>of , >r» 
+
+ath.e>Q©bI©0©©0b)blta.O 
+WO"WO<Ti(l*MOl><JOQ 
+
+©©oo©©©©©©©©©©© 
+©©o©©©©©^©©©©©© 
+
+
+
+© 
+© 
+« 
+
+© 
+
+© a 
+<r © 
+
+bl — 
+
+
+
+w 
+© 
+© 
+
+
+
+© 
+
+
+n 
+© 
+
+
+a 
+
+
+© © a 9. 
+
+
+o© 
+
+
+© f* 
+
+
+
+
+n 
+
+
+
+
+o 
+
+
+un © b> 
+
+
+<M h. 
+
+
+n co 
+
+
+b. 
+
+
+© 
+
+
+© 
+
+
+o 
+
+
+«s a o o 
+
+
+bl b. 
+
+
+© — 
+
+
+CM 
+
+
+co 
+
+
+© 
+
+
+w 
+
+
+co © © co 
+
+
+© » 
+
+
+© © 
+
+
+O 
+
+
+© 
+
+
+© 
+
+
+© 
+
+
+©o © o 
+
+
+©© 
+
+
+© © 
+
+
+© 
+
+
+© 
+
+
+© 
+
+
+© 
+
+
+©© © © 
+
+
+©© 
+
+
+© © 
+
+
+© 
+
+
+
+t- ©0. fl. 
+
+ueoo 
+© o z z 
+
+
+
+
+t- © © a © 
+
+
+H 
+
+
+
+
+Z 
+
+
+
+
+< 
+
+
+t~ 
+
+
+
+
+z u 
+
+
+f- 
+
+
+u © 
+
+
+s 
+
+
+• « 
+
+
+
+
+bl a. w < 
+
+
+1 
+
+
+X » « * 
+
+
+bl 
+
+
+w X J bl X 
+
+
+X 
+
+
+
+m » X > H 
+JOUOW 
+
+x x a x x 
+
+
+
+x a 
+
+bl O 
+
+a. fr» h 
+o z 
+H «H x 
+<oo 
+
+0. 4 
+O J" 
+I- X © 
+
+z u 
+
+4 H 
+J- 4 
+faJ Z O f- © 
+©■-•** 
+4 O 
+
+a. o. h 
+z 
+
+hi"" 
+
+bl bl o 
+
+© © a. 
+
+
+
+o 
+
+4 
+H X 
+© O 
+4 
+
+b, X H 
+O bl © 
+
+
+
+-J 
+bl 
+ShW 
+O 4 > 
+t» O 4 
+
+ui a. fai 
+fa. 5 j 
+
+
+
+bl 
+© 
+4 
+
+a. w x «J 
+
+X J -J 4 N J 
+
+
+
+« > X > > X H 
+> O Z O O Z bl 
+X X X X- X 
+
+
+
+x a. 
+
+u 
+
+4 X 
+
+H U 
+
+© 4 
+
+b. X © 
+O Ul 
+
+I- H 
+b> Z Z 
+U> — Ul 
+<8S 
+
+a. a. Ui 
+
+
+
+x 
+
+L> 
+4 
+H 
+
+© A, 
+
+
+
+Q. 
+
+
+f- 1- o 
+
+
+O 
+
+
+lil bl Ul 
+
+
+1- 
+
+
+© © Q 
+
+
+X 
+
+
+*^ •* 
+
+
+o 
+
+
+
+
+4 
+
+
+
+
+H 
+
+
+bl 
+
+
+© 
+
+
+© 
+
+
+
+
+4 
+
+
+X 
+
+
+a. hi 
+
+
+h- 
+
+
+% • 
+
+
+—i 
+
+
+X J w 
+
+
+■» 
+
+
+4 
+
+
+
+
+fa) 
+
+
+
+
+CD 
+
+
+« 3 X 
+
+
+Z 
+
+
+=> O O 
+
+
+
+
+X X Q 
+
+
+o 
+
+
+
+
+
+
+
+
+
+o 
+J 
+
+4 O 
+
+OH 
+Q Ohh 
+j H m Z » 
+O -• fal 
+
+H X Z 
+
+uzux 
+
+> M H © H 
+4 O bl 3 4 
+via, kn w 
+
+
+
+Ok 
+
+o 
+
+" 4 
+
+3 » 
+
+O fal 
+
+z 
+
+5 5 
+
+bl > 
+
+« O 
+
+° H 
+
+f- bl 
+
+© X 
+
+
+
+-) X 
+bl u 
+U 4 
+H 
+
+a. a. © 
+X o 
+WHh 
+H 4 
+X . 
+
+a 13 J 
+
+X 4 , 
+< H fal 
+O © 3 
+
+a 4 -i 
+
+
+
+4CU4XX Z -1 
+
+I jutJ<JWiJ<Jt JJ<JMJ 
+
+
+
+H3 
+
+
+
+ss 
+
+-< H 
+QZ 
+hi — 
+
+egb, 
+
+-5x 
+
+© 
+
+bl bl 
+> Hi 3 
+4 bl 4 
+
+10 O © 
+
+
+
+X 
+
+u 
+
+4 
+
+H 
+
+© ~ 
+b. © 
+
+• 5 
+
+hi fa, O 
+
+© X 
+
+4 4 bl bl 
+
+O. Q O M 
+
+x © x z 
+H © u fal g 
+
+U 3 Z M Z 
+© Oh hi 
+
+
+
+bl 
+
+19 o 
+4 © « 
+
+JhlXO.4© — — 
+
+Q JUXKM4 
+
+
+
+>>>•">« M 
+
+000>©>t>J3 
+XXXXXX3X 
+
+
+
+© © V © 
+© © © © 
+
+© ooo 
+
+
+
+bl 4 © r- 
+© fa. M fa.© 
+
+4 u a ui fa, 
+
+K Ol S! C8 W 
+
+o© ©©© 
+
+©© ooo 
+
+
+
+bl 4 Of* « O ** 
+
+cuknuuno 
+
+O W « 4 "» © »* 
+© © w © © © © 
+o ©o© o © © 
+oo©o«oo 
+
+
+
+U9"CO«ll k 9'*«gobOV'*xf*O , 0Ot' 
+©4 auQfaih.O««©©4©©t*©©4a|l> 
+
+©©©©©©©©©©©©«>©©©©ooo 
+ooo ooooooooooooooo©© 
+
+
+
+o 
+
+o o£« 
+
+— m <r> 4 
+
+U4W>blC0«C0<0 
+Qh.blMh.O«0 
+
+Qblb.©mn©© 
+4 44IOin©irt© 
+• OOO O© ©© 
+OOOOOOOO 
+
+
+
+HOMEBREW COMPUTER CLUB NEWSLETTER 
+
+
+
+HOMEBREW COMPUTER CLUB NEWSLETTER 
+Post Office Box 626 
+Mountain View, CA 94042 
+
+
+
+
+
+FIRST CLASS MAIL 
+
+
+
+LENNY SHUSTEK 
+P.O.BOX 3210 
+STANFORD, CA. 
+
+94088 
+
+
+

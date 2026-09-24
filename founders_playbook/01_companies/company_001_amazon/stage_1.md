@@ -977,10 +977,13 @@ balance-sheet caption at l.3455–3457; and `14,555,244 + 840,534 + 504,459 = 15
 (post-boundary, cited only to show the roll-forward continues). **d29 — PURCHASER DECOMPOSITION cross-foots BOTH
 ways** (S-1/A No. 5 l.4665–4668, absent from the original): `150,000 + 60,000 + 2,811,000 = 3,021,000` shares ✓
 and `1 + 2 + 20 = 23` purchasers ✓. **d30 — NET SALES PER TRADING WEEK, the §R row that previously had no
-arithmetic anywhere and no §P.2 or `quantitative.csv` twin:** on the d24 band it is
+arithmetic anywhere and no twin in `quantitative.csv`:** on the d24 band it is
 `511,000 ÷ (5.5 × 4.345) ≈ $21,383` at the late-start end and `511,000 ÷ (184 ÷ 7 = 26.3) ≈ $19,440` at the early
 end, so the honest rendering is **≈$19,400–$21,400 per trading week**, and the earlier "~$21,000" was one end of
-the band presented as the figure.
+the band presented as the figure. **§R's promise that the figure is "carried in `quantitative.csv`" was false when
+this pass received it (RECHECK F-3 / RD-025 — D19 half-applied); the row now exists** (stage1, 1995-12-31, value
+`19440-21383` USD/week, DERIVED, arithmetic as above), so §R's cross-reference reads true and no cell points at a
+register row that is not there.
 
 **Not computed, deliberately:** FY1995 annualised run-rate (invalid on a 5.5–6.0-month
 period), per-order economics (no order count exists), and any whole-company valuation (no in-window
@@ -1094,7 +1097,7 @@ span is the re-based boundary; the **Start** column states the position at the f
 | Bezos's 1994 and 1995 salary | The compensation table legally covers only the year ended 1996-12-31 ($64,333) | **Medium** — it is the burn/runway input everyone assumes. FY1996 figure; FY1994 total opex of $52,000 as an upper bound on all pay + rent + everything [T1 · FACT + INFERENCE] | UNKNOWN for Stage 1 |
 | Distributor discount off list, payment terms, credit limits, inbound freight | No distribution agreement is filed as an exhibit; the filing affirmatively disclaims guaranteed terms | **High** — the COGS leg of unit economics has no primary number. COGS of $409,000 on $511,000 of net sales (implies ~80% pass-through of list-equivalent cost, but list-price volume is undisclosed) [T1] | UNKNOWN → U.40 |
 | Angel-round composition, participant count, cheque sizes, valuation | The filings **do** disclose a §4(2) placement aggregate and purchaser count, S-1/A No. 5 alone decomposes the 23 by affiliation (150,000 director / 60,000 founder-related / 2,811,000 unaffiliated — l.4665–4668, absent from the original), but no version labels any round "friends and family", disaggregates it by DATE, or names the purchasers; and 1995 option exercises are filed at $0, so the audited CY1995 line is share sales plus advances, not commingled option cash (COR-10) | **High** — the most-quoted Stage-1 money fact. Item 5: 3,021,000 shares / **23 purchasers** / **$1,007,000** between **1995-12-06 and 1996-05-16**; the **$345,525** ≈$0.1717 tranche (2,012,772 sh, three founder-related investors, dated 1995-02-09 / 1995-07-24 / 1996-05-03); CY1995 equity cash $1,272,000; three named insiders at $295,568 [T1 · FACT] | **Aggregate High; per-investor structure and in-window split UNKNOWN** → U.8 |
-| Identity of the residual **≈$976,000 (±$1,000)** of 1995 equity purchasers | The names are nowhere disclosed. **The old wording — "the residual also absorbs option-exercise proceeds" — is withdrawn:** the audited equity statement records 1995 option exercises at $0 (orig. l.3560–3562), so no option cash is inside it. Its disclosed components are now itemised at §P.2 d8a: $5,408 + $150,000 of advances for unissued shares + ≈$871,024 of unaffiliated program shares − $50,000 of 1994 advances applied | **High** — DERIVED residual from two audited disclosures, but only ≈$871,000 of it is genuinely anonymous share money [T1 inputs] | Low-Medium (identities); High (arithmetic) → U.8 |
+| Identity of the residual **≈$976,000 (±$1,000)** of 1995 equity purchasers | The names are nowhere disclosed. **The old wording — "the residual also absorbs option-exercise proceeds" — is withdrawn:** the audited equity statement records 1995 option exercises at $0 (orig. l.3560–3562), so no option cash is inside it. Its disclosed components are itemised at §P.2 d8a: $5,408 + $150,000 of advances for unissued shares + **$871,000** of unaffiliated program shares (2,613,000 × the filing's exact ⅓ = 2,613,000 ÷ 3 = $871,000 exactly, orig. l.4301–4302) − $50,000 of 1994 advances applied = **$976,408** — a band-level composition inside the ±$1,000, not an exact tie to the $976,432 residual arithmetic of §P.2 d8, and the $24 difference is accounted for there rather than plugged. **The one-third leg this cell carried as a six-significant-figure balancing plug is retracted** (number_repairs2, F-4 / RD-027) | **High** — DERIVED residual from two audited disclosures, but only ≈$871,000 of it is genuinely anonymous share money [T1 inputs] | Low-Medium (identities); High (arithmetic) → U.8 |
 | 1995 order counts, average order value, monthly/weekly curve, fill and back-order rates | Never disclosed; the company declined figures to newspapers in Dec 1996 | **Very High** — annual audited revenue only; quarterly disclosure begins Q1 1996 [T1 · FACT] | UNKNOWN → U.9 |
 | Catalogue size actually offered at 1995-12-31 | Only two bracketing disclosures exist: >1,000,000 advertised Oct 1995 and 1.1M in June 1996 | **Medium** — company releases [T1 · FACT as claims] | UNKNOWN (lay between ~1M and ~1.1M, unsourced as a year-end number) → U.3 |
 | Bibliographic-data vendor behind the "million titles" | S-1: "licenses some of its catalog and other information from third parties" — unnamed | **High** — it is the mechanism of the entire selection claim. Ingram/B&T named as *book* suppliers only [T1 + null] | UNKNOWN |
@@ -1400,8 +1403,13 @@ near-agreement ($1,007,000 vs $1.1M; 23 vs 22) is recorded, **not** treated as c
 common-equity cash reached Amazon during CY1995, of which about **$295,568** traces to three named insiders and
 **≈$976,000 (±$1,000)** is un-named — and NOT because option money is hiding in it: the audited equity statement
 prices 1995 option exercises at $0, and the residual's disclosed components are $5,408 (the 1995-08-07 employee
-purchase), $150,000 of advances for shares not yet issued and ≈$871,024 of unaffiliated program shares, less the
-$50,000 already received in 1994 (§P.2 d8a). The **$1,007,000 / 23-purchaser** program is a
+purchase), $150,000 of advances for shares not yet issued and **$871,000** of unaffiliated program shares (2,613,000 ×
+the filing's exact ⅓ = 2,613,000 ÷ 3 = $871,000 exactly, orig. l.4301–4302), less the $50,000 already received in 1994
+(§P.2 d8a): **$976,408**. Those legs are the filing's own lines; the composition is a **band-level** tie inside the
+±$1,000, not an exact tie to the $976,432 residual arithmetic, and the $24 difference is **accounted for at §P.2 d8a,
+not plugged**. The six-significant-figure one-third leg this entry printed was a **back-solved balancing plug and is
+retracted** (number_repairs2, F-4 / RD-027) — retracting it buys no knowledge: **who** bought the ≈$871,000 and **when**
+inside 1995-12-06 → 1996-05-16 remain UNKNOWN. The **$1,007,000 / 23-purchaser** program is a
 **multi-month subscription series running to 1996-05-16**, so **most of it is after the Stage-1 endpoint** and
 it may not be presented as a Stage-1 raise; its in-window portion is **UNKNOWN**, with a candidate ≈$921,000
 derivation recorded at §P.2 d25 and deliberately not adopted. **No parental amount is
@@ -1862,21 +1870,36 @@ omit her — not proof of absence of contribution** (RD-015). Title, pay, equity
 not as a finding.
 **CONFIDENCE:** High (of the silence) / Low (of the substance).
 
-**U.29 — Founder ownership percentage: which basis is being quoted.**
-**CLAIM A:** the S-1's Principal Stockholders table — **9,885,000 shares, 48.3% pre-offering and 43.1%
-post-offering as of 1997-02-28** — with Risk Factors stating ~41% for Bezos and ~10% for family and trusts.
-**CLAIM B:** retrospective tellings round his stake to ~41% or ~43% and speak of it as though it described 1995.
-**WHY THEY DIFFER:** share counts are split-restated (4:1 in Nov 1996, 3:2 in Apr 1997) and the percentages are
-pre- versus post-offering; the founding instrument itself names **1,700,000** shares against a filing body that
-says **10,200,000**, a factor of exactly six.
-**EVIDENCE WEIGHT:** A, decisively, for its own dates — all Tier 1 and under securities law.
+**U.29 — Founder ownership percentage: which basis and WHICH VERSION is being quoted.**
+**CLAIM A (original S-1, S0801, acc. 0000891618-97-001309, filed 1997-03-24):** Principal Stockholders table —
+**9,885,000 shares, 48.3% pre-offering and 43.1% post-offering as of 1997-02-28** (l.2919) — with Risk Factors
+stating "**approximately 43%** by Jeffrey P. Bezos … and 10% by members of Mr. Bezos' family and trusts (42% and
+10%, respectively, if the over-allotment option is exercised in full)" (l.985–988). **CLAIM A′ (S-1/A No. 5, S0803,
+acc. 0000891020-97-000839, filed 1997-05-14) restates the same two disclosures:** the table at
+**47.4% pre-offering / 41.4% post-offering** on the same 9,885,000 shares (l.3149), and the same risk factor at
+"**approximately 41%** by Jeffrey P. Bezos … and 10% by members of Mr. Bezos' family and trusts (41% and 10%,
+respectively, if the over-allotment option is exercised in full)" (l.1055–1062). **Both versions are filed and
+neither confirms the other**; the ~43% belongs to the original and the ~41% to No. 5, so this is a
+**version discrepancy between two accessions, not an error to average, reconcile or attribute to a single
+document** (AUDIT 3 RECHECK F-8 / RD-028 — the earlier text here sourced "approximately 41%" to the original's
+Risk Factors and `conflicts.csv` r30 added "confirmed in S0803", which is false: No. 5 says 41%, the original says
+43%).
+**CLAIM B:** retrospective tellings round his stake to ~41% or ~43% and speak of it as though it described 1995 —
+drawing on the filed figures without saying which accession, or which of the two filed versions, they came from.
+**WHY THEY DIFFER:** within the filings, two accessions seven weeks apart state different percentages for the same
+9,885,000 shares, and the record's own denominators differ (pre- vs post-offering); share counts are
+split-restated (4:1 in Nov 1996, 3:2 in Apr 1997) and the founding instrument itself names **1,700,000** shares
+against a filing body that says **10,200,000**, a factor of exactly six.
+**EVIDENCE WEIGHT:** A and A′ each decisively for its own accession and date — all Tier 1 and under securities law;
+merging them into one "S-1" figure loses information. B cites no basis at all.
 **BEST-SUPPORTED INTERPRETATION:** any Stage-1 ownership statement must name its basis (instrument vs
-split-restated filing) or be marked UNKNOWN; the ~41%/~10% figures are **out of stage** and appear only as
-consequences. Control in Stage 1 is evidenced differently and better: he was **the sole stockholder** as of
-1994-09-15 (original S-1 only).
+split-restated filing) **and its accession** (original 1997-03-24 → 43%/10% and 48.3%/43.1%; S-1/A No. 5
+1997-05-14 → 41%/10% and 47.4%/41.4%) or be marked UNKNOWN; both pairs of figures are **out of stage** (1997 pro
+forma) and appear only as consequences. Control in Stage 1 is evidenced differently and better: he was **the sole
+stockholder** as of 1994-09-15 (original S-1 only).
 **RESIDUAL UNCERTAINTY:** the exact 1995 percentage is unknowable from the filing because the 1995 issuances are
-reported in shares and cash, not in percentages.
-**CONFIDENCE:** High (filed figures) / **UNKNOWN** (any 1995 percentage).
+reported in shares and cash, not in percentages, and no 1995-12-31 holder-by-holder table is filed in any version.
+**CONFIDENCE:** High (filed figures, per accession) / **UNKNOWN** (any 1995 percentage).
 
 **U.30 — Regret minimisation: who framed it, and when.**
 **CLAIM A:** Bezos decided by a self-invented heuristic — projecting himself to age 80 and looking back — and

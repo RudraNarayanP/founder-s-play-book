@@ -1,0 +1,4983 @@
+Homebrew Computer Club 
+
+Robert Reiling, Editor □ Post Office Box 626, Mountain View, CA 94042 □ Joel Miller, Staff Writer 
+
+Typesetting, graphics and editorial services donated by Laurel Publications, 17235 Laurel Rd., Los Gatos, CA 95030 (408) 353-3609 
+
+
+
+
+
+MEETING— Nov. 12, 1976. Acapacity crowd was 
+on hand, estimated at over 450 people for this meet- 
+ing. Anderson Jacobson, Inc. had their terminals and, 
+as promised, provided an informative talk about the 
+Selectric machine as used in their terminals. Particular- 
+ly interesting was the discussion of the way that the 
+type ball is positioned to print a character. Also, the 
+differences in the I/O unit as compared to the office 
+unit were listed. The I/O Selectric is a heavy duty 
+machine developed for computer use and workloads. 
+The office Selectric does not have the heavy duty 
+features. 
+
+M&R Enterprises demonstrated the Astral 2000 
+with the special version of BASIC which has been spe- 
+cifically designed to operate in the Astral system. The 
+Astral is available in fully assembled, turn-key condi- 
+tion as a partially assembled kit. The kit saves a lot of 
+money and is easy to put together since the majority 
+of the electronics are preassembled, burned in and 
+tested. Marty Spergel and other representitives from 
+M&R discussed these and other features of this compu- 
+ter system. If you missed the meeting you may obtain 
+Astral 2000 information by writing M&R Enterprises, 
+P.O. Box 61011, Sunnyvale, CA 94088. 
+
+S-100 SYSTEM SYMPOSIUM-Nov. 20, 1976. 
+Well over 100 people attended the S-100 System Sym- 
+posium held at Diablo Valley College. Three perspec- 
+tives were given by Dr. Harry Garland, George Morrow 
+and Lee Felsenstein. It was noted by Lee Felsenstein 
+that a large variety of products are available that utilize 
+this bus. Harry Garland pointed out that the bus sys- 
+tem is basically a good product. George Morrow dis- 
+cussed the complex nature of the bus. A panel discus- 
+sion, moderated by Jim Warren, brought out a number 
+of opinions but the panel generally agreed the S-100 
+bus system will be used for several years because so 
+many products use it. In order to get better definition 
+of bus signals and electrical requirements, it was sug- 
+gested that publishers print more bus information and 
+act as a clearing house for comments. 
+
+This was the first symposium held covering the 
+S-100 system. It was very well done and certainly 
+informative to all in attendance. Indeed, it seems 
+everyone must have learned something new. The 
+
+
+
+organizers Dr. W. J. Schenker, and R. J. Hendrickson 
+are to be congratulated. 
+
+MORE ON THE S-100-April, 1977. The First 
+West Coast Computer Faire being held April 15-17, 
+1977 at the San Francisco Civic Auditorium, Northern 
+California's largest convention facility, will have a con- 
+ference session on the S-100 bus according to Jim War- 
+ren, Faire Chairperson. You can participate in this ses- 
+sion or others scheduled for the Faire. Write or call Jim 
+Warren, Box 1579, Palo Alto, CA 94302, (415) 851- 
+7664 or 323-3111. 
+
+LETTER— November, 1976. Samuel H. Daniel, 
+Vandenberg AFB, CA sent a letter asking to be put on 
+the mailing list and enclosed a donation. He com- 
+mented as follows on his activities, "I presently have 
+an 18K Digital Group 8080 System, to which I may 
+add a pair of Phi-Decks and a controller. It works as 
+advertised and went from bits and pieces to assembled 
+and tested in only 14.5 hours. Needless to say, I'm 
+pleased with and recommend it." Thank you for the 
+product information and for the contribution to the 
+Newsletter. 
+
+CONTRIBUTIONS— The Homebrew Computer 
+Club Newsletter is supported by contributions, both of 
+articles and money. Your articles help keep informa- 
+tion flowing and all of us benefit. In this issue you will 
+read about what others are doing with their computers. 
+What are you doing? Do you have a favorite software 
+idea? How about a product evaluation? Send me your 
+article for the Newsletter. 
+
+Money, of course, is another requirement of the 
+Newsletter. Printing and postage are very expensive 
+and so it follows the Newsletter costs a reasonable 
+amount to produce and distribute. Please keep your 
+contributions coming in. Mail to Homebrew Computer 
+Club Newsletter, P.O. Box 626, Mountain View, CA 
+94042 or meet me at the next Club meeting. □ 
+
+
+
+
+My background is in programming, including 10 
+years of experience mostly on large-scale IBM systems. 
+I've used IBM 1401 Autocoder, IBM 360 Assembler, 
+PL/1 and COBOL for many varied applications, includ- 
+ing some of my own personal accounting and inven- 
+tory chores. In 1973 I went to work for an electronics 
+
+
+
+1 
+
+
+
+HCC Newsletter /Vol. 2, Issue 11-12/December 10, 1976 
+
+
+
+firm which manufactures intelligent terminals using the 
+then-new Intel 8008. Although I didn't program the 
+8008, it soon became apparent to me that micropro- 
+cessors were good for a lot more than just formatting 
+data on a video screen or controlling traffic lights. 
+
+In the meantime, I had gotten interested in digital 
+electronic circuitry while building digital clocks and 
+meters,, and finally I built and got running a Radio- 
+Electronics "TV Typewriter" (the TVT-1, with the 
+boards that are stacked like cordwood). Then the bug 
+hit me for sure — I wanted my own computer. So in 
+November 1975 I devised a point system and rated all 
+of the available hobbyist computers. 
+
+I had been renting time on an IBM 360/30 ffor $30 
+per hour, so I wanted the capability to run a high-level 
+language and later a disk operating system. The clear 
+winner was determined using my point system and 
+right after New Year's my Altair 8080 kit arrived 
+(when I ordered my Altair I didn't know about the 
+IMSAI computer). 
+
+At the present time I have up and running in my 
+Altair a Processor Technology motherboard, 3P+S I/O 
+interface, two 4KRA static memories and two 4K 
+dynamic memories. I use an ASR-33 Teletype machine 
+for I/O. MITS BASIC version 3.2 is used for all ac- 
+counting applications at present. 
+
+The aforementioned hardware is now being used to 
+do investment portfolio and income tax analysis and to 
+produce a cross-reference index to magazine articles. 
+The hardware now being used represents a practical 
+minimum for the performance pf the applications now 
+being run. 
+
+Assuming that the necessary planning and analysis 
+has been done, computer inplementation of most sim- 
+ple business-type applications not involving large 
+amounts of data involves four basic needs: 
+
+a) Some means of transferring original data from 
+documents to the computer. For an on-line system 
+this is done using a suitable keyboard and some 
+type of edit/update program. 
+
+b) Some means of storing the data outside of com- 
+puter memory. 
+
+c) Processing of data, usually involving data selec- 
+tion or sorting logic and calculations. 
+
+d) Reporting of the desired information to the 
+user. This is the end product of the sytem. 
+
+The BASIC line editor itself satisfies the first two 
+needs in my applications. Here is a complete on-line 
+data entry program which can add new data, change 
+existing data and delete data. Of course, the entire data 
+file is in memory, but allowing 6K for BASIC and 4K 
+for a good-sized program (leave out comments and use 
+multiple statements per line to save memory space), 
+leaves 6K bytes remaining for data. 
+
+That's enough for 100-150 transactions with 3-6 
+data items per transaction, using DATA statments. A 
+year's investment portfolio transactions are no prob- 
+lem! I use line numbers of 10000 and up for DATA 
+and less than 10000 for program code. The command 
+LIST 10000 stores the updated data file on paper tape. 
+
+The latter two needs are satisfied by programs I 
+write in BASIC and use with the printer on my ASR- 
+33. By following set conventions for line numbers 
+and by using common subroutine for READing data, a 
+
+
+
+programmer may use a DATA file with several pro- 
+grams. To print out or punch the program code only, I 
+type LIST and when the last statement starts to print I 
+hit control-C a couple of times to stop it. 
+
+Although my implementation of investment port- 
+folio is crude, it illustrates that minimum hobbyist- 
+type equipment can be practically utilized for many 
+small business needs. A video display such as the Pro- 
+cessor Technology VDM-1 and a tape cassette storage 
+system could be substitued for— or used in addition 
+to— the ASR-33. The use of Extended BASIC would 
+greatly facilitate separate storage and manipulation of 
+data and programs and th6 display of formatted re- 
+ports. 
+
+My future plans, as far as hardware is concerned, 
+include the acquisition of more memory, a ROM 
+monitor which can be used to load BASIC, a video 
+display, cassette tape interface and hardware backup 
+capability. By the time this article is in print, I will 
+have a Processor Technology 8KRA RAM board and a 
+MITS PROM board up and running, with a system 
+monitor in six 1702A PROMs. The latter has loaders 
+for MITS BASIC (any version) and for software in the 
+Intel hex format, a block move, full TTY support, and 
+switchable hexidecimal or octal mode capability, in 
+addition to normal monitor functions. It will be made 
+available to hobbyists via the HBCC library and 
+through the Byte Shop in Santa Clara. 
+
+My future plans for software include enhance- 
+ment of the monitor to support tape cassette I/O and 
+some type of video monitor display. Memory diagnos- 
+tics, games and other programs will be developed for 
+use with the run on a cross-assember of my own design 
+and written in ANSI COBOL for execution on a 
+medium- or large-scale system. A suitable alternative to 
+this would be a Processor Technology ALS-8 develop- 
+ment system and a DECwriter or similar printer, if the 
+latter could be obtained at a reasonable cost. 
+
+I would be interested to hear from other hobbyists 
+as to what they would like to see in the way of soft- 
+ware for the 8080 or Z80. How about a full operating 
+system for multiple cassette tape drives? What features 
+would you like it to have? Is there an interest in games 
+(such as Star Trek) in machine language for small- 
+capacity systems? I can be reached at 25470 Elena 
+Rd., Los Altos Hills, CA, 94022. Home phone (415) 
+941-0495, between 7 and 10 p.m. on week-day eve- 
+nings would be preferred. □ 
+
+
+
+WISCONSIN AREA 
+COMPUTER SOCIETY 
+
+By Robert Reiling 
+
+
+
+The Wisconsin Area Computer Society has been 
+holding monthly meetings for the last twelve months 
+and has a paid membership of over 80 persons. They 
+are establishing a good software library, and can com- 
+municate via Cassette Tape (Tarbell, Digital Group and 
+K. C. Standard) and Paper Tape. Recently they pub- 
+lished their first newsletter. Contact Don Stevens, 
+Chairman, Wisconsin Area Computer Society, P.O. Box 
+159, Sheboygan Falls, WI 53085. □ 
+
+
+
+HCC Newsletter/Vol. 2, Issue 11-1 2/December 10, 1976 
+
+
+
+2 
+
+
+
+GETTING THE 
+MOST OUT OF TINY BASIC 
+
+Tom Pittman 
+
+
+
+J 
+
+
+
+Continued from last issue. 
+
+Execution Speed 
+
+TINY BASIC is actually quite slow in running pro- 
+grams. That is one of the hazards of a two-level inter- 
+preter approach to a language processor. But there are 
+some ways to affect the execution speed. One of these 
+is to use the keyword "LET" in your assignment state- 
+ments. TINY BASIC will accept either of the following 
+two forms of the assignment statement and do the 
+same thing, 
+
+R-2+3 
+LET R=2+3 
+
+but the second form will execute much faster because 
+it is unnecessary for the interpreter to first ascertain 
+that it is not a REM, RUN or RETURN statement. In 
+fact, the LET keyword is the first tested, so that it 
+becomes the fastest-executing statement, whereas the 
+other form must be tested against all twelve keyboards 
+before it is assumed to be an assignment statement. 
+
+Another way to speed up program execution de- 
+pends on the fact that constant numbers are converted 
+to binary each time they are used, while variables are 
+fetched and used directly with no conversion. If you 
+use the same constant over and over and you do not 
+otherwise use all the variables, assigning that number 
+to one of the spare variables will make the program 
+both shorter and faster. You can even make the assign- 
+ment in an unnumbered line; the variables keep their 
+values until explicitly changed. 
+Debugging 
+
+Very few programs run perfectly the first time. 
+When your program doesn't seem to run right there 
+are several steps you can take to find the problem. 
+
+First of all, try to break it up into its component 
+parts. Use the GOTO command and the END state- 
+ment to test each part separately if you can. Add extra 
+PRINT statements along the way to print out the vari- 
+ables you are using; sometimes the variables do not 
+have the values in them that we expected. Also the 
+PRINT statements will give you an idea as to the flow 
+of execution. For example, in testing the sort of pro- 
+gram above (lines 500-700) I inserted the following 
+extra PRINT statements: 
+
+525 PR "x"; 
+545 PR 
+555 PR 
+
+This gave me an idea where in the sort algorithm I 
+was, so I could follow the exchanges (the "x"s), where 
+each line represented one pass through the main loop. 
+Endless loops become more obvious this way. 
+
+If you have not used all the sequential line num- 
+bers, you can insert breakpoints in the program in the 
+form of a line number with an illegal statement— I like 
+to use a single period, because it is easy to type and 
+does not take much space: 
+
+
+
+10 LET A=B+1234 
+
+11 . 
+
+20 GOSUB 100+A 
+
+Here, when you type RUN, the program will stop with 
+the error message, 
+
+•184 AT 11 
+
+Now we can PRINT A, B, etc., to see what might 
+be wrong, or type in GOTO 20 to resume, with no loss 
+to the original program. 
+
+As we have seen, there is not much that TINY 
+BASIC cannot do (except maybe go fast). Sure, it is 
+somewhat of a nuisance to write all that extra code to 
+get bigger numbers or strings or arrays, but you can 
+always code up subroutines which can be used in sever- 
+al different programs like the floating point add above 
+(line 1000-1250), then save them off on paper tape or 
+cassette. 
+
+Remember, your computer (with TINY BASIC in 
+it) is limited only by your imagination. 
+
+REFERENCES: 
+
+(1) TINY BASIC User's Manual. Available from Itty 
+Bitty Computers, P.O. Box 23189, San Jose, CA 95153. 
+
+(2) Doctor Dobb's Journal, No. 7, p. 26. Available 
+from PCC, P.O. Box 310, Menlo Park, CA 94025. 
+
+Finally it should be noted that GOTOs and GO- 
+SUBs always search the program from the beginning 
+for their respective line numbers. Put the speed-sensitive 
+part of the program near the front, and the infrequent- 
+ly used routines (set-up, error messages, and the like) 
+at the end. This way the GOTOs have fewer line num- 
+bers to wade through so they will run faster. □ 
+
+
+
+INEXPENSIVE GRAPHICS 
+
+Workshop Announcement 
+
+
+
+A workshop regarding inexpensive graphics is being 
+planned on the East Coast. It will be held next year 
+and is sponsored by Sigraph of the A. CM. Interested 
+people may contact William Etra, 42 E. 23rd Street, 
+7th Floor, New York, NY 10010. □ 
+
+
+
+
+
+ABOUT 
+RECONNECTING THE IMSAI 
+POWER TRANSFORMER 
+
+By Dave Kinkade 
+
+
+
+When I changed the line input connections to my 
+IMSAI transformer (a Trane 3751), I was chagrined to 
+learn that it did not match the diagram on the PS-B 
+schematic (Rev. 2, 3/3/76). 
+
+The terminals are actually: (1) common, (2) for 
+105 V, (3) for 115 V, (4) for 125 V. For example, I 
+connected to (1) and (4) instead of»(l) and (3) to 
+lower the output voltage and generate less regulator 
+heat. □ 
+
+
+
+3 
+
+
+
+HCC Newsletter I Vol. 2, Issue 11-12/December 10, 1976 
+
+
+
+
+P.O. Box 1579, Palo Alto, CA (415) 851-7664, 323-3111 
+
+illillllil8lililjlll!imtijiljljllfflli!ll!IM 
+
+~~HOW I BUILT~ 
+
+MY FIRST COMPUTER, 
+OR FOOLS RUSH IN WHERE 
+ENGINEERS FEAR TO TREAD 
+
+By Norman Walters 
+
+A course, "Introduction to Computing," taken 
+during the fall of 1975 was my first exposure to the 
+
+wonderful world of computers. By mid-term, the itch 
+to have my own was beginning to be felt. The itch 
+faded considerably when the prices of the computer 
+kits on the market was considered, After much thought, 
+I decided one could be built at home at a price my 
+wife would not be able to use as grounds for divorce. 
+Naturally, the fact that the largest project previously 
+tackled was a digital clock did not cool my optimism 
+a whit. 
+
+Ten months later my home brew computer is built 
+and the cost was much smaller than if a commercial kit 
+had been purchased, but the time and effort expended 
+have been tremendous. 
+
+During the construction of GEORGE, every cost- 
+cutting trick possible was employed. Naturally, the 
+mother board was built from scrap cut-offs bought at 
+the club, and 80-pin connectors were cut to form 100- 
+pin connectors. Every friend I had plus some who had 
+not realized that we were even on speaking terms was 
+presented with a list of parts needed and a strong hint 
+given. "If you have any of these parts just lying around, 
+you might be able to force me to take them off yc ! :r 
+hands if the price is right!" I haunted all the surplus 
+electronics stores and pored over the Poly Pak catalog 
+like it was a dirty book. Because of this approach 
+(cheap), parts did not present a major problem. The 
+CPU board and control panel board required the lar- 
+gest 
+were 
+
+
+
+Building the boards up took relatively little time. 
+The largest block of time during construction was 
+devoted to running wire. A total of nearly 1,000 feet 
+of 26 ga. and 100 feet of 16 ga. was used. Checkout 
+was prolonged considerably by the unfortunate inser- 
+tion of the CPU board backwards in the motherboard. 
+The snaps, crackles and pops would have done Rice 
+Krispies up proud. Invaluable assistance by a long suf- 
+fering friend, Grant Connell, finally got GEORGE up 
+and running. 
+
+The system at the present time consists of the 
+8080 microcomputer with 24K of 2102 R AM, 12K of 
+17 02 A EPROMs, a KSR-33 Teletype, a cassette record- 
+er, I/O boards for the teletype and cassette plus a high 
+speed paper tape punch. Within the next six weeks, 
+GEORGE will acquire a high speed paper tape reader 
+and a VTT 4000B video terminal. 
+
+I can tell the memory of the pain, sweat and frus- 
+tration incurred during the construction is beginning to 
+fade. A few weeks ago, I saw the ad for the Micro Nova 
+minicomputer chip set and thought, "Why, I bet that I 
+can get one of those jewels up and running for almost 
+nothing!" 
+
+By the way, I have a list of parts that you have pro- 
+bably got just sitting around gathering dust — □ 
+
+
+
+outlay of time. After some initial delays, Detn 
+
+
+
+purchased through the club by 
+
+
+
+/a, 
+group 
+
+
+
+bu • 
+
+
+
+III! 
+
+
+
+
+
+
+HCC Newsletter/Vol. 2, Issue 11-12/December 10, 1976 
+
+
+
+4 
+
+
+
+TINY BASIC 
+OR HOW MY FAMIL Y 
+CAME TO LOVE MY COMPUTER 
+
+By Ray Boaz 
+
+mmmmmm 
+
+One sure way to get the support of your family for 
+all the hours that you spend with your computer 
+(only) is to let them get some "hands on" time. The 
+problem is how many kids, let alone wives, understand 
+binary, octal, hex or getting a program into the %$&f 
+thing to do something. So how do you do it? Well I got 
+Tiny BASIC for my AMI Proto system (by Tom Pitt- 
+man) and it worked out just great. 
+
+The first thing I did was write a program for my 
+nine year old girl, Heidi, to use for her multiplication 
+facts. After one minute she was really into it. The pro- 
+gram generates two random numbers less than twelve, 
+prints them (i.e. 9xll=), waits for the product to be 
+typed in, and then compares the entered product to 
+the calculated product. If the answer is correct a new 
+
+
+
+line is given. The computer can keep score and if the 
+problem was a "hard" one, a "VERY GOOD" is prin- 
+ted. This is a short and simple program, but to a nine 
+year old girl, it is like magic. 
+
+I didn't get off that easy, however. At my side all 
+the time (or was it on top of me) was my son, Chip, 
+who is only six. Since he is not up to multiplication 
+yet I had to do something else. If Tiny BASIC could 
+multiply that easy, it must be at least as easy to do the 
+addition facts. So with a few chnges in the same 
+program, another member of the family was into the 
+computer. 
+
+Well, that accounts for two out of three. What 
+about my wife? Glad you ask. She does not glare at it 
+when she walks by and has even started saying some al- 
+most nice things about it. If this keeps up, I may have 
+to start on another computer for myself. 
+
+Oh, one other thing. Heidi is busy setting up times 
+for her friends and making arrangements to take the 
+new toy to school. There seems to be no end of what 
+can happen when your kids can compute. □ 
+
+
+
+
+For sale: Cryptographic program that will baffle the 
+
+codebreakers of the CIA. ENCODE and/or DECODE 
+your private correspondence for maximum security. 
+Documentation of cypher technique, program listing 
+and punched paper tape in BASIC for only $6. Jon 
+Stedman, 1528 Summit Rd., Berkeley, CA 94708. 
+
+
+
+Kleinschmidt 311 printer, 40 char/second, 80 charac- 
+ters wide, parallel ASCII input, level conversion from 
+-12 V can be tapped from printer power supply, full 
+documentation, has modem card, automatic shut-off 
+after 60 seconds of no data, good operating condition, 
+needs cleaning, $300; another 311, has power supply, 
+no other electronics, excellent mechanical condition, 
+$150; extensive supply of spare parts, $50; all of the 
+above together, asking $400; Wm J. Schenker, M.D., 
+2086 Essenay, Walnut Creek, CA 94596, (415) 939- 
+6296. 
+
+
+
+Computer store opens in Sunnyvale— recreational Com- 
+puter Centers, 1324 South Mary Ave., Sunnyvale, CA 
+94087. Phone 735-7480. 
+
+
+
+CLUB LIBRARY 
+
+Gordon French, club librarian, has lots of interes- 
+ting material and is able to loan it to anyone with a 
+definite need, but . . . please adhere to the following: 
+
+#Limit your telephone calls to the hours of 7PM 
+to 9PM weekdays only. This is important. Gordon's 
+phone number is (415) 325-4209 in Menlo Park. 
+
+*Be specific with your requests and Gordon can 
+probably help you— he cannot randomly review the 
+contents of the library for you. 
+
+#No reproductions will be made of any materials. 
+
+•frAll materials loaned must be returned so they are 
+available for others to use in the future. □ 
+
+
+
+For Sale: IMSAI 8080, 8K Dutonics memory, Poly- 
+morphic video terminal interface, Tarbell cassette in- 
+terface, Altair 2SIO with one port, keyboard and J. C. 
+Penny audio cassette recorder. Assembled. $1775. 
+Contact J. Gill, 497-4715 (days), 321-6289 (evenings). 
+
+
+
+SOL User Group now forming. If you own or have 
+ordered Processor Technology's SOL computer, please 
+send your name, address, phone number and ideas to 
+Bill Burns, 4190 Maybell Way, Palo Alto, CA 94306. 
+
+
+
+Wanted— Carpool or riders to Fairchild (or Ellis St. area 
+in Mountain View from the Summit Rd. area in the 
+Santa Cruz mountains. Must be willing to get going 
+early as I like to avoid traffic. Joel (415) 962-3372 
+(days) or (408) 353-2663 (eves). 
+
+
+
+HOW TO GET THE NEWSLETTER 
+
+Anyone interested in computers as a hobby may 
+receive the Newsletter by sending a request to the 
+Homebrew Computer Club Newsletter, P.O. Box 626 
+Mountain View, CA 94042. The Newsletter is distribu- 
+ted monthly at the club meetings and is also mailed to 
+individuals who are unable to attend the meetings. 
+
+If you have an input to the Newsletter, send it in 
+and it will be published as quickly as possible. However, 
+the editors cannot promise that everything sent will be 
+published immediately. All manuscripts must be typed 
+and carefully proofed. All listings and diagrams should 
+be as clear and easy to read as possible. 
+
+The Newsletter is made possible by yqur donations. 
+Please remember that we must pay for postage, labels 
+and printing. Donations may be given to Ray Boaz at 
+the club meetings or sent to the above address. □ 
+
+
+
+5 
+
+
+
+HCC Newsletter/ Vol. 2, Issue 11-12/December 10, 1976 
+
+
+
+STAND-ALONE 
+ADAPTER FOR VDM-l 
+
+By Lee Felsentein 
+
+
+
+
+This circuit allows the operation of the Processor 
+Technology VDM-l as a stand-alone terminal. It in- 
+cludes a UART for serial data communication with 
+EIA RS-232 signal levels. All data to the VDM comes 
+through the UART, so a "local loopback" connection 
+is necessary from the Data Out terminal to the Data In 
+for half duplex operation. Two switchable Baud rates 
+are available if a SPDT switch is connected to switch 
+Baud Rtn to Baud 1 or Baud 2. The Ready output 
+from the UART allows operation from a generalized 
+parallel interface at maximum speed. The Break input 
+moves the output to a space condition and is used as 
+an escape character in various systems. 
+
+The circuit requires a connection to an external 
+-16 V to -19 V supply; +5 V power is supplied by pin 
+16 of IC23 from the regulator of the VDM. The cir- 
+cuit draws very little current since most logic is CMOS. 
+The -12 V and +5 V connections shown are for key- 
+board power. 
+
+On power-up, the circuit initializes to a clear screen 
+with a cursor in the lower left corner. Non-control 
+characters are displayed and rolled up when a 64 char- 
+acter line is filled. CR will terminate a line and roll it 
+up. A LF immediately following the CR will be ig- 
+nored, as will a LF following any number of DEL (rub- 
+out) characters which in turn follow a CR. A second 
+LF, or one without a CR preceding, will be treated like 
+a CR-LF combination. FF will initialize the screen. 
+
+BS will be recognized and the cursor will move 
+back and will erase the last character. At the left end 
+of the line the cursor will jump to the right end and 
+will cause a roll down of the line above. This will not 
+occur if there is not text on the line above. The cursor 
+will jump to the 64th location whether or not it is 
+visible there. If the previous line was terminated by a 
+CR, the cursor disappears until backed over the CR. 
+
+The circuit may be constructed using wire-wrap or 
+solder; layout is not critical except that proper supply 
+bypassing techniques must be used for the TTL ICs. 
+Capacitors (O.ljuF) should be connected between the 
++5 V and GDN pins of these ICs to prevent supply cur- 
+rent pulses. 
+
+The two boards may be interconnected with 
+ribbon cables and DIP headers which plug into the IC 
+sockets indicated on the drawing. 
+
+THE FOLLOWING MODIFICATIONS TO THE VDM 
+ARE NECESSARY 
+
+1 . Cut trace on solder side from pin 4 of IC 17. 
+
+2. Cut trace from pin 13 of IC 10 on component side. 
+
+3. Connect a jumper from pin 6 of IC 17 to pin 13 of IC 10 
+
+4. Connect a jumper from pin 7 of IC 31 to pin 4 of IC 17 
+
+5. Connect a jumper from pin 3 of IC 31 to pin 7 of IC 13 
+
+6. Connect a jumper from pin 8 of IC 15 to pin 9 of IC 31 
+
+7. Connect a jumper from pin 3 of IC 41 to pin 15 of IC 31 
+
+8. Remove ICs 18, 23, 24, 28, 29, 31, 32, 33, 34, 35, 37, 
+38, 39 and 40. 
+
+9. If not yet installed, resistors R27 through R32 and R41 
+through R48 may be omitted from assembly. □ 
+
+
+
+
+NOTES '. UNLESS OTHERWISE S« 
+
+I. A-.L RESISTORS IN OHMS, !'<,,' 14 W 
+S. AU O'O&f 5 IN4H8 OSK 
+
+
+
+HCC Newsletterfi'ol. 2, Issue 11- 12 /December 10, 1976 
+
+
+
+s 
+
+
+
+
+HCC Nemletter/VoL 2, Issue 11-1 2 j December 10, 1976 
+
+
+
+y n ! HHj 
+
+
+
+MMMMMMMMMMM'MMMMM 
+
+
+
+GORDON FRENCH'S CH*P-CHOO TRAIN 
+
+03 
+
+IDLE FANTA 3 1 £S ON A VD1 SCKEEN 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0010 
+
+
+01 j3f ril 
+
+
+
+
+
+
+
+
+0«20 
+
+
+oi ra flf jjj 
+
+
+
+
+
+
+
+
+K T /TI 
+
+0030 
+
+
+d f?i ffl ft 
+
+*T ^ *3 
+
+
+
+
+
+
+
+
+0040 
+
+
+C?l {?! f?! 
+
+
+
+
+
+
+
+
+
+
+^1 CI K fll 
+
+
+
+
+
+
+
+
+fl( fX ^ 
+
+
+
+
+
+
+
+
+
+
+rt (x 1 n 
+
+
+YJ vj it? K> 
+
+
+AT 
+
+H r 
+
+
+
+
+
+
+rn 1*71 cj t% 
+
+
+01 013! * 
+
+jf* 1 
+
+
+u o 
+
+
+vs 
+
+
+
+
+fit ntts n 
+
+0090 
+
+
+It/ «&■ -V w 
+
+
+
+
+PA 
+
+
+
+
+01 1 OfX 
+
+a I So fcj 
+
+
+
+
+0 1 
+
+
+
+
+01 ft 
+
+
+« I J V 
+
+
+SIC*!? 1 * 
+
+VJ -~ 
+
+
+
+
+C.-0 
+
+
+
+
+" 1 C.V> 
+
+
+%} MJ *J E? 
+
+
+P3 
+
+
+
+
+
+
+BUSS 
+
+
+W *y *CJ V> 
+
+
+
+
+
+
+
+
+So 1 *Hv 
+
+
+O iC 1 t/ 
+
+
+h r 
+
+
+
+
+
+
+0! 1 R !% 
+
+o I !5 kJ 
+
+
+000E 
+
+
+A8 
+
+
+
+
+
+
+0 1 K0 
+
+
+003F 
+
+
+
+
+St/ 
+
+
+0 0 
+
+
+0 1 70 
+
+
+
+
+21 
+
+
+F7 
+
+
+02 
+
+
+'3 1 3=t C« 
+
+■c? 4 o k.* 
+
+
+
+
+1 I 
+
+
+00 
+
+
+f*0 
+
+
+0 1 90 
+
+
+e»0 rs 
+
+
+06 
+
+
+0E 
+
+
+
+
+0200 
+
+
+001'A 
+
+
+CD 
+
+
+50 
+
+
+00 
+
+
+02 1 0 
+
+
+00 ID 
+
+
+1 | 
+
+
+2B 
+
+
+
+
+0?S>0 
+
+rj C* H. "i- 1 
+
+
+0020 
+
+
+BS 
+
+
+0C 
+
+
+
+
+0230 
+
+
+0022 
+
+
+CD 
+
+
+50 
+
+
+00 
+
+
+0240 
+
+
+0025 
+
+
+1 1 
+
+
+30 
+
+
+00 
+
+
+0250 
+
+
+
+
+06 
+
+
+09 
+
+
+
+
+0260 
+
+
+002A 
+
+
+CD 
+
+
+50 
+
+
+00 
+
+
+0270 
+
+
+002D 
+
+
+1 t 
+
+
+34 
+
+
+00 
+
+
+02S0 
+
+
+0030 
+
+
+06 
+
+
+04 
+
+
+
+
+0290 
+
+
+0032 
+
+
+CD 
+
+
+50 
+
+
+00 
+
+
+0300 
+
+
+0035 
+
+
+1 1 
+
+
+38 
+
+
+00 
+
+
+0310 
+
+
+0038 
+
+
+06 
+
+
+08 
+
+
+
+
+0320 
+
+
+003A 
+
+
+CD 
+
+
+50 
+
+
+00 
+
+
+0330 
+
+
+003D 
+
+
+1 1 
+
+
+3C 
+
+
+00 
+
+
+0340 
+
+
+0040 
+
+
+06 
+
+
+01 
+
+
+
+
+0350 
+
+
+0042 
+
+
+CD 
+
+
+50 
+
+
+00 
+
+
+0360 
+
+
+0045 
+
+
+1 1 
+
+
+3E 
+
+
+00 
+
+
+0370 
+
+
+0048 
+
+
+06 
+
+
+01 
+
+
+
+
+0380 
+
+
+004A 
+
+
+CD 
+
+
+50 
+
+
+00 
+
+
+0390 
+
+
+004D 
+
+
+C3 
+
+
+59 
+
+
+00 
+
+
+0400 
+
+
+0050 
+
+
+
+
+
+
+
+
+0410 
+
+
+£050 
+
+
+19 
+
+
+
+
+
+
+0420 
+
+
+0051 
+
+
+36 
+
+
+6F 
+
+
+
+
+0430 
+
+
+0053 
+
+
+23 
+
+
+
+
+
+
+0440 
+
+
+0054 
+
+
+05 
+
+
+
+
+
+
+0450 
+
+
+0055 
+
+
+C2 
+
+
+51 
+
+
+00 
+
+
+0460 
+
+
+005« 
+
+
+C9 
+
+
+
+
+
+
+0470 
+
+
+
+TRAIN 
+
+
+
+EMPTY 
+
+
+
+SMOi 
+SH02 
+
+
+
+XRA 
+
+OUT 
+
+LXI " 
+
+LXI 
+
+!<!VI 
+
+INX 
+
+DCX 
+
+XRA 
+
+XRA 
+
+JNE 
+
+LXI 
+
+LXI 
+
+nvr 
+
+CALL 
+LXI 
+
+nvi 
+
+CALL 
+
+LXI 
+
+MVI 
+
+CALL 
+
+LXI 
+
+MVI 
+
+CALL 
+
+LXI 
+
+MVI 
+
+CALL 
+
+LXI 
+
+MVI 
+
+CALL 
+
+LXI 
+
+MVI 
+
+CALL 
+
+JMP 
+
+DAD 
+MVI 
+INX 
+DCR 
+JNZ 
+RET 
+
+
+
+A 
+
+0C3H 
+H#SHED 
+
+Bi2043 
+M#20H 
+
+:H 
+
+B 
+A 
+
+B 
+
+EMPTY 
+H ♦CLOUD 
+D»0 
+B* 14 
+SMOl 
+Ds43 
+B * 12 
+SMOl 
+D#'43 
+Bi9 
+SMOl 
+D»52 
+B»4 
+SMOl 
+D»59 
+B*2 
+SMOl 
+D»60 
+B»l 
+SMOl 
+D»62 
+8*1 
+SMOl 
+ENGIN 
+
+
+
+M * SMOKE 
+
+H 
+
+B 
+
+SM02 
+
+
+
+ONCE UPON A TIME » 
+IN A CURIOUS LITTLS 
+
+PLACE THERE WAS - 
+
+*»A TINY TRAIN 
+
+AND IT STAYED IN A 
+. . TINY SHED 
+* « THAT WAS ALL EMPTY 
+
+
+
+..EXCEPT FOR A HUGE 
+
+
+
+B 
+
+
+
+0 
+
+
+
+K 
+
+
+
+►COUGH 
+
+
+
+>COUGH 
+
+
+
+COMING OUT OF THE STACK 
+OF 
+
+
+
+HCC Newsletter/Vol. 2, Issue 11-12/December 10, 1976 
+
+
+
+8 
+
+
+
+0059 
+
+
+
+
+
+
+
+
+0480 
+
+
+• 
+
+
+
+
+
+
+
+
+
+
+0059 
+
+
+21 
+
+
+AS 
+
+
+04 
+
+
+0490 
+
+
+ENGINE 
+
+
+LXI 
+
+
+M»SHED*322H A TINY LOCOMOTIVE 
+
+
+005C 
+
+
+36 
+
+
+16 
+
+
+
+
+0500 
+
+
+
+
+MVI 
+
+
+M#16H 
+
+
+WITH A LITTLE SMOKESTAK 
+
+
+005E 
+
+
+21 
+
+
+A9 
+
+
+04 
+
+
+0510 
+
+
+
+
+LXI 
+
+
+H»SHED*325H AND A LITTLE BELL 
+
+
+006! 
+
+
+36 
+
+
+07 
+
+
+
+
+0520 
+
+
+
+
+MVI 
+
+
+M»07H 
+
+
+
+
+
+
+0063 
+
+
+21 
+
+
+A.8 
+
+
+04 
+
+
+0530 
+
+
+
+
+LXI 
+
+
+HsSHts:D*327H ..AND A TINY DOME 
+
+
+006S 
+
+
+36 
+
+
+€E 
+
+
+
+
+0540 
+
+
+
+
+MVI 
+
+
+M#6£H 
+
+
+
+
+
+
+0068 
+
+
+24 
+
+
+€6 
+
+
+01 
+
+
+0550 
+
+
+
+
+LHLD 
+
+
+CABl 
+
+
+« . 
+
+
+AND A CAB 
+
+
+0063 
+
+
+22 
+
+
+AE 
+
+
+04 
+
+
+0560 
+
+
+
+
+SHLD 
+
+
+SHED*32AH 
+
+
+WITH WINDOWS 
+
+
+006F. 
+
+
+2A 
+
+
+68 
+
+
+01 
+
+
+0570 
+
+
+
+
+LHLD 
+
+
+CAB2 
+
+
+
+
+SO THAT YOU COULD 
+
+
+007! 
+
+
+22 
+
+
+B0 
+
+
+04 
+
+
+0580 
+
+
+
+
+SHLD 
+
+
+SHED*32CH 
+
+
+SEE INTO WERE THE 
+
+
+$074 
+
+
+2A 
+
+
+6A 
+
+
+01 
+
+
+0590 
+
+
+
+
+LHLD 
+
+
+CAB3 
+
+
+• • 
+
+
+ENGINEER AND THE 
+
+
+0077 
+
+
+28 
+
+
+B2 
+
+
+04 
+
+
+0600 
+
+
+
+
+SHLD 
+
+
+SH£D*32EH 
+
+
+FIREMAN SAT* 
+
+
+007A 
+
+
+2A 
+
+
+6C 
+
+
+01 
+
+
+0610 
+
+
+
+
+LHLD 
+
+
+BOI 1 
+
+
+» * 
+
+
+IT HAD A BEAUTIFUL 
+
+
+007D 
+
+
+22 
+
+
+E5 
+
+
+04 
+
+
+0620 
+
+
+
+
+SHLD 
+
+
+SHED*36iH 
+
+
+POLISHED 
+
+
+0080 
+
+
+2A 
+
+
+6E 
+
+
+01 
+
+
+0630 
+
+
+
+
+LHLD 
+
+
+B0I2 
+
+
+» s 
+
+
+BRASS 
+
+
+0033 
+
+
+22 
+
+
+E7 
+
+
+04 
+
+
+0640 
+
+
+
+
+SHLD 
+
+
+SHED*363H 
+
+
+BOILER 
+
+
+
+
+2A 
+
+
+70 
+
+
+01 
+
+
+0650 
+
+
+
+
+LHLD 
+
+
+B0I3 
+
+
+# . 
+
+
+WITH 
+
+
+0089 
+
+
+22 
+
+
+E9 
+
+
+04 
+
+
+0660 
+
+
+
+
+SHLD 
+
+
+SHE0*365H 
+
+
+THE NUMBER 
+
+
+®mc 
+
+
+22 
+
+
+EB 
+
+
+04 
+
+
+0670 
+
+
+
+
+SHLD 
+
+
+SHED*367H 
+
+
+"99" ON THE 
+
+
+003F 
+
+
+2 A 
+
+
+72 
+
+
+01 
+
+
+0680 
+
+
+
+
+LHLD 
+
+
+3014 
+
+
+* • 
+
+
+SIDE OF 
+
+
+0092 
+
+
+22 
+
+
+ED 
+
+
+04 
+
+
+0690 
+
+
+
+
+SHLD 
+
+
+SHED*369H 
+
+
+THE CAB 
+
+
+0095 
+
+
+2A 
+
+
+74 
+
+
+01 
+
+
+0700 
+
+
+
+
+LHLD 
+
+
+B0I5 
+
+
+a * 
+
+
+BUT YOU COULDN'T 
+
+
+009S 
+
+
+22 
+
+
+EF 
+
+
+04 
+
+
+0710 
+
+
+
+
+SHLD 
+
+
+SHED*36BH 
+
+
+SEE EITHER THE 
+
+
+009B 
+
+
+2A 
+
+
+76 
+
+
+01 
+
+
+07?0 
+
+
+
+
+LHLD 
+
+
+B0I6 
+
+
+* • 
+
+
+ENGINEER OR THE 
+
+
+009E 
+
+
+22 
+
+
+Fl 
+
+
+04 
+
+
+0730 
+
+
+
+
+SHLD 
+
+
+SHED* 36DH 
+
+
+FIREMAN 
+
+
+00A1 
+
+
+2ft 
+
+
+78 
+
+
+01 
+
+
+0740 
+
+
+
+
+LHLD 
+
+
+FRA1 
+
+
+* . 
+
+
+THE LITTLE EN3INE 
+
+
+00A4 
+
+
+28 
+
+
+24. 
+
+
+05 
+
+
+0750 
+
+
+
+
+SHLD 
+
+
+SHED+3A0H 
+
+
+ALSO 
+
+
+00A? 
+
+
+2A 
+
+
+7A 
+
+
+0! 
+
+
+0760 
+
+
+
+
+LHLD 
+
+
+FRA2 
+
+
+. » 
+
+
+HAD A COWCATCHER 
+
+
+00AA 
+
+
+22 
+
+
+26 
+
+
+05 
+
+
+0770 
+
+
+
+
+SHLD 
+
+
+SHED+3A2H 
+
+
+AND LOTS OF FUNNY 
+
+
+00AD 
+
+
+22 
+
+
+28 
+
+
+05 
+
+
+0730 
+
+
+
+
+SHLD 
+
+
+SHED+3A4H 
+
+
+WHEELS AND THE 
+
+
+0080 
+
+
+22 
+
+
+2A 
+
+
+05 
+
+
+0790 
+
+
+
+
+SHLD 
+
+
+SHED+3ASH 
+
+
+THINGS THAT CONNECTED 
+
+
+00BS 
+
+
+2 A 
+
+
+7C 
+
+
+01 
+
+
+0800 
+
+
+
+
+LHLD 
+
+
+FRA3 
+
+
+
+
+AND TWO VERY TINY 
+
+
+008S 
+
+
+22 
+
+
+2C 
+
+
+05 
+
+
+0.8 10 
+
+
+
+
+SHLD 
+
+
+SHED*3A8H 
+
+
+WHEELS AT THE VERY 
+
+
+00B9 
+
+
+2A 
+
+
+7E 
+
+
+8! 
+
+
+0820 
+
+
+
+
+LHLD 
+
+
+FRA4 
+
+
+• . 
+
+
+VERY BACK 
+
+
+00BC 
+
+
+22 
+
+
+2E 
+
+
+05 
+
+
+08 30 
+
+
+
+
+SHLD 
+
+
+SHED+3AAH 
+
+
+ALTOGETHER IT LOOKED 
+
+
+00BF 
+
+
+2 A 
+
+
+80 
+
+
+01 
+
+
+0840 
+
+
+
+
+LHLD 
+
+
+FRA5 
+
+
+. e 
+
+
+QUITE LONELY AND YET 
+
+
+00C2 
+
+
+22 
+
+
+30 
+
+
+05 
+
+
+0850 
+
+
+
+
+SHLD 
+
+
+SHED*3ACH 
+
+
+IT APPEARED VERY 
+
+
+00C5 
+
+
+01 
+
+
+DF 
+
+
+FF 
+
+
+0*60 
+
+
+
+
+LXI 
+
+
+B * - 2 1 H 
+
+
+8 
+
+
+FUNNY JUST SITTING 
+
+
+00GB 
+
+
+21 
+
+
+62 
+
+
+05 
+
+
+• 0870 
+
+
+
+
+LXI 
+
+
+H*SH£D+3DEH THERE Ort THE 
+
+
+00CB 
+
+
+36 
+
+
+19 
+
+
+
+
+0830 
+
+
+RAILS 
+
+
+MVI 
+
+
+M# 19H 
+
+
+9 * 
+
+
+RAILS 
+
+
+00 CD 
+
+
+03 
+
+
+
+
+
+
+0890 
+
+
+
+
+INX 
+
+
+3 
+
+
+
+
+WITH NOTHING AT ALL 
+
+
+00CE 
+
+
+23 
+
+
+
+
+
+
+0900 
+
+
+
+
+INX 
+
+
+H 
+
+
+9 9 
+
+
+EVER 
+
+
+00GF 
+
+
+AF 
+
+
+
+
+
+
+0910 
+
+
+
+
+XRA 
+
+
+A 
+
+
+• . 
+
+
+TO DO 
+
+
+00D0 
+
+
+AS 
+
+
+
+
+
+
+0920 
+
+
+
+
+XRA 
+
+
+B 
+
+
+9 . 
+
+
+WELL! 
+
+
+00D1 
+
+
+C2 
+
+
+CB 
+
+
+00 
+
+
+0930 
+
+
+
+
+JNZ 
+
+
+RAILS 
+
+
+• 9 
+
+
+LET'S RUN IT JUST FOR 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FUN 
+
+
+00D4 
+
+
+21 
+
+
+00 
+
+
+CC 
+
+
+0940 
+
+
+HOSTL 
+
+
+LXI 
+
+
+HfRRY 
+
+
+GET TRAIN OUT OF SHED 
+
+
+00D? 
+
+
+E3 
+
+
+
+
+
+
+0950 
+
+
+
+
+XCHG 
+
+
+* 
+
+
+MOVE IT FROM SHED 
+
+
+00D8 
+
+
+2! 
+
+
+84 
+
+
+01 
+
+
+0960 
+
+
+
+
+LXI 
+
+
+HfSHED 
+
+
+
+
+
+
+00DB 
+
+
+7E 
+
+
+
+
+
+
+§970 
+
+
+FIRE 
+
+
+MOV 
+
+
+A f M 
+
+
+LIGHT FIRE 
+
+
+00DG 
+
+
+23 
+
+
+
+
+
+
+0980 
+
+
+
+
+INX 
+
+
+H 
+
+
+
+
+
+
+00DD 
+
+
+EB 
+
+
+
+
+
+
+0990 
+
+
+
+
+XCHG 
+
+
+
+
+
+
+
+
+00DE 
+
+
+77 
+
+
+
+
+
+
+1000 
+
+
+
+
+MOV 
+
+
+M»A 
+
+
+* . 
+
+
+MOVE IT 
+
+
+00DF 
+
+
+23 
+
+
+
+
+
+
+1010 
+
+
+
+
+INX 
+
+
+H 
+
+
+
+
+
+
+00E§ 
+
+
+7C 
+
+
+
+
+
+
+1020 
+
+
+
+
+MOV 
+
+
+A #H 
+
+
+
+
+
+
+00E! 
+
+
+EB 
+
+
+
+
+
+
+1030 
+
+
+
+
+XCHG 
+
+
+
+
+
+
+
+
+00S2 
+
+
+FE 
+
+
+D0 
+
+
+
+
+1040 
+
+
+
+
+CP I 
+
+
+«D0H 
+
+
+END OF YARD? 
+
+
+00E4 
+
+
+C2 
+
+
+D8 
+
+
+m 
+
+
+10S0 
+
+
+
+
+JNZ 
+
+
+FIRE 
+
+
+NO* MAKE MORE STEAM- ! 
+
+
+00E7 
+
+
+CD 
+
+
+ED 
+
+
+00 
+
+
+1060 
+
+
+
+
+CALL 
+
+
+TRAVL 
+
+
+GO 
+
+
+TAKE TRIP 
+
+
+00EA 
+
+
+C3 
+
+
+04 
+
+
+03 
+
+
+1070 
+
+
+
+
+JMP 
+
+
+HOSTLE 
+
+
+NO ROUND 'TRIPS* J'lST DO 
+
+
+
+AGAIN 
+
+9 HCC Newsletter/Vol. 2, Issue 11-12/December 10, 1976 
+
+
+
+00ED 1080 • 
+
+
+
+00ED 01 40 « 5 1090 TRAVL LXI 
+
+00F0 C5 1 100 CHOO PUSH 
+
+00F1 CD FF 00 1110 CALL 
+
+00F4 CD 0F 01 1120 CALL 
+
+00F7 CI 1130 POP 
+
+00FS m 1140 DCX 
+
+00F9 AF 1150 XRft 
+
+00FA AS 1160 XRA 
+
+00FB CS F0 00 1 170 JNZ 
+
+00FE C9 1180 RET 
+
+00FF 1190 * 
+
+00?F 2! 01 CC 1200 STSOK LXI 
+
+0102 0£ 00 1210 MVI 
+
+0104 7E 1220 COAL f'lOV 
+
+0105 SB 1230 DCX 
+
+0i0€ 7? 1240 mv 
+
+0107 23 1250 I MX 
+
+0108 23 12S0 INX 
+
+0109 7G ' 1270 MOV 
+010A S9 I2S0 C ; 1P 
+0108 C2 04 01 1290 JNZ 
+010E C9 1300 RET 
+010F 1310 * 
+
+010F 2! 00 CC 1320 TURN LXI 
+
+0112 7E 1330 HISS MOV 
+
+0113 23 1340 INX 
+
+0114 FE 06 1350 CP I 
+0116 CS 12 01 1360 JNZ 
+
+0119 23 1370 FOUND INX 
+01 1 A 7E 1380 AXLE HGV 
+01 IB FE 1! 1390 CPI 
+01 ID 'CI 31 01 1400 JNZ 
+
+0 1 20 1 1 7E 14 1410 LXI 
+0123 ' 1420 • 
+
+0123 06 0? 1430 AXL1 MVI 
+
+0125 72 1440 A XL 2 MOV 
+
+0126 05 1450 DCR 
+
+0127 CA 52 01 1460- JZ 
+012A 23 1470 INX 
+012B 73 1430 MOV 
+012C 2 3 1490 INX 
+01 2D 05 1500 DCR 
+012E C2 25 01 1510 JNZ 
+0m 1520 • 
+
+0131 FE 14 1530 NXT1 CPI 
+
+0133 C2 3C 01 1540 JNZ 
+
+0136 11 20-13 1550 LXI 
+
+0139 C3 23 01 1560 J« p 
+
+01 3C FE 13 1570 NXT2 CPI 
+
+013E 02 47 01 1580 JNZ 
+
+0 141 11 5F 12 1590 LXI 
+
+0144 C3 23 01 1600 J^ p 
+
+0147 FE 12 1610 HXT3 CPI 
+
+3 149 C2 1A «1 1620 JNZ 
+
+01 4C 11 -2D U 1630 LXI 
+
+01 4F C3 23 01 1640 JMP 
+
+3152 1650 * 
+
+0152 01 BS'0B 1660 ^ORK LXI 
+
+
+
+Bt64» 13 MAKE TRIP 13 MILES 
+
+B CHUFF ONCE 
+
+STROK MAKE FORWARD MOTION 
+
+TURN TURN WHEELS 
+
+B 
+
+B CLICK ODOMETER 
+A 
+
+B 13 MILES YET? 
+
+CHOO NO 
+
+* DO NEXT TRIP 
+
+H»0CC0l'H MOVE DOWM THE TRACK 
+C*0D0H 
+
+A * M ADO MORE COAL 
+H 
+
+Mf A 
+
+H 
+H 
+
+A #H 
+
+C ENOUGH COAL? 
+
+COAL NO * PUT MORE ONI 
+
+
+
+H*0CC00H TURN WHEELS 
+A iW 
+
+H 
+
+S FIND COWCGTCHER 
+
+HISS LOOK AGAIN 
+
+H 
+
+Atn 
+
+1SH WHAT QUARTER TURN? 
+NXT1 
+
+D* 147EH NEXT QUARTER TURN 
+
+3»7 DO 4 AXLES 
+
+mi) WHEELS MOVED HERE 
+
+8 LAST WHEEL? 
+
+WORK I'VE BEEN IdOR.K I N * . , . 
+
+H . .ON THE RAILROAD. • 
+
+«»'E (SIDE RODS KOVED HERE 
+
+H • « ALL THE LIVE.* 
+
+3 . .LONG DAY....* 
+
+AXL2 
+
+14H QUARTER TURN 
+
+NXT'2 
+
+D» 1320H 
+
+AXL! 
+
+13H QUARTER TURN 
+
+NXT3 
+
+Dl 125FH 
+
+AXL I 
+
+12H QUARTER TURN 
+
+AXLE 
+
+D* 1 12DH 
+
+AXLl 
+
+B#3000 
+
+
+
+HCC Newsletter/Vol. 2, Issue Il-12/December 10, 1976 
+
+
+
+10 
+
+
+
+0155 
+
+
+08 
+
+
+
+
+
+
+1670 
+
+
+OIL 
+
+
+DCX 
+
+
+B» 
+
+
+
+
+9 156 
+
+
+l)B 
+
+
+00 
+
+
+
+
+16B0 
+
+
+
+
+IN 
+
+
+0 
+
+
+DID THE CONDUCTOR 
+
+
+9158 
+
+
+F6 
+
+
+40 
+
+
+
+
+1690 
+
+
+
+
+AN I 
+
+
+HDA 
+
+
+. .FLAG US DOWN? 
+
+
+015A 
+
+
+CS 
+
+
+63 
+
+
+0 1 
+
+
+1700 
+
+
+
+
+JNZ 
+
+
+QUIT 
+
+
+QUITTIN' T I HE 
+
+
+015D 
+
+
+A? 
+
+
+
+
+
+
+1710 
+
+
+
+
+KRA 
+
+
+A. 
+
+
+N0» THEN HIGHBALL 
+
+
+015'E 
+
+
+AS 
+
+
+
+
+
+
+1790 
+
+
+
+
+XRA 
+
+
+8 
+
+
+
+
+
+
+C2 
+
+
+55 
+
+
+01 
+
+
+1730 
+
+
+
+
+
+
+OIL 
+
+
+NO SQUEEKS t PLEASE! 
+
+
+0 i <s2 
+
+
+C3 
+
+
+
+
+
+
+1740 
+
+
+
+
+RiT 
+
+
+
+
+
+
+0163 
+
+
+
+
+
+
+
+
+1750 
+
+
+• 
+
+
+
+
+
+
+
+
+9163 
+
+
+
+
+
+
+
+
+1760 
+
+
+• PUT 
+
+
+A JUMP 
+
+
+TO WHEREVER YOU NEED TO RETURN 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IN THE NEXT 
+
+
+0163 
+
+
+C3 
+
+
+60 
+
+
+E9 
+
+
+1770 
+
+
+QUI T 
+
+
+
+
+AL33 
+
+
+. .YOUR RETURN LIMK GOES 
+HERE 
+
+
+0166 
+
+
+
+
+
+
+
+
+1789 
+
+
+t 
+
+
+
+
+
+
+
+
+0 1 66 
+
+
+
+
+
+
+
+
+1790 
+
+
+PDA 
+
+
+EQU 
+
+
+4 0H 
+
+
+PUT YOUR DATA READY FLAG 
+HERE 
+
+
+0 1 66 
+
+
+
+
+
+
+
+
+1800 
+
+
+R"tY 
+
+
+EQU 
+
+
+9CC00H 
+
+
+
+
+0 1 66 
+
+
+
+
+
+
+
+
+1810 
+
+
+S-IOKE 
+
+
+EQU 
+
+
+6FH 
+
+
+SMOKE CHARACTER 
+
+
+55 166 
+
+
+01 
+
+
+If* 
+
+
+
+
+1820 
+
+
+CAB1 
+
+
+DW 
+
+
+1 001 H 
+
+
+CAS DESCRIPTION 
+
+
+0168 
+
+
+10 
+
+
+5D 
+
+
+
+
+1839 
+
+
+CAB2 
+
+
+DW 
+
+
+5D 1 0H 
+
+
+»» n 
+
+
+01 6A 
+
+
+7E 
+
+
+20 
+
+
+
+
+1840 
+
+
+.CAB 3 
+
+
+DW 
+
+
+207EH 
+
+
+n n 
+
+
+016C 
+
+
+28 
+
+
+9 A 
+
+
+
+
+1 550 
+
+
+BOI 1 
+
+
+DW 
+
+
+BA26H 
+
+
+BOILFR DESCRIPTION 
+
+
+9 1 6F. 
+
+
+0A 
+
+
+19 
+
+
+
+
+I860 
+
+
+BOI 2 
+
+
+
+
+190AH 
+
+
+w n 
+
+
+0 1 70 
+
+
+0A 
+
+
+0A 
+
+
+
+
+1 B70 
+
+
+BO I 3 
+
+
+DW 
+
+
+0A0AH 
+
+
+ft " 
+
+
+0 J 7g 
+
+
+0A 
+
+
+5B 
+
+
+
+
+1889 
+
+
+B0I4 
+
+
+DW 
+
+
+5B0AH 
+
+
+
+
+0174 
+
+
+35 
+
+
+39 
+
+
+
+
+1 890 
+
+
+8015 
+
+
+DW 
+
+
+3939H 
+
+
+♦t w 
+
+
+01 76 
+
+
+5D 
+
+
+£0 
+
+
+
+
+1 900 
+
+
+B0I6 
+
+
+DW 
+
+
+£05OH 
+
+
+I* ft 
+
+
+01 in 
+
+
+06 
+
+
+?0 
+
+
+
+
+1910 
+
+
+F*?A 1 
+
+
+DW 
+
+
+2006K 
+
+
+FRAME DESCRIPTION 
+
+
+017A 
+
+
+1 i 
+
+
+2D 
+
+
+
+
+1920 
+
+
+FRA2 
+
+
+DW 
+
+
+2D1 1H 
+
+
+n rt 
+
+
+017C 
+
+
+1 1 
+
+
+90 
+
+
+
+
+1939 
+
+
+FRA3 
+
+
+DW 
+
+
+2*1 1H 
+
+
+n n 
+
+
+9 1 7Jt 
+
+
+6F 
+
+
+2D 
+
+
+
+
+1 94^ 
+
+
+F ft A 4 
+
+
+DW 
+
+
+2D6FH 
+
+
+« n 
+
+
+01S0 
+
+
+6F 
+
+
+?9 
+
+
+
+
+1959 
+
+
+FRA5 
+
+
+DW 
+
+
+S96FH 
+
+
+r» n 
+
+
+0 1 82 
+
+
+19 
+
+
+19 
+
+
+
+
+1 960 
+
+
+TIES 
+
+
+DW 
+
+
+1919H 
+
+
+TIES DESCRIPTION 
+
+
+0184 
+
+
+00 
+
+
+
+
+
+
+1970 
+
+
+SHED 
+
+
+NOP 
+
+
+• 
+
+
+THIS IS SHED AREA 
+
+
+■9155 
+
+
+
+
+
+
+
+
+19*0 
+
+
+CLOUD 
+
+
+
+
+? + 0 1 7 2 
+
+
+H BEGINNING OF CLOUD 
+
+
+0 1 i35 
+
+
+
+
+
+
+
+
+19 99 
+
+
+» 
+
+
+
+
+
+
+
+
+0 1 85 
+
+
+
+
+
+
+
+
+?90£ 
+
+
+
+
+
+
+
+
+
+
+* * * « 
+
+
+< * » 
+
+
+« * * * 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+• 1 A i, °«l tK7">rT\*r?v?\ \ ?:\ it/ve IQCD* <w 01 1 1 i£ , 0t , Ph09CD5000 1 1 340006(^400596-3 
+% \ ^7rA/»>^\ \ Tai*p<;*isc05fipai 1 3C9«?0^C"1CD50001 1 3£0 0060 1 CD5?^0C39 A 
+
+• 1 A 4 ^ '-^-"M^S^^C* I"0C9^lA^f 4^616S1A9043607?.1AB04366EE7 
+j 1 4 f ■» a *PA^« rt l*^-*4?A6*0lP9&304°A6^2232042A€C0t22E5042A6£<9S 
+. j a-* 1^0077 ^7^^ { ?pc <jf 4PPtr3ffl4547o?lg2ED042A7401S2EF042A0D 
+
+• H"^ < 5':'?^7( : :9l9opjr4' ;i 47o! 1 'lp??4-' e ;2A7A01 'P? 695222 8052 22 A052A7CP 1 95 
+S 1 Af^lG n'«pp?c^5 , >A7T'»i«5o«-iPn A p-5i 7 l p ?3 7 15 ? 1 DFFF2 1 620536 1 9&3f SA^S? 
+j149^<tv/> ^PiP-rrTppir,4"i7E^3a e772:57CE^F£D9CPD'300CD^D0^E 1 
+t 1 A^Pi"- *r/ { "^M^C^-^'CT^'MC l^BAFA3C2F000C92101CC0iTD049 
+: 3 A"1 -i-n-"!i77' 3^7cd*C90401C^l 0?'CC7<L?3FE0SC2l20 1237EFE1 1 C?DD 
+S 1 4*1 1 <: ""^ If 1 1 1 T 1 4f»r^772 { »nc A e;p/»i2^7^'<^o(5 C 2250iFsi4Cg3Ci?il 1 12D5C 
+. 1 A''l '^1 ^C' n,r * l^^l ^C24 7'M 1 1 ^^12C^°3v' 1FE12C91 A0! 1 12D1 1C3230 10C 
+. J 1 5P / " r 9 J If" i^T) >* ^^-^o^p 1AFA iC">'=50lC9C3C0E001 1 91 05D7E2046 
+J 1 ^ M r -C "V^A^A 1 TM'M 71 A"" > 3 p *''9^D?' ?s 0^ r> M 1 ?D 1 1P«6F2D6F?«19 1 900C-B 
+:09 
+
+
+
+11 HCC Newsletter/Vol. 2, Issue 11-12/December 10, 1976 
+
+
+
+TABLE OF CONTENTS 
+
+Random Data, Robert Reiling 
+
+One Man's System, Charlie Pack 
+
+Wisconsin Area Computer 
+
+Society, Robert Reiling 
+
+Getting The Most Out Of Tiny BASIC, 
+
+Tom Pittman 
+
+Inexpensive Graphics, Workshop 
+
+About Reconnecting the IMSAI Power 
+
+Transformer, Dave Kinkade 
+
+How I Built My First Computer, 
+
+Norman Walters 
+
+Tiny BASIC Or How My Family Came To 
+
+Love My Computer, Ray Boaz , 
+
+Bulletin Board 
+
+Stand-Alone Adapter For VDM-1, 
+
+Lee Felsen s tein 
+
+Gordon French's Choo-Choo Train 
+
+
+
+
+HOMEBREW COMPUTER CLUB 
+NEWSLETTER 
+
+P.O. Box 626 
+Mountain View, CA 94042 
+
+
+
+FIRST CLASS MAIL 
+
+
+
+PAGE 
+
+. , 1 
+. . 1 
+
+. . 2 
+
+. . o 
+. . 3 
+
+. . 3 
+
+.. 4 
+
+. . 5 
+. . 5 
+
+.. 6 
+. 8 
+
+
+
+HOMEBREW COMPUTER CLUB MEETINGS 
+
+Where & When 
+
+The Homebrew Computer Club meets a 7 
+p.m. at the Stanford Linear Accelerator Center 
+Auditorium. Dates scheduled for the remainder of 
+this year are December 10 and 22. The date and 
+location are subject to change. If a change does 
+occur, every effort will be made to provide ad- 
+vance notice in the Newsletter. 
+
+
+
+
+HCC Newsletter/Vol. 2, Issue 11-12/December 10, 1976 
+
+
+
+12 
+
+
+
+STAND-ALONE 
+ADAPTER FOR VDM 
+
+By Lee Felsentein 
+
+
+
+
+This circuit allows the operation of the Processor 
+Technology VDM-1 as a stand-alone terminal. It in- 
+cludes a UART for serial data communication with 
+EIA RS-232 signal levels. All data to the VDM comes 
+through the UART, so a "local loopback" connection 
+is necessary from the Data Out terminal to the Data In 
+for half duplex operation. Two switchable Baud rates 
+are available if a SPDT switch is connected to switch 
+Baud Rtn to Baud 1 or Baud 2. The Ready output 
+from the UART allows operation from a generalized 
+parallel interface at maximum speed. The Break input 
+moves the output to a space condition and is used as 
+an escape character in various systems. 
+
+The circuit requires a connection to an external 
+-16 V to -19 V supply; +5 V power is supplied by pin 
+16 of IC23 from the regulator of the VDM. The cir- 
+cuit draws very little current since most logic is CMOS. 
+The -12 V and +5 V connections shown are for key- 
+board power. 
+
+On power-up, the circuit initializes to a clear screen 
+with a cursor in the lower left corner. Non-control 
+characters are displayed and rolled up when a 64 char- 
+acter line is filled. CR will terminate a line and roll it 
+up. A LF immediately following the CR will be ig- 
+nored, as will a LF following any number of DEL (rub- 
+out) characters which in turn follow a CR. A second 
+LF, or one without a CR preceding, will be treated like 
+a CR-LF combination. FF will initialize the screen. 
+
+BS will be recognized and the cursor will move 
+back and will erase the last character. At the left end 
+of the line the cursor will jump to the right end and 
+will cause a roll down of the line above. This will not 
+occur if there is not text on the line above. The cursor 
+will jump to the 64th location whether or not it is 
+visible there. If the previous line was terminated by a 
+CR, the cursor disappears until backed over the CR. 
+
+The circuit may be constructed using wire-wrap or 
+solder; layout is not critical except that proper supply 
+bypassing techniques must be used for the TTL ICs. 
+Capacitors (0.1/uF) should be connected between the 
++5 V and GDN pins of these ICs to prevent supply cur- 
+rent pulses. 
+
+The two boards may be interconnected with 
+ribbon cables and DIP headers which plug into the IC 
+sockets indicated on the drawing. 
+
+THE FOLLOWING MODIFICATIONS TO THE VDM 
+ARE NECESSARY 
+
+1 . Cut trace on solder side from pin 4 of IC 17. 
+
+2. Cut trace from pin 13 of IC 10 on component side. 
+
+3. Connect a jumper from pin 6 of IC 17 to pin 13 of IC 10. 
+
+4. Connect a jumper from pin 7 of IC 31 to pin 4 of IC 17. 
+
+5. Connect a jumper from pin 3 of IC 31 to pin 7 of IC 13. 
+
+6. Connect a jumper from pin 8 of IC 15 to pin 9 of IC 31. 
+
+7. Connect a jumper from pin 3 of IC 41 to pin 15 of IC 31. 
+
+8. Remove ICs 18, 23, 24, 28, 29, 31, 32, 33, 34, 35, 37, 
+38, 39 and 40. 
+
+9. If not yet installed, resistors R27 through R32 and R41 
+through R48 may be omitted from assembly. □ 
+
+
+
+J8 
+
+
+
+pa a. jitiy - 
+
+
+
+(OD6 PAB,> - 
+
+
+
+36 
+
+
+
+PI 
+
+SfeS 
+
+EPE 
+
+
+
+{K5QZ) - 
+CkSD 3 y - 
+
+
+
+( KBD 4- y - 
+(KBD 5) - 
+
+
+
+30 
+
+
+
+(K.BD 7 > - 
+
+
+
+{ kbp a y - 
+
+
+
+33 
+
+
+
+21 
+
+
+
+A/W-i 
+
+
+
+MR 
+
+
+
+HR1 
+
+
+
+oA'pr 
+
+Tft i TVIfcOTj 
+AY-S-IOI3 
+
+TA2. 
+
+
+
+2N2"J©7 
+
+rr 
+
+
+
+
+RR5 
+
+RR7 
+
+BR 
+
+VDD 
+
+TUC RRC TOO HI 
+
+
+
+TR3 
+TR4. 
+TR5 
+TRfc 
+TR7 
+TRB 
+
+tm5T 
+THRE 
+
+
+
+IC 
+
+
+
+18 
+
+
+
+40 
+
+
+
+(KBO ST6 y- 
+
+
+
+
+}3K 
+
+w**- — -WV- 
+
+
+
+
+IC32 
+
+
+
+IC3I 
+
+
+
+D S 5 
+4«l3 
+
+
+
+V 
+
+
+
+7l6 KHZ 
+
+
+
+V 
+
+
+
+
+COUMT 
+
+
+
+_4> 
+
+
+
+- — q**>\y/ 
+
+
+
+
+T 
+
+
+
+l — — c j^qoi^ 
+
+
+
+D 
+
+TO 
+K 
+P3 
+PA 
+
+
+
+
+B 
+
+
+
+V 
+
+
+
+%3K 
+
+-t — vw 
+
+I S3* 
+
+L -A/VV- 
+
+
+
+— °<c3 — <^®|^ 
+
+
+
+■»5y-a — 
+
+
+
+
+-f VW 
+
+1— A/vV 
+
+
+
+
+
+^■J 1 C» + S7 
+
+NOTES '. UNLESS OTHERWISE SPECIFIED 
+|. A;„ RE5ISTOO.S IN OHMS, S V. , ■/<>/ 
+Z ALL O'Kl'CW IM RlCROWiWS 
+S. ALL OiOOES <N4MQ OR 
+
+
+
+V 
+
+SCHEMATIC - VDM-1 STAND-ALONE 
+ADAPTER 
+
+Z4 if7fc ».. f ElSENSTtlU 
+
+
+
+f 
+
+58 sr 
+Si 
+
+* L " 
+2* iv 
+
+» 74L5 
+IA „ 
+
+
+
+"5 4Y 
+fA 
+
+. 3Y 
+38 
+
+28 
+
+
+
+ZY 
+
+
+
+IY 
+
+74LS 
+ig 1ST 
+
+It 4 
+
+
+
+28 zt 
+2A 
+'8 
+iA 
+
+
+
+<"H.S 
+tS75 
+
+
+
+^— - 
+
+
+
+T 
+
+
+
+TC 
+LB D 
+
+UP 
+
+c 
+
+SIN 
+
+
+
+c« ce 
+
+
+
+V 
+
+
+
+
+iL 
+H 
+
+
+
+14 
+
+
+
+12 
+
+
+
+r 1 
+
+
+
+16 
+
+
+
+V 
+
+
+
+1© 
+
+
+
+li 
+
+10 
+
+
+
+HCC Newsletter; ol. 2, Issue 11-1 2/December 10, 1976 
+
+
+
+6 
+
+
+
+7 
+
+
+
+HCC NewsletterJVoL 2, Issue 11- 12 /December 10, 1976 
+
+
+

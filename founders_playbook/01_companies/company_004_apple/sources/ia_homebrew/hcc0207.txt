@@ -1,0 +1,1308 @@
+Homebrew Computer Club 
+
+Robert Reiling, Editor □ Post Office Box 626, Mountain View, CA 94042 □ Joel Miller, Staff Writer 
+
+Typesetting, graphics and editorial services donated by Laurel Publications, 1 7235 Laurel Rd., Los Gatos, CA 95030 (408) 353-3609 
+
+
+
+RANDOM DATA 
+
+By Robert Reiling 
+
+
+
+August 4, 1976 meeting change! An unforseen con- 
+flict turned up at the last minute and the Stanford 
+Linear Accelerator Center Auditorium is not available 
+for the August 4th Homebrew Computer Club meeting. 
+However, the Annenberg Auditorium in the Cummings 
+Art Building on the Stanford Campus is available and 
+that is this meeting's location. 
+
+This issue of the Newsletter is being mailed in time 
+to reach you in advance of the August 4th meeting. 
+
+We will get together again at S.L.A.C. on August 
+18th, September 1st and September 15th. Following 
+that the S.L.A.C. Auditorium is scheduled for Univer- 
+sity of California use for several weeks. Therefore, the 
+Homebrew Computer Club will need to find an alter- 
+nate meeting location or select alternate meeting dates. 
+These alternatives are being investigated and will be re- 
+ported to you at the August and September meetings. 
+
+Another survey of computer systems was conducted 
+at the July 21st meeting. This time, with about 275 
+hobbyists on hand, 131 indicated they had an opera- 
+tional computer. The previous survey on June 9, 1976 
+turned up 101 operating computers. 
+
+A club is starting in Santa Cruz with the first meet- 
+ing scheduled for August 10, 1976. Contact the Byte 
+Shop in Santa Cruz for details. How about someone 
+sending a report for the Newsletter? 
+
+Visitors at our July 7, 1976 meeting included Sol 
+Libes, President of the Amateur Computer Group of 
+New. Jersey and John Craig, Editor of 73 Magazine's 
+I/O Computer Section. It was great to visit with them 
+and exchange views on the hobby scene. 
+
+Don't miss Personal Computing '76 August 28th 
+and 29th at Atlantic City, N.J. Attendance is expected 
+to be around 5,000 people. John Dilks K2TQN phoned 
+from New Jersey a few days ago to give me a few details 
+and followed up by sending information about hotels, 
+etc. Telephone me at (415) 967-6754 after 7:00PM 
+and before 9:00PM if you need details. The value of 
+door prizes exceeds $5,000 now and more prizes are 
+being added! Write for tickets — $5.00 each in advance 
+($7.50 at the door) — for the weekend including all 
+seminars and exhibits. The address is Personal Compu- 
+ting '76, 503 West New Jersey Ave., Somers Point, 
+New Jersey 08244. Exhibitors phone (609) 927-6950 
+for information on booths. -Continued on page 4 
+
+
+
+Notice! 
+
+The August 4, 1976 Homebrew Computer Club 
+meeting is at the Annenberg Auditorium in the 
+Cummings Art Building. For location, refer to 
+the map on page 8. 
+
+
+
+WE'RE STILL LOOKING! 
+
+By Joel Miller 
+
+
+
+If you read last month's Newsletter, you probably 
+noticed a blurb asking for contributors to a new book 
+titled The Personal Computer which will be published 
+by Laurel Publications in conjunction with members of 
+the Homebrew Computer Club. Well, we did have a 
+good response, but we still need more contributors. 
+All told, about seven people have responded to the 
+notice. 
+
+So far, we seem to have a good software/hardware 
+mix. Larry Press of the Southern California Computer 
+Society has indicated interest both in writing a section 
+of the book and in helping to publicize it. Warren 
+Struven of S.L.A.C. is running S.L.A.C. equipment 
+with a number of 6800 systems and would also like to 
+contribute an article. Phil Wadler is thinking about 
+writing a chapter on "structured programming" with 
+some general notes about programming as well. Ken 
+Jackman has contacted me about writing a chapter on 
+game playing programs and Gary Muhonen has express- 
+ed interest also. Believe it or not, I even received a 
+letter from Bill Fuller — an avid HBC fan in Grand 
+Prairie, Texas — who is doing some very interesting 
+experiments in "parapsychological biofeedback" what- 
+ever that means! I am thinking about writing an intro- 
+ductory chapter comparing various systems and ways 
+to get a system up and running within specific budget 
+limitations. Joe Alig and I will also collaborate on a 
+chapter dealing with design concepts of video terminals. 
+
+The response we have received is very encouraging, 
+but we could still use some help. A chapter on some 
+really homebrew systems would be fascinating to many 
+as would be a section on peripherals and their inter- 
+faces. If you would like to contribute, write Joel Miller 
+at Laurel Publications, 17235 Laurel Rd., Los Gatos, 
+CA 95030 or call (408) 353-3609. 
+
+
+
+Homebrew Computer Club Newsletter-August 4, 1976 
+
+
+
+1 
+
+
+
+MONITOR MOD 
+
+By Joe Alig & Joel Miller 
+
+
+
+One of the biggest headaches for computer hobby- 
+ists is acquiring a reliable monitor at an affordable 
+price. Unfortunately, the tremendous proliferation of 
+TV terminals has placed a premium on monitors. While 
+almost any TV set can be quickly converted to serve 
+both as a TV receiver and monitor, most hobbyists shy 
+away from modifying their TVs thinking the conver- 
+sion is a difficult operation. This is not true. 
+
+If you need a monitor and do not have a TV set 
+now, probably the cheapest way to acquire a new mon- 
+itor is to buy an inexpensive Japanese B&W TV set and 
+perform the following modifications on it. Then, you 
+will be able to watch the boob tube, too! 
+
+Another common misconception about modifying 
+TV sets is that they do not have adequate bandwidth 
+for the number of characters on a line. Our experience 
+with Japanese TV sets, TV terminals and video games 
+reveals this is pure myth. For example, the largest 
+number of points per raster line required for a terminal 
+with an 80 character line is 512. We have personally 
+displayed an interlaced video game with 908 points per 
+line on our MGA set. The only problem which you 
+could conceivably encounter with a 512 points/line 
+display is that you might have to adjust the horizontal 
+width to accommodate the display. Almost all of the 
+small Japanese TV sets are fully isolated, have- well 
+regulated power supplies and they can usually be set 
+up to run off a 12V car battery so you can talk to your 
+electronic friends on vacation! 
+
+As we have already mentioned, we have had good 
+luck with our MGA, however Sony, Panasonic, Sharp 
+and many other brands will do just as well. These sets 
+always come with complete schematics. Most Ameri- 
+can small B&W TV sets are also built in Japan and 
+there are a geat many competing American brands that 
+will do just fine. 
+
+Avoid any TV which is not isolated from the line, 
+because you may either zap yourself or fry your com- 
+puter. A set which is not isolated is said to have a hot 
+chassis which means that one side of the line is connec- 
+ted directly to the chassis. Were you to connect a hot 
+chassis monitor to a computer with a chassis at ground 
+level, you risk a number of things. At the very least, 
+you will blow a fuse. More likely, you will damage the 
+computer power supply or your own power supply! 
+
+
+
+
+TRANSFORMER 
+
+i 1 m 
+
+
+
+GND 
+
+
+
+FIGURE 1. If the line input part of your schematic 
+looks like this, you have an isolated TV and can pro- 
+ceed immediately with the monitor mod. 
+
+
+
+If you are planning to modify a TV set you already 
+own, you better check to see if it is isolated before 
+proceeding any further and here's how to do it. Get 
+out the schematic for the set and check the area where 
+the line voltage enters. If there is no transformer in the 
+circuit (Figure 2), watch out because you have a hot 
+chassis! However, if your schematic looks like Figure 
+1, you are in business. Always consult the schematic. 
+Just looking in the back for a transformer is not good 
+enough since many TVs have transformers for things 
+other than isolation. 
+
+
+
+I 1 117VAC 
+
+
+
+GND 
+
+
+
+m 
+
+
+
+FIGURE 2. But if the schematic looks like this, you 
+better watch out! What you need here is an isolation 
+transformer to isolate the TV set from the line. 
+
+
+
+If you have determined that you do in fact have a 
+hot chassis, you can still use the TV for a monitor if 
+you provide your own isolation. Just go out and score 
+an isolation transformer (any of the surplus stores will 
+have them). But before you go running to the surplus 
+store, check the back of your TV to determine the 
+amount of power required and this is usually stamped 
+on the back (in Watts). Get an isolation transformer 
+which is rated 20% higher than the power requirements 
+of the TV. Then just wire the line to either side of the 
+transformer and wire the output of the transformer to 
+the old line input of the TV set. 
+
+Now that you have a fully isolated TV set, you can 
+proceed to make the monitor modification. Essentially 
+all that is required is that the receiving circuitry (2nd 
+or 3rd video I.F. stage) output be taken to a switch 
+mounted on the outside of the TV so it can be turned 
+off. Then an external connector (i.e. BNC) is connec- 
+ted directly to the input of the video amplifier so the 
+signal from the computer terminal can be entered di- 
+rectly into the video amplifier. 
+
+First, take out the schematic and locate the picture 
+tube. To find the video amplifier, follow the line from 
+the first grid or the cathode. This line line goes through 
+a capacitor and to the plate of a tube or the collector 
+of a transistor that performs the second stage of the 
+video amplification. Then, the grid of that tube or the 
+base of the transistor will probably go to the plate of 
+another tube or the emitter of another transistor that 
+is the actual video amplifier. The base of that transistor 
+or the grid of the tube will be connected to the video 
+detector which will either be a semiconductor or a 
+thermionic diode. The input to this diode is inductive- 
+ly coupled from the second or third video I.F. stage 
+(depending on how many stages your set has). 
+
+To make the modification, locate the power source 
+for the inductor (B+) which will be connected to a re- 
+sistor. This line will go through the inductor and enter 
+the collector of the 2nd or 3rd video I.F. transistor or 
+
+
+
+2 
+
+
+
+Homebrew Computer Club Newsletter-August 4, 1976 
+
+
+
+tube. Install a switch to cut the line and remove B+ 
+when the set is to be used as a monitor. You also have 
+to install a switch (but use a DPDT so it's all in the 
+same switch) in the line from the base of the video 
+amplifier transistor or the grid of the amplifier tube 
+(Figure 3). This switch should close to use the TV in 
+the monitor mode. Then connect your video input to 
+this switch and that's all there is to it. □ 
+
+
+
+B+ 
+
+
+
+B+ 
+
+RESISTOR 
+
+
+
+I O 1 SWITCH CUTS 
+,__] / | OUT RECEIVER 
+
+
+
+i T 
+
+
+
+VIDEO 
+
+
+
+
+
+DETECTOR 
+
+
+1ST VIDEO 
+
+
+3RD 
+
+
+
+
+
+
+I.F. 
+
+
+
+
+
+
+AMPLIFIER 
+
+
+
+
+I 
+
+
+
+
+1 
+
+
+
+
+COUPLING 
+
+
+
+VIDEO INPU' 
+
+
+
+FIGURE 3. Any TV set can be converted to a monitor 
+by performing the simple modification illustrated in 
+this figure. A switch is installed in such a way that the 
+receiving circuitry (2nd or 3rd I.F. stage) output is cut 
+and the video information from the terminal entered 
+instead when the switch is operated. 
+
+
+
+SHOW OFF YOUR SYSTEM! 
+
+
+
+Bring it to the Community Computer Center and 
+
+show us how to use it. Kids and adults come here for 
+scheduled trips and classes and just to play. We'd like 
+to have more things to use with them. 
+
+We'd also be happy to show you some game boxes 
+friends have made for us and borrow any you might 
+have already or would be willing to make. 
+
+Also, we are a tape repository. We copy tapes peo- 
+ple send to Dr. Dobbs Journal and sell them for $1 per 
+ounce (plus California sales tax and handling). 
+
+We have terminals you can use with your computer 
+or ours (a PDP 11/15) or someone else's (if you can 
+dial it up). 
+
+We're open nights — 7 to 10 Monday to Thursday, 
+noon to 5PM weekdays and noon to 4 Saturdays. 
+
+Call us if any of this interests you. We gladly gobble 
+up volunteers! Community Computer Center, 1919 
+Menalto Ave., Menlo Park, CA 94025 (326-4444). □ 
+
+
+
+MICROCOMPUTER SYSTEM DESCRIPTION 
+
+By John Schulein 
+
+
+
+My microcomputer system is built into a surplus 
+Cybercom tape entry system table and uses the regula- 
+ted supply located in the bottom of the table. The 
+table card file was modified (new 100-pin edge connec- 
+tors instead of the original 80-pin connectors) to ac- 
+cept Altair sized PC cards and the power supply was 
+modified to provide -12VDC instead of -8.5VDC. The 
+power supply has five outputs (+24V, +12V, +5V, -5V 
+and -12V) and each output voltage is regulated so that 
+no PC card regulators are required. Each output vol- 
+tage drives a voltage indicating LED and the 5V output 
+is equipped with a 20A ammeter. 
+
+The microcomputer system has the following cards 
+installed at this time. 
+
+1 . CPU — Altair type with modified memory write 
+and clock circuitry. 
+
+2. 4K RAM — 4K of 2102 RAM memory. 
+
+3. 4K RAM — 4K of 2102 RAM memory. 
+
+4. 2K PROM — 2K of 1702A PROM memory. 
+
+5. I/O — TVT and cassette interface. 
+
+The 2K PROM memory is located at 0000 hex through 
+07FF hex and the 8K RAM memory is at 1000 hex 
+through 2FFF hex. The TVT is a highly modified ver- 
+sion of the TVT-1 {Radio Electronics; September 1973) 
+and includes scrolling and a UART serial interface run- 
+ning at 300 Baud (30 cps). The tape recording tech- 
+nique is the HITS (Radio Electronics; September 1973, 
+p. 57) with CRC error detection implemented in soft- 
+ware. A system monitor program is located in low 
+memory and resides in seven 1702A's. It makes the 
+system a pleasure to use and includes the following 
+functions: display memory, fill memory, move mem- 
+ory, memory map, edit memory, compare memory, go 
+to location, compute 16-bit CRC word, ASCII text 
+loader, read tape, write tape and a debug trap routine. 
+
+To date the microcomputer system has been used 
+to implement games and presently there are five games 
+stored on one cassette. These games are Numbers, 
+Word Show, Match Game, How Many Game and Black- 
+jack (21 ). 
+
+To read in one of the game programs from cassette, 
+the following operations are performed. 
+
+1. Turn on system power. The monitor will now 
+automatically take over and after an identifying mes- 
+sage will issue the prompting character (*). 
+
+2. Move the cassette tape to the start of the desired 
+program. Programs begin on an index mark and start 
+with a voice message which identifies the program. 
+
+3. Put the recorder into the play mode, listen to 
+the voice message describing the program and when 
+indicated by the voice message, type "R" on the key- 
+board. 
+
+4. Sit back and wait for the game to start. The 
+monitor program will handle all remaining tasks inclu- 
+ding the data read in, error checking and transfer to 
+the game program. 
+
+Plans for the future include upgrading the TVT to 
+a RAM version that will run with a 9600 Baud serial 
+interface, adding 1702A programming capability, in- 
+stalling a paper tape reader and implementing some 
+form of BASIC. □ 
+
+
+
+Homebrew Computer Club Newsletter— August 4, 1976 
+
+
+
+3 
+
+
+
+IMSAI ANNOUNCES NEW MICROCOMPUTER 
+
+MULTIPROCESSOR CAPABILITY 
+
+News Release 
+
+
+
+San Leandro, Ca.— A unique low-cost multiprocess- 
+ing capability was recently introduced by IMS Associ- 
+ates,, Inc., for use with the. IMSAI £080 microcomputer. 
+
+"Until now, multiprocessing was an expensive tech- 
+nique that was only possible with large computer sys- 
+tems," stated Ed Faber, national sales manager at 
+IMSAI. "With an IMSAI 8080 multiprocessing system 
+costing as little as two thousand dollars, you can han- 
+dle a variety of complex applications, such as high- 
+speed telemetry data acquisition and reformating, and 
+time sharing with simultaneous batch processing." 
+
+With the IMSAI multiprocessing technique, as many 
+as six processors can be connected to a single shared 
+memory block (or several non-contiguous memory 
+blocks) of an IMSAI 8080 microcomputer. Each pro- 
+cessor can operate either, independently or on a shared 
+basis with one or more I/O peripheral devices. The pro- 
+cessors access the shared memory simultaneously on a 
+priority basis. However, when two or more processors 
+access the shared memory simultaneously, they are 
+automatically sequenced according to a special pre- 
+programmed priority status. Another unique feature of 
+shared memory allows for semophore resolution be- 
+tween processors. 
+
+
+
+LOCAL PERIPHERAL I/O 
+
+
+
+LOCAL MEMORY 
+
+
+
+LOCAL PERIPHERAL I/O 
+
+
+
+LOCAL MEMORY 
+
+
+
+LOCAL PERIPHERAL I/O 
+
+
+
+LOCAL MEMORY 
+
+
+
+
+LOCAL PERIPHERAL I/O 
+
+
+
+LOCAL MEMORY 
+
+
+
+PROCESSOR 
+
+
+
+LOCAL PERIPHERAL I/O- 
+
+
+
+LOCAL MEMORY 
+
+
+
+LOCAL PERIPHERAL I/O 
+
+
+
+LOCAL MEMORY 
+
+
+
+The total memory allowed each processor is 64K 
+bytes, less than the amount of the shared memory 
+block. The IMSAI 8080 microcomputer chassis has 
+rbom for several processors, or each processor may be 
+installed in a separate chassis with its own control 
+panel to facilitate monitoring and manual control. 
+
+The hardware required for the multiprocessor logic 
+consists of a bus multiplexing board ($399 assembled, 
+$325 unassembled), and— for each processor— a bus ex- 
+tension board ($65). Delivery is within 30 to 60 days 
+after receipt of order. The basic IMSAI 8080 micro- 
+computer is $931 assembled and $599. unassembled. 
+
+IMS Associates, Inc. is a 4-year old company that 
+has developed a large-scale intelligent disc system and a 
+parallel array-based HYPERCUBE computer in addi- 
+tion to the IMSAI 808O. 
+
+
+
+RANDOM DATA 
+
+^Continued from. page 1 
+
+
+
+Newsletters were received from two new areas this 
+month. One is the New England Computer Society 
+Newsletter, P.O. Box 198, Beford MA 01730. Robert 
+M. Tripp, Editor is doing a fine job with this newsletter. 
+It's 12 pages (8" by 5V6") with coverage of New England 
+hobbyist activities. Subscription is $6.00 per year. The 
+other newsletter is CENOACA Newsbits, the official 
+monthly newsletter of the Central Oklahoma Amateur 
+Computing Association. Association dues are $5 which 
+includes a newsletter subscription. This newsletter runs 
+about four pages, spirit duplicated to date, with excel- 
+lent coverage of their club activities. Inquiries may be 
+directed to Lee Lilly, Editor, P.O. Box 2213, Norman, 
+OK. 73069. □ 
+
+
+
+ERRATUM 
+
+
+
+IMSAI 8080 Multiprocessing System 
+
+
+
+Volume 2, Issue 6, page 7 (List Command For The 
+6502). The print subroutine location is 72C6 instead 
+of 7216 (i.e. JSR 20 72C6 Print " "J. Five lines in the 
+listing require correction. □ 
+
+
+
+PERSONAL COMPUTING '76 
+
+
+
+Personal Computing '76 will be a national gathering 
+of manufacturers and users to discuss and exhibit 
+microcomputers and it is open to the public. The 
+weekend show is sponsored by the Southern Counties 
+Amateur Radio Association of New Jersey, K2BR and 
+is being held in the convention facilities of the Shel- 
+burne Hotel, Michigan Ave. on the famous Atlantic 
+City Boardwalk. Experts in their fields will conduct 
+many varied seminars and demonstrations on all aspects 
+of personal computing for the beginner, the student, for 
+the businessman and even advanced computer experts. 
+The show will be held over the August 28th-29th Week- 
+end. Tickets are $5.00 in advance or $7.50 at the door 
+and are available from Personal Computing '76, 503 W. 
+New Jersey Ave., Somers Point NJ 08244. Over $5,000 
+in door prizes including 10 microcomputers will be 
+given away! □ 
+
+
+
+4 
+
+
+
+Homebrew Computer Club Newsletter-August 4, 1976 
+
+
+
+AMI PROTO LOGIC DIAGRAM CORRECTIONS 
+AND OTHER USEFUL INFORMATION 
+
+By Ray Boaz 
+
+
+
+memory (low address RAM), be sure to set the switch 
+to the high area. 
+
+6. Unused gates: IC23-B (7437), IC25-C (8T97), IC55-A 
+(74S10), IC62-B&C (74S08), IC63-A (74S00), IC64-A 
+&B (8T97), IC66-D (7438), IC67-C&D (1488) and 
+IC68-D (1489). 
+
+7. Modification to change from RS-232 I/O to a serial 
+TTL I/O (such as a TVT I/O): (A) Remove the +12V 
+(if it is being used it goes only to IC67 for RS-232 I/O). 
+(B) Modify one 7437 as follows: bend pin 1 up and 
+around to solder to pin 2, or cut off pin 1 where it 
+emerges from the IC. (C) Replace IC67 with the mod- 
+ified 7437. Replace IC68 with a regular 7437. (D) 
+Jumper +5V to +12V on the edge connector. A great 
+deal of damage can result if +12V, is connected to the 
++5V lines — be sure there is no +12V on the board. 
+
+This last modifcation works very well. I am using it 
+with m y TVT UART interface. However, this does re- 
+sult in DATA on the interface between the CPU and 
+TVT, so inverters must be added in the TVT UART 
+I/O. This is good as they act as a buffer for the UART. 
+
+I have designs for the TVT UART interface and for 
+interfacing the Bit Boffer with the AMI Proto. Anyone 
+who has a Proto Board is welcome to them. □ 
+
+
+
+CALL COMPUTER 
+
+By Randy 
+
+
+
+Call Computer is a low-cost timesharing firm that 
+specializes in small to medium sized users. The compu- 
+ter used is a BTI 4000 or an HP2100A with extended 
+BASIC as written by Basic Timesharing. On Call Com- 
+puter, there are many programs of interest to Homebrew 
+Computer Club members and also files which are stor- 
+age areas on disk that contain such things as listings to 
+programs written for the 8080. A complete and execu- 
+table listing of Lichen Wang's Tiny BASIC will be on 
+the system soon. For more information, contact Call 
+Computer at (415) 964-5331. □ 
+
+
+
+HOW TO GET THE NEWSLETTER 
+
+
+
+Anyone interested in computers as a hobby may 
+receive the Newsletter by sending a request to the 
+Homebrew Computer Club Newsletter, P.O. Box 626, 
+Mountain View, Ca. 94042. The Newsletter is distribu- 
+ted monthly at the club meetings and is also mailed to 
+individuals who are unable to attend the meetings. 
+
+If you have an input to the Newsletter, send it in 
+and it will be published as quickly as possible. However, 
+the editor cannot promise that everything sent will be 
+published. 
+
+The Newsletter is made possible by your donations. 
+Please remember that we must pay for postage, labels 
+and printing. Donations to the Newsletter may be 
+made at Club meetings or mailed to the Homebrew 
+Computer Club Newsletter, P.O. Box 626, Mountain 
+View, Ca. 94042. □ 
+
+
+
+In my efforts with the AMI Proto Kits, several dis- 
+crepancies have been found in the logic diagrams. In 
+every case the PC board ii correct; these are drawing 
+errors only. 
+
+Logic Diagram, Page 1 
+Repeated gates: ICS has two gates with IN pin 4 
+and OUT pin 5 — the lower one should be IN pin 6 and 
+OUT pin 7. IC26 has two gates with IN pin 6 and OUT 
+pin 7 — the one on top should be IN pin 4 and OUT 
+pin 5. --.r-. 
+
+Wrong connections: See list below. 
+IC18-3 to IC26-10 should be IC-18-3 to IC5-2 
+IC18-13 to IC26-6 should be IC-13 to IC5-10 
+IC18-5 to IC26-2 should be IC18-5 to IC5-4 
+IC18-11 to IC26-4 should be IC18-11 to IC5-6 
+IC18-7 to IC5-6 should be IC18-7 to IC26-4 
+IC18-9 to IC5-4 should be IC18-9 to IC26-2 
+IC26-13 to IC5-10 should be IC26-13 to IC26-6 
+IC26-11 to IC5-2 should be IC 26-11 to IC26-10 
+
+Logic Diagram, Page 2 
+C5 should be .01/xF not 6800 
+C6 should be 200pF not 20pF 
+C36 should be .047juF not .4juF. 
+RP1 should be RP2 and 4.7K not 2.7K. 
+RP2 should be RP1 and 4.7K not 2.7K. 
+
+Logic Diagram, Page 3 
+S6810 RAM chip enabling El, E2, E4 and E5 
+should be shown as El, E2, E4 and E5. 
+
+Logic Diagram, Page 4 
+C53 should be 4.7juF @ 75V not 25/uF @ 100V. 
+Edge connector B, pin 63 shown as pin 6. RS-232 out- 
+put pins shown as RSL32. 
+
+Also along the way some useful information has 
+been uncovered which I will pass along: 
+
+1. 20mA current loop connections to TTY: 
+
+Edge Connector Pin TTY Terminal Pin 
+B64 7 (Out+) 
+
+B66 6 (Out-) 
+
+B68 4 (In +) 
+
+B70 3 (In-) 
+
+2. If there is a problem with the Baud rate generator 
+circuit, first try adding a 4.7K pull-up resistor from 
+IG27-13 to +5V (a good place is at a feed-through hole 
+nearIC39-2). 
+
+3. AMI's 6800 chips do not have stringent restrictions 
+on non-overlap of 01 — 02 clocks. 
+
+4. Most surplus 555 timer chips will not operate prop- 
+erly in the Reset Circuit — buy a good one. 
+
+5. The "switchable" RAM on the board is not uniquely 
+decoded when set in the low area. If you add more 
+
+
+
+Homebrew Computer Club Newsletter— August 4, 1976 
+
+
+
+5 
+
+
+
+AMI PROTO LOGIC DIAGRAM CORRECTIONS 
+AND OTHER USEFUL INFORMATION 
+
+ByRayBoaz 
+
+
+
+In my efforts with the AMI Pro to Kits, several dis- 
+crepancies have been found in the logic diagrams. In 
+every case the PC board is correct; these are drawing 
+errors only. 
+
+Logic Diagram, Page 1 
+Repeated gates: IC5 has two gates with IN pin 4 
+and OUT pin 5 — the lower one should be IN pin 6 and 
+OUT pin 7. IC26 has two gates with IN pin 6 and OUT 
+pin 7 — the one on top should be IN pin 4 and OUT 
+pin 5. 
+
+Wrong connections: See list below. 
+IC18-3 to IC26-10 should be IC-18-3 to IC5-2 
+IC18-13 to IC26-6 should be IC-13 to IC5-10 
+IC18-5 to IC26-2 should be IC18-5 to IC5-4 
+IC18-11 to IC26-4 should be IC18-11 to IC5-6 
+IC18-7 to IC5-6 should be IC18-7 to IC26-4 
+IC18-9 to IC5-4 should be IC18-9 to IC26-2 
+IC26-13 to IC5-10 should be IC26-13 to IC26-6 
+IC26-11 to IC5-2 should be IC 26-11 to IC26-10 
+
+Logic Diagram, Page 2 
+C5 should be .OljuF not 6800 
+C6 should be 200pF not 20pF 
+C36 should be .047/iF not .4/xF. 
+RP1 should be RP2 and 4.7K not 2.7K. 
+RP2 should be RP1 and 4.7K not 2.7K. 
+
+Logic Diagram, Page 3 
+S6810 RAM chip enabling El, E2, E4 and E5 
+should be shown as El, E2, E4 and E5. 
+
+Logic Diagram, Page 4 
+C53 should be 4.7juF @ 75V not 25juF @ 100V. 
+Edge connector B, pin 63 shown as pin 6. RS-232 out- 
+put pins shown as RSL32. 
+
+Also along the way some useful information has 
+been uncovered which I will pass along: 
+
+1. 20mA current loop connections to TTY: 
+
+Edge Connector Pin TTY Terminal Pin 
+B64 7 (Out +) 
+
+B66 6 (Out -) 
+
+B68 4 (In +) 
+
+B70 3 (In -) 
+
+2. If there is a problem with the Baud rate generator 
+circuit, first try adding a 4.7K pull-up resistor from 
+IC27-13 to +5V (a good place is at a feed-through hole 
+near IC39-2). 
+
+3. AMI's 6800 chips do not have stringent restrictions 
+on non-overlap of 01 — 02 clocks. 
+
+4. Most surplus 555 timer chips will not operate prop- 
+erly in the Reset Circuit — buy a good one. 
+
+5. The "switchable" RAM on the board is not uniquely 
+decoded when set in the low area. If you add more 
+
+
+
+memory (low address RAM), be sure to set the switch 
+to the high area. 
+
+6. Unused gates: IC23-B (7437), IC25-C (8T97), IC55-A 
+(74S10), IC62-B&C (74S08), IC63-A (74S0Q), IC64-A 
+&B (8T97), IC66-D (7438), IC67-C&D (1488) and 
+IC68-D (1489). , 
+
+7. Modification to change from RS-232 I/O to a serial 
+TTL I/O (such as a TVT I/O): (A) Remove the +12V 
+(if it is being used it goes only to 1C67 for RS-232 I/O). 
+(B) Modify one 7437 as follows: bend pin 1 up and 
+around to solder to pin 2, or cut off pin 1 where it 
+emerges from the IC. (C) Replace IC67 with the mod- 
+ified 7437. Replace IC68 with a regular 7437. (D) 
+Jumper +5V to +12V on the edge gonnectpr. A great 
+deal of damage can result if + 12V, is connected 'to the 
++5V lines — be sure there is no + 12V on the board. 
+
+This last modifcation works very well. I am using it 
+with m y TVT UART interface. However, this does re- 
+sult in DATA on the interface between the CPU and 
+TVT, so inverters must be added in the TVT UART 
+I/O. This is good as they act as a buffer for the UART. 
+
+I have designs for the TVT UART interface and for 
+interfacing the Bit Boffer with the AMI Pro to. Anyone 
+who has a Proto Board is welcome to them. □ 
+
+
+
+CALL COMPUTER 
+
+By Randy 
+
+
+
+Call Computer is a low-cost timesharing firm that 
+specializes in small to medium sized users. The compu- 
+ter used is a BTI 4000 or an HP2100A with extended 
+BASIC as written by Basic Timesharing. On Call Com- 
+puter, there are many programs of interest to Homebrew 
+Computer Club members and also files which are stor- 
+age areas on disk that contain such things as listings to 
+programs written for the 8080. A complete and execu- 
+table listing of Lichen Wang's Tiny BASIC will be on 
+the system soon. For more information, contact Call 
+Computer at (415) 964-5331. □ 
+
+
+
+HOW TO GET THE NEWSLETTER 
+
+
+
+Anyone interested in computers as a hobby may 
+receive the Newsletter by sending a request to the 
+Homebrew Computer Club Newsletter, P.O. Box 626, 
+Mountain View, Ca. 94042. The Newsletter is distribu- 
+ted monthly at the club meetings and is also mailed to 
+individuals who are unable to attend the meetings. 
+
+If you have an input to the Newsletter, send it in 
+and it will be published as quickly as possible. However, 
+the editor cannot promise that everything sent will be 
+published. 
+
+The Newsletter is made possible by your donations. 
+Please remember that we must pay for postage, labels 
+and printing. Donations to the Newsletter may be 
+made at Club meetings or mailed to the Homebrew 
+Computer Club Newsletter, P.O. Box 626, Mountain 
+View, Ca. 94042. □ 
+
+
+
+Homebrew Computer Club Newsletter— August 4, 1976 
+
+
+
+5 
+
+
+
+BULLETIN BOARD 
+
+
+
+Operating systems and general software for Intel 8080. 
+Telephone Gerald R. Baugus anytime between 9:00PM 
+and 6:00AM at System Services Specialists, 1350 Harr- 
+ison Av., Redwood City, CA 94062. (415) 368-8169. 
+
+Project Support Engineering is making to the hobbyist 
+an introductory offer to purchase a complete PACER 
+KIT with all PC board assembled and tested for $699. 
+This is $294 off the regular price. 
+
+The PACER is a complete desk-top microcomputer 
+system. It utilizes the National PACE 16-bit MPU and 
+a system monitor that gives you a complete set of con- 
+trol and debug functions. It is also available with Na- 
+tional's SCAMP and - in the future - 8080 CPU. 
+
+The PACER KIT contains everything from case 
+and unique displays to keyboard and assembled and 
+tested PC boards. The kit can be assembled and opera- 
+ting within a couple of hours. Because this is an intro- 
+ductory offer, P.S.E. must limit the sales of kits to five 
+to each club. 
+
+This offer is good until September 30, 1976. Inter- 
+ested club members should contact Daryl Becker at 
+P.S.E. Be sure and include your club name. For more 
+information, write Project Support Engineering, 750 
+N. Mary Ave., Sunnyvale, CA. 94086 or call (408) 739- 
+8550. Out of state, call toll free at (800) 538-1798. 
+
+LO*OP Center, Inc., Cotati, CA (707) 795-0405 is 
+offering their course titled: Data Processing Orientation 
+For Office Personnel. A fee is involved. The Center is 
+looking for surplus equipment or parts to enhance 
+their PDP 8 system; donations are tax deductable. 
+
+The TV Typewriter Cookbook by Don Lancaster is 
+now available. It's full of information about TV dis- 
+play systems. Starting with basics and going on to 
+cover ICs for TVTs, timing, cursor circuits, keyboards, 
+interface circuits, hard copy and color graphics. Defin- 
+itely an informative book that the computer hobbyist 
+should have. It has 256 pages and the cost is $9.95. 
+The publisher is Howard W. Sams & Co., Inc. □ 
+
+
+
+THE COMPLETE & UTTER IDIOT'S GUIDE 
+TO COMPUTER PROGRAMMING 
+
+By Newett Awl 
+
+
+
+Anytime you set about to write assembly level 
+code for computers, you find you have to do the same 
+thing again and again. Suppose you want to move eight 
+bytes of memory from one place to another. You may 
+start by— 
+
+
+
+LXI H, OLD ADD 
+
+MOV A,M 
+
+LXI H, NEW ADD 
+
+MOV M, A 
+
+
+
+Set memory access to old addr. 
+Get memory byte into A. 
+Set memory access to new addr. 
+Put Memory byte in new addr. 
+
+
+
+But what now? Old address is no longer useful as a 
+memory reference and neither is New address. Both 
+were good for the first transfer but next time we exe- 
+cute the code we have, we will do exactly the same 
+thing we did the first time — transfer the first byte 
+from Old address to New address. 
+
+Increment. The word increment means increase by 
+a measured amount. Now if we had made some provision 
+for adding an increment (of one) to the memory access 
+pointer (H&L), we could have added a nice increment 
+(like one) to H&L and have used the result to get to 
+the next byte. 
+
+
+
+LXI H, 
+MOV A, 
+INR H 
+
+
+
+OLD ADD 
+
+M 
+
+
+
+Set access. 
+Get it. 
+
+Increment access. 
+
+
+
+Woops, now when we set up a memory access like 
+"LXI H, NEW ADD" we are in trouble again because 
+H&L will then be destroyed unless we figure out a 
+place to put them. AH HA! XCHG swaps registers D&E 
+with registers H&L, so . . . 
+
+
+
+NEW PRODUCT 
+
+
+
+LXI 
+
+MOV 
+
+INR 
+
+XCHG 
+
+LXI 
+
+MOV 
+
+INR 
+
+XCHG 
+
+
+
+H,OLD ADD Set source access. 
+
+A, M Get it. 
+
+H Increment source access. 
+
+Swap for destination access. 
+H, NEW ADD Set destination access. 
+M, A - Store A at destination. 
+
+H Increment destination access. 
+
+Swap for source access. 
+
+
+
+Mullen Computer Boards has announced a new ex- 
+tender board/logic probe kit designed to fit either the 
+Altair or IMSAI. It features logic level lights: red = 2.4 
+volts or greater, green = 0.8 volts or less and yellow = 
+0.2 second pulse HI/LO transition. A non-skid phono- 
+needle probe is provided to ensure good contact. Eye- 
+lets and jumpers in the power circuits allow convenient 
+current measurement. The leads of the dual 50 read-out 
+edge connector are specially formed to allow conven- 
+ient access to bus signals. The PC board material is loz. 
+Cu on 0.0625" black FR4 board, which is solder plated 
+and has 50/x" gold on the connector edge. The holes 
+are plated through with 0.0015" Cu. 
+
+This product is available now for $35 from Mullen 
+Computer Boards, Blastmasters Inc., Box 31, Loma 
+Mar, CA. 94021, or check your local computer store. □ 
+
+
+
+But now everything will be set up to the starting 
+address if we jump back to the top of our program. We 
+really need the LXI's only executed once. So: 
+
+LXI H, OLD ADD 
+XCHG 
+
+LXI H, NEW ADD 
+XCHG 
+BACK MOV A, M 
+INR 
+XCHG 
+MOV M, A 
+INR 
+XCHG 
+
+
+
+JMP BACK 
+
+
+
+To be continued next month. □ 
+
+
+
+Homebrew Computer Club Newsletter— August 4, 1976 
+
+
+
+7 
+
+
+
+Homebrew Computer Club 
+NEWSLETTER 
+
+Volume Number 2, Issue 7 August, 1976 
+
+
+
+CONTENTS PAGE 
+
+Random Data, Robert Reiling . . . .1 
+
+Still Looking, Joel Miller. 1 
+
+Monitor Mod, Joe Alig & Joel Miller .2 
+
+Show Off Your System, CCC 3 
+
+System Description, John Schulein .3 
+
+IMSAI Announces Microcomputer 
+
+Multiprocessor Capability 4 
+
+AMI Proto Logic Diagram Corrections and 
+
+Other Useful Information, Ray Boaz .5 
+
+Call Computer, Randy . .5 
+
+How To Get The Newsletter 5 
+
+ASCII Loader For The AMI Proto, Ray Boaz . . .6 
+
+The Club Library. 6 
+
+M.A.C.C. Club List 6 
+
+Bulletin Board. 7 
+
+A New Product 7 
+
+The Complete & Utter Idiot's Guide To 
+
+Computer Programming, Newett Awl . .7 
+
+
+
+HOMEBREW COMPUTER CLUB MEETING 
+
+Where & When 
+
+
+
+The August 4, 1976 meeting is at the Annenberg 
+Auditorium in the Gumming Art Building on the Stan- 
+ford University Campus. Meeting time is 7:00PM. The 
+map at right shows the location. Best bet for parking is 
+behind the Main Library using Galvez Street or along 
+Memorial Way. August 18th, September 1st and Sep- 
+tember 15th meetings are scheduled for 7:00PM at the 
+Stanford Linear Accelerator Center Auditorium. 
+
+
+
+
+Directions to August 4, 1976 Meeting 
+
+
+
+HOMEBREW COMPUTER CLUB 
+NEWSLETTER 
+
+P.O. Box 626 
+Mountain View, CA 94042 
+
+
+
+FIRST CLASS MAIL 
+
+
+
+8 
+
+
+
+Homebrew Computer Club Newsletter-August 4, 1976 
+
+
+

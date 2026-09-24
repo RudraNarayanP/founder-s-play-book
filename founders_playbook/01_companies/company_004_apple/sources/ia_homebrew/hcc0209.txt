@@ -1,0 +1,2462 @@
+
+Homebrew Computer Club 
+
+
+
+Robert Reiling, Editor □ Post Office Box 626, Mountain View, CA 94042 □ Joel Miller, Staff Writer 
+
+Typesetting, graphics and editorial services donated by Laurel Publications, 1 7235 Laurel Rd., Los Gatos, CA 95030 (408) 353-3609 
+
+
+
+RANDOM DATA 
+
+By Robert Reiling 
+
+
+
+Computer clubs continue to form around the 
+country... E. Brooner would like to have material to 
+help him get started with the "Flathead Computer So- 
+ciety" in the Kalispell area. His Address is P.O. Box 
+236, Lakeside, Montana 59922. 
+
+Did you see the SOL terminal demonstrated by 
+Bob Marsh at the Sept. 1st meeting? An excellent 
+design that will interest hobbyists and commercial 
+users alike. It's available from Processor Technology, 
+6200 Hollis St., Emeryville, CA 94608. Write them for 
+prices and specifications. 
+
+The OSI Systems Journal has been sent to all OSI 
+customers (free— at least for the time being). It's a bi- 
+monthly magazine with plans to go monthly in the 
+future. There are 28 pages in the first issue (August 
+1976, Vol. 1, No. 1) with a hardware feature covering 
+the OSI 440 Video Graphics System and software, 
+features concerning Tiny BASIC for the 6800 and a 
+Graphics Editor for the 6502. It also includes OSI 
+product and software catalog data. The BASIC is, of 
+course, the 2K Tiny BASIC developed by Tom Pittman. 
+Many of you have met Tom at the Homebrew compu- 
+ter Club meetings. The OSI Systems Journal is a good 
+way to learn more about the OSI computer hardware 
+and software along with helpful user information. The 
+contact address is: The OSI Systems Journal, P.O. Box 
+134, Hiram, Ohio 44234. 
+
+KIM-1 users now have a newsletter. Eric Rehnke is 
+producing the newsletter every 5-8 weeks, MOS Tech- 
+nology, Inc. helped get it started by sending copies to 
+all known KIM owners. The user group, however, is in- 
+dependent of MOS Technology, Inc. The newsletter is 
+devoted to KIM-1 support. Subscriptions are $5.00 for 
+the next six issues. Contact "KIM-1 User Notes," c/o 
+Eric C. Rehnke, Apt. 207, 7656 Broadview Rd., Parma, 
+Ohio 44134. 
+
+The BAMUG club has a new contact address. It is 
+BAMUG, c/o Timothy O'Hare, 1211 Santa Clara Ave., 
+Alameda, CA 94501. Write Timothy for club informa- 
+tion. I suggest you include a stamped, self-addressed 
+envelope. 
+
+Beware of board snatchers! Glenn Ewing reports 
+11 boards were taken out of his IMSAI computer. The 
+boards are: MPU, 4 RAM-4's, SIO-2, P10-4, PIC-8 
+PROM-4, IFM and FIB. Glenn suggests you consider 
+providing good security for your computer and associ- 
+ated equipment. In his case the computer was in a 
+locked office which was burglarized. In the event you 
+
+
+
+have information on the above boards, write Lt. Glenn 
+Ewing, Code 62EI, Naval Post Graduate School, Mon- 
+terey, CA 93940. 
+
+For family and friends of people who always 
+wanted to know about computers, but didn't want to 
+ask them, four easy-going classes are available starting 
+Oct. 19th on Tuesdays from 7 to 9 p.m. You can learn 
+how computers work and what they can and can't do. 
+You will also have some of the jargon deciphered, see 
+what you can do with a computer, play some games 
+and learn to program. The cost is $25. Contact the 
+Community Computer Center, 1919 Menalto Ave., 
+Menlo Park, CA 94025, phone (415) 325-4444. 
+
+A call for papers in personal computing has been 
+issued by the 1977 National Computer Conference. 
+The conference is scheduled for June 13-16, 1977. I 
+have a few copies of the guidlines if you would like to 
+submit a paper. 
+
+The First West Coast Computer Faire will be held 
+April 16 and 17, 1977 at the San Francisco Civic Audi- 
+torium. This faire is shaping up rapidly. If you would 
+like to lead a conference or participate in a conference 
+session, please contact me. More information about the 
+Faire is in the accompanying article. □ 
+
+
+
+THE FIRST WEST COAST COMPUTER FAIRE 
+
+A Call For Papers And Participation 
+
+
+
+The San Francisco Bay Area is finally going to have 
+a major conference and exhibition exclusively concer- 
+ned with personal and home computing— The First 
+West Coast Computer Faire. And, it promises to be a 
+massive one! It will take place in the largest convention 
+facility in Northern California: The Civic Auditorium 
+in San Francisco. It will be a two-and-a-half day affair, 
+starting on Friday evening and running through Sun- 
+day evening, April 15-17. 
+
+It is being sponsored by a number of local and 
+regional hobbyist clubs, educational organizations and 
+professional groups. These include: 
+
+•The two largest amateur computer organizations 
+in the United States-the Homebrew Computer 
+Club and the Southern California Computer 
+Society 
+
+•Both of the Bay Area chapters of the Associa- 
+tion Of Computing Machinery-the San Francis- 
+co Chapter and the Golden Gate Chapter 
+•Stanford University's Electrical Engineering De- 
+partment 
+
+
+
+HCC Newsletter/ Vol. 2, Issue 9/September 15, 1976 
+
+
+
+1 
+
+
+
+•The Community Computer Center— one of the 
+first walk-in-and-use-a-computer centers 
+•People's Computer Company— a non-profit edu- 
+cational organization 
+
+•The Amateur Research Center— affiliated with 
+the Foothill College Space Science Center 
+
+It is expected that the Faire will draw 7,000-10,000 
+people, will have 50 to 100 conference sessions, and 
+will include over 200 commercial exhibitors. These 
+predictions are based on (1) the unusually wide range 
+of sponsors and local support, (2) the proximity of the 
+Fair site to "Silicon Valley"— the San Francisco Pen- 
+ninsula which is the undisputed center of semiconduc- 
+tor and microprocessor manufacturing, (3) the more 
+than half-year of planning and organization that is 
+going into the Faire, and (4) the increasing success of 
+previous such conventions in the East and Midwest. 
+
+The conference portion of the Faire will include 
+everything from formal papers through informal, off- 
+the-cuff talks, as well as panel sessions, seminars, and 
+presentations of homebrewed systems and projects. 
+Prizes and awards will be given for the most outstan- 
+ding such projects. 
+
+The conference details are shaping up quite nicely 
+at this time and some of the Conference Sections in- 
+clude the following: * 
+
+•Personal computers for education, a Section 
+that will have associated with it a university- 
+credit short course arranged through the Univer- 
+sity of California 
+
+•Computer graphics for personal computers 
+•Computer driven and computer assisted music 
+•Personal computers for the physically handicapped 
+•Computers and amateur radio 
+•Speech synthesis using home computers 
+•Computers for use in very small businesses 
+•Microprogrammable uPs for hobbyists 
+•Digital cassette tape standards— panel session 
+•Peripherals interface standards for personal com- 
+puters 
+
+•Bus standards for hobbyist computers and perip- 
+erals 
+
+•Software modularization for program portability 
+•Discussion session for computer club officers 
+•Discussion session for conference and convention 
+organizers 
+
+•Editing of computer club newsletters 
+•Discussion session for editors of computer hobby- 
+ist magazines 
+
+•Floppy disk systems for home computers 
+•Computer games— alphanumeric and graphic 
+•Word processing and text editing using personal 
+computers 
+
+•Advertising and publications for manufacturers of 
+personal computing products. 
+
+
+
+people and events that have shaped the computer 
+technology and techniques available today. 
+
+As far as the exhibition part of the Faire is con- 
+cerned, response has been enthusiastic. In the first 
+three days of contacting possible exhibitors, a consid- 
+erable number of them committed to being there, in- 
+cluding Zilog, National Semiconductor, American 
+Microsystems, Inc. (AMI), MOS Technology, Byte, 
+Interface, Dr. Dobb's Journal, People's Computer 
+Company, 73 magazine, Kilobyte, Microcomputer 
+Digest, Processor Technology, Cromemco, OSI, 
+Percom, Osborne & Assoc., Technical Design Labs, 
+Polymorphic Systems, Microcomputer Associates, 
+national Multiplex, Quay Corp., Southwest Technical 
+Products, Apple Computers, Byte Inc., Call Computer, 
+STM Systems, Computer Conversor, Solid State Music, 
+Project Support Engineering, iCom, Shugart Assoc., 
+CompuMart, Monolithic Systems, Associated Electron- 
+ics, and on and on. 
+
+There are two people primarily responsible for 
+coordinating the organization of the Computer Faire: 
+
+Jim Warren, General Chairperson 
+(Editor, Dr. Dobb's Journal & Vice-Chairman, 
+Penninsula ACM Chapter) 
+People's Computsr Company 
+P.O. Box 310, Menlo Park, CA 94025 
+(415) 323-3111 or (415) 851-7664 
+
+—and— 
+
+Bob Reiling, Operations Manager 
+(Editor, Homebrew Computer Club Newsletter) 
+193 Thompson Square 
+Mountain View, CA 94043 
+(415) 967-6754 
+
+The Faire coordinators are actively seeking addi- 
+tional speakers, panel session leaders and participants, 
+Conference Section Chairpeople, suggestions of topics 
+and speakers, and interesting homebrewed projects for 
+exhibition. There are some nominal Grants-in-Aid 
+available for those individuals who are some distance 
+from San Francisco and are interested in exhibiting 
+homebrewed projects at the Faire. These are refereed 
+Grants and are intended to cover a portion of shipping 
+costs for the homebrewed equipment. If you are inter- 
+ested in any apects of this Faire, contact Jim or Bob.D 
+
+
+
+COMPUTER PROGRAM VIRTUALLY 
+ELIMINATES MACHINE ERRORS 
+
+
+
+Each of the dinners and the luncheon will have 
+speakers as well as offering the opportunity to socialize 
+and exchange information with fellow computer 
+enthusiasts. One of the speakers will be Professor Henry 
+Tropp, who has been the Principal Investigator for al- 
+most three years in the Computer History Project 
+jointly sponsored by the Smithsonian Institute and the 
+American Federation of Information Processing Soci- 
+eties. During that time, he has traveled internationally, 
+conducting in-depth interviews with many of the origi- 
+nators of the computer revolution, and building re- 
+search archives for the Smithsonian. He is a most fasci- 
+nating lecturer and will present a number of facets and 
+stories of those early days of computing and the 
+
+
+
+Spokesmen for a local electronic firm have recently 
+announced a computer program that— through fresh 
+application of an old technique— virtually eliminates 
+lost time due to malfunction of computer components. 
+Called OREMA (from Latin "Oremus"', meaning "Let 
+us pray"), the program offers prayers at selected time 
+intervals for the continued integrity of memory units, 
+tape transports and other elements subject to depravity. 
+
+Basically liturgical in structure, OREMA uses stan- 
+dard petitions and intercessions stored on magnetic 
+tape in Latin, Hebrew and Fortran. It holds regular 
+maintenance services thrice daily on an automatic 
+cycle and operator intervention is required only for 
+mounting tapes and making responses, such as "Amen" 
+
+
+
+HCC Newsletter/Vol. 2, Issue 9/September 15, 1976 
+
+
+
+2 
+
+
+
+or "And with thy spirit" on the console typewriter. 
+
+Prayers in Hebrew and Fortran are offered directly 
+to the CPU, but Latin prayers may go to peripheral 
+equipment for transfer to the CPU by internal subrou- 
+tines. 
+
+Although the manufacturer-supplied prayer reels 
+cover all machine troubles known to date, the program 
+will add punch card prayers to any tape, as needed, 
+after the final "Amen" block. Classified prayer reels 
+are available for Government installations. 
+
+In trials on selected machines, OREMA reduced by 
+98.2 percent the average down time due to component 
+failure. The manufacturer's spokesman emphasized, 
+however, that OREMA presently defends only against 
+malfunctions of hardware. Requestor errors and other 
+human blunders will continue unchecked until com- 
+pletion of a later version to be called SIN-OREMA.D 
+
+
+
+THE COMPLETE & UTTER IDIOT'S GUIDE 
+TO COMPUTER PROGRAMMING (PART 3) 
+
+By New.ett Awl 
+
+
+
+Last time we looked at how to lay code and test a 
+condition. When the count we had set up had been 
+decremented (had 1 subtracted from it) enough times 
+to completely exhaust the number we had set up, we 
+had a zero in that counter. Until we had decremented 
+it enough, some portion of the count remained and the 
+counter was not zero. So: 
+
+"Testing for conditions is equally effective when 
+the condition is true, as when the condition is false. 
+However, the procedure of the test may be quite 
+different. " 
+
+For example, last month our code read: 
+
+
+
+BACK 
+
+
+
+MVI 
+
+
+C,8 
+
+
+LXI 
+
+
+H, NEW ADD 
+
+
+XCHG 
+
+
+
+
+LXI 
+
+
+H, OLD ADD 
+
+
+MOV 
+
+
+A,M 
+
+
+INX 
+
+
+H 
+
+
+XCHG 
+
+
+
+
+MOV 
+
+
+M,A 
+
+
+INX 
+
+
+H 
+
+
+XCHG 
+
+
+
+
+DCR 
+
+
+C 
+
+
+JNZ 
+
+
+BACK 
+
+
+HLT 
+
+
+
+
+
+If, however, we changed the test itself from "JNZ 
+BACK" to "JZ BACK", the program would halt on the 
+first pass because the jump is a conditional one and the 
+condition of register "C" on the first pass is not zero. 
+If we want to use the JZ instruction we will have to 
+change the code a little bit to make that possible. So: 
+
+
+
+BACK 
+
+
+
+MVI 
+
+LXI 
+
+XCHG 
+
+LXI 
+
+MOVE 
+
+INX 
+
+XCHG 
+
+MOV 
+
+
+
+C,8 \ 
+
+H, NEW ADD 
+
+H, OLD ADD 
+
+A,M 
+
+H 
+
+M.A 
+
+
+
+INX H 
+
+DCR C 
+
+JZ DONE 
+
+JMP BACK 
+DONE HLT 
+
+As you can see, that takes three more bytes to do 
+than the first way that we had it. Yet, both pieces of 
+code act exactly the same way logically. 
+
+There is, however, one other difference in the code; 
+since there are now three more bytes of code in the 
+loop and we know that the loop will be executed eight 
+times, we have also increased— by those three bytes— 
+the number of times the machine must read the code. 
+So the code to use the "JZ" instruction is less efficient 
+that the code to use th "JNZ" instruction in this ex- 
+ample. However, unless there is a good reason why this 
+routine must do it's thing in 24 less memory fetches (3 
+bytes times 8 times), it might be just as well if we left it 
+alone. There is, after all, another efficiency that is 
+equally important and that is: how long does it take to 
+get the code debugged and operational? If you look 
+closely at the two pieces of code, you will notice that 
+the one that jumps to DONE when register "C" is zero 
+is very easy to read and understand. Now if anything 
+goes wrong— and it probably will— you can easily see 
+what you wanted to have happen, even if it didn't. 
+
+These are all very subjective considerations about 
+which programmers have been hassling each other since 
+they first began to practice the trade. My point here is 
+that "good" code is both easy to understand and easy 
+to fix. 
+
+The first consideration for your own code must be 
+that it is easy for you to understand. 
+
+The conditions that the 8080 chip will allow you 
+to set up and test are: 
+
+Zero The accumulator bits are all zero. 
+
+Sign The leftmost bit (D7j is set (=1 ). 
+
+Parity The sideways sum of of the bits is even. 
+
+Carry The Carry bit is set. 
+
+The only one which is not too clear is the parity 
+and all that means is if you imagine that you can lay 
+down and look at the bits of the "A" register then add 
+them up, they total a binary number with no rightmost 
+bit (DO). For example, if "A" is: 
+
+01 101 110 
+
+
+
+When you lay down this becomes: 
+
+Lefthanded Layers Down Righthanded Layers Down 
+
+
+
+0 
+1 
+1 
+1 
+0 
+1 
+1 
+0 
+
+
+
+Total 101 
+
+
+
+Binary Add 101 
+
+
+
+But, if we change one of the zeroes so that "A" 
+looks like: 
+
+11 101 110 
+
+
+
+3 
+
+
+
+HCC 'Newsletter -/Vol. 2, Issue 9 '/September 15, 1976 
+
+
+
+When you lay down, this becomes: 
+
+Lefthanded Layers Down Righthanded Layers Down 
+
+
+
+0 
+1 
+1 
+1 
+0 
+1 
+1 
+1 
+
+
+
+Total 101 
+
+
+
+Binary Add 110 
+
+
+
+Both layers down will get a total of 110. And since 
+"DO" is now reset, parity will be even and the parity 
+bit will be set (=1). 
+
+And that is all there is to parity. However, for per- 
+petual students and Ph.D's who only understand it the 
+complicated way, Intel explains it thusly: 
+
+"If the modulo 2 sum of the bits in the result of 
+the operation is 0, (i.e. if the result has even parity), 
+this flag is set; otherwise it is reset (i.e. if the result has 
+odd parity)." 
+
+Which is a very interesting way to complicate 
+something that is really quite simple. □ 
+
+
+
+FLOPPY DISK FOR $599! 
+
+News Release 
+
+
+
+An under $1,000 floppy disk for personal micro- 
+computer systems is now available, making possible 
+reliable random storage of from 252,314 to 504,628 
+bytes of data at read/write rates of 100,000 Baud mm. 
+
+For $599, Ohio Scientific Instruments is selling a 
+fully-assembled diskette drive including read/write 
+electronics, manuals, mating connectors, system inter- 
+face board (bare) and 6502/6800 operating system 
+with delivery guaranteed to be less than 120 days. 
+Zilog, 8080 and probably PDP-8 systems can be ex- 
+pected later. 
+
+OSI claims it has made a price breakthrough by in- 
+corporating into the hobbyist's own microprocessor 
+system the disk control functions and interface. Fur- 
+ther savings are realized by making user options of the 
+24V-1A power supply, case, connector cables and com- 
+ponents for the interface board. 
+
+User-supplied parts are conservatively estimated to 
+cost an additional $145, bringing the total system cost 
+to as high as $744. Eight to ten evenings of assembly 
+time and testing are suggested. These added costs are 
+$50 each for interface parts and power supply, $25 for 
+enclosure and $10 each for diskettes and cables. 
+
+The OSI 470-Floppy Disk/Modem board, which 
+occupies one slot in the company's standard backplane, 
+can control up to four disk drives. It also can be con- 
+figured to provide a 600-Baud modem with full dial-up 
+and automatic answer capabilities. 
+
+Double density recording can be used, but greater 
+than 1 MHz system clocks are required unless a very 
+simple disk format is used. 
+
+The Model 470 comes with a simple, low-memory- 
+overhead 6502 or 6800 operating system. Purchaser 
+must specifiy which. 
+
+
+
+OSI says its $535 price for diskette drive, manuals 
+and connectors means slim profits and therefore orders 
+must be in writing— prepaid via check, Master Charge 
+or BankAmericard— or via 20 per cent deposit for COD 
+shipment. Purchase orders are not accepted. There is a 
+20 per cent r.estocking charge for cancellation of order 
+unless delivery is delayed beyond 120 days after re- 
+ceipt of order. 
+
+Drives are manufacturer-guaranteed against defec- 
+tive workmanship for 90 days by General Systems 
+International. Although the OSI interface is delivered 
+with the GSI Model 105, it is compatible with the GSI 
+50 and 110 drives as well. OSI's $535 price is consid- 
+erably less than GSI's 50-piece industrial price. 
+
+Ohio Scientific Instrument products are available 
+exclusively from Bare foot Computer Company, Box 
+158, San Luis Rey, CA 92068. □ 
+
+
+
+FROM TV TO MONITOR IN 20 MINUTES 
+
+By Bill Martin 
+
+
+
+It has generally been assumed that modification of 
+television receivers to function as computer monitors 
+involves internal changes in the video drive level and 
+fussing about with bandwidth limiting filters. Modern 
+television receivers have sufficient gain in the video 
+output stage alone to present computer-generated char- 
+acters that are sharp and readable. 
+
+Computer video can be injected into the last video 
+stage of the receiver without involved circuit changes 
+or affecting the picture quality. 
+
+Locate the input to the final video stage. The base 
+(or grid) is usually coupled to the preceeding stage 
+through an electrolytic cap. Break the line on the input 
+side of the electrolytic and bring out 50O coax leads 
+from each side. Bond the leads together, then solder 
+them to chassis ground. Taking the shortest path, route 
+the coax cables through a drilled Vi" hole in the side of 
+the cabinet. 
+
+Solder the center conductor of the cable coming 
+from the input of the elctrolytic to the tip of a minia- 
+ture phone jack, the other cable to the switch of the 
+jack. Bond the braids together and solder to the sleeve 
+of the jack. Secure the jack with locking nuts. 
+
+The television receiver may now be used as a com- 
+puter monitor by simply plugging the video output 
+from the computer into the jack. Since audio is picked 
+off well ahead" of computer injection, it is still available 
+while the set is functioning as a monitor, should the 
+user turn up the volume control. 
+
+I used Sony's TV 920 and TV750 for this modifica- 
+tion to produce printout from the Apple Computer. 
+Character resolution was excellent. Pulling the phone 
+plug from the jack returns the set to normal video— 
+with no change in the quality of the original picture. 
+
+Some Sony sets have two external earphone jacks, 
+one a cut-out type, the other a parallel. I used the 
+parallel jack by removing the existing audio leads to 
+this jack. Many sets today have external earphone 
+jacks, but if you'd rather not sacrafice it, another jack 
+can easily be installed. 
+
+Keep in mind that this modification should be 
+attempted only on television receivers employing trans- 
+former power supplies. Other sets are connected direct- 
+ly to one side of the AC line and, as such, would con- 
+stitute a shock hazard, not to mention possible damage 
+
+
+
+HCC Newsletter/ Vol. 2, Issue 9/September 15, 1976 
+
+
+
+4 
+
+
+
+to the computer. A way around this snag is to use an 
+isolation transformer when the receiver is being used as 
+a monitor (see "Monitor Mod" by Joe Alig & Joel 
+Miller in Vol. 2, Issue 7). If you don't want to go to 
+the expense of an isolation transformer, two 6.3 volt 
+
+
+
+VARIABLE SPEED CLOCK 
+
+Pete Cornell sent this diagram of an interesting var- 
+iable speed clock. Pete says that it is a nifty way to 
+check for slow or fast parts. It is a variable speed clock 
+using the 8224. Pete doesn't know if it is a good solid 
+design for lack of a chip schematic, but it has been 
+running for over a week now with no problems. This 
+circuit yields a clock which varies from approximately 
+1.3 to 2.9 MHz. I expect juggling would give greater 
+range. The 62-138 pF capacitor is a garden variety used 
+in AM transistor radios. □ 
+
+
+
+filament transformers back to back will provide the 
+necessary isolation for safe operation. It is understood 
+that the two filament transformers have 110 VAC pri- 
+maries and 6.3 V secondaries. The secondaries are 
+hooked together. □ 
+
+
+
+
+8224 
+
+
+
+FIL «E998 > PRE IN 
+: BEGIN 
+
+
+
+:YMEDL 
+
+
+
+NAME 
+START 
+LOOP 
+END 
+
+PFISS i 
+
+
+
+TABLE 
+
+VALUE 
+05 0 0 
+05 OE 
+05 IE 
+
+
+
+MOS 6502 SUBROUTINE 
+
+By Christopher Espinosa 
+
+This is a useful subroutine for a MOS 6502-based 
+system to print the A-register in binary. It is assembled 
+for location 0500-16 but can be reassembled by chan- 
+ging lines 11, 12, 13, 18, 21 and 22. It changes nothing 
+else and requires only a single-character output routine 
+(ECHO) to operate. It only uses 22io bytes for pro- 
+gram and storage. 
+
+
+
+LOC. 
+
+
+OE- 
+
+
+IECT 
+
+
+CODE 
+
+
+LINE 
+
+
+SOURCE 
+
+
+STATEMENT 
+
+
+
+
+
+
+
+
+
+
+
+
+0 0 0 1 
+
+
+TITLE 
+
+
+
+
+PRE IN: 
+
+
+PRINTS EVTE IN BINARY 
+
+
+
+
+
+
+
+
+
+
+00 0£ 
+0 0 03 
+
+
+> ? % ? 
+
+5 > ? ! 
+
+
+WRITTEN EY 
+
+
+C. ESPINOSA FOR MOS 65 0£ 
+
+
+
+
+
+
+
+
+
+
+00 04 
+
+
+> LABELS 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+00 05 
+
+
+AKEEP 
+
+
+EQU 
+
+
+$05 IF 
+
+
+SAVE A REGISTER HERE 
+
+
+
+
+
+
+
+
+
+
+0 0 06 
+
+
+XKEEP 
+
+
+EQU 
+
+
+:I05£0 
+
+
+SAVE X REGISTER HERE 
+
+
+
+
+
+
+
+
+
+
+0 0 07 
+
+
+SHIFT 
+
+
+EQU 
+
+
+:t05£l 
+
+
+WORKING REGISTER FOR SHI 
+
+
+
+
+
+
+
+
+
+
+00 OS 
+00 09 
+
+
+OUT 
+
+c 
+
+
+EQU 
+
+
+SFFEF 
+
+
+SINGLE-CHARACTER OUTPUT 
+
+
+
+
+
+
+
+
+
+
+0010 
+
+
+
+
+ORG 35500 
+
+
+
+
+05 0 0 
+
+
+SD 
+
+
+IF 
+
+
+05 
+
+
+0011 
+
+
+START 
+
+
+ST A 
+
+
+AKEEP 
+
+
+SAVE REGISTERS 
+
+
+0503 
+
+
+SD 
+
+
+£1 
+
+
+05 
+
+
+0 0 1 £ 
+
+
+
+
+STA 
+
+
+SHIFT 
+
+
+SAVE FDR SHIFTING 
+
+
+0506 
+
+
+SE 
+
+
+£0 
+
+
+05 
+
+
+0 0 1 3 
+
+
+
+
+STX 
+
+
+XKEEP 
+
+
+
+
+0509 
+
+
+A£ 
+
+
+OS 
+
+
+
+
+0014 
+
+
+
+
+LBX 
+
+
+«o 
+
+
+SET UP COUNTER 
+
+
+05 0E 
+
+
+0E 
+
+
+£1 
+
+
+05 
+
+
+0 015 
+
+
+LOOP 
+
+
+ASL 
+
+
+SHIFT 
+
+
+SHIFT MSE INTO CARRY BIT 
+
+
+05 0E 
+
+
+A9 
+
+
+00 
+
+
+
+
+0 016 
+
+
+
+
+LDA 
+
+
+a0 
+
+
+CLEAR A> CARRY=0 OR 1 
+
+
+0510 
+
+
+69 
+
+
+3 0 
+
+
+
+
+0017 
+
+
+
+
+ADC 
+
+
+«S3 0 
+
+
+ADD ASCII 0 5 A NOW EQUAL 
+
+
+05 1 £ 
+
+
+20 
+
+
+EF 
+
+
+FF 
+
+
+0 0 1 S 
+
+
+
+
+JSR 
+
+
+OUT 
+
+
+OUTPUT IT 
+
+
+0515 
+
+
+CA 
+
+
+
+
+
+
+0 0 1 9 
+
+
+
+
+DEX 
+
+
+
+
+DECREMENT COUNTER 
+
+
+0516 
+
+
+no 
+
+
+F3 
+
+
+
+
+0 0£.0 
+
+
+
+
+ENE 
+
+
+LOOP 
+
+
+LOOP AGAIN IF NOT ZERO 
+
+
+05 IS 
+
+
+AD 
+
+
+IF 
+
+
+05 
+
+
+0 0£1 
+
+
+
+
+LDA 
+
+
+AKEEP 
+
+
+FINISHED: RESTORE A 
+
+
+05 IE 
+
+
+AE 
+
+
+£0 
+
+
+05 
+
+
+00££ 
+
+
+
+
+LDX 
+
+
+XKEEP 
+
+
+AND X 
+
+
+05 IE 
+
+
+60 
+
+
+
+
+
+
+00£3 
+
+
+END 
+
+
+RTS 
+
+
+
+
+RETURN . 
+
+
+
+
+
+
+
+
+
+
+00£4 
+
+
+H S £ jt 
+
+
+
+
+
+
+
+
+
+5 
+
+
+
+HCC Newsletter/Vol. 2, Issue 9/September 15, 1976 
+
+
+
+INTERFACING A PAPER TAPE READER 
+TO THE SWTPC 6800 
+
+By Michael P. Burton 
+
+
+
+Owners of the Southwest Technical Products Cor- 
+poration 6800 Bomputer often use TV typewriters as 
+their serial control device, instead *B>f using an ASR33 
+teletype. This leaves them without a method of reading 
+paper tape programs, r 
+
+Faced with this situation, I had two alternatives. I 
+could get my paper tape version of TINY BASIC 6800 
+listed and type it in by hand, or Lcould purchase the 
+Oliver Audio Engineering OP-80A paper tape reader 
+and a SWTPO MP-L parallel interface board and do 
+things properly. After spending fif_e. iiojitrs typing in 
+TINY BASIC, I decided that once was enough, so I 
+purchased the reader and interface. 
+
+Construction of the paper tape reader is very easy. 
+The r eader should be jumpered so that point A goes 
+ACK. There are no modifications necessary to make 
+the OP-80A compatible with the SWTPC MP-L parallel 
+interface. 
+
+Construction of the MP-L parallel interface is also 
+an easy task. Jumper the board for maskable interrupt 
+operation (A to IRQ and B to IRQ). Do not insert the 
+small indexing plug into the Molex edge connector at 
+the top of the board, and do not cut off the corres- 
+ponding index pin of the male Molex input connector. 
+Solder a jumper between the 5 V regulated side of IC2 
+and the index point of the Molex edge connector. 
+
+Connector wiring pf the OP-80A to the parallel in- 
+terface is shown in the figure. Note that the index pin 
+of the interface board is used to supply power to the 
+OP-80A. Since the tape reader draws a maximum of 
+
+
+
+175 mA current, the regulated 5 V required cab be ob- 
+tained from the interface board. Also note that SI and 
+S2 are being used as visual monitors o f the data r eady 
+line (RDA) and data acknowledge line (ACK). An ACK 
+signal is used to reset the RDA line, as the signal source 
+(CB2 of the PIA) is a normally HI signal when used as 
+an output. 
+
+
+
+TO 
+OP-80A 
+
+I/O 
+SOCKET 
+
+
+
+DO — - 
+
+D1 
+
+D2 — - 
+
+D3 
+
+D4 — - 
+
+D5 
+
+D6 — - 
+D7 — - 
+
+ACK 
+
+S2 
+
+RDA — 
+S1 — - 
+
+GND — ■ 
+
++5V — - 
+
+
+
+"> 
+-> 
+-> 
+-> 
+-> 
+-> 
+-> 
+-> 
+-< 
+
+
+
+< 
+
+
+
+> 
+
+> 
+
+> 
+
+> 
+
+>-- 
+
+>- 
+
+> Z 
+<- 
+
+
+
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+C2 
+
+C1 
+
+GND 
+
+
+
+TO 
+MP-L 
+INPUT 
+CONNECTOR 
+
+
+
+The actual programming of the MP-L for operation 
+with the OP-80A may be on an interrupt or non-inter- 
+rupt basis. The example shown is two hand-assembled, 
+non-interrupt driven subroutines that set up the per- 
+ipheral interface adapter and read one frame of the 
+paper tape. Note that the PIA address used is 8000- 
+8003, which is I/O slot zero on the SWTPC Mother 
+Board. Information concerning interrupt programming 
+is set forth in the MC6820 Peripheral Interface Adap- 
+ter data sheets, and in the Hardware section of the 
+SWTPC System Documentation Notebook. □ 
+
+
+
+*PIASUP - PIA SETUP ROUTINE 
+
+
+
+0F00 
+
+
+
+
+
+
+
+
+ORG 
+
+
+
+
+$0F00 
+
+
+
+
+0F00 
+
+
+CE 
+
+
+8000 
+
+
+PIASUP 
+
+
+LDX 
+
+
+
+
+#$8000 
+
+
+PIA ADDRESS 
+
+
+0F03 
+
+
+86 
+
+
+36 
+
+
+
+
+LDA 
+
+
+A 
+
+
+#$36 
+
+
+KNOCK DOWN C2( RESET C1 ) 
+
+
+OF 05 
+
+
+A7 
+
+
+03 
+
+
+
+
+STA 
+
+
+A 
+
+
+3,X 
+
+
+SET CRB 
+
+
+OF 07 
+
+
+4F 
+
+
+
+
+
+
+CLR 
+
+
+A 
+
+
+
+
+
+
+0F08 
+
+
+A7 
+
+
+01 
+
+
+
+
+STA 
+
+
+A 
+
+
+1,X 
+
+
+RESET CRA 
+
+
+OF OA 
+
+
+A7 
+
+
+02 
+
+
+
+
+STA 
+
+
+A 
+
+
+2,X 
+
+
+SET DDRB = ALL INPUTS 
+
+
+0F0C 
+
+
+43 
+
+
+
+
+
+
+COM 
+
+
+A 
+
+
+
+
+
+
+0F0D 
+
+
+A7 
+
+
+00 
+
+
+
+
+STA 
+
+
+A 
+
+
+0,X 
+
+
+SET- DDRA = ALL OUTPUTS 
+
+
+OF OF 
+
+
+86 
+
+
+3E 
+
+
+
+
+LDA 
+
+
+A 
+
+
+#$3E 
+
+
+C1 SET ON A 0 TO 1, C2=1 
+
+
+0F1 1 
+
+
+A7 
+
+
+03 
+
+
+
+
+STA 
+
+
+A 
+
+
+3,X- 
+
+
+SET CRB 
+
+
+OF 13 
+
+
+86 
+
+
+04 
+
+
+
+
+LDA 
+
+
+A 
+
+
+#$04 
+
+
+DUMMY FOR CRA 
+
+
+OF 15 
+
+
+A7 
+
+
+01 
+
+
+
+
+STA 
+
+
+A 
+
+
+1,X 
+
+
+SET CRA 
+
+
+OF 17 
+
+
+39 
+
+
+
+
+* 
+
+
+RTS 
+
+
+
+
+
+
+AND LEAVE. . . 
+
+
+OF 18 
+
+
+0001 
+
+
+DATA 
+* 
+
+
+RMB 
+
+
+
+
+1 
+
+
+DATA AREA 
+
+
+
+
+
+
+
+
+*PIADAT 
+
+
+- GET 
+
+
+DATA FROM 
+
+
+PIA 
+
+
+OF 19 
+
+
+CE 
+
+
+8 000 
+
+
+PIADAT 
+
+
+LDX 
+
+
+
+
+#$8000 
+
+
+PIA ADDRESS 
+
+
+0F1C 
+
+
+A6 
+
+
+00 
+
+
+
+
+LDA 
+
+
+A 
+
+
+0,X 
+
+
+READ ADR AND 
+
+
+0F1E 
+
+
+A6 
+
+
+02 
+
+
+
+
+LDA 
+
+
+A 
+
+
+2,X 
+
+
+BDR TO CLEAR CR FLAGS 
+
+
+0F20 
+
+
+86 
+
+
+3E 
+
+
+
+
+LDA 
+
+
+A 
+
+
+#$3E 
+
+
+CI SET ON A 0 TO 1, C2=1 
+
+
+0F22 
+
+
+A7 
+
+
+03 
+
+
+
+
+STA 
+
+
+A 
+
+
+3,X 
+
+
+SET CRB 
+
+
+0F24 
+
+
+A6 
+
+
+03 
+
+
+DATLOP 
+
+
+LDA 
+
+
+A 
+
+
+3 X 
+
+
+GET C1 FLAG(BIT 7) 
+
+
+0F26 
+
+
+2B 
+
+
+02 
+
+
+
+
+BMI 
+
+
+
+
+GETDAT 
+
+
+DATA PRESENT? 
+
+
+0F28 
+
+
+20 
+
+
+FA 
+
+
+
+
+BRA 
+
+
+
+
+DATLOP 
+
+
+NOT YET. KEEP TRYING. 
+
+
+0F2A 
+
+
+A6 
+
+
+02 
+
+
+GETDAT 
+
+
+LDA 
+
+
+A 
+
+
+2,X 
+
+
+YES. GET THE DATA 
+
+
+0F2C 
+
+
+B7 
+
+
+OF 18 
+
+
+
+
+STA 
+
+
+A 
+
+
+DATA 
+
+
+AND SAVE IT. 
+
+
+0F2F 
+
+
+86 
+
+
+36 
+
+
+
+
+LDA 
+
+
+A 
+
+
+#$36 
+
+
+KNOCK DOWN C2( RESET C1) 
+
+
+0F31 
+
+
+A7 
+
+
+03 
+
+
+
+
+STA 
+
+
+A 
+
+
+3,X 
+
+
+SET CRB 
+
+
+0F33 
+
+
+39 
+
+
+
+
+
+
+RTS 
+
+
+
+
+
+
+AND LEAVE. . . 
+
+
+
+HCC Newsletter/Vol. 2, Issue 9/September 15, 1976 
+
+
+
+6 
+
+
+
+
+THE CONVERSOR 4000 
+
+A New Product 
+
+
+
+To order a Conversor 4000 or for more informa- 
+tion, contact R. H. Kirschke, Computer Conversor 
+Corporation, 1961 Old Middlefield Way, Mountain 
+View, CA 94043, phone (415) 969-3213. □ 
+
+
+
+Computer Conversor Corporation, a sister firm to 
+Call Computer, now offers an affordable alternative to 
+high-priced computer terminals. 
+
+The Conversor 4000 provides video output con- 
+sisting of alphanumeric uppercase characters and for- 
+matted as 24 lines down by 40 characters across. Inter- 
+connection to the terminal is either hardwired through 
+the RS-232 serial interface (EIA connector) or estab- 
+lished through the optional accoustic coupler. (The op- 
+tional coupler comes built into the Conversor.) Data 
+rate (110 or 300 Baud, i.e., 10 or 30 chars/sec) and 
+half-full duplex mode are switch selectable from the 
+keyboard. Output is composite video with EIA RS170 
+standards. 
+
+A video monitor is required to use the Conversor. 
+Computer Conversor Corp. offers an attractive mod- 
+ified Sanyo television, which doubles as a standard TV. 
+Alternately, you may provide your own video monitor 
+or make the minor required modifications to an exis- 
+ting TV set (we will provide you with technical help). 
+
+
+
+NEW CODING FORM 
+
+Press Release 
+
+
+
+Walton Electronics announces a new coding form 
+for those who work in assembly or machine language. 
+The forms are bound together in pads of 50 sheets and 
+are formatted to accept code for any of the more pop- 
+ular microprocessors. Columns include: address, code, 
+label, instruction and notes. Code can be written in 
+either octal or hex with up to 3 bytes per line in regu- 
+lar assembler format. The lines are spaced to permit 
+coding from a pica typewriter. 
+
+These forms make hand assembly easier and 
+neater which helps eliminate errors. The pads sell for 
+$1.95 each postpaid. Quantity discounts are available. 
+Order from Walton Electronics, Box 503, Bethany, OK 
+73008 or check your nearest computer store. □ 
+
+
+
+
+
+
+
+HOW TO GET THE NEWSLETTER 
+
+Anyone interested in computers as a hobby may 
+
+Homebrew Computer Club Newsletter, P.O. Box 626, 
+Mountain View, CA 94042. The Newsletter is distribu- 
+ted monthly at the club meetings and is also mailed to 
+individuals who are unable to attend the meetings. 
+
+If you have an input to the Newsletter, send it in 
+and it will be published as quickly as possible. However, 
+the editors cannot promise that everything sent will be 
+published immediately. All manuscripts must be typed 
+and carefully proofed. All listings and diagrams should 
+be as clear and easy to read as possible. 
+
+The Newsletter is made possible by your donations. 
+Please remember that we must pay for postage, labels 
+and printing. Donations may be given to Ray Boaz at 
+the club meetings or sent to the above address. □ 
+
+
+CLUB LIBRARY 
+
+Gordon French, club librarian, has lots of interes- 
+ting material and is able to loan it to anyone with a 
+definite need, but . . . please adhere to the following: 
+
+*Limit your telephone calls to the hours of 7PM 
+to 9PM weekdays only. This is important. Gordon's 
+phone number is (415) 325-4209 in Menlo Park. 
+
+■&Be specific with your requests and Gordon can 
+probably help you— he cannot randomly review the 
+contents of the library for you. 
+
+■&No reproductions will be made of any materials. 
+
+*?A11 materials loaned must be returned so they are 
+available for others to use in the future. □ 
+
+
+DAVIS LAB 16K MEMORY BOARDS 
+
+Newsnybble 
+
+Connector pins #73 and #74 are jumpered together 
+by a feedthrough hole at the edge connector. Isolate 
+pin #73. Otherwise it works very well.D 
+
+
+6800 LISTER PROGRAM-CORRECTION 
+
+1. Line 6 was not printed. It should be: 6 FCOE 
+CE FC74. 
+
+2. Line 12 Operand should be 2D 
+
+Bill Marlin picked up this error also. Bill sent in a 
+modified lisiting (using this program) which does a 
+compare on the sofware interrupt instruction (3F). It 
+prints an op-code one-byte operand line which is good 
+only for the AMI Proto System. This is a good example 
+of how to apply a short routine like this to your own 
+system. □ 
+
+
+Laurel Publications is seeking additional work and is 
+willing to pay a commission or finder's fee to anyone 
+establishing a productive contact. We specialize in elec- 
+tronics manuals, advertising and technical art. We have 
+a computerized typesetting system and the capability 
+for drawing fine schematics and illustrations. We are 
+experienced in the production of all types of technical 
+literature. If you have any input, please call Joel Miller, 
+Project Coordinator, at (408) 353-3609. 
+
+
+
+7 
+
+
+
+HCC Newsletter /Vol. 2, Issue 9/September 15, 1976 
+
+
+
+CONTENTS 
+
+
+
+PAGE 
+
+
+
+Random Data, Robert Reiling 1 
+
+The First West Coast Computer 
+
+Fair, A Call For Papers and Participation 1 
+
+Computer Program Virtually Eliminates 
+
+Machine Errors, Ha Ha Department 2 
+
+The Complete & Utter Idiot's Guide To 
+
+Computer Programming, Newett Awl .3 
+
+Floppy Disk For $599!, News Release 4 
+
+From TV To Monitor In 
+
+20 Minutes, Bill Marlin .4 
+
+Variable Speed Clock, Pete Cornell 5 
+
+MOS 6502 Subroutine, Christopher Espinosa . . .5 
+Interfacing A Paper Tape Reader To The 
+
+SWTPC 6800, Michael P. Burton 6 
+
+The Conversor 4000, A New Product 7 
+
+New Coding Form, Press Release. 7 
+
+Bulletin Board 7 
+
+
+
+HOMEBREW COMPUTER CLUB MEETINGS 
+
+Where & When 
+
+The Homebrew Computer Club meets at 7 
+p.m. at the Stanford Linear Accelerator Center 
+Auditorium. Dates scheduled for the remainder 
+of this year are October 1 and 15, November 12 
+and 26, and December 10 and 22. Please note 
+that some of these dates are a change from the 
+regular Wednesday schedule. The date and the 
+location are subject to change. If a change does 
+occur, every effort will be made to provide ad- 
+vance notice in the Newsletter. □ 
+
+
+
+
+HOMEBREW COMPUTER CLUB 
+NEWSLETTER 
+
+
+
+P.O. Box 626 
+Mountain View, CA 94042 
+
+
+
+FIRST CLASS MAIL 
+
+
+
+HCC Newsletter/Vol. 2, Issue 9/September 15, 1976 
+
+
+
+8 
+
+
+

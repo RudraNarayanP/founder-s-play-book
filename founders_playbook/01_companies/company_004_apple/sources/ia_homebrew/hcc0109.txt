@@ -1,0 +1,551 @@
+HOMEBREW MIWSUITTI^ 
+
+COMPUTER 
+
+CLUB 
+
+Robert Reilinq, editor □ Post Office Box 626 □ Mountain View, CA 94042~ 
+Volume Number 1, Issue 9 November 30, 1975 
+
+TOPICS THIS MONTH 
+
+Ray Boaz continues the discussion of multiplexed displays for microcomputer 
+systems. This month he describes a hexadecimal readout that will be of 
+interest to anyone considering the design or modernization of a display. 
+
+Up to the minute news is provided by Pete Cornell's coverage of the 
+cassette standard proposed at the recent BYTE symposium. No doubt we 
+will see plenty of discussion about this standard in the immediate future. 
+Pete has the basic data for us in his article. 
+
+An original pot position digitizing idea is presented by John Schulein in 
+the Data File section. Try it for converting potentiometer positional 
+data to digital data for your programs. 
+
+CLUB MEETING NOVEMBER 12, 1975 
+
+Equipment demonstrations at this meeting of 1 ) TV Dazzler manufactured by 
+CROMEMCO, One First Street, Los Altos, CA 94022, 2) Video Display Module 
+manufactured by Processor Technology Company, 2465 Fourth Street, Berkeley, 
+CA 94710, and 3) IMSAI 8080 System manufactured by IMS Associated Inc., 
+1922 Republic Avenue, San Leandro, CA 94577. If you missed the demonstrations 
+or don't have complete details on these items you may want to write the 
+manufacturers. Mention that you read about them in the HOMEBREW COMPUTER 
+CLUB NEWSLETTER. 
+
+PTC donated a four position expansion board (for an Altair) with four PC 
+card edge connectors to the club to be raffled off. Dan Sokol donated an 
+8080 CPU IC to the raffle. Two tickets were drawn and the first winner got 
+his pick of the two items (he took the 8080) and the second winner got the 
+expansion board. Tickets were sold for 25<$ apeice and the raffle netted 
+around $40 which will be used to pay for the newsletter printing and mailing. 
+
+Bob Marsh (PTC) spoke of the happenings at the cassette tape standards 
+meeting attended by most of the manufacturers involved with the "home brew" 
+hobbyist computer market. Full coverage of this meeting will be described 
+in an upcoming article in BYTE magazine. 
+
+Steve Dompier moderated this meeting in the absence of Lee Felsenstein. 
+CLUB MEETING NOVEMBER 26, 1975 
+
+About 130 people were on hand for this meeting and lots of information 
+was exchanged by the group. 
+
+Marty Spergle announced the M&R ENTERPRISES modem Penny Whistle 103 should 
+be available for club members by the end of December. Marty also told us 
+that Tom Pittman is heading the M&R ENTERPRISES' software department. Tom, 
+
+(continued on 'page 6) 
+
+
+
+-2- 
+
+
+
+■ 
+
+
+
+INTELLIGENT DISPLAY FOR MICROCOMPUTERS (Continued) - Ray Boaz 
+
+Newsletter #8 last month presented the theory of a multiplexed display useful for 
+microcomputer systems with an octal readout of 16 address bits and 8 data bits. This 
+month a hexadecimal readout is described for the same type of microcomputer. The one 
+most interesting point is how similar they are. But, all multiplexed display systems 
+are basically this configuration. The octal circuit presented last month is a "real" 
+circuit, it works as shown. Fine details such as pin numbers, V C c and ground connec- 
+tions, and very important power decoupling was not put on the logic diagram, but this 
+information is all available from the IC Data Sheets. Likewise, this type of informa- 
+tion is not included on the hex circuit either. This is not a "construction plan," 
+only a technique of how it really can be done. C*i well, enough of that — on to the 
+hex circuit. 
+
+The same oscillator as in the octal circuit is shown here but likely can be left 
+out since the microcomputer should have a clock that may be used. A 7492 is used on 
+the counter since it has a divide by 6 counter in it. NOTE that the B-C-D outputs 
+are re-labeled A-B-C. The A flip-flop is not used. The relabeled A-B-C are connected 
+to the A-B-C inputs on all the data muxes and the digit decoder. Only six inputs^ 
+of the data muxes and six outputs of the digit decoder are used since only six digits 
+of display are required for 16 address and 8 data bits in hexadecimal. Here again 
+the counter requires no reset since it divides by six giving states 0-5, the exact 
+requirement. The data muxes are 74151 with only six of the eight inputs used. As 
+shown in Table 1, the mux chart, the number of bits map exactly to the data inputs. 
+No special decoding is required as in the octal circuit. The 7442, one of ten 
+decoders, has input D grounded since it should always be low. Due to the type of 
+segment decoder/driver (D/D) used the digit enable lines must be high and supply 
+current for seven segments. Transistor switches are used to do this. The active 
+low output of the 7442 turns on a transistor which supplies the high level and current 
+required. The pull-up resistor on the digit decoder output lines insure the off 
+transistors are indeed really off. The segment D/D is a Fairchild 9370, which is an 
+active low, open-collector output, hexadecimal decoder/driver able to sink > 25 mAmp/ 
+output. It decodes hex numbers 0-9, A, b, C, d, E, and F. Since it is active low, 
+it can only drive common anode readouts; therefore, the requirement of the transis- 
+tor switch discussed earlier. The resistors in series with the segment D/D output 
+lines are used for current limiting and set the brightness of the display. Segment 
+D/D output lines connect to like-segment inputs on each digit, a-a, b-b,...,f-f, and^ 
+g-g. The 9370 enable line (E) must be grounded for multiplexed operation. All that s 
+left is the LED readouts. They simply light up as they are turned on by the digit and 
+segment enable lines , 
+
+Figure 1 is a comparison between the common cathode type LED digit of the octal 
+circuit and the common anode type LED digit described here. Shown is one output of 
+the 7448 going to one segment of the digit and one open collector output of the 
+74145. When that segment of that digit is on the current determined by R J-^s 
+that diode. The 7448 is active high; that is, when the output is high, the LED is 
+forward biased and on; when the output is low, the transistor is a low impedance 
+path to ground and it sinks current away from the LED, thereby keeping it turned off. 
+The common anode circuit shows one 2N5139 digit switch and one 9370 segment output. 
+When that digit and that segment are to be on the 9370 output goes low, the 2N5139 
+is turned on by the 7442 output going low, and the LED lights up to a brightness 
+determined by the current passed by resistor R. 
+
+Next month 1 s newsletter will conclude this series on display multiplexing. To be 
+presented then is a switch selectable octal/hex display which requires only nine 
+IC's and nine LED digits. 
+
+
+
+
+Ait 
+A 10 
+At 
+A2 
+Oi 
+02 
+
+
+
+
+
+o a e c 
+
+; © v 
+
+t 
+
+5 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C,or*\*it>fJ 
+
+
+
+DAT* 
+
+
+ADOgfl 5 
+
+
+
+
+Oat* 
+
+
+
+
+
+
+? 
+
+
+1 
+
+
+wo 
+
+
+
+
+MSO 
+
+
+kCO 
+
+
+® 
+
+
+A»2 
+
+
+40 
+
+
+A* 
+
+
+Ad 
+
+
+
+
+04- 
+
+
+00 
+
+
+
+
+Alt 
+
+
+A1 
+
+
+A5 
+
+
+Al 
+
+
+
+
+aS 
+
+
+01 
+
+
+© 
+
+
+fit* 
+
+
+Al0 
+
+
+Afe 
+
+
+A3 
+
+
+
+
+
+
+03 
+
+
+<8> 
+
+
+Aff 
+
+
+All 
+
+
+A7 
+
+
+A3 
+
+
+
+
+01 
+
+
+03 
+
+
+
+THE NEW CASSETTE INTERFACE PROPOSED AT THE BYTE SYMPOSIUM - Pete Cornell 
+
+
+
+What follows is a summary of information sent by Harold A. Mauch of Pronetics 
+Corp., Box 28582, Dallas, TX 75228. The source document is available from the club 
+librarian, Gordon French, 325-4209. This is a best effort, but not guaranteed to be 
+error free: 
+
+1) A Mark (Logic One) is eight cycles of 2400 Hertz. 
+
+2) A Space (Logic Zero) is four cycles of 1200 Hertz. 
+
+3) A recorded character will consist of a Space (start) bit, eight data bits, and 
+two or more concluding Mark (stop) bits . 
+
+4) The eight data bits are organized least significant bit first and concluding with 
+with parity if applicable. 
+
+5) All bits not specifically containing information will be Mark bits (for example: 
+the unused bits when exchanging 5-level coded information). 
+
+6) The non- information interval between characters will be Mark bits. Variation in 
+the number of fill bits reflects the data rate. 
+
+RATIONALE: 
+
+Bandwidth: Characteristics of many low cost cassette recorders limit acceptable 
+performance to the 300 - 3000 Hertz range. Outside this range amplitude roll-off and 
+phase shift may be unacceptable. 
+
+Modulation: The proposed method is self- clocking and is tolerant of speed variation 
+
+in excess of + 30%, more than adequate for even the cheapest recorders. The constant 
+
+presence of either 2400 or 1200 Hertz keeps the recorder's AGC circuit happy. 
+
+Mark: Since the marking state preconditions the Start bit synchronization, it should 
+
+be unambiguous with regard to bit cell framing. Selecting the higher of the two 
+
+modulation frequencies for the Mark state provides this condition. 
+
+Redundancy: The redundancy of multiple cycles per bit permits analog or digital 
+
+integration and the resulting lower error rate in the presence of an adverse 
+
+environment . 
+
+CIRCUIT: Pronetics' schematics are reproduced here without a description of circuit 
+function. It is a touched-up n** 1 generation copy. Hope it reads. They claim that 
+error rates at 300 baud using computer grade tapes are less than one in 10? using 
+this circuit. My guess is that substantially similar performance could be had with 
+a simpler and less expensive design. (Why CMOS?) Any input on a better circuit, 
+interface, software or other cassette stuff may be addressed to me, Pete Cornell, 
+Box 714, 94022. Pronetics properly notes that cassette quality has more effect on 
+error performance than recorder quality. Recommended reading: Don Lancaster's 
+Serial Interface article in BYTE #1. I hope this standard catches on. I believe 
+it's good and plan to use it. 
+
+I MARK I SPACE | MARK | 
+
+iifinjijiruinn^ 
+
+llllllinilUllll I I 1 I I 1 I HI IIIIIII IIIIIIL 
+
+irrmnnnr) 
+
+1 f 
+
+i 
+
+
+
+RECORDED WAVEFORM 
+
+DOUBLE EDGE PULSE 
+FORMER 
+
+ONE-SHOT OUTPUT 
+
+RECOVERED DATA 
+
+SYNCHRONIZATION 
+PULSE 
+
+
+
+RECOVERED CLOCK 
+
+
+
+-6- 
+
+
+
+( continued from page 1) 
+
+as you may know, maintains the HOMEBREW COMPUTER CLUB NEWSLETTER mailing 
+list on his home computer system. 
+
+The TV Dazzler system design has been frozen for several weeks now and 
+the goal for the first shipments is set for December 15th. A club dis- 
+count will be available if 50 people get together to buy these units. 
+Someone needs to handle this . 
+
+Computer stores are opening. The BYTE SHOP, 1061 El Camino Real, Mountain 
+View, CA will open December 8, 1975 with the complete MITS line. Another 
+store (different management) will open in Berkeley but we don't have details 
+
+Gordon French is using the INTEL floating point package on his 8008 system 
+with excellent results. 
+
+CALL COMPUTER reports 34 members currently using the K200 account (last 
+months newsletter has details on the K200 account). Also, CALL COMPUTER 
+has a new addition, aDATA GENERAL ECLIPSE C300 with many new capabilities 
+beyond those previously available. 
+
+HOLIDAY CLUB MEETING SCHEDULE 
+
+The next club meeting is December 10, 1975 at Stanford Linear Accelerator 
+Center, Menlo Park, CA. No club meeting will be held December 24, 1975. 
+Meetings will resume again on January 7, 1976 and follow the regular two 
+week schedule. Meetings begin at 7PM and continue to about 10PM. Ask 
+the guard for directions to the meeting room. 
+
+BULLETIN BOARD - Club Members 
+
+STAN ROSENFELD - Main interest is in educational use of computers. My 
+first project is to tie into a 360 running APLSV. Need MODEM, EBCDIC 
+adapter, keyboard, and (solenoid?) driver for my IBM non-selectric type- 
+writer. Telephone 255 4076 San Jose - 6570 Dartmoor Wy. , San Jose, CA 95129 
+
+PLEASE HELP - I'm a student at Foothill High School in Pleasanton. I'm 
+President of a club at our school and I'm interested in trying to form a 
+club in our area, but I can't do it alone. I'm looking for anyone who 
+would be interested in helping me form it. The club would be for anyone 
+interested in comp iters, electronics, et al. Contact Paul Holbrook, 
+6104 Crater Lake Ct ., Pleasanton,, CA 94566 or telephone (415) 462 3816 
+between 5 - 9PM. 
+
+ALTAIR BOARDS - Assembled and workings CPU board $200; IK memory board 
+with 256 bytes $20; FRONT PANEL connected to a MOTHER BOARD and 2 connectors 
+$125. All boards $325. Ken McGinnis, Box 2078, San Mateo, CA 94401 
+Telephone 342 0115. 
+
+CONSULTANTS - PATCA, the Professional and Technical Consultants Association 
+is a non-profit association of independent professionals who have joined 
+in a common effort to promote our chosen way of life. We operate a Re- 
+ferral Service (free to potential clients) on behalf of our members. If 
+you would like more information, membership forms etc., telephone PATCA 
+(415) 961 1155, 2680 Bayshore Frontage Rd., Mountain View, CA 94043 
+
+EXCHANGE - Seek to exchange newsletters and technical data with organ- 
+izations or individuals with similar interests. BIT USERS ASSOCIATION, 
+RESOURCE ACCESS CENTER, 3010 4th Ave. South, Minneapolis, Minnesota 55408 
+
+
+
+00 000 Oil 
+
+
+
+POT POSITION DIGITIZING IDEA - John M. Schulein 
+
+A scheme to convert the position of a potentiometer arm into a digital 
+value using a cheap commonly available timer IC (NE555) and a few bytes 
+of program in an 8008/8080 pP system is shown in Figure 1. The software 
+is organized as a subroutine and uses the flags and the A & B registers. 
+The NE555 is triggered by the OUT TRIGGER instruction and then the pP 
+monitors the output pin of the NE555 in a loop that increments the B 
+register. When the NE555 times out, the program exits from the subroutine 
+and the B register contains a digital representation of the pot position. 
+
+The hardware and software shown in Figure 1 was run on an 8008 system 
+with a 2.5 Jis clock and the B register digital output varied from 2 to 65 
+Hex. The values of the pot and/or the timing capacitor can be modified 
+(see the NE555 data sheet) to suit your processors speed and the desired 
+range of the digitized output. 
+
+Figure 1 
+Pot Poattloa Digitizing Idea 
+
+
+
+Hardware 
+
+
+
++5v 
+
+
+
+Status To f$ 
+(D7) 
+
+
+
+
+Software 
+
+
+
+POTPOS: UVI B,0 
+
+OUT TRIGG 31 
+
+COJT: MR B 
+
+IK STATUS 
+
+ANA A ;Sets sign flag 
+
+JU COMT 
+RET 
+
+
+
+NOTES: 
+
+
+
+(cvtm Sntefefc) 
+
+1. Software written as a subroutine for the 8008/8080 microprocessors, 
+
+2. The flags and registers A & B are affected by the subroutine, 
+
+3. Register B contains the pot position on exit. 
+
+HOMEBREW COMPUTER CLUB NEWSLETTER 
+
+
+
+HOMEBREW COMPUTER CLUB NEWSLETTER 
+Post Office Box 626 
+Mountain View, CA 94042 
+
+
+
+
+•am 
+
+
+
+FIRST CLASS MAIL 
+
+
+
+LENNf SHUSTEK 
+P.O.BOX 3210 
+STANFORD, CA. 
+
+
+
+94088 
+
+
+

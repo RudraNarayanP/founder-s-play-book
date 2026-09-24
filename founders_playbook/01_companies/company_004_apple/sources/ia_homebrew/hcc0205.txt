@@ -1,0 +1,2936 @@
+HOMEBREW COMPUTER CLUB 
+
+Robert Reiling, Editor □ Post Office Box 626, Mountain View, Ca. 94042 □ Joel Miller, Staff Writer 
+
+Typesetting, graphics and editorial services donated by Laurel Publications, 17235 Laurel Rd., Los Gatos, Ca. 95030 (408) 353-3609 
+
+
+
+RANDOM DATA 
+
+By Robert Reiling 
+
+This issue of the Newsletter has exciting changes 
+which reflect the growth of the Homebrew Computer 
+Club and expanding hobby computer activities. Laurel 
+Publications, deeply involved in various computer rela- 
+ted publications and support documentation is dona- 
+ting typesetting, graphics and editorial assistance that 
+allows major improvements in the Newsletter. Joel 
+Miller of Laurel Publications is the person to thank for 
+this. 
+
+Tom Pittman's byte saving tricks (page 3) should 
+help you save some program space. Let us hear from 
+you with some of your pet ideas; it is what the club is 
+all about— information exchange to help each of us 
+with our systems. 
+
+Kenneth Young wrote in with a report of the last 
+Southern California Computer Society (SCCS) meeting 
+and inlcuded his observations about the Altair 8800B. 
+The following exerpt is from Ken's letter: "Pat Ward 
+and David Bunnell of MITs were one of the vendors at 
+the meeting and they were showing off the Altair 
+8800B. I liked it. They cleaned up their computer a lot. 
+I feel that this machine is comparable to the I MSA I 
+8080 with a 22-slot motherboard and fan. Unfortun- 
+ately, the Altair 8800B will cost about $840 in kit 
+form. The I MSA I 8080 with a 28-Amp power supply, 
+22-slot motherboard and fan costs $680 (I MSA I does 
+not charge that insulting 5% handling fee anymore, so 
+I have been told). The two computers are a little differ- 
+ent, but I do feel they are comparable to one another. 
+However, I do not feel that the Altair 8800B should 
+cost more than the I MSA I. My conclusion is that the 
+I MSA I is still a better deal than the Altair. " 
+
+Development of LO*OP Center's latest course is al- 
+most finished. It is to be called Computer Orientation 
+For Office Personnel, or. Dragon Taming. The course is 
+designed for people who have no initiation into the 
+rites of data processing and find that their jobs necessi- 
+tate working with input and output and trying to com- 
+municate with computer freaks. This seminar should 
+appeal to anyone from top level management to the 
+lowliest file cleark. The course will be a one-day event 
+and will include a pleasant and civilized lunch for hu- 
+man beings. Maximum class size is 6. For further infor- 
+mation, call LO*OP Center, (707) 795-0405. 
+
+If you have received the first three issues of Dr. 
+Dobbs Journal Of Computer Calisthenics And Otho- 
+dontia, you will surely be interested in continuing your 
+subscription. If not, get in touch with PCC, Box 310, 
+Menlo Park, Ca. 94025 and get information on this 
+publication. A reminder— you need to send your sub- 
+
+
+
+scription renewal to get those issues after number three 
+if you were an initial subscriber. Subscription is $10 
+per year for 10 issues. Lots of information about Tiny 
+BASIC and more. 
+
+Jef Raskin's discussion of FLOW, an instructional 
+computer programming language, at the May 26th 
+meeting of the Homebrew Computer Club interested 
+quite a few members. For a brief discussion of the 
+language, have your librarian get a copy of Computers 
+And The Humanities, Vol. 8, pp 231-237, Pergamon 
+Press, 1974. 
+
+NEWSLETTER EVOLVING 
+
+By Joel Miller 
+
+Probably you have already noticed some changes in 
+the graphics and presentation of the Newsletter; we 
+hope there are a iot more to come. Starting with this 
+issue, the Newsletter will embark on an evolutionary 
+process with changes both in format and content. 
+
+To increase the appeal and readability of the News- 
+letter, Laurel Publications will be donating typesetting 
+services on their computerized typesetting/text editing 
+system as well as providing graphics, lay-out and edi- 
+torial services. Bob Reiling will continue as chief editor 
+and director of the Newsletter and, as most of you are 
+already aware, Tom Pittman is the man to speak to re- 
+garding the mailing list. 
+
+The Newsletter is published monthly by the Home- 
+brew Computer Club and is financed solely by dona- 
+tions from club members. 
+
+A number of suggestions have been made by club 
+members regarding possible changes in the style and 
+content of the Newsletter. First— and most important 
+of all— the Newsletter needs contributors for stories 
+and articles. We know there are a lot of you out there 
+who have a great many interesting things to tell the 
+rest of us and the number of possible subjects for 
+articles is almost unlimited. Some "road test" analyses 
+of new systems is obviously in order as there are so 
+many new microcomputers being introduced into the 
+marketplace. Some personalized articles about home- 
+built systems (how they came together, how much 
+they cost and where to get necessary components) 
+would be of great interest to us all. 
+
+If you have something to say, don't be afraid to 
+write an article even if you have never written anything 
+before. Everybody who reads the Newsletter is interes- 
+ted in what you have to say, not how you say it. Plus, 
+if you do feel you need help in rewriting an article, 
+contact Bob Reiling at (415) 967-6754 or Joel Miller 
+at (408) 353-3609. 
+
+
+
+Homebrew Computer Club Newsletter Vol. 2, Issue 5 
+
+
+
+1 
+
+
+
+NEW CREATIVE COMPUTING CATALOG 
+
+A zany 12-page tabloid newspaper much in the 
+style of the "Old Farmers Almanac" called, appropri- 
+ately enough, the New Creative Computing Catalog 
+describes various products available from Creative 
+Computing. 
+
+Eighteen books are described including the popular 
+101 BASIC Computer Games and the newly released 
+Artist and Computer. A T-shirt with a computerized 
+picture of Albert Einstein is offered along with a wide 
+variety of computer art prints ranging from a MR. Spock 
+Computer Image to a multi-color sunrise print. Both 
+Creative Computing and Byte Magazine are described 
+in detail. 
+
+
+
+
+One page details special discount terms for schools, 
+clubs and retail stores, as well as ordering information 
+for foreign countries. Even if you don't order anything, 
+the catalog will be a conversation piece. The catalog is 
+a bargain at only 10 cents plus 21 cents postage, but 
+will be sent free for a limited time to readers of the 
+Homebrew Computer Club Newsletter. Write Cre- 
+ative Computing, P.O. 789-M, Morristown, N.J. 07960. 
+
+
+
+BULLETIN BOARD 
+
+Help Wanted. Daly city shop needs someone familiar 
+with Altai r 8800 bus-compatible hardware and soft- 
+ware to answer customer's questions on Saturdays at 
+$3.00 per hour. Minimum age: 15. Action Audio Elec- 
+tronics Repair, Westlake Shopping Center, 323 S. May- 
+fair Ave., Daly City 94015. Phone: (415) 756-7440. 
+
+Teletypes: Models 28 through 40, new or rebuilt, RO's, 
+KSR's and ASR's. All available immediately. National 
+Typewriter Corp., 207 Newtown Rd., Plainview, N.Y 
+1 1803. Contact Joe Gibbons at (516) 293-0444. 
+
+For Sale. One 8008 CPU chip. $15 or best offer. Also 
+16 1101 RAMchips-$1 per chip. Write David Ambrose 
+at 1494 Solano Ave., #1, Albany, Ca. 94706 or call at 
+(415) 526-6702. 
+
+Crystals For AMI Prototype Boards-2.4576MHz crys- 
+tals for AMI boards in stock: $8.95 each. Solid State 
+Music, 2102A Walsh Ave., Santa Clara, Ca. 95050 or 
+phone (408) 246-2707. 
+
+73 Magazine. Special club subscription rate available if 
+five or more send in. Only $7.50 per year for each sub- 
+scription. If interested, contact Bob Reiling at (415) 
+967-6754 (Mountain View) after 7:00PM, please. 
+
+Logic Seminars. There will be four 2 1 / 2 hour sessions on 
+Wednesday evenings from 7 to 9:30PM beginning June 
+16. Tuition is $35, however ACM member will receive 
+a $5 discount. The instructor, Norman Wheeiock, is an 
+applications engineer at Siliconix. The sessions will 
+cover basic digital electronic theory-qsX.es, Boolean al- 
+gebra, basic counters; advanced discrete logic theory- 
+counter design, logic sequences; small logic systems— 
+putting gates and counters to work; large scale integra- 
+ted devices- discussion and application of presently 
+available LSI systems. Some expose to computer pro- 
+gramming or hardware is advisable. Enrollment is lim- 
+ited. Call to register or mail in your check. Community 
+Computer Center, 1919 Menalto Ave., Menlo Park Ca. 
+94025. Phone: (415) 326-4444. 
+
+Microcomputer Interfacing Workshop. September 23, 
+24 and 25, 1976. A three-day workshop based on the 
+popular 8080 microprocessor. The course is sponsored 
+by the V.P.I, and S.U. Extension Division of the Con- 
+tinuing Education Center in Blacksburg, Va. This work- 
+shop will include many hours of experience in program- 
+ming and interface construction with over 12 operating 
+microcomputers available for participant use. For more 
+information, contact Dr. NorrisBell, V.P.I. & S.U. Con- 
+tinuing Education Center, Blacksburg, Va. 24061 or 
+call (703) 951 6328. 
+
+The Digital Group recently released Flyer Number 6 
+with their latest products and software offerings. In- 
+cluded are a cassette storage system capable of control- 
+ling up to four Phi-Deck cassette transports, a nine 
+inch Sanyo video monitor and several software pro- 
+grams including Tiny BASIC Extended. Write for infor- 
+mation and prices to the Digital Group. P.O. Box 6528, 
+Denver, Colorado 80206. 
+
+
+
+2 
+
+
+
+Homebrew Computer Club Newsletter Vol. 2, Issue 5 
+
+
+
+BYTE SAVING PROGAMMIISIG TRICKS 
+FOR THE 8080 
+
+By Tom Pittman 
+
+These are some programming tricks I have accumu- 
+lated over the years which can often save a byte or two 
+in 8080 programs. Because of the peculiarities in the 
+instruction sets, only a few of these also apply to 6800 
+programs and are so noted. Many of these tricks are 
+widespread lore; some I have never seen elsewhere. I 
+hope they can help you as well. 
+
+For 2's complement signed arithmetic, it is some- 
+times necessary to add a signed 1-byte number to a 
+larger format. There are also other reasons for spread- 
+ing a single bit (in the Carry FF) to a whole byte (in A). 
+I found this one in the Scelbi book: 
+
+SBB A Copy carry to all bits in A 
+
+The 8080 does not have a proper shift instruction 
+which fills the vacated bits with zeroes. Normally, a 
+CLC must precede the RAR instruction. However, for 
+left shifts: 
+
+ADD Shift with zero insert 
+
+To insert a single bit (in the. Carry) into the left or 
+right end of the A without altering the other seven bits: 
+
+RAL Remove old left bit 
+
+RRC Insert new from Carry 
+
+The right-end version is symmetrical. To divide a 
+signed (2's complement) number in half, it is necessary 
+to keep the sign bit (bit 7) unchanged while shifting A 
+right. The 8080 does not have an instruction for this, 
+but the RAR may be used if the Garry can bet set up 
+to match the sign bit: 
+
+RLC Copy bit 7 to Carry 
+
+RRC Restore A 
+
+The 6800 has a single instruction for signed right 
+shifts, but no circular rotate. To copy a sign into the 
+Carry: 
+
+ASR A (6800) Duplicate bit 7 
+
+ROL A Restore A with bit 7 in Carry 
+
+Some of these other tricks with the Carry become 
+more useful if the Carry can be set on the basis of the 
+other conditions. A zero in A may be converted into 
+either a one or a zero in the Carry (so that non-zero is 
+the reverse) by one of the following instructions (this 
+also works in the 6800 with appropriate opcode sub- 
+stitutions): 
+
+AD I OFF H C^O if and onlyifA=00 
+SUM C=1 if and only if A=00 f 
+
+It is easy to get the sign of A into the Carry (any 
+left shift will do); to get the complement of the sign is 
+a little trickier. This instruction leaves the contents of A 
+unchanged, and also works for the 8080: 
+
+CPI 80H Complement bit 7 to Carry 
+
+
+
+Finally, how do you pack a byte with some bits 
+from A and some bits from B? The Univac 1 108 has a 
+special instruction called Masked Load Upper which 
+does this. The 8080 (and also the 6800— but only when 
+the second byte is in memory) can do this in three in- 
+structions! Assume that the data in A and B (or any 
+other register or memory location) are already in the 
+correct bit positions. The mask represents a byte with 
+the ones where the data in A is to be substituted; the 
+non-data bits of A and B may contain garbage, as they 
+are ignored: 
+
+XRA B XOR B to A data bits 
+AN I Mask Delete A garbage 
+XRA B Insert B data 
+
+The theory behind this trick lies in the fact that 
+the XOR operation may be considered a "selective 
+complement" instruction. In other words, where there 
+are ones in B the bits in A are complemented, and 
+where there are ones in B the bits in A are unchanged. 
+The AND operation, on the other hand, may be thought 
+of as selectively setting bits to zero in A, where the 
+zeroes in the mask set bits in A to zero and ones in the 
+mask leave the bits in A unchanged. Assume for the 
+moment that the mask is all ones; the other two instruc- 
+tions exactly cancel each other, leaving A unchanged, 
+since the ones in B complemented the corresponding 
+bits in A the first time and recomplemented the same 
+bits (back to their original states) the second time. Thus 
+ones in the mask retain the original bits in A. Now con- 
+sider zeroes in the mask: here the corresponding- bits of 
+A are cleared to zero by the AN D operation so that the 
+first XOR has no effect; the second XOR simply com- 
+plements those zeroes in A which correspond to ones 
+in B, which is to say that it copies the bits of B" into A 
+(remember A was cleared to zeroes by the AND -opera- 
+tion). Thus zeroes in the mask copy in bits from B. 
+Since each bit operates independently, there is no re- 
+quirement that the selected bits of A or B be contig- 
+uous. Note also that no other registers or memory is 
+required for this procedure, and that B is unchanged. I 
+realize this operation looks suspicious, so I have includ- 
+ed the following truth table: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+< 
+
+
+m 
+
+
+V) 
+
+< 
+
+
+XOI 
+
+
+Q 
+
+
+OX 
+
+
+
+
+
+
+
+
+2 ;; 
+
+
++■» 
+
+V) 
+
+
+< 
+
+
+e 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CM 
+
+
+
+
+0 
+
+
+0 
+
+
+0 
+
+
+0 
+
+
+0 
+
+
+0 = 
+
+
+= B 
+
+
+0 
+
+
+0 
+
+
+1 
+
+
+0 
+
+
+0 
+
+
+0 = 
+
+
+= A 
+
+
+0 
+
+
+1 
+
+
+0 
+
+
+1 
+
+
+0 
+
+
+0 = 
+
+
+= B 
+
+
+0 
+
+
+1 
+
+
+1 
+
+
+1 
+
+
+1 
+
+
+0 = 
+
+
+= A 
+
+
+1 
+
+
+0 
+
+
+0 
+
+
+1 
+
+
+0 
+
+
+0 = 
+
+
+= B 
+
+
+1 
+
+
+0 
+
+
+1 
+
+
+1 
+
+
+1 
+
+
+1 = 
+
+
+= A 
+
+
+1 
+
+
+1 
+
+
+0 
+
+
+0 
+
+
+0 
+
+
+1 = 
+
+
+= B 
+
+
+1 
+
+
+1 
+
+
+1 
+
+
+0 
+
+
+0 
+
+
+1 = 
+
+
+= A 
+
+
+
+FIGURE 1 Byte Packing Truth Table 
+
+
+
+Homebrew Computer Club Newsletter Vol. 2, Issue 5 
+
+
+
+3 
+
+
+
+•AH=a 
+
+.G10 
+
+p=l 
+p=a 
+
+
+
+iDO THE OPCODE, OPPERAND, AND COMMENT 
+MULTIPLE BLANKS BECOME SINGLE BLANKS 
+
+
+
+PROCESSOR TECHNOLOGY REFORMATOR 
+
+THIS PROGRAM TAKES 8080 ASSEMBLY 
+SOURCE PROGRAMS WRITTEN ON INTEL'S 
+INTELLEC 8 WHICH HAVE COLONS AFTER 
+LABELS; CONTROL-I'S FOR TABS, 
+AND SEMICOLONS TO DENOTE COMMENTS. 
+
+
+
+IT CONVERTS THEM TO PROCESSOR 
+TECHNOLOGY'S FORMAT WITH LINE 
+NUMBERS, '*" TO DENOTE COMMENTS, 
+AND NO SEMICOLONS AFTER LABELS. 
+
+
+
+THE READER MUST BE UNDER PROGRAM CONTROL. 
+THAT IS IT MUST BE STOPPED AFTER EACH 
+CHARACTER IS READ IN. 
+
+
+
+006 1- 
+
+
+4F 
+
+
+POC: 
+
+
+MOV 
+
+
+C,A 
+
+
+0062 
+
+
+CD0938 
+
+
+
+
+CALL 
+
+
+CO 
+
+
+0065 
+
+
+CD8I00 
+
+
+POC t S 
+
+
+CALL 
+
+
+CRCHK 
+
+
+0068 
+
+
+FE20 
+
+
+
+
+CPI 
+
+
+
+
+006 A 
+
+
+CA6S00 
+
+
+
+
+JZ 
+
+
+POC I 
+
+
+006D 
+
+
+FE3B 
+
+
+
+
+CPI 
+
+
+•t • 
+
+
+006F 
+
+
+CA4400 
+
+
+
+
+<JZ 
+
+
+FC1 
+
+
+0072 
+
+
+4F 
+
+
+P0C2: 
+
+
+MOV 
+
+
+C,A 
+
+
+0073 
+
+
+CD0938 
+
+
+
+
+- C ALL 
+
+
+CO 
+
+
+0076 
+
+
+CD8100 
+
+
+
+
+CALL 
+
+
+CRCHK 
+
+
+0079 
+
+
+FE20 
+
+
+
+
+CPI 
+
+
+» • 
+
+
+007B 
+
+
+C27200 
+
+
+
+
+JNZ 
+
+
+POC 2 
+
+
+007E 
+
+
+C36100 
+
+
+
+
+JMP 
+
+
+POC 
+
+
+
+READ A CHARACTER, MASK OFF PARITY. 
+IF ITS A CARRIAGE RETURN, THEN 
+DO THE END OF LINE. THING- 
+CONVERT CONTROL- 1 * S TO BLANKS. 
+REPRODUCE LEADER. 
+
+
+
+
+
+i THIS 
+
+
+RUNS 
+
+
+ON 
+
+
+THE INTELEC/8 
+
+
+
+
+S IT STARTS 
+
+
+AT 
+
+
+LOCATION 10H 
+
+
+
+
+; and 
+
+
+USES 
+
+
+THE 
+
+
+INTEL 
+
+
+MONITOR 
+
+
+
+
+; for 
+s 
+
+
+I/O 
+
+
+
+
+
+
+
+
+OOOD 
+
+
+CR 
+
+
+EQU 
+
+
+
+
+ODH 
+
+
+
+
+OOOA 
+
+
+LF 
+
+
+EQU 
+
+
+
+
+OAR 
+
+
+
+
+3806 
+
+
+RI 
+
+
+EQU 
+
+
+
+
+3806H 
+
+
+i READER INPUT 
+
+
+3809 
+
+
+CO 
+
+s 
+
+
+EQU 
+
+
+
+
+3809H 
+
+
+;CONSOLE OUTPUT 
+
+
+oooo 
+
+
+i 
+
+
+Org 
+
+
+
+
+10H 
+
+
+
+
+0010 310001 
+
+
+START : 
+
+
+LXI 
+
+
+
+
+SP,0100H JINITILIZE 
+
+
+
+0081 
+
+
+CD0638 
+
+
+CRCHK! 
+
+
+CALL 
+
+
+RI 
+
+
+;GET THE CHARACTER 
+
+
+0084 
+
+
+E67F 
+
+
+
+
+AN I 
+
+
+;7FH 
+
+
+;mask parity 
+
+
+0086 
+
+
+FEOD 
+
+
+
+
+CPI 
+
+
+CR 
+
+
+
+
+0088 
+
+
+CA9500 
+
+
+
+
+JZ 
+
+
+CRC1 
+
+
+J? ITS THE END 
+
+
+00 SB 
+
+
+87 
+
+
+
+
+ORA 
+
+
+A 
+
+
+
+
+008C 
+
+
+CA9900 
+
+
+
+
+JZ 
+
+
+CRC2 
+
+
+;REPRODUCE LEADER! ! 
+
+
+008F 
+
+
+FE09 
+
+
+
+
+CPI 
+
+
+09H 
+
+
+JCONTROL-1 IS A TAB 
+
+
+0091 
+
+
+CO 
+
+
+
+
+RNZ 
+
+
+
+
+SNOT CONTROL^! 
+
+
+0092 
+
+
+3E20 
+
+
+
+
+MVI 
+
+
+A, ' ' 
+
+
+
+
+0094 
+
+
+C9 
+
+
+
+
+RET 
+
+
+
+
+sreplace with • • 
+
+
+0095 
+
+
+El 
+
+
+CRC1 : 
+
+
+POP 
+
+
+H 
+
+
+J FORGET RETURN 
+
+
+0096 
+
+
+C3AA00 
+
+
+
+
+JMP 
+
+
+NLINE 
+
+
+;G0 TO END OF LINE 
+
+
+0099 
+
+
+4F' 
+
+
+CRC2 : 
+
+
+MOV 
+
+
+C.A 
+
+
+
+
+009A 
+
+
+CD0938 
+
+
+
+
+CALL 
+
+
+CO 
+
+
+; OUTPUT LEADER 
+
+
+009D 
+
+
+C38100 
+
+
+
+
+JMP 
+
+
+CRCHK 
+
+
+
+
+
+PRINT OUT <CH,L)> AS 
+ASCII DECIMAL DIGIT. 
+
+
+
+AN 
+
+
+
+0013 CD8100 
+
+
+
+CRCHK 
+
+
+
+S INPUT A CHARACTER 
+
+
+
+PRINT OUT 4 ASCII DECIMAL DIGITS 
+
+
+
+OOAO 23 DPRT: 
+00A1 4E 
+00A2 CD0938 
+OOAS C9 
+
+
+
+00A6 30303030 DNUM: 
+
+
+
+INX H 
+
+MOV . CM 
+
+CALL CO 
+RET 
+
+
+
+DB 
+
+
+
+•0000' 
+
+
+
+0016 
+
+
+F5 
+
+
+MDEC : 
+
+
+PUSH 
+
+
+PSW 
+
+
+
+
+
+
+
+
+J TERMINATE A 
+
+
+LINE WITH 
+
+
+A 
+
+
+0017 
+
+
+21A900 
+
+
+
+
+LXI 
+
+
+H,DNUM+3 
+
+
+
+
+
+
+; CARRIAGE-RETURN, LINE- 
+
+
+FEED 
+
+
+001 A 
+
+
+7E 
+
+
+MD1 : 
+
+
+MOV 
+
+
+A,M 
+
+
+
+
+
+
+
+
+; AND GO PRINT 
+
+
+THE NEXT 
+
+
+LINE NUMBER. 
+
+
+001B 
+
+
+3C 
+
+
+
+
+INR 
+
+
+A 
+
+
+
+
+
+
+
+
+} 
+
+
+
+
+
+
+001C 
+
+
+FE3A 
+
+
+
+
+CPI 
+
+
+•9'+l 
+
+
+JTOO BIG? 
+
+
+OOAA 
+
+
+OEOD 
+
+
+NLINE: MVI 
+
+
+CCR 
+
+
+
+
+001E 
+
+
+C22700 
+
+
+
+
+JNZ 
+
+
+MD2 
+
+
+
+
+00 AC 
+
+
+CD0938 
+
+
+CALL 
+
+
+CO 
+
+
+
+
+0021 
+
+
+3630 
+
+
+
+
+MVI 
+
+
+M, ' 0 ' 
+
+
+
+
+OOAF 
+
+
+OEOA 
+
+
+MVI 
+
+
+CLF 
+
+
+
+
+0023 
+
+
+2B 
+
+
+
+
+DCX 
+
+
+H 
+
+
+JDO THE NEXT DIGIT 
+
+
+00B1 
+
+
+CD0938 
+
+
+CALL 
+
+
+CO 
+
+
+
+
+0024 
+
+
+C31A00 
+
+
+
+
+JMP 
+
+
+MD1 
+
+
+
+
+00B4 
+
+
+CD8100 
+
+
+NL2 : CALL 
+
+
+CRCHK 
+
+
+
+
+0027 
+
+
+77 
+
+
+MD2: 
+
+
+MOV 
+
+
+M,A 
+
+
+
+
+00B7 
+
+
+FEOA 
+
+
+CPI 
+
+
+LF 
+
+
+
+
+0028 
+
+
+21A500 
+
+
+
+
+LXI 
+
+
+H, DNUM- 
+
+
+1 
+
+
+00B9 
+
+
+CAB400 
+
+
+JZ 
+
+
+NL2 
+
+
+
+
+002B 
+
+
+CDAOOO 
+
+
+
+
+CALL 
+
+
+DPRT 
+
+
+
+
+OOBC 
+
+
+C31600 
+
+
+JMP 
+
+
+MDEC 
+
+
+
+
+002E 
+
+
+CDAOOO 
+
+
+
+
+CALL 
+
+
+DPRT 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0031 
+
+
+CDAOOO 
+
+
+
+
+CALL 
+
+
+DPRT 
+
+
+
+
+
+
+
+
+1 
+
+
+
+
+
+
+0034 
+
+
+CDAOOO 
+
+
+
+
+CALL 
+
+
+DPRT 
+
+
+
+
+0000 
+
+
+
+
+END 
+
+
+
+
+
+
+0037 
+
+
+0E20 
+
+
+
+
+MVI 
+
+
+C ' 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0039 
+
+
+CD0938 
+
+
+
+
+CALL 
+
+
+CO 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+S FIRST COLUMN 
+
+
+- CHECK 
+
+
+FOR A LABEL 
+
+
+P= 
+
+
+
+
+
+
+
+
+
+
+003C 
+
+
+Fl 
+
+
+FFCHK: 
+
+
+POP 
+
+
+PSW 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+003D 
+
+
+FE3B 
+
+
+
+
+CPI 
+
+
+
+
+; COMMENT? 
+
+
+
+
+
+
+
+
+
+
+
+
+003F 
+
+
+C24E00 
+
+
+
+
+JNZ 
+
+
+LBCHK 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0042 
+
+
+0E2A 
+
+
+
+
+MVI 
+
+
+C, •*• 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0044 
+
+
+CD0938 
+
+
+FC1 ! 
+
+
+CALL 
+
+
+CO 
+
+
+J PROCESS A COMMENT 
+
+
+
+
+
+
+
+
+
+
+
+
+0047 
+
+
+CD8100 
+
+
+
+
+CALL 
+
+
+CRCHK 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+004A 
+
+
+4F 
+
+
+
+
+MOV 
+
+
+C,A 
+
+
+
+
+LISTING PRODUCED COURTESY OF 
+
+
+COMMUNITY 
+
+
+COMPUTER E 
+
+
+004B 
+
+
+C34400 
+
+
+
+
+JMP 
+
+
+FC1 
+
+
+
+
+CENTER, 1010 
+
+
+DOYLE DRIVE, MENLO PARK. 
+
+
+C4153 326-4444 
+
+
+
+CHECK FOR A LABEL* 
+
+
+
+004E 
+
+
+FE20 
+
+
+LBCHK: 
+
+
+CPI 
+
+
+
+
+0050 
+
+
+CA6 1 00 
+
+
+
+
+JZ 
+
+
+POC 
+
+
+0053 
+
+
+4F 
+
+
+LBC 1 : 
+
+
+MOV 
+
+
+C,A 
+
+
+0054 
+
+
+CD0938 
+
+
+
+
+CALL 
+
+
+CO 
+
+
+0057 
+
+
+CD8100 
+
+
+
+
+CALL 
+
+
+CRCHK 
+
+
+005A 
+
+
+FE3A 
+
+
+
+
+CPI 
+
+
+
+
+OOSC 
+
+
+C25300 
+
+
+
+
+JNZ 
+
+
+LBC1 
+
+
+005F 
+
+
+3E20 
+
+
+
+
+MVI 
+
+
+A, ' • 
+
+
+
+S NO LABEL 
+
+
+
+THEY HAVE COMPUTER GAMES, FOR KIDS, BIRTHDAY PARTIES, 
+TIME ON A PDP 1 1 AND PSP 
+
+TIME ON A PDP/11 AND PDP/8, AND WILL REPRODUCE PAPER 
+TAPES 
+
+
+
+; DELETE •:' 
+
+;loop to print 
+
+f ' separtes label and op-code 
+
+
+
+4 
+
+
+
+Homebrew Computer Club Newsletter Vol. 2, Issue 5 
+
+
+
+0001 . 
+
+0002 
+
+0003- 
+
+0004 
+
+0005 
+
+0006 
+
+0007 
+
+0008 
+
+0009 
+
+0010 
+
+0011 
+
+0012 
+
+0013 
+
+0014 
+
+0015 
+
+0016 
+
+0017 
+
+0018 
+
+0019 
+
+0020 
+
+0021 
+
+0022 
+
+0023 
+
+0024 
+
+0025 
+
+0026 
+
+0027 
+
+0028 
+
+0029 
+
+0030 
+
+0031 
+
+0032 
+
+0033 
+
+0034 
+
+0035 
+
+0036 
+
+0037 
+
+0038 
+
+0039 
+
+0040 
+
+0041 
+
+0042 
+
+0043 
+
+0044 
+
+0045 
+
+0046 
+
+0047 
+
+0048 
+
+0049 
+
+0050 
+
+0051 
+
+0052 
+
+0053 
+
+0054 
+
+0055 
+
+0056 
+
+0057 
+
+. 0058 
+0059 
+0060 
+0061 
+
+.0062 
+0063 
+0064 
+0065 
+0066 
+0067 
+0068 
+0069 
+0070 
+0071 
+0072 
+0073 
+0074 
+0075 
+0076 
+0077 
+0078 
+0079 
+0080 
+0081 
+0082 
+
+
+
+* PROCESSOR TECHNOLOGY REFORMATOR 
+
+
+
+THIS PROGRAM TAKES 8080 ASSEMBLY 
+SOURCE PROGRAMS WRITTEN ON INTEL'S 
+INTELLEC 8 WHICH HAVE COLONS AFTER 
+LABELS* CONTROL- I ' S FOR TABS* 
+AND SEMICOLONS TO DENOTE COMMENTS. 
+
+
+
+IT CONVERTS THEM TO PROCESSOR 
+TECHNOLOGY'S FORMAT WITH LINE 
+NUMBERS* '*• TO DENOTE COMMENTS, 
+AND NO SEMICOLONS AFTER LABELS. 
+
+
+
+THE READER MUST BE UNDER PROGRAM CONTROL. 
+THAT IS IT MUST BE STOPPED AFTER EACH 
+CHARACTER IS READ IN. 
+
+
+
+THIS RUNS ON THE INTELEC/8 
+IT STARTS AT LOCATION 10H 
+AND USES THE INTEL MONITOR 
+FOR I/O 
+
+
+
+; READER INPUT 
+; CONS OLE OUTPUT 
+
+
+
+* 
+
+CR EQU ODH 
+
+LF EQU OAH 
+
+RI EQU 3806H 
+
+CO EQU 3809H 
+
+* 
+* 
+
+ORG 10H 
+
+* 
+
+
+
+START LXI SP*0100H INITILIZE STACK 
+CALL CRCHK INPUT A CHARACTER 
+
+
+
+* PRINT OUT 4 ASCII DECIMAL DIGITS 
+* 
+
+MDEC PUSH PSW 
+
+LXI H,DNUM+3 
+MD1 MOV A*M 
+
+INR A 
+
+CP! *9' + l TOO BIG? 
+JNZ MD2 
+MVI M* '0' 
+
+DCX H DO THE NEXT DIGIT 
+JMP MD1 
+MD2 MOV M* A 
+LXI H*DNUM-1 
+CALL DPRT 
+CALL DPRT 
+CALL DPRT 
+CALL DPRT 
+MVI C* ' ' 
+CALL CO 
+
+* 
+
+* FIRST COLUMN* CHECK FOR A LABEL 
+
+* " 
+FFCHK POP PSW 
+
+CPI '}• COMMENT? 
+JNZ LBGHK 
+
+MVI C*'*' ~ 
+FC 1 CALL CO PROCESS A tjOMMENT 
+CALL CRCHK 
+MOV C*A 
+JMP FC1 
+
+
+
+* CHECK FOR A LAB.EL 
+* 
+
+LBCHK CPI ' ' 
+
+JZ POC NO LABEL 
+LBC1 MOV C*A 
+
+CALL CO 
+
+CALL CRCHK 
+
+CPI ' :• DELETE • :.' 
+
+JNZ LBG1 LOOP TO PRINT 
+
+MVI A* ' ' • • SEPARTES LABfclL AND OP-CODE 
+
+
+
+0083 
+0084 
+0085 
+0086 
+0087 
+0088 
+0089 
+0090 
+0091 
+0092 
+0093 
+0094 
+0095 
+0096 
+0097 
+0098 
+0099 
+0100 
+0101 
+0102 
+0103 
+0104 
+0105 
+0106 
+0107 
+0108 
+0109 
+0110 
+0111 
+0112 
+0113 
+0114 
+0115 
+0116 
+0117 
+0118 
+0119 
+0120 
+0121 
+0122 
+0123 
+0124 
+0125 
+0126 
+0127 
+0128 
+0129 
+0130 
+0131 
+0132 
+0133 
+0134 
+0135 
+0136 
+0137 
+0138 
+0139 
+0140 
+0141 
+0142 
+0143 
+-0144 
+0145 
+0146 
+0147 
+0148 
+0149 
+0150 
+0151 
+0152 
+0153 
+0154 
+0155 
+
+
+
+* DO THE OPCODE* OPPERAND* AND COMMENT 
+
+* MULTIPLE BLANKS BECOME SINGLE BLANKS 
+* 
+
+POC MOV C*A 
+
+CALL CO 
+P0C1 CALL CRCHK 
+
+CPI ' ' 
+
+JZ P0C1 
+
+CPI ' * * 
+
+JZ FC1 
+P0C2 MOV C*A 
+
+CALL CO 
+'- CALL CRCHK 
+
+CPI 
+
+JNZ P0C2 
+JMP POC 
+
+*. 
+* 
+
+* read a character* mask off parity, 
+
+* if its a 'carriage return* then 
+
+* do the end of line thing 
+
+* convert control- i ' s to blanks. 
+
+* reproduce Leader. 
+* 
+
+CRCHK CALL RI GET THE CHARACTER 
+ANI 7FH MASK PARITY 
+CPI CR 
+
+JZ CRCl ITS THE END 
+0RA A 
+
+JZ CRC2 REPRODUCE LEADER!! 
+CPI 09H CONTROL- I IS A TAB 
+RNZ NOT CONTROL- I 
+MVI A* ' ' 
+
+RET REPLACE WITH ' ' 
+CRCl POP H FORGET RETURN 
+
+JMP NLINE GO TO END OF LINE 
+CRC2 MOV C*A 
+
+CALL CO OUTPUT LEADER 
+' JMP CRCHK 
+
+
+
+* PRINT OUT (CH*L)) AS AN 
+
+* ASCII DECIMAL DIGIT. 
+* 
+
+DPRT I NX H 
+MOV C*M 
+CALL CO 
+RET ■ 
+
+* 
+
+» . 
+
+DNUM DB '0000' 
+
+* 
+
+* 
+
+* TERMINATE A LINE WITH A 
+
+* CARRIAGE-RETURN* LINE-FEED 
+
+* AND GO PRINT THE NEXT LINE NUMBER. 
+* 
+
+NLINE MVI C*CR 
+
+CALL CO 
+
+MVI C*LF 
+
+CALL CO 
+NL2 CALL CRCHK 
+
+CPI LF 
+
+JZ NL2 
+
+JMP MDEC 
+
+
+
+Homebrew Computer Club Newsletter Vol. 2, Issue 5 
+
+
+
+5 
+
+
+
+NEW MICROCOMPUTER 
+
+At last, the much talked about Astral 2000 micro- 
+computer is ready to go. If you were at the last meet- 
+ing of the Homebrew Computer Club, you were among 
+the first to see an actual demonstration of the Astral 
+given by Marty Spergel from M&R Enterprises, the 
+manufacturer of the Astral. 
+
+The Astral is a significant feather in the cap of the 
+Homebrew Computer Club for it has been designed 
+and manufactured entirely by club members. The chief 
+engineer for the Astral project is Carl Kelb who oper- 
+ates his own consulting firm, R C Engineering Co. 
+
+The Astral 2000 is an extremely powerful micro, 
+so powerful that Carl Helmers of Byte magazine has 
+described it more as a mini than as a micro in terms of 
+capabilities and exapandability. 
+
+
+
+
+Astral 2000 Microcomputer 
+
+
+
+The system is housed in a well-built, professional 
+quality cabinet and incorporates a modular power sup- 
+ply from PowerTec which is quite adequate for the 
+job. An interesting item to note about the assembly of 
+the Astral is that there is hot a single wire in the entire 
+machine. Correction: there is one actually— the line 
+cord. All the other components plug directly into an 
+expanable system bus, including the front panel as- 
+sembly. Although the Astral is advertised as a "kit", in 
+reality it is 90% assembled upon delivery. AH boards 
+are fully stuffed, tested and burned in for a minimum 
+of 24 hours. The only assembly procedures required 
+are simply putting the cabinet together, placing the 
+power supply inside and bolting it down, attaching the 
+line cord and inserting the various circuit boards. 
+
+The front panel assembly contains the usual sets of 
+LEDs and switches, however there are a few interesting 
+features which should be pointed out. A real time 
+clock driven by an integrated clock chip reads out time 
+in hours, minutes and seconds. The same displays used 
+for the clock can also be used to read out programs in 
+hex, an invaluable debugging aid. In addition, the front 
+panel is attached to the back plane by a special con- 
+nector arrangement designed in such a way that the 
+two assemblies simply are snapped together. Remem- 
+ber putting together that incredible wiring harness for 
+your Altair? Well, rest assured that will never happen 
+with the Astral. 
+
+Three circuit boards are currently available for the 
+
+
+
+system. The processor board contains a 6800 MPU and 
+a great number of other devices as well. The processor 
+operates both in serial and parallel. The serial I/O port 
+outputs both RS-232 and 20mA current loop for tele- 
+types. The serial I/O port is fully protected by opto- 
+isolators. The processor board is shipped with Motor- 
+ola's MIKBUG monitor and 384 bytes of 6810-1 RAM 
+installed. 
+
+Two types of memory boards are in production for 
+the system. The first is the 8K RAM board which uti- 
+lizes low power static RAMs with a 500ns cycle time. 
+The entire 8K RAM board draws a mere 1.5A from a 
+single +5V supply. With the MIKBUG installed, only 
+five RAM boards can be adressed by the processor, 
+however without MIKBUG, the 6800 can talk to 65K 
+of memory (8 RAM boards). The location of each 
+RAM board in the memory map is selected by a set of 
+jumpers on the RAM board itself. 
+
+And for you people out there who are drowning in 
+paper tape, an 8K EPROM board is available for either 
+the Motorola or the AMI 5204 erasable PROMs. This 
+board is fully stuffed with all the miscellaneous control 
+and decode logic, however it does not contain the 
+EPROMs although sockets for the EPROMs are fur- 
+nished. 
+
+
+
+
+Astral 2000 With Front Pans! Cover Removed 
+
+
+
+A video display module has already been designed 
+by our venerable club leader, Lee Felsentein who is 
+also responsible for the design of both the VDM-1 
+(Processor Technology) and the Penny whistle 103 ac- 
+coustic coupler (M&R Enterprises again). This new 
+display module (the VID-80) has been designed spe- 
+cifically for the Astral and— of course— plugs directly 
+into the system bus with no further ado. The VID-80 
+offers selectable line length with adjustments for 64, 
+72 and 80 characters per line. The VID-80 will display 
+up to 24 lines of upper and lower case characters. 
+
+Other future additions to the system will include 
+a number of inexpensive peripherals. Although Marty 
+is stiil negotiating with various manufacturers, he does 
+expect to be able to offer reasonably priced digital 
+tape decks, tape readers and floppy disks with control- 
+lers implemented on Astral bus-compatible cards. 
+
+Initially, software will include a special version 
+of BASIC designed specifically for operating in this 
+system. BASIC will be available both in tape and in 
+PROM. 
+
+
+
+6 
+
+
+
+Homebrew Computer Club Newsletter Vol. 2, Issue 5 
+
+
+
+REPORT ON AMI PROTOTYPE BOARDS 
+
+By Ray Boaz 
+
+A total of 58 units were purchased with final deliv- 
+ery early in May. I still have some items— please pick 
+them up! 
+
+Several units have been completed and are up. Two 
+people from AMI were at the May 26th meeting of the 
+Homebrew Computer Club with equipment to help 
+with problems. Two boards were checked out during 
+the meeting. 
+
+We are currently working on another buy of a min- 
+imum of 25 units. After June 30, the AMI price will be 
+$170+. The Long Island Computer Association may go 
+in with us on this buy. 
+
+We have planned a meeting at the home of Dr. 
+Richard J. Sherman, 10595 Orange Tree Lane, Cuper- 
+tino on June 16, 1976 at 7:30PM. The purpose of this 
+meeting is to (1) set up a group buy of parts needed to 
+complete the boards, (2) discuss problems associated 
+with getting the boards up and (3) pass on some infor- 
+mation on how to use the firmware supplied with the 
+boards. 
+
+HOMEBREW COMPUTER CLUB MEETINGS 
+
+The Homebrew Computer Club meets every other 
+Wednesday (June 23rd, July 7th, July 21st, etc.), 7PM 
+at the Stanford Linear Accelerator Center Audiorium. 
+Directions: From Freeway Rt. 280, take the Sand Hill 
+exit east toward Menlo Park. Turn right at S.L.A.C sign. 
+Auditorium is directly ahead. The parking area is to 
+your right. 
+
+
+
+NEWSLETTERS 
+
+By Robert Reiling 
+
+Recent newsletters I have received: I/O, South 
+Florida Computer Group, Jim Whitmore, Editor, 410 
+
+
+
+N.W. 117 St., Miami, Fl. 33168. 
+
+First issue in May, 1976. It is the newsletter for 
+two chapters of the South Florida Computer Group; 
+one in Miami and the other in Fort Lauderdale. Club 
+News, product news, and software and hardware arti- 
+cles. Currently eight to ten pages. 
+
+Northwest Computer Club Newsletter, P.O. Box 
+5304, Seattle, Wa. 98109, Bob Wallace, Editor. 
+
+First issue in March 1976. Club news and varied 
+hardware/software articles. April and May issues have 
+some interesting reproductions of graphics. 
+
+LOW COST PRINTER 
+
+News Release 
+
+San Diego— Electronic Products Associates, Inc., 
+1157 Vega St., San Diego, Ca. 92110, (714) 276-8911 
+has announced the availability of a new, low cost, 40 
+column, dot-matrix impact printer. The printer com- 
+plete with drive electronics, character decoding and 
+software driver PROMs, power supply and attractive 
+hardware and plastic cabinet interfaces directly with 
+the 6800 and 8080 microprocessors. The printer is 
+capable of printing a surprising 80 characters per sec- 
+ond bi-directionally. Single quantity pricing is $450, 
+delivered from stock. 
+
+The model 40C utilizes a serially-driven printing 
+element consisting of 7 print solenoids and print wires. 
+The print wires are arranged vertically; the printing ele- 
+ment is driven from either direction at constant speed. 
+A synchronous motor driving a spirally grooved drum 
+accomplishes this motion. 
+
+Ribbon feed is accomplished as a simple by-product 
+of printing element motion. Ribbons are inexpensive 
+and easily replaced. 
+
+All electronics for driving, decoding and program 
+storage are powered by the self-contained D.C. power 
+supply. 
+
+
+
+
+Directions To Homebrew Computer Club Meetingplace (S.L.A.C.) 
+
+Homebrew Computer Club Newsletter Vol. 2, Issue 5 ? 
+
+
+
+CONTENTS PAGE 
+
+Random Data ■ ■ 1 
+
+Newsletter Evolving. 1 
+
+New Creative Computing Catalog • ■ 2 
+
+Bulletin Board ■ ■ 2 
+
+Byte Saving Programming Tricks. 3 
+
+Processor Technology Reformator .4 
+
+Report On AM I Boards ■ .... .7 
+
+Homebrew Computer Meetings 7 
+
+Newsletters .7 
+
+Low Cost Printer. ...... -7 
+
+
+
+VT-4000 VIDEO TERMINAL 
+
+Product Announcement 
+
+New, from Video Terminal Technology, a video 
+computer terminal with all the features of a profes- 
+sional terminal at hobbyist price. The VT-4000 video 
+terminal displays 48 lines of 64 characters in a 5 by 7 
+matrix. This provides the capability of displaying 3076 
+(3K) characters simultaneously-8 times the standard 
+TV Typewriter's 16 lines of 32 characters. 
+
+The standard features of the VT-4000 include: its 
+own 4K of RAM, direct cursor addressing, scrolling up 
+or down, five clearing controls, character enhance, all 
+32 control functions decoded, standard RS-232 or 
+TTL serial I/O and selectable Baud rates (110, 300, 
+600, 1 200, 2400, 4800 and 9600) . 
+
+The VT-4000 is available primarily in kit form in 
+any configuration from single boards to 100% com- 
+plete kits. Assembled and tested models can be pur- 
+chased for a standard assembly fee. Please consult the 
+current price list for detailed description of options 
+available. For more information, contact VTT, 6108 
+Elmbridge Dr., San Jose, Ca. 95129. 
+
+
+
+HOMEBREW COMPUTER CLUB 
+NEWSLETTER 
+
+P.O. Box 626 
+Mountain View, Ca. 94042 
+
+FIRST CLASS MAIL 
+
+
+
+Homebrew Computer Club Newsletter Vol. 2, Issue 5 
+
+
+
