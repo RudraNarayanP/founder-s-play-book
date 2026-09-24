@@ -4,6 +4,7 @@
     "chronicling_america": 14,
     "chronicling_america_ocr": 4,
     "internet_archive": 40,
+    "corporate_print": 16,
     "hathitrust": 6,
     "google_books": 6
   },
@@ -48,6 +49,23 @@
      "query_label": "GB waltons five-and-dime",
      "params": {"q": "\"Walton's\" \"five-and-dime\"", "max_results": 10}},
 
+    {"company": "walmart", "source_family": "corporate_print", "kind": "search",
+     "query_label": "CP walmart annual-report run 1970-1998 (EXEMPLAR)", "window": [1970, 1998],
+     "_note": "REFERENCE EXEMPLAR OF A HIT. Verified live 2026-09-24: this exact param set returns numFound=27, the printed Wal-Mart Stores FY1972-FY1997 annual-report run that flipped the Walmart depth verdict from forensic-core to exemplar (company_002_walmart/research/B_periodical_retest.md). The original probe had declared pre-IPO financials undocumented while never querying digitised books or bound corporate print.",
+     "params": {"company_terms": ["walmart", "\"wal-mart stores\""], "report_terms": ["annual", "reports", "yearbook"], "mediatype": "texts", "year_range": [1970, 1998], "rows": 30, "name_patterns": ["walmart stores", "wal-mart stores", "wal-mart", "walmart"]}},
+    {"company": "walmart", "source_family": "corporate_print", "kind": "search",
+     "query_label": "CP walmart pre-FY1972 corporate print 1962-1971", "window": [1962, 1971],
+     "_note": "Tests the documented gap: FY1970/FY1971 reports are absent from IA (retest WR-16). A numFound=0 here is a null on THESE PARAMS, not on the family.",
+     "params": {"company_terms": ["walmart", "\"wal-mart stores\"", "\"wal-mart\""], "report_terms": ["annual", "reports", "prospectus", "shoppers"], "mediatype": "texts", "year_range": [1962, 1971], "rows": 20, "name_patterns": ["walmart stores", "wal-mart stores", "wal-mart", "walmart"]}},
+    {"company": "walmart", "source_family": "corporate_print", "kind": "metadata",
+     "query_label": "CP text availability FY1972 AR", "window": [1970, 1998],
+     "_note": "identifier taken verbatim from the live search response above; metadata call reports server/dir and the *_djvu.txt text layer.",
+     "params": {"identifier": "1972-annual-report-for-walmart-stores-inc"}},
+    {"company": "walmart", "source_family": "corporate_print", "kind": "text",
+     "query_label": "CP FY1972 AR full text (direct server)", "window": [1970, 1998],
+     "_note": "server/dir/file copied verbatim from a live archive.org/metadata response on 2026-09-24 (that URL returned HTTP 200 / 23,989 B of the audited FY1968-FY1972 five-year table). archive.org/download/ 302s to a CDN with an expired TLS cert in this environment, hence the content-server route.",
+     "params": {"identifier": "1972-annual-report-for-walmart-stores-inc", "server": "ia601404.us.archive.org", "dir": "/11/items/1972-annual-report-for-walmart-stores-inc", "file": "1972-annual-report-for-walmart-stores-inc_djvu.txt"}},
+
     {"company": "unitedhealth", "source_family": "chronicling_america", "kind": "search",
      "query_label": "CA charter med 1971-1980",
      "params": {"andtext": "\"Charter Med\"", "date1": "1971", "date2": "1980", "dateFilterType": "yearRange"}},
@@ -77,8 +95,45 @@
      "params": {"q1": "\"Charter Med\""}},
     {"company": "unitedhealth", "source_family": "google_books", "kind": "search",
      "query_label": "GB metropolitan health plans",
-     "params": {"q": "\"Metropolitan Health Plans\"", "max_results": 10}}
+     "params": {"q": "\"Metropolitan Health Plans\"", "max_results": 10}},
+
+    {"company": "unitedhealth", "source_family": "corporate_print", "kind": "search",
+     "query_label": "CP unitedhealth annual reports 1977-1995", "window": [1977, 1995],
+     "_note": "Family 5 seeded for UnitedHealth: the company printed shareholder reports from its 1977 Charter Med founding / 1984 IPO onward. Title-scoped form verified live 2026-09-24 (HTTP 200, numFound=0 for these params).",
+     "params": {"company_terms": ["unitedhealth", "\"united health care\"", "\"charter med\"", "\"metropolitan health plans\""], "report_terms": ["annual", "reports", "shareholder", "stockholder"], "mediatype": "texts", "year_range": [1977, 1995], "rows": 20, "name_patterns": ["united health care", "unitedhealth", "united health systems", "charter med", "metropolitan health plans"]}},
+    {"company": "unitedhealth", "source_family": "corporate_print", "kind": "search",
+     "query_label": "CP unitedhealth corporate-print by creator 1971-1995", "window": [1971, 1995],
+     "_note": "creator: is the productive clause for bound corporate print (proved on the Apple seed, where creator:(\"apple computer\") retrieved corporate print that title-scoping missed). creator verified as a queryable and returnable field live 2026-09-24.",
+     "params": {"company_terms": ["\"united health care\"", "unitedhealth", "\"united health systems\""], "scope_field": "creator", "mediatype": "texts", "year_range": [1971, 1995], "rows": 20, "name_patterns": ["united health care", "unitedhealth", "united health systems", "charter med"]}},
+
+    {"company": "apple", "source_family": "corporate_print", "kind": "search",
+     "query_label": "CP apple annual/shareholder reports 1976-1995", "window": [1976, 1995],
+     "_note": "Apple's early-era printed corporate material is the SAME CLASS OF EVIDENCE that flipped Walmart; Apple's probe left 'money and organisation' as the exclusion. Title-scoped form verified live 2026-09-24: numFound=0 in 1976-1990 (per-param null only).",
+     "params": {"company_terms": ["\"apple computer\"", "\"apple computer inc\"", "apple"], "report_terms": ["annual", "report", "reports", "shareholder", "stockholder"], "mediatype": "texts", "year_range": [1976, 1995], "rows": 20, "name_patterns": ["apple computer, inc", "apple computer inc", "apple computer corporation", "apple computer", "apple corps"]}},
+    {"company": "apple", "source_family": "corporate_print", "kind": "search",
+     "query_label": "CP apple corporate print by creator 1976-1995", "window": [1976, 1995],
+     "_note": "VERIFIED LIVE 2026-09-24 as a POSITIVE form: creator:(\"apple computer\") AND (title:(annual) OR title:(report)) AND mediatype:(texts) AND YEAR:[1976 TO 1995] returned numFound=5, Apple Computer, Inc.-authored corporate research print dated 1989 (identifiers micro_IA41155142_0546..0550).",
+     "params": {"company_terms": ["\"apple computer\"", "apple"], "scope_field": "creator", "report_terms": ["annual", "report", "reports"], "mediatype": "texts", "year_range": [1976, 1995], "rows": 20, "name_patterns": ["apple computer, inc", "apple computer inc", "apple computer", "apple corps"]}},
+    {"company": "apple", "source_family": "corporate_print", "kind": "metadata",
+     "query_label": "CP text availability apple 1989 corporate report", "window": [1976, 1995],
+     "_note": "identifier verbatim from the live creator-scoped search above; establishes whether a text layer exists before anyone claims the item is unread.",
+     "params": {"identifier": "micro_IA41155142_0546"}}
   ],
+  "_corporate_print_reference_exemplar": {
+    "_what_it_proves": "Family 5 is the family that REVERSED a depth verdict. The complete printed Wal-Mart Stores, Inc. annual-report run FY1972-FY1997 sits on Internet Archive with text layers, free; the probe that rated Walmart 'forensic-core' had asserted 'pre-IPO financials are UNDOCUMENTED at Tier 1' and 'annual-report text = paper, not EDGAR' without ever querying digitised books or bound corporate print. See founders_playbook/01_companies/company_002_walmart/research/B_periodical_retest.md.",
+    "reference_hit": {
+      "company": "walmart",
+      "verified_query": "(title:(walmart) OR title:(\"wal-mart stores\")) AND (title:(annual) OR title:(reports) OR title:(yearbook)) AND mediatype:(texts) AND YEAR:[1970 TO 1998]",
+      "verified_outcome": "HTTP 200, response.numFound=27, docs[] carrying identifier/title/date/year/mediatype/collection/creator (2026-09-24)",
+      "example_item": {"identifier": "1972-annual-report-for-walmart-stores-inc", "title": "1972 Annual Report For Walmart Stores Inc", "year": 1972, "mediatype": "texts", "text_layer": "1972-annual-report-for-walmart-stores-inc_djvu.txt", "direct_text_url": "https://ia601404.us.archive.org/11/items/1972-annual-report-for-walmart-stores-inc/1972-annual-report-for-walmart-stores-inc_djvu.txt", "direct_text_outcome": "HTTP 200, 23,989 bytes of OCR text (2026-09-24)"}
+    },
+    "field_verification": "title:/creator:/mediatype:/YEAR:[a TO b] clauses and fl[] return fields confirmed by live advancedsearch calls; server/dir/files[].name/metadata.{title,date,year} confirmed by a live archive.org/metadata/<id> call. NOTHING in this family uses an unverified parameter.",
+    "known_query_traps": [
+      "title:(\"wal-mart\") does NOT match an item titled 'Walmart Stores' — hyphen/quote tokenisation is unreliable, so always OR the hyphenless form.",
+      "Unscoped conjunctions (walmart AND \"annual report\" AND YEAR:[..]) return token noise (CIA reading-room documents, Compute! magazine). numFound>0 from such a query is NOT evidence — that is WR-17 of the Walmart retest.",
+      "archive.org/download/<id>/<file> 302s to a CDN whose TLS certificate is expired from this network; use the server+dir route recorded above."
+    ]
+  },
   "_deferred_examples": {
     "chronicling_america_ocr": {
       "company": "walmart", "source_family": "chronicling_america_ocr", "kind": "ocr",

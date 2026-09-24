@@ -21,9 +21,22 @@ bytes — see HARVEST_README.md for the verification record of each):
   chronicling_america   LoC page search  (OpenSearch params per official docs)
   chronicling_america_ocr  per-page ocr.txt text (documented link pattern)
   internet_archive      advancedsearch.php JSON + metadata/{id} + item text
+  corporate_print       digitised BOUND CORPORATE PRINT (annual / shareholder
+                        reports, 10-Ks, prospectuses, corporate research
+                        print) over the same Internet Archive metadata index:
+                        company terms + report-type terms + YEAR range, then
+                        identifier -> metadata -> *_djvu.txt availability ->
+                        direct-server text URL
   hathitrust            babel /cgi/ls/one q1 search (params read off the
                         site's own archived search form; HTML response)
   google_books          volumes query v1 (expected to rate-limit; handled)
+
+  The fifth family exists because it is the one that REVERSED a depth verdict:
+  the complete printed Wal-Mart Stores annual-report run FY1972-FY1997 sits
+  text-searchable on Internet Archive
+  (company_002_walmart/research/B_periodical_retest.md), and the probe that
+  rated Walmart forensic-core had never queried digitised books or bound
+  corporate print at all.  An unqueried family is UNANSWERED, never NULL.
 
 Run:  python periodical_harvest.py --config queries.json [--dry-run]
 Output: founders_playbook/00_universe/harvest/<source_family>/<sha1>.<ext>
@@ -231,6 +244,60 @@ def ia_search_url(qstr, rows):
 def ia_meta_url(identifier):
     return "https://archive.org/metadata/%s" % urllib.parse.quote(identifier)
 
+# --- family 5: digitised corporate print / annual reports (IA metadata index)
+# Every clause field below was confirmed by a LIVE advancedsearch call on
+# 2026-09-24 returning 200 + response.numFound + docs[] carrying exactly
+# identifier/title/date/year/mediatype/collection/creator
+# (creator and collection are LIST-valued).  Verified working example:
+#   (title:(walmart) OR title:("wal-mart stores")) AND (title:(annual) OR
+#   title:(reports) OR title:(yearbook)) AND mediatype:(texts)
+#   AND YEAR:[1970 TO 1998]        -> numFound 27, the FY1972-FY1997 AR run
+# NOT usable (tested live, returns token noise): the unscoped conjunction
+#   walmart AND "annual report" AND YEAR:[..]  -> hits are CIA reading-room
+#   documents and Compute! magazine.  Kept out of the shipped queries.
+CP_FL_FIELDS = ["identifier", "title", "date", "year", "mediatype",
+                "collection", "creator"]
+
+def cp_clause(terms, field):
+    return "(" + " OR ".join("%s:(%s)" % (field, t) for t in terms) + ")"
+
+def cp_search_url(params):
+    """Compose an Internet Archive metadata-search query from DATA.
+
+    scope_field / report_field are restricted to the two clause fields proven
+    live (title, creator); anything else raises rather than shipping an
+    invented parameter."""
+    for f in (params.get("scope_field", "title"),
+              params.get("report_field", "title")):
+        if f not in ("title", "creator"):
+            raise ValueError("unverified query field %r in task params; "
+                             "refusing to invent a parameter" % f)
+    parts = [cp_clause(params["company_terms"],
+                       params.get("scope_field", "title"))]
+    if params.get("report_terms"):
+        parts.append(cp_clause(params["report_terms"],
+                               params.get("report_field", "title")))
+    if params.get("mediatype"):
+        parts.append("mediatype:(%s)" % params["mediatype"])
+    yr = params.get("year_range")
+    if yr:
+        parts.append("YEAR:[%d TO %d]" % (int(yr[0]), int(yr[1])))
+    q = " AND ".join(parts)
+    return ("https://archive.org/advancedsearch.php?q=" +
+            urllib.parse.quote(q) +
+            "".join("&fl%5B%5D=" + f for f in CP_FL_FIELDS) +
+            "&rows=" + str(int(params.get("rows", 20))) +
+            "&page=1&output=json")
+
+def cp_text_url(server, directory, filename):
+    """Direct-server item text.  VERIFIED LIVE 2026-09-24: server+dir come
+    from archive.org/metadata/<id>; the built URL
+    https://ia601404.us.archive.org/11/items/<id>/<id>_djvu.txt returned
+    HTTP 200 / 23,989 B of the FY1972 Wal-Mart report.  The friendlier
+    archive.org/download/<id>/<file> route 302s to a CDN whose TLS cert is
+    expired in this environment (recorded as UNANSWERED, not a null)."""
+    return "https://%s%s/%s" % (server, directory.rstrip("/"), filename)
+
 def ht_search_url(term):
     # q1 / searchtype / target / ft read from the site's own GET search form
     # (archived 2019 /cgi/ls page). Response is HTML; parsed only by a
@@ -312,37 +379,188 @@ def parse_ca_ocr(company, query_label, body, status, note):
                 snippet="OCR %d bytes: %s" % (len(body), _clean(text, 150)),
                 status=200, cls="TIER1_CANDIDATE")]
 
-def parse_ia_search(company, query_label, body, status, note, window=None):
+def parse_ia_search(company, query_label, body, status, note, window=None,
+                    family="internet_archive", gate=None):
     if status != 200:
-        return [unanswered_or_error(company, "internet_archive",
-                                    query_label, status, note)]
+        return [unanswered_or_error(company, family, query_label, status, note)]
     try:
         j = json.loads(body.decode("utf-8", "replace"))
         resp = j["response"]
     except Exception as e:
-        return [unanswered_or_error(company, "internet_archive",
-                                    query_label, status, "unparseable: %s" % e)]
+        return [unanswered_or_error(company, family, query_label, status,
+                                    "unparseable: %s" % e)]
     docs = resp.get("docs") or []
     if resp.get("numFound") == 0:
-        return [row(company, "internet_archive", query_label,
-                    snippet="EMPTY (proven null): numFound=0",
+        return [row(company, family, query_label,
+                    snippet=("EMPTY (proven null): numFound=0"
+                             if family == "internet_archive" else
+                             "EMPTY (proven null): numFound=0 FOR THESE EXACT "
+                             "PARAMS ONLY — per-param, never per-corpus; the "
+                             "family stays open until digitised corporate "
+                             "print is searched on other indexes too"),
                     status=200, cls="NULL")]
     rows = []
     for d in docs:
         date = (d.get("date") or str(d.get("year") or ""))[:10]
         cls = "LEAD_ONLY"   # metadata pointer, text not yet opened
+        gate_rejected = False
         if window and date[:4].isdigit():
             y = int(date[:4])
             if window[0] <= y <= window[1] and d.get("mediatype") == "texts":
-                cls = "TIER1_CANDIDATE"
-        rows.append(row(company, "internet_archive", query_label,
+                # gate: a numFound>0 is not evidence (Walmart retest WR-17 —
+                # title:(fortune) returned 213 books, zero magazines). Corporate
+                # print requires the item's own metadata to corroborate.
+                if gate is None or gate(d):
+                    cls = "TIER1_CANDIDATE"
+                else:
+                    gate_rejected = True
+        fields = [d.get("mediatype"), d.get("collection")]
+        if family == "corporate_print":
+            fields.append(d.get("creator"))
+        snip = _clean(", ".join(map(str, fields)), 120)
+        if gate_rejected:
+            snip += (" | GATE-REJECTED from Tier-1: in-window text item, but "
+                     "its own title/creator do not carry a configured "
+                     "corporate name + report-type term (WR-17 "
+                     "false-positive rule). Chase as a lead only.")
+        rows.append(row(company, family, query_label,
                         item_id=d.get("identifier", ""),
                         title=_clean(d.get("title"), 120), date=date,
                         url="https://archive.org/details/" + d.get("identifier", ""),
-                        snippet=_clean(", ".join(map(str,
-                              [d.get("mediatype"), d.get("collection")])), 120),
-                        status=200, cls=cls))
+                        snippet=snip, status=200, cls=cls))
     return rows
+
+CP_IDENTITY_TOKENS = ["inc", "inc.", "incorporated", "corporation", "corp",
+                      "company", "co.", "ltd", "plc", "holdings", "group"]
+
+def _cp_word_rx(term):
+    """Whole-word match.  A plain substring match cost this tool 20 false
+    TIER1_CANDIDATE rows on the first Apple run: 'Appleton', 'pineapple' and
+    the surname 'Loyal E. Apple' all contain the substring 'apple'."""
+    return re.compile(r"(?<![\w&])" + re.escape(term) + r"(?![\w&])")
+
+def _cp_norm(t):
+    return re.sub(r"[\"']", "", str(t)).lower().strip()
+
+def _cp_gate(company_terms, report_terms, identity_terms=None,
+             name_patterns=None):
+    """Anti-false-positive gate for family 5 (the Walmart retest's WR-17 trap:
+    title:(fortune) returned 213 books and zero magazines).  A mediatype=texts
+    item dated in window is promoted to TIER1_CANDIDATE only when its OWN
+    title/creator metadata corroborates that it IS the company's print.
+
+    Two strengths, chosen by what the task configures:
+      * name_patterns given -> the metadata must contain one whole corporate
+        NAME (e.g. 'apple computer, inc') AND a report-type term.  Preferred:
+        precise, and it is what keeps a 1990 DTIC 'Ada Compiler Validation
+        Summary Report' mentioning an 'Apple Macintosh II' and produced by
+        'Meridian Software Systems, Inc.' out of the Tier-1 column.
+      * only company_terms given -> require company term + report term + a
+        corporate-identity token somewhere (looser backstop).
+    Either way a metadata hit is still only a CANDIDATE: the text has to be
+    opened before anything is cited.
+    """
+    if name_patterns:
+        comp = [_cp_word_rx(_cp_norm(t)) for t in name_patterns if _cp_norm(t)]
+        identity_terms = []
+    else:
+        comp = [_cp_word_rx(_cp_norm(t)) for t in company_terms if _cp_norm(t)]
+        if identity_terms is None:
+            identity_terms = CP_IDENTITY_TOKENS
+    reps = [_cp_word_rx(_cp_norm(t)) for t in (report_terms or []) if _cp_norm(t)]
+    ident = [_cp_word_rx(_cp_norm(t)) for t in identity_terms if _cp_norm(t)]
+    def gate(doc):
+        hay = " ".join(_flat(doc.get("title")) + _flat(doc.get("creator")))
+        if not any(r.search(hay) for r in comp):
+            return False
+        if reps and not any(r.search(hay) for r in reps):
+            return False
+        if ident and not any(r.search(hay) for r in ident):
+            return False
+        return True
+    return gate
+
+def _flat(v):
+    """IA returns single strings or lists for the same field (collection and
+    creator observed list-valued live); normalise to a list of lowercase text."""
+    if v is None:
+        return []
+    if isinstance(v, (list, tuple)):
+        out = []
+        for x in v:
+            out.extend(_flat(x))
+        return out
+    if isinstance(v, dict):
+        out = []
+        for x in v.values():
+            out.extend(_flat(x))
+        return out
+    return [str(v).lower()]
+
+def parse_cp_search(company, query_label, body, status, note, window=None,
+                    task_params=None):
+    p = task_params or {}
+    return parse_ia_search(company, query_label, body, status, note,
+                           window=window, family="corporate_print",
+                           gate=_cp_gate(p.get("company_terms", []),
+                                         p.get("report_terms"),
+                                         p.get("identity_terms"),
+                                         p.get("name_patterns")))
+
+def parse_cp_meta(company, query_label, body, status, note, window=None):
+    """identifier -> text availability.  Fields read: identifier, server, dir,
+    files[].name, metadata.{title,date,year} — all confirmed present in a live
+    200 response on 2026-09-24.  Absent text layer is a scan-only LEAD, never
+    a null on the item's content."""
+    if status != 200:
+        return [unanswered_or_error(company, "corporate_print", query_label,
+                                    status, note)]
+    try:
+        j = json.loads(body.decode("utf-8", "replace"))
+    except Exception as e:
+        return [unanswered_or_error(company, "corporate_print", query_label,
+                                    status, "unparseable: %s" % e)]
+    md = j.get("metadata") or {}
+    ident = j.get("identifier") or md.get("identifier") or ""
+    server, directory = j.get("server") or "", j.get("dir") or ""
+    texts = [f.get("name", "") for f in (j.get("files") or [])
+             if str(f.get("name", "")).endswith(("_djvu.txt", ".ocr.txt",
+                                                 "_hocr.searchtext"))]
+    date = str(md.get("date") or md.get("year") or "")[:10]
+    in_window = bool(window and date[:4].isdigit()
+                     and window[0] <= int(date[:4]) <= window[1])
+    text_url = cp_text_url(server, directory, texts[0]) if (texts and server
+                                                            and directory) else ""
+    if texts and in_window:
+        cls = "TIER1_CANDIDATE"
+    else:
+        cls = "LEAD_ONLY"
+    return [row(company, "corporate_print", query_label, item_id=ident,
+                title=_clean(md.get("title"), 120), date=date,
+                url=text_url or "https://archive.org/details/" + ident,
+                snippet="%s | server=%s dir=%s | %s" % (
+                    "TEXT LAYER PRESENT" if texts else
+                    "NO TEXT LAYER (scan-only, NOT a null on content)",
+                    server or "?", directory or "?",
+                    ", ".join(texts) or "-"),
+                status=200, cls=cls)]
+
+def parse_cp_text(company, query_label, body, status, note, window=None,
+                  identifier=""):
+    """Raw item text pulled from the IA content server."""
+    if status != 200:
+        return [unanswered_or_error(company, "corporate_print", query_label,
+                                    status, note)]
+    if len(body) < 200:
+        return [row(company, "corporate_print", query_label,
+                    item_id=identifier,
+                    snippet="UNANSWERED: 200 but body only %d B (not a "
+                            "readable text layer)" % len(body),
+                    status=200, cls="UNANSWERED")]
+    head = _clean(body.decode("utf-8", "replace"), 150)
+    return [row(company, "corporate_print", query_label, item_id=identifier,
+                snippet="TIER-1 TEXT RETRIEVED %d B: %s" % (len(body), head),
+                status=200, cls="TIER1_CANDIDATE")]
 
 def parse_ia_meta(company, query_label, body, status, note):
     if status != 200:
@@ -429,6 +647,9 @@ PARSERS = {
     "chronicling_america.ocr": parse_ca_ocr,
     "internet_archive.search": parse_ia_search,
     "internet_archive.metadata": parse_ia_meta,
+    "corporate_print.search": parse_cp_search,
+    "corporate_print.metadata": parse_cp_meta,
+    "corporate_print.text": parse_cp_text,
     "hathitrust.search": parse_ht,
     "google_books.search": parse_gb,
 }
@@ -447,6 +668,22 @@ def planned_url(task):
         return ia_search_url(task["params"]["q"], task["params"].get("rows", 10))
     if k == "metadata" and task["source_family"] == "internet_archive":
         return ia_meta_url(task["params"]["identifier"])
+    if task["source_family"] == "corporate_print":
+        if k == "search":
+            return cp_search_url(task["params"])
+        if k == "metadata":
+            return ia_meta_url(task["params"]["identifier"])
+        if k == "text":
+            p = task["params"]
+            for f in ("server", "dir", "file"):
+                if not p.get(f):
+                    raise ValueError(
+                        "corporate_print text task %s needs %s (copy it "
+                        "verbatim from a live archive.org/metadata/<id> "
+                        "response; refusing to guess)"
+                        % (task.get("query_label"), f))
+            return cp_text_url(p["server"], p["dir"], p["file"])
+        raise ValueError("no endpoint mapping for corporate_print kind %r" % k)
     if task["source_family"] == "hathitrust":
         return ht_search_url(task["params"]["q1"])
     if task["source_family"] == "google_books":
@@ -455,8 +692,8 @@ def planned_url(task):
                      % task.get("query_label"))
 
 EXT_BY_SOURCE = {"chronicling_america": ".json", "chronicling_america_ocr": ".txt",
-                 "internet_archive": ".json", "hathitrust": ".html",
-                 "google_books": ".json"}
+                 "internet_archive": ".json", "corporate_print": ".json",
+                 "hathitrust": ".html", "google_books": ".json"}
 
 def run(config_path, out_root, max_requests, dry_run, delay, insecure,
         only_company=None):
@@ -474,27 +711,46 @@ def run(config_path, out_root, max_requests, dry_run, delay, insecure,
         for t in tasks:
             print("  [%s/%s] %s -> %s" % (t["company"], t["source_family"],
                                           t["query_label"], planned_url(t)))
+        by_fam, by_co = {}, {}
+        for t in tasks:
+            by_fam[t["source_family"]] = by_fam.get(t["source_family"], 0) + 1
+            by_co[t["company"]] = by_co.get(t["company"], 0) + 1
+        print("\nFamilies: %s" % by_fam)
+        print("Companies: %s" % by_co)
         print("Caps: max_requests=%d per_source=%s" % (max_requests, caps))
         return 0
 
     os.makedirs(out_root, exist_ok=True)
     archives = {}
     results = []
+    fam_stats = {}
+    def stat(fam):
+        return fam_stats.setdefault(fam, {"tasks": 0, "fetched": 0,
+                                          "cached": 0, "skipped": 0,
+                                          "statuses": {}, "rows": {},
+                                          "halted": 0})
     for t in tasks:
         fam = t["source_family"]
         label = t["query_label"]
         company = t["company"]
+        s = stat(fam)
+        s["tasks"] += 1
         cap = caps.get(fam, max_requests)
         if used_by_source.get(fam, 0) >= cap:
             results.append(row(company, fam, label,
                                snippet="SKIPPED: per-source cap %d reached" % cap,
                                cls="UNANSWERED"))
+            s["skipped"] += 1
+            s["rows"]["UNANSWERED"] = s["rows"].get("UNANSWERED", 0) + 1
             continue
         if http.halted_reason(planned_url(t)):
             results.append(row(company, fam, label,
                                snippet="SKIPPED: %s (host halted)"
                                        % http.halted_reason(planned_url(t)),
                                cls="UNANSWERED"))
+            s["skipped"] += 1
+            s["halted"] += 1
+            s["rows"]["UNANSWERED"] = s["rows"].get("UNANSWERED", 0) + 1
             continue
         url = planned_url(t)
         if fam not in archives:
@@ -507,6 +763,7 @@ def run(config_path, out_root, max_requests, dry_run, delay, insecure,
             body = cached_body
             note = ""
             used = 0
+            s["cached"] += 1
         else:
             log("FETCH  %s / %s" % (fam, label))
             status, headers, body, note = http.fetch(url, max_requests -
@@ -516,26 +773,56 @@ def run(config_path, out_root, max_requests, dry_run, delay, insecure,
                                    snippet="SKIPPED: global max-requests cap "
                                            "%d reached" % max_requests,
                                    cls="UNANSWERED"))
+                s["skipped"] += 1
+                s["rows"]["UNANSWERED"] = s["rows"].get("UNANSWERED", 0) + 1
                 continue
+            s["fetched"] += 1
             ext = EXT_BY_SOURCE.get(fam, ".bin")
+            if t["kind"] == "text":
+                ext = ".txt"      # item full text, saved verbatim
             saved = ar.save(url, body, status, headers,
                             {"source": fam, "query_label": label,
                              "company": company, "kind": t["kind"]}, ext)
             note = (note + " " if note else "") + "saved:%s/%s" % (fam, saved)
             used = 1
+        s["statuses"][str(status)] = s["statuses"].get(str(status), 0) + 1
         used_by_source[fam] = used_by_source.get(fam, 0) + used
         parser = PARSERS["%s.%s" % (fam, t["kind"])]
         kw = {}
-        if t["kind"] == "search" and fam == "internet_archive":
+        if fam == "corporate_print":
+            kw["window"] = t.get("window")
+            if t["kind"] == "search":
+                kw["task_params"] = t["params"]
+            if t["kind"] == "text":
+                kw["identifier"] = t["params"].get("identifier", "")
+        elif t["kind"] == "search" and fam == "internet_archive":
             kw["window"] = t.get("window")
         if parser is parse_ia_search:
             rows = parse_ia_search(company, label, body, status, note, **kw)
         else:
-            rows = parser(company, label, body, status, note)
+            rows = parser(company, label, body, status, note, **kw)
+        for r in rows:
+            s["rows"][r["classification"]] = s["rows"].get(
+                r["classification"], 0) + 1
         results.extend(rows)
 
     write_candidates(out_root, results)
     write_manifest(out_root)
+    print("\nPER-FAMILY OUTCOMES (this run):")
+    for fam in sorted(fam_stats):
+        s = fam_stats[fam]
+        print("  %-22s tasks=%-3d fetched=%-3d cached=%-3d skipped=%-3d "
+              "http=%s rows=%s"
+              % (fam, s["tasks"], s["fetched"], s["cached"], s["skipped"],
+                 s["statuses"] or "-", s["rows"] or "-"))
+        if s["halted"]:
+            print("  %-22s ^ %d task(s) never attempted: HOST HALTED"
+                  % ("", s["halted"]))
+    not_queried = [f for f in fam_stats
+                   if fam_stats[f]["fetched"] == 0 and fam_stats[f]["cached"] == 0]
+    if not_queried:
+        print("  UNQUERIED THIS RUN (recorded UNANSWERED, NOT null): %s"
+              % ", ".join(sorted(not_queried)))
     print("\nDONE. network requests: %d / cap %d" % (http.requests_made,
                                                      max_requests))
     by_cls = {}

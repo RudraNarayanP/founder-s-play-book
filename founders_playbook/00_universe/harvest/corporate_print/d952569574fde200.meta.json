@@ -1,0 +1,12 @@
+{
+ "url": "https://archive.org/metadata/micro_IA41155142_0546",
+ "http_status": 200,
+ "content_type": "application/json",
+ "bytes": 14848,
+ "retrieved_at": "2026-09-24T10:23:10Z",
+ "ext": ".json",
+ "source": "corporate_print",
+ "query_label": "CP text availability apple 1989 corporate report",
+ "company": "apple",
+ "kind": "metadata"
+}

@@ -1,0 +1,12 @@
+{
+ "url": "https://chroniclingamerica.loc.gov/search/pages/results/?format=json&andtext=%22Burdic%22&date1=1971&date2=1980&dateFilterType=yearRange&state=minnesota",
+ "http_status": 403,
+ "content_type": "text/html; charset=UTF-8",
+ "bytes": 6309,
+ "retrieved_at": "2026-09-24T10:23:00Z",
+ "ext": ".json",
+ "source": "chronicling_america",
+ "query_label": "CA burdic minnesota",
+ "company": "unitedhealth",
+ "kind": "search"
+}

@@ -1,0 +1,58 @@
+[2026-09-24T10:22:54Z] CACHE  chronicling_america / CA waltons 1945-1965
+[2026-09-24T10:22:54Z] CACHE  chronicling_america / CA waltons newport mo
+[2026-09-24T10:22:54Z] CACHE  chronicling_america / CA waltons marshall tx
+[2026-09-24T10:22:54Z] CACHE  chronicling_america / CA waltons tulsa ok
+[2026-09-24T10:22:54Z] CACHE  chronicling_america / CA waltons bentonville ar
+[2026-09-24T10:22:54Z] CACHE  chronicling_america / CA five-and-dime 1945-1965
+[2026-09-24T10:22:54Z] CACHE  chronicling_america / CA $1.25 store
+[2026-09-24T10:22:54Z] CACHE  internet_archive / IA walton five-and-dime
+[2026-09-24T10:22:54Z] CACHE  internet_archive / IA waltons store 1945-1965
+[2026-09-24T10:22:54Z] CACHE  internet_archive / IA walton retail trade press 1945-1965
+[2026-09-24T10:22:54Z] CACHE  internet_archive / IA $1.25 store
+[2026-09-24T10:22:54Z] CACHE  hathitrust / HT waltons five-and-dime
+[2026-09-24T10:22:54Z] CACHE  google_books / GB waltons five-and-dime
+[2026-09-24T10:22:54Z] FETCH  corporate_print / CP walmart annual-report run 1970-1998 (EXEMPLAR)
+[2026-09-24T10:22:55Z] FETCH  corporate_print / CP walmart pre-FY1972 corporate print 1962-1971
+[2026-09-24T10:22:57Z] FETCH  corporate_print / CP text availability FY1972 AR
+[2026-09-24T10:22:59Z] FETCH  corporate_print / CP FY1972 AR full text (direct server)
+[2026-09-24T10:23:00Z] CACHE  chronicling_america / CA charter med 1971-1980
+[2026-09-24T10:23:00Z] CACHE  chronicling_america / CA metropolitan health plans
+[2026-09-24T10:23:00Z] CACHE  chronicling_america / CA unitedhealthcare
+[2026-09-24T10:23:00Z] FETCH  chronicling_america / CA burdic minnesota
+[2026-09-24T10:23:00Z] CACHE  internet_archive / IA charter med 1971-1980
+[2026-09-24T10:23:00Z] CACHE  internet_archive / IA metropolitan health plans
+[2026-09-24T10:23:00Z] CACHE  internet_archive / IA unitedhealthcare
+[2026-09-24T10:23:00Z] CACHE  internet_archive / IA burdic
+[2026-09-24T10:23:00Z] CACHE  hathitrust / HT charter med
+[2026-09-24T10:23:00Z] CACHE  google_books / GB metropolitan health plans
+[2026-09-24T10:23:00Z] FETCH  corporate_print / CP unitedhealth annual reports 1977-1995
+[2026-09-24T10:23:01Z] FETCH  corporate_print / CP unitedhealth corporate-print by creator 1971-1995
+[2026-09-24T10:23:04Z] FETCH  corporate_print / CP apple annual/shareholder reports 1976-1995
+[2026-09-24T10:23:05Z] FETCH  corporate_print / CP apple corporate print by creator 1976-1995
+[2026-09-24T10:23:07Z] FETCH  corporate_print / CP text availability apple 1989 corporate report
+[2026-09-24T10:23:10Z] wrote E:\founder's playbook\founders_playbook\00_universe\harvest\candidates.csv (111 rows)
+[2026-09-24T10:23:10Z] wrote manifest (32 files)
+
+PER-FAMILY OUTCOMES (this run):
+  chronicling_america    tasks=11  fetched=1   cached=10  skipped=0   http={'403': 11} rows={'UNANSWERED': 11}
+  corporate_print        tasks=9   fetched=9   cached=0   skipped=0   http={'200': 9} rows={'TIER1_CANDIDATE': 59, 'NULL': 3}
+  google_books           tasks=2   fetched=0   cached=2   skipped=0   http={'429': 2} rows={'UNANSWERED': 2}
+  hathitrust             tasks=2   fetched=0   cached=2   skipped=0   http={'0': 2} rows={'UNANSWERED': 2}
+  internet_archive       tasks=8   fetched=0   cached=8   skipped=0   http={'200': 8} rows={'LEAD_ONLY': 28, 'NULL': 5, 'TIER1_CANDIDATE': 1}
+
+DONE. network requests: 10 / cap 25
+candidate rows: 111  {'UNANSWERED': 15, 'LEAD_ONLY': 28, 'NULL': 8, 'TIER1_CANDIDATE': 60}
+[2026-09-24T10:33:13Z] CACHE  corporate_print / CP apple corporate print by creator 1976-1995
+[2026-09-24T10:33:13Z] CACHE  corporate_print / CP text availability apple 1989 corporate report
+[2026-09-24T10:33:13Z] wrote E:\founder's playbook\founders_playbook\00_universe\harvest\candidates.csv (135 rows)
+[2026-09-24T10:33:13Z] wrote manifest (32 files)
+
+PER-FAMILY OUTCOMES (this run):
+  chronicling_america    tasks=11  fetched=0   cached=11  skipped=0   http={'403': 11} rows={'UNANSWERED': 11}
+  corporate_print        tasks=9   fetched=0   cached=9   skipped=0   http={'200': 9} rows={'TIER1_CANDIDATE': 35, 'NULL': 3, 'LEAD_ONLY': 24}
+  google_books           tasks=2   fetched=0   cached=2   skipped=0   http={'429': 2} rows={'UNANSWERED': 2}
+  hathitrust             tasks=2   fetched=0   cached=2   skipped=0   http={'0': 2} rows={'UNANSWERED': 2}
+  internet_archive       tasks=8   fetched=0   cached=8   skipped=0   http={'200': 8} rows={'LEAD_ONLY': 28, 'NULL': 5, 'TIER1_CANDIDATE': 1}
+
+DONE. network requests: 0 / cap 25
+candidate rows: 111  {'UNANSWERED': 15, 'LEAD_ONLY': 52, 'NULL': 8, 'TIER1_CANDIDATE': 36}
