@@ -10,6 +10,11 @@ emitted with these corrections applied. Reverting one is a defect, and a claim w
 is a document that must be relabeled to a version that does not contain it is downgraded to
 `UNKNOWN` until re-verified — not quietly kept.**
 
+**Superseded entries are marked where they stand, not only where they were retired.** One correction in
+this register has been fully superseded: **COR-03 is superseded by COR-12** (2026-09-23), and its Action
+line is withdrawn; a top-down reader must not apply it. Any other cross-reference in this file that says
+"see COR-03" is routed through that marker.
+
 ---
 
 ## COR-01 — the accession everyone cited is an amendment, not the S-1
@@ -54,7 +59,14 @@ products", `0.1717`, `2,200`, Seafirst, Wells Fargo, Ingram, `400,000`, `15,746`
 "interest-free" all appear in **every** version tested, so relabeling them changes nothing
 substantive.
 
-## COR-03 — the employee count is a January figure, not a December one
+## COR-03 [SUPERSEDED BY COR-12, 2026-09-23] — the employee count is a January figure, not a December one
+
+> **[SUPERSEDED IN FULL BY COR-12, 2026-09-23 — do not apply this correction.]** COR-12 re-read the
+> employee sentences in all three filing versions and established that "11 employees at 1995-12-31" **is**
+> filed, at that date, in S-1/A No. 3 and No. 5. Everything below is retained as the record of what was
+> believed when this entry was written; its Action line is withdrawn. Read COR-12 instead. Text below is
+> left standing because this register appends and never rewrites history — but a reader working the file
+> top-down meets this entry first, so the marker is here, in place, and not only 150 lines later.
 
 Verified wording (original S-1): *"…from January 1, 1996 to December 31, 1996, the Company
 expanded from **11 to 151 employees**"* and *"As of December 31, 1996, the Company employed 151
@@ -63,10 +75,14 @@ full-time employees."*
 So "11 employees" is the filing's **1996-01-01** figure, and it is not styled "full-time" at that
 point. Dossiers render it as "11 employees at 1995-12-31".
 
-**Action:** section R and P state `11 employees (per the filing: at 1996-01-01)` and note the
+**Action [WITHDRAWN BY COR-12 — the rule below is inverted and must not be applied]:** section R and P state `11 employees (per the filing: at 1996-01-01)` and note the
 one-day difference is immaterial to the boundary but the phrasing is the filing's, not ours. The
 `151` figure is **post-Stage-1** and belongs only in the consequence column, never in the Stage-1
 snapshot.
+
+**Action as it now stands (COR-12):** §R and §P state **11 employees at 1995-12-31**, cited to S-1/A No. 3
+and No. 5; the original S-1's 1996-01-01 phrasing is the same instrument's first state and is recorded as
+version evidence on that count, never as a second confirmation (method §3 filing-lineage rule).
 
 ## COR-04 — the "lost screenshots" were never images; and their captions are 1997
 
@@ -191,7 +207,8 @@ and COR-10 were appended in the same session.)
 2. **151 vs 158 employees** — two figures circulate for 1996-12-31. The original S-1 reads "from 11
    to 151 employees" and "151 full-time employees"; any 158 is from a different document or date and
    must carry its own citation or be dropped from the Stage-1 report entirely (both are
-   post-boundary anyway; see COR-03).
+   post-boundary anyway; see COR-03 — **which is SUPERSEDED BY COR-12: apply COR-12, which keeps the
+   post-boundary ruling on 151/158/256 but files the "11" at 1995-12-31**).
 3. **HistoryLink essay 23230 is tiered and dated inconsistently** across dossiers C, D, F and J.
    It is a **2025-04-07 secondary essay** citing its own sources: tier 2 at best, and any Stage-1
    fact resting on it alone is Medium confidence at most, or is chased to its footnote.
@@ -239,10 +256,23 @@ that exact count at 1995-12-31, and both statements are consistent — 11 is the
 1995/1996 turn in every version.
 
 **Corrected rule:** the Stage-1 end snapshot may state **11 employees at 1995-12-31**, cited to S-1/A
-No. 3/No. 5. The original S-1's 1996-01-01 phrasing should be *added* as corroboration, not substituted.
+No. 3/No. 5. The original S-1's 1996-01-01 phrasing is *added*, not substituted.
 The endpoint argument gets stronger, not weaker: the year-end count is now filed on its own date.
 **151** (Dec 31, 1996, original) and **256** (Mar 31, 1997, amendments) remain post-boundary and are
 different dates — they are not in conflict with each other and must not be reconciled to one number.
+
+> **[ADDED 2026-09-24 — this entry's own wording is corrected, its ruling is not.]** The sentence this
+> entry originally carried read: "The original S-1's 1996-01-01 phrasing should be *added* **as
+> corroboration**, not substituted." **That instruction is withdrawn and replaced.** It is the standing
+> cause of the same-lineage double count that AUDIT 5 raised as A-B1 and that AUDIT 6 confirmed still
+> landing: five downstream sites wrote "independent corroboration" because this register told them to.
+> Under `00_METHOD_AND_STYLE.md` §3 (filing-lineage rule), the original S-1, S-1/A No. 3, S-1/A No. 5, the
+> 424B1 and the exhibits to those accessions are **one instrument** (`sources.csv` S0801–S0804): the
+> original's 1996-01-01 phrasing is therefore added as **VERSION EVIDENCE — the first state of the same
+> registration statement — and counts as neither a second corroboration nor a second source.** What the
+> count rests on is unchanged: S-1/A No. 3 and No. 5 file the 11 at 1995-12-31, and the independence that
+> does exist for the population is elsewhere (a release, a periodical, or a differently-originated
+> document), never inside this lineage.
 
 ## COR-13 — what the 1995-10-04 press release actually says
 

@@ -2,7 +2,39 @@
 
 Generated 2026-09-23, while Amazon Stage 1 was in its final repair passes.
 
-## 0. STOPPING POINT — session ended 2026-09-23, machine powering down
+## 0. STOPPING POINT — 2026-09-24 ~13:50 UTC (supersedes the 09-23 block below, kept as history)
+
+Run `git log --oneline -6` for the exact last state; everything named here is committed and pushed.
+
+| Gate | State now |
+|---|---|
+| Amazon Stage 1 | **QA — REOPENED.** AUDIT 6 (independent verifier, `03_quality_control/audit6_stage1_independent_qa.md`) = CONFIRMED 7 / DEFECT 6. All stored arithmetic held (43 U blocks ↔ 43 conflicts rows, 428 rows parsing clean, 29/29 `derived_arithmetic`, 32/32 §P.2 recomputations); the gate still failed because four *closure assertions* were false and one adversarial attack (A-B1) still lands. Repair in flight (`audit6_repairs.md`); **a third agent must re-certify — not the repairer, not the verifier** |
+| Amazon Stage 2 | **RECONSTRUCTION.** Parts on disk: `s2_p1` 10,545 w (boundary + §A–D), `s2_p2` 14,810 w (§E–J), `s2_p3` 5,668 w (§K–O, thin — RD-043), `s2_p4` **incomplete** (§P only; §P.2/§Q–§U from U.44 + CSV append blocks in flight). Window is frozen: **1996-01-01 → 1997-05-15** |
+| Walmart Stage 1 | `A2_chronology_finance.md` at **133 records / 38k w** after a double-dispatch collision (renumbered under a collision note). Boundary proposal: start 1945 *registrant-retrospective*, end **1970-10-08**. Verdict stays **provisional exemplar-gated**: corporate print positive, periodicals **UNANSWERED (not null)**. COR-A2-10 found the IA corporate_print run contiguous **FY1972→FY1998** → FY1974/75/77/78/79 retrievable as primaries; retrieval in flight (several "audited" years are currently later restatements — RD-044) |
+| Apple Stage 1 | `A2_periodical_archive_mine.md` **80 records / 29k w, 0 web calls**, four registers built (`quantitative` 30 / `timeline` 23 / `sources` 13 / `conflicts` 13, headers verified byte-identical to the §13-conformant Amazon registers). Its 13 outbound corrections are being applied as supersession (RD-046); `C_corporate_legal_org.md` and `D_adversarial.md` in flight |
+| Off-machine compute | **Not yet real.** `.github/workflows/harvest.yml` is registered `active` on the default branch but has run **zero** times: it was pushed at 12:16 UTC and its cron is 06:17 UTC, so it simply has not fired yet. `workflow_dispatch` is the way to force it — needs a GitHub token, which is deliberately NOT stored in this repo. QCA sessions are still blocked on HTTP 402 (no account credit); see `CLOUD_LAUNCH.md` §8 |
+
+**In flight right now (six agents, disjoint paths by construction):**
+Stage-1 repairs (`s1-repair`) · Stage-2 `_parts/s2_p4.md` completion (`s2-p4b`) · Walmart FY1974-79 IA
+retrieval (`wm-ia`) · Apple probe supersession (`apple-sup`) · Apple `C_corporate_legal_org.md` (`apple-C`)
+· Apple `D_adversarial.md` (`apple-D`).
+**Do not relaunch any of these until they have reported** — this wave already paid for a double-dispatch
+collision (method §14.7).
+
+**Next five actions, in order:**
+1. When `s2_p4` lands: merge `s2_p1..p4` → `stage_2.md` (mirror Stage 1's geometry, 60k-word cap per file,
+   split at section boundaries only), then dispatch the Stage-2 claim-record registrar.
+2. Apply `s2_p4`'s `>>> CSV APPEND BLOCK` sections to the nine registers — conflicts rows must key 1:1 to
+   U.44…U.nn, because 43-block/43-row parity is a verified Stage-1 invariant.
+3. Re-certify Stage 1 with a **third** agent against `audit6_repairs.md` (the repairer may not sign its own
+   work; the AUDIT 6 verifier may not either, since it changed nothing but asserted nothing fixed).
+4. Once the Walmart FY1974/75/77/78/79 texts are on disk: re-run the audited-series section against
+   contemporaneous reports, and re-derive the depth verdict on five corpus families, not three.
+5. Trigger the nightly harvester once (or wait for 06:17 UTC) so the UNANSWERED periodical families get a
+   first real attempt — that single change gates the depth verdict of every pre-1994 company in the universe.
+
+## 0-hist. STOPPING POINT — session ended 2026-09-23, machine powering down (superseded, retained as the audit trail of what was decided then)
+
 
 Everything below is committed and pushed to `main` on
 `github.com/RudraNarayanP/founder-s-play-book`; run `git log --oneline -5` for the exact last state.
