@@ -338,3 +338,12 @@ U.13 Claim: WHY SEATTLE — AND WHETHER THERE WAS A PLAN AT ALL. CLAIM A: Bezos 
 4. De-duplication: where two or more dossiers carried one fact from one document, a single record is emitted with the combined traces, e.g. `[src: D-19; J-42]`. Repeated retellings of a single story — the road trip, the twenty categories, the 22-investor round, the "everything store" — are recorded as ONE lineage with the non-independence stated in the Conflicts field, per §3.
 5. Compression convention actually applied: per-document URL, tier, class and restoration status are stated once per document in section T and cited by number elsewhere; the record fields named in the brief (Claim, Date, Source, Source date, Passage, Conf, Conflicts) are present in every record, and dossier G's divergent T1-T5 tier scale was left as its author wrote it rather than silently restated.
 
+
+---
+SUPERSEDED NOTE 2026-09-24 (residual_sweep2). This is an intermediate working volume and is left
+unaltered as the merge audit trail. Two rows above are now superseded in the deliverables:
+**K14** — the ~41% principal-holder figure is attributed to **S-1/A No. 5** (l.1055-1062, l.3149);
+the original S-1 states **43%** (l.985-988, l.2919). The two are a version discrepancy, not an
+average. **P09** — the unnamed residual `~976,432` is superseded by **~$976,000 (band, +/-$1,000)**;
+see stage_1.md P.2 and stage_1_claim_records.md (marked records). The named-component arithmetic
+(100,020 + 145,553 + 49,995 = 295,568) stands unchanged.

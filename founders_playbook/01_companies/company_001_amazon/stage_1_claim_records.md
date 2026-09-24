@@ -569,7 +569,11 @@ U.39's subject — so `Conflicts: U.39` now stands on G04 and G11, and this orig
 rather than erased. Net unmapped references: **0**. KU's U.1–U.13 were already canonical and are unchanged; the
 superseded 46-item key and both part-level merge/coverage notes are not reproduced here.
 
-**Records carrying a visible correction: 75.** COR-01 accession relabels 10, COR-02 original-only
+**Records carrying a visible correction: 75** as merged below, **77 after 2026-09-24** (K14 and P09 were marked by the
+Level-3 residual register sweep 2 for the 41%-accession and $976,432-rendering corrections; the per-family
+sub-counts enumerated below are the merge's and were **not** re-derived, and the "sixty-two records still read
+'Form S-1' with Source date 1997-05-14" tally is unchanged on its own counting basis, K14 having moved into
+the marked set). COR-01 accession relabels 10, COR-02 original-only
 citations 8 (plus the Cadabra null and the amendment-ordinal notes), 10-K405 form relabels 13,
 COR-11.4 release datings 17, COR-12 employee basis 6 (the 5 records formerly marked COR-03 — L04, P12,
 Q15, R04, U.10 — re-marked as a supersession whose history stays visible, plus B50's narrowed clause,

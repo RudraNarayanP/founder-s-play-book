@@ -244,7 +244,7 @@ than remembered:
   ($15K + $29K), repaid during 1995 → **zero debt at 1995-12-31**.
 - **11 employees, $81,000 gross equipment, ~$17,000 inventory at 1995-12-31** (risk factors + notes).
 - **Untraceable to primary evidence, so section K/O must say so:** the "$1.1M from 22 friends and
-  family at $50,000 each" structure, the ~$5M/20% valuation, the identity of the residual ~$976,432
+  family at $50,000 each" structure, the ~$5M/20% valuation, the identity of the residual ~$976,000 (band, +/-$1,000)
   of purchasers, Kleiner Perkins's post-money valuation, Bezos's 1994–95 salary, the merchant-account
   guarantee amounts, distributor discount and payable terms, and every weekly/monthly sales curve.
 

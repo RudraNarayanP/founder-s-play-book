@@ -98,3 +98,8 @@ Legend for the three id columns: `-` = the part did not carry this conflict.
    S-1 page image described as "recovery pending", "unrecovered" or "dropped in ASCII conversion" (COR-04).
 4. Renumbering to make a part look self-contained is prohibited (method §9.3). Numbering continues across
    parts; ids are permanent.
+
+---
+SUPERSEDED NOTE 2026-09-24: U.29's ownership basis is now version-attributed — 43% original S-1
+(l.985-988, l.2919) versus 41% S-1/A No. 5 (l.1055-1062, l.3149); the 1,700,000-share instrument
+figure and the 10,200,000 restated-basis figure are both filed and are not in conflict.

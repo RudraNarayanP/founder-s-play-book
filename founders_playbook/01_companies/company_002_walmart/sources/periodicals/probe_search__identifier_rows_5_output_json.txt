@@ -1,0 +1,1 @@
+{"responseHeader":{"status":0,"QTime":50,"params":{"query":"(text:&quot;Wal-Mart&quot; OR text:&quot;Wal-Mart&quot; OR text__reviews:&quot;Wal-Mart&quot;) AND year:1962","qin":"&quot;Wal-Mart&quot; AND year:1962","fields":"identifier","wt":"json","rows":5,"start":0}},"response":{"numFound":0,"start":0,"docs":[]}}

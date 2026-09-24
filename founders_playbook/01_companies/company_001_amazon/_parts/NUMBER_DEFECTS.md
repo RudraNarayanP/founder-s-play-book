@@ -76,3 +76,24 @@ register is the audit trail of how the numbers got here and stays as found.**
   S-1 acc. 0000891618-97-001309, l.985–988 / l.2919; 41% = S-1/A No. 5 acc. 0000891020-97-000839, l.1055–1062 /
   l.3149), to be kept visible per number_repairs2 item 6, never averaged or merged.
 - Sweep log: `03_quality_control/amazon_s1_residual_sweep.md`.
+
+**SUPERSESSION MARKERS — Level-3 register sweep ROUND 2, appended 2026-09-24. Again, nothing above was rewritten.**
+
+- **Rows 27–28 and 43 — status: propagated beyond `quantitative.csv`/`stage_1.md` §P.** The copies the first two
+  passes could not reach are now closed: `stage_1.md` **§K "Reconciliation of the two totals"** prints the composition
+  at **$976,408** (band-level, retraction of the $871,024 leg shown in the row) instead of "= $976,432"; and
+  `stage_1_claim_records.md` **P09** renders the residual as **≈$976,000 (±$1,000)** with a correction marker carrying
+  the $976,432 arithmetic, the $976,408 composition and the retraction.
+- **Row 28's §B/§A sibling** — `stage_1.md` **l.184 §B.1 "Personal capital and ownership"** no longer prints the
+  unattributed **"post-IPO ~41–43%"**: 43% is now attributed to the original S-1 (l.985–988) and 41% to S-1/A No. 5
+  (l.1055–1062) in the row itself, per row 28's version rule and `conflicts.csv` r30. `stage_1_claim_records.md` **K14**
+  carries the equivalent accession marker; its quoted 41% passage stands verbatim as the source's words.
+- **Historical volumes marked, not rewritten** — `_parts/s1_p1.md` (l.52 range, l.70 composition), `_parts/s1_p3.md`
+  (l.24), `_parts/s1_p4.md` (l.46, l.98, l.176, l.203) and `research/E_supply_ops_finance.md` (l.25 E-59 accession
+  label; l.75, l.261, l.324 composition and the withdrawn option-cash clause) each received an appended
+  `SUPERSEDED 2026-09-24` footer naming the site, the corrected value and where it lives. Their text above the footer
+  is unchanged.
+- **Still open, outside this sweep's write scope** — `_parts/s1_claims_KU.md` l.37 and `_parts/U_CONCORDANCE.md` l.60
+  (the 41% without its accession) and `MASTER_RESEARCH_LOG.md` l.247. Reported for their owners; not edited here. The
+  `stage_1_claim_records.md` coverage-note tally was raised in place to **77** with its sub-counts left un-rederived.
+- Sweep log: `03_quality_control/amazon_s1_residual_sweep2.md`.
