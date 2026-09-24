@@ -336,5 +336,16 @@ lost. Three standing rules:
 5. **Never report a write as complete without naming the file.** A specialist's final summary must
    state the output path and the record count actually on disk, verified by reading it back. Three
    wave-1 agents described finished research and had written nothing.
+6. **A depth verdict requires four corpus families, not two.** Established by comparing Amazon, Walmart
+   and Apple: **EDGAR reaches essentially nothing before ~1994 and web archives nothing before the
+   mid-1990s** — but digitised **periodicals** (Internet Archive magazine collections, HathiTrust,
+   Google Books, trade-journal and local-newspaper back files) carry 1950s–1980s contemporaneous text,
+   which is Tier-1 evidence for precisely the period those two families miss. A probe may not conclude
+   forensic-core or lean until it has searched all four: **filings, web archives, periodical corpora, and
+   auction or museum documentary sale records.** Walmart was judged on two families; Apple, searched with
+   periodicals, came back exemplar-capable with 20+ in-window Tier-1 records and surviving founding
+   documents at auction. Report which families returned nothing **and which were never tried** — a null
+   from one family is not a null, and an untried family is not a null either.
+
 
 

@@ -40,7 +40,7 @@ Evidence lines are `sources/S-1_original_acc-0000891618-97-001309_filed-1997-03-
 | `quantitative.csv` | r70 (line 70) | metric + notes | "Increase in accounts payable and accrued **liabilities** … Exact filed line label not re-verified in this register; carried at Medium" | "… accrued **expenses**" and close the hedge: the line is verified in both versions, 1995 = 83; confidence may stay Medium on the register's own convention | orig. cash flow l.3632–3633; A5 l.3919–3920 | LOW |
 | `stage_1.md` | row **P32** ("Advertising expense (Note 1) 30,000"; line 815 as read 2026-09-23) | metric wording | "Advertising expense" | "Advertising expense **incurred**" — the filing's word is incurred, which is not the same assertion as expensed | orig. Note 1 l.3734–3736 "the Company incurred advertising expense of $30,000" | LOW |
 | `stage_1.md` | §P.2 d3 (line 855) | derived arithmetic wording | "5 Jul → 31 Dec 1994 = 26+31+30+31+30+31 = 179 days" | keep 179 but state the convention (excludes 5 July; inclusive count = 180); immaterial to the no-annualisation point, which stands either way | orig. l.343–346 caption; "incorporated on July 5, 1994" l.3672 | LOW |
-| `stage_1.md` | §P.2 d6/d9/d11/d17/d18/d19 (lines 856–865) | rendered precision | `+94.1%`, `19.96%`, `$0.595`, `3.33%`, `$46,455`, `0.161%` | one decimal / rounded where inputs are filed in thousands (19.96 → ≈20.0 and quote the MD&A's "approximately 20%"; 3.33 → ≈3.3; $46,455 → ≈$46,000/person; note that on the filing's exact ⅓ price the Feb→Dec step-up is +95.2%, not +94.1%) | orig. MD&A l.1435, l.1445–1446; Note 1 l.3722; Note 2 l.3803 | LOW |
+| `stage_1.md` | §P.2 d6/d9/d11/d17/d18/d19 (lines 856–865) | rendered precision | `+94.1%`, `19.96%`, `$0.595`, `3.33%`, `$46,455`, `0.161%` | one decimal / rounded where inputs are filed in thousands (19.96 → ≈20.0 and quote the MD&A's "approximately 20%"; 3.33 → ≈3.3; $46,455 → ≈$46,000/person; note that on the filing's exact ⅓ price the Feb→Dec step-up is +95.2%, not +94.1%) — **SUPERSEDED 2026-09-24 by number_repairs2: value corrected to +94.1%.** This clause is the origin of the false +95.2%: the step-up computes to 94.118 on the displayed prices and 94.137 on the filing's exact ⅓ (0.02 points apart, not 1.1), and +95.2% requires a February price of $0.1708, which is filed nowhere (orig. l.2864 files $0.1717). The clause is kept verbatim above because this register is the audit trail of how the number arrived; do not import it | orig. MD&A l.1435, l.1445–1446; Note 1 l.3722; Note 2 l.3803 | LOW |
 | `stage_1.md` | §R "Founders" (line 947) | citation for a date | "Bezos, President and Chairman (**not CEO until May 1996**) … S-1 (orig.), Ex. 10.12 + Certain Transactions" | the title sequence must be cited to the **10-K405 Item 10 officer table** (10-K405 l.967 area; `sources.csv` S0805 already says "CEO only from May 1996"), because the S-1's own Certain Transactions sentence calls him "the President, Chief Executive Officer and Chairman" while describing the July 1994 purchase (orig. l.2847–2849) — the present-tense style is not a 1994 title claim | as above | LOW |
 | `quantitative.csv` | r4 (line 4) vs §P03 (line 785) | source / source_date asymmetry | CSV cites only "S-1/A No. 5 … 1997-05-14"; §P cites "S-1 (orig.)/S-1/A No. 5 … 1997-03-24" | both versions carry 10,200,000 (orig. l.2848 Certain Transactions and l.4280 Item 5; A5 l.3078, l.4642): cite both, and note that the original states it on a **giving-effect** basis for a 3-for-2 split "to be effected" (l.4276–4277), so the restated count is a 1997 presentation, not a 1994 one | as above | LOW |
 
@@ -56,3 +56,23 @@ retired/legend; every §P money row is nominal, thousands-correct, and net-sales
 (996 + 17 + 14 = 1,027; 1,027 + 57 = 1,084; 1,027 − 107 = 920; 1,075 + 150 − 248 = 977), the quarterly foot
 875 + 2,230 + 4,173 + 8,468 = 15,746, 3,021,000 × ⅓ = 1,007,000, 569,396 × $14.05 = $8,000,013.80 → $8,000,014,
 150,000 + 60,000 + 2,811,000 = 3,021,000, and 1,007,000 ÷ 23 = $43,782.61 → $43,783 all **PASS**.
+
+---
+
+**SUPERSESSION MARKERS — Level-3 register sweep, appended 2026-09-24. Nothing above this line was rewritten; this
+register is the audit trail of how the numbers got here and stays as found.**
+
+- **Row 43 (D29 rendered precision)** — the `+95.2%` clause in its `should_be` is the origin of the false step-up the
+  first repair pass imported. **SUPERSEDED 2026-09-24 by number_repairs2: value corrected to +94.1%** (94.118 on the
+  displayed prices / 94.137 on the filing's exact ⅓ — 0.02 points apart, not 1.1). Marker appended in the row itself.
+- **Rows 27–28 (D19/D15 family, the residual and its composition)** — the instructions remain valid and their
+  `should_be` leg reads **≈$871,000**, which is the canonical figure. **SUPERSEDED 2026-09-24 by number_repairs2 for
+  the executed output only:** the first repair pass rendered that leg as a six-figure balancing plug
+  (`1,272,000 − 295,568 − 5,408 − 150,000 + 50,000`), which was retracted — `2,613,000 × ($1,007,000 ÷ 3,021,000) =
+  2,613,000 ÷ 3 = $871,000` exactly, so the composition foots to **$976,408**, not to the $976,432 residual arithmetic,
+  and the $24 difference is accounted for (≈$19 filed-thousands rounding of the equity line + the ±$5 Alberg
+  convention at d7), not plugged.
+- **Rows naming 43% / 41%** — this register carries none; the 43%/41% pair is a **version discrepancy** (43% = original
+  S-1 acc. 0000891618-97-001309, l.985–988 / l.2919; 41% = S-1/A No. 5 acc. 0000891020-97-000839, l.1055–1062 /
+  l.3149), to be kept visible per number_repairs2 item 6, never averaged or merged.
+- Sweep log: `03_quality_control/amazon_s1_residual_sweep.md`.

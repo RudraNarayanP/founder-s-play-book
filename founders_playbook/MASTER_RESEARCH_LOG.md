@@ -94,9 +94,9 @@ Statuses: `NOT STARTED` · `DISCOVERY` · `DEEP RESEARCH` · `RECONSTRUCTION` ·
 | # | Company | Stage 1 | Stage 2 | Stage 3 | Quant | Sources | Adversarial | QA | Final |
 |---|---|---|---|---|---|---|---|---|---|
 | 001 | Amazon | DEEP RESEARCH | NOT STARTED | NOT STARTED | DEEP RESEARCH | DEEP RESEARCH | DEEP RESEARCH | NOT STARTED | NOT STARTED |
-| 002 | Walmart | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED |
-| 003 | UnitedHealth Group | NOT STARTED | — | — | — | — | — | — | — |
-| 004 | Apple | NOT STARTED | — | — | — | — | — | — | — |
+| 002 | Walmart | DISCOVERY | PROBE | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED |
+| 003 | UnitedHealth Group | DISCOVERY | PROBE | — | — | — | — | — | — |
+| 004 | Apple | DISCOVERY | PROBE | — | — | — | — | — | — |
 | 005 | Alphabet | NOT STARTED | — | — | — | — | — | — | — |
 | 006 | CVS Health | NOT STARTED | — | — | — | — | — | — | — |
 | 007 | Berkshire Hathaway | NOT STARTED | — | — | — | — | — | — | — |
@@ -403,8 +403,9 @@ Handling, and why:
 |---|---|---|---|
 | 001 Amazon | A — single founder, continuous entity | repair passes running (numbers); audits 1, 2, 4 returned, 4 failed-then-repaired | Evidence base local: 4 filings + 11 dossiers, ~1.02M words repo |
 | 002 Walmart | A, but origins predate 1962 entity | **Probe complete → depth verdict: FORENSIC-CORE (~6,000 words), not exemplar.** 22 records, ~4,900 words, 13 sources on disk | Fleet gated on four named escalation targets (paywalled Arkansas/trade newspaper full text, the 1962 opening flyer, Arkansas SoS entity records, a 1970 prospectus facsimile) and on paper archives |
-| 003 UnitedHealth | D-class candidate (merger origin; register says successor) | **probe running** 2026-09-24 — must resolve which of two predecessor entities is the origin, and whether spec §6's "first real-world experiment" is answerable for an insurance venture that sold coverage rather than shipping a product | EDGAR floor is mid-1994 for most filers; 1977–1999 evidence is likely paper, trade press and retrospection. The 1997–99 crisis may be the best-documented early period |
-| 004 Apple | A, single founders, continuous entity | **probe running** 2026-09-24 | 1976 founding predates EDGAR too, but the personal-computing trade press, museum/auction artifacts and the 1980 IPO are promising; the byte-shop ownership detail and the 50/40/10 split are classic lore candidates |
+| 003 UnitedHealth | Successor/merger origin — probe to confirm | **Probe wrote nothing (3rd write-late failure) but saved 55 primaries; mining-only completion pass running** | Predecessor EDGAR searches (Chartermed, Metropolitan Health Plans, Paxon), a 1998 S-4, FY1999 10-K, DEF 14As 1996-2000, Wayback captures from 1997-02-18, Google Books hits. Its well-documented formation material is likely 1990s, not 1970s |
+| 004 Apple | A, single founders, continuous entity | **Probe complete → EXEMPLAR depth, gated.** 38 records, 11,208 words, 49 files / 9.5 MB | S1 **1975 → 1977-01-03** (CA incorporation per Apple's own 1994 10-K, corroborated in 1981 print); S2 1977 → 1980-12 IPO (4.6M shares, 8% of 52.4M, $22 - BYTE Feb 1981); S3 1980-12 → 1985 untested. Excluded: no EDGAR text before 1994-01-26, no pre-1994 web artifact, no 1976 sales figure, Markkula terms and Wayne's 10%-vs-12% unresolved |
+| 002 Walmart (retest) | A, pre-1962 origins | **VERDICT UNDER RETEST** - the forensic-core call rested on two of four corpus families and missed digitised periodicals, the very thing that made Apple exemplar-capable | Fast-tier retest across Internet Archive / HathiTrust / Google Books trade and general periodicals 1945-1970 plus auction and finding-aid records; may raise or confirm the rating |
 
 
 **Recommended boundaries (from the probe, to be defended or overturned by the fleet):**

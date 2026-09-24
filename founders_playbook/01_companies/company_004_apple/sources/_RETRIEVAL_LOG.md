@@ -71,3 +71,9 @@ WebSearch **10/10 (exhausted)**. WebFetch **5/10 used**: Library of Congress gui
 apple1registry.com stories page. All magazine, EDGAR and CDX retrieval was done with `curl` /
 `urllib` against documented public endpoints, not counted as WebFetch. **No file in this directory
 was deleted, moved or renamed.**
+
+## Orphan files left in place deliberately (created by this probe; not deleted, not renamed)
+
+- `test_direct.txt` (527,529 B) — byte-identical duplicate of the BYTE May-equivalent file `ia_byte_1976/byte-1976-09.txt` body (the first successful items-server test download). Kept as the diagnostic that proved the `download/` → CDN 302 failure; **do not cite**, cite `ia_byte_1976/byte-1976-09.txt`.
+- `ia_kilobaud_*.txt` — none written: the three Kilobaud 1976 items probed expose no text layer (AP-34). Recorded so no agent looks for a missing file.
+- 32 of the saved text primaries carry a 4-line provenance header prepended by this probe; no body byte was altered.
