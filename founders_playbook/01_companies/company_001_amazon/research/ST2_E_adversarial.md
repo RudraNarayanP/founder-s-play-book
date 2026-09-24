@@ -1023,13 +1023,19 @@ about the company, unaudited as to method; **RETROSPECTIVE** = post-window accou
 - **Challenge — the strongest case available.** The IPO is a *financing* event on a *capital-markets* calendar.
   Everything the stage is supposed to establish — repeatability — is on the record twelve weeks earlier, in the
   only period with a complete audited year: (a) FY1996 net sales $15,746K against FY1995's $511K, a full year
-  after a partial one; (b) the first *two* comparable year-end balance sheets, 1995 ($920K working capital) and
-  1996 ($2,270K working capital, $6,248K cash) — a year-over-year comparison that did not exist before 1996
+  after a partial one; (b) **1996 is the first complete post-launch year**, so 1995 ($511K, $920K working
+  capital) and 1996 ($15,746K, $2,270K working capital, $6,248K cash) are the first pair whose comparison means
+  anything — 1995 covers only ~6 months of selling (S-1/A No. 5 l.1449: `opening of the Amazon.com bookstore in
+  July 1995 through December 31, 1995`), so every 1995-vs-1996 growth number in the window is partly a;
   (c) `Ingram … accounted for 59% of the Company's inventory purchases in 1996` — the supply arrangement is
   measurable for a whole year; (d) `11 to 151 employees` across exactly CY1996; (e) the repeat-purchase and
-  traffic series both close at December 1996; and (f) — decisive for a *repeatability* test — 1996 is the first
-  year in which the same seasonal cycle was observed twice (Q4-1995 and Q4-1996), which is what distinguishes a
-  repeat from an accident. The IPO then belongs to Stage 3 as a *consequence*.
+  traffic series both close at December 1996. The IPO then belongs to Stage 3 as a *consequence*.
+  **A stronger version of argument (f) is withdrawn on checking:** that 1996 was the first year in which the same
+  seasonal cycle could be compared with a prior one (Q4-1995 vs Q4-1996). It is not available — the quarterly
+  table in S-1/A No. 5 (l.374-385) begins at **Q1 1996**, so no Q4-1995 column exists in any retrieved document,
+  and there is therefore **no two-Christmas comparison inside the window at all.** Recorded as failed attack
+  **F-9**; note that this withdrawal *weakens* the 1996-12-31 case and, by the same reasoning, removes the
+  seasonal-repeat argument from every boundary option.
 - **Earliest source of the framing.** Project convention, not a source.
 - **Founder-originated?** No.
 - **Contradicting or qualifying evidence.** Supporting: S-1/A No. 5 l.379/l.1507 (FY1996 $15,746K), 10-K405
