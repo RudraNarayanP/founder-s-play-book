@@ -532,6 +532,20 @@ Consequences, to be tested rather than assumed:
    Amazon run already learned it with `matchType=prefix` returning 504 (unanswered) rather than empty
    (proven); this is the same error in a different costume.
 
+### Stage 1 numeric/causal closure (2026-09-24) — 43 conflicts, internally consistent
+
+The narrow four-item pass finished what the turn-capped agent left: the false reconciliation bridge
+was deleted in favour of filed terms (`-232-52+1,228 = +944`; `52+944 = 996`), the surviving
+`21,382.98` proved to be inside a retraction sentence rather than a live value, a stray
+`derived_arithmetic` cell was relocated, and the `U.41` pointer count reconciled to **one live
+pointer and one adjudicated block** plus four intentional id-quotations. Canonical conflict register
+now stands at **43 blocks matched by 43 `conflicts.csv` rows**. Register parse: 9 files, 428 rows,
+0 off-grid, 0 wrong-column values, `derived_arithmetic` present on 29/29 DERIVED rows.
+
+Nine residual defects remain, all standing UNKNOWNs or provenance hazards in `_parts/` — not errors
+in the deliverables. **Stage 1 moves to QA, not COMPLETE**: the fixes were verified by the agent that
+made them, so an independent confirmation pass is running before the gate is signed.
+
 ### Amazon Stage 2 — audited financial spine (dossier B, 67 records, 2026-09-24)
 
 New Tier-1 primary recovered: **Form 424B1 final prospectus, acc. 0000891020-97-000868, 1997-05-15**

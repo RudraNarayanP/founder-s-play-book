@@ -2215,6 +2215,20 @@ consequence of the transition. §R's Distribution cell carries the same correcti
 **RESIDUAL UNCERTAINTY:** none on the date; the open question is what proportion of 1996 growth it caused
 (→ U.12).
 **CONFIDENCE:** High.
+**POINTER/BLOCK RECONCILIATION (register-finisher note, appended 2026-09-24):** as at the incoming brief this
+file carried **six** `U.41` strings and **one** canonical `**U.41` block; **this note adds further mentions of the
+id but adds no pointer**, so the six reconciled here are this block plus the five in-text mentions below, of which
+exactly **one is a live pointer** — §E.2's Associates Program row, whose confidence cell reads
+`Medium-High → U.41`: it is on this subject and lands here. The other four **quote the id, they do not point at
+it**: §H's "…the slot appended 2026-09-24 to adjudicate this question, which U.41 does not address" (its pointer
+already reads → **U.43**, where the directory-placement and borrowed-credibility efficacy question is adjudicated);
+U.21's "absorbs claims_AJ's U.41" (a **superseded part-local key**, per `_parts/U_CONCORDANCE.md`, which maps
+claims_AJ U.41 → canonical **U.21**); U.42's scope range "the same treatment in U.1–U.41" (with its own spine
+note); and U.43's history sentence naming the three routes (§D.1, §H, §R) this question used to take here, all of
+which now read → U.43. Register mirror: `conflicts.csv` r42 = U.41 and r44 = U.43, on 43 rows for 43 canonical
+ids; `stage_1_claim_records.md` F17 and J12 key `Conflicts: U.41` (both Associates rows, correct), while its E01–E06
+artifact rows key to U.21, and `sources.csv` S0608 keys the Associates start date to U.41. **Live pointers to U.41:
+1; canonical U.41 blocks: 1 — they match, and no pointer was deleted for want of a target.**
 
 **U.42 — Fortune's self-conflict on the Walmart streak (universe-level precedent; not Amazon evidence).**
 *p4's U8, re-keyed. Retained because deleting it would lose the method ruling it licenses.*
@@ -2299,4 +2313,7 @@ support, press and cultural climate, the quantitative context table and the cont
 `context_appendices.md`. Structured deliverables for this stage are the seven CSVs — `sources.csv`,
 `quantitative.csv`, `timeline.csv`, `decisions.csv`, `validation.csv`, `failures.csv`, `channels.csv`,
 `conflicts.csv` and `data_gaps.csv` — none of which is emitted in this pass; `conflicts.csv` must be generated
-one row per canonical id **U.1–U.42**.
+one row per canonical id **U.1–U.42**. *(Register-finisher note, appended 2026-09-24: the spine now runs
+**U.1–U.43** and `conflicts.csv` carries exactly 43 rows, one per id, no gaps and no duplicates — verified by
+parse, not by assertion. The generation instruction is left at its merge-time wording under the append-only id
+rule; read it as **U.1–U.43**.)*
