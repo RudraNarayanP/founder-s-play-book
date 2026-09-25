@@ -1,6 +1,6 @@
 # SEC submissions index -- NVIDIA CORP (CIK 0001045810, NVDA)
 
-Built by `tools/sec_intake.py` at 2026-09-25 19:09 UTC. 2487 filings enumerated
+Built by `tools/sec_intake.py` at 2026-09-25 20:43 UTC. 2487 filings enumerated
 
 **This file is the source of truth for what exists.** Do not re-search EDGAR for
 coverage; grep `submissions.csv` and report a form as absent only from this list.

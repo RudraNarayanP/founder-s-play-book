@@ -1,0 +1,15 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000101287001500492/d10k405.txt",
+ "fetched": "2026-09-25T20:46:16Z",
+ "sha1": "8628dfc62b2bcc449fbecddadb311ac11f321bdf",
+ "bytes": 220744,
+ "words": 28087,
+ "cik": "0001045810",
+ "accession": "0001012870-01-500492",
+ "document": "d10k405.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

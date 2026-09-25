@@ -481,3 +481,59 @@ sidecars and are capped below High confidence until re-checked (disclosed per §
 search/fetch budget: **0 of 6 spent** — every network call went through `tools/sec_intake.py` or
 `tools/ia_text.py` and their own request paths.
 
+## SUPERSEDED / RE-GRADED 2026-09-27
+
+<!-- Appended by regrade-t3-batch. Nothing above this heading is rewritten or deleted. Full figures in
+     company_041_dell/research/A3_intake_regrade.md. Entity question (1571996 shell vs 826083 founding
+     registrant) NOT re-opened: this pass used CIK 826083 as this file settled it. -->
+
+**What changed: family (a)'s verdict as *worded*, not Dell's evidence base.** Re-measured with the rebuilt
+`sec_intake.py`, window **1984-01-01 → 1996-12-31** (all observed this session):
+
+- `index --dry-run` and live `index` → **1,851 filings, "DELL INC ()"**; `sources/_index/submissions.csv`
+  parses to **55 in-window rows, ALL 55 with a blank `primaryDocument`**, minimum date **1994-02-11**.
+  This **confirms** §Verdict trap 1 and (a2) exactly: earliest filing of any kind **SC 13G/A 1994-02-11**
+  (0000748054-94-000017), earliest **10-K 1994-04-01**, **no S-1 among the 55**, nothing at all 1984–1993.
+  The EDGAR floor is now a tool measurement rather than a hand-built index.
+- `auto … --max-docs 25` → **9 documents stored, 2,317,629 bytes, 306,443 words, 0 UNANSWERED** (exit 0)
+  against this file's **1** SEC document on disk. New holdings: SC 13G/A 1994-02-11 10,407 B · 10-K 1994-04-01
+  237,339 B (re-fetched at the identical byte count — probe and script agree) · DEF 14A 1994-05-24 238,177 B ·
+  8-K 1995-02-21 21,859 B · S-3 1995-02-21 166,623 B · 10-K405 1995-03-17 589,859 B · 424B2 1995-06-09
+  63,763 B · POS AM 1995-06-26 7,650 B · **10-K405 1996-03-28 981,952 B**.
+- Bytes are filings, not apology pages: `grep -l -i "File Unavailable|Temporarily Offline|NoSuchKey"` over
+  `sources/sec/*.txt` → **0 matches**. Phrase counts read out of the stored bytes: FY1994 10-K
+  **"1984"×4, "Michael"×18, "33-21823"×3, "PC's Limited"×0**; FY1996 10-K405 **"1984"×3, "Michael"×25,
+  "33-21823"×2, "PC's Limited"×0**. **The §lineage warning is re-confirmed on 5.3× more bytes, not refuted**:
+  the founding story still appears nowhere in family (a); only the retrospective dates and the 1988 S-1's
+  registration number do.
+- **Family (a) verdict: in-window Tier-1 text = YES (1994-02-11 → 1996-03-28); founding-window (1984 – mid-1988)
+  text = still NULL.** Earliest held = earliest in index = SC 13G/A 1994-02-11, so there is no front-of-window
+  drop here (unlike Costco). **46 of 55 in-window filings were not fetched and were not reported UNANSWERED**
+  (10-Qs, SC 13E4, PRE 14A, 8-A12G …): UNTRIED, not null.
+
+**Tier: T2 PROVISIONAL under §15.2's literal test; this file's T3 remains correct under its own founding-window
+test — the orchestrator must rule on the convention.** Family (a) holds in-window Tier-1 text on dates inside
+the assigned window, so counted that way (a)+(c) = 2 families → **T2 core (6–9 runs, 22k/stage)**. This file
+scored (a) NO because it required text *from* 1984–1988 — the same retrospective-in-window text that made
+Costco's (a) and Nvidia's (a) YES, so the fleet is currently inconsistent and the difference is convention,
+not measurement. Marked **PROVISIONAL** also because the family-count test the probe deferred is still open:
+**(d) HathiTrust and Google Books remain UNTRIED** (the routes that flipped Walmart; the IA routes stayed
+near-null) and **(e) documentary was never touched** — the gap is being closed fleet-side, `tools/queries.json`
+now parses to **427 tasks across 50 companies including a `dell` block**, so those two are script-triable and
+still unrun. What is **not** superseded under either reading: **T1 remains structurally unreachable for
+Stage 1** (a floored 1994-02-11 by the filing regime, b floored 1996-12-21 by the medium), the promotion gate
+(printed FY1989–FY1993 AR/proxy run + the 1988 prospectus in HathiTrust/Google Books) is unchanged, family (c)
+is unchanged (BYTE Apr 1987 1,769,686 B / Oct 1988 1,650,019 B remain the only in-window 1984–1988 Tier-1
+carriers), and **§K still has no Tier-1 1984–1988 figure of any kind**.
+
+**Disclosure and defect against this file's own artifacts.** `index`/`auto` write under
+`<company-dir>/sources/_index` and `sources/sec` with **no CIK in the path**, so running intake for **826083**
+**overwrote in place** the `sources/_index/` copy of the **1571996** shell index this file cites as (a1).
+Pre-state captured before the run: header `# SEC submissions index -- Dell Technologies Inc. (CIK 0001571996,
+DELL)`, **1,951 rows, min 2013-07-24, max 2026-09-24**. The (a1) facts survive only in this file's prose and
+that transcript; the bytes are gone from that path. Nothing else was deleted, moved, or git-touched, and
+`sources/_index_cik0000826083/` (the 826083 copies) were left intact and parse identically. **Recommendation
+to the tool owner (not edited by this pass): key index output by CIK, and have `resolve --ticker DELL` name
+the legacy registrant instead of returning only the merger shell.** `facts` again printed
+`sources/financials/xbrl_early_series.csv` and wrote no file.
+

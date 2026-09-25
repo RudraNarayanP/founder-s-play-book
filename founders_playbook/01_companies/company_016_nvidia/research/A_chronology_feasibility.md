@@ -416,4 +416,50 @@ Nothing here may be quoted as absence; each line is a route with a named cost. I
 8. **`tools/gates.py` not run** -- this file is a probe verdict with a source index, not a dossier
    with registers, so the mechanical gates have nothing to check yet.
 
+## SUPERSEDED / RE-GRADED 2026-09-27
+
+<!-- Appended by regrade-t3-batch. Nothing above this heading is rewritten or deleted. Full figures in
+     company_016_nvidia/research/A3_intake_regrade.md. -->
+
+**Nothing in this company's verdict is superseded.** Nvidia's probe had already rebuilt the index by hand
+(2,487 filings, 69 in-window), so the broken `sec_intake.py` understated this company far less than Costco:
+family (a) was already **TIER1_CANDIDATE**, and the re-grade leaves the verdict and the **T3** tier
+**unchanged and not re-issued**, because family (a) movement does not change the family count (§15.2: still
+1 of 5 families with in-window Tier-1 text).
+
+What the re-grade did establish, from output observed this session (window 1993-01-01 → 2001-12-31,
+CIK verified by `resolve --ticker NVDA` → 1045810 / "NVIDIA CORP"):
+
+- `auto` now stores **31 documents, 7,942,444 bytes, 1,094,459 words** where the probe had assembled **6
+  documents (~2.77 MB)** by hand — the S-1 lineage is complete (S-1 + 6 S-1/A) and the 1999–2001 run
+  (424B4, 10-K405s, DEF 14A, SC 13G, S-3, 424B2, 8-K, exhibit-level `dex21/45/46.txt`) is scripted.
+- Stored bytes are filings, not apology pages: `grep -l -i "File Unavailable|Temporarily Offline|NoSuchKey"`
+  over `sources/sec/*.txt` → **0 matches**; the inception phrase **"April 5, 1993" appears 3×** in the stored
+  424B4 (`0001012870-99-000192`) and `inception` 5× in the stored S-1. The probe's day-level inception claim
+  is now reproducible from script-stored bytes, which raises its standing as evidence.
+- **Earliest held = earliest in index = S-1, 1998-03-06** (`0001012870-98-000618`, 856,608 B). The probe's
+  hard boundary ("nothing filed 1993–1997", so every founding-year date is registrant-retrospective) is
+  **re-confirmed as a documented null, not a fetch failure** — the tool's own index has zero rows before
+  1998-03-06.
+- **30 of 69** in-window index rows still carry a blank `primaryDocument`, and the tool's `15 UNANSWERED`
+  rows over-count: five of them name guessed `0001.txt`-style documents for accessions whose
+  `<accession>.txt` was fetched OK in the same run. Accessions 0001012870-00-005072, -01-000269, -01-000538
+  are genuinely not held. **A reader must reconcile `_UNANSWERED.csv` against `_MANIFEST.csv` before
+  believing any gap** — this is the mirror-image defect to the one that broke Costco: here UNANSWERED is
+  inflated, not zero.
+- `facts` printed `sources/financials/xbrl_early_series.csv` and **wrote no file**; the directory is empty,
+  whereas the probe recorded a 0-row CSV there. This pass deleted nothing. The XBRL series is **absent /
+  UNANSWERED-by-script**, and the probe's "documented null (no us-gaap value with `end` in 1993–2001)"
+  should now be read as *unverified by this pass* — re-derive from the audited headers instead.
+
+Correction to one line of the probe's §Verdict qualifier, in the probe's favour: it attributed part of the
+under-measurement to "a tool bug". For Nvidia the tool bug was largely already worked around by hand; the
+real remaining under-measurement is access (family b egress blocks, HathiTrust status 0, Chronicling
+America 403) and unspent budget. And unlike `company_013_costco`, family (c) here was **not** blocked by a
+missing harvester query block — `tools/queries.json` now parses to 427 tasks across 50 companies with
+`nvidia` present, and the probe itself ran 17 tasks — so this tier carries **no PROVISIONAL flag**; it is
+T3 on the probe's own measurement. The probe's **T2 upgrade condition stands unaltered and untested by this
+pass**: one browser-egress Wayback CDX answer **and** one in-window periodical body read. Families (b)
+UNANSWERED and (e) UNTRIED remain, so the ceiling is still not measured.
+
 

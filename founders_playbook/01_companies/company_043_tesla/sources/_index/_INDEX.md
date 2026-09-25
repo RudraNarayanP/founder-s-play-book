@@ -1,6 +1,6 @@
 # SEC submissions index -- Tesla, Inc. (CIK 0001318605, TSLA)
 
-Built by `tools/sec_intake.py` at 2026-09-25 19:42 UTC. 1750 filings enumerated
+Built by `tools/sec_intake.py` at 2026-09-25 20:53 UTC. 1750 filings enumerated
 
 **This file is the source of truth for what exists.** Do not re-search EDGAR for
 coverage; grep `submissions.csv` and report a form as absent only from this list.

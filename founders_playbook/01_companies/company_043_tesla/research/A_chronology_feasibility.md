@@ -410,3 +410,55 @@ all.** "We cannot know", on this evidence, is the deliverable.
 
 STATUS: WRITTEN 2026-09-26
 
+## SUPERSEDED / RE-GRADED 2026-09-27
+
+<!-- Appended by regrade-t3-batch. Nothing above this heading is rewritten or deleted. Full figures in
+     company_043_tesla/research/A3_intake_regrade.md. Entity question NOT re-opened; CIK 1318605 confirmed
+     this session by `resolve --ticker TSLA` → {"cik": 1318605, "name": "Tesla, Inc."}. -->
+
+**Tier re-issued unchanged: T3.** Family (a) was already the single family with in-window Tier-1 text, and the
+re-measure did not add a family, so §15.2 still gives **T3 (register)**. What the re-grade changed is the
+*weight* of family (a) and **one structural null in this file's favour-turned-against-it**:
+
+- `index` → **1,750 filings**; `sources/_index/submissions.csv` parses to **269 in-window rows, 0 of them with a
+  blank `primaryDocument`** (post-2001 era, so the nameless-listing defect that broke Costco does not bite here).
+- **SUPERSEDED (this file, §Verdict row (a) and §D6): "Nothing EDGAR-dated 2003–2008: earliest submission … is
+  Form D 2009-04-09."** Measured now: the earliest in-window row is **Form REGDEX, accession
+  `9999999997-05-006484`, 2005-02-17**, and the band runs to **12 REGDEX/REGDEX/A rows, 2005-02-17 → 2009-01-12**,
+  every one a SEC-generated `9999999997-*` paper accession with a `.paper` primary document (none fetched by
+  either pass). **Sustained in substance, corrected in wording:** **2003 and 2004 are genuinely empty** on this
+  CIK, and REGDEX entries carry **no company-authored narrative**, so "EDGAR is empty for the first five and a
+  half years of the company's existence" should be read as "**empty of company documents 2003–2004, then SEC
+  paper registration entries 2005–2009**". A null about rows, not about content. §Founder-attribution-question's
+  "one voice, two datable layers" conclusion is untouched.
+- `auto … --max-docs 25` → **76 documents stored, 59,479,299 bytes, 3,059,480 words, 0 UNANSWERED** (`_UNANSWERED.csv` = 0 rows)
+  against this file's **4 documents (≈5.9 MB)**: the whole registration lineage is now held — S-1 2010-01-29
+  (`ds1.htm` **2,362,163 B**, byte-identical to this pass's D1) + **7 S-1/A** + 424B4 + FY2010 10-K + 2011
+  DEF 14A + 8-Ks + 8 SC 13G/As, plus exhibits this file never held (`dex1037.htm` 1,571,717 B; submission txts
+  4.6–4.9 MB). **Earliest held = S-1, 2010-01-29; earliest merely in the index = REGDEX, 2005-02-17.**
+- Stored bytes are filings, not apology pages: `grep -l -i "File Unavailable|Temporarily Offline|NoSuchKey"` over
+  `sources/sec/*.txt` → **0 matches**. Phrase counts out of stored bytes: **"Tesla Motors" 52/58/64/20**,
+  **"formed in July 2003" = 1 in each** of S-1 2010-01-29 / S-1/A 2010-04-29 / 424B4 / FY2010 10-K, and —
+  the decisive one — **"one of our founders" = 0 in the 2010-01-29 S-1 but 1 in the 2010-04-29 S-1/A and 1 in the
+  424B4**. This file's D2 "first held instance" finding is now reproduced on tool-stored bytes. (The string
+  "July 1, 2003" returned **0** in the raw HTML of all four — markup splits the run — so no quote is re-claimed here
+  beyond the counts.)
+- **NEW ASSET, not available to the probe: `facts` wrote 336 rows** to `sources/financials/xbrl_early_series.csv`
+  (`tag,unit,start,end,value,fy,fp,form`; **`end` 2008-12-31 → 2012-12-31, all 336 in-window**). §K can now be
+  written from registrant-filed quantitative data for 2008–2012 instead of prose. Note the contrast inside this
+  very batch: `facts` printed a path and wrote **nothing** for Costco, Nvidia and Dell — so a silent `facts`
+  elsewhere is **not** an absence-of-data result.
+- **Not superseded:** families (b) UNANSWERED (Archive 504/offline, no page bytes), (c) metadata-only
+  (HathiTrust interstitial, Chronicling America 403), (d) **identified but never opened** (numFound 2:
+  `tesla-logo`, `teslaroadster0000maur` 2008; creator-scoped 0), (e) documentary **UNTRIED** — fleet-wide, no
+  scripted route. So the **ceiling is still unmeasured and this T3 is a statement about reach**, exactly as this
+  file said. **No PROVISIONAL flag on missing-query-block grounds for this company**: `research/_harvest_queries_tesla.json`
+  and `..._ca2.json` exist and `tools/queries.json` now carries a `tesla` block (427 tasks, 50 companies), so
+  (c)/(d) failed on **access**, not config — unlike `company_013_costco`, whose tier **is** PROVISIONAL on that ground.
+- The probe's promotion paths survive and are each one intake task: (i) tesla.com page bytes when the Archive
+  answers, (ii) in-window newspaper text from a non-blocked route, (iii) opening the two family-(d) items, and
+  (iv) the San Mateo/JAMS or August 2009 joint-statement document named as the highest-value unwritten object.
+- **Tool defects reported (not edited):** `auto` fetched 28 accessions of 269 in-window rows yet printed **0
+  UNANSWERED** — "0 UNANSWERED" must never be read as coverage; and `--max-docs 25` is not honoured as a ceiling
+  (76 documents stored).
+

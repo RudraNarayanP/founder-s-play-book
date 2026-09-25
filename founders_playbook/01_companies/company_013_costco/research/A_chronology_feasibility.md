@@ -159,3 +159,51 @@ STATUS: WRITTEN (probe-costco) — nothing below is a null; all of it is reachab
 6. **Family (e) auction/museum: UNTRIED, no request issued** (web ceiling consumed). Route recorded above; Apple's precedent makes this the live hope for an actual 1983 first-store artefact.
 7. **Family (b) re-run when Internet Archive is healthy** — including `www.priceclub.com` (untested because bare-host test returned the service-wide offline page, and www-vs-bare is one test) and archived `browse-edgar` result pages, which double as the cheapest route to item 1.
 
+## SUPERSEDED / RE-GRADED 2026-09-27
+
+<!-- Appended by regrade-t3-batch. Nothing above this heading is rewritten or deleted; the record that
+     this tier was measured on a broken `tools/sec_intake.py` is itself a finding (§14.4, §14.12). -->
+
+**What this section supersedes: the intake measurement only, not the verdict.** Original verdict
+"VERDICT: T3 as measured — 1 of 5 families returned in-window Tier-1 text" **stands unchanged at T3**,
+because family (a) already counted as a YES; what the re-grade found is that the *volume* of family (a)
+was reported as zero by a broken tool.
+
+Re-measure of family (a) with the rebuilt script, window 1983-01-01 → 1997-12-31, CIK 909832
+(verified this session: `resolve --ticker COST` → `{"cik": 909832, "name": "COSTCO WHOLESALE CORP /NEW"}`),
+full figures in `A3_intake_regrade.md`:
+
+- `index` now enumerates **2,723 filings** (was 1,007 `recent`-only) and the in-window slice parses to
+  **59 filings, 1994-01-05 → 1997-12-04**. This **confirms** §Untried item 1's and §Nulls' structural claim
+  that EDGAR holds nothing for this CIK before 1994-01-05 — that part of the probe was right.
+- `auto … --max-docs 25` → **"11 documents stored (2285245 bytes, 293457 words), 0 UNANSWERED"**. The probe's
+  §Conflicts 2 ("0 documents stored, 0 skipped/unanswered") is confirmed as a **tool artifact, not a null**.
+- Stored bytes are filings, not apology pages: `grep -l -i "File Unavailable\|Temporarily Offline"` over
+  `sources/sec/*.txt` → **0 matches**; `grep -c "1976"` on the newly stored 1994-11-17 10-K → **3**, i.e. the
+  origin-year text the probe read by hand is present in script-stored bytes.
+- **Earliest form/date actually held by the script: 8-K, 1994-08-05** (0000912057-94-002516, 125,566 B).
+  Earliest held on disk at all: 10-Q 1994-01-05 (64,490 B, the probe's own hand fetch, not re-stored).
+- **Earliest form/date merely existing in the index: 10-Q, 1994-01-05** (0000912057-94-000012).
+
+Corrections to the probe's own claims, in the probe's favour and against it:
+- §Family a "That slice enumerates 1,716 filings" — re-derived independently as 2,723 total rows / 59
+  in-window; the hand-fetched accessions and the script now agree on dates and bytes.
+- §Untried item 3 asked for three script fixes (read older slices, parse the flat schema, space retries).
+  **Two are now demonstrably fixed** — the older slice is read and the flat schema parsed — and `grab`-style
+  document fetch succeeded for all 11 stored rows with 0 UNANSWERED. Retry burst behaviour was not re-tested.
+- **Residual defect, new on this pass:** all 59 in-window rows still carry a **blank `primaryDocument`**
+  (nameless pre-2001 listing). The tool recovered names for 11 via directory-listing fallback and **dropped
+  the other 48 silently** — `_UNANSWERED.csv` holds only its header, so "0 UNANSWERED" is still not
+  "nothing remains". Predecessor filings (§Untried 1) and the 48 in-window documents remain **UNTRIED**.
+- `facts` still prints `sources/financials/xbrl_early_series.csv` and writes nothing (directory empty);
+  §Conflicts 4 stands — no XBRL series may be inherited for this company.
+
+**Tier after re-grade: T3 PROVISIONAL** (was "T3 as measured"). §15.2 families with in-window Tier-1 text = 1
+→ T3 unchanged; but families (b), (c) and (e) were **not in the denominator**: (c) was UNTRIED-BY-CONFIG
+(`tools/queries.json` had no `costco` task block; the route was proven to exist with per-issue `_djvu.txt`
+layers), (b) UNANSWERED on an IA outage, (e) never attempted. That gap is being fixed by another agent, so
+this tier is recorded as provisional and a re-grade that repairs only family (a) **understates the ceiling**
+— the probe's own upgrade path stands: one answered family-(c) harvest of 1982–83 Discount Store News /
+Chain Store Age text makes it 2 families → **T2 (6–9 runs, 22k/stage)**. Original §Verdict, §Entity question
+(two-origin-node framing), §Boundaries, §Conflicts 5–7 and §Family b–e are **not** superseded by this pass.
+

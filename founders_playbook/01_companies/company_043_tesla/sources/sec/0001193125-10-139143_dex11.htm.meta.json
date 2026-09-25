@@ -1,0 +1,15 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000119312510139143/dex11.htm",
+ "fetched": "2026-09-25T20:53:51Z",
+ "sha1": "58e36a0b5c817e806052781e9c4f8091df9d094f",
+ "bytes": 144744,
+ "words": 16360,
+ "cik": "0001318605",
+ "accession": "0001193125-10-139143",
+ "document": "dex11.htm",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

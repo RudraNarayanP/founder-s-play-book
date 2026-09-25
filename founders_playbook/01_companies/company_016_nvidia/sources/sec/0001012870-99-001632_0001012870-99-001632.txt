@@ -1,0 +1,1738 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ J+2mkyEOIA8fLmuSy0aQ+bdIlJZBMFQKEPvEzKbN3TyxPR9HT1SBeAhDLXwhCQla
+ ApH8EC55eZxD8s1MtQThjA==
+
+<SEC-DOCUMENT>0001012870-99-001632.txt : 19990518
+<SEC-HEADER>0001012870-99-001632.hdr.sgml : 19990518
+ACCESSION NUMBER:		0001012870-99-001632
+CONFORMED SUBMISSION TYPE:	DEF 14A
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	19990617
+FILED AS OF DATE:		19990517
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			NVIDIA CORP/CA
+		CENTRAL INDEX KEY:			0001045810
+		STANDARD INDUSTRIAL CLASSIFICATION:	SEMICONDUCTORS & RELATED DEVICES [3674]
+		IRS NUMBER:				943177549
+		STATE OF INCORPORATION:			CA
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		DEF 14A
+		SEC ACT:		
+		SEC FILE NUMBER:	000-23985
+		FILM NUMBER:		99627966
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1226 TIROS WAY
+		STREET 2:		415-617-4000
+		CITY:			SUNNYVALE
+		STATE:			CA
+		ZIP:			94086
+		BUSINESS PHONE:		4086174000
+
+	MAIL ADDRESS:	
+		STREET 1:		1226 TIROS WAY
+		CITY:			SUNNYVALE
+		STATE:			CA
+		ZIP:			94086
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>DEF 14A
+<SEQUENCE>1
+<DESCRIPTION>DEFINITIVE PROXY MATERIALS
+<TEXT>
+
+<PAGE>
+ 
+                           SCHEDULE 14A INFORMATION
+ 
+  Proxy Statement Pursuant to Section 14(a) of the Securities Exchange Act of
+                                     1934
+ 
+Filed by the Registrant [X]
+Filed by a Party other than the Registrant [_]
+ 
+Check the appropriate box:
+ 
+[_]Preliminary Proxy Statement
+[_]Confidential, for Use of the Commission Only (as Permitted by Rule 14a-
+   6(e)(2))
+[X]Definitive Proxy Statement
+[_]Definitive Additional Materials
+[_]Soliciting Material Pursuant to (S)240.14a-11(c) or (S)240.14a-12
+ 
+                              NVIDIA Corporation
+             -----------------------------------------------------
+               (Name of Registrant as Specified In Its Charter)
+ 
+             -----------------------------------------------------
+   (Name of Person(s) Filing Proxy Statement, if other than the Registrant)
+ 
+Payment of Filing Fee (Check the appropriate box):
+ 
+[X]No fee required.
+[_]Fee computed on table below per Exchange Act Rules 14a-6(i)(4) and 0-11.
+ 
+  (1) Title of each class of securities to which transaction applies:
+   --------------------------------------------------------------------------
+ 
+  (2) Aggregate number of securities to which transaction applies:
+   --------------------------------------------------------------------------
+ 
+  (3) Per unit price or other underlying value of transaction computed
+    pursuant to Exchange Act Rule 0-11 (Set forth the amount on which the
+    filing fee is calculated and state how it was determined):
+   --------------------------------------------------------------------------
+ 
+  (4) Proposed maximum aggregate value of transaction:
+   --------------------------------------------------------------------------
+ 
+  (5) Total fee paid:
+   --------------------------------------------------------------------------
+ 
+[_]Fee paid previously with preliminary materials.
+ 
+[_]Check box if any part of the fee is offset as provided by Exchange Act Rule
+   0-11(a)(2) and identify the filing for which the offsetting fee was paid
+   previously. Identify the previous filing by registration statement number,
+   or the Form or Schedule and the date of its filing.
+ 
+  (6) Amount Previously Paid:
+   --------------------------------------------------------------------------
+ 
+  (7) Form, Schedule or Registration Statement No.:
+   --------------------------------------------------------------------------
+ 
+  (8) Filing Party:
+   --------------------------------------------------------------------------
+ 
+  (9) Date Filed:
+   --------------------------------------------------------------------------
+<PAGE>
+ 
+ 
+                          [NVIDIA LOGO APPEARS HERE]
+ 
+                                                                   May 17, 1999
+ 
+Dear Stockholder:
+ 
+   On behalf of NVIDIA Corporation (the "Company"), I cordially invite you to
+attend the 1999 Annual Meeting of Stockholders, which will begin at 2:00 p.m.
+on Thursday, June 17, 1999, at The Marriott Hotel, 2700 Mission College
+Boulevard, Santa Clara, California. At the meeting, stockholders will be asked
+to (a) elect two directors to hold office until the 2002 Annual Meeting of
+Stockholders; (b) approve the amendment of the Company's 1998 Employee Stock
+Purchase Plan; (c) ratify the selection of KPMG LLP as independent accountants
+of the Company for its fiscal year ending January 30, 2000; and (d) transact
+such other business as may properly come before the meeting or any adjournment
+or postponement thereof. The accompanying Notice and Proxy Statement describe
+those proposals.
+ 
+   The directors and officers of the Company hope that as many stockholders as
+possible will be present at the meeting. Because the vote of each stockholder
+is important, we ask that you sign and return the enclosed proxy card in the
+envelope provided, whether or not you now plan to attend the meeting. This
+will not limit your right to change your vote prior to or at the meeting.
+ 
+   We appreciate your interest in the Company. To assist us in preparation for
+the meeting, please return your proxy card at your earliest convenience.
+ 
+                                          Very truly yours,
+ 
+                                          /s/ CHRISTINE B. HOBERG
+                                          Christine B. Hoberg
+                                          Secretary
+<PAGE>
+ 
+                              NVIDIA CORPORATION
+                              3535 Monroe Street
+                             Santa Clara, CA 95051
+ 
+                               ----------------
+ 
+                 NOTICE OF 1999 ANNUAL MEETING OF STOCKHOLDERS
+ 
+                          TO BE HELD ON JUNE 17, 1999
+ 
+TO THE STOCKHOLDERS OF NVIDIA CORPORATION:
+ 
+   Notice Is Hereby Given that the 1999 Annual Meeting of Stockholders of
+NVIDIA Corporation, a Delaware corporation (the "Company"), will be held on
+Thursday, June 17, 1999 at 2:00 p.m. local time at The Marriott Hotel, 2700
+Mission College Boulevard, Santa Clara, California, for the following
+purposes:
+ 
+  1. To elect two directors to hold office until the 2002 Annual Meeting of
+     Stockholders;
+ 
+  2. To approve an amendment of the Company's 1998 Employee Stock Purchase
+     Plan to provide for annual increases to the number of shares reserved
+     for issuance thereunder at the end of each fiscal year, commencing at
+     the end of fiscal 2000;
+ 
+  3. To ratify the selection of KPMG LLP as independent accountants of the
+     Company for its fiscal year ending January 30, 2000; and
+ 
+  4. To transact such other business as may properly come before the meeting
+     or any adjournment or postponement thereof.
+ 
+   The foregoing items of business are more fully described in the Proxy
+Statement accompanying this Notice.
+ 
+   The Board of Directors has fixed the close of business on April 30, 1999,
+as the record date for the determination of stockholders entitled to notice of
+and to vote at this Annual Meeting of Stockholders and at any adjournment or
+postponement thereof.
+ 
+                                        By Order of the Board of Directors
+ 
+                                        /s/ CHRISTINE B. HOBERG
+                                        CHRISTINE B. HOBERG
+                                        Secretary
+ 
+Santa Clara, California
+May 17, 1999
+ 
+All Stockholders are cordially invited to attend the meeting in person.
+Whether or not you expect to attend the meeting, please complete, date, sign
+and return the enclosed proxy as promptly as possible in order to ensure your
+representation at the meeting. A return envelope (which is postage prepaid if
+mailed in the United States) is enclosed for that purpose. Even if you have
+given your proxy, you may still vote in person if you attend the meeting.
+Please note, however, that if your shares are held of record by a broker, bank
+or other nominee and you wish to vote at the meeting, you must obtain from the
+record holder a proxy issued in your name.
+<PAGE>
+ 
+                              NVIDIA CORPORATION
+                              3535 Monroe Street
+                             Santa Clara, CA 95051
+ 
+                               ----------------
+ 
+                                PROXY STATEMENT
+                    FOR 1999 ANNUAL MEETING OF STOCKHOLDERS
+                                 June 17, 1999
+ 
+                               ----------------
+ 
+                INFORMATION CONCERNING SOLICITATION AND VOTING
+ 
+General
+ 
+   The enclosed proxy is solicited on behalf of the Board of Directors of
+NVIDIA Corporation, a Delaware corporation (the "Company"), for use at the
+Annual Meeting of Stockholders to be held on June 17, 1999 at 2:00 p.m. local
+time (the "Annual Meeting"), or at any adjournment or postponement thereof,
+for the purposes set forth herein and in the accompanying Notice of Annual
+Meeting. The Annual Meeting will be held at The Marriott Hotel, 2700 Mission
+College Boulevard, Santa Clara, California. The Company intends to mail this
+proxy statement and accompanying proxy card on or about May 17, 1999, to all
+stockholders entitled to vote at the Annual Meeting.
+ 
+Solicitation
+ 
+   The Company will bear the entire cost of solicitation of proxies, including
+preparation, assembly, printing and mailing of this proxy statement, the proxy
+and any additional information furnished to stockholders. Copies of
+solicitation materials will be furnished to banks, brokerage houses,
+fiduciaries and custodians holding in their names shares of Common Stock
+beneficially owned by others to forward to such beneficial owners. The Company
+may reimburse persons representing beneficial owners of Common Stock for their
+costs of forwarding solicitation materials to such beneficial owners. Original
+solicitation of proxies by mail may be supplemented by telephone, telegram or
+personal solicitation by directors, officers or other regular employees of the
+Company. No additional compensation will be paid to directors, officers or
+other regular employees for such services.
+ 
+Voting Rights and Outstanding Shares
+ 
+   Only holders of record of Common Stock at the close of business on April
+30, 1999 will be entitled to notice of and to vote at the Annual Meeting. At
+the close of business on April 30, 1999, the Company had outstanding and
+entitled to vote 29,308,984 shares of Common Stock.
+ 
+   Each holder of Common Stock on such date will be entitled to one vote for
+each share held on all matters to be voted upon at the Annual Meeting.
+ 
+                                       1
+<PAGE>
+ 
+   All votes will be tabulated by the inspector of election appointed for the
+meeting, who will separately tabulate affirmative and negative votes,
+abstentions and broker non-votes. Abstentions will be counted towards the
+tabulation of votes cast on proposals presented to the stockholders and will
+have the same effect as negative votes. Broker non-votes are counted towards a
+quorum, but are not counted for any purpose in determining whether a matter
+has been approved.
+ 
+Revocability of Proxies
+ 
+   Any person giving a proxy pursuant to this solicitation has the power to
+revoke it at any time before it is voted. It may be revoked by filing with the
+Secretary of the Company at the Company's principal executive office, 3535
+Monroe Street, Santa Clara, CA 95051, a written notice of revocation or a duly
+executed proxy bearing a later date, or it may be revoked by attending the
+meeting and voting in person. Attendance at the meeting will not, by itself,
+revoke a proxy.
+ 
+Stockholder Proposals
+ 
+   The deadline for submitting a stockholder proposal for inclusion in the
+Company's proxy statement and form of proxy for the Company's 2000 Annual
+Meeting of Stockholders pursuant to Rule 14a-8 of the Securities Exchange Act
+of 1934, as amended (the "Exchange Act"), is January 17, 2000. If a
+stockholder proposal or nomination for director is not submitted in time for
+inclusion in the written proxy materials, such matter may be voted on at the
+annual meeting if it is submitted to the Company no earlier than the close of
+business on February 17, 2000 and no later than March 19, 2000. Stockholders
+are also advised to review the Company's Bylaws, which contain additional
+requirements with respect to advance notice of stockholder proposals and
+director nominations.
+ 
+                                  Proposal 1
+ 
+                             Election of Directors
+ 
+   The Company's Restated Certificate of Incorporation and Bylaws provide that
+the Board of Directors (the "Board") shall be divided into three classes, each
+class consisting, as nearly as possible, of one-third of the total number of
+directors, with each class having a three-year term. Vacancies on the Board
+may be filled only by persons elected by a majority of the remaining
+directors. A director elected by the Board to fill a vacancy (including a
+vacancy created by an increase in the Board) shall serve for the remainder of
+the full term of the class of directors in which the vacancy occurred and
+until such director's successor is elected and qualified.
+ 
+   The Board is presently composed of seven members. There are two directors
+in the class whose term of office expires in 1999. Each of the nominees for
+election to this class is currently a director of the Company. If elected at
+the Annual Meeting, each of the nominees would serve until the 2002 annual
+meeting and until his successor is elected and qualified, or until such
+director's earlier death, resignation or removal.
+ 
+   Directors are elected by a plurality of the votes present in person or
+represented by proxy and entitled to vote.
+ 
+                                       2
+<PAGE>
+ 
+   Set forth below is biographical information for each person nominated and
+each person whose term of office as a director will continue after the Annual
+Meeting.
+ 
+Nominees for Election for a Three-year Term Expiring at the 2002 Annual
+Meeting
+ 
+   Harvey C. Jones, Jr., 45, has served as a director of the Company since
+November 1993. Since December 1987, Mr. Jones has held various positions at
+Synopsys, Inc., a developer of electronic design automation products, where he
+served as President through December 1992, as Chief Executive Officer until
+January 1994 and as Chairman of the Board until February 1998. Prior to
+joining Synopsys, Mr. Jones served as President and Chief Executive Officer of
+Daisy Systems Corporation, an electronic design automation company that Mr.
+Jones co-founded in 1981. Mr. Jones currently serves on the board of directors
+of Synopsys and Remedy Corporation, a client/server applications software
+company. Mr. Jones holds a B.S. degree in Mathematics and Computer Sciences
+from Georgetown University and an M.S. degree in Management from the
+Massachusetts Institute of Technology.
+ 
+   William J. Miller, 53, has served as a director of the Company since
+November 1994. Mr. Miller has been Chief Executive Officer and Chairman of the
+Board of Avid Technology, Inc., a provider of digital tools for multimedia,
+since April 1996 and served as President of Avid Technology from September
+1996 until February 1999. From March 1992 to October 1995, Mr. Miller served
+as Chief Executive Officer of Quantum Corporation, a mass storage company. He
+was a member of the board of directors, and chairman thereof, from,
+respectively, May 1992 and September 1993 to August 1995. From 1981 to March
+1992, he served in various positions at Control Data Corporation, a supplier
+of computer hardware, software and services, most recently as Executive Vice
+President and President, Information Services. Mr. Miller holds B.A. and J.D.
+degrees from the University of Minnesota. Mr. Miller serves on the board of
+directors of Waters Corporation, a scientific instrument manufacturing
+company, and Innovex, Inc., a maker of fine wire and flexible circuit
+components.
+ 
+                       The Board Of Directors Recommends
+                    A Vote In Favor Of Each Named Nominee.
+ 
+Directors Continuing in Office Until the 2000 Annual Meeting
+ 
+   Tench Coxe, 40, has served as a director of the Company since June 1993.
+Mr. Coxe is a managing director of Sutter Hill Ventures, a venture capital
+investment firm. Prior to joining Sutter Hill Ventures in 1987, Mr. Coxe was
+Director of Marketing and MIS at Digital Communication Associates. Mr. Coxe
+holds a B.A. degree in Economics from Dartmouth College and an M.B.A. degree
+from Harvard Business School. Mr. Coxe also serves on the board of directors
+of Edify Corporation, a software company, Clarus Corporation, a software
+company, and several privately held companies.
+ 
+   Mark A. Stevens, 38, has served as a director of the Company since June
+1993. Mr. Stevens has been a general partner of Sequoia Capital, a venture
+capital investment firm, since March 1993. Prior to that time, beginning in
+July 1989, he was an associate at Sequoia Capital. Prior to joining Sequoia
+Capital, he held technical sales and marketing positions at Intel. Mr. Stevens
+holds a B.S.E.E. degree, a B.A. degree in Economics and an M.S. degree in
+Computer Engineering from the University of Southern California and an M.B.A.
+degree from Harvard Business School. Mr. Stevens currently serves on the board
+of directors of Aspect Development, Inc., a client/server applications
+software company, Terayon Communication Systems, Inc., a cable modem company,
+and several privately held companies.
+ 
+                                       3
+<PAGE>
+ 
+Directors Continuing in Office Until the 2001 Annual Meeting
+ 
+   James C. Gaither, 61, has served as a director of the Company since
+December 1998. Mr. Gaither has been a partner in the law firm of Cooley
+Godward LLP since 1971. Prior to beginning his law practice with the firm in
+1969, Mr. Gaither served as a law clerk to The Honorable Earl Warren, Chief
+Justice of the United States, Special Assistant to the Assistant Attorney
+General in the United States Department of Justice and Staff Assistant to the
+President of the United States, Lyndon Johnson. Mr. Gaither is a former
+president of the Board of Trustees at Stanford University and is a member of
+the Board of Trustees of the Carnegie Endowment for International Peace, RAND,
+The William and Flora Hewlett Foundation, and the James Irvine Foundation. Mr.
+Gaither currently serves on the board of directors of Amylin Pharmaceuticals,
+Inc., a biotechnology company, Basic American, Inc., a food processing
+company, Levi Strauss & Company, a manufacturer and marketer of brand-name
+apparel, and Siebel Systems, Inc., an information software systems company.
+Mr. Gaither holds a B.A. degree in Economics from Princeton University and a
+J.D. degree from Stanford University.
+ 
+   Jen-Hsun Huang, 36, co-founded the Company in April 1993 and has served as
+President, Chief Executive Officer and a member of the Board of Directors of
+the Company since its inception. From 1985 to 1993, Mr. Huang was employed at
+LSI Logic Corporation, a computer chip manufacturer, where he held a variety
+of positions, most recently as Director of Coreware business unit responsible
+for LSI's "system-on-a-chip" strategy. From 1983 to 1985, Mr. Huang was a
+microprocessor designer for Advanced Micro Devices, a semiconductor company.
+Mr. Huang holds a B.S.E.E. degree from Oregon State University and an M.S.E.E.
+degree from Stanford University.
+ 
+   A. Brooke Seawell, 51, has served as a director of the Company since
+December 1997. From January 1997 to August 1998, Mr. Seawell was Executive
+Vice President of NetDynamics, Inc., an Internet applications server company.
+From March 1991 to January 1997, Mr. Seawell was Senior Vice President and
+Chief Financial Officer of Synopsys. Mr. Seawell holds a B.A. degree in
+Economics and an M.B.A. degree in Finance and Accounting from Stanford
+University. Mr. Seawell serves on the board of directors of Informatica
+Corporation, a software company, and several privately held companies.
+ 
+Board Committees and Meetings
+ 
+   During the fiscal year ended January 31, 1999, the Board held eight (8)
+meetings. The Board has an Audit Committee and a Compensation Committee.
+ 
+   The Audit Committee meets with the Company's independent accountants at
+least annually to review the results of the annual audit and discuss the
+financial statements, recommends to the Board the independent accountants to
+be retained and receives and considers the accountants' comments as to
+controls, adequacy of staff and management performance and procedures in
+connection with audit and financial controls. The Audit Committee consists of
+two non-employee directors: Messrs. Seawell and Stevens. The Audit Committee
+was formed upon the effectiveness of the Company's initial public offering on
+January 21, 1999, and no meetings were held prior to the fiscal year ended
+January 31, 1999.
+ 
+   The Compensation Committee makes recommendations concerning salaries and
+incentive compensation, awards stock options to employees and consultants
+under the Company's stock option plans and otherwise determines compensation
+levels and performs such other functions regarding compensation as the Board
+may delegate. The Compensation Committee consists of two non-employee
+directors: Messrs. Coxe and Jones. It met five (5) times during such fiscal
+year.
+ 
+   During the fiscal year ended January 31, 1999, each Board member attended
+75% or more of the aggregate meetings of the Board and of the committees on
+which he served that were held during the period for which he was a director
+or committee member, respectively.
+ 
+                                       4
+<PAGE>
+ 
+                                  Proposal 2
+ 
+         Amendment to the Company's 1998 Employee Stock Purchase Plan
+ 
+   At the Annual Meeting, the stockholders are being asked to approve the
+amendment to the Company's 1998 Employee Stock Purchase Plan (the "Purchase
+Plan") to provide for annual increases to the number of shares of Common Stock
+reserved for issuance thereunder. These annual increases would occur at the
+end of each fiscal year (which occurs on the last Sunday in January), and the
+first increase would take place at the end of fiscal 2000. The Compensation
+Committee of the Board approved the amendment to the Purchase Plan in May
+1999. The Board previously reserved a total of 500,000 shares of Common Stock
+for issuance under the Purchase Plan. As of April 30, 1999, no shares had been
+issued to employees.
+ 
+   The initial offering under the Purchase Plan commenced on January 22, 1999
+(the "Initial Offering"), the effective date of the Company's initial public
+offering of Common Stock. The Initial Offering is divided into two shorter
+purchase periods of approximately six months in duration, with the initial
+purchase period ending on August 31, 1999 and the second purchase period
+ending on February 29, 2000. Thereafter, commencing on March 1, 2000, an
+offering will be one year in length, beginning on each March 1 and will be
+divided into two shorter Purchase Periods as described above. No purchases
+have occurred under the Purchase Plan to date. See "Purchase Price" below.
+ 
+   The purpose of the Purchase Plan is to provide employees of the Company
+with an opportunity to purchase Common Stock of the Company through
+accumulated payroll deductions. In connection with its initial public offering
+in January 1999, the Company implemented the Purchase Plan as an incentive to
+its employees and executives as a means to promote increased stockholder
+value. Management believes that stock ownership is one of the prime methods of
+attracting and retaining the key personnel responsible for the continued
+development and growth of the Company's business. In addition, an employee
+stock purchase plan is considered a competitive necessity in the high-
+technology industry.
+ 
+   Based upon current subscription rates, it is anticipated that approximately
+216,000 (43%) of the 500,000 shares in the share reserve will be purchased
+during the Initial Offering. It is probable that at least 216,000 of the
+remaining 284,000 shares will be purchased during the second offering, which
+starts on March 1, 2000, thereby creating a shortfall for the third offering
+starting on March 1, 2001(68,000 or fewer shares will be available). It is
+also possible that, during the second offering, employees will subscribe to
+purchase more than the remaining 284,000 shares in the share reserve, thereby
+creating a shortfall of available shares for the second offering. We expect
+the number of employees eligible to participate in the Purchase Plan will
+increase over time. As the number of employees eligible to participate
+increases, the subscription rates correspondingly will increase, creating the
+potential for additional shortfall.
+ 
+   In the case of a shortfall of shares reserved for issuance under the
+Purchase Plan, the "measurement date" cannot occur before stockholder approval
+is obtained (unless stockholder approval is perfunctory). As a result, if a
+shortfall is likely to occur during an offering, the Company is unable to seek
+stockholder approval for an increase to the share reserve during the course of
+the offering without incurring significant compensation charges. Therefore,
+the Compensation Committee has approved the amendment to the Purchase Plan
+that, annually for a period of 10 years, would automatically increase the
+shares reserved for issuance under the Purchase Plan according to a formula,
+and has proposed that it be approved by the stockholders at this Annual
+Meeting. While such an amendment minimizes the likelihood of a shortfall and
+resulting compensation charge, the Purchase Plan still will require periodic
+monitoring to ensure that no shortfall occurs.
+ 
+   In order to be able to attract and retain personnel in a competitive
+environment and at the same time minimize the possibility of incurring a
+charge to earnings if a shortfall were to occur, stockholders are requested in
+this Proposal 2 to approve the amendment to the Purchase Plan. As amended, the
+number of shares reserved for issuance under the Purchase Plan would be
+increased automatically each year at the end of the Company's fiscal year for
+the next 10 years (commencing at the end of fiscal 2000 and ending 10 years
+later in 2009) by an amount equal to 2% of the outstanding shares of the
+Company on each date, including, on an as-if-converted basis, Preferred Stock
+and convertible notes, as well as outstanding options and warrants, calculated
+using the
+ 
+                                       5
+<PAGE>
+ 
+treasury stock method ("Diluted Shares Outstanding"), up to a maximum
+aggregate increase of 6 million shares over the 10-year period. As of January
+31, 1999, 2% of the Diluted Shares Outstanding would be 700,111 shares. If a
+shortfall occurs and stockholder approval must be sought during an offering
+despite the automatic increase to the share reserve, the Compensation
+Committee may make a pro rata allocation of the shares remaining available for
+purchase in as uniform a manner as is practicable and as it determines to be
+equitable. If the amendment to the Purchase Plan is approved, a maximum of 6
+million additional shares would be reserved for issuance under the Purchase
+Plan and, therefore, the maximum aggregate number of shares that could be
+issued under the Purchase Plan as of the end of the Company's fiscal year in
+January of 2009 would be 6.5 million shares.
+ 
+   The affirmative vote of the holders of a majority of the shares present in
+person or represented by proxy and entitled to vote at the meeting will be
+required to approve the amendment to the Purchase Plan. Abstentions will be
+counted toward the tabulation of votes cast on proposals presented to the
+stockholders and will have the same effect as negative votes. Broker non-votes
+are counted towards a quorum, but are not counted for any purpose in
+determining whether this matter has been approved.
+ 
+   The essential terms of the Purchase Plan, as amended, are summarized as
+follows:
+ 
+Purpose
+ 
+   The purpose of the Purchase Plan is to provide employees of the Company and
+of any subsidiaries that are designated by the Board or the Compensation
+Committee to participate in the Purchase Plan with an opportunity to purchase
+Common Stock of the Company through accumulated payroll deductions. The
+Purchase Plan is intended to qualify under Section 423 of the Internal Revenue
+Code of 1986, as amended (the "Code"). As of January 31, 1999, approximately
+245 of the Company's approximately 248 employees were eligible to participate
+in the Purchase Plan.
+ 
+Administration
+ 
+   The Board administers the Purchase Plan. The Board determines all questions
+of interpretation or application of the Purchase Plan, and its decisions are
+final and binding upon all participants. No charge for administrative or other
+costs may be made against the payroll deductions of a participant in the
+Purchase Plan. Members of the Board receive no additional compensation for
+their services in connection with the administration of the Purchase Plan.
+ 
+   The Board has the power, subject to the provisions of the Purchase Plan, to
+determine when and how rights to purchase Common Stock of the Company will be
+granted, the provisions of each offering of such rights (which need not be
+identical), and whether employees of any parent or subsidiary of the Company
+will be eligible to participate in the Purchase Plan.
+ 
+   The Board has the power to delegate administration of the Purchase Plan to
+a committee composed of not fewer than two members of the Board. The Board has
+delegated administration of the Purchase Plan to the Compensation Committee of
+the Board. As used herein with respect to the Purchase Plan, the "Board"
+refers to the Compensation Committee as well as to the Board itself. The Board
+may return all or any part of the administration of the Purchase Plan back to
+itself at any time.
+ 
+Offering Periods
+ 
+   The Purchase Plan is implemented by offerings of rights to all eligible
+employees from time to time by the Compensation Committee. Generally, each
+offering is 12 months long and is divided into two shorter six-month purchase
+periods. Upon the completion of the Initial Offering on February 29, 2000, the
+offerings will commence on March 1 of each year. The Compensation Committee
+has the power to alter the duration of the offerings without stockholder
+approval.
+ 
+ 
+                                       6
+<PAGE>
+ 
+Eligibility
+ 
+   Employees (including officers and employee directors of the Company) are
+eligible to participate if they are customarily employed for at least 20 hours
+per week and five months per calendar year and are employed 10 days before the
+start of the offering. However, no employee will be granted an option under
+the Purchase Plan (i) to the extent that immediately after the grant such
+employee owns more than 5% of the voting power of outstanding capital stock of
+the Company or (ii) to the extent such employee's rights to purchase stock
+under all employee stock purchase plans of the Company accrues at a rate which
+exceeds $25,000 worth of stock for each calendar year in which such option is
+outstanding at any time. Eligible employees become participants in the
+Purchase Plan by delivering to the Company's payroll office at least 10 days
+before the start of the offering a subscription agreement authorizing payroll
+deductions. An employee who becomes eligible to participate in the Purchase
+Plan after the commencement of an offering (which generally will be March 1)
+may not participate in the Purchase Plan until the commencement of the second
+purchase period of that offering on September 1.
+ 
+Purchase Price
+ 
+   The price at which shares are sold to participating employees is 85% of the
+lesser of the fair market value per share of the Common Stock on (i) the first
+day of the offering or (ii) the last day of the applicable purchase period.
+The Company generally determines the fair market value of the Common Stock on
+a given date by reference to the closing sales price of the Nasdaq National
+Market. However, for the Initial Offering, the fair market value of the Common
+Stock on the first day of the Initial Offering was $12.00, the price per share
+at which shares of Common Stock were first sold to the public in the Company's
+initial public offering as specified in the final prospectus with respect to
+that offering.
+ 
+Payment of Purchase Price; Payroll Deductions
+ 
+   The purchase price of the shares is accumulated by payroll deductions over
+the offering. While the deductions may not exceed 15% of a participant's
+compensation, deductions are currently limited to only 10% of a participant's
+compensation. A participant may discontinue his or her participation in the
+Purchase Plan at any time up to 10 days before the end of a purchase period or
+the end of the offering. A participant may increase or decrease the rate of
+payroll deductions for a new purchase period or a new offering but, during the
+course of a purchase period, may only decrease such deductions once, excluding
+the 10 days before the end of the purchase period. Payroll deductions commence
+on the first payday following the offering date and continue at the same rate
+until the end of the offering unless sooner terminated as provided in the
+Purchase Plan.
+ 
+Purchase of Stock; Exercise of Option
+ 
+   By executing a subscription agreement to participate in the Purchase Plan,
+the employee is entitled to have shares placed under option to him or her. The
+maximum number of shares placed under option to a participant in an offering
+is the number arrived at by dividing the amount of his or her compensation
+which he or she has elected to have withheld for a given purchase period by
+the lesser of (i) 85% of the fair market value of a share of Common Stock at
+the beginning of the applicable offering period, or (ii) 85% of the fair
+market value of a share of Common Stock on the last day of the applicable
+purchase period. Subject to the limitation described under "Eligibility"
+above, unless the employee's participation is discontinued, the option for the
+purchase of shares will be exercised automatically at the end of the
+applicable purchase period at the applicable price.
+ 
+   However, if the number of shares which would otherwise be placed under
+option at the beginning of an offering exceeds the number of shares then
+available under the Purchase Plan, the Compensation Committee will make a pro
+rata allocation of the shares remaining in as equitable a manner as is
+practicable.
+ 
+Withdrawal
+ 
+   While each participant in the Purchase Plan is required to sign a
+subscription agreement authorizing payroll deductions, the participant's
+interest in a given offering may be terminated in whole, but not in part, by
+signing
+ 
+                                       7
+<PAGE>
+ 
+and delivering to the Company a notice of withdrawal from the Purchase Plan.
+Such withdrawal may be elected at any time prior to 10 days before the end of
+a purchase period or the end of the offering. Any withdrawal by the employee
+during a given offering automatically terminates the employee's interest in
+that offering.
+ 
+Termination of Employment
+ 
+   Termination of a participant's employment for any reason, including
+retirement or death, cancels his or her participation in the Purchase Plan
+immediately. In such event, the Company will return all payroll deductions
+credited to the participant's account, without interest, to such participant.
+ 
+Capital Changes
+ 
+   In the event of any changes in the capitalization of the Company that are
+effected without receipt of consideration by the Company, such as stock splits
+or stock dividends that result in an increase or decrease in the number of
+shares of Common Stock, appropriate adjustments will be made by the Company to
+the number of shares subject to purchase under the Purchase Plan and in the
+purchase price per share.
+ 
+Nonassignability
+ 
+   A participant in the Purchase Plan may not pledge, assign, or transfer for
+any reason any rights or accumulated payroll deductions of the participant
+under the Purchase Plan.
+ 
+Shares Reserved for Issuance under the Purchase Plan
+ 
+   A total of 500,000 shares of Common Stock has been reserved for issuance
+under the Purchase Plan. Subject to the approval of the stockholders, at the
+end of each of the Company's next 10 fiscal years (commencing in 2000 and
+ending 10 years later in 2009), the number of shares reserved under the
+Purchase Plan will be increased automatically by 2% of the Diluted Shares
+Outstanding on such date, up to a maximum aggregate increase of 6 million
+shares over the 10-year period.
+ 
+Amendment and Termination of the Purchase Plan
+ 
+   The Compensation Committee may at any time amend or terminate the Purchase
+Plan, except that such termination will not affect options previously granted,
+nor will any amendment make any changes in an option granted prior thereto
+that adversely affects the rights of any participant. No amendment may be made
+to the Purchase Plan without prior approval of the stockholders of the Company
+to the extent stockholder approval is necessary for the Purchase Plan to
+satisfy the requirements of Section 423 of the Code, Rule 16b-3 under the
+Exchange Act, or any Nasdaq or securities exchange listing requirements. The
+Purchase Plan will terminate at the time that all of the shares subject to the
+Plan's share reserve, as increased and/or adjusted from time to time, have
+been issued under the terms of the Purchase Plan, unless the Compensation
+Committee sooner terminates the Purchase Plan.
+ 
+Certain United States Federal Income Tax Information
+ 
+   Rights granted under the Purchase Plan are intended to qualify for
+favorable federal income tax treatment associated with rights granted under an
+employee stock purchase plan that qualifies under provisions of Section 423 of
+the Code.
+ 
+   A participant will be taxed on amounts withheld for the purchase of shares
+of Common Stock as if such amounts were actually received. Other than this, no
+income will be taxable to a participant until disposition of the acquired
+shares, and the method of taxation will depend upon the holding period of the
+acquired shares.
+ 
+   If the stock is disposed of at least two years after the beginning of the
+offering and at least one year after the stock is transferred to the
+participant, then the lesser of (i) the excess of the fair market value of the
+stock at
+ 
+                                       8
+<PAGE>
+ 
+the time of such disposition over the exercise price or (ii) the excess of the
+fair market value of the stock as of the beginning of the offering over the
+exercise price (determined as of the beginning of the offering) will be
+treated as ordinary income. Any further gain or any loss will be taxed as a
+long-term capital gain or loss. Such capital gains currently are generally
+subject to lower tax rates than ordinary income.
+ 
+   If the stock is sold or disposed of before the expiration of either of the
+holding periods described above, then the excess of the fair market value of
+the stock on the exercise date over the exercise price will be treated as
+ordinary income at the time of such disposition. The balance of any gain will
+be treated as capital gain. Even if the stock is later disposed of for less
+than its fair market value on the exercise date, the same amount of ordinary
+income is attributed to the participant, and a capital loss is recognized
+equal to the difference between the sales price and the fair market value of
+the stock on such exercise date. Any capital gain or loss will be short-term
+or long-term, depending on how long the stock has been held.
+ 
+   There are no federal income tax consequences to the Company by reason of
+the grant or exercise of rights under the Purchase Plan. The Company is
+entitled to a deduction to the extent amounts are taxed as ordinary income to
+a participant (subject to the requirement of reasonableness and the
+satisfaction of tax reporting obligations).
+ 
+   The foregoing is only a summary of the effect of federal income taxation
+upon the participant and the Company with respect to the shares purchased
+under the Purchase Plan. Reference should be made to the applicable provisions
+of the Code. In addition, the summary does not discuss the tax consequences of
+a participant's death or the income tax laws of any state or foreign country
+in which a participant may reside.
+ 
+Participation in the Purchase Plan
+ 
+   Participation in the Purchase Plan is voluntary and is dependent on each
+eligible employee's election to participate and such employee's determination
+as to the level of payroll deductions. Accordingly, future purchases under the
+Purchase Plan are not determinable. Non-employee directors are not eligible to
+participate in the Purchase Plan.
+ 
+   No shares have been purchased to date under the Purchase Plan. The first
+Purchase Date is scheduled to occur on August 31, 1999.
+ 
+                       The Board of Directors Recommends
+                         A Vote In Favor Of Proposal 2
+ 
+Summary of Other Employee Benefit Plans
+ 
+   The following information regarding the employee benefit plans of the
+Company is provided in order that stockholders can make a more informed
+decision regarding Proposal 2 to amend the Company's 1998 Employee Stock
+Purchase Plan.
+ 
+ 1998 Equity Incentive Plan
+ 
+   The Company's 1998 Equity Incentive Plan (the "Incentive Plan") was adopted
+in February 1998 and amended in March 1998 and replaced the Company's Equity
+Incentive Plan adopted in May 1993 (as amended in March 1995, January 1996 and
+December 1997). An aggregate of 16,778,606 shares of Common Stock currently
+are authorized for issuance under the Incentive Plan. However, each year on
+the last day of each fiscal year, the aggregate number of shares of Common
+Stock that are available for issuance will automatically be increased by a
+number of shares equal to five percent (5%) of the Company's outstanding
+Common Stock on such date, including on an as-if-converted basis Preferred
+Stock and convertible notes, and outstanding options and warrants, calculated
+using the treasury stock method.
+ 
+   The Incentive Plan provides for the grant of incentive stock options, as
+defined under the Code, to employees (including officers and employee
+directors) and nonstatutory stock options, restricted stock purchase awards
+and stock bonuses to employees (including officers and employee directors),
+directors and consultants of the Company and its affiliates. The Incentive
+Plan is administered by the Compensation Committee, which
+ 
+                                       9
+<PAGE>
+ 
+determines the recipients and types of awards to be granted, including the
+exercise price, number of shares subject to the award and the exercisability
+thereof.
+ 
+   The terms of options granted under the Incentive Plan may not exceed ten
+years. The Compensation Committee determines the exercise price of options
+granted under the Incentive Plan. However, the exercise price for an incentive
+stock option cannot be less than 100% of the fair market value of the Common
+Stock on the date of the option grant, and the exercise price for a
+nonstatutory stock option cannot be less than 85% of the fair market value of
+the Common Stock on the date of the option grant. Options granted under the
+Incentive Plan vest at the rate specified in the option agreement. Generally,
+the optionee may not transfer a stock option other than by will or the laws of
+descent or distribution. However, an optionee may designate a beneficiary who
+may exercise the option following the optionee's death. An optionee whose
+service relationship with the Company or any affiliate ceases for any reason
+may exercise vested options for a term provided in the option agreement.
+ 
+   No incentive stock option (and prior to the Company's stock being publicly
+traded, no nonstatutory stock option) may be granted to any person who, at the
+time of the grant, owns (or is deemed to own) stock possessing more than 10%
+of the total combined voting power of the Company or any affiliate of the
+Company, unless the option exercise price is at least 110% of the fair market
+value of the stock subject to the option on the date of grant and, for
+incentive stock options, the term of the option does not exceed five years
+from the date of grant. In addition, the aggregate fair market value,
+determined at the time of grant, of the shares of Common Stock with respect to
+which incentive stock options are exercisable for the first time by an
+optionee during any calendar year (under the Incentive Plan and all other
+stock plans of the Company and its affiliates) may not exceed $100,000.
+ 
+   When the Company becomes subject to Section 162(m) of the Code (which
+denies a deduction to publicly held corporations for certain compensation paid
+to specified employees in a taxable year to the extent that the compensation
+exceeds $1,000,000), no person may be granted options under the Incentive Plan
+covering more than one million shares of Common Stock in any calendar year.
+ 
+   Shares subject to stock awards that have expired or otherwise terminated
+without having been exercised in full again become available for the grant of
+awards under the Incentive Plan. The Compensation Committee has the authority
+to reprice outstanding options or to offer optionees the opportunity to
+replace outstanding options with new options for the same or a different
+number of shares. Both the original and new options will count toward the Code
+Section 162(m) limitation set forth above.
+ 
+   Restricted stock purchase awards granted under the Incentive Plan may be
+granted pursuant to a repurchase option in favor of the Company in accordance
+with a vesting schedule and at a price determined by the Compensation
+Committee. Stock bonuses may be awarded in consideration of past services
+without a purchase payment. Rights under a stock bonus or restricted stock
+bonus agreement generally may not be transferred other than by will or the
+laws of descent and distribution during such period as the stock awarded
+pursuant to such an agreement remains subject to the agreement.
+ 
+   If there is any sale of substantially all of the Company's assets, any
+merger or any consolidation in which the Company is not the surviving
+corporation, all outstanding awards under the Incentive Plan will be either
+assumed or substituted for by any surviving entity. If the surviving entity
+determines not to assume or substitute for such awards, the time during which
+awards held by persons still serving the Company or an affiliate may be
+exercised will be accelerated and the awards terminated if not exercised prior
+to the sale of assets, merger or consolidation.
+ 
+   As of April 30, 1999, options to purchase a total of 8,900,687 shares were
+outstanding under the 1998 Equity Incentive Plan and options to purchase
+2,561,201 shares remained available for grant thereunder. The Incentive Plan
+will terminate in February 2008 unless terminated by the Board before then.
+ 
+                                      10
+<PAGE>
+ 
+ 401(k) Plan
+ 
+   The Company maintains the NVIDIA Corporation 401(k) Retirement Plan (the
+"401(k) Plan") for eligible employees ("Participants"). A Participant may
+contribute up to 20% of his or her total annual compensation to the 401(k)
+Plan, up to a statutorily prescribed annual limit. The annual limit for
+calendar 1999 is $10,000. Each Participant is fully vested in his or her
+deferred salary contributions. Participant contributions are held and invested
+by the 401(k) Plan's trustee. The Company may make discretionary contributions
+as a percentage of Participant contributions, subject to established limits.
+To date, the Company has made no contributions to the 401(k) Plan on behalf of
+the Participants. The 401(k) Plan is intended to qualify under Section 401 of
+the Code, so that contributions by employees or by the Company to the 401(k)
+Plan, and income earned on the 401(k) Plan contributions, are not taxable to
+employees until withdrawn from the 401(k) Plan, and so that contributions by
+the Company, if any, will be deductible by the Company when made.
+ 
+                                  Proposal 3
+ 
+               Ratification Of Selection Of Independent Auditors
+ 
+   The Board has selected KPMG LLP as the Company's independent auditors for
+the fiscal year ending January 30, 2000 and has further directed that
+management submit the selection of independent auditors for ratification by
+the stockholders at the Annual Meeting. Representatives of KPMG LLP are
+expected to be present at the Annual Meeting, will have an opportunity to make
+a statement if they so desire and will be available to respond to appropriate
+questions.
+ 
+   Stockholder ratification of the selection of KPMG LLP as the Company's
+independent auditors is not required by the Company's Bylaws or otherwise.
+However, the Board is submitting the selection of KPMG LLP to the stockholders
+for ratification as a matter of good corporate practice. If the stockholders
+fail to ratify the selection, the Audit Committee and the Board will
+reconsider whether or not to retain that firm. Even if the selection is
+ratified, the Audit Committee and the Board in their discretion may direct the
+appointment of different independent auditors at any time during the year if
+they determine that such a change would be in the best interests of the
+Company and its stockholders.
+ 
+   The affirmative vote of the holders of a majority of the shares present in
+person or represented by proxy and entitled to vote at the Annual Meeting will
+be required to ratify the selection of KPMG LLP. Abstentions will be counted
+toward the tabulation of votes cast on proposals presented to the stockholders
+and will have the same effect as negative votes. Broker non-votes are counted
+towards a quorum, but are not counted for any purpose in determining whether
+this matter has been approved.
+ 
+                       The Board Of Directors Recommends
+                         A Vote In Favor Of Proposal 3
+ 
+                                      11
+<PAGE>
+ 
+                             Security Ownership Of
+                   Certain Beneficial Owners And Management
+ 
+   The following table sets forth certain information regarding the ownership
+of the Company's Common Stock as of April 30, 1999 by: (i) each director and
+nominee for director; (ii) each of the executive officers named in the Summary
+Compensation Table; (iii) all executive officers and directors of the Company
+as a group; and (iv) all those known by the Company to be beneficial owners of
+more than 5% of its Common Stock.
+ 
+<TABLE>
+<CAPTION>
+                                                     Beneficial Ownership(1)
+                                                     --------------------------
+                                                        Number       Percent
+Beneficial Owner                                      of Shares      of Total
+- ----------------                                     -------------- -----------
+<S>                                                  <C>            <C>
+Entities associated with Sequoia Capital VI (2)....       3,095,902       10.6%
+ 3000 Sand Hill Road
+ Suite 280, Building 4
+ Menlo Park, CA 94025
+Entities associated with Sutter Hill Ventures (3)..       2,150,429        7.3%
+ 755 Page Mill Road, Suite A-200
+ Palo Alto, CA 94304
+Jen-Hsun Huang (4)(5)..............................       2,904,500        9.9%
+Jeffrey D. Fisher (4)(6)...........................         314,512        1.1%
+Chris A. Malachowsky (4)(7)........................       3,028,615       10.3%
+Curtis R. Priem (4)(8).............................       3,078,125       10.5%
+Richard J. Whitacre (9)............................         252,175          *
+ 14070 Shadow Oaks Way
+ Saratoga, CA 95070
+Tench Coxe (3)(10).................................       2,324,593        7.9%
+James C. Gaither (11)..............................         234,797          *
+Harvey C. Jones, Jr. (12)..........................         291,834          *
+William J. Miller (13).............................         203,594          *
+A. Brooke Seawell (14).............................          57,050          *
+Mark A. Stevens (2) (15)...........................       3,167,152       10.8%
+All current directors and executive officers as a
+ group (12 persons) (16)...........................      13,352,252       44.9%
+</TABLE>
+- --------
+  *  Represents beneficial ownership of less than 1% of the outstanding shares
+     of the Company's Common Stock.
+ (1) This table is based upon information supplied by officers, directors and
+     principal stockholders. Unless otherwise indicated in the footnotes to
+     this table and subject to community property laws where applicable, the
+     Company believes that each of the stockholders named in this table has
+     sole voting and investment power with respect to the shares indicated as
+     beneficially owned. Applicable percentages are based on 29,308,984 shares
+     outstanding on April 30, 1999, adjusted as required by rules promulgated
+     by the Securities and Exchange Commission.
+ (2) Includes (a) 2,566,589 shares held by Sequoia Capital VI, (b) 258,947
+     shares held by Sequoia Capital Growth Fund, (c) 141,021 shares held by
+     Sequoia Technology Partners VI, (d) 81,237 shares held by Sequoia XXIII,
+     (e) 27,778 shares held by Sequoia XXIV, (f) 16,528 shares held by Sequoia
+     Technology Partners III, (g) 2,433 shares held by SQP 1997 and (h) 1,369
+     shares held by Sequoia 1997. Mr. Stevens, a director of the Company, is a
+     general partner of Sequoia Capital VI and a general partner of Sequoia
+     Technology Partners VI, and therefore may be deemed to beneficially own
+     the shares currently owned by such entities. Mr. Stevens disclaims
+     beneficial ownership of the shares held by such entities, except to the
+     extent of his pecuniary interest therein.
+ (3) Includes 1,291,505 shares held by Sutter Hill Ventures, a California
+     Limited Partnership ("Sutter Hill"). Mr. Coxe, a director of the Company,
+     shares voting and investment power with four other managing directors of
+     Sutter Hill Ventures LLC, the general partner of Sutter Hill. Includes
+     858,924 shares held of record by five managing directors of Sutter Hill
+     Ventures LLC and their related family entities. Mr. Coxe
+ 
+                                      12
+<PAGE>
+ 
+    disclaims beneficial ownership of the shares held by the other persons and
+    entities associated with Sutter Hill, except to the extent of his pecuniary
+    interest therein.
+ (4) The address for Messrs. Huang, Fisher, Malachowsky and Priem is c/o NVIDIA
+     Corporation, 3535 Monroe Street, Santa Clara, California 95051.
+ (5) Includes 2,308,900 shares held by The Jen-Hsun and Lori Huang Living Trust
+     dated May 1, 1995, of which Mr. Huang is the trustee, and 250,600 shares
+     held by J. and L. Huang Investments, L.P., of which Mr. Huang and his wife
+     are general partners. Also includes 220,000 shares held by Karen Mills
+     Gambee, as Trustee of The Jen-Hsun Huang and Lori Lynn Huang 1995
+     Irrevocable Children's Trust, as to which Mr. Huang does not have voting
+     or dispositive power or beneficial ownership. Includes 125,000 shares of
+     Common Stock issuable upon exercise of vested options within 60 days of
+     April 30, 1999. Does not include 220,500 shares that Mr. Huang has given
+     to various family members, as to which Mr. Huang does not have voting or
+     dispositive power.
+ (6) Includes 45,000 shares held by Jeffrey D. Fisher, as custodian for his
+     three minor children under the Uniform Gifts to Minors Act. Includes
+     90,312 shares of Common Stock issuable upon exercise of vested options
+     within 60 days of April 30, 1999.
+ (7) Includes 2,051,990 shares held by The Chris and Melody Malachowsky Living
+     Trust dated October 20, 1994, of which Mr. Malachowsky is the trustee, and
+     238,500 shares held by Malachowsky Investments L.P., of which Mr.
+     Malachowsky and his wife are general partners. Also includes 660,000
+     shares held by John M. Scott, as Trustee of The Chris and Melody
+     Malachowsky 1994 Irrevocable Trust, as to which Mr. Malachowsky does not
+     have voting or dispositive power or beneficial ownership. Includes 78,125
+     shares of Common Stock issuable upon exercise of vested options within 60
+     days of April 30, 1999. Does not include 49,510 shares that Mr.
+     Malachowsky has given to various family members, as to which Mr.
+     Malachowsky does not have voting or dispositive power.
+ (8) Includes 78,125 shares of Common Stock issuable upon exercise of vested
+     options within 60 days of April 30, 1999.
+ (9) Mr. Whitacre resigned as an executive officer on October 1, 1998.
+(10) Includes 12,500 shares subject to a right of repurchase that expires
+     ratably through July 2000 and 22,500 shares of Common Stock issuable upon
+     exercise of vested options within 60 days of April 30, 1999.
+(11) Includes 12,500 shares subject to a right of repurchase that expires
+     ratably through July 2000. Also includes 71,166 shares held by Cooley
+     Godward LLP, of which Mr. Gaither is a partner, and 105,925 shares held by
+     GC&H Investments, of which Mr. Gaither is a general partner. Mr. Gaither
+     disclaims beneficial ownership of such shares held by such entities,
+     except to the extent of his pecuniary interest therein.
+(12) Includes 17,500 shares subject to a right of repurchase that expires
+     ratably through July 2000 and 22,500 shares of Common Stock issuable upon
+     exercise of vested options within 60 days of April 30, 1999.
+(13) Includes 12,500 shares subject to a right of repurchase that expires
+     ratably through July 2000 and 21,250 shares of Common Stock issuable upon
+     exercise of vested options within 60 days of April 30, 1999.
+(14) Includes 57,050 shares of Common Stock issuable upon exercise of vested
+     options within 60 days of April 30, 1999.
+(15) Includes 12,500 shares subject to a right of repurchase that expires
+     ratably through July 2000 and 21,250 shares of Common Stock issuable upon
+     exercise of vested options within 60 days of April 30, 1999.
+(16) Includes 25,000 shares held by Mark K. Allen, an executive officer.
+     Includes 516,112 shares issuable upon exercise of options held by all
+     current directors and executive officers within 60 days of April 30, 1999.
+     Includes 67,500 held by current directors that are subject to rights of
+     repurchase. See footnotes (5)--(8) and (10)--(15).
+ 
+                                       13
+<PAGE>
+ 
+Section 16(a) Beneficial Ownership Reporting Compliance
+ 
+   Section 16(a) of the Exchange Act requires the Company's directors and
+executive officers, and persons who own more than ten percent of a registered
+class of the Company's equity securities, to file with the SEC initial reports
+of ownership and reports of changes in ownership of Common Stock and other
+equity securities of the Company. Officers, directors and greater than ten
+percent stockholders are required by SEC regulation to furnish the Company
+with copies of all Section 16(a) forms they file.
+ 
+   To the Company's knowledge, based solely on a review of the copies of such
+reports furnished to the Company and written representations that no other
+reports were required, during the fiscal year ended January 31, 1999, all
+Section 16(a) filing requirements applicable to its officers, directors and
+greater than ten percent beneficial owners were complied with.
+ 
+                            Executive Compensation
+ 
+Compensation of Directors
+ 
+   Directors do not receive any cash compensation for their services as
+members of the Board of Directors, although they are reimbursed for certain
+expenses incurred in connection with attendance at Board and committee
+meetings. From time to time, certain non-employee directors of the Company
+have received grants of options to purchase shares of the Company's Common
+Stock. In July 1996, each of Messrs. Coxe and Stevens was granted an option to
+purchase 50,000 shares of the Company's Common Stock at an exercise price of
+$.36 per share. In December 1998, Mr. Gaither was granted an option to
+purchase 50,000 shares of the Company's Common Stock at an exercise price of
+$7.00 per share. In November 1993 and August 1996, Mr. Jones was granted
+options to purchase 75,000 and 70,000 shares of the Company's Common Stock at
+exercise prices of $.05 and $.36 per share, respectively. In November 1994 and
+September 1996, Mr. Miller was granted options to purchase 75,000 and 50,000
+shares of the Company's Common Stock at exercise prices of $.05 and $.36 per
+share, respectively. In December 1997 and December 1998, Mr. Seawell was
+granted options to purchase 50,000 and 32,050 shares of the Company's Common
+Stock at exercise prices of $3.15 and $7.00 per share, respectively.
+ 
+   Each non-employee director of the Company receives nonstatutory stock
+option grants under the Company's 1998 Non-Employee Directors' Stock Option
+Plan (the "Directors' Plan"). Only non-employee directors of the Company or an
+affiliate of such directors are eligible to receive options under the
+Director's Plan.
+ 
+   Option grants under the Director's Plan are non-discretionary. Each person
+who is elected or appointed for the first time to be a non-employee director
+automatically will, upon the date of his or her initial election or
+appointment to be a non-employee director by the Board or stockholders of the
+Company, be granted an option to purchase 50,000 shares of Common Stock (an
+"Initial Grant"). On the day following each Annual Meeting of Stockholders of
+the Company ("Annual Meeting") commencing with the Annual Meeting in 1999,
+each member of the Company's Board who is not an employee of the Company is
+automatically granted one or more options to purchase shares of Common Stock
+without further action by the Company, the Board or the stockholders of the
+Company as follows: (i) Each non-employee director will be granted an option
+to purchase 20,000 shares of Common Stock of the Company (an "Annual Grant");
+provided, however, that if the person has not been serving as a non-employee
+director for the entire period since the prior Annual Meeting, then the number
+of shares granted will be reduced pro rata for each full quarter prior to the
+date of grant during which such person did not serve as a non-employee
+director; and (ii) each non-employee director who is a member of a committee
+of the Board will be granted an option to purchase 5,000 shares of Common
+Stock of the Company for each such committee (a "Committee Grant"); provided,
+however, that if the person has not been serving on such committee since the
+prior Annual Meeting, then the number of shares granted will be reduced pro
+rata for each full quarter prior to the date of grant during which such person
+did not serve as a non-employee director.
+ 
+   Initial Grants will vest monthly over the four-year period following the
+date of grant such that the entire Initial Grant will become exercisable on
+the fourth anniversary of the date of grant. With respect to Annual
+ 
+                                      14
+<PAGE>
+ 
+Grants and Committee Grants, if the optionee has attended at least 75% of the
+regularly scheduled meetings of the Board or the committee, as applicable,
+held between the date of grant of the option and the one-year anniversary of
+the date of grant of the option, then such option will vest and become
+exercisable in full on the one-year anniversary of the date of grant. If the
+optionee's service as a director or committee member, as the case may be,
+terminates between the date of grant of the option and the one-year
+anniversary of the date of grant of the option due to the disability or death
+of the optionee, then the option will immediately vest and become exercisable
+on a monthly pro rata basis. If the director fails to attend at least 75% of
+the regularly scheduled meetings of the Board or the committee, as applicable,
+then such director's option will vest annually over the four-year period
+following the date of grant at the rate of 10% per year for the first three
+years and 70% for the fourth year, such that the entire option will become
+exercisable on the four-year anniversary of the date of grant of the option.
+ 
+   The exercise price of the options granted under the Directors' Plan is
+equal to the fair market value of the Common Stock on the date of grant. No
+option granted under the Directors' Plan may be exercised after the expiration
+of 10 years from the date it was granted. Options granted under the Directors'
+Plan generally are non-transferable except to family members, a family trust,
+a family partnership or a family limited liability company. However, an
+optionee may designate a beneficiary who may exercise the option following the
+optionee's death. An optionee whose service relationship with the Company or
+any affiliate (whether as a non-employee director of the Company or
+subsequently as an employee, director or consultant of either the Company or
+an affiliate) ceases for any reason, may exercise vested options for the term
+provided in the option agreement (12 months generally, 18 months in the event
+of death).
+ 
+   If there is any sale of substantially all of the Company's assets, any
+merger or any consolidation in which the Company is not the surviving
+corporation or other change in control of the Company, all outstanding awards
+under the Directors' Plan either will be assumed or substituted for by any
+surviving entity. If the surviving entity determines not to assume or
+substitute for such awards, the awards will terminate if not exercised prior
+to such sale of assets, merger or consolidation.
+ 
+   On March 30, 1998, each of Messrs. Coxe, Jones, Miller and Stevens was
+automatically granted an option to purchase 20,000 shares of the Company's
+Common Stock; Mr. Seawell was automatically granted an option to purchase
+5,000 shares of the Company's Common Stock; each of Messrs. Coxe and Jones was
+automatically granted an option to purchase 2,500 shares of the Company's
+Common Stock; and each of Messrs. Miller, Seawell and Stevens was
+automatically granted an option to purchase 1,250 shares of the Company's
+Common Stock. Each of these options was granted under the Director's Plan at
+fair market value on the date of grant.
+ 
+   As of April 30, 1999, options to purchase 143,750 shares of Common Stock
+were outstanding and 156,250 shares remained available for future grant under
+the Directors' Plan. Unless terminated sooner, the Directors' Plan will
+terminate in February 2008.
+ 
+   The Company has entered into indemnity agreements with each of the
+Company's directors and executive officers. The form of indemnity agreement
+provides, among other things, that the Company will indemnify such executive
+officer and director, under the circumstances and to the extent provided for
+therein, for any and all expenses he or she may be required to pay in actions
+or proceedings because of his or her status as a director or executive officer
+of the Company, to the fullest extent permitted by the Company's Bylaws and
+Delaware law.
+ 
+                                      15
+<PAGE>
+ 
+Compensation of Executive Officers
+ 
+   The following table shows for the fiscal years ended January 31, 1999 and
+December 31, 1997, compensation awarded or paid to, or earned by, the
+Company's Chief Executive Officer and its other four most highly compensated
+executive officers receiving compensation in excess of $100,000 in fiscal year
+1999 (the "Named Executive Officers").
+ 
+                          Summary Compensation Table
+ 
+<TABLE>
+<CAPTION>
+                                                      Long Term
+                                          Annual     Compensation
+                                       Compensation     Awards
+                                       ------------  ------------
+                                                      Securities   All Other
+                                                      Underlying  Compensation
+Name and Principal Position    Year(1)  Salary ($)   Options (#)     ($)(1)
+- ---------------------------    ------- ------------  ------------ ------------
+<S>                            <C>     <C>           <C>          <C>
+Jen-Hsun Huang................  1999     $250,000      400,000      $10,389(2)
+ President and Chief Executive  1997      149,134            0           --
+ Officer
+ 
+Jeffrey D. Fisher.............  1999      298,683(3)   100,000
+ Vice President, Sales          1997      202,122(3)    75,000
+ 
+Chris A. Malachowsky..........  1999      183,461      250,000        2,505(2)
+ Vice President, Engineering    1997      135,721            0           --
+ 
+Curtis R. Priem ..............  1999      180,000      250,000        3,792(2)
+ Chief Technical Officer        1997      133,125            0           --
+ 
+Richard J. Whitacre(4) .......  1999      154,612            0           --
+ Former Vice President,         1997      138,750      175,000           --
+ Operations and Corporate
+ Engineering
+</TABLE>
+- --------
+(1) Effective January 1, 1998, the Company changed its fiscal year-end
+    financial reporting period from December 31 to January 31. Effective
+    February 1, 1998, the Company changed its fiscal year end from January 31
+    to a 52- or 53-week year ending on the last Sunday in January.
+(2) Represents market value of commemorative gift of property, including
+    income taxes incurred for such gift, received in recognition of five (5)
+    years of service to the Company. With respect to Mr. Huang, also includes
+    cash value of unused vacation in the amount of $7,692.
+(3) Includes sales commissions of $98,683 and $102,122 in 1999 and 1997,
+    respectively.
+(4) Mr. Whitacre resigned as an executive officer on October 1, 1998.
+ 
+                                      16
+<PAGE>
+ 
+                       Stock Option Grants And Exercises
+ 
+   The Company grants options to its executive officers under its 1998 Equity
+Incentive Plan. As of April 30, 1999, options to purchase a total of 8,900,687
+shares were outstanding under the 1998 Equity Incentive Plan and options to
+purchase 2,561,201 shares remained available for grant thereunder.
+ 
+   The following tables show for the fiscal year ended January 31, 1999,
+certain information regarding options granted to, exercised by, and held at
+year end by, the Named Executive Officers:
+ 
+                       Option Grants In Last Fiscal Year
+ 
+<TABLE>
+<CAPTION>
+                                 Individual Grants
+                          -------------------------------
+                                                                                Potential Realizable Value
+                             Number of      % of Total                            at Assumed Annual Rates
+                            Securities        Options                           of Stock Price Appreciation
+                            Underlying      Granted to     Exercise                 for Option Term (4)
+                              Options      Employees in     Price    Expiration ----------------------------
+          Name            Granted (#) (1) Fiscal Year (2) ($/Sh) (3)    Date       5% ($)        10% ($)
+          ----            --------------- --------------- ---------- ---------- ------------- --------------
+<S>                       <C>             <C>             <C>        <C>        <C>           <C>
+Jen-Hsun Huang..........      400,000           6.4%        $7.315     2/2/08   $   1,406,860 $   3,973,355
+Jeffrey D. Fisher.......      100,000           1.6%        $7.00     12/7/08   $     440,226 $   1,115,620
+Chris A. Malachowsky....      250,000           4.0%        $7.315     2/2/08   $     879,287 $   2,483,347
+Curtis R. Priem.........      250,000           4.0%        $7.315     2/2/08   $     879,287 $   2,483,346
+Richard J. Whitacre(5)..           --            --             --         --              --            --
+</TABLE>
+- --------
+(1) Options generally vest at a rate of 25% on the first anniversary of the
+    vesting commencement date and 6.25% each quarter thereafter and have a
+    term of 10 years.
+(2) Based on an aggregate of 6,237,500 shares subject to options granted to
+    persons who were employees, directors or consultants of the Company in the
+    fiscal year ended January 31, 1999, including the Named Executive
+    Officers.
+(3) The exercise price per share for Mr. Fisher's option was equal to the fair
+    market value of the Common Stock on the date of grant as determined by the
+    Board. The exercise price per share for each of the options granted to
+    Messrs. Huang, Malachowsky and Priem was equal to 110% of the fair market
+    value of the Common Stock on the date of grant as determined by the Board,
+    as each owned greater than 10% of the combined voting power of the Company
+    on the date of grant.
+(4) The potential realizable value is calculated based on the term of the
+    option at the time of grant (10 years). It is calculated assuming that the
+    fair market value of the Company's Common Stock on the date of grant
+    appreciates at the indicated annual rate compounded annually for the
+    entire term of the option and that the option is exercised at the exercise
+    price and sold on the last day of its term at the appreciated price. Stock
+    price appreciation of 5% and 10% is assumed pursuant to rules promulgated
+    by the Securities and Exchange Commission and does not represent the
+    Company's prediction of its stock price performance.
+(5) Mr. Whitacre resigned as an executive officer on October 1, 1998.
+ 
+                                      17
+<PAGE>
+ 
+                Aggregated Option Exercises in last Fiscal Year
+                       and Fiscal Year-end Option Values
+ 
+   This table sets forth for each Named Executive Officer the number and value
+of securities underlying unexercised options at January 31, 1999.
+ 
+<TABLE>
+<CAPTION>
+                                                        Number of Securities              Value of Unexercised
+                                                   Underlying Unexercised Options         In-the-Money Options
+                            Shares       Value           at January 31, 1999             at January 31, 1999(2)
+                         Acquired on   Realized   --------------------------------- ---------------------------------
+Name                     Exercise (#)     ($)     Exercisable (#) Unexercisable (#) Exercisable ($) Unexercisable ($)
+- ----                     ------------ ----------- --------------- ----------------- --------------- -----------------
+<S>                      <C>          <C>         <C>             <C>               <C>             <C>
+Jen-Hsun Huang..........         0    $      0.00          0           400,000       $        0.00    $4,674,000.00
+Jeffrey D. Fisher.......         0    $      0.00     66,562           168,438       $1,240,716.00    $2,475,684.32
+Chris A. Malachowsky....         0    $      0.00          0           250,000       $        0.00    $2,921,250.00
+Curtis R. Priem.........         0    $      0.00          0           250,000       $        0.00    $2,921,250.00
+Richard Whitacre(3).....    69,375    $460,650.00          0                 0       $        0.00    $        0.00
+</TABLE>
+- --------
+(1) Based on the difference between $19.00 (the fair market value of the
+    Company's Common Stock on January 31, 1999) and the exercise price.
+(2) Mr. Whitacre resigned as an executive officer on October 1, 1998.
+ 
+Compensation Committee Interlocks and Insider Participation
+ 
+   Prior to October 1997, the Company did not have a Compensation Committee of
+the Board, and the entire Board participated in all compensation decisions,
+except that Mr. Huang did not participate in decisions relating to his
+compensation. In October 1997, the Board formed the Compensation Committee to
+review and recommend to the Board the compensation and benefits for the
+Company's executive officers and administer the Company's stock purchase and
+stock option plans. No current member of the Compensation Committee is an
+officer or employee of the Company and no executive officer of the Company
+serves as a member of a compensation committee of any entity that has one or
+more executive officers serving as a member of the Compensation Committee.
+Each of the Company's directors, or their affiliated entities, other than Mr.
+Seawell, have purchased and hold securities of the Company. In consideration
+for his services as interim Chief Financial Officer of the Company during the
+last quarter of fiscal 1999, the Company granted Mr. Seawell an option to
+purchase 32,050 shares of Common Stock of the Company at an exercise price of
+$7.00 per share in January 1999.
+ 
+        Report of the Compensation Committee of the Board of Directors
+                         on Executive Compensation/1/
+ 
+Introduction
+ 
+   The Company's executive compensation policies and practices are established
+and administered by the Compensation Committee of the Board of Directors (the
+"Committee"). The Committee consists of two non-employee directors: Tench Coxe
+and Harvey C. Jones, Jr. The Committee's determinations regarding compensation
+of the Chief Executive Officer and other executive officers are reviewed with
+all the non-employee directors.
+ 
+Philosophy
+ 
+   The Committee has implemented compensation policies, plans and programs
+that seek to enhance stockholder value by aligning the financial interests of
+the executive officers with those of the stockholders. The Company's
+philosophy regarding base salaries for executives is conservative, with the
+goal of maintaining base salaries at the industry median for comparable
+companies. The Company also provides significant equity-based compensation
+pursuant to its 1998 Equity Incentive Plan and 1998 Employee Stock Purchase
+Plan (collectively,
+- --------
+/1/ The material in this report is not "soliciting material," is not deemed
+"filed" with the SEC, and is not to be incorporated by reference into any
+filing of the Company under the Securities Act of 1933, as amended, or the
+Exchange Act, whether made before or after the date hereof and irrespective of
+any general incorporation language contained in such filing.
+ 
+                                      18
+<PAGE>
+ 
+the "Plans"). The Plans are designed to provide a longer-term incentive to
+management to grow revenues, provide quality returns on investment, enhance
+stockholder value and contribute to the long-term growth of the Company. To
+date, the Committee has not established a cash bonus plan nor awarded cash
+bonuses to executive officers.
+ 
+Compensation Plans
+ 
+   The Company's executive compensation is based on two components, each of
+which is intended to support the overall compensation philosophy.
+ 
+   Base Salary. The Committee recognizes the importance of maintaining
+compensation levels competitive with semiconductor and other leading
+technology companies with which the Company competes for personnel. Base
+salary is targeted at the median level for emerging companies in similar
+businesses of similar characteristics such as sales volume, capitalization and
+financial performance. The Committee reviews with the Chief Executive Officer
+an annual salary plan for the Company's executive officers (other than the
+Chief Executive Officer). The salary plan is modified as deemed appropriate
+and approved by the Committee. The annual salary plan is developed based on an
+annual review of executive salaries at semiconductor and other comparable
+technology companies, including the Radford Survey. The industry group shown
+on the Company's Performance Measurement Comparison Graph includes larger
+companies included in such compensation survey, as well as companies of
+comparable size within the fabless semiconductor sector. Such annual plan also
+takes into account past performance and expected future contributions of the
+individual executive.
+ 
+   Equity Incentives. Long-term equity incentives are provided through grants
+of stock options to executive officers and other key employees pursuant to the
+Company's 1998 Equity Incentive Plan. This component of compensation is
+intended to retain and motivate employees to improve the performance of the
+Company's stock. The Committee believes this element of the total compensation
+program directly links the participant's interests with those of the
+stockholders and the long-term value of the Company. Stock options are granted
+at not less than fair market value and have value only if the Company's stock
+price increases. Stock options granted generally become exercisable at a rate
+of 25% beginning on the first anniversary of the vesting commencement date,
+with the remainder vesting on a quarterly basis over the following three
+years. Options terminate 10 years after the date of grant. The vesting
+provisions of the options are intended to insure that employees are provided
+with an incentive to increase value over the long term.
+ 
+   Executive officers are also generally eligible to participate in the
+Company's 1998 Employee Stock Purchase Plan. Participation levels in such Plan
+are at the discretion of each executive. However, as a result of applicable
+laws regarding stock ownership, Messrs. Huang, Malachowsky and Priem are not
+eligible to participate in this Plan.
+ 
+   Prior to fiscal 1997, cash compensation for executive officers of the
+Company was targeted to be in the lower range for comparable companies, and
+the Company used stock compensation as the primary incentive to attract and
+motivate its executive officers. In fiscal 1999, the Compensation Committee
+adjusted the base salary component of executive compensation to bring it in
+line with industry medians. The Committee seeks to provide equity compensation
+for executive officers, including the Chief Executive Officer, that is equal
+to levels at comparable companies. Within such range, option amounts are based
+on salary grade within the Company and individual performance goals.
+ 
+   After considering the criteria above, the Committee determined that all
+executive officers, including the Chief Executive Officer, should receive
+option grants in the last fiscal year. The table on page 17 reflects such
+grants. Out of a total of 6,237,500 options granted in fiscal 1999, executive
+officers of the Company received grants for 1,620,000 shares, or approximately
+26% of the total options granted in fiscal 1999. The Committee believes that
+the programs described above provide compensation that is competitive with
+comparable emerging technology companies, link executive and stockholder
+interests and provide the basis for the Company to attract and retain
+qualified executives. The Committee will continue to monitor the relationship
+among executive compensation, the Company's performance and stockholder value.
+ 
+                                      19
+<PAGE>
+ 
+ Chief Executive Officer Compensation
+ 
+   The Committee uses the procedures described above in setting the annual
+salary and equity awards for Jen-Hsun Huang, the Company's Chief Executive
+Officer. The Committee reviews and establishes the base salary of Mr. Huang
+based on compensation data for comparable companies and the Committee's
+assessment of his past performance and its expectation as to his future
+contributions in directing the long-term success of the Company. Mr. Huang's
+base salary was increased from $120,000 in fiscal 1996 to $150,000 in fiscal
+1997. In fiscal 1999, the Committee elected to increase Mr. Huang's base
+salary to $250,000, after reviewing comparable data and concluding that his
+salary was significantly below the average for chief executive officers at
+comparable companies. The table on page 16 reflects Mr. Huang's base salary
+for fiscal 1997 and 1999.
+ 
+   In fiscal 1999, the Committee reviewed the performance of Mr. Huang and his
+equity compensation package. In January 1999, Mr. Huang was granted an option
+to acquire 400,000 shares of common stock at 110% of the fair market value of
+the stock on such date. This option vests on a quarterly basis over four years
+following the date of the grant. This grant was intended to continue to
+maintain the overall competitiveness of Mr. Huang's compensation package and
+strengthen the alignment of Mr. Huang's interests with those of the
+stockholders during a critical phase of the Company's development. The
+Committee intends to continue to monitor Mr. Huang's compensation level in
+light of his performance and the compensation levels of executives at
+comparable companies.
+ 
+                                          Compensation Committee
+ 
+                                          Tench Coxe
+                                          Harvey C. Jones, Jr.
+ 
+                                      20
+<PAGE>
+ 
+                     Performance Measurement Comparison/1/
+ 
+   The following graph shows a comparison of total stockholder return of an
+investment of $100 in cash on January 22, 1999 (the date the Company's Common
+Stock began trading on the Nasdaq National Market), January 29, 1999 (the last
+trading day of the Company's fiscal year), February 26, 1999 and March 31,
+1999, in (i) the Company's Common Stock; (ii) the Hambrecht & Quist Technology
+Index; and (iii) the Nasdaq Stock Market (U.S.). Historic stock price
+performance is not necessarily indicative of future stock price performance.
+All values assume reinvestment of the full amount of all dividends.
+ 
+               COMPARISON  OF  CUMULATIVE TOTAL  RETURN  AMONG
+                  NVIDIA   CORPORATION,  THE  HAMBRECHT   &
+                     QUIST  TECHNOLOGY  INDEX   AND  THE
+                         NASDAQ STOCK MARKET (U.S.)
+ 
+ 
+ 
+ 
+                       [PERFORMANCE GRAPH APPEARS HERE]
+<TABLE>
+<CAPTION>
+                                            PLOT POINTS      PLOT POINTS
+Measurement Period           NVDA PLOT      FOR H&Q TECH     FOR
+(Fiscal Year Covered)        POINTS         STOCK INDEX      NASDAQ US
+- -------------------          ----------     ------------     ----------
+<S>                          <C>            <C>             <C>
+Measurement Pt- 01/22/99     $100.000        $100.000        $100.000
+FYE   01/29/99               $ 97.747        $107.419        $107.230
+FYE   02/26/99               $112.859        $ 95.509        $ 97.569
+FYE   03/31/99               $108.679        $102.879        $104.616
+</TABLE>
+     * $100 INVESTED ON 1/22/99 IN
+       STOCK OR INDEX - INCLUDING
+       REINVESTMENT OF DIVIDENDS. THE
+       LAST DAY ON WHICH STOCK WAS
+       TRADED IN THE FISCAL YEAR
+       ENDED JANUARY 31, 1999 WAS
+       JANUARY 29, 1999.
+- --------
+/1/ The material in this report is not "soliciting material," is not deemed
+"filed" with the SEC, and is not to be incorporated by reference into any
+filing of the Company under the Securities Act of 1933, as amended, or the
+Exchange Act, whether made before or after the date hereof and irrespective of
+any general incorporation language contained in such filing.
+ 
+                                      21
+<PAGE>
+ 
+                             Certain Transactions
+ 
+   Pursuant to an agreement between the Company and certain stockholders of
+the Company, in August 1997, the Company granted certain rights with respect
+to the registration of shares held by Messrs. Coxe, Gaither, Jones and Miller.
+Each of Mr. Coxe, Mr. Gaither, Mr. Jones and Mr. Miller is a director of the
+Company, and shares held by Sequoia Capital VI and its related entities and
+Sutter Hill Ventures and its related entities, both of which are holders of
+more than 5% of the Company's Common Stock. Mr. Stevens, a director of the
+Company, is a general partner of Sequoia Capital, and Mr. Coxe is a general
+partner of Sutter Hill Ventures. These registration rights are set forth in a
+Second Amended and Restated Investors' Rights Agreement, as amended, filed as
+an exhibit to the Company's annual report on Form 10-K for the year ended
+January 31, 1999.
+ 
+   In consideration for his services as interim Chief Financial Officer of the
+Company during the last quarter of fiscal 1999, the Company granted Mr.
+Seawell an option to purchase 32,050 shares of Common Stock of the Company at
+an exercise price of $7.00 per share in January 1999.
+ 
+   The Company has entered into indemnity agreements with each of the
+Company's directors and executive officers. The form of indemnity agreement
+provides, among other things, that the Company will indemnify such executive
+officer and director, under the circumstances and to the extent provided for
+therein, for any and all expenses he or she may be required to pay in actions
+or proceedings because of his or her status as a director or executive officer
+of the Company, to the fullest extent permitted by the Company's Bylaws and
+Delaware law.
+ 
+                                 Other Matters
+ 
+Other Business
+ 
+   The Board of Directors knows of no other matters that will be presented for
+consideration at the Annual Meeting. If any other matters are properly brought
+before the meeting, it is the intention of the persons named in the
+accompanying proxy to vote on such matters in accordance with their best
+judgment.
+ 
+Annual Report On Form 10-K
+ 
+   The Company's annual report on Form 10-K for the year ended January 31,
+1999, as filed with the SEC, is available electronically through the Company's
+World Wide Web site at http://www.nvidia.com. It is also available without
+charge upon written request to: Corporate Secretary, NVIDIA Corporation, 3535
+Monroe Street, Santa Clara, CA 95051. Copies may also be obtained
+electronically through the SEC's EDGAR database: http://www.sec.gov.
+ 
+                                          By Order of the Board of Directors
+ 
+                                          /s/ CHRISTINE B. HOBERG
+                                          CHRISTINE B. HOBERG
+                                          Secretary
+ 
+May 17, 1999
+ 
+                                      22
+<PAGE>
+ 
+                               NVIDIA CORPORATION
+
+             PROXY FOR ANNUAL MEETING OF STOCKHOLDERS JUNE 17, 1999
+                                        
+          THIS PROXY IS SOLICITED ON BEHALF OF THE BOARD OF DIRECTORS
+
+
+The undersigned hereby appoints Jen-Hsun Huang and Christine B. Hoberg, or
+either of them, each with full power of substitution as proxies of the
+undersigned, to attend the Annual Meeting of Stockholders of NVIDIA Corporation,
+to be held at The Marriott Hotel, 2700 Mission College Boulevard, Santa Clara,
+California, on June 17, 1999 at 2:00 p.m. local time and at any adjournment or
+postponement thereof, to vote the number of shares the undersigned would be
+entitled to vote if personally present, and to vote in their discretion upon any
+other business that may properly come before the meeting.
+
+THIS PROXY WHEN PROPERLY EXECUTED WILL BE VOTED IN THE MANNER DIRECTED HEREIN.
+IF NO DIRECTION IS MADE, THIS PROXY WILL BE VOTED FOR PROPOSALS 1, 2 AND 3.
+
+Please sign, date and return this proxy in the envelope provided, which requires
+no postage if mailed in the United States.
+                                 ___________
+
+                          CONTINUED ON THE OTHER SIDE
+              IMPORTANT TO MARK, DATE AND SIGN ON THE REVERSE SIDE
+                                 ___________
+<PAGE>
+ 
+
+
+        PLEASE MARK
+ / X /  VOTES AS IN
+        THIS EXAMPLE
+
+- --------------------------------------------------------------------------------
+                  THE BOARD OF DIRECTORS RECOMMENDS A VOTE FOR
+                             PROPOSALS 1, 2 AND 3.
+- --------------------------------------------------------------------------------
+
+
+1.   ELECTION OF DIRECTORS.
+     NOMINEES: Harvey C. Jones, Jr. and William J. Miller
+
+     FOR           WITHHELD
+     / /           / /
+
+     / /  __________________________________________
+          For all nominees except as noted above
+
+2.   To approve an amendment of the Company's 1998 Employee Stock Purchase Plan
+to provide for annual increases to the number of shares reserved for issuance
+thereunder at the end of each fiscal year, commending at the end of fiscal 2000.
+
+     FOR    AGAINST   ABSTAIN
+     / /    / /       / /
+
+3.   To ratify the selection of KPMG LLP as the Company's independent auditors
+for fiscal 2000.
+
+     FOR    AGAINST   ABSTAIN
+     / /    / /       / /
+
+- -------------------------------------------------------------------
+/ / MARK HERE IF YOU PLAN TO ATTEND THE MEETING
+
+/ / MARK HERE FOR ADDRESS CHANGE AND NOTE BELOW
+
+
+
+Signature:________________ Date:________
+
+Signature:________________ Date:________
+
+(This Proxy should be marked, dated and signed by the stockholder(s) exactly as
+his or her name appears on the stock certificate(s) and returned in the enclosed
+envelope. If shares are held by joint tenants or as community property, both
+should sign. When signing as attorney, as executor, administrator, trustee or
+guardian, please give full title as such. A corporation is requested to sign its
+name by its authorized officer, with the office held designated. If a
+partnership, please sign in partnership name by authorized person.)
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

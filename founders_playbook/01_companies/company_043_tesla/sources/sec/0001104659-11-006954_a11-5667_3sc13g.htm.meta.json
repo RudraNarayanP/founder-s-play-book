@@ -1,0 +1,15 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000110465911006954/a11-5667_3sc13g.htm",
+ "fetched": "2026-09-25T20:54:13Z",
+ "sha1": "5f59364776acc6996c5d7d1fc8846a36f8ee9d44",
+ "bytes": 183973,
+ "words": 2473,
+ "cik": "0001318605",
+ "accession": "0001104659-11-006954",
+ "document": "a11-5667_3sc13g.htm",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

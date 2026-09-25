@@ -1769,3 +1769,40 @@ year is itself a lead worth following later.
 Tally, honestly split: **7 NULLs** (including 1962-month = 0 hits and Dey/Goodfellow = 0 across 11 layers),
 **5 UNANSWERED/tool-limitation items**, **8 UNTRIED**. It also corrected a byte count the probe had recorded
 for FY1970.
+
+### RD-112 -- re-graded on working intake, and the tier convention now needs a rule rather than a judgment
+
+All four re-graded against the fixed downloader, originals left intact with dated `SUPERSEDED / RE-GRADED`
+sections appended to each probe:
+- **Tesla** 76 docs / **59,479,299 B**; the probe's "index effectively empty 2005-02-17 -> 2009" is
+  **superseded** -- there are 12 paper REGDEX rows in that span and `facts` wrote 336 XBRL rows. Tier stays T3.
+- **Nvidia** 31 docs / 7,942,444 B, earliest held = earliest indexed (S-1 1998-03-06), and "April 5, 1993"
+  appears x3 in the stored 424B4. T3, **not** provisional (its query block existed, so family (c) was tried).
+- **Costco** 11 docs / 2,285,245 B -- the probe's "0 documents" was purely my tool. T3 **PROVISIONAL**:
+  family (c) went untried for want of a `costco` query block (now written).
+- **Dell** 9 docs / 2,317,629 B, floor re-confirmed 1994-02-11, no S-1. Moved to **T2 PROVISIONAL** on a
+  wording change alone, which is the convention problem below.
+
+**THE RULING (mine to make, so I am making it):** the agent reported family (a) going from NO to
+"in-window YES" because 1994 filings sit inside the *search* window 1984-1996 -- but Dell's **Stage-1 window
+is 1984-05-03 -> 1988-05-12**, and everything held post-dates it. So the convention is now explicit:
+
+> **A tier is issued per stage, measured against that stage's own window -- never against the probe's search
+> range, and never as a property of the company.** A company can be T3 for its origin and T1 for its scaling
+> stage; that is a finding about the record, not an inconsistency. For fleet planning, a company's tier is
+> the tier of the stage being assembled, and a re-grade that changes a verdict must name which stage's window
+> it moved.
+
+This is why the wording change mattered: "in-window" without a named window is unfalsifiable, and an
+unfalsifiable phrase in a gate or a verdict is how the blank S-1 field became a "stated range" three days ago.
+
+**Five more defects in `tools/sec_intake.py`, all real, all reported by users rather than found by me:**
+1. `facts` prints a path and **writes nothing** for 3 of 4 companies -- the worst kind of bug, because it
+   looks like success in the transcript.
+2. **Nameless filing rows are dropped silently** while the run still reports "0 UNANSWERED" (Costco 48 of 59,
+   Dell 46 of 55 rows). A dropped row must be counted and reported, never vanish.
+3. Nvidia's UNANSWERED count **over-counts**, in the opposite direction.
+4. `--max-docs` is **ignored**.
+5. `index` output is keyed only by `--company-dir`, so resolving the shell CIK overwrote Dell's
+   1571996 index -- **RD-098's footgun in the wild**, caught mid-write with pre-state recorded. The
+   registrant-name-vs-directory guard is no longer optional.
