@@ -1,0 +1,43 @@
+name: mechanical-gates
+
+# Runs the same self-testing gate suite the fleet runs, but from GitHub's runners
+# instead of a laptop. Two purposes: (1) the detector proves itself on every push, so a
+# future edit to tools/gates.py cannot silently lose a check -- the bug class an agent
+# caught on 2026-09-26 (csv dialect sniffing inventing 43 defects); (2) corpus drift is
+# caught off-machine, after shutdowns, without spending a token of model credit.
+# This workflow NEVER writes to the repo: no permissions, no commit, no artifact upload
+# beyond the log itself, which is just the job output.
+
+on:
+  push:
+    paths:
+      - "founders_playbook/**"
+      - "tools/gates.py"
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "43 7 * * *"
+
+permissions: {}
+
+jobs:
+  gates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Prove the detectors catch their own historical defects
+        run: python tools/gates.py --self-test
+      - name: Run every gate against every company directory
+        run: |
+          rc=0
+          for dir in founders_playbook/01_companies/company_*/; do
+            echo "::group::$(basename "$dir")"
+            python tools/gates.py --company-dir "$dir" \
+              --checks csv,keys,anchors,budget || rc=1
+            echo "::endgroup::"
+          done
+          echo "Aggregate gate status: $([ $rc -eq 0 ] && echo PASS || echo 'FINDINGS PRESENT')"
+          exit $rc

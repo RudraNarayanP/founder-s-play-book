@@ -1154,3 +1154,38 @@ failures this wave -- the CLAIM-first rule is doing its job.
   09-24. Fix at the Stage-3 merge, not by hand-editing superseded intermediates.
 - **RD-092** the record census regex must be `[A-T]\d{1,3}` -- Stage-3 ids reach `P209`, so any `\d{2,3}`
   or two-letter-class assumption undercounts.
+
+### Stage-3 adversarial gate: FAIL on 5, downgrade 4 -- and Apple's part 1 is authored
+
+**RD-093 (queued: stage_3_part_2.md/part_3.md and the registers are held by the running hindsight-repair
+agent; do not write through them).** `03_quality_control/amazon_s3_audit5_adversarial.md`, 13 challenges.
+The money narrative is the weak flank:
+- The $326m notes are dated **1998-08-13** in our text. The indenture is **1998-05-08**, the placement
+  agreement **1998-05-05**, the 10-K says "In May 1998 ... completed", and our own §Q agrees. A date we
+  invented from a quarter, not from a document.
+- "~$326m gross" erases the filed **net proceeds $318.2m** and the filed **principal at maturity $530m** --
+  a $204m obligation that appears in no narrative volume. Gross/net/principal-at-maturity are three
+  different things and only the first was carried.
+- §A.2's "**$349m** senior indebtedness" is cited to the FY1998 10-K, which prints `349` **zero** times.
+  The figure exists only in S-3 333-74435 l.915. Right number, wrong carrier -- the exact defect class this
+  project has retracted before.
+- The boundary itself: a 2000-only segment note is used to move the endpoint although §A.3 asserts "none
+  does"; Position B's decisive $75m facility was **repaid in full by Q1-1998**; and the endpoint quarter
+  carries a filed **$39m inventory charge "caused by our failure to optimize inventory at our [DCs]"**,
+  which is unrepresented. Separately, the FY1998 10-K's "one predominant business segment" representation
+  appears nowhere in any Stage-3 file.
+**How to apply:** a citation is a claim about *which document says it*, and "the number is right" does not
+survive the carrier being wrong. Check gross vs net vs principal-at-maturity explicitly on every debt
+figure -- this is the third distinct denominator failure in the run.
+
+**Apple Stage 1 part 1 authored**: 16,885 words from an 8.8 KB skeleton (continue-don't-restart worked),
+23 new claim records, 10 conflict keys, gates 0 findings / 7 passes, five retrieval routes UNTRIED with the
+1976 partnership instrument named as the binding gap (no in-window document gives price, order, units or
+1976 revenue -- all UNKNOWN). It also self-reported that records S1P1-05/06 call two 1977 artifacts "inside
+the window", which is false under the adopted boundary, and registered that as a conflict instead of
+silently editing: exactly the behaviour §15 is supposed to produce.
+
+**Off-machine gate layer:** `.github/workflows/gates.yml` runs `--self-test` plus every gate on every
+company directory on push, PR, and a daily cron, with `permissions: {}` so it can never write to the repo.
+Purpose is not convenience -- it is that a future edit to `gates.py` cannot silently lose a check, and
+corpus drift is caught after a shutdown without spending model credit.
