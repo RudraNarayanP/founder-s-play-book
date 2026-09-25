@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22Wal-Mart%22+Bentonville&date1=1960&date2=1969&dateFilterType=yearRange&state=Arkansas&sort=date",
+ "evidence_file": "10978fed9422f9b8-r20260925T130745Z.json",
+ "http_status": 403,
+ "content_type": "text/html; charset=UTF-8",
+ "bytes": 6393,
+ "retrieved_at": "2026-09-25T13:07:49Z",
+ "ext": ".json",
+ "client": "curl (--use-curl fallback)",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "bot_challenge",
+ "redirect_location": "",
+ "cf_mitigated": "challenge",
+ "cf_ray": "a40a410e6e34d23d-DEL",
+ "retry_after": "",
+ "note": "HTTP 403 Cloudflare bot-management challenge (Cf-Mitigated: challenge, Cf-Ray: a40a410e6e34d23d-DEL). The host answered 'prove you are a browser' and never searched anything: UNANSWERED, not a null, and no parameter change will fix it",
+ "source": "chronicling_america",
+ "query_label": "CA 'Wal-Mart' Bentonville AR 1960-1969",
+ "company": "walmart",
+ "kind": "search"
+}

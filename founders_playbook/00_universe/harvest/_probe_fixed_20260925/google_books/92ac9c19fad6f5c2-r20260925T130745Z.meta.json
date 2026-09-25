@@ -1,0 +1,25 @@
+{
+ "url": "https://books.google.com/books/feeds/volumes?q=%22Apple+Computer%22+Cupertino+shareholder&maxResults=10",
+ "evidence_file": "92ac9c19fad6f5c2-r20260925T130745Z.xml",
+ "http_status": 200,
+ "content_type": "application/atom+xml; charset=UTF-8",
+ "bytes": 23665,
+ "retrieved_at": "2026-09-25T13:09:02Z",
+ "ext": ".xml",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/atom+xml,application/xml;q=0.9,application/json;q=0.8,*/*;q=0.7"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "",
+ "retry_after": "",
+ "note": "",
+ "source": "google_books",
+ "query_label": "GB 'Apple Computer' Cupertino shareholder (verified 200; InfoWorld 1983 all_pages)",
+ "company": "apple",
+ "kind": "search"
+}

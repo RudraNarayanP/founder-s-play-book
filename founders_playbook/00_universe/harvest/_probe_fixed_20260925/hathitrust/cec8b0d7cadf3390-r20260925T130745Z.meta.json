@@ -1,0 +1,25 @@
+{
+ "url": "https://babel.hathitrust.org/cgi/ls?field1=ocr;q1=%22Walton%27s%22%20%22five-and-dime%22;a=srchls;lmt=ft",
+ "evidence_file": "cec8b0d7cadf3390-r20260925T130745Z.html",
+ "http_status": 403,
+ "content_type": "text/html; charset=UTF-8",
+ "bytes": 5971,
+ "retrieved_at": "2026-09-25T13:07:58Z",
+ "ext": ".html",
+ "client": "curl (--use-curl fallback)",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "text/html,application/xhtml+xml,application/json;q=0.8,*/*;q=0.7"
+ },
+ "tls_verify": "skipped (--insecure/--insecure-hosts)",
+ "error_class": "bot_challenge",
+ "redirect_location": "",
+ "cf_mitigated": "challenge",
+ "cf_ray": "a40a41497845b62c-DEL",
+ "retry_after": "",
+ "note": "HTTP 403 Cloudflare bot-management challenge (Cf-Mitigated: challenge, Cf-Ray: a40a41497845b62c-DEL). The host answered 'prove you are a browser' and never searched anything: UNANSWERED, not a null, and no parameter change will fix it",
+ "source": "hathitrust",
+ "query_label": "HT \"Walton's\" 'five-and-dime' (verified 1,529 / 59 full view)",
+ "company": "walmart",
+ "kind": "search"
+}

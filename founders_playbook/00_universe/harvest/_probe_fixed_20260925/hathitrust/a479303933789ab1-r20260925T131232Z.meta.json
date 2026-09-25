@@ -1,0 +1,25 @@
+{
+ "url": "https://babel.hathitrust.org/cgi/ls?field1=ocr;q1=%22five%20and%20dime%22%20variety%20store;a=srchls;lmt=ft;facet=bothPublishDateRange:%221950-1959%22",
+ "evidence_file": "a479303933789ab1-r20260925T131232Z.html",
+ "http_status": 200,
+ "content_type": "text/html; charset=UTF-8",
+ "bytes": 370909,
+ "retrieved_at": "2026-09-25T13:12:51Z",
+ "ext": ".html",
+ "client": "curl (--use-curl fallback)",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "text/html,application/xhtml+xml,application/json;q=0.8,*/*;q=0.7"
+ },
+ "tls_verify": "skipped (--insecure/--insecure-hosts)",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a40a485ae80d4e7b-DEL",
+ "retry_after": "",
+ "note": "Python's own client was refused (403/?); this response came from the curl fallback client, which this host answers. The sidecar records client=curl so the evidence never hides which client got in.",
+ "source": "hathitrust",
+ "query_label": "HT CONTROL 'five and dime' variety store 1950-1959 (verified 2,284 / 187)",
+ "company": "walmart",
+ "kind": "search"
+}

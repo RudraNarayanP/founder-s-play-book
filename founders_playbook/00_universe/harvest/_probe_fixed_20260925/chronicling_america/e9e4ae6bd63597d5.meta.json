@@ -1,0 +1,24 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22Wal-Mart%22+Rogers&date1=1962&date2=1969&dateFilterType=yearRange&state=Arkansas&sort=date",
+ "evidence_file": "e9e4ae6bd63597d5.json",
+ "http_status": 403,
+ "content_type": "text/html; charset=UTF-8",
+ "bytes": 6420,
+ "retrieved_at": "2026-09-25T13:00:29Z",
+ "ext": ".json",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "bot_challenge",
+ "redirect_location": "",
+ "cf_mitigated": "challenge",
+ "cf_ray": "a40a3653de45052e-DEL",
+ "retry_after": "",
+ "note": "HTTP 403 Cloudflare bot-management challenge (Cf-Mitigated: challenge, Cf-Ray: a40a3653de45052e-DEL). The host answered 'prove you are a browser' and never searched anything: UNANSWERED, not a null, and no parameter change will fix it",
+ "source": "chronicling_america",
+ "query_label": "CA 'Wal-Mart' Rogers AR 1962-1969",
+ "company": "walmart",
+ "kind": "search"
+}

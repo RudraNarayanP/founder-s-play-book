@@ -1,0 +1,24 @@
+{
+ "url": "https://archive.org/metadata/micro_IA41155142_0546",
+ "evidence_file": "d952569574fde200.json",
+ "http_status": 200,
+ "content_type": "application/json",
+ "bytes": 14847,
+ "retrieved_at": "2026-09-25T13:01:57Z",
+ "ext": ".json",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "",
+ "retry_after": "",
+ "note": "",
+ "source": "corporate_print",
+ "query_label": "CP text availability apple 1989 corporate report",
+ "company": "apple",
+ "kind": "metadata"
+}

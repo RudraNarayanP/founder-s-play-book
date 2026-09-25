@@ -1,0 +1,25 @@
+{
+ "url": "https://catalog.hathitrust.org/api/volumes/brief/htid/pur1.32754078649484.json",
+ "evidence_file": "275f04cc81e5305a.json",
+ "http_status": 200,
+ "content_type": "application/json; charset=UTF-8",
+ "bytes": 778,
+ "retrieved_at": "2026-09-25T13:08:17Z",
+ "ext": ".json",
+ "client": "curl (--use-curl fallback)",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "text/html,application/xhtml+xml,application/json;q=0.8,*/*;q=0.7"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a40a41b79ffaacb4-DEL",
+ "retry_after": "",
+ "note": "Python's own client was refused (0/tls_trust); this response came from the curl fallback client, which this host answers. The sidecar records client=curl so the evidence never hides which client got in.",
+ "source": "hathitrust",
+ "query_label": "HT CATALOG brief record for htid pur1.32754078649484 (verified 200 JSON, unchallenged)",
+ "company": "walmart",
+ "kind": "catalog"
+}

@@ -1,0 +1,25 @@
+{
+ "url": "https://babel.hathitrust.org/cgi/ls?field1=ocr;q1=%22Charter%20Med%22;a=srchls;lmt=ft",
+ "evidence_file": "ff36f02bd773af0c-r20260925T131232Z.html",
+ "http_status": 200,
+ "content_type": "text/html; charset=UTF-8",
+ "bytes": 380833,
+ "retrieved_at": "2026-09-25T13:13:34Z",
+ "ext": ".html",
+ "client": "curl (--use-curl fallback)",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "text/html,application/xhtml+xml,application/json;q=0.8,*/*;q=0.7"
+ },
+ "tls_verify": "skipped (--insecure/--insecure-hosts)",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a40a496a6869b81c-DEL",
+ "retry_after": "",
+ "note": "Python's own client was refused (403/?); this response came from the curl fallback client, which this host answers. The sidecar records client=curl so the evidence never hides which client got in.",
+ "source": "hathitrust",
+ "query_label": "HT 'Charter Med' (verified route, count to be recorded)",
+ "company": "unitedhealth",
+ "kind": "search"
+}

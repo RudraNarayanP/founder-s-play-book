@@ -1,0 +1,24 @@
+{
+ "url": "https://ia601404.us.archive.org/11/items/1972-annual-report-for-walmart-stores-inc/1972-annual-report-for-walmart-stores-inc_djvu.txt",
+ "evidence_file": "280fea5760ef7bfe.txt",
+ "http_status": 200,
+ "content_type": "text/plain; charset=utf-8",
+ "bytes": 23989,
+ "retrieved_at": "2026-09-25T13:01:35Z",
+ "ext": ".txt",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "",
+ "retry_after": "",
+ "note": "",
+ "source": "corporate_print",
+ "query_label": "CP FY1972 AR full text (direct server)",
+ "company": "walmart",
+ "kind": "text"
+}

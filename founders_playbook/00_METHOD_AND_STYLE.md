@@ -384,3 +384,13 @@ lost. Three standing rules:
    the received set only inside retraction language. The corollary is the reason §3 exists: a plausible number
    with a citation is still unchecked until the cited line has been read.
 
+9. **Fetched evidence goes to `sources/` the moment it is fetched, never to an OS temp directory.**
+   A retrieval whose bytes sit outside the repository does not exist for the next session, and a reboot
+   destroys it silently. **Incident 2026-09-25:** a UnitedHealth agent correctly fetched seven primary
+   documents (an FY1994 10-K405, a 1995 SC 13G/A, a 1995 proxy, two 1978 periodical text layers, one
+   metadata response and one *failed* request kept as a negative artifact), recorded their URLs and byte
+   counts faithfully in its dossier — and left the files in `%TEMP%/uhg_b/`. They were recovered by hand
+   into `company_003_unitedhealth/sources/`, with a provenance note; the dossier's own hand-off section is
+   what made recovery possible. Agent briefs must name the destination path for every artifact, and an
+   agent that reports "retrieved" without naming where the bytes live has not retrieved anything.
+

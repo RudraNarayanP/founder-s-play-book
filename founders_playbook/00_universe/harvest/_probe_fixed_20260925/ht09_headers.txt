@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Date: Fri, 25 Sep 2026 13:09:49 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+x-choke: requests
+x-choke-now: 2026-09-25 09:09:48
+x-choke-rate: 50 requests / 30 sec
+x-choke-max: 50
+x-choke-allowed: 1
+X-Content-Type-Options: nosniff
+Cache-Control: max-age=0
+expires: Fri, 25 Sep 2026 13:09:47 GMT
+vary: Accept-Encoding
+strict-transport-security: max-age=2592000; includeSubDomains
+Set-Cookie: MDPsid=4b4d262b2974301b353a93f821309284; domain=.hathitrust.org; path=/; HttpOnly; SameSite=Lax
+Set-Cookie: STICKY=s148; path=/
+set-cookie: __cf_bm=61ImX8PrMKlH89gBKN051QT7e7BvVo7AVYjzq6GtA7I-1790341787.404262-1.0.1.1-8qTF56ZeGosKbgI4qJ249JoaQZ54mXerU_q_NsH0AnBuDfS6eGwgV8Inibsa2piexnIdFlSH5PtUoiD5B2P1y9GWqkbtMJx0RfPrZrL1RyrpBBWT6byg._erTP7OU9qZ; HttpOnly; SameSite=None; Secure; Path=/; Domain=hathitrust.org; Expires=Fri, 25 Sep 2026 13:39:49 GMT
+set-cookie: __cflb=0H28vo2YUzDUpQqqBsmWqojXJQ84DVup9YaWEViemdX; HttpOnly; SameSite=None; Secure; Path=/; Expires=Fri, 25 Sep 2026 13:39:49 GMT
+cf-cache-status: BYPASS
+CF-RAY: a40a43eb4c6791df-DEL
+alt-svc: h3=":443"; ma=86400
+

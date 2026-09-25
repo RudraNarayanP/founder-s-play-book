@@ -479,10 +479,10 @@ event reported on the face of the form.
 
 | File | Size | Document | Tier | Use for |
 |---|---|---|---|---|
-| `S-1A-No1_acc-0000891020-97-000603_filed-1997-04-21.txt` | 438,146 B / 58,684 w | Form **S-1/A** Amendment No. 1, accession `0000891020-97-000603`, filed **1997-04-21**, 9 documents | **T1** | Closes the ordinal gap in C-4. **New instruments appear only here**: EX-3.1 restated certificate, **EX-10.1 form of indemnification agreement**, and shareholder agreements with **Rick R. Ayre, John D. Risher and Joel R. Spiegel** — the equity paper of the officers who joined after the S-1's original roster, and the earliest filing evidence for Risher and Spiegel |
-| `S-1A-No2_acc-0000891020-97-000659_filed-1997-04-29.txt` | 405,018 B / 54,006 w | Form **S-1/A** Amendment No. 2, accession `0000891020-97-000659`, filed **1997-04-29**, 3 documents | **T1** | **EX-1.1 FORM OF UNDERWRITING AGREEMENT** — the only underwriting-compensation instrument in the whole archive; go here, not to the press, for what the banks were actually contracted to receive, and read it against COR-01's deferred/perpetual-compensation question |
-| `S-1A-No4_acc-0000891020-97-000822_filed-1997-05-13.txt` | 311,635 B / 40,082 w | Form **S-1/A** Amendment No. 4, accession `0000891020-97-000822`, filed **1997-05-13**, 5 documents | **T1** | The accession C-4 assigns to "Amendment No. 4"; carries the Perkins Coie opinion and the per-share computation. Any dossier that cites "Amendment No. 4" for the pricing-program sentence should be re-pointed to No. 3 (`…000755`, on disk) |
-| `S-1A-No6_acc-0000891020-97-000847_filed-1997-05-14.txt` | 303,301 B / 39,491 w | Form **S-1/A** Amendment No. 6, accession `0000891020-97-000847`, filed **1997-05-14**, 2 documents | **T1** | **The last amendment before the 424B1.** Diff it against No. 5 and the final prospectus to get the priced text — §3 lineage means these five accessions plus the 424B1 are one registration statement (File No. 333-23795), so the differential is the only evidential gain |
+| `S-1A-No1_acc-0000891020-97-000603_filed-1997-04-21.txt` | 438,685 B / 58,684 w | Form **S-1/A** Amendment No. 1, accession `0000891020-97-000603`, filed **1997-04-21**, 9 documents | **T1** | Closes the ordinal gap in C-4. **New instruments appear only here**: EX-3.1 restated certificate, **EX-10.1 form of indemnification agreement**, and shareholder agreements with **Rick R. Ayre, John D. Risher and Joel R. Spiegel** — the equity paper of the officers who joined after the S-1's original roster, and the earliest filing evidence for Risher and Spiegel |
+| `S-1A-No2_acc-0000891020-97-000659_filed-1997-04-29.txt` | 405,557 B / 54,006 w | Form **S-1/A** Amendment No. 2, accession `0000891020-97-000659`, filed **1997-04-29**, 3 documents | **T1** | **EX-1.1 FORM OF UNDERWRITING AGREEMENT** — the only underwriting-compensation instrument in the whole archive; go here, not to the press, for what the banks were actually contracted to receive, and read it against COR-01's deferred/perpetual-compensation question |
+| `S-1A-No4_acc-0000891020-97-000822_filed-1997-05-13.txt` | 312,174 B / 40,082 w | Form **S-1/A** Amendment No. 4, accession `0000891020-97-000822`, filed **1997-05-13**, 5 documents | **T1** | The accession C-4 assigns to "Amendment No. 4"; carries the Perkins Coie opinion and the per-share computation. Any dossier that cites "Amendment No. 4" for the pricing-program sentence should be re-pointed to No. 3 (`…000755`, on disk) |
+| `S-1A-No6_acc-0000891020-97-000847_filed-1997-05-14.txt` | 303,840 B / 39,491 w | Form **S-1/A** Amendment No. 6, accession `0000891020-97-000847`, filed **1997-05-14**, 2 documents | **T1** | **The last amendment before the 424B1.** Diff it against No. 5 and the final prospectus to get the priced text — §3 lineage means these five accessions plus the 424B1 are one registration statement (File No. 333-23795), so the differential is the only evidential gain |
 | `8-A12G_exchange-act-registration_acc-0000891020-97-000704_filed-1997-05-02.txt` | 17,860 B / 2,107 w | Form **8-A12G**, accession `0000891020-97-000704`, filed **1997-05-02**, Exchange Act file **000-22513**, 2 documents | **T1** | The §12(b) registration of the **Common Stock, $0.01 par**, signed by Joy D. Covey; EX-3 is pages 44-45 of the prospectus (the Description of Capital Stock). ⚠ **Trap:** Item 1 calls it "the Prospectus … dated **April 21, 1996** contained in the Registrant's Registration Statement on Form S-1 … filed … on **March 24, 1997**" — internally impossible; April 21, **1997** (Amendment No. 1's prospectus date) is meant. Never cite this document for a 1996 date |
 
 ## Equity-plan registrations — the compensation and dilution engine (10)
@@ -528,4 +528,22 @@ fetched in `../sources/STAGE3_INTAKE_MANIFEST.md`. Same §3 lineage rule as alwa
 family is **one** story per file number, and the 424B3s that only incorporate the 10-Qs by reference are
 **not** independent corroboration of any figure. Request accounting, including this pass's own 150-request
 false start, is in the manifest.
+
+**Duplicate-file notice (nothing deleted, nothing moved).** Four of the S-1/A files exist twice, byte-identical:
+`S-1A-No1/2/4/6_acc-…_filed-….txt` (convention-correct hyphen, **cite these**) and `S-1A_No1/2/4/6_acc-…`
+(underscore, written first in the same session before the naming convention was checked). SHA-256 over the EDGAR
+bodies matches pairwise, and each body size equals the catalogue `size` exactly (436,103 / 403,334 / 309,865 /
+301,661 B). The underscore variants are duplicates in the same sense as the unheadered `s1_original_…` copies
+noted in the *Integrity note* above — **one document, not two sources**, and never a count of corroboration.
+Full disclosure in §8 of `../sources/STAGE3_INTAKE_MANIFEST.md`.
+
+**Three Stage-3 needs this intake could not satisfy**, in priority order, all detailed in §7 of the manifest:
+(1) the **FY1999 Form 10-K** — not in the enumerated slice at all (it ends 2000-01-04), one row in
+`…-submissions-001.json` plus one fetch away, and until it lands Stage 3's closing year rests on quarterly
+filings and the 1999-10-28 Q4 press release rather than an annual report; (2) the **Seafirst / Wells Fargo
+merchant-account and guarantee-release instruments**, which were never filed with the SEC and so cannot be
+retrieved from EDGAR at any request budget — the release status stays UNKNOWN, now with the exhaustion of the
+EDGAR route demonstrated; (3) **Section 16 Forms 3/4/5 for 1997-99 — zero rows in the 125-row catalogue**, so
+the founder's own option-exercise and sale activity in the window cannot be dated from the filings;
+**UNTRIED, not answered** (the untested route is slice `-001`, not a re-query of `-002`).
 
