@@ -1755,37 +1755,83 @@ disaggregation, already carried at §S as UNKNOWN-with-a-candidate-derivation-no
 *Minted 2026-09-26 by the dangling-reference repair pass (RD-079), which re-registers the conflict the 2026-09-25 pass
 reserved register rows for but never wrote. Lettered per the U.111a addendum precedent; nothing renumbered (§9.3);
 the two ids this volume formerly cited for them are Stage 3's and are not used here.*
+**⟪COR-16 SUPERSEDES THIS BLOCK'S CLAIM B AND ITS CITATIONS — 2026-09-26, blocker-repair pass ⟫** As minted, the block
+asserted of the original: "S-1 (orig.), filed **1997-03-24**, states a range and an assumption in one breath — 'is
+currently estimated that the initial public offering price will be between …' (l.191)". **That proposition is
+withdrawn: the 1997-03-24 original states no range.** The quotation is genuine up to the ellipsis and false across it —
+the elided text is the entire operative content of the sentence, and on the face of the filing it reads: "It / is
+currently estimated that the initial public offering price will be between / **$     and $     per share.**"
+(`sources/S-1_original_acc-0000891618-97-001309_filed-1997-03-24.txt` **l.208–209**, re-read byte-for-byte by this
+pass). An ellipsis may not carry a claim the hidden text refutes (method §14 rule 8; repair rule 2). Three of the four
+pointers minted here were **twin** numbers printed against **keyed** paths (keyed = twin + 17, per
+`stage_2_index.md` "Line-reference keying"): l.191 → **l.208**, l.149 → **l.166**, l.1204 → **l.1221**; all three are
+re-keyed below. The fourth, No. 3's "$13.00 per share" at **l.1230**, is **verified exact and stays** — the phrase is
+byte-present there, inside the CAPITALIZATION pro-forma description, and the audit pointer-challenge against it
+(l.1290/l.408) names two of the five sites, not the only ones (grep of No. 3: l.408, l.1188, l.1230, l.1290, l.1300).
+**CLAIM A is unchanged and still holds**, and so does the narrative this block was written to "correct":
+`stage_2_part_1.md` §A.3/the deal row and the price-walk paragraph both print "**blank (24 Mar, S-1 orig.) →
+$12.00–$14.00 … (No. 1, 21 Apr)**", and `amazon_s2_audit4_repairs.md` §4 item 2 ("the original left the range blank, so
+No. 1 is the first statement") **stands unamended**. The defect here is a repair that over-corrected against a document
+it had not read to the line.
 **CLAIM A:** an earlier draft of this volume's §T/§P rows described the price record as a fast, self-cancelling event —
 the range stated once as a "first stated range", the price settled "the same morning" or over "five days", and the
 range-carrying accession characterised as **"obsolete on its own filing date"** (the sites are the §T rows at
-`stage_2_part_3.md` l.97–l.104 and the claim records keyed to U.98 and U.45). **CLAIM B:** the accessions themselves
-carry a slower, more ambiguous record. S-1 (orig.), filed **1997-03-24**, states a range and an assumption in one
-breath — "is currently estimated that the initial public offering price will be between …" (l.191) — while its cover
-table prints "2,875,000 shares **$13.00** $37,375,000" (l.149) and its pro-forma repeats "Assumed initial public
-offering price per share … **$13.00**" (l.1204). S-1/A **No. 3**, filed **1997-05-09**, still carries the sentence —
-"initial public offering price will be between **$12.00 and $14.00** per share" (l.222–223) — yet its own cover prints
-the assumption raised to "**$14.00**" on the same 2,875,000 shares ($40,250,000, l.173), while its pro-forma section
-is still running on "$13.00 per share" (l.1230). A document whose range sentence is still printed on its own filing
-date is **not** obsolete on it, and a mid-point that moves 13.00 → 14.00 across six weeks and four accessions is not a
-"same morning" event.
-**WHY THEY DIFFER:** the wording is **narrative compression of a documentary process**. The lineage is one source family
-(§3): each amendment re-prints its predecessor's sentence while re-striking only the numbers in the cover table, so a
-reader who takes the cover figure and the range sentence from different accessions gets two states at once, and an
-earlier draft resolved that by declaring one of them obsolete and collapsing the interval to a morning. The compression
-is load-bearing: it makes a pricing **decision** out of a **proceeding**, which is the exact move U.98 refuses.
-**EVIDENCE WEIGHT:** B — four filed lines in two accessions, read directly, plus the accession dates on their faces.
-A carries no document at all: the four phrases appear in no text under `sources/` and were struck at every site by the
-2026-09-25 pass without a replacement finding, which is why this block had to exist.
-**BEST-SUPPORTED INTERPRETATION:** the price is recorded as a **walk with stated intermediate states**, each keyed to
-its own accession and date, and every site keeps the retraction: no "same morning", no "five days", no "first stated
-range", no "obsolete on its own filing date". What the range sentence was current in is **No. 3 as filed 1997-05-09**,
-and the $13.00/$14.00 pair is an **assumption**, not a price — the distinction §U's U.46 and U.58 already enforce.
-**RESIDUAL UNCERTAINTY:** which accession first printed a range, and on what day the public price was fixed, remain
-**UNKNOWN**: no accession between No. 3 and the 424B1 was read for this block, and no underwriting or board document
-exists in `sources/`, so no price-setting date is asserted here and none is substituted for the struck ones.
-**CONFIDENCE:** **High** (the four lines quoted, in the two accessions named); **High** (that the four phrases have no
-document); **UNKNOWN** (the first range-stating accession, the price-fixing date, and who directed each change — the
-last stays at U.98).
+`stage_2_part_3.md` l.97–l.104 and the claim records keyed to U.98 and U.45). **CLAIM B (re-stated by COR-16; the minted form, quoted in the marker above, is withdrawn):** the accessions do carry a
+slower, more ambiguous record than "one morning", but the ambiguity lives in the **assumption fields**, not in a stated
+range, and the first dateable range is a month later than the original.
+(i) **S-1 original, filed 1997-03-24.** The range sentence is printed with **both price fields blank**: "It / is
+currently estimated that the initial public offering price will be between / $     and $     per share." (l.208–209).
+The same instrument's "CALCULATION OF REGISTRATION FEE" table carries "2,875,000 shares **$13.00** $37,375,000
+$11,326" (l.166; DERIVED check, exact: 2,875,000 × $13.00 = $37,375,000, and the share count is the offering's 2,500,000
+plus the underwriters' 375,000 option, l.170–171), and the dilution table repeats "Assumed initial public offering price
+per share … **$13.00**" (l.1221). So the original is **an unfilled form field standing next to a filled assumption**: no
+range was set on 24 March, and $13.00 is a fee-and-pro-forma assumption, not a price the registrant stated.
+(ii) **S-1/A No. 1, filed 1997-04-21** — the **first accession to print a range at all**: "…will be between **$12.00 and
+$14.00** per share" (l.247–248). In the same document the fee table already carries the assumption raised to "**$14.00**"
+("2,875,000 shares $14.00 $40,250,000 $12,197(3)", l.192) — i.e. **the first stated range and the first $14.00
+assumption are one filing, and the cover takes the top of the range** — while the pro-forma dilution table still runs
+"Assumed initial public offering price per share … $13.00" (l.1365). No. 2 (1997-04-29) repeats the identical state
+(range l.234–235, fee table $14.00 l.183, assumption $13.00 l.1330).
+(iii) **S-1/A No. 3, filed 1997-05-09.** Still carries the sentence — "initial public offering price will be between
+**$12.00 and $14.00** per share" (l.222–223) — with its own cover printing the assumption raised to "**$14.00**" on the
+same 2,875,000 shares ($40,250,000, l.173), while its pro-forma and capitalization sections are still running on
+"$13.00 per share" (l.408, l.1188, l.1230, l.1290, l.1300). **A document whose assumption sections run two dollars
+below its own cover for three weeks, and whose stated range's ceiling is already its working assumption, is not a
+document that settled a price "that morning"; and the blank-field original of 24 March is not "obsolete on its own
+filing date" either — it was simply not yet a price document.**
+**WHY THEY DIFFER:** two different failures, one per pass. The **earlier draft's** wording is **narrative compression of
+a documentary process**: the lineage is one source family (§3), each amendment re-prints its predecessor's sentence
+while re-striking the numbers in the cover table, so a reader who takes the cover figure from one accession and the
+range sentence from another gets two states at once — and that draft resolved the tension by declaring one state
+obsolete and collapsing the interval to a morning. The compression is load-bearing: it makes a pricing **decision** out
+of a **proceeding**, which is the exact move U.98 refuses. The **minted CLAIM B** differs for the opposite reason: it
+read the *frame* of a sentence ("will be between") as evidence of its *content*, cited to twin line numbers it had not
+converted, and let the ellipsis stand where the elided bytes were the two blank fields that refute it.
+**EVIDENCE WEIGHT:** B (re-stated) — **eleven filed lines across four accessions** (original l.166/l.208–209/l.1221;
+No. 1 l.192/l.247–248/l.1365; No. 2 l.183/l.234–235/l.1330; No. 3 l.173/l.222–223/l.1230), every one re-read at the
+keyed line by this pass, plus the filing dates on their faces. A carries no document at all: the four phrases appear in
+no text under `sources/` and were struck at every site by the 2026-09-25 pass without a replacement finding, which is
+why this block had to exist.
+**BEST-SUPPORTED INTERPRETATION:** the price is recorded as a **walk with stated intermediate states**, each keyed to its
+own accession and date, and every site keeps the retraction: no "same morning", no "five days", no "first stated range",
+no "obsolete on its own filing date". The sequence the documents support is **blank field + $13.00 fee assumption
+(24 Mar) → first stated range $12.00–$14.00 with the cover already at $14.00 (No. 1, 21 Apr) → re-printed unchanged
+(Nos. 2 and 3) → range and share count raised (No. 4, 13 May) → $18.00 (424B1, 15 May)**; and the $13.00/$14.00 pair is
+an **assumption**, not a price — the distinction §U's U.46 and U.58 already enforce. What the blank field establishes is
+only this: **as filed on 1997-03-24 the registrant had not set a range**, and the fee-table figure is a registration
+computation. **Why the field was left blank while the fee table was filled is UNKNOWN** — no document in `sources/`
+states a reason, and none is inferred (§6); the ordinary practice explanation is not asserted here because no filing in
+this corpus carries it.
+**RESIDUAL UNCERTAINTY:** on what day and by whom the public price was fixed remains **UNKNOWN**: no underwriting,
+board, or pricing document exists in `sources/`, the 1997-05-14 pricing release is a `local_copy: NO` witness (S2012),
+so no price-setting hour or day-part is asserted here and none is substituted for the struck ones. Which accession
+first printed a range is **no longer** uncertain — Nos. 1–6 were all read, and No. 1 of 1997-04-21 is the first
+(this corrects the minting pass's own statement that "no accession between No. 3 and the 424B1 was read", which
+contradicted §Q rows l.101–l.104 of this same volume).
+**CONFIDENCE:** **High** (the eleven re-keyed lines, in the four accessions named); **High** (that the 1997-03-24
+original states **no** range — the blanks are on its face, l.208–209); **High** (that the four struck phrases have no
+document); **UNKNOWN** (why the range field was blank while the assumption was filled; the price-fixing day-part; and
+who directed each change — the last stays at U.98).
 
 **U.113b — FY1996 and FY1997 printed twice, at two different losses: the issuer's own later annual reports re-base the audited years this stage is built on.**
 *Minted 2026-09-26 by the dangling-reference repair pass (RD-079), re-registering the "restated pair" the 2026-09-25
@@ -1796,7 +1842,10 @@ block does not touch U.55, which is the EPS-bases conflict, nor §P147, whose le
 of operations repeat the same pair under the caption "Net loss — **as reported** … $(27,590) $(5,777) $(303)"
 (l.2586). Every FY1996 figure Stage 2 argues from is this as-filed set. **CLAIM B:** the issuer's own **next two**
 annual reports reprint both years at larger losses. The FY1998 10-K (filed 1999-03-05) prints net loss "$(124,546)
-**$(31,020)** **$(6,246)**" (l.1242) with basic and diluted loss per share "(0.84) (0.24) (0.06)" (l.1243); the
+**$(31,020)** **$(6,246)**" (l.1242) with basic and diluted loss per share "(0.84) (0.24) (0.06)" (**l.1244** —
+re-keyed by the 2026-09-26 blocker-repair pass, which read the file: **l.1243 is the totals rule `========`, and the
+per-share line is the next line down**; the earlier pointer was one line off and is printed here as corrected, not
+silently changed); the
 FY1999 10-K (filed 2000-03-23) prints the identical re-based pair again, "**$(31,020)** **$(6,246)**" (l.1761), on
 share counts of **260,682**k and **222,542**k (l.1765–1766). FY1996's loss moves **$(5,777)k → $(6,246)k, +$469k
 (+8.1%)**; FY1997's moves **$(27,590)k → $(31,020)k, +$3,430k (+12.4%)**, with FY1997 net sales re-based $147,758k →

@@ -354,3 +354,192 @@ uniform register widths) are in `03_quality_control/audit8_residue_repairs.md`.
 **Standing rule from this pass:** an audit reporting a stale figure must say whether the bytes are
 *asserted* or *quoted inside a retraction* — a grep cannot tell them apart, and only the first is a defect.
 Conversely, a retraction is not finished until it is dated and greppable as a retraction.
+
+---
+
+# Stage 3 hindsight repairs (AUDIT 4) — COR-16 … COR-26, added 2026-09-26
+
+Repairs executed by `s3-hindsight-repair` against `03_quality_control/amazon_s3_audit4_hindsight.md`; the
+work log with sweep counts is `03_quality_control/amazon_s3_hindsight_repairs.md`. **These entries supersede;
+they do not erase.** The withdrawn words are quoted from the volumes as they stood, and every replacement rests
+on the printed document lines given.
+
+## COR-16 — SUPERSEDES the §O.1 "never entered the money" mechanism (Stage 3, H-1)
+
+**Withdrawn (`stage_3_part_2.md` §O.1, *For* leg):** "they were struck at a conversion price that **never
+entered the money on any filed 1999 range** (§M.13), so the equity option they sold **never relieved the
+debt**." **Relying on:** Form 10-K FY1999 l.1672-1690 (1999 quarterly highs $99.56 / $110.63 / $85.00 /
+$113.00, final 12× vintage) against the conversion price **$78.0275** (§K.4, DERIVED `156.055 ÷ 2`) and the
+optional-redemption gate **$117.04** (DERIVED `78.0275 × 1.5`, l.1683-1690 terms as filed in §K.4). The strike
+was in the money in every 1999 quarter; the **gate** was never reached — the sentence collapsed the two and
+inverted the sign, then drew an economic conclusion from the inverted premise. **Replacement:** the issuer could
+not compel conversion (the gate governs), while conversion stood at the **holders'** option; the cost the
+counterfactual prices is the cash coupon plus the absence of an issuer-side escape. Cross-reference the
+`N-5 vs M.13` conflict note at the foot of §N. **No number was substituted or back-solved.**
+
+## COR-17 — SUPERSEDES the "softened admission … before it could be read against the charge" reading (Stage 3, H-2)
+
+**Withdrawn (`stage_3_part_2.md` §M.5 heading and item 2):** "the admission was then **softened**, in the same
+corpus, **before it could be read against the charge**"; "a **softened admission**, not a withdrawn one"; and
+`stage_3_part_1.md` §G.5 G31 "Two statements of inexperience, **printed weaker each time**".
+**Relying on:** Q3-1999 10-Q l.1626-1635, which prints **both** the warning ("we have no previous experience
+with automated distribution centers") **and** the fact that in the same nine months the company "**opened
+distribution centers in Nevada, Georgia, Kentucky, Kansas and North Dakota**"; against FY1999 10-K l.1026-1027
+("we have had **limited experience**"). At the 1999-12-31 count date the November sentence had become literally
+false. No counsel file, drafting history or board record exists in `sources/`, so motive is untestable
+(audit's own "Untestable" item 5). **Replacement:** both wordings and both dates kept as FACT; the protective
+reading carried as **`RETROSPECTIVE INTERPRETATION`, Confidence Low**, with the accuracy-update alternative
+stated and `mechanism UNKNOWN`; §G.5 G31 now reads "printed **differently, as the automated estate opened**",
+and its stale interval ("relaxes **six weeks later**" — the 10-K was filed 2000-03-23, eighteen weeks after
+1999-11-15) now gives both dates. **Siblings carried under this entry, not left standing:** §N row
+"December 1998 lease → 1999-03-11" and §O.3 each said "softened to 'limited experience'"; §B estate table
+(l.359) and claim record A08 each said "relax[es]/relaxed to 'limited experience'". All four now read
+"restated as …" with the motive marked UNKNOWN. **Untouched, and correctly:** G44/U.135's "the dependence
+sentence **relaxes its quantifier**" ("any of our vendors" → "most"), §C.1 l.538's "quantifier softened from
+'any' to 'most'", and the Stage-2 amendment diffs (`stage_2_part_2.md` l.107, `stage_2_part_3.md` l.104/287/292/1350)
+— each of those describes a textual difference between **two filed documents on disk** and asserts no motive.
+
+## COR-18 — SUPERSEDES the mental-state reading of filed risk factors (Stage 3, H-5)
+
+**Withdrawn (`stage_3_part_1.md` §C.2 closing sentence):** "**Read together these are the self-description of a
+company mid-build and unsure of the machine, not of a company that had broken through**", and the supporting
+claim that risk language is a proxy for "the questions it thought it was facing, because it is dated, filed and
+**legally exposed**". **Relying on:** the disclosure class itself — safe-harbour risk factors enumerate worst
+cases whether or not they are experienced, so their bias runs **toward** over-stating trouble; the volume's own
+rule at §D.1 ("enumerated, not evidenced as experienced, and this file does not upgrade them") and §M.5. **No
+in-window document contains a "broken through" benchmark.** **Replacement:** CONTEMPORANEOUS OBSERVATION
+confined to "the registrant disclosed X on date Y"; `UNKNOWN` on whether any disclosed risk was experienced;
+the filed list itself retained unchanged.
+
+## COR-19 — SUPERSEDES the advertising-to-fulfilment transfer mechanism (Stage 3, M-3)
+
+**Withdrawn (`stage_3_part_2.md` §M.3):** "The ratio fell because the **denominator was pulled up by the
+first-party merchandise base while the money actually spent to serve each customer moved out of advertising and
+into fulfilment**". **Relying on:** §M.3's own audited series — advertising $3.4m / $21.2m / $60.2m / **$140.9m**
+(`140.9 ÷ 60.2 = 2.34×` in 1999) — nothing left the advertising line; fulfilment rose `188.4 ÷ 50.3 = 3.75×`
+against net sales 2.7×, so **all three grew at different rates**. "Per each customer" also reintroduced the
+per-order basis §K.6 registers as UNKNOWN. **Replacement:** the relative-growth statement, at High, movement
+verb deleted.
+
+## COR-20 — SUPERSEDES "the covenant's removal came from bondholders" and the "convertibles" label (Stage 3, M-2)
+
+**Withdrawn (`stage_3_part_2.md` §L row 1998-04-24 → 1998-05-05):** "the removal of that covenant was itself the
+validation, **and it came from bondholders**" and "the upsizing happened in a **1998 bull bid for
+convertibles**". **Relying on:** 10-Q Q1-1998 l.988-989 — "The Company has **repaid the Senior Loan in full with
+a portion of the net proceeds** of the Senior Discount Notes" — and 424B2 l.1355-1357, "the Company used
+approximately $75.0 million of such proceeds to retire the Senior Loan". The covenant ended by **repayment**, not
+at bondholders' hands; and the 1998 notes were **non-convertible** senior discount notes. **Retained as
+inference at §N row 1's grade (Medium):** that the facility was retired to escape the covenant — "inferred from
+the ordering of the company's own use-of-proceeds sentence rather than stated".
+
+## COR-21 — SUPERSEDES the §D.0 "no amount" cell (Stage 3, M-4)
+
+**Withdrawn (`stage_3_part_1.md` §D.0, Q4-1999 inventory-charges row):** magnitude cell "**no day, no amount in
+that sentence**" with Conf "High (incurred); **UNKNOWN** (size)", where the section contradicted §G.0 row 6,
+§M.4, §N-5 and §O.1, all of which use the figure. **Relying on:** Form 10-K FY1999 l.1890-1892 — "inventory-related
+charges of approximately **$39 million** incurred in the fourth quarter of 1999". **Replacement:** the sentence is
+confined to what it says ("no day and no amount **in that sentence**"), the MD&A amount is cited, and the register
+now carries both the charge and its two ratios (`39000 ÷ 290645 = 13.4%`, `39000 ÷ 1639839 = 2.4%`). UNKNOWN
+remains — correctly — for the day, the category split, and any causal link to the automated DCs.
+
+## COR-22 — SUPERSEDES the "demand-side" label on a financing row (Stage 3, M-7)
+
+**Withdrawn (`stage_3_part_1.md` §D.0, $1.25bn converts row):** "the **hardest external demand-side signal in
+the stage**". Note-buying is a **supply of capital**; "demand" in this stage's own vocabulary is customer demand
+(§D.2, §H.3's "NOT KNOWABLE as demand"). **Replacement:** "the hardest external **capital-supply** signal", with
+§L's "clearest external **price** signal" named as the form to propagate, so a financing row cannot do the work of
+a sales row in the signal ledger.
+
+## COR-23 — SUPERSEDES the cost-of-capital conclusion (Stage 3, M-1)
+
+**Withdrawn (`stage_3_part_1.md` §D.3 closing sentence):** "**The largest signal in this window is that the cost
+of capital fell, not that the cost of doing business did.**" **Relying on:** the instruments themselves — 10%
+Senior Discount Notes (1998) with **no cash coupon before 2003-11-01**, accreting to $530m face on ~$326m gross
+(424B2/8-K, §K.4), against 4¾% **convertible subordinated** notes (1999) whose low cash coupon pays for an
+embedded equity option that §M.13/§L say was in the money from the first quarter after closing. Different
+ranking, different consideration; no effective yield, secondary price or peer issue of the same week exists in
+`sources/`, and §I's provenance boundary confirms no non-Amazon registrant document is present. **Replacement:**
+`INFERENCE`, **Confidence Low**, with the market-demand alternative taken from §N's own "window open for US
+high-yield convertibles" cell, and **the cost of capital marked UNKNOWN as a measured quantity in this stage**. No
+yield was computed, because none is derivable from filed numbers without an option-value assumption the record
+does not supply.
+
+## COR-24 — SUPERSEDES the "cheapest available signal" motive wording on the splits (Stage 3, L-2)
+
+**Withdrawn (`stage_3_part_2.md` §L row 1999-02-03, splits):** "**the cheapest available** signal of expected
+continued appreciation". No minute or board record survives (§N's evidentiary limit), so the superlative
+attributed a choice-motive to an act whose alternatives were never costed. **Replacement:** `INFERENCE`, with the
+adjective dropped and the row's own "Low as a validation signal" grading pointed to.
+
+## COR-25 — SUPERSEDES the per-order basis and the "quarterly-comparable" label (Stage 3, H-3)
+
+**Withdrawn:** `stage_3_part_2.md` §M.1 — "i.e. **the cost of delivering an order rose 3.24 percentage points of
+revenue** in the single year the network doubled"; and §L row "1998-06-11 / 1998-11-17 → FY1999 MD&A" — "the cost
+of serving customers is now an audited-adjacent, **quarterly-comparable** dollar series". **Relying on:** §K.6,
+which registers fulfilment cost **per order** as UNKNOWN because "no order count exists in **any** filing in the
+window"; the 3.24 points are `11.49 − 8.25`, both computed on **net sales** (`188,400 ÷ 1,639,839`;
+`50,300 ÷ 609,819`); and the fulfilment series is printed at three **annual** points out of the FY1999 note
+(10-K FY1999 l.1969-1972; `quantitative.csv` rows 325-327), never in a filed 10-Q. **Replacement:** "fulfilment
+cost **per dollar of net sales** rose 3.24 percentage points", with a §6 basis note forbidding the per-order
+reading, and "a filed annual dollar series at three points … **not** a quarterly series".
+
+## COR-26 — the $178.4m dual printing: which figure is cash is UNKNOWN (Stage 3, H-4 residue)
+
+Form 10-K FY1999 prints **$178.4 million twice, in two different senses**: MD&A l.2282 — "including $178.4
+million of **cash paid** to repurchase a portion of our outstanding Senior Discount Notes" — and the debt note
+l.3686-3688 — "the Company repurchased **$266 million (principal amount)** of the Senior Discount Notes,
+representing **accreted value of $178.4 million**", with "the remaining principal amount outstanding … **$190.7
+million**". Both cannot be exact, and the filing does not reconcile them. The narrative's existing phrasing
+("$178.4m of **cash** paid") is the MD&A's own words and is **not** withdrawn, but it is now registered with its
+alternative printing, and **which figure is the cash outlay is recorded as UNKNOWN**. Not back-solved. Separately
+registered: `530,000 − 266,000 = 264,000` against the $190.7m the note says remains, unexplained at the cited
+lines → **left as a §U candidate for the certifier**, since the reconciling items (conversions, exchanges) are
+not in the lines read.
+
+
+## COR-16 — SUPERSEDES §U.113a's CLAIM B AS MINTED (2026-09-26, Stage-2 blocker-repair pass, AUDIT 6 B1–B8)
+
+**The instruction this register gives every later pass: the 1997-03-24 S-1 original states NO IPO price range. Do not
+"correct" any narrative that says the range field was blank.** `stage_2_part_3.md` §U.113a (minted 2026-09-26, RD-079)
+asserted the original "states a range and an assumption in one breath", quoting "…will be between …" with an ellipsis.
+The document (`sources/S-1_original_acc-0000891618-97-001309_filed-1997-03-24.txt` **l.208–209**) prints "**between /
+$     and $     per share**" — the two price fields are **unfilled on the face of the filing**. The elided bytes were the
+refutation, so the quotation failed the test it was offered to satisfy (method §14 rule 8). `conflicts.csv` **U.113a**
+carried the same false proposition, and **a repair added the defect while removing one**.
+
+**What is true, each line re-read at the keyed file:** original 1997-03-24 = blank range field (l.208–209) beside a
+$13.00 registration-fee assumption (l.166; 2,875,000 × 13.00 = $37,375,000 exact) and a $13.00 pro-forma dilution
+assumption (l.1221) → **No. 1, 1997-04-21 = first accession to state a range**, "$12.00 and $14.00 per share" (l.247–248),
+in the same document whose fee table already prints $14.00 (l.192) while its pro-forma still runs $13.00 (l.1365) → No. 2
+(1997-04-29) repeats it → No. 3 (1997-05-09) re-prints it unchanged (l.222–223) with the $14.00 cover (l.173) and
+"$13.00 per share" still in its pro-forma/capitalization sections (l.408, l.1188, l.1230, l.1290, l.1300) → No. 4
+(1997-05-13) raises range and size → 424B1 (1997-05-15) prints $18.00. **$13.00 and $14.00 are assumptions, never
+prices.** `stage_2_part_1.md` §A.3's "blank (24 Mar, S-1 orig.) → $12.00–$14.00 … (No. 1, 21 Apr)" and
+`amazon_s2_audit4_repairs.md` §4 item 2 are **correct and stand unamended**.
+
+**Action for every later pass.**
+1. **Re-keyed pointers.** Cite keyed lines: **l.208 / l.166 / l.1221** for the original (the minted l.191 / l.149 / l.1204
+   are **twin** numbers of the unheadered duplicate — `twin = keyed − 17`, declared in `stage_2_index.md`). AUDIT 6's
+   fourth pointer challenge is **not** adopted: No. 3's "$13.00 per share" **is** at **l.1230**, so three cites were
+   inverted, not four.
+2. **New pointer defect found by this pass and fixed in the narrative:** FY1998 10-K's restated loss-per-share line is
+   **l.1244**, not the l.1243 that §U.113b and `conflicts.csv` U.113b cited — l.1243 is the totals rule and prints no
+   digits. Rewritten U.113b row handed to the register owner.
+3. **Residues closed in Stage-2 text:** `0.194995` → **0.1950013** at `stage_2_part_2.md` §P.2 s4 and record P26 (B2);
+   "the filed figures give 2,448,000 …" → "**transcribed** numerator over **filed** denominators" in the U.67 record
+   (B3); the unbounded "cheapest capital the firm ever raised" bounded to 1997-05-15 in record K19 (B5); the missing
+   authorised-capital record minted as **B125** (B8 / RD-049 — **not** RD-072, which is the Stage-3 13G supersession).
+4. **B6 is a gate artifact, not a row defect.** `conflicts.csv` rows 135/170/171 parse at **15 fields** under RFC-4180;
+   the reported 16/18/17 reproduce exactly under the retired `doublequote=False` dialect-sniffing reader, which
+   `tools/gates.py` has since removed. Do not "repair" the widths; the U.113a row is rewritten for its **content** (the
+   false claim, its twin pointers, and a §13 date column holding prose), which is handed off un-applied.
+5. **Register rows this pass does not touch** (live owner): `conflicts.csv` U.113a, U.113b; `sources.csv` **S2009**
+   (`FACT (audited counterparty)` + `High` on a line that also says `local_copy: NO` → lowered to
+   FACT (existence) / UNKNOWN (contents) + Low, and its `relevant_passage` marked not-verifiable — the same
+   quote-without-a-document family as B1). Exact replacement rows: `03_quality_control/amazon_s2_blocker_repairs.md`.
+6. **Handed off, not fixed here** (Stage 3's files, live owner): the false quotient is inherited at `quantitative.csv`
+   L339 and `stage_3_part_3.md` §P188 / §P.2 t1.
+
+**Standing rule from this pass:** a quotation is not evidence until the bytes behind any ellipsis have been read, and a
+correction authored by an agent is a claim by that agent — it gets tested against the document before it is written into
+the narrative, the register, or a log line that the next agent will read as an instruction (§14 rules 8 and 10).

@@ -712,7 +712,10 @@ ours to one decimal.
 **22.0%**`, and A5 prints **22.0** in its own "AS A PERCENTAGE OF NET SALES" quarterly table at l.1702. The full
 filed 1996–97 quarterly margin path is **20.6 → 21.4 → 21.8 → 22.3 → 22.0** (l.1702), i.e. margin *rose* through
 this stage and was flat at the pricing date. **19.5% is not in this stage**: it is the **FY1997 audited annual**
-margin, `28,813 ÷ 147,758 = 0.194995 → 19.5%`, printed at 10-K405 l.1403 and derived from l.1177–1180. So the
+margin, `28,813 ÷ 147,758 = 0.1950013 → 19.5%` **(AUDIT-3 D-06 residue closed by the 2026-09-26 blocker-repair pass:
+this cell printed the false quotient `0.194995` after D-06 certified the class at zero live — the correct value is the
+one this section's own §P.2 s1 and `quantitative.csv` L124 carry; the rounded 19.5% is the company's own printed figure
+and is unchanged)**, printed at 10-K405 l.1403 and derived from l.1177–1180. So the
 pair the stage must carry is **22.0% (FY1996, audited) → 19.5% (FY1997, audited, POST-BOUNDARY)**, and the
 3.25-point fall happens *after* 1997-05-15, not inside the window. Tagged `(PB)` wherever used (→ U.52).
 

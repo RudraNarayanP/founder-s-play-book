@@ -5,15 +5,17 @@ Nothing is duplicated across volumes and nothing is dropped: the four assembly p
 remain the audit trail of who wrote which section, including the double-dispatch collision of
 2026-09-24 (method §14.7).
 
-| Volume | Sections | Words (pre-repair) | Words (post-repair, 2026-09-25 Audit 1) | Words (post-repair, 2026-09-25 Audit 2 citation) |
-|---|---|---|---|---|
-| `stage_2_part_1.md` | Header, STAGE BOUNDARY JUSTIFICATION, §A–§H, + the carried conventions block | 18,360 | 18,560 | 19,289 |
-| `stage_2_part_2.md` | §I–§P (incl. §P.2 derived arithmetic) | 25,346 | 25,409 | 25,524 |
-| `stage_2_part_3.md` | §Q–§U (+ §S.9 carried untried lists) | 37,423 | 39,760 | 40,385 |
-| **Narrative total** | §A–§U | **81,129** | **83,729** | **85,198** |
+| Volume | Sections | Words (pre-repair) | Words (post-repair, 2026-09-25 Audit 1) | Words (post-repair, 2026-09-25 Audit 2 citation) | Words (measured 2026-09-26, blocker-repair pass) |
+|---|---|---|---|---|---|
+| `stage_2_part_1.md` | Header, STAGE BOUNDARY JUSTIFICATION, §A–§H, + the carried conventions block | 18,360 | 18,560 | 19,289 | **22,967** |
+| `stage_2_part_2.md` | §I–§P (incl. §P.2 derived arithmetic) | 25,346 | 25,409 | 25,524 | **28,399** |
+| `stage_2_part_3.md` | §Q–§U (+ §S.9 carried untried lists) | 37,423 | 39,760 | 40,385 | **46,016** |
+| **Narrative total** | §A–§U | **81,129** | **83,729** | **85,198** | **97,382** |
 
 *The third column was measured by whitespace tokens on 2026-09-25 after the AUDIT-2 citation repair pass; that
 pass added in-cell correction and retraction notes (DEFECT-1/2/3/5/7/9) and deleted no text, so each volume grew.*
+
+**Word columns and cap status re-measured 2026-09-26 (blocker-repair pass; AUDIT-6 B7 / T1 / T9).** The Audit-2 column is a stale-but-labelled snapshot and is kept as the earlier state; the new column is this pass's measurement (whitespace tokens of the file as written). **AUDIT-6's `budget` finding that `stage_2_claim_records.md` stood at 60,718 words over the 60,000 cap is a pre-split measurement** - after the §9.3 budget split the appendix measures **44,766** (vol 1a) + **17,352** (vol 1b) + **29,492** (vol 2) = **91,610** across three volumes, and the `budget` gate passes every Stage-2 volume; the max is `stage_2_part_3.md`. **No text was cut to keep it that way** (§9.6 forbids it). Claim records on disk today: **305 + 105 + 72 = 482** (two §U records and B125 minted by this pass).
 
 Word counts are whitespace tokens of the file as written. The growth in part_3 is the two §U blocks
 and the §Q re-anchoring added by the Audit-1 chronology repair pass (see Status below); no text was
@@ -26,26 +28,27 @@ with four SEC filing lineages and 70 live conflicts should look like.
 ## Numbering continuity
 
 * Conflict blocks: **§U.44 → §U.113b** (Stage 1 owns U.1–U.43). **The spine emits 72 blocks — 70 numbered
-  U.44–U.113 plus the two lettered addenda U.113a and U.113b — against 70 rows in `conflicts.csv`,** 1:1 with no
-  duplicate and no orphan through U.113. **The two-row excess is declared, not repaired, and its history is a
-  retraction:** the 2026-09-25 AUDIT-4/AUDIT-5 pass reported that it had appended two new blocks (an IPO price-walk
+  U.44–U.113 plus the two lettered addenda U.113a and U.113b — against 72 `stage2` rows in `conflicts.csv`,** 1:1 with no
+  duplicate and no orphan through U.113b. **[SUPERSEDED NOTE, 2026-09-26 blocker-repair pass: this bullet and the register
+  table below both asserted "70 rows in `conflicts.csv`" and "stays there until the register owner appends
+  U.113a/U.113b". The rows **are** appended. Measured on the file today: 170 data rows = 43 `stage1` / **72 `stage2`** /
+  55 `stage3`, and all 170 parse at 15 fields under RFC-4180. The earlier wording stays visible rather than being deleted,
+  per §14 rule 4.]** **The two-row excess was declared, not repaired, and its history is a retraction (itself now superseded, 2026-09-26: the rows were appended the same day and the excess this clause describes is closed — see the register table below):** the 2026-09-25 AUDIT-4/AUDIT-5 pass reported that it had appended two new blocks (an IPO price-walk
   re-key and the FY1996/FY1997 restatement pair) and RESERVED their register rows, but §U on disk ended at U.113 with
   **no `>>> CSV APPEND BLOCK: conflicts.csv` section and no RESERVED marker anywhere** in `stage_2_part_3.md`, and the
   two ids its prose cited are **Stage 3's**, so a Stage-2 reader following them landed in another stage's conflict
   (RD-079). Both conflicts are now **written** as the lettered addenda **U.113a and U.113b** at the foot of
-  `stage_2_part_3.md` §U, per the U.111a precedent, with **nothing renumbered** (§9.3). `conflicts.csv` holds
-  **70 Stage-2 rows** and stays there until the register owner appends U.113a/U.113b at `stage2` — which takes
-  Stage-2 rows 70→**72**, the total 113→**115**, and restores equality at 72↔72. Full sheet:
+  `stage_2_part_3.md` §U, per the U.111a precedent, with **nothing renumbered** (§9.3). `conflicts.csv` held **70 Stage-2 rows** and was to stay there until the register owner appended U.113a/U.113b at
+  `stage2`. **That append has happened: the register now holds 72 Stage-2 rows and 170 data rows in total, and the 72↔72
+  equality is restored and re-measured by the 2026-09-26 blocker-repair pass, which also re-keys the U.113a row's false
+  CLAIM B (COR-16) — the rewrite is handed to the register owner in
+  `03_quality_control/amazon_s2_blocker_repairs.md`, not applied through the live owner.** Full sheet:
   `03_quality_control/amazon_s2_dangling_refs_repair.md` (2026-09-26). **U.112 and U.113 were appended by the
   Audit-1 chronology repair pass of 2026-09-25**, each emitted together with its register row so the
   invariant never broke. **No id anywhere in the spine was re-based, renumbered or reused** (method §9.3).
 * Metric IDs continue Stage 1's sequence in §P.
 * Assembly-part record IDs (S2A-*, S2B-*, S2C-*, S2D-*, S2E-*) resolve to the dossiers in `research/`.
-* Claim-record IDs: Stage-2 volume 1 carries **411** lettered records (A01–T40; §Q now Q17–**Q69**; the two §U
-  records this line reserved at Stage-3 ids are now **U.113a/U.113b, minted 2026-09-26**) and
-  volume 2 carries **72** conflict records (**U.44–U.113b**, i.e. U.44–U.113 plus the two lettered addenda) plus the
-  U.111a addendum — **481** in all. **The 411/481 tally is the 2026-09-25 pass's own and was printed against 70
-  blocks; this pass re-keys the two ids and does NOT re-verify the counts — the claim registrar owes them a recount.**
+* Claim-record IDs — **RECOUNTED ON DISK 2026-09-26 (blocker-repair pass); the 411/481 tally this line carried is superseded by measurement, not by assertion.** Volume 1a `stage_2_claim_records.md` = **305** records (A01–P90, **B125** minted 2026-09-26); volume 1b `stage_2_claim_records_part_1b.md` = **105** (Q17–T40 plus the §U carry-forward stub); volume 2 `stage_2_claim_records_part_2.md` = **72** conflict records (**U.44 → U.113b**: U.44–U.113 plus the two lettered records, now **minted** 2026-09-26) plus the unnumbered U.111a addendum — **482** lettered records in all, against 72 §U blocks and 72 `stage2` conflict rows. The superseded sentence stays readable here: "Stage-2 volume 1 carries **411** lettered records … volume 2 carries **72** conflict records … **481** in all" — printed when the appendix was two volumes; the 411 matched no disk count of any volume after the §9.3 split (304 + 105). **No record id was renumbered or reused (§9.3).**
 * **Accession inventory, updated 2026-09-25 by AUDIT-5 R-2:** the language "**1997 accessions unread**" is retired.
   **S-1/A Nos. 1 (…603, 1997-04-21), 2 (…659, 1997-04-29), 4 (…822, 1997-05-13) and 6 (…847, 1997-05-14) are ON DISK
   and READ**, and are registered in §T as **S0807, S0808, S0809, S0810**; the **FY1998 10-K and FY1999 10-K are also
@@ -62,6 +65,8 @@ conversion is exact and directional: **`twin line = keyed line − 17`**. Nothin
 retained as restoration audit trail. Full table of the four measured probes in
 `research/_EVIDENCE_CACHE.md` (the declaration written by the DEFECT-6 repair, 2026-09-25, and keyed there
 rather than only here so a grepping agent finds it).
+
+**Citation discipline, added 2026-09-26 (COR-16):** the conversion above is **directional** — a pass that names a keyed path must print a **keyed** number; twin numbers belong only to the two bare duplicates. §U.113a as minted printed twin numbers against keyed paths (l.191 / l.149 / l.1204 where the keyed file has the text at l.208 / l.166 / l.1221) and is re-keyed; its fourth cite (No. 3, "$13.00 per share", l.1230) was re-read and is **exact**, and stays.
 
 **Register visibility of local copies (AUDIT-2 DEFECT-7, 2026-09-25).** Every Stage-2 row of `sources.csv` now
 carries a `local_copy: YES|NO` token in `notes` — **6 YES** (S2001–S2004, S2010, S2011: the file named in
@@ -81,7 +86,7 @@ per-company, not per-stage.
 
 | Register | Stage 1 rows | Stage 2 added | Total data rows | Field count |
 |---|---|---|---|---|
-| conflicts.csv | 43 | **70 APPLIED** (the register holds 70 Stage-2 rows and the spine emits **72** blocks: U.44–U.113 plus the lettered addenda U.113a and U.113b, minted 2026-09-26, RD-079. **No CSV rows were emitted or RESERVED for them by the 2026-09-25 pass, contrary to that pass's report** — the register owner appends U.113a/U.113b at `stage2`, which takes Stage-2 rows 70→**72** and the total 113→**115**) | **113 now / 115 after the append** | 15 uniform |
+| conflicts.csv | 43 | **72 APPLIED** (measured 2026-09-26: 170 data rows = 43 `stage1` / **72 `stage2`** / 55 `stage3`, every row parsing at 15 fields under RFC-4180. The 2026-09-25 wording "70 APPLIED … the register owner appends U.113a/U.113b" is the superseded state: the rows **were** appended, and the appended U.113a row carries the proposition **COR-16 retracts** — the rewritten row is handed to the register owner in `03_quality_control/amazon_s2_blocker_repairs.md`, because this pass does not edit through a register another agent owns. AUDIT 6's B6 width finding (rows 135/170/171 at 16/18/17) re-measured as a **gate artifact of the retired dialect-sniffing reader**: with `doublequote=False` those three rows shatter into exactly 16/18/17 fields; with the fixed `csv.excel` reader all 170 rows are 15 and the `csv` gate reports **0 findings**) | **170** | 15 uniform |
 | quantitative.csv | 111 | 82 | 193 | uniform (untouched by this pass) |
 | timeline.csv | 57 | **59** (was 58: +1 `(POST-BOUNDARY)` 1997-06 row) | **116** | 11 uniform |
 | validation.csv | 29 | 11 | 40 | uniform (untouched) |
@@ -135,9 +140,7 @@ the stage cannot be called complete until all five pass.
   claim restored, and §D's verdict — demand and revenue repeated, economics not shown to repeat, the test transferred
   to Stage 3 unperformed — stands unchanged. Neither audit may be re-run clean until the register owner applies the
   two appended conflicts.**
-* `_MANIFEST.md` is owned by the orchestrator and was **not** edited by this pass; the count deltas it must
-  pick up are §U 68→70 blocks, conflicts.csv stage-2 rows 68→70, timeline.csv stage-2 rows 58→59, and
-  claim records 476→479.
+* `_MANIFEST.md` is owned by the orchestrator and was **not** edited by this pass; the deltas it must now pick up are §U 68→**72** blocks, conflicts.csv stage-2 rows 68→**72** (170 data rows in total), timeline.csv stage-2 rows 58→59, and claim records 476→**481** (304 + 105 + 72, measured 2026-09-26). **Handed off, not applied** — the manifest is not a Stage-2 repair path.
 
 
 ---

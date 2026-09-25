@@ -1341,3 +1341,33 @@ Alphabet tasks (proven by dry-run), so family (c) periodicals is UNTRIED for a T
 1998-2003 window rests on only two artifacts. Agents correctly declined to edit shared config. The fleet
 needs either a per-company query file argument or an append-only task API -- otherwise every new company
 inherits the same hole and the tier verdict silently rests on fewer families than §14 rule 6 demands.
+
+### RD-100 -- my false Stage-2 correction is withdrawn, and a second auditor walked into the same parser bug
+
+`03_quality_control/amazon_s2_blocker_repairs.md` (4,413 w): B1 is retracted with a visible
+`COR-16 SUPERSEDES` marker at §U.113a. The original S-1 prints **"between $   and $   per share"** -- blank
+-- so the claim became: blank field plus the $13.00 fee assumption (21 Mar) -> the first *stated* range at
+Amendment No. 1, 21 Apr (l.247-248) -> onward, with three twin pointers re-keyed. §A.3's narrative that my
+block "corrected" is confirmed **correct**. B2 (`0.194995`->`0.1950013`), B3 ("filed"->"transcribed over
+filed denominators"), B5 (superlative bounded), B7 (counts re-measured), B8 (**record B125 minted -- the
+authorised-capital gap is RD-049, not RD-072**) all repaired. Sweeps: B1 32 sites / 0 live, B2 22/0, B3
+17/0, B5 8/0.
+
+**B6 was withdrawn as a gate artifact, and that is the durable lesson.** The certifier reported 170
+`conflicts.csv` rows parsing at the wrong width; the repairer parsed all 170 at exactly 15 fields and
+showed that `doublequote=False` reproduces the reported 16/18/17 widths precisely -- the same
+csv-sniffer defect RD-088 installed in my own gate. **An auditor that re-implements a check with the buggy
+parser manufactures defects and hands them to a repairer, who then "fixes" good data.** Consequence now
+enforced: an auditor's structural claim must come from `tools/gates.py` output, and if the auditor
+re-derives it by hand it must state which parser it used.
+
+The same repair pass also **rejected the certifier's "wrong by 60" line-cite claim** (the Amendment No. 3
+line was byte-present at l.1230) and found a pointer defect nobody had reported (FY1998 10-K l.1243 ->
+l.1244). Bidirectional disagreement between auditor and repairer, resolved against the document, is what
+this loop is for.
+
+**QUEUED for the Stage-3 owner (do not race it):** `0.194995` survives at **six Stage-3 sites**, plus
+`conflicts.csv` rows for U.113a/U.113b and `sources.csv` S2009 remain -- all handed off as exact 15/18-field
+`>>> REGISTER ROWS FOR MERGE <<<` blocks rather than written through the live register owner. A new §U.169
+anchor also appeared mid-pass from a concurrent writer, so §U parity must be re-measured at merge, not
+trusted from any single pass.
