@@ -1,43 +1,103 @@
 # Repair Sheet — Amazon.com (company_001_amazon) · Stage 2 · Audit 1 (Chronology)
 Repairs agent: Level-3 (independent of auditor; executes `amazon_s2_audit1_chronology.md` instruction set)
-Date opened: 2026-09-25 · Mode: write (restricted file set only) · Web requests: **0** (local `sources/` + `research/` decide everything)
-Source of instructions: `founders_playbook/03_quality_control/amazon_s2_audit1_chronology.md` (CONDITIONAL FAIL), "Repair instructions for a separate pass" items 1–12 plus per-check defect lists.
-Files permitted: `stage_2_part_1.md`, `stage_2_part_2.md`, `stage_2_part_3.md`, `stage_2_claim_records.md`, `stage_2_claim_records_part_2.md`, `stage_2_index.md`, `timeline.csv`, `conflicts.csv`, `data_gaps.csv`, this sheet. Stage-1 files untouched (second agent owns them).
+Date opened / closed: 2026-09-25 · Mode: write (restricted file set only) · Web requests: **0** (local `sources/` + `research/` decide everything)
+Source of instructions: `founders_playbook/03_quality_control/amazon_s2_audit1_chronology.md` (CONDITIONAL FAIL), "Repair instructions for a separate pass" items 1–12 plus the per-check defect lists.
+Files edited (all permitted): `stage_2_part_1.md`, `stage_2_part_2.md`, `stage_2_part_3.md`, `stage_2_claim_records.md`, `stage_2_claim_records_part_2.md`, `stage_2_index.md`, `timeline.csv`, `conflicts.csv`, `data_gaps.csv`, this sheet.
+**Stage-1 files: not one line touched.** `stage_1*`, `context_appendices.md`, `CORRECTIONS.md`, `adversarial_review.md`, `_parts/s1_*`, `_parts/U_CONCORDANCE.md`, `_parts/NUMBER_DEFECTS.md`, `research/E_supply_ops_finance.md` — all left to the concurrent Stage-1 repair agent. `MASTER_RESEARCH_LOG.md`, `RESUME_HANDOFF.md`, `00_METHOD_AND_STYLE.md`, `_MANIFEST.md`, other companies: untouched.
+
+## Note on the audit sheet's line numbers
+Several §Q/§R citations in the audit sheet are **off by one or a few lines** against the files as they stood
+(`timeline.csv:70` is the Associates row at **:69**; `stage_2_part_2.md:349` is at **:350**; the §F.3 accounts row
+is at `part_1:360` → **:363** after this pass). Every repair was applied by **matching the quoted text**, not the
+line number, so no edit landed on the wrong object. Post-repair line numbers are given below.
 
 ## Defect rows
 
-| D# | Defect (audit ref) | File | Site | Before → After | Evidence | Sweep command | Status |
-|---|---|---|---|---|---|---|---|
-| D1 | Check 1.1 / R1 — unsourced 1996-04-26 "window closes" | stage_2_part_3.md | :33 (refs :151, :164, :1526) | "1996-04-26 · A Section 4(2) window closes" → row merged into 1996-05-16 row; 1996 slice UNKNOWN | S-1 orig. Item 5 ¶4 l.4300 (1995-12-06 → 1996-05-16); no dossier record | `grep -n "1996-04-26\|04-26" stage_2_part_*.md timeline.csv` | OPEN |
-| D2 | Check 1.1 / R1 — register twin says "continues" | timeline.csv | :61 | retitle to checkpoint / window continues, or delete | same | `awk -F, 'NR==61' timeline.csv` | OPEN |
-| D3 | Check 1.2 / R2 — Associates "per the filings" | stage_2_part_3.md | :36, :113, :125 | strike filing attribution → company-retrospective `RETRO`, start UNKNOWN | §D.1 part_1:181; part_2:35, :349; §S part_3:153; S2A-G5 | `grep -n "Associates" stage_2_part_*.md` | OPEN |
-| D4 | Check 6.2 / R2 — Associates drift not in §U | stage_2_part_3.md + conflicts.csv | new U.112 + row | add block + row 1:1 | as D3 | `grep -c "^stage-2" conflicts.csv` | OPEN |
-| D5 | Check 6.1 — 4(2) close-date drift not in §U | stage_2_part_3.md + conflicts.csv | new U.113 + row | add block + row 1:1 | as D1 | same | OPEN |
-| D6 | Check 2.1 / R3 — Gift Center in-window §R cell | stage_2_part_3.md | :113 | move to tail tagged Nov-1997 (PB) | §D.5 part_1:238; part_2:349 | `grep -n "Gift Center" stage_2_part_*.md` | OPEN |
-| D7 | Check 2.2 / R10 — FY1997 terminators untagged | stage_2_part_1.md | :360 | tag ~1,500,000 / 164,015 / derived legs (PB) | 10-K405; part_1:356; part_2:303 | `grep -n "1,500,000\|164,015" stage_2_part_*.md` | OPEN |
-| D8 | Check 2.3 / R10 — 58%-of-1997 label slip | stage_2_part_1.md | :132 | add "(1997, post-boundary)" | part_1:390 | `grep -n "58% of 1997" stage_2_part_1.md` | OPEN |
-| D9 | Check 4.4 / R4 — Covey duplicate at 1996-03 | stage_2_part_3.md | :32 → :55 | merge into 1996-12-01 row as in-cell absence note | S2A-31 "December 1996"; timeline.csv Covey row | `grep -n "Covey" stage_2_part_3.md timeline.csv` | OPEN |
-| D10 | Check 4.3 / R6 — Seafirst row before its event | stage_2_part_3.md | :54 | header 1996-11 → 1996-12 (guarantee ENDS Dec 1996) | orig. S-1 l.2852–2854; S2B-54 (ST2_B_finance.md:138) | `grep -n "Seafirst" stage_2_part_3.md` | OPEN |
-| D11 | Check 4.4 / R5 — (PB) block non-monotonic | stage_2_part_3.md | :90–:94 | re-sort to date order | §Q scope rule :22 | read-back of §Q tail | OPEN |
-| D12 | Check 4.5 / R7 — U.94 false structural claim | stage_2_part_3.md | :1266–1267 | claim rewritten to describe §Q paired rows | §Q :51/:52 | `grep -n "no §Q row is created" stage_2_part_3.md` | OPEN |
-| D13 | Check 3.2 / R9 — rename bounds conflict | stage_2_part_3.md | :95 | bound restated 1994-11 → 1995-07 per register | timeline.csv:114, :19; Ex. 10.12 | `grep -n "bounded" stage_2_part_3.md` | OPEN |
-| D14 | Check 7.1 / R8 — U.87 register day-precision | timeline.csv :87,:90 + conflicts.csv :88 | 1997-01-31 / 1997-02-20 → 1997-01 / 1997-02 | orig. S-1 Item 5 ¶7 l.4330 months only | `grep -n "1997-01-31\|1997-02-20" *.csv stage_2_part_*.md` | OPEN |
-| D15 | Check 7.3 / R12 — §Q :92 row has no register row | timeline.csv | new (POST-BOUNDARY) row or fold into 1998-06 row | §Q :92; music register row | `grep -n "music" timeline.csv` | OPEN |
-| D16 | Check 5 / R11 — §Q :17 pricing-date label | stage_2_part_3.md | :17 | "424B1 pricing date" → filing date; pricing 14 May | 424B1 l.98; S2A-53; 10-K405 l.1126 | `grep -n "pricing date" stage_2_part_3.md` | OPEN |
-| D17 | Check 5 / R11 — volume header effectiveness shorthand | part_1/part_2/part_3 | :9 each | "bounded at the IPO's effectiveness" → final priced prospectus, effectiveness 1997-05-14 | 10-K405 l.1126; part_1:18 | `grep -n "bounded at the IPO" stage_2_part_*.md` | OPEN |
-| D18 | Check 4 / R11 — §Q scope promises 1995-12 row | stage_2_part_3.md | :18–19 | drop/declare the promised class | §Q rows | read-back §Q head | OPEN |
-| D19 | Check 7.4 / R11 — quarterly-vs-dated convention unstated | stage_2_part_3.md | :18–24 | add convention line (1997-Q1 vs 1997-03-31) | timeline.csv BOUNDARY STATE vs §Q :76 | read-back §Q head | OPEN |
-| D20 | R12 — index/claim-record status + §U counts | stage_2_index.md, stage_2_claim_records*.md | counts, Status | 68 → 70 blocks; log audit findings as repaired | conflicts.csv recount | `grep -c "U\." stage_2_index.md` | OPEN |
+| D# | Defect (audit ref) | File : line (post-repair) | Before → After | Evidence | Sweep command | Status |
+|---|---|---|---|---|---|---|
+| D1 | Check 1.1 / R1 — unsourced `1996-04-26` "A Section 4(2) window closes" (§Q row) | `stage_2_part_3.md:33` → row deleted; content merged at `:48` | row headed `1996-04-26` → **row struck; the 4(2) money detail merged into the filed 1996-05-16 row**, retitled "**The 4(2) window CLOSES (1995-12-06 → 1996-05-16); the 1996 slice is UNKNOWN**", with the strike recorded in-cell | S-1 (orig.) Part II Item 5 ¶4 l.4300–4302: "Between December 6, 1995 and May 16, 1996 … an aggregate of $1,007,000" | `grep -n "1996-04-26" stage_2_part_*.md timeline.csv` → 9 hits, **all inside U.113 / §S / §U closing-list strike-notes; zero live assertions** | **RECLASSIFIED-UNKNOWN + FIXED** |
+| D1a | Check 1.1 / R1 — three cross-refs keyed to the struck date | `stage_2_part_3.md:158, :171, :1533` | `§Q 1996-04-26` → `§Q 1996-05-16` (×3) | same | `grep -c "§Q 1996-05-16" stage_2_part_3.md` → 3 | **FIXED** |
+| D2 | Check 1.1 / R1 — register twin said "continues" on the same date | `timeline.csv:61` | `1996-04-26 … placement window continues` → **`1996-05-16` … "Section 4(2) placement window CLOSES (1995-12-06 to 1996-05-16)"**, conflict_ref → `U.8 / U.53 / U.113`, note records the re-key and that the 1996 slice stays UNKNOWN | same | `awk -F, 'NR==61' timeline.csv` | **FIXED** |
+| D2a | Check 4.1 — one close dated three times | `timeline.csv:62` | WSJ row's tail "the 4(2) window closes" → "the 4(2) close on this date is carried in the adjacent row rather than duplicated here" | §Q merged row; §R Capital | `grep -c "4(2) window closes" timeline.csv` → 0 | **FIXED** |
+| D3 | Check 1.2 / R2 — "Associates Program opened in July 1996 **per the filings**" | `stage_2_part_3.md:36` → row moved to `:107` | dated `1996-05-20 (approx.)` + "per the filings" → **`UNKNOWN start (bounded at latest by 1996-12-09 …)`**, row relocated to §Q's UNKNOWN block; the mid-May anchor struck in-cell with its reason; class → `UNKNOWN (start as a filed fact)` + `RETRO` | String-check: Associates appears in all five accessions **with no launch date** (orig. l.2147–2157; No. 3 l.2347; No. 5 l.2336; 424B1 l.2210; 10-K405 nil). Month rests on `research/D_customers_distribution.md:79` (D-37, release 1998-08-02/03) + 2007 timeline; `research/ST2_A_chronology_org.md:582` S2A-G5 "not verified here" | `grep -n "per the filings" stage_2_part_*.md` → only inside U.112 §3 §U text | **RECLASSIFIED-UNKNOWN** |
+| D3a | Check 1.2 / R2 — §R Product and §R Distribution repeats | `stage_2_part_3.md:126`, `:138` | "(July 1996, >4,800 members…)" / "opened July 1996" → **start UNKNOWN in any accession; July 1996 printed explicitly as the company's retrospective `RETRO` dating**; conflict tails + U.112 | §D.1 `stage_2_part_1.md:184` (model wording); claim records D19/D20 | `grep -n "Associates Program (" stage_2_part_3.md` | **FIXED** |
+| D3b | Check 1.2 — §Q's `1996-07 → 1996-12` "the Associates Program runs" row re-implied the unfiled start | `stage_2_part_3.md:57` | range left bound → "**left bound `RETRO` — no filing dates the opening**"; class adds `RETRO`; +U.112 | as D3 | `grep -n "left bound .RETRO" stage_2_part_3.md` | **FIXED (beyond the sheet's literal list — same defect family, would have re-imported the date)** |
+| D3c | Check 1.2 / R2 — register row | `timeline.csv:69` | `1996-07` / "Associates Program opened (July 1996)" / `FACT` → **`1996-07 (company-retrospective; NO filing dates it)`**, class `FACT (count at a date) / RETRO-ASSERTED (start month)`, confidence split three ways, conflict_ref `U.48 / U.84 / U.112` | as D3 | `awk -F, 'NR==69' timeline.csv` | **RECLASSIFIED-UNKNOWN** |
+| D4 | Check 6.2 / R2 — Associates attribution never routed to §U | `stage_2_part_3.md:1638` (block) + `conflicts.csv:113` (row) + claim record `stage_2_claim_records_part_2.md` | none → **U.112** block + 15-field register row + claim record, all three emitted together | as D3 | block↔row 1:1 check below | **FIXED (new §U)** |
+| D5 | Check 6.1 / R1 — 4(2) close-date drift never routed to §U | `stage_2_part_3.md:1673` (block) + `conflicts.csv:114` (row) + claim record | none → **U.113** block + row + claim record, together | S-1 orig. l.4300–4302 | same | **FIXED (new §U)** |
+| D6 | Check 2.1 / Check 3.1 / R3 — Gift Center (Nov 1997) imported untagged into a §R state cell | `stage_2_part_3.md:126` | "In-window additions, each dated: … **a Gift Center**, …" → list re-titled "**those that are dated**"; Gift Center **removed from the list** and printed at the tail as "**EXCLUDED … launched November 1997, `(PB)`, recorded only as a post-boundary feature**", with the breach named | §D.5 `stage_2_part_1.md:241` "Outside the window … High that it is out of scope"; 10-K405 l.323 "In November 1997, Amazon.com launched its Gift Center" (verified in the body); claim record D32; `stage_2_part_2.md:352` `(PB)` | `grep -n "Gift Center" stage_2_part_*.md` → 4 hits, every one tagged/out-of-window | **FIXED (firewall breach closed)** |
+| D7 | Check 2.2 / R10 — FY1997 terminators untagged in a §F.3 growth series | `stage_2_part_1.md:363` | `~180,000 → ~340,000 → ~1,500,000 … 16,257 → 32,262 → 164,015` → each 1997-12-31 term tagged **`(PB)`**, each derived leg attributed (`×1.89` in-window; `×4.41`, `×8.33`, `×9.44` boundary-crossing/`(PB)`), as-of dates added to the first two terms | 10-K405 (FY1997 close); `part_1:359` adjacent row's own "*FY1997 leg post-boundary*"; `stage_2_part_2.md:306` `(PB)`; S2B-65/66 | `grep -n "1,500,000" stage_2_part_1.md` | **FIXED — all DERIVED values kept (1.89 / 4.41 / 8.33 / 9.44 / 164,015 / 1,500,000 verified present)** |
+| D8 | Check 2.3 / R10 — 58%-of-1997 label slip | `stage_2_part_1.md:135` | "(58% of 1997: no dilution with scale)" → "**58% of 1997, post-boundary `(PB)`**", confidence cell now says "1996 leg only; the 1997 leg is `(PB)`" | `part_1:393` "(1997, post-boundary)" | `grep -n "58% of 1997" stage_2_part_1.md` | **FIXED** |
+| D9 | Check 4.2 / R4 — duplicate CFO row headed 1996-03 | `stage_2_part_3.md:32` → deleted; content at `:67` | row headed **`1996-03`** → **deleted**; its absence point merged in-cell into the December row, re-anchored **1996-01-01 → 1996-12** (the stage's own open), with the reason printed in-cell; **the December row also re-keyed `1996-12-01` → `1996-12`** because the filing dates the month only | S-1/A No. 5 l.2675 "Ms. Covey joined the Company in **December 1996**" (verified in the body); S2A-31; `timeline.csv:77` already holds Covey once at `1996-12` → **no register change needed**, as the sheet predicted | `grep -n "Covey" stage_2_part_3.md timeline.csv` | **FIXED** |
+| D9a | (found while doing D9) — claim record Q20 keyed to the struck March anchor | `stage_2_claim_records.md:736` | `Date: 1996-03 → 1996-12` → `1996-01-01 → 1996-12`, strike reasoned; Q37 amended to carry the absence and the month-only date | as D9 | `grep -n "^Q20 Claim\|^Q37 Claim" stage_2_claim_records.md` | **FIXED** |
+| D10 | Check 4.3 / R6 — Seafirst row headed a month before its own stated end | `stage_2_part_3.md:66`; `timeline.csv:76` | `1996-11` → **`1996-12`**, event text now quotes the filing ("From November 1994 to December 1996") and states that the November leg is the Stage-1 **start**; register row re-keyed to agree | S-1 (orig.) l.2852–2854 (verified in the body); S2B-54 at `research/ST2_B_finance.md:138` | `grep -n "Seafirst" stage_2_part_3.md timeline.csv` | **FIXED** |
+| D11 | Check 4.4 / R5 — two monotonicity breaks in the `(PB)` block | `stage_2_part_3.md:102–106` | `05-20 → 05-14/15 → 1997-06 → 1998-06 → 1997-12-31` → **re-sorted: `1997-05-14/15 (PB-informed)` → `1997-05-20` → `1997-06` → `1997-12-31 / 1998-03-30` → `1998-06-10/11`** | §Q scope rule | `parse §Q Date column, assert non-decreasing` → the `(PB)` block is monotone (script in this pass) | **FIXED (re-sorting, the preferred remedy)** |
+| D11a | Check 4 — header-vs-rows rule still loose after the re-sort | `stage_2_part_3.md:35–38` | scope note extended: **a SPAN-keyed row does not bind the point-dated rows after it; the `(PB)` block orders on the earliest day each row names** | needed because `1997-05-15 → 1997-06 → 10` (absence row) legitimately precedes a `1997-05-14/15` row | read-back of §Q head | **FIXED (guards the Stage-1 §Q failure class)** |
+| D12 | Check 4.5 / R7 — U.94's false structural claim about §Q | `stage_2_part_3.md:1281–1288` | "and **no §Q row is created for both**, which would double-count one lease" → **"§Q prints the two legal moments as PAIRED rows (`1996-09-30` signed / `1996-11-01` scheduled commencement) under ONE lease, Exhibit 10.29, not as two leases"**, plus the correction's own provenance and the surviving one-lease rule | §Q `:57`/`:58` (both rows exist, both cite Ex. 10.29); the rows stay, the §U sentence goes false | `grep -n "no §Q row is created" stage_2_part_3.md` → 1 hit, inside the correction sentence quoting the false claim | **FIXED (§U corrected, §Q rows kept)** |
+| D13 | Check 3.2 / Check 7.2 / R9 — rename-null bounds conflict | `stage_2_part_3.md:108`; claim record `:828` | §Q `UNKNOWN (bounded 1996-01 → 1997-05)` → **`UNKNOWN (bounded 1994-11 → 1995-07, per timeline.csv and Stage 1 §S)`**, with the reason the re-bounding has no support; Q66's own title corrected (it contradicted its own `Date` field) | `timeline.csv:114` and the Stage-1 row `timeline.csv:19`; "Cadabra" occurs once, Ex. 10.12 (1994-07); S24 already carries the 1994-11 → 1995-07 window; §S row 160 | `grep -n "bounded 1996-01" *` → 0 | **FIXED** |
+| D14 | Check 7.1 / R8 — register-only day precision | `timeline.csv:87`, `:90`; `conflicts.csv:88` | `1997-01-31` → **`1997-01`**; `1997-02-20` → **`1997-02`**; U.87 `claim_a_date` → `1997-01; 1997-02`, `claim_a_source` → "Item 5 **para 7**", confidence field records the strike and the bar on re-entry | orig. S-1 Item 5 ¶7 l.4330 "In January and February 1997 … 5,000 shares … $40.00" (verified in the body); §Q `:73`, §P143 and the U.87 block all say months | `grep -n "1997-01-31\|1997-02-20" timeline.csv conflicts.csv` → only inside strike-notes | **FIXED** |
+| D15 | Check 7.3 / R12 — §Q `1997-06 (PB)` row had no register twin | `timeline.csv:112` (new) | none → **new stage-2 `(POST-BOUNDARY)` row at `1997-06`** (music still only an intention; 10-K405 Overview l.1254–1256), placed in date order between the `1997-05-20` and `1997-12-23` rows; §Q's row also gained its firewall sentence naming what it keeps out | 10-K405 l.1254–1256; §Q `:104`; claim record Q63 amended to list the 1997-06 leg | `grep -c "music is still only an intention" timeline.csv` → 1 | **FIXED (register completion, not folding)** |
+| D16 | Check 5 label note (i) / R11 — §Q `:17` "the 424B1 pricing date" | `stage_2_part_3.md:21` (was :17) | → "the 424B1 **filing** date; the price was announced **1997-05-14** and effectiveness was reached the same day", pointing at part_1 l.18 and the 10-K | 424B1 header 1997-05-15; S2A-53 dateline 1997-05-14; 10-K405 l.1126 | `grep -n "pricing date" stage_2_part_3.md` → 0 | **FIXED** |
+| D17 | Check 5 label note (ii) / R11 — three volume headers said "bounded at the IPO's effectiveness" while ending on the 424B1 date | `part_1:10`, `part_2:10`, `part_3:10` (were :9 each) + the volume-split note at :6 in all three + claim-records header `:4` | → "**bounded at the IPO's final priced prospectus (the 424B1), effectiveness having been reached 1997-05-14**", with part_1 l.18 and 10-K405 l.1126 named | 10-K405 l.1126 "became effective on May 14, 1997" (verified in the body) | `grep -n "bounded at the IPO" stage_2_part_*.md stage_2_claim_records.md` → 4, all the new wording | **FIXED — no boundary date moved** |
+| D18 | Check 4 nuance / R11 — §Q promised a "boundary-adjacent inside 1995-12" class with no rows | `stage_2_part_3.md:23–27` | class list narrowed to **1997-05**, and the absence of a 1995-12 row is **stated and reasoned** (the Dec-1995 anchor is Stage 1's) rather than silently dropped | §Q rows (no 1995-12 row exists); part_1 boundary table | read-back of §Q head | **FIXED by dropping the promise, not by importing a row** |
+| D19 | Check 7.4 — quarterly-vs-dated convention unstated | `stage_2_part_3.md:31–35` | scope note now declares the **period-key convention** and names the `1997-Q1` ↔ `1997-03-31 BOUNDARY STATE` pairing, so a §Q label and a register label may differ without the dates differing | §Q `:83`, `timeline.csv:98` | read-back | **FIXED** |
+| D20 | R12 — index / counts / status | `stage_2_index.md` (rewritten) | §U.44 → U.111 **→ U.44 → U.113**; 68↔68 **→ 70↔70**; conflicts stage-2 68 **→ 70** (total 113); timeline stage-2 58 **→ 59** (total 116); word counts re-measured and shown pre/post-repair; **Status logs every Audit-1 finding as found-by-the-audit and NOT marked complete**; stale "claim-record appendix … not yet built" corrected (479 records); the `_MANIFEST.md` deltas enumerated **for the orchestrator to apply** | re-derived by script, this sheet's invariant ledger | `cat stage_2_index.md` | **FIXED** |
+| D21 | R2/R1 — sibling sections re-pointed (rule: UNKNOWN + reason + siblings re-pointed) | `stage_2_claim_records.md` Q20/Q21/Q23/Q36/Q37/Q63/Q66/R12/S17 + new Q69; `stage_2_claim_records_part_2.md` U.112/U.113 records + coverage note; `data_gaps.csv:30,31,37`; §S `stage_2_part_3.md:164, :166`; §R Capital `:135`; §U closing list `:1711–1721` | every section that leaned on a struck date now cites the repaired object and the new §U id; the §U closing list carries all six repaired slips "so none can be picked silently" | claim records D19/D20/D32, S2A-G5, S2B-54 | `grep -c "U\.112\|U\.113" <each volume>` → 1/3/15/4/6 | **FIXED** |
 
-## Invariant ledger (recomputed at close)
+## Invariant ledger (recomputed by script at close, 2026-09-25)
 
-| Invariant | Before | After | Check |
+| Invariant | Before | After | Verified |
 |---|---|---|---|
-| §U stage-2 blocks in part_3 | 68 (U.44–U.111) | TBD | must equal stage-2 conflicts.csv rows |
-| stage-2 rows in conflicts.csv | 68 | TBD | 1:1, no dups/extras |
-| stage-2 rows in timeline.csv | 58 | TBD | uniform field count |
-| timeline.csv / conflicts.csv / data_gaps.csv field counts | TBD | TBD | uniform per file |
-| DERIVED arithmetic intact | TBD | TBD | recheck touched rows |
+| §U stage-2 blocks in `stage_2_part_3.md` | 68 (U.44–U.111) | **70 (U.44–U.113)**, continuous, no gaps, no dups | ✓ regex `^\*\*U\.<n> — ` |
+| stage-2 rows in `conflicts.csv` | 68 | **70** — **1:1 with the blocks; zero orphans either way** | ✓ set-equality check |
+| conflicts.csv total data rows / field count | 111 / 15 | **113 / 15 uniform** | ✓ csv parse |
+| stage-1 rows in conflicts.csv | 43 | **43 (untouched)** | ✓ |
+| stage-2 rows in `timeline.csv` | 58 | **59** (+1 `(POST-BOUNDARY)` 1997-06 row) | ✓ csv parse |
+| timeline.csv total data rows / field count | 115 / 11 | **116 / 11 uniform** | ✓ csv parse |
+| `data_gaps.csv` rows / field count | 45 / 8 | **45 / 8 uniform** (3 rows annotated, none added) | ✓ |
+| Claim records | 408 vol-1 + 68 U = 476 | **409 vol-1 + 70 U = 479**; U.44–U.113 continuous; §Q = Q17–Q69 | ✓ heading-pattern count |
+| §Q table integrity | — | **68 rows, every row exactly 5 cells**; Date column monotone through the `(PB)` block; UNKNOWNs in one tail block | ✓ |
+| DERIVED arithmetic | — | **every touched row keeps its numbers**: §F.3 ×1.89/×4.41/×8.33/×9.44/164,015/1,500,000 intact; the `(PB-informed)` price derivation `49,103+1,117=50,220 → $16.74 → $18.00` untouched; Q4-1996 `6,577 ÷ 12,287` untouched | ✓ |
+| Numbering re-base | — | **none anywhere**: no U id, claim id, §P id or metric id re-based, renumbered or reused; the two new conflicts are appended at the free end (method §9.3) | ✓ |
+| Boundary | 1996-01-01 → 1997-05-15 | **unchanged**; no IPO-week date moved; Check 5's PASS preserved (labels tightened only) | ✓ |
+| Unsourced date `1996-04-26` | 4 in-text mentions + 1 register row | **0 live assertions**; 9 labelled occurrences, all inside U.113 / §S / the §U closing list / register strike-notes | ✓ |
+| Misattribution "per the filings" | 3 mentions + 1 register row | **0 live assertions**; occurrences only quote the defect being registered | ✓ |
 
-## Decided NOT to fix (with reasons)
-(populated at close)
+## Decided NOT to fix — and why
+
+1. **`stage_2_part_1.md:363` — the DERIVED `×9.44` on the cumulative-sales series is wrong arithmetic.**
+   `164,015 ÷ 16,257 = 10.09`, not 9.44; the row's other three ratios all check out against S2B-65's own inputs
+   (`32,262 ÷ 16,257 = 1.98`, `164,015 ÷ 32,262 = 5.08`). **Left untouched and preserved verbatim**: this is a
+   **numbers-gate** defect, not a chronology defect, and it is not on the audit sheet's instruction list. Its
+   conclusion (`9.44 > 8.33`) is unaffected in direction — with the correct `10.09 > 8.33` it holds more strongly.
+   **Referred to the Stage-2 numbers audit.** (Flagged here rather than silently corrected, per §14 rule 4.)
+2. **`timeline.csv:55` — the Stage-1-pass row `stage2-consequence, 1996-07, "Associates Program begins"`**
+   carries the same unfiled July start (conflict_ref U.41). **Not edited**: the row is `stage2-consequence` —
+   Stage-1 register content written by the Stage-1 pass, inside the concurrent agent's live scope, and not named
+   by the chronology audit. **Residual for the Stage-1 agent or the next register pass**; U.112's block text names
+   it as the surviving instance.
+3. **`stage_2_part_3.md:892` (U.73's interpretation line) — "…the Gift Center and a second distribution centre — all book-adjacent".**
+   Checked and **left alone**: the sentence is scoped "**through 1997-12-31**", so it names the post-boundary items
+   inside an expressly out-of-window statement. It is not a state cell and not a breach — unlike §R `:126`, which
+   the audit correctly did flag.
+4. **The §Q `1996-09-30` + `1996-11-01` paired lease rows are KEPT**, per the audit's own judgment that "the rows
+   themselves are defensible (each names its legal moment)" — the §U sentence was corrected instead (D12).
+5. **The §Q "no 1995-12 row" class is dropped rather than filled** (D18), because printing a boundary-adjacent
+   1995-12 row would import Stage-1 material into a Stage-2 section to satisfy a promise the section made by
+   accident; the register's Stage-1 rows already carry 1995-12-06.
+6. **The `1996-04-26` and `per the filings` strings were NOT erased from the corpus.** They survive only inside
+   U.112/U.113, §S, the §U closing list and the register strike-notes, as the record of the defect — the treatment
+   the malformed `1996-16` / U.63 precedent establishes.
+7. **`_MANIFEST.md` not edited** (owned by the orchestrator per the work order). The deltas it must pick up are
+   written into `stage_2_index.md` Status: §U 68→70, conflicts 68→70 stage-2 rows (113 total), timeline 58→59
+   stage-2 rows (116 total), claim records 476→479.
+
+## Open / needs-evidence after this pass
+
+- **Nothing on this sheet could not be closed locally.** Every one of the 21 defects was repaired against a
+  `sources/` filing body or a `research/` dossier record already on disk, with zero web requests.
+- Two standing UNTRIED items remain UNTRIED, as the audit expressly did not require them: **Amendments Nos. 1/2/4/6
+  (+8-A12G, S-8, S-8 POS, the 1997-11-10 8-K, Q2/Q3 1997 10-Q)** and the **first trading day / day-one price**
+  (U.95, U.99, §S). U.112 adds a third: a dated 1996 Associates launch document — one fetch of the press archive or
+  the US 5,999,911 prosecution history could convert it into a fact.
+- **The stage cannot be called audit-clean until the chronology sheet is re-run.** Repair ≠ pass (method §11).

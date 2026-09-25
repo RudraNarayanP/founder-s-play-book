@@ -1,0 +1,57 @@
+company,stage,date,metric,value,unit,source,source_date,evidence_class,confidence,derived_arithmetic,notes
+Walmart,stage1,FY1974,Net sales,167560892,USD,S0103,1974-03-21,FACT,High,,"CONTEMPORANEOUS: FY1974 report Five Year Progress Report; supersedes A2's rounded $167,561,000 taken from the FY1976 report"
+Walmart,stage1,FY1974,Income before income taxes,11883754,USD,S0103,1974-03-21,FACT,High,,"CONTEMPORANEOUS; A2 carried 11,884k from the FY1976 report"
+Walmart,stage1,FY1974,Net income (pro forma),6158520,USD,S0103,1974-03-21,FACT,High,,CONTEMPORANEOUS; company's own label is 'pro forma' and A3 keeps it
+Walmart,stage1,FY1974,Net income per share,0.93,USD/share,S0103,1974-03-21,FACT,High,,pre-split basis; divide by 2 for the FY1977/FY1978 print (split effective 1975-08-19)
+Walmart,stage1,FY1974,Stores in operation at end of period,78,stores,S0103,1974-03-21,FACT,High,,CONTEMPORANEOUS
+Walmart,stage1,FY1974,Inventories,41470471,USD,S0103,1974-03-21,FACT,High,,"Note 2: stores 33,713,932 + distribution centre 7,756,539; FIFO/retail-method basis — pre-dates the FY1975 LIFO change"
+Walmart,stage1,FY1974,Stockholders' equity,30734128,USD,S0103,1974-03-21,FACT,High,,"CONTEMPORANEOUS exact dollars; replaces A2's 30,734k from FY1976"
+Walmart,stage1,FY1974,Number of shares outstanding,6542250,shares,S0103,1974-03-21,FACT,High,,CONTEMPORANEOUS
+Walmart,stage1,FY1974,New store space added,881630,square feet,S0103,1974-03-21,FACT,High,,20 new stores opened and 6 closed in FY1974; no total square footage is printed for FY1974
+Walmart,stage1,FY1974,Employees,4500,people,S0103,1974-03-21,FACT,Medium,,chart label in the 'NUMBER OF EMPLOYEES' block; round figure; full/part-time composition UNKNOWN
+Walmart,stage1,FY1975,Net sales,236209,USD thousands,S0104,1975-03-28,ESTIMATE/DERIVED,Medium-High,(5855+6353)+1800+48088+176591-2478 = 236209,"FY1975's own printed top line is ABSENT from the text layer; derived by inverting the same table's five printed rows; U-A3/1 records the 226,209 vs 236,209 ambiguity; page image UNTRIED"
+Walmart,stage1,FY1975,Net income,6353,USD thousands,S0104,1975-03-28,FACT,High,,"CONTEMPORANEOUS, asterisked in the original for the LIFO year; SFAS-13 restated value 5995 (S0108)"
+Walmart,stage1,FY1975,Net income per share,0.95,USD/share,S0104,1975-03-28,FACT,High,,"CONTEMPORANEOUS, pre-split; restated basis prints $.45 primary / $.45 diluted in FY1979"
+Walmart,stage1,FY1975,Income before income taxes,12208,USD thousands,S0104,1975-03-28,ESTIMATE/DERIVED,High,5855+6353=12208,"both components CONTEMPORANEOUS on FY1975's own page; restated basis 11,521 (S0108)"
+Walmart,stage1,FY1975,Cost of sales,176591,USD thousands,S0104,1975-03-28,FACT,High,,CONTEMPORANEOUS; first time FY1975's expense rows have their own witness
+Walmart,stage1,FY1975,Operating and selling and general and administrative expense,48088,USD thousands,S0104,1975-03-28,FACT,High,,CONTEMPORANEOUS
+Walmart,stage1,FY1975,Store space added,1083326,square feet,S0104,1975-03-28,FACT,High,,'a record for new store space in a single year'; FY1975 TOTAL square footage is UNKNOWN — no document prints it
+Walmart,stage1,FY1975,Associates,5800,people,S0104,1975-03-28,FACT,Medium,,'its 5800 associates' / 'approximately 5800 associates'; company-stated
+Walmart,stage1,FY1977,Net sales,478807,USD thousands,S0106,1977-04-01,FACT,High,,CONTEMPORANEOUS (FY1977 Eight-Year Summary); A2 held this only from the FY1980 ten-year table
+Walmart,stage1,FY1977,Income before income taxes,31833,USD thousands,S0106,1977-04-01,ESTIMATE/DERIVED,High,15287+16546=31833,"as-PUBLISHED; the SFAS-13 restated figure is 30,857 — U-A3/4 keeps both and forbids reading either as primary"
+Walmart,stage1,FY1977,Net income,16546,USD thousands,S0106,1977-04-01,FACT,High,,"CONTEMPORANEOUS; restated 16,039"
+Walmart,stage1,FY1977,Total assets,133158,USD thousands,S0106,1977-04-01,FACT,High,,pre-SFAS-13 basis
+Walmart,stage1,FY1977,Long-term debt,23245,USD thousands,S0106,1977-04-01,FACT,High,,"single line in FY1977's own report; the FY1978 report splits the same date into 19,158 + 4,087 capital leases = 23,245 (A3-012)"
+Walmart,stage1,FY1977,Total store space,6500000,square feet,S0106,1977-04-01,FACT,Medium,,"'approximately 6,500,000 square feet as of year-end', +24% on 1,300,000 of new space; approximate by the company's own word"
+Walmart,stage1,FY1977,Distribution capacity,550000,square feet,S0106,1977-04-01,FACT,Medium,,"'some 550,000 square feet totally' of Bentonville distribution, incl. a new 150,000 sq ft DC completed November 1976 → 300,000 sq ft pure DC; ~80% of merchandise flowed through it (60% two years earlier)"
+Walmart,stage1,FY1977,Associates,10000,people,S0106,1977-04-01,FACT,Medium,,stated twice; round number; composition UNKNOWN
+Walmart,stage1,FY1977,Dividends per share,0.085,USD/share,S0106,1977-04-01,FACT,High,,CONTEMPORANEOUS; refutes the FY1980 ten-year table's 1977 $.11 (COR-A3-04)
+Walmart,stage1,FY1978,Net sales,678456,USD thousands,S0107,1978-04-14,FACT,High,,"CONTEMPORANEOUS (Nine-Year Summary, the cleanest of the five layers); also printed as $678,456,000 in the FY1979 comparative column"
+Walmart,stage1,FY1978,Income before income taxes,42186,USD thousands,S0107,1978-04-14,ESTIMATE/DERIVED,High,20300+21886=42186,"as-PUBLISHED; restated in FY1979 to 40,847"
+Walmart,stage1,FY1978,Net income,21886,USD thousands,S0107,1978-04-14,FACT,High,,"CONTEMPORANEOUS; restated 21,191"
+Walmart,stage1,FY1978,Total assets,206691,USD thousands,S0107,1978-04-14,FACT,High,,"as published; the SAME DATE is restated to 251,865 in the FY1979 report — see conflict U-A3/6 and metric note in §5.4/5.6"
+Walmart,stage1,FY1978,Stockholders' equity,98943,USD thousands,S0107,1978-04-14,FACT,High,,"as published; 96,482 restated (206,691→251,865 assets; 10,904→59,003 capital leases)"
+Walmart,stage1,FY1978,Stores in operation,195,stores,S0107,1978-04-14,FACT,High,,30 new + 10 expanded/relocated + 16 acquired − 4 closed
+Walmart,stage1,FY1978,Total floor space in operation,8500000,square feet,S0107,1978-04-14,FACT,High,,"vs 6,500,000 'at the same time a year ago'"
+Walmart,stage1,FY1978,Comparable-store sales growth,17,percent,S0107,1978-04-14,FACT,Medium,,the ONLY same-store figure printed anywhere in the nine reports; the comparable-store population and dollar base are not defined ⇒ denominator UNKNOWN; §5.2 reconstructs and confirms internal consistency
+Walmart,stage1,FY1978,Gross margin,25.7,percent,S0107,1978-04-14,FACT,High,,stated by management 'from 26.3 percent in 1977'; §5.5 derives 25.74%/26.34% independently and both agree
+Walmart,stage1,FY1978,Inventories,135845000,USD,S0107,1978-04-14,FACT,High,,"CONTEMPORANEOUS; LIFO basis, replacement cost $14,148,000 higher per FY1979 Note 2"
+Walmart,stage1,FY1979,Net sales,900298000,USD,S0108,1979-04-06,FACT,High,,CONTEMPORANEOUS from the audited income statement; A2 held FY1979 only from the FY1980 report
+Walmart,stage1,FY1979,Income before income taxes,56772000,USD,S0108,1979-04-06,FACT,High,,"printed line; 909,913,000 total revenues − 853,141,000 total costs = 56,772,000 ✓"
+Walmart,stage1,FY1979,Net income,29447000,USD,S0108,1979-04-06,FACT,High,,"implies taxes of 27,325,000 = 48.1% effective"
+Walmart,stage1,FY1979,Total assets,324666000,USD,S0108,1979-04-06,FACT,High,,"POST-SFAS-13 basis; 98,868,000 + 25,965,000 + 72,357,000 + 127,476,000 = 324,666,000 ✓ — NOT comparable with any pre-FY1979 asset figure"
+Walmart,stage1,FY1979,Long-term obligations under capital leases,72357000,USD,S0108,1979-04-06,FACT,High,,"vs 10,904,000 for FY1978 as published — the lease capitalisation made visible"
+Walmart,stage1,FY1979,Inventories,172640000,USD,S0108,1979-04-06,FACT,High,,"replacement cost (FIFO vs LIFO) $22,271,000 greater"
+Walmart,stage1,FY1979,Distribution centre under construction,390000,square feet,S0107,1978-04-14,FACT,High,,"Searcy Arkansas, construction began during FY1978, completion tentatively June 1978, 'capability of servicing one-half of the existing Wal-Mart stores'"
+Walmart,stage1,FY1979,Dividends per share,0.22,USD/share,S0108,1979-04-06,FACT,High,,stated in the income statement parenthetical and as four quarterly payments of $.055
+Walmart,stage1,FY1979,Number of shares outstanding,15079383,shares,S0108,1979-04-06,FACT,High,,CONTEMPORANEOUS (was FY1980-dated in A2)
+Walmart,stage1,FY1970,Total assets,8493,USD thousands,S0107,1978-04-14,FACT,High,,RESTATED (in the FY1978 nine-year table) — the first statement of FY1970's balance sheet anywhere in this corpus; no FY1970 report exists
+Walmart,stage1,FY1970,Stockholders' equity,3159,USD thousands,S0107,1978-04-14,FACT,High,,"RESTATED (in FY1978); independently confirmed by the table's own return-on-equity row: 1,652 / 3,159 = 52.3 = printed FY1971 ROE"
+Walmart,stage1,FY1970,Net income,1187764,USD,S0101,1972-03-22,FACT,Medium,,"'pro forma'; RESTATED (in FY1972, FY1973, FY1974 reports); the FY1978 table prints 1,011 thousand and its own rows imply 1,239 — see U-A3/2"
+Walmart,stage1,FY1968,Net sales,12618754,USD,S0101,1972-03-22,FACT,High,,RESTATED (in FY1972 report) and UNAUDITED — outside every opinion on disk; the earliest year any document counts
+Walmart,stage1,FY1962,Net sales,UNKNOWN,UNKNOWN,no document on disk states any FY1962-FY1967 financial figure,UNKNOWN,UNKNOWN,UNKNOWN,,"EMPTY, not thin: nine reports, all summary tables searched. Earliest counted year is FY1968"
+Walmart,stage1,FY1976,Sales per square foot,64.27,USD per square foot,S0105,1976-03-26,ESTIMATE/DERIVED,Medium,340331000 / 5295000 = 64.27,earliest computable year — no total square footage exists for FY1968-FY1975; denominator label undefined
+Walmart,stage1,FY1980,Sales per square foot,99.06,USD per square foot,S0109,1980-04-01,ESTIMATE/DERIVED,Medium,1248176000 / 12600000 = 99.06,
+Walmart,stage1,FY1978,Sales per store (period-end count),3479262,USD per store,S0107,1978-04-14,ESTIMATE/DERIVED,Medium,678456000 / 195 = 3479262,denominator is a PERIOD-END store count against a full-year numerator; average-store count is not printed for any year ⇒ the correct version of this metric is UNKNOWN
+Walmart,stage1,FY1979,Debt to equity,0.771,ratio,S0108,1979-04-06,ESTIMATE/DERIVED,High,(25965000+72357000)/127476000 = 0.771,"excluding capital leases 25,965/127,476 = 0.204; both figures reported because 'debt' has two definitions in these documents"
+Walmart,stage1,FY1962-FY1967,Every financial and physical variable,EMPTY,UNKNOWN,all nine reports searched,1972-03-22 to 1980-04-01,UNKNOWN,UNKNOWN,,EMPTY — a stated perimeter: the nine printed reports and every summary table in them

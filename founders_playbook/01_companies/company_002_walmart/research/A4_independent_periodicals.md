@@ -471,156 +471,133 @@ the SECTOR and a weak one for the COMPANY, and no number of further *Stores* iss
 that. The named witness, if it exists, is more likely in local newspaper print (blocked family) or a
 directory (absent family) than in either serial now reachable.**
 
-### A4-30 … A4-40 — THE HALVES THAT CLOSE 1963 / 1965 / 1967, AND THE ONE MONTHLY THAT MATTERS MOST
+### A4-30 … A4-36 — THE THREE HALVES THAT CLOSE 1963 / 1965 / 1967, AND WHAT THEY SAY ABOUT THE TRADE
 
-A4-30 Claim: **The three missing half-years are now retrieved, so Business Week's index coverage of
-Wal-Mart's first decade is continuous month-by-month from 1962 to 1971, and `wal-mart` is 0 in every
-half-volume: 1963 Jul–Dec (`sim_business-week_business-week_july-december-1963_index`, 633,645 B, 99,760
-words), 1965 Jan–Jun (`…_january-june-1965_index`, 637,923 B / 100,903 words), 1967 Jul–Dec
-(`…_july-december-1967_index-contents`, 556,337 B / 88,978 words) — each HTTP 200, bytes EXACT.**
-Date: 1963–1967 — Source: the three layers — Source date: bound indexes — URL: metadata→server→dir
-(`https://ia601007.us.archive.org/15/items/…1963_index_djvu.txt`,
+A4-30 Claim: **The missing halves are now retrieved, so Business Week's index coverage of Wal-Mart's first
+decade is continuous month-by-month 1962 → 1971, and `wal-mart` is 0 in every half-volume: 1963 Jul–Dec
+(`sim_business-week_business-week_july-december-1963_index`, HTTP 200, 633,645 B = declared → EXACT,
+99,760 words), 1965 Jan–Jun (`…_january-june-1965_index`, 637,923 B EXACT, 100,903 words), 1967 Jul–Dec
+(`…_july-december-1967_index-contents`, 556,337 B EXACT, 88,978 words).** Date: 1963–1967 —
+Source: the three layers — Source date: SIM-bound indexes of 1964 / 1966 / 1968 — URL:
+`https://ia601007.us.archive.org/15/items/…1963_index_djvu.txt`,
 `https://ia800104.us.archive.org/28/items/…1965_index_djvu.txt`,
-`https://ia800809.us.archive.org/12/items/…1967_index-contents_djvu.txt`) — Archived: A4 scratch +
-extract file with per-year counts — Tier: 2 — Class: FACT (as to BW's index apparatus, 13 half-year/full
-volumes read) — Passage: NO_VERBATIM_PASSAGE_RECORDED (absence) — Conf: High — Corroboration: 1 publisher,
-10 index years — Conflicts: none. **Month-token proof of the perimeter travels with the extract: 1963-H2
-`jul 698 · aug 871 · sep 782 · oct 729 · nov 1000 · dec 594`, `jan 3 · feb 0 · mar 0 · apr 0 · jun 0`;
-1965-H1 `jan 799 … jun 703`, `jul 0 … dec 0`; 1967-H2 `jul 646 … dec 555`, `feb 0 · apr 0 · jun 0`.**
+`https://ia800809.us.archive.org/12/items/…1967_index-contents_djvu.txt` — Archived: A4 scratch, whole;
+per-year counts and offsets in
+`../sources/periodicals/BUSINESSWEEK_INDEX_1962-1971_EXTRACT_walmart_and_sector_hits.txt` — Tier: 2 —
+Class: FACT (as to BW's index apparatus, now 10 index years / 13 half-and-full volumes read) —
+Passage: NO_VERBATIM_PASSAGE_RECORDED (an absence) — Conf: High — Corroboration: 1 publisher —
+Conflicts: none. **Month-token proof travels with the extract: 1963-H2 jul 698 · aug 871 · sep 782 ·
+oct 729 · nov 1,000 · dec 594 against jan 3 · feb 0 · mar 0 · apr 0 · jun 0; 1965-H1 jan 799 → jun 703,
+jul–dec 0; 1967-H2 jul 646 → dec 555, feb 0 · apr 0 · jun 0.**
+**The company-naming result across the whole decade is now: 1962, 1963, 1964, 1965, 1966, 1967, 1968,
+1969, 1970, 1971 — ten years, `wal-mart` 0 in all ten.**
 
-A4-31 Claim: **The 1963 second-half index carries the most-quoted independent industry number of the
-founding years, indexed as a short item: discount-store sales amounted to $6.9 billion in 1962
-(Business Week p.132, Jul.13 1963) — and the same block records a Dun & Bradstreet survey of discount
-stores' most profitable departments (p.79, Nov.9 1963).** Date: 1963-07-13; 1963-11-09 — Source:
-`sim_business-week_business-week_july-december-1963_index`, `DISCOUNT Houses` block @180,304 —
+A4-31 Claim: **The 1963 second-half index carries the two most useful independent industry statements in
+this whole dossier, both with date and page: a discount-store sales total of $6.9 billion for calendar 1962
+(short news item, p.132, Jul.13 1963) and a Dun & Bradstreet survey of discount stores' most profitable
+departments (p.79, Nov.9 1963).** Date: 1963-07-13; 1963-11-09 — Source:
+`sim_business-week_business-week_july-december-1963_index`, `DISCOUNT Houses` block, raw offset 180,304 —
 Source date: index bound 1964 — URL: as A4-30 — Archived: extract file, block printed verbatim —
-Tier: 2 — Class: FACT (as indexed; the printed entry is OCR-reflowed and is quoted below exactly as it
-came) / CONTEMPORARY OBSERVATION — Passage: "stores amounted to $6.9 / billion in 1962 # p132, Jul.13" —
-Conf: High (that the item exists at that page and date) · **Low (as to what universe the $6.9 billion
-measures — no definition is reachable)** — Corroboration: 1 publisher; see U-A4/5 against BW's own
-"$6-billion industry" of Dec.1 1962 — Conflicts: **U-A4/5**.
-**Why this record matters for A3 §7.2(d):** A3 asked for "a non-company contemporaneous count". Here is
-one — a Dun & Bradstreet **survey of discount stores** indexed with a date and page, plus an industry
-dollar volume for calendar 1962. It is a count **of the trade, not of Wal-Mart**, so it does not by itself
-move the company's independent-lineage count; it moves the market-state layer. **The D&B volume itself
-remains UNTRIED.**
+Tier: 2 — Class: FACT (as indexed; the printed entry is OCR-reflowed and is quoted exactly as it came) —
+Passage: "stores amounted to $6.9 / billion in 1962 # p132, Jul.13" and "Survey by Dun \® Bradstreet shows
+that / and television arte the most profitable departments / in a sampling of discount stores # p79, Nov.9" —
+Conf: High (that BW indexed these items on those dates at those pages) · **Low (as to what universe the
+$6.9 billion measures: no definition is reachable, and the department names are partly lost to OCR)** —
+Corroboration: 1 publisher; see U-A4/5 against BW's own "$6-billion industry" of Dec.1 1962 —
+Conflicts: **U-A4/5**.
+**Why this is the record A3 asked for by name — and why it still does not move the verdict:** A3 §7.2(d)
+asked for "a non-company contemporaneous count of Wal-Mart's stores or sales". Here at last is a
+non-company contemporaneous count **of the trade** (D&B sampling discount stores; a national dollar
+volume for 1962). It is independent of the registrant, dated, and paginated. **It is not a count of
+Wal-Mart**, so the company's independent-lineage count is unchanged — but the market-state layer now rests
+on third-party arithmetic instead of on inference from the company's own later account. **The D&B volume
+itself remains UNTRIED.**
 
 A4-32 Claim: **"Fewer stores to share the pie: They get bigger but decrease in number as discounters,
 chains squeeze 'little guys'", Business Week p.182, Nov.16 1963 — the independent press statement that in
 Wal-Mart's second year the DISCOUNT-STORE COUNT WAS FALLING while units grew, and that chains were
 squeezing small operators.** Date: 1963-11-16 — Source: same `DISCOUNT Houses` block @180,304 —
-Source date: index bound 1964 — URL: as A4-30 — Archived: extract file — Tier: 2 — Class:
-CONTEMPORARY OBSERVATION (index-level: headline + page + date; the article text is unreachable) —
+Source date: index bound 1964 — URL: as A4-30 — Archived: extract file — Tier: 2 —
+Class: CONTEMPORARY OBSERVATION (index-level: headline, page, date; the article text is unreachable) —
 Passage: "Fewer stores to share the pie: They get bigger but decrease in number as discounters, chains
 squeeze 'little guys' p182, Nov.16" — Conf: High (as an indexed citation) — Corroboration: 1 publisher —
-Conflicts: **U-A4/6** (a falling industry unit-count against the registrant's rising one).
-**Hindsight-firewall use, stated as the method requires: this is the contemporaneous reading of the
-sector in 1963, and a 1963 observer could not have known that a two-store company in Bentonville would
-end the decade inside this industry's top ranks. The dataset records the squeeze narrative as what was
-knowable, not as a backdrop the founder deftly escaped.**
+Conflicts: **U-A4/6** (a falling industry unit-count set against the registrant's rising one).
+**Hindsight-firewall duty (§2): this is what an operator could read in November 1963, and it is the
+opposite of an obvious opportunity. The dataset records the squeeze narrative as the knowable state; it
+does not recast it as a tide the founder cleverly rode, because no evidence in this corpus says he knew of
+it or acted on it.**
 
-A4-33 Claim: **1963's second half also shows what Business Week indexed when it indexed "Arkansas": ten
-hits, every one of them education, race and politics — "ECONOMIC Education Workshop of Arkansas —
-Arkansas schools get economics-minded (with illus) p112, Jul.20", and the same story indexed under
-"FAUBUS, Orval" — plus `WALTON, William B. — A single standard for travelers p114, Nov.16`, a third
-Walton decoy. Not one Arkansas hit in 1963 is about retailing, and not one Walton is about the family.**
-Date: 1963 — Source: layer offsets 191,552 / 191,562 / 197,104 / 217,893 (arkansas), 610,172 (walton) —
-Source date: index bound 1964 — URL: as A4-30 — Archived: extract file — Tier: 2 — Class: FACT (with
-offsets) — Passage: "Arkansas schools get economics-minded (with illus) p112, Jul.20" — Conf: High —
-Corroboration: 1 publisher — Conflicts: none. **This is the strongest available statement that the
-company's home state was publicly visible in the national business press in 1963 for reasons that had
-nothing to do with discount retailing.**
+A4-33 Claim: **1963's second half shows exactly what Business Week indexed when it indexed "Arkansas": ten
+hits, all education, race and politics — "ECONOMIC Education Workshop of Arkansas — Arkansas schools get
+economics-minded (with illus) p112, Jul.20", the same story indexed under "FAUBUS, Orval", plus
+`WALTON, William B. — A single standard for travelers p114, Nov.16`, a third Walton decoy. Not one 1963
+Arkansas hit concerns retailing, and not one Walton is the family.** Date: 1963 — Source: offsets 191,552 /
+191,562 / 197,104 / 217,893 (arkansas); 610,172 (walton) — Source date: index bound 1964 — URL: as A4-30 —
+Archived: extract file — Tier: 2 — Class: FACT (with offsets) — Passage: "Arkansas schools get
+economics-minded (with illus) p112, Jul.20" — Conf: High — Corroboration: 1 publisher — Conflicts: none.
+**Recorded twice over: as the fourth documented decoy family (`wal-mart` 0, `walton` 1 unrelated, 1963 H2),
+and as the honest statement that the company's home state was visible in the national business press in
+1963 for reasons that had nothing to do with discount retailing.**
 
-A4-34 Claim: **In June 1965 — three years after opening — the discount sector's own success was being
-questioned in the trade press by name: "Is success spoiling discount stores? Moves to carry more costly
-merchandise worry industry leaders (with illus)", Business Week p.97, Jun.2 1965; the same block asks "Is
-the franchise system legal? Supreme Court answer[ed] … when it decides GM violated Sherman Act" p.66,
-Apr.3 1965 — the franchise-law question that bore directly on the Ben Franklin form.** Date: 1965-06-02;
-1965-04-03 — Source: `sim_business-week_business-week_january-june-1965_index`, `DISCOUNT HOUSES` block
-@186,570; `ROGERS, Byron G. — Is the franchise system legal p66, Apr.3` @510,490 — Source date: index
-bound 1966 — URL: as A4-30 — Archived: extract file — Tier: 2 — Class: CONTEMPORARY OBSERVATION
-(index-level) — Passage: "Is success spoiling discount stores? Moves to carry more costly merchandise
-worry industry leaders (with illus) p97, Jun.2" — Conf: High — Corroboration: 1 publisher —
-Conflicts: none. **`wal-mart` 0 in this half-volume too; the sector was newsworthy, the company was not.**
+A4-34 Claim: **By June 1965 — three years after opening — the sector's own success was being doubted in
+print by name: "Is success spoiling discount stores? Moves to carry more costly merchandise worry
+in[du]stry leaders (with illus)", Business Week p.97, Jun.2 1965; the same block prints "Is the franchise
+system legal? Supreme Court answer[ed] … when it decides GM violated Sherman Act" p.66, Apr.3 1965 —
+the franchise-law question that bore directly on the Ben Franklin form — and "Mix discounts and art—and
+make sales jump: Honest Ed's, offbeat Toronto discounter, now a mink-coat trade" p.50.**
+Date: 1965-06-02; 1965-04-03 — Source: `sim_business-week_business-week_january-june-1965_index`,
+`DISCOUNT HOUSES` block @186,570; `ROGERS, Byron G. — Is the franchise system legal p66, Apr.3` @510,490 —
+Source date: index bound 1966 — URL: as A4-30 — Archived: extract file — Tier: 2 — Class:
+CONTEMPORARY OBSERVATION (index-level) — Passage: "Is success spoiling discount stores? Moves to carry
+more costly merchandise worry me[n] industry leaders (with illus) p97, Jun.2" — Conf: High —
+Corroboration: 1 publisher — Conflicts: none. **`wal-mart` 0 and `walton` 0 in this half-volume; the
+sector was newsworthy, the company was not. Note also that a 1965 franchise-law story is indexed, which is
+the nearest this corpus comes to the legal environment of Walton's own franchise form — and the article
+text is unreachable, so it is a pointer only.**
 
-A4-35 Claim: **1967's second half contains the fourth and final "small town" decoy: "Helping a small town
-cope with prosperity (with illus) p.184, Sep.23 1967", indexed three times and belonging to a steel-mill
-town story ("Laughlin has kept its Hennepin [Ill.] steel mill from setting off a runaway boo[m]") — not to
-discount retailing in any town, least of all Rogers.** Date: 1967-09-23 — Source:
+A4-35 Claim: **1967's second half carries the fourth "small town" decoy: "Helping a small town cope with
+prosperity (with illus) p.184, Sep.23 1967", indexed three times and belonging to a steel-mill town story
+("Laughlin has kept its Hennepin [Ill.] steel mill from setting off a runaway boo[m]") — not to discount
+retailing in any town, least of all Rogers.** Date: 1967-09-23 — Source:
 `sim_business-week_business-week_july-december-1967_index-contents`, offsets 60,091 / 113,701 / 297,854 —
-Source date: index bound 1968 — URL: as A4-30 — Archived: extract file — Tier: 2 — Class: FACT (with
-offsets) — Passage: "Helping a small town cope with prosperity (with illus) p184, Sep.23" — Conf: High —
+Source date: index bound 1968 — URL: as A4-30 — Archived: extract file — Tier: 2 — Class: FACT (offsets) —
+Passage: "Helping a small town cope with prosperity (with illus) p184, Sep.23" — Conf: High —
 Corroboration: 1 publisher, 3 index placements — Conflicts: none. **Recorded because "small town" is the
-phrase most likely to be mistaken for Wal-Mart's own positioning; in five years of Business Week indexes it
-never once attaches to the company.**
+phrase most likely to be mistaken for Wal-Mart's own positioning; across ten index years it never once
+attaches to the company, and where it does attach, it attaches to Aldens/Gamble-Skogmo (1964) or to a
+steel town (1967).**
 
-A4-36 Claim: **The single most useful monthly issue found in the entire *Stores* run for Stage 1's
-market-as-knowable section is December 1961 (vol 43 no 11): the trade body's own account of the NRMA
-DISCOUNT SEMINAR held the month before, three months before the first Wal-Mart Discount City opened —
-"The Discount Business — Is It for You?", with `discount` appearing 67 times in 24,370 words while
-`walton`, `wal-mart`, `ben franklin` and `bentonville` each appear 0 times.** Date: 1961-12 — Source:
-`sim_stores_1961-12_43_11`, 288,000-class layer, bytes EXACT vs metadata — Source date: 1961-12 —
-URL: metadata→server→dir — Archived: A4 scratch + `STORES_NRDGA_1946-1972_EXTRACT_walton_and_discount.txt` —
-Tier: 3 for the company; **Tier 1 for what the trade knew in December 1961** — Class: FACT (as printed) —
-Passage: "The Discount Business— Is It for You? From NRMA's Discount Seminar: reports on discount lessees;
-discount buying offices; merchandise and operating controls in self-service stores" — Conf: High —
-Corroboration: 1 publisher; the seminar's own attendance and content figures are **unverified against any
-second source** — Conflicts: none.
-
-A4-37 Claim: **December 1961, at the seminar: about 800 attendees, half of them conventional department
-stores; and the trade's sizing rule for a discount operation was published as a table — a 30,000 sq ft
-store for a trading area "Under 100,000", rising to 100,000–125,000 sq ft for 1,000,000 — while the same
-consultant warned of a "serious 'over-concentration' of discount stores" and a shortage of prime
-locations in some areas.** Date: 1961-12 (reporting November 1961) — Source: `sim_stores_1961-12_43_11`
-offsets 61,311 (attendance), 83,429 and 84,068 (Perry Meyers, "should You 'Go Discount?'" session) —
-Source date: 1961-12 — URL: metadata→server→dir — Archived: extract file — Tier: 1 (knowability) /
-Tier 3 (as fact about any company) — Class: FACT (as printed) / CONTEMPORARY OBSERVATION — Passage:
-"One of the main appeals of a discount store, he said, is that it's big, and in a shopping center he
-believes that it needs a minimum of 50,000 square feet" — Conf: Medium (**the size/population table is
-OCR-mangled: "Trading Area Sq. Ft. Populal'en 30,000 . Under 100,000 60 000-100,000 . 250,000 500,000
-100,000-125 000 . 1,000 000 Over 150,000 . Multi-million" — the column pairing is not settleable from the
-layer and no row is quoted as a rule**) — Corroboration: 1 publisher — Conflicts: **U-A4/7**.
-
-A4-38 Claim: **December 1961 also prints the trade's scale in its own words: NRMA "membership covers over
-11,500 retail establishments with a combined annual sales of over $19 billion", and a discount operator
-named with figures — Richard Tumpowsky, president of American Dixie Shops, "doing a volume that
-Tumpowsky says will hit $30 million next year", with a stated unit economics of "an inventory of
-$100,000 to $150,000" per 8,000–10,000 sq ft leased department aiming at "$1 to $1.5 million annual
-sales"; and a hard-goods discount markup of "26 to 28 per cent".** Date: 1961-12 — Source: offsets 13,708
-/ 13,789 (association scale), 74,914 (markup), 75,790–75,990 (American Dixie) — Source date: 1961-12 —
-URL: metadata→server→dir — Archived: extract file — Tier: 3 (2 for a named-firm self-report reprinted in
-trade press) — Class: FACT (as printed) / FOUNDER CLAIM analogue: **these are the operator's own numbers
-as reported by the trade, so they carry one voice each** — Passage: "The Association's membership covers
-over 11,500 retail establishments with a combined annual sales of over $19 billion" — Conf: Medium
-(reprinted self-report; the $19 billion is the association's membership aggregate, not a market measure) —
-Corroboration: 1 publisher — Conflicts: none. **This is where a merge must resist temptation: 11,500
-establishments is NRMA's MEMBERSHIP, not the number of discount stores, and it must never be used as a
-denominator for Wal-Mart's share without that label.**
-
-A4-39 Claim: **December 1961 names the variety-to-discount conversion path that the registrant's own
-narrative later claims as distinctive, in a different firm: "Manfred Brecker, vice president of S. E.
-Nichols Company, operator of Nichols Discount Cities since 1958, and with a long previous history in
-variety stores" — i.e. a trade-published precedent for a variety operator becoming a discount operator,
-printed before Wal-Mart existed as a chain.** Date: 1961-12 — Source: offset 91,412 — Source date:
-1961-12 — URL: metadata→server→dir — Archived: extract file — Tier: 3 — Class: FACT (as printed) /
-INFERENCE (that this weakens any claim that the variety→discount path was unprecedented — mechanism: a
-named member had already taken it by 1958) — Passage: "operator of Nichols Discount Cities since 1958, and
-with a long previous history in variety stores" — Conf: High — Corroboration: 1 publisher —
-Conflicts: none. **Anti-hagiography service (§2): this record makes the company's origin look like one
-instance of a trade-wide move already under way, which is exactly the reading the firewall demands.**
-
-A4-40 Claim: **June 1946 (`sim_stores_1946-06_28_6`, 239,949 chars / 33,955 words, HTTP 200, bytes EXACT) —
-the year after Walton opened in Newport — returns `walton` 0, `wal-mart` 0, `ben franklin` 0, `arkansas` 0,
-`newport, ky` 0, `nrdga` 0 (the association writes its own name out in this era), and its `discount` 6 hits
-are all cash-discount and employee-discount accounting in Controllers' Congress cost tables, in the worst
-OCR of any layer read in this run.** Date: 1946-06 — Source: offsets 16,957 / 18,791 / 105,506 / 115,205 —
-Source date: 1946-06 — URL: metadata→server→dir — Archived: A4 scratch + extract — Tier: 3 —
-Class: FACT (as to this issue; OCR caveat attached) — Passage: "cash discounts at 2.5% … the average gross
-sale for the year stood at $3.41" (garbled as printed: "casli discounts at 2..S’,, rite axciage gross sale
-lor tlie vear stood at S3.41") — Conf: Medium — Corroboration: 1 publisher — Conflicts: none.
-**The OCR state is recorded because it bounds what the EMPTY can prove: in a layer this damaged, a small
-franchisee's name could be lost to the machine. The 1946–1961 EMPTY is therefore stated at Medium, not
-High, and the run's remaining ~191 issues are UNTRIED.**
+A4-36 Claim: **1958–1961: the trade's own arithmetic on discount penetration, in the journal of the
+association Walton's franchise belonged to. June 1958 (*Stores* vol 40 no 6): "It is evident, too,
+according to this survey, that the spread of discount houses over the country is slowing down. Only 28 per
+cent of the stores reported more discount houses operating in their communities, six per cent reported
+fewer such stores while the remainder (66 per cent) indicated no change." December 1961 (*Stores* vol 43
+no 11, the NRMA Discount Seminar issue, `discount` 67 times in 24,370 words): NRMA "membership covers over
+11,500 retail establishments with a combined annual sales of over $19 billion"; about "800 people" attended
+the seminar, "about one half were representatives of conventional department stores, the rest were
+discounters"; hard-goods discount markup "26 to 28 per cent"; a sizing formula pairing store square
+footage with trading-area population; "a serious 'over-concentration' of discount stores"; and S. E.
+Nichols Company, "operator of Nichols Discount Cities since 1958, and with a long previous history in
+variety stores".** Date: 1958-06 and 1961-12 — Source: `sim_stores_1958-06_40_6` offsets 32,746 / 32,858;
+`sim_stores_1961-12_43_11` offsets 13,749 (association scale), 61,464 (attendance), 74,633 (markup),
+84,160 and 84,355 (the size/population formula and "over-concentration"), 91,292 (Nichols) — Source date:
+as printed — URL: metadata→server→dir (both layers HTTP 200, bytes EXACT) — Archived:
+`../sources/periodicals/STORES_NRDGA_1946-1972_EXTRACT_walton_and_discount.txt` — Tier: 3 for the company,
+**Tier 1 for what the trade knew in 1958 and in December 1961** — Class: FACT (as printed) /
+CONTEMPORARY OBSERVATION / ESTIMATE for the formula's column pairing —
+Passage: "operator of Nichols Discount Cities since 1958, and with a long previous history in variety
+stores" — Conf: High for the quoted sentences; **Medium for the size/population table, whose OCR reads
+"Sq. Ft. Populal'en 30,000 . Under 100,000 60 000-100,000 . 250,000 500,000 100,000-125 000 . 1,000 000
+Over 150,000 . Multi-million" — column pairing is not settleable from this layer (U-A4/7)** —
+Corroboration: 1 publisher; the seminar figures are a trade body reporting on its own event, so they are
+**self-report inside a third party** and are not treated as an independent measurement of the industry —
+Conflicts: **U-A4/7**.
+**Two duties discharged here. (a) Anti-hagiography: Nichols "with a long previous history in variety
+stores" converting to discount cities from 1958 is a published precedent for exactly the move the
+registrant later narrates as its own, printed three months before the first Wal-Mart opened; the origin
+story therefore sits inside a trade-wide conversion, not outside it. (b) The $19 billion / 11,500 figures
+must carry the label "NRMA membership aggregate", never "the discount industry" — it is not a discount
+count and must not become a denominator (see the CSV notes).**
 
 ---
 

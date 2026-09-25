@@ -37,16 +37,260 @@
 ### month tokens: jan.=849 feb.=911 mar.=1165 apr.=972 may=1366 jun.=1021 jul.=811 aug.=880 sep.=1045 oct.=898 nov.=911 dec.=1005
 ### TERM COUNTS (case-folded over the whole layer): wal-mart=0 | walmart=0 | walton=1 | arkansas=1 | rogers=4 | ben franklin=0 | newport=3 | five-and-dime=0 | variety store=0 | discount=88 | small town=0 | kresge=1 | woolworth=4 | bentonville=0 | nrdga=0 | self-service=0
 --- identity-sensitive hits, verbatim with char offset ---
-  [walton @1250972]  brokerages p114, Dec.1 WALSTON, Vernon C. Big merger of brokerages (with illus) p114, Dec WALTER, James W. Shell home builder acquires control of Celotex in financial coup p84, Jul.21 WALTON, William Motel chain finds profits in owning: Holiday Inns is acquiring franchised units (with illus) p47, Jul.14 WARNE, Colston E. Product rating catches on abroad p51, Jul.28 WARNECKE Electron Tubes, Inc. French try an invasion of
-  [arkansas @682589] .17 ARIEL, Dr. Irving Attacking cancer from the inside: New tech- nique of injecting radioactive particles in an artery permits greatly increased dosage of cancer-killing rays p65, Dec.15 ARKANSAS Louisiana Gas Co. Metering of air conditioning used by apart- ments may help gas industry p56, Jul.28 ARMCO Steel Corp. Estes Kefauver threatens contempt citations against company that declined to submit cost data p38, Aug.18 
-  [rogers @505234] n Reds move in # p99, Feb.17 RODRIGUEZ, Victor H. Tightening the embargo on Cuba p45, Jan.6 ROEBLING, Mary G. The heat is on the Street: SEC report on American Stock Exchange p23, Jan.13 ROGERS Cartage Co. Whiskey is no mere chemical, says ICC, tossing off permits to transport it p130, Feb.17 ROGERS, Irving Autos off to fast start as buyers go the limit (with illus) p26, Feb.10 ROLLS-Royce, Ltd. Talks with British Mo
-  [rogers @505348] . The heat is on the Street: SEC report on American Stock Exchange p23, Jan.13 ROGERS Cartage Co. Whiskey is no mere chemical, says ICC, tossing off permits to transport it p130, Feb.17 ROGERS, Irving Autos off to fast start as buyers go the limit (with illus) p26, Feb.10 ROLLS-Royce, Ltd. Talks with British Motor o*. about possible technical cooperation # p46, Jan.6 ROME, Dr. Sydney Teaching computer to dissect a b
-  [rogers @1137287] kwell takes Bombay Ps yd to bypass India’s import limits p52, 21 RODEOS eee on horseback: Texas prison's annual rodeo helps pay for inmates’ rehabilitation programs (with illus) p42, Oct.20 ROGERS, Charles Fuss over one drink too many: — State’s funds just getting unfrozen after showed glass in hand p66, Jul.28 ROGERS, Charles F., Jr. Expatriates thrive on tourists in Mexico (with illus) p54, Dec.1 ROHM & Haas Co. Synthe
-  [rogers @1137416] s pay for inmates’ rehabilitation programs (with illus) p42, Oct.20 ROGERS, Charles Fuss over one drink too many: — State’s funds just getting unfrozen after showed glass in hand p66, Jul.28 ROGERS, Charles F., Jr. Expatriates thrive on tourists in Mexico (with illus) p54, Dec.1 ROHM & Haas Co. Synthetic rubber plant in Brazil will have in- ternational financing p69, Nov.24 ROLLERT, Edward D. Buick gets back in high gear:
-  [newport @431597] wmark offers novel one-man service (with illus) p47, Jun.16 NEWMONT Oil Co. Gas leasing under fire: FPC examiner thumbs down pipeline’s deal to buy gas in place and produce it p29, Jan.13 NEWPORT News Shipbuilding & Dry Dock Co. Douglas Aircraft and Newport News announce they will bid as a team on production of very large high-strength rocket cases =~ p40, Feb.10 NEWSPAPERS Runners-up in morning, evening fields aban- don 
-  [newport @431662] EWMONT Oil Co. Gas leasing under fire: FPC examiner thumbs down pipeline’s deal to buy gas in place and produce it p29, Jan.13 NEWPORT News Shipbuilding & Dry Dock Co. Douglas Aircraft and Newport News announce they will bid as a team on production of very large high-strength rocket cases =~ p40, Feb.10 NEWSPAPERS Runners-up in morning, evening fields aban- don Los Angeles newspaper wars p106, Jan.13 Readers Report: Justif
-  [newport @1067884] E, Samuel IL. Newhouse newspaper chain eoting up own big bureau in Washington p38, Jul.28 Fails in attempt to acquire the Omaha World- Herald. He was outbid by Peter Kiewit # p40, Nov.3 NEWPORT, Ky. Boycott of Communist-made goods bolstered + gh $1,000 license by Kentucky town p38, ec.15 NEWSPAPERS Hearst sells losing morning 2 paper to evening Milwaukee Journal p56, J Newhouse newspaper chain setting 2 own big burea
-  [BLOCK DISCOUNT Houses @183842] DISCOUNT Houses 
+  [raw offset 1250972 | norm offset 1182934] walton ::  brokerages p114, Dec.1 
+WALSTON, Vernon C. 
+
+
+Big merger of brokerages (with illus) p114, 
+Dec 
+
+
+WALTER, James W. 
+
+
+Shell home builder acquires control of Celotex 
+in financial coup p84, Jul.21 
+
+
+WALTON, William 
+
+Motel chain finds profits in owning: Holiday 
+Inns is acquiring franchised units (with illus) 
+p47, Jul.14 
+
+WARNE, Colston E. 
+
+Product rating catches on abroad p51, Jul.28 
+WARNECKE Electron Tubes, Inc. 
+
+French try an invasion of
+  [raw offset 682589 | norm offset 644967] arkansas :: .17 
+
+
+ARIEL, Dr. Irving 
+
+
+Attacking cancer from the inside: New tech- 
+nique of injecting radioactive particles in an 
+artery permits greatly increased dosage of 
+cancer-killing rays p65, Dec.15 
+
+
+ARKANSAS Louisiana Gas Co. 
+
+
+Metering of air conditioning used by apart- 
+ments may help gas industry p56, Jul.28 
+
+
+ARMCO Steel Corp. 
+
+
+Estes Kefauver threatens contempt citations 
+against company that declined to submit cost 
+data p38, Aug.18 
+
+
+
+  [raw offset 505234 | norm offset 477413] rogers :: n Reds move in 
+# p99, Feb.17 
+
+
+RODRIGUEZ, Victor H. 
+Tightening the embargo on Cuba p45, Jan.6 
+ROEBLING, Mary G. 
+
+
+The heat is on the Street: SEC report on 
+American Stock Exchange p23, Jan.13 
+
+
+ROGERS Cartage Co. 
+
+
+Whiskey is no mere chemical, says ICC, 
+tossing off permits to transport it p130, Feb.17 
+
+
+ROGERS, Irving 
+
+
+Autos off to fast start as buyers go the limit 
+(with illus) p26, Feb.10 
+
+
+ROLLS-Royce, Ltd. 
+
+
+Talks with British Mo
+  [raw offset 505348 | norm offset 477520] rogers :: . 
+
+
+The heat is on the Street: SEC report on 
+American Stock Exchange p23, Jan.13 
+
+
+ROGERS Cartage Co. 
+
+
+Whiskey is no mere chemical, says ICC, 
+tossing off permits to transport it p130, Feb.17 
+
+
+ROGERS, Irving 
+
+
+Autos off to fast start as buyers go the limit 
+(with illus) p26, Feb.10 
+
+
+ROLLS-Royce, Ltd. 
+
+
+Talks with British Motor o*. about possible 
+technical cooperation # p46, Jan.6 
+
+
+ROME, Dr. Sydney 
+
+
+Teaching computer to dissect a b
+  [raw offset 1137287 | norm offset 1075349] rogers :: kwell takes Bombay Ps yd to bypass 
+India’s import limits p52, 21 
+
+
+RODEOS 
+
+eee on horseback: Texas prison's annual 
+rodeo helps pay for inmates’ rehabilitation 
+programs (with illus) p42, Oct.20 
+
+ROGERS, Charles 
+
+Fuss over one drink too many: — 
+State’s funds just getting unfrozen after 
+showed glass in hand p66, Jul.28 
+
+ROGERS, Charles F., Jr. 
+
+
+Expatriates thrive on tourists in Mexico (with 
+illus) p54, Dec.1 
+
+
+ROHM & Haas Co. 
+
+
+Synthe
+  [raw offset 1137416 | norm offset 1075472] rogers :: s pay for inmates’ rehabilitation 
+programs (with illus) p42, Oct.20 
+
+ROGERS, Charles 
+
+Fuss over one drink too many: — 
+State’s funds just getting unfrozen after 
+showed glass in hand p66, Jul.28 
+
+ROGERS, Charles F., Jr. 
+
+
+Expatriates thrive on tourists in Mexico (with 
+illus) p54, Dec.1 
+
+
+ROHM & Haas Co. 
+
+
+Synthetic rubber plant in Brazil will have in- 
+ternational financing p69, Nov.24 
+
+
+ROLLERT, Edward D. 
+
+Buick gets back in high gear:
+  [raw offset 431597 | norm offset 407848] newport :: wmark offers novel one-man service (with 
+illus) p47, Jun.16 
+
+
+NEWMONT Oil Co. 
+
+
+Gas leasing under fire: FPC examiner thumbs 
+down pipeline’s deal to buy gas in place 
+and produce it p29, Jan.13 
+
+
+NEWPORT News Shipbuilding & Dry Dock Co. 
+
+
+Douglas Aircraft and Newport News announce 
+they will bid as a team on production of 
+very large high-strength rocket cases =~ 
+p40, Feb.10 
+
+
+NEWSPAPERS 
+
+
+Runners-up in morning, evening fields aban- 
+don 
+  [raw offset 431662 | norm offset 407910] newport :: EWMONT Oil Co. 
+
+
+Gas leasing under fire: FPC examiner thumbs 
+down pipeline’s deal to buy gas in place 
+and produce it p29, Jan.13 
+
+
+NEWPORT News Shipbuilding & Dry Dock Co. 
+
+
+Douglas Aircraft and Newport News announce 
+they will bid as a team on production of 
+very large high-strength rocket cases =~ 
+p40, Feb.10 
+
+
+NEWSPAPERS 
+
+
+Runners-up in morning, evening fields aban- 
+don Los Angeles newspaper wars p106, Jan.13 
+
+
+Readers Report: Justif
+  [raw offset 1067884 | norm offset 1009694] newport :: E, Samuel IL. 
+
+
+Newhouse newspaper chain eoting up own 
+big bureau in Washington p38, Jul.28 
+
+
+Fails in attempt to acquire the Omaha World- 
+
+
+Herald. He was outbid by Peter Kiewit # p40, 
+Nov.3 
+
+
+NEWPORT, Ky. 
+
+Boycott of Communist-made goods bolstered 
+
++ gh $1,000 license by Kentucky town p38, 
+ec.15 
+
+
+NEWSPAPERS 
+
+
+Hearst sells losing morning 2 paper to evening 
+Milwaukee Journal p56, J 
+
+
+Newhouse newspaper chain setting 2 own 
+big burea
+  [BLOCK 'DISCOUNT Houses' raw offset 183842] DISCOUNT Houses 
 
 
 Customers arrest the store clerks in St. Louis 
@@ -72,8 +316,12 @@ on fashionable New York shoppi
 
 
 Walgreen invades the discount field, buying 
-up three Houston stores p
-  [BLOCK DISCOUNT Stores @46051] discount stores offers sony ad ro- 
+up three Houston stores p36, Mar.24 
+
+
+Parke, Davis switches its sales licy, wi 
+deal
+  [BLOCK 'DISCOUNT Stores' raw offset 46051] discount stores offers sony ad ro- 
 gress they have been making p5 
 
 
@@ -98,7 +346,12 @@ Model cars run trains off tracks p148, Apr.28
 AUSTIN, H. Vance 
 
 White House endorsement touches off new 
-battle over ‘truth-in-lend
+battle over ‘truth-in-lending’ bill p109, 
+Mar.31 
+
+AUSTRALIA 
+
+U.S. and Australian co
 
 ============================================================================
 ### BW 1963 | item sim_business-week_business-week_july-december-1963_index | JULY-DECEMBER ONLY (closes the 1963 half)
@@ -107,15 +360,222 @@ battle over ‘truth-in-lend
 ### month tokens: jan.=3 feb.=0 mar.=0 apr.=0 may=229 jun.=0 jul.=698 aug.=871 sep.=782 oct.=729 nov.=1000 dec.=594
 ### TERM COUNTS (case-folded over the whole layer): wal-mart=0 | walmart=0 | walton=1 | arkansas=10 | rogers=1 | ben franklin=0 | newport=0 | five-and-dime=0 | variety store=0 | discount=34 | small town=0 | kresge=0 | woolworth=6 | bentonville=0 | nrdga=0 | self-service=0
 --- identity-sensitive hits, verbatim with char offset ---
-  [walton @610172] & Co. In wake of Haupt failure: Second thoughts on com- modities dealing p128, Dec.7 WALTER (Jim) Corp. Some brokers see the increase in dividends as a step toward Big Board — # pl134, Sep.7 WALTON, William B. A single standard for travelers pl114, Nov.16 WANKEL, Felix ‘Dream motor’ steps out: Rotary piston engine will be in the 1964 cars of West Germany’s p48, Oct.12 WARD Baking Co. Court’s new term: Sharpening the law on 
-  [arkansas @191552] on (with illus) p92, Nov.30 ECONO-Car International, Inc. Discounters stir up auto rental rate fuss p108, Jul. 20 Readers Report: Discount driving p5, Aug.17 ECONOMIC Education Workshop of Arkansas Arkansas schools get economics-minded (with illus ) p112, Jul.20 ECONOMIC Growth Flexible formula for economic growth: To prevent slump, Sweden ds on conventional govern- ment’ measures and close business (with chart) p88, Jul.6 
-  [arkansas @191562] llus) p92, Nov.30 ECONO-Car International, Inc. Discounters stir up auto rental rate fuss p108, Jul. 20 Readers Report: Discount driving p5, Aug.17 ECONOMIC Education Workshop of Arkansas Arkansas schools get economics-minded (with illus ) p112, Jul.20 ECONOMIC Growth Flexible formula for economic growth: To prevent slump, Sweden ds on conventional govern- ment’ measures and close business (with chart) p88, Jul.6 The roots
-  [arkansas @197104] p160, Dec.14 The cuts that hurt p100, Dec.21 The proof of the Soviet plum pudding p100, Dec. 21 The year you won't forget p96, Dec.28 EDUCATION See also Colleges and Universities; Schools Arkansas schools get economics -minded: Work- py at Little — inspires crusade to end ‘econ- in classrooms (with illus) p112, u Off to Paris for the year p106, Aug:17 School aid makes it at last: That’s how it looks as the House sends .thr
-  [arkansas @217893] y a nF aie scandal developed (with illus) p32, Readers Report: The real question p5, Dec. 21 DeAngelis indicted in salad oil won 4 charges based on warehouse receipts p26, FAUBUS, Orval Arkansas schools get economics-minded (with illus) p112, Jul.20 FAZIO, Dino TV’s first-nighters: Television viewers in five cities see a play on tape simultaneously (with illus) p146, Oct.19 FEDERAL Aviation Agency Pilots to get all-we
-  [arkansas @231040] ational Football whl championshi game will shown in Chica ago o n closed-circu television # p28, Dec.21 FOOTE, Cone & Belding, Inc. Company plans to go public # p84, Aug.24 FORD, Henry II Arkansas schools get economics-minded (with . illus) p112, Jul.20 FORD Motor Co. See also Automobiles; AFL-CIO — Autos-Aircraft Philco withdraws from com business data processing market p36, Jul. 20 Autos top all records (with table) p1
-  [arkansas @368598]  stiff tariffs on brandy and VWs p32, Dec.7 Prescription for the morning after p86, Dec.28 LITTLE, Henry G. A eter, Oe attuned to business: (with illus) p143, Sep.7 LITTLE Rock, Ark. Arkansas schools get economics-minded: Work- shop at Little Rock inspires crusade to end ‘eco- cnr illiteracy’ in classrooms (with illus) p112, Jul. LITTON Industries, Inc. From supplyin Litton moves to making all electro-heating device p36
-  [rogers @503991] o. R&D by the numbers: Company grew fast by ‘ac- ment. So i to solve the manage- ment us) p59, Aug.24 JULY-DECEMBER, 1963 55 RODD, William H. Tariffs aren’t the only problem p76, Sep.7 ROGERS, Inc. New butane lighter boasts that it gives 3,000 lights —then you discard it (with illus) p60, jul.6 ROLLERT, Edward D. The flexible world of GM’s pains and no fixed pattern, decisions (with cover) p136, ROLLS Razor, Ltd. Co
-  [BLOCK DISCOUNT Houses @180304] DISCOUNT Houses 
+  [raw offset 610172 | norm offset 578435] walton :: & Co. 
+
+In wake of Haupt failure: Second thoughts on com- 
+modities dealing p128, Dec.7 
+
+WALTER (Jim) Corp. 
+
+Some brokers see the increase in dividends as a 
+step toward Big Board — # pl134, Sep.7 
+WALTON, William B. 
+
+A single standard for travelers pl114, Nov.16 
+
+
+WANKEL, Felix 
+
+‘Dream motor’ steps out: Rotary piston engine 
+will be in the 1964 cars of West Germany’s 
+
+p48, Oct.12 
+
+WARD Baking Co. 
+
+Court’s new term: Sharpening the law on 
+  [raw offset 191552 | norm offset 181421] arkansas :: on (with illus) p92, Nov.30 
+ECONO-Car International, Inc. 
+
+
+Discounters stir up auto rental rate fuss p108, 
+
+
+Jul. 20 
+Readers Report: Discount driving p5, Aug.17 
+
+
+ECONOMIC Education Workshop of Arkansas 
+Arkansas schools get economics-minded (with 
+illus ) p112, Jul.20 
+
+ECONOMIC Growth 
+
+
+Flexible formula for economic growth: To prevent 
+slump, Sweden ds on conventional govern- 
+ment’ measures and close business 
+(with chart) p88, Jul.6 
+
+
+  [raw offset 191562 | norm offset 181430] arkansas :: llus) p92, Nov.30 
+ECONO-Car International, Inc. 
+
+
+Discounters stir up auto rental rate fuss p108, 
+
+
+Jul. 20 
+Readers Report: Discount driving p5, Aug.17 
+
+
+ECONOMIC Education Workshop of Arkansas 
+Arkansas schools get economics-minded (with 
+illus ) p112, Jul.20 
+
+ECONOMIC Growth 
+
+
+Flexible formula for economic growth: To prevent 
+slump, Sweden ds on conventional govern- 
+ment’ measures and close business 
+(with chart) p88, Jul.6 
+
+
+The roots
+  [raw offset 197104 | norm offset 186708] arkansas :: p160, Dec.14 
+
+The cuts that hurt p100, Dec.21 
+
+The proof of the Soviet plum pudding p100, Dec. 21 
+
+The year you won't forget p96, Dec.28 
+
+EDUCATION 
+
+See also Colleges and Universities; Schools 
+
+Arkansas schools get economics -minded: Work- 
+
+py at Little — inspires crusade to end ‘econ- 
+
+in classrooms (with illus) p112, 
+
+u 
+
+Off to Paris for the year p106, Aug:17 
+
+School aid makes it at last: That’s how it looks 
+
+as the House sends .thr
+  [raw offset 217893 | norm offset 206402] arkansas :: y a 
+nF aie scandal developed (with illus) p32, 
+
+
+Readers Report: The real question p5, Dec. 21 
+
+
+DeAngelis indicted in salad oil won 4 charges 
+based on warehouse receipts p26, 
+
+
+FAUBUS, Orval 
+
+
+Arkansas schools get economics-minded (with 
+illus) p112, Jul.20 
+
+
+FAZIO, Dino 
+
+
+TV’s first-nighters: Television viewers in five cities 
+see a play on tape simultaneously (with illus) 
+p146, Oct.19 
+
+
+FEDERAL Aviation Agency 
+
+
+Pilots to get all-we
+  [raw offset 231040 | norm offset 218871] arkansas :: ational Football whl championshi 
+game will shown in Chica ago o n closed-circu 
+television # p28, Dec.21 
+
+FOOTE, Cone & Belding, Inc. 
+
+Company plans to go public # p84, Aug.24 
+
+
+FORD, Henry II 
+
+
+Arkansas schools get economics-minded (with . 
+
+
+illus) p112, Jul.20 
+
+
+FORD Motor Co. 
+See also Automobiles; AFL-CIO — Autos-Aircraft 
+
+
+Philco withdraws from com 
+business data processing market p36, Jul. 20 
+
+
+Autos top all records (with table) p1
+  [raw offset 368598 | norm offset 349353] arkansas ::  stiff tariffs 
+on brandy and VWs p32, Dec.7 
+
+
+Prescription for the morning after p86, Dec.28 
+
+
+LITTLE, Henry G. 
+
+
+A eter, Oe attuned to business: 
+(with illus) p143, Sep.7 
+
+
+LITTLE Rock, Ark. 
+
+
+Arkansas schools get economics-minded: Work- 
+shop at Little Rock inspires crusade to end ‘eco- 
+cnr illiteracy’ in classrooms (with illus) p112, 
+Jul. 
+
+
+LITTON Industries, Inc. 
+
+
+From supplyin Litton moves to making all 
+electro-heating device p36
+  [raw offset 503991 | norm offset 477786] rogers :: o. 
+
+R&D by the numbers: Company grew fast by ‘ac- 
+ment. So i to solve the manage- 
+ment us) p59, Aug.24 
+
+
+JULY-DECEMBER, 1963 
+
+
+55 
+
+
+RODD, William H. 
+Tariffs aren’t the only problem p76, Sep.7 
+ROGERS, Inc. 
+
+
+New butane lighter boasts that it gives 3,000 
+lights —then you discard it (with illus) p60, jul.6 
+
+
+ROLLERT, Edward D. 
+The flexible world of GM’s 
+pains and no fixed pattern, 
+decisions (with cover) p136, 
+
+
+ROLLS Razor, Ltd. 
+
+
+Co
+  [BLOCK 'DISCOUNT Houses' raw offset 180304] DISCOUNT Houses 
 
 See also Retailing 
 
@@ -146,8 +606,10 @@ DISCOUNT Rate
 
 Administration moves on the gap: The 
 fed raises its discount rate, nnedy asks ae 
-gress
-  [BLOCK DISCOUNT Stores @180594] discount stores # p79, Nov.9 
+gress for an ‘interest tax,’ a $50 
+
+million standby IMF credit i
+  [BLOCK 'DISCOUNT Stores' raw offset 180594] discount stores # p79, Nov.9 
 
 
 Fewer stores to share the pie: They get bigger 
@@ -175,7 +637,8 @@ are thin on reserves p142, .26
 DISTILLATION 
 
 
-Stretching disti
+Stretching distillation towers: Union Carbide comes 
+up ae an improved disti
 
 ============================================================================
 ### BW 1964 | item sim_business-week_1964_index_0 | full year
@@ -184,16 +647,279 @@ Stretching disti
 ### month tokens: jan.=669 feb.=890 mar.=845 apr.=861 may=1470 jun.=872 jul.=638 aug.=900 sep.=797 oct.=942 nov.=866 dec.=678
 ### TERM COUNTS (case-folded over the whole layer): wal-mart=0 | walmart=0 | walton=0 | arkansas=0 | rogers=1 | ben franklin=0 | newport=0 | five-and-dime=0 | variety store=2 | discount=40 | small town=13 | kresge=0 | woolworth=6 | bentonville=0 | nrdga=0 | self-service=2
 --- identity-sensitive hits, verbatim with char offset ---
-  [rogers @937328] ward S. Wharton School professors come to defense of SEC in academic war over its market study p156, Nov.7 HERMAN, Richard Getting across to the voters (with illus) p32, Sep.19 HEROD, W. Rogers Rift in IMF bursts into open: French min- ister’s call for new reserve asset to replace dollar and poun d means power smuere in monetary fund (with illus) p30, Sep. JULY-DECEMBER, 1964 HERTER, Christian A. | yo with a new
-  [small town @665015]  southwest of chorage + p46, Sep.26 # Short News Item Gold rush begins for Alaska trade: Opera- tors are crowding into the Alaskan — business (with map and illus) p186, Oct.1 ALDENS, Inc. Small town greets the discounters p90, Oct.3 ALEXANDER & Baldwin, Inc. Hawaiian antitrust threat ends as control of Matson Line is bought by one company p86, Jul.18 ALGERIA Algeria moves in on oil giants p110, Aug.15 ALLEN, Mrs. Donna Why
-  [small town @829038] nt race p126, District court clears General Motors of con- spiring to balk cut-rate sales p38, Aug.29 # Short News Item U. a GEM discount store to open in England in November p60, Sep.5 Small town greets the discounters: Gamble- Skogmo is opening franchised Tem Dis- count Centers in small towns (wi illus) p90, Oct.3 DISCOUNT Rate A new touch of caution: Discount rate hike points 4 mild monetary restraint (with Phart) p2
-  [small town @829140] .29 # Short News Item U. a GEM discount store to open in England in November p60, Sep.5 Small town greets the discounters: Gamble- Skogmo is opening franchised Tem Dis- count Centers in small towns (wi illus) p90, Oct.3 DISCOUNT Rate A new touch of caution: Discount rate hike points 4 mild monetary restraint (with Phart) p27, Nov.28 Bank rate rise isn’t aimed at business... but policy bears watching p19, Nov.28 Markets
-  [small town @886900]  not all of EEC agrees (with chart and illus) pll4, Dec.5 France will —- with U.S. companies in |\ nuclear power plant construction p1l4, Dec.12 | JULY-DECEMBER, 1964 FRANCHISES Small town greets the discounters: Gamble- Skogmo is opening franchised Tempo Dis- Ey Centers in small towns (with illus) p90, ict. FRANCO, Francisco Spain turns charm on investors: Franco is attracting foreign capital (with ‘illus) p133,
-  [small town @887001] \ nuclear power plant construction p1l4, Dec.12 | JULY-DECEMBER, 1964 FRANCHISES Small town greets the discounters: Gamble- Skogmo is opening franchised Tempo Dis- Ey Centers in small towns (with illus) p90, ict. FRANCO, Francisco Spain turns charm on investors: Franco is attracting foreign capital (with ‘illus) p133, Oct.17 FRANK, Harry He’s half wildcatter, half big businessman (with illus) p103, Nov.14 
-  [small town @891655] n p32, Sep.12 GALVESTON, Tex. From pirate’s haven to ‘magic harbor’: Texas treasure is reviving Galveston’s old title of ‘Playground of the Southwest’ (with map) p68, Aug.22 GAMBLE, Bertin C. Small town greets the discounters: Gamble- Skogmo is opening franchised Tempo Discount Centers in small towns (with illus) p90, Oct.3 GAMBLE-Skogmo, Inc. Small town greets the discounters: Gamble- Skogmo is ST + Tempo Discount Centers in small
-  [variety store @1205050] marketing through variet Vv stores build hobby to second largest (wi illus) p84, Nov.14 STERNCO Industries, Inc. Tropical fish take the profit hook: Jet trans- weet nee and marketing through variety stores it uild hobby to second largest (with illus) ps4, Nov.14 STEVENS, Brooks Vintage p158, STEVENS (J. P.) & Co., Inc. Federal judge in North Carolina refuses to speed up textile injunction p50, Oct.10 STEVENSON, Adla
-  [variety store @1239686] .17 TRIPPE, Juan Terry Gray takes over as PanAm operating boss; Tr up to chairmanship (wi illus) Al TROPICAL Fish Tropical fish take the profit hook: Jet trans- portation and a through variety stores _—, hobby to second largest (with illus) p84, vov.14 TROSTER, Singer & Co. O-t-c war on exchanges # p78, Aug.29 TRUCKS and Trucking Shippers by truck face higher freight bills: Motor carriers figure they need at least a 5% 
-  [BLOCK DISCOUNT Houses @185674] DISCOUNT Houses 
+  [raw offset 937328 | norm offset 889154] rogers :: ward S. 
+
+Wharton School professors come to defense 
+of SEC in academic war over its market study 
+p156, Nov.7 
+
+HERMAN, Richard 
+
+
+Getting across to the voters (with illus) p32, 
+Sep.19 
+
+
+HEROD, W. Rogers 
+
+
+Rift in IMF bursts into open: French min- 
+ister’s call for new reserve asset to replace 
+dollar and poun 
+
+
+d means power smuere in 
+monetary fund (with illus) p30, Sep. 
+
+
+
+
+
+JULY-DECEMBER, 1964 
+
+
+
+
+
+HERTER, Christian A. 
+| yo with a new
+  [raw offset 665015 | norm offset 631228] small town ::  
+southwest of chorage + p46, Sep.26 
+
+
+# Short News Item 
+
+
+Gold rush begins for Alaska trade: Opera- 
+tors are crowding into the Alaskan — 
+business (with map and illus) p186, Oct.1 
+ALDENS, Inc. 
+
+Small town greets the discounters p90, Oct.3 
+ALEXANDER & Baldwin, Inc. 
+
+Hawaiian antitrust threat ends as control of 
+Matson Line is bought by one company p86, 
+Jul.18 
+
+ALGERIA 
+
+Algeria moves in on oil giants p110, Aug.15 
+ALLEN, Mrs. Donna 
+
+Why
+  [raw offset 829038 | norm offset 786553] small town :: nt race p126, 
+
+
+District court clears General Motors of con- 
+spiring to balk cut-rate sales p38, Aug.29 
+
+
+# Short News Item 
+
+
+U. a GEM discount store to open in 
+England in November p60, Sep.5 
+
+
+Small town greets the discounters: Gamble- 
+
+Skogmo is opening franchised Tem Dis- 
+
+count Centers in small towns (wi illus) 
+
+p90, Oct.3 
+
+DISCOUNT Rate 
+
+A new touch of caution: Discount rate hike 
+points 4 mild monetary restraint (with 
+
+Phart) p2
+  [raw offset 829140 | norm offset 786651] small town :: .29 
+
+
+# Short News Item 
+
+
+U. a GEM discount store to open in 
+England in November p60, Sep.5 
+
+
+Small town greets the discounters: Gamble- 
+
+Skogmo is opening franchised Tem Dis- 
+
+count Centers in small towns (wi illus) 
+
+p90, Oct.3 
+
+DISCOUNT Rate 
+
+A new touch of caution: Discount rate hike 
+points 4 mild monetary restraint (with 
+
+Phart) p27, Nov.28 
+
+
+Bank rate rise isn’t aimed at business... 
+but policy bears watching p19, Nov.28 
+Markets
+  [raw offset 886900 | norm offset 841383] small town :: 
+not all of EEC agrees (with chart and illus) 
+pll4, Dec.5 
+
+
+France will —- with U.S. companies in |\ 
+
+
+nuclear power plant construction p1l4, Dec.12 | 
+
+
+
+
+
+JULY-DECEMBER, 1964 
+
+
+
+
+
+FRANCHISES 
+
+
+Small town greets the discounters: Gamble- 
+
+Skogmo is opening franchised Tempo Dis- 
+
+Ey Centers in small towns (with illus) p90, 
+ict. 
+
+
+FRANCO, Francisco 
+Spain turns charm on investors: Franco is 
+
+
+attracting foreign capital (with ‘illus) p133,
+  [raw offset 887001 | norm offset 841480] small town :: \ 
+
+
+nuclear power plant construction p1l4, Dec.12 | 
+
+
+
+
+
+JULY-DECEMBER, 1964 
+
+
+
+
+
+FRANCHISES 
+
+
+Small town greets the discounters: Gamble- 
+
+Skogmo is opening franchised Tempo Dis- 
+
+Ey Centers in small towns (with illus) p90, 
+ict. 
+
+
+FRANCO, Francisco 
+Spain turns charm on investors: Franco is 
+
+
+attracting foreign capital (with ‘illus) p133, 
+Oct.17 
+
+
+FRANK, Harry 
+
+
+He’s half wildcatter, half big businessman 
+(with illus) p103, Nov.14 
+
+
+
+  [raw offset 891655 | norm offset 845871] small town :: n p32, Sep.12 
+GALVESTON, Tex. 
+
+From pirate’s haven to ‘magic harbor’: Texas 
+treasure is reviving Galveston’s old title of 
+‘Playground of the Southwest’ (with map) 
+p68, Aug.22 
+GAMBLE, Bertin C. 
+Small town greets the discounters: Gamble- 
+Skogmo is opening franchised Tempo Discount 
+Centers in small towns (with illus) p90, Oct.3 
+GAMBLE-Skogmo, Inc. 
+
+Small town greets the discounters: Gamble- 
+Skogmo is ST + Tempo Discount 
+Centers in small
+  [raw offset 1205050 | norm offset 1142438] variety store :: marketing through variet Vv 
+stores build hobby to second largest (wi 
+illus) p84, Nov.14 
+
+
+STERNCO Industries, Inc. 
+
+
+Tropical fish take the profit hook: Jet trans- 
+weet nee and marketing through variety stores 
+it 
+
+
+uild hobby to second largest (with illus) ps4, 
+Nov.14 
+
+
+STEVENS, Brooks 
+
+
+Vintage 
+p158, 
+
+
+STEVENS (J. P.) & Co., Inc. 
+
+
+Federal judge in North Carolina refuses to 
+speed up textile injunction p50, Oct.10 
+
+
+STEVENSON, Adla
+  [raw offset 1239686 | norm offset 1175203] variety store :: .17 
+
+
+TRIPPE, Juan Terry 
+
+
+Gray takes over as PanAm operating boss; 
+Tr up to chairmanship (wi illus) 
+Al 
+
+
+TROPICAL Fish 
+
+
+Tropical fish take the profit hook: Jet trans- 
+portation and a through variety stores 
+_—, hobby to second largest (with illus) p84, 
+vov.14 
+
+
+TROSTER, Singer & Co. 
+O-t-c war on exchanges # p78, Aug.29 
+TRUCKS and Trucking 
+
+
+Shippers by truck face higher freight bills: 
+Motor carriers figure they need at least a 5% 
+
+  [BLOCK 'DISCOUNT Houses' raw offset 185674] DISCOUNT Houses 
 See also Retailing 
 
 
@@ -232,8 +958,9 @@ open next week (with illus) p30,
 DISTILLERS Co., Lte. 
 
 
-British companies j
-  [BLOCK VARIETY Stores @1205050] variety stores 
+British companies joining forces to build new plant 
+for vinyl acetate monomer 
+  [BLOCK 'VARIETY Stores' raw offset 1205050] variety stores 
 it 
 
 
@@ -274,7 +1001,11 @@ p156, Nov.7
 STITZEL-Weller Distillery 
 
 
-Old Fitzgerald to add an 86-proof bour
+Old Fitzgerald to add an 86-proof bourbon as 
+swing to lighter whiskies continues p28, Aug.8 
+
+
+ST
 
 ============================================================================
 ### BW 1965 | item sim_business-week_business-week_january-june-1965_index | JANUARY-JUNE ONLY (closes the 1965 half)
@@ -283,9 +1014,73 @@ Old Fitzgerald to add an 86-proof bour
 ### month tokens: jan.=799 feb.=685 mar.=708 apr.=779 may=1120 jun.=703 jul.=0 aug.=0 sep.=0 oct.=0 nov.=0 dec.=0
 ### TERM COUNTS (case-folded over the whole layer): wal-mart=0 | walmart=0 | walton=0 | arkansas=1 | rogers=1 | ben franklin=0 | newport=0 | five-and-dime=0 | variety store=0 | discount=22 | small town=0 | kresge=1 | woolworth=0 | bentonville=0 | nrdga=0 | self-service=0
 --- identity-sensitive hits, verbatim with char offset ---
-  [arkansas @308147] s’ view of top fiscal issues Of next decade p66, Mar.6 HUBNER, Dr. Kurt Swiss seek to turn their watches ahead (with illus) p42, Jan.9 HUGHES Aircraft Co. Plans a large poaer station in Arkansas for research # p38, Jan.16 Comsat calls for bids on 24 satellites, — cg sole source deal at FCC demand p 2 JANUARY-JUNE, 1965 39 1A subsystem study is scheduled . p86, ar Hughes Aircraft will seek Comsat a eement of a s
-  [rogers @510490] edo em- ploye in drive for college seniors ROESCH, William R. J&L bets big on Midwest: No. 5 steelmaker plans integrated operation on 6,000 acres be- yond Chicago (with illus) p94, May 1 ‘ROGERS, Byron G. Is the franchise system legal p66, Apr.3 ROLLS-Royce, Ltd. Rolls-Royce comes back ayiee high: The mak- er of plane engines and luxury cars recovers from a two-year — (with cover and illus) p90, May 29 ROMNEY, George D
-  [BLOCK DISCOUNT Houses @186570] DISCOUNT HOUSES 
+  [raw offset 308147 | norm offset 290486] arkansas :: s’ view of top fiscal 
+issues Of next decade p66, Mar.6 
+
+
+HUBNER, Dr. Kurt 
+
+
+Swiss seek to turn their watches ahead 
+(with illus) p42, Jan.9 
+
+
+HUGHES Aircraft Co. 
+
+
+Plans a large poaer station in Arkansas for 
+research # p38, Jan.16 
+
+
+Comsat calls for bids on 24 satellites, — 
+cg sole source deal at FCC demand p 
+
+
+2 
+
+
+JANUARY-JUNE, 1965 
+
+
+39 
+
+
+1A subsystem study is scheduled . p86, 
+ar 
+
+
+Hughes Aircraft will seek Comsat a eement 
+of a s
+  [raw offset 510490 | norm offset 481312] rogers :: edo em- 
+ploye in drive for college seniors 
+
+ROESCH, William R. 
+
+J&L bets big on Midwest: No. 5 steelmaker 
+
+
+plans integrated operation on 6,000 acres be- 
+yond Chicago (with illus) p94, May 1 
+
+
+‘ROGERS, Byron G. 
+
+
+Is the franchise system legal p66, Apr.3 
+ROLLS-Royce, Ltd. 
+
+
+Rolls-Royce comes back ayiee high: The mak- 
+er of plane engines and luxury cars recovers 
+from a two-year — (with cover and illus) 
+p90, May 29 
+
+
+ROMNEY, George 
+
+
+D
+  [BLOCK 'DISCOUNT Houses' raw offset 186570] DISCOUNT HOUSES 
 
 
 Mix discounts and art—and make sales jump: 
@@ -315,8 +1110,12 @@ industry leaders (with illus) p97, Jun.2
 DISTILLERS Co., Ltd. 
 
 
-British consum
-  [BLOCK DISCOUNT Stores @186981] discount stores? Moves to 
+British consumer gets first of 
+prices; more may follow p118, Mar.13 
+
+
+DI
+  [BLOCK 'DISCOUNT Stores' raw offset 186981] discount stores? Moves to 
 carry more costly merchandise worry me 
 industry leaders (with illus) p97, Jun.2 
 
@@ -347,7 +1146,8 @@ e
 
 ag next eo for paring costs: The new art 
 
-dis
+distribution management pulls to- 
+get! er dozens of factors af
 
 ============================================================================
 ### BW 1967 | item sim_business-week_business-week_july-december-1967_index-contents | JULY-DECEMBER ONLY (closes the 1967 half)
@@ -356,57 +1156,300 @@ dis
 ### month tokens: jan.=6 feb.=0 mar.=1 apr.=0 may=174 jun.=0 jul.=646 aug.=544 sep.=696 oct.=522 nov.=561 dec.=555
 ### TERM COUNTS (case-folded over the whole layer): wal-mart=0 | walmart=0 | walton=0 | arkansas=0 | rogers=1 | ben franklin=0 | newport=4 | five-and-dime=0 | variety store=0 | discount=15 | small town=4 | kresge=1 | woolworth=0 | bentonville=0 | nrdga=0 | self-service=0
 --- identity-sensitive hits, verbatim with char offset ---
-  [rogers @437976] rust objections to its merger with North po Aviation # p40, Aug.12 A fledgling industry takes wings in Israel: Its of Aero Jet Commander aS it into market for executive jets llus) pl27, Oct.7 ROGERS, Archibald C. roads without oe city p108, Nov.1 ROLLERT, Edward D. Giant GM splits its b roblems (with illus) p134, Nov ig P ROMNEY, George Explosion in the cities: As ghetto unrest fiares into hot summer of racial violence, Detr
-  [newport @259803] it for retail- ing HOFHEINZ, Roy Houston’s Hofheinz, twe a over rtners ownership of circus from amily p50, Nov.1 HOLDEN, Donald H. Shipbuilding’s leader heads into a-‘storm: uldn't Newport News Shipbui weeny, business couldn’ be better, but Mc cedures as “(with illus) 7 HOLDER, — it in Hollywood illus) Sep.16 HOLIDAY Inns of America, Inc. Plans a nationwide chain of rustic theaters — that will serve dinners 
-  [newport @379271] s) p25, Jul.29 NEWELL, Dr. Homer E. Astronauts may ey * ace a bit like home (with illus) p80, Oct NEWLEY, Anthony How a new film maker made it in Holly- wood “(with illus) p188, Sep.16 NEWPORT News Shipbuilding & Dry Dock Co. Shipbuilding’s leader heads into a storm: For Newport News business couldn't be better, but McNamara industry pro- cedures as outdated (with illus) pl78, t.7 NEWSPAPERS On July 10 the Boston Trave
-  [newport @379363] ) p80, Oct NEWLEY, Anthony How a new film maker made it in Holly- wood “(with illus) p188, Sep.16 NEWPORT News Shipbuilding & Dry Dock Co. Shipbuilding’s leader heads into a storm: For Newport News business couldn't be better, but McNamara industry pro- cedures as outdated (with illus) pl78, t.7 NEWSPAPERS On July 10 the Boston Traveler is to folded into its sister, the Boston Herald ” p28, Jul.1 FTC has begun a long-e 
-  [newport @465351] ith illus) p29, Aug.26 Speeding the schedule sea new t of vessels — th — re (with illus) p124, Aug.26 Johnson eyes merchant fleet action soon p58, Sep.16 s leader heads into a storm: For Newport News Sh po t- be better, but McNamara sees cedures as outdated (with illus) eiT8. ott? 7 Europe’s up anchor: New orders for supertankers have ended long period of stagnation (with illus) p88, Oct.14 SHIPS and Shipping Key shipping
-  [small town @60091] ew MLB symbol # p56, Assn. has Corp. li- ov.11 BASS, Mitchells & Butlers, Ltd. aoe er of two British brewers would pool pubs and take-out stores p1ls, Jul.29 BASSI, Ernest Helping a small town Lope wi (with illus) p184, Sep.23 BATES (Ted) & Co. Loses the $20-million American Home Products account # p86, Nov.18 *BATH (Cyril) Co. The shares of closely ane oe Bath have nm mov up in te o drop in sales BATLINER, Dr.
-  [small town @113701]  sector (with table and charts) “560, CLARK,. Ramsey AFL-CIO gets wooed for 1968: hiecitiiatn saturated convention with top officials (with illus) p76, Dec.16 CLAUSEN, Sharon Helping a small town cope with prosperity (with illus) p184, Sep.23 CLEE, Gilbert H. How McKinsey minds its business: The man- agement consult firm is run like a partner- ship to attract talent (with cover and illus) p175, Nov.18 CLEVELAND, O. 
-  [small town @297854] reamlines at the top: Illinois Central’s new president infuses new talent and ideas to improve a railroad that — already doing well (with illus) p70, Oct.1 JONES & Laughlin Steel Corp. Help a small town cope with prosperit ae | Laughlin has kept its Hennepin al) steel mill from setting off a runaway boo (with illus) p184, Sep.23 JONES, Clarence B. Negro lawyer is named artner in a member firm of the New York Stock Exchange (with 
-  [small town @506296] CBS develops revolu- tionary device to play film and other recorded material through the home screen (with illus) p30, Sep.2 CATV comes down from the hills: Television system that grew up in small towns is moving into the big city with clear, ghostless pictures, and vast promise (with illus) p64, Sep.16 Color TV makes the scene again: Investors turn bullish on industry outlook as sales pick up (with table) p153, Sep.16 When $30
-  [BLOCK DISCOUNT Stores @292612] discount stores ps4, ul.15 
+  [raw offset 437976 | norm offset 411850] rogers :: rust objections to its merger with North 
+po Aviation # p40, Aug.12 
 
 
-JEWELRY 
+A fledgling industry takes wings in Israel: 
+Its of Aero Jet Commander 
+aS it into market for executive jets 
+llus) pl27, Oct.7 
+ROGERS, Archibald C. 
+
+roads without oe city 
+p108, Nov.1 
+ROLLERT, Edward D. 
 
 
-Union Cu to brand fine jewelry for first 
-time — with Quintessa label p57, Aug-5 
+Giant GM splits its b roblems (with illus) 
+p134, Nov ig P 
+ROMNEY, George 
 
 
-JOB Corps 
+Explosion in the cities: As ghetto unrest 
+fiares into hot summer of racial violence, 
+Detr
+  [raw offset 259803 | norm offset 244278] newport :: it for retail- 
+ing 
 
 
-Job Corps comes up to a test: Congress. is 
-set p cut ‘the 7 just as it was read 
-to do great — its supporters say (wi 
-illus) Oct.1 
+HOFHEINZ, Roy 
+Houston’s Hofheinz, twe a over 
 
 
-JOHNSEN, Kjell" 
+rtners 
+ownership of circus from amily p50, 
+Nov.1 
 
 
-Europe’s atom smasher (with 
+HOLDEN, Donald H. 
 
 
-illus) p66, Jul 
+Shipbuilding’s leader heads into a-‘storm: uldn't 
 
 
-JOHNSON, Daniel 
+Newport News Shipbui weeny, business couldn’ 
+be better, but Mc 
 
 
-French business smiles at Canada: The num- 
-ber of French-owned a in Canada 
-has risen (with illus) p24, Jul.22 
+cedures as “(with illus) 7 
 
 
-JOHNSON, Lyndon B. 
+HOLDER, — 
 
 
-Down from the summit: Glassboro settled 
-mpor of 
-East-West (
+it in Hollywood 
+illus) Sep.16 
+
+
+HOLIDAY Inns of America, Inc. 
+
+
+Plans a nationwide chain of rustic theaters — 
+
+
+that will serve dinners 
+  [raw offset 379271 | norm offset 356610] newport :: s) p25, Jul.29 
+NEWELL, Dr. Homer E. 
+
+
+Astronauts may ey * ace a bit like home 
+(with illus) p80, Oct 
+
+
+NEWLEY, Anthony 
+
+
+How a new film maker made it in Holly- 
+wood “(with illus) p188, Sep.16 
+
+
+NEWPORT News Shipbuilding & Dry 
+Dock Co. 
+
+
+Shipbuilding’s leader heads into a storm: For 
+Newport News business couldn't 
+be better, but McNamara industry pro- 
+cedures as outdated (with illus) pl78, t.7 
+
+
+NEWSPAPERS 
+
+
+On July 10 the Boston Trave
+  [raw offset 379363 | norm offset 356697] newport :: ) p80, Oct 
+
+
+NEWLEY, Anthony 
+
+
+How a new film maker made it in Holly- 
+wood “(with illus) p188, Sep.16 
+
+
+NEWPORT News Shipbuilding & Dry 
+Dock Co. 
+
+
+Shipbuilding’s leader heads into a storm: For 
+Newport News business couldn't 
+be better, but McNamara industry pro- 
+cedures as outdated (with illus) pl78, t.7 
+
+
+NEWSPAPERS 
+
+
+On July 10 the Boston Traveler is to 
+folded into its sister, the Boston Herald ” 
+p28, Jul.1 
+
+FTC has begun a long-e 
+  [raw offset 465351 | norm offset 437636] newport :: ith illus) p29, Aug.26 
+
+
+Speeding the schedule sea 
+new t of vessels — th — re 
+(with illus) p124, Aug.26 
+
+
+Johnson eyes merchant fleet action soon p58, 
+Sep.16 
+
+
+s leader heads into a storm: For 
+Newport News Sh po t- 
+be better, but McNamara sees 
+
+cedures as outdated (with illus) eiT8. ott? 7 
+
+
+Europe’s up anchor: New orders 
+for supertankers have ended long period of 
+stagnation (with illus) p88, Oct.14 
+
+
+SHIPS and Shipping 
+Key shipping
+  [raw offset 60091 | norm offset 56516] small town :: ew MLB symbol # p56, 
+
+
+Assn. has 
+Corp. li- 
+ov.11 
+
+
+BASS, Mitchells & Butlers, Ltd. 
+
+
+aoe er of two British brewers would pool 
+pubs and take-out stores p1ls, Jul.29 
+
+
+BASSI, Ernest 
+
+
+Helping a small town Lope wi 
+(with illus) p184, Sep.23 
+
+
+BATES (Ted) & Co. 
+
+
+Loses the $20-million American Home Products 
+account # p86, Nov.18 
+
+
+*BATH (Cyril) Co. 
+The shares of closely ane oe Bath have 
+
+
+nm mov up in te o drop in sales 
+
+
+BATLINER, Dr.
+  [raw offset 113701 | norm offset 106781] small town ::  
+sector (with table and charts) “560, 
+
+
+CLARK,. Ramsey 
+
+
+AFL-CIO gets wooed for 1968: hiecitiiatn 
+saturated convention with top officials (with 
+illus) p76, Dec.16 
+
+
+CLAUSEN, Sharon 
+
+
+Helping a small town cope with prosperity 
+(with illus) p184, Sep.23 
+
+
+CLEE, Gilbert H. 
+
+
+How McKinsey minds its business: The man- 
+agement consult firm is run like a partner- 
+ship to attract talent (with cover and illus) 
+p175, Nov.18 
+
+
+CLEVELAND, O. 
+
+
+
+  [raw offset 297854 | norm offset 280061] small town :: reamlines at the top: Illinois Central’s 
+new president infuses new talent and ideas 
+to improve a railroad that — already doing 
+well (with illus) p70, Oct.1 
+
+
+JONES & Laughlin Steel Corp. 
+
+Help a small town cope with prosperit 
+ae | Laughlin has kept its Hennepin al) 
+steel mill from setting off a runaway boo 
+(with illus) p184, Sep.23 
+
+JONES, Clarence B. 
+
+
+Negro lawyer is named artner in a member 
+firm of the New York Stock Exchange (with 
+  [raw offset 506296 | norm offset 476230] small town :: CBS develops revolu- 
+tionary device to play film and other recorded 
+material through the home screen (with illus) 
+
+
+p30, Sep.2 
+
+
+CATV comes down from the hills: Television 
+system that grew up in small towns is moving 
+into the big city with clear, ghostless pictures, 
+and vast promise (with illus) p64, Sep.16 
+
+
+Color TV makes the scene again: Investors 
+turn bullish on industry outlook as sales 
+pick up (with table) p153, Sep.16 
+
+
+When $30
+  [BLOCK 'DISCOUNT Stores' raw offset 64693] discount 
+
+
+stores, but sales on consignment promise prob- 
+lems for others p39, Jul.1 
+
+
+BINDER, William 
+Foreign stocks yield a fast buck pl117, Jul.15 
+
+
+BIRGINAL, H. Edison 
+
+
+Apparel salesmen to the party 
+
+
+th illus) p148, Jul.1 
+
+
+BIRRELL, Lowell M. 
+
+
+Birrell goes on trial,to answer charges of 
+swindles ‘and tax evasion p116, 
+
+
+BIRTH Control 
+
+
+Putting a brake on runaway birth rates: U.S. 
+government policy shift may open door for 
+newer: birth control stil test 
+(with map, tables and illus) p76, Sep.23 
+
+
+HEW will act on report calling for stepup 
+family planning on behalf of poor p71, at 
+
+
+Squibb and 
 
 ============================================================================
 ### BW 1968 | item sim_business-week_1968_index | full year
@@ -415,16 +1458,347 @@ East-West (
 ### month tokens: jan.=520 feb.=549 mar.=611 apr.=541 may=815 jun.=680 jul.=530 aug.=670 sep.=1 oct.=537 nov.=757 dec.=495
 ### TERM COUNTS (case-folded over the whole layer): wal-mart=0 | walmart=0 | walton=3 | arkansas=0 | rogers=3 | ben franklin=0 | newport=4 | five-and-dime=0 | variety store=0 | discount=24 | small town=0 | kresge=0 | woolworth=2 | bentonville=0 | nrdga=0 | self-service=0
 --- identity-sensitive hits, verbatim with char offset ---
-  [walton @314726] w 4 has safety filament that gives ae ares the ‘one-eyed menace’ p1l47, e A small light-bulb war has broken out. West- and Duro-Test introduce new light lbs # p58, Jun.22 LILLEHEIL, Dr. C. Walton Fertile seedbed of ery : Scholar- surgeons at the University oat ten pre- pared. wa we 3 aol new heart operations (with LINDSAY, John V. Political feud festers on_piles 4 partes: New York’s sanitation strike has | rift between Li
-  [walton @527172] Combustion En- r Woodward Corp. # Mead Corp. and Jim Hunter becomes pre = th th vying for Woodward = pie buras ouiaaes C. Lee, Jr. McKinsey picks new managing director p130, Apr.20 WALTON, Richard Rhodes t tinkerer scoops the pros: Richard Rhodes" Walton has a talent for anticipating needs before the martet becomes obvious. His major inventions include devices for oe as? washing textiles (with illus) Pp , WANG Labora
-  [walton @527243] mes pre = th th vying for Woodward = pie buras ouiaaes C. Lee, Jr. McKinsey picks new managing director p130, Apr.20 WALTON, Richard Rhodes t tinkerer scoops the pros: Richard Rhodes" Walton has a talent for anticipating needs before the martet becomes obvious. His major inventions include devices for oe as? washing textiles (with illus) Pp , WANG Laboratories, Inc. Offers a desk top manual computer for $3,495 # pl62, M
-  [rogers @434730] D, Ill. One-stop fuses for farmers (with illus) pi22, Jun RODGERS, Phil Soft sell on the links (with illus) p62, Jan.6 ROELOFS, Robert F. moet =F Suet * on its own stamp (with illus ROGERS, Jimmy Doctors y an image transplant (with illus) p64, Jun. ROLLERT, Edward D. Resignation of Semon E. Knudsen puts Ed- wi D. Rollert up a rung at GM p28, Feb.3 ROLLS-Royce, Ltd. Airbus hits competitive squall: The all-purpose
-  [rogers @837270] pt.21 Sentinel: The Senate’s costly blunder (Edi- torial) p150, Oct.12 Sentinel starts rolling p42, Oct.12 ROCKY Mountain Arsenal Will pumping cure Denver quakes? (with illus) M54, Aug ROGERS, William P. Rogers will dispose, not innovate p123, Dec.14 Nixon builds a Cabinet (with illus) p33, Dec.14 ad BUSINESS WEEK INDEX ROMNEY, George Governor George Romney had not = ti the dele; tion "to any Sas candi re
-  [rogers @837290] he Senate’s costly blunder (Edi- torial) p150, Oct.12 Sentinel starts rolling p42, Oct.12 ROCKY Mountain Arsenal Will pumping cure Denver quakes? (with illus) M54, Aug ROGERS, William P. Rogers will dispose, not innovate p123, Dec.14 Nixon builds a Cabinet (with illus) p33, Dec.14 ad BUSINESS WEEK INDEX ROMNEY, George Governor George Romney had not = ti the dele; tion "to any Sas candi rents illus) » Aug.10
-  [newport @377185] th illus) p33, Apr.13 NEWLIN, John W. II B-school students view the world (with illus) p130, Jun.22 NEWMONT Mining Corp. ing more profits in a golden business win illus) p72, Mar.30 NEWPORT News Shipbuilding & Dry Dock Co. Udall threat irks bidders on hydro work p52, Apr.27 NEWSPAPERS Readers Report: On the scene (with illus) p7, Feb.17 Time, Inc., is set to move into the ne per aie via a of the Newark News # p5
-  [newport @591994] or business p61, Dec.21 BREED, Charles ae under one roof (with illus) p146, t.26 BREZHNEV, Leonid Amid a strange calm, crisis rattles the Krem- lin (with illus) p60, Oct.12 BRIDGES Newport Bridge is ny 5 to open next summer (with illus) p °, Aug.31 Readers illus) p7, Michigan to lower Mackinac Bridge tolls (with illus) p52, Nov.16 BRIMMER, Andrew F. Bankers reshuffle 7. om cards (with chart and illus) p53, Dec 
-  [newport @790222] 144, Dec.14 NEW YORK University NYU graduate business students get a taste of answering to a board p81, Dec.1 NEWMAN, Joseph A builder ‘packages everything’ (with illus) p146, Nov.2 NEWPORT, R. I. Ne rt bids farewell to its traditional style (with illus) p72, Aug.31 NEWS of the World British government warns London money men over attempted takeover of newspaper p132, Nov.2 NEWSPAPERS Premiums for riot work, and re
-  [newport @891518] es that take slum-dwellers to ‘ah VF get 90% backing by government p66, URBAN Renewal hugs urban activists (with illus) p90, Aug rate brains hit city ills (with illus) sti far Aug.17 a Newport bids farewell to its traditional style illus) p72, Aug.31 Business now backs Cleveland (with illus) p118, Sept.21 Candidates view the urban crisis (with illus) p66, Oct.19 Assembly fresh hope for housing (with inhi) pee ps2, "Out
+  [raw offset 314726 | norm offset 295980] walton :: w 4 has safety filament that gives 
+
+ae ares the ‘one-eyed menace’ p1l47, 
+e 
+
+
+A small light-bulb war has broken out. West- 
+and Duro-Test introduce new light 
+lbs # p58, Jun.22 
+
+
+LILLEHEIL, Dr. C. Walton 
+Fertile seedbed of ery : Scholar- 
+
+
+surgeons at the University oat ten pre- 
+pared. wa we 3 aol new heart operations (with 
+
+
+LINDSAY, John V. 
+
+
+Political feud festers on_piles 4 partes: 
+New York’s sanitation strike has | 
+
+rift between Li
+  [raw offset 527172 | norm offset 495931] walton :: Combustion En- 
+r Woodward Corp. # 
+
+
+Mead Corp. and Jim 
+
+
+Hunter becomes pre 
+= th th vying for Woodward 
+
+
+= pie buras 
+
+
+ouiaaes C. Lee, Jr. 
+McKinsey picks new managing director p130, 
+Apr.20 
+
+
+WALTON, Richard Rhodes 
+
+
+t tinkerer scoops the pros: Richard 
+Rhodes" Walton has a talent for anticipating 
+needs before the martet becomes obvious. 
+His major inventions include devices for 
+oe as? washing textiles (with illus) 
+Pp , 
+
+
+WANG Labora
+  [raw offset 527243 | norm offset 495998] walton :: mes pre 
+= th th vying for Woodward 
+
+
+= pie buras 
+
+
+ouiaaes C. Lee, Jr. 
+McKinsey picks new managing director p130, 
+Apr.20 
+
+
+WALTON, Richard Rhodes 
+
+
+t tinkerer scoops the pros: Richard 
+Rhodes" Walton has a talent for anticipating 
+needs before the martet becomes obvious. 
+His major inventions include devices for 
+oe as? washing textiles (with illus) 
+Pp , 
+
+
+WANG Laboratories, Inc. 
+
+
+Offers a desk top manual computer for $3,495 
+# pl62, M
+  [raw offset 434730 | norm offset 409054] rogers :: D, Ill. 
+
+
+One-stop fuses for farmers (with illus) 
+pi22, Jun 
+
+
+RODGERS, Phil 
+Soft sell on the links (with illus) p62, Jan.6 
+
+
+ROELOFS, Robert F. 
+
+
+moet =F Suet * on its own stamp (with 
+illus 
+
+
+ROGERS, Jimmy 
+
+
+Doctors y an image transplant (with illus) 
+p64, Jun. 
+
+
+ROLLERT, Edward D. 
+
+
+Resignation of Semon E. Knudsen puts Ed- 
+wi D. Rollert up a rung at GM p28, Feb.3 
+
+
+ROLLS-Royce, Ltd. 
+
+
+Airbus hits competitive squall: The all-purpose
+  [raw offset 837270 | norm offset 784805] rogers :: pt.21 
+
+
+Sentinel: The Senate’s costly blunder (Edi- 
+torial) p150, Oct.12 
+
+
+Sentinel starts rolling p42, Oct.12 
+ROCKY Mountain Arsenal 
+
+
+Will pumping cure Denver quakes? (with 
+illus) M54, Aug 
+
+
+ROGERS, William P. 
+Rogers will dispose, not innovate p123, Dec.14 
+Nixon builds a Cabinet (with illus) p33, Dec.14 
+
+
+
+
+
+ad 
+
+
+
+
+
+BUSINESS WEEK INDEX 
+
+
+
+
+
+
+
+
+ROMNEY, George 
+
+Governor George Romney had not = ti 
+
+the dele; tion "to any Sas candi re
+  [raw offset 837290 | norm offset 784824] rogers :: he Senate’s costly blunder (Edi- 
+torial) p150, Oct.12 
+
+
+Sentinel starts rolling p42, Oct.12 
+ROCKY Mountain Arsenal 
+
+
+Will pumping cure Denver quakes? (with 
+illus) M54, Aug 
+
+
+ROGERS, William P. 
+Rogers will dispose, not innovate p123, Dec.14 
+Nixon builds a Cabinet (with illus) p33, Dec.14 
+
+
+
+
+
+ad 
+
+
+
+
+
+BUSINESS WEEK INDEX 
+
+
+
+
+
+
+
+
+ROMNEY, George 
+
+Governor George Romney had not = ti 
+
+the dele; tion "to any Sas candi rents 
+illus) » Aug.10
+  [raw offset 377185 | norm offset 355063] newport :: th illus) p33, 
+
+Apr.13 
+
+NEWLIN, John W. II 
+
+
+B-school students view the world (with illus) 
+p130, Jun.22 
+
+
+NEWMONT Mining Corp. 
+
+
+ing more profits in a golden business 
+win illus) p72, Mar.30 
+
+
+NEWPORT News Shipbuilding & Dry 
+
+Dock Co. 
+
+Udall threat irks bidders on hydro work p52, 
+Apr.27 
+
+
+NEWSPAPERS 
+Readers Report: On the scene (with illus) p7, 
+Feb.17 
+
+
+Time, Inc., is set to move into the ne per 
+aie via a of the Newark News 
+
+
+# p5
+  [raw offset 591994 | norm offset 556431] newport :: or business p61, 
+Dec.21 
+
+
+BREED, Charles 
+ae under one roof (with illus) 
+p146, t.26 
+
+
+BREZHNEV, Leonid 
+
+
+Amid a strange calm, crisis rattles the Krem- 
+lin (with illus) p60, Oct.12 
+
+
+BRIDGES 
+
+
+Newport Bridge is ny 5 to open next summer 
+(with illus) p °, Aug.31 
+
+
+Readers 
+illus) p7, 
+
+
+Michigan to lower Mackinac Bridge tolls (with 
+illus) p52, Nov.16 
+
+
+BRIMMER, Andrew F. 
+
+
+Bankers reshuffle 7. om cards (with 
+chart and illus) p53, Dec 
+
+  [raw offset 790222 | norm offset 740992] newport :: 144, 
+Dec.14 
+
+
+NEW YORK University 
+
+
+NYU graduate business students get a taste 
+of answering to a board p81, Dec.1 
+
+
+NEWMAN, Joseph 
+
+
+A builder ‘packages everything’ (with illus) 
+p146, Nov.2 
+
+
+NEWPORT, R. I. 
+
+
+Ne rt bids farewell to its traditional style 
+(with illus) p72, Aug.31 
+
+
+NEWS of the World 
+
+British government warns London money 
+men over attempted takeover of newspaper 
+p132, Nov.2 
+
+NEWSPAPERS 
+
+Premiums for riot work, and re
+  [raw offset 891518 | norm offset 835250] newport :: es that take slum-dwellers to ‘ah VF 
+get 90% backing by government p66, 
+
+
+URBAN Renewal 
+
+
+hugs urban activists (with illus) p90, 
+Aug 
+
+
+rate brains hit city ills (with illus) 
+sti far Aug.17 a 
+
+
+Newport bids farewell to its traditional style 
+illus) p72, Aug.31 
+
+
+Business now backs Cleveland (with illus) 
+p118, Sept.21 
+
+
+Candidates view the urban crisis (with illus) 
+p66, Oct.19 
+
+
+Assembly fresh hope for housing 
+(with inhi) pee ps2, "Out
 
 ============================================================================
 ### BW 1970 | item sim_business-week_1970_index_0 | full year
@@ -433,15 +1807,257 @@ East-West (
 ### month tokens: jan.=0 feb.=0 mar.=0 apr.=0 may=55 jun.=0 jul.=1 aug.=755 sep.=0 oct.=870 nov.=749 dec.=624
 ### TERM COUNTS (case-folded over the whole layer): wal-mart=0 | walmart=0 | walton=1 | arkansas=1 | rogers=2 | ben franklin=0 | newport=2 | five-and-dime=0 | variety store=1 | discount=14 | small town=1 | kresge=7 | woolworth=0 | bentonville=0 | nrdga=0 | self-service=0
 --- identity-sensitive hits, verbatim with char offset ---
-  [walton @261780] ers from: Alfredo Muratori, Jr., Prstesick, G. Smith, Walter T. McHale, Russell Rey- nolds, Jr., Ben Stauffacher, Michael N. Sune, Michael J. Whit eman, Robert G. Averill, C. G. H. Dreyfus, H. C. Walton p4, Aug.29 Letters from: Clifford mter, Leo C. Henzl, Jr., Joseph F. Koenen, Adele Brown, H E. Dixon, John E. Lonn, Ben Baxt, R. 3 Otterson, Robert W. Re George F. Mueden, Jr., James R. Tye, Jacques Le- couturier, Martin H. Meyerson, p
-  [arkansas @15949] .31 Argentina voy 4 flag waving to boost its econo- my p64, Dec.1 ARINC Research Corp. Shuffling funds in an instant # p20, Sept.5 ARISTA Mills Co. Help for textile company # p32, Nov.28 ARKANSAS River The waterway that couldn’t be done (with map and illus) p124, Sept.12 Readers Report: The public pays p4, Oct.3 ARMS Faw a may give up profit-sharing p45, ept.19 Stacking up arms as talk runs out (with illus) p38, Sep
-  [rogers @51600] BLE Memory Bubble memories start taking shape p26, Nov.21 BUCHER, Lloyd Bucher: ‘My Story’ (with illus) p8, Aug.15 Armbrister: ‘A Matter of Accountability’ (with illus) p8, Aug.15 BUCK Rogers Roarin’ rockets: It’s Brand-Rex (with illus) p44, July 11 BUCKLEY, James Congress: How the power has shifted (with illus) p17, Nov.7 BUDGE, Hamer H. Why big traders worry industry (with cover, St. ae and illus) (Special Report
-  [rogers @272395]  George B. It takes more than a banker to run a bank (with illus) p38, Nov.7 44 BUSINESS WEEK INDEX ROEDEL, Fred B. A motel room at bargain rates (with illus) p20, Aug.22 ROGERS, Archibald C. Making cities better places to live (with cover and illus) p36, Aug.22 ROLLEI Werke How Rollei plans to snap back (with illus) p99, Oct.24 ROLLS-Royce, Ltd. A U.S. contract runs Rolls-Royce into trouble p79, Nov
-  [newport @230812]  (with chart and illus) p60, Sept.5 Readers Report: Telephone blues p6, Sept.26 NEW YORK Times Co. Cowles unbundles # p26, Oct.31 NEWARK, N. J. Newark signs up a business team p23, Aug.15 NEWPORT, R. I. When at Newport, play the angles for game fishing p70, Aug.29 NEWSDAY The new Times (with illus) p43, Dec.26 NEWSPAPERS Newspapers are ge again (with cover, table and illus) p36, Aug.29 Britain: A new headliner rocks Fl
-  [newport @230838] 60, Sept.5 Readers Report: Telephone blues p6, Sept.26 NEW YORK Times Co. Cowles unbundles # p26, Oct.31 NEWARK, N. J. Newark signs up a business team p23, Aug.15 NEWPORT, R. I. When at Newport, play the angles for game fishing p70, Aug.29 NEWSDAY The new Times (with illus) p43, Dec.26 NEWSPAPERS Newspapers are ge again (with cover, table and illus) p36, Aug.29 Britain: A new headliner rocks Fleet Street (with illus) p
-  [small town @325604] , July 25 How to resurrect bricks from ashes (with illus) p48, Aug.1 te re dumps over garbage (with illus) p62, Proxmire seems to have the edge (with illus) p78, Sept.26 Readers Report: Small town trash p7, Oct.10 Waste as an asset (Editorial) p114, Oct.10 Turning junk and trash into a resource (with — table, chart, illus) (Special Report) p66, Ic Treat pollution as a business cost (with illus) (Special Report) p88, Oct.1
-  [variety store @321936] uit (with illus) p58, July 18 VARIABLE - Rate Note Eurobonds get — in the squeeze (with chart) p74, July 18 VARIAN Associates Computers make fertile parents (with illus) p55, Nov.28 VARIETY Stores How Kresge became top eae (with cov- er, chart and illus) pee, Oc VENDING Machines How to make escapism pay (with illus) p112, jay 1 pay )p Vendors pull out all stops (with illus) p52, Aug.15 VENTURE Capital Feedin
-  [BLOCK DISCOUNT Houses @106537] DISCOUNT Houses 
+  [raw offset 261780 | norm offset 244159] walton :: ers from: Alfredo Muratori, Jr., Prstesick, 
+G. Smith, Walter T. McHale, Russell Rey- 
+nolds, Jr., Ben Stauffacher, Michael N. Sune, 
+Michael J. Whit eman, Robert G. Averill, C. 
+G. H. Dreyfus, H. C. Walton p4, Aug.29 
+
+
+Letters from: Clifford mter, Leo C. Henzl, 
+Jr., Joseph F. Koenen, Adele Brown, H 
+E. Dixon, John E. Lonn, Ben Baxt, R. 3 
+Otterson, Robert W. Re George F. 
+Mueden, Jr., James R. Tye, Jacques Le- 
+couturier, Martin H. Meyerson, p
+  [raw offset 15949 | norm offset 14926] arkansas :: .31 
+
+Argentina voy 4 flag waving to boost its econo- 
+my p64, Dec.1 
+
+ARINC Research Corp. 
+
+Shuffling funds in an instant # p20, Sept.5 
+ARISTA Mills Co. 
+
+Help for textile company # p32, Nov.28 
+
+
+ARKANSAS River 
+
+
+The waterway that couldn’t be done (with 
+map and illus) p124, Sept.12 
+
+
+Readers Report: The public pays p4, Oct.3 
+
+
+ARMS 
+
+
+Faw a may give up profit-sharing p45, 
+ept.19 
+
+
+Stacking up arms as talk runs out (with illus) 
+p38, Sep
+  [raw offset 51600 | norm offset 48316] rogers :: BLE Memory 
+
+
+Bubble memories start taking shape p26, 
+Nov.21 
+
+
+BUCHER, Lloyd 
+Bucher: ‘My Story’ (with illus) p8, Aug.15 
+
+
+Armbrister: ‘A Matter of Accountability’ (with 
+illus) p8, Aug.15 
+
+
+BUCK Rogers 
+
+
+Roarin’ rockets: It’s Brand-Rex (with illus) 
+p44, July 11 
+
+
+BUCKLEY, James 
+
+
+Congress: How the power has shifted (with 
+illus) p17, Nov.7 
+
+
+BUDGE, Hamer H. 
+
+Why big traders worry industry (with cover, 
+St. ae and illus) (Special Report
+  [raw offset 272395 | norm offset 254120] rogers ::  George B. 
+
+
+It takes more than a banker to run a bank 
+(with illus) p38, Nov.7 
+
+
+
+
+
+
+
+
+44 
+
+
+BUSINESS WEEK INDEX 
+
+
+
+
+
+ROEDEL, Fred B. 
+
+
+A motel room at bargain rates (with illus) 
+p20, Aug.22 
+
+
+ROGERS, Archibald C. 
+
+
+Making cities better places to live (with cover 
+and illus) p36, Aug.22 
+
+
+ROLLEI Werke 
+
+
+How Rollei plans to snap back (with illus) 
+p99, Oct.24 
+
+
+ROLLS-Royce, Ltd. 
+
+
+A U.S. contract runs Rolls-Royce into trouble 
+p79, Nov
+  [raw offset 230812 | norm offset 215271] newport ::  (with 
+chart and illus) p60, Sept.5 
+
+
+Readers Report: Telephone blues p6, Sept.26 
+NEW YORK Times Co. 
+
+Cowles unbundles # p26, Oct.31 
+
+NEWARK, N. J. 
+
+Newark signs up a business team p23, Aug.15 
+NEWPORT, R. I. 
+
+
+When at Newport, play the angles for game 
+fishing p70, Aug.29 
+
+
+NEWSDAY 
+The new Times (with illus) p43, Dec.26 
+NEWSPAPERS 
+
+
+Newspapers are ge again (with 
+cover, table and illus) p36, Aug.29 
+
+
+Britain: A new headliner rocks Fl
+  [raw offset 230838 | norm offset 215294] newport :: 60, Sept.5 
+
+
+Readers Report: Telephone blues p6, Sept.26 
+NEW YORK Times Co. 
+
+Cowles unbundles # p26, Oct.31 
+
+NEWARK, N. J. 
+
+Newark signs up a business team p23, Aug.15 
+NEWPORT, R. I. 
+
+
+When at Newport, play the angles for game 
+fishing p70, Aug.29 
+
+
+NEWSDAY 
+The new Times (with illus) p43, Dec.26 
+NEWSPAPERS 
+
+
+Newspapers are ge again (with 
+cover, table and illus) p36, Aug.29 
+
+
+Britain: A new headliner rocks Fleet Street 
+(with illus) p
+  [raw offset 325604 | norm offset 303528] small town :: , July 25 
+
+
+How to resurrect bricks from ashes (with 
+illus) p48, Aug.1 
+
+
+te re dumps over garbage (with illus) p62, 
+
+
+Proxmire seems to have the edge (with illus) 
+p78, Sept.26 
+
+
+Readers Report: Small town trash p7, Oct.10 
+
+Waste as an asset (Editorial) p114, Oct.10 
+
+Turning junk and trash into a resource (with 
+
+— table, chart, illus) (Special Report) p66, 
+Ic 
+
+
+Treat pollution as a business cost (with 
+illus) (Special Report) p88, Oct.1
+  [raw offset 321936 | norm offset 300139] variety store :: uit (with illus) 
+p58, July 18 
+
+
+VARIABLE - Rate Note 
+
+
+Eurobonds get — in the squeeze (with 
+chart) p74, July 18 
+
+
+VARIAN Associates 
+
+
+Computers make fertile parents (with illus) 
+p55, Nov.28 
+
+
+VARIETY Stores 
+
+
+How Kresge became top eae (with cov- 
+er, chart and illus) pee, Oc 
+
+
+VENDING Machines 
+
+
+How to make escapism pay (with illus) p112, 
+jay 1 pay )p 
+
+
+Vendors pull out all stops (with illus) p52, 
+Aug.15 
+
+
+VENTURE Capital 
+
+
+Feedin
+  [BLOCK 'DISCOUNT Houses' raw offset 106537] DISCOUNT Houses 
 
 
 How Kresge became top discounter (with cov- 
@@ -481,8 +2097,12 @@ Readers Report: Disney in Florida p5, Dec.12
 DIVELY, George S. 
 
 
-Why outside directors 
-  [BLOCK VARIETY Stores @321936] VARIETY Stores 
+Why outside directors need to direct (with 
+illus) p76, July 4 
+
+
+DIVERSIFICATION 
+  [BLOCK 'VARIETY Stores' raw offset 321936] VARIETY Stores 
 
 
 How Kresge became top eae (with cov- 
@@ -525,6 +2145,16 @@ p23, Aug.29
 VETERANS 
 
 
-A new jobs-for-veterans program # p46
+A new jobs-for-veterans program # p46, 
+Sept.19 
+
+
+er Report: No time for lieutenants? p6, 
+
+
+
+
+
+
 
 # END OF BUSINESS WEEK EXTRACT
