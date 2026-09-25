@@ -131,10 +131,17 @@ def cmd_section(a):
         # EXACT heading match only. Prefix matching let `--section S` stamp a different section
         # WRITTEN and drive the PENDING count to zero, which is the one signal this tool exists to
         # provide -- a false "written" is worse than a missing one.
-        if head == want and "STATUS: PENDING" in block:
-            block = block.replace("STATUS: PENDING", "STATUS: WRITTEN %s" % iso()[:10])
-            hit += 1
-        elif head.startswith(want) and head != want:
+        if head == want:
+            lines = block.split(chr(10))
+            # Replace ONLY the block's own trailing marker, and only a line that IS the marker.
+            # A blanket str.replace used to rewrite `STATUS: PENDING` inside quoted evidence,
+            # which corrupted corpus text -- detected and repaired by the agent that reported it.
+            idx = [i for i, l in enumerate(lines) if l.strip() == "STATUS: PENDING"]
+            if idx:
+                lines[idx[-1]] = "STATUS: WRITTEN " + iso()[:10]
+                block = chr(10).join(lines)
+                hit += 1
+        elif head.startswith(want):
             fuzzy.append(head)
         out.append(block)
     if not hit:
