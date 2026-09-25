@@ -172,7 +172,7 @@ model** — an offer letter names a person, a date and a consideration; it does 
 supported by the manual-to-automated admission it did not promote into its own test.
 
 >>> CONFLICT FOR §U: **Stage-3 endpoint — three positions — P-U.114 (folding `ST3_E` dossier keys
-U.220, U.221, U.222) as Stage 3's first §U entries.**
+`U.220`, `U.221`, `U.222` — dossier-local, folded not re-based, so they are not §U anchors) as Stage 3's first §U entries.**
 **CLAIM A** — Stage 3 closes **1999-06-30 substantive / 1999-08-16 disclosed**, Medium-High, on three
 axes said to pass simultaneously for the first time in the Q2-1999 10-Q (`ST3_A` C4 + Recommendation).
 **CLAIM B** — **1997-12-31** is Stage 3's **mandatory sub-endpoint** as imposed by Stage 2: FY1997 audited

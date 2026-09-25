@@ -610,7 +610,7 @@ the text below without opening the QC file.**
 | 5 | `ST3_C_product_market.md` | `channels.csv` | 12 → 11 | `Amazon.com,3,Amazon.com Auctions (third-party sellers),1999-03-30,convert the registered buyer base into a seller side,$250-per-purchase buyer guarantee; no inventory,company filed revenue as minimal in the launch quarter; commissions later folded into net sal(…) — §P249 |
 | 6 | `ST3_C_product_market.md` | `channels.csv` | 12 → 11 | `Amazon.com,3,zShops (third-party storefronts on amazon.com),late September 1999,assortment without inventory or title risk,placement fees plus sales commissions (levels undisclosed),no count of any kind; company disclaims responsibility for delivery of goods o(…) — §P248, §P270, **U.155** |
 | 7 | `ST3_C_product_market.md` | `channels.csv` | 12 → 11 | `Amazon.com,3,Direct purchasing from manufacturers and labels,during 1998,cut the distributor layer out of cost of goods,inventory carried: $8,971K to $29,501K,Ingram share ~60% to ~40%; supplier count widened to three wholesalers,yes, but it converts supplier (…) — §P229 (and the ~60% is the FY1997 recast, not FY1998; see §P.2a row "Ingram") |
-| 8 | `ST3_C_product_market.md` | `sources.csv` | 19 → 18 | `S3007,3,ST3C-50..ST3C-57,8-K event 1998-10-28 (Q3-1998 results release),SEC EDGAR acc 0000891020-98-001498,filing,primary,1998-10-28,1998-10-28,2026-09-25,local sources/8-K_event-1998-10-28_acc-0000891020-98-001498_filed-1998-10-28.txt,NO_ARCHIVED_PAGE,1,FACT+ (…) — **the row is 19 fields because the `url` cell contains a comma**; §T re-keys S3007 with that cell quoted, and `sources.csv` already carries 81 Stage-3 rows, so S3007 exists and must not be re-defined (§13: reuse ids)  [UNRESOLVED — held row: the map pairs no ST3_C/S3007 and this 19-field row was never written to sources.csv; the cited document is registered at S30051 but re-keying this row key would assert a row that does not exist] |
+| 8 | `ST3_C_product_market.md` | `sources.csv` | 19 → 18 | `S3007,3,ST3C-50..ST3C-57,8-K event 1998-10-28 (Q3-1998 results release),SEC EDGAR acc 0000891020-98-001498,filing,primary,1998-10-28,1998-10-28,2026-09-25,local sources/8-K_event-1998-10-28_acc-0000891020-98-001498_filed-1998-10-28.txt,NO_ARCHIVED_PAGE,1,FACT+ (…) — **the row is 19 fields because the `url` cell contains a comma**; §T re-keys S3007 with that cell quoted, and `sources.csv` already carries 81 Stage-3 rows, so the pre-re-key id S3007 — UNRESOLVED, undeterminable: 03_quality_control/stage3_sourceid_rekey_map.md carries no ST3_C row for it (that block runs `S3006` → `S3008`, skipping this id), so no canonical 5-digit document can be named; held, not guessed; the full reason is in the marker at the end of this line — exists and must not be re-defined (§13: reuse ids)  [UNRESOLVED — held row: the map pairs no ST3_C/S3007 and this 19-field row was never written to sources.csv; the cited document is registered at S30051 but re-keying this row key would assert a row that does not exist] |
 | 9 | `ST3_C_product_market.md` | `decisions.csv` | 14 → 15 | `Amazon.com,3,1998-04,Buy online booksellers in the UK and Germany rather than build export operations,one Seattle warehouse serving exports; international share falling 33% to 25%,two operating local sites with their own catalogues and DCs,licensing, local sup(…) — short by one field (14 vs 15), so a value was lost rather than a comma added; **cannot be repaired from this part's evidence** and is reproduced for the dossier's owner |
 | 10 | `ST3_D_tech_ops.md` | `timeline.csv` (as written) | 12 → 11 | `Amazon.com,3,1999-Q4,depreciation and amortization single quarter,13,871,$000,10-K_FY1999 L2820 less 10-Q_Q3-1999 L314,2000-03-23,ESTIMATE/DERIVED,High,36,806 - 22,935 = 13,871,Q4 alone exceeds all of FY1998 (13,871/9,421 = 1.47x)` — **this is a `quantitative.csv` row wearing a `timeline.csv` label**: 12 fields in the quantitative header order with three unquoted comma-bearing values. Re-emitted in this part's `quantitative.csv` block as §P242, quoted and width-correct, with `derived_arithmetic` populated |
 
@@ -1723,17 +1723,17 @@ column, where it already sits, and is echoed here for the parity check. **§U bl
 
 | Provisional | Final | Dossier original | Source dossier |
 |---|---|---|---|
-| `P-U.114` | **U.114** | `U.201` | `ST3_A_chronology_org.md` |
-| `P-U.115` | **U.115** | `U.202` | `ST3_A_chronology_org.md` |
-| `P-U.116` | **U.116** | `U.203` | `ST3_A_chronology_org.md` |
-| `P-U.117` | **U.117** | `U.204` | `ST3_A_chronology_org.md` |
-| `P-U.118` | **U.118** | `U.205` | `ST3_A_chronology_org.md` |
-| `P-U.119` | **U.119** | `U.206` | `ST3_A_chronology_org.md` |
-| `P-U.120` | **U.120** | `U.207` | `ST3_A_chronology_org.md` |
-| `P-U.121` | **U.121** | `U.208` | `ST3_A_chronology_org.md` |
-| `P-U.122` | **U.122** | `U.209` | `ST3_A_chronology_org.md` |
-| `P-U.123` | **U.123** | `U.210` | `ST3_A_chronology_org.md` |
-| `P-U.124` | **U.124** | `U.211` | `ST3_A_chronology_org.md` |
+| `P-U.114` | **U.114** | U.201 | `ST3_A_chronology_org.md` |
+| `P-U.115` | **U.115** | U.202 | `ST3_A_chronology_org.md` |
+| `P-U.116` | **U.116** | U.203 | `ST3_A_chronology_org.md` |
+| `P-U.117` | **U.117** | U.204 | `ST3_A_chronology_org.md` |
+| `P-U.118` | **U.118** | U.205 | `ST3_A_chronology_org.md` |
+| `P-U.119` | **U.119** | U.206 | `ST3_A_chronology_org.md` |
+| `P-U.120` | **U.120** | U.207 | `ST3_A_chronology_org.md` |
+| `P-U.121` | **U.121** | U.208 | `ST3_A_chronology_org.md` |
+| `P-U.122` | **U.122** | U.209 | `ST3_A_chronology_org.md` |
+| `P-U.123` | **U.123** | U.210 | `ST3_A_chronology_org.md` |
+| `P-U.124` | **U.124** | U.211 | `ST3_A_chronology_org.md` |
 | `P-U.125` | **U.125** | `C-1` | `ST3_B_finance.md` |
 | `P-U.126` | **U.126** | `C-2` | `ST3_B_finance.md` |
 | `P-U.127` | **U.127** | `C-3` | `ST3_B_finance.md` |

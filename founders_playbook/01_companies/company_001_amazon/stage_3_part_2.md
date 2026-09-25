@@ -935,7 +935,11 @@ renumbered (method §9.3). Claim records for §K–§O are registered in the fiv
 (`research/ST3_A_chronology_org.md`, `ST3_B_finance.md`, `ST3_C_product_market.md`, `ST3_D_tech_ops.md`,
 `ST3_E_adversarial.md`) and in `sources.csv` / `quantitative.csv` / `validation.csv` / `failures.csv` /
 `conflicts.csv`; **this part cites those IDs (ST3A-…, ST3B … , ST3C-…, ST3D-…, ST3E-…, and source_ids
-S3001, S3012, S3013, S3020) and redefines none of them** (method §9.4, §13). Every figure above is either a [UNRESOLVED — candidates S30001/S30012/S30013/S30020 or S30031/S30042/S30043/S30050 or S30053/S30063/S30064/S30071; missing fact: which dossier block the §K–§O exemplar list was drawn from and these volumes carry no other source_id to fingerprint it]
+S3001, S3012, S3013, S3020 [UNRESOLVED ×4 — bare pre-re-key ids, each with three candidate documents in
+`03_quality_control/stage3_sourceid_rekey_map.md`: ST3_A S30001/S30012/S30013/S30020, ST3_B S30031/S30042/S30043/S30050,
+ST3_C S30053/S30063/S30064/S30071. Resolution is by content and these volumes carry no content to fingerprint them with:
+no other bare four-digit id occurs in this part, so the block cannot be attributed. Held, not re-pointed — the same
+missing fact is recorded at the end of this paragraph] ) and redefines none of them** (method §9.4, §13). Every figure above is either a [UNRESOLVED — candidates S30001/S30012/S30013/S30020 or S30031/S30042/S30043/S30050 or S30053/S30063/S30064/S30071; missing fact: which dossier block the §K–§O exemplar list was drawn from and these volumes carry no other source_id to fingerprint it]
 printed line in a named filing at a named line anchor or a DERIVED value whose inputs and arithmetic are
 shown in the same cell. **No date in this part is invented; no figure is written without its filing; every quotation-marked string was
 read at the line cited in `sources/`, and eleven such strings were re-verified against the primary files on this

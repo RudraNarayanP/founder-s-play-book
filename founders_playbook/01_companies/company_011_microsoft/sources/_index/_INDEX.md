@@ -1,6 +1,6 @@
 # SEC submissions index -- MICROSOFT CORP (CIK 0000789019, MSFT)
 
-Built by `tools/sec_intake.py` at 2026-09-25 19:28 UTC. 4525 filings enumerated
+Built by `tools/sec_intake.py` at 2026-09-25 20:24 UTC. 4525 filings enumerated
 
 **This file is the source of truth for what exists.** Do not re-search EDGAR for
 coverage; grep `submissions.csv` and report a form as absent only from this list.
