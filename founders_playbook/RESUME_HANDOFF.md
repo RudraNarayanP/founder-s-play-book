@@ -3,6 +3,20 @@
 Generated 2026-09-23, while Amazon Stage 1 was in its final repair passes.
 
 ## 0. STOPPING POINT — 2026-09-24 ~13:50 UTC (supersedes the 09-23 block below, kept as history)
+## 0. STOPPING POINT — 2026-09-25 ~20:20 UTC (supersedes the 09-24 block; the 09-25-morning table below it is also now stale in its "running" column)
+
+| Gate | State now |
+|---|---|
+| Amazon Stage 1 | **SIGNED** (AUDIT 8, read-only certifier, 26 of 50 calls). 43 U-blocks ↔ 43 rows; §P.2 recomputed; named residuals RD-050…RD-067, no blockers. Its retracted-value sweep is what exposed RD-059 — the handoff file itself was still teaching agents to use `$871,000`; withdrawn in place, rule generalised as §14.10 |
+| Amazon Stage 2 | 3 volumes, 81k narrative + 479 claim records + 70 §U blocks (U.44–U.113). Chronology audit repaired; **citation audit repaired and independently verified** (all nine defects closed; verifier overturned the audit on three points). Remaining Stage-2 gates: numbers, hindsight, adversarial |
+| Amazon Stage 3 | Five dossiers: chronology (59 rec), finance (22 rec/142 rows), product+market (68 rec), tech+ops (53 rec, 9 DC openings), adversarial **still running**. Boundary argued for **1999-06-30 substantive / 1999-08-16 disclosed**, rivals FY1998 close rejected on its own documents and 1999-09-30 held as the conservative alternative. **Registers merged early**: 427 Stage-3 rows applied, conflict rows keyed **provisionally P-U.114…P-U.152** with each dossier's own id preserved in `section` (see `03_quality_control/stage3_register_merge_held_rows.md`); 10 rows held for width. Assembly into §A–U has **not** started |
+| Off-machine | QCA sessions still **402** (no credit). The nightly harvester **runs and writes to `main`** (first commit `2e90df0`) — and that run is what disproved the bot-block diagnosis: Google Books and HathiTrust answer once requests are shaped right; **LoC really is gated** (`robots.txt` itself returns a Cloudflare challenge) |
+| Other companies | Walmart: A2 (133 rec, superseded at 39 sites) + A3 (9 fiscal years, every row labelled CONTEMPORANEOUS/RESTATED) + A4 (40 rec, 164 register rows) + A5 (the SEC-statistical hypothesis closed as a page-level negative; independent lineage **still 1**; NLRB volumes unspent). Apple: 4 dossiers + 4 registers, probe corrected. UnitedHealth: money series to FY1990, verdict forensic-core on an explicit premise |
+
+**Next five actions:** (1) when ST3_E lands, dispatch Stage-3 assembly in four parts mirroring Stage 2's geometry; (2) re-base Stage-3 conflict ids P-U.114… → U.114… in the same operation that writes the §U blocks, then re-test 1:1 parity; (3) resolve `RD-060`'s split factor (**12×, not 6×**) through every per-share figure before the numbers gate; (4) run the three remaining Stage-2 audits with auditors who wrote none of the text; (5) apply the FY1999 10-K riders (`OC-D1`/`OC-D2`) into ST3_A/B/C rather than re-running those dossiers.
+
+**Standing discipline:** every agent brief now carries an explicit tool-call budget and a byte destination (§14.9), one write path per agent (§14.7), and a "verify from disk before re-dispatching" instruction — four agents died at their ceiling this week with the work done and the record blank.
+
 
 Run `git log --oneline -6` for the exact last state; everything named here is committed and pushed.
 

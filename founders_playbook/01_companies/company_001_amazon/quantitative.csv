@@ -192,3 +192,144 @@ Amazon.com,stage2,1996-06-21,Series A post-money valuation,UNKNOWN - not compute
 Amazon.com,stage2,FY1996,Customer acquisition cost per net-new account,UNKNOWN - not computed,USD,The numerator is filed but bundles all fulfilment and customer-service payroll and the denominator (net-new accounts) is not filed,UNKNOWN,UNKNOWN (of the null),High (of the null),,A ratio whose denominator is unfiled is not computed (U.51).
 Amazon.com,stage2,FY1996,Average order value and order count and units per order and fill rate and returns rate,UNKNOWN,USD and counts,Never disclosed in any accession of the lineage in either stage,UNKNOWN,UNKNOWN,High (of the null),,Unit economics are unanswerable from the primary record at all and no proxy is substituted (U.51 U.104).
 Amazon.com,stage2,FY1996,GMV and bookings and take rate and marketplace commission revenue,UNKNOWN / 0,USD,The company reported shipment-basis revenue only and the Associates Program pays out rather than takes,UNKNOWN,UNKNOWN,High (of the null),,
+Amazon.com,stage3,1997-06-30,"Net sales, Q2 1997",27855,$ thousands,Form 10-Q Q2 1997 acc. 0000891020-97-001148,1997-08-14,FACT,High,,"vs $2,230k in Q2 1996. First post-IPO reported quarter."
+Amazon.com,stage3,1997-12-31,"Net sales, FY1997",147787,$ thousands,Form 10-K FY1998 selected financial data; ARS 1997,1999-03-05,FACT,High,,ARS 1997 wording '838% revenue growth to $147.8 million'. Fiscal-year basis.
+Amazon.com,stage3,1997-12-31,"Employees, full-time",614,people,Form 10-K405 FY1997 EMPLOYEES L516,1998-03-30,FACT,High,,"Explicitly full-time; contractors and other temporary employees also employed, count UNKNOWN."
+Amazon.com,stage3,1997-12-31,Accumulated deficit,33.6,$ millions,Form 10-K405 FY1997 risk factors L555,1998-03-30,FACT,High,,
+Amazon.com,stage3,1997-12-31,"Net loss, FY1997",27.6,$ millions,Form 10-K405 FY1997 L249-250,1998-03-30,FACT,High,,
+Amazon.com,stage3,1997-12-31,International sales share of net sales,25,%,Form 10-K405 FY1997 L244,1998-03-30,FACT,High,,Q4 1997 alone 22%.
+Amazon.com,stage3,1997-12-31,"Net cash provided by operating activities, FY1997",687,$ thousands,Form 10-K FY1998 consolidated statements of cash flows L2247,1999-03-05,FACT,High,,"FY1997 is already cash-positive, so the 'first positive year' candidate falls in FY1997 - but the amount is immaterial."
+Amazon.com,stage3,1998-03-31,Accumulated deficit,42.9,$ millions,Form S-4 File No. 333-55943 L443,1998-06-03,FACT,High,,
+Amazon.com,stage3,1998-06-30,Indebtedness excluding the senior discount notes,2.4,$ millions,"Form 424B2, acc. 0000891020-98-001279",1998-08-13,FACT,High,,The before-picture of the leverage pivot.
+Amazon.com,stage3,1998-12-31,"Net sales, FY1998",609996,$ thousands,Form 10-K FY1998 acc. 0000891020-99-000375,1999-03-05,FACT,High,,
+Amazon.com,stage3,1998-12-31,"Employees, all bases",2100,people,Form 10-K FY1998 EMPLOYEES L528,1999-03-05,FACT,High,,"'approximately 2,100 employees' with no full-time qualifier, therefore not like-for-like against 614."
+Amazon.com,stage3,1998-12-31,Headcount growth FY1997 to FY1998,3.42,x,DERIVED,1999-03-05,ESTIMATE,Medium,"2,100 / 614 = 3.42",Basis changed between the two statements; the true all-hands ratio is lower by an unknown factor.
+Amazon.com,stage3,1998-12-31,Net sales growth FY1997 to FY1998,4.13,x,DERIVED,1999-03-05,ESTIMATE,High,"609,996 / 147,787 = 4.13",
+Amazon.com,stage3,1998-12-31,"Net loss, FY1998",124546,$ thousands,Form 10-K FY1998 cash-flow statement L2229,1999-03-05,FACT,High,,
+Amazon.com,stage3,1998-12-31,"Net cash provided by operating activities, FY1998",31035,$ thousands,Form 10-K FY1998 cash-flow statement L2247,1999-03-05,FACT,High,,First materially positive year.
+Amazon.com,stage3,1998-12-31,"Increase in accounts payable, FY1998",78674,$ thousands,Form 10-K FY1998 cash-flow statement L2243,1999-03-05,FACT,High,,Exceeds reported operating cash flow by a factor of 2.5.
+Amazon.com,stage3,1998-12-31,Operating cash flow excluding the accounts-payable movement,-47639,$ thousands,DERIVED,1999-03-05,ESTIMATE,Medium,"31,035 - 78,674 = -47,639",NOT a filed figure and NOT a measure the company recognises; shown only to test the FY1998 cash boundary candidate.
+Amazon.com,stage3,1998-12-31,"Non-cash merger and acquisition costs, FY1998",47065,$ thousands,Form 10-K FY1998 cash-flow statement L2235-2237,1999-03-05,FACT,High,,Goodwill and purchased-intangible amortisation from the 1998 acquisitions.
+Amazon.com,stage3,1998-12-31,"Long-term debt proceeds / repayment, FY1998",325987 / 78108,$ thousands,Form 10-K FY1998 cash-flow statement L2260-2261,1999-03-05,FACT,High,,"Financing costs $(7,783)k shown separately on L2262."
+Amazon.com,stage3,1998-12-31,"Purchases of fixed assets, FY1998",28333,$ thousands,Form 10-K FY1998 cash-flow statement L2251,1999-03-05,FACT,High,,"FY1997 $7,603k; FY1996 $1,335k."
+Amazon.com,stage3,1998-12-31,"Cash used on acquisitions and investments in businesses, FY1998",19019,$ thousands,Form 10-K FY1998 cash-flow statement L2252-2253,1999-03-05,FACT,High,,Cash leg only; the stock consideration dwarfs it and is not in this line.
+Amazon.com,stage3,1998-12-31,Senior indebtedness,349,$ millions,Form 10-K FY1998; restated in Form S-3 File No. 333-74435,1999-03-05,FACT,High,,One substance in two documents; not two confirmations.
+Amazon.com,stage3,1998-12-31,Accumulated deficit,162.1,$ millions,Form 10-K FY1998; Form S-3 File No. 333-74435,1999-03-05,FACT,High,,
+Amazon.com,stage3,1998-12-31,Cumulative customer accounts,6.2,millions,Form 10-K FY1998 MD&A L1317-1318,1999-03-05,FACT,High,,FY1997: 1.5 million. Company-measured; no independent count exists.
+Amazon.com,stage3,1998-12-31,International sales share of net sales,20,%,Form 10-K FY1998 MD&A L1324-1326,1999-03-05,FACT,High,,Down from 25% (1997) and 33% (1996) in the year of the UK and German launches.
+Amazon.com,stage3,1998-12-31,Operating lease rental expense,8.5,$ millions,Form 10-K FY1998 Note 6 L2825-2827,1999-03-05,FACT,High,,"FY1997 $2.1m; FY1996 $270,000."
+Amazon.com,stage3,1998-12-31,Operating lease rental expense growth 1996 to 1998,31.5,x,DERIVED,1999-03-05,ESTIMATE,High,"8,500,000 / 270,000 = 31.5",Cleanest audited money-trail of the physical build-out.
+Amazon.com,stage3,1998-12-31,Revenue run rate asserted by the company,1,$ billions,ARS 1998 and Form 8-K of 1999-01-05,1999-04-07,ESTIMATE,Medium,,"Company-annualised, basis unstated (Q4x4 or Decemberx12). NOT a filed revenue figure; do not use as a scale endpoint."
+Amazon.com,stage3,1999-02-03,4 3/4% Convertible Subordinated Notes due 2009 issued,1250000000,$ principal,Form 8-K acc. 0000891020-99-000125 Item 5,1999-02-04,FACT,High,,Announced at $500m six days earlier.
+Amazon.com,stage3,1999-06-30,"Net sales, Q2 1999",314377,$ thousands,Form 10-Q Q2 1999 L848,1999-08-16,FACT,High,,"vs $115,982k in Q2 1998, +171%."
+Amazon.com,stage3,1999-06-30,"Net sales, six months 1999",608019,$ thousands,Form 10-Q Q2 1999 L848,1999-08-16,FACT,High,,"vs $203,343k, +199%. Six months of 1999 approximately equals all of FY1998."
+Amazon.com,3,1998-12-31,net sales FY1998,"609,996",USD thousands,S3001,1999-03-05,FACT,High,,"CONTEMPORANEOUS, audited; E&Y opinion 1999-01-22"
+Amazon.com,3,1998-12-31,gross profit FY1998,"133,841",USD thousands,S3001,1999-03-05,FACT,High,,"CONTEMPORANEOUS; cost of sales 476,155"
+Amazon.com,3,1998-12-31,gross margin FY1998,21.9,percent,S3001,1999-03-05,FACT,High,,AS PRINTED in the MD&A table; not re-derived here
+Amazon.com,3,1998-12-31,operating loss FY1998,"(111,960)",USD thousands,S3001,1999-03-05,FACT,High,,"CONTEMPORANEOUS; total operating expenses 245,801"
+Amazon.com,3,1998-12-31,net loss FY1998,"(124,546)",USD thousands,S3001,1999-03-05,FACT,High,,"CONTEMPORANEOUS; interest income 14,053 less interest expense 26,639"
+Amazon.com,3,1998-12-31,loss per share FY1998,(0.84),USD per share,S3001,1999-03-05,FACT,High,,basic and diluted; post 2-for-1 and 3-for-1 vintages
+Amazon.com,3,1998-12-31,weighted shares used in FY1998 EPS,"148,172",thousands of shares,S3001,1999-03-05,FACT,High,,the denominator that produced (0.84)
+Amazon.com,3,1997-12-31,net sales FY1997 as filed,"147,758",USD thousands,S3002,1998-03-30,FACT,High,,CONTEMPORANEOUS for FY1997 - the number 1998 readers held
+Amazon.com,3,1997-12-31,net loss FY1997 as filed,"(27,590)",USD thousands,S3002,1998-03-30,FACT,High,,"CONTEMPORANEOUS for FY1997; NOT the (31,020) usually quoted"
+Amazon.com,3,1997-12-31,loss per share FY1997 as filed,(1.27) pro forma,USD per share,S3002,1998-03-30,FACT,High,,"on 21,651 thousand pro forma shares; a different instrument from the later (0.24)"
+Amazon.com,3,1997-12-31,net sales FY1997 restated,"147,787",USD thousands,S3001,1999-03-05,RESTATED,High,,RESTATED for PlanetAll pooling; must not read as filed
+Amazon.com,3,1997-12-31,net loss FY1997 restated,"(31,020)",USD thousands,S3001,1999-03-05,RESTATED,High,,"RESTATED; delta (3,430) against the as-filed figure"
+Amazon.com,3,1997-12-31,accumulated deficit FY1997 as filed vs restated,"(33,615) vs (37,514)",USD thousands,S3002;S3001,1998-03-30,FACT,High,,"delta (3,899) is the pooling recast"
+Amazon.com,3,1997-12-31,employees at year end,614,f persons,S3002,1998-03-30,FACT,High,,full-time; the 158 at 1996-12-31 is a RESTATED recital in the same document
+Amazon.com,3,1998-12-31,employees at year end,"approximately 2,100",persons,S3001,1999-03-05,FACT,High,,printed as approximate; not to be treated as an exact denominator
+Amazon.com,3,1998-12-31,cash plus marketable securities,373445,USD thousands,S3001,1999-03-05,DERIVED,High,"25,561 + 347,884 = 373,445",the 10-K also prints '$373.4 million' at L1645; both inputs audited
+Amazon.com,3,1998-12-31,working capital,262679,USD thousands,S3001,1999-03-05,FACT,High,,printed as its own Selected Financial Data line
+Amazon.com,3,1998-12-31,inventories,"29,501",USD thousands,S3001,1999-03-05,FACT,High,,audited balance sheet
+Amazon.com,3,1998-12-31,accounts payable,"113,273",USD thousands,S3001,1999-03-05,FACT,High,,audited balance sheet
+Amazon.com,3,1998-12-31,capital expenditures FY1998,"28,333",USD thousands,S3001,1999-03-05,FACT,High,,"purchases of fixed assets, audited cash-flow line"
+Amazon.com,3,1998-12-31,net cash from operating activities FY1998,"31,035",USD thousands,S3001,1999-03-05,FACT,High,,"POSITIVE while the net loss was (124,546)"
+Amazon.com,3,1998-12-31,advertising expense FY1998,60.2,USD millions,S3001,1999-03-05,FACT,High,,accounting-policy note; 21.2 (1997) and 3.4 (1996) in the same sentence
+Amazon.com,3,1998-12-31,contribution per dollar of net sales FY1998,0.121,USD per USD,S3001,1999-03-05,DERIVED,Medium,"(133,841 - 60,200) / 609,996 = 0.121","per dollar of revenue, NOT per order; excludes fulfilment, product development, G&A, processing"
+Amazon.com,3,1998-12-31,net sales per dollar of advertising FY1998,10.1,x,S3001,1999-03-05,DERIVED,High,"609,996 / 60,200 = 10.13",4.6x in 1996 and 7.0x in 1997 on the same arithmetic
+Amazon.com,3,1998-12-31,days payable outstanding FY1998,86.8,days,S3001,1999-03-05,DERIVED,High,"113,273 / (476,155 / 365) = 86.8",down from 101.3 restated / 100.3 as filed for FY1997: the supplier float tightened as a share of purchases
+Amazon.com,3,1998-12-31,inventory turns on average balance FY1998,24.8,x,S3001,1999-03-05,DERIVED,High,"476,155 / ((8,971 + 29,501) / 2) = 24.75",both year-end balances filed; average used
+Amazon.com,3,1998-12-31,net sales per year-end employee FY1998,290,USD thousands,S3001,1999-03-05,DERIVED,Low,"609,996 / 2,100 = 290.5",denominator printed as approximate; flow over a point-in-time stock; directional only
+Amazon.com,3,1997-12-31,net sales per year-end employee FY1997,240.6,USD thousands,S3002,1998-03-30,DERIVED,Medium,"147,758 / 614 = 240.6",614 is an exact filed count; numerator as filed
+Amazon.com,3,1998-12-31,option overhang,23.9,percent,S3001,1999-03-05,DERIVED,High,"38,005 / 159,267 = 23.86","options outstanding over shares issued and outstanding, both audited"
+Amazon.com,3,1998-12-31,US distribution floor area,616000,square feet,S3001,1999-03-05,DERIVED,High,"93,000 + 200,000 + 323,000 = 616,000","of which 323,000 (Fernley) leased in December 1998 but NOT yet operating"
+Amazon.com,3,1997-12-31,US distribution floor area,285000,square feet,S3002,1998-03-30,DERIVED,High,"85,000 + 200,000 = 285,000",company owns no real estate at either date
+Amazon.com,3,1997-11-07,first post-IPO debt facility,75000000,USD,S3010,1997-11-10,FACT,High,,"three-year senior secured; Deutsche Bank agent; increasable to 100,000,000"
+Amazon.com,3,1998-05,senior discount notes gross proceeds,326000000,USD,S3009;S3001,1998-08-13,FACT,High,,"approximately $326 million gross; principal at maturity 530,000,000"
+Amazon.com,3,1998-05,senior discount notes net proceeds,315.7,USD millions,S3009,1998-08-13,FACT,High,,after selling commissions and transaction expenses; $75.0M used to retire the Senior Loan
+Amazon.com,3,1998-05,indebtedness before the notes,approximately $2.4 million,USD,S3009,1998-08-13,FACT,High,,the company's own before-picture of the leverage pivot
+Amazon.com,3,1999-02-03,convertible subordinated notes,1250000000,USD,S3011,1999-02-04,FACT,High,,4 3/4% due 2009; announced as $500M on 1999-01-28 and upsized the same day
+Amazon.com,3,1999-02-03,conversion price,156.055,USD per share,S3012,1999-05-17,FACT,High,,"convertible into 8,009,996 shares in aggregate"
+Amazon.com,3,1999-03-31,senior discount notes repurchased face,126000000,USD,S3012,1999-05-17,FACT,High,,accreted value 83.9 million; 404 million face still outstanding
+Amazon.com,3,1999-05-19,universal shelf capacity,2000000000,USD,S3015,1999-05-19,FACT,High,,"capacity, not proceeds; deliberately not counted as money raised"
+Amazon.com,3,1998-10-22,shares in the selling-stockholder prospectus,"2,662,125",shares,S3017,1998-10-22,FACT,High,,secondary: no proceeds to the company
+Amazon.com,3,1998-04-17,shares issued for the first three acquisitions,540066,shares,S3018,1998-05-01,FACT,High,,"Regulation S; Bookpages, Telebook, IMDB"
+Amazon.com,3,1998-12-31,stock issued for acquisitions FY1998,"217,241",USD thousands,S3001,1999-03-05,FACT,High,,supplemental non-cash line; never touched cash
+Amazon.com,3,1998-12-31,stock consideration as share of the debt raise,66.6,percent,S3001,1999-03-05,DERIVED,High,"217,241 / 325,987 = 0.6664",the non-cash acquisition cost was two thirds of the largest 1998 cash raise
+Amazon.com,3,1998-02-17,founder shares reported by himself,"9,885,000",shares,S3007,1998-02-17,FOUNDER CLAIM,High,,a holder's own statement; sole voting and dispositive; shared nil
+Amazon.com,3,1998-02-17,founder percent of class,41.3,percent,S3007,1998-02-17,FOUNDER CLAIM,High,,"printed by the filer, not derived; the company's proxy printed 41.0% for the same 9,885,000"
+Amazon.com,3,1998-02-13,parents/sibling shares reported by the holders,"1,571,244 each",shares,S3008,1998-02-13,FOUNDER CLAIM,High,,6.6% of class each; do not aggregate with the founder row
+Amazon.com,3,1999-02-28,founder shares per the company,"58,770,000",shares,S3005,1999-04-07,FACT,High,,"36.48%; the company table, based on owner-furnished information"
+Amazon.com,3,1999-02-28,founder stake change vs the 13G on a like-for-like split basis,540000,shares,S3007;S3005,1999-04-07,DERIVED,Low,"9,885,000 x 2 x 3 = 59,310,000; 59,310,000 - 58,770,000 = 540,000","cause UNKNOWN: no Form 4 or 5 exists in the slice, so it cannot be dated or characterised"
+Amazon.com,3,1999-02-28,directors and officers as a group,75413815,shares,S3005,1999-04-07,FACT,High,,"45.62% of the class, 11 persons"
+Amazon.com,3,1996,founder salary,64333,USD,S3006,1998-04-17,FACT,High,,"RESTATED witness: appears only inside later tables; bonus nil, options nil"
+Amazon.com,3,1997,founder salary,79197,USD,S3006,1998-04-17,FACT,High,,"CONTEMPORANEOUS for 1997; bonus nil, options nil, all other compensation nil"
+Amazon.com,3,1998,founder salary,81840,USD,S3005,1999-04-07,FACT,High,,"CONTEMPORANEOUS for 1998; bonus nil, options nil"
+Amazon.com,3,1998,founder salary as share of the highest-paid VP salary,40.6,percent,S3005,1999-04-07,DERIVED,High,"81,840 / 201,512 = 0.4061",less than four of his own VPs in 1998
+Amazon.com,3,1996-1998,founder salary growth over two years,27.2,percent,S3005,1999-04-07,DERIVED,High,"81,840 / 64,333 = 1.2721","against net sales growth of 38.7x over the same span (15,746 to 609,996 on the restated basis)"
+Amazon.com,3,1999-09-30,accumulated deficit,"(558,815)",USD thousands,S3013,1999-11-15,FACT,High,,"unaudited interim; equity 419,925 with APIC at 1,027,655"
+Amazon.com,3,1999-09-30,capital expenditures nine months,"181,859",USD thousands,S3013,1999-11-15,FACT,High,,"against 18,779 in the same nine months of 1998: a 9.7x step"
+Amazon.com,3,1999-09-30,distribution square footage vs the 1998 holiday season,more than four times,multiple,S3004,1999-10-28,FOUNDER CLAIM,Medium,,a multiple with no base: absolute 1999 square footage is UNKNOWN
+Amazon.com,3,1999-12-31,FY1999 net sales,UNKNOWN,USD thousands,S3001,2026-09-25,UNKNOWN,UNKNOWN,,the FY1999 Form 10-K is not on disk; not annualised from 9M figures
+Amazon.com,3,1999-12-31,revenue per employee FY1999,UNKNOWN,USD thousands,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,denominator (year-end FY1999 employees) not filed locally; unfiled denominator retracts to UNKNOWN
+Amazon.com,3,1999-09-30,gross merchandise value,UNKNOWN,USD,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,no GMV or bookings figure appears anywhere in the corpus
+Amazon.com,3,1999-09-30,take rate,UNKNOWN,percent,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,"third-party fees are inside net sales, never separated; not computable"
+Amazon.com,3,1999-09-30,customer acquisition cost,UNKNOWN,USD,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,no order count and no quarterly advertising expense
+Amazon.com,3,1999-09-30,associates program economics,UNKNOWN,USD,S3001,1999-03-05,UNKNOWN,UNKNOWN,,"one number filed: approximately 200,000 enrolled web sites; no fee in either direction"
+Amazon.com,3,1998-06,Category expansion: first non-book store,music store opened,store,sources/10-Q_Q2-1998_acc-0000891020-98-001313_filed-1998-08-14.txt l.846,1998-08-14,FACT,High,,LAUNCHED state; June 1998; day UNKNOWN
+Amazon.com,3,1998-09-30,Music store net sales (quarter),14.4,$ millions,sources/8-K_event-1998-10-28_acc-0000891020-98-001498_filed-1998-10-28.txt l.223,1998-10-28,FACT,High,,unaudited press-release figure; never repeated in an annual report
+Amazon.com,3,1998-09-30,DERIVED: music share of quarter's net sales,9.4%,percent,derived from 8-K 1998-10-28 l.192 and l.223,1998-10-28,DERIVED,Medium,14400 / 153700 = 9.37%,both inputs from the same release
+Amazon.com,3,1998-12-31,Share of Q4 net sales from UK+Germany+music/video/gift,25%,percent,sources/ARS_1998…filed-1999-04-07.txt l.146-148,1999-04-07,COMPANY SELF-REPORT,Medium,,combined figure; no per-category split exists
+Amazon.com,3,1998-11,Video store and enhanced gift store launched,launched,state,sources/10-K_FY1998_acc-0000891020-99-000375_filed-1999-03-05.txt l.346-348,1999-03-05,FACT,High,,gift store includes selected personal electronics and toy products
+Amazon.com,3,1998-12-31,Titles offered (all families),more than 4.7,million,sources/10-K_FY1998…txt l.214-215,1999-03-05,COMPANY SELF-MEASUREMENT,Medium,,not comparable with the 1997 2.5m: the definition of titles changed (U-C9)
+Amazon.com,3,1998-12-31,Merchandise inventories,29501,$ thousands,sources/10-K_FY1998…txt l.1957,1999-03-05,FACT,High,,vs 8971 at 1997-12-31; ratio 3.29x
+Amazon.com,3,1998-12-31,Ingram share of inventory purchases,approximately 40%,percent,sources/10-K_FY1998…txt l.420-424,1999-03-05,FACT,High,,1997 restated as approximately 60% here vs 58% in the FY1997 10-K -> U-C3
+Amazon.com,3,1998-12-31,Advertising expense,60.2,$ millions,sources/10-K_FY1998…txt l.2459-2461,1999-03-05,FACT,High,,1997 21.2 / 1996 3.4; audited note
+Amazon.com,3,1998-12-31,DERIVED: advertising as share of net sales,9.9%,percent,derived from l.2461 and l.1222,1999-03-05,DERIVED,High,60200 / 609996 = 9.87%,improved ratio while dollars nearly tripled
+Amazon.com,3,1998-12-31,Committed operating leases and marketing agreements (one column),134829,$ thousands,sources/10-K_FY1998…txt l.2844-2853,1999-03-05,FACT,High,,cannot be split; 1999 portion 47626
+Amazon.com,3,1998-12-31,Associates Program enrolled Web sites,"approximately 200,000",sites,sources/10-K_FY1998…txt l.386,1999-03-05,COMPANY SELF-MEASUREMENT,Medium,,"140,000 at ~1998-09 per 8-K 1998-10-28 l.295; no commission rate or yield anywhere"
+Amazon.com,3,1999-03-30,Amazon.com Auctions launched,launched,state,sources/8-K_event-1999-03-30_acc-0000891020-99-000568_filed-1999-03-30.txt l.287-308,1999-03-30,FACT,High,,>800 categories; buyer guarantee up to $250; named sellers StarWares on Main / The Train Station / Rockaway Records
+Amazon.com,3,1999-03-31,"Auction revenue, company's own verdict",minimal,unquantified,sources/10-Q_Q1-1999_acc-0000891020-99-000894_filed-1999-05-17.txt l.636-637,1999-05-17,COMPANY SELF-REPORT,High,,not convertible to a number
+Amazon.com,3,1999-07,Electronics and Toys & Games stores launched,launched,state,sources/10-Q_Q2-1999_acc-0000891020-99-001426_filed-1999-08-16.txt l.802-804,1999-08-16,FACT,High,,first non-media merchandise stores; no category revenue
+Amazon.com,3,1999-09,zShops / Amazon.com Payments / All Products Search introduced,launched,state,sources/10-Q_Q3-1999_acc-0000891020-99-001938_filed-1999-11-15.txt l.801-806,1999-11-15,FACT,High,,zShops enables anyone to offer merchandise for sale on Amazon.com; no shop/listing/GMV count
+Amazon.com,3,1999-09-30,Distribution centres opened in the nine months,5 (NV GA KY KS ND),count,sources/10-Q_Q3-1999…txt l.830-831 and l.1628-1629,1999-11-15,FACT,High,,3 more announced (KY Germany UK); no lease instrument for GA KY ND in the corpus
+Amazon.com,3,1999-09-30,Cumulative customer accounts (inclusive of Auctions),13.1,millions,sources/10-Q_Q3-1999…txt l.870-873,1999-11-15,COMPANY SELF-MEASUREMENT,Medium,,basis changed mid-series -> U-C7
+Amazon.com,3,1999-09-30,Repeat-customer share of orders (quarter),>72%,percent,sources/8-K_event-1999-10-28…txt l.205-207,1999-10-28,COMPANY SELF-MEASUREMENT,Medium,,prior quarter 70%; Q4-to-Q4 spine is 46% (1996) / 58% (1997) / 64% (1998)
+Amazon.com,3,1999-11,Home improvement store (incl. tool store) launched,launched,state,sources/10-Q_Q3-1999…txt l.814-816,1999-11-15,FACT,Medium-High,,document filed 1999-11-15; day UNKNOWN
+Amazon.com,3,1999-03-11,Sales Agreements with The Buschman Company signed,5,count,sources/10-Q_Q1-1999…txt Ex.10.1-10.5,1999-05-17,FACT,High,,warehouse automation equipment for Fernley Phase I/II plus Site A/B/C not yet located; prices redacted Rule 24b-2
+Amazon.com,3,1997-12-31,distribution centers operating,2,count,10-K_FY1997 L1647,1998-03-30,FACT,High,,Seattle 85000 sq ft + New Castle 200000 sq ft
+Amazon.com,3,1999-12-31,distribution centers operating,10,count,10-K_FY1999 L578,2000-03-23,FACT,High,,8 US + 2 European; 9 openings dated inside the window
+Amazon.com,3,1999-12-31,warehouse space operated,"4,490,000",sq ft,"10-K_FY1999 L1604, L1612",2000-03-23,ESTIMATE/DERIVED,Medium-High,"3,800,000 US + 690,000 UK/DE = 4,490,000","vs 285,000 sq ft at 1997-12-31 = 15.75x; company aggregate 'four million' covers the 1999 additions only"
+Amazon.com,3,1997,purchases of fixed assets,"7,603",$000,10-K_FY1999 L2852,2000-03-23,FACT,High,,as-filed capex
+Amazon.com,3,1998,purchases of fixed assets,"28,333",$000,10-K_FY1999 L2852,2000-03-23,FACT,High,,
+Amazon.com,3,1999,purchases of fixed assets,"287,055",$000,10-K_FY1999 L2852,2000-03-23,FACT,High,,"1999/1998 = 287,055/28,333 = 10.13x; 1999/(1997+1998) = 287,055/35,936 = 7.99x"
+Amazon.com,3,1997,depreciation and amortization,"3,442",$000,10-K_FY1999 L2820,2000-03-23,FACT,High,,FY1997 10-K own printing 3388 (U.D1)
+Amazon.com,3,1998,depreciation and amortization,"9,421",$000,10-K_FY1999 L2820,2000-03-23,FACT,High,,FY1998 10-K own printing 9692 (U.D1)
+Amazon.com,3,1999,depreciation and amortization,"36,806",$000,10-K_FY1999 L2820,2000-03-23,FACT,High,,1999/1998 = 36806/9421 = 3.91x
+Amazon.com,3,1999-09-30,depreciation and amortization nine months,"22,935",$000,10-Q_Q3-1999 L314,1999-11-15,FACT,High,,quarterly split derived in notes
+Amazon.com,3,1999-12-31,construction in progress,"83,290",$000,10-K_FY1999 L3491,2000-03-23,FACT,High,,"1998 comparative 1,760"
+Amazon.com,3,1999-12-31,construction in progress share of gross fixed assets,22.7,percent,10-K_FY1999 L3491/L3493,2000-03-23,ESTIMATE/DERIVED,High,"83,290 / 366,977 = 0.2270",a fifth of the estate not yet in service at the count date
+Amazon.com,3,1999-12-31,gross fixed assets,"366,977",$000,10-K_FY1999 L3493,2000-03-23,FACT,High,,1998 43585; growth 366977/43585 = 8.42x
+Amazon.com,3,1999-12-31,capital leased assets,"52,374",$000,10-K_FY1999 L3490,2000-03-23,FACT,High,,1998 442; 52374/442 = 118.5x
+Amazon.com,3,1999,capitalized interest,3.4,$ million,10-K_FY1999 L3500,2000-03-23,FACT,High,,first capitalised-interest figure in the corpus
+Amazon.com,3,1997,fulfillment costs,12.1,$ million,10-K_FY1999 L3102,2000-03-23,FACT,High,,disclosed only in the FY1999 report
+Amazon.com,3,1998,fulfillment costs,50.3,$ million,10-K_FY1999 L3102,2000-03-23,FACT,High,,
+Amazon.com,3,1999,fulfillment costs,188.4,$ million,10-K_FY1999 L3102,2000-03-23,FACT,High,,
+Amazon.com,3,1999,fulfillment cost share of net sales,11.49,percent,"10-K_FY1999 L3102, L1732",2000-03-23,ESTIMATE/DERIVED,High,"188.4 / 1,639.839 = 0.1149",1998: 50.3/609.819 = 8.25%; 1997: 12.1/147.787 = 8.19% — cost per sales dollar ROSE
+Amazon.com,3,1999,fulfillment cost relative to advertising,1.337,ratio,"10-K_FY1999 L3102, L3108",2000-03-23,ESTIMATE/DERIVED,High,188.4 / 140.9 = 1.337,1997 0.571; 1998 0.835 — 1999 is the first year the company spent more running the network than buying demand
+Amazon.com,3,1999-12-31,employees,"7,600",count,10-K_FY1999 L684,2000-03-23,FACT,High,,full-time basis; 1997 614 full-time; 1998 approximately 2100 basis unqualified
+Amazon.com,3,1999,options granted and assumed,"31,739",thousand shares,10-K_FY1999 L3892,2000-03-23,FACT,High,,WAEP $63.602; 1998 39548 at $12.734; 1997 36120 at $1.148
+Amazon.com,3,1999,options granted per year-end employee,"4,176",shares,"10-K_FY1999 L3892, L684",2000-03-23,ESTIMATE/DERIVED,Medium,"31,739,000 / 7,600 = 4,176","1998: 39,548,000/2,100 = 18,833; change -77.9% — proxy only; plans cover all employees"
+Amazon.com,3,1999-12-31,cumulative customer accounts,16.9,million,10-K_FY1999 L1860,2000-03-23,FACT (company-measured),Medium,,1998 6.2M; 1997 1.5M
+Amazon.com,3,1999-12-31,fulfillment cost per cumulative account,11.15,$,"10-K_FY1999 L3102, L1860",2000-03-23,ESTIMATE/DERIVED,Medium,$188.4m / 16.9m accounts = $11.15,1998: $50.3m/6.2m = $8.11 (+37%)
+Amazon.com,3,1997,technology spend (product development),"12,485 / 13,916 / 13,384",$000,10-K_FY1997 L1183; 10-K_FY1998 L1228; 10-K_FY1999 L1738,1998-03-30 · 1999-03-05 · 2000-03-23,FACT,High,,three printings of the same year under two captions (U.D6); do not use as a single value

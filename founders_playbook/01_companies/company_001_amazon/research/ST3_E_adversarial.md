@@ -31,10 +31,12 @@ Low (conflicting/vague/retrospective-only) · UNKNOWN.
 ## Working method and budgets
 
 **Method.** Local mining only against `founders_playbook/01_companies/company_001_amazon/sources/`
-(97 files: 2 × 10-K, 8 × 10-Q, 24 × 8-K + 1 × 8-K/A, 2 × ARS, 2 × DEF 14A + 2 × PRE 14A, 13 × S-1 lineage,
-6 × S-3, 4 × S-4 lineage, 9 × S-8, 3 × POS AM, 2 × SC 13G, 1 × 8-A12G, 3 × 424B, plus the Stage-1/2 web
-artifacts and the intake manifest). Every attack is run by reading the named line of the named file, and
-every recomputation uses only figures printed in that corpus, with the arithmetic shown.
+(**99 directory entries**, of which 90 are `.txt` filings and artifacts: 4 × 10-K family including the
+**FY1999 10-K and 10-K/A that arrived at 19:55, after every other Stage-3 dossier closed**, 8 × 10-Q,
+25 × Form 8-K + 1 × 8-K/A, 2 × ARS, 2 × DEF 14A + 2 × PRE 14A, 13 × S-1 lineage, 6 × S-3, 4 × S-4 lineage,
+9 × S-8, 3 × POS AM + 1 POS AMI, 2 × SC 13G, 1 × 8-A12G, 3 × 424B, plus the Stage-1/2 web artifacts, the
+HistoryLink essay and the intake manifest). Every attack is run by reading the named line of the named file,
+and every recomputation uses only figures printed in that corpus, with the arithmetic shown.
 Method §14 rule 8 was applied before writing any inherited figure: each number taken from ST3_A or ST3_C
 was re-grepped against `sources/` here, and where it did not print, it is reported as such below rather
 than repeated. Counts in **my own brief** were checked the same way and two of them are wrong; see
@@ -261,7 +263,8 @@ corpus is therefore **99 files, not 97** — and the "zero occurrences across 97
 by ST3_C (OC-1) and by my own brief were computed over a set that has since grown by two of the most
 informative documents in the whole saga.
 **What they settle or partly settle, on their face (all Tier 1, audited, same registrant lineage):**
-1,035-line FY1999 Item 1, Note 14 segment data, the consolidated statements, and the exhibit index (attacked
+Item 1's launch-date table and segment discussion, Note 14's segment data, the consolidated statements, and
+the exhibit index (attacked
 individually below). The consequences recorded in this file: ST3E-12 (marketplace scale now quantified),
 ST3E-13 (seller-side counts exist), ST3E-14 (the launch-date table conflicts with the Q3 1999 10-Q),
 ST3E-15/16 (the acquisitions ledger, priced), ST3E-17 (a fourth headcount date and a third basis),
@@ -332,7 +335,8 @@ document in the corpus that dates a launch list exhaustively — a Stage-3 asset
 | Bookpages (UK), Telebook (DE, via ABC Bücherdienst), Internet Movie Database | 8-K acc. …000694 event 1998-04-17/24, Item 9 Reg S: "540,066 shares"; 10-Q Q2-1998 Note "Acquisitions" L478-492 | "aggregate purchase price of the three acquisitions, plus related charges, was approximately **$55 million**" (FY1999 10-K L3321-3326) | "common stock **and cash**"; "an aggregate of approximately **6.4 million shares**" (same) — post-split vintage of the S-3's resale registration |
 | Junglee Corp. | 8-K acc. …001352/001210 (merger plan EX-2.1); S-3 333-65091 | purchase method, "**approximately $180 million**", substantially all to goodwill/intangibles, ~3-year life (FY1999 10-K L3330-3337) | ~1.6m shares at announcement (Q2-1998 10-Q L787-800) = ~9.4m post-split — "approximately **9.4 million shares** … and assumed all outstanding options and warrants" |
 | PlanetAll (Sage Enterprises, Inc., MA) | 8-K acc. …001370; EX-2.2 | **pooling of interests — no purchase price at all** (FY1998 10-K; 8-K 1998-10-28 L278-288) | ~0.8m shares pre-split |
-| Exchange.com (InnerLint; Bibliofind, MusicFile), Accept.com (ADC Acquisitions), Alexa Internet (AI Acquisition), LiveBid (e-Niche) | four 8-Ks 1999-04-26 → 1999-06-11 + four S-8s within 24h of each closing; Q1-1999 10-Q Note 7 "approximately $645 million, mostly in … common stock" | Alexa alone: "**approximately $250 million purchase price**", "4,369,884 shares", "substantially all … allocated to goodwill and other purchased intangibles", amortised over "**lives averaging approximately three years**" (FY1999 10-K L3277-3287) | see ST3E-16 for the aggregate |
+| Exchange.com (**e-Niche Incorporated**; operates Bibliofind, MusicFile), Accept.com (via ADC Acquisitions,
+Inc.), Alexa Internet (via AI Acquisition, Inc.), LiveBid.com (agreed 1999-04-12) | four 8-Ks 1999-04-26 → 1999-06-11 + four S-8s within 24h of each closing; Q1-1999 10-Q Note 7 "approximately $645 million, mostly in … common stock" | Alexa alone: "**approximately $250 million purchase price**", "4,369,884 shares", "substantially all … allocated to goodwill and other purchased intangibles", amortised over "**lives averaging approximately three years**" (FY1999 10-K L3277-3287) | see ST3E-16 for the aggregate |
 | **Tool Crib (home-improvement catalogue/online assets)** and **Back to Basics (toy catalogue retailer)** | **no 8-K in the corpus**; disclosed only in the FY1999 10-K: completed **1999-10-01** and **1999-11-08** | "approximately **$112 million aggregate purchase price**, of which approximately **$105 million** was allocated to goodwill and other purchased intangibles", ~4-year lives | "a total of **1,514,612 shares**" (L3289-3299) |
 | "additional immaterial acquisitions during 1999" | none filed | "totaling **$44.1 million**" | "**200,370 shares**" (L3297-3300) |
 | sothebys.amazon.com | FY1999 10-K L341-347, L284: launched **November 1999**; no 8-K; legal-entity form unclear in this corpus | UNKNOWN | UNKNOWN |
@@ -426,6 +430,18 @@ caught it (ST3A-47, ST3C-20/21). No new damage available; the *attribution* of t
 **ST3E-F8 — "The 6.2 million / 16.9 million account series is contradicted somewhere."** Failed. Nothing on
 disk contradicts it; it is cumulative, self-defined and unchanged in definition except at the "inclusive of
 Auctions" point. The attack yields a provenance downgrade (ST3E-28), not a conflict.
+
+**ST3E-F9 — "The dossiers' negative claims are unreliable because they searched a stale corpus."** Failed on
+test. The load-bearing negatives were re-run over **99** files here and held as re-verified absences:
+`gross merchandise`/GMV (0 hits), any Associates commission rate or expense (0), and the marketplace-contract
+readings. The corpus growth changes one thing — the two FY1999 documents — and ST3E-11/13/14/15/19/23/24/25/26
+are precisely the places where a "the record does not show X" sentence met a document that shows it. Every
+other null is now safer than before, because it has been searched twice.
+
+**ST3E-F10 — Stage 2's retractions are not re-litigated, and none is restored here.** The `$871,000` /
+`$976,408` leg, the `2,613,000` share base, the wrongly-attributed founding town and the auditor's own
+fabricated number were withdrawn in earlier passes; nothing in Stage 3's documents, including the
+two new FY1999 filings, re-imports them.
 
 ## Unsourced or folklore claims
 
@@ -567,7 +583,7 @@ So the claim is arithmetic on a filed quarterly figure, and the basis — the fo
 printed. The ARS sentence ("exited 1998 with a $1 billion revenue run rate") is the *unsourced-in-context*
 version of a *sourced* release. Stage 3 must not record it as an unstated-basis boast.
 **Finding (b) — what the basis makes it worth.** Fourth quarter is the company's own declared seasonal peak:
-FY1999 10-K L2004-2010, "Internet usage generally declines during the summer. Sales in the traditional
+FY1999 10-K L598-601 (Item 1 "SEASONALITY"), repeated in MD&A at L840-843, "Internet usage generally declines during the summer. Sales in the traditional
 retail book, music, DVD/video, toy, electronics and home improvement industries usually increase
 significantly in the fourth calendar quarter". Annualising the peak quarter is a *maximal* basis. The same
 corpus supplies the check: Q1 1999 net sales $293,643k (10-Q Q2 1999 six-month $608,019k − Q2 $314,377k),
@@ -1317,10 +1333,11 @@ figures the dossiers held apart, and one (ST3E-18) reports against the dossier's
 company claim was better-labelled than Stage 3 supposed. That is the trade this role is paid for: a review
 that only finds faults in one direction is a review with a thesis, and a thesis is not an audit.
 
-**Length and file geometry.** This file overshot the 6,000-11,000-word target and now runs ~18,000 words at
-~120 KB. §9.6 forbids trimming evidence to fit, so nothing has been cut to flatter the target; the merge
+**Length and file geometry.** This file overshot the 6,000-11,000-word target and now runs **21,044 words at
+~136 KB**. §9.6 forbids trimming evidence to fit, so nothing has been cut to flatter the target; the merge
 should split at a section boundary per §9.3 (natural cuts: before `## Boundary challenge`, before
-`## Sources consulted`), keeping record numbers continuous across parts.
+`## Sources consulted`), keeping record numbers continuous across parts. This pass's own failure mode was
+record-accumulation between writes, twice (the drafting markers retired at ST3E-17/ST3E-28 are that record).
 
 ---
 
