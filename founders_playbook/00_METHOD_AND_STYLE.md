@@ -319,6 +319,19 @@ assigned follow-up is an open research-debt violation, not a finished section.
 **Per-company file set:** `stage_1.md` (+ parts), `stage_2.md`, `stage_3.md`, `final_report.md`,
 `adversarial_review.md`, `context_appendices.md`, the seven CSVs above, `_MANIFEST.md`.
 
+**Register vocabulary, fixed 2026-09-25 (RD-048/RD-075).** The `stage` column in every per-company register is
+one of exactly four literals: **`stage1` · `stage2` · `stage2-consequence` · `stage3`** (extend the series for
+later stages; `stage2-consequence` is a Stage-2 fact usable only as a consequence of that stage, and is a real
+state, not a typo for `stage2`). Numeric values (`1`/`2`/`3`) are **not** permitted: two files used them and five
+used the `stageN` form, so a stage filter silently dropped rows. Where a legacy register still carries numeric
+stage values, normalise on touch rather than in a separate sweep, and record the count in the company manifest.
+
+`source_id` blocks are assigned **centrally at merge, never per dossier**. Dossiers may use local ids inside
+their own text (`S2A-53`, `U.201`, `BSS-04`) and must treat them as dossier-local; the register is the only
+place global uniqueness lives. Applying two dossiers' `S3001…` blocks in sequence into one file produced 22
+ids each naming three different documents, which is why the mapping is now explicit in
+`03_quality_control/` before any append.
+
 ## 14. Retrieval discipline (learned from wave-1 failures)
 
 Two of eight wave-1 agents exhausted their budget on retrieval and ended having written
