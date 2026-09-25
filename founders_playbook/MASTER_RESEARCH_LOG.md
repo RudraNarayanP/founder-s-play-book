@@ -550,6 +550,10 @@ re-using those ids) is handed to the orchestrator unsolved.**
 | RD-045 | Walmart | periodical families | **Periodicals are UNANSWERED, not null**: Google Books 429, HathiTrust TLS/0, Chronicling America 403; and the harvest searched the town "Newport, Missouri" instead of the brand | The depth verdict cannot leave exemplar-gated provisional on one lineage with zero independent contemporaneous witness | Chain Store Age chain directories 1964–70 via an unthrottled route (the nightly GitHub Actions runner is the intended first real attempt) | OPEN |
 | RD-046 | Apple | `A_chronology_feasibility.md` | **Thirteen outbound corrections from A2 are unapplied**, incl. AP-14 (date + store name), AP-17 (full price ladder), AP-26 (a false "zero occurrences") and the probe's own provenance headers contaminating greps of its cached files | A superseded probe still on disk invites a later pass to re-import its errors | `A2_periodical_archive_mine.md` §Outbound corrections C-1…C-13 | OPEN — supersession footers, not rewrites |
 
+| RD-047 | Amazon | Stage 2 narrative vs dossiers | **Fifteen named disagreements surfaced by the claim registrar are unadjudicated** — incl. S2C-17's irreproducible 1.4×, S2C-52's non-coterminous B&N pairing quoted in §M.9, S2C-28's scope exceeding its documents (no FY1996 annual report exists), MatchMaker in three states, the four-way boundary split, and `sources.csv` S0806 describing an "FY1996 annual report" that does not exist | Registers and narrative currently assert different things about the same evidence; S0806 is a phantom source row | `stage_2_claim_records.md` coverage note + §U.44–U.111; route through the Stage-2 numbers and citation audits rather than a fresh opinion | OPEN — Stage-2 audits |
+| RD-048 | Method | registers | **Stage vocabulary in the registers is uncontrolled** — `stage1`, `stage2`, `stage2-consequence` all parse, and §13 never fixed the enumeration | A per-stage query silently under-counts; an audit keyed to "stage 2" sees 82 rows, not 99 | Decide one convention (suggest `stage1 / stage2 / stage2-consequence` as three real states, documented in §13), then sweep all companies' registers before more of them exist | OPEN — cheap, gets expensive per company added |
+| RD-049 | Amazon | `stage_2_claim_records.md` | **One known missing record: the 1997-04-18 authorised-capital increase (10,000,000 / 100,000,000)**, plus §D.0 verdict rows and 8 of §K.9's fourteen UNKNOWNs without their own records | Self-declared by the registrar; a gap someone named is a task, a gap nobody named is a defect | Append on the Stage-2 repair pass from S-1/A No. 1–2 (now on disk) | OPEN |
+
 ### Archive route discovered mid-run — the EDGAR floor is not the last word
 
 The Walmart probe concluded that pre-1994 origins cannot carry exemplar depth, because EDGAR starts
@@ -654,6 +658,54 @@ confirming the detector caught it** — the strongest verification step taken so
 chasing stale copies that survived outside that agent's write scope (known survivors: `stage_1.md`
 §S and §U.8, `data_gaps.csv` r11, `context_appendices.md` ~l.596, `_parts/NUMBER_DEFECTS.md` r43), and
 **both audit gates still need their independent re-verification — a repair is not a pass.**
+
+### 2026-09-25 (midday): the fabrication catch, Stage 2's appendix, and a third audit refused
+
+**An invented FY1996 money set was caught before it became history.** The Stage-2 quantitative assembler
+found that figures it had inherited — cost of sales `12,284`, gross profit `3,462`, marketing `4,322`,
+product development `850`, G&A `1,326`, loss `(3,036)`, LPS `(0.18)`, inventory `2,398`, accounts payable
+`3,268`, total assets `8,839`, equity `5,804` — occur **zero times across all five SEC accessions on
+disk**, foot only against each other, and break three filed identities (the real triple sums to the filed
+operating-expense total of 9,438; the real assets/equity pair satisfies the balance-sheet identity; the
+received LPS cannot be produced from any filed share count). They also looked entirely plausible, and one of
+them (`850`) is a real number elsewhere in the corpus, which is how a contaminated figure survives a
+reviewer. Resolution: every row ID preserved, each value reset to the filed figure with the superseded
+value printed inside the same cell as a retraction, and **U.60** opened. I then verified independently that
+all 193 `quantitative.csv` rows and all 111 `conflicts.csv` rows carry the received set **only** inside
+retraction or conflict language. Codified as **method §14.8**: grep an inherited figure against the local
+corpus before writing it, because a plausible number with a citation is unchecked until the cited line has
+been read.
+
+**Stage 2 appendix built:** `stage_2_claim_records.md` 408 records / 56,673 w plus
+`stage_2_claim_records_part_2.md` 68 §U records / 25,922 w — **476 records / 82,595 w**, split at the §U
+boundary (§9.3), IDs continuing Stage 1's sequence, ~180 records carrying
+`Corroboration: 1 (same lineage as the registration statement, File 333-23795)`, 60 carrying 2–4 only where an
+independent witness exists. Its own named shortfalls are recorded in its coverage note (§P covered by class
+not by row; §K.9's fourteen UNKNOWNs consolidated; a **missing record for the 1997-04-18 authorised-capital
+increase**) — that note is the reason the appendix is citable.
+
+**Two audits, both adverse, both on schedule.** Stage 2's chronology audit returned **CONDITIONAL FAIL**
+with three defects of the classes this project fears most: an **invented date** (`1996-04-26 · A Section 4(2)
+window closes`, present in no dossier, filing or Stage-1 record, and contradicted by its own row range), a
+**date attributed to a Tier-1 instrument that lacks it** ("Associates Program opened in July 1996 *per the
+filings*", ruled UNKNOWN by §D.1, §I, §M5, §S and S2A-G5), and **one genuine firewall breach** (Gift
+Center, a November 1997 feature, listed in §R among "In-window additions, each dated"). It also confirmed the
+boundary itself is sound: all five IPO-week dates verified in both filing bodies and EDGAR headers, with no
+merging of pricing and effectiveness. Stage 1's third repair pass then closed AUDIT 7's two blockers by
+**sweeping the class rather than the list** — 174 occurrences of the retracted share-count family classified
+by retraction window, 4 live before and **0 after**, nothing substituted but UNKNOWN — and self-reported its
+own side effect (a census note containing the literal `Claim:` pattern would have made a *wrong* manifest
+count look right). Final certification is running as a fourth, separate pass, and is being asked a question
+no earlier pass asked: what defect class did all three auditors share, and therefore never check?
+
+**Off-machine, two updates.** (1) The harvester fix is dispatched on the evidence that the three failing
+hosts fail identically from GitHub's egress. (2) **Stage 3's source problem is solved**: `sources/` now
+holds 84 text files / ~2.03M words, reaching FY1998–FY1999 — the FY1998 `10-K`, nine 10-Qs, the 1998 and
+1999 proxies, the S-4 registration lineage for the **first two acquisitions**, ~30 8-Ks, the S-8 equity
+plans, the remaining S-1/A amendments, the 1997/1998 annual reports to shareholders, and **two SC 13G
+filings naming the founder's family as beneficial holders** — which is the first registry-grade, company-
+independent evidence about the founding money's later position. Stage-3 dossiers wait on the intake
+manifest so no agent mistakes "not yet downloaded" for "does not exist".
 
 ### The scheduled runner fired — and disproved the diagnosis the whole periodical gap rested on
 

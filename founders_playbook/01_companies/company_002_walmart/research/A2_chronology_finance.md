@@ -1228,13 +1228,14 @@ marked on A3's say-so alone.
 PROVISIONAL; §14 rule 6 unsatisfied). It supersedes no A2 record — no marker applied, and this pass did not
 touch the master log (owned elsewhere).
 
-**Records now carrying markers (23):** Table 1 heading note; fiscal-basis preamble note; Table 1 rows — Net
-sales FY1974, FY1975, FY1977, FY1978, FY1979; Income-before-taxes FY1974-76 and FY1977-80; Net income
-as-published FY1974-76, restated FY1971-78, FY1979-80; EPS; Dividends; Stock price; Stockholders' equity;
-Total assets; gaps paragraph; Boundary-proposal START row; Pre-1962 ledger Company-age row; W-27, W-45, W-68,
-W-69, W-91, W-94, W-95, W-107, W-109, W-126, W-129; Narrative §T; Ownership auditor row; Evidence-family 3b
-row and the lead-summary line; Timeline rows 1972-08-25 and FY1974/FY1975; Data gaps interior-reports and
-restated-earnings rows.
+**Records now carrying markers (39 marker sites):** 11 W-records — W-27, W-45, W-68, W-69, W-91, W-94, W-95,
+W-107, W-109, W-126, W-129 (each an appended blockquote; record text untouched); Table 1 — heading note,
+fiscal-basis preamble note, and 15 rows (Net sales FY1974, FY1975, FY1977, FY1978, FY1979;
+Income-before-taxes FY1974-76 and FY1977-80; Net income as-published FY1974-76, restated FY1971-78,
+FY1979-80; EPS; Dividends; Stock price; Stockholders' equity; Total assets); the gaps paragraph; the
+Boundary-proposal START row; the Pre-1962 ledger Company-age row; Narrative §T; the Ownership auditor row;
+Timeline rows 1972-08-25 and FY1974/FY1975; Data-gaps interior-reports and restated-earnings rows; the
+Evidence-family 3b row and the lead-summary line.
 
 **Residuals noticed while verifying, OUT OF the thirteen corrections' authority — recorded here, no supersession
 applied:** (i) W-98's phrase "doubled (Aug 1973 split implied)" matches no split disclosed in any report on

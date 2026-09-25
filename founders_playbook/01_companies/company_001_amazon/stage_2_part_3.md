@@ -32,7 +32,10 @@ sits at the earliest candidate and the dispute is carried in-cell, never merged 
 periods, not days, by convention: the `1996-Qn` rows are the filed quarterly tables, whose register twin is keyed to
 the quarter-END date (e.g. §Q `1997-Q1` ↔ `timeline.csv` `1997-03-31 BOUNDARY STATE`), and a `1996-12`-style key
 means the filing itself goes no finer than the month.** A §Q row and a register row may therefore carry different
-labels for one datum without carrying different dates. **`(PB)` = post-boundary; `(L)` = same registration lineage
+labels for one datum without carrying different dates. **One further ordering rule, printed so that this header and
+its rows cannot diverge: a row whose date cell is a SPAN — a documented absence running forward from a start date —
+does not bind the point-dated rows printed after it, and the `(PB)` block is ordered by the earliest day each row
+names.** **`(PB)` = post-boundary; `(L)` = same registration lineage
 as another cited accession, so it adds no independence.**
 
 | Date | Event | Source | Class | Confidence |

@@ -372,3 +372,15 @@ lost. Three standing rules:
    one register canonical in a collision note at the top of the file, alias the duplicate IDs to it, keep
    the genuine value-adds from the losing pass, and hand the de-duplication to the merge as an explicit
    outbound correction.
+8. **Before writing any inherited figure, grep it against the local corpus.** A number that arrived from an
+   upstream dossier must be searched across every filing and artifact on disk before it is written down; if
+   it appears nowhere, it is not evidence and it becomes a retraction with a conflict entry, not a value.
+   **Success recorded.** The Stage-2 quantitative assembler found that a received FY1996 money set
+   (`12,284 / 3,462 / 4,322 / 850 / 1,326 / (3,036) / (0.18) / 2,398 / 3,268 / 8,839 / 5,804`) occurred **zero
+   times** across all five SEC accessions on disk, footed only against itself, and failed three balance-sheet
+   and cross-foot identities — while looking entirely plausible. It kept every row ID, reset each value to the
+   filed figure, printed the superseded value inside the same cell as a retraction, and opened **U.60**
+   (`### P.2a Corrections taken on this pass` in `_parts/s2_p4.md`). The registers were then verified to carry
+   the received set only inside retraction language. The corollary is the reason §3 exists: a plausible number
+   with a citation is still unchecked until the cited line has been read.
+
