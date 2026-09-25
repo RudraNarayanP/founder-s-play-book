@@ -402,3 +402,14 @@ lost. Three standing rules:
    every agent reads first kept re-importing it, which is why the same defect survived three repair passes.
    An instruction file that a cold reader trusts without checking is the highest-severity place a stale claim
    can live.
+11. **Before a dossier closes, re-enumerate `sources/` and account for anything that arrived during the
+   run.** A long dossier is written against a corpus that is itself growing, and the newest documents are the
+   ones most likely to be missed — they are absent from every note and every brief. **Incident 2026-09-25:**
+   the FY1999 10-K and its amendment were retrieved into `sources/` while four Stage-3 dossiers were working;
+   the operations dossier then found them **uncited by all three sibling dossiers** (string-verified zero hits),
+   and they turned out to carry a third filed headcount date, the named-city distribution estate, the first
+   fulfilment-cost series, and the only incurred operational failure in the window.
+   **How to apply:** at close-out, list files whose retrieval timestamp post-dates the dossier's own start, and
+   for each either cite it or record in `## Data gaps` that it was considered and why it does not bear on a
+   given claim. A late-arriving primary is evidence **for** the pass that reads it, never a reason to re-run
+   the pass that didn't.

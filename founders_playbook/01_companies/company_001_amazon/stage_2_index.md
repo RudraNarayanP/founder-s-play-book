@@ -5,12 +5,15 @@ Nothing is duplicated across volumes and nothing is dropped: the four assembly p
 remain the audit trail of who wrote which section, including the double-dispatch collision of
 2026-09-24 (method §14.7).
 
-| Volume | Sections | Words (pre-repair) | Words (post-repair, 2026-09-25) |
-|---|---|---|---|
-| `stage_2_part_1.md` | Header, STAGE BOUNDARY JUSTIFICATION, §A–§H, + the carried conventions block | 18,360 | 18,560 |
-| `stage_2_part_2.md` | §I–§P (incl. §P.2 derived arithmetic) | 25,346 | 25,409 |
-| `stage_2_part_3.md` | §Q–§U (+ §S.9 carried untried lists) | 37,423 | 39,760 |
-| **Narrative total** | §A–§U | **81,129** | **83,729** |
+| Volume | Sections | Words (pre-repair) | Words (post-repair, 2026-09-25 Audit 1) | Words (post-repair, 2026-09-25 Audit 2 citation) |
+|---|---|---|---|---|
+| `stage_2_part_1.md` | Header, STAGE BOUNDARY JUSTIFICATION, §A–§H, + the carried conventions block | 18,360 | 18,560 | 19,289 |
+| `stage_2_part_2.md` | §I–§P (incl. §P.2 derived arithmetic) | 25,346 | 25,409 | 25,524 |
+| `stage_2_part_3.md` | §Q–§U (+ §S.9 carried untried lists) | 37,423 | 39,760 | 40,385 |
+| **Narrative total** | §A–§U | **81,129** | **83,729** | **85,198** |
+
+*The third column was measured by whitespace tokens on 2026-09-25 after the AUDIT-2 citation repair pass; that
+pass added in-cell correction and retraction notes (DEFECT-1/2/3/5/7/9) and deleted no text, so each volume grew.*
 
 Word counts are whitespace tokens of the file as written. The growth in part_3 is the two §U blocks
 and the §Q re-anchoring added by the Audit-1 chronology repair pass (see Status below); no text was
@@ -31,6 +34,24 @@ with four SEC filing lineages and 70 live conflicts should look like.
 * Claim-record IDs: Stage-2 volume 1 carries **409** lettered records (A01–T40; §Q now Q17–**Q69**) and
   volume 2 carries **70** conflict records (**U.44–U.113**) plus the U.111a addendum — **479** in all.
 
+## Line-reference keying (AUDIT-2 DEFECT-6, declared here once 2026-09-25)
+
+**Every `l.NNNN` / `ll.NNNN–NNNN` / `LNNNN` in the Stage-2 spine is a line of the convention-named, headered
+file `sources/<FORM>_acc-<ACCN>_filed-<DATE>.txt`.** Two accessions also exist as bare-named duplicates without
+the 17-line provenance header (`s1_original_0000891618-97-001309.txt`, `s1_0000891020-97-000839.txt`), and the
+conversion is exact and directional: **`twin line = keyed line − 17`**. Nothing was deleted; the duplicates are
+retained as restoration audit trail. Full table of the four measured probes in
+`research/_EVIDENCE_CACHE.md` (the declaration written by the DEFECT-6 repair, 2026-09-25, and keyed there
+rather than only here so a grepping agent finds it).
+
+**Register visibility of local copies (AUDIT-2 DEFECT-7, 2026-09-25).** Every Stage-2 row of `sources.csv` now
+carries a `local_copy: YES|NO` token in `notes` — **6 YES** (S2001–S2004, S2010, S2011: the file named in
+`archived_url` is on disk, re-verified this pass) and **6 NO** (S2006 the June-1996 release, S2007 Fortune,
+S2008 WIRED, S2009 the B&N 10-K, S2012 the pricing release — five non-SEC witnesses with no byte anywhere — plus
+S2005, a documented null where no such document exists at all). Non-SEC witnesses therefore inherit the same visible
+status the `(PB)` tag gives post-boundary values, and the in-text `(NO LOCAL COPY — unverifiable at the citation)`
+tags point at a register property that actually exists.
+
 ## Registers — Stage 2 rows applied 2026-09-25
 
 The `>>> CSV APPEND BLOCK` sections of `_parts/s2_p4.md` were applied to the nine registers by the
@@ -48,7 +69,7 @@ per-company, not per-stage.
 | failures.csv | 33 | 13 | 46 | uniform (untouched) |
 | decisions.csv | 15 | 10 | 25 | uniform (untouched) |
 | channels.csv | 15 | 8 | 23 | uniform (untouched) |
-| sources.csv | 102 | 11 | 113 | uniform (untouched) |
+| sources.csv | 102 | **12** (S2001–S2012; **S2012 added by the AUDIT-2 DEFECT-3 repair** as the register row for the 1997-05-14 pricing release) | **115** | 18 uniform |
 | data_gaps.csv | 23 | 22 (3 rows annotated, none added) | 45 | 8 uniform |
 
 ## Status of this stage
