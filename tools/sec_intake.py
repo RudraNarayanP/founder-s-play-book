@@ -120,8 +120,14 @@ def submissions_index(cik, max_slices=8):
     rec = j.get("filings", {}).get("recent", {})
     rows.extend(_as_records(rec, "recent"))
     files = j.get("filings", {}).get("files", []) or []
+    if not files:
+        note = "UNANSWERED: submissions JSON listed no archive slices, so pre-`recent` history is untested"
+        rows.append({"accession": "", "form": "", "filingDate": "", "primaryDocument": "",
+                     "source": "(no files[] block)", "status": note})
     for f in files[:max_slices]:
-        url = "https://www.sec.gov/Archives/edgar/data/%s/%s" % (c, f["name"])
+        # Slices live on the JSON API host, NOT under /Archives/edgar/data/<cik>/ --
+        # the Archives form returns 503/404 and made `index` silently stop at 2020.
+        url = "https://data.sec.gov/submissions/%s" % f["name"]
         s2, b2, n2 = http_get(url)
         if b2 is None:
             rows.append({"accession": "", "form": "", "filingDate": "",
