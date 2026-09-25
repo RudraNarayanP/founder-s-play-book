@@ -677,5 +677,276 @@ at `E:\tmp\qoder_audit8\` (`s1_leg.py`, `s1_structural.py`, `s2_citation.py`, `s
 `invariants.py`, `p2_r.py`, `corcount8.py`, `conventions.py`, `cooc.py`, `before_after.py`, `deletion_audit.py`,
 `arity8.py`, `manifest_counts.py`, `census_extra.py`, `before_live.py`); **web requests: 0**.
 
+---
+---
+
+# APPENDED 2026-09-25 (evening) — CERTIFICATION COMPLETED: second certifier, "AUDIT 8b"
+
+**Who I am.** I am the certifier that finished this gate. I did not write §§1–7 above and I have not rewritten
+them: everything from line 1 to line 678 is the first certifier's, attributable to them, and my additions begin
+here. I was briefed to produce the decision, not a re-measurement tour, under a 50-call ceiling; the sheet was
+found with a decision already drafted at line 610, so my job became testing whether that decision survives
+measurements **I** performed, and saying plainly which of its numbers I trust.
+
+**GATE DECISION (mine, and it confirms the one at line 610): SIGN STAGE 1 WITH NAMED RESIDUALS — RD-050 through
+RD-059, of which three carry a must-fix-before-upload condition (RD-053, RD-056, RD-059). No item blocks.**
+**Flip condition, stated as a rule not a mood:** if the caller's certified object includes the repo's *operative
+instruction set* rather than only `company_001_amazon` Stage 1, then **RD-059** (§D) is a fifth live blocker and
+the decision becomes REFUSE until `RESUME_HANDOFF.md:46`/`:60`/`:103` and `MASTER_RESEARCH_LOG.md:655-659` are
+marked. That is the single judgement on which my sign-off is genuinely conditional.
+
+**What I re-measured vs carried forward.**
+
+| Item | Status | My instrument |
+|---|---|---|
+| (a) retracted share-count family, repo-wide + classifier over **all** hits | **RE-MEASURED, repo scope (wider than the first certifier's company-folder scope)** | `E:\tmp\qoder_audit8b\scratch\measure.py`, `blockers.py` |
+| (b) `orig. l.4301–4302` ground truth, citation co-occurrence census | **RE-MEASURED; the filing read by me directly** | `Read` of the cached filing + `blockers.py` |
+| (c) COR-03 supersession visibility | **RE-MEASURED** (and my first run of it was a false clean; §B.3) | `blockers.py` |
+| (d) `_parts/U_CONCORDANCE.md` top-down order | **RE-MEASURED line by line, ll. 1–70** | `blockers.py` §D + `final.py` |
+| Three invariants (parity / arity / §P.2) | **RE-MEASURED, all three** | `fix.py`, `final.py`, `final2.py` |
+| Cold-reader test, five openings | **RE-MEASURED (first 40 lines of all five read by me)** | `fix.py` |
+| Declined items: 431 vs 432, 29 vs 30, 193 vs 111, `stage_1.md:2358`, `U_CONCORDANCE.md:13`, the two older closure sheets' coordinates | **RE-MEASURED, including the six `stage_1.md` pointers the first certifier asserted** | `fix.py`, `qc.py` |
+| The 25-deleted-line overcorrection audit, the pre-repair-blob before/after counts (121 / +53), the fourteen A-B1 filing coordinates, `sources.csv:51/53`, Stage 2's U.44–U.113 block-to-row pairing | **CARRIED FORWARD, not re-derived** — see §H UNTRIED for the commands | first certifier's §1.5, §3.2, §7.3, §7.6 |
+| First certifier's claim that `adversarial_review.md` carries **no** boundary correction | **OVERTURNED by measurement** | §C |
+
+## B. The four AUDIT-7 blocker items, measured at repo scope
+
+**B.1 (a) the retracted family — CLOSED inside the corpus; NOT repo-wide-clean, and the residue is in the
+orchestration layer, not the evidence layer.** My tokens
+`871,000|871,024|976,408|2,613,000|2613000|976408|871000|871024`, over every `.md`/`.csv` in
+`E:\founder's playbook` (`.git` excluded): **583 occurrences / 270 matching lines / 37 files**. Bucketed by zone,
+with my 27-marker ±320-char classifier run over *all* hits, not a sample:
+
+* **Stage-1 corpus** (`company_001_amazon`, Stage-2 paths excluded): **183 occurrences, 180 retraction-framed,
+3 raised**. I read all 3: `quantitative.csv:35` ("…and its denominator 2,613,000 **is neither filed**"),
+`stage_1.md:975` ("`2,613,000` **is reached only by** a further subtraction of Alberg's 150,000" — d25 held at
+UNKNOWN), `stage_1.md:1066` ("AND THIS IS THE ONLY ROUTE BY WHICH `2,613,000` EVER ENTERED THE DOSSIER", closing
+at `:1067-1068` "which is why d8a's composition leg is now **held at UNKNOWN rather than kept**"). All three are
+retractions whose marker sits outside the window: **0 live assertions.**
+* Stage 2 inside the same folder: 109 (102 framed / 7 raised) — out of this gate, RD-054.
+* Outside the corpus (`03_quality_control/`, the two log/handoff files): 291 (249 framed / **42 raised**). 39 of
+those 42 are historical audit prose in superseded QC sheets quoting the defect they were written to find —
+legitimate, and they are what RD-050 covers. **The other 3 are not QC prose: see §D.**
+* Filings, counted by me across **all 93** `.txt` under the company folder (the first certifier's figure was 60
+files in `sources/`; mine is the wider set): `2,613,000`, `2613000`, `871,000`, `976,408` → **0 files each**;
+positive control `3,021,000` → **14 files**.
+* **Census correction to §3.1.** The "retired text left standing, withdrawal appended below" shape occurs at
+**five** corpus sites, not four. The fifth is `_parts/s1_p4.md:490`, where the file's own `SUPERSEDED … do not
+import figures` banner prints, in its limb (b), "the one-third leg is **$871,000** (`2,613,000 ÷ 3`, orig.
+l.4301–4302)" — i.e. a supersession notice that asserts a retracted figure as the corrected one. Its withdrawal
+is seven lines lower at `_parts/s1_p4.md:497-498` ("**Limbs (a) and (b) above are themselves superseded:** the
+one-third leg is neither **$871,024** nor **$871,000** — both were retracted"), so it is **not** live, but any
+sweep that counts "four sites" is short one, and a future pass editing the banner's limb (b) as if it were the
+final word would be editing a retraction.
+
+**B.2 (b) the citation — CLOSED.** I read the line range myself. `sources/S-1_original_acc-0000891618-97-001309_filed-1997-03-24.txt`:
+l.4300 "4. Between December 6, 1995 and May 16, 1996, the registrant issued an" · l.4301 "**aggregate of
+3,021,000 shares of Common Stock to 23 investors** for a" · l.4302 "consideration of approximately **$.3333** per
+share, or an aggregate of **$1,007,000**." — the line carries 3,021,000 / 23 / $.3333 / $1,007,000 and no
+2,613,000, exactly as every addendum now states. Census of the `l.430x` citation band, repo-wide: **93
+occurrences, 38 co-occurring with `2,613,000` within ±320 chars, 35 framed**; the 3 raised are
+`amazon_s1_residual_sweep.md:16` (a superseded QC table), `audit6_stage1_independent_qa.md:383` (a **false
+positive** — the sentence says the line contains "…`3,021,000 / 23 investors / $.3333 / $1,007,000` and **not**
+`2,613,000`") and `audit7_repairs.md:76` (inside a printed grep command). **Zero raised sites in the corpus**,
+and of the in-corpus prints I listed in full, the ones outside the retraction family cite the line for the
+*filed* program figures, which the line carries (`stage_1.md:609`, `:905`, `:915`, `:916`, `:983`, `:1152`,
+`quantitative.csv:30/95/96/97/98/99`, `context_appendices.md:598`, `_parts/NUMBER_DEFECTS.md:15`, `:26`). Where
+the bad pairing survives it survives as quoted-then-withdrawn text (`conflicts.csv:9` "cited to orig.
+l.4301-4302, **which contains only** 3,021,000 / 23 investors / $.3333"; `stage_1.md:1566`;
+`stage_1_claim_records.md:466`; the four/five standing footers of B.1). **One place outside the corpus still
+cites l.4301–4302 as provenance for $871,000 unwithdrawn: §D.**
+
+**B.3 (c) COR-03 — CLOSED, with one qualified cell; and my own instrument lied to me first.** Repo-wide
+`COR-0?3\b`: **151 occurrences — 41 in the Stage-1 corpus, 10 in Stage 2, 100 in the QC/log layer.** My first run
+reported "**0 unframed**" repo-wide; that was produced by a marker list containing the string `COR-`, which every
+match contains. **A false clean, generated in one pass, on the instrument this sheet's own RD-058 warns about** —
+recorded here because RD-058 is a protocol claim and this is its second demonstration. Re-run with a
+supersession-only marker list: corpus **36 framed / 5 raised**, all five read:
+
+| Raised site | What it actually is |
+|---|---|
+| `CORRECTIONS.md:253` "**COR-03's error:** …" | the superseding entry COR-12 speaking; COR-03's own heading is marked at `CORRECTIONS.md:62` "**[SUPERSEDED BY COR-12, 2026-09-23]**", the top-of-file rule at `:13-16` routes "see COR-03", and `:210` routes an internal cross-reference inline |
+| `stage_1_claim_records.md:649` "the 5 records formerly marked COR-03 — L04, P12, …" | history of the re-key, not an instruction |
+| `_parts/s1_p3b_H_addendum.md:131` and `:141` | `:141` closes "…the one limb of the sentence above that **COR-12 leaves standing**. See `CORRECTIONS.md` (COR-03 banner, COR-12)" — routed |
+| `_parts/U_CONCORDANCE.md:59` | the one qualified cell; see B.4 |
+
+Corpus routing is also visible above the fold in both deliverables that print COR-03 in their openings
+(`stage_1.md:18-21`, `stage_1_claim_records.md:26-28`), and `conflicts.csv` U.17's row contains "WITHDRAWN",
+"must not be followed" and "COR-12" (field-level read, `final.py`). **Verdict: superseded visibly at every
+reference in the corpus except the U.17 cell, where visibility is achieved by the file's notice plus a marker
+late in the cell — RD-051.**
+
+**B.4 (d) the concordance's reading order — SATISFIED as a blocker, three stale claims above the notice.** My own
+top-down read of `_parts/U_CONCORDANCE.md:1-70`: `:3-5` purpose ("resolves the numbering only … retires no
+conflict silently") → `:10` "folded in as **U.14–U.42**" (stale) → `:13` "**Final count: 42 canonical conflicts
+(U.1–U.42)**" (false; 43 measured) → `:16-25` **SUPERSESSION NOTICE**, which says "read this before using any
+Adjudication cell below", quotes the offending cell verbatim ("the U.17 cell opened '**COR-03 / COR-11.2
+govern**'"), states "**COR-03 is SUPERSEDED BY COR-12 … that instruction is WITHDRAWN and must not be followed**",
+names the corrected printing (§P42 and §R print "11 employees at 1995-12-31"), nominates `conflicts.csv` U.17 as
+authority, and warns that *any other* cell naming a correction must be checked against `CORRECTIONS.md` → `:27`
+onwards the collision table, `:34` "§U of `stage_1.md` carries **U.1–U.42**" (stale), `:41` table header, `:43`
+first row, **`:59` the U.17 cell**. `U.43` occurs in the file exactly once, `:54`, as a part-local key. So the
+blocker test — *does a top-down reader meet the withdrawn instruction as governing?* — **passes**: no cell
+precedes `:16`. The residual is that the file's own numbering header (`:10`, `:13`, `:34`) is wrong one to three
+lines above the warning, and lines 1–15 contain no COR-03 warning at all (measured). **My in-cell offsets,
+re-measured** (`final.py`): cell = 2,799 chars; "COR-03 / COR-11.2 govern" at char **131**; first "WITHDRAWN" at
+**1049**; "COR-12" at 1171; "must not be followed" at 1460 — **918 characters of travel**, superseding §3.3's
+766/897 (different marker). Still a residual, not a live governing reference, for the reason §3.3 gives.
+
+## C. Cold-reader test — read by me, and one claim in this sheet overturned
+
+First 40 lines of each deliverable, read (not counted):
+
+* `stage_1.md` — **warned in time.** `:5` boundary correct (1994 idea formation → 1995-12-31); `:7` prints the
+  stale "canonical U.1–U.42" and `:9-11` retracts it inside the same paragraph ("U.43 was appended … the
+  concordance file has not been re-cut **and is the residual**"); `:18-21` routes COR-03→COR-12 before any cell;
+  `:39-40` opens the lineage header by admitting "the first statement of it was false".
+* `context_appendices.md` — **warned.** `:1` title correct; `:17-23` is the re-basing notice ("**No retrieved
+  document dates any Amazon-relevant act to 1993**").
+* `CORRECTIONS.md` — **warned.** `:13-16` promises "marked where they stand, not only where they were retired";
+  `:62` proves it for the only superseded entry.
+* `adversarial_review.md` — **misled at `:3`, but NOT uncorrected: this sheet's §Cold-reader test line 445 is
+  false.** `:3` still prints "Stage 1 (**1993** → 1995-12-31)". But the file does carry the correction — `:35`
+  "The stage's 1993 edge is a convention, not a dated fact (R-6)" and `:232-233` "**R-6 The stage's 1993 opening
+  edge has no anchor in this corpus**; the first dated Stage-1 event is 1994-07-05. The boundary is kept by
+  convention and flagged for AUDIT 1." My greps: `1993` at `:3, :35, :212, :232`; the file is **243** lines, not
+  242. So the correct characterisation is a *position* defect (32 lines of travel from header to the row that
+  refutes it, and 229 to the explicit note), not an absence defect — and R-6's own tail is stale, since AUDIT 1
+  did re-base it (`context_appendices.md:17`). RD-056 stands; its evidence for this file is replaced by this line.
+* `stage_1_claim_records.md` — **misled at `:4`, and this is the absence case.** "(**1993** idea formation →
+  1995-12-31; inception 1994-07-05)"; `:15` keys every `Conflicts:` reference to "the canonical register
+  **U.1–U.42**". Across its 670 lines the strings "1994 idea formation" and "1993 edge" occur **0 times** (grep),
+  so nothing in the file re-bases the dating it opens with.
+* `_MANIFEST.md` — **misled**: `:38` "432 claim records", `:42` "111 data rows × 12 cols; `derived_arithmetic`
+  populated on exactly the 30", `:43` "43 data rows × 15 cols" — three false counts inside the first 45 lines of
+  the register a downstream agent reads as the inventory. RD-052.
+
+**Judgement:** a cold reader is misled in line 3–4 of two batch-1 deliverables and in line 13 of the concordance,
+and is told the truth by all three of the files that carry the corrections above the fold. That is a named
+residual, not a blocker: no stored figure, no evidence weight and no conclusion moves.
+
+## D. RD-059 — the one new defect I found, and the reason my sign-off is conditional
+
+Repo-wide scope is what the brief asked for, and the first certifier's sweeps stopped at the company folder. The
+retracted leg therefore survives, **un-retracted, present-indicative, and phrased as an instruction**, in the two
+files that steer the next agent:
+
+* `founders_playbook/RESUME_HANDOFF.md:46` — "**Canonical values, as of this line — use these**, not the strings
+  quoted above: … one-third leg **$871,000** (`2,613,000 ÷ 3`; `$871,024` is a retracted back-solve …);
+  purchaser composition **$976,408** at band level …"; repeated at `:60` ("the '$871,024' plug is deleted and
+  restated as the true third, **$871,000**, with the composition at **$976,408**; D15 closed") and again at `:103`.
+* `founders_playbook/MASTER_RESEARCH_LOG.md:655-659` — "### Number-round status after two repair passes":
+  "the true third **$871,000** (not the back-solved $871,024), composition **$976,408** … all **established from
+  the original S-1 by line** (l.2864, **l.4301–4302**, l.985–988, …)" — i.e. the mis-citation the corpus
+  withdrew on 2026-09-25 is still printed there as the *provenance* of the figure. (The log's `:862` records the
+  AUDIT-6 refusal that the pair "still run live in `context_appendices.md:596` and `:639`" — a state since fixed
+  at `:598`/`:641`, measured by me.)
+
+Why this is a residual and not a fifth blocker: neither file is Stage-1 evidence, neither carries a register row,
+and both are dated before the AUDIT-7 repair that retracted the leg — so they misdescribe the repair rather than
+contaminate the dataset. Why it is the top of my residual list: `RESUME_HANDOFF.md` is the document whose whole
+function is to be obeyed by an agent that has not read anything else, and the value it tells that agent to use is
+the one `stage_1.md:1067-1068` holds at UNKNOWN. By the reasoning this sheet itself applies to RD-054 — "a stale
+false accusation in a register outlives every footer fix" — a stale false *instruction* one level up outlives
+every corpus fix. **Fix condition: mark in place (one dated line per site, `mark not erase`) before the next
+dispatch or any upload.** The flip rule is in the header above.
+
+## E. The three invariants, measured again by me
+
+1. **Parity.** `^\*\*U\.[0-9]+ — ` in `stage_1.md` → **43 blocks, ids 1…43, contiguous, no duplicates**.
+   `conflicts.csv` → **113 data rows**, `stage` field values exactly `{'1','2'}`, **43 rows `stage=1`** with
+   `conflict_id` U.1…U.43 **contiguous**; **set parity both ways, orphans ∅**. Totals I actually see: 43 ↔ 43 in
+   a 113-row file, i.e. 70 stage-2 rows — I did not re-derive their block pairing (Stage 2 is being repaired
+   concurrently; §H). **HOLDS.**
+2. **Arity.** Nine registers, one field-count key each, **0 ragged rows**: `sources 113×18 · quantitative 193×12 ·
+   timeline 116×11 · decisions 25×15 · validation 40×11 · failures 46×11 · channels 23×11 · conflicts 113×15 ·
+   data_gaps 45×8`; **714 data rows**; Stage-1 subsets **102/94/49/15/26/33/12/43/23** — identical to §2's table,
+   independently parsed. `derived_arithmetic`: 78 of 193 rows populated = **50 `DERIVED` + 28 rows whose class is
+   a FACT/ESTIMATE variant, all of them `stage=stage2` at data-row ≥ 118**; within the first 111 data rows exactly
+   **29** are populated and **all 29 are `DERIVED`**; Stage-1 subset **26 DERIVED rows / 26 populated / 0
+   non-DERIVED Stage-1 rows carrying arithmetic**. **HOLDS — and `_MANIFEST.md:42`'s "111 data rows" and "exactly
+   the 30" are both false** (193 rows; 29), which is declined item 2 measured rather than accepted.
+3. **§P.2 recomputed.** Region `stage_1.md:928-1100`, **32** distinct `d`-entry ids. Machine-parsed additive and
+   subtractive equations: **13, of which 11 foot exactly** — `:937` `26+31+30+31+30+31=179` ✓, `:951`
+   `100,020.0576+145,552.8372+49,995=295,567.8948` ✓, `:975` `4,235,244−582,528−847,716−42,000=2,763,000` ✓,
+   `:985`/`:1083` `1+2+20=23` ✓, `:1002` `200+171+35=406` ✓, `:1029` `996+17+14=1,027` ✓, `:1035`
+   `2,500,000−400,000=2,100,000` ✓, `:1057` `3,021,000−2,763,000=258,000` ✓, `:1080`
+   `14,555,244+840,534+504,459=15,900,237` ✓, `:1082` `150,000+60,000+2,811,000=3,021,000` ✓. The two that do not
+   foot are exactly the two expected: **`:1012`** `52−232−52+1,228=+944` (LHS = 996) — the deleted false bridge,
+   quoted inside "The deleted form read", and **`:1050`** a date string parsed as arithmetic (`1995-12-31 = 184`).
+   The replacement filed form is correct where it prints (`stage_1.md:1009-1010`: `−232−52+1,228 = +944` then
+   `52+944 = 996`; same at `_parts/s1_p4.md:109-110`), and the opening-inclusive `= 996,000` at `stage_1.md:890`
+   and `_parts/s1_p4.md:62` is labelled so it cannot be read as the net-increase line. My own false `=`-census:
+   **4 prints of the `= +944` form, 0 live** (`stage_1.md:1012`, `_parts/s1_p4.md:112`, `_parts/s1_p4.md:493`,
+   `quantitative.csv:66`) — reproduces §1.4 from a different regex. **HOLDS.**
+   *Instrument note:* my first two attempts at this returned "5 equations, 4 of them NO" and then "0 equations",
+   both from comma/locale bugs in my own parser, not from the corpus. Recorded because the fix (strip thousands
+   separators before evaluating) is the difference between refusing a gate over an auditor's regex and finishing it.
+4. **Drift during certification (measured).** `HEAD` moved twice while I worked — `4a48648` → `6b80495` →
+   `e2647b2` → **`d6bab7a`** — and `git diff 4a48648..HEAD` for `stage_1.md`, `stage_1_claim_records.md`,
+   `context_appendices.md`, `CORRECTIONS.md`, `adversarial_review.md`, `_MANIFEST.md` and every company CSV is
+   **empty**; worktree modifications are Stage-2/Stage-3 files and `tools/` only. Every line number in both halves
+   of this sheet therefore still resolves.
+
+## F. Declined items — my counts, blocking or residual
+
+| Item | My measurement | Grade |
+|---|---|---|
+| `_MANIFEST.md:38` "432 claim records" | **431** lines contain `Claim:` in `stage_1_claim_records.md` (my count; agrees with §2's 431 = 418 + 13) | **RD-052, residual** |
+| `_MANIFEST.md:42` "exactly the 30" / "111 data rows" | **29** populated in the first 111 data rows, all `DERIVED`; file holds **193** | **RD-052, residual** |
+| `_MANIFEST.md:43` "43 data rows × 15 cols" (`conflicts.csv`) | **113** data rows (43 of them `stage=1`) — same class, not listed by §Declined items | **RD-052, residual** |
+| `stage_1.md:2358` "432 records … reconciled to the canonical **U.1–U.42** spine" | false **twice** in one line: 431 records, and the spine is U.1–U.43 (measured, `stage_1.md` blocks and `conflicts.csv` both 43) | **RD-053, residual — must-fix-before-upload** |
+| `_parts/U_CONCORDANCE.md:13` "Final count: 42" | 43; plus stale `:10` and `:34`; `U.43` only at `:54` | **RD-051, residual** |
+| `amazon_s1_numeric_closure_final.md:17`, `:29`, `:42` | `:17`'s six offered coordinates in `stage_1.md` (ll. 939, 940, 941, 1037, 1488, 1157) contain **none** of the retracted family — checked line by line; they hold d4's $100,020.06 correction, the stub-period note, a U.8 absorb note and a salary-UNKNOWN row. `:42` asserts the deleted bridge "**still prints live** in `_parts/s1_p4.md` ll. 102–103": the form is **not** at 102–103; it prints only at `:112` ("The form removed reads") and `:493` ("it printed the FALSE equation") | **RD-050, residual** — non-blocking: superseded QC records, but their evidence pointers do not resolve, which is the defect they were written to certify |
+| `amazon_s1_causal_lineage_closure.md:37`, `:86` | `:37` tabulates `stage_1.md` at "**4**" demotion sites (ll. 431, 560, 1203, 1280); `:86` certifies "all 31 named sites"; the sheet carries **1** line of supersession-type language in 90 (measured). The actual site count (§Declined items 5: 11) I did **not** re-derive — §H | **RD-050, residual** |
+| Stage-2 sites charging Stage 1 with the closed defect (`_parts/s2_p1.md:6`, `stage_2_part_1.md:23`, `data_gaps.csv:43`) | `context_appendices.md:598` prints "**THE COMPOSITION** …" as a labelled retraction row and `:641` reads "**UNKNOWN**, and this row previously ove[rclaimed]…" — the accusation is stale | **RD-054, routed to the Stage-2 owner** |
+| `adversarial_review.md` refs to U.49/U.50 | its own header `:5-6` declares the local key ("the 46 conflict-register items … U.1–U.50") and R-7 at `:234-236` uses those keys | **RD-055, residual** |
+
+**None of the nine is blocking.** Three of the six AUDIT-7 declines were understated rather than wrong, and I
+have re-labelled them: RD-050 is worse than "asserts overturned closures" (its pointers do not resolve), RD-055
+is better defended than the decline claims (the key is declared at the top), and the concordance residual now
+covers three stale lines rather than one.
+
+## G. Residual list as I certify it
+
+**Blockers: none.** Residuals: **RD-050** (two superseded closure sheets with non-resolving pointers),
+**RD-051** (concordance stale at `:10`/`:13`/`:34` + 918-char in-cell travel at `:59`), **RD-052** (`_MANIFEST.md`
+`:38`/`:42`/`:43`), **RD-053** (`stage_1.md:2358`, false twice — *must-fix-before-upload*), **RD-054** (Stage 2's
+stale accusation, incl. `data_gaps.csv:43` — routed, and its gate should refuse it), **RD-055**
+(`adversarial_review.md` local key), **RD-056** (`adversarial_review.md:3`, `stage_1_claim_records.md:4` and the
+seven working/dossier openings — *must-fix-before-upload* for the two deliverables; evidence corrected at §C),
+**RD-057** (repair log's two false specifics at `audit7_repairs.md:69-70`, `:154`, carried forward from §7.7 — I
+did not re-run the pre-repair blobs), **RD-058** (the ±320-char window classifier is insensitive to the defect it
+certifies — now demonstrated twice more, once by me at §B.3 and once by the 3 + 0 corpus false-clean/false-alarm
+pair at §B.1), and **RD-059 (new)** (§D: `RESUME_HANDOFF.md:46`/`:60`/`:103`,
+`MASTER_RESEARCH_LOG.md:655-659` still instruct adoption of $871,000 / $976,408, with `l.4301–4302` as their
+cited provenance — *must-fix before the next agent dispatch*, and the one item that flips this decision if the
+certified object is repo-wide). AUDIT 6's three off-disk UNTRIED items (U-a §T re-savability, U-b earliest
+amazon.com root capture, U-c Mosaic mirror completeness) carry through unchanged, as the first certifier left
+them: no verdict here depends on them.
+
+## H. UNTRIED, with the command I would run
+
+1. The 11-vs-4 demotion-site count behind RD-050's `causal_lineage_closure.md:37`:
+   `cd "E:/founder's playbook/founders_playbook/01_companies/company_001_amazon" && grep -nE "not a corroboration|version evidence|same registration statement|one instrument|single lineage" stage_1.md | wc -l`
+2. Whether the orchestration layer was ever corrected after the AUDIT-7 repair (RD-059's severity depends on it):
+   `grep -n "AUDIT 7\|AUDIT 8\|retract\|withdraw" "E:/founder's playbook/founders_playbook/RESUME_HANDOFF.md" "E:/founder's playbook/founders_playbook/MASTER_RESEARCH_LOG.md" | tail -30`
+3. The 25-deleted-line overcorrection audit and the "before: 170 / +4" re-derivation (carried forward from §1.5,
+   §7.6, §7.7 — I trusted them): `git -C "E:/founder's playbook" show --numstat 4a48648` and
+   `git show 4a48648^:founders_playbook/01_companies/company_001_amazon/_parts/s1_p1.md`.
+4. The fourteen filing coordinates in the A-B1 block and the `sources.csv:51/53` field content (carried forward
+   from §3.2, §7.3): `sed -n '49p;50p;79p;5091p;5112p' sources/S-1A-No3_*.txt`.
+5. Stage 2's own U.44–U.113 block-to-row parity — deliberately not measured: its repairs are running concurrently
+   and 4 Stage-2 files plus 2 part-3s are modified in the worktree at `d6bab7a`.
+
+## I. Completing certifier's attestation
+
+One file modified, by append only: this sheet, from "# APPENDED 2026-09-25 (evening)" onward. No file created,
+moved or deleted inside the repo; the audited corpus untouched; `git` used read-only (`rev-parse`, `status`,
+`diff`, `log`). Scratch outside the repo, isolated from the first certifier's directory:
+`E:\tmp\qoder_audit8b\scratch\` (`measure.py`, `blockers.py`, `inv.py`, `fix.py`, `final.py`, `final2.py`,
+`qc.py`). **Web requests: 0.** Turn budget: 26 of 50 tool calls used; two of my own instruments produced false
+results before they produced true ones (§B.3, §E.3) and both are disclosed above rather than quietly dropped.
+
 
 

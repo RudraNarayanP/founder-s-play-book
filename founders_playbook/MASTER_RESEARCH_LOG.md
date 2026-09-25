@@ -558,6 +558,8 @@ re-using those ids) is handed to the orchestrator unsolved.**
 | RD-052 | Method | orchestration | **Agent briefs carried no turn budget**, so three agents died at their ceiling having done the work and not the finishing | Each loss cost a re-dispatch and risked a double-write; the failures were invisible until the notification arrived | Every brief now states a tool-call budget and "mark the rest UNTRIED rather than running out"; retry briefs point at the partial artefact | CLOSED as practice — verify it holds this wave |
 | RD-053 | Corpus-wide | depth verdicts | **Every UNANSWERED periodical verdict older than 2026-09-25 predates the working Google Books and HathiTrust routes** | A depth tier capped by a broken request is a false null, and §14.6's four-family rule turns on exactly that evidence | Re-run the periodical probes for Walmart, Apple and UnitedHealth through the fixed routes; Chronicling America stays genuinely blocked (canaries prove it) | OPEN — first real attempt is the nightly runner with the corrected code |
 
+| RD-059 | Method + instruction layer | `RESUME_HANDOFF.md`, this log | **A retracted value survived three corpus repair passes because the handoff file still instructed agents to use it as canonical** — `$871,000` and `$976,408` resting on an unfiled `2,613,000`, cited to original-S-1 l.4301–4302 which prints `3,021,000 / 23 / $.3333 / $1,007,000` | The instruction layer is read before the corpus and trusted without checking; a stale claim there re-imports into every subsequent agent | **CLOSED 2026-09-25** — withdrawal banner added to `RESUME_HANDOFF.md` above the affected passages, in-line WITHDRAWN markers at all three sites, a matching banner on this log's number-round section, and the rule generalised as method §14.10 | CLOSED as to Stage 1; **OPEN as a habit** — verify at every future retraction that the instruction layer was swept in the same pass |
+
 ### Archive route discovered mid-run — the EDGAR floor is not the last word
 
 The Walmart probe concluded that pre-1994 origins cannot carry exemplar depth, because EDGAR starts
@@ -653,6 +655,14 @@ sentence and an empty file should be treated as **partially succeeded**: keep th
 write-up.
 
 ### Number-round status after two repair passes
+
+> **WITHDRAWN 2026-09-25 (RD-059, AUDIT 8).** The four values listed below as established include
+> **$871,000** and the **$976,408** composition, both of which rest on an unfiled `2,613,000` denominator
+> occurring in no local filing, and both retracted by the Stage-1 repair passes to **UNKNOWN**. The line
+> citation given for them (original S-1 l.4301–4302) prints `3,021,000 / 23 / $.3333 / $1,007,000`.
+> **Still established and safe:** +94.1%, 43% (original) vs 41% (No. 5) as versions. Text retained verbatim
+> below because it is the audit trail of a claim this log itself made and lost.
+
 
 +94.1% (not +95.2%), the true third **$871,000** (not the back-solved $871,024), composition
 **$976,408**, and **43% original / 41% S-1/A No. 5** as a version discrepancy — all established from

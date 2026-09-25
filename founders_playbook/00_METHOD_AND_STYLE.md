@@ -393,4 +393,12 @@ lost. Three standing rules:
    into `company_003_unitedhealth/sources/`, with a provenance note; the dossier's own hand-off section is
    what made recovery possible. Agent briefs must name the destination path for every artifact, and an
    agent that reports "retrieved" without naming where the bytes live has not retrieved anything.
-
+10. **A retraction is not finished until it reaches the instruction layer.** When a value or date is
+   withdrawn, the same pass must sweep the files that *tell agents what to believe* — `RESUME_HANDOFF.md`,
+   this log's status sections, a company's `_MANIFEST.md` and `CORRECTIONS.md` headers — not only the corpus
+   where the value appears. **Incident 2026-09-25:** AUDIT 8 signed Stage 1 only to find the retracted
+   `$871,000` / `$976,408` leg still written into the handoff as a *canonical value to use*, with a citation
+   to a line that prints something else. The corpus had been corrected around it three times while the file
+   every agent reads first kept re-importing it, which is why the same defect survived three repair passes.
+   An instruction file that a cold reader trusts without checking is the highest-severity place a stale claim
+   can live.
