@@ -1,0 +1,729 @@
+{
+ "founders_playbook/01_companies/company_002_walmart/_parts/s1_p1.md": {
+  "agent": "walmart-s1-p1",
+  "claimed": "2026-09-25T19:07:44Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T19:24:06Z",
+  "sections": [
+   "A.1|A.2|B.0|B.1|B.2|B.1a|C.0|C.1|D.1|D.2|D.3|D.4"
+  ],
+  "ttl": 150,
+  "words": 11253
+ },
+ "founders_playbook/01_companies/company_002_walmart/_parts/s1_p2.md": {
+  "agent": "walmart-s1-p2",
+  "claimed": "2026-09-25T19:18:51Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T19:42:48Z",
+  "sections": [
+   "E",
+   "F",
+   "G",
+   "H",
+   "I",
+   "J",
+   "K",
+   "L"
+  ],
+  "ttl": 150,
+  "words": 22759
+ },
+ "founders_playbook/01_companies/company_002_walmart/_parts/s1_p3.md": {
+  "agent": "walmart-s1-p3",
+  "claimed": "2026-09-25T19:36:02Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T19:59:21Z",
+  "sections": [
+   "M",
+   "N",
+   "O",
+   "P",
+   "Q",
+   "R",
+   "S",
+   "T",
+   "U anchors",
+   "Untried routes"
+  ],
+  "ttl": 150,
+  "words": 30635
+ },
+ "founders_playbook/01_companies/company_002_walmart/research/A6_held_corpus_mine.md": {
+  "agent": "walmart-held-mine",
+  "claimed": "2026-09-25T19:28:23Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T19:45:33Z",
+  "sections": [
+   "Holdings census",
+   "Pre-1972 name evidence",
+   "Annual-report retrospectives",
+   "Periodical JSONs",
+   "A4 Kentucky-Arkansas question",
+   "A5 re-test",
+   "Records for merge",
+   "Nulls and UNTRIED"
+  ],
+  "ttl": 120,
+  "words": 9229
+ },
+ "founders_playbook/01_companies/company_004_apple/_parts/s1_p1.md": {
+  "agent": "apple-s1-p1",
+  "claimed": "2026-09-25T19:07:25Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T19:21:05Z",
+  "sections": [
+   "STAGE BOUNDARY JUSTIFICATION|A. EXECUTIVE STATE SUMMARY|B. FOUNDER / COMPANY STATE|C. ORIGINAL PROBLEM|D. FIRST EXPERIMENT"
+  ],
+  "ttl": 150,
+  "words": 16885
+ },
+ "founders_playbook/01_companies/company_004_apple/_parts/s1_p2.md": {
+  "agent": "apple-s1-p2",
+  "claimed": "2026-09-25T19:18:28Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T19:32:49Z",
+  "sections": [
+   "E",
+   "F",
+   "G",
+   "H",
+   "I",
+   "J",
+   "K",
+   "L"
+  ],
+  "ttl": 150,
+  "words": 17024
+ },
+ "founders_playbook/01_companies/company_004_apple/_parts/s1_p3.md": {
+  "agent": "apple-s1-p3",
+  "claimed": "2026-09-25T19:36:22Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T20:01:46Z",
+  "sections": [
+   "M",
+   "N",
+   "O",
+   "P",
+   "Q",
+   "R",
+   "S",
+   "T",
+   "U anchors",
+   "Untried routes"
+  ],
+  "ttl": 150,
+  "words": 30835
+ },
+ "founders_playbook/01_companies/company_005_alphabet/research/A2_periodical_settlement.md": {
+  "agent": "periodicals-alphabet",
+  "claimed": "2026-09-25T19:51:31Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T20:04:34Z",
+  "sections": [
+   "Route used",
+   "Held-bytes census",
+   "1998-2004 corroboration question",
+   "Verdict on family c",
+   "queries.json additions",
+   "Companies with no task",
+   "Nulls vs UNANSWERED",
+   "Untried"
+  ],
+  "ttl": 120,
+  "words": 2131
+ },
+ "founders_playbook/01_companies/company_005_alphabet/research/A_chronology_feasibility.md": {
+  "agent": "probe-alphabet",
+  "claimed": "2026-09-25T19:18:46Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T19:50:04Z",
+  "sections": [
+   "Verdict",
+   "Entity question",
+   "Family a filings",
+   "Family b web",
+   "Family c periodicals",
+   "Family d corporate print",
+   "Family e documentary",
+   "Registrations and trademarks",
+   "Boundaries",
+   "Conflicts",
+   "Nulls",
+   "Untried"
+  ],
+  "ttl": 90,
+  "words": 6066
+ },
+ "founders_playbook/01_companies/company_011_microsoft/research/A2_periodical_and_filings_settlement.md": {
+  "agent": "microsoft-reprobe",
+  "claimed": "2026-09-25T19:28:45Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T19:38:47Z",
+  "sections": [
+   "EDGAR floor re-set",
+   "Family c periodicals",
+   "Family d corporate print",
+   "Tier verdict",
+   "Boundaries",
+   "Conflicts",
+   "Nulls",
+   "Untried"
+  ],
+  "ttl": 120,
+  "words": 4527
+ },
+ "founders_playbook/01_companies/company_011_microsoft/research/A_chronology_feasibility.md": {
+  "agent": "probe-microsoft",
+  "claimed": "2026-09-25T19:07:20Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T19:22:12Z",
+  "sections": [
+   "Verdict",
+   "Family a filings",
+   "Family b web",
+   "Family c periodicals",
+   "Family d corporate print",
+   "Family e documentary",
+   "Boundaries",
+   "Conflicts",
+   "Nulls",
+   "Untried"
+  ],
+  "ttl": 90,
+  "words": 3173
+ },
+ "founders_playbook/01_companies/company_011_microsoft/research/B1_periodical_records.md": {
+  "agent": "msft-s1-records",
+  "claimed": "2026-09-25T20:23:45Z",
+  "deliverable": "",
+  "done": false,
+  "heartbeat": "2026-09-25T20:23:45Z",
+  "sections": [
+   "Intake re-run",
+   "Layers held",
+   "Origin window",
+   "1975-1976 records",
+   "Circle and partnership form",
+   "Register rows",
+   "Stage 3 1986-1990 attempt",
+   "Nulls and UNANSWERED",
+   "Untried"
+  ],
+  "ttl": 170
+ },
+ "founders_playbook/01_companies/company_013_costco/research/A3_intake_regrade.md": {
+  "agent": "regrade-t3-batch",
+  "claimed": "2026-09-25T20:24:55Z",
+  "deliverable": "",
+  "done": false,
+  "heartbeat": "2026-09-25T20:24:55Z",
+  "sections": [
+   "Dry run",
+   "Index",
+   "Stored bytes",
+   "Family a verdict",
+   "Tier"
+  ],
+  "ttl": 60
+ },
+ "founders_playbook/01_companies/company_013_costco/research/A_chronology_feasibility.md": {
+  "agent": "probe-costco",
+  "claimed": "2026-09-25T19:07:16Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T19:28:37Z",
+  "sections": [
+   "Verdict",
+   "Entity question",
+   "Family a filings",
+   "Family b web",
+   "Family c periodicals",
+   "Family d corporate print",
+   "Family e documentary",
+   "Boundaries",
+   "Conflicts",
+   "Nulls",
+   "Untried"
+  ],
+  "ttl": 90,
+  "words": 4123
+ },
+ "founders_playbook/01_companies/company_016_nvidia/research/A_chronology_feasibility.md": {
+  "agent": "probe-nvidia",
+  "claimed": "2026-09-25T19:07:23Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T19:28:21Z",
+  "sections": [
+   "Verdict",
+   "Family a filings",
+   "Family b web",
+   "Family c periodicals",
+   "Family d corporate print",
+   "Family e documentary",
+   "Boundaries",
+   "Conflicts",
+   "Nulls",
+   "Untried"
+  ],
+  "ttl": 90,
+  "words": 4546
+ },
+ "founders_playbook/01_companies/company_017_meta/research/A_chronology_feasibility.md": {
+  "agent": "probe-meta",
+  "claimed": "2026-09-25T19:07:31Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T19:28:29Z",
+  "sections": [
+   "Verdict",
+   "Family a filings",
+   "Family b web",
+   "Family c periodicals",
+   "Family d corporate print",
+   "Family e documentary",
+   "Legal records",
+   "Boundaries",
+   "Conflicts",
+   "Nulls",
+   "Untried"
+  ],
+  "ttl": 90,
+  "words": 4337
+ },
+ "founders_playbook/01_companies/company_025_homedepot/research/A_chronology_feasibility.md": {
+  "agent": "probe-homedepot",
+  "claimed": "2026-09-25T19:41:07Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T20:14:21Z",
+  "sections": [
+   "Verdict",
+   "Family a filings",
+   "Family b web",
+   "Family c periodicals",
+   "Family d corporate print",
+   "Family e documentary",
+   "Boundaries",
+   "Conflicts",
+   "Nulls",
+   "Untried"
+  ],
+  "ttl": 90,
+  "words": 8842
+ },
+ "founders_playbook/01_companies/company_041_dell/research/A_chronology_feasibility.md": {
+  "agent": "probe-dell",
+  "claimed": "2026-09-25T19:41:19Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T20:01:35Z",
+  "sections": [
+   "Verdict",
+   "Family a filings",
+   "Family b web",
+   "Family c periodicals",
+   "Family d corporate print",
+   "Family e documentary",
+   "Boundaries",
+   "Conflicts",
+   "Nulls",
+   "Untried"
+  ],
+  "ttl": 90,
+  "words": 6393
+ },
+ "founders_playbook/01_companies/company_042_target/research/A_chronology_feasibility.md": {
+  "agent": "probe-target",
+  "claimed": "2026-09-25T19:41:00Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T19:57:00Z",
+  "sections": [
+   "Verdict",
+   "Entity question",
+   "Family a filings",
+   "Family b web",
+   "Family c periodicals",
+   "Family d corporate print",
+   "Family e documentary",
+   "Boundaries",
+   "Conflicts",
+   "Nulls",
+   "Untried"
+  ],
+  "ttl": 90,
+  "words": 4423
+ },
+ "founders_playbook/01_companies/company_042_target/research/B1_dayton_print_records.md": {
+  "agent": "target-s1-records",
+  "claimed": "2026-09-25T20:24:29Z",
+  "deliverable": "",
+  "done": false,
+  "heartbeat": "2026-09-25T20:24:29Z",
+  "sections": [
+   "Layers held",
+   "Entity-lineage key",
+   "Store and sales series",
+   "1962 origin records",
+   "Founder-credit conflict",
+   "Register rows",
+   "Nulls and UNANSWERED",
+   "Untried"
+  ],
+  "ttl": 170
+ },
+ "founders_playbook/01_companies/company_043_tesla/research/A_chronology_feasibility.md": {
+  "agent": "probe-tesla",
+  "claimed": "2026-09-25T19:42:19Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T20:05:22Z",
+  "sections": [
+   "Verdict",
+   "Founder-attribution question",
+   "Family a filings",
+   "Family b web",
+   "Family c periodicals",
+   "Family d corporate print",
+   "Family e documentary",
+   "Boundaries",
+   "Conflicts",
+   "Nulls",
+   "Untried"
+  ],
+  "ttl": 90,
+  "words": 8041
+ },
+ "founders_playbook/03_quality_control/amazon_s2_blocker_repairs.md": {
+  "agent": "s2-blocker-repair",
+  "claimed": "2026-09-25T19:28:34Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T19:54:02Z",
+  "sections": [
+   "B1 retraction",
+   "B2-B4 residue",
+   "Sibling sweeps",
+   "Register handoff",
+   "Stage-3 handoff debt",
+   "Residue"
+  ],
+  "ttl": 150,
+  "words": 4413
+ },
+ "founders_playbook/03_quality_control/amazon_s2_recertification_audit6.md": {
+  "agent": "s2-recertify",
+  "claimed": "2026-09-25T19:05:41Z",
+  "deliverable": "",
+  "done": false,
+  "heartbeat": "2026-09-25T19:21:52Z",
+  "sections": [
+   "Verdict",
+   "Repair-residue sweeps",
+   "Sampled citations",
+   "Blockers",
+   "Tolerable",
+   "Untried"
+  ],
+  "ttl": 150
+ },
+ "founders_playbook/03_quality_control/amazon_s2_recertification_audit7.md": {
+  "agent": "s2-recertify-2",
+  "claimed": "2026-09-25T19:55:20Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T20:09:41Z",
+  "sections": [
+   "Verdict",
+   "Retraction integrity",
+   "Sibling sweeps",
+   "Independence audit",
+   "Blockers",
+   "Tolerable",
+   "Gate gaps found"
+  ],
+  "ttl": 150,
+  "words": 6256
+ },
+ "founders_playbook/03_quality_control/amazon_s3_adversarial_repairs.md": {
+  "agent": "s3-adversarial-repair",
+  "claimed": "2026-09-25T19:36:32Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T20:06:46Z",
+  "sections": [
+   "AD money dates",
+   "Denominators",
+   "AD boundary",
+   "Carrier corrections",
+   "RD-090 register",
+   "Sibling sweeps",
+   "Corrections for merge",
+   "Residue"
+  ],
+  "ttl": 170,
+  "words": 3471
+ },
+ "founders_playbook/03_quality_control/amazon_s3_audit1_chronology.md": {
+  "agent": "s3-audit-chronology",
+  "claimed": "2026-09-25T19:05:43Z",
+  "deliverable": "",
+  "done": false,
+  "heartbeat": "2026-09-25T19:18:21Z",
+  "sections": [
+   "Verdict",
+   "Defect register",
+   "Checks that passed",
+   "Things I could not test",
+   "Untried"
+  ],
+  "ttl": 150
+ },
+ "founders_playbook/03_quality_control/amazon_s3_audit3_numbers.md": {
+  "agent": "s3-audit3-numbers",
+  "claimed": "2026-09-25T20:09:17Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T20:25:07Z",
+  "sections": [
+   "Verdict",
+   "Carrier failures",
+   "Denominator failures",
+   "Arithmetic failures",
+   "Restated-as-contemporary",
+   "Sampled figures",
+   "Sibling sweeps",
+   "Not testable"
+  ],
+  "ttl": 150,
+  "words": 4611
+ },
+ "founders_playbook/03_quality_control/amazon_s3_audit4_hindsight.md": {
+  "agent": "s3-audit-hindsight",
+  "claimed": "2026-09-25T19:05:44Z",
+  "deliverable": "",
+  "done": false,
+  "heartbeat": "2026-09-25T19:16:06Z",
+  "sections": [
+   "Verdict",
+   "Defect register",
+   "Sweep counts",
+   "Checks passed",
+   "Untestable",
+   "Untried"
+  ],
+  "ttl": 150
+ },
+ "founders_playbook/03_quality_control/amazon_s3_audit5_adversarial.md": {
+  "agent": "s3-audit-adversarial",
+  "claimed": "2026-09-25T19:05:46Z",
+  "deliverable": "",
+  "done": false,
+  "heartbeat": "2026-09-25T19:21:09Z",
+  "sections": [
+   "Challenges",
+   "Structural attacks",
+   "Survives",
+   "Does not survive",
+   "Artifact gaps",
+   "Untried"
+  ],
+  "ttl": 150
+ },
+ "founders_playbook/03_quality_control/amazon_s3_gate_residue.md": {
+  "agent": "s3-gate-residue",
+  "claimed": "2026-09-25T20:09:32Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T20:26:45Z",
+  "sections": [
+   "Parity measurement",
+   "Rows added or relabelled",
+   "RD-090 register retraction",
+   "Sibling sweeps",
+   "Re-pointed tokens",
+   "Held as UNRESOLVED",
+   "Gate before and after"
+  ],
+  "ttl": 150,
+  "words": 1942
+ },
+ "founders_playbook/03_quality_control/amazon_s3_hindsight_repairs.md": {
+  "agent": "s3-hindsight-repair",
+  "claimed": "2026-09-25T19:18:29Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T19:35:25Z",
+  "sections": [
+   "H-1",
+   "H-2",
+   "H-3",
+   "H-4 register rows",
+   "H-5",
+   "Sibling sweeps",
+   "Residue for the certifier"
+  ],
+  "ttl": 150,
+  "words": 2941
+ },
+ "founders_playbook/03_quality_control/amz_claim_record_split.md": {
+  "agent": "amz-split-oversize",
+  "claimed": "2026-09-25T19:05:44Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T19:18:10Z",
+  "sections": [
+   "Plan",
+   "Stage2 split",
+   "Stage3 split",
+   "Proof"
+  ],
+  "ttl": 120,
+  "words": 1596
+ },
+ "founders_playbook/03_quality_control/apple_s1_audit1_chronology_hindsight.md": {
+  "agent": "apple-s1-audit",
+  "claimed": "2026-09-25T20:24:47Z",
+  "deliverable": "",
+  "done": false,
+  "heartbeat": "2026-09-25T20:24:47Z",
+  "sections": [
+   "Verdict",
+   "Chronology defects",
+   "Hindsight defects",
+   "Sweep counts",
+   "Independence audit",
+   "Passed checks",
+   "Not testable",
+   "Untried"
+  ],
+  "ttl": 170
+ },
+ "founders_playbook/03_quality_control/apple_s1_merge.md": {
+  "agent": "apple-s1-merge",
+  "claimed": "2026-09-25T20:01:00Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T20:14:46Z",
+  "sections": [
+   "Row application",
+   "Key mapping and collisions",
+   "Registers created",
+   "Volume split",
+   "Anchor parity",
+   "Not applied and why"
+  ],
+  "ttl": 180,
+  "words": 1858
+ },
+ "founders_playbook/03_quality_control/fetch_service_1.md": {
+  "agent": "fetch-service-1",
+  "claimed": "2026-09-25T19:45:16Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T19:58:41Z",
+  "sections": [
+   "Target 1 Apple 1976 print",
+   "Target 2 Walmart FY1975 pages",
+   "Target 3 pre-1972 Wal-Mart",
+   "Target 4 Microsoft 1986-1990",
+   "Nulls vs UNANSWERED",
+   "Left for a human"
+  ],
+  "ttl": 120,
+  "words": 3205
+ },
+ "founders_playbook/03_quality_control/intake_hardening.md": {
+  "agent": "intake-hardening",
+  "claimed": "2026-09-25T19:36:14Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T20:21:20Z",
+  "sections": [
+   "Defect 1",
+   "Defect 2",
+   "Defect 3 diagnosis",
+   "Three-company proof",
+   "Still broken"
+  ],
+  "ttl": 120,
+  "words": 2372
+ },
+ "founders_playbook/03_quality_control/query_coverage_50.md": {
+  "agent": "query-coverage",
+  "claimed": "2026-09-25T20:07:45Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T20:27:28Z",
+  "sections": [
+   "Schema",
+   "Per-company blocks authored",
+   "Name variants used",
+   "Count before and after",
+   "Parse check",
+   "Still unsearched"
+  ],
+  "ttl": 150,
+  "words": 2447
+ },
+ "founders_playbook/03_quality_control/rd078_stale_token_repairs.md": {
+  "agent": "rd078-stale-keys",
+  "claimed": "2026-09-25T19:05:39Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T19:15:21Z",
+  "sections": [
+   "Method",
+   "Per-file resolutions",
+   "Held-as-unresolved",
+   "Proof"
+  ],
+  "ttl": 120,
+  "words": 2610
+ },
+ "founders_playbook/03_quality_control/rd084_register_drift_repairs.md": {
+  "agent": "rd084-register-drift",
+  "claimed": "2026-09-25T19:05:40Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T19:14:38Z",
+  "sections": [
+   "Method",
+   "Amazon repairs",
+   "Walmart+other stage sweep",
+   "Proof",
+   "Residue"
+  ],
+  "ttl": 120,
+  "words": 3141
+ },
+ "founders_playbook/03_quality_control/walmart_s1_merge.md": {
+  "agent": "walmart-s1-merge",
+  "claimed": "2026-09-25T20:01:36Z",
+  "deliverable": "",
+  "done": false,
+  "heartbeat": "2026-09-25T20:01:36Z",
+  "sections": [
+   "Row application",
+   "Id resolution and collisions",
+   "Registers created",
+   "Volume split",
+   "Anchor parity",
+   "Not applied and why"
+  ],
+  "ttl": 180
+ }
+}
