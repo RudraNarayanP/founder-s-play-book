@@ -1806,3 +1806,22 @@ unfalsifiable phrase in a gate or a verdict is how the blank S-1 field became a 
 5. `index` output is keyed only by `--company-dir`, so resolving the shell CIK overwrote Dell's
    1571996 index -- **RD-098's footgun in the wild**, caught mid-write with pre-state recorded. The
    registrant-name-vs-directory guard is no longer optional.
+
+### RD-113 -- Amazon Stage 3 gates at zero findings, and a fourth correction of my own brief by the agent following it
+
+`03_quality_control/amazon_s3_claim_records_residue.md`: gate **1 finding / 33 passes -> 0 / 34**, anchors
+parity 183<->183 held, one file touched.
+- **My "ten occurrences" figure did not reproduce.** The agent measured **25 company-wide** (13 of
+  `0.194995` plus 12 of the percent rendering `19.4995`), 14 outside `_parts/`, and found that my count
+  missed a second `quantitative.csv` row entirely. It was a line-list count presented as a total -- the
+  exact thing §14 rule 2 warns about, coming from *me* in a dispatch brief. Four times now an agent has had
+  to correct an asserted number in its own instructions (424B1 vs 424B4, "Dey Brothers", RD-078's premise,
+  this).
+- **`S3007` refused rather than guessed.** The re-key map pairs no ST3_C row, `sources.csv` holds 204 rows
+  and none with that key, and the underlying 8-K 1998-10-28 is registered only as `S30051`, which is
+  *another dossier's* two-event row. Re-pointing it would have manufactured a carrier. It stays a named
+  `UNRESOLVED(...)` with a FOR MERGE entry.
+- **It caught and retracted a false assertion in our own appendix:** record **S52** claimed "`S3007` exists
+  in `sources.csv` already". It does not. Retracted in place, replaced with the marker.
+- Live count of the withdrawn value fell 6 -> 4; the remaining four are inside `_parts/`, which is
+  superseded audit-trail territory and therefore handed off, not edited.
