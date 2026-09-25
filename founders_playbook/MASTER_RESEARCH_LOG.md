@@ -1303,3 +1303,41 @@ requested rather than written, gates 0 findings / 7 passes.
   header-only. One live pre-1972 lead survives: **45 HathiTrust items matching "Wal-Mart" Bentonville
   1960-69, of which 4 are Full view** (a 1968 Customs bulletin) -- text UNTRIED, and the only route in the
   whole mine that could still push the naming wall back.
+
+### RD-098 -- Alphabet is T1, and it caught a corpus-corruption footgun in my intake script
+
+Probe: `company_005_alphabet/research/A_chronology_feasibility.md` (13 sections, 6,066 w, 114 files in
+`sources/`, 0 WebSearch/WebFetch -- ~12 curl calls through the scripts). **T1**, three of five families
+returning in-window Tier-1 text (filings, web archives, corporate print), so 15-20 agent runs at the
+lower half.
+
+Two results worth keeping:
+- **The entity trap was live.** Ticker GOOGL/GOOG resolves to CIK **1652044 "Alphabet Inc."**, whose EDGAR
+  enumeration begins **2023-06-29** -- so `auto` over 1998-2006 legitimately reported "0 documents, 0
+  skipped" and one archive slice 404'd (UNANSWERED). EDGAR full-text on the *name* found **Google Inc.,
+  CIK 1288776, 6,407 filings, zero unanswered slices, S-1 2004-04-29**. Also: the prospectus is a **424B4**,
+  not the 424B1 I asserted in the brief -- another unlabelled orchestrator assumption falsified by reading
+  the document.
+- **Boundaries with a day-level honest floor.** Pre-history is fixed at **1998-01-09** by US patent
+  6,285,999 (assignee Stanford, inventor Page, verified twice); origin Sept 1998 is a founder claim in the
+  S-1, upper-bounded by Wayback capture **19981111184551** of a google.com prototype page; validation Q1
+  1999; scale 2001 and 2004-08-19. The exact founding **day**, the IPO **sale** date and the trademark
+  history stay UNKNOWN rather than being filled.
+
+**RD-098, the bug.** The probe's first run passed the wrong CIK with the right `--company-dir`, and
+CIK 1288779 (**Covenant Advantage Fund** -- an adjacent number that is nothing to do with Google) happily
+**overwrote this company's `sources/_index/_INDEX.md`**. The script trusts that the caller paired them
+correctly. With 46 companies ahead, that is silent corpus corruption, so the fix is:
+`write_index()` must compare the returned registrant name against the company directory slug and **refuse**
+-- or at minimum write to a name-derived path and record `registrant_name` in the index header and sidecar
+-- rather than overwrite whatever is at the destination. A second guard belongs in `auto`: if the resolved
+registrant's earliest filing post-dates the requested window's end, report **WRONG-CIK LIKELY** rather than
+"0 documents", because "0 documents" over a 2023-start index reads exactly like an empty archive.
+`tools/sec_intake.py` is owned by the running intake-hardening agent, so this is queued, not applied --
+per §14 rule 6, a queued edit beats a raced one.
+
+**RD-099 -- the harvester's query file is a fleet bottleneck.** `queries.json` currently carries **zero**
+Alphabet tasks (proven by dry-run), so family (c) periodicals is UNTRIED for a T1 company and its
+1998-2003 window rests on only two artifacts. Agents correctly declined to edit shared config. The fleet
+needs either a per-company query file argument or an append-only task API -- otherwise every new company
+inherits the same hole and the tier verdict silently rests on fewer families than §14 rule 6 demands.
