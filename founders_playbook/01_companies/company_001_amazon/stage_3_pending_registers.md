@@ -105,6 +105,7 @@ Amazon.com,stage3,1995-12-31,"Cash at 1995-12-31 on two captions","804 (cash) an
 >>> END CSV APPEND BLOCK
 
 **<quantitative.csv> APPLIED 2026-09-25 by the binding pass: rows 1-47 of 47 written to quantitative.csv; every `source` reference bound to canonical ids in the form "<ids> - <original citation>" (original text preserved verbatim); row 29 carries an explicit [no canonical id] marker for Form 10-Q Q1-1998 l.468, which sources.csv does not register.**
+> CORRECTION 2026-09-25 (register-key propagation, `03_quality_control/stage3_register_key_propagation.md`): the claim above holds only for this part's 47 re-emitted rows. The merge had also left ST3_B's earlier 59 `quantitative.csv` rows (rows 226-288) with bare retired ids in the `source` column; these were NOT canonical when the sentence was written and now bind row by row to S30031-S30067.
 
 >>> CSV APPEND BLOCK: timeline.csv
 Amazon.com,stage3,1997-11-07,"$75 million senior secured term facility with Deutsche Bank, reported on Form 8-K Item 5",Amazon.com; Deutsche Bank,"Seattle, Washington",S30004,FACT,High,none,"§P202. The debt pivot begins; drawn 1997-12-23; long-term debt 76702 at the year end"
@@ -194,6 +195,7 @@ Amazon.com,stage3,"1999-12-31","Negative validation: growth outran its own cost 
 >>> END CSV APPEND BLOCK
 
 **<validation.csv> APPLIED 2026-09-25 by the binding pass: rows 1-7 of 7 written to source_id column 8, each bare citation resolved by the row evidence text.**
+> CORRECTION 2026-09-25 (register-key propagation, `03_quality_control/stage3_register_key_propagation.md`): the claim above holds only for this part's 7 re-emitted rows (validation.csv 54-60). ST3_C's earlier 6 `validation.csv` rows (42-47) still carried bare retired ids in `source_id`; they now bind row by row to S30051/S30056/S30060/S30065/S30068.
 
 >>> CSV APPEND BLOCK: decisions.csv
 Amazon.com,stage3,1997-11,"Borrow against assets rather than dilute: take a $75 million senior secured term facility","$49.4 million of IPO proceeds received in May 1997 and working capital of $79 thousand at 1997-03-31 (Stage 2 §P81)","Cash needs visible from the quarterly loss and the first out-of-state centre; bank appetite knowable only by asking","Amount, term and pricing of further facilities; whether equity would be available on better terms","Equity issuance; delaying the Delaware centre; leasing rather than buying equipment","A lender requires collateral and covenants an issuing company would rather avoid; the preferred stock was gone","Collateralised borrowing is cheaper than the equity the company had just sold at $18.00","Non-dilutive capital sufficient to fund one out-of-state centre and the inventory behind it","Long-term debt 76702 at 1997-12-31, rising to 348140 (1998) and 1466338 (1999)",S30004,High,D-1
