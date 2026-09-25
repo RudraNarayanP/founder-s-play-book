@@ -1969,3 +1969,30 @@ dossier had never opened -- BYTE Dec 1980 l.39649-39653 (a "sibling company" rev
 - Gate reports one finding, correctly: **no register CSVs yet, so `csv`/`anchors` DID NOT RUN** -- an expected
   pre-merge state, and the wording is now "did not run" rather than a silent pass. Biggest gap is U-3
   (pre-FY1965 print), the only route from T2 to T1 here.
+
+### MILESTONE -- Apple Stage 1 is CERTIFIED, 0 blockers, with the count reproduced by two independent methods
+
+`03_quality_control/apple_s1_recertification.md` (8/8 sections, released). A certifier who wrote none of it
+re-ran the gates (**0 findings / 20 passes**, `corrections 5 ids; registers 5, volumes 5`) and the
+self-test (**PASS**), quoting both, and returned **CERTIFIED**.
+
+- **The disputed count reproduced, independently:** it extracted all 25 §Q Window-status cells itself ->
+  **17 in-window + 1 window-end + 1 straddle + 5 far-side + 1 out-of-window**, then parsed `timeline.csv`
+  separately -> 19 stage1 rows first-dated at or before the edge, minus the boundary event and the straddle =
+  **17**. Two different routes, same number, matching the repair pass. That is what "re-measure" is for: the
+  original "twenty" failed not because 20 was wrong but because nothing produced 20.
+- **All five retraction layers reached**, including `_parts/` correctly **marked rather than rewritten** -- the
+  withdrawn label survives only verbatim inside `s1_p3.md` and retraction quotes.
+- **The boundary repair is genuine:** §Q's cell carries the straddle range, names the superseded label, and the
+  old parenthetical is **0 occurrences in both volumes**.
+- **A stale claim of mine was retired by the certifier:** "volume 2 is invisible to the anchors/keys gates" is
+  **false under current code** (`NARR_GLOBS` line 44, `stage_docs()` line 191). The repair sheet's residue was
+  restating a defect I had already fixed. Recorded because my fixes need the same re-verification as my errors.
+- Open and parked, not hidden: the census-scope half of G1-F, and nine S1P1 record tier upgrades. Held firm:
+  all five conflicts, the 1994-01-26 EDGAR floor, and **`$666.66` at 0/61 files**.
+- The certifier also named what gates structurally cannot see: **cell semantics, two-sidedness, and
+  quotes-versus-bytes**. Those stay human/agent work, which is the boundary of what automation buys here.
+
+**Second company through the full loop, and the first under §15: probe -> tier -> records -> parts -> merge ->
+gates -> audit -> repair -> re-certify, at 67,853 words and 186 register rows.** Walmart is the same shape with
+its certifier running; Microsoft and Target are mid-assembly.
