@@ -1636,3 +1636,32 @@ a bug, not an archive. Costco's T3 and Nvidia's T3 were both issued against an i
 download, and Alphabet's/Target's/Dell's corporate-print or periodical families were graded the same way.
 Expect re-grades. The honest fleet statement today is: **9 companies probed, and every one of them was
 probed with a partly broken retrieval tool.**
+
+### RD-108 -- Stage 3 numbers gate: one real denominator find, and a repair that re-grounded to a document we don't hold
+
+`03_quality_control/amazon_s3_audit3_numbers.md`: **PASS-WITH-DEFECTS** (1 high / 3 medium / 4 low).
+Both previously-repaired defects **hold** under independent grepping -- `$349m` is 0 hits in the FY1998 10-K
+and present only in S-3 333-74435, and gross $326m / nets $315.7m and $318.2m / face $530m are all distinct
+and correctly labelled at U.169. That independent confirmation matters: a repair verified only by its own
+author is not verified.
+
+- **D-1 (HIGH, denominator).** `10-K_FY1998` Item 6's **348,140 = 348,077 balance-sheet debt + 63 capital
+  lease** -- the auditor proved the mechanism twice (`76,521 + 181 = 76,702`). `stage_3_part_2.md` calls the
+  pair "(restated)" and totals **348,761**; `stage_3_part_3.md` (P219/U.131) totals **348,824** -- **$63k
+  apart, which is exactly the capital-lease line counted on one side and not the other.** Worse, part_2
+  declares a **$621k** gap "not reconciled" when the reconciliation is `684 - 63`. An unreconciled pair that
+  is in fact reconcilable is a defect of the same class as a wrong number.
+- **D-2 (MEDIUM).** part_2's FY1999 block omits filed **Other income, net 1,671** (l.2625); the components
+  imply -644,870 against the printed -643,199.
+- **C-1 (MEDIUM), and the important one about my own loop.** The last repair pass re-grounded the note
+  completion to "**1998-05-08 (indenture l.264)**" -- but **there is no indenture in `sources/`** and the
+  pointer is blank; the date actually sits at `10-Q_Q1-1998` l.495. So a repair that fixed one wrong carrier
+  replaced it with a carrier **we do not hold**, which is unfalsifiable locally and therefore worthless as
+  evidence. This is "a repair is an unverified change" (self-audit rule 1) reproducing within one cycle.
+  **Rule to apply: a re-pointed citation must name a document that exists in `sources/`, or the claim is
+  UNANSWERED until the document is fetched.**
+- Arithmetic integrity elsewhere is good: **0 broken identities across all 38 register DERIVED rows.**
+- Certification blockers named by the auditor: part_2's four unresolved `S3xxx` tokens, and `U.220` having no
+  register row -- both already in the live gate-residue pass's scope.
+- Untestable/UNTRIED: indenture terms, `$349m` composition (correctly UNKNOWN), ~45 §P rows, the other
+  registers, and all secondary print.
