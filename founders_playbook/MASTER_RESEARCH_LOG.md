@@ -1500,3 +1500,31 @@ closed -- the same reflex that produced "already fixed" claims twice this sessio
 Tier-1 candidate (Yahoo! Internet Life, July 2000) ranks Google 4th in "Search the Web, Part II", which
 corroborates the **product**, not the origin. Founding still rests on one lineage plus the 1998-01-09
 patent and the 1998-11-11 capture.
+
+### RD-104 -- the Stage-3 money narrative is re-grounded, and the erasure is now quantified
+
+`03_quality_control/amazon_s3_adversarial_repairs.md` (8/8 sections, released). Every fix re-grounded to a
+document rather than deleted, and the arithmetic made explicit where our text had blurred it:
+- **The 1998 convertible note completion date is 1998-05-08**, not the 1998-08-13 we printed (that was a
+  quarter inferred into a day). Gross **$326m**, filed nets **$315.7m and $318.2m**, face/principal at
+  maturity **$530m** -- so the obligation our narrative never carried is **$204m of accretion**, now named
+  as such instead of being collapsed into one headline number. The $75m facility is recorded as retired.
+- **AD-04's subset trap:** a stated subset movement of **+109,739** against a filed net movement of
+  **+72,468**; the offsetting **−37,271** was identified line by line rather than reconciled away.
+- **AD-01's carrier:** "$349m senior indebtedness" now cites **S-3 333-74435 l.915/l.1325**, because the
+  FY1998 10-K it was attributed to prints `349` **zero times**.
+- **AD-02's boundary leg** is re-grounded on the FY1998 10-K's own single-segment statement (L2511-2517)
+  with a new §A.6, and the rhetorical "none does in this file" was struck rather than softened.
+- AD-06/11: the music quotation re-cited to l.223-224 and the **13% stripped of its growth reading**;
+  AD-09: the **$39m** inventory charge carries its filed cause; CH-03: Wilke's **carrier** relabelled and
+  his date left exactly where the evidence puts it.
+Downgraded to bands or inferences where the filing gives no single number ($349m, music, Position B, DPO,
+P′); UNKNOWN declared for the expense split of the two nets, the $3,108k repayment excess, the $349->$291
+cause, the DPO mechanism and the commissioning day.
+Registers: timeline 3 edited +1 new; quantitative 4 edited +3 new; conflicts gained **U.169/U.170**; sources
+gained **S30084**. Sibling sweeps with counts, not assurances: "priced 1998-08-13" 2 (both retractions),
+"349" across 14 files with 5 live, "21,806" 4, "not the lease" 1, DPO 101.3 eight times.
+**The repairer also corrected three errors in the audit that directed it**: "predominant" -> *principal*,
+100.4 -> 100.3, and $530m was already present in §D.5. Bidirectional correction is the loop working, and the
+gate report is unchanged at 6 findings / 42 passes -- those six are the known pre-existing parity and
+protected-history items, tracked under RD-090/RD-089, not new damage.

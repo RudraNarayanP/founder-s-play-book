@@ -274,7 +274,7 @@ Stage 2's header and boundary-justification block carry claims of their own), **
 
 **Shortfalls are named in the full `## Coverage note` at the foot of volume 2**, which carries the ten
 not-fully-covered items (§P by class and not by row, the consolidated §K.9 UNKNOWN fourteen, §R's 21→16 fold,
-§N's cell geometry, the partially consolidated §S.9 UNTRIED lists, the missing 1997-04-18 authorised-capital record,
+§N's cell geometry, the partially consolidated §S.9 UNTRIED lists, the 1997-04-18 authorised-capital record (**closed 2026-09-26: minted as B125 in volume 1a — AUDIT-6 B8 / RD-049**),
 the §D.0 verdict rows, the bounds on the 60 `Corroboration:` counts above 1, the re-keyed §U forward references, and
 the zero-web-request condition), the 55-item re-key register of 2026-09-25, and the **fifteen
 dossier-versus-narrative disagreements found while registering — reported, not repaired** (U.67, U.66, U.73, U.97,
