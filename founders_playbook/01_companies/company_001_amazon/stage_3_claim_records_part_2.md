@@ -130,7 +130,7 @@ U.168 Claim: **THE RETRACTED 1995 MONEY LEG SURVIVES IN THE INSTRUCTION LAYER: `
 ## Coverage note (both volumes)
 
 **Records on disk, verified by read-back after writing (not from memory).** Volume 1
-`stage_3_claim_records.md` = **627 records, 84,130 words**; volume 2 (this file) = **55 records, 14,968 words**;
+`stage_3_claim_records.md` = **627 records, 84,288 words**; volume 2 (this file) = **55 records, 14,968 words**;
 **total 682 records** (99,256 words), §7 heading order **A → U**, ids continuing Stage 2's sequence and **nothing renumbered**
 (method §9.3). Read-back counts by section (`grep -cE "^[A-U][0-9]+ Claim:"` per prefix), volume 1 unless marked
 `(v2)`: **A 26** (A09–A34) · **B 20** (B125–B144) · **C 13** (C41–C53) · **D 20** (D35–D54) · **E 47** (E49–E95) ·
