@@ -1,0 +1,1522 @@
+==============================================================================
+PROVENANCE HEADER -- added by the Stage-3 Evidence Registrar (post-IPO filing intake)
+Retrieval date (access date) : 2026-09-25
+Original URL                 : https://www.sec.gov/Archives/edgar/data/1018724/0000891020-99-000716.txt
+HTTP status on retrieval     : 200
+Document                     : Form POS AM, complete submission (all 4 documents inline) -- POST-EFFECTIVE AMENDMENT NO. 1 TO FORM S-4
+SEC CIK                      : 1018724 (AMAZON COM INC)
+Accession no.                : 0000891020-99-000716
+Filing date per EDGAR        : 1999-04-26   (SEC-HEADER FILED AS OF DATE: 19990426 -- agrees)
+Conformed submission type    : POS AM   Securities Exchange Act File No.: 333-55943
+Period of report             : n/a
+Bytes of retrieved body      : 78,350
+Body completeness            : COMPLETE -- terminates in </SEC-DOCUMENT>; 4 <DOCUMENT> blocks, types: EX-23.1, EX-23.2, EX-5.1, POS AM
+Request headers used         : User-Agent: FounderPlaybook Research AdminContact@example.com | Accept-Encoding: identity | Referer: https://www.sec.gov/
+Body encoding on wire        : identity (no compression negotiated); saved exactly as received
+Located via                  : https://data.sec.gov/submissions/CIK0001018724-submissions-002.json (pre-2000 slice, 1997-03-24 -> 2000-01-04); row form=POS AM filingDate=1999-04-26 primaryDocDescription='POST-EFFECTIVE AMENDMENT NO. 1 TO FORM S-4'
+Component documents (DESCRIPTION per EDGAR):
+      - POST-EFFECTIVE AMENDMENT NO. 1 TO FORM S-4
+      - OPINION OF PERKINS COIE
+      - CONSENT OF ERNST & YOUNG LLP
+      - CONSENT OF DELOITTE & TOUCHE LLP
+==============================================================================
+
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ DoY5n6yLlwYy9F/dBJbANkjrGo6MKKlrxF1Yzak2s6/cWzFA9ZBzY1zns7jBL2VE
+ ugqb3dwSKEZmtRMU245nMg==
+
+<SEC-DOCUMENT>0000891020-99-000716.txt : 19990427
+<SEC-HEADER>0000891020-99-000716.hdr.sgml : 19990427
+ACCESSION NUMBER:		0000891020-99-000716
+CONFORMED SUBMISSION TYPE:	POS AM
+PUBLIC DOCUMENT COUNT:		4
+FILED AS OF DATE:		19990426
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AMAZON COM INC
+		CENTRAL INDEX KEY:			0001018724
+		STANDARD INDUSTRIAL CLASSIFICATION:	RETAIL-CATALOG & MAIL-ORDER HOUSES [5961]
+		IRS NUMBER:				911646860
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		POS AM
+		SEC ACT:		
+		SEC FILE NUMBER:	333-55943
+		FILM NUMBER:		99601247
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1516 SECOND AVE 4TH FLOOR
+		STREET 2:		PO BOX 80387
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+		BUSINESS PHONE:		2066222335
+
+	MAIL ADDRESS:	
+		STREET 1:		PO BOX 80387
+		STREET 2:		1516 SECOND AVE 4TH FLOOR
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>POS AM
+<SEQUENCE>1
+<DESCRIPTION>POST-EFFECTIVE AMENDMENT NO. 1 TO FORM S-4
+<TEXT>
+
+<PAGE>   1
+ 
+     AS FILED WITH THE SECURITIES AND EXCHANGE COMMISSION ON APRIL 26, 1999
+ 
+                                                      REGISTRATION NO. 333-55943
+- --------------------------------------------------------------------------------
+- --------------------------------------------------------------------------------
+ 
+                       SECURITIES AND EXCHANGE COMMISSION
+                             WASHINGTON, D.C. 20549
+                            ------------------------
+ 
+                         POST-EFFECTIVE AMENDMENT NO. 1
+ 
+                                       TO
+ 
+                                    FORM S-4
+                             REGISTRATION STATEMENT
+                                     UNDER
+                           THE SECURITIES ACT OF 1933
+                            ------------------------
+ 
+                                AMAZON.COM, INC.
+             (EXACT NAME OF REGISTRANT AS SPECIFIED IN ITS CHARTER)
+ 
+<TABLE>
+<S>                                              <C>
+                    DELAWARE                                        91-1646860
+(STATE OR OTHER JURISDICTION OF INCORPORATION OR     (I.R.S. EMPLOYER IDENTIFICATION NUMBER)
+                  ORGANIZATION)
+</TABLE>
+ 
+                               1516 SECOND AVENUE
+                           SEATTLE, WASHINGTON 98101
+                                 (206) 622-2335
+  (ADDRESS, INCLUDING ZIP CODE, AND TELEPHONE NUMBER, INCLUDING AREA CODE, OF
+                   REGISTRANT'S PRINCIPAL EXECUTIVE OFFICES)
+ 
+                                JEFFREY P. BEZOS
+                     PRESIDENT AND CHIEF EXECUTIVE OFFICER
+                                AMAZON.COM, INC.
+                               1516 SECOND AVENUE
+                           SEATTLE, WASHINGTON 98101
+                                 (206) 622-2335
+ (NAME, ADDRESS, INCLUDING ZIP CODE, AND TELEPHONE NUMBER, INCLUDING AREA CODE,
+                             OF AGENT FOR SERVICE)
+                            ------------------------
+ 
+                COPIES OF ALL COMMUNICATIONS SHOULD BE SENT TO:
+                                SCOTT L. GELBAND
+                                PERKINS COIE LLP
+                         1201 THIRD AVENUE, 40TH FLOOR
+                         SEATTLE, WASHINGTON 98101-3099
+                                 (206) 583-8888
+ 
+        Approximate date of commencement of proposed sale to the public:
+  FROM TIME TO TIME AFTER THE EFFECTIVE DATE OF THIS POST-EFFECTIVE AMENDMENT.
+ 
+     If the securities being registered on this form are being offered in
+connection with the formation of a holding company and there is compliance with
+General Instruction G, check the following box. [ ]
+ 
+     If this form is filed to register additional securities for an offering
+pursuant to Rule 462(b) under the Securities Act, check the following box and
+list the Securities Act registration statement number or the earlier effective
+registration statement for the same offering. [ ] __________
+ 
+     If this form is a post-effective amendment filed pursuant to Rule 462(d)
+under the Securities Act, check the following box and list the Securities Act
+registration statement number of the earlier effective registration statement
+for the same offering. [ ] __________
+ 
+                        CALCULATION OF REGISTRATION FEE
+ 
+<TABLE>
+<S>                             <C>                   <C>                   <C>                   <C>
+- ----------------------------------------------------------------------------------------------------------------------
+- ----------------------------------------------------------------------------------------------------------------------
+    TITLE OF EACH CLASS OF             AMOUNT           PROPOSED MAXIMUM      PROPOSED MAXIMUM
+          SECURITIES                   TO BE             OFFERING PRICE          AGGREGATE             AMOUNT OF
+       TO BE REGISTERED            REGISTERED(1)           PER SHARE           OFFERING PRICE     REGISTRATION FEE(2)
+- ----------------------------------------------------------------------------------------------------------------------
+Common Stock, $0.01 par value
+  per share...................   15,000,000 shares
+- ----------------------------------------------------------------------------------------------------------------------
+- ----------------------------------------------------------------------------------------------------------------------
+</TABLE>
+ 
+(1) Pursuant to Rule 416 of the Securities Act, this post-effective amendment is
+    filed to reflect those shares issuable as a result of the registrant's
+    3-for-1 stock split on January 4, 1999.
+ 
+(2) A registration fee of $61,628 was paid in connection with the initial
+    registration of 5,000,000 shares on June 3, 1998. Pursuant to Rule 416 of
+    the Securities Act, no further registration fee is required.
+ 
+     THE REGISTRANT HEREBY UNDERTAKES TO AMEND THIS REGISTRATION STATEMENT ON
+SUCH DATE OR DATES AS MAY BE NECESSARY TO DELAY ITS EFFECTIVE DATE UNTIL THE
+REGISTRANT SHALL FILE A FURTHER AMENDMENT WHICH SPECIFICALLY STATES THAT THIS
+REGISTRATION STATEMENT SHALL THEREAFTER BECOME EFFECTIVE IN ACCORDANCE WITH
+SECTION 8(a) OF THE SECURITIES ACT OF 1933 OR UNTIL THIS REGISTRATION STATEMENT
+SHALL BECOME EFFECTIVE ON SUCH DATE AS THE SEC, ACTING PURSUANT TO SAID SECTION
+8(a), MAY DETERMINE.
+- --------------------------------------------------------------------------------
+- --------------------------------------------------------------------------------
+<PAGE>   2
+ 
+PROSPECTUS
+ 
+                               15,000,000 SHARES
+                               [AMAZON.COM.LOGO]
+ 
+                                  COMMON STOCK
+ 
+                                PAR VALUE $0.01
+                            ------------------------
+ 
+     We have registered 15,000,000 shares of our common stock to facilitate our
+continuing program of business acquisitions. We may issue these shares in
+exchange for shares, partnership interests or other assets representing
+interests in businesses we acquire, in a merger or consolidation, or in exchange
+for assets we buy from other companies. We may acquire other companies or assets
+directly, or indirectly through a subsidiary, joint venture or other entity, and
+we may acquire all or only a portion of any entity or its assets. We also may
+acquire other companies or assets in negotiated transactions or, in the case of
+businesses that are widely held, through exchange offers or solicitations of
+mergers, consolidations or sales of assets. We do not expect to pay any
+underwriting discounts or commissions but we may issue a portion of these shares
+to pay brokers for commissions they earn in connection with an acquisition.
+ 
+     This prospectus does not cover any resale of our common stock, and we have
+not authorized anyone to use this prospectus in connection with any resale or
+distribution.
+ 
+     We have adjusted all of the information in this prospectus to reflect a
+2-for-1 split of our common stock on June 1, 1998 and a 3-for-1 split of our
+common stock on January 4, 1999.
+ 
+     Our common stock is quoted on the Nasdaq National Market under the symbol
+"AMZN."
+                            ------------------------
+ 
+     INVESTING IN OUR COMMON STOCK INVOLVES A HIGH DEGREE OF RISK. SEE "RISK
+FACTORS" BEGINNING ON PAGE 2.
+                            ------------------------
+ 
+     NEITHER THE SECURITIES AND EXCHANGE COMMISSION NOR ANY STATE SECURITIES
+COMMISSION HAS APPROVED OR DISAPPROVED OF THESE SECURITIES OR PASSED UPON THE
+ACCURACY OR ADEQUACY OF THIS PROSPECTUS. ANY REPRESENTATION TO THE CONTRARY IS A
+CRIMINAL OFFENSE.
+                            ------------------------
+ 
+                                          , 1999
+<PAGE>   3
+ 
+                               TABLE OF CONTENTS
+ 
+<TABLE>
+<CAPTION>
+                                                              PAGE
+                                                              ----
+<S>                                                           <C>
+Forward-Looking Information.................................    1
+How to Obtain More Information..............................    1
+Amazon.com..................................................    2
+Risk Factors................................................    2
+Selected Consolidated Financial Statements..................   10
+The Offering................................................   11
+Restrictions on Resale of Common Stock......................   11
+Description of Capital Stock................................   11
+Legal Matters...............................................   13
+Experts.....................................................   13
+</TABLE>
+ 
+                          FORWARD-LOOKING INFORMATION
+ 
+     This prospectus includes "forward-looking statements" within the meaning of
+the Private Securities Litigation Reform Act of 1995. This Act provides a "safe
+harbor" for forward-looking statements to encourage companies to provide
+prospective information about themselves so long as they identify these
+statements as forward-looking and provide meaningful cautionary statements
+identifying important factors that could cause actual results to differ from the
+projected results. All statements other than statements of historical fact we
+make in this prospectus or in any document incorporated by reference are
+forward-looking. In particular, the statements herein regarding industry
+prospects and our future results of operations or financial position are
+forward-looking statements. Forward-looking statements reflect our current
+expectations and are inherently uncertain. Our actual results may differ
+significantly from our expectations. The section entitled "Risk Factors"
+describes some, but not all, of the factors that could cause these differences.
+ 
+                         HOW TO OBTAIN MORE INFORMATION
+ 
+     We file reports, proxy statements and other information with the Securities
+and Exchange Commission. You may read any document we file at the SEC's public
+reference rooms in Washington, D.C., Chicago, Illinois and New York, New York.
+Please call the SEC toll free at 1-800-SEC-0330 for information about its public
+reference rooms. You may also read our filings at the SEC's Web site at
+http://www.sec.gov.
+ 
+     We have filed with the SEC a registration statement on Form S-4 under the
+Securities Act of 1933. This prospectus does not contain all of the information
+in the registration statement. We have omitted certain parts of the registration
+statement, as permitted by the rules and regulations of the SEC. You may inspect
+and copy the registration statement, including exhibits, at the SEC's public
+reference facilities or Web site. Our statements in this prospectus about the
+contents of any contract or other document are not necessarily complete. You
+should refer to the copy of each contract or other document we have filed as an
+exhibit to the registration statement for complete information.
+ 
+     The SEC allows us to "incorporate by reference" into this prospectus the
+information we file with it. This means that we can disclose important business
+and financial information about us to you by referring you to those documents.
+This information we incorporate by reference is considered a part of this
+prospectus, and later information we file with the SEC will automatically update
+and supersede this information. We incorporate by reference the documents listed
+below and any future filings we make with
+ 
+                                        1
+<PAGE>   4
+ 
+the SEC under Sections 13(a), 13(c), 14 and 15(d) of the Securities Exchange Act
+of 1934 until this offering is completed:
+ 
+     - Our Annual Report on Form 10-K for the year ended December 31, 1998;
+ 
+     - Our definitive Proxy Statement filed on April 7, 1999;
+ 
+     - Our Current Reports on Form 8-K filed on January 5, 1999, January 27,
+       1999, January 28, 1999, January 29, 1999, February 4, 1999, March 29,
+       1999, March 30, 1999 and April 27, 1999;
+ 
+     - Our Current Report on Form 8-K filed on August 27, 1998;
+ 
+     - The description of the common stock in our Registration Statement on Form
+       8-A filed with the SEC on May 2, 1997, under Section 12(g) of the
+       Exchange Act; and
+ 
+     - All other documents filed by Amazon.com pursuant to Section 13(a), 13(c),
+       14 or 15(d) of the Exchange Act after the date of this prospectus and
+       prior to the termination of this offering.
+ 
+     You may obtain copies of these documents (other than exhibits) free of
+charge by contacting Amazon.com's Secretary at our principal offices, which are
+located at 1516 Second Avenue, Seattle, Washington 98101, telephone number (206)
+622-2335. TO OBTAIN TIMELY DELIVERY, YOU MUST REQUEST THESE DOCUMENTS NO LATER
+THAN FIVE BUSINESS DAYS BEFORE YOU MAKE YOUR INVESTMENT DECISION.
+ 
+     You should rely only on the information incorporated by reference or
+provided in this prospectus or any prospectus supplement. We have not authorized
+anyone else to provide you with different information. You should not assume
+that the information in this prospectus or any prospectus supplement is accurate
+as of any date other than the date on the front of the document.
+ 
+                                   AMAZON.COM
+ 
+     Amazon.com, Inc. is the Internet's number one book, music and video
+retailer. Amazon.com, one of the most widely known, used and cited commerce
+sites on the Web, offers more than 4.7 million book, music CD, video, DVD,
+computer game and other titles. Amazon.com also operates Amazon.com Auctions,
+where sellers can offer items for sale to 8 million Amazon.com customers. We
+offer our customers a superior shopping experience by providing value and a high
+level of customer service. We are a proven technology leader; we developed
+electronic commerce innovations such as 1-Click ordering, personalized shopping
+services and easy-to-use search and browse features.
+ 
+     We were incorporated in 1994 in the state of Washington and reincorporated
+in 1996 in the state of Delaware. Our principal corporate offices are located in
+Seattle, Washington. Our mailing address and telephone number are 1516 Second
+Avenue, Seattle, Washington 98101, (206) 622-2335.
+ 
+     Information contained on our Web sites is not a part of this prospectus.
+ 
+     Amazon.com, Amazon.co.uk, Amazon.de, Internet Movie Database, Earth's
+Biggest Bookstore and 1-Click are either registered trademarks or trademarks of
+Amazon.com or its affiliates. All other names mentioned in this prospectus or in
+the documents incorporated by reference may be trademarks of their respective
+owners.
+ 
+                                  RISK FACTORS
+ 
+     You should carefully consider the following risk factors and the other
+information in this prospectus before investing in our common stock.
+ 
+WE HAVE A LIMITED OPERATING HISTORY
+ 
+     We incorporated in July 1994 and began offering products for sale on our
+Web site in July 1995. Accordingly, we have a relatively short operating history
+upon which you can evaluate our business and prospects. You should consider our
+prospects in light of the risks, expenses and difficulties frequently
+                                        2
+<PAGE>   5
+ 
+encountered by early-stage online commerce companies. As an early-stage online
+commerce company, we have an evolving and unpredictable business model, we face
+intense competition, we must effectively manage our growth and we must respond
+quickly to rapid changes in customer demands and industry standards. We may not
+succeed in addressing these challenges and risks.
+ 
+WE HAVE AN ACCUMULATED DEFICIT AND ANTICIPATE FURTHER LOSSES
+ 
+     We have incurred significant losses since we began doing business. As of
+December 31, 1998, we had an accumulated deficit of $162.1 million. To succeed
+we must invest heavily in marketing and promotion and in developing our product,
+technology and operating infrastructure. In addition, the expenses associated
+with our recent acquisitions, and interest expense related to our outstanding
+notes, will adversely affect our operating results. Our aggressive pricing
+programs have resulted in relatively low product gross margins, so we need to
+generate and sustain substantially higher revenues in order to become
+profitable. Although our revenues have grown, we cannot sustain our current rate
+of growth. Our percentage growth rate will decrease in the future. For these
+reasons we believe that we will continue to incur substantial operating losses
+for the foreseeable future, and these losses may be significantly higher than
+our current losses.
+ 
+UNPREDICTABILITY OF FUTURE REVENUES; POTENTIAL FLUCTUATIONS IN QUARTERLY
+OPERATING RESULTS; SEASONALITY; CONSUMER TRENDS
+ 
+     Due to our limited operating history and the unpredictability of our
+industry, we cannot accurately forecast our revenues. We base our current and
+future expense levels on our investment plans and estimates of future revenues.
+Our expenses are to a large extent fixed. We may not be able to adjust our
+spending quickly if our revenues fall short of our expectations. Further, we may
+make pricing, purchasing, service, marketing, acquisition or financing decisions
+that could adversely affect our business results.
+ 
+     Our quarterly operating results will fluctuate for many reasons, including:
+ 
+     - our ability to retain existing customers, attract new customers and
+       satisfy our customers' demand,
+ 
+     - our ability to acquire merchandise, manage our inventory and fulfill
+       orders,
+ 
+     - changes in gross margins of our current and future products, services and
+       markets,
+ 
+     - introduction of our new sites, services and products or those of
+       competitors,
+ 
+     - changes in usage of the Internet and online services and consumer
+       acceptance of the Internet and online commerce,
+ 
+     - timing of upgrades and developments in our systems and infrastructure,
+ 
+     - the level of traffic on our Web sites,
+ 
+     - the effects of acquisitions and other business combinations, and related
+       integration,
+ 
+     - technical difficulties, system downtime or Internet brownouts,
+ 
+     - introductions of popular books, music selections and other products or
+       services,
+ 
+     - our level of merchandise returns, and
+ 
+     - disruptions in service by common shipping carriers due to strikes or
+       otherwise.
+ 
+     The popularity of our auction services and certain items offered through
+our auction services may vary over time due to perceived scarcity, subjective
+value, "fads" and consumer trends in general. If the popularity of our auction
+services or the items that are listed for sale declines, our revenues from our
+auction services will fall.
+ 
+     Both seasonal fluctuations in Internet usage and traditional retail
+seasonality may affect our business. Internet usage generally declines during
+the summer. Sales in the traditional retail book and music industries usually
+increase significantly in the fourth calendar quarter of each year.
+ 
+                                        3
+<PAGE>   6
+ 
+     For these reasons, you should not rely on period-to-period comparisons of
+our financial results to forecast our future performance. Our future operating
+results may fall below the expectations of securities analysts or investors,
+which would likely cause the trading price of our common stock to decline.
+ 
+INTENSE COMPETITION
+ 
+     The online commerce market is new, rapidly evolving and intensely
+competitive. In addition, the retail book, music and video industries are
+intensely competitive. Our current or potential competitors include
+ 
+     - online booksellers and vendors of other products such as CDs, videotapes
+       and DVDs,
+ 
+     - a number of indirect competitors, including Web portals and Web search
+       engines, such as Yahoo! Inc. and America Online, Inc., that are involved
+       in online commerce, either directly or in collaboration with other
+       retailers,
+ 
+     - online auction services, including eBay, Inc. and Yahoo! Auctions run by
+       Yahoo!,
+ 
+     - publishers, distributors and retail vendors of books, music, video and
+       other products, including Barnes & Noble, Inc., Bertelsmann AG and other
+       large specialty booksellers and media corporations, many of which possess
+       significant brand awareness, sales volume and customer bases, and
+ 
+     - traditional retailers who currently sell, or who may sell, products or
+       services through the Internet.
+ 
+     We believe that the principal competitive factors in our market are brand
+recognition, selection, personalized services, convenience, price,
+accessibility, customer service, quality of search tools, quality of editorial
+and other site content, and reliability and speed of fulfillment.
+ 
+     Many of our current and potential competitors have longer operating
+histories, larger customer bases, greater brand recognition and significantly
+greater financial, marketing and other resources than we have. They may be able
+to secure merchandise from vendors on more favorable terms and may be able to
+adopt more aggressive pricing or inventory policies. They also can devote more
+resources to technology development and marketing than we can. We also expect to
+experience increased competition from online commerce sites that provide goods
+and services at or near cost, relying on advertising revenues to achieve
+profitability.
+ 
+     As the online commerce market continues to grow, other companies may enter
+into business combinations or alliances that strengthen their competitive
+positions. For example, in late 1998, (1) Bertelsmann announced that it
+purchased a 50% interest in Barnes & Noble's online venture, barnesandnoble.com
+inc., and intends to launch online stores in several countries, (2) Barnes &
+Noble announced its pending acquisition of Ingram Book Group, currently our
+largest single supplier, and (3) online music retailers CDnow, Inc. and N2K Inc.
+announced a merger. We may not be able to compete successfully against these and
+future competitors.
+ 
+     Competition in the Internet and online commerce markets probably will
+intensify. As various Internet market segments obtain large, loyal customer
+bases, participants in those segments may use their market power to expand into
+the markets in which we operate. In addition, new and expanded Web technologies
+may increase the competitive pressures on online retailers. For example,
+"shopping agent" technologies permit customers to quickly compare our prices
+with those of our competitors. This increased competition may reduce our
+operating margins, diminish our market share or impair the value of our brand.
+ 
+RISKS OF SYSTEM INTERRUPTION
+ 
+     Customer access to our Web sites directly affects the volume of orders we
+fulfill and thus affects our revenues. We experience occasional system
+interruptions that make our Web sites unavailable or prevent us from efficiently
+fulfilling orders, which may reduce the volume of goods we sell and the
+attractiveness of our products and services. These interruptions will continue.
+We need to add additional software and hardware and upgrade our systems and
+network infrastructure to accommodate increased traffic on our
+ 
+                                        4
+<PAGE>   7
+ 
+Web sites and increased sales volume. Without these upgrades, we face additional
+system interruptions, slower response times, diminished customer service,
+impaired quality and speed of order fulfillment, and delays in our financial
+reporting. We cannot accurately project the rate or timing of any increases in
+traffic or sales volume on our Web sites and, therefore, the integration and
+timing of these upgrades are uncertain.
+ 
+     We maintain substantially all of our computer and communications hardware
+at a single leased facility in Seattle, Washington. Our systems and operations
+could be damaged or interrupted by fire, flood, power loss, telecommunications
+failure, break-ins, earthquake and similar events. We do not have backup systems
+or a formal disaster recovery plan and we may not have sufficient business
+interruption insurance to compensate us for losses from a major interruption.
+Computer viruses, physical or electronic break-ins and similar disruptions could
+cause system interruptions, delays, and loss of critical data and could prevent
+us from providing services and accepting and fulfilling customer orders.
+ 
+WE MAY HAVE DIFFICULTY MANAGING OUR GROWTH
+ 
+     We have rapidly and significantly expanded our operations and will further
+expand our operations to address potential growth of our product and service
+offerings and customer base. We will expand our product and service offerings
+and our international operations and will pursue other market opportunities. We
+need to expand significantly our distribution center network and improve our
+transaction-processing, operational and financial systems, procedures and
+controls. This expansion will continue to place a significant strain on our
+management, operational facilities and financial resources. Because it is
+difficult to predict sales increases and lead times for developing distribution
+centers are long, we may over-expand our facilities, which may result in excess
+inventory, warehousing, fulfillment and distribution capacity. We also need to
+expand, train and manage our employee base. Our current and planned personnel,
+systems, procedures and controls may not be adequate to support and effectively
+manage our future operations. We may not be able to hire, train, retain,
+motivate and manage required personnel or to successfully identify, manage and
+exploit market opportunities, which may limit our growth.
+ 
+RISK OF ENTERING NEW BUSINESS AREAS
+ 
+     We intend to expand our operations by promoting new or complementary
+products, services or sales formats and by expanding our product or service
+offerings. This will require significant additional expense and could strain our
+management, financial and operational resources. We cannot expect to benefit in
+these new markets from the first-to-market advantage that we experienced in the
+online book market. Our gross margins in these new business areas may be lower
+than our existing business activities. We may not be able to expand our
+operations in a cost-effective or timely manner. Any new business that our
+customers do not receive favorably could damage our reputation and the Amazon
+brand.
+ 
+RISK OF INTERNATIONAL EXPANSION
+ 
+     We plan to expand our presence in foreign markets. We have relatively
+little experience in purchasing, marketing and distributing products or services
+for these markets and may not benefit from any first-to-market advantages. It
+will be costly to establish international facilities and operations, promote our
+brand internationally, and develop localized Web sites and stores and other
+systems. We may not succeed in our efforts in these countries. If revenues from
+international activities do not offset the expense of establishing and
+maintaining foreign operations, our business, prospects, financial condition and
+operating results will suffer.
+ 
+     As the international online commerce market continues to grow, competition
+in this market will likely intensify. In addition, governments in foreign
+jurisdictions may regulate Internet or other online services in such areas as
+content, privacy, network security, encryption or distribution. This may affect
+our ability to conduct business internationally.
+ 
+                                        5
+<PAGE>   8
+ 
+RISKS OF BUSINESS COMBINATIONS AND STRATEGIC ALLIANCES
+ 
+     We may expand our operations or market presence by entering into business
+combinations, investments, joint ventures or other strategic alliances with
+other companies. These transactions create risks such as:
+ 
+     - difficulty assimilating the operations, technology and personnel of the
+       combined companies,
+ 
+     - disruption of our ongoing business,
+ 
+     - problems retaining key technical and managerial personnel,
+ 
+     - expenses associated with amortization of goodwill and other purchased
+       intangible assets,
+ 
+     - additional operating losses and expenses of acquired businesses, and
+ 
+     - impairment of relationships with existing employees, customers and
+       business partners.
+ 
+     We may not succeed in addressing these risks. In addition, the businesses
+we acquired in 1998 are incurring operating losses.
+ 
+RAPID TECHNOLOGICAL CHANGE
+ 
+     Technology in the online commerce industry changes rapidly. Customer
+functionality requirements and preferences also change. Competitors often
+introduce new products and services with new technologies. These changes and the
+emergence of new industry standards and practices could render our existing Web
+sites and proprietary technology obsolete. To succeed we must enhance our Web
+site responsiveness, functionality and features, acquire and license leading
+technologies, enhance our existing services, develop new services and technology
+and respond to technological advances and emerging industry standards and
+practices on a cost-effective and timely basis. We may not be able to adapt
+quickly enough to changing customer requirements and industry standards.
+ 
+WE DEPEND ON KEY PERSONNEL
+ 
+     We depend on the continued services and performance of our senior
+management and other key personnel, particularly Jeffrey P. Bezos, our
+president, chief executive officer and chairman of the board. We do not have
+long-term employment agreements with any of our key personnel, and we do not
+have "key person" life insurance policies. The loss of any of our executive
+officers or other key employees could harm our business.
+ 
+WE RELY ON A SMALL NUMBER OF SUPPLIERS
+ 
+     We purchase a majority of our products from three major vendors, Ingram,
+Baker & Taylor, Inc. and Valley Media, Inc. In late 1998, Barnes & Noble, one of
+our largest competitors, announced an agreement to purchase Ingram. Ingram is
+our single largest supplier and supplied approximately 40% of our inventory
+purchases in 1998 and approximately 60% of our inventory purchases in 1997.
+Although we increased our direct purchasing from manufacturers during 1998, we
+continue to purchase a majority of our products from these three suppliers. We
+do not have long-term contracts or arrangements with most of our vendors to
+guarantee the availability of merchandise, particular payment terms or the
+extension of credit limits. Our current vendors may stop selling merchandise to
+us on acceptable terms. We may not be able to acquire merchandise from other
+suppliers in a timely and efficient manner and on acceptable terms.
+ 
+                                        6
+<PAGE>   9
+ 
+WE ARE HIGHLY LEVERAGED
+ 
+     We have significant indebtedness. As of December 31, 1998, we were indebted
+under senior discount notes, capitalized lease obligations and other asset
+financing. With the February 1999 sale of 4 3/4% convertible subordinated notes
+due 2009, we incurred $1,250,000,000 of additional indebtedness. We may incur
+substantial additional debt in the future. Our indebtedness could:
+ 
+     - make it difficult to make principal and interest payments on the
+       convertible subordinated notes and the senior discount notes,
+ 
+     - make it difficult to obtain necessary financing for working capital,
+       capital expenditures, debt service requirements or other purposes,
+ 
+     - limit our flexibility in planning for, or reacting to, changes in our
+       business and competition, and
+ 
+     - make it more difficult for us to react in the event of an economic
+       downturn.
+ 
+     We may not be able to meet our debt service obligations. If our cash flow
+is inadequate to meet our obligations, we may face substantial liquidity
+problems. If we are unable to generate sufficient cash flow or obtain funds for
+required payments, or if we fail to comply with other covenants in our
+indebtedness, we will be in default. This would permit our creditors to
+accelerate the maturity of our indebtedness.
+ 
+RISKS ASSOCIATED WITH DOMAIN NAMES
+ 
+     We hold rights to various Web domain names, including "Amazon.com,"
+"Amazon.co.uk" and "Amazon.de." Governmental agencies typically regulate domain
+names. These regulations are subject to change. We may not be able to acquire or
+maintain appropriate domain names in all countries in which we do business.
+Furthermore, regulations governing domain names may not protect our trademarks
+and similar proprietary rights. We may be unable to prevent third parties from
+acquiring domain names that are similar to, infringe upon or diminish the value
+of our trademarks and other proprietary rights.
+ 
+GOVERNMENTAL REGULATION AND LEGAL UNCERTAINTIES
+ 
+     At this time, we face general business regulations and laws or regulations
+regarding taxation and access to online commerce. For example, expanding our
+distribution center network or other aspects of our business may result in
+additional sales and other tax obligations. Regulatory authorities may adopt
+specific laws and regulations governing the Internet or online commerce. These
+regulations may cover taxation, user privacy, pricing, content, copyrights,
+distribution, electronic contracts and characteristics and quality of products
+and services. Changes in consumer protection laws also may impose additional
+burdens on companies conducting business online. In addition, many states
+currently regulate "auctions" and "auctioneers" in conducting auctions and may
+regulate online auction services. These laws or regulations may impede the
+growth of the Internet or other online services. This could, in turn, diminish
+the demand for our products and services and increase our cost of doing
+business. Moreover, it is not clear how existing laws governing issues such as
+property ownership, sales and other taxes, libel and personal privacy apply to
+the Internet and online commerce. Unfavorable resolution of these issues may
+harm our business.
+ 
+RISKS RELATED TO AUCTION SERVICES
+ 
+     We may be unable to prevent users of our auction services from selling
+unlawful goods, or from selling goods in an unlawful manner. We may face civil
+or criminal liability for unlawful activities by our online auction users. Any
+costs we incur as a result of liability relating to the sale of unlawful goods
+or the unlawful sale of goods could harm our business.
+ 
+     In running our auction services, we rely on sellers of goods to make
+accurate representations and provide reliable delivery and on buyers to pay the
+agreed purchase price. We do not take responsibility for delivery of payment or
+goods to any users of our service. While we can suspend or terminate the
+accounts of users who fail to fulfill their delivery obligations to other users,
+we cannot require users to make
+ 
+                                        7
+<PAGE>   10
+ 
+payments or deliver goods. We do not compensate users who believe they have been
+defrauded by other users except through our limited guarantee program.
+ 
+RISK OF UNCERTAIN PROTECTION OF INTELLECTUAL PROPERTY
+ 
+     Third parties that license our proprietary rights, such as trademarks,
+patented technology or copyrighted material, may take actions that diminish the
+value of our proprietary rights or reputation. In addition, the steps we take to
+protect our proprietary rights may not be adequate and third parties may
+infringe or misappropriate our copyrights, trademarks, trade dress, patents and
+similar proprietary rights. Other parties may claim that we infringed their
+proprietary rights. We have been subject to claims, and expect to continue to be
+subject to legal proceedings and claims, regarding alleged infringement by us
+and our licensees of the trademarks and other intellectual property rights of
+third parties. Such claims, whether or not meritorious, may result in the
+expenditure of significant financial and managerial resources. Most recently,
+Amazon Bookstore, Inc. filed suit against us alleging trademark infringement and
+unfair competition under state and federal law. Amazon Bookstore is seeking
+injunctive relief against our use of the marks Amazon.com, Amazon.com Books and
+Amazon Books, the cancellation of our federal trademark registrations, damages,
+profits, treble damages, costs and attorneys' fees. We have only recently been
+served with the complaint and as of the date of this prospectus have not yet
+filed an answer.
+ 
+RISKS OF YEAR 2000 NONCOMPLIANCE
+ 
+     We have developed a plan to modify our information technology to recognize
+the year 2000 and have begun converting our critical data processing systems. We
+have initiated formal communications with our significant suppliers and service
+providers to determine the extent to which our systems may be vulnerable if they
+fail to address and correct their own Year 2000 issues. We cannot guarantee that
+the systems of suppliers or other companies on which we rely will be Year 2000
+compliant. Their failure to convert their systems could disrupt our systems. In
+addition, the computer systems necessary to maintain the viability of the
+Internet or any of the Web sites that direct consumers to our online stores may
+not be Year 2000 compliant. Finally, computers used by our customers to access
+our online stores may not be Year 2000 compliant, delaying our customers'
+purchases of our products. We are in the process of developing a formal
+contingency plan. We cannot guarantee that our systems will be Year 2000
+compliant or that the Year 2000 problem will not adversely affect our business,
+which includes limiting or precluding customer purchases.
+ 
+OUR STOCK PRICE IS HIGHLY VOLATILE
+ 
+     The trading price of our common stock fluctuates significantly. For
+example, during the 52-week period ended April 23, 1999 (as adjusted for the
+2-for-1 split of our common stock on June 1, 1998 and 3-for-1 split of our
+common stock on January 4, 1999), the reported closing price of our common stock
+on the Nasdaq National Market was as high as $210.125 and as low as $13.50 per
+share. Trading prices of our common stock may fluctuate in response to a number
+of events and factors, such as:
+ 
+     - quarterly variations in operating results,
+ 
+     - announcements of innovations,
+ 
+     - new products, services and strategic developments by us or our
+       competitors, or business combinations and investments by us or our
+       competitors,
+ 
+     - changes in our operating expense levels or losses,
+ 
+     - changes in financial estimates and recommendations by securities
+       analysts,
+ 
+                                        8
+<PAGE>   11
+ 
+     - performance by other online commerce companies, and
+ 
+     - news reports relating to trends in the Internet, book, music, video or
+       other product or service industries.
+ 
+     Any of these events may cause our stock price to fall, which may adversely
+affect our business and financing opportunities. In addition, the stock market
+in general and the market prices for Internet-related companies in particular
+have experienced significant volatility that often has been unrelated to such
+companies' operating performance. These broad market and industry fluctuations
+may adversely affect the trading price of our common stock regardless of our
+operating performance.
+ 
+                                        9
+<PAGE>   12
+ 
+                   SELECTED CONSOLIDATED FINANCIAL STATEMENTS
+ 
+     You should read the following selected consolidated financial data in
+conjunction with the consolidated financial statements and notes contained in
+our annual report for the year ended December 31, 1998. Historical results are
+not necessarily indicative of future results.
+ 
+<TABLE>
+<CAPTION>
+                                                                                         PERIOD FROM
+                                                                                         JULY 5, 1994
+                                                    YEARS ENDED DECEMBER 31,            (INCEPTION) TO
+                                            -----------------------------------------    DECEMBER 31,
+                                              1998        1997       1996      1995          1994
+                                            ---------   --------   --------   -------   --------------
+                                                      (IN THOUSANDS, EXCEPT PER SHARE DATA)
+<S>                                         <C>         <C>        <C>        <C>       <C>
+STATEMENT OF OPERATIONS DATA(1):
+Net sales.................................  $ 609,996   $147,787   $ 15,746   $   511       $   --
+Cost of sales.............................    476,155    118,969     12,287       409           --
+                                            ---------   --------   --------   -------       ------
+Gross profit..............................    133,841     28,818      3,459       102           --
+Operating expenses:
+  Marketing and sales.....................    133,023     40,486      6,090       200           --
+  Product development.....................     46,807     13,916      2,401       171           38
+  General and administrative..............     15,799      7,011      1,411        35           14
+  Merger and acquisition related costs,
+     including amortization of goodwill
+     and other purchased intangibles......     50,172         --         --        --           --
+                                            ---------   --------   --------   -------       ------
+          Total operating expenses........    245,801     61,413      9,902       406           52
+                                            ---------   --------   --------   -------       ------
+Loss from operations......................   (111,960)   (32,595)    (6,443)     (304)         (52)
+Interest income...........................     14,053      1,901        202         1           --
+Interest expense..........................    (26,639)      (326)        (5)       --           --
+                                            ---------   --------   --------   -------       ------
+          Net interest income (expense)...    (12,586)     1,575        197         1           --
+                                            ---------   --------   --------   -------       ------
+Net loss..................................  $(124,546)  $(31,020)  $ (6,246)  $  (303)      $  (52)
+                                            =========   ========   ========   =======       ======
+Basic and diluted loss per share(2).......  $   (0.84)  $  (0.24)  $  (0.06)  $ (0.00)      $(0.00)
+                                            =========   ========   ========   =======       ======
+Shares used in computation of basic and
+  diluted loss per share(2)...............    148,172    130,341    111,271    86,364       79,146
+                                            =========   ========   ========   =======       ======
+</TABLE>
+ 
+<TABLE>
+<CAPTION>
+                                                                   DECEMBER 31,
+                                            ----------------------------------------------------------
+                                              1998        1997       1996      1995          1994
+                                            ---------   --------   --------   -------   --------------
+                                                                  (IN THOUSANDS)
+<S>                                         <C>         <C>        <C>        <C>       <C>
+BALANCE SHEET DATA(1):
+Cash......................................   $ 25,561   $  1,876      $ 864     $ 804        $ 52
+Marketable securities.....................    347,884    123,499      5,425       192          --
+Working capital (deficiency)..............    262,679     93,158      1,698       920         (16)
+Total assets..............................    648,460    149,844      8,434     1,084          76
+Long-term debt............................    348,140     76,702         --        --          --
+Stockholders' equity......................    138,745     28,591      2,943       977           8
+</TABLE>
+ 
+- ---------------
+(1) Reflects restatement for pooling of interests. See Notes 1 and 2 of Notes to
+    Consolidated Financial Statements contained in our Annual Report on Form
+    10-K for the year ended December 31, 1998.
+ 
+(2) For further discussion of loss per share see Notes 1 and 8 of Notes to
+    Consolidated Financial Statements contained in our Annual Report on Form
+    10-K for the year ended December 31, 1998.
+ 
+                                       10
+<PAGE>   13
+ 
+                                  THE OFFERING
+ 
+     This prospectus covers up to 15,000,000 shares of common stock we may issue
+to facilitate our continuing program of business acquisitions. We may acquire
+businesses for cash, notes or other debt, the assumption of liabilities, or
+equity securities. We may issue these shares in exchange for shares, partnership
+interests or other assets representing interests in businesses we acquire, in a
+merger or consolidation, or in exchange for assets we buy from other companies.
+We may acquire other companies or assets directly, or indirectly through a
+subsidiary, joint venture or other entity, and we may acquire all or only a
+portion of any entity or its assets. We also may acquire other companies or
+assets in negotiated transactions or, in the case of businesses that are widely
+held, through exchange offers or solicitations of mergers, consolidations or
+sales of assets. We do not expect to pay any underwriting discounts or
+commissions but we may issue a portion of these shares to pay brokers'
+commissions incurred in connection with future acquisitions.
+ 
+                     RESTRICTIONS ON RESALE OF COMMON STOCK
+ 
+     We have registered the shares covered by this prospectus under the
+Securities Act. However, the registration statement does not cover your resale
+or distribution of shares you may receive. Affiliates of businesses we acquire
+generally may not resell their shares except:
+ 
+     - pursuant to an effective registration statement under the Securities Act,
+ 
+     - in compliance with Rule 145 under the Securities Act, or
+ 
+     - in compliance with another exemption from the registration requirements
+       of the Securities Act.
+ 
+     Rule 145 permits affiliates of an acquired company to resell shares
+immediately following an acquisition if the resale complies with volume
+limitations and manner of sale requirements. Under Rule 145, sales by such
+affiliates during any three-month period cannot exceed the greater of (1) 1% of
+the total number of shares of our common stock outstanding and (2) the average
+weekly trading volume of our shares on all national securities exchanges and/or
+reported through the Nasdaq National Market during the four calendar weeks
+preceding a proposed sale. These restrictions generally apply until the
+affiliate has held our shares for at least one year, unless the affiliate of the
+acquired company becomes an affiliate of Amazon.com. If you are not an affiliate
+of the business we are acquiring, you will not be subject to these restrictions.
+You should check with your legal advisors about these restrictions before making
+an investment decision.
+ 
+                          DESCRIPTION OF CAPITAL STOCK
+ 
+     Our authorized capital stock consists of 300,000,000 shares of common
+stock, $0.01 par value per share, and 10,000,000 shares of preferred stock,
+$0.01 par value per share. If approved at the annual meeting of stockholders,
+scheduled for May 20, 1999, we will amend our restated certificate of
+incorporation such that our authorized capital stock will consist of
+1,500,000,000 shares of common stock and 150,000,000 shares of preferred stock.
+The following summary of certain provisions of the common stock and preferred
+stock is not complete and is subject to, and qualified in its entirety by, the
+provisions of our restated certificate of incorporation.
+ 
+DESCRIPTION OF THE COMMON STOCK
+ 
+     Under our current restated certificate of incorporation, we may issue up to
+300,000,000 shares of our common stock (up to 1,500,000,000 shares if the
+amendment is approved by our stockholders). Holders of common stock are entitled
+to one vote per share on all matters submitted to a vote of stockholders.
+Subject to preferences that may apply to our preferred stock, the holders of
+common stock receive ratably any dividends that may be declared by our board of
+directors. In the event of a liquidation, dissolution or winding up of
+Amazon.com, the holders of common stock will share equally and ratably in all
+assets remaining after we pay liabilities and liquidation preferences to holders
+of preferred stock. Holders of common stock have no preemptive rights or rights
+to convert their common stock into any other securities.
+                                       11
+<PAGE>   14
+ 
+The common stock is neither redeemable nor subject to call. No sinking fund
+provisions apply to the common stock. All outstanding shares of common stock are
+fully paid and nonassessable.
+ 
+     Washington law imposes restrictions on some transactions between a
+corporation and certain significant shareholders. Chapter 23B.19 of the
+Washington Business Corporation Act prohibits a "target corporation," with some
+exceptions, from engaging in certain significant business transactions with an
+"acquiring person," which is defined as a person or group of persons that
+beneficially owns 10% or more of the voting securities of the target
+corporation, for a period of five years after such acquisition, unless the
+transaction or acquisition of shares is approved by a majority of the members of
+the target corporation's board of directors prior to the acquisition. Such
+prohibited transactions include, among other things:
+ 
+     - a merger or consolidation with, disposition of assets to, or issuance or
+       redemption of stock to or from, the acquiring person;
+ 
+     - termination of 5% or more of the employees of the target corporation as a
+       result of the acquiring person's acquisition of 10% or more of the
+       shares; or
+ 
+     - allowing the acquiring person to receive any disproportionate benefit as
+       a shareholder.
+ 
+     After the five-year period, a "significant business transaction" may occur,
+as long as it complies with certain "fair price" provisions of the statute. A
+corporation may not opt out of this statute. This provision may have the effect
+of delaying, deterring or preventing a change in control of Amazon.com.
+ 
+     Section 203 of the Delaware General Corporation Law generally prohibits
+Delaware corporations from engaging in some "business combinations" with some
+"interested stockholders" for a period of three years unless certain criteria
+are met. We have expressly elected in our restated certificate of incorporation
+not to be governed by Section 203.
+ 
+DESCRIPTION OF THE PREFERRED STOCK
+ 
+     Our current restated certificate of incorporation permits us to issue up to
+10,000,000 shares of our preferred stock (up to 150,000,000 shares if the
+amendment is approved by our stockholders), in one or more series and with
+rights, preferences, privileges and restrictions that may be fixed or designated
+by our board of directors without any further action by our stockholders. The
+board of directors, without stockholder approval, can issue preferred stock with
+voting, conversion, dividend, redemption, liquidation or other rights that could
+adversely affect the voting power and other rights of the holders of common
+stock. Preferred stock could thus be issued quickly with terms calculated to
+delay or prevent a change in control of Amazon.com or make removal of management
+more difficult. Additionally, the issuance of preferred stock may have the
+effect of decreasing the market price of our common stock, and may adversely
+affect the voting and other rights of the holders of common stock. We have no
+plans to issue any preferred stock at this time.
+ 
+TRANSFER AGENT AND REGISTRAR
+ 
+     The transfer agent and registrar for our common stock is ChaseMellon
+Shareholder Services, Ridgefield Park, New Jersey.
+ 
+                                       12
+<PAGE>   15
+ 
+                                 LEGAL MATTERS
+ 
+     Perkins Coie LLP, Seattle, Washington, will provide Amazon.com with an
+opinion as to legal matters in connection with the common stock offered by this
+prospectus.
+ 
+                                    EXPERTS
+ 
+     The consolidated financial statements of Amazon.com appearing in
+Amazon.com's Annual Report (Form 10-K) for the year ended December 31, 1998,
+have been audited by Ernst & Young LLP, independent auditors, as set forth in
+their report thereon incorporated herein by reference. Such consolidated
+financial statements are incorporated herein by reference in reliance upon such
+report given on the authority of such firm as experts in accounting and
+auditing.
+ 
+     The financial statements of Junglee Corp., incorporated in this prospectus
+by reference to Amazon.com's Current Report on Form 8-K filed August 27, 1998,
+have been audited by Deloitte & Touche LLP, independent auditors, as stated in
+their report, which is incorporated herein by reference, and have been so
+incorporated in reliance upon the report of such firm given upon their authority
+as experts in accounting and auditing.
+ 
+                                       13
+<PAGE>   16
+ 
+- --------------------------------------------------------------------------------
+- --------------------------------------------------------------------------------
+ 
+     WE HAVE NOT AUTHORIZED ANY PERSON TO GIVE YOU ANY INFORMATION OR TO MAKE
+ANY REPRESENTATIONS OTHER THAN THOSE CONTAINED IN THIS PROSPECTUS. YOU SHOULD
+NOT RELY ON ANY INFORMATION OR REPRESENTATIONS OTHER THAN THOSE CONTAINED IN
+THIS PROSPECTUS. THIS PROSPECTUS IS NOT AN OFFER TO SELL OR A SOLICITATION OF AN
+OFFER TO BUY ANY SECURITIES OTHER THAN THE COMMON STOCK. IT IS NOT AN OFFER TO
+SELL OR A SOLICITATION OF AN OFFER TO BUY SECURITIES IF THE OFFER OR
+SOLICITATION WOULD BE UNLAWFUL. THE AFFAIRS OF AMAZON.COM MAY HAVE CHANGED SINCE
+THE DATE OF THIS PROSPECTUS. YOU SHOULD NOT ASSUME THAT THE INFORMATION IN THIS
+PROSPECTUS IS CORRECT AT ANY TIME SUBSEQUENT TO ITS DATE.
+ 
+                               15,000,000 SHARES
+ 
+                               [AMAZON.COM.LOGO]
+ 
+                                  COMMON STOCK
+ 
+                      ------------------------------------
+ 
+                                   PROSPECTUS
+                      ------------------------------------
+ 
+                                            , 1999
+ 
+- --------------------------------------------------------------------------------
+- --------------------------------------------------------------------------------
+<PAGE>   17
+ 
+                                    PART II
+ 
+                     INFORMATION NOT REQUIRED IN PROSPECTUS
+ 
+ITEM 20. INDEMNIFICATION OF DIRECTORS AND OFFICERS
+ 
+     Section 145 of the Delaware General Corporation Law (the "DGCL") provides
+that a corporation may indemnify its directors and officers, as well as other
+employees and individuals, against expenses (including attorneys' fees),
+judgments, fines and amounts paid in settlement in connection with specified
+actions, suits or proceedings, whether civil, criminal, administrative or
+investigative (other than an action by or in the right of the corporation -- a
+"derivative action"), if they acted in good faith and in a manner they
+reasonably believed to be in or not opposed to the best interests of the
+corporation, and, with respect to any criminal action or proceeding, had no
+reasonable cause to believe their conduct was unlawful. A similar standard is
+applicable in the case of derivative actions, except that indemnification only
+extends to expenses (including attorneys' fees) incurred in connection with the
+defense or settlement of such actions, and the statute requires court approval
+before there can be any indemnification in which the person seeking
+indemnification has been found liable to the corporation. The statute provides
+that it is not exclusive of other indemnification that may be granted by a
+corporation's charter, bylaws, disinterested director vote, stockholder vote,
+agreement or otherwise.
+ 
+     Section 10 of the registrant's Bylaws requires indemnification to the full
+extent permitted under Delaware law as it now exists or may hereafter be
+amended. Subject to any restrictions imposed by Delaware law, the Bylaws provide
+an unconditional right to indemnification for all expense, liability and loss
+(including attorneys' fees, judgments, fines, ERISA excise taxes or penalties
+and amounts paid in settlement) actually and reasonably incurred or suffered by
+any person in connection with any actual or threatened action, suit or
+proceeding, whether civil, criminal, administrative or investigative (including,
+to the extent permitted by law, any derivative action) by reason of the fact
+that such person is or was serving as a director or officer of the registrant or
+that, being or having been a director or officer of the registrant, such person
+is or was serving at the request of the registrant as a director, officer,
+employee or agent of another corporation, partnership, joint venture, trust or
+other enterprise, including service with respect to an employee benefit plan.
+ 
+     The Bylaws also provide that the registrant may, by action of its Board of
+Directors, provide indemnification to its employees and agents with the same
+scope and effect as the foregoing indemnification of directors and officers.
+ 
+     Section 102(b)(7) of the DGCL permits a corporation to provide in its
+certificate of incorporation that a director of the corporation shall not be
+personally liable to the corporation or its stockholders for monetary damages
+for breach of fiduciary duty as a director, except for liability for (i) any
+breach of the director's duty of loyalty to the corporation or its stockholders,
+(ii) acts or omissions not in good faith or which involve intentional misconduct
+or a knowing violation of law, (iii) payments of unlawful dividends or unlawful
+stock repurchases or redemptions, or (iv) any transaction from which the
+director derived an improper personal benefit.
+ 
+     Article 10 of the registrant's Restated Certificate of Incorporation
+provides that to the full extent that the DGCL, as it now exists or may
+hereafter be amended, permits the limitation or elimination of the liability of
+directors, a director of the registrant shall not be liable to the registrant or
+its stockholders for monetary damages for breach of fiduciary duty as a
+director. Any amendment to or repeal of such Article 10 shall not adversely
+affect any right or protection of a director of the registrant for or with
+respect to any acts or omissions of such director occurring prior to such
+amendment or repeal.
+ 
+     The registrant has entered into certain indemnification agreements with its
+officers and directors. The indemnification agreements provide the registrant's
+officers and directors with further indemnification, to the maximum extent
+permitted by the DGCL.
+ 
+                                      II-1
+<PAGE>   18
+ 
+ITEM 21. EXHIBITS AND FINANCIAL STATEMENT SCHEDULES
+ 
+(a) EXHIBIT INDEX
+ 
+<TABLE>
+    <C>      <S>
+     3.1*    Restated Certificate of Incorporation.
+     3.2**   Restated By-Laws.
+     4.1**   Indenture, dated as of May 8, 1998, between the registrant
+             and the Bank of New York, as Trustee.
+     4.2**   Form of 10% Senior Discount Note due 2008.
+     4.3**   Registration Rights Agreement, entered May 8, 1998, between
+             the registrant and Morgan Stanley & Co., Incorporated.
+     4.4***  Indenture, dated as of February 3, 1999, between the
+             registrant and The Bank of New York, as Trustee, including
+             the form of 4 3/4% Convertible Subordinated Note due 2009
+             attached as Exhibit A thereto.
+     4.5***  Registration Rights Agreement, dated as of February 3, 1999,
+             by and among the registrant and the Initial Purchasers.
+     5.1     Opinion of Perkins Coie LLP.
+    23.1     Consent of Ernst & Young LLP, Independent Auditors.
+    23.2     Consent of Deloitte & Touche LLP.
+    23.3     Consent of Perkins Coie LLP (contained in Exhibit 5.1
+             above).
+    24.1*    Power of Attorney.
+</TABLE>
+ 
+- ---------------
+*   Previously filed.
+ 
+**  Incorporated by reference to the registrant's Quarterly Report on Form 10-Q
+    for the quarter ended March 31, 1998.
+ 
+*** Incorporated by reference to the registrant's Current Report on Form 8-K
+    filed with the SEC on February 4, 1999.
+ 
+ITEM 22. UNDERTAKINGS
+ 
+     A. The undersigned registrant hereby undertakes as follows:
+ 
+          (1) To file, during any period in which offers or sales are being
+     made, a post-effective amendment to this registration statement:
+ 
+             (i) To include any prospectus required by Section 10(a)(3) of the
+        Securities Act of 1933;
+ 
+             (ii) To reflect in the prospectus any facts or events arising after
+        the effective date of the registration statement (or the most recent
+        post-effective amendment thereof) which, individually or in the
+        aggregate, represent a fundamental change in the information set forth
+        in the registration statement. Notwithstanding the foregoing, any
+        increase or decrease in volume of securities offered (if the total
+        dollar value of securities offered would not exceed that which was
+        registered) and any deviation from the low or high of the estimated
+        maximum offering range may be reflected in the form of prospectus filed
+        with the Commission pursuant to Rule 424(b) if, in the aggregate, the
+        changes in volume and price represent no more than a 20 percent change
+        in the maximum aggregate offering price, set forth in the "Calculation
+        of Registration Fee" table in the effective registration statement; and
+ 
+             (iii) To include any material information with respect to the plan
+        of distribution not previously disclosed in the registration statement
+        or any material change to such information in the registration
+        statement.
+ 
+          (2) That, for the purpose of determining any liability under the
+     Securities Act of 1933, each post-effective amendment shall be deemed to be
+     a new registration statement relating to the securities
+ 
+                                      II-2
+<PAGE>   19
+ 
+     offered therein, and the offering of such securities at that time shall be
+     deemed to be the initial bona fide offering thereof, and
+ 
+          (3) To remove from registration by means of a post-effective amendment
+     any of the securities being registered that remain unsold at the
+     termination of the offering.
+ 
+     B. The undersigned registrant hereby undertakes that, for purposes of
+determining any liability under the Securities Act of 1933, each filing of the
+registrant's annual report pursuant to Section 13(a) or 15(d) of the Securities
+Exchange Act of 1934 (and, where applicable, each filing of an employee benefit
+plan's annual report pursuant to Section 15(d) of the Securities Exchange Act of
+1934) that is incorporated by reference in the registration statement shall be
+deemed to be a new registration statement relating to the securities offered
+therein, and the offering of such securities at that time shall be deemed to be
+the initial bona fide offering thereof.
+ 
+     C. (1) The undersigned registrant hereby undertakes as follows: that prior
+to any public reoffering of the securities registered hereunder through use of a
+prospectus that is a part of this registration statement, by any person or party
+who is deemed to be an underwriter within the meaning of Rule 145(c), the issuer
+undertakes that such reoffering prospectus will contain the information called
+for by the applicable registration form with respect to reofferings by persons
+who may be deemed underwriters, in addition to the information called for by the
+other items of the applicable form.
+ 
+     (2) The registrant undertakes that every prospectus (i) that is filed
+pursuant to paragraph (1) immediately preceding or (ii) purports to meet the
+requirements of Section 10(a)(3) of the Securities Act of 1933 and is used in
+connection with an offering of securities subject to Rule 415, will be filed as
+a part of any amendment to the registration statement and will not be used until
+such amendment is effective, and that, for purposes of determining any liability
+under the Securities Act of 1933, each such post-effective amendment shall be
+deemed to be a new registration statement relating to the securities offered
+therein, and the offering of such securities at that time shall be deemed to be
+the initial bona fide offering thereof.
+ 
+     D. Insofar as indemnification for liabilities arising under the Securities
+Act of 1933 may be permitted to directors, officers and controlling persons of
+the Registrant pursuant to the foregoing provisions, or otherwise, the
+registrant has been advised that in the opinion of the Securities and Exchange
+Commission such indemnification is against public policy as expressed in the
+Securities Act and is, therefore, unenforceable. In the event that a claim for
+indemnification against such liabilities (other than the payment by the
+registrant of expenses incurred or paid by a director, officer or controlling
+person of the registrant in the successful defense of any action, suit or
+proceeding) is asserted by such director, officer or controlling person in
+connection with the securities being registered, the registrant will, unless in
+the opinion of its counsel the matter has been settled by controlling precedent,
+submit to a court of appropriate jurisdiction the question of whether such
+indemnification by it is against public policy as expressed in the Securities
+Act and will be governed by the final adjudication of such issue.
+ 
+     E. The undersigned registrant hereby undertakes to respond to requests for
+information that is incorporated by reference into the prospectus pursuant to
+Item 4, 10(b), 11 or 13 of this Form, within one business day of receipt of such
+request, and to send the incorporated documents by first-class mail or other
+equally prompt means. This includes information contained in documents filed
+subsequent to the effective date of the registration statement through the date
+of responding to the request.
+ 
+     F. The undersigned registrant hereby undertakes to supply by means of a
+post-effective amendment all information concerning a transaction, and the
+company being acquired involved therein, that was not the subject of and
+included in the registration statement when it became effective, except where
+the transaction in which the securities being offered pursuant to the
+registration statement would itself qualify for an exemption under Section 5 of
+the Securities Act of 1933, absent the existence of other similar (prior or
+subsequent) transactions.
+ 
+                                      II-3
+<PAGE>   20
+ 
+                                   SIGNATURES
+ 
+     Pursuant to the requirements of the Securities Act of 1933, as amended, the
+registrant certifies that it has reasonable grounds to believe that it meets all
+of the requirements for filing on Form S-4 and has duly caused this
+Post-Effective Amendment No. 1 to the Registration Statement to be signed on its
+behalf by the undersigned, thereunto duly authorized, in the City of Seattle,
+State of Washington on April 26, 1999.
+ 
+                                          AMAZON.COM, INC.
+ 
+                                          By:       /s/ JOY D. COVEY
+                                            ------------------------------------
+                                                        Joy D. Covey
+                                                  Chief Financial Officer
+                                                   and Vice President of
+                                                 Finance and Administration
+ 
+     Pursuant to the requirements of the Securities Act of 1933, this
+Post-Effective Amendment No. 1 to the Registration Statement has been signed
+below by the following persons in the capacities and on the dates indicated.
+ 
+<TABLE>
+<CAPTION>
+                      SIGNATURE                                     TITLE                     DATE
+                      ---------                                     -----                     ----
+<C>                                                    <S>                               <C>
+ 
+                /s/ JEFFREY P. BEZOS                   Chairman of the Board, President   April 26, 1999
+- -----------------------------------------------------  and Chief Executive Officer
+                  Jeffrey P. Bezos                     (Principal Executive Officer
+ 
+                  /s/ JOY D. COVEY                     Chief Financial Officer and Vice   April 26, 1999
+- -----------------------------------------------------  President of Finance and
+                    Joy D. Covey                       Administration (Principal
+                                                       Financial Officer and Principal
+                                                       Accounting Officer)
+ 
+                   *TOM A. ALBERG                      Director                           April 26, 1999
+- -----------------------------------------------------
+                    Tom A. Alberg
+ 
+                   *SCOTT D. COOK                      Director                           April 26, 1999
+- -----------------------------------------------------
+                    Scott D. Cook
+ 
+                   *L. JOHN DOERR                      Director                           April 26, 1999
+- -----------------------------------------------------
+                    L. John Doerr
+ 
+               *PATRICIA Q. STONESIFER                 Director                           April 26, 1999
+- -----------------------------------------------------
+               Patricia Q. Stonesifer
+ 
+                *By: /s/ JOY D. COVEY                                                     April 26, 1999
+  ------------------------------------------------
+                    Joy D. Covey
+                  Attorney-in-Fact
+</TABLE>
+ 
+                                      II-4
+<PAGE>   21
+ 
+                                 EXHIBIT INDEX
+ 
+<TABLE>
+<CAPTION>
+    NUMBER                            DESCRIPTION
+    ------                            -----------
+    <C>       <S>                                                           <C>
+     3.1*     Restated Certificate of Incorporation.......................
+     3.2**    Restated By-Laws............................................
+     4.1**    Indenture, dated as of May 8, 1998, between the registrant
+              and the Bank of New York, as Trustee........................
+     4.2**    Form of 10% Senior Discount Note due 2008...................
+     4.3**    Registration Rights Agreement, entered May 8, 1998, between
+              the registrant and Morgan Stanley & Co., Incorporated.......
+     4.4***   Indenture, dated as of February 3, 1999, between the
+              registrant and The Bank of New York, as Trustee, including
+              the form of 4 3/4% Convertible Subordinated Note due 2009
+              attached as Exhibit A thereto...............................
+     4.5***   Registration Rights Agreement, dated as of February 3, 1999,
+              by and among the registrant and the Initial Purchasers......
+     5.1      Opinion of Perkins Coie LLP.................................
+    23.1      Consent of Ernst & Young LLP, Independent Auditors..........
+    23.2      Consent of Deloitte & Touche LLP............................
+    23.3      Consent of Perkins Coie LLP (contained in Exhibit 5.1
+              above)......................................................
+    24.1*     Power of Attorney...........................................
+</TABLE>
+ 
+- ---------------
+*   Previously filed.
+ 
+**  Incorporated by reference to the registrant's Quarterly Report on Form 10-Q
+    for the quarter ended March 31, 1998.
+ 
+*** Incorporated by reference to the registrant's Current Report on Form 8-K
+    filed with the SEC on February 4, 1999.
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-5.1
+<SEQUENCE>2
+<DESCRIPTION>OPINION OF PERKINS COIE
+<TEXT>
+
+<PAGE>   1
+                                                                     Exhibit 5.1
+
+                                 April 26, 1999
+
+
+
+Amazon.com, Inc.
+1516 Second Avenue, 4th Floor
+Seattle, WA  98101
+
+Ladies and Gentlemen:
+
+        We have acted as counsel to you in connection with the proceedings for
+the authorization and issuance by Amazon.com, Inc. (the "Company") of up to
+15,000,000 shares (the "Shares") of the Company's common stock, $.01 par value
+per share (the "Common Stock"), and the preparation and filing of Post-Effective
+Amendment No. 1 to the Registration Statement on Form S-4 ("Post-Effective
+Amendment No. 1") under the Securities Act of 1933, as amended (the "Securities
+Act"), which you are filing with the Securities and Exchange Commission with
+respect to the Shares.
+
+        We have examined Post-Effective Amendment No. 1 and such documents and
+records of the Company and other documents as we have deemed necessary for the
+purpose of this opinion. Based upon the foregoing, we are of the opinion that
+upon the happening of the following events:
+
+        (a)     the filing and effectiveness of Post-Effective Amendment No. 1,
+
+        (b)     due execution by the Company and registration by its registrar
+                of the Shares,
+
+        (c)     the offering and sale of the Shares as contemplated by
+                Post-Effective Amendment No. 1, and
+
+        (d)     receipt by the Company of the consideration required for the
+                Shares contemplated by Post-Effective Amendment No. 1, the
+                Shares will be duly authorized, validly issued, fully paid and
+                nonassessable.
+
+        We hereby consent to the filing of this opinion as an exhibit to
+Post-Effective Amendment No. 1 and to the reference to our firm in the
+prospectus of Post-Effective Amendment No. 1 under the heading "Legal Matters."
+In giving such consent, we do not thereby admit that we are in the category of
+persons whose consent is required under Section 7 of the Securities Act.
+
+                                            Very truly yours,
+
+                                            PERKINS COIE LLP
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-23.1
+<SEQUENCE>3
+<DESCRIPTION>CONSENT OF ERNST & YOUNG LLP
+<TEXT>
+
+<PAGE>   1
+
+                                                                    Exhibit 23.1
+
+
+               Consent of Ernst & Young LLP, Independent Auditors
+
+We consent to the reference to our firm under the caption "Experts" in Post
+Effective Amendment No. 1 to the Registration Statement (Form S-4 No. 333-55943)
+and related Prospectus of Amazon.com, Inc. for the registration of 15,000,000
+shares of its common stock, and to the incorporation by reference therein of our
+report dated January 22, 1999, except for Note 11 as to which the date is
+February 10, 1999, with respect to the consolidated financial statements and
+schedule of Amazon.com, Inc. included in its Annual Report (Form 10-K) for the
+year ended December 31, 1998, filed with the Securities and Exchange Commission.
+
+
+
+                                            ERNST & YOUNG LLP
+
+Seattle, Washington
+April 22, 1999
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-23.2
+<SEQUENCE>4
+<DESCRIPTION>CONSENT OF DELOITTE & TOUCHE LLP
+<TEXT>
+
+<PAGE>   1
+                                                                    Exhibit 23.2
+
+                         INDEPENDENT AUDITORS' CONSENT
+
+We consent to the incorporation by reference in this post effective Amendment 
+No. 1 to Registration Statement No. 333-55943 of our report dated February 6, 
+1998, on the financial statements of Junglee Corp. as of December 31, 1997 and 
+1996 and for the year ended December 31, 1997 and for the period from June 3, 
+1996 (inception) to December 31, 1996, appearing in the Current Report on Form 
+8-K of Amazon.com, Inc. filed August 27, 1998 and to the reference to us under 
+the heading "Experts" in the prospectus, which is a part of this Registration 
+Statement.
+
+DELOITTE & TOUCHE LLP
+
+San Jose, California
+April 22, 1999
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

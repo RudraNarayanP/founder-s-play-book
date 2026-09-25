@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="https://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" lang="en" xml:lang="en" data-tracking-category="HT" data-ft="true" data-use="search" data-c="" data-collname="" data-shared="1" data-contributor-name="" data-desc="" data-analytics-report-url="/ls/srchls?field1=ocr&amp;q1=%22Wal-Mart%22&amp;lmt=ft" class="" data-app="ls">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript">function getCollArray()
+{
+var COLL_NAME = new Array(1);
+COLL_NAME[0] = "Select Collection";
+return COLL_NAME;
+}
+function getCollSizeArray()
+{
+var COLL_SIZE = new Array();
+return COLL_SIZE;
+}
+</script>
+    <title>Full-text Search Results | HathiTrust Digital Library</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="text/javascript">
+      let head = document.head;
+      function addScript(options) {
+        let scriptEl = document.createElement('script');
+        if ( options.crossOrigin ) { scriptEl.crossOrigin = options.crossOrigin; }
+        if ( options.type ) { scriptEl.type = options.type; }
+        scriptEl.src = options.href;
+        document.head.appendChild(scriptEl);
+      }
+      function addStylesheet(options) {
+        let linkEl = document.createElement('link');
+        linkEl.rel = 'stylesheet';
+        linkEl.href = options.href;
+        document.head.appendChild(linkEl);
+      }
+      
+        addStylesheet({ href: `/common/firebird/dist/assets/index-C0RXE5MJ.css` });
+      
+        addScript({ href: `/common/firebird/dist/assets/index-BnT9kLEo.js`, type: 'module' });
+      </script>
+    <script>
+      // in case any of the links and scripts fail
+      setTimeout(function() {
+        document.body.style.visibility = 'visible';
+        document.body.style.opacity = '1';
+      }, 1500);
+    </script>
+  </head>
+  <body style="opacity: 0; visibility: hidden;" class="apps ">
+    <hathi-cookie-consent-banner></hathi-cookie-consent-banner>
+    <div id="skiplinks" role="complementary" class="visually-hidden-focusable" aria-label="Skip links">
+      <ul>
+        <li>
+          <a href="#section">Skip to search results</a>
+        </li>
+        <li>
+          <a href="#sidebar">Skip to results filters</a>
+        </li>
+      </ul>
+    </div>
+    <div id="root">
+      <div role="status" aria-atomic="true" aria-live="polite" class="visually-hidden"></div>
+      <hathi-website-header></hathi-website-header>
+      <hathi-alert-banner></hathi-alert-banner>
+      <main class="main" id="main">
+        <div xmlns:dc="http://purl.org/dc/elements/1.1/" class="twocol mt-1">
+          <div class="twocol-side" id="sidebar" tabindex="0">
+            <button id="action-toggle-filters" class="btn btn-outline-primary" aria-expanded="false">
+              <span><span class="not-expanded">Show</span><span class="is-expanded">Hide</span>
+          Search Filters
+        </span>
+            </button>
+            <h2 class="filters-heading fs-3 mt-3">Filter your search</h2>
+            <div class="accordion mb-1">
+              <div class="panel accordion-item">
+                <h3 class="accordion-header" id="heading-current">
+                  <button class="accordion-button fw-bold " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-current" aria-controls="collapse-current" aria-expanded="true">Current Filters</button>
+                </h3>
+                <div id="collapse-current" class="accordion-collapse collapse show" aria-labelledby="heading-current">
+                  <div class="accordion-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item d-flex justify-content-between align-items-center gap-3">
+                        <span class="d-inline-flex align-items-center gap-2">Full Text &amp; All Fields: <span class="query-term">"Wal-Mart"</span></span>
+                        <a class="btn btn-outline-dark btn-lg" href="/cgi/ls?a=srchls;q1=*;lmt=ft;facet=DateRange:&quot;1960-1969&quot;">
+                          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                          <span class="visually-hidden">Remove filter
+            <span>Full Text &amp; All Fields: "Wal-Mart"</span></span>
+                        </a>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center gap-3">: 1960-1969<a href="/cgi/ls?field1=ocr;q1=%22Wal-Mart%22;a=srchls;lmt=ft" class="btn btn-outline-dark btn-lg"><i class="fa-solid fa-xmark" aria-hidden="true"></i><span class="visually-hidden">Remove filter
+                        : 1960-1969</span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex flex-column gap-2 mb-3">
+              <a class="btn btn-outline-dark btn-sm clear-all-filters" href="/cgi/ls?a=srchls;q1=*">
+                <span>Clear filters</span>
+              </a>
+            </div>
+            <div class="accordion mb-3">
+              <div class="panel accordion-item">
+                <h3 class="accordion-header" id="heading-viewability">
+                  <button class="accordion-button fw-bold " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-viewability" aria-controls="collapse-viewability" aria-expanded="true">Item Viewability</button>
+                </h3>
+                <div id="collapse-viewability" class="accordion-collapse collapse show" aria-labelledby="heading-viewability">
+                  <div class="accordion-body">
+                    <div class="list-group list-group-flush">
+                      <a href="https://babel.hathitrust.org/cgi/ls?field1=ocr;q1=%22Wal-Mart%22;a=srchls;lmt=all;facet=DateRange%3A%221960-1969%22" class="list-group-item d-flex justify-content-between align-items-center">All Items<span class="badge bg-dark rounded-pill"></span></a>
+                      <a href="https://babel.hathitrust.org/cgi/ls?field1=ocr;q1=%22Wal-Mart%22;a=srchls;lmt=ft;facet=DateRange%3A%221960-1969%22" class="list-group-item d-flex justify-content-between align-items-center active" aria-current="true">Full View<span class="badge bg-dark rounded-pill"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion" id="accordion-filters"></div>
+          </div>
+          <section class="twocol-main" id="section">
+            <div class="mainplain w-auto position-relative">
+              <h1>Search Results</h1>
+              <div>
+                <div class="alert alert-info alert-block"><strong>No results</strong> match your search.
+      </div>
+                <h2 class="fs-3">Suggestions</h2>
+                <ul>
+                  <li>Revise your search term</li>
+                  <li>Remove some filters</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <hathi-website-footer></hathi-website-footer>
+    </div>
+  <script>window.__CF$cv$params={r:'a40a1e521ec6f806',t:'MTc5MDM0MDI0Nw==',u:'01a0d8983554744d9abca836d748eded',ut:'Yu71IZ4HrF5Ajh.GcQoMI5kM_3EtMg6ODdJX0CHDoTE-1790340248-1.2.1.1-nlNb49BRpvpyQ54VeApcj51lUMjrWqKnsdiwZ8ldFeCmMo9Cs4iCRvidHJfsxX_nfZK.1OlKMnQCqWz_j6x5h8Od2PdSyBOg.NWV4pnPNCo',i:60};(function(){if(!document.body)return;var s=document.createElement('script');s.src='/cdn-cgi/challenge-platform/scripts/precursor/main.js';document.head.appendChild(s);})();</script></body>
+</html>

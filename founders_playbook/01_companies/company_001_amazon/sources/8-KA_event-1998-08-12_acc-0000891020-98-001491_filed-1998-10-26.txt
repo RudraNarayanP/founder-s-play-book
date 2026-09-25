@@ -1,0 +1,545 @@
+==============================================================================
+PROVENANCE HEADER -- added by the Stage-3 Evidence Registrar (post-IPO filing intake)
+Retrieval date (access date) : 2026-09-25
+Original URL                 : https://www.sec.gov/Archives/edgar/data/1018724/0000891020-98-001491.txt
+HTTP status on retrieval     : 200
+Document                     : Form 8-K/A, complete submission (all 1 documents inline) -- AMENDMENT TO FORM 8-K
+SEC CIK                      : 1018724 (AMAZON COM INC)
+Accession no.                : 0000891020-98-001491
+Filing date per EDGAR        : 1998-10-26   (SEC-HEADER FILED AS OF DATE: 19981026 -- agrees)
+Conformed submission type    : 8-K/A   Securities Exchange Act File No.: 000-22513
+Period of report             : 1998-08-12
+Bytes of retrieved body      : 25,398
+Body completeness            : COMPLETE -- terminates in </SEC-DOCUMENT>; 1 <DOCUMENT> blocks, types: 8-K/A
+Request headers used         : User-Agent: FounderPlaybook Research AdminContact@example.com | Accept-Encoding: identity | Referer: https://www.sec.gov/
+Body encoding on wire        : identity (no compression negotiated); saved exactly as received
+Located via                  : https://data.sec.gov/submissions/CIK0001018724-submissions-002.json (pre-2000 slice, 1997-03-24 -> 2000-01-04); row form=8-K/A filingDate=1998-10-26 primaryDocDescription='AMENDMENT TO FORM 8-K'
+Component documents (DESCRIPTION per EDGAR):
+      - AMENDMENT TO FORM 8-K
+==============================================================================
+
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ QysZVuFgtOJHAzHepljP5fmQRNNtN2W8eaglUAMghQCAj5K1G/KYrFS+AGJDvV2D
+ g7f9tCFa+cDhtU4NmaegJg==
+
+<SEC-DOCUMENT>0000891020-98-001491.txt : 19981027
+<SEC-HEADER>0000891020-98-001491.hdr.sgml : 19981027
+ACCESSION NUMBER:		0000891020-98-001491
+CONFORMED SUBMISSION TYPE:	8-K/A
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	19980812
+ITEM INFORMATION:		
+FILED AS OF DATE:		19981026
+SROS:			NASD
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AMAZON COM INC
+		CENTRAL INDEX KEY:			0001018724
+		STANDARD INDUSTRIAL CLASSIFICATION:	RETAIL-CATALOG & MAIL-ORDER HOUSES [5961]
+		IRS NUMBER:				911646860
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		8-K/A
+		SEC ACT:		
+		SEC FILE NUMBER:	000-22513
+		FILM NUMBER:		98730924
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1516 SECOND AVE 4TH FLOOR
+		STREET 2:		PO BOX 80387
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+		BUSINESS PHONE:		2066222335
+
+	MAIL ADDRESS:	
+		STREET 1:		PO BOX 80387
+		STREET 2:		1516 SECOND AVE 4TH FLOOR
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K/A
+<SEQUENCE>1
+<DESCRIPTION>AMENDMENT TO FORM 8-K
+<TEXT>
+
+<PAGE>   1
+                       SECURITIES AND EXCHANGE COMMISSION
+
+                             WASHINGTON, D.C. 20549
+
+
+
+
+
+                                   FORM 8-K/A
+
+
+                                 CURRENT REPORT
+
+
+                     PURSUANT TO SECTION 13 OR 15(d) OF THE
+                         SECURITIES EXCHANGE ACT OF 1934
+
+
+
+                                 AUGUST 12, 1998
+
+                                 DATE OF REPORT
+                        (DATE OF EARLIEST EVENT REPORTED)
+
+
+
+                                AMAZON.COM, INC.
+
+               (EXACT NAME OF REGISTRANT AS SPECIFIED IN CHARTER)
+
+<TABLE>
+
+<S>                                       <C>                    <C>       
+         DELAWARE                           000-22513                 91-1646860
+- -----------------------------          ---------------------    ---------------------
+(State or Other Jurisdiction           (Commission File No.)        (IRS Employer
+   of Incorporation)                                              Identification No.)
+</TABLE>
+
+                  1516 SECOND AVENUE, SEATTLE, WASHINGTON 98101
+
+          (ADDRESS OF PRINCIPAL EXECUTIVE OFFICES, INCLUDING ZIP CODE)
+
+                                 (206) 622-2335
+
+              (REGISTRANT'S TELEPHONE NUMBER, INCLUDING AREA CODE)
+
+
+
+
+
+<PAGE>   2
+    On August 12, 1998, pursuant to an Agreement and Plan of Merger dated as of
+August 3, 1998, by and among Amazon.com, Inc., a Delaware corporation
+("Amazon.com"), Junglee Corp., a Delaware corporation ("Junglee") and AJ
+Acquisition, Inc., a Delaware corporation and wholly owned subsidiary of
+Amazon.com ("Junglee Merger Sub"), Amazon.com acquired all of the outstanding
+capital stock of Junglee and Junglee Merger Sub merged with and into Junglee,
+with Junglee as the surviving corporation (the "Junglee Merger"). The purpose of
+this Amendment is to amend Item 7(b) to provide certain pro forma combined
+condensed consolidated financial information with respect to the Junglee Merger,
+which information was impracticable to provide at the time the Registrant filed
+the Current Report on Form 8-K dated August 12, 1998.
+
+ITEM 7.  FINANCIAL STATEMENTS, PRO FORMA FINANCIAL INFORMATION AND EXHIBITS
+
+        (a)  Financial Statements of Business Acquired
+
+                The audited financial statements and unaudited condensed
+                financial statements of Junglee listed below were provided
+                at the time the Registrant initially filed the Current
+                Report on Form 8-K dated August 12, 1998.
+
+                Audited Financial Statements:
+
+               (i)     Report of Deloitte & Touche LLP, dated February 6, 1998.
+
+               (ii)    Junglee Corp. Balance Sheets as of December 31, 1997
+                       and 1996.
+
+               (iii)   Junglee Corp. Statements of Operations for the year
+                       ended December 31, 1997 and period from June 3,
+                       1996 (inception) to December 31, 1996.
+
+               (iv)    Junglee Corp. Statements of Stockholders' Equity
+                       for the year ended December 31, 1997 and period
+                       from June 3, 1996 (inception) to December 31, 1996.
+
+               (v)     Junglee Corp. Statements of Cash Flows for the year
+                       ended December 31, 1997 and period from June 3,
+                       1996 (inception) to December 31, 1996.
+
+               (vi)    Junglee Corp. Notes to Financial Statements for the year
+                       ended December 31, 1997 and period from June 3, 1996
+                       (inception) to December 31, 1996.
+
+
+<PAGE>   3
+                     Condensed Financial Statements (unaudited):
+
+                     (i)     Junglee Corp. Balance Sheets as of June 30,
+                             1998 (unaudited) and December 31, 1997.
+
+                     (ii)    Junglee Corp. Statements of Operations for
+                             the six month periods ended June 30, 1998
+                             and 1997 (unaudited).
+
+                     (iii)   Junglee Corp. Statements of Cash Flows for the six
+                             month periods ended June 30, 1998 and 1997
+                             (unaudited).
+
+                     (iv)    Jungle Corp. Notes to Financial Statements for the
+                             six month periods ended June 30, 1998 and 1997
+                             (unaudited).
+
+        (b)    Pro Forma Financial Information
+
+                      Pro Forma Combined Condensed Consolidated Financial
+                      Statements (unaudited):
+
+                     (i)     Pro Forma Combined Condensed Consolidated Statement
+                             of Operations for the year ended December 31, 1997
+                             (unaudited).
+
+                     (ii)    Pro Forma Combined Condensed Consolidated Balance
+                             Sheet as of June 30, 1998 (unaudited).
+
+                     (iii)   Pro Forma Combined Condensed Consolidated 
+                             Statement of Operations for the six month period 
+                             ended June 30, 1998 (unaudited).
+
+                     (iv)    Notes to Pro Forma Combined Condensed Consolidated 
+                             Financial Statements (unaudited).
+
+        (c)     Exhibits
+
+                 2.1    Agreement and Plan of Merger dated as of August 3, 1998,
+                        by and among Amazon.com, Inc., AJ Acquisition, Inc. and
+                        Junglee Corp. (incorporated by reference from
+                        Amazon.com, Inc.'s Current Report on Form 8-K dated
+                        August 3, 1998).
+
+                99.1    Form of Investor Rights Agreement by and between
+                        Amazon.com, Inc. and the stockholders of Junglee Corp.
+                        named therein (incorporated by reference from
+                        Amazon.com, Inc.'s Current Report on Form 8-K dated
+                        August 3, 1998).
+
+
+
+
+
+<PAGE>   4
+
+
+
+UNAUDITED PRO FORMA COMBINED CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+
+     The following unaudited pro forma combined condensed consolidated financial
+statements give effect to the Junglee Merger. The Junglee Merger was accounted
+for under the purchase method of accounting in accordance with APB Opinion No.
+16. Under the purchase method of accounting, the purchase price is allocated to
+the assets acquired and liabilities assumed based on their estimated fair
+values. Estimates of the fair values of the assets and liabilities of Junglee
+have been combined with the recorded values of the assets and liabilities of
+Amazon.com in the unaudited pro forma combined condensed consolidated financial
+statements.
+
+     The unaudited pro forma combined condensed consolidated balance sheet has
+been prepared to reflect the Junglee Merger as if it occurred on June 30, 1998.
+The unaudited pro forma combined condensed consolidated statements of operations
+reflect the results of operations of Amazon.com and Junglee for the year ended
+December 31, 1997 and the six months ended June 30, 1998 as if the Junglee
+Merger occurred on January 1, 1997.
+
+     The unaudited pro forma combined condensed consolidated financial
+statements are presented for illustrative purposes only and are not necessarily
+indicative of the combined condensed consolidated financial position or results
+of operations in future periods or the results that actually would have been
+realized had Amazon.com and Junglee been a combined company during the
+specified periods. The unaudited pro forma combined condensed consolidated
+financial statements, including the notes thereto, are qualified in their
+entirety by reference to, and should be read in conjunction with, the
+historical consolidated financial statements of Amazon.com, included in its
+Annual Report on Form 10-K for the year ended December 31, 1997 and Quarterly
+Reports on Form 10-Q for the fiscal quarters ended March 31, 1998 and June 30,
+1998 and the Company's Current Reports on Form 8-K filed August 27, 1998 and
+September 11, 1998.
+
+
+
+<PAGE>   5
+
+
+
+
+       PRO FORMA COMBINED CONDENSED CONSOLIDATED STATEMENT OF OPERATIONS
+                          YEAR ENDED DECEMBER 31, 1997
+                     (IN THOUSANDS, EXCEPT PER SHARE DATA)
+                                  (UNAUDITED)
+
+<TABLE>
+<CAPTION>
+                                                                                       PRO FORMA
+                                                       AMAZON.COM       JUNGLEE       ADJUSTMENTS      PRO FORMA
+                                                       ---------       ---------      ----------       ---------
+<S>                                                    <C>             <C>             <C>             <C>      
+Net sales .......................................      $ 147,787       $   1,216       $      --       $ 149,003
+Cost of sales ...................................        118,969             579              --         119,548
+                                                       ---------       ---------       ---------       ---------
+Gross profit ....................................         28,818             637                          29,455
+
+
+Operating expenses:
+  Marketing and sales ...........................         40,486           1,545              --          42,031
+  Product development ...........................         13,916           2,777              --          16,693
+  General and administrative ....................          7,011             637              --           7,648
+  Merger and acquisition related costs ..........             --              --          58,435(c)       58,435
+                                                       ---------       ---------       ---------       ---------
+    Total operating expenses ....................         61,413           4,959          58,435         124,807
+
+Loss from operations ............................        (32,595)         (4,322)        (58,435)        (95,352)
+
+Interest income .................................          1,901             156              --           2,057
+Interest expense ................................           (326)            (34)             --            (360)
+                                                       ---------       ---------       ---------       ---------
+Net loss ........................................      $ (31,020)      $  (4,200)      $ (58,435)      $ (93,655)
+                                                       =========       =========       =========       =========
+
+
+Pro forma basic and diluted loss per share ......      $   (0.71)                                      $   (2.09)
+                                                       =========                                       =========
+
+Shares used in computation of pro forma basic and
+  diluted loss per share ........................         43,447                                          44,803
+                                                       =========                                       =========
+</TABLE>
+
+
+
+
+                                          See accompanying notes.
+
+
+
+<PAGE>   6
+
+
+
+            PRO FORMA COMBINED CONDENSED CONSOLIDATED BALANCE SHEET
+                              AS OF JUNE 30, 1998
+                     (IN THOUSANDS, EXCEPT PER SHARE DATA)
+                                  (UNAUDITED)
+<TABLE>
+<CAPTION>
+                                                                                            PRO FORMA
+                                                            AMAZON.COM       JUNGLEE       ADJUSTMENTS      PRO FORMA
+                                                            ----------      ---------      -----------      ---------
+<S>                                                         <C>             <C>             <C>            <C>      
+                     ASSETS
+Current Assets:
+  Cash ...............................................      $   7,462       $   4,031       $      --      $  11,493
+  Marketable securities ..............................        337,396              --              --        337,396
+  Inventories ........................................         17,035              --              --         17,035
+  Prepaid expenses and other .........................         12,722             936              --         13,658
+                                                            ---------       ---------       ---------      ---------
+          Total current assets .......................        374,615           4,967              --        379,582
+Fixed assets, net ....................................         15,587           1,002              --         16,589
+Deposits and other ...................................            286             181              --            467
+Goodwill and other purchased intangibles, net ........         52,398              --         176,982(c)     229,380
+Deferred charges .....................................          7,622              --              --          7,622
+                                                            ---------       ---------       ---------      ---------
+          Total assets ...............................      $ 450,508       $   6,150       $ 176,982      $ 633,640
+                                                            =========       =========       =========      =========
+      LIABILITIES AND STOCKHOLDERS' EQUITY
+
+Current Liabilities:
+  Accounts payable ...................................      $  47,818       $     465       $      --      $  48,283
+  Accrued advertising ................................          9,971              --              --          9,971
+  Other liabilities and accrued expenses .............         14,197           2,748           4,541(a),(c)  21,486
+  Current portion of long-term debt ..................            684             200              --            884
+                                                            ---------       ---------       ---------      ---------
+          Total current liabilities ..................         72,670           3,413           4,541         80,624
+
+Long-term portion of debt ............................        332,225              76              --        332,301
+Long-term portion of capital lease obligation ........            181              --              --            181
+
+Stockholders' Equity:
+  Preferred stock, common stock and additional paid-in
+     capital .........................................        117,230          13,369         164,059(a)     294,658
+  Note receivable from officer .......................             --          (1,249)             --         (1,249)
+  Deferred compensation ..............................         (1,301)           (277)             --         (1,578)
+  Other gains (losses) ...............................            (35)             --              --            (35)
+  Accumulated deficit ................................        (70,462)         (9,182)          8,382(b),(c) (71,262)
+                                                            ---------       ---------       ---------      ---------
+          Total stockholders' equity .................         45,432           2,661         172,441        220,534
+                                                            ---------       ---------       ---------      ---------
+               Total liabilities and stockholders'
+                  equity .............................      $ 450,508       $   6,150       $ 176,982      $ 633,640
+                                                            =========       =========       =========      =========
+
+</TABLE>
+
+
+                            See accompanying notes.
+<PAGE>   7
+
+
+       PRO FORMA COMBINED CONDENSED CONSOLIDATED STATEMENT OF OPERATIONS
+                         SIX MONTHS ENDED JUNE 30, 1998
+                     (IN THOUSANDS, EXCEPT PER SHARE DATA)
+                                  (UNAUDITED)
+<TABLE>
+<CAPTION>
+                                                                                        PRO FORMA
+                                                       AMAZON.COM       JUNGLEE        ADJUSTMENTS     PRO FORMA
+                                                       ----------      ---------       -----------     ---------
+<S>                                                    <C>             <C>             <C>             <C>      
+Net sales .......................................      $ 203,405       $   1,398       $      --       $ 204,803
+Cost of sales ...................................        157,856           1,296              --         159,152
+                                                       ---------       ---------       ---------       ---------
+Gross profit ....................................         45,549             102              --          45,651
+
+Operating expenses:
+  Marketing and sales ...........................         47,005           2,510              --          49,515
+  Product development ...........................         16,152           1,216              --          17,368
+  General and administrative ....................          5,364             691              --           6,055
+  Merger and acquisition related costs ..........          5,413              --          29,217(c)       34,630
+                                                       ---------       ---------       ---------       ---------
+    Total operating expenses ....................         73,934           4,417          29,217         107,568
+
+Loss from operations ............................        (28,385)         (4,315)        (29,217)        (61,917)
+
+Interest income .................................          5,036              98              --           5,134
+Interest expense ................................         (9,599)            (23)             --          (9,622)
+                                                       ---------       ---------       ---------       ---------
+Net loss ........................................      $ (32,948)      $  (4,240)      $ (29,217)      $ (66,405)
+                                                       =========       =========       =========       =========
+
+
+Pro forma basic and diluted loss per share ......      $   (0.69)                                      $   (1.35)
+                                                       =========                                       =========
+
+Shares used in computation of pro forma basic and
+  diluted loss per share ........................         47,934                                          49,347
+                                                       =========                                       =========
+</TABLE>
+
+
+                            See accompanying notes.
+<PAGE>   8
+
+
+
+     NOTES TO PRO FORMA COMBINED CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+                                  (UNAUDITED)
+
+
+BASIS OF PRESENTATION
+
+  The pro forma combined condensed consolidated financial statements reflect the
+issuance of approximately 1,600,000 shares of Amazon.com common stock, par value
+$.01 per share ("Amazon.com Common Stock"), and the assumption of all
+outstanding options and warrants in connection with the acquisition of Junglee.
+The Junglee Merger was accounted for under the purchase method of accounting in
+accordance with APB Opinion No. 16. Under the purchase method of accounting, the
+purchase price is allocated to the assets acquired and liabilities assumed based
+on their estimated fair values. Estimates of the fair values of the assets and
+liabilities of Junglee have been combined with the recorded values of the assets
+and liabilities of Amazon.com in the unaudited pro forma combined condensed
+consolidated financial statements.
+
+
+PRO FORMA ADJUSTMENTS
+
+        (a)    To reflect the issuance of approximately 1,600,000 shares of
+               Amazon.com Common Stock and the assumption of all outstanding
+               options and warrants in connection with the Junglee Merger, for
+               an aggregate purchase price of approximately $180 million,
+               including approximately $3 million of transaction costs.
+
+        (b)    To eliminate the historical accumulated deficit of Junglee.
+
+        (c)    To record the excess of the purchase price over the fair value of
+               assets and liabilities acquired in connection with the Junglee
+               Merger. The purchase price allocation is based on management's
+               estimates of the fair values of the tangible assets, intangible
+               assets and technology, which has not reached technological
+               feasibility and therefore, has no alternative future use. The
+               book value of tangible assets and liabilities acquired are
+               assumed to approximate fair value. The goodwill and substantially
+               all other purchased intangible assets will be amortized on a
+               straight line basis over approximately 3 years.
+
+
+PRO FORMA NET LOSS PER SHARE
+
+  Basic pro forma earnings per share is computed using the weighted average
+number of Amazon.com common shares outstanding during the period plus shares of
+Amazon.com Common Stock issued in connection with the Junglee Merger, excluding
+Amazon.com Common Stock subject to repurchase. Diluted pro forma earnings per
+share is computed using the weighted average number of common and common
+equivalent shares outstanding during the period plus shares of Amazon.com Common
+Stock and common equivalent shares assumed in connection with the Junglee
+Merger. Common equivalent shares are excluded from the computation if their
+effect is antidilutive. Amazon.com Common Stock, options and warrants issued in
+connection with the Junglee Merger are assumed outstanding at the beginning of
+the period.
+
+
+CONFORMING AND RECLASSIFICATION ADJUSTMENTS
+
+  There were no material adjustments required to conform the accounting policies
+of Amazon.com and Junglee. Certain amounts have been reclassified to conform to
+Amazon.com's financial statement presentation. There have been no significant
+intercompany transactions.
+
+
+
+<PAGE>   9
+
+
+                                   SIGNATURES
+
+        Pursuant to the requirements of the Securities Exchange Act of 1934, the
+registrant has duly caused this amended report to be signed on its behalf by the
+undersigned hereunto duly authorized.
+
+                               AMAZON.COM, INC.
+                               (Registrant)
+
+
+Dated:  October 26, 1998       By: ____________________________
+
+                                   Joy D. Covey
+                                   Chief Financial Officer, Vice President of
+                                   Finance and Administration and Secretary
+
+
+
+
+
+<PAGE>   10
+                                 EXHIBIT INDEX
+
+<TABLE>
+<CAPTION>
+
+        Exhibit Number    Description
+        -------------     ------------
+            <S>         <C>  
+            2.1         Agreement and Plan of Merger dated as of August 3, 1998,
+                        by and among Amazon.com, Inc., AJ Acquisition, Inc. and
+                        Junglee Corp. (incorporated by reference from
+                        Amazon.com, Inc.'s Current Report on Form 8-K dated
+                        August 3, 1998).
+
+            99.1        Form of Investor Rights Agreement by and between
+                        Amazon.com, Inc. and the stockholders of Junglee Corp.
+                        named therein (incorporated by reference from
+                        Amazon.com, Inc.'s Current Report on Form 8-K dated
+                        August 3, 1998).
+</TABLE>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

@@ -1,0 +1,17 @@
+HTTP/1.1 302 Found
+Date: Fri, 25 Sep 2026 12:31:06 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+location: https://babel.hathitrust.org/cgi/ls?field1=ocr;q1=%22Walton's%22%20%22five-and-dime%22;a=srchls;lmt=ft
+Cache-Control: max-age=0
+expires: Fri, 25 Sep 2026 12:31:05 GMT
+strict-transport-security: max-age=2592000; includeSubDomains
+X-Content-Type-Options: nosniff
+Set-Cookie: STICKY=s139; path=/
+set-cookie: __cf_bm=dla0fxAgsDycZh4hGoT0hladHoaO03Bqg9De8ME6Ubs-1790339465.7820616-1.0.1.1-FJq1.rT_LF0hyx2rp7Hxho_QwBqCnnjaiWIWtmZdVK7LcC_JfstWAKgaadzi8FBu9QPyvBXiiWPsQV4PNTPBtpRccVxmABZ4WRpTnK64WkZLYkBtBdkIrhJh9XClLxcu; HttpOnly; SameSite=None; Secure; Path=/; Domain=hathitrust.org; Expires=Fri, 25 Sep 2026 13:01:06 GMT
+set-cookie: __cflb=0H28vo2YUzDUpQqqBsmWqojXJQ84DVup6XGqLJLuL45; HttpOnly; SameSite=None; Secure; Path=/; Expires=Fri, 25 Sep 2026 13:01:06 GMT
+cf-cache-status: BYPASS
+CF-RAY: a40a0b3d2b91198e-DEL
+alt-svc: h3=":443"; ma=86400
+

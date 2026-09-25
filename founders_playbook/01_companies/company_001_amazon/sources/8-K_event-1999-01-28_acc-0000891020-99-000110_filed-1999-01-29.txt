@@ -1,0 +1,224 @@
+==============================================================================
+PROVENANCE HEADER -- added by the Stage-3 Evidence Registrar (post-IPO filing intake)
+Retrieval date (access date) : 2026-09-25
+Original URL                 : https://www.sec.gov/Archives/edgar/data/1018724/0000891020-99-000110.txt
+HTTP status on retrieval     : 200
+Document                     : Form 8-K, complete submission (all 2 documents inline) -- FORM 8-K
+SEC CIK                      : 1018724 (AMAZON COM INC)
+Accession no.                : 0000891020-99-000110
+Filing date per EDGAR        : 1999-01-29   (SEC-HEADER FILED AS OF DATE: 19990129 -- agrees)
+Conformed submission type    : 8-K   Securities Exchange Act File No.: 000-22513
+Period of report             : 1999-01-28
+Bytes of retrieved body      : 6,438
+Body completeness            : COMPLETE -- terminates in </SEC-DOCUMENT>; 2 <DOCUMENT> blocks, types: 8-K, EX-99.1
+Request headers used         : User-Agent: FounderPlaybook Research AdminContact@example.com | Accept-Encoding: identity | Referer: https://www.sec.gov/
+Body encoding on wire        : identity (no compression negotiated); saved exactly as received
+Located via                  : https://data.sec.gov/submissions/CIK0001018724-submissions-002.json (pre-2000 slice, 1997-03-24 -> 2000-01-04); row form=8-K filingDate=1999-01-29 primaryDocDescription='FORM 8-K'
+Component documents (DESCRIPTION per EDGAR):
+      - FORM 8-K
+      - PRESS RELEASE
+EX-99 PRESS RELEASE HEADLINE : ANNOUNCES PRICING AND INCREASE IN SIZE OF OFFERING OF SUBORDINATED CONVERTIBLE DEBENTURES SEATTLE,WA--(January 28, 1999)--Amazon.com, Inc. (NASDAQ: AM
+==============================================================================
+
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ OvATsdyDNr/zna2TGCg4uK08xTgzqTp9OM7K2kMoP/QA9EELj2/W7man+lpRDL0w
+ QIB0nR9iMZQ8fgshaFwLJQ==
+
+<SEC-DOCUMENT>0000891020-99-000110.txt : 19990201
+<SEC-HEADER>0000891020-99-000110.hdr.sgml : 19990201
+ACCESSION NUMBER:		0000891020-99-000110
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	19990128
+ITEM INFORMATION:		
+ITEM INFORMATION:		
+FILED AS OF DATE:		19990129
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AMAZON COM INC
+		CENTRAL INDEX KEY:			0001018724
+		STANDARD INDUSTRIAL CLASSIFICATION:	RETAIL-CATALOG & MAIL-ORDER HOUSES [5961]
+		IRS NUMBER:				911646860
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		
+		SEC FILE NUMBER:	000-22513
+		FILM NUMBER:		99515901
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1516 SECOND AVE 4TH FLOOR
+		STREET 2:		PO BOX 80387
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+		BUSINESS PHONE:		2066222335
+
+	MAIL ADDRESS:	
+		STREET 1:		PO BOX 80387
+		STREET 2:		1516 SECOND AVE 4TH FLOOR
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<DESCRIPTION>FORM 8-K
+<TEXT>
+
+<PAGE>   1
+                       SECURITIES AND EXCHANGE COMMISSION
+
+                             WASHINGTON, D.C. 20549
+
+
+
+
+
+                                    FORM 8-K
+
+                                 CURRENT REPORT
+
+
+
+                     PURSUANT TO SECTION 13 OR 15(d) OF THE
+                         SECURITIES EXCHANGE ACT OF 1934
+
+
+
+                                JANUARY 28, 1999
+                                 DATE OF REPORT
+                        (DATE OF EARLIEST EVENT REPORTED)
+
+
+
+                                AMAZON.COM, INC.
+               (EXACT NAME OF REGISTRANT AS SPECIFIED IN CHARTER)
+
+             DELAWARE               000-22513               91-1646860
+        (STATE OR OTHER       (COMMISSION FILE NO.)        (IRS EMPLOYER
+          JURISDICTION                                   IDENTIFICATION NO.)
+       OF INCORPORATION)
+
+                 1516 SECOND AVENUE, SEATTLE, WASHINGTON 98101
+          (ADDRESS OF PRINCIPAL EXECUTIVE OFFICES, INCLUDING ZIP CODE)
+
+                                 (206) 622-2335
+              (REGISTRANT'S TELEPHONE NUMBER, INCLUDING AREA CODE)
+
+
+<PAGE>   2
+ITEM 5. OTHER EVENTS
+
+        On January 28, 1999, Amazon.com, Inc. ("Amazon.com") announced that it
+priced its private offering of convertible subordinated notes (the "Notes") and
+increased the size of the offering from $500 million to approximately $1.25
+billion. 
+
+ITEM 7. FINANCIAL STATEMENTS, PRO FORMA FINANCIAL INFORMATION AND EXHIBITS
+
+
+        (c) Exhibits
+
+                99.1    Press Release dated January 28, 1999 regarding
+                        Amazon.com's announcement of an increase in the size of 
+                        the offering of subordinated convertible debentures
+                        from $500 million to approximately $1.25 billion. 
+
+<PAGE>   3
+                                   SIGNATURES
+
+        Pursuant to the requirements of the Securities Exchange Act of 1934, the
+registrant has duly caused this report to be signed on its behalf by the
+undersigned hereunto duly authorized.
+
+
+
+                             AMAZON.COM, INC.
+                             (REGISTRANT)
+
+
+
+Dated: January 29, 1999      By:  /s/ Joy D. Covey
+                                 -------------------------------
+                                 Joy D. Covey
+                                 Chief Financial Officer, Vice President of
+                                 Finance and Administration and Secretary
+
+
+<PAGE>   4
+                                  EXHIBIT INDEX
+
+
+<TABLE>
+<CAPTION>
+Exhibit Number               Description
+- --------------               ----------------------------------------------
+<S>                          <C>
+99.1                         Press Release dated January 28, 1999 regarding
+                             Amazon.com's announcement of an increase in the 
+                             size of the offering of subordinated convertible 
+                             debentures from $500 million to approximately 
+                             $1.25 billion.                      
+</TABLE>
+
+
+
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<DESCRIPTION>PRESS RELEASE
+<TEXT>
+
+<PAGE>   1
+                                                                     Page 1 of 1
+
+
+
+              AMAZON.COM ANNOUNCES PRICING AND INCREASE IN SIZE OF
+                OFFERING OF SUBORDINATED CONVERTIBLE DEBENTURES
+
+
+SEATTLE,WA--(January 28, 1999)--Amazon.com, Inc. (NASDAQ: AMZN) today announced
+that it has increased the size of its private offering of Convertible 
+Subordinated Notes (the "Notes") and increased the size of this offering from 
+$500 million to approximately $1.25 billion aggregate principal amount of 4.75%
+Convertible Subordinated Notes due 2009. The Notes will be convertible into the
+Company's common stock, at the option of the holder, at a conversion price of 
+$156.05 per share, representing a conversion premium of 27% over today's 
+closing price. The Company has granted the initial purchasers an option to 
+purchase additional notes to cover over-allotments, if any.
+
+The Notes have been sold, subject to customary closing conditions, to qualified
+institutional buyers and to certain institutional accredited investors in a
+private placement under Rule 144A and Regulation D under the Securities Act of
+1933, as amended (the "Securities Act"). This news release shall not constitute
+an offer to sell or the solicitation of an offer to buy the Notes. This news
+release is being issued pursuant to and in accordance with Rule 135c under the
+Securities Act.
+
+Neither the Notes nor the common stock issuable upon conversion have been
+registered under the Securities Act and may not be offered or sold in the United
+States absent registration or an applicable exemption from the registration
+requirements.
+
+Amazon.com is headquartered at 1516 Second Avenue, Seattle, WA 98101. Internet
+address: http://www.amazon.com. Telephone: (206) 622-2335.
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

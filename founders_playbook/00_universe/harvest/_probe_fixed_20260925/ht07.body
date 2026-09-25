@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="https://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" lang="en" xml:lang="en" data-tracking-category="HT" data-ft="true" data-use="search" data-c="" data-collname="" data-shared="1" data-contributor-name="" data-desc="" data-analytics-report-url="/ls/srchls?field1=ocr&amp;q1=%22Wal-Mart%22%20Bentonville&amp;lmt=ft" class="" data-app="ls">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript">function getCollArray()
+{
+var COLL_NAME = new Array(1);
+COLL_NAME[0] = "Select Collection";
+return COLL_NAME;
+}
+function getCollSizeArray()
+{
+var COLL_SIZE = new Array();
+return COLL_SIZE;
+}
+</script>
+    <title>Full-text Search Results | HathiTrust Digital Library</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="text/javascript">
+      let head = document.head;
+      function addScript(options) {
+        let scriptEl = document.createElement('script');
+        if ( options.crossOrigin ) { scriptEl.crossOrigin = options.crossOrigin; }
+        if ( options.type ) { scriptEl.type = options.type; }
+        scriptEl.src = options.href;
+        document.head.appendChild(scriptEl);
+      }
+      function addStylesheet(options) {
+        let linkEl = document.createElement('link');
+        linkEl.rel = 'stylesheet';
+        linkEl.href = options.href;
+        document.head.appendChild(linkEl);
+      }
+      
+        addStylesheet({ href: `/common/firebird/dist/assets/index-C0RXE5MJ.css` });
+      
+        addScript({ href: `/common/firebird/dist/assets/index-BnT9kLEo.js`, type: 'module' });
+      </script>
+    <script>
+      // in case any of the links and scripts fail
+      setTimeout(function() {
+        document.body.style.visibility = 'visible';
+        document.body.style.opacity = '1';
+      }, 1500);
+    </script>
+  </head>
+  <body style="opacity: 0; visibility: hidden;" class="apps ">
+    <hathi-cookie-consent-banner></hathi-cookie-consent-banner>
+    <div id="skiplinks" role="complementary" class="visually-hidden-focusable" aria-label="Skip links">
+      <ul>
+        <li>
+          <a href="#section">Skip to search results</a>
+        </li>
+        <li>
+          <a href="#sidebar">Skip to results filters</a>
+        </li>
+      </ul>
+    </div>
+    <div id="root">
+      <div role="status" aria-atomic="true" aria-live="polite" class="visually-hidden"></div>
+      <hathi-website-header></hathi-website-header>
+      <hathi-alert-banner></hathi-alert-banner>
+      <main class="main" id="main">
+        <div xmlns:dc="http://purl.org/dc/elements/1.1/" class="twocol mt-1">
+          <div class="twocol-side" id="sidebar" tabindex="0">
+            <button id="action-toggle-filters" class="btn btn-outline-primary" aria-expanded="false">
+              <span><span class="not-expanded">Show</span><span class="is-expanded">Hide</span>
+          Search Filters
+        </span>
+            </button>
+            <h2 class="filters-heading fs-3 mt-3">Filter your search</h2>
+            <div class="accordion mb-1">
+              <div class="panel accordion-item">
+                <h3 class="accordion-header" id="heading-current">
+                  <button class="accordion-button fw-bold " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-current" aria-controls="collapse-current" aria-expanded="true">Current Filters</button>
+                </h3>
+                <div id="collapse-current" class="accordion-collapse collapse show" aria-labelledby="heading-current">
+                  <div class="accordion-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item d-flex justify-content-between align-items-center gap-3">
+                        <span class="d-inline-flex align-items-center gap-2">Full Text &amp; All Fields: <span class="query-term">"Wal-Mart" Bentonville</span></span>
+                        <a class="btn btn-outline-dark btn-lg" href="/cgi/ls?a=srchls;q1=*;lmt=ft;facet=bothPublishDateRange:&quot;1960-1969&quot;">
+                          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                          <span class="visually-hidden">Remove filter
+            <span>Full Text &amp; All Fields: "Wal-Mart" Bentonville</span></span>
+                        </a>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center gap-3">Date of Publication: 1960-1969<a href="/cgi/ls?field1=ocr;q1=%22Wal-Mart%22%20Bentonville;a=srchls;lmt=ft" class="btn btn-outline-dark btn-lg"><i class="fa-solid fa-xmark" aria-hidden="true"></i><span class="visually-hidden">Remove filter
+                        Date of Publication: 1960-1969</span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex flex-column gap-2 mb-3">
+              <a class="btn btn-outline-dark btn-sm clear-all-filters" href="/cgi/ls?a=srchls;q1=*">
+                <span>Clear filters</span>
+              </a>
+            </div>
+            <div class="accordion mb-3">
+              <div class="panel accordion-item">
+                <h3 class="accordion-header" id="heading-viewability">
+                  <button class="accordion-button fw-bold " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-viewability" aria-controls="collapse-viewability" aria-expanded="true">Item Viewability</button>
+                </h3>
+                <div id="collapse-viewability" class="accordion-collapse collapse show" aria-labelledby="heading-viewability">
+                  <div class="accordion-body">
+                    <div class="list-group list-group-flush">
+                      <a href="https://babel.hathitrust.org/cgi/ls?field1=ocr;q1=%22Wal-Mart%22%20Bentonville;a=srchls;lmt=all;facet=bothPublishDateRange%3A%221960-1969%22" class="list-group-item d-flex justify-content-between align-items-center">All Items<span class="badge bg-dark rounded-pill">45</span></a>
+                      <a href="https://babel.hathitrust.org/cgi/ls?field1=ocr;q1=%22Wal-Mart%22%20Bentonville;a=srchls;lmt=ft;facet=bothPublishDateRange%3A%221960-1969%22" class="list-group-item d-flex justify-content-between align-items-center active" aria-current="true">Full View<span class="badge bg-dark rounded-pill">4</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion" id="accordion-filters">
+              <div class="panel accordion-item">
+                <h3 class="accordion-header" id="heading-1">
+                  <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-controls="collapse-1" aria-expanded="false">Subject</button>
+                </h3>
+                <div id="collapse-1" class="accordion-collapse collapse " aria-labelledby="heading-1" data-bs-parent="#accordion-filters">
+                  <div class="accordion-body">
+                    <div class="filter-list" data-expanded="false">
+                      <div class="filter-list-item d-flex flex-nowrap align-items-center justify-content-between gap-3 mb-2 px-3">
+                        <a href="/cgi/ls?field1=ocr;q1=%22Wal-Mart%22%20Bentonville;a=srchls;lmt=ft;facet=bothPublishDateRange%3A%221960-1969%22&amp;facet=topicStr:&quot;Customs%20administration&quot;">Customs administration</a>
+                        <span>3</span>
+                      </div>
+                      <div class="filter-list-item d-flex flex-nowrap align-items-center justify-content-between gap-3 mb-2 px-3">
+                        <a href="/cgi/ls?field1=ocr;q1=%22Wal-Mart%22%20Bentonville;a=srchls;lmt=ft;facet=bothPublishDateRange%3A%221960-1969%22&amp;facet=topicStr:&quot;Customs%20administration%20Law%20and%20legislation%20United%20States%20Cases&quot;">Customs administration Law and legislation United States Cases</a>
+                        <span>3</span>
+                      </div>
+                      <div class="filter-list-item d-flex flex-nowrap align-items-center justify-content-between gap-3 mb-2 px-3">
+                        <a href="/cgi/ls?field1=ocr;q1=%22Wal-Mart%22%20Bentonville;a=srchls;lmt=ft;facet=bothPublishDateRange%3A%221960-1969%22&amp;facet=topicStr:&quot;Logistics&quot;">Logistics</a>
+                        <span>1</span>
+                      </div>
+                      <div class="filter-list-item d-flex flex-nowrap align-items-center justify-content-between gap-3 mb-2 px-3">
+                        <a href="/cgi/ls?field1=ocr;q1=%22Wal-Mart%22%20Bentonville;a=srchls;lmt=ft;facet=bothPublishDateRange%3A%221960-1969%22&amp;facet=topicStr:&quot;Logistics%20Periodicals&quot;">Logistics Periodicals</a>
+                        <span>1</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="panel accordion-item">
+                <h3 class="accordion-header" id="heading-2">
+                  <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-controls="collapse-2" aria-expanded="false">Author</button>
+                </h3>
+                <div id="collapse-2" class="accordion-collapse collapse " aria-labelledby="heading-2" data-bs-parent="#accordion-filters">
+                  <div class="accordion-body">
+                    <div class="filter-list" data-expanded="false">
+                      <div class="filter-list-item d-flex flex-nowrap align-items-center justify-content-between gap-3 mb-2 px-3">
+                        <a href="/cgi/ls?field1=ocr;q1=%22Wal-Mart%22%20Bentonville;a=srchls;lmt=ft;facet=bothPublishDateRange%3A%221960-1969%22&amp;facet=authorStr:&quot;U.S.%20Customs%20Service.&quot;">U.S. Customs Service.</a>
+                        <span>3</span>
+                      </div>
+                      <div class="filter-list-item d-flex flex-nowrap align-items-center justify-content-between gap-3 mb-2 px-3">
+                        <a href="/cgi/ls?field1=ocr;q1=%22Wal-Mart%22%20Bentonville;a=srchls;lmt=ft;facet=bothPublishDateRange%3A%221960-1969%22&amp;facet=authorStr:&quot;United%20States.%20Bureau%20of%20Customs.&quot;">United States. Bureau of Customs.</a>
+                        <span>3</span>
+                      </div>
+                      <div class="filter-list-item d-flex flex-nowrap align-items-center justify-content-between gap-3 mb-2 px-3">
+                        <a href="/cgi/ls?field1=ocr;q1=%22Wal-Mart%22%20Bentonville;a=srchls;lmt=ft;facet=bothPublishDateRange%3A%221960-1969%22&amp;facet=authorStr:&quot;United%20States.%20Department%20of%20the%20Treasury.&quot;">United States. Department of the Treasury.</a>
+                        <span>3</span>
+                      </div>
+                      <div class="filter-list-item d-flex flex-nowrap align-items-center justify-content-between gap-3 mb-2 px-3">
+                        <a href="/cgi/ls?field1=ocr;q1=%22Wal-Mart%22%20Bentonville;a=srchls;lmt=ft;facet=bothPublishDateRange%3A%221960-1969%22&amp;facet=authorStr:&quot;U.S.%20Army%20Logistics%20Management%20College.&quot;">U.S. Army Logistics Management College.</a>
+                        <span>1</span>
+                      </div>
+                      <div class="filter-list-item d-flex flex-nowrap align-items-center justify-content-between gap-3 mb-2 px-3">
+                        <a href="/cgi/ls?field1=ocr;q1=%22Wal-Mart%22%20Bentonville;a=srchls;lmt=ft;facet=bothPublishDateRange%3A%221960-1969%22&amp;facet=authorStr:&quot;United%20States.%20Army%20Combined%20Arms%20Support%20Command.&quot;">United States. Army Combined Arms Support Command.</a>
+                        <span>1</span>
+                      </div>
+                      <div class="filter-list-item d-flex flex-nowrap align-items-center justify-content-between gap-3 mb-2 px-3">
+                        <a href="/cgi/ls?field1=ocr;q1=%22Wal-Mart%22%20Bentonville;a=srchls;lmt=ft;facet=bothPublishDateRange%3A%221960-1969%22&amp;facet=authorStr:&quot;United%20States.%20Army%20Logistics%20Management%20Center.&quot;">United States. Army Logistics Management Center.</a>
+                        <span>1</span>
+                      </div>
+                      <div class="filter-list-item d-flex flex-nowrap align-items-center justify-content-between gap-3 mb-2 px-3">
+                        <a href="/cgi/ls?field1=ocr;q1=%22Wal-Mart%22%20Bentonville;a=srchls;lmt=ft;facet=bothPublishDateRange%3A%221960-1969%22&amp;facet=authorStr:&quot;United%20States.%20Army%20Materiel%20Command.&quot;">United States. Army Materiel Command.</a>
+                        <span>1</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="panel accordion-item">
+                <h3 class="accordion-header" id="heading-3">
+                  <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-controls="collapse-3" aria-expanded="false">Language</button>
+                </h3>
+                <div id="collapse-3" class="accordion-collapse collapse " aria-labelledby="heading-3" data-bs-parent="#accordion-filters">
+                  <div class="accordion-body">
+                    <div class="filter-list" data-expanded="false">
+                      <div class="filter-list-item d-flex flex-nowrap align-items-center justify-content-between gap-3 mb-2 px-3">
+                        <a href="/cgi/ls?field1=ocr;q1=%22Wal-Mart%22%20Bentonville;a=srchls;lmt=ft;facet=bothPublishDateRange%3A%221960-1969%22&amp;facet=language008_full:&quot;English&quot;">English</a>
+                        <span>4</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="panel accordion-item">
+                <h3 class="accordion-header" id="heading-4">
+                  <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-controls="collapse-4" aria-expanded="false">Place of Publication</button>
+                </h3>
+                <div id="collapse-4" class="accordion-collapse collapse " aria-labelledby="heading-4" data-bs-parent="#accordion-filters">
+                  <div class="accordion-body">
+                    <div class="filter-list" data-expanded="false">
+                      <div class="filter-list-item d-flex flex-nowrap align-items-center justify-content-between gap-3 mb-2 px-3">
+                        <a href="/cgi/ls?field1=ocr;q1=%22Wal-Mart%22%20Bentonville;a=srchls;lmt=ft;facet=bothPublishDateRange%3A%221960-1969%22&amp;facet=countryOfPubStr:&quot;United%20States&quot;">United States</a>
+                        <span>4</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="panel accordion-item">
+                <h3 class="accordion-header" id="heading-5">
+                  <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-controls="collapse-5" aria-expanded="false">Date of Publication</button>
+                </h3>
+                <div id="collapse-5" class="accordion-collapse collapse " aria-labelledby="heading-5" data-bs-parent="#accordion-filters">
+                  <div class="accordion-body">
+                    <div class="filter-list" data-expanded="false">
+                      <div class="filter-list-item d-flex flex-nowrap align-items-center justify-content-between gap-3 mb-2 px-3">
+                        <a href="/cgi/ls?field1=ocr;q1=%22Wal-Mart%22%20Bentonville;a=srchls;lmt=ft;facet=bothPublishDateRange%3A%221960-1969%22&amp;facet=bothPublishDateRange:&quot;1968&quot;">1968</a>
+                        <span>3</span>
+                      </div>
+                      <div class="filter-list-item d-flex flex-nowrap align-items-center justify-content-between gap-3 mb-2 px-3">
+                        <a href="/cgi/ls?field1=ocr;q1=%22Wal-Mart%22%20Bentonville;a=srchls;lmt=ft;facet=bothPublishDateRange%3A%221960-1969%22&amp;facet=bothPublishDateRange:&quot;1969&quot;">1969</a>
+                        <span>1</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="panel accordion-item">
+                <h3 class="accordion-header" id="heading-6">
+                  <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-6" aria-controls="collapse-6" aria-expanded="false">Original Format</button>
+                </h3>
+                <div id="collapse-6" class="accordion-collapse collapse " aria-labelledby="heading-6" data-bs-parent="#accordion-filters">
+                  <div class="accordion-body">
+                    <div class="filter-list" data-expanded="false">
+                      <div class="filter-list-item d-flex flex-nowrap align-items-center justify-content-between gap-3 mb-2 px-3">
+                        <a href="/cgi/ls?field1=ocr;q1=%22Wal-Mart%22%20Bentonville;a=srchls;lmt=ft;facet=bothPublishDateRange%3A%221960-1969%22&amp;facet=format:&quot;Journal&quot;">Journal</a>
+                        <span>4</span>
+                      </div>
+                      <div class="filter-list-item d-flex flex-nowrap align-items-center justify-content-between gap-3 mb-2 px-3">
+                        <a href="/cgi/ls?field1=ocr;q1=%22Wal-Mart%22%20Bentonville;a=srchls;lmt=ft;facet=bothPublishDateRange%3A%221960-1969%22&amp;facet=format:&quot;Serial&quot;">Serial</a>
+                        <span>4</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="panel accordion-item">
+                <h3 class="accordion-header" id="heading-7">
+                  <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-7" aria-controls="collapse-7" aria-expanded="false">Original Location</button>
+                </h3>
+                <div id="collapse-7" class="accordion-collapse collapse " aria-labelledby="heading-7" data-bs-parent="#accordion-filters">
+                  <div class="accordion-body">
+                    <div class="filter-list" data-expanded="false">
+                      <div class="filter-list-item d-flex flex-nowrap align-items-center justify-content-between gap-3 mb-2 px-3">
+                        <a href="/cgi/ls?field1=ocr;q1=%22Wal-Mart%22%20Bentonville;a=srchls;lmt=ft;facet=bothPublishDateRange%3A%221960-1969%22&amp;facet=htsource:&quot;University%20of%20Illinois%20at%20Urbana-Champaign&quot;">University of Illinois at Urbana-Champaign</a>
+                        <span>3</span>
+                      </div>
+                      <div class="filter-list-item d-flex flex-nowrap align-items-center justify-content-between gap-3 mb-2 px-3">
+                        <a href="/cgi/ls?field1=ocr;q1=%22Wal-Mart%22%20Bentonville;a=srchls;lmt=ft;facet=bothPublishDateRange%3A%221960-1969%22&amp;facet=htsource:&quot;University%20of%20Virginia&quot;">University of Virginia</a>
+                        <span>1</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <section class="twocol-main" id="section">
+            <div class="mainplain w-auto position-relative">
+              <h1>Search Results</h1>
+              <hathi-results-toolbar data-prop-first-record-number="1" data-prop-last-record-number="4" data-prop-total-records="4" data-prop-target="ls" data-prop-current-sort-option=""></hathi-results-toolbar>
+              <hathi-collections-toolbar data-prop-editable="false" data-prop-user-is-anonymous="true" data-prop-collid="">
+                <select data-use="collections" class="d-none" aria-hidden="true"></select>
+              </hathi-collections-toolbar>
+              <div class="results-container" data-gdata="{&quot;cgi&quot;:&quot;https%3A%2F%2Fbabel.hathitrust.org%2Fcgi%2Fls%3Ffield1%3Docr%3Bq1%3D%5C%22Wal-Mart%5C%22%2520Bentonville%3Ba%3Dsrchls%3Blmt%3Dft%3Bfacet%3DbothPublishDateRange%253A%5C%221960-1969%5C%22%3Bpn%3D1&quot;,&quot;entries_per_page&quot;:&quot;100&quot;,&quot;logged_in&quot;:&quot;NO&quot;,&quot;session&quot;:&quot;092e0d138e65ffd8904def90a2ccd17b&quot;,&quot;A_qtime&quot;:&quot;0.048&quot;,&quot;I_rs&quot;:[&quot;uva.x030444760&quot;,&quot;uiug.30112048646365&quot;,&quot;uiug.30112005545535&quot;,&quot;uiug.30112027343745&quot;],&quot;ip&quot;:&quot;49.37.114.61&quot;,&quot;pid&quot;:2145767,&quot;num_found&quot;:4,&quot;B_rs&quot;:[&quot;uva.x030444760&quot;,&quot;uiug.30112048646365&quot;,&quot;uiug.30112005545535&quot;,&quot;uiug.30112027343745&quot;],&quot;query_string&quot;:&quot;%5C%5C%22Wal-Mart%5C%5C%22%20Bentonville&quot;,&quot;starting_result_no&quot;:1,&quot;B_num_found&quot;:4,&quot;user_agent&quot;:&quot;FoundersPlaybook-harvest%2F1.0%20%28research%20tool%20for%20THE%20FOUNDER%27S%20PLAYBOOK%3B%20contact%3A%20research%40example.org%29&quot;,&quot;accept&quot;:&quot;text/html,application/xhtml+xml,application/json%3Bq=0.8,*/*%3Bq=0.7&quot;,&quot;referer&quot;:&quot;&quot;,&quot;accept_encoding&quot;:&quot;gzip, br&quot;,&quot;B_qtime&quot;:&quot;0.039&quot;,&quot;timestamp&quot;:&quot;2026-09-25 08:44:41&quot;,&quot;test_type&quot;:&quot;intl&quot;,&quot;accept_language&quot;:null,&quot;A_rs&quot;:[&quot;uva.x030444760&quot;,&quot;uiug.30112048646365&quot;,&quot;uiug.30112005545535&quot;,&quot;uiug.30112027343745&quot;]}" data-logger-url="https://babel.hathitrust.org/cgi/ls/logger">
+                <article class="record d-flex gap-3 p-3 mb-3 mt-3 shadow-sm">
+                  <div class="cover d-none d-md-block" data-hdl="uva.x030444760">
+                    <img loading="lazy" class="bookCover border p-1 flex-grow-0 flex-shrink-0" aria-hidden="true" alt="" src="/cgi/imgsrv/cover?id=uva.x030444760;width=250" />
+                  </div>
+                  <div class="flex-grow-1 d-flex flex-column justify-content-between">
+                    <div class="container-fluid p-1">
+                      <h3 class="record-title" id="maintitle-1">Army logistician, v.97</h3>
+                      <dl class="metadata">
+                        <div class="grid">
+                          <dt class="g-col-lg-4 g-col-12">Published</dt>
+                          <dd class="g-col-lg-8 g-col-12"></dd>
+                        </div>
+                      </dl>
+                    </div>
+                    <div class="resource-access-container" data-key="fulltext">
+                      <div class="list-group list-group-horizontal-sm align-items-center">
+                        <a class="list-group-item list-group-item-action w-sm-50" aria-describedby="maintitle-1" href="http://catalog.hathitrust.org/Record/011400566" data-clickdata="{&quot;id&quot;:&quot;uva.x030444760&quot;,&quot;rank_on_page&quot;:1,&quot;AB_label&quot;:&quot;Same_Rank&quot;}" data-clicktype="catalog">
+                          <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
+                          <span>Catalog Record</span>
+                          <i aria-hidden="true" class="visited-link fa-solid fa-check-double"></i>
+                        </a>
+                        <a class="list-group-item list-group-item-action list-group-item active w-sm-50" aria-describedby="maintitle-1" href="/cgi/pt?id=uva.x030444760" data-clickdata="{&quot;id&quot;:&quot;uva.x030444760&quot;,&quot;rank_on_page&quot;:1,&quot;AB_label&quot;:&quot;Same_Rank&quot;}" data-clicktype="pt">
+                          <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
+                          <span>Full View</span>
+                          <i aria-hidden="true" class="visited-link fa-solid fa-check-double"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="record-action form-check" style="order: -1">
+                    <input class="form-check-input" type="checkbox" id="select-1" name="extern_item_id" value="uva.x030444760" aria-label="Add item &quot;Army logistician, v.97&quot; to a collection" />
+                  </div>
+                </article>
+                <article class="record d-flex gap-3 p-3 mb-3 mt-3 shadow-sm">
+                  <div class="cover d-none d-md-block" data-hdl="uiug.30112048646365">
+                    <img loading="lazy" class="bookCover border p-1 flex-grow-0 flex-shrink-0" aria-hidden="true" alt="" src="/cgi/imgsrv/cover?id=uiug.30112048646365;width=250" />
+                  </div>
+                  <div class="flex-grow-1 d-flex flex-column justify-content-between">
+                    <div class="container-fluid p-1">
+                      <h3 class="record-title" id="maintitle-2">Customs bulletin : Treasury decisions under customs and other laws, v.34:1-13</h3>
+                      <dl class="metadata">
+                        <div class="grid">
+                          <dt class="g-col-lg-4 g-col-12">Published</dt>
+                          <dd class="g-col-lg-8 g-col-12"></dd>
+                        </div>
+                      </dl>
+                    </div>
+                    <div class="resource-access-container" data-key="fulltext">
+                      <div class="list-group list-group-horizontal-sm align-items-center">
+                        <a class="list-group-item list-group-item-action w-sm-50" aria-describedby="maintitle-2" href="http://catalog.hathitrust.org/Record/000888066" data-clickdata="{&quot;id&quot;:&quot;uiug.30112048646365&quot;,&quot;rank_on_page&quot;:2,&quot;AB_label&quot;:&quot;Same_Rank&quot;}" data-clicktype="catalog">
+                          <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
+                          <span>Catalog Record</span>
+                          <i aria-hidden="true" class="visited-link fa-solid fa-check-double"></i>
+                        </a>
+                        <a class="list-group-item list-group-item-action list-group-item active w-sm-50" aria-describedby="maintitle-2" href="/cgi/pt?id=uiug.30112048646365" data-clickdata="{&quot;id&quot;:&quot;uiug.30112048646365&quot;,&quot;rank_on_page&quot;:2,&quot;AB_label&quot;:&quot;Same_Rank&quot;}" data-clicktype="pt">
+                          <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
+                          <span>Full View</span>
+                          <i aria-hidden="true" class="visited-link fa-solid fa-check-double"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="record-action form-check" style="order: -1">
+                    <input class="form-check-input" type="checkbox" id="select-2" name="extern_item_id" value="uiug.30112048646365" aria-label="Add item &quot;Customs bulletin : Treasury decisions under customs and other laws, v.34:1-13&quot; to a collection" />
+                  </div>
+                </article>
+                <article class="record d-flex gap-3 p-3 mb-3 mt-3 shadow-sm">
+                  <div class="cover d-none d-md-block" data-hdl="uiug.30112005545535">
+                    <img loading="lazy" class="bookCover border p-1 flex-grow-0 flex-shrink-0" aria-hidden="true" alt="" src="/cgi/imgsrv/cover?id=uiug.30112005545535;width=250" />
+                  </div>
+                  <div class="flex-grow-1 d-flex flex-column justify-content-between">
+                    <div class="container-fluid p-1">
+                      <h3 class="record-title" id="maintitle-3">Customs bulletin : Treasury decisions under customs and other laws, v.29:23-35</h3>
+                      <dl class="metadata">
+                        <div class="grid">
+                          <dt class="g-col-lg-4 g-col-12">Published</dt>
+                          <dd class="g-col-lg-8 g-col-12"></dd>
+                        </div>
+                      </dl>
+                    </div>
+                    <div class="resource-access-container" data-key="fulltext">
+                      <div class="list-group list-group-horizontal-sm align-items-center">
+                        <a class="list-group-item list-group-item-action w-sm-50" aria-describedby="maintitle-3" href="http://catalog.hathitrust.org/Record/000888066" data-clickdata="{&quot;rank_on_page&quot;:3,&quot;id&quot;:&quot;uiug.30112005545535&quot;,&quot;AB_label&quot;:&quot;Same_Rank&quot;}" data-clicktype="catalog">
+                          <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
+                          <span>Catalog Record</span>
+                          <i aria-hidden="true" class="visited-link fa-solid fa-check-double"></i>
+                        </a>
+                        <a class="list-group-item list-group-item-action list-group-item active w-sm-50" aria-describedby="maintitle-3" href="/cgi/pt?id=uiug.30112005545535" data-clickdata="{&quot;rank_on_page&quot;:3,&quot;id&quot;:&quot;uiug.30112005545535&quot;,&quot;AB_label&quot;:&quot;Same_Rank&quot;}" data-clicktype="pt">
+                          <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
+                          <span>Full View</span>
+                          <i aria-hidden="true" class="visited-link fa-solid fa-check-double"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="record-action form-check" style="order: -1">
+                    <input class="form-check-input" type="checkbox" id="select-3" name="extern_item_id" value="uiug.30112005545535" aria-label="Add item &quot;Customs bulletin : Treasury decisions under customs and other laws, v.29:23-35&quot; to a collection" />
+                  </div>
+                </article>
+                <article class="record d-flex gap-3 p-3 mb-3 mt-3 shadow-sm">
+                  <div class="cover d-none d-md-block" data-hdl="uiug.30112027343745">
+                    <img loading="lazy" class="bookCover border p-1 flex-grow-0 flex-shrink-0" aria-hidden="true" alt="" src="/cgi/imgsrv/cover?id=uiug.30112027343745;width=250" />
+                  </div>
+                  <div class="flex-grow-1 d-flex flex-column justify-content-between">
+                    <div class="container-fluid p-1">
+                      <h3 class="record-title" id="maintitle-4">Customs bulletin : Treasury decisions under customs and other laws, v.29:36-41</h3>
+                      <dl class="metadata">
+                        <div class="grid">
+                          <dt class="g-col-lg-4 g-col-12">Published</dt>
+                          <dd class="g-col-lg-8 g-col-12"></dd>
+                        </div>
+                      </dl>
+                    </div>
+                    <div class="resource-access-container" data-key="fulltext">
+                      <div class="list-group list-group-horizontal-sm align-items-center">
+                        <a class="list-group-item list-group-item-action w-sm-50" aria-describedby="maintitle-4" href="http://catalog.hathitrust.org/Record/000888066" data-clickdata="{&quot;AB_label&quot;:&quot;Same_Rank&quot;,&quot;rank_on_page&quot;:4,&quot;id&quot;:&quot;uiug.30112027343745&quot;}" data-clicktype="catalog">
+                          <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
+                          <span>Catalog Record</span>
+                          <i aria-hidden="true" class="visited-link fa-solid fa-check-double"></i>
+                        </a>
+                        <a class="list-group-item list-group-item-action list-group-item active w-sm-50" aria-describedby="maintitle-4" href="/cgi/pt?id=uiug.30112027343745" data-clickdata="{&quot;AB_label&quot;:&quot;Same_Rank&quot;,&quot;rank_on_page&quot;:4,&quot;id&quot;:&quot;uiug.30112027343745&quot;}" data-clicktype="pt">
+                          <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
+                          <span>Full View</span>
+                          <i aria-hidden="true" class="visited-link fa-solid fa-check-double"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="record-action form-check" style="order: -1">
+                    <input class="form-check-input" type="checkbox" id="select-4" name="extern_item_id" value="uiug.30112027343745" aria-label="Add item &quot;Customs bulletin : Treasury decisions under customs and other laws, v.29:36-41&quot; to a collection" />
+                  </div>
+                </article>
+                <script type="text/javascript">
+	  let clicklog_script = document.createElement('script');
+	  clicklog_script.src = "/ls/firebird/js/ls_clicklog.js"
+	  document.head.append(clicklog_script);
+         </script>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <hathi-website-footer></hathi-website-footer>
+    </div>
+  <script>window.__CF$cv$params={r:'a40a1f2418409baf',t:'MTc5MDM0MDI4MA==',u:'01a0d898b6fe729788891e43a8abf7f2',ut:'fPowcImwz5QgvHfrN_hxoy.m7mOeZM4TgcUKyvk51dA-1790340282-1.2.1.1-udrEYV3FCtMVNDE5JAhdR51M9eiSzF8u3_BqTOWn60XUbIooPej1DjyOCw3Wd_eHdZ6_3aCiPdZGFg0hr_29gbf_V1ej.GlL4pPanlMgMCc',i:60};(function(){if(!document.body)return;var s=document.createElement('script');s.src='/cdn-cgi/challenge-platform/scripts/precursor/main.js';document.head.appendChild(s);})();</script></body>
+</html>

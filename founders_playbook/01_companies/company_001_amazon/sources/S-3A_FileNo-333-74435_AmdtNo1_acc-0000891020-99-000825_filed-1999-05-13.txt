@@ -1,0 +1,3263 @@
+==============================================================================
+PROVENANCE HEADER -- added by the Stage-3 Evidence Registrar (post-IPO filing intake)
+Retrieval date (access date) : 2026-09-25
+Original URL                 : https://www.sec.gov/Archives/edgar/data/1018724/0000891020-99-000825.txt
+HTTP status on retrieval     : 200
+Document                     : Form S-3/A, complete submission (all 6 documents inline) -- AMENDMENT NO.1 TO FORM S-3
+SEC CIK                      : 1018724 (AMAZON COM INC)
+Accession no.                : 0000891020-99-000825
+Filing date per EDGAR        : 1999-05-13   (SEC-HEADER FILED AS OF DATE: 19990513 -- agrees)
+Conformed submission type    : S-3/A   Securities Exchange Act File No.: 333-74435
+Period of report             : n/a
+Bytes of retrieved body      : 155,414
+Body completeness            : COMPLETE -- terminates in </SEC-DOCUMENT>; 6 <DOCUMENT> blocks, types: EX-12.1, EX-23.1, EX-23.3, EX-23.4, EX-23.5, S-3/A
+Request headers used         : User-Agent: FounderPlaybook Research AdminContact@example.com | Accept-Encoding: identity | Referer: https://www.sec.gov/
+Body encoding on wire        : identity (no compression negotiated); saved exactly as received
+Located via                  : https://data.sec.gov/submissions/CIK0001018724-submissions-002.json (pre-2000 slice, 1997-03-24 -> 2000-01-04); row form=S-3/A filingDate=1999-05-13 primaryDocDescription='AMENDMENT NO.1 TO FORM S-3'
+Component documents (DESCRIPTION per EDGAR):
+      - AMENDMENT NO.1 TO FORM S-3
+      - COMPUTATION OF RATIO OF EARNINGS TO FIXED CHARGES
+      - CONSENT OF ERNST & YOUNG LLP
+      - CONSENT OF DELOITTE & TOUCHE LLP
+      - CONSENT OF PRICEWATERHOUSECOOPERS LLP
+      - CONSENT OF PRICEWATERHOUSECOOPERS LLP
+==============================================================================
+
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ VR+JKwcC2oFqVUDZf18rkVVCZ3m5Xw4RPKfNm+jYacJNlw8UmpG+B4Wuy7NT1ECx
+ A+49Xgs/oozvfFMQju+vFg==
+
+<SEC-DOCUMENT>0000891020-99-000825.txt : 19990514
+<SEC-HEADER>0000891020-99-000825.hdr.sgml : 19990514
+ACCESSION NUMBER:		0000891020-99-000825
+CONFORMED SUBMISSION TYPE:	S-3/A
+PUBLIC DOCUMENT COUNT:		6
+FILED AS OF DATE:		19990513
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AMAZON COM INC
+		CENTRAL INDEX KEY:			0001018724
+		STANDARD INDUSTRIAL CLASSIFICATION:	RETAIL-CATALOG & MAIL-ORDER HOUSES [5961]
+		IRS NUMBER:				911646860
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		S-3/A
+		SEC ACT:		
+		SEC FILE NUMBER:	333-74435
+		FILM NUMBER:		99619105
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1516 SECOND AVE 4TH FLOOR
+		STREET 2:		PO BOX 80387
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+		BUSINESS PHONE:		2066222335
+
+	MAIL ADDRESS:	
+		STREET 1:		PO BOX 80387
+		STREET 2:		1516 SECOND AVE 4TH FLOOR
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>S-3/A
+<SEQUENCE>1
+<DESCRIPTION>AMENDMENT NO.1 TO FORM S-3
+<TEXT>
+
+<PAGE>   1
+ 
+   
+      AS FILED WITH THE SECURITIES AND EXCHANGE COMMISSION ON MAY 13, 1999
+    
+ 
+   
+                                                      REGISTRATION NO. 333-74435
+    
+- --------------------------------------------------------------------------------
+- --------------------------------------------------------------------------------
+ 
+                       SECURITIES AND EXCHANGE COMMISSION
+                             WASHINGTON, D.C. 20549
+                            ------------------------
+ 
+   
+                                AMENDMENT NO. 1
+    
+   
+                                       TO
+    
+ 
+                                    FORM S-3
+                             REGISTRATION STATEMENT
+                                     UNDER
+                           THE SECURITIES ACT OF 1933
+                            ------------------------
+ 
+                                AMAZON.COM, INC.
+             (EXACT NAME OF REGISTRANT AS SPECIFIED IN ITS CHARTER)
+ 
+<TABLE>
+<S>                                                 <C>
+                     DELAWARE                                           91-1646860
+ (STATE OR OTHER JURISDICTION OF INCORPORATION OR          (IRS EMPLOYER IDENTIFICATION NUMBER)
+                   ORGANIZATION)
+</TABLE>
+ 
+                         1516 SECOND AVENUE, 4TH FLOOR
+                           SEATTLE, WASHINGTON 98101
+                                 (206) 622-2335
+  (ADDRESS, INCLUDING ZIP CODE, AND TELEPHONE NUMBER, INCLUDING AREA CODE, OF
+                   REGISTRANT'S PRINCIPAL EXECUTIVE OFFICES)
+ 
+                                JEFFREY P. BEZOS
+                     PRESIDENT AND CHIEF EXECUTIVE OFFICER
+                                AMAZON.COM, INC.
+                         1516 SECOND AVENUE, 4TH FLOOR
+                           SEATTLE, WASHINGTON 98101
+                                 (206) 622-2335
+ (NAME, ADDRESS, INCLUDING ZIP CODE, AND TELEPHONE NUMBER, INCLUDING AREA CODE,
+                             OF AGENT FOR SERVICE)
+ 
+                                   COPIES TO:
+ 
+   
+                                SCOTT L. GELBAND
+    
+   
+                                PERKINS COIE LLP
+    
+                         1201 THIRD AVENUE, 40TH FLOOR
+                         SEATTLE, WASHINGTON 98101-3099
+                                 (206) 583-8888
+ 
+        APPROXIMATE DATE OF COMMENCEMENT OF PROPOSED SALE TO THE PUBLIC:
+   
+     From time to time after this registration statement becomes effective.
+    
+ 
+    If the only securities being registered on this Form are being offered
+pursuant to dividend or interest reinvestment plans, please check the following
+box.  [ ]
+ 
+    If any of the securities being registered on this Form are to be offered on
+a delayed or continuous basis pursuant to Rule 415 under the Securities Act of
+1933, other than securities offered only in connection with dividend or interest
+reinvestment plans, check the following box.  [X]
+ 
+    If this Form is filed to register additional securities for an offering
+pursuant to Rule 462(b) under the Securities Act of 1933, please check the
+following box and list the Securities Act registration statement number of the
+earlier effective registration statement for the same offering.  [
+] ____________
+ 
+    If this Form is a post-effective amendment filed pursuant to Rule 462(c)
+under the Securities Act of 1933, check the following box and list the
+Securities Act registration statement number of the earlier effective
+registration statement for the same offering.  [ ] ____________
+ 
+    If delivery of the prospectus is expected to be made pursuant to Rule 434,
+please check the following box.  [ ]
+ 
+   
+    THE REGISTRANT HEREBY AMENDS THIS REGISTRATION STATEMENT ON SUCH DATE OR
+DATES AS MAY BE NECESSARY TO DELAY ITS EFFECTIVE DATE UNTIL THE REGISTRANT SHALL
+FILE A FURTHER AMENDMENT WHICH SPECIFICALLY STATES THAT THIS REGISTRATION
+STATEMENT SHALL THEREAFTER BECOME EFFECTIVE IN ACCORDANCE WITH SECTION 8(A) OF
+THE SECURITIES ACT OF 1933 OR UNTIL THIS REGISTRATION STATEMENT SHALL BECOME
+EFFECTIVE ON SUCH DATE AS THE SEC, ACTING PURSUANT TO SAID SECTION 8(A), MAY
+DETERMINE.
+    
+ 
+- --------------------------------------------------------------------------------
+- --------------------------------------------------------------------------------
+<PAGE>   2
+ 
+The information in this prospectus is not complete and may be changed. The
+selling holders may not sell these securities until the registration statement
+filed with the Securities and Exchange Commission is effective. This prospectus
+is not an offer to sell these securities and is not soliciting an offer to buy
+these securities in any state where the offer of sale is not permitted.
+ 
+   
+                   SUBJECT TO COMPLETION, DATED MAY 13, 1999
+    
+ 
+                                 $1,250,000,000
+ 
+                                AMAZON.COM, INC.
+                 4 3/4% CONVERTIBLE SUBORDINATED NOTES DUE 2009
+                           -------------------------
+ 
+   
+     Holders of our 4 3/4% Convertible Subordinated Notes due 2009 may offer for
+sale the notes and the shares of our common stock into which the notes are
+convertible at various times at market prices prevailing at the time of sale or
+at privately negotiated prices. The selling holders may sell the notes or the
+common stock to or through underwriters, broker-dealers or agents, who may
+receive compensation in the form of discounts, concessions or commissions.
+Interest is payable in arrears on February 1 and August 1 of each year,
+beginning on August 1, 1999. The notes will mature on February 1, 2009 unless
+earlier converted or redeemed. The notes are unsecured and rank below our
+existing and future indebtedness.
+    
+ 
+   
+     The holders of the notes may convert any portion of a note (in multiples of
+$1,000) into common stock, at a conversion price of $156.055 per share, subject
+to adjustment in certain events. Our common stock is quoted on the Nasdaq
+National Market under the symbol "AMZN." On May 12, 1999, the closing price of
+the common stock was $142.9375 per share.
+    
+ 
+   
+     We may redeem any portion of the notes at any time prior to February 6,
+2002, at a redemption price equal to $1,000 per note plus accrued and unpaid
+interest to the redemption date if (1) the closing price of our common stock has
+exceeded 150% of the conversion price for at least 20 trading days in any
+consecutive 30-day period ending on the trading day prior to the mailing of the
+notice of redemption and (2) the shelf registration statement covering resales
+of the notes and the common stock is effective and expected to remain effective
+and available for use for the 30 days following the redemption dates. If we
+redeem the notes under these circumstances, we will make an additional
+"make-whole" payment on the redeemed notes equal to $212.60 per $1,000 note,
+minus the amount of any interest we actually paid on the note prior to the date
+the notice was mailed. We must make these "make-whole" payments on all notes
+called for redemption, including notes converted after the date the notice was
+mailed.
+    
+ 
+   
+     We do not intend to apply for listing of the notes on any securities
+exchange or for quotation through any automated quotation system. The notes are
+eligible for trading in the Private Offerings, Resale and Trading through
+Automated Linkages ("Portal") market of the National Association of Securities
+Dealers, Inc. The notes are not expected to remain eligible for trading on the
+Portal system and a trading market may not develop for the notes.
+    
+ 
+   
+     We will not receive any proceeds from the sale of the notes and the common
+stock into which the notes are convertible by the selling holders. We will pay
+all expenses (other than selling commissions and fees and stock transfer taxes)
+of the registration and sale of the notes and the common stock.
+    
+ 
+   
+     INVESTING IN THE NOTES OR THE COMMON STOCK INTO WHICH THE NOTES ARE
+CONVERTIBLE INVOLVES A HIGH DEGREE OF RISK. SEE "RISK FACTORS" BEGINNING ON PAGE
+4.
+    
+ 
+                           -------------------------
+ 
+   
+     NEITHER THE SECURITIES AND EXCHANGE COMMISSION NOR ANY STATE SECURITIES
+COMMISSION HAS APPROVED OR DISAPPROVED OF THESE SECURITIES OR PASSED UPON THE
+ACCURACY OR ADEQUACY OF THIS PROSPECTUS. ANY REPRESENTATION TO THE CONTRARY IS A
+CRIMINAL OFFENSE.
+    
+ 
+                           -------------------------
+ 
+PROSPECTUS DATED                      , 1999
+<PAGE>   3
+ 
+   
+                               TABLE OF CONTENTS
+    
+ 
+   
+<TABLE>
+<CAPTION>
+                                                              PAGE
+                                                              ----
+<S>                                                           <C>
+Forward-Looking Information.................................    1
+How to Obtain More Information..............................    1
+Amazon.com..................................................    3
+Risk Factors................................................    3
+Ratio of Earnings to Fixed Charges..........................   12
+Description of Notes........................................   12
+United States Federal Income Tax Consequences...............   20
+Use of Proceeds.............................................   24
+Description of Capital Stock................................   24
+Selling Holders.............................................   25
+Plan of Distribution........................................   33
+Legal Matters...............................................   35
+Experts.....................................................   35
+</TABLE>
+    
+ 
+   
+                          FORWARD-LOOKING INFORMATION
+    
+ 
+   
+     This prospectus includes "forward-looking statements" within the meaning of
+the Private Securities Litigation Reform Act of 1995. This Act provides a "safe
+harbor" for forward-looking statements to encourage companies to provide
+prospective information about themselves so long as they identify these
+statements as forward-looking and provide meaningful cautionary statements
+identifying important factors that could cause actual results to differ from the
+projected results. All statements other than statements of historical fact we
+make in this prospectus or in any document incorporated by reference are
+forward-looking. In particular, the statements herein regarding industry
+prospects and our future results of operations or financial position are
+forward-looking statements. Forward-looking statements reflect our current
+expectations and are inherently uncertain. Our actual results may differ
+significantly from our expectations. The section entitled "Risk Factors"
+describes some, but not all, of the factors that could cause these differences.
+    
+ 
+   
+                         HOW TO OBTAIN MORE INFORMATION
+    
+ 
+     We file reports, proxy statements and other information with the Securities
+and Exchange Commission. You may read any document we file at the SEC's public
+reference rooms in Washington, D.C., Chicago, Illinois and New York, New York.
+Please call the SEC toll free at 1-800-SEC-0330 for information about its public
+reference rooms. You may also read our filings at the SEC's Web site at
+http://www.sec.gov.
+ 
+     We have filed with the SEC a registration statement on Form S-3 under the
+Securities Act of 1933. This prospectus does not contain all of the information
+in the registration statement. We have omitted certain parts of the registration
+statement, as permitted by the rules and regulations of the SEC. You may inspect
+and copy the registration statement, including exhibits, at the SEC's public
+reference facilities or Web site. Our statements in this prospectus about the
+contents of any contract or other document are not necessarily complete. You
+should refer to the copy of each contract or other document we have filed as an
+exhibit to the registration statement for complete information.
+ 
+                                        1
+<PAGE>   4
+ 
+     The SEC allows us to "incorporate by reference" into this prospectus the
+information we file with it. This means that we can disclose important
+information to you by referring you to those documents. This information we
+incorporate by reference is considered a part of this prospectus, and later
+information we file with the SEC will automatically update and supersede this
+information. We incorporate by reference the documents listed below and any
+future filings we make with the SEC under Sections 13(a), 13(c), 14 and 15(d) of
+the Securities Exchange Act of 1934 until this offering is completed:
+ 
+   
+     - Our Annual Report on Form 10-K for the year ended December 31, 1998;
+    
+ 
+   
+     - Our Current Reports on Form 8-K filed on August 27, 1998, October 26,
+       1998, January 5, 1999, January 27, 1999, January 28, 1999, January 29,
+       1999, and February 4, 1999, March 29, 1999, March 30, 1999, April 27,
+       1999, April 29, 1999 and May 12, 1999; and
+    
+ 
+   
+     - The description of the common stock in our Registration Statement on Form
+       8-A filed on May 2, 1997, under Section 12(g) of the Exchange Act.
+    
+ 
+   
+     You may obtain copies of these documents, other than exhibits, free of
+charge by contacting our corporate secretary at our principal offices, which are
+located at 1516 Second Avenue, Seattle, Washington 98101, telephone number (206)
+622-2335.
+    
+ 
+     You should rely only on the information incorporated by reference or
+provided in this prospectus or any prospectus supplement. We have not authorized
+anyone else to provide you with different information. The selling holders are
+not making an offer of these securities in any state where the offer is not
+permitted. You should not assume that the information in this prospectus or any
+prospectus supplement is accurate as of any date other than the date on the
+front of the document.
+ 
+                                        2
+<PAGE>   5
+ 
+   
+                                   AMAZON.COM
+    
+ 
+   
+     Amazon.com is the Internet's number one book, music and video retailer.
+Amazon.com, one of the most widely known, used and cited commerce sites on the
+Web, offers more than 4.7 million book, music CD, video, DVD, computer game and
+other titles and a free electronic greeting card service. Amazon.com also
+provides a community of on-line shoppers an easy and safe way to purchase and
+sell a large selection of products through Amazon.com Auctions. We offer our
+customers a superior shopping experience by providing value and a high level of
+customer service. We are a proven technology leader; we developed electronic
+commerce innovations such as 1-Click ordering, personalized shopping services
+and easy-to-use search and browse features.
+    
+ 
+     We were incorporated in 1994 in the state of Washington and reincorporated
+in 1996 in the state of Delaware. Our principal corporate offices are located in
+Seattle, Washington. Our mailing address and telephone number are 1516 Second
+Avenue, Seattle, Washington 98101, (206) 622-2335.
+ 
+     Information contained on our Web site is not a part of this prospectus.
+ 
+   
+     We have adjusted all of the information in this prospectus to reflect a
+2-for-1 split of our common stock on June 1, 1998 and a 3-for-1 split of our
+common stock on January 4, 1999.
+    
+ 
+   
+     Amazon.com, Amazon.co.uk, Amazon.de, Internet Movie Database, Earth's
+Biggest Bookstore and 1-Click are either registered trademarks or trademarks of
+Amazon.com or its affiliates. All other names mentioned in this prospectus or in
+the documents incorporated by reference may be trademarks of their respective
+owners.
+    
+ 
+   
+                                  RISK FACTORS
+    
+ 
+     You should carefully consider the following risk factors and the other
+information in this prospectus before investing in the notes.
+ 
+   
+WE HAVE A LIMITED OPERATING HISTORY
+    
+ 
+     We incorporated in July 1994 and began offering products for sale on our
+Web site in July 1995. Accordingly, we have a relatively short operating history
+upon which you can evaluate our business and prospects. You should consider our
+prospects in light of the risks, expenses and difficulties frequently
+encountered by early-stage online commerce companies. As an early-stage online
+commerce company, we have an evolving and unpredictable business model, we face
+intense competition, we must effectively manage our growth and we must respond
+quickly to rapid changes in customer demands and industry standards. We may not
+succeed in addressing these challenges and risks.
+ 
+WE HAVE AN ACCUMULATED DEFICIT AND ANTICIPATE FURTHER LOSSES
+ 
+   
+     We have incurred significant losses since we began doing business. As of
+March 31, 1999, we had an accumulated deficit of $223.7 million. To succeed we
+must invest heavily in marketing and promotion and in developing our product,
+technology and operating infrastructure. In addition, the expenses associated
+with our recent acquisitions, and interest expense related to our outstanding
+notes, will adversely affect our operating results.
+    
+ 
+                                        3
+<PAGE>   6
+ 
+Our aggressive pricing programs have resulted in relatively low product gross
+margins, so we need to generate and sustain substantially higher revenues in
+order to become profitable. Although our revenues have grown, we cannot sustain
+our current rate of growth. Our percentage growth rate will decrease in the
+future. For these reasons we believe that we will continue to incur substantial
+operating losses for the foreseeable future, and these losses may be
+significantly higher than our current losses.
+ 
+UNPREDICTABILITY OF FUTURE REVENUES; POTENTIAL FLUCTUATIONS IN
+   
+QUARTERLY OPERATING RESULTS; SEASONALITY; CONSUMER TRENDS
+    
+ 
+     Due to our limited operating history and the unpredictability of our
+industry, we cannot accurately forecast our revenues. We base our current and
+future expense levels on our investment plans and estimates of future revenues.
+Our expenses are to a large extent fixed. We may not be able to adjust our
+spending quickly if our revenues fall short of our expectations. Further, we may
+make pricing, purchasing, service, marketing, acquisition or financing decisions
+that could adversely affect our business results.
+ 
+     Our quarterly operating results will fluctuate for many reasons, including:
+ 
+     - our ability to retain existing customers, attract new customers and
+       satisfy our customers' demand,
+ 
+     - our ability to acquire merchandise, manage our inventory and fulfill
+       orders,
+ 
+     - changes in gross margins of our current and future products, services and
+       markets,
+ 
+     - introduction of our new sites, services and products or those of
+       competitors,
+ 
+     - changes in usage of the Internet and online services and consumer
+       acceptance of the Internet and online commerce,
+ 
+     - timing of upgrades and developments in our systems and infrastructure,
+ 
+     - the level of traffic on our Web sites,
+ 
+     - the effects of acquisitions and other business combinations, and related
+       integration,
+ 
+     - technical difficulties, system downtime or Internet brownouts,
+ 
+     - introductions of popular books, music selections and other products or
+       services,
+ 
+     - our level of merchandise returns, and
+ 
+     - disruptions in service by common shipping carriers due to strikes or
+       otherwise.
+ 
+   
+     The popularity of our auction services and certain items offered through
+our auction services may vary over time due to perceived scarcity, subjective
+value, "fads" and consumer trends in general. If the popularity of our auction
+services or the items that are listed for sale declines, our revenues from our
+auction services will fall.
+    
+ 
+     Both seasonal fluctuations in Internet usage and traditional retail
+seasonality may affect our business. Internet usage generally declines during
+the summer. Sales in the traditional retail book and music industries usually
+increase significantly in the fourth calendar quarter of each year.
+ 
+                                        4
+<PAGE>   7
+ 
+   
+     For these reasons, you should not rely on period-to-period comparisons of
+our financial results to forecast our future performance. Our future operating
+results may fall below the expectations of securities analysts or investors,
+which would likely cause the trading price of our outstanding notes and our
+common stock to decline.
+    
+ 
+INTENSE COMPETITION
+ 
+   
+     The online commerce market is new, rapidly evolving and intensely
+competitive. In addition, the retail book, music and video industries are
+intensely competitive. Our current or potential competitors include:
+    
+ 
+     - online booksellers and vendors of other products such as CDs, videotapes
+       and DVDs,
+ 
+     - a number of indirect competitors, including Web portals and Web search
+       engines, such as Yahoo! Inc. and America Online, Inc., that are involved
+       in online commerce, either directly or in collaboration with other
+       retailers,
+ 
+   
+     - online auction services, including eBay, Inc. and Yahoo! Auctions run by
+       Yahoo!,
+    
+ 
+     - publishers, distributors and retail vendors of books, music, video and
+       other products, including Barnes & Noble, Inc., Bertelsmann AG and other
+       large specialty booksellers and media corporations, many of which possess
+       significant brand awareness, sales volume and customer bases, and
+ 
+     - traditional retailers who currently sell, or who may sell, products or
+       services through the Internet.
+ 
+     We believe that the principal competitive factors in our market are brand
+recognition, selection, personalized services, convenience, price,
+accessibility, customer service, quality of search tools, quality of editorial
+and other site content, and reliability and speed of fulfillment.
+ 
+   
+     Many of our current and potential competitors have longer operating
+histories, larger customer bases, greater brand recognition and significantly
+greater financial, marketing and other resources than we have. They may be able
+to secure merchandise from vendors on more favorable terms and may be able to
+adopt more aggressive pricing or inventory policies. They also can devote more
+resources to technology development and marketing than we can. We also expect to
+experience increased competition from online commerce sites that provide goods
+and services at or near cost, relying on advertising revenues to achieve
+profitability.
+    
+ 
+   
+     As the online commerce market continues to grow, other companies may enter
+into business combinations or alliances that strengthen their competitive
+positions. For example, in late 1998, (1) Bertelsmann AG announced that it
+purchased a 50% interest in Barnes & Noble's online venture, barnesandnoble.com
+inc., and intends to launch online stores in several countries, (2) Barnes &
+Noble announced its pending acquisition of Ingram Book Group, currently our
+largest single supplier, and (3) online music retailers CDnow, Inc. and N2K Inc.
+announced a merger. We may not be able to compete successfully against these and
+future competitors.
+    
+ 
+     Competition in the Internet and online commerce markets probably will
+intensify. As various Internet market segments obtain large, loyal customer
+bases, participants in those segments may use their market power to expand into
+the markets in which we operate. In
+ 
+                                        5
+<PAGE>   8
+ 
+addition, new and expanded Web technologies may increase the competitive
+pressures on online retailers. For example, "shopping agent" technologies permit
+customers to quickly compare our prices with those of our competitors. This
+increased competition may reduce our operating margins, diminish our market
+share or impair the value of our brand.
+ 
+RISKS OF SYSTEM INTERRUPTION
+ 
+     Customer access to our Web sites directly affects the volume of orders we
+fulfill and thus affects our revenues. We experience occasional system
+interruptions that make our Web sites unavailable or prevent us from efficiently
+fulfilling orders, which may reduce the volume of goods we sell and the
+attractiveness of our products and services. These interruptions will continue.
+We need to add additional software and hardware and upgrade our systems and
+network infrastructure to accommodate increased traffic on our Web sites and
+increased sales volume. Without these upgrades, we face additional system
+interruptions, slower response times, diminished customer service, impaired
+quality and speed of order fulfillment, and delays in our financial reporting.
+We cannot accurately project the rate or timing of any increases in traffic or
+sales volume on our Web sites and, therefore, the integration and timing of
+these upgrades are uncertain.
+ 
+     We maintain substantially all of our computer and communications hardware
+at a single leased facility in Seattle, Washington. Our systems and operations
+could be damaged or interrupted by fire, flood, power loss, telecommunications
+failure, break-ins, earthquake and similar events. We do not have backup systems
+or a formal disaster recovery plan and we may not have sufficient business
+interruption insurance to compensate us for losses from a major interruption.
+Computer viruses, physical or electronic break-ins and similar disruptions could
+cause system interruptions, delays, and loss of critical data and could prevent
+us from providing services and accepting and fulfilling customer orders.
+ 
+WE MAY HAVE DIFFICULTY MANAGING OUR GROWTH
+ 
+   
+     We have rapidly and significantly expanded our operations and will further
+expand our operations to address potential growth of our product and service
+offerings and customer base. We will expand our product and service offerings
+and our international operations and will pursue other market opportunities. We
+need to expand significantly our distribution center network and improve our
+transaction-processing, operational and financial systems, procedures and
+controls. This expansion will continue to place a significant strain on our
+management, operational facilities and financial resources. Because it is
+difficult to predict sales increases, and lead times for developing distribution
+centers are long, we may over-expand our facilities, which may result in excess
+inventory, warehousing, fulfillment and distribution capacity. We also need to
+expand, train and manage our employee base. Our current and planned personnel,
+systems, procedures and controls may not be adequate to support and effectively
+manage our future operations. We may not be able to hire, train, retain,
+motivate and manage required personnel or to successfully identify, manage and
+exploit market opportunities, which may limit our growth.
+    
+ 
+RISK OF ENTERING NEW BUSINESS AREAS
+ 
+     We intend to expand our operations by promoting new or complementary
+products, services or sales formats and by expanding our product or service
+offerings. This will require significant additional expense and could strain our
+management, financial and
+ 
+                                        6
+<PAGE>   9
+ 
+operational resources. We cannot expect to benefit in these new markets from the
+first-to-market advantage that we experienced in the online book market. Our
+gross margins in these new business areas may be lower than our existing
+business activities. We may not be able to expand our operations in a
+cost-effective or timely manner. Any new business that our customers do not
+receive favorably could damage our reputation and the Amazon brand.
+ 
+RISK OF INTERNATIONAL EXPANSION
+ 
+     We plan to expand our presence in foreign markets. We have relatively
+little experience in purchasing, marketing and distributing products or services
+for these markets and may not benefit from any first-to-market advantages. It
+will be costly to establish international facilities and operations, promote our
+brand internationally, and develop localized Web sites and stores and other
+systems. We may not succeed in our efforts in these countries. If revenues from
+international activities do not offset the expense of establishing and
+maintaining foreign operations, our business, prospects, financial condition and
+operating results will suffer.
+ 
+     As the international online commerce market continues to grow, competition
+in this market will likely intensify. In addition, governments in foreign
+jurisdictions may regulate Internet or other online services in such areas as
+content, privacy, network security, encryption or distribution. This may affect
+our ability to conduct business internationally.
+ 
+RISKS OF BUSINESS COMBINATIONS AND STRATEGIC ALLIANCES
+ 
+     We may expand our operations or market presence by entering into business
+combinations, investments, joint ventures or other strategic alliances with
+other companies. These transactions create risks such as:
+ 
+   
+     - difficulty assimilating the operations, technology and personnel of the
+       combined companies;
+    
+ 
+   
+     - disruption of our ongoing business;
+    
+ 
+   
+     - problems retaining key technical and managerial personnel;
+    
+ 
+   
+     - expenses associated with amortization of goodwill and other purchased
+       intangible assets;
+    
+ 
+   
+     - additional operating losses and expenses of acquired businesses; and
+    
+ 
+     - impairment of relationships with existing employees, customers and
+       business partners.
+ 
+   
+     We may not succeed in addressing these risks. In addition, the businesses
+we acquire may incur operating losses.
+    
+ 
+RAPID TECHNOLOGICAL CHANGE
+ 
+     Technology in the online commerce industry changes rapidly. Customer
+functionality requirements and preferences also change. Competitors often
+introduce new products and services with new technologies. These changes and the
+emergence of new industry standards and practices could render our existing Web
+sites and proprietary technology
+ 
+                                        7
+<PAGE>   10
+ 
+obsolete. To succeed we must enhance our Web site responsiveness, functionality
+and features, acquire and license leading technologies, enhance our existing
+services, develop new services and technology and respond to technological
+advances and emerging industry standards and practices on a cost-effective and
+timely basis. We may not be able to adapt quickly enough to changing customer
+requirements and industry standards.
+ 
+   
+WE DEPEND ON KEY PERSONNEL
+    
+ 
+   
+     We depend on the continued services and performance of our senior
+management and other key personnel, particularly Jeffrey P. Bezos, our
+president, chief executive officer and chairman of the board. We do not have
+long-term employment agreements with any of our key personnel, and we do not
+have "key person" life insurance policies. The loss of any of our executive
+officers or other key employees could harm our business.
+    
+ 
+WE RELY ON A SMALL NUMBER OF SUPPLIERS
+ 
+   
+     We purchase a majority of our products from three major vendors, Ingram,
+Baker & Taylor, Inc. and Valley Media, Inc. In late 1998, Barnes & Noble, one of
+our largest competitors, announced an agreement to purchase Ingram. Ingram is
+our single largest supplier and supplied approximately 40% of our inventory
+purchases in 1998 and approximately 60% of our inventory purchases in 1997.
+Although we increased our direct purchasing from manufacturers during 1998, we
+continue to purchase a majority of our products from these three suppliers. We
+do not have long-term contracts or arrangements with most of our vendors to
+guarantee the availability of merchandise, particular payment terms or the
+extension of credit limits. Our current vendors may stop selling merchandise to
+us on acceptable terms. We may not be able to acquire merchandise from other
+suppliers in a timely and efficient manner and on acceptable terms.
+    
+ 
+   
+WE ARE HIGHLY LEVERAGED
+    
+ 
+   
+     We have significant indebtedness. As of March 31, 1999, we were indebted
+under senior discount notes, convertible subordinated notes, capitalized lease
+obligations and other asset financing totaling approximately $1.5 billion. We
+may incur substantial additional debt in the future. Our indebtedness could:
+    
+ 
+   
+     - make it difficult to make principal and interest payments on the
+       convertible subordinated notes and the senior discount notes;
+    
+ 
+   
+     - make it difficult to obtain necessary financing for working capital,
+       capital expenditures, debt service requirements or other purposes;
+    
+ 
+   
+     - limit our flexibility in planning for, or reacting to, changes in our
+       business and competition; and
+    
+ 
+     - make it more difficult for us to react in the event of an economic
+       downturn.
+ 
+     We may not be able to meet our debt service obligations. If our cash flow
+is inadequate to meet our obligations, we may face substantial liquidity
+problems. If we are unable to generate sufficient cash flow or obtain funds for
+required payments, or if we fail to comply with other covenants in our
+indebtedness, we will be in default. This would permit our creditors to
+accelerate the maturity of our indebtedness.
+ 
+                                        8
+<PAGE>   11
+ 
+RISKS ASSOCIATED WITH DOMAIN NAMES
+ 
+     We hold rights to various Web domain names, including "Amazon.com,"
+"Amazon.co.uk" and "Amazon.de." Governmental agencies typically regulate domain
+names. These regulations are subject to change. We may not be able to acquire or
+maintain appropriate domain names in all countries in which we do business.
+Furthermore, regulations governing domain names may not protect our trademarks
+and similar proprietary rights. We may be unable to prevent third parties from
+acquiring domain names that are similar to, infringe upon or diminish the value
+of our trademarks and other proprietary rights.
+ 
+GOVERNMENTAL REGULATION AND LEGAL UNCERTAINTIES
+ 
+   
+     At this time, we face general business regulations and laws or regulations
+regarding taxation and access to online commerce. For example, expanding our
+distribution center network or other aspects of our business may result in
+additional sales and other tax obligations. Regulatory authorities may adopt
+specific laws and regulations governing the Internet or online commerce. These
+regulations may cover taxation, user privacy, pricing, content, copyrights,
+distribution, electronic contracts and characteristics and quality of products
+and services. Changes in consumer protection laws also may impose additional
+burdens on companies conducting business online. In addition, many states
+currently regulate "auctions" and "auctioneers" in conducting auctions and may
+regulate online auction services. These laws or regulations may impede the
+growth of the Internet or other online services. This could, in turn, diminish
+the demand for our products and services and increase our cost of doing
+business. Moreover, it is not clear how existing laws governing issues such as
+property ownership, sales and other taxes, libel and personal privacy apply to
+the Internet and online commerce. Unfavorable resolution of these issues may
+harm our business.
+    
+ 
+   
+RISKS RELATED TO AUCTION SERVICES
+    
+ 
+   
+     We may be unable to prevent users of our auction services from selling
+unlawful goods, or from selling goods in an unlawful manner. We may face civil
+or criminal liability for unlawful activities by our online auction users. Any
+costs we incur as a result of liability relating to the sale of unlawful goods
+or the unlawful sale of goods could harm our business.
+    
+ 
+   
+     In running our auction services, we rely on sellers of goods to make
+accurate representations and provide reliable delivery and on buyers to pay the
+agreed purchase price. We do not take responsibility for delivery of payment or
+goods to any users of our services. While we can suspend or terminate the
+accounts of users who fail to fulfill their delivery obligations to other users,
+we cannot require users to make payments or deliver goods. We do not compensate
+users who believe they have been defrauded by other users except through our
+limited guarantee program.
+    
+ 
+RISK OF UNCERTAIN PROTECTION OF INTELLECTUAL PROPERTY
+ 
+     Third parties that license our proprietary rights, such as trademarks,
+patented technology or copyrighted material, may take actions that diminish the
+value of our proprietary rights or reputation. In addition, the steps we take to
+protect our proprietary rights may not be adequate and third parties may
+infringe or misappropriate our copyrights, trademarks, trade dress, patents and
+similar proprietary rights. Other parties may claim
+ 
+                                        9
+<PAGE>   12
+ 
+   
+that we infringed their proprietary rights. We have been subject to claims, and
+expect to continue to be subject to legal proceedings and claims, regarding
+alleged infringement by us and our licensees of the trademarks and other
+intellectual property rights of third parties. Such claims, whether or not
+meritorious, may result in the expenditure of significant financial and
+managerial resources. Most recently, Amazon Bookstore, Inc. filed suit against
+us alleging trademark infringement and unfair competition under state and
+federal law. Amazon Bookstore is seeking injunctive relief against our use of
+the marks Amazon.com, Amazon.com Books and Amazon Books, the cancellation of our
+federal trademark registrations, damages, profits, treble damages, costs and
+attorneys' fees. We have only recently been served with the complaint and are
+assessing the claim.
+    
+ 
+   
+RISKS OF YEAR 2000 NONCOMPLIANCE
+    
+ 
+   
+     We have developed a plan to modify our information technology to recognize
+the year 2000 and have begun converting our critical data-processing systems. We
+have initiated formal communications with our significant suppliers and service
+providers to determine the extent to which our systems may be vulnerable if they
+fail to address and correct their own Year 2000 issues. We cannot guarantee that
+the systems of suppliers or other companies on which we rely will be Year 2000
+compliant. Their failure to convert their systems could disrupt our systems. In
+addition, the computer systems necessary to maintain the viability of the
+Internet or any of the Web sites that direct consumers to our online stores may
+not be Year 2000 compliant. Finally, computers used by our customers to access
+our online stores may not be Year 2000 compliant, delaying our customers'
+purchases of our products. We are in the process of developing a formal
+contingency plan. We cannot guarantee that our systems will be Year 2000
+compliant or that the Year 2000 problem will not adversely affect our business,
+which includes limiting or precluding customer purchases.
+    
+ 
+   
+OUR STOCK PRICE IS HIGHLY VOLATILE
+    
+ 
+   
+     The trading price of our common stock fluctuates significantly. For
+example, during the 52-week period ended May 12, 1999 (as adjusted for the
+2-for-1 split of our common stock on June 1, 1998 and 3-for-1 split of our
+common stock on January 4, 1999), the reported closing price of our common stock
+on the Nasdaq National Market was as high as $210.125 and as low as $13.646 per
+share. Trading prices of the notes and the common stock may fluctuate in
+response to a number of events and factors, such as:
+    
+ 
+   
+     - quarterly variations in operating results;
+    
+ 
+   
+     - announcements of innovations;
+    
+ 
+   
+     - new products, services and strategic developments by us or our
+       competitors, or business combinations and investments by us or our
+       competitors;
+    
+ 
+   
+     - changes in our operating expense levels or losses;
+    
+ 
+   
+     - changes in financial estimates and recommendations by securities
+       analysts;
+    
+ 
+   
+     - performance by other online commerce companies; and
+    
+ 
+     - news reports relating to trends in the Internet, book, music, video or
+       other product or service industries.
+ 
+                                       10
+<PAGE>   13
+ 
+     Any of these events may cause our stock price to fall, which may adversely
+affect our business and financing opportunities. In addition, the stock market
+in general and the market prices for Internet-related companies in particular
+have experienced significant volatility that often has been unrelated to such
+companies' operating performance. These broad market and industry fluctuations
+may adversely affect the trading price of the notes and our common stock,
+regardless of our operating performance.
+ 
+THE NOTES ARE SUBORDINATED TO OUR SERVICE DEBT
+ 
+   
+     The notes are unsecured and rank below our existing and future
+indebtedness. In the event of our bankruptcy, liquidation or reorganization or
+acceleration of the notes due to an event of default, we will pay our
+obligations on the notes only after we have paid all of our senior indebtedness
+in full. Our assets may not be sufficient to cover amounts due on any of the
+notes. The notes also will be effectively subordinated to the liabilities,
+including trade payables, of any of our subsidiaries.
+    
+ 
+   
+     As of March 31, 1999, we had approximately $291.0 million of outstanding
+senior indebtedness. The indenture relating to the notes does not prohibit us
+from incurring additional senior indebtedness or other indebtedness. Additional
+indebtedness and other liabilities could prevent us from meeting our obligations
+on the notes. From time to time we and our subsidiaries likely will incur
+additional indebtedness, including senior indebtedness. See "Description of
+Notes -- Subordination of Notes."
+    
+ 
+LIMITATIONS ON REDEMPTION OF NOTES
+ 
+   
+     Under limited circumstances, you may require us to redeem all or a portion
+of your notes. We cannot guarantee that we will have sufficient funds to pay the
+redemption price for the notes. The indenture relating to our senior discount
+notes prohibits us from paying the redemption price while the senior discount
+notes are outstanding. Future credit agreements may contain similar restrictions
+and provisions. If we cannot purchase or redeem the notes, we will need to seek
+the consent of our lenders to repurchase or attempt to refinance the borrowings
+that prohibit the repurchase. We may be unable to obtain their consent or a
+refinancing arrangement. In that case, our failure to redeem tendered notes
+would constitute an event of default under the indenture relating to the notes,
+which might cause a default under the terms of our other indebtedness. The
+subordination provisions in the indenture would likely restrict payments to the
+holders of notes. See "Description of Notes -- Redemption at Option of the
+Holder."
+    
+ 
+ABSENCE OF PUBLIC MARKET FOR THE NOTES AND RESTRICTIONS ON RESALE
+ 
+   
+     The initial purchasers of the notes, though they have advised us that they
+intend to make a market in the notes, are not obligated to do so and may
+discontinue market-making at any time without notice. Their market-making
+activity will be subject to the limits imposed by the securities laws. We cannot
+guarantee that the market for the notes will be maintained. The trading price of
+notes may decline if there ceases to be an active trading market for them. We do
+not intend to apply for listing of the notes on any securities exchange. See
+"Description of Notes -- Registration Rights of the Noteholders" and "Plan of
+Distribution."
+    
+ 
+                                       11
+<PAGE>   14
+ 
+   
+                       RATIO OF EARNINGS TO FIXED CHARGES
+    
+   
+                                 (in thousands)
+    
+ 
+   
+<TABLE>
+<CAPTION>
+                                 THREE                                               PERIOD FROM
+                                MONTHS                                               JULY 5, 1994
+                                 ENDED        FOR THE YEARS ENDED DECEMBER 31,      (INCEPTION) TO
+                               MARCH 31,   --------------------------------------    DECEMBER 31,
+                                 1999        1998        1997      1996     1995         1994
+                               ---------   ---------   --------   -------   -----   --------------
+<S>                            <C>         <C>         <C>        <C>       <C>     <C>
+Deficiency of earnings
+  available to cover fixed
+  charges(*).................  $(61,667)   $(124,546)  $(31,020)  $(6,246)  $(303)       $(52)
+</TABLE>
+    
+ 
+- -------------------------
+(*) Earnings consist of net loss plus fixed charges. Fixed charges consist of
+    interest expense, including amortization of debt issuance costs, and that
+    portion of rental expense we believe to be representative of interest.
+ 
+   
+                              DESCRIPTION OF NOTES
+    
+ 
+     The notes are issued under an indenture dated as of February 3, 1999
+between Amazon.com and The Bank of New York, as trustee. You may request a copy
+of the indenture from the trustee. This section summarizes the provisions of the
+notes and the indenture and the related Registration Rights Agreement. You
+should refer to these documents for more detailed information.
+ 
+GENERAL
+ 
+   
+     We issued $1,250,000,000 aggregate principal amount of the notes. The notes
+are unsecured general obligations of Amazon.com and rank below our other
+obligations. Holders of the notes may convert them into common stock. The notes
+are issued only in multiples of $1,000 and mature on February 1, 2009 unless
+earlier converted or redeemed.
+    
+ 
+     The indenture does not contain any financial covenants and does not
+restrict us from paying dividends, incurring indebtedness or issuing or
+repurchasing our other securities. The indenture does not protect you in the
+event of a highly leveraged transaction or a change in control except in limited
+circumstances as described below.
+ 
+   
+     The notes will bear 4 3/4% annual interest from February 3, 1999 or from
+the most recent payment date on which we have paid interest. We will make
+interest payments semi-annually on February 1 and August 1, beginning on August
+1, 1999, generally to record holders at the close of business on the preceding
+January 15 or July 15. With some exceptions, we will pay interest at the time of
+redemption to the person entitled to receive the principal. If a note is
+converted into common stock during the period from, but excluding, a record date
+to, but excluding, the interest payment date and the note has been called for
+redemption during that period, or is to be redeemed during that period, we will
+not pay interest on the note. In every other case of conversion between the
+record date and the interest payment date, the person submitting the note for
+conversion must provide us with funds equal to the interest we must pay on the
+principal amount converted. See "-- Conversion of Notes."
+    
+ 
+     We will pay interest at the office we maintain for that purpose in the
+Borough of Manhattan, The City of New York. Initially, this will be an office or
+agency of the trustee. We may pay interest (1) by check, (2) for a holder of
+notes with an aggregate principal amount in excess of $10.0 million, by wire
+transfer in immediately available funds, or
+ 
+                                       12
+<PAGE>   15
+ 
+   
+(3) by transfer to an account located in the United States. We will make
+payments to the Depository Trust Company by wire transfer of immediately
+available funds to the account of the Depository Trust Company or its nominee.
+We will compute interest on the basis of a 360-day year comprised of twelve
+30-day months.
+    
+ 
+FORM, DENOMINATION AND REGISTRATION
+ 
+     We will issue the notes in fully registered form, without coupons, in
+integral multiples of $1,000.
+ 
+GLOBAL NOTES, BOOK-ENTRY FORM
+ 
+   
+     The notes that were sold to qualified institutional buyers are evidenced by
+global notes and were deposited with, or on behalf of, the Depository Trust
+Company and registered in the name of Cede & Co. as the DTC's nominee. Except as
+set forth below, a global note may be transferred, in whole or in part, only to
+another nominee of the DTC or to a successor of the DTC or the successor's
+nominee.
+    
+ 
+   
+     Qualified institutional buyers may hold their interests in a global note
+directly through the DTC if they are participants in the DTC, or indirectly
+through organizations that are participants in the DTC. Transfers between
+participants will be effected in accordance with the DTC's rules and will be
+settled in clearing house funds.
+    
+ 
+   
+     Qualified institutional buyers who are not DTC participants may own
+interests in global notes only through DTC participants or certain banks,
+brokers, dealers, trust companies and other parties that clear through or
+maintain a custodial relationship with the DTC participant. So long as Cede, as
+the nominee of the DTC, is the registered owner of a global note, we will
+consider Cede for all purposes to be the sole holder of the global note. Except
+as provided below, owners of beneficial interests in a global note will not have
+certificates registered in their names, will not receive physical delivery of
+certificates in definitive registered form, and will not be considered the
+holders of the notes.
+    
+ 
+     We will pay interest on and the redemption price or repurchase price of a
+global note to Cede, as the registered owner, by wire transfer of immediately
+available funds on each interest payment, redemption or repurchase date. We and
+the trustee have no responsibility or liability for any aspect of the records
+relating to or payments made on account of beneficial ownership interests in a
+global note.
+ 
+   
+     The DTC has informed us that its practice is to credit participants'
+accounts on the payment date with payments in amounts proportionate to their
+beneficial interests in the global note, unless it has reason to believe that it
+will not receive payment. Only DTC participants are responsible for payments to
+owners of beneficial interests held through them.
+    
+ 
+   
+     Because the DTC can only act on behalf of participants, who in turn act on
+behalf of indirect participants and certain banks, a person having a beneficial
+interest in the principal amount represented by a global note may be unable to
+pledge its interest to persons or entities that do not participate in the DTC
+system, due to the lack of a physical certificate evidencing its interest.
+    
+ 
+   
+     We are not responsible for the performance by the DTC or its participants
+or indirect participants of their obligations. The trustee is also not
+responsible for such performance. The DTC has advised us that it will take any
+action permitted to be taken by a holder of
+    
+ 
+                                       13
+<PAGE>   16
+ 
+notes, only at the direction of one or more participants with an interest in a
+global note, and only with respect to the principal amount as to which the
+participants have given it a direction.
+ 
+   
+     The DTC has advised us that it is a limited purpose trust company organized
+under the laws of New York, a member of the Federal Reserve System, a "clearing
+corporation" within the meaning of the Uniform Commercial Code and a "clearing
+agency" registered pursuant to the provisions of Section 17A of the Exchange
+Act. The DTC was created to hold securities for its participants and to
+facilitate the clearance and settlement of securities transactions between
+participants through electronic book-entry changes to the accounts of its
+participants, thereby eliminating the need for physical movement of
+certificates. Participants include securities brokers and dealers, banks, trust
+companies and clearing corporations and may include certain other organizations
+such as the initial purchasers. Certain participants (or their representatives),
+together with other entities, own the DTC. Indirect access to the DTC system is
+available to others such as banks, brokers, dealers and trust companies that
+clear through, or maintain a custodial relationship with, a participant, either
+directly or indirectly.
+    
+ 
+   
+     Although the DTC has agreed to the foregoing procedures to facilitate
+transfers of interests in global notes among participants, it has no obligation
+to perform or continue to perform these procedures. These procedures may be
+discontinued at any time. If the DTC is at any time unwilling or unable to
+continue as depositary, and we do not appoint a successor depositary within 90
+days, we will issue the notes in definitive registered form in exchange for
+global notes.
+    
+ 
+CERTIFICATED NOTES
+ 
+   
+     Notes that were sold to institutional accredited investors, as defined in
+Rule 501(a) (1), (2), (3) or (7) under the Securities Act, were issued in
+definitive registered form and are not represented by a global note. Qualified
+institutional buyers may request that we issue certificated notes in exchange
+for notes represented by a global note.
+    
+ 
+CONVERSION OF NOTES
+ 
+   
+     You may convert any portion of a note, in multiples of $1,000, into common
+stock, at an initial conversion price of $156.055 per share. Except as described
+below, we will not make any payment or other adjustment on conversion for
+interest accrued on the notes or for dividends on the common stock. If you
+convert any notes not called for redemption during the period from, but
+excluding, an interest payment record date to, but excluding, the interest
+payment date, you must provide us with funds equal to the interest we must pay
+on the principal amount you convert. We will not issue fractional shares of
+common stock upon conversion of notes. Instead, we will pay a cash adjustment
+based on the closing price of common stock on the last business day prior to the
+conversion. Conversion rights on notes called for redemption will expire at the
+close of business on the business day preceding the redemption date unless we
+default in paying the redemption price. If you exercise your option to require
+redemption you may convert your note only if you withdraw your election to
+require redemption.
+    
+ 
+                                       14
+<PAGE>   17
+ 
+     We will adjust the conversion price of $156.055 per share of common stock
+if certain events occur, including:
+ 
+     - issuance of common stock as a dividend or distribution on the common
+       stock;
+ 
+     - subdivisions and combinations of the common stock;
+ 
+     - issuance to all holders of common stock of rights or warrants to purchase
+       common stock;
+ 
+     - distribution to all holders of common stock of capital stock (other than
+       our common stock), debt instruments or assets;
+ 
+     - distributions of cash, other than certain quarterly cash dividends on the
+       common stock;
+ 
+     - payment on a tender offer or exchange offer by us or one of our
+       subsidiaries for all or any portion of the common stock if the payment
+       exceeds the current market price of the common stock on the trading day
+       prior to the last date for tenders or exchanges; and
+ 
+     - payment on certain tender offers or exchange offers by a third party if,
+       as of the closing date of the offer, our board of directors does not
+       recommend rejection of the offer.
+ 
+     If we reclassify the common stock, complete a consolidation, merger or
+combination of Amazon.com or sell Amazon.com to another person and the holders
+of common stock receive stock, other securities, other property or assets with
+respect to or in exchange for their common stock, the holders of notes may
+convert them into the consideration they would have received if they had
+converted their notes immediately prior to the transaction.
+ 
+     If the event requiring an adjustment to the conversion price is a taxable
+event for common stockholders, the adjustment may be taxed as a dividend. In
+certain other circumstances, the absence of an adjustment may result in a
+taxable dividend to the holders of common stock. See "United States Federal
+Income Tax Consequences."
+ 
+     We may reduce the conversion price by any amount for any period of at least
+20 days. If we do so, we will give you at least 15 days' notice. We may, at our
+option, make additional reductions in the conversion price to avoid or diminish
+any income tax to holders of common stock resulting from any dividend or
+distribution of stock. See "United States Federal Income Tax Consequences."
+ 
+     We will not make any adjustment in the conversion price unless it would
+adjust the conversion price by at least 1%. We will carry forward any adjustment
+we decline to make and will include it in any future adjustment.
+ 
+PROVISIONAL REDEMPTION BY AMAZON.COM
+ 
+     We may redeem any portion of the notes at any time prior to February 6,
+2002, at a redemption price equal to $1,000 per note plus accrued and unpaid
+interest to the redemption date if (1) the closing price of the common stock has
+exceeded 150% of the conversion price for at least 20 trading days in any
+consecutive 30-trading day period ending on the trading day prior to the mailing
+of the notice of redemption and (2) the shelf registration statement covering
+resales of the notes and the common stock is effective
+ 
+                                       15
+<PAGE>   18
+ 
+and expected to remain effective and available for use for the 30 days following
+the redemption date.
+ 
+     If we redeem the notes under these circumstances, we will make an
+additional "make whole" payment on the redeemed notes equal to $212.60 per
+$1,000 note, minus the amount of any interest we actually paid on the note prior
+to the date we mailed the notice. We must make these "make-whole" payments on
+all notes called for redemption, including notes converted after the date we
+mailed the notice.
+ 
+OPTIONAL REDEMPTION BY AMAZON.COM
+ 
+     The notes are not entitled to any sinking fund. At any time on or after
+February 6, 2002, we may redeem any portion of the notes on at least 30 days'
+notice at the following prices (expressed as a percentage of the principal
+amount), together with accrued interest to, but excluding, the redemption date:
+ 
+     If redeemed during the period beginning February 6, 2002 and ending on
+February 1, 2003 at a redemption price of 103.325%, and if redeemed during the
+12-month period beginning:
+ 
+<TABLE>
+<CAPTION>
+                     YEAR                        REDEMPTION PRICE
+                     ----                        ----------------
+<S>                                              <C>
+February 1, 2003...............................      102.850%
+February 1, 2004...............................      102.375
+February 1, 2005...............................      101.900
+February 1, 2006...............................      101.425
+February 1, 2007...............................      100.950
+February 1, 2008...............................      100.475
+</TABLE>
+ 
+and 100% at February 1, 2009. Accrued interest due on the redemption date will
+be paid to the record holder.
+ 
+     If we redeem less than all of the outstanding notes, the trustee will
+select the notes to be redeemed in multiples of $1,000 by lot, pro rata or any
+other method the trustee considers fair and appropriate. If a portion of your
+notes is selected for partial redemption and you convert a portion of the notes,
+the portion selected for redemption will be converted.
+ 
+     We may not give notice of any redemption if we have defaulted in payment of
+interest and the default is continuing.
+ 
+REDEMPTION AT OPTION OF THE HOLDER
+ 
+   
+     The indenture defines a "fundamental change" as any transaction or event in
+which substantially all of our common stock is exchanged for, converted into,
+acquired for or constitutes solely the right to receive consideration, whether
+by means of an exchange offer, liquidation, tender offer, consolidation, merger,
+combination, reclassification, recapitalization or otherwise, that is not all or
+substantially all common stock listed, or upon consummation of or immediately
+following such transaction or event that will be listed, on a United States
+national securities exchange or approved for quotation on the Nasdaq National
+Market or any similar United States system of automated dissemination of
+quotations of securities prices.
+    
+ 
+                                       16
+<PAGE>   19
+ 
+     If a fundamental change occurs, we must mail a notice to you by the tenth
+day after the fundamental change occurs advising you of your redemption right.
+ 
+     If a fundamental change occurs, you may require us to redeem any portion of
+your notes 30 days after our notice of the fundamental change. We will redeem
+the notes in multiples of $1,000 at a price equal to 100% of the principal
+amount plus accrued interest to (but excluding) the date of redemption.
+ 
+     To exercise your redemption right, you must deliver to us, on or before the
+30th day after the date of our notice, written notice of your exercise, together
+with the notes to be redeemed, duly endorsed for transfer.
+ 
+   
+     The redemption rights of the holders of notes could discourage a potential
+acquirer. The fundamental change feature is not the result of our knowledge of
+any specific effort to obtain control of Amazon.com by means of a merger, tender
+offer, solicitation or otherwise. This feature is also not the result of any
+plan to adopt a series of anti-takeover defenses. The term fundamental change is
+limited to certain specified transactions and may not include other events that
+might adversely affect our financial condition. These provisions may not afford
+the holders of the notes protection in the event of a highly leveraged
+transaction, reorganization, merger or similar transaction.
+    
+ 
+     We cannot guarantee that we will have sufficient funds to pay the
+redemption price for all notes tendered for redemption. The indenture for our
+senior discount notes prohibits us from paying the redemption price while the
+senior discount notes are outstanding. Future credit agreements could prohibit
+us from purchasing or redeeming any notes. If we cannot redeem the notes, we
+will need to seek the consent of our existing lenders to the purchase of the
+notes or we could refinance our borrowing. If we do not obtain a consent or
+repay our borrowings, we will not be able to purchase or redeem the notes. This
+would cause an event of default under the indenture relating to the notes, and
+may cause a default under the terms of our other indebtedness. This may prevent
+us from making any payments on the notes.
+ 
+SUBORDINATION OF NOTES
+ 
+     The notes are subordinated to the prior payment in full of all of our
+senior debt. The notes also are effectively subordinated to all indebtedness of
+any of our subsidiaries.
+ 
+     If we dissolve, wind up, liquidate or reorganize our business, we will
+repay the senior indebtedness before we pay the principal, premium or interest
+on the notes. If the notes are accelerated because of an event of default, we
+will first pay the holders of any senior indebtedness in full for all of our
+obligations under the senior indebtedness before we can pay the holders of the
+notes. The indenture requires us to notify promptly the holders of senior
+indebtedness if payment of the notes accelerates because of an event of default.
+ 
+   
+     We may not make any payment on the notes (including upon redemption) if (1)
+we default in the payment of the principal, premium, interest, rent or other
+obligations under our senior indebtedness and such default continues or (2) any
+other default occurs and continues under certain senior indebtedness that
+permits a holder of that debt to accelerate its maturity. We will resume
+payments on the notes (1) in case of a payment default, on the date on which the
+default is cured or waived and (2) in case of other default, the earlier of the
+date on which we cure the default or receive a waiver and 179 days after the
+date the trustee receives the notice of default, if the maturity of the senior
+indebtedness has not accelerated.
+    
+ 
+                                       17
+<PAGE>   20
+ 
+     If the trustee or any holder of the notes receives any payment or
+distribution, then he or she must hold the payment or distribution in trust for
+the benefit of holders of senior indebtedness to the extent necessary to pay in
+full all senior indebtedness remaining unpaid.
+ 
+     In the event of our bankruptcy, dissolution or reorganization, holders of
+senior indebtedness may receive more, ratably, and holders of the notes may
+receive less, ratably, than our other creditors.
+ 
+   
+     As of March 31, 1999, we had approximately $291.0 million of outstanding
+senior indebtedness. The indenture does not prevent us from incurring additional
+senior or subordinated debt.
+    
+ 
+     We will pay the trustee reasonable compensation and will indemnify the
+trustee against certain losses, liabilities or expenses it may incur in
+performing its duties. The trustee's claims for payments will generally be
+senior to the claims of the holders of the notes.
+ 
+EVENTS OF DEFAULT; NOTICE AND WAIVER
+ 
+     The indenture defines an event of default as:
+ 
+     - default in payment of the principal of or premium on the notes;
+ 
+     - default for 30 days in payment of any installment of interest on the
+       notes;
+ 
+     - failure for 60 days after notice from the trustee or the holders of at
+       least 25% in principal amount of the notes to comply with any other
+       covenants in the notes or the indenture; or
+ 
+     - certain events involving our bankruptcy, insolvency or reorganization.
+ 
+   
+     The trustee may withhold notice to the holders of the notes of any default,
+except in payment of principal, premium or interest on the notes, if the trustee
+considers it in its interest to do so.
+    
+ 
+     If an event of default occurs and continues, the trustee or the holders of
+at least 25% in principal amount of the notes may declare the principal, premium
+and accrued interest on the notes to be due and payable immediately. If we
+experience bankruptcy or insolvency, these obligations automatically become
+immediately due and payable. However, if we cure all defaults other than
+nonpayment and meet certain other conditions, the acceleration may be canceled
+and past defaults may be waived by the holders of a majority of the principal
+amount of the notes.
+ 
+     Payments of principal, premium or interest that are not made when due will
+accrue interest at a 4 3/4% annual rate from the date on which the payment was
+required.
+ 
+     No holder of notes may pursue any remedy under the indenture, except in the
+case of a default in the payment of principal, premium or interest on the notes,
+unless:
+ 
+     - he or she has previously given the trustee written notice of a continuing
+       event of default,
+ 
+     - the holders of at least 25% in principal amount of the notes make a
+       written request and offer reasonable indemnity to the trustee to pursue
+       the remedy,
+ 
+                                       18
+<PAGE>   21
+ 
+     - the trustee does not receive an inconsistent direction from the holders
+       of a majority in principal amount of the notes, and
+ 
+     - the trustee fails to comply with the request within 60 days after
+       receipt.
+ 
+MODIFICATION OF THE INDENTURE
+ 
+     With the consent of the holders of a majority in principal amount of the
+notes, we may modify the indenture or the rights of the holders of the notes. No
+such modification will, without the consent of the holder of each affected note:
+ 
+     - extend the fixed maturity of any note;
+ 
+     - reduce the rate or extend the time for payment of interest of any note;
+ 
+     - reduce the principal or premium of any note;
+ 
+     - reduce any amount payable upon redemption of any note;
+ 
+     - change our obligation to redeem any note upon any fundamental change in a
+       manner adverse to the holders of the notes;
+ 
+     - impair the right of a holder to institute suit for payment on the notes;
+ 
+     - change the currency in which any note is payable;
+ 
+     - impair the right to convert any note into common stock; or
+ 
+     - modify the subordination provisions of the indenture in a manner adverse
+       to the holders of any note in any material respect.
+ 
+     No modification may reduce the percentage of notes required for consent to
+any modification without the consent of the holders of all of the outstanding
+notes. The indenture permits some modifications without the consent of the
+holders of the notes.
+ 
+REGISTRATION RIGHTS OF THE HOLDERS OF THE NOTES
+ 
+   
+     Under a Registration Rights Agreement, we are required to keep the shelf
+registration statement of which this prospectus is a part effective until the
+earlier of (1) the sale of all the securities registered under this prospectus
+and (2) the expiration of the holding period for the securities held by people
+or entities that are not deemed to be our affiliates under Rule 144(k) under the
+Securities Act. We may suspend the use of this prospectus under certain
+circumstances relating to pending corporate developments, public filings with
+the SEC and similar events for a period not to exceed 60 days in any three-month
+period or not to exceed an aggregate of 90 days in any 12-month period. We must
+pay predetermined liquidated damages (1) for the notes, at a rate per annum
+equal to 0.5% of the principal amount of the notes and (2) for any shares of
+common stock issued on conversion of the notes, at a rate per annum equal to
+0.5% of the conversion price, if the prospectus is unavailable for periods in
+excess of those permitted above.
+    
+ 
+     A holder who sells notes and common stock issued upon conversion of the
+notes pursuant to this prospectus generally must be named as a selling
+stockholder, deliver this prospectus to purchasers and be bound by certain
+provisions of the Registration Rights Agreement. We will pay all expenses of the
+shelf registration statement, provide to each
+ 
+                                       19
+<PAGE>   22
+ 
+registered holder copies of such prospectus and take certain other actions as
+are required to permit unrestricted resales of the notes and the common stock.
+ 
+     You may request a copy of the Registration Rights Agreement from the
+trustee.
+ 
+INFORMATION CONCERNING THE TRUSTEE
+ 
+   
+     We have appointed the Bank of New York, as trustee under the indenture, as
+paying agent, conversion agent, registrar and custodian with regard to the
+notes. The Bank of New York also acts as trustee for our senior discount notes.
+    
+ 
+RATING OF NOTES
+ 
+   
+     Moody's has assigned a rating of Caa3 to the notes and Standard & Poor's
+has assigned a rating of CCC+ to the notes. The market price of the notes and
+the common stock could be materially adversely affected if rating agencies
+assign the notes a rating lower than that expected by investors.
+    
+ 
+   
+                                 UNITED STATES
+    
+   
+                        FEDERAL INCOME TAX CONSEQUENCES
+    
+ 
+     This section summarizes the material United States federal income tax
+consequences of purchasing, owning, and disposing of the notes and common stock
+into which you may convert the notes. This is not a complete analysis of all the
+potential tax consequences that you may need to consider before investing based
+on your particular circumstances. This summary is based on the Internal Revenue
+Code of 1986, as amended, the applicable treasury regulations promulgated or
+proposed under the Code, judicial authority and current administrative rulings
+and practice. All of these may change, possibly on a retroactive basis.
+ 
+   
+     This summary deals only with beneficial owners who hold notes and common
+stock as "capital assets" and does not address tax consequences under special
+tax rules. Special tax rules may apply to banks, tax-exempt organizations,
+pension funds, insurance companies, dealers in securities or foreign currencies,
+persons participating in a hedging transaction or a "straddle" or "conversion
+transaction" for tax purposes, or persons that have a "functional currency"
+other than the U.S. dollar. This discussion does not address the tax
+consequences to holders who are not U.S. persons.
+    
+ 
+     This summary discusses the tax consequences to holders who purchase the
+notes at their "issue price" (the first price at which a substantial portion of
+the notes is sold to the public) and generally does not discuss the tax
+consequences to subsequent purchasers of the notes. We have not sought any
+ruling from the Internal Revenue Service with respect to the statements and
+conclusions in the following summary. We cannot guarantee that the IRS will
+agree with these statements and conclusions.
+ 
+     Before you invest in these securities, you should consult your own tax
+advisor to determine how the United States federal income and estate tax laws
+apply to your particular situation and for information about any tax
+consequences arising under the laws of any state, local or foreign taxing
+jurisdiction or under any applicable tax treaty.
+ 
+                                       20
+<PAGE>   23
+ 
+PAYMENT OF INTEREST
+ 
+   
+     You generally must include interest on a note in your income as ordinary
+income at the time you receive or accrue interest depending on your method of
+accounting for United States federal income tax purposes. We must pay liquidated
+damages to holders of the notes in certain circumstances. According to treasury
+regulations, the possibility of an additional payment on the notes will not
+affect the amount of interest income you recognize if there is only a remote
+chance as of the date the debt obligations are issued that you will receive the
+payments. We believe that the likelihood that we will pay liquidated damages is
+remote. Therefore, we do not intend to treat the potential payment as part of
+the yield to maturity of any note. Notwithstanding the above, if we pay
+liquidated damages, you would treat these payments as interest income when you
+receive them. Although not free from doubt, we intend to take the position that
+the likelihood of payment of the make-whole payment is remote, and likewise do
+not intend to treat the possibility of our paying the make-whole payment as
+affecting the yield to maturity of any note. Similarly, we intend to take the
+position that the likelihood of a redemption or a repurchase upon a fundamental
+change is remote, and likewise do not intend to treat the possibility of a
+redemption or repurchase as affecting the yield to maturity of any note.
+    
+ 
+SALE, EXCHANGE OR REDEMPTION OF THE NOTES
+ 
+   
+     Except as described below under "Market Discount" and under "Conversion of
+the Notes," you generally will recognize capital gain or loss on the sale,
+exchange or redemption of a note equal to the difference between (1) the amount
+of cash proceeds and the fair market value of any property you receive on the
+sale, exchange or redemption (except any portion that is accrued interest
+income, which is taxable as ordinary income) and (2) your adjusted tax basis in
+the note. Your adjusted tax basis generally will equal the cost of the note to
+you, less any principal payments you have received. This capital gain or loss
+will be long-term if you have held the note for more than one year and will be
+short-term if you have held the note one year or less. Long-term capital gains
+for noncorporate taxpayers, including individuals, are taxed at a maximum rate
+of 20%, and short-term capital gains are taxed at a maximum rate of 39.6%.
+Corporate taxpayers pay a maximum regular tax rate of 35% on all capital gains
+and ordinary income.
+    
+ 
+MARKET DISCOUNT
+ 
+   
+     Generally, the market discount rules discussed below do not apply if you
+acquired a note when we originally issued them. These rules apply, however, to
+any note you purchased at original issue if your tax basis in the note is less
+than the note's issue price and to any note you purchased after original issue
+at a price less than its stated redemption price at maturity.
+    
+ 
+   
+     You should treat gain on the disposition, including a redemption, of a note
+that has accrued market discount as ordinary income, not capital gain, to the
+extent of the accrued market discount if the discount exceeds the statutory de
+minimis amount. "Market discount" is the excess, if any, of (1) the stated
+redemption price at maturity over (2) the tax basis of the note in your hands
+immediately after you acquired it.
+    
+ 
+   
+     Unless you elect otherwise, the accrued market discount is the market
+discount multiplied by a fraction, the numerator of which is the number of days
+you have held the note and the denominator of which is the number of days
+between the date you acquired the note and its maturity date. If you acquire a
+note at market discount you may be
+    
+ 
+                                       21
+<PAGE>   24
+ 
+required to defer the deduction of all or a portion of the interest on any
+indebtedness you incurred or maintained to carry the note until you dispose of
+it in a taxable transaction.
+ 
+   
+     If you dispose of a note you acquired at market discount in any transaction
+other than a sale, exchange or involuntary conversion, even if the transaction
+is otherwise nontaxable (for example, a gift), you will be considered to have
+realized an amount equal to the fair market value of the note. Accordingly, you
+must recognize as ordinary income any accrued market discount to the extent of
+the deemed gain.
+    
+ 
+   
+     You may elect to include the market discount in income as it accrues,
+either on a straight-line basis or on a constant interest rate basis. This
+election would apply to all market discount obligations you acquired on or after
+the first day of the first taxable year to which your election applies. You may
+revoke this election only with the consent of the IRS. If you elect to include
+market discount in income currently, the rules regarding ordinary income
+recognition from sales and other position transactions and to deferral of
+interest deductions will not apply to you.
+    
+ 
+CONSTRUCTIVE DIVIDENDS ON THE NOTES
+ 
+   
+     The conversion price of our notes may change under certain circumstances.
+In such a case, you may be treated as having received a constructive
+distribution whether or not you ever exercise your conversion privilege. The
+constructive distribution will be taxed as ordinary income, subject to a
+possible dividends received deduction if you are a corporate holder, to the
+extent of our current and/or accumulated earnings and profits, if, and to the
+extent that, the adjustment in the conversion price increases your proportionate
+interest in the fully diluted common stock. Moreover, common stockholders
+themselves will generally be treated as having received a constructive
+distribution if there is not a full adjustment to the conversion price of our
+notes to reflect a stock dividend or other event increasing the proportionate
+interest of the common stockholders in our assets or earnings and profits. In
+such an event, the constructive distribution will be taxable as ordinary income,
+subject to a possible dividends received deduction if you are a corporate
+holder, to the extent of our current and/or accumulated earnings and profits.
+Under these circumstances, it is possible that you could be required to pay tax
+even though you did not receive any cash or other property.
+    
+ 
+CONVERSION OF THE NOTES
+ 
+   
+     You generally will not recognize any income, gain or loss on conversion of
+a note into common stock, except for any cash you receive instead of a
+fractional share of common stock. Your tax basis in the common stock will be the
+same as your adjusted tax basis in the note at the time of conversion, reduced
+by any basis allocable to any fractional share interest for which you received
+cash. For capital gains purposes, your holding period for the common stock will
+generally include the holding period of the note you converted.
+    
+ 
+   
+     You should treat cash you receive instead of a fractional share of common
+stock as a payment in exchange for the fractional share of common stock. This
+will generally result in capital gain or loss (measured by the difference
+between the cash you received for the fractional share and your adjusted tax
+basis in the fractional share).
+    
+ 
+                                       22
+<PAGE>   25
+ 
+DIVIDENDS ON COMMON STOCK
+ 
+   
+     Generally, distributions are treated as a dividend and taxed as ordinary
+income, to the extent of our current or accumulated earnings and profits.
+Thereafter, distributions are treated as a tax-free return of capital to the
+extent of your tax basis in the common stock, and thereafter as gain from the
+sale or exchange of such stock.
+    
+ 
+   
+     A dividend distribution to a corporate holder may qualify for the 70%
+dividends received deduction if the holder owns less than 20% of the voting
+power and value of our stock, not counting non-voting, non-convertible,
+non-participating preferred stock. A corporate holder that owns 20% or more of
+the voting power and value of our stock, other than non-voting, non-convertible
+non-participating preferred stock, generally will qualify for an 80% dividends
+received deduction.
+    
+ 
+SALE OF COMMON STOCK
+ 
+     On the sale or exchange of common stock, you generally will recognize
+capital gain or loss equal to the difference between (1) the amount of cash and
+the fair market value of any property received on the sale or exchange and (2)
+your adjusted tax basis in the common stock. This capital gain or loss will be
+long-term if you have held the stock for more than one year and will be
+short-term if you have held the stock for one year or less. Long-term capital
+gains for noncorporate taxpayers, including individuals, are taxed at a maximum
+rate of 20%, and short-term capital gains at a maximum rate of 39.6%. A holder's
+basis and holding period in common stock received upon conversion of a note are
+determined as discussed above under "Conversion of the Notes." Corporate
+taxpayers pay a maximum regular tax rate of 35% on all capital gains and
+ordinary income.
+ 
+INFORMATION REPORTING AND BACKUP WITHHOLDING TAX
+ 
+   
+     In general we must report to the Internal Revenue Service payments of
+principal, premium, and interest on a note, payments of dividends on common
+stock, payments of the proceeds of the sale of a note and payments of the
+proceeds of the sale of common stock. The payer must withhold backup withholding
+tax at the rate of 31% if:
+    
+ 
+   
+     - the payee fails to furnish a taxpayer identification number to the payer
+       or establish an exemption from backup withholding;
+    
+ 
+   
+     - the IRS notifies the payer that the number furnished by the payee is
+       incorrect;
+    
+ 
+   
+     - a payee has underreported interest, dividends or original issue discount;
+       or
+    
+ 
+     - the payee has failed to certify under the penalty of perjury that he or
+       she is not subject to backup withholding under the Code.
+ 
+     Certain holders, including all corporations, are exempt from such backup
+withholding. You may credit any amounts withheld under the backup withholding
+rules against your United States federal income tax, and you may receive a
+refund if you furnish the required information to the IRS.
+ 
+   
+     The Treasury Department has issued new regulations which make certain
+modifications to the withholding, backup withholding and information reporting
+rules described above. The new regulations attempt to unify certification
+requirements and modify reliance standards. The new regulations will generally
+be effective for payments made after
+    
+ 
+                                       23
+<PAGE>   26
+ 
+   
+December 31, 1999, subject to certain transition rules. Prospective investors
+are urged to consult their tax advisors regarding the new regulations.
+    
+ 
+   
+                                USE OF PROCEEDS
+    
+ 
+   
+     We will not receive any proceeds from the sale of the notes and the common
+stock into which the notes are convertible by the selling holders.
+    
+ 
+   
+                          DESCRIPTION OF CAPITAL STOCK
+    
+ 
+     Our authorized capital stock consists of 300,000,000 shares of common
+stock, $0.01 par value per share, and 10,000,000 shares of preferred stock,
+$0.01 par value per share. If approved at the annual meeting of stockholders,
+scheduled for May 20, 1999, we will amend our restated certificate of
+incorporation such that our authorized capital stock will consist of
+1,500,000,000 shares of common stock and 150,000,000 shares of preferred stock.
+The following summary of certain provisions of the common stock and preferred
+stock is not complete and is subject to, and qualified in its entirety by, the
+provisions of our restated certificate of incorporation.
+ 
+DESCRIPTION OF THE COMMON STOCK
+ 
+     Under our current restated certificate of incorporation, we may issue up to
+300,000,000 shares of our common stock (up to 1,500,000,000 shares if the
+amendment is approved by our stockholders). Holders of common stock are entitled
+to one vote per share on all matters submitted to a vote of stockholders.
+Subject to preferences that may apply to our preferred stock, the holders of
+common stock receive ratably any dividends that may be declared by our board of
+directors. In the event of a liquidation, dissolution or winding up of
+Amazon.com, the holders of common stock will share equally and ratably in all
+assets remaining after we pay liabilities and liquidation preferences to holders
+of preferred stock. Holders of common stock have no preemptive rights or rights
+to convert their common stock into any other securities. The common stock is
+neither redeemable nor subject to call. No sinking fund provisions apply to the
+common stock. All outstanding shares of common stock are fully paid and
+nonassessable.
+ 
+     Washington law imposes restrictions on some transactions between a
+corporation and certain significant shareholders. Chapter 23B.19 of the
+Washington Business Corporation Act prohibits a "target corporation," with some
+exceptions, from engaging in certain significant business transactions with an
+"acquiring person," which is defined as a person or group of persons that
+beneficially owns 10% or more of the voting securities of the target
+corporation, for a period of five years after such acquisition, unless the
+transaction or acquisition of shares is approved by a majority of the members of
+the target corporation's board of directors prior to the acquisition. Such
+prohibited transactions include, among other things:
+ 
+     - a merger or consolidation with, disposition of assets to, or issuance or
+       redemption of stock to or from, the acquiring person;
+ 
+     - termination of 5% or more of the employees of the target corporation as a
+       result of the acquiring person's acquisition of 10% or more of the
+       shares; or
+ 
+                                       24
+<PAGE>   27
+ 
+     - allowing the acquiring person to receive any disproportionate benefit as
+       a shareholder.
+ 
+     After the five-year period, a "significant business transaction" may occur,
+as long as it complies with certain "fair price" provisions of the statute. A
+corporation may not opt out of this statute. This provision may have the effect
+of delaying, deterring or preventing a change in control of Amazon.com.
+ 
+     Section 203 of the Delaware General Corporation Law generally prohibits
+Delaware corporations from engaging in some "business combinations" with some
+"interested stockholders" for a period of three years unless certain criteria
+are met. We have expressly elected in our restated certificate of incorporation
+not to be governed by Section 203.
+ 
+DESCRIPTION OF THE PREFERRED STOCK
+ 
+   
+     Our current restated certificate of incorporation permits us to issue up to
+10,000,000 shares of our preferred stock (up to 150,000,000 shares if the
+amendment is approved by our stockholders), in one or more series and with
+rights, preferences, privileges and restrictions that may be fixed or designated
+by our board of directors without any further action by our stockholders. The
+board of directors, without stockholder approval, can issue preferred stock with
+voting, conversion, dividend, redemption, liquidation or other rights that could
+adversely affect the voting power and other rights of the holders of common
+stock. Preferred stock could thus be issued quickly with terms calculated to
+delay or prevent a change in control of Amazon.com or make removal of management
+more difficult. Additionally, the issuance of preferred stock may have the
+effect of decreasing the market price of our common stock, and may adversely
+affect the voting and other rights of the holders of common stock. We have no
+plans to issue any preferred stock at this time.
+    
+ 
+TRANSFER AGENT AND REGISTRAR
+ 
+   
+     The transfer agent and registrar for our common stock is ChaseMellon
+Shareholder Services, Ridgefield Park, New Jersey.
+    
+ 
+   
+                                SELLING HOLDERS
+    
+ 
+   
+     The notes were originally issued by Amazon.com and sold by the initial
+purchasers in a transaction exempt from the registration requirements of the
+Securities Act to persons reasonably believed by such initial purchasers to be
+qualified institutional buyers or other institutional accredited investors.
+Selling holders, which term includes their transferees, pledgees or donees or
+their successors, may from time to time offer and sell pursuant to this
+prospectus any or all of the notes and common stock into which the notes are
+convertible.
+    
+ 
+   
+     The following table sets forth information, as of May 12, 1999, with
+respect to the selling holders and the respective principal amounts of notes
+beneficially owned by each selling holder that may be offered pursuant to this
+prospectus. The information is based on information provided by or on behalf of
+the selling holders. The selling holders may offer all, some or none of the
+notes or common stock into which the notes are convertible. Because the selling
+holders may offer all or some portion of the notes or the common stock, no
+estimate can be given as to the amount of the notes or the common stock that
+    
+ 
+                                       25
+<PAGE>   28
+ 
+will be held by the selling holders upon termination of any such sales. In
+addition, the selling holders identified below may have sold, transferred or
+otherwise disposed of all or a portion of their notes since the date on which
+they provided the information regarding their notes in transactions exempt from
+the registration requirements of the Securities Act.
+ 
+   
+<TABLE>
+<CAPTION>
+                                PRINCIPAL AMOUNT OF
+                                NOTES BENEFICIALLY       COMMON STOCK
+                                 OWNED AND OFFERED      OWNED PRIOR TO       COMMON STOCK
+             NAME                    HEREBY(1)        THE OFFERING(1)(2)   OFFERED HEREBY(2)
+             ----               -------------------   ------------------   -----------------
+<S>                             <C>                   <C>                  <C>
+AAM/Zazove Institutional Income
+  Fund, L.P....................   $    4,000,000             25,631               25,631
+Advantus Capital Management,
+  Inc..........................        1,500,000              9,611                9,611
+AFTRA Health Fund..............          600,000              3,844                3,844
+AIG/National Union Fire
+  Insurance -- FRIC............        1,020,000              6,536                6,536
+AIM Balanced Fund..............       10,000,000             64,079               64,079
+AIM Capital Strategic Income...          500,000              3,203                3,203
+AIM Charter Fund...............       70,000,000            448,559              448,559
+AIM Global Income..............          500,000              3,203                3,203
+AIM High Yield Fund............       13,500,000             86,507               86,507
+AIM High Yield II..............           70,000                448                  448
+AIM Income Fund................        2,500,000             16,019               16,019
+AIM VI Balanced Fund...........           60,000                384                  384
+AIM VI Diversified Income......          500,000              3,203                3,203
+AIM VI Growth & Income Fund....       15,000,000             96,119               96,119
+Alexandra Global Investment
+  Fund 1 Ltd...................        9,500,000             60,875               60,875
+Allstate Insurance Company.....        8,000,000             51,263               51,263
+Alta Partners Holdings, LDC....        8,500,000             54,467               54,467
+Amoco Corporation Master Trust
+  for Employee Pension Plans...        1,454,000              9,317                9,317
+Argent Classic Convertible
+  Arbitrage Fund
+  (Bermuda) L.P................       12,000,000             76,895               76,895
+Aristeia International, Ltd....        3,273,000             20,973               20,973
+Aristeia Trading, L.L.C........        2,287,000             14,655               14,655
+Arkansas Teachers Retirement...        2,119,000             13,578               13,578
+Arpeggio Fund, LP..............          700,000              4,485                4,485
+BancBoston Robertson
+  Stephens.....................       10,000,000             64,079               64,079
+Bancroft Convertible Fund,
+  Inc..........................          500,000              3,203                3,203
+Bankers Life & Casualty Co. --
+  Convertible..................        2,000,000             12,815               12,815
+Banque Paribos, London.........        9,000,000             57,671               57,671
+Baptist Health of South
+  Florida......................          188,000              1,204                1,204
+Bear Stearns Securities
+  Corp.........................       62,250,000            398,897              398,897
+Bear, Stearns & Co.............       12,000,000             76,895               76,895
+Black Diamond Offshore, Ltd....        2,655,000             17,013               17,013
+BNP Arbitrage SNC..............        3,000,000             31,238               19,223
+Bond Series Fund -- Oppenheimer
+  Convertible Securities
+  Fund.........................        5,883,000             37,698               37,698
+Boston Museum of Fine Arts.....          131,000                839                  839
+</TABLE>
+    
+ 
+                                       26
+<PAGE>   29
+ 
+   
+<TABLE>
+<CAPTION>
+                                PRINCIPAL AMOUNT OF
+                                NOTES BENEFICIALLY       COMMON STOCK
+                                 OWNED AND OFFERED      OWNED PRIOR TO       COMMON STOCK
+             NAME                    HEREBY(1)        THE OFFERING(1)(2)   OFFERED HEREBY(2)
+             ----               -------------------   ------------------   -----------------
+<S>                             <C>                   <C>                  <C>
+Brown & Williamson Tobacco
+  Corp. Master Retirement
+  Trust........................          200,000              1,281                1,281
+Calamos Strategic Income
+  Fund.........................           55,000                352                  352
+California Public Employees
+  Retirement System............        5,000,000             32,039               32,039
+Carrigaholt Capital
+  (Bermuda) L.P. ..............        2,500,000             16,019               16,019
+Castle Convertible Fund,
+  Inc..........................        1,500,000              9,611                9,611
+Century National Insurance
+  Co...........................          300,000              1,922                1,922
+Christian Science Trustees for
+  Gifts and Endowments.........          340,000              2,178                2,178
+Chrysler Corporation Master
+  Retirement Trust.............        3,975,000             25,471               25,471
+CIBC Wood Gundy International
+  Arbitrage Corp...............        2,000,000             12,815               12,815
+CIBC World Markets.............        2,000,000             12,815               12,815
+Commerzbank A.G................       17,000,000            108,935              108,935
+Conseco Direct Life Insurance
+  Co...........................          600,000              3,844                3,844
+Convexity Partners L.P.........        1,400,000              8,971                8,971
+CPR (USA)......................          691,000              4,427                4,427
+David Lipscomb University
+  General Endowment Fund.......          130,000                833                  833
+D.E. Shaw Securities L.P.......        1,550,000              9,932                9,932
+Declaration of Trust for the
+  Defined Benefit Plans of ICI
+  American Holdings Inc........          940,000              6,023                6,023
+Declaration of Trust for the
+  Defined Benefit Plans of
+  ZENECA Holdings Inc..........          630,000              4,037                4,037
+Delaware Group Premium Fund,
+  Inc. Convertible Securities
+  Series.......................          155,000                993                  993
+Delaware PERS..................        1,530,000              9,804                9,804
+Delaware State Employees'
+  Retirement Fund..............        1,270,000              8,138                8,138
+Deutsche Bank Securities.......       89,400,000            572,874              572,874
+Donaldson, Lufkin & Jenrette
+  Securities Corp.(3)..........       12,000,000             76,895               76,895
+Double Black Diamond Offshore,
+  LDC..........................        4,494,000             28,797               28,797
+Elliot Associates, L.P.........        6,500,000             41,651               41,651
+Ellsworth Convertible Growth
+  and Income Fund, Inc.........          500,000              3,203                3,203
+Employers' Reinsurance
+  Corporation..................          599,000              3,838                3,838
+Engineers Joint Pension Fund...          354,000              2,268                2,268
+Equitable Life Assurance
+  Separate
+  Account -- Balanced..........          175,000              1,121                1,121
+</TABLE>
+    
+ 
+                                       27
+<PAGE>   30
+ 
+   
+<TABLE>
+<CAPTION>
+                                PRINCIPAL AMOUNT OF
+                                NOTES BENEFICIALLY       COMMON STOCK
+                                 OWNED AND OFFERED      OWNED PRIOR TO       COMMON STOCK
+             NAME                    HEREBY(1)        THE OFFERING(1)(2)   OFFERED HEREBY(2)
+             ----               -------------------   ------------------   -----------------
+<S>                             <C>                   <C>                  <C>
+Equitable Life Assurance
+  Separate Account --
+  Convertibles.................        2,670,000             17,109               17,109
+Fidelity Advisor Series II:
+  Fidelity Advisor Balanced
+  Fund.........................        2,404,000             15,404               15,404
+Fidelity Devonshire Trust:
+  Fidelity Equity Income
+  Fund.........................       18,470,000            118,355              118,355
+Fidelity Financial Trust:
+  Fidelity Convertible
+  Securities Fund..............        1,452,000              9,304                9,304
+Fidelity Management Trust
+  Company......................        2,410,000             15,443               15,443
+First Church of Christ
+  Scientist -- Endowment.......          380,000              2,435                2,435
+First Mercury Insurance
+  Company-Total Return.........           20,000                128                  128
+Forest Alternative Strategies
+  Fund II LP Series A5I........        1,100,000              7,048                7,048
+Forest Alternative Strategies
+  Fund II LP Series A5M........          425,000              2,723                2,723
+Forest Alternative Strategies
+  Fund II LP Series B3.........          250,000              1,601                1,601
+Forest Fulcrum Fund LP.........       18,925,000            121,271              121,271
+Forest Global Convertible Fund
+  Series A-5...................       22,700,000            145,461              145,461
+Forest Global Convertible Fund
+  Series B-1...................           75,000                480                  480
+Forest Performance Fund LP.....          200,000              1,281                1,281
+Forum Capital Markets LLC......        1,660,000             10,637               10,637
+Franklin Equity Fund...........        7,000,000             44,855               44,855
+Galleon International Fund,
+  Ltd..........................        2,647,700             16,966               16,966
+Galleon Omni Fund, Ltd.........          135,650                869                  869
+Galleon Partners, L.P..........          831,750              5,329                5,329
+Galleon Partners II, L.P.......        1,384,900              8,874                8,874
+General Motors Employees
+  Domestic Group Pension
+  Trust........................       16,400,000            191,843              105,091
+General Motors Employees Global
+  Group Pension Trust..........       10,200,000             65,361               65,361
+General Motors Employees
+  Domestic Group Trust.........        9,820,000             62,926               62,926
+General Motors Foundation,
+  Inc..........................          560,000              4,588                3,588
+GLG Market Neutral Fund........       10,000,000             64,079               64,079
+Global Bermuda Limited
+  Partnership..................        1,000,000             11,737                6,407
+Goldman Sachs & Company........       29,480,000            188,907              188,907
+Grace Brothers Ltd.............        2,500,000             16,019               16,019
+Greyhound Lines................          150,000                961                  961
+</TABLE>
+    
+ 
+                                       28
+<PAGE>   31
+ 
+   
+<TABLE>
+<CAPTION>
+                                PRINCIPAL AMOUNT OF
+                                NOTES BENEFICIALLY       COMMON STOCK
+                                 OWNED AND OFFERED      OWNED PRIOR TO       COMMON STOCK
+             NAME                    HEREBY(1)        THE OFFERING(1)(2)   OFFERED HEREBY(2)
+             ----               -------------------   ------------------   -----------------
+<S>                             <C>                   <C>                  <C>
+Greyhound Lines Inc.
+  Amalgamated CNCL Retirement &
+  Disability Trust Imperial
+  Trust dated 3/19/87..........           75,000                480                  480
+Growth and Income Portfolio, a
+  Series of Mitchell Hutchins
+  Trust........................          100,000                640                  640
+Gryphon Domestic III, LLC......        3,600,000             23,068               23,068
+HBK Cayman L.P.................          995,000              6,375                6,375
+HBK Offshore Fund Ltd..........        2,255,000             14,450               14,450
+Highbridge Capital
+  Corporation..................       29,910,000            191,663              191,663
+Hotel Union & Hotel Industry of
+  Hawaii.......................          464,000              2,973                2,973
+Hudson River Trust Balanced
+  Account......................        2,270,000             14,546               14,546
+Hudson River Trust Growth &
+  Income Account...............        4,075,000             26,112               26,112
+Hudson River Trust Growth
+  Investors....................        1,895,000             12,143               12,143
+ICI American Holdings Trust....          675,000              4,325                4,325
+InvestCorp SAM Fund Limited....        6,600,000             42,292               42,292
+J.M. Hull Associates, L.P......          600,000              3,844                3,844
+J.P. Morgan & Co. Inc..........        6,500,000            129,262               41,651
+The J.W. McConnell Family
+  Foundation...................          470,000              3,011                3,011
+Jackson Investment Fund Ltd....          950,000              6,087                6,087
+Jeffries & Company Inc.........           15,000                 96                   96
+JMG Convertible Investments,
+  L.P..........................       12,500,000             80,999               80,999
+Kapiolani Health...............           81,000                519                  519
+Lakeshore International,
+  Ltd..........................        2,000,000             23,485               12,815
+Lazard Freres Et Cie...........          700,000              4,485                4,485
+LDG Limited....................          390,000              2,499                2,499
+Liberty View Plus Fund.........          559,000              3,582                3,582
+The Liverpool Limited
+  Partnership..................        1,990,000             12,751               12,751
+LLT Limited....................          950,000              6,087                6,087
+Lyxor MasterFund SG Hambros TR
+  Co. (Jersey) Ltd.............          300,000              1,922                1,922
+Mainstay Convertible Fund......        9,650,000             61,837               61,837
+Mainstay Equity Income Fund....          350,000              2,242                2,242
+McMahan Securities Company,
+  L.P..........................        2,000,000             12,815               12,815
+Medici Partners, L.P...........        1,425,000              9,131                9,131
+Memphis Light, Gas & Water
+  Retirement Fund..............        1,930,000             12,367               12,367
+Merced Partners Limited
+  Partnership..................        2,000,000             23,415               12,815
+</TABLE>
+    
+ 
+                                       29
+<PAGE>   32
+ 
+   
+<TABLE>
+<CAPTION>
+                                PRINCIPAL AMOUNT OF
+                                NOTES BENEFICIALLY       COMMON STOCK
+                                 OWNED AND OFFERED      OWNED PRIOR TO       COMMON STOCK
+             NAME                    HEREBY(1)        THE OFFERING(1)(2)   OFFERED HEREBY(2)
+             ----               -------------------   ------------------   -----------------
+<S>                             <C>                   <C>                  <C>
+Merrill Lynch Convertible Fund,
+  Inc..........................        1,200,000              7,689                7,689
+Merrill Lynch ECS Convertible
+  Securities Portfolio.........          350,000              2,242                2,242
+Merrill Lynch World Income
+  Fund, Inc....................          450,000              2,883                2,883
+Merrill Lynch, Pierce, Fenner &
+  Smith Inc....................        4,954,000             31,745               31,745
+Michaelangelo, L.P.............        4,500,000             28,835               28,835
+Monumental Life Insurance
+  Company -- (Teamsters-Camden
+  Non-Enhanced)................        7,000,000             44,855               44,855
+Moore Global Investments,
+  Ltd..........................        7,300,000             46,778               46,778
+Morgan Stanley Dean
+  Witter(3)....................       50,000,000            320,399              320,399
+Morgan Stanley Dean Witter
+  Convertible Securities
+  Trust(3).....................        3,500,000             22,427               22,427
+Motion Picture Industry Health
+  Plan-Active Member Fund......          465,000              2,979                2,979
+Motion Picture Industry Health
+  Plan-Retiree Member Fund.....          235,000              1,505                1,505
+Motors Insurance Corporation...        4,040,000             40,888               25,888
+Museum of Fine Arts, Boston....           54,000                346                  346
+Nalco Chemical Retirement......          340,000              2,178                2,178
+National Bank of Canada........          700,000              4,485                4,485
+NationsBanc Montgomery
+  Securities LLC...............       12,500,000             80,099               80,099
+Navesink Equity Derivatives....        4,000,000             25,631               25,631
+New Hampshire Retirement
+  System.......................          357,000              2,287                2,287
+New York Life Insurance........       17,000,000            108,935              108,935
+New York Life Insurance &
+  Annuity Corporation..........        1,500,000              9,611                9,611
+New York Life Separate Account
+  #7...........................        1,500,000              9,611                9,611
+Nicholas Applegate Convertible
+  Fund.........................        4,305,000             27,586               27,586
+NMS Services, Inc..............       25,000,000            160,199              160,199
+OCM Convertible Limited
+  Partnership..................          150,000                961                  961
+OCM Convertible Trust..........        3,980,000             25,503               25,503
+Orrington International Fund
+  Limited......................          200,000              1,281                1,281
+Orrington Investments Limited
+  Partnership..................          300,000              1,922                1,922
+OZ Master Fund, Ltd. ..........        7,000,000             44,855               44,855
+Pacific Life Insurance
+  Company......................        1,500,000              9,611                9,611
+PaineWebber Growth & Income
+  Fund, a series of PaineWebber
+  America Fund.................        5,900,000             37,807               37,807
+</TABLE>
+    
+ 
+                                       30
+<PAGE>   33
+ 
+   
+<TABLE>
+<CAPTION>
+                                PRINCIPAL AMOUNT OF
+                                NOTES BENEFICIALLY       COMMON STOCK
+                                 OWNED AND OFFERED      OWNED PRIOR TO       COMMON STOCK
+             NAME                    HEREBY(1)        THE OFFERING(1)(2)   OFFERED HEREBY(2)
+             ----               -------------------   ------------------   -----------------
+<S>                             <C>                   <C>                  <C>
+Palladin Securities, LLC.......          700,000              4,485                4,485
+Parker-Hannifin Corporation....           85,000                544                  544
+Partner Reinsurance
+  Company Ltd..................          425,000              2,723                2,723
+Pepperdine University Pool
+  A#1..........................          173,000              1,108                1,108
+ProMutual......................          253,000              1,621                1,621
+Putnam Convertible Income --
+  Growth Trust.................        3,000,000             19,223               19,223
+Q Investments, L.P.............        7,285,000             46,682               46,682
+R(2) Investments, LDC..........       12,530,000             80,292               80,292
+Ramius Fund, Ltd...............        4,100,000             26,272               26,272
+Ramius L.P.....................        4,610,000             29,540               29,540
+Raphael, L.P...................        1,800,000             11,534               11,534
+RCG Baldwin, L.P...............        2,300,000             14,738               14,738
+Remington Investment
+  Strategies, L.P..............        1,600,000             10,252               10,252
+Rhapsody Fund, LP..............        1,100,000              7,048                7,048
+Rhone-Poulenc Rorer Pension
+  Plan.........................          117,000                749                  749
+Sage Capital...................        2,000,000             12,815               12,815
+Salomon Brothers Asset
+  Management, Inc..............        4,025,000             25,792               25,792
+Salomon Smith Barney Inc.......        5,600,000             35,884               35,884
+San Diego City Retirement......          994,000              6,369                6,369
+San Diego County Convertible...        1,234,000              7,907                7,907
+San Diego County Employees
+  Retirement Association.......        2,000,000             12,815               12,815
+SG Cowen.......................        5,000,000             32,039               32,039
+SG Cowen Securities
+  Corporation..................        4,000,000             39,784               25,631
+SL Holdings LTD................        1,100,000              7,048                7,048
+SoundShore Holdings Ltd........        8,730,000             55,941               55,941
+SoundShore Opportunity Holding
+  Fund Ltd. ...................        3,480,000             22,299               22,299
+Southern Farm Bureau Life
+  Insurance -- FRIC............        1,260,000              8,074                8,074
+St. Albans Partners Ltd........        7,300,000             46,778               46,778
+Starvest -- Managed............          215,000              1,377                1,377
+Starvest Combined Portfolio....        1,385,000              8,875                8,875
+State Employee's Retirement
+  Fund of the State of
+  Delaware.....................        1,395,000              8,939                8,939
+State of Connecticut Combined
+  Investment Funds.............        4,700,000             30,117               30,117
+State of Oregon Equity.........        7,675,000             49,181               49,181
+Summer Hill Global
+  Partners L.P.................          130,000                833                  833
+Susquehanna Capital Group......        3,350,000             21,466               21,466
+The Class IC Company, Ltd......          500,000              3,203                3,203
+The Frist Foundation...........          445,000              2,851                 2851
+The TCW Group, Inc.............        7,540,000             48,316               48,316
+</TABLE>
+    
+ 
+                                       31
+<PAGE>   34
+ 
+   
+<TABLE>
+<CAPTION>
+                                PRINCIPAL AMOUNT OF
+                                NOTES BENEFICIALLY       COMMON STOCK
+                                 OWNED AND OFFERED      OWNED PRIOR TO       COMMON STOCK
+             NAME                    HEREBY(1)        THE OFFERING(1)(2)   OFFERED HEREBY(2)
+             ----               -------------------   ------------------   -----------------
+<S>                             <C>                   <C>                  <C>
+Thermo Electron Balanced
+  Investment Fund..............        1,020,000              6,536                6,536
+Toronto Dominion (New York),
+  Inc..........................        5,000,000             32,039               32,039
+TQA Leverage Fund, L.P.........        2,340,000             14,994               14,994
+TQA Vantage Fund, Ltd..........        5,400,000             34,603               34,603
+TQA Vantage Plus Fund, Ltd.....          720,000              4,613                4,613
+Tracor Inc. Employees
+  Retirement Plan..............          233,000              1,493                1,493
+Travelers: Travelers Equity
+  Income.......................           60,000                384                  384
+Triarc Companies, Inc..........          510,000              3,268                3,268
+Tribeca Investments L.L.C......       32,000,000            205,055              205,055
+Triton Capital Investments,
+  LTD..........................       16,500,000            105,731              105,731
+University of Rochester........           66,000                422                  422
+Vanguard Convertible Securities
+  Fund, Inc....................        2,755,000             17,654               17,654
+Variable Insurance Products
+  Fund: Equity -- Income
+  Portfolio....................        9,060,000             58,056               58,056
+Variable Insurance Products
+  Fund III: Balanced
+  Portfolio....................          260,000              1,666                1,666
+Viacom Pension Plan Master
+  Trust........................           80,000                512                  512
+Wake Forest University.........        1,175,000              7,529                7,529
+Warburg Dillon Read LLC........       21,990,000            140,911              140,911
+Westgate International, L.P....        8,510,000             54,532               54,532
+White River Securities LLC.....        1,000,000              6,407                6,407
+Worldwide Transactions Ltd.....          351,000              2,249                2,249
+Yield Strategies Fund I, LP....        1,000,000              6,407                6,407
+Zazove Aggressive Growth
+  Fund.........................          400,000              2,563                2,563
+ZENECA Holdings Trust..........          675,000              4,325                4,325
+Ziff Asset Management, L.P.....        2,000,000             21,815               12,815
+Zuckerman, Greta...............          150,000                961                  961
+Any other holder of notes or
+  future transferee from any
+  such holder(4)(5)............      155,826,000            998,665              998,665
+                                  --------------          ---------            ---------
+          Total................   $1,250,000,000          8,253,127            8,009,996
+                                  ==============          =========            =========
+</TABLE>
+    
+ 
+- -------------------------
+(1) Includes common stock into which the notes are convertible.
+ 
+(2) Assumes a conversion price of $156.055 per share and a cash payment in lieu
+    of any fractional interest.
+ 
+   
+(3) Morgan Stanley & Co. Incorporated and Donaldson, Lufkin & Jenrette
+    Securities Corp. each acted as placement agent in connection with the offer
+    and sale of the notes in February 1999. In addition, Morgan Stanley & Co.
+    Incorporated acted as placement agent in connection with the offer and sale
+    of senior discount notes in May 1998.
+    
+ 
+                                       32
+<PAGE>   35
+ 
+   
+(4) Information concerning other selling holders of notes will be set forth in
+    prospectus supplements from time to time, if required.
+    
+ 
+   
+(5) Assumes that any other holders of notes or any future transferee from any
+    such holder does not beneficially own any common stock other than common
+    stock into which the notes are convertible at the conversion price of
+    $156.055 per share.
+    
+ 
+   
+     Other than as noted above, none of the selling holders has had any material
+relationship with us or our affiliates within the past three years. The selling
+holders purchased all of the notes from us in a private transaction on February
+3, 1999. All of the notes were "restricted securities" under the Securities Act
+prior to this registration.
+    
+ 
+   
+     The selling holders have represented to us that they purchased the shares
+for their own account for investment only and not with a view toward selling or
+distributing them, except pursuant to sales registered under the Securities Act
+or exemptions. We agreed with the selling holders to file the registration
+statement to register the resale of the shares. We agreed to prepare and file
+all necessary amendments and supplements to the registration statement to keep
+it effective until the earlier of (1) February 3, 2001 and (2) the date on which
+the notes and the common stock into which the notes are convertible no longer
+qualify as "registrable securities" under the Registration Rights Agreement.
+    
+ 
+     Information concerning the selling holders may change from time to time and
+any such changed information will be set forth in supplements to this prospectus
+if and when necessary. In addition, the per share conversion price, and
+therefore the number of shares of common stock issuable upon conversion of the
+notes, is subject to adjustment under certain circumstances. Accordingly, the
+aggregate principal amount of notes and the number of shares of common stock
+into which the notes are convertible may increase or decrease.
+ 
+   
+                              PLAN OF DISTRIBUTION
+    
+ 
+   
+     The selling holders and their successors, which term includes their
+transferees, pledgees or donees or their successors, may sell the notes and the
+common stock into which the notes are convertible directly to purchasers or
+through underwriters, broker-dealers or agents, who may receive compensation in
+the form of discounts, concessions or commissions from the selling holders or
+the purchasers, which discounts, concessions or commissions as to any particular
+underwriter, broker-dealer or agent may be in excess of those customary in the
+types of transactions involved.
+    
+ 
+   
+     The notes and the common stock into which the notes are convertible may be
+sold in one or more transactions at fixed prices, at prevailing market prices at
+the time of sale, at prices related to such prevailing market prices, at varying
+prices determined at the time of sale, or at negotiated prices. Such sales may
+be effected in transactions, which may involve crosses or block transactions (1)
+on any national securities exchange or quotation service on which the notes or
+the common stock may be listed or quoted at the time of sale, (2) in the
+over-the-counter market, (3) in transactions otherwise than on such exchanges or
+services or in the over-the-counter market, (4) through the writing of options,
+whether such options are listed on an options exchange or otherwise, or (5)
+through the settlement of short sales. In connection with the sale of the notes
+and the common stock into which the notes are convertible or otherwise, the
+selling holders may enter into hedging transactions with broker-dealers or other
+financial institutions which may in turn engage in short sales of the notes or
+the common stock into with the notes are convertible and
+    
+ 
+                                       33
+<PAGE>   36
+ 
+deliver these securities to close out such short positions, or loan or pledge
+the notes or the common stock into which the notes are convertible to
+broker-dealers that in turn may sell these securities.
+ 
+   
+     The aggregate proceeds to the selling holders from the sale of the notes or
+common stock into which the notes are convertible offered by them hereby will be
+the purchase price of such notes or common stock less discounts and commissions,
+if any. Each of the selling holders reserves the right to accept and, together
+with their agents from time to time, to reject, in whole or in part, any
+proposed purchase of notes or common stock to be made directly or through
+agents. We will not receive any of the proceeds from this offering.
+    
+ 
+   
+     Our outstanding common stock is listed for trading on the Nasdaq National
+Market. We do not intend to list the notes for trading on any national
+securities exchange or on the Nasdaq National Market and can give no assurance
+about the development of any trading market for the notes.
+    
+ 
+     In order to comply with the securities laws of some states, if applicable,
+the notes and common stock into which the notes are convertible may be sold in
+such jurisdictions only through registered or licensed brokers or dealers. In
+addition, in some states the notes and common stock into which the notes are
+convertible may not be sold unless they have been registered or qualified for
+sale or an exemption from registration or qualification requirements is
+available and is complied with.
+ 
+     The selling holders and any underwriters, broker-dealers or agents that
+participate in the sale of the notes and common stock into which the notes are
+convertible may be "underwriters" within the meaning of Section 2(11) of the
+Securities Act. Any discounts, commissions, concessions or profit they earn on
+any resale of the shares may be underwriting discounts and commissions under the
+Securities Act. Selling holders who are "underwriters" within the meaning of
+Section 2(11) of the Securities Act will be subject to the prospectus delivery
+requirements of the Securities Act. The selling holders have acknowledged that
+they understand their obligations to comply with the provisions of the Exchange
+Act and the rules thereunder relating to stock manipulation, particularly
+Regulation M, and have agreed that they will not engage in any transaction in
+violation of such provisions.
+ 
+     In addition, any securities covered by this prospectus which qualify for
+sale pursuant to Rule 144 or Rule 144A of the Securities Act may be sold under
+Rule 144 or Rule 144A rather than pursuant to this prospectus. A selling holder
+may not sell any notes or common stock described herein and may not transfer,
+devise or gift such securities by other means not described in this prospectus.
+ 
+     To the extent required, the specific notes or common stock to be sold, the
+names of the selling holders, the respective purchase prices and public offering
+prices, the names of any agent, dealer or underwriter, and any applicable
+commissions or discounts with respect to a particular offer will be set forth in
+an accompanying prospectus supplement or, if appropriate, a post-effective
+amendment to the registration statement of which this prospectus is a part.
+ 
+   
+     We entered into a Registration Rights Agreement for the benefit of holders
+of the notes to register their notes and common stock under applicable federal
+and state securities laws under certain circumstances and at certain times. The
+Registration Rights Agreement provides for cross-indemnification of the selling
+holders and Amazon.com and their
+    
+ 
+                                       34
+<PAGE>   37
+ 
+   
+respective directors, officers and controlling persons against certain
+liabilities in connection with the offer and sale of the notes and the common
+stock, including liabilities under the Securities Act. We will pay all of our
+expenses and substantially all of the expenses incurred by the selling holders
+incident to the offering and sale of the notes and the common stock, provided
+that each selling holder will be responsible for payment of commissions,
+concessions and discounts of underwriters, broker-dealers or agents.
+    
+ 
+   
+                                 LEGAL MATTERS
+    
+ 
+     Perkins Coie LLP, Seattle, Washington, will provide Amazon.com with an
+opinion as to legal matters in connection with the notes and the common stock
+offered by this prospectus.
+ 
+   
+                                    EXPERTS
+    
+ 
+     The consolidated financial statements of Amazon.com appearing in
+Amazon.com's Annual Report (Form 10-K) for the year ended December 31, 1998,
+have been audited by Ernst & Young LLP, independent auditors, as set forth in
+their report thereon incorporated herein by reference. Such consolidated
+financial statements are incorporated herein by reference in reliance upon such
+report given on the authority of such firm as experts in accounting and
+auditing.
+ 
+     The financial statements of Junglee Corp., incorporated in this prospectus
+by reference to Amazon.com's Current Report on Form 8-K filed August 27, 1998,
+have been audited by Deloitte & Touche LLP, independent auditors, as stated in
+their report, which is incorporated herein by reference, and have been so
+incorporated in reliance upon the report of such firm given upon their authority
+as experts in accounting and auditing.
+ 
+   
+     The consolidated financial statements of e-Niche Incorporated, incorporated
+by reference to Amazon.com's Current Report on Form 8-K filed May 12, 1999, have
+been audited by PricewaterhouseCoopers LLP, independent accountants, as stated
+in their report, which is incorporated herein by reference and has been so
+incorporated in reliance on the report of such firm as experts in auditing and
+accounting.
+    
+ 
+   
+     The financial statements of Alexa Internet, incorporated by reference to
+Amazon.com's Current Report on Form 8-K filed May 12, 1999, have been audited by
+PricewaterhouseCoopers LLP, independent accountants, as stated in their report,
+which is incorporated herein by reference and has been so incorporated in
+reliance on the report of such firm as experts in auditing and accounting.
+    
+ 
+                                       35
+<PAGE>   38
+ 
+- --------------------------------------------------------------------------------
+- --------------------------------------------------------------------------------
+ 
+   
+     We have not authorized any person to give you any information or to make
+any representations other than those contained in this prospectus. You should
+not rely on any information or representations other than those contained in
+this prospectus. This prospectus is not an offer to sell or a solicitation of an
+offer to buy any securities other than the convertible subordinated notes and
+the common stock into which the notes are convertible. It is not an offer to
+sell or a solicitation of an offer to buy securities if the offer or
+solicitation would be unlawful. The affairs of Amazon.com may have changed since
+the date of this prospectus. You should not assume that the information in this
+prospectus is correct at any time subsequent to its date.
+    
+ 
+                                 $1,250,000,000
+ 
+   
+                                AMAZON.COM.LOGO
+    
+ 
+                 4 3/4% CONVERTIBLE SUBORDINATED NOTES DUE 2009
+ 
+                               -----------------
+                                   PROSPECTUS
+                               -----------------
+ 
+                                           , 1999
+ 
+- --------------------------------------------------------------------------------
+- --------------------------------------------------------------------------------
+<PAGE>   39
+ 
+                                    PART II
+ 
+                     INFORMATION NOT REQUIRED IN PROSPECTUS
+ 
+ITEM 14. OTHER EXPENSES OF ISSUANCE AND DISTRIBUTION
+ 
+     The following table sets forth the costs and expenses, other than
+underwriting discounts, payable by the registrant in connection with the sale of
+the 4 3/4% Convertible Subordinated Notes due 2009 and the common stock being
+registered. All amounts are estimates except the SEC registration fee, the NASD
+filing fee and the Nasdaq National Market additional listing fee.
+ 
+   
+<TABLE>
+<S>                                                           <C>
+SEC registration fee........................................  $347,500
+NASD filing fee.............................................        --
+Nasdaq National Market listing fee..........................    17,500
+Transfer Agent and registrar fees...........................    15,500
+Legal fees and expenses.....................................   125,000
+Accounting fees and expenses................................   100,000
+Miscellaneous fees and expenses.............................   162,000
+                                                              --------
+          Total.............................................  $767,500
+                                                              ========
+</TABLE>
+    
+ 
+ITEM 15. INDEMNIFICATION OF DIRECTORS AND OFFICERS
+ 
+     Section 145 of the Delaware General Corporation Law (the "DGCL") provides
+that a corporation may indemnify its directors and officers, as well as other
+employees and individuals, against expenses (including attorneys' fees),
+judgments, fines and amounts paid in settlement in connection with specified
+actions, suits or proceedings, whether civil, criminal, administrative or
+investigative (other than an action by or in the right of the corporation -- a
+"derivative action"), if they acted in good faith and in a manner they
+reasonably believed to be in or not opposed to the best interests of the
+corporation, and, with respect to any criminal action or proceeding, had no
+reasonable cause to believe their conduct was unlawful. A similar standard is
+applicable in the case of derivative actions, except that indemnification only
+extends to expenses (including attorneys' fees) incurred in connection with the
+defense or settlement of such actions, and the statute requires court approval
+before there can be any indemnification in which the person seeking
+indemnification has been found liable to the corporation. The statute provides
+that it is not exclusive of other indemnification that may be granted by a
+corporation's charter, bylaws, disinterested director vote, stockholder vote,
+agreement or otherwise.
+ 
+   
+     Section 10 of the registrant's Bylaws requires indemnification to the full
+extent permitted under Delaware law as it now exists or may hereafter be
+amended. Subject to any restrictions imposed by Delaware law, the Bylaws provide
+an unconditional right to indemnification for all expense, liability and loss
+(including attorneys' fees, judgments, fines, ERISA excise taxes or penalties
+and amounts paid in settlement) actually and reasonably incurred or suffered by
+any person in connection with any actual or threatened action, suit or
+proceeding, whether civil, criminal, administrative or investigative (including,
+to the extent permitted by law, any derivative action) by reason of the fact
+that such person is or was serving as a director or officer of the registrant or
+that, being or having been a director or officer of the registrant, such person
+is or was serving at the request of the registrant as a director, officer,
+employee or agent of another corporation,
+    
+ 
+                                      II-1
+<PAGE>   40
+ 
+partnership, joint venture, trust or other enterprise, including service with
+respect to an employee benefit plan.
+ 
+     The Bylaws also provide that the registrant may, by action of its Board of
+Directors, provide indemnification to its employees and agents with the same
+scope and effect as the foregoing indemnification of directors and officers.
+ 
+     Section 102(b)(7) of the DGCL permits a corporation to provide in its
+certificate of incorporation that a director of the corporation shall not be
+personally liable to the corporation or its stockholders for monetary damages
+for breach of fiduciary duty as a director, except for liability for (i) any
+breach of the director's duty of loyalty to the corporation or its stockholders,
+(ii) acts or omissions not in good faith or which involve intentional misconduct
+or a knowing violation of law, (iii) payments of unlawful dividends or unlawful
+stock repurchases or redemptions, or (iv) any transaction from which the
+director derived an improper personal benefit.
+ 
+     Article 10 of the registrant's Restated Certificate of Incorporation
+provides that to the full extent that the DGCL, as it now exists or may
+hereafter be amended, permits the limitation or elimination of the liability of
+directors, a director of the registrant shall not be liable to the registrant or
+its stockholders for monetary damages for breach of fiduciary duty as a
+director. Any amendment to or repeal of such Article 10 shall not adversely
+affect any right or protection of a director of the registrant for or with
+respect to any acts or omissions of such director occurring prior to such
+amendment or repeal.
+ 
+     The registrant has entered into certain indemnification agreements with its
+officers and directors. The indemnification agreements provide the registrant's
+officers and directors with further indemnification, to the maximum extent
+permitted by the DGCL.
+ 
+ITEM 16. EXHIBITS
+ 
+   
+<TABLE>
+    <C>     <S>
+     3.1    Restated Certificate of Incorporation*
+     3.2    Restated Bylaws**
+     4.1    Indenture, dated as of February 3, 1999, between Amazon.com,
+            Inc. and The Bank of New York, as trustee, including the
+            form of 4 3/4% Convertible Subordinated Note due 2009
+            attached as Exhibit A thereto****
+     4.2    Registration Rights Agreement, dated as of February 3, 1999,
+            by and among Amazon.com, Inc. and the Initial Purchasers***
+     5.1    Opinion of Perkins Coie LLP, counsel to the registrant,
+            regarding the legality of the notes and the common stock
+            into which the notes are convertible****
+    12.1    Computation of Ratio of Earnings to Fixed Charges
+    23.1    Consent of Ernst & Young LLP, independent auditors
+    23.2    Consent of Perkins Coie LLP (contained in Exhibit 5.1)****
+    23.3    Consent of Deloitte & Touche LLP, independent auditors
+    23.4    Consent of PricewaterhouseCoopers LLP, independent
+            accountants
+    23.5    Consent of PricewaterhouseCoopers LLP, independent
+            accountants
+    24.1    Power of Attorney (contained on signature page)****
+    25.1    Form T-1 Statement of Eligibility of The Bank of New York to
+            act as trustee under the indenture****
+</TABLE>
+    
+ 
+- -------------------------
+*    Incorporated by reference to the registrant's Registration Statement on
+     Form S-4 (Registration No. 333-55943), filed with the SEC on June 3, 1998.
+ 
+                                      II-2
+<PAGE>   41
+ 
+**   Incorporated by reference to the registrant's Quarterly Report on Form 10-Q
+     for the quarter ended March 31, 1998.
+ 
+***  Incorporated by reference to the registrant's Current Report on Form 8-K
+     filed with the SEC on February 4, 1999.
+ 
+   
+**** Previously filed.
+    
+ 
+ITEM 17. UNDERTAKINGS
+ 
+     A. The undersigned registrant hereby undertakes:
+ 
+   
+          (1) To file, during any period in which offers or sales are being
+     made, a post-effective amendment to this registration statement:
+    
+ 
+             (i) To include any prospectus required by Section 10(a)(3) of the
+        Securities Act of 1933;
+ 
+   
+             (ii) To reflect in the prospectus any facts or events arising after
+        the effective date of the Registration Statement (or the most recent
+        post-effective amendment thereof) which, individually or in the
+        aggregate, represent a fundamental change in the information set forth
+        in the registration statement. Notwithstanding the foregoing, any
+        increase or decrease in volume of securities offered (if the total
+        dollar value of securities offered would not exceed that which was
+        registered) and any deviation from the low or high and of the estimated
+        maximum offering range may be reflected in the form of prospectus filed
+        with the Commission pursuant to Rule 424(b) if, in the aggregate, the
+        changes in volume and price represent no more than 20 percent change in
+        the maximum aggregate offering price, set forth in the "Calculation of
+        Registration Fee" table in the effective registration statement; and
+    
+ 
+   
+             (iii) To include any material information with respect to the plan
+        of distribution not previously disclosed in the registration statement
+        or any material change to such information in the registration
+        statement.
+    
+ 
+   
+provided, however, that paragraphs (i) and (ii) above do not apply if the
+information required to be included in a post-effective amendment by those
+paragraphs is contained in periodic reports filed with or furnished to the
+Commission by the registrant pursuant to Section 13 or 15(d) of the Securities
+Exchange Act of 1934 that are incorporated by reference into the registration
+statement.
+    
+ 
+   
+          (2) That, for the purpose of determining any liability under the
+     Securities Act, each such post-effective amendment shall be deemed to be a
+     new registration statement relating to the securities offered therein, and
+     the offering of such securities at that time shall be deemed to be the
+     initial bona fide offering thereof; and
+    
+ 
+          (3) To remove from registration by means of a post-effective amendment
+     any of the securities being registered which remain unsold at the
+     termination of the offering.
+ 
+   
+     B. The undersigned registrant hereby undertakes that, for purposes of
+determining any liability under the Securities Act, each filing of the
+registrant's annual report pursuant to Section 13(a) or Section 15(d) of the
+Securities Exchange Act (and, where applicable, each filing of an employee
+benefit plan's annual report pursuant to Section 15(d) of the Exchange Act) that
+is incorporated by reference in the registration statement shall be
+    
+ 
+                                      II-3
+<PAGE>   42
+ 
+deemed to be a new registration statement relating to the securities offered
+herein, and the offering of such securities at that time shall be deemed to be
+the initial bona fide offering thereof.
+ 
+   
+     C. Insofar as indemnification for liabilities arising under the Securities
+Act of 1933 may be permitted to directors, officers and controlling persons of
+the registrant pursuant to the foregoing provisions, or otherwise, the
+registrant has been advised that in the opinion of the Commission such
+indemnification is against public policy as expressed in the Securities Act and
+is, therefore, unenforceable. In the event that a claim for indemnification
+against such liabilities (other than the payment by the registrant of expenses
+incurred or paid by a director, officer or controlling person of the registrant
+in the successful defense of any action, suit or proceeding) is asserted by such
+director, officer or controlling person in connection with the securities being
+registered, the registrant will, unless in the opinion of its counsel the matter
+has been settled by controlling precedent, submit to a court of appropriate
+jurisdiction the question of whether such indemnification by it is against
+public policy as expressed in the Securities Act and will be governed by the
+final adjudication of such issue.
+    
+ 
+   
+     D. The undersigned registrant hereby undertakes to file an application for
+the purpose of determining the eligibility of the trustee to act under Section
+310 of the Trust Indenture Act in accordance with the rules and regulations
+prescribed by the Commission under Section 305(b)(2) of the Trust Indenture Act.
+    
+ 
+                                      II-4
+<PAGE>   43
+ 
+                                   SIGNATURES
+ 
+   
+     Pursuant to the requirements of the Securities Act of 1933, as amended, the
+Registrant certifies that it has reasonable grounds to believe that it meets all
+the requirements for filing on Form S-3 and has duly caused this Amendment No. 1
+to the Registration Statement to be signed on its behalf by the undersigned,
+thereunto duly authorized, in the City of Seattle, State of Washington, on May
+13, 1999.
+    
+ 
+   
+                                          AMAZON.COM, INC.
+    
+ 
+   
+                                          By:        /s/ JOY D. COVEY
+    
+                                             -----------------------------------
+   
+                                                        Joy D. Covey
+    
+   
+                                                 Chief Financial Officer and
+    
+   
+                                                  Vice President of Finance
+    
+   
+                                                     and Administration
+    
+ 
+   
+     Pursuant to the requirements of the Securities Act of 1933, as amended,
+this Amendment No. 1 to the Registration Statement has been signed by the
+following persons in the capacities indicated on May 13, 1999.
+    
+ 
+   
+<TABLE>
+<CAPTION>
+              SIGNATURE                                 TITLE
+              ---------                                 -----
+<S>                                     <C>
+ 
+         /*/ JEFFREY P. BEZOS            Chairman of the Board, President and
+- --------------------------------------    Chief Executive Officer (Principal
+           Jeffrey P. Bezos                       Executive Officer)
+ 
+           /s/ JOY D. COVEY                Chief Financial Officer and Vice
+- --------------------------------------         President of Finance and
+             Joy D. Covey                Administration (Principal Financial
+                                               and Accounting Officer)
+ 
+          /*/ TOM A. ALBERG                            Director
+- --------------------------------------
+            Tom A. Alberg
+ 
+          /*/ SCOTT D. COOK                            Director
+- --------------------------------------
+            Scott D. Cook
+ 
+          /*/ L. JOHN DOERR                            Director
+- --------------------------------------
+            L. John Doerr
+ 
+      /*/ PATRICIA Q. STONESIFER                       Director
+- --------------------------------------
+        Patricia Q. Stonesifer
+ 
+*By: /s/ JOY D. COVEY
+     ---------------------------------
+     Joy D. Covey
+     Attorney-in-Fact
+</TABLE>
+    
+ 
+                                      II-5
+<PAGE>   44
+ 
+                                 EXHIBIT INDEX
+ 
+   
+<TABLE>
+<CAPTION>
+    EXHIBIT
+    NUMBER
+    -------
+    <C>       <S>
+     3.1      Restated Certificate of Incorporation*
+     3.2      Restated Bylaws**
+     4.1      Indenture, dated as of February 3, 1999, between Amazon.com,
+              Inc. and The Bank of New York, as trustee, including the
+              form of 4 3/4% Convertible Subordinated Note due 2009
+              attached as Exhibit A thereto****
+     4.2      Registration Rights Agreement, dated as of February 3, 1999,
+              by and among Amazon.com, Inc. and the Initial Purchasers***
+     5.1      Opinion of Perkins Coie LLP, counsel to the registrant,
+              regarding the legality of the notes and the common stock
+              into which the notes are convertible****
+    12.1      Computation of Ratio of Earnings to Fixed Charges
+    23.1      Consent of Ernst & Young LLP, independent auditors
+    23.2      Consent of Perkins Coie LLP (contained in Exhibit 5.1)****
+    23.3      Consent of Deloitte & Touche LLP, independent auditors
+    23.4      Consent of PricewaterhouseCoopers LLP, independent
+              accountants
+    23.5      Consent of PricewaterhouseCoopers LLP, independent
+              accountants
+    24.1      Power of Attorney (contained on signature page)****
+    25.1      Form T-1 Statement of Eligibility of The Bank of New York to
+              act as trustee under the indenture****
+</TABLE>
+    
+ 
+- -------------------------
+*    Incorporated by reference to the registrant's Registration Statement on
+     Form S-4 (Registration No. 333-55943), filed with the SEC on June 3, 1998.
+ 
+**   Incorporated by reference to the registrant's Quarterly Report on Form 10-Q
+     for the quarter ended March 31, 1998.
+ 
+***  Incorporated by reference to the registrant's Current Report on Form 8-K
+     filed with the SEC on February 4, 1999.
+ 
+   
+**** Previously filed.
+    
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-12.1
+<SEQUENCE>2
+<DESCRIPTION>COMPUTATION OF RATIO OF EARNINGS TO FIXED CHARGES
+<TEXT>
+
+<PAGE>   1
+                                                                      EXHIBIT 12
+
+                                AMAZON.COM, INC.
+
+                       RATIO OF EARNINGS TO FIXED CHARGES
+
+
+<TABLE>
+<CAPTION>
+                                                                                                           PERIOD FROM
+                                           THREE MONTHS                                                    JULY 5, 1994
+                                               ENDED                                                      (INCEPTION) TO
+                                             MARCH 31,    ---------------------------------------------    DECEMBER 31,
+                                               1999          1998         1997         1996       1995        1994
+                                             --------     ---------     --------     -------     -----        ----
+<S>                                          <C>          <C>           <C>          <C>         <C>          <C>
+Net loss                                     $(61,667)    $(124,546)    $(31,020)    $(6,246)    $(303)       $(52)
+
+Plus fixed charges:
+  Interest expense including amortization    
+    of debt issuance costs                     16,688        26,639          326           5        --          --
+  Assumed interest element included in
+    rent expense(1)                             1,692         2,833          700          90         4          --
+                                             --------     ---------     --------     -------     -----        ----
+                                               18,380        29,472        1,026          95         4          --
+                                             --------     ---------     --------     -------     -----        ----
+Adjusted earnings (loss)                      (43,287)      (95,074)     (29,994)     (6,151)     (299)        (52)
+Fixed charges                                 (18,380)      (29,472)      (1,026)        (95)       (4)         --
+                                             --------     ---------     --------     -------     -----        ----
+Deficiency of earnings available to
+  cover fixed charges                        $(61,667)    $(124,546)    $(31,020)    $(6,246)    $(303)       $(52)
+                                             ========     =========     ========     =======     =====        ====
+</TABLE>
+
+(1) Total rent expense for the period divided by three. This is the portion of
+    rental expense which the Company believes to be representative on interest.
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-23.1
+<SEQUENCE>3
+<DESCRIPTION>CONSENT OF ERNST & YOUNG LLP
+<TEXT>
+
+<PAGE>   1
+                                                                    Exhibit 23.1
+
+
+
+               Consent of Ernst & Young LLP, Independent Auditors
+
+
+We consent to the reference to our firm under the caption "Experts" in
+Amendment No. 1 to the Registration Statement (Form S-3 No. 333-74435) and
+related Prospectus of Amazon.com, Inc. for the registration of 8,009,996 shares
+of common stock in connection with the $1,250,000,000 4 3/4% Convertible
+Subordinated Notes due 2009, and to the incorporation by reference therein of
+our report dated January 22, 1999, except for Note 11 as to which the date is
+February 10, 1999, with respect to the consolidated financial statements and
+schedule of Amazon.com, Inc. included in its Annual Report (Form 10-K) for the
+year ended December 31, 1998, filed with the Securities and Exchange Commission.
+
+
+
+                                       /s/  ERNST & YOUNG LLP
+
+Seattle, Washington
+May 11, 1999
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-23.3
+<SEQUENCE>4
+<DESCRIPTION>CONSENT OF DELOITTE & TOUCHE LLP
+<TEXT>
+
+<PAGE>   1
+                                                                    EXHIBIT 23.3
+
+
+CONSENT OF DELOITTE & TOUCHE LLP, INDEPENDENT AUDITORS
+
+
+We consent to the incorporation by reference in this Amendment No. 1 to
+Registration Statement No. 333-74435 of Amazon.com, Inc. on Form S-3 of our
+report dated February 6, 1998, on the financial statements of Junglee Corp. as
+of December 31, 1997 and 1996 and for the year ended December 31, 1997 and for
+the period from June 3, 1996 (inception) to December 31, 1996, appearing in the
+Current Report on Form 8-K of Amazon.com, Inc. filed August 27, 1998 and to the
+reference to us under the heading "Experts" in the Prospectus, which is a part
+of this Registration Statement.
+
+
+/s/ DELOITTE & TOUCHE LLP
+- -------------------------
+
+San Jose, California
+May 11, 1999
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-23.4
+<SEQUENCE>5
+<DESCRIPTION>CONSENT OF PRICEWATERHOUSECOOPERS LLP
+<TEXT>
+
+<PAGE>   1
+
+                                                                    EXHIBIT 23.4
+
+
+                       CONSENT OF INDEPENDENT ACCOUNTANTS
+
+We hereby consent to the incorporation by reference in Amendment No. 1 to the
+Registration Statement on Form S-3 (No. 333-74435) of Amazon.com, Inc. of our
+report dated May 3, 1999 relating to the financial statements of e-Niche
+Incorporated, which appears in the Current Report on Form 8-K of Amazon.com, 
+Inc. dated May 12, 1999. We also consent to the reference to us under the
+heading "Experts" in such Registration Statement.
+
+
+
+/s/ PricewaterhouseCoopers LLP
+- -------------------------------------
+PricewaterhouseCoopers LLP
+
+
+Boston, Massachusetts
+May 11, 1999
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-23.5
+<SEQUENCE>6
+<DESCRIPTION>CONSENT OF PRICEWATERHOUSECOOPERS LLP
+<TEXT>
+
+<PAGE>   1
+
+                                                                    EXHIBIT 23.5
+
+
+                       CONSENT OF INDEPENDENT ACCOUNTANTS
+
+We hereby consent to the incorporation by reference in Amendment No. 1 to the
+Registration Statement on Form S-3 (No. 333-74435) of Amazon.com, Inc. of our
+report dated April 23, 1999 relating to the financial statements of Alexa
+Internet which appears in the Form 8-K of Amazon.com, Inc. dated May 12, 1999.
+We also consent to the reference to our firm under the caption "Experts".
+
+
+
+/s/ PricewaterhouseCoopers LLP
+- -------------------------------------
+PricewaterhouseCoopers LLP
+
+
+San Francisco, California
+May 12, 1999
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

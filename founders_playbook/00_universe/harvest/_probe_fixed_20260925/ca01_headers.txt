@@ -1,0 +1,9 @@
+HTTP/1.1 308 Permanent Redirect
+Date: Fri, 25 Sep 2026 12:29:29 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Location: https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22wal-mart%22&date1=1962&date2=1969
+Server: cloudflare
+CF-RAY: a40a08e4acb0a077-SIN
+

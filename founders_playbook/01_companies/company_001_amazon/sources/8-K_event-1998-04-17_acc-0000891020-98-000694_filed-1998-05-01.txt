@@ -1,0 +1,185 @@
+==============================================================================
+PROVENANCE HEADER -- added by the Stage-3 Evidence Registrar (post-IPO filing intake)
+Retrieval date (access date) : 2026-09-25
+Original URL                 : https://www.sec.gov/Archives/edgar/data/1018724/0000891020-98-000694.txt
+HTTP status on retrieval     : 200
+Document                     : Form 8-K, complete submission (all 1 documents inline) -- FORM 8-K
+SEC CIK                      : 1018724 (AMAZON COM INC)
+Accession no.                : 0000891020-98-000694
+Filing date per EDGAR        : 1998-05-01   (SEC-HEADER FILED AS OF DATE: 19980501 -- agrees)
+Conformed submission type    : 8-K   Securities Exchange Act File No.: 000-22513
+Period of report             : 1998-04-17
+Bytes of retrieved body      : 5,933
+Body completeness            : COMPLETE -- terminates in </SEC-DOCUMENT>; 1 <DOCUMENT> blocks, types: 8-K
+Request headers used         : User-Agent: FounderPlaybook Research AdminContact@example.com | Accept-Encoding: identity | Referer: https://www.sec.gov/
+Body encoding on wire        : identity (no compression negotiated); saved exactly as received
+Located via                  : https://data.sec.gov/submissions/CIK0001018724-submissions-002.json (pre-2000 slice, 1997-03-24 -> 2000-01-04); row form=8-K filingDate=1998-05-01 primaryDocDescription='FORM 8-K'
+Component documents (DESCRIPTION per EDGAR):
+      - FORM 8-K
+==============================================================================
+
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ HUDKT7d+CZdboXgjiT40q3uu65WEuz7yxIrklTBJTr+cjfgMj4bT6s05Rbgge4lS
+ UA+2N5GMLssED9pHgbACSQ==
+
+<SEC-DOCUMENT>0000891020-98-000694.txt : 19980504
+<SEC-HEADER>0000891020-98-000694.hdr.sgml : 19980504
+ACCESSION NUMBER:		0000891020-98-000694
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	19980417
+ITEM INFORMATION:		
+FILED AS OF DATE:		19980501
+SROS:			NASD
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AMAZON COM INC
+		CENTRAL INDEX KEY:			0001018724
+		STANDARD INDUSTRIAL CLASSIFICATION:	BOOKS: PUBLISHING OR PUBLISHING AND PRINTING [2731]
+		IRS NUMBER:				911646860
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		
+		SEC FILE NUMBER:	000-22513
+		FILM NUMBER:		98608527
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1516 SECOND AVE 4TH FLOOR
+		STREET 2:		PO BOX 80387
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+		BUSINESS PHONE:		2066222335
+
+	MAIL ADDRESS:	
+		STREET 1:		PO BOX 80387
+		STREET 2:		1516 SECOND AVE 4TH FLOOR
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<DESCRIPTION>FORM 8-K
+<TEXT>
+
+<PAGE>   1
+                       SECURITIES AND EXCHANGE COMMISSION
+
+                             WASHINGTON, D.C. 20549
+
+                            -------------------------
+
+
+
+                                    FORM 8-K
+
+                                 CURRENT REPORT
+
+
+
+                     PURSUANT TO SECTION 13 OR 15(d) OF THE
+                         SECURITIES EXCHANGE ACT OF 1934
+
+
+
+                                 APRIL 17, 1998
+                                 --------------
+                                 Date of Report
+                             (Date of earliest event
+                                    reported)
+
+
+
+                                AMAZON.COM, INC.
+               (Exact Name of Registrant as Specified in Charter)
+
+        DELAWARE                   000-22513                   91-1646860
+    ---------------          ---------------------            -------------
+    (State or Other          (Commission File No.)            (IRS Employer
+      Jurisdiction                                         Identification No.)
+   of Incorporation)
+
+            1516 SECOND AVENUE, SEATTLE, WASHINGTON 98101 (Address of
+            ---------------------------------------------------------
+                principal executive offices, including zip code)
+
+                                 (206) 622-2335
+              ----------------------------------------------------
+              (Registrant's telephone number, including area code)
+
+
+<PAGE>   2
+ITEM    9.     SALES OF EQUITY SECURITIES PURSUANT TO REGULATION S
+
+        The Company issued 540,066 shares of its Common Stock in connection with
+the acquisition of the following companies: Bookpages Limited, a company
+registered in England ("Bookpages"), on April 17, 1998; Telebook, Inc., a
+Florida corporation ("Telebook"), on April 24, 1998; and Internet Movie Database
+Limited, a company registered in England ("IMDb"), on April 24, 1998. The form
+of the transactions for Bookpages and IMDb was an exchange of the Company's
+Common Stock plus, in the case of IMDb, cash for the entire issued share capital
+of the acquired businesses. For Telebook, the form of the transaction was a
+merger, whereby Telebook was merged into a wholly-owned subsidiary of the
+Company in exchange for shares of the Company's Common Stock. No underwriters
+were used and the recipients of the Company's Common Stock were the shareholders
+of the acquired companies.
+
+        Twenty-one of the former shareholders of the acquired companies are
+non-U.S. residents who collectively received 351,324 shares of the Company's
+Common Stock. The shares were not registered under the Securities Act of 1933,
+as amended (the "Securities Act"), pursuant to the safe harbor contained in
+Regulation S under the Securities Act. The shares issued to non-U.S. residents
+were sold in offshore transactions in accordance with the offering restrictions
+of Regulation S and no directed selling efforts were made in the United States.
+
+        Five of the former shareholders of the acquired companies are U.S.
+residents who collectively received 188,742 shares of the Company's Common
+Stock. The shares were not registered under the Securities Act, pursuant to the
+exemption set forth in Section 4(2) thereof. All U.S. residents who received
+shares of the Company's Common Stock made certain representations to the Company
+as to investment intent, possessed a sufficient level of financial
+sophistication and received or had access to information about the Company. The
+shares issued in the transactions are subject to restrictions on transfer absent
+registration under the Securities Act, and no offers to sell the securities were
+made by any form of general solicitation or general advertisement.
+
+
+                                                                          PAGE 1
+
+
+<PAGE>   3
+                                    SIGNATURE
+
+        Pursuant to the requirements of the Securities Exchange Act of 1934, the
+registrant has duly caused this report to be signed on its behalf by the
+undersigned hereunto duly authorized.
+
+                                     AMAZON.COM, INC.
+
+
+
+Dated:  May 1, 1998                  By     /s/ Alan Caplan
+                                        -------------------------------------
+                                        Vice President and General Counsel
+
+
+                                                                          PAGE 2
+
+
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

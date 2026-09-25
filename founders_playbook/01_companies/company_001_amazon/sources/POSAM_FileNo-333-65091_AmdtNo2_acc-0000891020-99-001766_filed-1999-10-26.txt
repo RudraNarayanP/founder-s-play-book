@@ -1,0 +1,263 @@
+==============================================================================
+PROVENANCE HEADER -- added by the Stage-3 Evidence Registrar (post-IPO filing intake)
+Retrieval date (access date) : 2026-09-25
+Original URL                 : https://www.sec.gov/Archives/edgar/data/1018724/0000891020-99-001766.txt
+HTTP status on retrieval     : 200
+Document                     : Form POS AM, complete submission (all 1 documents inline) -- POST EFFECTIVE AMENDMENT NO.2 TO FORM S-3
+SEC CIK                      : 1018724 (AMAZON COM INC)
+Accession no.                : 0000891020-99-001766
+Filing date per EDGAR        : 1999-10-26   (SEC-HEADER FILED AS OF DATE: 19991026 -- agrees)
+Conformed submission type    : POS AM   Securities Exchange Act File No.: 333-65091
+Period of report             : n/a
+Bytes of retrieved body      : 9,213
+Body completeness            : COMPLETE -- terminates in </SEC-DOCUMENT>; 1 <DOCUMENT> blocks, types: POS AM
+Request headers used         : User-Agent: FounderPlaybook Research AdminContact@example.com | Accept-Encoding: identity | Referer: https://www.sec.gov/
+Body encoding on wire        : identity (no compression negotiated); saved exactly as received
+Located via                  : https://data.sec.gov/submissions/CIK0001018724-submissions-002.json (pre-2000 slice, 1997-03-24 -> 2000-01-04); row form=POS AM filingDate=1999-10-26 primaryDocDescription='POST EFFECTIVE AMENDMENT NO.2 TO FORM S-3'
+Component documents (DESCRIPTION per EDGAR):
+      - POST EFFECTIVE AMENDMENT NO.2 TO FORM S-3
+==============================================================================
+
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ Sqq/20iB5tKG7DM3Woif1udeJFwtWWKGtWIGA56mFgJWrc8YKEQxgOt+1XAqSL4H
+ MqUB9RqmduSxw5b6Cuf21g==
+
+<SEC-DOCUMENT>0000891020-99-001766.txt : 19991027
+<SEC-HEADER>0000891020-99-001766.hdr.sgml : 19991027
+ACCESSION NUMBER:		0000891020-99-001766
+CONFORMED SUBMISSION TYPE:	POS AM
+PUBLIC DOCUMENT COUNT:		1
+FILED AS OF DATE:		19991026
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AMAZON COM INC
+		CENTRAL INDEX KEY:			0001018724
+		STANDARD INDUSTRIAL CLASSIFICATION:	RETAIL-CATALOG & MAIL-ORDER HOUSES [5961]
+		IRS NUMBER:				911646860
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		POS AM
+		SEC ACT:		
+		SEC FILE NUMBER:	333-65091
+		FILM NUMBER:		99733993
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1200 12TH AVENUE S SUITE 1200
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98144
+		BUSINESS PHONE:		2062661000
+
+	MAIL ADDRESS:	
+		STREET 1:		1200 12TH AVENUE S SUITE 1200
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98144
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>POS AM
+<SEQUENCE>1
+<DESCRIPTION>POST EFFECTIVE AMENDMENT NO.2 TO FORM S-3
+<TEXT>
+
+<PAGE>   1
+
+AS FILED WITH THE SECURITIES AND EXCHANGE COMMISSION ON OCTOBER 26, 1999
+
+                                                      REGISTRATION NO. 333-65091
+
+================================================================================
+                       SECURITIES AND EXCHANGE COMMISSION
+                             WASHINGTON, D.C. 20549
+
+                                  -------------
+                         POST-EFFECTIVE AMENDMENT NO. 2
+                                       TO
+
+                                    FORM S-3
+                             REGISTRATION STATEMENT
+
+                                      UNDER
+                           THE SECURITIES ACT OF 1933
+
+                                  -------------
+                                AMAZON.COM, INC.
+             (Exact name of registrant as specified in its charter)
+
+              DELAWARE                                 91-1646860
+   (State or other jurisdiction of           (I.R.S. Employer Identification
+   incorporation or organization)                        Number)
+
+                       1200 12TH AVENUE SOUTH, SUITE 1200
+                         SEATTLE, WASHINGTON 98144-2734
+                                 (206) 266-1000
+
+          (Address, including zip code, and telephone number, including
+             area code, of registrant's principal executive offices)
+
+                                JEFFREY P. BEZOS
+                             CHIEF EXECUTIVE OFFICER
+                                AMAZON.COM, INC.
+                       1200 12TH AVENUE SOUTH, SUITE 1200
+                            SEATTLE, WASHINGTON 98144
+                                 (206) 266-1000
+
+            (Name, address, including zip code, and telephone number,
+                   including area code, of agent for service)
+
+
+                                 -------------
+
+                 COPIES OF ALL COMMUNICATIONS SHOULD BE SENT TO:
+                                SCOTT L. GELBAND
+                                PERKINS COIE LLP
+                          1201 THIRD AVENUE, 40TH FLOOR
+                         SEATTLE, WASHINGTON 98101-3099
+                                 (206) 583-8888
+                                  -------------
+
+        Approximate date of commencement of proposed sale to the public:
+     THIS POST-EFFECTIVE AMENDMENT DEREGISTERS THOSE SHARES OF COMMON STOCK
+               THAT REMAIN UNSOLD HEREUNDER AS OF THE DATE HEREOF
+
+    If the only securities being registered on this Form are being offered
+pursuant to dividend or interest reinvestment plans, please check the following
+box. [ ]
+
+    If any of the securities being registered on this Form are to be offered on
+a delayed or continuous basis pursuant to Rule 415 under the Securities Act of
+1933, other than securities offered only in connection with dividend or interest
+reinvestment plans, check the following box. [X]
+
+    If this Form is filed to register additional securities for an offering
+pursuant to Rule 462(b) under the Securities Act of 1933, please check the
+following box and list the Securities Act registration statement number of the
+earlier effective registration statement for the same offering.
+[ ]  ____________________
+
+    If this Form is a post-effective amendment filed pursuant to Rule 462(c)
+under the Securities Act of 1933, check the following box and list the
+Securities Act registration statement number of the earlier effective
+registration statement for the same offering. [ ]
+
+    If delivery of the prospectus is expected to be made pursuant to Rule 434,
+please check the following box. [ ]
+
+================================================================================
+
+<PAGE>   2
+
+
+
+                          DEREGISTRATION OF SECURITIES
+
+        On September 30, 1998, Amazon.com, Inc. ("Amazon.com") filed a
+registration statement on Form S-3 (No. 333-65091) (the "Form S-3") which
+registered 2,662,125 shares of its common stock for resale from time to time.
+The Form S-3 was declared effective by the Commission on October 22, 1998.
+
+        Subsequent to that date, Amazon.com declared a 3-for-1 split of its
+common stock, which was paid on January 4, 1999, and a 2-for-1 split of its
+common stock, which was paid on September 1, 1999. As a result, the number of
+shares registered hereunder was mathematically adjusted to 15,972,750 shares of
+common stock. As of the date of this Post-Effective Amendment No. 2 to the Form
+S-3 (the "Post-Effective Amendment No. 2"), 10,085,690 shares of common stock
+have been sold pursuant to the Form S-3.
+
+        This Post-Effective Amendment No. 2 deregisters all of the 5,887,060
+shares of common stock that remain unsold hereunder as of the date hereof.
+
+            [The remainder of this page is intentionally left blank.]
+
+
+<PAGE>   3
+
+
+                                   SIGNATURES
+
+        Pursuant to the requirements of the Securities Act of 1933, as amended,
+the registrant certifies that it has reasonable grounds to believe that it meets
+all of the requirements for filing on Form S-3 and has duly caused this
+Post-Effective Amendment No. 2 to the Registration Statement to be signed on its
+behalf by the undersigned, thereunto duly authorized, in the City of Seattle,
+State of Washington on October 6, 1999.
+
+                                            AMAZON.COM, INC.
+
+                                            By:  /s/ Jeffrey P. Bezos
+                                                 ---------------------------
+                                                 Jeffrey P. Bezos
+                                                 Chairman of the Board
+                                                 and Chief Executive Officer
+
+        Pursuant to the requirements of the Securities Act of 1933, as amended,
+this Post-Effective Amendment No. 2 to the Registration Statement has been
+signed below by the following persons in the capacities and on the dates
+indicated.
+
+<TABLE>
+<CAPTION>
+           SIGNATURE                               TITLE                           DATE
+- ------------------------------   -----------------------------------------  ------------------
+<S>                              <C>                                        <C>
+    /s/ Jeffrey P. Bezos         Chairman of the Board and Chief Executive  October 6, 1999
+- ------------------------------   Officer (Principal Executive Officer)
+        Jeffrey P. Bezos
+
+
+  /s/ Joseph Galli, Jr.          President, Chief Operating Officer and     October 26, 1999
+- ------------------------------   Director
+      Joseph Galli, Jr.
+
+
+    /s/ Warren C. Jenson         Senior Vice President and Chief Financial  October 26, 1999
+- ------------------------------   Officer(Principal Financial Officer)
+        Warren C. Jenson
+
+
+    /s/ Kelyn J. Brannon         Vice President, Finance and Chief          October 26, 1999
+- ------------------------------   Accounting Officer (Principal
+        Kelyn J. Brannon         Accounting Officer)
+
+
+         *Tom A. Alberg                           Director                  October 6, 1999
+- ------------------------------
+         Tom A. Alberg
+
+
+         *Scott D. Cook                           Director                  October 6, 1999
+- ------------------------------
+         Scott D. Cook
+
+
+         *L. John Doerr                           Director                  October 6, 1999
+- ------------------------------
+         L. John Doerr
+
+
+    *Patricia Q. Stonesifer                       Director                  October 6, 1999
+- ------------------------------
+     Patricia Q. Stonesifer
+
+
+*By:/s/ Jeffrey P. Bezos                                                    October 6, 1999
+    --------------------------
+        Jeffrey P. Bezos
+        Attorney-in-Fact
+</TABLE>
+
+
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

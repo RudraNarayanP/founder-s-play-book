@@ -1,0 +1,301 @@
+==============================================================================
+PROVENANCE HEADER -- added by the Stage-3 Evidence Registrar (post-IPO filing intake)
+Retrieval date (access date) : 2026-09-25
+Original URL                 : https://www.sec.gov/Archives/edgar/data/1018724/0000891020-99-000717.txt
+HTTP status on retrieval     : 200
+Document                     : Form 8-K, complete submission (all 2 documents inline) -- FORM 8-K
+SEC CIK                      : 1018724 (AMAZON COM INC)
+Accession no.                : 0000891020-99-000717
+Filing date per EDGAR        : 1999-04-27   (SEC-HEADER FILED AS OF DATE: 19990427 -- agrees)
+Conformed submission type    : 8-K   Securities Exchange Act File No.: 000-22513
+Period of report             : 1999-04-26
+Bytes of retrieved body      : 10,233
+Body completeness            : COMPLETE -- terminates in </SEC-DOCUMENT>; 2 <DOCUMENT> blocks, types: 8-K, EX-99.1
+Request headers used         : User-Agent: FounderPlaybook Research AdminContact@example.com | Accept-Encoding: identity | Referer: https://www.sec.gov/
+Body encoding on wire        : identity (no compression negotiated); saved exactly as received
+Located via                  : https://data.sec.gov/submissions/CIK0001018724-submissions-002.json (pre-2000 slice, 1997-03-24 -> 2000-01-04); row form=8-K filingDate=1999-04-27 primaryDocDescription='FORM 8-K'
+Component documents (DESCRIPTION per EDGAR):
+      - FORM 8-K
+      - PRESS RELEASE DATED APRIL 26, 1999
+EX-99 PRESS RELEASE HEADLINE : ACQUIRES EXCHANGE.COM, ADDING MORE THAN 12 MILLION BOOK AND MUSIC ITEMS FOR SALE AND AUCTION OPERATOR OF BIBLIOFIND AND MUSICFILE TO ADD HARD-TO-FIND 
+==============================================================================
+
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ Safyvlf4Wor4LloPtqoy79oSc1WVxFuA6JSFoEPWrGE/N35jE015P8P8OdkswdYf
+ fH4FvKZjReP8slrwmJEQng==
+
+<SEC-DOCUMENT>0000891020-99-000717.txt : 19990428
+<SEC-HEADER>0000891020-99-000717.hdr.sgml : 19990428
+ACCESSION NUMBER:		0000891020-99-000717
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	19990426
+ITEM INFORMATION:		
+ITEM INFORMATION:		
+FILED AS OF DATE:		19990427
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AMAZON COM INC
+		CENTRAL INDEX KEY:			0001018724
+		STANDARD INDUSTRIAL CLASSIFICATION:	RETAIL-CATALOG & MAIL-ORDER HOUSES [5961]
+		IRS NUMBER:				911646860
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		
+		SEC FILE NUMBER:	000-22513
+		FILM NUMBER:		99601324
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1516 SECOND AVE 4TH FLOOR
+		STREET 2:		PO BOX 80387
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+		BUSINESS PHONE:		2066222335
+
+	MAIL ADDRESS:	
+		STREET 1:		PO BOX 80387
+		STREET 2:		1516 SECOND AVE 4TH FLOOR
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<DESCRIPTION>FORM 8-K
+<TEXT>
+
+<PAGE>   1
+                       SECURITIES AND EXCHANGE COMMISSION
+
+                             WASHINGTON, D.C. 20549
+
+
+
+
+
+                                    FORM 8-K
+
+                                 CURRENT REPORT
+
+
+
+                     PURSUANT TO SECTION 13 OR 15(d) OF THE
+                         SECURITIES EXCHANGE ACT OF 1934
+
+
+
+                                 APRIL 26, 1999
+                                 DATE OF REPORT
+                        (DATE OF EARLIEST EVENT REPORTED)
+
+
+
+                                AMAZON.COM, INC.
+               (EXACT NAME OF REGISTRANT AS SPECIFIED IN CHARTER)
+
+                   DELAWARE           000-22513         91-1646860
+               (STATE OR OTHER  (COMMISSION FILE NO.) (IRS EMPLOYER
+                 JURISDICTION                         IDENTIFICATION NO.)
+               OF INCORPORATION)
+
+                   1516 SECOND AVENUE, SEATTLE, WASHINGTON 98101 
+           (ADDRESS OF PRINCIPAL EXECUTIVE OFFICES, INCLUDING ZIP CODE)
+
+                                 (206) 622-2335
+              (REGISTRANT'S TELEPHONE NUMBER, INCLUDING AREA CODE)
+
+
+
+
+
+<PAGE>   2
+ITEM 5. OTHER EVENTS
+
+     On April 26, 1999, Amazon.com, Inc. ("Amazon.com") announced the
+     acquisitions of Exchange.com, Accept.com and Alexa Internet.
+
+ITEM 7. FINANCIAL STATEMENTS, PRO FORMA FINANCIAL INFORMATION AND EXHIBITS
+
+     (c) Exhibits
+
+     99.1 Press Release dated April 26, 1999 regarding Amazon.com's announcement
+          of the acquisitions of Exchange.com, Accept.com and Alexa Internet.
+
+
+
+
+
+<PAGE>   3
+                                   SIGNATURES
+
+        Pursuant to the requirements of the Securities Exchange Act of 1934, the
+registrant has duly caused this report to be signed on its behalf by the
+undersigned hereunto duly authorized.
+
+
+
+                                   AMAZON.COM, INC.
+                                   (REGISTRANT)
+
+
+
+Dated: April 26, 1999              By: /s/ Joy D. Covey
+                                       -------------------------------
+                                       Joy D. Covey
+                                       Chief Financial Officer and Vice
+                                       President of Finance and Administration
+
+
+
+
+
+
+
+<PAGE>   4
+                                  EXHIBIT INDEX
+
+
+<TABLE>
+<CAPTION>
+Exhibit Number               Description
+- --------------               -----------
+<S>            <C>
+99.1           Press Release dated April 26, 1999 regarding Amazon.com's
+               announcement of the acquisitions of Exchange.com, Accept.com
+               and Alexa Internet.
+</TABLE>
+
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<DESCRIPTION>PRESS RELEASE DATED APRIL 26, 1999
+<TEXT>
+
+<PAGE>   1
+                                                                    EXHIBIT 99.1
+
+  AMAZON.COM ACQUIRES EXCHANGE.COM, ADDING MORE THAN 12 MILLION BOOK AND MUSIC
+                           ITEMS FOR SALE AND AUCTION
+
+  OPERATOR OF BIBLIOFIND AND MUSICFILE TO ADD HARD-TO-FIND BOOKS AND MUSIC TO
+             AMAZON.COM; TWO ADDITIONAL ACQUISITIONS ALSO ANNOUNCED
+
+
+        SEATTLE, April 26--/PRNewswire/--Amazon.com (NASDAQ:AMZN), the leading
+online retailer, today announced it has agreed to acquire Exchange.com, the
+premier online marketplace for hard-to-find, antiquarian, and used books at
+www.bibliofind.com and hard-to-find recordings and music memorabilia at
+www.musicfile.com.
+
+        The acquisition will vastly enlarge and enrich Amazon.com's core book-
+and music-store offerings while providing Exchange.com's thousands of
+independent dealers and retailers the opportunity to sell and auction their
+hard-to-find books, recordings, and memorabilia to Amazon.com's growing base of
+8 million experienced online shoppers.
+
+        "This is a win for Amazon.com customers because it further increases our
+selection of rare and obscure items," said Jeff Bezos, founder and CEO of
+Amazon.com, "and it's a win for the thousands of independent dealers on
+Bibliofind.com and MusicFile.com who will now be able to reach our 8 million
+experienced online shoppers."
+
+        Bibliofind.com's database of more than 9 million hard-to-find book
+listings makes searching for and ordering books fast, easy, and convenient.
+Bibliofind.com allows thousands of dealers of rare books to upload their
+inventories and manage their businesses online quickly and easily. The site
+offers several community-oriented features; members actively participate in nine
+forums on topics such as first editions and rare books. The site automatically
+matches want ads with newly available books and notifies potential buyers that
+sought-after books have been found.
+
+        MusicFile.com is the Web's premier marketplace and community for
+collectors of hard-to-find music and memorabilia, with more than 3 million items
+for sale by retailers, dealers, and private collectors around the world.
+MusicFile.com also offers its members rich community features, including
+discussion forums and free home pages, fully commerce-enabled online
+storefronts, a want-ad posting and matching service, articles by knowledgeable
+members and respected experts, and a wealth of other resources for enthusiasts
+of every kind of music. Privately held Exchange.com (www.exchange.com) is
+located in Cambridge, Massachusetts. The acquisition was one of three separate
+substantially all-stock transactions totaling approximately $645 million
+disclosed by Amazon.com today. The
+
+
+<PAGE>   2
+three acquisitions are expected to close before June 30, 1999. In addition to
+the acquisition of Exchange.com, Amazon.com also announced agreements to
+acquire:
+
+        o       Privately held Accept.com (www.accept.com), an e-commerce
+                company currently developing longer-range solutions to simplify
+                person-to-person and business-to-consumer transactions on the
+                Internet. The company is based in Redwood City, California.
+
+        o       Privately held Alexa Internet (www.alexa.com), which has
+                developed a free advertising-supported Web navigation service
+                that works with Internet browsers to provide useful information
+                about the sites being viewed and suggest related sites. Alexa is
+                based in San Francisco, California.
+
+        Amazon.com is acquiring all of the outstanding shares and assuming all
+outstanding options of the three companies. The company expects to account for
+the transactions under the purchase method of accounting. The transactions are
+subject to customary closing conditions, including shareholder approval and
+expiration of the applicable waiting periods under the Hart-Scott-Rodino Act of
+1976.
+
+ABOUT AMAZON.COM, INC.
+
+        Amazon.com, the Internet's No. 1 music, No. 1 video, and No. 1 book
+retailer, opened its virtual doors on the World Wide Web in July 1995. Today,
+the Amazon.com store has expanded to offer online auctions and more than 4.7
+million book, music-CD, video, DVD, computer-game, and other titles, plus secure
+credit-card payment, personalized recommendations, and streamlined ordering
+through 1-ClickSM technology.
+
+        Amazon.com operates two international Web sites: www.amazon.co.uk in the
+United Kingdom and www.amazon.de in Germany. Amazon.com also operates PlanetAll
+(www.planetall.com), a Web-based address book, calendar, and reminder service.
+It also operates the Internet Movie Database (www.imdb.com), the Web's
+comprehensive and authoritative source of information on more than 150,000
+movies and entertainment programs and 500,000 cast and crew members dating from
+the birth of film in 1892 to the present.
+
+        This announcement contains forward-looking statements that involve risks
+and uncertainties that include, among others, Amazon.com's limited operating
+history, anticipated losses, unpredictability of future revenues, potential
+fluctuations in quarterly operating results, seasonality, consumer trends,
+competition, risks of system interruption, management of potential growth, risks
+related to auction services, and risks of new business areas, international
+expansion, business combinations, and strategic alliances. More information
+about factors that potentially could affect Amazon.com's financial results is
+included in Amazon.com's filings with the Securities and Exchange Commission,
+including its Annual Report on Form 10-K for the year ended December 31, 1998.
+
+
+<PAGE>   3
+        Amazon.com, Amazon.com Auctions, Amazon.co.uk, Amazon.de, Internet Movie
+Database, PlanetAll, and 1-Click are either registered trademarks or trademarks
+of Amazon.com, Inc. or its affiliates. All other names mentioned herein may be
+trademarks of their respective owners.
+
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

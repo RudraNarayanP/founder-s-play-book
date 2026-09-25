@@ -1,0 +1,446 @@
+==============================================================================
+PROVENANCE HEADER -- added by the Stage-3 Evidence Registrar (post-IPO filing intake)
+Retrieval date (access date) : 2026-09-25
+Original URL                 : https://www.sec.gov/Archives/edgar/data/1018724/0000891020-99-000568.txt
+HTTP status on retrieval     : 200
+Document                     : Form 8-K, complete submission (all 2 documents inline) -- FORM 8-K
+SEC CIK                      : 1018724 (AMAZON COM INC)
+Accession no.                : 0000891020-99-000568
+Filing date per EDGAR        : 1999-03-30   (SEC-HEADER FILED AS OF DATE: 19990330 -- agrees)
+Conformed submission type    : 8-K   Securities Exchange Act File No.: 000-22513
+Period of report             : 1999-03-30
+Bytes of retrieved body      : 13,859
+Body completeness            : COMPLETE -- terminates in </SEC-DOCUMENT>; 2 <DOCUMENT> blocks, types: 8-K, EX-99.1
+Request headers used         : User-Agent: FounderPlaybook Research AdminContact@example.com | Accept-Encoding: identity | Referer: https://www.sec.gov/
+Body encoding on wire        : identity (no compression negotiated); saved exactly as received
+Located via                  : https://data.sec.gov/submissions/CIK0001018724-submissions-002.json (pre-2000 slice, 1997-03-24 -> 2000-01-04); row form=8-K filingDate=1999-03-30 primaryDocDescription='FORM 8-K'
+Component documents (DESCRIPTION per EDGAR):
+      - FORM 8-K
+      - PRESS RELEASE DATED MARCH 30, 1999
+EX-99 PRESS RELEASE HEADLINE : LAUNCHES ONLINE AUCTION SITE THIRD-PARTY SELLERS CAN NOW REACH AMAZON.COM'S COMMUNITY OF 8 MILLION PRE-REGISTERED, EXPERIENCED ONLINE BUYERS SEATTLE, 
+==============================================================================
+
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ FbyzcuLMpWQkGXfi8I7JvCBvKNW2naxDrzjfuIZICdY+Ke1BrrWHwL3grmScHMsS
+ 3jaBNvYzNgCSEZXfWtLWaw==
+
+<SEC-DOCUMENT>0000891020-99-000568.txt : 19990331
+<SEC-HEADER>0000891020-99-000568.hdr.sgml : 19990331
+ACCESSION NUMBER:		0000891020-99-000568
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	19990330
+ITEM INFORMATION:		
+ITEM INFORMATION:		
+FILED AS OF DATE:		19990330
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AMAZON COM INC
+		CENTRAL INDEX KEY:			0001018724
+		STANDARD INDUSTRIAL CLASSIFICATION:	RETAIL-CATALOG & MAIL-ORDER HOUSES [5961]
+		IRS NUMBER:				911646860
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		
+		SEC FILE NUMBER:	000-22513
+		FILM NUMBER:		99579003
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1516 SECOND AVE 4TH FLOOR
+		STREET 2:		PO BOX 80387
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+		BUSINESS PHONE:		2066222335
+
+	MAIL ADDRESS:	
+		STREET 1:		PO BOX 80387
+		STREET 2:		1516 SECOND AVE 4TH FLOOR
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<DESCRIPTION>FORM 8-K
+<TEXT>
+
+<PAGE>   1
+                       SECURITIES AND EXCHANGE COMMISSION
+                                        
+                             WASHINGTON, D.C. 20549
+                                        
+                                        
+                                        
+                                        
+                                        
+                                    FORM 8-K
+                                        
+                                 CURRENT REPORT
+                                        
+                                        
+                                        
+                     PURSUANT TO SECTION 13 OR 15(d) OF THE
+                        SECURITIES EXCHANGE ACT OF 1934
+                                        
+                                        
+                                        
+                                 MARCH 30, 1999
+                                 Date of Report
+                       (Date of earliest event reported)
+                                        
+                                        
+                                        
+                                AMAZON.COM, INC.
+               (Exact Name of Registrant as Specified in Charter)
+                                        
+          DELAWARE                  000-22513                  91-1646860
+     (State or Other           (Commission File No.)         (IRS Employer
+       Jurisdiction                                        Identification No.)
+      of Incorporation)
+
+                 1516 SECOND AVENUE, SEATTLE, WASHINGTON 98101
+          (Address of principal executive offices, including zip code)
+                                        
+                                 (206) 622-2335
+              (Registrant's telephone number, including area code)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<PAGE>   2
+ 
+ITEM 5. OTHER EVENTS 
+
+        On March 30, 1999, Amazon.com, Inc. ("Amazon.com") launched its online 
+        auction site.
+
+ITEM 7. FINANCIAL STATEMENTS, PRO FORMA FINANCIAL INFORMATION AND EXHIBITS 
+
+        (c) Exhibits
+
+              99.1    Press Release dated March 30, 1999 regarding Amazon.com's 
+                      announcement of the launch of its online auction site.
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<PAGE>   3
+
+
+
+                                    SIGNATURES
+
+     Pursuant to the requirements of the Securities Exchange Act of 1934, the 
+registrant has duly caused this report to be signed on its behalf by the 
+undersigned hereunto duly authorized. 
+
+
+
+                                    AMAZON.COM, INC.
+                                    (REGISTRANT)
+
+
+
+Dated: March 30, 1999               By: /s/ Joy D. Covey
+                                        ------------------------------------
+                                        Joy D. Covey 
+                                        Chief Financial Officer and Vice 
+                                        President of Finance and Administration 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+<PAGE>   4
+
+                                 EXHIBIT INDEX
+
+
+Exhibit Number            Description
+- --------------------      -----------------------------------------------
+      
+     99.1                 Press Release dated March 30, 1999 regarding 
+                          Amazon.com's announcement of the launch of its 
+                          online auction site.
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<DESCRIPTION>PRESS RELEASE DATED MARCH 30, 1999
+<TEXT>
+
+<PAGE>   1
+                                                                    EXHIBIT 99.1
+                                       
+                    AMAZON.COM LAUNCHES ONLINE AUCTION SITE
+                                        
+            THIRD-PARTY SELLERS CAN NOW REACH AMAZON.COM'S COMMUNITY
+             OF 8 MILLION PRE-REGISTERED, EXPERIENCED ONLINE BUYERS
+
+     SEATTLE, March 30, 1999-/PRNewswire/-Amazon.com (NASDAQ: AMZN), the leading
+online retailer (www.amazon.com), today opened Amazon.com Auctions to help 
+people find, discover, buy-and now sell-virtually anything online.
+
+     Amazon.com's 8 million customers are pre-registered to begin buying and 
+selling immediately in more than 800 categories, such as Antique Scientific 
+Instruments, Duck Stamps, Animation Art, Star Wars Trading Cards, Madame 
+Alexander Dolls, Depression Glass, Vintage Clothing, Digital Cameras, and more.
+In the Amazon.com tradition, the new service is easy to use, with innovative and
+time-saving features such as Bid-Click(SM) for hassle-free bidding. 
+
+     Amazon.com is doing something bold with online auctions by guaranteeing 
+buyers a safe auction experience. The Amazon.com Auctions Guarantee covers 
+purchases of up to $250 in the event that a buyer does not receive what a seller
+promised. This is not insurance, there is no deductible, and there is no third 
+party to deal with-it's a simple guarantee. Additional measures to ensure a safe
+online auction community include a community-wide rating and feedback system.
+
+     "Our community of shoppers is the largest online," said Amazon.com founder 
+and CEO Jeff Bezos. "Now, for the first time, anyone can introduce their 
+products to that community. Whether you're a professional retailer or an 
+individual with one item to sell, there's no other way to reach 8 million 
+pre-registered, experienced online buyers."
+ 
+     In an important innovation, sellers will automatically have their auctions 
+cross-merchandized across Amazon.com's millions of book, CD, and video product 
+pages. For example, an actual chair from Rick's Cafe in the movie Casablanca is 
+now being auctioned at Amazon.com by the seller StarWares on Main. With 
+Amazon.com's proprietary cross-merchandising software, the chair will be 
+displayed on the Web site pages where the Casablanca soundtrack, books, DVDs, 
+and videos are sold.
+
+<PAGE>   2
+
+     Among the items currently placed on auction by sellers are one of the 
+world's most sought-after toy trains, the 1950 Lionel Golden Anniversary Mighty 
+Hudson Set (The Train Station); a rare red-vinyl pressing of the Beatles' "White
+Album" (Rockaway Records); a Frank Sinatra-autographed photograph (ArtRock); a 
+very rare, self-published book of poetry by Jim Morrison, American Prayer 
+(Rockaway Records); and tens of thousands of more items. 
+
+     To celebrate the opening of Amazon.com Auctions, all first-time winning 
+bidders will receive a $10 Amazon.com gift certificate. Gift certificates will 
+be issued through June 30, 1999, and are redeemable in Amazon.com's book, music,
+video, and gift stores.
+
+     Also, to mark the opening, Amazon.com is hosting a charity auction to 
+benefit World Wildlife Fund's efforts to preserve endangered animals in the 
+Amazon River Basin. Starting today, rare and unique items, ranging in value from
+about $40 to more than $100,000, will be put on the online auction block-with 
+bids starting at $1 and no minimum sales price.
+
+     Included in the charity auction is one of the three original door-desks 
+built by Amazon.com founder and CEO Jeff Bezos in the garage where Amazon.com
+was started. "Maybe it'll bring somebody good luck," said Bezos, "or maybe it's 
+just a used door-desk."
+
+     Other charity auction items include:
+     - Rebel Without a Cause (James Dean), an original painting by Andy Warhol
+     - 1937 edition of Gone with the Wind (book), signed by Clark Gable, Vivien 
+       Leigh, and 18 other members of the original film cast 
+     - 1985 Fender Squier Stratocaster guitar signed by Eric Clapton
+     - Signed photo of Albert Einstein
+     - Ken Griffey Jr. autographed game-used jersey
+     - Limited edition A Farewell to Arms, signed by author Ernest Hemingway
+     - Ty Employee Beanie Baby
+     - No. 1 Giant-Size X-Men Comic Book, 1975
+     - Limited-edition Winnie the Pooh signed by A.A. Milne and original 
+       illustrator
+     - Rare Greta Garbo signature, on a signed contract agreeing to shorten her 
+       name to just Garbo
+     - Jailhouse Rock photograph signed and inscribed by Elvis Presley
+     - Signed and inscribed John F. Kennedy photograph in presidential frame
+
+
+<PAGE>   3
+
+
+     - American Bandstand sheet music signed by Chubby Checker, Dick Clark, and 
+       others     
+     - Most rare 1877 Indian-head penny, grade 63--nearly perfect
+     - Full-size Beach Boys surfboard from the L.A. (Light Album)
+     - Mutiny on the Bounty (book) signed by the original cast of the 1935 film 
+       (Clark Gable et al.)
+     - Signed Abraham Lincoln document, framed, with photo
+     - Complete set of first-edition James Bond novels by Ian Fleming
+     - Innocents Abroad signed by author both as Mark Twain and Samuel Clemens 
+     - John F. Kennedy Life magazine memorial edition given by Jackie Kennedy to
+       JFK's sister
+     - Check signed by Babe Ruth, framed with photo
+     - Dolly Parton 9 to 5 gold record for soundtrack title single given to 
+       song's producer
+     - Letter to Dean Martin terminating his MGM contract (also signed by 
+       Martin) - Mixed collection of 100 Beanie Babies
+     - Stamp that traveled on an early Challenger shuttle mission 
+     - Signed photograph from James Dean's assumed last trip home
+     - Brave and the Bold comic, No. 28, 1960, introduction of Justice League of
+       America
+     - Limited edition of Brave New World signed by Aldous Huxley 
+     - Document signed by Frank Sinatra giving photo permission of himself and 
+       Gene Kelly
+     - Complete set of U.S. peace dollars, 1921 to 1935
+     - Contract signed by Elvis Presley for songs in Jailhouse Rock
+     - Early edition of The Fountainhead signed by the author, Ayn Rand
+     - First-edition copy of My Trip Abroad, signed by the author, Charlie 
+       Chaplin
+     - Photo of Apollo XI lunar module landing, signed by astronauts Neil 
+       Armstrong, Buzz Aldrin, and Michael Collins
+     - The Deep (book) signed by 1977 film cast members, including Nick Nolte, 
+       Lou Gosset Jr., and Jacqueline Bisset
+     - Original Frank Interlandi-signed cartoon inscribed to JFK's sister Pat 
+       Lawford
+     - Sammy Davis Jr.'s unsigned American Express platinum card
+
+     Complete information about Amazon.com Auctions and the Auctions Guarantee 
+is available at www.amazon.com. 
+
+<PAGE>   4
+ABOUT AMAZON.COM, INC.
+
+     Amazon.com, Inc. (NASDAQ: AMZN), the Internet's No. 1 music, No. 1 video, 
+and No. 1 book retailer, opened its virtual doors on the World Wide Web in July 
+1995. Today, the Amazon.com store has expanded to offer more than 4.7 million 
+book, music CD, video, DVD, computer-game, and other titles, plus secure credit-
+card payment, personalized recommendations, and streamlined ordering through 
+1-Click(SM) technology.
+
+     Amazon.com operates two international Web sites: www.amazon.co.uk in the 
+United Kingdom and www.amazon.de in Germany. Amazon.com also operates PlanetAll 
+(www.planetall.com), a Web-based address book, calendar, and reminder service. 
+It also operates the Internet Movie Database (www.imdb.com), the Web's 
+comprehensive and authoritative source of information on more than 150,000 
+movies and entertainment programs and 500,000 cast and crew members dating from 
+the birth of film in 1892 to the present.
+
+     This announcement contains forward-looking statements that involve risks
+and uncertainties that include, among others, Amazon.com's limited operating 
+history, anticipated losses, unpredictability of future revenues, potential 
+fluctuations in quarterly operating results, seasonality, intense competition, 
+risks associated with system interruption, management of potential growth, high 
+leverage, and risks of new business areas, international expansion, business 
+combinations, and strategic alliances. More information about factors that 
+potentially could affect Amazon.com's financial results is included in 
+Amazon.com's filings with the Securities and Exchange Commission, including 
+its Annual Report on Form 10-K for the year ended December 31, 1998.
+
+     Amazon.com, Amazon.co.uk, Amazon.de, Internet Movie Database, PlanetAll, 
+Earth's Biggest Bookstore, and 1-Click are either registered trademarks or 
+trademarks of Amazon.com, Inc. or its affiliates. All other names mentioned 
+herein may be trademarks of their respective owners.
+
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

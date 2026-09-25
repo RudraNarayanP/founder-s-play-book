@@ -3,11 +3,14 @@
 
 *This is one document split for the 60,000-word file cap (method §9.3). Section letters, claim IDs,
 metric IDs and conflict numbering run continuously across volumes: §U.1–U.43 are Stage 1's, and
-**§U.44–U.111 are Stage 2's**. The ordered part list, per-volume word counts and the section-to-volume
+**§U.44–U.113 are Stage 2's** (U.112 and U.113 appended by the Audit-1 chronology repair pass of
+2026-09-25; no id anywhere in the spine was renumbered). The ordered part list, per-volume word counts and the section-to-volume
 map are in `stage_2_index.md`. Cross-references of the form `(S2 §D.1, part_1)` name the volume.*
 
-*Window is frozen: Stage 2 = 1996-01-01 → 1997-05-15, bounded at the IPO's effectiveness, with
-1996-12-31 recorded as the substantive repeatability date. Evidence classes and confidence follow
+*Window is frozen: Stage 2 = 1996-01-01 → 1997-05-15, bounded at the IPO's **final priced
+prospectus (the 424B1), effectiveness having been reached 1997-05-14** — the three-date cluster is
+disclosed at part_1 l.18 and the 10-K405 (l.1126) governs the effectiveness day — with 1996-12-31
+recorded as the substantive repeatability date. Evidence classes and confidence follow
 method §3 and §7; the S-1 original, its amendments and the 424B1 are ONE source lineage (§3).*
 
 
@@ -32,7 +35,7 @@ project it is **excluded**, not down-weighted.*
 
 **Novel or not.** Dated and filed in-window: search over a licensed ISBN-keyed file; per-order access to a
 distributor pool via electronic interface; a manual special-order desk behind it; e-mail confirmation at
-negligible cost; hyperlink syndication via Associates (membership dated, start **not**); and a discount
+negligible cost; hyperlink syndication via Associates (membership dated, start **not** → U.112); and a discount
 programme the company warned would cost margin. Not novel: buying a book from a wholesaler per order. Two 1997
 numbers wearing the same name are **different objects** — Amazon's "2.5 million titles" are listings, B&N's a
 bibliographic database mediated by a store. Amazon denied structural protection: "**Barriers to entry are
@@ -347,7 +350,8 @@ measured **is not cured** here.
    **but also a small number of** CDs, videotapes and audiotapes" (identical in March 1997 and in the 10-K);
    music/video appear only as **competitors'** business. Dated in-window expansion is four items — 500-pricing and
    out-of-print (Mar 1997), Gift Center and the second DC (Nov 1997) `(PB)` — all book-adjacent; the most-cited
-   1996 launch, the Associates Program, is **never dated in any filing**; and the company's own factor warns it
+   1996 launch, the Associates Program, is **never dated in any filing** (→ **U.112**, which registers the draft that
+   printed the month as "per the filings"); and the company's own factor warns it
    "may not benefit from the first-mover advantage" [S2E-07, S2E-44, S2A-69].
 6. **The margin decline is the price-led signature; the "improvement" is a denominator.** 22.0% → 19.5%;
    quarterly 22.00 → 18.75 → 18.95 → 19.53 `(PB)`; cause filed: "a combination of **lower prices** and lower

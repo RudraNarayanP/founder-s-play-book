@@ -406,7 +406,7 @@ both files. **AUDIT 5's anti-hagiography question: PASS.**
 
 | # | Attack | Lands? | Decision |
 |---|---|---|---|
-| A-B1 | Copies of one 1997 filing family counted as independent corroboration in 4 sites + 24 register records, against the volume's own l. 30 rule and method §3 | **YES** | Ruling required, not re-research: header governs; strike the "gain independence / genuinely corroborated" phrasing, re-key those records to `Corroboration: 1 (same-instrument duplicate)`. No confidence change (§3 grants High on a primary document) |
+| A-B1 | Copies of one 1997 filing family counted as independent corroboration in 4 sites + 24 register records, against the volume's own l. 30 rule and method §3 | **YES** | Ruling required, not re-research: header governs; strike the "gain independence / genuinely corroborated" phrasing, re-key those records to `Corroboration: 1 (same-instrument duplicate)`. No confidence change (§3 grants High on a primary document) **[A-B1 CLOSURE ADDENDUM, 2026-09-25 — the verdict and decision above are the auditor's and are unchanged; this marker only records that the attack has since been executed and closed on evidence. See "A-B1 CLOSURE ADDENDUM" at the foot of this sheet.]** |
 | A-B2 | The directory/credibility efficacy question — the most-cited mechanism of the stage — has no canonical `U` block, and three pointers send it to an unrelated closed conflict | **YES** | Append U.43 (ids by appending only) carrying the conflict with both sides, weight, residual and confidence; re-point ll. 274/469/1075 there or at RD-029/RD-040 |
 | A-B3 | The only in-window external census (3,084 Mosaic entries) is one 2026-retrieved third-party mirror, and its *absence* findings bound a channel claim | **Partly** | Survives on the record: `Corroboration: 1` in the register, the null already INFERENCE/Medium with "not absence in the market", and §H l. 442's "evidence about the technology, not the company". Add one clause at §T: completeness of the mirror is untested |
 | A-B4 | §C.1 states the founders' problem from a 1997 prospectus's teleology at FACT/High with no RETRO at the site | **Partly** | Tag it. The condition/intention distinction is already drawn at §N l. 710 and U.19 |
@@ -428,7 +428,7 @@ both files. **AUDIT 5's anti-hagiography question: PASS.**
 | F-3 | `validation.csv` r9 | "That a two-person firm **could earn** editorial distribution…" | "That the company *claimed* editorial placement…; effect UNKNOWN" | register twin of F-2; contradicts `channels.csv` rows 2–3 | S1701 self-report |
 | F-4 | `stage_1.md` §O.7 ll. 770–775 | "…directory placement, … tiered discounting — not chronology" | name the evidenced items; move placement to the channel list; print the advertised 10–40% band | unmeasured channel inside "the evidence supports"; "tiered discounting" reads toward the barred March-1997 program | ll. 274, 346–348, 462–476; U.18 |
 | F-5 | `stage_1.md` ll. 274, 469, 1075 | three "→ U.41" pointers | append **U.43** for channel/credibility efficacy, or re-point to RD-029/RD-040; **do not renumber** | no canonical U block adjudicates the question; the pointer implies it is closed | `U_CONCORDANCE.md`; ll. 2086–2100 |
-| A-B1 | `stage_1.md` ll. 417, 532, 1126, 1202; appendix ll. 406–407; 24 claim records | "genuinely corroborated" / "corroboration 2" by separate accession | "restated across accessions of **one** filing family — one instrument; version evidence, not corroboration"; `Corroboration: 1 (same-instrument duplicate)` | contradicts l. 30–31 and method §3; the volume already applies the correct rule at l. 555 | ll. 30–31, 555, 852 (P69 "amendment-stage addition, NOT corroboration") |
+| A-B1 | `stage_1.md` ll. 417, 532, 1126, 1202; appendix ll. 406–407; 24 claim records | "genuinely corroborated" / "corroboration 2" by separate accession | "restated across accessions of **one** filing family — one instrument; version evidence, not corroboration"; `Corroboration: 1 (same-instrument duplicate)` | contradicts l. 30–31 and method §3; the volume already applies the correct rule at l. 555 | ll. 30–31, 555, 852 (P69 "amendment-stage addition, NOT corroboration") **[A-B1 CLOSURE ADDENDUM, 2026-09-25 — row above unchanged; the site list in this row is the auditor's 2026-09-23 reading and those line numbers have since shifted, so anchor on the row IDs. The remediation is complete and the one-instrument premise is now proved rather than stipulated: see "A-B1 CLOSURE ADDENDUM" at the foot of this sheet.]** |
 | A-B4 | `stage_1.md` §C.1 l. 223 | `[T1 · FACT]` / High | add "`RETRO` for the founding motive: the filing evidences the **condition**, not the **intention**" | a 1997 teleology populating §C without the tag the rest of the volume applies | l. 253; U.19; §N ll. 694–701 |
 | A8 | Titles/labels, both files | "1994 **idea formation** → 1995-12-31" | "1994-07-05 → 1995-12-31 (spring-1994 ideation carried as retrospective pre-history inside the stage)" — or keep and accept the note at §H l. 434 extended to the title | names the boundary after the one event no document attests | ll. 52–58, 88, 1009; appendix ll. 17–23 |
 | minor | appendix §A l. 93 | "a channel a quarter of households could reach" | "a channel only a quarter of households even owned a PC to reach (access share for 1995 is UNKNOWN)" | PC ownership used as an access figure at one site without the proxy label | l. 446; appendix ll. 114–120 |
@@ -474,3 +474,57 @@ carry the retrieval, and RD-027 (the 1995 releases' re-save) is the only item wh
 verdict. **Rounding up would buy a clean sheet on a volume that still cannot say, in one place, whether a
 directory listing produced an order.** No auditor other than this one edited anything, and this one edited
 nothing; no corpus file was created, moved, tidied or deleted.
+
+---
+
+## A-B1 CLOSURE ADDENDUM — appended 2026-09-25 by the AUDIT-7 repair pass
+
+**This sheet's own text was not edited.** Every verdict line above — "**Lands? YES**" at l. 409, the site list and
+`Was`/`Required` columns at l. 431 — stands exactly as this auditor wrote it on 2026-09-23. Two dated markers were
+appended inside those two rows pointing here; nothing was deleted, softened or re-adjudicated. This section exists
+because AUDIT 7 (`audit7_stage1_recertification.md`, item 12 and residual 2) found the attack closed in the corpus
+while this register still read as unresolved, and asked for the sheet to be **corrected by addition**.
+
+**Status: A-B1 is CLOSED ON EVIDENCE, not on paper.** The ruling this sheet demanded — "Ruling required, not
+re-research" — was executed without a single web request, and the premise A-B1 rested on is now *proved* from
+documents already cached locally rather than stipulated by project convention:
+
+- **The proof block:** `stage_1.md` ll. 62–73 ("THE PREMISE IS PROVED FROM THE CACHED FILINGS, NOT STIPULATED …
+  this is what closes A-B1") and the same proof tabulated at `CORRECTIONS.md` ll. 279–304 (COR-12's closure note;
+  it ran to l. 301 before this pass appended its row R11 count correction inside that note, which is what moved the
+  foot to l. 304 — the proof table itself, ll. 287–293, did not move).
+- **What it proves:** the original S-1, S-1/A No. 3, S-1/A No. 5, the 424B1 and the FY1997 10-K405 are one
+  registration statement, so agreement across them is version evidence and not corroboration (method §3).
+- **Independent re-verification:** AUDIT 7 re-read all eleven citations in that block against `sources/` and every
+  one landed on the line claimed — original ll. 49, 77; No. 3 ll. 49, 79, 5112; No. 5 ll. 49, 70, 79, 5106, with
+  EX-23.1 at l. 5091; 424B1 ll. 66, 92; 10-K405 ll. 2913, 3105.
+
+**The consequences were executed, not described.** `Corroboration:` re-keyed on 49 record-level fields
+(`stage_1_claim_records.md` ll. 584–618, the last eleven of which are the AUDIT-7 repair pass's census-convention
+note): **K04 3 → 1**, **L01 4 → 2**, **P01 3 → 1**, plus the earlier 22-record
+lineage re-key; **M05** and **L06** left standing at 3, each with its reason on the record. `corroboration 2 → 1`
+at `context_appendices.md` l. 407; the two `sources.csv` notes that asserted "DO GAIN INDEPENDENCE" rewritten to
+say the opposite (S0801 l. 51, S0803 l. 53); three §T rows demoted; COR-12's generating instruction withdrawn in
+place at `CORRECTIONS.md` ll. 259, 262–277. **Zero confidence changes** anywhere in the corpus, verified field by
+field by AUDIT 7 across `HEAD~5 → HEAD`.
+
+**One count reconciled.** This sheet says "24 register records" / "24 claim records" (ll. 409, 431) and the repair
+pass says "22 records" (`stage_1.md` ll. 40–48). Both are true of different populations and are now stated as such:
+**22** records carry the first-round long-form re-key (`1 (same lineage as S0801 — re-keyed 2026-09-24, …)`), and
+**2** more — **K04** and **P01** — were re-keyed in the later AUDIT-6 addendum with the short form
+`1 (same lineage as S0801)`, giving **24** records at a same-lineage value in total. Verify with:
+`grep -c "Corroboration: 1 (same lineage as S0801 — re-keyed" stage_1_claim_records.md` → 22; add the short form → 24.
+
+**One clause of the closure over-reached and is corrected in the corpus, not here.** This auditor's successor
+AUDIT 7 found that `stage_1.md` l. 63 claimed every member of the lineage carries 333-23795 "**on its own face**".
+That is true of the four S-1-family documents (`SEC FILE NUMBER: 333-23795` at original/No. 3/No. 5 l. 49 and
+424B1 l. 66) and **false of the FY1997 10-K405**, whose own face number is `SEC FILE NUMBER: 000-22513`
+(`sources/10-K_FY1997_acc-0000891020-98-000448_filed-1998-03-30.txt` l. 50) and in which 333-23795 occurs exactly
+twice, inside the exhibit index's incorporation-by-reference notes at ll. 2913 and 3105. The itemised table row for
+the 10-K405 in the proof block was honest about this from the start — only the umbrella clause over-reached — and
+the clause has been narrowed in place. **This does not disturb A-B1's closure:** incorporation by reference is the
+stronger fact for the lineage point, not the weaker one, and the count of documents in the family is unchanged.
+
+**Residual, for the sheet owner, not reopened:** the "Lands? YES" verdict at l. 409 is left standing as written
+because an attack register is not retro-adjudicated. What has changed is that its premise is now proved and its
+remediation complete; a reader of this sheet should take the ruling as **executed and closed**, per this addendum.

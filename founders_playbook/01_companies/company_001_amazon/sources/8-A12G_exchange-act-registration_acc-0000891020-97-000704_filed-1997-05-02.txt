@@ -1,0 +1,392 @@
+==============================================================================
+PROVENANCE HEADER -- added by the Stage-3 Evidence Registrar (post-IPO filing intake)
+Retrieval date (access date) : 2026-09-25
+Original URL                 : https://www.sec.gov/Archives/edgar/data/1018724/0000891020-97-000704.txt
+HTTP status on retrieval     : 200
+Document                     : Form 8-A12G, complete submission (all 2 documents inline) -- FORM 8-A
+SEC CIK                      : 1018724 (AMAZON COM INC)
+Accession no.                : 0000891020-97-000704
+Filing date per EDGAR        : 1997-05-02   (SEC-HEADER FILED AS OF DATE: 19970502 -- agrees)
+Conformed submission type    : 8-A12G   Securities Exchange Act File No.: 000-22513
+Period of report             : n/a
+Bytes of retrieved body      : 16,274
+Body completeness            : COMPLETE -- terminates in </SEC-DOCUMENT>; 2 <DOCUMENT> blocks, types: 8-A12G, EX-3
+Request headers used         : User-Agent: FounderPlaybook Research AdminContact@example.com | Accept-Encoding: identity | Referer: https://www.sec.gov/
+Body encoding on wire        : identity (no compression negotiated); saved exactly as received
+Located via                  : https://data.sec.gov/submissions/CIK0001018724-submissions-002.json (pre-2000 slice, 1997-03-24 -> 2000-01-04); row form=8-A12G filingDate=1997-05-02 primaryDocDescription='FORM 8-A'
+Component documents (DESCRIPTION per EDGAR):
+      - FORM 8-A
+      - PAGES 44 & 45 OF THE PROSPECTUS
+==============================================================================
+
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ K53dsO8bDquVFdC/rZNKJxZqBu/b792GE0v19ki3/oTB/MOJxcPMPV2nUGDWdATI
+ KC7/mvj3ORNLxk4D9V7Dhw==
+
+<SEC-DOCUMENT>0000891020-97-000704.txt : 19970505
+<SEC-HEADER>0000891020-97-000704.hdr.sgml : 19970505
+ACCESSION NUMBER:		0000891020-97-000704
+CONFORMED SUBMISSION TYPE:	8-A12G
+PUBLIC DOCUMENT COUNT:		2
+FILED AS OF DATE:		19970502
+SROS:			NONE
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AMAZON COM INC
+		CENTRAL INDEX KEY:			0001018724
+		STANDARD INDUSTRIAL CLASSIFICATION:	BOOKS: PUBLISHING OR PUBLISHING AND PRINTING [2731]
+		IRS NUMBER:				911646860
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		8-A12G
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-22513
+		FILM NUMBER:		97594825
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1516 SECOND AVE 4TH FLOOR
+		STREET 2:		PO BOX 80387
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+		BUSINESS PHONE:		2066222335
+
+	MAIL ADDRESS:	
+		STREET 1:		PO BOX 80387
+		STREET 2:		1516 SECOND AVE 4TH FLOOR
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-A12G
+<SEQUENCE>1
+<DESCRIPTION>FORM 8-A
+<TEXT>
+
+<PAGE>   1
+
+
+                       SECURITIES AND EXCHANGE COMMISSION
+
+                             WASHINGTON, D.C. 20549
+
+
+
+                                    FORM 8-A
+
+
+
+                    FOR REGISTRATION OF CERTAIN CLASSES OF SECURITIES
+                    PURSUANT TO SECTION 12(b) OR 12(b) OF THE
+                         SECURITIES EXCHANGE ACT OF 1934
+
+
+                                AMAZON.COM, INC.
+                   ------------------------------------------
+             (Exact name of Registrant as specified in its charter)
+
+                Delaware                                 91-1646860
+- -----------------------------------------  -------------------------------------
+(State of incorporation or organization)    (I.R.S. Employer Identification No.)
+
+
+     1516 Second Avenue, 4th Floor
+          Seattle, Washington                               98101
+- -----------------------------------------  -------------------------------------
+(Address of principal executive offices)                 (Zip Code)
+
+
+
+
+If this Form relates to the            If this Form relates to the registration
+registration of a class of debt        of a class of debt securities and is to 
+securities and is effective upon       become effective simultaneously with the
+filing pursuant to General             effectiveness of a concurrent           
+Instruction A(c)(1) please check       registration statement under the        
+the following box.       [ ]           Securities Act of 1933 pursuant to      
+                                       General Instruction A(c)(2) please check
+                                       the following box.      [ ]             
+                                             
+
+Securities to be registered pursuant to Section 12(b) of the Act:
+
+           Title of Each Class                   Name of Each Exchange on Which
+           to be so Registered                   Each Class is to be Registered
+           -------------------               -----------------------------------
+
+                  None
+
+Securities to be registered pursuant to Section 12(g) of the Act:
+
+                     Common Stock, $0.01 par value per share
+                   ------------------------------------------
+                                (Title of Class)
+
+
+
+
+                                   Page 1 of 3
+                             Exhibit Index on Page 3
+
+
+<PAGE>   2
+
+
+
+
+ITEM 1.        DESCRIPTION OF REGISTRANT'S SECURITIES TO BE REGISTERED
+
+        For a description of the Common Stock being registered, reference is
+made to the section entitled "Description of Capital Stock" included in the
+Prospectus (the "Prospectus") dated April 21, 1996 contained in the Registrant's
+Registration Statement on Form S-1, File No. 333-23795, filed with the
+Securities and Exchange Commission on March 24, 1997, as amended (the
+"Registration Statement"). A copy of pages 44 and 45 of the Prospectus are
+attached as Exhibit 3 to this filing pursuant to Rule 12b-23 under the
+Securities Exchange Act of 1934, as amended.
+
+ITEM 2.        EXHIBITS
+
+        The following exhibits are filed as a part of this Registration
+Statement:
+
+<TABLE>
+<CAPTION>
+Exhibit No.            Description
+- -------------------    -----------------------------------------------------------------------
+
+       <S>             <C>  
+       1               Restated Certificate of Incorporation of the Registrant.
+                       (Incorporated by reference to Exhibit 3.1 to the Registration
+                       Statement.)
+
+       2               Bylaws of the Registrant. (Incorporated by reference to Exhibit 3.2
+                       to the Registration Statement.)
+
+       3               Pages 44 and 45 of the Prospectus.
+</TABLE>
+
+
+        Pursuant to the requirements of Section 12 of the Securities Exchange
+Act of 1934, as amended, the Registrant has duly caused this Registration
+Statement to be signed on its behalf by the undersigned, thereunto duly
+authorized.
+
+                                AMAZON.COM, INC.
+
+
+                                /s/ Joy D. Covey
+                                ------------------------------------------------
+                                    Joy D. Covey
+                                    Chief Financial Officer, 
+                                    Vice President of Finance
+                                    and Administration, Treasurer and Secretary
+
+
+Dated:  May 2, 1997
+
+
+
+
+                                  Page 2 of 3
+<PAGE>   3
+
+
+<TABLE>
+<CAPTION>
+                                  EXHIBIT INDEX
+
+Exhibit No.     Description                                                       Sequential
+- -----------     -----------                                                       Page No.
+                                                                                  --------
+
+<S>    <C>      <C>                                                               <C>        
+       1        Restated Certificate of Incorporation of the Registrant.             --
+                (Incorporated by reference to Exhibit 3.1 to the Registration
+                Statement.)
+
+       2        Bylaws of the Registrant.  (Incorporated by reference to             --
+                Exhibit 3.2 to the Registration Statement.)
+
+       3        Pages 44 and 45 of the Prospectus.                                  Filed
+                                                                                  herewith
+</TABLE>
+
+
+                                  Page 3 of 3
+
+
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-3
+<SEQUENCE>2
+<DESCRIPTION>PAGES 44 & 45 OF THE PROSPECTUS
+<TEXT>
+
+<PAGE>   1
+ 
+                          DESCRIPTION OF CAPITAL STOCK
+ 
+     The authorized capital stock of the Company consists of 100,000,000 shares
+of Common Stock, $0.01 par value per share, and 10,000,000 shares of Preferred
+Stock, $0.01 par value per share. The following summary of certain provisions of
+the Common Stock and Preferred Stock does not purport to be complete and is
+subject to, and qualified in its entirety by, the provisions of the Company's
+Restated Certificate of Incorporation, which is included as an exhibit to the
+Registration Statement of which this Prospectus is a part, and by the provisions
+of applicable law.
+ 
+COMMON STOCK
+ 
+     As of March 31, 1997, there were 17,352,406 shares of Common Stock
+outstanding held of record by 66 stockholders. There will be 23,298,782 shares
+of Common Stock outstanding (assuming no exercise of the Underwriters'
+over-allotment option and no exercise of outstanding options) after giving
+effect to the sale of Common Stock offered to the public hereby. The holders of
+Common Stock are entitled to one vote for each share held of record on all
+matters submitted to a vote of stockholders. See "Risk Factors -- Control of the
+Company." Subject to preferences that may be applicable to any outstanding
+shares of Preferred Stock, the holders of Common Stock are entitled to receive
+ratably such dividends, if any, as may be declared by the Board of Directors out
+of funds legally available for the payment of dividends. See "Dividend Policy."
+In the event of a liquidation, dissolution or winding up of the Company, the
+holders of Common Stock are entitled to share ratably in all assets remaining
+after payment of liabilities and liquidation preferences of any outstanding
+shares of Preferred Stock. Holders of Common Stock have no preemptive rights or
+rights to convert their Common Stock into any other securities. There are no
+redemption or sinking fund provisions applicable to the Common Stock. All
+outstanding shares of Common Stock are fully paid and nonassessable, and the
+shares of Common Stock to be issued upon completion of this offering will be
+fully paid and nonassessable.
+ 
+PREFERRED STOCK
+ 
+     Upon the closing of this offering, all outstanding shares of Preferred
+Stock will be converted into 3,446,376 shares of Common Stock. Thereafter,
+pursuant to the Company's Restated Certificate of Incorporation, the Board of
+Directors will have the authority, without further action by the stockholders,
+to issue up to 10,000,000 shares of Preferred Stock in one or more series and to
+fix the designations, powers, preferences, privileges and relative,
+participating, optional or special rights and the qualifications, limitations or
+restrictions thereof, including dividend rights, conversion rights, voting
+rights, terms of redemption and liquidation preferences, any or all of which may
+be greater than the rights of the Common Stock. The Board of Directors, without
+stockholder approval, can issue Preferred Stock with voting, conversion or other
+rights that could adversely affect the voting power and other rights of the
+holders of Common Stock. Preferred Stock could thus be issued quickly with terms
+calculated to delay or prevent a change in control of the Company or make
+removal of management more difficult. Additionally, the issuance of Preferred
+Stock may have the effect of decreasing the market price of the Common Stock,
+and may adversely affect the voting and other rights of the holders of Common
+Stock. The Company has no plans to issue any Preferred Stock.
+ 
+ANTITAKEOVER EFFECTS OF CERTAIN PROVISIONS OF RESTATED CERTIFICATE OF
+INCORPORATION AND WASHINGTON LAW
+ 
+     As noted above, the Company's Board of Directors, without stockholder
+approval, has the authority under the Company's Restated Certificate of
+Incorporation to issue Preferred Stock with rights superior to the rights of the
+holders of Common Stock. As a result, Preferred Stock could be issued quickly
+and easily, could adversely affect the rights of holders of Common Stock and
+could be issued with terms calculated to delay or prevent a change in control of
+the Company or make removal of management more difficult.
+ 
+     The laws of the State of Washington, where the Company's principal
+executive offices are located, impose restrictions on certain transactions
+between certain foreign corporations and significant stockholders. Chapter
+23B.19 of the Washington Business Corporation Act (the "WBCA") prohibits a
+"Target Corporation," with certain exceptions, from engaging in certain
+"Significant Business Transactions" with a person or group of persons which
+beneficially owns
+ 
+                                       44
+<PAGE>   2
+ 
+10% or more of the voting securities of the Target Corporation (an "Acquiring
+Person") for a period of five years after such acquisition, unless the
+transaction or acquisition of shares is approved by a majority of the members of
+the Target Corporation's board of directors prior to the time of acquisition.
+Such prohibited transactions include, among other things, a merger or
+consolidation with, disposition of assets to, or issuance or redemption of stock
+to or from, the Acquiring Person, termination of 5% or more of the employees of
+the Target Corporation as a result of the Acquiring Person's acquisition of 10%
+or more of the shares or allowing the Acquiring Person to receive any
+disproportionate benefit as a stockholder. After the five-year period, a
+Significant Business Transaction may take place as long as it complies with
+certain fair price provisions of the statute. A Target Corporation includes a
+foreign corporation if (i) the corporation has a class of voting stock
+registered pursuant to Section 12 or 15 of the Securities Exchange Act of 1934,
+as amended, (ii) the corporation's principal executive office is located in
+Washington State, (iii) any of (a) more than 10% of the corporation's
+stockholders of record are Washington residents, (b) more than 10% of its shares
+of record are owned by Washington residents, or (c) 1,000 or more of its
+stockholders of record are Washington residents, (iv) a majority of the
+corporation's employees are Washington residents or more than 1,000 Washington
+residents are employees of the corporation, and (v) a majority of the
+corporation's tangible assets are located in Washington State or the corporation
+has more than $50 million of tangible assets located in Washington State. A
+corporation may not "opt out" of this statute. Depending upon whether the
+Company meets the definition of a Target Corporation, Chapter 23B.19 of the WBCA
+may have the effect of delaying, deferring or preventing a change in control of
+the Company.
+ 
+     Although Section 203 of the DGCL generally prohibits Delaware corporations
+from engaging in certain "Business Combinations" (as defined therein) with
+certain "Interested Stockholders" (as defined therein) for a period of three
+years unless certain criteria are met, the Company has expressly elected in its
+Restated Certificate of Incorporation not to be governed by Section 203 of the
+DGCL.
+ 
+REGISTRATION RIGHTS
+ 
+     Pursuant to an agreement among the Company, Mr. Bezos, who is the holder of
+9,885,000 shares of Common Stock (the "Common Holder"), and two holders of
+566,896 shares of Series A Preferred Stock in the aggregate which are
+convertible into 3,401,376 shares of Common Stock (the "Preferred Holders"), the
+Common Holder and the Preferred Holders are entitled to certain rights with
+respect to the registration of such shares under the Securities Act. If the
+Company proposes to register any of its securities under the Securities Act,
+either for its own account or for the account of other security holders, the
+Common Holder and the Preferred Holders are entitled to notice of such
+registration and to include shares of Common Stock in such registration at the
+Company's expense. Additionally, the Preferred Holders are entitled to certain
+demand registration rights pursuant to which they may require the Company to
+file a registration statement under the Securities Act at the Company's expense
+with respect to their shares of Common Stock, and the Company is required to use
+its commercially reasonable efforts to effect such registration (a "Requested
+Registration"). Further, the Preferred Holders may require the Company to file
+additional registration statements on Form S-3 at the expense of the Preferred
+Holders. All of these registration rights are subject to certain conditions and
+limitations, among them the right of the underwriters of an offering to limit
+the number of shares included in such registration and the right of the Company
+not to effect a Requested Registration before the earlier of (a) one year after
+the offering made hereby and (b) June 21, 1999.
+ 
+TRANSFER AGENT AND REGISTRAR
+ 
+     The transfer agent and registrar for the Common Stock is ChaseMellon
+Shareholder Services, Ridgefield Park, New Jersey.
+ 
+NASDAQ NATIONAL MARKET LISTING
+ 
+     Application has been made to have the Common Stock listed for quotation on
+the Nasdaq National Market under the symbol "AMZN."
+ 
+                                       45
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

@@ -1,0 +1,9 @@
+HTTP/1.1 308 Permanent Redirect
+Date: Fri, 25 Sep 2026 12:30:09 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Location: https://www.loc.gov/chroniclingamerica/newspapers.json
+Server: cloudflare
+CF-RAY: a40a09dadebe3460-HYD
+

@@ -1,0 +1,3136 @@
+==============================================================================
+PROVENANCE HEADER -- added by the Stage-3 Evidence Registrar (post-IPO filing intake)
+Retrieval date (access date) : 2026-09-25
+Original URL                 : https://www.sec.gov/Archives/edgar/data/1018724/0000891020-99-000805.txt
+HTTP status on retrieval     : 200
+Document                     : Form 8-K, complete submission (all 3 documents inline) -- FORM 8-K
+SEC CIK                      : 1018724 (AMAZON COM INC)
+Accession no.                : 0000891020-99-000805
+Filing date per EDGAR        : 1999-05-12   (SEC-HEADER FILED AS OF DATE: 19990512 -- agrees)
+Conformed submission type    : 8-K   Securities Exchange Act File No.: 000-22513
+Period of report             : 1999-04-26
+Bytes of retrieved body      : 176,560
+Body completeness            : COMPLETE -- terminates in </SEC-DOCUMENT>; 3 <DOCUMENT> blocks, types: 8-K, EX-23.1, EX-23.2
+Request headers used         : User-Agent: FounderPlaybook Research AdminContact@example.com | Accept-Encoding: identity | Referer: https://www.sec.gov/
+Body encoding on wire        : identity (no compression negotiated); saved exactly as received
+Located via                  : https://data.sec.gov/submissions/CIK0001018724-submissions-002.json (pre-2000 slice, 1997-03-24 -> 2000-01-04); row form=8-K filingDate=1999-05-12 primaryDocDescription='FORM 8-K'
+Component documents (DESCRIPTION per EDGAR):
+      - FORM 8-K
+      - CONSENT OF PRICEWATERHOUSECOOPERS LLP
+      - CONSENT OF PRICEWATERHOUSECOOPERS LLP
+==============================================================================
+
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ HFbvH1j3ctKRF6TpuXi+Jz0i9G95HKw7MaMx7kcD05VogtqdKyIMiVFX4oDrShx2
+ FO12T+VeaVlg7pDJrxAGRg==
+
+<SEC-DOCUMENT>0000891020-99-000805.txt : 19990513
+<SEC-HEADER>0000891020-99-000805.hdr.sgml : 19990513
+ACCESSION NUMBER:		0000891020-99-000805
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		3
+CONFORMED PERIOD OF REPORT:	19990426
+ITEM INFORMATION:		
+FILED AS OF DATE:		19990512
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AMAZON COM INC
+		CENTRAL INDEX KEY:			0001018724
+		STANDARD INDUSTRIAL CLASSIFICATION:	RETAIL-CATALOG & MAIL-ORDER HOUSES [5961]
+		IRS NUMBER:				911646860
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		
+		SEC FILE NUMBER:	000-22513
+		FILM NUMBER:		99617598
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1516 SECOND AVE 4TH FLOOR
+		STREET 2:		PO BOX 80387
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+		BUSINESS PHONE:		2066222335
+
+	MAIL ADDRESS:	
+		STREET 1:		PO BOX 80387
+		STREET 2:		1516 SECOND AVE 4TH FLOOR
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<DESCRIPTION>FORM 8-K
+<TEXT>
+
+<PAGE>   1
+                       SECURITIES AND EXCHANGE COMMISSION
+
+                             WASHINGTON, D.C. 20549
+
+
+
+
+
+                                    FORM 8-K
+
+                                 CURRENT REPORT
+
+
+                     PURSUANT TO SECTION 13 OR 15(d) OF THE
+                         SECURITIES EXCHANGE ACT OF 1934
+
+
+
+                                 APRIL 26, 1999
+
+                                 DATE OF REPORT
+                        (DATE OF EARLIEST EVENT REPORTED)
+
+
+
+                                AMAZON.COM, INC.
+
+               (EXACT NAME OF REGISTRANT AS SPECIFIED IN CHARTER)
+
+
+          DELAWARE                   000-22513                  91-1646860
+- ----------------------------  ------------------------     -------------------
+(State or Other Jurisdiction   (Commission File No.)          (IRS Employer
+     of Incorporation)                                      Identification No.)
+
+                  1516 SECOND AVENUE, SEATTLE, WASHINGTON 98101
+
+          (ADDRESS OF PRINCIPAL EXECUTIVE OFFICES, INCLUDING ZIP CODE)
+
+                                 (206) 622-2335
+
+              (REGISTRANT'S TELEPHONE NUMBER, INCLUDING AREA CODE)
+
+
+
+
+
+<PAGE>   2
+ITEM 5. OTHER EVENTS
+
+PENDING TRANSACTIONS
+
+ALEXA INTERNET
+
+On April 24, 1999, Amazon.com, Inc., a Delaware corporation ("Amazon.com"), AI
+Acquisitions, Inc., a Washington corporation and wholly owned subsidiary of
+Amazon.com, Alexa Internet, a California corporation ("Alexa"), and Brewster
+Kahle, the President and Chief Executive Officer of Alexa, entered into a
+definitive Agreement and Plan of Merger (the "Alexa Merger Agreement"). Pursuant
+to the Alexa Merger Agreement, and subject to the terms and conditions thereof,
+Amazon.com will acquire all of the capital stock and assume all outstanding
+options of Alexa (the "Alexa Merger"). The Alexa Merger will be accounted for
+under the purchase method of accounting.
+
+Amazon.com will issue shares of its common stock, par value $.01 per share
+("Amazon.com Common Stock"), totaling approximately $250 million.
+
+EXCHANGE.COM
+
+On April 24, 1999, Amazon.com, Amazon.com Auctions, Inc., a Delaware corporation
+and wholly owned subsidiary of Amazon.com, e-Niche Incorporated, a Delaware
+corporation ("e-Niche Incorporated" or "Exchange.com"), and all of the
+stockholders of Exchange.com, entered into a definitive Agreement and Plan of
+Merger (the "Exchange.com Merger Agreement"). Pursuant to the Exchange.com
+Merger Agreement, and subject to the terms and conditions thereof, Amazon.com
+will acquire all of the capital stock and assume all outstanding options of
+Exchange.com (the "Exchange.com Merger"). The Exchange.com Merger will be
+accounted for under the purchase method of accounting.
+
+Amazon.com will issue shares of Amazon.com Common Stock and pay approximately $4
+million of cash, with an aggregate value of approximately $200 million, assuming
+that all conditions have been met and assuming that $50 million of contingent
+consideration is paid to by stockholders and certain option holders as a result
+of the continued employment of certain employees. 
+
+The Alexa Merger and Exchange.com Merger are subject to various conditions. It
+is anticipated that the Alexa Merger and Exchange.com Merger will be consummated
+in the second quarter of 1999.
+
+
+FINANCIAL STATEMENTS, PRO FORMA FINANCIAL INFORMATION AND EXHIBITS
+
+        (a)     Financial Statements of Businesses To Be Acquired
+
+
+                     Alexa Audited Financial Statements:
+
+                     (i)     Report of PricewaterhouseCoopers LLP, dated 
+                             April 23, 1999
+
+                     (ii)    Alexa Internet (A Development Stage Company)
+                             Balance Sheets as of December 31, 1998 and 1997
+
+                     (iii)   Alexa Internet (A Development Stage Company)
+                             Statements of Operations for the years ended 
+                             December 31, 1998 and 1997 and for the cumulative
+                             period from February 14, 1996 (inception) to 
+                             December 31, 1998
+
+                     (iv)    Alexa Internet (A Development Stage Company)
+                             Statement of Stockholders' Equity (Deficit) for the
+                             period from February 14, 1996 (inception) to
+                             December 31, 1998
+
+                     (v)     Alexa Internet (A Development Stage Company)
+                             Statements of Cash Flows for the years ended 
+                             December 31, 1998 and 1997 and for the cumulative
+                             period from February 14, 1996 (inception) to 
+                             December 31, 1998
+
+                     (vi)    Alexa Internet (A Development Stage Company) Notes
+                             to Financial Statements
+
+                     e-Niche Incorporated Audited Financial Statements:
+
+                     (i)     Report of PricewaterhouseCoopers LLP, dated May 3,
+                             1999
+
+                     (ii)    e-Niche Incorporated (a development stage
+                             enterprise) Balance Sheet as of December 31, 1998
+                             and 1997
+
+                     (iii)   e-Niche Incorporated (a development stage
+                             enterprise) Statement of Operations for the year
+                             ended December 31, 1998, for the period from
+                             inception (July 29, 1997) through December 31, 1997
+                             and for the period from inception (July 29, 1997)
+                             through December 31, 1998
+
+                     (iv)    e-Niche Incorporated (a development stage
+                             enterprise) Statement of Changes in Stockholders'
+                             Equity (Deficit) for the period from inception
+                             (July 29, 1997) through December 31, 1998
+
+                     (v)     e-Niche Incorporated (a development stage
+                             enterprise) Statement of Cash Flows for the year
+                             ended December 31, 1998, for the period from
+                             inception (July 29, 1997) through December 31, 1997
+                             and for the period from inception (July 29, 1997)
+                             through December 31, 1998
+
+                     (vi)    e-Niche Incorporated (a development stage
+                             enterprise) Notes to Financial Statements
+
+
+
+<PAGE>   3
+                        Alexa Internet Condensed Financial Statements 
+                        (unaudited):
+
+                        (i)     Alexa Internet (A Development Stage Company)
+                                Condensed Balance Sheets as of March 31, 1999
+                                (unaudited) and December 31, 1998
+
+                        (ii)    Alexa Internet (A Development Stage Company)
+                                Condensed Statements of Operations for the three
+                                month periods ended March 31, 1999 and 1998
+                                (unaudited) and for the cumulative period from
+                                February 14, 1996 (inception) to March 31, 1999
+                                (unaudited)
+
+                        (iii)   Alexa Internet (A Development Stage Company)
+                                Condensed Statements of Cash Flows for the three
+                                month periods ended March 31, 1999 and 1998
+                                (unaudited) and for the cumulative period from
+                                February 14, 1996 (inception) to March 31, 1999
+                                (unaudited)
+
+                        (iv)    Alexa Internet (A Development Stage Company)
+                                Notes to Condensed Financial Statements 
+
+                        e-Niche Incorporated Condensed Consolidated Financial
+                        Statements (unaudited):
+
+                        (i)     e-Niche Incorporated (a development stage
+                                enterprise) Condensed Consolidated Balance Sheet
+                                as of March 31, 1999 (unaudited) and December
+                                31, 1998
+
+                        (ii)    e-Niche Incorporated (a development stage
+                                enterprise) Condensed Consolidated Statement of
+                                Operations for the three month periods ended
+                                March 31, 1999 and 1998 (unaudited) and for the
+                                period from inception (July 29, 1997) through
+                                March 31, 1999 (unaudited)
+
+                        (iii)   e-Niche Incorporated (a development stage
+                                enterprise) Condensed Consolidated Statement of
+                                Cash Flows for the three month periods ended
+                                March 31, 1999 and 1998 (unaudited) and for the
+                                period from inception (July 29, 1997) through
+                                March 31, 1999 (unaudited)
+
+                        (iv)    e-Niche Incorporated (a development stage
+                                enterprise) Notes to Condensed Consolidated
+                                Financial Statements (unaudited)
+
+        (b)     Pro Forma Financial Information
+
+                        Pro Forma Combined Condensed Consolidated Financial
+                        Statements (unaudited):
+
+                        (i)     Pro Forma Combined Condensed Consolidated
+                                Balance Sheet as of March 31, 1999 (unaudited)
+
+                        (ii)    Pro Forma Combined Condensed Consolidated
+                                Statement of Operations for the three month
+                                period ended March 31, 1999 (unaudited)
+
+                        (iii)   Pro Forma Combined Condensed Consolidated
+                                Statement of Operations for the year ended
+                                December 31, 1998 (unaudited)
+
+                        (iv)    Notes to Pro Forma Combined Condensed
+                                Consolidated Financial Statements (unaudited)
+
+        (c)     Exhibits
+
+                        23.1    Consent of PricewaterhouseCoopers LLP, 
+                                Independent Accountants
+
+                        23.2    Consent of PricewaterhouseCoopers LLP,
+                                Independent Accountants
+
+<PAGE>   4
+
+
+
+                        REPORT OF INDEPENDENT ACCOUNTANTS
+
+
+To the Board of Directors and Stockholders of
+Alexa Internet
+
+
+In our opinion, the accompanying balance sheets and the related statements of
+operations, of stockholders' equity (deficit) and of cash flows present fairly,
+in all material respects, the financial position of Alexa Internet (a
+development stage company) as of December 31, 1998 and 1997, and the results of
+its operations and its cash flows for the years then ended, and for the
+cumulative period from February 14, 1996 (inception) to December 31, 1998, in
+conformity with generally accepted accounting principles. These financial
+statements are the responsibility of the Company's management; our
+responsibility is to express an opinion on these financial statements based on
+our audits. We conducted our audits of these financial statements in accordance
+with generally accepted auditing standards which require that we plan and
+perform the audit to obtain reasonable assurance about whether the financial
+statements are free of material misstatement. An audit includes examining, on a
+test basis, evidence supporting the amounts and disclosures in the financial
+statements, assessing the accounting principles used and significant estimates
+made by management, and evaluating the overall financial statement presentation.
+We believe that our audits provide a reasonable basis for the opinion expressed
+above.
+
+
+
+PricewaterhouseCoopers LLP
+San Francisco, California
+April 23, 1999
+
+
+
+<PAGE>   5
+
+ALEXA INTERNET
+(A DEVELOPMENT STAGE COMPANY)
+BALANCE SHEETS
+DECEMBER 31, 1998 AND 1997
+- --------------------------------------------------------------------------------
+
+<TABLE>
+<CAPTION>
+                                                                                      1998                      1997
+                                                                                   -----------               -----------
+<S>                                                                                <C>                       <C>        
+Assets
+Current assets:
+  Cash and cash equivalents                                                        $   147,392               $   620,160
+  Marketable securities                                                              3,841,059                 2,598,867
+  Accounts receivable                                                                  164,267                        --
+  Other assets                                                                         171,920                    28,301
+                                                                                   -----------               -----------
+
+         Total current assets                                                        4,324,638                 3,247,328
+
+Property and equipment, net                                                            771,542                   701,273
+Other assets                                                                            15,608                    27,827
+                                                                                   -----------               -----------
+
+         Total assets                                                              $ 5,111,788               $ 3,976,428
+                                                                                   ===========               ===========
+
+Liabilities and Stockholders' Equity
+Current liabilities:
+  Accounts payable                                                                 $   238,102               $    80,796
+  Accrued liabilities                                                                  264,111                   137,432
+  Deferred revenue                                                                      54,632                        --
+  Notes payable, current portion                                                       309,461                   200,000
+                                                                                   -----------               -----------
+
+         Total current liabilities                                                     866,306                   418,228
+
+Notes payable, less current portion                                                    255,069                   300,000
+                                                                                   -----------               -----------
+
+         Total liabilities                                                           1,121,375                   718,228
+                                                                                   -----------               -----------
+
+Commitments (Note 6)
+
+Stockholders' equity:
+  Convertible preferred stock, no par value:  10,524,792 shares
+    authorized;  Series A, 10,524,792 shares
+    designated in 1998 and 1997; 10,524,792 and 5,277,396                            9,880,527                 4,828,072
+    shares issued and outstanding in 1998 and 1997, respectively;
+    liquidation preference $10,028,548
+  Common stock, no par value; 50,000,000 shares authorized;
+    16,175,086 and 16,037,794 shares issued and outstanding in 1998                  2,018,723                 1,484,154
+    and 1997, respectively
+  Treasury stock                                                                          (308)                     (421)
+  Preferred stock warrants                                                                  --                    52,474
+  Deferred stock compensation                                                         (502,602)                  (76,041)
+  Deficit accumulated during development stage                                      (7,531,389)               (3,074,045)
+  Accumulated other comprehensive income                                               125,462                    44,007
+                                                                                   -----------               -----------
+
+         Total stockholders' equity                                                  3,990,413                 3,258,200
+                                                                                   -----------               -----------
+
+                    Total liabilities and stockholders' equity                     $ 5,111,788               $ 3,976,428
+                                                                                   ===========               ===========
+</TABLE>
+
+
+
+
+   The accompanying notes are an integral part of these financial statements.
+
+
+<PAGE>   6
+
+ALEXA INTERNET
+(A DEVELOPMENT STAGE COMPANY)
+STATEMENTS OF OPERATIONS
+FOR THE YEARS ENDED DECEMBER 31, 1998 AND 1997 AND FOR THE CUMULATIVE PERIOD
+FROM FEBRUARY 14, 1996 (INCEPTION) TO DECEMBER 31, 1998
+- --------------------------------------------------------------------------------
+
+<TABLE>
+<CAPTION>
+                                                                                                              Period from
+                                                                                                              February 14
+                                                                                                                  1996
+                                                                                                             (inception) to
+                                                                                                               December 31,
+                                                               1998                     1997                      1998
+                                                           -----------               -----------               ----------- 
+<S>                                                        <C>                       <C>                       <C>        
+Revenue                                                    $   372,159               $        --               $   372,159
+                                                           -----------               -----------               ----------- 
+Operating expenses:
+  Cost of revenue                                                4,761                        --                     4,761
+  Research and development                                   1,311,227                 1,003,233                 2,615,787
+  Sales and marketing                                        2,215,658                   983,158                 3,219,860
+  General and administration                                 1,023,720                   495,488                 1,667,393
+  Depreciation and amortization                                383,389                   186,819                   588,978
+                                                           -----------               -----------               ----------- 
+
+    Total operating expenses                                 4,938,755                 2,668,698                 8,096,779
+                                                           -----------               -----------               ----------- 
+
+Operating loss                                              (4,566,596)               (2,668,698)               (7,724,620)
+
+Interest income, net                                           110,852                    78,073                   188,931
+Other income (expense), net                                     (1,600)                    6,700                     4,300
+                                                           -----------               -----------               ----------- 
+
+    Net loss                                                (4,457,344)               (2,583,925)               (7,531,389)
+
+Other comprehensive income:
+  Change in unrealized gain on available-for-
+    sale marketable securities                                  81,455                    44,007                   125,462
+                                                           -----------               -----------               ----------- 
+
+      Comprehensive loss                                   $(4,375,889)              $(2,539,918)              $(7,405,927)
+                                                           ===========               ===========               =========== 
+</TABLE>
+
+
+
+   The accompanying notes are an integral part of these financial statements.
+
+<PAGE>   7
+ALEXA INTERNET
+(A DEVELOPMENT STAGE COMPANY)
+STATEMENT OF STOCKHOLDERS' EQUITY (DEFICIT)
+FOR THE PERIOD FROM FEBRUARY 14, 1996 (INCEPTION) TO DECEMBER 31, 1998
+- --------------------------------------------------------------------------------
+<TABLE>
+<CAPTION>
+                                          Convertible                                                                           
+                                        Preferred Stock                Common Stock                      Treasury Stock         
+                                     ---------------------          ---------------------            --------------------       
+                                     Shares         Amount          Shares         Amount            Shares        Amount       
+                                     ------         ------          ------         ------            ------        ------       
+<S>                                <C>           <C>              <C>            <C>                <C>         <C>             
+Balance, February 14,
+  1996 (inception)                        --     $        --              --     $        --             --     $        --
+Issuance of common stock
+  ($0.0004 per share) for
+  cash in February 1996                   --              --       2,500,000           1,000             --              --
+Net loss                                  --              --              --              --             --              --
+                                  ----------     -----------      ----------     -----------        -------     -----------     
+Balance, December 31, 1996                --              --       2,500,000           1,000             --              --
+Conversion of notes payable
+  to common stock in April
+  1997                                    --              --       8,750,000       1,299,000             --              --
+Issuance of employee stock
+  options at below fair
+  value during 1997                       --              --              --         154,911             --              --
+Exercise of stock options
+  in April 1997                           --              --       4,110,710           2,611             --              --
+Amortization of deferred
+  compensation related to
+  employee stock options
+  during 1997                             --              --              --              --             --              --
+Issuance of preferred stock
+  ($0.94285 per share) and
+  warrant to purchase
+  additional preferred stock
+  ($0.01 per warrant share)
+  for cash less issuance
+  costs of $85,131 in May 1997     5,247,396       4,862,395              --              --             --              --
+Issuance of common stock 
+  ($0.095 per share) for services
+  rendered in connection with
+  the issuance of preferred
+  stock in May 1997                       --         (64,323)        677,084          64,323             --              --
+Issuance of preferred stock
+  ($1.00 per share) for services
+  rendered in July 1997               30,000          30,000              --              --             --              --
+Repurchase of exercised but
+  nonvested stock and related
+  write-off of deferred
+  compensation during 1997                --              --              --         (37,691)       420,764            (421)
+Change in unrealized gain on
+  available-for-sale 
+  marketable securities                   --              --              --              --             --              --
+Net loss                                  --              --              --              --             --              --
+                                  ----------     -----------      ----------     -----------        -------     -----------     
+Balance, December 31, 1997         5,277,396     $ 4,828,072      16,037,794     $ 1,484,154        420,764     $      (421)
+                                  ==========     ===========      ==========     ===========        =======     ===========     
+</TABLE>
+<TABLE>
+<CAPTION>
+                                                                                 Deficit
+                                                                  Accumulated   Accumulated        Total
+                                    Preferred                        Other        During       Stockholders'
+                                      Stock         Deferred     Comprehensive  Development       Equity
+                                     Warrants     Compensation       Income        Stage         (Deficit)
+                                     --------     ------------       ------        -----         ---------
+<S>                                <C>            <C>             <C>           <C>            <C>        
+                                   ---------      -----------     -----------    -----------     -----------
+Balance, February 14,
+  1996 (inception)                 $      --     $        --      $       --     $        --     $       --     
+Issuance of common stock
+  ($0.00-4 per share) for
+  cash in February 1996                   --              --              --              --           1,000     
+Net loss                                  --              --              --        (490,120)       (490,120)     
+                                  ----------     -----------      ----------     -----------    ------------
+Balance, December 31, 1996                --              --              --        (490,120)       (489,120)     
+Conversion of notes payable
+  to common stock in April
+  1997                                    --              --              --              --       1,299,000    
+Issuance of employee stock
+  options at below fair
+  value during 1997                       --        (154,911)             --              --             --     
+Exercise of stock options
+  in April 1997                           --              --              --              --           2,611
+Amortization of deferred
+  compensation related to
+  employee stock options
+  during 1997                             --           41,179              --              --         41,179
+Issuance of preferred stock
+  ($0.94285 per share) and
+  warrant to purchase
+  additional preferred stock
+  ($0.01 per warrant share)
+  for cash less issuance
+  costs of $85,131 in May 1997        52,474              --              --              --       4,914,869    
+Issuance of common stock 
+  ($0.095 per share) for services
+  rendered in connection with
+  the issuance of preferred
+  stock in May 1997                       --              --              --              --             --     
+Issuance of preferred stock
+  ($1.00 per share) for services
+  rendered in July 1997                   --              --              --              --         30,000     
+Repurchase of exercised but
+  nonvested stock and related
+  write-off of deferred
+  compensation during 1997                --          37,691             --              --           (421)     
+Change in unrealized gain on
+  available-for-sale 
+  marketable securities                   --              --          44,007              --         44,007
+Net loss                                  --              --              --      (2,583,925)    (2,583,925)     
+                                  ----------     -----------      ----------     -----------    -----------
+Balance, December 31, 1997        $   52,474     $   (76,041)     $   44,007     $(3,074,045)   $ 3,258,200
+                                  ==========     ===========      ==========     ===========    ============       
+</TABLE>
+
+   The accompanying notes are an integral part of these financial statements.
+
+                                        
+<PAGE>   8
+ALEXA INTERNET
+(A DEVELOPMENT STAGE COMPANY)
+STATEMENT OF STOCKHOLDERS' EQUITY (DEFICIT)
+FOR THE PERIOD FROM FEBRUARY 14, 1996 (INCEPTION) TO DECEMBER 31, 1998
+- --------------------------------------------------------------------------------
+
+<TABLE>
+<CAPTION>
+                                        Convertible
+                                      Preferred Stock             Common Stock           Treasury Stock   
+                                  -----------------------   ------------------------    ----------------- 
+                                   Shares        Amount       Shares        Amount       Shares    Amount 
+                                  ---------    ----------   ----------    ----------    --------  ------- 
+<S>                               <C>          <C>          <C>           <C>           <C>       <C>     
+Balances, December 31, 1997                                                                               
+   (from previous page)           5,277,396    $4,828,072   16,037,794    $1,484,154     420,764   $(421)
+Exercise of preferred stock              --            --           --            --          --      --  
+   warrant ($0.94285 per                                                                                 
+    share)                        5,247,396     5,052,455           --            --          --      -- 
+Issuance of employee                                                                                     
+   stock options at below                                                                                 
+   fair value during 1998                --            --           --       530,613          --      -- 
+Exercise of common stock                                                                               
+   options by employees                  --            --      137,292        12,132          --      --  
+Repurchase of exercised                                                                                   
+   but nonvested stock                                                                                    
+   and related writeoff                                                                                   
+   of deferred  compensation                                                                              
+   during 1998                           --            --           --        (8,176)    112,500    (112) 
+Issuance of treasury                                                                                      
+   stock on exercise of                  
+   options                               --            --           --            --    (225,000)    225  
+Amortization of deferred                                                                                  
+   compensation related to                                                                                
+   employee stock options                --            --           --            --          --      --  
+Change in unrealized gain                                                                                 
+   on available-for-sale                                                                                  
+   marketable securities                 --            --           --            --          --      --  
+Net loss                                 --            --           --            --          --      --  
+                                 ----------    ----------   ----------    ----------     -------   -----  
+Balances, December 31, 1998      10,524,792    $9,880,527   16,175,086    $2,018,723     308,264   $(308) 
+                                 ==========    ==========   ==========    ==========     =======   =====  
+</TABLE>
+
+<TABLE>
+<CAPTION>
+                                                                                         Deficit
+                                                                     Accumulated       Accumulated         Total
+                                      Preferred                        Other            During         Stockholders'
+                                        Stock         Deferred      Comprehensive      Development         Equity
+                                       Warrants     Compensation        Income            Stage           (Deficit)
+                                      ----------    ------------    -------------      -----------      ------------
+<S>                                   <C>           <C>             <C>                <C>              <C>
+Balances, December 31, 1997
+   (from previous page)               $  52,474      $ (76,041)        $ 44,007        $(3,074,045)      $3,258,200
+Exercise of preferred stock
+   warrant ($0.94285 per
+    share)                              (52,474)            --               --                 --        4,999,981
+Issuance of employee
+   stock options at below
+   fair value during 1998                    --       (530,613)              --                 --               --
+Exercise of common stock
+   options by employees                      --             --               --                 --           12,132
+Repurchase of exercised
+   but nonvested stock
+   and related writeoff
+   of deferred  compensation
+   during 1998                               --          8,176               --                 --             (112)
+Issuance of treasury
+   stock on exercise of
+   options                                   --             --               --                 --              225
+Amortization of deferred
+   compensation related to
+employee stock options                       --         95,876               --                 --           95,876
+Change in unrealized gain
+   on available-for-sale
+   marketable securities                     --             --           81,455                 --           81,455
+Net loss                                     --             --               --         (4,457,344)      (4,457,344)
+                                       --------      ---------         --------        -----------       ----------
+Balances, December 31, 1998            $     --      $(502,602)        $125,462        $(7,531,389)      $3,990,413
+                                       ========      =========         ========        ===========       ==========
+</TABLE>
+
+   The accompanying notes are an integral part of these financial statements.
+
+
+<PAGE>   9
+
+ALEXA INTERNET
+(A DEVELOPMENT STAGE COMPANY)
+STATEMENTS OF CASH FLOWS
+FOR THE YEARS ENDED DECEMBER 31, 1998 AND 1997 AND FOR THE CUMULATIVE PERIOD
+FROM FEBRUARY 14, 1996 (INCEPTION) TO DECEMBER 31, 1998
+- --------------------------------------------------------------------------------
+
+<TABLE>
+<CAPTION>
+                                                                                                  PERIOD FROM
+                                                                                               FEBRUARY 14, 1996
+                                                                                                 (INCEPTION) TO
+                                                                                                  DECEMBER 31,
+                                                                1998              1997                1998
+                                                             -----------       -----------     -----------------
+<S>                                                          <C>               <C>             <C>
+Cash flows from operations:
+  Net loss                                                   $(4,457,344)      $(2,583,925)       $ (7,531,389)
+  Adjustments to reconcile net loss to net cash
+    used in operating activities:
+  Depreciation and amortization                                  383,389           186,819             585,782
+  Amortization of deferred stock compensation                     95,876            41,179             137,055
+  Gain on sale of marketable securities                         (127,939)          (68,532)           (196,471)
+  Expenses paid through issuance of preferred
+    stock                                                             --            30,000              30,000
+  Changes in operating assets and liabilities:
+    Accounts receivable                                         (164,267)               --            (164,267)
+    Other assets                                                (131,400)          (45,828)           (187,528)
+    Accounts payable                                             157,306            70,856             238,103
+    Accrued liabilities                                          126,679           115,056             264,111
+    Deferred revenue                                              54,632                --              54,632
+                                                             -----------       -----------        ------------
+        Net cash used in operating activities                 (4,063,068)       (2,254,375)         (6,769,972)
+                                                             -----------       -----------        ------------
+Cash flows from investing activities:
+  Payments for property and equipment                           (453,433)         (787,330)         (1,357,099)
+  Purchase of short-term investments                          (5,712,798)       (5,486,328)        (11,199,126)
+  Cash receipts on maturities of securities                    4,680,000         3,000,000           7,680,000
+                                                             -----------       -----------        ------------
+        Net cash used in investment activities                (1,486,231)       (3,273,658)         (4,876,225)
+                                                             -----------       -----------        ------------
+Cash flows from financing activities:
+  Proceeds from issuance of common stock                          12,132             2,611              15,743
+  Proceeds from issuance of preferred stock, net                      --         4,862,395           4,862,395
+  Proceeds from issuance of warrants                                  --            52,474              52,474
+  Proceeds from exercise of warrant
+    for preferred stock                                        4,999,981                --           4,999,981
+  Proceeds from notes payable                                    273,651           500,000             773,651
+  Payments for notes payable                                    (209,121)               --            (209,121)
+  Proceeds from convertible notes payable                             --           688,654           1,298,999
+  Purchase of treasury stock                                        (112)             (421)               (533)
+                                                             -----------       -----------        ------------
+        Net cash provided by financing activities              5,076,531         6,105,713          11,793,589
+                                                             -----------       -----------        ------------
+Net increase (decrease) in cash                                 (472,768)          577,680             147,392
+Cash and cash equivalents - beginning of period                  620,160            42,480                  --
+                                                             -----------       -----------        ------------
+Cash and cash equivalents - end of period                    $   147,392       $   620,160        $    147,392
+                                                             ===========       ===========        ============
+</TABLE>
+
+Supplemental disclosure of cash flow information (Note 13)
+
+
+   The accompanying notes are an integral part of these financial statements.
+
+
+<PAGE>   10
+
+ALEXA INTERNET
+(A DEVELOPMENT STAGE COMPANY)
+NOTES TO FINANCIAL STATEMENTS
+- --------------------------------------------------------------------------------
+
+
+1. ORGANIZATION
+
+    Alexa Internet (the Company), incorporated in California in April 1996 under
+    the name of the Internet Archive (subsequently changed to Alexa Internet in
+    May 1996), creates Internet navigation services. The Company's activities to
+    date have consisted of product development, raising capital, acquiring
+    equipment, and marketing its product. The Company has not generated
+    significant revenues to date and is considered a development stage company
+    at December 31, 1998.
+
+    As discussed in Note 14, the Board of Directors approved the sale of the
+    Company to Amazon.com on April 23, 1999.
+
+2. SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES
+
+        USE OF ESTIMATES
+
+        The preparation of financial statements in conformity with generally
+        accepted accounting principles requires management to make estimates and
+        assumptions that affect the reported amounts of assets and liabilities
+        and disclosure of contingent assets and liabilities at the date of the
+        financial statements and the reported amounts of revenues and expenses
+        during the reporting period. Actual results could differ from those
+        estimates.
+
+        FACTORS THAT COULD AFFECT FUTURE RESULTS
+
+        The Internet industry is highly competitive. The success of the Company
+        in the Internet navigation business is dependent upon the Company's
+        ability to raise capital, complete development of its products, and to
+        generate significant customer usage and advertising revenues.
+
+        REVENUE RECOGNITION
+
+        The Company's revenues are derived primarily from the sale of banner
+        advertisements placed on the Alexa toolbar. To date, the duration of the
+        Company's banner advertising commitments has ranged from one week to six
+        months. Banner advertising revenues are recognized ratably over the
+        period in which the advertisement is displayed, provided that no
+        significant Company obligations remain and collection of the resulting
+        receivable is probable. Such revenue is recognized when the service is
+        provided.
+
+        Revenues from barter transactions are recognized during the period in
+        which the advertisements are displayed on the Alexa toolbar, and a
+        corresponding amount is charged to operations as applicable for the
+        value of the goods or services received by the Company in the barter
+        transaction. Barter transactions are recorded at the fair value of the
+        goods and services provided or received, whichever is more readily
+        determinable in the circumstances. For the year ended December 31, 1998,
+        revenues from barter transactions have accounted for 
+
+
+
+<PAGE>   11
+
+ALEXA INTERNET
+(A DEVELOPMENT STAGE COMPANY)
+NOTES TO FINANCIAL STATEMENTS
+- --------------------------------------------------------------------------------
+
+        approximately 27% of revenues. These were no revenues from barter
+        transactions prior to 1998.
+
+        No one customer accounted for 10% or more of revenues during the years
+        ended December 31, 1998 and 1997, and during the cumulative period from
+        February 14, 1996 (inception) to December 31, 1998.
+
+        Deferred revenues is primarily comprised of payments received pursuant
+        to banner advertising contracts in advance of delivery of the
+        advertisements.
+
+        SOFTWARE DEVELOPMENT COSTS
+
+        Statement of Financial Accounting Standards No. 86, Accounting for the
+        Costs of Computer Software to be Sold, Leased, or Otherwise Marketed,
+        requires that software development costs be capitalized once the
+        technological feasibility of the software product has been established.
+        As of December 31, 1998 all software development costs have been charged
+        to research and development expense in the period incurred, since the
+        deployment date occurred immediately following technological feasibility
+        of the products.
+
+        RESEARCH AND DEVELOPMENT COSTS
+
+        Costs related to other research and development activities are expensed
+        when incurred.
+
+        INCOME TAXES
+
+        The Company accounts for income taxes in accordance with Statement of
+        Financial Accounting Standards No. 109, which requires an asset and
+        liability approach to financial accounting and reporting for income
+        taxes. Accordingly, deferred tax assets and liabilities arise from the
+        differences between the tax basis of an asset or liability and its
+        reported amount in the financial statements, and net operating loss
+        carryforwards. Deferred tax amounts are determined using the tax rates
+        expected to be in effect when the taxes will actually be paid or refunds
+        received, as provided under currently enacted tax law. Valuation
+        allowances are established when necessary to reduce deferred tax assets
+        to the amount expected to be realized. Income tax expense or benefit is
+        the tax payable or refundable, respectively, for the period plus the net
+        change in deferred tax amounts during the period.
+
+        STOCK-BASED COMPENSATION
+
+        The Company accounts for stock-based employee compensation arrangements
+        in accordance with the provisions of Accounting Principles Board ("APB")
+        Opinion No. 25, Accounting for Stock Issued to Employees, and complies
+        with the disclosure provisions of Statement of Financial Accounting
+        Standards ("SFAS") No. 123, Accounting for Stock-Based Compensation.
+        Under APB No. 25, compensation expense is based on the difference, if
+        any, on the date of the grant, between the fair value of the Company's
+        stock and the exercise price of the option. The Company accounts for
+        equity instruments issued to nonemployees in accordance with the
+        provisions of SFAS No. 123 and Emerging Issues Task Force ("EITF")
+        96-18.
+
+
+
+<PAGE>   12
+
+ALEXA INTERNET
+(A DEVELOPMENT STAGE COMPANY)
+NOTES TO FINANCIAL STATEMENTS
+- --------------------------------------------------------------------------------
+
+        COMPREHENSIVE INCOME
+
+        The Company adopted the provisions of SFAS No. 130, Reporting
+        Comprehensive Income. This statement requires companies to classify
+        items of other comprehensive income by their nature in the financial
+        statements and display the accumulated balance of other comprehensive
+        income separately from retained earnings and additional paid-in capital
+        in the equity section of a statement of financial position. Accordingly,
+        the Company has reported unrealized gains on available-for-sale
+        marketable securities in comprehensive loss.
+
+        CASH EQUIVALENTS
+
+        All cash and cash equivalents are held in checking, money market
+        accounts or short-term investments with original maturities of 90 days
+        or less. Cash equivalents are recorded at cost, which approximates fair
+        value. As of December 31, 1998, the balance exceeded existing Federally
+        insured limits.
+
+        MARKETABLE SECURITIES
+
+        The Company's marketable securities are categorized as
+        available-for-sale securities, as defined by the Statement of Financial
+        Accounting Standards No. 115, Accounting for Certain Investments in Debt
+        and Equity Securities. Unrealized holding gains and losses are reflected
+        as a net amount in a separate component of stockholders' equity until
+        realized. For the purpose of computing realized gains and losses, cost
+        is identified on a specific identification basis.
+
+        PROPERTY AND EQUIPMENT
+
+        Property and equipment are recorded at cost. Depreciation and
+        amortization are computed on the straight-line basis over the estimated
+        useful lives of the assets, as follows:
+
+<TABLE>
+<S>                                                                  <C>    
+            Computer and network equipment and software              3 years
+            Furniture and office equipment                           5 years
+</TABLE>
+
+        Leasehold improvements are amortized on a straight-line basis over the
+        life of the lease, or the useful life of the assets; whichever is
+        shorter.
+
+        Maintenance and repairs are charged to expense as incurred. When assets
+        are sold or retired, the cost and related accumulated depreciation are
+        removed from the accounts and any resulting gain or loss is included in
+        operations.
+
+        RECENTLY ISSUED ACCOUNTING PRONOUNCEMENTS
+
+        In March 1998, the American Institute of Certified Public Accountants
+        ("AICPA") issued Statement of Position ("SOP") 98-1, Accounting for the
+        Cost of Computer Software Developed or Obtained for Internal Use ("SOP
+        98-1"). SOP 98-1 is effective for financial statements for years
+        beginning after December 15, 1998. SOP 98-1 provides guidance over
+        accounting for computer software developed or obtained for internal use
+        including the requirement to capitalize specified costs and amortization
+        of such costs. The Company does not expect the adoption of this standard
+        to have a material impact on its results of operations, financial
+        position or cash flows.
+
+
+
+<PAGE>   13
+
+ALEXA INTERNET
+(A DEVELOPMENT STAGE COMPANY)
+NOTES TO FINANCIAL STATEMENTS
+- --------------------------------------------------------------------------------
+
+        In April 1998, the AICPA issued SOP 98-5, Reporting on the Costs of
+        Start-up Activities ("SOP 98-5"). SOP 98-5, which is effective for
+        fiscal years beginning after December 15, 1998, provides guidance on the
+        financial reporting of start-up costs and organization costs. It
+        requires costs of start-up activities and organization costs to be
+        expensed as incurred. As the Company has historically expensed these
+        costs, the adoption of SOP 98-5 is not expected to have significant
+        impact on its results of operations, financial position or cash flows.
+
+        In June 1998, the FASB issued SFAS No. 133, Accounting for Derivative
+        Instruments and Hedging Activities ("SFAS No. 133"), which establishes
+        accounting and reporting standards for derivative instruments, including
+        certain derivative instruments embedded in other contracts (collectively
+        referred to as derivatives), and for hedging activities. SFAS No. 133 is
+        effective for all fiscal quarters for fiscal years beginning after June
+        15, 1999. The Company is assessing the potential impact of this
+        pronouncement on its financial statements; however, the Company does not
+        expect any significant impact since it currently does not have any
+        derivative instruments and does not anticipate acquiring any.
+
+3. MARKETABLE SECURITIES
+
+    All outstanding securities classified as available for sale mature in less
+    than one year. The following is a summary of marketable securities at
+    December 31, 1998 and 1997:
+
+<TABLE>
+<CAPTION>
+                                                     UNREALIZED          FAIR
+                                      COST          HOLDING GAINS        VALUE
+                                   ----------       -------------     -----------
+<S>                                <C>              <C>               <C>
+        Government Bonds
+          1998                     $3,715,597          $125,462       $3,841,059
+          1997                     $2,554,860          $ 44,007       $2,598,867
+</TABLE>
+
+4. PROPERTY AND EQUIPMENT
+
+    Property and equipment consists of:
+
+<TABLE>
+<CAPTION>
+                                                                1998            1997
+                                                            -----------       ---------
+<S>                                                         <C>               <C>
+        Computer and network equipment and software         $ 1,255,699       $ 840,774
+        Furniture and office equipment                           74,160          53,150
+        Leasehold improvements                                   27,240           9,742
+                                                            -----------       ---------
+          Total assets                                        1,357,099         903,666
+        Less accumulated depreciation and amortization         (585,557)       (202,393)
+                                                            -----------       ---------
+                                                            $   771,542       $ 701,273
+                                                            ===========       =========
+</TABLE>
+
+<PAGE>   14
+
+ALEXA INTERNET
+(A DEVELOPMENT STAGE COMPANY)
+NOTES TO FINANCIAL STATEMENTS
+- --------------------------------------------------------------------------------
+
+5. NOTES PAYABLE
+
+    The Company entered into a line of credit agreement with a bank which
+    provides for borrowings up to $500,000 to purchase capital equipment.
+    Borrowings bear interest at the bank's prime rate plus 1% and are
+    collateralized by all assets of the Company, including intellectual
+    property. As of December 31, 1998, the Company has $564,530 notes payable
+    outstanding under this agreement bearing interest at 9.5%. Borrowings are
+    repayable in monthly installments of principal plus accrued interest.
+    According to the terms of the agreement, the Company is required to meet
+    certain financial covenants including minimum net worth and working capital
+    levels. In conjunction with the line of credit, the Company issued warrants
+    to purchase 18,817 shares of the Company's preferred stock at an exercise
+    price of $0.93 per share (see Note 7). No value was assigned to the warrants
+    as the fair value was determined to be insignificant.
+
+    Scheduled repayments of notes payable principal subsequent to December 31,
+    1998 are as follows:
+
+<TABLE>
+<CAPTION>
+       YEAR ENDING DECEMBER 31,
+       ------------------------
+<S>                                                                  <C>
+                1999                                                 $309,461
+                2000                                                  200,000
+                2001                                                   55,069
+                                                                     --------
+                                                                      564,530
+                Less current portion                                 (309,461)
+                                                                     --------
+                                                                     $255,069
+                                                                     ========
+</TABLE>
+
+6. COMMITMENTS
+
+        LEASE OBLIGATIONS
+
+        The Company has entered into two separate cancelable operating lease
+        agreements for office space. The contracts provide for adjustments or
+        escalations based upon changes in consumer price indices or operating
+        expenses. Either party may terminate the agreements providing thirty
+        days written notice.
+
+        Rent expense under operating lease agreements was $139,191, $44,388 and
+        $194,676 for the year ended December 31, 1998, December 31, 1997 and for
+        the period from February 14, 1996 (inception) to December 31, 1998,
+        respectively.
+
+7. STOCKHOLDERS' EQUITY
+
+        COMMON STOCK
+
+        The Company is authorized to issue 50,000,000 shares of common stock. At
+        December 31, 1998, 16,175,086 shares of common stock are issued and
+        outstanding.
+
+
+<PAGE>   15
+
+ALEXA INTERNET
+(A DEVELOPMENT STAGE COMPANY)
+NOTES TO FINANCIAL STATEMENTS
+- --------------------------------------------------------------------------------
+
+        CONVERTIBLE PREFERRED STOCK
+
+        As of December 31, 1998, the Company is authorized to issue 10,524,792
+        shares of convertible preferred stock, all of which are designated
+        Series A Convertible Preferred Stock (Series A preferred stock). At
+        December 31, 1998, 10,542,792 shares of Series A preferred stock are
+        issued and outstanding.
+
+        DIVIDENDS
+
+        The holders of Series A preferred stock are entitled to receive
+        dividends in preference to any dividend on common stock, at an annual
+        rate equal to $0.0572 per share, when and if declared by the Company's
+        Board of Directors. Such dividends are noncumulative and no dividends
+        have been declared or paid to date.
+
+        LIQUIDATION PREFERENCE
+
+        In the event of any liquidation, dissolution, or winding up of the
+        Company, either voluntary or involuntary, the holders of Series A
+        preferred stock are entitled to receive, in preference to the holders of
+        common stock, an amount equal to $0.95285 per share of Series A
+        preferred stock ($10,028,548 in total) plus all declared but unpaid
+        dividends, if any. Once such liquidation preference has been paid,
+        holders of Series A preferred stock are entitled to receive assets and
+        funds of the Company in proportion to the number of shares of common
+        stock as if converted pursuant to the following paragraph.
+
+        CONVERSION RIGHTS
+
+        Each share of Series A preferred stock shall be convertible at the
+        option of the holder, at any time, into shares of common stock. The
+        number of shares of common stock into which each share of Series A
+        preferred stock may be converted shall be determined by dividing
+        $0.95285 by the conversion price in effect on the date the stock
+        certificate is surrendered for conversion. The initial conversion price
+        per share shall be $0.95285. Series A preferred stock will automatically
+        convert into common stock, at the then applicable rate, (i) at the time
+        the consent of at least a majority of the outstanding Series A preferred
+        stock to such conversion is obtained, or (ii) upon the sale of the
+        Company's securities pursuant to a firm commitment underwritten public
+        offering with a public offering price of not less than $4.00 per share
+        and with aggregate gross proceeds to the Company of not less than
+        $12,000,000.
+
+        The Series A preferred stock also carries provisions which protect the
+        holders of such securities from dilution caused by capital
+        reorganization, stock splits, or other such capital changes.
+
+        VOTING RIGHTS
+
+        The holders of Series A preferred stock are entitled to vote on all
+        matters and are entitled to the number of votes equal to the number of
+        shares of common stock into which the preferred stock could be converted
+        pursuant to the conversion rights. Except as otherwise required by law,
+        the holders of the Series A preferred stock shall have voting rights
+        equal to those of the common stockholders.
+
+
+<PAGE>   16
+
+ALEXA INTERNET
+(A DEVELOPMENT STAGE COMPANY)
+NOTES TO FINANCIAL STATEMENTS
+- --------------------------------------------------------------------------------
+
+        The holders of Series A preferred stock have the right to elect at least
+        one member of the Board of Directors and additional members determined
+        by multiplying the number of directors authorized to serve by a fraction
+        calculated from the number of convertible shares divided by the total
+        common shares on a fully converted basis.
+
+        PREFERRED STOCK WARRANTS ISSUED TO NON-EMPLOYEES
+
+        In 1997, the Company issued a warrant to a creditor to purchase 18,817
+        shares of Series A preferred stock at an exercise price of $0.93 per
+        share. The warrant expires in June 2004 and remains outstanding at
+        December 31, 1998.
+
+8. EMPLOYEE STOCK OPTION PLAN
+
+    In 1997, the Company established an employee stock option plan. Under this
+    plan, the Company may grant options for 5,000,000 shares of common stock to
+    its employees, directors, and consultants either as incentive stock options
+    or nonstatutory options. The exercise price of each option is determined by
+    the Board of Directors and an option's maximum term is 10 years. Options are
+    exercisable upon grant. However, upon exercise, shares of common stock are
+    issued under a restriction agreement and generally vest over a four-year
+    period. Upon termination of employment, the Company has the right to
+    repurchase unvested shares at the original exercise price. At December 31,
+    1998, 675,000 shares of common stock issued upon exercise of stock options
+    during 1997 and 1998 remain restricted.
+
+
+<PAGE>   17
+ALEXA INTERNET
+(A DEVELOPMENT STAGE COMPANY)
+NOTES TO FINANCIAL STATEMENTS
+- --------------------------------------------------------------------------------
+
+    The following table summarizes activity under the Company's stock option
+    plan for the years ended December 31, 1997 and 1998:
+
+<TABLE>
+<CAPTION>
+                                                         OPTIONS OUTSTANDING AND EXERCISABLE
+                                                  --------------------------------------------------
+                                                                                            WEIGHTED
+                                     SHARES                                                 AVERAGE
+                                   AVAILABLE        NUMBER         PRICE       AGGREGATE    EXERCISE
+                                   FOR GRANT      OF SHARES       PER SHARE      PRICE        PRICE
+                                   ----------     ----------     ----------    ---------    --------
+<S>                                <C>            <C>            <C>           <C>          <C>
+Balance, December 31, 1996                 --             --     $       --    $     --      $    --
+
+  Options authorized                2,500,000             --             --          --           --
+  Options granted                  (2,291,462)     2,291,462     .001 - .09      62,879       0.0274
+  Options exercised                        --     (1,610,710)         0.001      (1,611)       0.001
+  Cancelled and repurchased
+    exercised options                 435,764             --             --          --           --
+                                   ----------     ----------     ----------    --------      -------
+Balance, December 31, 1997            644,302        680,752          0.090      61,268        0.090
+
+  Options authorized                2,500,000             --             --          --           --
+  Options granted                    (566,000)       566,000          0.090      50,940        0.090
+  Options exercised                        --       (137,292)         0.090     (12,132)       0.090
+  Options cancelled                   329,708       (329,708)         0.090     (29,674)       0.090
+  Cancelled and repurchased
+    exercised options                 112,500             --             --          --           --
+  Adjustment to authorized
+    shares                           (338,542)            --             --          --           --
+                                   ----------     ----------     ----------    --------      -------
+Balance December 31, 1998           2,681,968        779,752     $    0.090    $ 70,402      $ 0.090
+                                   ==========     ==========     ==========    ========      =======
+</TABLE>
+
+    At December 31, 1998, employee options to purchase 779,752 shares of common
+    stock are outstanding and exercisable at $.09 per share, with a weighted
+    average remaining contractual life of 9.22 years. A total of 2,681,968
+    common shares remain available for issuance.
+
+    The Company accounts for the plan in accordance with APB No. 25, Accounting
+    for Stock Issued to Employees, and related Interpretations. For certain
+    options granted in 1998 and 1997, the exercise price was less than the fair
+    value of common stock on the grant date. In accordance with APB No. 25, for
+    the period ended December 31, 1998, the Company recorded compensation
+    expense in relation to employee stock options totaling $95,876.
+
+    The following information concerning the Company's stock option plan is
+    provided in accordance with SFAS No. 123 Accounting for Stock-Based
+    Compensation. The fair value of each option grant is estimated on the date
+    of grant using the minimum value method with the following weighted-average
+    assumptions used for grants in 1998: average risk-free interest rate of
+    5.48% and expected life of 5 years. Volatility and dividend yields are not
+    factors in the Company's minimum value
+
+
+<PAGE>   18
+ALEXA INTERNET
+(A DEVELOPMENT STAGE COMPANY)
+NOTES TO FINANCIAL STATEMENTS
+- --------------------------------------------------------------------------------
+
+    calculation. The weighted average fair value of options granted in 1998 and
+    1997 was $1.05 and $.07, respectively. Using the above method and
+    assumptions, had the Company accounted for compensation expense according to
+    SFAS No. 123, the pro forma net loss would be as follows:
+
+<TABLE>
+<CAPTION>
+                                                1998             1997
+                                             ----------       ----------
+<S>                                          <C>              <C>
+    Net loss - as reported                   $4,439,345       $2,583,925
+    Net loss - proforma                      $4,439,971       $2,586,072
+</TABLE>
+
+    These pro forma effects may not be representative of the effects on reported
+    net income for future years as options vest over several years and
+    additional awards are generally made each year.
+
+9.  401(k) PLAN
+
+    In June 1997, the Company established a 401(k) Plan (the 401(k) Plan). All
+    employees of the Company are eligible to participate in the 401(k) Plan. The
+    Company may make discretionary contributions to the 401(k) Plan. No
+    contributions were made by the Company during the years ended December 31,
+    1997 and 1998 and during the period from February 14, 1996 (inception) to
+    December 31, 1998.
+
+10. INCOME TAXES
+
+        TAX PROVISION
+
+        The Company recognizes no income tax provision due to net operating
+        losses incurred since inception and a full valuation allowance against
+        deferred tax assets.
+
+        The Company's deferred tax assets as of December 31, 1998 and 1997 are
+        as follows:
+
+<TABLE>
+<CAPTION>
+                                                             1998              1997
+                                                         -----------       -----------
+<S>                                                      <C>               <C>
+            Capitalized start-up costs                   $   330,682       $   731,428
+            Research & development credits                   216,020            62,955
+            Net operating loss carryforward                2,020,317           177,919
+            Other, including nondeductible accruals           37,152            43,547
+                                                         -----------       -----------
+              Gross deferred tax assets                    2,604,171         1,015,849
+            Valuation allowance                           (2,604,171)       (1,015,849)
+                                                         -----------       -----------
+                  Net deferred tax asset                 $        --       $        --
+                                                         ===========       ===========
+</TABLE>
+
+        Due to uncertainty of realization, a full valuation allowance has been
+        provided against deferred tax assets at December 31, 1998 and 1997.
+
+
+                                       
+<PAGE>   19
+ALEXA INTERNET
+(A DEVELOPMENT STAGE COMPANY)
+NOTES TO FINANCIAL STATEMENTS
+- --------------------------------------------------------------------------------
+
+        At December 31, 1998, the Company has net operating loss carryforwards
+        of $5,387,183 and $3,236,269, respectively, for federal and state income
+        tax purposes. These carryforwards begin to expire in years 2012 and
+        2005, respectively. The Company's research and development credits begin
+        to expire in 2002 for both federal and state income tax purposes.
+
+        Due to changes in the Company's ownership during 1997 and 1998, the
+        amount of loss available to offset future federal and state taxable
+        income or tax may be limited by IRS Code Section 382. The amount of such
+        limitation, if any, has not been determined.
+
+        CONVERSION TO "C" CORPORATION STATUS
+
+        On May 13, 1997, the Company issued Series A Convertible Preferred Stock
+        to a corporate investor, which caused the Company's S corporation status
+        to terminate at that date. The Company elected under IRC Section
+        1362(e)(2) to allocate the net income or loss for the entire fiscal year
+        on a pro rata basis between the period before the S corporation
+        termination and the period following the termination.
+
+11. RELATED PARTY TRANSACTIONS
+
+    In May and July 1996, the Company issued convertible notes payable to one of
+    the Company's shareholders in the amounts of $400,000 and $600,000 and to
+    one of the Company's directors in the amount of $300,000. Under the terms of
+    these notes, the Company was allowed to borrow any sum up to the full amount
+    of the notes. Interest accrued at 5.76%, 6.04%, and 6.04%, respectively, on
+    the outstanding balances. The Company borrowed a total of $610,346 against
+    the convertible notes in 1996 and an additional $688,654 during 1997. In
+    April 1997, the total balances outstanding on the notes were converted into
+    8,750,000 shares of the Company's common stock, and all related interest was
+    forgiven by the holders of the notes.
+
+    In 1996, the Company issued an option to purchase 2,500,000 shares of common
+    stock to one of the Company's founders at an exercise price of $0.0004 per
+    share. This option was exercised and the 2,500,000 shares of common stock
+    issued are subject to a restriction agreement and vest over a four-year
+    period. Upon termination of employment, the Company has the right to
+    repurchase unvested shares at the original exercise price. At December 31,
+    1998, 765,625 shares remain subject to repurchase.
+
+12. NONMONETARY TRANSACTIONS
+
+    The Company entered into an arrangement with two strategic partners under
+    which access to each partner's unique Web content is included as a feature
+    in the Alexa toolbar. The purpose of these arrangements is to enhance the
+    content offered by the Company to users and the Company's partners obtain
+    higher visibility for their Web content. These arrangements are nonmonetary
+    in nature and no accounting recognition has been given to them as their fair
+    value was not determinable.
+
+
+                                       
+<PAGE>   20
+ALEXA INTERNET
+(A DEVELOPMENT STAGE COMPANY)
+NOTES TO FINANCIAL STATEMENTS
+- --------------------------------------------------------------------------------
+
+13. SUPPLEMENTAL DISCLOSURE OF CASH FLOW INFORMATION
+
+<TABLE>
+<CAPTION>
+                                                                                   FEBRUARY 14,
+                                                                                       1996
+                                                  YEAR ENDED      YEAR ENDED      (INCEPTION) TO
+                                                  DECEMBER 31,   DECEMBER 31,      DECEMBER 31,
+                                                     1998            1997              1998
+                                                  ------------   ------------     --------------
+<S>                                               <C>            <C>              <C>
+Cash payments for interest                         $ 32,258       $   19,325        $   51,583
+                                                   ========       ==========        ==========
+Noncash investing and financing activities:
+   Conversion of notes payable to
+     common stock                                  $     --       $1,299,000        $1,299,000
+                                                   ========       ==========        ==========
+   Change in unrealized gain on marketable
+     securities                                    $ 81,455       $   44,007        $  125,455
+                                                   ========       ==========        ==========
+   Common stock issued for services
+     rendered in connection with the
+     issuance of preferred stock                   $     --       $   64,323        $   64,323
+                                                   ========       ==========        ==========
+   Preferred stock issued for services             $     --       $   30,000        $   30,000
+                                                   ========       ==========        ==========
+</TABLE>
+
+14. SUBSEQUENT EVENTS
+
+    In February 1999, the Company purchased a certificate of deposit ("CD") in
+    the amount of $60,000. The Company pledged the CD to a financial institution
+    as collateral against credit cards the financial institution issued to
+    certain of the Company's employees.
+
+    In March and April 1999, the Company entered into four non-cancelable
+    operating leases for computer and network equipment. The term of the leases
+    is two years and the lease payments totals $59,550.
+
+    On April 23, 1999, the Board of Directors approved the sale of the Company
+    to Amazon.com for approximately $250 million in Amazon.com stock. The sale
+    is subject to approval by the Company's stockholders.
+
+
+<PAGE>   21
+
+
+                        REPORT OF INDEPENDENT ACCOUNTANTS
+
+
+
+To the Board of Directors and
+Stockholders of e-Niche Incorporated
+
+In our opinion, the accompanying balance sheet and the related statements of
+operations, of changes in stockholders' equity (deficit) and of cash flows
+present fairly, in all material respects, the financial position of e-Niche
+Incorporated (a development stage enterprise) at December 31, 1998 and 1997, and
+the results of its operations and its cash flows for the year ended December 31
+1998, for the period from inception (July 29, 1997) through December 31, 1997
+and for the period from inception (July 29, 1997) through December 31, 1998, in
+conformity with generally accepted accounting principles. These financial
+statements are the responsibility of the Company's management; our
+responsibility is to express an opinion on these financial statements based on
+our audits. We conducted our audits of these statements in accordance with
+generally accepted auditing standards which require that we plan and perform the
+audit to obtain reasonable assurance about whether the financial statements are
+free of material misstatement. An audit includes examining, on a test basis,
+evidence supporting the amounts and disclosures in the financial statements,
+assessing the accounting principles used and significant estimates made by
+management, and evaluating the overall financial statement presentation. We
+believe that our audits provide a reasonable basis for the opinion expressed
+above.
+
+
+
+PricewaterhouseCoopers LLP
+Boston, Massachusetts
+May 3, 1999
+
+
+
+
+<PAGE>   22
+
+E-NICHE INCORPORATED
+(A DEVELOPMENT STAGE ENTERPRISE)
+BALANCE SHEET
+
+
+<TABLE>
+<CAPTION>
+                                                                                             DECEMBER 31,
+                                                                                       1998                 1997
+                                                                                   -----------          -----------
+<S>                                                                                <C>                  <C>        
+ASSETS
+Current assets:
+    Cash and cash equivalents                                                      $ 1,605,616          $    16,001
+    Prepaid expenses and other current assets                                           56,136                   --
+                                                                                   -----------          -----------
+
+             Total current assets                                                    1,661,752               16,001
+                                                                                   -----------          -----------
+
+Fixed assets, net                                                                      184,388                4,369
+Other assets                                                                            18,382                   --
+                                                                                   -----------          -----------
+
+                                                                                   $ 1,864,522          $    20,370
+                                                                                   ===========          ===========
+
+LIABILITIES, REDEEMABLE CONVERTIBLE PREFERRED STOCK AND
+  STOCKHOLDERS' EQUITY (DEFICIT)
+Current liabilities:
+    Current portion of long-term debt                                              $    25,000          $        --
+    Accounts payable                                                                    81,518                  949
+    Accrued professional services fees                                                  30,000                   --
+    Other accrued expenses                                                               8,401                   --
+                                                                                   -----------          -----------
+
+             Total current liabilities                                                 144,919                  949
+                                                                                   -----------          -----------
+
+Long-term debt                                                                         125,000                   --
+                                                                                   -----------          -----------
+
+Series A redeemable convertible preferred stock, $0.01 par value;
+  2,000,000 shares authorized, issued and outstanding at December 31, 1998           1,973,561                   --
+                                                                                   -----------          -----------
+
+Stockholders' equity (deficit):
+Series B convertible preferred stock, $0.01 par value; 1 share authorized,
+  issued and outstanding at December 31, 1998                                           18,681                   --
+Common stock, $0.01 par value; 5,000,001 shares authorized;
+  2,250,000 and 1,386,809 shares issued and outstanding at
+  December 31, 1998 and 1997, respectively                                              22,500               13,868
+Additional paid-in capital                                                              39,119               36,132
+Deficit accumulated during the development stage                                      (459,258)             (30,579)
+                                                                                   -----------          -----------
+
+             Total stockholders' equity (deficit)                                     (378,958)              19,421
+                                                                                   -----------          -----------
+
+Commitments (Note 9)
+
+                                                                                   $ 1,864,522          $    20,370
+                                                                                   ===========          ===========
+
+</TABLE>
+
+
+   The accompanying notes are an integral part of these financial statements.
+
+
+
+<PAGE>   23
+
+E-NICHE INCORPORATED
+ (A DEVELOPMENT STAGE ENTERPRISE)
+STATEMENT OF OPERATIONS
+
+
+<TABLE>
+<CAPTION>
+                                                         PERIOD FROM        PERIOD FROM
+                                                          INCEPTION          INCEPTION
+                                                          (JULY 29,          (JULY 29,
+                                       YEAR ENDED       1997) THROUGH      1997) THROUGH
+                                      DECEMBER 31,       DECEMBER 31,       DECEMBER 31,
+                                          1998               1997               1998
+                                       ---------          ---------          ---------
+<S>                                    <C>                <C>                <C>      
+
+Costs and expenses:
+    Research and development           $ 129,484          $   3,901          $ 133,385
+    Selling and marketing                 57,396                471             57,867
+    General and administrative           241,363             25,648            267,011
+                                       ---------          ---------          ---------
+
+       Loss from operations             (428,243)           (30,020)          (458,263)
+
+Other expense                               (240)              (559)              (799)
+Interest expense, net                       (196)                --               (196)
+                                       ---------          ---------          ---------
+
+       Net loss                        $(428,679)         $ (30,579)         $(459,258)
+                                       =========          =========          ========= 
+
+</TABLE>
+
+
+   The accompanying notes are an integral part of these financial statements.
+
+
+<PAGE>   24
+
+E-NICHE INCORPORATED
+(A DEVELOPMENT STAGE ENTERPRISE)
+STATEMENT OF CHANGES IN STOCKHOLDERS' EQUITY (DEFICIT)
+FOR THE PERIOD FROM INCEPTION (JULY 29, 1997) THROUGH DECEMBER 31, 1998
+
+
+<TABLE>
+<CAPTION>
+                                                                                                          DEFICIT
+                                          SERIES B                                                       ACCUMULATED
+                                        CONVERTIBLE                                        ADDITIONAL    DURING THE
+                                      PREFERRED STOCK                COMMON STOCK            PAID-IN     DEVELOPMENT
+                                   SHARES        AMOUNT         SHARES       PAR VALUE       CAPITAL        STAGE         TOTAL
+                                -----------    -----------    -----------   -----------    -----------   -----------    -----------
+<S>                             <C>            <C>            <C>           <C>            <C>           <C>            <C>
+Capital contributed by founder           --    $        --             --   $        --     $    49,000  $        --     $    49,000
+
+Issuance of restricted stock             --             --      1,386,809        13,868        (12,868)           --          1,000
+
+Net loss                                 --             --             --            --             --       (30,579)       (30,579)
+                                -----------    -----------    -----------   -----------    -----------   -----------    -----------
+
+Balance at December 31, 1997             --             --      1,386,809        13,868         36,132       (30,579)        19,421
+
+Issuance of restricted stock                                      500,000         5,000            300            --          5,300
+
+Return of capital                        --             --             --            --        (30,000)           --        (30,000)
+
+Conversion of notes
+ payable to Series B
+  convertible preferred
+  stock and common stock                  1         18,681        363,191         3,632         32,687            --         55,000
+
+Net loss                                 --             --             --            --             --      (428,679)      (428,679)
+                                -----------    -----------    -----------   -----------    -----------   -----------    -----------
+
+Balance at December 31, 1998              1    $    18,681      2,250,000   $    22,500    $    39,119   $  (459,258)   $  (378,958)
+                                ===========    ===========    ===========   ===========    ===========   ===========    ===========
+
+</TABLE>
+
+
+   The accompanying notes are an integral part of these financial statements.
+
+
+<PAGE>   25
+
+E-NICHE INCORPORATED
+(A DEVELOPMENT STAGE ENTERPRISE)
+STATEMENT OF CASH FLOWS
+INCREASE (DECREASE) IN CASH AND CASH EQUIVALENTS
+
+<TABLE>
+<CAPTION>
+                                                                              PERIOD FROM    PERIOD FROM
+                                                                               INCEPTION      INCEPTION
+                                                                                (JULY 29,     (JULY 29,
+                                                               YEAR ENDED    1997) THROUGH  1997) THROUGH
+                                                              DECEMBER 31,   DECEMBER 31,   DECEMBER 31,
+                                                                  1998            1997          1998
+                                                              -----------    -------------  -------------
+<S>                                                           <C>            <C>            <C>         
+
+CASH FLOWS FROM OPERATING ACTIVITIES:
+    Net loss                                                  $  (428,679)   $   (30,579)   $  (459,258)
+    Adjustments to reconcile net loss to net cash
+      used for operating activities:
+      Depreciation                                                  9,383            485          9,868
+      Compensation expense associated with the issuance
+       of restricted stock                                          5,300             --          5,300
+      Changes in assets and liabilities:
+        Prepaid expenses and other current assets                 (56,136)            --        (56,136)
+        Accounts payable                                           80,569            949         81,518
+        Accrued professional services fees                         30,000                        30,000
+        Other accrued expenses                                      8,401             --          8,401
+                                                              -----------    -----------    -----------
+
+        Net cash used for operating activities                   (351,162)       (29,145)      (380,307)
+                                                              -----------    -----------    -----------
+
+
+CASH FLOWS FROM INVESTING ACTIVITIES:
+    Purchases of fixed assets                                    (189,402)        (4,854)      (194,256)
+    Increase in other assets                                      (18,382)            --        (18,382)
+                                                              -----------    -----------    -----------
+
+        Net cash used for investing activities                   (207,784)        (4,854)      (212,638)
+                                                              -----------    -----------    -----------
+
+
+CASH FLOWS FROM FINANCING ACTIVITIES:
+    Proceeds from issuance of notes payable to stockholder         80,000             --         80,000
+    Repayments of notes payable to stockholder                    (25,000)            --        (25,000)
+    Borrowing from line of credit                                 150,000             --        150,000
+    Proceeds from Series A redeemable convertible preferred
+      stock, net of issuance costs                              1,973,561             --      1,973,561
+    Proceeds from issuance of common stock                             --          1,000          1,000
+    Capital contribution                                               --         49,000         49,000
+    Return of capital                                             (30,000)            --        (30,000)
+                                                              -----------    -----------    -----------
+
+        Net cash provided by financing activities               2,148,561         50,000      2,198,561
+                                                              -----------    -----------    -----------
+
+Net increase in cash and cash equivalents                       1,589,615         16,001      1,605,616
+
+Cash and cash equivalents, beginning of period                     16,001             --             --
+                                                              -----------    -----------    -----------
+
+Cash and cash equivalents, end of period                      $ 1,605,616    $    16,001    $ 1,605,616
+                                                              -----------    -----------    -----------
+
+</TABLE>
+
+
+SUPPLEMENTAL DISCLOSURE OF NON-CASH FINANCING ACTIVITIES:
+
+In September 1998, the Company converted notes payable to a stockholder of
+$55,000 into 1 share of Series B convertible preferred stock and 363,191 shares
+of common stock.
+
+
+   The accompanying notes are an integral part of these financial statements.
+
+<PAGE>   26
+
+E-NICHE INCORPORATED
+(A DEVELOPMENT STAGE ENTERPRISE)
+NOTES TO FINANCIAL STATEMENTS
+
+
+
+
+1.      NATURE OF THE BUSINESS
+
+        e-Niche Incorporated (the "Company") was incorporated in the State of
+        Delaware on July 29, 1997. The Company was formed to design and develop
+        marketplaces on the Internet that bring together buyers and sellers of
+        rare and hard-to-find items. Since its inception, the Company has
+        devoted substantially all of its efforts to business planning, research
+        and development, recruiting management and technical staff, acquiring
+        operating assets and raising capital. Accordingly, the Company is
+        considered to be in the development stage as defined in Statement of
+        Financial Accounting Standards ("SFAS") No. 7.
+
+
+2.      SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES
+
+        USE OF ESTIMATES
+
+        The preparation of financial statements in conformity with generally
+        accepted accounting principles requires management to make estimates and
+        assumptions that affect the reported amounts of assets and liabilities
+        and the disclosure of contingent assets and liabilities at the date of
+        the financial statements and the reported amounts of revenues and
+        expenses during the reporting period. Actual results could differ from
+        those estimates.
+
+        CASH AND CASH EQUIVALENTS
+
+        All highly liquid investments with an initial maturity of three months
+        or less are considered to be cash equivalents. The Company invests
+        excess cash primarily in money market funds of major financial
+        institutions. Accordingly, these investments are subject to minimal
+        credit and market risk. At December 31, 1998, the Company's cash
+        equivalents are classified as available-for-sale and include $1,400,000
+        in money market funds. These investments are stated at cost plus accrued
+        interest, which approximates fair market value.
+
+        FIXED ASSETS
+
+        Fixed assets are recorded at cost and depreciated using the
+        straight-line method over their estimated useful lives. Repair and
+        maintenance costs are expensed as incurred.
+
+        ACCOUNTING FOR STOCK-BASED COMPENSATION
+
+        The Company accounts for stock-based awards to employees using the
+        intrinsic value method as prescribed in Accounting Principles Board
+        ("APB") Opinion No. 25, "Accounting for Stock Issued to Employees," and
+        related interpretations and has adopted the provisions of Statement of
+        Financial Accounting Standards No. 123, "Accounting for Stock-Based
+        Compensation," through disclosure only (Note 7).
+
+        COMPREHENSIVE INCOME
+
+        The Company adopted SFAS No. 130, "Reporting Comprehensive Income,"
+        effective January 1, 1998. This statement requires a full set of general
+        purpose financial statements to be expanded to include the reporting of
+        "comprehensive income." Comprehensive income is comprised of two
+        components, net income and other comprehensive income. During the year
+        ended December 31, 1998 and the period from inception (July 29, 1997)
+        through December 31, 1997, the Company had no items qualifying as other
+        comprehensive income; accordingly, the adoption of SFAS No. 130 had no
+        impact on the Company's financial statements.
+
+<PAGE>   27
+
+E-NICHE INCORPORATED
+(A DEVELOPMENT STAGE ENTERPRISE)
+NOTES TO FINANCIAL STATEMENTS
+
+
+        RECENTLY ISSUED ACCOUNTING PRONOUNCEMENTS
+
+        In June 1998, the FASB issued SFAS No. 133, "Accounting for Derivative
+        Instruments and Hedging Activities." The new standard establishes
+        accounting and reporting standards for derivative instruments, including
+        certain derivative instruments embedded in other contracts,
+        (collectively referred to as derivatives) and for hedging activities.
+        SFAS No. 133 is effective for all fiscal quarters of fiscal years
+        beginning after June 15, 1999. The Company does not expect SFAS No. 133
+        to have a material effect on its financial position or results of
+        operations.
+
+        In February 1998, the Accounting Standards Executive Committee ("AcSEC")
+        issued Statement of Position ("SoP") 98-1, "Accounting for the Costs of
+        Computer Software Developed or Obtained for Internal Use." SoP 98-1
+        establishes the accounting for costs of software products developed or
+        purchased for internal use, including when such costs should be
+        capitalized. SoP 98-1 will be effective for the Company beginning in
+        fiscal 1999, and the Company does not expect adoption of this SoP to
+        have a material effect on its financial position or results of
+        operations.
+
+        In April 1998, the AcSEC issued SoP 98-5, "Reporting on the Costs of
+        Start-Up Activities." Start-up activities are defined broadly as those
+        one-time activities related to the opening of a new facility,
+        introducing a new product or service, conducting business in a new
+        territory, conducting business with a new class of customer, commencing
+        some new operation or organizing a new entity. SoP 98-5 requires that
+        the cost of start-up activities be expensed as incurred. SoP 98-5 is
+        effective for the Company beginning in fiscal 1999, and the Company does
+        not expect adoption of this SoP to have a material effect on its
+        financial position or results of operations.
+
+
+3.      FIXED ASSETS
+
+        Fixed assets consist of the following:
+
+<TABLE>
+<CAPTION>
+                                                    ESTIMATED
+                                                   USEFUL LIFE        DECEMBER 31,
+                                                     (YEARS)      1998           1997
+                                                                                    
+<S>                                                <C>         <C>             <C>      
+            Computer equipment and software             3      $  172,639      $       -
+            Office equipment                            3          14,271              -
+            Furniture and fixtures                      5           7,346          4,854
+                                                               -----------     ---------
+                                                                               
+                                                                  194,256          4,854
+            Less - accumulated depreciation                        (9,868)          (485)
+                                                               -----------     ---------
+                                                                               
+                                                                               
+                                                               $  184,388      $   4,369
+                                                               ===========     ==========
+                                                                                    
+                                                                                
+</TABLE>
+
+
+
+
+
+<PAGE>   28
+
+
+E-NICHE INCORPORATED
+(A DEVELOPMENT STAGE ENTERPRISE)
+NOTES TO FINANCIAL STATEMENTS
+
+
+4.      LINE OF CREDIT
+
+        In October 1998, the Company entered into an agreement with a bank under
+        which it may borrow up to $350,000 for working capital purposes
+        ("Working Capital Line") and $150,000 for purchases of fixed assets
+        ("Equipment Line"). Outstanding borrowings under the agreement are
+        collateralized by the Company's assets and bear interest at the lender's
+        prime rate plus 1.0% for the Working Capital Line and the lender's prime
+        rate plus 0.5% for the Equipment Line (8.75% and 8.25% at December 31,
+        1998, respectively). The Working Capital Line expires on October 8,
+        1999, at which time all outstanding interest and principal is due. The
+        Equipment Line expires on July 8, 1999, at which time all outstanding
+        interest and principal will convert to a thirty month term loan payable
+        in thirty monthly installments of principal and interest. Under the
+        terms of the agreement, the Company is required to comply with certain
+        restrictive covenants, including the maintenance of a minimum tangible
+        net worth of $250,000 and limitations on indebtedness, liens, mergers
+        and payments of dividends.
+
+        As of December 31, 1998, there are no outstanding borrowings under the
+        Working Capital Line and future minimum principal payments under the
+        Equipment Line are as follows:
+
+<TABLE>
+<CAPTION>
+            YEAR ENDING
+            DECEMBER 31,
+<S>                              <C>
+
+            1999                 $  25,000
+            2000                    60,000
+            2001                    60,000
+            2002                     5,000
+                                 ---------
+
+                                 $ 150,000
+                                 =========
+</TABLE>
+
+        In April 1999, all outstanding borrowings and interest under the 
+        Equipment Line were repaid in full.
+
+5.      PREFERRED STOCK
+
+        On September 4, 1998, the Company authorized and issued 2,000,000 shares
+        of Series A redeemable convertible preferred stock (the "Series A
+        stock") at a price of $1.00 per share and converted $55,000 of notes
+        payable to a stockholder into 1 share of Series B convertible preferred
+        stock (the "Series B stock") and 363,191 shares of common stock. The
+        Series A and Series B stock has the following characteristics.
+
+        VOTING RIGHTS
+
+        Holders of Series A stock are entitled to the number of votes equal to
+        the number of shares of the Company's common stock into which such
+        holder's shares are convertible at the record date for such vote. The
+        holder of Series B stock is entitled to one vote on the affairs of the
+        Company.
+
+
+<PAGE>   29
+
+E-NICHE INCORPORATED
+(A DEVELOPMENT STAGE ENTERPRISE)
+NOTES TO FINANCIAL STATEMENTS
+
+
+        DIVIDEND RIGHTS
+
+        The holders of Series A stock are not entitled to receive dividends
+        unless declared by the Company's Board of Directors. Any dividends
+        declared must be distributed and paid in full to the holders of Series A
+        stock prior to payments to common stockholders. The holder of Series B
+        stock is not entitled to dividends. From the date of issuance of Series
+        A stock through December 31, 1998, no dividends have been declared or
+        paid by the Company.
+
+        LIQUIDATION PREFERENCES
+
+        In the event of any liquidation, dissolution, winding up or
+        reorganization (including certain mergers or asset sales) of the
+        Company, the holders of Series A stock and Series B stock shall be
+        entitled to receive an amount equal to $1.00 per share plus any declared
+        but unpaid dividends and $75,000 per share, respectively. If the assets
+        of the Company are insufficient to pay these amounts in full, the
+        liquidation distribution shall be made ratably based upon these amounts.
+
+        Any assets remaining following any liquidation distribution to the
+        holders of Series A stock and Series B stock will be distributed ratably
+        among the common stockholders.
+
+        CONVERSION RIGHTS
+
+        Each share of Series A stock is convertible at any time at the option of
+        the holder into one share of common stock, subject to certain
+        adjustments. Upon the closing of an initial public offering in which net
+        proceeds equal or exceed $20,000,000 and in which the price per common
+        share to the public is at least $5.00, all outstanding shares of Series
+        A stock and Series B stock automatically convert into shares of common
+        stock at the then effective conversion rate (one share of common stock
+        for each share of Series A stock and each share of Series B stock at
+        December 31, 1998). Series A stock shall also convert into shares of
+        common stock at the then effective conversion rate upon the election of
+        more than 66 2/3% of the holders of Series A stock.
+
+        At December 31, 1998, 2,000,001 shares of the Company's common stock
+        have been reserved for issuance upon conversion of Series A stock and
+        Series B stock.
+
+        REDEMPTION RIGHTS
+
+        At the request of the majority of the holders of Series A stock, the
+        Company will redeem all outstanding shares of Series A stock in three
+        equal annual installments beginning September 4, 2003 at a redemption
+        price of $1.00 per share, plus any declared but unpaid dividends,
+        subject to certain anti-dilution adjustments.
+
+
+6.      COMMON STOCK
+
+        Each share of common stock entitles the holder to one vote on all
+        matters submitted to a vote of the Company's stockholders. Common
+        stockholders are entitled to receive dividends, if any, as may be
+        declared by the Board of Directors, subject to the preferential
+        dividend rights of the holders of Series A stock.
+
+
+
+
+<PAGE>   30
+
+E-NICHE INCORPORATED
+(A DEVELOPMENT STAGE ENTERPRISE)
+NOTES TO FINANCIAL STATEMENTS
+
+
+
+        In September 1998, the Company entered into a recapitalization agreement
+        whereby the common stock was split at a ratio of 1,386.809 to 1. All
+        shares of common stock and options included in the accompanying
+        financial statements have been retroactively adjusted to reflect the
+        stock split for all periods presented.
+
+        RESTRICTED STOCK AGREEMENTS
+
+        The Company has entered into stock restriction agreements with certain
+        stockholders. The agreements provide that, in the event these
+        individuals are no longer employed by the Company, the Company has the
+        right to repurchase any or all unvested shares at their original
+        issuance price. The repurchase option rights lapse at various dates
+        through February 2003. At December 31, 1998, 1,443,002 shares of common
+        stock were subject to repurchase by the Company.
+
+        At December 31, 1998, the Company's outstanding common stock is subject
+        to certain restrictions as to sale or transfer. The Company and its
+        stockholders are entitled to a right of first refusal on shares offered
+        for sale at the then-current fair market value.
+
+
+7.      STOCK OPTION PLAN
+
+        In 1998, the Company adopted the 1998 Stock Plan (the "1998 Plan") which
+        provides for the grant of incentive stock options and non-qualified
+        stock options, stock awards and stock purchase rights for the purchase
+        of up to 750,000 shares of the Company's common stock by officers,
+        employees, consultants and directors of the Company. The Board of
+        Directors is responsible for administration of the 1998 Plan. The Board
+        determines the term of each option, the option exercise price, the
+        number of shares for which each option is granted and the rate at which
+        each option is exercisable. Incentive stock options may be granted to
+        any officer or employee at an exercise price per share of not less than
+        the fair value per common share on the date of the grant (not less than
+        110% of fair value in the case of holders of more than 10% of the
+        Company's voting stock) and with a term not to exceed ten years from the
+        date of the grant (five years for grants to holders of more than 10% of
+        the Company's voting stock). Non-qualified stock options may be granted
+        to any officer, employee, consultant or director at an exercise price
+        per share of not less than the book value per share.
+
+        No compensation cost has been recognized for employee stock options from
+        inception (July 29, 1997) through December 31, 1998. Had compensation
+        cost been determined based on the fair value at the grant dates for
+        options granted in 1998 consistent with the provisions of SFAS No. 123,
+        the Company's net loss for the year ended December 31, 1998 would have
+        been approximately $430,000. Because options vest over several years and
+        additional option grants are expected to be made in future years, the
+        above pro forma results are not representative of the pro forma results
+        for future years.
+
+        For purposes of pro forma disclosure, the fair value of each option
+        grant was estimated on the date of grant using the Black-Scholes
+        option-pricing model with the following assumptions for grants in 1998:
+        no dividend yield; no volatility; risk-free interest rate of 5% and
+        expected lives of 5 years.
+
+
+
+
+<PAGE>   31
+
+E-NICHE INCORPORATED
+(A DEVELOPMENT STAGE ENTERPRISE)
+NOTES TO FINANCIAL STATEMENTS
+
+
+
+        A summary of the status of the Company's stock options as of
+        December 31, 1998, and changes during the year then ended is presented
+        below:
+
+
+<TABLE>
+<CAPTION>
+                                                                                WEIGHTED-
+                                                                                AVERAGE
+                                                                                EXERCISE
+                                                               SHARES            PRICE
+<S>                                                          <C>               <C>   
+            Granted                                            369,500           $ 0.10
+
+            Outstanding at end of year                         369,500           $ 0.10
+                                                              ========
+
+            Options exercisable at end of year                      -
+
+            Weighted-average fair value of
+              options granted during the year                 $  0.03
+
+            Options available for future grant                380,500
+</TABLE>
+
+
+
+
+        The following table summarizes information about stock options
+        outstanding at December 31, 1998:
+
+<TABLE>
+<CAPTION>
+                                                WEIGHTED-
+                                                AVERAGE
+                                                REMAINING
+                                               CONTRACTUAL
+                                                  LIFE            SHARES
+           EXERCISE PRICE          SHARES        (YEARS)        EXERCISABLE
+<S>                               <C>          <C>              <C>
+               $0.10               369,500           9.92                -
+</TABLE>
+
+
+8.      INCOME TAXES
+
+        During the period from July 29, 1997 (inception) through September 4,
+        1998, the Company qualified under Section 1362 of the Internal Revenue
+        Code as an S Corporation and was not required to pay income taxes. S
+        Corporation stockholders are required to report their respective share
+        of the Company's taxable income or loss on their individual tax returns
+        and are personally liable for any related tax. During 1998, the
+        Company's S Corporation status was terminated and it qualified as a C
+        Corporation. The net loss incurred while the Company qualified as an S
+        Corporation remains with its stockholders. The loss incurred by the
+        Company as a C Corporation is to be carried forward by the Company.
+
+
+
+<PAGE>   32
+
+E-NICHE INCORPORATED
+(A DEVELOPMENT STAGE ENTERPRISE)
+NOTES TO FINANCIAL STATEMENTS
+
+
+
+        At December 31, 1998, net deferred tax assets are comprised of the
+        following:
+
+<TABLE>
+<S>                                                       <C>      
+             Deferred tax assets:
+
+                Net operating loss carryforwards          $ 168,976
+                Other                                         2,884
+                                                          ---------
+
+             Gross deferred tax assets                      171,860
+             Deferred tax liabilities                       (11,934)
+                                                          ---------
+
+             Net deferred tax assets                        159,926
+             Deferred tax asset valuation allowance        (159,926)
+                                                          ---------
+
+                                                          $       -
+                                                          =========
+</TABLE>
+
+
+        Realization of net deferred tax assets is dependent upon the generation
+        of future taxable income. The Company has provided a valuation allowance
+        for the full amount of its deferred tax assets, since realization of
+        these future benefits is not sufficiently assured.
+
+        At December 31, 1998, the Company has federal and state net operating
+        loss carryforwards of approximately $410,000 available to reduce future
+        taxable income which expire at various dates through 2018.
+
+        Under the provisions of the Internal Revenue Code, certain substantial
+        changes in the Company's ownership may limit the amount of net operating
+        loss carryforwards and research and development credit carryforwards
+        which could be utilized annually to offset future taxable income and
+        taxes payable.
+
+
+9.      COMMITMENTS
+
+        The Company leases office space and off-site facilities for certain
+        computer equipment under noncancelable operating leases. Total rent
+        expense under these operating leases was approximately $17,600 and
+        $2,600 for the year ended December 31, 1998 and the period from
+        inception (July 29, 1997) through December 31, 1997, respectively.
+
+        Future minimum lease payments at December 31, 1998 are as follows:
+
+<TABLE>
+<CAPTION>
+            YEAR ENDING DECEMBER 31,
+<S>                                                    <C>    
+                  1999                                     150,000
+                  2000                                     108,000
+                  2001                                     108,000
+                                                        ----------
+
+                                                        $  366,000
+                                                        ==========
+</TABLE>
+
+
+
+<PAGE>   33
+
+
+E-NICHE INCORPORATED
+(A DEVELOPMENT STAGE ENTERPRISE)
+NOTES TO FINANCIAL STATEMENTS
+
+
+10.     SUBSEQUENT EVENTS
+
+        On January 8, 1999, the Company issued convertible notes payable (the
+        "Notes") to new and existing Company investors for total proceeds of
+        $4,000,000. The Notes bore interest at 4.75% per annum and on February
+        25, 1999, the Notes were canceled. In return for the cancellation of the
+        Notes, the Company issued 881,640 shares of Series C redeemable
+        convertible preferred stock ("Series C stock").
+
+        Additionally, on February 25, 1999, the Company issued 1,322,442 shares
+        of Series C stock at a price of $4.54 per share to existing and new
+        investors for cash proceeds of $6,000,000. Each share of Series C stock
+        is convertible into one share of common stock subject to certain
+        anti-dilution adjustments. The holders of Series C stock will
+        participate on an as-converted basis in any dividends paid on common
+        stock and are entitled to one vote on all matters. The liquidation
+        preference of Series C stock is equal to its issue price. At the request
+        of the majority of the holders of Series C stock, the Company will
+        redeem all outstanding shares of Series C stock in three equal annual
+        installments beginning September 4, 2003 at a redemption price of $4.54
+        per share, plus any declared but unpaid dividends, subject to certain
+        anti-dilution adjustments.
+
+        On January 11, 1999, the Company acquired all of the outstanding stock
+        of Bibliofind, Inc. in an acquisition accounted for as a purchase in
+        accordance with APB No. 16 "Business Combinations." The Company paid
+        $4,000,000 in cash and issued $2,000,000 of promissory notes payable to
+        the shareholders of Bibliofind. In March 1999, the Company repaid in
+        full the promissory notes payable issued in connection with the
+        acquisition.
+
+        On April 24, 1999, the Company entered into an Agreement and Plan of
+        Merger (the "Merger Agreement") with Amazon.com, Inc. and Amazon.com
+        Auctions (collectively referred to as Amazon.com) and the stockholders
+        of the Company. Under the terms of the Merger Agreement, Amazon.com will
+        acquire all of the outstanding shares of the Company's stock and assume
+        all outstanding options in exchange for shares of Amazon.com, Inc.
+        common stock. Additionally, on or about the first anniversary of the
+        closing date of this transaction (the "Anniversary Date"), Amazon.com,
+        Inc. will issue additional shares of Amazon.com, Inc. common stock to
+        stockholders and pay cash to certain option holders of the Company
+        subject to certain conditions, including the employment of certain
+        employees of the Company at Amazon.com on the Anniversary Date. Prior to
+        the closing of the merger, the Company's Series A and Series C stock
+        will be converted to common stock at a 1-to-1 ratio. The holder of
+        Series B stock will be paid $75,000 for cancellation of the Series B
+        stock.
+
+
+
+
+<PAGE>   34
+                                 ALEXA INTERNET
+                         (A DEVELOPMENT STAGE COMPANY)
+                            CONDENSED BALANCE SHEETS
+                                 (IN THOUSANDS)
+
+<TABLE>
+<CAPTION>
+                                                                                MARCH 31, 1999      DECEMBER 31, 1998
+                                                                                --------------      -----------------
+                                                                                  (UNAUDITED)
+<S>                                                                             <C>                 <C>
+ASSETS
+Current assets:
+       Cash and cash equivalents                                                    $   628               $   147
+       Marketable securities                                                          1,839                 3,841
+       Accounts receivable                                                              352                   164
+       Prepaid expenses and other                                                        28                   172
+                                                                                    -------               -------
+            Total current assets                                                      2,847                 4,324
+
+Property and equipment, net                                                             790                   772
+Other assets                                                                           83                    16
+                                                                                    -------               -------
+            Total assets                                                            $ 3,720               $ 5,112
+                                                                                    =======               =======
+LIABILITIES AND STOCKHOLDERS' EQUITY
+Current liabilities:
+       Accounts payable                                                             $   162               $   238
+       Accrued advertising                                                              107                    --
+       Accrued liabilities                                                              169                   264
+       Deferred revenue                                                                  74                    55
+       Note payable, current portion                                                    309                   309
+                                                                                    -------               -------
+            Total current liabilities                                                   821                   866
+
+Note payable, less current portion                                                      178                   255
+                                                                                    -------               -------
+            Total liabilities                                                           999                 1,121
+                                                                                    -------               -------
+   
+Stockholders' equity:
+       Convertible preferred stock                                                    9,881                 9,881
+       Common stock                                                                   7,761                 2,019
+       Deferred compensation                                                         (5,971)                 (503)
+       Accumulated other comprehensive income                                           100                   125
+       Deficit accumulated during the development stage                              (9,050)               (7,531)
+                                                                                    -------               -------
+            Total stockholders' equity                                                2,721                 3,991
+                                                                                    -------               -------
+                Total liabilities and stockholders' equity                          $ 3,720               $ 5,112
+                                                                                    =======               =======
+</TABLE>
+
+
+
+                  See notes to condensed financial statements.
+<PAGE>   35
+
+                                 ALEXA INTERNET
+                         (A DEVELOPMENT STAGE COMPANY)
+                       CONDENSED STATEMENT OF OPERATIONS
+                                 (IN THOUSANDS)
+                                   (UNAUDITED)
+
+<TABLE>
+<CAPTION>
+                                                                                            PERIOD FROM
+                                                                                             INCEPTION
+                                                                                        (FEBRUARY 14, 1996)
+                                                THREE MONTHS ENDED  THREE MONTHS ENDED        THROUGH
+                                                  MARCH 31, 1999      MARCH 31, 1998       MARCH 31, 1999
+                                                ------------------  ------------------  -------------------
+<S>                                               <C>               <C>                    <C>
+Revenue                                              $   382           $     2                $  754
+                                                     -------           -------                ------
+Operating expenses:
+       Cost of revenue                                    66                --                    71  
+       Research and development                          384               313                 3,000
+       Sales and marketing                             1,013               465                 4,233
+       General and administrative                        370               153                 2,037
+       Depreciation and amortization                     122                79                   711
+                                                     -------           -------                ------
+            Total operating expenses                   1,955             1,010                10,052
+
+Operating loss                                        (1,573)           (1,008)               (9,298)
+
+Interest income, net                                      54                24                   243
+Other income (expense), net                               --                --                     4
+                                                     -------           -------                ------
+            Net loss                                  (1,519)             (984)               (9,051)
+
+Other comprehensive income:
+       Change in unrealized gain on
+         available-for-sale marketable
+         securities                                      (25)               --                   100
+                                                     -------           -------                ------
+           Comprehensive loss                        $(1,544)          $  (984)              $(8,951)
+                                                     =======           =======               =======
+</TABLE>
+
+                  See notes to condensed financial statements.
+<PAGE>   36
+                                 ALEXA INTERNET
+                         (A DEVELOPMENT STAGE COMPANY)
+                       CONDENSED STATEMENTS OF CASH FLOWS
+                                 (IN THOUSANDS)
+                                   (UNAUDITED)
+
+<TABLE>
+<CAPTION>
+                                                                                                               PERIOD FROM 
+                                                                                                                INCEPTION 
+                                                                                                            (FEBRUARY 14, 1996) 
+                                                                     THREE MONTHS       THREE MONTHS ENDED         THROUGH 
+                                                                 ENDED MARCH 31, 1999      MARCH 31, 1998       MARCH 31, 1999
+                                                                 --------------------   ------------------  ------------------
+<S>                                                              <C>                    <C>                 <C>
+Cash flows from operations:
+      Net loss                                                         $ (1,519)              $   (984)            $ (9,051)
+      Adjustments to reconcile net loss to net cash                                     
+           used in operating activities:                                                
+      Depreciation and amortization                                         396                     79                  982
+      Amortization of deferred stock compensation                            --                     --                  137
+      Gain on sale of marketable securities                                 (57)                   (30)                (253)
+      Expenses paid through issuance of preferred stock                      --                     --                   30
+      Changes in operating assets and liabilities:                                      
+           Accounts receivable                                              (93)                    --                 (257)
+           Other current assets                                              48                    (66)                  48
+           Other assets                                                     (67)                    --                 (255)
+           Accounts payable                                                  --                     --                  238
+           Accrued liabilities                                              (45)                   124                  219
+           Deferred Revenue                                                  --                     --                   55
+                                                                       --------               --------             --------
+                 Net cash used in operating activities                   (1,337)                  (877)              (8,107)
+                                                                       --------               --------             --------
+                                                                                        
+Cash flows from investing activities:                                                   
+      Payments for property and equipment                                  (140)                  (173)              (1,497)
+      Purchase of short-term investments                                     --                     --              (11,199)
+      Cash receipts on maturities of securities                           2,035                  1,000                9,715
+                                                                       --------               --------             --------
+                 Net cash provided by (used in) investing activities      1,895                    827               (2,981)
+                                                                       --------               --------             --------
+                                                                                        
+                                                                                        
+Cash flows from financing activities:                                                   
+      Proceeds from issuance of common stock                                 --                     --                   16
+      Proceeds from issuance of preferred stock, net                         --                     --                4,862
+      Proceeds from issuance of warrants                                     --                     --                   52
+      Proceeds from exercise of warrant for preferred stock                  --                     --                5,000
+      Proceeds from notes payable                                            --                     --                  774
+      Proceeds from convertible notes payable                                --                     --                1,299
+      Purchase of treasury stock                                             --                     --                   (1)
+      Payments for term loan                                                (77)                   (50)                (286)
+                                                                       --------               --------             --------
+                 Net cash provided by (used in) financing activities        (77)                   (50)              11,716
+                                                                       --------               --------             --------
+                                                                                        
+Net increase (decrease) in cash and cash equivalents                        481                   (100)                 628
+Cash and cash equivalents - beginning of period                             147                    620                   --
+                                                                       --------               --------             --------
+Cash and cash equivalents - end of period                              $    628               $    520             $    628
+                                                                       --------               --------             --------
+                                                                                      
+</TABLE>
+
+
+
+                  See notes to condensed financial statements.
+<PAGE>   37
+                    NOTES TO CONDENSED FINANCIAL STATEMENTS
+- --------------------------------------------------------------------------------
+
+BASIS OF PRESENTATION
+
+The accompanying unaudited condensed financial statements have been prepared in
+accordance with generally accepted accounting principles for interim financial
+information and Article 10 of Regulation S-X. Accordingly, they do not include
+all of the information and notes required by generally accepted accounting
+principles for complete financial statements. In the opinion of management, all
+adjustments (consisting only of normal recurring accruals) considered necessary
+for a fair presentation have been included. Operating results for the three
+month period ended March 31, 1999 are not necessarily indicative of the results
+that may be expected for the year ending December 31, 1999. For further
+information, refer to the consolidated financial statements for the years ended
+December 31, 1998 and 1997 and for the cumulative period from February 14, 1996
+(inception) to December 31, 1998 and notes thereto included herein.
+
+During the first quarter of 1999, the Company issued employee stock options at
+below fair value and recorded deferred stock compensation of approximately 
+$5.7 million in connection with these grants.
+
+SUBSEQUENT EVENT
+
+On April 24, 1999, Amazon.com, Inc. ("Amazon.com"), AI Acquisitions, Inc., a
+wholly owned subsidiary of Amazon.com, Alexa Internet ("Alexa"), and Brewster
+Kahle, the President and Chief Executive Officer of Alexa, entered into a
+definitive Agreement and Plan of Merger (the "Alexa Merger Agreement"). Pursuant
+to the Alexa Merger Agreement, and subject to the terms and conditions thereof,
+Amazon.com will acquire all of the capital stock and assume all outstanding
+options of Alexa. The Alexa Merger will be accounted for under the purchase
+method of accounting.
+
+Amazon.com will issue Amazon.com common stock, par value $.01 per share,
+totaling approximately $250 million.
+
+RECLASSIFICATION ADJUSTMENTS
+
+Certain amounts for Alexa have been reclassified to conform to Amazon.com's
+financial statement presentation.
+
+<PAGE>   38
+
+                              E-NICHE INCORPORATED
+                        (A DEVELOPMENT STAGE ENTERPRISE)
+                      CONDENSED CONSOLIDATED BALANCE SHEET
+                                 (IN THOUSANDS)
+
+<TABLE>
+<CAPTION>
+                                                                            MARCH 31,       DECEMBER 31,
+                                                                               1999            1998
+                                                                             -------          -------
+                                                                           (UNAUDITED)
+<S>                                                                        <C>              <C>  
+ASSETS
+Current assets:
+      Cash and cash equivalents                                              $ 4,659          $ 1,606
+      Prepaid expenses and other current assets                                   45               56
+                                                                             -------          -------
+            Total current assets                                               4,704            1,662
+
+Fixed assets, net                                                                407              184
+Goodwill and other assets, net                                                 5,732               18
+                                                                             -------          -------
+            Total assets                                                     $10,843          $ 1,864
+                                                                             =======          =======
+
+LIABILITIES AND STOCKHOLDERS' DEFICIT
+Current liabilities:
+      Current portion of long-term debt                                      $   126          $    25
+      Accounts payable                                                           185               82
+      Other accrued expenses                                                      69               38
+                                                                             -------          -------
+            Total current liabilities                                            380              145
+                                                                             -------          -------
+Long-term debt                                                                   125              125
+                                                                             -------          -------
+Redeemable convertible preferred stock                                        11,936            1,974
+                                                                             -------          -------
+Stockholders' deficit:
+      Convertible preferred stock                                                 19               18
+      Common stock                                                                23               22
+      Additional paid-in capital                                                  39               39
+      Deficit accumulated during the development stage                        (1,679)            (459)
+                                                                             -------          -------
+            Total stockholders' deficit                                       (1,598)            (380)
+                                                                             -------          -------
+                Total liabilities and stockholders' deficit                  $10,843          $ 1,864
+                                                                             =======          =======
+
+</TABLE>
+
+           See notes to condensed consolidated financial statements.
+<PAGE>   39
+                              E-NICHE INCORPORATED
+                        (A DEVELOPMENT STAGE ENTERPRISE)
+                 CONDENSED CONSOLIDATED STATEMENT OF OPERATIONS
+                                 (IN THOUSANDS)
+                                   (UNAUDITED)
+
+<TABLE>
+<CAPTION>
+                                                                                             PERIOD FROM
+                                                                                              INCEPTION
+                                                       THREE MONTHS       THREE MONTHS     (JULY 29, 1997)
+                                                          ENDED              ENDED             THROUGH
+                                                      MARCH 31, 1999     MARCH 31, 1998     MARCH 31, 1999
+                                                      --------------     --------------    ----------------
+<S>                                                   <C>                <C>               <C>
+
+Net sales                                                $   173                $  --          $   173
+Cost of sales                                                  5                   --                5
+                                                         -------                -----          -------
+Gross profit                                                 168                   --              168
+
+Operating expenses:
+      Selling and marketing                                  157                   --              215
+      Research and development                               308                   --              441
+      General and administrative                             625                    1              892
+      Merger and acquisition related
+        costs, including amortization
+        of goodwill and other purchased
+        intangibles                                          262                   --              262
+                                                         -------                 ----          -------
+           Total operating expenses                        1,352                    1            1,810
+
+Loss from operations                                      (1,184)                  (1)          (1,642)
+Interest expense, net                                        (36)                  --              (37)
+                                                         -------                 ----          -------
+Net loss                                                 $(1,220)                $ (1)         $(1,679)
+                                                         =======                 ====          =======
+</TABLE>
+
+
+           See notes to condensed consolidated financial statements.
+<PAGE>   40
+\                              E-NICHE INCORPORATED
+                        (A DEVELOPMENT STAGE ENTERPRISE)
+                CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+                                 (IN THOUSANDS)
+                                  (UNAUDITED)
+
+
+<TABLE>
+<CAPTION>
+                                                                                           Period from
+                                                                                            Inception
+                                                                                         (July 29, 1997)
+                                                 Three Months Ended  Three Months Ended        through
+                                                   March 31, 1999      March 31, 1998    March 31, 1999
+                                                   --------------      --------------    ---------------
+<S>                                                <C>                 <C>               <C>
+Cash flows from operating activities:
+  Net loss                                            $  (1,219)          $     (1)          $  (1,679)
+  Adjustments to reconcile net loss to net cash
+    provided (used) by operating activities:
+  Depreciation and amortization                             297                 --                 307
+  Compensation expense exercised with the
+      issuance of restricted stock                           --                 --                   5
+  Changes in assets and liabilities
+    Accounts receivable and prepaid expenses                 13                 --                 (43)
+    Accounts payable and accrued expenses                    93                 --                 215
+                                                     ------------        ------------      -------------
+                                                           (816)                (1)             (1,195)
+                                                     ------------        ------------      -------------
+
+Cash flows from investing activities:
+  Purchases of fixed assets                                (172)                --                (367)
+  Acquisition of Bibliofind, net of cash received        (5,996)                --              (5,996)
+  Increase in other assets                                  (26)                --                 (44)
+                                                     ------------        ------------      -------------
+         Net cash used by investing activities           (6,194)                --              (6,407)
+                                                     ------------        ------------      -------------
+Cash flows from financing activities:
+  Borrowings from line of credit                             --                 --                 150
+  Proceeds from notes payable, including notes to
+    stockholders                                          6,000                 --               6,055
+  Repayment of notes payable, including notes to
+    stockholders                                         (5,900)                --              (5,900)
+  Proceeds from issuance of preferred stock               9,962                 --              11,936
+  Other changes in capital, including issuance
+    of common stock                                          --                 --                  20
+                                                     ------------        ------------      -------------
+         Net cash provided by financing activities       10,062                 --              12,261
+                                                     ------------        ------------      -------------
+Net increase (decrease) in cash and cash
+  equivalents                                             3,052                 (1)              4,659
+
+Cash and cash equivalents at beginning of period          1,606                 16                  --
+                                                     ------------        ------------      -------------
+Cash and cash equivalents at end of period           $    4,658          $      15         $     4,659
+                                                     ------------        ------------      -------------
+</TABLE>
+
+           See notes to condensed consolidated financial statements.
+
+
+                            
+   
+    
+<PAGE>   41
+
+        NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS (UNAUDITED)
+        ---------------------------------------------------------------
+
+BASIS OF PRESENTATION
+
+The accompanying unaudited condensed consolidated financial statements have been
+prepared in accordance with generally accepted accounting principles for interim
+financial information and Article 10 of Regulation S-X. Accordingly, they do not
+include all of the information and notes required by generally accepted
+accounting principles for complete financial statements. In the opinion of
+management, all adjustments (consisting only of normal recurring accruals)
+considered necessary for a fair presentation have been included. Operating
+results for the three month period ended March 31, 1999 are not necessarily
+indicative of the results that may be expected for the year ending December 31,
+1999. For further information, refer to the consolidated financial statements
+for the period from inception (July 29, 1997) through December 31, 1998 and
+notes thereto included herein.
+
+SERIES C PREFERRED STOCK
+
+On January 8, 1999, the Company issued convertible notes payable to new and
+existing Company investors for total proceeds of $4 million. On February 25,
+1999, the Notes were canceled. In return for the cancellation of the Notes, the
+Company issued 881,640 shares of Series C redeemable convertible preferred stock
+("Series C stock"). Additionally, on February 25, 1999, the Company issued
+1,322,442 shares of Series C stock at a price of $4.54 per share to existing and
+new investors for cash proceeds of $6 million.
+
+ACQUISITION OF BIBLIOFIND, INC.
+
+On January 11, 1999, Exchange.com acquired all of the outstanding stock of
+Bibliofind, Inc. in an acquisition accounted for as a purchase in accordance
+with APB No. 16 "Business Combinations." Exchange.com paid $4 million in cash
+and issued $2 million of promissory notes payable to the shareholders of
+Bibliofind. Exchange.com recorded approximately $6 million in goodwill and will
+amortize this goodwill over approximately five years.  In March 1999,
+Exchange.com repaid in full the promissory notes payable issued in connection
+with the acquisition. Had Bibliofind's results of operations been included with
+Exchange.com's results of operations, Exchange.com's pro forma combined revenues
+and combined net loss would have been $507,000 and $(1,463,000), respectively,
+for the year ended December 31, 1998. Pro forma combined revenues and combined
+net loss would not have been materially different than reported results for the
+period ended March 31, 1999.
+
+SUBSEQUENT EVENT
+
+On April 24, 1999, Amazon.com, Inc. ("Amazon.com"), Amazon.com Auctions, Inc., a
+wholly owned subsidiary of Amazon.com, e-Niche Incorporated ("e-Niche
+Incorporated" or "Exchange.com"), and all of the stockholders of Exchange.com,
+entered into a definitive Agreement and Plan of Merger (the "Exchange.com Merger
+Agreement"). Pursuant to the Exchange.com Merger Agreement, and subject to the
+terms and conditions thereof, Amazon.com will acquire all of the capital stock
+and assume all outstanding options of Exchange.com. The Exchange.com Merger will
+be accounted for under the purchase method of accounting.
+
+Amazon.com will issue shares of its common stock, par value $.01 per share, and
+pay approximately $4 million of cash, with an aggregate value of approximately
+$200 million, assuming that all conditions have been met and assuming that
+$50 million of contingent consideration is paid to stockholders and certain 
+option holders subject to the continued employment of certain employees.
+
+RECLASSIFICATION ADJUSTMENTS
+
+Certain amounts for Exchange.com have been reclassified to conform to 
+Amazon.com's financial statement presentation.
+
+
+<PAGE>   42
+UNAUDITED PRO FORMA COMBINED CONDENSED FINANCIAL STATEMENTS
+
+The following unaudited pro forma combined condensed consolidated financial
+statements give effect to the Alexa Merger and the Exchange.com Merger. The
+Alexa Merger and the Exchange.com Merger will be accounted for under the
+purchase method of accounting in accordance with APB Opinion No. 16. Under the
+purchase method of accounting, the purchase price is allocated to the assets
+acquired and liabilities assumed based on their estimated fair values. The
+estimated fair values contained herein are preliminary in nature, and may not be
+indicative of the final purchase price allocation, which will be based on an
+assessment of fair value to be performed by an independent appraiser. Any
+amounts that may be allocable to in process research and development would be
+recorded as one time charges that would reduce the goodwill reflected in the pro
+forma combined condensed consolidated balance sheet and reduce the amount of
+amortization of goodwill reflected in the pro forma combined condensed
+consolidated statements of operations. Such preliminary estimates of the fair
+values of the assets and liabilities of Alexa and Exchange.com have been
+combined with the recorded values of the assets and liabilities of Amazon.com in
+the unaudited pro forma combined condensed consolidated financial statements.
+
+The unaudited pro forma combined condensed consolidated balance sheet has been
+prepared to reflect the acquisitions as if they occurred on March 31, 1999. The
+unaudited pro forma combined condensed consolidated statements of operations
+reflect the combined results of operations of Amazon.com, Alexa and Exchange.com
+for the year ended December 31, 1998 and the three months ended March 31, 1999
+as if the acquisitions occurred on January 1, 1998.
+
+The unaudited pro forma combined condensed consolidated financial statements are
+presented for illustrative purposes only and are not necessarily indicative of
+the combined condensed consolidated financial position or results of operations
+in future periods or the results that actually would have been realized had
+Amazon.com, Alexa and Exchange.com been a combined company during the specified
+periods. The unaudited pro forma combined condensed consolidated financial
+statements, including the notes thereto, are qualified in their entirety by
+reference to, and should be read in conjunction with, the historical
+consolidated financial statements of Amazon.com, included in its Annual Report
+on Form 10-K for the year ended December 31, 1998 and its Current Reports on
+Form 8-K filed August 27, 1998 and April 29, 1999.
+
+
+            PRO FORMA COMBINED CONDENSED CONSOLIDATED BALANCE SHEET
+                                 MARCH 31, 1999
+                                 (IN THOUSANDS)
+                                   (UNAUDITED)
+
+<TABLE>
+<CAPTION>
+                                                                                            ALEXA      EXCHANGE.COM
+                                                                                           PROFORMA      PROFORMA          PROFORMA
+                                                    AMAZON.COM    ALEXA    EXCHANGE.COM  ADJUSTMENTS    ADJUSTMENTS        BALANCE 
+                                                  ------------  --------  -------------  -----------   ------------        --------
+<S>                                               <C>           <C>         <C>           <C>            <C>            <C>      
+ASSETS
+Current assets:
+      Cash                                        $    5,248    $    628      $4,659      $     --       $ (1,075)d     $    9,460
+      Marketable securities                        1,437,717       1,839          --            --             --        1,439,556
+      Inventories                                     45,236          --          --            --             --           45,236
+      Prepaid expenses and other                      37,077         380          45            --          1,000 d         38,502
+                                                  ----------    --------     -------      --------       --------       ----------
+           Total current assets                    1,525,278       2,847       4,704            --            (75)       1,532,754
+
+Fixed assets, net                                     60,600         790         407            --             --           61,797
+Goodwill and other, net                              187,194          83       5,732       248,230 c      124,291 f        565,530
+Deferred charges                                      39,912          --          --            --             --           39,912
+                                                  ----------    --------     -------      --------       --------       ----------
+           Total assets                           $1,812,984    $  3,720     $10,843      $248,230       $124,216       $2,199,993
+                                                  ==========    ========     =======      ========       ========       ==========
+
+LIABILITIES AND STOCKHOLDERS' EQUITY
+Current liabilities:
+      Accounts payable                            $  133,018    $    162     $   185      $     --       $     --       $  133,365
+      Accrued advertising                             16,187         107          --            --             --           16,294
+      Other liabilities and accrued expenses          45,194         243          69         1,000 a        1,250 d         47,756
+      Current portion of long-term debt                                                                          
+        and capital lease obligation                   7,186         309         126            --             --            7,621
+                                                  ----------    --------     -------      --------       --------       ----------
+           Total current liabilities                 201,585         821         380         1,000          1,250          205,036
+
+Long-term debt and capital lease obligation        1,533,862         178         125            --             --        1,534,165
+
+Redeemable convertible preferred stock                    --          --      11,936            --        (11,936)e             
+
+Stockholders' equity:
+      Convertible preferred stock                         --       9,881          19        (9,881)b          (19)e             --
+      Common stock                                     1,614       7,761          23        (7,761)b          (23)e          
+                                                                                                12 a            7 d          1,633
+      Additional paid-in capital                     306,414          --          39       249,939 a      145,332 d        701,724
+      Deferred compensation and other                 (2,374)     (5,971)                    5,971 b      (12,074)g        (14,448)
+      Accumulated other comprehensive income          (4,390)         --          --            --             --           (4,390)
+      Accumulated deficit and other 
+        stockholders' equity                        (223,727)     (8,950)     (1,679)        8,950 b        1,679 e       (223,727)
+                                                  ----------    --------     -------      --------       --------       ----------
+           Total stockholders' equity                 77,537       2,721      (1,598)      247,230        134,902          460,792
+                                                  ----------    --------     -------      --------       --------       ----------
+               Total liabilities and 
+                 stockholders' equity             $1,812,984    $  3,720     $10,843      $248,230       $124,216       $2,199,993
+                                                  ==========    ========     =======      ========       ========       ==========
+</TABLE>
+
+  See notes to pro forma combined condensed consolidated financial statements.
+
+
+
+
+<PAGE>   43
+       PRO FORMA COMBINED CONDENSED CONSOLIDATED STATEMENT OF OPERATIONS
+                       THREE MONTHS ENDED MARCH 31, 1999
+                      (IN THOUSANDS, EXCEPT PER SHARE DATA)
+                                   (UNAUDITED)
+
+<TABLE>
+<CAPTION>
+                                                                                              ALEXA     EXCHANGE.COM
+                                                                                            PROFORMA      PROFORMA     PROFORMA
+                                                    AMAZON.COM    ALEXA    EXCHANGE.COM    ADJUSTMENTS   ADJUSTMENTS    BALANCE
+                                                  ------------    -----    -------------   -----------   ------------  ---------
+<S>                                               <C>             <C>      <C>             <C>           <C>           <C> 
+Net sales                                         $ 293,643       $  382   $    173        $       --    $      --     $ 294,198
+Cost of sales                                       228,852           66          5                --           --       228,923
+                                                  ---------       ------   --------        ----------    ---------     ---------
+Gross profit                                         64,791          316        168                --           --        65,275
+
+Operating expenses:
+      Marketing and sales                            60,744        1,013        157                --           --        61,914   
+      Product development                            23,477          506        308                --           --        24,291   
+      General and administrative                     11,165          370        625                --           --        12,160
+      Merger and acquisition related costs, 
+        including amortization
+        of goodwill and other 
+          purchased intangibles                      25,309           --        262            20,686 c     10,831 f      
+                                                                                                               906 g
+                                                                                                              (262)h      57,732
+                                                  ---------       ------   --------        ----------    ---------     ---------   
+           Total operating expenses                 120,695        1,889      1,352            20,686       11,475       156,097   
+
+Loss from operations                                (55,904)      (1,573)    (1,184)          (20,686)     (11,475)      (90,822)  
+Interest income                                      10,925           54         --                --           --        10,979   
+Interest expense                                    (16,688)          --        (36)               --           --       (16,724)  
+                                                  ---------       ------   --------        ----------    ---------     ---------
+      Net interest expense                           (5,763)          54        (36)               --           --        (5,770)  
+
+Net loss                                          $ (61,667)     $(1,519)  $ (1,220)       $  (20,686)   $ (11,475)    $ (96,567)  
+                                                  ==========      ======   ========        ==========    =========     =========  
+Basic and diluted loss per share                  $   (0.39)                                                           $   (0.61)
+                                                  ==========                                                           =========
+
+Shares used in computation of basic
+      and diluted loss per share                    156,897                                     1,176          661       158,734 
+                                                  ==========                               ==========    =========     =========
+</TABLE>
+  See notes to pro forma combined condensed consolidated financial statements.
+<PAGE>   44
+
+       PRO FORMA COMBINED CONDENSED CONSOLIDATED STATEMENT OF OPERATIONS
+                          YEAR ENDED DECEMBER 31, 1998
+                      (IN THOUSANDS, EXCEPT PER SHARE DATA)
+                                   (UNAUDITED)
+
+<TABLE>
+<CAPTION>
+                                                                                           ALEXA      EXCHANGE.COM
+                                                                                          PROFORMA      PROFORMA      PROFORMA
+                                                  AMAZON.COM     ALEXA    EXCHANGE.COM   ADJUSTMENTS   ADJUSTMENTS    BALANCE
+                                                 -----------   ---------  ------------   -----------  ------------   --------- 
+<S>                                              <C>           <C>        <C>            <C>          <C>             <C>
+
+Net sales                                        $ 609,996     $     372      $  --      $              $      --     $610,368
+Cost of sales                                      476,155             5         --                            --      476,160
+                                                 ---------     ---------      -----      ---------      ---------    ---------
+Gross profit                                       133,841           367         --                            --      134,208
+
+Operating expenses:
+      Marketing and sales                          133,023         2,216         57                            --      135,296
+      Product development                           46,807         1,693        130                            --       48,630
+      General and administrative                    15,799         1,024        241                            --       17,064
+      Merger and acquisition related costs, 
+      including amortization
+        of goodwill and other 
+          purchased intangibles                     50,172                                  82,743 c       43,327 f
+                                                                                                            7,244 g
+                                                                                                            1,000 g    184,486
+                                                 ---------     ---------      -----      ---------      ---------    ---------
+           Total operating expenses                245,801         4,933        428         82,743         51,571      385,476
+
+Loss from operations                              (111,960)       (4,566)      (428)       (82,743)       (51,571)    (251,268)
+Interest income                                     14,053           111                                                14,164
+Interest expense                                   (26,639)           (2)                                              (26,641)
+                                                 ---------     ---------      -----      ---------      ---------    ---------
+      Net interest expense                         (12,586)          109         --             --             --      (12,477)
+
+Net loss                                         $(124,546)       (4,457)     $(428)       (82,743)     $ (51,571)   $(263,745)
+                                                 =========     =========      =====      =========      =========    =========
+Basic and diluted loss per share                 $   (0.84)                                                          $   (1.76)
+                                                 =========                                                           =========
+
+Shares used in computation of basic
+      and diluted loss per share                   148,172                                   1,176            661      150,009
+                                                 =========                               =========      =========    =========
+</TABLE>
+
+  See notes to pro forma combined condensed consolidated financial statements.
+
+<PAGE>   45
+
+     NOTES TO PRO FORMA COMBINED CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+                                   (UNAUDITED)
+
+
+BASIS OF PRESENTATION
+
+The pro forma combined condensed consolidated financial statements reflect the
+issuance of Amazon.com common stock, par value $.01 per share ("Amazon.com
+Common Stock") and the issuance of Amazon.com replacement options for all
+outstanding shares of Alexa and Exchange.com. The Alexa Merger and Exchange.com
+Merger will be accounted for under the purchase method of accounting in
+accordance with APB Opinion No. 16.
+
+Subject to the satisfaction of all conditions precedent, the purchase price for
+Alexa is approximately $250 million and will be comprised of an estimated 1.176
+million shares of Amazon.com Common Stock and replacement options, including
+approximately $1 million of acquisition costs. The ultimate number of shares of
+Amazon.com Common Stock to be issued at closing will vary from this estimate
+based upon the fair value of Amazon.com Common Stock as defined in the Alexa
+Merger Agreement upon consummation of this transaction.
+
+Substantially all of the approximate $250 million purchase price will be
+allocated to goodwill and other purchased intangibles. Preliminary estimates of
+the fair value of assets and liabilities of Alexa have been combined with the
+recorded values of the assets and liabilities of Amazon.com in the unaudited pro
+forma combined condensed consolidated financial statements.
+
+Subject to the satisfaction of all conditions precedent, the purchase price for
+Exchange.com is approximately $150 million and is comprised of an estimated 661
+thousand shares of Amazon.com Common Stock and replacement options, including
+approximately $1.25 million of acquisition costs. The ultimate number of shares
+of Amazon.com Common Stock to be issued at closing will vary from this estimate
+based upon the fair value of Amazon.com Common Stock as defined in the
+Exchange.com Merger Agreement upon consummation of this transaction.
+
+Substantially all of the approximate $150 million purchase price will be
+allocated to goodwill and other purchased intangibles. Preliminary estimates of
+the fair value of assets and liabilities of Exchange.com have been combined with
+the recorded values of the assets and liabilities of Amazon.com in the unaudited
+pro forma combined condensed consolidated financial statements.
+
+On January 11, 1999, Exchange.com acquired all of the outstanding stock of
+BiblioFind, Inc. in an acquisition accounted for under the a purchase method of
+accounting in accordance with APB No. 16. Exchange.com paid $4 million in cash
+and issued $2 million of promissory notes payable to the shareholders of
+BiblioFind. Exchange.com recorded approximately $6 million of goodwill and
+intended to amortize the goodwill over approximately five years. In March 1999,
+Exchange.com repaid in full the promissory notes payable issued in connection
+with the acquisition. The Exchange.com portion of the Pro forma Combined
+Condensed Consolidated Statement of Operations for the year ended December 31,
+1998 does not reflect the results of operations of BiblioFind as if it had been
+acquired by Exchange.com on January 1, 1998, as required under APB No. 16. Had
+BiblioFind's results of operations been included with Exchange.com's results of
+operations, Exchange.com's pro forma combined revenues and combined net loss
+would have been $507,000 and $(1,463,000), respectively, for the year ended
+December 31, 1998. Pro forma combined revenues and combine net loss would not
+have been materially different than reported results for the period ended March
+31, 1999.
+
+PRO FORMA ADJUSTMENTS FOR ALEXA
+
+        (a)     To reflect the issuance of Amazon Common Stock and the
+                assumption of all outstanding options, having an aggregate value
+                of approximately $250 million, including approximately $1
+                million of transaction costs, to consummate the Alexa Merger
+                Agreement.
+
+        (b)     To eliminate the historical stockholders' equity of Alexa.
+
+        (c)     To record the excess of the purchase price over the estimated
+                fair value of assets and liabilities acquired in connection with
+                the Alexa Merger Agreement and the related amortization. The
+                purchase price allocation is based on management's preliminary
+                estimates of the fair values of the tangible assets and
+                intangible assets. The book value of tangible assets acquired
+                and liabilities are assumed to approximate fair value. The
+                estimated useful life of the goodwill and other purchased
+                intangible assets averages approximately 3 years.
+
+PRO FORMA ADJUSTMENTS FOR EXCHANGE.COM
+
+        (d)     To reflect the issuance of Amazon Common Stock, assumption of
+                all outstanding options and payment of approximately $1 million
+                of cash having an aggregate value of approximately $150 million,
+                including approximately $1 million of transaction costs, to
+                consummate the Exchange.com Merger Agreement.
+
+        (e)     To eliminate the historical redeemable preferred stock and
+                stockholders' equity of Exchange.com.
+
+        (f)     To record the excess of the purchase price over the estimated
+                fair value of assets and liabilities acquired in connection with
+                the Exchange.com Merger Agreement and the related amortization.
+                The purchase price allocation is based on management's
+                preliminary estimates of the fair values of the net tangible
+                assets and intangible assets and will be adjusted based on an
+                independent assessment of fair value. The book value of tangible
+                assets acquired and liabilities are assumed to approximate fair
+                value. The estimated useful life of the goodwill and other
+                purchased intangible assets averages approximately 3 years.
+<PAGE>   46
+        (g)     To record deferred compensation associated with the acquisition.
+
+        (h)     To eliminate amortization of goodwill associated with
+                Exchange.com's acquisition of BiblioFind, Inc.
+
+CONTINGENT CONSIDERATION
+
+   In addition to the approximate $150 million purchase price for all of
+the outstanding capital stock and assumption of all outstanding options of
+Exchange.com, approximately $47 million of Amazon.com Common Stock and
+approximately $3 million cash may be paid to stockholders and certain option
+holders of Exchange.com subject to the continued employment of certain employees
+of Exchange.com at Amazon.com for a period of one year after closing. This
+contingent consideration has not been reflected in the pro forma combined
+condensed consolidated financial statements.
+
+PRO FORMA LOSS PER COMMON SHARE
+
+   Basic pro forma earnings per share is computed using the weighted average
+number of Amazon.com common shares outstanding during the period plus shares of
+Amazon.com Common Stock issued in connection with the Alexa Merger and the
+Exchange.com Merger, excluding Amazon.com Common Stock subject to repurchase.
+Diluted pro forma earnings per share is computed using the weighted average
+number of common and common equivalent shares outstanding during the period plus
+shares of Amazon.com Common Stock and common equivalent shares assumed as part
+of the acquisition. Common equivalent shares consist of the incremental common
+shares issuable upon the exercise of stock options and warrants (using the
+treasury stock method). Common equivalent shares are excluded from the
+computation if their effect is antidilutive. Shares, options and warrants issued
+in connection with the Exchange.com Merger Agreement are assumed outstanding at
+the beginning of the period.
+
+CONFORMING AND RECLASSIFICATION ADJUSTMENTS
+
+   There were no material adjustments required to conform the accounting
+policies of Amazon.com, Alexa and Exchange.com. Certain amounts for Exchange.com
+have been reclassified to conform to Amazon.com's financial statement
+presentation. There have been no significant intercompany transactions.
+
+
+<PAGE>   47
+                                   SIGNATURES
+
+   Pursuant to the requirements of the Securities Exchange Act of 1934, the
+registrant has duly caused this amended report to be signed on its behalf by the
+undersigned hereunto duly authorized.
+
+                                         AMAZON.COM, INC.
+                                         (Registrant)
+
+
+Dated:  May 12, 1999                     By: /s/JOY D. COVEY
+                                             ----------------------------------
+                                             Joy D. Covey
+                                             Chief Financial Officer and Vice 
+                                             President of Finance and 
+                                             Administration
+
+
+
+
+
+<PAGE>   48
+                                  EXHIBIT INDEX
+
+
+<TABLE>
+<CAPTION>
+Exhibit Number       Description
+- --------------       -----------
+<S>                  <C>
+     23.1            Consent of PricewaterhouseCoopers LLP, Independent Accountants
+
+     23.2            Consent of PricewaterhouseCoopers LLP, Independent Accountants
+</TABLE>
+
+
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-23.1
+<SEQUENCE>2
+<DESCRIPTION>CONSENT OF PRICEWATERHOUSECOOPERS LLP
+<TEXT>
+
+<PAGE>   1
+                                                                    EXHIBIT 23.1
+
+                       CONSENT OF INDEPENDENT ACCOUNTANTS
+
+
+We hereby consent to the incorporation by reference in the Registration
+Statements on Form S-3 (Nos. 333-94435 and 333-65091), the Registration
+Statement on Form S-4 (No. 333-55943) and the Registration Statements on Form
+S-8 (Nos. 333-74419, 333-63311 and 333-28763) of Amazon.com, Inc. of our report
+dated April 23, 1999 relating to the financial statements of Alexa Internet
+which appears in the Current Report on Form 8-K of Amazon.com, Inc. dated
+May 11, 1999.
+
+
+
+PricewaterhouseCoopers LLP
+San Francisco, California 
+May 11, 1999
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-23.2
+<SEQUENCE>3
+<DESCRIPTION>CONSENT OF PRICEWATERHOUSECOOPERS LLP
+<TEXT>
+
+<PAGE>   1
+                                                                    EXHIBIT 23.2
+
+                       CONSENT OF INDEPENDENT ACCOUNTANTS
+
+
+We hereby consent to the incorporation by reference in the Registration
+Statements on Form S-3 (Nos. 333-94435 and 333-65091), the Registration
+Statement on Form S-4 (No. 333-55943) and the Registration Statements on Form
+S-8 (Nos. 333-74419, 333-63311 and 333-28763) of Amazon.com, Inc. of our report
+dated May 3, 1999 relating to the financial statements of e-Niche Incorporated,
+which appears in the Current Report on Form 8-K of Amazon.com, Inc. dated 
+May 11, 1999.
+
+
+PricewaterhouseCoopers LLP
+Boston, Massachusetts
+May 11, 1999
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

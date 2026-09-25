@@ -1,0 +1,564 @@
+==============================================================================
+PROVENANCE HEADER -- added by the Stage-3 Evidence Registrar (post-IPO filing intake)
+Retrieval date (access date) : 2026-09-25
+Original URL                 : https://www.sec.gov/Archives/edgar/data/1018724/0000891020-99-000726.txt
+HTTP status on retrieval     : 200
+Document                     : Form 8-K, complete submission (all 2 documents inline) -- FORM 8-K
+SEC CIK                      : 1018724 (AMAZON COM INC)
+Accession no.                : 0000891020-99-000726
+Filing date per EDGAR        : 1999-04-29   (SEC-HEADER FILED AS OF DATE: 19990429 -- agrees)
+Conformed submission type    : 8-K   Securities Exchange Act File No.: 000-22513
+Period of report             : 1999-04-28
+Bytes of retrieved body      : 25,344
+Body completeness            : COMPLETE -- terminates in </SEC-DOCUMENT>; 2 <DOCUMENT> blocks, types: 8-K, EX-99.1
+Request headers used         : User-Agent: FounderPlaybook Research AdminContact@example.com | Accept-Encoding: identity | Referer: https://www.sec.gov/
+Body encoding on wire        : identity (no compression negotiated); saved exactly as received
+Located via                  : https://data.sec.gov/submissions/CIK0001018724-submissions-002.json (pre-2000 slice, 1997-03-24 -> 2000-01-04); row form=8-K filingDate=1999-04-29 primaryDocDescription='FORM 8-K'
+Component documents (DESCRIPTION per EDGAR):
+      - FORM 8-K
+      - PRESS RELEASE DATED APRIL 28, 1999
+EX-99 PRESS RELEASE HEADLINE : ANNOUNCES FINANCIAL RESULTS FOR FIRST QUARTER 1999 AMAZON.COM'S COMMUNITY OF ONLINE SHOPPERS GROWS TO OVER 8.4 MILLION SEATTLE, WA--April 28, 1999--Am
+==============================================================================
+
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ IVbHTDZARIi0MJ8TJ7yWFBUJwZfbSmbd8FJd7OrTzMDgze2KTlhBwxjFb5+O2Hjo
+ 4/Xxt4//aNgtb0qBa6NOug==
+
+<SEC-DOCUMENT>0000891020-99-000726.txt : 19990430
+<SEC-HEADER>0000891020-99-000726.hdr.sgml : 19990430
+ACCESSION NUMBER:		0000891020-99-000726
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	19990428
+ITEM INFORMATION:		
+ITEM INFORMATION:		
+FILED AS OF DATE:		19990429
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AMAZON COM INC
+		CENTRAL INDEX KEY:			0001018724
+		STANDARD INDUSTRIAL CLASSIFICATION:	RETAIL-CATALOG & MAIL-ORDER HOUSES [5961]
+		IRS NUMBER:				911646860
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		
+		SEC FILE NUMBER:	000-22513
+		FILM NUMBER:		99603757
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1516 SECOND AVE 4TH FLOOR
+		STREET 2:		PO BOX 80387
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+		BUSINESS PHONE:		2066222335
+
+	MAIL ADDRESS:	
+		STREET 1:		PO BOX 80387
+		STREET 2:		1516 SECOND AVE 4TH FLOOR
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<DESCRIPTION>FORM 8-K
+<TEXT>
+
+<PAGE>   1
+                       SECURITIES AND EXCHANGE COMMISSION
+
+                             WASHINGTON, D.C. 20549
+
+
+
+
+
+                                    FORM 8-K
+
+                                 CURRENT REPORT
+
+
+
+                     PURSUANT TO SECTION 13 OR 15(d) OF THE
+                         SECURITIES EXCHANGE ACT OF 1934
+
+
+
+                                 APRIL 28, 1999
+                                 DATE OF REPORT
+                        (DATE OF EARLIEST EVENT REPORTED)
+
+
+
+                                AMAZON.COM, INC.
+               (EXACT NAME OF REGISTRANT AS SPECIFIED IN CHARTER)
+
+DELAWARE                          000-22513                      91-1646860
+(STATE OR OTHER             (COMMISSION FILE NO.)               (IRS EMPLOYER
+JURISDICTION                                                 IDENTIFICATION NO.)
+OF INCORPORATION)
+
+                 1516 SECOND AVENUE, SEATTLE, WASHINGTON 98101
+          (ADDRESS OF PRINCIPAL EXECUTIVE OFFICES, INCLUDING ZIP CODE)
+
+                                 (206) 622-2335
+              (REGISTRANT'S TELEPHONE NUMBER, INCLUDING AREA CODE)
+
+
+
+<PAGE>   2
+
+
+
+
+ITEM 5. OTHER EVENTS
+
+       On April 28, 1999, Amazon.com, Inc. ("Amazon.com") announced its
+financial results for the first quarter of 1999.
+
+ITEM 7. FINANCIAL STATEMENTS, PRO FORMA FINANCIAL INFORMATION AND EXHIBITS
+
+
+       (c)    Exhibits
+
+              99.1   Press Release dated April 28, 1999 regarding Amazon.com's
+                     first quarter financial results
+
+
+
+
+<PAGE>   3
+
+
+                                   SIGNATURES
+
+       Pursuant to the requirements of the Securities Exchange Act of 1934, the
+registrant has duly caused this report to be signed on its behalf by the
+undersigned hereunto duly authorized.
+
+
+
+                                AMAZON.COM, INC.
+                                (REGISTRANT)
+
+
+
+Dated: April 28, 1999           By:  /s/ Joy D. Covey
+                                     ------------------------------------------
+                                        Joy D. Covey
+                                        Chief Financial Officer and Vice 
+                                        President of Finance and Administration
+
+
+
+
+<PAGE>   4
+
+
+                                  EXHIBIT INDEX
+
+
+<TABLE>
+<CAPTION>
+Exhibit 
+Number          Description
+- -------         -----------
+<S>             <C>
+
+ 99.1           Press Release dated April 28, 1999 regarding
+                Amazon.com's first quarter financial results
+
+</TABLE>
+
+
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<DESCRIPTION>PRESS RELEASE DATED APRIL 28, 1999
+<TEXT>
+
+<PAGE>   1
+                                                                    EXHIBIT 99.1
+
+                     AMAZON.COM ANNOUNCES FINANCIAL RESULTS
+                             FOR FIRST QUARTER 1999
+
+       AMAZON.COM'S COMMUNITY OF ONLINE SHOPPERS GROWS TO OVER 8.4 MILLION
+
+
+       SEATTLE, WA--April 28, 1999--Amazon.com, Inc. (NASDAQ: AMZN) today
+announced financial results for the first quarter of 1999. Net sales for the
+first quarter were $293.6 million, an increase of 236 percent over net sales of
+$87.4 million for the first quarter of 1998.
+
+       Amazon.com reported a first-quarter pro forma operating loss of $30.6
+million, or 10 percent of net sales, compared to an operating loss of $10.0
+million, or 11 percent of net sales, in the first quarter of 1998. First-quarter
+pro forma net loss of $36.4 million, or $0.23 per share, compared with a net
+loss of $10.4 million, or $0.07 per share, in the first quarter of 1998. On a
+GAAP basis, reported first-quarter net loss was $61.7 million, or $0.39 per
+share, and included $25.3 million of merger- and acquisition-related costs.
+
+       Amazon.com announced that cumulative customer accounts increased by more
+than 2.2 million during the first quarter to more than 8.4 million at March 31,
+1999, an increase of more than 250 percent from the 2.3 million customer
+accounts at March 31, 1998. Repeat customer orders represented more than 66
+percent of orders during the quarter ended March 31, 1999.
+
+       "Everyone here is working hard to provide the best possible customer
+experience, and we're extremely grateful to our customers," said Jeff Bezos,
+Amazon.com founder and CEO. "We're particularly pleased with Amazon.com
+Auctions, which is off to a very fast start--we had more participants during our
+first month then even with music."
+
+        The company's focus on customers enabled Amazon.com to extend its
+leadership position on a number of fronts: 
+
+- -      Amazon.com was ranked in the top 10 Web properties during March, as
+       measured by Media Metrix, making it not only the leading online retail
+       site but also one of the leading Web sites of any kind.
+
+- -      In March, Amazon.com was the only company to win more than one Webby
+       award--and it won three. The Webbies, considered by many to be the
+       Oscars(R) of the Internet, are awarded by the International Academy of
+       Digital Arts & Sciences. Amazon.com won awards for Web-site excellence as
+       a commerce site, for technical achievement, and the company's Internet
+       Movie Database (http://www.imdb.com/) for best film site. IMDb also
+       received a People's Choice Award (voted for by Web users) in the film
+       category.
+
+- -      More than 1 million Amazon.com customers have now signed up for the
+       company's innovative Delivers program, which provides periodic e-mail
+       updates of new book, music, and video titles. More information on
+       Delivers is available at www.amazon.com/delivers.
+
+
+
+<PAGE>   2
+
+- -      More than 260,000 Web-site operators have now enrolled in the company's
+       industry-leading Associates program, which allows Web-site operators to
+       earn lucrative referral fees over a range of products. More information
+       on Associates is available at www.amazon.com/associates.
+
+       Regarding Amazon.com's announced 1999 expansion plans, Bezos added, "We
+have begun and will continue to build out a significant distribution
+infrastructure. This will give customers greater availability, faster shipping
+times, and even better service. We will also continue to invest in systems,
+people, and product expansion, each of which helps us better serve customers.
+For the rest of 1999, we expect to invest more heavily than we have in the past.
+Our goal remains to build the world's most customer-centric company."
+
+RECENT HIGHLIGHTS
+
+AMAZON.COM AUCTIONS
+
+       In March, Amazon.com launched Amazon.com Auctions to help people find,
+discover, buy--and now sell--virtually anything online. With the launch of
+Amazon.com Auctions, Amazon.com's more than 8.4 million customers have been
+preregistered to begin buying and selling immediately in more than 800
+categories. The new service is easy to use, with innovative and time-saving
+features such as Bid-Click (SM) for hassle-free bidding. To enhance customer
+safety, the Amazon.com Auctions Guarantee covers purchases of up to $250 in the
+event that a buyer does not receive what a seller promised.
+
+       Earlier this month, Amazon.com announced it had agreed to purchase
+LiveBid.com, the sole provider of live-event auctions on the Internet. Adding
+LiveBid's technology and services to Amazon.com Auctions expands the breadth and
+types of items customers will find and gives local and regional auction houses
+full access to a vast Internet auction community.
+
+DRUGSTORE.COM AND PETS.COM
+
+       During the quarter, Amazon.com announced strategic investments in
+drugstore.com and Pets.com. drugstore.com (www.drugstore.com) is an online
+source for thousands of brand-name health, beauty, and wellness products.
+Pets.com (www.pets.com/) is the leading pet-oriented company on the Internet,
+specializing in popular and rare pet accessories, products, and food for all
+types of animals. These companies share Amazon.com's passion for bringing
+customers value through selection, service, convenience, and community.
+
+AMAZON.COM'S FREE GREETING CARD SERVICE
+
+       On April 27 the company launched Amazon.com Cards, a free electronic
+greeting-card service. Cards can be sent by visiting www.amazon.com and clicking
+on the e-cards tab. The new site offers diverse styles of electronic greeting
+cards and a unique selection, with hundreds of illustrations, pictures, animated
+cards, and messages to choose from. Card senders also have the ability to
+customize their messages.
+
+
+
+<PAGE>   3
+
+DISTRIBUTION CENTER EXPANSION
+
+       Continuing its expansion, Amazon.com leased a distribution facility in
+Coffeyville, Kansas, which will enable faster delivery to Amazon.com customers
+across the Midwest and Southeast United States. Plans for the existing
+460,000-square-foot facility include expansion to over 750,000 square feet and
+the addition of automation, allowing the company to significantly increase the
+number of products kept on hand for immediate shipment to customers. The result
+is that customers in such places as Chicago, St. Louis, Dallas, and Minneapolis
+will receive their orders much faster, thanks to deeper inventory, faster
+processing, and shorter delivery times. The Coffeyville facility is expected to
+begin operations during the second half of 1999.
+
+       Amazon.com also announced that its 323,000-square-foot facility in
+Fernley, Nevada began shipping on a limited basis, increasing availability and
+improving delivery times for customers in the Western U.S.
+
+       In March, Amazon.de leased a new distribution center in Bad Hersfeld,
+Germany. The facility is expected to begin operations during the second half of
+1999.
+
+ACQUISITION OF BIBLIOFIND.COM AND MUSICFILE.COM
+
+       Earlier this week, the company agreed to acquire Exchange.com, the
+premier online marketplace for hard-to-find, antiquarian, and used books at
+www.bibliofind.com and hard-to-find recordings and music memorabilia at
+www.musicfile.com. The acquisition will vastly enlarge and enrich Amazon.com's
+core book- and music-store offerings while providing Exchange.com's thousands of
+independent dealers and retailers the opportunity to sell and auction their
+hard-to-find books, recordings, and memorabilia to Amazon.com's growing base of
+8.4 million experienced online shoppers. At the same time, the company also
+announced it had agreed to acquire two other e-commerce companies, Alexa.com and
+Access.com.
+
+FINANCING
+
+       Early in the quarter, Amazon.com completed a $1.25 billion 4.75%
+convertible debt offering, which substantially strengthened its cash position
+and increased its strategic flexibility. Also in the quarter, Amazon.com
+repurchased $84 million in accreted value of its senior discount notes.
+
+ABOUT AMAZON.COM
+
+       Amazon.com, Inc. (NASDAQ: AMZN), the Internet's No. 1 music, No. 1 video,
+and No. 1 book retailer, opened its virtual doors on the World Wide Web in July
+1995. Today, the Amazon.com store has expanded to offer online auctions and more
+than 4.7 million book, music-CD, video, DVD, computer-game, and other titles,
+plus secure credit-card payment, personalized recommendations, and streamlined
+ordering through 1-Click(SM) technology and hassle-free auction bidding with
+Bid-Click(SM).
+
+       Amazon.com operates two international Web sites: www.amazon.co.uk in the
+United Kingdom and www.amazon.de in Germany. Amazon.com also operates PlanetAll
+(www.planetall.com), a Web-based address book, calendar, and reminder service.
+It also operates the Internet Movie Database (www.imdb.com), the Web's
+comprehensive and 
+
+<PAGE>   4
+
+authoritative source of information on more than 150,000 movies and
+entertainment programs and 500,000 cast and crew members dating from the birth
+of film in 1892 to the present.
+
+       This announcement contains forward-looking statements that involve risks
+and uncertainties that include, among others, Amazon.com's limited operating
+history, anticipated losses, unpredictability of future revenues, potential
+fluctuations in quarterly operating results, seasonality, consumer trends,
+competition, risks of system interruption, management of potential growth, risks
+related to auction services, and risks of new business areas, international
+expansion, business combinations, and strategic alliances. More information
+about factors that potentially could affect Amazon.com's financial results is
+included in Amazon.com's filings with the Securities and Exchange Commission,
+including its Annual Report on Form 10-K for the year ended December 31, 1998.
+
+       Amazon.com, Amazon.com Auctions, Amazon.co.uk, Amazon.de, Internet Movie
+Database, PlanetAll, 1-Click, and Bid-Click are either registered trademarks or
+trademarks of Amazon.com, Inc., or its affiliates. All other names mentioned
+herein may be trademarks of their respective owners.
+
+NOTE ON FINANCIAL PRESENTATION
+
+       Financial results are prepared in accordance with U.S. generally accepted
+accounting principles. All of the charges associated with Amazon.com's merger,
+acquisition, and investment activities have been included in "merger- and
+acquisition-related costs" in the accompanying financial statements in order to
+enhance their informational value and to present the most comparable
+classifications in the other line items. Among items included in merger- and
+acquisition-related costs are amortization of goodwill and other purchased
+intangibles, equity in loss of investees, and certain non-recurring merger- and
+acquisition-related costs. Pro forma financial results exclude these merger- and
+acquisition-related costs.
+
+CONTACTS:
+Karen Cho                                     Bill Curry
+Investor Relations                            Public Relations
+Amazon.com, Inc.                              Amazon.com, Inc.
+(206) 694-2171                                (206) 834-7180
+ir@amazon.com
+
+
+
+<PAGE>   5
+
+
+                                AMAZON.COM, INC.
+                      CONSOLIDATED STATEMENTS OF OPERATIONS
+                      (IN THOUSANDS, EXCEPT PER SHARE DATA)
+
+
+<TABLE>
+<CAPTION>
+                                                                                   QUARTER ENDED MARCH 31,
+                                                                                 ---------------------------
+                                                                                    1999             1998
+                                                                                  ---------       ----------
+                                                                                 (UNAUDITED)     (UNAUDITED)
+
+<S>                                                                               <C>             <C>      
+Net sales                                                                         $ 293,643       $  87,361
+Cost of sales                                                                       228,852          68,063
+                                                                                  ---------       ---------
+Gross profit                                                                         64,791          19,298
+
+Operating expenses:
+      Marketing and sales                                                            60,744          19,914
+      Product development                                                            23,477           7,320
+      General and administrative                                                     11,165           2,049
+      Merger and acquisition related costs, including amortization
+        of goodwill and other purchased intangibles                                  25,309             
+                                                                                  ---------       ---------
+           Total operating expenses                                                 120,695          29,283
+
+Loss from operations                                                                (55,904)         (9,985)
+Interest income                                                                      10,925           1,645
+Interest expense                                                                    (16,688)         (2,029)
+                                                                                  ---------       ---------
+      Net interest expense                                                           (5,763)           (384)
+
+Net loss                                                                          $ (61,667)      $ (10,369)
+                                                                                  =========       =========
+Basic and diluted loss per share                                                  $   (0.39)      $   (0.07)
+                                                                                  =========       =========
+
+Shares used in computation of basic and diluted loss per share                      156,897         141,318
+                                                                                  =========       =========
+
+
+PRO FORMA RESULTS EXCLUDING MERGER AND ACQUISITION RELATED COSTS (SEE NOTE 2
+BELOW)
+
+Pro forma loss from operations, excluding merger and
+      acquisition related costs                                                   $ (30,595)      $  (9,985)
+                                                                                  =========       =========
+Pro forma net loss, excluding merger and acquisition
+      related costs                                                               $ (36,358)      $ (10,369)
+                                                                                  =========       =========
+Pro forma basic and diluted loss per share, excluding
+      merger and acquisition related costs                                        $   (0.23)      $   (0.07)
+                                                                                  =========       =========
+Shares used in computation of pro forma basic and diluted loss per share            156,897         141,318
+                                                                                  =========       =========
+</TABLE>
+
+
+NOTE 1: On January 4, 1999, the company effected a three-for-one stock split in
+the form of a stock dividend to stockholders of record on December 18, 1998.
+Accordingly, the accompanying consolidated balance sheets and statements of
+operations have been restated to reflect the split.
+
+NOTE 2: Pro forma results for the quarter ended March 31, 1999 and 1998 are
+presented for informational purposes only and are not prepared in accordance
+with generally accepted accounting principles. These results present the
+operating results of Amazon.com, excluding charges of $25.3 million and $0 for
+the quarter ended March 31, 1999 and 1998, respectively, for merger and
+acquisition related costs arising from Amazon.com's April 1998 acquisitions of
+Bookpages, Telebook and Internet Movie Database, and the August 1998 acquisition
+of Junglee and the merger with PlanetAll. Among items included in merger and
+acquisition related costs are amortization of goodwill and other purchased
+intangibles, equity in loss of investees, and certain non-recurring merger and
+acquisition related costs.
+
+<PAGE>   6
+
+                                AMAZON.COM, INC.
+                           CONSOLIDATED BALANCE SHEETS
+                      (IN THOUSANDS, EXCEPT PER SHARE DATA)
+
+
+<TABLE>
+<CAPTION>
+                                                                            MARCH 31,       DECEMBER 31,
+                                                                             1999              1998
+                                                                          -----------       -----------
+                                                                          (Unaudited)
+<S>                                                                       <C>               <C>        
+
+ASSETS
+Current assets:
+      Cash                                                                $     5,248       $    25,561
+      Marketable securities                                                 1,437,717           347,884
+      Inventories                                                              45,236            29,501
+      Prepaid expenses and other                                               37,077            21,308
+                                                                          -----------       -----------
+          Total current assets                                              1,525,278           424,254
+
+Fixed assets, net                                                              60,600            29,791
+Goodwill and other, net                                                       187,194           187,003
+Deferred charges                                                               39,912             7,412
+                                                                          -----------       -----------
+          Total assets                                                    $ 1,812,984       $   648,460
+                                                                          ===========       ===========
+
+LIABILITIES AND STOCKHOLDERS' EQUITY
+Current liabilities:
+      Accounts payable                                                    $   133,018       $   113,273
+      Accrued advertising                                                      16,187            13,071
+      Other liabilities and accrued expenses                                   45,194            34,423
+      Current portion of long-term debt and capital lease obligation            7,186               808
+                                                                          -----------       -----------
+          Total current liabilities                                           201,585           161,575
+
+Long-term debt and capital lease obligation                                 1,533,862           348,140
+
+
+Stockholders' equity:
+      Preferred stock, $0.01 par value:
+          Authorized shares -- 10,000
+          Issued and outstanding shares -- none                                   -                 - 
+      Common stock, $0.01 par value:
+          Authorized shares -- 300,000
+          Issued and outstanding shares -- 161,371 and
+             159,267 shares at March 31, 1999 and
+              December 31, 1998, respectively                                   1,614             1,593
+      Additional paid-in capital                                              306,414           300,130
+      Note receivable from officer for common stock                            (1,099)           (1,099)
+      Deferred compensation                                                    (1,275)           (1,625)
+      Accumulated other comprehensive income                                   (4,390)            1,806
+      Accumulated deficit                                                    (223,727)         (162,060)
+                                                                          -----------       -----------
+          Total stockholders' equity                                           77,537           138,745
+                                                                          -----------       -----------
+              Total liabilities and stockholders' equity                  $ 1,812,984       $   648,460
+                                                                          ===========       ===========
+</TABLE>
+
+NOTE 1: On January 4, 1999, the company effected a three-for-one stock split in
+the form of a stock dividend to stockholders of record on December 18, 1998.
+Accordingly, the accompanying consolidated balance sheets and statements of
+operations have been restated to reflect the split.
+
+
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Date: Fri, 25 Sep 2026 12:40:36 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+last-modified: Thu, 03 Oct 2024 18:05:22 GMT
+x-amz-server-side-encryption: AES256
+x-amz-version-id: QNEhqyCLETS.kQPlfezJipJ284fBajig
+Server: cloudflare
+Server-Timing: cfCacheStatus;desc="MISS"
+Server-Timing: cfEdge;dur=19,cfOrigin;dur=882
+vary: Accept-Encoding
+x-cache: Miss from cloudfront
+via: 1.1 5b08c5dcdeab6f5f8332b4e92b0629be.cloudfront.net (CloudFront)
+x-amz-cf-pop: MRS53-P4
+x-amz-cf-id: MhELBJSipfOKdn6QW_YEqmpoKo1Bl-JbmQ-X2yU1Iqzmmmu78RpKrQ==
+Cache-Control: max-age=14400
+cf-cache-status: MISS
+CF-RAY: a40a19295f88c058-BOM
+

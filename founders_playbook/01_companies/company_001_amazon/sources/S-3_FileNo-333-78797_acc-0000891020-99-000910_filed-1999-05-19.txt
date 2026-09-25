@@ -1,0 +1,2682 @@
+==============================================================================
+PROVENANCE HEADER -- added by the Stage-3 Evidence Registrar (post-IPO filing intake)
+Retrieval date (access date) : 2026-09-25
+Original URL                 : https://www.sec.gov/Archives/edgar/data/1018724/0000891020-99-000910.txt
+HTTP status on retrieval     : 200
+Document                     : Form S-3, complete submission (all 6 documents inline) -- FORM S-3
+SEC CIK                      : 1018724 (AMAZON COM INC)
+Accession no.                : 0000891020-99-000910
+Filing date per EDGAR        : 1999-05-19   (SEC-HEADER FILED AS OF DATE: 19990519 -- agrees)
+Conformed submission type    : S-3   Securities Exchange Act File No.: 333-78797
+Period of report             : n/a
+Bytes of retrieved body      : 133,801
+Body completeness            : COMPLETE -- terminates in </SEC-DOCUMENT>; 6 <DOCUMENT> blocks, types: EX-12.1, EX-23.1, EX-23.2, EX-23.3, EX-23.4, S-3
+Request headers used         : User-Agent: FounderPlaybook Research AdminContact@example.com | Accept-Encoding: identity | Referer: https://www.sec.gov/
+Body encoding on wire        : identity (no compression negotiated); saved exactly as received
+Located via                  : https://data.sec.gov/submissions/CIK0001018724-submissions-002.json (pre-2000 slice, 1997-03-24 -> 2000-01-04); row form=S-3 filingDate=1999-05-19 primaryDocDescription='FORM S-3'
+Component documents (DESCRIPTION per EDGAR):
+      - FORM S-3
+      - COMPUTATION OF RATIO OF EARNINGS TO FIXED CHARGES
+      - CONSENT OF ERNST & YOUNG LLP
+      - CONSENT OF DELOITTE & TOUCHE LLP
+      - CONSENT OF PRICEWATERHOUSECOOPERS LLP
+      - CONSENT OF PRICEWATERHOUSECOOPERS LLP
+==============================================================================
+
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ TnqNWSFI26WDkNdTO26INhitk3hLW7FI3Zp7o44TAzId8W7IITJx3tfDdyPjsCKT
+ J6Qc1vjmQPMdA2Su70pCpQ==
+
+<SEC-DOCUMENT>0000891020-99-000910.txt : 19990520
+<SEC-HEADER>0000891020-99-000910.hdr.sgml : 19990520
+ACCESSION NUMBER:		0000891020-99-000910
+CONFORMED SUBMISSION TYPE:	S-3
+PUBLIC DOCUMENT COUNT:		6
+FILED AS OF DATE:		19990519
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AMAZON COM INC
+		CENTRAL INDEX KEY:			0001018724
+		STANDARD INDUSTRIAL CLASSIFICATION:	RETAIL-CATALOG & MAIL-ORDER HOUSES [5961]
+		IRS NUMBER:				911646860
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		S-3
+		SEC ACT:		
+		SEC FILE NUMBER:	333-78797
+		FILM NUMBER:		99630576
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1516 SECOND AVE 4TH FLOOR
+		STREET 2:		PO BOX 80387
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+		BUSINESS PHONE:		2066222335
+
+	MAIL ADDRESS:	
+		STREET 1:		PO BOX 80387
+		STREET 2:		1516 SECOND AVE 4TH FLOOR
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>S-3
+<SEQUENCE>1
+<DESCRIPTION>FORM S-3
+<TEXT>
+
+<PAGE>   1
+ 
+     AS FILED WITH THE SECURITIES AND EXCHANGE COMMISSION ON MAY 19, 1999.
+                                               REGISTRATION NO. 333-
+- --------------------------------------------------------------------------------
+- --------------------------------------------------------------------------------
+ 
+                       SECURITIES AND EXCHANGE COMMISSION
+                             WASHINGTON, D.C. 20549
+                           -------------------------
+ 
+                                    FORM S-3
+                             REGISTRATION STATEMENT
+                                     UNDER
+                           THE SECURITIES ACT OF 1933
+ 
+                                AMAZON.COM, INC.
+             (EXACT NAME OF REGISTRANT AS SPECIFIED IN ITS CHARTER)
+ 
+<TABLE>
+<S>                                                 <C>
+                     DELAWARE                                           91-1646860
+ (STATE OR OTHER JURISDICTION OF INCORPORATION OR          (I.R.S. EMPLOYER IDENTIFICATION NO.)
+                   ORGANIZATION)
+</TABLE>
+ 
+                        1200 12TH AVENUE S., SUITE 1200
+                           SEATTLE, WASHINGTON 98144
+                                 (206) 266-1000
+ 
+  (ADDRESS, INCLUDING ZIP CODE, AND TELEPHONE NUMBER, INCLUDING AREA CODE, OF
+                   REGISTRANT'S PRINCIPAL EXECUTIVE OFFICES)
+                                JEFFREY P. BEZOS
+                     PRESIDENT AND CHIEF EXECUTIVE OFFICER
+                                AMAZON.COM, INC.
+                        1200 12TH AVENUE S., SUITE 1200
+                           SEATTLE, WASHINGTON 98144
+                                 (206) 266-1000
+ (NAME, ADDRESS, INCLUDING ZIP CODE, AND TELEPHONE NUMBER, INCLUDING AREA CODE,
+                             OF AGENT FOR SERVICE)
+                COPIES OF ALL COMMUNICATIONS SHOULD BE SENT TO:
+                                SCOTT L. GELBAND
+                                PERKINS COIE LLP
+                         1201 THIRD AVENUE, 40TH FLOOR
+                         SEATTLE, WASHINGTON 98101-3099
+                                 (206) 583-8888
+        APPROXIMATE DATE OF COMMENCEMENT OF PROPOSED SALE TO THE PUBLIC:
+     From time to time after this registration statement becomes effective.
+    If the only securities being registered on this form are being offered
+pursuant to dividend or interest reinvestment plans, please check the following
+box.  [ ]
+    If any of the securities being registered on this form are to be offered on
+a delayed or continuous basis pursuant to Rule 415 under the Securities Act of
+1933, other than securities offered only in connection with dividend or interest
+reinvestment plans, please check the following box.  [X]
+    If this form is filed to register additional securities for an offering
+pursuant to Rule 462(b) under the Securities Act, please check the following box
+and list the Securities Act registration statement number of the earlier
+effective registration statement for the same offering.  [ ]____________
+    If this form is a post-effective amendment filed pursuant to Rule 462(c)
+under the Securities Act, check the following box and list the Securities Act
+registration statement number of the earlier effective registration statement
+for the same offering.  [ ]____________
+    If delivery of the prospectus is expected to be made pursuant to Rule 434,
+please check the following box.  [ ]
+ 
+                        CALCULATION OF REGISTRATION FEE
+ 
+<TABLE>
+<S>                                         <C>                   <C>                   <C>                   <C>
+- ----------------------------------------------------------------------------------------------------------------------------------
+- ----------------------------------------------------------------------------------------------------------------------------------
+                                                                    PROPOSED MAXIMUM      PROPOSED MAXIMUM
+          TITLE OF EACH CLASS OF                AMOUNT TO BE            OFFERING             AGGREGATE             AMOUNT OF
+       SECURITIES TO BE REGISTERED             REGISTERED(1)       PRICE PER SHARE(1)   OFFERING PRICE(2)(3)    REGISTRATION FEE
+- ----------------------------------------------------------------------------------------------------------------------------------
+Common stock, $0.01 par value(4)..........
+- ----------------------------------------------------------------------------------------------------------------------------------
+Preferred stock, $0.01 par value(4).......
+- ----------------------------------------------------------------------------------------------------------------------------------
+Depositary shares(4)......................
+- ----------------------------------------------------------------------------------------------------------------------------------
+Debt securities(4)........................
+- ----------------------------------------------------------------------------------------------------------------------------------
+Warrants(4)(5)............................
+- ----------------------------------------------------------------------------------------------------------------------------------
+Stock purchase units(4)...................
+- ----------------------------------------------------------------------------------------------------------------------------------
+Stock purchase contracts(4)...............
+- ----------------------------------------------------------------------------------------------------------------------------------
+        Total.............................                                                 $2,000,000,000           $556,000
+- ----------------------------------------------------------------------------------------------------------------------------------
+- ----------------------------------------------------------------------------------------------------------------------------------
+</TABLE>
+ 
+(1) Not applicable pursuant to Form S-3 General Instruction II(D).
+(2) Or (i) if any debt securities are issued at an original issue discount, such
+    greater principal amount as shall result in an aggregate initial offering
+    price equal to the amount to be registered or (ii) if any debt securities
+    are issued with a principal amount denominated in a foreign currency or
+    composite currency, such principal amount as shall result in an aggregate
+    initial offering price equivalent thereto in U.S. dollars at the time of
+    initial offering.
+(3) These figures are estimates made solely for the purpose of calculating the
+    registration fee pursuant to Rule 457(o).
+(4) In addition to the securities that are being issued directly under this
+    registration statement, there are being registered hereunder an
+    indeterminate number of shares of common stock, preferred stock and
+    depositary shares as may be issued upon conversion or exchange of the
+    securities issued directly hereunder. No separate consideration will be
+    received for any shares of common stock, preferred stock or depositary
+    shares so issued upon conversion or exchange.
+(5) Includes warrants to purchase common stock, warrants to purchase preferred
+    stock, third-party warrants, warrants to purchase debt securities, foreign
+    currency exchange warrants, stock index warrants and other warrants.
+    THE REGISTRANT HEREBY AMENDS THIS REGISTRATION STATEMENT ON SUCH DATE OR
+DATES AS MAY BE NECESSARY TO DELAY ITS EFFECTIVE DATE UNTIL THE REGISTRANT SHALL
+FILE A FURTHER AMENDMENT WHICH SPECIFICALLY STATES THAT THIS REGISTRATION
+STATEMENT SHALL THEREAFTER BECOME EFFECTIVE IN ACCORDANCE WITH SECTION 8(a) OF
+THE SECURITIES ACT OF 1933 OR UNTIL THIS REGISTRATION STATEMENT SHALL BECOME
+EFFECTIVE ON SUCH DATE AS THE SEC, ACTING PURSUANT TO SAID SECTION 8(a), MAY
+DETERMINE.
+- --------------------------------------------------------------------------------
+- --------------------------------------------------------------------------------
+<PAGE>   2
+ 
+The information in this prospectus is not complete and may be changed. We may
+not sell these securities until this registration statement filed with the
+Securities and Exchange Commission is effective. This prospectus is not an offer
+to sell these securities and it is not soliciting an offer to buy these
+securities in any state where the offer or sale is not permitted.
+ 
+                   SUBJECT TO COMPLETION, DATED MAY 19, 1999
+ 
+PROSPECTUS
+ 
+                                 $2,000,000,000
+                                     [LOGO]
+ 
+                                  COMMON STOCK
+                                PREFERRED STOCK
+                               DEPOSITARY SHARES
+                                DEBT SECURITIES
+                       WARRANTS TO PURCHASE COMMON STOCK
+                      WARRANTS TO PURCHASE PREFERRED STOCK
+                              STOCK PURCHASE UNITS
+                            STOCK PURCHASE CONTRACTS
+                              THIRD-PARTY WARRANTS
+                      WARRANTS TO PURCHASE DEBT SECURITIES
+                       FOREIGN CURRENCY EXCHANGE WARRANTS
+                              STOCK INDEX WARRANTS
+                                 OTHER WARRANTS
+ 
+                           -------------------------
+ 
+     We will provide the specific terms for each of these securities in
+supplements to this prospectus. You should read carefully this prospectus and
+any supplement before you invest.
+ 
+     Our common stock is quoted on the Nasdaq National Market under the symbol
+"AMZN."
+ 
+                           -------------------------
+ 
+     THE SECURITIES WE MAY OFFER INVOLVE A HIGH DEGREE OF RISK. THE RISKS
+ASSOCIATED WITH AN INVESTMENT IN OUR COMPANY AS WELL AS WITH THE PARTICULAR
+TYPES OF SECURITIES WILL BE DESCRIBED IN THE PROSPECTUS SUPPLEMENT.
+ 
+                           -------------------------
+ 
+     NEITHER THE SECURITIES AND EXCHANGE COMMISSION NOR ANY STATE SECURITIES
+COMMISSION HAS APPROVED OR DISAPPROVED OF THESE SECURITIES OR PASSED UPON THE
+ACCURACY OR ADEQUACY OF THIS PROSPECTUS. ANY REPRESENTATION TO THE CONTRARY IS A
+CRIMINAL OFFENSE.
+ 
+                           -------------------------
+ 
+              The date of this prospectus is              , 1999.
+<PAGE>   3
+ 
+                               TABLE OF CONTENTS
+ 
+<TABLE>
+<S>                                                           <C>
+Summary.....................................................    1
+Forward-Looking Information.................................    3
+How to Obtain More Information..............................    3
+Amazon.com..................................................    4
+Ratio of Earnings to Fixed Charges..........................    5
+Use of Proceeds.............................................    5
+General Description of Securities...........................    5
+Description of the Common Stock.............................    5
+Description of the Preferred Stock..........................    6
+Description of the Depositary Shares........................    7
+Description of the Debt Securities..........................    9
+Description of the Warrants to Purchase Common or Preferred
+  Stock.....................................................   17
+Description of the Stock Purchase Units and Stock Purchase
+  Contracts.................................................   18
+Description of the Third-Party Warrants.....................   18
+Description of the Warrants to Purchase Debt Securities.....   20
+Description of the Foreign Currency Exchange Warrants.......   21
+Description of the Stock Index Warrants.....................   23
+Description of the Other Warrants...........................   26
+Plan of Distribution........................................   28
+ERISA Considerations........................................   29
+Legal Matters...............................................   30
+Experts.....................................................   30
+</TABLE>
+ 
+                                        i
+<PAGE>   4
+ 
+                                    SUMMARY
+ 
+     This summary highlights selected information from this prospectus and does
+not contain all the information that is important to you. To understand the
+terms of our securities, you should read carefully this prospectus with the
+attached prospectus supplement. Together, these documents describe the specific
+terms of the securities we are offering. You should also read the documents
+listed below in "How To Obtain More Information" for information about our
+company and our financial statements.
+ 
+THE SECURITIES WE MAY OFFER
+ 
+     This prospectus is part of a registration statement (No. 333-          )
+that we filed with the Securities and Exchange Commission utilizing a "shelf"
+registration process. Under this shelf process, we may offer from time to time
+up to $2,000,000,000 of the following securities, either separately or in units:
+ 
+     - common stock;
+ 
+     - preferred stock;
+ 
+     - depositary shares;
+ 
+     - debt securities;
+ 
+     - warrants to purchase common stock;
+ 
+     - warrants to purchase preferred stock;
+ 
+     - stock purchase units;
+ 
+     - stock purchase contracts;
+ 
+     - third-party warrants;
+ 
+     - warrants to purchase debt securities;
+ 
+     - foreign currency exchange warrants;
+ 
+     - stock index warrants; and
+ 
+     - other warrants
+ 
+     This prospectus provides you with a general description of the securities
+we may offer. Each time we offer securities, we will provide you with a
+prospectus supplement that will describe the specific amounts, prices and terms
+of the securities we offer. The prospectus supplement also may add, update or
+change information contained in this prospectus.
+ 
+     We may sell the securities to or through underwriters, dealers or agents or
+directly to purchasers. We and our agents reserve the sole right to accept and
+to reject in whole or in part any proposed purchase of securities. The
+prospectus supplement, which we will provide to you each time we offer
+securities, will set forth the names of any underwriters, dealers or agents
+involved in the sale of the securities, and any applicable fee, commission or
+discount arrangements with them. See "Plan of Distribution."
+ 
+COMMON STOCK
+ 
+     We may issue our common stock, $0.01 par value per share. Holders of common
+stock are entitled to one vote per share on all matters submitted to a vote of
+stockholders. Holders of common stock are entitled to receive dividends declared
+by the board of directors, subject to the rights of preferred stockholders.
+ 
+                                        1
+<PAGE>   5
+ 
+PREFERRED STOCK AND DEPOSITARY SHARES
+ 
+     We may issue our preferred stock, $0.01 par value per share, in one or more
+series. Our board of directors will determine the dividend, voting, conversion
+and other rights of the series being offered and the terms and conditions of its
+offering and sale. We may also issue fractional shares of preferred stock that
+will be represented by depositary shares and depositary receipts.
+ 
+DEBT SECURITIES
+ 
+     We may offer unsecured general obligations of our company, which may be
+senior debt securities or subordinated debt securities. The senior debt
+securities will have the same rank as all our other unsecured, unsubordinated
+debt. The subordinated debt securities will be entitled to payment only if all
+payments due under our senior indebtedness, including any outstanding senior
+debt securities, have been made.
+ 
+     The debt securities will be issued under an indenture between us and the
+trustee or trustees we name in the prospectus supplement. We have summarized
+certain general features of the debt securities from the indentures, which are
+or will be exhibits to this registration statement of which this prospectus is a
+part. We encourage you to read the indentures and our recent periodic and
+current reports that we file with the SEC. Directions on how to obtain copies of
+these reports are provided under "How To Obtain More Information."
+ 
+WARRANTS
+ 
+     We may issue warrants to purchase our common stock, preferred stock or debt
+securities. In addition, we may offer warrants to purchase securities of other
+companies. Also, we may issue warrants tied to and dependent upon movements of
+currency exchange rates, the prices of stocks underlying one or more indexes, or
+the prices of other underlying commodities. The applicable prospectus supplement
+will describe the details of the warrants.
+ 
+STOCK PURCHASE UNITS AND STOCK PURCHASE CONTRACTS
+ 
+     We may issue stock purchase units and stock purchase contracts, including
+contracts obligating holders to purchase from us, and us to sell to the holders,
+a specified number of shares of common stock or preferred stock at a future date
+or dates. We may determine the price of shares of common stock or preferred
+stock at the time we issue the stock purchase contracts or the price may be
+determined by referring to a specific formula described in the stock purchase
+contracts. We may issue the stock purchase contracts separately or as a part of
+stock purchase units consisting of a stock purchase contract and debt
+securities, preferred stock or debt obligations of third parties, including U.S.
+Treasury securities, which secure the holders' obligations to purchase the
+common stock or preferred stock under the stock purchase contracts. The stock
+purchase contracts may require us to make periodic payments to the holders of
+the stock purchase units or vice versa, and such payments may be unsecured or
+prefunded on some basis. The stock purchase contracts may require holders to
+secure their obligations in a specified manner.
+ 
+                                        2
+<PAGE>   6
+ 
+                          FORWARD-LOOKING INFORMATION
+ 
+     This prospectus includes "forward-looking statements" within the meaning of
+the Private Securities Litigation Reform Act of 1995. This Act provides a "safe
+harbor" for forward-looking statements to encourage companies to provide
+prospective information about themselves so long as they identify these
+statements as forward-looking and provide meaningful cautionary statements
+identifying important factors that could cause actual results to differ from the
+projected results. All statements other than statements of historical fact we
+make in this prospectus, prospectus supplement or in any document incorporated
+by reference are forward-looking. In particular, the statements herein regarding
+industry prospects and our future results of operations or financial position
+are forward-looking statements. Forward-looking statements reflect our current
+expectations and are inherently uncertain. Our actual results may differ
+significantly from our expectations. The section entitled "Additional Factors
+That May Affect Future Results" that appears in our Annual Report on Form 10-K
+for the year ended December 31, 1998, as well as the section entitled "Risk
+Factors" that appears in the prospectus supplement accompanying this prospectus
+describe some, but not all, of the factors that could cause these differences.
+ 
+                         HOW TO OBTAIN MORE INFORMATION
+ 
+     We file reports, proxy statements and other information with the SEC. You
+may read any document we file at the SEC's public reference rooms in Washington,
+D.C., Chicago, Illinois and New York, New York. Please call the SEC toll free at
+1-800-SEC-0330 for information about its public reference rooms. You may also
+read our filings at the SEC's Web site at http://www.sec.gov.
+ 
+     We have filed with the SEC a registration statement on Form S-3 under the
+Securities Act of 1933. This prospectus does not contain all of the information
+in the registration statement. We have omitted certain parts of the registration
+statement, as permitted by the rules and regulations of the SEC. You may inspect
+and copy the registration statement, including exhibits, at the SEC's public
+reference facilities or web site. Our statements in this prospectus about the
+contents of any contract or other document are not necessarily complete. You
+should refer to the copy of each contract or other document we have filed as an
+exhibit to the registration statement for complete information.
+ 
+     The SEC allows us to "incorporate by reference" into this prospectus the
+information we file with it. This means that we can disclose important
+information to you by referring you to those documents. The information we
+incorporate by reference is considered a part of this prospectus, and later
+information we file with the SEC will automatically update and supersede this
+information. We incorporate by reference the documents listed below and any
+future filings we make with the SEC under Section 13(a), 13(c), 14 or 15(d) of
+the Securities Exchange Act of 1934 until this offering is completed:
+ 
+     - Our Annual Report on Form 10-K for the year ended December 31, 1998;
+ 
+     - Our Quarterly Report on Form 10-Q for the quarter ended March 31, 1999;
+ 
+     - Our Current Reports on Form 8-K filed on August 27, 1998, October 26,
+       1998, January 5, 1999, January 27, 1999, January 28, 1999, January 29,
+       1999, February 4,
+ 
+                                        3
+<PAGE>   7
+ 
+       1999, March 29, 1999, March 30, 1999, April 27, 1999, April 29, 1999, May
+       12, 1999 and May 19, 1999; and
+ 
+     - The description of the common stock in our Registration Statement on Form
+       8-A filed on May 2, 1997, under Section 12(g) of the Exchange Act.
+ 
+     You may obtain copies of these documents, other than exhibits, free of
+charge by contacting our corporate secretary at our principal offices, which are
+located at 1200 12th Avenue S., Suite 1200, Seattle, Washington 98144, telephone
+number (206) 266-1000.
+ 
+     You should rely only on the information incorporated by reference or
+provided in this prospectus or any prospectus supplement. We have not authorized
+anyone else to provide you with different information. You should not assume
+that the information in this prospectus or any prospectus supplement is accurate
+after the date on the front of the document.
+ 
+                                   AMAZON.COM
+ 
+     Amazon.com is the Internet's number one book, music and video retailer.
+Amazon.com, one of the most widely known, used and cited commerce sites on the
+Web, offers more than 4.7 million book, music CD, video, DVD, computer game and
+other titles and a free electronic greeting card service. Amazon.com also
+provides a community of online shoppers an easy and safe way to purchase and
+sell a large selection of products through Amazon.com Auctions. We are a proven
+technology leader; we developed electronic commerce innovations such as 1-Click
+ordering, personalized shopping services and easy-to-use search and browse
+features.
+ 
+     We were incorporated in 1994 in the state of Washington and reincorporated
+in 1996 in the state of Delaware. Our principal corporate offices are located in
+Seattle, Washington. Our mailing address and telephone number are 1200 12th
+Avenue S., Suite 1200, Seattle, Washington 98144, (206) 266-1000.
+ 
+     Information contained on our Web site is not a part of this prospectus.
+ 
+     We have adjusted all of the information in this prospectus to reflect a
+2-for-1 split of the common stock on June 1, 1998 and a 3-for-1 split of the
+common stock on January 4, 1999.
+ 
+     Amazon.com, Amazon.co.uk, Amazon.de, Internet Movie Database, Earth's
+Biggest Bookstore and 1-Click are either registered trademarks or trademarks of
+Amazon.com or its affiliates. All other names mentioned in this prospectus, the
+documents incorporated by reference or in any prospectus supplement may be
+trademarks of their respective owners.
+ 
+                                        4
+<PAGE>   8
+ 
+                       RATIO OF EARNINGS TO FIXED CHARGES
+                                 (in thousands)
+ 
+<TABLE>
+<CAPTION>
+                                                                                    PERIOD FROM JULY 5,
+                          THREE MONTHS        FOR THE YEAR ENDED DECEMBER 31,       1994 (INCEPTION) TO
+                         ENDED MARCH 31,   --------------------------------------      DECEMBER 31,
+                              1999           1998        1997      1996     1995           1994
+                         ---------------   ---------   --------   -------   -----   -------------------
+<S>                      <C>               <C>         <C>        <C>       <C>     <C>
+Deficiency of earnings
+  available to cover
+  fixed charges(*).....     $(61,667)      $(124,546)  $(31,020)  $(6,246)  $(303)         $(52)
+</TABLE>
+ 
+- -------------------------
+(*) Earnings consist of net loss plus fixed charges. Fixed charges consist of
+    interest expense, including amortization of debt issuance costs and that
+    portion of rental expense we believe to be representative of interest.
+ 
+                                USE OF PROCEEDS
+ 
+     Unless otherwise indicated in the applicable prospectus supplement, we
+intend to use the net proceeds from the sale of the securities, after
+transaction and hedging costs, if any, incurred in connection with currency
+warrants or stock index warrants, for general corporate purposes.
+ 
+                       GENERAL DESCRIPTION OF SECURITIES
+ 
+     We may offer shares of common stock, shares of preferred stock, depositary
+shares, debt securities, common stock warrants, preferred stock warrants, stock
+purchase units, stock purchase contracts, third-party warrants, debt warrants,
+currency warrants, stock index warrants, other warrants or any combination of
+the foregoing, either individually or as units consisting of one or more
+securities. We may offer up to $2,000,000,000 worth of securities under this
+prospectus. If securities are offered as units, we will describe the terms of
+the units in a prospectus supplement. The securities involve a high degree of
+risk, which we will describe in the prospectus supplement.
+ 
+                        DESCRIPTION OF THE COMMON STOCK
+ 
+     Under our current restated certificate of incorporation, we may issue up to
+300,000,000 shares of our common stock (up to 1,500,000,000 shares if the
+amendment to our restated certificate of incorporation is approved by our
+stockholders at our annual meeting of stockholders, scheduled for May 20, 1999).
+Holders of common stock are entitled to one vote per share on all matters
+submitted to a vote of stockholders. Subject to preferences that may apply to
+our preferred stock, the holders of common stock receive ratably any dividends
+that may be declared by the board of directors. In the event of a liquidation,
+dissolution or winding up of Amazon.com, the holders of common stock will share
+equally and ratably in all assets remaining after we pay liabilities and
+liquidation preferences to holders of preferred stock. Holders of common stock
+have no preemptive rights or rights to convert their common stock into any other
+securities. The common stock is neither redeemable nor subject to call. No
+sinking fund provisions apply to the common stock. All outstanding shares of
+common stock are fully paid and nonassessable.
+ 
+                                        5
+<PAGE>   9
+ 
+     Washington law imposes restrictions on some transactions between a
+corporation and certain significant shareholders. Chapter 23B.19 of the
+Washington Business Corporation Act prohibits a "target corporation," with some
+exceptions, from engaging in certain significant business transactions with an
+"acquiring person," which is defined as a person or group of persons that
+beneficially owns 10% or more of the voting securities of the target
+corporation, for a period of five years after such acquisition, unless the
+transaction or acquisition of shares is approved by a majority of the members of
+the target corporation's board of directors prior to the time of acquisition.
+Such prohibited transactions include, among other things:
+ 
+     - a merger or consolidation with, disposition of assets to, or issuance or
+       redemption of stock to or from, the acquiring person;
+ 
+     - termination of 5% or more of the employees of the target corporation as a
+       result of the acquiring person's acquisition of 10% or more of the
+       shares; or
+ 
+     - allowing the acquiring person to receive any disproportionate benefit as
+       a shareholder.
+ 
+     After the five-year period, a "significant business transaction" may occur,
+as long as it complies with certain "fair price" provisions of the statute. A
+corporation may not "opt out" of this statute. This provision may have the
+effect of delaying, deterring or preventing a change in control of Amazon.com.
+ 
+     Section 203 of the Delaware General Corporation Law generally prohibits
+Delaware corporations from engaging in certain "business combinations" with
+certain "interested stockholders" for a period of three years unless certain
+criteria are met. We have expressly elected in our restated certificate of
+incorporation not to be governed by Section 203.
+ 
+                       DESCRIPTION OF THE PREFERRED STOCK
+ 
+     Our current restated certificate of incorporation permits us to issue up to
+10,000,000 shares of our preferred stock (up to 150,000,000 shares if the
+amendment is approved by our stockholders at our annual meeting of stockholders,
+scheduled for May 20, 1999), in one or more series and with rights and
+preferences that may be fixed or designated by our board of directors without
+any further action by our stockholders. The rights, preferences, privileges and
+restrictions of the preferred stock of each series will be fixed by the
+certificate of designation relating to each series. A prospectus supplement
+relating to each series will specify the terms of the preferred stock,
+including:
+ 
+     - The maximum number of shares in the series and the distinctive
+       designation;
+ 
+     - The terms on which dividends, if any, will be paid;
+ 
+     - The terms on which the shares may be redeemed, if at all;
+ 
+     - The liquidation preference, if any;
+ 
+     - The terms of any retirement or sinking fund for the purchase or
+       redemption of the shares of the series;
+ 
+     - The terms and conditions, if any, on which the shares of the series shall
+       be convertible into, or exchangeable for, shares of any other class or
+       classes of capital stock;
+ 
+                                        6
+<PAGE>   10
+ 
+     - The voting rights, if any, on the shares of the series; and
+ 
+     - Any or all other preferences and relative, participating, operational or
+       other special rights or qualifications, limitations or restrictions of
+       the shares.
+ 
+     The issuance of preferred stock may delay, deter or prevent a change in
+control of Amazon.com.
+ 
+     We will describe the specific terms of a particular series of preferred
+stock in the prospectus supplement relating to that series. The description of
+preferred stock above and the description of the terms of a particular series of
+preferred stock in the related prospectus supplement are not complete. You
+should refer to the certificate of designation for complete information. The
+prospectus supplement will contain a description of certain U.S. federal income
+tax consequences relating to the preferred stock.
+ 
+                      DESCRIPTION OF THE DEPOSITARY SHARES
+ 
+     The description below and in the related prospectus supplement is not
+complete. You should read the forms of deposit agreement and depositary receipts
+filed with the SEC in connection with the offering of each series of the
+preferred stock described below.
+ 
+GENERAL
+ 
+     We may, at our option, elect to offer fractional interests in shares of
+preferred stock, rather than shares of preferred stock. If we exercise that
+option, we will provide for a depositary to issue receipts for depositary
+shares, each of which will represent a fractional interest in a share of
+preferred stock.
+ 
+     The shares of preferred stock underlying the depositary shares will be
+deposited under a separate deposit agreement between us and a bank or trust
+company depositary that has its principal office in the United States. The
+prospectus supplement will set forth the name and address of the depositary.
+Subject to the terms of the deposit agreement, each owner of a depositary share
+will be entitled, in proportion to the applicable fractional interest in a share
+of preferred stock, to all the rights and preferences of the underlying
+preferred stock, including dividend, voting, redemption, conversion and
+liquidation rights. Depositary receipts will be issued for depositary shares.
+ 
+     The depositary may issue temporary depositary receipts substantially
+identical to, and entitling the holders to all the rights pertaining to, the
+definitive depositary receipts. Definitive depositary receipts will then be
+prepared thereafter and temporary depositary receipts may be exchanged for
+definitive depositary receipts at our expense.
+ 
+     Upon surrender of depositary receipts and payment of the charges provided
+in the deposit agreement, the depositary will deliver the whole shares of
+preferred stock underlying the depositary shares.
+ 
+DIVIDENDS AND OTHER DISTRIBUTIONS
+ 
+     The depositary will distribute all cash dividends or other cash
+distributions on the preferred stock, rounded to the nearest cent, to the record
+holders of depositary shares in proportion to the numbers of such depositary
+shares owned by them on the relevant record date. Fractions of one cent not so
+distributed will be added to the next sum received by the depositary for
+distribution to record holders of depositary shares.
+ 
+                                        7
+<PAGE>   11
+ 
+     In the event of a non-cash distribution, the depositary will, if feasible,
+distribute property received by it to the record holders of depositary shares
+entitled to them. If the distribution is not feasible, the depositary may sell
+the property and distribute the net proceeds to such holders.
+ 
+REDEMPTION OF DEPOSITARY SHARES
+ 
+     If we redeem the preferred stock underlying the depositary shares, the
+depositary will redeem the depositary shares from the proceeds of the redemption
+of the preferred stock held by the depositary. The depositary will mail notice
+of redemption not less than 30 or more than 60 days prior to the date fixed for
+redemption to the record holders of the depositary shares. The redemption price
+per depositary share will be equal to the applicable fraction of the redemption
+price per share payable with respect to the preferred stock. Whenever we redeem
+shares of preferred stock held by the depositary, the depositary will redeem the
+corresponding depositary shares as of the same redemption date. If less than all
+the depositary shares are to be redeemed, the depositary will select by lot or
+pro rata which depositary shares will be redeemed.
+ 
+     After the redemption, the depositary shares called for redemption will no
+longer be deemed to be outstanding. All rights of the holders of the depositary
+shares will cease, except the right to receive the money or other property to
+which the holders are entitled upon redemption upon surrender of the depositary
+receipts for their depositary shares.
+ 
+VOTING THE PREFERRED STOCK
+ 
+     The depositary will mail to the holders of depositary shares the
+information contained in any notice of meeting at which the holders of preferred
+stock are entitled to vote. Each record holder of depositary shares on the
+record date for the preferred stock may instruct the depositary to exercise its
+voting rights with respect to the depositary shares. The depositary will attempt
+to vote the number of shares of preferred stock underlying such depositary
+shares in accordance with these instructions. We will agree to take any action
+required to enable the depositary to vote the depositary shares. The depositary
+will abstain from voting shares of preferred stock to the extent it does not
+receive instructions from the holders of depositary shares relating to that
+preferred stock.
+ 
+AMENDMENT AND TERMINATION OF THE DEPOSIT AGREEMENT
+ 
+     We and the depositary may amend the form of depositary receipt and any
+provision of the deposit agreement at any time. However, neither of us can make
+any amendment that would materially and adversely alter the rights of the
+existing holders of depositary shares without approval by the record holders of
+at least a majority of the outstanding depositary shares. We or the depositary
+may terminate a deposit agreement only if (1) all outstanding depositary shares
+relating thereto have been redeemed or (2) there has been a final distribution
+to the holders of preferred stock in a liquidation, dissolution or winding up of
+Amazon.com and to the holders of the related depositary shares.
+ 
+CHARGES OF DEPOSITARY
+ 
+     We will pay all transfer and other taxes and governmental charges arising
+solely from the depositary arrangements. We will pay charges of the depositary
+in connection with the initial deposit of the preferred stock and any redemption
+of the preferred stock. Holders of
+ 
+                                        8
+<PAGE>   12
+ 
+depositary shares will pay transfer and other taxes and governmental charges and
+any other charges listed in the deposit agreement as holders' charges.
+ 
+MISCELLANEOUS
+ 
+     The depositary will forward to the holders of depositary shares all reports
+and communications that we are required to furnish to the holders of the
+preferred stock.
+ 
+     Neither the depositary nor Amazon.com will be liable if the law or any
+circumstance beyond its control prevents it from performing its obligations
+under the deposit agreement. Amazon.com and the depositary are required only to
+perform their duties in good faith. They will not be obligated to prosecute or
+defend any legal proceeding regarding any depositary shares or preferred stock
+unless the holders of those securities provide them with satisfactory indemnity.
+They may rely on written advice of counsel or accountants, or information
+provided by persons presenting preferred stock for deposit, holders of
+depositary shares or other persons believed to be competent and on documents
+believed to be genuine.
+ 
+RESIGNATION AND REMOVAL OF DEPOSITARY
+ 
+     The depositary may resign at any time by delivering notice to us, and we
+may at any time remove the depositary. Any such resignation or removal will take
+effect when a successor depositary is established.
+ 
+                       DESCRIPTION OF THE DEBT SECURITIES
+ 
+     We also may offer any combination of senior debt securities or subordinated
+debt securities. Debt securities are unsecured general obligations of
+Amazon.com. Senior debt securities rank above all subordinated indebtedness and
+equal to all other indebtedness outstanding on the date of the prospectus
+supplement. Subordinated debt securities rank in right of payment below all
+other indebtedness outstanding at or after the time issued, unless the other
+indebtedness provides that it is not senior to the subordinated debt.
+ 
+     We may issue the senior debt securities and the subordinated debt
+securities under separate indentures between us, as issuer, and the trustee or
+trustees identified in the prospectus supplement. A copy of the form of each
+type of indenture has been or will be filed as an exhibit to the registration
+statement of which this prospectus is a part. A prospectus supplement will
+describe the particular terms of any debt securities we may offer.
+ 
+     The following summaries of the debt securities and the indentures are not
+complete. We strongly urge you to read the indentures and the description of the
+debt securities included in the prospectus supplement.
+ 
+GENERAL
+ 
+     We may issue an unlimited principal amount of debt securities in separate
+series. We may specify a maximum aggregate principal amount for the debt
+securities of any series. The debt securities will have terms that are
+consistent with the indentures. Unless otherwise specified in the applicable
+prospectus supplement, senior debt securities will be
+ 
+                                        9
+<PAGE>   13
+ 
+unsecured and unsubordinated obligations of Amazon.com and will rank equal with
+all our other unsecured and unsubordinated debt. Subordinated debt securities
+will be paid only if all payments due under our senior indebtedness, including
+any outstanding senior debt securities, have been made.
+ 
+     The indentures might not limit the amount of other debt that we may incur
+and might not contain financial or similar restrictive covenants. The indentures
+might not contain any provision to protect holders of debt securities against a
+sudden or dramatic decline in our ability to pay our debt.
+ 
+     The prospectus supplement will describe the debt securities and the price
+or prices at which we will offer the debt securities. The description will
+include:
+ 
+     - the title of the debt securities;
+ 
+     - any limit on the aggregate principal amount of such debt securities or
+       the series of which they are a part;
+ 
+     - the person to whom any interest on a debt security of the series will be
+       paid;
+ 
+     - the date or dates on which we must pay the principal;
+ 
+     - the rate or rates at which the debt securities will bear interest, if
+       any, the date or dates from which interest will accrue, and the dates on
+       which we must pay interest;
+ 
+     - the place or places where we must pay the principal and any premium or
+       interest on the debt securities;
+ 
+     - the terms and conditions on which we may redeem any debt security, if at
+       all;
+ 
+     - any obligation to redeem or purchase any debt securities, and the terms
+       and conditions on which we must do so;
+ 
+     - the denominations in which we may issue the debt securities;
+ 
+     - the manner in which we will determine the amount of principal of or any
+       premium or interest on the debt securities;
+ 
+     - the currency in which we will pay the principal and any premium or
+       interest on the debt securities;
+ 
+     - the principal amount of the debt securities that we will pay upon
+       declaration of acceleration of their maturity;
+ 
+     - the amount that will be deemed to be the principal amount for any
+       purpose, including the principal amount that will be due and payable upon
+       any maturity or that will be deemed to be outstanding as of any date;
+ 
+     - if applicable, that the debt securities are defeasible;
+ 
+     - if applicable, the terms of any right to convert debt securities into, or
+       exchange debt securities for, shares of common stock or other securities
+       or property;
+ 
+     - whether we will issue the debt securities in the form of one or more
+       global securities and, if so, the respective depositaries for the global
+       securities and the terms of the global securities;
+ 
+                                       10
+<PAGE>   14
+ 
+     - the subordination provisions that will apply to the subordinated debt
+       securities;
+ 
+     - any addition to or change in the events of default applicable to the debt
+       securities and any change in the right of the trustee or the holders to
+       declare the principal amount of any of such debt securities due and
+       payable; and
+ 
+     - any addition to or change in the covenants in the indentures.
+ 
+     We may sell the debt securities at a substantial discount below their
+stated principal amount. We will describe certain special U.S. federal income
+tax considerations, if any, applicable to debt securities sold at an original
+issue discount in the prospectus supplement. An "original issue discount
+security" is any debt security that provides for an amount less than the
+principal amount to be due and payable upon the declaration of acceleration of
+the maturity in accordance with the terms of the applicable indenture. The
+prospectus supplement relating to any original issue discount securities will
+describe the particular provisions relating to acceleration of the maturity upon
+the occurrence of an event of default. In addition, we will describe certain
+special U.S. federal income tax or other considerations applicable to any debt
+securities that are denominated in a currency or unit other than U.S. dollars in
+the applicable prospectus supplement.
+ 
+CONVERSION AND EXCHANGE RIGHTS
+ 
+     The prospectus supplement will describe, if applicable, the terms on which
+you may convert debt securities into or exchange them for common stock or other
+securities or property. The conversion or exchange may be mandatory or may be at
+your option. We will describe how the number of shares of common stock or other
+securities or property to be received upon conversion or exchange would be
+calculated.
+ 
+SUBORDINATION OF SUBORDINATED DEBT SECURITIES
+ 
+     Unless the prospectus supplement indicates otherwise, the following
+provisions will apply to the subordinated debt securities. The indebtedness
+underlying the subordinated debt securities will be payable only if all payments
+due under senior indebtedness, including any outstanding senior debt securities,
+have been made. If we distribute our assets to creditors upon any dissolution or
+winding-up or liquidation or reorganization or in bankruptcy, insolvency,
+receivership or similar proceedings, we must first pay all amounts due or to
+become due on all senior indebtedness before we pay the principal of, or any
+premium or interest on, the subordinated debt securities. In the event the
+subordinated debt securities are accelerated because of an event of default, we
+may not make any payment on the subordinated debt securities until we have paid
+all senior indebtedness or the acceleration is rescinded. If the payment of
+subordinated debt securities accelerates because of an event of default, we must
+promptly notify holders of senior indebtedness of the acceleration.
+ 
+     We may not make any payment on the subordinated debt securities if a
+default in the payment of the principal of, premium, if any, interest, rent or
+other obligations, including a default under any repurchase or redemption
+obligation, in respect of designated senior indebtedness occurs and continues
+beyond any applicable grace period. We may not make any payment on the
+subordinated debt securities if any other default occurs and continues with
+respect to designated senior indebtedness that permits holders of the designated
+senior indebtedness to accelerate its maturity and the trustee receives a notice
+of such default from us, a holder of such designated senior indebtedness or
+other person permitted to give
+ 
+                                       11
+<PAGE>   15
+ 
+such notice. We may not resume payments on the subordinated debt securities
+until the defaults are cured or certain periods pass.
+ 
+     If we experience a bankruptcy, dissolution or reorganization, holders of
+senior indebtedness may receive more, ratably, and holders of the subordinated
+debt securities may receive less, ratably, than our other creditors.
+ 
+     The term "designated senior indebtedness" means our obligations under any
+particular senior indebtedness in which the debt instrument expressly provides
+that the senior indebtedness will be designated senior indebtedness with respect
+to the subordinated debt securities.
+ 
+     The indenture for subordinated debt securities may not limit our ability to
+incur additional senior indebtedness.
+ 
+FORM, EXCHANGE AND TRANSFER
+ 
+     We will issue debt securities only in fully registered form, without
+coupons, and, unless otherwise specified in the prospectus supplement, only in
+denominations of $1,000 and integral multiples thereof.
+ 
+     The holder of a debt security may elect, subject to the terms of the
+indentures and the limitations applicable to global securities, to exchange them
+for other debt securities of the same series of any authorized denomination and
+of a like tenor and aggregate principal amount.
+ 
+     Holders of debt securities may present them for exchange as provided above
+or for registration of transfer, duly endorsed or with the form of transfer
+endorsed thereon duly executed, at the office of the transfer agent we designate
+for that purpose. We will not impose a service charge for any registration of
+transfer or exchange of debt securities, but we may require a payment sufficient
+to cover any tax or other governmental charge payable in connection with the
+transfer or exchange. We will name the transfer agent in the prospectus
+supplement. We may designate additional transfer agents or rescind the
+designation of any transfer agent or approve a change in the office through
+which any transfer agent acts, but we must maintain a transfer agent in each
+place in which we will pay on debt securities.
+ 
+     If we redeem the debt securities, we will not be required to issue,
+register the transfer of or exchange any debt security during a specified period
+prior to mailing a notice of redemption. We are not required to register the
+transfer of or exchange any debt security selected for redemption, except the
+unredeemed portion of the debt security being redeemed.
+ 
+GLOBAL SECURITIES
+ 
+     The debt securities may be represented, in whole or in part, by one or more
+global securities that will have an aggregate principal amount equal to that of
+the debt securities. Each global security will be registered in the name of a
+depositary identified in the prospectus supplement. We will deposit the global
+security with the depositary or a custodian, and the global security will bear a
+legend regarding the restrictions on exchanges and registration of transfer.
+ 
+                                       12
+<PAGE>   16
+ 
+     No global security may be exchanged in whole or in part for debt securities
+registered, and no transfer of a global security in whole or in part may be
+registered, in the name of any person other than the depositary or any nominee
+of the depositary unless (1) the depositary has notified us that it is unwilling
+or unable to continue as depositary or (2) an event of default occurs and
+continues with respect to the debt securities. The depositary will determine how
+all securities issued in exchange for a global security will be registered.
+ 
+     As long as the depositary or its nominee is the registered holder of a
+global security, the depositary or the nominee will be considered the sole owner
+and holder of the global security and the underlying debt securities. Except as
+stated above, owners of beneficial interests in a global security will not be
+entitled to have the global security or any debt security registered in their
+names, will not receive physical delivery of certificated debt securities and
+will not be considered to be the owners or holders of the global security or
+underlying debt securities. We will make all payments of principal, premium and
+interest on a global security to the depositary or its nominee. The laws of some
+jurisdictions require that certain purchasers of securities take physical
+delivery of such securities in definitive form. These laws may prevent you from
+transferring your beneficial interests in a global security.
+ 
+     Only institutions that have accounts with the depositary or its nominee and
+persons that hold beneficial interests through the depositary or its nominee may
+own beneficial interests in a global security. The depositary will credit, on
+its book-entry registration and transfer system, the respective principal
+amounts of debt securities represented by the global security to the accounts of
+its participants. Ownership of beneficial interests in a global security will be
+shown only on, and the transfer of those ownership interests will be effected
+only through, records maintained by the depositary or any such participant.
+ 
+     The policies and procedures of the depositary may govern payments,
+transfers, exchanges and others matters relating to beneficial interests in a
+global security. We and the trustee assume no responsibility or liability for
+any aspect of the depositary's or any participant's records relating to, or for
+payments made on account of, beneficial interests in a global security.
+ 
+PAYMENT AND PAYING AGENTS
+ 
+     Unless otherwise stated in the prospectus supplement, we will pay principal
+and any premium or interest on a debt security to the person in whose name the
+debt security is registered at the close of business on the regular record date
+for such interest.
+ 
+     Unless otherwise stated in the prospectus supplement, we will pay
+principal, and any premium or interest on the debt securities at the office of
+our designated paying agent, except we may pay interest by check mailed to the
+address of the person entitled to the payment. Unless we state otherwise in the
+prospectus supplement, the corporate trust office of the trustee will be the
+paying agent for the debt securities.
+ 
+     Any other paying agents we designate for the debt securities of a
+particular series will be named in the prospectus supplement. We may designate
+additional paying agents, rescind the designation of any paying agent or approve
+a change in the office through which any paying agent acts, but we must maintain
+a paying agent in each place of payment for the debt securities.
+ 
+                                       13
+<PAGE>   17
+ 
+     The paying agent will return to us all money we pay to it for the payment
+of the principal, premium or interest on any debt security that remains
+unclaimed for a specified period. The holder thereafter may look only to us for
+payment.
+ 
+CONSOLIDATION, MERGER AND SALE OF ASSETS
+ 
+     Under the terms of the indentures, we may not consolidate with or merge
+into any other person, in a transaction in which we are not the surviving
+corporation, or convey, transfer or lease our properties and assets
+substantially as an entirety to, any person, unless:
+ 
+     - the successor is a corporation, limited liability company, partnership,
+       trust or other entity organized and existing under the laws of the United
+       States, or any state, and assumes our obligations under the debt
+       securities and the indentures;
+ 
+     - immediately after the transaction, no event of default occurs and
+       continues; and
+ 
+     - we meet certain other conditions.
+ 
+EVENTS OF DEFAULT
+ 
+     Each of the following will constitute an event of default under each
+indenture:
+ 
+     - failure to pay principal of or any premium on any debt security when due;
+ 
+     - failure to pay any interest on any debt security when due, continued for
+       a specified number of days;
+ 
+     - failure to deposit any sinking fund payment, when due;
+ 
+     - failure to perform any other covenant in the indenture that continues for
+       a specified number of days after written notice has been given by the
+       trustee, or the holders of a specified percentage in aggregate principal
+       amount of the debt securities of that series;
+ 
+     - certain events in bankruptcy, insolvency or reorganization of Amazon.com;
+       and
+ 
+     - any other event of default specified in the prospectus supplement.
+ 
+     If an event of default, other than an event of default as a result of
+certain events of bankruptcy, insolvency or reorganization, occurs and
+continues, either the trustee or the holders of a specified percentage in
+aggregate principal amount of the outstanding securities of that series may
+declare the principal amount of the debt securities of that series to be
+immediately due and payable. If an event of default occurs as a result of
+certain events of bankruptcy, insolvency or reorganization, the principal amount
+of all the debt securities of that series automatically will become immediately
+due and payable. The holders of a majority in aggregate principal amount of the
+outstanding securities of that series may, under certain circumstances, rescind
+and annul the acceleration if all events of default, other than the nonpayment
+of accelerated principal, have been cured or waived.
+ 
+     Except for certain duties in case of an event of default, the trustee will
+not be obligated to exercise any of its rights or powers at the request or
+direction of any of the holders, unless the holders have offered the trustee
+reasonable indemnity. If they provide this indemnification, the holders of a
+majority in aggregate principal amount of the outstanding securities of any
+series may direct the time, method and place of conducting
+ 
+                                       14
+<PAGE>   18
+ 
+any proceeding for any remedy available to the trustee or exercising any trust
+or power conferred on the trustee with respect to the debt securities of that
+series.
+ 
+     No holder of a debt security of any series may institute any proceeding
+with respect to the indentures, or for the appointment of a receiver or a
+trustee, or for any other remedy, unless (1) the holder has previously given the
+trustee written notice of a continuing event of default, (2) the holders of a
+specified percentage in aggregate principal amount of the outstanding securities
+of that series have made a written request, and the holders have offered
+reasonable indemnity to the trustee to institute the proceeding, and (3) the
+trustee has failed to institute the proceeding, and has not received a direction
+inconsistent with the request within a specified number of days.
+ 
+     Each indenture will include a covenant requiring our officers to furnish to
+the trustee annually a statement as to whether, to their knowledge, we are in
+default under the indenture and, if so, specifying all such known defaults.
+ 
+MODIFICATION AND WAIVER
+ 
+     We and the trustee may amend the indentures with the consent of the holders
+of a majority in aggregate principal amount of the outstanding securities of
+each series affected by the amendment. However, to the extent discussed in the
+prospectus supplement, without the consent of each holder, we may not make any
+amendment that would:
+ 
+     - change the stated maturity of the principal of, or any installment of
+       principal or interest on, any debt security;
+ 
+     - reduce the principal, premium or interest on any debt security;
+ 
+     - reduce the amount of principal of an original issue discount security or
+       any other debt security payable upon acceleration of the maturity;
+ 
+     - change the place or currency of payment of principal, premium or interest
+       on any debt security;
+ 
+     - impair the right to enforce any payment on any debt security;
+ 
+     - in the case of subordinated debt securities, modify the subordination
+       provisions in a manner materially adverse to their holders;
+ 
+     - in the case of debt securities that are convertible or exchangeable into
+       other securities of Amazon.com, adversely affect the right of holders to
+       convert or exchange any of the debt securities;
+ 
+     - reduce the percentage in principal amount of outstanding securities of
+       any series for which the holders' consent is required;
+ 
+     - reduce the percentage in principal amount of outstanding securities of
+       any series necessary for waiver of compliance with certain provisions of
+       the indentures or for waiver of certain defaults; or
+ 
+     - modify provisions with respect to modification and waiver.
+ 
+     The holders of a majority in aggregate principal amount of the outstanding
+debt securities of any series may waive, on behalf of the holders of all debt
+securities of that series, our compliance with certain restrictive provisions of
+the indentures. The holders of a
+ 
+                                       15
+<PAGE>   19
+ 
+majority in principal amount of the outstanding debt securities of any series
+may waive any past default under the indenture with respect to debt securities
+of that series, except a default (1) in the payment of principal, premium or
+interest on any debt security of that series or (2) in respect of a covenant or
+provision of the indenture that cannot be amended without each holder's consent.
+ 
+     Except in certain limited circumstances, we may set any day as a record
+date for the purpose of determining the holders of outstanding securities of any
+series entitled to give or take any direction, notice, consent, waiver or other
+action under the indentures. In certain limited circumstances, the trustee may
+set a record date for action by holders. To be effective, the action must be
+taken by holders of the requisite principal amount of such debt securities
+within a specified period following the record date.
+ 
+DEFEASANCE AND COVENANT DEFEASANCE
+ 
+     To the extent stated in the prospectus supplement, we may elect to apply
+the provisions relating to defeasance and discharge of indebtedness, or to
+defeasance of certain restrictive covenants in the indentures, to the debt
+securities of any series.
+ 
+NOTICES
+ 
+     We will mail notices to holders of debt securities at the addresses that
+appear in the security register.
+ 
+TITLE
+ 
+     We may treat the person in whose name a debt security is registered as the
+absolute owner, whether or not such debt security may be overdue, for the
+purpose of making payment and for all other purposes.
+ 
+                                       16
+<PAGE>   20
+ 
+               DESCRIPTION OF THE WARRANTS TO PURCHASE COMMON OR
+                                PREFERRED STOCK
+ 
+     The following summarizes the terms of common stock warrants and preferred
+stock warrants we may issue. This description is subject to the detailed
+provisions of a stock warrant agreement that we will enter between us and a
+stock warrant agent we select at the time of issue.
+ 
+GENERAL
+ 
+     We may issue stock warrants evidenced by stock warrant certificates under
+the stock warrant agreement independently or together with any securities we
+offer by any prospectus supplement. If we offer stock warrants, the prospectus
+supplement will describe the terms of the stock warrants, including:
+ 
+     - the offering price, if any;
+ 
+     - if applicable, the designation and terms of the preferred stock
+       purchasable upon exercise of the preferred stock warrants;
+ 
+     - the number of shares of common or preferred stock purchasable upon
+       exercise of one stock warrant and the initial price at which the shares
+       may be purchased upon exercise;
+ 
+     - the dates on which the right to exercise the stock warrants begins and
+       expires;
+ 
+     - U.S. federal income tax consequences;
+ 
+     - call provisions, if any;
+ 
+     - the currencies in which the offering price and exercise price are
+       payable; and
+ 
+     - if applicable, the antidilution provisions of the stock warrants.
+ 
+     The shares of common stock or preferred stock we issue upon exercise of the
+stock warrants will, when issued in accordance with the stock warrant agreement,
+be validly issued, fully paid and nonassessable.
+ 
+EXERCISE OF STOCK WARRANTS
+ 
+     You may exercise stock warrants by surrendering to the stock warrant agent
+the stock warrant certificate, which indicates your election to exercise all or
+a portion of the stock warrants evidenced by the certificate. Surrendered stock
+warrant certificates must be accompanied by payment of the exercise price in the
+form of cash or a check. The stock warrant agent will deliver certificates
+evidencing duly exercised stock warrants to the transfer agent. Upon receipt of
+the certificates, the transfer agent will deliver a certificate representing the
+number of shares of common stock or preferred stock purchased. If you exercise
+fewer than all the stock warrants evidenced by any certificate, the stock
+warrant agent will deliver a new stock warrant certificate representing the
+unexercised stock warrants.
+ 
+                                       17
+<PAGE>   21
+ 
+NO RIGHTS AS STOCKHOLDERS
+ 
+     Holders of stock warrants are not entitled to vote, to consent, to receive
+dividends or to receive notice as stockholders with respect to any meeting of
+stockholders, or to exercise any rights whatsoever as stockholders of
+Amazon.com.
+ 
+                    DESCRIPTION OF THE STOCK PURCHASE UNITS
+                          AND STOCK PURCHASE CONTRACTS
+ 
+     The following summarizes the general terms of stock purchase units and
+stock purchase contracts we may issue. The particular terms of any stock
+purchase units or stock purchase contracts we offer will be described in the
+prospectus supplement. This description is subject to the stock purchase
+contracts, and any collateral arrangements and depositary arrangements, relating
+to the stock purchase contracts or stock purchase units.
+ 
+     We may issue stock purchase contracts, including contracts obligating
+holders to purchase from us, and us to sell to the holders, a specified number
+of shares of common stock or preferred stock at a future date or dates. We may
+fix the consideration per share of common stock or preferred stock at the time
+we issue the stock purchase contracts, or the consideration may be determined by
+referring to a specific formula stated in the stock purchase contracts. We may
+issue the stock purchase contracts separately or as a part of stock purchase
+units consisting of a stock purchase contract and debt securities, preferred
+securities or debt obligations of third parties, including U.S. Treasury
+securities, which secure the holders' obligations to purchase the common stock
+or preferred stock under the stock purchase contracts. The stock purchase
+contracts may require us to make periodic payments to the holders of the stock
+purchase units or vice versa. These payments may be unsecured or prefunded on
+some basis. The stock purchase contracts may require holders to secure their
+obligations in a specified manner.
+ 
+                    DESCRIPTION OF THE THIRD-PARTY WARRANTS
+ 
+     The following summarizes the terms of third-party warrants we may issue.
+This description is subject to the detailed provisions of a third-party warrant
+agreement that we will enter with a third-party warrant agent we will select at
+the time of issue.
+ 
+GENERAL
+ 
+     We may issue third-party warrants evidenced by third-party warrant
+certificates independently or together with any securities offered by any
+prospectus supplement. If we offer third-party warrants, the prospectus
+supplement will describe the terms of the warrants, including:
+ 
+     - the offering price, if any;
+ 
+     - the designation, aggregate principal amount and terms of the third-party
+       securities purchasable upon exercise of the warrants;
+ 
+     - if applicable, the designation and terms of the third-party securities
+       with which the third-party warrants are issued and the number of
+       third-party warrants issued with each such third-party security;
+ 
+                                       18
+<PAGE>   22
+ 
+     - if applicable, the date on and after which the third-party warrants and
+       the related third-party securities will be separately transferable;
+ 
+     - the number or principal amount of third-party securities purchasable upon
+       exercise of one third-party warrant and the price at which the principal
+       amount of third-party securities may be purchased upon exercise;
+ 
+     - the dates on which the right to exercise the third-party warrants begins
+       and expires;
+ 
+     - U.S. federal income tax consequences;
+ 
+     - whether the warrants represented by the third-party warrant certificates
+       will be issued in registered or bearer form;
+ 
+     - the currencies in which the offering price and exercise price are
+       payable; and
+ 
+     - if applicable, any antidilution provisions.
+ 
+     The prospectus supplement will identify the third-party securities, the
+third-party issuer and all documents filed by the third-party issuer pursuant to
+Section 13(a), 13(c), 14 or 15(d) of the Exchange Act since the end of the
+third-party issuer's last completed fiscal year for which a Form 10-K annual
+report has been filed. It will identify the document or documents filed under
+the Exchange Act that contain a description of the third-party securities being
+sold. If no such document or documents exist, the prospectus supplement will
+include a description of the third-party securities being sold. We will offer
+third-party warrants only with respect to third-party securities of third-party
+issuers that are eligible to use Form S-3, or any successor form, for primary
+offerings under the rules and regulations of the SEC. To the extent the
+Securities Act requires registration of the third-party securities by the
+third-party issuer, we will cause the third-party issuer to file a third-party
+registration statement under the Securities Act. If the exercise of third-party
+warrants requires the third-party to have an effective third-party registration
+statement at the time of exercise, the exercise will be subject to the
+effectiveness of such registration statement.
+ 
+     You may exchange third-party warrant certificates for new third-party
+warrant certificates of different denominations and may, if in registered form,
+present third-party warrant certificates for registration of transfer at the
+corporate trust office of the third-party warrant agent, which will be listed in
+the prospectus supplement. Warrantholders do not have any of the rights of
+holders of third-party securities, except as may be otherwise set forth in the
+prospectus supplement.
+ 
+EXERCISE OF THIRD-PARTY WARRANTS
+ 
+     You may exercise third-party warrants by surrendering the third-party
+warrant certificate at the corporate trust office of the third-party warrant
+agent, with payment in full of the exercise price. Upon the exercise of
+third-party warrants, the third-party warrant agent will, as soon as
+practicable, deliver the third-party securities in authorized denominations in
+accordance with your instructions and at your sole cost and risk. If less than
+all the third-party warrants evidenced by the third-party warrant certificate
+are exercised, the agent will issue a new third-party warrant certificate for
+the remaining amount of third-party warrants.
+ 
+                                       19
+<PAGE>   23
+ 
+            DESCRIPTION OF THE WARRANTS TO PURCHASE DEBT SECURITIES
+ 
+     The following summarizes the terms of the debt warrants we may offer. The
+debt warrants will be subject to the detailed provisions of a debt warrant
+agreement that we will enter into with a debt warrant agent we select at the
+time of issue.
+ 
+GENERAL
+ 
+     We may issue debt warrants evidenced by debt warrant certificates
+independently or together with any securities offered by any prospectus
+supplement. If we offer debt warrants, the prospectus supplement will describe
+the terms of the warrants, including:
+ 
+     - the offering price, if any;
+ 
+     - the designation, aggregate principal amount and terms of the debt
+       securities purchasable upon exercise of the warrants;
+ 
+     - if applicable, the designation and terms of the debt securities with
+       which the debt warrants are issued and the number of debt warrants issued
+       with each debt security;
+ 
+     - if applicable, the date on and after which the debt warrants and the
+       related securities will be separately transferable;
+ 
+     - the principal amount of debt securities purchasable upon exercise of one
+       debt warrant and the price at which the principal amount of debt
+       securities may be purchased upon exercise;
+ 
+     - the dates on which the right to exercise the debt warrants begins and
+       expires;
+ 
+     - U.S. federal income tax consequences;
+ 
+     - whether the warrants represented by the debt warrant certificates will be
+       issued in registered or bearer form;
+ 
+     - the currencies in which the offering price and exercise price are
+       payable; and
+ 
+     - if applicable, any antidilution provisions.
+ 
+     You may exchange debt warrant certificates for new debt warrant
+certificates of different denominations and may present debt warrant
+certificates for registration of transfer at the corporate trust office of the
+debt warrant agent, which will be listed in the prospectus supplement.
+Warrantholders do not have any of the rights of holders of debt securities,
+except to the extent that the consent of warrantholders may be required for
+certain modifications of the terms of an indenture or form of the debt security,
+as the case may be, and the series of debt securities issuable upon exercise of
+the debt warrants. In addition, warrantholders are not entitled to payments of
+principal of and interest, if any, on the debt securities.
+ 
+EXERCISE OF DEBT WARRANTS
+ 
+     You may exercise debt warrants by surrendering the debt warrant certificate
+at the corporate trust office of the debt warrant agent with payment in full of
+the exercise price. Upon the exercise of debt warrants, the debt warrant agent
+will, as soon as practicable, deliver the debt securities in authorized
+denominations in accordance with your instructions and at your sole cost and
+risk. If less than all the debt warrants evidenced by the debt
+ 
+                                       20
+<PAGE>   24
+ 
+warrant certificate are exercised, the agent will issue a new debt warrant
+certificate for the remaining amount of debt warrants.
+ 
+             DESCRIPTION OF THE FOREIGN CURRENCY EXCHANGE WARRANTS
+ 
+GENERAL
+ 
+     The following summarizes the general terms and provisions of the currency
+warrants to which any prospectus supplement may relate. The particular terms of
+any currency warrants we offer will be described in the prospectus supplement.
+ 
+     We will issue each of the currency warrants under a separate currency
+warrant agreement between us and a bank or trust company, as currency warrant
+agent. A single bank or trust company may act as currency warrant agent for more
+than one issue of currency warrants. The currency warrant agent will act solely
+as our agent under the applicable currency warrant agreement and will not assume
+any obligation or relationship of agency or trust for or with any currency
+warrantholders. The following summary of certain provisions of the currency
+warrants and the form of currency warrant agreement are not complete. We
+strongly urge you to read all the provisions of the currency warrants and the
+currency warrant agreement.
+ 
+     We will have the right to "reopen" any outstanding issue of currency
+warrants by issuing additional currency warrants of such issue. We have not
+determined the specific circumstances under which we may decide to reopen an
+outstanding issue of currency warrants. Although we would do so only in a manner
+we believe would not adversely affect the trading price of the outstanding
+currency warrants of an issue, we cannot guarantee that the reopening of any
+outstanding issue of currency warrants will not have a material adverse effect
+on the trading price of outstanding currency warrants of such issue.
+ 
+     Each currency warrant will entitle the currency warrantholder to receive
+from us the cash settlement value of the warrant, which will be a cash amount in
+U.S. dollars. In the case of a currency put warrant we will determine the amount
+by referring to the amount, if any, by which a predetermined exchange rate of a
+reference currency as compared to the U.S. dollar or a predetermined level or
+range of levels of a currency index, as applicable (the "Strike Rate"), exceeds
+the then-current spot exchange rate of the reference currency as compared to the
+U.S. dollar or the then-current level or range of levels of such currency index
+(the "Spot Rate") on a date following the exercise date. In the case of a
+currency call warrant, we will determine the amount by referring to the amount,
+if any, by which the Spot Rate on the date of exercise exceeds the Strike Rate.
+The prospectus supplement for an issue of currency warrants will state the
+formula pursuant to which we will determine the cash settlement value. The
+Strike Rate may either be a fixed amount or an amount that varies during the
+term of such currency warrants in accordance with a schedule or formula. Certain
+currency warrants may entitle the currency warrantholder to receive from us,
+upon automatic exercise at expiration and under any other circumstances
+specified in the prospectus supplement, an amount equal to the greater of the
+cash settlement value and a minimum expiration value. In addition, if stated in
+the prospectus supplement, following an extraordinary event or exercise
+limitation event, we may calculate the cash settlement value of a currency
+warrant on a different basis.
+ 
+     We will settle a currency warrant only in U.S. dollars. Accordingly, a
+currency warrant will not entitle a currency warrantholder to sell, deliver,
+purchase or take delivery
+ 
+                                       21
+<PAGE>   25
+ 
+of any non-U.S. currency. We will have no obligation to, nor will we, purchase
+or take delivery of or sell or deliver any non-U.S. currency from or to currency
+warrantholders pursuant to the currency warrants.
+ 
+     Unless otherwise specified in the prospectus supplement, the currency
+warrants will be automatically exercised upon expiration. The prospectus
+supplement also may provide that the currency warrants will be automatically
+exercised upon the occurrence of other events. If they are automatically
+exercised, currency warrantholders will receive the cash settlement value, or if
+the currency warrants have a minimum expiration value they will receive the
+greater of the cash settlement value and the applicable minimum expiration
+value. The minimum expiration value may be either a fixed amount or an amount
+that varies during the term of the currency warrants in accordance with a
+schedule or formula.
+ 
+     We may cancel the currency warrants upon the occurrence of one or more
+extraordinary events described in the prospectus supplement. We may suspend any
+exercise of the currency warrants and postpone the valuation of or payment for
+such warrants upon the occurrence of an extraordinary event or certain other
+events described in the prospectus supplement. Upon cancellation, suspension or
+postponement, the affected warrantholders may be entitled to receive only the
+applicable cancellation amount or alternative settlement amount specified in the
+prospectus supplement. The cancellation amount or alternative settlement amount
+may be either a fixed amount or an amount that varies during the term of the
+currency warrants in accordance with a specified schedule or formula.
+ 
+     The prospectus supplement will state the terms of any currency warrants we
+offer, including, as applicable:
+ 
+     - the aggregate amount of such currency warrants;
+ 
+     - the offering price of such currency warrants;
+ 
+     - either (1) the reference currency, which may be a non-U.S. currency or
+       units of two or more non-U.S. currencies, or (2) the currency index,
+       which may be compiled and published by a third party or based on index
+       currencies we select;
+ 
+     - whether the currency warrants are currency put warrants or currency call
+       warrants;
+ 
+     - the dates on which the right to exercise the currency warrants begins and
+       expires;
+ 
+     - the manner in which currency warrants may be exercised;
+ 
+     - the minimum number, if any, of currency warrants exercisable at any one
+       time;
+ 
+     - the maximum number of currency warrants that may be exercised on any day;
+ 
+     - any provisions permitting a currency warrantholder to condition an
+       exercise notice on the absence of certain specified changes in the Spot
+       Rate after the exercise date, any provisions permitting us to suspend
+       exercise of or to redeem such currency warrants based on market
+       conditions or other circumstances and any other special provisions
+       relating to the exercise of such currency warrants;
+ 
+     - any provisions for the automatic exercise of such currency warrants;
+ 
+     - any provisions permitting us to suspend the exercise of, or postpone the
+       valuation of or payment for, the currency warrants;
+ 
+                                       22
+<PAGE>   26
+ 
+     - the method of determining the amount payable in connection with the
+       exercise or cancellation of the currency warrants;
+ 
+     - the time or times at which we will make payments on currency warrants;
+ 
+     - the national securities exchange or quotation system on which the
+       currency warrants will be listed, if at all;
+ 
+     - whether we may issue currency warrants in certificated form;
+ 
+     - if currency warrants are not issued in book-entry form, the place or
+       places at which we will pay the cash settlement value, cancellation
+       amount, if any, alternative settlement amount, if any, or minimum
+       expiration value, if any, of the currency warrants;
+ 
+     - U.S. federal income tax consequences;
+ 
+     - procedures for book entry and settlement; and
+ 
+     - procedures for modification.
+ 
+ADDITIONAL ISSUANCES OF OTHER CURRENCY WARRANTS
+ 
+     We may issue additional currency warrants that are the same as or different
+from any outstanding currency warrants without the consent of the currency
+warrantholders.
+ 
+MERGER, CONSOLIDATION, SALE OR OTHER DISPOSITIONS
+ 
+     Unless the prospectus supplement states otherwise, if we merge or
+consolidate or sell substantially all our assets, the successor corporation will
+assume all our obligations under the currency warrant agreement and currency
+warrants. We will have no further obligation under the currency warrant
+agreement and currency warrants.
+ 
+ENFORCEABILITY OF RIGHTS BY CURRENCY WARRANTHOLDERS
+ 
+     Any currency warrantholder may, without the consent of the currency warrant
+agent, enforce on its own behalf its rights under its currency warrants.
+ 
+                    DESCRIPTION OF THE STOCK INDEX WARRANTS
+ 
+GENERAL
+ 
+     The following summarizes the general terms and provisions of the stock
+index warrants to which any prospectus supplement may relate. The particular
+terms of any stock index warrants we offer will be described in the prospectus
+supplement.
+ 
+     We will issue each of the stock index warrants under a separate warrant
+agreement between us and a bank or trust company, as stock index warrant agent.
+A single bank or trust company may act as stock index warrant agent for more
+than one issue of stock index warrants. The stock index warrant agent will act
+solely as our agent under the applicable stock index warrant agreement and will
+not assume any obligation or relationship of agency or trust for or with any
+stock index warrantholders. The following summary of certain
+ 
+                                       23
+<PAGE>   27
+ 
+provisions of the stock index warrants and the form of stock index warrant
+agreement are not complete. We strongly urge you to read all of the provisions
+of the stock index warrants and the stock index warrant agreement.
+ 
+     We will have the right to "reopen" any outstanding issue of stock index
+warrants by issuing additional stock index warrants of such issue. We have not
+determined the specific circumstances under which we may decide to reopen an
+outstanding issue of stock index warrants. Although we would do so only in a
+manner we believe would not adversely affect the trading price of the
+outstanding stock index warrants of such issue, we cannot guarantee that the
+reopening of any outstanding issue of stock index warrants will not have a
+material adverse effect on the trading price of outstanding stock index warrants
+of such an issue.
+ 
+     Each stock index warrant will entitle the stock index warrantholder to
+receive from us the cash settlement value of the warrant, which will be an
+amount in cash. In the case of a stock index put warrant, we will determine the
+amount by referring to the amount, if any, by which a predetermined level or
+range of levels of the stock index (the "Strike Index") exceeds the level of the
+stock index (the "Spot Index") on a date following the exercise date (the
+"Valuation Date"). In the case of a stock index call warrant, we will determine
+the amount by referring to the amount, if any, by which the Spot Index on the
+Valuation Date exceeds the Strike Index. In the case of any other type of stock
+index warrant, we will determine the amount in the manner described in the
+prospectus supplement. The prospectus supplement for an issue of stock index
+warrants will state the formula pursuant to which we will determine the cash
+settlement value of the stock index warrants. The Strike Index may either be a
+fixed level of the stock index or a level that varies during the term of the
+stock index warrants in accordance with a schedule or formula. Certain stock
+index warrants may entitle the stock index warrantholder to receive from us,
+upon automatic exercise at expiration and under any other circumstances
+specified in the prospectus supplement, an amount equal to the greater of the
+cash settlement value and a minimum expiration value. In addition, if so stated
+in the prospectus supplement, following an extraordinary event or exercise
+limitation event, we may calculate the cash settlement value of a stock index
+warrant on a different basis. Unless the prospectus supplement specifies
+otherwise, the stock index will be an established, broadly based index related
+to a major domestic or foreign equity trading market, and the cash settlement
+value, if any, and, if applicable, the minimum expiration value, of the stock
+index warrants will be payable in U.S. dollars.
+ 
+     Unless otherwise specified in the prospectus supplement, a stock index
+warrant will be settled only in cash and, accordingly, will not require or
+entitle a stock index warrantholder to sell, deliver, purchase or take delivery
+of any securities, including the underlying stocks, and we will have no
+obligation to, nor will we, purchase or take delivery of or sell or deliver any
+securities, including the underlying stocks, from or to stock index
+warrantholders pursuant to the stock index warrants.
+ 
+     Unless otherwise specified in the prospectus supplement, the stock index
+warrants will be automatically exercised upon expiration. The prospectus
+supplement may provide that the stock index warrants will be automatically
+exercised upon the occurrence of other events. If the stock index warrants are
+exercised automatically, stock index warrantholders will receive the cash
+settlement value of the stock index warrants, or if the stock index warrants
+have a minimum expiration value, the warrantholders will receive the greater of
+the cash settlement value and the applicable minimum expiration value. The
+minimum
+ 
+                                       24
+<PAGE>   28
+ 
+expiration value may be either a fixed amount or an amount that varies during
+the term of the stock index warrants in accordance with a schedule or formula.
+ 
+     We may cancel the stock index warrants upon the occurrence of an
+extraordinary event described in the prospectus supplement. We may suspend any
+exercise of the stock index warrants and postpone the valuation of or payment
+for such warrants upon the occurrence of an exercise limitation event described
+in the prospectus supplement. Upon cancellation, suspension or postponement, the
+affected stock index warrantholders may be entitled to receive only the
+applicable cancellation amount or alternative settlement amount specified in the
+prospectus supplement. The cancellation amount or alternative settlement amount
+may be either a fixed amount or an amount that varies during the term of the
+stock index warrants in accordance with a specified schedule or formula.
+ 
+     The prospectus supplement will state the terms of any stock index warrants
+we offer, including, as applicable:
+ 
+     - the aggregate amount of such stock index warrants;
+ 
+     - the offering price of such stock index warrants;
+ 
+     - the stock index for such stock index warrants, which may be based on U.S.
+       or foreign stocks or a combination thereof and may be a preexisting U.S.
+       or foreign stock index compiled and published by a third party or an
+       index based on a group of underlying stocks we select, and certain
+       information regarding the stock index and the underlying stocks;
+ 
+     - whether the stock index warrants are stock index put warrants, stock
+       index call warrants or another type of stock index warrants;
+ 
+     - the dates on which the right to exercise the stock index warrants begins
+       and expires;
+ 
+     - the manner in which the stock index warrants may be exercised;
+ 
+     - the minimum number, if any, of stock index warrants exercisable at any
+       one time;
+ 
+     - the maximum number of stock index warrants that may be exercised on any
+       day;
+ 
+     - any provisions permitting a stock index warrantholder to condition an
+       exercise notice on the absence of certain specified changes in the Spot
+       Index after the exercise date, any provisions permitting us to suspend
+       exercise of or to redeem stock index warrants based on market conditions
+       or other circumstances and any other special provisions relating to the
+       exercise of such stock index warrants;
+ 
+     - any provisions for the automatic exercise of such stock index warrants;
+ 
+     - any provisions permitting us to suspend the exercise of, or postpone the
+       valuation of or payment for, stock index warrants;
+ 
+     - the method of determining the amount payable in connection with the
+       exercise or cancellation of stock index warrants;
+ 
+     - the method of providing for a substitute index or otherwise determining
+       the amount payable in connection with the exercise of stock index
+       warrants if the stock index changes or ceases to be made available by its
+       publisher;
+ 
+     - the time or times at which we will make payments on stock index warrants;
+ 
+                                       25
+<PAGE>   29
+ 
+     - the national securities exchange or quotation system on which the stock
+       index warrants will be listed, if at all;
+ 
+     - whether we may issue stock index warrants in certificated form;
+ 
+     - if stock index warrants are not issued in book-entry form, the place or
+       places at which we will pay the cash settlement value, cancellation
+       amount, if any, alternative settlement amount, if any, and minimum
+       expiration value, if any, of the stock index warrants;
+ 
+     - U.S. federal tax consequences;
+ 
+     - procedures for book entry and settlement; and
+ 
+     - procedures for modification.
+ 
+ADDITIONAL ISSUANCES OF OTHER STOCK INDEX WARRANTS; MERGER, CONSOLIDATION, SALE
+OR OTHER DISPOSITIONS; ENFORCEABILITY OF RIGHTS BY STOCK INDEX WARRANTHOLDERS
+ 
+     Unless otherwise indicated in the prospectus supplement, the information
+provided under "Description of the Foreign Currency Exchange
+Warrants -- Additional Issuances of Other Currency Warrants; -- Merger,
+Consolidation, Sale or Other Dispositions" and "-- Enforceability of Rights by
+Currency Warrantholders" will apply to the stock index warrants and the holders
+thereof.
+ 
+                       DESCRIPTION OF THE OTHER WARRANTS
+ 
+GENERAL
+ 
+     The following summarizes the general terms and provisions of the other
+warrants to which any prospectus supplement may relate. The particular terms of
+any other warrants we offer will be described in the prospectus supplement.
+ 
+     We will issue each of the other warrants under a separate warrant agreement
+between us and a bank or trust company, as warrant agent. A single bank or trust
+company may act as warrant agent for more than one issue of other warrants. The
+warrant agent will act solely as our agent under the applicable warrant
+agreement and will not assume any obligation or relationship of agency or trust
+for or with any holders of such other warrants. The following summaries of
+certain provisions of the other warrants and the form of other warrant agreement
+are not complete. We strongly urge you to read all the provisions of the other
+warrants and the other warrant agreement.
+ 
+     We may have the right to "reopen" any outstanding issue of other warrants
+by issuing additional other warrants of such issue. Although we would do so only
+in a manner that we believe would not have a material adverse effect on the
+trading price of the outstanding other warrants of such issue, we cannot
+guarantee that the reopening of any outstanding issue of other warrants will not
+have a material adverse effect on the trading price of outstanding other
+warrants of such issue.
+ 
+     Each other warrant will entitle the warrantholder to receive from us the
+cash settlement value of the warrant, which will be in U.S. dollars. In the case
+of a put warrant, we will determine the amount by referring to the amount, if
+any, by which a
+ 
+                                       26
+<PAGE>   30
+ 
+predetermined value of a commodity or a predetermined level or range of levels
+of a commodity index, as applicable (the "Commodity Strike Rate"), exceeds the
+then-current value of a commodity or the level of the commodity index, as
+applicable (the "Commodity Spot Rate") on a date following the exercise date. In
+the case of a call warrant, we will determine the amount by referring to the
+amount, if any, by which the Commodity Spot Rate on the valuation date exceeds
+the Commodity Strike Rate. The prospectus supplement for an issue of other
+warrants will set forth the formula pursuant to which the cash settlement value
+of such other warrants will be determined. The Commodity Strike Rate may either
+be a fixed amount or an amount that varies during the term of the other warrants
+in accordance with a schedule or formula.
+ 
+     We will settle the other warrants only in U.S. dollars and, accordingly,
+they will not entitle a warrantholder to sell, deliver, purchase or take
+delivery of any commodity or non-U.S. currency to or from us. We will have no
+obligation to, nor will we, purchase or take delivery of or sell or deliver any
+commodity or non-U.S. currency from or to the warrantholders pursuant to the
+other warrants.
+ 
+     The prospectus supplement will state the terms of any other warrants we
+offer, including, as applicable:
+ 
+     - the aggregate amount of such other warrants;
+ 
+     - the offering price of such other warrants;
+ 
+     - either (1) the commodity or (2) the commodity index, which may be
+       compiled and published by a third party or based on commodity indexes we
+       select;
+ 
+     - whether such other warrants are put warrants or call warrants;
+ 
+     - the dates on which the right to exercise such other warrants begins and
+       expires;
+ 
+     - the manner in which such other warrants may be exercised;
+ 
+     - the minimum number, if any, of other warrants exercisable at any one
+       time;
+ 
+     - the maximum number of other warrants that may be exercised on any day;
+ 
+     - any provisions permitting a warrantholder to condition an exercise notice
+       on the absence of certain specified changes in the Commodity Spot Rate
+       after the exercise date, any provisions permitting us to suspend exercise
+       of, or to redeem, such other warrants based on market conditions or other
+       circumstances and any other special provisions relating to the exercise
+       of such other warrants;
+ 
+     - any provisions for the automatic exercise of such other warrants;
+ 
+     - any provisions permitting us to suspend the exercise of, or postpone the
+       valuation of or payment for, such other warrants;
+ 
+     - the method of determining the amount payable in connection with the
+       exercise or cancellation of such other warrants;
+ 
+     - the time or times at which we will make payments on such other warrants;
+ 
+     - the national securities exchange or quotation system on which such other
+       warrants will be listed, if at all;
+ 
+                                       27
+<PAGE>   31
+ 
+     - whether we may issue other warrants in certificated form;
+ 
+     - if other warrants are not issued in book-entry form, the place or places
+       at which we will pay the cash settlement value, cancellation amount, if
+       any, alternative settlement amount, if any, and minimum expiration value,
+       if any, of the other warrants;
+ 
+     - U.S. federal income tax consequences;
+ 
+     - procedures for book entry and settlement; and
+ 
+     - procedures for modification.
+ 
+ADDITIONAL ISSUANCES OF OTHER WARRANTS; MERGER, CONSOLIDATION, SALE OR OTHER
+DISPOSITIONS; ENFORCEABILITY OF RIGHTS BY OTHER WARRANTHOLDERS
+ 
+     Unless otherwise indicated in the prospectus supplement, the information
+provided under "Description of the Foreign Currency Exchange
+Warrants -- Additional Issuances of Other Currency Warrants;  -- Merger,
+Consolidation, Sale or Other Dispositions" and "-- Enforceability of Rights by
+Currency Warrantholders" will apply to the other warrants.
+ 
+                              PLAN OF DISTRIBUTION
+ 
+     We may sell the securities (1) through underwriters or dealers, (2) through
+agents, or (3) directly to one or more purchasers. The applicable prospectus
+supplement will describe the terms of the offering of the securities, including:
+ 
+     - the name or names of any underwriters, if any;
+ 
+     - the purchase price of the securities and the proceeds we will receive
+       from the sale;
+ 
+     - any underwriting discounts and other items constituting underwriters'
+       compensation;
+ 
+     - any initial public offering price;
+ 
+     - any discounts or concessions allowed or reallowed or paid to dealers; and
+ 
+     - any securities exchange or market on which the securities may be listed.
+ 
+     Only underwriters named in the prospectus supplement are underwriters of
+the securities offered by the prospectus supplement.
+ 
+     If underwriters are used in the sale, they will acquire the securities for
+their own account and may resell them from time to time in one or more
+transactions at a fixed public offering price or at varying prices determined at
+the time of sale. We may offer the securities to the public through underwriting
+syndicates represented by managing underwriters or by underwriters without a
+syndicate. Subject to certain conditions, the underwriters will be obligated to
+purchase all the securities of the series offered by the prospectus supplement.
+Any public offering price and any discounts or concessions allowed or reallowed
+or paid to dealers may change from time to time.
+ 
+     We may sell securities directly or through agents we designate from time to
+time. We will name any agent involved in the offering and sale of securities and
+we will describe any commissions we will pay the agent in the prospectus
+supplement. Unless the prospectus
+ 
+                                       28
+<PAGE>   32
+ 
+supplement states otherwise, our agent will act on a best-efforts basis for the
+period of its appointment.
+ 
+     We may authorize agents or underwriters to solicit offers by certain types
+of institutional investors to purchase securities from us at the public offering
+price set forth in the prospectus supplement pursuant to delayed delivery
+contracts providing for payment and delivery on a specified date in the future.
+We will describe the conditions to these contracts and the commissions we must
+pay for solicitation of these contracts in the prospectus supplement.
+ 
+     We may provide agents and underwriters with indemnification against certain
+civil liabilities, including liabilities under the Securities Act, or
+contribution with respect to payments that the agents or underwriters may make
+with respect to such liabilities. Agents and underwriters may engage in
+transactions with, or perform services for, us in the ordinary course of
+business.
+ 
+     All securities we offer other than common stock will be new issues of
+securities with no established trading market. Any underwriters may make a
+market in these securities, but will not be obligated to do so and may
+discontinue any market making at any time without notice. We cannot guarantee
+the liquidity of the trading markets for any securities.
+ 
+                              ERISA CONSIDERATIONS
+ 
+     The Employee Retirement Income Security Act of 1974, as amended, imposes
+certain restrictions on employee benefit plans that are subject to ERISA, and on
+those persons who are fiduciaries with respect to such plans. In accordance with
+ERISA's general fiduciary requirements, a fiduciary with respect to any plan who
+is considering the purchase of any of these securities on behalf of a plan
+should determine whether such purchase is permitted under the governing plan
+documents, is prudent and is appropriate for the plan in view of its overall
+investment policy and the composition and diversification of its portfolio.
+Other provisions of ERISA and section 4975 of the Internal Revenue Code of 1986,
+as amended, prohibit certain transactions involving the assets of a plan and
+persons who are "parties in interest" within the meaning of ERISA or
+"disqualified persons" within the meaning of section 4975 of the Code. Thus, a
+plan fiduciary considering the purchase of such securities should consider
+whether such a purchase might constitute or result in a prohibited transaction
+under ERISA or section 4975 of the Code. A prohibited transaction, in addition
+to imposing potential personal liability on the fiduciaries of the plan, may
+also result in the imposition of a civil penalty under ERISA or an excise tax
+under the Code upon parties in interest or disqualified persons with respect to
+the plan. In addition, if the plan involved in a prohibited transaction is an
+individual retirement account or annuity, the IRA or annuity would lose its
+tax-exempt status.
+ 
+     An underwriter involved in the sale of securities, and its affiliates, may
+be considered a party in interest or a disqualified person with respect to a
+plan purchasing securities because, among other reasons, such underwriter or its
+affiliate provides services to the plan. We might also be a party in interest or
+disqualified person with respect to such a plan. For a plan subject to the
+fiduciary responsibility provisions of ERISA or the prohibited transaction
+provisions of section 4975 of the Code, including IRAs and other plans described
+in section 4975(a)(1) of the Code, the purchase of securities from an
+underwriter considered a party in interest or a disqualified person may
+constitute or result in a nonexempt prohibited transaction under ERISA or
+section 4975 of the Code, unless
+ 
+                                       29
+<PAGE>   33
+ 
+the securities are acquired pursuant to and in accordance with an applicable
+exemption. Some possible exemptions include:
+ 
+     - Prohibited transaction class exemption (PTCE) 84-14, an exemption for
+       certain transactions determined by an independent qualified professional
+       asset manager;
+ 
+     - PTCE 91-38, an exemption for certain transactions involving bank
+       collective funds;
+ 
+     - PTCE 90-1, an exemption for certain transactions involving insurance
+       company pooled separate accounts;
+ 
+     - PTCE 95-60, an exemption for certain transactions involving life
+       insurance company general accounts;
+ 
+     - PTCE 96-23, an exemption for certain transactions involving in-house
+       asset managers; and
+ 
+     - PTCE 75-1, Part II or Part III, exemptions for certain principal
+       transactions involving sales or purchases of securities between plans and
+       parties in interest.
+ 
+     Likewise, if we are a party in interest or disqualified person with respect
+to a plan, the plan should assure itself that an exemption to the prohibited
+transaction provisions of ERISA and section 4975 of the Code applies to its
+acquisition and holding of any of these securities. Any pension or other
+employee benefit plan considering the acquisition of any of these securities
+should consult with its counsel prior to acquiring such securities.
+ 
+                                 LEGAL MATTERS
+ 
+     Perkins Coie LLP, Seattle, Washington, will provide Amazon.com with an
+opinion as to the legality of the securities we are offering.
+ 
+                                    EXPERTS
+ 
+     The consolidated financial statements of Amazon.com appearing in
+Amazon.com's Annual Report (Form 10-K) for the year ended December 31, 1998,
+have been audited by Ernst & Young LLP, independent auditors, as set forth in
+their report thereon incorporated herein by reference. Such consolidated
+financial statements are incorporated herein by reference in reliance upon such
+report given on the authority of such firm as experts in accounting and
+auditing.
+ 
+     The financial statements of Junglee Corp., incorporated in this prospectus
+by reference to Amazon.com's Current Report on Form 8-K filed August 27, 1998,
+have been audited by Deloitte & Touche LLP, independent auditors, as stated in
+their report, which is incorporated herein by reference and has been so
+incorporated in reliance upon the report of such firm given upon their authority
+as experts in accounting and auditing.
+ 
+                                       30
+<PAGE>   34
+ 
+     The consolidated financial statements of e-Niche Incorporated, incorporated
+by reference to Amazon.com's Current Report on Form 8-K filed May 12, 1999, have
+been audited by PricewaterhouseCoopers LLP, independent accountants, as stated
+in their report, which is incorporated herein by reference and has been so
+incorporated in reliance on the report of such firm as experts in auditing and
+accounting.
+ 
+     The financial statements of Alexa Internet, incorporated by reference to
+Amazon.com's Current Report on Form 8-K filed May 12, 1999, have been audited by
+PricewaterhouseCoopers LLP, independent accountants, as stated in their report,
+which is incorporated herein by reference and has been so incorporated in
+reliance on the report of such firm as experts in auditing and accounting.
+<PAGE>   35
+ 
+- --------------------------------------------------------------------------------
+- --------------------------------------------------------------------------------
+ 
+     We have not authorized any person to give you any information or to make
+any representations other than those contained in this prospectus. You should
+not rely on any information or representations other than this prospectus. This
+prospectus is not an offer to sell or a solicitation of an offer to buy any
+securities other than those discussed in this prospectus. It is not an offer to
+sell or a solicitation of an offer to buy securities if the offer or
+solicitation would be unlawful. The affairs of Amazon.com may have changed since
+the date of this prospectus. You should not assume that the information in this
+prospectus is correct at any time subsequent to its date.
+ 
+                                 $2,000,000,000
+                                     [LOGO]
+ 
+                                  COMMON STOCK
+                                PREFERRED STOCK
+                               DEPOSITARY SHARES
+                                DEBT SECURITIES
+                       WARRANTS TO PURCHASE COMMON STOCK
+                      WARRANTS TO PURCHASE PREFERRED STOCK
+                              STOCK PURCHASE UNITS
+                            STOCK PURCHASE CONTRACTS
+                              THIRD-PARTY WARRANTS
+                      WARRANTS TO PURCHASE DEBT SECURITIES
+                       FOREIGN CURRENCY EXCHANGE WARRANTS
+                              STOCK INDEX WARRANTS
+                                 OTHER WARRANTS
+ 
+                           -------------------------
+ 
+                                   PROSPECTUS
+ 
+                           -------------------------
+ 
+                                            , 1999
+ 
+- --------------------------------------------------------------------------------
+- --------------------------------------------------------------------------------
+<PAGE>   36
+ 
+                                    PART II
+ 
+                     INFORMATION NOT REQUIRED IN PROSPECTUS
+ 
+ITEM 14. OTHER EXPENSES OF ISSUANCE AND DISTRIBUTION
+ 
+     The following table sets forth the estimated costs and expenses, other than
+underwriting discounts, payable by the registrant in connection with the
+offering of the securities being registered.
+ 
+<TABLE>
+<S>                                                    <C>
+SEC registration fee.................................  $556,000
+NASD filing fee......................................         *
+Nasdaq National Market listing fee...................         *
+Transfer Agent and registrar fee.....................         *
+Legal fees and expenses..............................         *
+Accounting fees and expenses.........................         *
+Miscellaneous fees and expenses......................         *
+                                                       --------
+          Total......................................  $      *
+                                                       ========
+</TABLE>
+ 
+- ---------------
+ *  To be provided by amendment.
+ 
+ITEM 15. INDEMNIFICATION OF DIRECTORS AND OFFICERS
+ 
+     Section 145 of the Delaware General Corporation Law (the "DGCL") provides
+that a corporation may indemnify its directors and officers, a well as other
+employees and individuals, against expenses (including attorneys' fees),
+judgments, fines and amounts paid in settlement in connection with specified
+actions, suits or proceedings, whether civil, criminal, administrative or
+investigative (other than an action by or in the right of the corporation -- a
+"derivative action"), if they acted in good faith and in a manner they
+reasonably believed to be in or not opposed to the best interests of the
+corporation, and, with respect to any criminal action or proceeding, had no
+reasonable cause to believe their conduct was unlawful. A similar standard is
+applicable in the case of derivative actions, except that indemnification only
+extends to expenses (including attorneys' fees) incurred in connection with the
+defense or settlement of such actions, and the statute requires court approval
+before there can be any indemnification in which the person seeking
+indemnification has been found liable to the corporation. The statute provides
+that it is not exclusive of other indemnification that may be granted by a
+corporation's charter, bylaws, disinterested director vote, stockholder vote,
+agreement or otherwise.
+ 
+     Section 10 of the registrant's Bylaws requires indemnification to the full
+extent permitted under Delaware law as it now exists or may hereafter be
+amended. Subject to any restrictions imposed by Delaware law, the Bylaws provide
+an unconditional right to indemnification for all expense, liability and loss
+(including attorneys' fees, judgments fines, ERISA excise taxes or penalties and
+amounts paid in settlement) actually and reasonably incurred or suffered by any
+person in connection with any actual or threatened action, suit or proceeding,
+whether civil, criminal, administrative or investigative (including, to the
+extent permitted by law, any derivative action) by reason of the fact that such
+person is or was serving as a director of officer of the registrant or that,
+being or having been a director or officer of the registrant, such person is or
+was serving at the request of the registrant as a director, officer, employee or
+agent of another corporation,
+ 
+                                      II-1
+<PAGE>   37
+ 
+partnership, joint venture, trust or other enterprise, including service with
+respect to an employee benefit plan.
+ 
+     The Bylaws also provide that the registrant may, by action of its Board of
+Directors, provide indemnification to its employees and agents with the same
+scope and effect as the foregoing indemnification of directors and officers.
+ 
+     Section 102(b)(7) of the DGCL permits a corporation to provide in its
+certificate of incorporation that a director of the corporation shall not be
+personally liable to the corporation or its stockholders for monetary damages
+for breach of fiduciary duty as a director, except for liability for (i) any
+breach of the director's duty of loyalty to the corporation or its stockholders,
+(ii) acts or omissions not in good faith or which involve intentional misconduct
+or a knowing violation of law, (iii) payments of unlawful dividends or unlawful
+stock repurchases or redemptions, or (iv) any transaction from which the
+director derived an improper personal benefit.
+ 
+     Article 10 of the registrant's Restated Certificate of Incorporation
+provides that to the full extent that the DGCL, as it now exists or may
+hereafter be amended, permits the limitation or elimination of the liability of
+directors, a director of the registrant shall not be liable to the registrant or
+its stockholders for monetary damages for breach of fiduciary duty as a
+director. Any amendment to or repeal of such Article 10 shall not adversely
+affect any right or protection of a director of the registrant for or with
+respect to any acts or omissions of such director occurring prior to such
+amendment or repeal.
+ 
+     The registrant has entered into certain indemnification agreements with its
+officers and directors. The indemnification agreements provide the registrant's
+officers and directors with further indemnification, to the maximum extent
+permitted by the DGCL.
+ 
+ITEM 16. EXHIBITS.
+ 
+<TABLE>
+<CAPTION>
+    EXHIBIT
+    NUMBER                             DESCRIPTION
+    -------                            -----------
+    <C>        <S>
+      1.1      Proposed Form of Underwriting Agreement*
+      3.1      Restated Certificate of Incorporation**
+      3.2      Bylaws***
+      4.1      Form of Deposit Agreement*
+      4.2      Form of Indenture*
+      4.3      Form of Subordinated Indenture*
+      4.4      Form of Stock Warrant Provisions*
+      4.5      Form of Stock Purchase Contract*
+      4.6      Form of Third-Party Warrant Agreement*
+      4.7      Form of Debt Securities Warrant Provisions*
+      4.8      Form of Warrant Agreement, including form of warrant,
+               relating to the Foreign Currency Exchange Warrants*
+      4.9      Form of Warrant Agreement, including form of warrant,
+               relating to the Stock Index Warrants*
+      5.1      Opinion of Perkins Coie LLP*
+     12.1      Computation of Ratio of Earnings to Fixed Charges
+     23.1      Consent of Ernst & Young LLP, independent auditors
+     23.2      Consent of Deloitte & Touche LLP, independent auditors
+</TABLE>
+ 
+                                      II-2
+<PAGE>   38
+ 
+<TABLE>
+<CAPTION>
+    EXHIBIT
+    NUMBER                             DESCRIPTION
+    -------                            -----------
+    <C>        <S>
+     23.3      Consent of PricewaterhouseCoopers LLP, independent
+               accountants
+     23.4      Consent of PricewaterhouseCoopers LLP, independent
+               accountants
+     23.5      Consent of Perkins Coie LLP (included in its opinion filed
+               as Exhibit 5.1 hereto)*
+     24.1      Powers of Attorney (contained on the signature pages of this
+               registration statement)
+     25.1      Statement of Eligibility and Qualification on Form T-1 of
+               trustee to act as trustee under indenture*
+</TABLE>
+ 
+- -------------------------
+*   To be filed by amendment or as an exhibit to a report pursuant to Section
+    13(a) or 15(d) of the Exchange Act.
+ 
+**  Incorporated by reference to our Registration Statement on Form S-4
+    (Registration No. 333-55943) filed on June 3, 1998.
+ 
+*** Incorporated by reference to our Form 10-Q for the quarter ended March 31,
+    1998.
+ 
+ITEM 17. UNDERTAKINGS
+ 
+     A. The undersigned registrant hereby undertakes:
+ 
+          (1) To file, during any period in which offers or sales are being
+     made, a post-effective amendment to this registration statement:
+ 
+             (i) To include any prospectus required by Section 10(a)(3) of the
+        Securities Act of 1933;
+ 
+             (ii) To reflect in the prospectus any facts or events arising after
+        the effective date of the registration statement (or the most recent
+        post-effective amendment thereof) which, individually or in the
+        aggregate, represent a fundamental change in the information set forth
+        in the registration statement. Notwithstanding the foregoing, any
+        increase or decrease in volume of securities offered (if the total
+        dollar value of securities offered would not exceed that which was
+        registered) and any deviation from the low or high and of the estimated
+        maximum offering range may be reflected in the form of prospectus filed
+        with the Commission pursuant to Rule 424(b) if, in the aggregate, the
+        changes in volume and price represent no more than 20 percent change in
+        the maximum aggregate offering price, set forth in the "Calculation of
+        Registration Fee" table in the effective registration statement; and
+ 
+             (iii) To include any material information with respect to the plan
+        of distribution not previously disclosed in the registration statement
+        or any material change to such information in the registration
+        statement;
+ 
+provided, however, that paragraphs (i) and (ii) above do not apply if the
+information required to be included in a post-effective amendment by those
+paragraphs is contained in periodic reports filed with or furnished to the
+Commission by the registrant pursuant to Section 13 or Section 15(d) of the
+Securities Exchange Act of 1934 that are incorporated by reference into the
+registration statement.
+ 
+          (2) That, for the purpose of determining any liability under the
+     Securities Act, each such post-effective amendment shall be deemed to be a
+     new registration
+ 
+                                      II-3
+<PAGE>   39
+ 
+     statement relating to the securities offered therein, and the offering of
+     such securities at that time shall be deemed to be the initial bona fide
+     offering thereof.
+ 
+          (3) To remove from registration by means of a post-effective amendment
+     any of the securities being registered that remain unsold at the
+     termination of the offering.
+ 
+     B. The undersigned registrant hereby undertakes that, for purposes of
+determining any liability under the Securities Act, each filing of the
+registrant's annual report pursuant to Section 13(a) or Section 15(d) of the
+Exchange Act (and, where applicable, each filing of an employee benefit plan's
+annual report pursuant to Section 15(d) of the Exchange Act) incorporated by
+reference in the registration statement shall be deemed to be a new registration
+statement relating to the securities offered therein, and the offering of such
+securities at that time shall be deemed to be the initial bona fide offering
+thereof.
+ 
+     C. Insofar as indemnification for liabilities arising under the Securities
+Act may be permitted to directors, officers and controlling persons of the
+registrant pursuant to the foregoing provisions, or otherwise, the registrant
+has been advised that in the opinion of the Commission such indemnification is
+against public policy as expressed in the Securities Act and is therefore
+unenforceable. If a claim for indemnification against such liabilities (other
+than the payment by the registrant of expenses incurred or paid by a director,
+officer or controlling person of the registrant in the successful defense of any
+action, suit or proceeding) is asserted by such director, officer or controlling
+person in connection with the securities being registered, the registrant will,
+unless in the opinion of its counsel the matter has been settled by controlling
+precedent, submit to a court of appropriate jurisdiction the question whether
+such indemnification by it is against public policy as expressed in the
+Securities Act and will be governed by the final adjudication of such issue.
+ 
+     D. To file an application for the purpose of determining the eligibility of
+the trustee to act under subsection (a) of Section 310 of the Trust Indenture
+Act in accordance with the rules and regulations prescribed by the Commission
+under Section 305(b)(2) of the Trust Indenture Act.
+ 
+                                      II-4
+<PAGE>   40
+ 
+                                   SIGNATURES
+ 
+     Pursuant to the requirements of the Securities Act of 1933, as amended, the
+registrant certifies that it has reasonable grounds to believe that it meets all
+the requirements for filing on Form S-3 and has duly caused this Registration
+Statement to be signed on its behalf by the undersigned, thereunto duly
+authorized, in the City of Seattle, State of Washington, on May 19, 1999.
+ 
+                                          AMAZON.COM, INC.
+ 
+                                          By:      /s/ JEFFREY P. BEZOS
+                                             -----------------------------------
+                                                      Jeffrey P. Bezos
+                                             President, Chief Executive Officer
+                                                  and Chairman of the Board
+ 
+                               POWER OF ATTORNEY
+ 
+     Each person whose individual signature appears below hereby authorizes
+Jeffrey P. Bezos, Joy D. Covey, Alan D. Caplan and Randy J. Tinsley and each of
+them as attorneys-in-fact, with full power of substitution, to execute in the
+name and on behalf of such person, individually and in each capacity stated
+below, and to file, any and all amendments to this Registration Statement,
+including any and all post-effective amendments, with the Securities and
+Exchange Commission or any regulatory authority.
+ 
+     Pursuant to the requirements of the Securities Act of 1933, as amended,
+this Registration Statement has been signed by the following persons in the
+capacities indicated on May 19, 1999.
+ 
+<TABLE>
+<CAPTION>
+                     SIGNATURE                                       TITLE
+                     ---------                                       -----
+<C>                                                  <S>
+ 
+               /s/ JEFFREY P. BEZOS                  Chairman of the Board, President and
+- ---------------------------------------------------  Chief Executive Officer (Principal
+                 Jeffrey P. Bezos                    Executive Officer)
+ 
+                 /s/ JOY D. COVEY                    Chief Financial Officer and Vice
+- ---------------------------------------------------  President of Finance and
+                   Joy D. Covey                      Administration (Principal Financial
+                                                     and Accounting Officer)
+ 
+                 /s/ TOM A. ALBERG                   Director
+- ---------------------------------------------------
+                   Tom A. Alberg
+ 
+                 /s/ SCOTT D. COOK                   Director
+- ---------------------------------------------------
+                   Scott D. Cook
+ 
+                 /s/ L. JOHN DOERR                   Director
+- ---------------------------------------------------
+                   L. John Doerr
+ 
+            /s/ PATRICIA Q. STONESIFER               Director
+- ---------------------------------------------------
+              Patricia Q. Stonesifer
+</TABLE>
+ 
+                                      II-5
+<PAGE>   41
+ 
+                                 EXHIBIT INDEX
+ 
+<TABLE>
+<CAPTION>
+EXHIBIT
+NUMBER                             DESCRIPTION
+- -------                            -----------
+<C>        <S>
+  1.1      Proposed Form of Underwriting Agreement*
+  3.1      Restated Certificate of Incorporation**
+  3.2      Bylaws***
+  4.1      Form of Deposit Agreement*
+  4.2      Form of Indenture*
+  4.3      Form of Subordinated Indenture*
+  4.4      Form of Stock Warrant Provisions*
+  4.5      Form of Stock Purchase Contract*
+  4.6      Form of Third-Party Warrant Agreement*
+  4.7      Form of Debt Securities Warrant Provisions*
+  4.8      Form of Warrant Agreement, including form of warrant,
+           relating to the Foreign Currency Exchange Warrants*
+  4.9      Form of Warrant Agreement, including form of warrant,
+           relating to the Stock Index Warrants*
+  5.1      Opinion of Perkins Coie LLP*
+ 12.1      Computation of Ratio of Earnings to Fixed Charges
+ 23.1      Consent of Ernst & Young LLP, independent auditors
+ 23.2      Consent of Deloitte & Touche LLP, independent auditors
+ 23.3      Consent of PricewaterhouseCoopers LLP, independent
+           accountants
+ 23.4      Consent of PricewaterhouseCoopers LLP, independent
+           accountants
+ 23.5      Consent of Perkins Coie LLP (included in its opinion filed
+           as Exhibit 5.1 hereto)*
+ 24.1      Powers of Attorney (contained on the signature pages of this
+           Registration Statement)
+ 25.1      Statement of Eligibility and Qualification on Form T-1 of
+           trustee to act as trustee under indenture*
+</TABLE>
+ 
+- -------------------------
+  * To be filed by amendment or as an exhibit to a report pursuant to Section
+    13(a) or 15(d) of the Exchange Act.
+ 
+ ** Incorporated by reference to our registration statement on Form S-4
+    (Registration No. 333-55943) filed on June 3, 1998.
+ 
+*** Incorporated by reference to our Form 10-Q for the quarter ended March 31,
+    1998.
+ 
+                                      II-6
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-12.1
+<SEQUENCE>2
+<DESCRIPTION>COMPUTATION OF RATIO OF EARNINGS TO FIXED CHARGES
+<TEXT>
+
+<PAGE>   1
+                                                                      EXHIBIT 12
+
+
+                                AMAZON.COM, INC.
+                       RATIO OF EARNINGS TO FIXED CHARGES
+
+<TABLE>
+<CAPTION>
+                                                                                                     PERIOD FROM
+                                            THREE MONTHS                                             JULY 5, 1994 
+                                               ENDED              YEARS ENDED DECEMBER 31,         (INCEPTION) TO
+                                             MARCH 31,    --------------------------------------     DECEMBER 31, 
+                                                1999         1998       1997       1996    1995         1994
+                                            ------------  ---------   --------   -------   -----   --------------
+                                                                      (IN THOUSANDS)
+<S>                                         <C>           <C>         <C>        <C>       <C>          <C>
+Net loss                                    $(61,667)     $(124,546)  $(31,020)  $(6,246)  $(303)       $(52)
+Plus fixed charges:
+  Interest expense including amortization
+    of debt issuance costs                    16,688         26,639        326         5       -           -
+  Assumed interest element included in
+    rent expense(1)                            1,692          2,833        700        90       4           -
+                                            --------      ---------   --------   -------   -----        ----
+                                              18,380         29,472      1,026        95       4           -
+                                            --------      ---------   --------   -------   -----        ----
+Adjusted earnings (loss)                     (43,287)       (95,074)   (29,994)   (6,151)   (299)        (52)  
+Fixed charges                                (18,380)       (29,472)    (1,026)      (95)     (4)          -
+                                            --------      ---------   --------   -------   -----        ----
+Deficiency of earnings available to
+  cover fixed charges                       $(61,667)     $(124,546)  $(31,020)  $(6,246)  $(303)       $(52)
+                                            ========      =========   ========   =======   =====        ====
+</TABLE>
+
+(1) Total rent expense for the period divided by three. This is the portion of
+    rental expense which the Company believes to be representative on interest.
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-23.1
+<SEQUENCE>3
+<DESCRIPTION>CONSENT OF ERNST & YOUNG LLP
+<TEXT>
+
+<PAGE>   1
+                                                                    Exhibit 23.1
+
+
+               Consent of Ernst & Young LLP, Independent Auditors
+
+We consent to the reference to our firm under the caption "Experts" in the
+Registration Statement (Form S-3) and related Prospectus of Amazon.com, Inc.
+pertaining to Common Stock, Preferred Stock, Depositary Shares, Debt Securities,
+Warrants to Purchase Common Stock, Warrants to Purchase Preferred Stock, Stock
+Purchase Units, Stock Purchase Contracts, Third-Party Warrants, Warrants to
+Purchase Debt Securities, Foreign Currency Exchange Warrants, Stock Index
+Warrants, and Other Warrants, and to the incorporation by reference therein of
+our report dated January 22, 1999, except for Note 11 as to which the date is
+February 10, 1999, with respect to the consolidated financial statements and
+schedule of Amazon.com, Inc. included in its Annual Report (Form 10-K) for the
+year ended December 31, 1998, filed with the Securities and Exchange Commission.
+
+
+
+                                            /s/ ERNST & YOUNG LLP
+
+Seattle, Washington
+May 17, 1999
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-23.2
+<SEQUENCE>4
+<DESCRIPTION>CONSENT OF DELOITTE & TOUCHE LLP
+<TEXT>
+
+<PAGE>   1
+                                                                    EXHIBIT 23.2
+
+
+CONSENT OF DELOITTE & TOUCHE LLP, INDEPENDENT AUDITORS
+
+
+We consent to the incorporation by reference in this Registration Statement of
+Amazon.com, Inc. on Form S-3 of our report dated February 6, 1998, on the
+financial statements of Junglee Corp. as of December 31, 1997 and 1996 and for
+the year ended December 31, 1997 and for the period from June 3, 1996
+(inception) to December 31, 1996, appearing in the Current Report on Form 8-K of
+Amazon.com, Inc. filed August 27, 1998 and to the reference to us under the
+heading "Experts" in the Prospectus, which is a part of this Registration
+Statement.
+
+
+/s/ DELOITTE & TOUCHE LLP
+- -------------------------
+
+San Jose, California
+May 17, 1999
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-23.3
+<SEQUENCE>5
+<DESCRIPTION>CONSENT OF PRICEWATERHOUSECOOPERS LLP
+<TEXT>
+
+<PAGE>   1
+                                                                    EXHIBIT 23.3
+
+
+
+                       CONSENT OF INDEPENDENT ACCOUNTANTS
+
+
+We hereby consent to the incorporation by reference in the Registration
+Statement on Form S-3 (No. 333-   ) of Amazon.com, Inc. of our report dated
+April 23, 1999 relating to the financial statements of Alexa Internet which
+appears in the Form 8-K of Amazon.com, Inc. dated May 12, 1999. We also consent
+to the reference to our firm under the caption "Experts".
+
+
+
+
+/s/ PricewaterhouseCoopers LLP
+- --------------------------------
+PricewaterhouseCoopers LLP
+San Francisco, California
+May 17, 1999
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-23.4
+<SEQUENCE>6
+<DESCRIPTION>CONSENT OF PRICEWATERHOUSECOOPERS LLP
+<TEXT>
+
+<PAGE>   1
+                                                                    EXHIBIT 23.4
+
+                       CONSENT OF INDEPENDENT ACCOUNTANTS
+
+
+We hereby consent to the incorporation by reference in this Registration
+Statement on Form S-3 of Amazon.com, Inc. of our report dated May 3, 1999
+relating to the financial statements of e-Niche Incorporated, which appears in
+the Current Report on Form 8-K of Amazon.com, Inc. dated May 12, 1999. We also
+consent to the reference to us under the heading "Experts" in such Registration
+Statement.
+
+
+/s/ PricewaterhouseCoopers LLP
+- --------------------------------
+PricewaterhouseCoopers LLP
+Boston, Massachusetts
+May 17, 1999
+
+
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

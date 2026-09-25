@@ -1,0 +1,13 @@
+[["timestamp","original","statuscode","mimetype","digest"],
+["20090509083625","http://chroniclingamerica.loc.gov:80/search/pages/results/?","200","text/html","3YVEUUDTBJOG42YKJUFARJWR2TLTCXBO"],
+["20090621082038","http://chroniclingamerica.loc.gov:80/search/pages/results/list/?","200","text/html","TPU3QMMVNPXDYUWTYRG6USKFNLMKG5MR"],
+["20090622155526","http://chroniclingamerica.loc.gov:80/search/pages/results/list/?&sort=date&page=1","200","text/html","KQDDFZI64CJC77XPEB25XFIXTP6B2BUY"],
+["20090510130321","http://chroniclingamerica.loc.gov:80/search/pages/results/list/?&page=1&sort=relevance","200","text/html","5EQYW45BEBTFRDIJF7BDK2PCE3GUDRHY"],
+["20090622155531","http://chroniclingamerica.loc.gov:80/search/pages/results/list/?&sort=state&page=1","200","text/html","LZTTT77WCTUQCLIIJ5OBPRITXDWY46G3"],
+["20090622155538","http://chroniclingamerica.loc.gov:80/search/pages/results/list/?&sort=title&page=1","200","text/html","IYEBO4RRJONEKFOZHYDNCQJGZODWSRHS"],
+["20241212192541","https://chroniclingamerica.loc.gov/search/pages/results/list/?&page=1072136&sort=relevance","200","text/html","WOFGQ6OEVWXTQVDGU77PETTJTILNA2A7"],
+["20090622160029","http://chroniclingamerica.loc.gov:80/search/pages/results/list/?&page=124973&sort=relevance","200","text/html","POMIFIVASOCDM4NU43HUYI662DG6GSZA"],
+["20090622160032","http://chroniclingamerica.loc.gov:80/search/pages/results/list/?&page=124974&sort=relevance","200","text/html","Z6IO462EUIB7CFJGZTLYMG7WXASVUU73"],
+["20090622155524","http://chroniclingamerica.loc.gov:80/search/pages/results/list/?&page=124975&sort=relevance","200","text/html","FZLT42PVW7OOE7FKUBZNIPASF4KDFVU2"],
+["20100404062449","http://chroniclingamerica.loc.gov:80/search/pages/results/list/?&page=172981&sort=relevance","200","text/html","FGSM772RAWEZJ6A73RBUXHDO7PHCDJ7C"],
+["20100404064232","http://chroniclingamerica.loc.gov:80/search/pages/results/list/?&page=172982&sort=relevance","200","text/html","3DMLTU6BFGSQILPW5E3BLKHOEKZ7O6SU"]]

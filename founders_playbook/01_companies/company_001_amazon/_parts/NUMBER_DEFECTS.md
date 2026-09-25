@@ -24,8 +24,8 @@ Evidence lines are `sources/S-1_original_acc-0000891618-97-001309_filed-1997-03-
 | `stage_1.md` | §K "The 23-purchaser program, as filed" (line 549) | in-window split | "the filings do not disaggregate it by date, so the in-window amount is **UNKNOWN**" | **DERIVED, arithmetic shown: ≈$921,000 in-window / ≈$86,000 post-boundary.** 4,235,244 (1995 shares sold, equity statement) − 582,528 − 847,716 − 42,000 = **2,763,000** program shares subscribed in 1995 → × $1,007,000/3,021,000 (= ⅓) = **$921,000**; 3,021,000 − 2,763,000 = 258,000 → **$86,000**; consideration tie: 245,573 + 5,408 + 921,000 = $1,171,978 → filed **$1,172** | orig. equity statement l.3555–3571 (sale of common stock 4,235,244 sh / 1,172 / (50) / 1,122); l.2863–2873 (582,528 / 847,716 / 150,000); l.4293–4302 | **MEDIUM** (recoverable figure left UNKNOWN; AUDIT 3 fail-rule → re-derive) |
 | `stage_1.md` | §P51 (line 833) and §R "Capital" (line 958) | boundary-straddle qualifier | "only an undated part closed in 1995" / "its in-window portion is **UNKNOWN**" | keep "straddles the boundary", but replace UNKNOWN with the DERIVED ≈$921,000 (2,763,000 sh) above and add that Alberg's 150,000 shares ($49,995–$50,000) are the only *individually dated* in-window slice | as above; A5 l.4665–4668 | **MEDIUM** |
 | `quantitative.csv` | r91 (line 91) and r92 | missing evidenced decomposition | roster/amount fields carry only "3,021,000 to 23 investors ≈$0.3333" | add the S-1/A No. 5-only decomposition as its own row: **Alberg 150,000 + two founder-related investors 60,000 + 20 unaffiliated 2,811,000 = 3,021,000; 1 + 2 + 20 = 23** (cross-foots both ways; the original lacks it, so cite No. 5 and mark it post-original-only) | A5 l.4663–4668; orig. l.4300–4302 (no breakdown) | **MEDIUM** |
-| `quantitative.csv` | r33 (line 33) | value + notes | `976432` / "IDENTITY UNKNOWN. Upper bound … because it absorbs commingled option-exercise proceeds" | value **≈976,000 (±$1,000)** — the input $1,272 is filed in thousands; notes: 1995 option exercises are recorded at **$0** in the audited equity statement, so the residual is **not** explained by option cash; it comprises the disclosed $5,408 (Aug-1995 employee purchase), **$150,000 of advances received for shares not yet issued at 1995-12-31**, and ≈$871,000 (2,613,000 shares) of unaffiliated program purchases | orig. l.3555–3573 (Sale 4,235,244 → 1,122; Advances 150; Exercise of options 120,000 → `--`); l.3458; cash flow l.3645; Item 5 ¶3 l.4293–4295 | **MEDIUM** |
-| `stage_1.md` | §P20 (line 802) + §P.2 d8 (line 857) | value + composition claim | `≈976,432` / "includes commingled option-exercise proceeds and is an upper bound" | `≈$976,000 (±$1,000)`; keep "identity UNKNOWN"; replace the option-cash clause with the $150,000-advances + $5,408 + ≈$871,000-unaffiliated decomposition | as above | **MEDIUM** |
+| `quantitative.csv` | r33 (line 33) | value + notes | `976432` / "IDENTITY UNKNOWN. Upper bound … because it absorbs commingled option-exercise proceeds" | value **≈976,000 (±$1,000)** — the input $1,272 is filed in thousands; notes: 1995 option exercises are recorded at **$0** in the audited equity statement, so the residual is **not** explained by option cash; it comprises the disclosed $5,408 (Aug-1995 employee purchase), **$150,000 of advances received for shares not yet issued at 1995-12-31**, and ≈$871,000 (2,613,000 shares) of unaffiliated program purchases **[THAT FOURTH LEG IS WITHDRAWN 2026-09-25 — `2,613,000` is unfiled (0 occurrences in all four restored documents) and `≈$871,000` is not a canonical figure; the composition of the residual is UNKNOWN and only $5,408 + $150,000 − $50,000 = $105,408 is filed. See the AUDIT-7 ADDENDUM at the foot of this file, item 1.]** | orig. l.3555–3573 (Sale 4,235,244 → 1,122; Advances 150; Exercise of options 120,000 → `--`); l.3458; cash flow l.3645; Item 5 ¶3 l.4293–4295 | **MEDIUM** |
+| `stage_1.md` | §P20 (line 802) + §P.2 d8 (line 857) | value + composition claim | `≈976,432` / "includes commingled option-exercise proceeds and is an upper bound" | `≈$976,000 (±$1,000)`; keep "identity UNKNOWN"; replace the option-cash clause with the $150,000-advances + $5,408 + ≈$871,000-unaffiliated decomposition **[THE THIRD TERM OF THAT INSTRUCTION IS WITHDRAWN 2026-09-25 — do NOT substitute ≈$871,000: the option-cash clause is rightly struck, but the replacement leg rests on the unfiled `2,613,000`. Execute the instruction as $150,000 + $5,408 − $50,000 = $105,408 filed, fourth leg UNKNOWN. See the AUDIT-7 ADDENDUM at the foot of this file, item 1.]** | as above | **MEDIUM** |
 | `quantitative.csv` | r67 (line 67) (and `validation.csv` r20 line 20; §S/§K echoes) | evidence_class + value + derived_arithmetic | `17000` / `DERIVED` / "opening $0 + increase 17" | **`17000` as FACT (audited)** — the balance sheet files *Inventories … 17* at 1995-12-31; the cash-flow movement becomes corroboration, and the `≈` is unnecessary (only the 1994 $0 opening is inferred) | orig. balance sheet l.3429 "Inventories… 17"; cash flow l.3629 "(17)"; §P39 (line 821) carries the same fix | **MEDIUM** |
 | `quantitative.csv` | r7 (line 7) (also `timeline.csv` r11 line 11; `stage_1.md` §Q line 903) | date/basis + notes | `1994-09-15 … 4800000 shares … "Floor strike $0.1717"` | state that **4,800,000 is the 1997 split-restated reserve** (it foots to the 1997-02-28 population 3,052,974 + 110,640 + 1,636,386 = 4,800,000; the 1994 as-adopted figure on the instrument basis would be ÷6); re-word "floor strike" as "the lowest exercise price outstanding at 1997-02-28", and label the date as adoption (1994-09-15) vs reserve-as-stated (1997 basis) | orig. l.2701–2711 "reserved an aggregate of 4,800,000 shares … approved by the Board of Directors and the sole stockholder on September 15, 1994 … As of February 28, 1997, options to purchase 3,052,974 shares … exercise prices ranging from $0.1717 to $4.00 per share"; director grants must be "not less than the fair market value" l.3874 | **MEDIUM** (1997-basis figure + 1997 observation sitting in a 1994-dated Stage-1 row) |
 | `quantitative.csv` | r66 (line 66) vs r64 | unit/basis + cross-foot | "Cumulative Stage-1 capital expenditure `80000` = 28 + 52" against "Gross equipment at cost `81000`" | label r66 **cash-paid** capex (Purchases of equipment, 1994 + 1995) and reconcile the **$1,000** gap to the accrual gross-cost note (rounding in thousands and/or unpaid additions), or drop r66 and cite the filed 81,000 | orig. cash flow l.3639 "(28) (52) (1,214)"; Note 2 l.3797–3803 (73 + 8 + 0 = 81) | **MEDIUM** |
@@ -71,7 +71,11 @@ register is the audit trail of how the numbers got here and stays as found.**
   (`1,272,000 − 295,568 − 5,408 − 150,000 + 50,000`), which was retracted — `2,613,000 × ($1,007,000 ÷ 3,021,000) =
   2,613,000 ÷ 3 = $871,000` exactly, so the composition foots to **$976,408**, not to the $976,432 residual arithmetic,
   and the $24 difference is accounted for (≈$19 filed-thousands rounding of the equity line + the ±$5 Alberg
-  convention at d7), not plugged.
+  convention at d7), not plugged. **[AUDIT-7 MARKER, 2026-09-25 — the text above is left standing; this bullet's two
+  operative claims are WITHDRAWN. Neither "≈$871,000 … the canonical figure" nor "the composition foots to
+  $976,408" is true, the "$24 accounted for" explanation goes with the leg, and the citation
+  `orig. l.4301–4302` does not carry the denominator. See the AUDIT-7 ADDENDUM at the foot of this file, row R4,
+  and `stage_1.md` §P.2 d8a / §U.8.]**
 - **Rows naming 43% / 41%** — this register carries none; the 43%/41% pair is a **version discrepancy** (43% = original
   S-1 acc. 0000891618-97-001309, l.985–988 / l.2919; 41% = S-1/A No. 5 acc. 0000891020-97-000839, l.1055–1062 /
   l.3149), to be kept visible per number_repairs2 item 6, never averaged or merged.
@@ -83,7 +87,14 @@ register is the audit trail of how the numbers got here and stays as found.**
   passes could not reach are now closed: `stage_1.md` **§K "Reconciliation of the two totals"** prints the composition
   at **$976,408** (band-level, retraction of the $871,024 leg shown in the row) instead of "= $976,432"; and
   `stage_1_claim_records.md` **P09** renders the residual as **≈$976,000 (±$1,000)** with a correction marker carrying
-  the $976,432 arithmetic, the $976,408 composition and the retraction.
+  the $976,432 arithmetic, the $976,408 composition and the retraction. **[AUDIT-7 MARKER, 2026-09-25 — text above
+  left standing; both of its descriptions of the canonical sites are now FALSE and were the sibling this pass found
+  by sweeping the folder instead of the named list. `stage_1.md` §K "Reconciliation of the two totals" (l.610) does
+  **not** print a $976,408 composition — it states that no $976,408 total and no "$24 accounted for" claim survives;
+  and P09 (`stage_1_claim_records.md` l.466) carries the **withdrawal** of the "cross-foot to $976,408", not the
+  cross-foot itself. What is still true in this bullet: the residual is rendered **≈$976,000 (±$1,000)** at both
+  sites, the $976,432 raw arithmetic is retained inside the retraction, and the $871,024 retraction stands. See the
+  AUDIT-7 ADDENDUM at the foot of this file, row R4b.]**
 - **Row 28's §B/§A sibling** — `stage_1.md` **l.184 §B.1 "Personal capital and ownership"** no longer prints the
   unattributed **"post-IPO ~41–43%"**: 43% is now attributed to the original S-1 (l.985–988) and 41% to S-1/A No. 5
   (l.1055–1062) in the row itself, per row 28's version rule and `conflicts.csv` r30. `stage_1_claim_records.md` **K14**
@@ -97,3 +108,46 @@ register is the audit trail of how the numbers got here and stays as found.**
   (the 41% without its accession) and `MASTER_RESEARCH_LOG.md` l.247. Reported for their owners; not edited here. The
   `stage_1_claim_records.md` coverage-note tally was raised in place to **77** with its sub-counts left un-rederived.
 - Sweep log: `03_quality_control/amazon_s1_residual_sweep2.md`.
+
+**AUDIT-7 ADDENDUM — appended 2026-09-25 (repair pass, rows R4 / R4b). Nothing above this line was rewritten,
+including the two supersession bullets, which stay standing with their markers attached.**
+
+This register is the audit trail of how the numbers got here, but it is also read as an instruction source: its
+rows carry a `should_be` column and its bullets were written in the present indicative. Three of those statements
+are now false and are withdrawn here, in place, with no substitute value offered:
+
+1. **Rows 27–28's `should_be` leg "≈$871,000 (2,613,000 shares) of unaffiliated program purchases" (register row
+   l.27) and the same decomposition at row l.28, restated as "the canonical figure" in the ROUND-1 bullet
+   (l.68–69) — WITHDRAWN.** `2,613,000` occurs **0 times** in each of the original S-1, S-1/A
+   No. 3, S-1/A No. 5 and the FY1997 10-K405 (`grep -c` over `sources/*.txt`); it is reachable only through the
+   §P.2 d25 chain this project holds at UNKNOWN, "CANDIDATE DERIVATION, RECORDED BUT NOT ADOPTED"
+   (`quantitative.csv` L99). Its only entry point into the dossier was `2,763,000 − Alberg's 150,000 = 2,613,000`
+   (`stage_1.md` l.1066–1067).
+2. **"the composition foots to $976,408 … the $24 difference is accounted for … not plugged" (l.71–73) —
+   WITHDRAWN with the leg.** `2,613,000 ÷ 3 = $871,000` is arithmetically true and rests on an unfiled
+   denominator; it differs from the retired `$871,024` back-solve by $24 and **not by evidence**, and the account's
+   $19 term was itself computed from d25's non-adopted ≈$921,000.
+3. **"§K … prints the composition at $976,408" (l.87–88) and "P09 … carr[ies] … the $976,408 composition"
+   (l.89–90) — FALSE AS DESCRIPTIONS**, marked at R4b above; both canonical sites now withdraw the total.
+
+**A wrong citation, separately retracted:** every "orig. l.4301–4302" attached to `2,613,000` in this file is
+mis-cited. The filing at l.4300–4302 reads: "*Between December 6, 1995 and May 16, 1996, the registrant issued an
+aggregate of **3,021,000** shares of Common Stock to **23 investors** for a consideration of approximately
+**$.3333** per share, or an aggregate of **$1,007,000.***" That line supports the **filed** program figures —
+3,021,000 / 23 / $.3333 / $1,007,000 — and is cited correctly in that service elsewhere in this register (rows at
+l.15, l.26); it supports **no** `2,613,000`, and a citation is not repaired by the arithmetic that follows it.
+
+**What this register's rows 27–28 still instruct correctly:** state the residual as **≈$976,000 (±$1,000)** rather
+than `= $976,432`; keep the residual's identity **UNKNOWN**; and strike the option-cash / upper-bound clause — 1995
+option exercises are filed at **$—** (orig. l.3560–3562). **The composition of the residual's fourth leg is
+UNKNOWN**, and the only filed legs are `$5,408 + $150,000 − $50,000 = $105,408`.
+
+**Line numbers in the items above are as read 2026-09-25, after the two AUDIT-7 markers were inserted; the two
+bullets they point into began at l.68 and l.82 before this pass, so anchor on the bullet headings ("Rows 27–28
+(D19/D15 family…)", "Rows 27–28 and 43 — status: propagated…") rather than on the numbers.**
+
+**Canonical text:** `stage_1.md` §K "Reconciliation of the two totals" (l.610), §P.2 d8a (l.961) and §U.8 (l.1487);
+`quantitative.csv` L35; `conflicts.csv` U.8; `context_appendices.md` §I "Capital raised inside Stage 1" and §J gap
+row 12; `stage_1_claim_records.md` P09 (l.466). Line numbers are as read 2026-09-25; anchor on the row id.
+Sweep commands re-run for this addendum are recorded at
+`03_quality_control/audit7_repairs.md` (rows R4, R4b, S1–S3).

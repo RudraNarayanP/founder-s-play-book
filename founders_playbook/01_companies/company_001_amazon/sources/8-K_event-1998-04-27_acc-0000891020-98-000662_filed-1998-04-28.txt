@@ -1,0 +1,600 @@
+==============================================================================
+PROVENANCE HEADER -- added by the Stage-3 Evidence Registrar (post-IPO filing intake)
+Retrieval date (access date) : 2026-09-25
+Original URL                 : https://www.sec.gov/Archives/edgar/data/1018724/0000891020-98-000662.txt
+HTTP status on retrieval     : 200
+Document                     : Form 8-K, complete submission (all 4 documents inline) -- CURRENT REPORT DATED 4/27/1998
+SEC CIK                      : 1018724 (AMAZON COM INC)
+Accession no.                : 0000891020-98-000662
+Filing date per EDGAR        : 1998-04-28   (SEC-HEADER FILED AS OF DATE: 19980428 -- agrees)
+Conformed submission type    : 8-K   Securities Exchange Act File No.: 000-22513
+Period of report             : 1998-04-27
+Bytes of retrieved body      : 25,584
+Body completeness            : COMPLETE -- terminates in </SEC-DOCUMENT>; 4 <DOCUMENT> blocks, types: 8-K, EX-99.1, EX-99.2, EX-99.3
+Request headers used         : User-Agent: FounderPlaybook Research AdminContact@example.com | Accept-Encoding: identity | Referer: https://www.sec.gov/
+Body encoding on wire        : identity (no compression negotiated); saved exactly as received
+Located via                  : https://data.sec.gov/submissions/CIK0001018724-submissions-002.json (pre-2000 slice, 1997-03-24 -> 2000-01-04); row form=8-K filingDate=1998-04-28 primaryDocDescription='CURRENT REPORT DATED 4/27/1998'
+Component documents (DESCRIPTION per EDGAR):
+      - CURRENT REPORT DATED 4/27/1998
+      - PRESS RELEASE REGARDING THE STOCK SPLIT
+      - PRESS RELEASE REGARDING THE ACQUISITIONS
+      - PRESS RELEASE REGARDING THE FIRST QUARTER EARNINGS
+EX-99 PRESS RELEASE HEADLINE : ANNOUNCES TWO-FOR-ONE SPLIT OF COMMON SHARES Seattle, WA -- ( April 27, 1998 ) -- Amazon.com, Inc. (NASDAQ: AMZN), today announced that its Board of D
+==============================================================================
+
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ JFhq7naGohf15Kevl5blThue3rxOtGAuxwtmddMixc4WCu70lFHQeORK85QO3reZ
+ Ok0QYqoajZ67nKSQBvAhhw==
+
+<SEC-DOCUMENT>0000891020-98-000662.txt : 19980430
+<SEC-HEADER>0000891020-98-000662.hdr.sgml : 19980430
+ACCESSION NUMBER:		0000891020-98-000662
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		4
+CONFORMED PERIOD OF REPORT:	19980427
+ITEM INFORMATION:		
+ITEM INFORMATION:		
+FILED AS OF DATE:		19980428
+SROS:			NASD
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AMAZON COM INC
+		CENTRAL INDEX KEY:			0001018724
+		STANDARD INDUSTRIAL CLASSIFICATION:	BOOKS: PUBLISHING OR PUBLISHING AND PRINTING [2731]
+		IRS NUMBER:				911646860
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		
+		SEC FILE NUMBER:	000-22513
+		FILM NUMBER:		98602709
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1516 SECOND AVE 4TH FLOOR
+		STREET 2:		PO BOX 80387
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+		BUSINESS PHONE:		2066222335
+
+	MAIL ADDRESS:	
+		STREET 1:		PO BOX 80387
+		STREET 2:		1516 SECOND AVE 4TH FLOOR
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<DESCRIPTION>CURRENT REPORT DATED 4/27/1998
+<TEXT>
+
+<PAGE>   1
+                       SECURITIES AND EXCHANGE COMMISSION
+
+                             WASHINGTON, D.C. 20549
+
+                            -------------------------
+
+
+
+                                    FORM 8-K
+
+                                 CURRENT REPORT
+
+
+
+                     PURSUANT TO SECTION 13 OR 15(d) OF THE
+                         SECURITIES EXCHANGE ACT OF 1934
+
+
+
+                                 APRIL 27, 1998
+                                 Date of Report
+                        (Date of earliest event reported)
+
+
+
+                                AMAZON.COM, INC.
+               (Exact Name of Registrant as Specified in Charter)
+
+          DELAWARE                     000-22513                 91-1646860
+      (State or Other            (Commission File No.)         (IRS Employer
+        Jurisdiction                                         Identification No.)
+     of Incorporation)
+
+                 1516 SECOND AVENUE, SEATTLE, WASHINGTON 98101
+          (Address of principal executive offices, including zip code)
+
+                                 (206) 622-2335
+              (Registrant's telephone number, including area code)
+
+
+
+<PAGE>   2
+
+ITEM 5. OTHER EVENTS
+
+        On April 27, 1998, Amazon.com, Inc. (the "Company") announced that its
+Board of Directors approved a two-for-one stock split for its shares of Common
+Stock. Stockholders of record on May 20, 1998 will be issued a certificate
+representing one additional share of Common Stock for each share of Common Stock
+held on May 20, 1998. The payment date for this stock dividend will be June 1,
+1998.
+
+        The Company also announced on April 27, 1998 that it has acquired three
+companies: Bookpages, Ltd; Telebook, Inc.; and Internet Movie Database Ltd.
+
+        In addition, on April 27, 1998 the Company announced its earnings for
+the first quarter of 1998.
+
+ITEM 7. FINANCIAL STATEMENTS, PRO FORMA FINANCIAL INFORMATION AND EXHIBITS
+
+<TABLE>
+<CAPTION>
+        (c)    Exhibits
+<S>                     <C>                     
+
+                99.1    Press Release dated April 27, 1998 regarding the stock
+                        split
+
+                99.2    Press Release dated April 27, 1998 regarding the
+                        acquisitions
+
+                99.3    Press Release dated April 27, 1998 regarding the
+                        Company's first quarter earnings
+
+</TABLE>
+
+
+<PAGE>   3
+
+                                    SIGNATURE
+
+        Pursuant to the requirements of the Securities Exchange Act of 1934, the
+registrant has duly caused this report to be signed on its behalf by the
+undersigned hereunto duly authorized.
+
+                                            AMAZON.COM, INC.
+
+
+
+Dated:  April 27, 1998                 By     /s/ ALAN CAPLAN
+                                              ----------------------------------
+                                              Vice President and General Counsel
+
+
+
+<PAGE>   4
+
+                                  EXHIBIT INDEX
+
+<TABLE>
+<CAPTION>
+Exhibit Number       Description
+- --------------       -----------
+<S>                  <C>                     
+       99.1          Press Release dated April 27, 1998 regarding the stock
+                     split
+
+       99.2          Press Release dated April 27, 1998 regarding the
+                     acquisitions
+
+       99.3          Press Release dated April 27, 1998 regarding the
+                     Company's first quarter earnings
+
+</TABLE>
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<DESCRIPTION>PRESS RELEASE REGARDING THE STOCK SPLIT
+<TEXT>
+
+<PAGE>   1
+
+             AMAZON.COM ANNOUNCES TWO-FOR-ONE SPLIT OF COMMON SHARES
+
+        Seattle, WA -- ( April 27, 1998 ) -- Amazon.com, Inc. (NASDAQ: AMZN),
+today announced that its Board of Directors approved a 2-for-1 split of its
+common shares. Shareholders will receive one additional share for every share
+held on the record date of May 20, 1998. The additional shares will be mailed or
+delivered on or about June 1, 1998, by the company's transfer agent, ChaseMellon
+Shareholder Services.
+
+        Amazon.com, Inc., Earth's Biggest Bookstore, is the largest online
+retailer of books. Amazon.com offers a catalog of more than 3 million book,
+music, and other titles, plus easy-to-use search and browse features, e-mail
+services, personalized shopping services, secure Web-based credit card payment,
+and direct shipping to customers. Amazon.com has virtually unlimited online 
+shelf space and offers customers a vast selection through an efficient 
+search-and-retrieval interface, as well as streamlined ordering through 
+1-Click(SM) technology. Amazon.com pioneered the concept of syndicated selling
+on the Internet and has more than 40,000 members in its Associates Program 
+including AOL.com, Yahoo!, Netscape, Excite, the AltaVista Search Service, the 
+@Home Network, the Prodigy Shopping Network, and iVillage.
+
+        This announcement contains forward-looking statements that involve risks
+and uncertainties that include, among others, Amazon.com's limited operating
+history, the unpredictability of its future revenues, and risks associated with
+capacity constraints, management of growth, and new business opportunities. More
+information about factors that potentially could affect Amazon.com's financial
+results is included in the company's Annual Report on Form 10-K for the year
+ended December 31, 1997, filed with the Securities and Exchange Commission.
+
+        Amazon.com, Earth's Biggest Bookstore, and 1-Click are service marks of
+Amazon.com, Inc. All other names are trademarks of their respective owners.
+
+Contact: Amazon.com
+Russell Grandinetti                     Kay Dangaard
+Manager, Investor Relations             Director, Media Relations
+Telephone: (206) 694-2171               Telephone: (206) 694-2078
+E-mail: ir@amazon.com                   E-mail: dangaard@amazon.com
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.2
+<SEQUENCE>3
+<DESCRIPTION>PRESS RELEASE REGARDING THE ACQUISITIONS
+<TEXT>
+
+<PAGE>   1
+
+              AMAZON.COM ACQUIRES THREE LEADING INTERNET COMPANIES
+
+            AMAZON.COM ACQUISITIONS EXTEND COMPANY'S ABILITY TO SERVE
+                            INTERNATIONAL CUSTOMERS
+
+        Seattle, WA -- (April 27, 1998) -- Amazon.com, Inc. (NASDAQ: AMZN),
+today announced that it has acquired three leading Internet companies:
+Bookpages, Ltd; Telebook, Inc.; and Internet Movie Database Ltd. Amazon.com
+expects online retailers Bookpages and Telebook to become fundamental components
+of its expansion into the European marketplace, and Internet Movie Database to
+support its eventual entry into online video sales.
+
+        "These acquisitions will enable Amazon.com to quickly offer European
+consumers the same combination of selection, service, and value that we now
+provide our U.S. customers," said Jeffrey P. Bezos, Amazon.com founder and CEO.
+"I'm excited about these companies because each has a relentless focus on
+customer service, an unwavering commitment to Internet commerce, and a smart,
+innovative management team."
+
+        Bookpages (www.bookpages.co.uk) is one of the largest online bookstores
+in the United Kingdom, providing access to all 1.2 million U.K. books in print.
+Bookpages Managing Director Dr. Simon Murdoch said of the acquisition, "This is
+fantastic news for Bookpages and its customers. By combining Amazon.com's
+resources with Bookpages' in-depth knowledge of the U.K. marketplace, we can
+provide even better service and selection to our customers inside and outside of
+the United Kingdom."
+
+        Telebook (www.telebuch.de), operating through its ABC Bucherdienst
+subsidiary, is Germany's number one online bookstore, with a catalog of nearly
+400,000 German-language titles. Telebook President Michael J.G. Gleissner
+commented, "Telebook's longtime local expertise in online bookselling in Germany
+combined with Amazon.com's worldwide brand and powerful technology will lead to
+tremendous benefits for the customer."
+
+        Originally launched in 1990, Internet Movie Database (www.imdb.com) is a
+comprehensive repository for movie and television information on the Internet.
+"Everyone at IMDb is excited about becoming a part of Amazon.com," said Colin
+Needham, IMDb Managing Director. "Because of their similar passion for books,
+the 
+
+
+
+<PAGE>   2
+
+Amazon.com team understands and fully supports IMDb's mission of providing
+the best possible information to movie lovers."
+
+        Each of the acquisitions will be accounted for under the purchase method
+of accounting. The company will incur total charges of approximately $55 million
+in connection with all three transactions. Consideration was comprised of cash
+and common stock, and the company anticipates issuing an aggregate of
+approximately 540,000 shares of common stock as a result of these transactions.
+
+        Amazon.com, Inc., Earth's Biggest Bookstore, is the largest online
+retailer of books. Amazon.com offers a catalog of more than 3 million book,
+music, and other titles, plus easy-to-use search and browse features, e-mail
+services, personalized shopping services, secure Web-based credit card payment,
+and direct shipping to customers. Amazon.com has virtually unlimited online
+shelf space and offers customers a vast selection through an efficient
+search-and-retrieval interface, as well as streamlined ordering through
+1-Click(SM) technology. Amazon.com pioneered the concept of syndicated selling 
+on the Internet and has more than 40,000 members in its Associates Program 
+including AOL.com, Yahoo!, Netscape, Excite, the AltaVista Search Service, the 
+@Home Network, the Prodigy Shopping Network, and iVillage.
+
+        This announcement contains forward-looking statements that involve risks
+and uncertainties that include, among others, Amazon.com's limited operating
+history, the unpredictability of its future revenues, and risks associated with
+capacity constraints, management of growth, and new business opportunities. More
+information about factors that potentially could affect Amazon.com's financial
+results is included in the company's Annual Report on Form 10-K for the year
+ended December 31, 1997, filed with the Securities and Exchange Commission.
+
+        Amazon.com, Earth's Biggest Bookstore, and 1-Click are service marks of
+Amazon.com, Inc. All other names are trademarks of their respective owners.
+
+Contact:
+Amazon.com
+Kay Dangaard
+Director, Media Relations
+Telephone: (206) 694-2078
+E-mail: dangaard@amazon.com
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.3
+<SEQUENCE>4
+<DESCRIPTION>PRESS RELEASE REGARDING THE FIRST QUARTER EARNINGS
+<TEXT>
+
+<PAGE>   1
+
+
+          AMAZON.COM ANNOUNCES FINANCIAL RESULTS FOR FIRST QUARTER 1998
+
+
+        Cumulative Customer Accounts Increased 50% Quarter-to-Quarter to
+2,260,000.
+
+        Amazon.com Now 3rd Largest Bookseller in the US
+
+        SEATTLE April 27 /PRNewswire/ -- Amazon.com, Inc. (Nasdaq: AMZN) today
+announced financial results for the first quarter of 1998.         ----
+
+        Net sales for the first quarter ended March 31, 1998 were $87.4 million,
+a 32 percent increase over net sales of $66.0 million reported for the fourth
+quarter ended December 31, 1997. Net sales increased 446 percent over net sales
+of $16.0 million reported for the first quarter of 1997. Net loss for the first
+quarter ended March 31, 1998 was $9.26 million, or $0.40 per share, compared 
+with a net loss in the quarter ended December 31, 1997 of $9.33 million, or 
+$0.41 per share. The company reported a net loss of $3.04 million or $0.16 per 
+share in the quarter ended March 31, 1997.
+
+        Amazon.com also announced that cumulative customer accounts grew to over
+2,260,000 at March 31, 1998, an increase of 50 percent from 1,510,000 customer
+accounts at December 31, 1997 and 564 percent from 340,000 customer accounts at
+March 31, 1997. Repeat customer orders represented more than 60 percent of
+orders placed during the quarter ended March 31, 1998.
+
+        The Web measurement services continued to highlight Amazon.com's growing
+reach among Internet users and strengthening market leadership: in March,
+Amazon.com was ranked in the top 20 across all Internet sites in all major
+market surveys (Media Metrix and Relevant Knowledge). In addition, not only was
+Amazon.com the leading online bookseller in these surveys, it was the leading
+online shopping site.
+
+        "We are very pleased with our acceleration in new customer acquisition:
+it took us 27 months to serve our first million customers, and less than 6
+months to serve our second million," said Jeff Bezos, Amazon.com president and
+chief executive officer. "Our strong revenue growth has now made us the third
+largest bookseller in the US, online or offline. We believe that our leadership
+position in the online market allows us to offer our customers the benefits of
+Amazon.com selection, convenience, price 
+
+
+<PAGE>   2
+
+and personalized services for an expanded range of products, such as music. And
+we are now inviting our customers to come help build the best music store on the
+Web."
+
+        Separately, Amazon.com today announced that it has acquired three
+leading Internet companies: Bookpages Limited, Telebook, Inc. and Internet Movie
+Database Limited. Online retailers Bookpages and Telebook are fundamental
+components of Amazon.com's expansion into the European marketplace, and Internet
+Movie Database is a key underpinning for Amazon.com's eventual entry into online
+video sales.
+
+        "With these acquisitions, we have accelerated our expansion into
+European e-commerce and acquired a foundation for a best-of-breed video store.
+These acquisitions will enable Amazon.com to offer a new set of consumers the
+same combination of selection, service and value that we now provide our US book
+customers. We remain committed to moving quickly to solidify and extend our
+current market leadership position in books while pursuing these new
+opportunities. This will require aggressive future investment in building our
+business and brand, expanding our product offerings, launching international
+operations and integrating our recent acquisitions."
+
+        Bookpages (http://www.bookpages.co.uk) is one of the largest online 
+bookstores in the United Kingdom, providing access to all 1.2 million UK books 
+in print. Telebook (http://www.telebuch.de), operating through its ABC 
+Bucherdienst subsidiary, is Germany's number one online bookstore, with a 
+catalog of nearly 400,000 German language titles. Originally launched in 1990, 
+Internet Movie Database (http://www.imdb.com) is a comprehensive repository 
+for movie and television information on the Internet, and is an excellent 
+example of genuine community on the Internet.
+
+        Each of the acquisitions will be accounted for under the purchase method
+of accounting. The company will incur total charges of approximately $55 million
+in connection with all three transactions. Consideration was comprised of cash
+and common stock, and the company anticipates issuing an aggregate of
+approximately 540,000 shares of common stock as a result of these transactions.
+
+        Last week, Amazon.com invited music enthusiasts everywhere to contribute
+to developing the music store of their dreams and launched a pilot version of
+its online music area (accessible from the Amazon.com home page). Customers,
+artists, music industry professionals, and other music lovers can put their
+personal stamp on the music store Amazon.com is now building by contributing
+their ideas and music reviews.
+
+
+<PAGE>   3
+
+        In February, Amazon.com launched Amazon.com Advantage, an innovative new
+program designed to increase the visibility and sales of titles from independent
+publishers and authors. It will help level the playing field for smaller
+publishers and authors by providing the tools and framework to ensure their
+books appear more often, more prominently, and with 24-hour availability
+throughout Amazon.com's catalog of 3 million book, music, and other titles.
+
+        In March, Amazon.com launched Amazon.com Kids, a comprehensive resource
+for children's and young adult books. Amazon.com Kids features a catalog of more
+than 100,000 books for children, teens, and parents.
+
+        Separately, Amazon.com today announced that its Board of Directors
+approved a 2-for-1 split of its common stock. Shareholders will receive an
+additional share of common stock for every share held on the record date of May
+20, 1998. The additional shares will be payable on June 1, 1998.
+
+        Amazon.com, Inc., Earth's Biggest Bookstore, is the largest online
+retailer of books. Amazon.com offers a catalog of more than 3 million book,
+music, and other titles, plus easy-to-use search and browse features, e-mail
+services, personalized shopping services, secure Web-based credit card payment,
+and direct shipping to customers. Amazon.com has virtually unlimited online
+shelf space and offers customers a vast selection through an efficient
+search-and-retrieval interface, as well as streamlined ordering through
+1-Click(SM) technology. Amazon.com pioneered the concept of syndicated selling 
+on the Internet and has more than 40,000 members in its Associates Program 
+including AOL.com, Yahoo!, Netscape, Excite, the AltaVista Search Service, the 
+@Home Network, the Prodigy Shopping Network, and iVillage.
+
+        This announcement contains forward-looking statements that involve risks
+and uncertainties that include, among others, Amazon.com's limited operating
+history, the unpredictability of its future revenues, and risks associated with
+capacity constraints, management of growth, and new business opportunities. More
+information about factors that potentially could affect Amazon.com's financial
+results is included in the company's Annual Report on Form 10-K for the year
+ended December 31, 1997, both filed with the Securities and Exchange Commission.
+
+        NOTE: Amazon.com, Earth's Biggest Bookstore, and 1-Click are service 
+marks of Amazon.com, Inc. All other names are trademarks of their respective 
+owners.
+
+
+
+<PAGE>   4
+
+AMAZON.COM, INC.
+Statements of Operations
+(in thousands, except per share amount)
+
+<TABLE>
+<CAPTION>
+                                                   Quarter Ended March 31,
+                                                   -----------------------
+                                                     1998            1997
+                                                   --------       --------
+                                                          (Unaudited)
+<S>                                                <C>            <C>     
+
+Net sales                                           $87,375        $16,005
+Cost of sales                                        68,054         12,484
+                                                   --------       --------
+Gross profit                                         19,321          3,521
+
+
+Operating expenses:
+     Marketing and sales                             19,503          3,906
+     Product development                              6,729          1,575
+     General and administrative                       1,963          1,142
+                                                   --------       --------
+          Total operating expenses                   28,195          6,623
+
+Loss from operations                                 (8,874)        (3,102)
+Interest income                                       1,640             64
+Interest expense                                     (2,025)            --
+                                                   --------       --------
+Net loss                                            $(9,259)       $(3,038)
+                                                   ========       ========
+Pro forma basic and diuted loss per share           $ (0.40)       $ (0.16)
+                                                   ========       ========
+
+Shares used in computation of pro forma basic
+     and diluted loss per share                      23,311         19,402
+                                                   ========       ========
+</TABLE>
+
+
+
+On April 27, 1998, the Company announced a two-for-one stock split, effective
+June 1, 1998. The share and per share data have not been restated to reflect
+this split.
+<PAGE>   5
+
+AMAZON.COM, INC.
+Balance Sheets
+(in thousands except per share data)
+
+<TABLE>
+<CAPTION>
+                                                             March 31,       December 31,
+                                                               1998               1997
+                                                             ---------       ---------
+                                                            (Unaudited)      (Audited)
+<S>                                                          <C>             <C>      
+ASSETS
+Current assets:
+     Cash and cash equivalents                                $ 98,600        $109,810
+     Short-term investments                                     18,220          15,256
+     Inventories                                                11,674           8,971
+     Prepaid expenses and other                                  4,399           3,298
+                                                             ---------       ---------
+         Total current assets                                  132,893         137,335
+
+Fixed assets, net                                                9,773           9,265
+Deposits                                                           293             166
+Deferred charges                                                 2,048           2,240
+                                                             =========       =========
+         Total assets                                         $145,007        $149,006
+                                                             =========       =========
+
+LIABILITIES & STOCKHOLDERS' EQUITY
+Current liabilities:
+     Accounts payable                                         $ 34,374        $ 32,697
+     Accrued advertising                                         5,349           3,454
+     Accrued product development                                    --              --
+     Other liabilities and accrued expenses                      8,071           6,167
+     Current portion of debt                                       684           1,500
+                                                             ---------       ---------
+         Total current liabilities                              48,478          43,818
+
+Long-term debt                                                  76,521          76,521
+Long-term lease obligations                                        181             181
+
+
+Stockholders' equity:
+     Preferred stock, $0.01 par value -
+         Authorized, 10,000,000 shares
+         Issued and outstanding - none                              --              --
+
+     Common stock, $0.01 par value -
+         Authorized, 100,000,000 shares
+         Issued and outstanding, 24,162,932
+            and 23,937,169 shares, respectively                    242             239
+
+     Additional paid-in capital                                 63,952          63,792
+     Deferred compensation                                      (1,493)         (1,930)
+     Accumulated deficit                                       (42,874)        (33,615)
+                                                             ---------       ---------
+         Total stockholders' equity                             19,827          28,486
+                                                             =========       =========
+      Total liabilities and stockholders' equity              $145,007        $149,006
+                                                             =========       =========
+</TABLE>
+
+
+On April 27, 1998, the Company announced a two-for-one stock split, effective
+June 1, 1998. The share and per share data have not been restated to reflect
+this split.
+
+
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

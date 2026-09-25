@@ -1,0 +1,1326 @@
+==============================================================================
+PROVENANCE HEADER -- added by the Stage-3 Evidence Registrar (post-IPO filing intake)
+Retrieval date (access date) : 2026-09-25
+Original URL                 : https://www.sec.gov/Archives/edgar/data/1018724/0000891020-98-001477.txt
+HTTP status on retrieval     : 200
+Document                     : Form 424B3, complete submission (all 1 documents inline) -- FINAL PROSPECTUS
+SEC CIK                      : 1018724 (AMAZON COM INC)
+Accession no.                : 0000891020-98-001477
+Filing date per EDGAR        : 1998-10-22   (SEC-HEADER FILED AS OF DATE: 19981022 -- agrees)
+Conformed submission type    : 424B3   Securities Exchange Act File No.: 333-65091
+Period of report             : n/a
+Bytes of retrieved body      : 82,999
+Body completeness            : COMPLETE -- terminates in </SEC-DOCUMENT>; 1 <DOCUMENT> blocks, types: 424B3
+Request headers used         : User-Agent: FounderPlaybook Research AdminContact@example.com | Accept-Encoding: identity | Referer: https://www.sec.gov/
+Body encoding on wire        : identity (no compression negotiated); saved exactly as received
+Located via                  : https://data.sec.gov/submissions/CIK0001018724-submissions-002.json (pre-2000 slice, 1997-03-24 -> 2000-01-04); row form=424B3 filingDate=1998-10-22 primaryDocDescription='FINAL PROSPECTUS'
+Component documents (DESCRIPTION per EDGAR):
+      - FINAL PROSPECTUS
+==============================================================================
+
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ EF3N2bW7ryQbzAqjuWW9OYDA4IpwqphtlX3Jxy47cmu62LyZif9QQESz+xT0zAND
+ qfO/1Y3rhNYyaxuhaSQwqw==
+
+<SEC-DOCUMENT>0000891020-98-001477.txt : 19981023
+<SEC-HEADER>0000891020-98-001477.hdr.sgml : 19981023
+ACCESSION NUMBER:		0000891020-98-001477
+CONFORMED SUBMISSION TYPE:	424B3
+PUBLIC DOCUMENT COUNT:		1
+FILED AS OF DATE:		19981022
+SROS:			NASD
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AMAZON COM INC
+		CENTRAL INDEX KEY:			0001018724
+		STANDARD INDUSTRIAL CLASSIFICATION:	RETAIL-CATALOG & MAIL-ORDER HOUSES [5961]
+		IRS NUMBER:				911646860
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		424B3
+		SEC ACT:		
+		SEC FILE NUMBER:	333-65091
+		FILM NUMBER:		98728940
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1516 SECOND AVE 4TH FLOOR
+		STREET 2:		PO BOX 80387
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+		BUSINESS PHONE:		2066222335
+
+	MAIL ADDRESS:	
+		STREET 1:		PO BOX 80387
+		STREET 2:		1516 SECOND AVE 4TH FLOOR
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>424B3
+<SEQUENCE>1
+<DESCRIPTION>FINAL PROSPECTUS
+<TEXT>
+
+<PAGE>   1
+                                                        Filed Pursuant to 
+                                                        Rule 424(b)(3)
+                                                        Registration Statement
+                                                        No. 333-65091
+ 
+PROSPECTUS
+ 
+                                2,662,125 SHARES
+ 
+                                      LOGO
+                                  COMMON STOCK
+ 
+     This Prospectus relates to the sale of up to 2,662,125 shares (the
+"Shares") of common stock, $0.01 par value per share (the "Common Stock"), of
+Amazon.com, Inc. (the "Company" or "Amazon.com"). The Shares may be offered by
+certain stockholders of the Company (the "Selling Stockholders") or by their
+pledgees, donees, distributees or other successors-in-interest, from time to
+time in transactions (which may include block transactions) in the
+over-the-counter market through the Nasdaq National Market ("Nasdaq"), or on one
+or more other securities markets and exchanges, in privately negotiated
+transactions, or otherwise, at fixed prices that may be changed, at market
+prices prevailing at the time of sale, at prices relating to such prevailing
+market prices or at negotiated prices. The Selling Stockholders may effect such
+transactions by selling the Shares directly to or through broker-dealers, and
+such broker-dealers may receive compensation in the form of discounts,
+concessions or commissions from the Selling Stockholders and/or the purchasers
+of the Shares for whom such broker-dealers may act as agents or to whom they may
+sell as principals, or both (which compensation as to a particular broker-dealer
+may be in excess of customary commissions). See "Selling Stockholders" and "Plan
+of Distribution."
+ 
+     The Company issued the Shares to the Selling Stockholders as a result of
+certain private placements as follows: (i) on April 24, 1998 in connection with
+the merger of a wholly owned subsidiary of the Company with and into Telebook,
+Inc., a Florida corporation (the "Telebook Merger"), (ii) on August 12, 1998 in
+connection with the merger of a wholly owned subsidiary of the Company with and
+into Junglee Corp., a Delaware corporation (the "Junglee Merger"), and (iii) on
+August 27, 1998 in connection with the merger of a wholly owned subsidiary of
+the Company with and into Sage Enterprises, Inc., a Massachusetts corporation
+(the "PlanetAll Merger" and together with the Telebook Merger and the Junglee
+Merger, the "Mergers"). In addition, the Company issued certain of the Shares to
+the Selling Stockholders on a private placement basis upon the exercise of
+certain stock options. The Shares issued in connection with the Mergers and to
+those persons upon exercise of stock options constitute the Shares being
+registered hereunder. In connection with any sales, the Selling Stockholders and
+any brokers participating in such sales may be deemed to be "underwriters"
+within the meaning of the Securities Act of 1933, as amended (the "Securities
+Act"). See "Selling Stockholders."
+ 
+     None of the proceeds from the sale of the Shares by the Selling
+Stockholders will be received by the Company. The Company has agreed to bear all
+expenses (other than broker's commissions and similar charges) in connection
+with the registration and sale of the Shares being offered by the Selling
+Stockholders that initially were issued as a result of the Mergers. The Company
+has agreed to indemnify the Selling Stockholders and any broker-dealers who act
+in connection with the sale of the Shares hereunder that initially were issued
+as a result of the Mergers against certain liabilities, including liabilities
+under the Securities Act.
+ 
+     The Common Stock is quoted on Nasdaq under the symbol "AMZN." On October
+21, 1998, the closing sales price for the Common Stock as reported on Nasdaq was
+$110 per share.
+                            ------------------------
+ 
+           THE SHARES OFFERED HEREBY INVOLVES A HIGH DEGREE OF RISK.
+                    SEE "RISK FACTORS" BEGINNING ON PAGE 4.
+                            ------------------------
+ 
+  THESE SECURITIES HAVE NOT BEEN APPROVED OR DISAPPROVED BY THE SECURITIES AND
+ EXCHANGE COMMISSION OR ANY STATE SECURITIES COMMISSION NOR HAS THE SECURITIES
+   AND EXCHANGE COMMISSION OR ANY STATE SECURITIES COMMISSION PASSED UPON THE
+ACCURACY OR ADEQUACY OF THIS PROSPECTUS. ANY REPRESENTATION TO THE CONTRARY IS A
+                               CRIMINAL OFFENSE.
+                            ------------------------
+ 
+                The date of this Prospectus is October 22, 1998.
+<PAGE>   2
+ 
+                             AVAILABLE INFORMATION
+ 
+     The Company is subject to the informational requirements of the Securities
+Exchange Act of 1934, as amended (the "Exchange Act"), and in accordance
+therewith files reports, proxy and information statements and other information
+with the Securities and Exchange Commission (the "Commission"). Such reports,
+proxy and information statements and other information filed by the Company with
+the Commission can be inspected and copied (at prescribed rates) at the public
+reference facilities maintained by the Commission in Washington, D.C. (450 Fifth
+Street, N.W., Judiciary Plaza, Washington, D.C. 20549) and at the Commission's
+Regional Offices in New York (7 World Trade Center, 13th Floor, New York, New
+York 10048) and Chicago (Citicorp Center, 500 West Madison Street, Suite 1400,
+Chicago, Illinois 60661). The Company is an electronic filer and the Commission
+maintains a web site that contains reports, proxy and information statements and
+other information regarding registrants that file electronically with the
+Commission. The address of the web site is http://www.sec.gov. The Company's
+reports, proxy and information statements and other information may also be
+inspected at the offices of the National Association of Securities Dealers,
+Inc., 1735 K Street, N.W., Washington, D.C. 20006.
+ 
+     This Prospectus is part of a Registration Statement on Form S-3 (together
+with all amendments and exhibits thereto, the "Registration Statement") filed
+with the Commission under the Securities Act with respect to the Shares offered
+hereby. This Prospectus does not contain all the information set forth in the
+Registration Statement, certain portions of which have been omitted in
+accordance with the Commission's rules and regulations. For further information
+with respect to the Company and the Shares offered hereby, reference is made to
+the Registration Statement and the exhibits thereto. The statements in this
+Prospectus are qualified in their entirety by reference to the contents of any
+agreement or other document incorporated herein by reference, a copy of which is
+filed as an exhibit to either the Registration Statement or other filings by the
+Company with the Commission.
+ 
+                INCORPORATION OF CERTAIN DOCUMENTS BY REFERENCE
+ 
+     The Company will provide without charge to each person, including any
+beneficial owner, to whom a copy of this Prospectus is delivered, upon such
+person's written or oral request, a copy of any and all of the documents
+incorporated by reference herein (other than exhibits to such documents, unless
+such exhibits are specifically incorporated by reference into the information
+that this Prospectus incorporates). Requests should be directed to Amazon.com,
+Inc., 1516 Second Avenue, Seattle, Washington 98101, Attention: Investor
+Relations, telephone: (206) 622-2335.
+ 
+     The following documents filed with the Commission (File No. 000-22513) by
+the Company are incorporated by reference into this Prospectus:
+ 
+          (a) The Company's Annual Report on Form 10-K for the fiscal year ended
+     December 31, 1997;
+ 
+          (b) The Company's Quarterly Reports on Form 10-Q for the fiscal
+     quarters ended March 31, 1998 and June 30, 1998;
+ 
+          (c) The Company's Current Reports on Form 8-K filed April 27, 1998,
+     April 28, 1998, May 1, 1998, May 6, 1998, August 7, 1998, August 27, 1998
+     and September 11, 1998; and
+ 
+          (d) The description of the Company's Common Stock contained in the
+     Registration Statement on Form 8-A filed with the Commission on May 2,
+     1997, under Section 12(g) of the Exchange Act.
+ 
+     All documents filed with the Commission by the Company pursuant to Section
+13(a), 13(c), 14 or 15(d) of the Exchange Act subsequent to the date of this
+Prospectus and prior to the termination of the offering of the Shares shall be
+deemed to be incorporated by reference into this Prospectus and to be a part
+hereof from the respective dates of filing such documents. Any statement
+contained in a document incorporated or deemed to be incorporated by reference
+herein shall be deemed modified, superseded or replaced for purposes of this
+Prospectus to the extent that a statement contained herein or in any
+subsequently filed document that also is or is deemed to be incorporated by
+reference herein modifies, supersedes or replaces such statement. Any
+ 
+                                        2
+<PAGE>   3
+ 
+statement so modified, superseded or replaced shall not be deemed, except as so
+modified, superseded or replaced, to constitute a part of this Prospectus.
+                            ------------------------
+ 
+     The Company's principal executive offices are located at 1516 Second
+Avenue, Seattle, Washington 98101, telephone: (206) 622-2335.
+ 
+                           FORWARD-LOOKING STATEMENTS
+ 
+     This Prospectus and the documents incorporated herein by reference contain
+forward-looking statements based on current expectations, estimates and
+projections about the Company's industry, management's beliefs and certain
+assumptions made by management. All statements, trends, analyses and other
+information contained in this Prospectus and the documents incorporated herein
+by reference relative to trends in net sales, gross margin, anticipated expense
+levels and liquidity and capital resources, as well as other statements
+including, but not limited to, words such as "anticipate," "believe," "plan,"
+"estimate," "expect," "seek" and "intend," and other similar expressions,
+constitute forward-looking statements. These forward-looking statements involve
+risks and uncertainties, and actual results may differ materially from those
+anticipated or expressed in such statements. Potential risks and uncertainties
+include, among others, those set forth herein under "Risk Factors," as well as
+set forth under "Management's Discussion and Analysis of Financial Condition and
+Results of Operations -- Overview," "-- Liquidity and Capital Resources" and
+"-- Additional Factors That May Affect Future Results" in the Company's
+Quarterly Report on Form 10-Q filed for the quarter ended June 30, 1998 and
+under "Management's Discussion and Analysis of Financial Condition and Results
+of Operations -- Overview" and "-- Liquidity and Capital Resources" and
+"Business -- Additional Factors That May Affect Future Results" in the Company's
+Annual Report on Form 10-K for the year ended December 31, 1997, as amended by
+the Company's Current Report on Form 8-K dated August 27, 1998. Particular
+attention should be paid to the cautionary statements involving the Company's
+limited operating history, the unpredictability of its future revenues, the
+unpredictable and evolving nature of its business model, the intensely
+competitive online commerce and retail book and music industries and the risks
+associated with capacity constraints, systems development, management of growth,
+acquisitions, any new products and international or domestic business expansion.
+Except as required by law, the Company undertakes no obligation to update any
+forward-looking statement, whether as a result of new information, future events
+or otherwise. Readers, however, should carefully review the factors set forth in
+other reports or documents that the Company files from time to time with the
+Commission.
+ 
+                                        3
+<PAGE>   4
+ 
+                                  RISK FACTORS
+ 
+     In addition to the other information contained in this Prospectus,
+investors should carefully consider the following risk factors before making an
+investment decision concerning the Shares:
+ 
+     Limited Operating History; Accumulated Deficit; Anticipated Losses. The
+Company was incorporated in July 1994 and commenced offering products for sale
+on its Web site in July 1995. Accordingly, the Company has a limited operating
+history on which to base an evaluation of its business and prospects. The
+Company's prospects must be considered in light of the risks, expenses and
+difficulties frequently encountered by companies in their early stage of
+development, particularly companies in new and rapidly evolving markets such as
+online commerce. Such risks for the Company include, but are not limited to, an
+evolving and unpredictable business model and the management of growth. To
+address these risks, the Company must, among other things, maintain and increase
+its customer base, implement and successfully execute its business and marketing
+strategy and its expansion into new product or geographic markets, effectively
+manage and integrate acquisitions and other business combinations, continue to
+develop and upgrade its technology and transaction-processing systems, improve
+its Web site, provide superior customer service and order fulfillment, respond
+to competitive developments, and attract, retain and motivate qualified
+personnel. There can be no assurance that the Company will be successful in
+addressing such risks, and the failure to do so could have a material adverse
+effect on the Company's business, prospects, financial condition and results of
+operations.
+ 
+     Since inception, the Company has incurred significant losses, and as of
+June 30, 1998 had an accumulated deficit of $70.5 million. The Company believes
+that its success will depend in large part on its ability to (i) extend its
+brand position, (ii) provide its customers with outstanding value and a superior
+shopping experience, and (iii) achieve sufficient sales volume to realize
+economies of scale. Accordingly, the Company intends to continue to invest
+heavily in marketing and promotion, product development and technology and
+operating infrastructure development. The Company also offers attractive pricing
+programs, which have resulted in relatively low product gross margins. As a
+result, achieving profitability given planned investment levels depends on the
+Company's ability to generate and sustain substantially increased revenue
+levels. In addition, amounts associated with the Company's recent acquisitions,
+including amortization of goodwill and other purchased intangibles and ongoing
+operating expenses of those companies, as well as interest expense related to
+the Senior Discount Notes (as defined below) will further affect the Company's
+operating results. As a result of the foregoing factors, the Company believes
+that it will continue to incur substantial operating losses for the foreseeable
+future and that the rate at which such losses will be incurred will increase
+significantly from current levels. Although the Company has experienced
+significant revenue growth in recent periods, such growth rates are not
+sustainable and will decrease in the future. In view of the rapidly evolving
+nature of the Company's business and its limited operating history, the Company
+believes that period-to-period comparisons of its operating results, including
+the Company's gross profit and operating expenses as a percentage of net sales,
+are not necessarily meaningful and should not be relied on as an indication of
+future performance.
+ 
+     Unpredictability of Future Revenues; Potential Fluctuations in Quarterly
+Operating Results; Seasonality. As a result of the Company's limited operating
+history and the emerging nature of the markets in which it competes, the Company
+is unable to accurately forecast its revenues. The Company's current and future
+expense levels are based largely on its investment plans and estimates of future
+revenues and are to a large extent fixed. Sales and operating results generally
+depend on the volume of, timing of and ability to fulfill orders received, which
+are difficult to forecast. The Company may be unable to adjust spending in a
+timely manner to compensate for any unexpected revenue shortfall. Accordingly,
+any significant shortfall in revenues in relation to the Company's planned
+expenditures would have an immediate adverse effect on the Company's business,
+prospects, financial condition and results of operations. Further, as a
+strategic response to changes in the competitive environment, the Company may
+from time to time make certain pricing, service, marketing or acquisition
+decisions that could have a material adverse effect on its business, prospects,
+financial condition and results of operations. For example, the Company has
+recently announced acquisitions that will result in the Company's incurring
+significant charges, including amortization of goodwill and other purchased
+intangibles and ongoing operating expenses of the acquired companies.
+ 
+                                        4
+<PAGE>   5
+ 
+     The Company expects to experience significant fluctuations in its future
+quarterly operating results due to a variety of factors, many of which are
+outside the Company's control. Factors that may adversely affect the Company's
+quarterly operating results include, among others, (i) the Company's ability to
+retain existing customers, attract new customers at a steady rate and maintain
+customer satisfaction, (ii) the Company's ability to acquire product, to
+maintain appropriate inventory levels and to manage fulfillment operations,
+(iii) the Company's ability to maintain gross margins in its existing business
+and in future product lines and markets, (iv) the development, announcement or
+introduction of new sites, services and products by the Company and its
+competitors, (v) price competition or higher wholesale prices in the industry,
+(vi) the level of use of the Internet and online services and increasing
+consumer acceptance of the Internet and other online services for the purchase
+of products such as those offered by the Company, (vii) the Company's ability to
+upgrade and develop its systems and infrastructure, (viii) the Company's ability
+to attract new personnel in a timely and effective manner, (ix) the level of
+traffic on the Company's Web site, (x) the Company's ability to manage
+effectively its development of new business segments and markets, (xi) the
+Company's ability to successfully manage the integration of operations and
+technology of acquisitions or other business combinations, (xii) technical
+difficulties, system downtime or Internet brownouts, (xiii) the amount and
+timing of operating costs and capital expenditures relating to expansion of the
+Company's business, operations and infrastructure, (xiv) the number of popular
+books, music selections and other products introduced during the period, (xv)
+the level of merchandise returns experienced by the Company, (xvi) governmental
+regulation and taxation policies, (xvii) disruptions in service by common
+carriers due to strikes or otherwise, and (xviii) general economic conditions
+and economic conditions specific to the Internet, online commerce and the book
+and music industries.
+ 
+     The Company expects that it will experience seasonality in its business,
+reflecting a combination of seasonal fluctuations in Internet usage and
+traditional retail seasonality patterns. Internet usage and the rate of Internet
+growth may be expected to decline during the summer. Further, sales in the
+traditional retail book and music industries are generally significantly higher
+in the fourth calendar quarter of each year.
+ 
+     Due to the foregoing factors, in one or more future quarters the Company's
+operating results may fall below the expectations of securities analysts or
+investors. In such event, the trading price of the Common Stock would likely be
+materially adversely affected.
+ 
+     Competition. The online commerce market, particularly over the Web, is new,
+rapidly evolving and intensely competitive. In addition, the retail book and
+music industries are intensely competitive. The Company's current or potential
+competitors include (i) various online booksellers and vendors of other products
+such as CDs and videotapes, including entrants into narrow specialty niches,
+(ii) a number of indirect competitors that specialize in online commerce or
+derive a substantial portion of their revenues from online commerce, through
+which retailers other than the Company may offer products, and (iii) publishers,
+distributors and retail vendors of books, music and other products, including
+Barnes & Noble, Inc. ("Barnes & Noble") Bertelsmann AG ("Bertelsmann") and other
+large specialty booksellers and integrated media corporations, many of which
+possess significant brand awareness, sales volume and customer bases. The
+Company believes that the principal competitive factors in its market are brand
+recognition, selection, personalized services, convenience, price,
+accessibility, customer service, quality of search tools, quality of editorial
+and other site content and reliability and speed of fulfillment. Many of the
+Company's competitors have longer operating histories, larger customer bases,
+greater brand recognition and significantly greater financial, marketing and
+other resources than the Company. Certain of the Company's competitors may be
+able to secure merchandise from vendors on more favorable terms, devote greater
+resources to marketing and promotional campaigns, adopt more aggressive pricing
+or inventory availability policies and devote substantially more resources to
+Web site and systems development than the Company. Increased competition may
+result in reduced operating margins, loss of market share and a diminished brand
+franchise. The Company anticipates that as the online commerce market continues
+to grow, a certain amount of consolidation may occur. For example, Bertelsmann
+recently announced that it purchased a 50% interest in Barnes & Noble's online
+venture, barnesandnoble.com inc. In addition, online music retailers CDnow, Inc.
+and N2K Inc. recently announced that they are in negotiations regarding an
+unspecified transaction. There can be no assurance that the Company will be able
+to compete successfully against current and future competitors.
+ 
+                                        5
+<PAGE>   6
+ 
+     The Company expects that competition in the Internet and online commerce
+markets will intensify in the future. For example, as various Internet market
+segments obtain large, loyal customer bases, participants in those segments may
+seek to leverage their market power to the detriment of participants in other
+market segments. In addition, new technologies and the expansion of existing
+technologies may increase the competitive pressures on online retailers,
+including the Company. For example, "shopping agent" technologies permit
+customers to quickly compare the Company's prices with those of its competitors.
+Competitive pressures created by any one of the Company's competitors, or by the
+Company's competitors collectively, could have a material adverse effect on the
+Company's business, prospects, financial condition and results of operations.
+ 
+     System Development and Operation Risks. The Company's revenues depend on
+the number of visitors who shop on its Web site and the volume of orders it
+fulfills. Any system interruptions that result in the unavailability of the
+Company's Web site or reduced order fulfillment performance would reduce the
+volume of goods sold and the attractiveness of the Company's product and service
+offerings. The Company has experienced periodic system interruptions, which it
+believes will continue to occur from time to time. The Company uses an
+internally developed system for its Web site and substantially all aspects of
+transaction processing, including order management, cash and credit card
+processing, purchasing, inventory management and shipping. The Company will be
+required to add additional software and hardware and further develop and upgrade
+its existing technology, transaction-processing systems and network
+infrastructure to accommodate increased traffic on its Web site and increased
+sales volume through its transaction-processing systems. Any inability to do so
+may cause unanticipated system disruptions, slower response times, degradation
+in levels of customer service, impaired quality and speed of order fulfillment,
+or delays in reporting accurate financial information. There can be no assurance
+that the Company will be able to accurately project the rate or timing of
+increases, if any, in the use of its Web site or in a timely manner to
+effectively upgrade and expand its transaction-processing systems or to
+integrate smoothly any newly developed or purchased modules with its existing
+systems. Any inability to do so could have a material adverse effect on the
+Company's business, prospects, financial condition and results of operations.
+ 
+     Substantially all of the Company's computer and communications hardware is
+located at a single leased facility in Seattle, Washington. The Company's
+systems and operations are vulnerable to damage or interruption from fire,
+flood, power loss, telecommunications failure, break-ins, earthquake and similar
+events. The Company does not currently have redundant systems or a formal
+disaster recovery plan and in the event of a major interruption does not have
+sufficient business interruption insurance to compensate it for losses that may
+occur. Despite the implementation of network security measures by the Company,
+its servers are vulnerable to computer viruses, physical or electronic break-ins
+and similar disruptions, which could lead to interruptions, delays, loss of
+critical data or the inability to accept and fulfill customer orders. The
+occurrence of any of the foregoing events could have a material adverse effect
+on the Company's business, prospects, financial condition and results of
+operations.
+ 
+     Management of Potential Growth. The Company has rapidly and significantly
+expanded its operations and anticipates that further expansion will be required
+to address potential growth in its customer base, to expand its product and
+service offerings and its international operations, and to pursue other market
+opportunities. The expansion of the Company's operations and employee base has
+placed, and is expected to continue to place, a significant strain on the
+Company's management, operational and financial resources. To manage the
+expected growth of its operations and personnel, the Company will be required to
+improve existing and implement new transaction-processing, operational and
+financial systems, procedures and controls, as well as to expand, train and
+manage its growing employee base. There can be no assurance that the Company's
+current and planned personnel, systems, procedures and controls will be adequate
+to support the Company's future operations, that management will be able to
+hire, train, retain, motivate and manage required personnel or that Company
+management will be able to successfully identify, manage and exploit existing
+and potential market opportunities. If the Company is unable to manage growth
+effectively, such inability could have a material adverse effect on the
+Company's business, prospects, financial condition and results of operations.
+ 
+     Risks of New Business Areas. The Company over time intends to expand its
+operations by promoting new or complementary products or sales formats and by
+expanding the breadth and depth of its product or
+                                        6
+<PAGE>   7
+ 
+service offerings. For example, the Company introduced its music store in June
+1998. Expansion of the Company's operations in this manner will require
+significant additional expenses and development, operations and editorial
+resources and could strain the Company's management, financial and operational
+resources. Furthermore, the Company may not benefit from the first-mover
+advantage that it experienced in the online book market, and gross margins
+attributable to new business areas may be lower than those associated with the
+Company's existing business activities. There can be no assurance that the
+Company will be able to expand its operations in a cost-effective or timely
+manner. Furthermore, any new business launched by the Company that is not
+favorably received by consumers could damage the Company's reputation or the
+Amazon.com brand. The lack of market acceptance of such efforts or the Company's
+inability to generate satisfactory revenues from such expanded services or
+products to offset their cost could have a material adverse effect on the
+Company's business, prospects, financial condition and results of operations.
+ 
+     Risks of International Expansion. The Company expects to expand its
+presence in foreign markets and in April 1998 acquired two international online
+booksellers to accelerate this expansion. To date, the Company has only limited
+experience in sourcing, marketing and distributing products on an international
+basis and in developing localized versions of its Web site and other systems.
+The Company expects to incur significant costs in establishing international
+facilities and operations, in promoting its brand internationally, in developing
+localized versions of its Web site and other systems and in sourcing, marketing
+and distributing products in foreign markets. There can be no assurance that the
+Company's international efforts will be successful. If the revenues resulting
+from international activities are inadequate to offset the expense of
+establishing and maintaining foreign operations, such inadequacy could have a
+material adverse effect on the Company's business, prospects, financial
+condition and results of operations. In addition, there are certain risks
+inherent in doing business on an international level, such as unexpected changes
+in regulatory requirements, export and import restrictions, tariffs and other
+trade barriers, difficulties in staffing and managing foreign operations, longer
+payment cycles, political instability, fluctuations in currency exchange rates,
+seasonal reductions in business activity in other parts of the world and
+potentially adverse tax consequences, any of which could adversely affect the
+success of the Company's international operations. Furthermore, it is possible
+that governments in certain foreign jurisdictions may have or enact legislation
+with respect to the Internet or other online services in such areas as content,
+privacy, network security, encryption or distribution that may affect the
+Company's ability to conduct business abroad. There can be no assurance that one
+or more of such factors will not have a material adverse effect on the Company's
+future international operations and, consequently, on the Company's business,
+prospects, financial condition and results of operations.
+ 
+     Risks of Business Combinations and Strategic Alliances. The Company may
+choose to expand its operations or market presence by entering into business
+combinations, investments, joint ventures or other strategic alliances with
+third parties such as the Company's April acquisitions of two international
+online booksellers and of Internet Movie Database Limited and August
+acquisitions of Junglee Corp. ("Junglee") and Sage Enterprises, Inc.
+("PlanetAll"). Any such transaction will be accompanied by risks commonly
+encountered in such transactions, which include, among others, the difficulty of
+assimilating the operations, technology and personnel of the combined companies,
+the potential disruption of the Company's ongoing business, the possible
+inability to retain key technical and managerial personnel, the potential
+inability of management to maximize the financial and strategic position of the
+Company through the successful integration of acquired businesses, additional
+expenses associated with amortization of goodwill and purchased intangible
+assets, additional operating losses and expenses associated with the activities
+and expansion of acquired businesses, the maintenance of uniform standards,
+controls and policies and the possible impairment of relationships with existing
+employees and customers. There can be no assurance that the Company will be
+successful in overcoming these risks or any other problems encountered in
+connection with such business combinations, investments, joint ventures or other
+strategic alliances, or that such transactions will not have a material adverse
+effect on the Company's business, prospects, financial condition and results of
+operations.
+ 
+     Rapid Technological Change. To remain competitive, the Company must
+continue to enhance and improve the responsiveness, functionality and features
+of the Amazon.com online store. The Internet and the online commerce industry
+are characterized by rapid technological change, changes in user and customer
+requirements and preferences, frequent new products and service introductions
+embodying new technologies
+ 
+                                        7
+<PAGE>   8
+ 
+and the emergence of new industry standards and practices that could render the
+Company's existing Web site and proprietary technology and systems obsolete. The
+Company's success will depend, in part, on its ability to license leading
+technologies useful in its business, enhance its existing services, develop new
+services and technology that address the increasingly sophisticated and varied
+needs of its prospective customers and respond to technological advances and
+emerging industry standards and practices on a cost-effective and timely basis.
+The development of a Web site and other proprietary technology entails
+significant technical, financial and business risks. There can be no assurance
+that the Company will successfully implement new technologies or adapt its Web
+site, proprietary technology and transaction-processing systems to customer
+requirements or emerging industry standards. If the Company is unable, for
+technical, legal, financial or other reasons, to adapt in a timely manner in
+response to changing market conditions or customer requirements, such inability
+could have a material adverse effect on the Company's business, prospects,
+financial condition and results of operations.
+ 
+     Dependence on Key Personnel. The Company's performance is substantially
+dependent on the continued services and on the performance of its senior
+management and other key personnel, particularly Jeffrey P. Bezos, its
+President, Chief Executive Officer and Chairman of the Board. The Company does
+not have long-term employment agreements with any of its key personnel and
+maintains no "key person" life insurance policies. The loss of the services of
+its executive officers or other key employees could have a material adverse
+effect on the Company's business, prospects, financial condition and results of
+operations.
+ 
+     Reliance on Certain Suppliers. The Company purchases a substantial majority
+of its products from two major vendors, Ingram Book Group ("Ingram") and Baker &
+Taylor, Inc. Ingram is the Company's single largest supplier and accounted for
+58% and 59% of the Company's inventory purchases in 1997 and 1996, respectively.
+The Company has no long-term contracts or arrangements with any of its vendors
+that guarantee the availability of merchandise, the continuation of particular
+payment terms or the extension of credit limits. There can be no assurance that
+the Company's current vendors will continue to sell merchandise to the Company
+on current terms or that the Company will be able to establish new or extend
+current vendor relationships to ensure acquisition of merchandise in a timely
+and efficient manner and on acceptable commercial terms. If the Company were
+unable to develop and maintain relationships with vendors that would allow it to
+obtain sufficient quantities of merchandise on acceptable commercial terms, such
+inability could have a material adverse effect on the Company's business,
+prospects, financial condition and results of operations.
+ 
+     Increased Leverage. The Company has significant indebtedness outstanding,
+principally $326 million gross proceeds of 10% Senior Discount Notes due 2008
+(the "Senior Discount Notes"), capitalized lease obligations and other equipment
+financing. The Company may incur substantial additional indebtedness in the
+future. The level of the Company's indebtedness, among other things, could (i)
+make it difficult for the Company to make payments on the Senior Discount Notes,
+(ii) make it difficult for the Company to obtain any necessary financing in the
+future for working capital, capital expenditures, debt service requirements or
+other purposes, (iii) limit the Company's flexibility in planning for, or
+reacting to changes in, its business, and (iv) make it more vulnerable in the
+event of a downturn in its business. There can be no assurance that the Company
+will be able to improve its earnings before fixed charges or that the Company
+will be able to meet its debt service obligations, including its obligations
+under the Senior Discount Notes. In the event the Company's cash flow is
+inadequate to meet its obligations, the Company could face substantial liquidity
+problems. If the Company is unable to generate sufficient cash flow or otherwise
+obtain funds necessary to make required payments, or if the Company otherwise
+fails to comply with the various covenants in its indebtedness, it would be in
+default under the terms thereof, which would permit the holders of such
+indebtedness to accelerate the maturity of such indebtedness and could cause
+defaults under other indebtedness of the Company. Any such default could have a
+material adverse effect on the Company's business, prospects, financial
+condition and results of operations.
+ 
+     Risks Associated With Domain Names. The Company currently holds various Web
+domain names relating to its brand, including the "Amazon.com" domain name. The
+acquisition and maintenance of domain names generally is regulated by
+governmental agencies and their designees. For example, in the United States,
+the National Science Foundation has appointed Network Solutions, Inc. as the
+current exclusive registrar for
+                                        8
+<PAGE>   9
+ 
+the ".com," ".net" and ".org" generic top-level domains. The regulation of
+domain names in the United States and in foreign countries is subject to change
+in the near future. Such changes in the United States are expected to include a
+transition from the current system to a system that is controlled by a nonprofit
+corporation and the creation of additional top-level domains. Governing bodies
+may establish additional top-level domains, appoint additional domain name
+registrars or modify the requirements for holding domain names. As a result,
+there can be no assurance that the Company will be able to acquire or maintain
+relevant domain names in all countries in which it conducts business.
+Furthermore, the relationship between regulations governing domain names and
+laws protecting trademarks and similar proprietary rights is unclear. The
+Company, therefore, may be unable to prevent third parties from acquiring domain
+names that are similar to, infringe upon or otherwise decrease the value of its
+trademarks and other proprietary rights. Any such inability could have a
+material adverse effect on the Company's business, prospects, financial
+condition and results of operations.
+ 
+     Governmental Regulation and Legal Uncertainties. The Company is not
+currently subject to direct regulation by any domestic or foreign governmental
+agency, other than regulations applicable to businesses generally and laws or
+regulations directly applicable to access to online commerce. However, due to
+the increasing popularity and use of the Internet and other online services, it
+is possible that a number of laws and regulations may be adopted with respect to
+the Internet or other online services covering issues such as user privacy,
+pricing, content, copyrights, distribution and characteristics and quality of
+products and services. Furthermore, the growth and development of the market for
+online commerce may prompt calls for more stringent consumer protection laws
+that may impose additional burdens on those companies conducting business
+online. The adoption of any additional laws or regulations may decrease the
+growth of the Internet or other online services, which could, in turn, decrease
+the demand for the Company's products and services and increase the Company's
+cost of doing business, or otherwise have a material adverse effect on the
+Company's business, prospects, financial condition and results of operations.
+Moreover, the applicability to the Internet and other online services of
+existing laws in various jurisdictions governing issues such as property
+ownership, sales and other taxes, libel and personal privacy is uncertain and
+may take years to resolve. Any such new legislation or regulation, the
+application of laws and regulations from jurisdictions whose laws do not
+currently apply to the Company's business, or the application of existing laws
+and regulations to the Internet and other online services could have a material
+adverse effect on the Company's business, prospects, financial condition and
+results of operations.
+ 
+     Restrictions on Payment of Dividends. The Company has never paid any cash
+dividends on its Common Stock. The Company's Board of Directors will determine
+future dividend policy based on the Company's results of operations, financial
+condition, capital requirements and other circumstances. The Indenture, dated as
+of May 8, 1998, between the Company and the Bank of New York, as Trustee,
+relating to the Senior Discount Notes, prohibits the Company from paying cash
+dividends on its capital stock, subject to certain exceptions. It is not
+anticipated that any cash dividends will be paid on the Common Stock in the
+foreseeable future.
+ 
+     Year 2000 Compliance. The Company has developed a plan to modify its
+information technology to recognize the Year 2000 and has, to the extent
+necessary, begun converting its critical data processing systems. Since the
+Company's systems and software are relatively new, management does not expect
+Year 2000 issues related to its own internal systems to be significant and does
+not anticipate that it will incur significant operating expenses or be required
+to invest heavily in computer systems improvements to be Year 2000 compliant.
+The Company has initiated formal communications with certain of its significant
+suppliers and service providers to determine the extent to which the Company's
+interface systems may be vulnerable should those third parties fail to address
+and correct their own Year 2000 issues. The Company currently expects the
+project to be completed in the third quarter of 1999. There can be no guarantee
+that the systems of suppliers or other companies on which the Company relies
+will be converted in a timely manner and will not have a material adverse effect
+on the Company's systems. Additionally, there can be no guarantee that the
+computer systems necessary to maintain the viability of the Internet or any of
+the Web sites that direct consumers to the Company's online store will be Year
+2000 compliant. As part of the Company's overall Year 2000 compliance
+ 
+                                        9
+<PAGE>   10
+ 
+plan, the Company intends to monitor systems performance and plans to develop a
+rapid response program in the event of any significant disruption as a result of
+the Year 2000 issues.
+ 
+     Volatility of Stock Price. The trading price of the Common Stock is subject
+to wide fluctuations. For example, for the 52-week period ended October 16,
+1998, the reported closing price of the Common Stock on Nasdaq was as high as
+$139.50 and as low as $21.75 per share (as adjusted for the Company's 2-for-1
+stock split effected June 1, 1998). Trading prices of the Common Stock may
+fluctuate in response to a number of events and factors, such as quarterly
+variations in operating results, announcements of innovations, new products,
+strategic developments or business combinations by the Company or its
+competitors, changes in the Company's expected operating expense levels or
+losses, changes in financial estimates and recommendations by securities
+analysts, the operating and stock price performance of other companies that
+investors may deem comparable to the Company, news reports relating to trends in
+the Internet, book or music industries and other events or factors many of which
+are beyond the Company's control. In addition, the stock market in general, and
+the market prices for Internet-related companies in particular, have experienced
+extreme volatility that often has been unrelated to the operating performance of
+such companies. These broad market and industry fluctuations may adversely
+affect the trading price of the Common Stock, regardless of the Company's
+operating performance.
+ 
+                                       10
+<PAGE>   11
+ 
+                              SELLING STOCKHOLDERS
+ 
+     The following table provides certain information regarding the Selling
+Stockholders and the number of Shares being offered by them as of September 30,
+1998.
+ 
+<TABLE>
+<CAPTION>
+                                            SHARES BENEFICIALLY OWNED
+                                                PRIOR TO OFFERING
+                                            -------------------------
+                                                        PERCENTAGE OF                        SHARES
+                                                           COMMON                         BENEFICIALLY
+                                                            STOCK       SHARES THAT MAY   OWNED AFTER
+             NAME AND ADDRESS               AMOUNT       OUTSTANDING        BE SOLD       OFFERING(1)
+             ----------------               -------     -------------   ---------------   ------------
+<S>                                         <C>         <C>             <C>               <C>
+PLANETALL MERGER
+Warren William Adams......................  166,907(2)     *                166,907               0
+William Allocca...........................    1,578(3)     *                      5           1,573
+Kenneth Edward Barrett....................    1,814        *                  1,814               0
+Thomas Jason Black........................       99(2)     *                     99               0
+David Bullock.............................    6,751        *                  6,751               0
+Rachael Burger............................      736(4)     *                      5             731
+Jason Peter Butler........................      161(5)     *                      5             156
+Steven James Carbone......................      156        *                    156               0
+CMG @Ventures II, LLC.....................  225,557(2)     *                225,557               0
+Digital Ventures Limited..................  120,952(2)     *                120,952               0
+Kenneth Lee Dinovo........................      903(6)     *                      5             898
+Steven Richard Dyer.......................      847(7)     *                      5             842
+Robert A. Ferrari.........................       23        *                     23               0
+Stuart Gannes.............................      557        *                    557               0
+Nancy T. Garland..........................      121(8)     *                      5             116
+Growth Partners...........................    6,590        *                  6,590               0
+John William Gurley.......................    4,274        *                  4,274               0
+John Hummer...............................    4,274        *                  4,274               0
+Thomas R. Johnson.........................       69        *                     69               0
+Alexander Kaplevatsky.....................        2        *                      2               0
+Brian J. Kennealy.........................      562(9)     *                      5             557
+Alan Kipust...............................    3,157        *                  3,157               0
+James R. Lane.............................    3,076        *                  3,076               0
+Frank Nelson Levy.........................    4,963(10)    *                      5           4,958
+Phillip Preston Lohnes....................      296        *                    296               0
+Lycos, Inc................................  107,377(2)     *                107,377               0
+Thomas Mastrocola.........................    1,352        *                  1,352               0
+Jeffrey D. Mather.........................       33        *                     33               0
+Gerald Phillip Michalski..................      427(2)     *                    427               0
+John Kenneth Michaud......................       23        *                     23               0
+James David Mirenda.......................    2,453        *                  2,453               0
+M. Bruce Nakao 1994 Trust 4/28/94.........      977        *                    977               0
+Wende Lawrence Niles......................      147(11)    *                      5             142
+Sung Kyu Park.............................    1,394        *                  1,394               0
+Puma Technology, Inc......................   12,824        *                 12,824               0
+Clive Ramsay..............................    2,255        *                  2,255               0
+Brian Roberts.............................    6,157        *                  6,157               0
+Brian David Robertson.....................   41,747(2)     *                 41,747               0
+Henry W. Rossi............................    2,714        *                  2,714               0
+</TABLE>
+ 
+                                       11
+<PAGE>   12
+ 
+<TABLE>
+<CAPTION>
+                                            SHARES BENEFICIALLY OWNED
+                                                PRIOR TO OFFERING
+                                            -------------------------
+                                                        PERCENTAGE OF                        SHARES
+                                                           COMMON                         BENEFICIALLY
+                                                            STOCK       SHARES THAT MAY   OWNED AFTER
+             NAME AND ADDRESS               AMOUNT       OUTSTANDING        BE SOLD       OFFERING(1)
+             ----------------               -------     -------------   ---------------   ------------
+<S>                                         <C>         <C>             <C>               <C>
+Bradley Alan Rowe.........................      977        *                    977               0
+Schwartz Communications, Inc..............    1,090        *                  1,090               0
+Dennis Hyun Son...........................      156(2)     *                    156               0
+Stevenson Family Investment, L.P..........    1,581        *                  1,581               0
+SUN Capital Partners Limited..............   39,356        *                 39,356               0
+Robert Blair Taylor.......................    1,767        *                  1,767               0
+Gwendolyn M. Thompson.....................    2,461        *                  2,461               0
+David F. Tufaro...........................   13,945(2)     *                 13,945               0
+Sharon K. Tufaro..........................   13,945(2)     *                 13,945               0
+Vencor & Co...............................    1,804        *                  1,804               0
+Scott Wilhelm.............................      117(12)    *                      5             112
+JUNGLEE MERGER
+Yu Shun Chang.............................    5,412        *                  5,412               0
+Hon-Jane Chiu.............................   33,826        *                 33,826               0
+Linda Christensen.........................      634        *                    634               0
+CMC Magnetics Corporation.................   35,179        *                 35,179               0
+Martin Cooper.............................    3,382        *                  3,382               0
+Werner O. Daghofer........................    3,949(13)    *                  2,663           1,286
+Dip Yah International Corporation.........    2,706        *                  2,706               0
+Constantin S. Delivanis...................   10,148        *                 10,148               0
+Peter M. Donovan..........................    2,706        *                  2,706               0
+F&W Investments 1997......................    1,353        *                  1,353               0
+Gabriel Fernandez.........................    1,071        *                  1,071               0
+Fred M. Gibbons...........................    3,664        *                  3,664               0
+Anbarasan P. Gounder......................    1,268(14)    *                    761             507
+Ashish Gupta..............................  175,899(15)    *                175,899               0
+Masumi Hara...............................      676        *                    676               0
+Venkatesh Harinarayan.....................  175,899(16)    *                175,899               0
+Kin Yuen Hoh..............................    1,183        *                  1,183               0
+Mei Chin Huang............................   13,530        *                 13,530               0
+Kankaku Investment Co., Ltd...............    5,412        *                  5,412               0
+KIC-3 Investment Partnership..............    8,118        *                  8,118               0
+Kyocera Corporation.......................   45,102        *                 45,102               0
+Yen-Nan Lee...............................   27,061        *                 27,061               0
+Brian Lent................................    6,267(17)    *                  5,186           1,081
+Judy Ting-Lan Li..........................    2,706        *                  2,706               0
+Steve W. Marchette........................      243        *                    243               0
+Rakesh Mathur.............................  175,899(18)    *                175,899               0
+McKinsey & Company, Inc...................    8,698        *                  8,698               0
+Gordon Mortensen..........................      270        *                    270               0
+Nichimen America, Inc.....................   45,102        *                 45,102               0
+Nichiman Corporation (Japan)..............   45,102        *                 45,102               0
+Peter Norvig..............................    4,776(19)    *                  4,246             530
+</TABLE>
+ 
+                                       12
+<PAGE>   13
+ 
+<TABLE>
+<CAPTION>
+                                            SHARES BENEFICIALLY OWNED
+                                                PRIOR TO OFFERING
+                                            -------------------------
+                                                        PERCENTAGE OF                        SHARES
+                                                           COMMON                         BENEFICIALLY
+                                                            STOCK       SHARES THAT MAY   OWNED AFTER
+             NAME AND ADDRESS               AMOUNT       OUTSTANDING        BE SOLD       OFFERING(1)
+             ----------------               -------     -------------   ---------------   ------------
+<S>                                         <C>         <C>             <C>               <C>
+Craig & Susan Olson Living Trust
+Dated April 15, 1997, Through its
+Trustees, Craig & Susan Olson.............    8,456        *                  8,456               0
+Zoe Oredson...............................      338        *                    338               0
+Nayantara H. Patel........................      685(20)    *                    439             246
+Yan L. Philipe............................      403(21)    *                    338              65
+Dallan Quass..............................   35,179        *                 35,179               0
+Anand Rajaraman...........................  175,899(22)    *                175,899               0
+M.R. Rangaswami...........................   10,148        *                 10,148               0
+Michelle L. Rife..........................      466        *                    466               0
+Robert C. Fitzwilson Trust................    4,735        *                  4,735               0
+Robyn Sherman.............................    2,390        *                  2,390               0
+Hisato Shihodo............................   27,061        *                 27,061               0
+Kavitark R. Shriram(23)...................  110,274(24)    *                 76,448          33,826
+Silicon Valley Bank.......................      608        *                    608               0
+Damon Todd Silver.........................      537(25)    *                    394             143
+Stanford University.......................   61,706        *                  2,706          59,000
+Sun Circle Pte. Ltd.......................    2,706        *                  2,706               0
+Susan Jackson, Trustee of the
+Susan JacksonTrust dated 9/15/89..........    4,735        *                  4,735               0
+Trans Cosmos USA Inc......................   94,715        *                 94,715               0
+Tsyuoshi Taira............................   47,357        *                 47,357               0
+The Washington Post Co....................  202,961        *                202,961               0
+Jeffrey D. Ullman.........................    5,412        *                  5,412               0
+Kenneth J. Virnig.........................      413        *                    413               0
+Win Win Venture Capital Corporation.......   22,551        *                 22,551               0
+WS Investment Company.....................      819        *                    819               0
+WS Investment Company 97B.................      819        *                    819               0
+Karen C. Yao..............................    2,106(26)    *                  1,973             133
+TELEBOOK MERGER
+Michael J.G. Gleissner....................  292,234(27)    *                129,532         162,702
+Christian Jagodzinski.....................  144,940(28)    *                 75,676          69,264
+Maria Garcia Nielson......................    5,878(29)    *                  3,778           2,100
+Ulrike Stadler............................  144,940(28)    *                 75,676          69,264
+OTHER TRANSACTIONS
+Tracy Adams...............................      533        *                    533               0
+Alan R. Bailey............................       34        *                     34               0
+Vladimir Sukonnik.........................    1,574        *                  1,574               0
+</TABLE>
+ 
+- ---------------
+  *  Less than 1%.
+ 
+ (1) Assumes the sale of all the Shares offered by each of the Selling
+     Stockholders.
+ 
+ (2) These Shares are contractually ineligible for sale or transfer pursuant to
+     the Registration Statement or otherwise until the publication by the
+     Company of certain financial data that reflect the combined results of
+     operations of the Company and PlanetAll for a period of 30 days.
+ 
+ (3) Includes 1,573 Shares subject to options exercisable within 60 days of
+     September 30, 1998.
+ 
+                                       13
+<PAGE>   14
+ 
+ (4) Includes 731 Shares subject to options exercisable within 60 days of
+     September 30, 1998.
+ 
+ (5) Includes 156 Shares subject to options exercisable within 60 days of
+     September 30, 1998.
+ 
+ (6) Includes 898 Shares subject to options exercisable within 60 days of
+     September 30, 1998.
+ 
+ (7) Includes 842 Shares subject to options exercisable within 60 days of
+     September 30, 1998.
+ 
+ (8) Includes 116 Shares subject to options exercisable within 60 days of
+     September 30, 1998.
+ 
+ (9) Includes 557 Shares subject to options exercisable within 60 days of
+     September 30, 1998.
+ 
+(10) Includes 4,958 Shares subject to options exercisable within 60 days of
+     September 30, 1998.
+ 
+(11) Includes 142 Shares subject to options exercisable within 60 days of
+     September 30, 1998.
+ 
+(12) Includes 112 Shares subject to options exercisable within 60 days of
+     September 30, 1998.
+ 
+(13) Includes 1,286 Shares subject to options exercisable within 60 days of
+     September 30, 1998.
+ 
+(14) Includes 507 Shares subject to options exercisable within 60 days of
+     September 30, 1998.
+ 
+(15) Includes 78,249 Shares subject to a right of repurchase by the Company. As
+     a result, these Shares will not contractually be eligible for sale or
+     transfer pursuant to the Registration Statement or otherwise until such
+     Shares have vested and are released. Subject to the provision of continuous
+     services, 2,371 of such Shares will vest per month. The vesting of such
+     Shares will accelerate under certain circumstances pursuant to the terms of
+     Mr. Gupta's Restricted Stock Purchase Agreement.
+ 
+(16) Includes 78,249 Shares subject to a right of repurchase by the Company. As
+     a result, these Shares will not contractually be eligible for sale or
+     transfer pursuant to the Registration Statement or otherwise until such
+     Shares have vested and are released. Subject to the provision of continuous
+     services, 2,371 of such Shares will vest per month. The vesting of such
+     Shares will accelerate under certain circumstances pursuant to the terms of
+     Mr. Harinarayan's Restricted Stock Purchase Agreement.
+ 
+(17) Includes 1,081 Shares subject to options exercisable within 60 days of
+     September 30, 1998.
+ 
+(18) Includes 78,249 Shares subject to a right of repurchase by the Company. As
+     a result, these Shares will not contractually be eligible for sale or
+     transfer pursuant to the Registration Statement or otherwise until such
+     Shares have vested and are released. Subject to the provision of continuous
+     services, 2,371 of such Shares will vest per month. The vesting of such
+     Shares will accelerate under certain circumstances pursuant to the terms of
+     Mr. Mathur's Restricted Stock Purchase Agreement.
+ 
+(19) Includes 530 Shares subject to options exercisable within 60 days of
+     September 30, 1998.
+ 
+(20) Includes 246 Shares subject to options exercisable within 60 days of
+     September 30, 1998.
+ 
+(21) Includes 65 Shares subject to options exercisable within 60 days of
+     September 30, 1998.
+ 
+(22) Includes 78,249 Shares subject to a right of repurchase by the Company. As
+     a result, these Shares will not contractually be eligible for sale or
+     transfer pursuant to the Registration Statement or otherwise until such
+     Shares have vested and are released. Subject to the provision of continuous
+     services, 2,371 of such Shares will vest per month. The vesting of such
+     Shares will accelerate under certain circumstances pursuant to the terms of
+     Mr. Rajaraman's Restricted Stock Purchase Agreement.
+ 
+(23) Mr. Shriram currently serves as Vice President, Business Development of the
+     Company.
+ 
+(24) Includes 22,551 Shares subject to a right of repurchase by the Company. As
+     a result, these Shares will not contractually be eligible for sale or
+     transfer pursuant to the Registration Statement or otherwise until such
+     Shares have vested and are released. Subject to the provision of continuous
+     services, 2,819 of such Shares will vest per month. Also includes 33,826
+     shares subject to options exercisable within 60 days of September 30, 1998.
+ 
+(25) Includes 143 Shares subject to options exercisable within 60 days of
+     September 30, 1998.
+ 
+(26) Includes 133 Shares subject to options exercisable within 60 days of
+     September 30, 1998.
+ 
+(27) Includes 104,370 securities deposited with an escrow agent to secure
+     indemnification obligations under the Telebook Merger and 58,332 securities
+     pledged under an employment agreement to secure future services. The
+     securities placed in escrow and pledged under the employment agreement are
+     not included as Shares pursuant to the Registration Statement.
+ 
+                                       14
+<PAGE>   15
+ 
+(28) Includes 51,764 securities deposited with an escrow agent to secure
+     indemnification obligations under the Telebook Merger and 17,500 securities
+     pledged under an employment agreement to secure future services. The
+     securities placed in escrow and pledged under the employment agreement are
+     not included as Shares pursuant to the Registration Statement.
+ 
+(29) Includes 2,100 securities deposited with an escrow agent to secure
+     indemnification obligations under the Telebook Merger. The securities
+     placed in escrow are not included as Shares pursuant to the Registration
+     Statement.
+ 
+     Except as noted above, none of the Selling Stockholders has had any
+material relationship with the Company, or any of its affiliates, within the
+past three years.
+ 
+     The former stockholders of PlanetAll have agreed to indemnify and hold the
+Company harmless for any losses that may be suffered by the Company or its
+affiliates arising out of or in connection with any inaccuracy in, or
+misrepresentation or breach of, any representation or warranty made by PlanetAll
+in the PlanetAll merger and related agreements, or any failure by PlanetAll to
+perform its obligations under the PlanetAll merger and related agreements.
+Approximately 10% of the Shares that initially were issued to each of the
+Selling Stockholders as a result of the PlanetAll Merger have been deposited
+with an escrow agent to secure such indemnification obligations. The securities
+placed in escrow, although included as part of the Shares registered hereunder,
+thus contractually may not be eligible for resale during the period in which the
+Registration Statement remains effective.
+ 
+     The former stockholders of Junglee have agreed to indemnify and hold the
+Company harmless for any losses that may be suffered by the Company or its
+affiliates arising out of or in connection with any inaccuracy in, or
+misrepresentation or breach of, any representation or warranty made by Junglee
+in the Junglee merger and related agreements, or any failure by Junglee to
+perform its obligations under the Junglee merger and related agreements.
+Approximately 12% of the Shares that initially were issued to each of the
+Selling Stockholders as a result of the Junglee Merger have been deposited with
+an escrow agent to secure such indemnification obligations. The securities
+placed in escrow, although included as part of the Shares registered hereunder,
+thus contractually may not be eligible for resale during the period in which the
+Registration Statement remains effective.
+ 
+     The Selling Stockholders have represented to the Company that they acquired
+the Shares for their own account for investment only and not with a view toward
+the public sale or distribution thereof, except pursuant to sales registered
+under the Securities Act or exemptions therefrom. In recognition of the fact
+that the Selling Stockholders, even though acquiring the Shares for investment,
+may wish to be legally permitted to sell their Shares when they deem
+appropriate, the Company agreed with the Selling Stockholders to file with the
+Commission under the Securities Act a Registration Statement with respect to the
+resale of the Shares from time to time and agreed to prepare and file such
+amendments and supplements to the Registration Statement as may be necessary to
+keep the Registration Statement effective during the periods negotiated in
+connection with the respective mergers. With respect to the Shares issued in
+connection with the PlanetAll Merger, the Registration Statement shall remain
+effective until the earliest of (i) August 27, 1999, (ii) the date on which all
+Shares have been registered and sold pursuant to the Registration Statement, or
+(iii) the date on which the Shares issued in the PlanetAll Merger cease to meet
+the definition of "Registrable Securities" as defined in the merger agreement
+for the PlanetAll Merger. With respect to the Shares issued in connection with
+the Junglee Merger, the Registration Statement shall remain effective until the
+earliest of (i) August 12, 1999, (ii) the date on which all Shares have been
+registered and sold pursuant to the Registration Statement, or (iii) the date on
+which the Shares issued in the Junglee Merger cease to meet the definition of
+"Registrable Securities" as defined in the merger agreement for the Junglee
+Merger. With respect to the Shares issued in connection with the Telebook
+Merger, the Registration Statement shall remain effective until the earlier of
+(i) ten days after the Registration Statement becomes effective or (ii) the
+distribution contemplated by the Registration Statement has been completed. See
+"Plan of Distribution."
+ 
+                                       15
+<PAGE>   16
+ 
+                              PLAN OF DISTRIBUTION
+ 
+     All the Shares offered hereby may be sold from time to time by the Selling
+Stockholders, or by their pledgees, donees, distributees, transferees or other
+successors-in-interest. The sale of the Shares by the Selling Stockholders may
+be effected from time to time in one or more types of transactions (which may
+include block transactions) in the over-the-counter market through Nasdaq, or on
+one or more other securities markets and exchanges, in privately negotiated
+transactions, through put or call options transactions relating to the Shares,
+through short sales of Shares, or through a combination of such methods of sale,
+at fixed prices that may be changed, at market prices prevailing at the time of
+sale, at prices relating to such prevailing market prices or at negotiated
+prices. The Selling Stockholders may effect the above-mentioned transactions by
+selling the Shares directly to purchasers, acting as principals for their own
+accounts, or by or through broker-dealers acting as agents for the Selling
+Stockholders, or to broker-dealers who may purchase Shares as principals and
+thereafter sell such Securities from time to time in transactions on any
+exchange or market on which such securities are listed or quoted, as applicable,
+in negotiated transactions, through a combination of such methods of sale, or
+otherwise. Such broker-dealers may receive compensation in the form of
+discounts, concessions or commissions from the Selling Stockholders and/or the
+purchasers of the Shares for whom such broker-dealers may act as agents or to
+whom they may sell as principals, or both (which compensation as to a particular
+broker-dealer may be in excess of customary commissions). None of the proceeds
+from the sale of the Shares by the Selling Stockholders will be received by the
+Company. In addition, any of the Shares that qualify for sale pursuant to Rule
+144 promulgated under the Securities Act may be sold in transactions complying
+with such Rule, rather than pursuant to this Prospectus.
+ 
+     In connection with distributions of the Shares or otherwise, the Selling
+Stockholders may enter into hedging transactions with broker-dealers. In
+connection with such transactions, broker-dealers may engage in short sales of
+the Shares in the course of hedging the positions they assume with Selling
+Stockholders. The Selling Stockholders may also sell shares short and redeliver
+the Shares to close out such short positions. The Selling Stockholders may also
+enter into option or other transactions with broker-dealers which require the
+delivery to the broker-dealer of the Shares, which the broker-dealer may resell
+or otherwise transfer pursuant to this Prospectus. The Selling Stockholder may
+also loan or pledge the Shares to a broker-dealer and the broker-dealer may sell
+the Shares so loaned or upon a default the broker-dealer may effect sales of the
+pledged Shares pursuant to this Prospectus.
+ 
+     The Selling Stockholders and any broker-dealers who act in connection with
+the sale of the Shares hereunder may be deemed to be "underwriters" within the
+meaning of Section 2(11) of the Securities Act, and any commissions received by
+them and profit on any resale of the Shares as principal may be deemed to be
+underwriting discounts and commissions under the Securities Act. The Company has
+agreed to bear all reasonable expenses (other than broker's commissions and
+similar charges) in connection with the registration and sale of the Shares
+being offered by the Selling Stockholders that initially were issued as a result
+of the Mergers. The Company has agreed to indemnify the Selling Stockholders and
+any agent, dealer or broker-dealer who acts in connection with the sale of the
+Shares hereunder that initially were issued as a result of the Mergers against
+certain liabilities, including liabilities under the Securities Act.
+ 
+     If one or more Selling Stockholders shall propose to sell Shares pursuant
+to this Prospectus, such Selling Stockholders shall deliver to the Company at
+least three full trading days prior to such proposed sale a written notice
+notifying the Company of their intent to sell (including the proposed manner and
+timing of all sales), and the provision of such notice to the Company shall
+conclusively be deemed to establish and confirm an agreement by such Selling
+Stockholders to sell such Shares, in whole, in part or not at all, within a
+period ending on the tenth trading day following the first such sale and to
+comply with the other contractual registration provisions. To the extent the
+Company has not exercised its rights to suspend (as described below), the
+Company shall provide written notice to each of the other Selling Stockholders
+regarding the availability of such ten trading day period.
+ 
+     The Company has the right to suspend use of this Prospectus for certain
+periods of time (which may or may not last for a period of weeks) under certain
+circumstances. The Company has agreed to use reasonable
+ 
+                                       16
+<PAGE>   17
+ 
+efforts to ensure that the Selling Stockholders shall have an aggregate of at
+least ten trading days (prorated for partial fiscal quarters) under this
+Prospectus during each fiscal quarter during the effective period hereof.
+ 
+     Upon the Company being notified by a Selling Stockholder that any material
+arrangement has been entered into with a broker-dealer for the sale of Shares
+through a block trade, special offering, exchange distribution or secondary
+distribution or a purchase by a broker or dealer, a supplement to this
+Prospectus will be filed, if required, pursuant to Rule 424(b) under the
+Securities Act, disclosing (i) the name of each such Selling Stockholder and of
+the participating broker-dealer(s), (ii) the number of Shares involved, (iii)
+the price at which such Shares were sold, (iv) the commissions paid or discounts
+or concessions allowed to such broker-dealer(s), where applicable, (v) that such
+broker-dealer(s) did not conduct any investigation to verify the information set
+forth or incorporated by reference in this Prospectus, and (vi) other facts
+material to the transaction. In addition, upon the Company being notified by a
+Selling Stockholder that a donee or pledgee intends to sell more than 500
+Shares, a supplement to this Prospectus will be filed. In addition, to the
+extent required, the number of the Shares to be sold, purchase prices, public
+offering prices, the names of any agents, dealers or underwriters, and any
+applicable commissions or discounts with respect to a particular offer will be
+set forth by the Company in a supplement to this Prospectus or, if appropriate,
+a post-effective amendment to the Registration Statement.
+ 
+     Offers or sales of the Shares have not been registered or qualified under
+the laws of any country other than the United States. To comply with certain
+states' securities laws, if applicable, the Shares will be offered or sold in
+such jurisdictions only through registered or licensed brokers or dealers.
+ 
+     Under applicable rules and regulations under the Exchange Act, any person
+engaged in a distribution of the Shares may be limited in its ability to engage
+in market activities with respect to such Shares. In addition and without
+limiting the foregoing, each Selling Stockholder will be subject to applicable
+provisions of the Exchange Act and the rules and regulations thereunder, which
+provisions may limit the timing of purchases and sales of any of the Shares by
+the Selling Stockholders. The foregoing may affect the marketability of the
+Shares.
+ 
+     There can be no assurance that the Selling Stockholders will sell any or
+all of the Shares offered by them hereunder.
+ 
+                                 LEGAL MATTERS
+ 
+     The validity of the Shares offered hereby has been passed on for the
+Company by Perkins Coie LLP, Seattle, Washington.
+ 
+                                    EXPERTS
+ 
+     The financial statements of the Company appearing in the Company's Annual
+Report (Form 10-K) for the year ended December 31, 1997 and the supplemental
+consolidated financial statements of the Company appearing in the Company's
+Current Report on Form 8-K filed September 11, 1998, have been audited by Ernst
+& Young LLP, independent auditors, as set forth in their reports thereon
+included therein and incorporated herein by reference. Such financial statements
+and supplemental consolidated financial statements are incorporated herein by
+reference in reliance upon such reports given upon the authority of such firm as
+experts in accounting and auditing.
+ 
+     The financial statements of Junglee Corp., incorporated in this Prospectus
+by reference from the Company's Current Report on Form 8-K filed August 27,
+1998, have been audited by Deloitte & Touche LLP, independent auditors, as
+stated in their report, which is incorporated herein by reference, and have been
+so incorporated in reliance upon the report of such firm given upon their
+authority as experts in accounting and auditing.
+ 
+                                       17
+<PAGE>   18
+ 
+- ------------------------------------------------------
+- ------------------------------------------------------
+ 
+  NO DEALER, SALESPERSON OR OTHER PERSON HAS BEEN AUTHORIZED TO GIVE ANY
+INFORMATION OR TO MAKE ANY REPRESENTATIONS OTHER THAN THOSE CONTAINED OR
+INCORPORATED BY REFERENCE IN THIS PROSPECTUS IN CONNECTION WITH THE OFFERING
+HEREIN CONTAINED AND, IF GIVEN OR MADE, SUCH INFORMATION OR REPRESENTATIONS MUST
+NOT BE RELIED ON AS HAVING BEEN AUTHORIZED BY THE COMPANY. THIS PROSPECTUS DOES
+NOT CONSTITUTE AN OFFER TO SELL, OR A SOLICITATION OF AN OFFER TO BUY, THE
+SHARES OFFERED HEREBY IN ANY JURISDICTION WHERE, OR TO ANY PERSON TO WHOM, IT IS
+UNLAWFUL TO MAKE AN OFFER OR SOLICITATION. NEITHER THE DELIVERY OF THIS
+PROSPECTUS NOR ANY SALE MADE HEREUNDER SHALL, UNDER ANY CIRCUMSTANCES, CREATE AN
+IMPLICATION THAT THERE HAS BEEN NO CHANGE IN THE AFFAIRS OF THE COMPANY SINCE
+THE DATE HEREOF OR THAT THE INFORMATION HEREIN IS CORRECT AS OF ANY TIME
+SUBSEQUENT TO THE DATE HEREOF.
+ 
+                            ------------------------
+ 
+                               TABLE OF CONTENTS
+ 
+<TABLE>
+<CAPTION>
+                                        PAGE
+                                        ----
+<S>                                     <C>
+Available Information.................    2
+Incorporation of Certain Documents by
+  Reference...........................    2
+Forward-Looking Statements............    3
+Risk Factors..........................    4
+Selling Stockholders..................   11
+Plan of Distribution..................   15
+Legal Matters.........................   17
+Experts...............................   17
+</TABLE>
+ 
+- ------------------------------------------------------
+- ------------------------------------------------------
+- ------------------------------------------------------
+- ------------------------------------------------------
+ 
+                                  AMAZON LOGO
+ 
+                              2,662,125 Shares of
+                                  Common Stock
+                               -----------------
+                                   PROSPECTUS
+                               -----------------
+ 
+                                OCTOBER 22, 1998
+ 
+- ------------------------------------------------------
+- ------------------------------------------------------
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

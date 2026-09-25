@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 25 Sep 2026 12:41:17 GMT
+Content-Length: 0
+Connection: keep-alive
+Server: cloudflare
+x-varnish: 854013121
+location: https://www.loc.gov/error/forbidden/
+cf-cache-status: HIT
+CF-RAY: a40a1a2a4f933460-HYD
+

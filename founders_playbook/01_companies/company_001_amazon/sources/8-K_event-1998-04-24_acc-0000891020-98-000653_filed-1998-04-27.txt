@@ -1,0 +1,188 @@
+==============================================================================
+PROVENANCE HEADER -- added by the Stage-3 Evidence Registrar (post-IPO filing intake)
+Retrieval date (access date) : 2026-09-25
+Original URL                 : https://www.sec.gov/Archives/edgar/data/1018724/0000891020-98-000653.txt
+HTTP status on retrieval     : 200
+Document                     : Form 8-K, complete submission (all 2 documents inline) -- CURRENT REPORT DATED APRIL 24, 1998
+SEC CIK                      : 1018724 (AMAZON COM INC)
+Accession no.                : 0000891020-98-000653
+Filing date per EDGAR        : 1998-04-27   (SEC-HEADER FILED AS OF DATE: 19980427 -- agrees)
+Conformed submission type    : 8-K   Securities Exchange Act File No.: 000-22513
+Period of report             : 1998-04-24
+Bytes of retrieved body      : 5,190
+Body completeness            : COMPLETE -- terminates in </SEC-DOCUMENT>; 2 <DOCUMENT> blocks, types: 8-K, EX-99.1
+Request headers used         : User-Agent: FounderPlaybook Research AdminContact@example.com | Accept-Encoding: identity | Referer: https://www.sec.gov/
+Body encoding on wire        : identity (no compression negotiated); saved exactly as received
+Located via                  : https://data.sec.gov/submissions/CIK0001018724-submissions-002.json (pre-2000 slice, 1997-03-24 -> 2000-01-04); row form=8-K filingDate=1998-04-27 primaryDocDescription='CURRENT REPORT DATED APRIL 24, 1998'
+Component documents (DESCRIPTION per EDGAR):
+      - CURRENT REPORT DATED APRIL 24, 1998
+      - PRESS RELEASE DATED APRIL 24, 1998
+EX-99 PRESS RELEASE HEADLINE : ANNOUNCES $275 MILLION OFFERING OF SENIOR DISCOUNT NOTES SEATTLE, WA, APRIL 24 -- AMAZON.COM, INC. ("AMAZON.COM") (NASDAQ:AMZN), TODAY ANNOUNCED THAT 
+==============================================================================
+
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ JEu7NdwFbVvcQ+y50uDD3pW0qLq7Ynnibndw9dgnVumsU6vCFpBJYpda4kSz6H3H
+ JLlLs7O41ZQqwEXM9g7Nwg==
+
+<SEC-DOCUMENT>0000891020-98-000653.txt : 19980428
+<SEC-HEADER>0000891020-98-000653.hdr.sgml : 19980428
+ACCESSION NUMBER:		0000891020-98-000653
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	19980424
+ITEM INFORMATION:		
+ITEM INFORMATION:		
+FILED AS OF DATE:		19980427
+SROS:			NASD
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AMAZON COM INC
+		CENTRAL INDEX KEY:			0001018724
+		STANDARD INDUSTRIAL CLASSIFICATION:	BOOKS: PUBLISHING OR PUBLISHING AND PRINTING [2731]
+		IRS NUMBER:				911646860
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		
+		SEC FILE NUMBER:	000-22513
+		FILM NUMBER:		98601203
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1516 SECOND AVE 4TH FLOOR
+		STREET 2:		PO BOX 80387
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+		BUSINESS PHONE:		2066222335
+
+	MAIL ADDRESS:	
+		STREET 1:		PO BOX 80387
+		STREET 2:		1516 SECOND AVE 4TH FLOOR
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<DESCRIPTION>CURRENT REPORT DATED APRIL 24, 1998
+<TEXT>
+
+<PAGE>   1
+                       SECURITIES AND EXCHANGE COMMISSION
+
+                             WASHINGTON, D.C. 20549
+
+                            -------------------------
+
+                                    FORM 8-K
+
+                                 CURRENT REPORT
+
+
+                     PURSUANT TO SECTION 13 OR 15(d) OF THE
+                         SECURITIES EXCHANGE ACT OF 1934
+
+
+                                 APRIL 24, 1998
+                                 Date of Report
+                        (Date of earliest event reported)
+
+
+                                AMAZON.COM, INC.
+               (Exact Name of Registrant as Specified in Charter)
+
+          DELAWARE                  000-22513                   91-1646860
+(State or Other Jurisdiction   (Commission File No.)          (IRS Employer
+      of Incorporation)                                     Identification No.)
+   
+
+                  1516 SECOND AVENUE, SEATTLE, WASHINGTON 98101
+          (Address of principal executive offices, including zip code)
+
+                                 (206) 622-2335
+              (Registrant's telephone number, including area code)
+<PAGE>   2
+ITEM 5.     OTHER EVENTS
+
+      On April 24, 1998, Amazon.com, Inc. (the "Company") announced that it is
+offering $275 million gross proceeds of Senior Discount Notes.
+
+
+ITEM 7.     FINANCIAL STATEMENTS, PRO FORMA FINANCIAL INFORMATION AND EXHIBITS
+
+      (c)   Exhibits
+
+            99.1      Press Release dated April 24, 1998 regarding the offering.
+
+
+                                                                          PAGE 1
+<PAGE>   3
+                                    SIGNATURE
+
+      Pursuant to the requirements of the Securities Exchange Act of 1934, the
+registrant has duly caused this report to be signed on its behalf by the
+undersigned hereunto duly authorized.
+
+                                    AMAZON.COM, INC.
+
+
+Dated: April 24, 1998               By /s/ Joy D. Covey
+                                       ------------------------------
+                                       Chief Financial Officer, Vice President, 
+                                       Finance and Administration, Treasurer and
+                                       Secretary
+
+
+                                                                          PAGE 2
+<PAGE>   4
+                                  EXHIBIT INDEX
+
+Exhibit Number   Description
+- --------------   -----------
+
+      99.1       Press Release dated April 24, 1998 regarding the offering
+
+
+                                                                          PAGE 3
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<DESCRIPTION>PRESS RELEASE DATED APRIL 24, 1998
+<TEXT>
+
+<PAGE>   1
+       AMAZON.COM ANNOUNCES $275 MILLION OFFERING OF SENIOR DISCOUNT NOTES
+
+SEATTLE, WA, APRIL 24 -- AMAZON.COM, INC. ("AMAZON.COM") (NASDAQ:AMZN), TODAY
+ANNOUNCED THAT IT IS OFFERING $275 MILLION GROSS PROCEEDS OF SENIOR DISCOUNT
+NOTES.
+
+THE SENIOR DISCOUNT NOTES WILL MATURE IN 2008. INTEREST ON THE NOTES WILL BE
+PAID SEMI-ANNUALLY IN CASH BEGINNING IN 2003. THE PROCEEDS FROM THE OFFERING
+WILL BE USED BY AMAZON.COM TO RETIRE APPROXIMATELY $75 MILLION OF EXISTING
+INDEBTEDNESS AND FOR GENERAL CORPORATE PURPOSES.
+
+THE SENIOR DISCOUNT NOTES BEING OFFERED WILL NOT BE, AND HAVE NOT BEEN,
+REGISTERED UNDER THE SECURITIES ACT OF 1933, AS AMENDED, AND MAY NOT BE OFFERED
+OR SOLD IN THE UNITED STATES ABSENT REGISTRATION OR AN APPLICABLE EXEMPTION FROM
+REGISTRATION REQUIREMENTS.
+
+AMAZON.COM IS HEADQUARTERED AT 1516 SECOND AVENUE, SEATTLE, WASHINGTON 98101.
+INTERNET ADDRESS: HTTP//WWW.AMAZON.COM.  TELEPHONE (206) 622-2335.
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

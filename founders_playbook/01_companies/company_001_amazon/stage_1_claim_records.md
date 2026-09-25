@@ -589,7 +589,10 @@ of different vintage and purpose, the release's own independence bounded by its 
 No confidence level moved; the ruling and its reason are printed in this appendix's header.
 **(i-bis, appended 2026-09-24 by the AUDIT-6 repair pass — the census above had no row for records at 3 or 4,
 and that is how they escaped.)** The re-key screened on `Corroboration: 2`, so it could not see anything higher.
-A full census of the field was then run: 52 populated `Corroboration:` fields, 5 at ≥3. **Three were violations
+A full census of the field was then run: **49** populated live `Corroboration:` fields *(this sentence read "52"
+until 2026-09-25; the AUDIT-7 repair pass re-ran the census and 52 does not reproduce under either counting
+convention available — see the convention note immediately below, and `03_quality_control/audit7_repairs.md` row
+R12)*, 5 at ≥3. **Three were violations
 and are re-keyed here** — **K04** 3 → `1 (same lineage as S0801)` (exhibit 10.12 plus the same filing's body
 text, and the fact is in the original alone by this record's own COR-02 note); **L01** 4 → **2** (the 424B1 and
 the FY1997 10-K405 are lineage members and count once with the S-1; the two Amazon releases are the company
@@ -602,6 +605,18 @@ next pass need not re-derive it: **M05** (its legs are the S-1 — one lineage, 
 (June 1996 release, *LA Times* 1996-12-11, *Wired* 1996-12-16: no filing lineage in the count at all; the soft
 leg is the second company release repeating the same launch-day origin story, which §3 bounds but this record's
 claim — what the October release *advertised* — does not rest on that leg). Confidence unchanged on all five.
+**Census convention, stated so the count is re-runnable (appended 2026-09-25 by the AUDIT-7 repair pass).** A
+record counts once: the live value is the one in field position on its header line (a line opening with the
+record id followed by the word Claim and a colon), and a
+retired value quoted inside a bracketed correction is **not** re-counted — K04, L01 and P01 now each carry their
+re-keyed value and the superseded one inside their own retraction sentences, which is how an unqualified grep
+drifts upward. On that convention the appendix holds **49** live record-level fields: **40 at 1, 4 at 0, 3 at 2,
+2 at 3, none at 4**, the two at ≥3 being exactly the reviewed-and-standing **M05** and **L06** above. Before the
+three re-keys the same convention gives 38 at 1, 4 at 0, 2 at 2, 4 at 3, 1 at 4 = **49**, so "**5 at ≥3**" was
+right and it reproduces. The alternatives do not reach 52 either: the file contains **55** field-shaped
+occurrences inside record-header lines (49 live fields plus 6 quoted inside retractions) and **63** corpus-wide,
+the remaining 8 sitting in this appendix's preamble rules (ll. 46–62) and in the re-key prose at ll. 585–595.
+Every figure in this note was counted on the file as it stands with this note's own words excluded from the tally.
 (ii) **Retracted-figure round (verify-3 F-1…F-9 / RD-029…RD-035):** **P09** and **P10** carry the composition
 retraction and the D15 class closure; **U.8** carries the withdrawal of the commingled-option-proceeds clause
 and of "roughly $0.9 million"; **K14** retains its accession correction; the per-family sub-counts in the

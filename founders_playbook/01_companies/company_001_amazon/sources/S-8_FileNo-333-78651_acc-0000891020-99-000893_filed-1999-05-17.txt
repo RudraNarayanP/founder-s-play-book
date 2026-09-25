@@ -1,0 +1,1153 @@
+==============================================================================
+PROVENANCE HEADER -- added by the Stage-3 Evidence Registrar (post-IPO filing intake)
+Retrieval date (access date) : 2026-09-25
+Original URL                 : https://www.sec.gov/Archives/edgar/data/1018724/0000891020-99-000893.txt
+HTTP status on retrieval     : 200
+Document                     : Form S-8, complete submission (all 7 documents inline) -- FORM S-8
+SEC CIK                      : 1018724 (AMAZON COM INC)
+Accession no.                : 0000891020-99-000893
+Filing date per EDGAR        : 1999-05-17   (SEC-HEADER FILED AS OF DATE: 19990517 -- agrees)
+Conformed submission type    : S-8   Securities Exchange Act File No.: 333-78651
+Period of report             : n/a
+Bytes of retrieved body      : 55,731
+Body completeness            : COMPLETE -- terminates in </SEC-DOCUMENT>; 7 <DOCUMENT> blocks, types: EX-23.1, EX-23.3, EX-23.4, EX-23.5, EX-5.1, EX-99.1, S-8
+Request headers used         : User-Agent: FounderPlaybook Research AdminContact@example.com | Accept-Encoding: identity | Referer: https://www.sec.gov/
+Body encoding on wire        : identity (no compression negotiated); saved exactly as received
+Located via                  : https://data.sec.gov/submissions/CIK0001018724-submissions-002.json (pre-2000 slice, 1997-03-24 -> 2000-01-04); row form=S-8 filingDate=1999-05-17 primaryDocDescription='FORM S-8'
+Component documents (DESCRIPTION per EDGAR):
+      - FORM S-8
+      - OPINION OF PERKINS COIE LLP
+      - CONSENT OF ERNST & YOUNG LLP, INDEPENDENT AUDITORS
+      - CONSENT OF DELOITTE & TOUCHE LLP
+      - CONSENT OF PRICEWATERHOUSECOOPERS LLP
+      - CONSENT OF PRICEWATERHOUSECOOPERS LLP
+      - INNERLINX TECHNOLOGIES STOCK OPTION PLAN
+==============================================================================
+
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ OkRFD8U9FFZVfEY6NTrGJpAbuaAdQlgIkUnkJYVr8u4U5VvESmQlorr5v+aaep9a
+ khyP3YQICMJDcaBZ68H0Rw==
+
+<SEC-DOCUMENT>0000891020-99-000893.txt : 19990518
+<SEC-HEADER>0000891020-99-000893.hdr.sgml : 19990518
+ACCESSION NUMBER:		0000891020-99-000893
+CONFORMED SUBMISSION TYPE:	S-8
+PUBLIC DOCUMENT COUNT:		7
+FILED AS OF DATE:		19990517
+EFFECTIVENESS DATE:		19990517
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AMAZON COM INC
+		CENTRAL INDEX KEY:			0001018724
+		STANDARD INDUSTRIAL CLASSIFICATION:	RETAIL-CATALOG & MAIL-ORDER HOUSES [5961]
+		IRS NUMBER:				911646860
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		S-8
+		SEC ACT:		
+		SEC FILE NUMBER:	333-78651
+		FILM NUMBER:		99628601
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1516 SECOND AVE 4TH FLOOR
+		STREET 2:		PO BOX 80387
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+		BUSINESS PHONE:		2066222335
+
+	MAIL ADDRESS:	
+		STREET 1:		PO BOX 80387
+		STREET 2:		1516 SECOND AVE 4TH FLOOR
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>S-8
+<SEQUENCE>1
+<DESCRIPTION>FORM S-8
+<TEXT>
+
+<PAGE>   1
+ 
+      AS FILED WITH THE SECURITIES AND EXCHANGE COMMISSION ON MAY 17, 1999
+ 
+                                                 REGISTRATION NO. 333-
+- --------------------------------------------------------------------------------
+- --------------------------------------------------------------------------------
+ 
+                       SECURITIES AND EXCHANGE COMMISSION
+                             WASHINGTON, D.C. 20549
+                            ------------------------
+ 
+                                    FORM S-8
+                             REGISTRATION STATEMENT
+                                     UNDER
+                           THE SECURITIES ACT OF 1933
+                            ------------------------
+ 
+                                AMAZON.COM, INC.
+             (EXACT NAME OF REGISTRANT AS SPECIFIED IN ITS CHARTER)
+ 
+<TABLE>
+<S>                                              <C>
+                    DELAWARE                                        91-1646860
+          (STATE OR OTHER JURISDICTION                           (I.R.S. EMPLOYER
+       OF INCORPORATION OR ORGANIZATION)                       IDENTIFICATION NO.)
+</TABLE>
+ 
+                       1200 - 12TH AVENUE S., SUITE 1200
+                           SEATTLE, WASHINGTON 98144
+          (ADDRESS OF PRINCIPAL EXECUTIVE OFFICES, INCLUDING ZIP CODE)
+ 
+          INNERLINX TECHNOLOGIES, INCORPORATED 1997 STOCK OPTION PLAN
+                            (FULL TITLE OF THE PLAN)
+ 
+                                JEFFREY P. BEZOS
+                     PRESIDENT AND CHIEF EXECUTIVE OFFICER
+                                AMAZON.COM, INC.
+                       1200 - 12TH AVENUE S., SUITE 1200
+                           SEATTLE, WASHINGTON 98144
+                                 (206) 266-1000
+(NAME, ADDRESS AND TELEPHONE NUMBER, INCLUDING AREA CODE, OF AGENT FOR SERVICE)
+                            ------------------------
+ 
+                                    COPY TO:
+ 
+                                SCOTT L. GELBAND
+                                PERKINS COIE LLP
+                         1201 THIRD AVENUE, 40TH FLOOR
+                         SEATTLE, WASHINGTON 98101-3099
+                            ------------------------
+ 
+                        CALCULATION OF REGISTRATION FEE
+ 
+<TABLE>
+<S>                        <C>                     <C>                     <C>                     <C>
+- -------------------------------------------------------------------------------------------------------------------------
+- -------------------------------------------------------------------------------------------------------------------------
+                                                      PROPOSED MAXIMUM        PROPOSED MAXIMUM
+   TITLE OF SECURITIES          AMOUNT TO BE         OFFERING PRICE PER      AGGREGATE OFFERING          AMOUNT OF
+    TO BE REGISTERED          REGISTERED(1)(2)            SHARE(3)                 PRICE              REGISTRATION FEE
+- -------------------------------------------------------------------------------------------------------------------------
+Common Stock, $0.01 par
+  value per share........          28,412                 $18.183               $516,615.39               $144.00
+- -------------------------------------------------------------------------------------------------------------------------
+- -------------------------------------------------------------------------------------------------------------------------
+</TABLE>
+ 
+(1) Pursuant to an Agreement and Plan of Merger dated as of March 30, 1999 (the
+    "Merger Agreement"), by and among the Registrant, LB Acquisition, Inc.,
+    Matthew Williams, Sky Kruse and LiveBid.com, Inc. ("LiveBid.com"), the
+    Registrant assumed all the outstanding options to purchase capital stock of
+    LiveBid.com (formerly Innerlinx Technologies, Incorporated) under its 1997
+    Stock Option Plan (the "LiveBid.com Assumed Options"), with appropriate
+    adjustments to the number of shares and the exercise price of each
+    LiveBid.com Assumed Option to reflect the ratio at which LiveBid.com capital
+    stock was converted into Common Stock of the Registrant under the Merger
+    Agreement.
+ 
+(2) Together with an indeterminate number of additional shares which may be
+    necessary to adjust the number of shares reserved for issuance pursuant to
+    the Innerlinx Technologies, Incorporation 1997 Stock Option Plan as the
+    result of any future stock split, stock dividend or similar adjustment to
+    the Registrant's outstanding Common Stock.
+ 
+(3) Shares are issuable upon exercise of outstanding options with fixed exercise
+    prices. Pursuant to Rule 457(h) under the Securities Act of 1933, as
+    amended, the proposed maximum aggregate offering price and the registration
+    fee have been computed based on the weighted average exercise price for
+    shares subject to outstanding options.
+ 
+- --------------------------------------------------------------------------------
+- --------------------------------------------------------------------------------
+<PAGE>   2
+ 
+                                    PART II
+ 
+                 INFORMATION REQUIRED IN REGISTRATION STATEMENT
+ 
+ITEM 3. INCORPORATION OF CERTAIN DOCUMENTS BY REFERENCE
+ 
+     The following documents filed with the Securities and Exchange Commission
+(the "Commission") are hereby incorporated by reference in this Registration
+Statement:
+ 
+          (a) The Registrant's Annual Report on Form 10-K for the year ended
+     December 31, 1998;
+ 
+          (b) The Registrant's Current Reports on Form 8-K filed on August 27,
+     1998, October 26, 1998, January 5, 1999, January 27, 1999, January 28,
+     1999, January 29, 1999, February 4, 1999, March 29, 1999, March 30, 1999,
+     April 27, 1999, April 29, 1999 and May 12, 1999;
+ 
+          (c) The description of the Common Stock in the Registrant's
+     Registration Statement on Form 8-A filed on May 2, 1997, under Section
+     12(g) of the Securities Exchange Act of 1934, as amended (the "Exchange
+     Act"), including any amendments or reports for the purpose of updating such
+     description; and
+ 
+          (d) All other reports filed by the Registrant pursuant to Section
+     13(a) or 15(d) of the Exchange Act since the end of the fiscal year covered
+     by the Annual Report on Form 10-K referred to in (a) above.
+ 
+     All documents filed by the Registrant pursuant to Sections 13(a), 13(c), 14
+and 15(d) of the Exchange Act after the date hereof and prior to the filing of a
+post-effective amendment which indicates that the securities offered hereby have
+been sold or which deregisters the securities covered hereby then remaining
+unsold shall also be deemed to be incorporated by reference into this
+Registration Statement and to be a part hereof commencing on the respective
+dates on which such documents are filed.
+ 
+ITEM 4. DESCRIPTION OF SECURITIES
+ 
+     Not applicable.
+ 
+ITEM 5. INTERESTS OF NAMED EXPERTS AND COUNSEL
+ 
+     None.
+ 
+ITEM 6. INDEMNIFICATION OF DIRECTORS AND OFFICERS
+ 
+     Section 145 of the Delaware General Corporation Law (the "DGCL") provides
+that a corporation may indemnify its directors and officers, as well as other
+employees and individuals, against expenses (including attorneys' fees),
+judgments, fines and amounts paid in settlement in connection with specified
+actions, suits or proceedings, whether civil, criminal, administrative or
+investigative (other than an action by or in the right of the corporation -- a
+"derivative action"), if they acted in good faith and in a manner they
+reasonably believed to be in or not opposed to the best interests of the
+corporation, and, with respect to any criminal action or proceeding, had no
+reasonable cause to believe their conduct was unlawful. A similar standard is
+applicable in the case of derivative actions, except that indemnification only
+extends to expenses (including attorneys' fees) incurred in connection with the
+defense or settlement of such actions, and the statute requires court approval
+before there can be any indemnification in which the person seeking
+indemnification has been found liable to the corporation. The statute provides
+that it is not exclusive of other indemnification that may be granted by a
+corporation's charter, bylaws, disinterested director vote, stockholder vote,
+agreement or otherwise.
+ 
+     Section 10 of the Registrant's Bylaws requires indemnification to the full
+extent permitted under Delaware law as it now exists or may hereafter be
+amended. Subject to any restrictions imposed by Delaware law, the Bylaws provide
+an unconditional right to indemnification for all expense, liability and loss
+(including attorneys' fees, judgments, fines, ERISA excise taxes or penalties
+and amounts paid in settlement) actually and reasonably incurred or suffered by
+any person in connection with any actual or threatened action, suit or
+proceeding, whether civil, criminal, administrative or investigative (including,
+to the extent permitted by law, any derivative action) by reason of the fact
+that such person is or was serving as a director or officer of the
+ 
+                                      II-1
+<PAGE>   3
+ 
+Registrant or that, being or having been a director or officer of the
+Registrant, such person is or was serving at the request of the Registrant as a
+director, officer, employee or agent of another corporation, partnership, joint
+venture, trust or other enterprise, including service with respect to an
+employee benefit plan.
+ 
+     The Bylaws also provide that the Registrant may, by action of its Board of
+Directors, provide indemnification to its employees and agents with the same
+scope and effect as the foregoing indemnification of directors and officers.
+ 
+     Section 102(b)(7) of the DGCL permits a corporation to provide in its
+certificate of incorporation that a director of the corporation shall not be
+personally liable to the corporation or its stockholders for monetary damages
+for breach of fiduciary duty as a director, except for liability for (i) any
+breach of the director's duty of loyalty to the corporation or its stockholders,
+(ii) acts or omissions not in good faith or which involve intentional misconduct
+or a knowing violation of law, (iii) payments of unlawful dividends or unlawful
+stock repurchases or redemptions, or (iv) any transaction from which the
+director derived an improper personal benefit.
+ 
+     Article 10 of the Registrant's Restated Certificate of Incorporation
+provides that to the full extent that the DGCL, as it now exists or may
+hereafter be amended, permits the limitation or elimination of the liability of
+directors, a director of the Registrant shall not be liable to the Registrant or
+its stockholders for monetary damages for breach of fiduciary duty as a
+director. Any amendment to or repeal of such Article 10 shall not adversely
+affect any right or protection of a director of the Registrant for or with
+respect to any acts or omissions of such director occurring prior to such
+amendment or repeal.
+ 
+     The Registrant has entered into certain indemnification agreements with its
+officers and directors. The indemnification agreements provide the Registrant's
+officers and directors with further indemnification, to the maximum extent
+permitted by the DGCL.
+ 
+ITEM 7. EXEMPTION FROM REGISTRATION CLAIMED
+ 
+     Not applicable.
+ 
+ITEM 8. EXHIBITS
+ 
+<TABLE>
+<CAPTION>
+    EXHIBIT
+    NUMBER                             DESCRIPTION
+    -------                            -----------
+    <C>        <S>
+      5.1      Opinion of Perkins Coie LLP
+     23.1      Consent of Ernst & Young LLP, Independent Auditors
+     23.2      Consent of Perkins Coie LLP (included in opinion filed as
+               Exhibit 5.1)
+     23.3      Consent of Deloitte & Touche LLP, Independent Auditors
+     23.4      Consent of PricewaterhouseCoopers LLP, Independent
+               Accountants
+     23.5      Consent of PricewaterhouseCoopers LLP, Independent
+               Accountants
+     24.1      Power of Attorney (see signature page)
+     99.1      Innerlinx Technologies, Incorporated 1997 Stock Option Plan
+</TABLE>
+ 
+ITEM 9. UNDERTAKINGS
+ 
+A. The undersigned Registrant hereby undertakes:
+ 
+     (1) To file, during any period in which offers or sales are being made, a
+post-effective amendment to this Registration Statement:
+ 
+          (a) To include any prospectus required by Section 10(a)(3) of the
+     Securities Act of 1933, as amended (the "Securities Act");
+ 
+          (b) To reflect in the prospectus any facts or events arising after the
+     effective date of this Registration Statement (or the most recent
+     post-effective amendment thereof) which, individually or in
+ 
+                                      II-2
+<PAGE>   4
+ 
+     the aggregate, represent a fundamental change in the information set forth
+     in this Registration Statement; and
+ 
+          (c) To include any material information with respect to the plan of
+     distribution not previously disclosed in this Registration Statement or any
+     material change to such information in this Registration Statement;
+     provided, however, that paragraphs (1)(a) and (1)(b) above do not apply if
+     the information required to be included in a post-effective amendment by
+     those paragraphs is contained in periodic reports filed by the Registrant
+     pursuant to Section 13 or Section 15(d) of the Exchange Act that are
+     incorporated by reference in this Registration Statement.
+ 
+     (2) That, for the purpose of determining any liability under the Securities
+Act, each such post-effective amendment shall be deemed to be a new registration
+statement relating to the securities offered therein, and the offering of such
+securities at that time shall be deemed to be the initial bona fide offering
+thereof.
+ 
+     (3) To remove from registration by means of a post-effective amendment any
+of the securities being registered which remain unsold at the termination of the
+offering.
+ 
+B. The undersigned Registrant hereby undertakes that, for purposes of
+determining any liability under the Securities Act, each filing of the
+Registrant's annual report pursuant to Section 13(a) or 15(d) of the Exchange
+Act (and, where applicable, each filing of an employee benefits plan's annual
+report pursuant to Section 15(d) of the Exchange Act) that is incorporated by
+reference in this Registration Statement shall be deemed to be a new
+registration statement relating to the securities offered therein, and the
+offering of such securities at that time shall be deemed to be the initial bona
+fide offering thereof.
+ 
+C. Insofar as indemnification for liabilities arising under the Securities Act
+may be permitted to directors, officers and controlling persons of the
+Registrant pursuant to the foregoing provisions, or otherwise, the Registrant
+has been advised that in the opinion of the Commission such indemnification is
+against public policy as expressed in the Securities Act and is, therefore,
+unenforceable. In the event that a claim for indemnification against such
+liabilities (other than the payment by the Registrant of expenses incurred or
+paid by a director, officer or controlling person of the Registrant in the
+successful defense of any action, suit or proceeding) is asserted by such
+director, officer or controlling person in connection with the securities being
+registered, the Registrant will, unless in the opinion of its counsel the matter
+has been settled by controlling precedent, submit to a court of appropriate
+jurisdiction the question whether such indemnification by it is against public
+policy as expressed in the Securities Act and will be governed by the final
+adjudication of such issue.
+ 
+                                      II-3
+<PAGE>   5
+ 
+                                   SIGNATURES
+ 
+     Pursuant to the requirements of the Securities Act, the Registrant
+certifies that it has reasonable grounds to believe that it meets all of the
+requirements for filing on Form S-8 and has duly caused this Registration
+Statement to be signed on its behalf by the undersigned, thereunto duly
+authorized, in the City of Seattle, State of Washington, on the 17th day of May,
+1999.
+ 
+                                          AMAZON.COM, INC.
+ 
+                                          By:     /s/ JEFFREY P. BEZOS
+                                            ------------------------------------
+                                                      Jeffrey P. Bezos
+                                             President, Chief Executive Officer
+                                                             and
+                                                   Chairman of the Board
+ 
+                               POWER OF ATTORNEY
+ 
+     Each person whose individual signature appears below hereby authorizes
+Jeffrey P. Bezos and Joy D. Covey, or either of them, as attorneys-in-fact with
+full power of substitution, to execute in the name and on the behalf of each
+person, individually and in each capacity stated below, and to file, any and all
+amendments to this Registration Statement, including any and all post-effective
+amendments.
+ 
+     Pursuant to the requirements of the Securities Act, this Registration
+Statement has been signed by the following persons in the capacities indicated
+below on the 17th day of May, 1999.
+ 
+<TABLE>
+<CAPTION>
+                 SIGNATURE                                            TITLE
+                 ---------                                            -----
+<C>                                                <S>
+ 
+            /s/ JEFFREY P. BEZOS                   President, Chairman of the Board and Chief
+- --------------------------------------------       Executive Officer (Principal Executive
+              Jeffrey P. Bezos                     Officer)
+ 
+              /s/ JOY D. COVEY                     Chief Financial Officer and Vice President
+- --------------------------------------------       of Finance and Administration (Principal
+                Joy D. Covey                       Financial and Accounting Officer)
+ 
+             /s/ TOM A. ALBERG                     Director
+- --------------------------------------------
+               Tom A. Alberg
+ 
+             /s/ SCOTT D. COOK                     Director
+- --------------------------------------------
+               Scott D. Cook
+ 
+             /s/ L. JOHN DOERR                     Director
+- --------------------------------------------
+               L. John Doerr
+ 
+         /s/ PATRICIA Q. STONESIFER                Director
+- --------------------------------------------
+           Patricia Q. Stonesifer
+</TABLE>
+ 
+                                      II-4
+<PAGE>   6
+ 
+                               INDEX TO EXHIBITS
+ 
+<TABLE>
+<CAPTION>
+EXHIBIT
+NUMBER                             DESCRIPTION
+- -------                            -----------
+<C>        <S>
+  5.1      Opinion of Perkins Coie LLP
+ 23.1      Consent of Ernst & Young LLP, Independent Auditors
+ 23.2      Consent of Perkins Coie LLP (included in opinion filed as
+           Exhibit 5.1)
+ 23.3      Consent of Deloitte & Touche LLP, Independent Auditors
+ 23.4      Consent of PricewaterhouseCoopers LLP, Independent
+           Accountants
+ 23.5      Consent of PricewaterhouseCoopers LLP, Independent
+           Accountants
+ 24.1      Power of Attorney (see signature page)
+ 99.1      Innerlinx Technologies, Incorporated 1997 Stock Option Plan
+</TABLE>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-5.1
+<SEQUENCE>2
+<DESCRIPTION>OPINION OF PERKINS COIE LLP
+<TEXT>
+
+<PAGE>   1
+                                                                     EXHIBIT 5.1
+
+
+
+                                PERKINS COIE LLP
+
+              A LAW PARTNERSHIP INCLUDING PROFESSIONAL CORPORATIONS
+          1201 THIRD AVENUE, 40TH FLOOR, SEATTLE, WASHINGTON 98101-3099
+                 TELEPHONE: 206 583-8888 FACSIMILE: 206 583-8500
+
+
+
+                                  May 17, 1999
+
+
+
+Amazon.com, Inc.
+1516 Second Avenue, 4th Floor
+Seattle, Washington  98101
+
+
+        Re:    Registration Statement on Form S-8
+
+Ladies and Gentlemen:
+
+        We have acted as counsel to you in connection with the preparation of a
+Registration Statement on Form S-8 (the "Registration Statement") under the
+Securities Act of 1933, as amended (the "Act"), which you are filing with the
+Securities and Exchange Commission with respect to up to 28,412 shares of Common
+Stock, par value $0.01 per share (the "Shares"), pursuant to the Act. The Shares
+may be issued under the Innerlinx Technologies, Incorporated 1997 Option Plan 
+(the "Plan").
+
+        We have examined the Registration Statement and such documents and
+records of the Company and other documents as we have deemed relevant and
+necessary for the purpose of this opinion. In giving this opinion, we are
+assuming the authenticity of all instruments presented to us as originals, the
+conformity with originals of all instruments presented to us as copies and the
+genuineness of all signatures.
+
+        Based on and subject to the foregoing, we are of the opinion that any
+Shares that may be issued pursuant to the Plan have been duly authorized and
+that, upon the due execution by the Company and the registration by its
+registrar of such Shares and the sale thereof by the Company in accordance with
+the terms of the Plan, and the receipt of consideration therefor in accordance
+with the terms of the Plan, such Shares will be validly issued, fully paid and
+nonassessable.
+
+        We hereby consent to the filing of this opinion as an exhibit to the
+Registration Statement. In giving such consent, we do not admit that we are in
+the category of persons whose consent is required under Section 7 of the Act.
+
+                                            Very truly yours,
+
+                                            /s/ PERKINS COIE LLP
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-23.1
+<SEQUENCE>3
+<DESCRIPTION>CONSENT OF ERNST & YOUNG LLP, INDEPENDENT AUDITORS
+<TEXT>
+
+<PAGE>   1
+
+                                                                    EXHIBIT 23.1
+
+
+
+               CONSENT OF ERNST & YOUNG LLP, INDEPENDENT AUDITORS
+
+We consent to the incorporation by reference in the Registration Statement (Form
+S-8) pertaining to the e-Niche Incorporated Amended and Restated 1998 Stock
+Option and Grant Plan of our report dated January 22, 1999, except for Note 11
+as to which the date is February 10, 1999, with respect to the consolidated
+financial statements and schedule of Amazon.com, Inc. included in its Annual
+Report (Form 10-K) for the year ended December 31, 1998, filed with the
+Securities and Exchange Commission.
+
+
+
+                                                  ERNST & YOUNG LLP
+
+Seattle, Washington
+May 17, 1999
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-23.3
+<SEQUENCE>4
+<DESCRIPTION>CONSENT OF DELOITTE & TOUCHE LLP
+<TEXT>
+
+<PAGE>   1
+
+                                                                    EXHIBIT 23.3
+
+
+
+             CONSENT OF DELOITTE & TOUCHE LLP, INDEPENDENT AUDITORS
+
+We consent to the incorporating by reference in this Registration Statement of
+Amazon.com, Inc. on Form S-8 of our report dated February 6, 1998, on the
+financial statements of Junglee Corp. as of December 31, 1997 and 1996 and for
+the year ended December 31, 1997 and for the period from June 3, 1996
+(inception) to December 31, 1996, appearing in the Current Report on Form 8-K of
+Amazon.com, Inc. filed August 27, 1998.
+
+
+
+Deloitte & Touche LLP
+
+San Jose, California
+May 17, 1999
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-23.4
+<SEQUENCE>5
+<DESCRIPTION>CONSENT OF PRICEWATERHOUSECOOPERS LLP
+<TEXT>
+
+<PAGE>   1
+
+                                                                    EXHIBIT 23.4
+
+
+
+                       CONSENT OF INDEPENDENT ACCOUNTANTS
+
+We hereby consent to the incorporation by reference in this Registration
+Statement on Form S-8 of Amazon.com of our report dated May 3, 1999 relating to
+the financial statements of e-Niche Incorporated, which appears in the Current
+Report on Form 8-K of Amazon.com dated May 12, 1999.
+
+PricewaterhouseCoopers LLP
+Boston, Massachusetts
+May 17, 1999
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-23.5
+<SEQUENCE>6
+<DESCRIPTION>CONSENT OF PRICEWATERHOUSECOOPERS LLP
+<TEXT>
+
+<PAGE>   1
+
+                                                                    EXHIBIT 23.5
+
+
+
+                       CONSENT OF INDEPENDENT ACCOUNTANTS
+
+We hereby consent to the incorporation by reference in this Registration
+Statement on Form S-8 (No. 333-______) of Amazon.com of our report dated 
+April 23, 1999 relating to the financial statements of Alexa Internet, 
+appearing in the Current Report on Form 8-K of Amazon.com dated May 12, 1999.
+
+PricewaterhouseCoopers LLP
+San Francisco, California
+May 17, 1999
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>7
+<DESCRIPTION>INNERLINX TECHNOLOGIES STOCK OPTION PLAN
+<TEXT>
+
+<PAGE>   1
+
+                                                                    EXHIBIT 99.1
+
+
+
+                      INNERLINX TECHNOLOGIES, INCORPORATED
+
+                             1997 STOCK OPTION PLAN
+
+        This 1997 Stock Option Plan (the "Plan") provides for the grant of
+options to acquire shares of common stock, without par value (the "Common
+Stock") of INNERLINX TECHNOLOGIES, INCORPORATED, a Washington corporation (the
+"Company"). Stock options granted under this Plan are referred to herein as
+"Options." Options that qualify under Section 422 of the Internal Revenue Code
+of 1986, as amended (the "Code"), are referred to in this Plan as "Incentive
+Stock Options." Options granted under this Plan that do not qualify under
+Section 422 of the Code are referred to as "Non-Statutory Stock Options."
+
+        1.     PURPOSES.
+
+        The purposes of this Plan are to retain the services of valued key
+employees of the Company and non-employee advisors or consultants as the Plan
+Administrator shall select in accordance with Section 3 below, to encourage such
+persons to acquire a greater proprietary interest in the Company, thereby
+strengthening their incentive to achieve the objectives of the shareholders of
+the Company, and to serve as an aid and inducement in the hiring of new
+employees, consultants and other persons selected by the Plan Administrator.
+
+        2.     ADMINISTRATION.
+
+        This Plan shall be administered by the Board of Directors of the Company
+(the "Board"), except that the Board may, in its discretion, establish a
+committee composed of members of the Board to administer this Plan, which
+committee (the "Committee") may be an executive, compensation or other
+committee, including a separate committee especially created for this purpose.
+The Committee shall have such of the powers and authority vested in the Board
+hereunder as the Board may delegate to it (including the power and authority to
+interpret any provision of this Plan or of any Option). The members of any such
+Committee shall serve at the pleasure of the Board. The Board, and/or the
+Committee if one has been established by the Board, are referred to in this Plan
+as the "Plan Administrator."
+
+        Following registration of any of the Company's securities under Section
+12 of the Securities Exchange Act of 1934, as amended (the "Exchange Act"), the
+Plan Administrator shall not take any action which is not in full compliance
+with the exemptions from Section 16(b) of the Exchange Act provided by Rule
+16b-3 or any successor rule or other rules of the Securities and Exchange
+Commission, and any such action shall be void and of no effect.
+
+        Except as limited by Section 5(n) below, and subject to the provisions
+of this Plan, and with a view to effecting its purpose, the Plan Administrator
+shall have sole authority, in its absolute discretion, to (a) construe and
+interpret this Plan; (b) define the terms used in this Plan; (c) prescribe,
+amend and rescind rules and regulations relating to this Plan; (d) correct any
+defect, supply any omission or reconcile any inconsistency in this Plan; (e)
+determine the individuals to whom Options shall be granted under this Plan and
+whether the Option is an Incentive Stock Option or a Non-Statutory Stock Option;
+(f) determine the time or times at which Options shall be granted under this
+Plan; (g) determine the number of shares of Common Stock subject to each Option,
+the exercise price of each Option, the duration of each Option and the times at
+which each Option shall become exercisable; (h) determine all other terms and
+conditions of Options; and (i) make all other determinations necessary or
+advisable for the administration of this Plan. All decisions, determinations and
+interpretations made by the Plan Administrator shall be binding and conclusive
+on all participants in this Plan and on their legal representatives, heirs and
+beneficiaries.
+
+<PAGE>   2
+
+        3.     ELIGIBILITY.
+
+        Incentive Stock Options may be granted to any individual who, at the
+time the Option is granted, is an employee of the Company or any Related
+Corporation (as defined below), including employees who are directors of the
+Company ("Employees"). Non-Statutory Stock Options may be granted to Employees
+and non-employee directors, advisors and consultants as the Plan Administrator
+shall select. Options may be granted in substitution for outstanding Options of
+another corporation in connection with the merger, consolidation, acquisition of
+property or stock or other reorganization between such other corporation and the
+Company or any subsidiary of the Company. Options also may be granted in
+exchange for outstanding Options. Any person to whom an Option is granted under
+this Plan is referred to as an "Optionee."
+
+        As used in this Plan, the term "Related Corporation," when referring to
+a subsidiary corporation, shall mean any corporation (other than the Company) in
+an unbroken chain of corporations beginning with the Company if, at the time of
+the granting of the Option, each of the corporations other than the last
+corporation in the unbroken chain owns stock possessing 50 percent or more of
+the total combined voting power of all classes of stock of one of the other
+corporations in such chain. When referring to a parent corporation, the term
+"Related Corporation" shall mean any corporation (other than the Company) in an
+unbroken chain of corporations ending with the Company if, at the time of
+granting of the Option, each of the corporations other than the Company owns
+stock possessing 50 percent or more of the total combined voting power of all
+classes of stock of one of the other corporations in such chain.
+
+        4.     STOCK.
+
+        The Plan Administrator is authorized to grant Options to acquire up to a
+total of One Million (1,000,000) shares of the Company's authorized but
+unissued, or reacquired, Common Stock. The number of shares with respect to
+which Options may be granted hereunder is subject to adjustment as set forth in
+Section 5(m) hereof. If any outstanding Option expires or is terminated for any
+reason, the shares of Common Stock allocable to the unexercised portion of such
+Option may again be subject to an Option to the same Optionee or to a different
+person eligible under Section 3 of this Plan.
+
+        5.     TERMS AND CONDITIONS OF OPTIONS.
+
+        Each Option granted under this Plan shall be evidenced by a written
+agreement approved by the Plan Administrator (the "Agreement"). Agreements may
+contain such additional provisions, not inconsistent with this Plan, as the Plan
+Administrator in its discretion may deem advisable. All Options also shall
+comply with the following requirements:
+
+               (a)    Number of Shares and Type of Option.
+
+        Each Agreement shall state the number of shares of Common Stock to which
+it pertains and whether the Option is intended to be an Incentive Stock Option
+or a Non-Statutory Stock Option. In the absence of action to the contrary by the
+Plan Administrator in connection with the grant of an Option, all Options shall
+be Non-Statutory Stock Options. The aggregate fair market value (determined at
+the Date of Grant, as defined below) of the stock with respect to which
+Incentive Stock Options are exercisable for the first time by the Optionee
+during any calendar year (granted under this Plan and all other Incentive Stock
+Option plans of the Company, a Related Corporation or a predecessor corporation)
+shall not exceed $100,000, or such other limit as may be prescribed by the Code
+as it may be amended from time to time. Any Option which exceeds the annual
+limit shall not be void but rather shall be a Non-Statutory Stock Option.
+
+<PAGE>   3
+
+               (b) Date of Grant.
+
+        Each Agreement shall state the date the Plan Administrator has deemed to
+be the effective date of the Option for purposes of this Plan (the "Date of
+Grant").
+
+               (c)    Option Price.
+
+        Each Agreement shall state the price per share of Common Stock at which
+it is exercisable. The exercise price shall be fixed by the Plan Administrator
+at whatever price the Plan Administrator may determine in the exercise of its
+sole discretion; provided, that the per share exercise price for any Option
+granted following the effective date of registration of any of the Company's
+securities under Section 12 of the Securities Exchange Act of 1934 shall not be
+less than the fair market value per share of the Common Stock at the Date of
+Grant as determined by the Plan Administrator in good faith; provided further,
+that the per share exercise price for an Incentive Stock Option shall not be
+less than the fair market value per share of the Common Stock at the Date of
+Grant as determined by the Plan Administrator in good faith; provided further,
+that with respect to Incentive Stock Options granted to greater-than-10 percent
+shareholders of the Company (as determined with reference to Section 424(d) of
+the Code), the exercise price per share shall not be less than 110 percent of
+the fair market value per share of the Common Stock at the Date of Grant; and,
+provided further, that Incentive Stock Options granted in substitution for
+outstanding Options of another corporation in connection with the merger,
+consolidation, acquisition of property or stock or other reorganization
+involving such other corporation and the Company or any subsidiary of the
+Company may be granted with an exercise price equal to the exercise price for
+the substituted Option of the other corporation, subject to any adjustment
+consistent with the terms of the transaction pursuant to which the substitution
+is to occur.
+
+               (d) Duration of Options.
+
+        At the time of the grant of the Option, the Plan Administrator shall
+designate, subject to paragraph 5(g) below, the expiration date of the Option,
+which date shall not be later than 10 years from the Date of Grant in the case
+of Incentive Stock Options; provided, that the expiration date of any Incentive
+Stock Option granted to a greater-than-10 percent shareholder of the Company (as
+determined with reference to Section 424(d) of the Code) shall not be later than
+five years from the Date of Grant. In the absence of action to the contrary by
+the Plan Administrator in connection with the grant of a particular Option, and
+except in the case of Incentive Stock Options as described above, all Options
+granted under this Plan shall expire 10 years from the Date of Grant.
+
+               (e)    Vesting Schedule.
+
+        No Option shall be exercisable until it has vested. The vesting schedule
+for each Option shall be specified by the Plan Administrator at the time of
+grant of the Option; provided, that if no vesting schedule is specified at the
+time of grant, the entire Option shall vest according to the following schedule:
+
+<TABLE>
+<CAPTION>
+                NUMBER OF YEARS                      PERCENTAGE OF TOTAL OPTION
+            FOLLOWING DATE OF GRANT                      TO BE EXERCISABLE
+<S>                                                  <C>
+                       1                                        20%
+                       2                                        40%
+                       3                                        60%
+                       4                                        80%
+                       5                                        100%
+</TABLE>
+
+<PAGE>   4
+
+               (f) Acceleration of Vesting.
+
+        The vesting of one or more outstanding Options may be accelerated by the
+Plan Administrator at such times and in such amounts as it shall determine in
+its sole discretion. The vesting of Options also shall be accelerated under the
+circumstances described in Section 5(m) below.
+
+               (g) Term of Option.
+
+        Vested Options shall terminate, to the extent not previously exercised,
+upon the occurrence of the first of the following events: (i) the expiration of
+the Option, as designated by the Plan Administrator in accordance with Section
+5(d) above; (ii) the expiration of 90 days from the date of an Optionee's
+termination of employment or contractual relationship with the Company or any
+Related Corporation for any reason whatsoever other than death or Disability (as
+defined below) unless, in the case of a Non-Statutory Stock Option, the exercise
+period is extended by the Plan Administrator until a date not later than the
+expiration date of the Option; or (iii) the expiration of one year from (A) the
+date of death of the Optionee or (B) cessation of an Optionee's employment or
+contractual relationship with the Company or any Related Corporation by reason
+of Disability (as defined below) unless, in the case of a Non-Statutory Stock
+Option, the exercise period is extended by the Plan Administrator until a date
+not later than the expiration date of the Option. If an Optionee's employment or
+contractual relationship with the Company or any Related Corporation is
+terminated by death, any Option held by the Optionee shall be exercisable only
+by the person or persons to whom such Optionee's rights under such Option shall
+pass by the Optionee's will or by the laws of descent and distribution of the
+state or county of the Optionee's domicile at the time of death. "Disability"
+shall mean that a person is unable to engage in any substantial gainful activity
+by reason of any medically determinable physical or mental impairment that can
+be expected to result in death or that has lasted or can be expected to last for
+a continuous period of not less than 12 months. The Plan Administrator shall
+determine whether an Optionee has incurred a Disability on the basis of medical
+evidence acceptable to the Plan Administrator. Upon making a determination of
+Disability, the Committee shall, for purposes of the Plan, determine the date of
+an Optionee's termination of employment or contractual relationship.
+
+        Unless accelerated in accordance with Section 5(f) above, unvested
+Options shall terminate immediately upon termination of employment of, or other
+contractual relationship with, the Optionee by the Company for any reason
+whatsoever, including death or Disability. If, in the case of an Incentive Stock
+Option, an Optionee's relationship with the Company changes (e.g., from an
+employee to a non-employee, such as a consultant, or a non-employee director),
+such change shall not necessarily constitute a termination of an Optionee's
+contractual relationship with the Company but rather the Optionee's Incentive
+Stock Option shall automatically be converted into a Non-Statutory Stock Option.
+For purposes of this Plan, transfer of employment between or among the Company
+and/or any Related Corporation shall not be deemed to constitute a termination
+of employment with the Company or any Related Corporations. For purposes of this
+subsection with respect to Incentive Stock Options, employment shall be deemed
+to continue while the Optionee is on military leave, sick leave or other bona
+fide leave of absence (as determined by the Plan Administrator). The foregoing
+notwithstanding, employment shall not be deemed to continue beyond the first 90
+days of such leave, unless the Optionee's reemployment rights are guaranteed by
+statute or by contract.
+
+        Unvested Options shall terminate immediately upon any material breach
+(as determined by the Plan Administrator) by Optionee of any employment,
+noncompetition, nondisclosure or similar agreement by and between the Company
+and Optionee.
+
+               (h) Exercise of Options.
+
+        Options shall be exercisable, either all or in part, at any time after
+vesting, until termination. If less than all of the shares included in the
+vested portion of any Option are purchased, the remainder may be purchased at
+any subsequent time prior to the expiration of the Option term. No portion of
+any Option for less than fifty (50) shares (as adjusted pursuant to Section 5(m)
+below) may be exercised; provided, that if the vested portion of
+
+
+<PAGE>   5
+
+any Option is less than fifty (50) shares, it may be exercised with respect to
+all shares for which it is vested. Only whole shares may be issued pursuant to
+an Option, and to the extent that an Option covers less than one share, it is
+unexercisable. Options or portions thereof may be exercised by giving written
+notice to the Company, which notice shall specify the number of shares to be
+purchased, and be accompanied by payment in the amount of the aggregate exercise
+price for the Common Stock so purchased, which payment shall be in the form
+specified in Section 5(i) below. The Company shall not be obligated to issue,
+transfer or deliver a certificate of Common Stock to any Optionee, or to his
+personal representative, until the aggregate exercise price has been paid for
+all shares for which the Option shall have been exercised and adequate provision
+has been made by the Optionee for satisfaction of any tax withholding
+obligations associated with such exercise. During the lifetime of an Optionee,
+Options are exercisable only by the Optionee.
+
+               (i)    Payment Upon Exercise of Option.
+
+        Upon the exercise of any Option, the aggregate exercise price shall be
+paid to the Company in cash or by certified or cashier's check. In addition,
+upon approval of the Plan Administrator, an Optionee may pay for all or any
+portion of the aggregate exercise price by (i) delivering to the Company shares
+of Common Stock previously held by such Optionee, (ii) having shares withheld
+from the amount of shares of Common Stock to be received by the Optionee or
+(iii) delivery of an irrevocable subscription agreement obligating the Optionee
+to take and pay for the shares of Common Stock to be purchased within one year
+of the date of such exercise. The shares of Common Stock received or withheld by
+the Company as payment for shares of Common Stock purchased upon the exercise of
+Options shall have a fair market value at the date of exercise (as determined by
+the Plan Administrator) equal to the aggregate exercise price (or portion
+thereof) to be paid by the Optionee upon such exercise.
+
+               (j) Rights as a Shareholder.
+
+        An Optionee shall have no rights as a shareholder with respect to any
+shares covered by an option until such Optionee becomes a record holder of such
+shares, irrespective of whether such Optionee has given notice of exercise.
+Subject to the provisions of Section 5(m) hereof, no rights shall accrue to an
+Optionee and no adjustments shall be made on account of dividends (ordinary or
+extraordinary, whether in cash, securities or other property) or distributions
+or other rights declared on, or created in, the Common Stock for which the
+record date is prior to the date the Optionee becomes a record holder of the
+shares of Common Stock covered by the Option, irrespective of whether such
+Optionee has given notice of exercise.
+
+               (k) Transfer of Option.
+
+        Options granted under this Plan and the rights and privileges conferred
+by this Plan may not be transferred, assigned, pledged or hypothecated in any
+manner (whether by operation of law or otherwise) other than by will or by
+applicable laws of descent and distribution or, with respect to Non-Statutory
+Stock Options, pursuant to a qualified domestic relations order, and shall not
+be subject to execution, attachment or similar process. Upon any attempt to
+transfer, assign, pledge, hypothecate or otherwise dispose of any Option or of
+any right or privilege conferred by this Plan contrary to the provisions hereof,
+or upon the sale, levy or any attachment or similar process upon the rights and
+privileges conferred by this Plan, such Option shall thereupon terminate and
+become null and void.
+
+               (l)    Securities Regulation and Tax Withholding.
+
+                      (1) Shares shall not be issued with respect to an Option 
+unless the exercise of such Option and the issuance and delivery of such shares
+shall comply with all relevant provisions of law, including, without limitation,
+any applicable state securities laws, the Securities Act of 1933, as amended,
+the Exchange Act, the rules and regulations thereunder and the requirements of
+any stock exchange upon which such shares may then be listed, and such issuance
+shall be further subject to the approval of counsel for the Company with respect
+to such compliance, including the availability of an exemption from registration
+for the issuance and sale of such shares. 
+
+
+<PAGE>   6
+
+The inability of the Company to obtain from any regulatory body the authority
+deemed by the Company to be necessary for the lawful issuance and sale of any
+shares under this Plan, or the unavailability of an exemption from registration
+for the issuance and sale of any shares under this Plan, shall relieve the
+Company of any liability with respect to the nonissuance or sale of such shares.
+
+        As a condition to the exercise of an Option, the Plan Administrator may
+require the Optionee to represent and warrant in writing at the time of such
+exercise that the shares are being purchased only for investment and without any
+then-present intention to sell or distribute such shares. At the option of the
+Plan Administrator, a stop-transfer order against such shares may be placed on
+the stock books and records of the Company, and a legend indicating that the
+stock may not be pledged, sold or otherwise transferred unless an opinion of
+counsel is provided stating that such transfer is not in violation of any
+applicable law or regulation, may be stamped on the certificates representing
+such shares in order to assure an exemption from registration. The Plan
+Administrator also may require such other documentation as may from time to time
+be necessary to comply with federal and state securities laws. THE COMPANY HAS
+NO OBLIGATION TO UNDERTAKE REGISTRATION OF OPTIONS OR THE SHARES OF STOCK
+ISSUABLE UPON THE EXERCISE OF OPTIONS.
+
+                      (2) As a condition to the exercise of any Option granted
+under this Plan, the Optionee shall make such arrangements as the Plan
+Administrator may require for the satisfaction of any federal, state or local
+withholding tax obligations that may arise in connection with such exercise.
+
+                      (3) The issuance, transfer or delivery of certificates of
+Common Stock pursuant to the exercise of Options may be delayed, at the
+discretion of the Plan Administrator, until the Plan Administrator is satisfied
+that the applicable requirements of the federal and state securities laws and
+the withholding provisions of the Code have been met.
+
+               (m)    Stock Dividend, Reorganization or Liquidation.
+
+                      (1) If (i) the Company shall at any time be involved in a
+transaction described in Section 424(a) of the Code (or any successor provision)
+or any "corporate transaction" described in the regulations thereunder; (ii) the
+Company shall declare a dividend payable in, or shall subdivide or combine, its
+Common Stock or (iii) any other event with substantially the same effect shall
+occur, the Plan Administrator shall, with respect to each outstanding Option,
+proportionately adjust the number of shares of Common Stock and/or the exercise
+price per share so as to preserve the rights of the Optionee substantially
+proportionate to the rights of the Optionee prior to such event, and to the
+extent that such action shall include an increase or decrease in the number of
+shares of Common Stock subject to outstanding Options, the number of shares
+available under Section 4 of this Plan shall automatically be increased or
+decreased, as the case may be, proportionately, without further action on the
+part of the Plan Administrator, the Company or the Company's shareholders.
+
+                      (2) If the Company is liquidated or dissolved, the Plan
+Administrator shall allow the holders of any outstanding Options to exercise all
+or any part of the unvested portion of the Options held by them; provided,
+however, that such Options must be exercised prior to the effective date of such
+liquidation or dissolution. If the Option holders do not exercise their Options
+prior to such effective date, each outstanding Option shall terminate as of the
+effective date of the liquidation or dissolution.
+
+                      (3) The foregoing adjustments in the shares subject to
+Options shall be made by the Plan Administrator, or by any successor
+administrator of this Plan, or by the applicable terms of any assumption or
+substitution document.
+
+                      (4) The grant of an Option shall not affect in any way the
+right or power of the Company to make adjustments, reclassifications,
+reorganizations or changes of its capital or business structure, to merge,
+consolidate or dissolve, to liquidate or to sell or transfer all or any part of
+its business or assets.
+
+
+<PAGE>   7
+
+        6.     EFFECTIVE DATE; TERM.
+
+        This Plan shall be effective as of April 25, 1997. Incentive Stock
+Options may be granted by the Plan Administrator from time to time thereafter
+until April 24, 2002. Non-Statutory Stock Options may be granted until this Plan
+is terminated by the Board in its sole discretion. Termination of this Plan
+shall not terminate any Option granted prior to such termination. Any Incentive
+Stock Options granted by the Plan Administrator prior to the approval of this
+Plan by a majority of the shareholders of the Company shall be granted subject
+to ratification of this Plan by the shareholders of the Company within 12 months
+after this Plan is adopted by the Board, and if shareholder ratification is not
+obtained, each and every Incentive Stock Option shall become a Non-Statutory
+Stock Option.
+
+        7.     NO OBLIGATIONS TO EXERCISE OPTION.
+
+        The grant of an Option shall impose no obligation upon the Optionee to
+exercise such Option.
+
+        8.     SHAREHOLDERS AGREEMENT.
+
+        Upon exercise of any Options granted pursuant to this Plan, all
+Optionees shall .execute and become parties to the then current shareholders
+agreement of the Company.
+
+        9.     NO RIGHT TO OPTIONS OR TO EMPLOYMENT OR CONTRACTUAL RELATIONSHIP.
+
+        Whether or not any Options are to be granted under this Plan shall be
+exclusively within the discretion of the Plan Administrator, and nothing
+contained in this Plan shall be construed as giving any person any right to
+participate under this Plan. The grant of an Option shall in no way constitute
+any form of agreement or understanding binding on the Company or any Related
+Corporation, express or implied, that the Company or any Related Corporation
+will employ or contract with an Optionee for any length of time.
+
+        10.    APPLICATION OF FUNDS.
+
+        The proceeds received by the Company from the sale of Common Stock
+issued upon the exercise of Options shall be used for general corporate
+purposes, unless otherwise directed by the Board.
+
+        11.    INDEMNIFICATION OF PLAN ADMINISTRATOR.
+
+        In addition to all other rights of indemnification they may have as
+members of the Board, members of the Plan Administrator shall be indemnified by
+the Company for all reasonable expenses and liabilities of any type or nature,
+including attorneys' fees, incurred in connection with any action, suit or
+proceeding to which they or any of them are a party by reason of, or in
+connection with, this Plan or any Option granted under this Plan, and against
+all amounts paid by them in settlement thereof (provided that such settlement is
+approved by independent legal counsel selected by the Company), except to the
+extent that such expenses relate to matters for which it is adjudged that such
+Plan Administrator member is liable for willful misconduct; provided, that
+within 15 days after the institution of any such action, suit or proceeding, the
+Plan Administrator member involved therein shall, in writing, notify the
+ .Company of such action, suit or proceeding, so that the Company may have the
+opportunity to make appropriate arrangements to prosecute or defend the same.
+
+        12.    AMENDMENT OF PLAN.
+
+        The Plan Administrator may, at any time, modify, amend or terminate this
+Plan and Options granted under this Plan; provided, that no amendment with
+respect to an outstanding Option shall be made over the objection of the
+Optionee thereof; and provided further, that the approval of the holders of a
+majority of the Company's outstanding shares of voting capital stock is required
+within 12 months before or after the adoption by 
+
+
+<PAGE>   8
+
+the Plan Administrator of any amendment that will permit the granting of Options
+to a class of persons other than those currently eligible to receive Options
+under this Plan or that would cause this Plan to no longer comply with Rule
+16b-3 under the Exchange Act or any other rule of the Securities and Exchange
+Commission or other regulatory requirements. Without limiting the generality of
+the foregoing, the Plan Administrator may modify grants to persons who are
+eligible to receive Options under this Plan who are foreign nationals or
+employed outside the United States to recognize differences in local law, tax
+policy or custom.
+
+
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

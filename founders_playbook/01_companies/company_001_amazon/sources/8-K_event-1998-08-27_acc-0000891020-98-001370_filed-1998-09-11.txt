@@ -1,0 +1,3441 @@
+==============================================================================
+PROVENANCE HEADER -- added by the Stage-3 Evidence Registrar (post-IPO filing intake)
+Retrieval date (access date) : 2026-09-25
+Original URL                 : https://www.sec.gov/Archives/edgar/data/1018724/0000891020-98-001370.txt
+HTTP status on retrieval     : 200
+Document                     : Form 8-K, complete submission (all 9 documents inline) -- FORM 8-K
+SEC CIK                      : 1018724 (AMAZON COM INC)
+Accession no.                : 0000891020-98-001370
+Filing date per EDGAR        : 1998-09-11   (SEC-HEADER FILED AS OF DATE: 19980911 -- agrees)
+Conformed submission type    : 8-K   Securities Exchange Act File No.: 000-22513
+Period of report             : 1998-08-27
+Bytes of retrieved body      : 192,752
+Body completeness            : COMPLETE -- terminates in </SEC-DOCUMENT>; 9 <DOCUMENT> blocks, types: 8-K, EX-23.1, EX-27.1, EX-27.2, EX-27.3, EX-27.4, EX-27.5, EX-27.6, EX-27.7
+Request headers used         : User-Agent: FounderPlaybook Research AdminContact@example.com | Accept-Encoding: identity | Referer: https://www.sec.gov/
+Body encoding on wire        : identity (no compression negotiated); saved exactly as received
+Located via                  : https://data.sec.gov/submissions/CIK0001018724-submissions-002.json (pre-2000 slice, 1997-03-24 -> 2000-01-04); row form=8-K filingDate=1998-09-11 primaryDocDescription='FORM 8-K'
+Component documents (DESCRIPTION per EDGAR):
+      - FORM 8-K
+      - CONSENT OF ERNST & YOUNG LLP
+      - RESTATED FINANCIAL DATA SCHEDULE YEAR END 12.31.97
+      - RESTATED FINANCIAL DATA SCHEDULE YEAR END 12.31.96
+      - RESTATED FIN. DATA SCHEDULE 6 MONTHS ENDED 6.30.98
+      - RESTATED FIN. DATA SCHEDULE 3 MONTHS ENDED 3.31.98
+      - RESTATED FIN. DATA SCHEDULE 9 MONTHS ENDED 9.30.97
+      - RESTATED FIN. DATA SCHEDULE 6 MONTHS ENDED 6.30.97
+      - RESTATED FIN. DATA SCHEDULE 3 MONTHS ENDED 3.31.97
+==============================================================================
+
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ USuqtKyR/i4n5XE28EEHzD3Zqi1tb90RCwCI5iksluYzaV7BOueKUTDppMHfAsFZ
+ 1HNiVe4SMidi7Zifd7OT4g==
+
+<SEC-DOCUMENT>0000891020-98-001370.txt : 19980914
+<SEC-HEADER>0000891020-98-001370.hdr.sgml : 19980914
+ACCESSION NUMBER:		0000891020-98-001370
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		9
+CONFORMED PERIOD OF REPORT:	19980827
+ITEM INFORMATION:		
+ITEM INFORMATION:		
+ITEM INFORMATION:		
+FILED AS OF DATE:		19980911
+SROS:			NASD
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AMAZON COM INC
+		CENTRAL INDEX KEY:			0001018724
+		STANDARD INDUSTRIAL CLASSIFICATION:	RETAIL-CATALOG & MAIL-ORDER HOUSES [5961]
+		IRS NUMBER:				911646860
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		
+		SEC FILE NUMBER:	000-22513
+		FILM NUMBER:		98708344
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1516 SECOND AVE 4TH FLOOR
+		STREET 2:		PO BOX 80387
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+		BUSINESS PHONE:		2066222335
+
+	MAIL ADDRESS:	
+		STREET 1:		PO BOX 80387
+		STREET 2:		1516 SECOND AVE 4TH FLOOR
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<DESCRIPTION>FORM 8-K
+<TEXT>
+
+<PAGE>   1
+                       SECURITIES AND EXCHANGE COMMISSION
+
+                             WASHINGTON, D.C. 20549
+
+                  -------------------------------------------
+
+                                    FORM 8-K
+
+                                 CURRENT REPORT
+
+
+                     PURSUANT TO SECTION 13 OR 15(d) OF THE
+                         SECURITIES EXCHANGE ACT OF 1934
+
+
+                                 AUGUST 27, 1998
+                  -------------------------------------------
+                                 Date of Report
+                        (Date of earliest event reported)
+
+
+                                AMAZON.COM, INC.
+- --------------------------------------------------------------------------------
+               (Exact Name of Registrant as Specified in Charter)
+
+          DELAWARE                      000-22513                91-1646860
+- ----------------------------      ---------------------     -------------------
+(State or Other Jurisdiction      (Commission File No.)        (IRS Employer
+     of Incorporation)                                      Identification No.)
+
+                  1516 SECOND AVENUE, SEATTLE, WASHINGTON 98101
+- --------------------------------------------------------------------------------
+          (Address of principal executive offices, including Zip Code)
+
+                                 (206) 622-2335
+- --------------------------------------------------------------------------------
+              (Registrant's telephone number, including area code)
+
+<PAGE>   2
+ITEM 2.  ACQUISITION OR DISPOSITION OF ASSETS
+
+         On August 27, 1998, pursuant to an Agreement and Plan of Merger, dated
+as of August 3, 1998 (the "PlanetAll Merger Agreement"), by and among
+Amazon.com, Inc., a Delaware corporation ("Amazon.com"), Sage Enterprises, Inc.,
+a Massachusetts corporation ("PlanetAll"), and Pacific Acquisition, Inc., a
+Massachusetts corporation and wholly owned subsidiary of Amazon.com ("PlanetAll
+Merger Sub"), Amazon.com acquired all of the outstanding capital stock of
+PlanetAll and PlanetAll Merger Sub merged with and into PlanetAll, with
+PlanetAll as the surviving corporation (the "PlanetAll Merger").
+
+         PlanetAll, founded in September 1996 and based in Boston,
+Massachusetts, provides contact management services via the Internet, including
+Web-based address book, calendar and reminder features.
+
+         Amazon.com issued approximately 800,000 shares of Amazon.com common
+stock, par value $.01 per share ("Amazon.com Common Stock"), and assumed all
+outstanding options in connection with the acquisition of PlanetAll, pursuant to
+the formula set forth below.
+
+         Pursuant to the terms of the PlanetAll Merger Agreement, at the
+effective time of the PlanetAll Merger, each issued and outstanding share of
+PlanetAll common stock, par value $.01 per share (the "PlanetAll Common Stock"),
+and each issued and outstanding share of PlanetAll Series A Preferred Stock, par
+value $.01 per share, and Series B Preferred Stock, par value $.01 per share
+(together with the PlanetAll Common Stock, the "PlanetAll Capital Stock"), other
+than shares of PlanetAll Capital Stock, if any, for which dissenters' rights
+have been or will be perfected in compliance with the applicable laws of the
+Commonwealth of Massachusetts, was converted into the right to receive that
+number of shares of Amazon.com Common Stock, determined by dividing (i) 900,000
+by (ii) the total number of shares of PlanetAll Capital Stock outstanding
+immediately prior to the effective time on a fully diluted basis, assuming all
+outstanding options to purchase shares of PlanetAll Capital Stock were validly
+exercised and issued prior to the effective time (the "PlanetAll Exchange
+Ratio").
+
+         In addition, each option to purchase shares of PlanetAll Common Stock
+outstanding at the effective time of the PlanetAll Merger was assumed by
+Amazon.com and will be treated as an option to purchase that number of
+Amazon.com Common Stock equal to the product of the PlanetAll Exchange Ratio and
+the number of shares of PlanetAll Common Stock subject to such option.
+
+         The PlanetAll Merger will be accounted for under the pooling of
+interests method of accounting.
+
+         Pursuant to the PlanetAll Merger Agreement, PlanetAll and its
+stockholders have agreed to indemnify and hold Amazon.com and the surviving
+corporation harmless for any losses that may be suffered by Amazon.com or its
+affiliates arising out of or in connection with any inaccuracy in, or
+misrepresentation or breach of, any representation or warranty made by PlanetAll
+in the PlanetAll Merger Agreement and related agreements, or any failure by
+PlanetAll to perform its obligations under the PlanetAll Merger Agreement and
+related agreements. Shares representing 10% of the Amazon.com Common Stock
+issued at the effective time of the PlanetAll Merger will be deposited with an
+escrow agent to secure such indemnification obligations.
+
+         Pursuant to an Investor Rights Agreement, dated as of August 27, 1998
+(the "PlanetAll Investor Rights Agreement"), by and between Amazon.com and the
+stockholders of PlanetAll, Amazon.com has agreed to prepare and file with the
+Securities and Exchange Commission (the "SEC"), within 45 days of the effective
+time of the PlanetAll Merger, a Registration Statement on Form S-3 under the
+Securities Act of 1933, as amended, covering the resale of the Amazon.com Common
+Stock issued in the PlanetAll Merger and to use its best efforts to have the
+Registration Statement declared effective by the SEC as promptly as practicable
+thereafter.
+
+
+                                       
+<PAGE>   3
+
+         The PlanetAll Merger Agreement and the PlanetAll Investor Rights
+Agreement (together with the PlanetAll Merger Agreement, the "PlanetAll
+Agreements"), each of which was filed as an exhibit to Amazon.com's Current
+Report on Form 8-K dated August 3, 1998, are incorporated herein by reference.
+The descriptions of the PlanetAll Agreements herein do not purport to be
+complete and are qualified in their entirety by the provisions of the PlanetAll
+Agreements.
+
+ITEM 7.  FINANCIAL STATEMENTS, PRO FORMA FINANCIAL INFORMATION AND EXHIBITS
+
+                  Supplemental Consolidated Selected Financial Data,
+                  Supplemental Consolidated Management's Discussion and Analysis
+                  of Financial Condition and Results of Operations, Supplemental
+                  Consolidated Financial Statements and Financial Statement
+                  Schedules (restated to give retroactive effect to a merger
+                  accounted for as a pooling of interests)
+
+                  (i)      Supplemental Consolidated Selected Financial Data
+
+                  (ii)     Supplemental Consolidated Management's Discussion and
+                           Analysis of Financial Condition and Results of
+                           Operations 
+
+                  (iii)    Report of Ernst & Young LLP, Independent Auditors
+
+                  (iv)     Supplemental Consolidated Balance Sheets as of
+                           December 31, 1997 and 1996.
+
+                  (v)      Supplemental Consolidated Statements of Operations
+                           for each of the three years ended December 31, 1997,
+                           1996 and 1995.
+
+                  (vi)     Supplemental Consolidated Statements of Stockholders'
+                           Equity for each of the three years ended December 31,
+                           1997, 1996 and 1995.
+
+                  (vii)    Supplemental Consolidated Statements of Cash Flows
+                           for each of the three years ended December 31, 1997,
+                           1996 and 1995.
+
+                  (viii)   Notes to Supplemental Consolidated Financial
+                           Statements.
+
+                  (ix)     Schedule II - Supplemental Valuation and Qualifying
+                           Accounts.
+
+
+                  (x)      Supplemental Consolidated Balance Sheets as of 
+                           March 31, 1998 (unaudited) and December 31, 1997.
+
+                  (xi)     Supplemental Consolidated Statements of Operations
+                           for the three months ended March 31, 1998 and 1997
+                           (unaudited).
+
+                  (xii)    Supplemental Consolidated Statements of Cash Flows
+                           for the three months ended March 31, 1998 and 1997
+                           (unaudited).
+
+                  (xiii)   Notes to Supplemental Consolidated Financial
+                           Statements (unaudited).
+
+                  (xiv)   Supplemental Consolidated Balance Sheets as of 
+                           June 30, 1998 (unaudited) and December 31, 1997.
+
+                  (xv)    Supplemental Consolidated Statements of Operations
+                           for the three and six months ended June 30, 1998 and
+                           1997 (unaudited).
+
+                  (xvi)    Supplemental Consolidated Statements of Cash Flows
+                           for the six months ended June 30, 1998 and 1997
+                           (unaudited).
+
+                  (xvii)   Notes to Supplemental Consolidated Financial
+                           Statements (unaudited).
+
+
+
+
+                                       
+<PAGE>   4
+         (a)      Financial Statements of Business Acquired
+
+                  No PlanetAll financial statements are required to be filed
+                  with respect to the PlanetAll Merger pursuant to Item 7(a) of
+                  Form 8-K.
+
+         (b)      Pro Forma Financial Information
+
+                  No pro forma financial information is required to be filed
+                  with respect to the PlanetAll Merger pursuant to Item 7(b) of
+                  Form 8-K.
+
+
+                                       
+<PAGE>   5
+
+<TABLE>
+<CAPTION>
+ (c)  Exhibits
+      --------
+      <S>       <C>
+          2.1   Agreement and Plan of Merger dated as of August 3 1998, by and
+                among Amazon.com, Inc., Pacific Acquisition, Inc. and Sage
+                Enterprises, Inc. (incorporated by reference from Amazon.com,
+                Inc.'s Current Report on Form 8-K dated August 3, 1998)
+
+         23.1   Consent of Ernst & Young LLP, Independent Auditors
+
+         27.1   Restated Financial Data Schedule for the Year Ended December 31,
+                1997
+
+         27.2   Restated Financial Data Schedule for the Year Ended December 31,
+                1996
+                  
+         27.3   Restated Financial Data Schedule for the Six Months Ended 
+                June 30, 1998
+
+         27.4   Restated Financial Data Schedule for the Three Months Ended
+                March 31, 1998
+
+         27.5   Restated Financial Data Schedule for the Nine Months Ended
+                September 30, 1997
+
+         27.6   Restated Financial Data Schedule for the Six Months Ended 
+                June 30, 1997
+
+         27.7   Restated Financial Data Schedule for the Three Months Ended
+                March 31, 1997
+
+         99.1   Form of Investor Rights Agreement by and between Amazon.com,
+                Inc. and the stockholders of Sage Enterprises, Inc.
+                (incorporated by reference from Amazon.com, Inc.'s Current
+                Report on Form 8-K dated August 3, 1998)
+</TABLE>
+
+
+                                      
+<PAGE>   6
+SUPPLEMENTAL CONSOLIDATED SELECTED FINANCIAL DATA
+
+The following selected financial data should be read in conjunction with the
+supplemental consolidated financial statements and the notes thereto and the
+information contained herein in "Management's Discussion and Analysis of
+Financial Condition and Results of Operations."
+
+
+<TABLE>
+<CAPTION>
+                                                                                                              FOR THE
+                                                                                                               PERIOD
+                                                                                                                FROM
+                                                                                                            JULY 5, 1994
+                                                                                                             (INCEPTION)
+                                                                YEARS ENDED DECEMBER 31,                         TO
+                                                 -----------------------------------------------------       DECEMBER 31,
+                                                     1997                1996                1995                1994
+                                                 -------------       -------------       -------------       -------------
+                                                                   (IN THOUSANDS, EXCEPT PER SHARE DATA)
+<S>                                              <C>                 <C>                 <C>                 <C>
+SUPPLEMENTAL CONSOLIDATED 
+  STATEMENT OF OPERATIONS DATA:
+
+Net sales .............................          $     147,787       $      15,746       $         511       $          --
+Cost of sales .........................                118,969              12,287                 409                  --
+                                                 -------------       -------------       -------------       -------------
+Gross profit ..........................                 28,818               3,459                 102                  --
+Operating expenses:
+  Marketing and sales .................                 38,964               6,090                 200                  --
+  Product development .................                 13,458               2,401                 171                  38
+  General and administrative ..........                  8,991               1,411                  35                  14
+                                                 -------------       -------------       -------------       -------------
+        Total operating expenses ......                 61,413               9,902                 406                  52
+                                                 -------------       -------------       -------------       -------------
+
+Loss from operations ..................                (32,595)             (6,443)               (304)                (52)
+Interest income .......................                  1,901                 202                   1                  --
+Interest expense ......................                   (326)                 (5)                 --                  --
+                                                 -------------       -------------       -------------       -------------
+Net loss ..............................          $     (31,020)      $      (6,246)      $        (303)      $         (52)
+                                                 =============       =============       =============       =============
+
+Pro forma basic and
+diluted loss per share (1) ............          $       (0.71)      $       (0.17)      $       (0.01)      $       (0.00)
+                                                 =============       =============       =============       =============
+
+Shares used in computation of pro forma
+  loss per share (1) ..................                 43,447              37,090              28,788              26,382
+                                                 =============       =============       =============       =============
+</TABLE>
+
+
+<TABLE>
+<CAPTION>
+                                                                            DECEMBER 31,
+                                                -------------------------------------------------------------------
+                                                    1997               1996              1995             1994
+                                                -------------     -------------     -------------     -------------
+                                                                           (IN THOUSANDS)
+<S>                                             <C>               <C>               <C>               <C>          
+SUPPLEMENTAL CONSOLIDATED
+BALANCE SHEET DATA:
+Cash and cash equivalents ............          $     110,119     $       6,289     $         996     $          52
+Working capital (deficiency) .........                 93,158             1,698               920               (16)
+Total assets .........................                149,844             8,434             1,084                76
+Long-term debt, net of current portion                 76,702                --                --                --
+Stockholders' equity .................                 28,591             2,943               977                 8
+</TABLE>
+
+
+- ------------
+
+(1)     See Note 1 -- "Accounting Policies" of Notes to Supplemental
+        Consolidated Financial Statements, and Note 9 -- "Subsequent Events 
+        (unaudited)."
+
+
+<PAGE>   7
+ITEM 7. SUPPLEMENTAL CONSOLIDATED MANAGEMENT'S DISCUSSION AND ANALYSIS OF 
+        FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+
+        On August 27, 1998, pursuant to an Agreement and Plan of Merger, dated
+as of August 3, 1998, by and among the Company, Sage Enterprises, Inc.
+("PlanetAll"), and Pacific Acquisition, Inc. ("PlanetAll Merger Sub"), the
+Company acquired all of the outstanding capital stock of PlanetAll and PlanetAll
+Merger Sub merged with and into PlanetAll, with PlanetAll as the surviving
+corporation. PlanetAll, founded in September 1996 and based in Boston,
+Massachusetts, provides contact management services via the Internet, including
+Web-based address book, calendar and reminder features. The Company issued
+approximately 800,000 shares of common stock, par value $.01 per share, and
+assumed all outstanding options in connection with the acquisition of PlanetAll.
+
+        This transaction was accounted for as a pooling of interests. The
+supplemental consolidated financial statements and the notes thereto have been
+prepared to reflect the restatement of all periods presented to include the
+accounts of PlanetAll. The historical results of the pooled entities reflect
+each of their actual operating cost structures and, as a result, do not
+necessarily reflect the cost structure of the newly combined entity. The
+historical results do not purport to be indicative of results, which may occur
+in the future. These supplemental consolidated financial statements will become
+the historical financial statements of the Company after financial statements
+covering the date of consummation of the business combination are issued.
+
+        Set forth below is the Company's Supplemental Consolidated Management's
+Discussion and Analysis of Financial Condition and Results of Operations for the
+years ended December 31, 1997, 1996 and 1995 restated to give retroactive
+effect to the PlanetAll Merger. 
+
+        The results of operations, liquidity and capital resources of PlanetAll
+is neither material as of and for the three months ended March 31, 1998 and
+1997, nor as of and for the three and six months ended June 30, 1998 and 1997.
+
+        The information set forth below contains forward-looking statements
+based on current expectations, estimates and projections about the Company's
+industry, management's beliefs and certain assumptions made by management. All
+statements, trends, analyses and other information contained in this report
+relative to trends in net sales, gross margin, anticipated expense levels and
+liquidity and capital resources, as well as other statements including, but not
+limited to, words such as "anticipate," "believe," "plan," "estimate," "expect,"
+"seek" and "intend" and other similar expressions, constitute forward-looking
+statements. These forward-looking statements are not guarantees of future
+performance and are subject to certain risks and uncertainties that are
+difficult to predict. Accordingly, actual results may differ materially from
+those anticipated or expressed in such statements. Potential risks and
+uncertainties include, among others, those set forth below as well as in
+"Business -- Additional Factors That May Affect Future Results." Particular
+attention should be paid to the cautionary statements involving the Company's
+limited operating history, the unpredictability of its future revenues, the
+unpredictable and evolving nature of its business model, the intensely
+competitive online commerce and retail book environments and the risks
+associated with capacity constraints, systems development, management of growth
+and business expansion. Except as required by law, the Company undertakes no
+obligation to update any forward-looking statement, whether as a result of new
+information, future events or otherwise. Readers, however, should carefully
+review the factors set forth in other reports or documents that the Company
+files from time to time with the SEC.
+
+OVERVIEW
+
+        Amazon.com is the leading online retailer of books. The Company also
+sells a smaller number of CDs, videotapes, audiotapes and other products. All of
+these products are sold through the Company's Web site. The Company was
+incorporated in July 1994 and commenced offering products for sale on its Web
+site in July 1995. Accordingly, the Company has a limited operating history on
+which to base an evaluation of its business and prospects. The Company's
+prospects must be considered in light of the risks, expenses and difficulties
+frequently encountered by companies in their early stage of development,
+particularly companies in new and rapidly evolving markets such as online
+commerce. Such risks for the Company include, but are not limited to, an
+evolving and unpredictable business model and the management of growth. To
+address these risks, the Company must, among other things, maintain and increase
+its customer base, implement and successfully execute its business and marketing
+strategy, continue to develop and upgrade its technology and
+transaction-processing systems, improve its Web site, provide superior customer
+service and order fulfillment, respond to competitive developments, and attract,
+retain and motivate qualified personnel. There can be no assurance that the
+Company will be successful in addressing such risks, and the failure to do so
+could have a material adverse effect on the Company's business, prospects,
+financial condition and results of operations.
+
+        Since inception, the Company has incurred significant losses and as of
+December 31, 1997 had an accumulated deficit of $37.5 million. The Company
+believes that its success will depend in large part on its ability to (i) extend
+its brand position, (ii) provide its customers with outstanding value and a
+superior shopping experience and (iii) achieve sufficient sales volume to
+realize economies of scale. Accordingly, the Company intends to continue to
+invest heavily in marketing and promotion, product development and technology
+and operating infrastructure development. The Company also offers attractive
+pricing programs, which have reduced its gross margins. Because the Company has
+relatively low product gross margins, achieving profitability given planned
+investment levels depends upon the Company's ability to generate and sustain
+substantially increased revenue levels. As a result, the Company believes that
+it will continue to incur substantial operating losses for the foreseeable
+future and that the rate at which such losses will be incurred may increase
+significantly from current levels. Although the Company has experienced
+significant revenue growth in recent periods, such growth rates are not
+sustainable and will decrease in the future. In view of the rapidly evolving
+nature of the Company's business and its limited operating history, the Company
+believes that period-to-period comparisons of its operating results, including
+the Company's gross profit and operating expenses as a percentage of net sales,
+are not necessarily meaningful and should not be relied upon as an indication of
+future performance.
+
+        As a result of the Company's limited operating history and the emerging
+nature of the markets in which it competes, the Company is unable to accurately
+forecast its revenues. The Company's current and future expense levels are based
+largely on its investment plans and estimates of future revenues and are to a
+large extent fixed. Sales and operating results generally depend on the volume
+of, timing of and ability to fulfill orders received, which are difficult to
+forecast. The Company may be unable to adjust spending in a timely manner to
+compensate for any unexpected revenue shortfall. Accordingly, any significant
+shortfall in revenues 
+
+
+<PAGE>   8
+in relation to the Company's planned expenditures would have an immediate
+adverse effect on the Company's business, prospects, financial condition and
+results of operations. Further, as a strategic response to changes in the
+competitive environment, the Company may from time to time make certain pricing,
+service, marketing or acquisition decisions that could have a material adverse
+effect on its business, prospects, financial condition and results of
+operations. For example, the Company has agreed in certain of its promotional
+arrangements with Internet aggregators to make significant fixed payments. There
+can be no assurance that these arrangements will generate adequate revenues to
+cover the associated expenditures and any significant shortfall would have a
+material adverse effect on the Company's financial condition and results of
+operations.
+
+        The Company expects to experience significant fluctuations in its future
+quarterly operating results due to a variety of factors, many of which are
+outside the Company's control. Factors that may adversely affect the Company's
+quarterly operating results include (i) the Company's ability to retain existing
+customers, attract new customers at a steady rate and maintain customer
+satisfaction, (ii) the Company's ability to acquire product, to maintain
+appropriate inventory levels and to manage fulfillment operations, (iii) the
+Company's ability to maintain gross margins in its existing business and in
+future product lines and markets, (iv) the development, announcement or
+introduction of new sites, services and products by the Company and its
+competitors, (v) price competition or higher wholesale prices in the industry,
+(vi) the level of use of the Internet and online services and increasing
+consumer acceptance of the Internet and other online services for the purchase
+of consumer products such as those offered by the Company, (vii) the Company's
+ability to upgrade and develop its systems and infrastructure and attract new
+personnel in a timely and effective manner, (viii) the level of traffic on the
+Company's Web site, (ix) technical difficulties, system downtime or Internet
+brownouts, (x) the amount and timing of operating costs and capital expenditures
+relating to expansion of the Company's business, operations and infrastructure,
+(xi) the number of popular books introduced during the period, (xii) the level
+of merchandise returns experienced by the Company, (xiii) governmental
+regulation and taxation policies, (xiv) disruptions in service by common
+carriers due to strikes or otherwise and (iv) general economic conditions and
+economic conditions specific to the Internet, online commerce and the book
+industry.
+
+        The Company expects that it will experience seasonality in its business,
+reflecting a combination of seasonal fluctuations in Internet usage and
+traditional retail seasonality patterns. Internet usage and the rate of Internet
+growth may be expected to decline during the summer. Further, sales in the
+traditional retail book industry are significantly higher in the fourth calendar
+quarter of each year than in the preceding three quarters.
+
+        Due to the foregoing factors, in one or more future quarters the
+Company's operating results may fall below the expectations of securities
+analysts and investors. In such event, the trading price of the common stock
+would likely be materially adversely affected.
+
+        The Company has recorded aggregate deferred compensation of
+approximately $3.3 million. The amount recorded represents the difference
+between the grant price and the deemed fair value of the Company's common stock
+for shares subject to options granted in 1997 and 1996. Deferred compensation is
+amortized over the vesting period of the options, which is typically five years.
+Amortization for the year ended December 31, 1997 was $1.4 million. No
+amortization expense was recognized in 1996.
+
+<PAGE>   9
+SUPPLEMENTAL CONSOLIDATED RESULTS OF OPERATIONS
+
+NET SALES
+
+
+<TABLE>
+<CAPTION>
+                       1997            % CHANGE             1996            % CHANGE            1995
+                   ------------      ------------       ------------      ------------       ------------
+                                                       (IN THOUSANDS)
+<S>                <C>               <C>                <C>               <C>                <C>         
+Net sales .....    $    147,787               839%      $     15,746             2,981%      $        511
+</TABLE>
+
+
+        Net sales are primarily composed of the selling price of books and other
+merchandise sold by the Company, net of returns, as well as outbound shipping
+and handling charges. Growth in net sales reflects a significant increase in
+units sold due to the significant growth of the Company's customer base and
+repeat purchases from the Company's existing customers. This increase was
+partially offset by a decrease in prices during 1997. International sales
+represented 25%, 33% and 39% of net sales for the years ended December 31, 1997,
+1996 and 1995, respectively.
+
+GROSS PROFIT
+
+
+<TABLE>
+<CAPTION>
+                          1997               % CHANGE         1996               % CHANGE        1995
+                      ------------         ------------    ------------       ------------   ------------
+                                                          (IN THOUSANDS)
+<S>                   <C>                  <C>             <C>                <C>            <C>          
+Gross Profit          $      28,818                 733%   $      3,459              3,291%  $         102
+Gross Margin                   19.5%                               22.0%                              20.0%
+</TABLE>
+
+
+        Gross profit equals sales less cost of sales, which primarily consists
+of the cost of merchandise sold to customers and outbound and inbound shipping
+costs. Gross profit increased in absolute dollars reflecting the Company's
+increased sales volume. The Company's gross margin decreased due to a
+combination of lower prices and lower overall shipping margins, partially offset
+by improvements in product cost.
+
+        The Company believes that offering its customers attractive prices is an
+essential component of its business strategy. Accordingly, the Company offers
+20% and 30% discounts on more than 400,000 titles, with featured titles
+discounted at 40% and certain "special value" editions discounted up to 89%. The
+Company may in the future expand or increase the discounts it offers to its
+customers and may otherwise alter its pricing structure and policies.
+
+        The Company over time intends to expand its operations by promoting new
+or complementary products or sales formats and by expanding the breadth and
+depth of its product or service offerings. Gross margins attributable to new
+business areas may be lower than those associated with the Company's existing
+business activities.
+
+
+
+<PAGE>   10
+MARKETING AND SALES
+
+<TABLE>
+<CAPTION>
+                                      1997              % CHANGE          1996             % CHANGE         1995
+                                 ------------         ------------    ------------       ------------   ------------
+                                                                      (IN THOUSANDS)
+<S>                              <C>                  <C>             <C>                <C>            <C>          
+Marketing and sales ...          $      38,964                 540%   $      6,090              2,945%  $         200
+Percentage of net sales                   26.4%                               38.7%                              39.1%
+</TABLE>
+
+
+        Marketing and sales expenses consist primarily of advertising, public
+relations and promotional expenditures, as well as payroll and related expenses
+for personnel engaged in marketing, selling and fulfillment activities. All
+fulfillment costs not included in cost of sales, including the cost of operating
+and staffing distribution centers and customer service, are included in
+marketing and sales. Marketing and sales expenses increased primarily due to
+increases in the Company's advertising and promotional expenditures (including
+expenses associated with Internet aggregator promotional relationships),
+increased costs associated with fulfilling customer demand, increased personnel
+and related expenses required to implement the Company's marketing strategy and
+increased credit card merchant fees resulting from higher sales. Such expenses
+decreased as a percentage of net sales due to the significant increase in net
+sales. The Company intends to continue to pursue its aggressive branding and
+marketing campaign and expects its costs of fulfillment to increase based on
+anticipated sales growth. Therefore, the Company expects marketing and sales
+expenses to increase significantly in absolute dollars.
+
+PRODUCT DEVELOPMENT
+
+
+<TABLE>
+<CAPTION>
+                                     1997               % CHANGE         1996              % CHANGE         1995
+                                 ------------         ------------    ------------       ------------    ------------
+                                                                    (IN THOUSANDS)
+<S>                              <C>                  <C>             <C>                <C>             <C>         
+Product development ...          $      13,458                 461%   $      2,401              1,304%   $        171
+Percentage of net sales                    9.1%                               15.2%                              33.5%
+</TABLE>
+
+
+        Product development expenses consist principally of payroll and related
+expenses for development, editorial, systems and telecommunications operations
+personnel and consultants, systems and telecommunications infrastructure and
+costs of acquired content. The increases in product development expenses were
+primarily attributable to increased staffing and associated costs related to
+enhancing the features, content and functionality of the Company's Web site and
+transaction-processing systems, as well as increased investment in systems and
+telecommunications infrastructure. Such expenses decreased significantly as a
+percentage of net sales due to the significant increase in net sales. To date,
+all product development costs have been expensed as incurred. The Company
+believes that continued investment in product development is critical to
+attaining its strategic objectives and, as a result, expects product development
+expenses to increase significantly in absolute dollars.
+
+
+
+<PAGE>   11
+GENERAL AND ADMINISTRATIVE
+
+<TABLE>
+<CAPTION>
+                                         1997              % CHANGE          1996             % CHANGE         1995
+                                     ------------        ------------    ------------       ------------    ------------
+                                                                        (IN THOUSANDS)
+<S>                                  <C>                 <C>             <C>                <C>             <C>         
+General and administrative           $      8,991                537%    $      1,411              3,931%   $         35
+Percentage of net sales ..                    6.1%                                9.0%                               6.8%
+</TABLE>
+
+
+      General and administrative expenses consist of payroll and related
+expenses for executive, accounting and administrative personnel, recruiting,
+professional fees and other general corporate expenses. The increase in general
+and administrative expenses was primarily due to increased salaries and related
+expenses associated with the hiring of additional personnel, increases in
+professional fees and, in 1997, costs attributable to being a public company.
+Such expenses decreased as a percentage of net sales due to the significant
+increase in net sales. The Company expects general and administrative expenses
+to increase in absolute dollars as the Company expands its staff and incurs
+additional costs related to the growth of its business.
+
+INTEREST INCOME AND EXPENSE
+
+
+<TABLE>
+<CAPTION>
+                                1997           % CHANGE        1996              % CHANGE        1995
+                           ------------      ------------   ------------       ------------    ----------
+                                                           (IN THOUSANDS)
+<S>                        <C>               <C>            <C>                <C>             <C>
+Interest income            $      1,901               841%  $        202               N/M     $      1
+Interest expense                   (326)              N/M             (5)              N/A           --
+</TABLE>
+
+
+        Interest income on cash, cash equivalents and short-term investments
+increased due to higher cash, cash equivalents and short-term investment
+balances resulting from the Company's financing activities.
+
+        Interest expense in 1997 and 1996 primarily consists of interest and
+amortization of deferred charges related to the Loan and interest on asset
+acquisitions financed through loans and capital leases.
+
+INCOME TAXES
+
+        The Company has not generated any taxable income to date and therefore
+has not paid any federal income taxes since inception. Utilization of the
+Company's net operating loss carryforwards, which begin to expire in 2011, may
+be subject to certain limitations under Section 382 of the Internal Revenue
+Code. The Company has provided a full valuation allowance on the deferred tax
+asset, consisting primarily of net operating loss carryforwards, because of
+uncertainty regarding its realizability.
+
+LIQUIDITY AND CAPITAL RESOURCES
+
+        At December 31, 1997 the Company's cash and cash equivalents were $110.1
+million, compared to $6.3 million at December 31, 1996.
+
+        Net cash provided by operating activities of $687,000 for the year ended
+December 31, 1997 was primarily attributable to increases of $30.2 million in
+accounts payable, $5.3 million in other accrued expenses and $2.9 million in
+accrued advertising, plus $4.9 million in depreciation and amortization, largely
+offset by a net loss of $31.0 million and increases of $8.4 million in
+inventories and $3.1 million in prepaid expenses and other assets. For 1996,
+cash used in operating activities was $2.0 million and resulted from a net loss
+of $6.2 million and increases of $554,000 in inventories, $315,000 in prepaid
+expenses and other assets and $148,000 in deposits, largely offset by increases
+of $2.8 million in accounts payable, $598,000 in accrued advertising and $1.6
+million in other 
+
+
+<PAGE>   12
+liabilities and accrued expenses, plus $296,000 in depreciation and
+amortization. Net cash used in investing activities was $22.9 million for the
+year ended December 31, 1997 and consisted of purchases of short-term
+investments of $20.5 million and purchases of fixed assets of $7.6 million,
+partially offset by maturities of short-term investments of $5.2 million. For
+1996, net cash used in investing activities consisted of $1.3 million for the
+purchase of fixed assets. The large increases in the components of working
+capital on a period-to-period basis are a direct result of the rapid growth of
+the Company's revenues and related activities. Such growth has required the
+Company to purchase additional fixed assets and increase purchases of products,
+which resulted in corresponding increases in inventories and accounts payable.
+
+        Cash flows provided by financing activities of $126.0 million for the
+year ended December 31, 1997 consisted of net proceeds of approximately $72.6
+million, primarily from the Loan obtained in December 1997, $49.1 million from
+the Company's May 1997 initial public offering, $3.5 million from PlanetAll's
+issuance of capital stock, $509,000 from the exercise of common stock options
+and $200,000 from the issuance of preferred stock. Cash flows of $8.6 million
+attributable to financing activities for the year ended December 31, 1996
+consisted primarily of net proceeds from the issuance of preferred stock.
+
+        On December 23, 1997, the Company borrowed $75 million pursuant to a
+three-year senior secured term Loan. The purpose of the Loan is to finance
+working capital, capital additions, operations, acquisitions, joint ventures and
+general corporate purposes. The Loan is secured by a first priority lien on
+substantially all of the Company's assets. The Company has the option to choose
+from the following interest rate options: (i) a variable rate adjusted every
+one, two, three or six months at the Company's option and based on the London
+Interbank Offered Rate ("LIBOR") plus 3.50% per annum for the first six months
+of the Loan and 4.00% thereafter, or (ii) a variable rate of interest based on
+the lender's Base Rate plus 1.50% per annum for the first six months of the Loan
+and 2.00% thereafter. In connection with the Loan, in January 1998 the Company
+entered into certain interest rate risk management agreements. The Company is
+required to make mandatory prepayments on the Loan equal to 50% of the proceeds
+from any debt and/or equity offerings (other than the proceeds of certain
+permitted debt) and 100% of the proceeds from certain sales of assets that are
+not reinvested in replacement assets.
+
+        The Loan includes covenants restricting certain activities by the
+Company, including (i) the incurrence of additional indebtedness, (ii)
+consolidations, mergers and sales of assets and (iii) dividends and
+distributions to stockholders. In addition, financial covenants require the
+Company to, among other things, maintain a minimum cash balance, maintain
+certain levels of earnings or losses before interest, taxes, depreciation and
+amortization, limit its accounts payable aging and limit its capital and
+acquisition expenditures. The Loan contains standard events of default,
+including, among other things, a change in ownership or control. As a result,
+the Loan may reduce the Company's operational flexibility and may limit its
+ability to pursue market opportunities. The Company met all Loan covenants at
+December 31, 1997.
+
+        In connection with the Loan, the Company issued warrants to purchase a
+total of 1,500,000 shares (adjusted to give effect to the two-for-one stock
+split effective June 1, 1998) of the Company's common stock. All or a portion of
+the warrants will be canceled if the Company repays the Loan in full prior to
+certain specified dates. If the Company does not repay the Loan prior to such
+dates, and if any of the warrants are exercised, such exercise may dilute the
+economic interests of the Company's stockholders. Warrants become exercisable
+when they can no longer be canceled and remain exercisable for five years after
+such date. The exercise price for the warrants is $26.06 per share (adjusted to
+give effect to the two-for-one stock split effective June 1, 1998).
+
+        The Company expects to use the proceeds of the Loan to support its
+strategy of investing heavily in marketing and promotion, product development
+and technology and operating infrastructure development and may commit to
+significant fixed expenditures. The Company's ability to generate planned future
+revenues, and therefore its ability to comply with the Loan covenants, may be
+affected by events beyond its control. If the Company were unable to satisfy the
+Loan covenants, the lending institutions would be entitled to exercise their
+remedies, including the right to declare all principal and interest immediately
+due and payable. If the Company were unable to make such payment, or were unable
+to repay the amount owing under the Loan at the end of its term, the lending
+institutions could foreclose on the Company's assets, substantially all of which
+are pledged as security for the Loan.
+
+        In November 1997, the Company purchased fixed assets through a financing
+agreement totaling approximately $3.0 million and having an imputed interest
+rate of 7.7% and a term of three years. The debt is to be repaid in four equal
+payments.
+
+        As of December 31, 1997 the Company's principal sources of liquidity
+consisted of $110.1 million of cash and cash equivalents and $15.3 million of
+short-term investments. As of that date, the Company's principal commitments
+consisted of obligations outstanding under the Loan, obligations in connection
+with the acquisition of fixed assets, operating leases and commitments for
+advertising and promotional arrangements. Although the Company has no material
+commitments for capital 
+
+
+<PAGE>   13
+expenditures, it anticipates a substantial increase in its capital expenditures
+and lease commitments consistent with anticipated growth in operations,
+infrastructure and personnel. In November 1997 the Company opened a
+200,000-square-foot distribution center in Delaware and expanded its Seattle
+distribution center to 85,000 square feet. The Company may establish one or more
+additional distribution centers within the next 12 months, which would require
+it to commit to lease obligations, stock inventories, purchase fixed assets and
+install leasehold improvements. In addition, the Company has announced plans to
+continue to increase its merchandise inventory in order to provide better
+availability to customers and achieve purchasing efficiencies.
+
+        The Company has developed a plan to modify its information technology to
+recognize the Year 2000 and has, to the extent necessary, begun converting its
+critical data processing systems. Since the Company's systems and software are
+relatively new, management does not expect Year 2000 issues related to its own
+internal systems to be significant. The Company has initiated formal
+communications with all of its significant suppliers and service providers to
+determine the extent to which the Company's interface systems are vulnerable to
+those third parties' failure to remediate their own Year 2000 issues. There can
+be no guarantee that the systems of other companies, on which the Company
+relies, will be converted timely and will not have an adverse effect on the
+Company's systems. The Company currently expects the project to be complete in
+1999.
+
+        The Company purchases a substantial majority of its products from two
+major vendors, Ingram and B&T. Ingram is the Company's largest supplier and
+accounted for 58% and 59% of the Company's inventory purchases in 1997 and 1996,
+respectively. The Company has no long-term contracts or arrangements with any of
+its vendors that guarantee the availability of merchandise, the continuation of
+particular payment terms or the extension of credit limits. There can be no
+assurance that the Company's current vendors will continue to sell merchandise
+to the Company on current terms or that the Company will be able to establish
+new or extend current vendor relationships to ensure acquisition of merchandise
+in a timely and efficient manner and on acceptable commercial terms. If the
+Company were unable to develop and maintain relationships with vendors that
+would allow it to obtain sufficient quantities of merchandise on acceptable
+commercial terms, such inability could have a material adverse effect on the
+Company's business, prospects, financial condition and results of operations.
+
+        The Company believes that current cash and cash equivalent balances and
+short-term investments will be sufficient to meet its anticipated cash needs for
+at least 12 months. However, any projections of future cash needs and cash flows
+are subject to substantial uncertainty. If cash generated from operations is
+insufficient to satisfy the Company's liquidity requirements, the Company may
+seek to sell additional equity or debt securities or to obtain a line of credit.
+The sale of additional equity or convertible debt securities could result in
+additional dilution to the Company's stockholders. There can be no assurance
+that financing will be available in amounts or on terms acceptable to the
+Company, if at all. In addition, the Company will, from time to time, consider
+the acquisition of or investment in complementary businesses, products and
+technologies, which might increase the Company's liquidity requirements or cause
+the Company to issue additional equity or debt securities.
+
+
+<PAGE>   14
+                REPORT OF ERNST & YOUNG LLP, INDEPENDENT AUDITORS
+
+The Board of Directors
+Amazon.com, Inc.
+
+        We have audited the supplemental consolidated balance sheets of
+Amazon.com, Inc., formed as a result of the consolidation of Amazon.com, Inc.
+and Sage Enterprises, Inc. ("PlanetAll"), as of December 31, 1997 and 1996 and
+the related supplemental consolidated statements of operations, stockholders'
+equity, and cash flows for each of the three years in the period ended December
+31, 1997. Our audits also included the supplemental consolidated financial
+statement schedule listed in the Index at Item 7. These supplemental
+consolidated financial statements and schedule give retroactive effect to the
+merger of Amazon.com, Inc. and PlanetAll on August 27, 1998, which has been
+accounted for using the pooling of interests method as described in the notes
+to the supplemental consolidated financial statements. These supplemental
+consolidated financial statements and schedule are the responsibility of the
+management of Amazon.com, Inc. Our responsibility is to express an opinion on
+these supplemental consolidated financial statements and schedule based on our
+audits. We did not audit the financial statements of PlanetAll, which
+statements reflect total assets constituting approximately 1% for 1997 and
+approximately 2% for 1996 of the related supplemental consolidated financial
+statement totals, and which reflect net loss constituting approximately 11% for
+1997 and approximately 8% for 1996 of the related supplemental consolidated
+financial statement totals for each of the two years in the period December 31,
+1997. Those statements were audited by other auditors whose report has been
+furnished to us, and our opinion, insofar as it relates to data included for
+PlanetAll, is based solely on the report of the other auditors.
+
+We conducted our audits in accordance with generally accepted auditing
+standards. Those standards require that we plan and perform the audit to obtain
+reasonable assurance about whether the financial statements are free of material
+misstatement. An audit includes examining, on a test basis, evidence supporting
+the amounts and disclosures in financial statements. An audit also includes
+assessing the accounting principles used and significant estimates made by
+management, as well as evaluating the overall financial statement presentation.
+We believe that our audits and the report of other auditors provide a reasonable
+basis for our opinion.
+
+In our opinion, based on our audits and the report of other auditors, the
+supplemental consolidated financial statements referred to above present fairly,
+in all material respects, the financial position of Amazon.com, Inc. at December
+31, 1997 and 1996, and the results of its operations and its cash flows for each
+of the three years in the period ended December 31, 1997 after giving
+retroactive effect to the merger of PlanetAll, as described in the notes to the
+supplemental consolidated financial statements, in conformity with generally
+accepted accounting principles. Also, in our opinion, the related supplemental
+consolidated financial statement schedule, when considered in relation to the
+basic supplemental consolidated financial statements taken as a whole, presents
+fairly in all material respects the information set forth therein.
+
+
+                                        ERNST & YOUNG LLP
+
+
+Seattle, Washington
+January 19, 1998, except for paragraphs 2 and 3
+of Note 1, as to which the date is August 27, 1998
+
+<PAGE>   15
+                                AMAZON.COM, INC.
+
+                    SUPPLEMENTAL CONSOLIDATED BALANCE SHEETS
+                 (IN THOUSANDS, EXCEPT SHARE AND PER SHARE DATA)
+
+<TABLE>
+<CAPTION>
+                                                                             DECEMBER 31,
+                                                                     ---------------------------
+                                                                        1997             1996
+                                                                     ----------       ----------
+<S>                                                                  <C>              <C>       
+                                            ASSETS
+Current Assets:
+  Cash and cash equivalents ...................................      $  110,119       $    6,289
+  Short-term investments ......................................          15,256               --
+  Inventories .................................................           8,971              571
+  Prepaid expenses and other ..................................           3,363              329
+                                                                     ----------       ----------
+          Total current assets ................................         137,709            7,189
+Fixed assets, net .............................................           9,726            1,097
+Deposits ......................................................             169              148
+Deferred charges ..............................................           2,240               --
+                                                                     ----------       ----------
+          Total assets ........................................      $  149,844       $    8,434
+                                                                     ==========       ==========
+
+                              LIABILITIES AND STOCKHOLDERS' EQUITY
+Current Liabilities:
+  Accounts payable ............................................      $   33,027       $    2,855
+  Accrued advertising .........................................           3,454              598
+  Accrued product development .................................              --              500
+  Other liabilities and accrued expenses ......................           6,570            1,538
+  Current portion of long-term debt ...........................           1,500               --
+                                                                     ----------       ----------
+          Total current liabilities ...........................          44,551            5,491
+
+Long-term portion of debt .....................................          76,521               --
+Long-term portion of capital lease obligation .................             181               --
+
+Stockholders' Equity:
+  Preferred stock, $0.01 par value:
+     Authorized shares -- 10,000,000
+     Issued and outstanding shares -- none
+       and 569,396 shares in 1997 and 1996, respectively ......              --                6
+  Common stock, $0.01 par value:
+     Authorized shares -- 100,000,000
+     Issued and outstanding shares -- 48,302,958 and
+       31,806,036 shares in 1997 and 1996, respectively .......             483              318
+  Additional paid-in capital ..................................          67,552            9,725
+  Deferred compensation .......................................          (1,930)            (612)
+  Accumulated deficit .........................................         (37,514)          (6,494)
+                                                                     ----------       ----------
+      Total stockholders' equity ..............................          28,591            2,943
+                                                                     ----------       ----------
+          Total liabilities and stockholders' equity ..........      $  149,844       $    8,434
+                                                                     ==========       ==========
+</TABLE>
+
+                             See accompanying notes.
+<PAGE>   16
+                                AMAZON.COM, INC.
+
+               SUPPLEMENTAL CONSOLIDATED STATEMENTS OF OPERATIONS
+                      (IN THOUSANDS, EXCEPT PER SHARE DATA)
+
+<TABLE>
+<CAPTION>
+                                                                                  YEARS ENDED DECEMBER 31,
+                                                                         --------------------------------------------
+                                                                            1997             1996             1995
+                                                                         ----------       ----------       ----------
+<S>                                                                      <C>              <C>              <C>       
+Net sales .........................................................      $  147,787       $   15,746       $      511
+Cost of sales .....................................................         118,969           12,287              409
+                                                                         ----------       ----------       ----------
+Gross profit ......................................................          28,818            3,459              102
+
+Operating expenses:
+  Marketing and sales .............................................          38,964            6,090              200
+  Product development .............................................          13,458            2,401              171
+  General and administrative ......................................           8,991            1,411               35
+                                                                         ----------       ----------       ----------
+     Total operating expenses .....................................          61,413            9,902              406
+
+Loss from operations ..............................................         (32,595)          (6,443)            (304)
+Interest income ...................................................           1,901              202                1
+Interest expense ..................................................            (326)              (5)              --
+                                                                         ----------       ----------       ----------
+Net loss ..........................................................      $  (31,020)      $   (6,246)      $     (303)
+                                                                         ==========       ==========       ==========
+Pro forma basic and diluted loss per share ........................      $    (0.71)      $    (0.17)      $    (0.01)
+                                                                         ==========       ==========       ==========
+Shares used in computation of pro forma basic and diluted loss
+     per share ....................................................          43,447           37,090           28,788
+                                                                         ==========       ==========       ==========
+</TABLE>
+
+                             See accompanying notes.
+<PAGE>   17
+                                AMAZON.COM, INC.
+
+          SUPPLEMENTAL CONSOLIDATED STATEMENTS OF STOCKHOLDERS' EQUITY
+                        (IN THOUSANDS, EXCEPT SHARE DATA)
+
+<TABLE>
+<CAPTION>
+                                                     PREFERRED STOCK                        COMMON STOCK               ADVANCES
+                                              -----------------------------         ----------------------------     RECEIVED FOR
+                                                SHARES             AMOUNT             SHARES             AMOUNT      COMMON STOCK
+                                              ----------         ----------         ----------        ----------     ------------
+<S>                                           <C>                <C>                <C>               <C>             <C>       
+Balance at December 31, 1994 .........                --         $       --         20,400,000        $       10      $       50
+ Sale of common stock ................                --                 --          8,470,488             1,172             (50)
+ Reclassification of accumulated
+   deficit due to termination of
+   S Corporation status ..............                --                 --                 --              (107)             -- 
+ Advances received for common
+   stock .............................                --                 --                 --                --             150
+ Exercise of common stock
+   options ...........................                --                 --            240,000                --              -- 
+ Net loss for the year ended
+   December 31, 1995 .................                --                 --                 --                --              -- 
+                                              ----------         ----------         ----------        ----------      ----------
+Balance at December 31, 1995 .........                --                 --         29,110,488             1,075             150
+ Reincorporation in Delaware .........                --                 --                 --              (783)             -- 
+ Sale of preferred stock, net of
+   $30 issuance costs ................           569,396                  6                 --                --              -- 
+ Sale of common stock ................                --                 --          1,681,056                16            (150)
+ Issuance of capital stock ...........                --                 --              5,578                --              -- 
+ Exercise of common stock
+   options ...........................                --                 --          1,008,914                10              -- 
+ Unearned compensation related
+   to stock options ..................                --                 --                 --                --              -- 
+ Net loss for the year ended
+   December 31, 1996 .................                --                 --                 --                --              -- 
+                                              ----------         ----------         ----------        ----------      ----------
+Balance at December 31, 1996 .........           569,396                  6         31,806,036               318              -- 
+ Sale of preferred stock .............             5,000                 --                 --                --              -- 
+ Exercise of common stock
+   options ...........................                --                 --          2,731,128                28              -- 
+ Public stock offering, net of
+   $1,117 issuance costs .............                --                 --          6,000,000                60              -- 
+ Conversion of preferred stock
+   into common stock .................          (574,396)                (6)         6,892,752                69              -- 
+ Issuance of common stock for
+   fixed assets and accrued
+   development .......................                --                 --            450,000                 4              -- 
+ Issuance of capital stock ...........                --                 --            423,042                 4              -- 
+ Unearned compensation related
+   to stock options ..................                --                 --                 --                --              -- 
+ Amortization of unearned
+   compensation related to
+   stock options .....................                --                 --                 --                --              -- 
+ Net loss for the year ended
+   December 31, 1997 .................                --                 --                 --                --              -- 
+                                              ----------         ----------         ----------        ----------      ----------
+Balance at December 31, 1997 .........                --         $       --         48,302,958        $      483      $       -- 
+                                              ==========         ==========         ==========        ==========      ==========
+</TABLE>
+
+<TABLE>
+<CAPTION>
+                                              ADDITIONAL                                                 TOTAL
+                                               PAID-IN            DEFERRED          ACCUMULATED       STOCKHOLDERS'
+                                               CAPITAL          COMPENSATION          DEFICIT            EQUITY
+                                              ----------        -------------       -----------       -------------
+<S>                                           <C>               <C>                 <C>               <C>       
+Balance at December 31, 1994 .........        $       --         $       --         $      (52)        $        8
+ Sale of common stock ................                --                 --                 --              1,122
+ Reclassification of accumulated
+   deficit due to termination of
+   S Corporation status ..............                --                 --                107                 --
+ Advances received for common
+   stock .............................                --                 --                 --                150
+ Exercise of common stock
+   options ...........................                --                 --                 --                 --
+ Net loss for the year ended
+   December 31, 1995 .................                --                 --               (303)              (303)
+                                              ----------         ----------         ----------         ----------
+Balance at December 31, 1995 .........                --                 --               (248)               977
+ Reincorporation in Delaware .........               783                 --                 --                 --
+ Sale of preferred stock, net of
+   $30 issuance costs ................             7,964                 --                 --              7,970
+ Sale of common stock ................               170                 --                 --                 36
+ Issuance of capital stock ...........                11                 --                 --                 11
+ Exercise of common stock
+   options ...........................               185                 --                 --                195
+ Unearned compensation related
+   to stock options ..................               612               (612)                --                 --
+ Net loss for the year ended
+   December 31, 1996 .................                --                 --             (6,246)            (6,246)
+                                              ----------         ----------         ----------         ----------
+Balance at December 31, 1996 .........             9,725               (612)            (6,494)             2,943
+ Sale of preferred stock .............               200                 --                 --                200
+ Exercise of common stock
+   options ...........................               481                 --                 --                509
+ Public stock offering, net of
+   $1,117 issuance costs .............            49,043                 --                 --             49,103
+ Conversion of preferred stock
+   into common stock .................               (63)                --                 --                 --
+ Issuance of common stock for
+   fixed assets and accrued
+   development .......................             1,496                 --                 --              1,500
+ Issuance of capital stock ...........             3,998                 --                 --              4,002
+ Unearned compensation related
+   to stock options ..................             2,741             (2,741)                --                 --
+ Amortization of unearned
+   compensation related to
+   stock options .....................               (69)             1,423                 --              1,354
+ Net loss for the year ended
+   December 31, 1997 .................                --                 --            (31,020)           (31,020)
+                                              ----------         ----------         ----------         ----------
+Balance at December 31, 1997 .........        $   67,552         $   (1,930)        $  (37,514)        $   28,591
+                                              ==========         ==========         ==========         ==========
+</TABLE>
+
+                             See accompanying notes.
+<PAGE>   18
+                                AMAZON.COM, INC.
+
+               SUPPLEMENTAL CONSOLIDATED STATEMENTS OF CASH FLOWS
+                                 (IN THOUSANDS)
+
+<TABLE>
+<CAPTION>
+                                                                                  YEARS ENDED DECEMBER 31,
+                                                                          ----------------------------------------
+                                                                             1997            1996           1995
+                                                                          ----------       --------       --------
+<S>                                                                       <C>              <C>            <C>      
+OPERATING ACTIVITIES
+Net loss ...........................................................      $  (31,020)      $ (6,246)      $   (303)
+Adjustments to reconcile net loss to net cash provided by (used in)
+  operating activities:
+  Depreciation and amortization ....................................           3,506            296             19
+  Amortization of unearned compensation related to stock options ...           1,354             --             --
+  Changes in operating assets and liabilities:
+     Inventories ...................................................          (8,400)          (554)           (17)
+     Prepaid expenses and other ....................................          (3,034)          (315)           (14)
+     Deposits ......................................................             (21)          (148)            --
+     Accounts payable ..............................................          30,172          2,756             99
+     Accrued advertising ...........................................           2,856            598             --
+     Other liabilities and accrued expenses ........................           5,274          1,603            (16)
+                                                                          ----------       --------       --------
+      Net cash provided by (used in) operating activities ..........             687         (2,010)          (232)
+
+INVESTING ACTIVITIES
+Maturities of short-term investments ...............................           5,198             --             --
+Purchases of short-term investments ................................         (20,454)            --             --
+Purchases of fixed assets ..........................................          (7,603)        (1,335)           (52)
+                                                                          ----------       --------       --------
+       Net cash used in investing activities .......................         (22,859)        (1,335)           (52)
+
+FINANCING ACTIVITIES
+Proceeds from initial public offering ..............................          49,103             --             --
+Proceeds from exercise of stock options and sale of common stock ...             509            231          1,272
+Proceeds from issuance of capital stock ............................           3,546            437             --
+Proceeds from sale of preferred stock ..............................             200          7,970             --
+Proceeds from (repayment of) notes payable and long-term debt ......          74,953             --            (44)
+Financing costs ....................................................          (2,309)            --             --
+                                                                          ----------       --------       --------
+      Net cash provided by financing activities ....................         126,002          8,638          1,228
+                                                                          ----------       --------       --------
+Net increase in cash ...............................................         103,830          5,293            944
+Cash and cash equivalents at beginning of period ...................           6,289            996             52
+                                                                          ----------       --------       --------
+Cash and cash equivalents at end of period .........................      $  110,119       $  6,289       $    996
+                                                                          ==========       ========       ========
+
+SUPPLEMENTAL CASH FLOW INFORMATION
+Common stock issued for fixed assets and accrued product development      $    1,500       $     --       $     --
+Fixed assets acquired under capital lease ..........................      $      442       $     --       $     --
+Fixed assets acquired under financing agreement ....................      $    3,021       $     --       $     --
+Interest paid ......................................................      $       39       $     --       $     --
+</TABLE>
+
+                             See accompanying notes.
+<PAGE>   19
+                                AMAZON.COM, INC.
+
+             NOTES TO SUPPLEMENTAL CONSOLIDATED FINANCIAL STATEMENTS
+
+NOTE 1 - ACCOUNTING POLICIES
+
+     Description of Business
+
+       Amazon.com, Inc. ("Amazon.com" or the "Company") was incorporated on 
+July 5, 1994. The Company is an online retailer of books and other
+information-based products on the Company's Web site and offers more than 2.5
+million titles.
+
+     Pooling of Interests
+
+       On August 27, 1998, pursuant to an Agreement and Plan of Merger, dated as
+of August 3, 1998, by and among the Company, Sage Enterprises, Inc.
+("PlanetAll"), and Pacific Acquisition, Inc. ("PlanetAll Merger Sub"), the
+Company acquired all of the outstanding capital stock of PlanetAll and PlanetAll
+Merger Sub merged with and into PlanetAll, with PlanetAll as the surviving
+corporation. PlanetAll, founded in September 1996 and based in Boston,
+Massachusetts, provides contact management services via the Internet, including
+Web-based address book, calendar and reminder features. The Company issued
+approximately 800,000 shares of common stock, par value $.01 per share, and
+assumed all outstanding options in connection with the acquisition of PlanetAll.
+
+       This transaction was accounted for as a pooling of interests. These
+supplemental consolidated financial statements have been prepared to reflect the
+restatement of all periods presented to include the accounts of PlanetAll. The
+historical results of the pooled entities reflect each of their actual operating
+cost structures and, as a result, do not necessarily reflect the cost structure
+of the newly combined entity. The historical results do not purport to be
+indicative of results, which may occur in the future. These supplemental
+consolidated financial statements will become the historical financial
+statements of the Company after financial statements covering the date of
+consummation of the business combination are issued.
+
+     Use of Estimates
+
+       The preparation of financial statements in conformity with generally
+accepted accounting principles requires management to make estimates and
+assumptions that affect the reported amounts of assets and liabilities and
+disclosure of contingent assets and liabilities at the date of the financial
+statements and the reported amounts of revenues and expenses during the
+reporting period. Actual results could differ from those estimates.
+
+     Cash and Cash Equivalents
+
+       The Company invests certain of its excess cash in debt instruments of the
+U.S. government and its agencies, foreign governments and high-quality corporate
+issuers. The Company considers all highly liquid instruments with an original
+maturity of three months or less to be cash equivalents. Cash and cash
+equivalents are carried at cost, which approximates market.
+
+     Short-term Investments
+
+       At December 31, 1997, short-term investments consist primarily of
+high-quality corporate notes, and were classified as held-to-maturity and
+carried at cost, which approximates market. The average maturity of short-term
+investments at December 31, 1997 was 139 days with a weighted-average yield of
+5.7%. Unrealized holding gains and losses at December 31, 1997 were not
+significant. At December 31, 1996, the Company did not hold any short-term
+investments.
+
+     Deferred Charges
+
+       On December 23, 1997, the Company borrowed $75 million pursuant to a
+three-year senior secured term credit agreement (the "Loan"). At December 31,
+1997, deferred charges consisted of fees associated with the Loan. The fees will
+be amortized over the life of the Loan using the straight-line method. During
+1997 the Company recognized $64,000 in deferred charge amortization.
+
+<PAGE>   20
+     Inventories
+
+       Inventories are valued at the lower of average cost or market.
+
+       The Company purchases a substantial majority of its products from two
+major vendors, Ingram Book Group ("Ingram") and Baker & Taylor, Inc. ("B&T").
+Ingram is the Company's largest supplier and accounted for 58% and 59% of the
+Company's inventory purchases in 1997 and 1996, respectively. The Company has no
+long-term contracts or arrangements with any of its vendors that guarantee the
+availability of merchandise, the continuation of particular payment terms or the
+extension of credit limits. There can be no assurance that the Company's current
+vendors will continue to sell merchandise to the Company on current terms or
+that the Company will be able to establish new or extend current vendor
+relationships to ensure acquisition of merchandise in a timely and efficient
+manner and on acceptable commercial terms. If the Company were unable to develop
+and maintain relationships with vendors that would allow it to obtain sufficient
+quantities of merchandise on acceptable commercial terms, such inability could
+have a material adverse effect on the Company's business, prospects, financial
+condition and results of operations.
+
+     Fixed Assets
+
+       Fixed assets are recorded at cost less accumulated depreciation.
+Depreciation of fixed assets is provided using primarily the straight-line
+method over the estimated useful lives of two to five years.
+
+     Income Taxes
+
+       The Company recognizes deferred tax assets and liabilities based on
+differences between the financial reporting and tax bases of assets and
+liabilities using the enacted tax rates and laws that are expected to be in
+effect when the differences are expected to be recovered. The Company has
+provided a full valuation allowance on the deferred tax asset, consisting
+primarily of net operating loss carryforwards, because of uncertainty regarding
+its realizability.
+
+     Revenue Recognition
+
+       The Company recognizes revenue from product sales, net of any discounts,
+when the products are shipped to customers. Outbound shipping and handling
+charges are included in net sales. Revenue from gift certificates is recognized
+upon product shipment following redemption. The Company provides an allowance
+for sales returns, which have been insignificant, based on historical
+experience. International sales were $36.2 million, $5.1 million and $198,000
+for the years ended December 31, 1997, 1996 and 1995, representing 25%, 33% and
+39% of sales, respectively. No foreign country or geographical area accounted
+for more than 10% of revenue in any of the periods presented.
+
+     Advertising Costs
+
+       The cost of advertising is expensed as incurred. For the years ended
+December 31, 1997, 1996 and 1995, the Company incurred advertising expense of
+$21.2 million, $3.4 million and $30,000, respectively.
+
+     Product Development
+
+       Product development expenses consist principally of payroll and related
+expenses for development, editorial, systems and telecommunications operations
+personnel and consultants, systems and telecommunications infrastructure and
+costs of acquired content. To date, all product development costs have been
+expensed as incurred.
+
+     Stock Compensation
+
+       The Company has elected to apply the disclosure-only provisions of
+Statement of Financial Accounting Standard ("SFAS") No. 123, Accounting for
+Stock-Based Compensation. Accordingly, the Company accounts for stock-based
+compensation using the intrinsic value method prescribed in Accounting
+Principles Board Opinion No. 25, Accounting for Stock Issued to Employees, and
+related interpretations. Compensation cost for stock options is measured as the
+excess, if any, of the fair value of the Company's common stock at the date of
+grant over the stock option exercise price.
+
+     Concentrations of Credit Risk
+
+       The Company is subject to concentrations of credit risk from its holdings
+of cash, cash equivalents and short-term investments. The Company's credit risk
+is managed by investing its cash in high-quality money market instruments and
+securities of the U.S. government and its agencies, foreign governments and
+high-quality corporate issuers. In addition, the Company's accounts receivable
+are 
+
+<PAGE>   21
+not significant and are due from domestic banks. The Company believes it had no
+unusual concentrations of credit risk at December 31, 1997.
+
+     Net Loss Per Share
+
+       In 1997, the Financial Accounting Standards Board ("FASB") issued SFAS
+No. 128, Earnings per Share. SFAS No. 128 replaced the previously reported
+primary and fully diluted earnings per share with basic and diluted earnings per
+share. Unlike primary earnings per share, basic earnings per share excludes any
+dilutive effects of options, warrants and convertible securities. Diluted
+earnings per share is very similar to the previously reported fully diluted
+earnings per share. Basic earnings per share is computed using the
+weighted-average number of common shares outstanding during the period. Diluted
+earnings per share is computed using the weighted-average number of common and
+common stock equivalent shares outstanding during the period. Common equivalent
+shares are excluded from the computation if their effect is antidilutive. Net
+loss per share amounts for all periods have been restated to conform to SFAS No.
+128 requirements.
+
+       Pro forma loss per share is based on the weighted average number of
+common and common equivalent shares outstanding during each period. To calculate
+pro forma loss per share, all outstanding shares of convertible preferred stock
+are assumed to have been converted to common stock for all periods presented.
+
+     New Accounting Pronouncements
+
+       In June 1997, FASB issued SFAS No. 130, Reporting Comprehensive Income,
+which establishes standards for reporting comprehensive income and its
+components, and SFAS No. 131, Disclosures about Segments of an Enterprise and
+Related Information, which establishes standards for reporting information about
+operating segments. As of January 1, 1998, the Company adopted these statements.
+The adoption of these statements had no material impact on the Company's net
+loss or stockholders' equity.
+
+     Reclassifications
+
+       Certain prior-year balances have been reclassified to conform to the
+current-year presentation.
+
+NOTE 2 - FIXED ASSETS
+
+Fixed assets, at cost, consist of the following:
+
+<TABLE>
+<CAPTION>
+                                                             DECEMBER 31,
+                                                         --------------------
+                                                           1997         1996
+                                                         --------      ------
+                                                            (IN THOUSANDS)
+     <S>                                                 <C>           <C>   
+     Computers and equipment ........................    $  7,562      $1,140
+     Purchased software .............................       4,560         146
+     Leasehold improvements .........................         926         131
+     Leased assets ..................................         442          --
+                                                         --------      ------
+                                                           13,490       1,417
+     Less accumulated depreciation and
+       Amortization .................................       3,764         320
+                                                         --------      ------
+              Fixed assets, net .....................    $  9,726      $1,097
+                                                         ========      ======
+</TABLE>
+
+NOTE 3 - DEBT
+
+     Financing Arrangements
+
+       On December 23, 1997, the Company borrowed $75 million pursuant to a
+three-year senior secured term Loan. The purpose of the Loan is to finance
+working capital, capital additions, operations, acquisitions, joint ventures and
+general corporate purposes. The Loan is secured by a first priority lien on
+substantially all of the Company's assets. The Company has the option to choose
+from the following interest rate options: (i) a variable rate adjusted every
+one, two, three or six months at the Company's option and based on the London
+Interbank Offered Rate ("LIBOR") plus 3.50% per annum for the first six months
+of the Loan and 4.00% thereafter, or (ii) a variable rate of interest based on
+the lender's Base Rate plus 1.50% per annum for the first six months of the Loan
+and 2.00% thereafter. In connection with the Loan, in January 1998 the Company
+entered into certain interest rate risk management agreements. The Company is
+
+<PAGE>   22
+required to make mandatory prepayments on the Loan equal to 50% of the proceeds
+from any debt and/or equity offerings (other than the proceeds of certain
+permitted debt) and 100% of the proceeds from certain sales of assets that are
+not reinvested in replacement assets.
+
+       The Loan includes covenants restricting certain activities by the
+Company, including (i) the incurrence of additional indebtedness, (ii)
+consolidations, mergers and sales of assets and (iii) dividends and
+distributions to stockholders. In addition, financial covenants require the
+Company to, among other things, maintain a minimum cash balance, maintain
+certain levels of earnings or losses before interest, taxes, depreciation and
+amortization, limit its accounts payable aging and limit its capital and
+acquisition expenditures. The Loan contains standard events of default,
+including, among other things, a change in ownership or control. As a result,
+the Loan may reduce the Company's operational flexibility and may limit its
+ability to pursue market opportunities. The Company met all Loan covenants at
+December 31, 1997.
+
+       In connection with the Loan, the Company issued warrants to purchase a
+total of 1,500,000 shares of the Company's common stock. All or a portion of the
+warrants will be canceled if the Company repays the Loan in full according to
+the following schedule: all warrants if repayment occurs within 12 months;
+warrants to purchase 1,350,000 shares if repayment occurs within 15 months;
+warrants to purchase 1,125,000 shares if repayment occurs within 18 months;
+warrants to purchase 900,000 shares if repayment occurs within 24 months;
+warrants to purchase 450,000 shares if repayment occurs within 30 months; and no
+warrants if repayment occurs after 30 months. Warrants become exercisable when
+they can no longer be canceled and remain exercisable for five years after such
+date. The exercise price for the warrants is $26.06 per share.
+
+     Financing Agreement for Purchase of Fixed Assets
+
+       In November 1997, the Company purchased fixed assets through a financing
+agreement with a vendor having an imputed interest rate of 7.7% and a term of
+three years. The debt is to be repaid in four equal payments.
+
+       Future minimum debt payments at December 31, 1997 are as follows:
+
+<TABLE>
+<CAPTION>
+                YEAR ENDING DECEMBER 31,
+                ------------------------
+                     (IN THOUSANDS)
+                <S>                                     <C>
+                       1998.........................    $ 1,500
+                       1999.........................        761
+                       2000.........................     75,760
+                                                        -------
+                Total debt..........................     78,021
+                Less current portion................      1,500
+                                                        -------
+                Long-term debt......................    $76,521
+                                                        =======
+</TABLE>
+
+<PAGE>   23
+NOTE 4 - COMMITMENTS
+
+       The Company currently leases office and distribution center facilities
+and fixed assets under non-cancelable operating and capital leases. Rental
+expense under operating lease agreements for 1997, 1996 and 1995 was $2.1
+million, $270,000 and $12,000, respectively. The Company has also entered into
+certain advertising agreements.
+
+       Future minimum commitments as of December 31, 1997 are as follows:
+
+<TABLE>
+<CAPTION>
+          YEAR ENDING DECEMBER 31,                                   OPERATING
+          -----------------------                         CAPITAL    LEASES AND
+              (IN THOUSANDS)                               LEASE     ADVERTISING
+                                                          -------    -----------
+     <S>                                                  <C>         <C>     
+                 1998................................     $  193      $ 14,045
+                 1999................................        145        15,520
+                 2000................................         60        13,172
+                 2001................................         --         1,407
+                 2002................................         --         1,176
+                 Thereafter..........................         --            23
+                                                          ------      --------
+                     Total minimum lease payments....     $  398      $ 45,343
+                                                                      ========
+      Less imputed interest..........................         63
+                                                          ------
+          Present value of net minimum lease payments        335
+                       Less current portion..........        154
+                                                          ------
+      Long-term capital lease obligation.............     $  181
+                                                          ======
+</TABLE>
+
+NOTE 5 - STOCKHOLDERS' EQUITY
+
+     Reincorporation and Authorized Capital
+
+       On May 28, 1996, the Company reincorporated in the state of Delaware with
+authorized capital of 5,000,000 shares of $0.01 par value preferred stock and
+25,000,000 shares of $0.01 par value common stock. The accompanying financial
+statements have been restated to reflect the reincorporation. On April 18, 1997,
+the Company increased its authorized common stock to 100,000,000 shares and
+increased its authorized preferred stock to 10,000,000 shares.
+
+     Preferred Stock
+
+       In June 1996, the Company issued 569,396 shares of Series A convertible
+preferred stock at a price of $14.05 per share. In January and February 1997,
+the Company sold an additional 5,000 shares of Series A preferred stock at $40
+per share. While outstanding, the preferred stock was convertible into common
+stock at the option of the holder, at any time, at a rate of six shares of
+common stock for one share of preferred stock. As of the closing of the initial
+public offering, all of the preferred stock outstanding was converted into an
+aggregate of 6,892,752 shares of common stock.
+
+     Common Stock
+
+       On November 23, 1996, the Company effected a four-for-one common stock
+split. On April 18, 1997, the Company effected a three-for-two common stock
+split. The accompanying financial statements have been restated to reflect these
+stock splits.
+
+     Initial Public Offering
+
+       On May 15, 1997, the Company completed an initial public offering of
+6,000,000 shares of its common stock. Net proceeds to the Company aggregated
+$49.1 million.
+
+     Stock Options
+
+       The Company's stock option plans consist of the 1997 Stock Option Plan,
+the 1997 Amended Stock Option Plan (the "PlanetAll Plan") and the 1994 Stock
+Option Plan (collectively, the "Plans"). Shares reserved under the Plans consist
+of 12,000,000 shares in the 1997 plan, approximately 100,000 shares in the
+PlanetAll Plan, and 9,600,000 shares in the 1994 plan. Any shares of common
+stock available for issuance under the 1994 Stock Option Plan that are not
+issued under that plan may be added to the aggregate number of shares available
+for issuance under the 1997 Stock Option Plan.
+
+<PAGE>   24
+
+       Generally, options are granted by the Company's Board of Directors at an
+exercise price of not less than the fair market value of the Company's common
+stock at the date of grant. Each outstanding option granted prior to December
+20, 1996 has a term of five years from the date of vesting. Each outstanding
+option granted on or subsequent to December 20, 1996 has a term of ten years
+from the date of grant. Subject to IRS limitations, options granted under the
+Plans generally become exercisable immediately. Options generally vest at the
+rate of 20% after year one, 20% after year two and 5% at the end of each quarter
+for years three through five. Shares issued upon exercise of options that are
+unvested are subject to repurchase by the Company upon termination of employment
+or services. At December 31, 1997, 1,619,842 shares of common stock were subject
+to repurchase.
+
+       During 1995, the Company granted a total of 720,000 nonqualified stock
+options outside of the Plans under separate agreements with three individuals.
+Under the terms of these agreements, the option prices range from $0.167 to
+$0.334 and vest at the rate of 40% on the date of grant, 30% after two years and
+30% after four years. Unexercised options expire five years after the date of
+grant. At December 31, 1997, options for 312,000 shares of common stock were
+exercisable and options for 192,000 shares had been exercised.
+
+       The following table summarizes the Company's stock option activity:
+
+<TABLE>
+<CAPTION>
+                                                                         WEIGHTED
+                                                       NUMBER            AVERAGE
+                                                         OF              EXERCISE
+                                                       SHARES             PRICE
+                                                     ----------          --------
+<S>                                                  <C>                <C>    
+Balance, December 31, 1994 .................          2,353,632          $ 0.001
+  Options granted ..........................          1,484,928            0.172
+  Options canceled .........................            (60,000)           0.086
+  Options exercised ........................           (240,000)           0.001
+                                                     ----------
+Balance December 31, 1995 ..................          3,538,560            0.071
+  Options granted:
+     At fair market value ..................          2,091,745            0.172
+     At less than fair market value ........          3,108,300            0.398
+  Options canceled .........................         (1,057,444)           0.139
+  Options exercised ........................         (1,008,914)           0.194
+                                                     ----------
+Balance December 31, 1996 ..................          6,672,247            0.225
+  Options granted:
+     At fair market value ..................          3,263,650           11.501
+     At less than fair market value ........          2,756,700            1.420
+  Options canceled .........................           (850,691)           1.617
+  Options exercised ........................         (2,731,128)           0.190
+                                                     ----------
+Balance December 31, 1997 ..................          9,110,778            4.507
+                                                     ==========
+</TABLE>
+
+       At December 31, 1997, 9,327,252 shares of common stock were available for
+future grant under the Plans.
+
+       The following table summarizes information about options outstanding and
+exercisable at December 31, 1997:
+
+<TABLE>
+<CAPTION>
+                                     OPTIONS OUTSTANDING
+                         --------------------------------------------
+                                         WEIGHTED-                           OPTIONS EXERCISABLE
+                                         AVERAGE                         ---------------------------
+                                         REMAINING        WEIGHTED-                      WEIGHTED-
+RANGE OF                   OPTIONS      CONTRACTUAL       AVERAGE          OPTIONS       AVERAGE
+EXERCISE PRICES          OUTSTANDING       LIFE        EXERCISE PRICE    EXERCISABLE  EXERCISE PRICE
+- ---------------          -----------    -----------    --------------    -----------  --------------
+<S>                      <C>            <C>            <C>               <C>          <C>    
+$ 0.001 -- $ 0.166          344,211      6.3 years       $ 0.087             341,643     $ 0.086
+  0.167 --   0.500        3,067,169      6.5 years         0.302           2,763,983       0.299
+  0.501 --   1.333        1,941,216      9.1 years         1.116           1,146,216       1.087
+  1.334 --   2.333          640,400      9.2 years         2.208             567,148       2.222
+  2.334 --   6.000        1,651,056      9.3 years         6.051           1,025,100       5.926
+  6.001 --  12.656          569,826      9.6 years        11.005             468,726      10.992
+ 12.657 --  27.625          746,400      9.8 years        21.275             472,182      20.760
+ 27.626 --  31.282          150,500      9.9 years        29.039              73,546      29.003
+                          ---------                                        ---------
+$ 0.001 -- $31.282        9,110,778      8.2 years       $ 4.505           6,858,544     $ 3.867
+                          =========                                       ==========
+</TABLE>
+
+       The Company follows the intrinsic value method in accounting for its
+stock options. Had compensation cost been recognized based on the fair value at
+the date of grant for options granted in 1997, 1996 and 1995, the pro forma
+amounts of the Company's net loss and net loss per share for the years ended
+December 31, 1997, 1996 and 1995 would have been as follows:
+
+<PAGE>   25
+
+<TABLE>
+<CAPTION>
+                                                         FOR THE YEARS ENDED DECEMBER 31,
+                                                   -------------------------------------------
+                                                     1997              1996             1995
+                                                   ---------         --------         --------
+                                                       (IN THOUSANDS, EXCEPT PER SHARE DATA)
+<S>                                                <C>               <C>              <C>      
+Net loss - as reported                             $ (31,020)        $ (6,246)        $   (303)
+Net loss - pro forma                                 (35,983)          (6,278)            (304)
+Pro forma basic and diluted loss per common
+share - as reported                                $   (0.71)        $  (0.17)        $  (0.01)
+Pro forma basic and diluted loss per common
+share - pro forma                                      (0.83)           (0.17)           (0.01)
+</TABLE>
+
+       The fair value of substantially all of the option grants was estimated
+using the Black-Scholes option-pricing model. For the year ended December 31,
+1997, the weighted-average value was generally estimated using an expected life
+of three years, no dividends, risk-free interest rates ranging from 5.70% to
+6.93% and a volatility of .50. For 1996 and 1995 the value was generally
+estimated using risk-free interest rates of 5.16% to 7.60%, an expected option
+life of three years and no expected dividends. As the Company was privately held
+in 1996 and 1995, expected volatility was not applicable. The weighted-average
+fair value of options granted during the years 1997, 1996 and 1995 was $6.20,
+$0.04 and $0.03, respectively, for options granted at fair market value. The
+weighted-average fair value of options granted at less than fair market value
+during 1997 and 1996 was $1.66 and $0.27, respectively.
+
+     Deferred Compensation
+
+       The Company recorded aggregate deferred compensation of approximately
+$2.7 million and $612,000 in 1997 and 1996, respectively. The amounts recorded
+represent the difference between the grant price and the deemed fair value of
+the Company's common stock for shares subject to options granted in 1997 and
+1996. The amortization of deferred compensation will be charged to operations
+over the vesting period of the options, which is typically five years. Total
+amortization recognized in 1997 was approximately $1.4 million. No amortization
+was recognized in 1996.
+
+     Common Stock Reserved
+
+       At December 31, 1997, common stock reserved for future issuance was as
+follows:
+
+<TABLE>
+<S>                                                            <C>       
+   Stock options..........................................     18,438,030
+   Common stock warrants..................................      1,500,000
+                                                                ---------
+      Total ..............................................     19,938,030
+                                                               ==========
+</TABLE>
+
+NOTE 6 - INCOME TAXES
+
+       The Company did not provide an income tax benefit for any of the periods
+presented because it has experienced operating losses since inception. At
+December 31, 1997, the Company had net operating loss carryforwards of
+approximately $33.6 million. Utilization of net operating loss carryforwards may
+be subject to certain limitations under Section 382 of the Internal Revenue
+Code. The carryforwards begin to expire in 2011.
+
+       Deferred income taxes reflect the net tax effects of temporary
+differences between the carrying amounts of assets and liabilities for financial
+reporting purposes and the amounts used for income tax purposes. Significant
+components of the Company's deferred tax assets are as follows:
+
+<PAGE>   26
+
+<TABLE>
+<CAPTION>
+                                                                 DECEMBER 31,
+                                                            ----------------------
+                                                              1997           1996
+                                                            --------       -------
+Deferred tax assets:                                            (IN THOUSANDS)
+<S>                                                         <C>            <C>    
+ Net operating loss carryforwards ....................      $  9,496       $ 1,855
+ Reserves ............................................         1,395            --
+ Compensation expense ................................           460            --
+ Other ...............................................           527            --
+                                                            --------       -------
+         Total deferred tax assets ...................        11,878         1,855
+Valuation allowance for deferred tax assets ..........       (11,878)       (1,855)
+                                                            --------       -------
+Net deferred tax assets ..............................      $     --       $    --
+                                                            ========       =======
+</TABLE>
+
+NOTE 7 - EMPLOYEE BENEFIT PLAN
+
+       The Company has a 401(k) savings plan covering substantially all of its
+employees. Eligible employees may contribute through payroll deductions. The
+Company matches employees' contributions at the discretion of the Company's
+Board of Directors. To date, the Company has not matched employee contributions
+to the 401(k) savings plan.
+
+
+NOTE 8 - QUARTERLY RESULTS (UNAUDITED)
+
+       The following tables contain selected unaudited supplemental consolidated
+statements of operations and stock price data for each quarter of 1997 and 1996.
+The Company believes that the following information reflects all normal
+recurring adjustments necessary for a fair presentation of the information for
+the periods presented. The operating results for any quarter are not necessarily
+indicative of results for any future period.
+
+<TABLE>
+<CAPTION>
+                                                                         1997
+                                                ------------------------------------------------------
+                                                   4th            3rd            2nd            1st
+                                                 Quarter        Quarter        Quarter        Quarter
+                                                ---------      ---------      ---------      ----------
+                                                         (IN THOUSANDS, EXCEPT PER SHARE DATA)
+<S>                                             <C>            <C>            <C>            <C>     
+Net sales ................................      $ 66,040       $ 37,887       $ 27,855       $ 16,005
+Gross profit .............................        12,913          7,170          5,214          3,521
+Net loss .................................       (10,808)        (9,647)        (7,345)        (3,220)
+Pro forma basic and diluted loss per
+      share ..............................         (0.23)         (0.21)         (0.17)         (0.08)
+Shares used in computation
+  of pro forma basic and diluted loss
+  per share ..............................        46,471         45,865         42,640         38,810
+Stock sales prices per share:
+      High ...............................      $  32.75       $  28.88       $  15.00            N/A
+      Low ................................      $  21.13       $   9.07       $   7.88            N/A
+</TABLE>
+
+<TABLE>
+<CAPTION>
+                                                                        1996
+                                                ------------------------------------------------------
+                                                   4th            3rd            2nd            1st
+                                                 Quarter        Quarter        Quarter        Quarter
+                                                ---------      ---------      ---------      ----------
+                                                         (IN THOUSANDS, EXCEPT PER SHARE DATA)
+<S>                                             <C>            <C>            <C>            <C>     
+Net sales ................................      $  8,468       $  4,173       $  2,230       $    875
+Gross profit .............................         1,891            911            477            180
+Net loss .................................        (2,747)        (2,401)          (767)          (331)
+Pro forma basic and diluted loss per
+   share .................................         (0.07)         (0.06)         (0.02)         (0.01)
+Shares used in computation
+      of pro forma basic and diluted
+      loss per share .....................        38,176         38,084         36,678         35,424
+Stock sales prices per share:
+      High ...............................           N/A            N/A            N/A            N/A
+      Low ................................           N/A            N/A            N/A            N/A
+</TABLE>
+
+NOTE 9 - SUBSEQUENT EVENTS (UNAUDITED)
+
+        In January 1998, PlanetAll issued 55,785 shares of capital stock for
+proceeds of approximately $1.0 million. In April 1998, PlanetAll issued 298,719
+shares of capital stock for proceeds of approximately $7.4 million.
+
+<PAGE>   27
+
+       In April 1998, the Company acquired three Internet companies: Bookpages
+Limited ("Bookpages"), Telebook, Inc. ("Telebook") and Internet Movie Database
+Limited ("IMDB"). Bookpages and Telebook are online booksellers. Bookpages has
+operations in the United Kingdom, and Telebook has operations primarily in
+Germany through its ABC Bucherdienst subsidiary. IMDB operates a comprehensive
+repository for movie information on the Internet. Each of the acquisitions was
+accounted for under the purchase method of accounting. The aggregate purchase
+price of the three acquisitions, plus related charges, was approximately $55
+million. The consideration for the acquisitions was comprised of cash and common
+stock. The Company issued an aggregate of approximately 1.1 million shares of
+common stock to effect the transactions. The excess of the purchase price over
+the fair value of net assets acquired was allocated to goodwill and other
+purchased intangibles and will be amortized over two years.
+
+       On May 8, 1998, the Company completed the offering of approximately $326
+million gross proceeds of the Senior Discount Notes due May 1, 2008. The Senior
+Discount Notes were sold at a substantial discount from their principal amount
+at maturity of $530 million. Prior to November 1, 2003, no cash interest
+payments are required; instead, interest will accrete during this period to the
+$530 million aggregate principal amount at maturity. From and after May 1, 2003,
+the Senior Discount Notes will bear interest at a rate of 10% per annum payable
+in cash on each May 1 and November 1.
+
+       The Senior Discount Notes are redeemable, at the option of the Company,
+in whole or in part, at any time on or after May 1, 2003, at the redemption
+prices set forth in the Indenture for the Senior Discount Notes (the
+"Indenture"), plus accrued interest, if any, to the date of redemption. At any
+time prior to May 1, 2001, the Company also may redeem up to 35% of the
+aggregate principal amount at maturity of the Senior Discount Notes with the
+proceeds of one or more sales of Capital Stock (as defined in the Indenture)
+(other than Disqualified Stock (as defined in the Indenture)), at 110 % of their
+Accreted Value (as defined in the Indenture) on the redemption date, plus
+accrued interest, if any, to the date of redemption; provided that after any
+such redemption at least 65% of the aggregate principal amount at maturity of
+Senior Discount Notes originally issued remains outstanding. In addition, at any
+time prior to May 1, 2003, the Company may redeem all, but not less than all, of
+the Senior Discount Notes at a redemption price equal to the sum of (i) the
+Accreted Value (as defined in the Indenture) on the redemption date, plus (ii)
+accrued interest, if any, to the redemption date, plus (iii) the Applicable
+Premium (as defined in the Indenture).
+
+       Upon a Change of Control (as defined in the Indenture), the Company would
+be required to make an offer to purchase the Senior Discount Notes at a purchase
+price equal to 101% of their Accreted Value on the date of purchase, plus
+accrued interest, if any. There can be no assurance that the Company would have
+sufficient funds available at the time of any Change of Control to make any
+required debt repayment (including repurchases of the Senior Discount Notes).
+
+       The Senior Discount Notes are senior unsecured indebtedness of the
+Company ranking pari passu with the Company's existing and future
+unsubordinated, unsecured indebtedness and senior in right of payment to all
+subordinated indebtedness of the Company. The Senior Discount Notes are
+effectively subordinated to all secured indebtedness and to all existing and
+future liabilities of the Company's subsidiaries.
+
+       The Indenture contains certain covenants that, among other things, limit
+the ability of the Company and its Restricted Subsidiaries (as defined in the
+Indenture) to incur indebtedness, pay dividends, prepay subordinated
+indebtedness, repurchase capital stock, make investments, create liens, engage
+in transactions with stockholders and affiliates, sell assets and engage in
+mergers and consolidations. However, these limitations are subject to a number
+of important qualifications and exceptions.
+
+       A portion of the net proceeds from the offering of the Senior Discount
+Notes has been used to retire the Loan. The Company expects to use the remaining
+net proceeds for general corporate purposes, including working capital to fund
+anticipated operating losses, the expansion of the Company's core business,
+investments in new business segments and markets, including the Company's sale
+of music products and international expansion, and capital expenditures. The
+Company expects, if the opportunity arises, to use an unspecified portion of the
+net proceeds to acquire or invest in complementary businesses, products and
+technologies.
+
+       On June 1, 1998, the Company effected a two-for-one stock split in the
+form of a stock dividend to stockholders of record on May 20, 1998. Accordingly,
+the accompanying consolidated financial statements have been restated to reflect
+the split.
+
+       On June 3, 1998, the Company increased the number of authorized shares of
+common stock, par value $0.01 per share, from 100 million shares to 300 million
+shares.
+
+       On August 12, 1998, pursuant to an Agreement and Plan of Merger dated as
+of August 3, 1998, by and among the Company, Junglee Corp ("Junglee") and AJ
+Acquisition, Inc. ("Junglee Merger Sub"), the Company acquired all of the
+outstanding capital stock of Junglee and Junglee Merger Sub merged with and into
+Junglee, with Junglee as the surviving corporation (the "Junglee Merger").
+Junglee, founded in June 1996 and based in Sunnyvale, California, has developed
+World Wide Web-based virtual database technology to help consumers find products
+on the Internet. The Company issued approximately 1,600,000 shares of common
+stock, par value $.01 per share, and assumed all outstanding options in
+connection with the acquisition of Junglee. The Junglee Merger will be accounted
+for under the purchase method of accounting.
+<PAGE>   28
+                                AMAZON.COM, INC.
+
+          SCHEDULE II - SUPPLEMENTAL VALUATION AND QUALIFYING ACCOUNTS
+
+ALLOWANCE FOR DOUBTFUL ACCOUNTS
+
+
+<TABLE>
+<CAPTION>
+                                                Charged/         Collection
+                                               (Credited)            of
+                              Balance at        to Costs           Accounts            Accounts          Balance at
+                              Beginning           and             Previously           Written             End of
+Year Ended                   of Period          Expenses          Written Off            Off               Period
+- ----------                   ---------          --------          -----------          --------          ----------
+
+                                                                (in thousands)
+
+<S>                            <C>               <C>                <C>                <C>                 <C>
+December 31, 1997               $20               $203               $--                $(154)              $69
+                                ===               ====               ====               =====               ===
+
+December 31, 1996                --                 30                 --                 (10)               20
+                                ===               ====               ====               =====               ===
+
+December 31, 1995                --                 --                 --                  --                --
+                                ===               ====               ====               =====               ===
+</TABLE>
+
+
+INVENTORY VALUATION ALLOWANCE
+
+
+<TABLE>
+<CAPTION>
+                             
+                                                Charged/ 
+                                               (Credited)
+                             Balance at          to Costs          Inventory        Balance at
+                             Beginning            and             Disposed or         End of
+Year Ended                   of Period          Expenses          Written Off         Period
+- ----------                   ---------          --------          -----------         ------
+                                            (in thousands)
+<S>                            <C>               <C>                <C>               <C> 
+December 31, 1997               $--               $800               $--               $800
+                                ===               ====               ===               ====
+
+December 31, 1996                --                 --                --                 --
+                                ===               ====               ===               ====
+
+December 31, 1995                --                 --                --                 --
+                                ===               ====               ===               ====
+</TABLE>
+
+
+
+
+<PAGE>   29
+
+                                AMAZON.COM, INC.
+
+                    SUPPLEMENTAL CONSOLIDATED BALANCE SHEETS
+                 (IN THOUSANDS, EXCEPT SHARE AND PER SHARE DATA)
+
+
+
+<TABLE>
+<CAPTION>
+                                                                          MARCH 31,        DECEMBER 31,
+                                                                            1998              1997
+                                                                          ---------        ---------
+                               ASSETS                                    (unaudited)
+<S>                                                                       <C>              <C>      
+Current assets:
+  Cash and cash equivalents .......................................       $  99,101        $ 110,119
+  Short-term investments ..........................................          18,220           15,256
+  Inventories .....................................................          11,674            8,971
+  Prepaid expenses and other ......................................           4,486            3,363
+                                                                          ---------        ---------
+          Total current assets ....................................         133,481          137,709
+Fixed assets, net .................................................          10,275            9,726
+Deposits ..........................................................             296              169
+Deferred charges ..................................................           2,048            2,240
+                                                                          ---------        ---------
+          Total assets ............................................       $ 146,100        $ 149,844
+                                                                          =========        =========
+
+                      LIABILITIES AND STOCKHOLDERS' EQUITY
+Current liabilities:
+  Accounts payable ................................................       $  34,609        $  33,027
+  Accrued advertising .............................................           5,349            3,454
+  Other liabilities and accrued expenses ..........................           8,934            6,570
+  Current portion of long-term debt ...............................             684            1,500
+                                                                          ---------        ---------
+          Total current liabilities ...............................          49,576           44,551
+
+Long-term portion of debt .........................................          76,521           76,521
+Long-term portion of capital lease obligation .....................             181              181
+
+Stockholders' equity:
+  Preferred stock, $0.01 par value:
+     Authorized shares -- 10,000,000
+     Issued and outstanding shares-- none .........................              --               --
+  Common stock, $0.01 par value:
+     Authorized shares -- 100,000,000
+     Issued and outstanding shares -- 48,810,268 and 48,302,958
+       shares at March 31, 1998 and December 31, 1997, respectively             488              483
+  Additional paid-in capital ......................................          68,710           67,552
+  Deferred compensation ...........................................          (1,493)          (1,930)
+  Accumulated deficit .............................................         (47,883)         (37,514)
+                                                                          ---------        ---------
+       Total stockholders' equity .................................          19,822           28,591
+                                                                          ---------        ---------
+                  Total liabilities and stockholders' equity ......       $ 146,100        $ 149,844
+                                                                          =========        =========
+</TABLE>
+
+
+
+                            See accompanying notes.
+
+
+<PAGE>   30
+
+                                AMAZON.COM, INC.
+
+               SUPPLEMENTAL CONSOLIDATED STATEMENTS OF OPERATIONS
+                      (IN THOUSANDS, EXCEPT PER SHARE DATA)
+
+                                   (UNAUDITED)
+
+
+<TABLE>
+<CAPTION>
+                                                                   THREE MONTHS ENDED
+                                                                ------------------------
+                                                                        MARCH 31,
+                                                                  1998            1997
+                                                                --------        --------
+<S>                                                             <C>             <C>     
+Net sales ...............................................       $ 87,395        $ 16,005
+Cost of sales ...........................................         68,062          12,484
+                                                                --------        --------
+Gross profit ............................................         19,333           3,521
+
+Operating expenses:
+       Marketing and sales ..............................         19,503           3,906
+       Product development ..............................          7,230           1,628
+       General and administrative .......................          2,585           1,271
+                                                                --------        --------
+             Total operating expenses ...................         29,318           6,805
+
+Loss from operations ....................................         (9,985)         (3,284)
+Interest income .........................................          1,645              64
+Interest expense ........................................         (2,029)             --
+                                                                --------        --------
+Net loss ................................................       $(10,369)       $ (3,220)
+                                                                ========        ========
+
+Pro forma basic and diluted loss per share ..............       $  (0.22)       $  (0.08)
+                                                                ========        ========
+
+Shares used in computation of pro forma basic and diluted
+       loss per share ...................................         47,106          38,810
+                                                                ========        ========
+</TABLE>
+
+
+
+
+                             See accompanying notes.
+
+
+<PAGE>   31
+
+                                AMAZON.COM, INC.
+
+               SUPPLEMENTAL CONSOLIDATED STATEMENTS OF CASH FLOWS
+                                 (IN THOUSANDS)
+
+                                   (UNAUDITED)
+
+
+<TABLE>
+<CAPTION>
+                                                                                      THREE MONTHS ENDED
+                                                                                           MARCH 31,
+                                                                                   --------------------------
+                                                                                     1998              1997
+                                                                                   ---------        ---------
+<S>                                                                                <C>              <C>       
+OPERATING ACTIVITIES
+Net loss ...................................................................       $ (10,369)       $  (3,220)
+Adjustments to reconcile net loss to net
+     cash provided by (used in) operating activities:
+       Depreciation and amortization .......................................           1,841              421
+       Amortization of unearned compensation related to stock options ......             185              263
+       Changes in operating assets and liabilities:
+              Inventories ..................................................          (2,703)            (368)
+              Prepaid expenses and other ...................................          (1,122)            (612)
+              Deposits .....................................................            (127)             (47)
+              Accounts payable .............................................           1,582            2,829
+              Accrued advertising ..........................................           1,895              656
+              Other liabilities and accrued expenses .......................           1,547            1,005
+                                                                                   ---------        ---------
+                 Net cash provided by (used in) operating activities .......          (7,271)             927
+
+INVESTING ACTIVITIES
+Maturities of short-term investments .......................................           4,500               --
+Purchases of short-term investments ........................................          (7,499)              --
+Purchases of fixed assets ..................................................          (2,163)            (929)
+                                                                                   ---------        ---------
+                 Net cash used in investing activities .....................          (5,162)            (929)
+
+FINANCING ACTIVITIES
+Proceeds from exercise of stock options ....................................             415              437
+Proceeds from issuance of capital stock ....................................           1,000              206
+Proceeds from sale of preferred stock ......................................              --              200
+                                                                                   ---------        ---------
+                 Net cash provided by financing activities .................           1,415              843
+                                                                                   ---------        ---------
+Net increase (decrease) in cash and cash equivalents .......................         (11,018)             841
+Cash and cash equivalents at beginning of period ...........................         110,119            6,289
+                                                                                   ---------        ---------
+Cash and cash equivalents at end of period .................................       $  99,101        $   7,130
+                                                                                   =========        =========
+
+
+SUPPLEMENTAL CASH FLOW INFORMATION
+Common stock issued for fixed assets and accrued product development .......       $      --        $   1,500
+</TABLE>
+
+
+                             See accompanying notes.
+
+<PAGE>   32
+
+                                AMAZON.COM, INC.
+
+             NOTES TO SUPPLEMENTAL CONSOLIDATED FINANCIAL STATEMENTS
+
+                                   (UNAUDITED)
+
+
+NOTE 1 - ACCOUNTING POLICIES
+
+         Description of Business
+
+              Amazon.com, Inc. ("Amazon.com" or the "Company") was incorporated
+on July 5, 1994. The Company is the leading online retailer of books and offers
+a catalog of approximately three million titles, easy-to-use search and browse
+features, email services, personalized shopping services, secure Web-based
+credit card payment and direct shipping to customers. The Company currently
+offers other information-based products, such as music, and intends over time to
+expand its catalog into other product categories.
+
+         Pooling of Interests
+
+              On August 27, 1998, pursuant to an Agreement and Plan of Merger,
+dated as of August 3, 1998, by and among the Company, Sage Enterprises, Inc.
+("PlanetAll"), and Pacific Acquisition, Inc. ("PlanetAll Merger Sub"), the
+Company acquired all of the outstanding capital stock of PlanetAll and PlanetAll
+Merger Sub merged with and into PlanetAll, with PlanetAll as the surviving
+corporation. PlanetAll, founded in September 1996 and based in Boston,
+Massachusetts, provides contact management services via the Internet, including
+Web-based address book, calendar and reminder features. The Company issued
+approximately 800,000 shares of common stock, par value $.01 per share, and
+assumed all outstanding options in connection with the acquisition of PlanetAll.
+
+              This transaction was accounted for as a pooling of interests.
+These supplemental consolidated financial statements have been prepared to
+reflect the restatement of all periods presented to include the accounts of
+PlanetAll. The historical results of the pooled entities reflect each of their
+actual operating cost structures and, as a result, do not necessarily reflect
+the cost structure of the newly combined entity. The historical results do not
+purport to be indicative of results, which may occur in the future. These
+supplemental consolidated financial statements will become the historical
+financial statements of the Company after financial statements covering the date
+of consummation of the business combination are issued.
+
+         Unaudited Interim Financial Information
+
+              The financial statements as of March 31, 1998 and 1997 have been
+prepared by the Company pursuant to the rules and regulations of the Securities
+and Exchange Commission (the "SEC"). These statements are unaudited and, in the
+opinion of management, include all adjustments (consisting of normal recurring
+adjustments and accruals) necessary to present fairly the results for the
+periods presented. The balance sheet at December 31, 1997 has been derived from
+the audited financial statements at that date. Certain information and footnote
+disclosures normally included in financial statements prepared in accordance
+with generally accepted accounting principles have been condensed or omitted
+pursuant to such SEC rules and regulations. Operating results for the quarter
+ended March 31, 1998 are not necessarily indicative of the results that may be
+expected for the year ending December 31, 1998. These financial statements
+should be read in conjunction with the audited financial statements and the
+accompanying notes included in the Company's annual report on Form 10-K for the
+year ended December 31, 1997 and the supplemental consolidated financial
+statements and accompanying notes included in the Current Report on Form 8-K
+dated September 11, 1998. Certain prior period balances have been reclassified
+to conform to the current period presentation.
+
+              As of January 1, 1998, the Company adopted Statement of Financial
+Accounting Standards ("SFAS") No. 130, Reporting Comprehensive Income, which
+establishes standards for the reporting and display of comprehensive income and
+its components, and SFAS No. 131, Disclosures about Segments of an Enterprise
+and Related Information. The adoption of these Statements had no material impact
+on the Company's net loss or stockholders' equity.
+
+
+
+
+<PAGE>   33
+
+
+
+
+NOTE 2 - FIXED ASSETS
+
+              Fixed assets, at cost, consist of the following (in thousands):
+
+<TABLE>
+<CAPTION>
+                                                      March 31,    December 31,
+                                                        1998           1997
+                                                       -------       -------
+<S>                                                    <C>           <C>    
+               Computers and equipment .........       $ 8,738       $ 7,562
+               Purchased software ..............         5,315         4,560
+               Leasehold improvements ..........         1,199           926
+               Leased assets ...................           362           442
+                                                       -------       -------
+                                                        15,614        13,490
+               Less accumulated depreciation and
+                       amortization ............         5,339         3,764
+                                                       -------       -------
+                             Fixed assets, net .       $10,275       $ 9,726
+                                                       =======       =======
+</TABLE>
+
+
+NOTE 3 - STOCKHOLDERS' EQUITY
+
+              In January 1998, PlanetAll issued 55,785 shares of capital stock
+for proceeds of approximately $1.0 million.
+
+
+NOTE 4 - SUBSEQUENT EVENTS
+
+              In April 1998, PlanetAll issued 298,719 shares of capital stock
+for proceeds of approximately $7.0 million.
+
+              In April 1998, the Company acquired three Internet companies:
+Bookpages Limited ("Bookpages"), Telebook, Inc. ("Telebook") and Internet Movie
+Database Limited ("IMDB"). Bookpages and Telebook are online booksellers.
+Bookpages has operations in the United Kingdom, and Telebook has operations
+primarily in Germany through its ABC Bucherdienst subsidiary. IMDB operates a
+comprehensive repository for movie information on the Internet. Each of the
+acquisitions was accounted for under the purchase method of accounting. The
+aggregate purchase price of the three acquisitions, plus related charges, was
+approximately $55 million. The consideration for the acquisitions was comprised
+of cash and common stock. The Company issued an aggregate of approximately 1.1
+million shares of common stock to effect the transactions. The excess of the
+purchase price over the fair value of net assets acquired was allocated to
+goodwill and other purchased intangibles and will be amortized over two years.
+
+              On May 8, 1998, the Company completed the offering of
+approximately $326 million gross proceeds of the Senior Discount Notes due May
+1, 2008. The Senior Discount Notes were sold at a substantial discount from
+their principal amount at maturity of $530 million. Prior to November 1, 2003,
+no cash interest payments are required; instead, interest will accrete during
+this period to the $530 million aggregate principal amount at maturity. From and
+after May 1, 2003, the Senior Discount Notes will bear interest at a rate of 10%
+per annum payable in cash on each May 1 and November 1.
+
+              The Senior Discount Notes are redeemable, at the option of the
+Company, in whole or in part, at any time on or after May 1, 2003, at the
+redemption prices set forth in the Indenture for the Senior Discount Notes (the
+"Indenture"), plus accrued interest, if any, to the date of redemption. At any
+time prior to May 1, 2001, the Company also may redeem up to 35% of the
+aggregate principal amount at maturity of the Senior Discount Notes with the
+proceeds of one or more sales of Capital Stock (as defined in the Indenture)
+(other than Disqualified Stock (as defined in the Indenture)), at 110 % of their
+Accreted Value (as defined in the Indenture) on the redemption date, plus
+accrued interest, if any, to the date of redemption; provided that after any
+such redemption at least 65% of the aggregate principal amount at maturity of
+Senior Discount Notes originally issued remains outstanding. In addition, at any
+time prior to May 1, 2003, the Company may redeem all, but not less than all, of
+the Senior Discount Notes at a redemption price equal to the sum of (i) the
+Accreted Value (as defined in the Indenture) on the redemption date, plus (ii)
+accrued interest, if any, to the redemption date, plus (iii) the Applicable
+Premium (as defined in the Indenture).
+
+              Upon a Change of Control (as defined in the Indenture), the
+Company would be required to make an offer to purchase the Senior Discount Notes
+at a purchase price equal to 101% of their Accreted Value on the date of
+purchase, plus accrued interest, if any. There can be no assurance that the
+Company would have sufficient funds available at the time of any Change of
+Control to make any required debt repayment (including repurchases of the Senior
+Discount Notes).
+
+
+
+<PAGE>   34
+
+              The Senior Discount Notes are senior unsecured indebtedness of the
+Company ranking pari passu with the Company's existing and future
+unsubordinated, unsecured indebtedness and senior in right of payment to all
+subordinated indebtedness of the Company. The Senior Discount Notes are
+effectively subordinated to all secured indebtedness and to all existing and
+future liabilities of the Company's subsidiaries.
+
+              The Indenture contains certain covenants that, among other things,
+limit the ability of the Company and its Restricted Subsidiaries (as defined in
+the Indenture) to incur indebtedness, pay dividends, prepay subordinated
+indebtedness, repurchase capital stock, make investments, create liens, engage
+in transactions with stockholders and affiliates, sell assets and engage in
+mergers and consolidations. However, these limitations are subject to a number
+of important qualifications and exceptions.
+
+              A portion of the net proceeds from the offering of the Senior
+Discount Notes has been used to retire approximately $75 million of existing
+indebtedness. The Company expects to use the remaining net proceeds for general
+corporate purposes, including working capital to fund anticipated operating
+losses, the expansion of the Company's core business, investments in new
+business segments and markets, including the Company's sale of music products
+and international expansion, and capital expenditures. The Company expects, if
+the opportunity arises, to use an unspecified portion of the net proceeds to
+acquire or invest in complementary businesses, products and technologies.
+
+              On June 1, 1998, the Company effected a two-for-one stock split in
+the form of a stock dividend to stockholders of record on May 20, 1998.
+Accordingly, the accompanying consolidated financial statements have been
+restated to reflect the split.
+
+              On June 3, 1998, the Company increased the number of authorized
+shares of common stock, par value $0.01 per share, from 100 million shares to
+300 million shares.
+
+              On August 12, 1998, pursuant to an Agreement and Plan of Merger
+dated as of August 3, 1998, by and among the Company, Junglee Corp ("Junglee")
+and AJ Acquisition, Inc. ("Junglee Merger Sub"), the Company acquired all of the
+outstanding capital stock of Junglee and Junglee Merger Sub merged with and into
+Junglee, with Junglee as the surviving corporation (the "Junglee Merger").
+Junglee, founded in June 1996 and based in Sunnyvale, California, has developed
+World Wide Web-based virtual database technology to help consumers find products
+on the Internet. The Company issued approximately 1,600,000 shares of common
+stock, par value $.01 per share, and assumed all outstanding options in
+connection with the acquisition of Junglee. The Junglee Merger will be accounted
+for under the purchase method of accounting.
+
+
+
+
+<PAGE>   35
+
+                                AMAZON.COM, INC.
+
+                    SUPPLEMENTAL CONSOLIDATED BALANCE SHEETS
+                 (IN THOUSANDS, EXCEPT SHARE AND PER SHARE DATA)
+
+
+<TABLE>
+<CAPTION>
+                                                                         JUNE 30,     DECEMBER 31,
+                                                                          1998           1997
+                                                                        ---------      ---------
+                                                                       (unaudited)
+                                     ASSETS
+<S>                                                                    <C>            <C>      
+Current assets:
+  Cash ............................................................     $   7,462      $   1,876
+  Marketable securities ...........................................       337,396        123,499
+  Inventories .....................................................        17,035          8,971
+  Prepaid expenses and other ......................................        12,722          3,363
+                                                                        ---------      ---------
+          Total current assets ....................................       374,615        137,709
+Fixed assets, net .................................................        15,587          9,726
+Deposits and other ................................................           286            169
+Goodwill and other purchased intangibles, net .....................        52,398             --
+Deferred charges ..................................................         7,622          2,240
+                                                                        ---------      ---------
+          Total assets ............................................     $ 450,508      $ 149,844
+                                                                        =========      =========
+
+                      LIABILITIES AND STOCKHOLDERS' EQUITY
+Current liabilities:
+  Accounts payable ................................................     $  47,818      $  33,027
+  Accrued advertising .............................................         9,971          3,454
+  Other liabilities and accrued expenses ..........................        14,197          6,570
+  Current portion of long-term debt ...............................           684          1,500
+                                                                        ---------      ---------
+          Total current liabilities ...............................        72,670         44,551
+
+Long-term portion of debt .........................................       332,225         76,521
+Long-term portion of capital lease obligation .....................           181            181
+
+Stockholders' equity:
+  Preferred stock, $0.01 par value:
+     Authorized shares -- 10,000,000
+     Issued and outstanding shares-- none .........................            --             --
+  Common stock, $0.01 par value:
+     Authorized shares -- 300,000,000
+     Issued and outstanding shares -- 50,452,722 and 48,302,958 
+        shares, respectively ......................................           505            483
+  Additional paid-in capital ......................................       116,725         67,552
+  Deferred compensation ...........................................        (1,301)        (1,930)
+  Other gains (losses) ............................................           (35)            --
+  Accumulated deficit .............................................       (70,462)       (37,514)
+                                                                        ---------      ---------
+          Total stockholders' equity ..............................        45,432         28,591
+                                                                        ---------      ---------
+                      Total liabilities and stockholders' equity ..     $ 450,508      $ 149,844
+                                                                        =========      =========
+</TABLE>
+
+
+
+                             See accompanying notes.
+
+
+<PAGE>   36
+
+                                AMAZON.COM, INC.
+
+               SUPPLEMENTAL CONSOLIDATED STATEMENTS OF OPERATIONS
+                      (IN THOUSANDS, EXCEPT PER SHARE DATA)
+
+                                   (UNAUDITED)
+
+
+<TABLE>
+<CAPTION>
+                                                                            QUARTER ENDED                    SIX MONTHS ENDED
+                                                                               JUNE 30,                          JUNE 30,
+                                                                      --------------------------        --------------------------
+                                                                        1998              1997            1998              1997
+                                                                      ---------        ---------        ---------        ---------
+<S>                                                                   <C>              <C>              <C>              <C>      
+Net sales .....................................................       $ 116,010        $  27,855        $ 203,405        $  43,860
+Cost of sales .................................................          89,794           22,641          157,856           35,125
+                                                                      ---------        ---------        ---------        ---------
+Gross profit ..................................................          26,216            5,214           45,549            8,735
+
+Operating expenses:
+       Marketing and sales ....................................          26,452            7,773           45,955           11,679
+       Product development ....................................           8,598            2,915           15,828            4,543
+       General and administrative .............................           4,153            2,196            6,738            3,467
+       Amortization of goodwill and other purchased 
+             intangibles ......................................           5,413               --            5,413               --
+                                                                      ---------        ---------        ---------        ---------
+             Total operating expenses .........................          44,616           12,884           73,934           19,689
+
+Loss from operations ..........................................         (18,400)          (7,670)         (28,385)         (10,954)
+Interest income ...............................................           3,390              366            5,036              430
+Interest expense ..............................................          (7,569)             (40)          (9,599)             (40)
+                                                                      ---------        ---------        ---------        ---------
+             Net interest income (expense) ....................          (4,179)             326           (4,563)             390
+Net loss ......................................................       $ (22,579)       $  (7,344)       $ (32,948)       $ (10,564)
+                                                                      =========        =========        =========        =========
+
+Basic and diluted loss per share ..............................       $   (0.46)       $   (0.17)       $   (0.69)       $   (0.26)
+                                                                      =========        =========        =========        =========
+
+Shares used in computation of basic and diluted
+       loss per share .........................................          48,759           42,640           47,934           40,725
+                                                                      =========        =========        =========        =========
+</TABLE>
+
+
+
+
+                             See accompanying notes.
+
+<PAGE>   37
+
+
+
+                                AMAZON.COM, INC.
+
+               SUPPLEMENTAL CONSOLIDATED STATEMENTS OF CASH FLOWS
+                                 (IN THOUSANDS)
+
+                                   (UNAUDITED)
+
+
+<TABLE>
+<CAPTION>
+                                                                                       SIX MONTHS ENDED
+                                                                                            JUNE 30,
+                                                                                   --------------------------
+                                                                                    1998              1997
+                                                                                   ---------        ---------
+<S>                                                                                <C>              <C>       
+OPERATING ACTIVITIES
+Net loss ...................................................................       $ (32,948)       $ (10,564)
+Adjustments to reconcile net loss to net
+     cash provided by (used in) operating activities:
+       Depreciation and amortization .......................................           8,903            1,032
+       Amortization of unearned compensation related to stock options ......             630              625
+       Noncash interest expense ............................................           7,085               --
+       Changes in operating assets and liabilities:
+              Inventories ..................................................          (8,047)          (1,081)
+              Prepaid expenses and other ...................................          (8,199)            (997)
+              Deposits and other ...........................................             (93)            (182)
+              Accounts payable .............................................          13,572            7,540
+              Accrued advertising ..........................................           6,517            2,574
+              Other liabilities and accrued expenses .......................           6,209            2,599
+                                                                                   ---------        ---------
+                         Net cash provided by (used in) operating activities          (6,371)           1,546
+
+INVESTING ACTIVITIES
+Maturities of marketable securities ........................................          55,136              969
+Purchases of marketable securities .........................................        (269,068)         (45,875)
+Purchases of fixed assets ..................................................          (8,956)          (2,383)
+Acquisition of businesses ..................................................         (14,993)              --
+                                                                                   ---------        ---------
+                         Net cash used in investing activities .............        (237,881)         (47,289)
+
+FINANCING ACTIVITIES
+Proceeds from initial public offering ......................................              --           49,103
+Proceeds from issuance of capital stock ....................................           7,893            1,830
+Proceeds from exercise of stock options ....................................           1,022              474
+Proceeds from sale of preferred stock ......................................              --              200
+Proceeds from debt .........................................................         325,987               --
+Repayment of debt ..........................................................         (77,246)              (7)
+Financing costs related to debt issuance ...................................          (7,783)             (22)
+                                                                                   ---------        ---------
+                         Net cash provided by financing activities .........         249,873           51,578
+Effect of exchange rate changes ............................................             (35)              --
+                                                                                   ---------        ---------
+Net increase in cash .......................................................           5,586            5,835
+Cash at beginning of period ................................................           1,876              865
+                                                                                   ---------        ---------
+Cash at end of period ......................................................       $   7,462        $   6,700
+                                                                                   =========        =========
+
+
+SUPPLEMENTAL CASH FLOW INFORMATION
+Common stock issued for fixed assets and accrued product development .......       $      --        $   1,500
+Fixed assets acquired under capital lease ..................................       $      --        $     362
+Common stock issued in connection with acquisitions ........................       $  39,812        $      --
+</TABLE>
+
+
+
+
+                             See accompanying notes.
+
+
+<PAGE>   38
+
+                                AMAZON.COM, INC.
+
+             NOTES TO SUPPLEMENTAL CONSOLIDATED FINANCIAL STATEMENTS
+
+                                   (UNAUDITED)
+
+
+NOTE 1 - ACCOUNTING POLICIES
+
+         Description of Business
+
+              Amazon.com, Inc. ("Amazon.com" or the "Company") was incorporated
+on July 5, 1994. The Company is the leading online retailer of books and music
+and offers a catalog of approximately three million titles, easy-to-use search
+and browse features, email services, personalized shopping services, secure
+Web-based credit card payment and direct shipping to customers.
+
+         Pooling of Interests
+
+              On August 27, 1998, pursuant to an Agreement and Plan of Merger,
+dated as of August 3, 1998, by and among the Company, Sage Enterprises, Inc.
+("PlanetAll"), and Pacific Acquisition, Inc. ("PlanetAll Merger Sub"), the
+Company acquired all of the outstanding capital stock of PlanetAll and PlanetAll
+Merger Sub merged with and into PlanetAll, with PlanetAll as the surviving
+corporation. PlanetAll, founded in September 1996 and based in Boston,
+Massachusetts, provides contact management services via the Internet, including
+Web-based address book, calendar and reminder features. The Company issued
+approximately 800,000 shares of common stock, par value $.01 per share, and
+assumed all outstanding options in connection with the acquisition of PlanetAll.
+
+              This transaction was accounted for as a pooling of interests.
+These supplemental consolidated financial statements have been prepared to
+reflect the restatement of all periods presented to include the accounts of
+PlanetAll. The historical results of the pooled entities reflect each of their
+actual operating cost structures and, as a result, do not necessarily reflect
+the cost structure of the newly combined entity. The historical results do not
+purport to be indicative of results, which may occur in the future. These
+supplemental consolidated financial statements will become the historical
+financial statements of the Company after financial statements covering the date
+of consummation of the business combination are issued.
+
+         Unaudited Interim Financial Information
+
+              The financial statements as of June 30, 1998 and 1997 have been
+prepared by the Company pursuant to the rules and regulations of the Securities
+and Exchange Commission (the "SEC"). These statements are unaudited and, in the
+opinion of management, include all adjustments (consisting of normal recurring
+adjustments and accruals) necessary to present fairly the results for the
+periods presented. The balance sheet at December 31, 1997 has been derived from
+the audited financial statements at that date. Certain information and footnote
+disclosures normally included in financial statements prepared in accordance
+with generally accepted accounting principles have been condensed or omitted
+pursuant to such SEC rules and regulations. Operating results for the quarter
+ended June 30, 1998 are not necessarily indicative of the results that may be
+expected for the year ending December 31, 1998. These financial statements
+should be read in conjunction with the audited financial statements and the
+accompanying notes included in the Company's annual report on Form 10-K for the
+year ended December 31, 1997 and the supplemental consolidated financial
+statements and accompanying notes included in the Current Report on Form 8-K
+dated September 11, 1998. Certain prior period balances have been reclassified
+to conform to the current period presentation.
+
+         Principles of Consolidation
+
+              The consolidated financial statements include the accounts of the
+Company and its wholly-owned subsidiaries. All significant intercompany balances
+and transactions have been eliminated.
+
+         Marketable Securities
+
+              The Company's marketable securities consist primarily of
+high-quality short to intermediate term fixed income securities and money market
+mutual funds and are classified as available-for-sale and are reported at fair
+value. Unrealized gains and losses are reported, net of taxes, as a component of
+stockholders' equity within other gains (losses). Unrealized losses are charged
+against income when a decline in fair value is determined to be other than
+temporary. Realized and unrealized gains and losses were immaterial for all
+periods presented. The specific identification method is used to determine the
+cost of securities sold. The Company classifies all
+
+
+
+<PAGE>   39
+
+
+investments of cash as marketable securities, including highly liquid
+investments with maturities of three months or less, and reflects the related
+cash flows as investing cash flows. As a result of the classification of highly
+liquid investments within marketable securities, a significant portion of the
+Company's gross marketable securities purchases and maturities disclosed as
+investing cash flows is related to highly liquid investments.
+
+         Deferred Charges
+
+              On May 8, 1998, the Company issued approximately $326 million
+gross proceeds of 10% Senior Discount Notes due 2008 (the "Senior Discount
+Notes"). At June 30, 1998, deferred charges consisted of fees associated with
+the issuance of the Senior Discount Notes. The fees are being amortized into
+interest expense over the life of the Senior Discount Notes.
+
+         Goodwill and Other Purchased Intangibles
+
+              Goodwill and other purchased intangibles is stated net of total
+accumulated amortization of $5.4 million at June 30, 1998. Goodwill is being
+amortized over a two-year period.
+
+         Foreign Currency
+
+              Exchange gains and losses arising from transactions denominated in
+a currency other than the functional currency of the entity involved are
+included in other gains (losses). To date the Company has entered into no
+foreign currency exchange contracts or other such derivative instruments.
+
+         New Accounting Pronouncements
+
+              As of January 1, 1998, the Company adopted Statement of Financial
+Accounting Standards ("SFAS") No. 130, Reporting Comprehensive Income, which
+establishes standards for the reporting and display of comprehensive income and
+its components, and SFAS No. 131, Disclosures about Segments of an Enterprise
+and Related Information. The adoption of these Statements had no material impact
+on the Company's net loss or stockholders' equity.
+
+
+NOTE 2 - BUSINESS ACQUISITIONS
+
+              In April 1998, the Company acquired three Internet companies:
+Bookpages Limited ("Bookpages"), Telebook, Inc. ("Telebook") and Internet Movie
+Database Limited ("IMDB"). Bookpages and Telebook are online booksellers.
+Bookpages has operations in the United Kingdom, and Telebook has operations
+primarily in Germany through its ABC Bucherdienst subsidiary. IMDB operates a
+comprehensive repository for movie information on the Internet. Each of the
+acquisitions was accounted for under the purchase method of accounting. The
+aggregate purchase price of the three acquisitions, plus related charges, was
+approximately $55 million. The consideration for the acquisitions was comprised
+of cash and common stock. The Company issued an aggregate of approximately 1.1
+million shares of common stock to effect the transactions. The excess of the
+purchase price over the fair value of net assets acquired is included in
+goodwill and other purchased intangibles in the accompanying consolidated
+balance sheets and is being amortized over two years. The results of operations
+of the acquired companies are included in the Company's consolidated financial
+results beginning on the date of acquisition.
+
+              The following table presents unaudited consolidated pro forma
+financial information for the six months ended June 30, 1998 and 1997, as though
+the acquisitions made in 1998 had occurred on January 1 of each year:
+
+
+<TABLE>
+<CAPTION>
+                                                    For the Six        For the Six 
+                                                    Months Ended       Months Ended
+                                                    June 30, 1998      June 30, 1997
+                                                    -------------      -------------
+<S>                                                   <C>              <C>      
+               Net sales ......................       $ 206,853        $  47,016
+               Net loss .......................         (43,189)         (25,082)
+               Basic and diluted loss per share           (0.89)           (0.60)
+</TABLE>
+
+              Net loss in the above table includes amortization of goodwill and
+other purchased intangibles of $14.7 million and $14.3 million for the six
+months ended June 30, 1998 and 1997, respectively. The unaudited pro forma
+financial information is presented for information purposes only and is not
+necessarily indicative of the operating results that would have occurred had the
+acquisitions taken
+
+
+<PAGE>   40
+
+
+place on the basis assumed above. In addition, the pro forma results are not
+intended to be a projection of future results and do not reflect any synergies
+that might have been achieved from the combined operations.
+
+
+NOTE 3 - DEBT
+
+              On May 8, 1998, the Company completed the offering of
+approximately $326 million gross proceeds of the Senior Discount Notes due May
+1, 2008. The Senior Discount Notes were sold at a substantial discount from
+their principal amount at maturity of $530 million. Prior to November 1, 2003,
+no cash interest payments are required; instead, interest will accrete during
+this period to the $530 million aggregate principal amount at maturity. From and
+after May 1, 2003, the Senior Discount Notes will bear interest at a rate of 10%
+per annum payable in cash on each May 1 and November 1.
+
+              The Senior Discount Notes are redeemable, at the option of the
+Company, in whole or in part, at any time on or after May 1, 2003, at the
+redemption prices set forth in the Indenture for the Senior Discount Notes (the
+"Indenture"), plus accrued interest, if any, to the date of redemption. At any
+time prior to May 1, 2001, the Company also may redeem up to 35% of the
+aggregate principal amount at maturity of the Senior Discount Notes with the
+proceeds of one or more sales of Capital Stock (as defined in the Indenture)
+(other than Disqualified Stock (as defined in the Indenture)), at 110 % of their
+Accreted Value (as defined in the Indenture) on the redemption date, plus
+accrued interest, if any, to the date of redemption; provided that after any
+such redemption at least 65% of the aggregate principal amount at maturity of
+Senior Discount Notes originally issued remains outstanding. In addition, at any
+time prior to May 1, 2003, the Company may redeem all, but not less than all, of
+the Senior Discount Notes at a redemption price equal to the sum of (i) the
+Accreted Value (as defined in the Indenture) on the redemption date, plus (ii)
+accrued interest, if any, to the redemption date, plus (iii) the Applicable
+Premium (as defined in the Indenture).
+
+
+              Upon a Change of Control (as defined in the Indenture), the
+Company would be required to make an offer to purchase the Senior Discount Notes
+at a purchase price equal to 101% of their Accreted Value on the date of
+purchase, plus accrued interest, if any. There can be no assurance that the
+Company would have sufficient funds available at the time of any Change of
+Control to make any required debt repayment (including repurchases of the Senior
+Discount Notes).
+
+              The Senior Discount Notes are senior unsecured indebtedness of the
+Company ranking pari passu with the Company's existing and future
+unsubordinated, unsecured indebtedness and senior in right of payment to all
+subordinated indebtedness of the Company. The Senior Discount Notes are
+effectively subordinated to all secured indebtedness and to all existing and
+future liabilities of the Company's subsidiaries.
+
+              The Indenture contains certain covenants that, among other things,
+limit the ability of the Company and its Restricted Subsidiaries (as defined in
+the Indenture) to incur indebtedness, pay dividends, prepay subordinated
+indebtedness, repurchase capital stock, make investments, create liens, engage
+in transactions with stockholders and affiliates, sell assets and engage in
+mergers and consolidations. However, these limitations are subject to a number
+of important qualifications and exceptions.
+
+              A portion of the net proceeds from the offering of the Senior
+Discount Notes has been used to retire approximately $75 million of existing
+indebtedness. The Company expects to use the remaining net proceeds for general
+corporate purposes, including working capital to fund anticipated operating
+losses, the expansion of the Company's core business, investments in new
+business segments and markets, including the Company's sale of music products
+and international expansion, and capital expenditures. The Company expects, if
+the opportunity arises, to use an unspecified portion of the net proceeds to
+acquire or invest in complementary businesses, products and technologies.
+
+
+NOTE 4 - STOCKHOLDERS' EQUITY
+
+              In January 1998, PlanetAll issued 55,785 shares of capital stock
+for proceeds of approximately $1.0 million. In April 1998, PlanetAll issued
+298,719 shares of capital stock for proceeds of approximately $7.4 million.
+
+              On June 1, 1998, the Company effected a two-for-one stock split in
+the form of a stock dividend to stockholders of record on May 20, 1998.
+Accordingly, the accompanying consolidated financial statements have been
+restated to reflect the split.
+
+              On June 3, 1998, the Company increased the number of authorized
+shares of common stock, par value $0.01 per share, from 100 million shares to
+300 million shares.
+
+
+
+
+<PAGE>   41
+
+
+NOTE 5 - SUBSEQUENT EVENTS
+
+              On August 12, 1998, pursuant to an Agreement and Plan of Merger
+dated as of August 3, 1998, by and among the Company, Junglee Corp ("Junglee")
+and AJ Acquisition, Inc. ("Junglee Merger Sub"), the Company acquired all of the
+outstanding capital stock of Junglee and Junglee Merger Sub merged with and into
+Junglee, with Junglee as the surviving corporation (the "Junglee Merger").
+Junglee, founded in June 1996 and based in Sunnyvale, California, has developed
+World Wide Web-based virtual database technology to help consumers find products
+on the Internet. The Company issued approximately 1,600,000 shares of common
+stock, par value $.01 per share, and assumed all outstanding options in
+connection with the acquisition of Junglee. The Junglee Merger will be accounted
+for under the purchase method of accounting.
+
+
+
+<PAGE>   42
+
+
+
+
+                                   SIGNATURES
+
+       Pursuant to the requirements of the Securities Exchange Act of 1934, the
+registrant has duly caused this report to be signed on its behalf by the
+undersigned hereunto duly authorized.
+
+                                 AMAZON.COM, INC.
+                                 (Registrant)
+
+
+Dated:  September 11, 1998       By: /s/ Joy D. Covey
+                                     ------------------------------------------
+                                     Joy D. Covey
+                                     Chief Financial Officer, Vice President of
+                                     Finance and Administration and Secretary
+
+
+
+<PAGE>   43
+
+EXHIBIT INDEX
+
+
+<TABLE>
+<CAPTION>
+Exhibit Number       Description
+- --------------       -----------
+<S>                 <C>  
+    2.1              Agreement and Plan of Merger dated as of August 3 1998, by and among
+                     Amazon.com, Inc., Pacific Acquisition, Inc. and Sage Enterprises, Inc.
+                     (incorporated by reference from Amazon.com, Inc.'s Current Report on Form 8-K
+                     dated August 3, 1998)
+
+    23.1             Consent of Ernst & Young LLP, Independent Auditors
+
+    27.1             Restated Financial Data Schedule for the Year Ended December 31, 1997
+
+    27.2             Restated Financial Data Schedule for the Year Ended December 31, 1996
+
+    27.3             Restated Financial Data Schedule for the Six Months Ended June 30, 1998
+
+    27.4             Restated Financial Data Schedule for the Three Months Ended March 31, 1998
+
+    27.5             Restated Financial Data Schedule for the Nine Months Ended September 30, 1997
+
+    27.6             Restated Financial Data Schedule for the Six Months Ended June 30, 1997
+
+    27.7             Restated Financial Data Schedule for the Three Months Ended March 31, 1997
+
+    99.1             Form of Investor Rights Agreement by and between Amazon.com, Inc. and the
+                     stockholders of Sage Enterprises, Inc. (incorporated by reference from
+                     Amazon.com, Inc.'s Current Report on Form 8-K dated August 3, 1998)
+</TABLE>
+
+
+
+
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-23.1
+<SEQUENCE>2
+<DESCRIPTION>CONSENT OF ERNST & YOUNG LLP
+<TEXT>
+
+<PAGE>   1
+
+
+                                                                   Exhibit 23.1
+
+               CONSENT OF ERNST & YOUNG LLP, INDEPENDENT AUDITORS
+
+
+
+We consent to the incorporartion by reference in Amendment No. 1 to the
+Registration Statement (Form S-8 No. 333-28763) pertaining to the 1997 Stock
+Option Plan and the Amended and Restated 1994 Stock Option Plan, in Amendment
+No. 1 to the Registraion Statement (Form S-4 No. 333-55943) pertaining to the
+registration of 5,000,000 shares of common stock, and in Amendment No. 1 to the
+Registraion Statement (Form S-4 No. 333-56723) pertaining to the $530,000,000
+aggregate principal amount at maturity of 10% Senior Discout Notes due 2008, of
+our report dated January 19, 1998, except for paragraphs 2 and 3 of Note 1 as
+which the date is August 27, 1998, with respect to the supplemental
+consolidated financial statements and schedule of Amazon.com, Inc. included in
+its Current Report (Form 8-K) dated August 27, 1998, filed with the Securities
+and Exchange Commision.
+
+
+                                                ERNST & YOUNG LLP
+
+Seattle, Washington
+September 11, 1998
+
+
+
+
+                                                             
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-27.1
+<SEQUENCE>3
+<DESCRIPTION>RESTATED FINANCIAL DATA SCHEDULE YEAR END 12.31.97
+<TEXT>
+
+<TABLE> <S> <C>
+
+<ARTICLE> 5
+<LEGEND>
+THIS SCHECULE CONTAINS SUMMARY FINANCIAL INFORMATION EXTRACTED FROM (A) THE
+AMAZON.COM, INC. CURRENT REPORT ON FORM 8-K AND IS QUALIFIED IN ITS ENTIRETY BY
+REFERENCE TO SUCH (B) FINANCIAL STATEMENTS.
+</LEGEND>
+<MULTIPLIER> 1,000
+       
+<S>                             <C>
+<PERIOD-TYPE>                   YEAR
+<FISCAL-YEAR-END>                          DEC-31-1997
+<PERIOD-START>                             JAN-01-1997
+<PERIOD-END>                               DEC-31-1997
+<CASH>                                         110,119
+<SECURITIES>                                    15,256
+<RECEIVABLES>                                        0
+<ALLOWANCES>                                         0
+<INVENTORY>                                      8,971
+<CURRENT-ASSETS>                               137,709
+<PP&E>                                          13,490
+<DEPRECIATION>                                   3,764
+<TOTAL-ASSETS>                                 149,844
+<CURRENT-LIABILITIES>                           44,551
+<BONDS>                                         76,702
+<PREFERRED-MANDATORY>                                0
+<PREFERRED>                                          0
+<COMMON>                                           483
+<OTHER-SE>                                      28,108
+<TOTAL-LIABILITY-AND-EQUITY>                   149,844
+<SALES>                                        147,787
+<TOTAL-REVENUES>                               147,787
+<CGS>                                          118,969
+<TOTAL-COSTS>                                  118,969
+<OTHER-EXPENSES>                                61,413
+<LOSS-PROVISION>                                     0
+<INTEREST-EXPENSE>                                 326
+<INCOME-PRETAX>                               (31,020)
+<INCOME-TAX>                                         0
+<INCOME-CONTINUING>                           (31,020)
+<DISCONTINUED>                                       0
+<EXTRAORDINARY>                                      0
+<CHANGES>                                            0
+<NET-INCOME>                                  (31,020)
+<EPS-PRIMARY>                                   (0.71)
+<EPS-DILUTED>                                   (0.71)
+        
+
+</TABLE>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-27.2
+<SEQUENCE>4
+<DESCRIPTION>RESTATED FINANCIAL DATA SCHEDULE YEAR END 12.31.96
+<TEXT>
+
+<TABLE> <S> <C>
+
+<ARTICLE> 5
+<LEGEND>
+THIS SCHEDULE CONTAINS SUMMARY FINANCIAL INFORMATION EXTRACTED FROM AMAZON.COM,
+INC. CURRENT REPORT ON FORM 8-K AND IS QUALIFIED IN ITS ENTIRETY BY REFERENCE TO
+SUCH FINANCIAL STATEMENTS.
+</LEGEND>
+<RESTATED> 
+<MULTIPLIER> 1,000
+       
+<S>                             <C>
+<PERIOD-TYPE>                   YEAR
+<FISCAL-YEAR-END>                          DEC-31-1996
+<PERIOD-START>                             JAN-01-1996
+<PERIOD-END>                               DEC-31-1996
+<CASH>                                           6,289
+<SECURITIES>                                         0
+<RECEIVABLES>                                        0
+<ALLOWANCES>                                         0
+<INVENTORY>                                        571
+<CURRENT-ASSETS>                                 7,189
+<PP&E>                                           1,417
+<DEPRECIATION>                                     320
+<TOTAL-ASSETS>                                   8,434
+<CURRENT-LIABILITIES>                            5,491
+<BONDS>                                              0
+<PREFERRED-MANDATORY>                                0
+<PREFERRED>                                          6
+<COMMON>                                           318
+<OTHER-SE>                                       2,619
+<TOTAL-LIABILITY-AND-EQUITY>                     8,434
+<SALES>                                         15,746
+<TOTAL-REVENUES>                                15,746
+<CGS>                                           12,287
+<TOTAL-COSTS>                                   12,287
+<OTHER-EXPENSES>                                 9,902
+<LOSS-PROVISION>                                     0
+<INTEREST-EXPENSE>                                   5
+<INCOME-PRETAX>                                (6,246)
+<INCOME-TAX>                                         0
+<INCOME-CONTINUING>                            (6,246)
+<DISCONTINUED>                                       0
+<EXTRAORDINARY>                                      0
+<CHANGES>                                            0
+<NET-INCOME>                                   (6,246)
+<EPS-PRIMARY>                                   (0.17)
+<EPS-DILUTED>                                   (0.17)
+        
+
+</TABLE>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-27.3
+<SEQUENCE>5
+<DESCRIPTION>RESTATED FIN. DATA SCHEDULE 6 MONTHS ENDED 6.30.98
+<TEXT>
+
+<TABLE> <S> <C>
+
+<ARTICLE> 5
+<LEGEND>
+THIS SCHEDULE CONTAINS SUMMARY FINANCIAL INFORMATION EXTRACTED FROM AMAZON.COM,
+INC. CURRENT REPORT ON FORM 8-K AND IS QUALIFIED IN ITS ENTIRETY BY REFERENCE TO
+SUCH FINANCIAL STATEMENTS.
+</LEGEND>
+<RESTATED>
+<MULTIPLIER> 1,000
+       
+<S>                             <C>
+<PERIOD-TYPE>                   6-MOS
+<FISCAL-YEAR-END>                          DEC-31-1998
+<PERIOD-START>                             JAN-01-1998
+<PERIOD-END>                               JUN-30-1998
+<CASH>                                           7,462
+<SECURITIES>                                   337,396
+<RECEIVABLES>                                        0
+<ALLOWANCES>                                         0
+<INVENTORY>                                     17,035
+<CURRENT-ASSETS>                               374,615
+<PP&E>                                          23,008
+<DEPRECIATION>                                   7,421
+<TOTAL-ASSETS>                                 450,508
+<CURRENT-LIABILITIES>                           72,670
+<BONDS>                                        332,406
+<PREFERRED-MANDATORY>                                0
+<PREFERRED>                                          0
+<COMMON>                                           505
+<OTHER-SE>                                      44,927
+<TOTAL-LIABILITY-AND-EQUITY>                   450,508
+<SALES>                                        203,405
+<TOTAL-REVENUES>                               203,405
+<CGS>                                          157,856
+<TOTAL-COSTS>                                  157,856
+<OTHER-EXPENSES>                                73,934
+<LOSS-PROVISION>                                     0
+<INTEREST-EXPENSE>                               9,599
+<INCOME-PRETAX>                               (32,948)
+<INCOME-TAX>                                         0
+<INCOME-CONTINUING>                           (32,948)
+<DISCONTINUED>                                       0
+<EXTRAORDINARY>                                      0
+<CHANGES>                                            0
+<NET-INCOME>                                  (32,948)
+<EPS-PRIMARY>                                   (0.69)
+<EPS-DILUTED>                                   (0.69)
+        
+
+</TABLE>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-27.4
+<SEQUENCE>6
+<DESCRIPTION>RESTATED FIN. DATA SCHEDULE 3 MONTHS ENDED 3.31.98
+<TEXT>
+
+<TABLE> <S> <C>
+
+<ARTICLE> 5
+<LEGEND>
+THIS SCHEDULE CONTAINS SUMMARY FINANCIAL INFORMATION EXTRACTED FROM AMAZON.COM,
+INC. CURRENT REPORT ON FORM 8-K AND IS QUALIFIED IN ITS ENTIRETY BY REFERENCE TO
+SUCH FINANCIAL STATEMENTS.
+</LEGEND>
+<RESTATED>
+<MULTIPLIER> 1,000
+       
+<S>                             <C>
+<PERIOD-TYPE>                   3-MOS
+<FISCAL-YEAR-END>                          DEC-31-1998
+<PERIOD-START>                             JAN-01-1998
+<PERIOD-END>                               MAR-31-1998
+<CASH>                                          99,101
+<SECURITIES>                                    18,220
+<RECEIVABLES>                                        0
+<ALLOWANCES>                                         0
+<INVENTORY>                                     11,674
+<CURRENT-ASSETS>                               133,481
+<PP&E>                                          15,614
+<DEPRECIATION>                                   5,339
+<TOTAL-ASSETS>                                 146,100
+<CURRENT-LIABILITIES>                           49,576
+<BONDS>                                         76,702
+<PREFERRED-MANDATORY>                                0
+<PREFERRED>                                          0
+<COMMON>                                           488
+<OTHER-SE>                                      19,334
+<TOTAL-LIABILITY-AND-EQUITY>                   146,100
+<SALES>                                         87,395
+<TOTAL-REVENUES>                                87,395
+<CGS>                                           68,062
+<TOTAL-COSTS>                                   68,062
+<OTHER-EXPENSES>                                29,318
+<LOSS-PROVISION>                                     0
+<INTEREST-EXPENSE>                               2,029
+<INCOME-PRETAX>                               (10,369)
+<INCOME-TAX>                                         0
+<INCOME-CONTINUING>                           (10,369)
+<DISCONTINUED>                                       0
+<EXTRAORDINARY>                                      0
+<CHANGES>                                            0
+<NET-INCOME>                                  (10,369)
+<EPS-PRIMARY>                                   (0.22)
+<EPS-DILUTED>                                   (0.22)
+        
+
+</TABLE>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-27.5
+<SEQUENCE>7
+<DESCRIPTION>RESTATED FIN. DATA SCHEDULE 9 MONTHS ENDED 9.30.97
+<TEXT>
+
+<TABLE> <S> <C>
+
+<ARTICLE> 5
+<LEGEND>
+THIS SCHEDULE CONTAINS SUMMARY FINANCIAL INFORMATION EXTRACTED FROM AMAZON.COM,
+INC. CURRENT REPORT ON FORM 8-K AND IS QUALIFIED IN ITS ENTIRETY BY REFERENCE TO
+SUCH FINANCIAL STATEMENTS.
+</LEGEND>
+<RESTATED> 
+<MULTIPLIER> 1,000
+       
+<S>                             <C>
+<PERIOD-TYPE>                   9-MOS
+<FISCAL-YEAR-END>                          DEC-31-1997
+<PERIOD-START>                             JAN-01-1997
+<PERIOD-END>                               SEP-30-1997
+<CASH>                                           1,682
+<SECURITIES>                                    46,989
+<RECEIVABLES>                                        0
+<ALLOWANCES>                                         0
+<INVENTORY>                                      2,732
+<CURRENT-ASSETS>                                53,218
+<PP&E>                                           7,144
+<DEPRECIATION>                                   2,343
+<TOTAL-ASSETS>                                  58,369
+<CURRENT-LIABILITIES>                           20,293
+<BONDS>                                            181
+<PREFERRED-MANDATORY>                                0
+<PREFERRED>                                          0
+<COMMON>                                           480
+<OTHER-SE>                                      37,415
+<TOTAL-LIABILITY-AND-EQUITY>                    58,369
+<SALES>                                         81,747
+<TOTAL-REVENUES>                                81,747
+<CGS>                                           65,842
+<TOTAL-COSTS>                                   65,842
+<OTHER-EXPENSES>                                37,175
+<LOSS-PROVISION>                                     0
+<INTEREST-EXPENSE>                                  59
+<INCOME-PRETAX>                               (20,212)
+<INCOME-TAX>                                         0
+<INCOME-CONTINUING>                           (20,212)
+<DISCONTINUED>                                       0
+<EXTRAORDINARY>                                      0
+<CHANGES>                                            0
+<NET-INCOME>                                  (20,212)
+<EPS-PRIMARY>                                   (0.48)
+<EPS-DILUTED>                                   (0.48)
+        
+
+</TABLE>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-27.6
+<SEQUENCE>8
+<DESCRIPTION>RESTATED FIN. DATA SCHEDULE 6 MONTHS ENDED 6.30.97
+<TEXT>
+
+<TABLE> <S> <C>
+
+<ARTICLE> 5
+<LEGEND>
+THIS SCHEDULE CONTAINS SUMMARY FINANCIAL INFORMATION EXTRACTED FROM AMAZON.COM,
+INC. CURRENT REPORT ON FORM 8-K AND IS QUALIFIED IN ITS ENTIRETY BY REFERENCE TO
+SUCH FINANCIAL STATEMENTS.
+</LEGEND>
+<MULTIPLIER> 1,000
+       
+<S>                             <C>
+<PERIOD-TYPE>                   6-MOS
+<FISCAL-YEAR-END>                          DEC-31-1997
+<PERIOD-START>                             JAN-01-1997
+<PERIOD-END>                               JUN-30-1997
+<CASH>                                          48,374
+<SECURITIES>                                     8,692
+<RECEIVABLES>                                        0
+<ALLOWANCES>                                         0
+<INVENTORY>                                      1,652
+<CURRENT-ASSETS>                                60,043
+<PP&E>                                           5,188
+<DEPRECIATION>                                   1,356
+<TOTAL-ASSETS>                                  64,206
+<CURRENT-LIABILITIES>                           17,544
+<BONDS>                                            181
+<PREFERRED-MANDATORY>                                0
+<PREFERRED>                                          0
+<COMMON>                                           480
+<OTHER-SE>                                      46,001
+<TOTAL-LIABILITY-AND-EQUITY>                    64,206
+<SALES>                                         43,860
+<TOTAL-REVENUES>                                43,860
+<CGS>                                           35,125
+<TOTAL-COSTS>                                   35,125
+<OTHER-EXPENSES>                                19,689
+<LOSS-PROVISION>                                     0
+<INTEREST-EXPENSE>                                  40
+<INCOME-PRETAX>                               (10,564)
+<INCOME-TAX>                                         0
+<INCOME-CONTINUING>                           (10,564)
+<DISCONTINUED>                                       0
+<EXTRAORDINARY>                                      0
+<CHANGES>                                            0
+<NET-INCOME>                                  (10,564)
+<EPS-PRIMARY>                                   (0.26)
+<EPS-DILUTED>                                   (0.26)
+        
+
+</TABLE>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-27.7
+<SEQUENCE>9
+<DESCRIPTION>RESTATED FIN. DATA SCHEDULE 3 MONTHS ENDED 3.31.97
+<TEXT>
+
+<TABLE> <S> <C>
+
+<ARTICLE> 5
+<LEGEND>
+THIS SCHEDULE CONTAINS SUMMARY FINANCIAL INFORMATION EXTRACTED FROM AMAZON.COM,
+INC. CURRENT REPORT ON FORM 8-K AND IS QUALIFIED IN ITS ENTIRETY BY REFERENCE
+TO SUCH FINANCIAL STATEMENTS.
+</LEGEND>
+<RESTATED>
+<MULTIPLIER> 1,000
+       
+<S>                             <C>
+<PERIOD-TYPE>                   3-MOS
+<FISCAL-YEAR-END>                          DEC-31-1997
+<PERIOD-START>                             JAN-01-1997
+<PERIOD-END>                               MAR-31-1997
+<CASH>                                           2,689
+<SECURITIES>                                     4,456
+<RECEIVABLES>                                        0
+<ALLOWANCES>                                         0
+<INVENTORY>                                        939
+<CURRENT-ASSETS>                                 9,024
+<PP&E>                                           3,345
+<DEPRECIATION>                                     740
+<TOTAL-ASSETS>                                  11,825
+<CURRENT-LIABILITIES>                            9,689
+<BONDS>                                              0
+<PREFERRED-MANDATORY>                                0
+<PREFERRED>                                          6
+<COMMON>                                           348
+<OTHER-SE>                                       1,782
+<TOTAL-LIABILITY-AND-EQUITY>                    11,825
+<SALES>                                         16,005
+<TOTAL-REVENUES>                                16,005
+<CGS>                                           12,484
+<TOTAL-COSTS>                                   12,484
+<OTHER-EXPENSES>                                 6,805
+<LOSS-PROVISION>                                     0
+<INTEREST-EXPENSE>                                   0
+<INCOME-PRETAX>                                (3,220)
+<INCOME-TAX>                                         0
+<INCOME-CONTINUING>                            (3,220)
+<DISCONTINUED>                                       0
+<EXTRAORDINARY>                                      0
+<CHANGES>                                            0
+<NET-INCOME>                                   (3,220)
+<EPS-PRIMARY>                                   (0.08)
+<EPS-DILUTED>                                   (0.08)
+        
+
+</TABLE>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

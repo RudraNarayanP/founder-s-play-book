@@ -1,0 +1,332 @@
+==============================================================================
+PROVENANCE HEADER -- added by the Stage-3 Evidence Registrar (post-IPO filing intake)
+Retrieval date (access date) : 2026-09-25
+Original URL                 : https://www.sec.gov/Archives/edgar/data/1018724/0000891020-98-000175.txt
+HTTP status on retrieval     : 200
+Document                     : Form SC 13G, complete submission (all 1 documents inline) -- SCHEDULE 13G FOR JEFFREY BEZOS
+SEC CIK                      : 1018724 (AMAZON COM INC)
+Accession no.                : 0000891020-98-000175
+Filing date per EDGAR        : 1998-02-17   (SEC-HEADER FILED AS OF DATE: 19980217 -- agrees)
+Conformed submission type    : SC 13G   Securities Exchange Act File No.: 005-53341
+Period of report             : n/a
+Bytes of retrieved body      : 9,290
+Body completeness            : COMPLETE -- terminates in </SEC-DOCUMENT>; 1 <DOCUMENT> blocks, types: SC 13G
+Request headers used         : User-Agent: FounderPlaybook Research AdminContact@example.com | Accept-Encoding: identity | Referer: https://www.sec.gov/
+Body encoding on wire        : identity (no compression negotiated); saved exactly as received
+Located via                  : https://data.sec.gov/submissions/CIK0001018724-submissions-002.json (pre-2000 slice, 1997-03-24 -> 2000-01-04); row form=SC 13G filingDate=1998-02-17 primaryDocDescription='SCHEDULE 13G FOR JEFFREY BEZOS'
+Component documents (DESCRIPTION per EDGAR):
+      - SCHEDULE 13G FOR JEFFREY BEZOS
+==============================================================================
+
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ DCqqysHQfOu5mrQOq31PtIObVlYXBsCz1s97/PlN3zuCllHAGJcujA0JUZPIhQUo
+ XLsb/hnnqi+qqUaM+Cw2Hg==
+
+<SEC-DOCUMENT>0000891020-98-000175.txt : 19980218
+<SEC-HEADER>0000891020-98-000175.hdr.sgml : 19980218
+ACCESSION NUMBER:		0000891020-98-000175
+CONFORMED SUBMISSION TYPE:	SC 13G
+PUBLIC DOCUMENT COUNT:		1
+FILED AS OF DATE:		19980217
+SROS:			NASD
+
+SUBJECT COMPANY:	
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AMAZON COM INC
+		CENTRAL INDEX KEY:			0001018724
+		STANDARD INDUSTRIAL CLASSIFICATION:	BOOKS: PUBLISHING OR PUBLISHING AND PRINTING [2731]
+		IRS NUMBER:				911646860
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		SC 13G
+		SEC ACT:		
+		SEC FILE NUMBER:	005-53341
+		FILM NUMBER:		98540183
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1516 SECOND AVE 4TH FLOOR
+		STREET 2:		PO BOX 80387
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+		BUSINESS PHONE:		2066222335
+
+	MAIL ADDRESS:	
+		STREET 1:		PO BOX 80387
+		STREET 2:		1516 SECOND AVE 4TH FLOOR
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+
+FILED BY:		
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			BEZOS JEFFREY P
+		CENTRAL INDEX KEY:			0001043298
+		STANDARD INDUSTRIAL CLASSIFICATION:	 []
+
+	FILING VALUES:
+		FORM TYPE:		SC 13G
+
+	BUSINESS ADDRESS:	
+		STREET 1:		PO BOX 80387
+		STREET 2:		1516 2ND AVE 4TH FLOOR
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+		BUSINESS PHONE:		2063462871
+
+	MAIL ADDRESS:	
+		STREET 1:		PO BOX 80387
+		STREET 2:		1516 SECOND AVE 4TH FLOOR
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>SC 13G
+<SEQUENCE>1
+<DESCRIPTION>SCHEDULE 13G FOR JEFFREY BEZOS
+<TEXT>
+
+<PAGE>   1
+                       SECURITIES AND EXCHANGE COMMISSION
+                             WASHINGTON, D.C. 20549
+
+
+                                  SCHEDULE 13G
+                                 (RULE 13D-102)
+
+
+           INFORMATION TO BE INCLUDED IN STATEMENTS FILED PURSUANT TO
+                  RULES 13D-1(b) AND (c) AND AMENDMENTS THERETO
+                           FILED PURSUANT TO 13d-2 (b)
+
+
+                                AMAZON.COM, INC.
+- --------------------------------------------------------------------------------
+                                (Name of Issuer)
+
+                          COMMON STOCK, PAR VALUE $.01
+- --------------------------------------------------------------------------------
+                         (Title of Class of Securities)
+
+                                    023135106
+- --------------------------------------------------------------------------------
+                      (CUSIP Number of Class of Securities)
+
+
+                               Page 1 of 6 Pages
+
+
+<PAGE>   2
+CUSIP NO. 023135106            SCHEDULE 13G                    Page 2 of 6 Pages
+
+ 1         NAME OF REPORTING PERSON
+           S.S. or I.R.S. IDENTIFICATION NO. OF ABOVE PERSON
+
+           Jeffrey P. Bezos
+- --------------------------------------------------------------------------------
+ 2         CHECK THE APPROPRIATE BOX IF A MEMBER OF A GROUP
+                                                                 (a)   [ ] 
+                                                                 (b)   [ ] 
+- --------------------------------------------------------------------------------
+ 3         SEC USE ONLY
+
+           
+- --------------------------------------------------------------------------------
+ 4         CITIZENSHIP OR PLACE OF ORGANIZATION
+
+           United States
+- --------------------------------------------------------------------------------
+
+                                  5         SOLE VOTING POWER  
+                                            
+                                            9,885,000
+- --------------------------------------------------------------------------------
+          NUMBER OF               
+            SHARES                6         SHARED VOTING POWER
+         BENEFICIALLY                       
+           OWNED BY                         0
+                                  ----------------------------------------------
+             EACH                 
+          REPORTING
+            PERSON                7         SOLE DISPOSITIVE POWER
+             WITH
+                                            9,885,000
+                                  ----------------------------------------------
+
+                                  8         SHARED DISPOSITIVE POWER
+
+                                            0
+- --------------------------------------------------------------------------------
+ 9         AGGREGATE AMOUNT BENEFICIALLY OWNED BY EACH REPORTING PERSON
+
+           9,885,000
+- --------------------------------------------------------------------------------
+10         CHECK BOX IF THE AGGREGATE AMOUNT IN ROW (9) EXCLUDES CERTAIN SHARES
+
+           [ ] 
+- --------------------------------------------------------------------------------
+11         PERCENT OF CLASS REPRESENTED BY AMOUNT IN ROW 9
+
+           41.3%
+- --------------------------------------------------------------------------------
+12         TYPE OF REPORTING PERSON
+
+           IN
+- --------------------------------------------------------------------------------
+
+
+                               Page 2 of 6 Pages
+
+
+<PAGE>   3
+ITEM 1(a).  NAME OF ISSUER.
+
+         This Schedule 13G relates to Amazon.com, Inc., a Delaware corporation
+(the "Company").
+
+ITEM 1(b).  ADDRESS OF ISSUER'S PRINCIPAL EXECUTIVE OFFICES:
+
+         The Company's principal executive offices are located at 1516 Second
+Avenue, Seattle, WA 98101.
+
+ITEM 2(a).  NAME OF PERSON FILING.
+
+         This Schedule 13G relates to Jeffrey P. Bezos.
+
+ITEM 2(b).  ADDRESS OF PRINCIPAL BUSINESS OFFICE.
+
+         The business address of the reporting person is 1516 Second Avenue,
+Seattle, WA 98101.
+
+ITEM 2(c).  CITIZENSHIP.
+
+         Mr. Bezos is a United States citizen.
+
+ITEM 2(d).  TITLE OF CLASS OF SECURITIES.
+
+         This Schedule 13G relates to the Company's common stock, par value $.01
+per share (the "Common Stock").
+
+ITEM 2(e).  CUSIP NUMBER.
+
+         The CUSIP Number for the Company's Common Stock is 023135106.
+
+ITEM 3.   IF THIS STATEMENT IS FILED PURSUANT TO RULES 13D-1(B) OR 13D-2(B), 
+          CHECK WHETHER THE PERSON FILING IS A:
+
+       (a) [ ] Broker or dealer registered under Section 15 of the Act,
+
+       (b) [ ] Bank as defined in Section 3(a)(6) of the Act,
+
+       (c) [ ] Insurance Company as defined in Section 3(a)(19) of the Act,
+
+       (d) [ ] Investment Company registered under Section 8 of the Investment 
+               Company Act,
+
+
+                               Page 3 of 6 Pages
+
+
+<PAGE>   4
+       (e) [ ] Investment Advisor registered under Section 203 of the Investment
+               Advisors Act of 1940,
+
+       (f) [ ] Employee Benefit Plan, Pension Fund which is
+               subject to the provisions of the Employee Retirement Income
+               Security Act of 1974 or Endowment Fund,
+
+       (g) [ ] Parent Holding Company, in accordance with Rule 13d-1(b)(ii)(G),
+
+       (h) [ ] Group, in accordance with Rule 13d-1(b)(1)(ii)(H).
+
+       Not applicable.
+
+ITEM 4.  OWNERSHIP.
+
+               The following describes the ownership of Common Stock by Mr.
+Bezos as of December 31, 1997:
+
+     (a)   Amount beneficially owned:  9,885,000
+
+     (b)   Percent of class:  41.3%
+
+     (c)   Number of shares as to which such person has:
+
+                  (i)   Sole power to vote or direct the vote:  9,885,000
+
+                 (ii)   Shared power to vote or to direct the vote:  0
+
+                (iii)   Sole power to dispose or to direct the disposition of:
+                        9,885,000
+
+                 (iv)   Shared power to dispose or to direct the disposition of:
+                        0
+
+ITEM 5.  OWNERSHIP OF FIVE PERCENT OR LESS OF A CLASS.
+
+         Not applicable.
+
+ITEM 6.  OWNERSHIP OF MORE THAN FIVE PERCENT ON BEHALF OF ANOTHER
+         PERSON.
+
+         Not applicable.
+
+ITEM 7.  IDENTIFICATION AND CLASSIFICATION OF THE SUBSIDIARY WHICH
+         ACQUIRED THE SECURITY BEING REPORTED ON BY THE PARENT HOLDING COMPANY.
+
+         Not applicable.
+
+
+                               Page 4 of 6 Pages
+
+
+<PAGE>   5
+ITEM 8.  IDENTIFICATION AND CLASSIFICATION OF MEMBERS OF THE GROUP.
+
+         Not applicable.
+
+ITEM 9.  NOTICE OF DISSOLUTION OF GROUP.
+
+         Not applicable.
+
+ITEM 10.  CERTIFICATION.
+
+         Not applicable.
+
+
+                               Page 5 of 6 Pages
+
+
+<PAGE>   6
+                                    SIGNATURE
+
+         After reasonable inquiry and to best of my knowledge and belief, I
+hereby certify that the information set forth in this statement is true,
+complete and correct.
+
+         Dated:   February 13, 1998
+
+
+                                             /s/ Jeffrey P. Bezos
+                                             -------------------------------
+                                             Jeffrey P. Bezos
+
+
+
+                               Page 6 of 6 Pages
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

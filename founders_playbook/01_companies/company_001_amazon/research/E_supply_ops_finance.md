@@ -560,3 +560,22 @@ RESIDUAL UNCERTAINTY: the ~$17,000 balance is DERIVED from cumulative period mov
 ---
 
 **SUPERSEDED 2026-09-24 — historical working dossier, retained as the audit trail; do not import figures or accession labels from this file.** What changed: **(1) l.25 (E-59)** states the post-IPO stake at **41%** under a "Amazon.com Form S-1" label while citing EDGAR accession **000089102097000839** — that accession is **S-1/A No. 5** (filed 1997-05-14), which is indeed where 41% is filed (l.1055–1062; table l.3149 47.4%/41.4%). The **original S-1** (acc. 0000891618-97-001309, 1997-03-24) states **43%** and 48.3%/43.1% (l.985–988, l.2919). This is a **version discrepancy between two accessions** — cite the version with its figure, never average, merge, or print 41% under an unversioned "Form S-1". **(2) l.75 (E-85), l.261 and l.324** state the residual as **~$976,432**: that is the raw arithmetic (`1,272,000 − 295,568`), and because both inputs are filed to the nearest thousand the residual reads **≈$976,000 (±$1,000)**, with the disclosed-component composition at **$976,408** (band-level, not an exact tie). **(3) l.75 and l.261** further describe the residual as including **option exercises "commingled in the same line"** and l.75 as "unnamed purchasers and option holders" — **withdrawn**: 1995 option exercises are recorded at **$—** (orig. l.3560–3562), so no option cash sits in this residual, and the upper-bound framing went with it. The one-third leg is **$871,000** (`2,613,000 ÷ 3`, orig. l.4301–4302); **`$871,024` is a retracted back-solve**. Corrected values now live in `stage_1.md` §B.1, §K, §P.2 d8a, §S, §U.8 and §U.29, `quantitative.csv` L35, `conflicts.csv` r30 and `data_gaps.csv` r11. Audit trail: `03_quality_control/amazon_s1_number_repairs2.md`, `amazon_s1_residual_sweep.md`, `amazon_s1_residual_sweep2.md`.
+
+**AUDIT-7 ADDENDUM, appended 2026-09-25 — the footer above is left standing and was NOT rewritten; two of its
+assertions are superseded again.** Limb (2)'s "with the disclosed-component composition **at $976,408** (band-level,
+not an exact tie)" and the sentence "The one-third leg **is $871,000** (`2,613,000 ÷ 3`, orig. l.4301–4302)" are
+**WITHDRAWN, and the citation attached to the leg is wrong as well as the value**. `2,613,000` occurs **0 times** in
+each of the original S-1, S-1/A No. 3, S-1/A No. 5 and the FY1997 10-K405 (`grep -c` over `../sources/*.txt`), and
+orig. ll.4301–4302 read "aggregate of **3,021,000** shares of Common Stock to **23 investors** for a consideration of
+approximately **$.3333** per share, or an aggregate of **$1,007,000**" — no `2,613,000`. `2,613,000 ÷ 3 = $871,000`
+is arithmetically true and denominator-unfiled: it differs from the retired `$871,024` by $24 and **not by
+evidence**, so **no third number is substituted**. What stands in this dossier: the residual at E-85 / l.261 /
+l.324 is **≈$976,000 (±$1,000)** (`1,272,000 − 295,568` unchanged); the three filed legs foot to
+`$5,408 + $150,000 − $50,000 = $105,408`; the **fourth leg is UNKNOWN** both as to figure and as to attribution, so
+**no composition total is printed**; and the "$24 gap accounted for" explanation is withdrawn with the leg. Limb
+**(1)** (the E-59 accession label: 43% = original S-1, 41% = S-1/A No. 5, a version discrepancy never averaged or
+merged) and limb **(3)** (the withdrawn option-cash clause, 1995 exercises filed at **$—**, orig. l.3560–3562) are
+**unaffected and stand**, as is "`$871,024` is a retracted back-solve". **This dossier is mined by Stage 2; do not
+import the $871,000 / $976,408 pair from it.** Canonical text: `stage_1.md` §P.2 d8a (l.961) and §U.8 (l.1487),
+`quantitative.csv` L35, `conflicts.csv` U.8. Line numbers are as read 2026-09-25; anchor on the row id. Repaired by
+the AUDIT-7 repair pass — see `../../03_quality_control/audit7_repairs.md` row R3.

@@ -1,0 +1,9 @@
+HTTP/1.1 307 Temporary Redirect
+Date: Fri, 25 Sep 2026 12:40:17 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Location: https://labs.loc.gov/work/experiments/newspaper-navigator/
+Server: cloudflare
+CF-RAY: a40a18b6f9a071b6-BOM
+

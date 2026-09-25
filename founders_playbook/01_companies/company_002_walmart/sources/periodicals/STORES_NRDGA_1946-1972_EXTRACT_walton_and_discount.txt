@@ -1,0 +1,89 @@
+# [PROVENANCE HEADER - STORES (NRDGA -> NRMA) MONTHLY RUN AND ANNUAL INDEXES, BY A4, 2026-09-25]
+# Agent: A4 periodical-evidence agent, company_002_walmart Stage 1. Cited by:
+#   ../../../research/A4_independent_periodicals.md records A4-16, A4-18, A4-23..A4-3x.
+# Items (all HTTP 200, bytes == size declared in each item's own metadata => no page missing):
+#   sim_stores_1946-06_28_6   vol 28 no 6  (June 1946)  - Newport, Kentucky decade
+#   sim_stores_1950-06_32_6   vol 32 no 6  (June 1950)  - the year the Newport experiment ended
+#   sim_stores_1951-06_33_6   vol 33 no 6  (June 1951)  - Bentonville Ben Franklin era
+#   sim_stores_1955-06_37_6   vol 37 no 6  (June 1955)
+#   sim_stores_1958-06_40_6   vol 40 no 6  (June 1958)  - carries the discount-penetration survey
+#   sim_stores_1961-03_43_3   vol 43 no 3  (March 1961) - the year the Wal-Mart project was prepared
+#   sim_stores_1961-12_43_11  vol 43 no 11 (December 1961) - THE NRMA DISCOUNT SEMINAR ISSUE
+#   sim_stores_1971_53_index  annual index to vol 53 (1971)   [retrieved by A4; the intake did not hold it]
+#   sim_stores_1972_54_index  annual index to vol 54 (1972)   [retrieved by A4; the intake did not hold it]
+# Route: https://archive.org/metadata/<id> -> <server>+<dir> -> <name>_djvu.txt. archive.org/download/ was
+#   NOT used (TLS certificate expired here). Sequential, 2.6 s delay, TLS verification ON, UA
+#   FoundersPlaybook-A4-walmart-periodicals/1.0 (research@example.org); 429/503 events: 0.
+# WHY ONLY NINE ITEMS OUT OF A 200-ISSUE RUN: each monthly layer is 24,000-45,000 words; the whole run would
+#   be ~7 million words. Layers were read whole in scratch OUTSIDE the repository and only the passages
+#   below - each addressed by character offset - are written into the repository (method sec.9.2).
+# WHAT THIS SERIAL IS: the monthly journal of the National Retail Dry Goods Association (NRDGA), renamed
+#   National Retail Merchants Association (NRMA) in 1960 - the trade body of the five-and-ten / variety /
+#   soft-goods chain sector, i.e. the association of which Sam Walton's franchise form (Ben Franklin) was a
+#   part. Tier 3 for facts about the company; Tier 1 for "what the trade knew and when".
+# STRUCTURAL CAVEAT ON THE ANNUAL INDEXES (caps their zeros at Medium): the *Stores* index is organised by
+#   SUBJECT heading only (Advertising, Promotion, Display / Merchandising / Operations / Personnel /
+#   Consumer...) with NO company-name alphabetical sequence. Evidence printed below.
+# COMPANY RESULT: 'walton' 0, 'wal-mart' 0, 'bentonville' 0, 'springdale' 0, 'ben franklin' 0,
+#   'newport, ky' 0 across all seven monthly issues sampled (6 of ~200 in the run) and both indexes.
+#   The sampled Arkansas/Rogers hits are a Congressman, a state roster, and unrelated firms - printed in
+#   context below. This is an EMPTY within a stated sample, NOT a null for the run.
+
+============================================================================
+### STORES 1946-06 | item sim_stores_1946-06_28_6 | chars 239949 | words 33955
+### TERM COUNTS: wal-mart=0 | walmart=0 | walton=0 | arkansas=0 | rogers=0 | ben franklin=0 | newport=0 | five-and-dime=0 | variety store=0 | discount=6 | small town=0 | kresge=0 | woolworth=0 | bentonville=0 | nrdga=0 | self-service=1
+--- identity-sensitive hits in context ---
+--- sector passages: discount retailing, and the numbers the trade published ---
+
+============================================================================
+### STORES 1950-06 | item sim_stores_1950-06_32_6 | chars 241457 | words 34243
+### TERM COUNTS: wal-mart=0 | walmart=0 | walton=0 | arkansas=0 | rogers=0 | ben franklin=0 | newport=0 | five-and-dime=0 | variety store=0 | discount=9 | small town=0 | kresge=1 | woolworth=0 | bentonville=0 | nrdga=6 | self-service=1
+--- identity-sensitive hits in context ---
+--- sector passages: discount retailing, and the numbers the trade published ---
+
+============================================================================
+### STORES 1951-06 | item sim_stores_1951-06_33_6 | chars 312972 | words 44599
+### TERM COUNTS: wal-mart=0 | walmart=0 | walton=0 | arkansas=1 | rogers=1 | ben franklin=0 | newport=0 | five-and-dime=0 | variety store=0 | discount=9 | small town=0 | kresge=0 | woolworth=0 | bentonville=0 | nrdga=14 | self-service=0
+--- identity-sensitive hits in context ---
+--- sector passages: discount retailing, and the numbers the trade published ---
+
+============================================================================
+### STORES 1955-06 | item sim_stores_1955-06_37_6 | chars 216077 | words 30608
+### TERM COUNTS: wal-mart=0 | walmart=0 | walton=0 | arkansas=0 | rogers=0 | ben franklin=0 | newport=0 | five-and-dime=0 | variety store=0 | discount=16 | small town=0 | kresge=0 | woolworth=0 | bentonville=0 | nrdga=20 | self-service=3
+--- identity-sensitive hits in context ---
+--- sector passages: discount retailing, and the numbers the trade published ---
+
+============================================================================
+### STORES 1958-06 | item sim_stores_1958-06_40_6 | chars 257821 | words 36833
+### TERM COUNTS: wal-mart=0 | walmart=0 | walton=0 | arkansas=1 | rogers=0 | ben franklin=0 | newport=0 | five-and-dime=0 | variety store=0 | discount=8 | small town=0 | kresge=1 | woolworth=0 | bentonville=0 | nrdga=0 | self-service=0
+--- identity-sensitive hits in context ---
+--- sector passages: discount retailing, and the numbers the trade published ---
+
+============================================================================
+### STORES 1961-03 | item sim_stores_1961-03_43_3 | chars 285831 | words 40880
+### TERM COUNTS: wal-mart=0 | walmart=0 | walton=0 | arkansas=0 | rogers=0 | ben franklin=0 | newport=0 | five-and-dime=0 | variety store=0 | discount=7 | small town=0 | kresge=3 | woolworth=0 | bentonville=0 | nrdga=0 | self-service=1
+--- identity-sensitive hits in context ---
+--- sector passages: discount retailing, and the numbers the trade published ---
+
+============================================================================
+### STORES 1961-12 | item sim_stores_1961-12_43_11 | chars 174925 | words 24370
+### TERM COUNTS: wal-mart=0 | walmart=0 | walton=0 | arkansas=0 | rogers=0 | ben franklin=0 | newport=0 | five-and-dime=0 | variety store=0 | discount=67 | small town=0 | kresge=1 | woolworth=0 | bentonville=0 | nrdga=0 | self-service=5
+--- identity-sensitive hits in context ---
+--- sector passages: discount retailing, and the numbers the trade published ---
+  [11,500 @13708] nize the enormous value of belonging to NRMA. Doris Cornell, the Associa¬ tion’s member relations director, has brought NRMA’s solid value to the at¬ tention of non-member stores through a stepped-up promotional program. The Association’s membership covers over 11,500 retail establishments with a combined annual sales of over $19 billion. We have increased our basic membership this year by over 100 new store members and an equal number of NRMA Associate Members. The Association’s Membership Division is now conducting an active campaign for both Canadian retail and associate members. Vitally important to today’s com- ple;; scene is the fact that NRMA 
+
+============================================================================
+### STORES 1971-index | item sim_stores_1971_53_index | chars 19869 | words 2780
+### TERM COUNTS: wal-mart=0 | walmart=0 | walton=0 | arkansas=0 | rogers=0 | ben franklin=0 | newport=0 | five-and-dime=0 | variety store=0 | discount=0 | small town=0 | kresge=0 | woolworth=0 | bentonville=0 | nrdga=0 | self-service=0
+### SUBJECT-HEADINGS FOUND (proof there is no company sequence): Advertising,  Promotion,  Display  ;; Bureau  of  Advertising  delineates  ;; Prybycien  stresses  importance  of  ;; Consumerism  ;; Credit  ;; Billing  Practices  Regulations  Under  ;; Limited  Customer  Liability  Goes  Into  ;; Fashion  ;; Finance  and  Sales  ;; Time  to  Shrink  the  Main  Floor  Sales  ;; International  ;; General  Management  ;; Higher  Profits  Through  Effective  ;; Practical  Location  Analysis  in  New  ;; Legislative  Developments  ;; Merchandising  ;; Smaller,  Still  Smaller  for  Home  ;; Store- Wide  Service  for  the  Bridal 
+--- identity-sensitive hits in context ---
+--- sector passages: discount retailing, and the numbers the trade published ---
+
+============================================================================
+### STORES 1972-index | item sim_stores_1972_54_index | chars 17514 | words 2480
+### TERM COUNTS: wal-mart=0 | walmart=0 | walton=0 | arkansas=0 | rogers=0 | ben franklin=0 | newport=0 | five-and-dime=0 | variety store=0 | discount=1 | small town=0 | kresge=0 | woolworth=0 | bentonville=0 | nrdga=0 | self-service=0
+### SUBJECT-HEADINGS FOUND (proof there is no company sequence): Advertising,  Promotion,  Display  ;; Tapping  Passing  Traffic  for  More  ;; Outstanding  Fashion  Promotions  ;; Cautions  from  Ward  of  the  ;; Advertising  and  Graphics  Feature  ;; The  FTC  Amendments  To  Guides  ;; Consumerism  ;; Return  of  the  Immobile  Shopper  ;; Economics,  Consumers,  Social  ;; Boon  to  Industry,  A  Boon  to  ;; Consumer  Groups  Lose  Initiative,  ;; California  Consumer  Affairs  ;; Credit  ;; If  the  Building  Exists,  How  Do  ;; At  Agros  the  System  Focuses  On  ;; Fashion  ;; Lord  &  Taylor  Coordinates  Its  ;; New  Needs  Breed  Holiday 
+--- identity-sensitive hits in context ---
+--- sector passages: discount retailing, and the numbers the trade published ---
+
+# END OF STORES EXTRACT

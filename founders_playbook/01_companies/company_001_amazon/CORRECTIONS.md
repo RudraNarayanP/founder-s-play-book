@@ -293,7 +293,10 @@ different dates — they are not in conflict with each other and must not be rec
 > | FY1997 10-K405, acc. 0000891020-98-000448 | exhibit index, twice: "Incorporated by reference to the Company's Registration Statement on Form S-1 (Registration No. 333-23795)" at l.2913 and l.3105 |
 >
 > One file number, one registrant, one auditor. **A-B1's execution is complete at the sites AUDIT 6 named plus
-> four found by re-running its own phrase sweep** (`sources.csv` S0801 and S0803 carried the struck wording
+> five found by re-running its own phrase sweep** *(the word here read "four" until the AUDIT-7 repair pass of
+> 2026-09-25 re-counted the list this sentence itself prints, which holds five items — the five are unchanged, only
+> the tally was wrong; correction logged at `03_quality_control/audit7_repairs.md` row R11)*
+> (`sources.csv` S0801 and S0803 carried the struck wording
 > "gain independence" / "independent corroboration"; the boundary-state row at `stage_1.md` §Stage-boundary,
 > and the §B.2 and §D.1 people rows counted the original as corroborating its own amendments). **No claim in
 > this corpus is reopened or moved to UNKNOWN by A-B1**, because the ruling changes counts and wording, not

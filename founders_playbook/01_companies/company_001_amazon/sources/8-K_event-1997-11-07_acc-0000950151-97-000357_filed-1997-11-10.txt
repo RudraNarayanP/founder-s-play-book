@@ -1,0 +1,219 @@
+==============================================================================
+PROVENANCE HEADER -- added by the Stage-3 Evidence Registrar (post-IPO filing intake)
+Retrieval date (access date) : 2026-09-25
+Original URL                 : https://www.sec.gov/Archives/edgar/data/1018724/0000950151-97-000357.txt
+HTTP status on retrieval     : 200
+Document                     : Form 8-K, complete submission (all 1 documents inline) -- FORM 8-K
+SEC CIK                      : 1018724 (AMAZON COM INC)
+Accession no.                : 0000950151-97-000357
+Filing date per EDGAR        : 1997-11-10   (SEC-HEADER FILED AS OF DATE: 19971110 -- agrees)
+Conformed submission type    : 8-K   Securities Exchange Act File No.: 000-22513
+Period of report             : 1997-11-07
+Bytes of retrieved body      : 8,612
+Body completeness            : COMPLETE -- terminates in </SEC-DOCUMENT>; 1 <DOCUMENT> blocks, types: 8-K
+Request headers used         : User-Agent: FounderPlaybook Research AdminContact@example.com | Accept-Encoding: identity | Referer: https://www.sec.gov/
+Body encoding on wire        : identity (no compression negotiated); saved exactly as received
+Located via                  : https://data.sec.gov/submissions/CIK0001018724-submissions-002.json (pre-2000 slice, 1997-03-24 -> 2000-01-04); row form=8-K filingDate=1997-11-10 primaryDocDescription='FORM 8-K'
+Component documents (DESCRIPTION per EDGAR):
+      - FORM 8-K
+==============================================================================
+
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ MrHYljJwSwXCKChmlIJDk9MSmwUEo8uiUQbceSm7gDD5kXjCUFmKlFbE7NEYBR9z
+ u+cbe0eCywSVOD0GVOc9IQ==
+
+<SEC-DOCUMENT>0000950151-97-000357.txt : 19971111
+<SEC-HEADER>0000950151-97-000357.hdr.sgml : 19971111
+ACCESSION NUMBER:		0000950151-97-000357
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	19971107
+ITEM INFORMATION:		
+FILED AS OF DATE:		19971110
+SROS:			NASD
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AMAZON COM INC
+		CENTRAL INDEX KEY:			0001018724
+		STANDARD INDUSTRIAL CLASSIFICATION:	BOOKS: PUBLISHING OR PUBLISHING AND PRINTING [2731]
+		IRS NUMBER:				911646860
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		
+		SEC FILE NUMBER:	000-22513
+		FILM NUMBER:		97710934
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1516 SECOND AVE 4TH FLOOR
+		STREET 2:		PO BOX 80387
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+		BUSINESS PHONE:		2066222335
+
+	MAIL ADDRESS:	
+		STREET 1:		PO BOX 80387
+		STREET 2:		1516 SECOND AVE 4TH FLOOR
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<DESCRIPTION>FORM 8-K
+<TEXT>
+
+<PAGE>   1
+                       SECURITIES AND EXCHANGE COMMISSION
+
+                             WASHINGTON, D.C. 20549
+
+                         ------------------------------
+
+
+                                    FORM 8-K
+
+                                 CURRENT REPORT
+
+
+                     PURSUANT TO SECTION 13 OR 15(d) OF THE
+                         SECURITIES EXCHANGE ACT OF 1934
+
+
+                                November 7, 1997
+                                 Date of Report
+                         ------------------------------
+                             (Date of earliest event
+                                    reported)
+
+
+                                AMAZON.COM, INC.
+- --------------------------------------------------------------------------------
+             (Exact name of registrant as specified in its charter)
+
+        Delaware                  000-22513                  91-1646860
+    ---------------            ----------------           -------------------
+    (State or other            (Commission File             (IRS Employer
+    jurisdiction of                  No.)                 Identification No.)
+    incorporation)
+
+                               1516 Second Avenue
+                            Seattle, Washington 98101
+- --------------------------------------------------------------------------------
+          (Address of principal executive offices, including zip code)
+
+                                 (206) 622-2335
+- --------------------------------------------------------------------------------
+              (Registrant's telephone number, including area code)
+
+
+<PAGE>   2
+ITEM 5.    OTHER EVENTS
+
+        On November 7, 1997, Amazon.com, Inc. (the "Company") entered into a
+commitment letter for a $75,000,000 three year senior secured term credit
+facility (the "Facility") with Deutsche Bank AG, New York Branch ("Deutsche") as
+administrative agent and Deutsche Morgan Grenfell, Inc. ("DMG") as arranger. The
+Facility may be increased to an amount not to exceed $100,000,000, at the
+determination of both the Company and DMG.
+
+        The purpose of the Facility is to finance working capital, capital
+additions, acquisitions, operations, joint ventures and general corporate
+purposes. The Facility will be secured by a first priority lien on substantially
+all of the Company's assets. The Company has the option to choose from the
+following interest rate options: (i) a variable rate adjusted every one, two,
+three or six months at the Company's option and based on the London Interbank
+Offered Rate ("LIBOR") plus 3.50% per annum for the first six months of the
+Facility and 4.00% thereafter, or (ii) a variable rate of interest based on
+Deutsche's Base Rate plus 1.50% per annum for the first six months of the
+Facility and 2.00% thereafter. In connection with the Facility, the Company will
+enter into certain interest rate risk management agreements. The Company is
+required to make mandatory prepayments on the Facility equal to 50% of the
+proceeds from any debt and/or equity offerings (other than the proceeds of
+certain permitted debt) and 100% of the proceeds from certain sales of assets
+that are not reinvested in replacement assets.
+
+        The Facility will include covenants restricting certain activities by
+the Company, including (i) the incurrence of additional indebtedness, (ii)
+consolidations, mergers and sales of assets and (iii) dividends and
+distributions to stockholders. In addition, financial covenants will require the
+Company to, among other things, maintain a minimum cash balance, maintain
+certain levels of earnings or losses before interest, taxes, depreciation and
+amortization, limit its accounts payable aging and limit its capital and
+acquisition expenditures. The Facility will contain standard events of default
+including, among other things, a change in ownership or control.
+
+        The Company will issue to Deutsche warrants to purchase a total of
+750,000 shares of the Company's Common Stock. The warrants will be canceled if
+the Company repays the Facility in full according to the following schedule: all
+warrants if repayment occurs within 12 months; warrants to purchase 675,000
+shares if repayment occurs within 15 months; warrants to purchase 562,500 shares
+if repayment occurs within 18 months; warrants to purchase 450,000 shares if
+repayment occurs within 24 months; warrants to purchase 225,000 shares if
+repayment occurs within 30 months; and no warrants if repayment occurs after 30
+months. Warrants become exercisable when they can no longer be canceled and
+remain exercisable for five years after such date. The exercise price for the
+warrants will be the average market price of the Common Stock during the 30
+business days prior to the time of execution of the commitment letter.
+
+        The Facility has been approved by the Company's Board of Directors and
+Deutsche, but is subject to the satisfaction of several conditions, including
+the absence of material adverse change, satisfactory completion of definitive
+documents and satisfactory completion of Deutsche's due 
+
+
+                                                                          Page 2
+<PAGE>   3
+diligence. Subject to the fulfillment of these conditions, the Company expects 
+to close the Facility in December 1997.
+
+        The Company expects to use the proceeds of the Facility to expand its
+business and may commit to significant fixed expenditures. The ability of the
+Company to generate planned future revenues, and therefore its ability to comply
+with the covenants contained in the Facility, may be affected by events beyond
+its control. If the Company cannot satisfy the Facility's covenants, the Company
+will be in default. In such event, the lending institutions will be able to
+exercise their remedies, including the right to declare all principal and
+interest immediately due and payable. If the Company were unable to make such
+payment, or to repay the amount owing under the Facility at the end of its term,
+the lending institutions could foreclose on the Company's assets, substantially
+all of which will be pledged as security for the Facility. See the Company's
+Quarterly Report on Form 10-Q for the Quarter Ended June 30, 1997 and its final
+prospectus dated May 15, 1997 for information regarding factors that may impact
+the Company's future results.
+
+
+
+                                                                          Page 3
+<PAGE>   4
+                                    SIGNATURE
+
+        Pursuant to the requirements of the Securities Exchange Act of 1934, the
+registrant has duly caused this report to be signed on its behalf by the
+undersigned hereunto duly authorized.
+
+                                AMAZON.COM, INC.
+
+
+Dated:  November 7, 1997
+                             By /s/ JOY D. COVEY
+                               -------------------------------------------------
+                               Joy D. Covey
+                                 Chief Financial Officer, Vice President Finance
+                                 and Administration, Treasurer and Secretary
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

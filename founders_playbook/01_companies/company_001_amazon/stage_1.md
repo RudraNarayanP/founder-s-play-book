@@ -60,17 +60,17 @@ labelled as such: S-1/A No. 5's affiliation split of the 23 purchasers (150,000 
 l.4665–4668) is **absent from the original**, so it is a new disclosure of the same instrument, not
 corroboration of it (§K row; `quantitative.csv` L96; P69).
 **THE PREMISE IS PROVED FROM THE CACHED FILINGS, NOT STIPULATED (AUDIT 6 item 12; this is what closes A-B1).**
-Every member of this lineage carries the **same SEC file number, 333-23795**, on its own face, and calls itself
-part of one registration statement in its own words: original S-1 `SEC FILE NUMBER: 333-23795` at l.49 and
-"REGISTRATION NO. 333-" as filed at l.77; S-1/A No. 3 at l.49 and l.79, signature page l.5112 "Amendment No. 3
-to the Registration Statement (Form S-1 No. 333-23795)"; S-1/A No. 5 at l.49 and l.79, signature page l.5106 in
-the same form (its cover at l.70 is "AMENDMENT NO. 5 TO FORM S-1"); final prospectus 424B1 at l.66 with the cover
-"Registration Statement No. 333-23795" at l.92; FY1997 10-K405 at l.2913 and l.3105, whose own exhibit index
-incorporates by reference "the Company's Registration Statement on Form S-1 (Registration No. 333-23795)". One
-file number, one registrant, one auditor — Ernst & Young LLP's consent is an exhibit **to the amendment**
-(EX-23.1). Agreement inside that set is evidence about one document's drafting history; **no retrieval is needed
-to settle it and nothing in this volume is marked UNKNOWN on account of it.** Recorded also at
-`CORRECTIONS.md`, COR-12's closure note.
+Every member of this lineage is tied to the **same SEC file number, 333-23795** — carried **on its own face**
+by the four S-1-family documents and cited **by incorporation by reference** in the FY1997 10-K405, whose own face
+number is `000-22513` — and each calls itself part of one registration statement in its own words: original S-1
+`SEC FILE NUMBER: 333-23795` at l.49 and "REGISTRATION NO. 333-" as filed at l.77; S-1/A No. 3 at l.49 and l.79,
+signature page l.5112 "Amendment No. 3 to the Registration Statement (Form S-1 No. 333-23795)"; S-1/A No. 5 at
+l.49 and l.79, signature page l.5106 in the same form (its cover at l.70 is "AMENDMENT NO. 5 TO FORM S-1");
+final prospectus 424B1 at l.66 with the cover "Registration Statement No. 333-23795" at l.92; FY1997 10-K405 at
+l.2913 and l.3105, whose own exhibit index incorporates by reference "the Company's Registration Statement on
+Form S-1 (Registration No. 333-23795)". One file number, one registrant, one auditor — Ernst & Young LLP's
+consent is an exhibit **to the amendment** (EX-23.1). Agreement inside that set is evidence about one document's
+drafting history; **no retrieval is needed to settle it and nothing in this volume is marked UNKNOWN on account of it.** Recorded also at `CORRECTIONS.md`, COR-12's closure note. **[AUDIT-7 CORRECTION, 2026-09-25 — the clause above read "Every member of this lineage carries the same SEC file number, 333-23795, on its own face", and that is FALSE of the FY1997 10-K405: its own face number is `SEC FILE NUMBER: 000-22513` (`sources/10-K_FY1997_acc-0000891020-98-000448_filed-1998-03-30.txt` l.50, repeated at l.90), and `333-23795` occurs in it exactly twice, at l.2913 and l.3105, inside the exhibit index's incorporation-by-reference notes — verified by `grep -c`, 2 occurrences. The wording is narrowed, not the conclusion: incorporation by reference is the express link and this block's itemised 10-K405 row always cited only those two lines, so the one-instrument premise and A-B1's closure stand unchanged. The same looseness, "the single SEC File No. 333-23795 carried on all five accessions", is corrected in the same terms at `sources.csv` S0801. Logged at `03_quality_control/audit7_repairs.md` row R14.]**
 
 **Source-cell convention (editorial ruling, logged 2026-09-23).** Narrative tables use the exemplar's
 4-column geometry `| Variable | Value | Source | Confidence |`, with a **compact source token** carrying tier

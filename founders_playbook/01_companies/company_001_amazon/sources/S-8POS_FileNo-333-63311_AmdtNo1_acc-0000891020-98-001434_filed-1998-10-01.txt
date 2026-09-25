@@ -1,0 +1,359 @@
+==============================================================================
+PROVENANCE HEADER -- added by the Stage-3 Evidence Registrar (post-IPO filing intake)
+Retrieval date (access date) : 2026-09-25
+Original URL                 : https://www.sec.gov/Archives/edgar/data/1018724/0000891020-98-001434.txt
+HTTP status on retrieval     : 200
+Document                     : Form S-8 POS, complete submission (all 3 documents inline) -- POST-EFFECTIVE AMENDMENT NO. 1 TO THE FORM S-8
+SEC CIK                      : 1018724 (AMAZON COM INC)
+Accession no.                : 0000891020-98-001434
+Filing date per EDGAR        : 1998-10-01   (SEC-HEADER FILED AS OF DATE: 19981001 -- agrees)
+Conformed submission type    : S-8 POS   Securities Exchange Act File No.: 333-63311
+Period of report             : n/a
+Bytes of retrieved body      : 11,090
+Body completeness            : COMPLETE -- terminates in </SEC-DOCUMENT>; 3 <DOCUMENT> blocks, types: EX-23.1, EX-23.3, S-8 POS
+Request headers used         : User-Agent: FounderPlaybook Research AdminContact@example.com | Accept-Encoding: identity | Referer: https://www.sec.gov/
+Body encoding on wire        : identity (no compression negotiated); saved exactly as received
+Located via                  : https://data.sec.gov/submissions/CIK0001018724-submissions-002.json (pre-2000 slice, 1997-03-24 -> 2000-01-04); row form=S-8 POS filingDate=1998-10-01 primaryDocDescription='POST-EFFECTIVE AMENDMENT NO. 1 TO THE FORM S-8'
+Component documents (DESCRIPTION per EDGAR):
+      - POST-EFFECTIVE AMENDMENT NO. 1 TO THE FORM S-8
+      - CONSENT OF ERNST & YOUNG
+      - CONSENT OF DELOITTE & TOUCHE LLP
+==============================================================================
+
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ LoZF/IW4WECjLugbaIof3B4xX/JF5wYmuBNH1bCf3pya+jPE5LzkQZIFGQMjuC/L
+ etb4GMNGJXQisS1uWJ375g==
+
+<SEC-DOCUMENT>0000891020-98-001434.txt : 19981002
+<SEC-HEADER>0000891020-98-001434.hdr.sgml : 19981002
+ACCESSION NUMBER:		0000891020-98-001434
+CONFORMED SUBMISSION TYPE:	S-8 POS
+PUBLIC DOCUMENT COUNT:		3
+FILED AS OF DATE:		19981001
+EFFECTIVENESS DATE:		19981001
+SROS:			NASD
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AMAZON COM INC
+		CENTRAL INDEX KEY:			0001018724
+		STANDARD INDUSTRIAL CLASSIFICATION:	RETAIL-CATALOG & MAIL-ORDER HOUSES [5961]
+		IRS NUMBER:				911646860
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		S-8 POS
+		SEC ACT:		
+		SEC FILE NUMBER:	333-63311
+		FILM NUMBER:		98719394
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1516 SECOND AVE 4TH FLOOR
+		STREET 2:		PO BOX 80387
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+		BUSINESS PHONE:		2066222335
+
+	MAIL ADDRESS:	
+		STREET 1:		PO BOX 80387
+		STREET 2:		1516 SECOND AVE 4TH FLOOR
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>S-8 POS
+<SEQUENCE>1
+<DESCRIPTION>POST-EFFECTIVE AMENDMENT NO. 1 TO THE FORM S-8
+<TEXT>
+
+<PAGE>   1
+   
+   AS FILED WITH THE SECURITIES AND EXCHANGE COMMISSION ON OCTOBER 1, 1998
+                                                      REGISTRATION NO. 333-63311
+    
+- --------------------------------------------------------------------------------
+
+                       SECURITIES AND EXCHANGE COMMISSION
+                             WASHINGTON, D.C. 20549
+                             ----------------------
+   
+                                 POST-EFFECTIVE
+                               AMENDMENT NO. 1 TO
+                                    FORM S-8
+                             REGISTRATION STATEMENT
+                                      UNDER
+                           THE SECURITIES ACT OF 1933
+    
+                             ----------------------
+                                AMAZON.COM, INC.
+             (EXACT NAME OF REGISTRANT AS SPECIFIED IN ITS CHARTER)
+
+           DELAWARE                                      91-1646860
+(STATE OR OTHER JURISDICTION OF             (I.R.S. EMPLOYER IDENTIFICATION NO.)
+ INCORPORATION OR ORGANIZATION)
+
+                          1516 SECOND AVENUE, 4TH FLOOR
+                            SEATTLE, WASHINGTON 98101
+          (ADDRESS OF PRINCIPAL EXECUTIVE OFFICES, INCLUDING ZIP CODE)
+
+                          JUNGLEE CORP. 1996 STOCK PLAN
+                    JUNGLEE CORP. 1998 EQUITY INCENTIVE PLAN
+              SAGE ENTERPRISES, INC. 1997 AMENDED STOCK OPTION PLAN
+                  SAGE ENTERPRISES, INC. MVP STOCK OPTION PLAN
+                            (FULL TITLE OF THE PLANS)
+
+                                JEFFREY P. BEZOS
+                      PRESIDENT AND CHIEF EXECUTIVE OFFICER
+                                AMAZON.COM, INC.
+                          1516 SECOND AVENUE, 4TH FLOOR
+                            SEATTLE, WASHINGTON 98101
+                                 (206) 622-2335
+ (NAME, ADDRESS AND TELEPHONE NUMBER, INCLUDING AREA CODE, OF AGENT FOR SERVICE)
+                             ----------------------
+                                   COPIES TO:
+
+                                SCOTT L. GELBAND
+                                PERKINS COIE LLP
+                          1201 THIRD AVENUE, 40TH FLOOR
+                         SEATTLE, WASHINGTON 98101-3099
+                                 (206) 583-8888
+                             ----------------------
+
+   
+    
+<PAGE>   2
+
+                                     PART II
+
+                 INFORMATION REQUIRED IN REGISTRATION STATEMENT
+
+   
+        This Post-Effective Amendment No. 1 to the Registration Statement on
+Form S-8 (333-63311) amends and restates Part II, Item 8 hereof as follows:
+    
+
+
+   
+    
+
+   
+ITEM 8.  EXHIBITS
+    
+
+   
+<TABLE>
+<CAPTION>
+    Exhibit
+     Number                              Description
+     ------         --------------------------------------------------------------------------
+<S>                 <C>
+       5.1*         Opinion of Perkins Coie LLP
+
+      23.1          Consent of Ernst & Young LLP, Independent Auditors
+
+      23.2*         Consent of Perkins Coie LLP (included in the opinion filed as Exhibit 5.1)
+
+      23.3          Consent of Deloitte & Touche LLP, Independent Auditors
+
+      24.1*         Power of Attorney (see signatures page)
+
+      99.1*         Junglee Corp. 1996 Option Plan
+
+      99.2*         Junglee Corp. 1998 Equity Incentive Plan
+
+      99.3*         Sage Enterprises, Inc. 1997 Amended Stock Option Plan
+
+      99.4*         Sage Enterprises, Inc. MVP Stock Option Plan
+</TABLE>
+
+- ------------
+*Previously filed.
+    
+<PAGE>   3
+
+                                   SIGNATURES
+
+   
+     Pursuant to the requirements of the Securities Act, the Registrant
+certifies that it has reasonable grounds to believe that it meets all of the
+requirements for filing this Post-Effective Amendment No. 1 to Form S-8 and has
+duly caused this Registration Statement to be signed on its behalf by the
+undersigned, thereunto duly authorized, in the City of Seattle, State of
+Washington, on September 30, 1998.
+    
+
+                                            AMAZON.COM, INC.
+
+
+
+   
+                                            By /s/ JOY D. COVEY
+                                            --------------------------------
+                                              Joy D. Covey,
+                                              Chief Financial Officer,
+                                              Vice President of
+                                              Finance and Administration
+                                              and Secretary
+    
+   
+    
+
+   
+      Pursuant to the requirements of the Securities Act, this Post-Effective
+Amendment No. 1 to the Registration Statement has been signed by the following
+persons in the capacities indicated below on the September 30, 1998.
+    
+
+   
+<TABLE>
+<CAPTION>
+                       SIGNATURE                                                    TITLE
+                       ---------                                                    -----
+
+<S>                                                         <C>
+
+   *  Jeffrey P. Bezos
+- --------------------------------------------------------   
+                    Jeffrey P. Bezos                        Chairman of the Board, President and Chief Executive Officer  
+                                                            (Principal Executive Officer)                                 
+
+   /s/ Joy D. Covey                                                              
+- --------------------------------------------------------    
+                      Joy D. Covey                          Chief Financial Officer, Vice President of Finance and Administration 
+                                                            and Secretary (Principal Financial and Accounting Officer) 
+
+   *  Tom A. Alberg
+- --------------------------------------------------------
+                     Tom A. Alberg                          Director
+
+
+   *  Scott D. Cook
+- --------------------------------------------------------
+                     Scott D. Cook                          Director
+
+
+   *  L. John Doerr
+- --------------------------------------------------------
+                     L. John Doerr                          Director
+
+
+   *  Patricia Q. Stonesifer
+- --------------------------------------------------------
+                 Patricia Q. Stonesifer                     Director
+
+*By /s/ Joy D. Covey 
+- --------------------------------------------------------
+        Attorney-in-Fact
+</TABLE>
+    
+
+
+
+   
+    
+<PAGE>   4
+
+                                INDEX TO EXHIBITS
+
+   
+<TABLE>
+<CAPTION>
+    Exhibit
+     Number                              Description
+     ------           -----------------------------------------------------------------------
+<S>                   <C>
+       5.1*           Opinion of Perkins Coie LLP
+      23.1            Consent of Ernst & Young LLP, Independent Auditors
+      23.2*           Consent of Perkins Coie LLP (included in opinion filed as Exhibit 5.1).
+      23.3            Consent of Deloitte & Touche LLP, Independent Auditors
+      24.1*           Power of Attorney (see signatures page)
+      99.1*           Junglee Corp. 1996 Stock Plan
+      99.2*           Junglee Corp. 1998 Equity Incentive Plan
+      99.3*           Sage Enterprises, Inc. 1997 Amended Stock Option Plan
+      99.4*           Sage Enterprises, Inc. MVP Stock Option Plan
+</TABLE>
+- -----------
+* Previously filed.
+    
+
+
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-23.1
+<SEQUENCE>2
+<DESCRIPTION>CONSENT OF ERNST & YOUNG
+<TEXT>
+
+<PAGE>   1
+                                                                EXHIBIT 23.1
+
+              Consent of Ernst & Young LLP, Independent Auditors
+   
+        We consent to the incorporation by reference in this Post-Effective
+Amendment No. 1 to the Registration Statement (Form S-8 No. 333-63311),
+pertaining to the Junglee Corp. 1996 Stock Plan, the Junglee Corp. 1998 Equity
+Incentive Plan, the Sage Enterprises, Inc. 1997 Amended Stock Option Plan and
+the Sage Enterprises, Inc. MVP Stock Option Plan, of Amazon.com, Inc. of our
+report dated January 19, 1998, with respect to the financial statements and
+schedule of Amazon.com, Inc. included in its Annual Report (Form 10-K) for the
+year ended December 31, 1997, and our report dated January 19, 1998, except for
+paragraphs 2 and 3 of Note 1 as to which the date is August 27, 1998, with
+respect to the supplemental consolidated financial statements and schedule of
+Amazon.com, Inc. included in its Current Report on Form 8-K dated August 27,
+1998, filed with the Securities and Exchange Commission.
+    
+
+
+                                      ERNST & YOUNG LLP
+
+
+Seattle, Washington
+   
+September 30, 1998
+    
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-23.3
+<SEQUENCE>3
+<DESCRIPTION>CONSENT OF DELOITTE & TOUCHE LLP
+<TEXT>
+
+<PAGE>   1
+
+                                                                    EXHIBIT 23.3
+
+
+             CONSENT OF DELOITTE & TOUCHE LLP, INDEPENDENT AUDITORS
+
+We consent to the incorporation by reference in this Post-Effective Amendment
+No. 1 to Registration Statement No. 333-63311 of Amazon.com, Inc. of our report
+dated February 6, 1998, on the financial statements of Junglee Corp. as of
+December 31, 1997 and 1996 and for the year ended December 31, 1997 and for the
+period from June 3, 1996 (inception) to December 31, 1996 appearing in the
+Current Report on Form 8-K of Amazon.com, Inc. filed August 27, 1998.
+
+
+
+Deloitte & Touche LLP
+
+
+
+San Jose, California
+September 30, 1998
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

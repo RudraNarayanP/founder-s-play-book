@@ -1,0 +1,602 @@
+==============================================================================
+PROVENANCE HEADER -- added by the Stage-3 Evidence Registrar (post-IPO filing intake)
+Retrieval date (access date) : 2026-09-25
+Original URL                 : https://www.sec.gov/Archives/edgar/data/1018724/0000950151-97-000177.txt
+HTTP status on retrieval     : 200
+Document                     : Form S-8, complete submission (all 3 documents inline) -- FORM S-8
+SEC CIK                      : 1018724 (AMAZON COM INC)
+Accession no.                : 0000950151-97-000177
+Filing date per EDGAR        : 1997-06-06   (SEC-HEADER FILED AS OF DATE: 19970606 -- agrees)
+Conformed submission type    : S-8   Securities Exchange Act File No.: 333-28763
+Period of report             : n/a
+Bytes of retrieved body      : 22,236
+Body completeness            : COMPLETE -- terminates in </SEC-DOCUMENT>; 3 <DOCUMENT> blocks, types: EX-23.1, EX-5.1, S-8
+Request headers used         : User-Agent: FounderPlaybook Research AdminContact@example.com | Accept-Encoding: identity | Referer: https://www.sec.gov/
+Body encoding on wire        : identity (no compression negotiated); saved exactly as received
+Located via                  : https://data.sec.gov/submissions/CIK0001018724-submissions-002.json (pre-2000 slice, 1997-03-24 -> 2000-01-04); row form=S-8 filingDate=1997-06-06 primaryDocDescription='FORM S-8'
+Component documents (DESCRIPTION per EDGAR):
+      - FORM S-8
+      - OPINION OF PERKINS COIE
+      - CONSENT OF ERNST & YOUNG LLP, INDEPENDENT AUDITORS
+==============================================================================
+
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ QCdnnlfOUflrHNmuauVS57/Mf3FJih4XeSctarnmLvjSp5zAiyz0HdHRYqt3ncbC
+ csDmhM5ZQ0k9QAsSJx3zHg==
+
+<SEC-DOCUMENT>0000950151-97-000177.txt : 19970610
+<SEC-HEADER>0000950151-97-000177.hdr.sgml : 19970610
+ACCESSION NUMBER:		0000950151-97-000177
+CONFORMED SUBMISSION TYPE:	S-8
+PUBLIC DOCUMENT COUNT:		3
+FILED AS OF DATE:		19970606
+EFFECTIVENESS DATE:		19970606
+SROS:			NASD
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AMAZON COM INC
+		CENTRAL INDEX KEY:			0001018724
+		STANDARD INDUSTRIAL CLASSIFICATION:	BOOKS: PUBLISHING OR PUBLISHING AND PRINTING [2731]
+		IRS NUMBER:				911646860
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		S-8
+		SEC ACT:		1933 Act
+		SEC FILE NUMBER:	333-28763
+		FILM NUMBER:		97620620
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1516 SECOND AVE 4TH FLOOR
+		STREET 2:		PO BOX 80387
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+		BUSINESS PHONE:		2066222335
+
+	MAIL ADDRESS:	
+		STREET 1:		PO BOX 80387
+		STREET 2:		1516 SECOND AVE 4TH FLOOR
+		CITY:			SEATTLE
+		STATE:			WA
+		ZIP:			98101
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>S-8
+<SEQUENCE>1
+<DESCRIPTION>FORM S-8
+<TEXT>
+
+<PAGE>   1
+      AS FILED WITH THE SECURITIES AND EXCHANGE COMMISSION ON JUNE 6, 1997
+
+                                                           REGISTRATION NO. 333-
+- --------------------------------------------------------------------------------
+
+                       SECURITIES AND EXCHANGE COMMISSION
+                             WASHINGTON, D.C. 20549
+                             ----------------------
+
+                                    FORM S-8
+                             REGISTRATION STATEMENT
+                                      UNDER
+                           THE SECURITIES ACT OF 1933
+                             ----------------------
+
+                                AMAZON.COM, INC.
+             (EXACT NAME OF REGISTRANT AS SPECIFIED IN ITS CHARTER)
+
+<TABLE>
+<CAPTION>
+                            DELAWARE                                                    91-1646860
+<S>                                                                         <C>
+(STATE OR OTHER JURISDICTION OF INCORPORATION OR ORGANIZATION)             (I.R.S. EMPLOYER IDENTIFICATION NO.)
+</TABLE>
+
+                          1516 SECOND AVENUE, 4TH FLOOR
+                            SEATTLE, WASHINGTON 98101
+          (ADDRESS OF PRINCIPAL EXECUTIVE OFFICES, INCLUDING ZIP CODE)
+
+                                AMAZON.COM, INC.
+                             1997 STOCK OPTION PLAN
+                            (FULL TITLE OF THE PLAN)
+
+
+                                JEFFREY P. BEZOS
+                      PRESIDENT AND CHIEF EXECUTIVE OFFICER
+                                AMAZON.COM, INC.
+                          1516 SECOND AVENUE, 4TH FLOOR
+                            SEATTLE, WASHINGTON 98101
+                                 (206) 622-2335
+ (NAME, ADDRESS AND TELEPHONE NUMBER, INCLUDING AREA CODE, OF AGENT FOR SERVICE)
+
+                             ----------------------
+
+                                   COPIES TO:
+
+                               L. MICHELLE WILSON
+                                  PERKINS COIE
+                          1201 THIRD AVENUE, 40TH FLOOR
+                         SEATTLE, WASHINGTON 98101-3099
+                                 (206) 583-8888
+
+                             ----------------------
+
+                         CALCULATION OF REGISTRATION FEE
+
+<TABLE>
+
+=====================================================================================================================
+   TITLE OF SECURITIES        AMOUNT TO BE      PROPOSED MAXIMUM         PROPOSED MAXIMUM             AMOUNT OF
+     TO BE REGISTERED        REGISTERED (1)    OFFERING PRICE PER       AGGREGATE OFFERING        REGISTRATION FEE
+                                                    SHARE(2)                 PRICE(2)
+- ---------------------------------------------------------------------------------------------------------------------
+<S>                          <C>                 <C>                       <C>                      <C>  
+Common Stock, $0.01 par
+value per share                9,534,648            $17.3125               $165,068,594                $50,021
+=====================================================================================================================
+</TABLE>
+
+
+(1)      Includes 6,000,000 shares reserved for issuance under the Amazon.com,
+         Inc. 1997 Stock Option Plan plus an additional 3,534,648 shares that
+         are or may become available under such plan because they were reserved
+         for issuance under the Amazon.com, Inc. Amended and Restated 1994 Stock
+         Option Plan, together with an indeterminate number of additional shares
+         that may be necessary to adjust the number of shares reserved for
+         issuance pursuant to the 1997 Stock Option Plan as the result of any
+         future stock split, stock dividend or similar adjustment of the
+         outstanding Common Stock of the Registrant.
+
+(2)      Estimated solely for the purpose of calculating the registration fee in
+         accordance with Rules 457(h) and 457(c) under the Securities Act of
+         1933, as amended. The price per share is estimated to be $17.3125 based
+         on the average of the high ($17.875) and low ($16.750) sales prices for
+         the Common Stock in the over-the-counter market on June 4, 1997, as
+         reported on the Nasdaq National Market.
+
+
+
+<PAGE>   2
+
+                                     PART II
+
+                 INFORMATION REQUIRED IN REGISTRATION STATEMENT
+
+ITEM 3.  INCORPORATION OF DOCUMENTS BY REFERENCE
+
+         The following documents are hereby incorporated by reference in this
+Registration Statement:
+
+                  (a) The Registrant's prospectus (the "Prospectus") filed with
+the Securities and Exchange Commission (the "Commission") on May 15, 1997
+pursuant to Rule 424(b) of the Securities Act of 1933, as amended (the
+"Securities Act");
+
+                  (b) All other reports filed by the Registrant pursuant to
+Section 13(a) or 15(d) of the Securities Exchange Act of 1934, as amended (the
+"Exchange Act"), since the end of the fiscal year covered by the Prospectus; and
+
+                  (c) The description of the Registrant's Common Stock contained
+in the Registration Statement on Form 8-A, filed with the Commission on May 2,
+1997, under Section 12(g) of the Exchange Act.
+
+         All documents filed by the Registrant pursuant to Sections 13(a),
+13(c), 14 and 15(d) of the Exchange Act after the date hereof and prior to the
+filing of a post-effective amendment, which indicate that the securities offered
+hereby have been sold or which deregister the securities covered hereby then
+remaining unsold, shall also be deemed to be incorporated by reference into this
+Registration Statement and to be a part hereof commencing on the respective
+dates on which such documents are filed.
+
+ITEM 6.  INDEMNIFICATION OF DIRECTORS AND OFFICERS
+
+         Section 145 of the Delaware General Corporation Law (the "DGCL")
+provides that a corporation may indemnify its directors and officers, as well as
+other employees and individuals, against expenses (including attorneys' fees),
+judgments, fines and amounts paid in settlement in connection with specified
+actions, suits or proceedings, whether civil, criminal, administrative or
+investigative (other than an action by or in the right of the corporation--a
+"derivative action"), if they acted in good faith and in a manner they
+reasonably believed to be in or not opposed to the best interests of the
+corporation, and, with respect to any criminal action or proceeding, had no
+reasonable cause to believe their conduct was unlawful. A similar standard is
+applicable in the case of derivative actions, except that indemnification only
+extends to expenses (including attorneys' fees) incurred in connection with the
+defense or settlement of such actions, and the statute requires court approval
+before there can be any indemnification where the person seeking indemnification
+has been found liable to the corporation. The statute provides that it is not
+exclusive of other indemnification that may be granted by a corporation's
+charter, bylaws, disinterested director vote, stockholder vote, agreement or
+otherwise.
+
+         Section 10 of the Registrant's Bylaws requires indemnification to the
+full extent permitted under Delaware law as it now exists or may hereafter be
+amended. Subject to any restrictions imposed by Delaware law, the Bylaws provide
+an unconditional right to indemnification for all expense, liability and loss
+(including attorneys' fees, judgment, fines, ERISA excise taxes or penalties and
+amounts paid in settlement) actually and reasonably incurred or suffered by any
+person in connection with any actual or threatened action, suit or proceeding,
+whether civil, criminal, administrative or investigative (including, to the
+extent permitted by law, any derivative action) by reason of the fact that such
+person is or was serving as a director or officer of the Registrant or that,
+being or having been a director or officer of the Registrant, such person is or
+was serving at the request of the Registrant as a director, officer, employee or
+agent of another corporation, partnership, joint venture, trust or other
+enterprise, including service with respect to an employee benefit plan. The
+Bylaws also provide that the Registrant may, by action of its Board of
+Directors, provide indemnification to its employees and agents with the same
+scope and effect as the foregoing indemnification of directors and officers.
+
+         Section 102(b)(7) of the DGCL permits a corporation to provide in its
+certificate of incorporation that a director of the corporation shall not be
+personally liable to the corporation or its stockholders for monetary damages
+for breach of fiduciary duty as a director, except for liability for (i) any
+breach of the director's duty of loyalty to the corporation or its stockholders,
+(ii) acts or omissions not in good faith or which involve intentional misconduct
+or a knowing violation of law, (iii) payments of unlawful dividends or unlawful
+stock repurchases or redemptions, or (iv) any transaction from which the
+director derived an improper personal benefit.
+
+
+
+                                      II-1
+
+
+<PAGE>   3
+
+
+         Article 10 of the Registrant's Restated Certificate of Incorporation
+provides that to the full extent that the DGCL, as it now exists or may
+hereafter be amended, permits the limitation or elimination of the liability of
+directors, a director of the Registrant shall not be liable to the Registrant or
+its stockholders for monetary damages for breach of fiduciary duty as a
+director. Any amendment to or repeal of such Article 10 shall not adversely
+affect any right or protection of a director of the Registrant for or with
+respect to any acts or omissions of such director occurring prior to such
+amendment or repeal.
+
+         The Registrant has entered into certain indemnification agreements with
+its officers and directors. The indemnification agreements provide the
+Registrant's officers and directors with further indemnification, to the maximum
+extent permitted by the DGCL.
+
+ITEM 8.  EXHIBITS
+
+     Exhibit
+      Number                  Description
+- ----------------- -------------------------------------------------------------
+ 
+          5.1     Opinion of Perkins Coie.
+
+         23.1     Consent of Ernst & Young LLP, Independent Auditors.
+
+         23.2     Consent of Perkins Coie (included in opinion filed as Exhibit
+                  5.1).
+
+         24.1     Power of Attorney (see signature page).
+
+         99.1     1997 Stock Option Plan (incorporated by reference to Exhibit
+                  10.21 to the Registration Statement on Form S-1).
+
+ITEM 9.  UNDERTAKINGS
+
+A.       The undersigned Registrant hereby undertakes:
+
+         (1) To file, during any period in which offers or sales are being made,
+a post-effective amendment to this Registration Statement:
+
+                  (i) To include any prospectus required by Section 10(a)(3) of
+the Securities Act;
+
+                  (ii) To reflect in the prospectus any facts or events arising
+after the effective date of this Registration Statement (or the most recent
+post-effective amendment thereof) which, individually or in the aggregate,
+represent a fundamental change in the information set forth in this Registration
+Statement; and
+
+                  (iii) To include any material information with respect to the
+plan of distribution not previously disclosed in this Registration Statement or
+any material change to such information in this Registration Statement;
+
+provided, however, that paragraphs (1)(i) and (1)(ii) above do not apply if the
+information required to be included in a post-effective amendment by those
+paragraphs is contained in periodic reports filed by the Registrant pursuant to
+Section 13 or 15(d) of the Exchange Act that are incorporated by reference in
+this Registration Statement.
+
+         (2) That, for the purpose of determining any liability under the
+Securities Act, each such post-effective amendment shall be deemed to be a new
+registration statement relating to the securities offered therein, and the
+offering of such securities at that time shall be deemed to be the initial bona
+fide offering thereof.
+
+         (3) To remove from registration by means of a post-effective amendment
+any of the securities being registered which remain unsold at the termination of
+the offering.
+
+B. The undersigned Registrant hereby undertakes that, for purposes of
+determining any liability under the Securities Act, each filing of the
+Registrant's annual report pursuant to Section 13(a) or 15(d) of the Exchange
+Act (and, where applicable, each filing of an employee benefit plan's annual
+report pursuant to Section 15(d) of the Exchange Act) that is incorporated by
+reference in this Registration Statement shall be deemed to be a new
+registration statement relating to the securities offered therein, and the
+offering of such securities at that time shall be deemed to be the initial bona
+fide offering thereof.
+
+
+                                      II-2
+
+<PAGE>   4
+
+
+
+C. Insofar as indemnification for liabilities arising under the Securities Act
+may be permitted to directors, officers and controlling persons of the
+Registrant pursuant to the foregoing provisions, or otherwise, the Registrant
+has been advised that in the opinion of the Commission such indemnification is
+against public policy as expressed in the Securities Act and is, therefore,
+unenforceable. In the event that a claim for indemnification against such
+liabilities (other than the payment by the Registrant of expenses incurred or
+paid by a director, officer or controlling person of the Registrant in the
+successful defense of any action, suit or proceeding) is asserted by such
+director, officer or controlling person in connection with the securities being
+registered, the Registrant will, unless in the opinion of its counsel the matter
+has been settled by controlling precedent, submit to a court of appropriate
+jurisdiction the question of whether such indemnification by it is against
+public policy as expressed in the Securities Act and will be governed by the
+final adjudication of such issue.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      II-3
+
+
+<PAGE>   5
+
+
+                                   SIGNATURES
+
+         Pursuant to the requirements of the Securities Act of 1933, the
+Registrant certifies that it has reasonable grounds to believe that it meets all
+of the requirements for filing on Form S-8 and has duly caused this registration
+statement to be signed on its behalf by the undersigned, thereunto duly
+authorized, in the City of Seattle, State of Washington, on June 6, 1997.
+
+                                            AMAZON.COM, INC.
+
+
+                                    By  /s/ Jeffery P. Bezos
+                                      -----------------------------------------
+                                             Jeffrey P. Bezos
+                                             President, Chief Executive Officer
+                                             and Chairman of the Board
+
+
+                                POWER OF ATTORNEY
+
+         EACH PERSON WHOSE INDIVIDUAL SIGNATURE APPEARS BELOW HEREBY AUTHORIZES
+JEFFREY P. BEZOS AND JOY D. COVEY, OR EACH OF THEM, AS ATTORNEYS-IN-FACT, WITH
+FULL POWER OF SUBSTITUTION, TO EXECUTE IN THE NAME AND ON BEHALF OF SUCH PERSON,
+INDIVIDUALLY AND IN EACH CAPACITY STATED BELOW, AND TO FILE, ANY AND ALL
+AMENDMENTS TO THIS REGISTRATION STATEMENT, INCLUDING ANY AND ALL POST-EFFECTIVE
+AMENDMENTS.
+
+         Pursuant to the requirements of the Securities Act of 1933, this
+registration statement has been signed by the following persons in the
+capacities indicated below on the 6th day of June, 1997.
+
+            SIGNATURE                                     TITLE
+
+       /s/ Jeffrey P. Bezos              President, Chief Executive Officer and
+- ---------------------------------        Chairman of the Board (Principal
+           Jeffrey P. Bezos              Executive Officer)        
+
+
+         /s/ Joy D. Covey                Chief Financial Officer and Vice
+- ---------------------------------        President of Finance and Administration
+             Joy D. Covey                (Principal Financial and Accounting
+                                         Officer)
+
+        /s/ Tom A. Alberg                Director
+- ---------------------------------
+          Tom A. Alberg
+
+        /s/ Scott D. Cook                Director
+- ---------------------------------
+          Scott D. Cook
+
+        /s/ L. John Doerr                Director
+- ---------------------------------
+          L. John Doerr
+
+    /s/ Patricia Q. Stonesifer           Director
+- ---------------------------------
+      Patricia Q. Stonesifer
+
+
+
+
+
+
+
+
+
+                                      II-4
+
+
+<PAGE>   6
+
+                                INDEX TO EXHIBITS
+
+      Exhibit
+       Number                     Description
+- ------------------    ---------------------------------------------------------
+       5.1            Opinion of Perkins Coie.
+
+      23.1            Consent of Ernst & Young LLP, Independent Auditors.
+
+      23.2            Consent of Perkins Coie (included in opinion filed as
+                      Exhibit 5.1).
+
+      24.1            Power of Attorney (see signature page).
+
+      99.1            1997 Stock Option Plan (incorporated by reference to
+                      Exhibit 10.21 to the Registration Statement on Form S-1).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-5.1
+<SEQUENCE>2
+<DESCRIPTION>OPINION OF PERKINS COIE
+<TEXT>
+
+<PAGE>   1
+
+
+
+                                                                     EXHIBIT 5.1
+
+
+                            [PERKINS COIE LETTERHEAD]
+
+                                  June 6, 1997
+
+
+
+Amazon.com, Inc.
+1516 Second Avenue, 4th Floor
+Seattle, WA  98101
+
+     RE:  REGISTRATION ON FORM S-8 OF SHARES OF COMMON STOCK, PAR VALUE $0.01
+          PER SHARE, OF AMAZON.COM, INC. (THE "COMPANY")
+
+Ladies and Gentlemen:
+
+         We have acted as counsel to you in connection with the preparation of a
+Registration Statement on Form S-8 (the "Registration Statement") pursuant to
+the Securities Act of 1933, as amended (the "Act"), which you are filing with
+the Securities and Exchange Commission with respect to up to 9,534,648 shares of
+Common Stock, par value $0.01 per share, of the Company (the "Common Stock")
+that may be issuable under the Amazon.com, Inc. 1997 Stock Option Plan (the
+"1997 Stock Option Plan"). The shares of Common Stock issuable under the 1997
+Stock Option Plan are hereinafter collectively referred to as the "Shares."
+
+         We have examined the Registration Statement and such documents and
+records of the Company and other documents as we have deemed necessary for the
+purpose of this opinion. In giving this opinion, we are assuming the
+authenticity of all instruments presented to us as originals, the conformity
+with originals of all instruments presented to us as copies and the genuineness
+of all signatures.
+
+         Based upon and subject to the foregoing, we are of the opinion that,
+upon the due execution by the Company and the registration by its registrar of
+the Shares and the issuance and sale thereof by the Company in accordance with
+the terms of the 1997 Stock Option Plan and the receipt of consideration
+therefor in accordance with the terms of the 1997 Stock Option Plan, the Shares
+will be validly issued, fully paid and nonassessable.
+
+         We hereby consent to the filing of this opinion as an exhibit to the
+Registration Statement. In giving such consent, we do not admit that we are in
+the category of persons whose consent is required under Section 7 of the Act.
+
+
+
+
+                                             Very truly yours,
+
+                                             PERKINS COIE
+
+
+
+
+
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-23.1
+<SEQUENCE>3
+<DESCRIPTION>CONSENT OF ERNST & YOUNG LLP, INDEPENDENT AUDITORS
+<TEXT>
+
+<PAGE>   1
+
+
+
+               CONSENT OF ERNST & YOUNG LLP, INDEPENDENT AUDITORS
+
+         We consent to the incorporation by reference in the Registration
+Statement (Form S-8) pertaining to the 1997 Stock Option Plan of Amazon.com,
+Inc. of our report dated February 28, 1997, (except for Note 6, as to which the
+date is April 18, 1997), with respect to the financial statements of Amazon.com,
+Inc. included in the Registration Statement (Form S-1, No. 333-23795) of
+Amazon.com, Inc. filed with the Securities and Exchange Commission.
+
+
+
+                                                     ERNST & YOUNG LLP
+Seattle, Washington
+June 5, 1997
+
+
+
+
+
+
+
+
+
+
+
+
+
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----
