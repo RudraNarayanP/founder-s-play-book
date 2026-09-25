@@ -102,6 +102,14 @@ A 404 over 0 bytes is **UNANSWERED, never a null**; see §Conflicts C-6 and the 
    more than being able to hire ten programmers"; reply address "1180 Alvarado SE, #114, Albuquerque, New
    Mexico, 87108". Signed "**Bill Gates / General Partner, Micro-Soft**". The same issue separately reports
    Altair BASIC availability "set for December 17, 1975. Delivery was then scheduled for January 15, 1976".
+   **[RETRACTED 2026-09-26 — COR-01 / conflict U.1. This sentence is a misattribution: those two dates belong
+   to Processor Technology's VDM-1 video display module, in a different column of the same issue
+   (`hcc0201.txt` lines 49-55: "VDM-1 - Many people are waiting delivery of the VDM-1 Video Display Module
+   from Processor Technology Corporation … Originally availability was set for December 17, 1975"). The
+   passage never names BASIC. Altair BASIC has NO release or availability date in any held byte; the value is
+   UNKNOWN again. Text left standing because this dossier is an audit trail and takes a dated supersession
+   marker, never a silent edit — do not cite this line for a 1975/76 Altair BASIC date. See
+   `CORRECTIONS.md` COR-01.]**
    *Tier reading:* §5 puts "original interviews and transcripts" — first-person original text — in Tier 1;
    this is the founder's own words, printed contemporaneously, not a later history. **Tier 1 candidate for
    the founding window, and the earliest such document this project holds for Microsoft.**

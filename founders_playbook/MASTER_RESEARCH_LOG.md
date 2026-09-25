@@ -1915,3 +1915,29 @@ minimum = **T3**, so ~3-4 agent runs, not 15-20.
   UNANSWERED** by the agent. That is the same silent-drop class as RD-112's "nameless rows vanish while the
   run claims 0 UNANSWERED", and it is the intake agent's problem, not this probe's.
 
+
+### RD-117 -- Microsoft Stage 1 §A-J written, and the two-lineage claim kept itself honest
+
+`company_011_microsoft/_parts/s1_p1.md`: 13,778 w (cap 22,000), Header+Boundary+§A–§J all WRITTEN, web
+budget 0, 25 register rows requested. Every quotation re-read from held bytes in the pass, including two the
+dossier had never opened -- BYTE Dec 1980 l.39649-39653 (a "sibling company" review) and hcc0201 l.137-142
+(a club meeting survey).
+- **The two-lineage claim, stated the way the evidence allows:** the 1976 Homebrew letter is contemporaneous
+  company-authored print; the FY1994 10-K is a registrant statement 18-19 years later, fetched over verified
+  TLS. They corroborate **because neither derives from the other** -- but both are company-side about the
+  start, so "two sources" does not mean "two facts". Year 1975, entity form and the 1981 incorporation each got
+  their own carrier row; **1981 rests on one lineage**; conflicts U.3/U.4 stay two-sided.
+- **U.1 sweep: 7 hits, exactly 1 stale** (A2 l.104, fixed with a dated marker and the original text
+  preserved); 4 are retraction or quoted-source hits; 2 are the same date string at *other* companies and are
+  not defects. `1975-12-17` now returns 0 hits anywhere.
+- Three corrections minted in a new `CORRECTIONS.md`: **COR-01** the VDM-1 retraction, **COR-02** a
+  publication-place fix (the masthead prints **Mountain View**; "Menlo Park" is PCC's address, not
+  Microsoft's), **COR-03** the unverified-TLS ceiling on IA bytes.
+- **The gate caught a real ordering hazard rather than a defect:** `budget` and `keys` pass, but Microsoft has
+  **no register CSVs yet**, so COR-01/02/03 reach the volumes and cannot reach registers, and `csv`/`anchors`
+  did not run at all. That is expected for a dossier-stage company -- and it is a standing instruction to the
+  merge pass: **do not drop the COR tags when the registers are created**, or the corrections gate will pass
+  on a volume that has lost its retraction trail.
+- Biggest gap, named rather than filled: **no MITS licence or royalty terms exist in any held document** -- the
+  counterparty's own *Computer Notes* was never collected -- so Microsoft's entire first revenue line is
+  undocumented. That is a FETCH REQUEST, not a paragraph of plausible economics.

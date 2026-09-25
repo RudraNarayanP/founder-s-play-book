@@ -1,0 +1,17 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/789019/000089102095000018/0000891020-95-000018.txt",
+ "fetched": "2026-09-25T20:30:18Z",
+ "sha1": "dbdafb5df88178595b3138c816055acd3b246511",
+ "bytes": 823653,
+ "words": 106263,
+ "cik": "0000789019",
+ "accession": "0000891020-95-000018",
+ "document": "0000891020-95-000018.txt",
+ "url_form": "bare-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [
+  "padded-cik/nodash-dir: - UNANSWERED after 2 tries (HTTP 503 b'SEC.gov | File Unavailable' page)"
+ ],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": true
+}
