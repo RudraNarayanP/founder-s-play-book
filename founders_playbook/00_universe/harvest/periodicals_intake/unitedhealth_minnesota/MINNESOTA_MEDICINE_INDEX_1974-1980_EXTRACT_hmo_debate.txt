@@ -1,0 +1,100 @@
+# [PROVENANCE HEADER — MINNESOTA MEDICINE ANNUAL INDEX EXTRACT, 1974-1980]
+# Retrieved by: periodicals intake agent (Internet Archive route), 2026-09-25T06:40-07:05Z.
+# Items (Internet Archive identifiers; mediatype=texts; collection pub_minnesota-medicine /
+#   sim_microfilm / periodicals; scanner microfilm03.cebu.archive.org; each text layer pulled
+#   WHOLE at HTTP 200 and byte-for-byte equal to the size declared in item metadata):
+#   1974 sim_minnesota-medicine_1974_57_index  Vol 57 Index   56,258 B  ia800704/35
+#   1975 sim_minnesota-medicine_1975_58_index  Vol 58 Index   35,570 B  ia800708/20
+#   1976 sim_minnesota-medicine_1976_59_index  Vol 59 Index   33,240 B  ia800803/22
+#   1977 sim_minnesota-medicine_1977_60_index  Vol 60 Index   31,793 B  ia800709/26
+#   1978 sim_minnesota-medicine_1978_61_index  Vol 61 Index   19,672 B  ia801804/21
+#   1979 sim_minnesota-medicine_1979_62_index  Vol 62 Index   32,452 B  ia803103/16
+#   1980 sim_minnesota-medicine_1980_63_index  Vol 63 Index   28,680 B  ia801905/03
+# WHAT THIS IS: the journal of the Minnesota Medical Association — the organised medical
+#   establishment of the state where Burdick's Charter Med (1971-4), Metropolitan Health
+#   Plans and UnitedHealthCare of the North (1977) were launched. Each item is that
+#   volume's own January-December index: article title, author, page; plus a list of the
+#   editors' signed editorial columns. Independent, contemporaneous, in-window.
+# WHAT WAS DONE: whole text layers (19-56 KB each, ~2,800-8,200 words; 30,801 words total)
+#   pulled to scratch outside the repository, grepped, and every relevant line transcribed
+#   below with its file-offset so the call can be re-walked. No volume dumped.
+# OCR STATE: substantially COMPLETE and legible for these index volumes (two-column,
+#   clean type) — unlike the Business Week indexes; only ligature/quote glyphs are lost
+#   (rendered as '?').
+# NEGATIVE RESULTS ON THESE SEVEN VOLUMES (0 hits each, grep over the full text layers):
+#   'Burdic' 0 - 'Charter Med' 0 - 'Metropolitan Health' 0 - 'United Health'/'UnitedHealth' 0
+#   - 'prepaid' 0 - 'Blue Cross' 0 - 'closed panel' 0. The journal's index does not carry
+#   the new HMOs by name in 1974-1980; it carries the profession's debate about them.
+# PAGES THAT CAME THROUGH: for each of the seven years the FULL index text layer arrived, byte-exact
+#   against the item's own declared size (56,258 / 35,570 / 33,240 / 31,793 / 19,672 / 32,452 /
+#   28,680 B), so no index page is missing from any volume. Which sections came through: the
+#   alphabetical author/subject index and the editorial-column list of each volume. The printed
+#   page numbers quoted inside entries (797, 77, 231, 391 …) are Minnesota Medicine's own; the
+#   layer carries no page-boundary markers, so passages below are addressed by CHARACTER OFFSET.
+
+
+==============================================================================
+### MINNESOTA MEDICINE 1974 — words on the text layer: 8,201 ; relevant lines: 1
+==============================================================================
+(offset 43743)
+    There (August) 605 Oh! for the Simple Life (November) 869 Peer Challenge Peer Review. (June) 441 Physicians in Training (September) 677 1776 and Now (July) 521 Under My Skin (October) 765 Regan, John J.: AMA Meetings (February) 75 Health Planning (January) 7 Rocky Mountain Honeymoon (April) 253 Thanksgiving (May) 351 Stridency (March) 155 Q Quast, Wentworth; Hafner, A. Jack and Shea, Michael J.: Adolescent Patients as Adults. 914 Quattlebaum, F. W. and Sturm
+
+
+==============================================================================
+### MINNESOTA MEDICINE 1975 — words on the text layer: 5,322 ; relevant lines: 4
+==============================================================================
+(offset 3705)
+    A New Look at the Pathology and Pathophysiology. 30 Carcinoma of the Cervix. Clinical and Surgical Staging. Robert D. Hilgers. 733 Chorioangioma of the Placenta. Causing Fetal Distress. Joseph E. Adducci. 820 Comprehensive Mental Health Planning in a Children s Hospital. Jack V. Wallinga. 911 Control of Streptococcal Infections. Principles and Prob- lems. Milton Markowitz. 603 Creatine Phosphokinase Isoenzymes and Myocardial In- farction. Thomas O. Swallen. 3
+(offset 8815)
+    ptococcal Infections. The Community s Responsibility. 623 Kelly, John C.: Progress in Hodgkin s Disease. 397 Kiser, Joseph: Artificial Heart. 749 Knutson, Dennis D.: Acne: Pathogenesis and Treatment. 194 Kyllonen, Ronald: Mental Health Planning in a Chil- dren s Hospital. 891 Leonard, Arthur: Hennepin County Medical Center Grand Rounds. 258 Light Microscopy of Glomerular Diseases. Barbara A. Burke. 259 Management of Tibial Fractures. Miguel E. Cabanela. 8
+(offset 9067)
+    ing in a Chil- dren s Hospital. 891 Leonard, Arthur: Hennepin County Medical Center Grand Rounds. 258 Light Microscopy of Glomerular Diseases. Barbara A. Burke. 259 Management of Tibial Fractures. Miguel E. Cabanela. 829 Mental Health Planning in a Children s Hospital. Ronald Kyllonen. 891 Meyer, William C.: Importance of Fetal Heart Rate Monitoring. 827 Michael, Alfred F.: The Wolf. 396 Miller, Todd C.: Alcoholic Hepatitis. 827 Multiple Trauma Patient. 
+(offset 30070)
+    amins and Cancer. Athanasios Theologides. 875 Voiding Cystourethrography. Recent Advances. Shashi- kant M. Sane and Robert A. Worsing. 148 Diagnosis of Food Sensitivity Using Patch Tests. 310 Wallinga, Jack V.: Comprehensive Mental Health Plan- ning in a Children s Hospital. 911 Wang, Kyuhyun; Gobel, Fredarick and Richman, Har- old G.: Role of Physiological Modifying Factors in Interpretation of Arrhythmias. 473 Wangensteen, Owen H.: Affiliation of the Mayo Fou
+
+
+==============================================================================
+### MINNESOTA MEDICINE 1976 — words on the text layer: 4,815 ; relevant lines: 3
+==============================================================================
+(offset 306)
+     Care Cost Containment. G. Roy Diessner, 557. A Flexible and Functional Definition of Family Practice. Robert R. Thompson and Charles G. Roland, 273. A Look at Child Health Manpower in Minnesota. Dis- tribution and Context within the Health Planning Re- gions. Steven G. Thompson, Robert W. ten Bensel and Eileen A. Crowley, 580. Acute Diabetic Complications. Bruce R. Zimmerman, tt. Acute Phase of Myocardial Infarction. Prehospital Man- agement of the Coronary Pa
+(offset 24397)
+    s, 367. PRESIDENT S LETTER Anderson, Jo E.: Care with Caring. (April) 215. Anonsen, Richard E.: A Tribute to Roy Diessner. (June) 361. Assessing Quality of Medical Care. (October) 667. Can I Stay in Medical School? (December) 827. Health Planning Law (PL. 93-641). (August) 511. Homicide or Death? (July) 439. Professional Liability. (September) 591. Violence on TV. (November) 739. Bell, Donald C.: Assessing Quality of Medical Care (Oc- tober) 667. Diessner, G. R
+(offset 29178)
+    land, Charles G.: A Flexi- ble and Functional Definition of Family Practice. 273. Thompson, Steven G.; ten Bensel, Robert W.; and Crowley, Eileen A.: A Look at Child Health Man- power in Minnesota. Distribution and Context within the Health Planning Regions. 580. Thorson, Stuart V.: Encroachment on the Private Prac- tice of Medicine. 25. Thrombophlebitis Some Practical Aspects. Claus A. Pierach, Joseph C. Kiser, and Robert B. Howard, 164. Toledo-Pereyra, Luis H.
+
+
+==============================================================================
+### MINNESOTA MEDICINE 1977 — words on the text layer: 4,418 ; relevant lines: 2
+==============================================================================
+(offset 21374)
+    ichard E.: Medical-Socio-Economic Emphasis The Patient. (March) 189. Anonsen, Richard E.: President s Message. (June) 300. A Message on Health by Minnesota s New Governor, Rudy Perpich. (March) 155. Coleman, John B.: Report on MSMA Health Planning Program. (February) 139. Focuses on Office Practice of Medicine. (February) 74. Halvorson, J. W. and Thorson, S. V.: MSMA Meetings (November) 814. Interview with MINNPAC Chairman, Richard E. Engwall, M.D. (June) 450
+(offset 21963)
+    son and J. W. Halvorson (November) 814. 1978 MSMA Annual Meeting. S. V. Thorson (Juiy) 464, (September) 634. Nominees for State Offices (March) 185. °77 Meeting Offers (March) 188. 124th Annual Meeting (May) 369. Report on MSMA Health Planning Program. John B. Cole- man (February) 139. Thorson, S. V. and Halvorson, J. W.: MSMA Meetings (November) 814. Thorson, S. V.: 1978 MSMA Annual Meeting (September) 634. Why Buy Life Insurance? Carl E. Christenson (Ma
+
+
+==============================================================================
+### MINNESOTA MEDICINE 1978 — words on the text layer: 2,812 ; relevant lines: 1
+==============================================================================
+(offset 3817)
+    spitals, Mr. Carl N. Platou, October, 611 Interview with Dr. Robert Kelly, Chairman of the AMA Delegation from Minnesota, January, 43 Conversation with Dr. Richard K. Simmons, Family Practitioner and Medical Director of the Physicians Health Plan, November, 665 D Dahl, Diane; Bessinger, F. Blanton, Jr. and Kaplan, Edward L.: Rheumatic Fever in Minnesota. Current Assessment of Reported Cases, 249 Derro, Robert A.: Admission Health Evaluation of Inmates of a Ci
+
+
+==============================================================================
+### MINNESOTA MEDICINE 1979 — words on the text layer: 4,592 ; relevant lines: 2
+==============================================================================
+(offset 1695)
+    c Connection between the Two Diseases. Robert O. Fisch, William B Hosfield, Pi- Nian Chang, John Barranger, and Donald W Hastings, 243 An Efficient Approach to the Mental Status Examination Bruce D. Snyder, 901 Anderegg, Alfred F.: HMOs 797 Gerald J Their Limitations and Role, Anderson, Lowell J 615 Anterior Cranial Vault and Bony Orbit in Infancy Craniofacial Surgery. Bruce B. Shilling, Erich S. Wisiol, Brooks J. Poley, and Thomas W. Purcell, 399 A
+(offset 13499)
+     Scintiangiographic Identification of Lesion Producing Foix-Alajouanine Syndrome. 653 Hick, John F.: Preschool Screening: Right or Ritual? 373 Hildreth, T. A., Cass, A. S. and Khan, A. U.: Skiing Injuries to the Urinary Tract. 155 HMOs   Their Limitations and Role. Alfred F. Anderegg, 797 Or Backward? Hodge, David S., Comty, Christiana M. and Helseth, Hovald K.: Surgical Treatment of Uremic Pericarditis 323 Hoffman, Neil R.: Liver Injury Secondary to Radia
+
+
+==============================================================================
+### MINNESOTA MEDICINE 1980 — words on the text layer: 4,086 ; relevant lines: 3
+==============================================================================
+(offset 8290)
+    EDITOR S NOTEBOOK Richard L. Reece: A Chinaman s Chance. Impressions of China and Chinese Medicine. (October) 693 An Unhappy Fairy Tale. (January) 7 Christmas Cheer (December) 833 Editor's Report to the House of Delegates. (May) 307 HMOs   A Matter of Choice. (February) 77 Lowdown on China. (September) 619 Midwest Power Vacuum. (March) 159 Responses to HMO Editorial. (April) 231 Where Have All the Flowers Gone? (June) 379 F Falciparum Malaria in Minnesota. Paul K
+(offset 8415)
+    ppy Fairy Tale. (January) 7 Christmas Cheer (December) 833 Editor's Report to the House of Delegates. (May) 307 HMOs   A Matter of Choice. (February) 77 Lowdown on China. (September) 619 Midwest Power Vacuum. (March) 159 Responses to HMO Editorial. (April) 231 Where Have All the Flowers Gone? (June) 379 F Falciparum Malaria in Minnesota. Paul Kubic; Carolyn Levitt and Peter Coccia, 161 Femoral Tuberculous Arteritis. Lawrence N. Mulmed; David N. Williams; Michael W
+(offset 14856)
+    eumatology Corner. (September) 631 Dudley, Richard G. Jr.: In Defense of **Limbitrol.   (October) 713 Franciosi, Ralph A.: Unsuccessful Pregnancy. (June) 391 Hodgson, Jane E.: Unsuccessful Pregnancy. (June) 391 Kretchman, Lorraine A.: HMOs. (June) 391 Larson, Theodore G.: Limbitrol. (October) 714 Simmons, Richard K.:   And the Beat Goes On" ! (September) 631 Soll, Robert: Nicotinic Acid. (June) 392 Verby, Jack: Rural Physician Associate Program. (October) 714 M 

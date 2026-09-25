@@ -1,0 +1,101 @@
+{
+ "query_label": "ia_medical_economics_sim_run.json",
+ "query": "title:(\"medical economics\") AND YEAR:[1970 TO 1985]",
+ "http_status": 200,
+ "numFound": 25,
+ "docs_sample": [
+  {
+   "identifier": "sim_medical-economics_1983_60_index",
+   "date": "1983-01-01",
+   "title": "Medical Economics 1983: Vol 60 Index"
+  },
+  {
+   "identifier": "sim_medical-economics_1977_54_index",
+   "date": "1977-01-01",
+   "title": "Medical Economics 1977: Vol 54 Index"
+  },
+  {
+   "identifier": "sim_medical-economics_1980_57_index",
+   "date": "1980-01-01",
+   "title": "Medical Economics 1980: Vol 57 Index"
+  },
+  {
+   "identifier": "sim_medical-economics_1982_59_index_0",
+   "date": "1982-01-01",
+   "title": "Medical Economics 1982: Vol 59 Index"
+  },
+  {
+   "identifier": "sim_medical-economics_1972_49_index_0",
+   "date": "1972-01-01",
+   "title": "Medical Economics 1972: Vol 49 Index"
+  },
+  {
+   "identifier": "sim_medical-economics_1981_58_index",
+   "date": "1981-01-01",
+   "title": "Medical Economics 1981: Vol 58 Index"
+  },
+  {
+   "identifier": "pub_social-science-medicine-part-c-medical-economics",
+   "date": "1978-01-01",
+   "title": "Social Science & Medicine, Part C: Medical Economics"
+  },
+  {
+   "identifier": "sim_medical-economics_1970_47_index",
+   "date": "1970-01-01",
+   "title": "Medical Economics 1970: Vol 47 Index"
+  },
+  {
+   "identifier": "sim_medical-economics_1972_49_index",
+   "date": "1972-01-01",
+   "title": "Medical Economics 1972: Vol 49 Index"
+  },
+  {
+   "identifier": "sim_medical-economics_1978_55_index",
+   "date": "1978-01-01",
+   "title": "Medical Economics 1978: Vol 55 Index"
+  },
+  {
+   "identifier": "sim_medical-economics_1971_48_index",
+   "date": "1971-01-01",
+   "title": "Medical Economics 1971: Vol 48 Index"
+  },
+  {
+   "identifier": "sim_medical-economics_1974_51_index",
+   "date": "1974-01-01",
+   "title": "Medical Economics 1974: Vol 51 Index"
+  },
+  {
+   "identifier": "sim_medical-economics_1979_56_index",
+   "date": "1979-01-01",
+   "title": "Medical Economics 1979: Vol 56 Index"
+  },
+  {
+   "identifier": "sim_medical-economics_january-december-1975_52_index",
+   "date": "1975-01-01",
+   "title": "Medical Economics January-December 1975: Vol 52 Index"
+  },
+  {
+   "identifier": "sim_medical-economics_1971_48_index_0",
+   "date": "1971-01-01",
+   "title": "Medical Economics 1971: Vol 48 Index"
+  },
+  {
+   "identifier": "sim_medical-economics_1984_61_index",
+   "date": "1984-01-01",
+   "title": "Medical Economics 1984: Vol 61 Index"
+  },
+  {
+   "identifier": "medicaleconomics0000east",
+   "date": "1981-01-01",
+   "title": "Medical economics and health finance"
+  },
+  {
+   "identifier": "sim_medical-economics_january-december-1976_53_index",
+   "date": "1976-01-01",
+   "title": "Medical Economics January-December 1976: Vol 53 Index"
+  }
+ ],
+ "source_url": "https://archive.org/advancedsearch.php?q=title:(medicaleconomics)ANDYEAR:[1970TO1985]&output=json",
+ "retrieved": "2026-09-25T06:40-07:05Z",
+ "note": "25 items = annual index volumes 1970-1985, same SIM route; not yet pulled."
+}

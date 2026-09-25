@@ -1,0 +1,162 @@
+# [PROVENANCE HEADER — CREATIVE COMPUTING Nov/Dec 1977 (v03 n06): every 'Apple' mention]
+# Retrieved by: periodicals intake agent (Internet Archive route), 2026-09-25T07:16Z.
+# Item: CreativeComputing_v03n06_NovDec1977  'Creative Computing v03n06 Nov/Dec 1977'
+#   mediatype=texts; collections computermagazines / magazine_rack (binding family CreativeComputing*)
+#   text layer Creative_Computing_v03n06_Nov_Dec_1977_djvu.txt, 691,621 B / 100,162 words,
+#   HTTP 200 at 07:16Z, byte-exact against the size declared in archive.org/metadata/<id>.
+#   URL https://ia600907.us.archive.org/17/items/CreativeComputing_v03n06_NovDec1977/Creative_Computing_v03n06_Nov_Dec_1977_djvu.txt
+# WHY NEW, not a duplicate: the project holds NO Creative Computing at all (see
+#   company_004_apple/sources/_RETRIEVAL_LOG.md). This is a NEW TITLE, and its first
+#   in-window issue retrieved: Nov/Dec 1977, nine months after the Apple II launch.
+# WHAT WAS DONE: the whole issue layer was pulled to scratch OUTSIDE the repository (100,162
+#   words = 1.7x the 60,000-word artifact cap), grepped for 'Apple' -> 3 hits, and each is
+#   transcribed below with +/- 700 characters of context so the passage can be re-walked.
+# OCR STATE: PARTIAL — body copy legible; dealer-ad small type carries OCR noise
+#   ('Cromenco' for Cromemco, 'Veras' for Vasch?). No article headline in this issue is an
+#   Apple review: the Apple II appears as (a) a machine in a reader's software catalogue and
+#   (b) a brand in two hardware-dealer advertisements. Recorded as such, not oversold.
+# PAGES THAT CAME THROUGH: 691,621 B = the exact size declared in the item's metadata, i.e. the
+#   whole Nov/Dec 1977 issue (a bimonthly) is present in the layer; no page dropped. The layer has
+#   no page-boundary markers, so the three occurrences below are addressed by CHARACTER OFFSET.
+#   OCR completeness: PARTIAL, see above.
+
+
+==============================================================================
+### 'Apple' occurrence at text-layer character offset 212079 (context +/-700)
+==============================================================================
+accounting,  I  went  on  to 
+become  a  computer  systems  analyst,  a 
+mail-order  entrepreneur  on  home 
+knitting,  a  weekend  manager  of  a 
+computer  store,  and  when  times  get 
+rough— a  janitor. 
+
+Recently  I  left  my  programming  job 
+with  the  state  government  to  do 
+"something  useful  for  achange."  Now  I 
+am  working  on  all  the  projects  I 
+dreamed  up  in  the  last  three  years  but 
+never  had  the  time  to  do.  Besides  keep- 
+ing up  the  S-100  Computer  Kit  Re- 
+ference List  (next  issue  Jan.  78),  I  am 
+starting  another  reference  list.  This  one 
+will  catalog  all  software  available  on 
+cassettes  for  Sol-20,  PET,  Radio 
+Shack,  and  Apple  II.  People  have  asked 
+my  why  I  compile  these  lists  and  all  I 
+can  tell  them  is,  "It  needs  to  be  done 
+and  no  one  else  has  done  it." 
+
+Since  I  am  one  of  the  nation's  leading 
+experts  on  programming  designs  for 
+home  knitting  looms,  one  of  the  pro- 
+jects I  am  now  working  on  is  designing 
+knits  with  hobby  computers.  In 
+cooperation  with  a  nationwide 
+knitting-loom  magazine,  I  am  creating 
+garment  patterns  on  my  computer  and 
+having  them  tested  by  knitters  all 
+across  the  country.  My  computer  is  an 
+Altair  8800A,  with  8K  Seals,  Morrow 
+Intelligent  Cassette,  PolyMorphics 
+video  with  keyboard,  Southwest
+
+
+==============================================================================
+### 'Apple' occurrence at text-layer character offset 598460 (context +/-700)
+==============================================================================
+e  do  more  than 
+just  sell  computers 
+
+We  give  you  more  than  just  the  run-of-the-mill  computer  store.  Whether  browsing  or  buying,  you'll 
+find  a  professional  atmosphere  that  is  also  relaxed  and  casual.  Plus  an  array  of  incomparable 
+benefits.  Such  as  an  extensive  selection  of  microcomputers.  A  full  range  of  peripherals.  Broad 
+microcomputer  experience.  Full  technical  support.  Software  and  books.  Even  leasing.  We're 
+dedicated  to  giving  you  more  at  The  Computer  Mart. 
+
+Extensive  Hardware  Selection  Whatever  your  microcomputer  needs,  we  have  the  hardware  for 
+you.  Imsai,  Processor  Technology,  Polymorphic,  Cromenco,  Apple  and  more. 
+
+Full  Range  Of  Peripherals  We  have  virtually  any  type  of  peripheral  you'll  need  to  complete 
+your  system.  Sanyo  monitors.  Northstar  and  iCom  floppy  disk  systems.  Lear  Siegler  terminals. 
+Additional  memory.  Tape  Cassettes.  Paper  tape  readers.  Plus,  much  more. 
+
+Microcomputer  Experience  We  have  solid  microcomputer  experience  gained  through 
+selling  hundreds  of  microcomputers.  We  know  what  you  can  expect  from  your  system.  That's 
+important  to  you. 
+
+Technical  Support  We  stand  behind  the  products  we  sell.  With  an  experienced  five-person 
+service  department.  When  you  have  a  problem,  we're  there  with
+
+
+==============================================================================
+### 'Apple' occurrence at text-layer character offset 621794 (context +/-700)
+==============================================================================
+men  came.  The 
+Whole  room  was  cluttered 
+With  memory  dumps,  punch  cards, 
+Tm  close,'  he  muttered. 
+
+The  mumbling  got  louder, 
+'Simple  deductions, 
+I've  got  it,  it's  right,  just 
+Change  one  instruction' 
+
+It  still  wasn't  perfect 
+
+As  year  followed  year 
+
+And  strangers  would  comment, 
+
+'Is  that  guy  still  here' 
+
+He  died  at  the  console 
+Of  hunger  and  thirst, 
+Next  day  he  was  buried 
+Face  down,  nine  edge  first. 
+
+And  the  last  bug  in  sight, 
+An  ant  passing  by, 
+Saluted  his  tombstone 
+And  whispered,  'Nice  try!' 
+
+Author  Unknown 
+
+(Submitted  by  J.  Prusis, 
+Dearborn,  Michigan) 
+
+
+IMSAI,  SWTPCo,  Digital  Group 
+Processor  Tech,  Apple,  OSI 
+TDL-Z-80,  Seals,  Cromemco, 
+Veras,  Tarbell,  Oliver 
+
+Magazines,  books,  chips, 
+sockets,  connectors,  terminals. 
+
+IT'S  ALL  HERE  WAITING  FOR  YOU 
+FRIENDLY  ADVICE  TOO 
+
+New  York  City 
+118  Madison  Ave. 
+(Enter  on  30th  St.) 
+New  York  10016 
+212-686-7923 
+(Tues.  thru  Sat.) 
+
+
+HOBBYISTS!  ENGINEERS!  TECHNICIANS!  STUDENTS! 
+
+
+Write  and  run  machine  language  programs  at  home,  display  video  graphics 
+on  your  TV  set  and  design  microprocessor  circuits  -  the  very  first  night 
+-  even  if  you've  never  used  a  computer  before!  . 
+
+RCA  COSMAC  microprocessor/mini- 
+computer 
+
+
+SPECIFICATIONS 
+
+ELF  II  features  an  RCA 
+COSMAC  COS/MOS  8

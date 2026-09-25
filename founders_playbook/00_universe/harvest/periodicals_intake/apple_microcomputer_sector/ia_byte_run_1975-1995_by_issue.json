@@ -1,0 +1,101 @@
+{
+ "query_label": "ia_byte_run_1975-1995_by_issue.json",
+ "query": "identifier:(byte-magazine*)",
+ "http_status": 200,
+ "numFound": 230,
+ "docs_sample": [
+  {
+   "identifier": "BYTE-Magazine-Graphic-Manipulations-pdf-mkug",
+   "date": "None",
+   "title": "BYTE Magazine Graphic Manipulations.pdf"
+  },
+  {
+   "identifier": "byte-magazine-1987-03",
+   "date": "1987-03-01",
+   "title": "Byte Magazine Volume 12 Number 03: Educational Computing"
+  },
+  {
+   "identifier": "byte-magazine-1977-07",
+   "date": "1977-07-01",
+   "title": "Byte Magazine Volume 02 Number 07 - Model Railroads"
+  },
+  {
+   "identifier": "byte-magazine-1983-10",
+   "date": "1983-10-01",
+   "title": "Byte Magazine Volume 08 Number 10 - UNIX"
+  },
+  {
+   "identifier": "byte-magazine-1977-08",
+   "date": "1977-08-01",
+   "title": "Byte Magazine Volume 02 Number 08 - Working with APL"
+  },
+  {
+   "identifier": "byte-magazine-1987-08",
+   "date": "1987-08-01",
+   "title": "Byte Magazine Volume 12 Number 09: Prolog and 386 Hardware Software"
+  },
+  {
+   "identifier": "byte-magazine-1977-09",
+   "date": "1977-09-01",
+   "title": "Byte Magazine Volume 02 Number 09 - Music and Computers"
+  },
+  {
+   "identifier": "byte-magazine-1979-04",
+   "date": "1979-04-01",
+   "title": "Byte Magazine Volume 04 Number 04 - Low Level Programming"
+  },
+  {
+   "identifier": "byte-magazine-1980-02",
+   "date": "1980-02-01",
+   "title": "Byte Magazine Volume 05 Number 02 - Graph Theory"
+  },
+  {
+   "identifier": "byte-magazine-1978-09",
+   "date": "1978-09-01",
+   "title": "Byte Magazine Volume 03 Number 09 - Graphic Manipulations"
+  },
+  {
+   "identifier": "byte-magazine-1986-07",
+   "date": "1986-07-01",
+   "title": "Byte Magazine Volume 11 Number 07: Engineer's Toolbox"
+  },
+  {
+   "identifier": "byte-magazine-1978-01",
+   "date": "1978-01-01",
+   "title": "Byte Magazine Volume 03 Number 01 - The Brains of Men and Machines"
+  },
+  {
+   "identifier": "byte-magazine-1978-11",
+   "date": "1978-11-01",
+   "title": "Byte Magazine Volume 03 Number 11 - The Sky is the Limit"
+  },
+  {
+   "identifier": "byte-magazine-1979-08-rescan",
+   "date": "1979-08-01",
+   "title": "Byte Magazine Volume 04 Number 08: LISP (RESCAN)"
+  },
+  {
+   "identifier": "byte-magazine-1980-09",
+   "date": "1980-09-01",
+   "title": "Byte Magazine Volume 05 Number 09 - Homebrewing"
+  },
+  {
+   "identifier": "byte-magazine-1980-11",
+   "date": "1980-11-01",
+   "title": "Byte Magazine Volume 05 Number 11 - High-Resolution Graphics"
+  },
+  {
+   "identifier": "byte-magazine-atari-articles",
+   "date": "2021-01-01",
+   "title": "Byte Magazine — Atari Articles"
+  },
+  {
+   "identifier": "byte-magazine-1981-03",
+   "date": "1981-03-01",
+   "title": "Byte Magazine Volume 06 Number 03 - Programming Methods"
+  }
+ ],
+ "source_url": "https://archive.org/advancedsearch.php?q=identifier:(byte-magazine*)&output=json",
+ "retrieved": "2026-09-25T06:40-07:05Z",
+ "note": "230 items; issue-level identifier pattern byte-magazine-YYYY-MM (+ '-rescan' variants). Compared against company_004_apple/sources/ia_byte_* (holds 1976-01..12, 1977-04..07, 1980-12, 1981-02)."
+}

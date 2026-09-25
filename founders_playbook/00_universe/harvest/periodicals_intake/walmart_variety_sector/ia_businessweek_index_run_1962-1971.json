@@ -1,0 +1,101 @@
+{
+ "query_label": "ia_businessweek_index_run_1962-1971.json",
+ "query": "collection:(pub_business-week) AND YEAR:[1962 TO 1976]",
+ "http_status": 200,
+ "numFound": 52,
+ "docs_sample": [
+  {
+   "identifier": "sim_business-week_1971_index_0",
+   "date": "1971-01-01",
+   "title": "Business Week 1971: Index"
+  },
+  {
+   "identifier": "sim_business-week_1969_index_0",
+   "date": "1969-01-01",
+   "title": "Business Week 1969: Index"
+  },
+  {
+   "identifier": "sim_business-week_business-week_1962_index_1",
+   "date": "1962-01-01",
+   "title": "Business Week 1962: Index"
+  },
+  {
+   "identifier": "sim_business-week_january-june-1962_index",
+   "date": "1962-01-01",
+   "title": "Business Week January-June 1962: Index"
+  },
+  {
+   "identifier": "sim_business-week_1966_index_0",
+   "date": "1966-01-01",
+   "title": "Business Week 1966: Index"
+  },
+  {
+   "identifier": "sim_business-week_1962_index",
+   "date": "1962-01-01",
+   "title": "Business Week 1962: Index"
+  },
+  {
+   "identifier": "sim_business-week_1964_index_1",
+   "date": "1964-01-01",
+   "title": "Business Week 1964: Index"
+  },
+  {
+   "identifier": "sim_business-week_business-week_1962_index",
+   "date": "1962-01-01",
+   "title": "Business Week 1962: Index"
+  },
+  {
+   "identifier": "sim_business-week_business-week_january-december-1964_index",
+   "date": "1964-01-01",
+   "title": "Business Week January-December 1964: Index"
+  },
+  {
+   "identifier": "sim_business-week_business-week_july-december-1963_index",
+   "date": "1963-07-01",
+   "title": "Business Week July-December 1963: Index"
+  },
+  {
+   "identifier": "sim_business-week_business-week_1971_index",
+   "date": "1971-01-01",
+   "title": "Business Week 1971: Index"
+  },
+  {
+   "identifier": "sim_business-week_1969_index",
+   "date": "1969-01-01",
+   "title": "Business Week 1969: Index"
+  },
+  {
+   "identifier": "sim_business-week_1963_index",
+   "date": "1963-01-01",
+   "title": "Business Week 1963: Index"
+  },
+  {
+   "identifier": "sim_business-week_1968_index",
+   "date": "1968-01-01",
+   "title": "Business Week 1968: Index"
+  },
+  {
+   "identifier": "sim_business-week_1970_index_0",
+   "date": "1970-01-01",
+   "title": "Business Week 1970: Index"
+  },
+  {
+   "identifier": "sim_business-week_1963_index_1",
+   "date": "1963-01-01",
+   "title": "Business Week 1963: Index"
+  },
+  {
+   "identifier": "sim_business-week_1962_index_0",
+   "date": "1962-01-01",
+   "title": "Business Week 1962: Index"
+  },
+  {
+   "identifier": "sim_business-week_1970_index",
+   "date": "1970-01-01",
+   "title": "Business Week 1970: Index"
+  }
+ ],
+ "source_url": "https://archive.org/advancedsearch.php?q=collection:(pub_business-week)ANDYEAR:[1962TO1976]&output=json",
+ "retrieved": "2026-09-25T06:40-07:05Z",
+ "note": "52 items in the window, EVERY ONE an annual index volume; no in-window Business Week ISSUE on IA. Issue-level SIM scans stop c. 1961."
+}

@@ -1,0 +1,101 @@
+{
+ "query_label": "ia_kilobaud_interfaceage_creativecomputing_popelectronics.json",
+ "query": "identifier:(Kilobaud*) OR title:(kilobaud)",
+ "http_status": 200,
+ "numFound": 179,
+ "docs_sample": [
+  {
+   "identifier": "Kilobaud197810",
+   "date": "1978-10-01",
+   "title": "Kilobaud 1978 10"
+  },
+  {
+   "identifier": "Kilobaud198408",
+   "date": "1984-08-01",
+   "title": "Kilobaud 1984 08"
+  },
+  {
+   "identifier": "kilobaudmagazine-1978-12",
+   "date": "1978-12-01",
+   "title": "Kilobaud Magazine (December 1978)"
+  },
+  {
+   "identifier": "kilobaudmagazine-1980-04",
+   "date": "1980-04-01",
+   "title": "Kilobaud Microcomputing Magazine (April 1980)"
+  },
+  {
+   "identifier": "kilobaudmagazine-1981-06",
+   "date": "1981-06-01",
+   "title": "Microcomputing Magazine (June 1981)"
+  },
+  {
+   "identifier": "kilobaudmagazine-1982-12",
+   "date": "1982-12-01",
+   "title": "Microcomputing Magazine (December 1982)"
+  },
+  {
+   "identifier": "kilobaudmagazine-1983-04",
+   "date": "1983-04-01",
+   "title": "Microcomputing Magazine (April 1983)"
+  },
+  {
+   "identifier": "kilobaud-microcomputing_feb-1980_2708_EPROM_Prog_Motorola_D2-Kit",
+   "date": "None",
+   "title": "IC Datasheet: kilobaud-microcomputing feb-1980 2708 EPROM Prog Motorola D2-Kit"
+  },
+  {
+   "identifier": "kilobaudmagazine-1977-05",
+   "date": "1977-05-01",
+   "title": "Kilobaud Magazine (May 1977)"
+  },
+  {
+   "identifier": "sim_microcomputing_1981_index",
+   "date": "1981-01-01",
+   "title": "Kilobaud Microcomputing 1981: Index"
+  },
+  {
+   "identifier": "fav-kilobaud",
+   "date": "None",
+   "title": "kilobaud Favorites"
+  },
+  {
+   "identifier": "Kilobaud197904",
+   "date": "1979-04-01",
+   "title": "Kilobaud 1979 04"
+  },
+  {
+   "identifier": "Kilobaud197809",
+   "date": "1978-09-01",
+   "title": "Kilobaud 1978 09"
+  },
+  {
+   "identifier": "Kilobaud198101",
+   "date": "1981-01-01",
+   "title": "Kilobaud 1981 01"
+  },
+  {
+   "identifier": "Kilobaud198404",
+   "date": "1984-04-01",
+   "title": "Kilobaud 1984 04"
+  },
+  {
+   "identifier": "Kilobaud198103",
+   "date": "1981-03-01",
+   "title": "Kilobaud 1981 03"
+  },
+  {
+   "identifier": "Kilobaud198105",
+   "date": "1981-05-01",
+   "title": "Kilobaud 1981 05"
+  },
+  {
+   "identifier": "Kilobaud197801",
+   "date": "1978-01-01",
+   "title": "Kilobaud 1978 01"
+  }
+ ],
+ "source_url": "https://archive.org/advancedsearch.php?q=identifier:(Kilobaud*)ORtitle:(kilobaud)&output=json",
+ "retrieved": "2026-09-25T06:40-07:05Z",
+ "note": "Kilobaud 179 items 1977-1984. Interface Age 99 items 1975-1983. Creative Computing 197 items 1974-1985. Popular Electronics 144 items 1974-1978. Full per-title counts in SEARCH_LOG.md; text-layer probes there too."
+}

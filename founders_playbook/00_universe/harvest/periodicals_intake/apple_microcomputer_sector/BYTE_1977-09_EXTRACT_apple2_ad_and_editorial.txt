@@ -1,0 +1,413 @@
+# [PROVENANCE HEADER — BYTE September 1977 EXTRACT: Apple II launch advertisement + editorial]
+# Retrieved by: periodicals intake agent (Internet Archive route), 2026-09-25T06:40-07:05Z.
+# Item: byte-magazine-1977-09  'Byte Magazine Volume 02 Number 09 - Music and Computers'
+#   mediatype=texts; collection byte-magazine / computermagazines / magazine_rack
+#   text layer 1977_09_BYTE_02-09_Music_and_Computers_djvu.txt, 860,344 B,
+#   HTTP 200 at 2026-09-25T07:04:47Z, byte-exact against item metadata.
+#   URL https://ia601608.us.archive.org/29/items/byte-magazine-1977-09/1977_09_BYTE_02-09_Music_and_Computers_djvu.txt
+# WHY IT IS NEW, not a duplicate: company_004_apple/sources/ia_byte_1977/ holds BYTE
+#   1977-04, -05, -06, -07 ONLY. September 1977 is a NEW MONTH of a held title.
+# WHAT WAS DONE: the whole issue text (135,895 words) was pulled to scratch OUTSIDE the
+#   repository (it exceeds the 60,000-word artifact cap by 2.3x), grepped for 'Apple'
+#   (25 hits), and the two substantive passages transcribed below with character offsets.
+# OCR STATE: PARTIAL — body type and the advertisement copy read cleanly; numerals inside
+#   the ad's spec table are partly garbled and the ad's superscript/trademark marks render as
+#   '?' or as wrong letters ('Apple 11' / 'Apple n' / 'Apple Ilf' for 'Apple II'). Read '11',
+#   'n', 'Ilf', '11?' wherever 'II' is meant. Marked per line below.
+# SECOND ITEM IN THIS FILE: byte-magazine-1975-09 'Volume 00 Number 01 - The Worlds
+#   Greatest Toy', 443,605 B, HTTP 200 at 2026-09-25T07:04:52Z — the FIRST ISSUE EVER
+#   published of BYTE (Sept 1975), a NEW YEAR for the project (no 1975 issue is held).
+#   Apple mentions in it: ZERO. Recorded as a documented negative, not a null on the run.
+# PAGES THAT CAME THROUGH: the whole issue text layer arrived (860,344 B = the size the item's own
+#   metadata declares, so no page is missing from the scan), and the 25 'Apple' occurrences were
+#   located across it. But the layer carries no page-boundary markers, so the passages below are
+#   addressed by CHARACTER OFFSET, not by printed page; the advertiser-index passage (section C) is
+#   the issue's own 'Reader Service Number / Page Number' list, which is where the printed page of
+#   the Apple ad ('Apple 14, 15') is recoverable. OCR completeness: PARTIAL, see above.
+
+==============================================================================
+### A. BYTE Sept 1977, editorial/analysis passage — text-layer offset ~21,249
+==============================================================================
+ave fallen by the wayside, but 
+the general trend still remains one of expan- 
+sion and exploration, to the ultimate benefit 
+of the user of personal computing products 
+who is presented with new options and 
+lower prices for older options. 
+
+The "appliance" computer, a complete 
+system presented in an assembled and tested 
+package is on the threshold of its ultimate 
+dominance in the general purpose personal 
+computer field: from the high end, moving 
+down in price, we find products like the 
+Apple-ll and the Commodore PET 2001 
+machines; from the low end, moving up in 
+function at the same price, we find the 
+increasing versatility and capability of pro- 
+grammable calculators such as the newly 
+announced Texas Instruments SR-59 with 
+its optional ROM software modules and 
+expanded printing and magnetic card peri- 
+pheral capabilities. And for the discrimi- 
+
+Continued on page 95 
+
+6 
+
+
+
+RalediG 
+
+Great Locations 
+
+Now Open: 
+
+22634 Foothill Blvd. 
+Hayvi/ard, CA 94542 
+(415] 538-8080 
+
+6840 La Cienega Blvd. 
+Inglewood, CA 90302 
+(213) 776-8080 
+
+24001 Vic Fabriconte 
+Mission Viejo, CA 92675 
+(714) 770-0131 
+
+4233 Convoy Street 
+Sa
+
+
+==============================================================================
+### B. BYTE Sept 1977, the Apple Computer Inc. 'Introducing Apple II' advertisement
+###    (full-page; text-layer offset ~50,193 to ~54,500)
+==============================================================================
+fied to enable the user to 
+easily encode musical 
+compositions. See figure I . 
+
+
+
+13 
+
+
+
+Introducing Apple II. 
+
+
+
+^ 
+
+
+
+
+
+r 
+
+
+
+
+t « 
+
+
+
+!»'  
+
+
+
+
+t 
+
+
+
+^^^^^■*^^^x^ : 
+
+
+^^^^^^ 
+
+
+W.j-ttft*'WUIifJtW*'J««  
+
+
+
+
+
+
+
+
+
+YouVe just run out of excuses 
+for not owning a personal computer. 
+
+
+
+Clear the kitchen table. Bring 
+in the color TV. Plug in your new 
+Apple Ilf and connect any standard 
+cassette recorder/player. Now you're 
+ready for an evening of discovery in 
+the new world of personal computers. 
+
+Only Apple II makes it that 
+
+easy. It's a 
+
+
+
+I 
+
+
+
+
+complete, ready to use computer, not a 
+kit. At $1298, it includes video gra- 
+phics in 15 colors. It includes 8K bytes 
+ROM and 4K bytes RAM -easily 
+expandable to 48K bytes using 16K 
+RAMs (see box). But you don't even 
+need to know a RAM from a ROM to 
+use and enjoy Apple 11. For example, 
+it's the first personal computer with 
+a fast version of BASIC permanently 
+stored in ROM. That means you can 
+begin writing your own programs the 
+first evening, even if you've had no 
+previous computer experience. 
+
+The familiar typewriter-style 
+keyboard makes it easy to enter your 
+instructions. And your programs can 
+be stored on  and retrieved from  
+audio cassettes, using the built-in 
+
+
+
+
+cassette interface, so you can swap 
+with other Apple II users. 
+
+You can create dazzling color 
+displays using the unique color gra- 
+phics commands in Apple BASIC. 
+Write simple programs to display 
+beautiful kaleidoscopic designs. Or 
+invent your own games. Games like 
+PONG  using the game paddlea 
+supplied. You can even add the dimen- 
+sion of sound through Apple II's 
+built-in speaker. 
+
+But Apple II is more 
+than an advanced, infinitely 
+flexible game machine. Use 
+it to teach your children 
+arithmetic, or spelling 
+for instance. Apple II 
+makes learning fun. 
+Apple n can also 
+manage household finances, 
+chart the stock market or 
+index recipes, record collections, even 
+control your home environment. 
+
+Right now, we're finalizing a 
+peripheral board that will slide into 
+one of the eight available mother- 
+board slots and enable you to compose 
+
+music elec- 
+tronically. 
+And there 
+will be other 
+peripherals 
+announced 
+soon to 
+allow your 
+Apple II to 
+talk with another Apple 11, or to inter- 
+face to a printer or teletype. 
+
+Apple n is designed to grow 
+with you as your skill and experience 
+with computers grows. It is the state 
+of the art in personal computing today, 
+and compatible upgrades and peri- 
+pherals will keep Apple II in the fore- 
+front for years to come. 
+
+Write us today for our detailed 
+brochure and order form. Or call us 
+for the name and address of the 
+Apple n dealer nearest you. (408) 
+996-1010. Apple Computer Inc., 
+20863 Stevens Creek Boulevard, 
+Bldg. B3-C, Cupertino, 
+California 95014. 
+
+
+
+
+Apple II™ is a completely self-contained 
+computer system with BASIC in ROM, 
+color graphics, ASCII keyboard, light- 
+weight, efficient switching power supply 
+and molded case. It is supplied with 
+BASIC in ROM, up to 48K bytes of 
+RAM, and with cassette tape, video and 
+game I/O interfaces built-in. Also in- 
+cluded are two game paddles and a 
+demonstration cassette. 
+
+SPECIFICATIONS 
+
+  Microprocessor: 6502 (1 MHz). 
+
+  Video Display: Memory mapped, 5 
+
+modes  all Software-selectable: 
+
+  Text  40 characters/line, 24 lines 
+upper case. 
+
+  Color graphics  40h x 48v, 15 colors 
+
+  High-resolution graphics  280hx 
+192v; black, white, violet, green 
+(12K RAM minimum required) 
+
+■ Both graphics modes can be selected 
+to include 4 lines of text at the bottom 
+of the display area. 
+
+■ Completely transparent memory 
+access. All color generation done 
+digitally. 
+
+  Memory: up to 48K bytes on-board 
+RAM (4K supplied) 
+
+  Uses either 4K or new 16K dynamic 
+memory chips 
+
+  Up to 12K ROM (8K supplied) 
+
+  Software 
+
+  Fast extended integer BASIC in ROM 
+with color graphics commands 
+
+  Extensive rrionitor in ROM 
+ I/O 
+
+■ 1500 bps cassette interface 
+
+■ 8-slot motherboard 
+
+■ Apple game I/O connector 
+
+  ASCII keyboard port^ 
+
+  Speaker 
+
+  Composite 
+video 
+output 
+
+
+
+
+Apple II is also 
+
+available in board-only 
+
+form for the do-it-yourself hobbyist. Has 
+
+all of the features of the Apple II system, 
+
+but does not include case, keyboard, 
+
+power supply or game paddles. $598. 
+
+PONG is a trademark of Atari Inc. 
+*Apple II plugs into any standard TV using 
+an inexpensive modulator (not supplied). 
+
+
+
+^t^ 
+
+
+
+
+cippiG computer inc. 
+
+
+
+Circle 208 on inquiry card. 
+
+
+
+COMPUTER 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+88-RCB 
+
+
+
+
+
+
+
+
+
+==============================================================================
+### C. BYTE Sept 1977, reader-service / advertiser index line — offset ~847,242
+==============================================================================
+y with company. 
+
+
+
+Reader 
+Service 
+Number 
+
+
+
+Page 
+Number 
+
+
+
+283 Alpha Digital 203 
+208 Apple 14, 15 
+221 Axiom 67 
+
+261 Beehive International 179 
+
+255 BITS 169, 170, 171,202, 204, 96 
+
+284 Bits & Bytes Computer Shop 203 
+230 BPI 99 
+
+* BYTE Index 205 
+
+280 Byte Sh
+
+
+==============================================================================
+### D. NEGATIVE — BYTE Sept 1975 (Vol 00 No 01, first issue), 'Apple' hits: 0
+==============================================================================
+Whole-issue word count 63,757. The issue is the founding issue of the magazine, eight months before Apple Computer Inc. was incorporated (1977-01-03 per the FY1994 10-K). Text layer: 1975_09_BYTE_00-01_The_Worlds_Greatest_Toy_djvu.txt, 443,605 B, URL https://ia800800.us.archive.org/8/items/byte-magazine-1975-09/1975_09_BYTE_00-01_The_Worlds_Greatest_Toy_djvu.txt

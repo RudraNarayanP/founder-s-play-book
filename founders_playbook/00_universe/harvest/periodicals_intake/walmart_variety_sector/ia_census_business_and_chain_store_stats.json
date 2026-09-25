@@ -1,0 +1,101 @@
+{
+ "query_label": "ia_census_business_and_chain_store_stats.json",
+ "query": "identifier:(1967censusofbusi*)",
+ "http_status": 200,
+ "numFound": 131,
+ "docs_sample": [
+  {
+   "identifier": "1967censusofbusi6717uns",
+   "date": "None",
+   "title": "1967 Census of Business. Major Retail Centers in Standard Metropolitian Statistical Areas. Kansas"
+  },
+  {
+   "identifier": "1967censusofbusi674uns",
+   "date": "None",
+   "title": "1967 Census of Business. Major Retail Centers in Standard Metropolitian Statistical Areas. Arkansas"
+  },
+  {
+   "identifier": "1967censusofbusi676un",
+   "date": "None",
+   "title": "1967 Census of Business. Major Retail Centers in Standard Metropolitian Statistical Areas. Colorado"
+  },
+  {
+   "identifier": "1967censusofbusi676uns",
+   "date": "None",
+   "title": "1967 Census of Business. Selected Services.Architectural and Engineering Firms"
+  },
+  {
+   "identifier": "1967censusofbusi676unse",
+   "date": "None",
+   "title": "1967 Census of Business. Retail Trade. Eating and Drinking Places and Merchandising Machine Operators"
+  },
+  {
+   "identifier": "1967censusofbusi6737uns",
+   "date": "None",
+   "title": "1967 Census of Business. Major Retail Centers in Standard Metropolitian Statistical Areas. Oklahoma"
+  },
+  {
+   "identifier": "1967censusofbusi6738uns",
+   "date": "None",
+   "title": "1967 Census of Business. Major Retail Centers in Standard Metropolitian Statistical Areas. Oregon"
+  },
+  {
+   "identifier": "1967censusofbusi6739uns",
+   "date": "None",
+   "title": "1967 Census of Business. Major Retail Centers in Standard Metropolitian Statistical Areas. Pennsylvania"
+  },
+  {
+   "identifier": "1967censusofbusi673unse",
+   "date": "None",
+   "title": "1967 Census of Business. Selected Services.Laundries, Cleaning Plants, and Related Services"
+  },
+  {
+   "identifier": "1967censusofbusi6740uns",
+   "date": "None",
+   "title": "1967 Census of Business. Major Retail Centers in Standard Metropolitian Statistical Areas. Rhode Island"
+  },
+  {
+   "identifier": "1967censusofbusi6746uns",
+   "date": "None",
+   "title": "1967 Census of Business. Major Retail Centers in Standard Metropolitian Statistical Areas. Virginia"
+  },
+  {
+   "identifier": "1967censusofbusi6748unse",
+   "date": "None",
+   "title": "1967 Census of Business. Retail Trade. Merchandise Line Sales. Virginia"
+  },
+  {
+   "identifier": "1967censusofbusi6718unse",
+   "date": "None",
+   "title": "1967 Census of Business. Retail Trade. Merchandise Line Sales. . Kansas"
+  },
+  {
+   "identifier": "1967censusofbusi6710uns",
+   "date": "None",
+   "title": "1967 Census of Business.Retail Trade. Merchandise Line Sales. District of columbia"
+  },
+  {
+   "identifier": "1967censusofbusi6734uns",
+   "date": "None",
+   "title": "1967 Census of Business. Major Retail Centers in Standard Metropolitian Statistical Areas. North Carolina"
+  },
+  {
+   "identifier": "1967censusofbusi6740unse",
+   "date": "None",
+   "title": "1967 Census of BusinessRetail Trade. Merchandise Line Sales. Pennsylvania"
+  },
+  {
+   "identifier": "1967censusofbusi677uns",
+   "date": "None",
+   "title": "1967 Census of Business. Selected Services.Travel Agencies"
+  },
+  {
+   "identifier": "1967censusofbusi678un",
+   "date": "None",
+   "title": "1967 Census of Business.Retail Trade. Merchandise Line Sales. Connecticut"
+  }
+ ],
+ "source_url": "https://archive.org/advancedsearch.php?q=identifier:(1967censusofbusi*)&output=json",
+ "retrieved": "2026-09-25T06:40-07:05Z",
+ "note": "1967 Census of Business state volumes on IA (131 items) incl. Major Retail Centers / Merchandise Line Sales per state - the chain-statistical family. Not downloaded: volumes are 1-6.6 MB text layers."
+}

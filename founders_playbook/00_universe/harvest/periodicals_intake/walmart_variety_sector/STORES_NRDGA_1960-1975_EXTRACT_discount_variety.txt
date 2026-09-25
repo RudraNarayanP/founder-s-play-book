@@ -1,0 +1,242 @@
+# [PROVENANCE HEADER — STORES (NATIONAL RETAIL DRY GOODS ASSN) EXTRACT: 1960 issue + 1970/1974/1975 annual indexes]
+# Retrieved by: periodicals intake agent (Internet Archive route), 2026-09-25T07:10-07:12Z.
+# Items (mediatype=texts; collections pub_stores / sim_microfilm / periodicals; each text layer pulled
+#   WHOLE into scratch OUTSIDE this repository at HTTP 200, byte-exact against metadata-declared size):
+#   sim_stores_1960-01_42_1   'Stores 1960-01: Vol 42 Iss 1'   269,490 B / 38,238 words
+#     https://ia801909.us.archive.org/11/items/sim_stores_1960-01_42_1/sim_stores_1960-01_42_1_djvu.txt
+#   sim_stores_1970_52_index  'Stores 1970: Vol 52 Index'       16,985 B /  2,364 words
+#     https://ia801905.us.archive.org/13/items/sim_stores_1970_52_index/sim_stores_1970_52_index_djvu.txt (07:11:18Z)
+#   sim_stores_1974_56_index  'Stores 1974: Vol 56 Index'       24,487 B /  3,527 words
+#     https://ia600506.us.archive.org/31/items/sim_stores_1974_56_index/sim_stores_1974_56_index_djvu.txt (07:11:26Z)
+#   sim_stores_1975_57_index  'Stores 1975: Vol 57 Index'       18,054 B /  2,460 words
+#     https://ia801002.us.archive.org/6/items/sim_stores_1975_57_index/sim_stores_1975_57_index_djvu.txt (07:11:36Z)
+#     (each reached by https://archive.org/metadata/<identifier> first, per the route note in
+#      tools/HARVEST_README.md: archive.org/download/ 302s to a CDN whose TLS cert is expired here.)
+# WHAT THIS IS: STORES was the monthly journal of the National Retail Dry Goods Association — the
+#   trade body of the five-and-ten / variety / soft-goods chain sector to which Ben Franklin-type
+#   variety stores belonged. This file holds one 1960 issue sample plus the 1970/1974/1975 annual
+#   indexes of the same magazine, i.e. the only in-window 1962-1975 pieces of it that IA digitised.
+# WHY BOUNDED: one issue is ~38,000 words and the digitised monthly run is 205 issues; only the
+#   passages bearing on discount / variety retailing are transcribed, each with its offset.
+# OCR STATE: PARTIAL — microfilm OCR of narrow columns; '?' = glyph the OCR lost ('pro? motion',
+#   'decis? ions', 'ii' for 'in', 'F. R. liVfi.t' for an author signature). Prose legible throughout.
+# NEGATIVES IN THE 1960-01 ISSUE (grep over the whole text layer): 'Walton' 0 - 'Wal-Mart' 0 -
+#   'Ben Franklin' 0 - 'variety store' 0 - 'five-and-dime' 0 - 'Arkansas' 0; 'five-and-ten' 1;
+#   'discount' 25. The 1970/1974/1975 indexes: 'Wal-Mart' 0 - 'Walton' 0 - 'Ben Franklin' 0 - 'variety' 0.
+# PAGES THAT CAME THROUGH: all four layers arrived byte-exact against their items' declared sizes
+#   (269,490 / 16,985 / 24,487 / 18,054 B), so nothing is missing from the scans. Which sections
+#   are quoted: masthead + the profit-survey passage + the mandatory-discount-differentials
+#   editorial from the Jan 1960 issue (38,238 words read whole), and the discount-related lines of
+#   the three annual indexes. No page-boundary markers exist in a _djvu.txt layer, so every passage
+#   below is addressed by CHARACTER OFFSET; printed page numbers ('p. 26', 'p. 40') are the
+#   magazine's own.
+
+# ---- 1. STORES Jan 1960, vol 42 no 1: first lines of the text layer (identification) ----
+Stores 
+
+
+JANUARY  1^60 
+
+I 
+
+
+INC  UNJVtKsrir 
+OF  MICHIGAN
+
+# ---- 2. same issue, profit/markdown survey sentence, offset ~27184 ----
+Few  believe  that  profits 
+can  be  protected  greatly  through  cash 
+discounts,  but  one  store  in  10  thinks 
+that  a  reduction  of  markdowns  would 
+be  the  best  piece  of  profit  protection 
+around. 
+
+Matty  stores  iit  the  survey  were  able 
+to  report  definite  steps  takeit  in  1959 
+to  streitgthett  their  organizations  aitcl 
+improve  pretfits.  The  leaders  among 
+these  body-building  projects  appeared 
+to  be  iit  intproved  personitel,  particu¬ 
+larly  through  better  traittiitg
+
+# ---- 3. same issue, the 'Mandatory Discount Differentials' editorial passage, offset ~76656 ----
+# (Robinson-Patman-era functional-discount bills, five in the House and one in the Senate)
+Mandatory  Discount  Differentials 
+
+Now,  let  me  suggest  one  final  chal¬ 
+lenge  in  the  area  of  free  market  inva¬ 
+sion  ideas. 
+
+I  am  thinking  about  something  that 
+is  generally  referred  to  as  mandatory 
+functional  discount  legislation.  It  is 
+represented  by  five  bills  in  the  House 
+and  one  in  the  Senate.  This  legislation 
+would  require  manufacturers  who  sell 
+to  both  wholesalers  and  retailers  to 
+give  a  functional  discount  to  whole¬ 
+salers.  In  other  words,  the  direct-buy¬ 
+ing  retailers  would  have  to  pay  higher 
+prices  than  the  wholesalers.  And  the 
+differential  in  prices  would  have  to  be 
+in  an  amount  reasonably  calculated  to 
+assure  competition  between  the  direct- 
+buying  retailer  and  the  retailer  who 
+buys  from  wholesalers. 
+
+Now,  of  course,  no  one  could  |X)Ssi- 
+bly  object  to  the  wholesaler  earning  a 
+functional  discount  in  recognition  of 
+the  services  he  performs.  But  at  the 
+same  time  we  might  ask  why  a  similar 
+discount  should  not  be  granted  the 
+retailer  who  performs  his  own  whole¬ 
+saling  functions?  In  such  instances,  it 
+seems  to  me  to  be  as  fair  for  one  to 
+receive  the  discount  as  the  other. 
+
+It  seems  to  me  this  kind  of  legisla¬ 
+tion  would  throw  compietition  out  of 
+kilter.  Even  worse— if  that  is  possible 
+—enactment  of  such  legislation  would 
+surely  be  followed  by  creation  of  a 
+federal  control  agency  with  broad  au¬ 
+thority  to  devise  standards  for  the  de¬ 
+termination  of  reasonable  costs,  mar¬ 
+gins  and  profit  allocable  to  the  various 
+functions— to  make  certain  that  dis* 
+counts  are  properly  established. 
+
+I  think  you  can  imagine  the  mul- 
+
+
+15 
+
+
+tiplicity  of  complex  standards  that 
+would  result. 
+
+A  Public  Education  Program 
+
+What  ca
+
+# ---- 4. STORES 1974 annual index (Vol 56): discount-related entries, offset ~16683 ----
+Nov  p.  39 
+
+1974  Profile  of  the  Consumer — House- 
+wares  Buying  Trends.  Dec  p.  14 
+
+
+Operations 
+
+At  Crabtree  Mall:  Waste  Compaction 
+Saves  Money.  Jan  p.  26 
+
+Money  for  Merchants,  Funds  for  Se¬ 
+curity.  Jan  p.  26 
+
+Priie- Winning  Cost-Cutting  Ideas 
+from  NRMA’s  Contest.  Mar  p.  27 
+
+Profit  in  Expanded  Food  Services. 
+
+Apr  p.  II 
+
+Increasing  Productivity  by  Speeding 
+Merchandise  Flow.  James  1.  Gid- 
+dings  k  Throilore  J.  Harless  |une  p.  8 
+The  Discount  Store  Manager — MRI/ 
+duPont  Study.  Nov  p.  26 
+
+New  Store  Managers  Course  a  Hit. 
+
+Dec  p.  18 
+
+Shortage  Control — Store  Managers 
+Hear  Remedies.  Carol  Messenger 
+
+I^c  p.  28 
+
+Personnel 
+
+•Seven  Steps  to  Increase  Sales  Produc¬ 
+tivity.  George  C.  Engel  Jan  p.  15 
+
+Maximizing  the
+
+# ---- 5. STORES 1975 annual index (Vol 57): discount-trend entries, offset ~9275 ----
+Sept.  p.  12 
+
+In  Washington  at  Mid-A’ear  NRMA 
+
+Directors  Meet  Sept.  p.  18 
+
+'The  ’76  Convention-A  Chart  for  Uncharted 
+Seas  Oct.  p.  8 
+
+NRMA’s  65th  (Convention:  The  Retail 
+
+Revolution  of  ’76  Nov.  p.  14 
+
+'Trade  Show  (Calendar  Nov.  p.  36 
+
+NRMA’s  65th  Convention:  Time  Draws 
+
+Near  Dec.  p.  14 
+
+Merchandising 
+
+The  Coming  Marketing  Fra  in 
+
+Department  Store  Retailing,  F.  R. 
+liVfi.t  Jan.  p.  40 
+
+(Could  Nostalgia  Reverse  the  'Trend 
+'Toward  Discount  Retailing:  F.  R. 
+
+ItVi.v.?  Feb.  p.  39 
+
+.Are  A’ou  Getting  the  Most  From 
+
+Father’s  Day:’  March  p.  30 
+
+Department  Store  Home  Furnishings, 
+
+F.  R.  B'eiii  March  p.  40 
+
+Selling  More  Fashion  .Accessories  .April  p.  12 
+Rejuvenating  Children’s  Wear  May  p.  14 
+Bedding-Sales  Survey:  Guide  to 
+Profit
+
+# ---- 6. STORES 1970 annual index (Vol 52): head of file, for identification ----
+INDEX  TO  “STORES”  MAGAZINE  1970 
+
+
+Advertising,  Promotion,  Display 
+
+Bergdorf  Tries  Pantyhose  Fit-Ins. 
+Claudia  Deutsch.  A  joint  manufac¬ 
+turer-retailer  promotion.  Apr  4 
+
+Use  of  TV  Calls  for  Dialogue.  Alfred 
+Eisenpreis.  Apr  4 
+
+Swimsuits:  A  Natural  Promotion. 
+
+Terry  Mayer.  How  to  make  them 
+sell.  May  4 
+
+Selling  the  Black  Market.  Lee  Tem¬ 
+pleton.  June  8 
+
+A  Proposal  for  a  Community  Advertis¬ 
+ing  Coalition.  Harold  L.  Neal,  Jr.  June  25 
+Mannequins  Make  the  Clothes.  Claudia 
+Deutsch.  How  new  fashions  affect 
+display  props.  Aug  4 
+
+A  Fashion  Shoe  Promotion.  Aug  16 
+
+Directory  of  Retail  Sales  Promotion 
+Executives  in

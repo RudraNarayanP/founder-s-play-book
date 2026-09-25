@@ -1,0 +1,1208 @@
+# [PROVENANCE HEADER — BUSINESS WEEK ANNUAL INDEX EXTRACT, 1962 / 1964 / 1966 / 1969 / 1970 / 1971]
+# Retrieved by: periodicals intake agent (route: Internet Archive), 2026-09-25T06:54Z (1964-1971)
+#   and 07:09Z (1962, 1966 — appended below under its own header).
+# Source items (Internet Archive identifiers, mediatype=texts, collection pub_business-week/sim_microfilm/periodicals):
+#   sim_business-week_1962_index      "Business Week 1962: Index"  1,273,570 B (HTTP 200, exact size match)
+#   sim_business-week_1964_index_0  "Business Week 1964: Index"  1,286,804 B (HTTP 200, exact match)
+#   sim_business-week_1966_index_0    "Business Week 1966: Index"  1,177,551 B (HTTP 200, exact size match)
+#   sim_business-week_1969_index_0  "Business Week 1969: Index"    711,758 B (HTTP 200, exact match)
+#   sim_business-week_1970_index_0  "Business Week 1970: Index"    336,463 B (HTTP 200, exact match)
+#   sim_business-week_1971_index_0  "Business Week 1971: Index"    397,185 B (HTTP 200, exact match)
+# Text-layer URLs (metadata -> server+dir route; archive.org/download/ fails TLS here):
+#   https://ia802906.us.archive.org/14/items/sim_business-week_1962_index/sim_business-week_1962_index_djvu.txt
+#   https://ia902902.us.archive.org/33/items/sim_business-week_1964_index_0/sim_business-week_1964_index_0_djvu.txt
+#   https://ia800606.us.archive.org/17/items/sim_business-week_1966_index_0/sim_business-week_1966_index_0_djvu.txt
+#   https://ia800408.us.archive.org/25/items/sim_business-week_1969_index_0/sim_business-week_1969_index_0_djvu.txt
+#   https://ia800500.us.archive.org/31/items/sim_business-week_1970_index_0/sim_business-week_1970_index_0_djvu.txt
+#   https://ia800908.us.archive.org/33/items/sim_business-week_1971_index_0/sim_business-week_1971_index_0_djvu.txt
+# WHAT THIS IS: Business Week's OWN annual index volume for each year — the periodical's
+#   subject/company alphabetical, giving article headline + page number + issue date.
+#   It is contemporaneous printed matter from the trade's largest general-business weekly.
+# WHAT WAS DONE TO IT: the six text layers were downloaded WHOLE to a scratch directory
+#   OUTSIDE this repository (combined 5.18 MB / ~940,000 words — far above the 60,000-word
+#   single-artifact safety cap), then topic blocks were selected and are transcribed below.
+#   Nothing here is a full issue; each block carries its character-line offset in the
+#   source text layer so the pull is re-walkable.
+# OCR STATE: PARTIAL / DUPLICATED. SIM microfilm OCR reflows columns and repeats entries
+#   2-4x with different truncated left margins; individual words drop out ("Discoun :",
+#   "Rin? 2 opens"). Headlines, page numbers and month/day citations survive legibly.
+#   Unreadable bytes are rendered as "?" below, exactly where they occur.
+# PAGES THAT CAME THROUGH: each volume's FULL text layer arrived (byte count equal to the size
+#   declared in that item's own metadata => no page dropped from the scan), but the layer carries no
+#   page-boundary markers. Passages below are therefore addressed by LINE OFFSET into the layer, and
+#   every "p58, Nov.14"-style figure quoted is Business Week's own printed page + issue date, not a
+#   scan page. Which sections came through: the alphabetical subject/company index blocks listed.
+# NOT FOUND (searched, zero): no "Wal-Mart", "Ben Franklin", "five-and-dime" ENTRY in any of the
+#   six indexes. Two "Walton" strings exist and BOTH are people, not the company:
+#   1962 index "WALTON, William — Motel chain finds profits in owning: Holiday Inns … p47, Jul.14"
+#   and 1970 index "G. H. Dreyfus, H. C. Walton p4, Aug.29". Do not cite either as Wal-Mart.
+
+
+
+==============================================================================
+### BUSINESS WEEK 1964 INDEX — item sim_business-week_1964_index_0, text layer 1,286,804 B
+### topic blocks retained: 17 ; source words: 205,497
+==============================================================================
+
+[department store sales ir]  (line 4764 of the text layer)
+    ex # p20, Feb.22
+    Monthly Features
+    Signs still point upwards: Measure of personal in-
+    come (with table) p88, Feb.1
+    Santa left some fat motange Bupeure of personal
+    income (with table) p116
+    The gains: steady but ge ogenee of per
+    sona! income (with table) p152, Mar.28
+    Incomes show extra pep: Measure of personal
+    income (with table) p118, Apr.25
+
+[CHAIN Stores]  (line 5722 of the text layer)
+    LBJ urges a new study on role of food chains:
+    His call for a bipartisan investigation could lead
+    to a new look p97, Feb.8
+    CHAMBERS, Stanley Paul
+    Head start = Red trade: ICI, Britain s big chem-
+    ical company, s v clinch deals with Russia
+    (with lus) p100, M
+    14
+
+[DEPARTMENT Stores]  (line 9008 of the text layer)
+    See also Retailing
+    GEM chain decides it picked the yeceg lentes,
+    A close its year-old store in Ha urg p52,
+    # Short News Item
+    Federal Reserve drops publication of its weekly
+    department store sales foles # p20, Feb.22
+    Alpine view of U.S.A.: Zurich department store is
+    staging fairs to introduce the Swiss to American
+    life and products (with illus) p30, Mar.7
+    Retail empire reaches across the prairie: Dayton s
+    of a not quty sells goods in avast area,
+    but it sets the trends for its region as well (with
+
+[department store sales foles # p20, Feb.22]  (line 9020 of the text layer)
+    Alpine view of U.S.A.: Zurich department store is
+    staging fairs to introduce the Swiss to American
+    life and products (with illus) p30, Mar.7
+    Retail empire reaches across the prairie: Dayton s
+    of a not quty sells goods in avast area,
+    but it sets the trends for its region as well (with
+    cover and illus) p70, Mar.7
+    The outlook for Moy: Congeetipation, plus a
+    heavy accent on youth, looks like the combination
+    for May <> ene Stores (with map and illus)
+    p83, Mar.1
+    attended qughevets « of three major New York stores
+    ry a asses in retirement planning # p158,
+
+[DISCOUNT Houses]  (line 9299 of the text layer)
+    See also Retailing
+    Bus line adds a destination: Houston transit com-
+    Rin  2 opens a discount House to lure riders p78,
+     Bonfires  and
+    Nielsen survey shows an increase in the number
+    of mass merchandisers # p100, May 16
+    DISCOUNT Rate
+    Pressure is on money managers: U.S. tax cut and
+    rise in British bank rate pose credit problems for
+    Federal Reserve p26, Mar.7
+    DISNEY, Walt
+
+[DISCOUNT Rate]  (line 9314 of the text layer)
+    Pressure is on money managers: U.S. tax cut and
+    rise in British bank rate pose credit problems for
+    Federal Reserve p26, Mar.7
+    DISNEY, Walt
+    Ready to s
+    open the gates: The New York
+    World s Fair
+    Apr.18&
+    open next week (with illus) p30,
+    DISTILLERS Co., Lte.
+
+[RETAILING]  (line 25260 of the text layer)
+    Playing the art market: May Stores president has
+    taste for collecting, so his customers get chance
+    at rare African art (with illus) p28, Jan.11
+    New Curiosity Shop: Pittsburgh s Shadyside is a
+    retail area that poses a special challenge to the
+    giant,  <) shopping center (with illus)
+    p118, Jan.1
+    Yule sales shine through these snows. Once again
+    hardgoods get lion s share p19, Jan.18
+    Speedier tag reader brings automated merchandise
+    control to smaller retailers p128, Jan.25
+
+[SEARS, Roebuck & Co.]  (line 26753 of the text layer)
+    Sears is set to  - pe mutual fund race: Its entry
+    into the field will have a pore impact on the
+    industry (with pS. pl12, Feb
+    Signs a 52-week contract with a Chicago UHF
+    aveiee station to advertise its TV sets # p50,
+    8 = itself
+    ills may
+    e decade
+    Sears  ploy to sell UHF television sets: become
+    big sponsor on only station in area p80, Mar.7
+    Supreme Court throws out state laws that bar
+    copying of unpatented designs p36, Mar.14
+
+[Woolworth branches out (with illus) p58,]  (line 37549 of the text layer)
+    Nov.14
+    BURDON, George
+    United Rubber Workers reelects Burdon, but
+    fails to go along with dues hike p62, Oct.3
+    BUREAU of the Census
+    Have stork s wings been clipped a bit? Census
+    Bureau revises downwards its projection to a
+    1985 maximum of 275.6-million (with chart)
+    p28, Jul.25
+    Tots of five, and the youngsters in the ages
+    of 16-22 are schoolbound as never before #
+    p26, Aug.1
+
+[Woolworth branches out into mass merchan-]  (line 38625 of the text layer)
+    dising in varied lines (with illus) p58, Nov.14
+    CHAPPLE, B. S., Jr.
+    Businessmen s vote: It's going to be a tough
+    decision (with illus) p23, Sep.5
+
+[DISCOUNT Rate]  (line 42486 of the text layer)
+    A new touch of caution: Discount rate hike
+    points 4 mild monetary restraint (with
+    Phart) p27, Nov.28
+    Bank rate rise isn t aimed at business...
+    but policy bears watching p19, Nov.28
+    Markets weather bad news: Initial reaction
+    to 7 bank rates was comparatively mild
+    p30, Nov.28
+    Protecting the pound and the dollar (Edi-
+    toral) p154, Nov.28
+    Banks hold breath over interest rates: Few
+    have raised their prime rate p26, Dec.5
+
+[Woolworth branches out into mass merchan-]  (line 51331 of the text layer)
+    ok in varied lines (with cover and illus)
+    ov.14
+    KITCHEL, Denison :
+    His own kind of campaign: Barry Goldwater
+    is shai = iy right-wing crusade (with illus)
+    p122,
+
+[Sears uses part-time jobs as bait to keep]  (line 52880 of the text layer)
+    unemployed trainees in classes p156, Sep.19
+    MANSFIELD, Michael J.
+    Political backlash hits Supreme Court p26,
+    Aug.22
+    MANUFACTURERS Hanover Trust Co.
+    Shareholders of Swan-Finch Oil will meet to
+    weigh a proposed settlement of a damage suit
+    against ufacturers Hanover # p94, Sep.5
+    MAO, Tse-tung
+    Iron grip falters: The men in the Kremlin no
+    longer hold sway over world Communism as
+    one undivided force (with cover) p74, Nov.28
+
+[RETAILING]  (line 59202 of the text layer)
+    See also Department Stores; Discount Houses;
+    Consumers come through in fine style. Soft-
+    goods top year ago by 7% pl9, Jul.18
+    EDP tells Main St.: National Cash Register
+    tests a computer hookup that gives small
+    businessmen much the same data a giant
+    corporation depends on (with illus) p66, hugs
+    Retail sales 6% better than a year ago pl9,
+    Aug.15
+    Shoes that come to your door: Eaton sur-
+    vived shake-out in shoe industry by er |
+    to specialized markets (with illus) p86, Aug.2:
+
+[Woolworth branches out into mass merchan-]  (line 59275 of the text layer)
+    dising in varied lines (with cover and illus)
+    ps8,
+    Plenty to spend and ready to buy: The cus-
+    tomers are richer and more determined to
+    spend this Christmas than they were last
+    year (with illus) p25, Nov.21
+    No mink, just a new living room set: For
+    most women, Christmas will take a practical
+    aaa turn this year (with illus) p139,
+    ov.21
+    The not so silent salesmen: In a day of self-
+    service, retail store displays help stir im-
+    pulse to buy (with illus) p130, Nov.21
+
+[SEARS, Roebuck & Co.]  (line 60531 of the text layer)
+    How catalogues get their sales appeal p96,
+    Jul.25
+    SEC ne
+    clears way for Sears to go into
+    the mutu.
+    fund business p170, Sep.12
+    Sears uses part-time jobs as bait to keep un-
+    employed trainees in classes p156, Sep.19
+    Talks with cosmetics company may put Sears
+    in door-to-door business p122, Oct.24
+
+[WOOLWORTH (F. W.) Co.]  (line 66309 of the text layer)
+    The old five-and-ten spreads new wings:
+    Woolworth branches out into mass merchan-
+    dising in varied lines (with cover and illus)
+    p58, Nov.14
+    Coney is setting up Worth Marts, discount
+    mass-volume stores # p24, Dec.26
+    WORCESTER Foundation for Experimental
+    Biology
+    Mecca for the world s biologists: New Eng-
+    land s Worcester Foundation has some of
+    world s finest scientific brains doing research
+    (with illus) p140, Aug.15
+
+
+==============================================================================
+### BUSINESS WEEK 1969 INDEX — item sim_business-week_1969_index_0, text layer 711,758 B
+### topic blocks retained: 13 ; source words: 112,130
+==============================================================================
+
+[Sears executive takes forei licy job p112,]  (line 7050 of the text layer)
+    soars gn policy job p
+    Wall Streeter gets No. 4 post in State De
+    plil, Mar.15 *   ae
+    # Short News Item
+    Department of Transportation
+    Volpe shoots for national policy on transpor-
+    tation p42, Feb.8
+    Volpe picks a team (with illus) p68, Feb.22
+    A tough professor climbs aboard (with illus)
+    p100, r.19
+
+[DEPARTMENT Stores]  (line 7104 of the text layer)
+    See also Retailing
+    Stern Bros., will close its main store # p26,
+    Feb.1
+    Where shopping is child s play (with illus)
+    p88, Mar.8
+    Dayton s, J. L. Hudson merge to form new
+    $814-million retailing entity # p42, Mar.15
+    Upper Manhattan to get big department store
+    =  _ discloses plans for unit # p46,
+    ar.
+    Alexander s is looking for a new chairman #
+    p88, Apr.26
+
+[DISCOUNT Rate]  (line 7224 of the text layer)
+    Does the Fed really mean it this time? (with
+    chart) p30, Apr.12
+    DISNEY (Walt) Productions
+    Combination of Disney movies and TV shows
+    # p96, Mar.22
+    Disney unwraps its newest extravaganza:
+    Huge vacation complex in Florida w be
+    prime showcase for some major corporations
+    twith illus) p32, May 3
+    DIXON, Paul Rand
+
+[RETAILING]  (line 18747 of the text layer)
+    The Commerce pest. reported dismal trade
+    figures # p26, Feb.1
+    The consumer calls the tune p20, Feb.8
+    Retail trade recovers but no new zip p20,
+    Feb.15
+    meqeses to play
+    is) D100, Jun
+    Retail sales are sluggish p32, Feb.22
+    Retail sales ring up riddle for gesmamiets.
+    Packed stores seem A , a an t picture,
+    but it doesn t jibe of the
+    ne ¢ adjusters twith table, aot and illus)
+
+[SEARS, Roebuck & Co.]  (line 19619 of the text layer)
+    A welfare rights grou ah to boycott Sears,
+    Roebuck & oe p44, Ap:
+    Sears, Roebuck formation of Allstate Enter-
+    prises Stock Fund, Inc. # p44, Ma
+    SEATRAIN Lines, Inc.
+    Ship an    new courses. Seatrain Lines
+    uses roach to turn the tide on
+    peonin fear illus) p106, Feb.8
+    SEATTLE, Wash.
+    Creating a model for model cities: Seattle is
+    set to launch broad attack on slum s problems
+    with help of lo ae federal program
+    (with illus) p48,
+
+[DISCOUNT Stores]  (line 30150 of the text layer)
+    Discount stores getting tryout # p98, Aug.2
+    A discounter is a Washington department
+    stores # p108, Sept.20
+    DISPOSABLES Marketing Services Corp.
+    New sales _ for disposables (with illus)
+    p156, Nov.1
+    DITTO, Frank
+    An explosive pacmeee ame away in Detroit
+    (with filus) p102, A
+
+[Sears’ ex-boss sy builds a new career]  (line 32441 of the text layer)
+    (with illus) p52, Dec.20
+    GENERAL Dynamics Corp.
+    Storm signals fly at General Dynamics p28,
+    Aug.9
+    General Dynamics gets in  eg ny again (with
+    cover, chart and illus) p48,
+    Readers Report: General Dynamics (with
+    illus) p7, Nov.8
+    GENERAL Electric Co.
+    GE talks put off # p22, Jul.5
+    GE s gem-hard grit p49, Jul.5
+    GE and unions open wage battle (with illus)
+
+[Sears’ ex-boss _ builds a new career]  (line 35450 of the text layer)
+    (with illus) p52, Dec.2!
+
+[Sears’ ex-boss "oy builds a new career]  (line 41113 of the text layer)
+    (with illus) p52, Dec
+    RECOGNITION Equipment, Inc.
+    Optical peogning Snalty starts to pay off (with
+    illus) p55, Dec
+
+[RETAILING]  (line 41267 of the text layer)
+    1% sales are registering slim gains p8,
+    ul
+    Retail sales turning sour, p35, Jul.12
+    Slowdown creeps up on the small stores (with
+    chart and illus) , Jul.19
+    Boutique king bounces back (with illus) p57,
+    Jul.26
+    Slowdown talk: a hot item (with chart and
+    illus) p19, Aug.9
+    Burlington to turn retailer # p34, Aug.23
+    Retailers have good reason for concern p38,
+    Sept.13
+
+[Sears adds Sunday to shopping week p47,]  (line 41301 of the text layer)
+    Oct.11
+    Retail sales p wueget by good cleanup of 1969
+    autos p31,
+    Retail sales stay sluggish p28, Nov.22
+    The uncertain ring of Christmas (with illus)
+    ps9, Dec.6
+    42
+
+[SEARS, Roebuck & Co.]  (line 42245 of the text layer)
+    Sears adds Sunday to shopping week p47,
+    Oct.11
+    SEATTLE, Wash.
+    Businessmen who want taxes # p42, Nov.1
+
+[WOOLWORTH (F. W.) Co.]  (line 46036 of the text layer)
+    Up from stock aw to Woolworth chief (with
+    illus) p75, Dec.27
+    WORDEN, Mack W.
+    Price hearing stays in low (with illus) p46,
+    Sept.20
+    WORLD Bank
+    World Banking McNamara-style (with chart
+    and illus) p96, Sept.27
+    WYANDOTTE Chemicals Corp.
+    BASF woos Wyandotte # p58, Sept.20
+
+
+==============================================================================
+### BUSINESS WEEK 1970 INDEX — item sim_business-week_1970_index_0, text layer 336,463 B
+### topic blocks retained: 9 ; source words: 52,698
+==============================================================================
+
+[DEPARTMENT Stores]  (line 6868 of the text layer)
+    See also Retailing
+    Shutdowns stalk big-city stores (with illus)
+    p28, Oct.10
+    Christmas indulgences # p54, Oct.17
+    Selling on Sunday # pl02, Dec.5
+
+[DISCOUNT Food Stores]  (line 6991 of the text layer)
+    Discoun : a food chain reaction (with illus)
+    p44, Sept
+    DISCOUNT Houses
+    How Kresge became top discounter (with cov-
+    er, chart and illus) p62, Oct.24
+    DISCOUNT Rate
+    A nudge toward a lower prime (with chart)
+    p24, Nov.14
+    More ease for money p27, Dec.5
+    DISH-A-Doodle
+
+[DISCOUNT Houses]  (line 6998 of the text layer)
+    How Kresge became top discounter (with cov-
+    er, chart and illus) p62, Oct.24
+    DISCOUNT Rate
+    A nudge toward a lower prime (with chart)
+    p24, Nov.14
+    More ease for money p27, Dec.5
+    DISH-A-Doodle
+    Dishes by design # p71, Oct.24
+
+[DISCOUNT Rate]  (line 7005 of the text layer)
+    A nudge toward a lower prime (with chart)
+    p24, Nov.14
+    More ease for money p27, Dec.5
+    DISH-A-Doodle
+    Dishes by design # p71, Oct.24
+
+[Discounting: a food chain reaction (with]  (line 12601 of the text layer)
+    illus) p44, Sept.26
+
+[KRESGE (S. S.) Co.]  (line 12772 of the text layer)
+    How Kresge became top discounter (with cov-
+    er, chart and illus) p62, Oct.24
+    KROGER, William
+    Publishers Memo: For 17 years we have main-
+    tained a full time news bureau in Detroit
+    (with illus) p7, Aug.15
+    KULEK, Sidney
+    Pumping money out of the sea (with illus)
+    p54, July 11
+    KUSHNICK, Jerrold H.
+
+[RETAILING]  (line 17977 of the text layer)
+    Fifth Avenue turns into a mall (with illus)
+    p22, July 18
+    The style for fall is lean and anxious (with
+    illus) p16, Aug.15
+    Stores try to crack the people problem (with
+    illus) p52, Sept.19
+    Retail sales still sluggish, but prospects im-
+    prove p28, Sept.19
+    Retail stores get scarcer # p60, Oct.3
+    Stuck with the midi and pushing hard (with
+
+[SEARS, Roebuck & Co.]  (line 18863 of the text layer)
+    Nearer the sky in Chicago (with illus) # p25,
+    Aug.l1
+
+[VARIETY Stores]  (line 21795 of the text layer)
+    How Kresge became top eae (with cov-
+    er, chart and illus) pee, Oc
+    VENDING Machines
+    How to make escapism pay (with illus) p112,
+    jay 1 pay )p
+    Vendors pull out all stops (with illus) p52,
+    Aug.15
+    VENTURE Capital
+    Feeding capital to the computers (with illus)
+    p28, Aug.29
+
+
+==============================================================================
+### BUSINESS WEEK 1971 INDEX — item sim_business-week_1971_index_0, text layer 397,185 B
+### topic blocks retained: 13 ; source words: 63,140
+==============================================================================
+
+[Sears: big mod on campus # p79, Oct.9]  (line 5447 of the text layer)
+    High marks won t pay college bills p86, Oct.16
+    Two schools innovate to stay in the black
+    (with illus) p100, Oct.30
+    Columbia s lion gets a bearding p48, Nov.13
+    Entrepreneurs teach others how to do it (with
+    illus) cong Nov.13
+    The big boom in European B-schools (with
+    illus) he Nov.20
+    Readers Report: Wrong focus? p10, Dec.4
+    A fiscal Houdini for Princeton (with illus)
+
+[DEPARTMENT Stores]  (line 7500 of the text layer)
+    See also Retailing
+    The shopping-center war # p22, July 24
+    Sears to expand in Brussels # p32, July 31
+    Retailers move toward the 168-hour week
+    (with illus) p96, Oct.16
+    DETROIT Edison Co.
+    A nuclear pioneer steps down # p43, Sept.25
+    Detroit Edison s profit-minded boss (with
+    illus) p74, Oct.2
+
+[Sears to expand in Brussels # p32, July 31]  (line 7505 of the text layer)
+    Retailers move toward the 168-hour week
+    (with illus) p96, Oct.16
+    DETROIT Edison Co.
+    A nuclear pioneer steps down # p43, Sept.25
+    Detroit Edison s profit-minded boss (with
+    illus) p74, Oct.2
+
+[DISCOUNT Rate]  (line 7591 of the text layer)
+    More pressure on money # p22, July 24
+    Interest rates keep tumbling p41, Nov.13
+    DISCOUNT Stores
+    France: The French go wild over discount
+    stores (with illus) p40, Nov.20
+    DISNEY (Walt) World
+    Looking in on Disney's Florida World p03,
+    Sept.11
+    How Disney financed its new superpark p76,
+    Sept.11
+    Riding the coattails of Mickey Mouse (with
+    illus) p72, Sept.11
+
+[DISCOUNT Stores]  (line 7595 of the text layer)
+    France: The French go wild over discount
+    stores (with illus) p40, Nov.20
+    DISNEY (Walt) World
+    Looking in on Disney's Florida World p03,
+    Sept.11
+    How Disney financed its new superpark p76,
+    Sept.11
+    Riding the coattails of Mickey Mouse (with
+    illus) p72, Sept.11
+    Land speculators p!
+    chine (with map)
+
+[Sears drives eastward # p26, Sept.18]  (line 13931 of the text layer)
+    U.S. apparel makers push harder in Japan
+    p32, Sept.18
+    Sato: the screw turns p48, Sept.25
+    Japan  Trade drops off as yen moves up
+    p51, Sept.25
+    Japanese industry embraces Red China p36,
+    Oct.2
+    Some Japanese yield on the yen (with illus)
+    p22, Oct.2
+    Tokyo entertains visitors Western style p75,
+    Oct.9
+
+[KRESGE (S. S.) Co.]  (line 14526 of the text layer)
+    Readers Report: Merchants welcome pl4,
+    July 17
+    KROGER Co.
+    Pro-antitrust, but within limits (with table)
+    p27, Oct.2
+    KRONSTADT, Arnold M.
+    Where the tenants have a say in the plans
+    (with illus) p132, Sept.11
+    KUO Mo-jo
+
+[RETAILING]  (line 21105 of the text layer)
+    If you wear it, it s selling well (with illus)
+    p21, July 10
+    Maytag spins into fabrics # p71, July 31
+    Early gainer: retailing p20, Aug.21
+    gfx the fall sales action (with
+    petnae the resumé alive (with illus)
+    Parents
+    illus)
+    A retailer s profitable poll # p53, Sept.18
+    Sears drives eastward # p26, Sept.18
+
+[Sears drives eastward # p26, Sept.18]  (line 21125 of the text layer)
+    Pier I: a retailer for cottage industries (with
+    illus) p58, Oct.2
+    Retailers move toward the 168-hour week
+    (with illus) p96, Oct.16
+    Making Christmas one for the books (with
+    illus) p24, Nov.20
+    This year Santa is really packing them in
+    (with illus) p24, Dec.4
+
+[SEARS, Roebuck & Co.]  (line 22228 of the text layer)
+    Sears moves in: Sears to expand to Brussels
+    # p32, July 31
+    Sears drives eastward # p26, Sept.18
+    Sears: big mod on campus # p79, Oct.9
+    SEAT Belts
+    I rts continue to make inroads (with illus)
+    , July 10
+    SEATTLE, Wash.
+    No green light yet from Red China (with
+    illus) p17, July 3
+
+[Sears drives eastward # p26, Sept.18]  (line 22235 of the text layer)
+    Sears: big mod on campus # p79, Oct.9
+    SEAT Belts
+    I rts continue to make inroads (with illus)
+    , July 10
+    SEATTLE, Wash.
+    No green light yet from Red China (with
+    illus) p17, July 3
+    52
+
+[Sears: big mod on campus # p79, Oct.9]  (line 22236 of the text layer)
+    SEAT Belts
+    I rts continue to make inroads (with illus)
+    , July 10
+    SEATTLE, Wash.
+    No green light yet from Red China (with
+    illus) p17, July 3
+    52
+
+[Sears: big mod on campus # p79, Oct.9]  (line 25654 of the text layer)
+    UROCON, Inc.
+    Off-brand lenses flunk out # p43, Sept.25
+
+##############################################################################
+# ==================== APPENDED SECOND PASS, 2026-09-25T07:09Z: 1962 and 1966 ====================
+# sim_business-week_1962_index      'Business Week 1962: Index'   text layer 1,273,570 B / 196,549 words
+#   https://ia802906.us.archive.org/14/items/sim_business-week_1962_index/sim_business-week_1962_index_djvu.txt
+# sim_business-week_1966_index_0    'Business Week 1966: Index'   text layer 1,177,551 B / 193,116 words
+#   https://ia800606.us.archive.org/17/items/sim_business-week_1966_index_0/sim_business-week_1966_index_0_djvu.txt
+# Both HTTP 200, byte-exact against metadata-declared size; pulled whole to scratch outside the repo.
+# WHY THESE TWO YEARS: 1962 is the year the first Wal-Mart Discount City opened (Rogers, Arkansas,
+#   Nov 1962) and 1966 is mid-window. Together with 1964/69/70/71 this is six of the ten index
+#   years IA holds for 1962-1971.
+# DECOY FLAGGED (read before citing): the ONLY 'Walton' in the 1962 index is
+#   'WALTON, William — Motel chain finds profits in owning: Holiday Inns is acquiring franchised
+#   Arkansas family. Zero 'Wal-Mart' in 1962 and 1966 as in the other four years.
+# OCR STATE for 1966: worse than 1962 — the 'DISCOUNT Houses / Allied Stores Corp.' block is
+#   almost entirely lost ('Allied Stores Corp. Fy, fi / Sar dincains be ee a ee'); quote nothing
+#   from it. The 1962 layer reads well.
+###############################################################################
+
+
+==============================================================================
+### BUSINESS WEEK 1962 INDEX — topic blocks
+==============================================================================
+
+[AUDITS & Surveys Co.]  (line 2449)
+    Data on discount stores offers sony ad ro-
+    gress they have been making p5
+    AUER, Edward D.
+    Teachi the analysts about gas pipelines:
+    Texas stern Transmission orp. execu-
+    tives serve as faculty (with illus) p100, Apr.7
+    AUERBACH, Dr. Oscar
+    Smoking — the case blackens. New study
+    links tobacco with deaths from heart at-
+    tacks, cancer, and many chronic diseases
+    (with chart and illus) p34, Jun.30
+
+[DEPARTMENT Stores]  (line 9781)
+    See also Retailing
+    Justice Dept. files suit to block merger of Mil-
+    waukee's two largest stores # p64, Mar.10
+    Big store’s dilemma. The Marketing Pattern
+    p88, Mar.24
+    Mormon store opens its first branch p73, Apr.7
+
+[DISCOUNT Houses]  (line 10086)
+    Customers arrest the store clerks in St. Louis
+    test of Sunday closing (with illus) p38, Jan.13
+    Restraint-of-trade charges against four Chev
+    executives, for alleged conspiring to cut off
+    sale of new cars through discount houses,
+    have been dismissed # p54, Jan.27
+    Discounters invade food field: And super-
+    markets are fightin
+    Fens g g back (with illus) p62,
+    yy oe | ‘+. on mae Korvette moves
+
+[Discounters invade food field: And super-]  (line 10099)
+    markets are fightin
+    Fens g g back (with illus) p62,
+    yy oe | ‘+. on mae Korvette moves
+    on fashionable New York shoppi
+    (with illus) p72, Feb.10 ——
+    Walgreen invades the discount field, buying
+    up three Houston stores p36, Mar.24
+    Parke, Davis switches its sales licy, wi
+    deal directly with discounters p54, Apes” .
+    Dun & Bradstreet reports on number of dis-
+
+[Sears, Roebi »onders move into Common]  (line 11698)
+    Market; Lev & Sons to build apartments in
+    Paris p96, Feb.17
+    tration will stress concessions won from
+    Europe at GATT negotiations p32, Mar.10
+    Antitrusters start work in Common Market +
+    p78, Mar.31
+    Paris department store displays benefits of the
+    , Common Market (with illus) p26, Mar.31
+    Europe charts its business future: Business
+    and government plan jointly to assure eco-
+    nomic growth (with table and illus) p80, Apr.7
+
+[Discounters invade food field: And super-]  (line 12643)
+    markets are fighting back (with illus) p62,
+    Feb.3
+    Hazards of selling survival products p62,
+    Feb.24
+    Appliance seals food in plastic (with illus)
+    p130, Apr.7
+    Food fad or health aid? Safflower oil is latest
+    discovery of health food industry (with illus)
+    p65, Apr.21
+    A federal grand jury indicted 14 companies,
+    three trade groups, and 17 individuals on
+    charges of fixing prices and restraining trade
+    in kosher food products # p38, Jun.9
+    Suspending life in a deep freeze: This method
+
+[KRESGE (S.S.) Co.]  (line 19252)
+    Sales down sharply on Monday and Tuesday
+    of last week, the wildest days on Wall Street
+    # p25, Jun.9
+    KROGER Co.
+    FTC strikes a blow at pre-ticketing p57,
+    Apr.14
+    KROLL, Mark H.
+    Kroll insurance empire shaken by Michigan
+    plea for liquidation p55, Feb.10
+
+[RETAILING]  (line 27229)
+    See also Discount Houses; Supermarkets;
+    62
+
+[Discounters invade food field: An]  (line 27265)
+    d supe
+    markets are fighting back (with illus) p62,
+    Feb.3
+    Discount house puts on airs: Korvette moves
+    in on fashionable New York shopping street
+    (with illus) p72, Feb.10
+    Subway crowd joins carriage trade: Shops on
+    Fifth Avenue are wooing budget-minded cus-
+    tomers (with illus) p76, Feb. 10
+    Retailers rang up record sales # p28, Feb.17
+    Running a store for a week: College students
+    invade California department store (with
+    illus) p90, Feb.17
+
+[SEARS, Roebuck & Co.]  (line 28787)
+    Cushman reported in line to succeed Kell-
+    Stadt as chairman p40, Feb.10
+    Sears ponders move into Common Market p96,
+    Feb.17
+    Sears to open its first drug store; Spiegel
+    gives up prescription department 64, Mar.10
+    Allstate rounds out auto financing service
+    with move into Pacific Northwest p48, May 12
+    SEAT Belts
+    See Automobiles-Parts
+
+[Sears ponders move into Common Market p96,]  (line 28794)
+    Feb.17
+    Sears to open its first drug store; Spiegel
+    gives up prescription department 64, Mar.10
+    Allstate rounds out auto financing service
+    with move into Pacific Northwest p48, May 12
+    SEAT Belts
+    See Automobiles-Parts
+    SEATH, John A.
+    Tax bill proposed by House committee stirs
+    _— of businesses that would feel bite p61,
+    eb.3
+
+[SHOPPING Centers]  (line 29881)
+    Mormon store opens its first branch p73, Apr.7
+    SIEGLER Corp.
+    Matching up a perfict fit in electronics: Siegler
+    sought Lear, Inc., for two years — and won it
+    in a photo finish (with illus) p82, Feb.24
+    SILLS, Budd
+    Spiegel spends $3-million to save money (with
+    illus) p56, Jan.27
+
+[Discounters invade food field: And super-]  (line 31692)
+    =" are fighting back (with illus) p62,
+    eb.
+    Food chains’ ene sales plans bring mixed
+    results in Pittsburgh p71, Feb.10
+    ‘Instant Dividend’ proves too costly and time-
+    consuming for Philco p108, Mar.3
+    Steel company tackles food chains to boost
+    a for soft drink cans (with illus) p97,
+    un.
+    SURREY, Stanley S.
+    Tax cuts in '63? Reform plan being batted
+
+[Woolworth stores will serve as redemption]  (line 33150)
+    centers for Clown coupons and trading stamps
+    - | en Merchandising Corp. # p100,
+    ay 1
+    S&H battling Plaid stamps in New York area,
+    moves into 600 new retail outlets p57, Jun.9
+    Two can save stamps faster than one: New
+    stamp plans aim at the workman in the fac-
+    — — the salesman on the road pl40,
+    un.l
+
+[WOOLWORTH (F. W.) Co.]  (line 35185)
+    Woolworth stores will serve as redemption
+    centers for Clown coupons and trading stamps
+    of International Merchandising Corp. # p100,
+    May 19
+    WORLD Bank
+    World bank facing loan clampdown: It must
+    curtail loans to countries in financial trouble,
+    or risk its own high credit standing (with
+    illus) p138, May 26
+    Readers Report: Between hard and soft p35,
+    Jun.9
+    WORLD Trade Fair
+
+[Sears, Roebuck’s first ~t? eid opens; the]  (line 37671)
+    sales are brisk p54, Oct.
+    Is it tax-deductible? Dispute about Chrysler
+    art works on display in Ottawa interests tax
+    collector (with illus) p36, Oct.27
+    At Sears, art conquers: Mail order house is
+    convinced that fine art can be mass-marketed
+    (with illus) p28, Dec.1
+    Lisa is only the start: How to cover an im-
+    pending flood of priceless art puzzles U.S.
+    insurance men (with illus) p28, Dec.29
+    Try collecting modern American art
+
+[Discounter caught in cash bind: Grayson-]  (line 38668)
+    Robinson’s plight may presage a discount
+    house shakeout p109, Aug.18
+    BANKRUPTCY Act
+    A switch in bankruptcy pleas: Larger com-
+    panies turn to Chapter XI. SEC objects pl24
+    Oct.20
+    Shake-out among discounters seen as chain
+    files in bankruptcy p83, Oct.27
+    BarChris bankruptcy petition points up bowl-
+    ing industry woes p118, Nov.3
+
+[Discount store dropouts # pl01, Oct.6]  (line 39239)
+    JULY-DECEMBER, 1962
+    BLESSING, Karl
+    Things look up for the dollar: With the pre-
+    sure on it eased, IMF's central bankers will
+    — next week’s meeting in a calm atmos-
+    phere (with illus) p58, Sep.15
+    BLICKMAN (S.) Inc.
+
+[DISCOUNT Houses]  (line 45100)
+    Discounter caught in cash bind: Grayson-
+    Robinson’s plight may presage a discount
+    house shakeout (with illus) pl169, Aug.18
+    Discounters chip at British ways: The English
+    like bargains (with illus) p72, Aug.18
+    Another discounter enters bankruptcy court
+    as Grayson-Robinson case worries lenders
+    p146, Sep.22
+    Discount store dropouts # pl01, Oct.6
+    Shake-out among discounters seen as chain
+
+[Discount store dropouts # pl01, Oct.6]  (line 45117)
+    Shake-out among discounters seen as chain
+    files in bankruptcy p83, Oct.27
+    Food chain goes into full ownership of all
+    operations in discount center p174, Nov.10
+    Antitrusters try to pin monopoly tag on GM
+    p27, Dec.1
+    Discounters strive to ride out storm: Fast-
+    growing $6-billion industry is facing a major
+    shakeout (with illus) p78, Dec.1
+    Discounter grows dignified: Market Tire feels
+
+[Discounter cau ny in cash bind: Grayson-]  (line 49277)
+    Robinson's plight may presage a discount
+    house shakeout (with illus) p109, Aug.18
+
+[Discounter caught in cash bind: Company's]  (line 49785)
+    plight may presage a discount house shakeout
+    (with illus) pl109, Aug.18
+    Grayson-Robinson’s plans to ease cash bind
+    may make some store landlords unhappy p56,
+    Sep.15
+    Another discounter enters bankruptcy court
+    as Grayson-Robinson case worries lenders
+    pl46, Sep.22
+    A switch in bankruptcy pleas: Larger com-
+    panies turn to Chapter XI p124, Oct.20
+    Discounters strive to ride out storm p78, Dec.1
+
+[Discounters chip at British ame: The Eng-]  (line 50027)
+    lish like bargains (with illus) p72, Aug.18
+    Synthetic fiber makers get set to tap Brit-
+    ain's burgeoning spandex market p52, Aug.18
+    Britain’s ICI calls in U.S.consultant for
+    comprehensive cost-cutting study p104, Aug.25
+    Safeway Stores starts negotiations for entry
+    into Britain’s market pl04, Aug.25
+    Twice as fast as sound: That's the target for
+    British-French transport plane (with illus)
+    p38, Sep.8
+
+[Discount store dropouts # pl101, Oct.6]  (line 53388)
+    KATZENBACH, Nicholas
+    Kennedy’s are not the only brother act p32,
+    Dec.22
+    KAVANAU, Corp.
+    Grayson-Robinson’s plans to ease cash bind
+    may make some store landlords unhappy p56,
+    Sep.15
+    42
+
+[RETAILING]  (line 61375)
+    See also Department Stores; Discount Houses
+    Retail sales slump again p20, Jul.14
+    In retailing, a smooth climb: Sales of almost
+    everything recover from the faltering in June
+    (with illus) p25, Aug.4
+    Retail sales make up some lost ground p19
+    Aug.18
+    The gentle art of selling the best: Customers
+    turn to ‘name shops’ (with illus) p54, Sep.8
+    Retail sales second best. Declines came in
+
+[SEARS Roebuck & Co.]  (line 62897)
+    Mail order travel worries the airlines (with
+    illus) p32, Aug.18
+    Sears, Roebuck’s first art gallery opens; the
+    sales are brisk p54, Oct.13
+    Sears installs checkout booths for customers
+    in a hurry p108, Oct.20
+    At Sears, art conquers: Mail order house is
+    convinced that fine art can be mass-marketed
+    (with illus) p28, Dec.1
+    More household — come out using
+
+[SHOPPING Centers]  (line 63613)
+    For a cultural trip to the store, visit a shop-
+    ping center with a theater p77, Sep.29
+
+[WALTON, William]  (line 68032)
+    Motel chain finds profits in owning: Holiday
+    Inns is acquiring franchised units (with illus)
+    p47, Jul.14
+    WARNE, Colston E.
+    Product rating catches on abroad p51, Jul.28
+    WARNECKE Electron Tubes, Inc.
+    French try an invasion of U.S.: Maker of
+    electronic components this time has an Amer-
+    ican partner (with illus) p61, Dec.1
+    WARNER-Lambert Pharmaceutical Co.
+    Anounces a merger agreement with American
+    Chicle Co. # p38, Jul.28
+
+
+==============================================================================
+### BUSINESS WEEK 1966 INDEX — topic blocks
+==============================================================================
+
+[AUDITS & Surveys Co., Inc. :]  (line 1931)
+    Data collectors are moving in on food chain
+    warehouses p57, Apr.9
+    AUERBACH, Isaac
+    The $5-billion world market for computers
+    (with illus) (Special Report) p110, Feb.19
+
+[Discount hike starts to pinch bank loans:]  (line 3028)
+    peg find credit 4 more difficult to
+    id the Fed probably has a bit more
+    tightening in store p26, Feb.5
+    Banks win merger m: 3 House and Senate both
+    vote to soften antitrust line and O.K. past
+    coors ot ' meee gains right to delay mergers
+    Pp eb
+    When_banking gets too friendly (Editorial)
+    p64, Feb.12
+    N.Y. State t. turned down the
+    oP potas La of Chase Manhattan to buy siock
+    the National Bank & Trust
+    . # p42, Feb.19
+
+[Kresge’s ninghe threat gauiies: President]  (line 8338)
+    a - brought success with
+    unting, and experi-
+    a mix of uy , discoun
+    “ae and illus) p126, Jan.29
+    menting (w
+
+[DISCOUNT Houses]  (line 9336)
+    Allied Stores Corp. Fy, fi
+    Sar dincains be ee
+    a ee
+    '
+    i
+    '
+    '
+
+[Discount hike starts to + bank loans:]  (line 11449)
+    Businessmen find credit more difficult to-
+    secure, and the Fed p robab has a bit
+    tightening in store (with files} p26, Febs.
+    A_ mediator moves into the Fed: Johnson's
+    ar an > = —— a. er for hg Be
+    a more ral
+    look (with iilus) mee < Mars
+    Harvard professor attacks Fed structure, calls
+    for closer tie with Executive Branch (with
+    illus) p78, Mar.5
+
+[KRESGE (S. 8.) Co.]  (line 18506)
+    Kresge’s ae toot eens oy President
+    a mix of disco’ . aa ae
+    x 0 upgrading, un
+    menting (wi cover and illus ” p26, Jan.29
+    KREY Packing Co.
+    Meat packers delayed-price contract to
+    insure supply of hd ue = A p136, Jun.4
+    KRIZ, Miroslav
+    Expert looks for a tightening
+    harder squeeze
+
+[Kresge’s ae toot eens oy President]  (line 18507)
+    a mix of disco’ . aa ae
+    x 0 upgrading, un
+    menting (wi cover and illus ” p26, Jan.29
+    KREY Packing Co.
+    Meat packers delayed-price contract to
+    insure supply of hd ue = A p136, Jun.4
+    KRIZ, Miroslav
+    Expert looks for a tightening
+    harder squeeze
+    on Meld tie ing oe gine Jan’
+
+[Discount hike starts te pinch Bend, leans:]  (line 20349)
+    Businessmen find credit is difficult to
+    secure, and —s Fed probabl 7 bes a bit more
+    tightening in store (with illus) p26, Feb.5
+    = President’s dilemma: Johnson began 1966
+    the take his
+    Racing into a Sel world. Economic
+    Commentary ° ent lus) p136, Apr.2
+    What does the plunge portend p35, May 14
+    MARUBENI-lida & Co.
+    Japan's it web of world traders:
+
+[Department store losses are estimated]  (line 22811)
+    million a day as subways and ty Ratt,
+    traffic crowds streets, and many stay home
+    (with illus) p30, Jan.8
+    On Broadway — and off p96, Jan.8
+    Will Quill win gamble? Used to political give
+    and take in settling contracts, the transit
+    workers’ leader may have picked the wrong
+    time and place to challenge a new administra-
+    tion (with illus) p32, Jan.8
+    Business struggles on as strike cuts deep:
+    While big comes were - to cope with
+    transit tie-up, the small businessman found
+    the going rough (with illus) “p30, Jan.15
+
+[RETAILING]  (line 26555)
+    Another banner sales year coming ws Despite
+    some problems, retailers can expect a gain of
+    about 6% over 1965 (with illus) p13, Jan.1
+    Industry outlook mostly bright p8, Jan.1
+    le ders pour it on Me 4 market:
+    Young, single spen
+    a is on for the small growing
+    group of 18-to-29 year olds (with ies) p62,
+    All sorts of merchandising problems find quick
+    answers in new computer programs p40, Jan.8
+    Retail sales — a 4 a Record sales —
+    record credit p20, Jan.
+
+[Kresge’s triple-threat pies: President]  (line 26577)
+    has ith
+    Harry success W
+    a ae of up ing, discoun , and experi-
+    menting (with cover and illus) p126, Jan.29
+    Retail trade moves along at a sna ce
+    p24, Feb.19 ree.
+    Tender, loving care for the masses: Retailers
+    are having to extend the ‘c: carriage trade’ treat-
+    oe to ae customers (with illus)
+
+[SEARS, Roebuck & Co.]  (line 28170)
+    ‘Electronic Match’ replaces pilot it on gas
+    ranges and clothes driers piss, Feb. 12
+    How do you pick an executive winner p108,
+    Mar.3
+    Cushman to retire as Sears chief p54, May 21
+
+[SHOPPING Bag Food Stores]  (line 29117)
+    opt court bars merger of rivals: In landmark
+    ion, Supreme Court declared open ~~
+    ma es of oe companies in re-
+    tail marke s p36, Jun.4
+    High court ghtens the antitrust reins (with
+    table) p40, Jun.18
+    SHRIVER, R. Sargent
+    A bestseller by Shriver p42, Jan.15
+    Harvard Soe its ‘tent show’ on big-time cir-
+    cuit (with illus) p86, Mar.12
+
+[DEPARTMENT Stores]  (line 43900)
+    See also Retailing
+    NRMA reports on fomtnent store profits in
+    1965 # p134, Aug.20
+    DESAI, Mme. Jyoti
+    American s to fore engineers
+    Cone illus) p170, Oct sae
+    # Short News Item
+    DETROIT Steel Corp.
+
+[DISCOUNT Rate]  (line 44016)
+    Fed boost in discount rate seems certain —
+    money market wonders how high it will go
+    p18, Jul.16
+    The money market hasn’t written off the pos-
+    =r of a higher discount rate # plé2,
+    DISNEY Productions, Inc.
+    Rumor has it that Mickey Mouse and his
+    friends are up for sale # p80, Dec.24
+    Disney Productions says its position is strong,
+    rules out any merger p26, Dec.31
+
+[Sears catalogue in postcard]  (line 58037)
+    with NER’s micro reproduction technique,
+    which can reduce a EY cane page to pinhead
+    dimensions p48, Dec
+    OFFICIAL Green Weenies
+    and printing
+    y paper rolls
+    Manufacturers of novelties gloat as epidemic
+    bs a rey Green Weenies sweeps Pittsburgh
+    pi, 3
+
+[RETAILING]  (line 61202)
+    See also Supermarkets
+    Retail sales — good, but not great p20, Jul.16
+    # Short News Item
+    Retailers’ sales rise with the —
+    Merchants all over the country say they’
+    about cleaned out of items that help beat
+    the heat (with illus) p36, Jul.23
+    Smaller income Be causes dip in hard-
+    goods sales p20, Jul.23
+    The om put on more muscle: In —_
+
+[SEARS, Roebuck & Co.]  (line 62529)
+    on Coes reiterates that the —a>
+    a Se venture is “still simmering on
+    the back burner” p120, Jul.16
+    Whir! l_ moves into room: With
+    Whirlpool moves into vis p38, A Aug
+    # Short News Item
+    Will start converting all 100 of its New
+    Engen ct catalogue stores to retail outlets #
+    ug.20
+    Gordon M. Metcalf is named chairman # p54,
+    Nov.5
+
+[WOOLWORTH (F. W.) Co.]  (line 67783)
+    Another invasion of Britain: bg ee to try
+    discount department stores p108, Oct.22
+    WORLD Almanac
+    Local ne aper tie-in means a cover change
+    for the 1967, World Almanac p140, Dec.17 ss
+    WORLD Bank
+    Trying harder to feed the poor: The U.S. and
+    the World Bank are trying to get rich nations
+    to increase their aid, a much resist-
+    ance (with charts) p33, J
+
+[discount department stores p108, Oct.22]  (line 67787)
+    WORLD Almanac
+    Local ne aper tie-in means a cover change
+    for the 1967, World Almanac p140, Dec.17 ss
+    WORLD Bank
+    Trying harder to feed the poor: The U.S. and
+    the World Bank are trying to get rich nations
+    to increase their aid, a much resist-
+    ance (with charts) p33, J
+    Muddy road to monetary reform: Industrial
+    countries fight over conditions that would per-

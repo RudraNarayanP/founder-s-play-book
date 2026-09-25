@@ -1,0 +1,91 @@
+{
+ "query_label": "ia_chain_store_age_and_discount_store_news.json",
+ "query": "title:(\"discount store news\")",
+ "http_status": 200,
+ "numFound": 16,
+ "docs_sample": [
+  {
+   "identifier": "micro_IA40706901_0406",
+   "date": "1980-01-01",
+   "title": "Discount Store News"
+  },
+  {
+   "identifier": "micro_IA40706905_0021",
+   "date": "1981-01-01",
+   "title": "Discount Store News"
+  },
+  {
+   "identifier": "micro_IA40706908_0058",
+   "date": "1982-01-01",
+   "title": "Discount Store News"
+  },
+  {
+   "identifier": "micro_IA40706911_0343",
+   "date": "1983-01-01",
+   "title": "Discount Store News"
+  },
+  {
+   "identifier": "micro_IA40706915_0204",
+   "date": "1984-01-01",
+   "title": "Discount Store News"
+  },
+  {
+   "identifier": "micro_IA40706918_0158",
+   "date": "1985-01-01",
+   "title": "Discount Store News"
+  },
+  {
+   "identifier": "micro_IA40706921_0148",
+   "date": "1986-01-01",
+   "title": "Discount Store News"
+  },
+  {
+   "identifier": "micro_IA40706924_0308",
+   "date": "1987-01-01",
+   "title": "Discount Store News"
+  },
+  {
+   "identifier": "micro_IA40706928_0008",
+   "date": "1988-01-01",
+   "title": "Discount Store News"
+  },
+  {
+   "identifier": "micro_IA40706931_0077",
+   "date": "1989-01-01",
+   "title": "Discount Store News"
+  },
+  {
+   "identifier": "micro_IA40706934_0339",
+   "date": "1990-01-01",
+   "title": "Discount Store News"
+  },
+  {
+   "identifier": "micro_IA40706938_0039",
+   "date": "1991-01-01",
+   "title": "Discount Store News"
+  },
+  {
+   "identifier": "micro_IA40706941_0156",
+   "date": "1992-01-01",
+   "title": "Discount Store News"
+  },
+  {
+   "identifier": "micro_IA40706944_0408",
+   "date": "1993-01-01",
+   "title": "Discount Store News"
+  },
+  {
+   "identifier": "micro_IA40706948_0071",
+   "date": "1994-01-01",
+   "title": "Discount Store News"
+  },
+  {
+   "identifier": "micro_IA40706953_0486",
+   "date": "1995-01-01",
+   "title": "Discount Store News"
+  }
+ ],
+ "source_url": "https://archive.org/advancedsearch.php?q=title:(discountstorenews)&output=json",
+ "retrieved": "2026-09-25T06:40-07:05Z",
+ "note": "Discount Store News = 16 items, all UIC microfilm volume-level records 1980-1995, none in the 1962-1975 window. Chain Store Age: see search log."
+}

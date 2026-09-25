@@ -1,0 +1,101 @@
+{
+ "query_label": "ia_minnesota_medicine_sim_run.json",
+ "query": "identifier:(sim_minnesota-medicine*) AND YEAR:[1968 TO 1986]",
+ "http_status": 200,
+ "numFound": 19,
+ "docs_sample": [
+  {
+   "identifier": "sim_minnesota-medicine_january-december-1971_54_index",
+   "date": "1971-01-01",
+   "title": "Minnesota Medicine January-December 1971: Vol 54 Index"
+  },
+  {
+   "identifier": "sim_minnesota-medicine_1979_62_index",
+   "date": "1979-01-01",
+   "title": "Minnesota Medicine 1979: Vol 62 Index"
+  },
+  {
+   "identifier": "sim_minnesota-medicine_1978_61_index",
+   "date": "1978-01-01",
+   "title": "Minnesota Medicine 1978: Vol 61 Index"
+  },
+  {
+   "identifier": "sim_minnesota-medicine_january-december-1968_51_index",
+   "date": "1968-01-01",
+   "title": "Minnesota Medicine January-December 1968: Vol 51 Index"
+  },
+  {
+   "identifier": "sim_minnesota-medicine_1983_66_index",
+   "date": "1983-01-01",
+   "title": "Minnesota Medicine 1983: Vol 66 Index"
+  },
+  {
+   "identifier": "sim_minnesota-medicine_january-december-1970_53_index",
+   "date": "1970-01-01",
+   "title": "Minnesota Medicine January-December 1970: Vol 53 Index"
+  },
+  {
+   "identifier": "sim_minnesota-medicine_1975_58_index",
+   "date": "1975-01-01",
+   "title": "Minnesota Medicine 1975: Vol 58 Index"
+  },
+  {
+   "identifier": "sim_minnesota-medicine_1976_59_index",
+   "date": "1976-01-01",
+   "title": "Minnesota Medicine 1976: Vol 59 Index"
+  },
+  {
+   "identifier": "sim_minnesota-medicine_1982_65_index",
+   "date": "1982-01-01",
+   "title": "Minnesota Medicine 1982: Vol 65 Index"
+  },
+  {
+   "identifier": "sim_minnesota-medicine_january-december-1969_52_index",
+   "date": "1969-01-01",
+   "title": "Minnesota Medicine January-December 1969: Vol 52 Index"
+  },
+  {
+   "identifier": "sim_minnesota-medicine_january-december-1973_56_index",
+   "date": "1973-01-01",
+   "title": "Minnesota Medicine January-December 1973: Vol 56 Index"
+  },
+  {
+   "identifier": "sim_minnesota-medicine_1986_69_index",
+   "date": "1986-01-01",
+   "title": "Minnesota Medicine 1986: Vol 69 Index"
+  },
+  {
+   "identifier": "sim_minnesota-medicine_1984_67_index",
+   "date": "1984-01-01",
+   "title": "Minnesota Medicine 1984: Vol 67 Index"
+  },
+  {
+   "identifier": "sim_minnesota-medicine_1977_60_index",
+   "date": "1977-01-01",
+   "title": "Minnesota Medicine 1977: Vol 60 Index"
+  },
+  {
+   "identifier": "sim_minnesota-medicine_january-december-1972_55_index",
+   "date": "1972-01-01",
+   "title": "Minnesota Medicine January-December 1972: Vol 55 Index"
+  },
+  {
+   "identifier": "sim_minnesota-medicine_1981_64_index",
+   "date": "1981-01-01",
+   "title": "Minnesota Medicine 1981: Vol 64 Index"
+  },
+  {
+   "identifier": "sim_minnesota-medicine_1985_68_index",
+   "date": "1985-01-01",
+   "title": "Minnesota Medicine 1985: Vol 68 Index"
+  },
+  {
+   "identifier": "sim_minnesota-medicine_1974_57_index",
+   "date": "1974-01-01",
+   "title": "Minnesota Medicine 1974: Vol 57 Index"
+  }
+ ],
+ "source_url": "https://archive.org/advancedsearch.php?q=identifier:(sim_minnesota-medicine*)ANDYEAR:[1968TO1986]&output=json",
+ "retrieved": "2026-09-25T06:40-07:05Z",
+ "note": "19 items = ONE annual index volume per year 1968-1986, unbroken. The full journal run (sim_minnesota-medicine_1944-07_27_7 etc.) also exists for earlier years."
+}
