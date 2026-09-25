@@ -536,6 +536,8 @@ def run(company, checks, tier, outdir=None):
         gate_quotes(company, rep)
     if "budget" in checks:
         gate_budgets(company, rep, tier)
+    if "corrections" in checks:
+        gate_corrections(company, rep)
     md = rep.render(company)
     if outdir:
         os.makedirs(outdir, exist_ok=True)

@@ -1566,3 +1566,40 @@ the six Stage-3 `0.194995` sites. §14 rule 6: a queued edit beats a raced one.
 
 Also verified clean and not to be re-touched: rent->257, 30.813, 0.2548, 14.0500007, ~39.5, the restatement
 set, and the U.114/115 re-key.
+
+### RD-106 -- the retraction-propagation gate found 11 instances where one auditor found one
+
+Added `gate_corrections()` to `tools/gates.py`: every `COR-nn` id in a company's `CORRECTIONS.md` must be
+referenced **both** in the register layer **and** in at least one stage volume. First run on Amazon:
+
+- **11 retractions reach the prose but no register** -- `COR-16` through `COR-26`, i.e. the *entire*
+  hindsight-repair wave. The register layer still teaches every claim those entries withdrew.
+- **3 name no stage volume at all** (`COR-21`, `COR-25`, `COR-26`).
+- Of 26 retraction ids in the file, the register layer reaches 15 and the volumes 23.
+
+The second re-certifier had found `COR-16` alone, by hand, in prose: "3 times in `CORRECTIONS.md`, 3 times
+in the index, once in the log, and ZERO times in `conflicts.csv`, `sources.csv` or `quantitative.csv`." The
+gate turns that single catch into a standing invariant for all 50 companies, which is the point of §15.1:
+if a check is mechanical, an agent should never be the one doing it.
+
+Self-test extended and passing: **9 planted defects caught, 2 must-stay-clean negative controls** (an
+RFC-escaped `""` field, and a properly propagated retraction), clean fixture with zero false positives.
+
+**Two of my own bugs, both caught by looking rather than assuming:**
+- The first wiring attempt inserted `gate_corrections` only into the self-test harness, never into `run()`
+  -- so the gate reported "0 findings" while not executing. That is the false-clean class again, in code I
+  wrote minutes earlier, and it was caught only because the Amazon run produced no output line at all
+  rather than a pass.
+- `run()`'s target string didn't match, my replace silently no-opped, and the earlier "patched" print made
+  it look applied. A patch that prints its own success is not evidence; the observable behaviour is.
+
+**Also fixed:** `NARR_GLOBS["stage1"]` only listed `stage_1.md`, so anchors declared in a §9.3 continuation
+volume (`stage_1_part_2.md`) were invisible to the parity gate -- reported by the Apple merge agent, which
+had just split a 64,744-word volume at 56,537 + 8,713 and reached **55 <-> 55 anchor parity with zero
+residue**, 107 register rows applied, 5 registers created, 5 rows refused for schema mismatch and re-pointed
+rather than forced.
+
+**RD-106b -- third-party tool reports must be re-checked against the current build.** Two agents reported
+`ia_text.py`'s `fl[]`/`doseq` defect after I had already fixed and proven it. The reflex to say "already
+closed" is the same one that produced two premature claims earlier this session; instead, re-run the
+failing path (`mine` on a real query) and report the observed behaviour.
