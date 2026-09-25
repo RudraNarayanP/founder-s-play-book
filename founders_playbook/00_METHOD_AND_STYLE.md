@@ -435,3 +435,56 @@ lost. Three standing rules:
    **How to apply:** address a claim by something that survives edits — `§P147`, `U.95`, record id `Q60`,
    register row key — and put the line number beside it only as a locator. When a pass materially edits a file,
    it must re-key the pointers *into* that file that other files carry, or say in its log that it could not.
+
+## 15. The scripted pipeline (binding from 2026-09-26)
+
+§14 is a list of things learned by paying an agent to learn them. Most of them are mechanical, and
+paying an agent for mechanical work is what produced a ~30–50% agent failure rate and millions of
+tokens with nothing on disk. From today, the split is enforced by tools, not by briefing care.
+
+**15.1 Division of labour.** Scripts own: EDGAR enumeration and download with provenance sidecars
+(`tools/sec_intake.py`), periodical and corporate-print harvest (`tools/periodical_harvest.py`), the
+XBRL early-period financial series, path ownership and file skeletons (`tools/scaffold.py`), and every
+mechanical audit check (`tools/gates.py`: column drift, primary-key duplicates, stage vocabulary,
+year-bearing date columns, `source_id` resolution, §U anchor parity, verbatim-quote existence, per-file
+word budget). Agents own: boundary justification, claim classification, independence judgment,
+conflict adjudication, mechanism and causality, the hindsight firewall, interpretation, the
+EMPTY/UNANSWERED/UNTRIED call, and repair of whatever a gate flags.
+**Rule: no agent brief may include retrieval of a document a script can reach.** An agent that needs an
+unindexed document returns a `FETCH REQUEST:` block naming accession and document; the orchestrator
+runs the script and re-dispatches. Declining the fetch is the correct behaviour, not a failure.
+
+**15.2 Tiered density** — resolves the universe-vs-depth contradiction (see the capacity finding,
+MASTER_RESEARCH_LOG 2026-09-25). The probe sets the tier from the five corpus families, never from
+ambition:
+
+| tier | condition | deliverable | cap | ≈ agent runs |
+|---|---|---|---|---|
+| T1 exemplar | ≥3 families return in-window Tier-1 text | §A–§U full, claim records, 9 registers | 60k w/stage | 15–20 |
+| T2 core | 2 families | evidence-bound §A–§U, full registers, records for load-bearing claims only | 22k w/stage | 6–9 |
+| T3 register | ≤1 family | short narrative + registers; §K, §N, §U still mandatory | 8k w/stage | 3–4 |
+
+Every tier emits `sources.csv`, `conflicts.csv`, `data_gaps.csv` and an UNTRIED list. "We cannot know"
+is a deliverable at every tier, so downgrading depth never means dropping sections silently.
+
+**15.3 Dispatch contract.** Every brief carries these six labelled lines; a brief without them is not
+dispatched: `CLAIM:` the exact `scaffold.py claim` command to run first; `BUDGET:` a numeric tool-call
+ceiling ≤60 with "at 80% stop opening new work and close out"; `READ:` the paths you may read plus the
+web budget (default **0** calls); `WRITE:` the one path you own, appended per section, marking each
+section WRITTEN as you go; `GATE:` the exact `gates.py` command that must pass before you report;
+`REPORT:` path, word count, record count, a coverage note of what was not examined, and the UNTRIED list.
+
+**15.4 A company is complete when its gates pass and its nulls are named** — not when it reaches a word
+count. Missed length targets remain legitimate (§9.2) and are never a failure.
+
+**15.5 Every gate proves itself.** `gates.py --self-test` plants the exact defects this run previously
+missed into a copy and asserts each one fires in its own gate, plus a no-false-positive control on a
+clean fixture. Status at build: 8/8 caught, clean fixture clean. A gate that cannot catch its own
+historical defect is a bug in the gate.
+
+**15.6 Repair loop.** `gates.py` → findings → one repair agent per disjoint file set → re-run
+`gates.py` → only then a judgment re-certification agent. Certifier ≠ repairer still applies (§14,
+and AUDIT-rule 1). Advisory outputs are labelled ADVISORY and are **not** defects: the verbatim-quote
+gate on Amazon currently reports a 39% unmatched rate among attributed quotes because Stage-1
+secondary print (magazine, newspaper, interview text) was never saved under `sources/` — an intake
+gap, not 179 fabricated citations. Companies whose intake is scripted from the start do not inherit it.

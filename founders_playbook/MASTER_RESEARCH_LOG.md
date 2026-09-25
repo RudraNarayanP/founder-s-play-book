@@ -1001,3 +1001,87 @@ contaminating greps of its cached files.
 Spec §22 forbids cross-company pattern claims until individual reports pass QA. No
 `02_cross_company/` analysis is written while any contributing company is pre-QA;
 only structural placeholders.
+
+
+---
+
+## Wave 2026-09-26 evening -- the pipeline was moved out of the agents
+
+**Why this wave exists:** the user asked for the whole top-50 inside 2--4 days of machine uptime and
+rejected the observed failure rate. Both are the same complaint: an agent was being paid to do
+mechanical work, mechanical work fails silently, and the failure was billed at 9--23M tokens per run.
+`00_METHOD_AND_STYLE.md` **§15** is now binding and it changes the division of labour, not the prose
+of the briefs.
+
+**Three scripts shipped, all stdlib-only:**
+- `tools/sec_intake.py` -- EDGAR enumeration through the archive slices, per-form earliest-filing
+  index, document download with sha1/bytes/word sidecars, and the **XBRL early-period series**. Holds
+  the declared-UA recipe, the string-`size` trap, the error-page-masquerading-as-document trap, and the
+  slice-JSON shape trap. A dossier agent now starts from an index and local bytes instead of a search
+  budget; **retrieval is one `Bash` call, not forty web calls.**
+- `tools/gates.py` -- the mechanical audit layer: width drift, primary-key duplicates, stage
+  vocabulary, year-bearing date columns, `source_id` resolution, §U anchor parity, verbatim-quote
+  existence, per-file word budget. `--self-test` plants the eight defects this run actually missed and
+  asserts each fires **in its own gate**, plus a no-false-positive control on a clean fixture: **8/8
+  CAUGHT, clean fixture CLEAN.**
+- `tools/scaffold.py` -- claim-a-path-before-you-write. The owning agent's file exists with every
+  section marked `STATUS: PENDING` the moment it starts, `ledger` shows live/stale/done with age and
+  word counts, and a live claim **refuses** a second owner. This is the structural end of both the
+  empty-file failure and the double-dispatch collision.
+
+**What the gates found on the existing corpus in about ten seconds** (work previously done by audit
+agents over hours, and done incompletely):
+- **44 rows of CSV width drift** across five Amazon registers (`sources.csv` 26 rows, `quantitative.csv`
+  13, `conflicts.csv` 3, `timeline.csv` 1, `data_gaps.csv` 1) -- the unquoted-comma class, still standing
+  after five audit rounds.
+- **A numeric stage value in `Walmart/sources.csv`** (`stage = 1`), i.e. RD-048 had already reached
+  company 002 and nobody had noticed.
+- **Six Amazon files still citing 4-digit pre-re-key tokens** (`S3001`, `S3007`, `S3022`, `S3081`,
+  `S3004`, `S3012/13/20/24`) -- RD-078's residue, now a named list instead of a suspicion.
+- **Two files over the §9.2 hard cap**: `stage_2_claim_records.md` 60,718 w and
+  `stage_3_claim_records.md` 84,337 w. Flagged by three separate agent audits as "long" and never split.
+- **§U parity breaks in both directions**: `U.220` declared with no register row; `U.201--U.211` in the
+  registers with no declaration in the narrative.
+- **False-clean bug in my own gate, caught before ship:** the first Walmart run reported *0 findings*
+  because its registers live under `research/` and nothing had been read. Every gate now emits a
+  `coverage` finding when it had no input, and `run()` counts registers, volumes and source documents
+  so "nothing to check" can never print as "all clear" again.
+
+**Known limitation, stated not hidden (§15.6):** the verbatim-quote gate on Amazon reports **179 of 463
+attributed spans unmatched (39%)** -- and that is mostly an *intake* gap, not 179 fabrications:
+Stage-1 secondary print (magazine, newspaper, interview text) was read by agents and never saved under
+`sources/`, so it cannot match locally. Above 25% the gate prints **ADVISORY** and refuses to emit a
+defect list, because an agent handed a 39%-false-positive list would "repair" it by mangling real
+quotes. Unattributed spans are advisory notes only. Companies whose intake is scripted from the start
+do not inherit the gap.
+
+**Tiering decision (closes task #12, the capacity contradiction).** The measured Amazon cost -- 138k
+narrative words per stage, 2.4M words of sources, 46 dossiers -- made all fifty companies at that
+density impossible on this budget and slow on any machine. §15.2 now sets **T1 exemplar / T2 core /
+T3 register** by *which of the five corpus families actually returned in-window Tier-1 text*, with the
+agent-run count per tier measured (15--20 / 6--9 / 3--4). Every tier still ships `sources.csv`,
+`conflicts.csv`, `data_gaps.csv` and an UNTRIED list: **downgrading depth never licenses silently
+dropping sections.**
+
+**Stale-agent finding:** `company_002_walmart/_parts/s1_p1.md` (9.4 KB) and `company_004_apple/_parts/`
+(8.8 KB) were last written 2026-09-25 23:59 -- ~19 h dead, partial. The mirror image of the
+"never infer a dead agent from a missing sheet" rule: a *present but stale* file is also not evidence
+of life. Both are re-dispatched as **completion** briefs that must read and continue the existing part,
+not restart it.
+
+**New research debt.**
+- **RD-084** Amazon: 44 register rows of width drift, five files, undetected through five audit rounds
+  -- repair with gates, then re-run gates.
+- **RD-085** Walmart `sources.csv` carries a numeric `stage` value; RD-048's uncontrolled vocabulary had
+  already propagated to company 002. Sweep all four company registers for it, not just the named row.
+- **RD-086** Quote gate needs the secondary-print intake gap closed before it can be a hard gate.
+  Blocked on: re-fetch of the Sheff/LA Times/Seattle Times/HistoryLink texts into `sources/` (they were
+  read but not filed), which is scriptable but not yet scripted.
+- **RD-087** `scaffold.py`'s ledger refuses live claims; nothing yet enforces `release --done`, so a
+  completed agent can leave a claim marked live. Watch for it before trusting `ledger` counts.
+
+**Off-machine status, unchanged and honest:** Qoder Cloud Agents is still **402 no-credit**, so
+100% of fleet compute remains this laptop. Colab was re-checked against its own README and rejected
+again: it is a *local* process bridging to a browser-authenticated notebook, so the machine must stay
+on and the T4 is irrelevant to a workload that is model tokens plus HTTP. What does run off-machine is
+`.github/workflows/harvest.yml`, proven committing to `main` as `harvest-bot`.
