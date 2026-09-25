@@ -1,0 +1,15 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000731766/000072905795000082/0000729057-95-000082.txt",
+ "fetched": "2026-09-25T21:03:22Z",
+ "sha1": "7767fcdd49dfcf195447e432cc043c07fda24c90",
+ "bytes": 6240,
+ "words": 672,
+ "cik": "0000731766",
+ "accession": "0000729057-95-000082",
+ "document": "0000729057-95-000082.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": true
+}

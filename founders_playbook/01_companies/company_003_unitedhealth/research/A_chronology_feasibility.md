@@ -422,3 +422,37 @@ never as nulls** (UH-45/UH-41); (7) check §10 research-debt triggers: "the firs
 and "a famous anecdote lacks primary evidence" both fire here and must be logged, not disclaimed.
 
 — end of probe —
+
+
+---
+
+## SUPERSEDED IN PART — dated pointer, 2026-09-26 (appended, nothing above deleted)
+
+Re-measured by `probe-unitedhealth` in **`A2_regrade_and_families.md`** on working intake tooling
+(15-task periodical harvest + verified-TLS re-run + `sec_intake auto 1977-01-01..1995-12-31`).
+
+* **The verdict's governing premise is overturned.** This file's *Verdict* capped confidence at Medium
+  because "the digitised periodical class was NOT checked" and its only probe was a Google Books
+  **HTTP 429** (UH-41). That 429 is now **answered**: HTTP 200, 23,604 B of feed held at
+  `sources/periodicals/HARVEST_A2/google_books/897cacbf3eb39aa4.xml`, carrying an in-window **1978**
+  US Office of Health Maintenance Organizations serial naming **"Charter Med , Minneapolis , which manages
+  ten IPAs around the country"** (plus a 1981 reprint of the same passage = one lineage). Family (c) and
+  family (d) have now both been run; family (e) remains UNTRIED.
+* **Per-stage tiers replace the single ~6,000-word recommendation** (RD-112): Stage 1 = **T3 register**,
+  Stage 2 = **T2 core**, Stage 3 = **T2 core**; company planning tier = the minimum = **T3**.
+* **UH-03 / UH-09 availability claims superseded.** `sources/sec/0000950131-95-000748_…txt` (FY1994
+  Form 10-K405, filed **1995-03-28**, 521,735 B) is now held and at line 168 carries the origin sentence
+  *"United HealthCare Corporation is a Minnesota corporation, incorporated in January 1977"* — four years
+  earlier than this file's earliest held instance (1999-03-31). `0000950131-95-000820` (DEF 14A,
+  1995-03-31) likewise pre-dates UH-12/14/15. **No gap remains between earliest held and earliest indexed
+  (1995-02-02 SC 13G/A, filed by The Prudential Insurance Company of America).**
+* **UH-40 partly superseded:** the exact strings `HealthPlan` / `Health Plans` DO occur in held company
+  text (10-K405 lines 270-341, incl. the Medica footnote); the `United Healthplan` exact-string test is
+  re-listed as UNTRIED with its command.
+* **UH-25's one-word `CHARTERMED` query was the misnamed-host shape this file itself warned about:** the
+  contemporaneous spelling is two words, **"Charter Med"**.
+* **The 1977 locality is NOT Eden Prairie on this evidence:** earliest held addresses (1995-02-02 line 128
+  and 1995-03-28 line 168) both read **Minnetonka, MN 55343**; Eden Prairie is attested only as the live
+  EDGAR business address, and the move date is **UNKNOWN**.
+* Confirmed unchanged: 1995-02-02 EDGAR floor, **no S-1 in 4,315 indexed rows**, no predecessor CIK, the
+  2000-03-06 legal rename, the UH-44 three-date conflict, and UH-45's `uhg.com` misnamed-file trap.

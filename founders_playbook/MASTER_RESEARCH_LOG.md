@@ -1889,3 +1889,29 @@ awaiting a merge-side tier upgrade remain open for the certifier.
   as a claim, and I shipped two bugs into this one in a day.
 - Open and handed to certification: HND-1 prose coverage, the `.hocr` source_id question, and `_parts/`
   carrying no SUPERSEDED line (outside the repair pass's write set).
+
+### RD-116 -- UnitedHealth regraded: the origin sentence moved four years earlier, and the founding town was wrong
+
+`company_003_unitedhealth/research/A2_regrade_and_families.md` (4,629 w, 11/11 sections, released; the old
+probe got a dated SUPERSEDED pointer, nothing deleted). 17 harvest evidence files + 4 SEC documents
+(713,127 B) stored under `sources/` with sidecars. **Per-stage tiers** as RD-112 requires: Stage 1
+(1977 -> 1993) **T3**, Stage 2 (1995-98) **T2**, Stage 3 (1999 -> 2000-03-06) **T2**; planning tier = the
+minimum = **T3**, so ~3-4 agent runs, not 15-20.
+
+- **The origin sentence is now four years earlier than the old probe had it.** Earliest held *and* earliest
+  indexed company-authored statement: the **FY1994 10-K405 filed 1995-03-28**, line 168 --
+  *"incorporated in January 1977."* Still company self-narrative, but a dated Tier-1 carrier where A had none.
+- **Naming settled:** the search term is the two-word **"Charter Med"**, and the founding locality is
+  **Minnetonka, not Eden Prairie** -- the HQ city in the universe CSV was being silently read as the birthplace.
+  The move date is UNKNOWN. A third company where a CSV column was about to become a fact.
+- **Google Books' old 429 is now ANSWERED**: a 1978 US Office of HMOs serial names *"Charter Med,
+  Minneapolis, which manages ten IPAs"* -- and the 1981 print of the same passage is **one lineage**, not a
+  second witness. Corporate print returned a documented `numFound: 0` on the query shape that flipped
+  Walmart, queried twice. Chronicling America x5 and HathiTrust x2 are **403, awaiting runner egress** --
+  UNANSWERED, logged as such, not counted against the tier.
+- **Old verdict: overturned on evidence, confirmed on size** -- the T3 stands for Stage 1 even though the
+  substance moved. That distinction is the point: a re-grade can change everything cited and nothing planned.
+- **A number to chase:** the index reports 4,330 rows while 4,315 were parsed -- a **15-row delta recorded as
+  UNANSWERED** by the agent. That is the same silent-drop class as RD-112's "nameless rows vanish while the
+  run claims 0 UNANSWERED", and it is the intake agent's problem, not this probe's.
+

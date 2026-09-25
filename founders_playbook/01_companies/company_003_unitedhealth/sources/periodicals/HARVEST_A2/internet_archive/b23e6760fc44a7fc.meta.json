@@ -1,0 +1,25 @@
+{
+ "url": "https://archive.org/advancedsearch.php?q=%22charter%20med%22%20AND%20mediatype%3Atexts%20AND%20YEAR%3A%5B1971%20TO%201985%5D&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=date&fl%5B%5D=year&fl%5B%5D=mediatype&fl%5B%5D=collection&rows=20&page=1&output=json",
+ "evidence_file": "b23e6760fc44a7fc.json",
+ "http_status": 200,
+ "content_type": "application/json",
+ "bytes": 425,
+ "retrieved_at": "2026-09-25T21:02:32Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "skipped (--insecure/--insecure-hosts)",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "",
+ "retry_after": "",
+ "note": "",
+ "source": "internet_archive",
+ "query_label": "IA charter med 1971-1980",
+ "company": "unitedhealth",
+ "kind": "search"
+}

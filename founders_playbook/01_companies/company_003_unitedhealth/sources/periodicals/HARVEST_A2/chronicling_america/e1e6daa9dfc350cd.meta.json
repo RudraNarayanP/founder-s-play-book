@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22Physicians+Health+Plan%22+Minneapolis&date1=1971&date2=1985&dateFilterType=yearRange&state=Minnesota",
+ "evidence_file": "e1e6daa9dfc350cd.json",
+ "http_status": 403,
+ "content_type": "text/html; charset=UTF-8",
+ "bytes": 6457,
+ "retrieved_at": "2026-09-25T21:02:29Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "skipped (--insecure/--insecure-hosts)",
+ "error_class": "bot_challenge",
+ "redirect_location": "",
+ "cf_mitigated": "challenge",
+ "cf_ray": "a40cf8659e6659cf-DEL",
+ "retry_after": "",
+ "note": "HTTP 403 Cloudflare bot-management challenge (Cf-Mitigated: challenge, Cf-Ray: a40cf8659e6659cf-DEL). The host answered 'prove you are a browser' and never searched anything: UNANSWERED, not a null, and no parameter change will fix it",
+ "source": "chronicling_america",
+ "query_label": "CA 'Physicians Health Plan' Minneapolis 1971-1985",
+ "company": "unitedhealth",
+ "kind": "search"
+}
