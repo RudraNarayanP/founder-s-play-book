@@ -319,6 +319,11 @@ def _anchors_declared(text):
 
 
 def _reg_anchor_tokens(company):
+    """Whole-register scan. I tried restricting this to identifier columns on 2026-09-27 after the
+    Wal-Mart audit showed §U's `U.0`-`U.4` subsection headings being echoed in prose columns and so
+    "passing" parity by accident -- but it destroyed real coverage, because anchors legitimately
+    live in `section` and `gap` cells (Apple's documented nulls U.025-U.039 vanished). The echo
+    weakness is therefore handled by the ANCHORS declaration instead of by dropping columns."""
     out = set()
     for name in REGISTERS:
         p = locate(company, name)
@@ -351,6 +356,53 @@ def gate_anchors(company, report):
         report.note("anchors", "no narrative anchors found -- UNANSWERED, not passed")
     if not reg or not all_nar:
         return
+    # A citation is not a declaration. Volume 2 of a split company declares zero anchors but
+    # cites hundreds, and nothing until now asked whether each cited id actually exists. A row
+    # or sentence pointing at U.077 when §U stops at U.055 is the same defect class as a
+    # dangling source_id, and it silently strands the reader.
+    cited_reg, cited_nar, reserved = set(), set(), set()
+
+    def scan(paths, sink):
+        for p in paths:
+            if not (p and os.path.exists(p)):
+                continue
+            body = open(p, encoding="utf-8", errors="replace").read()
+            for m in re.finditer(r"U\.\d+[a-z]?", body):
+                t = m.group(0)
+                pre = body[max(0, m.start() - 2):m.start()]
+                post = body[m.end():m.end() + 3]
+                # Backticked ids are being DISCUSSED (a dossier-local id, a reserve range like
+                # `U.100`-`U.199`), not cited as an address -- same protected-history rule as
+                # retired source keys. A range endpoint is a block reservation, not a pointer.
+                if "`" in pre or "`" in post:
+                    reserved.add(t)
+                elif re.match(r"^[\s-]{1,2}U\.", post) or re.search(r"U\.\d+[a-z]?[\s-]{1,2}$", pre):
+                    reserved.add(t)
+                else:
+                    sink.add(t)
+
+    scan([locate(company, n) for n in REGISTERS], cited_reg)
+    scan(stage_docs(company), cited_nar)
+    # A register cell is structured: a row pointing at a section that was never written is
+    # unambiguous damage. Prose is not -- it holds placeholder patterns (U.1n), reserved blocks
+    # and id discussions -- so an unresolved prose mention is reported, never failed.
+    hard = sorted(cited_reg - all_nar - reserved, key=_anchor_sort)
+    advisory = sorted((cited_nar | cited_reg) - all_nar - reserved - set(hard), key=_anchor_sort)
+    if reserved:
+        report.note("anchors", "%d id(s) read as backticked references or range endpoints, not "
+                    "citations (%s)" % (len(reserved), ", ".join(sorted(reserved)[:8])))
+    if advisory:
+        report.note("anchors", "%d prose mention(s) match no declared entry, ADVISORY only: %s"
+                    % (len(advisory), ", ".join(advisory[:12])))
+    unresolved = hard
+    if unresolved:
+        report.fail("anchors", "citation resolution",
+                    "%d REGISTER row(s) cite a §U entry that is never declared: %s"
+                    % (len(unresolved), ", ".join(unresolved[:15])))
+    else:
+        report.ok("anchors", "citation resolution", "every register-cited anchor resolves (%d "
+                  "distinct ids across registers and volumes)"
+                  % len(cited_reg | cited_nar | all_nar))
     orphan_nar = sorted(all_nar - reg, key=_anchor_sort)
     orphan_reg = sorted(reg - all_nar, key=_anchor_sort)
     if orphan_nar:
@@ -685,6 +737,21 @@ def self_test():
                         "U.1,§A,High,withdrawn reading superseded per COR-77\n")
         cases["propagated retraction must stay clean"] = plant_propagated_retraction
 
+        def plant_dangling_anchor_citation(d):
+            # A row that points at a section which does not exist. Same class as a dangling
+            # source_id: the reader arrives and there is nothing there.
+            plant(os.path.join(d, "timeline.csv"),
+                  lambda t: t + "T0021,1996-06-01,cites a section that was never written,"
+                              "stage1,S0001,U.777\n")
+        cases["cited anchor matches no declaration"] = plant_dangling_anchor_citation
+
+        def plant_backticked_anchor_is_reference(d):
+            # Negative control: a dossier-local id being DISCUSSED is protected history, not a
+            # broken pointer. Walmart's `U.100`-`U.199` reserve ranges are this case.
+            plant(os.path.join(d, "stage_1.md"), lambda t: t + "\nReserve block `U.100`-`U.199`"
+                  " is set aside for later conflicts; see `U.777`.\n")
+        cases["backticked anchor id stays clean"] = plant_backticked_anchor_is_reference
+
         def plant_orphan_anchor(d):
             p = os.path.join(d, "stage_1.md")
             open(p, "a", encoding="utf-8").write("\n### U.77 Orphan\nnothing registers this\n")
@@ -706,6 +773,8 @@ def self_test():
                    "row with wrong column count": "csv",
                    "paraphrase presented as quote": "quotes",
                    "anchor with no register row": "anchors",
+                   "cited anchor matches no declaration": "anchors",
+                   "backticked anchor id stays clean": "anchors-NEGATIVE",
                    "unresolvable source token in narrative": "keys",
                    "correctly escaped doublequote must stay clean": "csv-NEGATIVE",
                    "retraction never reaches the registers": "corrections",
