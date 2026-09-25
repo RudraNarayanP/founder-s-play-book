@@ -1,0 +1,10 @@
+{
+ "item": "01-target-archive",
+ "file": "2000 - Target Corp (TGT)_djvu.txt",
+ "url": "https://archive.org/download/01-target-archive/2000%20-%20Target%20Corp%20%28TGT%29_djvu.txt",
+ "fetched": "2026-09-25T19:50:36Z",
+ "bytes": 112543,
+ "route": "download/<item>/<per-year DjVuTXT>",
+ "transport": "verified TLS",
+ "note": "name-change window: item labels 1998 Dayton Hudson Corp, 1999+ Target Corp (uploader labels, verify inside text)"
+}

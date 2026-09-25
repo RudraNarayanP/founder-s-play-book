@@ -1371,3 +1371,48 @@ this loop is for.
 `>>> REGISTER ROWS FOR MERGE <<<` blocks rather than written through the live register owner. A new §U.169
 anchor also appeared mid-pass from a concurrent writer, so §U parity must be re-measured at merge, not
 trusted from any single pass.
+
+### RD-101 -- Target is T2 on 61 OCR annual reports, and `ia_text.py` was fixed by measurement, not guesswork
+
+Probe `company_042_target/research/A_chronology_feasibility.md` (4,893 w, 41 evidence files, all local):
+**T2 core**, and the decisive family is digitised corporate print -- IA item `01-target-archive` carries
+**61 per-year OCR layers, FY1965->FY2024, gap-free, 29 years older than EDGAR**. The FY1965 layer's masthead
+is `THE DAYTON COMPANY ... ANNUAL REPORT 1965` and it narrates the launch in first person plural: *"The
+Company entered the discount merchandising field in 1962 with Target Stores, Inc., which now has five
+stores"* and *"Since the first Target store was opened early in 1962 in Roseville, a suburb north of St.
+Paul"*. The 1999 layer carries the full genealogy (Dayton Dry Goods -> Dayton Corporation -> Dayton Hudson
+1969 -> Target). **Boundary call: Stage 1 is argued for The Dayton Company at FY1965 narrating 1962** --
+"Target 1962" would put the boundary three years before any held document of any family and on the wrong
+registrant, and "1902" would rest Stage 1 on a 1999 marketing timeline. Pre-1965 stays pre-history at
+UNKNOWN. The brief's **"Dey Brothers" premise is unestablished** (0 hits across six founding-era layers),
+and the agent correctly refused to treat EDGAR full-text zeros as nulls because **FTS starts 2001** -- an
+index floor, not an absence. Live and unadjudicable at Tier 1: whether the 1962 founder is Douglas Dayton
+or John F. Geisse, because the company print credits the institution and names no person, ever.
+
+**The tool fix, measured rather than assumed.** Two agents independently reported `ia_text.py search`
+returning one blank document per query. I probed the API directly: `advancedsearch` takes **`rows` as a
+plain scalar** (`rows[]=` is ignored and you silently get one doc) while **`fl[]` requires literal
+brackets** -- `urllib.parse.urlencode` escapes them to `%5B%5D`, the field list is ignored, and every doc
+returns empty. Both failures look identical to "no results found". Verified after the fix: search returns 4
+populated rows of numFound 17, and `fetch` pulled **726,952 B** of `byte-magazine-1977-05` (filename
+quoting also fixed -- IA names routinely contain spaces and were 404ing). This unblocks the periodical
+family for all 40 remaining companies, which is the family that decides tier.
+
+**RD-101b -- the fetch-service pass answered the load-bearing Apple question, and the answer is NO.**
+8,435,424 B retrieved across 10 documents (all over unverified TLS, sidecar-stamped): **no genuine
+Apple-placed 1976 price line exists in held print; `666.66` occurs in zero document bytes**, and the only
+dollar-shaped 666 is Byte Dec-1976's *competitor* anchor. Kilobaud 1976-09/-11 never resolve -- **IA's
+Kilobaud run starts 1977**, so the inherited note "no text layer" was itself wrong in a second way. Tally
+held honestly: 3 NULLs over bytes searched vs 8 UNANSWERED vs 9 UNTRIED groups. Walmart's contested
+supplier percentage prints `29c` at `x_wconf 0` -- a digitisation limit reachable only through page images,
+and it was left UNKNOWN rather than read as "29".
+
+**RD-101c -- `sec_intake.py` throws away `formerNames`.** The Target agent had to fetch the raw
+submissions JSON to learn that the registrant's only former name is `DAYTON HUDSON CORP 1994-12-09 ->
+1999-04-12`. For an entity-genealogy company that field IS the finding, and `resolve` has no name or
+former-name route at all -- which is exactly how Alphabet's probe nearly indexed a mutual fund's filings
+into a computer company's directory. Queued with RD-098 against the file's owner.
+
+**A disclosed rule-4 slip, kept visible:** the fetch agent deleted two 0-byte files it had just created
+from an invented filename. That is its own junk, not corpus evidence, and it reported it unprompted -- the
+correct handling, so recorded as compliance rather than violation.

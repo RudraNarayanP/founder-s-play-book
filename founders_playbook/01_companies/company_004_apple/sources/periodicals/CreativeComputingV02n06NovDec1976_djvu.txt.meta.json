@@ -1,0 +1,9 @@
+{
+ "identifier": "CreativeComputingV02n06NovDec1976",
+ "url": "https://archive.org/download/CreativeComputingV02n06NovDec1976/Creative_Computing_v02n06_Nov-Dec1976_djvu.txt",
+ "fetched": "2026-09-25T19:48:51Z",
+ "bytes": 463891,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

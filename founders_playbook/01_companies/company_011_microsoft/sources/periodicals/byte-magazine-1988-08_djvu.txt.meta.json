@@ -1,0 +1,9 @@
+{
+ "identifier": "byte-magazine-1988-08",
+ "url": "https://archive.org/download/byte-magazine-1988-08/BYTE-1988-08_djvu.txt",
+ "fetched": "2026-09-25T19:57:03Z",
+ "bytes": 1888699,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

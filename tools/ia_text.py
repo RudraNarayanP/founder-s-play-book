@@ -79,8 +79,13 @@ def get(url, tries=3, timeout=90, allow_insecure=False):
 
 def search(q, rows=20, fl=None, allow_insecure=False):
     fl = fl or ["identifier", "title", "year", "collection", "downloads", "mediatype"]
-    url = "%s?%s" % (ADV, urllib.parse.urlencode(
-        {"q": q, "rows[]": rows, "fl[]": fl, "output": "json", "sort[]": "downloads desc"}))
+    # Params are hand-built, not urlencoded. advancedsearch uses TWO different shapes:
+    # `rows` is a plain scalar (rows[]= is ignored and you silently get 1 document), while
+    # `fl[]` needs literal brackets -- urlencode() escapes them to %5B%5D, the field list is
+    # ignored, and every doc comes back empty. Both failures look like "no results found".
+    url = (ADV + "?q=" + urllib.parse.quote(q) + "&output=json&rows=%d" % rows
+           + "".join("&fl[]=" + urllib.parse.quote(f) for f in fl)
+           + "&sort[]=" + urllib.parse.quote("downloads desc"))
     s, body, note = get(url, allow_insecure=allow_insecure)
     if not body:
         return None, note
@@ -118,8 +123,11 @@ def text_layer_names(identifier, allow_insecure=False):
 
 
 def ocr_url(identifier, fname=None):
-    return "https://archive.org/download/%s/%s" % (identifier,
-                                                   fname or "%s_djvu.txt" % identifier)
+    # IA filenames contain spaces constantly ("Byte Magazine v02"); without quoting, the
+    # request 404s on a file that exists.
+    return "https://archive.org/download/%s/%s" % (urllib.parse.quote(identifier),
+                                                   urllib.parse.quote(fname or
+                                                                      "%s_djvu.txt" % identifier))
 
 
 def fetch(company_dir, identifier, max_mb=12, allow_insecure=False):
@@ -157,7 +165,10 @@ def fetch(company_dir, identifier, max_mb=12, allow_insecure=False):
     return path, "ok", len(body)
 
 
-def grep_local(path, pattern, ctx=1):
+GREP_CAP = 200
+
+
+def grep_local(path, pattern, ctx=1, cap=GREP_CAP):
     rx = re.compile(pattern, re.I)
     hits = []
     lines = open(path, encoding="utf-8", errors="replace").read().splitlines()
@@ -166,7 +177,7 @@ def grep_local(path, pattern, ctx=1):
             hits.append({"line": i + 1, "text": ln.strip()[:300],
                          "context": [l.strip()[:300] for l in
                                      lines[max(0, i - ctx):i] + lines[i + 1:i + 1 + ctx]]})
-            if len(hits) >= 40:
+            if len(hits) >= cap:
                 break
     return hits
 
@@ -218,7 +229,7 @@ def main():
             return 1
         hits = grep_local(p, a.pattern or ".", a.ctx)
         print(json.dumps({"path": p, "verdict": classify(hits, os.path.getsize(p)),
-                          "hits": hits[:12]}, indent=1))
+                          "hits": hits[:15]}, indent=1))
         return 0
     if a.mode == "mine":
         results = []

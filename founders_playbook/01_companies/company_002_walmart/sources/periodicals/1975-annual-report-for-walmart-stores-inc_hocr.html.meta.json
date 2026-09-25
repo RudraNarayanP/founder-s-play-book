@@ -1,0 +1,11 @@
+{
+ "identifier": "1975-annual-report-for-walmart-stores-inc",
+ "url": "https://ia600408.us.archive.org/13/items/1975-annual-report-for-walmart-stores-inc_hocr.html",
+ "fetched": "2026-09-25T19:54:12Z",
+ "bytes": 1313302,
+ "metadata_declared_bytes": 1313302,
+ "route": "items-server <server><dir>/<file> -- hOCR: a SECOND independent OCR pass over the same page scans, with word-level x_wconf confidences",
+ "note": "NOT fetched: item .pdf (Image Container PDF) and _text.pdf (page-image PDF) and _jp2.zip (12.8 MB page images) -- image routes, left for a human eye",
+ "transport": "UNVERIFIED TLS (--insecure, stale local CA store) -- re-check before citing at High confidence",
+ "retrieved_by": "fetch-service-1; curl on the metadata-declared server+dir because tools/ia_text.py resolves only *_djvu.txt layers"
+}

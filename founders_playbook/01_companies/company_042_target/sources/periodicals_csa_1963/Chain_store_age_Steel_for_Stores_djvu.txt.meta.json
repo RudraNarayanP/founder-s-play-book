@@ -1,0 +1,16 @@
+{
+ "item": "chain-store-age-steel-for-stores",
+ "file": "Chain store age - Steel for Stores_djvu.txt",
+ "url": "https://archive.org/download/chain-store-age-steel-for-stores/Chain%20store%20age%20-%20Steel%20for%20Stores_djvu.txt",
+ "item_title": "Chain Store Age: Steel For Stores",
+ "item_date": "1963-04",
+ "collection": [
+  "catalogs_inbox",
+  "catalogs"
+ ],
+ "fetched": "2026-09-25T19:50:26Z",
+ "bytes": 170260,
+ "transport": "verified TLS",
+ "route": "download/<item>/<per-file OCR DjVuTXT>",
+ "tool_note": "ia_text.fetch tried this exact filename and reported HTTP 404 because it does not percent-encode the spaces; the layer is present (metadata API file list held at sources/ia_search/meta_chain-store-age.json)"
+}

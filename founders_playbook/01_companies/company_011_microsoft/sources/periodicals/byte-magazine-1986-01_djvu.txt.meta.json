@@ -1,0 +1,9 @@
+{
+ "identifier": "byte-magazine-1986-01",
+ "url": "https://archive.org/download/byte-magazine-1986-01/1986_01_BYTE_11-01_Robotics_djvu.txt",
+ "fetched": "2026-09-25T19:56:57Z",
+ "bytes": 1850712,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

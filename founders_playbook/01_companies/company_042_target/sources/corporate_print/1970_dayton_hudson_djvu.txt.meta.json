@@ -1,0 +1,11 @@
+{
+ "item": "01-target-archive",
+ "file": "1970 - Dayton Hudson Corp (DH)_djvu.txt",
+ "url": "https://archive.org/download/01-target-archive/1970%20-%20Dayton%20Hudson%20Corp%20%28DH%29_djvu.txt",
+ "fetched": "2026-09-25T19:48:12Z",
+ "bytes": 53023,
+ "route": "download/<item>/<per-year DjVuTXT OCR layer> (redirect followed)",
+ "transport": "verified TLS",
+ "note": "per-year file addressed directly; ia_text.fetch() cannot address sub-files of a multi-report item",
+ "label_caveat": "the uploader labels every file Dayton Hudson Corp (DH) regardless of reporting year; the entity named inside must be read"
+}
