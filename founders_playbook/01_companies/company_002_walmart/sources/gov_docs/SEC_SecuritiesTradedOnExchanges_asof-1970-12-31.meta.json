@@ -1,0 +1,21 @@
+{
+ "url": "https://archive.org/download/securitiestraded1970unit/securitiestraded1970unit_djvu.txt",
+ "evidence_file": "117f58117ad37959.txt",
+ "http_status": 200,
+ "content_type": "text/plain; charset=utf-8",
+ "bytes": 941197,
+ "retrieved_at": "2026-09-25T14:20:21Z",
+ "ext": ".txt",
+ "client": "curl -L (direct, no -k)",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)"
+ },
+ "tls_verify": "on (curl default trust store)",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "",
+ "retry_after": "",
+ "note": "",
+ "task": "A5 txt-securities-traded-1970"
+}
