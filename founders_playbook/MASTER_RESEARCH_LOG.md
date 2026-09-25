@@ -1528,3 +1528,41 @@ gained **S30084**. Sibling sweeps with counts, not assurances: "priced 1998-08-1
 100.4 -> 100.3, and $530m was already present in §D.5. Bidirectional correction is the loop working, and the
 gate report is unchanged at 6 findings / 42 passes -- those six are the known pre-existing parity and
 protected-history items, tracked under RD-090/RD-089, not new damage.
+
+### RD-105 -- Stage 2 is NOT-CERTIFIED again, and the reason is the retraction stopped at the narrative
+
+`03_quality_control/amazon_s2_recertification_audit7.md` (6,256 w, second fresh verifier, NOT-CERTIFIED,
+7 blockers). The good news first, because it is real: the primary layer was re-read and the blank field is
+confirmed (S-1 original l.208-209 prints "between / $  and $  per share"), all eleven re-keyed pointers in
+§U.113a are byte-exact, and audit-6's "pointer wrong by 60" claim was itself **wrong** (No. 3 l.1230
+verified). Independence and the 43%/41% version handling **pass** -- `Corroboration: 1 lineage`, no
+averaging anywhere.
+
+The failure is propagation, and it is quantified rather than asserted: **COR-16 appears 3 times in
+`CORRECTIONS.md`, 3 times in the index, once in the log, and ZERO times in `conflicts.csv`, `sources.csv`
+or `quantitative.csv`.** So the register layer still teaches the withdrawn reading:
+- U.113a's conflict row still says the original "states an estimated range" -- the exact claim the primary
+  layer refutes;
+- U.113b still cites l.1243, a line behind the struck `====` rule;
+- `sources.csv` S2009 is still `FACT (audited counterparty)` at High with **no local copy behind it**;
+- the index half-propagated (479 recorded against 482 measured) and **both volume headers still say
+  "70 rows"**, which is the instruction layer teaching a stale count -- RD-059's shape, in my own files.
+
+**`0.194995`: 63 occurrences across 18 files.** Stage 2 is clean; **six Stage-3 sites read and live**, and
+`_parts/s3_p4.md` carries **zero** SUPERSEDED banners -- so §14 rule 5's audit-trail requirement is not
+being met in the intermediates, and the re-certifier's ground check correctly fails on it.
+
+**RD-105b -- a measurement gap in my own gate suite, reported by the auditor rather than found by me.**
+The gate output shifted **170 -> 172 rows mid-run** because a live agent was writing while the auditor was
+measuring. `--self-test` still passed, so the tool was sound and the *measurement* was not. Standing fix:
+`gates.py` should stamp each report with file mtimes/hashes and a run id, so any figure in an audit sheet is
+reproducible and a drift is attributable to a writer rather than to a defect. Until then, an auditor must
+pin its own measurement (copy the inputs, then gate the copy) and say which it did.
+
+**QUEUED, deliberately not applied (register owner is live):** COR-16 propagation into
+`conflicts.csv`/`sources.csv`/`quantitative.csv`, the U.113a row's withdrawn wording, U.113b's struck
+pointer, S2009's confidence downgrade, the 479->482 index count, the two stale "70 rows" volume headers, and
+the six Stage-3 `0.194995` sites. §14 rule 6: a queued edit beats a raced one.
+
+Also verified clean and not to be re-touched: rent->257, 30.813, 0.2548, 14.0500007, ~39.5, the restatement
+set, and the U.114/115 re-key.
