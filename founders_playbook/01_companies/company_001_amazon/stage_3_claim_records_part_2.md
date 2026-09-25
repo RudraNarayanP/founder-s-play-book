@@ -130,8 +130,8 @@ U.168 Claim: **THE RETRACTED 1995 MONEY LEG SURVIVES IN THE INSTRUCTION LAYER: `
 ## Coverage note (both volumes)
 
 **Records on disk, verified by read-back after writing (not from memory).** Volume 1
-`stage_3_claim_records.md` = **627 records, 84,130 words**; volume 2 (this file) = **55 records, ~12,700 words**;
-**total 682 records**, §7 heading order **A → U**, ids continuing Stage 2's sequence and **nothing renumbered**
+`stage_3_claim_records.md` = **627 records, 84,130 words**; volume 2 (this file) = **55 records, 14,968 words**;
+**total 682 records** (99,256 words), §7 heading order **A → U**, ids continuing Stage 2's sequence and **nothing renumbered**
 (method §9.3). Read-back counts by section (`grep -cE "^[A-U][0-9]+ Claim:"` per prefix), volume 1 unless marked
 `(v2)`: **A 26** (A09–A34) · **B 20** (B125–B144) · **C 13** (C41–C53) · **D 20** (D35–D54) · **E 47** (E49–E95) ·
 **F 37** (F42–F78) · **G 65** (G50–G114) · **H 18** (H45–H62) · **I 17** (I36–I52) · **J 22** (J36–J57) ·
@@ -139,7 +139,7 @@ U.168 Claim: **THE RETRACTED 1995 MONEY LEG SURVIVES IN THE INSTRUCTION LAYER: `
 **P 119** (P91–P209: 88 metric rows + 31 arithmetic/correction/negative-list records) · **Q 56** (Q70–Q125) ·
 **R 20** (R26–R45) · **S 24** (S31–S54) · **T 18** (T41–T58) · **U 55 (v2)** (U.114–U.168).
 A duplicate-id scan over all record ids in both files returns **none**. Volume 1 carries a pointer-to-volume-2 line
-in place of a §U block, because its own word count (84,130) is over the 60,000-word threshold that forces the split.
+in place of a §U block, because its own word count (84,288) is over the 60,000-word threshold that forces the split.
 
 **Coverage obligation, met where the record allows it.**
 (i) **§U: 55 of 55 blocks U.114–U.168 recorded, each with both sides, each leg's document and filing date**, and
@@ -182,14 +182,7 @@ because the narrative states them as one strategy/objective pair with the same s
 7. **§J.6's endpoint-sensitivity table prints only two of the four contested candidate closes**
 (1997-12-31 and 1999-06-30). J56 registers those two; **J57's 1999-09-30 / 1999-12-30 rows are this appendix's
 own extension**, marked Conf: Medium and labelled as an extension, and no §J.5 exists in the volume at all.
-8. **Quotation status.** Only four strings were re-read at the cited line by this appendix and they are the only
-ones marked `re-read here` (the four Buschman "yet to be determined" site proposals, checked at
-`sources/10-Q_Q1-1999_acc-0000891020-99-000894_filed-1999-05-17.txt` l.5472, l.7315, l.9174, which also showed
-that the narrative's "Site A/B/C" is the filing's **"Site 1/2/3"** — reported as defect 5 below). Every other
-`Passage:` cell is the narrative's or the dossier's printed string with its line anchor, and the per-section
-standing reading limit in each §E–§T preamble says so; no unmarked cell in those sections is offered as
-verified-by-me. **No record in either volume carries a quotation invented to fill a gap, and no date was written
-where the record has none.**
+8. **Quotation status — what this appendix re-read, and one claim it withdrew.** Five sets of strings were verified at line on this pass and are the only material marked `re-read here`: (a) the three Buschman clauses at `sources/10-Q_Q1-1999_acc-0000891020-99-000894_filed-1999-05-17.txt` l.5473 / l.7316 / l.9175 — the filing's own words are `such proposal shall apply to "Site A" yet to be determined`, `"Site B"`, `"Site C"`, and the narrative's quotation and its line ranges are **correct**; (b) the four redacted-acquisition strings across `sources/` (zero files); (c) the two cash-basis witnesses quoted verbatim at `10-K_FY1999…` l.2867 and `10-K_A_FY1999…` l.1338, exactly as the narrative printed them (G90, P152); (d) presence of the restatement-pair values 147,758 / 147,787, (27,590) / (31,020) and (5,777) / (6,246) in the FY1997, FY1998 and FY1999 annual reports; (e) the October 1998 UK/German launch sentence, found at l.254-261 rather than the l.244-249 anchor the narrative gives (defect 5). **A claim this appendix drafted and then tested against the file is withdrawn here rather than left standing: an earlier draft asserted that the filing reads "SITE 1 / SITE 2 / SITE 3" and that the narrative's "Site A/B/C" was a mis-transcription. That is false — those strings appear nowhere in the corpus and the letters A/B/C are the filing's own.** Every other `Passage:` cell is the narrative's or the dossier's printed string with its line anchor, and each §E–§T preamble's standing reading limit says so; no unmarked cell in those sections is offered as verified by me. **No record in either volume carries a quotation invented to fill a gap, and no date was written where the record has none.**
 9. **`[src: …]` keys are narrative-row and dossier traces, not register joins.** Volume 1's §A–§D block is the
 79 records the narrative drafted under provisional ids A01–A26/B01–B20/C01–C13/D01–D20, mapped here by the
 constant offsets **A +8, B +124, C +40, D +34**; the narrative's own numbering was not edited. Because of RD-078
@@ -226,14 +219,8 @@ will cite it. Recorded at S50.
 4. **The `stage` column carries two grammars across the nine registers** — quantitative.csv 31 `stage3` / 110 `3`;
 timeline.csv 43 / 61; data_gaps.csv 11 / 31; failures.csv and validation.csv `3` against `stage1`/`stage2` for the
 earlier stages. A single-value stage filter silently drops one population. Recorded at S51.
-5. **`stage_3_part_1.md` §G.2 row G17 mis-transcribes the Buschman site labels.** It prints `"Site A" yet to be
-determined` (l.5470-5476), `"Site B"` (l.7313-7319), `"Site C"` (l.9172-9178); the filing reads **"SITE 1"** at
-l.5472, **"SITE 2"** at l.7315 and **"SITE 3"** at l.9174, and **no string "Site A/B/C" or "yet to be determined"
-occurs in `sources/10-Q_Q1-1999_acc-0000891020-99-000894_filed-1999-05-17.txt` at all** (machine-checked on this
-pass). The substance — three contracts for sites not yet located, on one proposal dated 1999-02-05 — stands;
-the quoted lettering does not. Volume 1 records the filing's wording and marks it `re-read here` (G71).
-6. **`stage_3_part_1.md` §F.1's row F12 and the held `channels.csv` row price the April 1998 European set at
-"~$55m aggregate, mostly stock"**, while the filed instrument is **540,066 restricted shares** for three companies
+5. **The line anchors on two citations in `stage_3_part_1.md` do not contain the strings they carry.** §E.1 row E8 cites `sources/8-K_event-1998-10-28_acc-0000891020-98-001498_filed-1998-10-28.txt` at **l.244-249** for the sentence beginning "In October Amazon.com formally entered the European market with the launch of new stores in Germany and the United Kingdom. Amazon.de and Amazon.co.uk replaced sites once operated by Telebook in Germany and Bookpages in the U.K. …", and §G.1 row G10 cites the same file at **l.260-261** for the Slough passage. A machine check on this pass puts the launch sentence at **l.254-261**, so the first anchor as printed misses its own quotation by ten lines; the Slough anchor was not tested and is inherited unverified. **The wording of both quotations is the filing's own, verbatim — only the anchors are off.** Volume 1's E57 was reset to the verified range l.254-261 and says so in the cell; G60 keeps l.260-261 under §G's standing reading limit rather than claiming a check this pass did not run.
+6. **`stage_3_part_1.md` §F.1's row F12 and the held `channels.csv` row price the April 1998 European set at "~$55m aggregate, mostly stock"**, while the filed instrument is **540,066 restricted shares** for three companies
 together and the reference price/date are undisclosed. A derived sum is circulating as a price. Registered as
 **U.163** (E56, E75, P130, Q80).
 7. **`stage_3_part_3.md` §R "Technology" prints technology-and-content as 9.7% → 14.6% → 9.7% of net sales**,
@@ -267,4 +254,3 @@ WarehouseDirect / Warehouse Direct / Internet Mail / IMail set (recorded as `re-
 change the result) — so the other documented-empty claims are inherited with a stale denominator and are marked
 as such wherever they are used.
 
-<!--APPEND-->
