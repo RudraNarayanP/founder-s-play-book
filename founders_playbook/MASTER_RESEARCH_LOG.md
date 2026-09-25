@@ -107,6 +107,33 @@ Statuses: `NOT STARTED` · `DISCOVERY` · `DEEP RESEARCH` · `RECONSTRUCTION` ·
 
 Rows 003+ collapsed for legibility until work opens on them.
 
+### Capacity finding 2026-09-25 — the achieved density is ~6× the reference, and that changes the plan
+
+Measured from disk, not projected from the exemplar:
+
+| What | Words |
+|---|---|
+| Amazon Stage 1 deliverables (narrative 49,545 + claim records 52,549 + context appendices 10,882) | **112,976** |
+| Amazon Stage 2 deliverables (3 volumes 81,129 + claim records 82,595) | **163,724** |
+| Two stages, one company | **276,700** — i.e. **~138,000 words per stage** |
+| Whole corpus on disk (all .md/.csv incl. dossiers, sources, QC sheets) | **1,145,725** |
+
+`00_METHOD_AND_STYLE.md` §9 sized the project at **1.5–2.5M words for 50 companies × 3 stages**, on the
+Airbnb exemplar's measured **~22,500 words per stage**. Amazon has come in at ~6× that. At the achieved
+density a 50-company corpus is **~20M words**, and at observed throughput (roughly one company-stage of
+this depth per day with five-to-eight parallel agents) the run is measured in **months of continuous
+machine time, not weeks**. That is not a reason to cut evidence — §9.6 forbids trimming to fit — but it
+does mean the universe and the density now contradict each other, and the contradiction has to be decided
+openly rather than discovered at company twelve.
+
+The options, with their costs: (1) **tiered depth** — exemplar-plus for a handful of companies chosen for
+analytical value, a defined `forensic-core` tier for the rest, each tier written down as a word-and-section
+budget so the difference is declared, not drift; (2) **uniform Amazon-tier** and accept the elapsed time;
+(3) **cut stages**, e.g. all three stages but with §P/§U at Amazon density and the narrative sections
+tighter. Whichever is chosen belongs in this log before the next company opens, because a per-company
+choice made at dispatch time cannot be undone at audit time.
+
+
 ## 4. Active workstreams — Company 001 Amazon, Stage 1
 
 Stage 1 working boundary (provisional, to be justified by evidence, not assumed):
