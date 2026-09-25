@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22the+facebook%22+%22harvard%22",
+ "evidence_file": "e79dec415cc60deb.json",
+ "http_status": 403,
+ "content_type": "text/html; charset=UTF-8",
+ "bytes": 6077,
+ "retrieved_at": "2026-09-25T19:20:53Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "bot_challenge",
+ "redirect_location": "",
+ "cf_mitigated": "challenge",
+ "cf_ray": "a40c63912b5a59ff-DEL",
+ "retry_after": "",
+ "note": "HTTP 403 Cloudflare bot-management challenge (Cf-Mitigated: challenge, Cf-Ray: a40c63912b5a59ff-DEL). The host answered 'prove you are a browser' and never searched anything: UNANSWERED, not a null, and no parameter change will fix it",
+ "source": "chronicling_america",
+ "query_label": "CA page search \"theFacebook\" OR facebook 2004-2006",
+ "company": "meta",
+ "kind": "search"
+}

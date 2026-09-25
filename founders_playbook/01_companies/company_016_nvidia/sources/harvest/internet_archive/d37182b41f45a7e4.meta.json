@@ -1,0 +1,25 @@
+{
+ "url": "https://archive.org/advancedsearch.php?q=nvidia%20graphics%20AND%20mediatype%3Atexts&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=date&fl%5B%5D=year&fl%5B%5D=mediatype&fl%5B%5D=collection&rows=20&page=1&output=json",
+ "evidence_file": "d37182b41f45a7e4.json",
+ "http_status": 200,
+ "content_type": "application/json",
+ "bytes": 4667,
+ "retrieved_at": "2026-09-25T19:16:11Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "",
+ "retry_after": "",
+ "note": "",
+ "source": "internet_archive",
+ "query_label": "IA texts 'nvidia graphics' 1994-2000 (trade/magazine text mentioning the company)",
+ "company": "nvidia",
+ "kind": "search"
+}

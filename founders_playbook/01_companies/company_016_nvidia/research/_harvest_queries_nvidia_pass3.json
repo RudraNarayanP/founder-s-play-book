@@ -1,0 +1,47 @@
+{
+  "_comment": "Third pass for company_016_nvidia: carries the one Internet-Archive corporate-print hit through to metadata/text availability (family d), and re-scopes periodical search on the magazine collections instead of the generic texts index (family c). probe-nvidia 2026-09-26.",
+  "per_source_caps": {"internet_archive": 6, "corporate_print": 3},
+  "tasks": [
+    {
+      "company": "nvidia",
+      "source_family": "corporate_print",
+      "kind": "metadata",
+      "query_label": "CP text availability: item 01.-nvidia-annual-reports",
+      "window": [1993, 2003],
+      "_note": "identifier copied verbatim from the live advancedsearch 200 response (candidates.csv, retrieved 2026-09-25T19:18:29Z).",
+      "params": {"identifier": "01.-nvidia-annual-reports"}
+    },
+    {
+      "company": "nvidia",
+      "source_family": "internet_archive",
+      "kind": "search",
+      "query_label": "IA magazine collections mentioning nvidia",
+      "window": [1994, 2000],
+      "params": {"q": "nvidia AND (collection:periodicals OR collection:magazine_rack OR collection:computermagazines) AND mediatype:texts", "rows": 30}
+    },
+    {
+      "company": "nvidia",
+      "source_family": "internet_archive",
+      "kind": "search",
+      "query_label": "IA texts 'nvidia riva' (product-era trade press)",
+      "window": [1996, 2000],
+      "params": {"q": "\"nvidia riva\" AND mediatype:texts", "rows": 30}
+    },
+    {
+      "company": "nvidia",
+      "source_family": "internet_archive",
+      "kind": "search",
+      "query_label": "IA texts 'nv1 nvidia' (first product era)",
+      "window": [1995, 1999],
+      "params": {"q": "\"nv1\" nvidia AND mediatype:texts", "rows": 30}
+    },
+    {
+      "company": "nvidia",
+      "source_family": "google_books",
+      "kind": "search",
+      "query_label": "GB 'NV1 nvidia' volumes feed (1995-1999 trade books)",
+      "window": [1994, 2000],
+      "params": {"q": "\"NV1\" nvidia graphics", "max_results": 10, "endpoint": "feeds"}
+    }
+  ]
+}

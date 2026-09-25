@@ -1,0 +1,71 @@
+{
+  "_comment": "Second, narrowed pass for company_016_nvidia: family (d) corporate print re-scoped WITHOUT report_terms (the first pass's report-word conjunction returned numFound 0 and the harvest README warns that over-conjunction is a query defect, not a corpus null), plus IA periodical-collection scoping. probe-nvidia, 2026-09-26.",
+  "per_source_caps": {"internet_archive": 6, "corporate_print": 6},
+  "tasks": [
+    {
+      "company": "nvidia",
+      "source_family": "corporate_print",
+      "kind": "search",
+      "query_label": "CP nvidia title-scoped, NO report terms, 1993-2003",
+      "window": [1993, 2003],
+      "params": {
+        "company_terms": ["nvidia", "\"nvidia corporation\""],
+        "scope_field": "title",
+        "mediatype": "texts",
+        "year_range": [1993, 2003],
+        "rows": 30,
+        "name_patterns": ["nvidia corporation"],
+        "identity_terms": ["inc", "corporation"]
+      }
+    },
+    {
+      "company": "nvidia",
+      "source_family": "corporate_print",
+      "kind": "search",
+      "query_label": "CP nvidia creator-scoped, NO report terms, 1993-2003",
+      "window": [1993, 2003],
+      "params": {
+        "company_terms": ["nvidia", "\"nvidia corporation\""],
+        "scope_field": "creator",
+        "mediatype": "texts",
+        "year_range": [1993, 2003],
+        "rows": 30,
+        "name_patterns": ["nvidia corporation"],
+        "identity_terms": ["inc", "corporation"]
+      }
+    },
+    {
+      "company": "nvidia",
+      "source_family": "corporate_print",
+      "kind": "search",
+      "query_label": "CP nvidia + prospectus/annual anywhere in title, 1990-2005 (window widened)",
+      "window": [1990, 2005],
+      "params": {
+        "company_terms": ["nvidia"],
+        "scope_field": "title",
+        "report_terms": ["annual", "prospectus", "shareholder"],
+        "report_field": "title",
+        "year_range": [1990, 2005],
+        "rows": 30,
+        "name_patterns": ["nvidia corporation"],
+        "identity_terms": ["inc", "corporation"]
+      }
+    },
+    {
+      "company": "nvidia",
+      "source_family": "internet_archive",
+      "kind": "search",
+      "query_label": "IA periodicals collection nvidia",
+      "window": [1994, 2000],
+      "params": {"q": "nvidia AND collection:periodicals AND mediatype:texts", "rows": 30}
+    },
+    {
+      "company": "nvidia",
+      "source_family": "internet_archive",
+      "kind": "search",
+      "query_label": "IA nvidia year 1995-1999 texts (founding-window print)",
+      "window": [1995, 1999],
+      "params": {"q": "nvidia AND year:[1995 TO 1999]", "rows": 30}
+    }
+  ]
+}

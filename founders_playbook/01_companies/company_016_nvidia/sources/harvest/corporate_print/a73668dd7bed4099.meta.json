@@ -1,0 +1,25 @@
+{
+ "url": "https://archive.org/metadata/01.-nvidia-annual-reports",
+ "evidence_file": "a73668dd7bed4099.json",
+ "http_status": 200,
+ "content_type": "application/json",
+ "bytes": 132387,
+ "retrieved_at": "2026-09-25T19:21:20Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "",
+ "retry_after": "",
+ "note": "",
+ "source": "corporate_print",
+ "query_label": "CP text availability: item 01.-nvidia-annual-reports",
+ "company": "nvidia",
+ "kind": "metadata"
+}

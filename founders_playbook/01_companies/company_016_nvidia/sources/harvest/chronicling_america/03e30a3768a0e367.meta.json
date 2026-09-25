@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22Nvidia%22+graphics&date1=1995&date2=1999&dateFilterType=yearRange&sort=date",
+ "evidence_file": "03e30a3768a0e367.json",
+ "http_status": 403,
+ "content_type": "text/html; charset=UTF-8",
+ "bytes": 6339,
+ "retrieved_at": "2026-09-25T19:16:33Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "bot_challenge",
+ "redirect_location": "",
+ "cf_mitigated": "challenge",
+ "cf_ray": "a40c5d37996154e8-DEL",
+ "retry_after": "",
+ "note": "HTTP 403 Cloudflare bot-management challenge (Cf-Mitigated: challenge, Cf-Ray: a40c5d37996154e8-DEL). The host answered 'prove you are a browser' and never searched anything: UNANSWERED, not a null, and no parameter change will fix it",
+ "source": "chronicling_america",
+ "query_label": "CA canary '\"Nvidia\"' 1995-1999 (family reachability with our own terms)",
+ "company": "nvidia",
+ "kind": "search"
+}

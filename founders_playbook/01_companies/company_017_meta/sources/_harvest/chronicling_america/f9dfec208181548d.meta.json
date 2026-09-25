@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=facebook&date1=2004&date2=2006&dateFilterType=year&rows=50",
+ "evidence_file": "f9dfec208181548d.json",
+ "http_status": 403,
+ "content_type": "text/html; charset=UTF-8",
+ "bytes": 6258,
+ "retrieved_at": "2026-09-25T19:21:36Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "bot_challenge",
+ "redirect_location": "",
+ "cf_mitigated": "challenge",
+ "cf_ray": "a40c64a09d085498-DEL",
+ "retry_after": "",
+ "note": "HTTP 403 Cloudflare bot-management challenge (Cf-Mitigated: challenge, Cf-Ray: a40c64a09d085498-DEL). The host answered 'prove you are a browser' and never searched anything: UNANSWERED, not a null, and no parameter change will fix it",
+ "source": "chronicling_america",
+ "query_label": "CA page search facebook 2004-2006 (plain brand, date-bounded)",
+ "company": "meta",
+ "kind": "search"
+}

@@ -1,0 +1,20 @@
+[2026-09-25T19:16:10Z] FETCH  internet_archive / IA texts 'nvidia graphics' 1994-2000 (trade/magazine text mentioning the company)
+[2026-09-25T19:16:11Z] FETCH  internet_archive / IA texts 'nvidia corporation' 1993-2001
+[2026-09-25T19:16:13Z] FETCH  corporate_print / CP nvidia corporate print, title-scoped 1994-2001
+[2026-09-25T19:16:14Z] FETCH  corporate_print / CP nvidia corporate print, creator-scoped 1994-2001
+[2026-09-25T19:16:16Z] FETCH  hathitrust / HT '"Nvidia" graphics' full-text search 1993-2001 window
+[2026-09-25T19:16:31Z] FETCH  google_books / GB '"Nvidia" graphics accelerator' volumes feed
+[2026-09-25T19:16:33Z] FETCH  chronicling_america / CA canary '"Nvidia"' 1995-1999 (family reachability with our own terms)
+[2026-09-25T19:16:33Z] wrote founders_playbook/01_companies/company_016_nvidia/sources/harvest\candidates.csv (55 rows)
+[2026-09-25T19:16:33Z] wrote manifest (7 files)
+
+PER-FAMILY OUTCOMES (this run):
+  chronicling_america    tasks=1   fetched=1   cached=0   skipped=0   http={'403': 1} rows={'UNANSWERED': 1}
+  corporate_print        tasks=2   fetched=2   cached=0   skipped=0   http={'200': 2} rows={'NULL': 2}
+  google_books           tasks=1   fetched=1   cached=0   skipped=0   http={'200': 1} rows={'LEAD_ONLY': 2, 'TIER1_CANDIDATE': 9}
+  hathitrust             tasks=1   fetched=1   cached=0   skipped=0   http={'0': 1} rows={'UNANSWERED': 1}
+  internet_archive       tasks=2   fetched=2   cached=0   skipped=0   http={'200': 2} rows={'LEAD_ONLY': 39, 'TIER1_CANDIDATE': 1}
+
+DONE. network requests: 10 / cap 20   (cache: OFF, so every row below is a live answer from this egress)
+  evidence written: 7 file(s), unchanged: 0, versioned-beside-existing: 0
+candidate rows: 55  {'LEAD_ONLY': 41, 'TIER1_CANDIDATE': 10, 'NULL': 2, 'UNANSWERED': 2}

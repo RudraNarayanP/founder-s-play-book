@@ -1,0 +1,100 @@
+{
+  "_comment": "Probe config for company_017_meta (Facebook, founded per S-1 'incorporated in Delaware in July 2004'). Authored by probe-meta 2026-09-26; mirrors the verified task shapes in tools/queries.json (Walmart exemplars). Windows: 2004-2006 = college-source/press period; 2004-2013 = corporate-print period. Run: python tools/periodical_harvest.py --config <this file> --company meta --out <company>/sources/_harvest",
+  "per_source_caps": {
+    "_note": "Caps >= task counts on purpose (see tools/queries.json per_source_caps note: a cap below the task count writes UNANSWERED rows for tasks never attempted).",
+    "chronicling_america": 4,
+    "hathitrust": 3,
+    "google_books": 3,
+    "internet_archive": 4,
+    "corporate_print": 3
+  },
+  "tasks": [
+    {
+      "company": "meta",
+      "source_family": "chronicling_america",
+      "kind": "titles",
+      "query_label": "CA-CANARY titles Cambridge Massachusetts (reachability probe, 1 request)",
+      "_note": "Directory/catalogue canary, not evidence. 200 => the CA zone stopped challenging scripted clients; 403 + Cf-Mitigated: challenge => family stays UNANSWERED for the whole corpus, never null.",
+      "params": { "terms": "Cambridge" }
+    },
+    {
+      "company": "meta",
+      "source_family": "chronicling_america",
+      "kind": "search",
+      "query_label": "CA page search \"theFacebook\" OR facebook 2004-2006",
+      "window": [2004, 2006],
+      "params": { "andtext": "\"the facebook\" \"harvard\"" }
+    },
+    {
+      "company": "meta",
+      "source_family": "chronicling_america",
+      "kind": "search",
+      "query_label": "CA page search facebook 2004-2006 (plain brand, date-bounded)",
+      "window": [2004, 2006],
+      "params": { "andtext": "facebook", "date1": "2004", "date2": "2006", "dateFilterType": "year", "rows": "50" }
+    },
+    {
+      "company": "meta",
+      "source_family": "hathitrust",
+      "kind": "search",
+      "query_label": "HT \"Facebook\" Harvard 2004-2006",
+      "window": [2004, 2006],
+      "params": { "q1": "\"Facebook\" Harvard" }
+    },
+    {
+      "company": "meta",
+      "source_family": "hathitrust",
+      "kind": "search",
+      "query_label": "HT Zuckerberg Facebook 2004-2008",
+      "window": [2004, 2008],
+      "params": { "q1": "Zuckerberg Facebook" }
+    },
+    {
+      "company": "meta",
+      "source_family": "google_books",
+      "kind": "search",
+      "query_label": "GB \"theFacebook\" / facebook Harvard 2004-2007",
+      "window": [2004, 2007],
+      "params": { "q": "\"theFacebook\" OR \"thefacebook.com\" Facebook Harvard", "max_results": 10, "endpoint": "feeds" }
+    },
+    {
+      "company": "meta",
+      "source_family": "google_books",
+      "kind": "search",
+      "query_label": "GB facebook Winklevoss ConnectU 2004-2010 (litigation-side brand pair)",
+      "window": [2004, 2010],
+      "params": { "q": "\"Winklevoss\" ConnectU Facebook", "max_results": 10, "endpoint": "feeds" }
+    },
+    {
+      "company": "meta",
+      "source_family": "internet_archive",
+      "kind": "search",
+      "query_label": "IA texts facebook 2004-2006",
+      "window": [2004, 2006],
+      "params": { "q": "facebook AND mediatype:texts AND YEAR:[2004 TO 2006]", "rows": 20 }
+    },
+    {
+      "company": "meta",
+      "source_family": "internet_archive",
+      "kind": "search",
+      "query_label": "IA texts facebook annual report 2004-2013",
+      "window": [2004, 2013],
+      "params": { "q": "\"facebook\" \"annual report\" AND mediatype:texts", "rows": 20 }
+    },
+    {
+      "company": "meta",
+      "source_family": "corporate_print",
+      "kind": "search",
+      "query_label": "CP facebook corporate print 2004-2013 (explicit test before any 'paper only' claim)",
+      "window": [2004, 2013],
+      "_note": "Facebook was private 2004-2012, so a numFound=0 here is plausible-but-still-must-be-queried. Tests for printed annual reports / prospectuses / university-program booklets.",
+      "params": {
+        "company_terms": ["facebook", "\"facebook, inc\""],
+        "report_terms": ["annual", "report", "prospectus", "offering"],
+        "mediatype": "texts",
+        "year_range": [2004, 2013],
+        "rows": 20
+      }
+    }
+  ]
+}

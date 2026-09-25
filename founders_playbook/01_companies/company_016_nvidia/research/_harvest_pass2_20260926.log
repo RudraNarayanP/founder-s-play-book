@@ -1,0 +1,15 @@
+[2026-09-25T19:18:27Z] FETCH  corporate_print / CP nvidia title-scoped, NO report terms, 1993-2003
+[2026-09-25T19:18:29Z] FETCH  corporate_print / CP nvidia creator-scoped, NO report terms, 1993-2003
+[2026-09-25T19:18:30Z] FETCH  corporate_print / CP nvidia + prospectus/annual anywhere in title, 1990-2005 (window widened)
+[2026-09-25T19:18:31Z] FETCH  internet_archive / IA periodicals collection nvidia
+[2026-09-25T19:18:34Z] FETCH  internet_archive / IA nvidia year 1995-1999 texts (founding-window print)
+[2026-09-25T19:18:35Z] wrote founders_playbook/01_companies/company_016_nvidia/sources/harvest\candidates.csv (94 rows)
+[2026-09-25T19:18:35Z] wrote manifest (12 files)
+
+PER-FAMILY OUTCOMES (this run):
+  corporate_print        tasks=3   fetched=3   cached=0   skipped=0   http={'200': 3} rows={'TIER1_CANDIDATE': 5, 'LEAD_ONLY': 2}
+  internet_archive       tasks=2   fetched=2   cached=0   skipped=0   http={'200': 2} rows={'LEAD_ONLY': 28, 'TIER1_CANDIDATE': 4}
+
+DONE. network requests: 5 / cap 12   (cache: OFF, so every row below is a live answer from this egress)
+  evidence written: 5 file(s), unchanged: 0, versioned-beside-existing: 0
+candidate rows: 39  {'TIER1_CANDIDATE': 9, 'LEAD_ONLY': 30}

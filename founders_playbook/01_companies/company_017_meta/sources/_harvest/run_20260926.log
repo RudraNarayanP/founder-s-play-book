@@ -1,0 +1,24 @@
+[2026-09-25T19:21:34Z] FETCH  chronicling_america / CA-CANARY titles Cambridge Massachusetts (reachability probe, 1 request)
+[2026-09-25T19:21:34Z] FETCH  chronicling_america / CA page search "theFacebook" OR facebook 2004-2006
+[2026-09-25T19:21:35Z] FETCH  chronicling_america / CA page search facebook 2004-2006 (plain brand, date-bounded)
+[2026-09-25T19:21:36Z] FETCH  hathitrust / HT "Facebook" Harvard 2004-2006
+[2026-09-25T19:21:52Z] FETCH  hathitrust / HT Zuckerberg Facebook 2004-2008
+[2026-09-25T19:22:07Z] FETCH  google_books / GB "theFacebook" / facebook Harvard 2004-2007
+[2026-09-25T19:22:09Z] FETCH  google_books / GB facebook Winklevoss ConnectU 2004-2010 (litigation-side brand pair)
+[2026-09-25T19:22:11Z] FETCH  internet_archive / IA texts facebook 2004-2006
+[2026-09-25T19:22:11Z] FETCH  internet_archive / IA texts facebook annual report 2004-2013
+[2026-09-25T19:22:11Z] FETCH  corporate_print / CP facebook corporate print 2004-2013 (explicit test before any 'paper only' claim)
+[2026-09-25T19:22:11Z] wrote founders_playbook/01_companies/company_017_meta/sources/_harvest\candidates.csv (30 rows)
+[2026-09-25T19:22:11Z] wrote manifest (9 files)
+
+PER-FAMILY OUTCOMES (this run):
+  chronicling_america    tasks=3   fetched=3   cached=0   skipped=0   http={'403': 3} rows={'UNANSWERED': 3}
+  corporate_print        tasks=1   fetched=0   cached=0   skipped=1   http=- rows={'UNANSWERED': 1}
+  google_books           tasks=2   fetched=2   cached=0   skipped=0   http={'200': 2} rows={'LEAD_ONLY': 11, 'TIER1_CANDIDATE': 11}
+  hathitrust             tasks=2   fetched=2   cached=0   skipped=0   http={'0': 2} rows={'UNANSWERED': 2}
+  internet_archive       tasks=2   fetched=0   cached=0   skipped=2   http=- rows={'UNANSWERED': 2}
+  UNQUERIED THIS RUN (recorded UNANSWERED, NOT null): corporate_print, internet_archive
+
+DONE. network requests: 13 / cap 25   (cache: OFF, so every row below is a live answer from this egress)
+  evidence written: 7 file(s), unchanged: 0, versioned-beside-existing: 2
+candidate rows: 30  {'UNANSWERED': 8, 'LEAD_ONLY': 11, 'TIER1_CANDIDATE': 11}

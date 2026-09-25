@@ -1,0 +1,85 @@
+{
+  "_comment": "Probe-scoped harvest config for company_016_nvidia (probe-nvidia, 2026-09-26). Kept beside the dossier instead of editing tools/queries.json, which is a shared file. Run: python tools/periodical_harvest.py --config <this file> --out <company>/sources/harvest",
+  "per_source_caps": {
+    "chronicling_america": 2,
+    "internet_archive": 10,
+    "corporate_print": 6,
+    "hathitrust": 2,
+    "google_books": 2
+  },
+  "tasks": [
+    {
+      "company": "nvidia",
+      "source_family": "internet_archive",
+      "kind": "search",
+      "query_label": "IA texts 'nvidia graphics' 1994-2000 (trade/magazine text mentioning the company)",
+      "window": [1994, 2000],
+      "params": {"q": "nvidia graphics AND mediatype:texts", "rows": 20}
+    },
+    {
+      "company": "nvidia",
+      "source_family": "internet_archive",
+      "kind": "search",
+      "query_label": "IA texts 'nvidia corporation' 1993-2001",
+      "window": [1993, 2001],
+      "params": {"q": "\"nvidia corporation\" AND mediatype:texts", "rows": 20}
+    },
+    {
+      "company": "nvidia",
+      "source_family": "corporate_print",
+      "kind": "search",
+      "query_label": "CP nvidia corporate print, title-scoped 1994-2001",
+      "window": [1994, 2001],
+      "params": {
+        "company_terms": ["nvidia", "\"nvidia corporation\"", "\"nvidia corp\""],
+        "report_terms": ["annual", "report", "reports", "shareholder", "stockholder", "prospectus"],
+        "mediatype": "texts",
+        "year_range": [1994, 2001],
+        "rows": 30,
+        "name_patterns": ["nvidia corporation", "nvidia corp"],
+        "identity_terms": ["inc", "corporation", "company"]
+      }
+    },
+    {
+      "company": "nvidia",
+      "source_family": "corporate_print",
+      "kind": "search",
+      "query_label": "CP nvidia corporate print, creator-scoped 1994-2001",
+      "window": [1994, 2001],
+      "params": {
+        "company_terms": ["nvidia", "\"nvidia corporation\""],
+        "scope_field": "creator",
+        "report_terms": ["annual", "report", "reports", "shareholder", "prospectus"],
+        "mediatype": "texts",
+        "year_range": [1994, 2001],
+        "rows": 30,
+        "name_patterns": ["nvidia corporation"],
+        "identity_terms": ["inc", "corporation"]
+      }
+    },
+    {
+      "company": "nvidia",
+      "source_family": "hathitrust",
+      "kind": "search",
+      "query_label": "HT '\"Nvidia\" graphics' full-text search 1993-2001 window",
+      "window": [1993, 2001],
+      "params": {"q1": "\"Nvidia\" graphics Santa Clara"}
+    },
+    {
+      "company": "nvidia",
+      "source_family": "google_books",
+      "kind": "search",
+      "query_label": "GB '\"Nvidia\" graphics accelerator' volumes feed",
+      "window": [1994, 2002],
+      "params": {"q": "\"Nvidia\" graphics accelerator", "max_results": 10, "endpoint": "feeds"}
+    },
+    {
+      "company": "nvidia",
+      "source_family": "chronicling_america",
+      "kind": "search",
+      "query_label": "CA canary '\"Nvidia\"' 1995-1999 (family reachability with our own terms)",
+      "window": [1995, 1999],
+      "params": {"andtext": "\"Nvidia\" graphics", "date1": "1995", "date2": "1999", "dateFilterType": "yearRange", "sort": "date"}
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+ "url": "https://babel.hathitrust.org/cgi/ls?field1=ocr;q1=%22Facebook%22%20Harvard;a=srchls;lmt=ft",
+ "evidence_file": "768c9affe7127a28.html",
+ "http_status": 0,
+ "content_type": "",
+ "bytes": 0,
+ "retrieved_at": "2026-09-25T19:21:52Z",
+ "ext": ".html",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "text/html,application/xhtml+xml,application/json;q=0.8,*/*;q=0.7"
+ },
+ "tls_verify": "on",
+ "error_class": "tls_trust",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "",
+ "retry_after": "",
+ "note": "CLIENT-SIDE TLS TRUST FAILURE (URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)>). The endpoint was never answered: NOT an empty catalogue and NOT a bot-block. Re-run with --insecure-hosts babel.hathitrust.org to prove the route, or from a box whose CA bundle matches this clock",
+ "source": "hathitrust",
+ "query_label": "HT \"Facebook\" Harvard 2004-2006",
+ "company": "meta",
+ "kind": "search"
+}
