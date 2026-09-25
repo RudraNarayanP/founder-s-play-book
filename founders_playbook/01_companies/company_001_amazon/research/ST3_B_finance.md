@@ -185,9 +185,68 @@ position. — Date: 1998-02-17 / 1998-02-13 — Tier: 1 — Class: FACT (that it
 be aggregated with the Bezos row without checking each form's own Item 3/4 attribution for shared
 beneficial ownership.
 
----
+**ST3B-15** — A **third stock split** is inside the Stage-3 window and **no 8-K announces it**: a
+**two-for-one split effected 1999-09-01 to stockholders of record 1999-08-12**, in the form of a stock
+dividend. It is known only from the Q3 1999 10-Q's own recital (L656-661) and its cover note
+("after adjusting for the three-for-one stock split paid on January 4, 1999 and the **two-for-one stock split
+paid on September 1, 1999**", L123-124). — Date: 1999-09-01 — Tier: 1 — Class: FACT —
+**Basis: CONTEMPORANEOUS** — Conf: High — Corroboration: 1 lineage — Conflicts: none, but it explains the
+share-count discontinuity that otherwise looks like an error (see `## Contradictions` C-4). **The
+1997→1999 cumulative split factor inside Stage 3 is therefore 2 × 3 × 2 = 12×, not 6×.**
 
-## Audited series
+**ST3B-16** — **Note 12 of the FY1998 10-K is the only quarterly basis that foots to the audited annual
+lines, for both years.** Its 1998 quarters sum exactly to audited FY1998 net sales (609,996), gross profit
+(133,841) and net loss (124,546); its 1997 quarters sum exactly to the **restated** FY1997 values
+(147,787 / 28,818 / 31,020), not to what 1997 filed. — Date: 1999-03-05 — Tier: 1 — Class: FACT + DERIVED —
+Conf: High — Corroboration: 1 lineage.
+
+**ST3B-17** — **The whole FY1997 net-sales restatement (+$29 thousand) landed in the fourth quarter of
+1997**: the FY1997 10-K's own quarterly table gives Q4 1997 net sales of **$66,011** (summing with
+16,005 + 27,855 + 37,887 to the as-filed 147,758), while Note 12 gives **$66,040** (summing to the restated
+147,787). PlanetAll's entire 1997 contribution to consolidated sales, as recast, was $29 thousand in Q4. —
+Date: 1997-12-31 — Tier: 1 — Class: FACT + DERIVED — **Basis: Q4 1997 has no contemporaneous quarterly
+filing in either vintage** — Conf: High.
+
+**ST3B-18** — **The reported income-statement structure changed between 1998 and 1999.** The 1999 quarterly
+statements carry **two operating-expense lines that did not exist in 1998** — "Merger, acquisition and
+investment related costs, including amortization of intangibles and equity in losses of affiliates" and
+"**Stock-based compensation**", the latter $11,789 thousand in Q3 1999 and $16,570 thousand for the nine
+months — and a new "Other income, net" line. The 1999 note explains that stock-based compensation "is
+comprised of the portion of **acquisition-related consideration conditioned on the continued tenure of key
+employees**, which must be classified as compensation expense rather than as a component of purchase
+[payment]" and that up to **$52.7 million** of the 1999 acquisitions "may be recorded as compensation
+expense … recognized as expense over a period of 12-36 months". — Date: 1999-09-30 — Tier: 1 —
+Class: FACT — **Basis: CONTEMPORANEOUS for 1999** — Conf: High — Corroboration: 1 lineage.
+**Consequence for the series: FY1998's four expense lines and 1999's six are not one series, and a
+"total operating expenses" growth rate run across the boundary compares different aggregates.**
+
+**ST3B-19** — **The company published a second, non-GAAP loss alongside the GAAP loss from Q4 1998 onward**
+("pro forma" in the releases; "excluding merger and acquisition, investment and stock-based compensation
+costs" in the 1999 10-Qs), and the two diverge enormously. Q3 1999: **GAAP net loss $197 million, $(0.59)
+per share**, versus **pro forma net loss $86 million, $(0.26)**, with GAAP including "$111 million of
+merger-, acquisition-, investment-related costs, and stock-based compensation charges". The 10-Q states the
+pro forma "are presented for informational purposes and are **not presented in accordance with generally
+accepted accounting principles**". — Date: 1999-10-28 — Tier: 1 — Class: FACT (that both were published);
+the pro forma figures themselves are **company-stated, unaudited basis** — Conf: High as to publication —
+Corroboration: 1 lineage. **Every Stage-3 margin statement must say which of the two it is using.**
+
+**ST3B-20** — **The FY1998 10-K prints advertising expense — $60.2 million (1998), $21.2 million (1997),
+$3.4 million (1996) — and no Form 10-Q in the window prints it at all.** The one unit-level contribution
+proxy the corpus supports is therefore **annual only, and stops at 1998.** — Date: 1999-03-05 — Tier: 1 —
+Class: FACT + NEGATIVE RESULT — Conf: High.
+
+**ST3B-21** — **Capital expenditure, not the loss, is where the 1999 money went.** Purchases of fixed assets
+were **$181,859 thousand in the nine months to 1999-09-30** against **$18,779 thousand** in the nine months to
+1999-09-30 — 1998's same period — and $28,333 thousand in **all** of FY1998. Net cash used in investing
+activities was $937,995 thousand for 9M 1999. — Date: 1999-09-30 — Tier: 1 — Class: FACT (unaudited
+interim, as filed) — **Basis: CONTEMPORANEOUS** — Conf: High — Corroboration: 1 lineage.
+
+**ST3B-22** — **Accumulated deficit at 1999-09-30: $(558,815) thousand**, against $(162,060) thousand at
+1998-12-31, on stockholders' equity of $419,925 thousand — the equity line grew because additional paid-in
+capital went from $298,537 thousand to **$1,027,655 thousand**, i.e. the raises, not the earnings. — Date:
+1999-09-30 — Tier: 1 — Class: FACT — **Basis: CONTEMPORANEOUS** — Conf: High.
+
+---
 
 ### S0. What "audited" means here, and the one restatement that moves every 1995-1997 number
 
@@ -543,15 +602,334 @@ assets acquired under financing agreement $3,021 (1997).
 
 ## Unit economics: knowable and not knowable
 
-_TO be populated._
+**The question the whole project turns on, restated for Stage 3:** *what could anyone inside the building
+see, quarter by quarter, about whether this scaled?* Not "was it scaling" — that is hindsight — but which
+quantities were observable, on what basis, and with which denominators missing.
+
+Stage 2 found **fourteen money claims that remain UNKNOWN**, among them GMV, take rate, CAC, LTV and the
+Associates Program's economics. **This pass does not answer them.** It ran the searches; here is what came
+back.
+
+### U1. Never printed anywhere in the post-IPO record (searched, with results)
+
+| Claim | Status in Stage 3 | What was searched |
+|---|---|---|
+| **Gross merchandise value / bookings** | **UNKNOWN.** `grep "gross merchandise\|GMV"` over all 95 source files returns **zero hits.** | whole corpus |
+| **Take rate on third-party selling** | **UNKNOWN, and structurally unknowable from the filings.** From Q2 1999 the company states that net sales "*include auctions revenue, which is comprised of placement fees and sales commissions on closed auctions*" (L853-854) and from Q3 1999 "*commissions from auctions and zShops transactions, which includes placement fees, sales commissions and fees from payment service transactions*" (L863-865). **A revenue line that mixes first-party merchandise sales, shipping and handling, and third-party commissions cannot yield a take rate at all** — there is no numerator, no denominator, and no separation. Worse: **the meaning of "net sales" changed inside the window**, so Q3 1999's $355,777k and Q2 1997's $27,855k are not the same kind of number. | all four 1999 10-Qs, FY1998 10-K |
+| **Customer acquisition cost (CAC)** | **UNKNOWN.** No order count, no new-customer count per period (only *cumulative* accounts), no attribution of advertising to acquisition rather than branding. Advertising expense is printed **only annually** ($60.2M / $21.2M / $3.4M) and **in no 10-Q**, so a quarterly CAC has neither numerator nor denominator. | all 8 10-Qs, both 10-Ks |
+| **Lifetime value (LTV)** | **UNKNOWN**, and the ratio Stage 2 used as the closest available proxy — cumulative revenue ÷ cumulative accounts — is expressly flagged there as "mixing a flow with a stock … do not use it as an LTV proxy" (S2B-66). Nothing in Stage 3 improves it; the account base is still cumulative and undefined. | — |
+| **Associates Program economics** | **UNKNOWN, with one number.** The FY1998 10-K prints exactly one Associates figure: "Approximately **200,000 Web sites** have enrolled in the Associates Program" and names Yahoo!, AOL, Excite, Netscape, GeoCities, Microsoft and AltaVista as associates (L383-389). **No fee paid, no fee received, no revenue attributed to the channel, no order volume through it appears in any filing in the window.** The programme's economics are unquantified at both ends. | FY1998 10-K; all 10-Qs |
+| **Order count / orders per customer / average order value** | **UNKNOWN.** The only order statements in the whole window are *shares* of orders: "over 60% of orders placed … during the fiscal year ended December 31, 1998", "more than 64 percent" for Q4 1998, "66% of the orders placed during the quarter ended March 31, 1999". **A percentage of an undisclosed total.** Any per-order figure anywhere in this dataset is therefore **not filing-derived.** | both 10-Ks, all 10-Qs, all 8-Ks |
+| **Category revenue split (books / music / video / etc.)** | **UNKNOWN as an annual audited line.** The only category number in the record is a **company press-release assertion**: online music "SALES OF $14.4 MILLION" in Q3 1998 (8-K of 1998-10-28). It is unaudited, unreconciled to the 10-Q, and appears nowhere else. | FY1998 10-K, Q3 1998 10-Q, 8-Ks |
+| **Fulfilment cost per order; cost of operating the DCs separately** | **UNKNOWN by construction.** The FY1998 10-K repeats the FY1997 definition: "**All fulfillment costs not included in cost of sales, including the cost of operating and staffing distribution centers and customer service, are included in marketing and sales**" (L1390-1392). Fulfilment, advertising, PR and selling share one line. | both 10-Ks |
+| **Rental cost of the DC estate separately from marketing** | **UNKNOWN.** The FY1998 commitments table presents one combined column titled "**OPERATING LEASES AND MARKETING AGREEMENTS**" totalling $134,829k of future minimum payments (L2853) — **the estate's forward cost is not separable from marketing fixed fees in the filed disclosure.** The only separable line is total rental expense: **$8.5 million (1998), $2.1 million (1997), $270,000 (1996)**. | FY1998 10-K Note 6 |
+| **Traffic / visits / conversion** | **UNKNOWN post-IPO.** The pre-IPO S-1 gave visits-per-day; **no 10-Q or 10-K in the window gives a visit or conversion figure at all.** The disclosure stopped. | all periodic filings |
+| **Return rate in amount** | **UNKNOWN.** "the Company's reserve for sales returns … has been insignificant" (FY1998 10-K L2454-2455). | — |
+| **Q4 1999 and FY1999 audited annual figures** | **UNKNOWN / EMPTY** — the FY1999 Form 10-K is **not on disk** and is not in the enumerated EDGAR slice (which ends 2000-01-04). See `## Data gaps`. | — |
+
+### U2. What *was* knowable, quarter by quarter — and the four things that actually indicated scaling
+
+Anyone inside could see, on a filed basis each quarter: **net sales, gross profit, three expense lines, a
+loss, a share count, inventories, accounts payable, cash and securities** — plus, from management's own MD&A
+sentences, **cumulative customer accounts** and (from 1999) **a foreign-sales percentage**.
+
+**(a) Gross margin per quarter (DERIVED: gross profit ÷ net sales, both filed in the same table).** All
+inputs are filed; the quotients are not printed and are marked DERIVED.
+
+| Quarter | Gross profit | Net sales | Gross margin | vs prior quarter |
+|---|---|---|---|---|
+| Q2 1997 (as filed) | 5,222 | 27,855 | 18.7% | — |
+| Q3 1997 (as filed) | 7,178 | 37,887 | 18.9% | +0.2 pt |
+| Q4 1997 (Note 12) | 12,913 | 66,040 | 19.6% | +0.6 pt |
+| Q1 1998 (Note 12) | 19,333 | 87,395 | 22.1% | +2.5 pt |
+| Q2 1998 (Note 12) | 26,216 | 116,010 | 22.6% | +0.5 pt |
+| Q3 1998 (Note 12) | 34,875 | 153,698 | 22.7% | +0.1 pt |
+| Q4 1998 (Note 12) | 53,417 | 252,893 | 21.1% | −1.6 pt |
+| Q1 1999 (10-Q) | 64,791 | 293,643 | 22.1% | — |
+| Q2 1999 (10-Q) | 67,531 | 314,377 | 21.5% | −0.6 pt |
+| Q3 1999 (10-Q) | 70,477 | 355,777 | 19.8% | −1.7 pt |
+| Q4 1999 | **UNKNOWN** | **UNKNOWN** | **UNKNOWN** | — |
+
+**The annual printed figures corroborate the shape**: the FY1998 10-K prints gross margin **21.9% (1998) /
+19.5% (1997) / 22.0% (1996)** (L1340) — i.e. the company's own filed statement is that margin *recovered* in
+1998 after the 1997 pricing cut, then began falling again as music, video and (1999) toys and electronics
+mixed in. The 10-K's own causal sentence: music and video "gross margins are lower than book gross margins"
+and "to the extent music and video become a larger portion of the Company's product mix, it is expected to
+have a proportionate impact on overall product gross margin" (L1370-1373). **Q3 1999's 19.8% is that
+warning arriving on the face of the numbers.**
+
+**(b) The one contribution figure the filings support, extended by Stage 3.** Gross profit less advertising
+expense — both printed, though at different frequencies. **This is per dollar of revenue, NOT per order, and
+it excludes fulfilment labour, product development, G&A and processing** (the same caveat Stage 2 attached;
+it is not upgraded here).
+
+- FY1996: `3,459 − 3,400 = +59` → **0.4%** of net sales (advertising from the FY1997 10-K's own note).
+- FY1997: `28,813 − 21,200 = +7,613` → **5.2%** (as filed).
+- FY1998: `133,841 − 60,200 = +73,641` → **12.1%** (DERIVED; both inputs filed — gross profit audited,
+  advertising expense $60.2 million from FY1998 10-K L2459-2460, stated in rounded millions so the quotient
+  is stated only to one decimal).
+- **1999: UNCOMPUTABLE.** No 10-Q in the window prints advertising expense. **The single most useful unit
+  proxy Stage 2 built becomes unavailable exactly when Stage 3's growth years begin — and that is a
+  disclosure fact about 1999, not a gap in this research.**
+
+**(c) Marketing efficiency, the ratio the filings do let you build.** Net sales per dollar of advertising
+(DERIVED, both inputs filed): FY1996 `15,746 ÷ 3,400 = 4.6×`; FY1997 `147,758 ÷ 21,200 = 7.0×`; **FY1998
+`609,996 ÷ 60,200 = 10.1×`**. Each dollar of advertising was attached to more than twice the revenue in 1998
+that it was two years earlier. **What this demonstrates:** the branding spend was becoming a lower share of
+each incremental sale. **What it does not demonstrate:** that the marginal customer was profitable — the
+advertising-to-acquisition share is unknown, and fulfilment and processing costs sit in the same
+"marketing and sales" line it would need to be compared against.
+
+**(d) The fact that most contemporaneous readers missed and the record states plainly: operating cash flow
+turned positive in FY1998 while the reported loss quadrupled.**
+`Net cash provided by operating activities = $31,035k` (FY1998) against `$(2,010)k` (FY1996) and `$687k`
+(FY1997), while the net loss went from $(27,590) as filed for 1997 to $(124,546) for 1998. The audited
+reconciliation shows why: **accounts payable +78,674**, other liabilities and accrued expenses +21,448,
+accrued advertising +9,617, against inventories −20,513 and prepaid −16,465; plus non-cash add-backs of
+**47,065** (merger/amortisation), **23,970** (non-cash interest) and **9,692** (D&A). **The working-capital
+float from suppliers, not trading profitability, produced the positive operating cash figure** — and the
+company's own MD&A says exactly that: operating cash flow "was primarily attributable to increases in
+accounts payable, other liabilities and accrued expenses, accrued advertising and non-cash expenses, largely
+offset by the net loss and increases in inventories" (L1621-1625).
+
+**What that could and could not show.** It could show a manager, in March 1999, that the business was
+**self-funding in working-capital terms at 610 million of sales** — that is a real scaling signal on a filed
+basis. It could **not** show that a single order contributed positively: no order count, no fulfilment cost,
+no processing cost, no category split. **Those two statements are both true of the same quarter and only the
+first was visible in the filing.**
+
+### U3. Ratements that must not be re-attempted downstream
+
+Two project rules bind this section. First, **a ratio with an unfiled denominator retracts to UNKNOWN** —
+this is how the Stage-1 `$871,000` figure and its `2,613,000` base died, and it is why there is no revenue
+per order, no contribution per order, and no take rate above. Second, **precision is never manufactured**:
+"$60.2 million" stays `$60.2 million`, not `60,200 thousand` reconstructed as if it were a statement line;
+"approximately 33%" stays `~33%`; "approximately 2,100 employees" stays `~2,100`. Where a derived row uses a
+rounded input, the derived row says so and stops at one decimal.
+
+**The knowability verdict for Stage 3, in one paragraph.** What anyone inside the building could see
+quarter by quarter was: **sales, gross margin, three expense buckets, a loss, and a supplier-financed
+working-capital position — and nothing at unit level whatsoever.** The company printed no order counts, no
+GMV, no take rate, no CAC, no category split, and (after 1997) no traffic. Its "scaling" evidence available
+in real time was therefore **ratio evidence at the aggregate level** — margin recovery, expense lines falling
+as a share of sales, marketing efficiency rising, payables growing faster than cost of sales — combined with
+**operating statistics the company itself defined and never had audited**: cumulative accounts, repeat-order
+percentages, and country counts. **The honest answer to "could they tell it scaled?" is: they could tell
+revenue scaled, they could tell it consumed less cash than the loss implied, and they could not tell whether
+a customer was worth acquiring.**
+
+## Metrics
+
+**All rows tagged. `DERIVED` rows print their arithmetic in-cell; `UNKNOWN` rows name the missing
+denominator.** Printed percentages from the filings are labelled **AS PRINTED** and are not "derived" here.
+
+| # | Metric | Period | Value | Class | Arithmetic / source |
+|---|---|---|---|---|---|
+| M-01 | Net sales growth | FY1998 vs FY1997 | **313%** | AS PRINTED (10-K FY1998 L1309) | company's own table; check `609,996 ÷ 147,787 = 4.128` → +313% ✓ |
+| M-02 | Net sales growth | FY1997 vs FY1996 | **839%** in the FY1998 10-K; **838%** in the FY1997 10-K MD&A and the 1997 ARS letter | AS PRINTED, **in conflict** | `147,787 ÷ 15,746 = 9.386` → +839%; `147,758 ÷ 15,746 = 9.384` → +838%. Both are right on their own basis — see `## Contradictions` C-2 |
+| M-03 | Gross margin | FY1996 / FY1997 / FY1998 | **22.0% / 19.5% / 21.9%** | AS PRINTED (L1340) | audited numerators and denominators in the same table |
+| M-04 | Marketing & sales as % of net sales | FY1996 / 97 / 98 | **38.7% / 27.4% / 21.8%** | AS PRINTED (L1384) | — |
+| M-05 | Product development as % of net sales | FY1996 / 97 / 98 | **15.2% / 9.4% / 7.7%** | AS PRINTED (L1418) | — |
+| M-06 | G&A as % of net sales | FY1996 / 97 / 98 | **9.0% / 4.7% / 2.6%** | AS PRINTED (L1455) | — |
+| M-07 | Merger & acquisition costs as % of net sales | FY1998 | **8.2%** ("approximately $50.2 million or 8.2% of net sales") | AS PRINTED (L1478) | — |
+| M-08 | Operating loss as % of net sales | FY1998 | **−18.4%** | DERIVED | `111,960 ÷ 609,996 = 0.1836` |
+| M-09 | Net loss as % of net sales | FY1998 | **−20.4%** | DERIVED | `124,546 ÷ 609,996 = 0.2042` |
+| M-10 | Same, FY1997 | FY1997 | **−18.7%** (as filed) / **−21.0%** (restated) | DERIVED | `27,590 ÷ 147,758 = 0.1867`; `31,020 ÷ 147,787 = 0.2099`. **Two defensible answers depending on basis; both given** |
+| M-11 | Days payable outstanding | FY1998 | **86.8 days** | DERIVED | `113,273 ÷ (476,155 ÷ 365) = 86.8`. Inputs audited |
+| M-12 | Days payable outstanding | FY1997 | **101.2 days** restated / **100.3 days** as filed | DERIVED | `33,027 ÷ (118,969 ÷ 365) = 101.3`; `32,697 ÷ (118,945 ÷ 365) = 100.3`. **Payable days FELL 14-15 points in 1998** — the supplier float tightened as a share of purchases even as it grew in dollars |
+| M-13 | Inventory turns (cost of sales ÷ **average** inventories) | FY1998 | **24.8×** | DERIVED | `476,155 ÷ ((8,971 + 29,501) ÷ 2 = 19,236) = 24.75`. Average of two filed year-end balances |
+| M-14 | Inventory turns (cost of sales ÷ **year-end** inventories) | FY1998 | **16.1×** | DERIVED | `476,155 ÷ 29,501 = 16.14`. Both variants given because the Q4 stocking peak makes the choice material |
+| M-15 | Inventories as % of net sales | FY1997 / FY1998 / 9m-1999 | **6.1% / 4.8% / 12.3%** | DERIVED | `8,971 ÷ 147,787 = 6.1%`; `29,501 ÷ 609,996 = 4.8%`; `118,793 ÷ 963,797 = 12.3%` — **the 1999 figure is a pre-holiday build** (the Q3 1999 10-Q says purchases in advance of holiday sales affected gross profit) |
+| M-16 | Capital expenditure (purchases of fixed assets) | FY1996 / 97 / 98 | **$1,335k / $7,603k / $28,333k** | FACT (audited cash-flow line, L2251) | — |
+| M-17 | Capex as % of net sales | FY1998 | **4.6%** | DERIVED | `28,333 ÷ 609,996 = 4.64%` |
+| M-18 | Capex per year-end employee | FY1998 | **~$13.5 thousand** | DERIVED, **weak** | `28,333 ÷ 2,100 ≈ 13.5`. Denominator is printed as "**approximately** 2,100", so the quotient is stated to one decimal only and is directional |
+| M-19 | Net sales per year-end employee | FY1997 | **$240.6 thousand** | DERIVED | `147,758 ÷ 614 = 240.6` (as filed; 614 full-time employees at 12/31/1997, filed) |
+| M-20 | Net sales per year-end employee | FY1998 | **~$290 thousand** | DERIVED | `609,996 ÷ ~2,100 ≈ 290`. **Flow ÷ point-in-time stock; directional only.** FY1999: **UNKNOWN — no employee count on disk** (the FY1999 10-K is absent) |
+| M-21 | Sales per dollar of advertising | FY1996 / 97 / 98 | **4.6× / 7.0× / 10.1×** | DERIVED | `15,746 ÷ 3,400`; `147,758 ÷ 21,200`; `609,996 ÷ 60,200`. **FY1999 UNKNOWN: no 10-Q prints advertising expense** |
+| M-22 | Contribution per $1 of net sales (gross profit less advertising) | FY1996 / 97 / 98 | **+$0.004 / +$0.052 / +$0.121** | DERIVED, **definitional judgement — Medium** | see U2(b). **Excludes fulfilment, product development, G&A, processing. Not a unit margin** |
+| M-23 | Operating cash flow | FY1996 / 97 / 98 | **$(2,010)k / $687k / $31,035k** | FACT (audited) | — |
+| M-24 | Operating cash flow minus net loss | FY1998 | **+$155,581k** | DERIVED | `31,035 − (−124,546) = 155,581`. The size of the accrual/cash wedge in the year — payables, non-cash amortisation and accreted interest |
+| M-25 | Cash + marketable securities | each year-end | FY1996 **$6,248k**; FY1997 **$125,066k** as filed / **$125,375k** restated; FY1998 **$373,445k** ("$373.4 million of cash and marketable securities", L1645); 1999-03-31 **$1,442,965k**; 1999-06-30 **$1,144,237k**; 1999-09-30 **$905,685k** | FACT + DERIVED (sum of two filed lines) | 1997 reconciliation in §Q3. **FY1999-12-31 UNKNOWN** |
+| M-26 | Cash+securities ÷ quarterly net sales (months of runway at one quarter's sales, NOT at burn) | 1999-03-31 | **4.9 quarters of sales** | DERIVED, **deliberately not a runway** | `1,442,965 ÷ 293,643 = 4.92`. A true runway needs a cash-burn figure the filings do not give quarterly → **burn per quarter is UNKNOWN** |
+| M-27 | Total securities issued for acquisitions | FY1998 | **$217,241k** | FACT (audited supplemental non-cash line) | — |
+| M-28 | Option overhang | 1998-12-31 | **23.9%** of issued shares | DERIVED | `38,005 ÷ 159,267 = 23.86%`. Both filed. Plus 12.8 million shares available for future grant |
+| M-29 | Weighted-average exercise price of options outstanding | 1996 / 1997 / 1998 | **$0.075 / $1.502 / $13.375** | FACT (audited note) | ratios `20.0×` then `8.9×` are DERIVED from these |
+| M-30 | Gross debt raised in the window | 1997-11-07 → 1999-02-03 | **$75.0M term loan + $326M gross discount notes + $1.25bn converts** | FACT, per each instrument's own document | the $75M was retired in May 1998, so **net new debt outstanding grew from $76.7M (1997) to $348.1M (1998) and to a different figure again after the Q1 1999 note repurchases** |
+| M-31 | US distribution/fulfilment floor area | 1997-12-31 / 1998-12-31 | **285,000 sq ft / 616,000 sq ft** (of which 323,000 not yet operating) | DERIVED (sum of filed sq-ft components) | §S5. 1999-12-31: **UNKNOWN — no annual report on disk** |
+| M-32 | Distribution square footage, 1999 holiday season vs 1998 | Q3 1999 | "**increased distribution square footage more than four times** compared to the 1998 holiday season" | FACT (company statement in a dated filing) / **absolute square footage UNKNOWN** | `8-K_event-1999-10-28_…` L225-228. A **multiple with no base**: the release gives no absolute figure, and the FY1999 10-K that would carry Item 2 is not on disk, so 1999-12-31 floor area is **UNKNOWN** (see G-1) |
+| M-33 | Revenue per order / orders / AOV / take rate / CAC / LTV / GMV | all periods | **UNKNOWN** | denominator never filed | U1 |
+| M-34 | Sales per employee, FY1999 | FY1999 | **UNKNOWN** | denominator (year-end FY1999 employees) not on disk | U1, G-1 |
+| M-35 | Growth rates for 1999 quarters | Q1-Q3 1999 | **+236% / +171% / +132%** year over year | AS PRINTED (10-Q MD&A tables) | the company printed them; **the deceleration is in the filings themselves, in 20-point steps** |
 
 ## Ownership, dilution and the 13G testimony
 
-_TO be populated._
+**Whose statement each number is.** A Schedule 13G is **not** a company narrative. It is a document signed
+by a holder, under that holder's own certification ("After reasonable inquiry and to best of my knowledge
+and belief, I hereby certify…"), reporting that holder's own position, computed by that holder against a
+denominator the holder chose. The company's own beneficial-ownership table in a proxy is a **different
+speaker**: it is the registrant repeating "information furnished by such owners". Both are Tier-1 as to
+*what was stated*; neither is an audited fact about ownership. This section therefore names the speaker on
+every row.
+
+### O1. The founder's reported stake, witness by witness
+
+| As-of / statement date | Speaker | Shares reported | Percent printed | Voting/dispositive split | Document | Basis |
+|---|---|---|---|---|---|---|
+| signature dated **1998-02-13**, filed 1998-02-17 | **Jeffrey P. Bezos, in his own name** | **9,885,000** | **41.3%** | sole voting 9,885,000; shared voting **0**; sole dispositive 9,885,000; shared dispositive **0** | `SC13G_jeffrey-bezos_acc-0000891020-98-000175` L154-180, L261-272 | CONTEMPORANEOUS (holder statement) |
+| as of **1998-03-01** | the **company**, repeating owner-furnished data | 9,885,000 | **41.0%** | "sole voting and investment power" except as indicated | `DEF14A_1998_…` L445 | CONTEMPORANEOUS (company table) |
+| signature dated **1998-02-10** (Jacklyn Gise Bezos) and **1998-02-11** (Miguel A. Bezos), filed 1998-02-13 | **the spouse and the brother, each in their own name** | **1,571,244** each | **6.6%** each | — | `SC13G_jacklyn-gise-bezos-miguel-bezos_acc-0000891020-98-000174` L188, L245, L327-329, L374-376 | CONTEMPORANEOUS (holder statement) |
+| as of **1999-02-28** | the company | **58,770,000** | **36.48%** | sole voting and investment power "based on information furnished by such owners" | `DEF14A_1999_…` L445-446 | CONTEMPORANEOUS (company table) |
+| as of **1999-02-28** | the company | Jacklyn Gise Bezos and Miguel A. Bezos **as a single combined line**: 8,975,064, of which 4,609,296 in the Jacklyn Gise Bezos 1996 Revocable Trust, 1,462,500 in the Bezos Family Trust of 1997, 337,500 in the Bezos Generation-Skipping Trust of 1997, 2,565,768 in the Miguel A. Bezos 1996 Revocable Trust | **5.57%** | "Power to vote … is deemed to be **shared** between" them; **each denies beneficial ownership of the other's trust shares except to the extent of pecuniary interest** | `DEF14A_1999_…` L449, footnote (1) L470-486 | CONTEMPORANEOUS |
+| as of **1999-02-28** | the company | **All directors and executive officers as a group (11 persons): 75,413,815** | **45.62%** | includes 60-day exercisable options | `DEF14A_1999_…` L460-461 | CONTEMPORANEOUS |
+
+**Do not aggregate the family lines.** The two 1998 13Gs and the 1999 proxy disagree structurally: the 13Gs
+report Jacklyn and Miguel **separately at 1,571,244 each**, while the 1999 proxy reports them **combined at
+8,975,064 as of 31 December 1998** and expressly allocates the shares to four named trusts with mutual
+disclaimers. Adding the three 1998 rows (9,885,000 + 1,571,244 + 1,571,244) to get a "family stake" would
+double-count whatever overlap the filers each assumed, and the 1998 Bezos form reports **shared voting and
+dispositive power of zero** — an affirmative statement that he did *not* consider his position shared with
+them. **The forms' own Item 3/4 attribution governs; no aggregate family number is asserted here.**
+
+### O2. The one place where the 41.3% and the 41.0% can be reconciled, and it is the denominator
+
+Both figures use 9,885,000 shares. The difference is the class size each speaker used, and **both class
+sizes are filed**:
+
+- `9,885,000 ÷ 0.413 = 23,934,625` → matches **23,937,169 shares outstanding at 1997-12-31**, the balance-sheet
+  figure in the FY1997 10-K405 (L1833). The **holder** used the year-end count.
+- `9,885,000 ÷ 0.410 = 24,109,756` → between the year-end count and the **24,157,867 shares outstanding as of
+  March 13, 1998** printed on the FY1997 10-K405 cover (L131-132). The **company** used a March-1998 count.
+- The family forms' own arithmetic implies a third base: `1,571,244 ÷ 0.066 = 23,806,727`.
+
+**Finding: there is no single "shares outstanding" in the 1998 record; there are at least three, each filed,
+each correct for its own date.** Every ownership percentage in Stage 3 must therefore carry its as-of date
+and its denominator, or it is meaningless. Recorded here so no downstream file repeats a bare "41%".
+
+Also filed on the FY1997 10-K cover: **aggregate market value of voting stock held by non-affiliates as of
+1998-03-13 = $787,637,606** — the only market-capitalisation-adjacent figure the company itself printed on a
+cover page in the window, and the natural scale-check for any statement about what the market thought the
+company was worth in March 1998.
+
+### O3. The split-vintage trap, demonstrated on the founder's own row
+
+`9,885,000 × 2 (split effected 1998-06-01) × 3 (split effected 1999-01-04) = 59,310,000`. The 1999 proxy
+prints **58,770,000**. The difference is **540,000 shares** (DERIVED; both inputs filed). Candidate
+explanations the record does **not** let us separate: a sale of roughly 90,000 pre-split-equivalent shares;
+the exercise/lapse of unvested restricted shares subject to repurchase; or a change in what the company was
+counting. **No Form 4 or 5 exists in the enumerated EDGAR slice for 1997-1999** (intake manifest §7 item 3),
+so the movement **cannot be dated from the filings**. It is recorded as a 540,000-share unexplained delta,
+not as a sale. **Stage 3 cannot say the founder sold stock in this window.**
+
+The share counts themselves are only interpretable through the split recital the company printed: "On June
+1, 1998, the Company effected a two-for-one stock split to stockholders of record on May 20, 1998, and on
+January 4, 1999, effected a three-for-one stock split to stockholders of record on December 18, 1998. Both
+stock splits were effected in the form of a stock dividend. **The accompanying consolidated financial
+statements have been restated to reflect the splits.**" (`10-Q_Q1-1999_…` L453-458.)
+
+### O4. Dilution: what the paper actually authorised
+
+| Date | Event | Amount as filed | Document |
+|---|---|---|---|
+| June 1996 | reincorporation, authorized | 5M preferred / 25M common | 10-K FY1998 Note 7 L2902-2905 |
+| April 1997 | increase | authorized common to **100 million**, preferred to **10 million** | same |
+| **June 1998** | increase | authorized common **100 million → 300 million** | same; `10-K_FY1998_…` L1985 "Authorized shares -- 300,000" (thousands) |
+| 1999-05-20 meeting (proposed) | increase | to **1,500,000,000 common and 150,000,000 preferred** — "for an additional **1,200,000,000 shares** of Common Stock available for issuance" | `S-3_FileNo-333-74435_…` L1705-1710; `DEF14A_1999_…` L919-946 |
+| 1997-06-06 | **first post-IPO S-8**, 1997 Stock Option Plan | **9,534,648 shares** registered (6,000,000 plan reserve + 3,534,648 carried over from the 1994 Plan), proposed max offering price **$17.3125/share**, aggregate **$165,068,594** | `S-8_FileNo-333-28763_…` L143, L148-152 |
+| 1998-09-11 | **four acquired-company plans in one S-8** (Junglee 1996, Junglee 1998 EIP, Sage 1997 Amended, Sage MVP) | ten tranches from **17 to 119,692 shares**, priced $0.179-$23.280 | `S-8_FileNo-333-63311_…` L138-149 |
+| 1999-03-15 | **1999 Nonofficer Employee Stock Option Plan** | **20,000,000 shares**, proposed max offering price **$122.8440**, **aggregate offering price $2,456,880,000**, fee $683,012.64 | `S-8_FileNo-333-74419_…` L144-149 |
+| 1999-05-17 / 1999-06-11 / 1999-10-12 | InnerLint, e-Niche, Alexa, Accept.com, Convergence plans | five further S-8s in seven months | cache rows; **exact registered amounts UNTRIED** |
+
+**Option overhang, at the only date it is filed both ways (DERIVED):** options outstanding 12/31/1998 =
+**38,005 thousand**; shares issued and outstanding 12/31/1998 = **159,267 thousand**.
+`38,005 ÷ 159,267 = 23.9%` overhang. Plus `12.8 million shares … available for future grant`
+(`10-K_FY1998_…` L3000-3001), so the reserved-but-unissued pool was a further ~8% of the issued count. Both
+inputs are filed; the ratio stands.
+
+**Option-activity path, all three years from one audited table (L2981-2996), split-vintage:** outstanding
+10,616k (1/1/1996) → granted/assumed 15,600k → 20,017k (12/31/1996, WAEP $0.075) → granted 18,060k,
+**exercised 8,193k** → 27,332k (12/31/1997, $1.502) → granted 19,774k, exercised 5,333k → **38,005k
+(12/31/1998, weighted-average exercise price $13.375)**. The exercise proceeds match the cash-flow statement
+($509k in 1997, $5,983k in 1998). **The weighted-average exercise price of the outstanding pool moved $0.075 (12/31/1996) → $1.502
+(12/31/1997) → $13.375 (12/31/1998): `1.502 ÷ 0.075 = 20.0×`, then `13.375 ÷ 1.502 = 8.9×`, or
+`13.375 ÷ 0.075 = 178.3×` across the two years** (DERIVED; all three inputs are from the one audited
+option-activity table).
+
+**Dilution came from four channels at once and only two of them raised cash:** option exercises, stock paid
+for acquisitions ($217,241k of it in FY1998 alone), PlanetAll's pre-merger stock sale ($8,383k "proceeds
+from issuance of capital stock" in 1998 — PlanetAll's own raise, consolidated in), and the 2-for-1 / 3-for-1
+stock dividends which changed no one's economics but changed every printed share number twice.
 
 ## Founder compensation and personal money
 
-_TO be populated (ST3B-11 … ST3B-13 expanded)._
+Reported, not re-hunted: the intake resolved this. The finding is the **pay inversion**, the **zero
+option grants**, and the **documented silence on the guarantees**.
+
+### K1. Summary compensation as filed (DEF 14A 1999-04-07, three-year table; DEF 14A 1998-04-17 for the
+1997/1996 pair)
+
+| Name | 1996 salary | 1997 salary | 1998 salary | Bonus (all three years) | Securities underlying options (all three years) | All other comp |
+|---|---|---|---|---|---|---|
+| **Jeffrey P. Bezos**, President and CEO | **$64,333** | **$79,197** | **$81,840** | **nil** | **nil** | **nil** |
+| Richard L. Dalzell | — | — | $201,512 | — | — | — |
+| George T. Aposporos | — | — | $142,083 | — | — | — |
+| Joel R. Spiegel | — | — | $116,352 | — | — | — |
+| John D. Risher | — | — | $105,168 | — | — | — |
+
+**Basis:** CONTEMPORANEOUS for 1998 (in the 1999 proxy) and for 1997 (in the 1998 proxy); the 1996 salary is
+**RESTATED** — it appears only inside later tables. Option counts in the two proxies are **not comparable**:
+the 1999 proxy restates them for the 3-for-1 split of 1999-01-04, so Dalzell's 1997 grant reads **125,000**
+in the 1998 proxy and **750,000** in the 1999 proxy. That is one grant in two vintages, not a second grant
+and not a contradiction to be "resolved".
+
+**Derived, with both inputs filed:** `81,840 ÷ 201,512 = 0.406` — in 1998 the founder and CEO was paid
+**41% of the highest-paid VP** shown in the same table, and less than four of his own VPs. Against his own
+1996 salary: `81,840 ÷ 64,333 = 1.272` → **+27.2% over two years** (DERIVED). Against net sales in the same
+years: `609,996 ÷ 15,746 = 38.7×` growth (DERIVED, both inputs audited). **The founder's cash pay grew about
+27% while the company's sales grew about 3,770%.** The mechanism the filings themselves supply is the option
+plan, not the salary line: **he was granted no options in 1996, 1997 or 1998**, so his equity position in
+this window changed only through splits and whatever the record cannot show (O3).
+
+### K2. Related-party transactions, as filed — the complete list
+
+The FY1998 10-K routes Item 13 to the 1999 proxy. Both proxies' "Certain Transactions" contain **only**
+these items (intake manifest §3(b), verified against the documents):
+
+1. **Series A purchases by Scott D. Cook and Patricia Q. Stonesifer: 2,500 shares each at $40.00 per share**
+   (1998 proxy).
+2. **A $75,000 interest-free relocation loan to Richard L. Dalzell**, noted in the 1999 proxy as
+   **"repaid on October 23, 1998"**.
+
+There is a third related-party item visible only in the audited balance sheet: **"Note receivable from
+officer for common stock … (1,099)"** thousand at 1998-12-31, nil at 1997-12-31 (`10-K_FY1998_…` L1989) — an
+officer's note, presented in equity as a contra-account, **not named in either proxy**. The borrower's
+identity is **UNKNOWN** from the filings. (Do not silently equate it with the Dalzell loan; the Dalzell loan
+is stated to have been repaid in October 1998, before this balance appeared.)
+
+### K3. DOCUMENTED NULL — the personal guarantees (Seafirst, Wells Fargo)
+
+**The silence is the finding, and it is about the filing record, not about the guarantees.**
+
+- Searches run across the full archived corpus for `Seafirst`, `Wells Fargo`, `Bezos … guarantee`,
+  `release … guarantee`.
+- **Hits occur only in the 1997 registration lineage** — S-1 original, Amendments Nos. 1, 2, 3, 4, 5, 6, and
+  the 424B1 — which is also where the three guarantees (dated Nov-1994→Dec-1996, Jul-1995, Apr-1995) and the
+  **EX-10.27 Subrogation Agreement dated 1996-06-19** (Bezos's recourse against Amazon if he has to pay; its
+  recital B names the Wells Fargo and Seafirst guarantees) are described.
+- **Zero** guarantee-of-Bezos or release hits in **any filing dated after 1997-05-15**. The only post-IPO
+  `Seafirst` occurrence is a lease clause using Seafirst's prime rate to compute a **late charge on rent**
+  (Q1 1998 10-Q) — not related-party disclosure.
+- The FY1997 10-K405 **never names Seafirst or a Bezos guarantee at all**; the FY1998 10-K routes Item 13 to
+  the 1999 proxy, which is silent.
+- **The only in-filing statement about release remains the S-1's forward-looking undertaking**: *"The Company
+  intends to secure releases of all of Mr. Bezos' guarantees as soon as possible following the closing of
+  this offering."* That is a statement of intent made before the money arrived, in the document that needed
+  to look clean. Its completion is evidenced **nowhere in EDGAR for 1997-1999**.
+- **Why more requests cannot help:** the guarantees themselves were **never filed**. The S-1's 38-document
+  exhibit set runs EX-2.1 … EX-27.1 and the only bank-facing instrument in it is the Subrogation Agreement —
+  Bezos against Amazon, not the bank against Bezos. **The EDGAR route is exhausted.**
+- **Status: UNKNOWN, now UNKNOWN-with-the-searches-recorded, and the route marked exhausted.** No exposure
+  amount, no release date, no confirmation that he was ever released, and no confirmation that he was not.
+  Nothing in this file may be quoted as saying the guarantees survived; nothing says they ended.
 
 ## Metrics
 

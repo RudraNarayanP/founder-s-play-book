@@ -415,3 +415,25 @@ unless `server`/`dir`/`file` were copied verbatim from a real `metadata` respons
    pattern is pre-relocation and may itself 308, so an `ocr` task must be queued from a
    live CA hit's own `id`, never from the old template (see
    `queries.json._deferred_examples.chronicling_america_ocr`).
+
+## Two traps that produced false findings, and how to avoid re-creating them
+
+**1. The Google Books legacy `feeds/volumes` route silently ignores date parameters.** It honours
+`as_bib`, `q` and `maxResults`, and answers 200 — but `as_ylo` / `as_yhi` are **discarded**, so a query asking
+for 1960–1975 returns ten volumes dated 2000–2023 and the run records a confident **EMPTY** for a window that
+was never searched. The API variant that honours dates (`www.googleapis.com/books/v1/volumes`) is keyless-429
+for everyone, quota limit 0, so there is no date-filtered route without a key.
+**Consequence:** no date-restricted `EMPTY` from the feed route is valid. Either post-filter the returned
+entries by their own `dc:date` and report how many survive (usually zero, which is a *reach* limit, not an
+absence in the corpus), or mark the query **UNANSWERED (feed route cannot scope a window)**. Any earlier
+"Google Books holds nothing for 1960–75" line in a dossier is a false test and must be re-run.
+
+**2. A TLS failure on this host is a client artefact, not the site's policy.** Three passes recorded
+HathiTrust as blocked because raw `urllib` raised `SSLCertVerificationError: certificate has expired`. That is
+this machine's CA store, not HathiTrust refusing us. The harvester already handles it with a
+**host-scoped** bypass (`--insecure-hosts babel.hathitrust.org`) and classifies the error distinctly, and the
+route answers 200 through it — 573 full-view candidates for a 1970s `Wal-Mart` query on the first attempt.
+**Consequence:** never conclude "blocked" from a certificate error, and when you do use the bypass, record in
+the provenance header that the bytes arrived over a skipped-verification channel, because that changes how a
+citation can be re-walked. Prefer the bypass only for read-only public catalogue and text endpoints.
+

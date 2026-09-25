@@ -10,10 +10,41 @@ Stage-2 dossiers under `research/` (`ST2_A_chronology_org.md` S2A-*, `ST2_B_fina
 `ST2_C_market_competition.md` S2C-*, `ST2_D_tech_ops.md` S2D-*, `ST2_E_adversarial.md` S2E-*), plus the local
 filings under `sources/` and the registers. No web request was made in the construction of this file; every
 retrieval need the dossiers leave unmet is recorded as **UNTRIED**, never as a null about the record. Nothing in
-the narrative was upgraded, rounded, merged or re-classed here: every Date / Source / Source date / Passage /
+the narrative was upgraded, rounded, merged or re-classed here: every Date / Source / Source date / ~~Passage~~ /
 Conf / Corroboration field is the specialist's or the filing's own string, and `UNKNOWN` stands where it was
 recorded. Where the narrative and a dossier disagree, the disagreement is recorded in the record and reported; it
 is not fixed (§14 rule 4).
+
+> **CORRECTION TO THE SENTENCE ABOVE (AUDIT-2 DEFECT-4, 2026-09-25).** The word `Passage` is here struck out of
+> that guarantee. An independent classifier pass over **all 479 Stage-2 records** (harness at
+> `E:/tmp/citaudit2/classify.py`, complete machine list at `03_quality_control/amazon_s2_audit2_repairs.md`
+> §R5) found the `Date / Source / Conf / Corroboration` fields clean but the `Passage:` column **not** uniformly
+> the filing's own string: **157 records verbatim, 20 partly verbatim, 126 presenting a paraphrase inside
+> quotation marks, 22 with no local carrier, 79 quoting only a value or label.** Every record in the last three
+> classes now carries a marker in its own `Passage:` cell.
+
+**THE `Passage:` CONVENTION, DECLARED (method §7; added by the AUDIT-2 DEFECT-4 repair, 2026-09-25).** Read a
+`Passage:` cell as one of exactly four things:
+
+1. **A bare quotation in quotation marks, unmarked** — the filing's (or the named witness's) own words, in one
+   contiguous run, verified present in a local document. `…` marks a real elision and each side of it is such a
+   run. **Verified by machine on 2026-09-25 against the 88 local documents in `sources/`.**
+2. **`[paraphrase — not the filing's wording]`** — the content is what the cited line says, the words are the
+   specialist's or the assembler's. The quotation marks are retained only because the cell's geometry requires a
+   string; **do not quote this cell onward.** Where the same cell also prints `[restored: "…"]`, that inner
+   string, and only that inner string, is the filing's own wording, with the line it came from.
+3. **`[partial verbatim — the unmarked run is not the filing's wording]`** — a genuine quotation with one
+   re-worded join or tail inside it; the filed runs are printed in the cell.
+4. **`[no carrier on disk — UNTRIED: <query>]`** — the witness is not in `sources/` at all (see the `(NO LOCAL
+   COPY …)` in-cell tags and the `local_copy:` notes in `sources.csv`). The claim is not discredited; it is
+   **unverifiable at the citation**, and no arithmetic check can see it either way.
+
+A quoted **value or label** (`"$18.00"`, `"151 full-time employees"`, `"New Castle"`) is a cell value lifted out
+of a table or heading, not a sentence, and is not covered by rule 1's contiguity guarantee. Table composites in
+which the values are filed but not contiguous are marked `[table composite — the values are filed, the sequence
+is not a run of the document]`. **No marker was ever applied by deleting a record or by turning a quotation into
+a paraphrase and leaving the quotation marks in place; the superseded string stays visible next to its replacement
+(method §14 rule 4).**
 
 **Id continuity (method §9.3).** Record ids **continue Stage 1's appendix sequence and are never re-based**, so
 that every record id in the company folder is globally unique: Stage 1 closes at B93, C29, D16, E29, F24, G30,

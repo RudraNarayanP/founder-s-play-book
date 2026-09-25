@@ -1,0 +1,70 @@
+the year-end headcount
+conflicts (151 vs 158 across documents).
+
+Two substantive corrections the dossier settled: Bezos became **CEO on the 1996-05-28 merger
+signature page** (President→CEO on a single instrument), and the Delaware reincorporation was
+agreed 1996-05-28 but **effected 1996-06-18** — which bears on Stage 1's impossible
+"Delaware corporation" recital of 1995-02-09 (conflict C-H1). And the "move beyond books"
+reading of this stage **fails**: the music store shipped 1998-06, and the FY1997 10-K still
+describes Amazon as the leading online retailer of **books**.
+
+Open gaps carried: no Tier-1 event between 1997-05-15 and November (the 1997 10-Qs were never
+opened); the first trading day and day-one price are unproven; outages are an admitted condition
+with no dates or magnitudes.
+
+### Recurrence note — the write-late failure is structural, not a fluke
+
+As of 2026-09-24 the "researched everything, wrote nothing" failure has recurred **three times** despite
+§14: twice with wave-1 dossiers, now with the UnitedHealth probe (469-word skeleton, 1 record, but **55
+source files saved to disk**). The mitigations that worked: (a) saving primaries to `sources/` as you go,
+which made the loss recoverable, and (b) relaunching a **mining-only agent** against the local files with a
+4-search budget instead of re-running the original brief. Fast-tier agents that end with a "now writing"
+sentence and an empty file should be treated as **partially succeeded**: keep the evidence, redo the
+write-up.
+
+### Number-round status after two repair passes
+
++94.1% (not +95.2%), the true third **$871,000** (not the back-solved $871,024), composition
+**$976,408**, and **43% original / 41% S-1/A No. 5** as a version discrepancy — all established from
+the original S-1 by line (l.2864, l.4301–4302, l.985–988, l.2919, l.1055–1062, l.3149, l.3535/3546/3645).
+The second repair pass validated its CSVs **by planting the previously-dropped defect in a copy and
+confirming the detector caught it** — the strongest verification step taken so far. A residual sweep is
+chasing stale copies that survived outside that agent's write scope (known survivors: `stage_1.md`
+§S and §U.8, `data_gaps.csv` r11, `context_appendices.md` ~l.596, `_parts/NUMBER_DEFECTS.md` r43), and
+**both audit gates still need their independent re-verification — a repair is not a pass.**
+
+### The scheduled runner fired — and disproved the diagnosis the whole periodical gap rested on
+
+`harvest-bot` committed at **2026-09-25T11:57:03Z** (`Nightly harvest: corpus evidence refresh from
+scheduled runner`): 136 candidate rows regenerated, 96 Internet Archive rows at `200`. So the CI route
+works and needs no manual dispatch after all — the earlier `total_count: 0` was the scheduler not having
+adopted the cron yet, not a disabled repo.
+
+The important part is what it falsified. Chronicling America, Google Books and HathiTrust had been recorded
+as **bot-blocked from this machine's egress**, and that belief is why the periodical family stayed
+UNANSWERED for every pre-1994 company. From GitHub's runner — entirely different egress — the same
+requests returned the **same** failures: 11/11 Chronicling America `403`, both Google Books `429`, both
+HathiTrust `0`. A block that follows you to a different continent is not a block: **these are malformed
+requests.** Two further defects found in the same query set: it searched the token `waltons` instead of the
+brand `Wal-Mart`, and it placed Newport in **Missouri** when the company's first town was Newport,
+**Arkansas** — so some earlier "nulls" were searching for a company that never existed in a state it never
+operated in. Dispatched: a repair pass on the three routes and the query content
+(`tools/periodical_harvest.py`, `tools/queries.json`), with evidence into
+`00_universe/harvest/_probe_fixed_20260925/` rather than over the runner's outputs.
+
+**Method consequence, to be applied once the fix lands:** a `403`/`429` recorded against a host is a claim
+about *our request* as much as about *their policy*, and the test of which is a second egress point. Any
+UNANSWERED verdict older than this entry that rests on those three hosts is suspect and must be re-run
+before it is used to cap a company's depth.
+
+### 2026-09-25 (morning): Stage 2 volumes shipped; registers merged; off-machine status re-tested
+
+**Stage 2 merge.** `_parts/s2_p1..p4` were merged into three volumes at section boundaries (§9.3), with
+continuous numbering and nothing trimmed: `stage_2_part_1.md` 18,360 w (header, boundary, §A–§H + a
+conventions block carrying the assemblers' reading rules verbatim), `stage_2_part_2.md` 25,346 w (§I–§P),
+`stage_2_part_3.md` 37,423 w (§Q–§U including §S.9, the two parts' UNTRIED lists folded into the single
+gaps register). Narrative total **81,129 w = 1.64× Stage 1**, concentrated in §P (13,753) and §U (19,351),
+which is the expected shape for a stage with four filing lineages and 68 live conflicts. `stage_2_index.md`
+is the volume map.
+
+**Registers.
