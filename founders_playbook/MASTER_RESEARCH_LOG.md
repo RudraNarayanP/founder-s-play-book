@@ -1216,3 +1216,36 @@ confidence with no local copy behind it. Verified clean, for the record: rent→
 **Two of my own open-item labels were wrong:** the authorised-capital record is **RD-049, not RD-072**, and
 it does not close; U.168 closes for Stage 2 only while `MASTER_RESEARCH_LOG` itself still asserts live
 residue -- an instruction-layer error of the RD-059 class, corrected here.
+
+### RD-095 -- the periodical route was measuring the wrong field; now there is a real one
+
+The Microsoft probe returned **T3 as measured but explicitly not certifiable**, and named two script-side
+defects rather than an absence of evidence. Both were checked and both were true.
+
+1. **`sec_intake.py` never reached pre-2020 EDGAR.** Submissions slices live on `data.sec.gov/submissions/`,
+   not under `/Archives/edgar/data/<cik>/` -- the Archives form 404/503s, so `index` silently stopped at the
+   `recent` bucket (Microsoft: 1,002 rows beginning 2020-08-07). Fixed: **4,525 rows, earliest 1994-02-14.**
+   The corrected answer is *still* a floor, not a win: **Microsoft has no S-1 on EDGAR at all** -- its 1986
+   registration predates the EDGAR phase-in, so the founding-era numbers are paper-only. The probe's T3 lean
+   was right for the wrong reason, which is the reason to re-run it.
+2. **Internet Archive `advancedsearch` `text:` queries match an item's ANNOTATIONS, not its OCR.** The probe
+   fetched 261 KB of a 1976 magazine on the strength of a `text:microsoft` hit and the word occurred **zero**
+   times in the pages -- an uploader's description. That is a fabricated-corpus machine: it returns confident
+   leads whose bytes contain nothing, and (worse) a following local grep's zero would then be filed as "no
+   coverage". So `tools/ia_text.py` now does search -> **download the `_djvu.txt` text layer** -> grep bytes we
+   actually hold, and classifies `TIER1_CANDIDATE / LEAD_ONLY / NULL / UNANSWERED / ERROR` from held bytes.
+   A zero over held KB is a null; a zero over 0 B is UNANSWERED.
+
+**Positive control, because a route that has never returned a hit is unproven:** fetching
+`micro_IA41155142_0547` returned 187 KB of OCR and grep found, on line 11 of the held bytes,
+`INSTITUTION Apple Computer, Inc., Cupertino, CA.` -- a real in-window institutional index page, from the
+first item tried.
+
+**Two honest caveats stamped into the tool:**
+- `archive.org` TLS fails on this machine's stale CA store (same artefact as HathiTrust). Insecure transport
+  is **opt-in per host** (`--insecure`), restricted to a named allow-list, and stamped into the sidecar as
+  `UNVERIFIED TLS -- re-check before citing at High`. A verified path is tried first, and a TLS failure is
+  reported as UNANSWERED, never as absence.
+- `advancedsearch` returned 0 rows for queries that must match (`collection:"computersmagazines" AND
+  title:byte AND year:1977`). Until that is understood from a runner egress, **treat IA search as UNANSWERED
+  and feed `ia_text.py` identifiers from manifests we already hold** -- the harvest dirs do contain them.
