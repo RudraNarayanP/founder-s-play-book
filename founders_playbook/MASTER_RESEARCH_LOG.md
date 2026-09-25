@@ -93,7 +93,7 @@ Statuses: `NOT STARTED` · `DISCOVERY` · `DEEP RESEARCH` · `RECONSTRUCTION` ·
 
 | # | Company | Stage 1 | Stage 2 | Stage 3 | Quant | Sources | Adversarial | QA | Final |
 |---|---|---|---|---|---|---|---|---|---|
-| 001 | Amazon | QA — repairs applied, **third-pass re-certification running** | **RECONSTRUCTION — 3 volumes on disk (81,129 w), claim records + 5 audits running** | NOT STARTED | RECONSTRUCTION (193 rows) | RECONSTRUCTION (113 rows) | RECONSTRUCTION (68 conflicts) | AUDIT 6 = REOPEN → AUDIT 7 pending | NOT STARTED |
+| 001 | Amazon | QA — re-certification **re-running** (first certifier died at its ceiling) | **RECONSTRUCTION — 3 volumes on disk (81,129 w), claim records + 5 audits running** | **DISCOVERY → DEEP RESEARCH** (75 post-IPO filings on disk; 3 dossiers running) | RECONSTRUCTION (193 rows) | RECONSTRUCTION (113 rows) | RECONSTRUCTION (68 conflicts) | AUDIT 6 = REOPEN → AUDIT 7 pending | NOT STARTED |
 | 002 | Walmart | DEEP RESEARCH (A2 133 rec + A3 39 rec + A4 periodicals; 0 web calls of budget) | PROBE | NOT STARTED | DEEP RESEARCH | DEEP RESEARCH | NOT STARTED | **PROVISIONAL — independent-lineage count 1** | NOT STARTED |
 | 003 | UnitedHealth Group | DISCOVERY | PROBE | — | — | — | — | — | — |
 | 004 | Apple | DEEP RESEARCH (80 records, 4 registers) | PROBE | — | DEEP RESEARCH | DEEP RESEARCH | NOT STARTED | NOT STARTED | NOT STARTED |
@@ -553,6 +553,11 @@ re-using those ids) is handed to the orchestrator unsolved.**
 | RD-048 | Method | registers | **Stage vocabulary in the registers is uncontrolled** — `stage1`, `stage2`, `stage2-consequence` all parse, and §13 never fixed the enumeration | A per-stage query silently under-counts; an audit keyed to "stage 2" sees 82 rows, not 99 | Decide one convention (suggest `stage1 / stage2 / stage2-consequence` as three real states, documented in §13), then sweep all companies' registers before more of them exist | OPEN — cheap, gets expensive per company added |
 | RD-049 | Amazon | `stage_2_claim_records.md` | **One known missing record: the 1997-04-18 authorised-capital increase (10,000,000 / 100,000,000)**, plus §D.0 verdict rows and 8 of §K.9's fourteen UNKNOWNs without their own records | Self-declared by the registrar; a gap someone named is a task, a gap nobody named is a defect | Append on the Stage-2 repair pass from S-1/A No. 1–2 (now on disk) | OPEN |
 
+| RD-050 | Amazon | `stage_2_claim_records*.md` | **~96 of 479 appendix records present a paraphrase inside quotation marks**, plus two substantive mis-citations (B110's invented tenure range, B100's reversed party) and a boundary pricing leg with no document | The appendix is the layer that makes the dataset citable; if its quotes are not verbatim, every downstream citation inherits the doubt | AUDIT 2 + repair pass with a mechanical classifier over all 479 records | OPEN — repair in flight |
+| RD-051 | Amazon | `sources/` | **Two local copies of one accession differ by a constant 17-line offset** with no declaration of which the spine keys to | An auditor that picks the wrong copy reports ~900 phantom failures and may "fix" correct text | Declare the canonical copy in `_EVIDENCE_CACHE.md` and state the offset | OPEN — dispatched inside the citation repair |
+| RD-052 | Method | orchestration | **Agent briefs carried no turn budget**, so three agents died at their ceiling having done the work and not the finishing | Each loss cost a re-dispatch and risked a double-write; the failures were invisible until the notification arrived | Every brief now states a tool-call budget and "mark the rest UNTRIED rather than running out"; retry briefs point at the partial artefact | CLOSED as practice — verify it holds this wave |
+| RD-053 | Corpus-wide | depth verdicts | **Every UNANSWERED periodical verdict older than 2026-09-25 predates the working Google Books and HathiTrust routes** | A depth tier capped by a broken request is a false null, and §14.6's four-family rule turns on exactly that evidence | Re-run the periodical probes for Walmart, Apple and UnitedHealth through the fixed routes; Chronicling America stays genuinely blocked (canaries prove it) | OPEN — first real attempt is the nightly runner with the corrected code |
+
 ### Archive route discovered mid-run — the EDGAR floor is not the last word
 
 The Walmart probe concluded that pre-1994 origins cannot carry exemplar depth, because EDGAR starts
@@ -657,6 +662,66 @@ confirming the detector caught it** — the strongest verification step taken so
 chasing stale copies that survived outside that agent's write scope (known survivors: `stage_1.md`
 §S and §U.8, `data_gaps.csv` r11, `context_appendices.md` ~l.596, `_parts/NUMBER_DEFECTS.md` r43), and
 **both audit gates still need their independent re-verification — a repair is not a pass.**
+
+### 2026-09-25 (afternoon): the citation layer fails, three agents hit their ceiling, and Stage 3 opens
+
+**AUDIT 2 on Stage 2 = FAIL, and it failed on prose, not arithmetic.** The citation auditor tested 961
+filing-line references and 479 claim records against the documents themselves. The spine held: every §P
+and §P.2 input verified at its cited line, the IPO week confirmed as four genuinely distinct dated states
+(`3,000,000` absent from Amendment No. 3, `2,500,000` absent from No. 5), the boundary's effectiveness leg
+exact, and **zero out-of-range line pointers** in 961 references. What broke:
+
+| Defect | What it is |
+|---|---|
+| B110 | An **invented employment range** — Lipsky's Barnes & Noble tenure as "from 1993 to 1995", a string present in no document in the repository; both accessions file **March 1994 to July 1996**. The invented range also destroys its own section's argument |
+| B100 | A **reversed party** — "repurchaseable by the investor" where the filing says *Mr. Bezos granted the Company* a repurchase right on his own termination; a retention device read as an investor claw-back, in the flattering direction |
+| Boundary pricing leg | **No document states the offering was priced at $18.00 on 1997-05-14**, and the release that would has **no `sources.csv` row at all** |
+| Systemic | **~96 of 479 records carry a `Passage:` in quotation marks with no ≥4-word verbatim run in any local document** — hand-sampled at roughly one record in eight, against an appendix that promises the filing's own string |
+| D32 | A spliced quotation about the New Castle, Delaware centre that exists nowhere; the only carrier is uncited |
+| Structural | Two local copies of one accession with a **constant 17-line offset** and no declaration of which the spine keys to — the next auditor would otherwise report ~900 phantom failures |
+| U.80 | Called "the only genuinely independent Tier-1 pairing in this stage" while **zero periodicals exist on disk** for this company |
+
+Both phantom strings trace to **one file: the claim-record appendix** — the transcription layer that exists to
+preserve evidence is where the evidence was invented. Repair dispatched, with an instruction to classify all
+479 records mechanically rather than hand-edit a sample.
+
+**Three agents died at their own turn ceiling** (a certification, a periodicals dossier, a harvester repair),
+each having done most of the work and none of the finishing. Not a model failure: the briefs did not bound
+them. Every dispatch since carries an explicit tool-call budget and a "finish inside it, mark the rest
+UNTRIED" instruction, and the retry briefs point at the partial artefacts so the next agent completes rather
+than restarts.
+
+**Evidence nearly lost:** a UnitedHealth agent faithfully recorded seven fetched primaries in its dossier and
+left the bytes in `%TEMP%/uhg_b/`. Recovered by hand into `company_003_unitedhealth/sources/` with provenance.
+Method **§14.9** now states the rule, and the corollary: *an agent that reports "retrieved" without naming
+where the bytes live has not retrieved anything.*
+
+**The periodical gap is now partly a code bug rather than a block, and partly a real block.** After the
+harvester repair: **Google Books answers 200** (12 responses with real volume data; a deliberate control
+proves the keyless v1 API is still 429 — the working route is not the one the old code used), **HathiTrust
+answers 200** (a `Wal-Mart` / Bentonville query returning 45 hits with 4 full view), while **Chronicling
+America still 403s** against two purpose-built reachability canaries. So §14.6's missing family can now
+return evidence for some companies and not others, and any older UNANSWERED verdict resting on those three
+hosts must be re-run before it caps a depth tier.
+
+**Stage 3 is open.** The post-IPO intake landed 75 filings (~10.1 MB) into `sources/` with a cache section and
+a manifest, and it settled three long-standing unknowns on the record: founder compensation **$64,333 →
+$79,197 → $81,840 for 1996/97/98 with zero bonus and zero options** (by 1998 Bezos was paid less than four of
+his own VPs, and the two proxies' option counts differ only by split vintage); the **personal guarantees are
+never mentioned in any filing after 1997-05-15**, so their release stays UNKNOWN with the EDGAR route now
+exhausted — documented silence, not absence; and the merchant-account exhibits cited at S-1 l.18509 are a
+**reading gap, not a retrieval gap** — that range is a subrogation agreement and no bank or merchant
+agreement was ever filed. It also found fresh evidence nobody has opened: **five sales agreements dated
+1999-03-11 inside the Q1-1999 10-Q**. The retrieval overran its own request cap (230 against 150) because of
+a URL defect the agent diagnosed and reported honestly: 150 four-oh-four requests that moved no data.
+
+**Other returns:** Stage 2's chronology repairs closed its invented date and its filing-attribution defect,
+adding U.112 and U.113 so §U now runs U.44–U.113 at **70 blocks ↔ 70 register rows**; Apple gained a
+founder-forensics dossier (45 records; **no officer title for either founder appears anywhere in 1976–77
+print**, and the calculator-and-bus capital story rests only on a 2006 memoir); UnitedHealth's dossier moved
+its money series back FY1993→FY1990 and corrected its own brief — the `corporate_print` queries for it return
+**numFound=0**, not non-zero — while landing the honest finding that dated in-window print **names the
+environment and not the firm**, so it stays forensic-core.
 
 ### 2026-09-25 (midday): the fabrication catch, Stage 2's appendix, and a third audit refused
 
