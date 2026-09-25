@@ -93,7 +93,7 @@ Statuses: `NOT STARTED` · `DISCOVERY` · `DEEP RESEARCH` · `RECONSTRUCTION` ·
 
 | # | Company | Stage 1 | Stage 2 | Stage 3 | Quant | Sources | Adversarial | QA | Final |
 |---|---|---|---|---|---|---|---|---|---|
-| 001 | Amazon | QA — REOPENED, repair in flight | RECONSTRUCTION (§P–U in flight) | NOT STARTED | RECONSTRUCTION | RECONSTRUCTION | RECONSTRUCTION | AUDIT 6 = REOPEN | NOT STARTED |
+| 001 | Amazon | QA — repairs applied, **third-pass re-certification running** | **RECONSTRUCTION — 3 volumes on disk (81,129 w), claim records + 5 audits running** | NOT STARTED | RECONSTRUCTION (193 rows) | RECONSTRUCTION (113 rows) | RECONSTRUCTION (68 conflicts) | AUDIT 6 = REOPEN → AUDIT 7 pending | NOT STARTED |
 | 002 | Walmart | DEEP RESEARCH (133-record dossier) | PROBE | NOT STARTED | DEEP RESEARCH | DEEP RESEARCH | NOT STARTED | NOT STARTED | NOT STARTED |
 | 003 | UnitedHealth Group | DISCOVERY | PROBE | — | — | — | — | — | — |
 | 004 | Apple | DEEP RESEARCH (80 records, 4 registers) | PROBE | — | DEEP RESEARCH | DEEP RESEARCH | NOT STARTED | NOT STARTED | NOT STARTED |
@@ -519,7 +519,7 @@ re-using those ids) is handed to the orchestrator unsolved.**
 | RD-042 | Amazon | `data_gaps.csv`; this log §6; `context_appendices.md` §J | Register mirror not closed: no survivorship row, RD-035/036/037 id collision, RD-027 unresolved | Method §13 (High-importance gap without a clean follow-up id) | **Orchestrator** | **OPEN — High.** Not touched: de-colliding ids means re-keying another agent's debts, and the survivorship row is a register-mirror decision. **Note that RD-027 is now actionable:** a 424B1 (`acc. 0000891020-97-000868`, 266,755 B, 35,054 w) appeared in `sources/` at 17:00 on 2026-09-24, during this closure. This pass **read none of it, cited none of it and claimed no verdict from it** — a file that arrives while you are closing a stage is evidence for the next pass, not for this one, and it is registered here only so its arrival is not lost |
 
 | RD-043 | Amazon | `_parts/s2_p3.md` | **§K–§O at 5,668 w against §E–§J at 14,810 w** — the money section is ~38% of its sibling's volume after four compression passes by its writer | Stage-2 density parity is per-section, not per-file; a thin §K understates the financing evidence that exists | Top-up from `ST2_B_finance.md` (67 records) and `ST2_E_adversarial.md` after the merge, without re-deriving any figure | OPEN — next assembly pass |
-| RD-044 | Walmart | `A2_chronology_finance.md` | **Several FY1968–79 "audited" years rest on later restatement rather than contemporaneous reports**, while the IA run is contiguous FY1972→1998 | A restated figure is retrospective evidence; presenting it as filed overstates the spine and flatters the depth verdict | COR-A2-10; retrieval of FY1974/75/77/78/79 dispatched | OPEN — retrieval in flight |
+| RD-044 | Walmart | `A2_chronology_finance.md` → `A3_audited_series_1962_1980.md` | **Several FY1968–79 “audited” years rested on later restatement rather than contemporaneous reports** | A restated figure is retrospective evidence; presenting it as filed overstates the spine and flatters the depth verdict | **RETRIEVED 2026-09-24:** FY1974/75/77/78/79 now on disk as full text (IA run contiguous FY1972→FY1998), plus two catalogue stubs (DTIC discount-retail study 1998; “Sam Walton: the inside story” 1990). Re-derivation of the series in `A3`, which must mark every row CONTEMPORANEOUS or RESTATED | OPEN — rework in flight; the verdict may still not leave one-lineage-provisional without an independent witness (RD-045) |
 | RD-045 | Walmart | periodical families | **Periodicals are UNANSWERED, not null**: Google Books 429, HathiTrust TLS/0, Chronicling America 403; and the harvest searched the town "Newport, Missouri" instead of the brand | The depth verdict cannot leave exemplar-gated provisional on one lineage with zero independent contemporaneous witness | Chain Store Age chain directories 1964–70 via an unthrottled route (the nightly GitHub Actions runner is the intended first real attempt) | OPEN |
 | RD-046 | Apple | `A_chronology_feasibility.md` | **Thirteen outbound corrections from A2 are unapplied**, incl. AP-14 (date + store name), AP-17 (full price ladder), AP-26 (a false "zero occurrences") and the probe's own provenance headers contaminating greps of its cached files | A superseded probe still on disk invites a later pass to re-import its errors | `A2_periodical_archive_mine.md` §Outbound corrections C-1…C-13 | OPEN — supersession footers, not rewrites |
 
@@ -627,6 +627,43 @@ confirming the detector caught it** — the strongest verification step taken so
 chasing stale copies that survived outside that agent's write scope (known survivors: `stage_1.md`
 §S and §U.8, `data_gaps.csv` r11, `context_appendices.md` ~l.596, `_parts/NUMBER_DEFECTS.md` r43), and
 **both audit gates still need their independent re-verification — a repair is not a pass.**
+
+### 2026-09-25 (morning): Stage 2 volumes shipped; registers merged; off-machine status re-tested
+
+**Stage 2 merge.** `_parts/s2_p1..p4` were merged into three volumes at section boundaries (§9.3), with
+continuous numbering and nothing trimmed: `stage_2_part_1.md` 18,360 w (header, boundary, §A–§H + a
+conventions block carrying the assemblers' reading rules verbatim), `stage_2_part_2.md` 25,346 w (§I–§P),
+`stage_2_part_3.md` 37,423 w (§Q–§U including §S.9, the two parts' UNTRIED lists folded into the single
+gaps register). Narrative total **81,129 w = 1.64× Stage 1**, concentrated in §P (13,753) and §U (19,351),
+which is the expected shape for a stage with four filing lineages and 68 live conflicts. `stage_2_index.md`
+is the volume map.
+
+**Registers.** The 283 Stage-2 rows emitted by `_parts/s2_p4.md` were applied to all nine registers after
+validation (header equality, uniform field count, no duplicate `conflict_id`/`source_id`,
+`derived_arithmetic` on every DERIVED row, stage values checked): conflicts 43→**111**, quantitative
+111→**193**, timeline 57→**115**, validation 29→**40**, failures 33→**46**, decisions 15→**25**, channels
+15→**23**, sources 102→**113**, data_gaps 23→**45**. Stage-1/Stage-2 parity held exactly as required:
+**68 §U blocks (U.44–U.111) ↔ 68 conflicts rows**, no orphans either way.
+
+**Off-machine compute, re-tested 06:38 UTC.** Two results, both negative, both honest:
+1. **QCA sessions still return HTTP 402** (no account credit). Two agents are provisioned and idle —
+   `fp-forensic-researcher` (3.8-Max, xhigh, 400k) and `fp-forensic-researcher-fast` (Qwen3.8-Flash, low)
+   — the environment exists, and still **nothing has ever executed remotely**. Cloud is unverified, not proven.
+2. **The nightly harvester has run zero times.** `.github/workflows/harvest.yml` is registered `active` on
+   `main` with `cron: 17 6 * * *`; at 06:39 UTC — 22 minutes past schedule — `actions/runs` returns
+   `total_count: 0`. `next_run_at` was null when the workflow was listed, which is the usual sign that the
+   scheduler has not adopted the file yet. A `workflow_dispatch` would force it and needs a GitHub token,
+   which is deliberately not stored in this repo.
+   **Interim mitigation, dispatched:** Internet Archive is the one periodical route that works from this
+   machine (it is how five more Wal-Mart reports arrived), so a bounded intake pass now targets *Chain Store
+   Age*, *Discount Store News*, Kilobaud/Interface/Creative Computing and Minnesota business print into
+   `00_universe/harvest/periodicals_intake/` — without touching the blocked hosts or the live dossiers.
+
+**Running now (five agents, disjoint paths):** Stage-2 claim-record registrar · AUDIT-7 Stage-1
+re-certifier (independent of both repairer and AUDIT-6 verifier) · Walmart `A3` audited-series rework on
+the newly contemporaneous FY1974/75/77/78/79 reports · Stage-2 chronology audit · IA periodicals intake.
+**Do not re-dispatch any of these while they are live** (§14.7 — the rule exists because this project
+already paid for a double-write).
 
 ### Wave of 2026-09-24 (evening): Stage-2 assembly lands, Stage-1 closure REOPENED by independent QA
 

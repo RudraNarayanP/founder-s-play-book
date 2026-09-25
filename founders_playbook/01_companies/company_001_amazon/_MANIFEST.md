@@ -149,3 +149,44 @@ opportunity** (§14 rule 4).
   CRLF; the conversion is geometry only — no content changed, and it is recorded here rather than silently
   repaired.
 - Regenerate this manifest's counts after every merge or repair pass.
+
+
+---
+
+## Register regenerated 2026-09-25 (supersedes the 2026-09-24 table above for these files)
+
+Stage 2 shipped as three volumes plus an index, and its 283 register rows were applied; the AUDIT-6
+repairs also changed ten Stage-1 files, so every count below was recomputed from disk rather than
+carried forward. Files under `sources/` and `research/` are not listed here: the former are restored
+primaries governed by §9.1's 500,000-word/200 MB ceiling, the latter are dossiers, not volumes.
+
+| File | Words | Bytes |
+|---|---|---|
+| `CORRECTIONS.md` | 3,634 | 23,717 |
+| `_MANIFEST.md` | 2,394 | 15,588 |
+| `adversarial_review.md` | 4,611 | 29,565 |
+| `context_appendices.md` | 11,373 | 75,659 |
+| `stage_1.md` | 50,654 | 329,070 |
+| `stage_1_claim_records.md` | 52,549 | 341,982 |
+| `stage_2_index.md` | 429 | 2,570 |
+| `stage_2_part_1.md` | 18,360 | 120,021 |
+| `stage_2_part_2.md` | 25,346 | 159,724 |
+| `stage_2_part_3.md` | 37,423 | 247,009 |
+| `channels.csv` | 1,914 | 14,688 |
+| `conflicts.csv` | 24,584 | 165,473 |
+| `data_gaps.csv` | 4,887 | 33,830 |
+| `decisions.csv` | 2,981 | 22,012 |
+| `failures.csv` | 3,634 | 27,168 |
+| `quantitative.csv` | 11,692 | 89,431 |
+| `sources.csv` | 16,961 | 133,015 |
+| `timeline.csv` | 5,581 | 44,987 |
+| `validation.csv` | 3,069 | 22,874 |
+| **Total (this directory, stage files + registers)** | **282,076** | **1,898,383** |
+
+**Ceiling check.** Over the 60,000-word §9.2 cap: none.
+Largest file is 52,549 words = 88% of the stage-file cap and
+0.2% of the §9.1 upload ceiling. Stage 2 therefore **had** to be
+volume-split (§A–H / §I–P / §Q–U, see `stage_2_index.md`) and no volume is near the cap.
+
+**Not yet built for Stage 2:** `stage_2_claim_records.md` (in progress), Stage-2 context appendices, and
+the five Stage-2 audits. `stage_2_index.md` records the registers' Stage-1/Stage-2 row split.
