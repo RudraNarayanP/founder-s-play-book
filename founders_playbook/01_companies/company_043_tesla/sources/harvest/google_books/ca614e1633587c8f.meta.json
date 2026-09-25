@@ -1,0 +1,25 @@
+{
+ "url": "https://books.google.com/books/feeds/volumes?q=%22Tesla+Motors%22+Musk+founder+Straubel&maxResults=10",
+ "evidence_file": "ca614e1633587c8f.xml",
+ "http_status": 200,
+ "content_type": "application/atom+xml; charset=UTF-8",
+ "bytes": 26224,
+ "retrieved_at": "2026-09-25T19:49:28Z",
+ "ext": ".xml",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/atom+xml,application/xml;q=0.9,application/json;q=0.8,*/*;q=0.7"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "",
+ "retry_after": "",
+ "note": "",
+ "source": "google_books",
+ "query_label": "GB '\"Tesla Motors\" Musk founder' volumes feed",
+ "company": "tesla",
+ "kind": "search"
+}

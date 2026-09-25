@@ -1,0 +1,9 @@
+{
+ "identifier": "byte-magazine-1987-04",
+ "url": "https://archive.org/download/byte-magazine-1987-04/1987_04_BYTE_12-04_Instruction_Set_Strategies_djvu.txt",
+ "fetched": "2026-09-25T19:55:17Z",
+ "bytes": 1769686,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

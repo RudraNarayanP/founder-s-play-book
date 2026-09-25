@@ -1,0 +1,2 @@
+company,source_family,query,item_id,title,date_or_issue,url,snippet_or_hitcount,http_status,classification,retrieved_at
+tesla,chronicling_america,"CA canary '""Tesla Motors'"" electric car 2003-2008",,,,,"UNANSWERED[bot_challenge]: HTTP 403 Cloudflare bot-management challenge (Cf-Mitigated: challenge, Cf-Ray: a40c93c55817518d-DEL). The host answered 'prove you are a browser' and never searched anything: UNANSWERED, not a null, and no parameter change will fix it saved:chronicling_america/f9b9c66c82abd391.json",403,UNANSWERED,2026-09-25T19:53:47Z

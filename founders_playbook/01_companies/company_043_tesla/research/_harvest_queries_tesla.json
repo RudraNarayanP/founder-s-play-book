@@ -1,0 +1,100 @@
+{
+  "_comment": "Probe-scoped harvest config for company_043_tesla (probe-tesla, 2026-09-26). Kept beside the dossier instead of editing tools/queries.json, which is a shared file. Run: python tools/periodical_harvest.py --config founders_playbook/01_companies/company_043_tesla/research/_harvest_queries_tesla.json --out founders_playbook/01_companies/company_043_tesla/sources/harvest --insecure-hosts babel.hathitrust.org",
+  "per_source_caps": {
+    "chronicling_america": 2,
+    "internet_archive": 10,
+    "corporate_print": 6,
+    "hathitrust": 2,
+    "google_books": 2
+  },
+  "tasks": [
+    {
+      "company": "tesla",
+      "source_family": "internet_archive",
+      "kind": "search",
+      "query_label": "IA texts 'tesla motors' electric car 2003-2007 (periodical-era mentions)",
+      "window": [2003, 2007],
+      "params": {"q": "\"tesla motors\" electric car AND mediatype:texts", "rows": 20}
+    },
+    {
+      "company": "tesla",
+      "source_family": "internet_archive",
+      "kind": "search",
+      "query_label": "IA texts 'tesla motors' roadster 2004-2008",
+      "window": [2004, 2008],
+      "params": {"q": "\"tesla motors\" roadster AND mediatype:texts", "rows": 20}
+    },
+    {
+      "company": "tesla",
+      "source_family": "internet_archive",
+      "kind": "search",
+      "query_label": "IA texts Eberhard Tarpenning founding 2004-2016 (carrier of founder accounts)",
+      "window": [2004, 2017],
+      "params": {"q": "Tarpenning Eberhard AND mediatype:texts", "rows": 20}
+    },
+    {
+      "company": "tesla",
+      "source_family": "corporate_print",
+      "kind": "search",
+      "query_label": "CP tesla motors corporate print, title-scoped 2003-2010",
+      "window": [2003, 2010],
+      "params": {
+        "company_terms": ["tesla motors", "tesla", "teslamotors"],
+        "report_terms": ["annual", "report", "reports", "shareholder", "stockholder", "prospectus", "roadster"],
+        "mediatype": "texts",
+        "year_range": [2003, 2010],
+        "rows": 30,
+        "name_patterns": ["tesla motors", "teslamotors"],
+        "identity_terms": ["inc", "corporation", "company"]
+      }
+    },
+    {
+      "company": "tesla",
+      "source_family": "corporate_print",
+      "kind": "search",
+      "query_label": "CP tesla motors creator-scoped, NO report terms, 2003-2012",
+      "window": [2003, 2012],
+      "params": {
+        "company_terms": ["tesla motors", "teslamotors"],
+        "scope_field": "creator",
+        "mediatype": "texts",
+        "year_range": [2003, 2012],
+        "rows": 30,
+        "name_patterns": ["tesla motors"],
+        "identity_terms": ["inc", "corporation"]
+      }
+    },
+    {
+      "company": "tesla",
+      "source_family": "hathitrust",
+      "kind": "search",
+      "query_label": "HT '\"Tesla Motors\" electric roadster' full-text search 2003-2008",
+      "window": [2003, 2008],
+      "params": {"q1": "\"Tesla Motors\" electric roadster San Carlos"}
+    },
+    {
+      "company": "tesla",
+      "source_family": "google_books",
+      "kind": "search",
+      "query_label": "GB '\"Tesla Motors\" Eberhard Tarpenning founded' volumes feed",
+      "window": [2005, 2018],
+      "params": {"q": "\"Tesla Motors\" Eberhard Tarpenning founded", "max_results": 10, "endpoint": "feeds"}
+    },
+    {
+      "company": "tesla",
+      "source_family": "google_books",
+      "kind": "search",
+      "query_label": "GB '\"Tesla Motors\" Musk founder' volumes feed",
+      "window": [2008, 2018],
+      "params": {"q": "\"Tesla Motors\" Musk founder Straubel", "max_results": 10, "endpoint": "feeds"}
+    },
+    {
+      "company": "tesla",
+      "source_family": "chronicling_america",
+      "kind": "search",
+      "query_label": "CA canary '\"Tesla Motors'\" electric car 2003-2008",
+      "window": [2003, 2008],
+      "params": {"q": "\"Tesla Motors\" electric", "from": 2003, "to": 2008}
+    }
+  ]
+}

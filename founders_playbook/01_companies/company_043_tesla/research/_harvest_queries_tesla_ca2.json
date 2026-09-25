@@ -1,0 +1,23 @@
+{
+  "_comment": "pass-2: chronicling_america only, params restricted to the harvester's published whitelist (pass-1 used unpublished q/from/to and the planner refused).",
+  "per_source_caps": {
+    "chronicling_america": 2,
+    "internet_archive": 10,
+    "corporate_print": 6,
+    "hathitrust": 2,
+    "google_books": 2
+  },
+  "tasks": [
+    {
+      "company": "tesla",
+      "source_family": "chronicling_america",
+      "kind": "search",
+      "query_label": "CA canary '\"Tesla Motors'\" electric car 2003-2008",
+      "window": [
+        2003,
+        2008
+      ],
+      "params": {}
+    }
+  ]
+}

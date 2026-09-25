@@ -1416,3 +1416,43 @@ into a computer company's directory. Queued with RD-098 against the file's owner
 **A disclosed rule-4 slip, kept visible:** the fetch agent deleted two 0-byte files it had just created
 from an invented filename. That is its own junk, not corpus evidence, and it reported it unprompted -- the
 correct handling, so recorded as compliance rather than violation.
+
+### RD-102 -- Dell: T3 as measured, with the richest in-window print of any probe so far
+
+Probe `company_041_dell/research/A_chronology_feasibility.md` (6,393 w, 10/10 sections, released).
+**T3 by §15.2's literal count -- one family returns in-window Tier-1 text -- with one named test gating T2**:
+HathiTrust/Google Books for the printed FY1989-1993 reports and the 1988 prospectus. T1 is structurally
+unreachable for this Stage 1.
+
+Both entity traps settled from documents rather than assumption. The ranked registrant CIK 1571996 starts
+**2013-07-24** and contains the EMC `425`/`S-4` and a first 10-Q literally named `denaliq1fy1710q.htm` --
+a merger shell; founding research must run against legacy CIK **826083**, which floors at 1994-02-11 with
+**no S-1 among 1,851 enumerated filings and no UNANSWERED slice**. The held FY1994 10-K then supplies
+Tier-1 retrospective fixes: Texas incorporation May 1984, Delaware rename October 1987, **S-1 Reg. 33-21823
+filed 1988-05-12**, and a **1984-05-03 employment agreement with "a predecessor of Dell Computer
+Corporation"**. Stage 1 is therefore 1984-05-03 -> 1988-05-12 with the IPO pricing date UNKNOWN.
+
+Family (c) is the surprise and it is genuinely in-window: **BYTE April 1987 carries a full-page PC's Limited
+advertisement** (1.77 MB of a 7.4 MB run held: *"In three years, PC's Limited has revolutionized the way
+America buys personal computers"*, 30-day guarantee, 8/12 MHz), and BYTE October 1988 carries a Dell Computer
+Corporation ad with its own copyright line. Two further issues are clean nulls, and the run inventory shows
+the depth still unmined: **159 BYTE items 1986-89, 57 PC Magazine, 26 InfoWorld**.
+
+Two findings that must not be smoothed over:
+- **C-1: no Tier-1 document held states that PC's Limited *became* Dell Computer Corporation.** "PC's
+  Limited" occurs zero times in the held filing and zero times in Dell's EDGAR full text. The rename is
+  assumed by every secondary account and established by none of ours.
+- **C-5: the famous $1,000 founding account is unevidenced here** and flagged as single-lineage company
+  self-retrospective -- the same discipline that kept $666.66 out of Apple's facts.
+
+Honest-limit reporting worth noting as the standard: family (d) was queried four explicit ways before any
+"paper-only" wording (`(dell) AND collection:(annualreports)` = numFound 0; `title:("Dell Computer")` = 550
+post-1995 manuals, inadmissible as current-state), IA bytes are sidecar-stamped `transport: UNVERIFIED TLS`,
+and the agent reported its own verified-TLS control as **inconclusive, not a pass**, because the control hit
+the cache.
+
+**RD-102b -- `tools/queries.json` has now bottlenecked a third company** (Alphabet, Target, Dell all hit it:
+no per-company block, and it is shared config outside a research agent's write scope). Standing job: one
+mechanical pass appending periodical/corporate-print query blocks for all 50 companies, because **the
+periodical family is the one that decides tier** and every company probed without it is under-graded by
+construction. Queued until the current owner of that file releases it.

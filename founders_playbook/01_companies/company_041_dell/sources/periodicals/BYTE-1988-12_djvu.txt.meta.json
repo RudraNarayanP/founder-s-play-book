@@ -1,0 +1,9 @@
+{
+ "identifier": "BYTE-1988-12",
+ "url": "https://archive.org/download/BYTE-1988-12/BYTE-1988-12_djvu.txt",
+ "fetched": "2026-09-25T19:55:31Z",
+ "bytes": 2417361,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}
