@@ -256,6 +256,41 @@ def gate_keys(company, report):
             report.ok("keys", label, "%d source tokens all resolve" % len(cited))
 
 
+def declared_anchors(text):
+    """An explicit ANCHORS declaration in a volume is authoritative when present.
+
+    Written with no regex and no escapes on purpose. Walmart's merge proved the alternative is
+    hopeless: conflict anchors are U.001-style at that company and U.1-style at Amazon, and
+    section U ALSO numbers its subsections U.1, U.4, so no pattern can tell an anchor from a
+    subsection across companies. Declaring the set removes the guess instead of encoding a
+    guess about zero-padding width.
+
+        <!-- ANCHORS: U.001-U.048, U.101-U.116, U.201-U.222 -->
+    """
+    i = text.find("ANCHORS:")
+    if i < 0:
+        return None
+    j = text.find("-->", i)
+    if j < 0:
+        return None
+    out = set()
+    for tok in text[i + len("ANCHORS:"):j].replace(",", " ").split():
+        if not tok.startswith("U."):
+            continue
+        if "-" in tok:
+            lo, _, hi = tok.partition("-")
+            try:
+                a, b = int(lo.split(".")[1]), int(hi.split(".")[1] if "." in hi else hi)
+            except (IndexError, ValueError):
+                continue
+            width = len(lo.split(".")[1])
+            for n in range(min(a, b), max(a, b) + 1):
+                out.add("U." + str(n).rjust(width, "0"))
+        else:
+            out.add(tok)
+    return out or None
+
+
 def _anchors(text):
     return {m.group(0) for m in re.finditer(r"\bU\.(\d+[a-z]?)\b", text)}
 
@@ -299,7 +334,13 @@ def gate_anchors(company, report):
     files = narr_files(company)
     all_nar = set()
     for p in files:
-        nar = _anchors_declared(open(p, encoding="utf-8", errors="replace").read())
+        body = open(p, encoding="utf-8", errors="replace").read()
+        nar = declared_anchors(body)
+        if nar is not None:
+            report.note("anchors", "%s declares an explicit ANCHORS set (%d ids)"
+                        % (os.path.relpath(p, company).replace("\\", "/"), len(nar)))
+        else:
+            nar = _anchors_declared(body)
         all_nar |= nar
         if nar:
             report.note("anchors", "%s declares %d anchors"

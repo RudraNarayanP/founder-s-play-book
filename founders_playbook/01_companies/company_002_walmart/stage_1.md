@@ -1,4 +1,5 @@
 # FORENSIC LONGITUDINAL DATASET — WAL-MART STORES, INC., STAGE 1 (1945 → 1970-10-08)
+
 ## MERGED VOLUME 1 — Header, STAGE BOUNDARY JUSTIFICATION, §A–§L, and §M–§U
 
 **Assembly note (written by the merge pass, 2026-09-26; no line below it is rewritten, renumbered or
