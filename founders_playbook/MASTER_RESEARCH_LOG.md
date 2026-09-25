@@ -1665,3 +1665,46 @@ author is not verified.
   register row -- both already in the live gate-residue pass's scope.
 - Untestable/UNTRIED: indenture terms, `$349m` composition (correctly UNKNOWN), ~45 §P rows, the other
   registers, and all secondary print.
+
+### RD-109 -- two company audits land, and my gate went through two wrong fixes before a right one
+
+**Apple Stage 1: PASS-WITH-DEFECTS (1 high).** `03_quality_control/apple_s1_audit1_chronology_hindsight.md`.
+The high finding is a boundary drift in §Q: the Homebrew row is flattened to a single date `1977-01-19` and
+labelled "In-window (last document before the edge)" -- **16 days past the adopted 1997->1977-01-03 edge**,
+in the one section whose stated rule is that the reader "cannot drift the boundary", and every other carrier
+(§A, §D, S1P1-29, §P P32, all U.021 rows) correctly uses the straddle range. It also props a "twenty dated
+rows inside the window" claim. Verified clean and worth recording: **$666.66 = 0 hits across all 61 source
+files**, 11 quotations re-grepped present, five conflicts two-sided and unaveraged, `mechanism UNKNOWN` used
+rather than manufactured, inevitability sweep 3 hits all benign.
+
+**Wal-Mart Stage 1: PASS-WITH-DEFECTS (2 high).** `03_quality_control/walmart_s1_audit1_chronology_hindsight.md`.
+HDR-1: the volume header still asserts "a **Delaware** corporation; incorporated **1969-10-01**" -- retracted
+at U.014, with "Delaware" printing **0 times in all nine annual reports**. HDR-2: the same line asserts
+"Wal-Mart, Inc., an Arkansas corporation", which §B.0 classes as Tier-4 folklore with 0 occurrences on disk,
+undisclosed there. **A retraction that never reached the header is the RD-105 failure mode one layer
+earlier** -- headers are the most-read line in a volume. Plus MERGE-1 (Medium) against the merge account, and
+the auditor's judgement that `U.1`/`U.4` was a false positive for a reason I had not found: §U's own headings
+`### U.0`-`### U.4` collide with the zero-padded `U.0nn` anchor grammar, and U.0/U.2/U.3 only "passed" because
+registers echo those labels as prose (64/96/32 hits) -- **parity held by accident**.
+
+**My gate work on this, honestly told.** I made three changes in sequence:
+1. `declared_anchors()` -- an explicit `<!-- ANCHORS: ... -->` set wins over pattern-guessing. **Keep.**
+   Necessary because anchor padding is company-local (Amazon `U.1`, Walmart `U.001`) while §U also numbers
+   subsections `U.1`. No pattern can separate them.
+2. Anchor **citation resolution**, split **hard** (a REGISTER row citing a §U entry that is never declared --
+   unambiguous damage) vs **advisory** (a prose mention -- it holds placeholder patterns like `U.1n`,
+   reserved blocks, and ids under discussion). **Keep.** First cut flagged 15 items across three companies,
+   mostly noise; three false-positive classes in five minutes was the signal to stop failing on prose.
+3. Restricting register anchors to non-prose columns. **Reverted.** It looked principled -- parity satisfied
+   by an accidental echo is not parity -- but it deleted real coverage, because anchors legitimately live in
+   `section` and `gap` cells: Apple's documented nulls U.025-U.039 vanished and Amazon's parity broke. The
+   echo weakness is now handled by the declaration instead.
+**Post-revert state: Apple 0 findings / 55<->55 parity; Amazon 183<->183 parity; Walmart 2 findings;
+self-test PASS with a new must-stay-clean control (a backticked anchor id stays clean).**
+**Standing lesson:** the correct response to a wrong checker is not a stricter checker -- it is a narrower
+claim. Failing on registers, noting on prose, and declaring where grammar is ambiguous is accurate; a
+whole-corpus allowlist is how I manufactured a 5× larger defect an hour earlier.
+
+**Tool defect handed back by an auditor, not yet fixed:** `tools/scaffold.py`'s `section` command rewrote
+quoted evidence in the Wal-Mart audit sheet. Investigate before it damages another pass -- a tool that
+edits an agent's text is a data-integrity risk in a corpus whose whole value is that nothing is altered.
