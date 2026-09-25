@@ -1741,3 +1741,31 @@ path is on another drive (that traceback had killed an agent's call outright). V
 
 **Standing lesson, added to memory:** a false "written" is worse than a missing one, and any tool that
 reports progress is reporting a *claim* -- so it needs the same adversarial testing as a citation.
+
+### RD-111 -- Target's founding decade is now documented print, and the founder question got sharper rather than answered
+
+Dossier `company_042_target/research/B1_dayton_print_records.md` (7,860 w, 8/8 sections, released). Five more
+OCR layers fetched (FY1966/67/71/73/74, 371,992 B) so the **founding-era run is gap-free FY1965->FY1975**
+(11 layers, 781,995 chars). All five arrived over `--insecure` after `CERTIFICATE_VERIFY_FAILED`, so every
+byte is sidecar-stamped UNVERIFIED and **capped at Medium** -- the disclosure is the point, not the workaround.
+
+What it buys, which EDGAR cannot:
+- **Earliest store datum in the whole corpus:** the FY1965 layer enumerates **four 1962 stores by
+  municipality** -- Roseville, Crystal, Duluth, Kniodwood/St. Louis Park -- plus "five Target stores ... four
+  in Minneapolis-St. Paul and one in Duluth". (Note the layer's own spelling of the fourth; transcribe as
+  printed, do not silently correct a place name.)
+- **A series to FY1972 and a FY1973 five-year low-margin row carrying sales 1969-73** -- 19 quantitative
+  rows, none of which exist anywhere in the electronic record.
+- 12 claim records, registers emitted for merge: sources 14, quantitative 25, timeline 13, conflicts 6,
+  data_gaps 7, all validated to uniform §13 widths with **no CSV edited** (the merge applies them).
+
+**K1 (who founded it) got sharper, not settled.** Company print names **Douglas J. Dayton as President** and
+**John Geisse as VP then SVP** of Target Stores across FY1965-67 -- and **Geisse disappears to 0 occurrences
+from FY1968**. That is documentary evidence about *roles*, and it does not answer "founder": the audit trail
+now has officer titles from the registrant and a founder attribution only from later obituary and interview
+sources. The agent kept the conflict two-sided and refused to average. Correct posture, and the departure
+year is itself a lead worth following later.
+
+Tally, honestly split: **7 NULLs** (including 1962-month = 0 hits and Dey/Goodfellow = 0 across 11 layers),
+**5 UNANSWERED/tool-limitation items**, **8 UNTRIED**. It also corrected a byte count the probe had recorded
+for FY1970.
