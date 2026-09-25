@@ -439,11 +439,12 @@ ever be extracted from EDGAR.
 | `SC13G_jeffrey-bezos_acc-0000891020-98-000175_filed-1998-02-17.txt` | 10,894 B / 914 w | Form **SC 13G**, accession `0000891020-98-000175`, filed **1998-02-17**, description "SCHEDULE 13G FOR JEFFREY BEZOS" | **T1** | **Bezos's own post-IPO stake, self-reported nine months after the offering: 9,885,000 shares** — the same figure the S-1's registration-rights paragraph uses. Fixes the founder-equity line for the FY1997→FY1998 boundary without inference from percentages |
 | `SC13G_jacklyn-gise-bezos-miguel-bezos_acc-0000891020-98-000174_filed-1998-02-13.txt` | 18,625 B / 1,671 w | Form **SC 13G**, accession `0000891020-98-000174`, filed **1998-02-13**, description "SCHEDULE 13G FOR JACKLYN GISE BEZOS & MIGUEL BEZOS" | **T1** | The family-side holdings (spouse and brother) four days earlier. **Do not aggregate with the Bezos row without checking for shared beneficial ownership** — the forms' own item 3/4 attribution governs |
 
-## Current reports — the dated event record, 1997-11 → 1999-10 (27)
+## Current reports — the dated event record, 1997-11 → 1999-10 (26)
 
-All 25 Forms 8-K plus the one Form 8-K/A and the 1997 8-K that Stage 2 listed as UNTRIED. Each row cites the
-index `form` / `accessionNumber` / `filingDate`; the event date is the index `reportDate` and is the date of
-earliest event reported on the face of the form.
+**All 25 Forms 8-K (1997-11-10 through 1999-10-28) plus the single Form 8-K/A — the entire current-report
+record of the window, including the 1997-11-10 8-K Stage 2 listed as UNTRIED.** Each row cites the index
+`form` / `accessionNumber` / `filingDate`; the event date is the index `reportDate`, i.e. the date of earliest
+event reported on the face of the form.
 
 | File | Size | Document | Tier | Use for |
 |---|---|---|---|---|
