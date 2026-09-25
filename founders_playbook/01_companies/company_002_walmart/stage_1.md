@@ -17,13 +17,23 @@ in place inside the narrative as the audit trail of what was requested; they are
 Every row in them was applied, refused-with-a-reason, or re-pointed at merge, and the account is in
 `03_quality_control/walmart_s1_merge.md`.
 
-**Two defects carried visibly, not fixed.** (1) §U's own subsection labels (`### U.0`…`### U.4`) collide with
-the `U.nnn` anchor grammar the `anchors` gate reads, so the gate reports U.1–U.4 as narrative anchors with no
-register row; they are section numbers, not conflicts, and the merge does not retitle a part (§9.3). (2) Part 1's
-header and §D-R03 carried "a Delaware corporation; incorporated 1969-10-01", which no document in `sources/`
-supports; the corrected reading (state UNKNOWN, day UNKNOWN, 1969 year-only and company-asserted) is what the
-registers carry, as conflict **U.014**, and the original wording stays visible in the part's own text so the
-audit pass can adjudicate the pointer, not just the value.
+**Defects carried visibly by the merge, and their disposition on the 2026-09-26 repair pass.**
+(1) §U's own subsection labels (`### U.0`…`### U.4`) collide with the `U.nnn` anchor grammar the `anchors`
+gate reads. What the merge wrote here — that the gate "reports U.1–U.4" — was **wrong**: it reported
+**U.1 and U.4 only**, and `U.0`, `U.2`, `U.3` passed **by accident**, because the registers echo those labels
+as prose (`data_gaps.csv` cells reading "verbatim from U.2", "s1_p3.md U.3"; `U.0` matches inside the
+sub-number `U.0.1`). Repaired on this pass by an **explicit anchor declaration** at §U.0, 80 ids derived
+from the registers plus §U's own null and route declarations, which makes the heading labels inert without
+renumbering the spine (§9.3). (2) **HDR-1/HDR-2, HIGH — the identity line.** Part 1's header and §D-R03
+carried "a Delaware corporation; incorporated 1969-10-01", and the merge **restated that line in this
+volume's own `**Company:**` line** — below this note, in bold, present tense, unrestacted — with a second
+clause, "the operating entity from 1962 was Wal-Mart, Inc., an Arkansas corporation", which §B.0 classes as
+Tier-4 folklore at **0 occurrences on disk** and which this front matter **never disclosed at all**. The
+identity line is now corrected against the held documents (state UNKNOWN; 1969 year-only and
+company-asserted; **1970-02-01** pooling as the documented formation; 1962 registrant-retrospective), and the
+withdrawal is recorded as **COR-301** / **COR-302** in `CORRECTIONS.md`, reaching the registers through
+**U.013** and **U.014**. `_parts/s1_p1.md` and §D-R03 keep their original wording **visible beside their own
+corrections** (D-R03c, U.014): this pass supersedes, it does not erase (§14 rule 8).
 
 ---
 
@@ -36,9 +46,28 @@ metric IDs and conflict numbering run continuously across volumes: **§A–§D l
 Cross-references of the form `(Walmart S1 §D.2, part_1)` name the volume. No id anywhere in the
 spine is renumbered to make a part look self-contained.*
 
-**Company:** Wal-Mart Stores, Inc. — a **Delaware corporation**; incorporated **1969-10-01**; the
-operating entity from **1962** was **Wal-Mart, Inc., an Arkansas corporation** (register lineage and
-the two-issuer question are handled at §B.0 and §boundary; `company_002_walmart`).
+**Company (identity line repaired 2026-09-26: this replaces the withdrawn form and supersedes nothing in the
+body — the original wording stays visible at `_parts/s1_p1.md` and at §D-R03 beside its correction §D-R03c;
+see `CORRECTIONS.md` **COR-301**/**COR-302**):**
+**Wal-Mart Stores, Inc.** — the registrant at the **close** of the window, named in an audited note;
+carrier **S0101** (FY1972 report, Note 1 / capital note) → §B.0, §R.
+**State of incorporation: UNKNOWN.** The word "Delaware" occurs **0 times** in all nine held annual
+reports (verified negative on this repair pass), and the day-precision date **1969-10-01 is withdrawn**:
+both were carried by part 1's header and by §D record **D-R03**, and are retracted at conflict **U.014**
+and at **D-R03c**. The **only** incorporation statement on disk is the registrant's own undated curated
+history page — "**1969**, year only, no month, no day, no state, no citation"
+(`sources/EXTRACT_corporate_walmart_history_timeline.md`; **U.013** CLAIM A).
+**Carrier for the consolidated registrant: 1970-02-01**, an exchange of common stock accounted for as a
+**pooling of interests** out of "the various subsidiaries" held by **Walton Enterprises, Inc.** — S0101
+Note 1 → §B.0, **U.013** CLAIM C (the one day-precision formation fact in the corpus).
+**Carrier for the operating start: 1962, registrant-retrospective** — earliest printing **S0103**
+(`WALMART_AR_1974.txt`, dated 1974-03-21: "first Wal-Mart Discount City store opened in Rogers. Arkansas
+in 1962"); **no in-period document** carries it → §B-1a, §C.0, **U.001**.
+**"Wal-Mart, Inc., an Arkansas corporation" is withdrawn**: **0 occurrences** in the nine reports,
+class **Tier-4 folklore** at §B.0, held as **U.013** CLAIM B, **COR-302**. No legal person is identified
+for 1945–1962 anywhere in this corpus (§B.0, **U.108**).
+Register lineage and the two-issuer question are handled at §B.0 and
+`## STAGE BOUNDARY JUSTIFICATION`; `company_002_walmart`.
 **Stage:** 1 of 3. **Span:** **1945 → 1970-10-08**, **contested at both ends and argued, not
 asserted, at `## STAGE BOUNDARY JUSTIFICATION` below.** The **open** end is a
 **registrant-retrospective date** (1945 = the Ben Franklin franchise working arrangement; the
@@ -82,7 +111,7 @@ stated against a document** — not a boundary asserted and then defended rhetor
 
 | Stage | Start | End | Why This Boundary | Confidence |
 |---|---|---|---|---|
-| **1 (this file)** | **1945** *(claimed)* / **1962** *(documented)* — see the two-row split below | **1970-10-08** | Opens where the registrant itself says its history opens and closes where the first **outside** capital event is dated inside an audited note | **Medium** (see the ranked-candidate table) |
+| **1 (this file)** | **1945** *(claimed)* / **1962** *(printed by the registrant from 1974-03-21; no in-period document carries it)* — see the two-row split below | **1970-10-08** | Opens where the registrant itself says its history opens and closes where the first **outside** capital event is dated inside an audited note | **Medium** (see the ranked-candidate table) |
 | 2 (proposed opening) | **1970-10-09** | — | First day after a public offering is on the record; FY1971 is the first year-end **named in the same note**, and FY1968–FY1971 are the four year-ends the company itself labels **pro forma**, outside every opinion | Medium |
 | Rejected (i) | — | 1970-08-27 / 1970-09-03 | The NASDAQ listing / first-trade cluster as the close | **High (that it fails)** — UNKNOWN (dates not on disk; recorded as UNTRIED, not resolved) |
 | Rejected (ii) | — | 1972-02-29 | FY1972 report as the earliest surviving document, so the stage would be what the archive can prove | High — this is an **archive** boundary, not a business boundary; it would delete the stage |
@@ -116,7 +145,7 @@ recorded as a live conflict are at §C.0; this table is the arithmetic behind th
 
 | Variable | Value | Source | Confidence |
 |---|---|---|---|
-| 1945 (claimed origin) | Attested first by **S0102, 1973-03-20** ("twenty-eight year history") — **28 years after the event**, by the entity whose history it is; then five more dated printings S0103→S0109 (FY1974's "twenty-nine year history" → FY1980's "Beginning in 1945, with a Ben Franklin franchised store in Newport, Arkansas"). **Independent origins: 0.** Distance grows from 28 to 35 years as the series runs, which is the wrong direction for evidence | `WALMART_AR_1973.txt` … `_1980.txt`; A3-028/A3-029, COR-A3-10 | High (that the geometry is this); **Low** that the event is documented |
+| 1945 (claimed origin) | Attested first by **S0102, 1973-03-20** ("twenty-eight year history") — **28 years after the event**, by the entity whose history it is; then five more dated printings S0103→S0109 — **corrected on the 2026-09-26 repair pass to six**: `1945` prints in S0103, S0104, S0106, S0107, S0108 and S0109, and **0 times** in S0105 (`WALMART_AR_1976.txt`), so the S0103→S0109 span is seven documents of which six carry the year (FY1974's "twenty-nine year history" → FY1980's "Beginning in 1945, with a Ben Franklin franchised store in Newport, Arkansas"). **Independent origins: 0.** Distance grows from 28 to 35 years as the series runs, which is the wrong direction for evidence | `WALMART_AR_1973.txt` … `_1980.txt`; A3-028/A3-029, COR-A3-10 | High (that the geometry is this); **Low** that the event is documented |
 | 1955 (first named premises) | **S0105, 1976-03-26** — 21 years, one lineage, and the sentence describes an **office above a store**, not a venture | `WALMART_AR_1976.txt` (A2 W-49) | Medium (as a 1976 assertion) |
 | 1962 (first Discount City) | **S0103, 1974-03-21** is the earliest document on disk that dates it at all ("opened in Rogers, Arkansas in 1962"); **12 years**; the *month* waits until **S0104, 1975-03-28**. Verified negatives: `WALMART_AR_1972.txt` and `WALMART_AR_1973.txt` each print **"1962" 0 times and "Ben Franklin" 0 times** | S0103, S0104; the two greps re-run on this pass | High (geometry); **Low** (the event) |
 | 1970-02-01 (pooling) | **S0101, 1972-03-22** — 2 years, audited note, names **Walton Enterprises, Inc.** and "the various subsidiaries" | S0101 Note 1 | High |
@@ -160,7 +189,13 @@ here is **1** (A3 §7.2(c), re-tested and unchanged by A5).
 | Stores at year end | FY1968 **24**, FY1969 **27**, FY1970 **32**, FY1971 **38** — all RESTAT (FY1968/69 in S0102's "Six Years at a Glance"; FY1970 in S0101). FY1972 **51**, FY1973 **64**, FY1974 **78**, FY1975 **104**, FY1976 **125**, FY1977 **153**, FY1978 **195**, FY1979 **229**, FY1980 **276** — each **CONTEMP** | S0101–S0109; A3 Table S2 | High (as-filed years), Medium (FY1968–FY1971) |
 | **Composition of the fleet at the closing boundary** | **"On January 1, 1970, eight years after the opening of the first Wal-Mart Discount City store in Rogers, Arkansas, the Company owned and operated 18 Wal-Marts and 14 Ben Franklin variety stores in a four-state area, with sales totaling $31 million"** — a 1980-dated statement of a 1970 state. Independently printed, same lineage, in the FY1972 President's letter: "our eighteen Wal-Mart stores that already existed as of February 1, 1970 and were not expanded had a 17% increase in sales over 1971" | S0109 (`WALMART_AR_1980.txt`, "Wal-Mart's Past — Foundation for the Future"); S0101 (President's message, 1972-03-22) | High that both documents say it; Medium that 1970-01-01 state is right (32-store FY1970 count and 18+14=32 **agree**, which is an internal check, not a second source) |
 | Earnings basis FY1968–FY1972 as printed | The FY1972 table's rows are captioned **"Pro forma net income"** and **"Pro forma net income per share"**: $.09 / $.12 / $.23 / $.30 / $.47 for FY1968→FY1972. **The word "pro forma" is the registrant's own label** and means the registrant group did not exist for those years — it begins at the **1970-02-01** pooling (A3-020, W-04) | S0101, S0102 (`WALMART_AR_1973.txt`), S0103 | High (as printed) |
-| Total assets, FY1978 — **THE SERIES BREAKS HERE** | **$206,691 thousand AS PUBLISHED** in S0107; **$251,865,000 AS RESTATED** in S0108 (+45,174,000), because SFAS-13 capitalised leases: long-term capital-lease obligations **10,904 → 59,003 thousand**, equity **98,943 → 96,482 thousand**, retained-earnings restatement **(2,461,000)**. S0108 prints: "All financial information has been restated to reflect the retroactive application ot [sic] Statement of Financial Accounting Standards No. 13" | S0107, S0108; A3-033/A3-036, U-A3/6 | High. **Register rule inherited: any asset-turn, debt/assets or total-asset growth figure computed across 1978-01-31/1979-01-31 is invalid** |
+| Total assets, FY1978 — **THE SERIES BREAKS HERE** | **$206,691 thousand AS PUBLISHED** in S0107; **$251,865,000 AS RESTATED** in S0108 (+45,174,000), because SFAS-13 capitalised leases: long-term capital-lease obligations **10,904 → 59,003 thousand**, equity **98,943 → 96,482 thousand**, retained-earnings restatement **(2,461,000)**. S0108 prints the restatement clause **twice**, and the second
+printing carries the perimeter the first omits: the short form — "All financial information has been restated
+to reflect the retroactive application ot [sic] Statement of Financial Accounting Standards No. 13" (the `[sic]`
+is the document's, verified in the double-spaced body line) — and **"All financial information prior to 1979
+has been restated to reflect the retroactive application of" Statement No. 13**. **The restatement therefore
+reaches every year up to but not including FY1979**; the second form governs any cross-year use of the series
+(clause-perimeter repair, 2026-09-26) | S0107, S0108; A3-033/A3-036, U-A3/6 | High. **Register rule inherited: any asset-turn, debt/assets or total-asset growth figure computed across 1978-01-31/1979-01-31 is invalid** |
 | **Dividend claim, REFUTED on the page** | The FY1980 ten-year summary's dividend row (**1976 $.09 / 1977 $.11 / 1978 $.19 / 1979 $.25**) is refuted for 1976–1979 by each year's own document: **$.065 (S0105), $.085 (S0106), $.16 (S0107, and quarterly .025/.045/.045/.045), $.22 (S0108, four quarters at $.055)**. No split factor reconciles the two series ($.09/$.065 = 1.38 is not a split) — COR-A3-04. First evidenced dividend row at all: **FY1974 $.025**, printed only in S0107's nine-year table, i.e. **RESTAT** | S0109 (refuted row) vs S0105/S0106/S0107/S0108 | High that the four-year row is refuted; the FY1980 row is **kept on the record as printed**, not deleted |
 | Stock splits | Three two-for-one events are printed in this corpus, **not one**: **1971-06-11** (1,500,000 shares issued, par charge 150,000), **1972-04-05** (3,000,000 shares to be issued, par charge 300,000) — both inside S0101's own capital note; and **1975-08-19** (6,687,789 shares, per S0105 Note 4, the only one falling in the restatement dispute of A3 Table S3) | S0101 note "Capital in excess of par value at January 31, 1972 includes the following transactions"; S0105 | High. See §D correction note **D-R09c** — this contradicts this volume's earlier single-split row |
 | The closing-boundary event, verbatim | **"Excess of net proceeds over par value of 200,000 shares sold in public offering October 8, 1970 — 3,010,467"** — the only day-precision public-capital date any Tier-1 document on disk puts inside the window, and it sits **inside the audited notes** | S0101 (`WALMART_AR_1972.txt`) | High that the note says it; Medium that the note is a 1972 document reporting a 1970 event |
@@ -278,7 +313,7 @@ the reports say "the Company's origin … predates the opening of the first Wal-
 | Founder, as named by the registrant | "The Company's founder and present Chairman of the Executive Committee of the Board of Directors, **Sam M. Walton**" | S0104 (`WALMART_AR_1975.txt`, company profile) | High (as a company statement, FY1975) |
 | Offices actually attested in-window | **Sam M. Walton — Chairman of the Board and President**; **J. L. Walton — Senior Vice President**; **S. Robson Walton — Secretary**; with Ferold G. Arend and Ronald Mayer among directors | S0103 "Directors and Officers" page | High. **The family is attested inside the audited document, not only in the lore** |
 | The only founder-signed document in the corpus | The FY1972 President's message, **signed Sam M. Walton, 1972-03-22** | S0101 | High (the signature block is on disk) |
-| **Newport is in ARKANSAS — and the project's own "correction" was the error** | Five documents place the 1945 start in **Newport, Arkansas**: S0104 "opened his first Ben Franklin variety store in Newport, Arkansas in 1945"; S0106 "opened in 1945, in Newport, Arkansas by Sam M. Walton"; S0107 "1945, when Sam Walton opened his first Ben Franklin franchise operation in Newport, Arkansas"; S0108 "In 1945, Sam Walton opened his first variety store, under the Ben Franklin franchise, in Newport, Arkansas"; S0109 "Beginning in 1945, with a Ben Franklin franchised store in **Newport, Arkansas**, the Walton brothers assembled a group of fifteen variety stores" | S0104–S0109; A probe's own supersession note | **High that the registrant placed it in Arkansas from 1975 onward; Low that any 1945 event is documented.** The 1945–50 Newport years sit in **Mississippi County, Arkansas**, which is the county A2 names for the untested public-records route |
+| **Newport is in ARKANSAS — and the project's own "correction" was the error** | **Six documents** place the 1945 start in **Newport, Arkansas**, the earliest being **S0103, printed 1974-03-21**: S0103 "Wal-Mart was founded by its President and Chairman, Sam M. Walton, who opened his first Ben Franklin variety store in Newport, Arkansas in 1945"; S0104 "opened his first Ben Franklin variety store in Newport, Arkansas in 1945"; S0106 "opened in 1945, in Newport, Arkansas by Sam M. Walton"; S0107 "1945, when Sam Walton opened his first Ben Franklin franchise operation in Newport, Arkansas"; S0108 "In 1945, Sam Walton opened his first variety store, under the Ben Franklin franchise, in Newport, Arkansas"; S0109 "Beginning in 1945, with a Ben Franklin franchised store in **Newport, Arkansas**, the Walton brothers assembled a group of fifteen variety stores" | S0103–S0109 — **six**, because S0105 (`WALMART_AR_1976.txt`) names Newport only inside a store list ("variety stores in Newport, Arkansas and Versailles, …") and is correctly excluded; A probe's own supersession note | **High that the registrant placed it in Arkansas from 1974-03-21 onward (count and first date repaired 2026-09-26: the cell previously read "five documents … from 1975 onward", which under-counted S0103's founding sentence); Low that any 1945 event is documented.** The 1945–50 Newport years sit in **Mississippi County, Arkansas**, which is the county A2 names for the untested public-records route |
 | Two internal project errors about this place-name, recorded so they are not re-imported | (i) the 2026-09-23 probe asserted vintagebentonville's "Newport, Arkansas" was wrong and "Newport is in Nebraska" (W-19) — **that fix is itself the error** and the probe's own supersession note retracts it; (ii) **A4's dossier prose repeatedly writes "Newport, Kentucky" / "the year Sam Walton's Newport, Kentucky experiment ended"** (A4-16, A4-18, A4-23) — a third wrong state, uncorrected in A4, contradicted by S0104–S0109. Neither dossier wording is adopted here | `A_chronology_feasibility.md` W-19 + its SUPERSEDED note; `A4_independent_periodicals.md` L278, L332-334, L424 | High (both errors are on the page and locatable). **Reported as a named finding to the register owner** |
 | The decoy that makes the geography trap worse, not better | Business Week's 1962 index does carry a town entry "**NEWPORT, Ky. — Boycott of Communist-made goods … p38, Dec.15**" — a Kentucky municipality, unrelated to the company. Its presence proves the index carried Newport entries when it had a story to carry, which is what makes the zero for Wal-Mart an **informed** silence (§A.2) | S0112 (A4-17, offset @1,067,884) | High |
 | **Co-operator at the 1962 opening, named by the company** | S0109: "The first Wal-Mart Discount City store was opened in 1962 in Rogers, Arkansas **by Sam M. Walton and his brother James L. Walton**", and its caption calls them "**Wal-Mart's co-founders**". The same person appears in S0106/S0108 as "his brother, **J. L. 'Bud' Walton**", and as Senior Vice President in S0103's officer list | S0109; S0106; S0108; S0103 | High that the FY1980 report says it; **Low for the 1962 event** (1980-dated, one lineage). **This directly contradicts the single-founder form of the company's own web page** ("Sam Walton opens the first Walmart store"), and the contradiction is recorded as a live conflict at §U (part_2), not resolved by preference |
@@ -412,7 +447,7 @@ file and are complete answers, not gaps to be smoothed.
 | Rec | Date | Event / statement carried | Document (local) | Class | Conf |
 |---|---|---|---|---|---|
 | D-R01 | 1945 | Claimed origin: post-war franchise working arrangement in Newport, **Arkansas** — earliest attestation is a 1973 back-cast, so this is a claimed date not a documented one | FY1973 annual report (via A4/A3 marker set) | RETROSPECTIVE INTERPRETATION | Low |
-| D-R02 | 1962 | First **Wal-Mart** store opening — the documented rival start | FY1972+ store/branch lists (A3/A4) | FACT (single lineage) | Medium |
+| D-R02 | 1962 | First **Wal-Mart** store opening — the rival start, **documented only retrospectively** | **earliest printing S0103 (`WALMART_AR_1974.txt`, dated 1974-03-21): "The Company's first Wal-Mart Discount City store opened in Rogers. Arkansas in 1962."** The month waits for S0104. **Re-pointed 2026-09-26:** the cell formerly read "FY1972+ store/branch lists (A3/A4)", but `1962` prints **0 times** in `WALMART_AR_1972.txt` and **0 times** in `WALMART_AR_1973.txt` (both re-grepped on this pass) and **once** in S0103, so no FY1972 list carries the event and no register, deed or press item of the period exists on disk (§C.0) | FACT (that the registrant printed it, single lineage) | **Medium** (the print); **Low** (the 1962 event — no in-period document) |
 | D-R03 | 1969-10-01 | Wal-Mart Stores, Inc., a Delaware corporation, incorporated | annual-report corporate note | FACT | Medium |
 | D-R04 | FY1968 | First year-end carried **pro forma by the company itself**, outside every opinion | FY1972 report comparative table | FACT (of labelling) | High |
 | D-R05 | FY1969 | Second pro forma year-end; **outside every audit opinion in the corpus** | FY1972/FY1973 comparatives | FACT | High |
@@ -2299,6 +2334,20 @@ merge has a single addressable set; (3) it **does not re-adjudicate** what a dos
 **never re-used, never re-ordered to look tidy**, and gaps inside a block are reserved for the merge's own
 additions. An anchor is minted **only** where a conflict, null or route exists in a document on disk: nothing
 here is speculative, so nothing here can be silently dropped later.
+
+<!-- ANCHORS: U.001, U.011-U.048, U.101-U.116, U.201-U.222, U.0, U.2, U.3 -->
+
+**Why this declaration exists (added 2026-09-26 by the repair pass).** The `anchors` gate cannot tell a
+minted anchor from a **subsection label of this very section** by pattern alone, and the merge's residue note
+in the front matter shows why: the five editorial headings above were read as anchors, two of them reported
+as orphans, and the other three passing only because the registers happen to echo those labels as prose. The
+list above is therefore **derived from the registers, not from a pattern**: it is the **77** zero-padded
+anchors this volume mints and `conflicts.csv` / `data_gaps.csv` carry rows for — `U.001`, `U.011`–`U.048`
+(with `U.002`–`U.010` reserved and uncited, per the mapping table), `U.101`–`U.116`, `U.201`–`U.222` — **plus
+the three §U subsection labels the registers do cite as prose** (`U.0`, `U.2`, `U.3`), which stay declared so
+that no register row is turned into a pointer at an absent anchor. The remaining heading labels, `U.1` and
+`U.4`, are section numbers that no register row cites and are **deliberately not declared**; the headings
+themselves are untouched, because §9.3 forbids renumbering the spine.
 
 **U.0.1 The mapping table — every local key, its canonical anchor, and its register state**
 

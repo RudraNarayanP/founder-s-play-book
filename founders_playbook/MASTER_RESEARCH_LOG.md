@@ -1854,3 +1854,38 @@ invisible to the anchors/keys gates" is now **false under the current build** --
 volumes, and volume 2 legitimately declares zero §U entries because it is the claim-record appendix (0
 declared, hundreds of citations, all of which resolve). The G1-F denominator re-run and the nine S1P1 records
 awaiting a merge-side tier upgrade remain open for the certifier.
+
+### RD-115 -- Wal-Mart Stage 1 gates at zero findings, and the header is now a claim with a carrier per element
+
+`03_quality_control/walmart_s1_repairs.md`: gate **2 findings -> 0 / 22 passes**, anchor parity **FAIL -> PASS
+80<->80**, 46 notation tokens in `data_gaps.csv`, 5 cells in `conflicts.csv`, zero rows added or removed.
+- The `**Company:**` line no longer asserts -- it cites: registrant from S0101; **state of incorporation
+  UNKNOWN** ("Delaware" 0x across all nine reports); the 1969 event reduced to **year-only** with the day
+  withdrawn; formation stated as the **1970-02-01** pooling out of Walton Enterprises; and the 1962 opening
+  labelled a registrant retrospective carried by S0103 (1974-03-21). "Wal-Mart, Inc., an Arkansas
+  corporation" withdrawn outright ("Wal-Mart, Inc" 0x9).
+- `CORRECTIONS.md` created for this company with **COR-301/COR-302** (a numbering space that does not
+  collide with Amazon's), superseding rather than erasing, propagated to U.013/U.014 and the assembly note,
+  and the `corrections` gate now runs and passes **2/2** -- the first company where a retraction was caught
+  at the header layer before certification rather than after.
+- Sibling sweeps with counts and classification (correct / quoted source text / retraction marker / carried
+  original): Delaware 26 volume + 3 register + 2 manifest hits; `1969-10-01` 10/1/2; "Wal-Mart, Inc." 8/1/2
+  plus 12 read-only dossier hits. **Stale 2 -> 0.**
+- CHR-1/2/3 settled from six Newport documents dated 1974-03-21; D-R02 re-pointed; the SFAS perimeter form
+  added; **S0105's 1976-03-26 stays UNKNOWN with a FETCH REQUEST** rather than being asserted.
+- **The anchor declaration survived adversarial testing this time.** Unlike my hand-typed attempt an hour
+  earlier, the agent derived it from a **register scan** (77 real anchors + U.0/U.2/U.3, which are echoed in
+  `data_gaps.csv`), got 82 -> 80 exactly because the two non-anchor subsection headings left the set, saw
+  **zero** "register row citing an absent anchor" before and after, and cleared `U.1n`/`U.2n`/`U.2x` by
+  backticking placeholder notation rather than changing a single claim. That is the discipline RD-109's
+  reverted attempt was missing.
+- **It also caught me corrupting its own evidence.** The report: `scaffold.py section` stamped the Residue
+  section by rewriting a `STATUS: PENDING` it had quoted as evidence. My blanket `str.replace` inside the
+  matched block hit every occurrence, including quoted ones. Fixed to rewrite **only the block's own
+  trailing marker line**, verified with a fixture holding three markers: two quoted, one real -> 2 PENDING
+  remain, 1 WRITTEN, quoted text byte-intact. Its second observation stands as a design limit: **marking is
+  impossible after content**, because a completed section legitimately has no marker left to flip. The
+  lesson is mine, not the agents': a tool that writes into evidence files gets the same adversarial testing
+  as a claim, and I shipped two bugs into this one in a day.
+- Open and handed to certification: HND-1 prose coverage, the `.hocr` source_id question, and `_parts/`
+  carrying no SUPERSEDED line (outside the repair pass's write set).

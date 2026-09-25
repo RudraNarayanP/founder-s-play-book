@@ -6,15 +6,16 @@ Stage 1 exceeded the 60,000-word hard cap as one file (the three parts total **6
 
 | Volume | Words | Sections contained |
 |---|---|---|
-| `stage_1.md` | 57,991 | Header, STAGE BOUNDARY JUSTIFICATION, §A–§U (part-1 header/boundary/§A–§D; part-2 §E–§L + its register-handoff block; part-3 §M–§U incl. its preamble and the §U canonical anchor set + §U.0.1 mapping table) |
+| `stage_1.md` | 58,841 | Header, STAGE BOUNDARY JUSTIFICATION, §A–§U (part-1 header/boundary/§A–§D; part-2 §E–§L + its register-handoff block; part-3 §M–§U incl. its preamble and the §U canonical anchor set + §U.0.1 mapping table) |
 | `stage_1_part_2.md` | 7,132 | UNTRIED ROUTES, CARRIED FORWARD; CLAIM RECORDS APPENDIX (§§M–U); part-3 >>> REGISTER ROWS FOR MERGE <<< block (audit trail) |
 
-**Merged narrative: 65,123 words across 2 volumes** = 64,649 words of part text (byte-verified retained in full) + 474 words of merge headers. The §U canonical anchor set, and with it the whole `U.nnn` spine the `anchors` gate reads, sits in volume 1; the claim records and the carried-forward UNTRIED block continue in volume 2, whose heading says so.
+**Merged narrative: 65,973 words across 2 volumes** = 64,649 words of part text (byte-verified retained in full) + 1,324 words written by the merge pass and by the 2026-09-26 repair pass (identity-line repair under COR-301/COR-302, the anchor declaration at U.0, and the CHR-1/CHR-2/CHR-3 clause repairs). No part text was cut to fit any cap. The §U canonical anchor set, and with it the whole `U.nnn` spine the `anchors` gate reads, sits in volume 1; the claim records and the carried-forward UNTRIED block continue in volume 2, whose heading says so.
 
 ## Where the stable labels live
 
 - **§U.001–§U.048** live conflicts, and **§U.0.1** the mapping table for every local key ever used (U-C0/1, U-E/1, U-F/1, U-K/1, U-A2/1–10, U-A3/1–9, U-A4/1–9, U-A5/1, probe U-1/U-2/U-3, U-W-4/U-W-5, D-R03c, D-R09c, COR-A3-04, A3-002) — `stage_1.md`, §U.
 - **§U.101–§U.116** documented nulls and **§U.201–§U.222** unanswered/untried routes — `stage_1.md`, §U.2 and §U.3; the route detail continues as `UNTRIED ROUTES, CARRIED FORWARD` in `stage_1_part_2.md`.
+- **The declared anchor set** lives at `stage_1.md` U.0: an explicit `ANCHORS` declaration listing the **77** minted anchors `U.001`, `U.011`–`U.048`, `U.101`–`U.116`, `U.201`–`U.222` plus the three section labels the registers cite as prose (`U.0`, `U.2`, `U.3`). It is what the `anchors` gate reads instead of guessing from heading text; `U.1` and `U.4` are headings only and are deliberately not declared.
 - **Claim records for §§M–U** — `stage_1_part_2.md`. Part 1’s dated record set (D-R01–D-R10 with its four `c` correction notes) stays in `stage_1.md` §D, where it was written.
 - **Register-handoff blocks** stay where the parts put them: part 2’s after §L in `stage_1.md`; part 3’s at the end of `stage_1_part_2.md`. They are the merge’s audit trail, not live register content.
 
