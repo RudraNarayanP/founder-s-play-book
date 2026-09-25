@@ -1456,3 +1456,47 @@ no per-company block, and it is shared config outside a research agent's write s
 mechanical pass appending periodical/corporate-print query blocks for all 50 companies, because **the
 periodical family is the one that decides tier** and every company probed without it is under-graded by
 construction. Queued until the current owner of that file releases it.
+
+### RD-103 -- Tesla at T3, and the single best wording-change find of the run
+
+Probe `company_043_tesla/research/A_chronology_feasibility.md` (8,041 w, 12 claim records, 6 conflicts,
+7 documented nulls, three registers emitted and gate-clean). **T3**: exactly one family returned in-window
+Tier-1 *text*, and a sixth family (legal) was searched and did not rescue the tier.
+
+**The find: "one of our founders" is ABSENT from the original 2010-01-29 S-1 and PRESENT by the
+2010-04-29 amendment -- string-verified on held bytes.** That is a documented change of corporate voice
+inside one filing lineage, which is worth more than any third-party retelling of the dispute, and it is the
+kind of datum that only survives because the original and the amendment were both downloaded and compared.
+Alongside it, held at Tier 1: incorporated in Delaware **2003-07-01**; Musk's first dated office is
+**April 2004 as Chairman**, CEO only from **October 2008**; Straubel from March 2004; Eberhard and
+Tarpenning as "former officer and director". **Corroboration count for the founding is zero -- all of it is
+one lineage**, and the dossier's stated position is that at held-evidence level Tesla's founding has one
+documentary voice and no second witness, so it outputs neither "co-founder" nor "not a founder" as settled.
+
+Two traps caught rather than fallen into:
+- **Domain precedence.** The three earliest `tesla.com` captures (2002-11-25, 2003-02-09, 2003-02-14) all
+  **pre-date the incorporation**, so an early domain proves nothing about the company; and the item whose IA
+  metadata year reads 2003 (`tesla-logo`, "Tesla, Inc. Annual Reports") was explicitly **not** treated as a
+  2003 document.
+- **Silence is not absence.** CourtListener answered and holds **497 + 16 hits, none in 2003-2010**, but it
+  carries no California Superior Court dockets -- so the dispute's actual registry is untouched, not empty.
+  Every domain-scoped Wayback re-query 504'd or served an "Temporarily Offline" page and those bodies were
+  **kept as negative artefacts** and reported UNANSWERED; the August 2009 joint statement therefore remains
+  unreachable, with FETCH REQUESTs U-1…U-8 itemised by accession and identifier for the next pass.
+  First-financing date is UNKNOWN (zero hits for "February 2004": the structure is filed, the closings are
+  absent).
+
+**RD-103b -- my own fix shipped with a bug, and running the test found it.** After repairing
+`ia_text.py`'s query params I verified `search` and `fetch` but not `mine`; the Alphabet agent (running
+against the pre-fix build) reported the annotation/encoding defects independently, and when I finally ran
+`mine` it died with `TypeError: 'bool' object is not iterable` -- I passed `allow_insecure` **positionally
+into the `fl` parameter**. Fixed, then proven: 311,332 B of Network World 1998 OCR held and grepped to a
+**NULL over held bytes**, which is the honest shape of that result. Corollary for the fleet: an agent's
+handed-back defect list must be checked against the *current* build before someone is told it is already
+closed -- the same reflex that produced "already fixed" claims twice this session.
+
+**Alphabet's periodical family, meanwhile, answered its actual question: no.** Founder names
+`Larry Page|Sergey Brin|BackRub` return **0 hits across 1,201,506 B** of held 1998-2000 print; the one
+Tier-1 candidate (Yahoo! Internet Life, July 2000) ranks Google 4th in "Search the Web, Part II", which
+corroborates the **product**, not the origin. Founding still rests on one lineage plus the 1998-01-09
+patent and the 1998-11-11 capture.

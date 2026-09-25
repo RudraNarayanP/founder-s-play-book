@@ -208,7 +208,7 @@ def main():
     if a.mode == "search" or a.mode == "mine":
         if not a.q:
             raise SystemExit("--q required")
-        docs, note = search(a.q, a.rows, a.insecure)
+        docs, note = search(a.q, a.rows, allow_insecure=a.insecure)
         out["search"] = note if docs is None else {"num": len(docs),
                                                    "items": docs[: a.rows]}
         if docs is None:
@@ -233,7 +233,7 @@ def main():
         return 0
     if a.mode == "mine":
         results = []
-        for d in (search(a.q, min(a.rows, 8))[0] or []):
+        for d in (search(a.q, min(a.rows, 8), allow_insecure=a.insecure)[0] or []):
             ident = d.get("identifier")
             if not ident:
                 continue

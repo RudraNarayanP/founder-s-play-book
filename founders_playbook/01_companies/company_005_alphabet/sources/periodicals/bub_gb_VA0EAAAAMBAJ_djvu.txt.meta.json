@@ -1,0 +1,9 @@
+{
+ "identifier": "bub_gb_VA0EAAAAMBAJ",
+ "url": "https://archive.org/download/bub_gb_VA0EAAAAMBAJ/bub_gb_VA0EAAAAMBAJ_djvu.txt",
+ "fetched": "2026-09-25T19:57:03Z",
+ "bytes": 536111,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

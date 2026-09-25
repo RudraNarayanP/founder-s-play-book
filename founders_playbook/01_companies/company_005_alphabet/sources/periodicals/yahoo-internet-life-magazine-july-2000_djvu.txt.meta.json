@@ -1,0 +1,9 @@
+{
+ "identifier": "yahoo-internet-life-magazine-july-2000",
+ "url": "https://archive.org/download/yahoo-internet-life-magazine-july-2000/Yahoo%20Internet%20Life%20Magazine%20July%202000_djvu.txt",
+ "fetched": "2026-09-25T19:58:19Z",
+ "bytes": 361043,
+ "route": "download/<id>/<spaced filename>_djvu.txt -- fetched with curl-equivalent percent-encoded URL because tools/ia_text.py fetch does not encode spaces and 404s",
+ "transport": "UNVERIFIED TLS (--insecure equivalent, stale local CA store)",
+ "note": "text: field in advancedsearch matches ANNOTATIONS, not this layer; verdicts below are over held bytes only"
+}
