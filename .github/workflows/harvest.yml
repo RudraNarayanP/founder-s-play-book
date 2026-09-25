@@ -14,7 +14,7 @@ on:
       max_requests:
         description: 'Hard cap on network requests for this run'
         required: false
-        default: '200'
+        default: '600'
       dry_run:
         description: 'Print planned URLs without fetching (true/false)'
         required: false
@@ -23,6 +23,10 @@ on:
 permissions:
   contents: write                  # commit harvested evidence back to main
 
+# 2026-09-27: query coverage now spans 427 tasks across all 50 companies (was 58 / 4).
+# The 200-request default would have taken three nights and the 45-minute ceiling risked a mid-run
+# kill, so the defaults are raised. Raise further only with the same care: this job commits to main.
+
 concurrency:
   group: harvest
   cancel-in-progress: false
@@ -30,7 +34,7 @@ concurrency:
 jobs:
   harvest:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 110
     steps:
       - uses: actions/checkout@v4
 
@@ -40,13 +44,13 @@ jobs:
 
       - name: Plan (dry run, always)
         env:
-          MAXR: ${{ github.event.inputs.max_requests || '200' }}
+          MAXR: ${{ github.event.inputs.max_requests || '600' }}
         run: python tools/periodical_harvest.py --dry-run --max-requests "$MAXR"
 
       - name: Harvest
         if: ${{ github.event.inputs.dry_run != 'true' }}
         env:
-          MAXR: ${{ github.event.inputs.max_requests || '200' }}
+          MAXR: ${{ github.event.inputs.max_requests || '600' }}
         run: python tools/periodical_harvest.py --max-requests "$MAXR"
 
       - name: Report per-family outcome counts
