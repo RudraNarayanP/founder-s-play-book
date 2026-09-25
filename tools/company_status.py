@@ -52,7 +52,7 @@ def find(company, name):
 def probe_tier(company):
     """A wrong tier routes the wrong NUMBER of agent runs, so an established company is
     recognised from its own artefacts, not only from a probe sheet."""
-    for pat in ("A*feasib*.md", "A*settlement*.md", "*verdict*.md"):
+    for pat in ("*verdict*.md", "A*settlement*.md", "A*feasib*.md"):
         for p in sorted(glob.glob(os.path.join(company, "research", pat))):
             t = open(p, encoding="utf-8", errors="replace").read()
             hits = re.findall(r"(?im)^\W*(?:tier|verdict)[^\n]{0,16}?\b(T[123])\b", t)
