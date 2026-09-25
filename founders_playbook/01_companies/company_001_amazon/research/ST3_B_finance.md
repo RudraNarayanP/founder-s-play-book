@@ -664,7 +664,7 @@ back.
 |---|---|---|
 | **Gross merchandise value / bookings** | **UNKNOWN.** `grep "gross merchandise\|GMV"` over all 95 source files returns **zero hits.** | whole corpus |
 | **Take rate on third-party selling** | **UNKNOWN, and structurally unknowable from the filings.** From Q2 1999 the company states that net sales "*include auctions revenue, which is comprised of placement fees and sales commissions on closed auctions*" (L853-854) and from Q3 1999 "*commissions from auctions and zShops transactions, which includes placement fees, sales commissions and fees from payment service transactions*" (L863-865). **A revenue line that mixes first-party merchandise sales, shipping and handling, and third-party commissions cannot yield a take rate at all** — there is no numerator, no denominator, and no separation. Worse: **the meaning of "net sales" changed inside the window**, so Q3 1999's $355,777k and Q2 1997's $27,855k are not the same kind of number. | all four 1999 10-Qs, FY1998 10-K |
-| **Customer acquisition cost (CAC)** | **UNKNOWN.** No order count, no new-customer count per period (only *cumulative* accounts), no attribution of advertising to acquisition rather than branding. Advertising expense is printed **only annually** ($60.2M / $21.2M / $3.4M) and **in no 10-Q**, so a quarterly CAC has neither numerator nor denominator. | all 8 10-Qs, both 10-Ks |
+| **Customer acquisition cost (CAC)** | **UNKNOWN.** No order count, no new-customer count per period (only *cumulative* accounts), no attribution of advertising to acquisition rather than branding. Advertising expense is printed **only annually** ($60.2M / $21.2M / $3.4M, L2459-2461) and **in no 10-Q**, so a quarterly CAC has neither numerator nor denominator. | all 8 10-Qs, both 10-Ks |
 | **Lifetime value (LTV)** | **UNKNOWN**, and the ratio Stage 2 used as the closest available proxy — cumulative revenue ÷ cumulative accounts — is expressly flagged there as "mixing a flow with a stock … do not use it as an LTV proxy" (S2B-66). Nothing in Stage 3 improves it; the account base is still cumulative and undefined. | — |
 | **Associates Program economics** | **UNKNOWN, with one number.** The FY1998 10-K prints exactly one Associates figure: "Approximately **200,000 Web sites** have enrolled in the Associates Program" and names Yahoo!, AOL, Excite, Netscape, GeoCities, Microsoft and AltaVista as associates (L383-389). **No fee paid, no fee received, no revenue attributed to the channel, no order volume through it appears in any filing in the window.** The programme's economics are unquantified at both ends. | FY1998 10-K; all 10-Qs |
 | **Order count / orders per customer / average order value** | **UNKNOWN.** The only order statements in the whole window are *shares* of orders: "over 60% of orders placed … during the fiscal year ended December 31, 1998", "more than 64 percent" for Q4 1998, "66% of the orders placed during the quarter ended March 31, 1999". **A percentage of an undisclosed total.** Any per-order figure anywhere in this dataset is therefore **not filing-derived.** | both 10-Ks, all 10-Qs, all 8-Ks |
@@ -714,7 +714,7 @@ it is not upgraded here).
 - FY1996: `3,459 − 3,400 = +59` → **0.4%** of net sales (advertising from the FY1997 10-K's own note).
 - FY1997: `28,813 − 21,200 = +7,613` → **5.2%** (as filed).
 - FY1998: `133,841 − 60,200 = +73,641` → **12.1%** (DERIVED; both inputs filed — gross profit audited,
-  advertising expense $60.2 million from FY1998 10-K L2459-2460, stated in rounded millions so the quotient
+  advertising expense $60.2 million from FY1998 10-K L2459-2461, stated in rounded millions so the quotient
   is stated only to one decimal).
 - **1999: UNCOMPUTABLE.** No 10-Q in the window prints advertising expense. **The single most useful unit
   proxy Stage 2 built becomes unavailable exactly when Stage 3's growth years begin — and that is a
@@ -746,7 +746,7 @@ basis. It could **not** show that a single order contributed positively: no orde
 no processing cost, no category split. **Those two statements are both true of the same quarter and only the
 first was visible in the filing.**
 
-### U3. Ratements that must not be re-attempted downstream
+### U3. Retractions that must not be re-attempted downstream
 
 Two project rules bind this section. First, **a ratio with an unfiled denominator retracts to UNKNOWN** —
 this is how the Stage-1 `$871,000` figure and its `2,613,000` base died, and it is why there is no revenue
@@ -1494,3 +1494,57 @@ Amazon.com,3,C-7,ST3B Financing,"long-term debt 348,140 at 1998-12-31","10-K FY1
 Amazon.com,3,C-8,ST3B Sources consulted,"the prospectus registered by the 8-A12G is dated April 21, 1996","Form 8-A12G","1997-05-02","the registration statement was filed 1997-03-24 and Amendment No. 1 dated 1997-04-21","S-1 lineage","1997-04-21","an internal impossibility in the 8-A12G text: 1996 is a misprint for 1997","the surrounding dates settle it","never cite the 8-A12G for a 1996 date",none,High
 Amazon.com,3,C-9,ST3B Audited series,"the FY1997 report EPS was (1.27) pro forma on 21,651 thousand shares","10-K405 FY1997","1998-03-30","FY1997 EPS was (0.24) on 130,341 thousand shares","10-K FY1998","1999-03-05","the denominator construction changed (pro forma pre-IPO basis to weighted-average post-IPO, restated for splits), not the loss","both are the company's own presentations","these are different instruments; the year-over-year EPS change is not interpretable",none,High
 ```
+
+---
+
+## Closure and read-back verification (§14 rule 5)
+
+**File written:** `founders_playbook/01_companies/company_001_amazon/research/ST3_B_finance.md`
+**Size at close:** **24,607 words / 172,152 bytes** — verified by `wc` on the file itself, not from memory.
+Well inside the §9.2 hard cap of 60,000 words; **no evidence was trimmed to fit any file limit (§9.6).**
+
+**Verified counts on disk (machine-checked after the final write, not asserted):**
+
+| Register | Count on disk |
+|---|---|
+| Claim records `ST3B-01 … ST3B-22` | **22**, no duplicate IDs |
+| Register rows in the audited-series / quarterly / financing / ownership / compensation tables | **142** |
+| `## Contradictions` entries C-1 … C-9 | **9** |
+| Data gaps: EMPTY / UNANSWERED / UNTRIED | **6 / 12 / 8** (kept in three separate tables, never merged) |
+| `sources.csv` append rows proposed (S3001-S3022) | **22** |
+| `quantitative.csv` append rows | **63** — 37 FACT, 14 DERIVED, 6 UNKNOWN, 4 FOUNDER CLAIM, 2 RESTATED |
+| `timeline.csv` append rows | **23** |
+| `data_gaps.csv` append rows | **13** |
+| `conflicts.csv` append rows | **9** |
+| **Total CSV data rows offered** | **130** |
+
+**CSV integrity check (all five blocks, mechanically parsed):** every row's field count equals its header's;
+**0 malformed rows**; each block's header string is **byte-identical** to the corresponding real
+`company_001_amazon/*.csv` header (18 / 12 / 11 / 8 / 15 fields respectively); `derived_arithmetic` is
+populated on **14 of 14** DERIVED rows and empty elsewhere; every comma-bearing field is double-quoted.
+
+**Basis-label audit of the series.** Of the 142 register rows: **26 carry an explicit CONTEMPORANEOUS tag**,
+**11 carry an explicit RESTATED tag**, and the §S1-§S3 FY1996/FY1997 rows additionally hold **both witnesses
+side by side in adjacent columns (AF and RST)** so no reader can take the recast for the original. The FY1998
+column of §S1 and §S2 is contemporaneous throughout; the FY1999 column of §S3b is **EMPTY throughout**, and is
+left empty rather than annualised from the nine months.
+
+**Web budget final accounting: 0 WebSearch, 0 WebFetch of 8 permitted.** No request was made, so **no request
+failed** and nothing is recorded UNANSWERED on retrieval grounds — the UNANSWERED table records **searches run
+against the local corpus that returned nothing**, which is a different thing and is labelled as such. The
+single retrieval that would change this file's conclusions is handed off as item **N-1** with the recipe
+attached and the reason for not attempting it stated (this dossier owns one file path and cannot give the
+bytes a home in `../sources/`, which §14 rule 9 requires).
+
+**Integrity of the shared archive: untouched.** Nothing in `../sources/` was created, modified, moved,
+renamed, emptied, pruned or "tidied". The four duplicate `S-1A_No…` underscore files, the `s1_original_…`
+copies, the 403 `idx.html`/`idx.json` artifacts, the `8-A12G` misdating and the `NULL_RESULT_*` files are all
+exactly as found and are **reported, not repaired**. No file outside this dossier was written.
+
+**What this dossier must not be used to say.** (i) It does not say the founder's personal guarantees were
+released, or survived — see §K3. (ii) It does not say Amazon's unit economics were positive at any point; the
+only contribution figure the record supports is per-dollar-of-revenue and advertising-net, and it stops at
+1998 — see U2(b). (iii) It does not say the founder sold or did not sell stock in this window — see O3.
+(iv) It does not say anything about how fiscal 1999 finished; that column is EMPTY, not small. (v) It does
+not treat any 424B3, POS AM, PRE 14A or ARS as corroborating a 10-K or 10-Q figure — §3 lineage is recorded
+on every row, and the honest independence note on this whole file is **one registrant and one auditor**.

@@ -302,6 +302,48 @@ tidied** — that is precisely the failure being repaired. Later agents should k
   (18 items: `INVENTORY.md` plus EDGAR index/header scratch dumps). Its conclusion is already folded into
   the Filings table. It is that agent's output, not trash; leave it in place.
 
+## THE LINE-KEYING RULE FOR `l.NNNN` — declared (AUDIT-2 DEFECT-6 repair, 2026-09-25)
+
+**Read this before auditing or converting any `l.NNNN` reference in Stage 1, Stage 2 or their registers. Two
+local copies of two accessions exist, and a future auditor who greps the wrong one will report roughly 900
+phantom citation failures.**
+
+**Rule.** Every `l.NNNN` / `ll.NNNN–NNNN` / `LNNNN` reference in the Stage-2 spine (`stage_2_part_1/2/3.md`,
+`stage_2_claim_records.md`, `stage_2_claim_records_part_2.md`) and in the registers is a line of the
+**convention-named, headered copy**: `sources/<FORM>_acc-<ACCN>_filed-<DATE>.txt`. The financial spine keys to
+those same headered files. No Stage-2 reference resolves against a bare-named twin.
+
+| Document cited | **KEY — cite this file** (headered) | Duplicate twin, on disk, NOT keyed | Lines key / twin | Δ |
+|---|---|---|---|---|
+| S-1 original, acc. 0000891618-97-001309 (1997-03-24) | `S-1_original_acc-0000891618-97-001309_filed-1997-03-24.txt` | `s1_original_0000891618-97-001309.txt` | 27,476 / 27,459 | **17** |
+| S-1/A No. 5, acc. 0000891020-97-000839 (1997-05-14) | `S-1A-No5_acc-0000891020-97-000839_filed-1997-05-14.txt` | `s1_0000891020-97-000839.txt` | 5,120 / 5,103 | **17** |
+
+**The offset is a constant 17 lines**, and it is exactly the Level-3 Registrar's `PROVENANCE HEADER` block: 17
+physical lines of `=`-fenced provenance text sit above the first body line (`-----BEGIN PRIVACY-ENHANCED
+MESSAGE-----`) in the headered copy and above nothing in the twin. It is also the byte difference:
+1,445,709 − 1,444,013 = 1,696 B and 303,069 − 301,685 = 1,384 B, both attributable to that header.
+**Conversion is therefore exact and directional: `twin line = keyed line − 17`, `keyed line = twin line + 17`.**
+
+Verified probes (both directions, re-run 2026-09-25 with `grep -n`, not inherited from the audit sheet):
+
+| Probe text | keyed copy | twin | Δ |
+|---|---|---|---|
+| `expanded from 11 to 151` (S-1 orig.) | **l.667** | l.650 | 17 |
+| `Mr. Lipsky served` (S-1 orig.) | **l.2510** | l.2493 | 17 |
+| `expanded from 11 to 256` (No. 5) | **l.796** | l.779 | 17 |
+| `Mr. Lipsky served` (No. 5) | **l.2728** | l.2711 | 17 |
+
+**Four more accessions are also duplicated on disk** by the Stage-3 intake's naming slip —
+`S-1A_No1/2/4/6_acc-…_filed-….txt` (underscore) beside the convention-correct
+`S-1A-No1/2/4/6_acc-…_filed-….txt` (hyphen). Those pairs are **byte-identical** (see the duplicate-file notice
+in the Stage-3 intake section below and §8 of `../sources/STAGE3_INTAKE_MANIFEST.md`), so they carry **no
+offset**: cite the hyphenated form, which is the one the Stage-2 spine uses, and expect a grep of the
+underscore form to return the same line numbers.
+
+**Nothing was deleted, moved or merged here (method §14 rule 4).** The twins are reproducibility evidence and
+stay on disk; what was missing was the keying declaration, which is it. One document is never two sources, and
+one document at two line numbers is never two witnesses.
+
 ## Additions by agent H (legal / IP / organization) — 2026-09-23, purely additive
 
 C-2 (accession), C-1 (Sheff = **Playboy, conducted 1999, published 2000**) and the two in-window press

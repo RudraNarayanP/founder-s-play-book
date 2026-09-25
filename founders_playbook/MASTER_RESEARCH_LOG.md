@@ -788,6 +788,36 @@ filings naming the founder's family as beneficial holders** — which is the fir
 independent evidence about the founding money's later position. Stage-3 dossiers wait on the intake
 manifest so no agent mistakes "not yet downloaded" for "does not exist".
 
+### Stage 3's category map, and what the filings will not support
+
+`research/ST3_C_product_market.md` (68 records, 25,200 w, **0 web requests**) turned "Amazon expanded into
+everything" into dated, per-category facts, each keyed to the first document that shows the store **operating**
+rather than intended: music **June 1998** (10-Q Q2-1998 l.846; declared 1998-03-30/04-17), classical sub-store
+early September 1998, **UK and Germany October 1998** on the Bookpages and Telebook instruments of 1998-04-17
+and 04-24, video and the enhanced gift store November 1998, auctions **1999-03-30**, cards April 1999,
+electronics and toys **July 1999** as the first non-media stores, zShops/payments/search late September 1999,
+wireless October 1999, home improvement and video games November 1999.
+
+Three findings matter more than the timeline. **The Associates programme scaled and was never measured**:
+enrolment went 4,800+ (1996) → >140,000 (~1998-09) → ~200,000 sites (1998-12-31) with **no commission rate, no
+expense and no attributable revenue anywhere in the record** — Stage 2's "claimed and never measured" verdict is
+not cured by a bigger number. **Bought traffic is the only channel with an instrument, a launch and a filed
+result**: the acquired local sites (~$55m, April 1998; live October 1998; "nearly quadrupled"; 25% of Q4-1998
+sales from the new businesses), while advertising expense ran $3.4m → $21.2m → $60.2m and its share of net
+sales *fell* 21.6% → 9.9% — two directions from one series, which is a denominators question, not a success
+story. And **supply loosened in the language before it loosened in the facts**: Ingram 58% (FY1997) vs
+~60% (FY1998), inventories $8,971K → $29,501K, and the vendor-dependence sentence relaxing from "any of its
+vendors" to "**most of our vendors**" by 1999-03-05.
+
+**Two of my own dispatch assertions were wrong, and both dossiers found it independently.** The five 1999-03-11
+"Sales Agreement" exhibits are not marketplace contracts — they are **materials-handling equipment purchases**
+from The Buschman Company (Amazon the purchaser; Fernley Phases I–II plus three "Site A/B/C" proposals still
+"yet to be determined"; prices redacted under Rule 24b-2). And **the S-4 lineages carry no named acquisition**:
+`WarehouseDirect`, `Internet Mail`, `Allaire`, `Exchange.com` return **zero occurrences across all 97 local
+files**, and 333-55943 is a generic 5,000,000-share shelf while 333-56723 is a notes exchange. The folk
+acquisition list is agreed-only or absent. Recorded as RD-056/RD-057; the `_EVIDENCE_CACHE.md` patch is queued
+until the agent currently holding write access to that file releases it, rather than racing it.
+
 ### The scheduled runner fired — and disproved the diagnosis the whole periodical gap rested on
 
 `harvest-bot` committed at **2026-09-25T11:57:03Z** (`Nightly harvest: corpus evidence refresh from
