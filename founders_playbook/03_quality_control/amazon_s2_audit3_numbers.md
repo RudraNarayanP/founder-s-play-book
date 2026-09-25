@@ -22,16 +22,16 @@ first principles by an independent parser (`recomp3.py`), then each Stage-2 row 
 
 ## Verdict table
 
-| # | Check | Verdict | Count |
-|---|---|---|---|
-| 1 | Recompute every DERIVED row from the cited document lines | **FAIL** (arithmetic mostly sound; 6 rows print a wrong quotient or a wrong input) | 334 rows read; 104 with `derived_arithmetic`; 83 tagged DERIVED; 116 expressions re-evaluated; **6 defects** |
-| 2 | Denominators filed and coterminous | **FAIL** | 4 denominators not filed anywhere (2 live), 1 non-coterminous pairing presented as filed, **4 defects** |
-| 3 | Precision laundering | **CONDITIONAL PASS** | 1 live defect (false-precision rent), 4 already-correct hedges verified, 0 survivors of the retracted 5,112/32.5 pair |
-| 4 | Cross-foot the statements (FY1996, FY1995 comparatives, Q1-1997) | **PASS** | 34 identities recomputed, 34 tie; the 79/2,270 working-capital trap is NOT sprung anywhere |
-| 5 | Register ↔ narrative agreement (§P / §Q / §U / held rows) | **FAIL** | §P: 121 rows parsed, 3 disagree with their register twin; §Q: 148 event rows, 22 lack a same-date `timeline.csv` twin; §U: 70 ↔ 70 EXACT; held rows: 1 leak-class finding |
-| 6 | Basis labels (pooling-restated vs as-filed) | **CONDITIONAL PASS** | FY1997/FY1998 comparatives checked in 9 rows; 2 rows print a pro-forma/restated figure without the label |
-| 7 | Prove the validator | **PASS** (validator proven, 2 of 2 planted defects caught) | poison run: unquoted-comma field shift + back-solved denominator |
-| — | Ghost sweep: no survivor of the fabricated FY1996 set, no return of the retracted Stage-1 legs | **PASS with 1 residue** | 15 ghost strings × 26 files; live-value occurrences in registers = **0**; appendix residue is retraction text only, but one conflicts.csv row still describes it as live |
+| # | Check | Verdict | Count | Defect ids |
+|---|---|---|---|---|
+| 1 | Recompute every DERIVED row from the cited document lines | **FAIL** (arithmetic mostly sound; 6 rows print a wrong quotient or a wrong input) | 334 rows read; 104 with `derived_arithmetic`; 83 tagged DERIVED; 116 expressions re-evaluated | D-01/02, D-03, D-04, D-05, D-06, D-07, D-14 |
+| 2 | Denominators filed and coterminous | **FAIL** | 1 denominator filed nowhere, 1 unverifiable, 1 non-coterminous pair, 1 365/366 basis split | D-01/02, D-11, D-12 |
+| 3 | Precision laundering | **CONDITIONAL PASS** | 3 live rendering defects; 0 survivors of the retracted 5,112/32.5 pair; 11 checked figures clean | D-06, D-07, D-14 (§3.2) |
+| 4 | Cross-foot the statements (FY1996, FY1995 comparatives, Q1-1997) | **PASS** | 34 identities recomputed, 34 tie; the 79/2,270 working-capital trap is NOT sprung anywhere | — |
+| 5 | Register ↔ narrative agreement (§P / §Q / §U / held rows) | **FAIL** | §P 121 rows ↔ 99 register rows: 3 disagreements; §Q 68 rows: 7 with no twin (+22 granularity); §U 70 ↔ 70 EXACT; held rows 0/10 leaked | D-03, D-02, D-11, D-13 |
+| 6 | Basis labels (pooling-restated / pro forma / split basis) | **CONDITIONAL PASS** | Stage 2 uses 147,758 as-filed and the 6× split basis correctly; 2 label defects; 1 Stage-3 exposure routed | D-08, D-09, R-01 |
+| 7 | Prove the validator | **PASS** — 2 of 2 planted defects caught (1 by the arithmetic/unfiled-input run, 1 only after column-integrity invariants were added; width-only validation provably insufficient) | poison run on a copy outside the repo, 2 defects | — |
+| — | Ghost sweep: no survivor of the fabricated FY1996 set; no return of the retracted Stage-1 legs or the false cash bridge | **PASS with 1 stale conflict row + 1 routed caution** | 15 ghost strings × 26 files; live-value occurrences in the nine registers = **0** | D-10, R-02 |
 
 **Overall: CONDITIONAL FAIL** — see §Overall verdict.
 
