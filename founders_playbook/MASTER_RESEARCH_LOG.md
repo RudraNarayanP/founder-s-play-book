@@ -1825,3 +1825,32 @@ parity 183<->183 held, one file touched.
   in `sources.csv` already". It does not. Retracted in place, replaced with the marker.
 - Live count of the withdrawn value fell 6 -> 4; the remaining four are inside `_parts/`, which is
   superseded audit-trail territory and therefore handed off, not edited.
+
+### RD-114 -- Apple's boundary drift repaired and the "twenty rows" count proved unreachable
+
+`03_quality_control/apple_s1_repairs.md` (8/8 sections, released). **Gate: 0 findings / 19 -> 20 passes**,
+`corrections` now runs and reports **5 retraction ids reaching registers 5 and volumes 5**, anchor parity held
+at **55 <-> 55**, widths and row counts unchanged, volumes 56,537 -> 57,502 and 8,713 -> 8,834 (both inside
+the 60k cap).
+- **COR-01, the high finding:** §Q's Homebrew row `1977-01-19 | In-window (last document before the edge)`
+  became the straddle form `1976-12-10 -> 1977-01-19`, with the row, its preamble, record S1P3-10, the U.021
+  rows in timeline/quantitative/failures, the volume-2 echoes and a `_parts/s1_p3.md` marker all carried --
+  i.e. the retraction reached every layer rather than the prose only.
+- **The "twenty dated rows inside the window" claim was arithmetically unreachable as printed (18+1=19).**
+  Re-measured honestly from §Q's own Window-status cells (25 rows) cross-checked against timeline.csv's 19
+  stage1 rows at or before the edge: **17 wholly in-window + the boundary event + 1 straddle**. A count that
+  cannot be reproduced from the cells it summarises is the defect, not the number being 20 rather than 19.
+- **COR-02 BYTE re-tiering done per item, not per title**: first-party ads and absence censuses stay Tier 1;
+  unsigned retrospective columns drop to Tier 3; four records split into two cells because one row was
+  carrying two differently-classed items. Independence and confidence were deliberately *not* moved -- a tier
+  change is not a confidence change -- and the U.008 directory-vs-memoir tension survives as a finding.
+- **COR-03/COR-04/COR-05**: S1P1-05/06 now post-edge with true source dates while U.019 stays two-sided;
+  seven unmarked post-edge timeline rows labelled; §H.2 marked `RETROSPECTIVE SOURCE (1977-04)`.
+- `$666.66`, the five live conflicts and the 1994 EDGAR floor were left untouched -- a repair pass that
+  "helpfully" resolves open conflicts is the failure mode §15.6 exists to prevent.
+
+**Two residues checked, one closed by verification rather than assertion:** the certifier's "volume 2 is
+invisible to the anchors/keys gates" is now **false under the current build** -- `narr_files()` returns both
+volumes, and volume 2 legitimately declares zero §U entries because it is the claim-record appendix (0
+declared, hundreds of citations, all of which resolve). The G1-F denominator re-run and the nine S1P1 records
+awaiting a merge-side tier upgrade remain open for the certifier.

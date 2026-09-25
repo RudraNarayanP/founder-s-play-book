@@ -9,8 +9,8 @@ rather than removing evidence (§9.6).
 
 | Volume | Contents | Words | Status |
 |---|---|---|---|
-| `stage_1.md` (volume 1 of 2) | Header + merge note, STAGE BOUNDARY JUSTIFICATION, §A–§U — i.e. `_parts/s1_p1.md` and `_parts/s1_p2.md` entire (their claim-record blocks, part-local conflict keys and part 2's register-request block included) plus §M–§U of `_parts/s1_p3.md` | **56,537** | 94% of cap — amber (§9.2), not split further |
-| `stage_1_part_2.md` (volume 2 of 2) | Tail of `_parts/s1_p3.md`: the consolidated `Untried routes` section (§X continuation), part 3's handoff block, and its pre-merge `>>> REGISTER ROWS FOR MERGE <<<` blocks, verbatim | **8,713** | well under cap |
+| `stage_1.md` (volume 1 of 2) | Header + merge note, STAGE BOUNDARY JUSTIFICATION, §A–§U — i.e. `_parts/s1_p1.md` and `_parts/s1_p2.md` entire (their claim-record blocks, part-local conflict keys and part 2's register-request block included) plus §M–§U of `_parts/s1_p3.md` | **57,502** | 94% of cap — amber (§9.2), not split further |
+| `stage_1_part_2.md` (volume 2 of 2) | Tail of `_parts/s1_p3.md`: the consolidated `Untried routes` section (§X continuation), part 3's handoff block, and its pre-merge `>>> REGISTER ROWS FOR MERGE <<<` blocks, verbatim | **8,834** | well under cap |
 
 **Why the cut sits at the end of §U.** §9.3 permits a split only at a section boundary, and the anchor spine that
 the §U block mints is the addressable set every register row cites; cutting after §U keeps all 55 `U.nnn` anchors
@@ -24,7 +24,7 @@ reason for the boundary chosen here.
 **Non-destruction arithmetic.** Parts as released measured 64,744 whitespace tokens (`wc -w`: 64,754; the 10-word
 delta is whitespace counting, not text). The merge removed 70 tokens of per-part scaffolding (two `# s1_pN.md`
 titles and two stale `SCAFFOLDED … nothing written yet` comments) and added 576 tokens of volume headers and the
-merge note: **64,744 − 70 + 576 = 65,250 = 56,537 + 8,713** ✓. Record census, parts vs merged, identical:
+merge note: **64,744 − 70 + 576 = 65,250 = 57,502 + 8,834** ✓. Record census, parts vs merged, identical:
 claim records **66** distinct / **237** occurrences; part-local conflict keys **16** distinct; `U.nnn` tokens
 **57** distinct; dossier-local keys `[A-T]-\d{1,3}` **167** distinct / **1,391** occurrences.
 
@@ -112,3 +112,8 @@ U.026, U.027, U.047, U.014); Wayne's 10%-vs-12%, Markkula's terms, the 50-boards
 word-of-mouth-vs-the-April-1977-BYTE-directory, and $77,000-vs-$770,000 all stay **two-sided** (U.005, U.007,
 U.003, U.008, U.009) with no averaging anywhere; Apple's earliest EDGAR text is the 1994-01-26 / FY1994 Form 10-K,
 so everything earlier is print and **one lineage is one source** (U.023, U.041, sources row S1M-01).
+
+
+**Repaired 2026-09-26 (apple-s1-repair).** See `CORRECTIONS.md` for COR-01…COR-05: the §Q boundary label and
+the spine row count, BYTE's tier rank per item, S1P1-05/06's window status and source dates, post-edge
+markers on seven timeline rows, and the §6 retrospective tag at §H.2. Word counts above are post-repair.
