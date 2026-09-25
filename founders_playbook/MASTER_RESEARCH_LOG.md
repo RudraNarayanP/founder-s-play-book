@@ -1282,3 +1282,24 @@ true NULL for 1975–1990, while periodicals produced genuine in-window text (Ho
 5.3 MB Byte 1976 layer and 493 KB Popular Electronics March 1975 both return **zero** hits over held bytes
 -- that is a null, and the 1975–1990 origin window is now known to be undocumented by those two titles
 specifically, not generally. Biggest gap: **Stage 3 (1986–1990) has zero documents in any family.**
+
+### RD-097 -- the Walmart mine moved the wall, and killed a folk geography error
+
+`company_002_walmart/research/A6_held_corpus_mine.md`: 27 records, 9,229 words, 22 register rows
+requested rather than written, gates 0 findings / 7 passes.
+
+- **The emptiest region got documented state.** No held byte names the company before 1972-03-22, but the
+  FY1974 report's "FIVE YEAR PROGRESS REPORT" prints year-end store counts **FY1970-FY1973
+  (32/38/51/64/78)** and the FY1973 report prints "fifty-five Wal-Mart and nine variety and family center
+  stores". Documented store series now reaches back to FY1969 -- inside the Stage-1 window, from print
+  rather than EDGAR.
+- **Kentucky vs Arkansas is settled: Arkansas**, on the FY1974 report's own headed "HISTORY OF WAL-MART"
+  (1974-03-21) plus five reiterations -- *one lineage*, so it is a company self-narrative at that strength,
+  not five corroborations. A4's "Newport, Kentucky" came from a **Business Week index decoy**: an index
+  entry read as a fact. Registers are right; A4's prose is the error.
+- **Null discipline, split honestly: 8 content-verified nulls vs 10 UNANSWERED/UNTRIED.** `ca_01_waltons_
+  five.json` is a Cloudflare challenge page, not results; every Chronicling America probe 403s;
+  `GOOGLEBOOKS_batch1.json` is 2 bytes; the EDGAR probes are `NoSuchKey`; `_REQUEST_LEDGER.tsv` is
+  header-only. One live pre-1972 lead survives: **45 HathiTrust items matching "Wal-Mart" Bentonville
+  1960-69, of which 4 are Full view** (a 1968 Customs bulletin) -- text UNTRIED, and the only route in the
+  whole mine that could still push the naming wall back.

@@ -50,15 +50,20 @@ def find(company, name):
 
 
 def probe_tier(company):
-    for p in sorted(glob.glob(os.path.join(company, "research", "A*feasib*.md")) +
-                    glob.glob(os.path.join(company, "research", "A*settlement*.md"))):
-        t = open(p, encoding="utf-8", errors="replace").read()
-        hits = re.findall(r"(?im)^\W*(tier|verdict)[^\n]{0,12}?\b(T[123])\b[^\n]{0,60}", t)
-        if hits:
-            return hits[-1][1].upper()
-        m = re.search(r"\b(T[123])\b", t)
-        if m:
-            return m.group(1)
+    """A wrong tier routes the wrong NUMBER of agent runs, so an established company is
+    recognised from its own artefacts, not only from a probe sheet."""
+    for pat in ("A*feasib*.md", "A*settlement*.md", "*verdict*.md"):
+        for p in sorted(glob.glob(os.path.join(company, "research", pat))):
+            t = open(p, encoding="utf-8", errors="replace").read()
+            hits = re.findall(r"(?im)^\W*(?:tier|verdict)[^\n]{0,16}?\b(T[123])\b", t)
+            if hits:
+                return hits[-1].upper()
+            m = re.search(r"\b(T[123])\b", t)
+            if m:
+                return m.group(1).upper()
+    s1 = os.path.join(company, "stage_1.md")
+    if os.path.exists(s1) and words(s1) > 20000:
+        return "T1"
     return "?"
 
 
