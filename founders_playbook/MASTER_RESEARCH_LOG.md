@@ -93,7 +93,7 @@ Statuses: `NOT STARTED` · `DISCOVERY` · `DEEP RESEARCH` · `RECONSTRUCTION` ·
 
 | # | Company | Stage 1 | Stage 2 | Stage 3 | Quant | Sources | Adversarial | QA | Final |
 |---|---|---|---|---|---|---|---|---|---|
-| 001 | Amazon | **QA — SIGNED 2026-09-25 (AUDIT 8, named residuals, no blockers)** | **RECONSTRUCTION — 3 volumes + 479 claim records; chronology repaired, citation repair running** | **DEEP RESEARCH** (75 post-IPO filings; chronology dossier at 59 records, boundary argued for 1999-06-30/08-16; finance + product running) | RECONSTRUCTION (193 rows) | RECONSTRUCTION (113 rows) | RECONSTRUCTION (68 conflicts) | AUDIT 6 = REOPEN → AUDIT 7 pending | NOT STARTED |
+| 001 | Amazon | **QA — SIGNED 2026-09-25 (AUDIT 8, named residuals, no blockers)** | **RECONSTRUCTION — 3 volumes + 479 claim records; chronology repaired, citation repair running** | **RECONSTRUCTION PENDING** (5 dossiers complete, ~148k w; boundary **contested**: 1999-06-30 falsified by ST3E-17, recommended 1999-09-30/11-15 Medium; 427 register rows applied) | RECONSTRUCTION (193 rows) | RECONSTRUCTION (113 rows) | RECONSTRUCTION (68 conflicts) | AUDIT 6 = REOPEN → AUDIT 7 pending | NOT STARTED |
 | 002 | Walmart | DEEP RESEARCH (A2 133 rec + A3 39 rec + A4 periodicals; 0 web calls of budget) | PROBE | NOT STARTED | DEEP RESEARCH | DEEP RESEARCH | NOT STARTED | **PROVISIONAL — independent-lineage count 1** | NOT STARTED |
 | 003 | UnitedHealth Group | DISCOVERY | PROBE | — | — | — | — | — | — |
 | 004 | Apple | DEEP RESEARCH (80 records, 4 registers) | PROBE | — | DEEP RESEARCH | DEEP RESEARCH | NOT STARTED | NOT STARTED | NOT STARTED |
@@ -578,6 +578,10 @@ re-using those ids) is handed to the orchestrator unsolved.**
 | RD-066 | Amazon | Stage 3 registers | **Two merge hazards in the Stage-3 append blocks:** ST3_B proposes source ids **S3001–S3022** while ST3_D explicitly declines to claim an `S30xx` block (`OC-D7`), so a mechanical apply can collide; and ST3_D's `timeline.csv` block contains **one row parsing to 12 fields against an 11-field header** (a duplicated 1999-Q4 row from its own repair passes) | Applying rows that look clean per-file but are inconsistent across files corrupts the join keys the audits depend on | Re-key the source ids centrally at merge, drop or dedupe the 12-field row with a note, then re-verify 1:1 §U/`conflicts.csv` parity before and after | OPEN — with RD-064's queued apply |
 | RD-067 | Amazon | Stage 3 arithmetic | **Six restatement conflicts found by arithmetic rather than by reading**: U.D1 depreciation printed twice per year; U.D2 the ×2 option balances *resolved* by the 1999-09-01 2-for-1 (RD-060's missing split, arriving from a second direction); U.D3 1997 gross fixed assets 12,899 vs 13,490; U.D4 two different "eights"; U.D5 FY1998 net sales 609,996 vs 609,819; U.D6 FY1997 technology spend printed as 12,485 / 13,916 / 13,384 | Three documents can disagree about one year while each is internally correct; the fix is to name the document, never to average | `ST3_D` §Contradictions + `OC-D3` (no single value for 1997/98 technology spend or D&A) | OPEN — Stage-3 numbers audit |
 
+| RD-068 | Method + instruction layer | this log, ~L827 | **An unverified generalisation that I authored, not inherited**: I wrote that four folk acquisition names return "zero occurrences across all 97 local files" — `Exchange.com` in fact occurs **113 times in 11 files**, including an 8-K headline for a dated, priced, HSR-cleared acquisition. Three of the four names are genuinely absent; the fourth was added by me to make the sentence read as a complete refutation | The mirror image of RD-059: the instruction layer does not merely propagate stale claims, it can **manufacture** them, and this one would have deleted real evidence as folklore | `research/ST3_E_adversarial.md` ST3E-31 + COR-203/COR-204; withdrawn in place above | **OPEN as a habit** — any count or "zero occurrences" claim written by me into this log or the handoff needs the same grep-and-quote verification demanded of agents |
+| RD-069 | Amazon | Stage 3 boundary | **The recommended endpoint is contested and the first recommendation is falsified.** ST3_A argued 1999-06-30/08-16 on "the Q2-1999 10-Q is the first filing that uses 'opened'" — false three times over (FY1997 10-K L1647 November 1997 Delaware; ARS 1998 L160 UK and Germany; Q1-1999 L592/L915 Nevada), reducing the case to a single offer letter whose operative form is a 1999-09-30 restatement. ST3_E recommends **1999-09-30 substantive / 1999-11-15 disclosed, Medium**, on executed senior-operating instruments (Wilke, Jenson, three offers inside 30 days) with third-party commissions removed from the test. FY1998 is **not** restored: its three stated rejections were unsound (the 33→25→20 "decline" is a share-of-growth fallacy, dollars grew 3.3×; the 8→7 officer count is a compliance artefact retracted by ST3_A's own U.206; "intends to establish" is boilerplate present in FY1997 too), but FY1998 fails on better evidence — both pre-1999 plants manually operated, International segment $21.8m = 3.6% of sales on $2.8m of foreign assets, and FY1998 operating cash generation before working capital **−$41,433k** | §6/7 require a justified endpoint, and an endpoint resting on a falsified "first mentions" claim is not one | Assembly must write both positions as a §U conflict and adjudicate on the instruments, not the narrative | OPEN — assembly decision |
+| RD-070 | Amazon | Stage 3 nulls | **Nine "the record does not show X" nulls became facts when the FY1999 10-K and 10-K/A arrived after every dossier had closed**, including 7,600 employees at 1999-12-31 on a third and wider basis, zShops dated **October** not late September, the first seller-side counts (1m users / 1.5m listings), a second category figure ($33.1m, Q4 1998), the corpus's only launch **day** (video, 1998-11-17), and a silent flip of FY1998's change-in-cash from **+23,685 to −38,536** in the amendment | A null asserted before the corpus finished growing is a defect that reads like a finding; the 10-K/A also shows an amendment can reverse a printed subtotal | Method §14.11 (already adopted from ST3_D); fold `OC-D1`/`OC-D2` + ST3_E's null reversals into assembly rather than re-running dossiers | OPEN — assembly |
+
 ### Archive route discovered mid-run — the EDGAR floor is not the last word
 
 The Walmart probe concluded that pre-1994 origins cannot carry exemplar depth, because EDGAR starts
@@ -823,10 +827,26 @@ vendors" to "**most of our vendors**" by 1999-03-05.
 **Two of my own dispatch assertions were wrong, and both dossiers found it independently.** The five 1999-03-11
 "Sales Agreement" exhibits are not marketplace contracts — they are **materials-handling equipment purchases**
 from The Buschman Company (Amazon the purchaser; Fernley Phases I–II plus three "Site A/B/C" proposals still
-"yet to be determined"; prices redacted under Rule 24b-2). And **the S-4 lineages carry no named acquisition**:
-`WarehouseDirect`, `Internet Mail`, `Allaire`, `Exchange.com` return **zero occurrences across all 97 local
-files**, and 333-55943 is a generic 5,000,000-share shelf while 333-56723 is a notes exchange. The folk
-acquisition list is agreed-only or absent. Recorded as RD-056/RD-057; the `_EVIDENCE_CACHE.md` patch is queued
+"yet to be determined"; prices redacted under Rule 24b-2). And the S-4 lineages are not what they were assumed to be: 333-55943 is a generic 5,000,000-share acquisition shelf and 333-56723 is a notes exchange.
+
+> ### ⚠ WITHDRAWN — a false claim in this entry, corrected by the Stage-3 adversarial pass (2026-09-25)
+> An earlier draft of the paragraph above asserted that `WarehouseDirect`, `Internet Mail`, `Allaire` and
+> `Exchange.com` return **zero occurrences across all 97 local files**. **That is false.** `Exchange.com` occurs
+> **113 times across 11 files**, including the 8-K headline *"AMAZON.COM ACQUIRES EXCHANGE.COM, ADDING MORE THAN
+> 12 MILLION BOOK AND MUSIC ITEMS"* — a dated, priced, HSR-cleared acquisition, quoted by another dossier of
+> mine. The correct finding is narrower: `WarehouseDirect`, `Internet Mail` and `Allaire` are genuinely absent,
+> and the S-4s do not register them.
+>
+> **How it happened, because the mechanism is the lesson.** ST3_C reported the three genuinely-absent names and
+> the S-4 premise, correctly scoping to `WarehouseDirect`/`Internet Mail`. I added `Allaire` and `Exchange.com`
+> to the list to make it read as a complete refutation of the folk acquisition story, and repeated "zero
+> occurrences" as if it were verified across all four. That is an **unverified generalisation dressed as a
+> measurement** — and unlike the Stage-1 case, this one was not inherited from an agent's output at all. It was
+> mine, it entered the file that every agent reads before the evidence, and left uncorrected it would have
+> **deleted a real acquisition as folklore**. §14.10 says a retraction must reach the instruction layer; this is
+> the mirror image: an instruction layer that manufactures claims needs the same line-level verification as any
+> citation. Recorded as **ST3E-31 / COR-203**, with the corollary that ST3_C's `OC-1` mis-blamed the intake
+> manifest, which contains none of these strings (`COR-204`). Recorded as RD-056/RD-057; the `_EVIDENCE_CACHE.md` patch is queued
 until the agent currently holding write access to that file releases it, rather than racing it.
 
 ### The scheduled runner fired — and disproved the diagnosis the whole periodical gap rested on
