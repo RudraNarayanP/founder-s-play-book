@@ -41,7 +41,7 @@ TAG_RE = re.compile(r"<[^>]+>")
 WS_RE = re.compile(r"\s+")
 
 NARR_GLOBS = {
-    "stage1": ["stage_1.md"],
+    "stage1": ["stage_1.md", "stage_1_part_*.md"],
     "stage2": ["stage_2_part_*.md", "stage_2.md"],
     "stage3": ["stage_3_part_*.md", "stage_3.md"],
 }
@@ -414,6 +414,52 @@ def gate_quotes(company, report, min_words=MIN_QUOTE_WORDS):
         report.detail("quotes", "%s :: %s" % (f, s))
 
 
+COR_RE = re.compile(r"\bCOR-(\d{2,3})\b")
+
+
+def gate_corrections(company, report):
+    """A retraction that reaches the narrative and not the registers is the failure this run
+    keeps paying for (RD-059, RD-090, RD-105): CORRECTIONS.md withdraws a claim, `conflicts.csv`
+    keeps asserting it, and the next reader trusts the register. So propagation is checked
+    mechanically: every COR-nn must be referenced in the register layer AND in at least one
+    stage volume that carried the withdrawn text."""
+    cpath = locate(company, "CORRECTIONS.md")
+    if not cpath:
+        report.note("corrections", "no CORRECTIONS.md -- gate DID NOT RUN (not a pass)")
+        return
+    ids = sorted(set(COR_RE.findall(open(cpath, encoding="utf-8", errors="replace").read())))
+    if not ids:
+        report.note("corrections", "CORRECTIONS.md exists but names no COR-nn ids -- UNANSWERED")
+        return
+    reg_text, vol_text = "", ""
+    for name in REGISTERS:
+        p = locate(company, name)
+        if p:
+            reg_text += open(p, encoding="utf-8", errors="replace").read()
+    for md in stage_docs(company):
+        vol_text += open(md, encoding="utf-8", errors="replace").read()
+    miss_reg, miss_vol = [], []
+    for i in ids:
+        tag = "COR-%s" % i
+        if tag not in reg_text:
+            miss_reg.append(tag)
+        if tag not in vol_text and tag.lower() not in vol_text.lower():
+            miss_vol.append(tag)
+    report.note("corrections", "%d retraction ids; register layer reaches %d, volumes %d"
+                % (len(ids), len(ids) - len(miss_reg), len(ids) - len(miss_vol)))
+    if miss_reg:
+        report.fail("corrections", "registers", "%d retraction(s) reach the prose but NOT any "
+                    "register, so the register layer still teaches the withdrawn claim: %s"
+                    % (len(miss_reg), ", ".join(miss_reg[:12])))
+    if miss_vol:
+        report.fail("corrections", "volumes", "%d retraction(s) name no stage volume -- either the "
+                    "withdrawn text was never in a volume or the pointer is missing: %s"
+                    % (len(miss_vol), ", ".join(miss_vol[:12])))
+    if not miss_reg and not miss_vol:
+        report.ok("corrections", "propagation", "all %d retraction(s) reach registers and volumes"
+                  % len(ids))
+
+
 def gate_budgets(company, report, tier):
     caps = {"exemplar": 60000, "core": 22000, "register": 8000}
     cap = caps.get(tier, 60000)
@@ -534,6 +580,7 @@ def self_test():
             gate_anchors(d, r)
             gate_keys(d, r)
             gate_budgets(d, r, "core")
+            gate_corrections(d, r)
             return r
 
         cases = {}
@@ -576,6 +623,25 @@ def self_test():
                   'nineteen ninety four" (S0001).\n')
         cases["paraphrase presented as quote"] = plant_paraphrase_as_quote
 
+        def plant_unpropagated_retraction(d):
+            # A retraction recorded in CORRECTIONS.md that never reaches the register layer:
+            # RD-105's exact shape (COR-16 appears 3x in prose, 0x in conflicts.csv).
+            with open(os.path.join(d, "CORRECTIONS.md"), "w", encoding="utf-8") as f:
+                f.write("# Corrections\n\nCOR-77 supersedes COR-2: the range claim is withdrawn;"
+                        " the S-1 field is blank.\n")
+        cases["retraction never reaches the registers"] = plant_unpropagated_retraction
+
+        def plant_propagated_retraction(d):
+            # Negative control: the same retraction, properly propagated, must stay clean.
+            plant(os.path.join(d, "stage_1.md"),
+                  lambda t: t + "\nSee COR-77 (supersedes COR-2).\n")
+            with open(os.path.join(d, "CORRECTIONS.md"), "w", encoding="utf-8") as f:
+                f.write("# Corrections\n\nCOR-77 supersedes COR-2: range withdrawn.\n")
+            with open(os.path.join(d, "conflicts.csv"), "w", encoding="utf-8") as f:
+                f.write("conflict_id,section,confidence,notes\n"
+                        "U.1,§A,High,withdrawn reading superseded per COR-77\n")
+        cases["propagated retraction must stay clean"] = plant_propagated_retraction
+
         def plant_orphan_anchor(d):
             p = os.path.join(d, "stage_1.md")
             open(p, "a", encoding="utf-8").write("\n### U.77 Orphan\nnothing registers this\n")
@@ -598,7 +664,9 @@ def self_test():
                    "paraphrase presented as quote": "quotes",
                    "anchor with no register row": "anchors",
                    "unresolvable source token in narrative": "keys",
-                   "correctly escaped doublequote must stay clean": "csv-NEGATIVE"}
+                   "correctly escaped doublequote must stay clean": "csv-NEGATIVE",
+                   "retraction never reaches the registers": "corrections",
+                   "propagated retraction must stay clean": "corrections-NEGATIVE"}
         cases = {k: (GATE_OF[k], v) for k, v in cases.items()}
 
         for tag, (label, (gate_want, mut)) in enumerate(sorted(cases.items()), start=1):
@@ -617,6 +685,7 @@ def self_test():
             if not fired:
                 ok = False
         # negative control: the clean fixture must produce zero findings
+        cases.setdefault("retraction never reaches the registers", None)
         clean = findings_for(lambda d: None, 0)
         if clean.findings:
             print("%-40s %s" % ("clean fixture", "FALSE POSITIVE %s" % clean.findings[:2]))
@@ -632,7 +701,8 @@ def self_test():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--company-dir")
-    ap.add_argument("--checks", default="csv,keys,anchors,quotes,budget")
+    ap.add_argument("--checks",
+                    default="csv,keys,anchors,quotes,budget,corrections")
     ap.add_argument("--tier", default="exemplar", choices=["exemplar", "core", "register"])
     ap.add_argument("--out")
     ap.add_argument("--self-test", action="store_true")
