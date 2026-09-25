@@ -248,6 +248,8 @@ capital went from $298,537 thousand to **$1,027,655 thousand**, i.e. the raises,
 
 ---
 
+## Audited series
+
 ### S0. What "audited" means here, and the one restatement that moves every 1995-1997 number
 
 Two auditors' reports exist in the Stage-3 window. **Ernst & Young LLP**, dated **1999-01-22** ("except for
@@ -359,6 +361,52 @@ FY1996 moved the same way between its two witnesses: product development 2,313 �
 numbers.* The FY1997 annual report — the document a 1998 reader would have opened — printed a **$27.6
 million** net loss for 1997, not $31.0 million. Every Stage-3 row that uses $(31,020) for FY1997 is a
 RESTATED row and is labelled as such. **No restated value in this file reads as filed.**
+
+### S3b. FY1999: what the series can and cannot assert
+
+**There is no FY1999 annual report on disk and none in the enumerated EDGAR slice** (which ends 2000-01-04);
+the FY1999 Form 10-K sits in slice `-001` and was not retrieved by the intake. **Consequence: the FY1999
+column below has no audited witness at all in this corpus.** Nine-month 1999 figures are **CONTEMPORANEOUS
+as nine-month figures** (filed in the Q3 1999 10-Q, acc. `0000891020-99-001938`, 1999-11-15); full-year 1999
+figures are **EMPTY**, not estimated.
+
+| Line ($ thousands) | 9M 1999 (Q3 1999 10-Q) | 9M 1998 comparative in the same document | 9M 1998 as filed in the Q3 1998 10-Q | **FY1999** |
+|---|---|---|---|---|
+| Net sales | 963,797 | 356,992 | 357,103 | **EMPTY** |
+| Cost of sales | 760,998 | 276,680 | 276,679 | **EMPTY** |
+| Gross profit | 202,799 | 80,312 | 80,424 | **EMPTY** |
+| Marketing and sales | 233,222 | 84,325 | — *(inside a 3-line presentation)* | **EMPTY** |
+| Product development | 102,298 | 29,168 | — | **EMPTY** |
+| General and administrative | 44,301 | 10,220 | — | **EMPTY** |
+| Merger, acquisition and investment related costs | 175,255 | 24,901 | — | **EMPTY** |
+| **Stock-based compensation** *(new line, 1999 only)* | 16,570 | 1,591 | — | **EMPTY** |
+| Total operating expenses | 571,646 | 150,205 | 150,315 | **EMPTY** |
+| Loss from operations | (368,847) | (69,893) | (69,891) | **EMPTY** |
+| Interest income | 36,479 | 9,790 | — | **EMPTY** |
+| Interest expense | (66,424) | (18,017) | — | **EMPTY** |
+| Other income, net | 2,037 | — | — | **EMPTY** |
+| **Net loss** | **(396,755)** | (78,120) | (78,119) | **EMPTY** |
+| Loss per share | (1.23) | (0.27) | (0.27) | **EMPTY** |
+| Shares used in that EPS | 323,064 | 292,206 | 48,700 | **EMPTY** |
+| Cash + marketable securities (9/30) | 905,685 | — | 337,260 | **EMPTY** |
+| Inventories (9/30) | 118,793 | — | 19,772 | **EMPTY** |
+| Accounts payable (9/30) | 236,711 | — | 60,046 | **EMPTY** |
+| Accumulated deficit (9/30) | (558,815) | — | — | **EMPTY** |
+| Purchases of fixed assets (9M) | (181,859) | — | (18,779) | **EMPTY** |
+| Employees at year-end | — | — | — | **EMPTY** |
+| Pro forma net loss, 9M (company-stated, non-GAAP) | (204,930) | — | (51,628) | n/a |
+| Pro forma net sales, 9M as if all acquisitions from 1 January | 966.2 million | — | 358.1 million | n/a |
+
+**Two warnings attached to this block.** (1) The `48,700` vs `292,206` pair for the same 9M 1998 period is
+**one number at two split vintages** (`48,700 × 6 = 292,200`, the $6k difference being rounding in thousands)
+— the Q3 1998 10-Q was written after only the 2-for-1; the Q3 1999 10-Q after the 2-for-1, the 3-for-1 **and
+nothing further**, since the third split (1999-09-01) post-dated the comparative it could not affect. **This
+is the archive's single most common false contradiction and every per-share row must carry its vintage.**
+(2) **Do not annualise.** Any "FY1999 ≈ $1.3bn" or similar figure computed as 9M × 4/3 is **not in this
+file**: Q4 was the dominant quarter on the filed evidence (Q4 1998 was 41% of FY1998 net sales —
+DERIVED `252,893 ÷ 609,996 = 41.4%`), so a straight extrapolation is a known-biased guess and would violate
+the no-manufactured-precision rule. **The correct Stage-3 statement about how 1999 finished is: UNKNOWN on
+the local record, retrievable by one catalogue row plus one fetch.**
 
 ### S4. The share-count and EPS vintage problem (this is the reason two proxies disagree)
 
@@ -933,32 +981,516 @@ is stated to have been repaid in October 1998, before this balance appeared.)
 
 ## Metrics
 
-_TO be populated: DERIVED rows with arithmetic, or UNKNOWN where no filed denominator exists._
+_See the Metrics register above (`## Metrics`, rows M-01 … M-35). This heading is retained so the section
+set stays complete; the register was written in place of a second copy rather than duplicated._
 
 ## Timeline
 
-_TO be populated._
+Financial events only, dated to the document that carries the date. Where a filing's own event date and its
+contents disagree, both are shown.
+
+| Date | Event | Document |
+|---|---|---|
+| 1997-05-16 | **Stage 3 opens**, the day after the IPO priced at $18.00 | boundary set by the intake; not argued here |
+| 1997-06-06 | First post-IPO S-8: 1997 Stock Option Plan, **9,534,648 shares** registered at a proposed maximum $17.3125 | `S-8_FileNo-333-28763_…` |
+| 1997-08-14 | **First post-IPO periodic report**: Q2 1997 net sales $27,855k | `10-Q_Q2-1997_…` |
+| 1997-11-07 | **$75,000,000 Deutsche Bank senior secured term facility** committed (increasable to $100M) | `8-K_event-1997-11-07_…` Item 5 |
+| 1997-11-14 | Q3 1997 10-Q: the pivot from equity to debt disclosed | `10-Q_Q3-1997_…` |
+| 1997-12 | Senior Loan drawn; 200,000 sq ft Delaware DC opened; Seattle DC expanded to 85,000 sq ft | `10-K_FY1997_…` L1070-1075, L1646-1648 |
+| 1998-02-13 / 02-17 | **Two Schedule 13Gs**: Bezos 9,885,000 shares / 41.3%; Jacklyn Gise Bezos and Miguel Bezos 1,571,244 each / 6.6% | both `SC13G_…` files |
+| 1998-03-30 | **FY1997 10-K405 filed**: net sales $147,758k, net loss $(27,590)k, 614 full-time employees | `10-K_FY1997_…` |
+| 1998-04-17 | 1998 DEF 14A filed (Bezos $79,197 / $64,333, no bonus, no options) and ARS 1997 ("838% revenue growth to $147.8 million … this is Day 1") | `DEF14A_1998_…`, `ARS_1997-…` |
+| 1998-04-17 / 04-24 | **First stock-funded acquisitions**: Bookpages, Telebook, IMDB for **540,066 shares** (Reg S) | `8-K_event-1998-04-17_…` |
+| 1998-04-24 | **$275 million senior discount notes offering announced** | `8-K_event-1998-04-24_…` |
+| 1998-04-27 | 2-for-1 split announced; acquisitions and Q1 1998 earnings in one filing | `8-K_event-1998-04-27_…` |
+| 1998-05-05 | **Offering upsized** | `8-K_event-1998-05-05_…` |
+| 1998-05 | **Senior Discount Notes completed: ~$326M gross / ~$315.7M net; $75.0M used to retire the Senior Loan**; $2.0M of unamortized loan fees written off | `10-K_FY1998_…` L1526-1527, Note 5; `424B2_…` L1355-1359 |
+| 1998-05-15 | Q1 1998 10-Q with the indenture, note form and registration-rights exhibits (EX-4.1/4.2/4.3) | `10-Q_Q1-1998_…` |
+| 1998-06-01 | **2-for-1 split effected** (record 1998-05-20) | `10-Q_Q1-1999_…` L453-455 |
+| 1998-06 | Music store launched | `10-K_FY1998_…` L1369 |
+| 1998-06-03 / 06-12 | **Two S-4 lineages opened**: 333-55943 (acquired-company exchange) and 333-56723 (**10% Senior Discount Notes**, ~$326M gross) | both `S-4_…` files |
+| 1998-08-03 / 08-12 / 08-27 | **Junglee and PlanetAll merger agreements signed / Junglee closed / PlanetAll closed**; Junglee ~$180M purchase price, ~4.7M shares; PlanetAll pooling, ~2.4M shares | `8-K_event-1998-08-03_…`, `…08-12…`, `…08-27…`, `8-KA_…` |
+| 1998-08-13 | **424B2 priced exchange-offer prospectus**: sales "through June 30, 1998 … more than $367 million to approximately 3.1 million customer accounts"; accumulated deficit $64.1M; "approximately $2.4 million of indebtedness" ex-Notes | `424B2_…` |
+| 1998-08-14 | Q2 1998 10-Q: net sales $115,977k | `10-Q_Q2-1998_…` |
+| 1998-09 | Exchange offer completed for **all** outstanding Senior Discount Notes | `10-K_FY1998_…` Note 5 |
+| 1998-09-11 | S-8 registering **four acquired-company plans** in one filing; S-8 POS amendment 1998-10-01 | `S-8_FileNo-333-63311_…` |
+| 1998-09-30 → 1998-10-27 | **S-3 shelf (333-65091)** → **424B3 final prospectus for 2,662,125 shares** of selling stockholders → supplement five days later | `S-3_FileNo-333-65091_…`, both `424B3_…` |
+| 1998-10 | **UK and German stores open**; Regensburg 32,000 sq ft, Slough 41,000 sq ft | `10-K_FY1998_…` L1321-1322, Item 2 |
+| 1998-10-28 | Q3 1998 results: **"$14.4 MILLION" online music, "#1 online music retailer"** | `8-K_event-1998-10-28_…` |
+| 1998-11-13 | Q3 1998 10-Q: net sales $153,698k | `10-Q_Q3-1998_…` |
+| 1998-11-19 | **3-for-1 split announced** | `8-K_event-1998-11-19_…` |
+| 1998-12 | **Fernley, Nevada: 323,000 sq ft "highly mechanized" DC leased**, to begin operations 1999 | `10-K_FY1998_…` Item 2 |
+| 1999-01-04 | **3-for-1 split effected** (record 1998-12-18) | `10-Q_Q1-1999_…` L455-457 |
+| 1999-01-05 | Holiday release: **"MORE THAN 1 MILLION NEW CUSTOMERS IN HOLIDAY SEASON"; "$1 BILLION SALES RUN-RATE"** | `8-K_event-1999-01-05_…` |
+| 1999-01-26 | Q4/FY1998 results: Q4 net sales **$252,893k** (+283%); FY1998 **$609,996k** (+313%); pro forma net loss FY1998 $(74.4)M vs GAAP $(124.5)M including $50.2M of M&A costs; 6.2 million accounts | `8-K_event-1999-01-26_…` |
+| 1999-01-28 | **$500 million convertible subordinated debentures announced**, priced and **upsized to ~$1.25 billion the same day** (two 8-Ks, one event date) | `8-K_event-1999-01-28_…` ×2 |
+| 1999-02-03 | **$1,250,000,000 4¾% Convertible Subordinated Notes due 2009 completed**; indenture + registration rights filed in full | `8-K_event-1999-02-03_…` |
+| 1999-02-28 | Ownership as reported by the company: Bezos **58,770,000 shares / 36.48%**; all directors and officers **75,413,815 / 45.62%** | `DEF14A_1999_…` |
+| 1999-03-05 | **FY1998 10-K filed** — the anchor of Stage 3 | `10-K_FY1998_…` |
+| 1999-03-15 / 03-16 | **1999 Nonofficer Employee Stock Option Plan S-8: 20,000,000 shares, aggregate offering price $2,456,880,000**; S-3 shelf 333-74435 for the converts' resale | `S-8_FileNo-333-74419_…`, `S-3_FileNo-333-74435_…` |
+| 1999-03-28 / 03-30 | Auction service announced, then launched: "THIRD-PARTY SELLERS CAN NOW REACH … 8 MILLION PRE-REGISTERED … BUYERS" | two `8-K_…` files |
+| 1999-04-02 | **Wal-Mart trade-secrets action settled "without payment by either party"** | `10-Q_Q1-1999_…` L465-468 |
+| 1999-04-07 | 1999 DEF 14A + ARS 1998 ("$1 billion revenue run rate", "next 3 1/2 years") ; authorized-share increase to **1.5 billion** on the agenda | `DEF14A_1999_…`, `ARS_1998_…` |
+| 1999-04-24 / 04-25 / 04-26 | Alexa Internet and e-Niche agreements (~**$250 million** consideration); **Exchange.com** acquired, "ADDING MORE THAN 12 MILLION BOOK AND MUSIC ITEMS" | `8-K_event-1999-04-26_acc-…000805`, `8-K_event-1999-04-26_acc-…000717` |
+| 1999-04-28 | Q1 1999 results: net sales **$293,643k** (+236%); 8.4 million accounts; repeat customers 66% of orders | `8-K_event-1999-04-28_…` |
+| 1999-05-14 / 05-17 / 05-19 | Exchange.com merger completed; Q1 1999 10-Q with **five "SALES AGREEMENT, DATED MARCH 11, 1999" exhibits (EX-10.1…10.5)**; **$2 billion universal shelf** filed | `8-K_event-1999-05-14_…`, `10-Q_Q1-1999_…`, `S-3_FileNo-333-78797_…` |
+| 1999-06-08 / 06-09 / 06-10 / 06-11 | Accept.com and Alexa closings; two more S-8s (Alexa, Accept.com plans) on one day | three `8-K_…` and two `S-8_…` files |
+| 1999-07 | **Toys and electronics stores launched** | `10-Q_Q3-1999_…` L862 |
+| 1999-07-21 | Q2 1999 results: net sales **$314,377k** (+171%); 10.7 million accounts; pro forma operating loss $67.3M (21% of net sales) | `8-K_event-1999-07-21_…` |
+| 1999-08-12 / 09-01 | **A third split — 2-for-1 — is effected with no 8-K on file**: record date 1999-08-12, paid 1999-09-01 | `10-Q_Q3-1999_…` L123-124, L656-661 |
+| 1999-09 | **zShops introduced** | `8-K_event-1999-10-28_…` |
+| 1999-10-12 | Last equity registration in the window: Convergence Corporation plan | `S-8_FileNo-333-88825_…` |
+| 1999-10-26 | POS AM Amendment No. 2 **terminates** the 2,662,125-share shelf | `POSAM_FileNo-333-65091_AmdtNo2_…` |
+| 1999-10-27 / 10-28 | **Q3 1999 results, the window's last periodic record**: net sales $355,777k (+132%); GAAP net loss $(197,080)k incl. **$111M** of merger/acquisition/investment and stock-compensation charges; pro forma net loss $(85,810)k; 13.1 million accounts; repeat orders **72%**; distribution square footage "more than four times" the 1998 holiday season | `8-K_event-1999-10-28_…`, `10-Q_Q3-1999_…` |
+| 1999-11-15 | Q3 1999 10-Q filed | `10-Q_Q3-1999_…` |
+| 1999-12-31 | **Window closes with no annual report, no Q4 statement and no year-end balance sheet in the local record.** The 33rd un-filed 424B3 resale supplement of 1999-12-30 is the last EDGAR row the intake enumerates in the year | intake manifest §5a |
 
 ## Data gaps
 
-_TO be populated: EMPTY / UNANSWERED / UNTRIED kept distinct._
+**EMPTY, UNANSWERED and UNTRIED are kept distinct. An untried route is not a null; a null is not an absence
+of evidence; and "not retrieved" never means "does not exist".**
+
+### D1. EMPTY — the period has no document in the corpus at all
+
+| # | Gap | Why empty | Importance | Best available | Follow-up |
+|---|---|---|---|---|---|
+| E-1 | **FY1999 annual audited figures** (net sales, gross profit, all expense lines, net loss, EPS, year-end balance sheet, cash flows, subsidiary list, Part III, year-end employee count, Item 2 properties) | The **FY1999 Form 10-K is not on disk**; the enumerated EDGAR slice stops at 2000-01-04, so it lives in slice `CIK0001018724-submissions-001.json`, "one catalogue row plus one fetch away" | **High** | 9M 1999 from the Q3 1999 10-Q (§S3b) — a genuine nine-month witness, not a substitute | Retrieve with the manifest §6 recipe; **must be done by an agent that owns `sources/`** (§14 rule 9) |
+| E-2 | **Q4 1999 net sales, loss, EPS** | No Q4 10-Q exists by design and the FY1999 10-K is absent | **High** | The 1999-10-28 release's forward guidance about Q4 "in four ways" (qualitative only) | Same retrieval as E-1 |
+| E-3 | **FY1999 year-end cash, inventories, payables, working capital, accumulated deficit** | as E-1 | **High** | 1999-09-30: cash+securities $905,685k; inventories $118,793k; AP $236,711k; deficit $(558,815)k | Same |
+| E-4 | **FY1999 distribution-centre square footage** | as E-1 | Medium | "more than four times" the 1998 holiday season (multiple, no base) | Same |
+| E-5 | **Any Q1 1997 quarterly filing** | Amazon's first 10-Q was for Q2 1997; Q1 1997 was first printed in 1999 in Note 12 | Low (structural, not a loss) | Note 12's Q1 1997 column | none — no such document can exist |
+| E-6 | **FY1996 annual report** | The intake found **no FY1996 annual filing of any form** in the 125-row catalogue; Amazon's first annual report is the FY1997 10-K405. Stage 2's `sources.csv` S0806 registers an FY1996 annual report with no accession, no URL and no document — a **register defect**, not a retrieval gap | Medium | The FY1997 10-K's own 1996 comparative columns (RESTATED) | Correct S0806 (see Outbound corrections) |
+
+### D2. UNANSWERED — the search was run on the local corpus and the record is silent
+
+| # | Question | Search | Result |
+|---|---|---|---|
+| U-1 | GMV / gross merchandise value / bookings | `gross merchandise`, `GMV` across all source files | **zero hits.** Not disclosed. |
+| U-2 | Take rate on third-party selling | all 1999 10-Qs + FY1998 10-K | **Not computable.** Third-party fees are *inside* net sales, never separated (U1). |
+| U-3 | Order count, orders per customer, average order value | both 10-Ks, all 10-Qs, all 8-Ks | **Unknown.** Only percentage-of-orders statements exist. |
+| U-4 | CAC / LTV | as above | **Unknown.** No acquisition attribution; the account base is cumulative and undefined. |
+| U-5 | Associates Program economics (fees paid or received, volume) | FY1998 10-K + all 10-Qs | **Unknown.** One number only: ~200,000 enrolled sites. |
+| U-6 | Category revenue split (books / music / video / toys / 3P) | all periodic filings | **Unknown.** Sole datum: the unaudited $14.4M music claim in one press release. |
+| U-7 | Fulfilment cost / DC operating cost separately | both 10-Ks | **Unknown by construction** — folded into marketing and sales; and lease + marketing commitments printed as **one combined column** ($134,829k). |
+| U-8 | Advertising expense for any 1999 period | all 8 10-Qs | **Unknown.** Annual only. |
+| U-9 | **Release of Bezos's personal guarantees; their amount** | `Seafirst`, `Wells Fargo`, `guarantee`, `release` across all 80+ filings | **UNKNOWN, EDGAR route exhausted.** The instruments were never filed and no post-1997-05-15 filing mentions them. Documented null at ST3B-13 / §K3. |
+| U-10 | Identity of the officer behind "Note receivable from officer for common stock" $(1,099)k → $(1,171)k | both proxies' Certain Transactions | **Unknown.** Not named in either proxy. |
+| U-11 | Quarterly cash burn (as opposed to the annual operating cash flow) | all 10-Q cash-flow statements | **Not printed as such.** Computable only as a sum of investing + operating lines, which the filings themselves do not label as "burn" — so no burn figure is asserted here. |
+| U-12 | Why the founder's reported stake fell by 540,000 split-adjusted shares between the 13G and the 1999 proxy | see §O3 | **Unresolvable on this record** — no Form 4/5 exists in the slice. **Stage 3 cannot say he sold.** |
+
+### D3. UNTRIED — the route exists and was not walked (this is not a null)
+
+| # | Route | Status | Recipe / cost |
+|---|---|---|---|
+| N-1 | **FY1999 Form 10-K** (slice `-001`) | **UNTRIED** | manifest §6 recipe + one catalogue row. **Deliberately not attempted by this pass: this dossier owns exactly one file path and cannot write to `sources/`, and §14 rule 9 forbids a retrieval whose bytes have no home in the repository.** Web requests spent: **0 of 8.** |
+| N-2 | **Section 16 Forms 3/4/5, 1997-1999** | **UNTRIED** | manifest §7 item 3: zero rows in slice `-002`; the untested route is **slice `-001`'s form list**, not a re-query of `-002`. |
+| N-3 | **35 un-fetched 424B3 resale supplements** (33 under 333-74435, 1999-05-24 → 1999-12-30) | **UNTRIED**, excluded by the registrar's editorial judgement | Fetch a **sample by date, not all 35**, if the *cadence* of the resale shelf becomes the question. 33 supplements in seven months is itself a fact. |
+| N-4 | **10 third-party Schedule 13 filings** (2 SC 13Ds of 1998-11-30 and 1999-07-20, 3 SC 13G/As, others) | **UNTRIED** | Accessions in manifest §5b. **A 13D asserts control intent where a 13G disclaims it** — revisit first if a specific holder becomes a question. |
+| N-5 | **The five S-1/A amendments' own exhibit bodies** (underwriting agreement EX-1.1 in No. 2; indemnification agreements and the Ayre/Risher/Spiegel shareholder agreements in No. 1) | **UNTRIED for financial purposes** | Local; readable without any request. Deferred because they sit **before** the Stage-3 boundary except as lineage. |
+| N-6 | **Non-EDGAR routes to the guarantees** (bank records, SEC paper file/microfilm of 333-23795, Section 16 filings) | **UNTRIED** | The only routes left (manifest §7 item 2). Not attempted; none is a web-mining task. |
+| N-7 | **The Junglee / PlanetAll / Accept.com acquired-company audited statements inside the 8-Ks and the 8-K/A** | **UNTRIED in detail** | All local. The 8-K of 1998-08-27 carries **seven EX-27 restated financial-data schedules**; the 8-K/A of 1998-10-26 corrected them. **Read the 8-K/A in preference to the 8-K where they differ.** |
+| N-8 | **The five EX-10 "SALES AGREEMENT, DATED MARCH 11, 1999" exhibits in the Q1 1999 10-Q** | **UNTRIED** | Local, ~120k words. The cache calls these "the contractual trace of the marketplace model" — **the highest-value unread financial text in the Stage-3 set**, because it may be the only place third-party economics are written down at all. |
 
 ## Contradictions
 
-_TO be populated._
+Format: CLAIM A / CLAIM B / WHY THEY DIFFER / EVIDENCE WEIGHT / BEST-SUPPORTED INTERPRETATION / RESIDUAL
+UNCERTAINTY / CONFIDENCE.
+
+**C-1 — FY1997's own numbers.**
+CLAIM A: FY1997 net sales **$147,758k**, net loss **$(27,590)k**, accumulated deficit **$(33,615)k**,
+accounts payable **$32,697k**, working capital **$93,517k** — as filed in the FY1997 10-K405, 1998-03-30.
+CLAIM B: FY1997 net sales **$147,787k**, net loss **$(31,020)k**, accumulated deficit **$(37,514)k**, AP
+**$33,027k**, working capital **$93,158k** — the same year in the FY1998 10-K, 1999-03-05.
+WHY THEY DIFFER: one documented cause, printed in the later document's own footnote — "Reflects restatement
+for pooling of interests" — the August 1998 PlanetAll merger requiring retrospective recast of all periods.
+EVIDENCE WEIGHT: both are Tier-1 audited statements of their own dates; the FY1998 set is the currently
+operative GAAP presentation, the FY1997 set is what investors actually held in 1998.
+BEST-SUPPORTED INTERPRETATION: **use the as-filed values as the contemporaneous witness for FY1997 and the
+restated values only as the recast, and never present a restated value as filed.** The full delta is
+quantified at §S3.
+RESIDUAL UNCERTAINTY: the filings do not disaggregate PlanetAll's contribution line by line, so the +$29k of
+sales and −$3,430k of loss are attributed to the pooling as a block, not itemised.
+CONFIDENCE: High on both values and on the cause; Medium on the itemised attribution.
+
+**C-2 — 838% or 839% growth for FY1997?**
+CLAIM A: "**838%** revenue growth to $147.8 million" — ARS 1997 shareholder letter, filed 1998-04-17.
+CLAIM B: FY1997 % CHANGE **839%** — FY1998 10-K MD&A table, L1309.
+CLAIM C (Stage 2): FY1997 10-K405's own MD&A prints **838%** against its as-filed $147,758k.
+WHY THEY DIFFER: **not an error.** `147,758 ÷ 15,746 = 9.3839` → +838.4% → 838%;
+`147,787 ÷ 15,746 = 9.3857` → +838.6% → 839%. The one-point difference is **entirely** the pooling restatement
+of $29k of sales. EVIDENCE WEIGHT: all three are the company's own arithmetic on its own basis.
+BEST-SUPPORTED INTERPRETATION: cite **838% for the year as filed** and **839% for the year as restated**, and
+state which. **A Stage-3 file that prints "838%" and another that prints "839%" are both correct.**
+RESIDUAL UNCERTAINTY: none material. CONFIDENCE: High.
+
+**C-3 — 3.1 million or 3.3 million customer accounts at 1998-06-30?**
+CLAIM A: "more than $367 million to approximately **3.1 million** customer accounts" through June 30, 1998 —
+424B2, filed 1998-08-13. CLAIM B: "compared with … **3.3 million** at … June 30, 1998" — Q2 1999 10-Q,
+filed 1999-08-16.
+WHY THEY DIFFER: **unknown, and the record does not say.** Candidates the documents do not exclude: (i) the
+1999 figure is inclusive of Auctions/marketplace accounts under a definition the company adopted later — but
+Auctions did not exist in June 1998, so this is weak; (ii) the 1998 figure counted a subset (say, US) and the
+1999 figure restated to a global base; (iii) a plain correction. EVIDENCE WEIGHT: same company, same lineage,
+one figure contemporaneous and one retrospective.
+BEST-SUPPORTED INTERPRETATION: **treat the 1998-vintage 3.1 million as the contemporaneous statement and the
+1999-vintage 3.3 million as a restatement of it, and refuse to build a growth rate on either without saying
+which base is used.** This is a *definitional drift* case: the same words changed meaning between filings.
+RESIDUAL UNCERTAINTY: **the size of the definitional change is not disclosed anywhere.** CONFIDENCE: High on
+the existence of the conflict; UNKNOWN on its cause.
+
+**C-4 — the share-count discontinuity that looks like an error and is not.**
+CLAIM A: weighted-average shares used in EPS go **156,897 (Q1 1999) → 161,170 (Q2 1999) → 332,488 (Q3
+1999)** — a doubling with no visible cause in the 8-K record, which contains **no split announcement after
+1998-11-19**. CLAIM B: the Q3 1999 10-Q itself states "**the two-for-one stock split paid on September 1,
+1999**" to holders of record 1999-08-12.
+WHY THEY DIFFER: they do not differ. **The absence of an 8-K is a filing-practice fact, not a contradiction.**
+EVIDENCE WEIGHT: the 10-Q is an audited-adjacent periodic statement with the split recited in its own
+stockholders'-equity note. BEST-SUPPORTED INTERPRETATION: **three splits occur inside Stage 3 — 2-for-1
+(1998-06-01), 3-for-1 (1999-01-04), 2-for-1 (1999-09-01) — cumulative factor 12× from the mid-1997 basis.**
+Any downstream file using 6× as "the" Stage-3 factor is wrong for anything dated after 1999-09-01.
+RESIDUAL UNCERTAINTY: why no 8-K was filed for the third split — not a question the record answers, and not
+a finding. CONFIDENCE: High.
+
+**C-5 — Q1 1998 net sales has three filed values.**
+**$87,375k** (Q1 1998 10-Q, 1998-05-15) / **$87,395k** (FY1998 10-K Note 12, 1999-03-05) / **$87,361k** (Q1
+1999 10-Q comparative, 1999-05-17). Net loss for the same quarter: **$(9,259)k** as filed vs **$(10,369)k**
+in both later documents. WHY THEY DIFFER: two effects, separable — the pooling restatement (which explains
+the ~$(1,110)k of extra loss) and the reconciliation of the quarterly table to the audited annual totals
+(which explains the ±$20-34k sales moves; Note 12's four quarters sum *exactly* to the audited 609,996).
+BEST-SUPPORTED INTERPRETATION: **Note 12 is the authoritative quarterly basis; the 10-Q is the
+contemporaneous one; record both and label them.** RESIDUAL UNCERTAINTY: the company never printed a
+reconciliation. CONFIDENCE: High.
+
+**C-6 — the two proxies' option counts (125,000 vs 750,000 for Dalzell's 1997 grant).**
+WHY THEY DIFFER: **split vintage only** — the 1999 proxy restated for the 3-for-1 of 1999-01-04.
+`125,000 × 3 = 750,000` exactly. BEST-SUPPORTED INTERPRETATION: **one grant, two vintages, not comparable, and
+not a contradiction to be resolved.** RESIDUAL UNCERTAINTY: none. CONFIDENCE: High.
+
+**C-7 — $349 million versus $348,761 thousand versus $348,140 thousand of debt at 1998-12-31.**
+Three printed values inside one lineage: the S-3's "$349 million of outstanding senior indebtedness", the
+FY1998 10-K's Item 6 line "Long-term debt 348,140", and the balance sheet's `348,077 + 684 = 348,761`.
+WHY THEY DIFFER: rounding to $ millions, plus a definitional difference between "long-term debt" in the
+summary table (which appears to exclude the current portion) and the two balance-sheet lines.
+BEST-SUPPORTED INTERPRETATION: **quote $348.1 million as the long-term-debt line and $348.8 million as total
+debt including current portion; the "$349 million" in the S-3 is the rounded total.** RESIDUAL UNCERTAINTY:
+the summary-table line's exact composition is not footnoted. CONFIDENCE: Medium — **this one is recorded, not
+resolved.**
+
+**C-8 — the 8-A12G's impossible date.**
+The Form 8-A12G filed **1997-05-02** describes "the Prospectus … dated **April 21, 1996** contained in the
+Registrant's Registration Statement on Form S-1 … filed … on **March 24, 1997**". April 21, **1997** is meant
+(Amendment No. 1's prospectus date). **Never cite this document for a 1996 date.** Recorded here so the trap
+survives into the dataset and not into a claim. CONFIDENCE: High.
 
 ## Sources consulted
 
-_TO be populated._
+**Tier 1 throughout unless stated. Every row is a document already on disk in `../sources/`; no network
+request was made on this pass (0 of 8).**
+
+| # | Document (local file) | Accession / file no. | Filed | Use |
+|---|---|---|---|---|
+| 1 | `10-K_FY1998_acc-0000891020-99-000375_filed-1999-03-05.txt` | 0000891020-99-000375 | 1999-03-05 | FY1998 anchor: statements, Note 5 debt, Note 6 commitments, Note 7 equity/options, **Note 12 quarterly**, Item 2 properties, advertising note |
+| 2 | `10-K_FY1997_acc-0000891020-98-000448_filed-1998-03-30.txt` | 0000891020-98-000448 | 1998-03-30 | **the only contemporaneous annual witness for FY1997** (as-filed 147,758 / (27,590) / 614 employees / cover share count) |
+| 3-10 | the eight `10-Q_…` files, Q2-1997 → Q3-1999 | see filenames | 1997-08-14 → 1999-11-15 | the quarterly path; Q1 1999's five March-11-1999 sales agreements; Q3 1999's third-split recital and stock-compensation note |
+| 11-12 | `DEF14A_1998…`, `DEF14A_1999…` | 333-… / 000-22513 | 1998-04-17, 1999-04-07 | summary compensation, beneficial ownership, Certain Transactions, authorized-share proposal, Section 16(a) recital |
+| 13-14 | `PRE14A_1998…`, `PRE14A_1999…` | — | 1998-05-05, 1999-03-15 | **diff only** — same lineage as the definitive proxies, not a second source |
+| 15-16 | `ARS_1997…`, `ARS_1998…` | — | 1998-04-17, 1999-04-07 | founder-state, dated and filed: "838% … this is Day 1"; "6.2 million customers … $1 billion revenue run rate" |
+| 17-18 | `SC13G_jeffrey-bezos…`, `SC13G_jacklyn-gise-bezos-miguel-bezos…` | — | 1998-02-17, 1998-02-13 | **holder statements**, signed by the holders: 9,885,000 / 41.3%; 1,571,244 each / 6.6% |
+| 19 | `8-K_event-1999-01-26…` | 0000891020-99-000103 | 1999-01-27 | **the earliest witness to Q4 1998**, ten weeks before the 10-K; pro forma vs GAAP pair |
+| 20 | `8-K_event-1999-10-28…` | 0000891020-99-001789 | 1999-10-28 | **the window's last periodic record**; the $111M charge block; the four-times square-footage claim |
+| 21-24 | `8-K_event-1997-11-07…`, `8-K_event-1998-04-24…`, `…04-27…`, `…05-05…` | — | 1997-11-10 → 1998-05-06 | the $75M facility, the $275M announcement, the split+acquisitions+earnings triple, the upsize |
+| 25-28 | `8-K_event-1999-01-28…` ×2, `8-K_event-1999-02-03…`, `8-K_event-1998-04-17…` | — | — | the $500M→$1.25bn sequence, the $1.25bn closing with indenture, the 540,066 Reg S shares |
+| 29-34 | `8-K_event-1998-08-03/08-12/08-27…`, `8-KA_…`, `8-K_event-1998-10-28…`, `8-K_event-1998-11-19…` | — | — | Junglee/PlanetAll papers and acquired-company statements; the $14.4M music claim; the 3-for-1 announcement |
+| 35-40 | `8-K_event-1999-03-28/03-30/04-26(×2)/04-28/05-14/06-08/06-09/07-21…` | — | — | auctions, Alexa/e-Niche (~$250M), Exchange.com, Accept.com, Q1/Q2 1999 results |
+| 41-42 | `S-4_FileNo-333-56723…`, `424B2_final-prospectus…` | 333-56723 | 1998-06-12 / 1998-08-13 | the ~$326M gross, the "Increased Leverage" risk factor, the **$315.7M net + $75.0M use of proceeds**, the "$2.4 million of indebtedness" before-picture |
+| 43-48 | `S-4_FileNo-333-55943…` + `/A`, `S-3_333-65091…` + `/A`, `424B3_…-001477`, `424B3_…-001492` | — | 1998-06-03 → 1998-10-27 | the resale shelf and the **2,662,125-share** selling-stockholder prospectus |
+| 49-55 | `S-3_333-74435…` + `/A`, `S-3_333-78797…` + `/A`, `POSAM_333-55943` ×2, `POSAMI…`, `POSAM_333-65091…` | — | 1999-03-16 → 1999-10-26 | the converts' resale shelf (**"Amazon.com will not receive any proceeds"**), the **$2bn universal shelf**, the shelf terminations |
+| 56-65 | the eight `S-8…` and two `S-8 POS…` files | 333-28763 … 333-88825 | 1997-06-06 → 1999-10-12 | the dilution engine: 9,534,648 shares (1997), four acquired-company plans (1998), **20,000,000 shares at $122.844 = $2,456,880,000** (1999) |
+| 66 | `8-A12G_exchange-act-registration…` | 0000891020-97-000704 | 1997-05-02 | §12(b) registration; **carries the 1996-dating trap** |
+| 67 | `S-1_original…`, `S-1A-No1/2/3/4/5/6…`, `424B1_final-prospectus…` | File No. 333-23795 | 1997-03-24 → 1997-05-15 | **Stage 2's frozen record** — consulted only for the guarantee disclosure that Stage 3 must then fall silent on. **One lineage, seven accessions.** |
+| 68-69 | `../research/ST2_B_finance.md`, `../research/_EVIDENCE_CACHE.md`, `../sources/STAGE3_INTAKE_MANIFEST.md` | — | — | inherited figures, checked against the corpus before use (§14 rule 8) |
 
 ## Provenance and method notes
 
-_TO be populated._
+**Write-first compliance.** Tool call 1-4: read `00_METHOD_AND_STYLE.md` (§3, §7, §9.6, §14) and the Stage-3
+intake sections plus the intake manifest. **Tool call 5 created this file** with the full section skeleton and
+14 dated records (ST3B-01 … ST3B-14). Every subsequent step appended to this file after mining a document;
+nothing was accumulated in scratch. **Current record count on disk: verified by read-back at the foot of this
+file.**
+
+**§14.8 compliance — inherited figures were grepped before being written down.** Every number in the brief
+that this file repeats was searched against the local corpus and a line anchor recorded: the three Bezos
+salary figures, the four FY1998 Selected Financial Data values, $75,000,000 / $100,000,000, $275 million,
+~$326 million, $530 million, $1,250,000,000, $2,000,000,000, $156.055, 8,009,996, 540,066, 2,662,125,
+9,885,000, 1,571,244, 58,770,000, 75,413,815, 6.2 million, 8.4 / 10.7 / 13.1 million, $14.4 million, 125,000
+and 750,000, 614 and "approximately 2,100". **None was entered on citation alone.** Where an inherited
+framing needed correction, the correction is in `## Outbound corrections`.
+
+**§3 lineage discipline applied to this file's own counts.** The 424B2's $367M/3.1M sentence, the S-4's
+$251M/2.3M sentence and the 10-Qs' numbers are **one corporate record each**; a figure appearing in a
+prospectus and in the 10-Q it incorporates is counted **once**. The PRE 14A / DEF 14A pairs are one source
+each. The seven accessions of File No. 333-23795 are one registration statement. Consequently **almost
+nothing in Stage 3 has corroboration in the independence sense**: the entire financial series rests on one
+registrant and one auditor, Ernst & Young LLP, with Deloitte & Touche and PricewaterhouseCoopers consents
+appearing only for acquired companies. **That is the honest independence note on every row in this file.**
+
+**Precision discipline.** Rounded filings stay rounded: `$60.2 million` is written `$60.2 million`, not
+`60,200`; "approximately 2,100" is not `2,100`; "~33%" is not `32.5%`. Derived quotients from rounded inputs
+are stated to one decimal and flagged. **Where a filing says "more than" or "approximately", this file says
+so too.**
+
+**Text-layer caution.** One garble was caught and is not laundered: the Q2 1998 10-Q's statement-of-
+operations table prints the six-month 1997 net-sales comparative as `3,860` where its own MD&A table at L838
+prints `43,860` — a dropped leading digit in the HTML rendering. **The MD&A value is used and the defect is
+recorded.** Any figure quoted from a table cell in this window should be checked against the MD&A table for
+the same item.
+
+**Web budget: 0 WebSearch, 0 WebFetch of 8 permitted.** The one fetch that would change this file's
+conclusions — the FY1999 Form 10-K — was **deliberately not attempted**, because this dossier owns exactly one
+file path and **cannot write retrieved bytes to `../sources/`**, where §14 rule 9 requires them to live. A
+retrieval that survives only inside a summarising tool's reply is not evidence in this archive. The
+retrieval is handed to a `sources/`-owning agent as item **N-1**, with the recipe already recorded.
+
+**§14 rule 4 compliance.** Nothing in `../sources/` was opened for writing, moved, renamed, emptied, pruned
+or "tidied". The duplicate `S-1A_No…` underscore files, the `s1_original_…` copies, the 403 `idx.html`
+artifacts and the `8-A12G` misdating are all **left exactly as found**; the naming and dating defects are
+reported, not repaired. No other file in the repository was modified.
+
+**The record-selection null (§2), stated for Stage 3.** What is unrecoverable here is not merely the FY1999
+annual report. It is **the entire internal counterpart of the printed numbers**: no board minute, no internal
+cohort or contribution-margin analysis, no rejected financing option, and no independent count behind any
+company-stated operating statistic — customer accounts, repeat-order percentages, "2.3 million customer
+accounts in over 150 countries", "$14.4 million of music", "more than four times" the square footage. Every
+one of those is **a company describing itself, printed on a dated filing, and none of them is auditable**.
+The archive that survived is the winner's own disclosure file, so even a complete Stage-3 reconstruction of
+it reads as a story about a future winner unless this paragraph is attached.
 
 ## Outbound corrections
 
-_TO be populated._
+Corrections this pass owes to other files. **Nothing outside this dossier was edited** (§14 rule 4); each is
+stated here for the merge.
+
+**COR-3B-01 — "the nine 10-Qs 1997-1999" → eight.** The EDGAR record contains **eight** 1997-1999 Forms 10-Q
+(Q2, Q3 1997; Q1-Q3 1998; Q1-Q3 1999). **No Q1 1997 10-Q exists** — Amazon's first quarterly filing of any
+kind was for the quarter ended 1997-06-30 — and Q4 quarters have no 10-Q by design. Any Stage-3 file or
+manifest row that says "nine" should be corrected to eight, with the missing quarter marked as a structural
+feature (§Q0). *Affects: this brief's dispatch; any downstream count.*
+
+**COR-3B-02 — a third stock split inside Stage 3, missing from the 8-K narrative.** The intake cache's 8-K
+rows describe two splits (2-for-1 announced 1998-04-27, 3-for-1 announced 1998-11-19). **A two-for-one split
+was effected 1999-09-01** (record 1999-08-12) and **no 8-K in the set announces it**; it is known only from
+`10-Q_Q3-1999_…` L123-124 and L656-661. **The cumulative Stage-3 split factor from the mid-1997 basis is
+12×, not 6×.** Any per-share or share-count figure dated on or after 1999-09-01 must use it. *Affects: every
+file that tabulates Amazon 1999 EPS or share counts, and the `_EVIDENCE_CACHE.md` 8-K section.*
+
+**COR-3B-03 — the FY1997 as-filed figures are not the ones in circulation.** The values now standard in the
+literature and in later filings — FY1997 net sales **$147,787k**, net loss **$(31,020)k**, accumulated
+deficit **$(37,514)k** — are **pooling-restated** and first appear 1999-03-05. **The FY1997 10-K405 filed
+1998-03-30 printed $147,758k, $(27,590)k and $(33,615)k.** Any register row that labels $(31,020) "as filed
+for FY1997" is mislabelled. Full delta table at §S3. *Affects: `quantitative.csv` rows carrying FY1997 values
+without a basis label, and Stage-2/3 chronologies.*
+
+**COR-3B-04 — the "838% vs 839%" conflict is a basis difference, not an error.** Both are the company's own
+arithmetic; the one-point gap is the $29k of PlanetAll sales added by the pooling. Files that present them as
+competing claims should record them as `838% (as filed FY1997)` and `839% (restated, FY1998 10-K)`.
+
+**COR-3B-05 — the "158 employees at 12/31/1996" figure has a filed witness, and it is not an FY1996 annual
+report.** The intake manifest §7 item 4 records that Stage 2's `sources.csv` **S0806** registers an FY1996
+annual report — with no accession, no URL and no document — as the source of the 158-employee figure, and
+that **no FY1996 annual filing exists in the catalogue**. Both are right, and one further fact belongs with
+them: **the 158 figure is printed in the FY1997 10-K405** — "growing from 158 employees as of December 31,
+1996 to 614 employees as of December 31, 1997" (L727-729), with **614 full-time** also in its EMPLOYEES item
+(L516). So the number is **evidenced**, but as a **RESTATED recital in the following year's report**, not as
+a FY1996 disclosure. **S0806's phantom document should be re-pointed to acc. 0000891020-98-000448 and
+relabelled RESTATED; the 158 figure should not be retracted, only re-sourced.** *(This is the closest this
+pass comes to the `$871,000` pattern — and the difference matters: that figure appeared nowhere; this one is
+on a filed line, quoted above with its line anchor.)*
+
+**COR-3B-06 — the 424B3s and POS AMs are not corroborating witnesses for anything.** Confirmed on reading:
+the S-3 of 1999-03-16 states its own use of proceeds as "**Amazon.com will not receive any proceeds** from
+the sale of the notes and the common stock … by the selling holders", and the 424B2's is an **exchange** with
+"no cash proceeds". Files that treat a prospectus as independent evidence of a figure appearing in the
+10-Q it incorporates by reference should be corrected to `same lineage as …`.
+
+**COR-3B-07 — `sales per employee` and every per-order ratio: keep retracting.** FY1999 has **no** filed
+employee count on disk (the FY1999 10-K is absent), so **revenue per employee for FY1999 is UNKNOWN**, not
+estimable from a press release. Likewise any per-order metric: no order count exists anywhere in Stage 3.
+Files importing a 1999 headcount from a secondary source should mark it Tier-2-or-worse and outside the
+audited series.
+
+**COR-3B-08 — the founder-guarantee item should be re-stated as a documented null, not as an open question
+of the same kind as the others.** Its release status stays UNKNOWN **and the EDGAR route is now
+demonstrably exhausted** — the instruments were never filed, so no request budget retrieves them. It belongs
+in a different register from "unretrieved-but-retrievable" gaps. Recorded at §K3 and D2/U-9.
+
+**COR-3B-09 — `## Metrics` heading retained twice, deliberately.** This file's section set follows §7 and
+the brief; a second bare `## Metrics` placeholder was left in place rather than deleted, per §14 rule 4
+(nothing is a cleanup target). The register lives at the first `## Metrics`. The merge may collapse the
+duplicate; this pass did not.
 
 ## CSV append rows
 
-_TO be populated last, once record IDs are final._
+**Schemas per §13. Data rows only. Headers copied from `company_001_amazon/*.csv` exactly. Fields containing
+commas are double-quoted. `derived_arithmetic` is populated on every DERIVED row and empty otherwise.
+`source_id` values `S3001`+ continue the register (Stage 1 used S0xxx/S1xxx, Stage 2 S2xxx) and are
+**proposed**, not written — this dossier does not own `sources.csv`.**
+
+### `sources.csv`
+
+```csv
+source_id,stage,claim_supported,source_title,author_or_publication,source_type,primary_or_secondary,event_date,publication_date,access_date,url,archived_url,tier,evidence_class,confidence,independence_note,relevant_passage,notes
+S3001,3,"FY1998 audited annual series and the FY1995-97 comparatives; Note 12 quarterly results; debt and equity notes; properties; employee count; advertising expense","Form 10-K for fiscal year 1998, Amazon.com, Inc.","Amazon.com, Inc. / Ernst & Young LLP","SEC filing","primary","1998-12-31","1999-03-05","2026-09-25","https://www.sec.gov/Archives/edgar/data/1018724/0000891020-99-000375.txt","../sources/10-K_FY1998_acc-0000891020-99-000375_filed-1999-03-05.txt",1,FACT,High,"one registrant and one auditor; all later prospectuses incorporating it by reference are the SAME lineage","Net sales... $ 609,996 $147,787 $ 15,746 $ 511","anchor document of Stage 3; L1222-1247 selected data, L2016-2039 statements, L2229-2277 cash flows, L3288-3310 Note 12"
+S3002,3,"The only contemporaneous annual witness for FY1997: net sales 147,758; net loss (27,590); 614 employees; cover share count 24,157,867","Form 10-K405 for fiscal year 1997, Amazon.com, Inc.","Amazon.com, Inc.","SEC filing","primary","1997-12-31","1998-03-30","2026-09-25","https://www.sec.gov/Archives/edgar/data/1018724/0000891020-98-000448.txt","../sources/10-K_FY1997_acc-0000891020-98-000448_filed-1998-03-30.txt",1,FACT,High,"same registrant as S3001 but the EARLIER witness for FY1997; not independent of it","Net sales... $147,758 $15,746 $ 511","superseded in 1999 by the pooling restatement; both values kept"
+S3003,3,"Q4 1998 net sales 252,893 and pro forma vs GAAP loss pair, ten weeks before the 10-K","Form 8-K, fourth quarter and fiscal 1998 results","Amazon.com, Inc.","SEC filing","primary","1999-01-26","1999-01-27","2026-09-25","https://www.sec.gov/Archives/edgar/data/1018724/0000891020-99-000103.txt","../sources/8-K_event-1999-01-26_acc-0000891020-99-000103_filed-1999-01-27.txt",1,FACT,High,"same corporate record as S3001; the 10-K Note 12 repeats it verbatim, so not a second source","Net sales for the fourth quarter were $252.9 million, an increase of 283 percent","press-release register: dated filing, unaudited statements"
+S3004,3,"Q3 1999 results, the $111M charge block, 13.1M accounts, 72% repeat orders, distribution square footage 'more than four times'","Form 8-K, third quarter 1999 results","Amazon.com, Inc.","SEC filing","primary","1999-10-27","1999-10-28","2026-09-25","https://www.sec.gov/Archives/edgar/data/1018724/0000891020-99-001789.txt","../sources/8-K_event-1999-10-28_acc-0000891020-99-001789_filed-1999-10-28.txt",1,FACT,High,"same lineage as the Q3 1999 10-Q","On a GAAP basis, reported third-quarter net loss was $197 million... and included $111 million of merger-, acquisition-, investment-related costs, and stock-based compensation charges","last periodic record inside the intake window"
+S3005,3,"Founder salary 81,840 / 79,197 / 64,333 with zero bonus and zero options; the four VP salaries that exceeded it in 1998; beneficial ownership 58,770,000 / 36.48% and 75,413,815 / 45.62%; authorized-share increase to 1.5 billion","DEF 14A proxy statement, meeting 1999-05-20","Amazon.com, Inc.","SEC filing","primary","1999-04-07","1999-04-07","2026-09-25","https://www.sec.gov/Archives/edgar/data/1018724/0000891020-99-000635.txt","../sources/DEF14A_1999-proxy-statement_acc-0000891020-99-000635_filed-1999-04-07.txt",1,FACT,High,"PRE 14A of 1999-03-15 is the same statement in draft, not a second source","Jeffrey P. Bezos... 58,770,000 36.48%","option counts are post-3-for-1 vintage and NOT comparable with the 1998 proxy"
+S3006,3,"Founder salary 79,197 (1997) and 64,333 (1996); officer start dates; Cook and Stonesifer 2,500 Series A shares at $40.00 each; the $75,000 no-interest Dalzell relocation loan; silence on the personal guarantees","DEF 14A proxy statement, meeting 1998-05-28","Amazon.com, Inc.","SEC filing","primary","1998-04-17","1998-04-17","2026-09-25","https://www.sec.gov/Archives/edgar/data/1018724/0000891020-98-000601.txt","../sources/DEF14A_1998-proxy-statement_acc-0000891020-98-000601_filed-1998-04-17.txt",1,FACT,High,"one lineage with the PRE 14A of 1998-05-05","Bezos... 9,885,000 41.0%","the 41.0% uses a 1998-03-01 denominator; the 13G's 41.3% uses the 1997-12-31 count"
+S3007,3,"Bezos's own post-IPO stake: 9,885,000 shares, sole voting and dispositive, percent of class 41.3, signed 1998-02-13","Schedule 13G for Jeffrey P. Bezos","Jeffrey P. Bezos","SEC filing","primary","1998-02-13","1998-02-17","2026-09-25","https://www.sec.gov/Archives/edgar/data/1018724/0000891020-98-000175.txt","../sources/SC13G_jeffrey-bezos_acc-0000891020-98-000175_filed-1998-02-17.txt",1,FOUNDER CLAIM,High,"a HOLDERS statement, not a company narrative; not independent of the company's own share records","Amount beneficially owned: 9,885,000... Percent of class: 41.3%","shared voting and shared dispositive both reported as 0"
+S3008,3,"Family-side holdings as reported by the holders themselves: 1,571,244 shares and 6.6% of class each for Jacklyn Gise Bezos and Miguel A. Bezos","Schedule 13G for Jacklyn Gise Bezos & Miguel Bezos","Jacklyn Gise Bezos; Miguel A. Bezos","SEC filing","primary","1998-02-10","1998-02-13","2026-09-25","https://www.sec.gov/Archives/edgar/data/1018724/0000891020-98-000174.txt","../sources/SC13G_jacklyn-gise-bezos-miguel-bezos_acc-0000891020-98-000174_filed-1998-02-13.txt",1,FOUNDER CLAIM,High,"holder statement; must NOT be aggregated with S3007 without the forms own attribution","Amount beneficially owned: 1,571,244... Percent of class: 6.6%","1,571,244 / 0.066 = 23,806,727 implies a third filed denominator"
+S3009,3,"The 10% Senior Discount Notes priced exchange offer: ~$315.7M net proceeds, $75.0M used to retire the Senior Loan, ~$367M of cumulative sales to ~3.1M accounts, $64.1M accumulated deficit, and the 'approximately $2.4 million of indebtedness' before-picture","Form 424B2 final prospectus, Reg. No. 333-56723","Amazon.com, Inc.","SEC filing","primary","1998-08-13","1998-08-13","2026-09-25","https://www.sec.gov/Archives/edgar/data/1018724/0000891020-98-001279.txt","../sources/424B2_final-prospectus_acc-0000891020-98-001279_filed-1998-08-13.txt",1,FACT,High,"same S-4 lineage as the S-4 of 1998-06-12 and its amendment","The net proceeds from the sale of the Original Notes was approximately $315.7 million after deducting selling commissions and transaction expenses","exchange offer generated NO new cash to the company"
+S3010,3,"The $75,000,000 three-year senior secured term facility with Deutsche Bank, increasable to $100,000,000, to finance working capital and capital additions","Form 8-K Item 5, event 1997-11-07","Amazon.com, Inc.","SEC filing","primary","1997-11-07","1997-11-10","2026-09-25","https://www.sec.gov/Archives/edgar/data/1018724/0000950151-97-000357.txt","../sources/8-K_event-1997-11-07_acc-0000950151-97-000357_filed-1997-11-10.txt",1,FACT,High,"the Q3 1997 10-Q of 1997-11-14 restates the same commitment; one corporate record","a $75 million three year senior secured term credit facility","the first debt instrument after the IPO; Stage 2 had this 8-K as UNTRIED"
+S3011,3,"The $1,250,000,000 4 3/4% Convertible Subordinated Notes due 2009 completed 1999-02-03, with the indenture and registration rights agreement filed in full","Form 8-K Item 5, event 1999-02-03","Amazon.com, Inc.","SEC filing","primary","1999-02-03","1999-02-04","2026-09-25","https://www.sec.gov/Archives/edgar/data/1018724/0000891020-99-000125.txt","../sources/8-K_event-1999-02-03_acc-0000891020-99-000125_filed-1999-02-04.txt",1,FACT,High,"the Q1 1999 10-Q Note 2 restates the terms; same lineage","completed the sale of its private offering of $1,250,000,000 aggregate principal amount of 4 3/4% Convertible Subordinated Notes due 2009","largest single capital event in the window"
+S3012,3,"Conversion terms: initial conversion price $156.055 per share, convertible into 8,009,996 shares in aggregate; $126.0M face of Senior Discount Notes repurchased in Q1 1999 at $83.9M accreted value, $404M face remaining; the 2-for-1 and 3-for-1 split recitals","Form 10-Q for the quarter ended 1999-03-31","Amazon.com, Inc.","SEC filing","primary","1999-03-31","1999-05-17","2026-09-25","https://www.sec.gov/Archives/edgar/data/1018724/0000891020-99-000894.txt","../sources/10-Q_Q1-1999_acc-0000891020-99-000894_filed-1999-05-17.txt",1,FACT,High,"contains five EX-10 SALES AGREEMENTS dated 1999-03-11, the marketplace contracts, UNTRIED for content","The Convertible Notes may be converted into, in the aggregate, 8,009,996 shares of Amazon.com common stock.","the exhibits are the highest-value unread financial text in the Stage-3 set"
+S3013,3,"The THIRD stock split of the window: 2-for-1 paid 1999-09-01 to holders of record 1999-08-12, with no 8-K announcing it; the 1999 income-statement restructuring; stock-based compensation as a separate line; accumulated deficit (558,815)","Form 10-Q for the quarter ended 1999-09-30","Amazon.com, Inc.","SEC filing","primary","1999-09-30","1999-11-15","2026-09-25","https://www.sec.gov/Archives/edgar/data/1018724/0000891020-99-001938.txt","../sources/10-Q_Q3-1999_acc-0000891020-99-001938_filed-1999-11-15.txt",1,FACT,High,"sole local witness to the September 1999 split","after adjusting for the three-for-one stock split paid on January 4, 1999 and the two-for-one stock split paid on September 1, 1999","corrects the two-split account in the intake cache"
+S3014,3,"1999 hiring-scale equity: 20,000,000 shares registered under the 1999 Nonofficer Employee Stock Option Plan at a proposed maximum $122.8440 per share, aggregate offering price $2,456,880,000","Form S-8, File No. 333-74419","Amazon.com, Inc.","SEC filing","primary","1999-03-15","1999-03-15","2026-09-25","https://www.sec.gov/Archives/edgar/data/1018724/0000891020-99-000437.txt","../sources/S-8_FileNo-333-74419_acc-0000891020-99-000437_filed-1999-03-15.txt",1,FACT,High,"registration paper; the aggregate offering price is a filing convention, not a market value","20,000,000 $122.8440 $2,456,880,000.00 $683,012.64","the rank-and-file equity plan, separated from officer grants"
+S3015,3,"A $2,000,000,000 universal shelf: common, preferred, depositary shares, debt, warrants, stock purchase units and contracts, third-party warrants","Form S-3, File No. 333-78797","Amazon.com, Inc.","SEC filing","primary","1999-05-19","1999-05-19","2026-09-25","https://www.sec.gov/Archives/edgar/data/1018724/0000891020-99-000910.txt","../sources/S-3_FileNo-333-78797_acc-0000891020-99-000910_filed-1999-05-19.txt",1,FACT,High,"capacity document; no proceeds arose from filing it","$2,000,000,000","recorded as capacity, deliberately NOT counted as money raised"
+S3016,3,"The resale shelf for the converts states expressly that the company receives nothing: 'Amazon.com will not receive any proceeds from the sale of the notes and the common stock into which the notes are convertible by the selling holders'; authorized capital 300,000,000 -> 1,500,000,000 common proposed","Form S-3, File No. 333-74435","Amazon.com, Inc.","SEC filing","primary","1999-03-16","1999-03-16","2026-09-25","https://www.sec.gov/Archives/edgar/data/1018724/0000891020-99-000441.txt","../sources/S-3_FileNo-333-74435_acc-0000891020-99-000441_filed-1999-03-16.txt",1,FACT,High,"one lineage with its S-3/A of 1999-05-13 and the 33 un-fetched 424B3 supplements","Amazon.com will not receive any proceeds from the sale of the notes and the common stock","terminates the reading of the 1999 424B3 stream as financing"
+S3017,3,"2,662,125 shares of common stock offered by 'certain stockholders... or by their pledgees, donees, distributees' under shelf 333-65091","Form 424B3 final prospectus, Reg. No. 333-65091","Amazon.com, Inc.","SEC filing","primary","1998-10-22","1998-10-22","2026-09-25","https://www.sec.gov/Archives/edgar/data/1018724/0000891020-98-001477.txt","../sources/424B3_final-prospectus_acc-0000891020-98-001477_filed-1998-10-22.txt",1,FACT,Medium,"secondary distribution: a dilution and insider-liquidity event, NOT a company financing","2,662,125 shares of Common Stock","terminated by POS AM Amendment No. 2 on 1999-10-26"
+S3018,3,"First acquisitions paid in stock, with settlement dates: 540,066 shares for Bookpages Limited (1998-04-17), Telebook Inc. (1998-04-24) and Internet Movie Database Limited","Form 8-K Item 9 Regulation S, event 1998-04-17","Amazon.com, Inc.","SEC filing","primary","1998-04-17","1998-05-01","2026-09-25","https://www.sec.gov/Archives/edgar/data/1018724/0000891020-98-000694.txt","../sources/8-K_event-1998-04-17_acc-0000891020-98-000694_filed-1998-05-01.txt",1,FACT,High,"the FY1998 10-K pro-forma block restates the same three deals as ~$55M and ~3.2M shares; same corporate record","The Company issued 540,066 shares of its Common Stock in connection with the acquisition of","the settlement dates are in this document, not in the retrospectives"
+S3019,3,"Acquisition accounting restated: the three April 1998 acquisitions at ~$55M for ~3.2M shares; Junglee at ~$180M for ~4.7M shares; PlanetAll pooling for ~2.4M shares; drugstore.com ~46% equity method; goodwill amortisation of ~$22M per quarter until March 2000","Form 10-K FY1998, Pro Forma Information","Amazon.com, Inc.","SEC filing","primary","1998-12-31","1999-03-05","2026-09-25","https://www.sec.gov/Archives/edgar/data/1018724/0000891020-99-000375.txt","../sources/10-K_FY1998_acc-0000891020-99-000375_filed-1999-03-05.txt",1,FACT,Medium,"company summary of its own deals; the deal papers are in the August 1998 8-Ks","will amount to approximately $22 million per quarter until March 2000","pro-forma block is expressly NOT prepared in accordance with GAAP"
+S3020,3,"The 1997 and 1998 shareholder letters in the founder's own dated, filed words: '838% revenue growth to $147.8 million... But this is Day 1 for the Internet'; 'a cumulative 6.2 million customers... a $1 billion revenue run rate... We predict the next 3 1/2 years will be even more exciting'","ARS 1997 and ARS 1998 annual reports to shareholders","Amazon.com, Inc. (shareholder letter)","Company filing","primary","1997-12-31 / 1998-12-31","1998-04-17 / 1999-04-07","2026-09-25","https://www.sec.gov/Archives/edgar/data/1018724/0000891020-98-000600.txt","../sources/ARS_1997-annual-report-to-shareholders_acc-0000891020-98-000600_filed-1998-04-17.txt",1,FOUNDER CLAIM,High,"contemporaneous and dated; outranks the retrospective Sheff Playboy interview for any claim about what Bezos believed in-window","But this is Day 1 for the Internet and, if we execute well, for Amazon.com.","one corporate record; the ARS and the 10-K are not independent"
+S3021,3,"Online music sales of $14.4 million in Q3 1998 and the '#1 online music retailer' claim; more than 1 million new customers in the 1999 holiday season and the $1 billion sales run-rate","Forms 8-K, events 1998-10-28 and 1999-01-05","Amazon.com, Inc.","SEC filing","primary","1998-10-28 / 1999-01-05","1998-10-28 / 1999-01-05","2026-09-25","https://www.sec.gov/Archives/edgar/data/1018724/0000891020-98-001498.txt","../sources/8-K_event-1998-10-28_acc-0000891020-98-001498_filed-1998-10-28.txt",1,FOUNDER CLAIM,Medium,"company self-report in a press release; the audited 10-Q does not break out music","AMAZON.COM BECOMES #1 ONLINE MUSIC RETAILER WITH SALES OF $14.4 MILLION","the only category revenue figure anywhere in the window, and it is unaudited"
+S3022,3,"The documented null: no filing dated after 1997-05-15 mentions the Seafirst or Wells Fargo personal guarantees or their release; the only post-IPO Seafirst hit is a lease late-charge prime-rate clause","Corpus scan of all 80+ archived filings against the 1997 registration lineage","EDGAR full text of ../sources/","Search result","primary","1997-05-16","2026-09-25","2026-09-25","UNKNOWN","../sources/",1,UNKNOWN,High,"an absence established by search, not a source; the positive statements all sit in File No. 333-23795, one lineage","The Company intends to secure releases of all of Mr. Bezos' guarantees as soon as possible following the closing of this offering","EDGAR route exhausted; the instruments were never filed"
+```
+
+### `quantitative.csv`
+
+```csv
+company,stage,date,metric,value,unit,source,source_date,evidence_class,confidence,derived_arithmetic,notes
+Amazon.com,3,1998-12-31,net sales FY1998,"609,996",USD thousands,S3001,1999-03-05,FACT,High,,"CONTEMPORANEOUS, audited; E&Y opinion 1999-01-22"
+Amazon.com,3,1998-12-31,gross profit FY1998,"133,841",USD thousands,S3001,1999-03-05,FACT,High,,"CONTEMPORANEOUS; cost of sales 476,155"
+Amazon.com,3,1998-12-31,gross margin FY1998,21.9,percent,S3001,1999-03-05,FACT,High,,"AS PRINTED in the MD&A table; not re-derived here"
+Amazon.com,3,1998-12-31,operating loss FY1998,"(111,960)",USD thousands,S3001,1999-03-05,FACT,High,,"CONTEMPORANEOUS; total operating expenses 245,801"
+Amazon.com,3,1998-12-31,net loss FY1998,"(124,546)",USD thousands,S3001,1999-03-05,FACT,High,,"CONTEMPORANEOUS; interest income 14,053 less interest expense 26,639"
+Amazon.com,3,1998-12-31,loss per share FY1998,"(0.84)",USD per share,S3001,1999-03-05,FACT,High,,"basic and diluted; post 2-for-1 and 3-for-1 vintages"
+Amazon.com,3,1998-12-31,weighted shares used in FY1998 EPS,"148,172",thousands of shares,S3001,1999-03-05,FACT,High,,"the denominator that produced (0.84)"
+Amazon.com,3,1997-12-31,net sales FY1997 as filed,"147,758",USD thousands,S3002,1998-03-30,FACT,High,,"CONTEMPORANEOUS for FY1997 - the number 1998 readers held"
+Amazon.com,3,1997-12-31,net loss FY1997 as filed,"(27,590)",USD thousands,S3002,1998-03-30,FACT,High,,"CONTEMPORANEOUS for FY1997; NOT the (31,020) usually quoted"
+Amazon.com,3,1997-12-31,loss per share FY1997 as filed,"(1.27) pro forma",USD per share,S3002,1998-03-30,FACT,High,,"on 21,651 thousand pro forma shares; a different instrument from the later (0.24)"
+Amazon.com,3,1997-12-31,net sales FY1997 restated,"147,787",USD thousands,S3001,1999-03-05,RESTATED,High,,"RESTATED for PlanetAll pooling; must not read as filed"
+Amazon.com,3,1997-12-31,net loss FY1997 restated,"(31,020)",USD thousands,S3001,1999-03-05,RESTATED,High,,"RESTATED; delta (3,430) against the as-filed figure"
+Amazon.com,3,1997-12-31,accumulated deficit FY1997 as filed vs restated,"(33,615) vs (37,514)",USD thousands,S3002;S3001,1998-03-30,FACT,High,,"delta (3,899) is the pooling recast"
+Amazon.com,3,1997-12-31,employees at year end,614,f persons,S3002,1998-03-30,FACT,High,,"full-time; the 158 at 1996-12-31 is a RESTATED recital in the same document"
+Amazon.com,3,1998-12-31,employees at year end,"approximately 2,100",persons,S3001,1999-03-05,FACT,High,,"printed as approximate; not to be treated as an exact denominator"
+Amazon.com,3,1998-12-31,cash plus marketable securities,373445,USD thousands,S3001,1999-03-05,DERIVED,High,"25,561 + 347,884 = 373,445","the 10-K also prints '$373.4 million' at L1645; both inputs audited"
+Amazon.com,3,1998-12-31,working capital,262679,USD thousands,S3001,1999-03-05,FACT,High,,"printed as its own Selected Financial Data line"
+Amazon.com,3,1998-12-31,inventories,"29,501",USD thousands,S3001,1999-03-05,FACT,High,,"audited balance sheet"
+Amazon.com,3,1998-12-31,accounts payable,"113,273",USD thousands,S3001,1999-03-05,FACT,High,,"audited balance sheet"
+Amazon.com,3,1998-12-31,capital expenditures FY1998,"28,333",USD thousands,S3001,1999-03-05,FACT,High,,"purchases of fixed assets, audited cash-flow line"
+Amazon.com,3,1998-12-31,net cash from operating activities FY1998,"31,035",USD thousands,S3001,1999-03-05,FACT,High,,"POSITIVE while the net loss was (124,546)"
+Amazon.com,3,1998-12-31,advertising expense FY1998,"60.2",USD millions,S3001,1999-03-05,FACT,High,,"accounting-policy note; 21.2 (1997) and 3.4 (1996) in the same sentence"
+Amazon.com,3,1998-12-31,contribution per dollar of net sales FY1998,0.121,USD per USD,S3001,1999-03-05,DERIVED,Medium,"(133,841 - 60,200) / 609,996 = 0.121","per dollar of revenue, NOT per order; excludes fulfilment, product development, G&A, processing"
+Amazon.com,3,1998-12-31,net sales per dollar of advertising FY1998,10.1,x,S3001,1999-03-05,DERIVED,High,"609,996 / 60,200 = 10.13","4.6x in 1996 and 7.0x in 1997 on the same arithmetic"
+Amazon.com,3,1998-12-31,days payable outstanding FY1998,86.8,days,S3001,1999-03-05,DERIVED,High,"113,273 / (476,155 / 365) = 86.8","down from 101.3 restated / 100.3 as filed for FY1997: the supplier float tightened as a share of purchases"
+Amazon.com,3,1998-12-31,inventory turns on average balance FY1998,24.8,x,S3001,1999-03-05,DERIVED,High,"476,155 / ((8,971 + 29,501) / 2) = 24.75","both year-end balances filed; average used"
+Amazon.com,3,1998-12-31,net sales per year-end employee FY1998,290,USD thousands,S3001,1999-03-05,DERIVED,Low,"609,996 / 2,100 = 290.5","denominator printed as approximate; flow over a point-in-time stock; directional only"
+Amazon.com,3,1997-12-31,net sales per year-end employee FY1997,240.6,USD thousands,S3002,1998-03-30,DERIVED,Medium,"147,758 / 614 = 240.6","614 is an exact filed count; numerator as filed"
+Amazon.com,3,1998-12-31,option overhang,23.9,percent,S3001,1999-03-05,DERIVED,High,"38,005 / 159,267 = 23.86","options outstanding over shares issued and outstanding, both audited"
+Amazon.com,3,1998-12-31,US distribution floor area,616000,square feet,S3001,1999-03-05,DERIVED,High,"93,000 + 200,000 + 323,000 = 616,000","of which 323,000 (Fernley) leased in December 1998 but NOT yet operating"
+Amazon.com,3,1997-12-31,US distribution floor area,285000,square feet,S3002,1998-03-30,DERIVED,High,"85,000 + 200,000 = 285,000","company owns no real estate at either date"
+Amazon.com,3,1997-11-07,first post-IPO debt facility,75000000,USD,S3010,1997-11-10,FACT,High,,"three-year senior secured; Deutsche Bank agent; increasable to 100,000,000"
+Amazon.com,3,1998-05,senior discount notes gross proceeds,326000000,USD,S3009;S3001,1998-08-13,FACT,High,,"approximately $326 million gross; principal at maturity 530,000,000"
+Amazon.com,3,1998-05,senior discount notes net proceeds,"315.7",USD millions,S3009,1998-08-13,FACT,High,,"after selling commissions and transaction expenses; $75.0M used to retire the Senior Loan"
+Amazon.com,3,1998-05,indebtedness before the notes,"approximately $2.4 million",USD,S3009,1998-08-13,FACT,High,,"the company's own before-picture of the leverage pivot"
+Amazon.com,3,1999-02-03,convertible subordinated notes,1250000000,USD,S3011,1999-02-04,FACT,High,,"4 3/4% due 2009; announced as $500M on 1999-01-28 and upsized the same day"
+Amazon.com,3,1999-02-03,conversion price,156.055,USD per share,S3012,1999-05-17,FACT,High,,"convertible into 8,009,996 shares in aggregate"
+Amazon.com,3,1999-03-31,senior discount notes repurchased face,126000000,USD,S3012,1999-05-17,FACT,High,,"accreted value 83.9 million; 404 million face still outstanding"
+Amazon.com,3,1999-05-19,universal shelf capacity,2000000000,USD,S3015,1999-05-19,FACT,High,,"capacity, not proceeds; deliberately not counted as money raised"
+Amazon.com,3,1998-10-22,shares in the selling-stockholder prospectus,"2,662,125",shares,S3017,1998-10-22,FACT,High,,"secondary: no proceeds to the company"
+Amazon.com,3,1998-04-17,shares issued for the first three acquisitions,540066,shares,S3018,1998-05-01,FACT,High,,"Regulation S; Bookpages, Telebook, IMDB"
+Amazon.com,3,1998-12-31,stock issued for acquisitions FY1998,"217,241",USD thousands,S3001,1999-03-05,FACT,High,,"supplemental non-cash line; never touched cash"
+Amazon.com,3,1998-12-31,stock consideration as share of the debt raise,66.6,percent,S3001,1999-03-05,DERIVED,High,"217,241 / 325,987 = 0.6664","the non-cash acquisition cost was two thirds of the largest 1998 cash raise"
+Amazon.com,3,1998-02-17,founder shares reported by himself,"9,885,000",shares,S3007,1998-02-17,FOUNDER CLAIM,High,,"a holder's own statement; sole voting and dispositive; shared nil"
+Amazon.com,3,1998-02-17,founder percent of class,41.3,percent,S3007,1998-02-17,FOUNDER CLAIM,High,,"printed by the filer, not derived; the company's proxy printed 41.0% for the same 9,885,000"
+Amazon.com,3,1998-02-13,parents/sibling shares reported by the holders,"1,571,244 each",shares,S3008,1998-02-13,FOUNDER CLAIM,High,,"6.6% of class each; do not aggregate with the founder row"
+Amazon.com,3,1999-02-28,founder shares per the company,"58,770,000",shares,S3005,1999-04-07,FACT,High,,"36.48%; the company table, based on owner-furnished information"
+Amazon.com,3,1999-02-28,founder stake change vs the 13G on a like-for-like split basis,540000,shares,S3007;S3005,1999-04-07,DERIVED,Low,"9,885,000 x 2 x 3 = 59,310,000; 59,310,000 - 58,770,000 = 540,000","cause UNKNOWN: no Form 4 or 5 exists in the slice, so it cannot be dated or characterised"
+Amazon.com,3,1999-02-28,directors and officers as a group,75413815,shares,S3005,1999-04-07,FACT,High,,"45.62% of the class, 11 persons"
+Amazon.com,3,1996,founder salary,64333,USD,S3006,1998-04-17,FACT,High,,"RESTATED witness: appears only inside later tables; bonus nil, options nil"
+Amazon.com,3,1997,founder salary,79197,USD,S3006,1998-04-17,FACT,High,,"CONTEMPORANEOUS for 1997; bonus nil, options nil, all other compensation nil"
+Amazon.com,3,1998,founder salary,81840,USD,S3005,1999-04-07,FACT,High,,"CONTEMPORANEOUS for 1998; bonus nil, options nil"
+Amazon.com,3,1998,founder salary as share of the highest-paid VP salary,40.6,percent,S3005,1999-04-07,DERIVED,High,"81,840 / 201,512 = 0.4061","less than four of his own VPs in 1998"
+Amazon.com,3,1996-1998,founder salary growth over two years,27.2,percent,S3005,1999-04-07,DERIVED,High,"81,840 / 64,333 = 1.2721","against net sales growth of 38.7x over the same span (15,746 to 609,996 on the restated basis)"
+Amazon.com,3,1999-09-30,accumulated deficit,"(558,815)",USD thousands,S3013,1999-11-15,FACT,High,,"unaudited interim; equity 419,925 with APIC at 1,027,655"
+Amazon.com,3,1999-09-30,capital expenditures nine months,"181,859",USD thousands,S3013,1999-11-15,FACT,High,,"against 18,779 in the same nine months of 1998: a 9.7x step"
+Amazon.com,3,1999-09-30,distribution square footage vs the 1998 holiday season,"more than four times",multiple,S3004,1999-10-28,FOUNDER CLAIM,Medium,,"a multiple with no base: absolute 1999 square footage is UNKNOWN"
+Amazon.com,3,1999-12-31,FY1999 net sales,UNKNOWN,USD thousands,S3001,2026-09-25,UNKNOWN,UNKNOWN,,"the FY1999 Form 10-K is not on disk; not annualised from 9M figures"
+Amazon.com,3,1999-12-31,revenue per employee FY1999,UNKNOWN,USD thousands,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,"denominator (year-end FY1999 employees) not filed locally; unfiled denominator retracts to UNKNOWN"
+Amazon.com,3,1999-09-30,gross merchandise value,UNKNOWN,USD,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,"no GMV or bookings figure appears anywhere in the corpus"
+Amazon.com,3,1999-09-30,take rate,UNKNOWN,percent,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,"third-party fees are inside net sales, never separated; not computable"
+Amazon.com,3,1999-09-30,customer acquisition cost,UNKNOWN,USD,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,"no order count and no quarterly advertising expense"
+Amazon.com,3,1999-09-30,associates program economics,UNKNOWN,USD,S3001,1999-03-05,UNKNOWN,UNKNOWN,,"one number filed: approximately 200,000 enrolled web sites; no fee in either direction"
+```
+
+### `timeline.csv`
+
+```csv
+company,stage,date_or_range,event,actors,location,source_id,evidence_class,confidence,conflict_ref,notes
+Amazon.com,3,1997-05-16,Stage 3 opens the day after the IPO priced,Amazon.com; Jeffrey P. Bezos,Seattle WA,S3001,FACT,High,,"boundary fixed by the intake; Stage 2 not re-litigated"
+Amazon.com,3,1997-11-07,75 million three-year senior secured term facility committed; first post-IPO debt,Deutsche Bank AG New York Branch; Deutsche Morgan Grenfell,New York NY,S3010,FACT,High,,"increasable to 100 million; drawn December 1997"
+Amazon.com,3,1998-04-17,first acquisitions paid in stock: Bookpages Telebook and IMDB for 540066 shares,Amazon.com; underwriters,Seattle WA,S3018,FACT,High,,"Regulation S; the FY1998 10-K later restates the three as ~$55M and ~3.2M shares"
+Amazon.com,3,1998-04-24,275 million senior discount notes offering announced,Amazon.com; underwriting syndicate,Seattle WA,S3009,FACT,High,,"upsized 1998-05-05 and completed at ~$326M gross"
+Amazon.com,3,1998-05,senior discount notes completed and the 75 million senior loan retired,Amazon.com; Bank of New York as trustee,Seattle WA,S3009,FACT,High,,"~$315.7M net; $2.0M of unamortized loan fees written off"
+Amazon.com,3,1998-06-01,two-for-one stock split effected to holders of record 1998-05-20,Amazon.com,Seattle WA,S3012,FACT,High,C-4,"split number one of three in the window"
+Amazon.com,3,1998-08-12,Junglee acquired and the PlanetAll merger agreement signed on the same day,Amazon.com; Junglee Corp; Sage Enterprises,Palo Alto CA; Redwood City CA,S3019,FACT,High,,"Junglee ~$180M for ~4.7M shares purchase method; PlanetAll pooling for ~2.4M shares"
+Amazon.com,3,1998-08-27,PlanetAll merger completed and prior periods restated for pooling,Amazon.com; Sage Enterprises,Seattle WA,S3001,FACT,High,C-1,"the event behind every 1995-97 restatement in this dossier"
+Amazon.com,3,1998-09-11,four acquired-company option plans registered in one Form S-8,Amazon.com; Junglee; Sage,Seattle WA,S3014,FACT,High,,"Junglee 1996 and 1998 plans plus Sage 1997 Amended and MVP plans"
+Amazon.com,3,1998-10-22,2662125 shares registered for selling stockholders,Amazon.com; certain stockholders,Seattle WA,S3017,FACT,Medium,,"a secondary channel, not a financing; terminated 1999-10-26"
+Amazon.com,3,1998-11-19,three-for-one stock split announced,Amazon.com,Seattle WA,S3012,FACT,High,C-4,"the reason the two proxies option counts differ"
+Amazon.com,3,1998-12-14,323000 square foot highly mechanised Fernley Nevada distribution centre leased,Amazon.com,Fernley NV,S3001,FACT,High,,"EX-10.13; expected to begin operations in 1999"
+Amazon.com,3,1999-01-04,three-for-one stock split effected to holders of record 1998-12-18,Amazon.com,Seattle WA,S3012,FACT,High,C-4,
+Amazon.com,3,1999-01-26,fourth quarter 1998 net sales of 252893 and a one billion dollar annualised sales level announced,Amazon.com; Jeffrey P. Bezos,Seattle WA,S3003,FACT,High,,"the earliest witness to Q4 1998, ten weeks before the 10-K"
+Amazon.com,3,1999-01-28,500 million convertible debenture offering announced and priced and upsized to ~$1.25 billion the same day,Amazon.com; underwriters,Seattle WA,S3011,FACT,High,,"two 8-Ks carry the single event date 1999-01-28"
+Amazon.com,3,1999-02-03,1250000000 of 4 3/4 percent convertible subordinated notes due 2009 completed,Amazon.com; underwriters,Seattle WA,S3011,FACT,High,,"largest single capital event in the window; indenture filed as EX-4.1"
+Amazon.com,3,1999-04-02,Wal-Mart trade secrets action settled without payment by either party,Amazon.com; Wal-Mart Stores,Bentonville AR; Seattle WA,S3012,FACT,High,,"the litigation Stage 2 left open closes here for no money"
+Amazon.com,3,1999-04-24,Alexa Internet and e-Niche agreements and the Exchange.com agreement signed for ~$250 million of consideration,Amazon.com; Alexa Internet; Brewster Kahle,San Jose CA,S3001,FACT,Medium,,"closings run 1999-05-14 to 1999-06-10"
+Amazon.com,3,1999-05-19,two billion dollar universal shelf registration filed,Amazon.com,Seattle WA,S3015,FACT,High,,"capacity, including stock purchase units and contracts; no proceeds arose"
+Amazon.com,3,1999-08-12,two-for-one stock split record date with no Form 8-K announcing it,Amazon.com,Seattle WA,S3013,FACT,High,C-4,"known only from the Q3 1999 10-Q; cumulative Stage 3 split factor is 12x"
+Amazon.com,3,1999-09-01,third stock split of the window paid,Amazon.com,Seattle WA,S3013,FACT,High,C-4,"doubling of the weighted share count between Q2 and Q3 1999 explained"
+Amazon.com,3,1999-10-28,third quarter 1999 results published: the window's last periodic financial record,Amazon.com,Seattle WA,S3004,FACT,High,,"GAAP loss (197,080) versus pro forma (85,810); $111M of merger and stock-compensation charges"
+Amazon.com,3,1999-12-31,Stage 3 record closes with no FY1999 annual report in the corpus,UNKNOWN,Seattle WA,S3001,UNKNOWN,UNKNOWN,E-1,"the FY1999 10-K is one catalogue row plus one fetch away and was NOT attempted: this dossier cannot write to sources/"
+```
+
+### `data_gaps.csv`
+
+```csv
+company,stage,gap,why_missing,importance,best_available_evidence,confidence,follow_up_task
+Amazon.com,3,"FY1999 audited annual figures (net sales through net loss, year-end balance sheet, cash flows, subsidiaries, Part III)",The FY1999 Form 10-K is not on disk and the enumerated EDGAR slice stops at 2000-01-04,High,"9M 1999 from the Q3 1999 10-Q: net sales 963,797; net loss (396,755); cash+securities 905,685; accumulated deficit (558,815)",UNKNOWN,"Retrieve via slice CIK0001018724-submissions-001.json then the dashed-URL recipe in STAGE3_INTAKE_MANIFEST section 6; agent must own sources/"
+Amazon.com,3,Q4 1999 net sales loss and EPS,No Q4 10-Q exists by design and the FY1999 10-K is absent,High,"the 1999-10-28 release qualitative guidance that Q4 would be affected in four ways",UNKNOWN,"same retrieval as the FY1999 10-K"
+Amazon.com,3,FY1999 year-end employee count and distribution square footage,Only in the absent FY1999 10-K Items 1 and 2,Medium,"'more than four times' the 1998 holiday-season square footage, a multiple with no base",UNKNOWN,"same retrieval"
+Amazon.com,3,Gross merchandise value and take rate,Never disclosed in any filing in the window,High,"the statements that net sales INCLUDE placement fees and sales commissions (Q2 and Q3 1999 10-Qs)",UNKNOWN,"read the five EX-10 SALES AGREEMENT dated 1999-03-11 exhibits in the Q1 1999 10-Q: the only place third-party economics may be written down"
+Amazon.com,3,Order counts average order value and per-order contribution,No order count appears anywhere in the corpus,High,"percentage-of-orders statements only: over 60% FY1998, 64% Q4 1998, 66% Q1 1999, 72% Q3 1999",UNKNOWN,"none available from filings; record as permanently UNKNOWN on public evidence"
+Amazon.com,3,Customer acquisition cost and lifetime value,No acquisition attribution and only a cumulative undefined account base,High,advertising expense 60.2 / 21.2 / 3.4 USD millions for 1998 / 1997 / 1996 annual only,UNKNOWN,"none; the CAC/LTV pair stays UNKNOWN and must not be back-solved"
+Amazon.com,3,Release of the founder personal guarantees on the Seafirst and Wells Fargo card arrangements,The instruments were never filed and no post-1997-05-15 filing mentions them; the EDGAR route is exhausted,High,"the S-1 forward-looking undertaking that releases are intended, plus the EX-10.27 Subrogation Agreement",UNKNOWN,"non-EDGAR only: SEC paper file 333-23795, or bank records; explicitly UNTRIED here"
+Amazon.com,3,Founder share purchases or sales inside the window,Zero Forms 3 4 and 5 exist in the enumerated 125-row slice,High,"the 540,000-share split-adjusted gap between the 1998 13G and the 1999 proxy row",UNKNOWN,"test slice -001 form list for any 1997-99 Section 16 rows; UNTRIED"
+Amazon.com,3,Category revenue split,Not disaggregated in any periodic filing,Medium,the unaudited $14.4 million music claim in the 1998-10-28 press release,UNKNOWN,"none; a company statement is the ceiling of this record"
+Amazon.com,3,Fulfilment and distribution-centre operating cost separately,Structurally invisible: fulfilment sits inside marketing and sales and the lease commitment table is combined with marketing agreements,Medium,rental expense 8.5 / 2.1 / 0.270 USD millions for 1998 / 1997 / 1996,UNKNOWN,"none; the aggregation is a GAAP presentation choice the company made"
+Amazon.com,3,Acquired-company economics actually absorbed,Local but unread: the 1998-08-12 8-K and the 1998-08-27 8-K with seven EX-27 restated schedules and the 8-K/A,Medium,the FY1998 pro-forma block: ~$55M and ~$180M purchase prices,UNKNOWN,"read the 8-K/A of 1998-10-26 in preference to the 8-K where they differ; UNTRIED"
+Amazon.com,3,Resale-shelf cadence as evidence of market activity,35 of 37 Form 424B3 supplements were deliberately not fetched by the intake,Low,"the two substantial 424B3s are local, plus the catalogue dates for all 35",UNKNOWN,"fetch a SAMPLE BY DATE not all 35 if cadence becomes the question; UNTRIED"
+Amazon.com,3,Third-party 5 percent holders beyond the founder family,10 Schedule 13 filings by institutional holders not fetched,Low,two Bezos-family 13Gs and the two proxy ownership tables,UNKNOWN,"revisit the SC 13D of 1998-11-30 and the SC 13D of 1999-07-20 first: a 13D asserts control intent where a 13G disclaims it; UNTRIED"
+```
+
+### `conflicts.csv`
+
+```csv
+company,stage,conflict_id,section,claim_a,claim_a_source,claim_a_date,claim_b,claim_b_source,claim_b_date,why_they_differ,evidence_weight,best_supported_interpretation,residual_uncertainty,confidence
+Amazon.com,3,C-1,ST3B Audited series,"FY1997 net sales 147,758 and net loss (27,590)","10-K405 FY1997","1998-03-30","FY1997 net sales 147,787 and net loss (31,020)","10-K FY1998","1999-03-05","PlanetAll pooling-of-interests restatement of all periods, footnoted in the later document","both Tier-1 audited at their own dates","keep the as-filed values as the contemporaneous witness and the later values as the recast; never print a restated value as filed","PlanetAll contribution is not itemised line by line",High
+Amazon.com,3,C-2,ST3B Metrics,"838% FY1997 revenue growth","ARS 1997 and 10-K405","1998-03-30","839% FY1997 revenue growth","10-K FY1998 MD&A","1999-03-05","the one point is the 29 thousand dollars of PlanetAll sales added by the pooling","both are the company's own arithmetic","838% as filed, 839% as restated, and say which",none,High
+Amazon.com,3,C-3,ST3B Quarterly path,"approximately 3.1 million customer accounts at 1998-06-30","Form 424B2","1998-08-13","3.3 million at 1998-06-30","Form 10-Q Q2 1999","1999-08-16","unknown; the record does not say","same company, same lineage, one contemporaneous one retrospective","treat the 1998 figure as contemporaneous and the 1999 figure as its restatement; build no growth rate without naming the base","the size of the definitional change is nowhere disclosed",UNKNOWN
+Amazon.com,3,C-4,ST3B Findings,"no 8-K announces any split after 1998-11-19","intake manifest 8-K section","1999-10-28","a two-for-one split was paid 1999-09-01 to record holders of 1999-08-12","Form 10-Q Q3 1999","1999-11-15","filing practice: a stock dividend paid mid-year was reported in the periodic statement, not on Form 8-K","the 10-Q recital is dispositive","three splits in the window, cumulative factor 12x from the mid-1997 basis",why no 8-K was filed is not a record question,High
+Amazon.com,3,C-5,ST3B Quarterly path,"Q1 1998 net sales 87,375","Form 10-Q Q1 1998","1998-05-15","Q1 1998 net sales 87,395 in Note 12 and 87,361 as a 1999 comparative","10-K FY1998 and Form 10-Q Q1 1999","1999-05-17","pooling restatement plus reconciliation to the audited annual total","Note 12 is the only set that foots to the audited annual lines","Note 12 authoritative for the quarterly series, the 10-Q contemporaneous; record both","no company reconciliation was ever printed",High
+Amazon.com,3,C-6,ST3B Founder compensation,"Dalzell 1997 option grant 125,000","DEF 14A","1998-04-17","Dalzell 1997 option grant 750,000","DEF 14A","1999-04-07","split vintage only: 125,000 x 3 = 750,000 for the 1999-01-04 split","both correct on their own basis","one grant in two vintages, not comparable, not an error",none,High
+Amazon.com,3,C-7,ST3B Financing,"long-term debt 348,140 at 1998-12-31","10-K FY1998 Item 6","1999-03-05","349 million of outstanding senior indebtedness","Form S-3 File 333-74435","1999-03-16","rounding plus a definitional difference: the summary line appears to exclude the 684 current portion","same corporate record","$348.1M long-term-debt line; $348.8M including current portion; $349M is the rounded total",the summary line composition is not footnoted,Medium
+Amazon.com,3,C-8,ST3B Sources consulted,"the prospectus registered by the 8-A12G is dated April 21, 1996","Form 8-A12G","1997-05-02","the registration statement was filed 1997-03-24 and Amendment No. 1 dated 1997-04-21","S-1 lineage","1997-04-21","an internal impossibility in the 8-A12G text: 1996 is a misprint for 1997","the surrounding dates settle it","never cite the 8-A12G for a 1996 date",none,High
+Amazon.com,3,C-9,ST3B Audited series,"the FY1997 report EPS was (1.27) pro forma on 21,651 thousand shares","10-K405 FY1997","1998-03-30","FY1997 EPS was (0.24) on 130,341 thousand shares","10-K FY1998","1999-03-05","the denominator construction changed (pro forma pre-IPO basis to weighted-average post-IPO, restated for splits), not the loss","both are the company's own presentations","these are different instruments; the year-over-year EPS change is not interpretable",none,High
+```
