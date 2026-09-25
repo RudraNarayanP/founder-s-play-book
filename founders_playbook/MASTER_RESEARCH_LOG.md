@@ -1189,3 +1189,30 @@ silently editing: exactly the behaviour §15 is supposed to produce.
 company directory on push, PR, and a daily cron, with `permissions: {}` so it can never write to the repo.
 Purpose is not convenience -- it is that a future edit to `gates.py` cannot silently lose a check, and
 corpus drift is caught after a shutdown without spending model credit.
+
+### RD-094 -- my own correction was the defect (Stage 2 NOT-CERTIFIED)
+
+`03_quality_control/amazon_s2_recertification_audit6.md`: **NOT-CERTIFIED, 8 blockers.** Stage 3 may not
+cite Stage 2's registers or §U.113a/U.67 as they stand.
+
+**B1 is mine.** On 2026-09-25 I added `stage_2_part_3.md` §U.113a, a "price-walk" block asserting that the
+1997-03-24 S-1 original *states a range* for the founder subscription price, and I filed a matching
+`conflicts.csv` row. The certifier read the cited document: it prints **"between $   and $   per share"**
+-- **blank**, an unfilled form field. So (a) the "range" does not exist in the filing, (b) a
+quote-with-ellipsis was presented as evidence when the elided content was the whole point, (c) three of its
+line cites miss the quoted text by −17 and −60 lines, and (d) **the narrative my block "corrected" was
+right.** Self-audit rule 3 -- "a correction I author is itself a claim, and gets tested" -- caught its
+author this time.
+**How to apply:** when I write a correction, the artifact must be re-read at the primary layer *by someone
+else*, and a quoted span with an ellipsis needs the elided text checked for being the operative content.
+The blank field is itself the finding: the S-1 left the price range unfilled in its original form.
+
+**B2-B4 are repair residue, and it has already propagated.** `0.194995` is still live at §P.2 s4 and in a
+claim record, and **three Stage-3 sites have already inherited it**; "the filed figures give 2,448,000…"
+still stands in the U.67 record; `sources.csv` S2009 is still `FACT (audited counterparty)` at High
+confidence with no local copy behind it. Verified clean, for the record: rent→257, 30.813, 0.2548,
+14.0500007, ≈39.5, the restatement set, and the U.114/115→U.113a/b re-key (0 stale).
+
+**Two of my own open-item labels were wrong:** the authorised-capital record is **RD-049, not RD-072**, and
+it does not close; U.168 closes for Stage 2 only while `MASTER_RESEARCH_LOG` itself still asserts live
+residue -- an instruction-layer error of the RD-059 class, corrected here.
