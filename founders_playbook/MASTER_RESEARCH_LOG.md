@@ -628,6 +628,30 @@ chasing stale copies that survived outside that agent's write scope (known survi
 §S and §U.8, `data_gaps.csv` r11, `context_appendices.md` ~l.596, `_parts/NUMBER_DEFECTS.md` r43), and
 **both audit gates still need their independent re-verification — a repair is not a pass.**
 
+### The scheduled runner fired — and disproved the diagnosis the whole periodical gap rested on
+
+`harvest-bot` committed at **2026-09-25T11:57:03Z** (`Nightly harvest: corpus evidence refresh from
+scheduled runner`): 136 candidate rows regenerated, 96 Internet Archive rows at `200`. So the CI route
+works and needs no manual dispatch after all — the earlier `total_count: 0` was the scheduler not having
+adopted the cron yet, not a disabled repo.
+
+The important part is what it falsified. Chronicling America, Google Books and HathiTrust had been recorded
+as **bot-blocked from this machine's egress**, and that belief is why the periodical family stayed
+UNANSWERED for every pre-1994 company. From GitHub's runner — entirely different egress — the same
+requests returned the **same** failures: 11/11 Chronicling America `403`, both Google Books `429`, both
+HathiTrust `0`. A block that follows you to a different continent is not a block: **these are malformed
+requests.** Two further defects found in the same query set: it searched the token `waltons` instead of the
+brand `Wal-Mart`, and it placed Newport in **Missouri** when the company's first town was Newport,
+**Arkansas** — so some earlier "nulls" were searching for a company that never existed in a state it never
+operated in. Dispatched: a repair pass on the three routes and the query content
+(`tools/periodical_harvest.py`, `tools/queries.json`), with evidence into
+`00_universe/harvest/_probe_fixed_20260925/` rather than over the runner's outputs.
+
+**Method consequence, to be applied once the fix lands:** a `403`/`429` recorded against a host is a claim
+about *our request* as much as about *their policy*, and the test of which is a second egress point. Any
+UNANSWERED verdict older than this entry that rests on those three hosts is suspect and must be re-run
+before it is used to cap a company's depth.
+
 ### 2026-09-25 (morning): Stage 2 volumes shipped; registers merged; off-machine status re-tested
 
 **Stage 2 merge.** `_parts/s2_p1..p4` were merged into three volumes at section boundaries (§9.3), with
