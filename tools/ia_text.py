@@ -93,8 +93,33 @@ def search(q, rows=20, fl=None, allow_insecure=False):
                                                  j.get("response", {}).get("numFound"))
 
 
-def ocr_url(identifier):
-    return "https://archive.org/download/%s/%s_djvu.txt" % (identifier, identifier)
+def text_layer_names(identifier, allow_insecure=False):
+    """Resolve the REAL text-layer filename. `<id>_djvu.txt` is the common convention, not a
+    guarantee: many items name their OCR text after the item, the volume, or nothing at all,
+    and assuming the convention 404s on exactly the items that matter. Ask the metadata API
+    first, then fall back to the convention so a dead route is never mistaken for no text."""
+    s, body, note = get("https://archive.org/metadata/%s" % identifier,
+                        allow_insecure=allow_insecure)
+    cands = []
+    if body:
+        try:
+            j = json.loads(body)
+        except ValueError:
+            j = None
+        if j:
+            for f in j.get("files", []) or []:
+                n = f.get("name", "")
+                if n.endswith("_djvu.txt") or n.endswith("_text.txt") or n == "djvu.txt":
+                    cands.append((0 if n.endswith("_djvu.txt") else 1,
+                                  -int(f.get("size", 0) or 0), n))
+            cands.sort()
+    cands.append((9, 0, "%s_djvu.txt" % identifier))
+    return [c[2] for c in cands], note
+
+
+def ocr_url(identifier, fname=None):
+    return "https://archive.org/download/%s/%s" % (identifier,
+                                                   fname or "%s_djvu.txt" % identifier)
 
 
 def fetch(company_dir, identifier, max_mb=12, allow_insecure=False):
@@ -103,14 +128,25 @@ def fetch(company_dir, identifier, max_mb=12, allow_insecure=False):
     path = os.path.join(out_dir, "%s_djvu.txt" % identifier)
     if os.path.exists(path) and os.path.getsize(path) > 200:  # cached bytes keep their route stamp
         return path, "cached", os.path.getsize(path)
-    s, body, note = get(ocr_url(identifier), allow_insecure=allow_insecure)
-    if not body:
-        return None, note, 0
+    names, mnote = text_layer_names(identifier, allow_insecure)
+    body = None
+    note = mnote
+    used = None
+    for nm in names:
+        s, body, note = get(ocr_url(identifier, nm), allow_insecure=allow_insecure)
+        if body and body[:200].lower().find(b"<html") < 0:
+            used = nm
+            break
+        body = None
+    if body is None:
+        return None, "UNANSWERED -- no text layer resolved (%s); tried %s" % (
+            note, ", ".join(names[:4])), 0
+    note = "ok via %s" % used
     if len(body) > max_mb * 1024 * 1024:
         body = body[: int(max_mb * 1024 * 1024)] + b"\n[TRUNCATED BY --max-mb]\n"
     with open(path, "w", encoding="utf-8", newline="\n") as f:
         f.write(body.decode("utf-8", "replace"))
-    side = {"identifier": identifier, "url": ocr_url(identifier),
+    side = {"identifier": identifier, "url": ocr_url(identifier, used),
             "fetched": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
             "bytes": len(body), "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
             "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
