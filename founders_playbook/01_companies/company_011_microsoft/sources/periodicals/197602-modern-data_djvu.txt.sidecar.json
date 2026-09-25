@@ -1,0 +1,11 @@
+{
+ "fetched_utc": "2026-09-26T00:55:00Z",
+ "url": "https://ia801807.us.archive.org/3/items/197602-modern-data/197602-Modern_Data_djvu.txt",
+ "http_status": 200,
+ "bytes_on_disk": 261075,
+ "tool": "curl 8.x (Git Bash) / archive.org advancedsearch+metadata",
+ "company": "Microsoft (CIK 0000789019)",
+ "probe": "probe-microsoft",
+ "family": "periodicals/197602-modern-data_djvu.txt",
+ "note": "Full OCR layer of Modern Data Magazine 1976-02 (261,075 B / 12,359 lines). grep -i microsoft = 0 occurrences: proves IA advancedsearch does NOT search item OCR (dossier conflict C-2). NEGATIVE-POSITIVE artifact, keep"
+}

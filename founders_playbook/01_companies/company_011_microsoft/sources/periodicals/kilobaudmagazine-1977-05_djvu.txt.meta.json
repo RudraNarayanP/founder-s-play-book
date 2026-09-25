@@ -1,0 +1,12 @@
+{
+ "identifier": "kilobaudmagazine-1977-05",
+ "server_file_name": "Kilobaud_1977_May_djvu.txt",
+ "url": "https://ia802907.us.archive.org/19/items/kilobaudmagazine-1977-05/Kilobaud_1977_May_djvu.txt",
+ "item_title_field": "Kilobaud Magazine (May 1977)",
+ "fetched": "2026-09-25T19:34:04Z",
+ "bytes": 672171,
+ "http_status": 200,
+ "route": "metadata -> items-server",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence",
+ "tool": "manual fetch; tools/ia_text.py ocr_url() 404s (its <id>/<id>_djvu.txt assumption fails, and archive.org/download 302s to a 404 CDN node)"
+}

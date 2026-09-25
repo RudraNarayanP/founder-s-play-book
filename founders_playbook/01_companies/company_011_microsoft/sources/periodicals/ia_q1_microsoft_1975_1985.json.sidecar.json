@@ -1,0 +1,11 @@
+{
+ "fetched_utc": "2026-09-26T00:55:00Z",
+ "url": "https://archive.org/advancedsearch.php?q=(microsoft)+AND+YEAR:[1975+TO+1985]+AND+mediatype:(texts)&rows=25&output=json",
+ "http_status": 200,
+ "bytes_on_disk": 7510,
+ "tool": "curl 8.x (Git Bash) / archive.org advancedsearch+metadata",
+ "company": "Microsoft (CIK 0000789019)",
+ "probe": "probe-microsoft",
+ "family": "periodicals/ia_q1_microsoft_1975_1985.json",
+ "note": "Internet Archive metadata search; bare term rewritten by IA to text:microsoft (catalog-annotation field, see dossier C-2); response.numFound=500, 25 docs returned"
+}

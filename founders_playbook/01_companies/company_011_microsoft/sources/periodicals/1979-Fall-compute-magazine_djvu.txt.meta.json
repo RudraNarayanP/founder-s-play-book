@@ -1,0 +1,12 @@
+{
+ "identifier": "1979-Fall-compute-magazine",
+ "server_file_name": "Compute_Issue_001_1979_Fall_djvu.txt",
+ "url": "https://ia802904.us.archive.org/16/items/1979-Fall-compute-magazine/Compute_Issue_001_1979_Fall_djvu.txt",
+ "item_title_field": "Compute! Magazine Issue 001",
+ "fetched": "2026-09-25T19:33:53Z",
+ "bytes": 542112,
+ "http_status": 200,
+ "route": "metadata -> items-server",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence",
+ "tool": "manual fetch; tools/ia_text.py ocr_url() 404s (its <id>/<id>_djvu.txt assumption fails, and archive.org/download 302s to a 404 CDN node)"
+}

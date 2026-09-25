@@ -1,0 +1,12 @@
+{
+ "identifier": "1981-microsoft-adventure",
+ "server_file_name": "1981-microsoft-adventure_djvu.txt",
+ "url": "https://ia801407.us.archive.org/29/items/1981-microsoft-adventure/1981-microsoft-adventure_djvu.txt",
+ "item_title_field": "Brochure: Microsoft Adventure",
+ "fetched": "2026-09-25T19:34:00Z",
+ "bytes": 3755,
+ "http_status": 200,
+ "route": "metadata -> items-server",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence",
+ "tool": "manual fetch; tools/ia_text.py ocr_url() 404s (its <id>/<id>_djvu.txt assumption fails, and archive.org/download 302s to a 404 CDN node)"
+}

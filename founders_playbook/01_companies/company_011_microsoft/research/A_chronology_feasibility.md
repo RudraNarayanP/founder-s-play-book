@@ -302,3 +302,25 @@ licence, cheque, or Altair-era correspondence) across the auction houses that se
 a collections-online search at a computing museum for Microsoft-held manuscript material. Expect
 bot-challenges on the commercial routes; museum collections APIs are the cheaper first move.
 
+---
+
+## SUPERSEDED 2026-09-26 — settlement note (appended by `microsoft-reprobe`; the text above is left intact)
+
+A scripted re-probe ran the same day on both tools this pass had to wait for, and reported in
+`A2_periodical_and_filings_settlement.md`. The history above is not edited; the following rows are what the
+bytes now say differently.
+
+| this file said | superseded by | basis |
+|---|---|---|
+| "Families returning confirmed in-window Tier-1 text: **0 of 5**" | **2 of 5** — (c) and (d) | Homebrew `hcc0201` (masthead 1976-01-31) reproduces a first-person letter signed "Bill Gates / General Partner, Micro-Soft"; the Paul G. Allen MSDOS-2.0 text and the 1981 Microsoft Adventure brochure were opened |
+| §Verdict "hold Microsoft **ungraded** … plan against T2 **provisionally**" | **TIER: T2 (core)**, 22k w/stage, **6-9 agent runs** | §15.2, two qualifying families. The provisional budget is confirmed exactly; the "do not fund 15-20 runs" caution stands and is now reinforced — family (a) is positively disqualified, so T1 needs (b) or (e) |
+| §Family a "**UNANSWERED** — not NULL"; 1,002 rows, range 2020-08-07 → 2026-09-17; "the brief's fallback question **cannot be answered from this index**" | **FLOOR PROVEN — a true NULL for the window** | `sec_intake.py` now reads `filings.files[]` at `data.sec.gov/submissions/<name>`: **4,525 filings**, `_INDEX.md` "UNANSWERED slices: **(none)**", oldest `filingDate` **1994-02-14**, 0 rows earlier, **no `S-1` and no `S-1/A`** in any row. Fallback question answered: the oldest company-authored EDGAR text is a **Form 10-Q, accession 0000950109-94-000252** (oldest 10-K 1994-09-27; oldest SC 13G/A 1996-02-07) |
+| §Conflicts **C-1** 503-vs-404, "adjudication: unresolved" | **resolved: script route defect** | 3,523 of 4,525 rows come from the two older slices the old build never parsed. Neither the 503 nor the 404 described EDGAR |
+| §Family c / §Family d "**LEAD_ONLY** … 0 verified" | **TIER1_CANDIDATE** for both | ~1.65 MB of text layers fetched into `sources/periodicals/` this pass, plus 9 MB already held in `company_004_apple/sources/` — grep hits read verbatim, not index counts |
+| §Conflicts **C-2** "`text:` matches annotations" | **confirmed, with its reach corrected** | `1979-Fall-compute-magazine`, the other half of the same numFound-2 result, *does* carry "Microsoft BASIC" in-page (542,112 B). Rule: open each item; do not generalise from one |
+| §Boundaries "Earliest defensible origin: **UNKNOWN**"; "nothing dated 1975-1980 was returned by the authored-material queries" | **UNKNOWN is kept** for pre-history, but the Stage-1 floor moves: earliest company document is **1976-01-31** | The 1975-1980 silence was an unopened shelf, not an absent one. §14 rule 6's warning that a null from one family is not a null applied here in the positive direction |
+| §Nulls **N-3** "a **conditional** null over an enumeration that contains no rows before 2020-08-07" | unconditional for 1975-01-01 → 1990-12-31 | Enumeration is now complete (see row 3) |
+| §Untried item 2, "item-level OCR search … the single highest-value untried item in the whole probe" | **done**, by hand | `tools/ia_text.py`'s premise is right but its `archive.org/download/<id>/<id>_djvu.txt` route 404s here (CDN 302 + stem ≠ identifier); the working form is `metadata` → `<server><dir>/<name>_djvu.txt`, as Apple's `_RETRIEVAL_LOG.md` already recorded. FETCH REQUEST filed |
+| §Nulls **N-1** (no Microsoft annual-report run), §Family b (CDX 503, "earliest capture: NOT ESTABLISHED"), §Family e (UNTRIED), C-3, C-4 | **carried unchanged** | Not re-run on this pass; family (b) and (e) remain open questions, and (b)'s weight is low regardless per §14 rule 6 |
+
+

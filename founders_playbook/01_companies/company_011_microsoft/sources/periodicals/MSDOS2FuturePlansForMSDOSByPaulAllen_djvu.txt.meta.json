@@ -1,0 +1,12 @@
+{
+ "identifier": "MSDOS2FuturePlansForMSDOSByPaulAllen",
+ "server_file_name": "MSDOS2 Future Plans for MSDOS by Paul Allen_djvu.txt",
+ "url": "https://ia902807.us.archive.org/10/items/MSDOS2FuturePlansForMSDOSByPaulAllen/MSDOS2%20Future%20Plans%20for%20MSDOS%20by%20Paul%20Allen_djvu.txt",
+ "item_title_field": "MSDOS 2 Future Plans For MSDOS By Paul Allen",
+ "fetched": "2026-09-25T19:33:57Z",
+ "bytes": 13639,
+ "http_status": 200,
+ "route": "metadata -> items-server",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence",
+ "tool": "manual fetch; tools/ia_text.py ocr_url() 404s (its <id>/<id>_djvu.txt assumption fails, and archive.org/download 302s to a 404 CDN node)"
+}

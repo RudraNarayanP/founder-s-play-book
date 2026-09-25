@@ -1,0 +1,11 @@
+{
+ "fetched_utc": "2026-09-26T00:55:00Z",
+ "url": "http://web.archive.org/cdx/search/cdx?url=microsoft.com&output=json&fl=timestamp,original,statuscode&filter=statuscode:200&limit=8",
+ "http_status": 503,
+ "bytes_on_disk": 11832,
+ "tool": "curl 8.x (Git Bash) / archive.org advancedsearch+metadata",
+ "company": "Microsoft (CIK 0000789019)",
+ "probe": "probe-microsoft",
+ "family": "web_archive/cdx_microsoft_com_earliest_200_retry.json",
+ "note": "SECOND attempt at the same query, same 11,832-byte 'Internet Archive: Temporarily Offline' HTML body. UNANSWERED, not an empty CDX result (dossier family b / C-4). Kept as a negative artifact"
+}

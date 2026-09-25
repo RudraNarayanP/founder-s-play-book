@@ -1,0 +1,11 @@
+{
+ "identifier": "197503PopularElectronics",
+ "layer_file_name_on_server": "197503 Popular Electronics_djvu.txt",
+ "url": "https://ia800609.us.archive.org/10/items/197503PopularElectronics/197503%20Popular%20Electronics_djvu.txt",
+ "fetched": "2026-09-25T19:33:19Z",
+ "bytes": 493273,
+ "http_status": 200,
+ "route": "metadata -> items-server <server><dir>/<name>_djvu.txt",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence",
+ "tool": "manual; tools/ia_text.py ocr_url() 404s on this item class"
+}

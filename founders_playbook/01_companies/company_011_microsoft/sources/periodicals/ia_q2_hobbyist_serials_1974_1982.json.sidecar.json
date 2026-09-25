@@ -1,0 +1,11 @@
+{
+ "fetched_utc": "2026-09-26T00:55:00Z",
+ "url": "https://archive.org/advancedsearch.php?q=(title:(\"popular electronics\") OR title:(\"byte magazine\") OR title:(kilobaud) OR title:(\"compute!\")) AND YEAR:[1974 TO 1982] AND mediatype:(texts)&rows=25&output=json",
+ "http_status": 200,
+ "bytes_on_disk": 7991,
+ "tool": "curl 8.x (Git Bash) / archive.org advancedsearch+metadata",
+ "company": "Microsoft (CIK 0000789019)",
+ "probe": "probe-microsoft",
+ "family": "periodicals/ia_q2_hobbyist_serials_1974_1982.json",
+ "note": "Proves the in-window hobbyist-serial shelf exists with text layers: numFound=545 incl. 197503PopularElectronics, popularelectroni08unse_2/_3 (1975), byte-magazine-1977-07, Kilobaud197810"
+}

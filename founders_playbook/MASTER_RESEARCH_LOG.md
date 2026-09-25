@@ -1249,3 +1249,36 @@ first item tried.
 - `advancedsearch` returned 0 rows for queries that must match (`collection:"computersmagazines" AND
   title:byte AND year:1977`). Until that is understood from a runner egress, **treat IA search as UNANSWERED
   and feed `ia_text.py` identifiers from manifests we already hold** -- the harvest dirs do contain them.
+
+### RD-096 -- Wal-Mart handed back nine FETCH REQUESTs; the binding one is FY1962-1972 print
+
+`_parts/s1_p2.md` landed at 22,761 words (§E–§L, gates 0 findings / 26 source tokens resolving, 40
+register rows requested rather than written). Its real product is the request list, because it names the
+boundary of what the corpus can ever say:
+
+- **(1) Wal-Mart Stores annual reports FY1962–FY1972 and the 1970 registration statement/prospectus.** The
+  Internet Archive run starts at FY1972, so the offering terms -- the actual 1970 price and what was sold --
+  are **paper at the SEC Reference Room / NARA-RG 823**. This is the highest-value missing document in the
+  company: FY1962–FY1967 is EMPTY on every variable and no non-registrant source names the company between
+  1962 and 1980.
+- (2) the FY1975 report's declared `_text.pdf` page images (3.2 MB, listed in metadata but never read) to
+  settle the illegible-supplier-percentage question at source; (3) Arkansas Gazette / Southwest Record /
+  Rogers–Bentonville weeklies 1962–70 (prior 403s = UNANSWERED, not absent); (4) the NRDGA/NRMA directory-
+  yearbook roster genre; (5) the two comparators the registrant itself names -- *Forbes Annual Report on
+  American Industry* and the "Cornell study" -- neither of which is on disk; (6) the 1962 grand-opening
+  flyer; (7) Arkansas SoS entity plus Bentonville/Sand Springs county deed and lease records; (8) Kmart and
+  S.S. Kresge 1962 primary store counts, deliberately UNTRIED rather than asserted; (9) ~193 unread *Stores*
+  issues.
+
+**Discipline notes worth keeping:** the author corrected its own dividend table mid-write (FY1976's $0.065
+payments had been mis-assigned to FY1975) against the audited series, and kept an illegible supplier
+percentage as **UNKNOWN rather than reading it as "29"**. Both are the failure modes this project keeps
+paying for, caught by the agent that made them.
+
+**Microsoft, same shape:** `T2` confirmed on numbers but the "hold ungraded" recommendation is superseded --
+4,525 filings indexed with earliest **1994-02-14 Form 10-Q** and **no S-1 in any row**, so family (a) is a
+true NULL for 1975–1990, while periodicals produced genuine in-window text (Homebrew `hcc0201` line 124
+"General Partner, Micro-Soft"; Byte Jul/Sep 1976; Byte Dec 1980 with 136 hits). Honest nulls recorded: the
+5.3 MB Byte 1976 layer and 493 KB Popular Electronics March 1975 both return **zero** hits over held bytes
+-- that is a null, and the 1975–1990 origin window is now known to be undocumented by those two titles
+specifically, not generally. Biggest gap: **Stage 3 (1986–1990) has zero documents in any family.**
