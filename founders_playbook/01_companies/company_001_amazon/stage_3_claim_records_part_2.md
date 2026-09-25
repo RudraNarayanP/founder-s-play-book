@@ -127,4 +127,144 @@ U.167 Claim: **"THE COMPANY INTENDS TO SECURE RELEASES OF ALL OF MR. BEZOS' GUAR
 
 U.168 Claim: **THE RETRACTED 1995 MONEY LEG SURVIVES IN THE INSTRUCTION LAYER: `2,613,000` AND `$871,000`, TWICE EACH** — CLAIM A: `context_appendices.md` — a file a cold reader consults for environment context and which downstream passes copy figures out of — still prints **2,613,000** and **$871,000** twice each, inside rows that *label* them retracted. CLAIM B: both strings occur **zero times across all files in `sources/`**, re-checked by machine on that pass; the filed figures for the same question are **$1,007,000 aggregate over the window 1995-12-06 → 1996-05-16** for **3,021,000 shares to 23 purchasers** (Stage 2 §P129, §P131) — Date: 1995-12-06 → 1996-05-16 (the question) / re-detected 2026-09-25 (the defect) — Source: `context_appendices.md` against the S-1 lineage (`sources/S-1_original_…` keyed copy, and S-1/A Nos. 3 and 5) — Source date: n/a; 1997-03-24 / 1997-05-09 / 1997-05-14 — Tier: 1 (the filings) vs instruction layer — Class: **RETRACTION — instruction-layer residue, re-detected at Stage 3 after Stage 2's (S2) U.107** — Passage: [paraphrase — not the filing's wording] — Conf: High — Corroboration: n/a — **WHY THEY DIFFER: a retracted value in a context file behaves like a source to a copying agent.** **BEST-SUPPORTED INTERPRETATION:** the retracted pair may appear only inside withdrawal sentences, and the filed round legs are $1,007,000 / 3,021,000 shares / 23 purchasers plus $345,525 at ≈$0.1717 (COR-10); the $871,024 / $976,408 variants are retracted on the same ground. **RESIDUAL:** the context file's rows are left as the orchestrator owns them — **reported here, not repaired** (§14 rule 4); see `## Defects noticed` item 1 (both strings appear in this appendix only inside this sentence and in volume 1's retraction bar). [src: ST3E / CORRECTIONS COR-10 lineage; s3p3 §U.168]
 
+## Coverage note (both volumes)
+
+**Records on disk, verified by read-back after writing (not from memory).** Volume 1
+`stage_3_claim_records.md` = **627 records, 84,130 words**; volume 2 (this file) = **55 records, ~12,700 words**;
+**total 682 records**, §7 heading order **A → U**, ids continuing Stage 2's sequence and **nothing renumbered**
+(method §9.3). Read-back counts by section (`grep -cE "^[A-U][0-9]+ Claim:"` per prefix), volume 1 unless marked
+`(v2)`: **A 26** (A09–A34) · **B 20** (B125–B144) · **C 13** (C41–C53) · **D 20** (D35–D54) · **E 47** (E49–E95) ·
+**F 37** (F42–F78) · **G 65** (G50–G114) · **H 18** (H45–H62) · **I 17** (I36–I52) · **J 22** (J36–J57) ·
+**K 47** (K35–K81) · **L 15** (L21–L35) · **M 19** (M27–M45) · **N 15** (N20–N34) · **O 9** (O18–O26) ·
+**P 119** (P91–P209: 88 metric rows + 31 arithmetic/correction/negative-list records) · **Q 56** (Q70–Q125) ·
+**R 20** (R26–R45) · **S 24** (S31–S54) · **T 18** (T41–T58) · **U 55 (v2)** (U.114–U.168).
+A duplicate-id scan over all record ids in both files returns **none**. Volume 1 carries a pointer-to-volume-2 line
+in place of a §U block, because its own word count (84,130) is over the 60,000-word threshold that forces the split.
+
+**Coverage obligation, met where the record allows it.**
+(i) **§U: 55 of 55 blocks U.114–U.168 recorded, each with both sides, each leg's document and filing date**, and
+the dossier-original id and the narrative's provisional `P-U.` key recoverable from the re-key map quoted in
+volume 1's front matter (39 re-keyed + 16 newly emitted; block count 55 = `conflicts.csv` Stage-3 row count 55).
+Nothing reconciled silently: 12 of the 55 are recorded as **resolved on the record** (arithmetic or an
+internal-impossibility reading closes them: U.124, U.126, U.130, U.132, U.146, U.148, U.156, U.164 and others),
+and the remainder stay open as findings with their residual named.
+(ii) **§P / §P.2 DERIVED: every one of the 88 metric rows** in the narrative's §P (P184–P271) has a record at the
+constant offset **−93** (volume 1's §P preamble prints the mapping), **and t1–t29 (with t2b) each have their own
+arithmetic record P179–P207** carrying inputs, document, line and quotient; §P.2a's corrections are P208 and the
+"Not computed" negative list is P209.
+(iii) **§K–§N table rows and §L/§M rows** are registered: §K.1's twelve witness rows, §K.2's seventeen-line
+restatement table (inside K39, values printed line by line), §K.3's four points, §K.4's seven rows, §K.5's six
+capacity rulings, §K.6's seventeen UNKNOWN rows, §K.7's fourteen re-searched claims and §K.8's four vintages;
+§L's twelve signal rows each carry their "did NOT demonstrate" cell verbatim into the record; §M's thirteen items
+(M.1–M.13) with M.5's three-filing sequence and M.6's three findings itemised; §N's twelve decision rows with all
+twelve columns folded into the claim and note fields.
+(iv) §Q's 56 timeline rows, §R's 20 snapshot rows, §S's 22 gap rows plus S.9 and S.9b, §T's 17 provenance rows
+plus the `local_copy` roll-up.
+
+**Named shortfalls — stated, not smoothed.**
+1. **t8 is not recorded as its own arithmetic record.** §P.2 body from t7 to t29 was read through the §P and §R
+rows that cite each t-id; the §P.2 body was read in full only to t6. t8 (the FY1998 operating-expense /
+goodwill-amortisation caveat) exists only as a cross-reference in P119, and **the §P.2a table was read only in
+part** — so a correction registered there may be missing from P208. This is the one DERIVED row in §P whose
+inputs are not printed in this appendix.
+2. **§K.2's seventeen-line delta table is one record (K39), not seventeen.** Every value and every delta is
+printed inside it, so nothing is lost, but a row-by-row census of §K.2 will find one record where the narrative
+has seventeen lines.
+3. **§K.7's fourteen re-searched UNKNOWN claims are consolidated in K78** plus cross-references to the §K.6
+records (K66–K77) and the §P refusals (P170, P209); six of the fourteen do not have a dedicated record id.
+4. **§M.11's five comparability defects are one record (M42)** with all five printed and all four U-keys named;
+§M.13's two opposite readings are one record (M44).
+5. **§O.6 ("appoint the operating layer when the money arrived") is thin.** Its body was not read on this pass;
+the record O23 is built from the item's title, the executed offers at N28 and the ST3E-F2 finding, and it carries
+none of the *for/against* detail its siblings have. **O.7 and O.8 were read and are fully recorded** (O24, O25).
+6. **§R's twenty-one rows are twenty records:** "Current strategy" and "Current objective" are merged in R45,
+because the narrative states them as one strategy/objective pair with the same sources.
+7. **§J.6's endpoint-sensitivity table prints only two of the four contested candidate closes**
+(1997-12-31 and 1999-06-30). J56 registers those two; **J57's 1999-09-30 / 1999-12-30 rows are this appendix's
+own extension**, marked Conf: Medium and labelled as an extension, and no §J.5 exists in the volume at all.
+8. **Quotation status.** Only four strings were re-read at the cited line by this appendix and they are the only
+ones marked `re-read here` (the four Buschman "yet to be determined" site proposals, checked at
+`sources/10-Q_Q1-1999_acc-0000891020-99-000894_filed-1999-05-17.txt` l.5472, l.7315, l.9174, which also showed
+that the narrative's "Site A/B/C" is the filing's **"Site 1/2/3"** — reported as defect 5 below). Every other
+`Passage:` cell is the narrative's or the dossier's printed string with its line anchor, and the per-section
+standing reading limit in each §E–§T preamble says so; no unmarked cell in those sections is offered as
+verified-by-me. **No record in either volume carries a quotation invented to fill a gap, and no date was written
+where the record has none.**
+9. **`[src: …]` keys are narrative-row and dossier traces, not register joins.** Volume 1's §A–§D block is the
+79 records the narrative drafted under provisional ids A01–A26/B01–B20/C01–C13/D01–D20, mapped here by the
+constant offsets **A +8, B +124, C +40, D +34**; the narrative's own numbering was not edited. Because of RD-078
+(see defect 11) **no record in either volume cites a bare register id as its locator**: every locator is
+`sources/<convention-named file>` + accession + filed date + line in the keyed copy, and where a register row
+cannot be joined the record says so.
+10. **`(PB)` and the contested endpoint are handled without assuming the widest window.** The working close is
+1999-12-31; records whose status changes under a narrower close are flagged **`[ENDPOINT-SENSITIVE: …]`**
+(A34, E55, E64, E69, E91, F42, F46, H60, L26, Q77, Q99, Q111, Q121 and the §J.6 rows), and **U.153 carries the
+enumeration of what each of the three narrower candidates removes**, including that a 1997-12-31 close excludes
+all of E55–E69, F44–F51, G53–G62, J40–J54, K43–K60, L22–L32, M30–M44 and Q78 onward.
+11. **Filing lineage was applied as a count rule, and two re-keys are visible in the cells.** Draft records that
+had counted lineage-internal agreement were re-keyed to `Corroboration: 1 (same lineage …)` with the superseded
+string left in the cell (D54's "2 accessions, one registrant"; A12/A16's 10-K405 legs). The three lineages that
+bind this stage — File No. 333-23795 (S-1 original, six amendments, 424B1), a 10-K with its exhibits, and the
+**FY1999 10-K with its own 10-K/A as one document restated** — are applied in every record that touches them,
+including the asymmetry cases U.154, U.157, U.164, U.165.
+12. **Zero web requests.** Both volumes were built from the three narrative volumes, the five Stage-3 dossiers,
+the 101 local documents and the registers; every unmet need is **UNTRIED with its query printed** (S34, S36, S37,
+S39–S44, S46, S53, S54, T50, T56) and no UNTRIED item is reported as a null about the record.
+
+## Defects noticed (for the orchestrator; reported, not repaired — §14 rule 4)
+
+1. **`context_appendices.md` still prints `2,613,000` and `$871,000` twice each** inside rows that label them
+retracted — instruction-layer residue that a copying pass will inherit. Registered as **U.168** (Stage 2's U.107
+recurrence). `sources/` contains neither string.
+2. **`MASTER_RESEARCH_LOG.md` states that "Exchange.com" returns "zero occurrences across all 97 local files"**
+and groups it with WarehouseDirect, Internet Mail and Allaire, which genuinely are absent. **False: 113
+occurrences in 11 files**, including an 8-K headline and Note 2 of the FY1999 10-K/A. A dated, priced,
+HSR-cleared acquisition is sitting in the folklore column. Registered as **U.156**; correction OC-203.
+3. **`sources.csv` row S0806, the phantom "FY1996 annual report", is still on disk** — no accession, no URL, no
+document, and no FY1996 annual filing exists in the 125-row catalogue. Any later pass that trusts `source_id`
+will cite it. Recorded at S50.
+4. **The `stage` column carries two grammars across the nine registers** — quantitative.csv 31 `stage3` / 110 `3`;
+timeline.csv 43 / 61; data_gaps.csv 11 / 31; failures.csv and validation.csv `3` against `stage1`/`stage2` for the
+earlier stages. A single-value stage filter silently drops one population. Recorded at S51.
+5. **`stage_3_part_1.md` §G.2 row G17 mis-transcribes the Buschman site labels.** It prints `"Site A" yet to be
+determined` (l.5470-5476), `"Site B"` (l.7313-7319), `"Site C"` (l.9172-9178); the filing reads **"SITE 1"** at
+l.5472, **"SITE 2"** at l.7315 and **"SITE 3"** at l.9174, and **no string "Site A/B/C" or "yet to be determined"
+occurs in `sources/10-Q_Q1-1999_acc-0000891020-99-000894_filed-1999-05-17.txt` at all** (machine-checked on this
+pass). The substance — three contracts for sites not yet located, on one proposal dated 1999-02-05 — stands;
+the quoted lettering does not. Volume 1 records the filing's wording and marks it `re-read here` (G71).
+6. **`stage_3_part_1.md` §F.1's row F12 and the held `channels.csv` row price the April 1998 European set at
+"~$55m aggregate, mostly stock"**, while the filed instrument is **540,066 restricted shares** for three companies
+together and the reference price/date are undisclosed. A derived sum is circulating as a price. Registered as
+**U.163** (E56, E75, P130, Q80).
+7. **`stage_3_part_3.md` §R "Technology" prints technology-and-content as 9.7% → 14.6% → 9.7% of net sales**,
+which matches no basis: §J.3 computes **9.06% / 7.61% / 9.74%** on the FY1999 restated series (and 13,384 ÷
+147,787 = 9.06%, not 9.7%, for 1997). One of the two is wrong; they are both left in place and the mismatch is
+named in the record that carries it (R30, cross-referenced to J51).
+8. **`stage_3_part_1.md` §E.1 row E5 prints a "~2 months" declared-to-open interval** for music where the two
+anchors give 92 days (1998-03-30 → 1998-06-30) ≈ 3.0 months, or ≈2.4 months from the 1998-04-17 letter. The
+shorter of two defensible readings is printed without the longer one. Both are recorded with the arithmetic (E54).
+9. **The narrative's `>>> CONFLICT FOR §U` markers M-1 … M-24 have no published map to the registered U-ids.**
+Several markers (M-2, M-3, M-4, M-8, M-9, M-10, M-11, M-12) name subjects that are **not** the U-block the
+numbering would suggest, and the §U body's own attributions disagree with the re-key map's `Dossier original`
+column for the ST3_D block (the map assigns U.D1–U.D8 to U.145–U.152, while the bodies of **U.132** and **U.133**
+also cite U.D2/U.D3). Where I could not map a marker with certainty I printed it as **`the M-n family`** rather
+than assert a key; a mapping pass is owed.
+10. **`stage_3_part_3.md` §Q row 10 keys the FY1997 Form 10-K405 as filed "1998-03-05"**, which is the FY1998
+10-K's date; the FY1997 10-K405 (acc. 0000891020-98-000448) was filed **1998-03-30**. Recorded with both keys
+flagged at Q79 and not silently harmonised.
+11. **RD-078 is not findable by that label** in `03_quality_control/`, `CORRECTIONS.md` or the registers (searched
+on this pass). The governing artefacts are `03_quality_control/stage3_sourceid_rekey_map.md` (**the merge wrote
+four dossiers' `S3001…S3022` blocks over each other, so 22 ids each named three different documents**; re-keyed to
+canonical **S30001–S30081** in application order ST3_A, B, C, D) and `03_quality_control/stage3_register_binding.md`
+(binding rule: **content, never position**; irreducible references held, not guessed; 134 of 134 pending rows
+parsed at canonical width). The tasking's "~219 rows" figure is plausible as an *id-citation* count but no file in
+the repository states it, and `stage_3_part_3.md` §T's "81 Stage-3 rows already exist, `S3001…S3081`" uses the
+**pre-re-key** form of the ids while the canonical form is `S30001…S30081`.
+12. **File-count drift in the narrative's absence claims.** §E.4, §I, §M.8, §M.10 and §S cite "all **99** files in
+`sources/`" for zero-occurrence greps run before the FY1999 10-K and 10-K/A arrived (the directory now holds 99
+entries / **101 documents** counting the two .html twins). **This appendix re-ran only one of those greps** — the
+WarehouseDirect / Warehouse Direct / Internet Mail / IMail set (recorded as `re-read here` at E80, and it does not
+change the result) — so the other documented-empty claims are inherited with a stale denominator and are marked
+as such wherever they are used.
+
 <!--APPEND-->
