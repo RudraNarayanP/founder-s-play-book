@@ -1,0 +1,14 @@
+{
+ "findings": [
+  {
+   "gate": "coverage",
+   "subject": "narrative",
+   "msg": "no stage_*.md volumes found -- keys/anchors gates DID NOT RUN"
+  },
+  {
+   "gate": "csv",
+   "subject": "sources.csv",
+   "msg": "stage vocabulary illegal: 1"
+  }
+ ]
+}

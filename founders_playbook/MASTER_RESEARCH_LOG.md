@@ -1124,3 +1124,33 @@ six FY1999 figures with zero rows in all nine registers; and risk-factor boilerp
 company's mental state. Note the sweep that came back clean: `inevitable / destined / would later /
 in hindsight / drove / showed that / the reason was` = **0 hits** across three volumes -- the
 earlier rhetoric sweeps worked; what survives now hides in *mechanism* claims, not in adjectives.
+
+### Wave results, 2026-09-26 late evening (first wave under §15)
+
+**Five of thirteen agents in, and the new contract held.** Register drift repaired (106 rows in 7 files
+across Amazon/Walmart/Apple), the oversize volumes split with a SHA-256 byte-identity proof, two judgment
+gates returned, and **one agent refused its brief and was right** (RD-089 above). Zero empty-file
+failures this wave -- the CLAIM-first rule is doing its job.
+
+- **Amazon Stage-3 chronology: PASS-WITH-DEFECTS** (1 high / 5 medium / 2 low),
+  `03_quality_control/amazon_s3_audit1_chronology.md`.
+- **Amazon Stage-3 hindsight: FAIL** (5 high / 9 medium / 2 low),
+  `03_quality_control/amazon_s3_audit4_hindsight.md`; a repair pass is running against its HIGH list.
+- **Claim-record split:** S2 60,718 w → 44,044 + 17,340 (+ existing vol 2); S3 84,337 w → 44,228 + 40,764.
+  479 and 682 records preserved exactly, none renumbered, union byte-identical. `--checks budget` now
+  reports 0 findings, largest volume at 74% of cap.
+
+**New research debt.**
+- **RD-090 (queued behind the running register writer)** `timeline.csv` row `1999-h1` still asserts "first
+  distribution centre the company states it opened (Nevada)" at Confidence High with the note "The verb,
+  not the lease, is the event" -- the criterion §boundary voids at U.153, and two other rows in the same
+  register already record its falsification. **A retraction that never reached the register layer**
+  (§14.10 violated by our own text). Also CH-03: Position C's managerial leg cites the Q3-1999 10-Q as the
+  carrier of the Wilke instrument, which contains zero occurrences of "Wilke"; Wilke is in-window only
+  from 1999-10-28, and his 1999-09-02 date exists solely in a 2000-03-23 exhibit index (post-boundary
+  carrier).
+- **RD-091** claim-record self-counts are stale: S2 header says 56,416 w against 60,718 actual; the S3
+  volume-2 header claims 596 records against 627; orphaned "volume 1" labels; `_MANIFEST.md` stale since
+  09-24. Fix at the Stage-3 merge, not by hand-editing superseded intermediates.
+- **RD-092** the record census regex must be `[A-T]\d{1,3}` -- Stage-3 ids reach `P209`, so any `\d{2,3}`
+  or two-letter-class assumption undercounts.

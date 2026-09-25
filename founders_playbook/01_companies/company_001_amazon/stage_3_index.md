@@ -48,3 +48,14 @@ the 1998-06-01 "pay a stock dividend for the 2-for-1" row, which cites `S30083` 
 row registering only the 8-Ks of 1998-11-19 and 1999-07-21, so its date and its citation cannot both stand.
 Both are reproduced in full at `03_quality_control/stage3_register_merge_held_rows.md` and named in the
 per-block status lines of `stage_3_pending_registers.md`.
+
+
+---
+
+**PART LIST OF THE CLAIM-RECORD APPENDIX as at 2026-09-26** (mechanical §9.2/§9.3 budget split; sheet `03_quality_control/amz_claim_record_split.md`). The appendix is **three** volumes of one document with continuous ids — nothing re-based, renumbered or reused:
+
+1. `stage_3_claim_records.md` — volume 1a: front matter + §A–§L; records **A09 → L35**, 347 records, 44,228 words.
+1. `stage_3_claim_records_part_1b.md` — volume 1b: §M–§T and the closing “VOLUME 1 ENDS HERE” statement; records **M27 → T58**, 280 records, 40,764 words.
+1. `stage_3_claim_records_part_2.md` — volume 2: §U conflict spine + coverage note + defects; records **U.114 → U.168**, 55 records, 15,036 words.
+
+Stage-3 total: **682 records**, unchanged by the split. The two-volume statements earlier in this index are superseded by this register, not rewritten (method §14 rule 4).

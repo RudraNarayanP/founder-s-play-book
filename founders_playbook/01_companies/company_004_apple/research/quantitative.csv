@@ -1,31 +1,31 @@
 company,stage,date,metric,value,unit,source,source_date,evidence_class,confidence,derived_arithmetic,notes
-Apple,1,1977-05,Apple-I retail price as stated by designer,under 700,USD per board,A2S-06,1977-05,FOUNDER CLAIM (contemporaneous),Medium,,Wozniak in print May 1977; no 1976 document states a price (A2-23)
-Apple,1,1976-01/1976-12,Apple-1 price stated in any 1976 print,UNKNOWN,USD,A2S-01/02/03/04/05,1976,UNKNOWN,High,,Documented absence across all twelve 1976 BYTE issues plus Homebrew 1975-11 to 1977-01
-Apple,1,1977-06,"Apple II system price, 4K configuration",1298.00,USD,A2S-07,1977-06,FACT,High,,Company's own published price list
-Apple,1,1977-06,"Apple II board-only price, 4K configuration",598.00,USD,A2S-07,1977-06,FACT,High,,'for the do-it-yourself hobbyist'
-Apple,1,1977-06,"Apple II system price, 48K configuration",2638.00,USD,A2S-07,1977-06,FACT,High,,Top of the ladder printed in 1977
-Apple,1,1977-06,"Apple II board-only price, 48K configuration",1938.00,USD,A2S-07,1977-06,FACT,High,,
-Apple,1,1977-06,Implied California sales-tax rate in Apple's price table,6.5,%,A2S-07,1977-06,DERIVED,High,"84.37 / 1298.00 = 0.0650; cross-checks 38.87/598.00, 110.37/1698.00, 171.47/2638.00 all = 0.0650",Conflicts with 6% printed by other advertisers (U-A2-6)
-Apple,1,1977-06,Assembled-system premium over board-only,700,USD,A2S-07,1977-06,DERIVED,High,1298.00 - 598.00 = 700,"Buys case, keyboard, power supply, two paddles, demonstration cassette"
-Apple,1,1977-06,"Marginal factory memory per 1K, 4K to 12K steps",25,USD per 1K,A2S-07,1977-06,DERIVED,High,(1398 - 1298) / 4 = 25,Step to 16K costs 200 (1698-1498)
-Apple,1,1977-06,Aftermarket 4K chip set,125,USD,A2S-07,1977-06,FACT,High,,31.25 USD per 1K
-Apple,1,1977-06,Aftermarket 16K chip set,600,USD,A2S-07,1977-06,FACT,High,,37.50 USD per 1K; the ad states factory memory carries a 20% saving
-Apple,1,1976-06,Complete assembled MOS 6502 system sold by Electronic Tool Co (ETC-1000),675,USD,A2S-10,1976-06-09,FACT (as printed),High,,Closest printed 6502 comparator to the Apple-I claim of 'under $700' for a board
-Apple,1,1976-11,"Processor Technology Sol-20, kit / assembled",995 / 1495,USD,A2S-04 and A2S-05,1976-11 and 1977-04,FACT (as printed),High,,Assembled premium 1495-995 = 500 versus Apple's 700
-Apple,1,1976-06-09,Homebrew meeting live-system count,101,systems,A2S-10,1976-06-09,CONTEMPORARY OBSERVATION (self-surveyed),Medium-High,,6502 share 18/101 = 17.8%; 8080 share 53/101 = 52.5%; October 1975 comparison 38 systems
-Apple,1,1977-04,West Coast Computer Faire exhibitor population billed,200,exhibitors,A2S-11,1977-02-16,ESTIMATE (organiser's forecast),Medium,,"Flyer forecast 7,000-10,000 attendees"
-Apple,1,1977-04,West Coast Computer Faire attendance announced at close,12800,attendees,A2S-08,1977-07,CONTEMPORARY OBSERVATION (self-report),Medium,,No independent count exists; 12800/8500 = 1.51x the organiser's own forecast mid-point
-Apple,1,1978,"Apple sales, fiscal 1978",7800000,USD,A2S-09,1981-02,FACT (as printed),High,,Earliest fiscal year printed anywhere in this corpus; RETROSPECTIVE SOURCE for Stage 1
-Apple,1,1978,"Apple profit, fiscal 1978",793497,USD,A2S-09,1981-02,FACT (as printed),High,,793497/7800000 = 10.17% net margin (DERIVED)
-Apple,1,1979,"Apple sales / earnings, fiscal 1979",48000000 / 5000000,USD,A2S-09,1981-02,FACT (as printed),High,,5/48 = 10.4% net margin (DERIVED); rounded to $1M in print
-Apple,1,1980-09-26,"Apple sales / profit, fiscal 1980",117000000 / 11700000,USD,A2S-09,1981-02,FACT (as printed),High,,11.7/117 = 10.0% net margin; sales growth 117/7.8 = 15.0x since FY1978 (DERIVED)
-Apple,1,1980-12,Offering price per share,22,USD,A2S-09,1981-02,FACT (as printed),High,,
-Apple,1,1980-12,Shares offered,4600000,shares,A2S-09,1981-02,FACT (as printed),High,,Printed as 8% of 52.4M shares; 4.6/52.4 = 8.78% - internal inconsistency (U-A2-9)
-Apple,1,1980-12,Gross offer size on printed share count,101200000,USD,A2S-09,1981-02,DERIVED,High,4600000 x 22 = 101200000,
-Apple,1,1980-12,Gross offer size on printed 8%,92240000,USD,A2S-09,1981-02,DERIVED,Medium,0.08 x 52400000 x 22 = 92240000,Both figures carried; neither preferred pending the paper prospectus
-Apple,1,1981-02,Value of one founder's holding at the offer price,182600000,USD,A2S-09,1981-02,DERIVED,High,8300000 x 22 = 182600000,Column says 'well over $100 million'; print understates its own arithmetic
-Apple,1,1981-02,"Combined holding of Jobs, Wozniak and Markkula",47.5,% of shares,A2S-09,1981-02,DERIVED,High,(3 x 8300000) / 52400000 = 0.475,"Venrock 3.8M = 7.25%; Xerox 80,000 = 0.15%"
-Apple,1,1976-04,HP-65 calculator retail / street price in period print,795 / 695,USD,A2S-01,1976-04,FACT (as printed),High,,"Used as a plausibility bound for the 2006 memoir's $500 sale, not as corroboration"
-Apple,1,1976-06-09,Used-computer discount observable in the club's own classifieds,34.8,% below retail,A2S-10,1976-06-09,DERIVED,Medium,1 - (2000 / 3066.58) = 0.348,"$500 against $795 = 62.9% of retail, i.e. a 37.1% discount - adjacent to the observed band"
-Apple,1,1976-11,Dealer mail-order terms of trade,10 off list / +2 carriage / $80 minimum,% and USD,A2S-04,1976-11,FACT (as printed),High,,"Kentucky Fried Computers, Berkeley, page 75"
-Apple,1,1976-04/1976-10,"Apple units sold, revenue, headcount or order size in 1976 print",UNKNOWN,UNKNOWN,A2S-01..A2S-12,1976,UNKNOWN,High,,"The corpus's central money null for Stage 1 (A2-23, DG-1, DG-2)"
+Apple,stage1,1977-05,Apple-I retail price as stated by designer,under 700,USD per board,A2S-06,1977-05,FOUNDER CLAIM (contemporaneous),Medium,,Wozniak in print May 1977; no 1976 document states a price (A2-23)
+Apple,stage1,1976-01/1976-12,Apple-1 price stated in any 1976 print,UNKNOWN,USD,A2S-01/02/03/04/05,1976,UNKNOWN,High,,Documented absence across all twelve 1976 BYTE issues plus Homebrew 1975-11 to 1977-01
+Apple,stage1,1977-06,"Apple II system price, 4K configuration",1298.00,USD,A2S-07,1977-06,FACT,High,,Company's own published price list
+Apple,stage1,1977-06,"Apple II board-only price, 4K configuration",598.00,USD,A2S-07,1977-06,FACT,High,,'for the do-it-yourself hobbyist'
+Apple,stage1,1977-06,"Apple II system price, 48K configuration",2638.00,USD,A2S-07,1977-06,FACT,High,,Top of the ladder printed in 1977
+Apple,stage1,1977-06,"Apple II board-only price, 48K configuration",1938.00,USD,A2S-07,1977-06,FACT,High,,
+Apple,stage1,1977-06,Implied California sales-tax rate in Apple's price table,6.5,%,A2S-07,1977-06,DERIVED,High,"84.37 / 1298.00 = 0.0650; cross-checks 38.87/598.00, 110.37/1698.00, 171.47/2638.00 all = 0.0650",Conflicts with 6% printed by other advertisers (U-A2-6)
+Apple,stage1,1977-06,Assembled-system premium over board-only,700,USD,A2S-07,1977-06,DERIVED,High,1298.00 - 598.00 = 700,"Buys case, keyboard, power supply, two paddles, demonstration cassette"
+Apple,stage1,1977-06,"Marginal factory memory per 1K, 4K to 12K steps",25,USD per 1K,A2S-07,1977-06,DERIVED,High,(1398 - 1298) / 4 = 25,Step to 16K costs 200 (1698-1498)
+Apple,stage1,1977-06,Aftermarket 4K chip set,125,USD,A2S-07,1977-06,FACT,High,,31.25 USD per 1K
+Apple,stage1,1977-06,Aftermarket 16K chip set,600,USD,A2S-07,1977-06,FACT,High,,37.50 USD per 1K; the ad states factory memory carries a 20% saving
+Apple,stage1,1976-06,Complete assembled MOS 6502 system sold by Electronic Tool Co (ETC-1000),675,USD,A2S-10,1976-06-09,FACT (as printed),High,,Closest printed 6502 comparator to the Apple-I claim of 'under $700' for a board
+Apple,stage1,1976-11,"Processor Technology Sol-20, kit / assembled",995 / 1495,USD,A2S-04 and A2S-05,1976-11 and 1977-04,FACT (as printed),High,,Assembled premium 1495-995 = 500 versus Apple's 700
+Apple,stage1,1976-06-09,Homebrew meeting live-system count,101,systems,A2S-10,1976-06-09,CONTEMPORARY OBSERVATION (self-surveyed),Medium-High,,6502 share 18/101 = 17.8%; 8080 share 53/101 = 52.5%; October 1975 comparison 38 systems
+Apple,stage1,1977-04,West Coast Computer Faire exhibitor population billed,200,exhibitors,A2S-11,1977-02-16,ESTIMATE (organiser's forecast),Medium,,"Flyer forecast 7,000-10,000 attendees"
+Apple,stage1,1977-04,West Coast Computer Faire attendance announced at close,12800,attendees,A2S-08,1977-07,CONTEMPORARY OBSERVATION (self-report),Medium,,No independent count exists; 12800/8500 = 1.51x the organiser's own forecast mid-point
+Apple,stage1,1978,"Apple sales, fiscal 1978",7800000,USD,A2S-09,1981-02,FACT (as printed),High,,Earliest fiscal year printed anywhere in this corpus; RETROSPECTIVE SOURCE for Stage 1
+Apple,stage1,1978,"Apple profit, fiscal 1978",793497,USD,A2S-09,1981-02,FACT (as printed),High,,793497/7800000 = 10.17% net margin (DERIVED)
+Apple,stage1,1979,"Apple sales / earnings, fiscal 1979",48000000 / 5000000,USD,A2S-09,1981-02,FACT (as printed),High,,5/48 = 10.4% net margin (DERIVED); rounded to $1M in print
+Apple,stage1,1980-09-26,"Apple sales / profit, fiscal 1980",117000000 / 11700000,USD,A2S-09,1981-02,FACT (as printed),High,,11.7/117 = 10.0% net margin; sales growth 117/7.8 = 15.0x since FY1978 (DERIVED)
+Apple,stage1,1980-12,Offering price per share,22,USD,A2S-09,1981-02,FACT (as printed),High,,
+Apple,stage1,1980-12,Shares offered,4600000,shares,A2S-09,1981-02,FACT (as printed),High,,Printed as 8% of 52.4M shares; 4.6/52.4 = 8.78% - internal inconsistency (U-A2-9)
+Apple,stage1,1980-12,Gross offer size on printed share count,101200000,USD,A2S-09,1981-02,DERIVED,High,4600000 x 22 = 101200000,
+Apple,stage1,1980-12,Gross offer size on printed 8%,92240000,USD,A2S-09,1981-02,DERIVED,Medium,0.08 x 52400000 x 22 = 92240000,Both figures carried; neither preferred pending the paper prospectus
+Apple,stage1,1981-02,Value of one founder's holding at the offer price,182600000,USD,A2S-09,1981-02,DERIVED,High,8300000 x 22 = 182600000,Column says 'well over $100 million'; print understates its own arithmetic
+Apple,stage1,1981-02,"Combined holding of Jobs, Wozniak and Markkula",47.5,% of shares,A2S-09,1981-02,DERIVED,High,(3 x 8300000) / 52400000 = 0.475,"Venrock 3.8M = 7.25%; Xerox 80,000 = 0.15%"
+Apple,stage1,1976-04,HP-65 calculator retail / street price in period print,795 / 695,USD,A2S-01,1976-04,FACT (as printed),High,,"Used as a plausibility bound for the 2006 memoir's $500 sale, not as corroboration"
+Apple,stage1,1976-06-09,Used-computer discount observable in the club's own classifieds,34.8,% below retail,A2S-10,1976-06-09,DERIVED,Medium,1 - (2000 / 3066.58) = 0.348,"$500 against $795 = 62.9% of retail, i.e. a 37.1% discount - adjacent to the observed band"
+Apple,stage1,1976-11,Dealer mail-order terms of trade,10 off list / +2 carriage / $80 minimum,% and USD,A2S-04,1976-11,FACT (as printed),High,,"Kentucky Fried Computers, Berkeley, page 75"
+Apple,stage1,1976-04/1976-10,"Apple units sold, revenue, headcount or order size in 1976 print",UNKNOWN,UNKNOWN,A2S-01..A2S-12,1976,UNKNOWN,High,,"The corpus's central money null for Stage 1 (A2-23, DG-1, DG-2)"

@@ -190,3 +190,21 @@ volume-split (§A–H / §I–P / §Q–U, see `stage_2_index.md`) and no volume
 
 **Not yet built for Stage 2:** `stage_2_claim_records.md` (in progress), Stage-2 context appendices, and
 the five Stage-2 audits. `stage_2_index.md` records the registers' Stage-1/Stage-2 row split.
+
+
+---
+
+## 2026-09-26 claim-record budget split (Stage 2 and Stage 3) — register appended by `amz-split-oversize`
+
+Counts regenerated for the six claim-record volumes only (word = whitespace token, byte = file size; the §9.2 cap is 60,000 words per file).
+
+| File | Words | Bytes | Sections contained | Upload batch | Status |
+|---|---|---|---|---|---|
+| `stage_2_claim_records.md` | 44044 | 285,070 | Volume 1a: front matter + §A–§P (304 records A01→P90) | 1 | PASS 73% of cap — superseded as a whole-document volume, see its footer |
+| `stage_2_claim_records_part_1b.md` | 17340 | 114,819 | Volume 1b: §Q–§T (105 records Q17→T40) + the §U carry-forward stub + volume 1's coverage note | 1 | PASS 29% of cap — NEW, created by this split |
+| `stage_2_claim_records_part_2.md` | 27908 | 181,722 | Volume 2: §U (70 records U.44→U.113) + coverage note | 1 | PASS 47% of cap — +56 words for one added chain line, records unchanged |
+| `stage_3_claim_records.md` | 44228 | 300,354 | Volume 1a: front matter + §A–§L (347 records A09→L35) | 1 | PASS 74% of cap — superseded as a whole-document volume, see its footer |
+| `stage_3_claim_records_part_1b.md` | 40764 | 270,833 | Volume 1b: §M–§T (280 records M27→T58) + the closing “VOLUME 1 ENDS HERE” statement | 1 | PASS 68% of cap — NEW, created by this split |
+| `stage_3_claim_records_part_2.md` | 15036 | 102,222 | Volume 2: §U (55 records U.114→U.168) + coverage note + defects | 1 | PASS 25% of cap — +46 words for one added chain line, records unchanged |
+
+Stage totals are unchanged by the split: **479** Stage-2 records and **682** Stage-3 records; no id re-based, duplicated or lost. Method and byte-identity proof: `03_quality_control/amz_claim_record_split.md`. Counts in the tables above this line date from 2026-09-24 and are stale for every file this pass touched.

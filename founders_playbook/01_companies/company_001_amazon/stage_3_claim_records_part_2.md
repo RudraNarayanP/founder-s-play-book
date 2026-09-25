@@ -1,5 +1,7 @@
 # AMAZON.COM, INC. — STAGE 3 CLAIM-RECORDS APPENDIX, VOLUME 2 (§U) — CONTINUOUS NUMBERING
 
+> **CHAIN NOTE (2026-09-26 budget split, method §9.3; sheet `03_quality_control/amz_claim_record_split.md`):** this volume continues `stage_3_claim_records_part_1b.md` (volume 1b, §M–§T), whose own volume 1a is `stage_3_claim_records.md`; the three volumes are one document with continuous ids, and the only change made to this file by that pass is this line.
+
 **Dataset:** THE FOUNDER'S PLAYBOOK · **Company:** Amazon.com, Inc. (company_001) · **Stage:** 3
 (1997-05-16 → **endpoint under argument**; work to 1999-12-31) · **Role:** volume 2 of the claim-record appendix
 whose volume 1 is `stage_3_claim_records.md`. **Numbering is continuous and nothing is renumbered (method §9.3):**

@@ -138,3 +138,14 @@ the stage cannot be called complete until all five pass.
 * `_MANIFEST.md` is owned by the orchestrator and was **not** edited by this pass; the count deltas it must
   pick up are §U 68→70 blocks, conflicts.csv stage-2 rows 68→70, timeline.csv stage-2 rows 58→59, and
   claim records 476→479.
+
+
+---
+
+**PART LIST OF THE CLAIM-RECORD APPENDIX as at 2026-09-26** (mechanical §9.2/§9.3 budget split; sheet `03_quality_control/amz_claim_record_split.md`). The appendix is **three** volumes of one document with continuous ids — nothing re-based, renumbered or reused:
+
+1. `stage_2_claim_records.md` — volume 1a: front matter + §A–§P; records **A01 → P90**, 304 records, 44,044 words.
+1. `stage_2_claim_records_part_1b.md` — volume 1b: §Q–§T, the §U carry-forward stub and volume 1's coverage note; records **Q17 → T40**, 105 records, 17,340 words.
+1. `stage_2_claim_records_part_2.md` — volume 2: §U conflict spine + the closing coverage note; records **U.44 → U.113**, 70 records, 27,908 words.
+
+Stage-2 total: **479 records**, unchanged by the split. The two-volume statements earlier in this index are superseded by this register, not rewritten (method §14 rule 4).

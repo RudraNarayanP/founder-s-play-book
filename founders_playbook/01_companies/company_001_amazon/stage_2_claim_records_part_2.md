@@ -1,5 +1,7 @@
 # AMAZON.COM, INC. — STAGE 2 CLAIM-RECORDS APPENDIX, PART 2 OF 2 (SECTION U + COVERAGE NOTE)
 
+> **CHAIN NOTE (2026-09-26 budget split, method §9.3; sheet `03_quality_control/amz_claim_record_split.md`):** this volume continues `stage_2_claim_records_part_1b.md` (volume 1b, §Q–§T plus the §U carry-forward stub and volume 1's coverage note), whose own volume 1a is `stage_2_claim_records.md`; the three volumes are one document with continuous ids, and the only change made to this file by that pass is this line.
+
 **Dataset:** THE FOUNDER'S PLAYBOOK · **Company:** Amazon.com, Inc. (company_001) · **Stage:** 2
 (1996-01-01 → 1997-05-15) · **Role:** continuation of `stage_2_claim_records.md`, split at a section
 boundary because the combined appendix passes the 60,000-word per-file cap (method §9.2/§9.3). **Nothing was
