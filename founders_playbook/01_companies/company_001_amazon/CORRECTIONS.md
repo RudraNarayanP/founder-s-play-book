@@ -326,3 +326,31 @@ press release with content it does not contain, including where dossiers D and E
    exempt from the rule it enforces.
 3. **One new false-corroboration instance was found inside the appendix** and must be collapsed to a
    single lineage.
+
+## COR-15 — AUDIT 8 residue sweep: the appendix pair was already retracted; the Stage-2 draft was not (2026-09-25)
+
+AUDIT 8 (Stage 1 certification) and `_parts/s3_p4.md` U.168 reported that the retraction of the
+`$871,000` / `2,613,000` leg "never reached" `context_appendices.md`. **Read in full, that premise is
+stale.** Both appearances — now at l.598 and l.641, not the l.596 / l.639 cited — sit **inside their own
+withdrawal sentences**, with the composition of the residual already printed as **UNKNOWN** and the
+`$976,408` total already withdrawn along with the leg. Nothing was substituted and no digit was deleted;
+the pass **dated and tagged** the appearances instead, so a grep- or copy-out register can no longer read a
+withdrawal as an assertion. Corpus test re-run: `2,613,000` and `871,0` occur in **zero** files under
+`sources/` (99 entries), while `3,021,000` occurs in 14. The correct value stays **UNKNOWN**, reason: no
+document on disk prints that denominator, and the citation offered for it (original S-1 l.4301–4302) prints
+`3,021,000 / 23 investors / $.3333 / $1,007,000`.
+
+**The residue that was real is the Stage-2 draft volume** `_parts/s2_p4.md`, which the numbers repair pass
+had already logged as "out of scope; reported, not edited" (`amazon_s2_audit3_repairs.md` D-01/D-02, D-06,
+D-07, and its sweep table warning that "a rebuild from `_parts` re-imports every defect closed today"). It
+now carries a `## SUPERSEDED 2026-09-25` banner plus in-place tags on every copy of: **`$122k` printed as
+FY1996 rent** (filed: **$257k**, S-1/A No. 5 l.4383), **`6.4×`** (repaired **6.0×** = 1540 ÷ 257),
+**`30.813`** (**30.81409**), **`19.4995`** (**19.50013%**), **`≈39.5`** days (**39.6**, from 39.5690), and
+the stale B&N class label `FACT (audited counterparty)`. **No value was rewritten:** per §14 an
+intermediate volume is the merge's audit trail and takes a dated supersession marker, never a silent edit.
+Sites, before→after counts, sweep commands and the invariant checks (§U 43↔43 Stage 1, 70↔70 Stage 2,
+uniform register widths) are in `03_quality_control/audit8_residue_repairs.md`.
+
+**Standing rule from this pass:** an audit reporting a stale figure must say whether the bytes are
+*asserted* or *quoted inside a retraction* — a grep cannot tell them apart, and only the first is a defect.
+Conversely, a retraction is not finished until it is dated and greppable as a retraction.
