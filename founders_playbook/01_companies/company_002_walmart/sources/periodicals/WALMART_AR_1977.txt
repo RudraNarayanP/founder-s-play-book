@@ -1,0 +1,3043 @@
+# [PROVENANCE HEADER added 2026-09-24 — retrieval provenance for this file only]
+SOURCE URL: https://archive.org/details/1977-annual-report-for-walmart-stores-inc
+ITEM IDENTIFIER: 1977-annual-report-for-walmart-stores-inc  (IA collections walmart_reports / magazine_rack / newsmagazines; creator "Walmart"; metadata date+year "1977"; 19 files in item)
+METADATA PROBE: https://archive.org/metadata/1977-annual-report-for-walmart-stores-inc -> server ia800501.us.archive.org, dir /1/items/1977-annual-report-for-walmart-stores-inc; text layer '_djvu.txt' (DjVuTXT, 62,803 B) declared, plus _djvu.xml page map (706,801 B) and page-image PDFs (4,619,756 B / _text.pdf 3,497,154 B)
+RETRIEVED: 2026-09-24T13:43:24Z by the evidence-registrar A2 interior-year fetch, HTTP 200, 62,803 B received = 62,803 B declared by metadata (exact byte match); route = identifier -> metadata -> server+dir -> _djvu.txt (family-5 `corporate_print` route of tools/periodical_harvest.py).  Request URL as issued: https://ia800501.us.archive.org/1/items/1977-annual-report-for-walmart-stores-inc/1977-annual-report-for-walmart-stores-inc_djvu.txt  (GET, urllib, UA "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK)", sequential at 3 s spacing; no 429/503 encountered).  archive.org/download route not used (CDN TLS cert expired from this network).  SHA-256 of retrieved body: f398a40d0bd205b532fa2f4348fe02e9fc48db1b03e1cf191d5614ccc72ba500
+DOCUMENT: Wal-Mart Stores, Inc. — printed Annual Report, fiscal year ended 1977-01-31 (cover text: "Wal-Mart Stores, Inc. / Annual Report / January 31, 1977", OCR "January 3% 1977").  Contents: Financial Highlights (Two-Year Review + Five-Year Financial Summary), Chairman's Message to Shareholders, "Wal-Mart Stores, Inc. — Our Business", "Wal-Mart Caring … About Its Customers / About Its Associates", "Wal-Mart Looks Toward the Future — Research and Development Committee Formed", "Graphs Tell the Story", "Wal-Mart Opens Record Number of New Stores", Store Locations, **Eight-Year Summary (body line 1400)**, Management's Analysis of Summary of Earnings (line 1725), Consolidated Statement of Income and Retained Earnings (line 1831), Balance Sheet (1975), Statement of Changes in Financial Position (2193), Notes (2384), **Report of Certified Public Accountants — Arthur Young & Company, Tulsa Oklahoma, April 1, 1977, unqualified (line 2737)**, Dividends and Market Price of Common Stock, Directors and Officers, Form 10-K availability (line 3018).  Founding narrative (body lines 648-658): "The Company's first unit was a franchised Ben Franklin variety store, opened in **1945, in Newport, Arkansas by Sam M. Walton**.  In 1946, his brother, J. L. 'Bud' Walton, opened a similar store in **Versailles, Missouri**.  Until 1962, the Company's business was devoted to the operation of variety stores.  In that year, the first Wal-Mart Discount City store was opened in **Rogers, Arkansas**."; store sizes 30,000-60,000 sq ft, average ~42,000; thirty-six full-line departments.
+KEY FIGURES FROM (page/section): "Eight-Year Summary", p.14 per the contents (body lines 1400-1460 for the FY1977/FY1976 columns and 1463-1560 for the FY1975->FY1970 columns, thousands): net sales $478,807 / $340,331 / $236,209 / $167,561 / $124,889 / $78,015 / $44,286 / $30,863; net income 16,546 / 11,506 … 6,353* / 6,159 / 4,591 / 2,907 / 1,652 / 1,011; stores in operation 153 / 125 / 104 / 78 / 64 / 51 / 38 / 32 (FY1977->FY1970; the 104 at FY1975 cross-checks that year's narrative "100 Wal-Mart Discount City stores, two Family Center stores and two Sav-Co Home Improvement Centers"); primary EPS $1.19 / $.83, fully diluted 1.12 / .80; dividends .085 / .065; total assets 133,158 / 100,249; stockholders' equity 66,183 / 48,454; return on assets 16.5 / 15.3; return on stockholders' equity 34.1 / 31.2.  Also the LIFO footnote to that table: "The company adopted the [LIFO] method of costing inventories which resulted in a reduction in …" and "On beginning of year balances".
+COMPLETENESS: **complete scan, no page absent; text layer complete but COLUMN-MAJOR REFLOW.**  Labels print first and the year's values follow as separate stacked blocks (income statement: labels 1831-1885, then the FY1977 block 1887-1928, then the FY1976 block 1931-1969; the same shape in the eight-year summary, where 1977/1976 are side-by-side and 1975-1970 print as a vertical run under head lines 1466-1476).  **So row->value pairing must be reconstructed by position in the block, never assumed by adjacency.**  Digit-level caveats: thousands separators and some "1"->"" confusions ("3.670,000", "22, 798,000", "10,937(000", "$1,19"); "Wat-Mart"/"Waf-Mart" for Wal-Mart throughout; "UFO method" for LIFO method; FY1975 net sales prints "$236,209" here where FY1976's five-year table prints "$2?6,209" — resolve against the page image.  Company name/subsidiary header lines are duplicated per page as OCR fragments ("NEB" at line 1397).
+NOTE: header only — body is the retrieved bytes, content unaltered; newline representation normalised LF -> CRLF to match the sibling WALMART_AR_*.txt files.  Nothing deleted, renamed or overwritten.
+# [END HEADER — original retrieved bytes follow verbatim]
+Wal-Mart  Stores,  Inc. 
+Annual  Report 
+January  3%  1977 
+
+
+CONTENTS 
+
+
+7  Financial  Highlights  of  1977 
+Two-Vear  Review 
+Five-Year  Financial  Summary 
+
+2  Chairman's  Message  to  Shareholders 
+
+5  Wat-Mart  Stores,  Inc.  -  Our  Business 
+
+6  Wat-Mart  Caring  . . . 
+
+About  Its  Customers 
+About  Its  Associates 
+
+9  Waf-Mart  Looks  Toward  the  Future 
+
+Research  and  Deveiopment  Committee  Formed 
+
+10  Graphs  Tell  the  Story 
+
+1 1  Wal-Mart  Opens  Record  Number  of  New  Stores 
+
+12  Store-Locations 
+
+Wal-Mart  New  Store  Openings  on  Target 
+
+14  Eight-Year  Summary 
+
+16  Management's  Analysis  of  Summary  of  Earnings 
+
+17  Consolidated  Statement  of  Income  and  Retained  Earnings 
+
+18  Consolidated  Balance  Sheet 
+
+19  Consolidated  Statement  of  Changes  in  Financial  Position 
+
+20  Notes  to  Consolidated  Financial  Statements 
+
+23  Report  of  Certified  Public  Accountants 
+Dividends  Paid 
+
+Market  Price  of  Common  Stock 
+
+24  Directors  and  Officers 
+
+25  Corporate  information 
+
+
+Financial  Highlights  of  1977 
+
+
+Two -Year  Review 
+
+
+1977 
+
+1976 
+
+Percentage 
+Change 
+
+Current  Assets 
+
+$99,493,000 
+
+$76,070,000 
+
++  30.8 
+
+Current  Liabilities 
+
+41,929,000 
+
+32,945,000 
+
++  27.3 
+
+Working  Capitai 
+
+57,564,000 
+
+43,125.000 
+
++  33.5 
+
+Current  Ratio 
+
+2.37 
+
+2.31 
+
+Stockholders'  Equity 
+
+$66,163,000 
+
+$48,454,000 
+
+Number  of  Shares  Outstanding 
+
+13,649,829 
+
+13,418,063 
+
+Five-Year  Financial  Summary 
+
+Net  Sales 
+
+Income  before  income  taxes 
+Net  income 
+Net  income  per  share: 
+Primary 
+
+Fully  diluted 
+
+Number  of  stores  in  operation 
+at  the  end  of  the  period 
+
+
+1977 
+$476,807,000 
+31,833,000 
+16,546,000 
+
+$1.19 
+1.12 
+
+153 
+
+
+1976 
+
+
+1975 
+
+
+1974 
+
+
+1973 
+
+
+$340,331 ,000    $236,209,000    $1 67,561 ,000    $1 24T889P000 
+
+
+22,798,000 
+1 1 ,506,000 
+
+$.83 
+.80 
+
+125 
+
+
+12,208,000 
+6,353,000* 
+
+$.48* 
+.48* 
+
+104 
+
+
+11.884,000 
+6,159,000 
+
+$.47 
+.47 
+
+78 
+
+
+8,91  7.000 
+4,591,000 
+
+$.35 
+64 
+
+
+'The  company  adopted  the  UFO  method  of  costing  inventories  which  resulted  in  a  reduction  in  net 
+income  of  $2,347,000  or  $.18  per  share. 
+
+
+To  Our  Shareholders: 
+
+
+We  are  very  pleased  to  report  the 
+financial  results  for  our  fiscal  year 
+ended  January  31,  1977.  Your  Com- 
+pany again  achieved  record  highs 
+in  both  sales  and  earnings,  At  the 
+same  fame,  we  also  improved  our  fi- 
+nancial position,  further  developed 
+and  strengthened  our  management 
+team,  and  continued  our  new  store 
+devefopment  program. 
+
+Since  our  first  store  was  opened 
+in  Bentonville,  we  have  experienced 
+twenty-seven  consecutive  years  of 
+sales  and  earnings  growth.  The 
+charts  and  financial  reports  herein, 
+covering  the  past  eight  years  of 
+Wal-Mart's  operating  results, 
+indicate  clearly  our  Company's  out- 
+standing sales  growth  and  consis- 
+tent record  of  increased  earnings  for 
+our  Shareholders  over  this  period  of 
+time.  Some  record  .  .  and  one  of 
+which  I  am  sure  both  you,  our 
+Shareholders,  and  all  of  our  as- 
+sociates in  Wal-Mart  can  be  most 
+proud. 
+
+
+Company  sales  were 
+$478,807,000.  compared  to 
+$340,331,000  last  year  ...  an  in- 
+crease of  41%,  Sales,  including  our 
+leased  shoe,  jewelry,  and  pharmacy 
+departments,  increased  to 
+S518.000.000  from  $368,700,000 
+for  fiscal  1976.  Our  net  income  rose 
+to  $16,546,000,  or  $1.12  per  share 
+fully  diluted,  for  the  year  ended 
+January  31.  1977.  This  represents  a 
+44%  increase  over  the  year  ended 
+January  31,  1976.  when  income  was 
+$11,506,000.  or  800  per  share. 
+These  results,  combined  with  our 
+continuing  expansion  program,  will 
+assure  Wal-Mart's  position  as  a 
+leading  retail  growth  company. 
+
+Along  with  our  sales  and  earnings 
+growth,  the  dividends  to  Share- 
+holders were  increased  from  an  an- 
+nual rate  of  80  a  share  to  100  per 
+share  during  the  fourth  quarter.  Our 
+Board  of  Directors  has  a  stated 
+policy  of  continuing  to  increase  dis- 
+tributions to  Shareholders  of  divi- 
+dends proportionate  to  our  increase 
+in  earnings. 
+
+I  know  it  is  significant  to  our 
+Shareholders  that  our  Company's 
+stockholders'  equity  has  increased 
+over  700%  in  the  past  six  years. 
+Likewise,  in  the  seven  years  we 
+have  been  a  public  company,  one 
+share  of  Wal-Mart  stock  has  in- 
+creased in  value  from  $2.0625  to 
+$13,875.  or  approximately  a  570% 
+increase.  Consistency  in  both  sales 
+and  earnings  increases  has  been  a 
+primary  characteristic  of  our 
+Company 
+
+Wal-Mart  completed  the  year  with 
+153  stores,  an  addition  of  28  new 
+stores  during  the  year,  for  a  total  of 
+1,300.000  new  square  feet.  This  was 
+an  increase  o1  24%  in  store  space, 
+bringing  the  total  space  for  Wal- 
+Mart  to  approximately  6,500,000 
+
+
+square  feet  as  of  year-end.  The 
+financing  of  new  store  inventories, 
+fixtures  and  working  capital  was 
+funded  from  current  year  earnings.  It 
+is  anticipated  that  future  such  ex* 
+penditures  will  primarily  be  fi- 
+nanced through  earnings. 
+
+A  new  150,000-toot  Distribution 
+Center  was  constructed  in  Benton- 
+ville and  completed  in  November  of 
+1976.  This  now  makes  a  total  of 
+300,000  square  feet  which  is  being 
+utilized  as  a  pure  distribution  center 
+with  all  merchandise  moved  in  and 
+out  on  a  two-and-one-half-day  cycle. 
+
+All  of  Wal-Mart's  distribution 
+facilities  are  now  located  in  Benton- 
+ville .  .  -  some  550,000  square  feet 
+totally,  through  which  approximately 
+80%  of  all  merchandise  for  our 
+stores  flows  This  percentage  has  in- 
+creased from  60%  to  80%  within  the 
+past  two  years  and  is  a  contributive 
+factor  in  our  sales  and  profit 
+increases. 
+
+Our  General  Office  complex  was 
+doubled  in  size  and  completed 
+early  in  1976,  The  new  addition  was 
+about  31 ,000  square  feet  so  we  now 
+have  in  excess  of  50,000  feet  as 
+General  Office,  Merchandising,  and 
+Accounting  space, 
+
+One  of  the  most  remarkable 
+achievements,  in  my  opinion,  during 
+1976  had  to  be  the  amazing  sales 
+increase  of  19%  for  comparable 
+stores  for  the  year.  To  my  knowl- 
+edge, no  other  genera!  merchandise 
+retailer  in  the  United  States  came 
+
+
+close  to  equaling  this  figure.  In 
+evaluating  this  and  our  other  ac- 
+complishments,*-the  following  are  a 
+few  of  the  factors  I  think  were 
+significant: 
+
+—  We  improved  our  training  pro- 
+gram for  associates,  including 
+seminars  in  the  field  and  in  the 
+General  Office. 
+
+—  We  improved  turnover  of  mer- 
+chandise. Ourturns  increased  by 
+one-tenth  to  4.1  turns, 
+
+—  We  conducted  a  very  effective 
+sales  and  promotion  program, 
+emphasizing  volume  sales  on 
+items  as  well  as  gross  profit 
+
+—  We  improved  service  to  custom- 
+ers and  improved  store  stan- 
+dards and  merchandising 
+techniques  by  adding  additional 
+personnel  in  stores. 
+
+—  We  made  a  dramatic  improve- 
+ment in  our  fashion  merchandise 
+areas  during  1976,  particularly 
+after  a  major  remodeling  and  re- 
+fixturing  of  these  departments 
+was  completed  by  July  in  all 
+stores  We  feel  that  continuing  to 
+improve  our  fashion  presentation 
+and  departmental  arrangements 
+will  enable  us  to  fully  exploit  the 
+potential  of  these  merchandise 
+categories.  Our  centralized  re- 
+ceiving, marking,  and  quality 
+control  on  all  fashion  wearables 
+continues  to  be  an  important 
+element  in  the  success  of  that 
+program. 
+
+—  We  controlled  tightly  our  ex- 
+pense structure  in  1976,  though  it 
+increased  slightly  from  20,5%  of 
+sales  in  1975  to  20.8%  last  year 
+...  a  .3%  increase  which  was 
+due  to  higher  wages  and  better 
+
+
+service  at  store  level  In  turn,  we 
+improved  our  gross  profits  by  a 
+.2%  increase  for  the  year.  Our  ex- 
+pense  structure  would  have  to  be 
+classified  as  one  of  the  lowest  in 
+the  industry.  Two  years  ago,  for 
+1974,  our  total  expense  structure 
+was  21.1%  of  sales. 
+—  We  have  had  unique  cooperation 
+and  support  for  all  of  our  various 
+Company  objectives  during 
+1976.  The  most  important  ele- 
+ment for  our  success  during  the 
+year  would  have  to  be  the  com- 
+plete dedication  and  loyalty  of 
+our  1 0,000  associates  throughout 
+our  Company  .  ,  ,  from  our  man- 
+agement team  as  well  as  from 
+our  hourly  associates.  I  know  all 
+of  you  Shareholders  share  with 
+me  deep  appreciation  to  our  as- 
+sociates  for  their  accom- 
+plishments during  this  past  year. 
+Your  Board  of  Directors  regrets  the 
+departure  of  a  valued  member,  Mr. 
+H  L  "Buck*  Remmel,  who  resigned 
+because  of  the  pressing  nature  of 
+other  professional  commitments.  Mr 
+Remmel  was  one  of  our  original 
+board  members  and  a  partner  of 
+Wh  ite,  Weld  &  Co.  Incorporated,  one 
+of  our  investment  banking  firms,  and 
+made  significant  .contributions  to 
+the  Board  in  its  deliberations  and 
+conduct  of  its  duties.  His  presence 
+will  be  missed. 
+
+Mr  John  Geisse  was  elected  to 
+our  Board,  replacing  Mr.  Remmel, 
+and  he  contributed  substantially 
+until  his  resignation  after  assuming 
+the  Board  Chairman  position  at 
+Ayr-Way  Stores.  We  very  much  ap- 
+preciate Mr  Geisse's  contribution 
+during  his  tenure  with  us. 
+
+We  are  pleased  to  announce  the 
+recent  electron  of  Mr.  J.  Hyde:  III 
+to  our  Board  of  Directors.  Mr  Hyde 
+is  an  outstanding  merchant  and 
+
+
+leader  in  the  wholesale  food  indus- 
+try. He  is  Chairman  of  the  Board  and 
+President  of  Malone  &  Hyde,  Inc., 
+Memphis,  Tennesseet  a  billion- 
+dollar  company  listed  on  the  New 
+York  Stock  Exchange. 
+
+As  we  move  forward  into  19 77  and 
+the  continuing  challenge  of  de- 
+veloping Wal-Mart  into  one  of  the 
+leading  retailers  in  the  United 
+States,  [  would  like  to  review  with 
+you  some  of  the  goals  and  objec- 
+tives we  have  set  for  ourselves. 
+
+Wal-Mart  sales  this  year  should 
+be  in  the  $600,000,000  range  with 
+profits  in  line  with  sales  increases. 
+We  have  also  set  a  Corporate  goal 
+forthe  yearending  January  31,  1981 
+.  . .  four  years  .  ,  .  to  become  a 
+billion-dollar  company  This  past 
+year,  too,  was  a  major  milestone 
+when  we  went  over  the  one-half  bil- 
+lion dollar  mark  in  sales,  including 
+our  leased  departments. 
+
+Our  new  store  program  is  well 
+under  way  and  should  produce  ap- 
+proximately 30  new  stores  for  the 
+year.  We  also  plan  to  relocate  two 
+Stores  and  expand  and  remodel 
+three  others  for  a  net  increase  of 
+1,400,000  square  feet  of  new  store 
+space.  This  would  represent  an  in- 
+crease  of  approximately  20%  in  ad- 
+ditional square  footage.  We  have 
+adopted  a  program  of  owning  some 
+of  our  store  buildings  and  are  now 
+purchasing  and  having  developed 
+for  us  the  properties  where  such  ac- 
+tion is  necessary  to  secure  locations 
+we  consider  top  priority. 
+
+
+We  will  continue  to  accelerate  our 
+training  and  development  programs 
+for  all  Wal-Mart  associates  to  effect 
+an  even  stronger  organization.  In 
+particular,  we  will  emphasize  our 
+policy  of  promoting  from  within  and 
+adopt  the  philosophy  of  cross- 
+training  our  associates  throughout 
+the  Company  whenever  possible  to 
+achieve  the  talent  and  expertise  we 
+need. 
+
+We  will  continue  to  concentrate  on 
+sales  productivity  in  all  merchandis- 
+ing categories  and,  in  particular,  we 
+will  be  striving  to  achieve  our  sales 
+goal  of  $100  per  square  foot  of 
+gross  store  space.  Last  year,  we  hit 
+a  new  high  of  $88  a  square  foot  in 
+sales,  which  was  well  above  the  in- 
+dustry average. 
+
+A  new  Distribution  Center  is  pres- 
+ently being  planned  to  be  ready  by 
+June,  1978-  This  new  facility  will  be 
+located  in  northeast  Arkansas, 
+where  it  can  service  approximately 
+half  of  our  present  stores,  compris- 
+ing all  stores  in  Tennessee.  Missis- 
+sippi, northern  Louisiana,  eastern 
+Missouri,  and  eastern  Arkansas.  It 
+will  be  a  full-service  facility,  com- 
+plete with  trucking  facilities  as  well. 
+U  is  contemplated  that  this  facility 
+will  be  financed  by  industrial  reve- 
+nue bonds 
+
+We  will  continue  to  carefully 
+monitor  and  control  expenses  so  we 
+can  retain  our  leadership  in  com- 
+petitive pricing. 
+
+Our  inventory  control  pro- 
+grams will  be  emphasized  and 
+strengthened. 
+
+
+Our  goal  for  merchandise 
+turnover  in  1977  is  4.25  for  our 
+stores  with  an  eventual  goal  of  4  5. 
+which,  for  our  Company  serving 
+basically  rural  areas,  should  be 
+realistic  and  prudent. 
+
+Some  of  the  most  valuable  advice 
+and  observations  we  have  received 
+over  the  years  has  come  from  those 
+of  you  who  regard  your  role  of 
+shareholder  as  that  of  partner  in  im- 
+proving the  firm.  I  wish  for  you  to 
+continue  that  and  encourage  you  to 
+write  or  telephone  when  possible 
+your  thoughts  and  suggestions.  As 
+we  go  forward  into  what  I  am  confi- 
+dent will  be  a  rewarding  1977,  I  ex- 
+tend my  sincere  thanks  for  the 
+dedication  of  our  associates,  the  in- 
+valuable guidance  and  counsel  of 
+the  members  of  our  Board,  and  the 
+confidence  in  the  Company  and  it's 
+management  which  you,  the 
+
+
+Shareholders,  have  continued  to 
+evidence. 
+
+Let  me  also  extend  a  cordial  invi- 
+tation to  you,  our  Shareholders  and 
+friends,  to  visit  us  at  Bentonville.  We 
+would  like  to  show  you  through  our 
+General  Office  and  Distribution 
+Center  facilities  .  .  .  you  would  be 
+most  welcome! 
+
+
+Sam  M.  Walton 
+
+Chairman  and 
+
+Chief  Executive  Officer 
+
+
+From  (eft  to  right:  David  D.  Glass,  Executive  Vice  President  finance  -  J.  L  Walton, 
+Director,  Senior  Vice  President  -  Sam  M.  Waiton,  Director,  Chairman  and  Chief 
+Executive  Officer  -  Feroid  G.  Arend,  Director,  President  and  Chief  Operating 
+Officer  -  Jack  Shewmaker,  Executive  Vice  President,  Operations,  Personnel  and 
+Merchandise . 
+
+
+Wal-Mart  Stores,  Inc 
+
+
+Our  Business 
+
+
+Wal-Mart  Stores,  Inc.  is  a  regional 
+discount  department  store  chain. 
+From  Bentonville,  Arkansas,  in  the 
+northwest  corner  of  the  state,  153 
+stores  spread  about  400  miles  into 
+nine  states.  Included  in  the  153  dis- 
+count department  stores  in  opera- 
+tion on  January  31,  1977,  were  two 
+Sav-Co  Home  Improvement  Centers 
+and  two  Family  Center  stores. 
+Forty-seven  units  were  located  in 
+Arkansas;  forty-four  in  Missouri; 
+twenty* nine  in  Oklahoma;  seven 
+each  in  Tennessee,  Kansas,  and 
+Mississippi;  six  in  Texas;  four  in 
+Louisiana;  and  two  tn  Kentucky. 
+
+Wal-Mart  has  found  notable  suc- 
+cess in  communities  much  smaller 
+(5,000  to  25.000  people)  than  those 
+in  which  comparable  size  stores  are 
+usually  found.  Wal-Mart  stores  cover 
+a  region  of  small  towns  and 
+medium-sized  cities  —  Little  Rock, 
+Arkansas  and  Springfield.  Missouri 
+are  the  largest  in  which  the  Com- 
+pany operates.  The  average  size  of 
+a  Wal-Mart  Discount  City  store  is 
+approximately  42,000  square  feet 
+and  nearly  all  are  between  30,000 
+and  60,000  square  feet  in  building 
+area. 
+
+All  of  Wal-Mart's  153  stores  are 
+air-conditioned  and  have  modern 
+fixtures  and  equipment.  With  few 
+exceptions,  store  sales  are  on  a 
+self-service,  cash  and  carry  basis 
+with  bank-card  credit  available. 
+Wal-Mart  stores  feature  36  full-line 
+departments  and  offer  a  wide  variety 
+of  merchandise.  The  mix  of  goods  is 
+approximately  68%  hard  lines  and 
+32%  softlines.  Nationally  adver- 
+tised, name  brand  merchandise  ac- 
+counts for  a  majority  of  non-clothing 
+
+
+sales  and  a  minor  portion  o1  clothing 
+sales  at  Wal-Mart-  A  relatively  small 
+portion  of  the  goods  sold  is  under 
+the  Company's  own  private  label. 
+Leased  departments  (jewelry  and 
+shoe)  are  found  in  ail  stores  and 
+some  stores  have  a  pharmacy. 
+
+Merchandise  control  and  distribu- 
+tion is  an  important  function  of  the 
+Company's  warehouse  and  distribu- 
+tion centers.  Approximately  80%  of 
+total  merchandise  is  shipped  from 
+the  Company  facilities  in  an  effort  to 
+assure  quality  controi  and  uniform 
+pricing,  as  well  as  to  maintain 
+proper  inventory  controls.  Wal- 
+Mart's  management  attributes  much 
+of  the  Company's  success  to  con- 
+tinuing improvement  in  distribution 
+efficiencies  and  strict  adherence  to 
+the  two  guiding  principles  of 
+"guaranteed  customer  satisfaction" 
+and  'everyday  discount  prices/ 
+
+
+The  Company's  first  unit  was  a 
+franchised  Ben  Franklin  variety  store, 
+opened  in  1945,  in  Newport,  Arkan- 
+sas by  Sam  M,  Walton.  In  1946.  his 
+brother,  J.  L.  "Bud"  Waltons  opened 
+a  similar  store  in  Versailles,  Mis- 
+souri. Until  1962,  the  Company's 
+business  was  devoted  to  the  opera- 
+tion  ot  variety  stores.  In  that  year,  the 
+first  Wal-Mart  Discount  City  store 
+was  opened  in  Rogers,  Arkansas. 
+Since  that  time,  the  emphasis  of 
+the  Companyhs  business  has  been 
+on  its  discount  department  stores. 
+
+
+Wal-Mart  stores  feature  thirty-six  fulf- 
+fine  departments  and  offer  a  wide  vari- 
+ety of  merchandise.  Stores  range  in 
+size  from  30t000  to  60,000  square  feet, 
+with  the  average  being  approximately 
+42,000  square  feet 
+
+
+Wal-Mart  Caring  . . . 
+
+
+About  Its  Customers 
+
+
+The  emphasis  at  Wal-Mart  has  always 
+been  on  efficient  and  courteous  cus- 
+tomer service.  "Guaranteed  Customer 
+Satisfaction"  is  not  just  a  slogan  at 
+Wat-Mart,  it  is  our  way  of  doing 
+business. 
+
+
+"Wal-Mart  Caring"  has  been  des- 
+ignated as  one  of  the  corporation's 
+major  objectives  for  the  current  fis- 
+cal year.  The  Company  has  always 
+cared  about  its  customers  and  as- 
+sociates, but  special  emphasis  will 
+be  placed  upon  this  objective  dur- 
+ing 1977  and  in  future  years. 
+
+Caring  about  its  customers  and 
+associates  is  much  more  than  a 
+slogan  at  Wal-Mart  —  it  is  a  philoso- 
+phy. From  the  beginning,  strong 
+emphasis  has  been  placed  upon 
+customer  service  and  guaranteed 
+customer  satisfaction. 
+
+As  a  result.  Wal-Mart's  excep- 
+tional sales  performance  reflects  not 
+only  the  vitality  and  growth  of  its 
+service  area,  but  also  the  Company's 
+ability  to  increase  market  share  by 
+offering  excellent  values  and  quality 
+service  to  its  customers.  The  Com- 
+pany's strong  consumer  image  is 
+achieved  by  passing  along  the 
+benefits  of  low  operating  costs,  by 
+maintaining  a  strong  promotional 
+program,  and  by  providing  courte- 
+ous and  efficient  customer  service. 
+Because  Wal-Mart  truly  cares  about 
+its  customers,  it  has  improved  cus- 
+tomer services  by  putting  more 
+associates  at  the  check-outs  and  by 
+
+
+increasing  the  staff  needed  to  keep 
+shelves  fully  stocked  with  quality 
+merchandise. 
+
+Wal-Mart  has  always  maintained 
+an  "unconditional  money-back 
+guarantee"  program  to  promote  cus- 
+tomer goodwill  and  acceptance. 
+However,  we  know  that  providing 
+guaranteed  satisfaction  and  quality 
+merchandise  at  the  lowest  price  is 
+not  enough  to  keep  our  customers 
+shopping  at  Wal-Mart,  We  know  thai 
+we  must  also  provide  quality  ser- 
+vice. All  Wal-Mart  associates  know 
+that  customer  goodwill  and  ac- 
+ceptance are  our  best  investment  for 
+future  successful  growth. 
+
+Yes,  Wal-Mart  truly  cares  about  its 
+customers  and  their  convenience 
+every  time  they  shop  with  us.  We 
+feel  so  strongly  about  this 
+philosophy  that  during  the  year 
+speciaf  emphasis  will  be  placed 
+upon  additional  customer  service 
+training  programs  within  every  de- 
+partment in  the  Company  We  mean 
+it  when  we  say,  "the  customer  is  al- 
+ways right  at  Wal-Mart."  because  he 
+or  she  is  our  number  one  boss,  We 
+want  our  customers  to  keep  coming 
+back  because  they  know  Wal-Mart 
+truly  cares  about  them. 
+
+
+Sam  M.  Walton,  founder  and  Chief  Executive  Of- 
+ficer, makes  regular  visits  to  the  stores  to  meet  with 
+associates  and  to  visit  with  customers. 
+
+Wal-Mart  Discount  City  stores  are  a  one-stop  shop- 
+ping center  for  the  entire  family  -  regardless  of  age. 
+
+
+About  Its  Associates 
+
+
+Wal-Mart  cares  deeply  about  its 
+10,000  associates  who  serve  its  cus- 
+tomers throughout  its  nine-state 
+marketing  area.  The  Company  cafes 
+so  much,  in  fact,  it  has  accelerated 
+and  expanded  its  corporate  training 
+program  to  help  make  it  possible  for 
+all  associates  to  achieve  their 
+maximum  potential,  regardless  of 
+job  assignment. 
+
+Training  and  Development 
+
+Following  two  years  of  experience 
+in  operating  its  own  training  de- 
+partment, Wal-Mart  Stores,  Inc.  is 
+expanding  its  commitment  to  the 
+training  and  development  area.  The 
+Company  has  developed,  for  use  in 
+the  field,  a  series  of  audio-visual 
+programs  that  deal  with  key  operat- 
+ing areas  in  the  stores.  In  addition, 
+the  Company  conducted  nine  Office 
+Training  Seminars,  extensive  six- 
+day  training  sessions  for  Assistant 
+Managers  who  show  high  potential 
+for  advancement  to  Store  Manager, 
+
+
+The  annual  picnic  is  a  fun  day  for 
+headquarters-based  associates  and 
+their  famines.  Delicious  food,  enter- 
+tainment, recreation,  and  games  for  all 
+ages  make  this  a  special  Wal-Mart 
+Family  Day. 
+
+
+During  the  past  year,  the  Company 
+inaugurated  a  new  Management 
+Training  Program  designed  for  col- 
+lege trained  individuals.  This  pro- 
+gram involves  sixteen  weeks  of 
+carefully  scheduled  and  monitored 
+assignments  at  store  level.  Follow- 
+ing the  completion  of  the  initial 
+sixteen  weeks,  the  trainees  are  as- 
+signed to  an  entry  level  manage- 
+ment position,  and  their  progress 
+continues  to  be  closety  watched  as 
+they  develop  toward  a  position  in 
+store  management. 
+
+All  associates  are  encouraged  to 
+share  their  suggestions  as  to  how 
+their  jobs  can  be  made  more  mean- 
+ingful and  productive.  Last  year,  a 
+corporate-wide  survey  was  con- 
+ducted among  associates  in  an  ef- 
+fort to  determine  priorities  for  the 
+Company's  Training  Department.  As 
+a  result,  immediate  and  long-range 
+corporate  training  objectives  were 
+established  based  upon  the  ex- 
+pressed needs  of  associates 
+throughout  the  Company. 
+
+Wal-Mart  recognizes  more  fully 
+than  ever  the  critical  role  training 
+and  development  plays  in  enabling 
+the  Company  to  achieve  its  long- 
+range  growth  objectives.  In  1977, 
+
+
+Associates  look  forward  to  a  store  visit 
+from  Sam  M.  Walton,  Wal-Mart's 
+founder 
+
+
+the  Training  Department  staff  will  be 
+increased  to  permit  the  accom- 
+plishment of  an  expanded  schedule 
+of  training  and  development  pro- 
+jects. In  addition,  a  series  of  semi- 
+nars in  Communications  and  Human 
+Relations  will  be  provided  for  Wal- 
+Mart's  headquarters-based  person- 
+nel, which  will  be  a  continuation  of 
+the  program  begun  during  1976. 
+
+
+p  , .  Wal-Mart  Cares 
+
+
+Co-founder  and  Senior  Vice-President, 
+J.  L.  "Bud"  Walton  meets  with  as- 
+sociates before  a  Grand  Opening. 
+
+
+Associate  Benefits 
+
+Wal-Mart  also  cares  about  the 
+quality  of  associates  it  attracls  and 
+retains,  The  Company  has  always 
+generously  rewarded  its  associates 
+by  providing  excellent  wages  and 
+benefits.  In  addition  to  a  competitive 
+salary  structure,  Wal-Mart  provides 
+one  of  the  outstanding  Profit- 
+Sharing  Plans  within  the  industry. 
+Every  associate  becomes  eligible  to 
+participate  tn  the  Plan  after  one  year 
+of  full-time  employment  and  obtains 
+100%  vested  rights  after  seven 
+years  of  service. 
+
+
+Well-trained  computer  specialists  staff 
+the  Data  Processing  Center  around 
+the  clock  to  assure  a  smooth  flow  of 
+communication  between  the  stores 
+and  the  headquarters  in  Bentonville. 
+Arkansas . 
+
+
+Annual  regional  year-end  meetings  are 
+conducted  in  the  field  for  Wal-Mart's 
+store  management  personnel  and 
+their  spouses.  A  series  of  one-day 
+meetings  are  held  each  year  to  review 
+the  past  year's  performance  and  to 
+plan  for  the  new  year. 
+
+
+The  Company  also  provides  its 
+associates  the  opportunity  to  invest 
+in  Wal-Mart's  common  stock  through 
+a  Monthly  Investment  Plan,  Each  as- 
+sociate can  invest  in  the  Plan 
+through  a  monthly  payroll  deduction 
+or  an  annual  lump  sum  purchase  not 
+to  exceed  $1,200,  The  Company 
+adds  15%  to  each  associate's  in- 
+vestment and  pays  the  broker's  fees 
+at  time  of  purchase. 
+
+Because  it  cares,  the  Company 
+provides  its  associates  hospitaliza- 
+tion and  life  insurance  at  no  cost  to 
+them.  Wal-Mart  also  has  a  generous 
+vacation,  holiday,  sick  leave  and 
+associate  disccunt  purchase 
+program. 
+
+Yes,  Wal-Mart  truly  cares  about  its 
+associates  and  is  concerned  about 
+their  job  satisfaction  and  total  well- 
+being.  Wal-Mart's  top  management 
+encourages  open-door  communica- 
+tions at  every  level  within  the  or- 
+ganization, because  they  realize 
+that  the  Company's  past  and  future 
+success  is  in  great  measure  deter- 
+mined by  the  quality,  dedication, 
+loyalty,  and  capability  of  its 
+associates, 
+
+Wal-Mart  Caring  .  ,  .  It  means  a  lot 
+of  things,  and  It's  not  just  an  adver- 
+tising slogan  to  be  splashed  across 
+newspaper  pages  or  baliyhooed  on 
+television.  It  isf  instead,  Wal-Mart's 
+way  of  doing  business. 
+
+
+WaJ-Mart's  President  and  Chief 
+Operating  Officer,  Ferotd  G.  Arend,  is 
+never  too  busy  to  assist  an  associate. 
+
+Wal-Mart's  department  heads  take 
+great  pride  in  their  work.  They  make 
+sure  their  departments  are  welf- 
+presented  and  in  stock  with  quality, 
+name  brand  merchandise. 
+
+
+Wal-Mart  Looks  Toward  The  Future 
+
+
+Research  a  ad 
+Development 
+Committee  Formed 
+
+
+During  1976,  Wal-Mart  Stores, 
+Inc,  named  a  four-member  Research 
+and  Development  Committee,  which 
+will  concern  itself  with  all  areas  af- 
+fecting the  future  of  Wal-Mart's  mass 
+merchandising  programs,  One  of 
+the  areas  will  be  to  anticipate  the 
+trends  of  the  future  in  merchandise 
+selection  and  presentation  based 
+on  projected  needs  during  the  next 
+five  to  ten  years.  The  same  will  be 
+true  of  the  areas  of  operations, 
+warehousing,  administration  and 
+finance. 
+
+Special  emphasis  will  be  placed 
+on  research  for  "test"  prototype 
+stores  including  fixturing,  facilities 
+and  merchandise. 
+
+The  Committee  will  work  with 
+every  division  within  the  Company 
+to  relate  trends  to  possible  corpo- 
+rate policy  adjustments  and  to  re- 
+search retail  trends  and  identify 
+corporate  policy  alternatives.  In  car- 
+rying out  its  objectives,  the  Com- 
+mittee will  survey  the  industry  to 
+predict  future  trends  and  to  make 
+recommendations  to  Wal-Mart's 
+Executive  Committee  For  immediate 
+and  long-term  planning.  It  will  be 
+responsible  for  researching  and 
+recommending  strategies  for  future 
+growth  and  development  throughout 
+the  organization. 
+
+
+Realizing  its  program  live  years 
+from  now  could  include  many  new 
+directions.  Wal-Mart  wants  to  make 
+sure  it  stays  on  target  by  having  a 
+capable  team  within  the  Company 
+to  predict  the  trends  and  develop 
+recommendations  for  changes  and 
+improvements  in  corporate  systems 
+as  the  need  arises.  This  newly  ap- 
+pointed committee  will  serve  an  im- 
+portant role  in  the  Company's  future 
+growth.  Jt  is  chaired  by  Claude  Har- 
+ris, Vice  President,  Research  and 
+Development  Also  serving  on  the 
+Committee  are  Ketth  R.  Binkelman, 
+Vice  President,  Merchandise  Plan- 
+ning; William  R,  Fields,  Import  Di- 
+rector and  Merchandise  Controller: 
+and  George  Donnell,  Director  of  In- 
+surance and  Legal, 
+
+
+The  Research  and  Development 
+Committee  is  a  four-member  team 
+committed  to  careful  study  and  review 
+of  ail  areas  affecting  the  future  of 
+Wai-Mart's  mass  merchandising  pro- 
+gram. Pictured  from  left  to  right  are: 
+George  Donnell,  Director  of  Insurance 
+and  Legal;  Claude  Harris,  Vice  Presi- 
+dent, Research  and  Development; 
+Keith  R,  Binkelman,  Vice  President, 
+Merchandise  Planning;  and  William  R. 
+Fields,  import  Director  and  Merchan- 
+dise Controller, 
+
+
+Wal-Mart  Opens  Record  Number  of  New  Stores 
+
+
+During  fiscal  1977,  twenty-eight 
+new  stores  were  opened,  and  three 
+existing  units  were  expanded  and 
+relocated  for  a  total  of  1, 300,000 
+square  leet  of  additional  store 
+space.  Six  stores  were  opened  in 
+Arkansas.  They  are  located  in  Little 
+Rock,  Malvern,  Ashdown,  Fayet- 
+teville,  Searcy  and  Ft.  Smith.  Six 
+stores  began  operations  in  Okla- 
+homa. They  are  located  in 
+Kingfisher,  Elk  City,  Blackwell,  Still- 
+water, Purcell,  and  Woodward.  Mis- 
+souri and  Texas  each  had  five  new 
+stores  opened  during  the  year.  The 
+Missouri  stores  are  located  in  Un- 
+ion, Rolla,  Chillicothe,  Louisiana, 
+and  De  Soto.  Lufkin.  Clarksvjlle, 
+Gilmer,  Denison,  and  Paris  are  the 
+homes  of  the  new  Wal-Mart  Discount 
+Cities  in  the  state  of  Texas-  Four  new 
+stores  were  opened  in  Mississippi. 
+They  are  located  in  Amory  Aber- 
+deen. New  Albany,  and  West  Point. 
+Other  new  stores  opened  during  the 
+fiscal  year  were  a  unit  in  Humboldt, 
+Tennessee  and  one  in  Benton, 
+Kentucky. 
+
+Completing  the  Company's  ex- 
+pansion program  were  the  stores  in 
+Milan,  Tennessee,  and  Neosho  and 
+West  Plains,  Missouri  which  were 
+expanded  and  relocated  during  the 
+past  year. 
+
+Approximately  30  new  stores  are 
+projected  to  begin  operation  during 
+the  fiscal  year  ending  January  31. 
+1978.  The  record  number  of  new 
+stores  planned  will  be  in  the  Com- 
+pany's nine-state  marketing  area. 
+
+
+Customers  come  from  miies  around  to 
+help  celebrate  the  Grand  Opening  of  a 
+new  Wal-Mart  Discount  City  store. 
+
+
+Wal-Mart  New  Store  Openings  on  Target 
+
+
+ARKANSAS 
+
+KANSAS 
+
+MISSOURI 
+
+OKLAHOMA 
+
+*Ashdown 
+
+Chanute 
+
+Aurora 
+
+Ardmore 
+
+Batesville 
+
+Coffeyville 
+
+Ava 
+
+Bartlesville 
+
+Benton 
+
+Ft.  Scott 
+
+Bolivar 
+
+'Blackwell 
+
+Bentonville  (2) 
+
+Junction  City 
+
+Branson 
+
+Broken  Arrow 
+
+Berryville 
+
+Leavenworth 
+
+Camdenton 
+
+Broken  Bow 
+
+BfytheviUe 
+
+Manhattan 
+
+Cameron 
+
+Chickasha 
+
+Booneville 
+
+Pittsburg 
+
+Carthage 
+
+Claremore 
+
+Brinkley 
+
+'Chillicothe 
+
+*Elk  City 
+
+Clarksville 
+
+Clinton 
+
+Grove 
+
+Conway 
+
+KENTUCKY 
+
+Columbia 
+
+Guthrie 
+
+'Fayetteville  (2) 
+
+Demon 
+Fulton 
+
+Desloge 
+
+Hugo 
+
+Forrest  City 
+
+*De  Soto 
+
+Idabel 
+
+#Ft.  Smith  (2) 
+
+Dexter 
+
+*Kingfisher 
+
+Harrison 
+
+Eldon 
+
+Miami 
+
+Hot  Springs 
+
+Farmington 
+
+Muskogee 
+
+Jacksonville 
+
+LOUISIANA 
+
+Festus 
+
+Okmulgee 
+
+Jonesboro 
+
+Bastrop 
+Minden 
+
+Fulton 
+
+Poteau 
+
+'Little  Rock  (2) 
+
+Harrisonville 
+
+Pry  or 
+
+Magnolia 
+
+Ruston 
+
+Jackson 
+
+'Purcell 
+
+*Malvern 
+
+Vivian 
+
+Jefferson  City 
+
+Sallisaw 
+
+Mena 
+
+Joplin  (2) 
+
+Sapulpa 
+
+Morrilton 
+
+Lebanon 
+
+Seminole 
+
+Mountain  Home  (2) 
+
+Micciccippi 
+
+I V I  lOol  OOl  r  r  1 
+
+'Louisiana 
+
+Shawnee 
+
+Nashville 
+
+Marshfield 
+
+^Stillwater 
+
+Newport 
+
+*Amory 
+
+Mexico 
+
+St  ii  we  II 
+
+North  Little  Rock  (2) 
+
+'Aberdeen 
+
+Moberly 
+
+Tahlequah 
+
+Osceola 
+
+Booneville 
+
+Monett 
+
+Vinita 
+
+Paragould 
+
+Corinth 
+
+Mountain  Grove 
+
+Wagoner 
+
+Pocahontas 
+
+*New  Albany 
+
+"Neosho 
+
+'Woodward 
+
+Rogers  (2) 
+
+Starkville 
+
+Nevada 
+
+Russellville 
+
+'West  Point 
+
+Perryville 
+
+*Searcy 
+
+Poplar  Bluff 
+
+TENNESSEE 
+
+Siloam  Springs 
+
+'Roila 
+
+Brownsville 
+
+Springdale  (2) 
+
+Salem 
+
+Covington 
+
+Stuttgart 
+
+Sikeston 
+
+*Humboidt 
+
+Van  Buren 
+
+Springfield 
+
+Martin 
+
+Walnut  Ridge 
+
+St,  Robert 
+
+"Milan 
+
+West  Memphis 
+
+Sullivan 
+
+Millington 
+
+Wynne 
+
+Troy 
+
+*Union 
+Warrensburg 
+Waynesville 
+
+"West  Plains 
+
+Ripley 
+
+TEXAS 
+
+'Clarksville 
+*  Den i son 
+'Gilmer 
+•Lufkin 
+
+*  — New  Stores  opened  in  fiscal  1977 
+
+Mt.  Pleasant 
+
+**  —  Stores  Relocated 
+
+'Paris 
+
+NEB 
+
+
+Eight-Year  Summary 
+
+
+(Ooffar  amounts  in  thousands  except  for  per  share  data) 
+
+EARNINGS  1977  1976 
+
+Net  sales  $478,807  $340,331 
+
+Leased  department  rentals  and  other  income  —  net  5,393  3,803 
+
+Cost  of  sales  352,669  251,473 
+
+Operating,  selling  and  general 
+
+and  administrative  expenses  97,807  68,105 
+
+Interest  and  debt  expense  1,891  1,758 
+
+Taxes  on  income  15,287  11,292 
+
+Net  income  16,546  1 1,506 
+
+Per  share 
+
+Net  income : 
+
+Primary  $      1,19  $  ,83 
+
+Fully  diluted  1.12  .80 
+
+Dividends  .085  .065 
+
+Stores  in  operation  at  the  end  ot  the  period  153  125 
+
+FINANCIAL  POSITION 
+
+Current  assets  $  99,493  $  76,070 
+
+Net  property,  plant  and  equipment  33,091  23,646 
+
+Total  assets  133,158  100,249 
+
+Current  liabilities  41,929  32,945 
+
+Long-term  debt  23,245  17,531 
+
+Stockholders"  equity  66,183  48.454 
+
+FINANCIAL  RATIOS 
+
+Current  Ratio  2.4  2.3 
+
+Inventories/Net  Working  Capital  1.5  1.5 
+
+Return  on  Assets**  16.5  15,3 
+
+Return  on  Stockholders1  Equity**  34.1  31.2 
+
+"The  company  adopted  the  UFO  method  of  costing  inventories  which  resulted  in  a  reduction  in 
+'*On  beginning  of  year  balances. 
+
+
+Wal-Mart  Stores,  Inc.  and  Subsidiaries 
+
+
+1975 
+
+1974 
+
+1973 
+
+1972 
+
+1971 
+
+1970 
+
+$236,209 
+
+$167,561 
+
+$124,889 
+
+$78,015 
+
+$44,286 
+
+$30,863 
+
+2,478 
+
+1,805 
+
+1,558 
+
+846 
+
+346 
+
+222 
+
+176,591 
+
+123,339 
+
+93,090 
+
+58,592 
+
+32.825 
+
+22,866 
+
+48,088 
+
+33,044 
+
+23,848 
+
+14,285 
+
+8,441 
+
+5,912 
+
+1.800 
+
+1,099 
+
+592 
+
+415 
+
+195 
+
+108 
+
+5,855 
+
+5,725 
+
+4,326 
+
+2,662 
+
+1.519 
+
+960 
+
+6.353* 
+
+6,159 
+
+4,591 
+
+2,907 
+
+1,652 
+
+1,011 
+
+$  ,48* 
+
+$  .47 
+
+$  .35 
+
+$  ,24 
+
+$  .15 
+
+$  .11 
+
+,48* 
+
+.47 
+
+.35 
+
+,24 
+
+.15 
+
+.11 
+
+,05 
+
+.025 
+
+104 
+
+78 
+
+64 
+
+51 
+
+38 
+
+32 
+
+$  55,860 
+
+$  45,254 
+
+$  32,787 
+
+$21 ,069 
+
+$12,150 
+
+$  6,703 
+
+19,157 
+
+14,657 
+
+13,233 
+
+7,080 
+
+3,080 
+
+1.678 
+
+75T221 
+
+60,106 
+
+46,241 
+
+28,463 
+
+15,331 
+
+8.493 
+
+26,190 
+
+18,122 
+
+15,990 
+
+12,806 
+
+6,513 
+
+3,872 
+
+11,132 
+
+10,578 
+
+5,066 
+
+4,659 
+
+809 
+
+1,328 
+
+36,935 
+
+30,734 
+
+24,754 
+
+10,748 
+
+7,841 
+
+3,159 
+
+2.1 
+
+2.5 
+
+2.1 
+
+1.7 
+
+1.9 
+
+17 
+
+1.7 
+
+1.5 
+
+1.8 
+
+2,2 
+
+1.9 
+
+2.0 
+
+10.6 
+
+13.3 
+
+16.1 
+
+19.0 
+
+19.5 
+
+20.7 
+
+20.6 
+
+24.9 
+
+42.8 
+
+37.1 
+
+52.3 
+
+49.4 
+
+net  income  of  $2,347,000  or  $.18  per  share. 
+
+
+Management's  Analysis  of  Summary  of  Earnings 
+
+
+Year  Ended  January  31,  1977 
+
+The  sales  for  the  year  increased  41%  in  comparison 
+with  last  year.  This  was  particularly  significant  consid- 
+ering the  44%  increase  in  1976  over  1975-  Our  expan- 
+sion program  of  28  new  stores  contributed  17%  of  the 
+41%  increase,  stores  opened  last  year  7%,  and  the 
+remaining  17%  increase  was  contributed  by  stores 
+opened  prior  to  January  31,  1975.  Leased  depart- 
+ments sales  increases  were  consistent  with  those 
+achieved  in  Wal-Mart's  owned  sales. 
+
+Gross  margins  increased  to  26.3%  of  sales  in  1977 
+as  compared  with  26.1%  in  1976.  The  moderate  in- 
+crease in  gross  is  primarily  attributable  to  an  im- 
+provement in  shrinkage  control  through  greater 
+utilization  of  our  Interna!  Audit  and  Security  and  Loss 
+Prevention  Departments, 
+
+Operating,  selling  and  general  and  administrative 
+expense  increased  44%  and  were  20.4%  of  sales  as 
+compared  to  20.0%  in  1976.  Salary  expense  increased 
+from  11*1%  to  11.4%  due  primarily  to  an  improvement 
+in  the  average  wage  rate  and  the  Company's  decision 
+to  increase  personnel  in  our  stores  to  improve  the 
+quality  of  service.  Net  advertising  costs  decreased 
+from  1.3%  to  1.1%  mainly  through  a  concentrated  ef- 
+fort to  increase  cooperative  advertising.  This  year  we 
+started  an  Energy  Conservation  Program  in  all  areas 
+of  the  Company.  While  this  program  was  not  in  effect 
+for  the  entire  year,  utility  expenses  were  reduced  .1% 
+over  the  previous  year  by  reducing  the  peak  demand 
+and  kilowatt  hour  usage.  Maintenance  and  Repair  in- 
+creased .1%  over  last  year  because  of  a  planned  pro- 
+gram to  revamp  the  electrical  and  air  conditioning 
+systems  in  our  stores.  Insurance  also  increased  .3%  to 
+.7%  and  was  generally  due  to  higher  premium  rates  in 
+general  liability  and  group  hospitalization.  Total  rent 
+expense  was  2.4%  in  1977  and  1976.  Rent  expense 
+includes  buildings,  data  processing  and  transporta- 
+tion equipment 
+
+Taxes  on  income  in  1977  increased  over  those  for 
+1976  due  to  the  increase  in  income  before  taxes. 
+Taxes  on  income  as  a  percentage  of  income  before 
+taxes  decreased  slightly  over  those  for  1976  due  to  an 
+increase  in  investment  tax  credit. 
+
+
+Year  ended  January  31 .  1976 
+
+During  1976,  Wal-Mart  continued  an  aggressive 
+sales  promotion  program  which.combined  with  favor- 
+able economic  trends  and  our  planned  expansion 
+program,  resulted  in  a 44%  increase  in  sales  over  1975. 
+The  21  new  stores  (968,436  square  feet)  opened  this 
+year  accounted  for  18%  of  the  increase,  while  the  26 
+stores  opened  in  fiscal  1975  accounted  for  1 1%  of  the 
+increase  and  the  remaining  15%  of  the  increase  was 
+contributed  by  stores  opened  prior  to  January  31 , 
+
+1974.  Cost  of  sales  increased  42%  and  gross  margins 
+increased  to  26.1%  of  sales  in  1976,  compared  with 
+gross  margins  of  25.2%  in  1975.  The  Company  was 
+able  to  increase  initial  markup  through  vofume  pur- 
+chasing, improved  distribution  systems,  and  refine- 
+ment of  our  merchandise  mix,  Although  the  increase 
+was  slightly  more  than  offset  by  increased  markdowns 
+and  shrinkage,  gross  margin  increased  after  LIFO  ad- 
+justments in  1976. 
+
+Leased  department  safes  and  rentals  increased  in 
+proportion  to  Company  sales.  The  increase  in  leased 
+department  rentals  and  other  income  from  1.05%  of 
+sales  in  1975  to  1.12%  of  sales  in  1976  is  due  to  in- 
+creases in  interest  income  and  gain  on  sale  of  land. 
+
+Operating,  selling  and  general  and  administrative 
+expenses  increased  41%  and  amounted  to  20.0%  of 
+sales  compared  to  20.4%  in  1975.  Salaries  and  wages 
+were  the  same  percent  of  sales  in  both  years.  Advertis- 
+ing expense  was  1.3%  in  1976  compared  to  1.4%  in 
+
+1975.  Total  rent  which  includes  building,  data  process- 
+ing and  transportation  equipment  rentafs  was  2,4%  in 
+both  1976  and  1975.  Building  rentals  decreased  to 
+1.6%  from  1.9%  in  1975  as  a  result  of  increased  sales 
+volume. 
+
+Interest  and  debt  expense  decreased  in  1976  be- 
+cause of  improved  cash  flow  generated  through  in- 
+ventory control  resulting  in  lower  average  borrowings 
+combined  with  lower  interest  rates  on  borrowings. 
+
+Taxes  on  income  in  1976  increased  over  those  for 
+1975  due  to  the  increase  in  income  before  taxes. 
+Taxes  on  income  as  a  percentage  of  income  before 
+taxes  increased  sfightly  over  those  for  1975. 
+
+
+Wat-Mart  Stores,  Inc.  and  Subsidiaries 
+
+
+Consolidated  Statement  of  Income  and  Retained  Earnings 
+
+
+Years  ended  January  31, 
+
+
+Number  of  stores  in  operation  at  the 
+end  of  the  year  
+
+
+Revenues: 
+
+Net  sales  ,  
+
+Rentals  from  leased  departments  (Note  5) 
+Other  income  —  net  
+
+
+Costs  and  expenses: 
+
+Cost  of  sales  
+
+Operating,  selling  and  general  and 
+
+administrative  expenses 
+Interest  and  debt  expense   , 
+
+
+Income  before  income  taxes 
+
+
+Provision  for  federal  and  state  Income  taxes  (Note  6} 
+
+Current  
+
+Deferred   
+
+
+Net  income   
+
+Retained  earnings,  beginning  of  year 
+
+
+Dividends  paid  (1977  —$.085  per  share; 
+1976  —  $.065  per  share)  . ,  
+
+Retained  earnings,  end  of  year  (Note  3) 
+
+
+Net  income  per  share: 
+
+Primary  
+
+Fully  diluted   
+
+
+1977 
+
+
+153 
+
+
+$478,807,000 
+3.670,000 
+1,723,000 
+
+484,200,000 
+
+
+352,669,000 
+
+97,807,000 
+1,891,000 
+
+452,367,000 
+
+
+31,833,000 
+
+
+14,805,000 
+482,000 
+
+15,287,000 
+
+
+16,546,000 
+32,873,000 
+
+49,419,000 
+
+
+1,150,000 
+$  48,269,000 
+
+
+$1,19 
+1.12 
+
+
+1976 
+
+
+125 
+
+
+$340,331,000 
+2,620,000 
+1,183,000 
+344,134,000 
+
+
+251,473.000 
+
+68,105,000 
+1,758,000 
+321,336,000 
+
+
+22, 798,000 
+
+
+10,937(000 
+355.000 
+11,292,000 
+
+
+11,506,000 
+22,235,000 
+
+33,741,000 
+
+
+868,000 
+$  32,873,000 
+
+
+$.83 
+.80 
+
+
+See  accompanying  notes. 
+
+
+Consolidated  Balance  Sheet 
+
+
+ASSETS 
+
+January  31, 
+
+furrpnt  □  c c p| c  ■ 
+
+1977 
+
+1976 
+
+Ha^h 
+
+$  6,094,000 
+
+$  1,527,000 
+
+Short-term  money  market  investments 
+
+1,069,000 
+
+6,860,000 
+
+Receivables   ,  
+
+2,708,000 
+
+2,576,000 
+
+Inventories  (Note  2)   
+
+88,815,000 
+
+64,371,000 
+
+Prepaid  expenses   
+
+807,000 
+
+736,000 
+
+TOTAL  CURRENT  ASSETS   
+
+99,493,000 
+
+76,070,000 
+
+Property,  plant  and  equipment,  at  cost  (Note  3): 
+
+Land  
+
+2,308,000 
+
+2,520,000 
+
+Buildings  and  improvements  
+
+11,227,000 
+
+8,381,000 
+
+Fixtures  and  equipment   
+
+23,916,000 
+
+18,446,000 
+
+Transportation  equipment  
+
+4,717,000 
+
+394,000 
+
+42,168,000 
+
+29,741,000 
+
+Less  accumulated  depreciation   
+
+9,077,000 
+
+6,095,000 
+
+Net  ofooprtv  olant  and  enuinmpnt 
+
+33,091,000 
+
+23,646,000 
+
+Other  f)^*£6l^E  and  deferred  rharaAc 
+
+574,000 
+
+533,000 
+
+$133,158,000 
+
+$100,249,000 
+
+LIABILITIES  AND  STOCKHOLDERS'  EQUITY 
+
+January  31, 
+
+f*i irra nt  liul*ilitlA»- 
+
+WUTrem  llaDIMlieS. 
+
+1977 
+
+1976 
+
+Notes  payable   ,  
+
+$  - 
+
+$  2,470,000 
+
+Accounts  payable   
+
+26,054,000 
+
+17,750,000 
+
+Accrued  liabilities: 
+
+Salaries  
+
+3,463,000 
+
+3,637,000 
+
+Taxes,  other  than  income  ... ,  
+
+2,049,000 
+
+1,480,000 
+
+Other   
+
+2,826,000 
+
+1,443,000 
+
+Accrued  federal  and  state  income  taxes  (Note  6)   
+
+4,341,000 
+
+5,662,000 
+
+Long-term  debt  due  within  one  year  (Note  3)   
+
+1,196,000 
+
+503,000 
+
+TOTAL  CURRENT  LIABILITIES  
+
+41,929,000 
+
+32,945,000 
+
+Long-term  debt  (Note  3)  
+
+23,245,000 
+
+17,531,000 
+
+1,801,000 
+
+1.319.000 
+
+nnmrnitmpn1<i  fMntA  7\ 
+
+Stockholders'  equity  (Notes  3  and  4)*   
+
+Preferred  stock,  $.10  par;  1r000,000  shares 
+
+authorized,  none  issued   
+
+Common  stock,  $.10  par;  20,000,000  shares 
+
+authorized,  13,649,829  shares  outstanding 
+
+(1976  —  13,418,063  shares)  
+
+1,365,000 
+
+1,342,000 
+
+Capital  in  excess  of  par  value  
+
+16,549,000 
+
+14.239,000 
+
+Retained  earnings  (Note  3)  . . ,  
+
+48,269,000 
+
+32.873,000 
+
+TOTAL  STOCKHOLDERS'  EQUITY   
+
+66,183,000 
+
+48,454,000 
+
+$133,158,000 
+
+$100,249,000 
+
+See  accompanying  notes- 
+
+Wal-Mart  Stores,  Inc.  and  Subsidiaries 
+
+
+Consolidated  Statement  of  Changes  in  Financial  Position 
+
+
+Source  of  funds: 
+
+Current  operations: 
+
+Net  income  
+
+Items  not  affecting  working  capital 
+in  the  current  period: 
+
+Depreciation  
+
+Amortization  of  deferred  charges  
+
+Deferred  income  tax  
+
+Total  from  current  operations  . . ,  ,  
+
+Retirement  of  property,  plant  and  equipment  
+
+Property  sold  under  sale  and  leaseback  arrangements 
+Net  proceeds  from  exercise  of  options 
+
+for  common  stock  and  conversion  of  debentures . 
+Additions  to  long-term  debt  
+
+Application  of  funds: 
+
+Additions  to  property,  plant  and  equipment  . ,  
+
+Property  additions  acquired,  subject 
+
+to  sale  and  leaseback  arrangements  
+
+Reduction  in  long-term  debt,  including  changes  in 
+
+current  maturities  and  conversion  of  debentures. . 
+
+Dividends  paid  
+
+Additions  to  other  assets  and  deferred  charges   
+
+Increase  in  working  capital   .  ,  
+
+Changes  In  components  of  working  capital: 
+
+Increase  (decrease)  in  current  assets: 
+
+Cash   
+
+Short-term  money  market  investments  
+
+Receivables  
+
+Inventories  , 
+
+Prepaid  expenses  
+
+Increase  (decrease)  in  current  liabilities: 
+
+Notes  payable  ,  
+
+Accounts  payable  
+
+Accrued  liabilities: 
+
+Salaries  
+
+Taxes,  other  than  income   
+
+Other  
+
+Accrued  federal  and  state  income  taxes   
+
+Long-term  debt  due  within  one  year  
+
+Increase  In  working  capital  
+
+See  accompanying  notes. 
+
+
+Years  ended  January  31 . 
+
+1976 
+
+
+1977 
+
+
+$16,546,000 
+
+
+3,210,000 
+61,000 
+462,000 
+
+20,299,000 
+539,000 
+4,634,000 
+
+2,333,000 
+9,227,000 
+
+37,032,000 
+14,201,000 
+
+3,627,000 
+
+3,513,000 
+1,150,000 
+102,000 
+
+22,593,000 
+
+$14,439,000 
+
+
+$  4,567,000 
+(5,791,000) 
+132,000 
+24,444,000 
+71,000 
+
+23,423,000 
+
+(2,470,000) 
+10,304,000 
+
+(174,000) 
+569,000 
+1,383,000 
+(1, 321 ,000) 
+693,000 
+
+8,984,000 
+
+$14,439,000 
+
+
+$11,506,000 
+
+
+2,075,000 
+35,000 
+355,000 
+
+13,971,000 
+99,000 
+1,619.000 
+
+881,000 
+15,303,000 
+31,873,000 
+
+5,300,000 
+
+2,982,000 
+
+8,904,000 
+868,000 
+364,000 
+
+18,418,000 
+
+$13,455,000 
+
+
+$  (1,648,000) 
+6,860,000 
+1,169,000 
+13,789,000 
+40,000 
+
+20,210,000 
+
+(2,000,000) 
+3,660,000 
+
+1,427,000 
+475,000 
+495,000 
+
+4,235,000 
+(1,537,000) 
+
+6,755,000 
+$13,455,000 
+
+
+Notes  to  Consolidated  Financial  Statements 
+
+
+tlve  expenses  —  Buying,  warehousing  and  occu- 
+
+Notel  -  Accounting  policies  panc*  costs  are  '"eluded  in  operating,  selling  and 
+
+general  and  administrative  expenses. 
+
+Consolidation  —  The  consolidated  financial  state- 
+ments include  the  accounts  of  all  subsidiaries.  Stock  options  —  Proceeds  from  the  sale  of  com- 
+mon stock  issued  under  stock  option  plans  are  ac- 
+
+Inventorles  -  Inventories  are  stated  at  cost  (last-in,  counted  for  as  capita|  factions  and  no  charges  or 
+
+first-out),  which  is  not  in  excess  of  market,  using  the  credjts  are  made  to  jncome  jp  connection  with  the 
+
+retail  method  for  inventories  in  stores.  plans 
+
+Pre-opening  costs  —  Costs  associated  with  the 
+
+opening  of  new  stores  are  expensed  during  the  first  Note  2  —  Inventories 
+
+month  of  operations.  The  costs  are  carried  as  prepaid  Inventories  at  January  31  consist  of: 
+
+expenses  prior  to  the  store  opening.  ig77  1976 
+
+Interest  during  construction  —  In  order  that  inter-      stores  in  operation     $79,230,000  $57,371,000 
+
+est  and  debt  expense  properly  reflect  only  that  relat-  Distribution  centers   18,708,000  12.O8O.ooo 
+
+ing  to  current  operations,  interest  on  borrowed  funds  New  stores  not  opened  if467,0oo  2,001,000 
+
+during  the  construction  of  property,  plant  and  equip-  99.405,000  71,452,000 
+
+ment  is  capitalized  and  subsequently  amortized  by  Reduction  to  ufo  cost    10,590,000  7,031,000 
+
+charges  to  earnings  over  the  depreciable  life  of  the  $88,815,000  $54,371,000 
+
+related  asset.  Interest  and  debt  expense  and  interest  Note  3  —  Long-term  debt 
+
+capitalized  during  construction  exclude  amounts  re-  . 
+
+•  j    1  1              T.                  .    .       .         1         1  Long-term  debt  at  January  31  consists  of: 
+
+lated  to  properties  constructed  under  sale  and  3 
+
+leaseback  transactions,  which  amounts  are  recovered  y^71  1976 
+
+on  Sale  Of  property.  61/z%  convertible  subordinated 
+
+debentures,  due  1995    $12,682,000  $14,370,000 
+
+Depreciation  —  Depreciation  for  financial  state-  gy4%  mortgage  note,  payable 
+
+ment  purposes,  is  provided  on  the  straight-line  $68,822  quarterly  (including 
+
+method  over  the  estimated  useful  lives  of  the  various  interest)  to  June.  1992    2,187,000  2,256.000 
+
+assets.  For  income  tax  purposes,  accelerated  depre-  9%  mortgage  note  payable  $35,499 
+
+4    .      ,                              rmmM        ,  ,  ,        ,  .  monthly  including  interest 
+
+ciation  is  used  with  recognition  of  deferred  income  toJuiy  1991  3322000  — 
+
+taxes  for  the  resulting  timing  differences.  Capitalized  leases    4io67!ooo  - 
+
+Net  income  per  share  —  Primary  net  income  per  9*4%  notes-  Payable  siso.ooo 
+
+i_              .         .              .   .  .    ,                           A_       _  annualfy  (plus  interest)  to 
+
+share  is  based  on  weighted  average  outstanding        ApriM9y6^  \   s09000  689000 
+
+shares  and  stock  options  reduced  by  shares  assumed      other   _   458.000  216,000 
+
+to  have  been  purchased  with  proceeds  from  such  op-  $23  245  000     $17  531  000 
+
+tions  under  the  treasury  stock  method.  -  ~= 
+
+Fully  diluted  net  income  per  share  gives  effect  to 
+more  dilutive  market  prices  in  calculations  under  the 
+treasury  stock  method  and  further  assumes  the  con- 
+version of  convertible  subordinated  debentures  as  if 
+converted  at  the  beginning  of  the  period  after  giving 
+effect  to  the  elimination  of  interest  expense,  less  in- 
+come tax  effect,  applicable  to  the  debentures. 
+
+
+Wal-Mart  Stores,  /no.  and  Subsidiaries 
+
+
+Annual  maturities  on  long-term  debt  during  the  next 
+five  years  are:  1978  —$1,196,000;  1979  —  $1T233,000; 
+1980  -  $1,055,000;  1981  —  $870,000;  and  1982  — 
+$737r000. 
+
+The  convertible  subordinated  debentures  are  con- 
+vertible into  common  stock  at  a  rate  of  93  shares  per 
+$1,000,  subject  to  adjustments  on  the  occurrence  of 
+certain  events.  The  debentures  are  redeemable  at  the 
+Company's  option  at  any  time  with  a  minimum  pay- 
+ment equal  to  106Vi%  of  the  principal,  and  require 
+sinking  fund  payments  beginning  on  June  1,  1986. 
+Aggregate  debentures  of  $1,688,000  were  converted 
+into  157,01 1  shares  of  common  stock  during  the  year. 
+
+The  agreement  relating  to  the  93A%  notes  includes 
+certain  restrictions  on  dividends,  additional  debts  and 
+leases,  and  sale  of  assets  and  contains  covenants 
+concerning  working  capital.  The  agreement  relating 
+to  the  91A%  mortgage  notes  of  a  subsidiary,  which  are 
+guaranteed  by  Wal-Mart  Stores,  Inc.  contains  certain 
+restrictions  on  the  subsidiary  concerning  additional 
+debt,  business  activities,  investments  and  issuance  of 
+its  capital  stock  and  requires  rental  payments  by 
+Wal-Mart  Stores,  Inc.,  on  certain  buildings  leased 
+from  the  subsidiary  in  amounts  equal  to  aggregate 
+note  and  interest  payments. 
+
+Under  the  most  restrictive  of  the  above  agreements, 
+retained  earnings  of  $27,241,000  were  restricted  at 
+January  31,  1977. 
+
+Capitalized  leases  include  $2,284,000  applicable  to 
+stores  with  a  term  extending  to  1990  and  $1,803,000 
+applicable  to  tractors  and  traiiers  with  a  term  extend- 
+ing to  1983,  The  Company  has  guaranteed  the  obliga- 
+tions of  the  lessors  relating  to  the  leased  property  and 
+the  leases  have  been  pledged  to  secure  the  obliga- 
+tions. Interest  implicit  in  the  store  lease  is  8Vz%  and  in 
+the  tractor  and  trailer  lease  is  at  prime  plus  Y2%. 
+
+Note  4  —  Stockholders1  equity 
+
+At  January  31,  1977,  2,305,515  shares  of  common 
+stock  were  reserved,  including  200,620  shares  for  is- 
+suance under  the  Company's  qualified  stock  option 
+plan  for  employees,  925,162  shares  for  issuance 
+under  the  nonqualified  stock  option  plan,  and 
+1,179,733  shares  for  the  conversion  of  convertible 
+subordinated  debentures.  The  options  under  the  qual- 
+ified stock  option  plan  expire  five  years  from  date  of 
+grant  and  may  be  exercised  in  four  annual  install- 
+ments. The  options  granted  under  the  nonqualified 
+
+
+stock  option  plan  expire  ten  years  from  date  of  grant 
+and  may  be  exercised  in  nine  annual  installments. 
+Capital  in  excess  of  par  value  increased  during  the 
+year  by  $2,310,000  which  includes  increases  of 
+$1,672,000  from  conversion  of  debentures,  $325,000 
+from  exercise  of  stock  options,  and  $313,000  relating 
+to  the  tax  benefit  resulting  from  certain  stock  option 
+transactions. 
+
+Further  information  concerning  the  options  is  as 
+follows: 
+
+Option  price 
+(Market  price 
+at  date  of  grant) 
+
+
+Per  share 
+
+
+Total 
+
+
+$  4.188-S14.25  $  3,814,502 
+
+$11,875  $14.50  2,424,475 
+
+$  4.188-$14.25  0,301,530) 
+
+$  4.188-$10.50  {331,830) 
+
+
+$4,605,617 
+
+
+Shares 
+
+Shares  under  option: 
+
+January  31,  1976  831,237 
+
+Options  granted  182,500 
+
+Options  cancelled  (291 ,652) 
+
+Options  exercised  (74,755} 
+
+January  31t  1977 
+(77,160  shares 
+
+exercisable)  647,330 
+
+Shares  available 
+for  option; 
+
+January  31,  1976  369.300 
+
+January  31,  1977  478,452 
+
+
+Note  5  —  Leased  department  sales 
+
+The  sales  of  leased  departments  as  reported  by  les- 
+sees are  $39,202,000  and  $28,407,000  for  1977  and 
+1976,  respectively. 
+
+Note  6  —  Income  taxes 
+
+The  provision  for  income  taxes  consists  of  the 
+following; 
+
+
+1977 
+
+Current: 
+
+Federal   ,   $13,378,000 
+
+State   1,427,000 
+
+Deferred: 
+Relating  to  difference  in  fax 
+and  financial 
+
+depreciation  methods    4S2.000 
+
+$15,287,000 
+
+
+1976 
+
+$  9,924,000 
+1,013.000 
+
+
+355.000 
+$11,292,000 
+
+
+Investment  tax  credits  are  accounted  for  under  the 
+flow-through  method  and  have  resulted  in  reductions 
+of  the  current  federal  income  tax  provisions  for  1977 
+and  1976  of  $1,113,000  and  $475,000,  respectively. 
+
+
+Note  7  —  Long-term  lease  commitments 
+
+The  Company  and  certain  of  its  subsidiaries  have 
+leases  for  stores.  Rentals  (including  for  certain  leases, 
+amounts  applicable  to  taxes,  insurance,  maintenance 
+and  other  operating  expenses  and  excluding 
+capitalized  leases)  under  all  leases  were  $10,019,000 
+in  1977  and  $7,668,000  in  1976,  Rentals  on  non- 
+capitalized financing  leases  (as  defined  by  the  Securi- 
+ties and  Exchange  Commission)  were  $5,426,000  in 
+1977  and  $4,360,000  in  1976. 
+
+The  present  value  of  minimum  rentals  of  all  leases 
+was  $65,804,000  at  January  31,  1977,  and  $53,319,000 
+at  January  31,  1976,  including  amounts  applicable  to 
+noncapitalized  financing  leases  of  stores  of 
+$54,259,000  at  January  31,  1977,  and  $38,416,000  at 
+January  31T  1976.  and  other  noncapitalized  financing 
+leases  of  $2,868,000  at  January  31.  1976.  In  the  year 
+ended  January  31 . 1977,  leases  which  were  previously 
+classified  as  other  noncapitalized  financing  leases 
+were  cancelled  and  the  substituted  lease  was 
+capitalized. 
+
+The  weighted  average  interest  rate  used  in  dis- 
+counting the  financing  leases  was  9.45%  in  1977  and 
+the  rates  ranged  from  8%  to  12,6%.  If  all  financing 
+leases  had  been  capitalized  and  amortized  on  a 
+straight-line  basis  and  interest  accrued  on  the  basis  of 
+the  outstanding  liability,  the  effect  on  net  income 
+would  have  been  a  decrease  of  approximately 
+$702,000  in  1977  and  $515,000  in  1976.  Such  calcula- 
+tions, which  give  effect  to  related  income  tax,  include 
+interest  expense  of  $4,472,000  and  $3,072,000  and 
+amortization  expenses  of  $2,399,000  and  $2,308,000 
+in  1977  and  1976,  respectively. 
+
+
+Aggregate  minimum  annual  rentals  at  January  31, 
+1977  under  noncancefable  leases  for  1978  through 
+2002  are  as  follows: 
+
+
+Financing  All 
+
+Leases  Leases 
+
+1978                                            $    6.585.000  $  8,536,000 
+
+1979                                                  6,585.000  8,374,000 
+
+1980   .                                 6,585,000  8,345,000 
+
+1981                                                   6,585,000  8,300,000 
+
+1 982                                              6,585,000  0,266,000 
+
+1983/1987                                        32,909.000  39,768.000 
+
+1988/1992                                      32,432,000  33,999,000 
+
+1993/1397                                        21,914,000  22.025,000 
+
+1998/2002   ,                   2,852.000  2.852.000 
+
+$123,032,000  S1 40.465.000 
+
+
+Certain  of  the  leases  provide  for  additional  renials 
+based  on  percentage  of  sales.  Such  additional  rentals 
+amounted  to  $546,000  in  1977  and  $289,000  in  1976. 
+
+Substantially  all  of  the  store  leases  have  renewal 
+options  for  additional  terms  from  five  to  filteen  years 
+at  the  same  or  lower  minimum  rentals.  In  addition,  the 
+Company  has  entered  into  lease  agreements  for  land 
+or  buildings  for  26  future  stores  at  aggregate 
+minimum  annual  rentals  of  $2,087,000. 
+
+Note  8  — Quarterly  financial  data  (Unaudited) 
+
+Summarized  quarterly  financial  data  (thousands 
+except  per  share  amounts)  for  1977  are  as  follows: 
+
+Quarter  Ended 
+
+ April  30     July  31      Oct.  31      Jan.  31 
+
+Net  sales  $93,971     $115,186    $121,875  $147,775 
+
+Cost  and  expenses  89.174  109H626  115,720  137,647 
+Nat  income  2.925         3h509        3,877  6,235 
+
+Net  income  per  share: 
+Primary  $      .21     $      .25   $       .28  $  .45 
+
+Fully  diluted  .20  .24  .26  ,42 
+
+
+Wal-Mart  Stores,  Inc.  and  Subsidiaries 
+
+
+Report  of  Certified  Public  Accountants 
+
+
+The  Board  of  Directors  and  Stockholders 
+Wal-Mart  Stores,  inc. 
+
+We  have  examined  the  accompanying  consolidated 
+balance  sheet  of  Wat-Mart  Stores,  Inc.  and  sub- 
+sidiaries at  January  31 ,  1 977  and  1 976  and  the  related 
+consolidated  statements  of  income  and  retained  earn- 
+ings and  changes  in  financial  position  for  the  years 
+then  ended.  Our  examination  was  made  in  accor- 
+dance with  generally  accepted  auditing  standards, 
+and  accordingly  included  such  tests  of  the  account- 
+ing records  and  such  other  auditing  procedures  as  we 
+considered  necessary  in  the  circumstances. 
+
+
+In  our  opinion,  the  statements  mentioned  above 
+present  fairly  the  consolidated  financial  position  of 
+Wal-Mart  Stores,  Inc.  and  subsidiaries  at  January  31 , 
+1977  and  1976  and  the  consolidated  results  of  opera- 
+tions and  changes  in  financial  position  for  the  years 
+then  ended,  in  conformity  with  generally  accepted  ac- 
+counting principles  applied  on  a  consistent  basis  dur- 
+ing the  period. 
+
+Tulsa,  Oklahoma  Arthur  Young  &  Company 
+
+April  1,  1977 
+
+
+Dividends  Paid 
+
+Year  ended  January  31 
+
+
+Quarterly 
+1977 
+
+$.02  April  6,  1976 
+.02  July  12,  1976 
+.02  October  5.  1976 
+.025  January  4,  1977 
+
+
+Quarterly 
+1976 
+
+$.015  April  4,  1975 
+.015  July  1,  1975 
+.015  October  3,  1975 
+,02    January  2,  1976 
+
+
+Market  Price  of  Common  Stock 
+
+Year  ended  January  31 
+
+
+1977 
+
+
+Quarter      High  Low 
+
+1st  $17,375  $13.00 
+
+2nd        15.125  11.50 
+
+3rd         16,00  12.125 
+
+4th         16.75  13.75 
+
+
+1976 
+
+
+High  Low 
+
+$10.3125  $  7.00 
+
+13.1875  8.50 
+
+15.125  11.375 
+
+15.75  12-625 
+
+
+Wal-Mart 
+Stores,  Inc. 
+
+Directors 
+
+
+and  Officers 
+
+
+Theo  Ashe  raft 
+
+Vice  President 
+Leased  Departments 
+
+
+David  0.  Glass 
+
+Executive  Vice  President 
+Finance 
+
+
+Jack  Shewmaker 
+
+Executive  Vice  President 
+Operations,  Personnel 
+and  Merchandise 
+
+
+'3am  M.  Walton 
+
+Director 
+Chairman  and 
+Chief  Executive  Officer 
+
+
+Keith  R.  BlnkeJman 
+
+Vice  President 
+Merchandise  Planning 
+
+
+Claude  Harris 
+
+Vice  President 
+Research  and  Development 
+
+
+Harold  Smith 
+
+Vice  President 
+General  Merchandise  Manager 
+of  Softlines 
+
+
+"Ferold  G.  A  rend 
+
+Director 
+President  and  Chief 
+Operating  Officer 
+
+
+Daniel  L.  Davles 
+
+Assistant  Controller 
+
+
+John  Hawks 
+
+Vice  President 
+Central  Region 
+
+
+R.  B.  Thornton 
+
+Vice  President 
+Distribution 
+
+
+'J.  L.  Walton 
+
+Director 
+Senior  Vice  President 
+
+
+Ruby  Norman  Davtes 
+
+Assistant  Controller 
+
+
+Bette  Hendrix 
+
+Assistant  Secretary 
+
+
+Jamas  A.  von  Gremp 
+
+Assistant  Controller 
+
+
+'Member  of  the  Executive  Committee  of  the  Board  of  Directors. 
+
+
+James  H.  Jones 
+
+Director 
+Banking  and  Investments 
+
+
+M.  I.  Diliard 
+
+Vice  President 
+Southern  Region 
+
+
+Thomas  Jefferson 
+
+vice  President 
+Northern  Region 
+
+
+Jackson  T.  Stephens 
+
+Director 
+President.  Stephens  Inc. 
+Little  Rock.  Arkansas 
+
+
+Kenneth  Folkerts 
+
+Vice  President  and 
+Treasurer 
+
+
+David  N.  McClanahan 
+
+Vice  President 
+General  Merchandise  Manager 
+of  Hardltnes 
+
+
+S.  Robson  Walton 
+
+Secretary  and  General  Counsel 
+Partner -Conner,  Winters, 
+Ballaine,  Barry  &  McGowen 
+Tulsa,  Oklahoma 
+
+
+Joseph  M.  White 
+
+Vice  President 
+Store  Planning 
+
+
+COUNSEL 
+
+Conner,  Winters,  Ballaine, 
+Barry  &  McGowen 
+2400  First  National  Tower 
+TulsaT  Oklahoma  74103 
+
+REGISTRAR  &  TRANSFER  AGENT 
+
+Registrar  &  Transfer  Company 
+
+34  Exchange  Place 
+
+Jersey  City  New  Jersey  07302 
+
+CERTIFIED  PUBLIC  ACCOUNTANTS 
+
+Arthur  Young  &  Company 
+1500  First  Place 
+Tulsa,  Oklahoma  74103 
+
+GENERAL  OFFICE 
+
+RO.  Box  116 
+
+Bentonville,  Arkansas  72712 
+501-273-7741 
+
+ANNUAL  MEETING 
+
+June  10,  1977  —  11  A.M. 
+General  Office 
+702  SW  8th  Street 
+Bentonville,  Arkansas  72712 
+
+
+FORM  1  OK 
+
+A  copy  of  the  Company's  annual  re- 
+port on  Form  10-K.  as  filed  with  the 
+Securities  and  Exchange  Commission, 
+will  be  furnished  without  charge  to  any 
+shareholder  upon  written  request  to 
+the  Treasurer,  Wal-Mart  Stores,  Inc., 
+RO.  Box  116,  Bentonville,  Arkansas 
+72712. 
+
+
+The  Common  Stock  of 
+Wal-Mart  Stores,  Inc. 
+is  traded  on  the 
+New  York  Stock  Exchange 
+Symbol:  WMT 
+
+

@@ -265,7 +265,9 @@ different dates — they are not in conflict with each other and must not be rec
 > entry originally carried read: "The original S-1's 1996-01-01 phrasing should be *added* **as
 > corroboration**, not substituted." **That instruction is withdrawn and replaced.** It is the standing
 > cause of the same-lineage double count that AUDIT 5 raised as A-B1 and that AUDIT 6 confirmed still
-> landing: five downstream sites wrote "independent corroboration" because this register told them to.
+> landing: five downstream sites counted the original S-1 as corroborating its own amendments because this
+> register instructed them to (`stage_1.md` header and §R Employees; `stage_1.md` §P42; `quantitative.csv`
+> L74; `context_appendices.md` §I) — all five demoted on 2026-09-24 by the AUDIT-6 pass.
 > Under `00_METHOD_AND_STYLE.md` §3 (filing-lineage rule), the original S-1, S-1/A No. 3, S-1/A No. 5, the
 > 424B1 and the exhibits to those accessions are **one instrument** (`sources.csv` S0801–S0804): the
 > original's 1996-01-01 phrasing is therefore added as **VERSION EVIDENCE — the first state of the same
@@ -273,6 +275,30 @@ different dates — they are not in conflict with each other and must not be rec
 > count rests on is unchanged: S-1/A No. 3 and No. 5 file the 11 at 1995-12-31, and the independence that
 > does exist for the population is elsewhere (a release, a periodical, or a differently-originated
 > document), never inside this lineage.
+
+> **[A-B1 CLOSURE, 2026-09-24 — AUDIT 6 item 12; limb (a): closed from evidence already on disk, no retrieval
+> required.]** A-B1 asserted that copies of one 1997 filing family were being counted as independent
+> corroboration, and the ruling was "strike the phrasing, re-key the records". The premise behind the ruling —
+> that the original S-1, S-1/A No. 3, S-1/A No. 5, the 424B1 and the FY1997 10-K405 are **one instrument** — is
+> now **proved from the cached filings rather than stipulated by project convention**, and the proof is what a
+> fresh verifier can re-check: **SEC File No. 333-23795 appears on all five**, and each says in its own words
+> that it amends or incorporates that same registration statement.
+>
+> | Document (under `sources/`) | Its own lineage statement |
+> |---|---|
+> | S-1 (original), acc. 0000891618-97-001309 | header `SEC FILE NUMBER: 333-23795` l.49; cover "REGISTRATION NO. 333-" l.77 |
+> | S-1/A No. 3, acc. 0000891020-97-000755 | `SEC FILE NUMBER: 333-23795` l.49, "REGISTRATION 333-23795" l.79; signature page l.5112 "Amendment No. 3 to the Registration Statement (Form S-1 No. 333-23795)" |
+> | S-1/A No. 5, acc. 0000891020-97-000839 | same at l.49 and l.79; `<DESCRIPTION>AMENDMENT NO. 5 TO FORM S-1` l.70; signature page l.5106 in the same form; E&Y consent is its own exhibit EX-23.1 |
+> | 424B1 final prospectus, acc. 0000891020-97-000868 | `SEC FILE NUMBER: 333-23795` l.66; cover "Registration Statement No. 333-23795" l.92; retrieval lineage note l.28–32 |
+> | FY1997 10-K405, acc. 0000891020-98-000448 | exhibit index, twice: "Incorporated by reference to the Company's Registration Statement on Form S-1 (Registration No. 333-23795)" at l.2913 and l.3105 |
+>
+> One file number, one registrant, one auditor. **A-B1's execution is complete at the sites AUDIT 6 named plus
+> four found by re-running its own phrase sweep** (`sources.csv` S0801 and S0803 carried the struck wording
+> "gain independence" / "independent corroboration"; the boundary-state row at `stage_1.md` §Stage-boundary,
+> and the §B.2 and §D.1 people rows counted the original as corroborating its own amendments). **No claim in
+> this corpus is reopened or moved to UNKNOWN by A-B1**, because the ruling changes counts and wording, not
+> evidence: confidence levels were verified unmoved. What the attack genuinely needed and did not have until
+> now is this citation; `stage_1.md`'s header ruling carries the same proof.
 
 ## COR-13 — what the 1995-10-04 press release actually says
 

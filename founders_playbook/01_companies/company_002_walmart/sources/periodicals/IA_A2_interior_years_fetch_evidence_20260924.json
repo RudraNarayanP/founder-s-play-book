@@ -1,0 +1,791 @@
+{
+ "_what": "Machine-readable fetch evidence for the A2 interior-year Walmart annual-report pull (FY1974/75/77/78/79) and for the two untried on-catalogue leads. Companion to _PROVENANCE_PERIODICALS.md sections A and A-2. Nothing here was edited by hand.",
+ "_how": "tools/periodical_harvest.py family-5 `corporate_print` route reused verbatim: identifier -> https://archive.org/metadata/<id> -> server+dir -> https://<server><dir>/<id>_djvu.txt. Stdlib urllib, UA 'FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)', sequential requests at 2-3 s spacing, exponential back-off on 429/503 honouring Retry-After (cap 60 s), hard stop after 3 consecutive failures. No 429/503 was received; no back-off fired; no host was halted.",
+ "_when": "2026-09-24T13:41Z-13:45Z (UTC)",
+ "_requests_total": 14,
+ "metadata_probe_AR": {
+  "1974-annual-report-for-walmart-stores-inc": {
+   "requested": "https://archive.org/metadata/1974-annual-report-for-walmart-stores-inc",
+   "http_status": 200,
+   "note": "",
+   "elapsed_s": 1.6,
+   "retrieved_at": "2026-09-24T13:41:43Z",
+   "server": "ia801507.us.archive.org",
+   "dir": "/5/items/1974-annual-report-for-walmart-stores-inc",
+   "metadata_title": "1974 Annual Report For Walmart Stores Inc",
+   "metadata_date": "1974",
+   "metadata_year": "1974",
+   "collection": [
+    "walmart_reports",
+    "magazine_rack",
+    "newsmagazines"
+   ],
+   "creator": "Walmart",
+   "uploader": "slaxemulator@gmail.com",
+   "digitizer": null,
+   "scanner": null,
+   "access-restricted": null,
+   "access_ip": null,
+   "licenseurl": null,
+   "other": null,
+   "addeddate": "2014-02-23 23:11:34",
+   "modifieddate": null,
+   "total_files": 19,
+   "text_layers": [
+    {
+     "name": "1974-annual-report-for-walmart-stores-inc_djvu.txt",
+     "format": "DjVuTXT",
+     "size": "39954",
+     "mimetype": null
+    },
+    {
+     "name": "1974-annual-report-for-walmart-stores-inc_text.pdf",
+     "format": "Additional Text PDF",
+     "size": "3706554",
+     "mimetype": null
+    }
+   ],
+   "pdfs": [
+    {
+     "name": "1974-annual-report-for-walmart-stores-inc.pdf",
+     "size": "3243815",
+     "format": "Image Container PDF"
+    },
+    {
+     "name": "1974-annual-report-for-walmart-stores-inc_text.pdf",
+     "size": "3706554",
+     "format": "Additional Text PDF"
+    }
+   ],
+   "djvu_xml": "1974-annual-report-for-walmart-stores-inc_djvu.xml",
+   "djvu_xml_size": "448062",
+   "bookreader_item": null,
+   "unresolved_for_search": null
+  },
+  "1975-annual-report-for-walmart-stores-inc": {
+   "requested": "https://archive.org/metadata/1975-annual-report-for-walmart-stores-inc",
+   "http_status": 200,
+   "note": "",
+   "elapsed_s": 1.5,
+   "retrieved_at": "2026-09-24T13:41:46Z",
+   "server": "ia800408.us.archive.org",
+   "dir": "/13/items/1975-annual-report-for-walmart-stores-inc",
+   "metadata_title": "1975 Annual Report For Walmart Stores Inc",
+   "metadata_date": "1975",
+   "metadata_year": "1975",
+   "collection": [
+    "walmart_reports",
+    "magazine_rack",
+    "newsmagazines"
+   ],
+   "creator": "Walmart",
+   "uploader": "slaxemulator@gmail.com",
+   "digitizer": null,
+   "scanner": null,
+   "access-restricted": null,
+   "access_ip": null,
+   "licenseurl": null,
+   "other": null,
+   "addeddate": "2014-02-23 23:12:06",
+   "modifieddate": null,
+   "total_files": 19,
+   "text_layers": [
+    {
+     "name": "1975-annual-report-for-walmart-stores-inc_djvu.txt",
+     "format": "DjVuTXT",
+     "size": "58278",
+     "mimetype": null
+    },
+    {
+     "name": "1975-annual-report-for-walmart-stores-inc_text.pdf",
+     "format": "Additional Text PDF",
+     "size": "4852652",
+     "mimetype": null
+    }
+   ],
+   "pdfs": [
+    {
+     "name": "1975-annual-report-for-walmart-stores-inc.pdf",
+     "size": "4854934",
+     "format": "Image Container PDF"
+    },
+    {
+     "name": "1975-annual-report-for-walmart-stores-inc_text.pdf",
+     "size": "4852652",
+     "format": "Additional Text PDF"
+    }
+   ],
+   "djvu_xml": "1975-annual-report-for-walmart-stores-inc_djvu.xml",
+   "djvu_xml_size": "656476",
+   "bookreader_item": null,
+   "unresolved_for_search": null
+  },
+  "1977-annual-report-for-walmart-stores-inc": {
+   "requested": "https://archive.org/metadata/1977-annual-report-for-walmart-stores-inc",
+   "http_status": 200,
+   "note": "",
+   "elapsed_s": 1.7,
+   "retrieved_at": "2026-09-24T13:41:50Z",
+   "server": "ia800501.us.archive.org",
+   "dir": "/1/items/1977-annual-report-for-walmart-stores-inc",
+   "metadata_title": "1977 Annual Report For Walmart Stores Inc",
+   "metadata_date": "1977",
+   "metadata_year": "1977",
+   "collection": [
+    "walmart_reports",
+    "magazine_rack",
+    "newsmagazines"
+   ],
+   "creator": "Walmart",
+   "uploader": "slaxemulator@gmail.com",
+   "digitizer": null,
+   "scanner": null,
+   "access-restricted": null,
+   "access_ip": null,
+   "licenseurl": null,
+   "other": null,
+   "addeddate": "2014-02-23 23:12:47",
+   "modifieddate": null,
+   "total_files": 19,
+   "text_layers": [
+    {
+     "name": "1977-annual-report-for-walmart-stores-inc_djvu.txt",
+     "format": "DjVuTXT",
+     "size": "62803",
+     "mimetype": null
+    },
+    {
+     "name": "1977-annual-report-for-walmart-stores-inc_text.pdf",
+     "format": "Additional Text PDF",
+     "size": "3497154",
+     "mimetype": null
+    }
+   ],
+   "pdfs": [
+    {
+     "name": "1977-annual-report-for-walmart-stores-inc.pdf",
+     "size": "4619756",
+     "format": "Image Container PDF"
+    },
+    {
+     "name": "1977-annual-report-for-walmart-stores-inc_text.pdf",
+     "size": "3497154",
+     "format": "Additional Text PDF"
+    }
+   ],
+   "djvu_xml": "1977-annual-report-for-walmart-stores-inc_djvu.xml",
+   "djvu_xml_size": "706801",
+   "bookreader_item": null,
+   "unresolved_for_search": null
+  },
+  "1978-annual-report-for-walmart-stores-inc": {
+   "requested": "https://archive.org/metadata/1978-annual-report-for-walmart-stores-inc",
+   "http_status": 200,
+   "note": "",
+   "elapsed_s": 1.6,
+   "retrieved_at": "2026-09-24T13:41:53Z",
+   "server": "ia802902.us.archive.org",
+   "dir": "/14/items/1978-annual-report-for-walmart-stores-inc",
+   "metadata_title": "1978 Annual Report For Walmart Stores Inc",
+   "metadata_date": "1978",
+   "metadata_year": "1978",
+   "collection": [
+    "walmart_reports",
+    "magazine_rack",
+    "newsmagazines"
+   ],
+   "creator": "Walmart",
+   "uploader": "slaxemulator@gmail.com",
+   "digitizer": null,
+   "scanner": null,
+   "access-restricted": null,
+   "access_ip": null,
+   "licenseurl": null,
+   "other": null,
+   "addeddate": "2014-02-23 23:13:08",
+   "modifieddate": null,
+   "total_files": 19,
+   "text_layers": [
+    {
+     "name": "1978-annual-report-for-walmart-stores-inc_djvu.txt",
+     "format": "DjVuTXT",
+     "size": "72300",
+     "mimetype": null
+    },
+    {
+     "name": "1978-annual-report-for-walmart-stores-inc_text.pdf",
+     "format": "Additional Text PDF",
+     "size": "4283252",
+     "mimetype": null
+    }
+   ],
+   "pdfs": [
+    {
+     "name": "1978-annual-report-for-walmart-stores-inc.pdf",
+     "size": "5060271",
+     "format": "Image Container PDF"
+    },
+    {
+     "name": "1978-annual-report-for-walmart-stores-inc_text.pdf",
+     "size": "4283252",
+     "format": "Additional Text PDF"
+    }
+   ],
+   "djvu_xml": "1978-annual-report-for-walmart-stores-inc_djvu.xml",
+   "djvu_xml_size": "794578",
+   "bookreader_item": null,
+   "unresolved_for_search": null
+  },
+  "1979-annual-report-for-walmart-stores-inc": {
+   "requested": "https://archive.org/metadata/1979-annual-report-for-walmart-stores-inc",
+   "http_status": 200,
+   "note": "",
+   "elapsed_s": 2.3,
+   "retrieved_at": "2026-09-24T13:41:58Z",
+   "server": "ia801507.us.archive.org",
+   "dir": "/25/items/1979-annual-report-for-walmart-stores-inc",
+   "metadata_title": "1979 Annual Report For Walmart Stores Inc",
+   "metadata_date": "1979",
+   "metadata_year": "1979",
+   "collection": [
+    "walmart_reports",
+    "magazine_rack",
+    "newsmagazines"
+   ],
+   "creator": "Walmart",
+   "uploader": "slaxemulator@gmail.com",
+   "digitizer": null,
+   "scanner": null,
+   "access-restricted": null,
+   "access_ip": null,
+   "licenseurl": null,
+   "other": null,
+   "addeddate": "2014-02-23 23:13:35",
+   "modifieddate": null,
+   "total_files": 19,
+   "text_layers": [
+    {
+     "name": "1979-annual-report-for-walmart-stores-inc_djvu.txt",
+     "format": "DjVuTXT",
+     "size": "67946",
+     "mimetype": null
+    },
+    {
+     "name": "1979-annual-report-for-walmart-stores-inc_text.pdf",
+     "format": "Additional Text PDF",
+     "size": "4705138",
+     "mimetype": null
+    }
+   ],
+   "pdfs": [
+    {
+     "name": "1979-annual-report-for-walmart-stores-inc.pdf",
+     "size": "5485321",
+     "format": "Image Container PDF"
+    },
+    {
+     "name": "1979-annual-report-for-walmart-stores-inc_text.pdf",
+     "size": "4705138",
+     "format": "Additional Text PDF"
+    }
+   ],
+   "djvu_xml": "1979-annual-report-for-walmart-stores-inc_djvu.xml",
+   "djvu_xml_size": "766985",
+   "bookreader_item": null,
+   "unresolved_for_search": null
+  }
+ },
+ "text_layer_fetch_log": {
+  "1974": {
+   "fy": "1974",
+   "identifier": "1974-annual-report-for-walmart-stores-inc",
+   "requested": "https://ia801507.us.archive.org/5/items/1974-annual-report-for-walmart-stores-inc/1974-annual-report-for-walmart-stores-inc_djvu.txt",
+   "http_status": 200,
+   "note": "",
+   "bytes": 39954,
+   "metadata_declared_size": 39954,
+   "content_length_header": "39954",
+   "content_type": "text/plain; charset=utf-8",
+   "server_header": "nginx/1.31.3",
+   "etag": "\"65de1734-9c12\"",
+   "last_modified": "Tue, 27 Feb 2024 17:09:08 GMT",
+   "retrieved_at": "2026-09-24T13:43:15Z",
+   "saved_to": "E:\\tmp\\wa_raw_1974.txt",
+   "size_matches_metadata": true,
+   "sha256": "e0781cacf588446c88327b9946680e0412b0735910c1e699c831ac32ffd90a06"
+  },
+  "1975": {
+   "fy": "1975",
+   "identifier": "1975-annual-report-for-walmart-stores-inc",
+   "requested": "https://ia800408.us.archive.org/13/items/1975-annual-report-for-walmart-stores-inc/1975-annual-report-for-walmart-stores-inc_djvu.txt",
+   "http_status": 200,
+   "note": "",
+   "bytes": 58278,
+   "metadata_declared_size": 58278,
+   "content_length_header": "58278",
+   "content_type": "text/plain; charset=utf-8",
+   "server_header": "nginx/1.31.3",
+   "etag": "\"65de1b16-e3a6\"",
+   "last_modified": "Tue, 27 Feb 2024 17:25:42 GMT",
+   "retrieved_at": "2026-09-24T13:43:19Z",
+   "saved_to": "E:\\tmp\\wa_raw_1975.txt",
+   "size_matches_metadata": true,
+   "sha256": "79b8603bfa29133f78d7261592c58dace7a7bc86287aa18c057507fac131189c"
+  },
+  "1977": {
+   "fy": "1977",
+   "identifier": "1977-annual-report-for-walmart-stores-inc",
+   "requested": "https://ia800501.us.archive.org/1/items/1977-annual-report-for-walmart-stores-inc/1977-annual-report-for-walmart-stores-inc_djvu.txt",
+   "http_status": 200,
+   "note": "",
+   "bytes": 62803,
+   "metadata_declared_size": 62803,
+   "content_length_header": "62803",
+   "content_type": "text/plain; charset=utf-8",
+   "server_header": "nginx/1.31.3",
+   "etag": "\"66081846-f553\"",
+   "last_modified": "Sat, 30 Mar 2024 13:48:54 GMT",
+   "retrieved_at": "2026-09-24T13:43:24Z",
+   "saved_to": "E:\\tmp\\wa_raw_1977.txt",
+   "size_matches_metadata": true,
+   "sha256": "f398a40d0bd205b532fa2f4348fe02e9fc48db1b03e1cf191d5614ccc72ba500"
+  },
+  "1978": {
+   "fy": "1978",
+   "identifier": "1978-annual-report-for-walmart-stores-inc",
+   "requested": "https://ia802902.us.archive.org/14/items/1978-annual-report-for-walmart-stores-inc/1978-annual-report-for-walmart-stores-inc_djvu.txt",
+   "http_status": 200,
+   "note": "",
+   "bytes": 72300,
+   "metadata_declared_size": 72300,
+   "content_length_header": "72300",
+   "content_type": "text/plain; charset=utf-8",
+   "server_header": "nginx/1.31.3",
+   "etag": "\"66081b7c-11a6c\"",
+   "last_modified": "Sat, 30 Mar 2024 14:02:36 GMT",
+   "retrieved_at": "2026-09-24T13:43:28Z",
+   "saved_to": "E:\\tmp\\wa_raw_1978.txt",
+   "size_matches_metadata": true,
+   "sha256": "10a30c39535cbebc167eac76381397b6e8288ed8193aad9323d467aeaa62978f"
+  },
+  "1979": {
+   "fy": "1979",
+   "identifier": "1979-annual-report-for-walmart-stores-inc",
+   "requested": "https://ia801507.us.archive.org/25/items/1979-annual-report-for-walmart-stores-inc/1979-annual-report-for-walmart-stores-inc_djvu.txt",
+   "http_status": 200,
+   "note": "",
+   "bytes": 67946,
+   "metadata_declared_size": 67946,
+   "content_length_header": "67946",
+   "content_type": "text/plain; charset=utf-8",
+   "server_header": "nginx/1.31.3",
+   "etag": "\"66081cfc-1096a\"",
+   "last_modified": "Sat, 30 Mar 2024 14:09:00 GMT",
+   "retrieved_at": "2026-09-24T13:43:33Z",
+   "saved_to": "E:\\tmp\\wa_raw_1979.txt",
+   "size_matches_metadata": true,
+   "sha256": "ad6958cfeeecf38a3c6020ddce1065db1c7d839c4fa88c926f27bed552c7095c"
+  }
+ },
+ "untried_leads_metadata_full": {
+  "DTIC_ADA345567": {
+   "http_status": 200,
+   "retrieved_at": "2026-09-24T13:51:30Z",
+   "metadata": {
+    "identifier": "DTIC_ADA345567",
+    "creator": "Defense Technical Information Center",
+    "date": "1998-06-05",
+    "description": "By no mistake, Wal-Mart is the reigning king in the retail industry. Conscientious decisions as to what it would take to capture and retain the number one ranking in the discount retail market have been evident since Wal-Mart's inception in 1962. From concepts borrowed from other discounters, Sam Walton, the founding father of Wal-Mart, built on, and matured these ideas resulting in his corner, five-and- dime-stores becoming a colossal operation, and one of America's greatest economic success stories. This paper will explore the creative techniques in management, marketing, and technology used by Wal-Mart, and explain the methodology of how Wal-Mart maximizes these disciplines of business for competitive advantage. In addition, due to near-saturation in the United State's market, Wal-Mart is concentrating heavily on international expansion into seven foreign countries. This paper will also examine successes made abroad and the problems encountered in cultural barriers while attempting to transplant Wal-Mart's thriving domestic operations into different parts of the world. Strengths abound. If Wal-Mart were to receive a report card, it would receive \"Excellent\" ratings across the board, with the exception of one area. Wal-Mart would most likely receive \"needs improvement\" in the areas of pricing policies, community service; specifically giving back to the community, and its use of \"strong-arm\" tactics in implementing its aggressive growth strategy. Wal-Mart's hawkish expansion into small towns across the country has caused an uproar from coast-to-coast This discontent is not only voiced by those most affected; the small business owner, but is shared by local citizens who claim that Wal-Mart's \"big box\" approach is stealing away their small town appeal, as well as killing the local sense of community.",
+    "language": "english",
+    "mediatype": "texts",
+    "subject": "DTIC Archive; Zarbo, Michael E.; ARMY INFORMATION SYSTEMS COMMAND FORT HUACHUCA AZ; *RETAIL; COMMERCE; MANAGEMENT PLANNING AND CONTROL; MARKETING; CORPORATIONS; STRATEGIC ANALYSIS; RESOURCE MANAGEMENT.;",
+    "title": "DTIC ADA345567: A Study of the Discount Retail Industry and Wal-Mart Corporation",
+    "year": "1998",
+    "collection": [
+     "dticarchive",
+     "usgovernmentmirrors",
+     "government-documents"
+    ],
+    "publicdate": "2018-04-15 12:18:39",
+    "uploader": "slaxemulator@gmail.com",
+    "addeddate": "2018-04-15 12:18:39",
+    "identifier-access": "http://archive.org/details/DTIC_ADA345567",
+    "identifier-ark": "ark:/13960/t81k63015",
+    "imagecount": "124",
+    "ppi": "600",
+    "backup_location": "ia906703_11",
+    "foldoutcount": "0",
+    "ocr_module_version": "0.0.21",
+    "ocr_converted": "abbyy-to-hocr 1.1.37",
+    "page_number_confidence": "91",
+    "page_number_module_version": "1.0.3",
+    "collection_added": [
+     "usgovernmentmirrors",
+     "government-documents"
+    ]
+   },
+   "file_summary": [
+    {
+     "name": "DTIC_ADA345567.pdf",
+     "format": "Text PDF",
+     "size": "5166167"
+    },
+    {
+     "name": "DTIC_ADA345567_abbyy.gz",
+     "format": "Abbyy GZ",
+     "size": "3100885"
+    },
+    {
+     "name": "DTIC_ADA345567_archive.torrent",
+     "format": "Archive BitTorrent",
+     "size": "8509"
+    },
+    {
+     "name": "DTIC_ADA345567_chocr.html.gz",
+     "format": "chOCR",
+     "size": "2548008"
+    },
+    {
+     "name": "DTIC_ADA345567_djvu.txt",
+     "format": "DjVuTXT",
+     "size": "217636"
+    },
+    {
+     "name": "DTIC_ADA345567_djvu.xml",
+     "format": "Djvu XML",
+     "size": "2385572"
+    },
+    {
+     "name": "DTIC_ADA345567_files.xml",
+     "format": "Metadata",
+     "size": null
+    },
+    {
+     "name": "DTIC_ADA345567_hocr.html",
+     "format": "hOCR",
+     "size": "4683281"
+    },
+    {
+     "name": "DTIC_ADA345567_hocr_pageindex.json.gz",
+     "format": "OCR Page Index",
+     "size": "1455"
+    },
+    {
+     "name": "DTIC_ADA345567_hocr_searchtext.txt.gz",
+     "format": "OCR Search Text",
+     "size": "74101"
+    },
+    {
+     "name": "DTIC_ADA345567_jp2.zip",
+     "format": "Single Page Processed JP2 ZIP",
+     "size": "108845778"
+    },
+    {
+     "name": "DTIC_ADA345567_meta.sqlite",
+     "format": "Metadata",
+     "size": "14336"
+    },
+    {
+     "name": "DTIC_ADA345567_meta.xml",
+     "format": "Metadata",
+     "size": "3335"
+    },
+    {
+     "name": "DTIC_ADA345567_page_numbers.json",
+     "format": "Page Numbers JSON",
+     "size": "20694"
+    },
+    {
+     "name": "DTIC_ADA345567_scandata.xml",
+     "format": "Scandata",
+     "size": "41416"
+    },
+    {
+     "name": "__ia_thumb.jpg",
+     "format": "JPEG Thumb",
+     "size": "7161"
+    }
+   ]
+  },
+  "samwaltoninsides00vanc": {
+   "http_status": 200,
+   "retrieved_at": "2026-09-24T13:51:34Z",
+   "metadata": {
+    "isbn": [
+     "0525249222",
+     "9780525249221",
+     "0525249842",
+     "9780525249849"
+    ],
+    "openlibrary": "OL7769751M",
+    "title": "Sam Walton : the inside story of America's richest man",
+    "creator": "Trimble, Vance H",
+    "publisher": "New York, N.Y., U.S.A. : Penguin",
+    "external-identifier": [
+     "urn:asin:0525249842",
+     "urn:acs6:samwaltoninsides00vanc:pdf:62d6c783-d76c-487f-8da1-fbf73d249703",
+     "urn:acs6:samwaltoninsides00vanc:epub:1e42085d-2f49-4872-83de-4b6a1895eb23",
+     "urn:oclc:record:1151166933",
+     "urn:lcp:samwaltoninsides00vanc:lcpdf:ebf3022f-6b7e-4e12-b43d-61c2d4cbba37",
+     "urn:lcp:samwaltoninsides00vanc:epub:5e08faac-d7fe-43ff-ac14-431f0e0a1e5b"
+    ],
+    "updatedate": "2012-04-30 17:29:03",
+    "updater": "associate-tracey-gutierres@archive.org",
+    "mediatype": "texts",
+    "boxid": "IA139901",
+    "contributor": "Internet Archive",
+    "language": "eng",
+    "scanningcenter": "shenzhen",
+    "sponsor": "Internet Archive",
+    "identifier": "samwaltoninsides00vanc",
+    "uploader": "associate-tracey-gutierres@archive.org",
+    "addeddate": "2012-04-30 17:29:07",
+    "publicdate": "2012-04-30 17:29:10",
+    "repub_state": "4",
+    "repub_seconds": "503",
+    "ppi": "500",
+    "camera": "Canon EOS 5D Mark II",
+    "operator": "scanner-shenzhen-emma@archive.org",
+    "scanner": "scribe23.shenzhen.archive.org",
+    "scandate": "20120822082426",
+    "republisher": "scanner-shenzhen-wu@archive.org",
+    "imagecount": "362",
+    "foldoutcount": "0",
+    "identifier-access": "http://archive.org/details/samwaltoninsides00vanc",
+    "identifier-ark": "ark:/13960/t0rr3326c",
+    "bookplateleaf": "0006",
+    "scanfee": "150",
+    "donor": "alibris",
+    "sponsordate": "not to be invoiced-past billing period",
+    "extramarc": "University of Illinois Urbana-Champaign (PZ)",
+    "date": "1990",
+    "subject": [
+     "Walton, Sam, 1918-1992",
+     "Walton, Sam, 1918-1992",
+     "Wal-Mart (Firm)",
+     "Wal-Mart (Firm)",
+     "Businesspeople",
+     "Millionaires",
+     "Discount houses (Retail trade)",
+     "Businesspeople",
+     "Discount houses (Retail trade)",
+     "Millionaires"
+    ],
+    "lccn": "90038232",
+    "description": [
+     "\"A Dutton book.\"",
+     "Flirting with the dark angel -- Indians and buffalo grass -- A sort of Tom Sawyer -- \"$2 and a clean shirt\" -- The lieutenant takes a bride -- First five-and-dime days -- \"$60,000--and no more!\" -- An aristocratic country town -- Airplanes and hula hoops -- \"A hell of an idea!\" -- Watermelons and a donkey mess -- Finding a few key men -- The courtship of Ron Mayer -- \"I need money--quick!\" -- Stylus virum arguit -- To crown a new king -- Inside the family circle -- New chiefs and computers -- Guinea pig--or death? -- Wholesale and hometown -- Corporate shake-up -- Labor unions not welcome -- The nine-billion-dollar man -- The war over Main Street -- Clerks and customers -- \"Oh, it's a big sky\" -- And the race goes on ... -- Epilogue",
+     "Presents the rags-to-riches tale of billionaire Sam Walton, founder of the discount chain Wal-Mart and America's richest man, as a study in old-fashioned values such as honesty and hard work"
+    ],
+    "city": "New York",
+    "oclc-id": [
+     "731285526",
+     "21873307"
+    ],
+    "related-external-id": [
+     "urn:isbn:0451171616",
+     "urn:oclc:24932828",
+     "urn:oclc:502654690",
+     "urn:oclc:778943415",
+     "urn:oclc:804062283",
+     "urn:isbn:0525249222",
+     "urn:lccn:90038232",
+     "urn:oclc:21873307",
+     "urn:oclc:243448692",
+     "urn:oclc:471085988",
+     "urn:oclc:660059892",
+     "urn:oclc:663053952",
+     "urn:oclc:704420024",
+     "urn:oclc:779289703",
+     "urn:oclc:779601029",
+     "urn:oclc:784119239",
+     "urn:oclc:850511669"
+    ],
+    "backup_location": "ia903802_21",
+    "openlibrary_edition": "OL7769751M",
+    "openlibrary_work": "OL2924075W",
+    "republisher_operator": "scanner-shenzhen-wu@archive.org",
+    "republisher_date": "20120824000146",
+    "access-restricted-item": "true",
+    "ocr_module_version": "0.0.17",
+    "ocr_converted": "abbyy-to-hocr 1.1.20",
+    "page_number_confidence": "97",
+    "filesxml": "Wed Apr 3 12:58:18 UTC 2024",
+    "page_number_module_version": "1.0.5",
+    "pdf_module_version": "0.0.23",
+    "collection": [
+     "internetarchivebooks",
+     "printdisabled",
+     "inlibrary"
+    ]
+   },
+   "file_summary": [
+    {
+     "name": "__ia_thumb.jpg",
+     "format": "Item Tile",
+     "size": "21564"
+    },
+    {
+     "name": "samwaltoninsides00vanc.epub",
+     "format": "EPUB",
+     "size": "20803794"
+    },
+    {
+     "name": "samwaltoninsides00vanc.gif",
+     "format": "Animated GIF",
+     "size": "283193"
+    },
+    {
+     "name": "samwaltoninsides00vanc.lcpdf",
+     "format": "LCP Encrypted PDF",
+     "size": "32427404"
+    },
+    {
+     "name": "samwaltoninsides00vanc.pdf",
+     "format": "Text PDF",
+     "size": "32160351"
+    },
+    {
+     "name": "samwaltoninsides00vanc.warc.gz",
+     "format": "Web ARChive GZ",
+     "size": "479904"
+    },
+    {
+     "name": "samwaltoninsides00vanc.warc.os.cdx.gz",
+     "format": "WARC CDX Index",
+     "size": "6344"
+    },
+    {
+     "name": "samwaltoninsides00vanc_abbyy.gz",
+     "format": "Abbyy GZ",
+     "size": "11001942"
+    },
+    {
+     "name": "samwaltoninsides00vanc_chocr.html.gz",
+     "format": "chOCR",
+     "size": "9419255"
+    },
+    {
+     "name": "samwaltoninsides00vanc_cloth_detection.log",
+     "format": "Cloth Cover Detection Log",
+     "size": "779"
+    },
+    {
+     "name": "samwaltoninsides00vanc_dc.xml",
+     "format": "Dublin Core",
+     "size": "2334"
+    },
+    {
+     "name": "samwaltoninsides00vanc_djvu.txt",
+     "format": "DjVuTXT",
+     "size": "849922"
+    },
+    {
+     "name": "samwaltoninsides00vanc_djvu.xml",
+     "format": "Djvu XML",
+     "size": "9918258"
+    },
+    {
+     "name": "samwaltoninsides00vanc_encrypted.epub",
+     "format": "ACS Encrypted EPUB",
+     "size": "15657982"
+    },
+    {
+     "name": "samwaltoninsides00vanc_encrypted.pdf",
+     "format": "ACS Encrypted PDF",
+     "size": "32067872"
+    },
+    {
+     "name": "samwaltoninsides00vanc_extramarc.xml",
+     "format": "Metadata",
+     "size": "6269"
+    },
+    {
+     "name": "samwaltoninsides00vanc_files.xml",
+     "format": "Metadata",
+     "size": null
+    },
+    {
+     "name": "samwaltoninsides00vanc_hocr.html",
+     "format": "hOCR",
+     "size": "18379264"
+    },
+    {
+     "name": "samwaltoninsides00vanc_hocr_pageindex.json.gz",
+     "format": "OCR Page Index",
+     "size": "4332"
+    },
+    {
+     "name": "samwaltoninsides00vanc_hocr_searchtext.txt.gz",
+     "format": "OCR Search Text",
+     "size": "301351"
+    },
+    {
+     "name": "samwaltoninsides00vanc_jp2.zip",
+     "format": "Single Page Processed JP2 ZIP",
+     "size": "186258148"
+    },
+    {
+     "name": "samwaltoninsides00vanc_lcp.epub",
+     "format": "LCP Encrypted EPUB",
+     "size": "20972565"
+    },
+    {
+     "name": "samwaltoninsides00vanc_loans.json",
+     "format": "JSON",
+     "size": "7453"
+    },
+    {
+     "name": "samwaltoninsides00vanc_marc.xml",
+     "format": "MARC",
+     "size": "12844"
+    },
+    {
+     "name": "samwaltoninsides00vanc_meta.log",
+     "format": "Metadata Log",
+     "size": "973"
+    },
+    {
+     "name": "samwaltoninsides00vanc_meta.mrc",
+     "format": "MARC Binary",
+     "size": "3998"
+    },
+    {
+     "name": "samwaltoninsides00vanc_meta.sqlite",
+     "format": "Metadata",
+     "size": "6144"
+    },
+    {
+     "name": "samwaltoninsides00vanc_meta.xml",
+     "format": "Metadata",
+     "size": "5737"
+    },
+    {
+     "name": "samwaltoninsides00vanc_metasource.xml",
+     "format": "MARC Source",
+     "size": "319"
+    },
+    {
+     "name": "samwaltoninsides00vanc_orig_jp2.tar",
+     "format": "Single Page Original JP2 Tar",
+     "size": "243752960"
+    },
+    {
+     "name": "samwaltoninsides00vanc_page_numbers.json",
+     "format": "Page Numbers JSON",
+     "size": "61241"
+    },
+    {
+     "name": "samwaltoninsides00vanc_scandata.xml",
+     "format": "Scandata",
+     "size": "360564"
+    },
+    {
+     "name": "samwaltoninsides00vanc_xisbn.json",
+     "format": "OCLC xISBN JSON",
+     "size": "1152"
+    }
+   ]
+  }
+ }
+}

@@ -67,4 +67,73 @@ Lines are the AUDIT-6 numbers, re-located by grep before every edit.
 
 ## Log
 
-(empty until edits begin)
+**2026-09-24, repair pass.** Sites re-located by grep before every edit; AUDIT-6 line numbers are quoted
+only as received coordinates.
+
+- **IR-01 done** — `_parts/s1_p4.md`, §P.2 d14 (received ll.102–103, now ll.102–111). The false single-line
+  equation is replaced by the filing's two-line form with every term cited (orig. l.3636/3641/3649/3652/3653/
+  3655), and the deleted false form is printed **inside** the retraction sentence, labelled false with its
+  arithmetic stated (LHS 996 ≠ 944). Re-read after edit; the only surviving copies of the false form in the
+  file are inside retraction language.
+- **IR-02 done** — same file, §P **P36** (received l.62): single-line `= 996,000` form annotated as the
+  opening-inclusive reading, mirroring `stage_1.md:864`.
+- **IR-03 done** — same file, §P.2 **d4/d5/d7** (received ll.96–98): each pre-repair value kept and marked
+  `[SUPERSEDED …]` with the corrected figure beside it ($100,020.06 / $145,552.84 / $295,568).
+- **IR-03b added and done** (site found while editing the same fragment) — `_parts/s1_p4.md` end-of-file
+  SUPERSEDED footer (received l.478): an AUDIT-6 addendum was appended recording that the footer's own limbs
+  (a) and (b) are superseded — the leg is neither $871,024 nor $871,000, `2,613,000` is unfound in the
+  restored documents, and the `= $976,408` composition is withdrawn — because the footer itself printed
+  $871,000 as the *corrected* value, which is the item-6 defect in a third place.
+- **IR-04 done** — `context_appendices.md` §I "Capital raised inside Stage 1" (received l.596, Value column):
+  retraction, not substitution. Composition → **UNKNOWN**, the three filed legs footed to $105,408, both
+  retracted one-third values named inside the retraction, reason (unfiled denominator, non-adopted d25 chain)
+  stated, canonical pointers given, Confidence split into High-for-filed-lines / UNKNOWN-for-composition.
+  Table arity re-checked: 9 pipes, 8 columns, unchanged.
+- **IR-05 done** — `context_appendices.md` §G gap row 12 (received l.639): "only ~$871,000 of it is anonymous
+  share money" deleted and replaced by the retraction plus the UNKNOWN reason in the Why-missing column.
+  Arity 6 pipes, unchanged.
+- **IR-06 done** — `CORRECTIONS.md` COR-03: banner added **in the heading** and as a blockquote immediately
+  under it; the Action line relabelled `[WITHDRAWN BY COR-12 — the rule below is inverted]` with the original
+  text left standing, and the standing action restated. One supersession pointer added to the file's header
+  rule so a top-down reader is warned before reaching COR-03.
+- **IR-07 done** — `CORRECTIONS.md` COR-11.2 (received l.194): the "see COR-03" route now names COR-12 as its
+  superseder; grep confirms no unrouted "see COR-03" remains.
+- **IR-08 done** — `_parts/s1_p3b_H_addendum.md` integration note (received l.131): the original sentence was
+  restored whole (a first attempt clipped its tail — caught on re-read) and a separate SUPERSESSION MARKER
+  paragraph appended, stating which limb (151 post-Stage-1) COR-12 leaves standing.
+- **IR-09 done** — `stage_1.md` header, COR-12 sentence (received ll.16–17): "independent corroboration" →
+  first state of the same registration statement / version evidence, not a corroboration.
+- **IR-10 done** — `stage_1.md` §R Employees (received l.1139): both the prose "independent corroboration"
+  and the source cell `[T1 · FACT — corroboration]` demoted.
+- **IR-10b added and done** — three further live sites of the same count, found by grep when the named ones
+  were re-located: the boundary-state row in **Stage boundary justification** (received l.114, "corroborated
+  by the original S-1's"), **§B.2** People row (received l.229) and **§D.1** Founders/present row (received
+  l.298, both carrying `S-1 (orig.), Risk Factors (corroboration)`). All demoted. Paren balance re-checked on
+  l.114 after the edit (an unclosed parenthesis was introduced and fixed the same pass).
+- **IR-11 done** — `stage_1.md` §P42 (received l.870): "which corroborates the count" and the source cell's
+  "(corroboration)" both demoted to same-lineage restatement.
+- **IR-12 done** — `quantitative.csv` L74: source column, source_date column and the notes column's
+  "independent corroboration" all demoted; a lineage-demotion note records that the row formerly credited
+  the ancestor with corroborating its own amendments. **Confidence left at High, untouched.** CSV re-parsed:
+  a stray comma in the new date field briefly broke arity to 13 — fixed by quoting; 112×12 now.
+- **IR-13 done** — `context_appendices.md` §I headcount row (received l.595): "corroboration of the same
+  population", "S-1 (orig.) as corroboration" and "(corroboration 1997-03-24)" all demoted.
+- **IR-14 done** — `CORRECTIONS.md` COR-12: the standing instruction "added as **corroboration**" is quoted
+  inside an appended block and **withdrawn and replaced** with the §3 version-evidence rule, so downstream
+  text cannot regenerate from it. The named five downstream sites are listed as demoted.
+- **IR-15/16/17 done** — `stage_1.md` §T rows S-1/A No. 3, 10-K405, 424B1: each now carries the
+  `same lineage as S0801` demotion in §3's words. 424B1's stale `restoration pending` replaced with the
+  on-disk fact (266,755 B, size confirmed by `wc -c`) plus the explicit note that it is **not** read into
+  this volume and COR-14.1 stays with the retrieval owner.
+- **IR-20 done** — `stage_1.md:36`: "four sites that contradicted it are corrected below" replaced with a
+  statement of what was done (4 sites + 22 records), why the census missed (marker count, not site audit),
+  and the named survivors now closed.
+- **IR-20b added and done** — `stage_1.md:7`: header still called the spine "canonical U.1–U.42"; annotated
+  with U.43's appendage and the concordance residual, same class as IR-22/23.
+- **IR-22/23 done** — `conflicts.csv` U.8 and `stage_1.md` §U.8 retracted-figure record (received l.1526):
+  both "the canonical spine is fixed at U.1–U.42" sentences now carry the U.43 spine note without altering
+  the reason they give.
+- **IR-24 done** — `stage_1.md` §U preamble (received l.1251): "42 canonical conflicts, U.1–U.42" → "43
+  canonical conflicts, U.1–U.43" with a correction note; U-block count re-run after the edit = 43.
+
+(to be continued: IR-18, IR-19, IR-21, IR-25…IR-28)

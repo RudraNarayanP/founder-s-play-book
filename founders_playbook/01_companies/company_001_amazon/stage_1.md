@@ -6,6 +6,9 @@
 **File:** single-stage volume, sections **A–U**. Numbering continues across the source parts and is not
 re-based (method §9.3). Conflict ids are the canonical **U.1–U.42** fixed in
 `_parts/U_CONCORDANCE.md`; that file is the mapping the claim-record appendix is keyed to.
+**U.43 was appended 2026-09-24 under the append-only rule (never renumber), so the spine and
+`conflicts.csv` now run U.1–U.43; the concordance file has not been re-cut and is the residual** — see §U's
+preamble and the spine note at the end of §U.
 **Dossiers consolidated:** A (98 records), B (133), C (75), D (82), E (94), F (technology), G (38 challenges),
 H (60, legal/organizational), I (58), J (archival), K (roadmap provenance). Bracketed IDs cite them and are
 the merge keys for the claim-record volume.
@@ -13,9 +16,10 @@ the merge keys for the claim-record volume.
 **Corrections applied at merge.** `CORRECTIONS.md` **COR-01…COR-14** are binding and are applied throughout
 this file; the register overrides any pre-correction form surviving in a source part. Material to the reading
 of what follows: the founding-instrument facts exist in the **original** S-1 only (COR-01, COR-02); **COR-12
-supersedes COR-03 (2026-09-23): the count of 11 employees is filed at 1995-12-31** in S-1/A No. 3/No. 5, with
-the original S-1's 1996-01-01 phrasing as independent corroboration of the same population, so the earlier
-downgrade is withdrawn; the 1995-10-04 press release carries online ordering and the published telephone
+supersedes COR-03 (2026-09-23): the count of 11 employees is filed at 1995-12-31** in S-1/A No. 3/No. 5, and
+the original S-1's 1996-01-01 phrasing is **the first state of that same registration statement — version
+evidence on the same population, not a corroboration** (filing-lineage ruling below; method §3), so the
+earlier downgrade is withdrawn; the 1995-10-04 press release carries online ordering and the published telephone
 number but **not** nine mailboxes, toll-free ordering, fax ordering or e-mail ordering (COR-13); the S-1's four "web page pictures" never
 existed — they are a printer's art-direction instruction (COR-04); the circulating 1996 homepage is 2006
 content (COR-05); the Sheff interview was conducted **1999**, published **2000** (COR-06); the first money
@@ -32,8 +36,18 @@ filing family and count as **one** instrument for independence purposes. Where a
 cited for a fact that exists only in the original, the citation here is the original at 1997-03-24 (COR-01,
 COR-02).
 
-**Filing-lineage rule (method §3, as restated 2026-09-24 on AUDIT 5 A-B1 / RD-041) — the header governs, and
-four sites that contradicted it are corrected below.** An original registration statement and its amendments,
+**Filing-lineage rule (method §3, as restated 2026-09-24 on AUDIT 5 A-B1 / RD-041) — the header governs.**
+**Scope of what was actually done, restated because the first statement of it was false:** when this ruling
+was written it claimed "four sites that contradicted it are corrected below". Four sites **were** corrected
+(§G.3, §J, §T's S-1/A No. 5 row, §U.1) together with 22 re-keyed claim records — but that list came from a
+census of demotion **markers**, which can only find text that had already been rewritten. AUDIT 6 found the
+demotion incomplete, and named the survivors: **the COR-12 sentence in the paragraph immediately above**,
+§R Employees, §P42,
+`quantitative.csv` L74, `context_appendices.md` §I, three §T rows (S-1/A No. 3, 10-K405, 424B1), the standing
+instruction at `CORRECTIONS.md` COR-12, and three claim records left at `Corroboration: 3–4` because the
+re-key screened only for `Corroboration: 2`. **All of them are demoted as of the 2026-09-24 audit-6 repair
+pass**, and the completeness claim is re-derived from a site list rather than a marker count.
+An original registration statement and its amendments,
 and the 10-K405 that restates them, are **one source** however many accessions they occupy: an amendment is a
 later draft of one document, with the same issuer, the same counsel and the same auditor. Repetition across
 accessions is therefore **version evidence** — it settles what the document said and, per COR-02, which version
@@ -45,6 +59,18 @@ on a primary document alone), so **no confidence level moves** — what moves is
 labelled as such: S-1/A No. 5's affiliation split of the 23 purchasers (150,000 + 60,000 + 2,811,000,
 l.4665–4668) is **absent from the original**, so it is a new disclosure of the same instrument, not
 corroboration of it (§K row; `quantitative.csv` L96; P69).
+**THE PREMISE IS PROVED FROM THE CACHED FILINGS, NOT STIPULATED (AUDIT 6 item 12; this is what closes A-B1).**
+Every member of this lineage carries the **same SEC file number, 333-23795**, on its own face, and calls itself
+part of one registration statement in its own words: original S-1 `SEC FILE NUMBER: 333-23795` at l.49 and
+"REGISTRATION NO. 333-" as filed at l.77; S-1/A No. 3 at l.49 and l.79, signature page l.5112 "Amendment No. 3
+to the Registration Statement (Form S-1 No. 333-23795)"; S-1/A No. 5 at l.49 and l.79, signature page l.5106 in
+the same form (its cover at l.70 is "AMENDMENT NO. 5 TO FORM S-1"); final prospectus 424B1 at l.66 with the cover
+"Registration Statement No. 333-23795" at l.92; FY1997 10-K405 at l.2913 and l.3105, whose own exhibit index
+incorporates by reference "the Company's Registration Statement on Form S-1 (Registration No. 333-23795)". One
+file number, one registrant, one auditor — Ernst & Young LLP's consent is an exhibit **to the amendment**
+(EX-23.1). Agreement inside that set is evidence about one document's drafting history; **no retrieval is needed
+to settle it and nothing in this volume is marked UNKNOWN on account of it.** Recorded also at
+`CORRECTIONS.md`, COR-12's closure note.
 
 **Source-cell convention (editorial ruling, logged 2026-09-23).** Narrative tables use the exemplar's
 4-column geometry `| Variable | Value | Source | Confidence |`, with a **compact source token** carrying tier
@@ -97,7 +123,7 @@ Repeated copies of one origin story are **one** source.
 | Anchor: dated founding instrument | "Dated: July 5, 1994 … Jeffrey P. Bezos"; subscription for 1,700,000 shares of Cadabra, Inc. | S-1 (orig.), 1997-03-24, Ex. 10.12 [T1 · FACT] [A-03, A-04] | High |
 | Anchor: pre-trading identity work | `relentless.com` created 1994-09-25; `amazon.com` 1994-11-01 — ~8 months before any recorded sale; registrants unverified | Verisign RDAP, retrieved 2026-09-23 [T1 · FACT] [A-42, A-43] | Medium-High (pre-1996 "created" dates may reflect migration) |
 | Anchor: the filing closes the test | "commenced offering products for sale on its Web site in July 1995"; "began selling books on its Web site in July 1995" | S-1 (orig.), 1997-03-24, MD&A Overview; Risk Factors [T1 · FACT] [A-59, E-02] | High |
-| Boundary state | net sales $511,000 over 5.5–6.0 months (convention at §P22/§P.2 d24); ~2,200 average daily visits Dec 1995; **11 employees at 1995-12-31** (S-1/A No. 3/No. 5, verbatim: "From December 31, 1995 to March 31, 1997, the Company expanded from 11 to 256 employees"; corroborated by the original S-1's "from January 1, 1996 to December 31, 1996 … from 11 to 151 employees" — the same 11 at the 1995/96 turn); $0 long-term obligations; $107,000 of cumulative losses ending the S-election at 1995-03-31 | S-1/A No. 3 (1997-05-09) + S-1/A No. 5 (1997-05-14), Risk Factors, with S-1 (orig.), 1997-03-24, Selected Financial Data, Notes 1/3, Risk Factors [T1 · FACT] [E-31, E-33, E-86, A-47, E-04, E-83] | High → U.17 |
+| Boundary state | net sales $511,000 over 5.5–6.0 months (convention at §P22/§P.2 d24); ~2,200 average daily visits Dec 1995; **11 employees at 1995-12-31** (S-1/A No. 3/No. 5, verbatim: "From December 31, 1995 to March 31, 1997, the Company expanded from 11 to 256 employees"; the original S-1's "from January 1, 1996 to December 31, 1996 … from 11 to 151 employees" puts the same 11 at the 1995/96 turn and is **the same instrument refiled — version evidence, not a corroboration** (method §3)); $0 long-term obligations; $107,000 of cumulative losses ending the S-election at 1995-03-31 | S-1/A No. 3 (1997-05-09) + S-1/A No. 5 (1997-05-14), Risk Factors, with S-1 (orig.), 1997-03-24, Selected Financial Data, Notes 1/3, Risk Factors [T1 · FACT] [E-31, E-33, E-86, A-47, E-04, E-83] | High → U.17 |
 | Scale context inside the same instrument | $511,000 is 0.16% of the $318M of 1995 Web purchases the same filing cites from IDC | S-1 (orig.), 1997-03-24, Business [T1 · ESTIMATE, quoted] — DERIVED 511/318,000 [T1 · DERIVED] [E-56] | High arithmetic; denominator estimated |
 | Start, on the documented basis | **1994**, first firm anchor **1994-07-05**: the subscription for 1,700,000 shares of "Cadabra, Inc., a Washington corporation" for $10,000 — the surviving founding instrument. The boundary is held by what follows inside months, every item filed or registered: `relentless.com` created 1994-09-25, Kaphan working "From October 1994" as VP Research and Development per the S-1 bio, the Seafirst merchant account under Bezos's personal guarantee from November 1994, `amazon.com` created 1994-11-01. **No retrieved document dates any Amazon-relevant act before this window**: the S-1's inception line is 1994-07-05 and the company's own media kit begins "1994 \| July \| Company Incorporated"; the only earlier-anchored facts are personal (the 1993 marriage; D. E. Shaw employment Dec 1990–Jun 1994), neither an act of the entity. The start label this row replaces is therefore founder pre-history, contested as a founding date → U.1 lineage | 10-K405 FY1997, 1998-03-30, Item 10 bio [T1 · FACT] [B-63]; S-1 (orig.), 1997-03-24, Ex. 10.12 + Management + Certain Transactions [T1 · FACT] [A-37, A-04, A-51, H-07–H-09]; Verisign RDAP, retrieved 2026-09-23 [T1 · FACT] [A-42, A-43]; company media kit [T3 · RETRO] [B-113] | **High** (1994-07-05 as the documented start); **Low** (1993 as an Amazon event); **High** (that no source supports it) |
 
@@ -212,7 +238,7 @@ judgment on 1996, recorded as evidence about the climate, not about Stage 1.
 | Web identities | relentless.com 1994-09-25; amazon.com 1994-11-01, ~8 months before any recorded sale; relational.com 1995-04-23; registrants unverified | Verisign RDAP, retrieved 2026-09-23 [T1 · FACT] [A-42, A-43] | Medium-High (date) / Low (holder) |
 | Tax status | Subchapter S from inception; **C elected effective 1995-03-31 "with the consent of its stockholders"**; $107,000 of cumulative losses reclassified to common | S-1 (orig.), 1997-03-24, Note 1 [T1 · FACT] [A-47, H-04, E-33] | High |
 | Premises | No filing names the Bellevue house; first address of record is a SODO sublease, 2250 First Avenue South, effective **1996-02-01**, $7,200/month, $21,600 deposit — after the boundary. FY1995 rent $12,000, building unidentified; $0 leasehold improvements at 1995-12-31 is the only evidenced footprint fact | S-1 (orig.), 1997-03-24, Ex. 10.31, Note 5 [T1 · FACT] [G-07, H-23] vs HistoryLink/Kaphan [T2/T3 · RETRO] | High (sublease); Medium (Bellevue); UNKNOWN (sq ft) → U.10 |
-| People | Kaphan VP **Research and Development** from Oct 1994 (option letter effective 1994-10-24); Davis "a month later"; **11 employees at 1995-12-31** (filed at that date in S-1/A No. 3/No. 5, "expanded from 11 to 256 employees"; the original S-1 states the same 11 as its 1996-01-01 count) plus unquantified contractors/temps → U.17, U.27 | S-1/A No. 3 + S-1/A No. 5, Risk Factors [T1 · FACT]; S-1 (orig.), Risk Factors (corroboration) [T1 · FACT]; Kaphan 2011 [T3] [A-51, B-66, H-21, H-22] | High (count, Kaphan); Medium (Davis) |
+| People | Kaphan VP **Research and Development** from Oct 1994 (option letter effective 1994-10-24); Davis "a month later"; **11 employees at 1995-12-31** (filed at that date in S-1/A No. 3/No. 5, "expanded from 11 to 256 employees"; the original S-1 states the same 11 as its 1996-01-01 count) plus unquantified contractors/temps → U.17, U.27 | S-1/A No. 3 + S-1/A No. 5, Risk Factors [T1 · FACT]; S-1 (orig.), Risk Factors [T1 · FACT — same lineage as S0801: a restatement, not corroboration]; Kaphan 2011 [T3] [A-51, B-66, H-21, H-22] | High (count, Kaphan); Medium (Davis) |
 | Capital raised in Stage 1 | $10,000 founder; $60,000 equity cash in the 1994 stub; **$1,272,000 common-equity cash in CY1995**, of which ~$295,568 traces to three named insiders and **≈$976,000 (±$1,000) is un-named** — of which the audited statement and Item 5 disclose only three legs, the $5,408 August-1995 employee purchase, $150,000 of advances for shares not yet issued and less $50,000 received in 1994 (**$105,408**); the balance of the residual is **UNKNOWN** as to attribution, since the share-count denominator behind the former "≈$871,000 of unaffiliated December-1995 program purchases" leg is unfiled and that leg is retracted (§P.2 d8a, U.8, incl. its RETRACTED-FIGURE RECORD); **not** option proceeds, which the equity statement prices at $0 for 1995. Share count at the boundary is filed: **14,555,244** | S-1 (orig.), 1997-03-24, Statements of Cash Flows + Statements of Stockholders' Equity + Certain Transactions [T1 · FACT/DERIVED] [E-84, E-85, E-90] | High (totals); Low (attribution) |
 | The first money round: told vs filed | **Told:** "$1.1M from 22 friends and family at ~$50,000 each, ~20% for a ~$5M valuation" — structure **untraced** (COR-09). **Filed:** a Section 4(2) placement of 3,021,000 shares to **23 purchasers** at ≈$0.3333 for **$1,007,000**, subscriptions **1995-12-06 → 1996-05-16**, so **most of it is post-boundary**; plus an earlier priced tranche of 2,012,772 shares to three founder-related investors at ≈$0.1717 for **$345,525**, and a third, LOWER 1995 price point the merge had missed: **42,000 shares to one investor who is an employee on 1995-08-07 at ≈$0.1287 for an aggregate of $5,408** → U.8 | S-1 (orig.), 1997-03-24, Part II Item 5 ¶2–¶4 and Certain Transactions [T1 · FACT] [H-11, E-26] vs GeekWire 2013-12-01 quoting CBS [T3 · FOUNDER CLAIM · RETRO] [A-90] | Low (told); High (filed) |
 | Supply | Buy-per-order; "no long-term contracts or arrangements with any of its vendors"; Ingram **59% of 1996** purchases (post-boundary); distributors stocked ~350,000 titles, supplying ≤400,000 offered (1997 disclosure) → U.40 | S-1 (orig.)/S-1/A No. 5 [T1 · FACT] [E-16, E-17, E-57, E-18] | High (1996 basis); UNKNOWN (1995 share) |
@@ -281,7 +307,7 @@ Conflicts routed: 1993 vs 1994 founding [B C-7 → stage-boundary table, U.1 lin
 |---|---|---|---|
 | Date | "July 1995" is the only filed date. Competing: Sheff's launch e-mail of Jul 15; "Jul 16, 1995 official launch"; the company's own release counting "its first four weeks of operation," putting counted trading near early September; a claimed invite-only order 1995-04-03. **Day: UNKNOWN** → U.1, U.2 | S-1 (orig.), 1997-03-24, MD&A + Risk Factors [T1 · FACT] [A-59, D-01, D-05]; press release dated 1995-10-04 (indexed 1995-10-03) [T1 · FACT as claim] [D-11]; Sheff/HistoryLink [T2/T4 · RETRO] [B-48, D-08] | High (month); **Low (day)** |
 | Location | amazon.com, run from a Bellevue rental house and a small SODO, Seattle facility; all sales through one Seattle warehouse; no Stage-1 address in any filing | S-1 (orig.), Note 5 [T1 · FACT] [E-21]; HistoryLink [T2 · RETRO]; Kaphan [T3 · RETRO] | Medium-High → U.10 |
-| Founders / present | Bezos (President and Chairman, **not** CEO), Kaphan from Oct 1994, Davis from Nov 1994, **11 employees at 1995-12-31** (filed at that date in S-1/A No. 3/No. 5; the original S-1 states the same 11 as its 1996-01-01 count), plus contractors and temps. **No co-founder appears in the record** | S-1/A No. 3 + No. 5, Risk Factors; S-1 (orig.), Risk Factors (corroboration) [T1 · FACT] [A-51, H-25, E-31] | High → U.26, U.27 |
+| Founders / present | Bezos (President and Chairman, **not** CEO), Kaphan from Oct 1994, Davis from Nov 1994, **11 employees at 1995-12-31** (filed at that date in S-1/A No. 3/No. 5; the original S-1 states the same 11 as its 1996-01-01 count), plus contractors and temps. **No co-founder appears in the record** | S-1/A No. 3 + No. 5, Risk Factors; S-1 (orig.), Risk Factors [T1 · FACT — same lineage as S0801: a restatement, not corroboration] [A-51, H-25, E-31] | High → U.26, U.27 |
 | Customer | Not established. The "first book sold" is a company legend with **conflicting titles** — Hofstadter's *Fluid Concepts and Creative Analogies* (company page, media kit) vs "a science textbook" (Seattle Times 2005) — and no 1995 order record | aboutamazon.com, undated [T1 corporate artifact / T4 as 1995 evidence · FOUNDER CLAIM]; Seattle Times 2005-07-10 [T2 · RETRO] [A-71, A-72, G-15] | Low (event); High (asserted) → U.2 |
 | Price | Advertised 10–40% off list; shipping reported $3.00 per order plus $0.95 per book; realised blended discount **UNKNOWN**; the $27.95 figure belongs to the legend, not to a measured price → U.18 | press release dated 1995-10-04 [T1 · FACT as claim] [E-72]; Knight Ridder Nov 1995 via aggregator [T3-of-T1, chain incomplete] [D-18]; LA Times 1996-12-11 [T1] [D-51] | High (advertised); UNKNOWN (realised) |
 | Payment mechanism | Card typed on the site, or given off-web by e-mail or telephone, with a **toll-free line** maintained precisely for customers unwilling to enter a card number (S-1 (orig.), l.2179–2180); ordering **by fax** is attested only by the Nov-1995 Knight Ridder feature — the word "fax" occurs zero times in the ordering text of all three S-1 versions, and the 1995-10-04 release says only that customers order online. Acceptance ran only on Bezos's personal guarantees (Seafirst Nov 1994; Wells Fargo Jul 1995); amounts undisclosed | S-1 (orig.), 1997-03-24, Business — Customer Service (l.2179–2180) + Ordering + Certain Transactions [T1 · FACT]; Knight Ridder Nov 1995 via aggregator [T3-quoting-T1, chain incomplete] [D-53, D-18, E-39, H-07, H-08] | High (web/e-mail/phone, toll-free line, filing) / **Medium (fax, press)** → U.23, U.24 |
@@ -867,7 +893,7 @@ as such. Source labels are corrected per COR-01/COR-02: **S-1 (orig.)** = acc. 0
 | P39 | 1995-12-31 | Inventory carried, at cost | **17,000** | USD, at cost | **S-1 (orig.), balance sheet l.3429 "Inventories … 17" — a filed audited line** (AUDIT 3 reclasses d16 from DERIVED to FACT); cash-flow movement l.3630 is corroboration, and only the 1994 $0 opening is inferred | 1997-03-24 | **FACT (audited)** | High → U.10 |
 | P40 | 1995-12-31 | Inventory as % of FY1995 net sales | ≈3.3 (exact 3.33) | % | DERIVED P.2 d17 | 1997-03-24 | DERIVED | Medium |
 | P41 | 1995-12-31 | Long-term obligations | 0 | USD | S-1 (orig.), Selected Financial Data | 1997-03-24 | FACT (audited) | High |
-| P42 | **1995-12-31** | Employees — **filed at 1995-12-31** by S-1/A No. 3 and No. 5 ("From December 31, 1995 to March 31, 1997, the Company expanded from 11 to 256 employees"); the original S-1 states the same 11 with a 1996-01-01 anchor ("from January 1, 1996 to December 31, 1996 … 11 to 151 employees"), which corroborates the count rather than displacing the date, and does not style it "full-time" (see U.17). **COR-12 supersedes COR-03 (2026-09-23): the count is filed at 1995-12-31 in S-1/A No. 3/No. 5.** The FY1997 10-K405 discloses no 1995 headcount and is struck as a co-source | 11 | persons | S-1/A No. 3 + S-1/A No. 5, Risk Factors; S-1 (orig.), Risk Factors (corroboration) | 1997-05-09 / 1997-05-14; 1997-03-24 | FACT | High |
+| P42 | **1995-12-31** | Employees — **filed at 1995-12-31** by S-1/A No. 3 and No. 5 ("From December 31, 1995 to March 31, 1997, the Company expanded from 11 to 256 employees"); the original S-1 states the same 11 with a 1996-01-01 anchor ("from January 1, 1996 to December 31, 1996 … 11 to 151 employees"), and because that is the **first state of the same registration statement** it neither displaces the date nor stands as a second confirmation: it is **version evidence on the count, not corroboration** (method §3 filing-lineage rule), and it does not style it "full-time" (see U.17). **COR-12 supersedes COR-03 (2026-09-23): the count is filed at 1995-12-31 in S-1/A No. 3/No. 5.** The FY1997 10-K405 discloses no 1995 headcount and is struck as a co-source | 11 | persons | S-1/A No. 3 + S-1/A No. 5, Risk Factors; S-1 (orig.), Risk Factors (same lineage as S0801 — restatement, not corroboration) | 1997-05-09 / 1997-05-14; 1997-03-24 | FACT | High |
 | P43 | 1995-12 | Average daily visits (filing says explicitly "not 'hits'") | ≈2,200 | visits/day | S-1 (orig.), Prospectus Summary | 1997-03-24 | FACT (company self-measured) | High (as disclosed) |
 | P44 | FY1995 | Net sales per employee at year end | ≈$46,000/person (exact $46,455) | USD/person | DERIVED P.2 d18 — denominator is a year-end count, so it flatters productivity | 1997-03-24 | DERIVED | Low-Medium |
 | P45 | 1994 / 1995 | Rental expense under operating leases | 2,000 / 12,000 | USD | S-1 (orig.), Note 5 | 1997-03-24 | FACT (audited) | High |
@@ -922,7 +948,11 @@ prices; on the filing's exact ⅓ (`$1,007,000 ÷ 3,021,000 = 0.33333…`, orig.
 not compute. The two conventions differ by **0.02 percentage points** (94.12 vs 94.14), not 1.1, so there is no
 ±1.1-point band to state; to yield +95.2% the February price would have to be **$0.1708**, and the filed price is
 **$0.1717** (orig. l.2864). What the ⅓ does change is the *money*, not this ratio — see d7's ±$5 and d8a. Both inputs
-are filed; neither is a valuation. d7 `100,020.06 + 145,552.84 + 49,995 = **$295,567.89 → $295,568**` — **the old note was INVERTED (AUDIT 3
+are filed; neither is a valuation. d7 `100,020.0576 + 145,552.8372 + 49,995 = 295,567.8948 → **$295,567.89 → $295,568**`
+— **printed terms corrected 2026-09-24 (AUDIT 6 item 3 residual, mirrored at `quantitative.csv` L34):** this row used
+to print its addends at cents (`100,020.06 + 145,552.84 + 49,995`) and then a total those printed addends do not
+produce, since they foot to $295,567.90; the total is the sum at full precision, so the full-precision products are
+printed beside it and the field is re-runnable from what it shows. **the old note was INVERTED (AUDIT 3
 MEDIUM):** it offered $295,567 as the sum and $295,568 as a "dossier rounding", when $295,568 is the accurate
 rounded total and $295,567 was the artifact of the bad d4 product. **Price convention stated:** on the filing's
 exact ⅓ for the Alberg leg ($50,000 rather than $49,995) the total is **$295,572.89**, so **±$5 is the only honest
@@ -1136,7 +1166,7 @@ span is the re-based boundary; the **Start** column states the position at the f
 | Variable | Value (Stage 1 start 1994, documented anchor 1994-07-05 → Stage 1 end 1995-12-31) | Source | Confidence |
 |---|---|---|---|
 | Founders | **Start:** one signatory — Jeffrey P. Bezos subscribes 1,700,000 shares for $10,000 as sole subscriber of Cadabra, Inc.; co-founder status of Kaphan and MacKenzie Tuttle is asserted only in retrospective/tertiary tellings, and Tuttle appears in no filing (documented null). **End:** Bezos, President and Chairman at the boundary and **CEO only from May 1996** — the TITLE SEQUENCE is cited to the **10-K405 FY1997, Item 10 officer biography table** (l.960–972 area; S0805 already carries "CEO only from May 1996"), NOT to the S-1 spine, because the S-1's own Certain Transactions sentence calls him "the President, Chief Executive Officer and Chairman of the Board" while describing the July 1994 purchase (orig. l.2847–2849): that is the filing's PRESENT-TENSE style as of 1997, not a 1994 title claim, and citing the S-1 for the sequence invites a false conflict (AUDIT 3, LOW). Kaphan VP R&D since Oct 1994; legal founder status remains sole-shareholder-founded on the filed record → U.26, U.27, U.28 | 10-K405 FY1997, Item 10 (officer dates); S-1 (orig.), Ex. 10.12 + Certain Transactions l.2847–2849 [T1 · FACT]; nulls across both accessions [T1] | High |
-| Employees | **Start:** 1 signatory + 0 documented employees; earliest hire Kaphan Oct 1994, Davis ~Nov 1994; 1994 headcount otherwise UNKNOWN. **End:** **11 employees at 1995-12-31** — the count is filed on that date by S-1/A No. 3 (1997-05-09) and No. 5 (1997-05-14): "From December 31, 1995 to March 31, 1997, the Company expanded from 11 to 256 employees"; the original S-1's "from January 1, 1996 to December 31, 1996 … from 11 to 151 employees" is independent corroboration of the same population at the 1995/96 turn, not a competing date (see U.17); pre-Dec-1995 1995 headcount UNKNOWN; memoir "four" is Low; **151 (1996-12-31) and 256 (1997-03-31) are post-boundary counts of different dates and are not reconciled** | S-1/A No. 3 + S-1/A No. 5, Risk Factors [T1 · FACT]; S-1 (orig.), Risk Factors [T1 · FACT — corroboration]; Sheff [T2 · FOUNDER CLAIM · RETRO] | High |
+| Employees | **Start:** 1 signatory + 0 documented employees; earliest hire Kaphan Oct 1994, Davis ~Nov 1994; 1994 headcount otherwise UNKNOWN. **End:** **11 employees at 1995-12-31** — the count is filed on that date by S-1/A No. 3 (1997-05-09) and No. 5 (1997-05-14): "From December 31, 1995 to March 31, 1997, the Company expanded from 11 to 256 employees"; the original S-1's "from January 1, 1996 to December 31, 1996 … from 11 to 151 employees" is the **first state of the same registration statement** — version evidence on the same population at the 1995/96 turn, **not** a second corroboration and not a competing date (method §3 filing-lineage rule; see U.17); pre-Dec-1995 1995 headcount UNKNOWN; memoir "four" is Low; **151 (1996-12-31) and 256 (1997-03-31) are post-boundary counts of different dates and are not reconciled** | S-1/A No. 3 + S-1/A No. 5, Risk Factors [T1 · FACT]; S-1 (orig.), Risk Factors [T1 · FACT — same lineage as S0801, a restatement and not corroboration]; Sheff [T2 · FOUNDER CLAIM · RETRO] | High |
 | Product | **Start:** no product; pre-revenue build — legal existence plus a registered domain from 1994-11-01. **End:** live Web storefront at amazon.com, advertised as >1,000,000 titles with 10–40% discounts, search-led, ordered **online** (company release) with card details also acceptable by e-mail or telephone and a toll-free line for the card-shy (S-1 (orig.), l.2179–2180), **fax** per the Nov-1995 press only, shipped by UPS/Airborne Express | S-1 (orig.), Business — Ordering/Customer Service [T1 · FACT]; press release dated 1995-10-04 [T1 · FACT as claim — online ordering, titles, discounts, carriers, phone number]; Knight Ridder Nov 1995 [T4-quoting-T1 — fax] | High / Medium per tag |
 | Technology | **Start:** UNKNOWN — no filing, page or document names a language, OS, database or server for the 1995 system. **End:** same UNKNOWN ceiling; evidenced in the 1997 filing describing 1995–96: two ISPs (UUNet, Interconnected Associates) over "multiple dedicated T1 lines", licensed encryption/authentication unnamed, transaction system **not integrated** with accounting, nine customer-service e-mail addresses; $73,000 of computers + $8,000 of software owned | S-1 (orig.) + S-1/A No. 5, Business — Technology [T1 · FACT]; Kaphan 2011 [T3 · RETRO] for the C/NCSA/Oracle stack | High (filing); Medium (stack); UNKNOWN (language/OS) → U.23, U.26 |
 | Customers | **Start:** zero — $0 net sales for the 179-day stub; "For the period from inception through July 1995, the Company had no sales". **End:** paying customers in all 50 states and 45+ countries **as claimed by the company** on 1995-10-04; account counts for 1995 were never disclosed (≈180,000 is a 1996-12-31 figure, post-boundary) | S-1 (orig.), MD&A + Note 1 [T1 · FACT]; press release dated 1995-10-04 [T1 · FOUNDER CLAIM] | High / Low-that-verified → U.1 |
@@ -1201,9 +1231,9 @@ corroboration.
 |---|---|---|---|---|---|---|---|
 | Amazon.com **Form S-1 (original)**, incl. Exhibits 10.12, 10.13, 10.14, 10.15, 10.16, 10.22/10.20, 10.28–10.31, 2.1; acc. 0000891618-97-001309 | SEC filing | Primary | 1994-07 → 1997-03 | 1997-03-24 | https://www.sec.gov/Archives/edgar/data/1018724/000089161897001309/0000891618-97-001309.txt | 1 | High — **restored**, 1,445,709 B. **Ancestor of nearly everything below**; one instrument, not many (COR-02: "Cadabra/1,700,000/sole stockholder" exist **only here**) |
 | Amazon.com **Form S-1/A No. 5**; acc. 0000891020-97-000839 | SEC filing | Primary | 1994-07 → 1997-05 | 1997-05-14 | https://www.sec.gov/Archives/edgar/data/1018724/000089102097000839/0000891020-97-000839.txt | 1 | High — **restored**, 303,069 B (a 301,685 B copy also on disk). **Second accession of one registration statement with the original: one instrument, not a second source** (method §3 filing-lineage rule; A-B1). Disclosures repeated in both **gain no independence** — the ISP connectivity, non-integrated accounting, nine e-mail addresses and order-splitting items are restatements, `same lineage as S0801`. This accession earns a citation of its own **only where the original lacks the content**: the Item 5 affiliation split of the 23 purchasers (l.4665–4668) and the "from December 31, 1995 … 11 to 256 employees" anchor (l.796) are its own, and are version evidence, not corroboration of the original. **Previously mislabeled "the S-1"** → U.19 |
-| Amazon.com **Form S-1/A No. 3**; acc. 0000891020-97-000755 | SEC filing | Primary | 1997-05 | 1997-05-09 | https://www.sec.gov/Archives/edgar/data/1018724/000089102097000755/ | 1 | High — **restored**, 306,425 B. The adversarial dossier's "Amendment No. 4, 9 May 1997" is **No. 3** by the file's own label |
-| Amazon.com **Form 10-K405**, FY1997; acc. 0000891020-98-000448 | SEC filing | Primary | FY1997 (restates 1994–95) | 1998-03-30 | https://www.sec.gov/Archives/edgar/data/1018724/0000891020-98-000448.txt | 1 | High — **restored**, 607,959 B. Largely repeats the S-1 text; its Part III related-party item defers to a **1998 proxy not on disk** |
-| Amazon.com final prospectus 424B1 / S-1/A No. 6; acc. 0000891020-97-000847, -000868 | SEC filing | Primary | 1997-05 | 1997-05-15 | https://www.sec.gov/Archives/edgar/data/1018724/0000891020-97-000868.txt | 1 | Medium — **restoration pending** |
+| Amazon.com **Form S-1/A No. 3**; acc. 0000891020-97-000755 | SEC filing | Primary | 1997-05 | 1997-05-09 | https://www.sec.gov/Archives/edgar/data/1018724/000089102097000755/ | 1 | High — **restored**, 306,425 B. The adversarial dossier's "Amendment No. 4, 9 May 1997" is **No. 3** by the file's own label. **Third state of one registration statement: `same lineage as S0801`, so content it shares with the original and with No. 5 is a restatement and NOT a corroboration** (method §3 filing-lineage rule; A-B1, demoted here 2026-09-24). It earns a citation of its own only where the earlier states lack the content — the "from December 31, 1995 … 11 to 256 employees" headcount anchor (l.797) is one such item |
+| Amazon.com **Form 10-K405**, FY1997; acc. 0000891020-98-000448 | SEC filing | Primary | FY1997 (restates 1994–95) | 1998-03-30 | https://www.sec.gov/Archives/edgar/data/1018724/0000891020-98-000448.txt | 1 | High — **restored**, 607,959 B. **Not an independent confirmation of anything it repeats: it restates the S-1 lineage (`same lineage as S0801`), and the 1997 registration-statement family plus this annual report are one documentary ancestry for the shared content** (method §3; demoted here 2026-09-24, replacing the bare "Largely repeats the S-1 text"). Its Part III related-party item defers to a **1998 proxy not on disk** |
+| Amazon.com final prospectus 424B1 / S-1/A No. 6; acc. 0000891020-97-000847, -000868 | SEC filing | Primary | 1997-05 | 1997-05-15 | https://www.sec.gov/Archives/edgar/data/1018724/0000891020-97-000868.txt | 1 | Medium — **on disk, restored 2026-09-24**: `sources/424B1_final-prospectus_acc-0000891020-97-000868_filed-1997-05-15.txt`, 266,755 B, so the `restoration pending` this row carried is stale (it was recorded before the file landed, RD-027/R-8). **It is not read into this volume:** no Stage-1 claim here is cited to it and nothing was re-derived from it, because a closure pass may not import a primary into the corpus it is closing; COR-14.1's P60/P61 citation item stays with the retrieval owner. **Fourth state of one registration statement: `same lineage as S0801` — agreement with the S-1/S-1/A text is version evidence and never a second corroboration** (method §3; demoted here 2026-09-24) |
 | Amazon.com press release, **"World's Largest Bookseller Opens on the Web"** | Company self-description | Primary | site live 1995-10 | **dated 1995-10-04 (indexed 1995-10-03)** | https://press.aboutamazon.com/1995/10/worlds-largest-bookseller-opens-on-the-web | 1 | High — **restoration pending** (only a summarised extract was captured; HTML never saved). **Ancestor of** >1M titles, 10–40%, UPS/Airborne, 50-states/45-countries, four-weeks, channel listings, phone number, reader contributions and the Bezos quotation — one self-reported source → U.16, U.18 |
 | Amazon.com press release, "Shopping for Books on the Internet Isn't Just for Tech Buyers Anymore" | Company self-description | Primary | 1996-06 | 1996-06-14 (indexed 06-13) | https://press.aboutamazon.com/1996/6/shopping-for-books-on-the-internet-isnt-just-for-tech-buyers-anymore-amazon-com-worlds-largest-bookseller-tracks-whos-buying-online | 1 | High — **restoration pending**; **post-boundary**; one of only two sources carrying Bezos's contemporaneous words |
 | Amazon.com press release, "Amazon.com Announces 1996 Bestsellers" | Company release | Primary | 1996-12 | 1997-01-08/09 | https://press.aboutamazon.com/1997/1/amazon-com-announces-1996-bestsellers | 1 | High — **restoration pending**; post-boundary |
@@ -1248,7 +1278,11 @@ corroboration.
 
 ## U. CONFLICTING EVIDENCE
 
-**42 canonical conflicts, U.1–U.42.** Numbering is fixed by `_parts/U_CONCORDANCE.md`, which folds three
+**43 canonical conflicts, U.1–U.43.** *(Preamble count corrected 2026-09-24 by the AUDIT-6 pass: this line
+read "42 canonical conflicts, U.1–U.42" for two rounds after U.43 was appended, so a reader who stopped at
+the §U header was told 42 nineteen lines before the first block; the tail notes at the end of this section
+always said 43, and the count now matches the 43 `**U.n — …**` blocks and the 43 rows of `conflicts.csv`.)*
+Numbering is fixed by `_parts/U_CONCORDANCE.md`, which folds three
 independent local numberings (claims_KU U.1–U.13, p4's narrative U1–U9, claims_AJ's 46-item key, plus the H
 addendum's "U8") into this spine; the concordance is the mapping the claim-record appendix is rewritten
 against. **Nothing here is reconciled silently:** every contradiction keeps both sides, with an evidence
@@ -1524,6 +1558,9 @@ Alberg) are four of the 23 or four of the earlier tranche.
 
 **RETRACTED-FIGURE RECORD (verify-3 F-3 / RD-031), kept inside this conflict rather than minted as a new id, because
 the canonical spine is fixed at U.1–U.42 by `_parts/U_CONCORDANCE.md` and this dossier does not extend it unilaterally.**
+*(Spine note, 2026-09-24: **U.43 has since been appended** under the append-only id rule, so the spine runs
+U.1–U.43 — the reason stated here still holds, because appending happens at the end of the spine and never by
+minting an id inside a conflict.)*
 **CLAIM A — $871,024:** the first numbers repair's value for the residual's fourth leg, retracted by its own successor as a
 back-solved balancing plug (`1,272,000 − 295,568 − 5,408 − 150,000 + 50,000`). **CLAIM B — $871,000:** adopted in that same
 round as "the true third", `2,613,000 ÷ 3`, cited to orig. l.4301–4302, which contains 3,021,000 / 23 investors / $.3333 /
@@ -1757,8 +1794,10 @@ for which no filing discloses a number at all.
 151/158 dispute; the memoir figures are Tier 2/3 and non-independent. The FY1997 10-K405 discloses **no 1995
 headcount at all** (its series begins at 158 / 1996-12-31) and may not be cited for the 11.
 **BEST-SUPPORTED INTERPRETATION:** the Stage-1 end snapshot states **11 employees at 1995-12-31**, cited to
-S-1/A No. 3/No. 5, with the original S-1's 1996-01-01 phrasing recorded as **corroboration of the same
-population** rather than substituted for it (COR-12). "11" is **not** styled "full-time" at that point. Keep
+S-1/A No. 3/No. 5, with the original S-1's 1996-01-01 phrasing recorded as **the first state of the same
+registration statement — version evidence on the same population, not a corroboration** (method §3; the wording
+this cell carried, "corroboration of the same population", was struck across the corpus on 2026-09-24 on AUDIT
+6 item 9) rather than substituted for it (COR-12). "11" is **not** styled "full-time" at that point. Keep
 **151 and 158 side by side labelled "restatement of unknown basis"**, not "error", and keep **256** on its own
 1997-03-31 date; record all 1994 and mid-1995 headcounts as UNKNOWN. **151, 158 and 256 are all
 post-boundary** and may appear only in the consequence column; 158 may not be used at all without its own
@@ -2225,10 +2264,23 @@ already reads → **U.43**, where the directory-placement and borrowed-credibili
 U.21's "absorbs claims_AJ's U.41" (a **superseded part-local key**, per `_parts/U_CONCORDANCE.md`, which maps
 claims_AJ U.41 → canonical **U.21**); U.42's scope range "the same treatment in U.1–U.41" (with its own spine
 note); and U.43's history sentence naming the three routes (§D.1, §H, §R) this question used to take here, all of
-which now read → U.43. Register mirror: `conflicts.csv` r42 = U.41 and r44 = U.43, on 43 rows for 43 canonical
-ids; `stage_1_claim_records.md` F17 and J12 key `Conflicts: U.41` (both Associates rows, correct), while its E01–E06
-artifact rows key to U.21, and `sources.csv` S0608 keys the Associates start date to U.41. **Live pointers to U.41:
-1; canonical U.41 blocks: 1 — they match, and no pointer was deleted for want of a target.**
+which now read → U.43. **Register mirrors, re-derived across the whole register set on 2026-09-24 (AUDIT 6
+item 7 named residual / item 13):** the first version of this note counted only `conflicts.csv`,
+`stage_1_claim_records.md` and `sources.csv` and asserted a match on that scope — a sweep scoped to the files
+the auditor happened to have open, which is the same failure mode this volume is closing for elsewhere. Read
+properly, the split is **prose pointers** versus **register keys**, and `timeline.csv` belongs in the second
+list and was missing from it. As corrected: `conflicts.csv` r42 = U.41 and r44 = U.43, on 43 rows for 43
+canonical ids; `stage_1_claim_records.md` F17 and J12 key `Conflicts: U.41` (both Associates rows, correct),
+while its E01–E06 artifact rows key to U.21; `sources.csv` S0608 keys the Associates start date to U.41; and
+`timeline.csv`, which before this round held **zero** references to either U.41 or U.43 and had **two** rows
+mis-keyed to U.16 — the Associates Program row (1996-07, 4,800+ members: U.41's subject verbatim) and the
+Netscape/Yahoo directory row whose notes restate U.43's claim pair — **both re-keyed to their canonical home
+on 2026-09-24, with the old key recorded inside each row's notes so the route is auditable**. **Live pointers
+to U.41 inside the prose volume:
+1; canonical U.41 blocks: 1 — they match, and no pointer was deleted for want of a target.** Across the
+register set the U.41 mirrors are now `conflicts.csv` r42, claim records F17 and J12, `sources.csv` S0608 and
+`timeline.csv`'s Associates row, and U.43's are `conflicts.csv` r44 and `timeline.csv`'s directory row; every
+one of them is on-subject.
 
 **U.42 — Fortune's self-conflict on the Walmart streak (universe-level precedent; not Amazon evidence).**
 *p4's U8, re-keyed. Retained because deleting it would lose the method ruling it licenses.*

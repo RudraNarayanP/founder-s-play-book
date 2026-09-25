@@ -18,20 +18,32 @@ to read. **Nothing in this directory is a cleanup target** (§14 rule 4): the du
 `_parts/` volumes and the harvest-run scratch files in `../../../tools/` (`_dryrun_20260924.txt`,
 `_live_run_20260924.log`) are all left exactly where they are.
 
+**AUDIT-6 repair pass, 2026-09-24 — status of this register.** The word and byte counts below were generated
+by the numeric/causal closure pass and are **stale for the ten files that the AUDIT-6 repair pass then
+edited** (`stage_1.md`, `stage_1_claim_records.md`, `context_appendices.md`, `CORRECTIONS.md`, `sources.csv`,
+`quantitative.csv`, `conflicts.csv`, `validation.csv`, `failures.csv`, `timeline.csv`, plus
+`_parts/s1_p4.md` and `_parts/s1_p3b_H_addendum.md`; every one of them grew, none was trimmed). Regeneration
+is **deliberately deferred**, not forgotten: `_parts/s2_p*.md` and `research/ST2_*.md` are being written
+concurrently by other agents, so a full-directory snapshot taken now would freeze a mid-flight state and
+replace one stale count with another that looks authoritative. §9.1/§9.2 ceilings are unaffected and the two watched files were measured on this pass: `stage_1.md` grew
+from 49,258 to **50,654 words (84% of the 60,000 cap)** and `stage_1_claim_records.md` from 51,632 to
+**52,549 (88%)** — both still under the cap, neither split, and no file crossed a ceiling on this pass. What
+else changed is recorded per row below.
+
 ## Deliverables (read these)
 
 | File | Words | Bytes | Contents | Upload batch | Status |
 |---|---|---|---|---|---|
 | `stage_1.md` | **49,258** | 320,164 | Header (incl. the filing-lineage ruling, 2026-09-24), stage-boundary justification, §A–§U; **43 canonical conflicts U.1–U.43** | 1 | AT QA — amber band (§9.2: 40–60k allowed to finish as one file); 82% of the 60,000 cap |
 | `stage_1_claim_records.md` | **51,632** | 336,161 | Appendix: 432 claim records B–U with `[src: …]` traces, the §T provenance table and the 2026-09-24 closure addendum | 1 | AT QA — 86% of cap; split is **not** yet required, and the trigger is §9.3 geometry (a section boundary), never a trim |
-| `context_appendices.md` | 10,882 | 72,450 | Environment appendices A–J | 1 | MERGED — **carries three sites the 2026-09-24 closure could not reach** (see Residual defects, and `03_quality_control/amazon_s1_numeric_closure_final.md` §5) |
+| `context_appendices.md` | 10,882 | 72,450 | Environment appendices A–J | 1 | MERGED — **the three sites the 2026-09-24 closure could not reach were reached by the AUDIT-6 repair pass on the same date**: §I "Capital raised inside Stage 1" (a Value cell running the retracted $871,000 / 2,613,000 / $976,408 composition, now a RETRACTION with the composition at UNKNOWN), §G gap row 12 (same leg, same fix), and §I's headcount row plus §F's T1-line row (both counted the original S-1 as corroborating its own amendments; demoted to method §3's version-evidence wording). Audit trail: `03_quality_control/audit6_repairs.md` IR-04/05/13 |
 | `adversarial_review.md` | 4,611 | 29,565 | 30 origin-story elements: 4 well supported / 18 contested / 8 unsourced folklore | 1 | COMPLETE |
 | `CORRECTIONS.md` | 2,777 | 18,355 | Binding provenance corrections COR-01…COR-14 | 1 | LIVING — append, never rewrite history |
 | `quantitative.csv` | 7,914 | 60,014 | 111 data rows × 12 cols; `derived_arithmetic` populated on exactly the 30 DERIVED/ESTIMATE/INFERENCE rows | 2 | AT QA — validated 2026-09-24 |
 | `conflicts.csv` | 13,102 | 87,680 | 43 data rows × 15 cols, keyed to canonical **U.1–U.43** | 2 | AT QA — U.43 appended 2026-09-24 |
 | `validation.csv` | 2,225 | 16,823 | 29 data rows × 11 cols | 2 | AT QA — r9 re-keyed 2026-09-24 |
 | `data_gaps.csv` | 2,613 | 18,343 | 23 data rows × 8 cols; every High-importance row carries a follow-up task | 2 | AT QA — r11 rewritten 2026-09-24 |
-| `sources.csv` | 14,778 | 116,434 | Global provenance register, blocks S0001–S1899, `independence_note` per row | 2 | UNTOUCHED this pass — **not in the closure agent's write scope**; its S0803 `independence_note` still asserts amendment independence (residual defect) |
+| `sources.csv` | 14,778 | 116,434 | Global provenance register, blocks S0001–S1899, `independence_note` per row | 2 | **Touched by the AUDIT-6 repair pass (2026-09-24), which had it in scope**: the S0801 and S0803 `independence_note` residual named here is CLOSED — S0801 no longer says the four amendment-stage items "gain independence" and S0803 no longer calls them "independent corroboration"; both now read as restatements under method §3, and S0801 carries the SEC File No. 333-23795 proof cited in `CORRECTIONS.md` COR-12's A-B1 closure note. 102 rows × 18 cols re-parsed unchanged |
 | `timeline.csv` | 3,069 | 24,839 | 57 data rows × 11 cols | 2 | STABLE this pass |
 | `decisions.csv` | 1,726 | 13,212 | 15 data rows × 15 cols | 2 | STABLE this pass |
 | `failures.csv` | 2,555 | 19,308 | 33 data rows × 11 cols | 2 | STABLE this pass |

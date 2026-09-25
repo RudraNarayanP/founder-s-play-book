@@ -404,7 +404,9 @@ growth figure in the later legend that appears nowhere in the period record.*
   [C-01]. Amazon's filed stack: "a combination of its own proprietary technologies and commercially
   available, licensed technologies," over "multiple dedicated T1 lines" from **two named ISPs, UUNet
   Technologies and Interconnected Associates** — restated in a second, separately accessioned filing (S-1
-  1997-03-24; S-1/A 1997-05-14; T1, FACT, High, corroboration 2) [F-02; F-87]. Substantially all hardware in
+  1997-03-24; S-1/A 1997-05-14; T1, FACT, High, **corroboration 1 — the second accession is the same
+  registration statement refiled, `same lineage as S0801`, and repetition inside one lineage corroborates
+  nothing: method §3, struck here 2026-09-24 on AUDIT 6 item 9**) [F-02; F-87]. Substantially all hardware in
   **one leased Seattle facility** with "no redundant systems or a formal disaster recovery plan" [F-07]; the
   transaction system "is not integrated with the remainder of the Company's accounting and financial systems"
   [F-06].

@@ -132,3 +132,11 @@ Not folded in: H-21/H-48, H-22/H-49 (headcount, people register) — already in 
 ("11" = the **1996-01-01** count; **151 is post-Stage-1**); H-01/H-03/H-59 — used in U8; H-53/H-60 —
 post-window; H-42/H-44/H-45/H-46 (§230, crypto export transfer, *Quill*) — background law, no evidenced
 Stage-1 nexus (gaps G-H7, G-H12).
+
+**[SUPERSESSION MARKER, added 2026-09-24.]** The phrase "with COR-03's phrasing" above describes the state
+of §B/§J/§R at merge time and is **not** the current text: **COR-03 is SUPERSEDED BY COR-12 (2026-09-23)**.
+Those sections now carry COR-12's ruling — the 11 is filed **at 1995-12-31** in S-1/A No. 3 and No. 5, and
+the original S-1's 1996-01-01 wording is the same registration statement's first state, i.e. version
+evidence and **not** a corroboration (method §3 filing-lineage rule). **151** remains post-Stage-1, which is
+the one limb of the sentence above that COR-12 leaves standing. See `CORRECTIONS.md` (COR-03 banner, COR-12)
+and `stage_1.md` §R Employees.

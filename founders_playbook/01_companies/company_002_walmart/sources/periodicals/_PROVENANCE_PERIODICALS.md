@@ -24,6 +24,80 @@ fails from this environment. Use `https://archive.org/metadata/<id>` → `server
 `https://<server><dir>/<name>_djvu.txt`. The whole printed run is
 `1972-…` through `1997-annual-report-for-walmart-stores-inc` (26 items), plus `walmart199000harv`.
 
+## A-2. Interior years FY1974 · FY1975 · FY1977 · FY1978 · FY1979 — retrieved (Tier 1), second pass 2026-09-24
+
+**Why this section exists.** The five reports below were **not** a corpus absence: they are the
+interior years of the same printed run that produced §A's four files, and they were sitting on the
+host the whole time. Outbound correction `COR-A2-10` (in `../../research/A2_chronology_finance.md`)
+read the nightly harvest (`00_universe/harvest/candidates.csv`, query
+`CP walmart annual-report run 1970-1998 (EXEMPLAR)`, HTTP 200, `retrieved_at 2026-09-24T10:33:13Z`)
+and found the run enumerated **contiguous FY1972 → FY1998 — 27 `TIER1_CANDIDATE` rows, one per
+fiscal year**, i.e. **FY1998 also exists**, which understates this register's own §A route note
+above ("…through 1997…(26 items)"); that line is left in place unedited and is corrected forward
+here. **This pass therefore converted a download gap into primary text: FY1974, FY1975, FY1977,
+FY1978 and FY1979 are now on disk, each carrying its own year's audited table.** All five retrieved
+at **HTTP 200 with an exact byte match against the size declared in the item's own metadata**; the
+reusable route is unchanged (identifier → `metadata/<id>` → `server`+`dir` → `_djvu.txt`).
+Machine-readable proof of every request (URLs as issued, timestamps, `Content-Length`, SHA-256 of
+each body, full lead metadata) is preserved in **`IA_A2_interior_years_fetch_evidence_20260924.json`**
+(26,952 B) in this directory. Reading the "Bytes on disk" column: the figure is the file's total size,
+the first parenthetical number is the prepended provenance header and the second is the **retrieved
+text-layer body as delivered** (LF); on disk that body carries CRLF, so it occupies a few thousand
+bytes more — the header + body figures are therefore *content* measures, not a sum to the total.
+
+| File | Bytes on disk | Retrieved from (URL) | Access date | What it is / what it settles |
+|---|---|---|---|---|
+| `WALMART_AR_1974.txt` | 47,166 (header 5,487 + body 39,954) | https://archive.org/details/1974-annual-report-for-walmart-stores-inc → `metadata` → `https://ia801507.us.archive.org/5/items/1974-annual-report-for-walmart-stores-inc/…_djvu.txt` (HTTP 200, 13:43:15Z, 39,954 B = metadata-declared) | 2026-09-24 | **FY ended 1974-01-31. The cleanest FY1970–FY1974 series in the corpus**: p.1 "Five Year Progress Report" gives, on one legible page, Net Sales $30,862,659 / $44,286,012 / $78,014,164 / $124,889,141 / $167,560,892; income before taxes $2,198,764 → $11,883,754; **pro forma** net income $1,187,764 → $6,158,520; pro forma EPS $.23/$.30/$.47/$.70/$.93; **stores 32 · 38 · 51 · 64 · 78\*** with the footnote **"Two Ben Franklin variety stores were sold and four were closed during the year."** Also: **"twenty-nine year history"** (1974 ⇒ origin 1945); 20 opened / 6 closed FY1974 vs 16 / 3 FY1973; **Marshfield MO Ben Franklin Family Center converted to a 29,100 sq ft Wal-Mart**; **Rogers AR relocated 35,000→56,000 sq ft**; Jonesboro AR (tornado V. 1973) and Berryville AR (fire XII. 1972) rebuilt; 881,630 sq ft added; **twenty-six pharmacies** in leased departments; total store sales incl. leased depts $182,634,000; **Arthur Young opinion, Tulsa, 1974-03-21, unqualified**. ⚠ Text layer is **partial-with-gaps on the statement pages only** (row/column interleaving; the "Net sales" row prints FY1973's figure and prints it as "$124,059, 141") — header in the file lists exactly which rows are affected. |
+| `WALMART_AR_1975.txt` | 66,591 (header 5,680 + body 58,278) | …/details/1975-annual-report-for-walmart-stores-inc → `https://ia800408.us.archive.org/13/items/1975-annual-report-for-walmart-stores-inc/…_djvu.txt` (HTTP 200, 13:43:19Z, 58,278 B = declared) | 2026-09-24 | **FY ended 1975-01-31. Retrieved, and the one year whose own current-year numbers the OCR will not give up.** What IS on the contemporaneous text layer: "Five Year Summary" rows FY1975→FY1971 — **net income 6,353\* / 6,159 / 4,591 / 2,907 / 1,652; EPS .95\* / .93 / .70 / .47 / .30**; cost of sales 176,591/123,339/93,090/58,592/32,825; opex 48,088/33,044/23,848/14,285/8,441; interest 1,800/1,099/592/415/195; taxes 5,855/5,725/4,326/2,662/1,519; current assets 55,860/45,254/32,787/21,069/12,150 — plus Management's Analysis percentages (gross margin **25.2 % vs 26.4 %**, SG&A 20.4 % vs 19.7 %, advertising 1.4 % vs 1.2 %, rent 2.4 % vs 2.2 %) and the quarterly net-income-before-LIFO table. Founding narrative in the company's own words: **Newport, Arkansas 1945** first Ben Franklin; Bud Walton joins "one year later"; **fifteen Ben Franklin stores 1945–1962**; **"Wal-Mart's first Discount City store opened in Rogers, Arkansas (then a town of approximately 4700), in November 1962"**; fleet **100 Wal-Marts + 2 Family Centers + 2 Sav-Co**, AR 37 / MO 36 / OK 15 / KS 6 / TN 6 / LA 2 / MS 1 / KY 1; 26 new stores, 1,083,326 sq ft. **Arthur Young opinion 1975-03-28 carries the LIFO-change exception** ("except for the change, which we approve, in the method of determining inventory cost as described in Note 2"). ⚠ **GAPS: the FY1975 own-column numerals are dropped from every audited statement page** (column head prints "WTjJM 1974"; only FY1974 comparatives survive; balance-sheet 1975 cells render as "KlHHWil", "F^ffftEffjfcjJ"), and the Five Year Summary's **Net sales row carries 4 values against 5 column heads — FY1975's top line is absent** (cf. $226,209 in FY1976's table vs $236,209 in FY1977/FY1978's). FY1975 net sales / total assets / equity ⇒ **page image `_text.pdf`, still UNANSWERED by this pass.** |
+| `WALMART_AR_1977.txt` | 71,075 (header 5,239 + body 62,803) | …/details/1977-annual-report-for-walmart-stores-inc → `https://ia800501.us.archive.org/1/items/1977-annual-report-for-walmart-stores-inc/…_djvu.txt` (HTTP 200, 13:43:24Z, 62,803 B = declared) | 2026-09-24 | **FY ended 1977-01-31.** Cover "Annual Report January 31, 1977". **"Eight-Year Summary" = FY1970→FY1977 in one contemporaneous table**: net sales $30,863 · $44,286 · $78,015 · $124,889 · $167,561 · $236,209 · $340,331 · **$478,807** (thousands); net income … 1,011 · 1,652 · 2,907 · 4,591 · 6,159 · 6,353\* · 11,506 · **16,546**; **stores 32 · 38 · 51 · 64 · 78 · 104 · 125 · 153** (FY1970→FY1977; the **104** for FY1975 — also present in `WALMART_AR_1976.txt` at body lines 1144 / 1580 — cross-checks FY1975's own narrative "100 Wal-Mart Discount City stores, two Family Center stores and two Sav-Co Home Improvement Centers"); EPS primary $1.19 / fully diluted 1.12; dividends .085; total assets 133,158; equity 66,183; ROA 16.5 / ROE 34.1. Founding paragraph: **"first unit was a franchised Ben Franklin variety store, opened in 1945, in Newport, Arkansas by Sam M. Walton. In 1946, his brother, J. L. 'Bud' Walton, opened a similar store in Versailles, Missouri"** … first Discount City **Rogers, Arkansas, 1962**; store sizes 30,000–60,000 sq ft, **average ≈42,000**; thirty-six full-line departments; "Research and Development Committee Formed"; **Arthur Young, Tulsa, 1977-04-01, unqualified**. ⚠ Complete scan, no page missing, but the layer is **column-major reflowed** (labels first, then each year's values as a stacked block) so row↔value pairing is positional, and FY1975's net sales reads **"$236,209"** here against "$2?6,209" in FY1976 — a live 2/3 digit ambiguity for the page image. |
+| `WALMART_AR_1978.txt` | 81,039 (header 5,625 + body 72,300) | …/details/1978-annual-report-for-walmart-stores-inc → `https://ia802902.us.archive.org/14/items/1978-annual-report-for-walmart-stores-inc/…_djvu.txt` (HTTP 200, 13:43:28Z, 72,300 B = declared) | 2026-09-24 | **FY ended 1978-01-31 — and the best OCR of the five, so treat it as the reference copy for FY1970→FY1978.** **"Nine-Year Summary"** inline pair + stacked older columns: net sales **$678,456** / $478,807 / $340,331 / $236,209 / $167,561 / $124,889 / $78,015 / $44,286 / $30,863; net income **21,886** / 16,546 … ; EPS $1.53 / $1.19; dividends .16; **stores 195 / 153**; current assets 150,986/99,493; **long-term obligations under capital leases 10,904 / 4,087** (pre-SFAS 13 presentation); equity 98,943/66,183; RmA 16.4 / RoE 33.1. Two-year comparison and income statement print **both columns on the same line**. Narrative: **390,000 sq ft Searcy, Arkansas DC begun 1977, completion "tentatively set for June 1978"**; 30 new stores + 10 expanded/relocated; the independent survey ranking Wal-Mart **first in all four of Return on Equity, Return on Capital, Sales Growth, Earnings Growth** against discount/department/variety chains over five preceding years; founding paragraph (**Newport 1945**, **partnership in 1946**, fifteen Ben Franklins, **first discount store November 1962 in Rogers, "then a small, primarily agricultural community of approximately 5,000 people"**, average community 5,000–25,000, largest cities Little Rock and Springfield MO); **LIFO footnote "$2,347,000 or $.18 per share"**; **Arthur Young, Tulsa, 1978-04-14, unqualified**. Minor gaps are typographic only (right-margin letter loss on narrow narrative columns; decimal-comma confusions). |
+| `WALMART_AR_1979.txt` | 77,773 (header 6,343 + body 67,946) | …/details/1979-annual-report-for-walmart-stores-inc → `https://ia801507.us.archive.org/25/items/1979-annual-report-for-walmart-stores-inc/…_djvu.txt` (HTTP 200, 13:43:33Z, 67,946 B = declared) | 2026-09-24 | **FY ended 1979-01-31 — closes the window at the top of the decade.** Audited two-year pages are clean and print **FY1979 net sales $900,298,000**, leased-dept rentals 6,344,000, other income 3,271,000, total revenues 909,913,000, cost of sales 661,062,000, opex 188,592,000, interest 3,487,000, income before taxes **56,772,000**, against FY1978's $678,456,000 … 40,847,000; **stores 229 / 195**; highlights block: current assets $191,860,000, equity $127,476,000, **shares outstanding 15,079,383**. Prose: net income **$29.4 m, +39 %**, **EPS $1.93 vs $1.41**; **"Earnings for 1978 have been restated to reflect the retroactive application of SFAS 13 … reduced net earnings $769,000, or 5 cents per share"**; the report's own declaration that **"All financial information prior to 1979 has been restated…"** (so this file is itself a restating document for its history column — see the depth note below). Narrative: **"first discount store opened 17 years ago"**; **1945 Newport Ben Franklin**; **Bud Walton, Versailles, Missouri**; **15 Ben Franklin stores between 1946 and 1962**; **first Wal-Mart Discount City, Rogers, 1962**; **"publicly-owned since October, 1970"**; NYSE: WMT; 35 new stores and the **closure of the remaining Sav-Co Home Improvement Center**; quarter-by-quarter market price on both fiscal and calendar bases; **Arthur Young, Tulsa, 1979-04-06** with the SFAS-13 restatement clause. ⚠ **The "TEN-YEAR SUMMARY" numeric cells are the one unreadable block in the five files** ("5900,298", "3>678.456", "GOl,UbZ", "5uo,o25", "■ oo<oy^", "$340 3T1", "U7R R07") — use FY1978's nine-year table plus FY1979's own statements instead. |
+
+### Depth consequence of A-2 (stated once, for the merge, not asserted in §A)
+
+FY1972→FY1980 is now **one unbroken run of printed reports, each year's money on that year's own
+page**: FY1972 · FY1973 · **FY1974** · FY1975 · FY1976 · **FY1977 · FY1978 · FY1979** · FY1980.
+The interior years added here each also carry a **self-contained multi-year table** (five-, eight-,
+nine- and ten-year), so no figure in FY1970–FY1979 now depends on a later report's say-so —
+with two honest exceptions: **FY1975's own top line** (OCR-dropped; see its row) and the
+**FY1979 ten-year table** (OCR-garbled; superseded by FY1978's nine-year table for the older
+columns). **FY1968–FY1971 remains as this register left it** — carried by FY1972's five-year table
+and FY1973's six-year table, with the pre-FY1972 corporate-print query still **`EMPTY (proven null)
+FOR THESE EXACT PARAMS ONLY`**. And note the direction of travel the FY1979 audit clause makes
+visible: even a contemporaneous report restates its own history (LIFO in FY1975, SFAS 13 in FY1979),
+so "contemporaneous" buys *the number as filed that year*, not an invariant number.
+
+## A-3. On-catalogue leads surfaced by `COR-A2-10` — **STUBBED, UNTRIED, NOT DOWNLOADED**
+
+Discovered in `00_universe/harvest/candidates.csv` (query `IA walton five-and-dime`, family
+`internet_archive`, `retrieved_at 2026-09-24T10:33:13Z`, both rows HTTP 200 `LEAD_ONLY`) and opened
+by nobody until this pass, which read **metadata only** and stopped. Both are **retrospective**
+(1998 and 1990) and neither is a substitute for in-window text; both were registered rather than
+pulled — the first because it is a 124-page / 5.2 MB document, the second because the catalogue
+flags it `access-restricted-item: true`.
+
+| Stub file | Item | Status |
+|---|---|---|
+| `STUB_LEAD_DTIC_ADA345567.md` | **"A Study of the Discount Retail Industry and Wal-Mart Corporation"** (1998-06-05), Michael E. Zarbo, U.S. Army Information Systems Command, Fort Huachuca AZ — DTIC accession ADA345567, **124 pp.**, ungated, `_djvu.txt` 217,636 B available on `ia903102.us.archive.org/18/items/…`; ark:/13960/t81k63015 | **UNTRIED — one polite GET away; the most promising NON-company document found for §I** (external 1998 analysis of Wal-Mart inside the discount industry; a fifth retrospective on "inception in 1962" to triangulate the 1980 corporate account, Trimble 1990 and the 1992 memoir; probable source of 1960s–70s sector comparators that Wal-Mart's own reports never printed) |
+| `STUB_LEAD_samwaltoninsides00vanc.md` | **"Sam Walton: the inside story of America's richest man"**, Vance H. Trimble, Dutton/Penguin, **1990**, 362 pp., ISBN 0525249222 / 0525249842, LCCN 90038232, OCLC 21873307, ark:/13960/t0rr3326c | **UNTRIED — GATED (`access-restricted-item: true`; `printdisabled`+`inlibrary`; ACS/LCP-encrypted PDF and EPUB in the file list). Text layer deliberately not probed.** Its published chapter list alone is a chronology map: "First five-and-dime days", "$60,000—and no more!", "An aristocratic country town", "The courtship of Ron Mayer", "New chiefs and computers", "Guinea pig—or death?", "The war over Main Street". Next move is a **library borrow / OCLC hold**, not a scripted fetch |
+
+## A-4. Request ledger for the A-2 pass (etiquette disclosure)
+
+**14 HTTP requests total against `archive.org`, all sequential, all HTTP 200, zero rate-limit events:**
+7 × `metadata/<id>` (13:41:43Z → 13:42:06Z, 2–3 s spacing: the five AR identifiers + the two lead
+identifiers) · 5 × `https://<server><dir>/<id>_djvu.txt` (13:43:15Z → 13:43:33Z, 3 s spacing) ·
+2 × `metadata/<id>` again (13:51:30Z, 13:51:34Z) to capture the lead items' full metadata for the
+stubs. The 429/503 exponential back-off (honouring `Retry-After`, cap 60 s) and the
+3-consecutive-failure host halt were armed in the fetch script and **never triggered**; no host was
+halted; nothing was retried. **Bytes received equalled bytes declared in each item's metadata for
+all five text pulls** (39,954 / 58,278 / 62,803 / 72,300 / 67,946), which is the completeness check
+that let this pass say "no page missing from the scan" rather than assume it. **No file anywhere in
+this directory was deleted, moved, renamed or overwritten**: the four pre-existing `WALMART_AR_*.txt`
+files are untouched at their original sizes (26,029 / 31,727 / 66,477 / 71,918 B), the pre-existing
+probe artefacts were opened read-only, and this register was extended by insertion, not rewrite.
+Bodies were written **content-verbatim**; the only transformation is newline representation
+(LF → CRLF) to match the sibling files, which is disclosed inside each header.
+
 ## B. Museum / corporate artifact page (Tier 1 artifact, Tier 3 curation)
 
 | File | Bytes on disk | URL | Access date | Note |
