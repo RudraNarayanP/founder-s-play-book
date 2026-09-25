@@ -14,7 +14,8 @@ Stdlib only.  Usage:
   python tools/sec_intake.py facts   --cik 1018724 --company-dir <dir> --from 1994-01-01 --to 1998-12-31
   python tools/sec_intake.py grab    --cik 1018724 --company-dir <dir> --accession 0000891618-97-001309
   python tools/sec_intake.py auto    --cik 1018724 --company-dir <dir> --from 1994-01-01 --to 1997-12-31
-                                     [--max-docs 40] [--max-mb 60]
+                                     [--max-docs 40] [--dry-run]
+  python tools/sec_intake.py selftest          # detector proves itself against each defect
 
 Exit codes: 0 ok, 1 partial (some UNANSWERED), 2 hard failure.
 A non-200 is recorded as UNANSWERED, never as a null. See 00_METHOD_AND_STYLE.md s14 r6.
@@ -30,6 +31,7 @@ import os
 import re
 import ssl
 import sys
+import tempfile
 import time
 import urllib.error
 import urllib.request
@@ -38,8 +40,13 @@ import urllib.request
 # Undeclared Automated Tool" without it. Plain ASCII, no parentheses.
 UA = "FounderPlaybook Research AdminContact@example.com"
 REFERER = "https://www.sec.gov/"
-POLITE_SECONDS = 0.12
+# 0.12 s between accessions tripped EDGAR's 10-req/s ceiling and produced pages that
+# read as an outage. One global gap now paces every request, documents included.
+POLITE_SECONDS = 0.35
 HARD_DOC_CAP_BYTES = 60 * 1024 * 1024
+# 503 from /Archives/ is a soft "come back later", so the backoff has to be long
+# enough to clear the cooldown a burst starts; 1.5/3.0 s never did in this session.
+BACKOFF_SECONDS = (5, 10, 20, 40)
 
 # Forms that carry early-history evidence, in priority order for `auto`.
 EARLY_FORMS = [
@@ -47,14 +54,69 @@ EARLY_FORMS = [
     "10-12B", "10-K", "10-K405", "10-K/A", "10-KB", "8-K", "DEF 14A", "SC 13D",
     "SC 13G", "SC 13G/A", "3-2", "S-3", "POS AM",
 ]
+# Every entry MUST be bytes: `marker in raw` on a bytes body raises TypeError if one is
+# a str, which made every binary fetch collapse into "UNANSWERED after 3 tries" and look
+# like an outage. `selftest` asserts this (see section "Defect 2" in the proof sheet).
 ERROR_MARKERS = (
     b"<Error><Code>NoSuchKey</Code>",
     b"<Code>NoSuchKey</Code>",
     b"x-amz-error-code",
     b"Request Rate Threshold Exceeded",
-    "<title>Access Denied",
+    b"<title>Access Denied",
+    b"Sorry, but we cannot seem to find the URL",
     b"Invalid Request",
+    # Observed live in this session at /Archives/edgar/data/: two HTML apology pages
+    # that a status-200 or status-503 response can carry in place of a document body.
+    # Neither was in the original marker set, so either would have been saved as if it
+    # were a filing -- the exact trap 00_METHOD_AND_STYLE.md s14 names.
+    b"SEC.gov | File Unavailable",
+    b"<title>SEC.gov | File Unavailable</title>",
+    b"This page is temporarily unavailable",
+    b"SEC.gov | Your Request Originates from an Undeclared Automated Tool",
+    b"undeclared automated tool",
 )
+# 503/403 bodies worth quoting in the UNANSWERED note rather than calling "unreachable".
+THROTTLE_MARKERS = ERROR_MARKERS
+GZIP_MAGIC = b"\x1f\x8b"
+# Scaffolding that index.json lists first, so a naive `[:6]` of the listing spends the
+# whole document budget on files that return 404 NoSuchKey.
+SCAFFOLD_SUFFIXES = ("-index-headers.html", "-index.htm", "-index.html", "index.json",
+                     "index.htm", "index.html", "-headers.hdml")
+
+
+def _pace():
+    """Enforce one global minimum gap between HTTP requests (EDGAR 10-req/s rule)."""
+    global _LAST_REQUEST
+    wait = (_LAST_REQUEST + POLITE_SECONDS) - time.monotonic()
+    if wait > 0:
+        time.sleep(wait)
+    _LAST_REQUEST = time.monotonic()
+
+
+_LAST_REQUEST = 0.0
+
+
+def _looks_like_error_page(raw):
+    """Return the matching marker, or None. Bytes-in, never str-in-bytes."""
+    for marker in ERROR_MARKERS:
+        assert isinstance(marker, bytes), "ERROR_MARKERS must be bytes: %r" % (marker,)
+        if marker in raw:
+            return marker
+    return None
+
+
+def _maybe_gunzip(raw, content_encoding):
+    """Decompress on the header OR on the gzip magic bytes.
+
+    Observed live: a 503 page returned with `Content-Encoding` absent but the body
+    starting with 1f 8b -- trusting the header alone stores gzip bytes as text.
+    """
+    if "gzip" in (content_encoding or "").lower() or raw[:2] == GZIP_MAGIC:
+        try:
+            return gzip.decompress(raw)
+        except OSError:
+            pass
+    return raw
 
 
 def _ctx():
@@ -68,33 +130,44 @@ def http_get(url, binary=False, tries=3):
     """Return (status, bytes_or_text, note). 'note' carries UNANSWERED reasons."""
     last = None
     for attempt in range(tries):
+        _pace()
         req = urllib.request.Request(url)
         req.add_header("User-Agent", UA)
         req.add_header("Referer", REFERER)
         req.add_header("Accept-Encoding", "gzip, deflate")
         try:
             with urllib.request.urlopen(req, timeout=60, context=_ctx()) as r:
-                raw = r.read()
-                if r.headers.get("Content-Encoding", "").lower() == "gzip":
-                    try:
-                        raw = gzip.decompress(raw)
-                    except OSError:
-                        pass
+                raw = _maybe_gunzip(r.read(), r.headers.get("Content-Encoding", ""))
                 status = r.status
             if not binary:
                 body = raw.decode("utf-8", "replace")
-                # Legacy EDGAR pages are sometimes latin-1 tables in a utf-8 envelope.
-                if "Request Rate Threshold Exceeded" in body:
-                    return status, None, "THROTTLED (UNANSWERED, retry later)"
+                # A text response can still be an apology page rather than the JSON asked
+                # for; 200 + "File Unavailable" once parsed as an empty filing list.
+                marker = _looks_like_error_page(raw)
+                if marker is not None:
+                    return status, None, "ERROR PAGE (status %s, %r), not saved" % (status, marker)
                 return status, body, "ok"
-            for marker in ERROR_MARKERS:
-                if marker in raw:
-                    return status, None, "ERROR PAGE, not saved"
+            marker = _looks_like_error_page(raw)
+            if marker is not None:
+                return status, None, "ERROR PAGE (status %s, %r), not saved" % (status, marker)
             return status, raw, "ok"
         except urllib.error.HTTPError as e:
-            last = "HTTP %s" % e.code
-            if e.code in (403, 503, 504, 429):
-                time.sleep(1.5 * (attempt + 1))
+            body = b""
+            try:
+                body = _maybe_gunzip(e.read(), (e.headers or {}).get("Content-Encoding", ""))
+            except Exception:
+                body = b""
+            marker = _looks_like_error_page(body)
+            reason = "HTTP %s" % e.code
+            if marker is not None:
+                reason = "%s %r page" % (reason, marker)
+            last = reason
+            if e.code in (503, 504, 429):
+                # Soft cooldown, not an outage: back off long enough to clear it.
+                time.sleep(BACKOFF_SECONDS[min(attempt, len(BACKOFF_SECONDS) - 1)])
+                continue
+            if e.code == 403:
+                time.sleep(2.0 * (attempt + 1))
                 continue
             return e.code, None, last
         except Exception as e:  # timeout / DNS / TLS: unanswered, not null
@@ -215,51 +288,151 @@ def write_index(company_dir, cik, name, ticker, rows):
     return len(norm), earliest
 
 
+def accession_dirs(cik, accession):
+    """Candidate (form, url-prefix) pairs for one accession, best-evidenced first.
+
+    Live evidence for the ordering, from the 2026-09-26 diagnosis:
+      /Archives/edgar/data/0001045810/000101287000004830/index.json -> 200
+      /Archives/edgar/data/1045810/000101287000004830/index.json    -> 200
+      /Archives/edgar/data/1045810/000101287000004830-index/...      -> 404
+    so the `-index`-suffixed directory (the other form EDGAR's browse pages print for
+    pre-2001 filings) is NOT a fetchable prefix and must not be tried first.
+    """
+    digits = re.sub(r"\D", "", str(cik))
+    padded, bare = cik10(cik), str(int(digits)) if digits else "0"
+    a = accession.replace("-", "")
+    out, seen = [], set()
+    for form, base in (("padded-cik/nodash-dir", "%s/%s" % (padded, a)),
+                       ("bare-cik/nodash-dir", "%s/%s" % (bare, a)),
+                       ("bare-cik/dashed-dir", "%s/%s" % (bare, accession))):
+        if base not in seen:
+            seen.add(base)
+            out.append((form, "https://www.sec.gov/Archives/edgar/data/%s/" % base))
+    return out
+
+
+def _is_scaffold(name):
+    low = name.lower()
+    return low.endswith(tuple(s.lower() for s in SCAFFOLD_SUFFIXES)) or low == "index.json"
+
+
 def doc_listing(cik, accession):
-    acc = accession.replace("-", "")
-    url = "https://www.sec.gov/Archives/edgar/data/%s/%s/index.json" % (cik10(cik), acc)
-    s, body, note = http_get(url)
-    if body is None:
-        return None, note
-    try:
-        j = json.loads(body)
-    except ValueError:
-        return None, "UNPARSEABLE index.json (returned a page, not a listing)"
-    items = j.get("directory", {}).get("item", []) or []
-    out = []
-    for it in items:
+    """(items, note, form). Items keep `size` (a STRING upstream) and flag unnamed rows.
+
+    Pre-2001 directories return a malformed listing: of 41 items in Amazon's original
+    S-1 accession, only the first 3 carried a `name` and those 3 are the scaffolding
+    stubs; the other 38 had name:"" with a real size. A caller that takes names in
+    listing order therefore fetches stubs (404 NoSuchKey) and blank URLs, and stores
+    almost nothing while every individual failure looks like an EDGAR outage.
+    """
+    last = None
+    for form, base in accession_dirs(cik, accession):
+        s, body, note = http_get(base + "index.json", tries=2)
+        if body is None:
+            last = "%s -> %s" % (form, note)
+            # Same reasoning as in grab(): 503 is the host cooling down, so the next
+            # directory prefix would be refused too. Without this break a throttled
+            # window cost ~105 s per accession in backoff and stored nothing.
+            if "503" in str(note) or "504" in str(note) or "429" in str(note):
+                break
+            continue
         try:
-            size = int(it.get("size", "0") or 0)  # size arrives as a STRING
+            j = json.loads(body)
         except ValueError:
-            size = 0
-        out.append({"name": it.get("name", ""), "size": size})
-    return out, "ok"
+            last = "%s -> UNPARSEABLE index.json (returned a page, not a listing)" % form
+            continue
+        items = j.get("directory", {}).get("item", []) or []
+        out = []
+        for it in items:
+            try:
+                size = int(it.get("size", "0") or 0)  # size arrives as a STRING
+            except ValueError:
+                size = 0
+            out.append({"name": it.get("name", "") or "", "size": size,
+                        "type": it.get("type", "") or ""})
+        unnamed = sum(1 for i in out if not i["name"])
+        return out, ("listing via %s (%d items, %d unnamed)" % (form, len(out), unnamed)), form
+    return None, "UNANSWERED listing: %s" % (last or "no candidate directory form"), ""
+
+
+def candidate_docs(row, items, limit=6):
+    """Real document names to fetch for one filing, scaffolding and blanks removed.
+
+    Order: the submissions `primaryDocument` (the authoritative name when the listing
+    agrees), then named text/html items largest-first (a filing body is the biggest
+    object in its directory), then the full-submission SGML `<accession>.txt`, which is
+    the artifact that actually returned 200 with 1,444,013 bytes for Amazon's S-1 when
+    the per-document names in the same listing did not resolve.
+    """
+    named = [i for i in (items or []) if i["name"] and not _is_scaffold(i["name"])
+             and i["name"].lower().endswith((".txt", ".htm", ".html"))]
+    named.sort(key=lambda i: -i["size"])
+    out, seen = [], set()
+
+    def push(name, why, size=None):
+        if name and name not in seen:
+            seen.add(name)
+            out.append({"name": name, "why": why, "size": size})
+
+    primary = row.get("primaryDocument") or ""
+    psize = next((i["size"] for i in named if i["name"] == primary), None)
+    push(primary, "primaryDocument", psize)
+    for i in named[:limit]:
+        push(i["name"], "index.json listing (%d B)" % i["size"], i["size"])
+    push(row["accession"] + ".txt", "full-submission SGML fallback")
+    return out[:max(1, limit)]
 
 
 def grab(company_dir, cik, accession, filename, subdir="sec"):
-    acc = accession.replace("-", "")
+    """Fetch one document, trying every candidate directory form. Never writes an error page.
+
+    `filename` may arrive blank (the pre-2001 listing defect) or be a name the archive
+    does not hold; each attempt's status is kept in `tried` so an UNANSWERED row names
+    the status rather than reading as a null.
+    """
     safe = re.sub(r"[^A-Za-z0-9._-]", "_", filename)
     rel = os.path.join(subdir, "%s_%s" % (accession, safe))
     path = os.path.join(company_dir, "sources", rel)
+    if not filename:
+        # A blank name is the malformed pre-2001 listing, not a document. Concatenating
+        # it would fetch the directory URL and save whatever apology page came back.
+        return {"accession": accession, "file": "", "path": "",
+                "status": "UNANSWERED (empty document name in index.json listing, "
+                          "no URL constructed)", "bytes": 0, "words": 0}
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    url = "https://www.sec.gov/Archives/edgar/data/%s/%s/%s" % (cik10(cik), acc, filename)
-    s, raw, note = http_get(url, binary=True)
-    if raw is None:
-        return {"accession": accession, "file": filename, "status": note, "path": ""}
-    if len(raw) > HARD_DOC_CAP_BYTES:
-        return {"accession": accession, "file": filename, "status": "SKIPPED over cap", "path": ""}
-    txt = raw.decode("utf-8", "replace")
-    with open(path, "w", encoding="utf-8", newline="\n") as f:
-        f.write(txt)
-    words = len(re.findall(r"\S+", re.sub(r"<[^>]+>", " ", txt)))
-    side = {"url": url, "fetched": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-            "sha1": hashlib.sha1(raw).hexdigest(), "bytes": len(raw), "words": words,
-            "cik": cik10(cik), "accession": accession, "document": filename,
-            "html_stripped_word_count": True}
-    with open(path + ".meta.json", "w", encoding="utf-8") as f:
-        json.dump(side, f, indent=1)
-    return {"accession": accession, "file": filename, "status": "ok", "path": rel,
-            "bytes": len(raw), "words": words}
+    tried = []
+    for form, base in accession_dirs(cik, accession):
+        url = base + filename
+        s, raw, note = http_get(url, binary=True, tries=2)
+        if not raw:
+            tried.append("%s: %s %s" % (form, s or "-", note))
+            # 503 is the whole host cooling down, not this directory form being wrong:
+            # re-trying the same name under another prefix only deepens the cooldown.
+            if s in (503, 504, 429):
+                break
+            continue
+        if len(raw) > HARD_DOC_CAP_BYTES:
+            return {"accession": accession, "file": filename, "status": "SKIPPED over cap",
+                    "path": "", "bytes": len(raw), "url": url, "form": form,
+                    "tried": "; ".join(tried + ["%s: %d B > cap" % (form, len(raw))])}
+        txt = raw.decode("utf-8", "replace")
+        with open(path, "w", encoding="utf-8", newline="\n") as f:
+            f.write(txt)
+        words = len(re.findall(r"\S+", re.sub(r"<[^>]+>", " ", txt)))
+        side = {"url": url, "fetched": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                "sha1": hashlib.sha1(raw).hexdigest(), "bytes": len(raw), "words": words,
+                "cik": cik10(cik), "accession": accession, "document": filename,
+                "url_form": form, "http_status": s, "tried_before": tried,
+                "html_stripped_word_count": True,
+                "full_submission_sgml": filename.endswith(".txt") and filename.startswith(accession)}
+        with open(path + ".meta.json", "w", encoding="utf-8") as f:
+            json.dump(side, f, indent=1)
+        return {"accession": accession, "file": filename, "status": "ok", "path": rel,
+                "bytes": len(raw), "words": words, "url": url, "form": form,
+                "tried": "; ".join(tried)}
+    return {"accession": accession, "file": filename, "path": "",
+            "status": "UNANSWERED (%s)" % (" | ".join(tried) or "no filename to fetch"),
+            "bytes": 0, "words": 0}
 
 
 def xbrl_facts(company_dir, cik, lo, hi, tags):
@@ -318,11 +491,17 @@ def resolve_ticker(ticker):
 
 
 def pick_auto(rows, lo, hi, max_docs):
+    """Accessions worth fetching in the window.
+
+    A blank `primaryDocument` no longer disqualifies a filing: the full-submission SGML
+    `<accession>.txt` is fetchable for paper-era shells whose submissions row carries no
+    document name at all, and dropping the row hid coverage rather than reported it.
+    """
     wanted = []
     by_form = {}
     for r in sorted([_norm(x) for x in rows], key=lambda r: r["filingDate"] or "9999"):
         d = r["filingDate"]
-        if not d or not (lo <= d <= hi) or not r["accession"] or not r["primaryDocument"]:
+        if not d or not (lo <= d <= hi) or not r["accession"]:
             continue
         fam = re.sub(r"[\d/]+$", "", r["form"]).strip()
         if r["form"] not in EARLY_FORMS and fam not in EARLY_FORMS:
@@ -338,6 +517,73 @@ def pick_auto(rows, lo, hi, max_docs):
     return wanted
 
 
+def selftest():
+    """The intake proves itself against the exact defects it is supposed to catch (§15.5)."""
+    fails = []
+    checks = {"n": 0}
+
+    def check(name, ok, detail=""):
+        checks["n"] += 1
+        print("  %-46s %s %s" % (name, "PASS" if ok else "FAIL", detail))
+        if not ok:
+            fails.append(name)
+
+    print("sec_intake selftest")
+    src = open(os.path.abspath(__file__), encoding="utf-8").read()
+    bad = [m for m in ERROR_MARKERS if not isinstance(m, bytes)]
+    check("every ERROR_MARKERS entry is bytes", not bad, "str markers: %r" % (bad,))
+    check("str marker cannot slip back in",
+          all(isinstance(m, bytes) for m in THROTTLE_MARKERS))
+    check("error-page detector fires on NoSuchKey",
+          _looks_like_error_page(b'<?xml version="1.0"?><Error><Code>NoSuchKey</Code>')
+          is not None)
+    check("error-page detector fires on File Unavailable",
+          _looks_like_error_page(b"<title>SEC.gov | File Unavailable</title>") is not None)
+    check("error-page detector fires on undeclared-tool 403",
+          _looks_like_error_page(b"SEC.gov | Your Request Originates from an Undeclared"
+                                 b" Automated Tool") is not None)
+    check("real filing text is not flagged",
+          _looks_like_error_page(b"<html><body>Our initial public offering S-1</body>") is None)
+    check("gzip sniffed without Content-Encoding",
+          _maybe_gunzip(gzip.compress(b"0001012870-00-004830"), "") == b"0001012870-00-004830")
+    check("slices are fetched from data.sec.gov/submissions/",
+          'url = "https://data.sec.gov/submissions/%s" % f["name"]' in src
+          # assembled at runtime so this line cannot make its own test false
+          and ("/Archives/edgar/data/" + "%s/%s.json") not in src)
+    check("an unfetchable slice is recorded UNANSWERED, not truncated",
+          '"status": "UNANSWERED: " + n2' in src)
+    check("60 MB per-document cap still enforced",
+          "HARD_DOC_CAP_BYTES" in src and "SKIPPED over cap" in src)
+    dirs = accession_dirs("1045810", "0001012870-00-004830")
+    check("accession dir form has a separating slash",
+          all(u.endswith("/") for _, u in dirs), dirs[0][1])
+    check("`-index` directory form is not tried",
+          not any(u.endswith("-index/") for _, u in dirs))
+    check("scaffolding stubs excluded from candidates",
+          _is_scaffold("0001012870-00-004830-index-headers.html"))
+    check("unnamed listing rows never become URLs",
+          all(c["name"] for c in candidate_docs(
+              {"accession": "0000891618-97-001309", "primaryDocument": ""},
+              [{"name": "", "size": 5319}, {"name": "x-index-headers.html", "size": 1},
+               {"name": "a1309.txt", "size": 1444013}], limit=4)))
+    sgml = candidate_docs({"accession": "0000891618-97-001309", "primaryDocument": ""},
+                          [{"name": "", "size": 5319}], limit=4)
+    check("SGML full-submission fallback is offered",
+          any(c["name"] == "0000891618-97-001309.txt" for c in sgml), str(sgml))
+    check("per-document budget keeps the SGML fallback",
+          len(candidate_docs({"accession": "A-B-C", "primaryDocument": "p.txt"},
+                             [{"name": "p.txt", "size": 10}] +
+                             [{"name": "d%d.htm" % i, "size": i} for i in range(9)],
+                             limit=6)) >= 2)
+    check("UNANSWERED carries a status, not a blank",
+          "UNANSWERED" in grab(tempfile.mkdtemp(prefix="sec_intake_selftest_"),
+                              "1045810", "0001012870-00-004830", "").get("status", ""))
+    check("a blank document name is never turned into a URL",
+          "no URL constructed" in open(os.path.abspath(__file__), encoding="utf-8").read())
+    print("selftest: %d checks, %d failing" % (checks["n"], len(fails)))
+    return 1 if fails else 0
+
+
 def main():
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -351,9 +597,16 @@ def main():
         p.add_argument("--accession")
         p.add_argument("--file")
         p.add_argument("--max-docs", type=int, default=40)
+        p.add_argument("--docs-per-filing", type=int, default=4)
+        p.add_argument("--dry-run", action="store_true",
+                       help="list what WOULD be fetched (url, index.json size, form) and stop")
+    sub.add_parser("selftest")
     p = sub.add_parser("resolve")
     p.add_argument("--ticker", required=True)
     a = ap.parse_args()
+
+    if a.cmd == "selftest":
+        return selftest()
 
     if a.cmd == "resolve":
         cik, title = resolve_ticker(a.ticker)
@@ -368,6 +621,7 @@ def main():
         raise SystemExit("need --company-dir")
 
     rc = 0
+    rows = None
     if a.cmd in ("index", "auto"):
         name, tick, rows = submissions_index(a.cik)
         n, earliest = write_index(a.company_dir, a.cik, name, tick, rows)
@@ -382,30 +636,59 @@ def main():
     if a.cmd == "grab":
         print(json.dumps(grab(a.company_dir, a.cik, a.accession, a.file or "index-headers.txt")))
     if a.cmd == "auto":
-        _, _, rows = submissions_index(a.cik)
         picked = pick_auto(rows, a.lo, a.hi, a.max_docs)
-        manifest, skipped = [], []
+        manifest, skipped, planned = [], [], []
         for r in picked:
-            items, note = doc_listing(a.cik, r["accession"])
-            docs = [i["name"] for i in (items or [])
-                    if i["name"].lower().endswith((".txt", ".htm", ".html"))][:6]
-            if not docs:
-                docs = [r["primaryDocument"]]
-            for dn in docs:
-                res = grab(a.company_dir, a.cik, r["accession"], dn)
+            items, note, form = doc_listing(a.cik, r["accession"])
+            cands = candidate_docs(r, items, limit=a.docs_per_filing)
+            base = accession_dirs(a.cik, r["accession"])[0][1]
+            for c in cands:
+                planned.append({"accession": r["accession"], "form": r["form"],
+                                "filingDate": r["filingDate"], "document": c["name"],
+                                "bytes_in_index_json": c["size"],
+                                "why": c["why"], "url": base + c["name"]})
+            if a.dry_run:
+                continue
+            for c in cands:
+                res = grab(a.company_dir, a.cik, r["accession"], c["name"])
+                res.update({"form": r["form"], "filingDate": r["filingDate"],
+                            "listing": note})
                 (manifest if res["status"] == "ok" else skipped).append(res)
-            time.sleep(POLITE_SECONDS)
         d = os.path.join(a.company_dir, "sources", "sec")
         os.makedirs(d, exist_ok=True)
+        if a.dry_run:
+            with open(os.path.join(d, "_DRY_RUN_PLAN.csv"), "w", encoding="utf-8", newline="") as f:
+                w = csv.DictWriter(f, fieldnames=list(planned[0].keys()) if planned
+                                   else ["accession", "form", "filingDate", "document"])
+                w.writeheader()
+                w.writerows(planned)
+            print("dry-run: %d accessions, %d documents WOULD be fetched; no bytes downloaded"
+                  % (len(picked), len(planned)))
+            for p in planned[:25]:
+                print("   %-11s %-24s %-34s %s%s" % (
+                    p["filingDate"], p["form"][:24], p["document"][:34],
+                    ("%s B " % p["bytes_in_index_json"]) if p["bytes_in_index_json"] is not None
+                    else "(size unlisted) ", p["url"]))
+            return rc
+        cols = ["accession", "file", "path", "bytes", "words", "status", "form",
+                "filingDate", "url", "listing"]
         with open(os.path.join(d, "_MANIFEST.csv"), "w", encoding="utf-8", newline="") as f:
-            w = csv.DictWriter(f, fieldnames=["accession", "file", "path", "bytes", "words", "status"],
-                               extrasaction="ignore")
+            w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
             w.writeheader()
             w.writerows(manifest)
-        print("auto: %d documents stored, %d skipped/unanswered" % (len(manifest), len(skipped)))
+        # Nothing is dropped: an unfetchable document is a row with its status, never a
+        # silence that a later reader could mistake for "this filing has no text".
+        with open(os.path.join(d, "_UNANSWERED.csv"), "w", encoding="utf-8", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
+            w.writeheader()
+            w.writerows(skipped)
+        words = sum(m["words"] for m in manifest)
+        print("auto: %d documents stored (%d bytes, %d words), %d UNANSWERED "
+              "(counted, not nulls)" % (len(manifest), sum(m["bytes"] for m in manifest),
+                                        words, len(skipped)))
         for s in skipped[:12]:
             print("   UNANSWERED %s %s: %s" % (s["accession"], s["file"], s["status"]))
-        rc = 1 if skipped else 0
+        rc = 1 if skipped else rc
     return rc
 
 

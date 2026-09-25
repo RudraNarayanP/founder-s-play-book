@@ -1603,3 +1603,36 @@ rather than forced.
 `ia_text.py`'s `fl[]`/`doseq` defect after I had already fixed and proven it. The reflex to say "already
 closed" is the same one that produced two premature claims earlier this session; instead, re-run the
 failing path (`mine` on a real query) and report the observed behaviour.
+
+### RD-107 -- intake now actually stores filings, and the root cause was four things, not one
+
+`03_quality_control/intake_hardening.md` (2,372 w, 5/5 sections, released; only `tools/sec_intake.py` and
+that sheet touched). My brief guessed "EDGAR's fault"; the diagnosis was mostly mine:
+
+- **Pre-2001 `index.json` listings are largely nameless.** Amazon's S-1 directory returns 41 items of which
+  **only 3 carry a `name`, and those 3 are scaffolding stubs.** `auto` sliced the listing in order, so it
+  fetched `*-index-headers.html` (a real 404 `NoSuchKey`) and blank names, which concatenate onto the
+  directory URL and return the 7,747 B **"SEC.gov | File Unavailable"** page.
+- **Neither apology page was in `ERROR_MARKERS`** -- and the "4,819 B placeholder" I have been quoting from
+  memory since September is actually the **4,814 B undeclared-UA 403 page**. My own recorded number was
+  wrong by five bytes and I repeated it as fact.
+- **`pick_auto` demanded a non-blank `primaryDocument`**, which left Nvidia with four paper-era `0001.txt`
+  shells -- 404s, not an outage.
+- **Two plausible explanations were tested and eliminated**, not assumed: `Accept-Encoding` on/off, and the
+  accession-directory URL form. The `-index` directory form is a genuine 404.
+
+Fixes: ordered `accession_dirs`, scaffolding/blank-name rejection, largest-named-then-SGML
+`<accession>.txt` carrier, global 0.35 s pacing with 5/10/20 s backoff, apology detection on text *and*
+bytes with gzip magic sniffed, a `_UNANSWERED.csv`, `--dry-run`, and a `selftest` (18/18).
+
+**Proof, by manifest and `ls -l`:** Amazon **8 docs / 3,765,367 B** with the original S-1 at **1,444,013 B**;
+Costco 7 / 1,006,429 B (10-K 396,621 B; 1 UNANSWERED with its 503 note); Nvidia 8 / **4,610,910 B**, S-1 at
+856,608 B, 0 UNANSWERED. Content-verified by grep, not by filename: *"The Company was incorporated in July
+1994 and commenced offering products"* in the Amazon S-1, and *"merchandising industry. When Price pioneered
+the membership warehouse club"* in Costco's 10-K.
+
+**Why this matters for every tier verdict so far:** probes that reported "0 documents stored" were reporting
+a bug, not an archive. Costco's T3 and Nvidia's T3 were both issued against an intake that could not
+download, and Alphabet's/Target's/Dell's corporate-print or periodical families were graded the same way.
+Expect re-grades. The honest fleet statement today is: **9 companies probed, and every one of them was
+probed with a partly broken retrieval tool.**
