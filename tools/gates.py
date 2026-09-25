@@ -111,6 +111,8 @@ def narr_files(company):
             out += glob.glob(os.path.join(company, g))
             out += glob.glob(os.path.join(company, "research", g))
             out += glob.glob(os.path.join(company, "_parts", g))
+    if not out:
+        out += glob.glob(os.path.join(company, "_parts", "s[0-9]_p[0-9]*.md"))
     return sorted(set(out))
 
 
@@ -189,9 +191,14 @@ def gate_csv(company, report):
 
 
 def stage_docs(company):
+    """Final volumes, plus the in-flight `_parts/` intermediates (named s1_p1.md, not
+    stage_*.md) ONLY while no merged volume exists. An assembled company's `_parts/` are a
+    superseded audit trail, and gating them would resurface retired keys as fresh defects."""
     out = []
-    for d in ("", "research", "_parts"):
+    for d in ("", "research"):
         out += glob.glob(os.path.join(company, d, "stage_*.md"))
+    if not out:
+        out += glob.glob(os.path.join(company, "_parts", "s[0-9]_p[0-9]*.md"))
     return sorted(set(out))
 
 
