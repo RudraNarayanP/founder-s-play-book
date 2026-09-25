@@ -257,3 +257,39 @@ In priority order, with the reason each is not on disk:
    letters (`ARS_1997-…` "But this is Day 1 for the Internet…"; `ARS_1998-…` "We predict the next 3 1/2 years
    will be even more exciting"). These outrank the Sheff *Playboy* interview — which the cache records as
    conducted 1999 / published 2000 — for any claim about what Bezos believed *while* Stage 3 was running.
+
+## Orchestrator addendum — the two gap items the intake left open, retrieved 2026-09-25
+
+`ST3_B_finance.md` deliberately **declined to fetch the FY1999 10-K**: a dossier agent owns one output path
+and cannot give retrieved bytes a home in `sources/`, which method §14.9 now requires. That is the rule
+working, not a gap in the agent — so the retrieval was performed here, where the destination is owned.
+
+| File | Form | Accession | Index filingDate | Header period | Bytes | Words |
+|---|---|---|---|---|---|---|
+| `10-K_FY1999_acc-0000891020-00-000622_filed-2000-03-23.txt` | 10-K | 0000891020-00-000622 | 2000-03-23 | 19991231 | 307,278 | 37,467 |
+| `10-K_A_FY1999_acc-0000891020-00-001638_filed-2000-09-08.txt` | 10-K/A | 0000891020-00-001638 | 2000-09-08 | **not printed** — see note | 173,340 | 18,960 |
+
+**Correction on the row above, made while checking it.** The 10-K/A's primary document
+(`v65477e10-ka.txt`) carries **no SEC header block**: `CONFORMED SUBMISSION TYPE`, `PERIOD OF REPORT` and
+`FILED AS OF DATE` all return nothing from its first 1,500 bytes. The `19991231` figure in that cell came from
+the **submissions index**, not from the document, and writing it as "header period" would have been exactly the
+error this project keeps auditing itself for — a value attributed to a document that does not print it. The
+amendment's period is therefore **established by the index only**; anyone citing it must cite the index.
+
+**Two things worth recording about the retrieval itself.**
+
+1. **A date discrepancy inside one accession.** The submissions index gives the 10-K a `filingDate` of
+   **2000-03-23**, while the document's own SEC header prints **`FILED AS OF DATE: 20000329`** — six days
+   later. Neither is wrong; they are different clocks (index acceptance vs header stamp). Cite whichever the
+   argument needs and **say which one you used**; do not average them, and do not let a dossier treat the
+   header date as a fact about when the market could have read the document.
+2. **The intake's own URL defect is easy to repeat.** Fetching an accession's primary document needs a path
+   separator — `…/data/1018724/<accession-no-dashes>/<name>.txt`. Missing it is what cost the intake 150
+   four-oh-four requests, and it cost this addendum one more. Also note `index.json` returns `size` as a
+   **string**, so a naive sort of it compares lexically and silently picks the wrong "largest" document.
+
+**Not yet done, and why:** Section 16 Forms 3/4/5 for 1997–99 remain **UNTRIED** rather than answered — the
+slice-`-002` catalogue shows none, and the `-001` slice has not been re-checked for them. That is the route to
+the 540,000-share founder delta `ST3_B` flags as unexplainable. `research/_EVIDENCE_CACHE.md` has **not** been
+updated with these two rows, because another agent currently holds write access to that file; the patch is
+queued as RD-056 rather than raced.

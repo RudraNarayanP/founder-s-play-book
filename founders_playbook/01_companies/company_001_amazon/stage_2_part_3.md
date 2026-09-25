@@ -1003,8 +1003,20 @@ inventory depth**.
 **WHY THEY DIFFER:** not an error by either company. The numbers coincide because both describe the **practical
 ceiling of the US wholesale distribution system** at that moment — Amazon buying from it, B&N owning it. The
 difference is who holds the stock, and therefore who can promise the date.
-**EVIDENCE WEIGHT:** both Tier 1 audited, **genuinely independent issuers** — the only such pairing in this stage, and
-the reason §P164 is the highest-value row in §P outside the financials.
+**EVIDENCE WEIGHT:** both Tier 1 audited, and on their faces **two independent issuers** — the stage's only such
+pairing, and the reason §P164 is the highest-value row in §P outside the financials. **DOWNGRADED by the AUDIT-2
+DEFECT-7 repair, 2026-09-25, from "genuinely independent issuers, the only such pairing in this stage" to what its
+carriers can support: CLAIM A is on disk (A5 l.2385, verified); CLAIM B is NOT.** The B&N Form 10-K
+(acc. 0000889812-97-001072, filed 1997-05-02) has no byte in `sources/`, company_001 has no `sources/periodicals/`
+directory (company_002 and company_003 do), and a repo-wide search for any Barnes & Noble document returns nothing:
+the strings exist only in this project's own dossier transcription `S2C-20`, which records that the specialist read
+a **temporary local copy** at l.753-767 that was never preserved into the archive. So the pairing's independence is
+**asserted from a transcription, not checked against a primary**, and the `(NO LOCAL COPY — unverifiable at the
+citation)` tag applies to CLAIM B, to §P164 and to every B&N figure in §I. **What the Stage-3 intake changes here:
+nothing, and that is the finding.** All 75 newly retrieved documents are Amazon's own paper (CIK 1018724), so under
+method §3 not one of them can be a second issuer's witness; the intake enlarges the lineage, not the independent
+set. The retrieval that would close this is one EDGAR call for accession 0000889812-97-001072 — recorded as
+research debt, `UNTRIED` at zero web budget, not answered.
 **BEST-SUPPORTED INTERPRETATION:** print them side by side, as §R Supply does, and draw the **structural** (not
 retrospective) conclusion: **in 1996 the depth of the American book supply chain was approximately 400,000 titles, one
 company had it on a shelf and the other had it on an order line.** The inference that B&N's model therefore won is

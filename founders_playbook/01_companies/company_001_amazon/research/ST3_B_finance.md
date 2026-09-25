@@ -1500,8 +1500,9 @@ Amazon.com,3,C-9,ST3B Audited series,"the FY1997 report EPS was (1.27) pro forma
 ## Closure and read-back verification (§14 rule 5)
 
 **File written:** `founders_playbook/01_companies/company_001_amazon/research/ST3_B_finance.md`
-**Size at close:** **24,607 words / 172,152 bytes** — verified by `wc` on the file itself, not from memory.
-Well inside the §9.2 hard cap of 60,000 words; **no evidence was trimmed to fit any file limit (§9.6).**
+**Size at close:** **25,227 words / 176,043 bytes** — verified by `wc` on the file itself after this block was
+written, not from memory. Well inside the §9.2 hard cap of 60,000 words; **no evidence was trimmed to fit any
+file limit (§9.6).**
 
 **Verified counts on disk (machine-checked after the final write, not asserted):**
 
