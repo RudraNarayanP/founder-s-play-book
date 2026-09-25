@@ -93,7 +93,7 @@ Statuses: `NOT STARTED` · `DISCOVERY` · `DEEP RESEARCH` · `RECONSTRUCTION` ·
 
 | # | Company | Stage 1 | Stage 2 | Stage 3 | Quant | Sources | Adversarial | QA | Final |
 |---|---|---|---|---|---|---|---|---|---|
-| 001 | Amazon | QA — re-certification **re-running** (first certifier died at its ceiling) | **RECONSTRUCTION — 3 volumes on disk (81,129 w), claim records + 5 audits running** | **DISCOVERY → DEEP RESEARCH** (75 post-IPO filings on disk; 3 dossiers running) | RECONSTRUCTION (193 rows) | RECONSTRUCTION (113 rows) | RECONSTRUCTION (68 conflicts) | AUDIT 6 = REOPEN → AUDIT 7 pending | NOT STARTED |
+| 001 | Amazon | **QA — SIGNED 2026-09-25 (AUDIT 8, with named residuals RD-050…RD-059; no blockers)** | **RECONSTRUCTION — 3 volumes on disk (81,129 w), claim records + 5 audits running** | **DISCOVERY → DEEP RESEARCH** (75 post-IPO filings on disk; 3 dossiers running) | RECONSTRUCTION (193 rows) | RECONSTRUCTION (113 rows) | RECONSTRUCTION (68 conflicts) | AUDIT 6 = REOPEN → AUDIT 7 pending | NOT STARTED |
 | 002 | Walmart | DEEP RESEARCH (A2 133 rec + A3 39 rec + A4 periodicals; 0 web calls of budget) | PROBE | NOT STARTED | DEEP RESEARCH | DEEP RESEARCH | NOT STARTED | **PROVISIONAL — independent-lineage count 1** | NOT STARTED |
 | 003 | UnitedHealth Group | DISCOVERY | PROBE | — | — | — | — | — | — |
 | 004 | Apple | DEEP RESEARCH (80 records, 4 registers) | PROBE | — | DEEP RESEARCH | DEEP RESEARCH | NOT STARTED | NOT STARTED | NOT STARTED |
