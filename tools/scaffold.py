@@ -30,6 +30,7 @@ import sys
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEDGER = os.path.join(REPO, "founders_playbook", "_OWNER_LEDGER.json")
+Q = chr(34)
 BANNER = ("<!-- SCAFFOLDED by tools/scaffold.py at {ts}. "
           "STATUS: nothing written yet. Any agent reading this: the owner has a live "
           "claim; do NOT write this path. Every PENDING below is an unwritten section. "
@@ -62,7 +63,13 @@ def save(d):
 
 
 def norm(p):
-    return os.path.relpath(os.path.abspath(p), REPO).replace("\\", "/")
+    ap = os.path.abspath(p)
+    try:
+        return os.path.relpath(ap, REPO).replace(chr(92), "/")
+    except ValueError:
+        # Different drive (a temp dir on C: while the repo is on E:) -- relpath raises, which
+        # crashed an agent's whole `section` call. Fall back to the absolute path.
+        return ap.replace(chr(92), "/")
 
 
 def words(path):
@@ -117,17 +124,28 @@ def cmd_section(a):
     p = norm(a.path)
     full = os.path.join(REPO, p)
     txt = open(full, encoding="utf-8").read()
-    out, hit = [], 0
+    out, hit, fuzzy = [], 0, []
+    want = "## " + a.section
     for block in re.split(r"(?m)^(?=## )", txt):
-        if block.startswith("## %s" % a.section) and "STATUS: PENDING" in block:
+        head = block.split(chr(10), 1)[0].strip() if block else ""
+        # EXACT heading match only. Prefix matching let `--section S` stamp a different section
+        # WRITTEN and drive the PENDING count to zero, which is the one signal this tool exists to
+        # provide -- a false "written" is worse than a missing one.
+        if head == want and "STATUS: PENDING" in block:
             block = block.replace("STATUS: PENDING", "STATUS: WRITTEN %s" % iso()[:10])
             hit += 1
+        elif head.startswith(want) and head != want:
+            fuzzy.append(head)
         out.append(block)
+    if not hit:
+        print("NOT STAMPED: no section heading equals %s exactly. Existing headings that merely "
+              "start with it: %s" % (Q + a.section + Q, ", ".join(fuzzy[:6]) or "none"))
+        return 1
     with open(full, "w", encoding="utf-8", newline="\n") as f:
         f.write("".join(out))
     touch({"path": a.path, "agent": a.agent})
-    print("section %s: %s (%d words on disk)" % (a.section, "marked WRITTEN" if hit else "no PENDING found", words(full)))
-    return 0 if hit else 1
+    print("section %s: marked WRITTEN (%d words on disk)" % (a.section, words(full)))
+    return 0
 
 
 def touch(entry):

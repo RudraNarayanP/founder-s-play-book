@@ -90,7 +90,7 @@ filings, Media Metrix ratings relayed inside company paper (relayed, so not inde
 | P185 | FY1997 | Net sales, **AS RESTATED** | 147,787 (+29) | USD thousands | `10-K/98` l.1222; repeated `10-K/99` l.1732 and `10-K/A/99` l.173 | 1999-03-05 / 2000-03-23 | FACT (audited, restated) | High → U.125, U.136 |
 | P186 | FY1997 | Cost of sales / gross profit, as filed | **118,945 / 28,813** | USD thousands | `10-K405/97` l.1178, l.1180, l.1862–1864 | 1998-03-30 | FACT (audited) | High |
 | P187 | FY1997 | Cost of sales / gross profit, as restated | **118,969 / 28,818** (+24 / +5) | USD thousands | `10-K/98` l.1223, l.1225; `10-K/99` l.1733, l.1735 | 1999-03-05 / 2000-03-23 | FACT (audited, restated) | High → U.159 |
-| P188 | FY1997 | Gross margin | **19.5** as filed (`28,813 ÷ 147,758 = 19.4995`); restated prints **19.5** too (`28,818 ÷ 147,787 = 19.4935`) | % of net sales | `10-K405/97` l.1403 prints "19.5%" itself; DERIVED §P.2 **t1** | 1998-03-30 | FACT (company rendering) + DERIVED | High |
+| P188 | FY1997 | Gross margin | **19.5** as filed (`28,813 ÷ 147,758 = 19.50013`; superseded — this cell printed **19.4995**, which is not the quotient, AUDIT-3 D-06); restated prints **19.5** too (`28,818 ÷ 147,787 = 19.4935`, a different basis, unchanged) | % of net sales | `10-K405/97` l.1403 prints "19.5%" itself; DERIVED §P.2 **t1** | 1998-03-30 | FACT (company rendering) + DERIVED | High |
 | P189 | FY1997 | Operating expenses, **AS FILED** — three-line caption | marketing and sales **38,964** · product development **12,485** · G&A **6,573** · total **58,022** (`38,964+12,485+6,573 = 58,022` ✓) | USD thousands | `10-K405/97` l.1182–1186, l.1866–1870 | 1998-03-30 | FACT (audited) | High |
 | P190 | FY1997 | Operating expenses, **AS RECAST (1999-03-05)** — same total, different captions | marketing **40,486** · product development **13,916** · G&A **7,011** · total **61,413** | USD thousands | `10-K/98` l.1227–1234 | 1999-03-05 | FACT (audited, restated) | High → U.150, U.159 |
 | P191 | FY1997 | Operating expenses, **AS RECAST (2000-03-23)** — five-line caption | marketing **40,077** · technology and content **13,384** · G&A **6,741** · stock-based compensation **1,211** · total **61,413** (`40,077+13,384+6,741+1,211 = 61,413` ✓, §P.2 **t2**) | USD thousands | `10-K/99` l.1737–1746; `10-K/A/99` l.179–188 | 2000-03-23 | FACT (audited, restated) | High → **U.158: there is no single filed FY1997 technology-spend figure** |
@@ -224,7 +224,7 @@ belong to this part's registers are re-emitted in the append blocks with canonic
 
 ### P.2 ARITHMETIC FOR EVERY DERIVED FIGURE (STAGE 3)
 
-**t1 — FY1997 gross margin, both bases.** As filed: `28,813 ÷ 147,758 = 0.194995 → **19.5%**`, and the filing prints
+**t1 — FY1997 gross margin, both bases.** As filed: `28,813 ÷ 147,758 = 0.1950013 → **19.5%**` (superseded: this line printed **0.194995**, which is not the quotient — AUDIT-3 D-06), and the filing prints
 "19.5%" itself at `10-K405/97` l.1403. As restated: `28,818 ÷ 147,787 = 0.194935 → 19.5%`. **The rendering survives
 the restatement; the exact quotient does not**, which is why §P188 prints both and why no FY1997 margin may be quoted
 to two decimals from a filing that rounds it.

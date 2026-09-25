@@ -1708,3 +1708,36 @@ whole-corpus allowlist is how I manufactured a 5× larger defect an hour earlier
 **Tool defect handed back by an auditor, not yet fixed:** `tools/scaffold.py`'s `section` command rewrote
 quoted evidence in the Wal-Mart audit sheet. Investigate before it damages another pass -- a tool that
 edits an agent's text is a data-integrity risk in a corpus whose whole value is that nothing is altered.
+
+### RD-110 -- all 26 Amazon retractions now reach the register layer, and `scaffold.py` was caught lying
+
+**Register propagation, complete.** `corrections` findings **2 -> 0**; register reach 15 -> 26 of 26, volume
+reach 23 -> 26. ~17 rows edited across quantitative (11), conflicts, decisions, failures, validation and
+data_gaps, plus the four Stage-3 volumes. Every COR was attached to a row that **already carried** the
+withdrawn claim -- no carriers invented to satisfy a gate, which is the failure mode §15.6 warns about.
+- **D-1 solved as arithmetic, not as prose:** `348,077 (balance-sheet long-term debt, l.1977) + 63
+  (long-term capital lease, l.1978) = 348,140 (Item 6, l.1264)`; `+ 684 current = 348,824`. The supposedly
+  "not reconciled" $621k gap is `684 - 63`. Mechanism independently proved on a second figure:
+  `76,521 + 181 = 76,702`.
+- **D-2:** inserted filed **Other income, net 1,671**; `(605,755) + 45,451 - 84,566 + 1,671 = (643,199)` --
+  the printed total now foots.
+- **C-1 re-grounded to a HELD document:** `10-Q Q1-1998` l.495, verified by grep. No FETCH REQUEST needed --
+  the previous pass had cited an indenture that is not on disk, and the fix was to find the carrier we hold,
+  not to keep the unverifiable one.
+- **Sweep:** 10 occurrences of the withdrawn `0.194995`; 6 in Stage 3, of which 4 fixed here and **2 left in
+  the claim-record volumes for that file's owner** rather than written through it.
+- **One residual refused rather than forced:** `S3007` in `stage_3_claim_records_part_1b.md`. Clearing it
+  would have meant editing a file owned by another pass or minting a false carrier; the agent chose the
+  residual and named it. That is the correct call and it is why the number is 1 rather than 0.
+
+**`tools/scaffold.py` was corrupting my own primary signal.** An auditor reported it "rewrote quoted
+evidence"; I reproduced it and the real defect is different and, for me, worse. `section --name S` matched by
+**prefix**, so a short argument stamped a *different* section WRITTEN and drove the PENDING count to zero.
+Content survived byte-exact (quotes, backslashes, no CRLF translation), but the one signal this whole tool
+exists to provide -- "is anything still unwritten" -- was silently falsifiable. Fixed to exact-heading
+matching, returning `NOT STAMPED` with the near-miss headings listed, and `norm()` no longer crashes when a
+path is on another drive (that traceback had killed an agent's call outright). Verified: `S` now refuses,
+`Sibling sweeps` stamps, `HDR-1` refuses against `HDR-1 and HDR-2`.
+
+**Standing lesson, added to memory:** a false "written" is worse than a missing one, and any tool that
+reports progress is reporting a *claim* -- so it needs the same adversarial testing as a citation.
