@@ -461,7 +461,7 @@ Dates are event dates where the document carries them; otherwise the filing date
 
 **OC-D6 (on the equipment contracts, to the merge).** Index the five 1999-03-11 Buschman agreements as **automation equipment purchase instruments with prices redacted under Rule 24b-2**, cross-referenced to the FY1999 fixed-asset note (construction in progress $83,290K; leased assets $52,374K) — the accounting lines are the only surviving quantification of what those contracts bought, and "a build-out in progress" is the correct characterisation of the network at the endpoint.
 
-**OC-D7 (id allocation).** This file uses `ST3D-nn` claim refs only and claims no `S30xx` source-id block (ST3_C OC-10 reserves S3001-S3020 for itself). `source_id` cells below use the local-filename key until the merge allocates IDs.
+**OC-D7 (id allocation).** This file uses `ST3D-nn` claim refs only and claims no `S30xx` source-id block (ST3_C OC-10 reserves S3001-S3020 for itself). `source_id` cells below use the local-filename key until the merge allocates IDs. [RETIRED-KEY REFERENCE — names the pre-re-key id space; not a citation]
 
 ---
 

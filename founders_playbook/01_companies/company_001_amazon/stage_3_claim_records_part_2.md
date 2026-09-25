@@ -241,11 +241,11 @@ than assert a key; a mapping pass is owed.
 flagged at Q79 and not silently harmonised.
 11. **RD-078 is not findable by that label** in `03_quality_control/`, `CORRECTIONS.md` or the registers (searched
 on this pass). The governing artefacts are `03_quality_control/stage3_sourceid_rekey_map.md` (**the merge wrote
-four dossiers' `S3001…S3022` blocks over each other, so 22 ids each named three different documents**; re-keyed to
+four dossiers' `S3001…S3022` blocks over each other, so 22 ids each named three different documents**; re-keyed to [RETIRED-KEY REFERENCE — names the pre-re-key id space; not a citation]
 canonical **S30001–S30081** in application order ST3_A, B, C, D) and `03_quality_control/stage3_register_binding.md`
 (binding rule: **content, never position**; irreducible references held, not guessed; 134 of 134 pending rows
 parsed at canonical width). The tasking's "~219 rows" figure is plausible as an *id-citation* count but no file in
-the repository states it, and `stage_3_part_3.md` §T's "81 Stage-3 rows already exist, `S3001…S3081`" uses the
+the repository states it, and `stage_3_part_3.md` §T's "81 Stage-3 rows already exist, `S3001…S3081`" uses the [RETIRED-KEY REFERENCE — names the pre-re-key id space; not a citation]
 **pre-re-key** form of the ids while the canonical form is `S30001…S30081`.
 12. **File-count drift in the narrative's absence claims.** §E.4, §I, §M.8, §M.10 and §S cite "all **99** files in
 `sources/`" for zero-occurrence greps run before the FY1999 10-K and 10-K/A arrived (the directory now holds 99
