@@ -1941,3 +1941,31 @@ dossier had never opened -- BYTE Dec 1980 l.39649-39653 (a "sibling company" rev
 - Biggest gap, named rather than filled: **no MITS licence or royalty terms exist in any held document** -- the
   counterparty's own *Computer Notes* was never collected -- so Microsoft's entire first revenue line is
   undocumented. That is a FETCH REQUEST, not a paragraph of plausible economics.
+
+### RD-118 -- Target §A-H authored, and it corrected the probe, the dossier and my brief in the same pass
+
+`company_042_target/_parts/s1_p1.md`: 15,396 w (under the 22k core cap), Header + Boundary + §A–§H,
+10/10 sections WRITTEN, 47 register rows requested with column-drift and empty-cell checks and no CSV touched.
+- **Boundary held as argued** -- for *The Dayton Company at FY1965 narrating 1962* -- with **three losers named
+  and kept live**, not buried: "Target Corporation, 1962" (wrong registrant, and three years before the
+  document floor), the 1902 dry-goods leg, and the archive-floor reading. Registrant floor 1994-02-10;
+  `formerNames` = exactly one entry.
+- **It corrected the probe.** The 1902 ancestry is not merely a modern marketing timeline: **the FY1965 layer
+  itself narrates it**, so the leg is retained at UNKNOWN rather than deleted. Correcting a probe downward as
+  well as upward is the same discipline.
+- **It corrected the dossier.** B1's "fiscal year = calendar year" is refuted by **five printed year-ends**
+  (P1K10) -- the kind of assumption that silently breaks every per-store or per-share figure built on it.
+- **It corrected my brief.** P1K11: the `1972-03-22` floor I asserted in the dispatch text **greps to zero**
+  in held bytes and was therefore not written into the volume. That is now the fifth false assertion an agent
+  has found in my own instructions (424B1-vs-424B4, "Dey Brothers", RD-078's premise, "ten occurrences",
+  this). Standing rule for me: numbers that appear in a brief must be labelled as claims to verify, never as
+  facts to use.
+- P1K12 records the **Brookdale/1962 mis-citation trap**, and §G's site-tenure claim was **retracted after
+  reading the notes pages** rather than defended.
+- Honest UNKNOWNs held: founder (K1 two-sided, roles only, Geisse's drop to 0 from FY1968 carried as a lead),
+  the first-store month and day, 1963-64 openings, unit dollars except 1967, and Dey Brothers unestablished
+  against EDGAR full-text's 2001 index floor. The four 1962 stores are transcribed **as printed**, including
+  `KNOLLWOOD, ST.LOUIS PARK`.
+- Gate reports one finding, correctly: **no register CSVs yet, so `csv`/`anchors` DID NOT RUN** -- an expected
+  pre-merge state, and the wording is now "did not run" rather than a silent pass. Biggest gap is U-3
+  (pre-FY1965 print), the only route from T2 to T1 here.
