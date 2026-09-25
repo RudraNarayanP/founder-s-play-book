@@ -25,14 +25,26 @@ with four SEC filing lineages and 70 live conflicts should look like.
 
 ## Numbering continuity
 
-* Conflict blocks: **§U.44 → §U.113** (Stage 1 owns U.1–U.43). **70 blocks ↔ 70 rows in `conflicts.csv`**,
-  1:1 with no duplicate and no orphan, re-verified by read-back. **U.112 and U.113 were appended by the
+* Conflict blocks: **§U.44 → §U.115** (Stage 1 owns U.1–U.43). **72 blocks now stand against 70 rows in `conflicts.csv`,**
+  1:1 with no duplicate and no orphan through U.113; **the two-row excess is deliberate and declared: U.114 (the IPO
+  price-walk re-key) and U.115 (the FY1996/FY1997 restatement pair) were appended by the combined AUDIT-4/AUDIT-5
+  repair pass of 2026-09-25, which may not write any `*.csv` because a binding agent holds them, so their
+  `>>> CSV APPEND BLOCK: conflicts.csv` rows are emitted at the foot of `stage_2_part_3.md` §U and RESERVED to the
+  register owner. Applying those two rows returns the invariant to equality at 72↔72. Until then this index records
+  the mismatch rather than asserting an invariant that no longer holds.** **U.112 and U.113 were appended by the
   Audit-1 chronology repair pass of 2026-09-25**, each emitted together with its register row so the
   invariant never broke. **No id anywhere in the spine was re-based, renumbered or reused** (method §9.3).
 * Metric IDs continue Stage 1's sequence in §P.
 * Assembly-part record IDs (S2A-*, S2B-*, S2C-*, S2D-*, S2E-*) resolve to the dossiers in `research/`.
-* Claim-record IDs: Stage-2 volume 1 carries **409** lettered records (A01–T40; §Q now Q17–**Q69**) and
-  volume 2 carries **70** conflict records (**U.44–U.113**) plus the U.111a addendum — **479** in all.
+* Claim-record IDs: Stage-2 volume 1 carries **411** lettered records (A01–T40; §Q now Q17–**Q69**; **U.114 and
+  U.115 records appended 2026-09-25**) and
+  volume 2 carries **72** conflict records (**U.44–U.115**) plus the U.111a addendum — **481** in all.
+* **Accession inventory, updated 2026-09-25 by AUDIT-5 R-2:** the language "**1997 accessions unread**" is retired.
+  **S-1/A Nos. 1 (…603, 1997-04-21), 2 (…659, 1997-04-29), 4 (…822, 1997-05-13) and 6 (…847, 1997-05-14) are ON DISK
+  and READ**, and are registered in §T as **S0807, S0808, S0809, S0810**; the **FY1998 10-K and FY1999 10-K are also
+  ON DISK and now used**, registered as **S0811 and S0812**. Still local-but-unopened: the 8-A12G, the S-8, the S-8
+  POS, the 1997-11-10 8-K and the Q2/Q3-1997 Forms 10-Q — a reading debt, not a retrieval gap. Genuine non-local
+  witnesses remain the five at `local_copy: NO` (S2006–S2009, S2012) plus the documented null S2005.
 
 ## Line-reference keying (AUDIT-2 DEFECT-6, declared here once 2026-09-25)
 
@@ -62,7 +74,7 @@ per-company, not per-stage.
 
 | Register | Stage 1 rows | Stage 2 added | Total data rows | Field count |
 |---|---|---|---|---|
-| conflicts.csv | 43 | **70** (was 68: +U.112 +U.113) | **113** | 15 uniform |
+| conflicts.csv | 43 | **70 APPLIED** (the register currently holds 70 Stage-2 rows while the spine emits **72** blocks: U.114 and U.115 are emitted with their CSV rows in `stage_2_part_3.md` §U and are RESERVED to the register owner; applying them takes Stage-2 rows 70→**72** and the total 113→**115**) | **113 now / 115 after the append** | 15 uniform |
 | quantitative.csv | 111 | 82 | 193 | uniform (untouched by this pass) |
 | timeline.csv | 57 | **59** (was 58: +1 `(POST-BOUNDARY)` 1997-06 row) | **116** | 11 uniform |
 | validation.csv | 29 | 11 | 40 | uniform (untouched) |
@@ -103,6 +115,19 @@ the stage cannot be called complete until all five pass.
 * The claim-record appendix **is** now built (`stage_2_claim_records.md` + `stage_2_claim_records_part_2.md`,
   **479** records against Stage 1's 432), and was aligned to this repair pass: Q20/Q21/Q23/Q36/Q37/Q63/Q66,
   R12 and S17 re-pointed, **Q69** added for the re-anchored Associates row, and **U.112/U.113** records added.
+* * **Audits 4 and 5 (hindsight, adversarial) ran on 2026-09-25.** Audit 4 returned **FAIL** on checks 1–5 with 16
+  instructions C-1…C-16; Audit 5 returned **CONDITIONAL** with R-1/R-2/R-3 blocking, and its central finding was that
+  the four amendments and the two later annual reports this stage had declared unread or un-retrieved were on disk
+  throughout. **Both sheets were repaired in one pass on 2026-09-25; the record is
+  `03_quality_control/amazon_s2_audit4_repairs.md`. Its headline outcomes: the price walk is re-keyed to seven dated
+  states across eight accessions and the "same morning" / "five days" / "first stated range" / "obsolete on its own
+  filing date" wording is retracted at every site (U.114); the FY1996 EPS enumeration moves from three bases to five
+  and the "numerator unchanged" claim is retracted because the issuer restated FY1996's own loss upward by $469k
+  (U.115); U.95 is closed with its finding; §T gains six rows; the FY1997 margin pair is tagged `(PB)` at the three
+  untagged `part_1` sites and §S's false universal about its own volume is narrowed. NO confidence was raised, NO
+  claim restored, and §D's verdict — demand and revenue repeated, economics not shown to repeat, the test transferred
+  to Stage 3 unperformed — stands unchanged. Neither audit may be re-run clean until the register owner applies the
+  two appended conflicts.**
 * `_MANIFEST.md` is owned by the orchestrator and was **not** edited by this pass; the count deltas it must
   pick up are §U 68→70 blocks, conflicts.csv stage-2 rows 68→70, timeline.csv stage-2 rows 58→59, and
   claim records 476→479.

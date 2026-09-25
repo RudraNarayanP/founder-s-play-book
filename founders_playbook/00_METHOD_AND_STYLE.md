@@ -426,3 +426,12 @@ lost. Three standing rules:
    for each either cite it or record in `## Data gaps` that it was considered and why it does not bear on a
    given claim. A late-arriving primary is evidence **for** the pass that reads it, never a reason to re-run
    the pass that didn't.
+12. **Cite by stable label; a line number is a convenience, not an address.** Every repair pass shifts line
+   numbers, and audits, corrections and register rows cite `file:line` — so each repair silently invalidates the
+   citations that were correct when written, and a later reader "discovers" defects that are only stale pointers.
+   **Observed 2026-09-25:** after one Stage-2 repair pass, `stage_2_part_1.md` grew 593 → 614 lines and
+   `stage_2_part_3.md` 1,745 → 1,781, and the agent found that "line numbers are now unusable as citations",
+   re-keying its own pointers to label form.
+   **How to apply:** address a claim by something that survives edits — `§P147`, `U.95`, record id `Q60`,
+   register row key — and put the line number beside it only as a locator. When a pass materially edits a file,
+   it must re-key the pointers *into* that file that other files carry, or say in its log that it could not.

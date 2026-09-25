@@ -218,6 +218,67 @@ ls sources/S-1A-No1* sources/S-1A-No2* sources/S-1A-No4* sources/S-1A-No6*
 
 ---
 
-## 7. Outcomes
+## 7. Outcomes (final entry — 93 of 95 tool calls used; log complete)
 
-*(appended below as each group closes)*
+### Group dispositions
+| Group | Status |
+|---|---|
+| **A — price walk** (R-1, R-2, R-4, R-5, R-7, R-9, U-1…U-4, C-10, A-1…A-18) | **CLOSED** except A-17 half-applied (seasonality clause added at §D.0; the "observationally empty" fourth ground added at §Boundary; §Q counterpart not reached). 6 narrative sites + 6 claim records + §T (4 rows re-cut, 6 rows added: S0807–S0812) + §Q (5 rows re-keyed) + U.95 CLOSED-with-finding + index accession inventory |
+| **B — restatement layer** (R-3, B-1…B-9) | **CLOSED** at §P147, §P106, §P.2 s11, `part_1` §A (FY1996 **and** FY1997 pairs), §A.2, §L FY1997 row, §M.6, §F.1, P80a, §R Margins, `part_2` §K Equity basis, claim records B124/P45. **ONE BARE SITE LEFT: `part_3` §Q line 111** (the 1997-12-31 `(PB)` terminal-negatives row) still prints $147,758k/$(27,590)k without its pair — annotated three lines away at §R Margins and at §S(i). Listed for the next pass |
+| **C — hindsight failures** (C-1…C-15) | **CLOSED.** All three untagged margin sites tagged and rewritten (§D.0, §D.2 Cost/Outcome/What-it-proved, §H.2); §S universal narrowed; §D.1 heading + *What it proved* + §D.6 stripped of "scales / demonstrably scaled / storefronts live / negligible marginal cost" with the attrition alternative added; boundary nouns cut (l.28, l.52) and the 1996 items re-labelled; §A.1 seam restored with the Seafirst/card distinction; the superlative bounded at all three sites incl. N13; §G.1's ~100-day point replaced by the band with the FY1997 dollars moved out; §C row 2 narrowed; §O.7's $27.6m replaced by the in-window Q1 loss; §N availability inversion and price-floor `RETROSPECTIVE` fixed; Fortune relay tagged at both remaining sites; SIC 2731 hedged at §A and §C.1 |
+| **D — debris and drift** (DR-1…DR-6) | **CLOSED on the narrative side.** DR-4 and DR-6 repaired; DR-1/2/3/5 repaired at the prose sites. Register-side changes requested only (§9) |
+
+### Sweep counts, before → after (measured)
+**`(PB)` literal** — before: part_1 **10**, part_2 **16**, part_3 **25**, claim records **88 + 22** = **161** occurrences / **116** lines (reproduces audit-4's census). After: part_1 **30**, part_2 **21**, part_3 **26**, claim records **88 + 22** = **187**. **+26**, of which **+20 in part_1**. Registers untouched, hence 88 and 22 unchanged.
+**The `(PB)` FAIL class (audit-4 check 4 site 16)** — untagged FY1997 margin pair in `part_1`: **3 sites → 0**. `grep -n "18.75|3.25" part_1 | grep -vc "(PB)"` = **1**, and that one line is §D.2 *Outcome*'s retraction note quoting the struck wording, not a live figure. §S "tagged `(PB)` everywhere it appears" → **0 live copies**.
+**Price-walk class, live copies** — "the same morning" **2→0**; "filed that morning" **3→0**; "14 May morning" **1→0**; "five days earlier / in five days / five-day re-shaping" **5→0**; "first stated price range in the whole lineage" **4→0**; "four dated states / one source in four" **3→0**; "obsolete on its own filing date" **6→0**; "thirteen days before Amazon's amendment" **1→0**; "one day after B&N's own filing" **1→0**; "Nos. 1/2/4/6 unread" **2→0**; UG-4's "FY1998 10-K … none retrieved" **1→0**. Residual grep hits (6/5/7/8 lines) are the retraction notices quoting struck wording, verified line by line.
+**Group B class** — "numerator unchanged" **1→0**; "three FY1996 EPS bases exist" **1→0**; "unchanged numerator" (B124, P45) **2→0**; "LPS filed three ways" **2→0**. Restatement figures (`6,246`, `147,787`, `6,081`, `31,020`, …) now appear **21** times across the six files.
+
+### Invariants, as measured
+| Invariant | Measured |
+|---|---|
+| U.44–U.113 ↔ Stage-2 conflicts rows, 70↔70 | **U.44–U.113 = 70 blocks, unchanged in id/content/order; nothing renumbered.** Spine now emits **72** against **70** register rows: U.114 and U.115 appended with their `>>> CSV APPEND BLOCK: conflicts.csv` rows at the foot of §T→§U, marked RESERVED. Excess declared in three places (part_1 preamble, §U numbering paragraph, index). **No `*.csv` opened or written.** |
+| `derived_arithmetic` untouched on every DERIVED row | **Held.** No DERIVED row's arithmetic changed. Re-derived quotients reproduce printed values and add only decomposition (6,246−5,777=469; 9,902−9,438=464; 2,313→2,401=+88; 1,035→1,411=+376; 464+5=469). §P.2 s11's `5,777 ÷ 18,544` and the retracted `$(0.18)` stand. |
+| No value or class changed except the restatement pairs | **Held, one authorised exception:** N13 Class → INFERENCE (bounded) per audit-4 C-1c (see §10.3). U.95 moved UNKNOWN → CLOSED in a **conflict** record. No §P numeric value changed. |
+| False bridge at zero live copies | **Held.** No sentence now argues FY1997 prices the 1996 model; §A.3 states the opposite more sharply than before. The four existing refusals of IPO-as-proof untouched. |
+| Fabricated FY1996 money set at zero live copies | **Held.** U.60 not re-opened; `2,613,000/$871,000` and `(3,036)/(0.18)` appear only inside retractions. **Caution:** the eight new restatement figures are each a printed line of the FY1998/FY1999 10-K with its line number quoted in §0 — they are alternate bases, not revivals, and must not be read back into as-filed §P rows. |
+
+### 7.1 For the register owner (no CSV touched — full detail in the tables above)
+1. **Apply U.114 and U.115** from the `>>> CSV APPEND BLOCK` at the foot of `stage_2_part_3.md` §U → returns the invariant to **72↔72**. Do not renumber.
+2. **Annotate nine existing conflict rows:** U.52 (pair now tagged at all three part_1 sites), U.56 (barred point reading deleted from §G.1), U.51/U.65 (demonstrably-scaled and negligible-cost struck), U.55 (three bases → **five**, cross-list U.115), U.95 (CLOSED), U.97 (competitor paragraph is THREE-state; the step is No. 4's of 13 May), U.68 (hedge first filed in No. 6), U.99/U.102 (no change sought), U.112 (unchanged).
+3. **`sources.csv`: add S0807** (No. 1 …603 1997-04-21), **S0808** (No. 2 …659), **S0809** (No. 4 …822 1997-05-13), **S0810** (No. 6 …847 1997-05-14), **S0811** (10-K FY1998 …375 1999-03-05), **S0812** (10-K FY1999 …622 2000-03-23) — all verified on disk; S0807–S0812 confirmed unused (register holds S0801–S0806 only). `local_copy: YES` on all six.
+4. **`sources.csv`: re-key S0804's stale bar** (U.110) — the 424B1 is on disk.
+5. **`quantitative.csv`:** the restatement pairs are alternate bases on existing metrics, not new rows; if added, class `FACT (audited, restated comparative)`, keep the as-filed row, populate `derived_arithmetic` with §0's decomposition.
+6. **`timeline.csv`:** add 1997-04-21 (first stated range), 1997-05-13 (upsize + $14–16 ceiling + competitor rewrite), 1997-05-14 (No. 6 hedge); correct any 1997-05-09 "first range" wording.
+7. **`data_gaps.csv`:** add "no reconciliation in `sources/` of the FY1996 loss restatement (+$469k = +$464k operating expense +$5k interest expense) or FY1997's (+$3,430k)"; and "the FY1998 10-K's notes were not read past Selected Financial Data, so the question is OPEN, not closed."
+8. **`decisions.csv`:** mirror §N's two changes (Q1 + partial Q2 in `information_available`; price-floor `actual_result` marked `RETROSPECTIVE`).
+9. **`validation.csv` / `failures.csv`:** no change sought.
+10. **Orchestrator, not register owner:** `_MANIFEST.md` and `sources/STAGE3_INTAKE_MANIFEST.md` must record which of the six newly-used documents arrived **during** Stage 2 and which **beside** it. R-8 asks for it and rightly calls it the orchestrator's fact; this pass did not guess it.
+
+### 7.2 Where an audit instruction was itself wrong (all verified on disk, §0)
+1. **audit-5 L-2 and the repair brief are false on the composition.** Only net sales, cost of sales and gross profit are identical across the four instruments. **FY1996 total operating expense moves $9,438k → $9,902k** (10-K405 l.1186 vs FY1998 10-K l.1234 / FY1999 10-K l.1746) and **loss from operations moves $(5,979) → $(6,443)**; the $469k is **+$464k inside operating expense and +$5k interest expense**, and it foots exactly. L-2 also **mis-sources** its own decomposition: the $2,401/$1,411 it attributes to "the FY1997 10-K405 (l.1182–1184)" are the FY1998 10-K's l.1228/l.1229 — those 10-K405 lines print **2,313 and 1,035**. Written as measured + **unreconciled**, not as the instruction's claim.
+2. **R-2's target string does not exist.** `stage_2_index.md` carries no "1997 accessions unread" language; it lives in `part_1` l.27, §Q, §T and U.95, which is what was corrected. A positive accession inventory was added to the index instead.
+3. **C-1c vs the class invariant.** C-1c orders N13's Class → INFERENCE (bounded) while my invariant list says only the restatement pairs may change value or class. Applied (the task names N13 explicitly) and flagged rather than hidden: a claim-record class about a superlative, not a §P value or a `derived_arithmetic` field.
+4. **C-12 asked §S to record three sites as "a live defect".** After this pass they are repaired. §S now says repaired, names them, and carries a standing re-open instruction — which survives the next pass better than "live defect" would.
+5. **L-1 hedged its own count** ("second or third printed"). Precisely **second**: the original left the range blank (S-1 orig. cover l.201–205), so No. 1 is the first statement.
+6. **NEW DEFECT found while editing, in neither audit** (`part_1` §Boundary, the 1996-12-31 row): it rejected the substantive date partly because "**no CFO … yet existed**", which this volume's own §B.0 and §Q refute — Covey joined as CFO **in December 1996**, inside the month that row ends. The filings date the event to the **month** only, so whether the post was filled by the 31st is carried by no document. The noun is struck from the rejection list; the day-precision question is left where §Q leaves it.
+7. **Line-number drift is a live hazard.** `part_1` is now **614** lines against the 593 both audits cite; `part_3` is **1,781** against 1,745 — every audit line reference is off by 2–36. The two cross-volume pointers are re-keyed to **label form**, because the DEFECT-9 repair had already produced a self-pointer to a blank line. **Recommendation: cite sections and labels, not line numbers, in this volume set.**
+
+### 7.3 Not done, and why
+`part_3` §Q line 111's restatement pair (one bare site). Claim-record `(PB)` tagging at A03/D23/M19/N18/P26/P35/R17 — audit-4 did not list them as FAIL sites; §S's re-open warning covers them and §5's sweep re-finds them in one call. No `*.csv` written; no file outside the six permitted touched; `_parts/`, `research/`, Stage 1, Stage 3, `CORRECTIONS.md`, `RESUME_HANDOFF.md`, `_MANIFEST.md` untouched; **zero web requests**. ### 7.4 Post-script, recorded because the rule says a repair can be the next defect
+**One defect created by this pass and caught by re-reading its own line.** The U.95 heading in `stage_2_part_3.md`
+§U was rewritten from `**U.95 — … never been read.**` into a longer sentence whose opening `**` collided with the
+new bold `**CLOSED …**`, leaving the heading's markers unbalanced (it would have rendered the whole block from
+": CLOSED" onward as bold). Measured at 8 markers and repaired on the same pass; the heading now reads
+`**U.95 — Four S-1/A amendments and five 1997 accessions exist and have never been read.** **CLOSED as to the four
+amends …**`. Nothing else written by this pass has unbalanced markers: the four multi-line cell replacements in
+`part_1`, `part_2` and `part_3` were each counted before and after, and one earlier draft of the §N actual-result
+cell (which had 5 markers, i.e. broken) was rewritten before it was ever left on disk. **Method note for the next
+pass: any repair that inserts bold inside an already-bold table cell must re-count the markers on that line.**
+
+### 7.5 Files written by this pass
+`stage_2_part_1.md` (614 ll), `stage_2_part_2.md`, `stage_2_part_3.md` (1,781 ll), `stage_2_index.md`,
+`stage_2_claim_records.md`, `stage_2_claim_records_part_2.md`, and this sheet. **No `*.csv`. No other file.** The
+bulk-edit helper scripts used for the claim-record and annotation work were deleted after use; the per-pair match
+assertions they enforced are reflected in the before→after counts above, and §0 carries every authorising document
+line so no replacement has to be trusted.
