@@ -64,18 +64,16 @@ def strip_html(s):
 
 
 def read_rows(path):
+    """Plain excel dialect -- doublequote=True, RFC-4180. An earlier version sniffed the
+    dialect from a 4,000-byte sample, and on Amazon's registers csv.Sniffer returned
+    doublequote=False, so correctly escaped "" fields shattered every record after them and
+    the gate invented 43 width-drift findings that did not exist. Sniffing a header-bound
+    property from a truncated sample is never safe."""
     with open(path, "r", encoding="utf-8", errors="replace", newline="") as f:
-        sample = f.read(4000)
-        f.seek(0)
-        try:
-            dialect = csv.Sniffer().sniff(sample, delimiters=",;")
-        except csv.Error:
-            dialect = csv.excel
-        rdr = csv.reader(f, dialect)
-        rows = list(rdr)
+        rows = list(csv.reader(f, csv.excel))
     if not rows:
         return [], [], 0
-    return rows[0], rows[1:], len(sample)
+    return rows[0], rows[1:], sum(len(r) for r in rows)
 
 
 def plant(path, fn):
@@ -214,6 +212,11 @@ def gate_keys(company, report):
             have = {r[idx[key]].strip() for r in rows if len(r) > idx[key]}
     token = re.compile(r"\bS\d{3,6}[a-z]?\b")
     legacy = re.compile(r"\bS\d{1,2}[A-Z]?-\d{2,5}\b")
+    # A retired key that is being DISCUSSED (a collision note, a re-key map, a range like
+    # `S3001…S3081`, a backticked example) is protected history, not a dangling citation.
+    # An agent that re-pointed those would be deleting the record of how the ids collided.
+    PROTECTED = re.compile(r"collision|re-?key|retired|supersed|provisional|UNRESOLVED|"
+                           r"defect workaround|scheme|\brange\b|\bwas\b|formerly|backtick", re.I)
     for md in stage_docs(company):
         txt = open(md, encoding="utf-8", errors="replace").read()
         body = re.sub(r"(?s)```.*?```", " ", txt)
@@ -226,8 +229,26 @@ def gate_keys(company, report):
             report.note("keys", "%s cites %d hyphenated record keys: %s%s"
                         % (label, len(hits_legacy),
                            ", ".join(hits_legacy[:8]), " ..." if len(hits_legacy) > 8 else ""))
-        cited = set(token.findall(body))
+        cited = set()
+        protected = set()
+        for m in token.finditer(body):
+            t = m.group(0)
+            if t in have:
+                cited.add(t)
+                continue
+            window = body[max(0, m.start() - 60):m.end() + 60]
+            backticked = body[max(0, m.start() - 1):m.start()] == "`"
+            if PROTECTED.search(window) or backticked or re.search(r"[…-]\s*$|^\s*(to|–)",
+                                                                   window[window.find(t) + len(t):]
+                                                                   if t in window else ""):
+                protected.add(t)
+            else:
+                cited.add(t)
         dangling = sorted(c for c in cited if c not in have)
+        if protected:
+            report.note("keys", "%s mentions %d retired keys inside collision/re-key/range "
+                        "text -- protected history, not re-pointed: %s"
+                        % (label, len(protected), ", ".join(sorted(protected)[:8])))
         if dangling:
             report.fail("keys", label,
                         "unresolvable source tokens: %s" % ", ".join(dangling[:15]))
@@ -542,6 +563,13 @@ def self_test():
                 f.write("T0002,1995-05-15,short\n")
         cases["row with wrong column count"] = plant_wrong_width
 
+        def plant_proper_escaping(d):
+            # Negative control for the bug an agent caught in this gate: an RFC-correct
+            # `""` escape plus an embedded comma must NOT read as width drift.
+            with open(os.path.join(d, "timeline.csv"), "a", encoding="utf-8", newline="") as f:
+                f.write('T0009,1996-01-01,"he said ""it works"", clearly",stage1,S0001,U.1\n')
+        cases["correctly escaped doublequote must stay clean"] = plant_proper_escaping
+
         def plant_paraphrase_as_quote(d):
             plant(os.path.join(d, "stage_1.md"), lambda t:
                   '### U.1 Founding\nThe company stated "the board and one owner in '
@@ -569,10 +597,19 @@ def self_test():
                    "row with wrong column count": "csv",
                    "paraphrase presented as quote": "quotes",
                    "anchor with no register row": "anchors",
-                   "unresolvable source token in narrative": "keys"}
+                   "unresolvable source token in narrative": "keys",
+                   "correctly escaped doublequote must stay clean": "csv-NEGATIVE"}
         cases = {k: (GATE_OF[k], v) for k, v in cases.items()}
 
         for tag, (label, (gate_want, mut)) in enumerate(sorted(cases.items()), start=1):
+            if gate_want.endswith("-NEGATIVE"):
+                r = findings_for(mut, tag)
+                clean = not any(f["gate"] == gate_want[:-9] for f in r.findings)
+                print("%-40s %-8s %s" % (label, "[neg]",
+                                         "STAYS CLEAN" if clean else
+                                         "*** FALSE POSITIVE *** %s" % r.findings[:2]))
+                ok = ok and clean
+                continue
             r = findings_for(mut, tag)
             fired = any(f["gate"] == gate_want for f in r.findings)
             print("%-40s %-8s %s" % (label, "[%s]" % gate_want,

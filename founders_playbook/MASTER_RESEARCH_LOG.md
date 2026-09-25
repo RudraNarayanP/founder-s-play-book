@@ -1085,3 +1085,42 @@ not restart it.
 again: it is a *local* process bridging to a browser-authenticated notebook, so the machine must stay
 on and the T4 is irrelevant to a workload that is model tokens plus HTTP. What does run off-machine is
 `.github/workflows/harvest.yml`, proven committing to `main` as `harvest-bot`.
+
+## 2026-09-26 late evening -- the fleet started catching things about the pipeline itself
+
+**RD-088 -- an agent found a false-positive bug in `tools/gates.py`, in my code, on its first task.**
+The register-drift pass reported that Amazon's remaining 43 "width drift" rows were not defects:
+`read_rows()` sniffed the CSV dialect from a **4,000-byte sample**, and on these files
+`csv.Sniffer` returned `doublequote=False`, so every correctly RFC-4180-escaped `""` field
+shattered the records after it. Verified independently: strict `csv.reader(csv.excel)` gives the
+header width on **all 1,296 register rows in all five Amazon registers**. Fixed to the plain excel
+dialect, and a **negative control** was added to `--self-test` -- an escaped `""` plus embedded
+comma must stay clean. Self-test is now **9 cases: 8 defects caught + 1 false positive refused**,
+clean fixture still CLEAN.
+**Why this is the rule now:** a gate that manufactures defects is worse than no gate, because an
+honest repair agent will "fix" real data to satisfy it. Every gate needs a *must-stay-clean* case,
+not only *must-catch* cases.
+
+**RD-089 -- a second agent refused my premise and was right.** I briefed the stale-token pass on
+`S3001/S3007/S3022` as "narrative residue to re-point". It enumerated all 34 occurrences, found
+**zero** live citations -- every one is either a collision/re-key/range note (`S3001…S3081`), an
+already-held `UNRESOLVED` row, or a protected supersession record -- and **edited nothing**,
+pointing out that the gate could only pass by deleting the record of how the ids collided. Correct
+call, and it is now encoded: the keys gate separates *mentioned inside collision/re-key/range text*
+(a note) from *cited and unresolvable* (a finding). Amazon's keys findings went 15 tokens/6 files →
+9 tokens/4 files, all genuine.
+**How to apply:** when an agent reports that my brief's premise is wrong, that is the highest-value
+output it can produce, and the gate -- not the corpus -- is the thing to repair.
+
+**Stage-3 hindsight gate returned FAIL (5 HIGH / 9 MEDIUM / 2 LOW)** -- see
+`03_quality_control/amazon_s3_audit4_hindsight.md`. The two worst: an **inverted numeric
+mechanism** (§O.1 asserts a convertible's conversion price "never entered the money on any filed
+1999 range" while the cited §M.13 says it was in the money every quarter at their highs -- it was
+the **$117.04 redemption gate**, 150% of the strike, that was never reached), and a **motive claim
+with no document** (a "no previous experience" → "limited experience" wording change read as
+deliberate softening "before it could be read against the charge", against the same file's record of
+five plants opened in 1999). Also HIGH: a per-order cost asserted where §K.6 registers it UNKNOWN;
+six FY1999 figures with zero rows in all nine registers; and risk-factor boilerplate read as the
+company's mental state. Note the sweep that came back clean: `inevitable / destined / would later /
+in hindsight / drove / showed that / the reason was` = **0 hits** across three volumes -- the
+earlier rhetoric sweeps worked; what survives now hides in *mechanism* claims, not in adjectives.
