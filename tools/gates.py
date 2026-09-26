@@ -639,7 +639,8 @@ def run(company, checks, tier, outdir=None):
         json.dump({"findings": rep.findings}, open(os.path.join(outdir, "gates_%s.json" % base),
                                                    "w", encoding="utf-8"), indent=1)
     print(md)
-    return len(rep.findings)
+    substantive = [f for f in rep.findings if f["gate"] != "coverage"]
+    return len(rep.findings), len(substantive)
 
 
 # ---------------------------------------------------------------- self-test
@@ -818,13 +819,25 @@ def main():
     ap.add_argument("--tier", default="exemplar", choices=["exemplar", "core", "register"])
     ap.add_argument("--out")
     ap.add_argument("--self-test", action="store_true")
+    ap.add_argument("--fail-on", default="substantive", choices=["substantive", "all"],
+                    help="'substantive' (default): exit non-zero only on real findings. A "
+                         "coverage finding means a gate had no input yet -- which is the NORMAL "
+                         "state for a freshly probed company with no volumes or registers, so "
+                         "failing CI on it turns every early-stage company into a red X and the "
+                         "signal stops meaning anything. 'all' fails on those too.")
     a = ap.parse_args()
     if a.self_test:
         return self_test()
     if not a.company_dir:
         raise SystemExit("need --company-dir or --self-test")
-    n = run(a.company_dir, [c.strip() for c in a.checks.split(",")], a.tier, a.out)
-    return 1 if n else 0
+    total, substantive = run(a.company_dir, [c.strip() for c in a.checks.split(",")],
+                             a.tier, a.out)
+    if total != substantive:
+        print(chr(10) + "coverage-only findings (a gate had no input yet): %d of %d -- expected "
+              "for a freshly probed company, and NOT failing the exit code unless --fail-on all"
+              % (total - substantive, total))
+    metric = total if a.fail_on == "all" else substantive
+    return 1 if metric else 0
 
 
 if __name__ == "__main__":

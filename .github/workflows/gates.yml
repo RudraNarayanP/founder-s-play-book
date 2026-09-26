@@ -35,9 +35,12 @@ jobs:
           rc=0
           for dir in founders_playbook/01_companies/company_*/; do
             echo "::group::$(basename "$dir")"
+            # --fail-on substantive: a `coverage` finding means a gate had no input yet, which is
+            # the normal state for a freshly probed company. Failing on it made every early-stage
+            # company a red X and the signal stopped meaning anything.
             python tools/gates.py --company-dir "$dir" \
-              --checks csv,keys,anchors,budget || rc=1
+              --checks csv,keys,anchors,budget,corrections --fail-on substantive || rc=1
             echo "::endgroup::"
           done
-          echo "Aggregate gate status: $([ $rc -eq 0 ] && echo PASS || echo 'FINDINGS PRESENT')"
+          echo "Aggregate gate status: $([ $rc -eq 0 ] && echo PASS || echo 'SUBSTANTIVE FINDINGS PRESENT')"
           exit $rc

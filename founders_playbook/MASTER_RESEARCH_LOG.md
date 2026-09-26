@@ -2018,3 +2018,26 @@ its certifier running; Microsoft and Target are mid-assembly.
 - Combined Stage-1 draft is ~36,954 words, inside the 60k cap, so **Target merges as a single volume** with
   126 register rows to apply. Gates clean on keys and budget; the only finding is the expected pre-merge
   `coverage/registers`.
+
+### RD-120 -- the CI red X meant nothing, the nightly harvest never fired, and I broke a live tool doing it
+
+**Three operational findings, all verified rather than assumed.**
+1. **`mechanical-gates` failed on every push** because `gates.py` exited 1 on *any* finding -- and 10 of 13
+   companies only had `coverage` findings ("no registers yet", "no stage volumes yet"), which is the normal
+   state of a freshly probed company. A signal that is always red is not a signal. Fixed with
+   `--fail-on substantive` (default): coverage findings print but do not fail. **Verified both directions:**
+   Costco returns rc=0 by default and rc=1 under `--fail-on all`, and **all 13 companies are now rc=0**, i.e.
+   there is not one substantive mechanical finding anywhere in the corpus right now.
+2. **`nightly-periodical-harvest` has never run on schedule.** The public Actions API shows the last ten runs
+   are all `mechanical-gates`; the only harvest commit on `main` is `2e90df0`, 2026-09-25. So the 427 queries
+   written yesterday have **never been spent** and 47 companies are still unsearched. The config itself is
+   sound -- a dry run built all URLs, reported 427 tasks / 50 companies / families {CA 111, IA 104,
+   corporate_print 103, HT 56, GB 53}, and every per-source cap sits above its own task count. The blocker is
+   execution, not data. A local run is starting now (script work, zero model tokens); the permanent fix is a
+   manual *Run workflow* on GitHub, which is your click, not mine.
+3. **I broke `tools/gates.py` for a few minutes, for the second time today.** My patch script wrote the file
+   *before* validating it, and a literal newline inside a `print(` -- the escaping trap again -- left the
+   module with an unterminated string. Six agents call this file. The syntax check said REJECTED *after* the
+   write had landed. **Standing correction to my own procedure: validate the string, then write; never write
+   then validate** -- and do not edit a shared tool while it has live callers when a queue-the-edit option
+   exists. An agent had already reported the same class of interruption earlier today.
