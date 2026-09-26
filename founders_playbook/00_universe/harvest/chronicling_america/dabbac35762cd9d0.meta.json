@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22Amazon.com%22+Seattle&date1=1994&date2=2002&dateFilterType=yearRange&state=Washington&sort=date",
+ "evidence_file": "dabbac35762cd9d0.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 85274,
+ "retrieved_at": "2026-09-26T11:33:48Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a411f4ae8d1350bb-ORD",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'Amazon.com' Seattle WA 1994-2002",
+ "company": "amazon",
+ "kind": "search"
+}

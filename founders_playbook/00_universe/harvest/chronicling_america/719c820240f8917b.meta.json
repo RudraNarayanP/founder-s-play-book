@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=Walton+%22Ben+Franklin%22&date1=1945&date2=1962&dateFilterType=yearRange&state=Arkansas",
+ "evidence_file": "719c820240f8917b.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 85273,
+ "retrieved_at": "2026-09-26T11:32:16Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a411f271fa76ead8-ORD",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'Walton' Ben Franklin Arkansas 1945-1962",
+ "company": "walmart",
+ "kind": "search"
+}

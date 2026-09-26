@@ -1,0 +1,85 @@
+{"alternate_locations":{"servers":[{"server":"dn711106.ca.archive.org","dir":"/0/items/1972-annual-report-for-walmart-stores-inc"},{"server":"dn760107.eu.archive.org","dir":"/0/items/1972-annual-report-for-walmart-stores-inc"}],"workable":[{"server":"dn711106.ca.archive.org","dir":"/0/items/1972-annual-report-for-walmart-stores-inc"},{"server":"dn760107.eu.archive.org","dir":"/0/items/1972-annual-report-for-walmart-stores-inc"}]},"created":1790415628,"d1":"ia601404.us.archive.org","d2":"ia801404.us.archive.org","dir":"/11/items/1972-annual-report-for-walmart-stores-inc","files":[{"name":"1972-annual-report-for-walmart-stores-inc.epub","source":"derivative","original":"1972-annual-report-for-walmart-stores-inc_abbyy.gz","mtime":"1719462928","size":"1764236","md5":"b0f2b1e17416b2cfc3cd443611af17c4","crc32":"1a076833","sha1":"976269e7f0a197be891cfb7d3488ebfd004253e7","format":"EPUB"},{"name":"1972-annual-report-for-walmart-stores-inc.gif","source":"derivative","format":"Animated GIF","original":"1972-annual-report-for-walmart-stores-inc_jp2.zip","mtime":"1393197132","size":"93130","md5":"89d5669bb36668e48cefc73e40cc7511","crc32":"800c0e08","sha1":"d490199232d993bed2835af8e3538dbfaf9451b2"},{"name":"1972-annual-report-for-walmart-stores-inc.pdf","source":"original","format":"Image Container PDF","mtime":"1393197050","size":"2261266","md5":"6ff437f79544d307074360d6846b57b4","crc32":"a4e95dc6","sha1":"246e7ae62c18d3cb92444ac314a8db9ecd00ec43"},{"name":"1972-annual-report-for-walmart-stores-inc_abbyy.gz","source":"derivative","format":"Abbyy GZ","original":"1972-annual-report-for-walmart-stores-inc_jp2.zip","mtime":"1393197227","size":"305013","md5":"946bbdd845fc8587edbca2be4441d43c","crc32":"194473b8","sha1":"ec14311753b2c57e4b910a039e593161b72ba47b"},{"name":"1972-annual-report-for-walmart-stores-inc_archive.torrent","source":"metadata","btih":"c8d08afe67b02a93b4eec678783fe8a798249b62","mtime":"1771949366","size":"5577","md5":"f7978854b641bca8ecce571962b3f728","crc32":"dae63dce","sha1":"965f7a9d1d612d1621cb3e91e7dabd800b58e3ab","format":"Archive BitTorrent"},{"name":"1972-annual-report-for-walmart-stores-inc_chocr.html.gz","source":"derivative","ocr_module_version":"0.0.21","ocr_converted":"abbyy-to-hocr 1.1.37","format":"chOCR","original":"1972-annual-report-for-walmart-stores-inc_abbyy.gz","mtime":"1709048953","size":"262694","md5":"253814e762321074a70b2a9336c8f3ab","crc32":"f52d630b","sha1":"c0c100612b8d400868b3eaff30dcdb9721f23359"},{"name":"1972-annual-report-for-walmart-stores-inc_cloth_detection.log","source":"derivative","format":"Cloth Cover Detection Log","original":"1972-annual-report-for-walmart-stores-inc_scandata.xml","mtime":"1709049529","size":"627","md5":"74ae833c0386c69dbd0e43ed1b3ebe07","crc32":"69120d5b","sha1":"89c9b55493d152f95691567412f2dc17db221d3d"},{"name":"1972-annual-report-for-walmart-stores-inc_djvu.txt","source":"derivative","format":"DjVuTXT","original":"1972-annual-report-for-walmart-stores-inc_djvu.xml","mtime":"1709049050","size":"23989","md5":"a634222123e3df5ae8ffdb385d621b49","crc32":"d6b52fc4","sha1":"964bd1df321c9690fe490a24d309f2377e711489"},{"name":"1972-annual-report-for-walmart-stores-inc_djvu.xml","source":"derivative","format":"Djvu XML","original":"1972-annual-report-for-walmart-stores-inc_hocr.html","mtime":"1709049023","size":"270077","md5":"6722886cfd74a168f865d97a63d997b4","crc32":"5b7fdd29","sha1":"b60a8ba31aa890ba36dc563f9afdd8ad334b195e"},{"name":"1972-annual-report-for-walmart-stores-inc_files.xml","source":"original","format":"Metadata","md5":"87d159eff5e8ab18e51304c9a1f2bec6","summation":"md5"},{"name":"1972-annual-report-for-walmart-stores-inc_hocr.html","source":"derivative","hocr_char_to_word_module_version":"1.3.0","hocr_char_to_word_hocr_version":"1.1.56","ocr_module_version":"0.0.21","ocr_converted":"abbyy-to-hocr 1.1.37","format":"hOCR","original":"1972-annual-report-for-walmart-stores-inc_chocr.html.gz","mtime":"1709049003","size":"547314","md5":"638403a79ab51babcfc3229b551eade5","crc32":"b031b0c6","sha1":"b688dce4ffb21c0d3057b579dfc090dd6cb367d2"},{"name":"1972-annual-report-for-walmart-stores-inc_hocr_pageindex.json.gz","source":"derivative","hocr_pageindex_module_version":"1.1.0","hocr_pageindex_hocr_version":"1.1.56","format":"OCR Page Index","original":"1972-annual-report-for-walmart-stores-inc_hocr.html","mtime":"1709049027","size":"149","md5":"bdd1822225b77128d4cc19dec453f891","crc32":"c8f60b78","sha1":"8136ae5f4fc42defa1d724f4346da86d7e7e570c"},{"name":"1972-annual-report-for-walmart-stores-inc_hocr_searchtext.txt.gz","source":"derivative","hocr_fts_text_module_version":"1.2.0","hocr_fts_text_hocr_version":"1.1.56","word_conf_0_10":"187","word_conf_11_20":"362","word_conf_21_30":"558","word_conf_31_40":"679","word_conf_41_50":"521","word_conf_51_60":"332","word_conf_61_70":"186","word_conf_71_80":"98","word_conf_81_90":"51","word_conf_91_100":"84","format":"OCR Search Text","original":"1972-annual-report-for-walmart-stores-inc_hocr.html","mtime":"1709049039","size":"8841","md5":"1be7fa54c8b8fbd69d4467a22969e59f","crc32":"10b18898","sha1":"ace2212a0e4923786eeaf7d124354c7584717d06"},{"name":"1972-annual-report-for-walmart-stores-inc_jp2.zip","source":"derivative","format":"Single Page Processed JP2 ZIP","original":"1972-annual-report-for-walmart-stores-inc.pdf","mtime":"1393197121","size":"6176113","md5":"e188efc786e1dba1d46eb1906ace5515","crc32":"11d13f8d","sha1":"9e9be93035f46cf4b1b2a60734f86a3d430dc003","filecount":"11"},{"name":"1972-annual-report-for-walmart-stores-inc_meta.sqlite","source":"original","format":"Metadata","mtime":"1464934682","size":"8192","md5":"ec882d842dffa5bc4eb0c7932709ab2a","crc32":"8894e46f","sha1":"aa52a1074e91bb2ebca431ded1291460cd432cb4"},{"name":"1972-annual-report-for-walmart-stores-inc_meta.xml","source":"original","format":"Metadata","mtime":"1771949360","size":"1222","md5":"a8e1f03e6b39559bd3ea225dcaeb7bf8","crc32":"306853e3","sha1":"5c42e7a1861be4a110cf5f890d8a75f403e5e4ce"},{"name":"1972-annual-report-for-walmart-stores-inc_page_numbers.json","source":"derivative","hocr_pagenumber_module_version":"1.0.5","hocr_pagenumber_hocr_version":"1.1.54","hocr_pagenumber_confidence":"0","format":"Page Numbers JSON","original":"1972-annual-report-for-walmart-stores-inc_hocr.html","mtime":"1709049501","size":"2027","md5":"83db3aada98b26700483eec15028c02d","crc32":"f22ec856","sha1":"5be76433a17c7a1d0fbc994f5f869d0ab8c79d56"},{"name":"1972-annual-report-for-walmart-stores-inc_scandata.xml","source":"derivative","format":"Scandata","original":"1972-annual-report-for-walmart-stores-inc_djvu.xml","mtime":"1709049502","size":"3572","md5":"08b2c9bba87e2f305e5dc4389b109113","crc32":"4c98a42d","sha1":"49cd382f5e3cdf6ac211d57c137905588ffea249"},{"name":"1972-annual-report-for-walmart-stores-inc_text.pdf","source":"derivative","pdf_module_version":"0.0.23","format":"Additional Text PDF","original":"1972-annual-report-for-walmart-stores-inc_page_numbers.json","mtime":"1709049667","size":"3248065","md5":"71517a760337201d0039d6f714fa352f","crc32":"93bf9014","sha1":"a5d92e0020819ee0b9b49fee447ea3fd815ca9a5"},{"name":"__ia_thumb.jpg","source":"original","mtime":"1771949364","size":"14852","md5":"d47fd66582b3f7ca9b16937611b10f61","crc32":"b6153453","sha1":"8af0eb1b2b0a612d9d1edf6459989f46da0cb29d","format":"Item Tile"}],"files_count":20,"item_last_updated":1771949366,"item_size":14996956,"metadata":{"identifier":"1972-annual-report-for-walmart-stores-inc","creator":"Walmart","date":"1972","language":"eng","mediatype":"texts","subject":"Walmart Annual Report;","title":"1972 Annual Report For Walmart Stores Inc","year":"1972","collection":["walmart_reports","magazine_rack","newsmagazines"],"publicdate":"2014-02-23 23:10:53","uploader":"slaxemulator@gmail.com","addeddate":"2014-02-23 23:10:53","identifier-access":"http://archive.org/details/1972-annual-report-for-walmart-stores-inc","identifier-ark":"ark:/13960/t61575c42","imagecount":"11","ppi":"300","repub_state":"4","backup_location":"ia905804_25","foldoutcount":"0","ocr_module_version":"0.0.21","ocr_converted":"abbyy-to-hocr 1.1.37","page_number_confidence":"0","page_number_module_version":"1.0.5","pdf_module_version":"0.0.23"},"page_numbers":{
+    "identifier": "1972-annual-report-for-walmart-stores-inc",
+    "format-version": "2",
+    "archive-hocr-tools-version": "1.1.54",
+    "confidence": 0,
+    "pages": [
+        {
+            "leafNum": 0,
+            "confidence": null,
+            "pageNumber": "",
+            "pageProb": null,
+            "wordConf": null
+        },
+        {
+            "leafNum": 1,
+            "confidence": null,
+            "pageNumber": "",
+            "pageProb": null,
+            "wordConf": null
+        },
+        {
+            "leafNum": 2,
+            "confidence": null,
+            "pageNumber": "",
+            "pageProb": null,
+            "wordConf": null
+        },
+        {
+            "leafNum": 3,
+            "confidence": null,
+            "pageNumber": "",
+            "pageProb": null,
+            "wordConf": null
+        },
+        {
+            "leafNum": 4,
+            "confidence": null,
+            "pageNumber": "",
+            "pageProb": null,
+            "wordConf": null
+        },
+        {
+            "leafNum": 5,
+            "confidence": null,
+            "pageNumber": "",
+            "pageProb": null,
+            "wordConf": null
+        },
+        {
+            "leafNum": 6,
+            "confidence": null,
+            "pageNumber": "",
+            "pageProb": null,
+            "wordConf": null
+        },
+        {
+            "leafNum": 7,
+            "confidence": null,
+            "pageNumber": "",
+            "pageProb": null,
+            "wordConf": null
+        },
+        {
+            "leafNum": 8,
+            "confidence": null,
+            "pageNumber": "",
+            "pageProb": null,
+            "wordConf": null
+        },
+        {
+            "leafNum": 9,
+            "confidence": null,
+            "pageNumber": "",
+            "pageProb": null,
+            "wordConf": null
+        },
+        {
+            "leafNum": 10,
+            "confidence": null,
+            "pageNumber": "",
+            "pageProb": null,
+            "wordConf": null
+        }
+    ]
+},"server":"ia801404.us.archive.org","uniq":941297284,"workable_servers":["ia801404.us.archive.org","ia601404.us.archive.org"]}

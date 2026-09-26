@@ -1,0 +1,25 @@
+{
+ "url": "https://books.google.com/books/feeds/volumes?q=%22American+Telephone%22+telegraph+annual+report+shareholder&maxResults=10",
+ "evidence_file": "bec35e68f656aa4d.xml",
+ "http_status": 200,
+ "content_type": "application/atom+xml; charset=UTF-8",
+ "bytes": 27015,
+ "retrieved_at": "2026-09-26T11:38:00Z",
+ "ext": ".xml",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/atom+xml,application/xml;q=0.9,application/json;q=0.8,*/*;q=0.7"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "",
+ "retry_after": "",
+ "note": "",
+ "source": "google_books",
+ "query_label": "GB 'AT&T' annual report shareholder registrar",
+ "company": "att",
+ "kind": "search"
+}

@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=Cencora&date1=1985&date2=2005&dateFilterType=yearRange&state=Pennsylvania&sort=date",
+ "evidence_file": "e16ad77c6c6c1efa.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 85273,
+ "retrieved_at": "2026-09-26T11:34:30Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a411f5b7583950bb-ORD",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'Cencora' Conshohocken PA 1985-2005",
+ "company": "cencora",
+ "kind": "search"
+}

@@ -1,0 +1,25 @@
+{
+ "url": "https://babel.hathitrust.org/cgi/ls?field1=ocr;q1=%22Charter%20Med%22;a=srchls;lmt=ft",
+ "evidence_file": "ff36f02bd773af0c-r20260926T113202Z.html",
+ "http_status": 403,
+ "content_type": "text/html; charset=UTF-8",
+ "bytes": 5935,
+ "retrieved_at": "2026-09-26T11:33:24Z",
+ "ext": ".html",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "text/html,application/xhtml+xml,application/json;q=0.8,*/*;q=0.7"
+ },
+ "tls_verify": "on",
+ "error_class": "bot_challenge",
+ "redirect_location": "",
+ "cf_mitigated": "challenge",
+ "cf_ray": "a411f41e0f9922e8-ORD",
+ "retry_after": "",
+ "note": "HTTP 403 Cloudflare bot-management challenge (Cf-Mitigated: challenge, Cf-Ray: a411f41e0f9922e8-ORD). The host answered 'prove you are a browser' and never searched anything: UNANSWERED, not a null, and no parameter change will fix it",
+ "source": "hathitrust",
+ "query_label": "HT 'Charter Med' (verified route, count to be recorded)",
+ "company": "unitedhealth",
+ "kind": "search"
+}

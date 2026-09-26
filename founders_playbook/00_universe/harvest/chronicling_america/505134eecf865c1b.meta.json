@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=NVIDIA+%22NV1%22+OR+%22graphics+accelerator%22&date1=1994&date2=2000&dateFilterType=yearRange",
+ "evidence_file": "505134eecf865c1b.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 85273,
+ "retrieved_at": "2026-09-26T11:35:25Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a411f70e0fc5e80e-ORD",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'NV1' graphics chip 1994-2000 (product-name route: what trade press printed before the corporate name was known)",
+ "company": "nvidia",
+ "kind": "search"
+}

@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22General+Motors%22+%22Chevrolet%22+merger&date1=1900&date2=1970&dateFilterType=yearRange&state=Michigan",
+ "evidence_file": "d37a2827d5770dc7.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 85274,
+ "retrieved_at": "2026-09-26T11:36:24Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a411f87f29e750bb-ORD",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA NAME-DISCOVERY 'General Motors' \"formerly\" / subsidiary-division names 1900-1970 (routes to the component names a period paper printed)",
+ "company": "gm",
+ "kind": "search"
+}

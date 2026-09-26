@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22Home+Depot%22+%22do+it+yourself%22+OR+%22warehouse+store%22&date1=1975&date2=1998&dateFilterType=yearRange",
+ "evidence_file": "06524fd2fc5df222.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 85274,
+ "retrieved_at": "2026-09-26T11:36:41Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a411f8e7e951eae7-ORD",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'Home Depot' 'do-it-yourself' warehouse Georgia 1975-1998 (product-format route: trade pages printed the format before the chain was famous)",
+ "company": "homedepot",
+ "kind": "search"
+}

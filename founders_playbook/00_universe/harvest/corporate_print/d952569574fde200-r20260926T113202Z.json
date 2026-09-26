@@ -1,0 +1,113 @@
+{"alternate_locations":{"servers":[{"server":"dn720804.ca.archive.org","dir":"/0/items/micro_IA41155142_0546"}],"workable":[{"server":"dn720804.ca.archive.org","dir":"/0/items/micro_IA41155142_0546"}]},"created":1790422417,"d1":"ia601804.us.archive.org","d2":"ia801804.us.archive.org","dir":"/32/items/micro_IA41155142_0546","files":[{"name":"__ia_thumb.jpg","source":"original","mtime":"1768176726","size":"12912","md5":"5b324a31cd0ef6efa8eb22f871eb8619","crc32":"3b7d28f0","sha1":"8af816e6868182e4d985a1a3c38fe06a2da30fc0","format":"Item Tile"},{"name":"micro_IA41155142_0546.pdf","source":"derivative","pdf_module_version":"0.0.25","pdf_degraded":"invalid-jp2-headers","format":"Text PDF","original":"micro_IA41155142_0546_page_numbers.json","mtime":"1768176700","size":"2633024","md5":"02a7687cd597d4b4bb4269039c86c292","crc32":"a204057b","sha1":"49223a2fa73eddb72a97b752413c5fa27a765165"},{"name":"micro_IA41155142_0546_archive.torrent","source":"metadata","btih":"730a3e8eb965e334144ca6268a648490f4e4af7c","mtime":"1787800359","size":"22021","md5":"8b45fa6046f191cb8588cfff34dd7ffd","crc32":"3bd2fc31","sha1":"fbb35fc45970a32cf54a56bf3844fd9c13a3c57a","format":"Archive BitTorrent"},{"name":"micro_IA41155142_0546_chocr.html.gz","source":"derivative","ocr":"tesseract 5.3.0-6-g76ae","ocr_parameters":"lang-eng;two-pass-disabled;pass-dpi-disabled;autonomous-mode-disabled;binarisation-method-otsu","ocr_module_version":"0.0.21","ocr_detected_script":"Latin","ocr_detected_script_conf":"1.0000","ocr_detected_lang":"en","ocr_detected_lang_conf":"1.0000","format":"chOCR","original":"micro_IA41155142_0546_jp2.zip","mtime":"1768176587","size":"384556","md5":"b097cdbe851743e0e790a88c97124025","crc32":"6af7bf40","sha1":"86bd7c7ef865683329aa7c393e36616f56422556"},{"name":"micro_IA41155142_0546_djvu.txt","source":"derivative","format":"DjVuTXT","original":"micro_IA41155142_0546_djvu.xml","mtime":"1768176717","size":"27685","md5":"114782aea9828316481b135ed2b929e1","crc32":"cfefb0d9","sha1":"3ae81212586a6135d2c0b998e3cbdc7b2230183a"},{"name":"micro_IA41155142_0546_djvu.xml","source":"derivative","format":"Djvu XML","original":"micro_IA41155142_0546_hocr.html","mtime":"1768176612","size":"326448","md5":"c3132ac5c7ab18155accd01f24b54d07","crc32":"bd41d1aa","sha1":"9e31b01e17f451a8836e7aca8e3b0bb39321b01b"},{"name":"micro_IA41155142_0546_files.xml","source":"original","format":"Metadata","md5":"b95b6a5e2d3880ef48031064db9c2ae2","summation":"md5"},{"name":"micro_IA41155142_0546_hocr.html","source":"derivative","hocr_char_to_word_module_version":"1.3.0","hocr_char_to_word_hocr_version":"1.1.56","ocr_parameters":"lang-eng;two-pass-disabled;pass-dpi-disabled;autonomous-mode-disabled;binarisation-method-otsu","ocr_module_version":"0.0.21","ocr_detected_script":"Latin","ocr_detected_script_conf":"1.0000","ocr_detected_lang":"en","ocr_detected_lang_conf":"1.0000","format":"hOCR","original":"micro_IA41155142_0546_chocr.html.gz","mtime":"1768176603","size":"620665","md5":"8061f0a4bd7a1455f90bedfa1d68a45b","crc32":"049926df","sha1":"f08b8057a6d8489a51caf23dd1766c7d2bdc68f8"},{"name":"micro_IA41155142_0546_hocr_pageindex.json.gz","source":"derivative","hocr_pageindex_module_version":"1.1.0","hocr_pageindex_hocr_version":"1.1.56","format":"OCR Page Index","original":"micro_IA41155142_0546_hocr.html","mtime":"1768176619","size":"219","md5":"4694126f48ccad47c8aaa30edd1f7423","crc32":"6639f377","sha1":"d0bc3badaed1bd0156bd2bd6fd495b0022b5f8eb"},{"name":"micro_IA41155142_0546_hocr_searchtext.txt.gz","source":"derivative","hocr_fts_text_module_version":"1.2.0","hocr_fts_text_hocr_version":"1.1.56","word_conf_0_10":"11","word_conf_11_20":"0","word_conf_21_30":"8","word_conf_31_40":"0","word_conf_41_50":"5","word_conf_51_60":"4","word_conf_61_70":"8","word_conf_71_80":"12","word_conf_81_90":"58","word_conf_91_100":"3778","format":"OCR Search Text","original":"micro_IA41155142_0546_hocr.html","mtime":"1768176631","size":"9237","md5":"ccbb4129772df0649419723f1d7e8116","crc32":"e61e3393","sha1":"b78e229ad54dc3fea7e621334a88e48d695f17b3"},{"name":"micro_IA41155142_0546_itemimage.png","source":"original","mtime":"1767962260","size":"320734","md5":"e123eeed98a10520f929cffc3fb64cf6","crc32":"874058a5","sha1":"a9c5f67f55622e5b0a023cbfa58ba9098a554349","format":"Item Image"},{"name":"micro_IA41155142_0546_jp2.zip","source":"derivative","format":"Single Page Processed JP2 ZIP","original":"micro_IA41155142_0546_micro_scan.json","mtime":"1768176497","size":"10141344","md5":"fc12b6b6fe708600281b41f43371e562","crc32":"74d8cf8c","sha1":"3b03ece00fba28e17b324bb9e2c1090129d42450","filecount":"18"},{"name":"micro_IA41155142_0546_meta.sqlite","source":"original","mtime":"1768176407","size":"20480","md5":"c86ea2ffbac963878c28e5c6f105803e","crc32":"ac60f413","sha1":"dc7357ac3134e166d826d19662977acb7c64096d","format":"Metadata"},{"name":"micro_IA41155142_0546_meta.xml","source":"original","mtime":"1787800355","size":"2374","md5":"38ca50af5735e341098ba0fc491cbb18","crc32":"8e0da295","sha1":"ef7b1ad9e5700497d6c2a8a121870a98ba180b71","format":"Metadata"},{"name":"micro_IA41155142_0546_micro_jp2.zip","source":"original","mtime":"1767962270","size":"447112392","md5":"e75524e59b80d89d2f339e0a9313e872","crc32":"ca4dbf6f","sha1":"1c9bccfddb70a9b32192ffa330a6b76c09974bee","format":"Micro Cards JP2 ZIP","filecount":"18"},{"name":"micro_IA41155142_0546_micro_scan.json","source":"original","format":"Micro Cards Data JSON","original":"micro_IA41155142_0546_micro_jp2.zip","mtime":"1768176397","size":"3616","md5":"5080deb2892a89f522200fef1c29e79f","crc32":"64a84f99","sha1":"007792ba985a98ad492ff31521468c16e4f40be1"},{"name":"micro_IA41155142_0546_page_numbers.json","source":"derivative","hocr_pagenumber_module_version":"1.0.5","hocr_pagenumber_hocr_version":"1.1.54","hocr_pagenumber_confidence":"90","format":"Page Numbers JSON","original":"micro_IA41155142_0546_hocr.html","mtime":"1768176647","size":"2685","md5":"b7792eb868f6c57e495027fe4afa2345","crc32":"ed93213f","sha1":"972f4a69b32eedcb4672e252147dc1f6ffd6882a"},{"name":"micro_IA41155142_0546_scandata.xml","source":"derivative","format":"Scandata","original":"micro_IA41155142_0546_micro_scan.json","mtime":"1768176647","size":"6458","md5":"f2984ccf9985224b1812d89827559d25","crc32":"a6c0fa3d","sha1":"b276fcbdd52e1ce72a421407200607c095f1fcc0"},{"name":"micro_IA41155142_0546_thumb_avif.zip","source":"derivative","microfiche_deriver_module_version":"1.5.0","format":"AVIF Thumbnails ZIP","original":"micro_IA41155142_0546_micro_jp2.zip","mtime":"1767962481","size":"1092817","md5":"f0c4ba2b9f3f779344864bbec96533d8","crc32":"3481028a","sha1":"284a0d294a889a0b16148ba7d342a2b9200d5890","filecount":"2"}],"files_count":19,"item_last_updated":1787800359,"item_size":462739667,"metadata":{"identifier":"micro_IA41155142_0546","adaptive_ocr":"true","betterpdf":"true","bookreader-defaults":"mode/1up","boxid":"IA41155142","cardcount":"1","contributor":"Internet Archive","envelopeid":"0546","language":"English","mediatype":"texts","operator":"associate-michael-arp@northernlightsdigitallibrary.org","ppi":"400","scandate":"20260109071207","scanner":"archivecd-rmd01","scanningcenter":"sanfrancisco","software_version":"ArchiveCD Version 3.1.27","source":"Microfiche","total-time":"40","uploader":"associate-michael-arp@northernlightsdigitallibrary.org","title":"Student Empowerment. The Influence of High Computer Access on Student Empowerment (An Exploratory Study of the Nashville ACOT Site). ACOT Report #1.","publicdate":"2026-01-09 12:35:57","addeddate":"2026-01-09 12:38:51","identifier-access":"http://archive.org/details/micro_IA41155142_0546","identifier-ark":"ark:/13960/s20h1qh0p2h","micro_review":"done","derive_version":"1.5.0","date":"1989","review_time":"96","review_operator":"associate-Ashley-Godinez-Simanca@archive.org","review_date":"20260112000634","creator":["Fisher, Charles W.","Apple Computer, Inc., Cupertino, CA."],"catalog_number":"ED316199","imagecount":"15","ocr":"tesseract 5.3.0-6-g76ae","ocr_parameters":"-l eng","ocr_module_version":"0.0.21","ocr_detected_script":"Latin","ocr_detected_script_conf":"1.0000","ocr_detected_lang":"en","ocr_detected_lang_conf":"1.0000","page_number_confidence":"90","page_number_module_version":"1.0.5","pdf_degraded":"invalid-jp2-headers","pdf_module_version":"0.0.25","collection":["eric-microfiche","microfiche"],"collection_added":"microfiche"},"micro_scan":{"cards":[{"metadata":{"card_index":0,"invert":true},"pages":[{"crop_box":[0,0,50161,4758.446892427364],"type":"titlebar","rotation":null,"rotation_confidence":null,"rotation_enabled":true,"orientation":0},{"type":"test_target","rotation":0,"orientation":0,"rotation_enabled":true,"crop_box":[5474.011220887426,5924.717631208521,7763.932759329983,9086.990231914911]},{"type":"cover","rotation":0,"orientation":0,"rotation_enabled":true,"crop_box":[8563.587899738495,5379.498217293627,11689.512539517225,9523.165763046825]},{"type":"normal","rotation":0,"orientation":0,"rotation_enabled":true,"crop_box":[11943.948266010842,5415.846178221286,15069.87290578957,9559.513723974485]},{"type":"normal","rotation":0,"orientation":0,"rotation_enabled":true,"crop_box":[15469.700475993826,5343.150256365968,18595.625115772556,9486.817802119165]},{"type":"normal","rotation":0,"orientation":0,"rotation_enabled":true,"crop_box":[18850.06084226617,5379.498217293627,21975.985482044904,9523.165763046825]},{"type":"normal","rotation":0,"orientation":0,"rotation_enabled":true,"crop_box":[22230.42120853852,5379.498217293627,25356.34584831725,9523.165763046825]},{"type":"normal","rotation":0,"orientation":0,"rotation_enabled":true,"crop_box":[25610.781574810866,5415.846178221286,28736.706214589594,9559.513723974485]},{"type":"normal","rotation":0,"orientation":0,"rotation_enabled":true,"crop_box":[29136.533784793854,5343.150256365968,32262.45842457258,9486.817802119165]},{"type":"normal","rotation":0,"orientation":0,"rotation_enabled":true,"crop_box":[32516.8941510662,5379.498217293627,35642.818790844925,9523.165763046825]},{"type":"normal","rotation":0,"orientation":0,"rotation_enabled":true,"crop_box":[35933.602478266206,5415.846178221286,39059.527118044934,9559.513723974485]},{"type":"normal","rotation":0,"orientation":0,"rotation_enabled":true,"crop_box":[39313.96284453855,5452.194139148945,42439.88748431728,9595.861684902145]},{"type":"normal","rotation":0,"orientation":0,"rotation_enabled":true,"crop_box":[42839.71505452154,5379.498217293627,45965.63969430026,9523.165763046825]},{"type":"normal","rotation":0,"orientation":0,"rotation_enabled":true,"crop_box":[46220.07542079389,5415.846178221286,49346.00006057261,9559.513723974485]},{"type":"normal","rotation":0,"orientation":0,"rotation_enabled":true,"crop_box":[1693.8232844108234,9741.253528612784,4819.747924189553,13884.92107436598]},{"type":"normal","rotation":0,"orientation":0,"rotation_enabled":true,"crop_box":[5074.18365068317,9777.601489540442,8200.1082904619,13921.26903529364]},{"type":"normal","rotation":0,"orientation":0,"rotation_enabled":true,"crop_box":[8599.935860666154,9704.905567685126,11725.860500444884,13848.57311343832]},{"type":"end_of_film","rotation":0,"orientation":0,"rotation_enabled":true,"crop_box":[11980.2962269385,9741.253528612784,15142.56882764489,13884.92107436598]}],"real_width":50161,"real_height":36322,"width":12541,"height":9081,"rotation":-0.140625}],"identifier":"micro_IA41155142_0546","metadata":{"author":["Fisher, Charles W.","Apple Computer, Inc., Cupertino, CA."],"catalog_number":["ED316199"],"date":"1989-00-00","issue":null,"notes":"","title":"Student Empowerment. The Influence of High Computer Access on Student Empowerment (An Exploratory Study of the Nashville ACOT Site). ACOT Report #1.","total_cards":1,"volume":null,"pub_collection":"eric","issue_type":"normal","language":["English"]},"technical_metadata":{"stitching_version":"1.4.0","stitch_error_metrics":[{"mean_error":0.93,"stddev":0.51,"min_error":0.01,"max_error":2.85,"force_used":false}]},"review_app_version":"2025.11.07"},"page_numbers":{
+    "identifier": "micro_IA41155142_0546",
+    "format-version": "2",
+    "archive-hocr-tools-version": "1.1.54",
+    "confidence": 90,
+    "pages": [
+        {
+            "leafNum": 2,
+            "confidence": null,
+            "pageNumber": "",
+            "pageProb": null,
+            "wordConf": null
+        },
+        {
+            "leafNum": 3,
+            "confidence": 80,
+            "pageNumber": "2",
+            "pageProb": 70,
+            "wordConf": 95
+        },
+        {
+            "leafNum": 4,
+            "confidence": null,
+            "pageNumber": "3",
+            "pageProb": null,
+            "wordConf": null
+        },
+        {
+            "leafNum": 5,
+            "confidence": null,
+            "pageNumber": "4",
+            "pageProb": null,
+            "wordConf": null
+        },
+        {
+            "leafNum": 6,
+            "confidence": null,
+            "pageNumber": "5",
+            "pageProb": null,
+            "wordConf": null
+        },
+        {
+            "leafNum": 7,
+            "confidence": null,
+            "pageNumber": "6",
+            "pageProb": null,
+            "wordConf": null
+        },
+        {
+            "leafNum": 8,
+            "confidence": null,
+            "pageNumber": "7",
+            "pageProb": null,
+            "wordConf": null
+        },
+        {
+            "leafNum": 9,
+            "confidence": null,
+            "pageNumber": "8",
+            "pageProb": null,
+            "wordConf": null
+        },
+        {
+            "leafNum": 10,
+            "confidence": null,
+            "pageNumber": "9",
+            "pageProb": null,
+            "wordConf": null
+        },
+        {
+            "leafNum": 11,
+            "confidence": 100,
+            "pageNumber": "10",
+            "pageProb": 94,
+            "wordConf": 96
+        },
+        {
+            "leafNum": 12,
+            "confidence": 100,
+            "pageNumber": "11",
+            "pageProb": 93,
+            "wordConf": 69
+        },
+        {
+            "leafNum": 13,
+            "confidence": null,
+            "pageNumber": "12",
+            "pageProb": null,
+            "wordConf": null
+        },
+        {
+            "leafNum": 14,
+            "confidence": null,
+            "pageNumber": "13",
+            "pageProb": null,
+            "wordConf": null
+        },
+        {
+            "leafNum": 15,
+            "confidence": null,
+            "pageNumber": "14",
+            "pageProb": null,
+            "wordConf": null
+        },
+        {
+            "leafNum": 16,
+            "confidence": 100,
+            "pageNumber": "15",
+            "pageProb": 95,
+            "wordConf": 96
+        }
+    ]
+},"server":"ia801804.us.archive.org","uniq":97288920,"workable_servers":["ia801804.us.archive.org","ia601804.us.archive.org"]}

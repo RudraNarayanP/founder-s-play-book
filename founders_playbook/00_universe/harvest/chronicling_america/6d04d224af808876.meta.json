@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22AT%26T%22+OR+%22Southwestern+Bell%22&date1=1880&date2=1995&dateFilterType=yearRange",
+ "evidence_file": "6d04d224af808876.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 85272,
+ "retrieved_at": "2026-09-26T11:37:57Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a411fac5fa47b165-ORD",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'AT&T' ampersand form + 'Southwestern Bell' / 'Bell Labs' 1880-1995 (NAME-VARIANT HYPOTHESES: registrant + operating-company routes)",
+ "company": "att",
+ "kind": "search"
+}
