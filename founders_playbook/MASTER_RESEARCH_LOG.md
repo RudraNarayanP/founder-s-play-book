@@ -2175,6 +2175,60 @@ out of doing it properly:
    wording struck through and dated**, because silently rewriting a log would destroy the very record that
    shows how the error propagated into a brief.
 
+### RD-124 -- the fleet harvester was manufacturing fake Tier-1 evidence, and I found it by reading its output
+
+The 427-query harvest and the 1,562-row candidate index were mined by `tools/harvest_mine.py` while agents
+worked. Its per-company dossiers stamped **12 items `TIER1_CANDIDATE_TEXT`** across 10 companies. Reading two
+of them killed all 12:
+
+- Apple's best hit, 162 matches in 447 KB: *Beginning Teacher Evaluation Study, Phase II ... **APPLE**
+  Observation Variables*, where APPLE is an acronym for **A**necdotal **P**rocessing to **P**romote
+  **L**earning E**x**perience. Second: 6 hits in a foundation-for-the-blind report signed by a man surnamed
+  **Apple**.
+- Costco's 200 hits were **real** -- a 1991 San Francisco environmental impact report printing
+  `COSTCO  WHOLESALE` -- and were buried in the same undifferentiated pile.
+
+**Root cause: the grep term was the bare company slug.** `apple`, `target`, `dell`, `ups`, `att` are
+ordinary English words; a hit on one is a lead about a *word*, not a naming of an entity. The tool then
+called it Tier 1, and a tier verdict built on that would have been the untried-family error arriving from
+the opposite direction -- **a broken detector reporting success.**
+
+Four classes now, in strength order, each with the matched string printed so the label is checkable rather
+than trusted: `TIER1_CANDIDATE_TEXT` (a name phrase, or the company word hard against an identity word --
+`COSTCO  WHOLESALE`), `VARIANT_TERM_HIT` (a predecessor or trade title -- `price club`, `dayton hudson`,
+`chain store age`: related, worth opening, **not** a naming of this registrant), `BARE_WORD_MATCH`, and the
+existing `NULL`/`UNANSWERED`. `--self-test` runs **6 controls through the real grep path on the real held
+lines: 6 checks, 0 failing**, including the negative the tool exists to catch.
+
+Three findings from fixing it, all of which I would rather have written down than remember:
+
+1. **I read a column that does not exist.** The first patch took its entity vocabulary from
+   `candidates.csv`'s `query_label` -- **0 of 1,562 rows have that field**; the real column is `query`. The
+   result was a classifier that silently promoted *nothing*, which looks identical to a classifier that
+   finds nothing. Third time this run I assumed a column name instead of enumerating the header (RD-121 got
+   me for `identifier`/`date`); **the rule now is to print `rows[0].keys()` before writing any code that
+   reads a field.**
+2. **De-punctuation glued the entity together.** `re.sub(r"[^A-Za-z0-9 ]", "")` turns `'Wal-Mart Stores'`
+   into `walmartstores`, which can never match the printed `WAL-MART STORES`. Punctuation must become a
+   **space**, and phrase patterns must join words with a whitespace/dot/dash class. Reproduced in the
+   controls: Walmart's entity-bearing items went **0 -> 4** from that change alone, on bytes already on
+   disk. The 4 are FY1972/76/86/90 annual-report layers, so this is a *detector* win, not an evidence win:
+   none is a pre-1972 naming, and the naming wall stands where RD-097 left it.
+3. **The tool wrote 11.4 MB outside every company directory.** With no `company_NNN_<slug>` folder for 37
+   of 50 slugs, `dirs.get(slug, ".")` fell back to the repository **root**, so a fleet run cached Berkshire,
+   Chevron, Bank of America, CVS and 13 other companies' print into `./sources/periodicals/` -- real
+   primary text, invisible to every per-company gate, and 0 bytes in `founders_playbook/`. The fallback is
+   gone (`dirs[slug]`, and a missing directory is now reported as **UNTRIED: no company directory yet**,
+   with its candidate count). **Nothing was deleted**: 110 files moved by ledger to
+   `00_universe/harvest/mine_bytes/<slug>/` -- every one attributable to a slug, **0 UNATTRIBUTED** -- in
+   `00_universe/harvest/_RELOCATED_MINE_BYTES.tsv`. Those 17 companies now have their founding-decade print
+   on disk *before* they are scaffolded, which is the first time this run has had bytes waiting for a
+   company rather than the reverse.
+
+**Fleet state after the re-mine:** 405 candidate rows across the 10 scaffolded companies with queries spent,
+40 items mined at `--limit 4`, **11 entity-bearing, 1 variant-term, 5 bare-word, 6 NULL, 17 UNANSWERED**.
+1,051 candidate rows for 37 slugs remain UNTRIED pending scaffolding -- a search never run, not a null.
+
 ### RD-125 -- Target's audits found a blocking misread carrier, and it is inside a correction I praised
 
 Two of three Stage-1 auditors reported (`03_quality_control/target_s1_audit1_chronology_hindsight.md`,
@@ -2244,56 +2298,74 @@ starts now (§14 rule 6 -- serialize writers; rule 14 -- an audit run against a 
 it is a wasted cycle). Then **one** repairer works all three defect lists, and the certifier is a different
 agent.
 
-### RD-124 -- the fleet harvester was manufacturing fake Tier-1 evidence, and I found it by reading its output
+### RD-126 -- credit ran out mid-flight, three authoring passes landed, and I nearly refuted a correct agent
 
-The 427-query harvest and the 1,562-row candidate index were mined by `tools/harvest_mine.py` while agents
-worked. Its per-company dossiers stamped **12 items `TIER1_CANDIDATE_TEXT`** across 10 companies. Reading two
-of them killed all 12:
+**The wall is credits, and it is now binding, not hypothetical.** One of the two Target repair agents
+failed at launch with *"You've reached your daily usage limit for Chat"* -- **0 subagent tokens, 1 second
+elapsed**. Nine of the ten agents launched before it are alive and writing, so this is a rate ceiling, not
+a dead pipeline. Consequence for how I dispatch: a wave of ten is the right shape, and **the mechanical work
+that costs zero model tokens is the work that keeps running when the agent lane closes.** Which is exactly
+what this hour produced.
 
-- Apple's best hit, 162 matches in 447 KB: *Beginning Teacher Evaluation Study, Phase II ... **APPLE**
-  Observation Variables*, where APPLE is an acronym for **A**necdotal **P**rocessing to **P**romote
-  **L**earning E**x**perience. Second: 6 hits in a foundation-for-the-blind report signed by a man surnamed
-  **Apple**.
-- Costco's 200 hits were **real** -- a 1991 San Francisco environmental impact report printing
-  `COSTCO  WHOLESALE` -- and were buried in the same undifferentiated pile.
+**Three authoring passes landed, and they spent their budgets correcting me.**
 
-**Root cause: the grep term was the bare company slug.** `apple`, `target`, `dell`, `ups`, `att` are
-ordinary English words; a hit on one is a lead about a *word*, not a naming of an entity. The tool then
-called it Tier 1, and a tier verdict built on that would have been the untried-family error arriving from
-the opposite direction -- **a broken detector reporting success.**
+- **Nvidia §A-F** (17,264 w, 27 claim records, 91 register rows, 0 PENDING) refuted **five** dispatch
+  premises from bytes: NV1 was **stopped being sold in Q1 1996** per both the S-1 and the 424B4, not 1997
+  (the probe's "[1997]" was a reconstruction, and my brief inherited it); **"Amahl" is Amdahl Corporation**,
+  dated 1995-02-16 at 29,100 rsf charged as 27,875, not the probe's 34,251/33,026 pair; FY1997 **net loss
+  moved too** ((2,691) to (3,589), LPS .21 to .28) while 1993-96 rows are identical and **no held draft
+  explains the change** -- so the canonical figure is the later printing and the March drafts are
+  SUPERSEDED-DRAFT rows; the regrade's "five over-counted UNANSWERED rows" does not reproduce (measured 15
+  rows, exactly 3 naming stored accessions); and the probe's "February vs April 1998 charter contradiction"
+  is not one -- Ex-3.1 was subscribed 1998-02-23 by a named sole incorporator while the operative amended
+  charter has a **blank** execution date. Best new evidence: **Ex-4.3's counterparty signature pages recite
+  an original Investors' Rights Agreement dated 1994-12-19** and name the holders (JAFCO, eight Sequoia
+  vehicles, Sutter Hill, ANVEST, Worldview, Itochu, **Sega Enterprises**, Stanford, three founders in
+  person) -- the earliest documentary naming of outside investors, **December 1994, not 1993**; plus a
+  **filed down round** (Series D $5.26 in 1997 against $6.67 in 1995) and the preferred ladder footing to
+  the stated $19.7M within $50K, which closes the unnamed-round question.
+- **Costco §A-F** (20,207 w, 45 records, 94 rows, 19 Untried items) produced the run's cleanest negative
+  result: **the `Pric0158_1976/77/78` "Price Company Ltd" run physically on this company's disk is La
+  Compagnie Price Limitée, a Quebec paper-and-pulp issuer inside Abitibi-Price** -- 0 hits for `price
+  club`/`warehouse club`/`membership`. The only 1970s corporate reports we hold for Costco prove nothing
+  about either retail leg, and that is a *documented* finding, not a shrug. Its positive half: **the corpus
+  holds zero documents written 1975-1993 by either leg**; every origin statement is **one corporate record
+  in four printings**, capped Medium and labelled `1 lineage (n printings)`. It also corrected my brief
+  (38 `company=costco` harvest rows, not the 33 I counted) and located a real in-window independent carrier
+  -- the 1991/92 San Francisco Final EIR, dated to certification 1992-04-16, 118,500 sq ft of "membership
+  wholesale", ~170 jobs, all non-company and all High.
+- **Tesla §A-F** (14,156 w, 33 records, 69 rows) held the founder-adjective firewall properly: the phrase
+  *one of our founders* is **0 in the 2010-01-29 S-1 and 0 in the 2010-03-29 S-1/A, 1 in the 2010-04-29
+  S-1/A**, the 10-K removes the word outright while the same-year 424B4 keeps it, the registrant uses
+  founder-language fluently **about other firms** in the original S-1, and it caught a basis error **in its
+  own draft** ($442,151 is a Liquidation Preference as of 2009-09-30, unaudited -- not gross/face proceeds).
 
-Four classes now, in strength order, each with the matched string printed so the label is checkable rather
-than trusted: `TIER1_CANDIDATE_TEXT` (a name phrase, or the company word hard against an identity word --
-`COSTCO  WHOLESALE`), `VARIANT_TERM_HIT` (a predecessor or trade title -- `price club`, `dayton hudson`,
-`chain store age`: related, worth opening, **not** a naming of this registrant), `BARE_WORD_MATCH`, and the
-existing `NULL`/`UNANSWERED`. `--self-test` runs **6 controls through the real grep path on the real held
-lines: 6 checks, 0 failing**, including the negative the tool exists to catch.
+**I almost destroyed that last finding, and the mechanism was mine, not the agent's.** After Tesla reported,
+I fetched the in-window correspondence myself and grepped the four S-1 instruments. One file showed
+`one of our founders` = **1**, and I wrote "that contradicts the agent's bracket". **It did not.** I had
+attached dates to filenames in the order I listed them; `submissions.csv` -- which was sitting in the
+directory and which the index had already given me -- maps `0000950130-10-002906` to the **2010-06-02**
+amendment, not the 2010-03-29 one, and `0001193125-10-068933` is the March amendment, where the phrase is
+0. Re-run against the index, **the agent's bracket is exactly right**. This is RD-124's lesson with the
+roles reversed: the same normalization discipline that refuted an auditor's false "fabrication" nearly let
+*me* refute a correct finding, and the reason I caught it is that I checked the measurement instead of the
+conclusion. **Rule: an instrument date comes from the filing index, never from a filename or a listing
+order.**
 
-Three findings from fixing it, all of which I would rather have written down than remember:
+**Script-only retrieval kept moving while the agent lane was capped.** Seven Tesla SEC correspondence items
+inside the founder-adjective window are now held: `CORRESP` 2010-06-08 (72,078 B, 2,338 words), 2010-06-24
+×2, 2010-06-25, and `UPLOAD` 2010-02-25 / 2010-04-12 / 2010-05-14 (171 KB / 74 KB / 60 KB). **The three
+`UPLOAD` items are PDFs and my grep cannot read their bytes -- their content is UNREAD, not a null**, and
+they are the named follow-up. Two tool defects surfaced in the same ten minutes: `sec_intake.py grab
+--accession` with no `--file` invents `index-headers.txt` and 404s three path forms (it should read the
+accession directory, or take `primaryDocument` from the index it already fetched) -- passing `--file
+filename1.htm` works first try; and `scaffold.py claim` has **no positional path**, the form I put in every
+brief this wave, so each agent had to discover `--path` on its own.
 
-1. **I read a column that does not exist.** The first patch took its entity vocabulary from
-   `candidates.csv`'s `query_label` -- **0 of 1,562 rows have that field**; the real column is `query`. The
-   result was a classifier that silently promoted *nothing*, which looks identical to a classifier that
-   finds nothing. Third time this run I assumed a column name instead of enumerating the header (RD-121 got
-   me for `identifier`/`date`); **the rule now is to print `rows[0].keys()` before writing any code that
-   reads a field.**
-2. **De-punctuation glued the entity together.** `re.sub(r"[^A-Za-z0-9 ]", "")` turns `'Wal-Mart Stores'`
-   into `walmartstores`, which can never match the printed `WAL-MART STORES`. Punctuation must become a
-   **space**, and phrase patterns must join words with a whitespace/dot/dash class. Reproduced in the
-   controls: Walmart's entity-bearing items went **0 -> 4** from that change alone, on bytes already on
-   disk. The 4 are FY1972/76/86/90 annual-report layers, so this is a *detector* win, not an evidence win:
-   none is a pre-1972 naming, and the naming wall stands where RD-097 left it.
-3. **The tool wrote 11.4 MB outside every company directory.** With no `company_NNN_<slug>` folder for 37
-   of 50 slugs, `dirs.get(slug, ".")` fell back to the repository **root**, so a fleet run cached Berkshire,
-   Chevron, Bank of America, CVS and 13 other companies' print into `./sources/periodicals/` -- real
-   primary text, invisible to every per-company gate, and 0 bytes in `founders_playbook/`. The fallback is
-   gone (`dirs[slug]`, and a missing directory is now reported as **UNTRIED: no company directory yet**,
-   with its candidate count). **Nothing was deleted**: 110 files moved by ledger to
-   `00_universe/harvest/mine_bytes/<slug>/` -- every one attributable to a slug, **0 UNATTRIBUTED** -- in
-   `00_universe/harvest/_RELOCATED_MINE_BYTES.tsv`. Those 17 companies now have their founding-decade print
-   on disk *before* they are scaffolded, which is the first time this run has had bytes waiting for a
-   company rather than the reverse.
-
-**Fleet state after the re-mine:** 405 candidate rows across the 10 scaffolded companies with queries spent,
-40 items mined at `--limit 4`, **11 entity-bearing, 1 variant-term, 5 bare-word, 6 NULL, 17 UNANSWERED**.
-1,051 candidate rows for 37 slugs remain UNTRIED pending scaffolding -- a search never run, not a null.
+**Dispatch-budget rule change, from three identical reports.** Nvidia 17,264 w against a 5,000-7,000 brief;
+Costco 20,207 against the same band; Tesla 14,156 against 6,000-8,000. The overshoot is **apparatus, not
+padding**: claim records and fenced register blocks are counted by `wc` alongside prose. So from the next
+wave **a word budget is stated for narrative words only, and the register/record apparatus is budgeted
+separately by row count** -- and no agent trims evidence to meet a number (RD-122, §9.6). Costco's open
+question is also real and stays open: measured against Stage 1's own window, family (a) yields in-window
+*text* but **no in-window document**, which is the RD-112 boundary case the convention has not yet decided.
