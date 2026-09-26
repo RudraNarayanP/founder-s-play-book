@@ -1,0 +1,9 @@
+{
+ "identifier": "NASA_NTRS_Archive_20080012230",
+ "url": "https://archive.org/download/NASA_NTRS_Archive_20080012230/NASA_NTRS_Archive_20080012230_djvu.txt",
+ "fetched": "2026-09-26T09:59:09Z",
+ "bytes": 16576,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

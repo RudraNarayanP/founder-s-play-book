@@ -1,0 +1,25 @@
+{
+ "url": "https://www.googleapis.com/books/v1/volumes?q=%22Wal-Mart%22+Bentonville&maxResults=5",
+ "evidence_file": "77997dc6f52aefda.xml",
+ "http_status": 429,
+ "content_type": "application/json; charset=UTF-8",
+ "bytes": 1306,
+ "retrieved_at": "2026-09-26T09:40:21Z",
+ "ext": ".xml",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/atom+xml,application/xml;q=0.9,application/json;q=0.8,*/*;q=0.7"
+ },
+ "tls_verify": "on",
+ "error_class": "rate_limited",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "",
+ "retry_after": "",
+ "note": "",
+ "source": "google_books",
+ "query_label": "GB v1 control: is keyless quota still 0? (expect 429, reason recorded)",
+ "company": "walmart",
+ "kind": "search"
+}

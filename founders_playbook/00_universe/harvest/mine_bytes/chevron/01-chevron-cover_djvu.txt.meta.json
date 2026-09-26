@@ -1,0 +1,9 @@
+{
+ "identifier": "01-chevron-cover",
+ "url": "https://archive.org/download/01-chevron-cover/Chevron%20%28CVX%29%20Annual%20Report%2C%202005_djvu.txt",
+ "fetched": "2026-09-26T09:59:13Z",
+ "bytes": 429532,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

@@ -1,0 +1,226 @@
+{
+ "window": [
+  "1945-01-01",
+  "1972-12-31"
+ ],
+ "candidates": 53,
+ "mined": 4,
+ "untried_by_limit": 45,
+ "items": [
+  {
+   "identifier": "1972-annual-report-for-walmart-stores-inc",
+   "date": "1972-01-01",
+   "title_year": "1972",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "1972 Annual Report For Walmart Stores Inc",
+   "family": "corporate_print",
+   "meta_date": "1972-01-01",
+   "status": "cached",
+   "bytes": 23989,
+   "named_terms": [
+    "wal mart",
+    "wal mart stores"
+   ],
+   "other_terms": [
+    "five and dime",
+    "walton s"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 22,
+   "entity_hits": 22,
+   "matched_entities": [
+    "wal-mart"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 203,
+     "text": "considered  Wal-Mart's  best  ever.  Our  total  sales",
+     "context": [
+      "Our  fiscal  year  ending  January  31,  1972  must  be",
+      "were  $78,000,000,  a  77%  increase  over  $44,000,000"
+     ]
+    },
+    {
+     "line": 210,
+     "text": "These  were  some  of  the  highlights  for  Wal-Mart",
+     "context": [
+      "",
+      "in  1971."
+     ]
+    },
+    {
+     "line": 221,
+     "text": "our  Board  of  Directors  for  all  regular  Wal-Mart",
+     "context": [
+      "3.  A  new  profit  sharing  program  was  adopted  by",
+      "employees."
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "1976-annual-report-for-walmart-stores-inc",
+   "date": "1976-01-01",
+   "title_year": "1976",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "1976 Annual Report For Walmart Stores Inc",
+   "family": "corporate_print",
+   "meta_date": "1976-01-01",
+   "status": "cached",
+   "bytes": 63235,
+   "named_terms": [
+    "wal mart",
+    "wal mart stores"
+   ],
+   "other_terms": [
+    "five and dime",
+    "walton s"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 67,
+   "entity_hits": 67,
+   "matched_entities": [
+    "wal-mart"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 55,
+     "text": "year  in  ihe  history  of  Wal-Mart  with  sales  and  net  income  both",
+     "context": [
+      "Fiscal  year  ended  January  31.  1976.  was  the  mosi  successful",
+      "reaching  record  levels.  Company  sales  were  534tk3  million  com-"
+     ]
+    },
+    {
+     "line": 69,
+     "text": "assure  Wal-Mart's  position  as  a  leading  retail  growth  company.",
+     "context": [
+      "from  earnings,  combined  with  a  prudent  expansion  program  to",
+      ""
+     ]
+    },
+    {
+     "line": 71,
+     "text": "Wal-Mart  completed  the  year  with  125  stores  in  operation,  an",
+     "context": [
+      "",
+      "addition  of  21  stores  during  the  year.  The  new  stores  increased"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "1986-annual-report-for-walmart-stores-inc",
+   "date": "1986-01-01",
+   "title_year": "1986",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "1986 Annual Report For Walmart Stores Inc",
+   "family": "corporate_print",
+   "meta_date": "1986-01-01",
+   "status": "cached",
+   "bytes": 67944,
+   "named_terms": [
+    "wal mart",
+    "wal mart stores"
+   ],
+   "other_terms": [
+    "five and dime",
+    "walton s"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 56,
+   "entity_hits": 56,
+   "matched_entities": [
+    "wal-mart"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 6,
+     "text": "OF  WAL-MART",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 65,
+     "text": "Wal-Mart  Stores",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 145,
+     "text": "most  important  role  in  Wal-Mart's  pursuit  of  excellence.",
+     "context": [
+      "small  sampling  of  the  many  partner-associates  who  perform  the",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "1990-annual-report-for-walmart-stores-inc",
+   "date": "1990-01-01",
+   "title_year": "1990",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "1990 Annual Report For Walmart Stores Inc",
+   "family": "corporate_print",
+   "meta_date": "1990-01-01",
+   "status": "cached",
+   "bytes": 54096,
+   "named_terms": [
+    "wal mart",
+    "wal mart stores"
+   ],
+   "other_terms": [
+    "five and dime",
+    "walton s"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 57,
+   "entity_hits": 57,
+   "matched_entities": [
+    "wal-mart"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "WAL-MART  ANNUAL  REPORT",
+     "context": [
+      ""
+     ]
+    },
+    {
+     "line": 10,
+     "text": "WAL-MART\"",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 65,
+     "text": "Wal-Mart  Stores   1,402  1,259",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  }
+ ]
+}

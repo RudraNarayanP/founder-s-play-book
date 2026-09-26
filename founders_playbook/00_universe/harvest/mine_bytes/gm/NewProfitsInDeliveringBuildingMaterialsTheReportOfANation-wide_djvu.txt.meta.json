@@ -1,0 +1,9 @@
+{
+ "identifier": "NewProfitsInDeliveringBuildingMaterialsTheReportOfANation-wide",
+ "url": "https://archive.org/download/NewProfitsInDeliveringBuildingMaterialsTheReportOfANation-wide/GeneralMotorsTruckCo_djvu.txt",
+ "fetched": "2026-09-26T10:03:38Z",
+ "bytes": 82206,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

@@ -1,0 +1,9 @@
+{
+ "identifier": "NPDP19340704",
+ "url": "https://archive.org/download/NPDP19340704/NPDP19340704_djvu.txt",
+ "fetched": "2026-09-26T10:04:38Z",
+ "bytes": 292253,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

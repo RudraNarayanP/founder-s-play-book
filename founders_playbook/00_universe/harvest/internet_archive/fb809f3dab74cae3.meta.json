@@ -1,0 +1,25 @@
+{
+ "url": "https://archive.org/advancedsearch.php?q=%28Elevance%20OR%20WellPoint%29%20AND%20mediatype%3Atexts%20AND%20YEAR%3A%5B1940%20TO%202022%5D&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=date&fl%5B%5D=year&fl%5B%5D=mediatype&fl%5B%5D=collection&rows=20&page=1&output=json",
+ "evidence_file": "fb809f3dab74cae3.json",
+ "http_status": 200,
+ "content_type": "application/json",
+ "bytes": 5621,
+ "retrieved_at": "2026-09-26T09:43:16Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "",
+ "retry_after": "",
+ "note": "",
+ "source": "internet_archive",
+ "query_label": "IA Elevance / predecessor-name periodical text 1940-2005 (wide, un-refined)",
+ "company": "elevance",
+ "kind": "search"
+}

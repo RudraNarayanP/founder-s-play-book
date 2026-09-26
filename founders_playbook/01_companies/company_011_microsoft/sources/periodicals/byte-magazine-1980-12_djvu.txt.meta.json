@@ -1,0 +1,9 @@
+{
+ "identifier": "byte-magazine-1980-12",
+ "url": "https://archive.org/download/byte-magazine-1980-12/1980_12_BYTE_05-12_Adventure_djvu.txt",
+ "fetched": "2026-09-26T10:10:34Z",
+ "bytes": 1669324,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

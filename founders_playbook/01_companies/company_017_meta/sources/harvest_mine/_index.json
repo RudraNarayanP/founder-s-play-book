@@ -1,0 +1,58 @@
+{
+ "window": [
+  "2003-01-01",
+  "2012-12-31"
+ ],
+ "candidates": 42,
+ "mined": 4,
+ "untried_by_limit": 37,
+ "items": [
+  {
+   "identifier": "NASA_NTRS_Archive_20120010422",
+   "date": "2012-01-01",
+   "title_year": "2012",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "NASA Technical Reports Server (NTRS) 20120010422: Space Operations Learning Center Facebook Application",
+   "family": "corporate_print",
+   "meta_date": "2012-01-01",
+   "status": "cached",
+   "bytes": 11766,
+   "named_terms": [
+    "meta platforms"
+   ],
+   "other_terms": [],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "facebookallinone0000nels",
+   "date": "2012-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried facebookallinone0000nels_djvu.txt, facebookallinone0000nels_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "larevanchedunsol0000mezr",
+   "date": "2009-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 403)); tried larevanchedunsol0000mezr_djvu.txt, larevanchedunsol0000mezr_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "networkednewsoci0000unse",
+   "date": "2012-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 403)); tried networkednewsoci0000unse_djvu.txt, networkednewsoci0000unse_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  }
+ ]
+}

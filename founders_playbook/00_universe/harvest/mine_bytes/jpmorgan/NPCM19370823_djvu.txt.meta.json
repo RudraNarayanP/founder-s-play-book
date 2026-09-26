@@ -1,0 +1,9 @@
+{
+ "identifier": "NPCM19370823",
+ "url": "https://archive.org/download/NPCM19370823/NPCM19370823_djvu.txt",
+ "fetched": "2026-09-26T10:04:50Z",
+ "bytes": 106307,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

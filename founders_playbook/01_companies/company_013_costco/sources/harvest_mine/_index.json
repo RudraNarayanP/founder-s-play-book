@@ -5,19 +5,37 @@
  ],
  "candidates": 33,
  "mined": 4,
- "untried_by_limit": 2,
+ "untried_by_limit": 28,
  "items": [
   {
    "identifier": "costcowholesalef1619sanf",
    "date": "1991-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
    "title": "Costco Wholesale : final, environmental impact report",
    "family": "corporate_print",
    "meta_date": "1991-01-01",
-   "status": "ok",
+   "status": "cached",
    "bytes": 568295,
-   "pattern": "costco",
+   "named_terms": [
+    "costco wholesale"
+   ],
+   "other_terms": [
+    "chain store age",
+    "discount store news",
+    "price club"
+   ],
    "verdict": "TIER1_CANDIDATE_TEXT",
    "hits": 200,
+   "phrase_hits": 51,
+   "entity_hits": 59,
+   "matched_entities": [
+    "costco  wholesale"
+   ],
+   "matched_other_terms": [
+    "price  club"
+   ],
    "sample": [
     {
      "line": 9,
@@ -48,31 +66,31 @@
   {
    "identifier": "costcowholesaled1219sanf",
    "date": "1991-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
    "title": "Costco Wholesale : draft, environmental impact report",
    "family": "corporate_print",
    "meta_date": "1991-01-01",
-   "status": "ok",
+   "status": "cached",
    "bytes": 419592,
-   "pattern": "costco",
+   "named_terms": [
+    "costco wholesale"
+   ],
+   "other_terms": [
+    "chain store age",
+    "discount store news",
+    "price club"
+   ],
    "verdict": "TIER1_CANDIDATE_TEXT",
-   "hits": 106,
+   "hits": 104,
+   "phrase_hits": 40,
+   "entity_hits": 48,
+   "matched_entities": [
+    "costco  wholesale"
+   ],
+   "matched_other_terms": [],
    "sample": [
-    {
-     "line": 65,
-     "text": "TO:       Distribution  List  for  the  Costco  WholesiUe  Project  Draft  EIR",
-     "context": [
-      "",
-      ""
-     ]
-    },
-    {
-     "line": 70,
-     "text": "Costco  Wholesde  Project",
-     "context": [
-      "SLnBJECT:       Request  for  the  Final  Environmental  Impact  Report  for  the",
-      ""
-     ]
-    },
     {
      "line": 73,
      "text": "This  is  the  Draft  of  the  Environmental  Impact  Report  for  the  Costco  Wholesale",
@@ -80,28 +98,77 @@
       "",
       "project.  A  public  hearing  will  be  hekl  on  the  adequacy  and  accuracy  of  this  document"
      ]
+    },
+    {
+     "line": 112,
+     "text": "Costco  Wholesale  :",
+     "context": [
+      "",
+      "draft,  environmental"
+     ]
+    },
+    {
+     "line": 135,
+     "text": "89.469E  -  Costco  Wholesale  Project",
+     "context": [
+      "Attn:  Sharon  A.  Rogers,  EIR  Coordinator",
+      ""
+     ]
     }
    ]
   },
   {
-   "identifier": "Tit2jax_AF8C",
-   "date": "1993-01-01",
-   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried Tit2jax_AF8C_djvu.txt",
-   "verdict": "UNANSWERED",
-   "hits": 0,
-   "sample": []
-  },
-  {
    "identifier": "Pric0158_1978",
    "date": "1978-01-01",
+   "title_year": "1978",
+   "date_mismatch": false,
+   "in_window": true,
    "title": "[Price Company Ltd ?] (1978)",
    "family": "internet_archive",
    "meta_date": "1978-01-01",
-   "status": "ok",
+   "status": "cached",
    "bytes": 12396,
-   "pattern": "costco",
+   "named_terms": [
+    "costco wholesale"
+   ],
+   "other_terms": [
+    "chain store age",
+    "discount store news",
+    "price club"
+   ],
    "verdict": "NULL",
    "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "Pric0158_1977",
+   "date": "1977-01-01",
+   "title_year": "1977",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Price Company Ltd (1977)",
+   "family": "internet_archive",
+   "meta_date": "1977-01-01",
+   "status": "cached",
+   "bytes": 107938,
+   "named_terms": [
+    "costco wholesale"
+   ],
+   "other_terms": [
+    "chain store age",
+    "discount store news",
+    "price club"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
    "sample": []
   }
  ]

@@ -1,0 +1,9 @@
+{
+ "identifier": "Well4302_2003",
+ "url": "https://archive.org/download/Well4302_2003/Well4302_2003_djvu.txt",
+ "fetched": "2026-09-26T10:02:14Z",
+ "bytes": 65665,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

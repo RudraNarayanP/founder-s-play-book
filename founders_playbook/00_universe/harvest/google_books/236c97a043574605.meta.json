@@ -1,0 +1,25 @@
+{
+ "url": "https://books.google.com/books/feeds/volumes?q=%22Marathon+Petroleum%22+Findlay+annual+shareholder&maxResults=10",
+ "evidence_file": "236c97a043574605.xml",
+ "http_status": 200,
+ "content_type": "application/atom+xml; charset=UTF-8",
+ "bytes": 25261,
+ "retrieved_at": "2026-09-26T09:45:07Z",
+ "ext": ".xml",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/atom+xml,application/xml;q=0.9,application/json;q=0.8,*/*;q=0.7"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "",
+ "retry_after": "",
+ "note": "",
+ "source": "google_books",
+ "query_label": "GB 'Marathon Petroleum' annual report shareholder Findlay",
+ "company": "marathon",
+ "kind": "search"
+}

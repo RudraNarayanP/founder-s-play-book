@@ -1,0 +1,193 @@
+{
+ "window": [
+  "1975-01-01",
+  "1980-12-31"
+ ],
+ "candidates": 95,
+ "mined": 4,
+ "untried_by_limit": 86,
+ "items": [
+  {
+   "identifier": "micro_IA41153056_0224",
+   "date": "1976-01-01",
+   "title_year": "1973",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "Beginning Teacher Evaluation Study: Phase II, 1973-74, Final Report: Volume III.1. APPLE Observation Variables and Their",
+   "family": "corporate_print",
+   "meta_date": "1976-01-01",
+   "status": "cached",
+   "bytes": 447400,
+   "named_terms": [
+    "apple computer",
+    "apple ii"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 162,
+   "phrase_hits": 1,
+   "entity_hits": 2,
+   "matched_entities": [
+    "apple computer"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 307,
+     "text": "use of tt APPLE computer programs, contributed",
+     "context": [
+      "Fred and ily Converse, resident experts in the",
+      "immeasurably in managing the many steps of data"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "reciprocalevalua00prog",
+   "date": "1976-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Reciprocal Evaluation Tour of U.S. Facilities and Programs for the Blind by Experts from the U.S.S.R.: Final Report of t",
+   "family": "corporate_print",
+   "meta_date": "1976-01-01",
+   "status": "cached",
+   "bytes": 84319,
+   "named_terms": [
+    "apple computer",
+    "apple ii"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 6,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 31,
+     "text": "Loyal  E.  Apple,  Executive  Director",
+     "context": [
+      "",
+      "American  Foundation  for  the  Blind"
+     ]
+    },
+    {
+     "line": 172,
+     "text": "Director,  Mr.  Loyal  E.  Apple,  they  were  shown  some  of  the  aids  and",
+     "context": [
+      "Foundation  for  the  Blind  ( AFB) . After  a welcome  by  the  Executive",
+      "appliances  for  the  blind  available  through  AFB  and  were  presented  copies"
+     ]
+    },
+    {
+     "line": 206,
+     "text": "The  delegation  then  conferred  with  Mr.  Apple  and  the  Department  Directors",
+     "context": [
+      "",
+      "of  AFB.  Mr.  Zimin  was  interested  in  the  funding  and  functions  of  AFB."
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "annualcourseconf00spea",
+   "date": "1976-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Annual Course/Conference, National Mobility Centre",
+   "family": "corporate_print",
+   "meta_date": "1976-01-01",
+   "status": "cached",
+   "bytes": 47570,
+   "named_terms": [
+    "apple computer",
+    "apple ii"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 20,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 27,
+     "text": "Speakers/Tutors  - Mr  E Apple,  Executive  Director,  American",
+     "context": [
+      "",
+      "Foundation  for  the  Blind,  Inc.,  New  York;  Mrs  Marianne  Apple."
+     ]
+    },
+    {
+     "line": 28,
+     "text": "Foundation  for  the  Blind,  Inc.,  New  York;  Mrs  Marianne  Apple.",
+     "context": [
+      "Speakers/Tutors  - Mr  E Apple,  Executive  Director,  American",
+      ""
+     ]
+    },
+    {
+     "line": 53,
+     "text": "Mr  cind  Mrs  L Apple,  representing  the  American  Founcition  for  the  *",
+     "context": [
+      "",
+      "Blind,  to  this  year's  Conference/Course,  Mr  Ryan  gave  a resume  of"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "pahukaniluahomes00appl",
+   "date": "1978-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Pahukanilua: Homestead of John Young : Kawaihae, Kohala, Island of Hawai'I : Historical Data Section of the Historic Str",
+   "family": "corporate_print",
+   "meta_date": "1978-01-01",
+   "status": "cached",
+   "bytes": 175207,
+   "named_terms": [
+    "apple computer",
+    "apple ii"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 13,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 30,
+     "text": "Russell  A.  Apple,",
+     "context": [
+      "",
+      "Pacific  Historian,"
+     ]
+    },
+    {
+     "line": 222,
+     "text": "Peg  Apple,  wife  and  my  frequent  collaborator,  has   ridden  herd",
+     "context": [
+      "files  on  Young  family  land  matters  were  of  great  assistance.",
+      "on  this  report's   readability  and  clarity."
+     ]
+    },
+    {
+     "line": 226,
+     "text": "Russell  A.  Apple,",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  }
+ ]
+}

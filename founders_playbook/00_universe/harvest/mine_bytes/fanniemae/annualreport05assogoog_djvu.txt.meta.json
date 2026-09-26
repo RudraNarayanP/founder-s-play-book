@@ -1,0 +1,9 @@
+{
+ "identifier": "annualreport05assogoog",
+ "url": "https://archive.org/download/annualreport05assogoog/annualreport05assogoog_djvu.txt",
+ "fetched": "2026-09-26T10:02:38Z",
+ "bytes": 90809,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

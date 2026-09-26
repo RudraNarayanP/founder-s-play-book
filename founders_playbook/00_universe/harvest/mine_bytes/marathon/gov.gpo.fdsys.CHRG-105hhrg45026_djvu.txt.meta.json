@@ -1,0 +1,9 @@
+{
+ "identifier": "gov.gpo.fdsys.CHRG-105hhrg45026",
+ "url": "https://archive.org/download/gov.gpo.fdsys.CHRG-105hhrg45026/CHRG-105hhrg45026_djvu.txt",
+ "fetched": "2026-09-26T10:06:04Z",
+ "bytes": 832409,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

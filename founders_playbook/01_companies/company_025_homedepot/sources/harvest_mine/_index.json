@@ -1,0 +1,43 @@
+{
+ "window": [
+  "1978-01-01",
+  "1990-12-31"
+ ],
+ "candidates": 12,
+ "mined": 4,
+ "untried_by_limit": 7,
+ "items": [
+  {
+   "identifier": "KQUKFmw0BkAC",
+   "date": "2004-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried KQUKFmw0BkAC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "ZbBkDAAAQBAJ",
+   "date": "2016-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried ZbBkDAAAQBAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "vYlFDAAAQBAJ",
+   "date": "2016-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried vYlFDAAAQBAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "t2JexBk5PXQC",
+   "date": "2012-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried t2JexBk5PXQC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  }
+ ]
+}

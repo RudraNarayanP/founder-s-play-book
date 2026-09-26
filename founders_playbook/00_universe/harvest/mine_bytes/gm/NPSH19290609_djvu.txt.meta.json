@@ -1,0 +1,9 @@
+{
+ "identifier": "NPSH19290609",
+ "url": "https://archive.org/download/NPSH19290609/NPSH19290609_djvu.txt",
+ "fetched": "2026-09-26T10:03:28Z",
+ "bytes": 332625,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

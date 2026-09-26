@@ -1,0 +1,150 @@
+{
+ "window": [
+  "1975-01-01",
+  "1986-12-31"
+ ],
+ "candidates": 30,
+ "mined": 4,
+ "untried_by_limit": 24,
+ "items": [
+  {
+   "identifier": "01-microsoft-annual-reports",
+   "date": "1975-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Microsoft Corp. Annual Reports",
+   "family": "corporate_print",
+   "meta_date": "1975-01-01",
+   "status": "cached",
+   "bytes": 295724,
+   "named_terms": [
+    "micro soft",
+    "microsoft corporation"
+   ],
+   "other_terms": [
+    "five and dime"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 107,
+   "phrase_hits": 15,
+   "entity_hits": 23,
+   "matched_entities": [
+    "microsoft corporation",
+    "microsoft software"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 531,
+     "text": "Microsoft Corporation",
+     "context": [
+      "",
+      "S&P 500"
+     ]
+    },
+    {
+     "line": 542,
+     "text": "Among Microsoft Corporation, the S&P 500 Index,",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 1471,
+     "text": "intended to help the reader understand the results of operations and financial condition of Microsoft Corporation. MD8A is",
+     "context": [
+      "The following Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations (\u201cMD&A\u201d) is",
+      "provided as a supplement to, and should be read in conjunction with, our financial statements and the accompanying Notes"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "ty8EAAAAMBAJ",
+   "date": "1983-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried ty8EAAAAMBAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "byte-magazine-1980-12",
+   "date": "1980-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Byte Magazine Volume 05 Number 12 - Adventure",
+   "family": "internet_archive",
+   "meta_date": "1980-01-01",
+   "status": "cached",
+   "bytes": 1669324,
+   "named_terms": [
+    "micro soft",
+    "microsoft corporation"
+   ],
+   "other_terms": [
+    "five and dime"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 129,
+   "phrase_hits": 1,
+   "entity_hits": 2,
+   "matched_entities": [
+    "micro soft",
+    "microsoft. inc"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 75599,
+     "text": "Micro Soft Z-80 Software Card",
+     "context": [
+      "",
+      "wlthCPM $ 319.00"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "byte-magazine-1982-03",
+   "date": "1982-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Byte Magazine Volume 07 Number 03 - Printers",
+   "family": "internet_archive",
+   "meta_date": "1982-01-01",
+   "status": "cached",
+   "bytes": 2072713,
+   "named_terms": [
+    "micro soft",
+    "microsoft corporation"
+   ],
+   "other_terms": [
+    "five and dime"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 134,
+   "phrase_hits": 1,
+   "entity_hits": 4,
+   "matched_entities": [
+    "micro soft",
+    "microsoft inc",
+    "microsoft, inc"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 42890,
+     "text": "show you how to sell your own micro soft-",
+     "context": [
+      "from your software. This new book will",
+      "ware or have others sell it for you. Written"
+     ]
+    }
+   ]
+  }
+ ]
+}

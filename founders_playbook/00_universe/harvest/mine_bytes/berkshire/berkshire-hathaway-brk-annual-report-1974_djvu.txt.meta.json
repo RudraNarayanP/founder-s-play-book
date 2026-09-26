@@ -1,0 +1,9 @@
+{
+ "identifier": "berkshire-hathaway-brk-annual-report-1974",
+ "url": "https://archive.org/download/berkshire-hathaway-brk-annual-report-1974/Berkshire%20Hathaway%20%28BRK%29%20Annual%20Report%201974_djvu.txt",
+ "fetched": "2026-09-26T09:55:45Z",
+ "bytes": 105518,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

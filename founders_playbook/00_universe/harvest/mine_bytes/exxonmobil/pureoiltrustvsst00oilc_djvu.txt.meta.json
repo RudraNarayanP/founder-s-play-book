@@ -1,0 +1,9 @@
+{
+ "identifier": "pureoiltrustvsst00oilc",
+ "url": "https://archive.org/download/pureoiltrustvsst00oilc/pureoiltrustvsst00oilc_djvu.txt",
+ "fetched": "2026-09-26T10:02:29Z",
+ "bytes": 3294656,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

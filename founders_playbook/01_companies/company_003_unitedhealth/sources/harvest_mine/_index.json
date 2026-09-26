@@ -1,0 +1,89 @@
+{
+ "window": [
+  "1974-01-01",
+  "1995-12-31"
+ ],
+ "candidates": 47,
+ "mined": 4,
+ "untried_by_limit": 41,
+ "items": [
+  {
+   "identifier": "udRwLIq-iMoC",
+   "date": "1978-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried udRwLIq-iMoC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "CKD-KolMt-8C",
+   "date": "1981-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried CKD-KolMt-8C_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "micro_IA40385020_0854",
+   "date": "1990-01-01",
+   "title_year": "1990",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Ocean State Physicians Health Plan, Inc. v. c, 494 U.S. 1027 (1990) (No. 89-1044)",
+   "family": "internet_archive",
+   "meta_date": "1990-01-01",
+   "status": "cached",
+   "bytes": 516579,
+   "named_terms": [
+    "united healthplan"
+   ],
+   "other_terms": [
+    "charter med",
+    "metropolitan health plans",
+    "physicians health plan"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "physicians health plan"
+   ],
+   "sample": [
+    {
+     "line": 10,
+     "text": "OCEAN STATE PHYSICIANS HEALTH PLAN, INC., et al.,",
+     "context": [
+      "",
+      "Petitioner,"
+     ]
+    },
+    {
+     "line": 436,
+     "text": "OCEAN STATE PHYSICIANS HEALTH PLAN, INC., et al.,",
+     "context": [
+      "",
+      "es \u2019 Petitioner,"
+     ]
+    },
+    {
+     "line": 515,
+     "text": "1. Petitioner Ocean State Physicians Health Plan",
+     "context": [
+      "",
+      "(\u201cOcean State\u201d) is a federally-qualified health mainte-"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "Rn5PAQAAIAAJ",
+   "date": "1994-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried Rn5PAQAAIAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "url": "https://books.google.com/books/feeds/volumes?q=%22Costco+Wholesale%22+%22Price+Club%22+merger&maxResults=10",
+ "evidence_file": "6e7d17a952c10b09.xml",
+ "http_status": 200,
+ "content_type": "application/atom+xml; charset=UTF-8",
+ "bytes": 24992,
+ "retrieved_at": "2026-09-26T09:42:33Z",
+ "ext": ".xml",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/atom+xml,application/xml;q=0.9,application/json;q=0.8,*/*;q=0.7"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "",
+ "retry_after": "",
+ "note": "",
+ "source": "google_books",
+ "query_label": "GB 'Costco Wholesale' 'Price Club' merger shareholder",
+ "company": "costco",
+ "kind": "search"
+}

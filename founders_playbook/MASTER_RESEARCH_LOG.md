@@ -1288,11 +1288,18 @@ specifically, not generally. Biggest gap: **Stage 3 (1986–1990) has zero docum
 `company_002_walmart/research/A6_held_corpus_mine.md`: 27 records, 9,229 words, 22 register rows
 requested rather than written, gates 0 findings / 7 passes.
 
-- **The emptiest region got documented state.** No held byte names the company before 1972-03-22, but the
-  FY1974 report's "FIVE YEAR PROGRESS REPORT" prints year-end store counts **FY1970-FY1973
-  (32/38/51/64/78)** and the FY1973 report prints "fifty-five Wal-Mart and nine variety and family center
-  stores". Documented store series now reaches back to FY1969 -- inside the Stage-1 window, from print
-  rather than EDGAR.
+- **The emptiest region got documented state.** ~~No held byte names the company before 1972-03-22~~
+  **[CORRECTED 2026-09-26, RD-123 -- see the rule below before reusing this sentence]** the earliest held
+  *document* naming the company is the FY1972 report (printed 1972-03-22), and the silence before it is a
+  perimeter, not a wall: nine printed reports FY1972-FY1980, 13 *Business Week* index volumes, 8
+  *Stores* apparatuses, 2 SEC government documents, EDGAR (floor 1994-02-14), web archives (floor
+  1996-12-29). Four families were never reached at all.
+  What the mine actually established is that **the FY1974 report prints a year-end store series for
+  FY1970-FY1974 (32/38/51/64/78)** -- the label in the first draft of this line read "FY1970-FY1973"
+  against five values, which is a mislabel, not a finding -- and the FY1973 report prints "fifty-five
+  Wal-Mart and nine variety and family center stores". The fleet series in the registers already reaches
+  **FY1968 (24 stores)**, so "back to FY1969" understated our own corpus. Inside the Stage-1 window, from
+  print rather than EDGAR.
 - **Kentucky vs Arkansas is settled: Arkansas**, on the FY1974 report's own headed "HISTORY OF WAL-MART"
   (1974-03-21) plus five reiterations -- *one lineage*, so it is a company self-narrative at that strength,
   not five corroborations. A4's "Newport, Kentucky" came from a **Business Week index decoy**: an index
@@ -2075,3 +2082,149 @@ UNANSWERED. **Nvidia 4 mined -> 1 text hit** (0.9 MB), 3 UNANSWERED (Google Book
 mined -> 4 UNANSWERED. Two of my own bugs in this script were caught the same way as the gates' -- by
 running it: `%` with a **list** where a tuple was required, and assuming columns named `identifier`/`date`
 when the file says `item_id`/`date_or_issue`.
+
+### RD-122 -- Target merges as one volume, and the rows came from three emissions, not the two I briefed
+
+`company_042_target/stage_1.md`: **37,507 words, 9 registers, 157 rows, anchors 37 narrative <-> 37
+register**. Gate as I re-measured it on the committed bytes: **0 findings / 21 passes** at the tool's
+default tier, **1 substantive finding / 20 passes** at the tier the probe actually issued -- the numbers
+below. (The merge reported "0 findings / 19 passes": same verdict, and a pass count I could not reproduce,
+which is task #18's problem, not a discrepancy to chase.) Before the merge: 1 finding, `coverage/registers`,
+with `csv`/`anchors`/`corrections` reporting DID NOT RUN. Full report
+`03_quality_control/target_s1_merge.md`.
+
+**My brief said two emissions. There were three.** I dispatched the merge over `_parts/s1_p1.md` (47 rows)
+and `_parts/s1_p2.md` (79). The probe dossier `research/B1_dayton_print_records.md` carries **65 rows of its
+own** in a `## Register rows` block, and both parts *presuppose* them -- p1: "B1's 65 rows are **not**
+duplicated here", p2: "IDs continue B1's Q-series". Applying the 126 I named would have silently dropped
+B1's Q1-Q26 store-and-group series and 13 timeline rows. The merge agent caught the omission from the part
+files' own prose, not from my brief. **191 requested -> 157 rows, 34 folded into 28 listed collision
+groups, 0 refused.**
+**Standing dispatch rule: a register-emission census runs before the merge brief is written, not inside it**
+-- `tools/merge_census.py` over the whole company directory (parts *and* `research/`), because the counter
+of rows-to-apply is not the same thing as the list of rows-to-apply.
+
+Three judgment calls in that merge worth keeping as precedent:
+1. **Drift repaired, not dropped.** 8 rows arrived wide because unquoted commas sat inside one cell. Each
+   was re-joined at the printed split point, no value altered, tagged **COR-06**. Dropping them would have
+   looked cleaner in the gate output and lost evidence.
+2. **A prose value in a date column became `UNKNOWN`, and the prose moved to `notes` verbatim.** B1S12/B1S13
+   carried `NOT ACCESSED` in `access_date`; the rows stay -- they are the register's evidence that conflict
+   K1 has no held carrier.
+3. **`MERGE` minted global ids (`S4201-S4221`) and kept the dossier-local ids as `notes` aliases**, so the
+   volume's prose can still cite `B1S01`/`P1S01` while the registers are the only place global uniqueness
+   lives. Non-destruction was then *proven*, not asserted: each part body is a byte-identical contiguous
+   slice of the merged file, claim records 28 -> 28, census `[A-T]\d{1,3}` 143 -> 145 with `lost = []` (the
+   +2 are `K16`/`K17`, minted for two anchor-less orphan conflicts -- an addition, not a renumbering).
+
+**The tier question, adjudicated (it was mine, and it is not the volume's fault).** The probe issued Target
+Stage 1 **T2 core** (2 of 5 families returning in-window Tier-1 text), whose §15.2 planning budget is
+22,000 words. The volume is 37,507. Ruling: **the cap is a dispatch budget, not a limit on written
+evidence.** §9.6 forbids cutting evidence to fit a file limit, §15.4 makes a missed length target
+legitimate, and the overshoot is *my* brief's shape -- I sent two parts at exemplar density against a T2
+verdict, which is the RD-112 error in the other direction. Nothing is trimmed, nothing is re-tiered on word
+count. **Target Stage 1 stays T2 as an evidence verdict**, with the route that could lift it named:
+`U.032`, HathiTrust for the pre-FY1965 leg. `gates.py` budget-passed the volume only because `--tier`
+defaults to `exemplar` (60,000), which is a hole in the gate, not a clean result. **Reproduced on the same
+bytes minutes later:** `--tier exemplar` = 0 findings / 19 passes; `--tier core` = **1 substantive
+finding -- `budget | stage_1.md | 37507 words > core cap 22000 (split required)`** / 20 passes. One corpus,
+two verdicts, and the only thing that moved was the flag I passed, so "gates green" is meaningless unless
+the tier is named in the report header (task #18's snapshot-pinning now has a second reason to exist).
+Two consequences: **a budget gate that defaults to the loosest tier cannot detect its own cap**, and the
+finding's own wording is wrong -- §9.2 requires a *split* only above the 40,000-word soft cap, and 37,507 is
+under it, so a cap breach and a split requirement are two different findings conflated in one string.
+Logged as open tool defects, not fixed here -- `tools/gates.py` has live callers on other companies right
+now (RD-120's standing correction).
+
+### RD-123 -- the stalest file in the corpus was my own log, and reading it found a merge that under-applied
+
+Target's merge handed me an outbound correction it was not allowed to make: `MASTER_RESEARCH_LOG.md` still
+printed, as a finding, the **1972-03-22 "documented floor"** that Target's **COR-02 / P1K11** grepped to
+zero bytes and refused to write. Applied above at RD-097, with the perimeter restored. Three things fall
+out of doing it properly:
+
+1. **A received date is not a floor.** For Walmart the string is *almost* right and wrong anyway: 1972-03-22
+   is the date of the earliest held **document**, and the sentence as written licensed "no naming exists
+   before it", which four unreached families cannot support. For Target the same sentence, copied into a
+   dispatch brief, returned **zero hits in every one of the company's bytes** -- a date with no carrier.
+   That is §14 rule 8 run against my own prose, and my prose failed. **Rule: a silence claim travels
+   between companies only as "this corpus is silent, here is its perimeter", never as a date.**
+2. **Re-reading the log's Walmart line against the registers found two more defects.** (a) The line printed
+   "FY1970-FY1973" beside **five** values -- the series is FY1970-**FY1974**, and the registers' own fleet
+   series already reaches **FY1968**, so "back to FY1969" understated our corpus. (b) Grepping why: the
+   mine's requested FY1971=**38**, FY1972=**51** and FY1973=**64** from the FY1974 five-year table, plus the
+   FY1973 "55 Wal-Mart + 9 variety and family center" pair, are **not in `quantitative.csv` as printed**
+   (38 and 64 occur nowhere with `stores`; "variety and family" occurs in no register but `conflicts.csv`;
+   the surviving `51` is a different row -- FY1972's own report, carrier `S0101`/1972-03-22, inside a
+   combined stores/space/headcount cell, not the FY1974-table attribution), and the `S0148` source row the
+   mine asked for -- *the FY1973 report has no `sources.csv` row of its own despite being on disk* -- is
+   **still absent**, so the defect the mine flagged is still live.
+   **The worse half is an id collision, not a drop.** The mine proposed `S0139`-`S0147`; those nine ids
+   exist in `sources.csv` today and carry **entirely different content** (live `S0145` = the EDGAR floor;
+   the mine's `S0145` = the Chronicling America 403 challenge bodies). The merge minted its own rows into
+   the range and never applied the mine's, so `research/A6_held_corpus_mine.md` now cites ids that resolve
+   to other documents. And `grep "A6"` returns **0 matches in all nine register files**: nothing the mine
+   emitted carries a provenance tag into the registers, which is why the loss was invisible.
+   **Rule: a dossier may propose an id, never assume one. Minting is the merge's, and the merge must census
+   every emission's proposed ids against the live register before it reuses a number** -- a re-used id is
+   worse than a dropped row, because a dropped row is silent and a re-used id *misleads in both files*.
+   Not fixed here -- another pass owns those registers, so it goes to the Walmart certifier as a named
+   re-census (RD-122's dispatch rule) rather than a drive-by edit.
+3. **The instruction layer is the highest-severity home for a stale claim** (§14 rule 10) and I had been
+   writing it faster than I was retiring it. The corrections above **supersede in place with the original
+   wording struck through and dated**, because silently rewriting a log would destroy the very record that
+   shows how the error propagated into a brief.
+
+### RD-124 -- the fleet harvester was manufacturing fake Tier-1 evidence, and I found it by reading its output
+
+The 427-query harvest and the 1,562-row candidate index were mined by `tools/harvest_mine.py` while agents
+worked. Its per-company dossiers stamped **12 items `TIER1_CANDIDATE_TEXT`** across 10 companies. Reading two
+of them killed all 12:
+
+- Apple's best hit, 162 matches in 447 KB: *Beginning Teacher Evaluation Study, Phase II ... **APPLE**
+  Observation Variables*, where APPLE is an acronym for **A**necdotal **P**rocessing to **P**romote
+  **L**earning E**x**perience. Second: 6 hits in a foundation-for-the-blind report signed by a man surnamed
+  **Apple**.
+- Costco's 200 hits were **real** -- a 1991 San Francisco environmental impact report printing
+  `COSTCO  WHOLESALE` -- and were buried in the same undifferentiated pile.
+
+**Root cause: the grep term was the bare company slug.** `apple`, `target`, `dell`, `ups`, `att` are
+ordinary English words; a hit on one is a lead about a *word*, not a naming of an entity. The tool then
+called it Tier 1, and a tier verdict built on that would have been the untried-family error arriving from
+the opposite direction -- **a broken detector reporting success.**
+
+Four classes now, in strength order, each with the matched string printed so the label is checkable rather
+than trusted: `TIER1_CANDIDATE_TEXT` (a name phrase, or the company word hard against an identity word --
+`COSTCO  WHOLESALE`), `VARIANT_TERM_HIT` (a predecessor or trade title -- `price club`, `dayton hudson`,
+`chain store age`: related, worth opening, **not** a naming of this registrant), `BARE_WORD_MATCH`, and the
+existing `NULL`/`UNANSWERED`. `--self-test` runs **6 controls through the real grep path on the real held
+lines: 6 checks, 0 failing**, including the negative the tool exists to catch.
+
+Three findings from fixing it, all of which I would rather have written down than remember:
+
+1. **I read a column that does not exist.** The first patch took its entity vocabulary from
+   `candidates.csv`'s `query_label` -- **0 of 1,562 rows have that field**; the real column is `query`. The
+   result was a classifier that silently promoted *nothing*, which looks identical to a classifier that
+   finds nothing. Third time this run I assumed a column name instead of enumerating the header (RD-121 got
+   me for `identifier`/`date`); **the rule now is to print `rows[0].keys()` before writing any code that
+   reads a field.**
+2. **De-punctuation glued the entity together.** `re.sub(r"[^A-Za-z0-9 ]", "")` turns `'Wal-Mart Stores'`
+   into `walmartstores`, which can never match the printed `WAL-MART STORES`. Punctuation must become a
+   **space**, and phrase patterns must join words with a whitespace/dot/dash class. Reproduced in the
+   controls: Walmart's entity-bearing items went **0 -> 4** from that change alone, on bytes already on
+   disk. The 4 are FY1972/76/86/90 annual-report layers, so this is a *detector* win, not an evidence win:
+   none is a pre-1972 naming, and the naming wall stands where RD-097 left it.
+3. **The tool wrote 11.4 MB outside every company directory.** With no `company_NNN_<slug>` folder for 37
+   of 50 slugs, `dirs.get(slug, ".")` fell back to the repository **root**, so a fleet run cached Berkshire,
+   Chevron, Bank of America, CVS and 13 other companies' print into `./sources/periodicals/` -- real
+   primary text, invisible to every per-company gate, and 0 bytes in `founders_playbook/`. The fallback is
+   gone (`dirs[slug]`, and a missing directory is now reported as **UNTRIED: no company directory yet**,
+   with its candidate count). **Nothing was deleted**: 110 files moved by ledger to
+   `00_universe/harvest/mine_bytes/<slug>/` -- every one attributable to a slug, **0 UNATTRIBUTED** -- in
+   `00_universe/harvest/_RELOCATED_MINE_BYTES.tsv`. Those 17 companies now have their founding-decade print
+   on disk *before* they are scaffolded, which is the first time this run has had bytes waiting for a
+   company rather than the reverse.
+
+**Fleet state after the re-mine:** 405 candidate rows across the 10 scaffolded companies with queries spent,
+40 items mined at `--limit 4`, **11 entity-bearing, 1 variant-term, 5 bare-word, 6 NULL, 17 UNANSWERED**.
+1,051 candidate rows for 37 slugs remain UNTRIED pending scaffolding -- a search never run, not a null.

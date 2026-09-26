@@ -1,0 +1,9 @@
+{
+ "identifier": "byte-magazine-1982-03",
+ "url": "https://archive.org/download/byte-magazine-1982-03/1982_03_BYTE_07-03_Printers_djvu.txt",
+ "fetched": "2026-09-26T10:10:41Z",
+ "bytes": 2072713,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

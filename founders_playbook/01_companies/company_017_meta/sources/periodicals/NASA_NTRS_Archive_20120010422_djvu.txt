@@ -1,0 +1,369 @@
+bearings operating at high temperatures 
+are an emerging technology making 
+commercial inroads into several markets 
+including aircraft auxiliary power units 
+(APUs), microturbines, gas compressors 
+and blowers, and turbochargers. 
+
+The general trend for foil bearings 
+since their initial development over five 
+decades ago is application to larger and 
+more complex rotor systems. As this pro- 
+liferation occurs, more practitioners will 
+become actively involved with new ma- 
+chine development using foil bearings. 
+Thus, there is a great need for applica- 
+tion guidelines to establish the feasibility 
+of proposed rotor systems and to iden- 
+tify existing machines that are good can- 
+didates for foil bearing use. Specifically, 
+a method is needed to estimate foil bear- 
+ing stiffness and damping behavior in 
+order to foster advanced oil-free rotating 
+machine development. 
+
+
+Methods to estimate critical stiffness 
+and damping parameters, however, do 
+not currently exist. The purpose of the 
+methods put forth in this work is to estab- 
+lish simple tools capable of estimating foil 
+bearing stiffness and damping coeffi- 
+cients suitable for oil-free rotor support 
+design work. This has been accomplished 
+by first coalescing all available empirical 
+data on foil bearing performance that 
+has been generated in the author’s own 
+laboratories, and by researchers working 
+in university, government, and industrial 
+laboratories. This information is exam- 
+ined and combined, then used to de- 
+velop ROT for foil bearing stiffness and 
+damping. These ROTs can then be com- 
+bined with existing rules for load capacity 
+to obtain credible feasibility assessments 
+for proposed oil-free rotor systems. 
+
+The effort described has resulted in 
+algebraic models for foil gas bearings 
+
+
+that yield stiffness, damping, and load 
+capacity values as a function of bearing 
+size, design, and operating speed. With 
+these models, one can easily determine 
+the feasibility of building a foil bearing 
+supported machine without incurring 
+the expense of early experimental work. 
+The models presented represent the 
+only known and verified methods to pre- 
+dict conveniently foil bearing perform- 
+ance properties. 
+
+This work was done by Christopher Della- 
+Corte of Glenn Research Center. Further infor- 
+mation is contained in a TSP (see page 1 ). 
+
+Inquiries concerning rights for the commer- 
+cial use of this invention should be addressed 
+to NASA Glenn Research Center, Innovative 
+Partnerships Office, Attn: Steven Fedor, Mail 
+Stop 4-8, 21000 Brookpark Road, Cleve- 
+land, Ohio 44135. Refer to LEW-18755-1. 
+
+
+@ Sampling and Reconstruction of the Pupil 
+for Phase Retrieval 
+
+Goddard Space Flight Center, Greenbelt, Maryland 
+
+
+This technology is based on sampling 
+considerations for a band-limited func- 
+tion, which has application to optical es- 
+timation generally, and to phase re- 
+trieval specifically. The analysis begins 
+with the observation that the Fourier 
+transform of an optical aperture func- 
+tion (pupil) can be implemented with 
+minimal aliasing for (lvalues down to (5 
+= 1. The sampling ratio, Q, is defined as 
+the ratio of the sampling frequency to 
+the band-limited cut-off frequency. The 
+
+
+analytical results are given using a 1-d 
+aperture function, and with the electric 
+field defined by the band-limited sine (a;) 
+function. Perfect reconstruction of the 
+Fourier transform (electric field) is de- 
+rived using the Whittaker-Shannon sam- 
+pling theorem for 1<Q<2. 
+
+The Fourier transform is constructed 
+by periodic extension, i.e., by spacing 
+copies of the transform in a definite way, 
+recognizing that no aliasing occurs for 
+values of the sampling ratio such that 
+
+
+and Electric Field 
+
+
+1<Q<2, which can be used to advantage 
+in the application of phase retrieval esti- 
+mation. A method was developed for 
+propagating the electromagnetic field 
+with no aliasing, which has been ex- 
+tended to 2-d optical apertures. 
+
+This ivork was done by Bruce Dean, Jeffrey 
+Smith, and David Aronstein of Goddard 
+Space Flight Center. Further information is 
+contained in a TSP (see page 1). GSC- 
+15947-1 
+
+
+@ Space Operations Learning Center Facebook Application 
+
+This app uses the latest networking technology to inspire young audiences to be interested in 
+math, science, and engineering. 
+
+Goddard Space Flight Center, Greenbelt, Maryland 
+
+
+The proposed Space Operations 
+Learning Center (SOLC) Facebook mo- 
+dule, initially code-named “Spaceville,” 
+is intended to be an educational online 
+game utilizing the latest social network- 
+ing technology to reach a broad audi- 
+ence base and inspire young audiences 
+to be interested in math, science, and 
+engineering. 
+
+Spaceville will be a Facebook applica- 
+tion/game with the goal of combining 
+
+
+learning with a fun game and social envi- 
+ronment. The mission of die game is to 
+build a scientific outpost on die Moon or 
+Mars and expand die colony. Game activi- 
+ties include collecting resources, trading 
+resources, completing simple science ex- 
+periments, and building architectures such 
+as laboratories, habitats, greenhouses, ma- 
+chine shops, etc. The player is awarded 
+with points and achievement levels. The 
+player’s ability increases as his/her points 
+
+
+and levels increase. A player can interact 
+with other players using multiplayer Face- 
+book functionality. As a result, a player can 
+discover unexpected treasures through sci- 
+entific missions, engineering, and working 
+with others. 
+
+The player creates his/her own avatar 
+with his/her selection of its unique ap- 
+pearance, and names the character. The 
+player controls the avatar to perform ac- 
+tivities such as collecting oxygen mole- 
+
+
+NASA Tech Briefs, June 2012 
+
+
+33 
+
+
+cules or building a habitat. From obser- 
+vations of other successful social online 
+games such as Farmville and Restaurant 
+City, a common element of these games 
+is having eye-catching and cartoonish 
+characters, and interesting animations 
+for all activities. This will create a fun, ed- 
+ucational, and rewarding environment. 
+
+The player needs to accumulate 
+points in order to be awarded special 
+
+
+items needed for advancing to higher 
+levels. Trophies will be awarded to the 
+player when certain goals are reached or 
+tasks are completed. In order to acquire 
+some special items needed for advance- 
+ment in the game, the player will need 
+to visit his/her neighboring towns to dis- 
+cover the items. This is the social aspect 
+of the game that requires the player to 
+go out of his/her own establishment to 
+
+
+explore what is in the neighborhood. 
+Spaceville will take advantage of Face- 
+book’s successful architecture to inspire 
+a new audience of scientists and engi- 
+neers for the future. 
+
+This work was done by Ben Lui and Bar- 
+bara Milner of Goddard Space Flight Center, 
+Dan Binebrink ofSGT Inc.., and HengKuok of 
+Sigma Space Corp. Further information is con- 
+tained in a TSP (see page 1). GSC-16214-1 
+
+
+Q Rotorcraft Diagnostics 
+
+John H. Glenn Research Center, Cleveland, Ohio 
+
+
+Health management (HM) in any 
+engineering systems requires adequate 
+understanding about the system’s func- 
+tioning; a sufficient amount of moni- 
+tored data; the capability to extract, an- 
+alyze, and collate information; and the 
+capability to combine understanding 
+and information for HM-related esti- 
+mation and decision-making. Rotor- 
+craft systems are, in general, highly 
+complex. Obtaining adequate under- 
+standing about functioning of such sys- 
+tems is quite difficult, because of the 
+proprietary (restricted access) nature 
+of their designs and dynamic models. 
+Development of an EIM (exact inverse 
+map) solution for rotorcraft requires a 
+process that can overcome the above- 
+mentioned difficulties and maximally 
+utilize monitored information for HM 
+facilitation via employing advanced an- 
+alytic techniques. 
+
+
+The goal was to develop a versatile 
+HM solution for rotorcraft for facilita- 
+tion of the Condition Based Main- 
+tenance Plus (CBM+) capabilities. The 
+effort was geared towards developing an- 
+alytic and reasoning techniques, and 
+proving the ability to embed the re- 
+quired capabilities on a rotorcraft plat- 
+form, paving the way for implementing 
+the solution on an aircraft-level system 
+for consolidation and reporting. 
+
+The solution for rotorcraft can he 
+used offboard or embedded directly 
+onto a rotorcraft system. The envisioned 
+solution utilizes available monitored and 
+archived data for real-time fault detec- 
+tion and identification, failure precursor 
+identification, and offline fault detec- 
+tion and diagnostics, health condition 
+forecasting, optimal guided trou- 
+bleshooting, and maintenance decision 
+support. A variant of the onboard ver- 
+
+
+sion is a self-contained hardware and 
+software (HW+SW) package that can be 
+embedded on rotorcraft systems. 
+
+The HM solution comprises compo- 
+nents drat gather/ingest data and informa- 
+tion, perform information/feature exUac- 
+tion, analyze information in conjunction 
+with die dependency/ diagnostic model of 
+the target system, facilitate optimal guided 
+troubleshooting, and offer decision sup- 
+port for optimal maintenance. 
+
+This work was done by Deepak Haste, Mo- 
+hammad Azam, Sudipto Ghoshal, and James 
+Monte of Qualtech Systems for Glenn Research 
+Center. Further information is contained in a 
+TSP (see page 1). 
+
+Inquiries concerning rights for the commer- 
+cial use of this invention should be addressed to 
+NASA Glenn Research Center, Innovative 
+Partnerships Office, Attn: Steven Fedor, Mail 
+Stop 4-8, 21000 Brookpark Road, Cleveland, 
+Ohio 44135. Refer to LEW-18672-1. 
+
+
+@ Recursive Branching Simulated Annealing Algorithm 
+
+The algorithm can be applied to a wide variety of optimization problems. 
+
+Goddard Space Flight Center, Greenbelt, Maryland 
+
+
+This innovation is a variation of a 
+simulated-annealing optimization algo- 
+rithm that uses a recursive-branching 
+structure to parallelize the search of a 
+parameter space for the globally opti- 
+mal solution to an objective. The algo- 
+rithm has been demonstrated to be 
+more effective at searching a parameter 
+space than traditional simulated-an- 
+nealing methods for a particular prob- 
+lem of interest, and it can readily be ap- 
+plied to a wide variety of optimization 
+problems, including those with a pa- 
+rameter space having both discrete- 
+value parameters (combinatorial) and 
+continuous-variable parameters. It can 
+
+
+take the place of a conventional simu- 
+lated-annealing, Monte-Carlo, or ran- 
+dom-walk algorithm. 
+
+In a conventional simulated-anneal- 
+ing (SA) algorithm, a starting configura- 
+tion is randomly selected within the pa- 
+rameter space. The algorithm randomly 
+selects another configuration from the 
+parameter space and evaluates the ob- 
+jective function for that configuration. If 
+the objective function value is better 
+than the previous value, the new config- 
+uration is adopted as the new point of 
+interest in the parameter space. If the 
+objective function value is worse than 
+the previous value, the new configura- 
+
+
+tion may be adopted, with a probability 
+determined by a temperature parame- 
+ter, used in analogy to annealing in met- 
+als. As the optimization continues, the 
+region of the parameter space from 
+which new configurations can be se- 
+lected shrinks, and in conjunction with 
+lowering the annealing temperature 
+(and thus lowering the probability for 
+adopting configurations in parameter 
+space with worse objective functions), 
+the algorithm can converge on the glob- 
+ally optimal configuration. 
+
+The Recursive Branching Simulated 
+Annealing (RBSA) algorithm shares some 
+features with the SA algorithm, notably in- 
+
+
+34 
+
+
+NASA Tech Briefs June 2012 
+
+

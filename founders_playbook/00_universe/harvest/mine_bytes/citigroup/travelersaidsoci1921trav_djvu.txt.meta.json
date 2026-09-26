@@ -1,0 +1,9 @@
+{
+ "identifier": "travelersaidsoci1921trav",
+ "url": "https://archive.org/download/travelersaidsoci1921trav/travelersaidsoci1921trav_djvu.txt",
+ "fetched": "2026-09-26T10:00:24Z",
+ "bytes": 13388,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

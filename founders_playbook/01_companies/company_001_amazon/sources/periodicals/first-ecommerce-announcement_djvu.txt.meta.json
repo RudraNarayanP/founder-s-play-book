@@ -1,0 +1,9 @@
+{
+ "identifier": "first-ecommerce-announcement",
+ "url": "https://archive.org/download/first-ecommerce-announcement/First_Ecommerce_Announcement_djvu.txt",
+ "fetched": "2026-09-26T09:54:19Z",
+ "bytes": 759,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

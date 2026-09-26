@@ -1,0 +1,98 @@
+{
+ "window": [
+  "1994-01-01",
+  "1997-12-31"
+ ],
+ "candidates": 41,
+ "mined": 4,
+ "untried_by_limit": 36,
+ "items": [
+  {
+   "identifier": "NASA_NTRS_Archive_19980017484",
+   "date": "1997-01-01",
+   "title_year": "1998",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "NASA Technical Reports Server (NTRS) 19980017484: Land-Use Change, Soil Process and Trace Gas Fluxes in the Brazilian Am",
+   "family": "corporate_print",
+   "meta_date": "1997-01-01",
+   "status": "cached",
+   "bytes": 35332,
+   "named_terms": [
+    "amazon com"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 18,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 9,
+     "text": "Title: Land-Use Change, Soil Process and Trace Gas Fluxes in the Brazilian Amazon Basin",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 35,
+     "text": "southwest Amazon that has experienced rapid deforestation, primarily for cattle ranching, since",
+     "context": [
+      "associated with the conversion of tropical rainforest to pasture in Rondonia, a state in the",
+      "the late 1970s. These measurements provide a comprehensive quantitative picture of the nature"
+     ]
+    },
+    {
+     "line": 100,
+     "text": "Vida on soils that are typical of Rondonia and the Amazon Basin as a whole. One sequence on",
+     "context": [
+      "We identified two sequences of forest and pastures cleared at different times at Nova",
+      "kandiudults (red-yellow podzolic latossols) contained forest and pastures that were 3, 5, 9, 13,"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "soulasvirginwife0000holl",
+   "date": "1995-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried soulasvirginwife0000holl_djvu.txt, soulasvirginwife0000holl_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "first-ecommerce-announcement",
+   "date": "1995-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Meant to be the First Online Ecommerce Shopping Site on Worldwide Web",
+   "family": "internet_archive",
+   "meta_date": "1995-01-01",
+   "status": "cached",
+   "bytes": 759,
+   "named_terms": [
+    "amazon com"
+   ],
+   "other_terms": [],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "handbookofdefens0002unse",
+   "date": "1995-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried handbookofdefens0002unse_djvu.txt, handbookofdefens0002unse_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "identifier": "daytonwrightairp00gene",
+ "url": "https://archive.org/download/daytonwrightairp00gene/daytonwrightairp00gene_djvu.txt",
+ "fetched": "2026-09-26T10:03:33Z",
+ "bytes": 42441,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

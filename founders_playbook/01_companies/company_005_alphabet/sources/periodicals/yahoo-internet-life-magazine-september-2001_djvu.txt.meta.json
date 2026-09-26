@@ -1,0 +1,9 @@
+{
+ "identifier": "yahoo-internet-life-magazine-september-2001",
+ "url": "https://archive.org/download/yahoo-internet-life-magazine-september-2001/Yahoo%20Internet%20Life%20Magazine%20September%202001_djvu.txt",
+ "fetched": "2026-09-26T09:53:38Z",
+ "bytes": 338899,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

@@ -1,0 +1,2510 @@
+tfixezzr- Jo 7? 7 
+
+
+NASA Technical Memorandum 85797 
+
+
+NASA-TM-85797 19840025763 
+
+
+A REVIEW OF CHEVRON-NOTCHED FRACTURE SPECIMENS 
+
+
+J. C. NEWMAN, JR, 
+
+
+For Reference 
+
+
+SEPTEMBER 1984 
+
+
+HOI TO BE TAfcEN FflOM THIS 8008(5 ^ 
+
+
+LIBRARY COPY 
+
+
+LANGLEY RESEARCH CENTER 
+LIBRARY, NASA 
+HAMPTON, VIRGINIA 
+
+
+NASA 
+
+National Aeronautics and 
+Space Administration 
+
+Langley Research Center 
+
+Hampton, Virginia 23665 
+
+
+
+
+A REVIEW OF CHEVRON-NOTCHED FRACTURE SPECIMENS 
+
+
+J. C. Newman, Jr. 
+
+NASA Langley Research Center 
+Hampton, Virginia 
+
+SUMMARY 
+
+This paper reviews the historical development of chevron-notched fracture 
+specimens; it also compares stress-intensity factors and load line displace- 
+ment solutions that have been proposed for some of these specimens. The 
+review covers the original bend-bar configurations up to the present day 
+"short" rod and bar specimens. In particular, the results of a recent 
+"analytical" round robin that was conducted by an ASTM Task Group on Chevron- 
+Notched Specimens are presented. 
+
+In the round robin, three institutions calculated stress-intensity 
+factors for either the chevron-notched round- rod or square-bar specimens. 
+
+These analytical solutions were compared among themselves, and then among the 
+various experimental solutions that have been proposed for these specimens. 
+
+The experimental and analytical stress-intensity factor solutions that were 
+obtained from the compliance method agreed within 3 percent for both speci- 
+mens. An assessment of the consensus stress-intensity factor (compliance) 
+solution for these specimens is made. 
+
+The stress-intensity factor solutions proposed for three- and four-point 
+bend chevron-notched specimens are also reviewed. On the basis of this 
+review, the bend-bar configurations need further experimental and analytical 
+calibrations. 
+
+
+
+
+
+The chevron-notched rod, bar, and bend-bar specimens were developed to 
+determine fracture toughness of brittle materials, materials that exhibit 
+"flat" or "nearly flat" crack-growth resistance curves. The problems 
+associated with using such specimens for materials that have a rising 
+crack-growth resistance curve are reviewed. 
+
+
+A 
+
+a 
+
+
+a 0 
+
+a 1 
+
+
+b 
+
+B 
+
+
+C* 
+
+
+E 
+
+F 
+
+
+F* 
+
+
+F 
+
+
+* 
+
+c 
+
+
+F* 
+
+m 
+
+
+H 
+
+K 
+
+
+K lcv 
+
+K R 
+
+
+NOMENCLATURE 
+
+normalized stress-intensity factor defined by Barker 
+
+crack length measured from either front face of bend bar or load 
+line 
+
+initial crack length (to tip of chevron notch) 
+
+crack length measured to where chevron notch intersects specimen 
+surface 
+
+length of crack front 
+
+thickness of bar specimen or diameter of rod specimen 
+normalized compliance, EBV L /P, for chevron-notched specimen 
+Young's modulus of elasticity 
+
+normalized stress-intensity factor for straight-through crack 
+specimen 
+
+normalized stress-intensity factor for chevron-notched specimen 
+
+normalized stress-intensity factor determined from compliance for 
+chevron-notched specimen 
+
+minimum normalized stress-intensity factor for chevron-notched 
+specimen 
+
+half of bar specimen height or radius of rod specimen 
+stress-intensity factor (Mode I) 
+
+minimum stress-intensity factor for chevron-notched specimen 
+plane-strain fracture toughness (ASTM E399) 
+
+plane-strain fracture toughness from chevron-notched specimen 
+crack-growth resistance 
+
+
+2 
+
+
+
+k 
+
+
+P 
+
+p 
+
+max 
+
+
+
+w 
+
+
+x,y,z 
+
+a 
+
+
+v 
+
+
+shear-correction parameter in Bluhm's slice model 
+applied load 
+
+maximum test (failure) load 
+load-point half-displacement 
+
+half-displacement measured at top of specimen along load line 
+
+specimen width 
+
+Cartesian coordinates 
+
+crack- length- to-width (a/w) ratio 
+
+crack-length- to-width (a^/w) ratios defined in Fig. 2 
+Poisson's ratio 
+
+
+INTRODUCTION 
+
+Chevron- notched specimens (Fig. 1) are gaining widespread use for 
+fracture toughness testing of ceramics, rocks, high-strength metals, and other 
+brittle materials [1-7], They are small (5- to 25-mm thick), simple, and 
+inexpensive specimens for determining the plane-strain fracture toughness, 
+denoted herein as K j c v" Because they require no fatigue precracking, they 
+are also well suited as quality control specimens. The unique features of a 
+chevron-notched specimen, over conventional fracture toughness specimens, 
+are: (1) the extremely high stress concentration at the tip of the chevron 
+
+notch, and (2) the stress-intensity factor passes through a minimum as the 
+crack grows. Because of the high-stress concentration factor at the tip of 
+the chevron notch, a crack initiates at a low applied load, so costly pre- 
+cracking of the specimen is not needed. From the minimum stress-intensity 
+factor, the fracture toughness can be evaluated from the maximum test load. 
+Therefore, a load-displacement record, as is currently required in the ASTM 
+E399 plane-strain fracture toughness (K lc ) test procedure, is not needed. 
+
+
+3 
+
+
+
+Because of these unique features, some of these specimens are being considered 
+for standardization by the American Society for Testing and Materials (ASTM). 
+
+This paper reviews the historical development of chevron-notched 
+fracture specimens. The paper also compares the stress-intensity factor and 
+load-line displacement solutions that have been proposed for some of these 
+specimens. The review is presented in four parts. 
+
+In the first part, the review covers the development of the original 
+chevron-notched bend bars, the present day "short" rod and bar specimens, and 
+the early analyses for these specimens. 
+
+In the second part, the results of a recent "analytical" round robin 
+conducted by the ASTM Task Group on Chevron-Notched Specimens are presented. 
+Three institutions participated in the calculations of stress-intensity 
+factors for either the chevron-notched round-rod or square-bar specimen. They 
+used either three-dimensional finite-element or boundary-integral equation 
+(boundary-element) methods. These analytical solutions were compared among 
+themselves and among the various experimental solutions that have been deter- 
+mined for the rod and bar specimens. An assessment of the consensus stress- 
+intensity factor (compliance) solution for these specimens is presented. 
+
+In the third part, some recent stress-intensity factor solutions, pro- 
+posed for three- and four-point bend chevron-notched specimens, are reviewed. 
+
+In the last part, the applicability of chevron-notched specimens to 
+materials that have a rising crack-growth resistance curve is discussed. 
+
+
+
+HISTORY OF CHEVRON-NOTCHED SPECIMENS 
+
+
+In 1964, Nakayama [1,2] was the first to use a bend specimen with an 
+unsymmetrical chevron notch. His specimen configuration is shown in Figure 1 . 
+He used it to measure fracture energy of brittle, polycrystalline, refractory 
+materials. All previous methods which had been developed for testing homo- 
+geneous materials were thought to be inadequate. This specimen is unique in 
+that a crack initiates at the tip of the chevron notch at a low load, then 
+propagates stably until catastrophic fracture. Because of the low load, the 
+elastic stored energy in the test specimen and testing apparatus was small so 
+that the fracture energy could be estimated from the area under a load-time 
+history record. 
+
+Tattersall and Tappin [3] in 1966 proposed using a bend bar with a 
+chevron notch symmetrical about the center line of the specimen, as shown in 
+Figure 1 . They used this specimen to measure the work of fracture on 
+ceramics, metals and other materials. The work of fracture was determined 
+from the area under the load-displacement record divided by the area of the 
+fracture surfaces. 
+
+In 1972, Pook [4] suggested using a chevron-notched bend bar to determine 
+the plane-strain fracture toughness of metals. He stated that, "If the 
+against crack length characteristic is modified, by the introduction of 
+suitably profiled side grooves, so that there is a minimum at a/w 13 0.5, and 
+the initial Kj is at least twice this minimum, it should be possible to omit 
+the precracking stage, and obtain a reasonable estimate of K lc from the 
+maximum load in a rising load test. Pook's "suitably profiled side grooves" 
+is the present day chevron notch. However, he considered only the analytical 
+treatment needed to obtain stress-intensity factors as a function of crack 
+length for various types of chevron notches. He did not study the experimental 
+aspects of using a chevron-notched specimen to obtain 
+
+
+5 
+
+
+
+The nomenclature currently used for a straight-sided chevron notch in a 
+rectangular cross section specimen is shown in Figure 2. The specimen width, 
+w, and crack length, a, are measured from the front face of the bend bar (or 
+from the load line in the knife-edge- loaded specimen) . The dimensions a Q 
+and a 1 are measured from the edge of the bend bar (or load line) to the 
+vertex of the chevron and to where the chevron intersects the specimen 
+surface, respectively. The specimen is of thickness B and the crack front 
+is of length b. 
+
+Pook [4] used the stress-intensity factor solution for a three-point bend 
+bar with a straight-through crack (8] and a side-groove correction proposed by 
+Freed and Kraft [9] to obtain approximate solutions for various shape chevron 
+notches. The stress-intensity factors for a chevron-notched specimen, K CN , 
+was given by 
+
+
+
+where K STC is the stress-intensity factor for a straight-through crack in a 
+bar having the same overall dimensions. Figure 3 illustrates the unique 
+stress-intensity factor solution for a chevron-notched specimen compared to a 
+straight-through crack specimen. The dashed curve shows the normalized 
+stress-intensity factors for the straight-through crack as a function of 
+a/w. This curve is a monotonically increasing function with crack length. 
+
+The solid curve shows the solution for the chevron-notched specimen. For 
+a = aQ, the stress-intensity factor is very large but it rapidly drops as the 
+crack length increases. A minimum value is reached when the crack length is 
+between a Q and a., . For a > a 1 , the stress-intensity factors for the 
+chevron-notched specimen and for the straight-through crack specimen are 
+identical because the configurations are identical. 
+
+
+6 
+
+
+
+The analytical procedure used by Pook [4] to determine the stress- 
+intensity factor as a function of crack length was an engineering approxima- 
+tion. At that time, no rigorous analysis had been conducted to verify the 
+accuracy of equation ( 1 ) . 
+
+In 1975, Bluhm [10] made the first serious attempt to analyze the 
+chevron- notched bend bars. The three-dimensional crack configuration was 
+analyzed in an approximate "two-dimensional" fashion. The specimen was 
+treated as a series of slices in the spanwise direction. Both beam bending 
+and beam shear effects on the compliance of each slice were considered but the 
+inter-slice shear stresses were neglected in the analysis. Then by a 
+synthesis of the slice behavior, the total specimen compliance was determined. 
+The slice model, however, introduced a "shear correction" parameter (k) which 
+had to be evaluated from experimental compliance measurements. Experimental 
+compliance measurements made on an "uncracked" chevron-notched bend bar 
+(a Q = 0 and cx-j = 1 ) were used to determine a value for the "shear 
+correction" parameter for three- and four-point bend specimens . Bluhm 
+estimated that the slice model was capable of predicting the compliance of the 
+cracked Tattersall-Tappin type specimen (see Fig. 1) to within 3 percent. 
+
+Bluhm did not, however, calculate stress-intensity factors from the compliance 
+equations. Later, Munz et al. [7] did use Bluhm's slice model to calculate 
+stress-intensity factors for various chevron-notch bar specimens. 
+
+In the following, the concept proposed by Pook [4] to determine the 
+K lc value for brittle materials using chevron-notched specimens will be 
+illustrated. Figure 4 shows stress-intensity factor, K, plotted against 
+crack length. The solid line beginning at a Q and leveling off at K lc is 
+the "ideal" crack-growth resistance curve for a brittle material. The dashed 
+curves show the "crack-driving force" curves for various values of applied 
+load on a chevron-notched specimen. Because of the extremely large K value 
+
+
+7 
+
+
+
+at a = ag, a small value of load, like P^ , is enough to initiate a crack at 
+the vertex of the chevron. At load P 1 , the crack grows until the crack-drive 
+value is equal to K lc , that is, the intersection point between the dashed 
+curve and horizontal line at point A. Further increases in load are required 
+to extend the crack to point B and C. When the maximum load, p max r is 
+reached the crack-drive curve is tangent to the K lc line at point D. Thus, 
+the K value at failure is equal to Kj c . The tangent point also corresponds 
+to the minimum value of stress-intensity factor on the crack-drive curve 
+(denoted with a solid symbol) . Therefore, K lcv is calculated by 
+
+
+K = F* 
+
+lev _ /— m 
+
+
+( 2 ) 
+
+
+b/w 
+
+
+where P__„ is the maximum failure load and F* is the minimum value of the 
+
+llldA 
+
+normalized stress-intensity factor. Because F* is a predetermined value for 
+the particular chevron-notched configuration, it is necessary only to measure 
+the maximum load to calculate K Icv . 
+
+This maximum load test procedure can only be applied to brittle materials 
+with flat or nearly flat crack-growth resistance curves. Many engineering 
+materials, however, have a rising crack-growth resistance curve. The problems 
+associated with using chevron-notched specimens for these materials will be 
+discussed later. 
+
+
+
+
+Chevron-Notched Rod and Bar Specimens 
+Although the bend bars were the first type of chevron-notched specimens 
+to be tested, the knife-edge loaded rod and bar specimens have received more 
+attention. In the next sections, the rod and bar specimens are reviewed. 
+This review also includes the analytical round robin; in which, the rod and 
+bar specimens were analyzed. In a later section, some recent results on the 
+chevron-notched bend bars are also reviewed. 
+
+
+8 
+
+
+
+
+Barker [5,6] in the late 70' s, proposed the "short" rod and bar specimens. 
+Figure 1, for determining plane-strain fracture toughness. These specimens are 
+loaded by a knife-edge loading fixture [5,7] resulting in an applied line 
+load, P, at location L, as shown in Figure 5(a). Figure 5 shows the 
+coordinate system used to define dimensions of the most commonly used rod and 
+bar specimens. (Here the chevron notch intersects the specimen surface at 
+x = w or a 1 = 1 . ) 
+
+Rod Specimens .- Since 1977, the chevron-notched rod specimen, with 
+w/B = 1 .45, has been studied extensively. Figure 6 shows a comparison of the 
+minimum normalized stress-intensity factor as a function of the year the 
+result was published. The open symbols denote the method by which the values 
+were obtained. Each method will be discussed. The solid symbols show the 
+results of corrections that have been made by the author. 
+
+In 1977, Barker [5] used the K Ic value obtained from ASTM E399 compact 
+specimens made of 2014-T651 aluminum alloy to determine the minimum stress- 
+intensity factor for the rod configuration by a "matching" procedure. The 
+minimum stress-intensity factor was given by 
+
+
+
+where A is Barker's normalized stress-intensity factor that accounts for the 
+configuration. By equating K m to K lc , the value of A was 20.8. 
+
+Equation (3) can be rewritten into the form 
+
+
+K 
+
+m 
+
+
+F* 
+
+bA 7 m 
+
+
+(4) 
+
+
+where the value of F* is 26.3 (v = 0.3). (Equation (4) is the form commonly 
+used for compact and knife-edge loaded specimens. The same form will be used 
+herein.) Table 1 summarizes the minimum normalized stress-intensity factors 
+
+
+9 
+
+
+
+obtained by various investigators; also listed are particular dimensions of 
+the rod configuration used. 
+
+In 1979, Barker [11] replaced the term (1-v ) in equation (3) with unity 
+
+without changing the value of A. Thus, the value of F* dropped by about 
+
+5 percent. The value of F* should have remained at 26.3 for v = 0.3. 
+
+m 
+
+Barker and Baratta [12] in 1980 extensively evaluated the fracture tough- 
+ness of several steel, aluminum, and titanium alloys using the rod specimen 
+and K lc values measured according to ASTM Standard Method of Test for Plane- 
+Strain Fracture Toughness of Metallic Materials (E399-78). They found that 
+the critical stress-intensity factors, calculated from the rod specimen data 
+using F* = 25.5 [12], were consistently low, averaging about 6 percent below 
+the K lc values. They concluded that F* for the test configuration used in 
+their study should be increased by 4 percent to a value of 26.5. 
+
+Earlier, Barker and Guest [13] had conducted an experimental compliance 
+
+calibration on the rod specimen and had obtained a value of F* as 29.6. 
+
+Their specimen, however, had a w/B ratio of 1.474 [14], Subsequently, the 
+
+value of F* was corrected to a value corresponding to a w/B ratio of 1 .45 
+
+by using a "constant moment" conversion described in reference 15. The 
+
+corrected value of F* (28.7) was about 3 percent lower than the compliance 
+
+m 
+
+value from reference 13, as indicated in Figure 6. 
+
+Beech and Ingraffea [16,17] were the first to rigorously numerically 
+analyze a chevron-notched specimen. They used a three-dimensional finite- 
+element method to determine stress-intensity factor distributions along the 
+crack front and stress-intensity factors from compliance for the chevron- 
+notched rod. The specimen they analyzed, however, differed from the proposed 
+standard (w/B = 1.45; <Xq = 0.332; and 0 ^ = 1) specimen analyzed in the ASTM 
+round robin in three ways: (1) the load line was at the front face of the 
+
+
+10 
+
+
+
+specimen rather than at 0.05B into the specimen mouth, (2) the slot height 
+
+(0.03B) was modelled (see Fig. 5(a)) as zero, and (3) the square- or V-shaped 
+
+cutout at the load line was not modelled. (The effects of these differences 
+
+in specimen configuration on stress-intensity factors are discussed in 
+
+reference 15 and will not be repeated here.) The stress-intensity factors 
+
+reported in references 16 and 17 from their crack front evaluations were 
+
+considerably lower (6 to 17 percent) than their values determined from a 
+
+plane-strain compliance relation. They used their plane-strain compliance 
+
+results to obtain a minimum stress-intensity factor. The value of F* from 
+
+m 
+
+reference 17 was 4 percent higher than the value given in reference 16. The 
+
+difference in these results was due to the manner by which the compliance 
+
+derivative was evaluated. The values of F* given in Table 1 were their 
+
+m 
+
+plane-strain compliance values and, in parentheses, values obtained from a 
+
+plane-stress compliance relation. The reason for using plane stress, herein, 
+
+was that the displacements remote from the crack front are more nearly 
+
+controlled by plane-stress conditions and, consequently, the plane-stress 
+
+compliance relation would be more correct than using plane strain. (Also, all 
+
+other results reported in Table 1, which were determined from compliance, were 
+
+made with the plane-stress relation.) If the plane-strain compliance relation 
+
+(with V = 0.3) had been used, the F* values would have been about 5 percent 
+
+m 
+
+higher than the plane-stress values (square and triangular symbols) shown in 
+Figure 6 . 
+
+Bubsey et al. [18], Shannon et al. [19], and Barker [15] used the experi- 
+mental compliance (plane stress) relation to evaluate stress-intensity factors 
+for the "short" rod specimen. Bubsey et al. and Shannon et al. used aluminum 
+alloy specimens with w/B ratios of 1 .5, 1 .75 and 2 for a wide range in 
+ciq. Their values in Table 1 and Figure 6 were interpolated for ctg = 
+
+
+0.332 
+
+
+
+and extrapolated to w/B = 1 .45 by using second degree polynominals in terms 
+
+of cxq and w/B, respectively. Because the proposed standard dimensions are 
+
+quite close to those used in the experiments, the interpolation and 
+
+extrapolation procedure is expected to induce only a small error (probably 
+
+less than 2 percent). Barker [15], on the other hand, used fused quartz 
+
+(v = 0.17) on specimens with w/B = 1.45. He reported a value of A as 
+
+23.38, therefore, F* would be about 28.2. 
+
+m 
+
+Raju and Newman [20] , using a three-dimensional finite-element method, 
+
+studied the effects of Poisson's ratio ( v) on stress-intensity factors for the 
+
+rod specimen (w/B = 1 .45) . Their results indicated that a specimen with 
+
+v = 0.17 (fused quartz) would have a stress-intensity factor about 2 percent 
+
+lower than a specimen with v = 0.3 (aluminum alloy). Thus, if Barker [15] 
+
+had used an aluminum alloy specimen, his experimental compliance value (F*) 
+
+m 
+
+would have been about 28 .8 . 
+
+Raju and Newman [20] and Ingraffea et al. [21] determined the minimum 
+
+stress-intensity factors for the rod specimen (w/B = 1 .45) using compliance 
+
+calculations from three-dimensional finite-element analyses. Each used the 
+
+plane-stress compliance relation. Raju and Newman obtained a value of F* 
+
+m 
+
+as 28.4 (as plotted in Fig. 6) and Ingraffea et al. obtained a value of 28.3 
+
+(not plotted). The result from Raju and Newman, however, was estimated to be 
+
+about 1 .5 percent below the "true" solution based on a convergence study. 
+
+Thus, the corrected value of F* would have been about 28.8. 
+
+m 
+
+Ingraffea et al. [21] also used a boundary-element (boundary-integral) 
+method to determine the minimum stress-intensity factor from compliance. They 
+obtained a value of F* as 28.3 (as plotted in Fig. 6), the same as from 
+their finite-element analysis. The results from Ingraffea et al. [21] and 
+Raju and Newman [20] were part of the analytical round robin, previously 
+mentioned, and these results will be discussed and compared later. 
+
+
+12 
+
+
+
+A comparison of minimum stress-intensity factors for the rod specimen 
+
+(w/B = 1 .45) shows several interesting features. First, the method of using 
+
+K t _ to determine F* gives results that are about 8 percent below experi- 
+•*- c m 
+
+mental and analytical compliance methods. Although the specimen used by 
+Barker [5,11] and Barker and Baratta [12] was somewhat different than the 
+proposed standard specimen, these differences are not expected to be signifi- 
+cant (see ref. 15, page 309). The specimens used in references 11 and 12 had 
+chevron notches with curved sides instead of straight sides. Barker [14] 
+argues that the calibration should be the same in a straight-sided and a 
+curved-sided chevron-notch specimen, provided that the crack front length (b) 
+and the rate of change in b is the same in both specimens at the minimum 
+stress-intensity factor. He determined that the a Q and a 1 for an 
+"equivalent" straight-sided chevron-notch specimen should be 0.343 and 0.992, 
+respectively. These values are quite close to those for the specimen analyzed 
+in the ASTM round robin with straight-sided chevron notches. Therefore, at 
+present, the 8-percent discrepancy in the values of F* cannot be explained 
+from differences in specimen configuration. 
+
+One possible source of error in the K^-matching procedure may be due to 
+the different loads used in each test procedure. In the K lc test, the 
+5-percent secant offset load, Pg, is used to calculate The Pg load 
+
+is always less than or equal to p max > the maximum test (failure) load. 
+Whereas, in the chevron-notch specimen test, the maximum load is always used 
+to calculate K Icv . For example, if P max was used to calculate K lc 
+instead of Pg, then K lc would tend to be higher than the current value. 
+
+Thus, the value of F* would also tend to be higher than the current value 
+
+m 
+
+(circular symbols in Fig. 6). This would make the value of F*, determined 
+
+m 
+
+from the K lc ~matching procedure, in closer agreement with the experimental and 
+analytical compliance values shown in Figure 6. 
+
+
+13 
+
+
+
+Second, the experimental [13, 15, 18, 19] and the recent analytical 
+
+[20, 21] compliance determination of the minimum stress-intensity factor agree 
+
+within about 3 percent of each other. Accounting for the fact that one of the 
+
+analyses [20] was about 1 .5 percent low, based on convergence studies, and 
+
+that reference 15 used fused quartz, which has a low value of Poisson's ratio 
+
+so that a slightly lower value of F* would be expected (about 2 percent), 
+
+the agreement generally is within about 1 percent. Thus, for the rod specimen 
+
+with w/B = 1.45, olq = 0.332, and a-| = 1 (straight-sided chevron) the 
+
+value of f* is estimated to be 28.9 ± 0.3. The dashed lines in Figure 6 
+m 
+
+show the expected error bounds on F* . 
+
+m 
+
+Bar Specimens .- Two types of chevron-notched bar specimens have been 
+studied. In 1978, Barker [6, 15] proposed a rectangular cross-sectioned 
+bar specimen with an H/B ratio of 0.435 (see Fig. 1). This specimen was 
+designed in such a way that the same minimum stress-intensity factor was 
+obtained as for his rod specimen [5] . However, because the early compliance 
+calibration for the rod specimen was about 8 percent low (see Fig. 6), it was 
+not clear whether the bar and rod specimens now have the same value. Raju and 
+Newman [20] analyzed both specimens and found that the compliance calibration 
+for the rectangular bar specimen was about 3.8 percent lower than the rod 
+specimen. 
+
+In 1980, Munz et al. [7] proposed a square cross-sectioned bar specimen 
+(H/B = 0.5). They conducted a very extensive experimental compliance calibra- 
+tion on bar specimens with w/B = 1.5 and 2 for ccq ranging from 0.2 to 0.5 
+and a-] = 1 . From these results, they obtained minimum values of stress- 
+intensity factors for each configuration considered. Using the assumption 
+that the change of compliance with crack length in a chevron-notch specimen 
+was the same as that for a straight-through crack specimen, they obtained an 
+
+
+14 
+
+
+
+equation that was identical to equation (1 ) as 
+
+
+
+for dp < a < . For specimens with an Oq of about 0.2 and 0.35, the 
+
+difference between experimental and analytical (eqn. (5)) minimum normalized 
+stress-intensity factors was less than 1 percent. For an Oq value of about 
+0.5, the difference was 3 to 3.5 percent. They concluded that equation (5) 
+should only be used to obtain minimum values because experimental and 
+analytical values differed greatly at small crack-length- to-width (a) ratios 
+near <Xq. 
+
+Shannon et al. [19] have developed minimum stress-intensity factor 
+expressions for chevron-notched bar (square) and rod specimens with a 1 = 1 
+and 0 Cq < 0.5. These expressions were fitted to minimum stress-intensity 
+factors determined from experimental compliance measurements . For the square- 
+bar specimen, the w/B ratio was 1 .5 or 2 and for the rod specimen, the 
+w/B ratio was 1.5, 1.75 or 2. 
+
+The use of chevron-notched specimens with materials that have a rising 
+crack-growth resistance curve may require stress-intensity factors as a 
+function of crack length instead of using only the minimum value. Recently, 
+Shannon et al. [22] have developed polynomial expressions that give the 
+stress-intensity factors and load-line displacements as a function of crack 
+length for square-bar and rod specimens ( = 1). These expressions were 
+obtained from experimental compliance measurements made for various w/B 
+ratios. The w/B ratio for the square-bar specimen was, again, 1 .5 or 2, and 
+for the rod specimen was 1.5, 1.75, or 2. The expressions apply to a Q 
+between 0.2 and 0.4, and a varying from Oq to 0.8. Some of these results 
+will be compared with the results from the ASTM analytical round robin in the 
+next section. 
+
+
+15 
+
+
+
+Analytical Round Robin on Chevron-Notched Rod and Bar Specimens 
+
+
+In 1981, plans were formulated for a cooperative test and analysis 
+program on chevron-notched square-bar and round-rod specimens by an ASTM task 
+group on Chevron-Notched Specimen Testing. Four configurations were selected: 
+the square and round versions of a relatively short specimen (w/B = 1.45); and 
+the square and round versions of a longer specimen (w/B = 2). These configu- 
+rations were chosen so as to include as many features as possible of prior 
+work [5-7] . The coordinate system used to define the specimens is shown in 
+Figure 5. The specimens were loaded by a knife-edge loading fixture that 
+results in an applied load, P, at the load line L in Figure 5(a). Specimens 
+had either a square cutout [7] at the load line or a V-cutout [15] at the load 
+line (not shown). The chevron notch. Figure 5(b), had straight sides and 
+intersected the specimen sides at x = w (or a 1 = 1 ) . The following table 
+lists the dimensions of the specimens considered: 
+
+
+Specimen 
+
+w/B 
+
+a Q / w 
+
+H/B 
+
+Bar 
+
+1 .45 
+
+0.332 
+
+0.5 
+
+Bar 
+
+2 
+
+0.2 
+
+0.5 
+
+Rod 
+
+1 .45 
+
+0.332 
+
+ID 
+
+• 
+
+O 
+
+Rod 
+
+2 
+
+0.2 
+
+0.5 
+
+
+The analysts were asked to calculate results for crack-length- to-width 
+(a/w) ratios of 0.4, 0.5, 0.55, 0.6, and 0.7. The information required from 
+the analyses were: 
+
+(1) K-distribution as a function of z and a/w (see Fig. 5(b)). 
+
+(2) K-value from the plane-stress compliance relation as a function of 
+a/w: 
+
+
+1 6 
+
+
+
+1/2 
+
+
+( 6 ) 
+
+
+K = 
+
+
+_ dV T 
+EP L 
+
+
+b da 
+
+
+(3) Normalized displacements EVB/P at points L and T (see 
+Fig. 5(a)) as a function of a/w. 
+
+The participants in the round robin where: 
+
+
+INVESTIGATORS 
+
+A. R. Ingraffea, R. Perucchio, 
+T. Y. Han, W. H. Gerstle, 
+and Y. P. Huang 
+
+A. Mendelson and L. J. Ghosn 
+
+
+I. S. Raju and J. C. Newman, Jr. 
+
+
+INSTITUTION 
+Cornell University 
+
+Case-Western 
+Reserve University 
+
+NASA Langley 
+Research Center 
+
+the three-dimensional method (s) 
+
+
+The following table lists the investigators, 
+used in the analyses, and the particular configuration ( s) analyzed: 
+
+
+INVESTIGATORS 
+
+
+METHOD 
+
+
+ROD 
+
+
+BAR 
+
+
+w/B 1 .45 2 1 .45 2 
+
+
+Ingraffea et al. [21] 
+
+
+Finite-element 
+
+Boundary-element 
+
+
+X 
+
+X 
+
+
+Mendelson and 
+Ghosn [23] 
+
+
+Boundary-element 
+
+
+Raju and Newman [20] 
+
+
+Finite-element 
+
+
+X X 
+
+
+All analyses were conducted on models of specimens with the square cutout at 
+the load line, as shown in Figure 5(a). The slot height (0.03B) shown in 
+Figure 5(a) was not modeled in any of the analyses (that is, the height was 
+taken as zero) . 
+
+Rod Specimen - Ingraffea et al. [21] and Raju and Newman [20] determined 
+the distribution of normalized stress-intensity factors along the crack front 
+of a rod specimen (w/B = 1.45) with a = 0.55 using boundary-element and 
+finite-element methods, respectively. These results are compared in Figure 7. 
+
+
+17 
+
+
+
+The normalized stress-intensity factor (F*) is plotted against 2z/b. The 
+center of the specimen is at 2z/b = 0 and the crack intersects the chevron 
+boundary at 2z/b = 1, see insert. Ingraffea et al. used only one element, a 
+quarter-point singular element, to define one-half of the crack front length 
+(b/2); they showed a nearly linear distribution. On the other hand, Raju and 
+Newman used five layers of singularity elements to define one-half of the 
+crack front and they showed nearly constant stress-intensity factors for 
+2z/b < 0.5. Their stress-intensity factors increased rapidly as 2z/b 
+approached unity. The results from Raju and Newman were 0 to 16 percent 
+higher than the results from Ingraffea et al. The difference is probably due 
+to ingraffea et al. using only one element along the crack front. 
+
+A comparison of experimental and analytical load-point displacements 
+for the short chevron-notched rod (w/B = 1.45) is shown in Figure 8. The 
+normalized displacement, EBV L /P, is plotted against a/w. Load-point dis- 
+placements (V L ) were either measured or calculated at z = 0 (see Fig. 5(b)) 
+as a function of crack length. Because the experiments and analyses were 
+conducted on materials with different Poisson ratios, the displacements have 
+been adjusted, using results from Raju and Newman [20] on the Poisson effect, 
+to displacements for a Poisson ratio of 0.3. Barker [15] measured load-point 
+displacements on fused quartz (v = 0.17) using a laser-interferometric 
+technique. His displacements have been reduced by 3 percent to compensate 
+for the differences in Poisson ratios; his data are shown as circular 
+symbols. In contrast, Shannon et al. [22] measured displacements (V T ) at the 
+top of aluminum alloy (v = 0.3) specimens (see Fig. 5(a)). They measured 
+displacements for specimens with various values of a Q (0.2 < < 0.4) and 
+
+with w/B equal to 1.5, 1.75, and 2. The results (square symbols) plotted in 
+Figure 8 were interpolated to Oq = 0.332 and extrapolated to w/B = 1.45, 
+
+
+18 
+
+
+respectively, using second degree polynomials. These results agreed well with 
+Barker's results. 
+
+Load-point displacements from Raju and Newman's finite-element analysis 
+[20] and Ingraffea et al.'s [21] boundary-element analysis are also shown in 
+Figure 8. The displacements from Ingraffea et al. have been reduced by 
+1 percent to compensate for a slight difference in Poisson's ratio. Both 
+analytical results were from 4 to 6 percent below the experimental results. 
+Based on beam theory [24], however, about 2 percent of this difference is 
+caused by neglecting the notch (0.03B) made by a saw blade or chevron cutter 
+(see Fig. 5(a)). These displacements were used by each investigator to 
+determine the stress-intensity factors from the plane-stress compliance 
+method. These results are described in the following section. 
+
+Experimental and analytical normalized stress-intensity factors (F*), as 
+functions of a/w, for the chevron-notched rod are compared in Figure 9. (Note 
+the use of a broken scale.) The experimental and analytical results were 
+obtained from the plane-stress compliance relation (eqn. (6)) as 
+
+
+
+where C* is the normalized compliance, EBV^/P. The load-point displacement 
+(V L ) was either measured or calculated at z = 0 as a function of crack 
+length. Barker [15] measured the load-point displacements on fused quartz 
+(v = 0.17) using a laser-interferometric technique. The displacements were 
+then fitted to an empirical equation in terms of crack length. This equation 
+was differentiated to obtain the compliance derivative. Barker's results are 
+shown as circular symbols. Shannon et al. [22] measured displacements (V T ) at 
+the top of aluminum alloy (v = 0.3) specimens. They assumed that dV T /da was 
+
+
+19 
+
+
+
+equal to dV L /da to obtain stress-intensity factors. Again, these results 
+were interpolated and extrapolated to a = 0.332 and w/B = 1.45 using second 
+degree polynomials. Shannon's results (square symbols) are a few percent higher 
+than Barker's results. As previously mentioned, Raju and Newman [20] have shown 
+by a three-dimensional stress analysis that there is a slight difference (about 
+2 percent) between stress-intensity factors for v = 0.17 and 0.3; these results 
+agreed with the observed experimental differences. 
+
+The analytical results from Raju and Newman [20] and Ingraffea et al. [21] 
+
+are also shown in Figure 9. Based on a convergence study [20] , the analytical 
+
+results are expected to lie about 1 .5 percent below the "true" solution. The 
+
+analytical results agreed well (within 3 percent) with the experimental results 
+
+near the minimum value of F* . 
+
+c 
+
+Figure 10 compares how analyses and test results (F*) vary with a/w for 
+the chevron-notched rod with w/B = 2. The solid curve represents an equation 
+proposed by Bubsey et al. [18] for the rod specimens. The equation they used 
+was equation (5) where F was the normalized stress-intensity factor for a 
+straight-through crack in the same configuration [18]. 
+
+Shannon et al.'s [22] results shown in Figure 10 were obtained from 
+
+equation (7) using measured load-line displacements (V T ) on the rod 
+
+specimen. Their results agreed well (within 1 percent) with the equation from 
+
+Bubsey et al., except at small values of a. From previous work [7], it was 
+
+recognized that equation (5) overestimates values of F* for values of a 
+
+approaching a Q . The finite-element results of Raju and Newman [20] were 
+
+about 2.5 percent below the results from Bubsey et al. and Shannon et al. . 
+
+Based on all of these results, the value of the minimum normalized stress- 
+
+intensity factor (F*) is estimated to be in the range 36.2 ± 0.4. 
+
+m 
+
+Bar Specimen .- Mendelson and Ghosn [23] , using the boundary-element 
+method, and Raju and Newman [20], using the finite-element method, determined 
+
+
+20 
+
+
+
+the distribution of boundary-correction factors along the crack front of a bar 
+specimen with w/B = 2 and a = 0.55. The results are compared in Figure 11. 
+Here F* is plotted against 2z/b. Mendelson and Ghosn, in contrast to 
+Ingraffea et al. [21], used five elements to define one-half of the crack front 
+length. Their elements were assumed to have either linear tractions or linear 
+displacements. They determined F* values by using either crack-surface dis- 
+placements or normal stresses near the crack front. For 2z/b < 0.9, their 
+results were 3 to 16 percent higher than the results from Raju and Newman, 
+whereas the previous results from Ingraffea et al., using the same (boundary- 
+element) method (Fig. 7), gave results on a rod specimen that were consistently 
+lower than the results from reference 20. The reason for the discrepancy 
+between references 20 and 23 on stress-intensity factor distributions is not 
+clear. 
+
+Experimental and analytical load-point displacements at z = 0 for the 
+chevron-notched bar with w/B = 2 are compared in Figure 12. Normalized 
+displacement is plotted against a/w. Shannon et al. [22] measured displace- 
+ments at the top of aluminum alloy specimens (circular symbols). The solid 
+curve represents a polynomial equation from reference 22 that was fitted to 
+the experimental data. The finite-element results from Raju and Newman [20], 
+v = 0.3, ranged from 3.5 to 6 percent lower than the experimental data. And 
+the boundary-element results from Mendelson and Ghosn [23] were 8 to 1 1 per- 
+cent lower than the experimental data. (Results from reference 23, v = 1/3, 
+were increased by 1 percent to compensate for the small difference in 
+Poisson's ratio from v = 0.3.) Again, these displacements were used by each 
+investigator to determine the stress-intensity factors from the plane-stress 
+compliance method (eqn. (7)). 
+
+The normalized stress-intensity factors (F*), as functions of a/w, for 
+the bar specimen with w/B = 2 are shown in Figure 13. The experimental 
+
+
+21 
+
+
+
+results and polynomial equation of Shannon et al. [22] are shown as circular 
+symbols and solid curve, respectively. The dashed curve shows an equation 
+proposed by Munz et al. [7] for bar specimens. For the chevron-notched 
+specimen, Munz et al. used equation (5) where F was the normalized stress- 
+intensity factor for a straight-through crack in the same configuration [7] . 
+Again, equation (5) overestimates F* for a approaching a Q . But for 
+larger values of a, the equation underestimates Fj based, at least, on the 
+present experimental results [22]. 
+
+The analytical results of Mendelson and Ghosn [23] and Raju and Newman [20] 
+
+are also shown in Figure 13. Near the minimum F* value, the results from 
+
+Mendelson and Ghosn were about 1 .5 percent lower than the experimental results 
+
+but overestimated F* on either side of the minimum. The results from Raju 
+
+c 
+
+and Newman were about 2.5 percent lower than the experimental results. From 
+all of the experimental and analytical results, the minimum F* is estimated 
+to be 29.8 ± 0.3. 
+
+In Figure 14, experimental and analytical normalized stress-intensity 
+
+factors, as functions of a/w, are compared for the bar specimen with 
+
+w/B = 1.45. The experimental results from Shannon et al. [22] were,, again, 
+
+obtained by interpolation and extrapolation to cig = 0.332 and w/B = 1 .45 
+
+from results obtained from specimens with various Oq and w/B ratios. 
+
+The solid curve shows the equation proposed by Munz et al. [7] . Near the 
+
+minimum F*, the equation agreed well with the experimental results (within 
+c 
+
+1 percent) but, again, overestimated results for a/w ratios less than about 
+0.55. The analytical results from Raju and Newman [20] were 0 to 1 .5 percent 
+lower than the experimental results. The minimum value from Raju and Newman 
+was 24.43, from Shannon et al. was 24.85, and from Munz et al. was 24.66. 
+
+From these results, the minimum value of F* is estimated to be 24.8 ± 0.3. 
+
+
+22 
+
+
+
+Chevron-Notched Bend Bars 
+
+
+As previously mentioned, Nakayama [1,2], and Tattersall and Tappin [3] 
+were the first to introduce and to determine fracture energies from chevron- 
+notched bend bars. Pook [4] and Bluhm [10] were the first to provide 
+approximate stress-intensity factors and compliance expressions, respectively, 
+for these specimens. This section reviews the more recent experimental and 
+analytical stress-intensity factor solutions that have been proposed for 
+chevron-notched bend bars. 
+
+Munz et al. [25] compared stress-intensity factors for various four-point 
+bend specimens with 0.12 < < 0.24, 0.9 < <1, and w/B = 1 or 1.25. 
+
+Two analytical methods were studied. The first was by the use of equation (7) 
+wherein dC*/da, the compliance derivative of the chevron-notched specimen, 
+was assumed to be equivalent to dC/da, the compliance derivative of a 
+straight-through crack. Under this assumption, equation (7) reduces to 
+equation (5) or Pook's equation [4], The second method was by using Bluhm's 
+slice model [10], Bluhm's slice model is probably more accurate than Pook's 
+equation, but neither method has been substantiated by experimental compliance 
+measurements or by more rigorous analytical (three-dimensional elasticity) 
+methods. The slice model was, however, calibrated to experimental compliance 
+measurements made on uncracked chevron-notch bend bars. A comparison of the 
+two analytical results showed that the differences ranged from -5 to 10 per- 
+cent for the particular configurations considered. 
+
+In 1981, Shih [26] proposed a "standard" chevron-notched bend bar 
+configuration for three-point loading with a maj or- span- to- width ratio (s/w) 
+of 4. The w/B ratio was 1.82 with a = 0.3 and = 0.6. Shih [26] used 
+
+the K lc value from 7079-T6 aluminum alloy and the failure (maximum) load on 
+the chevron-notched bend bars to estimate the minimum stress-intensity factor; 
+this value is shown in Figure 15 as the horizontal dashed line. The equation 
+
+
+23 
+
+
+
+proposed by Pook [4] (upper solid curve) gave a minimum value very close to 
+the value determined by Shih. Later, however, Shih [27] re-evaluated the 
+minimum by testing 7079-T6 aluminum alloy compact specimens and chevron- 
+notched specimens made from the same plate. The new K lc value dropped by 
+19 percent from the old value and, consequently, the minimum value (F*) 
+dropped to 10.17, as shown by the dash-dot line in Figure 15. 
+
+Wu [28] used equation (5) to determine the stress-intensity factors for 
+three-point bend chevron-notched specimens. His equation gave essentially the 
+same results (within 1 percent) as that shown for Pook in Figure 15. Wu [29] 
+also used Bluhm's slice model to determine specimen compliance and then used 
+equation (7) to determine F* as a function of a (or a/w) . His equation 
+was used herein to calculate F* in Figure 15. Here the minimum value from 
+Wu's equation was about 4 percent higher than the new minimum values proposed 
+by Shih [27], From these results, it is obvious that Pook's equation and 
+Bluhm's slice model give drastically different values of stress-intensity 
+factors, and that the determination of minimum values by matching K lc and 
+K m must be approached with caution. 
+
+EFFECTS OF MATERIAL FRACTURE TOUGHNESS BEHAVIOR 
+
+For a brittle material, a material which exhibits a "flat" crack-growth 
+resistance curve as shown in Figure 4, the use of a chevron-notched specimen 
+to obtain K j cv is well justified. But what if the material has a "rising" 
+crack-growth resistance curve as shown in Figure 16? Because most engineering 
+materials, under non-plane-strain conditions, have rising crack-growth 
+resistance curves or K R -curves, the answer to this question is of utmost 
+importance. The objective of this paper, however, is not to answer this 
+question, but to review some of the problems associated with using these 
+specimens for such materials. 
+
+
+24 
+
+
+
+Figure 16 illustrates the application of the l^-curve concept [30] to a 
+material with a rising K R -curve. The stress-intensity factor is plotted 
+against crack length. The hypothetical K R -curve (solid curve) begins at the 
+initial crack length, a Q . The dashed curves show the "crack-driving force" 
+curves for various values of applied load on a chevron-notched specimen 
+(w = constant) . As the load is increased, the crack grows stably into the 
+material (point A, to B, to C, to D) until the load reaches p max * At this 
+load and crack length, crack growth becomes unstable (point D) . As can be 
+seen, the instability point (tangent point between crack-drive curve and 
+K R -curve) does not correspond to the minimum K value (solid symbol). 
+Consequently, the maximum load and minimum K value cannot be used to compute 
+the stress-intensity factor at failure, although the difference might be 
+small. But if the specimen width is smaller than that used in Figure 16, then 
+the instability point would occur at a lower point on the K R -curve. 
+
+Conversely, the instability point for a larger width specimen would occur at a 
+higher point on the K R -curve. Thus, a specimen size (or width) effect exists 
+and it has been the subject of several papers on chevron-notched specimens 
+[12, 31-35]. 
+
+
+25 
+
+
+
+DISCUSSION 
+
+
+Chevron-Notched Test Specimens 
+
+Many investigators have shown the advantages of using chevron-notched 
+specimens for determination of plane-strain fracture toughness of brittle 
+materials. The following table summarizes some of the advantages and 
+disadvantages of these specimens: 
+
+ADVANTAGES DISADVANTAGES 
+
+• SMALL SPECIMENS • RESTRICTED TO "BRITTLE" MATERIALS 
+
+O NO FATIGUE PRECRACKING • MATERIAL THICKNESS LIMITATIONS 
+
+© SIMPLE TEST PROCEDURE • NOTCH MACHINING DIFFICULTY 
+
+• MAXIMUM LOAD TEST 
+
+• SCREENING TEST 
+
+• NOTCH GUIDES CRACK PATH 
+
+• HIGH CONSTRAINT AT CRACK FRONT 
+
+The chevron-notched specimens can be small because their width and height are 
+of nearly the same size as their thickness (5 to 25 mm), so only a small 
+amount of material is needed. Consequently, they are very useful as quality 
+control specimens. They may be useful in alloy development programs where 
+small amounts of material are produced. They can also be used to determine 
+toughness profiles through the thicknesses of large plates. Because they 
+require no fatigue precracking, they cost less than current fracture toughness 
+specimens. For brittle materials, the test procedure is very simple; once the 
+minimum stress-intensity factor has been obtained, it is only necessary to 
+record the maximum failure load to calculate fracture toughness. Even for 
+ductile materials, the specimens may be used in screening tests to rank 
+materials . 
+
+The chevron notch tends to guide the crack path and, therefore, these 
+specimens can be used to test particular regions of a material, such as 
+
+
+26 
+
+
+
+heat-affected zones. The notch also constrains the crack front, which helps 
+set up an approximate plane-strain condition around the crack front. 
+
+The major disadvantage in using chevron-notched specimens with the 
+maximum load test procedure - for plane-strain fracture toughness testing - is 
+that they are restricted to brittle materials, such as ceramics, rocks, high- 
+strength metals, and other low toughness materials. Further studies are 
+needed on more ductile materials to see if these specimens can be used for 
+fracture toughness evaluation. They are also limited in the thickness that 
+can be tested. Thin materials, less than about 5 mm, cannot be easily tested. 
+
+Stress-Intensity Factors 
+
+Several methods have been used to determine stress-intensity factors and 
+minimum stress-intensity factors for these specimens. In the first method, 
+the minimum value was obtained by matching to K-j- c from ASTM E399 
+
+standard specimens. For the "short" rod specimen, the minimum value obtained 
+from K lc -matching [5,11,12] was about 8 percent below several experimental 
+compliance calibrations and two recent three-dimensional elasticity solutions. 
+
+In more recent applications of the K lc -matching procedure [26,27], the minimum 
+values for a three-point bend specimen differed by about 20 percent. Thus, 
+the K lc ~matching procedure should be used with caution. 
+
+The second method is derived from the assumption that the change in 
+compliance with crack length of the chevron-notch specimen is equal to the 
+change in compliance of a straight-through crack specimen. The stress-intensity 
+factors derived from this method match those from Pook's equation [4]. For the 
+rod and bar specimens, researchers have shown that this method gives accurate 
+values of minimum stress-intensity factors, but is unreliable on either side of 
+the minimum. In contrast, this method gave very large differences on a three- 
+point bend specimen. Again, this method must be used with caution. 
+
+
+27 
+
+
+
+The third, a more refined approximate method for chevron-notched 
+specimens, is the slice model proposed by Bluhm [10], This model has been 
+used extensively on three- and four-point (chevron-notched) bend specimens. 
+Munz et al. [7] has used this model on chevron-notched bar specimens. The 
+problem associated with this method is the "shear-correction" parameter (k) 
+that must be determined from experimental compliance measurements. If the 
+shear-correction parameter, k, is determined experimentally from uncracked 
+chevron-notched specimens close to the desired configuration, then this method 
+will probably give reliable results. But a systematic study to evaluate the 
+accuracy of stress-intensity factors computed from the slice model has not 
+been undertaken. 
+
+The fourth method is three-dimensional elasticity solutions, such as 
+finite-element and boundary- integral equation methods. These methods can give 
+accurate stress-intensity factors if care is taken especially in conducting 
+convergence studies. These methods, however, tend to be expensive if a large 
+number of solutions are desired. 
+
+The last method is experimental compliance calibration. This method can 
+also give accurate stress-intensity factors if the tests are done carefully. 
+But the method is limited to the particular specimen configurations studied. 
+Coupled with Bluhm' s slice model, this method may provide a reliable and 
+inexpensive way of obtaining stress-intensity factors for a wide range of 
+configuration parameters. 
+
+A summary of the consensus minimum normalized stress-intensity factor, 
+
+F*, for the four configurations considered in the analytical round robin and 
+for the rectangular bar specimen [6, 15, 20] are shown in the following table. 
+
+
+28 
+
+
+
+Specimen 
+
+w/B 
+
+a 0 
+
+a 1 
+
+H/B 
+
+F* 
+
+m 
+
+Bar 
+
+1 .45 
+
+0.332 
+
+1 
+
+0.435 
+
+27.8 ± 0.3 
+
+Bar 
+
+1 .45 
+
+0.332 
+
+1 
+
+0.5 
+
+24.8 ± 0.3 
+
+Bar 
+
+2 
+
+0.2 
+
+1 
+
+0.5 
+
+29.8 ±0.3 
+
+Rod 
+
+1 .45 
+
+0.332 
+
+1 
+
+0.5 
+
+28.9 ± 0.3 
+
+Rod 
+
+2 
+
+0.2 
+
+1 
+
+0.5 
+
+36.2 ± 0.4 
+
+
+The stress-intensity factor solutions for three- and four-point bend 
+chevron-notched specimens have only been obtained from the K lc -matching 
+procedure, Pook's equation, and Bluhm's slice model. Of these, the slice 
+model is probably the most reliable. However, it is recommended that a 
+detailed finite-element or boundary-element analysis, or careful experimental 
+compliance calibrations, be performed on various chevron-notched bend bar 
+configurations . 
+
+CONCLUSIONS 
+
+The historical development of chevron-notched fracture specimens and the 
+stress-intensity solutions that have been proposed for these specimens was 
+reviewed. The review covered the three- and four-point bend bars as well as 
+the "short" rod and bar specimens. The stress-intensity factor solutions and 
+minimum stress-intensity value for these specimens had been obtained by using 
+several different methods, either experimental or analytical. Results of a 
+recent ASTM analytical round robin on the rod and bar specimens were 
+summarized. Some problems associated with using these specimens for materials 
+with rising crack-growth resistance curves were discussed. Based on this 
+review, the following conclusions were drawn: 
+
+
+29 
+
+
+
+1 . For the chevron-notched round-rod and bar specimens, the experimental 
+compliance calibrations and the analytical (finite-element, 
+boundary-element, and some approximate methods) calculations agreed 
+within 3 percent. When the lower bound convergence of the finite- 
+element and boundary-element techniques were accounted for, the 
+agreement was generally within about 1 percent. 
+
+2. Chevron-notched bend bars need further experimental and analytical 
+stress-intensity factor calibrations. Although some recent stress- 
+intensity factor solutions agreed within 5 percent, they were 
+obtained from methods which have not been adequately substantiated. 
+
+3. Further studies are needed on using chevron-notched specimens with 
+materials that exhibit a "rising" crack-growth resistance curve 
+behavior. 
+
+
+30 
+
+
+
+REFERENCES 
+
+
+[1] Nakayama, J.: A Bending Method for Direct Measurement of Fracture 
+
+Energy of Brittle Material, Japan Journal of Applied Physics, Vol. 3, 
+1964, pp. 422-423. 
+
+[2] Nakayama, J. : Direct Measurement of Fracture Energies of Brittle 
+
+Heterogeneous Materials, Journal of the American Ceramic Society, 
+
+Vol. 43, No. 11, Nov. 1965, pp. 583-587. 
+
+[3] Tattersall, H. G. and Tappin, G.: The Work of Fracture and Its 
+
+Measurement in Metals, Ceramics and Other Materials, Journal of 
+Materials Science Vol. 1, 1966, pp. 296-301. 
+
+[4] Pook, L. P. : An Approach to a Quality Control K lc Testpiece, 
+
+International Journal of Fracture Mechanics, Vol. 8, 1972, 
+pp. 103-108. 
+
+[5] Barker, L. M.: A Simplified Method for Measuring Plane Strain Fracture 
+
+Toughness, Engineering Fracture Mechanics, Vol. 9, 1977, pp. 361-369. 
+
+[6] Barker, L. M.: Short Bar Specimens for K lc Measurements, Fracture 
+
+Mechanics Applied to Brittle Materials, ASTM STP 678, American Society 
+for Testing and Materials, Philadelphia, PA, 1979, pp. 73-82. 
+(Proceedings Eleventh National Symposium Fracture Mechanics, 
+Blacksburg, VA, June 1978.) 
+
+[7] Munz, D.; Bubsey, R. T.; and Srawley, J. E.: Compliance and Stress- 
+
+Intensity Coefficients for Short Bar Specimens With Chevron Notches, 
+International Journal of Fracture, Vol. 16, No. 4, 1980, pp. 359-374. 
+
+[8] Brown, W. F. and Srawley, J. E.: Plane strain Crack Toughness Testing 
+
+of High Strength Metallic Materials, ASTM STP 410, American Society 
+for Testing and Materials, Philadelphia, 1966. 
+
+
+31 
+
+
+
+[9] 
+
+
+Freed, C. N. and Kraft, J. M.: Effect of Side Grooving on Measurements 
+
+
+[ 10 ] 
+
+[ 11 ] 
+
+[ 12 ] 
+
+[13] 
+
+[14] 
+
+[15] 
+
+[16] 
+[17] 
+
+
+of Plane-Strain Fracture Toughness, Journal of Materials, Vol. 1, 
+
+Ho. 4, 1966, pp. 770-790. 
+
+Bluhm, J. I.: Slice Synthesis of a Three-Dimensional "Work of Fracture" 
+
+Specimen, Engineering Fracture Mechanics, Vol. 7, 1975, pp. 593-604. 
+
+Barker, L. M.: Theory for Determining Kj c from Small, Non-LEFM 
+
+Specimens, Supported by Experiments on Aluminum, International Journal 
+of Fracture, Vol. 15, No. 6, 1979, pp. 515-536. 
+
+Barker, L. M. and Baratta, F. I.: Comparisons of Fracture Toughness 
+
+Measurements by the Short Rod and ASTM Standard Method of Test for 
+Plane-Strain Fracture Toughness of Metallic Materials (E399-78), 
+Journal of Testing and Evaluation, Vol. 8, No. 3, 1980, pp. 97-102. 
+
+Barker, L. M. and Guest, R. V.: Compliance Calibration of the Short Rod 
+
+Fracture Toughness Specimen, Terra Tek Report TR 78-20, April 1978. 
+
+Barker, L. M.: Discussion of "Compliance Calibration of the short Rod 
+
+Chevron-Notch Specimen for Fracture Toughness Testing of Brittle 
+Materials", by Bubsey, R. T.; Munz, D.; Pierce, W. S.; and shannon, 
+
+J. L., Jr., International Journal of Fracture, Vol. 19, 1982, 
+pp. R3-R5 . 
+
+Barker, L. M.: Compliance Calibration of a Family of Short Rod and 
+
+Short Bar Fracture Toughness Specimens, Engineering Fracture 
+Mechanics, Vol. 17, No. 4, 1983, pp. 289-312. 
+
+Beech, J. F. and Ingraffea, A. R.: Three-Dimensional Finite Element 
+
+Calibration of the Short-Rod Specimen, Geotechnical Engineering Report 
+80-3, Cornell University, 1980. 
+
+Beech, J. F. and ingraffea, A. R.: Three-Dimensional Finite Element 
+
+Calibration of the Short-Rod Specimen, International Journal of 
+Fracture, Vol. 18, No. 3, 1982, pp. 217-229. 
+
+
+32 
+
+
+
+[18] 
+
+
+Bubsey, R. T.; Munz, D.; Pierce, W. S. and Shannon, J. L., Jr.: 
+
+
+[19] 
+
+
+[ 20 ] 
+
+
+[ 21 ] 
+
+
+[ 22 ] 
+
+
+[23] 
+
+
+[24] 
+
+
+Compliance of the Short Rod Chevron-Notch Specimen for Fracture 
+Toughness Testing of Brittle Materials, International Journal of 
+Fracture, Vol. 18, No. 2, 1982, pp. 125-133. 
+
+Shannon, J. L. , Jr.; Bubsey, R. T.; Pierce, W. S.; and Munz, D.: 
+
+Extended Range Stress Intensity Factor Expressions for Chevron-Notched 
+Short Bar and Short Rod Fracture Toughness Specimens, International 
+Journal of Fracture, Vol. 19, 1982, pp. R55-R58. 
+
+Raju, I. S. and Newman, J. C., Jr.: Three-Dimensional Finite-Element 
+
+Analysis of the Chevron-Notched Fracture Specimens, Symposium on 
+Chevron-Notched Specimen: Testing and Stress Analysis, April 21, 
+
+1983, Louisville, KY. 
+
+Ingraffea, A. R.; Perucchio, R.; Han, T. Y.; Gerstle, W. H. and Huang, 
+
+Y. P.: Three-Dimensional Finite and Boundary Element Calibration of 
+
+the Short-Rod Specimen, Symposium on Chevron-Notched Specimens: 
+
+Testing and Stress Analysis, April 21, 1983, Louisville, KY. 
+
+Shannon, J. L., Jr.; Bubsey, R. T. and Pierce, W. S.: Closed-Form 
+
+Expressions for Crack-Mouth Displacements and Stress-Intensity Factors 
+for Chevron-Notched Short Bar and Rod Specimens Based on Experimental 
+Compliance Measurements, NASA Lewis Research Center, NASA TM 83796, 
+
+1984. 
+
+Mendelson, A. and Ghosen, L. J. : Three-Dimensional Analysis of Short 
+
+Bar Chevron-Notched Specimens by Boundary Integral Method, Symposium 
+on Chevron-Notched Specimens: Testing and Stress Analysis, April 21, 
+
+1983, Louisville, KY. 
+
+Timoshenko, S. and Goodier, J. N.: Theory of Elasticity , second 
+
+edition, McGraw-Hill Book Co., New York, 1951. 
+
+
+33 
+
+
+
+[25] 
+
+
+Munz, D. G.; Shannon, J. L., Jr. and Bubsey, R. T.: Fracture Toughness 
+
+
+Calculation from Maximum Load in Four Point Bend Tests of Chevron- 
+Notch Specimens, International Journal of Fracture, Vol. 16, 1980, 
+R137-R141. 
+
+[26] Shih, T. T.: Chevron V-Notched Bend Specimen for K IC Measurement of 
+
+Brittle Materials, Journal of Testing and Evaluation, Vol. 9, No. 1 , 
+
+1 981 , pp. 50-55 . 
+
+[27] Shih, T. T.: An Evaluation of the Chevron V-Notched Bend Bar Fracture 
+
+Toughness Specimen, Engineering Fracture Mechanics, Vol. 14, No. 4, 
+
+1981 , pp. 821-832. 
+
+[28] Wu, Shang-Xian: An Investigation of Chevron-Notch Three-Point Bend 
+
+Fracture Toughness Specimen, International Journal of Fracture, 
+
+Vol. 19, 1982, pp. R27-R30. 
+
+[29] Wu, Shang-Xian: Compliance and Stress-Intensity Factor of Chevron- 
+
+Notched Three-Point Bend Specimen, Symposium on Chevron-Notched 
+Specimens: Testing and Stress Analysis, April 21, 1983, 
+
+Louisville, KY. 
+
+[30] Fracture Toughness Evaluation by R-Curve Method, ASTM STP 527, ed. by 
+
+D. E. McCabe, American Society for Testing and Materials, 
+
+Philadelphia, PA, 1973. 
+
+[31] Munz, D.; Bubsey, R. T. and Shannon, J. L., Jr.: Performance of 
+
+Chevron-Notch Short Bar Specimen in Determining the Fracture Toughness 
+of Silicon Nitride and Aluminum Oxide, Journal of Testing and 
+Evaluation, Vol. 8, No. 3, 1980, pp. 103-107. 
+
+[32] Munz, D.: Determination of Fracture Toughness of High Strength Aluminum 
+
+Alloys with Chevron-Notched Short Rod and Short Bar Specimens, 
+Engineering Fracture Mechanics, Vol. 15, No. 1-2, 1981, pp. 231-236. 
+
+
+34 
+
+
+
+[33] 
+
+
+Munz, D.; Himsolt, G.; and Eschweiler, J. : Effect of Stable Crack 
+
+
+[34] 
+
+
+[35] 
+
+
+Growth on Fracture Toughness Determination for Hot-Pressed silicon 
+Nitride at Elevated Temperatures, Fracture Mechanics Methods for 
+Ceramics, Rocks, and Concrete, ASTM STP 745, S. W. Freiman and 
+E. R. Fuller, Eds., American Society for Testing and Materials, 1981, 
+pp. 69-84. 
+
+Barker, L. M.: Specimen Size Effects in Short Rod Fracture Toughness 
+
+Measurements, Symposium on Chevron-Notched Specimen: Testing and 
+Stress Analysis, April 21, 1983, Louisville, KY. 
+
+Shannon, J. L., Jr. and Munz, D. G.: Specimen Size and Geometry 
+
+Effects on Fracture Toughness of A1 2 0 3 Measured with Short Rod 
+and Short Bar Chevron-Notched Specimens, Symposium on Chevron- 
+Notched Specimens: Testing and Stress Analysis, April 21, 1983, 
+Louisville, KY. 
+
+
+35 
+
+
+
+Table 1 Chronological development of minimum normalized stress-intensity 
+
+factors (F*) for short chevron-notched rod 
+m 
+
+
+Investigator ( s) 
+
+Year 
+
+Ref. 
+
+w/B 
+
+3 0 /w 
+
+a T /w 
+
+F* 
+
+m 
+
+Barker 3 
+
+1977 
+
+5 
+
+1 .45 
+
+0.31 b 
+
+0.96 b 
+
+26.3 
+
+Barker and Guest c 
+
+1978 
+
+13,14 
+
+1 .474 
+
+0.343 d 
+
+0.992 d 
+
+29.6 
+
+Barker 
+
+1979 
+
+1 1 
+
+1 .45 
+
+0 .3 1 b 
+
+0.96 b 
+
+25.1 
+
+Barker and Baratta 3 
+
+1980 
+
+12 
+
+1 .45 
+
+0.343 d 
+
+0.992 d 
+
+26.5 
+
+Beech and lngraffea e 
+
+1980 
+
+16 
+
+1 .5 
+
+0.35 
+
+1 .0 
+
+31 ,4( 30 .0) f 
+
+Beech and Ingraffea 3 
+
+1982 
+
+17 
+
+1 .5 
+
+0.35 
+
+1 .0 
+
+32.7(31 .2 ) f 
+
+Bubsey et al. c 
+
+1982 
+
+18 
+
+1 .45 
+
+0.332 
+
+1 .0 
+
+29.0 
+
+Barker 0 
+
+1983 
+
+15 
+
+1 .45 
+
+0.332 
+
+1 .0 
+
+28.2 
+
+Shannon et al. c 
+
+1983 
+
+22 
+
+1 .45 
+
+0.332 
+
+1 .0 
+
+29.1 
+
+Raju and Newman e 
+
+1983 
+
+20 
+
+1 .45 
+
+0.332 
+
+1 .0 
+
+28.4 
+
+Ingraffea et al. e '^ 
+
+1983 
+
+21 
+
+1 .45 
+
+0.332 
+
+1 .0 
+
+28.3 
+
+a F* determined from 
+m 
+
+matching K lc 
+
+from ASTM 
+
+E399 specimens 
+
+• 
+
+
+
+
+^Dimensions estimated from photograph. 
+
+C F* determined from experimental compliance . 
+
+^Curved-sided chevron notch used in test, equivalent dimensions for straight-sided 
+chevron notch used for table. 
+
+e F* determined from finite-element analysis and compliance. 
+
+^Values are from plane-strain (plane-stress) assumption. 
+
+^F* determined from boundary-element analysis and compliance. 
+
+
+
+
+Figure 1.- Various chevron-notched fracture specimen configurations. 
+
+
+
+«• w ► 
+
+
+Figure 2.- Chevron-notched fracture specimen 
+
+
+PARAMETERS 
+a = a/w 
+«0 = a 0 /w 
+a l = aj/w 
+
+w/B Ratio 
+
+
+lature .. 
+
+
+
+
+
+
+
+(a) z = 0 plane. 
+
+
+
+
+
+z 
+
+(b) y = 0 plane. 
+
+Figure 5.- Coordinate system used to define dimensions of 
+knife-edge loaded chevron-notched rod and bar 
+specimens . 
+
+
+
+
+32 r 
+
+
+30 H 
+
+
+Rod 
+
+W/B = 1.45 
+
+Beech and Ingraffea [16,17] 
+Barker and Guest [13] Ns & 
+
+
+28 
+
+
+26 
+
+
+24 
+
+
+t 
+
+
+75 
+
+
+
+
+
+Bubsey et al. [18] 
+
+
+Shannon et al . [19] 
+
+^ -T* 
+
+j_2 percent 
+Raju and Newman [20] 
+Ingraffea et al . [21] 
+Barker [15] 
+
+
+Barker [ 5 ] 
+
+
+\ 
+
+Barker and Baratta [12] 
+
+
+t 
+
+
+Barker [11] 
+
+
+o Match Kj c 
+
+0 Experimental compliance 
+A Finite-element compliance 
+v Boundary-element compliance 
+
+t — i i i 
+
+
+77 
+
+
+79 
+
+
+81 
+
+
+83 
+
+
+85 
+
+
+Year 
+
+
+Figure 6.- Comparison of minimum normalized stress-intensity factor for 
+chevron-notched rod. 
+
+
+1.45 
+
+
+
+2z 
+
+b 
+
+
+Figure 7.- Comparison of distribution of normalized stress-intensity factors 
+along crack front for short chevron-notched rod. 
+
+
+Barker C15] 
+(Experimental ) 
+
+
+Figure 8 
+
+
+50 
+
+
+Rod 
+
+
+W/B = 1.45 
+a Q = 0.332 
+
+
+0 
+
+
+Shannon et al. [22] 
+(Experimental ) 
+
+
+0 
+
+
+
+Raju and Newman [20] 
+(Finite-element) 
+
+
+
+
+
+Ingraffea et al. [21] 
+(Boundary-element) 
+
+
+0 L 
+
+0 
+
+
+—L 
+
+.2 
+
+
+
+
+i 
+
+
+.4 
+
+
+.6 
+
+a 
+
+w 
+
+
+.8 
+
+
+j 
+
+1 
+
+
+- Comparison of experimental and analytical load-point displacements for 
+short chevron-notched rod. 
+
+
+o * 
+
+
+45 
+
+332 
+
+
+
+a 
+
+w 
+
+
+Figure 9.- Comparison of experimental and analytical normalized stress-intensity 
+factors for short chevron-notched rod. 
+
+
+o * 
+
+
+
+(Finite-element) 
+
+
+30 - 
+
+°0 1 A t 
+
+a 
+
+w 
+
+
+Figure 10.- Comparison of experimental and analytical nc 
+factors for long chevron-notched rod. 
+
+
+/ 
+
+Bubsey et al . [18] 
+(Equation) 
+
+
+-t- . . ,i 
+
+,8 1 
+
+
+lized stress-intensity 
+
+
+
+
+2z 
+
+b~ 
+
+
+Figure 11.- Comparison of distribution of normalized stress-intensity factors 
+along crack front for long chevron-notched bar. 
+
+
+
+a 
+
+w 
+
+
+Figure 12.- Comparison of experimental and analytical load-point displacements 
+for long chevron-notched bar. 
+
+
+o * 
+
+
+
+a 
+
+w 
+
+
+Figure 13.- Comparison of experimental and analytical normalized stress-intensity 
+factors for long chevron-notched bar. 
+
+
+.45 
+
+.33: 
+
+
+
+w 
+
+
+Figure 14.- Comparison of experimental and analyti 
+factors for short chevron-notched bar. 
+
+
+
+-I l 
+
+.8 1 
+
+
+al normalized stress-intensity 
+
+
+o * 
+
+
+
+W 
+
+
+Figure 15.- Comparison of normalized stress-intensity factors for chevron-notched 
+three-point bend bar. 
+
+
+
+w = constant 
+
+
+
+Crack length, a 
+
+
+Figure 16.- Fracture of "rising K R -curve" material using a chevron-notched specimen. 
+
+
+
+1. Report No. 2. Government Accession No. 
+
+NASA TM-85797 
+
+3. Recipient's Catalog No. 
+
+4. Title and Subtitle 
+
+A REVIEW OF CHEVRON-NOTCHED FRACTURE SPECIMENS 
+
+5. Report Date 
+
+September 1984 
+
+
+6. Performing Organization Code 
+
+505-33-23-02 
+
+7. Author(s) 
+
+J. C. Newman, Jr. 
+
+8. Performing Organization Report No. 
+
+10. Work Unit No. 
+
+9. Performing Organization Name and Address 
+
+
+NASA Langley Research Center 
+Hampton, VA 23665 
+
+11. Contract or Grant No. 
+
+
+13. Type of Report and Period Covered 
+
+12. Sponsoring Agency Name and Address 
+
+National Aeronautics and Space Administration 
+Washington, DC 20546 
+
+Technical Memorandum 
+
+14. Sponsoring Agency Code 
+
+15. Supplementary Notes 
+
+
+16. Abstract 
+
+
+This paper reviews the historical development of chevron-notched fracture speci- 
+mens; it also compares stress-intensity factors and load line displacement solutions 
+that have been proposed for some of these specimens. The review covers the original 
+bend-bar configurations up to the present day "short" rod and bar specimens. In 
+particular, the results of a recent "analytical" round robin that was conducted by an 
+ASTM Task Group on Chevron-Notched Specimens are presented. 
+
+In the round robin, three institutions calculated stress-intensity factors for 
+either the chevron-notched round-rod or square-bar specimens. These analytical solu- 
+tions were compared among themselves, and then among the various experimental solu- 
+tions that have been proposed for these specimens. The experimental and analytical 
+stress-intensity factor solutions that were obtained from the compliance method 
+agreed within 3 percent for both specimens. An assessment of the consensus stress- 
+intensity factor (compliance) solution for these specimens is made. 
+
+The stress-intensity factor solutions proposed for three- and four-point bend 
+chevron-notched specimens are also reviewed. On the basis of this review, the bend- 
+bar configurations need further experimental and analytical calibrations. 
+
+
+18. Distribution Statement 
+
+Unclassifed - Unlimited 
+
+Subject Category 39 
+
+
+page) 21, No. of Page* 22. Price 
+
+53 AO 4 
+
+
+17. Key Words (Suggested by Author(s)) 
+
+Fracture mechanics, stress-intensity factor, 
+cracks, finite-element method, boundary- 
+element method, crack-opening displacement, 
+chevron-notch specimen 
+
+20. Security Classif. (of this 
+
+Unclassified 
+
+
+19. Security Classif. (of this report) 
+
+Unclassified 
+
+
+N-305 
+
+
+For sale by the National Technical Information Service, Springfield, Virginia 22161 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

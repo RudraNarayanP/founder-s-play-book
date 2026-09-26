@@ -1,0 +1,9 @@
+{
+ "identifier": "micro_IA40386012_1635",
+ "url": "https://archive.org/download/micro_IA40386012_1635/micro_IA40386012_1635_djvu.txt",
+ "fetched": "2026-09-26T09:59:45Z",
+ "bytes": 149218,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

@@ -70,6 +70,63 @@
   "ttl": 120,
   "words": 9229
  },
+ "founders_playbook/01_companies/company_003_unitedhealth/_parts/s1_p1.md": {
+  "agent": "uhc-s1-assemble",
+  "claimed": "2026-09-25T21:13:43Z",
+  "deliverable": "",
+  "done": false,
+  "heartbeat": "2026-09-25T21:13:43Z",
+  "sections": [
+   "Header",
+   "Boundary",
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F",
+   "G",
+   "H",
+   "I",
+   "J",
+   "K",
+   "L",
+   "M",
+   "N",
+   "O",
+   "P",
+   "Q",
+   "R",
+   "S",
+   "T",
+   "U",
+   "Register rows for merge",
+   "Untried"
+  ],
+  "ttl": 170
+ },
+ "founders_playbook/01_companies/company_003_unitedhealth/research/A2_regrade_and_families.md": {
+  "agent": "probe-unitedhealth",
+  "claimed": "2026-09-25T21:01:44Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T21:11:04Z",
+  "sections": [
+   "Verdict per stage",
+   "Family a filings",
+   "Family b web",
+   "Family c periodicals",
+   "Family d corporate print",
+   "Family e documentary",
+   "Entity and naming question",
+   "Boundaries",
+   "Conflicts",
+   "Nulls",
+   "Untried"
+  ],
+  "ttl": 120,
+  "words": 4629
+ },
  "founders_playbook/01_companies/company_004_apple/_parts/s1_p1.md": {
   "agent": "apple-s1-p1",
   "claimed": "2026-09-25T19:07:25Z",
@@ -164,6 +221,71 @@
   "ttl": 90,
   "words": 6066
  },
+ "founders_playbook/01_companies/company_005_alphabet/research/B1_filing_records.md": {
+  "agent": "alphabet-s1-records",
+  "claimed": "2026-09-25T21:01:34Z",
+  "deliverable": "",
+  "done": false,
+  "heartbeat": "2026-09-25T21:14:06Z",
+  "sections": [
+   "Lineage map",
+   "Founding narrative records",
+   "Earliest financial series",
+   "Equity and control",
+   "Stanford licence",
+   "Dependency and competition rows",
+   "Conflicts",
+   "Nulls",
+   "Untried"
+  ],
+  "ttl": 160
+ },
+ "founders_playbook/01_companies/company_011_microsoft/_parts/s1_p1.md": {
+  "agent": "msft-s1-p1",
+  "claimed": "2026-09-25T20:53:18Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T21:13:43Z",
+  "sections": [
+   "Header",
+   "Boundary",
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F",
+   "G",
+   "H",
+   "I",
+   "J"
+  ],
+  "ttl": 160,
+  "words": 13778
+ },
+ "founders_playbook/01_companies/company_011_microsoft/_parts/s1_p2.md": {
+  "agent": "msft-s1-p2",
+  "claimed": "2026-09-25T21:15:03Z",
+  "deliverable": "",
+  "done": false,
+  "heartbeat": "2026-09-25T21:15:03Z",
+  "sections": [
+   "K",
+   "L",
+   "M",
+   "N",
+   "O",
+   "P",
+   "Q",
+   "R",
+   "S",
+   "T",
+   "U anchors",
+   "Register rows for merge",
+   "Untried"
+  ],
+  "ttl": 170
+ },
  "founders_playbook/01_companies/company_011_microsoft/research/A2_periodical_and_filings_settlement.md": {
   "agent": "microsoft-reprobe",
   "claimed": "2026-09-25T19:28:45Z",
@@ -208,8 +330,8 @@
   "agent": "msft-s1-records",
   "claimed": "2026-09-25T20:23:45Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-25T20:23:45Z",
+  "done": true,
+  "heartbeat": "2026-09-25T20:46:05Z",
   "sections": [
    "Intake re-run",
    "Layers held",
@@ -221,14 +343,15 @@
    "Nulls and UNANSWERED",
    "Untried"
   ],
-  "ttl": 170
+  "ttl": 170,
+  "words": 6835
  },
  "founders_playbook/01_companies/company_013_costco/research/A3_intake_regrade.md": {
   "agent": "regrade-t3-batch",
   "claimed": "2026-09-25T20:24:55Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-25T20:24:55Z",
+  "done": true,
+  "heartbeat": "2026-09-25T20:33:42Z",
   "sections": [
    "Dry run",
    "Index",
@@ -236,7 +359,8 @@
    "Family a verdict",
    "Tier"
   ],
-  "ttl": 60
+  "ttl": 60,
+  "words": 1577
  },
  "founders_playbook/01_companies/company_013_costco/research/A_chronology_feasibility.md": {
   "agent": "probe-costco",
@@ -259,6 +383,22 @@
   ],
   "ttl": 90,
   "words": 4123
+ },
+ "founders_playbook/01_companies/company_016_nvidia/research/A3_intake_regrade.md": {
+  "agent": "regrade-t3-batch",
+  "claimed": "2026-09-25T20:33:33Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T20:58:10Z",
+  "sections": [
+   "Dry run",
+   "Index",
+   "Stored bytes",
+   "Family a verdict",
+   "Tier"
+  ],
+  "ttl": 60,
+  "words": 1578
  },
  "founders_playbook/01_companies/company_016_nvidia/research/A_chronology_feasibility.md": {
   "agent": "probe-nvidia",
@@ -324,6 +464,22 @@
   "ttl": 90,
   "words": 8842
  },
+ "founders_playbook/01_companies/company_041_dell/research/A3_intake_regrade.md": {
+  "agent": "regrade-t3-batch",
+  "claimed": "2026-09-25T20:49:21Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T20:58:10Z",
+  "sections": [
+   "Dry run",
+   "Index",
+   "Stored bytes",
+   "Family a verdict",
+   "Tier"
+  ],
+  "ttl": 60,
+  "words": 1647
+ },
  "founders_playbook/01_companies/company_041_dell/research/A_chronology_feasibility.md": {
   "agent": "probe-dell",
   "claimed": "2026-09-25T19:41:19Z",
@@ -344,6 +500,51 @@
   ],
   "ttl": 90,
   "words": 6393
+ },
+ "founders_playbook/01_companies/company_042_target/_parts/s1_p1.md": {
+  "agent": "target-s1-p1",
+  "claimed": "2026-09-25T20:52:29Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T21:14:02Z",
+  "sections": [
+   "Header",
+   "Boundary",
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F",
+   "G",
+   "H"
+  ],
+  "ttl": 150,
+  "words": 15396
+ },
+ "founders_playbook/01_companies/company_042_target/_parts/s1_p2.md": {
+  "agent": "target-s1-p2",
+  "claimed": "2026-09-25T20:53:46Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T21:16:16Z",
+  "sections": [
+   "I",
+   "J",
+   "K",
+   "L",
+   "M",
+   "N",
+   "O",
+   "P",
+   "Q",
+   "R",
+   "S",
+   "T",
+   "U anchors"
+  ],
+  "ttl": 150,
+  "words": 21558
  },
  "founders_playbook/01_companies/company_042_target/research/A_chronology_feasibility.md": {
   "agent": "probe-target",
@@ -371,8 +572,8 @@
   "agent": "target-s1-records",
   "claimed": "2026-09-25T20:24:29Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-25T20:24:29Z",
+  "done": true,
+  "heartbeat": "2026-09-25T20:50:43Z",
   "sections": [
    "Layers held",
    "Entity-lineage key",
@@ -383,7 +584,24 @@
    "Nulls and UNANSWERED",
    "Untried"
   ],
-  "ttl": 170
+  "ttl": 170,
+  "words": 7838
+ },
+ "founders_playbook/01_companies/company_043_tesla/research/A3_intake_regrade.md": {
+  "agent": "regrade-t3-batch",
+  "claimed": "2026-09-25T20:49:21Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T20:58:10Z",
+  "sections": [
+   "Dry run",
+   "Index",
+   "Stored bytes",
+   "Family a verdict",
+   "Tier"
+  ],
+  "ttl": 60,
+  "words": 1617
  },
  "founders_playbook/01_companies/company_043_tesla/research/A_chronology_feasibility.md": {
   "agent": "probe-tesla",
@@ -543,6 +761,23 @@
   ],
   "ttl": 150
  },
+ "founders_playbook/03_quality_control/amazon_s3_claim_records_residue.md": {
+  "agent": "s3-records-residue",
+  "claimed": "2026-09-25T20:50:52Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T20:59:10Z",
+  "sections": [
+   "Sweep",
+   "0.194995 fixes",
+   "S3007 decision",
+   "Evidence",
+   "Gate before and after",
+   "Handed off"
+  ],
+  "ttl": 90,
+  "words": 2469
+ },
  "founders_playbook/03_quality_control/amazon_s3_gate_residue.md": {
   "agent": "s3-gate-residue",
   "claimed": "2026-09-25T20:09:32Z",
@@ -579,6 +814,25 @@
   "ttl": 150,
   "words": 2941
  },
+ "founders_playbook/03_quality_control/amazon_s3_retraction_register_repairs.md": {
+  "agent": "s3-retraction-repair",
+  "claimed": "2026-09-25T20:29:38Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T20:48:51Z",
+  "sections": [
+   "COR inventory",
+   "D-1 denominator",
+   "D-2 FY1999",
+   "C-1 carrier",
+   "0.194995 sweep",
+   "Register edits",
+   "Gate before and after",
+   "Left for adjudication"
+  ],
+  "ttl": 180,
+  "words": 2626
+ },
  "founders_playbook/03_quality_control/amz_claim_record_split.md": {
   "agent": "amz-split-oversize",
   "claimed": "2026-09-25T19:05:44Z",
@@ -598,8 +852,8 @@
   "agent": "apple-s1-audit",
   "claimed": "2026-09-25T20:24:47Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-25T20:24:47Z",
+  "done": true,
+  "heartbeat": "2026-09-25T20:39:24Z",
   "sections": [
    "Verdict",
    "Chronology defects",
@@ -610,7 +864,8 @@
    "Not testable",
    "Untried"
   ],
-  "ttl": 170
+  "ttl": 170,
+  "words": 5514
  },
  "founders_playbook/03_quality_control/apple_s1_merge.md": {
   "agent": "apple-s1-merge",
@@ -628,6 +883,44 @@
   ],
   "ttl": 180,
   "words": 1858
+ },
+ "founders_playbook/03_quality_control/apple_s1_recertification.md": {
+  "agent": "apple-s1-recertify",
+  "claimed": "2026-09-25T21:06:18Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T21:15:00Z",
+  "sections": [
+   "Verdict",
+   "Retraction integrity",
+   "Count reproduced",
+   "BYTE tiering",
+   "Open items held",
+   "Blockers",
+   "Tolerable",
+   "Gate gaps"
+  ],
+  "ttl": 150,
+  "words": 3105
+ },
+ "founders_playbook/03_quality_control/apple_s1_repairs.md": {
+  "agent": "apple-s1-repair",
+  "claimed": "2026-09-25T20:50:45Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T21:04:39Z",
+  "sections": [
+   "Q boundary drift",
+   "Row count re-measure",
+   "BYTE re-tiering",
+   "S1P1-05 and 06",
+   "Sibling sweeps",
+   "Corrections",
+   "Gate before and after",
+   "Residue"
+  ],
+  "ttl": 180,
+  "words": 2541
  },
  "founders_playbook/03_quality_control/fetch_service_1.md": {
   "agent": "fetch-service-1",
@@ -661,6 +954,24 @@
   ],
   "ttl": 120,
   "words": 2372
+ },
+ "founders_playbook/03_quality_control/intake_hardening_2.md": {
+  "agent": "intake-defects-2",
+  "claimed": "2026-09-25T21:00:10Z",
+  "deliverable": "",
+  "done": false,
+  "heartbeat": "2026-09-25T21:00:10Z",
+  "sections": [
+   "Reproduce",
+   "D-1 facts empty",
+   "D-2 nameless rows",
+   "D-3 tally identity",
+   "D-4 max-docs",
+   "D-5 CIK guard",
+   "Proof runs",
+   "Still broken"
+  ],
+  "ttl": 150
  },
  "founders_playbook/03_quality_control/query_coverage_50.md": {
   "agent": "query-coverage",
@@ -710,12 +1021,50 @@
   "ttl": 120,
   "words": 3141
  },
+ "founders_playbook/03_quality_control/target_s1_merge.md": {
+  "agent": "target-s1-merge",
+  "claimed": "2026-09-26T09:32:57Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-26T10:04:33Z",
+  "sections": [
+   "Row application",
+   "Collisions and id resolution",
+   "Registers created",
+   "Corrections propagation",
+   "Volume and index",
+   "Non-destruction proof",
+   "Residue"
+  ],
+  "ttl": 180,
+  "words": 3509
+ },
+ "founders_playbook/03_quality_control/walmart_s1_audit1_chronology_hindsight.md": {
+  "agent": "walmart-s1-audit",
+  "claimed": "2026-09-25T20:30:05Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T20:42:08Z",
+  "sections": [
+   "Verdict",
+   "Anchor residue characterisation",
+   "Chronology defects",
+   "Hindsight defects",
+   "Sweep counts",
+   "Independence audit",
+   "Passed checks",
+   "Not testable",
+   "Untried"
+  ],
+  "ttl": 170,
+  "words": 4986
+ },
  "founders_playbook/03_quality_control/walmart_s1_merge.md": {
   "agent": "walmart-s1-merge",
   "claimed": "2026-09-25T20:01:36Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-25T20:01:36Z",
+  "done": true,
+  "heartbeat": "2026-09-25T20:34:00Z",
   "sections": [
    "Row application",
    "Id resolution and collisions",
@@ -724,6 +1073,43 @@
    "Anchor parity",
    "Not applied and why"
   ],
-  "ttl": 180
+  "ttl": 180,
+  "words": 75
+ },
+ "founders_playbook/03_quality_control/walmart_s1_recertification.md": {
+  "agent": "walmart-s1-recertify",
+  "claimed": "2026-09-25T21:07:54Z",
+  "deliverable": "",
+  "done": false,
+  "heartbeat": "2026-09-25T21:16:22Z",
+  "sections": [
+   "Verdict",
+   "Header carriers",
+   "Retraction layers",
+   "Anchor declaration stress test",
+   "Retrospective classing",
+   "Open items held",
+   "Blockers",
+   "Tolerable"
+  ],
+  "ttl": 150
+ },
+ "founders_playbook/03_quality_control/walmart_s1_repairs.md": {
+  "agent": "walmart-s1-repair",
+  "claimed": "2026-09-25T20:46:34Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-09-25T21:05:00Z",
+  "sections": [
+   "HDR-1 and HDR-2",
+   "Sibling sweeps",
+   "MERGE-1 correction",
+   "Anchor grammar",
+   "CHR items",
+   "Gate before and after",
+   "Residue"
+  ],
+  "ttl": 180,
+  "words": 3592
  }
 }

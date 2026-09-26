@@ -1,0 +1,9 @@
+{
+ "identifier": "bankofamericadat2619sanf",
+ "url": "https://archive.org/download/bankofamericadat2619sanf/bankofamericadat2619sanf_djvu.txt",
+ "fetched": "2026-09-26T09:56:37Z",
+ "bytes": 342480,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}
