@@ -2438,3 +2438,34 @@ whole pass, which is the failure-rate answer the user asked for working as desig
 agent failed *at launch* on the daily chat limit (0 tokens, 1 second) while nine siblings launched minutes
 earlier ran to completion: the credit ceiling is rate-shaped, so scripted work continues when the agent lane
 closes. The second Target repair (sources register, tiers and uncited files) is currently unowned.
+
+### RD-128 -- the scheduled runner finally fired, the index is 2,043 rows over all 50 companies, and Chronicling America is failing for a reason I had wrong
+
+`9a6ff6e`, authored **harvest-bot**, 2026-09-26T11:38:43Z: the first actual run of
+`nightly-periodical-harvest`. RD-120's finding that the schedule had *never* fired is now closed, and the
+push landed while I was mid-rebase, so this corpus has a writer other than me for the first time.
+
+**What it brought.** `candidates.csv` **1,562 -> 2,043 rows**: 1,180 `TIER1_CANDIDATE` (was 876), 428
+`LEAD_ONLY`, 275 `UNANSWERED`, **87 `ERROR`** (new), 73 `NULL`. 1,674 rows are timestamped to this run and
+they cover **all 50 companies** -- the 37 unscaffolded slugs now have metadata-level leads, which is what
+task #25 was waiting on.
+
+**What it proved about the newspaper route, and I had the cause wrong.** I read the runner's
+Chronicling America bodies and reported "0 answered", then checked what the 0 actually consists of: of 105
+CA response bodies on disk, **87 are `Page Not Found -- 404 -- Library of Congress` HTML pages (85,273 B
+each) and 18 are Cloudflare challenge pages**. A 404 is not a bot block -- **it means the endpoint path our
+harvester builds does not exist**, which is a client defect and therefore fixable, and it has been masquerading
+as "LOC refuses us" in every note since 2026-09-24. From this machine all four plausible shapes still 403
+(`chroniclingamerica.loc.gov/search/pages/results/`, `www.loc.gov/collections/chronicling-america/search/`,
+`www.loc.gov/search/?fo=json&fa=collection:chronicling-america`, `/cronidam/`), so **the correct path can only
+be established from the runner's egress**, i.e. by fixing the URL builder and letting CI answer it.
+**How to apply:** a route that returns 404 has never been tried; the sentence "Chronicling America refuses
+this project" is unsupported until the 404s are gone, and this is the pre-1962 newspaper corpus for 46
+companies -- the single largest family still unanswered. Also: 87 rows newly classified `ERROR` are a third
+verdict, not a null, and belong in the same lane as UNANSWERED until read.
+
+**The 0-answered detector itself needed the RD-124 test.** My first pass labelled bodies as
+"answered/other" by searching for `numFound`/`totalRecords`; 87 matched neither and I nearly called them
+unclassifiable. Reading three of them printed a 404 title in the first 200 bytes. **A classifier's residual
+bucket must be sampled, not summarised** -- that is the same failure that let 162 acronym hits through as
+Tier 1 an hour earlier, arriving from the other direction.
