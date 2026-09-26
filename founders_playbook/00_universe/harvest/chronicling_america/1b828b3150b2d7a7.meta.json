@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=Hathaway+textile&date1=1900&date2=1970&dateFilterType=yearRange",
+ "evidence_file": "1b828b3150b2d7a7.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 85273,
+ "retrieved_at": "2026-09-26T11:34:07Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a411f5259ccfeae7-ORD",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'Hathaway' textile/manufacturing Massachusetts 1900-1970 (NAME-VARIANT HYPOTHESIS: second word of the CSV registrant name, searched as a route to the predecessor entity)",
+ "company": "berkshire",
+ "kind": "search"
+}

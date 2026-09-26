@@ -1,0 +1,25 @@
+{
+ "url": "https://archive.org/advancedsearch.php?q=%22Home%20Depot%22%20%28hardware%20OR%20retailer%20OR%20%22do-it-yourself%22%29%20AND%20mediatype%3Atexts%20AND%20YEAR%3A%5B1970%20TO%201998%5D&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=date&fl%5B%5D=year&fl%5B%5D=mediatype&fl%5B%5D=collection&rows=20&page=1&output=json",
+ "evidence_file": "c79a690a7582c966-r20260926T113202Z.json",
+ "http_status": 200,
+ "content_type": "application/json",
+ "bytes": 1645,
+ "retrieved_at": "2026-09-26T11:36:41Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "",
+ "retry_after": "",
+ "note": "",
+ "source": "internet_archive",
+ "query_label": "IA 'Home Depot' periodical text 1970-1998",
+ "company": "homedepot",
+ "kind": "search"
+}

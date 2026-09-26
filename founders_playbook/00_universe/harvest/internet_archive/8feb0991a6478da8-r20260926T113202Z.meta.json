@@ -1,0 +1,25 @@
+{
+ "url": "https://archive.org/advancedsearch.php?q=%28CIGNA%20OR%20%22Connecticut%20General%22%20OR%20%22INA%20Corporation%22%29%20AND%20mediatype%3Atexts%20AND%20YEAR%3A%5B1900%20TO%201995%5D&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=date&fl%5B%5D=year&fl%5B%5D=mediatype&fl%5B%5D=collection&rows=20&page=1&output=json",
+ "evidence_file": "8feb0991a6478da8-r20260926T113202Z.json",
+ "http_status": 200,
+ "content_type": "application/json",
+ "bytes": 6358,
+ "retrieved_at": "2026-09-26T11:35:06Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "",
+ "retry_after": "",
+ "note": "",
+ "source": "internet_archive",
+ "query_label": "IA Cigna / predecessor names periodical text 1900-1995 (wide, un-refined)",
+ "company": "cigna",
+ "kind": "search"
+}

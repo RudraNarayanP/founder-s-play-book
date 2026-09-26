@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22Morgan+Stanley+and+Co%22+OR+%22Dean+Witter%22&date1=1920&date2=2000&dateFilterType=yearRange",
+ "evidence_file": "b06b3a6b2b3953cb.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 85273,
+ "retrieved_at": "2026-09-26T11:38:31Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a411fb992a5250bb-ORD",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'Morgan Stanley & Co' form + 'Dean Witter'/'PaineWebber' predecessor routes 1920-2000 (NAME-VARIANT HYPOTHESES, queried as routes to names the CSV does not print)",
+ "company": "morganstanley",
+ "kind": "search"
+}

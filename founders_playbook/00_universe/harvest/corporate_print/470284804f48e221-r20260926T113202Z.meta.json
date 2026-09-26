@@ -1,0 +1,25 @@
+{
+ "url": "https://archive.org/advancedsearch.php?q=%28creator%3A%28citigroup%29%20OR%20creator%3A%28citicorp%29%29%20AND%20%28title%3A%28annual%29%20OR%20title%3A%28report%29%29%20AND%20mediatype%3A%28texts%29%20AND%20YEAR%3A%5B1900%20TO%201998%5D&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=date&fl%5B%5D=year&fl%5B%5D=mediatype&fl%5B%5D=collection&fl%5B%5D=creator&rows=20&page=1&output=json",
+ "evidence_file": "470284804f48e221-r20260926T113202Z.json",
+ "http_status": 200,
+ "content_type": "application/json",
+ "bytes": 1792,
+ "retrieved_at": "2026-09-26T11:36:38Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "",
+ "retry_after": "",
+ "note": "",
+ "source": "corporate_print",
+ "query_label": "CP citigroup corporate print by creator 1900-1998",
+ "company": "citigroup",
+ "kind": "search"
+}

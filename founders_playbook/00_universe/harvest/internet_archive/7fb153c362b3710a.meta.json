@@ -1,0 +1,25 @@
+{
+ "url": "https://archive.org/advancedsearch.php?q=%28title%3A%28Telephony%29%20OR%20title%3A%28%22Bell%20Laboratories%20Record%22%29%20OR%20title%3A%28%22Telephone%20Engineer%22%29%29%20AND%20%28AT%26T%20OR%20Bell%29%20AND%20mediatype%3Atexts%20AND%20YEAR%3A%5B1900%20TO%201995%5D&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=date&fl%5B%5D=year&fl%5B%5D=mediatype&fl%5B%5D=collection&rows=20&page=1&output=json",
+ "evidence_file": "7fb153c362b3710a.json",
+ "http_status": 200,
+ "content_type": "application/json",
+ "bytes": 69,
+ "retrieved_at": "2026-09-26T11:37:59Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "",
+ "retry_after": "",
+ "note": "",
+ "source": "internet_archive",
+ "query_label": "IA telecom trade press + company-owned magazine back-file 1900-1995",
+ "company": "att",
+ "kind": "search"
+}

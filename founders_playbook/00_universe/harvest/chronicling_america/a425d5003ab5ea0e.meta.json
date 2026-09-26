@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=NationsBank+Charlotte+%22bank+of+america%22&date1=1970&date2=2000&dateFilterType=yearRange&state=North+Carolina",
+ "evidence_file": "a425d5003ab5ea0e.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 85273,
+ "retrieved_at": "2026-09-26T11:35:58Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a411f7e0de88eae7-ORD",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'Bank of America' Charlotte NC / 'NationsBank' 1970-2000 (HYPOTHESIS: predecessor + relocation names, queried as routes)",
+ "company": "bofa",
+ "kind": "search"
+}

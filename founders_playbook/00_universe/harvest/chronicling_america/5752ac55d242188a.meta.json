@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22CVS%22+pharmacy&date1=1960&date2=1995&dateFilterType=yearRange&state=Rhode+Island&sort=date",
+ "evidence_file": "5752ac55d242188a.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 85272,
+ "retrieved_at": "2026-09-26T11:33:56Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a411f4e3ae59e80e-ORD",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'CVS' pharmacy Woonsocket RI 1960-1995",
+ "company": "cvs",
+ "kind": "search"
+}

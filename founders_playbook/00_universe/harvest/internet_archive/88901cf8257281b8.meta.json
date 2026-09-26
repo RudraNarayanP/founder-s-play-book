@@ -1,0 +1,25 @@
+{
+ "url": "https://archive.org/advancedsearch.php?q=%28%22AT%26T%22%20OR%20%22American%20Telephone%22%20OR%20%22Bell%20System%22%29%20AND%20mediatype%3Atexts%20AND%20YEAR%3A%5B1880%20TO%201995%5D&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=date&fl%5B%5D=year&fl%5B%5D=mediatype&fl%5B%5D=collection&rows=20&page=1&output=json",
+ "evidence_file": "88901cf8257281b8.json",
+ "http_status": 200,
+ "content_type": "application/json",
+ "bytes": 69,
+ "retrieved_at": "2026-09-26T11:37:57Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "",
+ "retry_after": "",
+ "note": "",
+ "source": "internet_archive",
+ "query_label": "IA AT&T / Bell System periodical text 1880-1995 (wide, un-refined)",
+ "company": "att",
+ "kind": "search"
+}
