@@ -213,7 +213,7 @@ def main():
     c = sub.add_parser("claim")
     c.add_argument("--path", required=True); c.add_argument("--agent", required=True)
     c.add_argument("--sections", default=""); c.add_argument("--title")
-    c.add_argument("--ttl", default=90); c.add_argument("--deliverable")
+    c.add_argument("--ttl", default=240); c.add_argument("--deliverable")
     c.add_argument("--force", action="store_true")
     s = sub.add_parser("section")
     s.add_argument("--path", required=True); s.add_argument("--section", required=True)
