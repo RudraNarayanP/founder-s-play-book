@@ -2041,3 +2041,37 @@ its certifier running; Microsoft and Target are mid-assembly.
    write had landed. **Standing correction to my own procedure: validate the string, then write; never write
    then validate** -- and do not edit a shared tool while it has live callers when a queue-the-edit option
    exists. An agent had already reported the same class of interruption earlier today.
+
+### RD-121 -- 1,562 harvest rows, and the date field in them is not the date it claims to be
+
+The 427 queries were never spent by CI, so they were run locally (script work, zero model tokens):
+`candidates.csv` **136 -> 1,562 rows** -- 876 TIER1_CANDIDATE, 349 LEAD_ONLY, 62 NULL, 275 UNANSWERED,
+covering 31 companies with at least one metadata-level candidate.
+
+To convert leads into bytes without paying agents, `tools/harvest_mine.py` downloads each candidate's
+real OCR layer through `ia_text.py` and greps held bytes, writing `research/A4_harvest_mine.md` +
+`sources/harvest_mine/_index.json` per company. Three findings from building it, all from *running* it:
+
+1. **The harvester's `date_or_issue` is often the SCAN or UPLOAD year, not the publication year.**
+   "The Corporate Directory of US Public Companies **1995**" arrives dated **2016-06-11**; "The Home
+   Depot" as 2003; a WSJ index as 2001. My first version filtered a company's origin window on that
+   field and therefore **silently discarded the in-window evidence the window exists to find** --
+   Home Depot returned "12 candidates, 0 mined" while every one of them was plausibly in scope. That is
+   the same structural error as counting an unqueried family as a null, arriving from the opposite
+   direction: an over-narrow filter presented as a clean result.
+   **Fix: rank by date agreement, never exclude.** Items are ordered by (in-window by either field,
+   then classification) and both dates are printed with a `MISMATCH` flag, so a reader can see the
+   disagreement instead of inheriting a filtered-out corpus.
+2. **A metadata TIER1_CANDIDATE is not evidence, and this proves it**: Home Depot's top candidates are
+   a Corporate Secretary's Answer Book, a 2016 corporate directory, and *Derailed* -- none in-window.
+   Classification is a search signal only.
+3. **Some `item_id` values are Google Books volume ids, not Internet Archive identifiers** (`ZbBkDAAAQBAJ`,
+   `KQUKFmw0BkAC`). Fetching them from IA correctly returns **UNANSWERED with zero bytes -- not a NULL**.
+   A route that does not exist must never be recorded as an absent record, which is the rule this whole
+   run keeps re-learning.
+
+Pilot results, held bytes: **Costco 4 mined -> 2 items with real text hits** (1.0 MB), 1 NULL, 1
+UNANSWERED. **Nvidia 4 mined -> 1 text hit** (0.9 MB), 3 UNANSWERED (Google Books ids). Home Depot 4
+mined -> 4 UNANSWERED. Two of my own bugs in this script were caught the same way as the gates' -- by
+running it: `%` with a **list** where a tuple was required, and assuming columns named `identifier`/`date`
+when the file says `item_id`/`date_or_issue`.

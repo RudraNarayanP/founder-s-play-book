@@ -1,0 +1,9 @@
+{
+ "identifier": "01.-nvidia-annual-reports",
+ "url": "https://archive.org/download/01.-nvidia-annual-reports/NVIDIA%20Corporation%20%28NVDA%29%20Annual%20Report%202012_djvu.txt",
+ "fetched": "2026-09-26T09:49:20Z",
+ "bytes": 911128,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

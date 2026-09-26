@@ -1,0 +1,9 @@
+{
+ "identifier": "Pric0158_1978",
+ "url": "https://archive.org/download/Pric0158_1978/Pric0158_1978_djvu.txt",
+ "fetched": "2026-09-26T09:49:12Z",
+ "bytes": 12396,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

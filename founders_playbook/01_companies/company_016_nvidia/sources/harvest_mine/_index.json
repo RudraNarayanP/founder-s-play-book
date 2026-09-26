@@ -1,0 +1,72 @@
+{
+ "window": [
+  "1993-01-01",
+  "1999-12-31"
+ ],
+ "candidates": 13,
+ "mined": 4,
+ "untried_by_limit": 0,
+ "items": [
+  {
+   "identifier": "01.-nvidia-annual-reports",
+   "date": "1993-01-01",
+   "title": "NVIDIA Corporation Annual Reports",
+   "family": "corporate_print",
+   "meta_date": "1993-01-01",
+   "status": "ok",
+   "bytes": 911128,
+   "pattern": "nvidia",
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 200,
+   "sample": [
+    {
+     "line": 1,
+     "text": "NVIDIA awakened the world to computer graphics when it",
+     "context": [
+      "invented the GPU in 1999. From its roots in visual computing,"
+     ]
+    },
+    {
+     "line": 6,
+     "text": "NVIDIA's mobile processors are used in phones, tablets and",
+     "context": [
+      "products from super phones to supercomputers to super cars.",
+      "auto infotainment systems. PC gamers rely on GPUs to enjoy"
+     ]
+    },
+    {
+     "line": 12,
+     "text": "computers. Founded in 1993, NVIDIA has 7,300 employees",
+     "context": [
+      "advance the frontiers of science with high-performance",
+      "and more than 4,500 patents granted or pending."
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "vcdVAAAAMAAJ",
+   "date": "1999-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried vcdVAAAAMAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "U9n74ngfDU8C",
+   "date": "1998-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried U9n74ngfDU8C_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "z3zsxvtRSv4C",
+   "date": "1998-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried z3zsxvtRSv4C_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  }
+ ]
+}
