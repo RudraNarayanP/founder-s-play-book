@@ -2175,6 +2175,75 @@ out of doing it properly:
    wording struck through and dated**, because silently rewriting a log would destroy the very record that
    shows how the error propagated into a brief.
 
+### RD-125 -- Target's audits found a blocking misread carrier, and it is inside a correction I praised
+
+Two of three Stage-1 auditors reported (`03_quality_control/target_s1_audit1_chronology_hindsight.md`,
+6,700 w, 16 findings; `…/target_s1_audit2_sources_independence.md`, 5,497 w, all 21 source rows
+tabulated). I re-verified the load-bearing claims myself before briefing any repair -- **one auditor claim
+is confirmed and blocking, one is refuted, and one of my own counts was wrong for the reason RD-124 just
+recorded.**
+
+**CONFIRMED, BLOCKING (audit 1, CH-1) -- and it is a defect inside RD-122's "good judgment call".** The
+volume states the FY1969 layer marks a change to a December-terminating year-end by FY1975, so a series
+spanning FY1974→FY1975 changes basis (`stage_1.md` L226-227; `conflicts.csv` U.011; **COR-01**). Held
+bytes refute it. In `sources/corporate_print/1975_dayton_hudson_djvu.txt` the string
+`FOR THE YEAR ENDED DECEMBER 31, 1975` occurs **twice in 5,458 lines**, both inside the block headed
+L3578 *"Condensed combined financial statements of the joint ventures"* -- a **Real Estate joint-venture**
+year-end, not the corporation's. The corporation's own Fiscal Year note, L3246-3250, prints: *"The
+Corporation's fiscal year ends on the Saturday closest to January 31. Fiscal year 1975 ended on January 31,
+1976; fiscal year 1974 ended on February 1, 1975."* And `grep -c "Saturday closest to" stage_1.md` = **0**
+-- the one printed sentence that settles the question is quoted nowhere in 37,507 words. So a joint-venture
+line was read as the registrant's accounting policy, the misreading was written into a **retraction
+record**, and the retraction then propagated to §Boundary 4, `timeline.csv:18` (whose own `source_id` is
+S4201, the FY1965 report, for an FY1975 fact) and to the instruction layer. **This is the Newport/Arkansas
+pattern one level up: the correction, not the original, is what a downstream agent trusts.**
+**Rule added:** a correction that *changes a basis* must quote the carrier sentence that establishes the new
+basis, at its line, in the correction record itself -- `COR-01` carried an assertion about a document
+instead of the document.
+
+**REFUTED (audit 2, its #1 finding).** It called S4203's two quoted passages reconstructions, on the
+grounds that `L1952` appears in no held byte and the FY1967 layer says *"Sales of $86,901,007 in 1967 were
+43 percent ahead of 1966 volume"*. Both half-true, conclusion wrong. `1967_dayton_hudson_djvu.txt` **line
+1952 is `JOHN F. GEISSE`** -- `(L1952)` is a line locator, not invented source text; and **l.769-770**
+prints `1967. Target's sales were $86,901,007, an in-` / `crease of 43 percent`, which is the quoted
+sentence, split by an OCR line-break hyphen. Real residue: the register dropped the possessive
+("Target sales" for "Target's sales") and put a locator **inside** the quotation -- a fidelity and format
+defect (§14 rule 12), **not a fabrication**. The auditor found one carrier sentence and missed the other.
+**A repair agent handed "de-fabricate this quote" would have rewritten a correct citation.**
+
+**MY OWN COUNT WAS THE SAME BUG I LOGGED HOURS EARLIER.** To check audit 1's "21 of 36 bare-year rows lack
+the fiscal tag" I ran a column named `period_or_date`; `quantitative.csv` has no such column (it is `date`),
+so my first measure returned **0 of 61** and would have refuted the auditor on an artefact. Correct
+measurement: **36 bare-year rows, 23 of which mention FY/fiscal/ended in `notes`, so 13 carry no basis note
+at all.** The auditor's 21 and my 13 are different definitions, not a contradiction, and **the repairer
+reconciles them rather than inheriting either** -- fourth time this run I assumed a field name
+(`identifier`/`date`, then `query_label`, then `period_or_date`), and this time I caught it only because I
+printed the schema after the fact rather than before.
+
+**CONFIRMED with better numbers than the auditor gave.** Held-but-uncited is **19 files**, not 7-8, computed
+as an exact set difference against `sources.csv`'s `archived_url` paths: the substantive ones are
+`corporate_print/1998_annual_report_djvu.txt` (118,286 B) and `2000_annual_report_djvu.txt` (112,543 B) --
+**used as evidence at U.026 with no source row** -- plus `_index/submissions.json` (576,114 B),
+`submissions.csv`, and `sources/_index/_INDEX.md`, whose own header line *"This file is the source of truth
+for what exists"* is an instruction-layer over-reach. The tier cluster is real too: **S4218-S4221 are
+stamped Tier 1** while their own `relevant_passage` cells say `7747 B SEC error page each`,
+`11832 B offline body` and `0 documents stored,0 skipped/unanswered`, and the pre-merge sibling covering
+the same bytes (`P1S08`) was stamped tier 3 -- **a merge-created inflation, 18 of 21 source rows now carry
+a resolvable pointer and the four error-page rows are among the ones that should not be Tier 1.**
+Independence ledger `§T.2` names `P2S01` (the Dayton 1966 report, folded into S4202 as *same lineage as
+S4201*) as "the only held document of independent origin", while `§H.2` gets it right and the actual
+independent carrier is `S4215`, *Chain Store Age* Apr 1963 -- **one section inverts the other.**
+
+**Gate note reproducible after all.** `coverage … 17 source documents` is exactly the count of
+`sources/**/*.{txt,htm,html}` (17, all `.txt`) and equals the cited set; the auditor could not reproduce it
+because the note does not state its definition. Folded into task #23 -- a number in a report must carry the
+rule that produced it.
+
+**Sequencing held deliberately:** audit 3 (numbers) is still reading `quantitative.csv`, so no repair pass
+starts now (§14 rule 6 -- serialize writers; rule 14 -- an audit run against a corpus that moves underneath
+it is a wasted cycle). Then **one** repairer works all three defect lists, and the certifier is a different
+agent.
+
 ### RD-124 -- the fleet harvester was manufacturing fake Tier-1 evidence, and I found it by reading its output
 
 The 427-query harvest and the 1,562-row candidate index were mined by `tools/harvest_mine.py` while agents
