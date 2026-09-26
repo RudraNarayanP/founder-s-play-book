@@ -1996,3 +1996,25 @@ self-test (**PASS**), quoting both, and returned **CERTIFIED**.
 **Second company through the full loop, and the first under §15: probe -> tier -> records -> parts -> merge ->
 gates -> audit -> repair -> re-certify, at 67,853 words and 186 register rows.** Walmart is the same shape with
 its certifier running; Microsoft and Target are mid-assembly.
+
+### RD-119 -- Target Stage 1 drafted end to end; its §U declares 37 anchors and the merge has 126 rows to apply
+
+`company_042_target/_parts/s1_p2.md`: 21,558 w, §I–§U plus P2 claim records, 13/13 sections WRITTEN,
+79 register rows requested (sources 8, quantitative 27, timeline 8, conflicts 16, data_gaps 20).
+- **Anchors `U.001`–`U.037`**, continuous, three-digit zero-padded, and declared with an explicit
+  `<!-- ANCHORS: U.001-U.037 -->` -- the mechanism that failed as a hand-typed list on Walmart and worked
+  here because it was **derived and declared at authoring time**. 17 conflicts, 7 documented nulls,
+  5 UNANSWERED, 8 UNTRIED, each with the exact command or archive that would settle it.
+- **New evidence from bytes actually read:** the FY1965 layer's period ends **1966-01-29** and the report
+  self-labels both years, which re-bases B1's Q20 and independently refutes "fiscal = calendar" (U.011);
+  889,000 sq ft against a roster's 722 (U.012); Target 44 stores/100% against the parent's 14/31% (U.013);
+  a 1964 Target loss carry-forward (U.016); an **"APRIL 1962"** footnote (U.014) that is the closest thing to
+  a first-store date in held print and is recorded as a conflict against the widely stated July date, not as
+  the answer.
+- **§K stayed unquantified on purpose:** per-store cost, rent, payroll and unit revenue for 1962-66/68/70-72
+  are absent because the filings fuse occupancy into *"cost of sales, buying and occupancy"*. Printed dollars
+  exist only at consolidated and low-margin-group scope. No derived per-store economics were invented to fill
+  the section -- which is precisely the failure §K is designed to expose.
+- Combined Stage-1 draft is ~36,954 words, inside the 60k cap, so **Target merges as a single volume** with
+  126 register rows to apply. Gates clean on keys and budget; the only finding is the expected pre-merge
+  `coverage/registers`.
