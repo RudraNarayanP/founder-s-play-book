@@ -2369,3 +2369,72 @@ wave **a word budget is stated for narrative words only, and the register/record
 separately by row count** -- and no agent trims evidence to meet a number (RD-122, §9.6). Costco's open
 question is also real and stays open: measured against Stage 1's own window, family (a) yields in-window
 *text* but **no in-window document**, which is the RD-112 boundary case the convention has not yet decided.
+
+### RD-127 -- the Walmart pass refuted three of my own log claims, and the HathiTrust route got measured instead of hoped
+
+`03_quality_control/walmart_s1_a6_census.md` (3,618 w, 39M tokens, 132 calls) closed the RD-123 defect and
+**corrected me three times**. I re-verified each against the files before writing this, because RD-124 and
+RD-126 both say the same thing about me and about auditors: a measurement taken with the wrong key is worse
+than no measurement, since it reads like one.
+
+1. **My "FY1973 has no `sources.csv` row of its own" was false, and so was A6's premise for it.** `S0102` *is*
+   the FY1973 report: `source_title` = "Wal-Mart Stores, Inc. Annual Report, fiscal year ended January 31,
+   1973", `archived_url` = `sources/periodicals/WALMART_AR_1973.txt`, `publication_date` 1973-03-20. I had
+   repeated a dossier claim I had not opened. The pass refused to mint the row and said why.
+2. **My "`38` and `64` occur nowhere with `stores`" was half wrong.** `64` **is** registered -- inside the
+   composite FY1973 row (`quantitative.csv` L111: `Net income / EPS / Total assets / Equity / Stores /
+   Inventories` = `4591469 / 0.70 / 46241 / 24754 / 64 / 29427119`), whose unit cell lists four units and
+   omits `stores`. My grep demanded `",64,stores"` and a composite row cannot satisfy it. `38` genuinely was
+   missing and is now applied (L116, carrier `S0103`/1974-03-21).
+   **Rule: never test for a value with a pattern that assumes the row shape.** A composite cell is legal in
+   this schema, and the grep that "proves" absence must be written against the schema, not the wish.
+3. **The memory and RD-097 line "the HathiTrust search body is NOT in the repo" was false.** It is at
+   `00_universe/harvest/_probe_fixed_20260925/hathitrust/640238bfc6cb7376-r20260925T131232Z.html`,
+   **34,171 B**, and four siblings arrived with it -- 238 KB to 391 KB, never read by any pass.
+
+**So I mined those bodies instead of describing them (script work, no agent).** 363 record blocks parsed to
+`hathitrust/_RECORDS.tsv` with htid, title, published year and access class, each body attributed to the
+query its own sidecar records. The result narrows the most-repeated open question in this project:
+
+| route (from the sidecar URL) | records | dated | undated | year range |
+|---|---|---|---|---|
+| `"Wal-Mart" Bentonville`, unfaceted | 100 | 94 | 6 | **1990-2014** |
+| `"Wal-Mart" Bentonville`, 1960-1969 facet | 4 | 0 | 4 | not parsed |
+| `"Walton's" "five-and-dime"` | 59 | 45 | 14 | 1925-2009 |
+| `"five and dime" variety store` | 100 | 97 | 3 | 1950-1959 |
+| `"Charter Med"` (UnitedHealth) | 100 | 90 | 10 | 1805-2000 |
+
+**Read what that says precisely.** On the company phrase, every dated result on the returned page is
+**1990 or later** -- the pre-1972 naming document that RD-097 called "the single best remaining chance in
+held knowledge" does not appear on this page at all. What *is* rich is the **sector**: 97 in-window records
+from 1950-1959 under `"five and dime" variety store` and 23 under `"Walton's" "five-and-dime"` -- documents
+about the trade the founder came out of, not namings of the registrant. Three things therefore stay open and
+must be recorded as open, not as nulls: the **6 undated** rows on the company route, the **4 facet records**
+whose Published field my parser did not extract (A6 named one: `uiug.30112005545535`, a 1968 customs
+bulletin), and every result **page past the first**, which no body in this repository contains.
+**How to apply:** the HathiTrust claim about Walmart's pre-1972 naming moves from "unread lead" to "the first
+result page of the company phrase returns no pre-1990 imprint" -- which is a *smaller* door, honestly
+measured, and the sector pool is now a listed, openable backlog instead of a rumour.
+
+**`tools/merge_census.py` is blind in three measured ways, and I hit two of them myself this hour.** The
+pass found the first; I found the others while censusing Microsoft:
+1. `census()` globs `_parts/*.md` **only** (line 94). `research/` is out of scope, so **RD-122's own rule --
+   the one that saved Target's 65 dossier rows -- is unimplemented in the tool it was written from.**
+2. A block counts only if the marker is within the **preceding 1,200 characters**, so a part with a long
+   "read before applying" preamble contributes nothing: Microsoft p2 returned *"no attributable merge-request
+   blocks found"* while holding 9 real register blocks, and adding one marker line per block changed the
+   answer from 0 rows to 52 attributed + 11 listed-as-AMBIGUOUS. **I patched the finished parts (6 files,
+   39 markers, content untouched) rather than editing the tool, because gates and merge passes call it live.**
+3. 11 of its 15 Microsoft rows are keyless, so `missing = 0` there carries no information; and the
+   `validation.csv`/`failures.csv` pair is **AMBIGUOUS** by column overlap (11 columns, same names) -- the
+   merge must attribute them by content, which is exactly what Target's merge had to do by hand.
+Both defects go on the tool queue (task #23's neighbourhood); the workaround is now the dispatch rule:
+**run the census, and if it reports nothing attributable, that is a tool failure to investigate, not a
+result to brief from.**
+
+**Two operational facts worth keeping.** Microsoft's `msft-s1-p2` died on a generic error after **16.7M
+tokens**, with all 13 sections written and 0 PENDING left -- the incremental-append contract recovered the
+whole pass, which is the failure-rate answer the user asked for working as designed. And one Target repair
+agent failed *at launch* on the daily chat limit (0 tokens, 1 second) while nine siblings launched minutes
+earlier ran to completion: the credit ceiling is rate-shaped, so scripted work continues when the agent lane
+closes. The second Target repair (sources register, tiers and uncited files) is currently unowned.

@@ -35,6 +35,31 @@ withdrawal is recorded as **COR-301** / **COR-302** in `CORRECTIONS.md`, reachin
 **U.013** and **U.014**. `_parts/s1_p1.md` and §D-R03 keep their original wording **visible beside their own
 corrections** (D-R03c, U.014): this pass supersedes, it does not erase (§14 rule 8).
 
+**Third pass on this volume, 2026-09-26 (the RD-123 A6 re-census; **COR-303** / **COR-304** / **COR-305** /
+**COR-306** in `CORRECTIONS.md`; report
+`03_quality_control/walmart_s1_a6_census.md`). Nothing below the assembly note is rewritten, re-ordered or
+renumbered by this pass; the only narrative-side edits anywhere in the two volumes are the two pointers in this
+paragraph and at §T.3 R-1 / **U.048**, which the propagation gate requires. **(1) COR-303 — the merge
+under-applied a whole emission.** `research/A6_held_corpus_mine.md` §Records for merge carries a marked
+`>>> REGISTER ROWS FOR MERGE <<<` block of **22 rows** (9 sources / 6 quantitative / 4 timeline / 3 conflicts), written
+41 minutes before the merge commit, and `grep -c "A6"` returned **0 in all nine registers**: nothing the mine emitted
+reached the register layer. The merge's own arithmetic — "§99 rows requested … 95 applied … Nothing
+dropped" in `_MANIFEST.md` — is superseded: the requested total was **121**, and this pass applies the missing 22 as
+**16 new rows** (`S0148`–`S0155`, four `quantitative.csv` fleet rows, four `timeline.csv` rows) plus **6 folds** into
+carriers that already hold the content (`S0145`, the FY1970 and FY1972 quantitative rows, **U.011**, **U.040**,
+**U.045**), each fold naming its reason in the cell. **0 dropped.** The census tool that should have caught this,
+`tools/merge_census.py`, reads only `_parts/*.md` and printed "TOTAL missing keyed rows: 0" on these bytes — a
+detector blind to the directory the emission actually lives in; RD-122's "census parts *and* `research/`" rule is not
+implemented, and that is an orchestrator defect, not a corpus one. **(2) COR-304 — the merge re-used the mine's
+proposed ids.** Live `S0139`–`S0147` carry nine documents; the mine's `S0139`–`S0147` describe nine *other*
+documents, so the volume's own §T.3 R-1 collision (recorded at **U.048** for `S0141` between `s1_p2.md` and A5) had a
+third claimant on the whole range. Repaired in the register only: redirects on the live rows, aliases on the new ones,
+the dossier's historical text untouched (§14 rule 4). **(3) COR-305 — one measured defect in the brief was
+itself wrong.** The FY1973 report does have a `sources.csv` row of its own: **S0102** is it, in the root register and in
+the 38-row `research/sources.csv` the mine read. No duplicate was minted; what was uncarried is the fleet-composition
+sentence ("the existing fifty-five Wal-Mart and nine variety and family center stores"), now landed against **S0102**.
+**(4) COR-306 — no promotion on this pass.** "51 (FY1971)" inside **U.040** is a column-shift against the printed
+heads (38 = FY1971, 51 = FY1972, 64 = FY1973), and the mine's High was **refused on its own reasoning** (the 55 + 9 = 64 foot is one lineage cross-footing itself, §3). It is **granted on a different carrier the mine never cited**: `WALMART_AR_1974.txt` **Note 8 — Number of stores in operation** prints "the 64 stores at January 31, 1973 consisted of 55 Wal-Mart Stores and 9 Ben Franklin Variety and Family Center Stores" — a value beside its date, inside the audited notes, where the UNTRIED page image cannot bite. So those three legs are High, and **FY1970 / FY1971 / FY1972 stay Medium**, their years coming only from the table's column order (`S0150` names the renderings that would settle them); the promotion is stated in every cell, not slipped past the gate. §I's format table and §G print the same series at "High FY1972+" on each year's own report — a different carrier basis, and this pass re-adjudicates no narrative confidence, only the register rows it landed.
 ---
 
 # FORENSIC LONGITUDINAL DATASET — WAL-MART STORES, INC., STAGE 1 (1945 → 1970-10-08)
@@ -2543,7 +2568,12 @@ prose**; the `keys` gate will then resolve. *RESIDUAL UNCERTAINTY:* the final nu
 owner owns.
 *CONFIDENCE:* **High** (that the collision exists; it is verifiable by reading the two blocks).
 **No prose in this volume depends on who wins: every not-yet-issued id is written backticked.**
-
+**Pointer, 2026-09-26 (COR-304):** this collision had a third claimant the merge never censused.
+`research/A6_held_corpus_mine.md` proposed `S0139`–`S0147` for nine of its own documents, and the merge minted its
+nine rows into exactly that range, so all nine numbers named two documents each, not one. The residual above ("the final
+numbering, which the register owner owns") is answered for the whole range: A6's content is issued at `S0148`–`S0155`
+with alias notes, the live rows keep their ids and carry redirects, and the register is again the only place global
+uniqueness lives (§13). See `CORRECTIONS.md` **COR-303**/**COR-304**.
 ### U.2 Documented nulls (EMPTY within a stated perimeter) — anchors U.101–U.116
 
 | Anchor | Null | Perimeter of the silence (stated, because a null without a perimeter is a claim about the world) | Conf |
