@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22Micro-Soft%22+OR+%22Micro+Soft%22&date1=1975&date2=1985&dateFilterType=yearRange",
+ "evidence_file": "db4dbe24dd718969-r20260928T140639Z.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 85273,
+ "retrieved_at": "2026-09-28T14:09:42Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a42353d199e55ec7-PDX",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'Micro-Soft' hyphen variant 1975-1982 (NAME-VARIANT HYPOTHESIS: early hyphen form of the brand, queried because the NDNP index is hyphen-sensitive -- cf. the shipped 'five-and-dime' note)",
+ "company": "microsoft",
+ "kind": "search"
+}
