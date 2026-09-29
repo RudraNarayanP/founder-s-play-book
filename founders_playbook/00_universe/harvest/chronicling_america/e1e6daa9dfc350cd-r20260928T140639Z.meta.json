@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22Physicians+Health+Plan%22+Minneapolis&date1=1971&date2=1985&dateFilterType=yearRange&state=Minnesota",
+ "evidence_file": "e1e6daa9dfc350cd-r20260928T140639Z.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 85273,
+ "retrieved_at": "2026-09-28T14:07:55Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a423512fca505ec7-PDX",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'Physicians Health Plan' Minneapolis 1971-1985",
+ "company": "unitedhealth",
+ "kind": "search"
+}

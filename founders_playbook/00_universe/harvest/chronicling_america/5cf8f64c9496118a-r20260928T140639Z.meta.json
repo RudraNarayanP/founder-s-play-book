@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22General+Motors%22+Detroit&date1=1900&date2=1960&dateFilterType=yearRange&state=Michigan&sort=date",
+ "evidence_file": "5cf8f64c9496118a-r20260928T140639Z.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 85272,
+ "retrieved_at": "2026-09-28T14:11:57Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a423571a7bf9c67f-SJC",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'General Motors' Detroit Michigan 1900-1960",
+ "company": "gm",
+ "kind": "search"
+}

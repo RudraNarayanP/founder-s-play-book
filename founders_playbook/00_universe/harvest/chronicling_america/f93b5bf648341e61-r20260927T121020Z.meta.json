@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22Ford+Motor%22+Dearborn&date1=1900&date2=1960&dateFilterType=yearRange&state=Michigan&sort=date",
+ "evidence_file": "f93b5bf648341e61-r20260927T121020Z.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 85273,
+ "retrieved_at": "2026-09-27T12:14:35Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a41a6dced8821ef1-SEA",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'Ford Motor' Dearborn Detroit Michigan 1900-1960",
+ "company": "ford",
+ "kind": "search"
+}
