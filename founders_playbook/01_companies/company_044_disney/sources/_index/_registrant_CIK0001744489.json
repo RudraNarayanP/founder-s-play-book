@@ -1,0 +1,31 @@
+{
+ "cik": "0001744489",
+ "requested_cik": "1744489",
+ "registrant": "Walt Disney Co",
+ "ticker": "DIS",
+ "tickers": [
+  "DIS"
+ ],
+ "former_names": [
+  "TWDC Holdco 613 Corp",
+  "TWDC Holdco 613 Corp."
+ ],
+ "company_dir": "company_044_disney",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['disney'] match registrant 'Walt Disney Co' (CIK 0001744489)"
+ ],
+ "built": "2026-09-29T17:58:07Z",
+ "count": 1141,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 0,
+ "csv_sha1": "ffb913c5335129b94a499ce11e3841bbf7496fb6",
+ "csv_bytes": 95199,
+ "paths": {
+  "json": "founders_playbook/01_companies/company_044_disney\\sources\\_index\\submissions_CIK0001744489.json",
+  "csv": "founders_playbook/01_companies/company_044_disney\\sources\\_index\\submissions_CIK0001744489.csv",
+  "md": "founders_playbook/01_companies/company_044_disney\\sources\\_index\\_INDEX_CIK0001744489.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

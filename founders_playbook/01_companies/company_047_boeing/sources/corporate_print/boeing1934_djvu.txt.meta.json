@@ -1,0 +1,10 @@
+{
+ "identifier": "boeingairplanecompanyannualreports",
+ "file": "boeing1934_djvu.txt",
+ "url": "https://archive.org/download/boeingairplanecompanyannualreports/boeing1934_djvu.txt",
+ "http": 200,
+ "bytes": 12430,
+ "fetched": "2026-09-29T18:03:14Z",
+ "note": "ok-INSECURE (unverified TLS: re-check before High)",
+ "via": "ia_text.get() direct: ia_text fetch does not enumerate per-file layers in a multi-file item"
+}

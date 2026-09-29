@@ -1,0 +1,11 @@
+{
+ "url": "https://archive.org/download/001.-walt-disney-company/Walt%20Disney%20Company%20%28DIS%29%20Annual%20Report%20%281944%29%20Walt%20Disney%20Productions_djvu.txt",
+ "http_status": 200,
+ "note": "ok-INSECURE (unverified TLS: re-check before High)",
+ "bytes_held": 20857,
+ "ia_item": "001.-walt-disney-company",
+ "ia_file": "Walt Disney Company (DIS) Annual Report (1944) Walt Disney Productions_djvu.txt",
+ "report_year": "1944",
+ "retrieved_at": "2026-09-29T18:06:45.437109Z",
+ "retrieved_by": "tools/ia_text.py ocr_url + get (probe-disney)"
+}

@@ -1,0 +1,11 @@
+{
+ "url": "https://archive.org/download/001.-walt-disney-company/Walt%20Disney%20Company%20%28DIS%29%20Annual%20Report%20%281945%29%20Walt%20Disney%20Productions_djvu.txt",
+ "http_status": 200,
+ "note": "ok-INSECURE (unverified TLS: re-check before High)",
+ "bytes_held": 3145,
+ "ia_item": "001.-walt-disney-company",
+ "ia_file": "Walt Disney Company (DIS) Annual Report (1945) Walt Disney Productions_djvu.txt",
+ "report_year": "1945",
+ "retrieved_at": "2026-09-29T18:06:47.559862Z",
+ "retrieved_by": "tools/ia_text.py ocr_url + get (probe-disney)"
+}

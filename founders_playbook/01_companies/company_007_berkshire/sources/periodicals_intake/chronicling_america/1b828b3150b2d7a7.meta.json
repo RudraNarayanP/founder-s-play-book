@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=Hathaway+textile&date1=1900&date2=1970&dateFilterType=yearRange",
+ "evidence_file": "1b828b3150b2d7a7.json",
+ "http_status": 403,
+ "content_type": "text/html; charset=UTF-8",
+ "bytes": 6258,
+ "retrieved_at": "2026-09-29T18:02:21Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "skipped (--insecure/--insecure-hosts)",
+ "error_class": "bot_challenge",
+ "redirect_location": "",
+ "cf_mitigated": "challenge",
+ "cf_ray": "a42ce60bec263c33-DEL",
+ "retry_after": "",
+ "note": "HTTP 403 Cloudflare bot-management challenge (Cf-Mitigated: challenge, Cf-Ray: a42ce60bec263c33-DEL). The host answered 'prove you are a browser' and never searched anything: UNANSWERED, not a null, and no parameter change will fix it",
+ "source": "chronicling_america",
+ "query_label": "CA 'Hathaway' textile/manufacturing Massachusetts 1900-1970 (NAME-VARIANT HYPOTHESIS: second word of the CSV registrant name, searched as a route to the predecessor entity)",
+ "company": "berkshire",
+ "kind": "search"
+}

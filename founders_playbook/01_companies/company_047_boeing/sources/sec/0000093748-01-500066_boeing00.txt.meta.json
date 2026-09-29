@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000012927/000009374801500066/boeing00.txt",
+ "fetched": "2026-09-29T17:57:19Z",
+ "sha1": "38a0e85a2286a9a97c84c91e082bd6638824ec6e",
+ "bytes": 5472,
+ "words": 768,
+ "cik": "0000012927",
+ "registrant": "BOEING CO",
+ "accession": "0000093748-01-500066",
+ "document": "boeing00.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

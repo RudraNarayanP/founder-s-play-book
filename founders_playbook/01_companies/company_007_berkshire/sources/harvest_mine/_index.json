@@ -1,0 +1,257 @@
+{
+ "window": [
+  "1962-01-01",
+  "1978-12-31"
+ ],
+ "candidates": 62,
+ "mined": 8,
+ "untried_by_limit": 47,
+ "items": [
+  {
+   "identifier": "berkshire-hathaway-brk-annual-report-1974",
+   "date": "1975-01-01",
+   "title_year": "1974",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "Berkshire Hathaway 1974 Annual Report",
+   "family": "corporate_print",
+   "meta_date": "1975-01-01",
+   "status": "cached",
+   "bytes": 105518,
+   "named_terms": [
+    "berkshire hathaway"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 67,
+   "phrase_hits": 55,
+   "entity_hits": 63,
+   "matched_entities": [
+    "berkshire hathaway",
+    "hathaway inc"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "BERKSHIRE HATHAWAY inc.",
+     "context": [
+      ""
+     ]
+    },
+    {
+     "line": 10,
+     "text": "Berkshire Hathaway Inc.",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 34,
+     "text": "6 Accountants\u2019 Certificate Regarding Financial Statements of Berkshire Hathaway Inc.",
+     "context": [
+      "",
+      "and Consolidated Subsidiaries and Insurance Group"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "berkshire-hathaway-brk-annual-report-1972",
+   "date": "1973-01-01",
+   "title_year": "1972",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "Berkshire Hathaway 1972 Annual Report",
+   "family": "corporate_print",
+   "meta_date": "1973-01-01",
+   "status": "cached",
+   "bytes": 56586,
+   "named_terms": [
+    "berkshire hathaway"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 51,
+   "phrase_hits": 46,
+   "entity_hits": 54,
+   "matched_entities": [
+    "berkshire hathaway",
+    "hathaway inc"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "BERKSHIRE HATHAWAY unc.",
+     "context": [
+      ""
+     ]
+    },
+    {
+     "line": 19,
+     "text": "5-10 Berkshire Hathaway Inc. and Consolidated Subsidiary",
+     "context": [
+      "Financial Statements:",
+      ""
+     ]
+    },
+    {
+     "line": 29,
+     "text": "Berkshire Hathaway Inc.",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "berkshirehathawa0000stan",
+   "date": "1962-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried berkshirehathawa0000stan_djvu.txt, berkshirehathawa0000stan_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "annualberkshirevt1978",
+   "date": "1978-01-01",
+   "title_year": "1978",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Auditors' annual report, Berkshire, Vermont, 1978",
+   "family": "corporate_print",
+   "meta_date": "1978-01-01",
+   "status": "cached",
+   "bytes": 127132,
+   "named_terms": [
+    "berkshire hathaway"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 52,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 70,
+     "text": "Berkshire, Vermont",
+     "context": [
+      "TOWN OF",
+      ""
+     ]
+    },
+    {
+     "line": 79,
+     "text": "BERKSHIRE",
+     "context": [
+      "Town of",
+      ""
+     ]
+    },
+    {
+     "line": 192,
+     "text": "The legally qualified voters of the Town of Berkshire and the Town School District",
+     "context": [
+      "",
+      "of Berkshire, Vermont are hereby warned and notified to meet at the Berkshire Elemen-"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "CAT88901059",
+   "date": "1976-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 500)); tried CAT88901059_djvu.txt, CAT88901059_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "CAT31444852",
+   "date": "1977-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Remarks by Assistant Secretary for International Affairs and Commodity Programs, Dale E. Hathaway : at the annual summer",
+   "family": "corporate_print",
+   "meta_date": "1977-01-01",
+   "status": "cached",
+   "bytes": 14032,
+   "named_terms": [
+    "berkshire hathaway"
+   ],
+   "other_terms": [],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "berkshireridgewa0000unse",
+   "date": "1971-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried berkshireridgewa0000unse_djvu.txt, berkshireridgewa0000unse_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "berkshire-hathaway-brk-annual-report-1995",
+   "date": "1996-01-01",
+   "title_year": "1995",
+   "date_mismatch": true,
+   "in_window": false,
+   "title": "Berkshire Hathaway 1995 Annual Report",
+   "family": "corporate_print",
+   "meta_date": "1996-01-01",
+   "status": "ok",
+   "bytes": 218786,
+   "named_terms": [
+    "berkshire hathaway"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 200,
+   "phrase_hits": 36,
+   "entity_hits": 44,
+   "matched_entities": [
+    "berkshire hathaway",
+    "hathaway inc"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 11,
+     "text": "Berkshire Hathaway Inc. is a holding company owning subsidiaries engaged",
+     "context": [
+      "",
+      "in a number of diverse business activities. The most important of these ts the"
+     ]
+    },
+    {
+     "line": 15,
+     "text": "report as the Berkshire Hathaway Insurance Group. On January 2, 1996, a",
+     "context": [
+      "reinsurance basis through a number of subsidiaries collectively referred to in this",
+      "subsidiary of the Company acquired all the outstanding shares of GEICO"
+     ]
+    },
+    {
+     "line": 18,
+     "text": "Corporation is now a wholly owned subsidiary of Berkshire Hathaway Inc. and",
+     "context": [
+      "Corporation not then held by Berkshire subsidiaries. Accordingly, GEICO",
+      "henceforth will be included in the Berkshire Hathaway Insurance Group."
+     ]
+    }
+   ]
+  }
+ ]
+}

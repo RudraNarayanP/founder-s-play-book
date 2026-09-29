@@ -344,6 +344,25 @@ def main():
         sub = [r for r in rows if (r.get("company") or "").strip().lower() == slug
                and (r.get("classification") or "").startswith(("TIER1", "LEAD"))]
         if not sub:
+            # D-4, found by the Boeing probe: this used to `continue`, so `--company boeing` printed
+            # `{}`, exited 0 and wrote no dossier -- a no-op that reads exactly like a result. Boeing's
+            # 8 rows are all UNANSWERED, meaning the route never answered: that IS the finding, and it
+            # has to be written down, not swallowed. Same for a slug whose rows carry no item_id.
+            allrows = [r for r in rows if (r.get("company") or "").strip().lower() == slug]
+            if not allrows:
+                continue
+            lo2, hi2 = WINDOWS.get(slug, (a.min_year or "1800-01-01", a.max_year or "2010-12-31"))
+            classifications = sorted({(r.get("classification") or "?") for r in allrows})
+            no_id = sum(1 for r in allrows if not (r.get("item_id") or r.get("identifier") or "").strip())
+            why = ("no candidate row is TIER1_CANDIDATE or LEAD_ONLY -- every row is %s, i.e. the "
+                   "search never answered, so there is nothing to mine"
+                   % ", ".join(classifications)) if not sub else "no rows"
+            if no_id == len(allrows):
+                why += ("; and every row lacks an item_id, so no identifier exists to fetch (the "
+                        "harvest rows are query outcomes, not items)")
+            report[slug] = {"window": [lo2, hi2], "candidates": len(allrows), "mined": 0,
+                            "untried_by_limit": 0, "nothing_minable": why, "items": []}
+            write_dossier(dirs[slug], slug, report[slug])
             continue
         lo, hi = WINDOWS.get(slug, (a.min_year or "1800-01-01", a.max_year or "2010-12-31"))
         if a.min_year:
@@ -428,7 +447,9 @@ def main():
                {"window": v["window"], "candidates": v["candidates"], "mined": v["mined"],
                 "bytes": sum(i.get("bytes", 0) for i in v["items"])},
                **{SUM_LABEL[verd]: sum(1 for i in v["items"] if i.get("verdict") == verd)
-                  for verd in VERDICTS})
+                  for verd in VERDICTS},
+               # A 0-mined company must say WHY in the summary too, or `{}`-style output reads as a result.
+               **({"nothing_minable": v["nothing_minable"]} if v.get("nothing_minable") else {}))
            for k, v in report.items()}
     print(json.dumps(out, indent=1))
     if skipped_no_dir:
@@ -454,6 +475,22 @@ def write_dossier(cdir, slug, data):
         json.dump(data, f, indent=1)
     items = data["items"]
     n = {k: sum(1 for i in items if i.get("verdict") == k) for k in VERDICTS}
+    if data.get("nothing_minable"):
+        os.makedirs(os.path.join(cdir, "research"), exist_ok=True)
+        path = os.path.join(cdir, "research", "A4_harvest_mine.md")
+        with open(path, "w", encoding="utf-8", newline="\n") as f:
+            f.write("\n".join([
+                "# Harvest mining -- %s" % slug, "",
+                "Window applied: %s .. %s." % tuple(data["window"]), "",
+                "**NOTHING MINABLE -- and that is a finding, not a pass.** %d candidate rows exist for "
+                "this slug and **0 items were mined**, because: %s"
+                % (data["candidates"], data["nothing_minable"]), "",
+                "This is **UNANSWERED / UNTRIED, not a NULL.** The searches did not return retrievable "
+                "items, so nothing on this page says the founding-era record is absent -- it says our own "
+                "queries never got an answer. The route stays open: re-run the harvester for this slug, "
+                "and read `00_universe/harvest/_CA_ENDPOINT_TEST.md` for the Chronicling America path "
+                "defect (RD-128) before any family is called empty.", ""]) + "\n")
+        return
     named = sorted({t for i in items for t in i.get("named_terms") or []})
     other = sorted({t for i in items for t in i.get("other_terms") or []})
     lines = [

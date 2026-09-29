@@ -1,0 +1,11 @@
+{
+ "window": [
+  "1916-01-01",
+  "1940-12-31"
+ ],
+ "candidates": 8,
+ "mined": 0,
+ "untried_by_limit": 0,
+ "nothing_minable": "no candidate row is TIER1_CANDIDATE or LEAD_ONLY -- every row is UNANSWERED, i.e. the search never answered, so there is nothing to mine; and every row lacks an item_id, so no identifier exists to fetch (the harvest rows are query outcomes, not items)",
+ "items": []
+}

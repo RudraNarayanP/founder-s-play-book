@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22Berkshire+Hathaway%22+Omaha&date1=1948&date2=1998&dateFilterType=yearRange&state=Nebraska&sort=date",
+ "evidence_file": "5cb608a9fdc9306d.json",
+ "http_status": 403,
+ "content_type": "text/html; charset=UTF-8",
+ "bytes": 6469,
+ "retrieved_at": "2026-09-29T18:02:19Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "skipped (--insecure/--insecure-hosts)",
+ "error_class": "bot_challenge",
+ "redirect_location": "",
+ "cf_mitigated": "challenge",
+ "cf_ray": "a42ce5ffa8104621-DEL",
+ "retry_after": "",
+ "note": "HTTP 403 Cloudflare bot-management challenge (Cf-Mitigated: challenge, Cf-Ray: a42ce5ffa8104621-DEL). The host answered 'prove you are a browser' and never searched anything: UNANSWERED, not a null, and no parameter change will fix it",
+ "source": "chronicling_america",
+ "query_label": "CA 'Berkshire Hathaway' Omaha NE 1948-1998",
+ "company": "berkshire",
+ "kind": "search"
+}

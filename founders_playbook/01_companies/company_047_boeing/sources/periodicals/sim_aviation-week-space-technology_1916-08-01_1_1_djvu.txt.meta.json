@@ -1,0 +1,9 @@
+{
+ "identifier": "sim_aviation-week-space-technology_1916-08-01_1_1",
+ "url": "https://archive.org/download/sim_aviation-week-space-technology_1916-08-01_1_1/sim_aviation-week-space-technology_1916-08-01_1_1_djvu.txt",
+ "fetched": "2026-09-29T18:01:47Z",
+ "bytes": 149954,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

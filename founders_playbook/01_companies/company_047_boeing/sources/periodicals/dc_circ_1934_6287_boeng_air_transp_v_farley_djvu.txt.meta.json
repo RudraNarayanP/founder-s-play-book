@@ -1,0 +1,9 @@
+{
+ "identifier": "dc_circ_1934_6287_boeng_air_transp_v_farley",
+ "url": "https://archive.org/download/dc_circ_1934_6287_boeng_air_transp_v_farley/dc_circ_1934_6287_boeng_air_transp_v_farley_djvu.txt",
+ "fetched": "2026-09-29T18:05:27Z",
+ "bytes": 625596,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

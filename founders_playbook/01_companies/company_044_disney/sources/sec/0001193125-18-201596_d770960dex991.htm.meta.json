@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0001744489/000119312518201596/d770960dex991.htm",
+ "fetched": "2026-09-29T17:58:17Z",
+ "sha1": "3eedae5e177c35805b78b428f25d730384cd0412",
+ "bytes": 24706,
+ "words": 1989,
+ "cik": "0001744489",
+ "registrant": "Walt Disney Co",
+ "accession": "0001193125-18-201596",
+ "document": "d770960dex991.htm",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

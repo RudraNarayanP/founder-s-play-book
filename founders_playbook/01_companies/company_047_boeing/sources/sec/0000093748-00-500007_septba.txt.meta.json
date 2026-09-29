@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000012927/000009374800500007/septba.txt",
+ "fetched": "2026-09-29T17:57:18Z",
+ "sha1": "cb4be9b438d82c5673ffcb9955142836fbd0763c",
+ "bytes": 5503,
+ "words": 771,
+ "cik": "0000012927",
+ "registrant": "BOEING CO",
+ "accession": "0000093748-00-500007",
+ "document": "septba.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

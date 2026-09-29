@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000012927/000095010901500277/ddef14a.htm",
+ "fetched": "2026-09-29T17:57:26Z",
+ "sha1": "be10d5359afab70ae3a884b7522ebaf054892e87",
+ "bytes": 493662,
+ "words": 27725,
+ "cik": "0000012927",
+ "registrant": "BOEING CO",
+ "accession": "0000950109-01-500277",
+ "document": "ddef14a.htm",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

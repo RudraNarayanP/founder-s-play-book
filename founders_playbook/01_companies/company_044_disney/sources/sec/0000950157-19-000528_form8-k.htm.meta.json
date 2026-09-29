@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0001744489/000095015719000528/form8-k.htm",
+ "fetched": "2026-09-29T17:58:24Z",
+ "sha1": "6365ce4da94b696f3aa66ab6fcfb6549b1085107",
+ "bytes": 37922,
+ "words": 1699,
+ "cik": "0001744489",
+ "registrant": "Walt Disney Co",
+ "accession": "0000950157-19-000528",
+ "document": "form8-k.htm",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

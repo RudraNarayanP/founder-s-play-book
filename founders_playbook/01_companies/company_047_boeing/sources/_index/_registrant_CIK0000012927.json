@@ -1,0 +1,29 @@
+{
+ "cik": "0000012927",
+ "requested_cik": "12927",
+ "registrant": "BOEING CO",
+ "ticker": "BA",
+ "tickers": [
+  "BA",
+  "BA-PA"
+ ],
+ "former_names": [],
+ "company_dir": "company_047_boeing",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['boeing'] match registrant 'BOEING CO' (CIK 0000012927)"
+ ],
+ "built": "2026-09-29T17:56:50Z",
+ "count": 4026,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 85,
+ "csv_sha1": "f1dd6aec3ce2e37653cb20538ba09a0d09d62e43",
+ "csv_bytes": 371462,
+ "paths": {
+  "json": "founders_playbook/01_companies/company_047_boeing\\sources\\_index\\submissions_CIK0000012927.json",
+  "csv": "founders_playbook/01_companies/company_047_boeing\\sources\\_index\\submissions_CIK0000012927.csv",
+  "md": "founders_playbook/01_companies/company_047_boeing\\sources\\_index\\_INDEX_CIK0000012927.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

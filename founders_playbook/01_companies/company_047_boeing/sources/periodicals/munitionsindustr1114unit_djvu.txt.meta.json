@@ -1,0 +1,9 @@
+{
+ "identifier": "munitionsindustr1114unit",
+ "url": "https://archive.org/download/munitionsindustr1114unit/munitionsindustr1114unit_djvu.txt",
+ "fetched": "2026-09-29T18:04:29Z",
+ "bytes": 4594867,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}
