@@ -843,7 +843,8 @@ def parse_ca_ocr(company, query_label, body, status, note, extra=None):
                 status=200, cls="TIER1_CANDIDATE")]
 
 def parse_ia_search(company, query_label, body, status, note, window=None,
-                    family="internet_archive", gate=None, extra=None):
+                    family="internet_archive", gate=None, extra=None,
+                    year_faceted=False):
     if status != 200:
         return [unanswered_or_error(company, family, query_label, status, note,
                                     extra)]
@@ -855,6 +856,19 @@ def parse_ia_search(company, query_label, body, status, note, window=None,
                                     "unparseable: %s" % e)]
     docs = resp.get("docs") or []
     if resp.get("numFound") == 0:
+        # RD-129/Kroger: a YEAR facet manufactures nulls. Bound corporate-print runs are catalogued
+        # with year=None as often as not, so `AND YEAR:[1900 TO 1990]` returns 0 for a collection that
+        # holds 104 in-window layers -- the same query without the facet returns them. A zero produced
+        # by a parameter we control is a statement about the parameter, so it is UNANSWERED with the
+        # remedy named, never a NULL about the archive.
+        if year_faceted:
+            return [row(company, family, query_label,
+                        snippet=("UNANSWERED, not a null: numFound=0 WITH A YEAR FACET. Bound "
+                                 "print runs are frequently catalogued with year=None, so the "
+                                 "facet alone can produce this zero. Re-run the same query with "
+                                 "year_range removed before this family is called empty "
+                                 "(RD-129)."),
+                        status=200, cls="UNANSWERED")]
         return [row(company, family, query_label,
                     snippet=("EMPTY (proven null): numFound=0"
                              if family == "internet_archive" else
@@ -966,6 +980,7 @@ def parse_cp_search(company, query_label, body, status, note, window=None,
     p = task_params or {}
     return parse_ia_search(company, query_label, body, status, note,
                            window=window, family="corporate_print",
+                           year_faceted=bool(p.get("year_range")),
                            gate=_cp_gate(p.get("company_terms", []),
                                          p.get("report_terms"),
                                          p.get("identity_terms"),

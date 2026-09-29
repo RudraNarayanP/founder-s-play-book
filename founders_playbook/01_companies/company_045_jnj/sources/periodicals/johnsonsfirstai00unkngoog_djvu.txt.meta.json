@@ -1,0 +1,9 @@
+{
+ "identifier": "johnsonsfirstai00unkngoog",
+ "url": "https://archive.org/download/johnsonsfirstai00unkngoog/johnsonsfirstai00unkngoog_djvu.txt",
+ "fetched": "2026-09-29T18:05:02Z",
+ "bytes": 316901,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

@@ -1,0 +1,9 @@
+{
+ "identifier": "americandruggis13unkngoog",
+ "url": "https://archive.org/download/americandruggis13unkngoog/americandruggis13unkngoog_djvu.txt",
+ "fetched": "2026-09-29T18:03:35Z",
+ "bytes": 2749231,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

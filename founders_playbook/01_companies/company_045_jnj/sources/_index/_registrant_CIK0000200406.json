@@ -1,0 +1,30 @@
+{
+ "cik": "0000200406",
+ "requested_cik": "200406",
+ "registrant": "JOHNSON & JOHNSON",
+ "ticker": "JNJ",
+ "tickers": [
+  "JNJ"
+ ],
+ "former_names": [
+  "JOHNSON & JOHNSON ET AL"
+ ],
+ "company_dir": "company_045_jnj",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['jnj'] match registrant 'JOHNSON & JOHNSON' (CIK 0000200406)"
+ ],
+ "built": "2026-09-29T17:58:44Z",
+ "count": 3371,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 134,
+ "csv_sha1": "74685ca3a3741d4bf95f94f4a857dc1f3a46e132",
+ "csv_bytes": 306130,
+ "paths": {
+  "json": "founders_playbook/01_companies/company_045_jnj\\sources\\_index\\submissions_CIK0000200406.json",
+  "csv": "founders_playbook/01_companies/company_045_jnj\\sources\\_index\\submissions_CIK0000200406.csv",
+  "md": "founders_playbook/01_companies/company_045_jnj\\sources\\_index\\_INDEX_CIK0000200406.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

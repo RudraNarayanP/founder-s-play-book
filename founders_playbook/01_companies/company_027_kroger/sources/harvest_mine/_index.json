@@ -1,0 +1,59 @@
+{
+ "window": [
+  "1883-01-01",
+  "1960-12-31"
+ ],
+ "candidates": 18,
+ "mined": 6,
+ "untried_by_limit": 10,
+ "items": [
+  {
+   "identifier": "NNn52klcXpsC",
+   "date": "1905-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried NNn52klcXpsC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "GEA_AQAAMAAJ",
+   "date": "1901-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried GEA_AQAAMAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "nYAwAQAAMAAJ",
+   "date": "1914-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried nYAwAQAAMAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "7ZFBAQAAMAAJ",
+   "date": "1921-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried 7ZFBAQAAMAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "PvyrwBlrrQUC",
+   "date": "1940-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried PvyrwBlrrQUC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "FeFLAQAAMAAJ",
+   "date": "1922-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried FeFLAQAAMAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  }
+ ]
+}

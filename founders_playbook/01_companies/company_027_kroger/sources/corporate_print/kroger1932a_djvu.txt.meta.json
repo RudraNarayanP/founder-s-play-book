@@ -1,0 +1,10 @@
+{
+ "identifier": "krogercoannualreports",
+ "subfile": "kroger1932a_djvu.txt",
+ "url": "https://archive.org/download/krogercoannualreports/kroger1932a_djvu.txt",
+ "fetched": "2026-09-29T18:03:52Z",
+ "bytes": 138333,
+ "route": "download/krogercoannualreports/<subfile> (bound annual-report run, OCR layer)",
+ "note": "ia_text.fetch() cannot address sub-files of a multi-report item; per-layer fetch scripted through ia_text.get/ocr_url",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

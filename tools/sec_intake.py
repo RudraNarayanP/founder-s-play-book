@@ -831,6 +831,45 @@ def nameless_row(accession, form, filing_date, item, listing_note, cik):
             "cik": cik10(cik), "slot": "nameless:%s:%s" % (accession, item.get("size"))}
 
 
+def resolve_name(name):
+    r"""Positional identity for `index/facts/grab/auto`: a bare CIK, a ticker, or a registrant name.
+
+    Five agents were briefed `auto "Boeing" --company-dir ...` and argparse rejected it as an
+    unrecognized argument, which is a documentation defect in the tool, not in the agents: the working
+    form was only `--ticker/--cik`. So the positional form now works. What it still refuses is to guess
+    -- an unmatched or ambiguous name is an error that names the working flags, because silently
+    resolving "Dell" to the wrong registrant is the 2026-09-26 CIK-clobber this tool already documents.
+    """
+    s = (name or "").strip()
+    if not s:
+        return None, None, "empty"
+    if re.fullmatch(r"\d{1,10}", s):
+        return cik10(s), None, "cik-digits"
+    if re.fullmatch(r"[A-Za-z]{1,5}", s) and not s.islower():
+        cik, title = resolve_ticker(s)
+        if cik:
+            return cik, title, "ticker"
+    s_, body, note = http_get("https://www.sec.gov/files/company_tickers.json")
+    if body is None:
+        raise SystemExit("name resolution needs the ticker map, which failed: %s" % note)
+    j = json.loads(body)
+    want = _norm_name(s)
+    hits = sorted({(v.get("cik_str"), v.get("title")) for v in j.values()
+                   if _norm_name(v.get("title") or "") == want})
+    if len(hits) == 1:
+        return hits[0][0], hits[0][1], "name-exact"
+    if hits:
+        return None, None, "AMBIGUOUS name %r -> %s; pass --cik" % (
+            s, ", ".join("%s (%s)" % (t, c) for c, t in hits))
+    # Fall back to a unique prefix/containment match, but only when exactly one registrant fits.
+    partial = sorted({(v.get("cik_str"), v.get("title")) for v in j.values()
+                      if want and want in _norm_name(v.get("title") or "")})
+    if len(partial) == 1:
+        return partial[0][0], partial[0][1], "name-contains-unique"
+    return None, None, ("NO-MATCH name %r (%d candidates); pass --ticker or --cik"
+                        % (s, len(partial)))
+
+
 def build_plan(cik, rows, lo, hi, docs_per_filing, max_docs):
     """(plan, unanswered, listing_notes, visited, unvisited) -- enumerate document slots.
 
@@ -1146,6 +1185,8 @@ def main():
     sub = ap.add_subparsers(dest="cmd", required=True)
     for name in ("index", "facts", "grab", "auto"):
         p = sub.add_parser(name)
+        p.add_argument("identity", nargs="?",
+                       help="CIK, ticker, or registrant name (equivalent to --cik/--ticker)")
         p.add_argument("--cik")
         p.add_argument("--company-dir")
         p.add_argument("--ticker")
@@ -1179,10 +1220,17 @@ def main():
         print(json.dumps({"ticker": a.ticker.upper(), "cik": cik, "name": title}))
         return 0 if cik else 2
 
+    if not a.cik and getattr(a, "identity", None):
+        cik, title, how = resolve_name(a.identity)
+        if not cik:
+            raise SystemExit("identity %r not resolved: %s -- pass --cik or --ticker explicitly"
+                             % (a.identity, how))
+        a.cik = cik
+        print("identity: %r resolved to CIK %s (%s) by %s" % (a.identity, cik, title, how))
     if not a.cik and a.ticker:
         a.cik, _ = resolve_ticker(a.ticker)
     if not a.cik:
-        raise SystemExit("need --cik or --ticker")
+        raise SystemExit("need --cik, --ticker, or a positional CIK/ticker/registrant name")
     if not a.company_dir:
         raise SystemExit("need --company-dir")
 
@@ -1233,7 +1281,26 @@ def main():
                          r.get("untagged_bytes", 0)))
             rc = 1
     if a.cmd == "grab":
-        print(json.dumps(grab(a.company_dir, a.cik, a.accession, a.file or "index-headers.txt")))
+        # D-1 (Boeing probe, 2026-09-29): with no --file this invented "index-headers.txt", 404'd on
+        # every path form, and printed a confident result for a file that does not exist in the
+        # accession. An unspecified file is now an ENUMERATION, not a guess.
+        if a.file:
+            print(json.dumps(grab(a.company_dir, a.cik, a.accession, a.file)))
+        else:
+            listing, lnote = doc_listing(a.cik, a.accession)
+            if not listing:
+                print(json.dumps({"accession": a.accession, "file": None, "status":
+                                  "UNANSWERED -- directory listing failed (%s); no file was guessed"
+                                  % lnote, "path": "", "bytes": 0}))
+            else:
+                names = [it.get("name") for it in listing if it.get("name")]
+                pick = [n for n in names if re.search(r"\.(txt|htm|html)$", n, re.I)]
+                primary = next((n for n in names if n.endswith("index.html")), "")
+                print("grab: accession %s holds %d documents; --file was not given, so nothing was "
+                      "assumed. Text/HTML candidates: %s" % (
+                          a.accession, len(names), ", ".join(pick[:8]) or "none"))
+                print("grab: re-run with --file <name>, or run `auto` which plans from the index's "
+                      "primaryDocument (%s)" % (primary or "unknown"))
     if a.cmd == "auto":
         if rows is None:
             raise SystemExit("auto needs the submissions index")
