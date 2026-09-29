@@ -2469,3 +2469,49 @@ verdict, not a null, and belong in the same lane as UNANSWERED until read.
 unclassifiable. Reading three of them printed a 404 title in the first 200 bytes. **A classifier's residual
 bucket must be sampled, not summarised** -- that is the same failure that let 162 acronym hits through as
 Tier 1 an hour earlier, arriving from the other direction.
+
+### RD-129 -- the tail is now scaffolded, and the newspaper route's cause is a wrong path, not a refusal
+
+Two structural unblocks, both script work at zero model cost.
+
+**1. `tools/scaffold_company.py` -- 37 directories created, 110 bytes moved in, 0 clashes.** Until now
+**scaffolding, not searching, was what stopped the tail**: 37 of 50 slugs had no company directory, so
+1,051 harvest rows and 11.4 MB of founding-decade print sat in `mine_bytes/<slug>/` where no gate, no
+`company_status` line and no agent could reach them. Ranks come from the frozen universe CSV and slugs
+from the **harvester's own vocabulary** (what `candidates.csv` and `mine_bytes` are keyed by) by matching
+normalised names -- 46 of 50 matched cleanly, and the four abbreviations no containment test can bridge
+(`bofa`, `gm`, `jnj`, `ups`) are aliased **explicitly with the alias table printed**, so a wrong alias is
+visible instead of silently mis-numbering a company. The tool creates directories and empty
+`research/_parts/sources/corporate_print` only: **no dossier, no register, no verdict, no STATUS line**,
+because a script that writes a plausible-looking empty structure invites a later reader to trust it.
+Berkshire, untouched until tonight, lands with **1972 and 1974 annual-report layers already on disk** --
+family (d), the one that moved Walmart's tier, sitting there unread.
+
+**2. `tools/ca_endpoint_probe.py`, wired into the nightly workflow -- RD-128's cause confirmed.**
+The runner has now produced the same LoC **404** on three consecutive nights (09-27, -28, -29): 209 CA
+rows, **0 answers, 122 UNANSWERED**. `periodical_harvest.py` sends
+`www.loc.gov/chroniclingamerica/search/pages/results/?format=json`, and a 404 means that path does not
+exist. So the sentence "Chronicling America refuses this project" -- which has been the reason we recorded
+the pre-1962 newspaper family as unreachable since 2026-09-24 -- **has never been supported by evidence**,
+and no retry from any egress changes it. From this machine all seven candidate shapes return **403 behind
+Cloudflare**, which is exactly why the probe runs on CI: locally a wrong path and a blocked client are
+indistinguishable, and that indistinguishability is what let the error survive five days. GitHub reached a
+real 404, so GitHub can read a real 200. The step is `continue-on-error` and `if: always()`, because an
+all-challenged result is information, not a broken build. **The rule it encodes: before calling a route
+blocked, prove the request was well-formed -- otherwise you are reporting on your own client.**
+
+**Wave dispatched (12 concurrent, all disjoint paths):** Microsoft and UnitedHealth Stage-1 merges; Target
+Stage-1 certification (certifier is not the author, merger or repairer); Alphabet, Costco and Nvidia part 2
+(§G-U) and Tesla part 2; Berkshire, Boeing, Kroger, Disney and J&J Stage-1 probes; plus the fleet
+`harvest_mine` over the 37 newly scaffolded slugs. **Target's `sources.csv` repair is deliberately held** --
+it failed launch twice on the daily chat limit, and the certifier is reading those registers now (§14 rule 6:
+never run a repair under a reader), so it goes out with the certifier's own findings folded in.
+
+Every part-2 brief now carries the **emission contract** that RD-127 forced me to discover: a fenced
+```csv block whose first line is the header row, each block preceded by its own
+`>>> REGISTER ROWS FOR MERGE <<<`, because `merge_census.py` attributes by column overlap only within 1,200
+characters of that marker and a bare heading is not machine-attributable -- Microsoft reported *"no
+attributable merge-request blocks found"* while holding nine real blocks. And every brief restates the two
+habits this run was billed for: **enumerate the CSV header before reading a field by name** (four passes,
+mine included, got a confidently wrong count from an assumed column), and **take an instrument's date from
+the filing index, never from a filename or listing order**.
