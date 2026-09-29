@@ -1,0 +1,2612 @@
+AD-A189  lf»  ADA  (TRADE  NAME)  COMPILER  VALIDATION  SUAHARV  REPORT: 
+
+ATOT  UNIX  ADA  RELEASE  10  JB27S80(U>  INFORMATION  SVSTEAS 
+AND  TECHNOLOGY  CENTER  H-P  AFB  OH  ADA  VALI.  .  21  FEB  87 
+
+UNCLASSIFIED  AVF-VSR-50.  0587  F/0  1275 
+
+
+AD-A189  360 
+
+
+DIIC  tlLE  CUb 
+
+
+AVF  Control  Number:  AVF-VSR-56.0537 
+
+S6-11-25-ATT 
+
+
+Ada®  COMPILER 
+VALIDATION  SUMMARY  REPORT: 
+AT&T 
+
+UNIX  Ada,  Release  1.0 
+3B2/600 
+
+
+Completion  of  On-Site  Testing: 
+21  February  1987 
+
+
+Prepared  By: 
+
+Ada  Validation  Facility 
+AS D/S COL 
+
+Wright-Patterson  AFB  OH  45433-6503 
+
+
+Prepared  For: 
+
+Ada  Joint  Program  Office 
+United  States  Department  of  Defense 
+Washington,  D.C. 
+
+
+DTIC 
+
+
+ELECTE 
+DEC  2  9  1987 
+
+
+H 
+
+
+®Ada  is  a  registered  trademark  of  the  United  States  Government 
+(Ada  Joint  Program  Office). 
+
+
+DjSTRgUTjbN  STATEMENT  A~~|  87  J  2  14  164 
+
+Approved  for  public  release;  I 
+
+' "  '  ■  '■'<  i  U  limited 
+
+
+Ls  UNCLASSIFIED 
+
+
+URITY  CLASSIFICATION  OF  THIS  PAGE  (When  Data  Entered). 
+
+
+REPORT  DOCUMENTATION  PAGE 
+
+READ  INSTRUCTIONS 
+
+BEFORE  aiMPLFTEING  FORM 
+
+1.  REPORT  NUMBER  |2.  GOVT  ACCESSION  NO. 
+
+3.  RECIPIENT'S  CATALOG  NUMBER 
+
+4.  TITLE  (and  Subtitle) 
+
+Ada  Compiler  Validation  Summary  Report: 
+
+AT&T,  UNIX  Ada,  Release  1.0,  3B2/600 
+
+5.  TYPE  OF  REPORT  &  PERIOD  COVERED 
+
+21  I eb. 1 87  to  21  Feb  ’ 88 
+
+6.  PERFORMING  0RG.  REPORT  NUMBER 
+
+7.  AUTHQRfj)  .  „ 
+
+Wrignt-ratterson  AFB 
+
+8.  CONTRACT  OR  GRANT  NUMBERM 
+
+9.  PERFORMING  ORGANIZATION  ANO  ADDRESS 
+
+Wright  -Patterson  AFB,  OH  45433066503 
+
+10.  PROGRAM  ELEMENT,  PROJECT,  TASK 
+AREA  &  WORK  UNIT  NUMBERS 
+
+11.  CONTROLLING  OFFICE  NAME  AND  ADDRESS 
+
+Ada  Joint  Program  Office 
+
+12.  REPORT  DATE 
+
+21  Feb. '87 
+
+Washington,  DC  20301-3081ASD/SIOL 
+
+33 
+
+14.  MONITORING  AGENCY  NAME  &  ADDRESSEE different  from  Controlling  Office) 
+
+Wright-Patterson  AFB 
+
+15.  SECURITY  CLASS  (of  this  report) 
+
+UNCLASSIFIED 
+
+15a.  ^^A^JFICAT ION/DOWNGRADING 
+
+N/A 
+
+16.  DISTRIBUTION  STATEMENT  (of  this  Report) 
+
+Approved  for  public  release;  distribution  unlimited. 
+
+17.  DISTRIBUTION  STATEMENT  (of  the  abstract  entered  in  Block  20.  If  different  from  Report) 
+
+UNCLASSIFIED 
+
+18.  SUPPLEMENTARY  NOTES 
+
+19  .  KEYWORDS  (Continue  on  reverse  side  if  necessary  and  identify  by  block  number) 
+
+Ada  Programming  language,  Ada  Compiler  Validation  Summary  Report,  Ada 
+Compiler  Validation  Capability,  ACVC,  Validation  Testing,  Ada 
+
+Validation  Office,  AVO,  Ada  Validation  Facility,  AVF,  ANSI/MIL-STD- 
+1815A,  Ada  Joint  Program  Office,  AJPO 
+
+20  .  ABSTRACT  (Continue  on  reverse  side  if  necessary  and  identify  by  block  number) 
+
+See  Attached. 
+
+YU**  1473  EDITION  OF  1  NOV  65  IS  OBSOLETE 
+
+1  JAN  73  S/N  0 102-LF -0 14-6601  _ UNCLASSIFIED 
+
+
+SECURITY  CLASSIFICATION  OF  THIS  PAGE  (When  Data  Entered) 
+
+
+v  *v  *wjvv  yj  ywv  tuwitj  w^ttfjtctt jy?  w,  vv  wvwv  ttj  y? 
+
+
+Ada®  Compiler  Validation  Summary  Report: 
+
+
+Compiler  Name: 
+
+Host: 
+
+3B2/600  under 
+UNIX  System  V, 
+
+Release  3.1.1 
+
+
+UNIX  Ada,  Release  1.0 
+Target: 
+
+332/600  under 
+UNIX  System  V, 
+Release  3*1.1 
+
+
+Testing  Completed  21  February  1937  Using  ACVC  1.8 
+
+
+This  report  has  been  reviewed  and  is  approved, 
+
+
+Ada  Validation  Facility 
+Georgeanne  Chitwood 
+ASD/SIOL 
+
+Wright-Patterson  AFB  OH  45433-6503 
+
+
+Ada  Validation  Organization 
+Dr.  John  F.  Kramer 
+Institute  for  Defense  Analyses 
+Alexandria  VA 
+
+
+Ada  >oint  Program  Office 
+
+
+Virginia  L.  Castor 
+Director 
+
+
+) 
+
+
+Department  of  Defense 
+Washington  DC 
+
+
+\\  y 
+
+
+0  \  :•  L i,\  *.  '  / 
+
+AvniJ-bilU-. 
+
+
+'Ada  is  a  registered  trademark  of  the  United  States  Government  utnt 
+(Ada  Joint  Program  Office).  1 
+
+
+1 
+
+
+EXECUTIVE  SUMMARY 
+
+
+This  Validation  Summary  Report  (VSR)  summarizes  the  results  and  conclusions 
+of  validation  testing  performed  on  the  UNIX  Ada,  Release  '.0,  using  Version 
+1.8  of  the  Ada®  Compiler  Validation  Capability  (ACVC).  The  UNIX  Ada  is 
+hosted  on  a  3B2/600  operating  under  UNIX  System  V,  Release  3.1.1.  Programs 
+processed  by  this  compiler  may  be  executed  on  a  3B2/600  operating  under 
+UNIX  SYSTEM  V,  Release  3.1.1. 
+
+On-site  testing  was  performed  16  February  1987  through  21  February  1987  at 
+AT&T,  Summit  NJ,  under  the  direction  of  the  Ada  Validation  Facility  (AVF), 
+according  to  Ada  Validation  Organization  (AVO)  policies  and  procedures. 
+The  AVF  identified  2210  of  the  2399  tests  in  ACVC  Version  1.8  to  be 
+processed  during  on-site  testing  of  the  compiler.  The  19  tests  withdrawn 
+at  the  time  of  validation  testing,  as  well  as  the  170  executable  tests  that 
+make  use  of  floating-point  precision  exceeding  that  supported  by  the 
+implementation,  were  not  processed.  After  the  2210  tests  were  processed, 
+results  for  Class  A,  C,  D,  or  E  tests  were  examined  for  correct  execution. 
+Compilation  listings  for  Class  B  tests  were  analyzed  for  correct  diagnosis 
+of  syntax  and  semantic  errors.  Compilation  and  link  results  of  Class  L 
+tests  were  analyzed  for  correct  detection  of  errors.  There  were  56  of  the 
+processed  tests  determined  to  be  inapplicable.  The  remaining  2154  tests 
+were  passed. 
+
+The  results  of  validation  are  summarized  in  the  following  table: 
+
+
+RESULT 
+
+2 
+
+3 
+
+4 
+
+5 
+
+6 
+
+CHAPTER 
+
+7  8  9 
+
+10 
+
+11 
+
+12 
+
+14 
+
+TOTAL 
+
+Passed 
+
+89 
+
+252 
+
+334 
+
+243 
+
+161 
+
+97 
+
+136 
+
+261 
+
+109 
+
+32 
+
+217 
+
+223 
+
+2154 
+
+Failed 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+Inapplicable 
+
+27 
+
+73 
+
+86 
+
+4 
+
+0 
+
+0 
+
+3 
+
+1 
+
+2 1 
+
+0 
+
+1 
+
+10 
+
+226 
+
+Withdrawn 
+
+0 
+
+5 
+
+5 
+
+0 
+
+0 
+
+1 
+
+1 
+
+2 
+
+4 
+
+0 
+
+1 
+
+0 
+
+19 
+
+TOTAL 
+
+116 
+
+330 
+
+425 
+
+247 
+
+-  r  * 
+
+l  O  1 
+
+98 
+
+140 
+
+264 
+
+134 
+
+32 
+
+219 
+
+233 
+
+2399 
+
+The  AVF  concludes  that  these  results  demonstrate  acceptable  conformity  to 
+ANSI/MIL-STD-1815A  Ada. 
+
+
+®  Ada  is  a  registered  trademark  of  the  United  States  Government 
+(Ada  Joint  Program  Office). 
+
+
+TABLE  OF  CONTENTS 
+
+
+CHAPTER  1 
+
+
+1.1 
+1 .2 
+
+1.3 
+
+1.4 
+
+1.5 
+
+
+INTRODUCTION 
+
+PURPOSE  OF  THIS  VALIDATION  SUMMARY  REPORT  ....  1-2 
+
+USE  OF  THIS  VALIDATION  SUMMARY  REPORT . 1-2 
+
+REFERENCES . 1-3 
+
+DEFINITION  OF  TERMS . 1-3 
+
+ACVC  TEST  CLASSES . 1-4 
+
+
+CHAPTER  2 
+
+
+CONFIGURATION  INFORMATION 
+
+
+2.1  CONFIGURATION  TESTED  . 
+
+2.2  IMPLEMENTATION  CHARACTERISTICS 
+
+
+2-1 
+
+2-2 
+
+
+CHAPTER  3 
+
+
+TEST  INFORMATION 
+
+
+3.1 
+
+3.2 
+
+3.3 
+
+3.4 
+
+3.5 
+
+3.6 
+
+3.7 
+
+3.7.1 
+
+3.7.2 
+
+3.7.3 
+
+
+APPENDIX  A 
+
+
+TEST  RESULTS . 3-1 
+
+SUMMARY  OF  TEST  RESULTS  BY  CLASS . 3-1 
+
+SUMMARY  OF  TEST  RESULTS  BY  CHAPTER . 3-2 
+
+WITHDRAWN  TESTS  .  3-2 
+
+INAPPLICABLE  TESTS  .  3-2 
+
+SPLIT  TESTS . 3-4 
+
+ADDITIONAL  TESTING  INFORMATION  .  3-4 
+
+Prevalidation  .  3-4 
+
+Test  Method . 3-5 
+
+Test  Site . 3-5 
+
+
+COMPLIANCE  STATEMENT 
+
+
+APPENDIX  3 
+
+
+APPENDIX  F  OF  THE  Ada  STANDARD 
+
+
+APPENDIX  C 
+
+
+APPENDIX  D 
+
+
+TEST  PARAMETERS 
+
+
+WITHDRAWN  TESTS 
+
+
+CHAPTER  i 
+INTRODUCTION 
+
+
+This  Validation  Summary  Report  (VSR)  describes  the  extent  to  which  a 
+specific  Ada  compiler  conforms  to  the  Ada  Standard,  ANSI/MIL-STD-1815A. 
+This  report  explains  all  technical  terms  -'used  within  it  ~  and  thoroughly 
+reports  the  results  of  testing  this  compiler  using  the  Ada  Compiler 
+Validation  Capability  (ACVC).  An  Ada  compiler  must  be  implemented 
+according  to  the  Ada  Standard,  and  any  implementation-dependent  features 
+must  conform  to  the  requirements  of  the  Ada  Standard.  The  Ada  Standard 
+must  be  implemented  in  its  entirety,  and  nothing  can  be  implemented  that  is 
+not  in  the  Standard. 
+
+Even  though  all  validated  Ada  compilers  conform  to  the  Ada  Standard,  it 
+must  be  understood  that  some  differences  do  exist  between  Implementations . 
+The  Ada  Standard  permits  some  implementation  dependencies--for  example,  the 
+maximum  length  of  identifiers  or  the  maximum  values  of  integer  types. 
+Other  differences  between  compilers  result  from  characteristics  of 
+particular  operating  systems,  hardware,  or  implementation  strategies.  All 
+of  the  dependencies  observed  during  the  process  of  testing  this  compiler 
+are  given  in  this  report. 
+
+The  Information  in  this  report  is  derived  from  the  test  results  produced 
+during  validation  testing.  --The  validation  process  includes  submitting  a 
+suite  of  standardized  tests,  the  ACVC,  as  inputs  to  an  Ada  compiler  and 
+evaluating  the  results.  The  purpose  of  validating  is  to  ensure  conformity 
+of  the  compiler  to  the  Ada  Standard  by  testing  that  tne  compiler  properly 
+implements  legal  language  constructs  and  that  it  identifies  and  rejects 
+illegal  language  constructs.  The  testing  also  identifies  behavior  that  is 
+implementation  dependent  but  permitted  by  the  Ada  Standard.  .  Six  classes  of 
+tests  are  used.  These  tests  are  designed  to  perform  checks  at  compile 
+time,  at  link  time,  and  during  execution.  « 
+
+
+INlUlFIWlilff 
+
+
+INTRODUCTION 
+
+
+1.1  PURPOSE  OF  THIS  VALIDATION  SUMMARY  REPORT 
+
+This  VSR  documents  the  results  of  the  validation  testing  performed  on  an 
+Ada  compiler.  Testing  was  carried  out  for  the  following  purposes: 
+
+.  To  attempt  to  identify  any  language  constructs  supported  by  the 
+compiler  that  do  not  conform  to  the  Ada  Standard 
+
+.  To  attempt  to  identify  any  unsupported  language  constructs 
+required  by  the  Ada  Standard 
+
+.  To  determine  that  the  implementation-dependent  behavior  is  allowed 
+by  the  Ada  Standard 
+
+
+Testing  of  this  compiler  was  conducted  by  SofTech,  Inc.,  under  the 
+direction  of  the  AVF  according  to  policies  and  procedures  established  by 
+the  Ada  Validation  Organization  (AVO).  On-site  testing  was  conducted  from 
+16  February  1987  through  21  February  1987  at  AT&T,  Summit  NJ. 
+
+
+1 .2  USE  OF  THIS  VALIDATION  SUMMARY  REPORT 
+
+Consistent  with  the  national  laws  of  the  originating  country,  the  AVO  may 
+make  full  and  free  public  disclosure  of  this  report.  In  the  United  States, 
+this  Is  provided  in  accordance  with  the  "Freedom  of  Information  Act"  (5 
+U.S.C.  #552).  The  results  of  this  validation  apply  only  to  the  computers, 
+operating  systems,  and  compiler  versions  identified  in  this  report. 
+
+The  organi zations  represented  on  the  signature  page  of  this  report  do  not 
+represent  or  warrant  that  all  statements  set  forth  m  this  report  are 
+accurate  and  complete,  or  that  the  subject  compiler  has  no  nonconformities 
+to  the  Ada  Standard  other  than  those  presented.  Copies  of  this  report  are 
+available  to  the  public  from: 
+
+Ada  Information  Clearinghouse 
+Ada  Joint  Program  Office 
+OUSDRE 
+
+The  Pentagon,  Rm  3D— 139  (Fern  Street) 
+
+Washington  X  2030 1-1031 
+
+
+or  from: 
+
+
+Ada  Validation  Facility 
+ASD/SCOL 
+
+Wright-Patterson  AFB  OH  45433-6503 
+
+
+. i  .■ijl.'u  „ ; 
+
+
+Questions  regarding  this  report  or  the  validation  test  results  should  be 
+directed  to  the  AVF  listed  above  or  to: 
+
+Ada  Validation  Organization 
+Institute  for  Defense  Analyses 
+1301  North  Beauregard  Street 
+Alexandria  VA  22311 
+
+
+1.3  REFERENCES 
+
+
+1.  Reference  Manual  for  the  Ada  Programming  Language, 
+
+ANSI/MIL-STD-  1 81  5A,  FE3  1  933. 
+
+2.  Ada  Validation  Organl zatlon:  P rocedures  and  Gul deli nes  ,  Ada  Joint 
+Program  Office,  1  JAN  1987. 
+
+3.  Ada  Compiler  Validation  Capability  Implementers'  Guide,  SofTech, 
+Inc.,  DEC  1984. 
+
+
+1.4  DEFINITION  OF  TERMS 
+
+
+ACVC  The  Ada  Compiler  Validation  Capability.  A  set  of  programs 
+
+that  evaluates  the  conformity  of  a  compiler  to  the  Ada 
+language  specification,  ANSI/MIL-STD- 181  5A. 
+
+
+Ada  Standard  ANSI/MIL-STD-1815A,  February  1983. 
+
+
+Applicant 
+
+
+The  agency  requesting  validation. 
+
+
+AVF 
+
+
+AVO 
+
+
+The  Ada  Validation  Facility.  In  the  context  of  this  report, 
+the  AVF  is  responsible  for  conducting  compiler  validations 
+according  to  established  policies  and  procedures. 
+
+The  Ada  Validation  Organization.  In  the  context  of  this 
+report,  the  AVO  is  responsible  for  setting  procedures  for 
+compiler  valiaations. 
+
+
+Compiler  A  processor  for  the  Ada  language.  In  the  context  of  this 
+
+report,  a  compiler  is  any  language  processor,  including 
+cross-compilers,  translators,  and  interpreters. 
+
+
+Failed  test  A  test  for  which  the  compiler  generates  a  result  that 
+demonstrates  nonconformity  to  the  Ada  Standard. 
+
+
+Host 
+
+
+The  computer  on  which  the  compiler  resides. 
+
+
+1-3 
+
+
+V 
+
+il» 
+
+
+a 
+
+
+INTRODUCTION 
+
+
+Inapplicable  A  test  that  uses  features  of  the  language  that  a  compiler  is 
+test  not  required  to  support  or  may  legitimately  support  in  a  way 
+
+other  than  the  one  expected  by  the  test. 
+
+Passed  test  A  test  for  which  a  compiler  generates  the  expected  result. 
+
+
+Target 
+
+
+Withdrawn 
+
+test 
+
+
+The  computer  for  which  a  compiler  generates  code. 
+
+A  program  that  checks  a  compiler's  conformity  regarding  a 
+particular  feature  or  features  to  the  Ada  Standard.  In  the 
+context  of  this  report,  the  term  is  used  to  designate  a 
+single  test,  which  may  comprise  one  or  more  files. 
+
+A  test  found  to  be  incorrect  and  not  used  to  check  conformity 
+to  the  Ada  language  specification.  A  test  may  be  incorrect 
+because  it  has  an  invalid  test  objective,  fails  to  meet  its 
+test  objective,  or  contains  illegal  or  erroneous  use  of  the 
+language . 
+
+
+1.5  A CVC  TEST  CLASSES 
+
+Conformity  to  the  Ada  Standard  is  measured  using  the  ACVC.  The  ACVC 
+contains  both  legal  and  illegal  Ada  programs  structured  into  six  test 
+classes:  A,  B,  C,  D,  E,  and  L.  The  first  letter  of  a  test  name  identifies 
+the  class  to  which  it  belongs.  Class  A,  C,  D,  and  E  tests  are  executable, 
+and  special  program  units  are  used  to  report  their  results  during 
+execution.  Class  B  tests  are  expected  to  produce  compilation  errors. 
+Class  L  tests  are  expected  to  produce  link  errors. 
+
+Class  A  tests  check  that  legal  Ada  programs  can  be  successfully  compiled 
+and  executed.  However,  no  checks  are  performed  during  execution  to  see  if 
+the  test  objective  has  been  met.  For  example,  a  Class  A  test  checks  that 
+reserved  words  of  another  language  (other  than  those  already  reserved  in 
+the  Ada  language)  are  not  treated  as  reserved  words  by  an  Ada  compiler.  A 
+Class  A  test  is  passed  if  no  errors  are  detected  at  compile  time  and  the 
+program  executes  to  produce  a  PASSED  message. 
+
+Class  B  tests  check  that  a  compiler  detects  illegal  language  usage.  Class 
+B  tests  are  not  executable.  Each  test  in  this  class  is  compiled  and  the 
+resulting  compilation  listing  is  examined  to  verify  that  every  syntax  or 
+semantic  error  In  the  test  is  detected.  A  Class  3  test  is  passed  if  every 
+illegal  construct  that  it  contains  is  detected  by  the  compiler. 
+
+Class  C  tests  check  that  legal  Ada  programs  can  be  correctly  compiled  and 
+executed.  Each  Class  C  test  is  self-checking  and  produces  a  PASSED, 
+FAILED,  or  NOT  APPLICABLE  message  indicating  the  result  when  it  is 
+executed . 
+
+Class  D  tests  check  the  compilation  and  execution  capacities  of  a  compiler. 
+Since  there  are  no  capacity  requirements  placed  on  a  compiler  by  the  Ada 
+Standard  for  some  parameters — for  example,  the  number  of  identifiers 
+
+
+permitted  in  a  compilation  or  the  number  of  units  in  a  library — a  compiler 
+may  refuse  to  compile  a  Class  D  test  and  still  be  a  conf orming  compiler. 
+Therefore,  if  a  Class  D  test  fails  to  compile  because  the  capacity  of  the 
+compiler  is  exceeded,  the  test  is  classified  as  inapplicable.  If  a  Class  D 
+test  compiles  successfully,  it  is  self-checking  and  produces  a  PASSED  or 
+FAILED  message  during  execution. 
+
+Each  Class  E  test  is  self-checking  and  produces  a  NOT  APPLICABLE,  PASSED, 
+or  FAILED  message  when  it  is  compiled  and  executed.  However,  the  Ada 
+Standard  permits  an  implementation  to  reject  programs  containing  some 
+features  addressed  by  Class  E  tests  during  compilation.  Therefore,  a  Class 
+E  test  is  passed  by  a  compiler  if  it  is  compiled  successfully  and  executes 
+to  produce  a  PASSED  message,  or  if  it  is  rejected  by  the  compiler  for  an 
+allowable  reason. 
+
+Class  L  tests  check  that  incomplete  or  illegal  Ada  programs  involving 
+multiple,  separately  compiled  units  are  detected  and  not  allowed  to 
+execute.  Class  L  tests  are  compiled  separately  and  execution  is  attempted. 
+A  Class  L  test  passes  if  it  is  rejected  at  link  time — that  is,  an  attempt 
+to  execute  the  main  program  must  generate  an  error  message  before  any 
+declarations  in  the  main  program  or  any  units  referenced  by  the  main 
+program  are  elaborated. 
+
+Two  library  units,  the  package  REPORT  and  the  procedure  CHECK_FILE,  support 
+the  self-checking  features  of  the  executable  tests.  The  package  REPORT 
+provides  the  mechanism  by  which  executable  tests  report  PASSED,  FAILED,  or 
+NOT  APPLICABLE  results.  It  also  provides  a  set  of  identity  functions  used 
+to  defeat  some  compiler  optimizations  allowed  by  the  Ada  Standard  that 
+would  circumvent  a  test  objective.  The  procedure  CHECK_FILE  is  used  to 
+check  the  contents  of  text  files  written  by  some  of  the  Class  C  tests  for 
+chapter  14  of  the  Ada  Standard.  The  operation  of  these  units  is  checked  by 
+a  set  of  executable  tests.  These  tests  produce  messages  that  are  examined 
+to  verify  that  the  units  are  operating  correctly.  If  these  units  are  not 
+operating  correctly,  then  the  validation  is  not  attempted. 
+
+The  text  of  the  tests  in  the  ACVC  follow  conventions  that  are  intended  to 
+ensure  that  the  tests  are  reasonably  portable  without  modification.  For 
+example,  the  tests  make  use  of  only  the  basic  set  of  55  characters,  contain 
+lines  with  a  maximum  length  of  72  characters,  use  small  numeric  values,  and 
+place  features  that  may  not  be  supported  by  all  implementations  in  separate 
+tests.  However,  some  tests  contain  values  that  require  the  test  to  be 
+customized  according  to  implementation-specific  values — for  example,  an 
+illegal  file  name.  A  list  of  the  values  used  for  this  validation  is 
+provided  in  Appendix  C. 
+
+A  compiler  must  correctly  process  each  of  the  tests  in  the  suite  and 
+demonstrate  conformity  to  the  Ada  Standard  by  either  meeting  the  pass 
+criteria  given  for  the  test  or  by  showing  that  the  test  is  inapplicable  to 
+tne  implementation.  Any  test  that  was  determined  to  contain  an  illegal 
+language  construct  or  an  erroneous  language  construct  is  withdrawn  f rom  the 
+ACVC  and,  therefore,  is  not  used  in  testing  a  compiler.  The  tests 
+withdrawn  at  the  time  of  validation  are  given  in  Appendix  D. 
+
+
+CHAPTER  2 
+
+
+CONFIGURATION  INFORMATION 
+
+2.1  CONFIGURATION  TESTED 
+
+The  candidate  compilation  system  for  this  validation  was  tested  under  the 
+following  configuration: 
+
+Compiler:  UNIX  Ada,  Release  1.0 
+ACVC  Version:  1.8 
+
+Certificate  Expiration  Date:  31  March  1988 
+Host  Computer: 
+
+Machine:  332/600 
+
+Operating  System:  UNIX  System  V 
+
+Release  3*1.1 
+
+Memory  Size:  4  megabytes 
+
+Target  Ccmputer: 
+
+Machine:  352/600 
+
+Operating  System:  UNIX  System  V 
+
+Release  3*1*1 
+
+Memory  Size:  4  megabytes 
+
+
+2-1 
+
+
+'J RATION  INFORMATION 
+
+
+2.2  IMPLEMENTATION  CHARACTERISTICS 
+
+One  of  the  purposes  of  validating  compilers  is  to  aetermine  the  behavior  of 
+a  compiler  in  those  areas  of  the  Aca  Standard  tnat  permit  implementations 
+to  differ.  Class  D  and  E  tests  specifically  checx  for  such  implementation 
+differences.  However,  tests  in  other  classes  also  characterize  an 
+implementation.  This  compiler  is  characterized  by  the  following 
+interpretations  of  the  Ada  Standard: 
+
+
+.  Capacities. 
+
+The  compiler  correctly  processes  tests  containing  loop  statements 
+nested  to  65  levels,  block  statements  nested  to  65  levels,  and 
+recursive  procedures  separately  compiled  as  subunits  nested  to  17 
+levels.  It  correctly  processes  a  compilation  containing  723 
+variables  in  the  same  declarative  part.  (See  tests  D55A03A..H  (8 
+tests),  D56001B,  D64005E..G  (3  tests),  and  D29002K.) 
+
+
+.  Universal  integer  calculations. 
+
+An  implementation  is  allowed  to  reject  universal  integer 
+calculations  having  values  that  exceed  SYSTEM.  MAX__INT.  This 
+implementation  does  not  reject  such  calculations  and  processes 
+them  correctly.  (See  tests  D4A002A,  D4A002B,  D4A004A,  and 
+
+D4A0043.) 
+
+
+.  Predefined  types. 
+
+This  implementation  supports  the  additional  predefined  types 
+SHORT_INTEGER,  L0NG_FL0AT,  and  BYTE_INTEGER  in  the  package 
+STANDARD.  (See  tests  S86001C  and  B86001D.) 
+
+
+Based  literals. 
+
+
+An  implementation  Is  allowed  to  reject  a  based  literal  with  a 
+value  exceeding  SYSTEM .MAX_I NT  during  compilation,  or  It  may  raise 
+
+
+N  UXE  E I  C_E  R  R  0  R  or  CONSTRAINT__ERROR  during  execution.  This 
+impxementation  raises  NUMERIS_ERROR  during  execution.  (See  test 
+E24 ' 01  A. ) 
+
+
+Array  types, 
+
+
+An  implementation  is  allowed  to  raise 
+C0NSTRAINT_ERR0R  for  an  array  having  a 
+STANDARD. INTEGER 'LAST  and/or  SYSTEM. MAX  INT. 
+
+
+NUMERIC_ERR0R  or 
+LENGTH  that  exceeds 
+
+
+2-2 
+
+
+x. 
+
+
+A  packed  BOOLEAN  array  having  a  'LENGTH  exceeding  INTEGER ' LAST 
+raises  NUMERIC_ERROR  when  the  array  objects  are  declared.  (See 
+test  C52I03X. )  “ 
+
+A  packed  two-dimensional  BOOLEAN  array  with  more  than  INTEGER' LAST 
+components  raises  NUMERIC_ERROR  when  the  array  objects  are 
+declared.  (See  test  C52104Y.) 
+
+A  null  array  with  one  dimension  of  length  greater  than 
+INTEGER’LAST  may  raise  NUMERI C_ERROR  or  CONSTRAINT_ERROR  either 
+when  declared  or  assigned.  Alternatively,  an  implementation  may 
+accept  the  declaration.  However,  lengths  must  match  in  array 
+slice  assignments.  This  implementation  raises  NUM£RIC_ERROR  when 
+array  objects  are  assigned.  (See  test  E52I03Y.) 
+
+In  assigning  one-dimensional  array  types,  the  expression  appears 
+to  be  evaluated  in  its  entirety  before  CONSTRAINT_ERROR  is  raised 
+when  checking  whether  the  expression's  subtype  is  compatible  with 
+the  target's  subtype.  In  assigning  two-dimensional  array  types, 
+the  expression  does  not  appear  to  be  evaluated  in  its  entirety 
+before  CONST RAINT_ERROR  is  raised  when  checking  whether  the 
+expression's  subtype  is  compatible  with  the  target's  subtype. 
+(See  test  C52013A.) 
+
+
+Discriminated  types. 
+
+During  compilation,  an  implementation  is  allowed  to  either  accept 
+or  reject  an  incomplete  type  with  discriminants  that  is  used  in  an 
+access  type  definition  with  a  compatible  discriminant  constraint. 
+This  implementation  accepts  such  subtype  indications.  (See  test 
+E38104A.) 
+
+In  assigning  record  types  with  discriminants,  the  expression 
+appears  to  be  evaluated  in  its  entirety  before  CONSTRAINT_ERRQR  is 
+raised  when  checking  whether  the  expression's  subtype  is 
+compatible  with  the  target's  subtype.  (See  test  C52013A.) 
+
+
+Aggregates . 
+
+In  the  evaluation  of  a  multi-dimensional  aggregate,  index  subtype 
+checks  appear  to  be  made  as  choices  are  evaluates.  (See  tests 
+C43207A  and  Cd3207B.) 
+
+In  the  evaluation  of  an  aggregate  containing  subaggregates ,  all 
+choices  are  not  evaluated  before  being  checked  for  identical 
+bounds.  (See  test  E43212B.) 
+
+All  choices  are  not  evaluated  before  CONSTRAIHT_ERROR  is  raised  if 
+a  bound  in  a  nonnull  range  of  a  nonnull  aggregate  does  not  belong 
+to  an  index  subtype.  (See  test  E432'*B.) 
+
+
+So RAT I ON 
+
+
+information 
+
+
+.  Functions. 
+
+An  implementation  may  allow  the  declaration  of  a  parameterless 
+function  and  an  enumeration  literal  having  the  same  profile  in  the 
+same  immediate  scope,  or  it  may  reject  the  function  declaration. 
+If  it  accepts  the  function  declaration,  the  use  of  the  enumeration 
+literal's  identifier  denotes  the  function.  This  implementation 
+accepts  the  declaration.  This  behavior  is  contrary  to  AI-00330, 
+which  was  recently  approved  by  the  Director,  AJPO.  This  test  will 
+be  reclassified  as  a  Class  3  test  in  future  versions  of  the  ACVC. 
+(See  test  3660010.) 
+
+
+Representation  clauses. 
+
+The  Ada  Standard  does  not  require  an  implementation  to  support 
+representation  clauses.  If  a  representation  clause  is  not 
+supported,  then  the  implementation  must  reject  it.  While  the 
+operation  of  representation  clauses  is  not  checked  by  Version  1.8 
+of  the  ACVC,  they  are  used  in  testing  other  language  features. 
+This  implementation  rejects  'SIZE,  'ST0RAGE_SIZE  for  collections, 
+and  'SMALL  clauses.  Enumeration  representation  clauses,  including 
+those  that  specify  noncontiguous  values,  appear  not  to  be 
+supported.  (See  tests  C55B16A,  C87B62A,  C87B62B,  C87B62C,  and 
+
+BC1002A. ) 
+
+
+.  Pragmas . 
+
+The  pragma  INLINE  Is  not  supported  for  procedures.  The  pragma 
+INLINE  is  not  supported  for  functions.  (See  tests  CA3004E  and 
+CA3004F.) 
+
+
+.  Input/output. 
+
+The  package  SEQUENTIAL_I0  can  be  instantiated  with  unconstrained 
+array  types  and  record  types  with  discriminants.  The  package 
+DIRECT_I0  can  be  instantiated  with  unconstrained  array  types  and 
+record  types  with  discriminants  without  defaults.  (See  tests 
+AE2101C,  AE21Q1H,  CE2201D,  CE2201E,  and  CF.2401D.) 
+
+An  existing  text  file  can  be  opened  in  0UT_FILS  mode,  can  be 
+created  in  0UT_FILF,  mode,  and  can  be  created  in  IN_FILE  mode. 
+(See  test  EE3102C.) 
+
+More  than  one  internal  file  can  be  associated  with  each  external 
+file  for  text  I/O  for  both  reading  and  writing.  (See  tests 
+CE3111A..E  (5  tests).) 
+
+More  than  one  internal  file  can  be  associated  with  each  external 
+file  for  sequential  I/O  for  both  reading  and  writing.  (See  tests 
+CE2107A..F  (6  tests).) 
+
+
+2-4 
+
+
+More  than  one  internal  file  can  be  associated  with  each  external 
+file  for  direct  I/O  for  both  reading  and  writing.  (See  tests 
+CE2107A. .  F  (6  tests).) 
+
+An  external  file  associated  with  more  than  one  internal  file  can 
+be  deleted.  (See  test  CE2110B.) 
+
+Temporary  sequential  files  are  not  given  a  name.  Temporary  direct 
+files  are  not  given  a  name.  (See  tests  CE2108A  and  CE210SC.) 
+
+
+.  Generics. 
+
+Generic  declarations  and  bodies  cannot  be  compiled  in  separate 
+compilations.  (See  tests  BAIOIIC,  CA1012A,  CA2009C,  CA2009F, 
+LA5008A..H  (8  tests),  LA5008J,  LA5008M..N  (2  tests),  and  BC3205D.) 
+
+
+2-5 
+
+
+n  .■*.  w  *  ./.i  .VaV a  A  if  .V,  A  iT. 
+
+
+CHAPTER  3 
+
+
+TEST  INFORMATION 
+
+
+3.1  TEST  RESULTS 
+
+Version  1.8  of  the  ACVC  contains  2 399  tests.  When  validation  testing  of 
+UNIX  Ada  was  performed,  19  tests  had  been  withdrawn.  The  remaining  2380 
+tests  were  potentially  applicable  to  this  validation.  The  AVF  determined 
+that  226  tests  were  inapplicable  to  this  implementation,  and  that  the  2154 
+applicable  tests  were  passed  by  the  implementation. 
+
+The  AVF  concludes  that  the  testing  results  demonstrate  acceptable 
+conformity  to  the  Ada  Standard. 
+
+
+3.2  SUMMARY  OF  TEST  RESULTS  BY  CLASS 
+
+
+RESULT 
+
+A 
+
+B 
+
+TEST 
+
+_C_ 
+
+CLASS 
+
+D 
+
+E 
+
+L 
+
+TOTAL 
+
+Passed 
+
+69 
+
+860 
+
+1164 
+
+17 
+
+1 1 
+
+33 
+
+2154 
+
+r ailed 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+Inapplicable 
+
+0 
+
+7 
+
+204 
+
+0 
+
+2 
+
+13 
+
+226 
+
+Withdrawn 
+
+0 
+
+7 
+
+12 
+
+0 
+
+0 
+
+0 
+
+19 
+
+TOTAL 
+
+69 
+
+874 
+
+1380 
+
+17 
+
+13 
+
+46 
+
+2399 
+
+3-1 
+
+
+TEST  INFORMATION 
+
+
+3.3  SUMMARY  OF  TEST  RESULTS  BY  CHAPTER 
+
+
+RESULT 
+
+
+CHAPTER 
+
+
+TOTAL 
+
+
+2 
+
+3 
+
+4 
+
+5  6 
+
+7 
+
+8  9  10 
+
+1 1 
+
+12 
+
+14 
+
+Passed 
+
+89 
+
+252 
+
+334 
+
+243  161 
+
+97 
+
+136  261  109 
+
+32 
+
+217 
+
+223 
+
+2154 
+
+Failed 
+
+0 
+
+0 
+
+0 
+
+0  0 
+
+0 
+
+0  0  0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+Inapplicable 
+
+27 
+
+73 
+
+86 
+
+4  0 
+
+0 
+
+3  1  21 
+
+0 
+
+1 
+
+10 
+
+22  6 
+
+Withdrawn 
+
+0 
+
+5 
+
+5 
+
+0  0 
+
+1 
+
+1  2  4 
+
+0 
+
+1 
+
+0 
+
+19 
+
+TOTAL 
+
+116 
+
+330 
+
+425 
+
+247  161 
+
+98 
+
+140  264  134 
+
+32 
+
+219 
+
+233 
+
+2399 
+
+3.4 
+
+WITHDRAWN  TESTS 
+
+The 
+
+following  19  tests 
+
+were 
+
+withdrawn  from 
+
+ACVC  Version 
+
+1.! 
+
+3  at 
+
+the 
+
+time 
+
+this 
+
+s  validation: 
+
+C32114A 
+
+C4 
+
+1404A 
+
+374101B 
+
+B33203C 
+
+B45116A 
+
+C87B50A 
+
+C34018A 
+
+C48008A 
+
+C92005A 
+
+C35904A 
+
+B49006A 
+
+C940ACA 
+
+B37401A 
+
+B4A010C 
+
+CA3005A..D 
+
+(4 
+
+tests) 
+
+BC3204C 
+
+See 
+
+Appendix  D  for 
+
+the 
+
+reason  that  each 
+
+of 
+
+these  tests  was 
+
+withdrawn. 
+
+3-5  INAPPLICABLE  TESTS 
+
+Some  tests  do  not  apply  to  all  compilers  because  they  make  use  of  features 
+that  a  compiler  is  not  require!  by  the  Ada  Standard  to  support.  Others  may 
+depend  on  the  result  of  another  test  that  is  either  inapplicable  or 
+withdrawn.  For  this  validation  attempt,  226  tests  were  inapplicable  for 
+the  reasons  indicated: 
+
+.  323003D..F  (3  tests),  C23003A. .C  (3  tests),  C230030..J  (4  tests), 
+
+and  C24003A..C  (3  tests)  test  the  maximum  line  length  of  the 
+
+compiler.  This  compiler  has  no  maximum  line  length. 
+
+.  C34001E,  B52004D,  B55B09C,  and  C55B07A  use  LONG_INTEGER  which  is 
+
+not  supported  by  this  compiler. 
+
+.  C3400'.F  and  C35702A  use  SHORT_FLOAT  which  is  not  supported  by  this 
+
+compiler. 
+
+
+-•'a.  V  v  *  j\V  V ,  Vv  V  •  •  * 
+
+
+3-2 
+
+
+TF3T  T\ FORMAT 7 
+
+C553‘6A  makes  use  of  an  enumeration  representation  clause 
+containing  noncontiguous  values  which  is  not  supported  by  this 
+compiler . 
+
+C87B62A..C  (3  tests)  use  length  clauses  which  are  not  supported  by 
+this  compiler.  C87B62B  uses  the  length  clause  ' STORAGE_SIZE  for 
+tasks  and  for  access  types.  The  length  clause  'STORAGE  SIZE  for 
+tasks  is  accepted  and  the  length  clause  ' STORAGE_SIZE  for  access 
+types  is  rejected  during  compilation.  The  length  clauses  in  tests 
+C87B62A  and  C87B62C  are  rejected  during  compilation. 
+
+C960C5B  checks  implementations  for  which  the  smallest  and  largest 
+valu-s  in  type  DURATION  are  different  from  the  smallest  and 
+largest  values  in  DURATION'S  base  type.  This  is  not  the  case  for 
+this  implementation. 
+
+Tests  BA1011C,  CA1012A,  CA2009C,  CA2009F,  LA5008A..H  (8  tests), 
+LA5008J,  LA5008M..N  (2  tests),  and  BC3205D  compiles  generic 
+declarations  and  bodies  in  separate  compilation  units.  Separate 
+compilation  of  generic  specifications  and  bodies  is  not  supported 
+by  this  compiler. 
+
+CA3004E,  F.A3004C,  and  LA3004A  use  INLINE  pragma  for  procedures 
+which  is  not  supported  by  this  compiler. 
+
+CA3004F,  EA3004D,  and  LA30G4B  use  INLINE  pragma  for  functions 
+which  is  not  supported  by  this  compiler. 
+
+CE2201A  and  CE2401B  read  access  types  from  a  file.  This 
+implementation  raises  DATA_ERROR  when  an  attempt  is  made  to  read 
+access  types  from  a  file;  the  AVO  ruled  that  this  behavior  is 
+acceptable.  The  output  from  these  tests  was  examined  and  it 
+showed  that  I/O  for  all  other  tests  was  performed  correctly. 
+
+CE2107C..D  (2  tests),  CE2108A..D  (4  tests),  and  CE3112A..B  (2 
+tests)  are  inapplicable  because  these  tests  expect  a  temporary 
+file  to  have  a  name.  This  implementation  raises  the  exception 
+USE_ERROR  when  the  NAME  function  is  called  with  a  temporary  file 
+as  its  argument. 
+
+The  following  *70  tests  require  a  floating-point  accuracy  that 
+exceeds  the  maximum  of  15  supported  by  the  implementation: 
+
+
+C24113L..Y  ( * 4  tests) 
+C35705L..Y  (14  tests) 
+C35706L..Y  (14  tests) 
+C35707L. . Y  (14  tests) 
+C35708L..Y  (14  tests) 
+C35802L..Y  (14  tests) 
+C45241L..Y  ( ‘ 4  tests) 
+C45321L..Y  (14  tests) 
+C45421L..Y  (14  tests) 
+
+
+TEST 
+
+
+INFORMATION 
+
+
+C45424L..Y  (14  tests) 
+C4552TL..Z  (15  tests) 
+C45621I...Z  (15  tests) 
+
+
+3.6  SPLIT  TESTS 
+
+If  one  or  more  errors  do  not  appear  to  have  been  detected  in  a  Class  B  test 
+because  of  compiler  error  recovery,  then  the  test  is  split  into  a  set  of 
+smaller  tests  that  contain  the  undetected  errors.  These  splits  are  then 
+compiled  and  examined.  The  splitting  process  continues  until  all  errors 
+are  detected  by  the  compiler  or  until  there  is  exactly  one  error  per  split. 
+Any  Class  A,  Class  C,  or  Class  E  test  that  cannot  be  compiled  and  executed 
+because  of  its  size  is  split  into  a  set  of  smaller  subtests  that  can  be 
+processed . 
+
+Splits  were  required  for  59  Class  B  tests. 
+
+
+B26005A 
+
+B32103A 
+
+B32201A 
+
+B33101A 
+
+333*  02B 
+
+B33102C 
+
+B33102D 
+
+B33102E 
+
+B33201A 
+
+B33201C 
+
+B33202A 
+
+B33202C 
+
+B33203A 
+
+B33301A 
+
+B36201A 
+
+B37101A 
+
+B37201A 
+
+B37302A 
+
+B38008A 
+
+B38103A 
+
+B38103B 
+
+S38103C 
+
+B41201A 
+
+B41202A 
+
+B43201A 
+
+B44001A 
+
+B44002A 
+
+B48002A 
+
+348002D 
+
+B54A01L 
+
+B54A20A 
+
+B54A25A 
+
+B55A01A 
+
+856001 A 
+
+36400'A 
+
+B64003A 
+
+B67001A 
+
+Bb700*i  B 
+
+B67001C 
+
+B67001D 
+
+367004A 
+
+B74001A 
+
+B740013 
+
+B74104A 
+
+B7  430*1  A 
+
+B33A06B 
+
+39*0038 
+
+B95001A 
+
+B95004B 
+
+B950073 
+
+B95032A 
+
+39503 " A 
+
+39505AA 
+
+397103A 
+
+BA*  101C 
+
+3A2001A 
+
+332002A 
+
+3C1009A 
+
+3C3204D 
+
+3.7  ADDITIONAL  TESTING  INFORMATION 
+3.7.1  Prevalidation 
+
+
+Prior  to  validation,  a  set  of  test  results  for  ACVC  Version  1.3  produced  oy 
+the  UNIX  Ada  was  submitted  to  the  AVF  by  the  applicant  for  review. 
+Analysis  of  these  results  demonstrated  that  the  compiler  successfully 
+passed  all  applicable  tests,  and  tne  compiler  exhibited  the  expected 
+behavior  on  all  inapplicable  tests. 
+
+
+itm  I*. 
+
+
+i>«  l».  H.  iL  iU  H, 
+
+
+3.7.2  Test  Method 
+
+Testing  of  the  UNIX  Ada  using  ACVC  Version  '.3  was  conducted  on-site  by  a 
+validation  team  from  the  AVF.  The  configuration  consis  ed  of  a  332/600 
+operating  under  UNIX  System  V,  Release  3.1.1. 
+
+A  magnetic  tape  containing  all  tests  except  for  withdrawn  tests  and  tests 
+requiring  unsupported  floating-point  precisions  was  taken  on-site  by  the 
+validation  team  for  processing.  Tests  that  make  use  of 
+implementation-specific  values  were  customized  before  being  written  to  tne 
+magnetic  tape.  Tests  requiring  splits  during  the  prevalidation  testing 
+were  included  in  their  split  form  on  the  magnetic  tape. 
+
+The  contents  of  the  magnetic  tape  were  not  loaded  directly  onto  the  host 
+computer.  The  tapes  were  loaded  onto  an  AT&T  3B20  computer  and  the  files 
+were  renamed  to  conform  to  UNIX  Ada  requirements.  The  332/400  with  MAU  and 
+the  3B20  are  connected  by  3BNet  (a  form  of  ethemet)  which  was  used  to 
+transfer  the  files  to  the  3B2/400.  From  the  332/400,  the  ACVC  source  files 
+were  loaded  onto  cartridge  tape  and  read  onto  the  3B2/600.  After  the  test 
+files  were  loaded  to  disk,  the  full  set  of  tests  was  compiled  and  linked  on 
+the  3B2/600,  and  all  executable  tests  were  linked  and  run.  The  line  print 
+command  for  this  machine's  output  was  issued  on  this  machine.  The  effect 
+of  this  command  is  to  send  the  result  files  via  UUCP  to  a  3B20,  from  which 
+the  line-printing  is  actually  done. 
+
+The  compiler  was  tested  using  command  scripts  provided  by  AT&T  and  reviewed 
+by  the  validation  team. 
+
+
+Tests  were  compiled,  linked,  and  executed  (as  appropriate)  using  a  single 
+host  computer  and  target  computer.  Test  output  and  compilation  listings 
+were  captured  on  magnetic  tape  and  archived  at  the  AVF.  The  listings 
+examined  on-site  by  the  validation  team  were  also  archived. 
+
+
+3.7.3  Test  Site 
+
+Tne  validation  team  arrived  a*  AT&T,  Summit  NJ  on  16  February 
+departed  after  testing  was  completed  on  21  February  1967. 
+
+
+.  •  .  N.  \  V  N-  V 
+
+
+APPENDIX  A 
+
+COMPLIANCE  STATEMENT 
+
+AT&T  has  submitted  the  following  compliance  statement 
+concerning  the  UNIX  Ada. 
+
+
+DECLARATION  OF  CONFORMANCE 
+
+
+Compiler  Implementor:  AT&T 
+
+AdasValidation  Facility:  ASD/SCOL,  Wright-Pat terson  AFB,  OH 
+Ada  Compiler  Validation  Capability  (ACVC)  Version:  1.8 
+
+
+Base  Configuration 
+
+
+Base  Compiler  Name:  UNIX  Ada  Version:  Release  1.0 
+
+Host  Architecture  ISA:  3B2/600  OS&VER  it:  UNIX  System  V 
+
+Release  3.1.1 
+
+Target  Architecture  ISA:  3B2/600  OS&VER  it :  UNIX  System  V 
+
+Release  3.1.1 
+
+
+Implementor's  Declaration 
+
+
+I,  the  undersigned,  representing  AT&T,  have  implemented  no  deliberate 
+extensions  to  the  Ada  Language  Standard  ANSI/MIL-STD-181 5 A  in  the 
+compiler (s)  listed  in  this  declaration.  I  declare  that  AT&T  is  the  owner 
+of  record  of  the  Ada  language  compiler(s)  listed  above  and,  as  such,  is 
+responsible  for  maintaining  said  compiler(s)  in  conformance  to 
+ANSI/MIL-STD- 1 81 5A.  All  certificates  and  registrations  for  Ada  language 
+compiler(s)  listed  in  this  declaration  shall  be  made  only  in  the  owner's 
+corporate  name. 
+
+
+/ 
+
+
+Philip  E.  orown,  Member  of  Technical  Staff 
+
+
+Owner's  Declaration 
+
+I,  the  undersigned,  representing  AT&T,  take  full  responsibility  for 
+implementation  and  maintenance  cf  the  Ada  compiler (s)  listed  above,  ar.d 
+agree  to  the  public  disclosure  of  the  final  Validation  Summary  Report.  I 
+further  agree  to  continue  to  comply  with  the  Ada  trademark  policy,  as 
+defined  t>  the  Ada  Joint  Program  Office.  I  declare  tr.at  ail  of  the  Ada 
+language  compilers  listed,  and  their  host/target  performance  are  in 
+compliance  with  the  Ada  Language  Standard  ANSI/MIL-STD- 1 81 5A .  I  have 
+reviewed  tne  Validation  Summary  Report  for  the  compiler(s)  and  concur  with 
+the  contents. 
+
+Date :  !  *7~  _ 
+
+Philip  E.  Brown,  Member  of  Technical  Staff 
+
+
+Ada  is  a  registered  trademark  of  the  United  States  Government 
+(Ada  Joint  Program  Office). 
+
+
+I 
+
+
+I 
+
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+
+APPENDIX  3 
+
+
+I 
+
+I 
+
+
+APPENDIX  F  OF  THE  Ada  STANDARD 
+
+
+The  only  allowed  implementation  dependencies  correspond  to  implementation- 
+dependent  pragmas,  to  certain  machine-dependent  conventions  as  mentioned  in 
+chapter  13  of  MIL-STD-1815A,  and  to  certain  allowed  restrictions  on 
+representation  classes.  The  implementation-dependent  characteristics  of 
+the  UNIX  Ada,  Release  1.0,  are  described  in  the  following  sections  which 
+discuss  topics  in  Appendix  F  of  the  Ada  Language  Reference  Manual 
+( ANSI/MIL-STD-1815A) .  Implementation-specific  portions  of  the  package 
+STANDARD  are  also  included  in  this  appendix. 
+
+
+package  STANDARD  is 
+
+
+type  INTEGER  is  range  -2_147_483_648  ..  2_1 47_483_647 ; 
+type  SH0RT_INTEGER  is  range  -32768  ..  32767; 
+type  BYTE_INTEGER  is  range  -128  ..  127; 
+
+type  FLOAT  is  digits  6  range  -7-92281E28  ..  7.92281E28; 
+type  L0NG_FL0AT  is  digits  15 
+
+range  -6.56201 822928482E63  ..  6.58201822928482E63; 
+
+type  DURATION  is  delta  1.0/128  range  -86400.0  ..  86LOO.O; 
+
+
+end  STANDARD; 
+
+
+APPENDIX  F  OF  THE  Ada  STANDARD 
+
+
+3.*  UNIX  ADA  PRAGMAS 
+
+The  UNIX  Ada  compiler  recognizes  ail  language-defined  pragmas  and  one  mcr° 
+as  well.  Appendix  C  of  this  manual  summarizes  all  the  pragmas,  noting 
+those  that  have  an  effect  on  the  UNIX  Ada  system  and  those  that  do  not. 
+All  the  pragmas  having  an  effect  on  the  UNIX  Ada  system  are  thoroughly 
+explained  in  Chapther  '3  on  Ada  pragmas  and  in  the  oertinent  chapters 
+throughout  the  manual.  This  section  briefly  describes  the  pragma 
+implemented  as  an  enhancement  to  the  UNIX  Ada  system,  namely  pragma 
+LIBRARY. 
+
+
+B.'.l  Pragma  LIBRARY 
+
+This  special  UNIX  Ada  pragma  is  one  way  to  specify  in  what  program  library 
+a  required  compilation  unit  is  to  be  found.  Its  format  is 
+
+pragma  LIBRARY(UNIX_Ada_Library_Aiias ,  Ada_Compilation_Unit_Name ) ; 
+
+For  details  on  its  placement  in  your  program  and  examples  of  its  use, 
+consult  Chapter  *3  on  Ada  pragmas  or  Appendix  C,  the  summary  of  Ada 
+pragmas.  For  alternative  methods  of  locating  a  required  compilation  unit, 
+turn  to  Chapter  4  on  the  -I  and  -U  options  of  the  ada  command. 
+
+
+B.2  IMPLEMENTATION-DEPENDENT  ATTRIBUTES 
+
+Because  the  existence  of  implementation-dependent  attributes  generally 
+impedes  the  portability  of  Ada  programs,  UNIX  Ada  seeks  to  limit  their 
+number.  At  present,  there  are  none. 
+
+
+>:] 
+
+
+I 
+
+
+HrrruJ.  a  e  x.ir.  /wa 
+
+
+B.3  the  package  system 
+
+The  package  SYSTEM  is  partly  specified  in  I.RM  '3.7.  Its  complete 
+implementation-dependent  specification  within  UNIX  Ada  is  as  follows: 
+
+package  SYSTEM  is 
+
+type  address  is  new  integer; 
+type  name  is  ( ATT_3B2_bOO ) ; 
+
+SYSTEM. NAME:  constant  NAME  :=  ATT_3B2_600; 
+
+STORAGE_UNTT:  constant  :=  3; 
+
+MFMORY_SIZE:  constant  I6_777_21b;  --  16  megabytes 
+
+—  System  dependent  named  numbers 
+
+M!N_XNT:  constant  :=  -2_147_483_648; 
+
+MAX_INT:  constant  :=  2_i  47_483_647 ; 
+
+MAX_DIGITS:  constant  :=  15; 
+
+MAX_MANTISSA:  constant  :=  31; 
+
+FINE_DELTA :  constant  :=  1.0  /  1_073_74 1_824 ; 
+
+TICK:  constant  :=  1.0  /  100; 
+
+—  Other  system  dependent  declarations 
+
+subtype  PRIORITY  is  INTEGER  range  1  ..  14; 
+end  SYSTEM; 
+
+The  type  ADDRESS  is  new  INTEGER.  The  parent  type  INTEGER  ensures  that 
+arithmetic  may  be  done  with  addresses;  making  ADDRESS  a  derived  type  (with 
+the  Indicator  new)  ensures  that  addresses  are  not  inadverently  mixed  with 
+other  INTEGER  types.  See  Chapter  8  for  more  information. 
+
+The  type  NAME  is  an  enumeration  type  consisting  of  the  single  value 
+ATT_3B2_600. 
+
+The  constant  SYSTEM_NAME  equals  this  sole  value  ATT_3B2_600  of  the  type 
+NAME. 
+
+The  constant  STCnAG2_UNIT  is  3;  this  is  the  number  of  bits  in  one  byte,  tne 
+basic  storage  unit  of  the  system.  The  type  of  ST0RAGE_UNIT  is  universal 
+integer. 
+
+The  constant  MEMO?Y_SIZE  is  16  *  1024  *  1024  bytes,  or  equivalently  16 
+
+megabytes  (16,777,216  bytes).  Its  type  is  also  universal  integer.  The 
+constant  indicates  the  maximum  size  f or  a  UNIX  system  process,  and  hence 
+the  maximum  size  for  an  executing  Ada  program.  Main  memory  on  a  particular 
+configuration  will  be  less,  but  with  paging  from  disk  storage,  the  UNIX 
+system  provides  up  to  four  gigabytes  (4  *  1024  *  1024  *  1024  bytes)  of 
+virtually  addressable  storage  space. 
+
+The  constant  MIN_INT  equals  -(2**31),  or  equivalently  -2,147,483,648  the 
+smallest  or  most  negative  integer  value  representable  on  the  system. 
+
+
+v.v. V.  >  v.-  /  --.V.'A 
+
+
+3-3 
+
+
+The  constant  MAX  TNT  equals  ?**  jl  -  :r  e  ;-i  v  ly  ? ,  ‘  7 , -c3 ,  c-7  tr.° 
+
+largest  integer  value  represents:?!**  on  *•...•» 
+
+The  constant  MAX_DIGITS  is  15.  Tt  is  ine  larges*  number  of  significant 
+decimal  digits  expressible  in  a  floating  point  number. 
+
+The  constant  MAX_MANTTSSA  is  3" •  Tt  is  the  largest  number  of  binary  digits 
+that  a  fixed  point  number  can  use  in  its  representation. 
+
+The  constant  FINE  DELTA  equals  2**(-30)  or  equivalently  "..0  / 
+i , 073, 74‘ , 824 ;  it  is  the  smallest  delta  value  for  any  fixed  point  type  on 
+the  system  in  the  range  -i.O  ..  1.0.  For  more  on  fixed  point  numbers,  see 
+
+Chapter  9. 
+
+The  constant  TTCK,  equal  to  1.0  /  100th  of  a  second,  is  the  clock  period, 
+the  smallest  unit  of  time  measurable  by  the  system  clock.  It  differs  from 
+both  the  value  of  DURATION ' SMALL  and  the  smallest  parameter  value 
+associated  with  Alarm,  the  smallest  delay  possible  on  the  system.  For 
+futher  discussion,  see  Chapter  12  on  tasking. 
+
+The  subtype  PRIORITY  encompasses  the  integer  values  from  1  through  14. 
+Pragma  PRIORITY  sets  the  priority  of  a  task  with  values  drawn  from  this 
+subtype.  For  more  on  the  pragma,  see  Chapter  12  on  tasking  and  Chapter  14 
+on  pragmas. 
+
+
+B. 4  REPRESENTATION  CLAUSES  IN  UNIX  ADA 
+
+A  representation  clause  in  Ada  is  a  specification  indicating  features  of 
+the  underlying  hardware  to  be  used  for  representing  an  Ada  type,  object,  or 
+other  entity.  UNIX  Ada  faithfully  acts  upon  the  folio-wing  representation 
+clauses : 
+
+.  Ada  length  clauses  with  T'STORAGE_SIZE,  where  T  is  a  task  type, 
+which  specify  the  number  of  storage  units  (bytes)  to  be  allocated 
+for  the  activation,  not  the  code,  of  task  objects  of  the  task  type 
+(LRM  13.2). 
+
+In  all  other  cases,  UNIX  Ada  prints  a  warning  message. 
+
+
+3.5  IMPLEMENTATION -GENE RATED  NAMES  DENOTING  IMPLEMENTATION-DEPENDENT 
+RECORD  COMPONENTS 
+
+To  promote  Ada  program  portability,  UNIX  Ada  does  not  provide  access  to 
+implementation-generated  names  for  implementation-dependent  record 
+components.  In  general,  UNIX  Ada  does  not  follow  the  dictates  of  a  record 
+representation  clause;  instead,  it  issues  a  warning  message.  See  LRM  13.4. 
+
+
+9.6  INTERPRETATION  OF  EXPRESSIONS  IN  ADDRESS  CLAUSES 
+
+
+As  stated  a  moment  ago,  UNIX  Ada  does  not  support  address  clause? f 
+including  those  for  interrupts  (LRM  ’.3.5).  When  UNIX  Ada  encounters  an 
+address  clause,  it  prints  an  error  message  saying  that  it  does  not 
+recognize  it.  Instead,  UNIX  Ada  places  the  entity  in  question  at  tne  most 
+suitable  location  possible. 
+
+
+3.7  RESTRICTIONS  ON  UNCHECKED  CONVERSIONS 
+
+UNIX  Ada  fully  implements  the  Ada  generic  function  UNCHECKED_CONVERSION 
+(LRM  13.10,  especially  13.10.2).  Because  there  are  no  restrictions  on  its 
+source  and  target  types,  care  must  be  exercised  in  its  use. 
+
+
+B.8  IMPLEMENTATION-DEPENDENT  CHARACTERISTICS  OF  UNIX  ADA  INPUT-OUTPUT 
+PACKAGES 
+
+With  every  file  type,  If  the  main  program  terminates  before  all  of  its 
+files  have  been  closed,  UNIX  Ada  will  automatically  close  them.  Whatever 
+temporary  files  remain  will  be  deleted  (LRM  14.1/7). 
+
+UNIX  Ada  itself  does  not  arbitrarily  limit  the  number  of  file  objects  you 
+may  associate  with  a  given  external  file  through  the  procedures  OPEN  and 
+CREATE.  The  UNIX  system,  however,  does  impose  a  limit  of  20  (LRM  14.1/13). 
+
+The  type  FILE__TYPE  is  a  private  type,  defined  in  the  private  sections  of 
+the  I/O  packages  as  the  type  access  integer. 
+
+The  fourth  and  last  parameter  of  the  CREATE  and  OPEN  procedures  is  the 
+string  parameter  FORM.  In  UNIX  Ada,  you  may  use  the  parameter  only  with 
+CREATE  to  specify  the  owner  of  the  file  to  be  created,  the  group  to  which 
+the  owner  belongs,  and  the  read  and  write  permissions  to  be  associated  with 
+the  file.  See  Chapter  10  for  more  information  on  this  parameter. 
+
+With  SEQUENT IAL_I0  and  DIRECT_I0 ,  if  you  output  an  access  type,  UNIX  Ada 
+treats  it  as  if  it  were  the  output  of  an  integer.  On  the  other  hand,  input 
+of  an  access  type  raises  the  exception  DATA_ERR0R. 
+
+The  READ  procedure  does  not  check  if  the  element  read  can  be  interpreted  as 
+a  value  of  the  Instantiated  type  ELEMENTJYPE  (LRM  14.2.2). 
+
+The  subtype  FIELD  in  TEXT_I0  states  the  range  of  values  for  the  width  of 
+fields  on  input  and  output;  in  UNIX  Ada,  its  range  is  0  . .  36. 
+
+In  a  text  file,  the  line-feed  character  STANDARD. ASCII. LF  is  the  line 
+terminator,  and  the  form-feed  character  STANDARD. ASCII. FF  is  the  page 
+terminator.  UNIX  Ada  uses  the  end-of-file  condition  (determined  by  keeping 
+track  of  the  number  of  bytes  in  the  file)  as  the  sole  file  terminator;  it 
+does  not  automatically  store  the  line  and  page  terminators  at  the  end  of  a 
+
+
+aPPENDIX  F  OF  THF  Ada  STANDARD 
+
+
+file. 
+
+There  is  no  LOW  I.FVFL  TO  package. 
+
+UNIX  Ada  provides  several  enhancements  to  the  standard  Ada  I/O  packages. 
+The  packages  UA_SEQUENTIAL_IO ,  UA_DIRECT_TO,  and  UA_TFXT_IO  contain 
+subprograms  that  translate  between  UNIX  system  file  descriptors  and  Ada 
+FILE  TYPE  objects.  The  package  UA_TEXT_!0  also  contains  subprograms  for 
+returning  and  setting  the  UNIX  standard  error  file.  See  Chapter  "  for 
+more  comprehensive  I/O  information. 
+
+
+3.9  ADDITIONAL  UNIX  ADA  IMPLEMENTATION-DEPENDENT  FEATURES 
+3.9.1  Compiling  Generic  Units 
+
+The  UNIX  Ada  system  requires  that  a  generic  declaration  be  submitted  for 
+compilation  in  tne  same  file  as  its  corresponding  body  and  subunits,  if  any 
+(LRM  10.3). 
+
+
+3.9.2  MACHINE_C0DE  Package 
+
+UNIX  Ada  does  not  support  this  package;  all  CODE  statements  are  illegal. 
+
+
+B.9.3  Unlimited  Parameter  Sizes 
+
+UNIX  Ada  puts  virtually  no  limits  on  the  size  of  the  various  parameters. 
+Tne  sole  exception  pertains  to  the  length  of  identifiers. 
+
+.  The  length  of  the  internal  name  which  UNIX  Ada  uses  is  limited  to 
+512  characters.  This  internal  name  is  formed  by  stringing 
+
+together  the  program  names  of  all  the  program  units  enclosing  the 
+declaration  of  the  object  ir.  question  and  separating  them  with 
+underscores.  The  maximal  length  for  a  particular  identifier 
+therefore  depends  in  part  on  the  context  in  which  it  is  declared. 
+
+Whatever  ether  limits  arise  are  a  function  of  the  storage  available  during 
+runtime  and  the  current  application  program.  In  particular,  there  are  NO 
+FORMAL  LIMITS  (those  stemming  from  UNIX  Ada)  on  the  number  of: 
+
+.  lines  in  an  Ada  source  file; 
+
+.  parameters  in  a  procedure,  task  entry,  or  function  call; 
+
+.  discriminants  for  a  record  type; 
+
+
+V, . 
+
+
+V- 
+
+
+3-5 
+
+
+.  Ada  frames  that  an  exception  can  propagate; 
+
+.  fields  in  a  record  type; 
+
+.  library  units  and/or  subunits  in  an  executable  Ada  program: 
+.  enumeration  values  in  an  enumeration  type. 
+
+
+V.  nr. 
+
+
+APPENDIX  C 
+TEST  PARAMETERS 
+
+
+•f 
+
+
+■ v> 
+
+V 
+
+V 
+
+V 
+
+5 
+
+I 
+
+£ 
+
+U- 
+
+i* 
+
+V 
+
+V 
+
+
+Certain  tests  In  the  ACVC  make  use  of  Implementation-dependent  values,  such 
+as  the  maximum  length  of  an  input  line  and  invalid  file  names.  A  test  that 
+makes  use  of  such  values  is  identified  by  the  extension  .TST  in  its  file 
+name.  Actual  values  to  be  substituted  are  represented  by  names  that  begin 
+with  a  dollar  sign.  A  value  must  be  substituted  for  each  of  these  names 
+before  the  test  is  run.  The  values  used  for  this  validation  are  given 
+below. 
+
+
+Name  and  Meaning 
+
+
+$BIG__ID1 
+
+Identifier  the  size  of  the 
+maximum  input  line  length  with 
+varying  last  character. 
+
+3BIG_ID2 
+
+Identifier  the  size  of  the 
+maximum  input  line  length  with 
+varying  last  character. 
+
+$BIG_ID3 
+
+Identifier  the  size  of  the 
+maximum  incut  line  length  witn 
+varying  middle  character. 
+
+
+Value 
+
+
+(*...*99  => ’ A 1 ,  200  =>•!•) 
+
+
+(*...*.99  =>'A\  200  =>'2') 
+
+
+*..99  - > '  A  ’ ,  100  =>’3',  <01. .200  =>'A'} 
+
+
+r: 
+
+
+v 
+
+
+S 
+
+
+$BIG_ID4 
+
+Identifier  the  size  of  the 
+maximum  input  line  length  with 
+varying  miadle  character. 
+
+35 IG _ INT _ LIT 
+
+An  integer  literal  of  value  2 98 
+with  enough  leading  zeroes  so 
+
+
+that  it 
+
+
+the  size  of  the 
+
+
+(1..99  =>  'A  ' ,  100  -W,  .01 .  .200  =>'»') 
+
+
+(1..197  =>’0\  195.  .200  '>"295") 
+
+
+maximum  line  length. 
+
+
+m> 
+
+“v 
+
+
+c-i 
+
+
+V  V  V.- <■' cV 
+
+
+vV. 
+
+
+.v.< 
+
+
+V  al  ue 
+
+
+i  .In/iT-TC.  r.o 
+
+
+Name  and  Meaning 
+
+
+$3IG_REAL_LIT 
+
+A  real  literal  that  can  be 
+either  of  floating-  or  fixed- 
+point  type,  has  value  690.0,  and 
+has  enough  leading  zeroes  to  be 
+the  size  of  the  maximum  line 
+length. 
+
+ISLANKS 
+
+A  sequence  of  blanks  twenty 
+characters  fewer  than  the  size 
+of  the  maximum  line  length. 
+
+$C0UNT_LAST 
+
+A  universal  integer  literal 
+
+whose  value  is  TEXT__I0. COUNT  'LAST. 
+
+$EXTENDED_ASCII_CHARS  "abcdefghi jklmnopqrstuvwxyz! $® ?£[ \ ]"' {} 
+
+A  string  literal  containing  all 
+the  ASCII  characters  with 
+
+printable  graphics  that  are  not 
+in  the  basic  55  Ada  character 
+set. 
+
+$FIELD_LAST  36 
+
+A  universal  integer  literal 
+
+whose  value  is  TEXT  10.  FIELD’ LAST. 
+
+
+(1. .180  =>’  ’  ) 
+
+
+2  147  483  647 
+
+
+$  F I L  E_N  A  ME_W  I T  H_3  A  D_C  HA  R  S  xx/yy 
+
+An  illegal  external  file  name 
+tnat  either  contains  invalid 
+characters,  or  is  too  long  if  no 
+invalid  characters  exist. 
+
+$  F IL  E_NAME_WI  TH_ WI L D_CA  RD_CHA R  file0123456789012345 
+
+An  external  file  name  tnat 
+either  contains  a  wild  card 
+character,  or  is  too  long  if  no 
+wild  card  character  exists. 
+
+
+$G REATE R_THAN_DURATION  100  000.0 
+
+A  universal  real  value  that  lies  - 
+
+between  DURATION ’BASE ’LAST  and 
+DURATION ’ LAST  if  any,  otherwise 
+any  value  in  the  range  of 
+DURATION. 
+
+
+$ GR E AT E R_TKA N_DU R A T 1 0N_B AS E_L AST  1  OjDOOJ)OG.  0 
+
+The  universal  real  value  tnat  is 
+greater  than  DURATION ’ BASE’ LAST, 
+if  such  a  value  exists. 
+
+
+xx/yy 
+
+
+Karr.?  and  Meaning 
+
+
+$  I LLE G  A L_E  XTr  F.  N  A I._F  I LE_NA ME  1 
+
+An  illegal  external  file  name. 
+
+$  .  l  f.g  a  i  ._f  xt  f  h  ;;  a  :  ._f:  ! .  e_n  a  mf  2  much-too-long-name-fo 
+
+An  illegal  external  file  name 
+that  is  different  from 
+$  T I  .LE  G  AL_E  XTE  R  t.  A  L_F  T  L  E_NA  ME  “  . 
+
+$INTEGFR_FTRST  4  7_4  3  3_6  At  8 
+
+The  universal  integer  literal 
+expression  whose  value  is 
+INTEGER 'FIRST. 
+
+$INTEGER_I.AST  2_i  83_6n  7 
+
+The  universal  integer  literal 
+expression  whose  value  is 
+
+INTEGER 'LAST. 
+
+
+$LESS_THAN_DURATION  -100_000.0 
+
+A  universal  real  value  that  lies 
+between  DURATION ' BASE ' FIRST  and 
+DURATION ' FIRST  if  any,  otherwise 
+any  value  in  the  range  of 
+DURATION. 
+
+
+$LESS_TnAN_DURATIONJBASE_FIRST  -iOjDOOjOOO. 0 
+
+The  universal  real  value  that  is 
+less  than  DURATION ' BASE ' FIRST, 
+if  such  a  value  exists. 
+
+
+3>/iAa  DI  ul  i  S 
+
+The  universal  integer 
+whose  value  is  the 
+digits  supported 
+
+f loating- point  types. 
+
+
+literal 
+maximum 
+f  or 
+
+
+$MAX__IN_LEN 
+
+The  universal  integer  literal 
+whose  val ue  is  the  maximum 
+input  lJne  length  permitted  'ey 
+the  implementation. 
+
+
+200 
+
+
+*:-u'X_  !.»i  2_i  47_^&3_6A7 
+
+Tr.e  universal  integer  literal 
+whose  value  is  SYSTEM. MAX  TNT. 
+
+
+Name  and  Meaning 
+
+
+V  a]  ue 
+
+
+S  *  'i  Mr.  Y  i  .1.  IN  * 
+
+A  name  of  a  predefined  numeric 
+type  other  than  FLOAT,  INTEGER, 
+
+3H0nT_FLDAT,  SHORT_INTEGER , 
+
+LONG_FLOAT,  or  LONG_INTEGER 
+if  one  exists,  otherwise  any 
+undefined  name. 
+
+$  NE  G_3  AS  E  D_I  NT  d#  777777777776// 
+
+A  based  integer  literal  whose 
+highest  order  nonzero  bit 
+falls  in  the  sign  bit 
+position  of  the  representation 
+for  SYSTEM. MAX_INT. 
+
+$NON_ASCII_CHAR_TYPE  ( NON_NULL ) 
+
+An  enumerated  type  definition 
+for  a  character  type  whose 
+literals  are  the  identifier 
+N0N_NULL  and  all  non-ASCTI 
+characters  with  printable 
+graphics . 
+
+
+APPENDIX  D 
+
+
+WITHDRAWN  TESTS 
+
+
+Some  tests  are  withdrawn  from  the  ACVC  because  they  do  not  conf orm  to  the 
+Ada  Standard.  The  following  19  tests  had  been  withdrawn  at  the  time  of 
+validation  testing  for  the  reasons  indicated.  A  reference  of  the  form 
+"Al-ddddd"  is  to  an  Ada  Commentary. 
+
+
+C32114A:  An  unterminated  string  literal  occurs  at  line  62, 
+
+
+333203C:  The  reserved  word  "IS"  is  misspelled  at  line  45. 
+
+
+C34018A:  The  call  of  function  G  at  line  114  is  ambiguous  in  the 
+presence  of  implicit  conversions. 
+
+
+C359C4A :  The  elaboration  of  subtype  declarations  SFX3  and  SFX4 
+may  raise  NUMERIC_ERROR  instead  of  CONSTRAINT_ERROR  as  expected  in 
+the  test. 
+
+
+.  537401A:  The  object  declarations  at  lines  126  through  135  follow 
+
+subprogram  bodies  declared  in  the  same  declarative  part. 
+
+
+.  C41404A:  The  values  of  'LAST  and  'LENGTH  are  incorrect  in  the 
+
+statements  from  line  74  to  the  end  of  the  test. 
+
+
+.  34 51 T 6 A :  ARRPRIBL1  and  ARRPRI3L2  are  initialized  with  a  value  of 
+
+the  wrong  type— PRIBOOLJTYPE  instead  of  ARR?RIB00L_TYPE —  at  line 
+41 . 
+
+
+.  C48008A:  The  assumption  that  evaluation  of  default  initial  values 
+
+occurs  when  an  exception  is  raised  by  an  allocator  is  incorrect 
+according  to  AI-00397. 
+
+
+*4 
+
+
+A  I 
+
+
+3**9006A:  Object  declarations  at  lines  41  and  bO  are  termi  rat  ed 
+incorrectly  with  colons,  and  end  case;  is  missing  from  line  42. 
+
+54A310C:  Tne  object  declaration  in  line  1 6  follows  a  subprogram 
+oody  of  tne  same  declarative  part. 
+
+5741013:  The  begin  at  line  9  causes  a  declarative  part  to  be 
+treated  as  a  sequence  of  statements. 
+
+CS7350A:  The  call  of  "/="  at  line  3*  requires  a  use  clause  for 
+package  A. 
+
+
+.  C92005A:  The  ”/="  for  type  PACK.BIG_INT  at  line  40  is  not  visible 
+
+without  a  use  clause  for  the  package  PACK. 
+
+
+.  C940ACA:  The  assumption  that  allocated  task  TT1  will  run  prior  to 
+the  main  program,  and  thus  assign  SP7NUMB  the  value  checked  for  by 
+the  main  program,  is  erroneous. 
+
+.  CA3005A..D  (4  tests):  No  valid  elaboration  order  exists  for  these 
+
+tests . 
+
+
+.  5C3204C:  The  body  of  BC3204C0  is  missing. 
+
+
+0-2 
+
+
+v. 
+
+
+-■  _V 
+
+
+V.SV.%' 
+
+
+f.f. 
+
+
+%■  v 
+
+
+.%  ■. 
+
+Ltm 
+
+
+....  ■  ^  ^ 
+
+
+V, 
+
+
+FlLWEb 
+
+PI  ARC  K 
+
+ntt 
+
+I>r/c 
+
+
+*  ■  *  -  •  v’  -  *  ■  •  ’*«  *'  - 
+
+.*  *.•  v  V  V  V 
+
+■  \  >  •  «  •  * 
+
+
