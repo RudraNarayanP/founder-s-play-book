@@ -98,3 +98,48 @@ transport caveat — so **High is available only for propositions about what tha
 statement about a document, not about 1975. Measurements over bytes held on this disk (grep hit-line counts,
 arithmetic sums, index row counts) may be High **as measurements** and are labelled as such; that is not a
 route around the ceiling for any print fact.
+
+---
+
+## COR-04 -- three register rows arrived with column-width drift and were re-joined, not repaired by deletion
+
+**Minted by the Stage-1 merge pass on 2026-09-29.** Nothing was withdrawn. Three emission rows printed more
+fields than their register's column count because unquoted thousands/place commas sat inside one cell; the
+merge re-joined each surplus at the printed split point, altered no character of any value and deleted no
+value, then tagged the repaired row inside its own cell:
+
+| emission row | fields against columns | re-joined at |
+|---|---|---|
+| `_parts/s1_p1.md` `conflicts.csv` row `U.1` (the amended COR-01 retraction row) | 21 against 15 | printed fields 18-20, then 13-17 (the sweep tally and the UNTRIED list each carry place commas) |
+| `_parts/s1_p1.md` `data_gaps.csv` row 2 (MITS licence terms and royalty rate) | 9 against 8 | printed fields 4-5 (`... is MITS Computer Notes, which BYTE names as existing ...`) |
+| `_parts/s1_p1.md` `data_gaps.csv` row 3 (APL product-line outcome) | 10 against 8 | printed fields 4-6 (`... prints an APL shipment, price, or cancellation for this firm`) |
+
+**Rows tagged: 3** (one `MERGE[COR-04 ...]` marker per repaired row, inside that row's `notes` /
+`follow_up_task` cell). Part 2's nine blocks and `research/B1_periodical_records.md`'s five parsed at width,
+so 0 rows were refused for unparseable width. **A later pass that "fixes" the re-joined cells by splitting
+them again is reverting this correction.**
+
+## COR-05 -- an OCR price rendering reads as a `source_id` token, and the quotation is kept as printed
+
+**Minted by the Stage-1 merge pass on 2026-09-29.** Nothing was withdrawn. In `byte-magazine-1980-12`
+l.38112-38113 the utility advertisement prints its list and dealer prices with the dollar sign OCR-damaged
+to `S`, so the bytes read `S435/S45` for $435 list / $45 dealer. Part 2 quotes that string verbatim in
+section M.1 and in its emission rows, and `gates.py --checks keys` tokenises `S435` as a `source_id` and
+reports it unresolvable, because the corpus writes its global source keys in the same `S###` grammar.
+
+**What this pass refused to do, and why.**
+1. **No rewrite of the quotation.** The volume's non-destruction proof is that each part body is a
+   byte-identical contiguous slice of `stage_1.md`; silently repairing an OCR artifact into a dollar sign
+   would alter transcribed print inside a protected slice and would destroy the damage record that COR-03
+   exists to keep visible.
+2. **No `S435` source row.** Minting an id so the token resolves would make a printed price read as a
+   document -- RD-123's ruling is that a re-used or manufactured id is worse than a dropped row because it
+   misleads in both files.
+3. **Recorded instead, in three places:** this entry, the merge note in `stage_1.md`, and a
+   `MERGE[COR-05 ...]` tag inside every register row that carries the passage --
+   `sources.csv` `S4243`, `timeline.csv` (the 1980-12 third-party utility row) and `channels.csv` (the
+   third-party publisher channel). **Rows tagged: 3.**
+
+**Standing reading rule:** where this company's bytes show `S` followed by 2-3 digits beside a `/` and a
+second short number, read it as a damaged dollar sign, not as a register key; the key grammar is
+`S` + 4 digits at Microsoft (`S4222`-`S4243`).

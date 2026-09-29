@@ -1,0 +1,9 @@
+{
+ "identifier": "byte-magazine-1981-07",
+ "url": "https://archive.org/download/byte-magazine-1981-07/1981_07_BYTE_06-07_Energy_Conservation_djvu.txt",
+ "fetched": "2026-09-29T18:14:38Z",
+ "bytes": 1905830,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

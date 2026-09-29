@@ -3,9 +3,9 @@
   "1975-01-01",
   "1986-12-31"
  ],
- "candidates": 30,
- "mined": 4,
- "untried_by_limit": 24,
+ "candidates": 31,
+ "mined": 6,
+ "untried_by_limit": 23,
  "items": [
   {
    "identifier": "01-microsoft-annual-reports",
@@ -142,6 +142,101 @@
      "context": [
       "from your software. This new book will",
       "ware or have others sell it for you. Written"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "byte-magazine-1981-07",
+   "date": "1981-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Byte Magazine Volume 06 Number 07 - Energy Conservation",
+   "family": "internet_archive",
+   "meta_date": "1981-01-01",
+   "status": "ok",
+   "bytes": 1905830,
+   "named_terms": [
+    "micro soft",
+    "microsoft corporation"
+   ],
+   "other_terms": [
+    "five and dime"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 82,
+   "phrase_hits": 1,
+   "entity_hits": 3,
+   "matched_entities": [
+    "micro-soft",
+    "microsoft software",
+    "microsoft, inc"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 128154,
+     "text": "Micro-soft",
+     "context": [
+      "",
+      "Micro-AP -"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "byte-magazine-1983-07",
+   "date": "1983-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Byte Magazine Volume 08 Number 07 - Videotex",
+   "family": "internet_archive",
+   "meta_date": "1983-01-01",
+   "status": "ok",
+   "bytes": 2165363,
+   "named_terms": [
+    "micro soft",
+    "microsoft corporation"
+   ],
+   "other_terms": [
+    "five and dime"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 181,
+   "phrase_hits": 11,
+   "entity_hits": 19,
+   "matched_entities": [
+    "micro soft",
+    "microsoft corporation",
+    "microsoft, inc",
+    "microsoft. inc"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 17584,
+     "text": "trademarks of Microsoft Corporation,",
+     "context": [
+      "Microsoft is a registered trademark, MS and RAMDrive are",
+      ""
+     ]
+    },
+    {
+     "line": 23309,
+     "text": "Microsoft Corporation (10700 Northup Way,",
+     "context": [
+      "Chris Peters is a systems software engineer at",
+      "Bellevue, WA 98004). In addition to the Mouse"
+     ]
+    },
+    {
+     "line": 23323,
+     "text": "COPYRIGHT (C) 1983 BY MICROSOFT CORPORATION",
+     "context": [
+      "",
+      "WRITTEN BY CHRIS PETERS"
      ]
     }
    ]

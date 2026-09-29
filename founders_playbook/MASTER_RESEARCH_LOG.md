@@ -2567,3 +2567,49 @@ Also fixed in `harvest_mine.py` (RD-129): a slug whose candidate rows are all UN
 `{}`, exit 0 and write nothing -- a no-op that reads exactly like a result. It now writes an explicit
 NOTHING MINABLE dossier naming the cause, and the reason travels into the JSON summary too. Selftest 6
 checks, 0 failing.
+
+### RD-131 -- Microsoft merges at 127 rows from three emissions, and an OCR dollar sign nearly became a citation
+
+**The merge.** `company_011_microsoft/stage_1.md`: **34,707 words, 9 registers, 127 rows, anchors 14<->14,
+gate 1 finding (the adjudicated budget one) / 20 passes.** Requested **148 rows across THREE emissions** --
+`research/B1_periodical_records.md` 55, `_parts/s1_p1.md` 30, `_parts/s1_p2.md` 63 -- folded into 18
+collision groups, **0 refused**. RD-122's rule now holds a second time: **`merge_census.py` reported 63 of
+148** (it globs `_parts/*.md` only and reads only fenced-`csv` blocks; part 1 fences plainly and the third
+emission lives in `research/`). A merge that briefed from my census number would have silently dropped 85
+rows, and the census under-report is now a known defect of the tool, not of the parts.
+
+**Two things worth keeping from the fold list.** B1's five Menlo Park timeline rows and its withdrawn
+`location` were folded with the withdrawn value deliberately **not** unioned; and `U.5` + `U.15` turned out
+to be **one measurement recorded twice**, so one row survives at `U.15` with the retirement printed as
+text ("conflict-5"), because an undeclared anchor token inside a register cell is a hard parity defect and
+`gates.py` scans whole files. 3 width-drift rows re-joined at the printed split point (COR-04). Ids minted
+`S4222-S4243` with 90 citation cells re-pointed, checked free corpus-wide before **and after**.
+
+**An OCR dollar sign nearly entered the corpus as a source citation.** The gate reported
+`keys | stage_1.md | unresolvable source tokens: S435`. It is not a citation:
+`byte-magazine-1980-12` l.38112 prints `(MBASIC) S435/S45` -- the layer renders `$` as `S`, so the string
+is a **price**, $435 list / $45 dealer, quoted verbatim in the volume. The merge agent refused both
+available "fixes" and said why: rewriting a protected byte-slice quotation, or minting a source row for a
+dollar amount (**RD-123's exact error class**). It recorded COR-05, tagged the three rows carrying the
+passage, and handed the defect to me. **The corpus was right and the instrument was wrong, so the
+instrument changed:** `gate_keys` now treats an `S####` inside a quoted span as print, not a pointer, and
+the self-test gained a `keys-NEGATIVE` control that plants exactly this token and asserts the gate stays
+clean -- while the existing positive control (`unresolvable source token in narrative`) still CAUGHTs.
+Self-test green; Microsoft re-run: **1 finding / 20 passes**, budget only.
+
+**`tools/id_mint.py`, because two merges were minting from a snapshot.** Target took `S4201-S4221` (rank
+42), and Microsoft -- having checked for free ids at its own start, correctly -- continued at
+`S4222-S4243`, immediately above. Neither was wrong; **nobody held a lock**, and the evening's own plan
+has more merges running at once. The audit first: 252 four-digit ids issued, `S0001`..`S4331`,
+**0 collisions**, no per-rank blocks -- every company writes into one ascending space, so a tidier scheme
+would mean re-keying 252 ids plus their citations (RD-122's 138-site lesson) and is not proposed. The
+tool allocates **above the highest live id, never into a gap**, and `--claim` records the range in
+`00_universe/_ID_BLOCKS.tsv`.
+
+**Its first run caught me, in the same shape as the whole week.** The first version used `S(\d{3,5})`
+and a lowest-free policy: on the live corpus it read that very `S435` price as an issued id, reported
+Amazon ending at `S30084`, and **offered `S0013`-S`0018` as free -- numbers Amazon already holds.** It
+would have minted collisions while printing a confident "next free: 13". Fixed to four-digit ids and
+allocate-above-max before it was ever used for real, and the failure is written into the file's header so
+nobody re-invents the low version. **A tool that hands out ids is the one tool in this corpus that must
+never be wrong quietly.**

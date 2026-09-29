@@ -231,10 +231,21 @@ def gate_keys(company, report):
                            ", ".join(hits_legacy[:8]), " ..." if len(hits_legacy) > 8 else ""))
         cited = set()
         protected = set()
+        # A token inside a quoted span is PRINT, not a pointer. Microsoft's merge found `keys`
+        # reporting `S435` as an unresolvable citation: BYTE Dec 1980 l.38112 prints
+        # "(MBASIC) S435/S45" because the OCR layer renders "$" as "S", so the string is a price
+        # ($435 list / $45 dealer) quoted verbatim. Two "fixes" were available and both break a
+        # harder rule: rewriting a protected byte-slice quotation, or minting a source row for a
+        # dollar amount (RD-123). So the gate, not the corpus, is what changes here.
+        quoted_spans = [(qm.start(), qm.end()) for qm in
+                        re.finditer(r'"[^"\n]{4,}"', body)]
         for m in token.finditer(body):
             t = m.group(0)
             if t in have:
                 cited.add(t)
+                continue
+            if any(a <= m.start() < b for a, b in quoted_spans):
+                protected.add(t)
                 continue
             window = body[max(0, m.start() - 60):m.end() + 60]
             backticked = body[max(0, m.start() - 1):m.start()] == "`"
@@ -767,6 +778,16 @@ def self_test():
             plant(os.path.join(d, "stage_1.md"), lambda t: t + "\nCited to S0999 which is not a key.\n")
         cases["unresolvable source token in narrative"] = plant_retired_key
 
+        def plant_quoted_price_token(d):
+            # NEGATIVE CONTROL for Microsoft's `S435` (RD-131): BYTE Dec 1980 l.38112 prints
+            # "(MBASIC) S435/S45" because the OCR layer renders "$" as "S". Quoted verbatim inside a
+            # passage, that string is PRINT about a price, not a pointer to a document -- and the
+            # finding used to push a repair agent to either rewrite a protected quotation or mint a
+            # source row for a dollar amount, both worse than the noise.
+            plant(os.path.join(d, "stage_1.md"), lambda t: t + '\nAdvertised as "To licensed '
+                  'users of Microsoft BASIC-80 (MBASIC) S435/S45" [OCR: $ list/$ dealer] (S0001).\n')
+        cases["quoted OCR price token is print, not a citation"] = plant_quoted_price_token
+
         GATE_OF = {"unquoted comma shifts fields": "csv",
                    "numeric stage vocabulary": "csv",
                    "duplicate record id": "csv",
@@ -776,6 +797,7 @@ def self_test():
                    "anchor with no register row": "anchors",
                    "cited anchor matches no declaration": "anchors",
                    "backticked anchor id stays clean": "anchors-NEGATIVE",
+                   "quoted OCR price token is print, not a citation": "keys-NEGATIVE",
                    "unresolvable source token in narrative": "keys",
                    "correctly escaped doublequote must stay clean": "csv-NEGATIVE",
                    "retraction never reaches the registers": "corrections",
