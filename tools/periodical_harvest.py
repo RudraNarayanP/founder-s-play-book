@@ -1398,13 +1398,44 @@ EXT_BY_SOURCE = {"chronicling_america": ".json", "chronicling_america_ocr": ".tx
 
 PARSERS["hathitrust.catalog"] = parse_ht_brief
 
+def drop_year_facet(tasks):
+    """Strip ` AND YEAR:[a TO b]` from the Internet Archive families' `q` and label the rewrite.
+
+    RD-130 measured that the facet was manufacturing corporate-print nulls fleet-wide: IA's advanced
+    search indexes the SCAN/UPLOAD year for a lot of digitised annual reports, so a publication-year
+    facet silently drops exactly the in-window evidence it claims to select. Queries that keep the
+    facet answer a different question, so the generated variant says which one it asked.
+    """
+    rx = re.compile(r"\s+AND\s+YEAR:\[\d{4}\s+TO\s+\d{4}\]", re.I)
+    ia, n = 0, 0
+    for t in tasks:
+        if t.get("source_family") not in ("internet_archive", "corporate_print"):
+            continue
+        p = t.get("params") or {}
+        q = p.get("q") or ""
+        if not q:
+            continue
+        ia += 1
+        if "YEAR:[" not in q.upper():
+            continue
+        p["q"] = rx.sub("", q)
+        t["params"] = p
+        t["query_label"] = (t.get("query_label") or "") + " [FACET-FREE per RD-130]"
+        n += 1
+    print("facet-free: %d of %d Internet-Archive-family queries carried a YEAR facet; %d rewritten"
+          % (n, ia, n))
+    return tasks
+
+
 def run(config_path, out_root, max_requests, dry_run, delay, insecure,
         only_company=None, cache_dir=None, insecure_hosts=None,
         follow_redirects=False, gb_api_key="", use_curl=False,
-        curl_bin="curl", only_families=None):
+        curl_bin="curl", only_families=None, facet_free=False):
     with open(config_path, "r", encoding="utf-8") as f:
         cfg = json.load(f)
     tasks = cfg["tasks"]
+    if facet_free:
+        tasks = drop_year_facet(tasks)
     if only_company:
         tasks = [t for t in tasks if t["company"] == only_company]
     if only_families:
@@ -1635,6 +1666,10 @@ def main():
     ap.add_argument("--delay", type=float, default=2.0,
                     help="per-host delay seconds (politeness)")
     ap.add_argument("--company", default=None)
+    ap.add_argument("--facet-free", action="store_true",
+                    help="rewrite every Internet-Archive-family query without its YEAR:[..] facet "
+                         "before running it (RD-130: the facet was manufacturing corporate-print "
+                         "nulls because IA indexes scan/upload year for many annual reports)")
     ap.add_argument("--source-family", action="append", default=None,
                     metavar="FAMILY",
                     help="run only these source families (repeatable), e.g. "
@@ -1683,7 +1718,8 @@ def main():
                  cache_dir=args.cache_dir, insecure_hosts=hosts,
                  follow_redirects=args.follow_redirects,
                  gb_api_key=args.gb_key, use_curl=args.use_curl,
-                 curl_bin=args.curl_bin, only_families=args.source_family))
+                 curl_bin=args.curl_bin, only_families=args.source_family,
+                 facet_free=args.facet_free))
 
 if __name__ == "__main__":
     main()

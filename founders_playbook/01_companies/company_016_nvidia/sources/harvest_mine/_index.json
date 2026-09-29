@@ -3,9 +3,9 @@
   "1993-01-01",
   "1999-12-31"
  ],
- "candidates": 13,
- "mined": 4,
- "untried_by_limit": 7,
+ "candidates": 14,
+ "mined": 6,
+ "untried_by_limit": 6,
  "items": [
   {
    "identifier": "01.-nvidia-annual-reports",
@@ -59,14 +59,6 @@
    ]
   },
   {
-   "identifier": "U9n74ngfDU8C",
-   "date": "1998-01-01",
-   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried U9n74ngfDU8C_djvu.txt",
-   "verdict": "UNANSWERED",
-   "hits": 0,
-   "sample": []
-  },
-  {
    "identifier": "z3zsxvtRSv4C",
    "date": "1998-01-01",
    "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried z3zsxvtRSv4C_djvu.txt",
@@ -75,9 +67,33 @@
    "sample": []
   },
   {
+   "identifier": "U9n74ngfDU8C",
+   "date": "1998-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried U9n74ngfDU8C_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
    "identifier": "vcdVAAAAMAAJ",
    "date": "1999-01-01",
    "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried vcdVAAAAMAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "0X4ZEQAAQBAJ",
+   "date": "2024-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried 0X4ZEQAAQBAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "aT8_AAAAQBAJ",
+   "date": "2013-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried aT8_AAAAQBAJ_djvu.txt",
    "verdict": "UNANSWERED",
    "hits": 0,
    "sample": []

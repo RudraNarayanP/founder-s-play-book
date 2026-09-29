@@ -3,9 +3,9 @@
   "1975-01-01",
   "1980-12-31"
  ],
- "candidates": 95,
- "mined": 4,
- "untried_by_limit": 86,
+ "candidates": 103,
+ "mined": 6,
+ "untried_by_limit": 91,
  "items": [
   {
    "identifier": "micro_IA41153056_0224",
@@ -188,6 +188,63 @@
      ]
     }
    ]
+  },
+  {
+   "identifier": "reciprocalevalua00loya",
+   "date": "1977-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Reciprocal Evaluation Tour of U.S. Facilities and Programs for the Blind by Experts from the U.S.S.R. : Final Report fo ",
+   "family": "corporate_print",
+   "meta_date": "1977-01-01",
+   "status": "ok",
+   "bytes": 78742,
+   "named_terms": [
+    "apple computer",
+    "apple ii"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 6,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 28,
+     "text": "Loyal  E.  Apple,  Executive  Director",
+     "context": [
+      "",
+      "American  Foundation  for  the  Blind"
+     ]
+    },
+    {
+     "line": 160,
+     "text": "Director,  Mr.  Loyal  E.  Apple,  they  were  shown  some  of  the  aids  and",
+     "context": [
+      "Foundation  for  the  Blind  ( AFB) .  After  a  welcome  by  the  Executive",
+      "appliances  for  the  blind  available  through  AFB  and  were  presented  copies"
+     ]
+    },
+    {
+     "line": 189,
+     "text": "The  delegation  then  conferred  with  Mr.  Apple  and  the  Department  Directors",
+     "context": [
+      "",
+      "of  AFB.  Mr.  Zimin  was  interested  in  the  funding  and  functions  of  AFB."
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "nD4EAAAAMBAJ",
+   "date": "1980-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried nD4EAAAAMBAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
   }
  ]
 }

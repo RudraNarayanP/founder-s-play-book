@@ -73,6 +73,7 @@ WINDOWS = {
     "fedex": ("1971-01-01", "1985-12-31"), "amazon": ("1994-01-01", "1997-12-31"),
 }
 DIR_FOR = {}   # slug -> company dir, discovered from the repo layout
+UNIVERSE_NAMES = {}   # slug -> registrant name words, filled in main() (see universe_names())
 
 # Ordered strongest-first: the verdict a row carries is which of these tests fired, and a reader
 # deciding whether to open a file needs the strength, not just the count.
@@ -147,7 +148,42 @@ def de_punct(text):
     return re.sub(r"[^A-Za-z0-9]+", " ", (text or "").lower()).strip()
 
 
-def is_name_phrase(phrase, slug):
+def universe_names():
+    """slug -> the registrant's own name words, from the frozen universe CSV via scaffold_company.
+
+    Needed because 6 of the 50 slugs are ABBREVIATIONS (gm, jnj, bofa, att, rtx, ibm). For those, the
+    company's real name shares no letters with the slug, so a slug-containment test classifies the
+    registrant's own name phrase as a mere "other term" and the entity count comes out zero. The GM
+    probe caught exactly this: `matched_other_terms: ["general motors"]` with `named_terms: []`, i.e.
+    a broken detector, not an empty archive. Importing the slug mapping from `scaffold_company` keeps
+    one vocabulary in the repo instead of letting two files drift.
+    """
+    try:
+        import scaffold_company as sc
+    except Exception:
+        return {}
+    out = {}
+    try:
+        uni = sc.universe_rows()
+        hs = sc.harvest_slugs()
+        mapping, unresolved, _extra = sc.assign_slugs(uni, hs)
+    except Exception:
+        return {}
+    for rank, name in uni:
+        slug = mapping.get(rank)
+        if not slug:
+            continue
+        words = [w for w in re.split(r"[^a-z0-9]+", (name or "").lower())
+                 if len(w) > 2 and w not in NAME_NOISE]
+        out.setdefault(slug, set()).update(words)
+    return out
+
+
+NAME_NOISE = set("""company companies corporation corporations inc incorporated llc ltd plc group
+holdings holdingsplc the of and for co corp""".split())
+
+
+def is_name_phrase(phrase, slug, name_words=()):
     """Does this quoted term name the company, or is it a word that merely sits near it?
 
     'costco wholesale', 'wal mart', 'micro soft', 'apple computer' -> yes, the slug is in there once
@@ -158,16 +194,22 @@ def is_name_phrase(phrase, slug):
     classifier separates them instead of promoting anything that merely came from a quote.
     """
     j = phrase.replace(" ", "")
-    return bool(j) and (slug in j or j in slug)
+    if j and (slug in j or j in slug):
+        return True
+    # an abbreviation slug: a shared distinctive word from the registrant's own name is the test
+    if name_words:
+        pw = {w for w in re.split(r"[^a-z0-9]+", phrase) if w}
+        return bool(pw & set(name_words))
+    return False
 
 
-def split_terms(terms, slug):
+def split_terms(terms, slug, name_words=()):
     """(name phrases, other entity terms) -- see is_name_phrase for why the second is not a naming."""
     named, other = [], []
     for t in terms:
         if " " not in t:
             continue
-        (named if is_name_phrase(t, slug) else other).append(t)
+        (named if is_name_phrase(t, slug, name_words) else other).append(t)
     return named[:40], other[:40]
 
 
@@ -257,6 +299,9 @@ def self_test():
          ["FY1972 ANNUAL REPORT OF WAL-MART STORES, INC.",
           "(Reports). The Wal-Mart Stores, Inc. board met at Bentonville."],
          "walmart", ["'Wal-Mart Stores'", "'Walton'"], "TIER1_CANDIDATE_TEXT"),
+        ("an ABBREVIATED slug still recognises its own registrant name",
+         ["Minutes of the trial of the Buick Motor Company, a division of GENERAL MOTORS CORPORATION."],
+         "gm", ["'General Motors'", "'Buick Motor'", "'William C. Durant'"], "TIER1_CANDIDATE_TEXT"),
         ("a predecessor name alone is a clue about a different registrant",
          ["THE DAYTON HUDSON COMPANY, NINTH AND GATEWAY AVENUES, MINNEAPOLIS"],
          "target", ["'Target'", "'Dayton Hudson'"], "VARIANT_TERM_HIT"),
@@ -272,7 +317,9 @@ def self_test():
         with open(p, "w", encoding="utf-8") as f:
             f.write("\n".join(body) + "\n")
         rows = [{"query": q} for q in quoted]
-        named, other = split_terms(quoted_terms(rows), slug)
+        # Same resolver production uses, so the abbreviation control tests the wiring and not a
+        # value I hand-fed it.
+        named, other = split_terms(quoted_terms(rows), slug, universe_names().get(slug, ()))
         names = [slug] + [t for t in quoted_terms(rows) if " " not in t]
         pat_named, pat_other = phrase_regex(named), phrase_regex(other)
         pat_bare = r"\b%s\b" % r"|".join(re.escape(n) for n in dict.fromkeys(names) if n)
@@ -336,6 +383,7 @@ def main():
         return 2
     rows = list(csv.DictReader(open(CAND, encoding="utf-8")))
     dirs = company_dirs()
+    UNIVERSE_NAMES.update(universe_names())
     want = [s.lower() for s in (a.company or [])] or sorted({r.get("company", "").lower() for r in rows})
     report = {}
     skipped_no_dir = []
@@ -385,7 +433,7 @@ def main():
         # and that name is needed to judge the rows that did survive.
         terms = quoted_terms([r for r in rows
                               if (r.get("company") or "").strip().lower() == slug])
-        named, other = split_terms(terms, slug)
+        named, other = split_terms(terms, slug, UNIVERSE_NAMES.get(slug, ()))
         # Three classes of hit, because they are three different kinds of claim:
         #   a name phrase ("wal mart stores", "micro soft")  -> the entity, and the term is printed;
         #   the company word hard against an identity word ("COSTCO  WHOLESALE") -> also the entity;

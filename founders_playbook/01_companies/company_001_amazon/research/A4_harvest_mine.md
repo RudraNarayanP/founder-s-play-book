@@ -2,7 +2,7 @@
 
 Window applied: 1994-01-01 .. 1997-12-31 (deliberately WIDE where the founding date is itself unestablished -- narrowing it here would silently discard the evidence that could establish it).
 
-41 candidate rows in the harvest index; 4 items mined; 36 left untried at the --limit.
+47 candidate rows in the harvest index; 6 items mined; 40 left untried at the --limit.
 
 **Nothing on this page is a finding.** It is held bytes, hit counts and line numbers for an agent to interpret. Zero hits over held KB is a NULL; a missing text layer or a 404/403 is UNANSWERED; an item not attempted is UNTRIED.
 
@@ -14,7 +14,7 @@ Window applied: 1994-01-01 .. 1997-12-31 (deliberately WIDE where the founding d
 | `VARIANT_TERM_HIT` | 0 | a hit on a quoted term that is NOT this registrant's name -- a predecessor (`price club`, `dayton hudson`) or the trade title the query ran inside (`chain store age`). Related and worth opening; not a naming of this company. |
 | `BARE_WORD_MATCH` | 1 | only the company *word* matched, and that word is also a surname, an acronym and a fruit. The 1976 federal education report whose APPLE means *Anecdotal Processing to Promote Learning Experience* is the case that produced this class, at 162 fake Tier-1 hits. |
 | `NULL` | 1 | text held, zero hits. |
-| `UNANSWERED` | 2 | no text reached the corpus, so nothing is known either way. |
+| `UNANSWERED` | 4 | no text reached the corpus, so nothing is known either way. |
 
 A row below `TIER1_CANDIDATE_TEXT` may be cited as a pointer to a file, never as evidence, and never counted in a tier verdict.
 
@@ -23,9 +23,11 @@ Entity vocabulary this pass applied -- **name phrases**: `amazon com`; **other q
 | identifier | dates (scan/title) | window | bytes | word hits | entity hits | promoted by | verdict |
 |---|---|---|---|---|---|---|---|
 | `NASA_NTRS_Archive_19980017484` | 1997-01-01 / title:1998 | in-window MISMATCH | 35,332 | 18 | 0 | - | BARE_WORD_MATCH |
+| `handbookofdefens0002unse` | 1995-01-01 | outside? | 0 | 0 | 0 | - | UNANSWERED |
+| `divineempathythe0000farl` | 1996-01-01 | outside? | 0 | 0 | 0 | - | UNANSWERED |
+| `criticalresponse0000unse_t8q6` | 1994-01-01 | outside? | 0 | 0 | 0 | - | UNANSWERED |
 | `soulasvirginwife0000holl` | 1995-01-01 | outside? | 0 | 0 | 0 | - | UNANSWERED |
 | `first-ecommerce-announcement` | 1995-01-01 | in-window | 759 | 0 | 0 | - | NULL |
-| `handbookofdefens0002unse` | 1995-01-01 | outside? | 0 | 0 | 0 | - | UNANSWERED |
 
 _The scan-date field is often the digitisation year, so `outside?` means the metadata does not place it in the window -- not that the item is out of scope._
 

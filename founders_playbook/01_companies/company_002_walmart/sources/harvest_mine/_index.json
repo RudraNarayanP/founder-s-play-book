@@ -3,9 +3,9 @@
   "1945-01-01",
   "1972-12-31"
  ],
- "candidates": 53,
- "mined": 4,
- "untried_by_limit": 45,
+ "candidates": 69,
+ "mined": 6,
+ "untried_by_limit": 59,
  "items": [
   {
    "identifier": "1972-annual-report-for-walmart-stores-inc",
@@ -62,16 +62,16 @@
    ]
   },
   {
-   "identifier": "1976-annual-report-for-walmart-stores-inc",
-   "date": "1976-01-01",
-   "title_year": "1976",
+   "identifier": "1996-annual-report-for-walmart-stores-inc",
+   "date": "1996-01-01",
+   "title_year": "1996",
    "date_mismatch": false,
    "in_window": false,
-   "title": "1976 Annual Report For Walmart Stores Inc",
+   "title": "1996 Annual Report For Walmart Stores Inc",
    "family": "corporate_print",
-   "meta_date": "1976-01-01",
-   "status": "cached",
-   "bytes": 63235,
+   "meta_date": "1996-01-01",
+   "status": "ok",
+   "bytes": 103092,
    "named_terms": [
     "wal mart",
     "wal mart stores"
@@ -82,35 +82,35 @@
    ],
    "verdict": "TIER1_CANDIDATE_TEXT",
    "hits": 0,
-   "phrase_hits": 67,
-   "entity_hits": 67,
+   "phrase_hits": 156,
+   "entity_hits": 156,
    "matched_entities": [
     "wal-mart"
    ],
    "matched_other_terms": [],
    "sample": [
     {
-     "line": 55,
-     "text": "year  in  ihe  history  of  Wal-Mart  with  sales  and  net  income  both",
+     "line": 9,
+     "text": "at  our  vending  machines,  Wal-Mart  will  donate  a  nichel  to  local  Edge  Scholarship  Fund,  Competitive  Edge  SenoUwmpfl  help",
      "context": [
-      "Fiscal  year  ended  January  31.  1976.  was  the  mosi  successful",
-      "reaching  record  levels.  Company  sales  were  534tk3  million  com-"
-     ]
-    },
-    {
-     "line": 69,
-     "text": "assure  Wal-Mart's  position  as  a  leading  retail  growth  company.",
-     "context": [
-      "from  earnings,  combined  with  a  prudent  expansion  program  to",
+      "",
       ""
      ]
     },
     {
-     "line": 71,
-     "text": "Wal-Mart  completed  the  year  with  125  stores  in  operation,  an",
+     "line": 16,
+     "text": "WAL-MART",
      "context": [
       "",
-      "addition  of  21  stores  during  the  year.  The  new  stores  increased"
+      ""
+     ]
+    },
+    {
+     "line": 19,
+     "text": "Inside  Wal-Mart!",
+     "context": [
+      "",
+      ""
      ]
     }
    ]
@@ -170,16 +170,16 @@
    ]
   },
   {
-   "identifier": "1990-annual-report-for-walmart-stores-inc",
-   "date": "1990-01-01",
-   "title_year": "1990",
+   "identifier": "1985-annual-report-for-walmart-stores-inc",
+   "date": "1985-01-01",
+   "title_year": "1985",
    "date_mismatch": false,
    "in_window": false,
-   "title": "1990 Annual Report For Walmart Stores Inc",
+   "title": "1985 Annual Report For Walmart Stores Inc",
    "family": "corporate_print",
-   "meta_date": "1990-01-01",
-   "status": "cached",
-   "bytes": 54096,
+   "meta_date": "1985-01-01",
+   "status": "ok",
+   "bytes": 67944,
    "named_terms": [
     "wal mart",
     "wal mart stores"
@@ -199,22 +199,129 @@
    "sample": [
     {
      "line": 1,
-     "text": "WAL-MART  ANNUAL  REPORT",
+     "text": "WAL-MART",
      "context": [
       ""
      ]
     },
     {
-     "line": 10,
-     "text": "WAL-MART\"",
+     "line": 42,
+     "text": "In  Wal-Mart's  promise  of  \"satisfaction  guaranteed,\"  people  make  the  differmce.  Whatever  their",
+     "context": [
+      "",
+      "capacity,  Wal-Mart  associates  are  supported  by  up-to-date  systems  that  enhance  productivity  and"
+     ]
+    },
+    {
+     "line": 43,
+     "text": "capacity,  Wal-Mart  associates  are  supported  by  up-to-date  systems  that  enhance  productivity  and",
+     "context": [
+      "In  Wal-Mart's  promise  of  \"satisfaction  guaranteed,\"  people  make  the  differmce.  Whatever  their",
+      "assure  that  most  important  of  end  results.. .a  satisfied  customer."
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "1987-annual-report-for-walmart-stores-inc",
+   "date": "1987-01-01",
+   "title_year": "1987",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "1987 Annual Report For Walmart Stores Inc",
+   "family": "corporate_print",
+   "meta_date": "1987-01-01",
+   "status": "ok",
+   "bytes": 69056,
+   "named_terms": [
+    "wal mart",
+    "wal mart stores"
+   ],
+   "other_terms": [
+    "five and dime",
+    "walton s"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 61,
+   "entity_hits": 61,
+   "matched_entities": [
+    "wal-mart"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "WAL-MART",
+     "context": [
+      ""
+     ]
+    },
+    {
+     "line": 71,
+     "text": "Wal-Mart  Stores",
      "context": [
       "",
       ""
      ]
     },
     {
-     "line": 65,
-     "text": "Wal-Mart  Stores   1,402  1,259",
+     "line": 252,
+     "text": "feet.  We  opened  121  new  Wal-Mart",
+     "context": [
+      "year's  total  of  51.2  million  square",
+      "stores,  26  new  Sam's  Wholesale  Club"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "1998-annual-report-for-walmart-stores-inc",
+   "date": "1998-01-01",
+   "title_year": "1998",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "1998 Annual Report For Walmart Stores Inc",
+   "family": "corporate_print",
+   "meta_date": "1998-01-01",
+   "status": "ok",
+   "bytes": 120540,
+   "named_terms": [
+    "wal mart",
+    "wal mart stores"
+   ],
+   "other_terms": [
+    "five and dime",
+    "walton s"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 200,
+   "entity_hits": 200,
+   "matched_entities": [
+    "wal-mart"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 28,
+     "text": "WAL-MART  Annual  -jy",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 46,
+     "text": "investment  base,  Wal-Mart  focuses  on  customer",
+     "context": [
+      "With  a  strategy  for  improving  returns  on  our",
+      "and  shareholder  value."
+     ]
+    },
+    {
+     "line": 53,
+     "text": "Letters  to  Wal-Mart",
      "context": [
       "",
       ""

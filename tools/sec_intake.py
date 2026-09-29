@@ -180,8 +180,15 @@ def cik10(cik):
     return "%010d" % int(re.sub(r"\D", "", str(cik)))
 
 
-def submissions_index(cik, max_slices=8):
-    """Full filing list, following the archive slices -- the `recent` block stops ~2001."""
+def submissions_index(cik, max_slices=0):
+    """Full filing list, following the archive slices -- the `recent` block stops ~2001.
+
+    `max_slices=0` means WALK EVERY SLICE. The cap was 8 until 2026-09-30, when the Citigroup probe
+    measured a 9-slice registrant, silently read only 8, and reported "0 filings in any stage
+    window" for a company whose history is entirely inside those windows. A capped walk is the worst
+    possible input for a null: it is indistinguishable from an empty archive. A cap is still
+    available via --max-slices, and when it bites it is printed and counted, never hidden.
+    """
     c = cik10(cik)
     status, body, note = http_get("https://data.sec.gov/submissions/CIK%s.json" % c)
     if body is None:
@@ -199,7 +206,7 @@ def submissions_index(cik, max_slices=8):
         note = "UNANSWERED: submissions JSON listed no archive slices, so pre-`recent` history is untested"
         rows.append({"accession": "", "form": "", "filingDate": "", "primaryDocument": "",
                      "source": "(no files[] block)", "status": note})
-    for f in files[:max_slices]:
+    for f in (files if not max_slices else files[:max_slices]):
         # Slices live on the JSON API host, NOT under /Archives/edgar/data/<cik>/ --
         # the Archives form returns 503/404 and made `index` silently stop at 2020.
         url = "https://data.sec.gov/submissions/%s" % f["name"]
@@ -220,6 +227,16 @@ def submissions_index(cik, max_slices=8):
         else:
             for blk in (sj.get("filings", {}) or {}).values() if isinstance(sj.get("filings"), dict) else []:
                 rows.extend(_as_records(blk, f["name"]))
+    if max_slices and len(files) > max_slices:
+        print("walk: CAPPED at --max-slices=%d, %d of %d archive slices NOT READ -- any 'no early "
+              "filings' conclusion from this index is UNANSWERED, not a null"
+              % (max_slices, len(files) - max_slices, len(files)))
+    missed = sum(1 for r in rows if "UNANSWERED" in str(r.get("status", ""))
+                 or "UNPARSEABLE" in str(r.get("status", "")))
+    days = sorted(r["filingDate"] for r in rows if len(str(r.get("filingDate", ""))) == 10)
+    print("walk: %d slices (%d fetched, %d failed), %d filing rows, date perimeter %s -> %s"
+          % (len(files), len(files) if not max_slices else min(max_slices, len(files)),
+             missed, len(rows), days[0] if days else "(none)", days[-1] if days else "(none)"))
     return name, (ticks[0] if ticks else ""), rows, ticks, [f for f in formers if f]
 
 
@@ -1190,6 +1207,10 @@ def main():
         p.add_argument("--cik")
         p.add_argument("--company-dir")
         p.add_argument("--ticker")
+        p.add_argument("--max-slices", dest="max_slices", type=int, default=0,
+                       help="archive slices to read; 0 (default) = every slice. A positive value "
+                            "prints a CAPPED warning, because a capped walk otherwise reads as an "
+                            "empty archive (Citigroup probe, 2026-09-30).")
         p.add_argument("--from", dest="lo", default="1900-01-01")
         p.add_argument("--to", dest="hi", default="2030-12-31")
         p.add_argument("--accession")
@@ -1237,7 +1258,7 @@ def main():
     rc = 0
     rows = None
     if a.cmd in ("index", "auto"):
-        name, tick, rows, ticks, formers = submissions_index(a.cik)
+        name, tick, rows, ticks, formers = submissions_index(a.cik, max_slices=a.max_slices)
         n, earliest, meta = write_index(a.company_dir, a.cik, name, tick, rows,
                                         tickers=ticks, former_names=formers)
         print("index: %d filings from registrant %r (CIK %s, tickers %s)"

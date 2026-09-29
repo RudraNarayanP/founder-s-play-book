@@ -3,22 +3,22 @@
   "1974-01-01",
   "1995-12-31"
  ],
- "candidates": 47,
- "mined": 4,
- "untried_by_limit": 41,
+ "candidates": 50,
+ "mined": 6,
+ "untried_by_limit": 42,
  "items": [
   {
-   "identifier": "udRwLIq-iMoC",
-   "date": "1978-01-01",
-   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried udRwLIq-iMoC_djvu.txt",
+   "identifier": "CKD-KolMt-8C",
+   "date": "1981-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried CKD-KolMt-8C_djvu.txt",
    "verdict": "UNANSWERED",
    "hits": 0,
    "sample": []
   },
   {
-   "identifier": "CKD-KolMt-8C",
-   "date": "1981-01-01",
-   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried CKD-KolMt-8C_djvu.txt",
+   "identifier": "udRwLIq-iMoC",
+   "date": "1978-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried udRwLIq-iMoC_djvu.txt",
    "verdict": "UNANSWERED",
    "hits": 0,
    "sample": []
@@ -78,9 +78,25 @@
    ]
   },
   {
-   "identifier": "Rn5PAQAAIAAJ",
-   "date": "1994-01-01",
-   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried Rn5PAQAAIAAJ_djvu.txt",
+   "identifier": "815tAAAAMAAJ",
+   "date": "1987-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried 815tAAAAMAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "MhQiAQAAMAAJ",
+   "date": "1985-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried MhQiAQAAMAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "-IzwAAAAMAAJ",
+   "date": "1985-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried -IzwAAAAMAAJ_djvu.txt",
    "verdict": "UNANSWERED",
    "hits": 0,
    "sample": []

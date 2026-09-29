@@ -2658,3 +2658,97 @@ block (identical 11-column schemas, always `AMBIGUOUS`), which is now the *norma
 the tool should stop pretending the ambiguity is information rather than a schema defect. And the Nvidia
 part 2 found that **part 1's file is truncated** -- it ends mid-sentence with the `## Untried` it promised
 absent, so a pass's own report ("11 untried routes written") is not evidence the bytes are on disk.
+
+### RD-133 -- UnitedHealth's volume exists and its report does not, and the abbreviation slugs were silently mining nothing
+
+**The merge landed; the merge agent died at its turn ceiling without telling anyone.** `company_003_unitedhealth`
+now holds `stage_1.md` at **44,996 words** and 230 register rows (quantitative 83, timeline 39, sources 31,
+conflicts 23, data_gaps 22, decisions 10, validation 8, failures 8, channels 6) with 18 anchors and
+`gates.py` at **1 finding / 20 passes** -- the one finding being `44996 words > core cap 22000`, an advisory
+overage, not a defect. I found this by reading the disk after the agent's report never arrived. Fourth
+instance of the same shape in this run, and it is why every brief now says append-as-you-go and mark each
+volume WRITTEN: the crash-proof part is the file, not the report. **Audited by `uhc-audit1`, dispatched
+against disk state rather than against the merge agent's claims, because there are no claims to audit.**
+
+**`harvest_mine.py` could not see that `gm` is General Motors.** Eight abbreviated slugs (`gm jnj bofa att
+rtx ups`) mine the directory name, which is not the registrant's name, so every *entity* class was
+unreachable and the shortfall presented as a thin archive rather than as a blind tool. Fixed with
+`universe_names()` (imports `scaffold_company`, so slug→registrant comes from the same vocabulary that made
+the directories) plus an explicit `ALIAS` for the four names the matcher cannot resolve (`Bank of America`→
+`bofa` etc.); `is_name_phrase`/`split_terms` now take the registrant's name words. Re-mined: **`bofa` 8 of 8
+mined items carry the entity's own name; `gm` 66 candidates → 1 entity item**; `jnj` and `rtx` return
+`mined=0` with `unans=0`, self-test 9 checks / 0 failing.
+
+Not fixed, logged: **rows that carry no `item_id` are skipped without being counted**, which is exactly how
+`mined=0 / unans=0` became possible -- a silently dropped row is indistinguishable from an empty result, the
+defect class of RD-128 and RD-130 for the third time. The count belongs to whoever re-runs the fleet mine
+(task #24); it is not a claim I can make from here.
+
+### RD-134 -- the EDGAR archive walk was capped at 8 slices, so every "filings answer nothing in-window" verdict before tonight must be re-graded
+
+Two probes, dispatched independently, measured the same tool defect from opposite ends:
+
+- **Citigroup** (rank 24): 45 held SEC files, CIK 831001, and the perimeter of everything the walk reached
+  was **2024-04-17 → 2026-09-29** -- *zero* filings inside any of its stage windows, for a company whose
+  story is 1812→1998. Its verdict named the cause exactly: `sec_intake.py` `submissions_index(cik,
+  max_slices=8)`, called with no override and no CLI flag, truncating a 9-slice registrant.
+- **JPMorgan** (rank 12): index's earliest row **2024-12-13**, its `source` column literally
+  `recent` + `-001…-008.json` -- the eight slices, counted. Its Stage-3 tier was flagged as an
+  **intake artefact, not a depth judgment, do not dispatch** -- the correct reading of a tool ceiling as a
+  tool ceiling.
+
+A capped walk is the worst possible input for a null: it is indistinguishable from an empty archive, which is
+the one conclusion this method is built not to draw (§14 r6, RD-128). Fixed: the walk defaults to **every
+slice**, `--max-slices` exists for the rare cost-bounded run, and a cap now prints
+`walk: CAPPED at --max-slices=N, X of Y archive slices NOT READ` alongside a `date perimeter A -> B` line on
+every index, so silence about early filings arrives with the measurement that explains it. Self-test still
+42 checks / 0 failing. **Consequence for the corpus: the filings-family verdict of every company whose intake
+ran before this entry is provisional, and re-grading it is what tonight's fleet intake is for.**
+
+**Ford's probe turned the recital route into a rule.** Its held carriers are an S-4 (1995-09-19, l.704-706)
+and a 10-K (1994-03-21, l.177-178) printing the registrant's own sentence: *incorporated in Delaware in 1919
+and acquired the business of a Michigan company, also known as Ford Motor Company, incorporated in 1903*. The
+16 distinct `McGillLibrary-6355xx` layers that looked like Ford's early print (200,350 B, FY1920-1950) name
+**Ford Motor Company of Canada, Limited** -- `Ford Motor Car Company`, `Henry Ford Company`, `Model T`,
+`moving line` and `1903/1902/1901` all measured at **0 occurrences** in them. Same evidence class as Kroger's
+Great Western Tea and Boeing's "since 1916", with the polarity reversed: here the *later* Delaware entity is
+the registrant and the *earlier* Michigan one is the ancestor, so a 1903-1918 Stage-1 window is a predecessor
+window on the registrant's own word. This is why `tools/fleet_intake.py` runs a **second pass that reaches
+forward into 2006-2030 when the in-window pass stores nothing**: EDGAR's own floor is 1993-94, so for every
+pre-1960 company here the founding sentence can only live in a filing the company's own window excludes. Ford
+also found the layer no earlier pass had mined (635595, FY1931, never read by `harvest_mine`).
+
+**`tools/fleet_intake.py` (new)** is the scripted half of the tail: universe CSV → the scaffolder's own slug
+rules → per-company `sec_intake auto` over that company's Stage-1 window from `harvest_mine.WINDOWS`, parsing
+only `sec_intake`'s own summary lines, resumable through `00_universe/_FLEET_INTAKE.tsv`, and recording
+`EMPTY-PERIMETER` (never "null") plus the measured floor when nothing stored. Two lanes run overnight at
+~5.7 req/s combined, inside EDGAR's 10 req/s ceiling; a company whose merged volume is under audit is run
+`--no-recital --max-docs 1`, so the perimeter refresh cannot reach into files an auditor is reading.
+
+**Its first run poisoned its own state file, and I caught it before it cost an agent.** I tested
+`--dry-run`, `save_state` wrote a row anyway (dry-run returns a row-shaped dict), and the next launch died in
+`load_state` on `KeyError: 'slug'`: it had read a half-populated file as a resume table whose header it had
+written itself. Two rules already in this log, re-learned by me rather than by an agent: a dry run must write
+nothing anywhere, and a tool that reads state must check the header before trusting a field.
+
+**88 of 104 Internet-Archive-family queries carried the YEAR facet RD-130 measured as manufacturing
+corporate-print nulls.** Fixing the tool's *handling* (a faceted zero is UNANSWERED, with the remedy named)
+left the *queries* faceted, so a re-run would have re-manufactured the same zeros. `--facet-free` strips
+` AND YEAR:[a TO b]` from the `internet_archive` and `corporate_print` tasks at load time and labels each
+rewritten query `[FACET-FREE per RD-130]`, so the index records which question it asked. A fleet reharvest is
+running overnight on those two families; it writes to the same harvest root the nightly uses, and the merge is
+keyed on query text, so facet-free rows arrive as new evidence instead of overwriting the faceted ones. Task
+#28 closes when the mine re-reads the enlarged index.
+
+**Microsoft's first audit: 20 findings, 0 blocking, 3 HIGH -- and all three HIGH are corpus-level classes.**
+IN-1: `conflicts.csv` U.3 claims 1975 is "corroborated across two independent lineages" when both carriers are
+Microsoft's own account and the 1976 letter it cites never states 1975 -- the §3 forbidden move sitting in the
+register layer that later passes trust. NR-2: "there is no digitised annual-report run" rests on a query
+carrying `YEAR:[1977 TO 1998]` **and** creator **and** title facets, and is contradicted by the FY2017 layer the
+same volume cites at S4240 -- RD-130's class, still live in a volume that looks signed. NR-1: family (b) web
+archives is written as **UNTRIED, 0 calls** while `sources/web_archive/` holds two attempted CDX calls whose
+sidecars read `"http_status": 503, "verdict": "UNANSWERED (service 503, not an empty result)"`. NR-1 is the one
+I cannot fix by briefing: **UNTRIED vs UNANSWERED is currently kept honest only by the author's care**, and a
+dead route written as an unattempted one lands on the single route that could raise that company's tier. Open
+defect, logged not solved: `gates.py` should fail any volume whose family table claims UNTRIED while a sidecar
+carrying an http_status exists under that family's path.

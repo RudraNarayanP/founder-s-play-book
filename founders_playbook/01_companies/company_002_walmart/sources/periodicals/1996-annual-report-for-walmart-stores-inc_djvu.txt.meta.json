@@ -1,0 +1,9 @@
+{
+ "identifier": "1996-annual-report-for-walmart-stores-inc",
+ "url": "https://archive.org/download/1996-annual-report-for-walmart-stores-inc/1996-annual-report-for-walmart-stores-inc_djvu.txt",
+ "fetched": "2026-09-29T18:23:57Z",
+ "bytes": 103092,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}
