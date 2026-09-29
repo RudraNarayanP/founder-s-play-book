@@ -53,6 +53,19 @@ jobs:
           MAXR: ${{ github.event.inputs.max_requests || '600' }}
         run: python tools/periodical_harvest.py --max-requests "$MAXR"
 
+      - name: Chronicling America endpoint probe
+        # 2026-09-29 (RD-128): the harvester's CA path has returned a LoC **404** on every nightly run
+        # (09-27, -28, -29), so its 209 rows carry 0 answers -- a 404 is our wrong path, not a refusal,
+        # and re-running the same URL from any egress will keep returning it. From the development
+        # machine every candidate shape 403s behind Cloudflare, so a local test cannot tell a wrong
+        # path from a blocked client. This runner egress CAN: it reached a real LoC 404. The probe
+        # tries each documented shape once and writes the verdict to
+        # founders_playbook/00_universe/harvest/_CA_ENDPOINT_TEST.md, which the commit step below picks up.
+        # Non-fatal by design: an all-challenged result is information, not a broken build.
+        if: always()
+        continue-on-error: true
+        run: python tools/ca_endpoint_probe.py
+
       - name: Report per-family outcome counts
         if: always()
         run: |
