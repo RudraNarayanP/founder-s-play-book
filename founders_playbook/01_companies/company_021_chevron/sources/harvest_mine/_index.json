@@ -1,0 +1,582 @@
+{
+ "window": [
+  "1879-01-01",
+  "1984-12-31"
+ ],
+ "candidates": 86,
+ "mined": 12,
+ "untried_by_limit": 72,
+ "items": [
+  {
+   "identifier": "NASA_NTRS_Archive_19830011631",
+   "date": "1983-01-01",
+   "title_year": "1983",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "NASA Technical Reports Server (NTRS) 19830011631: Specimen size and geometry effects on fracture toughness of Al2O3 meas",
+   "family": "corporate_print",
+   "meta_date": "1983-01-01",
+   "status": "ok",
+   "bytes": 16834,
+   "named_terms": [
+    "chevron corporation"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 26,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 58,
+     "text": "Chevron-Notch Specimens",
+     "context": [
+      "With Short Rod and Short Bar",
+      ""
+     ]
+    },
+    {
+     "line": 77,
+     "text": "Symposium on Chevron-Notched Specimens:",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 110,
+     "text": "short rod and short bar chevron-notch specimens previously calibrated by the au-",
+     "context": [
+      "Plane strain fracture toughness measurements were made on AI2O3 using",
+      "thors for their dimensionless stress Intensity factor coefficients. The measured"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19840005539",
+   "date": "1983-01-01",
+   "title_year": "1984",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "NASA Technical Reports Server (NTRS) 19840005539: Three-dimensional analysis of chevron-notched specimens by boundary in",
+   "family": "corporate_print",
+   "meta_date": "1983-01-01",
+   "status": "cached",
+   "bytes": 80955,
+   "named_terms": [
+    "chevron corporation"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 65,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 12,
+     "text": "THREErDIMENSIONAL ANALYSIS OF CHEVRON-NOTCHED",
+     "context": [
+      "",
+      "SPECIMENS BY BOUNDARY INTEGRAL METHOD"
+     ]
+    },
+    {
+     "line": 155,
+     "text": "THSEE-DIMENSIOHAL ANALYSIS OF CHEVRON-NOTCHED SPECIMENS",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 168,
+     "text": "chevron-notched short-bar and short-rod speclmemens, using the",
+     "context": [
+      "A three-dimensional elastic analysis was performed on the",
+      "boundary Integral equations method. This method makes use of"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_20080012230",
+   "date": "1977-01-01",
+   "title_year": "2008",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "NASA Technical Reports Server (NTRS) 20080012230: Passive chevron replicator",
+   "family": "corporate_print",
+   "meta_date": "1977-01-01",
+   "status": "cached",
+   "bytes": 16576,
+   "named_terms": [
+    "chevron corporation"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 30,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 16,
+     "text": "[54] PASSIVE CHEVRON REPLICATOR",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 62,
+     "text": "the replicator uses chevron type elements arranged in",
+     "context": [
+      "replicates bubble domains. In a preferred embodiment,",
+      "an appropriate pattern so as to interact with a pair of"
+     ]
+    },
+    {
+     "line": 88,
+     "text": "PASSIVE CHEVRON REPLICATOR",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19840021180",
+   "date": "1984-01-01",
+   "title_year": "1984",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "NASA Technical Reports Server (NTRS) 19840021180: Three-dimensional finite-element analysis of chevron-notched fracture ",
+   "family": "corporate_print",
+   "meta_date": "1984-01-01",
+   "status": "ok",
+   "bytes": 38244,
+   "named_terms": [
+    "chevron corporation"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 59,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 5,
+     "text": "CHEVRON-NOTCHED FRACTURE SPECIMENS",
+     "context": [
+      "THREE-DIMENSIONAL FINITE-ELEMENT ANALYSIS OF",
+      ""
+     ]
+    },
+    {
+     "line": 28,
+     "text": "CHEVRON-NOTCHED FRACTURE SPECIMENS",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 38,
+     "text": "been calculated for chevron-notched bar and rod fracture specimens using a",
+     "context": [
+      "In this paper, stress-intensity factors and load-line displacements have",
+      "three-dimensional finite-element analysis. Both specimens were subjected to"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "01-chevron-cover",
+   "date": "1920-01-01",
+   "title_year": "1920",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Chevron Annual Reports: 1920-",
+   "family": "corporate_print",
+   "meta_date": "1920-01-01",
+   "status": "cached",
+   "bytes": 429532,
+   "named_terms": [
+    "chevron corporation"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 200,
+   "phrase_hits": 99,
+   "entity_hits": 107,
+   "matched_entities": [
+    "chevron corporation",
+    "chevron employees"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1567,
+     "text": "This Annual Report of Chevron Corporation contains forward-looking statements relating to Chevron's operations that are based on management's current",
+     "context": [
+      "",
+      "expectations, estimates and projections about the petroleum, chemicals and other energy-related industries. Words such as \u201canticipates,\u201d \u201cexpects,\u201d \u201cintends,\u201d"
+     ]
+    },
+    {
+     "line": 1673,
+     "text": "26 CHEVRON CORPORATION 2005 ANNUAL REPORT",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 1905,
+     "text": "CHEVRON CORPORATION 2005 ANNUAL REPORT 27",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19780024484",
+   "date": "1978-01-01",
+   "title_year": "1978",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "NASA Technical Reports Server (NTRS) 19780024484: Chevron cutting: Experiment with new runway mixtures",
+   "family": "corporate_print",
+   "meta_date": "1978-01-01",
+   "status": "cached",
+   "bytes": 19542,
+   "named_terms": [
+    "chevron corporation"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 55,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 7,
+     "text": "CHEVRON cutting --EXPERIMENT WITH NEW",
+     "context": [
+      "",
+      "RUNWAY MIXTURES"
+     ]
+    },
+    {
+     "line": 33,
+     "text": "Translation of \"CHEVRON CUTTING- ; Vex such mit",
+     "context": [
+      "",
+      "neuen Laufflachenitaschungen, \" . 5wisaair,_Dept.."
+     ]
+    },
+    {
+     "line": 56,
+     "text": "CHEVRON CUTTING- -EXPERIMENT WITH NEW",
+     "context": [
+      "",
+      "RUNWAY MIXTURES"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19800023978",
+   "date": "1980-01-01",
+   "title_year": "1980",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "NASA Technical Reports Server (NTRS) 19800023978: Fracture toughness of brittle materials determined with chevron notch ",
+   "family": "corporate_print",
+   "meta_date": "1980-01-01",
+   "status": "cached",
+   "bytes": 20157,
+   "named_terms": [
+    "chevron corporation"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 42,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 16,
+     "text": "Determined With Chevron Notch Specimens",
+     "context": [
+      "Fracture Toughness of Brittle Materials",
+      ""
+     ]
+    },
+    {
+     "line": 20,
+     "text": "BRITTLE MATERIALS LET rat MI NED Mil'll CHEVRON",
+     "context": [
+      "",
+      "NOTCH SPECIMENS (NASA) 17 p dC A 02/ME A01"
+     ]
+    },
+    {
+     "line": 59,
+     "text": "DETERMINED WITH CHEVRON NOTCH SPECIMENS",
+     "context": [
+      "FRACTURE TOUGHNESS OF BRITTLE MATERIALS",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19840025763",
+   "date": "1984-01-01",
+   "title_year": "1984",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "NASA Technical Reports Server (NTRS) 19840025763: A review of chevron-notched fracture specimens",
+   "family": "corporate_print",
+   "meta_date": "1984-01-01",
+   "status": "cached",
+   "bytes": 67504,
+   "named_terms": [
+    "chevron corporation"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 147,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 10,
+     "text": "A REVIEW OF CHEVRON-NOTCHED FRACTURE SPECIMENS",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 45,
+     "text": "A REVIEW OF CHEVRON-NOTCHED FRACTURE SPECIMENS",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 55,
+     "text": "This paper reviews the historical development of chevron-notched fracture",
+     "context": [
+      "",
+      "specimens; it also compares stress-intensity factors and load line displace-"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "standard-oil-company-of-california-annual-report-1956",
+   "date": "1957-01-01",
+   "title_year": "1956",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "Standard Oil Company of California Annual Report 1956",
+   "family": "corporate_print",
+   "meta_date": "1957-01-01",
+   "status": "ok",
+   "bytes": 68405,
+   "named_terms": [
+    "chevron corporation"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 2,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 80,
+     "text": "This Chevron hallmark, adopted generally throughout",
+     "context": [
+      "",
+      "all phases of Company operations, provides a nationally"
+     ]
+    },
+    {
+     "line": 1253,
+     "text": "generally under the brand name \u201cChevron,\u201d",
+     "context": [
+      "for the Company. Gasolines are marketed",
+      "except on the East Coast, where the name is"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "standard-oil-company-of-california-annual-report-1957",
+   "date": "1958-01-01",
+   "title_year": "1957",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "Standard Oil Company of California Annual Report 1957",
+   "family": "corporate_print",
+   "meta_date": "1958-01-01",
+   "status": "ok",
+   "bytes": 67323,
+   "named_terms": [
+    "chevron corporation"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 3,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 693,
+     "text": "from the Gulf. Development of the Chevron",
+     "context": [
+      "counting for 32 per cent of the industry total",
+      "field, first in Texas waters, was completed in"
+     ]
+    },
+    {
+     "line": 1111,
+     "text": "Chevron Supreme Gasoline and a new RPM",
+     "context": [
+      "the Company during the year marketed a new",
+      "Supreme Motor Oil. Both constituted signifi-"
+     ]
+    },
+    {
+     "line": 1126,
+     "text": "California family by display of the Chevron",
+     "context": [
+      "identified as part of the Standard Oil of",
+      "Hallmark. Most of the Company\u2019s marketing"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "environmentalbas01clea",
+   "date": "1982-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Environmental baseline report for Chevron's proposed syncrude pipeline routes : Clear Creek to La Sal and Clear Creek to",
+   "family": "corporate_print",
+   "meta_date": "1982-01-01",
+   "status": "ok",
+   "bytes": 360356,
+   "named_terms": [
+    "chevron corporation"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 25,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 9,
+     "text": "ENVIRONMENTAL  BASELINE  REPORT  FOR  CHEVRON'S",
+     "context": [
+      "",
+      "PROPOSED  SYNCRUDE  PIPELINE  ROUTES:"
+     ]
+    },
+    {
+     "line": 17,
+     "text": "CHEVRON  SHALE  OIL  COMPANY",
+     "context": [
+      "",
+      "Denver,  Colorado"
+     ]
+    },
+    {
+     "line": 51,
+     "text": "ENVIRONMENTAL  BASELINE  REPORT  FOR  CHEVRON'S",
+     "context": [
+      "",
+      "PROPOSED  SYNCRUDE  PIPELINE  ROUTES:"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "standard-oil-company-of-california-annual-report-1958",
+   "date": "1959-01-01",
+   "title_year": "1958",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "Standard Oil Company of California Annual Report 1958",
+   "family": "corporate_print",
+   "meta_date": "1959-01-01",
+   "status": "ok",
+   "bytes": 75124,
+   "named_terms": [
+    "chevron corporation"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 3,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1549,
+     "text": "these stations displayed the familiar Chevron",
+     "context": [
+      "Western Canada and Central America. All of",
+      "Hallmark in 1958, with the exception of out-"
+     ]
+    },
+    {
+     "line": 1592,
+     "text": "{ Chevron (formerly \u201cCalso\u201d) station of The California Oil",
+     "context": [
+      "",
+      "\\ Company, operating in 12 Eastern Seaboard States."
+     ]
+    },
+    {
+     "line": 1613,
+     "text": "Chevron dealer station, operating in Western United States.",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  }
+ ]
+}

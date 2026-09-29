@@ -88,14 +88,17 @@ def search(q, rows=20, fl=None, allow_insecure=False):
            + "&sort[]=" + urllib.parse.quote("downloads desc"))
     s, body, note = get(url, allow_insecure=allow_insecure)
     if not body:
-        return None, note
+        return None, note, None
     try:
         j = json.loads(body)
     except ValueError:
-        return None, "UNPARSEABLE (advancedsearch returned a page, not JSON)"
-    docs = (j.get("response", {}) or {}).get("docs", []) or []
-    return docs, "ok (%s rows matched of %s)" % (len(docs),
-                                                 j.get("response", {}).get("numFound"))
+        return None, "UNPARSEABLE (advancedsearch returned a page, not JSON)", None
+    resp = j.get("response", {}) or {}
+    docs = resp.get("docs", []) or []
+    num_found = resp.get("numFound")
+    # numFound is the archive's total and `rows` is the page we asked for; the two are different
+    # numbers and printing only the second is how a caller comes to believe it counted the corpus.
+    return docs, "ok (%d rows returned of numFound %s)" % (len(docs), num_found), num_found
 
 
 def text_layer_names(identifier, allow_insecure=False):
@@ -130,13 +133,50 @@ def ocr_url(identifier, fname=None):
                                                                       "%s_djvu.txt" % identifier))
 
 
-def fetch(company_dir, identifier, max_mb=12, allow_insecure=False):
+def local_name(identifier, fname=None):
+    """The on-disk filename for a text layer, and the reason it is not just `<id>_djvu.txt`.
+
+    A bound run published as ONE item with a layer per year (Boeing's 46 reports 1934-1978, Kroger's
+    104 layers 1925-2007) can only be addressed by filename. Two consequences, both fixed here: the
+    requested volume must be selectable, and two volumes of one item must not land on one path --
+    the old single-path rule meant a second fetch silently OVERWROTE the first item's bytes.
+    """
+    if not fname or fname == "%s_djvu.txt" % identifier:
+        return "%s_djvu.txt" % identifier
+    safe = re.sub(r"[^A-Za-z0-9._-]+", "_", fname)
+    return "%s__%s" % (identifier, safe)
+
+
+def text_layer_listing(identifier, allow_insecure=False):
+    """(name, size) for every readable text layer on an item -- so a caller can CHOOSE a volume
+    instead of accepting whichever layer the metadata happened to sort first."""
+    s, body, note = get("https://archive.org/metadata/%s" % identifier,
+                        allow_insecure=allow_insecure)
+    if not body:
+        return None, note
+    try:
+        j = json.loads(body)
+    except ValueError:
+        return None, "UNPARSEABLE metadata"
+    out = []
+    for f in j.get("files", []) or []:
+        n = f.get("name", "")
+        if n.endswith(("_djvu.txt", "_text.txt", ".txt")) and not n.endswith(".gz"):
+            out.append((n, int(f.get("size", 0) or 0)))
+    return sorted(out), "ok"
+
+
+def fetch(company_dir, identifier, max_mb=12, allow_insecure=False, filename=None):
     out_dir = os.path.join(company_dir, "sources", "periodicals")
     os.makedirs(out_dir, exist_ok=True)
-    path = os.path.join(out_dir, "%s_djvu.txt" % identifier)
+    path = os.path.join(out_dir, local_name(identifier, filename))
     if os.path.exists(path) and os.path.getsize(path) > 200:  # cached bytes keep their route stamp
         return path, "cached", os.path.getsize(path)
-    names, mnote = text_layer_names(identifier, allow_insecure)
+    if filename:
+        names = [filename]
+        mnote = "explicit --file"
+    else:
+        names, mnote = text_layer_names(identifier, allow_insecure)
     body = None
     note = mnote
     used = None
@@ -156,7 +196,8 @@ def fetch(company_dir, identifier, max_mb=12, allow_insecure=False):
         f.write(body.decode("utf-8", "replace"))
     side = {"identifier": identifier, "url": ocr_url(identifier, used),
             "fetched": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-            "bytes": len(body), "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+            "bytes": len(body),
+            "route": "download/<id>/%s (OCR text layer)" % (used or "?"),
             "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
             "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
             if allow_insecure else "verified TLS"}
@@ -194,11 +235,13 @@ def classify(hits, bytes_fetched):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("mode", choices=["search", "fetch", "grep", "mine"])
+    ap.add_argument("mode", choices=["search", "fetch", "grep", "mine", "list-files"])
     ap.add_argument("--q"); ap.add_argument("--id"); ap.add_argument("--pattern")
     ap.add_argument("--company-dir", default=".")
     ap.add_argument("--rows", type=int, default=20)
     ap.add_argument("--max-mb", type=float, default=12)
+    ap.add_argument("--file", help="fetch/grep one named text layer of a multi-file item "
+                                   "(a bound run publishes a layer per year)")
     ap.add_argument("--ctx", type=int, default=1)
     ap.add_argument("--insecure", action="store_true",
                     help="allow unverified TLS for archive.org hosts (stale local CA store)")
@@ -208,24 +251,38 @@ def main():
     if a.mode == "search" or a.mode == "mine":
         if not a.q:
             raise SystemExit("--q required")
-        docs, note = search(a.q, a.rows, allow_insecure=a.insecure)
-        out["search"] = note if docs is None else {"num": len(docs),
-                                                   "items": docs[: a.rows]}
+        docs, note, num_found = search(a.q, a.rows, allow_insecure=a.insecure)
+        out["search"] = note if docs is None else {
+            "numFound": num_found, "rows_returned": len(docs),
+            "items": docs[: a.rows],
+            "reading": "numFound is the archive total; rows_returned is this page. Never report "
+                       "the second as the first (Chevron probe defect 2, RD-132)."}
         if docs is None:
             out["verdict"] = "UNANSWERED -- " + note
             print(json.dumps(out, indent=1)[:4000]); return 1
         if a.mode == "search":
             print(json.dumps(out, indent=1)[:6000])
             return 0
+    if a.mode == "list-files":
+        layers, lnote = text_layer_listing(a.id, a.insecure)
+        if layers is None:
+            print(json.dumps({"identifier": a.id, "status": "UNANSWERED", "note": lnote}, indent=1))
+            return 1
+        print(json.dumps({"identifier": a.id, "text_layers": len(layers),
+                          "note": "a bound run may hold one layer per year; --file picks the "
+                                  "volume, and each lands on its own path",
+                          "files": [{"name": n, "size": s} for n, s in layers]}, indent=1)[:12000])
+        return 0
     if a.mode == "fetch":
-        p, st, n = fetch(a.company_dir, a.id, a.max_mb, a.insecure)
-        out["fetch"] = {"path": p, "status": st, "bytes": n}
+        p, st, n = fetch(a.company_dir, a.id, a.max_mb, a.insecure, a.file)
+        out["fetch"] = {"path": p, "status": st, "bytes": n, "file_requested": a.file or ""}
         print(json.dumps(out, indent=1))
         return 0 if p else 1
     if a.mode == "grep":
-        p = os.path.join(a.company_dir, "sources", "periodicals", "%s_djvu.txt" % a.id)
+        p = os.path.join(a.company_dir, "sources", "periodicals", local_name(a.id, a.file))
         if not os.path.exists(p):
-            print(json.dumps({"error": "not fetched yet -- run fetch", "path": p}, indent=1))
+            print(json.dumps({"error": "not fetched yet -- run fetch (with --file for a volume "
+                                            "of a bound run)", "path": p}, indent=1))
             return 1
         hits = grep_local(p, a.pattern or ".", a.ctx)
         print(json.dumps({"path": p, "verdict": classify(hits, os.path.getsize(p)),

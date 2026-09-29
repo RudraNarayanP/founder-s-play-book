@@ -243,6 +243,13 @@ def self_test():
           "Learning Experience) Observation System, a low inference descriptive",
           "Loyal  E.  Apple,  Executive Director, American Foundation for the Blind"],
          "apple", ["'Apple Computer'", "'Apple II'", "'Steve Jobs'"], "BARE_WORD_MATCH"),
+        ("a brand that is not the directory slug is still FOUND, not called empty",
+         ["Google was listed alongside Netscape, Lycos, Excite and AltaVista.",
+          "Users were told to just do a Google search for the answer."],
+         "alphabet", ["'Google'", "'Larry Page'"], "BARE_WORD_MATCH"),
+        ("and when that brand sits against an identity word it is promoted like any other",
+         ["Results of GOOGLE INC. and its subsidiary for the year ended December 31, 2001"],
+         "alphabet", ["'Google'", "'Larry Page'"], "TIER1_CANDIDATE_TEXT"),
         ("the company word beside an identity word IS a candidate",
          ["COSTCO  WHOLESALE :", "Distribution List for the Costco WholesaIe Project Draft EIR"],
          "costco", ["'Costco'", "'Price Club'", "'Chain Store Age'"], "TIER1_CANDIDATE_TEXT"),
@@ -266,12 +273,13 @@ def self_test():
             f.write("\n".join(body) + "\n")
         rows = [{"query": q} for q in quoted]
         named, other = split_terms(quoted_terms(rows), slug)
+        names = [slug] + [t for t in quoted_terms(rows) if " " not in t]
         pat_named, pat_other = phrase_regex(named), phrase_regex(other)
+        pat_bare = r"\b%s\b" % r"|".join(re.escape(n) for n in dict.fromkeys(names) if n)
         hn = ia_text.grep_local(p, pat_named) if named else []
         ho = ia_text.grep_local(p, pat_other) if other else []
-        hb = ia_text.grep_local(p, r"\b%s\b" % re.escape(slug))
-        adj = promoted_by(hb, entity_adjacency([slug] + [t for t in quoted_terms(rows)
-                                                         if " " not in t]))
+        hb = ia_text.grep_local(p, pat_bare)
+        adj = promoted_by(hb, entity_adjacency(names))
         got = classify_item(os.path.getsize(p), hn, adj, ho, hb)
         checks.append((got == want, name,
                        "%-19s named=%s promoted=%s other=%s bare=%d" % (
@@ -386,8 +394,16 @@ def main():
         # class: the file mentions a related name, which is a clue, not a naming of this company.
         pat_named = phrase_regex(named)
         pat_other = phrase_regex(other)
-        pat_bare = r"\b%s\b" % re.escape(slug)
-        rx_adj = entity_adjacency([slug] + [t for t in terms if " " not in t])
+        # RD-132, found by the Alphabet pass: grepping the SLUG alone is blind for every company whose
+        # brand is not its directory slug -- `alphabet` never finds Google, `jnj` never finds Johnson &
+        # Johnson, `bofa` never finds Bank of America. That is the mirror image of the bare-word error
+        # RD-124 fixed: instead of manufacturing false Tier-1 hits, it manufactures false NULLs, which
+        # are worse because they look like a searched-and-empty family. The name set is now the slug
+        # PLUS this company's own single-word quoted terms, so a "0 hits" statement means the names the
+        # harvester actually queried are absent from the bytes, not that we forgot to ask.
+        names = [slug] + [t for t in terms if " " not in t]
+        pat_bare = r"\b%s\b" % r"|".join(re.escape(n) for n in dict.fromkeys(names) if n)
+        rx_adj = entity_adjacency(names)
         # The harvest index's `date_or_issue` is frequently the SCAN or UPLOAD year, not the
         # publication year -- "Corporate Directory of US Public Companies 1995" arrives dated
         # 2016-06-11. Filtering a window on that field silently discards the in-window evidence

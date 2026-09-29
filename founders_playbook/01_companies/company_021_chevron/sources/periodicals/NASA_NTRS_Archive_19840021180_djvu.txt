@@ -1,0 +1,2346 @@
+NASA Technical Memorandum 85798 
+
+
+THREE-DIMENSIONAL FINITE-ELEMENT ANALYSIS OF 
+CHEVRON-NOTCHED FRACTURE SPECIMENS 
+
+
+I, S. RAJU AND J, C. NEWMAN, JR. 
+
+
+JULY 198A 
+
+
+IWNSA 
+
+National Aeronautics and 
+Space Administration 
+
+Langley Research Center 
+
+Hampton, Virginia 23665 
+
+
+
+THREE-DIMENSIONAL FINITE-ELEMENT ANALYSIS OF 
+
+
+CHEVRON-NOTCHED FRACTURE SPECIMENS 
+
+I. S» Raju^ and J. C> Newman, Jr.^ 
+
+NASA Langley Research Center 
+Hampton, Virginia 23665 
+
+SUMMARY 
+
+In this paper, stress-intensity factors and load-line displacements have 
+been calculated for chevron-notched bar and rod fracture specimens using a 
+three-dimensional finite-element analysis. Both specimens were subjected to 
+simulated wedge loading (either uniform applied displacement or uniform 
+applied load). The chevron-notch sides and crack front were assumed to be 
+straight. Crack- length-to-speclmen width ratios (a/w) ranged from 0.4 to 
+0.7. The wldth-to-thlckness ratio (w/B) was 1.45 or 2. The bar specimens had 
+a height- to-width ratio of 0.435 or 0.5. Finite-element models were composed 
+of singularity elements around the crack front and 8-noded isoparametric 
+elements elsewhere. The models had about 11,000 degrees of freedom. Stress- 
+intensity factors were calculated by using a nodal-force method for distri- 
+bution along the crack front and by using a compliance method for average 
+values. The stress-intensity factors and load-line displacements are pre- 
+sented and compared with experimental solutions, from the literature. The 
+stress-intensity factors and load-line displacements were about 2.5 and 5 per- 
+cent lower than the reported experimental values, respectively. 
+
+
+^Senior Scientist, Vigyan Research Associates, Hampton, VA 23666. Work 
+performed under Ni^A contract NASl-17090. 
+
+^Senior Scientist, N^A Langley Research Center, Hampton, VA 23665. 
+
+
+
+INTRODUCTION 
+
+
+The chevron-notched specimens [1,2], shown In Figure 1, are small 
+fracture toughness specimens being considered for use In standard tests by the 
+American Society for Testing and Materials (ASTM) Committee E24. Because they 
+are small (5 to 25 mm thick) and because they require no fatigue precracking, 
+they are well suited for quality control and materials toughness evaluation 
+specimens. Currently, these specimens can only be used for high-strength 
+alloys, ceramics, and other such low toughness brittle materials. Further 
+advances in elastic-plastic fracture mechanics are needed to use these 
+specimens for ductile materials. 
+
+The unique features of a chevron-notched specimen, over conventional 
+fracture- toughness specimens, are: (1) the extremely high stress concen- 
+
+tration at the tip of the chevron-notch, and (2) the development of a minimum 
+stress-intensity factor as the crack grows. The high stress concentration at 
+the tip of the chevron-notch causes a crack to initiate at a low applied load, 
+eliminating the need to precrack a specimen, a costly and time consuming 
+procedure. The minimum stress-intensity factor allows the fracture toughness 
+to be evaluated from this failure (maximum) load without the need to make a 
+load-displacement record, such as currently used in the ASTM E399 plane-strain 
+fracture toughness (Kj^.) test procedure. 
+
+Experimental compliance calibrations of the chevron-notched bar (short 
+bar) and rod (short rod) specimens have been done by Barker and Guest [3], 
+
+Munz et al. [4], Bubsey et al. [5], Shannon et al. [6], and Barker [7] for the 
+determination of stress-intensity factors. In addition to the experimental 
+calibrations, several analytical attempts have been made. Munz et al. [4] 
+used a quasl-analytical procedure (slice model) developed by Bluhm [8] to 
+analyze the chevron-notched bar specimen. Again, they determined stress- 
+
+
+2 
+
+
+
+intensity factors from the compliance method. But, the experimental and 
+analytical compliance methods give only an "average" stress-intensity factor 
+along the crack front for each crack configuration considered. More rigorous 
+three-dimensional analyses are required to determli^ stress-intensity factor 
+variation along the crack front. Beech and Ingraffea [9] used a three- 
+dimensional finite element method to determine stress-intensity factor 
+distributions along the crack front and stress-intensity factors from 
+analytical compliance for the chevron-notched rod (w/B * 1.5). Their crack 
+front evaluations of stress-intensity factors, however, were in considerable 
+disagreement (6 to 17 percent) with their values determined from compliance. 
+But their analytical compliance values were in good agreement with experi- 
+mental compliance results. 
+
+In this paper, stress-intensity factors and load-line displacements have 
+been calculated by a three-dimensional finite-element analysis [10] for 
+chevron-notched bar (square and rectangular) and rod fracture specimens. The 
+specimens were subjected to simulated wedge loading (either uniform applied 
+displacement or uniform applied load) . The chevron-notch sides and crack 
+front were assumed to be straight. Crack-length-to-specimen width ratios 
+(a/w) ranged from 0.4 to 0.7. The width-to-thickness ratio (w/B) was 1.45 
+or 2. The bar specimens had a helght-to-width ratio (H/B) of 0.435 or 0.5. 
+Stress-intensity factors were calculated by using a nodal-force method [10] 
+for distributions along the crack front and by using a compliance method for 
+average values. The minimum stress-intensity factors for five particular 
+configurations were evaluated. Stress-Intensity factors and load-line dis- 
+placements are presented and compared with experimental solutions from the 
+literature. 
+
+
+3 
+
+
+
+NOMENCLATURE 
+
+
+a crack length measured from load line 
+
+initial crack length (to tip of chevron notch) 
+b length of crack front 
+
+B specimen thickness (diameter of rod specimen) 
+
+E Young's modulus of elasticity 
+
+E' equals E for plane stress and E/(l - v^) for plane strain 
+
+F boundary-correction factor determined from nodal-force method 
+
+boundary-correction factor determined from compliance method 
+Fju minimum boundary-correction factor from compliance method 
+
+H half of specimen height (radius of rod specimen) 
+
+Kj stress-intensity factor (mode I) 
+
+P applied load 
+
+Vj^ displacement at load point 
+
+V.J, displacement at top of specimen along load line 
+
+w specimen width 
+
+x,y,z Cartesian coordinates 
+
+V Poisson's ratio 
+
+ANALYSIS 
+
+Stress-intensity factors and load-line displacement for the chevron- 
+notched bar and rod specimens, shown in Figure 1, were obtained by using a 
+three-dimensional finite- element analysis [10]. In this analysis, Poisson's 
+ratio was assumed to be 0.3. The coordinate system used to define the 
+chevron-notched specimens is shown in Figure 2. The specimens are loaded by a 
+knife-edge loading fixture [4] that results in an applied load, P, at point 
+L, as shown in Figure 2(a). Specimens may have either a square notch [4] at 
+the load line or a V-notch [7] at the load line (not shown). Only the square 
+
+
+4 
+
+
+
+notch detail was considered herein. . The slot height (0.03B) Is for a saw 
+blade to cut the chevron- shaped notch. In the present model, the slot height 
+was assumed to he zero. The chevron was modeled and was assumed to have 
+straight sides. Initial crack length, Sq, Is the distance from the load line 
+to the chevron tip (see Fig. 2(b)). The crack length, a, and specimen 
+width, w, are measured from the load line. The crack front (b) was assumed 
+to be straight. Crack- length-to-speclmen width ratios (a/w) ranged from 0.4 
+to 0.7. The following table gives the specimen dimensions of configurations 
+analyzed herein: 
+
+
+Specimen 
+
+w/B 
+
+ao/w 
+
+H/B 
+
+Bar 
+
+1.45 
+
+0.332 
+
+0.435 
+
+Bar 
+
+1.45 
+
+0.332 
+
+0.5 
+
+Rod 
+
+2 
+
+0.2 
+
+0.5 
+
+Rod 
+
+1.45 
+
+0.332 
+
+0.5 
+
+Rod 
+
+2 
+
+0.2 
+
+0.5 
+
+
+The configurations with H/B =*0.5 have been selected for possible 
+staiidarlzatlon by ASTM Conmlttee E24. 
+
+Finite-Element Idealization 
+
+Two types of elements (Isoparametric and singular [10]) were used In 
+combination to model the specimens. Figure 3(a) shows a typical finite- 
+element model for the chevron-notched bar. The model Idealized one-quarter of 
+the specimen and employed about 11,000 degrees of freedom (2,960 elements). 
+
+The Isoparametric elght-noded hexahedron elements were used everywhere except 
+at the crack front, where eight singularity elements shaped like pentahedrons 
+were used. The singularity elements produced a square-root singularity In 
+
+
+5 
+
+
+
+stress and strain at the crack front. A typical finite-element pattern on the 
+crack plane Is shown In Figure 3(b). This view shows the crack plane for an 
+a/w ratio of 0,55. One-half of the specimen thickness (B) was modeled with 
+10 layers. Figures 3(c) and 3(d) show an end view of the bar and rod 
+specimen, respectively. The notch height was at 0.35H. 
+
+To evaluate the finite-element mesh pattern used around the crack front 
+In the three-dimensional models, two- and three-dimensional finite-element 
+analyses of through- the- thickness edge cracks subjected to wedge loading were 
+also analyzed. The two-dimensional analysis used a mesh pattern Identical to 
+the front view (z ■ 0 plane) shown In Figure 3(a). The three-dimensional 
+analysis used the same model as that used for the chevron-notched specimens 
+except that the singularity elements extended all the way across the specimen 
+thickness. 
+
+Boundary Conditions and Applied Loading 
+
+Symmetry boundary conditions were applied on the z = 0 plane (see 
+Fig. 3). On the y = 0 plane, all nodes were free except those that lie in 
+the shaded region. Here, symmetry boundary conditions were applied. (The 
+intent of the fixed-node condition on the y » 0 plane was to prescribe zero 
+v-displacements for the shaded area. Because of the rectangular mesh 
+Idealization In the y 0 plane, however, the v “ 0 condition was only 
+approximately achieved at locations along the edge of the shaded area. This 
+Is approximate because the chevron edge (edge of the shaded area) crossed 
+elements that had one or more free nodes.) The specimens were subjected to 
+wedge loading at point L in Figure 2(a). The loading was either a uniform 
+applied load or a uniform applied displacement across the thickness. 
+
+
+6 
+
+
+
+Stress-Intensity Factors 
+
+
+Two methods were used to obtain stress-intensity factors. In the first 
+method, the stress-intensity factor distributions along the crack front from 
+the finite-element models were obtained by using a nodal-force method, details 
+of which are given in references 10 and 11. In this method, the nodal forces 
+normal to the crack plane and ahead of the crack front are used to evaluate 
+the stress-intensity factors. 
+
+The mode I stress-intensity factor, K^, at any point along the crack 
+front was taken to be 
+
+
+K, 
+
+
+_P 
+
+
+= t) 
+
+W \ / 
+
+
+( 1 ) 
+
+
+where F was determined from the nodal-force method. 
+
+In the second method, an "average" stress-intensity factor along the 
+crack front was obtained from specimen compliance as 
+
+a/2 
+
+
+K, 
+
+
+'ll ill 
+
+lb da/ 
+
+
+( 2 ) 
+
+
+for the applied load case where E' * E for plane stress or 
+
+E’ E/(l - ^^) for plane strain. The total strain energy of the 
+
+specimen, U, was calculated by 
+n 
+
+
+U 
+
+
+PjV,/2 
+
+
+1-1 
+
+where and are the load and displacement, respectively, for the 
+
+n nodes along the load line in the finite-element models. The stress- 
+intensity factor from compliance was written as 
+
+
+(3) 
+
+
+
+and, therefore, equating equations (2) and (4) gives 
+
+
+
+7 
+
+
+
+The dU/da in equation (5) was determined from the values of U evaluated at 
+different crack lengths, a. Consider three crack lengths (a^^ < a^ < aj^) and 
+their corresponding total strain energies, Uj, and U|j,. The strain 
+
+energy was fitted to a second degree polynomial in terms of crack length as 
+
+U - (6) 
+
+The dU/da at crack length a^ was determined by 
+
+
+da 
+
+
+a . 
+
+
+- 
+
+
+(7) 
+
+
+This slope was used in equation (5) to evaluate the stress-intensity boundary- 
+correction factor at crack length aj* 
+
+
+RESULTS AND DISCUSSION 
+
+In this section, two- and three-dimensional analyses are used to evaluate 
+the accuracy of the finite-element model presented earlier (see Fig. 3). 
+
+/ 
+
+Next, a convergence study is presented for the chevron-notch configuration. 
+Then, the stress-intensity factor variations along the crack front and the 
+stress-intensity factors determined from the analytical compliance method 
+(eq. (5)) are presented for various chevron-notch configurations. Finally, 
+the stress-intensity factors and load-line displacements from the present 
+analyses are compared with experimental solutions from the literature. No 
+comparisons are made with Beech and Ingraffea [9] finite-element analysis 
+because different w/B ratios were considered. 
+
+
+Two- and Three-Dimensional Through-the-Thickness 
+Crack Configurations 
+
+The finite-element idealization shown in Figure 3 was evaluated by ana- 
+lyzing two- and three-dimensional through-the-thlckness crack conf iguratlons . 
+
+
+8 
+
+
+
+These evaluations consisted of studying convergencje of stress-intensity 
+factors and load-line displacements with mesh refinement In the z 0 plane 
+and in the thickness direction. A two-dlmens lonal edge-crack configuration, 
+like a double-cantilever beam specimen, was used to arrive at an adequate mesh 
+refinement in the z “ 0 plane and a three-d Imens lonal through-the-thlckness 
+crack configuration was used to determine the mesh refinement In the thickness 
+direction. 
+
+Two-dimensional conf Igurat Ion . - The finite-element mesh pattern on the 
+z ■ 0 plane In Figure 3(a) was used to model a wedge- loaded edge- cracked 
+plate under plane-strain conditions . The results from this analysis are 
+compared with the results from a boundary- collocation analysis [12] in Fig- 
+ure 4. The boundary-collocation analysis was conducted on an edge-cracked 
+plate with the same dimensions as those used in the finite-element analysis 
+except that the square-notch detail at the load point was not modeled. The 
+model used in the collocation analysis was subjected to a line load acting 
+over a small segment of the crack surface at x = 0. The solid curves In 
+Figures 4(a) and 4(b) show the boundary-correction factor and the normalized 
+load-point displacement, respectively, from the collocation analysis as a 
+function of a/w. The symbols in Figure 4(a) show stress-intensity factors 
+calculated from the finite-element analysis using the nodal-force and 
+compliance methods. The correction factors evaluated from the nodal-force 
+method were about 2 percent lower than those calculated from the collocation 
+analysis, whereas those obtained from the compliance method were about 
+1.5 percent lower. The normalized load-point displacements obtained from the 
+finite-element analysis (symbols in Fig. 4(b)) were about 4 percent lower than 
+those calculated from the collocation analysis . Because the results from 
+finite-element and boundary-collocation analyses agreed well, the mesh pattern 
+
+
+9 
+
+
+
+along the z ® 0 plane in Figure 3(a) was considered sufficient for use in 
+the three-dimensional models. 
+
+Three-dimens ional conf igurat ions . - To evaluate the three-dimens ional 
+models, a through-the-thickness crack in a square bar configuration was 
+analyzed with 2-, 4-, and 8-equal layers through one-half of the thickness . 
+Stress-intensity boundary-correction factors, determined from the nodal-force 
+method, are shown in Figure 5. The results in the interior of the specimen 
+(2z/B < 0.75) agreed within a few percent for all three models. The correc- 
+tion factors decreased from the middle of the specimen (2z/B ■> 0) to its 
+lowest value at the intersection of the crack with the free surface. The 
+value at the free surface, however, varied with the number of layers (or layer 
+thickness) . Hartranft and Sih [13] have shown that the crack-front singu- 
+larity differs from the square-root singularity in a very thin "boundary 
+layer" near the free surface and that the stress-intensity factors drop off 
+rapidly and equal zero at the surface. Thus, the finite-element method 
+employed here cannot adequately evaluate the stress-intensity factors in this 
+"boundary layer. " But the "average" stress-intensity correction factors 
+across the thickness for all three models were in good agreement (2 percent) 
+with the plane-strain solution [12] . 
+
+Chevron-Notch Conf Igurat ions 
+
+Convergence. - The convergence study in Figure 5 showed that a four- layer 
+model is adequate and yields accurate stress-intensity factors along most of 
+the crack front for through-the-thickness crack configurations. However, for 
+more complex conf igurat ions , such as a chevron-notch specimen, the number of 
+layers needed along the crack front may be greater than four. Therefore, two 
+models were considered for a chevron-notched bar configuration (w/B “ 2, 
+a/w ® 0.55) . The first model had 10 layers across half the specimen thickness 
+
+
+10 
+
+
+
+with 5 unequal thickness layers along the crack front. This model is shown in 
+Figure 3. The second model had 18 layers, with 8 unequal thickness layers 
+along the crack front. A comparison between the stress-intensity factor dis- 
+tributions along the crack front for the 10- and 18-layer models is shown in 
+Figure 6. The center of the specimen is at 2z/b =* 0. The stress-intensity 
+factors for the two models are nearly constant for 2z/b <0.5 but increase 
+rapidly as the 2z/b approaches unity (edge of chevron). Results from the 
+two models agreed well for 2z/b < 0.9. At the chevron-notch location, 
+however, the results were sensitive to layer thickness. Again, as observed in 
+the preceding section on the "boundary layer” effect, the finite-element 
+analysis cannot adequately evaluate the stress-intensity factors at locations 
+where the crack front Intersects another boundary. But these results do show 
+that the 10-layer model is sufficient to model the chevron-notched 
+configurations. 
+
+Loading conditions .- Because the chevron-notched specimens are loaded 
+with either a knife-edged fixture [4] or a pressurized flat jack [14], two 
+types of loading conditions were applied to some of the bar and rod con- 
+figurations (w/B ” 2, a/w * 0.5 and 0.55) . The loadings were either a 
+uniform applied load or a uniform applied displacement along the load line. 
+
+The displacement variations along the load line for the applied load cases 
+were very small (less than 0.6 percent from the average) . For the same total 
+applied load, the displacement variations along the load line for the applied 
+load case were within 0.6 percent of the displacement from the applied 
+displacement case. Likewise, for the same total applied load, the stress- 
+intensity factors for the two types of applied loading were in excellent 
+agreement (0.1 percent) . Thus, the type of applied loading has no significant 
+
+
+11 
+
+
+
+effect on the results. Consequently, all crack configurations considered 
+herein were subjected to a uniform applied loading. 
+
+Bar and rod configurations .- The stress-intensity correction factor 
+distributions along the crack front for the square bar and rod configurations 
+are given in Tables 1 and 2 for various a/w ratios. Some typical results 
+for the bar configuration (w/B = 2; H/B = 0.5) are shown In Figure 7 for 
+various a/w ratios. Results for a/w =• 0.55 are not shown for clarity. 
+
+The distributions as a function of 2z/b are similar for all a/w ratios 
+with the lowest values occurring at the center of the specimen (2z/b = 0) and 
+the highest values at the intersection of the crack with the chevron notch 
+(2z/b » 1) . These values were about 40 percent higher than the values at the 
+center of the specimens. 
+
+Because of the rising stress-intensity factor distribution from the 
+center of specimen to the edge of the chevron-notch, the crack should grow 
+more at the edges of the chevron-notch than at the center of the specimen, 
+thus causing a reverse-thumbnailing effect. Experimental results from 
+reference 7 confirm this observation. 
+
+A comparison between the stress-intensity factor distributions obtained 
+from the three-dimensional finite-element method and from the compliance 
+method is shown in Figure 8. These results are for the square bar con- 
+figuration (w/B “ 2) with a/w = 0.5. This configuration gave the lowest 
+8 tress- intensity factors for all of the a./w ratios considered. The solid 
+symbols show the distribution as a function of 2z/b. The dashed-dot and 
+dash-double-dot lines show values determined for the compliance method 
+(eq. (5)) assuming either plane-stress or plane-strain conditions, 
+respectively. The plane-strain value was about 5 percent higher than the 
+plane-stress value. An experimentally determined compliance value [6] 
+
+
+12 
+
+
+
+
+assuming plane-stress conditions is shown as the dashed line. The experi- 
+mental value is about midway between the numerical values for plane stress and 
+plane strain. But based on the previous two-dimensional results, the 
+numerical values from compliance are estimated to be about 1.5 percent lower 
+than the "true” values. Thus, the experimental value and the "corrected" 
+numerical plane-stress value (I.OISF^.) would be in very good agreement (about 
+1 percent). However, the use of the co9q>llance method is, in itself, an 
+approximation. The state-of-stress throughout the specimen is not either 
+purely plane stress or purely plane strain. But the Induced error is probably 
+less than 2 percent. 
+
+Stress-intensity correction factors (F^) determined from compliance 
+(plane stress) for the five configurations considered are shown in Figure 9 
+for various a/w ratios. For each configuration, these results were fitted 
+to a third degree polynomial equation in terms of a/w to find the minimum 
+value of the correction factor, Fjj^. The minimum values are shown as solid 
+symbols. The following table compares these minimum values and those obtained 
+experimentally in reference 6. 
+
+
+Specimen 
+
+w/B 
+
+(a/w)^ 
+
+m 
+
+1.015F^ 
+
+Y (a) 
+
+'■m 
+
+Percent 
+
+difference 
+
+Bar^ 
+
+1.45 
+
+0.55 
+
+27.36 
+
+27.77 
+
+- 
+
+- 
+
+Bar*^ 
+
+1.45 
+
+0.54 
+
+24.43 
+
+24.80 
+
+24.85 
+
+-0.2 
+
+Bar*^ 
+
+2 
+
+0.52 
+
+29.13 
+
+29.57 
+
+29.91 
+
+-1.1 
+
+Rod 
+
+1.45 
+
+0.55 
+
+28.43 
+
+28.86 
+
+29.11 
+
+-0.9 
+
+Rod 
+
+2 
+
+0.52 
+
+35.40 
+
+35.93 
+
+36.36 
+
+-1.2 
+
+
+^f^Reference 6 uses Y_ to denote correction factor. 
+- 0.435. “ 
+
+» 0.5. 
+
+
+13 
+
+
+
+
+
+The (a/w)jjj value Is the crack-length-to-width ratio where the minimum 
+F value, Fjj^, occurred In the compliance analysis. The F^j^ values deter- 
+mined from the finite-element analysis are estimated to be about 1.5 percent 
+lower than the "true" solution because the potential energy method gives a 
+lower bound solution and because of comparisons made between finite-element 
+and boundary-collocation analyses (see Fig. 4(a)). Thus, the "corrected" 
+numerical results for both the square bar and rod specimens are about 1 per- 
+cent lower than the experimental values [6] . 
+
+Barker [2] selected the rectangular bar specimen (H/B - 0.435) to have 
+the same compliance derivative as the rod specimen (w/B ® 1.45) and, conse- 
+quently, the same boundary-correction factor; that is, F^ was equal to 26.3 
+for both specimens. The present finite-element results gave a value of F^j^ 
+as 27.77. This value was close to the finite-element results obtained on the 
+rod specimen with w/B = 1.45 but was about 4 percent higher than Barker's 
+value. Based on the current analysis, the recommended minimum value is 27.8 
+for the rectangular bar specimen with H/B = 0.435. 
+
+Table 3 gives the normalized displacements, EBV/P, at the midplane 
+(z * 0) of the specimen for the load point (L) and for the top of specimen (T) 
+as a function of a/w (see Fig. 2(a)). Some typical numerical results at the 
+top of specimen are compared with experimental results in Figure 10 for the 
+rod specimen with w/B = 2. The circular and square symbols show experimental 
+[5] and numerical results, respectively. These results are consistent with 
+the comparisons made on two-dimensional analyses in Figure 4(b), in that the 
+finite-element results were about 4 to 6 percent lower than the experimental 
+results. Based on beam theory [15], however, about 2 percent of this dif- 
+ference is caused by neglecting the slot height (0.03B) made by a saw blade or 
+chevron cutter (see Fig. 2(a)). 
+
+
+14 
+
+
+
+Effect of Poisson's ratio. - Most experimental compliance results reported 
+In the literature and the analyses reported herein were made with a Poisson's 
+ratio of 0.3. However, Barker [7] used fused quartz which has a Poisson's 
+ratio of 0.17. Therefore, to evaluate the effect of Poisson's ratio on 
+stress-intensity factors a very limited study was made using the rod configu- 
+ration with w/B ® 1.45 and a/w » 0.55. Four different Poisson's ratios, 
+0.0, 0.17, 0.3, and 0.49, were used In the three-dimensional analyses. The 
+following table shows the normalized stress-intensity factor at midplane 
+(z “ 0), the average normalized stress-intensity factor, and the load-line 
+displacements for various Poisson's ratios. 
+
+
+Poisson's ratio 
+
+V 
+
+
+KBw 
+
+
+1/2 
+
+
+KBw 
+
+
+, 1/2 
+
+
+z“0 
+
+
+average 
+
+
+EBVj^ EBV^ 
+
+-p -p 
+
+
+0.0 
+
+26.33 
+
+28.03 
+
+79.2 
+
+77.5 
+
+0.17 
+
+26.92 
+
+28.49 
+
+77.9 
+
+76.1 
+
+0.3 
+
+27.73 
+
+29.20 
+
+75.5 
+
+73.6 
+
+0.49 
+
+27.99 
+
+29.12 
+
+64.4 
+
+63.1 
+
+
+The normalized stress-intensity factors at the midplane are higher for 
+higher Poisson's ratios, and they change as much as six percent as the 
+Poisson's ratio charges from 0 to 0.49. The average normalized stress- 
+intensity factors show similar trends but with a smaller change, about 4 per- 
+cent. These results Indicate that a specimen with v " 0.17 (fused quartz) 
+would have a stress-intensity factor about 2.5 percent lower than a specimen 
+with V - 0.3. 
+
+
+15 
+
+
+
+
+
+
+In contrast to the stress-intensity factors, the load-line displacements 
+are lower for higher Poisson's ratios. Also, as Poisson's ratio changes from 
+0 to 0.3, the change in the load-line displacements is about 5 percent. But 
+as Poisson's ratio changes from 0.3 to 0.49, the load-line displacements 
+change by as much as 15 percent. 
+
+CONCLUSIONS 
+
+Three-dimensional elastic finite-element analyses were used to obtain 
+stress-intensity factors and crack-opening displacements for chevron-notched 
+fracture specimens. Two types of specimens, a chevron-notched bar and rod, 
+were subjected to simulated wedge loading (either uniform load or uniform dis- 
+placement). The bar specimens had a height- to-width ratio of 0.435 or 0.5. 
+
+In the analyses, the crack fronts and chevron-notch sides were assumed to be 
+straight and the slot height for the chevron cutter was taken as zero. The 
+crack- length-to-speclmen-wldth ratio (a/w) ranged from 0.4 to 0.7. The width- 
+to-thlckness ratios (w/B) were 1.45 or 2. Stress-intensity factor variations 
+along the crack front for these configurations were obtained by a nodal-force 
+method. Also, "average" stress-intensity factors were obtained by a com- 
+pliance method. Based on these analyses, the following conclusions were made: 
+
+1. The type of loading, either uniform load or uniform displacement, has 
+
+no significant effect on stress-intensity factors and 
+displacements. 
+
+2. The calculated load-line displacements at the top of the specimens 
+
+are about 5 percent lower than reported experimental values. 
+
+
+16 
+
+
+
+3. The stress-intensity factor is lowest at the midplane of the specimen 
+
+and highest at the intersection of the crack with the chevron 
+notch. For most of the crack front, however, the stress intensity 
+factor is nearly constant. The rise occurs in the close vicinity 
+of the chevron notch. 
+
+4. The "average” stress-intensity factor obtained from the three- 
+
+dimensional finite-element compliance method (plane-stress) is 
+about 2.5 percent lower than reported experimental values for both 
+the square bar and rod specimens. 
+
+5. The a/w ratio at which the minimum stress-intensity factor occurred 
+
+was between 0.5 and 0.55 for all chevron-notched configurations 
+analyzed. 
+
+
+17 
+
+
+
+REFERENCES 
+
+[1] Barker, L. M.: "A Simplified Method for Measuring Plane Strain Fracture 
+
+Toughness," Engineering Fracture Mechanics, Vol. 9, 1977, pp. 361-369. 
+
+[2] Barker, L. M.; "Short Bar Specimens for ^IC Measurements, American 
+
+Society for Testing and Materials," ^TM STP-678, 1979, pp. 73-82. 
+
+[3] Barker, L. M.; and Guest, R. V.; "Compliance Calibration of the Short 
+
+Rod Fracture Toughness Specimen,” Terra Tek Report TR 78-20, 1978. 
+
+[4] Munz, D.; Bubsey, R. T.; and Srawley, J. E.; "Compliance and Stress 
+
+Intensity Coefficients for Short Bar Specimens with Chevron Notches 
+Useful for Fracture Toughness Testing of Ceramics," International 
+Journal of Fracture, Vol. 16, No. 4, 1980, pp. 359-374. 
+
+[5] Bubsey, R. T.; Munz, D.; Pierce, W. S.; and Shannon, J. L., Jr.: 
+"Compliance Calibration of the Short Rod Chevron-Notch Specimen for 
+Fracture Toughness Testing of Brittle Materials," International Journal 
+of Fracture, Vol. 18, No. 1, 1982, pp. 125-132. 
+
+[6] Shannon, J. L., Jr.; Bubsey, R. T.j Pierce, W. S.; and Munz, D.: 
+
+"Extended Range Stress Intensity Factor Expressions for Chevron-Notched 
+Short Bar and Short Rod Fracture Toughness Specimens," International 
+Journal of Fracture, Vol. 19, No. 3, 1982, pp. R55-R58. 
+
+[7] Barker, L. M.: "Compliance Calibration of a Family of Short Rod and 
+
+Short Bar Fracture Toughness Specimens," Engineering Fracture 
+Mechanics, Vol. 17, No. 4, 1983, pp. 289-312. 
+
+[8] Bluhm, J. I.; "Slice Synthesis of a Three-Dimensional 'Work of Fracture' 
+
+Specimen," Engineering Fracture Mechanics, Vol. 7, 1975, pp. 593-604. 
+[9J Beech, J. F.; and Ingraffea, A. R. : "Three-Dimensional Finite Element 
+
+Calibration of the Short Rod Specimen," International Journal of 
+Fracture, Vol. 18, No. 3, 1982, pp. 217-229. 
+
+
+18 
+
+
+
+[10] Eaju, I. S.; and Newman, J. C., Jr.; "Three-Dimensional Finite-Element 
+
+Analysis of Finite-Thickness Fracture Specimens," NASA TN D-8414, 
+National Aeronautics and Space Administration, Washington, DC, 1977. 
+
+[11] Raju, I. S.; and Newman, J. C., Jr.: "Stress-Intensity Factors for a 
+
+Wide Range of Semi-Elliptical Surface Cracks in Finite-Thickness 
+Plates," Engineering Fracture Mechanics, Vol. 11, No. 4, 1979, 
+pp. 817-829. 
+
+[12] Newman, J. C., Jr.; "Stress Analysis of the Compact Specimen Including 
+
+the Effects of Pin Loading," American Society for Testing and 
+Materials, ASTM STP-560, 1974, pp. 105-121. 
+
+[13] Hartranft, R. J.; and Slh, G. C.: "An Approximate Three-Dimensional 
+
+Theory of Plates With Application to Crack Problems," International 
+Journal of Engineering Science, Vol. 8, No. 8, 1970, pp. 711-729. 
+
+[14] Barker, L. M.: "Short Rod Measurements of AI2O3," Fracture 
+
+Mechanics of Ceramics, Vol. 3, R. C. Bradt, D. P. H. Hasselman, and 
+F. F. Lange, eds.. Plenum Publishing, 1978, p. 483. 
+
+[15] Timoshenko, S.; and Goodler, J. N.; Theory of Elasticity. Second ed. 
+
+McGraw-Hill Book Co., Inc., 1951. 
+
+
+19 
+
+
+
+Table 1.- Boundary-correction factor, F, distributions for 
+chevron-notched bar (square) specimens* 
+
+(a) KBw^^^/P for w/B = 1.45 
+
+
+2z 
+
+b 
+
+0.4 
+
+0.5 
+
+a/w 
+
+0.55 
+
+0.6 
+
+0.7 
+
+0.0 
+
+27.95 
+
+23.83 
+
+23.50 
+
+24.45 
+
+30.37 
+
+0.5 
+
+28.82 
+
+24.19 
+
+24.08 
+
+24.96 
+
+30.76 
+
+0.75 
+
+30.59 
+
+25.69 
+
+25.46 
+
+26.23 
+
+31.84 
+
+0.875 
+
+32.45 
+
+27.49 
+
+27.19 
+
+27.90 
+
+33.46 
+
+0.9375 
+
+33.56 
+
+29.49 
+
+29.33 
+
+30.17 
+
+36.09 
+
+1.0 
+
+36.66 
+
+32.30 
+
+32.30 
+
+33.38 
+
+40.17 
+
+
+
+(b) 
+
+KBw^/^/P 
+
+for w/B “ 
+
+2 
+
+
+2z 
+
+b 
+
+0.4 
+
+0.5 
+
+a/w 
+
+0.55 
+
+0.6 
+
+0.7 
+
+0.0 
+
+28.28 
+
+27.98 
+
+28.43 
+
+29.33 
+
+33.86 
+
+0.5 
+
+29.14 
+
+28.60 
+
+28.93 
+
+29.71 
+
+33.96 
+
+0.75 
+
+31.11 
+
+30.16 
+
+30.27 
+
+30.80 
+
+34.54 
+
+0.875 
+
+33.48 
+
+32.21 
+
+32.13 
+
+32.46 
+
+35.78 
+
+0.9375 
+
+36.09 
+
+35.00 
+
+34.89 
+
+35.17 
+
+38.43 
+
+1.0 
+
+41.42 
+
+40.26 
+
+40.17 
+
+40.48 
+
+44.12 
+
+
+20 
+
+
+
+
+
+
+Table 2.- Boundary-correct ion factor, F, distributions 
+for chevron-notched rod specimens. 
+
+(a) KBw^/2/p for „/g „ 1.45 
+
+
+2z 
+
+b 
+
+0.4 
+
+0.5 
+
+a/w 
+
+0.55 
+
+0.6 
+
+0.7 
+
+0.0 
+
+33.52 
+
+27.97 
+
+27.73 
+
+28.84 
+
+34.19 
+
+0.5 
+
+34.53 
+
+28.64 
+
+28.24 
+
+28.87 
+
+34.13 
+
+0.75 
+
+36.60 
+
+30.22 
+
+29.55 
+
+29.89 
+
+34.47 
+
+0.875 
+
+38.77 
+
+32.17 
+
+31.30 
+
+31.44 
+
+35.54 
+
+0.9375 
+
+40.07 
+
+34.37 
+
+33.57 
+
+33.70 
+
+37.80 
+
+1.0 
+
+43.70 
+
+37.51 
+
+36.76 
+
+37.01 
+
+41.56 
+
+
+
+(b) 
+
+KBw^/2/p 
+
+for w/B “ 
+
+2 
+
+
+2z 
+
+b 
+
+0.4 
+
+0.5 
+
+a/w 
+
+0.55 
+
+0.6 
+
+0.7 
+
+0.0 
+
+34.68 
+
+34.62 
+
+35.30 
+
+36.44 
+
+41.28 
+
+0.5 
+
+35.59 
+
+35.12 
+
+35.55 
+
+36.42 
+
+40.57 
+
+0.75 
+
+37.74 
+
+36.55 
+
+36.55 
+
+36.93 
+
+39.85 
+
+0.875 
+
+40.40 
+
+38.63 
+
+38.26 
+
+38.22 
+
+40.11 
+
+0.9375 
+
+43.40 
+
+41.65 
+
+41.13 
+
+40.86 
+
+42.11 
+
+1.0 
+
+49.61 
+
+47.58 
+
+46.91 
+
+46.46 
+
+47.40 
+
+
+21 
+
+
+
+
+
+
+
+Table 3.- Normalized displacements as a function of a/w 
+
+
+
+for 
+
+chevron- 
+
+•notched square 
+
+bar and 
+
+rod specimens 
+
+
+(a) EBVj^ 
+
+/P at midplane (x =* z 
+
+- 0; y 
+
+- 0.35H) 
+
+
+Type 
+
+w/B 
+
+0.4 
+
+0.5 
+
+a/w 
+
+0.55 
+
+0.6 
+
+0.7 
+
+Bar^^) 
+
+1.45 
+
+35.5 
+
+47.6 
+
+56.2 
+
+67.3 
+
+103.0 
+
+Bar^®) 
+
+2 
+
+55.5 
+
+82.6 
+
+99.8 
+
+119.0 
+
+174.5 
+
+Rod 
+
+1.45 
+
+46.9 
+
+63.7 
+
+75.5 
+
+90.2 
+
+135.1 
+
+Rod 
+
+2 
+
+76.3 
+
+116.1 
+
+141.4 
+
+171.3 
+
+249.8 
+
+(®)square 
+
+bar (H/B 
+
+=• 0.5) 
+
+
+
+
+
+
+
+(b) EBV 
+
+ij/P at midplane (x 
+
+* z = 0; 
+
+y - H) 
+
+
+Type 
+
+w/B 
+
+0.4 
+
+0.5 
+
+a/w 
+
+0.55 
+
+0.6 
+
+0.7 
+
+Bar^®^ 
+
+1.45 
+
+33.9 
+
+46.0 
+
+54.6 
+
+65.5 
+
+101.3 
+
+Bar^®) 
+
+2 
+
+54.0 
+
+81.1 
+
+98.3 
+
+118.5 
+
+173.0 
+
+Rod 
+
+1.45 
+
+45.1 
+
+61.9 
+
+73.6 
+
+88.3 
+
+133.2 
+
+Rod 
+
+2 
+
+74.7 
+
+114.4 
+
+139.7 
+
+169.6 
+
+248.1 
+
+
+(^^Square bar (H/B = 0.5) 
+
+
+22 
+
+
+
+As 
+
+
+
+(a) Bar. 
+
+
+(b) Rod. 
+
+
+Figure 1 . - 
+
+
+Chevron-notched bar and rod specimens. 
+
+
+23 
+
+
+
+24 
+
+
+
+
+
+
+
+
+
+
+
+
+
+" 
+
+
+CO 
+
+
+CO 
+
+0) 
+
+0) 
+
+
+4-> 
+
+•P 
+
+CO 
+
+
+C 
+
+c 
+
+>1 
+
+
+CD 
+
+(I) 
+
+1 — i 
+
+
+E 
+
+e 
+
+Id 
+
+
+O) 
+
+0) 
+
+13 
+
+
+o 
+
+o 
+
+Id 
+
+
+a 
+
+nj 
+
+
+
+
+iH 
+
+■P 
+
+
+Cl 
+
+a, 
+
+C 
+
+
+CO 
+
+m 
+
+(D 
+
+
+
+•H 
+
+e 
+
+
+T3 
+
+T3 
+
+0) 
+
+
+
+
+H 
+
+3: 
+
+CU 
+
+0} 
+
+O 
+
+
+O 
+
+O 
+
+1 
+
+o 
+
+O 
+
+nJ 
+
+O 
+
+
+H- 
+
+
+■P 
+
+
+S_ 
+
+u 
+
+•H 
+
+
+3 
+
+3 
+
+CJ 
+
+
+CO 
+
+CO 
+
+■H 
+
+
+1 
+
+1 
+
+m 
+
+
+
+Jxi 
+
+
+
+(-) 
+
+O 
+
+1 — i 
+
+
+O 
+
+(CJ 
+
+Id 
+
+
+L- 
+
+p 
+
+CJ 
+
+
+o 
+
+o 
+
+o 
+
+
+
+
+"H 
+
+
+
+03 
+
+CO 
+
+
+JO 
+
+C 
+
+C 
+
+
+
+(d 
+
+(U 
+
+
+
+
+e 
+
+
+
+CO 
+
+"H 
+
+
+
+P 
+
+■C 
+
+
+
+o 
+
+1 
+
+
+
++J 
+
+0 
+
+
+
+o 
+
+3 
+
+
+
+(CS 
+
+-P 
+
+
+
+M-C 
+
+
+
+
+
+03 
+
+
+
+c 
+
+CJ 
+
+
+
+0 
+
+Id 
+
+
+
+•tH 
+
+
+
+
++) 
+
+
+
+
+O 
+
+H 
+
+
+0) H 
+
+
+
+CO 
+
+p 
+
+L_l 
+
+
+i_ 
+
+u 
+
+
+
+o 
+
+0 
+
+CJ 
+
+
+4-» 
+
+o 
+
+o 
+
+
+CJ 
+
+1 
+
+-H 
+
+
+o 
+
+>1 
+
+-P 
+
+
+M- 
+
+u 
+
+Id 
+
+
+
+Id 
+
+o 
+
+
+C 
+
+03 
+
+0 
+
+
+o 
+
+CJ 
+
+1 — ! 
+
+
+
+d 
+
+rH 
+
+
++-> 
+
+o 
+
+o 
+
+
+CJ 
+
+ja 
+
+o 
+
+3: 
+
+CD 
+
+
+1 
+
+
+1- 
+
+4-1 
+
+>1 
+
+o 
+
+L_ 
+
+0 
+
+p 
+
+
+o 
+
+
+Id 
+
+
+o 
+
+CJ 
+
+t 
+
+
+1 
+
+o 
+
+CJ 
+
+
+>. 
+
+CO 
+
+0 
+
+
+
+•H 
+
+o 
+
+
+o 
+
+P 
+
+o 
+
+
+T3 
+
+Id 
+
+
+
+C 
+
+ft 
+
+g 
+
+
+3 
+
+g 
+
+o 
+
+
+O 
+
+0 
+
+p 
+
+
+CO 
+
+y 
+
+4J 
+
+
+
+• 
+
+
+
+o 
+
+
+
+
+0) 
+
+U 
+
+3 
+
+tn 
+
+■H 
+
+
+26 
+
+
+of an edge-cracked plate. 
+
+
+
+25 r 
+
+20 " 
+
+15 - 
+F 
+
+10 ~ 
+5 - 
+
+0 L 
+
+Figure 5 . 
+
+
+
+□ ^-layer model 
+<3> 8-layer model 
+
+
+w/B = 2 
+H/B = 0.5 
+a/w = 0,55 
+
+
+L™ — — I I — — 1 
+
+0 .25 .5 .75 1 
+
+U. 
+
+B 
+
+- Distribution of boundary-correction factors along 
+crack front for through crack in an edge-cracked 
+plate using various three-dimensional finite-element 
+models. 
+
+
+
+27 
+
+
+
+ehevron-notched bar 
+
+
+
+20 h 
+
+
+
+o 10-layer model 
+□ 18-layer model 
+
+
+0 
+
+
+l_ L: I L_ 
+
+0 .25 .5 .75 
+
+2z 
+
+b 
+
+
+Figure 6.- Distribution of boundary-correction factors along 
+crack front in chevron-notched bar for two finite' 
+element models . 
+
+
+
+50 
+
+
+Chevron-notched bar 
+w/B = 2 
+H/B = 0.5 
+
+
+
+Figure 7.- Distribution of boundary-correction factors along 
+crack front in chevron-notched bars with various 
+crack-length-to-width ratios . 
+
+
+29 
+
+
+
+Chevron-notched bar 
+
+
+
+Nodal -force 
+method 
+
+
+
+Figure 8.- Comparison of boundary-correction factors from nodal- 
+force and compliance methods for chevron-notched bar. 
+
+
+30 
+
+
+
+
+Chevron-notched rod 
+w/B = 2 
+
+
+
+Figure 10.- Comparison of experimental and calculated load-line 
+displacements for chevron-notched rod. 
+
+
+1. Report No. 2. Government Accession No. 
+
+NASA TM-85798 
+
+3. Recipient's Catalog No. 
+
+4. Title and Subtitle 
+
+THREE-DIMENSIONAL FINITE-ELEMENT ANALYSIS OF CHEVRON- 
+NOTCHED FRACTURE SPECIMENS 
+
+5. Report Date 
+
+July 1984 
+
+6. Performing Organization Code 
+
+505-33-23-02 
+
+7. Author(s) 
+
+I. S. Raju and J. C. Newman, Jr. 
+
+8. Performing Organization Report No. 
+
+10. Work Unit No. 
+
+9. Performing Organization Name and Address 
+
+NASA Langley Research Center 
+Hampton, Virginia 23665 
+
+11. Contract or Grant No. 
+
+13. Type of Report and Period Covered 
+
+Technical Memorandum 
+
+12. Sponsoring Agency Name and Address 
+
+National Aeronautics and Space Administration 
+Washington, DC 20546 
+
+14. Sponsoring Agency Code 
+
+
+15. Supplementary Notes 
+
+
+16. Abstract 
+
+In this paper, stress-intensity factors and load-line displacements have been 
+calculated for chevon-notched bar and rod fracture specimens using a three-dimensional 
+finite-element analysis. Both specimens were subjected to simulated wedge loading 
+(either uniform applied displacement or uniform applied load). The chevron-notch sides 
+and crack front were assumed to be straight. Crack-1 ength-to-specimen width ratios 
+(a/w) ranged from 0.4 to 0.7. The width-to-thickness ratio (w/B) was 1.45 or 2. The 
+bar specimens had a height-to-width ratio of 0.435 or 0.5. Finite-element models were 
+composed of singularity elements around the crack front and 8-noded isoparametric 
+elements elsewhere. The models had about 11,000 degrees of freedom. Stress-intensity 
+factors were calculated by using a nodal-force method for distribution along the crack 
+front and by using a compliance method for average values. The stress-intensity factors 
+and load-line displacements are presented and compared with experimental solutions from 
+the literature. The stress-intensity factors and load-line displacements were about 
+2.5 and 5 percent lower than the reported experimental values, respectively. 
+
+
+17. Key Words (Suggested by Author(s)) 
+
+Chevron-notch, stress-intensity factor, 
+cracks, finite-element analysis 
+
+18. Distribution Statement 
+
+Unclassified - Unlimited 
+Subject Category 39 
+
+19. Security Classif. (of this report! | 
+
+Unclassified ^ 
+
+20. Security Classif. (of this page) 
+
+Unclassified 
+
+21. No. of Paget 
+
+33 
+
+22. Price 
+
+A03 
+
+
+N-305 
+
+
+For sale by the National Technical Information Service, Springfield, Virginia 22161 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

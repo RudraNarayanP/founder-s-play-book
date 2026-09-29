@@ -1,0 +1,702 @@
+NOTICE 
+
+
+THIS DOCUMENT HAS BEEN REPRODUCED FROM 
+MICROFICHE. ALTHOUGH IT IS RECOGNIZED THAT 
+CERTAIN PORTIONS ARE ILLEGIBLE, IT IS BEING RELEASED 
+IN THE INTEREST OF MAKING AVAILABLE AS MUCH 
+INFORMATION AS POSSIBLE 
+
+
+
+NASA Technical Memorandum 81607 
+
+
+Fracture Toughness of Brittle Materials 
+Determined With Chevron Notch Specimens 
+
+(NAS A-TM-816 07) FRACTURE TOUGHNESS 01" N80-J2466 
+
+BRITTLE MATERIALS LET rat MI NED Mil'll CHEVRON 
+NOTCH SPECIMENS (NASA) 17 p dC A 02/ME A01 
+
+CSCL 1 1F Unclas 
+
+G3/26 28916 
+
+J. L. Shannon, Jr. and R. T. Bubsey 
+
+Lewis Research Center 
+
+and 
+
+D. Munz 
+
+Universitdt Karlsruhe and Kernforschungszentrum Karlsruhe • 
+
+Karlsruhe, FR Germany 
+and 
+
+W. S. Pierce 
+Lewis Research Center 
+Cleveland, Ohio 
+
+
+Prepared for the 
+
+Fifth International Conference on Fracture 
+sponsored by the International Congress on Fracture 
+Cannes, France, March 29-April 3, 1981 
+
+
+
+
+
+E -600 
+
+
+FRACTURE TOUGHNESS OF BRITTLE MATERIALS 
+DETERMINED WITH CHEVRON NOTCH SPECIMENS 
+
+J. L. Shannon, Jr,*, R, T. Bubsey*, D. Munz** and W. S. Pierce* 
+
+
+INTRODUCTION 
+
+Increasing world-wide energy consumption has stimulated activity in the fields of 
+coal and oil extraction and in energy conversion and usage systems such as coal 
+gasifiers and high- temperature gas turbine engines. The role of fracture mechan- 
+ics in these fields has grovm, pointing to the specific need for standard test 
+methods for determining the plane strain fracture toughness Ki c of brittle non- 
+metallic materials, principally rocks and ceramics. 
+
+Current fracture tests make use of a variety of specimen types (single edge bend, 
+double torsion, double cantilever bend, and surface flawed specimens) having 
+either blunt notches produced by saw cutting, or cracks produced by wedge loading, 
+indenting, or local thermal shock. Specimens with blunt notches can overestimate 
+Kj c . Precracked specimens are difficult to prepare in a reproducible manner, and 
+the initial crack front often cannot be seen on the fracture surface after test- 
+ing, making it nearly impossible to measure the initial crack length. These 
+current difficulties can be overcome by using a specimen containing a chevron 
+notch in which a crack originates at the tip of the triangular ligament during 
+loading. Specimens with a chevron notch were first used by Nakayama [ll in work of 
+fracture studies, and later by Tattersall and Tappin [2] for fracture - surface 
+energy measurements. More recently, Barker [ 3 j has proposed a chevron-notch 
+specimen for plane strain fracture toughness measurement. The essential features 
+of the chevron-notch specimen are that (1) a sharp natural crack is produced 
+during the early stage of test loading (no precracking is required) and (2) the 
+load passes through a maximum at a constant material-independent crack length-to- 
+width ratio for a specific specimen geometry (no post-testcrack length measurement 
+is required). For materials with flat crack growth resistance curves, the plane 
+strain fracture toughness Kj c * is proportional to the maximum test load, and a 
+function of the specimen geometry and elastic compliance. 
+
+A development program on three chevron-notch specimens (short bar, short rod, and 
+four-point-bend (see Figure l))has been underway at the NASA- Lewis Research Center 
+Cleveland, Ohio, U.S.A. , for the past three years. Stress intensity factor co- 
+efficients have been developed, both analytically and experimentally, and frac- 
+ture toughness measurements on Si 3 N4 and AI2O3 have been made to assess the per- 
+formance of each specimen type. Due to page limitations in this volume, only the 
+short bar configuration will be treated in this paper. Results for the other two 
+configurations may be found in references [4] through [7] . 
+
+STRESS INTENSITY FACTOR 
+
+
+The chevron notch (Figure 1 ) is characterized by the notch length at 
+
+surface, a ^ ; the notch length to the tip of the chevron, a 0 ; and the 
+
+width, W, and thickness, B. The shaded areas in Figure 1 represents 
+
+length a. The crack front length b is a -a 0 a -a 0 
+
+b = B = B 
+
+a r a 0 a r a 0 
+
+where a = a/W, a 0 = a 0 /W, and aj = aj/W 
+
+
+the specimen 
+specimen 
+cracks of 
+
+( 1 ) 
+
+
+*NASA~Lewis Research Center, Cleveland, Ohio, 44135 , U.S.A. 
+
+**Universitat Karlsruhe and Kernforschungszentrum Karlsruhe, Karlsruhe, FR Germany 
+
+
+2 
+
+
+The relation between maximum load P max and fracture toughness K Ic *is obtained by 
+equating the available and the necessary energies for crack propagation. The 
+energy available to extend the crack a small increment Aa is 
+
+P 2 d Ctr 
+
+AU « . . Aa (2) 
+
+2K da 
+
+
+where C tr is the elastic compliance of the chevron-notch specimen; the subscript 
+"tr" denoting the fact that in the chevron-notch specimen, the crack proceeds 
+through the chevron notch such that the two together constitute a discontinuity 
+with a trapezoidal front. The energy necessary to extend the crack by the in- 
+crement Aa is „ ? 
+
+*uc 
+
+
+AW = Gj c • b • Aa = 
+
+
+b • Aa 
+
+
+E' 
+
+
+(3) 
+
+
+with elastic modulus E l = E for plane stress and E' 
+During crack extension, AU = AW, leading to 
+f (dC tr /da)E'l ** r 
+
+
+= P L~ 
+
+where C^ r = E* B(^ r 
+
+
+2lVb 
+
+
+= JL 
+
+b/Tv 
+
+
+1 • fir 
+
+2 da 
+
+
+is the dimensionless compliance. 
+
+
+y* 
+
+
+JL . ii£tr . a l ~ a o | 
+2 da a ~a Q i 
+
+
+= E/(1-v 2) for plane strain?* 
+
+
+h 
+
+
+. ai ~ a ° 
+a -a 0 
+
+The term 
+
+
+(4) 
+
+
+(5) 
+
+
+is the dimensionless stress intensity factor coefficient. Maximum load occurs 
+at the minimum of the term in brackets, and is designated Y* m , 
+
+
+*The authors recognize that the designation Kj c is customarily reserved for that 
+value of plane strain fracture toughness determined in strict accordance with the 
+ANSI/ASTM E-399 Standard Test Method for Plane - Strain Fracture Toughness of 
+Metallic Materials. However, for materials with flat crack growth resistance 
+curves (i.e., extremely brittle materials), we believe the chevron-notch speci- 
+men would yield a plane strain fracture toughness value fully equivalent to Kj c 
+of the E-399 test., and without the encumbrances of post-test crack length mea- 
+surement and secant-line construction on the test record; therefore, the tough- 
+ness values obtained in this investigation are designated Kj c . 
+
+**There is some uncertainty about the usage of the plane strain or plane stress 
+relation when stress intensity factors are derived from compliance measurements 
+[8 ! . Whereas there is plane strain in the immediate vicinity of the notch at 
+mid - thickness , the bulk of the specimen is nearer the plane stress state. There- 
+fore, Brown and Srawley (V) have proposed to omit the (1 -v^) term for E'. 
+
+
+3 
+
+
+i: 
+
+•o 
+
+\ : 
+
+
+There are no available analytical solutions for the chevron-notch short bar spec- 
+imen stress intensity factor coefficient. However, as a first approximation it 
+can be assumed that dC't r /da for t lie chevron notch with a crack is identical to 
+that dC/du for a straight-through crack# This approximation is referred to as 
+the "straight-through crack assumption", STCA. Using the relation for a straight- 
+through crack 
+
+
+where 
+
+
+
+
+v _ KB^r* 
+' T— 
+
+
+C6) 
+
+
+Eqs . 
+
+
+(4) and (5) can be rewritten 
+
+
+K 
+
+
+Ic 
+
+
+
+
+( 7 ) 
+
+
+and 
+
+
+
+
+
+(S) 
+
+
+where Y* is the chevron-notch and Y the straight-through crack specimen coef- 
+ficients. 
+
+
+The dimensionless stress intensity factor coefficient for the short bar specimen 
+with a straie lit- through crack is [lOj ; 
+
+
+Y = 
+
+
+U -a) 
+
+
+3/2 
+
+
+In exp 
+
+
++ exp 1 
+
+
+2.702 
+
+
++ 1 
+
+
+.628 
+
+
+r 12 w 5 a-q) 5 ~i 5 r 1+ 
+
+_ H* J [_ a 0'/H) J 
+
+
+(9) 
+
+
+To check the validity of the straight-through crack assumption, a series of 
+short bar experimental compliance measurements were made [lOj . The compliance 
+specimens were machined in the L-T crack plane orientation from 7075-T651 
+aluminum plate to the dimensions shown in Figure 2a for W/H ratios of 3 and 4. 
+
+A 17.8 mm slot was machined into the front face to accommodate loading knife 
+edges (Figure 2b) . The displacements measurements were made with a modified ASTM 
+E-399 clip-in gage as shown in Figure 2c. Hardened steel cones were fastened to 
+the inner surfaces of the displacement gage arms and set into small indentations 
+in the top and bottom of the specimens [6J. A 0.6 mm slot was extended incre- 
+mentally to simulate an advancing crack in the specimen. 
+
+
+The compliance results for specimen proportioned W/H = 4 are presented as func- 
+tions of the notch parameters ot 0 in Figures 3 and aj in Figure 4. The results 
+for specimen proportioned W/H = 3 were, of course, quite similar. The compli- 
+ance curves were differentiated to obtain dC'^/da for substitution into Eq. (5) 
+
+
+
+■■■■ .*# 
+
+
+
+
+for the stress intensity factor coefficient Y*. Y*'s obtained in this way from 
+Figure 3 are compared in Figure 5 with Y*'s obtained analytically using the STCA 
+relation of Eqs. (8) and (9), 
+
+In the region of the curve minima, designated Y* m and indicated by arrows to the 
+curves, the experimental and analytical results agree extraordinarily well: less 
+
+than 4 percent difference for the greatest initial crack length (00=0,495), and 
+less than 1 percent difference for the two shorter initial crack lengths, As 
+expected, the minima decrease and broaden with decreasing a 0 . Location of the 
+minima at corresponding to maximum load (and Y* m ) varies in such a way that 
+the quantity (Oj n -a 0 ), which is the relative crack extension up to maximum load, 
+passes through a maximum as shown in Figure 6. 
+
+Experimental results showing the influence of on Y* are shown in Figure 7. 
+Decreasing a* lowers the curves and, at a= aj, the chevron-notch specimen curves 
+join the curve for a straight-through crack specimen. According to the straight- 
+through crack assumption, the location of the curve minima should not vary; e.i. 
+
+the relative crack length at maximum load o^, should be independent of ai (shown 
+
+by differentiating Eq. (8) with respect to a for a = o^). Experimentally, 
+however, a m will vary with aj, and this too is predictable from the differen- 
+tiation of Eq. (8) , This dependence of a, n on produces a continuous rise 
+in the amount of relative crack extension up to maximum load (ctm-cxo) as a func- 
+tion of ai as shown in Figure 8. 
+
+The minimum values V* m of Y* are used in conjunction with P ma x to compute Kj c . 
+Since no practical difference was observed between the experimental and ana- 
+lytical Y* m values, and for the sake of computational simplicity, the STCA values 
+were used for all Kj c calculations in the toughness measurements portion of this 
+
+study. Under the STCA, Kj c for the short bar specimen may be expressed: 
+
+
+K Ic 
+
+
+P Y* 
+B/W 
+
+
+( 10 ) 
+
+
+Substituting P ma?c for P and Y* m for Y*, K Ic is obtained from maximum load with 
+no need for cracK length measurement. For specimens with aj = 1, and in the 
+range 3 £ W/H £4 and 0.2 £ a 0 £ 0.5, Y* m may be expressed; 
+
+
+Y* = 
+m 
+
+
+4.08+ 3.95 (-g-) + 0.50 (|-) 2 + £-23. 15 + 1 . 15 £-g) + 1.30 (-jJ-) 2 J \ 
+
+T , . 21 1 
+
++ 172.5 - 43.5 (■§•) + 3,0 (-g-) Jo^j O D 
+
+
+This equation is in agreement with the analytical Y*,- from Eq. ( 8)_j„within 
+£ 0. 3 ? o. For 0£ < 1, Eq. (11) must be multiplied by j(ai - a 0 )/(l-a 0 )J 2 
+
+
+FRACTURE TOUGHNESS MEASUREMENTS 
+
+Two materials were investigated; Norton Company NC-132 hot pressed silicon 
+nitride (SijN^ and 3M Company Alsimag-614 sintered aluminum oxide (AI2O3). The 
+SijN4 was acquired as 150 mm x 150 mm x 10 mm thick plate; the AI2O3 as bars 
+12. 7 mm x 12. 7 mm x 29.2 mm and 25.4 mm x 25.4 mm x 54.6 mm. Short bar specimens 
+were machined to the dimensions shown in Figure 9. Chevron notches were produced 
+by diamond-impregnated wire sawing or by diamond wheel slotting. Details re- _ _ 
+garding specimen preparation and test procedure have been given in reference U-U • 
+
+
+5 
+
+
+RESULTS 
+
+The plane strain fracture toughness of Si 3 N 4 determined with short bar specimens 
+of on = 1.0 and 0,17 <_ a 0 < 0.48 is plotted in Figure 10 . A value of Kj c 
+
+equal to 4.64 +_ 0.11 MNm ”-3/2 appears well established and independent of the 
+dimension a 0 . The limited amount of data shown in Figure 11 for specimens with 
+a 0 = 0.20 and 0.50 <_ cq £ 0.99 suggests independence of on aj as well, and 
+
+substantiates the mean Ki c value obtained from the data of Figure 10. 
+
+The aluminum oxide chevron-notch short bar specimen geometries varied in a 0 , ax, 
+W/H and absolute size (see Figure 9). Plane strain fracture toughness results 
+are shown in Figures 12 and 13. For chevron notches with aj = 1, there is a 
+small downward trend in Kj c with increasing initial relative crack length Oq 
+(F igure 12 ). Over the range investigated, this effect is less than 4 percent. 
+
+A more interesting feature is the strong dependence of Kj c on specimen thickness 
+and width- to-half height ratio. Comparing mean values of Kj c , the thickness 
+effect appears about double that of the W/H ratio. The results for W/H = 4 
+exceed those for W/H = 3 by 6 percent for B = 25.4 mm and by 10 percent for 
+B = 12.7 mm. The results for B = 25.4 mm exceed those for B = 12.7 mm by 15 
+percent for W/H = 4 and by 18 percent for W/H = 3. 
+
+The largest effect was produced by variation in the relative length of the 
+chevron notch at the specimen surface, ax (Figure 13), Kj c drops nearly 25 per- 
+cent with decreasing ax in the range investigated. 
+
+PRACTICAL SIGNIFICANCE OF RESULTS 
+
+
+Implicit in the STCA, and underlying the theoretical base for the chevron notch 
+specimen, is the presumption of a flat crack growth resistance curve for the 
+material tested. When this condition is not met, the chevron-notch specimen will 
+yield K Ic values which vary with specimen geometry and size, and therefore is of 
+questionable usefulness in its present state of development. It would appear 
+that the Si 3 N ’4 tested in this program does satisfy the requirement of a flat 
+crack growth resistance curve and therefore demonstrates the usefulness of the 
+chevron-notch short bar specimen for plane strain fracture toughness evaluation 
+of this material. 
+
+In contrast, the A1 2 0 3 material appears to have a rising crack growth resistance 
+curve, as evidenced*"by the size and geometry dependence of its measured Ki c . 
+
+Since Kj c is calculated from maximum load, its value will depend on the amount 
+of crack extension up to maximum load, and this will vary with chevron notch 
+geometry (see Figures 6 and 8 ), specimen size, and specimen proportions, W/H. 
+
+The effect is to vary the point on the rising crack growth resistance curve at 
+which maximum load occurs. Dependence of the notch parameters a 0 and ax on the 
+amount of crack growth up to maximum load for the two series of AI 2 O 3 specimens 
+in Figures 12 and 13, is shown in corresponding Figures 6 and 8 . The results 
+of Figure 12 wherein a 0 is the controlling chevron notch parameter are plotted 
+in Figure 14 in terms of the crack extension up to maximum load, and provide in 
+effect a gradually rising crack growth resistance curve. A similar exercise 
+involving the data of Figure 13 (ax variable) results in the plot of Figure 15. 
+Surprisingly, the curve of Figure 15, reflecting change in ax, is much steeper 
+than that of Figure 14 for change in a 0 , At this juncture, the authors can 
+offer no explanation for this difference, but clearly the basic effect is due to 
+a rising crack growth resistance curve for the AI 2 O 3 material tested. 
+
+The range of a 0 's investigated was for each specimen size and proportions 
+tested, in the segment of negative slope of the (c^ - a 0 ) vs a 0 curves of 
+Figure 6 . It would appear that the slight downward trend of Kj c with increasing 
+
+
+.. . » 1 ii.-'S*. -I .;. i-. 1 : , .. -i-M. 
+
+
+6 
+
+
+S- 
+
+
+i 
+
+
+r 
+
+
+f 
+
+
+
+a 0 in Figure 12 is due to this effect, although it is surprisingly small compared 
+to the aj effect in Figure 13 which is due to no greater trend in ( a m - a 0 ) vs 
+ai in Figure 8, 
+
+The authors feel the results of this investigation are precautionary in the use 
+of the chevron notch specimen for materials with rising crack growth resistance 
+curves. Tests of any material for its plane strain fracturo toughness cannot be 
+considered conclusive unless specimens of more than one geometry and/or size give 
+the same result. 
+
+It would appear also from the results that there is a preferred chevron geometry; 
+namely, a 0 = 0.2 and 04 = 1.0. Those correspond to the maximum amount of crack 
+extension up to maximum load, and therefore should provide the greatest stability 
+of the crack front at the measurement point. This would also provide for the 
+greatest sensitivity to non-flat crack growth resistance curves, and be most 
+selective in applicability of the test, which at this time must be restricted to 
+flat crack growth resistance-type materials. 
+
+REFERENCES 
+
+1. J. Nakayama, "Direct Measurement of Fracture Energies of Brittle Heterogeneous 
+Materials", J. Am. Ceram, Soc., 48:11 (1965), pp. 583-587. 
+
+2. H. G. Tattersall and G. Tappin, "The Work of Fracture and Its Measurement in 
+Metals, Ceramics and other Materials", J. Mater. Sci., 1:3 (1966), pp.296- 
+301. 
+
+3. L. M. Barker, "A Simplified Method for Measuring Plane Strain Fracture 
+Toughness", Eng, Fracture Mech, , 9:2 (1977) pp. 361-369. 
+
+4. D. Munz, R. T. Bubsey, and J. L. Shannon, Jr., "Fracture Toughness Determina- 
+tion of AI2O3 Using Four-Point-Bend Specimens with Straight-Through and 
+Chevron Notches", J. Am. Ceram. Soc., 63:5-6 (1980), pp. 300-305. 
+
+5. D. Munz, J. L. Shannon, Jr. and R, T. Bubsey, "Fracture Toughness Calculation 
+from Maximum Load in Four Point Bend Tests of Chevron Notch Specimens", to be 
+published in Int. J. Fracture. 
+
+6. R. T. Bubsey, D. Munz, W. S. Pierce, and J. L. Shannon, Jr., "Compliance 
+Calibration of the Short Rod Chevron-Notch Specimen for Fracture Toughness 
+Testing of Brittle Materials", to be published in Int. J. Fracture. 
+
+7. Paper on plane strain fracture toughness determinations on A1 2 C>3 using the 
+short rod chevron-notch specimen in preparation. 
+
+8. R. T. Bubsey, D. M. Fisher, M. H. Jones and J. E. Srawley, "Compliance 
+Measurements", Experimental Techniques in Fracture Mechanics , S.E.S.A. 
+Monograph 1, A. S. Kobayashi, ed., Iowa State Univ. Press and Society 
+for Experimental Stress Analysis, Cambridge (1976), pp. 76-95. 
+
+9. W. F. Brown, Jr. and J. E. Srawley, Plane Strain Crack Toughness Testing of 
+High Strength Metallic Materials , ASTM STP 410, Am. Soc. for Testing & 
+Materials, Philadelphia (1967). 
+
+10. D. Munz, R. T. Bubsey, and J. E. Srawley, "Compliance and Stress Intensity 
+Coefficients for Short Bar Specimens with Chevron Notches", Int. J. Fracture, 
+16:4 (1980), pp. 359-374. 
+
+
+n • nrz. 
+
+
+
+
+7 
+
+
+IX. D. Munz, R. T. Bubsey, and J, L. Shannon, Jr., "Performance of Chevron-Notch 
+Short Bar Specimen in Determining the Fracture Toughness of Silicon Nitride 
+and Aluminum Oxide", J. Test. Kvai., 8 ; 3 (1980), pp. 103-107. 
+
+
+
+
+- ■ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+STRAIGHT-THROUGH NOTCH 
+
+
+Y* - Chevron Notch 
+Y - Straight-Through Notch 
+
+
+Experimentally determined a tress intensity factor coefficient for 
+short bar specimens of W/H 4 containing either a chevron notch 
+of a. a 0.2 or a straight-through notch. 
+
+
+Figure 8. - Relative crack extension fa - a ) at the minimum value of Y* 
+
+in o 
+
+as a function of a- for short b&r chevron-notch specimens of W/H » 4 and 
+
+
+^ 0 • 2 • 
+o 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Will (J| 
+
+4.0 1.0 
+
+3.0 10 
+
+4.0 1.0 
+
+3.0 10 
+
+
+-'-"V 
+
+o 
+
+
+<“m " "o> " "*• 
+
+Figure 14# - Variation in K Ic of sintered aluminum oxide (Alsimag«6l4) with 
+amount of crack extension up to maximum load for abort bar chevron-notch 
+specimens of ** 1 in two thicknesses and W/ll proportions, and variable 
+chevron notch angle as obtained by varying the initial crack lengthy , 
+
+
+t B - mini VWH I o n 
+
+
+Figure 15. - Variation in K^ c of sintered aluminum oxide 
+(Alsimag-614) with amount of crack extension up to maximum 
+load for short bar chevron-notch specimens of W/H « 4, 
+ci 0 a 0.2, and variable chevron notch angle as obtained by 
+varying a . 
+
+

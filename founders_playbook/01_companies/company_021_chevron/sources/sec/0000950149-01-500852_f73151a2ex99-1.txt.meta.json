@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000093410/000095014901500852/f73151a2ex99-1.txt",
+ "fetched": "2026-09-29T18:25:57Z",
+ "sha1": "d19299df40bc6f6df09bd47808fcf134d5fccd4b",
+ "bytes": 6376,
+ "words": 764,
+ "cik": "0000093410",
+ "registrant": "CHEVRON CORP",
+ "accession": "0000950149-01-500852",
+ "document": "f73151a2ex99-1.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

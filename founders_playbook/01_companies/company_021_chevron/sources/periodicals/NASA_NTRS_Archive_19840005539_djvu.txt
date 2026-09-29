@@ -1,0 +1,5153 @@
+nasQ cA- n^j^5 
+
+
+NASA Contractor Report 172225 
+
+
+NASA-CR-172225 
+
+19840005539 
+
+
+THREErDIMENSIONAL ANALYSIS OF CHEVRON-NOTCHED 
+SPECIMENS BY BOUNDARY INTEGRAL METHOD 
+
+
+Alexander Mendel son and Louis Ghosn 
+
+
+t't.i .. , 
+
+
+CASE WESTERN RESERVE UNIVERSITY 
+Cleveland, Ohio 44106 
+
+
+Grant NAGl-304 
+September 1983 
+
+
+
+n r r 
+
+
+
+.L/.r;GlEY RESEA'vCf < : • ; r 
+
+I\|/\S/V "“a. 
+
+National Aeronautics and 
+Space Administration 
+
+Langley Research Center 
+
+Hampton. Virginia 23665 
+
+
+
+r§COfu€U un tn dn Qn i 1 UldV^ i OTlU uiyiXl£$r C 5 Hd 0 l^ 0 » ddlUMMUy UdLd 
+
+
+r— ?-t-rr-r^_ 
+
+r.lM 1 t-K* 
+
+
+26 
+
+
+
+
+f-.--! { r' - 
+
+
+K,^ T ?. ! — •_ 
+
+rl l nla; 
+
+
+HB?3: 
+
+
+I-'. T r-k m f A *. .« <<~i 
+
+UlorLHY ■■ 
+
+
+I i i CiLtri’ 
+
+.« ^.r .• .« 
+
+C 1 
+
+
+i 3 - 3 *dC. 
+
+
+n T 4L » ?. I f-- A, r-t a '—{■-~i -— i r” k i 
+
+" I '■ i 1 f i'-ifdw 
+
+
+y ~?/ yy ly { 
+
+
+I A- i"^f' T r“ T !“fA r~-.A\.f-<-l 
+
+K _/p«t*._.L_d.w-_j li 1 u-lJ \ 
+
+
+'d\ Vd V c” Oi *i“" i Vd Ldl'idd -DHd'--: i I'U'ii \d \j y uw‘'j.i uj.dc / 
+KdPorT , 
+
+
+*-.U*dW K -i dT d* I V i * 
+
+
+1 X 1 i dLd^di-jf 
+
+\ \ I?” dd“d I U.idCXd I d["‘d I dl id \ 'y -d i d 
+
+2 ^ A. __T ~ri r-^i~i • I— z 
+
+i i I Ld*yrd I lUd l? V-JU \ L-ot^« r i \ \ 
+
+dUiM* H= ? dy 'o.riddr'i? i_s 
+
+dddd V4dd Ld r I *i r\’rfddi" V d Ui \ \ V = ? d- \ dv d \ di Vd? vi 1 1 0 » 
+
+r“_ — ^ - \ ai • a t i f.i'rrr^ s-^A.r-i. « ,-fc-ir“ A. A*'* 
+
+diiM i iiddr « Hdx ; HVHlUx\H\lti dHr* nd Hyo/ nr rtdi 
+
+/-BOUwDARY IMTEGRhL METHOD/^CERAM ICS/- DISPLACEMENT MEASUREMENT/^FRACTURE 
+MECHANICS 
+
+/ ELASTIC PROPERTIES/ MECHANICAL PROPERTIES/ STRESS INTENSITY FACTORS 
+
+>— A. ! / 
+
+r.. Hx r\x ^ ^ 
+
+Thd cndvron-'FiOtcndd snort bsr dud short rod spocimons uiss dndlyzdd'by the 
+bounddry intdQrdl dMuations nidthodx This mdthod uidKos uso of boundary 
+
+
+SUf f dCd d i OurOntd 1 \ \ Ob Id 1 Ti 1 1 Vd ihd dO I U l 1 OPu I i id^ UOUi lUdr y ill i^'di dj ulUud \ o 
+
+uisrd couiposdd of i i nodf tridnsulsr and rdcianyular surtaco Sdsiudiud* 
+
+
+
+d-d i ddl \ d L i Ol id Uidt d 
+1 1 Pil Xd d I dUidnX di idl V d i dx 
+
+
+Piri 1 y.l J 1 d L 1 On.d d \ 'Q\ iS Ll id d- r dd*i\ I r Ol 1 1 dl lO. 
+
+UI ~\ T tY dXPdl 1 Uldi I Ld \ V d I Xidd di lu. UI 1 Li i 
+
+
+; .t. jiili-Ji-il ^KJ 
+
+
+
+THSEE-DIMENSIOHAL ANALYSIS OF CHEVRON-NOTCHED SPECIMENS 
+
+
+BT BOUNDARY INTEGRAL METHOD 
+
+Abstract 
+
+by 
+
+Alexander Mendelson and Louis Ghosn 
+
+
+A three-dimensional elastic analysis was performed on the 
+chevron-notched short-bar and short-rod speclmemens, using the 
+boundary Integral equations method. This method makes use of 
+boundary surface elements In obtaining the solution. The 
+boundary Integral models were composed of linear triangular and 
+rectangular surface segments. Results were obtained for two 
+specimens with width- to- thickness ratios of 1.45 and 2.00 and for 
+different crack-length-to-wldth ratios ranging from 0.4 to 0.7. 
+Crack opening displacement, and stress Intensity factors 
+determined both from displacement calculations along the crack 
+front and compliance calculations were compared with experimental 
+values obtained at NASA Lewis research Center, and with 
+finite-element analysis done at NASA Langley Research Center. 
+
+
+— / '3(pO'7=# 
+
+
+
+
+
+
+TABLE OF CONTENTS 
+
+Page 
+
+ABSTRACT 
+
+
+
+i 
+
+TABLE OF 
+
+CONTENTS 
+
+
+iii 
+
+LIST OF 
+
+TABLES 
+
+
+V 
+
+LIST OF 
+
+FIGURES 
+
+
+vi 
+
+LIST OF 
+
+SYMBOLS 
+
+
+ix 
+
+CHAPTER 
+
+I INTRODUCTION 
+
+1 
+
+CHAPTER 
+
+II CHEVRON-NOTCHED SPECIMEN 
+
+10 
+
+
+2-1 
+
+Introduction 
+
+10 
+
+
+2-2 
+
+Stability Analysis 
+
+11 
+
+
+2-3 
+
+Determination of Stress 
+Intensity Factor 
+
+15 
+
+
+2-4 
+
+Compliance Calibration 
+
+17 
+
+
+2-5 
+
+Stress and Displacement Fields 
+
+19 
+
+CHAPTER 
+
+III THREE-DIMENSIONAL BOUNDARY INTEGRAL 
+EQUATIONS METHOD 
+
+21 
+
+
+3-1 
+
+Introduction to the Boundary 
+Integral Methods 
+
+21 
+
+
+3-2 
+
+Mathematical Derivation 
+
+22 
+
+CHAPTER 
+
+IV NUMERICAL PROCEDURE 
+
+28 
+
+
+4-1 
+
+Reduction of the Integral Equations 
+To a Set of Simultaneous Equations 
+
+28 
+
+
+4-2 
+
+Single-Edge-Cracked Tension Specimen 
+
+36 
+
+
+4-3 
+
+Discretization of the Chevron-Notched 
+Specimens 
+
+45 
+
+
+
+i i i 
+
+
+
+
+CHAPTER V RESULTS AND DISCUSSION FOR THE SHORT-BAR 65 
+AND SHORT-ROD 
+
+5-1 Stress Intensity Factor from 59 
+
+Compliance 
+
+5-2 Stress Intensity Along the 74 
+
+Crack Front 
+
+CHAPTER VI CONCLUSIONS 84 
+
+REFERENCES 86 
+
+APPENDIX A Derivation of the Singular Integral 88 
+
+APPENDIX B Numerical Solution of the Integral 92 
+
+Equations 
+
+APPENDIX C Program Listing 96 
+
+
+iv 
+
+
+LIST OF TABLES 
+
+Table Page 
+
+1 Normalized stress intensity factor for SECT specimen 38 
+
+2 Crack mouth opening displacement for different meshes 48 
+
+3 Summary of specimen dimensions 65 
+
+4 Normalized crack opening displacement for Chevron- 68 
+
+notched specimens as function of a/W 
+
+5 Typical variation of the displacement at the center 70 
+
+the specimen to its outer surface along the loading 
+
+line 
+
+6 Normalized average displacement along the loading 70 
+
+line, EVB/p 
+
+7 Coefficients of the least square fit of the compliance 71 
+
+8 Critical stress intensity factor for the Chevron- 72 
+
+notched specimens 
+
+9 Comparison between the minimum stress intensity 74 
+
+factor assuming plane stress condition 
+
+10 Stress intensity factor, y*, along the crack front 75 
+
+for the short-bar specimens 
+
+11 Stress intensity factor, y*, along the crack front 76 
+
+for the short-rod specimens 
+
+
+V 
+
+
+
+LIST OF FIGURES 
+
+
+Fieure 
+
+
+Crack in an infinite plate under uniform 
+stress condition 
+
+
+2. Different specimens for fracture tough- 5 
+
+ness testing 
+
+3. Chevron-Notched short-bar and short-rod 6 
+
+specimens 
+
+4. a) Side-view of the Chevron-notched 12 
+
+specimen 
+
+b) Section-view of the plane of the 12 
+
+chevron notch 
+
+c) Load versus opening displacement 12 
+
+of the chevron-notched specimens 
+
+5. Point load in an infinite region 23 
+
+6. Typical surface mesh for constant segment 30 
+
+7 . Linear segments 32 
+
+8. Intersection of two segments that lie in 32 
+
+different planes 
+
+9. Segment free crack front 34 
+
+10. Parabolic segment for discontinuity regions 34 
+
+11. Special constant segment 35 
+
+12. Single-edge-cracked-tension specimen 39 
+
+13. Stress distribution at the centerline 40 
+
+of the SECT specimen 
+
+14. Displacement distribution at the center- 41 
+
+line of the SECT specimen 
+
+15. V/ >rr versus r for the two meshes of the 42 
+
+SECT specimen 
+
+16. Variation of V/Vr~ along the crack front 43 
+
+for SECT 
+
+
+vi 
+
+
+
+Figure Page 
+
+17. Normalized stress Intensity factor 44 
+
+for the SECT specimen 
+
+18. Chevron-notched bar specimen 51 
+
+19. Loading condition for the chevron notch 52 
+
+specimen 
+
+20. Mesh 1 with 61 nodes for a/W = 0.4 53 
+
+21. Mesh 2 with 221 nodes for a/W =0.4 54 
+
+22. Mesh 3 with 370 nodes for a/W =0.4 55 
+
+23. Crack opening displacement as function 56 
+
+of a/W 
+
+24. Crack opening displacement as function 57 
+
+of nodes for a/W = 0.4 
+
+25. Mesh 4 with 370 nodes for a/W =0.5 58 
+
+26. Normalized crack opening displacement as 59 
+
+function of a/W 
+
+27. Normalized displacement distribution at the 60 
+
+centerline of the short-bar specimen 
+
+for a/W = 0.5 
+
+
+28. Normalized stress intensity factor as function 61 
+of a/W (from compliance) 
+
+29. Variation of V/Vr” for the chevron notch 62 
+
+bar specimen for a/W = 0.5 
+
+30. Variation of the stress intensity factor 63 
+
+along the crack front for different 
+
+mesh for a/W =0.5 
+
+31. Variation of the stress intensity factor 64 
+
+at the centerline of the specimen for 
+
+a/W = 0.5 as function of the number of nodes 
+
+32. End-view of the short-bar and short-rod 67 
+
+specimens 
+
+
+vii 
+
+
+
+Figure 
+
+33. 
+
+
+34. 
+
+
+35. 
+
+
+36. 
+
+
+37. 
+
+
+38. 
+
+
+Stress intensity factor from compliance 
+for the chevron notched specimens as 
+function of a/W 
+
+Variation of the stress intensity factor 
+along the crack front of the short-bar 
+specimen with W/B = 1.45 
+
+Variation of the stress intensity factor 
+along the crack front of the short-bar 
+specimen with W/B = 2.00 
+
+Variation of the stress intensity factor 
+along the crack front of the short-rod 
+specimen with W/B = 1.45 
+
+Variation of the stress Intensity factor 
+along the crack front of the short-rod 
+specimen with W/B = 2.00 
+
+Propagation of the crack front for the 
+short-rod specimen Ref. [11] 
+
+
+vi i i 
+
+
+Page 
+
+73 
+
+71 
+
+80 
+
+81 
+
+82 
+
+83 
+
+
+
+LIST OF SYMBOLS 
+
+
+Crack length 
+
+Distance between the load line to the apex of the triangular 
+ligament 
+
+Distance between the load line to the base of the triangular 
+ligament 
+
+Critical crack length where the stress intensity factor goes 
+through a minimum 
+
+Geometric correction factor for the chevron-notched specimen 
+at the critical stress intensity factor 
+
+a - Sq 
+
+crack width ( b= B for the chevron notch ) 
+
+a - 3i 
+
+Specimen width 
+
+Coefficients of the parabolic fit for the compliance 
+
+V 
+
+Compliance ( C = ) 
+
+. E'VB , 
+
+Normalized compliance ( C* = p ) 
+
+Coefficient of variation for the triangular segments 
+
+Solution of the integral at singularity points 
+
+Coefficient of the least square fit for the compliance 
+
+Component of the unit vector in the i direction 
+
+Modulus of elasticity 
+
+= E for plane stress 
+
+= for plane strain 
+
+1 - 
+
+Projections of the distance between two adjacent nodes in 
+local coordinates for triangular segments 
+
+
+Shear modulus 
+
+
+IC 
+
+
+H 
+
+n . 
+D 
+
+
+MAX 
+
+
+S. 
+
+1 
+
+
+n 
+
+
+t . 
+
+3 
+
+T. . 
+
+T. 
+
+13k 
+
+u . 
+
+3 
+
+U 
+
+
+Strain energy release rate 
+
+Critical strain energy release rate 
+
+Half the specimen height 
+
+Stress intensity factor 
+
+Critical stress intensity factor 
+
+Component of the outward normal in j direction 
+
+Component for variation coefficient for rectangular segments 
+
+Higher order terms 
+
+Total load applied 
+
+Maximum load 
+
+Field point at the boundary of the specimen 
+Distance to the crack tip 
+Infinite region 
+
+Variation coefficient for the parabolic segments 
+Surface segment 
+Boundary surface 
+Traction component 
+
+Traction solution due to a point load in an infinite region 
+Stress component for a point load 
+Traction component 
+Elastic strain energy 
+
+
+U Displacement solution for a point load in an infinite region 
+
+ij 
+
+V Total displacement in y direction 
+
+W Specimen length 
+
+W Work done by external forces 
+
+L 
+
+X' Distance between the end of the specimen to the loading line 
+
+
+X 
+
+
+Y* Distance between the lo^d line to the end of the groove 
+
+Y* Normalized stress intensity factor 
+
+Y Minimum stress intensity factor 
+
+m 
+
+X,Y,Z Global coordinate system 
+
+
+x,y,z 
+
+
+In-plane local coordinate system 
+
+
+
+6 
+
+ij 
+
+
+Chronical delta 
+
+Small radius of a sphere around the singularity point 
+
+
+e 
+
+'^ij 
+
+^m 
+
+U 
+
+BIE 
+
+CMOD 
+
+FEM 
+
+MOL 
+
+SECT 
+
+SIF 
+
+
+= u . . 
+
+Normal stresses 
+Stress tensor 
+Shear stress 
+
+Local in-plane coordinates for the triangular segments 
+
+Local coordinate of the center of the triangular segment 
+
+Poisson's ratio 
+
+Boundary Integral Equations 
+
+Crack Mouth Opening Displacement 
+
+Finite Element Method 
+
+Method Of Line 
+
+Single-Edge-Crack-Tension specimen 
+Stress Intensity Factor 
+
+
+xi 
+
+
+
+
+CHAPTER I 
+
+
+Introduction 
+
+The outstanding physical properties of ceramic materials from 
+high temperature strength and corrosion resistance, to low 
+density and low thermal conductivity has stimulated interest in 
+manufacturing ceramic materials for high temperature structural 
+applications. As an example, a gas turbine with ceramic 
+components, could operate at higher temperatures than metallic 
+components, thus improving the overall efficiency of power 
+generation, and reducing fuel consumption. 
+
+Design criteria for ceramic structures are very complicated 
+due to the great amount of data scatter encountered in the 
+fracture strength of the same material, and due to low resistance 
+to failure in the presence of defects, as compared to structural 
+metals of similar strength levels. The Inherent brittleness of 
+ceramic materials allows no plastic flow to occur to relieve the 
+high stress. Therefore, very small flaws (0.001 in. or less) can 
+create very high localized stresses at crack tips. When the 
+local stress level reaches the inherent strength of the material, 
+failure occurs. This failure concept can be analyzed using 
+linear elastic fracture mechanics, since the basic concepts in 
+
+
+1 
+
+
+
+
+3 
+
+
+fracture mechanics were derived from perfect linear elastic 
+
+inherently brittle material behavior. 
+
+The presence of a flaw of length 2a in a ceramic structural 
+component, loaded with a force P, creates high stress gradients 
+near the crack tip. Considering the two dimensional solution for 
+an infinite plate with applied stress O’ normal to the crack 
+plane, the stress distribution near the crack tip can be shown to 
+be [ 1 ] 
+
+
+oV^ 0 
+
+n . . 0 . 36-1 
+
+
+r '/'i 
+
+a = COS 
+
+1+sin - sin — 
+
++ 0 
+
+
+y ^ 2 
+
+L 2 2 
+
+
+L J 
+
+a = o"^C0S » 
+
+f"l-sin — cos 
+
++ 0 1 
+
+
+X fzF 2 
+
+^ 2 2 
+
+
+
+
+o'^i^ .0 6 36 , „ r 
+
+r Sin - cos - cos + 0 r 
+
+222'- 
+
+where r and 0 are the polar coordinates of a point measured from 
+the tip of the crack (Figure 1). Linear fracture mechanics 
+defines the opening mode stress intensity factor 
+
+Tim Oy^J2■^r = Kj 
+
+r 0 
+9 = 0 
+
+For an infinite plate yfjTa and in general for a finite 
+
+plate of a particular geometry = Y a -/a where Y is a 
+geometric correction factor. Similarly for wedge loading the 
+
+
+
+4 
+
+
+Y P 
+
+opening mode stress intensity factor can be expressed as K «--■ ■ 
+
+^ B-JV 
+
+, where W is the distance between the crack tip and position of 
+
+the load P while B is the width of the specimen. 
+
+It is assumed that beyond a critical value of the stress 
+
+intensity factor (Kj>Kj^) the crack will propagate. The fracture 
+
+toughness is defined as an inherent material strength 
+
+property which refers to the resistance of a material to fracture 
+
+in the presence of a flaw. The value of K can be determined 
+
+ll* 
+
+only experimentally. 
+
+There exists no standard test for the determination of 
+fracture toughness of brittle non metallic materials. The 
+
+test specimens that have been used in ceramic materials testing 
+can roughly be divided into five groups (Figures 2 and 3). 
+
+1. Bent Bar, 
+
+2. Compact type. 
+
+3. Double cantilever beam. 
+
+4. Controlled surface flaw. 
+
+5. Short-bar and short-rod chevron-notched. 
+
+The first four specimens have either blunt notches produced by 
+sawcutting or cracks produced by wedge loading. Specimens with 
+blunt notches can overestimate K . Precracked specimens are 
+difficult to prepare in a reproducible manner, and it is 
+relatively difficult to monitor the crack length and the crack 
+growth rate. 
+
+To overcome these difficulties Barker [2] has proposed a 
+
+
+
+o 
+
+
+(1) Bend Bar Specimen 
+
+Pt 
+
+
+
+(2) Compact Type Specimen 
+
+p 
+
+
+
+p 
+
+(3) Double Cantilever Beam Specimen 
+Flaw 
+
+
+
+(4) Controlled Surface Flaw Specimen 
+
+
+Figure 2. Different specimens for fracture toughness testing 
+
+
+
+
+7 
+
+
+specimen with a chevron-notch, as shown In Figure 3, in which a 
+crack always originates at the tip of the triangular notch during 
+loading. The crack growth has been found to be stable since it 
+requires an increasing load for continued crack advance until 
+the crack length reaches a critical value a^ where the load goes 
+through a smooth maximum. The fracture toughness is 
+
+determined from the peak load P„.„ and the specimen geometry. The 
+measurement of the crack length is not necessary. 
+
+Taking into consideration the advantages of the chevron-notch 
+
+specimen, the American Society for Testing and Materials Committe 
+
+E24 has been considering this type of specimen for standarization 
+
+to determine the plane strain fracture toughness of brittle non- 
+
+metallic materials. For the universal application of the 
+
+short-bar and short-rod specimens the relation between K_ , 
+
+I MAX 
+
+and Y must be known. This requires a three-dimensional analysis 
+and/or an experimental compliance calibration of this relatively 
+complex geometry. 
+
+Extensive experimental compliance calibrations of the 
+short-bar and short-rod specimens had been carried out by Barker 
+[3] [4], Barker and Guest (5], Munz et.al. [6], Budsey et.al. [71 
+and Shannon et. al. [8]. To back the experimental results a 
+rigorous stress analysis is needed to determine the stress and 
+displacement distributions in the vicinity of the crack-tip of 
+the chevron-notch specimens. 
+
+
+Some numerical calibration of short-bar and short-rod 
+
+
+
+8 
+
+
+specimens had been performed and presented at the ASTM Symposium 
+on Chevron-Notched Specimens: Testing and Stress-Analysis, on 
+April 21, 1983, in Louisville, Kentucky. Raju and Newman [9] 
+presented their calibrations of the short-bar and short-rod 
+specimens calculated by a three-dimensional finite element 
+analysis. Mendelson and Ghosn [10], as part of the investigation 
+described herein, presented one calibration of a short-bar 
+specimen with width-to-thickness ratio equal to 2.0, using the 
+boundary integral methods. Ingraffea et.al. [11] presented 
+results using both numerical methods on the short-rod with width 
+to thickness ratio equal to 1.45. 
+
+The purpose of this work is to present numerical calibrations 
+of the chevron- notched short-bar and short-rod specimens using 
+the boundary integrals equation method. The crack opening 
+displacement and stress- intensity factor calculated from the 
+displacement distribution along the crack front and the 
+compliance method will be presented. The dimensions used for the 
+specimens were the ones suggested by ASTM E24.01.05 Task Group 
+with two width- to-specimen thicknesses of 1.45 and 2.0, and 
+different crack-length- to-width ratios ranging from 0.4 to 0.7. 
+
+A complete analysis of the chevron-notched specimens is given 
+in Chapter II of this report. The derivation of the stability 
+analysis for this notched geometry is also given with a review of 
+the different methods to determine the stress intensity factor. 
+
+Chapter III is concerned with the boundary integral equations 
+
+
+
+9 
+
+
+method and its mathematical derivations. Chapter IV deals with 
+the numerical procedures for this method. In that Chapter 
+several mesh sizes were used to determine the effect of mesh 
+sizes on the stress intensity factor. To check the equations and 
+computer program, the single-edge-cracked tension specimen is 
+analyzed, since the results for the SECT were available by other 
+methods. 
+
+Finally in Chapter V the stress Intensity factors for the 
+chevron- notched short-bar and short-rod are presented. The 
+results from the compliance calibration method ( see Chapter II 
+Section 2. A) and from displacements near the crack tip are 
+compared. And finally the calibration constant Y* for different 
+specimen geometries at the critical crack length is determined. 
+
+
+
+CHAPTER II 
+
+
+Chevron-notched specimen 
+
+2*1 Introduction 
+
+For extremely brittle materials, such as ceramics, 
+experimental results to determine the fracture toughness using a 
+conventional straight thru crack are very difficult to obtain. A 
+ceramic specimen containing a blunt notch usually overestimates 
+the fracture toughness. Attempts to Introduce a sharp crack by 
+fatigue or local thermal— shock in a reproducible manner are very 
+difficult. Furthermore, the initial crack front often cannot be 
+seen on the fracture surface after testing, making it impossible 
+to measure the initial crack length required to measure the 
+fracture toughness. 
+
+An alternative to the conventional straight thru notch is the 
+chevron or V notch, first used by Tattersall and Tappin [12] in 
+their bending tests. Two Inclined cuts are put into the specimen 
+such that the remaining ligament is an isosceles triangle. When 
+a small load is applied, a stress concentration of sufficient 
+magnitude exists at the apex of the triangle to Initiate a sharp 
+stable crack. Barker [2] applied this notch geometry to double 
+cantilever type specimens called short-bar and short-rod (see 
+
+
+10 
+
+
+
+11 
+
+
+Figure 3). He found that this configuration exhibits an initial 
+crack growth stability up to a critical crack length a^, 
+independent of material properties. At this point the load 
+versus opening displacement curve goes thru a smooth maximum, and 
+then the crack growth will become unstable (see Figure 4). Such 
+a specimen configuration, once calibrated, can be used for 
+fracture toughness tests, in which the only measured parameter is 
+the peak force, A theoretical review of the stability and 
+calibartion procedure for the chevron-notch specimens is 
+discussed in the next sections. 
+
+
+2.2 Stability Analysis 
+
+The strain energy release rate, G^, is defined as the 
+mechanical energy released during an incremental crack area 
+extension 
+
+
+G 
+
+
+I 
+
+
+d(W^-U) 
+
+dS 
+
+
+( 2 . 1 ) 
+
+
+W is the work done by external forces and U is the elastic 
+
+Ij 
+
+strain energy. For elastic materials Is equal to (Figure 4) 
+
+2 
+
+r - _L ^ (2.2) 
+
+‘"I ■ 2 b da 
+
+where d = Derivative 
+
+
+p “ total load 
+
+
+
+12 
+
+
+Figure 4. 
+
+
+Figure 4 , 
+
+
+Figure 4. 
+
+
+
+I 
+
+
+a.) Side-view of the Chevron-notched specimen 
+
+
+
+b) Section-view of the plane of the chevron notch 
+
+
+
+c) Load versus Opening displacement of the 
+chevron-notched specimens 
+
+
+
+13 
+
+
+b = crack width ( b-B for straight thru crack) 
+
+a -ag 
+
+( b=>B for chevron-notch) 
+
+ai-ao 
+
+B « thickness of specimen 
+
+V 
+
+C = compliance =■ -p 
+
+V = opening displacement under load P=ACMOD 
+From linear elastic fracture mechanics, where a plane strain 
+condition exists in the vicinity of the crack tip, the crack will 
+
+
+not advance if 
+
+, (2.3) 
+
+=1 < “ic 
+
+where G^_ is the plane strain critical energy release rate. If 
+the inequality is satisfied the crack is said to be stable. 
+Substituting the value of from eq (2.2), (2.3) becomes 
+
+
+
+
+(2.4) 
+
+
+Inequality (2.4) is the well known condition for crack position 
+stability. 
+
+If we increase P until the left hand side of (2*4) equals the 
+right hand side, the crack will begin to advance. As the crack 
+advances, the inequality (2.4) might be restored since both sides 
+of the above equation might increase. For a straight thru crack 
+b is equal to the specimen width (B) and is constant. Since 
+
+is assumed to be a material constant, the right hand side of 
+(2.4) cannot increase. However for the chevron-notch, b is not 
+constant and it will increase as the crack length increases. If 
+b increases faster than the left hand side, then the crack growth 
+
+
+
+14 
+
+
+will stop. The original inequality will be restored. The 
+condition for stable crack growth of the .chevron-notch is then 
+
+
+2 
+
+
+d rp del 
+
+d L r 1 
+
+da [7- dFj 
+
+^ da P-^lcJ 
+
+constant P 
+
+
+2 2 
+
+
+P d C 
+
+P db 
+
+2 da2 ' 
+
+^Ic da 
+
+
+(2. 5. a) 
+
+
+(2.5.b) 
+
+
+when the cracks start to grow; from eq. (2.4) 
+
+2 2 b G- 
+
+p = Ic 
+
+dC 
+
+dJ 
+
+AT j db B b 
+
+Also, noting that: ^ " — ^ (See Figure 4.b), then 
+
+equation (2.5) becomes : 
+
+
+2 5lc 1 d^C „ b 
+^ 2 a -a„ 
+
+
+(2. 6. a) 
+
+
+2 ^ 
+
+d C da (2.6.b) 
+
+da^ " -"O 
+
+Experiments have shown that the crack will grow in a stable 
+
+fashion until a critical value a = a is reached. At a = a the 
+
+c c 
+
+crack growth will become unstable , l.e. the crack will then 
+
+propagate until the specimen fractures. Since Inequality (2.6) 
+
+is satisfied for a < a^ and not satisfied for a > a^ , then at a 
+
+= a we must have 
+c 
+
+
+15 
+
+
+2 
+
+d CE 
+
+
+a=a 
+
+
+_J ^ 
+
+" c '"0 
+
+
+(2.7) 
+
+
+a=a 
+
+
+where both sides were multiplied by the modulus of elasticity, E. 
+
+
+2,3 Determination of Stress Intensity Factor 
+
+Consider an experiment in which the load P is slowly 
+increased. The crack length will increase from a = a^ , at the 
+tip of the triangular ligament. When the crack length reaches a^ 
+
+the load will have reached a critical value P ( See Figure 4.c). 
+
+c 
+
+From equation 2.4 , we have : 
+
+2 
+
+
+1 p" ^ 
+
+2 c da 
+
+
+a=a. 
+
+
+
+
+Multiplying by EB' 
+
+
+1 B E dC 
+
+2 b da 
+
+c 
+
+
+Sc 
+
+
+( 2 . 8 ) 
+
+
+a=a 
+
+
+2 
+
+Defining A to be equal to the left hand side of equation 2.8 
+then 
+
+
+"Ic 
+
+
+Eb3 
+
+
+(2.9) 
+
+
+The critical stress intensity factor can then be determined 
+from ref [1] 
+
+
+Sc E = 
+
+
+
+16 
+
+
+So equation 2.9 can be written as 
+
+Pc- A 
+
+''ic ' T75 (2.10) 
+
+B (1 - /) 
+
+Barker has shown that A will always be the same Independent of 
+material properties, and the absolute size of the specimen. A is 
+shown to be a function of the compliance at the critical crack 
+length a^. For the sample configuration that Barker had 
+considered, is to a good approximation independent of material 
+properties. Therefore, A is also assumed to be independent of 
+material properties. 
+
+Once A is calibrated, to determine K , a short— bar or a 
+short-rod fracture test is performed where the only parameter 
+measured is the maximum load P required for failure. To 
+determine the calibration constant A, Barker ran fracture tests 
+with a chevron-notch on materials with well known K . Then he 
+
+xc 
+
+simply determined A by the known value of K , u and the 
+
+X C 
+
+experimentally measured value of P • 
+
+c 
+
+For universal application of the short“'bar and short-rod 
+specimens, the stress intensity factor should be analyzed using 
+more standardized methods. 
+
+In this work, is determined using compliance calcultaions 
+and the displacement fields along the crack front. 
+
+
+
+17 
+
+
+2.4 Compliance Calibration 
+
+The compliance calibration test is basically a method to 
+
+determine the rate of change of the compliance as the crack 
+
+dC 
+
+length increases. If — is known then from equation (2.2), the 
+
+da 
+
+strain energy release rate can be calculated. What is usually 
+
+done is to run tests for different crack lengths a, and the load 
+
+versus displacement is recorded for every crack length. This 
+
+procedure can be done analytically using the boundary integral 
+
+equations method. For every crack length position, the opening 
+
+displacement is calculated for a given load. Since ceramic 
+
+materials are brittle, the linear elastic assumption is valid; 
+
+V 
+
+l.e. the compliance is given by C = • 
+
+P 
+
+The compliance C is plotted as function of crack length, and 
+then fitted by a polynomial. Finally and are determined by 
+differentiating the polynomial. 
+
+
+2 
+
+From equation (2.2) Gj = 
+
+Substituting the value of b for a chevron-notch specimen, and 
+defining a new dimensionless variable = a^/W then eq. (2.2) 
+will have the form 
+
+
+“r“o 
+
+
+a -a. 
+
+
+2 
+
+P - 1 P 
+
+
+dC 
+
+
+( 2 . 11 ) 
+
+
+
+18 
+
+
+and 
+
+
+'I 
+
+
+M 
+
+
+1 “T“0 d CE' 
+
+
+il/2 
+
+
+2 a -oq d a 
+
+
+( 2 . 12 ) 
+
+
+where E’ = E for plane stress condition 
+E 
+
+E' n- for plane strain condition 
+
+T-u 
+
+Introducing a dimensionless compliance 
+
+
+C* = CE'B = 
+
+
+Then (2.12) becomes 
+
+
+= 
+
+
+“r“o 
+
+
+B-y/W" [2 a -Of 
+
+
+Munz et.al. [6] defined 
+
+
+Y* = 
+
+
+“r“o . dC 
+
+
+a -Qg da 
+
+
+
+
+p * 
+^ Y 
+
+
+B 
+
+
+da 
+
+
+1 1/2 
+
+
+1/2 
+
+
+Then equation (2.13) becomes 
+
+
+(2.13) 
+
+
+(2.14) 
+
+
+At the critical crack length a^ , comparing eq. (2.14) and 
+eq.(2.10) , one gets: 
+
+
+
+Thus If Barker had normalized his calibration constant 
+
+23 * I 
+
+B W Instead of B , the two georatrlc factors A and Y 
+
+
+A using 
+would be 
+
+
+a=a 
+
+
+c 
+
+
+the same 
+
+
+
+19 
+
+
+2*5 Stress and displacement fields 
+
+Since the stress and displacement solutions are provided by 
+the boundary integral equations method, the stress intensity 
+factor can be determined from its basic definition. 
+
+
+lim Oy = Kj (2.15) 
+
+r ->• 0 
+0 = 0 
+
+
+The stresses, In a region not far from the crack tip, are 
+multiplied by the square root of the distance x from the crack 
+front, then plotted versus x. A curve is then fitted thru those 
+points, where its value at x equal zero is proportional to K^. 
+
+Alternatively, the displacements could be used, by noting 
+
+that 
+
+
+r ^ 0 
+0 = 7T 
+
+
+Now the displacement divided by is plotted versus x, and the 
+intersection of this curve at x = 0 is proprtional to K^. Using 
+
+
+
+20 
+
+
+the displacements, an unknown parameter a is introduced. For 
+plane strain condition a is assumed to be equal to 4 (1-U^), and 
+for plane stress a is equal to 4. 
+
+Determining the stress intensity factor, using this method, 
+gives the variation of along the crack front, while the 
+compliance method just gives an average stress intensity factor. 
+By using both approaches a better understanding of the variation 
+of Kj with the crack length can be determined, for the 
+chevron-notched specimens. 
+
+
+
+Chapter III 
+
+
+Three-Dimensional Boundary Integral Equation Method 
+
+3 ^^^ Introduction 
+
+Three dimensional elasticity does not enjoy the wealth of 
+solutions that are available in two-dimensional elasticity. 
+Solutions, for example, have been obtained for infinite and 
+semi- infinite regions using the stress functions techniques, 
+which satisfy the desired boundary conditions near the origin and 
+have the properties that the stress and/or displacement vanish or 
+remain bounded as the boundary at infinity is approached. 
+
+For finite three-dimensional problems analytical solutions 
+have been used for simple geometries and loading conditions. 
+However, for most engineering problems purely numerical methods 
+such as finite difference and finite element are necessary. In 
+these methods the whole continuum is discretized making the 
+solution sensitive to the geometry of dlscritization. 
+
+Another method of analysis recently rediscovered by Rizzo in 
+1967 [20], the boundary Integral equations method, offers an 
+attractive alternative. The boundary integral method involves 
+the transformation of the partial differential equations 
+describing the behavior of the unknowns inside and on the 
+
+
+21 
+
+
+
+22 
+
+
+boundary of the domain to integral equations over the boundary, 
+i.e. the integrals are functions of the boundary data only. 
+Values at interior points if required can be calculated 
+afterwards from the surface data. The system of equations 
+resulting from discretization of the boundary Integral equations 
+may be smaller by an order of magnitude than that obtained by, 
+for example, the finite element or finite difference methods. 
+One drawback is that the resulting matrices are non-symmetric and 
+fully-populated, whereas in finite element methods the matrices 
+are symmetric and most of the time banded. 
+
+
+3.2. Mathematical Derivation 
+
+The most direct derivation of the boundary integral equations 
+is based on a singular solution of the Navier equations. The 
+Navier equations of equilibrium (in terms of displacements) for 
+three-dimensional problems in elasticity ( for brittle materials) 
+
+
+are : 
+
+
+2 1 
+V U. + - 
+
+
+0 . = 0 
+
+l-2u 
+
+
+(3.1. a) 
+
+
+e = u. . 
+
+
+i.j = 1,2,3 
+
+
+where Uj are the displacements, \J is Poisson's ratio and the 
+usual tensor notation is used, where a repeated subscript 
+indicates summation over its range and a comma indicates partial 
+differentiation* The Navier equations can be written in another 
+
+
+form as 
+
+
+
+23 
+
+
+u . . . + 
+1 ,JJ 
+
+
+l-2u 
+
+
+“k.ki = “ 
+
+
+(3.1.b) 
+
+
+A solution to these equations can be obtained by making use 
+of Kelvin's singular solution due to a single unit concentrated 
+force acting in the interior of an infinite body [13] (see Figure 
+5). 
+
+
+
+Figure 5. Point load in an infinite region 
+
+
+The displacement field at any point Q at distance r from the 
+point where the force is applied is given by Ref. tl5] : 
+
+
+u 
+
+
+j 
+
+
+1 
+
+
+(3-4u 
+
+^ r r \ 
+
+Uo-u) 
+
+4(l-u) ’J ) 
+
+
+4nG LrJ 
+
+
+. e. (3. 2. a) 
+
+
+
+24 
+
+
+or 
+
+
+u . = U . . .e . 
+J iJ 1 
+
+
+(3.2.b) 
+
+
+and 
+
+
+u.. = 
+
+
+
+
+(4(l-u) IJ 4(l-u) ’J 
+
+
+4ttG LrJ 
+
+where r is the distance between a field point Q with coordinates 
+
+
+(x^) and the point of load P with coordinates (Xp) > 
+
+r=[(X.-X ) (X.-X )] 
+
+
+(3.3) 
+
+
+and e^ is the component of the unit base vector in the i 
+direction. 
+
+If we consider the field point Q to be on the boundary of a 
+body cut out of the infinite region, then by making use of the 
+solution for the displacement field u^ , the traction forces can 
+be determined on this boundary by 
+
+
+tj • Oj,. n, 
+
+
+(3.4) 
+
+
+where n is the outward normal at the surface of the body. 
+
+Expressing the stress tensor in terms of displacements 
+
+o.. = 6.. u + G [ U. . + U. . ] ( 3 . 5 ) 
+
+l-2u ni,ni 1 >J 
+
+
+where G is the shear modulus, differentiating equations (3.2) and 
+substituting in Equation (3.5), equation (3.4) becomes : 
+
+
+
+25 
+
+
+^ 8tt(1 
+
+
+^hif- 
+
+-u) L r^\ Idn 
+
+
+[ 6 • • + 
+
+(l-2u) 
+
+
+
+
+. e. 
+
+
+^ ■ Y.i 
+
+(3. 6. a) 
+
+
+or 
+
+
+
+(3.6.b) 
+
+
+where 
+
+
+.r J [dn L ^ 
+
+
+8Tt(l-u) 
+
+
+(l-2u) 
+
+
+r .r . 
+
+,1 ,J 
+
+
+- n .r . + n.r . 
+
+J » i 1 » J J 
+
+
+We now make use of Betti's reciprocal theorem [14] which 
+
+states: If an elastic body is subjected to two systems of surface 
+
+tractions t^ and t*^ , then the work that would be done by the 
+
+first system t in acting through the displacement u* of the 
+
+J 
+
+second system is equal to the work that would be done by the 
+
+second system t* acting through the displacement u of the 
+
+J ‘J 
+
+first system, i.e* 
+
+
+/ 'j “j ° I “j 
+
+
+(3.7) 
+
+J o 
+
+S S 
+
+where s is the boundary surface of the body, and ds is an element 
+of surface area. 
+
+Suppose we now choose the second system of traction and 
+displacement ( t*^ and u*^ ) to be the one produced by a single 
+unit concentrated load, and the system u^ , t^ to correspond to 
+
+
+
+26 
+
+
+the solution we ere seeking, then since we know the solution to 
+the unit concentrated load (Kelvin solution) , we can solve for 
+any of the unknown traction and displacement ( ^ 
+
+substituting equations (3.6) and (3.2) for t* and u* 
+
+respectively, and solving the Integral equation (3.7). Because 
+of the singular nature of and at r = 0, it is necessary 
+
+to employ a limiting process as shown in Appendix A, resulting in 
+the following equation, known as the boundary integral equations: 
+
+
+/ t U. . ds = /u . T. . ds - (5 . . u . 
+J y J IJ J 
+
+
+(3. 8. a) 
+
+
+or in another form 
+
+
+= / U. . t. ds - /*T. . u . 
+
+J y ij j y J 
+
+
+(3.8.b) 
+
+
+where for Interior points and 
+
+
+-for boundary 
+
+
+points with smooth tangents. Equations (3.8) are also known as 
+Somigliana's Identity. For very simple geometries and boundary 
+conditions Somigliana's identity is satisfactory for obtaining 
+analytical solutions, but for complex bodies a numerical solution 
+is necessary and is discussed in the next chapter. 
+
+Once the unknown traction and displacement are determined on 
+the boundary, internal displacements and stresses can be 
+calculated as functions of the boundary displacements and 
+tractions. For internal displacement, equations (3.8) is used 
+^ij ” ®ij fo'’ internal stresses equations (3.8) is 
+
+
+27 
+
+
+differentiated and substituted in equation (3.5), to get (151 : 
+"/{''ijk ■ '^ijk “k} (3.9) 
+
+
+where 
+
+
+''ijk — r~rr {('-2''><*ik^j * ‘jkM>* ^ 
+
+8ir(l-o)r ' 
+
+- «l/.k C-2“) } 
+
+
+^ijk' 
+
+
+
+
+8r(l-u)r'^ ' dn 
+
+-5r .r .r J + 6ur .r .n.+ 6ur .r .n 
+
+,1 ,j ,k-* ,k ,1 j ,J .K 1 
+
++ 6 (l- 2 o)r^.jr jn|^-2(l-4u)6^jn|^+26.jl^nj 
+
+
+
+
+"i} 
+
+
+Thus, the displacements and stresses at any interior point can be 
+obtained by integrating numerically over the boundary equations 
+(3.8) and (3.9) respectively with ^ ij * absence of ' 
+
+
+body forces. 
+
+
+
+CHAPTER IV 
+
+
+NUMERICAL PROCEDURE 
+
+Reduction of the Integral Equation to a set of 
+Simultaneous Equations 
+
+
+The first step in solving the boundary integral equations is 
+to reduce them to a set of linear simultaneous equations. The 
+boundary of a body to be analyzed is divided into N surface 
+segments. Those segments can be rectangles or triangles as seen 
+in Figure 6. Eq. 3.8 can then be rewritten as: 
+
+N 
+
+/“« ■ S / "ij “j “ ^ 
+
+S 
+
+
+As an approximation the traction, t and displacement, u are 
+
+J J 
+
+assumed constant over each surface segment, and concentrated at 
+
+the centerpoint of that segment* Equation (4.1) can be written 
+as : 
+
+
+
+28 
+
+
+29 
+
+
+The expression (4*2) represents a set of 3N equations which can 
+be written in matrix form as: 
+
+
+
+where j-1,3 i,n«l,N 
+or in general form 
+
+
+[ A ] |u| = [ B ] (4.3.b) 
+
+
+For the case of a traction problem where the t*s are known, or 
+the case of a displacement problem where the u’s are known, 
+equation (4.3) reduces to the form 
+
+I A ] |X} = |C} (4.4) 
+
+Equations (4.4) represents a set of 3N linear algebraic equations 
+which are to be solved by Gauss Elimination method. In case of 
+mixed boundary value problem, where some values of both t and u 
+are specified, it is necessary to interchange the columns of 
+matrices A and B (in Eq. 4.3), that all the unknown quantities 
+are contained in the column vector u and the known values are 
+contained in t, before reducing the equation to the form of Eq. 
+
+
+(4.4). 
+
+
+
+30 
+
+
+
+Constant Triangular 
+Element 
+
+
+0 
+
+
+Constant Rectangle 
+Element 
+
+
+
+Figure g . Typical surface mesh for 
+
+
+constant segment 
+
+
+
+31 
+
+
+The assumption of constant values of t and u is a good 
+approximation for simple problems. However when a stress 
+gradient exists, this method needs a very large number of surface 
+segments to converge. 
+
+As an improvment, the traction and displacement are assumed 
+to vary linearly over each surface segment. Values of tractions 
+and displacements are assigned to nodes located at the corners of 
+the triangular or rectangular segments rather than at their 
+centerpoints (See Figure 7). A review of the linear variation 
+used , and the integration methods implemented in the computer 
+program written are shown in appendix B. 
+
+By placing the nodes at the corners of the segments two 
+difficulties become apparent: 
+
+1 ) The possibility exists for nodes to be placed at 
+sharp edges of the body rather than at flat surfaces. While 
+
+( in Eq. A.l ) is equal to 1/2 for flat surfaces ( see chap. 
+
+3 for explanation of 6^ and terms ), for nodes at edges 
+
+must be computed, using a limiting process derived as explained 
+in Ref. [18]. 
+
+N 
+
+C„(P.Q) ' -T. J TjjCP.Q) for P |1 Q (4.5) 
+
+In the computer program, all terms are computed using 
+
+Eq.(A.5) . The value for on flat surfaces was computed and 
+
+
+
+32 
+
+
+
+Element 
+
+
+Element 
+
+
+Figure 7. Linear segments 
+
+
+
+Figure 8 . Intersection of two segments that lie in different planes 
+
+
+
+
+
+33 
+
+
+it was found to be excactly equal to 1/2 6^j as predicted by the 
+analytical formulation. 
+
+2) Placing nodes at corners of segments assures the 
+continuity of displacements and tractions. However, in modelling 
+real problems a step change in traction may exist. To assure 
+discontinuity of applied tractions, the input values of traction 
+are associated with the segment they act on instead of the nodes. 
+As an example, consider two adjacent segments which lie in two 
+different planes ( see Figure 8). Segment I is under uniform 
+tension t while segment 2 is traction free. If the traction is 
+associated with node A directly, an extra shearing traction 
+exists in segment 2 varying from zero at node C to t at node A. 
+By assigning the traction to a node of a specific segment, in 
+this example to node A of segment 1, the problem of adding extra 
+traction is avoided. Alternatively, one can place two distinct 
+nodes between segments 1 and 2, but this method is not 
+implemented here. 
+
+Another problem due to the discontinuity of traction occurs 
+at crack fronts. To solve this problem the crack front is left 
+free of surface segments (see Figure 9). This method causes 
+oscillation of the traction distribution ahead of the crack 
+front: This oscillation is demonstrated in the next section. To 
+avoid these oscillations, two special segments are used near 
+crack fronts. In the first case, the surface segment adjacent to 
+
+
+
+34 
+
+
+ffy=0.0 V=0.0 
+
+
+
+
+Figure 9. Segment free crack front 
+
+
+
+
+
+
+
+1 3 5 
+
+
+
+
+►. ^ ^ 
+
+1 I 
+
+
+Crack 
+
+Front 
+
+
+1 1 
+
+1 t 
+
+^ i u 
+
+
+
+2 4 6 
+
+X 
+
+
+Figure 10. Parabolic segment for discontinuity regions 
+near crack fronts 
+
+
+
+
+35 
+
+
+the discontinuity is assumed free of nodes* The traction and 
+displacement in this surface segment is assumed to be a parabolic 
+(the next highest order of magnitude after linear variation) 
+function of the tractions and displacements of the six nodes 
+behind it (see Figure 10). The variation of the traction, and 
+displacement over the node free segment has the form* 
+
+t = SI + S2 + S3 + S4 + S5 + S6 
+
+u - SI + S2 + S3 + S4 + S5 + S6 
+
+(x - x3) (x - x5) (y - y2) 
+
+SI ; S2= 
+
+(xl- x3) (xl- x5) (yl- y2) 
+
+Where x,y are the tn-plane coordinates of the nodes. When x = xl 
+and y « yl , SI =■ 1 and all the other S*n are equal to zero* 
+This variation is based on Lagrange's interpolation formula* 
+
+When the number of nodes around the discontinuity is smaller 
+than six, a simplified constant segment is used. This simplified 
+constant segment is the same as a regular constant triangular 
+segment, except that the node is positioned at one of the corners 
+rather than at its centerpoint (see Figure 11)* 
+
+Discontinuity 
+
+Nodal Position 
+
+
+
+Figure 11. Special constant segment 
+
+
+
+36 
+
+
+While the linear variation is more complex than the constant 
+model, little extra effort is required to assemble the matrix in 
+the form of equation (4.4). The resulting system was then solved 
+by the Gauss Elimination Method on the CRAY-1 system at NASA Lewis 
+Research Center. 
+
+To check the computer program, the Single-Edge-Cracked-Tension 
+specimen (SECT), shown in Figure 12, is analyzed, and the results 
+of the stress intensity factors are compared with two other methods 
+(the method of line and finite element) as shown in the next 
+section. 
+
+4.2 Results For The Single-Edge-Cracked-Tension Specimen 
+
+The computer program of the Boundary Integral Equations (BIE), 
+is first applied to a single-edge-cracked specimen in tensile 
+loading. The SECT specimen has dimensions, W = 2.0, B = 3.0, 
+H = 1.75, a = 1.0, and Poisson's ratio equal to 0.333, where a, B, 
+W, and 2H, are the specimen's crack lengthy thickness, width, and 
+height, respectively (see Figure 12). The same SECT specimen has 
+also been analyzed by the Finite Element Methods (FEM) in 
+Ref. [16], and by the Method of Lines (MOL) in Ref. [17]. The 
+effect of the discontinuity segments is also studied below. 
+
+
+37 
+
+
+Two computer runs of Identical number of nodes (304), are 
+used in this study. The difference between the two meshes Is 
+that mesh A contains discontinuity segments while B uses segment 
+free crack front. A plot of the normalized stress distribution 
+at the center of the specimen is shown for both meshes (Figure 
+13). Also shown is the Finite Element stress distribution. From 
+the results, two observations can be made: 1) The stress 
+distribution for mesh B oscillates sharply near the crak tip, 2) 
+the stress distribution for mesh A agrees with the FEM results. 
+The effect of the discontinuity segments is not apparent in the 
+plot of the displacement distribution (Figure 14), and the 
+results of the displacement seem in good agreement with FEM. The 
+difference between the displacements of meshes A and B is 
+accentuated in determining the stress intensity factor from Eq. 
+(2.16). 
+
+In Figure 15, a plot of the displacements at the center of 
+the SECT specimen Divided by the square root of the distance r 
+from the crack front, is shown for both meshes. The solution of 
+mesh B (with segment free crack front ) diverges as r goes to 
+zero. The solution for mesh A (with special segments at the 
+crack front ) is almost a linear function of r. This behavior of 
+mesh A at the center of the specimen is true throughout the 
+thickness as seen in Figure 16. The stress intensity factor 
+(SIF) is then determined through the thickness of mesh A as 
+described in section 2.5 using the displacements. A plane strain 
+
+
+
+38 
+
+
+condition is assumed throughout the thickness of the specimen, 
+
+except at the surface where a plane stress is assumed. 
+
+Correspondingly a in Eq. (2.16) is equal to 3.556 for plane 
+
+strain and 4.0 for plane stress. Figure 17 shows the variation 
+
+through the thickness of the dimensionless stress intensity 
+
+factor ( k ), obtained by the BIE method with discontinuity 
+
+a 
+
+segments as well as the FEM and the MOL. There is a -2.5 percent 
+difference between BIE and FEM at the center and +4.0 % at the 
+outer surface of the specimen. The difference between BIE and 
+MOL is only -1.4 % as shown in Table 1. 
+
+Table 1 — Normalized stress Intensity factor for Sect 
+
+specimen, W = a = 1.0, B = 3.0 ,H = 1.75, U = 0.333. 
+
+
+z 
+
+B 
+
+BIE 
+
+FEM [16] 
+
+MOL [17] 
+
+0.000 
+
+2.72 
+
+2.79 
+
+2.76 
+
+0.266 
+
+2.70 
+
+2.76 
+
+2.78 
+
+0.483 
+
+2.47 
+
+2.43 
+
+2.47 
+
+
+0.500 
+
+
+2.24 
+
+
+2.15 
+
+
+2.38 
+
+
+
+39 
+
+
+
+Figure 12. Single-Edge-Cracked-tension specimen 
+
+
+
+
+
+41 
+
+
+
+X 
+
+a 
+
+
+Figure 14. Displacement distribution at the centerline of the SECT 
+
+specimen 
+
+
+
+
+6.5 
+
+
+Z 
+
+B 
+
+0.000 
+
+
+a 0.333 
+
+
+0.0 0.05 0.10 0.15 0.20 
+
+
+Figure 16 . Variation of V/,^yT~along the crack front for SECT 
+
+
+
+
+
+45 
+
+
+The SIF decreases approximately by 18 % in going from the 
+center to the surface of the specimen for BIE, compared with only 
+15 % for MOL and 23 % for FEM. The difference of less than 5 Z 
+for the three methods can be considered a good agreement, for a 
+three dimensional fracture mechanics problem, 
+
+4.3 Discretization of the Chevron-Notched Specimens. 
+
+Having verified the accuracy of the equations and the 
+computer program on the SECT specimen, a convergence study on the 
+Chevron-Notched short-bar specimen is performed in this section. 
+The basic dimensions of the specimen are: 
+
+B » 1.0, W - a^ - 2.0, a^ - 0.4, 2H » 1.0, 13 = 0.333, 
+
+W + X* =2.10 
+
+where x' is the distance between the loading line and the end of 
+the specimen as seen in Figure 18. X* is equal to O.IB. In 
+
+terms of the dimensionless quantities = a^/W , the values of 
+and O' are 0.2 and 1.0 respectively. A square grip groove is 
+also modelled having the dimensions recommanded by ASTM E24.01.05 
+task group. The total height of the groove is 0.35B and its 
+depth is 0.15B. The only discrepancy with the recommendation is 
+the absence of the finite width slot cut into the actual 
+specimens to form the chevron-notch. 
+
+The usual loading of the chevron- notched specimens is with a 
+knife edged fixture [6]. The type of loading applied in this 
+analytical work is a uniform traction in the Z-directlon and a 
+
+
+
+46 
+
+
+triangular variation in the X-direction, as shown in Figure 19. 
+
+The modulus of elasticity (E) used is equal to 1.0. This 
+normalization of E is needed so that the coefficient of tractions 
+and displacements will be of the same order of magnitude. This 
+is of importance for mixed boundary value problems where the 
+coefficient of matrices A and B (in Eq. 4.3) are interchanged to 
+form a set of linear algebraic equations with all the unknowns on 
+one side and the knowns on the other. If the coefficients of 
+matrix A in Eq. (4.4) are not of the same order of magnitude, 
+large truncation errors are induced in using Gauss Elimination 
+method. 
+
+For the convergence study three meshes having different 
+number of nodes are used. Mesh 1 shown in Figure 20 has 61 nodes 
+and 72 boundary segments. Mesh 2 is basically formed by dividing 
+every surface segment in mesh 1 into approximately four. Mesh 2 
+has 221 nodes and 237 boundary segments, and is shown in Figure 
+21. Finally, mesh 3 has 370 nodes and 420 boundary segments. 
+Mesh 3 is shown in Figure 22. All meshes have discontinuity 
+segments at the crack front, and linear segments everywhere else. 
+Mesh 1 has one segment along the crack front, while mesh 2 has 
+two segments and finally, mesh 3 has four. 
+
+Calculations were performed for nine different values of 
+crack front positions ranging from a= 0.35 to 0.75, on the three 
+meshes dlscrlbed above. Figure 23 shows the dimensionless 
+opening displacement EVB/P (see chapter 2) for the three meshes 
+
+
+(At Y - 0.175, Z ■ 0, X “ -a/W ) as function of “ . For® less 
+than 0.5, values of EVB/P are converging from below while for® 
+greater than 0.5 the convergence is from above. Figure 24 
+represents the variation of the normalized displacement for ® “ 
+0.4 as function of the number of nodes. Also shown is the 
+unpublished experimentally measured values obtained from J.L. 
+Shannon, NASA Lewis Research Center. This curve shows that an 
+assymptotic value is not yet reached. Even if this analytical 
+curve is extrapolated it cannot reach the experimental value; 
+This is partly due to the difference in the finite slot size, 
+making the analytical model stiffer than the experimental. 
+Proving this using a mesh with node numbers larger than 370 Is 
+practically impossible without making use of external storage. 
+Instead, a new mesh was generated using the number of nodes as 
+mesh 3 (370 nodes), but with different arrangement of the 
+boundary segments. As seen in Figure 25, the boundary segments 
+of mesh 4 are increased in the plane of the crack and decreased 
+everywhere else. This mesh is the same as in Ref. [10]. The 
+opening displacement of mesh 4 is shown to be 10% less than mesh 
+3. A complete plot of the normalized opening displacement for 
+different values of ® is shown in Figure 26 for meshes 3 and 4. 
+Also shown are the unpublished experimental results from J.L. 
+Shannon, NASA Lewis Research Center. Two observations can be made 
+1) mesh 4 is stiffer than mesh 3 and 2) mesh 3 is consistently 
+lower by 4% than the measured values. The crack mouth opening 
+
+
+
+48 
+
+
+Table 2 — Crack Mouth Opening Displacement for Different Meshes. 
+
+
+a/W 
+
+Mesh 1 
+
+iL 
+
+Mesh 2 
+221 
+
+Mesh 3 
+370 
+
+Mesh 4 
+370 
+
+0.35 
+
+79.51 
+
+84.28 
+
+89.92 
+
+— 
+
+0.40 
+
+102.60 
+
+107.20 
+
+110.04 
+
+98.96 
+
+0.45 
+
+131.75 
+
+134.90 
+
+136.21 
+
+122.80 
+
+0.50 
+
+167.44 
+
+168.34 
+
+164.31 
+
+150.30 
+
+0.55 
+
+210.20 
+
+208.37 
+
+200.30 
+
+182.90 
+
+0.60 
+
+261.25 
+
+256.81 
+
+236.96 
+
+218.90 
+
+0.65 
+
+323.22 
+
+316.83 
+
+285.89 
+
+— 
+
+0.70 
+
+404. 13 
+
+395.47 
+
+346.38 
+
+335.80 
+
+CPU TIME 
+
+IS.Osec 
+
+214.0sec 
+
+655*0sec 
+
+780,0sec 
+
+
+displacements for all meshes are summarized in Table 2 as 
+function of a/W, also shown is the running time in seconds (CPU) 
+required for each mesh on the CRAY-1 computer. 
+
+Figure 27 shows typical curves for the crack opening 
+distribution along the centerline of the short-bar specimen for 
+different mesh sizes for a » 0,5, 
+
+Using the results shown in Figure 26, the stress Intensity 
+factor Kj was computed from relation (2.13), a plane stress 
+condition is assumed. As a first approximation the slope of the 
+compliance curve was obtained by fitting every three points to a 
+second degree polynomial in terms of a , since it gives better 
+results for the derivative than the linear variation. 
+
+
+* 2 
+C « EVB « B1 + B2 a + B3 ^ 
+
+P 
+
+
+then, ^ at the mid point is 
+da 
+
+
+^ “ B2 + B3 a 
+da 
+
+The results are plotted in Figure 28 for the four meshes, 
+together with the unpublished experimental values from J.L. 
+Shannon, NASA Lewis Research Center. Every mesh shows a minimum, 
+but the position of the minimum point varies from one mesh to 
+another. From the results it seems that the stress intensity 
+factor is converging from above. Meshes 3 and 4 are in good 
+
+
+50 
+
+
+agreement only for large values of a, but for smaller values mesh 
+4 gives lower results than mesh 3. 
+
+A final check on convergence is applied to the variation of 
+the stress intensity factor along the crack front. The stress 
+intensity factor is determined from Eq. (2.16) assuming plane 
+
+strain conditions all through the crack front. A plot of the 
+displacement divided by /r is shown in Figure 29 for a - 0.5. As 
+Z approaches the intersection of the crack front with the 
+chevron-notch, V/ /r diverges. This divergence is due to the 
+
+inadequacy of modelling the intersection of the crack front with 
+the chevron-notch. So only the points greater than 0.1 are used 
+in the stress intensity factor calculations. Using this 
+
+assumption the normalized stress intensity factor, Y*, was 
+
+* 
+
+evaluated along the crack front. Y along the crack front is 
+
+shown in Figure 30 for meshes 1, 2 and 3, with a •• 0.5. A plot 
+* 
+
+of Y at the center of the specimen ( Z - 0 ) for a - 0.5 is 
+
+shown as a function of the number of nodes (Figure 31). It is 
+
+seen that in going from mesh 2 to mesh 3 a 40Z increase in nodes 
+caused only a 6Z decrease in the stress intensity factor. Figure 
+31 shows that an extrapolation of the curve would produce a 
+decrease of less than 2X of the Y . Therefore, it is decided, 
+given the limited memory space available on the computer, that 
+mesh 3 would be the model discretization for all the other 
+geometries including the short-rod specimens. 
+
+
+
+
+
+
+
+
+
+Ln 
+
+
+Figure 21. Mesh 2 with 221 nodes for a/W = 0.4 
+
+
+
+Figure 22. Mesh 3 with 370 nodes for a/W = 0.4 
+
+
+
+•o 
+
+
+
+
+
+
+
+
+
+
+
+U1 
+
+00 
+
+
+Figure 25. Mesh 4 with 370 nodes for a/W =0.5 
+
+
+
+
+45.0 
+
+
+O Shannon (unpublished results) 
+
+
+Mesh \ { f>\ Nodes) 
+Mesh 2 (221 Nodes) 
+
+Mesh 3 (370 Nodes) 
+
+
+
+
+W 
+
+Figure 28. Normalized stress intensity factor as function of a/w 
+(from compliance) 
+
+
+
+62 
+
+
+
+0.0 0.05 0.10 0.15 0.20 0.25 
+
+
+Figure 29. Variation of V/^r for the chevron notch bar specimen for 
+a/W = 0.5 ^ 
+
+
+
+63 
+
+
+
+b 
+
+Figure 30. Variation of the stress intensity factor along the crack 
+front for different mesh for a/W = 0.5 
+
+
+
+
+CHAPTER V 
+
+
+RESULTS AHD DISCUSSION (F THE SHORT-BAR 
+AND SHORT-ROD SPECIMENS 
+
+* 
+
+Normalized stress Intensity factors Y and load line 
+displacements for the Chevron-Notched short-rod and short-bar 
+specimens are presented In this chapter. Two width- to-speclmen 
+thicknesses, equal to 1.45 and 2.00, where applied to both the 
+short-rod and short-bar geometries. Therefore, four 
+
+configurations are analyzed in this work. Table 3 gives a summary 
+of the specimens dimensions used. 
+
+Table 3 — Summary of specimen dimensions. 
+
+
+specimen 
+
+W/B 
+
+a„/W 
+
+a^/W 
+
+H/B 
+
+X’/B 
+
+Short-bar 
+
+1.45 
+
+0.332 
+
+1.0 
+
+0.5 
+
+0.1 
+
+Short-bar 
+
+2.00 
+
+0.200 
+
+1.0 
+
+0.5 
+
+0.1 
+
+Short-rod 
+
+1.45 
+
+0.332 
+
+1.0 
+
+0.5 
+
+0.1 
+
+Short- rod 
+
+2.00 
+
+0.200 
+
+1.0 
+
+0.5 
+
+O.l 
+
+
+A uniform traction in the Z-dlrection, and triangularly 
+
+
+65 
+
+
+
+
+
+
+66 
+
+
+shaped in the X-dlrection was applied on all specimens (See 
+Figure 19 )» The load was applied in a square groove cut Into the 
+specimens, 0.35 B height and 0.15 B deep (See Figure 18). A 
+polsson's ratio of 0.333 was used. 
+
+Due to symmetry, only a quarter of the specimen was 
+discretized Into boundary segments. The number of segments and 
+their geometries are similar to Mesh 3 described earlier (370 
+nodes and 420 boundary segments as shown in Figure 22). The 
+boundary segments near the crack front have parabolic variation 
+and linear variation everywhere else. No singularity elements are 
+used in this study. For the short-rod specimens, the segments in 
+Y = 0.5 plane as well as the segments in Z =« 0.5 plane are 
+combined together to form the cylindrical shape of the rod. The 
+end view of the bar and rod configuration are shown in Figure 32. 
+The rest of the planes have boundary segments meshes identical 
+for both the short-bar and short-rod specimens. 
+
+Symmetric boundary conditions are applied in the Z =• 0 plane, 
+where the displacement in Z-direction is zero. For Y » 0 plane, 
+the plane of the crack, all the segments are free except those 
+that lie in the trapezoidal region where the displacement in the 
+Y-direction is fixed. In order to prevent rig id- body-mot ion, only 
+one node is fixed in the X-direction. For the short-bar specimen 
+node 1 is fixed but for the short-bar specimen node 5 is fixed 
+(Figure 32). 
+
+The stress intensity factor from compliance and displacement 
+
+
+
+
+
+
+
+68 
+
+
+Table 4— NORMALIZED CRACK OPENING DISPLCEMENT FOR CHEVRON NOTCHED 
+SPECIMENS AS FUNCTION OF a/W 
+
+
+a) 
+
+EVB/P 
+
+at center (Z ■ 
+
+0, Y - 0 
+
+.175, X 
+
+» -a/W) 
+
+
+
+Type 
+
+W/B 
+
+
+
+a/W 
+
+
+
+
+
+
+
+0.35 
+
+0.40 
+
+0.50 
+
+0.55 
+
+0.60 
+
+0.70 
+
+0.75 
+
+bar 
+
+1.45 
+
+60.73 
+
+67.72 
+
+92.68 
+
+110.26 
+
+129.37 
+
+197.37 
+
+261.28 
+
+bar 
+
+2.00 
+
+89.92 
+
+110.04 
+
+164.31 
+
+200.30 
+
+236.96 
+
+346.38 
+
+445.86 
+
+rod 
+
+1.45 
+
+82.29 
+
+94.92 
+
+129.27 
+
+153.93 
+
+186.91 
+
+274.99 
+
+348.52 
+
+rod 
+
+2.00 
+
+126.38 
+
+157.93 
+
+239.83 
+
+294.65 
+
+366.63 
+
+520.07 
+
+652.92 
+
+
+b) 
+
+EVB/P 
+
+at center (Z * 
+
+• 
+
+o 
+
+R 
+
+o 
+
+5, X » 
+
+-a/W) 
+
+
+
+Type 
+
+W/B 
+
+
+
+a/W 
+
+
+
+
+
+
+
+0.35 
+
+0.40 
+
+0.50 
+
+0.55 
+
+0.60 
+
+0.70 
+
+0.75 
+
+bar 
+
+1.45 
+
+57.91 
+
+64.83 
+
+89.98 
+
+107.64 
+
+126.68 
+
+194.69 
+
+238.59 
+
+bar 
+
+2.00 
+
+87.12 
+
+107.31 
+
+161.70 
+
+197.73 
+
+234.29 
+
+343.62 
+
+443.07 
+
+rod 
+
+1.45 
+
+79.17 
+
+91.75 
+
+126.20 
+
+150.97 
+
+183.87 
+
+271.95 
+
+345.44 
+
+rod 
+
+2.00 
+
+123.22 
+
+154.85 
+
+236.86 
+
+291.73 
+
+363.84 
+
+516.87 
+
+649.66 
+
+
+
+69 
+
+
+fields are determined for five different crack-length positions* 
+Since experimental results showed that a minimum stress intensity 
+factor occured between 0.5 and 0.6, the crack-length to specimen 
+width ratios ( a/W ) used are a/W ■ 0.40, 0.50, 0.55, 0.60 , 
+0.70. The mesh for a/W of 0.4 is given in Figure 22. The meshes 
+for different a/W values are essentially the same except for the 
+Y boundary condition in the plane of the crack, where one new 
+layer is freed for each step Increase in a/W, 
+
+5.1 STRESS INTENSITY FACTOR FROM COMPLIANCE 
+
+To determine the stress intensity factor from compliance, the 
+displacement under the load line was determined for different 
+crack-length positions using the BIE program. Table 4 gives the 
+normalized displacements, C* = EVB/P , at the midplane of the 
+specimens, at Y = 0.35 H and Y = H, assuming plane stress 
+condition. 
+
+The displacement computed at Y =■ H, is always less than that 
+at Y ■ 0.35 H. This variation has a maximum of 4.3Z at a/W •• 0.4 
+and a minimum of 1.4Z at a/W = 0,7. Also note that this variation 
+decreases with increasing W/B. 
+
+Since the analysis is performed under uniform loading 
+conditions, a variation in the normalized displacement with Z 
+along the loading line is computed. Table 5 shows some typical 
+variations in the displacement between the center and the surface 
+of the specimen. 
+
+
+
+70 
+
+
+
+
+Table 5—“Typical variation of the displacement at the center 
+
+of the specimen to Its outer surface along the loading line. 
+
+
+Type 
+
+W/B 
+
+
+a/W 
+
+
+
+
+0.40 
+
+0.55 
+
+0.70 
+
+Short-bar 
+
+1.45 
+
+-1.0% 
+
+-1.1% 
+
+-0.7% 
+
+Short-bar 
+
+2.00 
+
+-1.1% 
+
+-0.6% 
+
+-0.4% 
+
+Short- rod 
+
+1.45 
+
+7.3% 
+
+4.6% 
+
+3.3% 
+
+Short-rod 
+
+2.00 
+
+4.1% 
+
+2.3% 
+
+1.7% 
+
+
+Table 6 — Normalized average displacement along the loading line, 
+EVB/P at Y - 0.175, X - -a/W 
+
+
+Type 
+
+W/B 
+
+
+
+a/W 
+
+
+
+
+
+
+
+0.35 
+
+0.40 
+
+0.50 
+
+0.55 
+
+0.60 
+
+0.70 
+
+0.75 
+
+Bar 
+
+1.45 
+
+60.28 
+
+67.08 
+
+92.09 
+
+109.76 
+
+128.61 
+
+196.83 
+
+261.07 
+
+Bar 
+
+2.00 
+
+89.35 
+
+109.41 
+
+163.76 
+
+199.88 
+
+236.14 
+
+345.86 
+
+445.53 
+
+Rod 
+
+1.45 
+
+83.82 
+
+96.40 
+
+130.91 
+
+157.94 
+
+188.79 
+
+277.29 
+
+350.91 
+
+Rod 
+
+2.00 
+
+127.67 
+
+159.34 
+
+241.36 
+
+296.16 
+
+368.36 
+
+522.14 
+
+655.26 
+
+
+
+71 
+
+
+As given in table 5, the displacement Is not constant along the 
+loading line. The displacements increase going from the center to 
+the surface of the specimen for the short-rod and decrease for 
+the short-bar. The percent variation is higher for the rod 
+specimens. The variation decreases with increasing crack-length. 
+For the same configuration the variation is lower for longer W/B. 
+
+Taking into consideration this variation along the loading 
+line, an average displacement along the loading line was computed, 
+and presented in Table 6. This average displacement was used in 
+the determination of the stress intensity factor from compliance. 
+
+In determining the stress intensity factor, the average 
+normalized compliance, C* =■ EVB/P , is fitted in a polynomial. 
+Since plots of compliance showed the appearance of exponentials, 
+the polynomial used in the least square fit has the form: 
+
+* FVR 7 3 
+
+In C = In — ^ + d2 a + a + o 
+
+Table 7 — Coefficients of the least square fit of the compliance. 
+
+
+Type 
+
+W/B 
+
+<*1 
+
+<^2 
+
+
+
+Short-bar 
+
+1.45 
+
+2.8362 
+
+5.147 
+
+-6.641 
+
+6.153 
+
+Short-bar 
+
+2.00 
+
+1.6743 
+
+12.518 
+
+-16.313 
+
+9.965 
+
+Short-rod 
+
+1.45 
+
+3.6014 
+
+2.064 
+
+0.484 
+
+1.029 
+
+Short- rod 
+
+2.00 
+
+2.7978 
+
+7.447 
+
+- 5.554 
+
+2.884 
+
+
+
+
+72 
+
+
+The coefficients of the least square fits of the normalized 
+
+compliance are given in Table 7. Using these coefficients, the 
+
+compliance's derivative for use in eq, ( 2.13) is found to be 
+★ 
+
+= ( d 2 + 2 (J 3 a+ 3 o^).C* 
+
+Having the values of the compliance's derivative, the 
+normalized stress Intensity factor was computed and plotted in 
+Figure 33 as a function of a, assuming plane stress conditions. 
+The values of the minimum normalized stress intensity factor Y* 
+and its position are given in Table 8. 
+
+
+Table 8 — Critical stress intensity factor for the chevron 
+notched specimens. 
+
+
+Type 
+
+W/B 
+
+(a/W) 
+
+m 
+
+Y* 
+
+m 
+
+A 
+
+Short-bar 
+
+1.45 
+
+0.529 
+
+23.675 
+
+19.661 
+
+Short-bar 
+
+2.00 
+
+0.516 
+
+28.328 
+
+20.031 
+
+Short-rod 
+
+1.45 
+
+0.543 
+
+29.097 
+
+24.164 
+
+Short- rod 
+
+2.00 
+
+0.492 
+
+36.246 
+
+25.630 
+
+
+A comparison between these minimum values and those presented 
+at the ASTM S 3 n&poslum on Chevron— Notched Specimens: Testing and 
+Stress Analysis, with experimental results, is given in Table 9. 
+
+
+
+45.0 
+
+
+
+Figure 33. Stress intensity factor from compliance for the chevron 
+notched specimens as function of a/W 
+
+
+74 
+
+
+Table 9 — Comparison between the minmum stress intensity factor 
+assuming plane stress condition 
+
+
+Type 
+
+a/w 
+
+BIE 
+
+FEM 
+
+EXP. 
+
+OTHER BIE 
+
+
+
+
+Ref. [9] 
+
+Ref. [8] 
+
+
+Bar 
+
+1.45 
+
+23.67 
+
+24.43 
+
+24.85 
+
+
+Bar 
+
+2.00 
+
+28.33 
+
+29.13 
+
+29.91 
+
+27.81 ReftlO] 
+
+Rod 
+
+1.45 
+
+29.10 
+
+28.43 
+
+29.11 
+
+28.30 Ref [11] 
+
+Rod 
+
+2.00 
+
+36.25 
+
+35.40 
+
+36.36 
+
+
+
+As seen in table 9, Using BIE, the critical Y for the 
+short-bar specimens are 5 % below experimental results compared 
+with only 0.3% for the short- rod. On the other hand, the FEM 
+results Ref. [91 are consistently 2.5% below experimental results. 
+
+5.2 Stress Intensity Factor Along The Crack Front. 
+
+Normalized stress intensity factors Y are computed point 
+wise along the five crack fronts using the displacements obtained 
+from BIE solutions. Plane strain condition is assumed along the 
+entire crack front. The displacements divided by the square root 
+of r, where r Is the distance of the nodal point to the crack 
+front, are plotted (Figure 29). As seen earlier these plots 
+diverge as Z approaches the intersection of the crack front with 
+the chevron notch, Z “ b/2. This divergence is most severe for 
+
+
+
+75 
+
+
+Table 10-“Stres8 Intensity Factor, Y*, along the crack front 
+for the Short-Bar Specimens 
+a) W/B = 1.45 
+
+
+a/W 
+
+0.000 
+
+0.500 
+
+2Z/b 
+
+0.750 
+
+0.875 
+
+1.000 
+
+Av. Y* 
+
+0.40 
+
+30.97 
+
+31.03 
+
+31.13 
+
+31.20 
+
+31.29 
+
+31.07 
+
+0.50 
+
+28.69 
+
+28.94 
+
+29.22 
+
+29.41 
+
+29.65 
+
+29.03 
+
+0.55 
+
+29.02 
+
+29.30 
+
+29.59 
+
+29.78 
+
+30.02 
+
+29.39 
+
+0.60 
+
+29.79 
+
+30.22 
+
+30.69 
+
+31.01 
+
+31.43 
+
+30.38 
+
+0.70 
+
+36.73 
+
+37.15 
+
+37.49 
+
+37.75 
+
+38.05 
+
+37.24 
+
+
+b) W/B = 2.00 
+
+
+a/W 
+
+0.000 
+
+0.500 
+
+2Z/b 
+
+0.750 
+
+0.875 
+
+1.000 
+
+Av. Y* 
+
+0.40 
+
+29.79 
+
+30.35 
+
+30.94 
+
+31.32 
+
+31.79 
+
+30.53 
+
+0.50 
+
+29.28 
+
+29.76 
+
+30.22 
+
+30.53 
+
+30.93 
+
+29.90 
+
+0.55 
+
+29.88 
+
+30.29 
+
+30.62 
+
+30.84 
+
+31.01 
+
+30.36 
+
+0.60 
+
+30.10 
+
+30.54 
+
+30.85 
+
+31.15 
+
+31.57 
+
+30.63 
+
+0.70 
+
+34.29 
+
+34.78 
+
+34.94 
+
+35.23 
+
+35.79 
+
+34.81 
+
+
+76 
+
+
+Table 11 — Stress Intensity Factor, Y*, along the crack front 
+for Short-Rod Specimens, 
+a) W/B - 1.45 
+
+
+a/W 
+
+
+
+2Z/b 
+
+
+
+Av. Y* 
+
+
+0.000 
+
+0.500 
+
+0.750 
+
+0.875 
+
+1.000 
+
+
+0.40 
+
+37.39 
+
+37.47 
+
+37.59 
+
+37.65 
+
+37.76 
+
+37.51 
+
+0.50 
+
+33.35 
+
+33.56 
+
+33.75 
+
+33.89 
+
+34.05 
+
+33.62 
+
+0.55 
+
+33.29 
+
+33.44 
+
+33.52 
+
+33.58 
+
+33.67 
+
+33.45 
+
+0.60 
+
+34.95 
+
+35.15 
+
+35.23 
+
+35.32 
+
+35.49 
+
+35.16 
+
+0.70 
+
+40.96 
+
+40.72 
+
+40.09 
+
+39.73 
+
+39.35 
+
+40.45 
+
+
+b) W/B = 2.00 
+
+a/W 
+
+
+
+2Z/b 
+
+
+
+Av. Y* 
+
+
+0.000 
+
+0.500 
+
+0.750 
+
+0.875 
+
+1.000 
+
+
+0.40 
+
+38.60 
+
+39.21 
+
+39.79 
+
+40.17 
+
+40.67 
+
+39.38 
+
+0.50 
+
+37.96 
+
+38.29 
+
+38.48 
+
+38.61 
+
+38.82 
+
+38.32 
+
+0.55 
+
+38.84 
+
+38.95 
+
+38.80 
+
+38.71 
+
+38.65 
+
+38.85 
+
+0.60 
+
+40.81 
+
+40.79 
+
+40.35 
+
+40.14 
+
+40.06 
+
+40.59 
+
+0.70 
+
+44.67 
+
+44.19 
+
+42.76 
+
+42.01 
+
+41.38 
+
+43.51 
+
+
+
+77 
+
+
+very short crack widths, b. This Is due to the Inadequacy of 
+modelling the Intersection of the two cracks. For this reason, 
+only the nodes greater than 0.1 are fitted In a linear equation 
+to determine the Intercept of that curve at r > 0.0, as discussed 
+In section 2.5. 
+
+* 
+
+The distribution of the Y along the crack front for the bar 
+
+and rod configurations are given In Tables 10 and 11. Figures 34 
+
+and 35 represent the variation of the short bar along Che crack 
+
+front, for various a/W ratios. All Chose distributions show Chat 
+* 
+
+the minimum Y occurs at Che center and that the highest values 
+
+are at Z •• b/2. For the short-bar with W/B ■ 2.00, the highest 
+* 
+
+difference of Y between Z 0.0 and Z » b/2. Is for small values 
+
+of a/W . For the short-rod configuration the variation along the 
+
+* 
+
+crack front is similar Co Che bar with the lowest Y at the 
+
+center for low a/W values. But as a/W Increases the reverse is 
+
+true. This reverse effect occurs at a/W ■ 0.7 for the the rod 
+
+with W/B = 1.45, while for W/B = 2.00 this reverse effect occurs 
+
+at a/W - 0.55 but still at Che same crack width ( b/B => 0.55 ), 
+
+as seen In Figures 36 and 37. This effect was also observe by 
+
+Ingraffea et al. In Ref. [11]. A sequence of his photographs, 
+
+which are reproduced here In Figure 38, show that for small crack 
+
+lengths Che propagation at the centerline Is relatively retarded 
+* 
+
+since Y Is lowest at Chat position. The crack front gradually 
+
+straightens and ultimately, thumbnails. Figures 36 and 37 of Y* 
+of the short-rod specimens predict Che same effect. In contrast. 
+
+
+
+78 
+
+
+the FEM solutions [9] and the BIE solutions [11], both using ^fr 
+singularity elements near the crack front did not predict this 
+thumbnail ing effect. 
+
+* ^ 
+A comparison between Y from compliance and the average Y 
+
+along the crack front, shows that the compliance Y* is always 
+
+lower than the average Y* ( see Tables 10 and 11). For specimens 
+
+with W/B = 2.00, show about 5% difference. But for W/B « 1.45 
+
+the difference is much higher, about 20% . This difference is 
+
+partly due to the divergence of V/-/F for small crack widths. 
+
+Eventhough the magnitudes of Y* are different, the positions of 
+* 
+
+the minimum Y are in good agreement for both methods. 
+
+
+79 
+
+
+Short-Bar — - 1.45 
+B 
+
+
+
+0.70 
+
+
+
+
+Figure 34. Variation of the stress intensity factor along the crack 
+front of the short-bar specimen with W/B = 1.45 
+
+
+
+80 
+
+
+
+Figure 35. Variation of the stress intensity factor along the crack 
+front of the short-bar specimen with W/B = 2.00 
+
+
+
+81 
+
+
+
+
+
+h 
+
+0.0 
+
+
+H h 
+
+0.25 0.50 
+
+
+
+0.75 
+
+
+H- 
+
+1.00 
+
+
+Figure 36. Variation of the stress intensity factor along the crack 
+front of the short-rod specimen with W/B = 1.45 
+
+
+
+0.65 
+
+
+
+0.0 0.25 0.50 0.75 l.OO 
+
+2Z 
+
+b 
+
+Figure 37, Variation of the stress intensity factor along the crack 
+front of the short-rod specimen with W/b = 2.00 
+
+
+83 
+
+
+
+Figure 38. Propagation of the crack front for the short-rod 
+Ref. [11] 
+
+
+spec imen 
+
+
+
+
+CHAPTER VI 
+
+
+CONCLUSIONS 
+
+An analysis was performed on the Chevron-Notched Short-Bar and 
+Short-Rod specimens using Boundary Integral Equations Method. This 
+solution assumes a linear variation of the tractions and 
+displacements everywhere except at the crack front, where a 
+parabolic variation is used. The solutions of crack mouth opening 
+displacements using 370 nodes are in good agreement with the Finite 
+Element solutions using 2,960 nodes Ref. [9]. In comparison with 
+experimental results, the difference is 4% lower than the reported 
+experimental values Ref. [8]. Part of this discrepancy is due to 
+the finite slot ommitted in the analytical model. 
+
+The stress Intensity factor for the short— bar is lowest at the 
+center of the specimen and highest at the intersection of the crack 
+front with the chevron notch. This effect starts out to be the same 
+for the short-rod but at high crack lengths this effect is reversed. 
+This reversal effect occurs at the same crack width, b/B -0.55 , 
+for both values of W/B. This effect is consistent with experimental 
+results shown by Ingraffea et al. in Ref. [11]. 
+
+The stress Intensity factor obtained from the compliance method 
+assuming plane stress condition is about 5 % lower than the reported 
+
+
+84 
+
+
+85 
+
+
+experimental values from Fef. [81, for the short-bar specimens. For 
+
+Che short-rod specimens Che agreement Is much better, having less 
+
+0.3Z difference. 
+
+There Is some difference for both the rod and bar specimens with 
+
+* * 
+
+W/B ■ 1.45 between the compliance Y and the average Y along the 
+crack front. For W/B “ 1.45 the difference for large a/W is around 
+20% . For W/B » 2.00 the difference is less than 5% between the two 
+methods. 
+
+The minimum stress Intensity factors are reported in Table 8. 
+The minimum position is between 0.49 and 0.55 for all 
+
+chevron-notched configurations analysed. These positions agree well 
+
+with the minimum stress intensity factor along the crack front 
+eventhough the magnitudes of Y* are different. 
+
+As a conclusion, the Boundary Integral Equations method has a 
+great potential in solving fracture mechanics problems. 
+Improvements could be Incorporated by using higher order variation 
+of the tractions and displacements in each surface segment Instead 
+of the linear variation currently used. Also a singularity near 
+the crack front could improve the solution of the stress Intensity 
+factors along the crack front. As for the Chevron-Notched Specimens, 
+the effect of the intersection of the crack front with the chevron 
+notch should be analysed in greater detail to determine the exact 
+singularity in this region. 
+
+
+
+RffESENCES 
+
+
+Psris, P.C. and Slh, G*C«, Stress Analysis of Cracks, ASTM 
+STP 381, (1965) pp. 30-81 
+
+2* Barker, L,M. , "A Simplified Method for Measuring Plane Strain 
+Fracture Toughness", Enginnerlng Fracture Mechanics, vol, 9, 
+(1977), pp. 361-369. 
+
+3. Barker, L.M. , "Short Bar Specimens for K Measurements", 
+American Society for Testing and Materials, ASTM STP-678, 
+(1979), pp. 73-82. 
+
+A. Barker, L.M. , "Compliance Calibration of a Family of 
+Short-Rod and Short-Bar Fracture Toughness Specimens", 
+Engineering Fracture Mechanics, vol. 17, No. 4,(1983). pp. 
+289-312. 
+
+5. Barker, L.M. , and Guest, R.V., " Compliance Calibration of 
+the short rod Fracture Toughness Specimen", Terra Tek Report 
+TR 78-20, 1978. 
+
+6. Munz, D. , Bubsey, R.T. and Srawley, J.E. ,** Compliance and 
+Stress Intensity Coefficients for Short Bar Specimens with 
+Chevron Notches Useful for Fracture Toughness Testing of 
+Ceramics , International Journal of Fracture, vol. 16, No, 4 
+(1980),pp. 359-374. 
+
+7. Bubsey, R.T., Munz, D. , Pierce, W.S. and Shannon, J.L. , Jr., 
+"Compliance Calibration of the Short Rod Chevron-Notch 
+Specimen for Fracture Toughness Testing of Brittle Materials" 
+International Journal of Fracture, vol. 18, No. l,(1982).pp. 
+125-132. 
+
+8. Shannon, J.L. , Jr., Bubsey, R.T., Pierce, W.S. and Munz, D. , 
+
+Extended Range Stress Intensity F actor Elxpressions for 
+Chevron-Notched Short Bar and Short Rod Fracture Toughness", 
+International Journal of Fracture, vol. 19, No. 3,(1982) pp. 
+R55-R58. 
+
+9. Raju, I.S. and Newman, J.C., Jr., "Three-Dimensional Finite- 
+Element Analysis of the Chevron-Notched Fracture Specimens", 
+presented at the ASTM Symposium of Chevron— Notched Specimens: 
+Testing and Stress Analysis, Louisville, Ky., April, 1983. 
+
+10. Mendelson, A. and Ghosn, L.J. , "Three-Dimensional Analysis of 
+
+Short— Bar Chevron— Notched Specimens by Boundary Integral 
+Method , presented at the ASTM Symposium on Chevron— Notched 
+Specimens: Testing and Stress Analysis, Louisville, Ky. , 
+
+April 1983. 
+
+
+86 
+
+
+87 
+
+
+11. Ingraffea, A.R. , Perucchio, R. , Han, T.Y. , Greatle.W.H. and 
+
+Huang, Y.P., ’’Three-Dimensional Finite and Boundary Element 
+Calibration of the Short-Rod Specimen”, presented at the ASTM 
+Symposium on Chevron-Notched Specimens: Testing and Stress 
+Analysis, Louisville, Ky., April, 1983. ^ 
+
+12. Tattersal, H.G. and Tappln, G., "The Work of Fracture and Its 
+Measurements In Metals, Ceramics and other Materials", 
+Journal of Matrlals Science, 1, (1966), pp. 296-301. 
+
+13. Love, A.E.H., Atreatise on the Mathematical Theory of 
+Elasticity, Dover, N.Y., 1944. 
+
+14. Sokolinlkof f , I.S., Mathematical Theory of Elasticity, 
+
+McGraw-Hill, New York, 1956. 
+
+15. Mendelson, A., "Boundary-Integral Methods In Elasticity and 
+Plasticity”, NASA TND-7418, National Aeronautics and Space 
+Administration, Washington, D.C., November, 1973. 
+
+16. Raju, I.S. and Newman, J.C., Jr., "Three-Dimensional Finite- 
+Element Analysis of Finite-Thickness Fracture Specimens", 
+NASA TND-8414, National Aeronautics and Space Administration, 
+Washington, D.C., May, 1977. 
+
+17. Mendelson, A. and Alam, J. , "The Use of the Method of Lines 
+in 3-D Fracture Mechanics Analysis with Application to 
+Compact Tension Specimens" , International Journal of 
+Fracture, vol.22, (1983), pp. 105-116. 
+
+18. Cruse, T.A. , "An Improved Boundary- Integral Equation Ifethod 
+For Three Dimensional Elastic Stress Analysis" , Computers 
+and Structures, vol. 4, (1974), pp. 741-754. 
+
+19. Crlstesou, M. and Loublgnac, G., Advances In Boundary 
+Element Methods, C.A. Brebbla. Ed., Pentech Press, London, 
+1978, pp. 375-389. 
+
+20. Rizzo, F.J. An Integral Equation Approach to Boundary Value 
+Problems of Classical Elastostatlcs" , Quarterly of Applied 
+Mathematics, vol. 25, (1967), pp. 83-95. 
+
+
+
+APPENDIX A 
+
+
+Derivation of the Singular Integral 
+
+
+Because of the singular nature of Kelvin's solution a surface 
+cut is made in the body to exclude the point P from the region 
+(where U. . and T.. -► <» ). 
+
+I J I 0 
+
+
+
+The surface Integral going from the surface boundary to the 
+singularity point P is cancelled by the integral coming back 
+since it can be considered that the same path is being Integrated 
+over but in opposite direction, therefore Betti’s theorem (3.7) 
+will have the form: 
+
+
+/ t. U. . ds + / t. U. . ds = / u. 
+
+
+, ds . 
+
+
+“j 'u “^(*.1) 
+
+
+where s is the boundary surface of the body and s^ is the 
+surface of a sphere of radius € which excludes the singularity 
+
+
+88 
+
+
+89 
+
+
+point of and * 
+
+Considering the value of the integral at point P as the 
+radius of s^ goes to zero (c -*• 0) * noting that : 
+
+
+ds= E sine de 
+
+
+r 
+
+
+
+
+-sinecos«|)i 
+-sin0sin<j)' 
+-cose 
+
+
+
+^ = 1 
+dn ‘ 
+
+
+
+
+0 
+
+
+The values of the integrals around s^ can be evaluated as 
+follows : 
+
+Substituting the value of from equation (3»2) 
+
+t.u..ds /’ f’-Ul 
+
+3 IJ e 1 I 4irG e 
+
+J 0 J 0 
+
+3-4u , ^ 1 
+
+5 + e e 
+
+4(l-u) 4(l-o) 
+
+
+t- e sineded()) 
+
+J 
+
+
+
+90 
+
+
+Putting c outside the Integral: 
+
+/»1T 
+
+= 6 / / 1 
+
+
+Iq Jo 
+
+and taking the limit as e -»■ 0^ 
+
+
+(3-4u) jj+o^.rij tj sine de d<> 
+
+
+1 im 
+
+c^O 
+
+
+tj U,J ds = 0 
+
+
+(A.2) 
+
+
+by substituting equation (3.6) for , the second Integral 
+
+
+becomes : 
+
+
+T ^ I 2tt In -(1 -2u) 
+
+Jo Jo 
+
+
+
+
+e ( dn 
+
+
+ij 
+
+
+l-2u 
+
+
+M ^J] I 
+
+
+sin0ded(t) 
+
+
+2n IT 
+
+
+8ir( 1 
+
+
+
+
+'0 JO 
+
+Evaluating the function in matrix form 
+
+
+sineded({) 
+
+
+3 2 2 2 \ 
+
+l+y;;^in 0COS (j> sin 0cos(}isin(|) sinecos0cos(|>l 
+
+I 2 3 2 2 \ 
+
+sin ecos4>sin()> 1 sin esin (j> sinecosesin<|)> 
+
+
+[Sine cosecoscj) sinecosesin(t> 
+
+
+91 
+
+
+Integrating each term of the matrix, the above equation gives; 
+
+2ir TT 
+
+f L + 3 1 sined0d^= -6.j (A.3) 
+
+/O Jo 8ir(l-u) L J 
+
+By substituting relation (A.2) and (A.3) In equation (A.l) one 
+gets the boundary Integral equations ; 
+
+
+
+
+. T. . ds - . u. 
+
+J ij ij J 
+
+
+(A.4) 
+
+
+If the point P Is at the surface of the body s^ would be a 
+surface of half a sphere. The above equations Integrated over 
+half the sphere are equal to 
+
+
+lim f 
+
+Js 
+
+
+t. U.. ds = 0 
+
+J * J 
+
+
+1 im 
+
+e-K) 
+
+
+T J 1 6 . • U . 
+
+“j " 2 ^3 J 
+
+
+SO Betti’s theorem will be equal to 
+
+
+‘j “ij = 
+/s 
+
+
+J.‘ ■' 
+
+
+or In general 
+
+
+/ t. U.. ds = / u. T.. 
+js ^ js ^ 
+
+
+- 2 «ij “j 
+
+
+ds - C, . u . 
+ij J 
+
+
+(A. 5) 
+
+
+wher ■ 6^^ for Internal points, and ^Ij " 2 ^Ij for surface 
+
+
+points. 
+
+
+APPENDIX B 
+
+
+Numerical Solutloa of the Integral Equations 
+
+
+General analytical solutions to the Integral equations are 
+not available and it is therefore necessary to solve the 
+equations numerically. The integral equations have the form: 
+
+
+,J(P) Uj(P) J 
+
+i 
+
+
+(P.Q) u.(Q) ds(Q) 
+
+
+U.j(P,Q) tj(Q) ds(Q) 
+
+
+where u^ and t^ are the displacement and the stress vectors 
+respectively, P is the source point indicating the location at 
+which the force acts, and Q is the field point denoting the 
+actual boundary point. 
+
+The integrals are Cauchy Principal Value Integrals where 
+
+(P) is a field of constants depending on the smoothness of 
+boundary in P. (P) is equal 1/2 if P is at a smooth 
+surface. For the case where P is at an edge or a corner [18], 
+
+
+C..(P) 
+
+IJ 
+
+
+
+
+T..(P.Q) ds(Q) 
+
+* J 
+
+
+for P / Q 
+
+
+The numerical solution for the Integral equations are found 
+by discretizing the boundary into segpnents. In the computer 
+
+
+92 
+
+
+93 
+
+
+program used in the present work, the surface is represented by 
+triangular and rectangular elements. The traction and 
+displacement Inside each element are linear functions of the 
+traction and displacement at each corner. 
+
+For triangular element 
+
+t,(«) = C^?) 
+
+U,(«) = c'<(4) 
+
+
+where from Ref. [18] 
+
+
+c'(?) = ^ M - F,,, - (F^2 -F^j «2)/2S 
+
+
+, ^2 s*'® local In-plane coordinates of the field point Q, 
+are local in-plane coordinates of the centroid of the m 
+
+element. F , F are the projections of the distance between 
+
+Ivl Ix^ 
+
+two adjacent nodes in local coordinates and K > 1, 2, 3. 
+
+For rectangular elements 
+
+
+t, («) ■ n''(() 
+
+u, («) • gj 
+
+
+94 
+
+
+where 
+
+
+n 1 , (1 -<i) (1 -«j) 
+
+
+n 2 . (1 +« i ) (1 
+
+-I 4 
+
+
+„3 , (J +«j) (1 +4^) 
+4 
+
+
+N 
+
+
+4 , (1 - (1 +^2) 
+
+
+If the surface is represented by m triangular elements and n 
+r6ctdngular elements the equations become: 
+
+
+'^bJl K^I f Ty(P.Q) n''(C) J(0 dC 
+
+•&S 
+
+b-1 K»1 j(0 dC 
+
+•^C 
+
+
+dC 
+
+
+n 4 
+
+
+j 2« E hir ^ 
+
+b-I K.l 'J<Q ) I U (p.„ 
+
+•as 
+
+
+de 
+
+
+where J ( ^ ) is the well known Jacobi function. The terms 
+^ bk. bkv 
+
+W ; or tj(Q ), respectively, are the corner values of 
+displacements and tractions of the kth node within the bth 
+element. 
+
+For P , a 4 X 4 Gaussian quadrature formula is used to 
+
+evaluate numerically the integration, 
+b k 
+
+For Q » P, in a triangular element the integrals are 
+evaluated in closed form by a change to cylindrical coordinates 
+(r,0),[18]. 
+
+
+95 
+
+
+
+Tij(P.Q) C^a) j(5) dC 
+Uij(P.Q) c^(0 j(0 d5 
+
+
+But, for rectangular elements a special singular Gauss 
+quadrature Is used derived In reference [19] for an Integral with 
+1/r singularity. 
+
+When the Integrals are calculated for P at a node, then 
+
+(P) Is obtained by summing the /T ds terms. 
+
+Jq j 
+
+Then the Integral equations result In a system of 3 x (m + n) 
+linear algebraic equations to be solved for the unknown boundary 
+tractions or displacements. 
+
+The use of both triangular and rectangular elements Is 
+necessitated due to the use of a fine mesh near the crack front 
+and a coarse mesh further away. The triangular elements are thus 
+used as transition elements. 
+
+
+
+
+
+1. Report No. 
+
+NASA CR-172225 
+
+
+4. Title and Subtitle 
+
+
+2. Government Accession No. 
+
+
+THREE-DIMENSIONAL ANALYSIS OF CHEVRON-NOTCHED SPECIMENS 
+BY BOUNDARY INTEGRAL METHOD 
+
+
+3. Recipient's Catalog No. 
+
+
+5. Report Date 
+
+September 1983 
+
+
+6. Performing Organization Code 
+
+
+7. Author(s) 
+
+Alexander Mendelson and Louis Ghosn 
+
+
+9. Performing Organization Name and Address 
+
+Case Western Reserve University 
+Department of Civil Engineering 
+Cleveland, OH 44106 
+
+
+12. Sponsoring Agency Name and Address 
+
+National Aeronautics and Space Administration 
+Washington, DC 20546 
+
+
+15. Supplementary Notes 
+
+Langley Technical Monitor: J. C. Newman, Jr. 
+
+Final Report 
+
+
+16. Abstract 
+
+
+8. Performing Organization Report No. 
+
+
+10. Work Unit No. 
+
+
+11. Contract or Grant No. 
+
+NAG-1-304 . 
+
+
+13. Type of Report and Period Covered 
+Contractor Report 
+
+
+14. Sponsoring Agency Code 
+
+
+A three-dimensional elastic analysis was performed on the chevron-notched 
+short-bar and short-rod specimens, using the boundary integral equations method. 
+This method makes use of boundary surface elements in obtaining the solution. 
+
+The boundary integral models were composed of linear triangular and rectangular 
+surface segments. Results were obtained for two specimens with width-to-thickness 
+ratios of 1.45 and 2.00 and for different crack-length-to-width ratios ranging 
+from 0.4 to 0.7. Crack opening displacement and stress intensity factors deter- 
+mined both from displacement calculations along the crack front and compliance 
+calculations were compared with experimental values obtained at NASA Lewis 
+Research Center, and with finite-element analysis done at NASA Langley Research 
+Center. 
+
+
+17. Key Words (Suggested by Author(s)) 
+Fracture mechanics 
+Ceramics 
+Displacements 
+Stress intensity factors 
+Boundary- integral method 
+
+
+19. Security Classif. (of this report) 
+Unclassified 
+
+
+Short-bar and 
+rod specimens 
+
+
+18, Distribution Statement 
+
+
+Unclassified - Unlimited 
+
+
+20. Security Classif. (of this page) 
+
+21. No. of Pages 
+
+Unclassified 
+
+107 
+
+
+Subject Category 39 
+
+
+22. Price* 
+A06 
+
+
+For sale by the National Technical Information Service, Springfield. Virginia 22161 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

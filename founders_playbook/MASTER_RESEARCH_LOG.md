@@ -2613,3 +2613,48 @@ would have minted collisions while printing a confident "next free: 13". Fixed t
 allocate-above-max before it was ever used for real, and the failure is written into the file's header so
 nobody re-invents the low version. **A tool that hands out ids is the one tool in this corpus that must
 never be wrong quietly.**
+
+### RD-132 -- three more shared tools were producing wrong evidence, and I broke a fixture list fixing the last one
+
+All three defects came from probes *running* the tools, not reading them.
+
+**`ia_text.py` could not address a volume of a bound run, and silently overwrote one.**
+`fetch()` wrote every text layer to `<identifier>_djvu.txt`, and `text_layer_names()` picked the
+largest candidate -- so for `boeingairplanecompanyannualreports` (one item, **46 layers, 1934-1978**)
+an agent asking for the 1934 report could be handed the 1976 one, and a second fetch of a different
+year would overwrite the first item's bytes on the same path. That is not a lost lead, it is
+**corrupted evidence with a valid-looking sidecar**. Fixed: `--file` selects the volume,
+`local_name()` gives each volume its own path (`<id>__<file>`), a new `list-files` mode enumerates the
+layers, and Boeing's item now lists all 46 (verified: `list-files` returned 46, and fetching
+`boeing1945_djvu.txt` landed on its own path at 46,004 B). Kroger's item has the same shape with 104
+layers, so this unblocks the corporate-print family for every company the run has tiered.
+
+**`ia_text.py search` reported the page it fetched as the archive's total** -- `"num": len(docs)` --
+so `--rows 20` on a 6,734-hit collection printed "20", and the only way to know the difference was to
+parse the raw JSON yourself. `search()` now returns `numFound` alongside the rows and the output names
+which is which.
+
+**`harvest_mine.py` was blind to brands that are not the directory slug.** The Alphabet pass measured
+32 naming lines in the held periodicals while its dossier reported zero entity hits -- because the
+grepped name set was `alphabet`, and the company is *Google*. Mirror image of RD-124's false Tier-1:
+a **false NULL**, which is worse, because "we searched and the family is empty" stops the search. The
+name set is now the slug **plus the company's own single-word quoted terms**, so two controls:
+`'Google'` in an Alphabet-window line must be FOUND (`BARE_WORD_MATCH`), and `GOOGLE INC.` must be
+promoted -- 8 checks, 0 failing.
+
+**I broke my own fixture list while adding those two controls** -- a mis-targeted edit deleted the
+Costco case's label line and left the module un-compilable, and the first repair attempt guessed at the
+old text instead of reading it. Both are the same mistake this log keeps recording: `python
+-m py_compile` after every edit, and read the region before editing it. The block is rewritten whole
+and the file compiles, with all eight controls passing.
+
+**Three passes reported the same two briefed-command defects** (positional `auto "Name"`,
+`claim --path`) and they are now fixed in the tools rather than in the next brief -- five probes had
+already lost a call each rediscovering them.
+
+Not fixed, logged: `merge_census.match_register()` can never attribute a `validation.csv`/`failures.csv`
+block (identical 11-column schemas, always `AMBIGUOUS`), which is now the *normal* state of every merge
+(Nvidia: 3 of 10 blocks; Tesla: 20 rows; Microsoft: 11 rows). The merges hand-attribute them by content;
+the tool should stop pretending the ambiguity is information rather than a schema defect. And the Nvidia
+part 2 found that **part 1's file is truncated** -- it ends mid-sentence with the `## Untried` it promised
+absent, so a pass's own report ("11 untried routes written") is not evidence the bytes are on disk.
