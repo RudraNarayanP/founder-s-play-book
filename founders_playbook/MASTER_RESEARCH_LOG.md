@@ -2515,3 +2515,55 @@ attributable merge-request blocks found"* while holding nine real blocks. And ev
 habits this run was billed for: **enumerate the CSV header before reading a field by name** (four passes,
 mine included, got a confidently wrong count from an assumed column), and **take an instrument's date from
 the filing index, never from a filename or listing order**.
+
+### RD-130 -- the YEAR facet was manufacturing corporate-print nulls across the whole tail
+
+The Kroger probe reproduced it and I re-ran it live to be sure. The query
+`title:(kroger) AND (title:(annual) OR title:(reports)) AND mediatype:(texts)` returns **numFound 0**
+with `AND YEAR:[1883 TO 1960]` and **numFound 1** without it, and the bound run's catalogue `year` is
+**None**. So every corporate_print zero ever recorded under a year facet was a statement about our own
+parameter, not about the archive -- and **digitised bound corporate print is the one family that has
+flipped tiers in this project** (Walmart, Target, and now Boeing at 46 layers and Kroger at
+**104 layers / 10,070,024 B, 1925-2007 continuous**). Fixed: `parse_ia_search` takes `year_faceted`,
+`parse_cp_search` passes it from the task params, and a faceted zero is now recorded **UNANSWERED with
+the remedy named**, never NULL.
+
+**`tools/sec_intake.py` takes a positional identity now.** Five probes were briefed
+`auto "Boeing" --company-dir ...` and argparse answered `unrecognized arguments` -- a documentation
+defect in my tool, not in the agents. `resolve_name` accepts a CIK, a ticker, or a registrant name
+matched against EDGAR's own ticker-map titles, and **refuses to guess**: an ambiguous or unmatched name
+is a loud error naming the working flags, because silently resolving a name to the wrong registrant is
+the 2026-09-26 Dell/CIK-1571996 clobber this tool already documents. Separately, `grab` with no `--file`
+no longer invents `index-headers.txt`, 404s on three path forms and prints a confident result for a
+nonexistent document; it now enumerates the accession, lists the text/HTML candidates and the index's
+`primaryDocument`, and returns UNANSWERED if the listing fails. **Selftest still 42 checks, 0 failing.**
+
+Five probe dossiers landed, each with a finding that changes a founding story:
+- **Kroger** -- T3 origin / T2 scaling / **T1 national**. Held print settles the founding as **1882,
+  Great Western Tea Company, Cincinnati, $722 cash capital, $40/month rent, B. H. Kroger** (1932a
+  L424-426) and incorporation **April 1902, Ohio**; **the universe index's 1883 is a year later than the
+  company's own print** (`1882` x3, `1883` x0). First incurred failure is a store-format one, as
+  predicted: 410 stores closed, "7.35 per cent of the total", plus hold-up robbery losses.
+- **J&J** -- 619 in-window entity-naming lines (Red Cross Notes 1897-1900, American Druggist 1890-1905).
+  The 1897 Canadian volume carries **126 x "New Brunswick" and 0 x Johnson & Johnson**: the place-name
+  trap, demonstrated rather than warned about. The best held founding statement is a **range** --
+  "1886-*87 (the date of the formation of the firm)" -- in a 1897-1900 retrospective, so 1886 is not
+  claimed as a date, and Robert Wood Johnson appears with a **title**, which is a role, not a founding claim.
+- **Boeing** -- 46 per-year layers in one item, and the held print **contradicts the folk founding**:
+  FY1934 says this company "was formed for the purpose of acquiring these assets" with its account dating
+  from 1 Sep 1934, while "since 1916" attaches to **a different legal person** (Boeing Aircraft Company,
+  a Washington corporation); **Westhoff occurs 0 times in every held byte**. The 1927 airmail award
+  answers first-repeatable-validation from third-party paper.
+- **Berkshire** -- a **1958** court record moves the naming wall twelve years and supplies the
+  predecessor name the annual reports never print ("formerly Berkshire Fine Spinning Associates, Inc.");
+  Berkshire year-ends are Saturday 52-week dates, so "December 31" is simply wrong for this registrant;
+  and the 127 KB layer that is 48.9% of the "print" bytes is the **Town of Berkshire, Vermont**.
+- **Disney** -- FY1944/45 layers print the registrant as "Walt Disney Productions" and carry a
+  company-written "YEARS OF PROGRESS" chronology, but 1923 there is a **21-years-late self-narrative**,
+  the item-level `date 1923-10-16` is an **uploader artefact** (addeddate 2023), and the ticker-resolved
+  CIK is former-named TWDC Holdco 613 Corp with a 2018 floor and no S-1.
+
+Also fixed in `harvest_mine.py` (RD-129): a slug whose candidate rows are all UNANSWERED used to print
+`{}`, exit 0 and write nothing -- a no-op that reads exactly like a result. It now writes an explicit
+NOTHING MINABLE dossier naming the cause, and the reason travels into the JSON summary too. Selftest 6
+checks, 0 failing.
