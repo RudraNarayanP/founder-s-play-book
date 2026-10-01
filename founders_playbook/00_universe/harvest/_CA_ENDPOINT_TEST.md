@@ -1,4 +1,4 @@
-# Chronicling America endpoint test -- 2026-09-30T12:52:58Z
+# Chronicling America endpoint test -- 2026-10-01T13:34:47Z
 
 Run from the GitHub Actions egress (or any host) to decide which URL shape answers, because
 from this project's development machine every shape 403s and a 403 cannot be told apart from
@@ -8,13 +8,13 @@ a wrong path. `periodical_harvest.py` currently uses `www.loc.gov/chroniclingame
 
 | shape | verdict | status | bytes | detail |
 |---|---|---|---|---|
-| `loc-global-chronicling-america` | ANSWERED | 520 | 956 | json parsed, top-level size=17 (schema unknown -- read it before counting) |
-| `loc-global-fa-collection` | ANSWERED | 200 | 127,527 | json parsed, top-level size=12 (schema unknown -- read it before counting) |
+| `loc-global-chronicling-america` | ANSWERED | 200 | 1,787,761 | json parsed, top-level size=39 (schema unknown -- read it before counting) |
+| `loc-global-fa-collection` | ANSWERED | 200 | 127,546 | json parsed, top-level size=12 (schema unknown -- read it before counting) |
 | `ca-legacy-pages-results` | NOT-FOUND | 404 | 84,977 | 404 -- the path does not exist (our own defect, not a block) |
 | `ca-legacy-newspapers-api` | CHALLENGED | 403 | 5,952 | Cloudflare bot challenge |
-| `cronidam-new-api` | NOT-FOUND | 404 | 2,326 | 404 -- the path does not exist (our own defect, not a block) |
-| `www-chroniclingamerica-path` | NOT-FOUND | 404 | 84,977 | 404 -- the path does not exist (our own defect, not a block) |
-| `www-collections-page-json` | ROUTE-FAILED | - | 70 | IncompleteRead: IncompleteRead(6889 bytes read, 2344388 more expected) |
+| `cronidam-new-api` | NOT-FOUND | 404 | 2,284 | 404 -- the path does not exist (our own defect, not a block) |
+| `www-chroniclingamerica-path` | NOT-FOUND | 404 | 84,978 | 404 -- the path does not exist (our own defect, not a block) |
+| `www-collections-page-json` | ANSWERED | 200 | 2,348,484 | json parsed, top-level size=39 (schema unknown -- read it before counting) |
 
 **Probe query:** `"Wal-Mart" Bentonville` (1960-1969), chosen because the corpus is being mined for exactly this phrase and the collection advertises open OCR full text 1777-2016 -- so a working route should not return zero.
 
@@ -25,5 +25,5 @@ a wrong path. `periodical_harvest.py` currently uses `www.loc.gov/chroniclingame
 - `NOT-JSON` -- right host, wrong format parameter.
 - A count from a shape whose schema you have not opened is NOT a null. Read the body first (RD-121/RD-124: three fleet verdicts came from trusting a number nobody had opened).
 
-**ANSWERED shapes:** `loc-global-chronicling-america`, `loc-global-fa-collection`
+**ANSWERED shapes:** `loc-global-chronicling-america`, `loc-global-fa-collection`, `www-collections-page-json`
 
