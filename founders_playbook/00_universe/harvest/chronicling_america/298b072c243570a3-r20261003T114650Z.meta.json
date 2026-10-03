@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=Facebook+Menlo+Park&date1=2004&date2=2012&dateFilterType=yearRange&state=California&sort=date",
+ "evidence_file": "298b072c243570a3-r20261003T114650Z.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 84977,
+ "retrieved_at": "2026-10-03T11:50:27Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a44bbab14ee3b7f0-DFW",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'Facebook' Menlo Park / Harvard 2003-2012",
+ "company": "meta",
+ "kind": "search"
+}
