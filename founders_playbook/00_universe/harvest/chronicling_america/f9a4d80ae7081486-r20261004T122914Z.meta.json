@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22Marathon+Oil%22+refinery&date1=1900&date2=2011&dateFilterType=yearRange",
+ "evidence_file": "f9a4d80ae7081486-r20261004T122914Z.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 84977,
+ "retrieved_at": "2026-10-04T12:34:39Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a45438d4feea31d3-IAD",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'Marathon Oil' 'Midwest Oil' Ohio Oklahoma 1900-2011 (HYPOTHESIS predecessor routes)",
+ "company": "marathon",
+ "kind": "search"
+}
