@@ -136,3 +136,32 @@ plants an int `cik` and asserts the run completes. Also sweep the stale records:
 
 Same file, same agent, second half: D2 (`grab` unpacking 2 from a 3-tuple) is already fixed at RD-138 -- do not
 re-fix it, but confirm the enumeration path returns candidates for an accession D1 used to crash on.
+
+## Owner defects reported by the Humana + FedEx probes (mine to fix, nobody else's file)
+
+1. **`tools/fleet_intake.py measure()` mis-scrapes `sec_intake`'s printed line.** Humana measured it precisely:
+   the dossier records `148 accessions in window` while the Stage-1 window holds **0** rows and the recital window
+   holds **1414** -- 148 is what my regex read off sec_intake's own post-dedupe summary. Every tail brief I wrote
+   tonight carried that number as fact, so a probe that trusted it would have sized its intake wrong. Fix the
+   regex against the exact printed sentence and re-measure the `_FLEET_INTAKE.tsv` column, or delete the column
+   and print `inwindow` only from `auto: N accessions in window`.
+2. **`resolve_name` cannot reach legacy carriers by name.** FedEx: `sec_intake index "Federal Express Corporation"`
+   -> `NO-MATCH, 0 candidates`, because resolution runs through `company_tickers.json` only. Same class as BofA's
+   seven name forms. This is the third time tonight; the fix belongs with `registrant-tools`' Defect 1 work --
+   fall back to `tools/legacy_cik.py search` before reporting NO-MATCH, and never report a name's absence as a
+   registrant's absence.
+3. **The auction/museum/manuscript family still has no tool and no query block, and two probes now name it as the
+   highest-expected-value route.** FedEx: Yale's archive for the 1965 term paper, the Delaware charter and the CAB
+   record behind 1971-73; UPS and Goldman asked for the same. Family (e) is therefore UNTRIED for all 50 companies
+   by construction -- which means no tier in this corpus is defensible as complete, and the five-family verdict
+   must be reported as four-and-a-half until something exists.
+4. **A role-recorded-as-founder trap found sitting in the corpus, not in a book:** FedEx's only `Founder` title
+   across 19 filings is `Sheridan Garrison, Chairman and Founder of American Freightways`
+   (`0000950103-00-001270 l.250-262`) -- a competitor's founder inside our own shelf. Worth a `gates.py` or
+   probe-check pattern: any `Founder` token in a company's filings that attaches to a different corporate name
+   should be flagged before it can be copied into a register.
+5. **FedEx measured the re-harvest landing mid-pass**: 8 IA layers / 1,377,536 B written into
+   `sources/periodicals/` while it was working, which it read and adjudicated rather than ignoring (it surfaced
+   two independent third-party carriers and opened a real conflict: 186 packages on day one per the company's own
+   1998 advertising vs `a mere seven packages` per a 2009 third party). Keep the sequencing rule: mine AFTER
+   harvest, and re-read any A4 within a few lines of quoting it.
