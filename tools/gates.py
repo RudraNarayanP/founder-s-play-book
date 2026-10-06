@@ -582,23 +582,42 @@ def issued_tier(company):
     """
     rx = re.compile(r"\bT([123])\b(?:\s*(?:core|register|exemplar|tier))?", re.I)
     verdict = re.compile(r"regrade|feasibility|tier|verdict|density", re.I)
+    # A dossier discusses all three tiers while arguing its per-stage verdicts, so a mention-scan that
+    # sorts by (file, offset) and takes the last hit reads a passing "not T1" as the issuance -- the Cigna
+    # probe (2026-09-30) measured exactly that: it issued `T2 core, PROVISIONAL` and the gate read T3,
+    # because on a single-file tie `sort(reverse=True)` fell through to the label string. Read the lines
+    # that STATE a verdict, and prefer the planning/summary line over an early per-stage table.
+    says = re.compile(r"\b(planning tier|tier verdict|verdict[:\s]|per[- ]stage tiers?|deliverable|"
+                      r"tier[:=]|planned tier|stage 1[^.]{0,40}tier)\b", re.I)
     hits = []
     for p in glob.glob(os.path.join(company, "research", "*.md")):
-        txt = open(p, encoding="utf-8", errors="replace").read(30000)
         stem = os.path.basename(p)
+        txt = open(p, encoding="utf-8", errors="replace").read()
         num = re.match(r"[A-Za-z]+(\d+)", stem)
-        for m in rx.finditer(txt):
-            hits.append((1 if verdict.search(stem) else 0, os.stat(p).st_mtime_ns,
-                         int(num.group(1)) if num else 0, stem, "T" + m.group(1)))
+        lines = txt.splitlines()
+        for i, line in enumerate(lines):
+            for m in rx.finditer(line):
+                hits.append((1 if says.search(line) else 0,
+                             1 if verdict.search(stem) else 0,
+                             os.stat(p).st_mtime_ns, int(num.group(1)) if num else 0, i, stem,
+                             "T" + m.group(1)))
     if not hits:
         return "exemplar", "no tier stated in this company's research/ dossiers -- exemplar assumed"
     hits.sort(reverse=True)
-    latest = hits[0][4]
-    distinct = sorted({h[4] for h in hits})
-    note = ("tier %s from %s%s" % (latest, hits[0][3],
-                                   "" if len(distinct) == 1 else
-                                   " -- %s also stated in this company's files (%d mentions); the most "
-                                   "recent write wins, §15.2 regrade" % (",".join(distinct), len(hits))))
+    latest = hits[0][6]
+    verdict_hits = [h for h in hits if h[0]]
+    if verdict_hits:
+        verdict_hits.sort(key=lambda h: (h[2], h[3], h[4]), reverse=True)
+        latest = verdict_hits[0][6]
+    distinct = sorted({h[6] for h in hits})
+    note = ("tier %s%s from %s%s" % (latest, " (a stated-verdict line)" if verdict_hits else "",
+                                     hits[0][5],
+                                     "" if len(distinct) == 1 else
+                                     " -- %s all mentioned in research/ (%d mentions, %d on a "
+                                     "verdict line); if the dossier's own text names a different tier, "
+                                     "trust the dossier and tell me, because this reader is not the "
+                                     "authority on your finding" % ("/".join(distinct), len(hits),
+                                                                   len(verdict_hits))))
     return latest, note
 
 
@@ -709,7 +728,12 @@ def run(company, checks, tier, outdir=None):
         json.dump({"findings": rep.findings}, open(jpath, "w", encoding="utf-8"), indent=1)
         print("written: %s" % mdpath)
     print(md)
-    substantive = [f for f in rep.findings if f["gate"] not in ("coverage", "advisory")]
+    # §15.6 says an ADVISORY output is not a defect, and the quotes gate writes that word into its own
+    # message -- but the filter only looked at the gate NAME, so Target's re-certifier ran a pass whose
+    # only finding was labelled ADVISORY and still got exit 1. Classify on what the finding says it is.
+    def _advisory(f):
+        return f["gate"] in ("coverage", "advisory") or str(f["msg"]).upper().startswith("ADVISORY")
+    substantive = [f for f in rep.findings if not _advisory(f)]
     return len(rep.findings), len(substantive)
 
 
