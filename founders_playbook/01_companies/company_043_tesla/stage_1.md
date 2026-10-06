@@ -80,10 +80,27 @@ refundable reservation liability asserts that its figure "SUPERSEDES the 2009-09
 carried", yet part 2's own channels and decision rows print $26.0m at **2009-12-31** — a period-end for which
 neither emission registered a carrier. "Supersede, don't erase" governs documents; it does not license a
 supersession across two different dates. Part 1's 2009-09-30 row stands, part 2's 2010-03-31 row stands, the
-2009-12-31 value is **UNKNOWN**, and the contradiction is carried as `conflicts.csv` row `U.23` with an anchor
+2009-12-31 value is **UNKNOWN** *[WITHDRAWN on repair 2026-09-30 - see the paragraph immediately below; the bytes this merge already held print the balance]*, and the contradiction is carried as `conflicts.csv` row `U.23` with an anchor
 line at the foot of this file rather than smoothed into a single series. The web budget on this pass was **0
 calls and 0 were made**, so the merge refused the fetch rather than adjudicate against bytes it does not hold;
 the fetch is named in the addendum below.
+
+**REPAIR 2026-09-30 (tesla-repair-1) - the paragraph above is a FALSE NULL and this volume now says so.** The merge wrote that no printed
+cell on disk gives a 2009-12-31 refundable-reservation balance and set the value to UNKNOWN. The bytes it had on
+disk print it. `sources/sec/0001193125-10-068933_ds1a.htm` (**S4370**, Amendment No. 1, 2010-03-29) prints:
+*"As of December 31, 2008 and 2009, refundable reservation payments in the amount of $48.0 million and $26.0
+million, respectively, were recorded as current liabilities on the consolidated balance sheets."* - and binds the
+same $26.0m to 2009-12-31 in **four** sentences of that one body, including *"As of December 31, 2009, we had an
+aggregate of $26.0 million in refundable reservation payments for the Tesla Roadster and the Model S."* The 424B4
+prints the three-date triad *"... $48.0 million, $26.0 million and $26.0 million (unaudited), respectively ..."*,
+which is what this volume's own table at section P.2 and its reservation row already quote. Measured 2026-09-30:
+**11 held bodies across 8 accessions** print the 2009-12-31 balance; `$24.8 million` occurs 4x in `ds1.htm` and 0x
+in every other held body. So `U.23` is re-graded from a value conflict to a **period-end pair of one filed series**
+($24.8m at 2009-09-30, $26.0m at 2009-12-31, $26.0m at 2010-03-31); part 2's supersession stays **DECLINED**;
+`quantitative.csv` carries the 2009-12-31 row; and the flat 2009-12-31 to 2010-03-31 statement in
+`decisions.csv` row 1 is **carried as supported**, while its causal reading stays unproven because no
+receipts/refunds flow was ever filed. The 'fetch would settle it' framing is retired too: the route was a local
+read, and a 0-call web budget is not a reason it went undone. Full text at `CORRECTIONS.md` COR-01.
 
 **`## Untried` carry-forward.** Part 2's eleven items (NEW-1…NEW-11) are carried verbatim inside Volume 2.
 **Part 1's own `## Untried` block is not on disk**: `_parts/s1_p1.md` ends at a stray `#` immediately after its
@@ -232,7 +249,11 @@ nonexclusive, nontransferable, perpetual license to ACP's patented and proprieta
 and methods that relate to electric vehicle propulsion and integration. As consideration … we paid a
 license fee of $0.5 million"** (S-1 2010-01-29, notes to the financial statements). Between the July
 2003 equity plan (a governance act) and May 2004 there is **no dated corporate act of any kind in the
-held corpus**. See §C.2 for what that licence does and does not bear on the founder question.
+held corpus**. *[THE ABSOLUTE IS WITHDRAWN HERE TOO - REPAIR 2026-09-30 (tesla-repair-1): this prose window is wider than the
+ corpus supports, because part 1's own register carries dated acts at 2004-03 (Straubel as Principal Engineer) and
+ 2004-04 (Musk Chairman; Kimbal Musk a director). The silence the canonical `timeline.csv` now claims runs
+ **2003-08-01 -> 2004-02-29**; the caveat stands - it is a property of a private company with no filing duty, not
+ evidence of inactivity.]* See §C.2 for what that licence does and does not bear on the founder question.
 
 ### 2. First-financing edge — UNKNOWN, and this pass confirms the probe rather than fixing it
 
@@ -1166,7 +1187,7 @@ because **the filed competitive field is dated, plural, and auditable across pri
 prospectus names four tiers:
 
 * **Premium-brand competition for the buyer**: "competition from other luxury/performance automobile
-  brands in our target market, including **Audi, BMW, Lexus and Mercedes**."
+  brands in our target market, including **Audi, BMW, Lexus and Mercedes**." *[NOT A VERBATIM QUOTATION - REPAIR 2026-09-30 (tesla-repair-1). What every held printing actually says is: "In addition, upon the launch of our Model S sedan, we will face competition from existing and future automobile manufacturers in the extremely competitive luxury sedan market, including Audi, BMW, Lexus and Mercedes." Only the brand list is carried by the filing: "luxury/performance" occurs 0x across the 80 held .htm/.txt bodies, and the phrase "in our target market" - 56x in those bodies, but always about brand recognition, never about competition - has been spliced into a competition sentence. Read the brands as filed; do not read the market definition as filed.]*
 * **Incumbent electrification programmes**: "General Motors, Toyota, Ford, and Honda, are each selling
   hybrid vehicles"; "General Motors has announced that it is developing the **Chevrolet Volt** … plans to
   begin selling the Chevrolet Volt in 2010"; "**Nissan** has announced that it is developing the **Nissan
@@ -2006,7 +2027,7 @@ manufacturing strategy not on short term profitability**"; the error "would not 
 a reader … that would impact the assessment of the Company's ability to meet their strategic, value creating
 activities"; and the understatement is "a **non-recurring, non-cash charge** which decreases the
 qualitative impact". The chosen action: "**we will correct the error in the three months ending June 30,
-2010**" — a $2.4m prospective catch-up, disclosed as a new MD&A heading and a new Note 17 titled "**Event
+2010**" *[not verbatim as quoted: the 2010-06-08 letter's Conclusion reads "The Company believes the errors are not material to any periods previously presented and will correct the error in the three months ending June 30, 2010" - the first-person subject is the volume's, taken from another sentence. Repair 2026-09-30]* — a $2.4m prospective catch-up, disclosed as a new MD&A heading and a new Note 17 titled "**Event
 Subsequent to the Date of Independent Registered Accountant's Report (Unaudited)**". **Alternative on the
 record: restatement of the FY2009 audited statements; not taken. Actual in-window result: the FY2009
 $(55,740)k net loss that the XBRL and the 10-K later reprint is the uncorrected figure** (P2U-17).
@@ -2026,7 +2047,7 @@ manufactured to specification on the same timeframe and under the same circumsta
 purchasing vehicles outright", and "does not expect its vehicle leasing program to result in the retention
 of larger inventory balances". **Expected result, as filed: no material change to reservation receipts and
 no material liquidity impact. Actual result visible inside the window: the liability holds flat at $26.0m
-from 2009-12-31 to 2010-03-31.** Causality between the two: **mechanism UNKNOWN**, because the carrier gives
+from 2009-12-31 to 2010-03-31.** *[CARRIED AS SUPPORTED on repair 2026-09-30. The merge suppressed this sentence as "not carried as a finding" because it had declared the 2009-12-31 balance UNKNOWN; S4370 and S4372 print it. What the equality of two filed period-ends does NOT establish is any effect of the deposit-policy inversion - the flow was never filed (U.23 residual, section J.3).]* Causality between the two: **mechanism UNKNOWN**, because the carrier gives
 no flow data (§J.3).
 
 **Leasing, February 2010, through a named subsidiary** — a decision to add a financing form the filing had
@@ -2070,7 +2091,7 @@ STATUS: WRITTEN 2026-09-27 — consequences, held strictly to what the window it
 | Deposit-policy inversion + leasing (2010-02 / 2010-04–06) | Reservation liability **flat at $26.0m** 2009-12-31 → 2010-03-31; **$1.8m net new** Model S deposits in Q1 2010; Roadster deposits down to **$6.3m** | 424B4 | Any causal link between the policy change and the flat balance: **mechanism UNKNOWN**, no flow data exists (§J.3) |
 | 1-for-3 reverse split (May 2010) | A 2007 conversion restated from 8,000,000 to **2,666,666** common shares between two printings of one registration | 424B4 vs S-1 | Any economic effect: a split is a share-count act |
 | Materiality election (2010-06-08) | Error disclosure inserted at **Amendment No. 5 (2010-06-15)** and retained in the 424B4; $2.4m recorded in Q2 2010; FY2009 statements **not** restated | CORRESP + printing census (P2-40) | That the FY2009 figures are correct: the company's own filed analysis says SG&A and net loss were **understated by $2.7m** |
-| DOE facility signed (2010-01-20) | **$45.4m** drawn by 2010-06-14 (9.8% of the facility); long-term debt $29,920k actual → **$45,419k** pro forma (Δ **$15,499k** ≈ the $15.5m drawn 2010-04-01 → 2010-06-14); restricted cash **$7,487k → $107,487k** as adjusted (Δ **$100,000k**, exactly the set-aside cap) | 424B4 capitalization table | Access: "we cannot access all of these funds at once" |
+| DOE facility signed (2010-01-20) | **$45.4m** drawn by 2010-06-14 (9.8% of the facility); long-term debt $29,920k actual → **$45,419k** pro forma (Δ **$15,499k** ≈ the $15.5m drawn 2010-04-01 → 2010-06-14); restricted cash **$7,487k → $107,487k** as adjusted (Δ **$100,000k**, exactly the set-aside cap) | 424B4 capitalization table | Access: "we cannot access all of these funds at once" *[elision: the 424B4 prints "We cannot, however, access all of these funds at once, but only over a period of up to three years through periodic draws as eligible costs are incurred" - repair 2026-09-30]* |
 | IPO executed | **$188,842,137** proceeds before expenses to the company; **93,109,393** shares outstanding after offering and placement; stockholders' deficit $(279,297)k → pro forma equity **+$278,521k** as adjusted | 424B4 cover and capitalization | A public-market verdict on the origin (§L.1) |
 | EPA non-compliance through 2009-12-21 | **$275,000** agreed penalty (January 2010) | 424B4 | That compliance is now settled: the same section flags CARB executive orders as a continuing requirement |
 
@@ -2808,6 +2829,11 @@ documentary — UNTRIED entirely**, no scripted route in `tools/`, no hand query
   value is UNKNOWN, the supersession is declined, and Volume 2's "liability held flat across the deposit-policy
   inversion" reading is not carried as a finding. **Volume home:** Volume 1 §F.2 against Volume 2 §G.4, §J.3 and
   §P.2.
+  *[**REPAIR 2026-09-30 (tesla-repair-1)**: the sentence 'both dated figures stand, the 2009-12-31 value is UNKNOWN ... and Volume 2's
+  flat-liability reading is not carried as a finding' is **withdrawn as written**. $26.0m at 2009-12-31 is printed
+  by S4370 and S4372 on this disk - see the merge header's repair paragraph and COR-01. The anchor keeps its id and
+  keeps its place in the 23-row parity count, but it is now a **period-end pair of one filed series**, and the live
+  dispute inside it is only part 2's cross-date supersession claim, which remains declined.]*
 
 ---
 
@@ -2829,9 +2855,51 @@ both in this volume and in the register row that carried the withdrawn or supers
 
 | id | what was withdrawn or superseded | where it lands |
 |---|---|---|
-| `COR-01` | Part 2's claim that its $26.0m refundable-reservation figure **supersedes** part 1's $24.8m. It supersedes a different period-end (2010-03-31 against 2009-09-30), so the supersession is **declined** and the 2009-12-31 value is UNKNOWN | `conflicts.csv` row `U.23`; `quantitative.csv` row "Refundable reservation liability" at 2010-03-31; Volume 1 §F.2 against Volume 2 §G.4/§J.3/§P.2 |
+| `COR-01` | Part 2's claim that its $26.0m refundable-reservation figure **supersedes** part 1's $24.8m. It supersedes a different period-end (2010-03-31 against 2009-09-30), so the supersession is **declined**; the merge's added clause 'and the 2009-12-31 value is UNKNOWN' is **WITHDRAWN on repair 2026-09-30** - the balance is printed by S4370 and S4372 on this disk, and is now its own `quantitative.csv` row | `conflicts.csv` row `U.23`; `quantitative.csv` row "Refundable reservation liability" at 2010-03-31; Volume 1 §F.2 against Volume 2 §G.4/§J.3/§P.2 |
 | `COR-02` | Accession `0001193125-10-099603` labelled "S-1/A No. 3" | `sources.csv` row `S4371`; adjudicated in `conflicts.csv` `U.19` |
 | `COR-03` | "Nothing EDGAR-dated 2003–2008: earliest submission is Form D 2009-04-09" | `sources.csv` row `S4377`; corrected in form, sustained in substance, by `research/A3_intake_regrade.md` |
 | `COR-04` | "Three held exhibits and only three are contemporaneous documents of the period they describe" | `sources.csv` row `S4387`; adjudicated in `conflicts.csv` `U.18` |
 | `COR-05` | "The FY2009 full-year figure is NOT in the S-1" | `quantitative.csv` FY2009 reprinted row; `timeline.csv` row 2010-03-29 |
 | `COR-06` | Three mutually irreconcilable printed denominators for the held corpus (76 documents / 24 accessions; 76 / 28; 85 / 33) | `sources.csv` row `S4378`; measured at close-out to **83 documents across 32 accessions, 59,881,144 B**, with `_MANIFEST.csv` carrying 76 rows across 25 accessions and omitting the 3 corrupted UPLOAD PDFs and the 4 CORRESP letters |
+| `COR-07` | **Repair pass 1 (2026-09-30, `tesla-repair-1`)**: four register statements the held bytes do not support - `validation.csv` put the first Daimler powertrain **shipments** at 2009-05 (the carriers date the agreement's formalisation to May 2009 and the shipments to **November 2009**); three `quantitative.csv` rows cited a **$0.493** per-share figure to `S4372`, which prints **$0.49** and never $0.493, and mixed the pre-split 8,000,000 with that carrier's 2,666,666; `timeline.csv`'s silence row said `no dated corporate act of any kind` across an interval its own three rows occupy; `sources.csv` claimed an aliased emission survived with `nothing dropped" and `S4390` claimed CDX rows for a directory holding none | `validation.csv`, `quantitative.csv`, `timeline.csv`, `sources.csv`, `failures.csv`, `data_gaps.csv`; and the "Stage-1 repair pass 1" block below |
+
+
+---
+
+## Stage-1 repair pass 1 (2026-09-30, `tesla-repair-1`) — STATUS: WRITTEN
+
+**Web calls: 0 made, 0 permitted. No new source row was minted for a phrase, and no figure in this section was
+taken from off this disk.** This pass answered the five blockers of `03_quality_control/tesla_s1_audit1.md`; its
+sheet is the work order and `03_quality_control/tesla_s1_repair_pass1.md` is its own account.
+
+**1. The false null (BLOCKER-1).** The merge declared the 2009-12-31 refundable-reservation balance UNKNOWN in
+four places - `conflicts.csv` `U.23`, `CORRECTIONS.md` COR-01, `stage_1_index.md`, and merge notes section 7 -
+while the bytes it held printed it. Retired at the two instruction-layer homes this pass owns (the merge-notes
+file belongs to the merge pass and is left for its owner; see the repair sheet). The value now has its own
+`quantitative.csv` row, `U.23` is re-graded as a period-end pair of one filed series, and COR-01 is superseded
+**in place** so the wrong claim stays readable. Part 2's cross-date supersession remains DECLINED: that half of
+the adjudication was right and is untouched.
+
+**2-5.** `validation.csv`'s Daimler row moved to **2009-11** (the carriers date the agreement's formalisation to
+May 2009 and the first shipments to November 2009; claim record `P1-28` and `timeline.csv` already said so - the
+register was the wrong side of a register-vs-volume pair). Three `quantitative.csv` rows were re-pointed off
+`S4372`, which prints **$0.49** and never $0.493, with both split bases stated per RD-125. `_MANIFEST.md` was
+re-added and de-duplicated. `timeline.csv`'s silence row is narrowed to **2003-08-01 -> 2004-02-29**, because
+three of its own rows sit in the range it claimed empty.
+
+**What is deliberately NOT rewritten.** The two part bodies carried verbatim into Volume 1 and Volume 2 are part
+of protected history: every repair inside them is a **bracketed annotation appended to the sentence it corrects**
+(the `U.23` anchor, the section H competition quotation, the section P.2 flat-liability sentence, the section Q
+DOE access line, the section P error-correction quotation), never a substitution - a correction is itself a claim,
+so the original words stay on the page under the tag. `_parts/s1_p1.md` and `_parts/s1_p2.md` are untouched:
+they already carry their SUPERSEDED notices and are read-only to this pass. The printed register emissions inside
+both volumes are likewise left as emitted; the canonical registers at the company root are the corrected copy.
+
+**A repair pass cannot certify its own work (method 15.6, AUDIT-rule 1).** The gate was re-run and is reported in
+the repair sheet; **a different agent must re-certify Stage 1**, and until it does this company's verdict line
+stands at PASS-WITH-FINDINGS on the audit sheet, not at CERTIFIED.
+
+**Measured after the last write** (see `_MANIFEST.md`, regenerated after this section, for the per-file table):
+registers **210 rows** across nine files = 24 sources / 62 quantitative / 46 timeline / 23 conflicts / 16
+data_gaps / 9 decisions / 9 validation / 11 failures / 10 channels; anchors **23 <-> 23** with `U.23` re-graded
+and no anchor added or removed; this volume's word count is re-measured on the written bytes.
