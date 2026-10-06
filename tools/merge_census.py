@@ -56,6 +56,31 @@ def headers(company_dir):
     return out
 
 
+FAIL_HINT = re.compile(r"\b(loss|lost|failure|failed|recall|layoff|laid off|breach|deficit|shortfall|"
+                       "unsupported|cancellat|repriced|restate[d]? error|control deficiency|went dark|"
+                       "unable to|refused|rejected|writeoff|write-off)\b", re.I)
+VAL_HINT = re.compile(r"\b(verif|cross-check|recomput|reconcil|tie[sd]? |match(es)? |confirm|check|"
+                      "independently|arith|foot(s|ing)? )\b", re.I)
+
+
+def hint_validation_or_failures(rows):
+    """Split-score the one schema pair `match_register` can never separate.
+
+    `validation.csv` and `failures.csv` are byte-identical in their 11 columns, so every merge this run has
+    reported its most important rows as AMBIGUOUS and hand-attributed them by reading: Nvidia 3 of 10 blocks,
+    Tesla 20 rows, Microsoft 11. This is a HINT for a human or an agent to adjudicate -- content words are not
+    proof, and a row describing an incurred operational failure inside a validation block is exactly the misfile
+    a keyword split would have caught the other way. It never claims to decide.
+    """
+    out = []
+    for r in rows:
+        txt = " ".join(c for c in r if c)
+        f, v = len(FAIL_HINT.findall(txt)), len(VAL_HINT.findall(txt))
+        out.append(("failures?" if f > v else "validation?" if v > f else "either")
+                   + " | " + txt[:110])
+    return out
+
+
 def match_register(hdr_cells, schemas):
     """Attribute a block to a register by column-set overlap only. Ambiguity is a finding."""
     cells = [c.strip().strip('"').lower() for c in hdr_cells]
@@ -112,7 +137,10 @@ def census(company_dir, schemas, verbose=False):
                                      "no >=50% column overlap with any register schema"))
                 continue
             if str(fname).startswith("AMBIGUOUS"):
-                unattributed.append((os.path.basename(p), len(rows) - 1, str(fname)))
+                digest = "; ".join(hint_validation_or_failures(data))
+                unattributed.append((os.path.basename(p), len(rows) - 1,
+                                     "%s -- HINTS (content words, not proof; adjudicate by row): %s"
+                                     % (fname, digest[:1400])))
                 continue
             hdr = [c.strip().lower() for c in rows[0]]
             # Only registers with a real primary key can be censused by key. `timeline`
