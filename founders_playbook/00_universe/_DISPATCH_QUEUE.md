@@ -92,3 +92,13 @@ GATE: gates.py --company-dir founders_playbook/01_companies/company_019_centene 
 6. **UPS: 19/19 `TIER1_CANDIDATE` items were bare-word "ups" decoys** (CIA "FOLLOW UPS", NASA SEV-UPS, ERIC,
    "Blow-ups"). The mine's classifier is right; the *tier stamp* in the harvest index is not evidence. Any
    dossier quoting a TIER1_CANDIDATE count as family support is reading a detector's label as a finding.
+
+7. **`sec_intake.py` has no ALIAS map, `harvest_mine.py` does (RD-133).** The BofA probe measured the
+   asymmetry precisely: seven name forms all return `NO-MATCH (0 candidates)` for slug `bofa`, while the mine
+   holds 12-13 entity-bearing documents for it, because the mine knows `Bank of America`->`bofa` and the
+   intake does not know the reverse. EDGAR's only answer is **CIK 0000070858 `BANK OF AMERICA CORP /DE/`**
+   (formerNames `BANKAMERICA CORP/DE/`, `NATIONSBANK CORP`) -- i.e. the 1998 NationsBank/MBNA Delaware
+   continuation is the registrant, and both the 1904 California line and the 1791/1802 Boston line are
+   ancestors. Import `scaffold_company.ALIAS` (reversed) into `resolve_name`, or take `--alias` from the
+   command line; every abbreviated slug (`bofa gm jnj rtx att ups`) currently depends on the orchestrator
+   remembering to pass a CIK.
