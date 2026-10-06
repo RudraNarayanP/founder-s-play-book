@@ -19,10 +19,10 @@ where they point into another company's split set.
 
 ## Anchor ranges
 
-**Declared: `<!-- ANCHORS: U.001-U.037 -->` — 37 anchors, carried verbatim from volume 2's assembly note.**
+**Declared: `<!-- ANCHORS: U.001-U.037, U.101-U.103 -->` — 40 anchors, re-read from the carrier at `stage_1.md:1078` on 2026-10-06 (round-4/N-2). The 37 anchors (`U.001-U.037`) carried verbatim from volume 2's assembly note were the declared set at the merge and are retained here as that state's dated census (§14 rule 4), not as the current count.**
 Volume 1 minted none, so no re-keying of the declared set was needed and `U.101-up` (the range volume 2
-reserved against a sibling that had not yet written) was left unused. Coverage, checked mechanically
-(`gates.py --checks anchors`: 37 narrative anchors ↔ 37 register anchors):
+reserved against a sibling that had not yet written) **was left unused at the merge and is in use now: COR-24/RB-7 minted `U.101`, `U.102` and `U.103` on 2026-09-30 as keys for three formerly-unkeyed `data_gaps.csv` rows, and the declaration at `stage_1.md:1078` extended to match.** Coverage, checked mechanically
+(`gates.py --checks anchors`: **40 narrative anchors ↔ 40 register anchors**, 46 distinct ids resolving — the gate this pass re-ran, `03_quality_control/target_s1_gates_round4.md`; the 37 ↔ 37 parity published here was the merge-state census, superseded and kept visible per §14 rule 4, and §14 rule 12 is why the correction costs more than it looks: a reader counting anchors from the stale line would "discover" three register rows with no anchor and chase a defect that is only a stale pointer):
 
 | range | what it holds | where the register row lives |
 |---|---|---|
@@ -32,8 +32,8 @@ reserved against a sibling that had not yet written) was left unused. Coverage, 
 | U.030–U.037 | UNTRIED routes, each with the command or archive that would settle it | `data_gaps.csv` |
 
 Register cells that pointed at §U's *subsection numbers* (`section U.1` etc.) are not anchor citations; the 16
-such cells were rewritten as block names so the parity test means what it says. `U.0`–`U.5` and the reserved
-`U.101` remain as narrative prose only, and the gate reports them ADVISORY, not as defects.
+such cells were rewritten as block names so the parity test means what it says. `U.0`–`U.5` and the (formerly reserved)
+`U.101`–`U.103`, minted by COR-24/RB-7 on 2026-09-30, are **live gap keys** citing three real `data_gaps.csv` rows (1963-64 openings, 1962-65 cost/land/vendor, payroll/wages/headcount); the reservation wording stood here until this pass and is retained as the pre-COR-24 state (§14 rule 4). `U.0`–`U.5` remain narrative prose only, and the gate reports them ADVISORY, not as defects. **Do not read "reserved" as current: `stage_1.md:1078` declares 40 ids and `stage_1.md:2298` says 40 declared.**
 
 ## Register counts (company root, all nine present)
 

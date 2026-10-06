@@ -71,6 +71,20 @@
     "why": "The host the company itself told investors to visit; CDX matchType=domain on the apex already returns www URLs, so this entry tests whether the host form enumerates differently.",
     "source_line": "founders_playbook/01_companies/company_011_microsoft/sources/sec/0000891020-96-001130_0000891020-96-001130.txt:268 ('the Internet on www.microsoft.com'), 0000898430-97-002409_0000898430-97-002409.txt:754 (www.microsoft.com/msft/)"
    }
+  ],
+  "target": [
+   {
+    "domain": "dhc.com",
+    "window": "1996-2002",
+    "why": "Family (b) is TRIED-UNANSWERED for Target, not UNTRIED: the manual CDX leg ran (U.026) and returned an Internet Archive outage body, never a capture. This is the registrant's own pre-rename domain, printed twice on the face of the FY1998 report, and Wayback's own floor is mid-1996, so the window opens there. NO run from this entry can produce in-window 1962-1975 Tier-1 text and the T2 verdict does not move whatever it returns -- the entry exists to close the scripted-route gap under 15.1, not to re-price a tier.",
+    "source_line": "founders_playbook/01_companies/company_042_target/sources/corporate_print/1998_annual_report_djvu.txt L4224 ('Information about Dayton Hudson is also available on the internet at www.dhc.com') and L4284 ('(612) 370-6948 www.dhc.com'); 2 occurrences in the layer; registered as sources.csv S4224 (added 2026-09-30 under COR-20); cited by data_gaps.csv U.026. Provenance raised 2026-10-06 by round-4/N-5."
+   },
+   {
+    "domain": "target.com",
+    "window": "1996-2002",
+    "why": "The post-1999-rename registrant domain named on the face of the FY2000 report, the sibling leg of the same U.026 CDX request. Same ceiling as dhc.com: a family-(b) ceiling test over the window the archive can actually reach, never an in-window Tier-1 route for a 1962-1975 stage.",
+    "source_line": "founders_playbook/01_companies/company_042_target/sources/corporate_print/2000_annual_report_djvu.txt L3743 ('on the Internet at www.target.com') and L3827 ('777 Nicollet Mall, Minneapolis, Minnesota 55402, 612.370.6948, www.target.com'); 2 occurrences in the layer; registered as sources.csv S4225 (COR-20); cited by data_gaps.csv U.026. Provenance raised 2026-10-06 by round-4/N-5."
+   }
   ]
  }
 }

@@ -1,0 +1,23 @@
+{
+ "url": "http://www.dhc.com:80/about/vendor.asp",
+ "timestamp": "20020109061457",
+ "requested_url": "https://web.archive.org/web/20020109061457id_/http://www.dhc.com:80/about/vendor.asp",
+ "http_status": 200,
+ "bytes": 19849,
+ "sha256": "0ca0f567853f5fa4af34d8fde8c29220ce441d8f83b7a3aa25f6f0ea10d48e85",
+ "transport": "ok",
+ "verdict": "ANSWERED",
+ "mimetype": "text/html",
+ "cdx_length": "6214",
+ "cdx_digest": "6VMQ7ID7LXUIIKPCK5MVLCZBXABTDXDI",
+ "family": "(b) web archives",
+ "fetched_utc": "2026-10-06T13:26:19Z",
+ "domain": "dhc.com",
+ "window": "1996-2002",
+ "slug": "target",
+ "company_dir": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_042_target",
+ "why": "Family (b) is TRIED-UNANSWERED for Target, not UNTRIED: the manual CDX leg ran (U.026) and returned an Internet Archive outage body, never a capture. This is the registrant's own pre-rename domain, printed twice on the face of the FY1998 report, and Wayback's own floor is mid-1996, so the window opens there. NO run from this entry can produce in-window 1962-1975 Tier-1 text and the T2 verdict does not move whatever it returns -- the entry exists to close the scripted-route gap under 15.1, not to re-price a tier.",
+ "source_line": "founders_playbook/01_companies/company_042_target/sources/corporate_print/1998_annual_report_djvu.txt L4224 ('Information about Dayton Hudson is also available on the internet at www.dhc.com') and L4284 ('(612) 370-6948 www.dhc.com'); 2 occurrences in the layer; registered as sources.csv S4224 (added 2026-09-30 under COR-20); cited by data_gaps.csv U.026. Provenance raised 2026-10-06 by round-4/N-5.",
+ "cdx_url": "https://web.archive.org/cdx/search/cdx?url=dhc.com&matchType=domain&from=1996&to=2002&output=text&fl=timestamp,original,mimetype,statuscode,length,digest&collapse=timestamp%3A6&limit=500",
+ "path": "dhc.com_20020109061457.html"
+}
