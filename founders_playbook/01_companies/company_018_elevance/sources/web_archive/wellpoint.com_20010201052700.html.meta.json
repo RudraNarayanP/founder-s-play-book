@@ -1,0 +1,23 @@
+{
+ "url": "http://wellpoint.com:80/",
+ "timestamp": "20010201052700",
+ "requested_url": "https://web.archive.org/web/20010201052700id_/http://wellpoint.com:80/",
+ "http_status": 200,
+ "bytes": 1198,
+ "sha256": "ab3fe0b59591fba89cf9ffc7d9be3a897ca8d3893597cccc4e8c64e45bcc7174",
+ "transport": "ok",
+ "verdict": "ANSWERED",
+ "mimetype": "text/html",
+ "cdx_length": "803",
+ "cdx_digest": "HYQQB6HYDBTU6SLZM5VCVSPSOQRXLR6J",
+ "family": "(b) web archives",
+ "fetched_utc": "2026-10-06T12:42:20Z",
+ "domain": "wellpoint.com",
+ "window": "1996-2014",
+ "slug": "elevance",
+ "company_dir": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_018_elevance",
+ "why": "Successor-name domain in the same FR-6 request; a rename means the earlier bytes may sit under either name, so both are tried.",
+ "source_line": "founders_playbook/01_companies/company_018_elevance/research/A_chronology_feasibility.md l.262-263 and l.308 (FR-6)",
+ "cdx_url": "https://web.archive.org/cdx/search/cdx?url=wellpoint.com&matchType=domain&from=1996&to=2014&output=text&fl=timestamp,original,mimetype,statuscode,length,digest&collapse=timestamp%3A6&limit=500",
+ "path": "wellpoint.com_20010201052700.html"
+}

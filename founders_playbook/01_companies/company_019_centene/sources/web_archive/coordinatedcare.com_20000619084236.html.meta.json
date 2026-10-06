@@ -1,0 +1,23 @@
+{
+ "url": "http://www.coordinatedcare.com:80/",
+ "timestamp": "20000619084236",
+ "requested_url": "https://web.archive.org/web/20000619084236id_/http://www.coordinatedcare.com:80/",
+ "http_status": 200,
+ "bytes": 6310,
+ "sha256": "15efc8e5f68a3a57179d928ecb8298a62972acb02b6a9bc65ca700fd2cebf4ba",
+ "transport": "ok",
+ "verdict": "ANSWERED",
+ "mimetype": "text/html",
+ "cdx_length": "1234",
+ "cdx_digest": "JVZHLVRZW5A6LPUEO2JUHIHKBSLS4ZUG",
+ "family": "(b) web archives",
+ "fetched_utc": "2026-10-06T12:30:05Z",
+ "domain": "coordinatedcare.com",
+ "window": "1996-2002",
+ "slug": "centene",
+ "company_dir": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_019_centene",
+ "why": "Predecessor/operating-plan domain named in the same FR-1 request; Centene's growth was through health-plan acquisitions, so an alias domain can carry in-window text the parent domain does not.",
+ "source_line": "founders_playbook/01_companies/company_019_centene/research/A_chronology_feasibility.md l.88 and l.97 (FR-1)",
+ "cdx_url": "https://web.archive.org/cdx/search/cdx?url=coordinatedcare.com&matchType=domain&from=1996&to=2002&output=text&fl=timestamp,original,mimetype,statuscode,length,digest&collapse=timestamp%3A6&limit=500",
+ "path": "coordinatedcare.com_20000619084236.html"
+}

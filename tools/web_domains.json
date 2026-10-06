@@ -1,0 +1,76 @@
+{
+ "_provenance_note": "Family (b) web-archive domain ledger for tools/cdx_intake.py. Every entry MUST cite where the domain came from (a filing line in this repo's sources/, or a dossier/probe line): a domain invented by the tool is a lead with no provenance. This file deliberately does NOT live in tools/queries.json, which belongs to the harvest lanes; adding a family here does not re-write their 427 tasks. `window` is YYYY-YYYY and is the CDX from/to range. Slugs with no entry here are UNTRIED, not NULL -- cdx_intake.py writes an UNTRIED record for them.",
+ "_states": "ANSWERED = bytes stored with sidecar; NULL = CDX answered 200 with zero captures in the window; UNANSWERED = 4xx/5xx/timeout/challenge, endpoint refused so the window was never tested; UNTRIED = no domain supplied / budget unspent.",
+ "slugs": {
+  "centene": [
+   {
+    "domain": "centene.com",
+    "window": "1996-2002",
+    "why": "Stage 1/2 web presence of the registrant itself; the probe called family (b) the cheapest way to open a genuine second in-window Tier-1 family because the filings here are one self-reciting lineage.",
+    "source_line": "founders_playbook/01_companies/company_019_centene/research/A_chronology_feasibility.md l.88 and l.97 (FR-1: CDX snapshot set for centene.com + coordinatedcare.com over 1996-01-01..2002-12-31); domain self-declared in sources/sec/0000950109-01-504218_ds1.txt:374 'The address of our Web site is www.centene.com'"
+   },
+   {
+    "domain": "coordinatedcare.com",
+    "window": "1996-2002",
+    "why": "Predecessor/operating-plan domain named in the same FR-1 request; Centene's growth was through health-plan acquisitions, so an alias domain can carry in-window text the parent domain does not.",
+    "source_line": "founders_playbook/01_companies/company_019_centene/research/A_chronology_feasibility.md l.88 and l.97 (FR-1)"
+   }
+  ],
+  "cencora": [
+   {
+    "domain": "amerisource.com",
+    "window": "1994-2001",
+    "why": "IPO-era registrant domain, printed as the offering's own web address in the S-4.",
+    "source_line": "founders_playbook/01_companies/company_010_cencora/sources/sec/0000893220-01-500258_w48458s-4.txt lines 839 and 1832 ('http://www.amerisource.com'), also l.231 email contact mkilpatric@amerisource.com"
+   },
+   {
+    "domain": "bergenbrunswig.com",
+    "window": "1994-2001",
+    "why": "Acquired-party domain named on the face of the same S-4; the 1995 Bergen Brunswig acquisition is why a second domain may hold in-window bytes the survivor's domain does not.",
+    "source_line": "founders_playbook/01_companies/company_010_cencora/sources/sec/0000893220-01-500258_w48458s-4.txt lines 850 and 1855 ('http://www.bergenbrunswig.com'), also l.762 donna.dolan@bergenbrunswig.com"
+   }
+  ],
+  "elevance": [
+   {
+    "domain": "anthem.com",
+    "window": "1996-2014",
+    "why": "Family (b) is entirely UNTRIED for this company (0 calls); the dossier names an anthem.com CDX pass as the obvious second family for the IPO-era window.",
+    "source_line": "founders_playbook/01_companies/company_018_elevance/research/A_chronology_feasibility.md l.220 (UNTRIED), l.262-263 ('(b) web archives -- entirely. 0 calls. Remedy: CDX pass over anthem.com, wellpoint.com, bcbskc.org ... 1996-2014'), l.308 (FR-6)"
+   },
+   {
+    "domain": "wellpoint.com",
+    "window": "1996-2014",
+    "why": "Successor-name domain in the same FR-6 request; a rename means the earlier bytes may sit under either name, so both are tried.",
+    "source_line": "founders_playbook/01_companies/company_018_elevance/research/A_chronology_feasibility.md l.262-263 and l.308 (FR-6)"
+   },
+   {
+    "domain": "bcbskc.org",
+    "window": "1996-2014",
+    "why": "Blue Cross Blue Shield of Kansas City, an Anthem-affiliated plan domain named in the same remedy line; a .org plan domain can hold in-window local text the holding company never published.",
+    "source_line": "founders_playbook/01_companies/company_018_elevance/research/A_chronology_feasibility.md l.262-263 and l.308 (FR-6)"
+   }
+  ],
+  "marathon": [
+   {
+    "domain": "marathonpetroleum.com",
+    "window": "2011-2015",
+    "why": "The registrant's own web address after the 2011 spin; family (b) is otherwise unscripted for this company, so the window starts at the date the company dir's own evidence puts the domain in service.",
+    "source_line": "founders_playbook/01_companies/company_030_marathon/sources/sec/0001193125-11-289701_0001193125-11-289701.txt:891 ('http://www.marathonpetroleum.com'), l.877 (ir.marathonpetroleum.com)"
+   }
+  ],
+  "microsoft": [
+   {
+    "domain": "microsoft.com",
+    "window": "1994-2002",
+    "why": "The only company holding family-(b) artefacts on disk, and both are 503 banners: the earliest capture is NOT ESTABLISHED, so the route has never actually answered.",
+    "source_line": "founders_playbook/01_companies/company_011_microsoft/research/A_chronology_feasibility.md l.121 and l.204 ('Earliest capture of microsoft.com: NOT ESTABLISHED'); prior ad-hoc sidecars sources/web_archive/cdx_microsoft_com_earliest_200.json.sidecar.json and ..._retry.json.sidecar.json (both http_status 503, verdict UNANSWERED)"
+   },
+   {
+    "domain": "www.microsoft.com",
+    "window": "1994-2002",
+    "why": "The host the company itself told investors to visit; CDX matchType=domain on the apex already returns www URLs, so this entry tests whether the host form enumerates differently.",
+    "source_line": "founders_playbook/01_companies/company_011_microsoft/sources/sec/0000891020-96-001130_0000891020-96-001130.txt:268 ('the Internet on www.microsoft.com'), 0000898430-97-002409_0000898430-97-002409.txt:754 (www.microsoft.com/msft/)"
+   }
+  ]
+ }
+}

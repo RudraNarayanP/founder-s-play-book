@@ -1,0 +1,23 @@
+{
+ "url": "http://amerisource.com:80/",
+ "timestamp": "19970111113054",
+ "requested_url": "https://web.archive.org/web/19970111113054id_/http://amerisource.com:80/",
+ "http_status": 200,
+ "bytes": 906,
+ "sha256": "d760f16a19bf57eaed2bdffaaae9ca9d1cf689146de829414b85f4bf210e3453",
+ "transport": "ok",
+ "verdict": "ANSWERED",
+ "mimetype": "text/html",
+ "cdx_length": "649",
+ "cdx_digest": "42DYG6TUOATN5AV3DZDMF2T7VYKHTE22",
+ "family": "(b) web archives",
+ "fetched_utc": "2026-10-06T12:30:16Z",
+ "domain": "amerisource.com",
+ "window": "1994-2001",
+ "slug": "cencora",
+ "company_dir": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_010_cencora",
+ "why": "IPO-era registrant domain, printed as the offering's own web address in the S-4.",
+ "source_line": "founders_playbook/01_companies/company_010_cencora/sources/sec/0000893220-01-500258_w48458s-4.txt lines 839 and 1832 ('http://www.amerisource.com'), also l.231 email contact mkilpatric@amerisource.com",
+ "cdx_url": "https://web.archive.org/cdx/search/cdx?url=amerisource.com&matchType=domain&from=1994&to=2001&output=text&fl=timestamp,original,mimetype,statuscode,length,digest&collapse=timestamp%3A6&limit=500",
+ "path": "amerisource.com_19970111113054.html"
+}

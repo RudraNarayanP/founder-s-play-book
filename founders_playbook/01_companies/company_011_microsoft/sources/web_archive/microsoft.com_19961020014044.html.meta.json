@@ -1,0 +1,23 @@
+{
+ "url": "http://www.microsoft.com:80/",
+ "timestamp": "19961020014044",
+ "requested_url": "https://web.archive.org/web/19961020014044id_/http://www.microsoft.com:80/",
+ "http_status": 200,
+ "bytes": 10491,
+ "sha256": "a3b63b240b56b221bb15fac32b5d4e131b9d8bfba8820fd8a64dd1a009623c34",
+ "transport": "ok",
+ "verdict": "ANSWERED",
+ "mimetype": "text/html",
+ "cdx_length": "3852",
+ "cdx_digest": "5KK2M3BWIYVWFB2LMGGE3HKQUMHAMYBM",
+ "family": "(b) web archives",
+ "fetched_utc": "2026-10-06T12:39:57Z",
+ "domain": "microsoft.com",
+ "window": "1994-2002",
+ "slug": "microsoft",
+ "company_dir": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_011_microsoft",
+ "why": "The only company holding family-(b) artefacts on disk, and both are 503 banners: the earliest capture is NOT ESTABLISHED, so the route has never actually answered.",
+ "source_line": "founders_playbook/01_companies/company_011_microsoft/research/A_chronology_feasibility.md l.121 and l.204 ('Earliest capture of microsoft.com: NOT ESTABLISHED'); prior ad-hoc sidecars sources/web_archive/cdx_microsoft_com_earliest_200.json.sidecar.json and ..._retry.json.sidecar.json (both http_status 503, verdict UNANSWERED)",
+ "cdx_url": "https://web.archive.org/cdx/search/cdx?url=microsoft.com&matchType=domain&from=1994&to=2002&output=text&fl=timestamp,original,mimetype,statuscode,length,digest&collapse=timestamp%3A6&limit=500",
+ "path": "microsoft.com_19961020014044.html"
+}

@@ -1,0 +1,23 @@
+{
+ "url": "http://www.marathonpetroleum.com/",
+ "timestamp": "20110207202905",
+ "requested_url": "https://web.archive.org/web/20110207202905id_/http://www.marathonpetroleum.com/",
+ "http_status": 200,
+ "bytes": 36168,
+ "sha256": "0f7161d8ede78881323cee1b25746f7ca10a74142ce6d8aff3659d77b1a0cc2a",
+ "transport": "ok",
+ "verdict": "ANSWERED",
+ "mimetype": "text/html",
+ "cdx_length": "5858",
+ "cdx_digest": "AQSEDX27RACSRBAMTKUCILF3UPXTRMHX",
+ "family": "(b) web archives",
+ "fetched_utc": "2026-10-06T12:41:09Z",
+ "domain": "marathonpetroleum.com",
+ "window": "2011-2015",
+ "slug": "marathon",
+ "company_dir": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_030_marathon",
+ "why": "The registrant's own web address after the 2011 spin; family (b) is otherwise unscripted for this company, so the window starts at the date the company dir's own evidence puts the domain in service.",
+ "source_line": "founders_playbook/01_companies/company_030_marathon/sources/sec/0001193125-11-289701_0001193125-11-289701.txt:891 ('http://www.marathonpetroleum.com'), l.877 (ir.marathonpetroleum.com)",
+ "cdx_url": "https://web.archive.org/cdx/search/cdx?url=marathonpetroleum.com&matchType=domain&from=2011&to=2015&output=text&fl=timestamp,original,mimetype,statuscode,length,digest&collapse=timestamp%3A6&limit=500",
+ "path": "marathonpetroleum.com_20110207202905.html"
+}

@@ -1,0 +1,23 @@
+{
+ "url": "http://bergenbrunswig.com:80/corporate/executive/robert_e.cfm",
+ "timestamp": "20000120054232",
+ "requested_url": "https://web.archive.org/web/20000120054232id_/http://bergenbrunswig.com:80/corporate/executive/robert_e.cfm",
+ "http_status": 200,
+ "bytes": 4109,
+ "sha256": "4ad3b701338ac5effbdefff95c0b95af8a984c4019bba1381d22d5a52acaa7f6",
+ "transport": "ok",
+ "verdict": "ANSWERED",
+ "mimetype": "text/html",
+ "cdx_length": "1729",
+ "cdx_digest": "ZHCZWCPLEJDQWDCTVRSHYMF5MBFXWUQO",
+ "family": "(b) web archives",
+ "fetched_utc": "2026-10-06T12:30:39Z",
+ "domain": "bergenbrunswig.com",
+ "window": "1994-2001",
+ "slug": "cencora",
+ "company_dir": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_010_cencora",
+ "why": "Acquired-party domain named on the face of the same S-4; the 1995 Bergen Brunswig acquisition is why a second domain may hold in-window bytes the survivor's domain does not.",
+ "source_line": "founders_playbook/01_companies/company_010_cencora/sources/sec/0000893220-01-500258_w48458s-4.txt lines 850 and 1855 ('http://www.bergenbrunswig.com'), also l.762 donna.dolan@bergenbrunswig.com",
+ "cdx_url": "https://web.archive.org/cdx/search/cdx?url=bergenbrunswig.com&matchType=domain&from=1994&to=2001&output=text&fl=timestamp,original,mimetype,statuscode,length,digest&collapse=timestamp%3A6&limit=500",
+ "path": "bergenbrunswig.com_20000120054232.html"
+}

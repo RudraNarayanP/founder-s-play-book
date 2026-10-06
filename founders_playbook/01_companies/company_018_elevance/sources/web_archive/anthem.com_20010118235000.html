@@ -1,0 +1,146 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft Visual Studio 6.0">
+<TITLE></TITLE>
+</HEAD>
+<SCRIPT LANGUAGE="JAVASCRIPT">
+   var today=new Date();
+   var time_display = today.getHours()
+   var year_display = today.getYear()
+   if (year_display <1000) {
+	year_display = year_display + 1900;
+	}
+	   
+   if(today.getMinutes() < 10){
+       time_display +=":0" + today.getMinutes();
+   }
+   else{
+       time_display+=":" + today.getMinutes();
+   }
+   
+   if (today.getSeconds() < 10){
+       time_display+=":0" + today.getSeconds();
+   }   
+   else{
+       time_display+=":" + today.getSeconds();
+   }
+   
+   if(today.getHours()>=12){
+         time_display+=" PM" 
+   }   
+   else{
+         time_display+=" AM"
+   }
+   
+   var weekday_array = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+   var month_array = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+    
+   var date_display = (weekday_array[today.getDay()] + ",&nbsp;" + month_array[today.getMonth()] + "&nbsp;" + today.getDate() + ",&nbsp;" + year_display);
+   
+	function show_date(){
+		document.write(date_display);   
+}
+
+	function show_time(){
+		document.write(time_display);   
+}
+
+function redirect_main() {
+	top.window.frames[2].location = document.forms[0].Search_Text.value;
+}
+</SCRIPT>
+<BODY bgcolor="#FFFFFF" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
+<table border="0" cellpadding="0" cellspacing="0" width="711" align="center">
+	<tr valign="top" align="left">
+		<td width="10"><img src="redesign/images/spacer.gif" width="711" height="50"></td>
+	</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="711" align="center">
+	<tr valign="top" align="left">
+		<td width="26"><img src="redesign/images/spacer.gif" width="26" height="1" border="0"></td>
+		<td>
+			<table border="0" cellpadding="0" cellspacing="0" width="685">
+				<tr valign="top" align="left">
+					<td width="685">
+						<table border="0" width="685" cellpadding="0" cellspacing="0">
+							<tr valign="top" align="left">
+								<td><font face="Verdana,Arial,Helvetica" size="1"><b><script>show_date()</script>&nbsp;</b></font></td>
+								<td width="100%">&nbsp;</td>
+								<td width="273"><img src="redesign/images/splash_welcome.gif" border="0" width="273" height="15"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr valign="top" align="left">
+					<td width="685"><img src="redesign/images/splash_anthem_block.gif" width="685" height="134" border="0"></td>
+				</tr>
+				<tr valign="top" align="left">
+					<td width="685">
+						<table width="685" cellspacing="0" cellpadding="0" border="0">
+							<tr valign="top" align="left">
+								<td width="412"><img src="redesign/images/spacer.gif" width="412" height="22" border="0"></td>
+								<td width="273"><img src="redesign/images/splash_select.gif" width="273" height="22" border="0"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr valign="top" align="left">
+					<td width="685">
+						<table border="0" cellspacing="0" cellpadding="0" width="685">
+							<tr valign="top" align="left">
+								<td width="412"><img src="redesign/images/splash_photo.gif" width="412" height="166" border="0"></td>
+								<td width="273">
+									<table width="273" cellpadding="0" cellspacing="0" border="0">
+										<tr valign="top" align="left">
+											<td width="273"><img src="redesign/images/splash_tablelinks_top.gif" width="273" height="13" border="0"></td>
+										</tr>	
+										<tr valign="top" align="left">
+											<td width="273"><a href="http://www.anthem.com/anthem/index.html"><img src="redesign/images/splash_tablelinks_corp.gif" width="273" height="20" border="0"></a></td>
+										</tr>	
+										<tr valign="top" align="left">
+											<td width="273"><a href="/jsp/home.jsp"><img src="redesign/images/splash_tablelinks_blue.gif" width="273" height="20" border="0"></a></td>
+										</tr>	
+										<tr valign="top" align="left">
+											<td width="273"><A HREF="http://www.anthem.com/anthem/affiliates/adminastar/index.html"><img src="redesign/images/splash_tablelinks_administar.gif" width="273" height="20" border="0"></a></td>
+										</tr>	
+										<tr valign="top" align="left">
+											<td width="273"><A HREF="http://www.anthemalliance.com"><img src="redesign/images/splash_tablelinks_alliance.gif" width="273" height="20" border="0"></a></td>
+										</tr>	
+										<tr valign="top" align="left">
+											<td width="273"><A HREF="http://www.anthem.com/anthem/affiliates/anthemhealthny/index.html"><img src="redesign/images/splash_tablelinks_newyork.gif" width="273" height="20" border="0"></a></td>
+										</tr>	
+										<tr valign="top" align="left">
+											<td width="273"><A HREF="http://www.anthem.com/anthem/affiliates/anthemlife/index.html"><img src="redesign/images/splash_tablelinks_life.gif" width="273" height="20" border="0"></a></td>
+										</tr>	
+										<tr valign="top" align="left">
+											<td width="273"><A HREF="http://www.anthemprescription.com/index.html"><img src="redesign/images/splash_tablelinks_prescrip.gif" width="273" height="20" border="0"></a></td>
+										</tr>	
+										<tr valign="top" align="left">
+											<td width="273"><img src="redesign/images/splash_tablelinks_bottom.gif" width="273" height="13" border="0"></td>
+										</tr>	
+									</table>
+								</td>
+							</tr>
+						</table>		
+					</td>
+				</tr>
+				<tr valign="top" align="left" bgcolor="#000000">
+					<td width="685" bgcolor="#000000"><img src="redesign/images/spacer.gif" width="685" height="19" border="0"></td>
+				</tr>
+				<tr valign="top" align="left">
+					<td width="685">
+						<table width="685" cellpadding="0" cellspacing="0" border="0">
+							<tr valign="top" align="left">
+								<td width="565"><img src="redesign/images/spacer.gif" width="565" height="14" border="0"></td>
+								<td width="120"><img src="redesign/images/splash_copyright.gif" width="120" height="14" border="0"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</BODY>
+</HTML>

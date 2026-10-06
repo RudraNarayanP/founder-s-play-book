@@ -1,0 +1,119 @@
+<html>
+<head>
+	<title>Welcome to Anthem.com</title>
+<LINK REL=stylesheet HREF="anthem.css">
+<script language="javascript">
+	var MonthArray = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+	var client_date = new Date; 
+	var dayofmonth = (client_date.getDate() < 10) ? "0" + client_date.getDate().toString() : client_date.getDate().toString()
+	
+function imgswap(imgname, imgsrc) 
+{
+	document.images[imgname].src = imgsrc;
+	return true;
+}
+
+function openPrivacy() {
+	popupWin = window.open('privacy.htm', 'privacy', 'scrollbars,width=380,height=500,left=0,top=0')
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+
+</script>
+<style type="text/css">
+
+	.datetext {font-family:verdana, arial, helvetica; font-size:10px; font-weight:bold; padding-bottom : 4px; color:#A1A1A1;}
+	.body {color:black; font-family:verdana, arial; font-size:10px;}
+
+</style>
+</head>
+<body topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" bgcolor="#FFFFFF">
+<center>
+<table border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" width="685">
+	<tr valign="top"><td colspan="2" bgcolor="#FFFFFF" width="681" height="48"><img src="images/anthem_logo.gif" width="117" height="48" border="0"></td></tr>
+	<tr valign="top">
+		<td bgcolor="#FFFFFF" width="217" height="18"><img src="images/tagline.gif" width="217" height="18" border="0"></td>
+		<td align="right" bgcolor="#FFFFFF"><span class="datetext"><script language="javascript">document.write(dayofmonth + "&nbsp;" + MonthArray[client_date.getMonth()] + "&nbsp;" + client_date.getFullYear());</script></span></td>
+	</tr>
+	<tr valign="top">
+		<td colspan="2" bgcolor="#FFFFFF"><img src="images/privacy_banner.gif" width="685" height="29" border="0"></td>
+	</tr>
+	<tr valign="top">
+		<td colspan="2" bgcolor="#FFFFFF"><img src="images/instructions.gif" width="308" height="27" border="0"></td>
+	</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" width="685">
+	<tr valign="top">
+		<!-- Spacer -->
+		<td bgcolor="#FFFFFF" width="6"><img src="images/spt.gif" width="6" height="1" border="0"></td>
+		<!-- Left Nav -->
+		<td bgcolor="#FFFFFF" width="196">
+			<a href="http://www.anthem.com/jsp/home.jsp" onMouseOver="imgswap('nav_bcbs_go', 'images/nav_bcbs_go_roll.gif')" onMouseOut="imgswap('nav_bcbs_go', 'images/nav_bcbs_go.gif')"><img name="nav_bcbs_go" src="images/nav_bcbs_go.gif" width="196" height="28" border="0"></a><br>
+			<img src="images/white_grey_spacer.gif" width="196" height="8" border="0"><br>
+			<a href="http://www.anthemprescription.com/index.html" onMouseOver="imgswap('nav_prescription_management', 'images/nav_prescription_management_roll.gif')" onMouseOut="imgswap('nav_prescription_management', 'images/nav_prescription_management.gif')"><img name="nav_prescription_management" src="images/nav_prescription_management.gif" width="196" height="18" border="0"><br>
+			<!--<img src="images/nav_grey_spacer.gif" width="196" height="1" border="0"><br>
+			<a href="dental/" onMouseOver="imgswap('nav_dental', 'images/nav_dental_roll.gif')" onMouseOut="imgswap('nav_dental', 'images/nav_dental.gif')"><img name="nav_dental" src="images/nav_dental.gif" width="196" height="18" border="0"><br>
+			<img src="images/nav_grey_spacer.gif" width="196" height="1" border="0"><br>
+			<a href="vision/" onMouseOver="imgswap('nav_vision', 'images/nav_vision_roll.gif')" onMouseOut="imgswap('nav_vision', 'images/nav_vision.gif')"><img name="nav_vision" src="images/nav_vision.gif" width="196" height="18" border="0"><br>-->
+			<img src="images/nav_grey_spacer.gif" width="196" height="1" border="0"><br>
+			<a href="http://www.anthem.com/anthem/affiliates/anthemlife/index.html" onMouseOver="imgswap('nav_life', 'images/nav_life_roll.gif')" onMouseOut="imgswap('nav_life', 'images/nav_life.gif')"><img name="nav_life" src="images/nav_life.gif" width="196" height="18" border="0"><br>
+			<img src="images/nav_grey_spacer.gif" width="196" height="1" border="0"><br>
+			<a href="http://www.anthem.com/anthem/affiliates/adminastar/index.html" onMouseOver="imgswap('nav_administar_federal', 'images/nav_administar_federal_roll.gif')" onMouseOut="imgswap('nav_administar_federal', 'images/nav_administar_federal.gif')"><img name="nav_administar_federal" src="images/nav_administar_federal.gif" width="196" height="18" border="0"><br>
+			<img src="images/nav_grey_spacer.gif" width="196" height="1" border="0"><br>
+			<a href="http://www.anthem.com/anthem/affiliates/anthemhealthny/index.html" onMouseOver="imgswap('nav_health_of_new_york', 'images/nav_health_of_new_york_roll.gif')" onMouseOut="imgswap('nav_health_of_new_york', 'images/nav_health_of_new_york.gif')"><img name="nav_health_of_new_york" src="images/nav_health_of_new_york.gif" width="196" height="18" border="0"><br>
+			<img src="images/nav_grey_spacer.gif" width="196" height="1" border="0"><br>
+			<a href="http://www.anthemtpa.com" target="new" onMouseOver="imgswap('nav_anthem_benefit_admins', 'images/nav_anthem_benefit_admins_roll.gif')" onMouseOut="imgswap('nav_anthem_benefit_admins', 'images/nav_anthem_benefit_admins.gif')"><img name="nav_anthem_benefit_admins" src="images/nav_anthem_benefit_admins.gif" width="196" height="18" border="0"><br>
+			<img src="images/nav_grey_spacer.gif" width="196" height="1" border="0"><br>
+			<a href="http://www.anthem.com/jsp/maroon/demutualization/frameset.jsp" onMouseOver="imgswap('nav_demutualization_info', 'images/nav_demutualization_info_roll.gif')" onMouseOut="imgswap('nav_demutualization_info', 'images/nav_demutualization_info.gif')"><img name="nav_demutualization_info" src="images/nav_demutualization_info.gif" width="196" height="18" border="0"><br>
+			<img src="images/nav_grey_spacer.gif" width="196" height="1" border="0"><br>
+			<a href="http://www.anthem.com/jsp/maroon/investor/frameset.jsp" onMouseOver="imgswap('nav_investor_relations', 'images/nav_investor_relations_roll.gif')" onMouseOut="imgswap('nav_investor_relations', 'images/nav_investor_relations.gif')"><img name="nav_investor_relations" src="images/nav_investor_relations.gif" width="196" height="18" border="0"><br>
+			<img src="images/nav_grey_spacer.gif" width="196" height="1" border="0"><br>
+			<a href="http://www.anthem.com/jsp/maroon/jobs/content.jsp" onMouseOver="imgswap('nav_anthem_jobs', 'images/nav_anthem_jobs_roll.gif')" onMouseOut="imgswap('nav_anthem_jobs', 'images/nav_anthem_jobs.gif')"><img name="nav_anthem_jobs" src="images/nav_anthem_jobs.gif" width="196" height="18" border="0"><br>
+			<img src="images/nav_grey_spacer.gif" width="196" height="1" border="0"><br>
+			<a href="http://www.anthem.com/jsp/maroon/frameset.jsp" onMouseOver="imgswap('nav_anthem_corporate', 'images/nav_anthem_corporate_roll.gif')" onMouseOut="imgswap('nav_anthem_corporate', 'images/nav_anthem_corporate.gif')"><img name="nav_anthem_corporate" src="images/nav_anthem_corporate.gif" width="196" height="18" border="0"><br>
+			<img src="images/nav_grey_spacer.gif" width="196" height="3" border="0"><br>
+		</td>
+		<!-- Spacer -->
+		<td bgcolor="#FFFFFF" width="13"><img src="images/spt.gif" width="13" height="1" border="0"></td>
+		<!-- Meditating Couple -->
+		<td bgcolor="#FFFFFF" width="220"><img src="images/meditation.jpg" width="220" height="242" border="0"></td>
+		<!-- Spacer -->
+		<td bgcolor="#FFFFFF" width="12"><img src="images/spt.gif" width="12" height="1" border="0"></td>
+		<!-- Right Content -->
+		<td bgcolor="#FFFFFF" width="233">
+			<img src="images/welcome_to_anthem.gif" width="233" height="36" border="0"><br>
+			Anthem is one of the nation's leading health care benefits and insurance companies, providing innovative health benefit plans, dental and vision benefits, pharmacy benefit management services, life insurance and workers' compensation benefit management. As the Blue Cross and Blue Shield licensee in eight states, we touch the lives of more than 7.8 million Americans. <br><br><br>
+			<table border="0" cellspacing="0" cellpadding="0" width="233">
+				<tr valign="top">
+					<td colspan="2" bgcolor="#FFFFFF"><img src="images/nav_grey_spacer.gif" width="233" height="3" border="0"></td>
+				</tr>
+				<tr valign="top">
+					<td width="65" height="60"><img src="images/ath_nyse.gif" width="65" height="60" border="0"></td>
+					<td valign="middle">Anthem, Inc. is traded on the New York Stock Exchange (NYSE) under the trading symbol <a href="javascript:MM_openBrWindow('http://www.anthem.com/leavinganthem.html?sLink=http://www.nyse.com','leaving','scrollbars=yes,width=440,height=340');"><font color="#8B1626">ATH</font></a>.</td>
+				</tr>
+				<tr valign="top">
+					<td colspan="2" bgcolor="#FFFFFF"><img src="images/nav_grey_spacer.gif" width="233" height="3" border="0"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td bgcolor="#FFFFFF" colspan="6"><img src="images/spt.gif" width="1" height="10" border="0"></td>
+	</tr>
+	<tr valign="top">
+		<td bgcolor="#FFFFFF" width="6"><img src="images/spt.gif" width="6" height="1" border="0"></td>
+		<td bgcolor="#FFFFFF" colspan="3">
+			Anthem is the Blue Cross and Blue Shield licensee for Indiana, Kentucky, Ohio, Connecticut, New Hampshire, Colorado, Nevada and Maine.<br><br>
+		</td>
+		<td bgcolor="#FFFFFF"><img src="images/spt.gif" width="1" height="1" border="0"></td>
+		<td bgcolor="#FFFFFF" align="right"><a href="javascript:openPrivacy();"><font color="#8B1626">Privacy Statement</font></a></td>
+	</tr>
+	<tr valign="top">
+		<td bgcolor="#FFFFFF" colspan="6"><center>©2002 Copyright of Anthem Insurance Companies, Inc.<br>®Registered marks Blue Cross and Blue Shield Association</center></td>
+	</tr>
+</table>
+</center>
+</body>
+</html>

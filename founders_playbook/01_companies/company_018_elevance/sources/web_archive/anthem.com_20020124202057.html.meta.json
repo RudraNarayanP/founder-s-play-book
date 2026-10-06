@@ -1,0 +1,23 @@
+{
+ "url": "http://www.anthem.com:80/",
+ "timestamp": "20020124202057",
+ "requested_url": "https://web.archive.org/web/20020124202057id_/http://www.anthem.com:80/",
+ "http_status": 200,
+ "bytes": 9862,
+ "sha256": "d81e1b8bd668ffd486d15b8855ddd0ca088f7349f83a96aa677ff05d83a990bc",
+ "transport": "ok",
+ "verdict": "ANSWERED",
+ "mimetype": "text/html",
+ "cdx_length": "2411",
+ "cdx_digest": "R4UGFZSCDOVUDOEDD564LI2UYAHRNZ3K",
+ "family": "(b) web archives",
+ "fetched_utc": "2026-10-06T12:42:07Z",
+ "domain": "anthem.com",
+ "window": "1996-2014",
+ "slug": "elevance",
+ "company_dir": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_018_elevance",
+ "why": "Family (b) is entirely UNTRIED for this company (0 calls); the dossier names an anthem.com CDX pass as the obvious second family for the IPO-era window.",
+ "source_line": "founders_playbook/01_companies/company_018_elevance/research/A_chronology_feasibility.md l.220 (UNTRIED), l.262-263 ('(b) web archives -- entirely. 0 calls. Remedy: CDX pass over anthem.com, wellpoint.com, bcbskc.org ... 1996-2014'), l.308 (FR-6)",
+ "cdx_url": "https://web.archive.org/cdx/search/cdx?url=anthem.com&matchType=domain&from=1996&to=2014&output=text&fl=timestamp,original,mimetype,statuscode,length,digest&collapse=timestamp%3A6&limit=500",
+ "path": "anthem.com_20020124202057.html"
+}

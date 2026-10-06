@@ -1,0 +1,23 @@
+{
+ "url": "http://www.centene.com:80/accompindex.html",
+ "timestamp": "20010111053900",
+ "requested_url": "https://web.archive.org/web/20010111053900id_/http://www.centene.com:80/accompindex.html",
+ "http_status": 200,
+ "bytes": 5429,
+ "sha256": "29f084d46a7b6306568f87e9b0eb8dbaeff9e563a1668f36701d0cd1f9e7ab08",
+ "transport": "ok",
+ "verdict": "ANSWERED",
+ "mimetype": "text/html",
+ "cdx_length": "2436",
+ "cdx_digest": "52JVUSH73GDM7DEONCH3GW3ND7DA4THP",
+ "family": "(b) web archives",
+ "fetched_utc": "2026-10-06T12:34:56Z",
+ "domain": "centene.com",
+ "window": "1996-2002",
+ "slug": "centene",
+ "company_dir": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_019_centene",
+ "why": "Stage 1/2 web presence of the registrant itself; the probe called family (b) the cheapest way to open a genuine second in-window Tier-1 family because the filings here are one self-reciting lineage.",
+ "source_line": "founders_playbook/01_companies/company_019_centene/research/A_chronology_feasibility.md l.88 and l.97 (FR-1: CDX snapshot set for centene.com + coordinatedcare.com over 1996-01-01..2002-12-31); domain self-declared in sources/sec/0000950109-01-504218_ds1.txt:374 'The address of our Web site is www.centene.com'",
+ "cdx_url": "https://web.archive.org/cdx/search/cdx?url=centene.com&matchType=domain&from=1996&to=2002&output=text&fl=timestamp,original,mimetype,statuscode,length,digest&collapse=timestamp%3A6&limit=500",
+ "path": "centene.com_20010111053900.html"
+}

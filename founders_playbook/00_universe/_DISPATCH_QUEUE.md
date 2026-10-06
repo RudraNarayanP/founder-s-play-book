@@ -195,3 +195,20 @@ variants and assert on a known name (`"vacuum oil"` must return something). Add 
 known-positive names and one known-negative, and until it passes, every dossier must treat `search` silence as
 UNANSWERED rather than as absence -- the ExxonMobil probe did exactly that, which is the only reason the defect
 cost a route and not a conclusion.
+
+## Family (b) now exists -- and a Target trap that must be handled before Target is certified again
+
+`tools/cdx_intake.py` is built, self-tested (37 checks / 0 failures) and verified live: 52 snapshot bodies with
+sidecars across centene / cencora / elevance / marathon / microsoft. So **no dossier may write family (b) as
+UNTRIED for a slug present in `tools/web_domains.json` any more**, and every slug absent from that file is
+demonstrably UNTRIED (a run spent 0 requests and wrote nothing). Re-grade priorities named by the build: Centene
+(12 in-window 1999-2002 pages against a purely self-reciting filing lineage), Elevance (anthem.com + wellpoint.com
+now supplied; **bcbskc.org is a tested NULL -- stop retrying it**), Microsoft (earliest capture now measurable;
+`www.microsoft.com` returned the same captures as the apex, so read one set), Marathon (bytes start 2011-02-07 --
+registrant-identity trap), and 8 of 10 enumerations capped at `--limit 500` = a floor, not a census.
+
+**The trap:** `company_042_target/sources/web_archive/cdx_dhc.txt` and `cdx_targetcom.txt` are **byte-identical to
+Microsoft's Internet Archive outage banner** (sha256 `e084d52792…`) and carry **no sidecar**. Any Target pass that
+counts family (b) from those bytes is counting an outage page -- the same class as the RD-132 error-page-as-source
+finding, one shelf over. Whoever owns Target must either retire them with a COR entry or hold family (b) as
+UNANSWERED-with-fetch; it must not stand as a second lineage.

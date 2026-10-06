@@ -1,0 +1,53 @@
+{
+ "tool": "cdx_intake.py",
+ "family": "(b) web archives",
+ "slug": "marathon",
+ "company_dir": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_030_marathon",
+ "generated_utc": "2026-10-06T12:41:24Z",
+ "attempted": 1,
+ "ANSWERED": 1,
+ "NULL": 0,
+ "UNANSWERED": 0,
+ "UNTRIED": 0,
+ "identity": "answered(1) + null(0) + unanswered(0) + untried(0) = 1 raw / 1 unique slots vs attempted(1) -> OK",
+ "identity_ok": true,
+ "double_counted": [],
+ "requests_used": 23,
+ "max_requests": 42,
+ "policy": {
+  "polite_seconds_per_host": 1.0,
+  "transport": "ok / ok-INSECURE stamped per sidecar",
+  "never_write_empty_as_null": true,
+  "UNANSWERED_emits_no_capture_count": true
+ },
+ "rows": [
+  {
+   "slug": "marathon",
+   "domain": "marathonpetroleum.com",
+   "window": "2011-2015",
+   "http_status": 200,
+   "captures": 500,
+   "bytes": 36168,
+   "verdict": "ANSWERED",
+   "note": "500 captures, enumeration hit --limit 500: this is a FLOOR, not a census -- raise --limit before concluding anything about coverage",
+   "remedy": "",
+   "why": "The registrant's own web address after the 2011 spin; family (b) is otherwise unscripted for this company, so the window starts at the date the company dir's own evidence puts the domain in service.",
+   "source_line": "founders_playbook/01_companies/company_030_marathon/sources/sec/0001193125-11-289701_0001193125-11-289701.txt:891 ('http://www.marathonpetroleum.com'), l.877 (ir.marathonpetroleum.com)",
+   "transport": "ok",
+   "cdx_url": "https://web.archive.org/cdx/search/cdx?url=marathonpetroleum.com&matchType=domain&from=2011&to=2015&output=text&fl=timestamp,original,mimetype,statuscode,length,digest&collapse=timestamp%3A6&limit=500",
+   "malformed_rows": 0,
+   "capped": true,
+   "enumerated": 500,
+   "fetch_attempted": 6,
+   "fetch_ranking": "325 of 500 captures keptable (non-200 dropped: 175)",
+   "stored": 6,
+   "already_on_disk": 0,
+   "fetch_failed": 0,
+   "sha256": "0f7161d8ede78881323cee1b25746f7ca10a74142ce6d8aff3659d77b1a0cc2a",
+   "example_timestamp": "20110207202905",
+   "example_status": 200,
+   "url": "http://www.marathonpetroleum.com/",
+   "path": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_030_marathon\\sources\\web_archive\\marathonpetroleum.com_20110207202905.html"
+  }
+ ]
+}

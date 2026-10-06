@@ -1,0 +1,23 @@
+{
+ "url": "http://www.microsoft.com:80/%22onMouseOver=%22window.defaultStatus='';",
+ "timestamp": "20000119025820",
+ "requested_url": "https://web.archive.org/web/20000119025820id_/http://www.microsoft.com:80/%22onMouseOver=%22window.defaultStatus='';",
+ "http_status": 200,
+ "bytes": 9354,
+ "sha256": "79824fdf4610d98730135689bd28400cbdbf907f04d945b98ab9cd0fa0990883",
+ "transport": "ok",
+ "verdict": "ANSWERED",
+ "mimetype": "text/html",
+ "cdx_length": "2599",
+ "cdx_digest": "R7VYZ3NBO3ADL67JTKAAYG5GJMHDCQ5X",
+ "family": "(b) web archives",
+ "fetched_utc": "2026-10-06T12:41:02Z",
+ "domain": "www.microsoft.com",
+ "window": "1994-2002",
+ "slug": "microsoft",
+ "company_dir": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_011_microsoft",
+ "why": "The host the company itself told investors to visit; CDX matchType=domain on the apex already returns www URLs, so this entry tests whether the host form enumerates differently.",
+ "source_line": "founders_playbook/01_companies/company_011_microsoft/sources/sec/0000891020-96-001130_0000891020-96-001130.txt:268 ('the Internet on www.microsoft.com'), 0000898430-97-002409_0000898430-97-002409.txt:754 (www.microsoft.com/msft/)",
+ "cdx_url": "https://web.archive.org/cdx/search/cdx?url=www.microsoft.com&matchType=domain&from=1994&to=2002&output=text&fl=timestamp,original,mimetype,statuscode,length,digest&collapse=timestamp%3A6&limit=500",
+ "path": "www.microsoft.com_20000119025820.html"
+}
