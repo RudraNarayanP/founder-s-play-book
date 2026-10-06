@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22Walton%27s%22+Newport&date1=1945&date2=1955&dateFilterType=yearRange&state=Arkansas",
+ "evidence_file": "c5e2495fec8c626a-r20260930T124559Z.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 85274,
+ "retrieved_at": "2026-09-30T12:46:09Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a433542b7f1a8e9b-SJC",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA \"Walton's\" Newport ARKANSAS 1945-1955",
+ "company": "walmart",
+ "kind": "search"
+}

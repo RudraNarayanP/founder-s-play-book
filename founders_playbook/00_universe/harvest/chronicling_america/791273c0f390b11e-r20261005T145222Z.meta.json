@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=McKesson+Corporation&date1=1960&date2=1995&dateFilterType=yearRange",
+ "evidence_file": "791273c0f390b11e-r20261005T145222Z.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 84986,
+ "retrieved_at": "2026-10-05T14:54:40Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a45d434df9add0cc-IAD",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'McKesson' Irving San Francisco 1960-1995 (HQ-name route)",
+ "company": "mckesson",
+ "kind": "search"
+}

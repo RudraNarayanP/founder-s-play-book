@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=Costco+Seattle&date1=1983&date2=1998&dateFilterType=yearRange&state=Washington&sort=date",
+ "evidence_file": "abb6b199e6e9398a-r20261003T114650Z.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 84977,
+ "retrieved_at": "2026-10-03T11:49:48Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a44bb9c2ef6c4b91-DFW",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'Costco' Seattle WA 1976-1995",
+ "company": "costco",
+ "kind": "search"
+}

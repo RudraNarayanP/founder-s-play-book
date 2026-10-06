@@ -1,0 +1,25 @@
+{
+ "url": "https://catalog.hathitrust.org/api/volumes/brief/htid/pur1.32754078649484.json",
+ "evidence_file": "275f04cc81e5305a-r20261003T114650Z.json",
+ "http_status": 200,
+ "content_type": "application/json; charset=UTF-8",
+ "bytes": 778,
+ "retrieved_at": "2026-10-03T11:47:21Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "text/html,application/xhtml+xml,application/json;q=0.8,*/*;q=0.7"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a44bb62d7fdcfa34-DFW",
+ "retry_after": "",
+ "note": "",
+ "source": "hathitrust",
+ "query_label": "HT CATALOG brief record for htid pur1.32754078649484 (verified 200 JSON, unchallenged)",
+ "company": "walmart",
+ "kind": "catalog"
+}

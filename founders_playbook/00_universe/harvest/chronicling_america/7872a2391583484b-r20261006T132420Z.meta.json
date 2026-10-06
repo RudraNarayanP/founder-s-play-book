@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22Bank+of+America%22+San+Francisco&date1=1900&date2=1980&dateFilterType=yearRange&state=California&sort=date",
+ "evidence_file": "7872a2391583484b-r20261006T132420Z.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 84986,
+ "retrieved_at": "2026-10-06T13:28:17Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a46502235d306e25-IAD",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'Bank of America' San Francisco 1900-1998",
+ "company": "bofa",
+ "kind": "search"
+}

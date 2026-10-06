@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22Fannie+Mae%22+mortgage&date1=1930&date2=1990&dateFilterType=yearRange&sort=date",
+ "evidence_file": "1b2f99474a253b32-r20261004T122914Z.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 84986,
+ "retrieved_at": "2026-10-04T12:34:02Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a45437f06ab6d643-IAD",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'Fannie Mae' / 'Federal National Mortgage' Washington DC 1930-1990",
+ "company": "fanniemae",
+ "kind": "search"
+}
