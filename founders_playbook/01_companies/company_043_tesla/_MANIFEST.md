@@ -8,6 +8,22 @@ against cells summing to 14,323 w / 111,943 B), and this file printed its last t
 table row glued onto the end of a prose paragraph; both are repaired here (BLOCKER-4, A9). The superseded
 figures stay quoted in this sentence so the correction is itself checkable.
 
+**Counts re-measured 2026-10-06 by `tesla-residuals` (certifier residuals pass, B1\*–B6\*; 0 web calls).** The
+cells in the two tables below are the **2026-09-30** merge/repair measurements and are left standing as
+published history (§14 rule 4 — superseded, not erased). The residuals pass appended annotations to eight of
+them, so on today's bytes: `stage_1.md` **55,347 w / 385,304 B** (was 54,903 / 382,275 — still **under** the
+§9.2 60,000-word hard cap, so **no §9.3 split**; 92% of cap), `CORRECTIONS.md` **3,027 / 21,319** (was 2,792 /
+19,666), `stage_1_index.md` **2,038 / 13,605** (was 2,005 / 13,369), `sources.csv` **4,339 / 34,174**,
+`quantitative.csv` **2,610 / 21,230**, `timeline.csv` **2,004 / 16,101** (untouched), `conflicts.csv` **3,512 /
+24,798**, `data_gaps.csv` **1,926 / 13,731**, `decisions.csv` **977 / 7,279**, `validation.csv` **541 / 4,223**
+(untouched), `failures.csv` **814 / 5,990** (untouched), `channels.csv` **468 / 3,768** (untouched).
+**Registers: 210 rows / 17,191 w / 131,294 B** across the nine files (row counts and the 24/62/46/23/16/9/9/11/10
+split are **unchanged** — no row was added, removed or re-keyed on this pass; only cell text grew, +354 w /
++2,482 B against the 16,837 / 128,812 the tables below publish). `sources/sec` stays **83 documents / 32
+accessions / 59,881,144 B** (COR-06) and `sources/wayback` stays **7 entries / 2 sidecars** (B3\*);
+`sources/web_archive` is **still absent**. This file's own count moves with each annotation appended to it, so
+its published row is always one write stale by construction — noted rather than chased.
+
 **Nothing in this directory is a cleanup target** (§14 rule 4): `_parts/`, `research/`, `sources/` and
 the superseded emissions are left exactly where they are.
 
@@ -75,7 +91,12 @@ rewritten.
 
 Filings: exhibit folder of `0001193125-10-017054` / `-149105` (charter, Series A–B purchase agreements, the 2003
 plan, the 424B4 balance-sheet column heads) and the binary re-fetch of the three staff PDFs. Web archives:
-domain-scoped CDX 2003–2009 then one `id_` snapshot of the **August 2009 joint statement**. Periodicals: the
+domain-scoped CDX 2003–2009 then one `id_` snapshot of the **August 2009 joint statement** *[route re-named
+2026-10-06 by `tesla-residuals`, certifier item B4\*: this is now a **scripted** route —
+`python tools/cdx_intake.py run --slug tesla --max-requests 20` — not a hand curl (§15.1). It has never run for
+tesla and cannot yet: `tools/web_domains.json` has no `tesla` entry (5 slugs) and a domain may not be invented;
+the prerequisite is a cited `source_line`. Family (b) stays TRIED–UNANSWERED and the tier stays T3 until that
+command runs and is graded]*. Periodicals: the
 **page-text layer, never searched** for this company. Corporate print: the two identified items, **never opened**.
 Documentary/auction: **UNTRIED entirely** — a family never tried, never written as a null. Legal: the **San Mateo
 County** registry, outside CourtListener's federal-only scope. Every High-importance row in `data_gaps.csv`

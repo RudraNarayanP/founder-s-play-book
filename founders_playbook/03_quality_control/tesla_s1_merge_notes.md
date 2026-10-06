@@ -163,6 +163,23 @@ correction: $24.8m @ 2009-09-30 and $26.0m @ 2010-03-31 both stand, **$2009-12-3
 the same registrant inside one lineage, so no third voice could settle it and the web budget was 0. See
 `CORRECTIONS.md` COR-01.
 
+> SUPERSEDED 2026-10-06 (`tesla-residuals`, executing certifier `tesla-cert-1`'s blocker B1\*): §7's
+> "**$2009-12-31 is UNKNOWN**" and "**not carried as a finding**" were **withdrawn by repair pass 1 and by
+> COR-01**. This file's §7 is merge history; **do not apply it as a current statement.** The balance is filed,
+> not inferred: `quantitative.csv` carries `2009-12-31 | refundable reservation liability | 26.0 | USD millions
+> | S4370 | 2010-03-29 | FACT | High`, and `conflicts.csv` `U.23` is re-graded from a value conflict to a
+> **period-end pair of one filed series** — the supersession half of part 2's claim stays **DECLINED**, which
+> is the only live disagreement in that row. Carrier:
+> `sources/sec/0001193125-10-068933_ds1a.htm` (S4370) binds $26.0m to 2009-12-31 in four distinct sentences of
+> one body, beginning "As of December 31, 2008 and 2009, refundable reservation payments in the amount of
+> $48.0 million and $26.0 million, respectively, were recorded as current liabilities on the consolidated
+> balance sheets"; `-10-149105_d424b4.htm` (S4372) prints the 2008/2009/2010-03-31 triad; the registered FY2010
+> 10-K `S4375` corroborates the same value in a second instrument family. Measured on disk 2026-10-06: **15
+> held bodies across 11 accessions** (the 11/8 pair §7's successor cells printed is the 2010 registration
+> lineage alone — see COR-01's recount). What remains open at `U.23` is the **never-filed receipts/refunds
+> flow**, not the 2009-12-31 value. §7's stated reason ("the web budget was 0 calls") never bore on this: the
+> route was a local read. Web calls made by this residuals pass: **0**.
+
 `COR-02` (ordinal, adjudicated in `U.19`) · `COR-03` (EDGAR row-count wording, probe only) · `COR-04`
 contemporaneous-instrument count, adjudicated in `U.18`) · `COR-05` (FY2009 audited statements enter the lineage
 at Amendment No. 1) · `COR-06` (held-corpus denominator, measured: **83 documents / 32 accessions /
@@ -228,6 +245,17 @@ documents** against 83 measured in `sources/sec/` (the COR-06 counting question,
   → then one raw `id_` snapshot of the **August 2009 joint statement** page. Bytes → `sources/wayback/`. This is
   the highest-value unwritten object in the company (probe §Untried U-1). The CDX rows behind `U.4`/`S4390` are
   **transcribed, not re-fetched**, so that conflict currently rests on a LEAD.
+  > SUPERSEDED 2026-10-06 (`tesla-residuals`, certifier item B4\*): this bullet names a hand CDX curl, and a
+  > scripted family-(b) route now exists — `python tools/cdx_intake.py run --slug tesla --max-requests 20`
+  > (`tools/cdx_intake.py`, deterministic CDX intake, per-slot ANSWERED / NULL / UNANSWERED / UNTRIED, bytes to
+  > `sources/web_archive/` with sidecars). §15.1 ("no agent brief may include retrieval of a document a script
+  > can reach") means **FR-3 is no longer a hand-fetch brief**. It has never run for tesla and cannot yet:
+  > `tools/web_domains.json` carries no `tesla` entry (5 slugs) and a domain may not be invented — the
+  > prerequisite is a tesla slug entry whose `source_line` cites real provenance (the held
+  > `sources/wayback/*.meta.json` sidecars print `url_param: "tesla.com matchType=domain"`, which is citable;
+  > those sidecar bytes are protected and are superseded from the register, not edited). Family (b) stays
+  > **TRIED — UNANSWERED** and the tier stays **T3** until that command has run and been graded. Do not apply
+  > this bullet as a current work order.
 * **FR-4 — San Mateo County Superior Court / California state trial-court index**, 2008–2009, Musk v.
   Eberhard/Straubel plus any settlement papers. CourtListener (`S4391`) is federal-only: this registry is
   **UNTRIED**, not empty.

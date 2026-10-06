@@ -93,8 +93,11 @@ million, respectively, were recorded as current liabilities on the consolidated 
 same $26.0m to 2009-12-31 in **four** sentences of that one body, including *"As of December 31, 2009, we had an
 aggregate of $26.0 million in refundable reservation payments for the Tesla Roadster and the Model S."* The 424B4
 prints the three-date triad *"... $48.0 million, $26.0 million and $26.0 million (unaudited), respectively ..."*,
-which is what this volume's own table at section P.2 and its reservation row already quote. Measured 2026-09-30:
-**11 held bodies across 8 accessions** print the 2009-12-31 balance; `$24.8 million` occurs 4x in `ds1.htm` and 0x
+which is what this volume's own table at section P.2 and its reservation row already quote. Measured 2026-09-30,
+**recounted 2026-10-06**: **15 held bodies across 11 accessions** print the 2009-12-31 balance (this paragraph
+first printed **11 held bodies across 8 accessions** — true of the 2010 registration lineage alone, and short of
+the corpus by the two unregistered 2011 printings and by the registered FY2010 10-K `S4375`, which binds the same
+value in a second instrument family; see `CORRECTIONS.md` COR-01); `$24.8 million` occurs 4x in `ds1.htm` and 0x
 in every other held body. So `U.23` is re-graded from a value conflict to a **period-end pair of one filed series**
 ($24.8m at 2009-09-30, $26.0m at 2009-12-31, $26.0m at 2010-03-31); part 2's supersession stays **DECLINED**;
 `quantitative.csv` carries the 2009-12-31 row; and the flat 2009-12-31 to 2010-03-31 statement in
@@ -2781,6 +2784,16 @@ repeated here **as routes, not as findings**, and all eight remain open. Web bud
   then one raw `id_` snapshot of the company's **August 2009 joint statement** page about the founder dispute.
   Bytes → `sources/wayback/`. The Archive answered 504 / "Temporarily Offline" on the probe pass, and the CDX
   rows now registered at `S4390` are **transcribed, not re-fetched**, so conflict `U.4` rests on a LEAD.
+  **Route re-named 2026-10-06 by `tesla-residuals` (certifier item B4\*):** the scripted intake
+  `tools/cdx_intake.py` now covers this family (ANSWERED / NULL / UNANSWERED / UNTRIED per slot, bytes to
+  `sources/web_archive/` with sidecars), so this route is no longer a hand curl and §15.1 forbids briefing an
+  agent to retrieve what a script can reach: `python tools/cdx_intake.py run --slug tesla --max-requests 20`.
+  **Not run on this pass, and not runnable:** `tools/web_domains.json` has no `tesla` entry (5 slugs — centene,
+  cencora, elevance, marathon, microsoft), and a domain with no cited `source_line` may not be invented; the
+  citable provenance on disk is the two protected `sources/wayback/*.meta.json` sidecars' own
+  `url_param: "tesla.com matchType=domain"`, which a ledger pass can quote when it adds the entry. The hand URL
+  above stays printed as the route this merge recorded. **(b) stays TRIED–UNANSWERED and T3 stays T3 until that
+  command has run against a cited domain and been graded.**
 - **U-2 / FETCH REQUEST** — **San Mateo County Superior Court** civil register (2008–2009, Musk v.
   Eberhard/Straubel) or any California state-trial-court index. CourtListener (`S4391`) covers federal courts
   only, so this registry is **UNTRIED, not empty** — a settled filing here would be the corpus's only
@@ -2810,10 +2823,25 @@ repeated here **as routes, not as findings**, and all eight remain open. Web bud
   request was well-formed before calling a route blocked).
 
 **Corpus-family status as this merge leaves it** (five families, per §14.6 and §15.2 — an untried family is
-never a null): **(a) filings — TRIED and ANSWERED**, 76 held documents / 59,479,299 B / 3,059,480 words plus
-the 336-row XBRL series, the single family with in-window Tier-1 text and the reason T3 holds. **(b) web
-archives — TRIED, UNANSWERED**: one CDX answer retained as transcript and no page bytes; later calls 504 or
-"Temporarily Offline"; negative artefacts kept at `S4390`. **(c) periodicals — TRIED at the metadata layer,
+never a null): **(a) filings — TRIED and ANSWERED**, **83 documents across 32 accessions / 59,881,144 B** /
+2,914,081 words plus the 336-row XBRL series, the single family with in-window Tier-1 text and the reason T3
+holds. *[Denominator restated 2026-10-06 by `tesla-residuals`, certifier item B6\*: this line printed **76 held
+documents / 59,479,299 B / 3,059,480 words** — the exact count **COR-06 withdrew** five sections later in this
+same volume, which therefore asserted both. Measured on this pass: 83 documents (61 `.htm` + 19 `.txt` + 3
+`.pdf`), 32 accessions, 59,881,144 B; the words figure is this pass's own tag-stripped whitespace-token measure
+because COR-06's method does not reproduce the 3,059,480 it replaced. **The T3 verdict does not move**: family
+(a) is the one family with in-window Tier-1 text under either denominator.]* **(b) web archives — TRIED,
+UNANSWERED**: one CDX answer retained as transcript and no page bytes; later calls 504 or
+"Temporarily Offline"; negative artefacts kept at `S4390`. *[Route note, 2026-10-06 `tesla-residuals`, certifier
+item B4\*: a scripted family-(b) intake now exists — `tools/cdx_intake.py`, which records every slot as ANSWERED
+/ NULL / UNANSWERED / UNTRIED and writes `sources/web_archive/` with sidecars — so this family's open route is
+no longer a hand CDX fetch. It has never run for tesla and **cannot yet be run**: `tools/web_domains.json` holds
+no `tesla` entry (5 slugs — centene, cencora, elevance, marathon, microsoft) and a domain may not be invented.
+The two held `sources/wayback/*.meta.json` sidecars assert "no scripted route exists for the web-archive
+family"; that is true of 2026-09-25 and false today, and those bytes are protected, so the claim is superseded
+here rather than edited. **(b) stays TRIED–UNANSWERED and the tier stays T3 until
+`python tools/cdx_intake.py run --slug tesla --max-requests 20` has actually run against a cited domain and been
+graded**; no tier claim may be made from an unexecuted route either.]* **(c) periodicals — TRIED at the metadata layer,
 UNANSWERED below it**: IA `advancedsearch` answered with 6 post-window books and two numFound-0 catalog nulls;
 HathiTrust returned a Cloudflare interstitial and Chronicling America an HTTP 403; **the page-text layer is
 UNTRIED**. **(d) digitised corporate print — TRIED at the metadata layer, items UNTRIED**: numFound 2

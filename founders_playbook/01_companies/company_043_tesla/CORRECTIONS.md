@@ -55,6 +55,18 @@ clause "**not carried as a finding**" is withdrawn with it. The bytes this merge
   (unaudited), respectively, were recorded as current liabilities on the consolidated balance sheets."*
 * Measured on this disk 2026-09-30: **11 held document bodies across 8 accessions** print a sentence binding
   $26.0m to 2009-12-31; `$24.8 million` occurs **4× in `ds1.htm` and 0× in every other held body**.
+* **Recounted 2026-10-06 (`tesla-residuals`, certifier item B2\*):** the figure in the preceding bullet is the
+  **2010 registration lineage only**, not the corpus. Measured again, tag-stripped, sentence by sentence across
+  `sources/sec/`: **15 held bodies across 11 accessions** bind $26.0m to 2009-12-31. The three additions are the
+  two unregistered 2011 printings `-11-149963` (txt + htm) and `-11-157135` — *"As of December 31, 2009, 2010 and
+  March 31, 2011, reservation payments in the amount of $26.0 million…"* — and, the one that matters, the
+  **registered FY2010 10-K `S4375`** (`0001193125-11-054847_d10k.htm`), which binds the same value inside a
+  **different instrument family**: *"As of December 31, 2010 and 2009, reservation payments in the amount of
+  $30.8 million and $26.0 million, respectively, were recorded as current liabilities on the consolidated balance
+  sheets."* The auditor's "eight held documents" and this row's former "11 bodies / 8 accessions" are the same
+  accession/document conflation counted at different depths; neither may be published bare. No value, date or
+  adjudication in COR-01 changes — the 2009-12-31 balance was filed, and is now filed **twice over** in lineage
+  terms.
 
 So the two $26.0m prints are **different period-ends of one filed series** (2009-12-31 and 2010-03-31), and the
 $24.8m is a third period-end (2009-09-30) that **disappears from the lineage after Amendment No. 1**. The
@@ -243,7 +255,11 @@ memory-layer row is labelled an evidentiary null and the `data_gaps.csv` row it 
 measured "in our target market" as occurring **0× across held bodies** — it occurs **56×** (4× in each prospectus
 printing, always about **brand recognition**, never about competition), so the defect stands but its stated basis
 does not; (ii) audit §BLOCKER-1 said "$24.8 million occurs 4× in ds1.htm only" ✓ but "printed by **eight held
-documents**" counts **accessions** — measured, it is **11 bodies across 8 accessions**.
+documents**" counts **accessions** — measured, it is **11 bodies across 8 accessions** *[restated 2026-10-06 by
+`tesla-residuals`, B2\*: that 11/8 pair is the **2010 registration lineage only**; the whole of `sources/sec/`
+measures **15 bodies across 11 accessions**. The auditor's error is confirmed — it counted accessions and called
+them documents — but the replacement figure published here was itself short, and neither number may be quoted
+bare. See the COR-01 recount above]*.
 
 **Lands in:** `validation.csv` (Daimler row), `quantitative.csv` (the three per-share rows, the Toyota row, the EPA
 row), `timeline.csv` (the narrowed silence row), `failures.csv` (two rows), `data_gaps.csv` (new row),
