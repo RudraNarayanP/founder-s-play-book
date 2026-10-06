@@ -2,8 +2,47 @@
 
 Built by `tools/sec_intake.py` at 2026-09-25 19:42 UTC. 2628 filings enumerated
 
-**This file is the source of truth for what exists.** Do not re-search EDGAR for
-coverage; grep `submissions.csv` and report a form as absent only from this list.
+**What this file is, and what it is not.** It enumerates the EDGAR submissions this repository
+retrieved for **CIK 0000027419 only**, from the SEC's own submissions endpoint, at the build time
+stamped above. It is a convenience summary of `submissions.csv`, which is itself a derived copy of
+the raw response (`raw_submissions_CIK0000027419.json`); the SEC's bytes are the record, and the raw
+response is the one this repository opened (registered as `sources.csv` **S4217**, with the derived
+set registered as **S4223**).
+
+**It is NOT a source of truth about what exists.** A form is absent from EDGAR for this registrant
+only if this list says so **and** the list's own floor permits a statement about the period asked
+about: the earliest filing here is **1994-02-10**, which is where EDGAR's electronic record for this
+CIK begins, not where the company's filing history begins, and it says nothing at all about any
+**predecessor** CIK (the name-to-CIK lookups failed and stay open -- `data_gaps.csv` U.025, U.036).
+Do not read a blank before 1994 as an absence of filings.
+
+**How this file goes stale.** It is a point-in-time build: any filing made after the stamped UTC
+time, and any field the intake tool discards (this copy carries no `formerNames`, no accession-level
+document lists), is missing from it silently. Re-run `tools/sec_intake.py index --cik 27419` to
+refresh; if the refresh changes the floor, the derived rows S4217/S4223 and gap U.036 must be
+re-checked, not inherited. Grep `submissions.csv` for coverage questions about **this CIK from
+1994-02-10 onward** -- and treat anything outside that perimeter as unanswered.
+
+**Provenance and transport of these bytes** (added 2026-09-30 by the second repair pass,
+certifier blocker B-4 / COR-20, so the register is not the only place the transport is stated).
+Measured on disk this pass; nothing here is inherited from a prior report.
+
+| file | bytes on disk | provenance sidecar | transport |
+|---|---|---|---|
+| `raw_submissions_CIK0000027419.json` (the raw SEC response, = `sources.csv` **S4217**) | 149,561 | **none** | UNSTAMPED — no sidecar records the TLS state of the retrieval, so this file attests to the response body only, not to how it was fetched |
+| `submissions.json` (derived, = **S4223**) | 576,114 | **none** | UNSTAMPED |
+| `submissions.csv` (derived; **2,628 data rows** + header, = **S4223**) | 237,026 | **none** | UNSTAMPED |
+| `_INDEX.md` (this file, = **S4223**) | this build | **none** | UNSTAMPED |
+
+**Where a sidecar does exist.** Every `.txt` carrier under `sources/corporate_print/` and
+`sources/periodicals_csa_1963/` has a `.meta.json` sidecar recording a `transport` field: **15
+layers, 10 `verified TLS` and 5 `UNVERIFIED TLS`** (the five unverified are FY1966, FY1967, FY1971,
+FY1973, FY1974 — `data_gaps.csv` U.028; confidence on their rows is capped at Medium by U.037). Two
+`sources/web_archive/cdx_*.txt` bodies carry **no** sidecar, so the status codes their rows discuss
+(U.026) are unbacked by provenance — §14 rule 9. The sidecar absence on the four index bytes above is
+recorded here rather than asserted elsewhere: these bytes are SEC-attested in content but this
+repository has no fetch-transport record for them, so they may be cited for **what the SEC index
+contains**, never as a TLS-verified retrieval.
 
 ## Earliest filing per form
 

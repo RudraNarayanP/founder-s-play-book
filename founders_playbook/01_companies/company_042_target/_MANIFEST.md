@@ -6,14 +6,14 @@ trimming evidence. Nothing in this directory was trimmed to fit a limit._
 
 | File | Words | Bytes | Sections contained | Upload batch | Status |
 |---|---|---|---|---|---|
-| `stage_1.md` | 37,507 | 255,104 | merge header + merge note, then Volume 1 (Header, Boundary, §A–§H) and Volume 2 (§I–§U, claim records, the three register-emission blocks) — **one volume**, §9.3 split not triggered | 5 (companies 041–050) | WITHIN CAP (below the 40,000 soft target) |
-| `stage_1_index.md` | 850 | 5,834 | volume list, word counts, anchor ranges, register counts, the six merge decisions, the retired-id map | 5 | WITHIN CAP |
-| `CORRECTIONS.md` | 1,246 | 8,140 | **created 2026-09-26 by the merge pass** — COR-01 (fiscal ≠ calendar, re-bases B1's Q20), COR-02 (the 1972-03-22 floor that greps to zero), COR-03 (Brookdale/Roseville mis-citation trap), COR-04 (the §G site-tenure retraction), COR-05 (FY1970 byte count 52,736 → 53,023), COR-06 (eight column-drift repairs, no value altered); each names the register rows and the volume it reaches | 5 | WITHIN CAP |
-| `sources.csv` | 2,698 | 22,693 | 21 rows × 18 — append-only provenance register, global `S4201`–`S4221`, retired local ids kept as aliases in `notes` | 5 | WITHIN CAP |
-| `quantitative.csv` | 3,397 | 27,652 | 61 rows × 12 — every DERIVED/ESTIMATE row carries `derived_arithmetic`; **all 61 rows carry a CONTEMPORANEOUS / RESTATED / MIXED / NOT-APPLICABLE period basis** (37 tags added at merge under COR-01) | 5 | WITHIN CAP |
-| `timeline.csv` | 1,084 | 8,743 | 24 rows × 11 — chronology, `source_id` re-pointed to global ids | 5 | WITHIN CAP |
-| `conflicts.csv` | 2,735 | 19,603 | 18 rows × 15 — 16 keyed to the declared §U anchors + K16/K17; every row opens with a printed collision note naming its pre-merge local keys | 5 | WITHIN CAP |
-| `data_gaps.csv` | 1,967 | 14,003 | 22 rows × 8 — U.018–U.037 plus B1's 1963–64 openings gap and volume 1's cost/land-price/vendor gap; every High-importance row carries a follow-up route | 5 | WITHIN CAP |
+| `stage_1.md` | 42,833 | 292,456 | merge header + merge note, then Volume 1 (Header, Boundary, §A–§H) and Volume 2 (§I–§U, claim records, the three register-emission blocks) — **one volume**, §9.3 split not triggered. Six passages edited by the 2026-09-29 repair pass (§Boundary 4, §E.2, §K.3, §P.1, §T.2, §U.2 + claim records B05/E02/P2-02): 37,507 → 38,489 words; then the 2026-09-30 round-3 repair pass (RB-3 §Boundary 3.2 + `timeline.csv` re-grade, RB-4 §Boundary 5, RB-5 §Boundary 4, RB-6 §Boundary 4 + P2 preamble/P2-07, RB-2 §T.1 tiers + the 503 qualifications, RB-7 §S.1/§U.2 keys, and the COR-23 global-ids note): 38,489 → 42,701 → 42,833 words | 5 (companies 041–050) | WITHIN CAP (hard cap 60,000 far off; the 42,833 words exceed the 40,000 soft target — already over it at the recertifier's 41,534 — and §9.3's split is a judgment, not a mandate, RD-122); above the T2 core **planning** budget, which RD-122 ruled is not a limit on written evidence |
+| `stage_1_index.md` | 1,351 | 9,432 | volume list, word counts, anchor ranges, register counts, the six merge decisions, the retired-id map, **+ a repair-pass section recording what moved and the stale-line-number warning (§14 rule 12), and the COR-23/RB-1 reconciliation of this file's counts to disk 2026-10-06** | 5 | WITHIN CAP |
+| `CORRECTIONS.md` | 8,804 | 57,872 | **created 2026-09-26 by the merge pass; extended 2026-09-29 by the repair pass** — COR-01 (fiscal ≠ calendar, re-bases B1's Q20), COR-02 (the 1972-03-22 floor that greps to zero), COR-03 (Brookdale/Roseville mis-citation trap), COR-04 (the §G site-tenure retraction), COR-05 (FY1970 byte count 52,736 → 53,023), COR-06 (eight column-drift repairs, no value altered); **COR-07 the December year-ends COR-01 itself wrote and the re-tag it claimed but did not apply · COR-08 the FY1975 basis migration, retracted from a joint-venture block with the carrier sentence quoted inside the entry · COR-09 six dropped Q20 components and the unnamed 44-percent denominator · COR-10 the inverted §T.2 independence ledger and the two non-zero corroboration cells · COR-11 r15's false precision, the silent merge choice and the DERIVED classes · COR-12 labels that read a print for what it does not print · COR-13 S4203 quote fidelity, the reconstruction charge REFUTED · COR-14 nulls asserted over never-run families; **extended again by the 2026-09-30 round-3 repair pass (RB-1…RB-7) — COR-15 the 1966 Target-unit dollar the FY1967 layer prints · COR-16 the nine withdrawn-date rows silently present in the volume's emission slices · COR-17 findings that named the volume but reached it nowhere · COR-18 the uncited T2→T1 tier route · COR-19 the four retrieval-artifact rows inflated to Tier 1 and the status codes read off bytes that print none · COR-20 the `_INDEX.md` source-of-truth over-reach and the 19 unpointed held files · COR-21 the four recap-carried timeline events graded FACT/High plus the B-5 locator/count/OCR residuals · COR-22 the mis-quoted 'fiscal = calendar' dossier premise (citation form only; the conflict stands) · COR-23 the stale instruction layer this row retracts · COR-24 the three unkeyed `data_gaps.csv` rows and the §S.1 mis-anchor**; each names the register rows and the volume it reaches. **24 retraction ids defined (COR-01…COR-24); the `corrections` gate reconciles each to a register row and a stage volume** | 5 | WITHIN CAP |
+| `sources.csv` | 2,698 | 22,693 | **25 rows × 18** — append-only provenance register, global `S4201`–`S4225` (21 at the merge; **S4222–S4225 added 2026-09-30 under COR-20**), retired local ids kept as aliases in `notes`. **`S4222`–`S4225` are also held by `company_011_microsoft` (whose register runs `S4222`…`S4229`) and are tracked cross-company as task #31 — Target's ids are unique inside Target and are never re-minted here (RB-1/COR-23)** | 5 | WITHIN CAP |
+| `quantitative.csv` | 7,468 | 55,010 | **72 rows × 12** (61 at the merge → 68 on the 2026-09-29 repair pass — the six dropped COR-09 parent-sales components 217,961,635 / 260,173,514 / 434,132,744 / 945,306 / 1,086.4 / 1,262,759,000, plus the printed deduction total 171,932,690 required by COR-12 → **72 after COR-15's four printed-figure rows r69–r72** in the 2026-09-30 lineage; no row deleted). Every DERIVED row carries `derived_arithmetic`; **7 rows are now classed DERIVED** (0 were, though 9 carry arithmetic — the two whose arithmetic only checks a printed figure stay FACT, and their cells say why). Period basis: **65 of 68 rows carry a literal `PERIOD BASIS` tag, and all 38 bare-year rows do** (the 21 bare-year tags COR-01 claimed but did not apply were added under COR-07); the 3 without the literal tag state their basis in prose and carry exact period-end dates. *Caveat added 2026-10-06 (COR-23/RB-1): the geometry above is re-measured to disk (72 rows), but this period-basis/DERIVED census was taken at the 68-row state and was not re-derived column-by-column this pass — the four COR-15 rows are printed-figure money rows with their basis stated in-cell; the re-certifier should re-measure the tag count.* **No `-12-31` value remains in the `date` column** (seven were withdrawn under COR-07; the withdrawn strings survive only inside `SUPERSEDES date …` sentences in `notes`, which is rule 4, not a leftover) | 5 | WITHIN CAP |
+| `timeline.csv` | 1,335 | 10,433 | 24 rows × 11 — chronology, `source_id` re-pointed to global ids. Row 17 re-pointed from **S4201** (the FY1965 report carrying an FY1975 fact) to **S4211** and re-classed from the withdrawn basis migration to the printed fiscal-year note (COR-08); row 23 re-dated 1973-12-31 → **1974-02-02** (COR-07). No row added, no row deleted, **0 `-12-31` values left in the `date_or_range` column** (the withdrawn string survives only inside a `SUPERSEDES` sentence in `notes`) | 5 | WITHIN CAP |
+| `conflicts.csv` | 3,021 | 21,489 | 18 rows × 15 — 16 keyed to the declared §U anchors + K16/K17; every row opens with a printed collision note naming its pre-merge local keys. **U.011 now carries the COR-07/COR-08 retraction of the FY1975 basis migration, the quoted carrier sentence, and the partial closing of its own residual** | 5 | WITHIN CAP |
+| `data_gaps.csv` | 2,234 | 15,543 | **23 rows × 8** (22 at the 2026-09-29 state → 23 after the 2026-09-30 round-3 pass minted `U.103`) — U.018–U.037 plus B1's 1963–64 openings gap and volume 1's cost/land-price/vendor gap; every High-importance row carries a follow-up route. **U.019 and U.024 re-scoped from corpus-wide nulls to EMPTY-within-perimeter + UNTRIED (COR-14); U.031 tagged to the independence correction (COR-10); the three formerly-unkeyed rows minted U.101 / U.102 / U.103 and §S.1 re-pointed off U.028 (COR-24 / RB-7)** | 5 | WITHIN CAP |
 | `decisions.csv` | 344 | 2,651 | 3 rows × 15 — volume 1's three reconstructable decisions; volume 2 and B1 emitted none (§N's structural hole is the finding) | 5 | WITHIN CAP |
 | `validation.csv` | 232 | 1,858 | 4 rows × 11 — the four signals in volume 1's shared block | 5 | WITHIN CAP |
 | `failures.csv` | 72 | 649 | 1 row × 11 — routed out of that same shared block by its own content, per §13 and volume 1's row-count paragraph | 5 | WITHIN CAP |
@@ -26,8 +26,8 @@ continuation file exists and no multi-line field is split across files. `sources
 provenance register: ids are never redefined, and the ids retired by this merge are recorded as aliases rather
 than deleted.
 
-**Stage vocabulary (§13, fixed 2026-09-25):** `stage1` on all 157 rows of the nine registers — verified by a
-per-file distinct-value scan, which returned `['stage1']` nine times. **Numeric stage values found and
+**Stage vocabulary (§13, fixed 2026-09-25; counts re-measured to disk 2026-10-06 under COR-23/RB-1):** `stage1` on all **173** rows of the nine registers (157 at the merge → 164 after the 2026-09-29 repair pass, +7 all in `quantitative.csv` → 172 at the 2026-09-30 recertification, +4 `sources.csv` rows under COR-20 and +4 `quantitative.csv` rows r69–r72 under COR-15 → **173** after the 2026-09-30 round-3 pass minted `U.103` in `data_gaps.csv`) — verified by a per-file distinct-value scan,
+which returned `['stage1']` nine times. **Numeric stage values found and
 normalised: 0**, so there is no normalisation count to report. Post-boundary `(PB)` rows (the FY1972–74 recap
 legs) stay `stage1` because the emitting dossiers labelled them so and they are used only as consequences of
 the stage, never as in-span observation; that reading is stated here rather than left implicit.
@@ -61,3 +61,37 @@ width-clean with every `S####` token resolving, `keys` `stage_1.md` source token
 resolution + parity 37 ↔ 37, `budget` 37,507 < 60,000, `corrections` all 6 retractions reach registers and
 volumes. Advisory notes, not defects: 6 prose mentions (`U.1`–`U.5`, the reserved `U.101`) that are subsection
 numbers or a reserved range, not anchors.
+
+## Gate record — the 2026-09-29 repair pass (agent `target-s1-repair`)
+
+Repairs applied defect by defect with the required gate re-run after each, so a stop mid-way leaves a consistent
+corpus. Gate as issued by the brief, **tier flag visible**:
+
+```
+python tools/gates.py --company-dir founders_playbook/01_companies/company_042_target \
+  --checks csv,keys,anchors,corrections --tier core --fail-on substantive
+```
+
+* baseline, before any write: **Findings 0 | Passes 19** — `corrections 6 retraction ids; register layer reaches 6, volumes 6`
+* after opening COR-07…COR-14: **Findings 2 | Passes 18** — `registers … COR-09, COR-10, COR-12, COR-13, COR-14`;
+  `volumes … COR-09, COR-10, COR-11, COR-12, COR-13, COR-14` (the retraction-stops-at-the-prose failure, firing as designed)
+* once: **Findings 1 | Passes 18** — `anchors | narrative | anchor with no register row: U.019`, a defect the repair
+  itself introduced by dropping the anchor prefix from a re-scoped gap cell; restored
+* final: **Findings 0 | Passes 19** — `corrections 14 retraction ids; register layer reaches 14, volumes 14`;
+  `csv quantitative.csv 68 rows x 12 cols`; `csv timeline.csv 24 rows x 11 cols`; `csv conflicts.csv 18 rows x 15 cols`;
+  `csv data_gaps.csv 22 rows x 8 cols`; `keys stage_1.md 5 source tokens all resolve`;
+  `anchors parity 37 narrative anchors <-> 37 register anchors`; exit 0.
+
+`budget` is **not** in the required check set and was not run by this pass; at `--tier core` the volume's 38,489
+words exceed the 22,000 core planning budget (RD-122's ruling: a dispatch budget, not a limit on evidence — nothing
+was trimmed). Full record, including what this pass refused to "fix" and the two self-inflicted defects the gates
+caught: `03_quality_control/target_s1_repairs.md`.
+
+> **Addendum 2026-10-06 (COR-23 / RB-1, agent `target-repair-3b`):** the per-file table above now reads against the
+> 2026-10-06 disk measurement (42,833 w / 292,456 B; sources 25 rows `S4201`–`S4225`; quantitative 72 rows; data_gaps
+> 23 rows; 173 register rows; 24 COR ids), and the round-3 gate re-run — `03_quality_control/target_s1_gates_round3b.md` —
+> reports **24 retraction ids, register layer reaches 24, volumes 24** with 2 ADVISORY findings and 0 defects. The
+> "68 rows" and "38,489 words" figures still printed inside the dated 2026-09-29 gate-record block above are that pass's
+> historical record and are retained under §14 rule 4, not offered as current state. Repair narrative:
+> `03_quality_control/target_s1_repair_round3b.md`.
+

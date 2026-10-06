@@ -10,7 +10,9 @@ never renumbered to make a part look self-contained.
 
 ## Stage 1 merge note (read before using the registers)
 
-**Registers.** Nine registers now exist at the company root, 157 rows, headers byte-identical to Amazon's,
+**Registers.** Nine registers now exist at the company root — **157 rows at the merge, 164 after the 2026-09-29
+repair pass, 172 after the 2026-09-29/30 second repair pass** (`quantitative.csv` 61→68→**72**, `sources.csv`
+21→**25**, the other seven unchanged; no row deleted by any pass), headers byte-identical to Amazon's,
 `stage1` on every row. Rows applied from three emissions, not two: volume 1 (47), volume 2 (79) and the
 records dossier `research/B1_dayton_print_records.md` (65 rows, which both volumes presuppose) = 191
 requested; **34 emissions were folded into 28 visible collision groups and 0 rows were refused**; every
@@ -19,7 +21,14 @@ merge sheet.
 
 **Source ids are global from this volume onward.** `S4201`-`S4221` were minted centrally at merge (method
 13: "source_id blocks are assigned centrally at merge, never per dossier") and the registers were re-pointed
-to them (200 re-pointings). The prose of the two parts keeps citing the dossier-local carriers it was
+to them (200 re-pointings); `S4222`-`S4225` were added under **COR-20** on 2026-09-30, so the block now runs
+`S4201`-`S4225`. **`S4222`-`S4225` are also held by `company_011_microsoft` (whose register runs `S4222`…`S4229`)
+and are tracked cross-company as task #31 — never re-minted here; Target's ids are unique inside Target.**
+**COR-23 (2026-10-06, RB-1):** the instruction layer — `_MANIFEST.md` and `stage_1_index.md`, the two files every
+agent reads first — still printed this block as `S4201`-`S4221` and a pre-round-3 word/row count
+(38,489 w / 68 quantitative rows / 164 register rows / 14 COR ids) as current; §14 rule 10 says a retraction that
+stays out of the instruction layer re-imports downstream, so both files are reconciled to measured disk under this
+id and the superseded counts are kept as dated "at the merge / at pass 2 / at recertification" strings, not deleted. The prose of the two parts keeps citing the dossier-local carriers it was
 written against (`B1S01`, `P1S01`, `P2S08`) and those strings are **retired, not deleted**: each is kept as
 an alias in the `notes` cell of the global row that replaces it, and the whole map is in
 `stage_1_index.md`. Per 14 rule 12 nothing here is addressed by line number.
@@ -48,6 +57,28 @@ resolve.
 - **COR-05** the FY1970 layer byte count 52,736 is withdrawn; disk and sidecar print **53,023**.
 - **COR-06** eight emitted rows arrived with column drift (unquoted thousands/place commas) and were
   re-joined at the printed split point; no value altered.
+
+**Second repair pass, 2026-09-29/30 (agent `target-s1-repair2`, against the certifier's five blockers; report
+`03_quality_control/target_s1_repairs2.md`).** Six more ids, **COR-15 … COR-20**, each reaching both layers:
+**COR-15** the fiscal-1966 Target dollar (`$60,731,468`) is **printed** at `S4203` L409-412 — the register and five
+volume places said it was printed nowhere; new rows r69-r72 add that paragraph's other unregistered prints (the
+`161 percent` profit rate and the `1,184,900` / `added 298,600` estate line, whose footing against 889,000 leaves
+**2,700 sq ft** unexplained). **COR-16** the nine withdrawn-date rows inside this volume's two register-emission
+slices are now marked `SUPERSEDED — DO NOT RE-APPLY` at the banners and in place; nothing deleted, nothing revalued.
+**COR-17** five figures that lived only in `quantitative.csv` (`989,225`, `171,932,690`, `220,511,038`,
+`1,088,338,000`, `868,336`) are now stated in §K.2, §K.3, §E.2 and §P.1, including the rule the restatement deltas
+impose on cross-year growth rates. **COR-18** U.032's "route most likely to lift the tier from T2 to T1" is withdrawn
+as an expectation RD-127's measurement does not support; the route stays open and UNTRIED. **COR-19** four source
+rows re-tiered 1 → 3 (retrieval artefacts; the pre-merge sibling stamped the identical bytes 3), the asserted HTTP
+503s recorded as **UNKNOWN** because the held bodies print no status code, and the S4211/S4217/S4209 independence
+cells rewritten — a scanner is not a second lineage. **COR-20** the register-to-disk gap closed: **19** held files
+were pointed at by no `archived_url` path, two of them (`1998_annual_report_djvu.txt`, `2000_annual_report_djvu.txt`)
+used as evidence at U.026 with no row; four new rows S4222-S4225 register them and the measured gap is now **0**.
+`sources/_index/_INDEX.md`'s "source of truth for what exists" header is reworded to say what it enumerates and how
+it goes stale. **What did NOT move:** the `budget` finding (RD-122's dispatch matter — no evidence was trimmed and
+the volume is longer, not shorter), U.013's FY1964 leg (not refuted), COR-13's refutation of the S4203 fabrication
+charge (the quote is faithful and was not "de-fabricated"), every confidence on an UNVERIFIED-TLS layer (all 38 rows
+already Medium/Low), and the tier itself (T2 core, on evidence).
 
 ---
 
@@ -154,7 +185,8 @@ in the documents themselves:
 one masthead belongs to that masthead's line and is attributed to the **filing entity**, never to
 "Target" as a free-floating corporation. Three consequences bind this volume:
 (i) `formerNames` holds **one** entry, so the Dayton legs are **not** separate registrants on this
-evidence — and equally **not** proven to have never filed (the name→CIK route 503'd; see §H.5,
+evidence — and equally **not** proven to have never filed (the name→CIK route returned what the run recorded
+as 503; the code is UNKNOWN on the held bytes, `U.025`/COR-19; see §H.5,
 UNANSWERED-1 and the U-7 route). Do not assume more names than EDGAR carries;
 (ii) the FY1969 report's 1968 columns are the **merged** Dayton Hudson scope and may not be used as
 corroboration of the FY1968 report's own Dayton Corporation figures (inherited conflict **K9**),
@@ -199,7 +231,12 @@ are applied mechanically:
 2. **A recap may not carry a FACT about a decision.** Where the record is a retrospective sentence,
    the volume files two claims: the *printing* is FACT (High, for its own year), the *event* is
    RETROSPECTIVE INTERPRETATION (Medium at best). §D.1 does this for the four 1962 stores; §B.2 does
-   it for the founder question.
+   it for the founder question. **RB-3 applied 2026-09-30 (COR-21): `timeline.csv` rows 2, 3, 8 and 9 had
+carried this rule's *event* leg at FACT/High on recap carriers (rows 2/3 on the FY1965 report, row 8 on
+the FY1970 Operating Review, row 9 on the FY1973 recap S4209 — the last also UNVERIFIED-TLS capped,
+`U.028`); each is now graded as this rule says — the *printing* stays FACT/High for the layer's own year,
+the *event* is RETROSPECTIVE INTERPRETATION/Medium, and row 9's eleven-store total is RESTATED/Medium.
+Row 18 has filed the same 1962 cohort correctly all along; no date changed and no event was deleted.**
 3. **Contemporaneous-and-favourable is not independent.** The FY1965 report quotes a *Minneapolis
    Star and Tribune* survey and prints its most flattering finding. The survey is Tier-2 and **not
    held**; its selection, framing and quotation are the company's. It is therefore recorded as
@@ -207,9 +244,16 @@ are applied mechanically:
 
 ### 4. Basis of numerals — a correction to the inherited records file (conflict **P1K10**)
 
-`research/B1_dayton_print_records.md` states: *"Fiscal year = calendar year in these reports."*
-**Held bytes refute it, on the face of four layers** (read this session, exact locators in the
-register block):
+`research/B1_dayton_print_records.md` prints its premise at **L74-75**, split across two dossier lines:
+`Fiscal year = calendar` / `year in these reports (ANNUAL REPORT 1965, revenue tables headed Group 1969 1968).`
+— an assertion that report label **N** equals calendar **N**. **RB-5 / COR-22 (2026-09-30): the same words
+were previously placed inside quotation marks on a single line as though they were a verbatim carrier
+sentence. Re-measured bytes: the token-pair `calendar year` occurs **once** in the dossier — across that
+line-break (a literal same-line `calendar year` grep returns **0** — and it occurs **0 times** in any held
+corporate-print layer. So the quote's WORDS have a carrier (the dossier's own premise line, L74-75, now
+printed with its real two-line shape and locator), but the premise itself is an **INFERENCE inherited from
+the dossier**, refuted by the bytes, not by a document. **Held bytes refute the premise, on the face of
+four layers** (read this session, exact locators in the register block):
 
 | Layer | What it prints for its own year-end |
 |---|---|
@@ -223,12 +267,29 @@ register block):
 in early February 1965 and ending 1966-01-29**; the label names the year in which the *majority* of
 the period falls, and the year-end migrates between late January and early February. Therefore:
 (a) every year-end store count in §A/§D is a count **at a late-January date in the following
-calendar year**, not a 31-December count; (b) the FY1969 layer marks the **change to a
+calendar year**, not a 31-December count; (b) ~~the FY1969 layer marks the **change to a
 December-terminating presentation by FY1975**, so a series that spans FY1974→FY1975 changes basis
-and must say so; (c) the phrase `early in 1962` in the FY1965 retrospective is **calendar** speech
+and must say so~~ **RETRACTED 2026-09-29 (COR-08): no such migration exists, and the sentence was read off a Real
+Estate joint-venture block. The FY1975 layer's own Fiscal Year note, `sources/corporate_print/1975_dayton_hudson_djvu.txt`
+L3246-3251 (six printed lines; the tail `consisted of 52 weeks.` is L3251 — the former locator L3246-3250 truncated
+the very six-line quote printed below, fixed 2026-09-30 per RB-6b/COR-21), prints: `Fiscal Year. The Corporation's fiscal year ends on the Saturday closest to January 31. Fiscal
+year 1975 ended on January 31, 1976; fiscal year 1974 ended on February 1, 1975. Each of these years consisted of
+52 weeks.` The only 31-December prints in that document are inside `F. INVESTMENT iN JOINT VENTURES` (L3570), under
+`Condensed combined financial statements of the joint ventures follow:` (L3578-3579) — `FOR THE YEAR ENDED DECEMBER
+31, 1975` at L3583 and `DECEMBER 31, 1975` at L3604 — and the venture block states its own position `at January 31,
+1976` (L3575). FY1974 to FY1975 therefore continues the same basis; a series that crosses it changes nothing except
+its number of weeks. That the decisive sentence was quoted nowhere in this volume's 41,534 words
+(re-measured 2026-09-30; 37,507 when this sentence was first written — RB-7iv) is itself the
+finding: **a correction that changes a basis must carry the quoted carrier sentence that establishes it**; (c) the
+phrase `early in 1962` in the FY1965 retrospective is **calendar** speech
 about a store, and it falls in the **first months of fiscal 1961's successor**, which is exactly why
 no month may be back-derived from a fiscal label. Confidence in this ruling: **High** — it rests on
-five printed year-end dates in four layers, not on inference. This correction is *not* applied by
+five printed year-end dates in four layers, not on inference, and three more were read on the 2026-09-29 repair
+pass (FY1969 ended 1970-01-31 at `1969_…` L1488, FY1972 ended 1973-02-03 and FY1973 ended 1974-02-02 at `1973_…`
+L172-174, FY1974 ended 1975-02-01 at `1974_…` L147-148); the seven December year-ends COR-01 wrote into
+`quantitative.csv` (r54-r60) — plus the one `timeline.csv` row it re-dated, **eight re-dated date cells,
+re-measured from disk 2026-09-30; the former "six" undercounted by two (RB-6a/COR-21)** — are withdrawn under
+**COR-07**. This correction is *not* applied by
 silently overwriting B1: B1's rows stand as emitted, and the merge carries `P1K10` against every row
 whose `date` field is a bare year label.
 
@@ -257,7 +318,11 @@ meet them:
   inheriting it.
 - **P1K11 — the 1972-03-22 floor in the dispatch**, grepped to zero and therefore not written.
 - **The erased loser class.** Store openings in 1963 and 1964 appear in **no** held list; Target-**unit**
-  dollars exist for **1967 only** in FY1962-FY1968; and the FY1969/FY1970/FY1971 five-year tables
+  dollars exist for **1966 and 1967 only** in FY1962-FY1968 (both printed in the FY1967 layer,
+  `1967_dayton_hudson_djvu.txt` L409-412, the carrier quoted repeatedly in this volume and registered
+  as `quantitative.csv` r16 and r69; the former "**1967 only**" was refuted by that carrier on the
+  2026-09-29 pass under **COR-15** and this sentence is the last live survivor of it — RB-4, closed
+  2026-09-30); and the FY1969/FY1970/FY1971 five-year tables
   lost their numeric columns in OCR. Each is a finding about the record, logged in §H.5 and the
   gaps register — not a claim that the underlying facts did not happen.
 
@@ -294,7 +359,7 @@ Four columns only, per §8. Every value names the masthead that printed it; no v
 | Estate as the same document prints it for the **following** year | 7 (FY1966, `889,000 square feet` of total retail area); 9 (FY1967, after Fridley + West St. Paul opened in October) | FY1966 L219; FY1967 L180-182 — **both UNVERIFIED TLS** | **Medium** (transport cap) |
 | Parent's whole-company retail sales, fiscal year ended 1966-01-29 | **$186,166,671**, `an increase of 14 percent over sales of $162,773,739` | P1-05 / FY1965 L169-171 | **High** — and **not** a Target figure |
 | Parent's net income, same year | **$7,128,981** vs `5,435,205` — printed as `a 31 percent gain` | P1-05 / FY1965 L172-173 | **High**; arithmetic verified: 186,166,671 ÷ 162,773,739 = 1.144; 7,128,981 ÷ 5,435,205 = 1.312 → both printed percents foot |
-| Target's own dollars in FY1962–FY1968 | printed **once**, at **$86,901,007 for fiscal 1967, `an in-crease of 43 percent`** | FY1967 L769-771; inherited Q10/N4 | **Medium** (UNVERIFIED TLS; single lineage) |
+| Target's own dollars in FY1962–FY1968 | printed for **two** years, both in the FY1967 layer: **$60,731,468 for fiscal 1966** and **$86,901,007 for fiscal 1967, `an in-crease of 43 percent`** — `Sales / of $86,901,007 in 1967 were 43 percent ahead / of 1966 volume of $60,731,468. Profits in- / creased by 161 percent.` Same paragraph also prints the estate: `In 1967, Target added 298,600 square feet, / bringing total retail area to 1,184,900 square` (the line ends at `square`; the word `feet` after the total is not printed). **COR-15 (2026-09-29): this row formerly read "printed once", which the cited carrier refutes** | FY1967 L409-412 and L415-416; the `86,901,007` sentence also prints at L769-771; inherited Q10/N4, N4 corrected | **Medium** (UNVERIFIED TLS; single lineage) |
 | Named officers of the unit | `DOUGLAS J. DAYTON, President, Target Stores, Inc.`; `JOHN GEISSE, Vice President, Target Stores, Inc.`; `RICHARD KLEIN, Vice President and Controller and Assistant Secretary, Target Stores, Inc.` | P1-06 / FY1965 L1452-1459 | **High** as to **office**; **UNKNOWN** as to founder (§B.2) |
 | Founder of Target | **UNKNOWN — two-sided and undecided** | §B.2; inherited K1 | **Low / UNKNOWN**; conflict record itself **High** |
 | Independent carrier naming the company in 1962-1963, anywhere held | **0** — the one held in-window trade periodical (*Chain Store Age*, Apr 1963, 170,260 B) returns `Target` **0**, `Goodfellow` **0**, `Minnesota` **0** | §H.2; inherited N1-family null on held KB | **High** (that the null is real: layer ≫ 400 B threshold) |
@@ -476,7 +541,9 @@ B03 Claim: Company print never credits any individual with the 1962 decision; th
 B04 Claim: The FY1965 report itself narrates the company's dry-goods ancestry, naming George Draper Dayton as founder of Dayton's without a year — Date: pre-1902-1961 (undated) — Source: FY1965 report — Source date: 1965 — Local bytes: 1965_dayton_hudson_djvu.txt L110-115 — Tier: 1 for the printing; the events are unsourced — Class: RETROSPECTIVE INTERPRETATION / company self-account — Passage: "Dayton's was founded by George Draper Dayton, a southern Minnesota banker who bought a dry goods company in Minneapolis" — Conf: High (printing) / UNKNOWN (dates) — Corroboration: 0 independent; the FY1999 spread is the same lineage — Conflicts: corrects probe §Entity-question 4, which attributed the pre-history to FY1999 alone
 ```
 ```
-B05 Claim: Before FY1965 the company was privately owned, and its own report frames the first public annual report and the later 1967 offering as the opening of its capital base — Date: 1965; late 1967 — Source: FY1965 report L159-166; FY1970 report L209-212 — Source date: 1965; 1970 (layer prints `April 16, 1971`) — Tier: 1 — Class: FACT (corporation level) — Passage: "When the Corporation made its first public stock offering in late 1967, it had 23 stores in five states." — Conf: High — Corroboration: 1 lineage — Conflicts: P1K10 (the offering is `late 1967`; month UNKNOWN; the FY1967 layer does not print it)
+B05 Claim: Before FY1965 the company was privately owned, and its own report frames the first public annual report and the later 1967 offering as the opening of its capital base — Date: 1965; late 1967 — Source: FY1965 report L159-166; FY1970 report L209-212 — Source date: 1965; 1970 (layer prints `April 16, 1971`) — Tier: 1 — Class: FACT (corporation level) — Passage: "When the Corporation made its first public stock offering in late 1967, it had 23 stores in five states." — Conf: High — Corroboration: 0 independent (COR-10: the cell printed `1 lineage`, which counts layers, not
+sources — FY1965 L159-166 and the FY1970 report L209-212 are one reporting series restating itself, so the
+corroboration count is zero and the two documents cannot check each other) — Conflicts: P1K10 (the offering is `late 1967`; month UNKNOWN; the FY1967 layer does not print it)
 ```
 
 ## C
@@ -605,6 +672,39 @@ parent's square footage yields a meaningless number that looks like productivity
 without an explicit carrier-entity is treated as **defective** and left out of this volume rather than
 guessed at.
 
+**The denominator this section demands was itself missing from the register until 2026-09-29 (COR-09).** B1's
+Q20 parent-sales series reached `quantitative.csv` as three rows where the emission carried nine, so six printed
+components were dropped — `217,961,635` (FY1966, `1966_…` L49/L323/L434), `260,173,514` (FY1967, L765/L819),
+**`434,132,744`** (FY1968, `1968_…` L1251/L1349/L1363), `945,306` thousand (FY1970, `1970_…` L829), `1,086.4`
+million (FY1971, `1971_…` L312) and `1,262,759,000` (FY1972, `1972_…` L10/L325/L939). The third of those is the
+one this paragraph needs: the FY1968 statement `Discount and Hard Goods Stores 189,515,025 44` sits in a table
+whose 100 percent line prints `$434,132,744 100%` one line below (L1361, L1363), so **the volume's "44 percent of
+net retail sales" is true against the Dayton Corporation total — `189,515,025 / 434,132,744 = 43.65 percent` — and
+the identical numerator is `23.83 percent` against the pooled Dayton Hudson restatement of the same fiscal year
+(`795,243` thousand, `1969_…` L951)**. Both denominators are now rows; neither is averaged. A dropped component is
+not a lost nicety, it is a second answer to the same question, and the register could not produce it while the
+figure was absent.
+
+**The two restatement deltas, and the rule they write (COR-09's legs that had not reached the prose until
+COR-17, 2026-09-29).** Each of those dropped components arrives twice in the corpus, at two amounts, because the
+later report restates the earlier year:
+
+* **`220,511,038`** — the FY1967 report's prior-year column for fiscal 1966, printed at `1967_…` L819 beside
+  `Net retail sales, including sales of leased departments $260,173,514 $220,511,038`. The FY1966 report itself
+  printed `217,961,635` for the same year (`1966_…` L49/L323/L434, r62). Difference **`2,549,403`**, one object at
+  two amounts in two layers of **one lineage** (register r63).
+* **`1,088,338,000`** — the FY1972 report's comparative for fiscal 1971, printed at `1972_…` L10 beside
+  `$1,262,759,000 16.0%`. The FY1971 report printed `1,086.4` million for its own year (`1971_…` L309/L312, r66).
+  Difference about **`1,938,000`** (register r66 and r67 both carry the pair; neither is averaged).
+
+**Rule this imposes on every later pass: no growth rate may cross FY1966→FY1967 or FY1971→FY1972 without naming
+which restatement it used.** `260,173,514 / 217,961,635 = 19.37 percent` and `260,173,514 / 220,511,038 = 17.99
+percent` are both true of held print and describe the same year-pair; the printed `18 percent` (L765) chose the
+restated base, and a pass that divides across documents without saying so has picked a denominator silently — the
+same defect COR-11 recorded for the FY1966 Target-unit dollar and COR-09 for the FY1968 one. The FY1971→FY1972 pair
+behaves identically: `1,262,759,000 / 1,086,400,000 = 16.23 percent` against `1,262,759,000 / 1,088,338,000 = 16.03
+percent`, and the report prints `16.0%` (L10), i.e. the restated base again.
+
 ### E.3 What cannot be reconstructed about the product, and the route
 
 No held byte gives: any price or price index, any private-label or own-brand record, gross margin
@@ -622,7 +722,9 @@ D01 Claim: The first Target store opened in Roseville, a suburb north of St. Pau
 E01 Claim: The Target format as printed is a large suburban single-level box carrying about a quarter-million everyday items at first-quality, nationally advertised, low-margin pricing with full return privileges, with roughly a tenth of sales in leased departments and groceries run by Applebaum's — Date: 1965-1966 — Source: FY1965 L413-423; FY1966 L205-219 — Source date: 1965; 1966 — Tier: 1 — Class: CONTEMPORANEOUS OBSERVATION by the operator (FACT about the print) — Passage: "selling first quality, nationally advertised goods on a low margin basis with full return privileges" — Conf: High (FY1965 lines) / Medium (FY1966 lines, UNVERIFIED TLS) — Corroboration: 0 independent — Conflicts: None
 ```
 ```
-E02 Claim: Target-unit dollars exist for exactly one year of the first seven (1967, $86,901,007, +43 percent); every other founding-decade dollar in held print is group or corporation scope — Date: 1967 — Source: FY1967 report, Financial Review — Source date: 1967 — Local bytes: 1967_dayton_hudson_djvu.txt L769-771 (UNVERIFIED TLS) — Tier: 1 — Class: FACT / ESTIMATE for the implied 1966 base — Passage: "Target's sales were $86,901,007, an in-crease of 43 percent." — Conf: Medium — Corroboration: 0 independent (the FY1968 group line is a different denominator, same lineage) — Conflicts: None — derived_arithmetic: 86,901,007 ÷ 1.43 = 60,769,935, approximate to about $1m because the printed percent is rounded
+E02 Claim: Target-unit dollars are printed for exactly two years of the first seven — 1966 ($60,731,468) and 1967 ($86,901,007, +43 percent) — both inside the FY1967 layer's L409-412 paragraph; every other founding-decade unit dollar in held print is group or corporation scope. **COR-15 (2026-09-29): this record formerly read "exist for exactly one year of the first seven (1967 …)" and treated the 1966 base as implied; the carrier it cites prints the base four lines above the sentence it quoted, in the same paragraph, and the record is corrected rather than re-argued.** — Date: 1966 and 1967 — Source: FY1967 report, Target review — Source date: 1967 — Local bytes: 1967_dayton_hudson_djvu.txt L409-412 and L769-771 (both UNVERIFIED TLS) — Tier: 1 — Class: FACT for both printed years; the 1966 figure is no longer ESTIMATE — Passage: "Target has enjoyed substantial growth. Sales / of $86,901,007 in 1967 were 43 percent ahead / of 1966 volume of $60,731,468. Profits in- / creased by 161 percent." [L409|L410|L411|L412, brackets mark the carrier's own line breaks] — Second passage, same layer: "Target’s sales were $86,901,007, an in-[L769|L770]crease of 43 percent." (locator outside the quoted
+span per §14 rule 12; the bracket marks the OCR line-break join, which the carrier prints as `an in-` ending
+L769 and `crease of 43 percent` opening L770 — COR-13.) — Conf: Medium — Corroboration: 0 independent (the FY1968 group line is a different denominator, same lineage; L409-412 and L769-771 are one layer, so two printings of the same figure inside one lineage are version evidence, not a second source) — Conflicts: None — derived_arithmetic: 86,901,007 ÷ 1.43 = 60,769,935 is now a **footing check against the printed base 60,731,468** (difference 38,467, i.e. 0.06 percent, which is what the rounded printed percent costs), and the division the carrier itself performs, 86,901,007 ÷ 60,731,468 = 1.4309, reproduces the printed `43 percent`; it is no longer the only route to a 1966 dollar (COR-15)
 ```
 
 ## F
@@ -719,7 +821,8 @@ The market in which the first Target stores opened is the least-documented objec
 reason is corpus-shaped rather than history-shaped: the two families that could carry an in-window,
 outside-the-company account of the discount market are **periodicals** (one held item, thin) and
 **local newspapers** (none held, egress-limited). EDGAR contributes nothing (registrant floor
-1994-02-10) and web archives contribute nothing (family ceiling mid-1990s, and the route 503'd).
+1994-02-10) and web archives contribute nothing (family ceiling mid-1990s, and the CDX route returned
+what the probe recorded as HTTP 503 — code UNKNOWN on the held bodies, `U.026`).
 
 ### H.2 The one held independent in-window periodical, and its exact contribution
 
@@ -757,15 +860,17 @@ rows as proof of dominance. The word "dominate" belongs to the 1965 report, not 
 | N1 | 0 hits for any month-name-with-1962 pattern; `July` appears 10× across the run, never with a 1962 Target opening | 11 layers, 781,995 chars |
 | N2 | `Goodfellow` 0 and `\bDey\b` 0 → **Dey Brothers is unestablished**, and the four EDGAR full-text zeros over 1940-1995 are an **index floor (corpus begins 2001)**, not a null on the entity | 11 layers + `sources/name_search/fts_*.json` |
 | N3 | `GEISSE` = 3 hits total (1965/66/67), 0 from FY1968; `DOUGLAS J. DAYTON` = 18 — name-presence counts in officer lists, **not** founder evidence either way | 11 layers, re-verified this session |
-| N4 | No held layer prints **Target-unit** sales for 1962-1966, 1968 or 1970-1972; only 1967's `$86,901,007` | 11 layers |
+| N4 | No held layer prints **Target-unit** sales for 1962-1965, 1968 or 1970-1972. **COR-15 (2026-09-29): the former wording ("for 1962-1966 … only 1967's `$86,901,007`") is WITHDRAWN** — the FY1967 layer prints fiscal 1966 too, at L409-412 (`of 1966 volume of $60,731,468`), in the same carrier this ledger cites for 1967. Two unit years are printed, 1966 and 1967; the null holds for the other seven years of the decade and is still measured over the same 11 layers | 11 layers; the refuting line is inside the cited carrier, so this null was a **search miss**, not an absence |
 | N5 | FY1969/FY1970/FY1971 `Five Year Comparisons` blocks print row labels with **no numeric columns** — a **rendering** null on held bytes; the data may exist in the report's own tables | 3 layers |
 | N6 | Probe's byte count for the FY1970 layer (52,736) disagrees with disk and sidecar (**53,023**) — provenance correction so no pass re-imports it | 1 layer + sidecar |
 | N7 | Catalog-level: the item's OCR run is **1965→2024**; nothing before FY1965 exists in it. Plus `Discount Store News` **numFound 0** in the reachable corpus — a catalogue absence, not a text null | `sources/ia_search/meta_01-target-archive.json`, `q_dsn.json` |
 
 **UNANSWERED — 5, all tool or egress limits; a 403/429/503 is never an absence.**
-(1) EDGAR name→CIK browse: **HTTP 503 on all four terms**, bodies held at
+(1) EDGAR name→CIK browse: the run recorded **HTTP 503 on all four terms** — the bodies print no
+status line (`500` in CSS only), so the code is **UNKNOWN** (`U.025`, COR-19) — bodies held at
 `sources/name_search/*.atom` (7,747 B each) → a separate predecessor registrant is **neither ruled in
-nor out**. (2) Wayback CDX for `target.com*` and `dhc.com*`: **503**, bodies held at
+nor out**. (2) Wayback CDX for `target.com*` and `dhc.com*`: the run recorded **503** twice — again
+code **UNKNOWN** on the bodies (`U.026`, COR-19) — bodies held at
 `sources/web_archive/cdx_*.txt` (11,832 B each) → the 1999-2000 readoption pages unreached.
 (3) EDGAR full-text zeros 1940-1995: **index floor 2001**, and the no-date-restriction control query was
 never run. (4) `ia_text.py search` returns field-less docs on this build and `ia_text.py fetch` 404s on
@@ -782,8 +887,12 @@ in every register row below, and **lifting it is a fetch, not a judgment**.
 `sources/documentary/` with sidecars → K1 becomes adjudicable instead of merely recorded.
 **U-3** HathiTrust / Google Books for `Target Stores, Inc.` 1962-66 and Dayton Company reports
 FY1955-FY1964 (needs a `target` task set in `tools/queries.json`, which does not exist, plus
-`--use-curl`) → **the only route that can move the tier from T2 to T1**, and the only one that can put a
-document before FY1965 on this machine. **U-4** *Star Tribune* / *Pioneer Press* 1961-08→1962-12 →
+`--use-curl`) → the route that *may* put a company-naming document before FY1965 on this machine. **COR-18
+(2026-09-29): its former label, "the only route that can move the tier from T2 to T1", is withdrawn as an expectation
+the corpus's only measurement of the route (RD-127: company phrase dated results all 1990-2014; the 1950s depth is
+the sector pool) does not support — see §U.2 U.032 for the re-scoped statement and §T/§15.2 for what a tier change
+would actually require.** It remains the only *held* route to a pre-FY1965 document, and it stays **UNTRIED**.
+**U-4** *Star Tribune* / *Pioneer Press* 1961-08→1962-12 →
 the only route to a **day**, i.e. to closing K2. **U-5** a **second carrier** for the same years
 (independently digitised Dayton reports in `fund-and-stock-reports`) → the only route to *any*
 corroboration, because all eleven layers are one uploader's item. **U-6** `sec_intake.py facts` and the
@@ -819,6 +928,18 @@ controlled literal **`stage1`** on every row (§13). All `P1x` ids are **dossier
 that is said in `notes` so the merge keeps **one** row and aliases the other rather than double-counting
 a lineage. `independence_note` on every corporate-print row carries the §3 lineage finding; a value of
 `not_derived` in `derived_arithmetic` means the cell is intentionally non-empty.*
+
+> **SUPERSEDED — DO NOT RE-APPLY. Marked 2026-09-29 by the second repair pass (certifier blocker B-2; COR-16).**
+> The nine register CSVs at the company root are **canonical**. Everything in the emission blocks below is a
+> **pre-repair emission**, retained unchanged because it is the merge's byte-identical audit trail (RD-122), and
+> it is **not** a readable register. Its date cells are withdrawn: the `1975-12-31` basis-migration row in this
+> volume's `timeline.csv` slice (marked in place) was retracted by **COR-08**, and the December year-ends in the
+> volume-2 slices (`1973-12-31` ×5, `1969-12-31`, `1972-12-31`, `1962-12-31`) by **COR-07** — read
+> `quantitative.csv` r54-r60 and `timeline.csv` instead, which carry the carrier-printed year-ends
+> (`1973_dayton_hudson_djvu.txt` L172-174, `1969_…` L1488, `1974_…` L147-148, `1975_…` L3246-3251). The slices also
+> pre-date **COR-15** (the fiscal-1966 Target dollar printed at `S4203` L409-412, which falsifies the "only 1967"
+> sentence several emitted rows still carry) and **COR-17**. **No row below was deleted or revalued; none of them
+> may be copied into a register or cited as live.**
 
 ### sources.csv — `source_id,stage,claim_supported,source_title,author_or_publication,source_type,primary_or_secondary,event_date,publication_date,access_date,url,archived_url,tier,evidence_class,confidence,independence_note,relevant_passage,notes`
 
@@ -860,7 +981,7 @@ company,stage,date_or_range,event,actors,location,source_id,evidence_class,confi
 Target,stage1,1965-1966,"The Dayton Company issues its first public annual report and states that projected growth requires it to expand beyond private ownership",The Dayton Company,"Minneapolis, Minnesota",P1S01,FACT,High,P1K10,"the disclosure event that creates the whole founding-decade archive; report label 1965, year ended 1966-01-29"
 Target,stage1,1962,"Dayton Development Company opens Brookdale shopping center in a northern suburb of Minneapolis - the same year and the same page range as the Target entry sentence",Dayton Development Company,"Brooklyn Center, Minnesota",P1S01,FACT,High,P1K12,"MIS-CITATION TRAP: L122-123 sits one line above L124 and is NOT a Target opening; Roseville is separately printed as a suburb north of St. Paul at L397-398"
 Target,stage1,1971-04-16,"The FY1970 report carries its own printed date line and recites the late-1967 first public stock offering",Dayton Hudson Corporation,UNKNOWN,P1S04,RESTATED,High,None,"a 1971-dated carrier for a 1967 and a 1970 fact; RESTATED, so it is version evidence and never corroboration"
-Target,stage1,1975-12-31,"The FY1975 report prints a 31-December year-end against late-January or early-February year-ends in FY1965-FY1974",Dayton Hudson Corporation,UNKNOWN,P1S01,FACT,Medium,P1K10,"basis migration inside the stage window; any FY1974 to FY1975 series changes denominator and must say so; read at probe level in the FY1974 and FY1975 layers"
+Target,stage1,1975-12-31,"The FY1975 report prints a 31-December year-end against late-January or early-February year-ends in FY1965-FY1974",Dayton Hudson Corporation,UNKNOWN,P1S01,FACT,Medium,P1K10,"basis migration inside the stage window; any FY1974 to FY1975 series changes denominator and must say so; read at probe level in the FY1974 and FY1975 layers DATE WITHDRAWN BY COR-08 (2026-09-29) - DO NOT RE-APPLY. No held carrier prints a 31-December corpora year-end for the registrant: the December prints in the FY1975 layer are the Real Estate joint ventures (L3582-3583 and L3604) and the corporation's own Fiscal Year note prints [Fiscal year 1975 ended on January 31, 1976; fiscal year 1974 ended on February 1, 1975] at L3246-3251. Canonical row: timeline.csv row 17, re-pointed to S4211 and re-classed as the printed note. Marked in place under COR-16 (certifier blocker B-2)."
 ```
 
 *(B1's thirteen timeline rows already carry the estate and offering sequences; this volume emits four
@@ -954,7 +1075,7 @@ one style, no gaps**, declared below for `gates.py` anchor parity. If p1 minted 
 note was written, the merge re-keys this volume's block (U.101-up is the free range suggested) and
 alias-maps rather than deleting.
 
-    <!-- ANCHORS: U.001-U.037 -->
+    <!-- ANCHORS: U.001-U.037, U.101-U.103 -->
 
 **Dossier-local ids used here and what they mean at merge.** `B1S01`–`B1S14` are the source ids
 emitted by `research/B1_dayton_print_records.md`; `P2S01`–`P2S08` are new sources this volume
@@ -1173,13 +1294,15 @@ and not a contradiction.
 | EPS | `$1.99 during fiscal 1965`, restated prior year `$1.41`, `The increase was 41 percent` | `B1S01`, EARNINGS section | High |
 | Cost of sales, buying **and occupancy**, combined | `$139,686,954` (current column) / `$123,584,592` (prior) | `B1S01`, note preceding MERCHANDISE INVENTORIES | High |
 | Selling, general and administrative | `$31,256,511` / `$28,508,046` | `B1S01`, same note | High |
+| **Deduction total as printed** (the row the two lines above must be read against) | **`$171,932,690`** — the statement's own total at `1965_dayton_hudson_djvu.txt` L837, over the component lines L825-834 (`Cost of sales and expenses exclusive of items listed below $160,514,978; Maintenance and repairs 763,572; Rentals 2,088,720; Taxes 1,154,153; Taxes other than taxes on income 3,745,154; Pensions to retired employees 943,042`) | `B1S01`, Statement of Income deduction block; register row **r68** | High |
+| **The residual that total exposes** | `139,686,954 + 31,256,511 = 170,943,465`, which is **`989,225` short** of the printed `171,932,690`. The residual is **NAMED, not absorbed**: the notes-page categories reclassify the statement lines and on the print do not exhaust them, and no plugged figure was invented for the 989,225. Until the printed total was itself a register row the volume could not see this, which is why COR-12 added r68 and why **COR-17 (2026-09-29)** puts the two numbers in this section — they existed only in `quantitative.csv` | this volume §K.2 against `B1S01` L837 / L944 / L945 | High that the residual is real; **UNKNOWN** what it is |
 | Rentals (income-statement line) | `$2,088,720` / `$1,972,450` | `B1S01`, Statement of Income, deduction block | High |
 | Long-term lease minimum annual rentals (aggregate) | `approximately $1,564,220`, `of which $626,683 is payable to unconsolidated subsidiaries`; `Most of these leases require the payment of real estate taxes and other expenses and, in certain instances, increased amounts based on percentage of sales.` | `B1S01`, LEASES note | High |
 | Sinking fund notes | `$13,600,000` at `5% %` (as printed), maturing `$800,000` annually each January 31st 1965-1981, balance 1982-01-31 | `B1S01`, LONG-TERM DEBT note (1) | High |
 | Mortgage notes | `$2,124,960` | `B1S01`, LONG-TERM DEBT note (2) | High |
 | Commitments for additional facilities | `approximately $3,750,000` | `B1S01`, SUBSEQUENT EVENTS | High |
 | Share structure actions | ten-for-one split approved at the February 1966 annual meeting; `stock dividend of one share … for each share outstanding after the stock split`, `transfer of $1,535,500 from retained earnings to Common Stock in March 1966` | `B1S01`, SUBSEQUENT EVENTS | High |
-| Target-unit revenue, FY1962-FY1966 | **UNKNOWN** — one unit figure is printed in the whole founding decade, 1967's `$86,901,007` (`B1S03`), and none before it (NULL `U.021`) | — | UNKNOWN |
+| Target-unit revenue, FY1962-FY1966 | **printed for fiscal 1966, UNKNOWN for 1962-1965** — `60,731,468` for fiscal 1966 at `B1S03` L409-412 (now `quantitative.csv` r69), nothing printed for 1962-1965 (gap `U.021`, narrowed 2026-09-29 by **COR-15**: this row formerly read "one unit figure is printed in the whole founding decade … and none before it", which the cited carrier refutes) | `B1S03` L409-412 | Medium (UNVERIFIED TLS) for 1966; UNKNOWN for 1962-1965 |
 | Target-unit cost, margin, rent, wage, or build cost, any year | **UNKNOWN** — not printed at unit scope anywhere in the eleven layers | — | UNKNOWN |
 
 Two refusals, stated rather than hidden. **(1)** The `$3,750,000` commitment is the consolidated
@@ -1237,8 +1360,28 @@ and **store count and square footage were reported together, for a reporting gro
 `Discount and Hard Goods Stores` heading for the same units under the earlier name). It does **not**
 support a Target per-store revenue for any year: the numerator is group, and the Target-unit
 denominators in §P come from a different reporting object. Group per-store revenue **is** computable
-within one column and is written once, as DERIVED: `233.5m ÷ 19 = $12.29m` (1969),
-`440.4m ÷ 50 = $8.81m` (1972) — `(PB)`, group basis, `B1S09`, confidence **Medium**.
+within one column, and it is written as **two register rows, not one**: `233.5m ÷ 19 = $12.29m` (fiscal 1969,
+a year ended 1970-01-31) and `440.4m ÷ 50 = $8.81m` (fiscal 1972, a year ended 1973-02-03) — `(PB)`, group
+basis, `B1S09`/`S4209`, class **DERIVED**, confidence **Low**. **COR-12 (2026-09-29): this paragraph formerly
+described the two computations as written *once* and graded them *Medium*, while `quantitative.csv` carried two
+rows at Low; the prose now follows the register, because the register's Low is what the carriers support — one
+UNVERIFIED-TLS layer (`U.028`) restating four of its five columns, and a group numerator over a group
+denominator that is not the Target unit.**
+
+**The contrast this section has to hold (COR-17, 2026-09-29).** The FY1973 five-year row **foots to itself** in all
+five columns (`470.3 / 5.563 = $84.5`, and the four other cells agree), whereas the FY1965 statement of income does
+**not** foot to itself: its printed deduction total `171,932,690` exceeds the two notes-page categories
+`139,686,954 + 31,256,511 = 170,943,465` by **`989,225`** (§K.2, register r68). One block is internally complete and
+the other is not, and the volume had said neither until the totals were rows: the residual and the footing are both
+register facts that lived only in `quantitative.csv`. A self-footing row is not a true row and a non-footing row is
+not a false one — the first is evidence about the print, the second is evidence about an unprinted reclassification.
+
+**The second non-footing, stated in the section that uses the digits (COR-17).** Within one column of the same
+FY1973 block the five-year row prints `233.5 / 19` and `440.4 / 50` (r58, r59) — group revenue per group store, a
+basis that is not Target and a division that is `DERIVED` at **Low** because the numerator is restated in a 1973
+report and the transport is UNVERIFIED-TLS (`U.028`). The same discipline applies to the parent-sales series: the
+restatement deltas **`220,511,038`** and **`1,088,338,000`** are now stated at §E.2, where the growth rates that
+would consume them are written.
 
 ### K.4 Target's own profit history: one sentence, and it is a negative
 
@@ -1258,8 +1401,10 @@ P&L statement before FY1967).
 ### K.5 What this section could not quantify, and why
 
 Per-store build cost, per-store rent, wage or payroll structure, store-level selling-area cost, Target
-inventory turn, Target gross margin, and Target revenue for 1962-1966 and 1968-1972 are all UNKNOWN at
-Tier 1. The reason is a reporting-scope fact, not a retrieval failure: the entity reported **a
+inventory turn, Target gross margin, and Target revenue for 1962-1965 and 1968-1972 are all UNKNOWN at
+Tier 1 — **COR-15 (2026-09-29): 1966 leaves this list**, because the FY1967 layer prints fiscal-1966
+Target sales at `$60,731,468` (L409-412, `quantitative.csv` r69); Target's *profit* dollars remain UNKNOWN
+for every year of the decade, the printed `161 percent` (r70) being a rate with no base. The reason is a reporting-scope fact, not a retrieval failure: the entity reported **a
 department-store company with a discount subsidiary**, and it printed the discount subsidiary in
 **counts, locations, square feet and growth percentages**, reserving dollars for the reporting group
 and for the consolidated company. This pass's own negative read is on record and reproducible: the
@@ -1338,7 +1483,7 @@ Confidence that no unit-level statement exists anywhere: **UNKNOWN**.
 | 1965 | The operator's own read of the field | `its stores now dominate the discount field` in the Twin Cities | the belief that the home metro was validated | any independent count of the field; the sentence opens `We believe` | `B1S01`, opening letter | Medium |
 | 1966-10 | First stores outside the Upper Midwest open | 2 Denver stores | the format travelled outside the home market | that it travelled profitably in the year of opening | `B1S02` (`…the interim financing for two Target stores opened in Denver in October of 1966`), planned in `B1S01` | High (plan) / Medium (actual, UNVERIFIED TLS) |
 | 1967 | In-year profitable openings after absorbing pre-opening expense | 2 stores (Fridley, West St. Paul) | new-unit economics at the smallest scale the company reported | chain-wide economics | `B1S03`, store narrative | Medium (UNVERIFIED TLS) |
-| 1967 | Target-unit sales printed for the first and only time in the decade | `$86,901,007`, `an in-crease of 43 percent` | one hard unit revenue datum, one year deep | a series — the 1966 base is DERIVED at best (`U.021`) | `B1S03`, Financial Review | Medium (UNVERIFIED TLS) |
+| 1966 and 1967 | Target-unit sales printed — for two consecutive years, both in the FY1967 layer (**COR-15**: this row read "for the first and only time in the decade" until the 2026-09-29 repair found the FY1966 printing in the same paragraph it cites) | `$60,731,468` (fiscal 1966, L409-412) and `$86,901,007`, `an in-crease of 43 percent` (fiscal 1967, L409-411 and L769-770) | two hard unit revenue data one lineage deep, plus the printed `161 percent` profit growth and the `1,184,900 square [feet]` / `added 298,600` estate line in the same paragraph | a series — seven of the decade's ten years still print no unit dollar, and the same paragraph's figures rest on one UNVERIFIED-TLS layer (`U.021`, `U.012`) | `B1S03` L409-412, L769-771 | Medium (UNVERIFIED TLS) |
 | FY1966 | Whole-estate area statement | `Total retail area of the seven Target stores now in operation is 889,000 square feet.` | an average of ~127,000 sq ft per store across seven units, at **total retail area** basis | selling area, cost, or the FY1974 roster basis, which does not foot to it (`U.012`) | `B1S02` | Medium (UNVERIFIED TLS) |
 | 1972 `(PB)` | Sixteen openings in seven months | 46 stores in nine states at year end | the replicability of the format at speed | that the speed was economic — the same report prints group pretax falling to `$9,222,000` from `$13,749,000`, attributed in print to Target performance and start-up costs | `B1S08` | High |
 
@@ -1454,6 +1599,32 @@ period end** in its `Date` cell (`1966-01-29`), and the prior-series row B1 emit
 merge, with its comparative `162,773,739` re-dated from B1's `1964` to the year ended **1965-01-30**;
 that correction is registered as a row in the §P merge block, not as a deletion.
 
+**Three further register-level corrections reached this section on 2026-09-29.** **COR-07**: the December year-ends
+that COR-01 wrote onto the FY1969-FY1973 rows (`1973-12-31` ×4, `1969-12-31`, `1972-12-31`, `1962-12-31`) are
+withdrawn — no held carrier prints a 31-December registrant year-end in any year of the run — and each row is now
+keyed to the year-end its own carrier prints, with FY1970 and FY1971 left as a fiscal label plus **UNKNOWN** day
+because no held carrier prints them. **COR-09**: the parent-sales series in `Q20` reached the register as three
+rows out of nine emitted components (see §E.2), so the FY1968 denominator `434,132,744` that makes the printed "44
+percent" true was absent; it and the other five are now rows. **COR-11**: `target_unit_sales` for fiscal 1966 is
+stated at `60,800,000` — three significant figures, the precision a printed two-significant-figure "43 percent"
+can carry — with the computed `60,769,935` and B1's `~60,800,000` both named in the cell and the silent merge
+choice recorded; seven arithmetic rows moved to class **DERIVED**, and r2 and r30 deliberately kept **FACT**
+because their arithmetic checks a printed figure rather than producing one.
+
+**COR-17 (2026-09-29) — the register findings that had not reached the prose, now stated where they are used.**
+Four passes wrote these into `quantitative.csv` and left `stage_1.md` silent, so the volume could not be read as
+carrying them: **`989,225`** (the FY1965 deduction-total residual, now §K.2 and §K.3, register r68);
+**`171,932,690`** (the printed total that exposes it, same rows); **`220,511,038`** and **`1,088,338,000`** (the two
+restatement deltas, now §E.2 with the cross-year rule they impose, register r63 and r66/r67); and
+**`868,336`** here. The FY1969 report prints Net Retail Sales **`868,335`** thousand at `1969_…` L951
+(`Net Retail Sales... .$868,335 $795,243`), and its own segment column prints the retail legs `607,697`
+(`Department Stores`, L1004) + `233,532` (`Low Margin`, L1003) + `27,107` (L1002, whose row label is OCR-corrupt in
+the bytes — the register names it `specialty`, and that name is a reading, not a print) = **`868,336`** — a **1-thousand** difference inside the retail legs (the four-segment column does
+foot to Total Revenues `888,357` once real estate's `20,021` is added, so the residual is not in the total line).
+The row keeps the value printed on the line it names (r27, class FACT); the 1 is recorded, not averaged away, and
+not silently promoted to a component sum. Nothing on this list is new arithmetic: each figure is a carrier print
+that the register already held and the volume had not said.
+
 ### P.2 Metrics established on this pass
 
 | ID | Date | Metric | Value | Unit | Source | Source date | Confidence |
@@ -1520,7 +1691,8 @@ after the 1969 Stage-1→Stage-2 hand-off.
 | 1966-10 + | Seven units in operation: `Total retail area of the seven Target stores now in operation is 889,000 square feet.` | FACT · Medium · `B1S02`; basis question `U.012` |
 | 1967 | `Target stores for the Twin Cities—numbers eight and nine scheduled to open Fall, 1967.` → Fridley and West St. Paul open in October, profitable in the year of opening after pre-opening expense | FACT · Medium · `B1S02`, `B1S03` |
 | 1967 | `DOUGLAS J. DAYTON / President`, `JOHN F. GEISSE / Senior Vice President and General Merchandise Manager` — the last year the name appears | FACT · Medium · `B1S03`; disappearance `U.001`, `U.020` |
-| 1967 | `Target's sales were $86,901,007, an in-crease of 43 percent.` — the only Target-unit revenue printed in FY1962-FY1968 | FACT · Medium · `B1S03`; `U.021` |
+| 1966 (printed 1967) | `of 1966 volume of $60,731,468` — the fiscal-1966 **Target-unit** dollar, printed in the FY1967 layer's review paragraph. **COR-15 (2026-09-29): this is the printing that falsifies the "only 1967" claim the volume carried in six places**, and it sits four lines above the 1967 sentence this table already quoted | FACT as printed · Medium (`U.028`) · `B1S03` L409-412; `U.021`; `quantitative.csv` r69 |
+| 1967 | `Target's sales were $86,901,007, an in-crease of 43 percent.` — one of **two** Target-unit revenues printed in FY1962-FY1968 (with fiscal 1966 above; unprinted for 1962-1965, 1968, 1970-1972). The same paragraph prints `Profits in-creased by 161 percent` (rate only, no unit profit dollar) and `In 1967, Target added 298,600 square feet, bringing total retail area to 1,184,900 square` — the estate line the 889,000 series (`U.012`) had never seen, whose footing leaves **2,700 sq ft** unexplained against `889,000 + 298,600` | FACT · Medium · `B1S03` L409-412 and L415-416; `U.021`, `U.012`; r69-r72 |
 | 1967-late | First public stock offering: `it had 23 stores in five states` (corporation level, printed in the FY1970 report; month UNKNOWN) | FACT · High · `B1S06` |
 | 1968 | Masthead is `Dayton Corporation`; two St. Louis stores open; Target year-end total of eleven rests on a 1973 recap | FACT (openings) · High; recap · Medium · `B1S04`, `B1S09` |
 | 1969 → | `Dayton Hudson Corporation` masthead; the merger with The J. L. Hudson Company; 1969-07-15 first public debt offering `$25 million … priced to yield 7.80 percent`; 1969-09-08 NYSE listing with a new corporate symbol | `(PB)` FACT · High · `B1S05`, `B1S06` |
@@ -1548,8 +1720,8 @@ STATUS: WRITTEN 2026-09-25
 | Legal form of the venture | A named subsidiary, `Target Stores, Inc.`, with its own president, buying organisation and controller | `B1S01` essay + officer page | High |
 | Parent financial state at the boundary | Net retail sales `186,166,671`; operating income `14,233,981`; net income `7,128,981`; long-term debt `13,600,000` sinking fund + `2,124,960` mortgage | `B1S01` | High |
 | Public status | Privately owned through the FY1965 layer's own description; first public annual report issued; first public stock offering late 1967 | `B1S01`; `B1S06` | High |
-| Unit economics known at the boundary | Store counts, locations, opening dates to the year, one square-footage total, one unit revenue year (1967), two printed growth rates | `B1S01`-`B1S03` | Medium |
-| Unit economics NOT known at the boundary | Per-store cost, per-store rent, occupancy, payroll, Target inventory, Target margin, Target result for 1962-66 and 1968 | §K.5 | UNKNOWN — named gaps |
+| Unit economics known at the boundary | Store counts, locations, opening dates to the year, **two** square-footage totals (889,000 fiscal 1966; 1,184,900 fiscal 1967, COR-15), **two** unit revenue years (1966, 1967), three printed growth rates (44 / 100 percent for 1965, 43 percent and 161 percent for 1967) | `B1S01`-`B1S03` | Medium |
+| Unit economics NOT known at the boundary | Per-store cost, per-store rent, occupancy, payroll, Target inventory, Target margin, Target **revenue** for 1962-65 and 1968, and Target **profit dollars** for every year of the decade (the 161 percent is a rate over an unprinted base) | §K.5 | UNKNOWN — named gaps |
 | Who decided | UNKNOWN as to any person; the printed actor is the company | `B1S01`; `U.001` | High that print is silent on agency |
 | When the first store opened | 1962, Roseville, month and day UNKNOWN | `B1S01`; `U.002` | High (year/place) UNKNOWN (day) |
 
@@ -1575,11 +1747,11 @@ STATUS: WRITTEN 2026-09-25
 | Month-name with 1962 | any month within 25 characters of `1962`, plus the `1962 + 1st/first` form, across the eleven founding-era layers (781,995 chars of OCR); `July` appears 10 times in the run and never with a 1962 Target opening | **0 hits** | `U.018` |
 | Predecessor names in print | `Goodfellow` and `\bDey\b` across all eleven founding-era layers | **0 hits each**; the sole `Goodfellows` attestation is the FY1999 retrospective | `U.019` |
 | Geisse presence | `GEISSE` across the run | 3 hits (FY1965, FY1966, FY1967), **0 from FY1968 on**; `DOUGLAS J. DAYTON` 18 hits | `U.020` |
-| Target-unit dollars | unit (not group) revenue, all eleven layers | printed **only** for 1967 (`$86,901,007`); none for 1962-66, 1968, 1970-72 | `U.021` |
+| Target-unit dollars | unit (not group) revenue, all eleven layers | printed for **1966 and 1967** (`$60,731,468`, `$86,901,007`, both in the FY1967 layer L409-412); none for 1962-65, 1968, 1970-72 — **COR-15** re-scopes this row, which read "printed **only** for 1967" | `U.021` |
 | Five-year comparison columns | FY1969, FY1970, FY1971 `Five Year Comparisons` blocks | row labels present, **numeric columns lost in OCR**; FY1973's row survived intact | `U.022` |
 | Byte-count discrepancy | FY1970 layer size | on-disk and sidecar both **53,023 B**; the probe's table printed 52,736 B | `U.023` |
 | Catalog floor | text-layer listing of IA item `01-target-archive` | **1965→2024**; nothing before FY1965 exists in the item — a proven floor | `U.024` |
-| Payroll / wages / headcount terms | `payroll`, `wages`, `number of employees` across the founding-decade layers, this pass | **no hits in FY1965-FY1972**; first appear FY1974 (`payroll dollars`) and FY1975 (`occupancy expense, payroll, advertising and other expenses`) `(PB)` | `U.028` |
+| Payroll / wages / headcount terms | `payroll`, `wages`, `number of employees` across the founding-decade layers, this pass | **no hits in FY1965-FY1972**; first appear FY1974 (`payroll dollars`) and FY1975 (`occupancy expense, payroll, advertising and other expenses`) `(PB)` | `U.103` — this null was mis-anchored to `U.028` (the transport gap, a different question) until RB-7i/COR-24 minted it its own key 2026-09-30; the row exists in `data_gaps.csv` |
 
 ### S.2 High-importance gaps, each with its follow-up route (no gap is left without one)
 
@@ -1590,7 +1762,7 @@ STATUS: WRITTEN 2026-09-25
 | Target-unit revenue and margin, 1962-1972 | the entity reported at group and company scope | High | `U.032`, `U.034` |
 | Cost of a 1962-66 store | never printed; the nearest figure is a consolidated commitment | High | `U.030`, `U.032` |
 | Any document before FY1965 | the item's OCR run starts at FY1965 (`U.024`) | High | `U.032` |
-| Whether a predecessor registrant filed | EDGAR name search returned 503 | High | `U.036` |
+| Whether a predecessor registrant filed | EDGAR name search returned what the run recorded as 503 (code UNKNOWN on the held bodies, `U.025`) | High | `U.036` |
 | Verified provenance of five layers | local CA store expired; `--insecure` used | Medium | `U.037` |
 | The missing 1971 unit (30 vs 29) | roster lists only units still open in 1974 | Medium | `U.030` |
 
@@ -1631,25 +1803,34 @@ STATUS: WRITTEN 2026-09-25
 | `B1S06`-`B1S09` cover-years 1970-1973 `(PB)` | corporate stockholder reports | primary for their own year; `B1S09` also RESTATES 1969-1972 | 1970-1973 | 1971-1974 | local: `sources/corporate_print/197[0-3]_dayton_hudson_djvu.txt` | 1 | High (1970, 1972) / Medium (1971, 1973: UNVERIFIED TLS) |
 | `B1S10` cover-year 1974 estate roster `(PB)` | corporate stockholder report | RESTATED retrospective roster | 1962-1973 | 1975 (cover 1974) | local: `sources/corporate_print/1974_dayton_hudson_djvu.txt` | 1 | Medium (UNVERIFIED TLS) |
 | `B1S11` cover-year 1975 `(PB)` | corporate stockholder report, digitised through a licensed backfile | primary; names `ProQuest Historical Annual Reports` in the layer | 1975 | 1976 (cover 1975) | local: `sources/corporate_print/1975_dayton_hudson_djvu.txt` | 1 | Medium (cite the layer, not the company, as the scanner) |
-| `P2S01` *Chain Store Age*, April 1963 "Steel for Stores" gather | trade periodical (OCR text layer, 170,260 B) | primary for the period; says nothing about the company | 1963 | 1963-04 | local: `sources/periodicals_csa_1963/Chain_store_age_Steel_for_Stores_djvu.txt` | 3 | High as to contents; **NULL** as to Target (`U.019` route) — one running foot prints `APRIL 1962` (`U.014`) |
+| `P2S01` *Chain Store Age*, April 1963 "Steel for Stores" gather | trade periodical (OCR text layer, 170,260 B) | primary for the period; says nothing about the company | 1963 | 1963-04 | local: `sources/periodicals_csa_1963/Chain_store_age_Steel_for_Stores_djvu.txt` | 1 | High as to contents; **NULL** as to Target (`U.019` route) — one running foot prints `APRIL 1962` (`U.014`) — tier corrected 2026-09-30: `sources.csv` S4215 is **tier 1** (the only independent in-window carrier held) and this row's `3` contradicted it (RB-2) |
 | `P2S06` EDGAR submissions index for CIK 27419, including `formerNames` and the slice list | regulatory index JSON/CSV | primary record of the registrant line, silent before 1994-02-10 | 1994-02-10→ | retrieved 2026-09-25 | local: `sources/_index/raw_submissions_CIK0000027419.json`, `sources/_index/_INDEX.md`, `sources/_index/submissions.csv` (2,628 rows) | 1 | High |
-| `P2S07` `sources/sec/_MANIFEST.csv` — header row only | intake manifest | negative artifact proving 0 documents stored for 1960-01-01→1985-12-31 | — | 2026-09-25 | local: `sources/sec/_MANIFEST.csv` | 1 | High (as a manifest, not as an absence) |
-| `P2S02` EDGAR name→CIK browse responses, four terms | HTTP error bodies (7,747 B each) | **negative artifacts of a dead route** | — | retrieved 2026-09-25 | local: `sources/name_search/{dayton+hudson,dey+brothers,goodfellow,target+corporation}.atom` | 1 | UNANSWERED, not null (`U.025`) |
-| `P2S03` EDGAR full-text search responses, four terms, 1940-1995 | API JSON, zero-hit | index-floor artifact: the corpus begins 2001 | — | retrieved 2026-09-25 | local: `sources/name_search/fts_*.json` | 1 | floor artifact, **never** an absence (`U.027`) |
-| `P2S04` Wayback CDX responses for `target.com*`, `dhc.com*` | HTTP 503 bodies (11,832 B each) | negative artifacts | — | retrieved 2026-09-25 | local: `sources/web_archive/cdx_targetcom.txt`, `cdx_dhc.txt` | — | UNANSWERED (`U.026`) |
-| `P2S05` IA item metadata listing for `01-target-archive` (259,567 B) | catalogue metadata | establishes the 1965→2024 layer run and the uploader's file labels | — | retrieved 2026-09-25 | local: `sources/ia_search/meta_01-target-archive.json` | 1 | High for the run; the per-year labels are **not** evidence (`U.006`) |
+| `P2S07` `sources/sec/_MANIFEST.csv` — header row only | intake manifest | negative artifact proving 0 documents stored for 1960-01-01→1985-12-31 | — | 2026-09-25 | local: `sources/sec/_MANIFEST.csv` | 3 | High (as a manifest, not as an absence) — tier corrected 2026-09-30: `sources.csv` S4221 is tier 3 under **COR-19** and this row's former `1` contradicted the register (RB-2) |
+| `P2S02` EDGAR name→CIK browse responses, four terms | HTTP error bodies (7,747 B each) — the run recorded **HTTP 503**; the bodies print `500` in CSS only and capture **no status line**, so the code is **UNKNOWN** (U.025) | **negative artifacts of a dead route** | — | retrieved 2026-09-25 | local: `sources/name_search/{dayton+hudson,dey+brothers,goodfellow,target+corporation}.atom` | 3 | UNANSWERED, not null (`U.025`) — tier corrected 2026-09-30: `sources.csv` S4218 is tier 3 under **COR-19** and this row's former `1` contradicted the register (RB-2) |
+| `P2S03` EDGAR full-text search responses, four terms, 1940-1995 | API JSON, zero-hit | index-floor artifact: the corpus begins 2001 | — | retrieved 2026-09-25 | local: `sources/name_search/fts_*.json` | 3 | floor artifact, **never** an absence (`U.027`) — tier corrected 2026-09-30 (S4219 tier 3, COR-19; RB-2) |
+| `P2S04` Wayback CDX responses for `target.com*`, `dhc.com*` | bodies the run recorded as **HTTP 503**; the two 11,832 B bodies print `Internet Archive: Temporarily Offline` and `500`, and capture no status line, so the code is **UNKNOWN** (U.026) | negative artifacts | — | retrieved 2026-09-25 | local: `sources/web_archive/cdx_targetcom.txt`, `cdx_dhc.txt` | 3 | UNANSWERED (`U.026`) — tier cell filled 2026-09-30 to match `sources.csv` S4220 tier 3 (COR-19; RB-2) |
+| `P2S05` IA item metadata listing for `01-target-archive` (259,567 B) | catalogue metadata | establishes the 1965→2024 layer run and the uploader's file labels | — | retrieved 2026-09-25 | local: `sources/ia_search/meta_01-target-archive.json` | 2 | High for the run; the per-year labels are **not** evidence (`U.006`) — tier corrected 2026-09-30 from `1`: a third-party **catalogue listing about a digitisation item** witnesses the item, not the period, so it is tiered with the other derived-index row (`sources.csv` S4223, tier 2, the derived EDGAR trio) and above the demoted route artifacts (tier 3); grading it Tier 1 above *Chain Store Age* — the one held in-window **text** of independent origin — confused an index of what exists with evidence of what happened (RB-2 same-leg item; register agrees) |
 | `B1S12`, `B1S13` the two founder-credit carriers | newspaper obituary / biography pages | **NOT HELD** — lead only | 2013; 1992 | 2013-07-06; UNKNOWN | none; no bytes on this machine | 2 / 4 | Low; unusable as evidence (`U.001`, `U.031`) |
 | `B1S14` FY1999 report genealogy spread `(PB)` | corporate stockholder report | self-account for 1902-1962 | 1902-1999 | 1999 | local: `sources/corporate_print/1999_annual_report_djvu.txt` | 1 | Low for the genealogy; tick↔blurb pairing unresolved |
 
 ### T.2 Independence ledger for this volume
 
 `B1S01`-`B1S11` and `B1S14` are **one lineage** — the same company's reporting series, one uploader's
-item — so no pair of them corroborates anything (§3 filing-lineage rule). `P2S01` is the only held
+item — so no pair of them corroborates anything (§3 filing-lineage rule). ~~`P2S01` is the only held
 document of independent origin that touches the period, and its independent content about this company
-is empty (`U.019`). `P2S02`-`P2S07` are regulatory/catalogue records of the registrant line, not of
+is empty (`U.019`).~~ **CORRECTED 2026-09-29 (COR-10): that sentence named a retired dossier-local id
+and the volume resolves that id two ways — §T.1 above reads `P2S01` as *Chain Store Age*, April 1963, while the
+register-emission block later in this file reads `P2S01` as *The Dayton Company Annual Report 1966*, which the
+merge folded into `S4202` under the note `same lineage as B1S01`. On the harder reading §T.2 nominated a parent
+self-account as the corpus's only independent origin, which inverts §H.2 — and §H.2 is the section that got it
+right. Stated by global id, as the lineage rule requires: the only held independent in-window carrier is
+`S4215`, *Chain Store Age* April 1963, and its content about this company is empty (`U.019`, EMPTY within the
+perimeter that ran). `P2S02`-`P2S07` are regulatory/catalogue records of the registrant line, not of
 1962. Consequence, stated plainly: **every load-bearing Stage-1 claim in this volume is
 single-sourced**, and the confidence grades above are capped accordingly rather than by any doubt
-about the digits.
+about the digits. Of the 27 corroboration cells in the claim records below, exactly two claim a non-zero count
+and neither has a second source behind it — `P2-02` printed `1` and `B05` printed `1 lineage` at Conf High, and
+both are reiterations of one self-account; they are restated there as `0 independent` (COR-10).
 
 STATUS: WRITTEN 2026-09-25
 
@@ -1923,7 +2104,10 @@ layer for `Target`, `Goodfellow`, `Minnesota`, `Dayton`, `Hudson`, `discount`. E
 `Hudson` **3** and `Dayton` **2** (both non-company), on a 168,433-char layer far above the 400-byte
 threshold, so zero means zero. WHAT MAY BE CONCLUDED: the Goodfellow/Dey genealogy is not in the
 founding print (`U.005`), and no contemporaneous trade text in this corpus mentions Target. RESIDUAL
-UNCERTAINTY: other periodicals were never searched (`U.032`, `U.034`). CONFIDENCE: **High**. ROUTE:
+UNCERTAINTY: other periodicals were never searched (`U.032`, `U.034`). **COR-14 (2026-09-29): the register row for
+this gap said "no contemporaneous periodical mention" flatly, which licensed a corpus-wide null over families that
+were never run; it is now scoped to the one held periodical layer (EMPTY-within-perimeter) and the whole question is
+labelled UNTRIED.** CONFIDENCE: **High**. ROUTE:
 `U.032`.
 
 **U.020 — `GEISSE` is a three-year presence and then is gone.** WHAT THE RECORD ASSERTS: officer pages.
@@ -1935,12 +2119,17 @@ or an OCR omission — none is printed. RESIDUAL UNCERTAINTY: the FY1968 officer
 compared line-for-line with FY1967's. CONFIDENCE: **High** (count) / **UNKNOWN** (meaning). ROUTE:
 `U.030`.
 
-**U.021 — The unit-level dollar hole.** WHAT THE RECORD ASSERTS: store counts and one revenue year.
-WHAT WAS SEARCHED: every founding-era layer for Target-unit sales. EVIDENCE WEIGHT: the only unit
-figure in FY1962-FY1968 is 1967's `$86,901,007`; nothing is printed for 1962-66, 1968 or 1970-72, and
-the FY1965 tax note's loss carry-forward is the only other unit-level financial sentence. WHAT MAY BE
-CONCLUDED: a Target unit economics series **cannot** be built from held print for most of the founding
-decade, which is the §K.5 finding. WHAT MAY NOT: that the company lacked such figures internally.
+**U.021 — The unit-level dollar hole.** WHAT THE RECORD ASSERTS: store counts and **two** revenue years.
+WHAT WAS SEARCHED: every founding-era layer for Target-unit sales — and this row is the corpus's own proof
+that a search miss is not an absence: the 2026-09-29 repair pass read the paragraph this gap had already
+cited and found the fiscal-1966 printing in it (**COR-15**). EVIDENCE WEIGHT: unit dollars print at
+`$60,731,468` for fiscal 1966 and `$86,901,007` for fiscal 1967, both in `sources/corporate_print/1967_dayton_hudson_djvu.txt`
+L409-412 (the second figure repeats at L769-770 in the same layer, one lineage, two printings); nothing is
+printed for 1962-65, 1968 or 1970-72, and the FY1965 tax note's loss carry-forward is the only other
+unit-level financial sentence. WHAT MAY BE CONCLUDED: a Target unit economics series **cannot** be built from
+held print for most of the founding decade, which is the §K.5 finding, and the decade now has a printed
+two-year base rather than a derived one. WHAT MAY NOT: that the company lacked such figures internally, and
+that the seven unprinted years are proven absent — the 17 PDF image legs of `U.030` were never fetched.
 RESIDUAL UNCERTAINTY: the `Five Year Comparisons` columns that OCR destroyed (`U.022`). CONFIDENCE:
 **High**. ROUTE: `U.030`, `U.032`, `U.035`.
 
@@ -1964,17 +2153,34 @@ not inferred. WHAT MAY NOT: that no FY1964 report exists anywhere; no other carr
 (`U.032`, `U.034`). RESIDUAL UNCERTAINTY: the pre-1965 leg entirely. CONFIDENCE: **High** for the item.
 ROUTE: `U.032`.
 
+**U.101 — 1963 and 1964 store openings: no held layer enumerates one.** WHAT THE RECORD ASSERTS: the
+FY1965 chronology and the FY1974 roster both run 1962→1965 with no printed 1963 or 1964 opening or
+year-end count. EVIDENCE WEIGHT: absence in two lists of **one lineage** (`S4201`, `S4210`) —
+EMPTY-within-perimeter, never a corpus null. Register row: `data_gaps.csv` U.101 (key minted
+2026-09-30, RB-7ii/COR-24; the row existed unkeyed from the merge and could not be cited or anchored
+before this pass). STATUS: documented null. ROUTE: the item's own 1965 PDF image leg (`U.030`).
+
+**U.102 — What the 1962-65 stores cost, the land sale price inside the 1967 leaseback, the merchandise
+vendors.** WHAT THE RECORD ASSERTS: site **tenure** is partially established (buildings mortgaged; land
+sold and leased back at `225,000` annual rentals, `S4202` L808-809); the sale price, the per-store cost
+and the vendor terms print nowhere legibly in the run. EVIDENCE WEIGHT: absence across the notes pages
+of one lineage; COR-04 already retracted the stronger "tenure UNKNOWN". Register row: `data_gaps.csv`
+U.102 (key minted 2026-09-30, RB-7ii/COR-24; formerly unkeyed and uncitable). STATUS: documented null.
+ROUTE: `U.030` — re-OCR the FY1965-FY1967 notes, lease and mortgage schedules from the item's own PDFs.
+
 ### U.3 UNANSWERED items — route or tool failure, never an absence
 
 **U.025 — Whether any predecessor entity ever registered with the SEC.** WHAT WAS SEARCHED: EDGAR
 name→CIK browse (`action=getcompany`) for `dayton+hudson`, `dey+brothers`, `goodfellow`,
-`target+corporation`. RESULT: **HTTP 503 on all four**, bodies held as negative artifacts (7,747 B
+`target+corporation`. RESULT: **HTTP 503 on all four is what the run recorded** — the held bodies print
+no status line and `500` in CSS only, so the code is **UNKNOWN** (COR-19) — bodies held as negative artifacts (7,747 B
 each, `P2S02`). WHAT MAY AND MAY NOT BE CONCLUDED: the question is open; the EDGAR `formerNames` array
 being one entry deep (`P2S06`) describes CIK 27419's own history, **not** the universe of registrants.
 RESIDUAL UNCERTAINTY: total. CONFIDENCE: **UNANSWERED**. ROUTE: `U.036`.
 
 **U.026 — Whether the company's own digital history exists in the web archive.** WHAT WAS SEARCHED:
-Wayback CDX for `target.com*` (1996-2004) and `dhc.com*` (1996-2002). RESULT: **HTTP 503** twice, bodies
+Wayback CDX for `target.com*` (1996-2004) and `dhc.com*` (1996-2002). RESULT: the run recorded
+**HTTP 503** twice — the bodies print no status line, so the code is **UNKNOWN** (COR-19) — bodies
 held (11,832 B each, `P2S04`). Even a live CDX could not reach 1962 — §14 rule 6 fixes this family's
 floor in the mid-1990s — so it bears on K1/K4 provenance only. CONFIDENCE: **UNANSWERED**. ROUTE:
 `U.037`-adjacent retry; the FY1999/FY2000 print layers cover the same event with better footing.
@@ -2028,7 +2234,17 @@ is a FETCH REQUEST for the orchestrator, naming the two carriers and the destina
 retrieval this pass may perform. CONFIDENCE: untested. STATUS: **UNTRIED**.
 
 **U.032 — The pre-1965 leg, in the two book corpora that reach it.** Would test `U.004`, `U.019`,
-`U.021`, `U.024` and could lift the tier from T2 to T1. ROUTE: add a `target` task set to
+`U.021`, `U.024`. **COR-18 (2026-09-29): WITHDREW the expectation this row used to carry — "could lift the tier from
+T2 to T1" — because the corpus's only measurement of the route does not support it, and cites nothing here.
+`MASTER_RESEARCH_LOG.md` **RD-127** mined the HathiTrust bodies that a Walmart pass put on disk: on the *company*
+phrase (`"Wal-Mart" Bentonville`) every dated result on the returned first page is **1990-2014**; what is rich is the
+*sector* pool — **97 records 1950-1959** under `"five and dime" variety store`, 23 under `"Walton's"
+"five-and-dime"` — documents about the trade, not namings of a registrant, and under §15.2 a sector pool does not
+count toward a tier.** A T1 re-derivation needs an **in-window, company-naming Tier-1 text from a third family**;
+this route may still deliver one, and it may not. The route stays **OPEN and UNTRIED — this is a smaller door, not a
+disproof**: the **6 undated rows** on the company route, the **4 facet records** whose `Published` field RD-127's
+parser did not extract, and **every result page past the first** are unexamined. No later agent should count this row
+as a live tier ladder, and none should read it as a null either. ROUTE: add a `target` task set to
 `tools/queries.json` (editing `tools/` is outside this pass's write scope) and run
 `python tools/periodical_harvest.py --company-dir founders_playbook/01_companies/company_042_target --query-set target_dayton_print_1955_1964 --use-curl`
 (HathiTrust needs `--use-curl` per `tools/HARVEST_README.md`); Google Books needs `GOOGLE_BOOKS_API_KEY`,
@@ -2059,7 +2275,8 @@ User-Agent — `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&compa
 and the same for `j.l. hudson`, `dayton company`, `dey brothers` — then, for any CIK returned,
 `python tools/sec_intake.py index --cik <n> --from 1930-01-01 --to 1985-12-31`. Until this runs, "one
 registrant line only" is the limit of the EDGAR record, **not** a proof that no predecessor filed.
-STATUS: **UNTRIED** (blocked by 503 in the probe).
+STATUS: **UNTRIED** (blocked in the probe by the route failure recorded at `U.025` — a 503 on the run's
+record, code UNKNOWN on the bytes).
 
 **U.037 — Re-verification of the five unverified layers `U.028`.** ROUTE: repair or bypass the stale
 local CA store (`pip install --upgrade certifi`, or the harvest tools' documented `--use-curl`
@@ -2067,9 +2284,19 @@ fallback), re-fetch the same five per-year layers, and re-stamp their sidecars t
 `transport: verified TLS`; until then Q3-Q8, Q16-Q19, the §K.3 row and the FY1974 roster stay under the
 Medium cap. STATUS: **UNTRIED** by this pass (it holds no network budget).
 
+**U.103 — The payroll/wages/headcount null; key minted 2026-09-30 (round 3, COR-24) — the §S.1 table
+carried this null under `U.028`, which in `data_gaps.csv` is the transport gap, a different question
+(RB-7i).** WHAT THE RECORD ASSERTS: the terms `payroll`, `wages`, `number of employees` return **no hits
+in FY1965-FY1972**; they first appear FY1974 (`payroll dollars`) and FY1975 (`occupancy expense, payroll,
+advertising and other expenses`) `(PB)`. WHAT MAY BE CONCLUDED: a corpus null over the eleven held layers.
+WHAT MAY NOT: that the unit had no wage bill. ROUTE: `U.030` (the 17 PDF legs) and `U.032` (book/periodical
+corpora). Register row: `data_gaps.csv` **U.103**. STATUS: documented null within perimeter.
+
 ### U.5 Coda: what this section is evidence of
 
-Thirty-seven entries, of which seventeen are genuine conflicts, seven are searches that came back
+Thirty-seven entries at authoring, plus **three keys minted by the 2026-09-30 third-repair round**
+(`U.101`, `U.102` — previously unkeyed rows of `data_gaps.csv` (RB-7ii) — and `U.103` above): **40 declared
+anchors** in the `ANCHORS` set, 37 authored plus 3 hygiene keys. Of the 37, seventeen are genuine conflicts, seven are searches that came back
 empty, five are routes that failed or tools that are broken, and eight are work nobody has done yet. The
 asymmetry is the finding: this company's Stage 1 is **document-rich and source-poor** — eleven
 consecutive years of its own print, with a gap-free FY1965→FY1975 run, and not one independent carrier
@@ -2086,16 +2313,21 @@ STATUS: WRITTEN 2026-09-25
 
 Load-bearing claims established on this pass only; `B1-01`–`B1-12` live in
 `research/B1_dayton_print_records.md` and are not repeated. IDs are dossier-local (`P2-nn`) and are
-remapped centrally at merge (§13). `Passage:` is verbatim from held bytes, ≤40 words, as printed.
+remapped centrally at merge (§13). `Passage:` is **verbatim digits with normalized labels**: held bytes as
+printed, ≤40 words, **except** that OCR line-joins are marked `[OCR JOIN La-b: …]` inside the record (P2-07,
+RB-6c 2026-09-30) and corrupt print is shown, not hidden (P2-10 `SOLS AMIS)`); the former blanket promise
+"as printed" overstated fidelity for those two records (COR-21).
 
 ```
 P2-01 Claim: The layer this corpus calls FY1965 reports a fiscal year that ended 1966-01-29, and labels the same column both 1965 and 1966 inside one document. — Date: 1966-01-29 — Source: The Dayton Company Annual Report 1965, SALES section — Source date: 1966 (cover 1965) — URL: local bytes sources/corporate_print/1965_dayton_hudson_djvu.txt — Archived: held locally — Tier: 1 — Class: FACT — Passage: "Net sales of The Dayton Company and retail subsidiaries during the fiscal year ended January 29, 1966, were $186,166,671, the largest in the Company's history." — Conf: High — Corroboration: 0 independent (pattern confirmed only inside the same lineage by B1S02, which prints a fiscal year ended January 28, 1967 under a 1966 cover) — Conflicts: U.011
-P2-02 Claim: At the moment of the first public annual report the company described itself as privately owned and the report as its first public one. — Date: 1966 (cover 1965) — Source: The Dayton Company Annual Report 1965, opening letter — Source date: 1966 — URL: as P2-01 — Archived: held locally — Tier: 1 — Class: FACT — Passage: "The projected growth of The Dayton Company requires that it expand beyond the concept of a privately-owned operation." — Conf: High — Corroboration: 1 — Conflicts: U.017
+P2-02 Claim: At the moment of the first public annual report the company described itself as privately owned and the report as its first public one. — Date: 1966 (cover 1965) — Source: The Dayton Company Annual Report 1965, opening letter — Source date: 1966 — URL: as P2-01 — Archived: held locally — Tier: 1 — Class: FACT — Passage: "The projected growth of The Dayton Company requires that it expand beyond the concept of a privately-owned operation." — Conf: High — Corroboration: 0 independent (COR-10: the cell printed `1` and named no second source; the only
+other print of this sentence is the same opening letter of the same report, so there is no second document) —
+Conflicts: U.017
 P2-03 Claim: The parent printed Target-unit growth rates of 44 percent on sales and 100 percent on pre-tax profit for fiscal 1965, with no dollar base printed. — Date: FY1965 — Source: The Dayton Company Annual Report 1965, opening letter — Source date: 1966 — URL: as P2-01 — Archived: held locally — Tier: 1 — Class: FOUNDER CLAIM — contemporaneous, company-as-founder — Passage: "The potential of Target is demonstrated by gains of 44 percent in sales and 100 percent in pre-tax profits in 1965 over the previous year." — Conf: High (printed), UNKNOWN (base) — Corroboration: 0 — Conflicts: U.013, U.021
 P2-04 Claim: Target Stores, Inc. still carried a loss forward into the group's 1964 tax computation, which is the earliest unit-level profit statement in the corpus. — Date: 1964 — Source: The Dayton Company Annual Report 1965, EARNINGS section — Source date: 1966 — URL: as P2-01 — Archived: held locally — Tier: 1 — Class: FACT (magnitude UNKNOWN) — Passage: "The percentage increase in after-tax earnings was somewhat less because of a substantial loss carry-forward available to Target Stores, Inc., in 1964." — Conf: High — Corroboration: 0 — Conflicts: U.016
 P2-05 Claim: Lease economics are printed only at parent scope, as an aggregate minimum with percentage-of-sales clauses and a related-party component. — Date: 1966-01-29 — Source: The Dayton Company Annual Report 1965, LEASES note — Source date: 1966 — URL: as P2-01 — Archived: held locally — Tier: 1 — Class: FACT — Passage: "Long-term leases at January 29, 1966 require aggregate minimum annual rentals of approximately $1,564,220, of which $626,683 is payable to unconsolidated subsidiaries." — Conf: High — Corroboration: 0 — Conflicts: U.012
 P2-06 Claim: The only held forward-cost figure near the founding decade is a consolidated facility commitment, not a store cost. — Date: 1966 (subsequent events) — Source: The Dayton Company Annual Report 1965, SUBSEQUENT EVENTS — Source date: 1966 — URL: as P2-01 — Archived: held locally — Tier: 1 — Class: FACT — Passage: "The Company and its subsidiaries have commitments in the amount of approximately $3,750,000 for additional facilities." — Conf: High — Corroboration: 0 — Conflicts: U.012
-P2-07 Claim: The Dayton Company's separate receivables operation began on 1966-01-15 and opened at a loss. — Date: 1966-01-15 — Source: The Dayton Company Annual Report 1965, NOTE A of the subsidiary statements — Source date: 1966 — URL: as P2-01 — Archived: held locally — Tier: 1 — Class: FACT — Passage: "The Company (which commenced operations on January 15, 1966)" — Conf: High — Corroboration: 0 — Conflicts: None (motive UNKNOWN, §N.1)
+P2-07 Claim: The Dayton Company's separate receivables operation began on 1966-01-15 and opened at a loss. — Date: 1966-01-15 — Source: The Dayton Company Annual Report 1965, NOTE A of the subsidiary statements — Source date: 1966 — URL: as P2-01 — Archived: held locally — Tier: 1 — Class: FACT — Passage: "The Company (which commenced operations on January 15, 1966)" [OCR JOIN L1354-1355: the layer prints L1354 `NOTE A The Company (which commenced operations on January 15, SS ey` and L1355 opens `1966) has adopted the policy …`; the quoted span is joined across the two lines and the corrupt print `SS ey` is **dropped from inside the quote** — marker added 2026-09-30 per RB-6c/COR-21, so the Passage is verbatim digits with a marked join, not "as printed" line-for-line] — Conf: High — Corroboration: 0 — Conflicts: None (motive UNKNOWN, §N.1)
 P2-08 Claim: Seven Target units were in operation under cover-year 1966, with a stated total retail area. — Date: 1967-01-28 (period end) — Source: Dayton Company Annual Report 1966 — Source date: 1967 — URL: local bytes sources/corporate_print/1966_dayton_hudson_djvu.txt — Archived: held locally, transport UNVERIFIED TLS — Tier: 1 — Class: FACT — Passage: "Total retail area of the seven Target stores now in operation is 889,000 square feet." — Conf: Medium (capped by U.028) — Corroboration: 0 — Conflicts: U.012
 P2-09 Claim: The FY1974 estate roster prints four units with opening year 1962, each with an area digit, and lists Knollwood under St. Louis Park. — Date: 1962, printed 1974 (PB) — Source: Dayton Hudson Corporation Annual Report 1974, LOW MARGIN STORES roster — Source date: 1975 (cover 1974) — URL: local bytes sources/corporate_print/1974_dayton_hudson_djvu.txt — Archived: held locally, transport UNVERIFIED TLS — Tier: 1 — Class: RESTATED INTERPRETATION (retrospective roster) — Passage: "Roseville, Minn. 68 1962 Crystal, Minn. 96 1962 Duluth, Minn. 96 1962 Knollwood, St. Louis Park, Minn. 106 1962" — Conf: Medium — Corroboration: 0 (same lineage as B1S01) — Conflicts: U.015, U.012, U.016
 P2-10 Claim: One low-margin-group row, printed in FY1973, supplies revenue, store count, square footage and sales per square foot for 1969-1973 and foots to itself in all five columns. — Date: 1969-1973 (PB) — Source: Dayton Hudson Corporation Annual Report 1973, Five Year Comparisons — Source date: 1974 (cover 1973) — URL: local bytes sources/corporate_print/1973_dayton_hudson_djvu.txt — Archived: held locally, transport UNVERIFIED TLS — Tier: 1 — Class: RESTATED for 1969-1972, CONTEMPORANEOUS for 1973 — Passage: "LOW MARGIN STORES Sales (millions) $ 470.3 $ 440.4 $ 345.8 $ 289.0 $ 233.5" — Conf: Medium — Corroboration: 0 — Conflicts: U.010, U.013
@@ -2111,6 +2343,18 @@ on every row. Every `source_id` here (`B1S..`, `P2S..`) is dossier-local and is 
 merge; the merge must also apply the `U.011` re-dating of B1's Q20 row (186,166,671 → year ended
 1966-01-29; 162,773,739 → year ended 1965-01-30) as a **superseding note inside the same cell**, not as
 a deletion, per §14 rule 8.
+
+> **SUPERSEDED — DO NOT RE-APPLY. Marked 2026-09-29 by the second repair pass (certifier blocker B-2; COR-16).**
+> The root register CSVs are canonical; the blocks below are pre-repair emissions kept as the merge's audit trail
+> and are not a register to read. **Eight** rows in this volume-2 set carry dates withdrawn by **COR-07** — the
+> `1973-12-31` ×5 at the `quantitative.csv`/`timeline.csv` slice rows, plus `1969-12-31`, `1972-12-31` and
+> `1962-12-31` — and each is now marked in place inside its own `notes` cell. The carriers print February and
+> January year-ends, not December: `1973_dayton_hudson_djvu.txt` L172-174 (`52 Weeks Ended … February 2, 1974
+> February 3, 1973`), `1969_…` L1488 (`at January 31, 1970, and $6,951,217 at February 1, 1969`), `1974_…` L147-148
+> (`52 Weeks Ended … February 1, 1975 February 2, 1974`). These slices also pre-date **COR-15**, **COR-17** and
+> **COR-18**, so the `U.021` row below ("Target dollars only for 1967") and the `U.032` row below ("most likely to
+> lift the tier from T2 to T1") are both withdrawn readings kept visible, not live claims. **Do not copy any row
+> below into a register; nothing was deleted or revalued.**
 
 ### sources.csv (18 columns)
 
@@ -2149,13 +2393,13 @@ Target,stage1,1965,target_unit_pretax_profit_growth_rate,100,percent over previo
 Target,stage1,1964,target_unit_loss_carryforward_available,magnitude UNKNOWN,USD,B1S01 EARNINGS section,1966,FACT of existence; UNKNOWN of amount,Medium,,"the only unit-level financial sentence before FY1967; the unit had not earned out start-up losses by 1964 (U.016)"
 Target,stage1,1967-01-28,target_stores_total_retail_area,889000,square feet,B1S02 (fiscal year ended 1967-01-28),1967,FACT,Medium,,"seven stores in operation; basis is TOTAL RETAIL AREA and does not foot to the FY1974 roster column (U.012); UNVERIFIED TLS"
 Target,stage1,1967-01-28,target_avg_retail_area_per_store,127000,square feet,B1S02 same sentence,1967,ESTIMATE,Medium,889,000 / 7 = 127,000,"DERIVED within one sentence, one basis, one year; NOT to be joined to any other year's count"
-Target,stage1,1973-12-31,low_margin_group_total_square_feet,5563,thousands of square feet,B1S09 P2S08 Five Year Comparisons,1974,FACT,Medium,,"1969-1973 in column order: 2,390 / 3,516 / 4,220 / 5,518 / 5,563; GROUP scope (Target plus hard goods), (PB)"
-Target,stage1,1973-12-31,low_margin_group_sales_per_square_foot,84.54,USD per square foot,B1S09 P2S08,1974,FACT,Medium,,"1969-1973: 97.70 / 82.18 / 81.94 / 79.81 / 84.54; (PB); the block foots: 470.3m/5,563k = 84.5"
-Target,stage1,1973-12-31,low_margin_group_pretax_margin_pct_of_sales,1.4,percent of sales,B1S09 P2S08,1974,FACT,Medium,,"1969-1973: 3.3 / 3.0 / 4.0 / 2.1 / 1.4; (PB)"
-Target,stage1,1973-12-31,low_margin_group_sales_per_sqft_change_1969_to_1973,-13.5,percent,B1S09 P2S08 one row one basis,1974,ESTIMATE,Low,84.54 / 97.70 - 1 = -0.1347,"DERIVED within one row and one basis, comparing two years of the SAME printed row (not a cross-year division of mismatched objects); (PB)"
-Target,stage1,1969-12-31,low_margin_group_revenue_per_store_1969,12.29,USD millions,B1S09 five-year row,1974,ESTIMATE,Low,233.5 / 19 = 12.29,"GROUP basis NOT Target; same-column division only; (PB); the Target-unit equivalent is not computable from held print (U.021)"
-Target,stage1,1972-12-31,low_margin_group_revenue_per_store_1972,8.81,USD millions,B1S09 five-year row with B1S08,1974,ESTIMATE,Low,440.4 / 50 = 8.81,"GROUP basis, same-column division, (PB); shows the direction of the productivity fall, not Target economics"
-Target,stage1,1962-12-31,target_store_area_1962_openings,68;96;96;106,thousands of square feet (basis label OCR-corrupt),B1S10 roster (PB),1975,FACT as printed,Medium,,"Roseville 68; Crystal 96; Duluth 96; Knollwood St.Louis Park 106 as printed in FY1965; sum for the seven units to 1966 = 722 against B1S02's 889 (U.012)"
+Target,stage1,1973-12-31,low_margin_group_total_square_feet,5563,thousands of square feet,B1S09 P2S08 Five Year Comparisons,1974,FACT,Medium,,"1969-1973 in column order: 2,390 / 3,516 / 4,220 / 5,518 / 5,563; GROUP scope (Target plus hard goods), (PB) DATE WITHDRAWN BY COR-07 (2026-09-29) - DO NOT RE-APPLY. The carrier prints 52 Weeks Ended February 2, 1974 for fiscal 1973 (1973_dayton_hudson_djvu.txt L172-174); canonical date 1974-02-02. Marked in place under COR-16 (certifier blocker B-2)."
+Target,stage1,1973-12-31,low_margin_group_sales_per_square_foot,84.54,USD per square foot,B1S09 P2S08,1974,FACT,Medium,,"1969-1973: 97.70 / 82.18 / 81.94 / 79.81 / 84.54; (PB); the block foots: 470.3m/5,563k = 84.5 DATE WITHDRAWN BY COR-07 (2026-09-29) - DO NOT RE-APPLY. The carrier prints 52 Weeks Ended February 2, 1974 for fiscal 1973 (1973_dayton_hudson_djvu.txt L172-174); canonical date 1974-02-02. Marked in place under COR-16 (certifier blocker B-2)."
+Target,stage1,1973-12-31,low_margin_group_pretax_margin_pct_of_sales,1.4,percent of sales,B1S09 P2S08,1974,FACT,Medium,,"1969-1973: 3.3 / 3.0 / 4.0 / 2.1 / 1.4; (PB) DATE WITHDRAWN BY COR-07 (2026-09-29) - DO NOT RE-APPLY. The carrier prints 52 Weeks Ended February 2, 1974 for fiscal 1973 (1973_dayton_hudson_djvu.txt L172-174); canonical date 1974-02-02. Marked in place under COR-16 (certifier blocker B-2)."
+Target,stage1,1973-12-31,low_margin_group_sales_per_sqft_change_1969_to_1973,-13.5,percent,B1S09 P2S08 one row one basis,1974,ESTIMATE,Low,84.54 / 97.70 - 1 = -0.1347,"DERIVED within one row and one basis, comparing two years of the SAME printed row (not a cross-year division of mismatched objects); (PB) DATE WITHDRAWN BY COR-07 (2026-09-29) - DO NOT RE-APPLY. The carrier prints 52 Weeks Ended February 2, 1974 for fiscal 1973 (1973_dayton_hudson_djvu.txt L172-174); canonical date 1974-02-02. Marked in place under COR-16 (certifier blocker B-2)."
+Target,stage1,1969-12-31,low_margin_group_revenue_per_store_1969,12.29,USD millions,B1S09 five-year row,1974,ESTIMATE,Low,233.5 / 19 = 12.29,"GROUP basis NOT Target; same-column division only; (PB); the Target-unit equivalent is not computable from held print (U.021) DATE WITHDRAWN BY COR-07 (2026-09-29) - DO NOT RE-APPLY. Fiscal 1969 ended January 31, 1970, printed at 1969_dayton_hudson_djvu.txt L1488; canonical date 1970-01-31. Marked in place under COR-16 (certifier blocker B-2)."
+Target,stage1,1972-12-31,low_margin_group_revenue_per_store_1972,8.81,USD millions,B1S09 five-year row with B1S08,1974,ESTIMATE,Low,440.4 / 50 = 8.81,"GROUP basis, same-column division, (PB); shows the direction of the productivity fall, not Target economics DATE WITHDRAWN BY COR-07 (2026-09-29) - DO NOT RE-APPLY. The carrier prints 53 Weeks Ended February 3, 1973 for fiscal 1972 (1973_dayton_hudson_djvu.txt L172-174); canonical date 1973-02-03. Marked in place under COR-16 (certifier blocker B-2)."
+Target,stage1,1962-12-31,target_store_area_1962_openings,68;96;96;106,thousands of square feet (basis label OCR-corrupt),B1S10 roster (PB),1975,FACT as printed,Medium,,"Roseville 68; Crystal 96; Duluth 96; Knollwood St.Louis Park 106 as printed in FY1965; sum for the seven units to 1966 = 722 against B1S02's 889 (U.012) DATE WITHDRAWN BY COR-07 (2026-09-29) - DO NOT RE-APPLY. 1962 is a cohort label on an FY1974 estate roster observed at the year-end 1975-02-01, printed at 1974_dayton_hudson_djvu.txt L147-148; canonical date 1975-02-01, and see COR-12 on what the row's object actually is. Marked in place under COR-16 (certifier blocker B-2)."
 Target,stage1,1965-01-30,parent_maintenance_and_repairs,1894037,USD,B1S01 Statement of Income deduction block,1966,FACT,Medium,,"the following-year column prints 763,572, a fall larger than the narrative's 1,130,000 reduction explains - digit-level OCR doubt recorded in section M.1, not resolved"
 ```
 
@@ -2169,7 +2413,7 @@ Target,stage1,1966-01-15,Dayton Credit Company commences operations and prints a
 Target,stage1,1966-02,Annual meeting approves a ten-for-one stock split; a 100 percent stock dividend is declared the same month,The Dayton Company shareholders,Minneapolis,B1S01,FACT,High,None,transfer of 1,535,500 from retained earnings to Common Stock in March 1966
 Target,stage1,1966,The company states it is moving beyond a privately-owned operation by issuing its first public annual report,The Dayton Company,Minneapolis,B1S01,FACT,High,U.017,disclosure decision; distinct from the first public stock offering of late 1967 printed by B1S06
 Target,stage1,1967-01-28,Seven Target stores in operation with a stated total retail area of 889,000 square feet,Target Stores Inc,Denver Colo and Minnesota,B1S02,FACT,Medium,U.012,period end 1967-01-28 under a 1966 cover (U.011); UNVERIFIED TLS (U.028)
-Target,stage1,1973-12-31,The only intact five-year low-margin row in the run prints revenue stores square footage and sales per square foot for 1969-1973,Dayton Hudson Corporation,Minneapolis,B1S09,RESTATED 1969-1972 / CONTEMPORANEOUS 1973,Medium,K9 U.010 U.013,(PB); the row foots to itself in all five columns
+Target,stage1,1973-12-31,The only intact five-year low-margin row in the run prints revenue stores square footage and sales per square foot for 1969-1973,Dayton Hudson Corporation,Minneapolis,B1S09,RESTATED 1969-1972 / CONTEMPORANEOUS 1973,Medium,K9 U.010 U.013,"(PB); the row foots to itself in all five columns  DATE WITHDRAWN BY COR-07 (2026-09-29) - DO NOT RE-APPLY. This timeline row is the FY1973 five-year recap and fiscal 1973 ended 1974-02-02, printed by the same carrier at 1973_dayton_hudson_djvu.txt L172-174. Canonical row: timeline.csv, dated 1974-02-02. Marked in place under COR-16 (certifier blocker B-2)."
 Target,stage1,1974,The estate roster prints the Target unit as (1967) under Stephen L. Pistner as President with a per-store area column,Dayton Hudson Corporation,Minneapolis,B1S10,RESTATED roster,Medium,K6 K7 U.009 U.012,(PB); the 1962 rows carry areas 68/96/96/106 which do not foot to the FY1966 total of 889,000
 ```
 
