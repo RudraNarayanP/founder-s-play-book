@@ -571,7 +571,66 @@ def gate_corrections(company, report):
                   % len(ids))
 
 
-def issued_tier(company):
+STAGE_BIND = re.compile(r"stage\s*([123])\b[^\w]{1,8}\bT([123])\b", re.I)
+CELL_HEAD = re.compile(r"\**\s*(?:s(?:tage?)?\s*)?([123])\b", re.I)
+CELL_SUB = re.compile(r"\**\s*(?:s(?:tage?)?\s*)?[123]\s*[A-Za-z]\b", re.I)
+CELL_ANY = re.compile(r"stage\s*([123])\b", re.I)
+CELL_TIER = re.compile(r"\**\s*T([123])\b", re.I)
+COMPANY_TIER = re.compile(r"^\s*\**\s*(?:the\s+|company\s+|planning\s+|overall\s+)*tier\s*[:=]\s*\**\s*T([123])\b",
+                          re.I)
+
+
+def _tier_bindings(line):
+    """The (rank, stage, tier) assignments a line MAKES -- not the tiers it mentions.
+
+    Three shapes carry an issuance, per s15.2 / RD-112, in decreasing specificity:
+
+      rank 1  a dispatch line    `- **Stage 1 -- T2 core (22k w/stage, 6-9 runs). Dispatch it.**`
+      rank 2  a per-stage table  `| **Stage 1** | 1908-1930 | ... | **T2 core** | 22k w/stage |`
+      rank 3  a company line     `**TIER: T2 on the evidence standing on disk right now**`
+
+    A tier token in prose is NOT an assignment. Boeing's probe writes "I would not claim T1 for Stage 1,
+    and I would not claim T3 either" and JPMorgan's writes "No stage reaches T1, and Stage 1 cannot reach
+    T1": binding on nearest-token proximity would issue Stage 1 as T1 from a sentence whose whole point is
+    that it is NOT T1, so the separator run between the stage number and the tier token is restricted to
+    non-word characters. Sub-window rows (CVS `S1a`/`S1d`, PepsiCo `1A`/`1B`) are skipped: they grade a
+    slice of a stage, and the stage's own row (`| **Whole Stage 1 as dispatched** | ... | T2 core |`)
+    is the number a `stage_1.md` volume is measured against.
+    """
+    out = [(1, int(m.group(1)), "T" + m.group(2)) for m in STAGE_BIND.finditer(line)]
+    s = line.strip()
+    if s.startswith("|") and s.count("|") >= 3:
+        cells = [c.strip() for c in s.strip("|").split("|")]
+        head = CELL_HEAD.match(cells[0])
+        sg = None
+        if head and not CELL_SUB.match(cells[0]):
+            sg = int(head.group(1))
+        else:
+            m_any = CELL_ANY.search(cells[0])
+            if m_any and not re.search(r"[123]\s*[A-Za-z]\b", m_any.group(0), re.I):
+                sg = int(m_any.group(1))
+        if sg:
+            for c in cells[1:]:
+                mc = CELL_TIER.match(c)
+                if mc:
+                    out.append((2, sg, "T" + mc.group(1)))
+    elif not out:
+        mc = COMPANY_TIER.match(line)
+        if mc:
+            out.append((3, None, "T" + mc.group(1)))
+    return out
+
+
+def doc_stage(path):
+    b = os.path.basename(path).lower()
+    m = re.match(r"(?:stage|s)_?([123])\b", b)
+    return int(m.group(1)) if m else None
+
+
+_TIER_CACHE = {}
+
+
+def issued_tier(company, stage=None):
     """The tier THIS company's own dossier issued -- never the loosest default.
 
     The tier used to be a CLI flag defaulting to `exemplar`, so a T3 register company measured against a
@@ -579,7 +638,17 @@ def issued_tier(company):
     `research/` ONLY, and a tier-verdict dossier outranks a passing mention: a merged volume discusses all
     three tiers while arguing its five-family verdict, and reading THAT as the issuance graded UnitedHealth
     as T3 on its own narrative's mention. Order: verdict-bearing filename, then dossier number, then mtime.
+
+    `stage` is the volume's own stage number. s15.2 tiers are PER STAGE (RD-112), and a company's three
+    stages are routinely issued at different tiers -- JPMorgan Stage 1 T2 core, Stages 2-3 T3 register --
+    so grading one narrative volume at a company-wide tier was wrong in both directions. Three authors
+    (GM, Boeing, JPMorgan, 2026-10-01/02) reported `--tier auto` measuring T3 while their probe's s5
+    issued Stage 1 at T2: the verdict was written as a table row or a `Stage 1 -- T2 core` bullet, which
+    the prose-only reader never recognised, and the register cap was then aimed at a core volume.
     """
+    key = (os.path.abspath(company), stage)
+    if key in _TIER_CACHE:
+        return _TIER_CACHE[key]
     rx = re.compile(r"\bT([123])\b(?:\s*(?:core|register|exemplar|tier))?", re.I)
     verdict = re.compile(r"regrade|feasibility|tier|verdict|density", re.I)
     # A dossier discusses all three tiers while arguing its per-stage verdicts, so a mention-scan that
@@ -588,19 +657,59 @@ def issued_tier(company):
     # because on a single-file tie `sort(reverse=True)` fell through to the label string. Read the lines
     # that STATE a verdict, and prefer the planning/summary line over an early per-stage table.
     says = re.compile(r"\b(planning tier|tier verdict|verdict[:\s]|per[- ]stage tiers?|deliverable|"
-                      r"tier[:=]|planned tier|stage 1[^.]{0,40}tier)\b", re.I)
+                      r"tier[:=]|planned tier|stage 1[^.]{0,40}tier)\b|"
+                      r"\bT[123]\s*(?:core|register|exemplar)\b", re.I)
+    binds = []
     hits = []
     for p in glob.glob(os.path.join(company, "research", "*.md")):
         stem = os.path.basename(p)
         txt = open(p, encoding="utf-8", errors="replace").read()
         num = re.match(r"[A-Za-z]+(\d+)", stem)
         lines = txt.splitlines()
+        mt = os.stat(p).st_mtime_ns
         for i, line in enumerate(lines):
+            for rank, sg, tr in _tier_bindings(line):
+                binds.append((rank, mt, int(num.group(1)) if num else 0, i, sg, tr, stem))
             for m in rx.finditer(line):
-                hits.append((1 if says.search(line) else 0,
+                hits.append((1 if says.search(line) or _tier_bindings(line) else 0,
                              1 if verdict.search(stem) else 0,
-                             os.stat(p).st_mtime_ns, int(num.group(1)) if num else 0, i, stem,
-                             "T" + m.group(1)))
+                             mt, int(num.group(1)) if num else 0, i, stem, "T" + m.group(1)))
+    result = _resolve_tier(company, stage, binds, hits)
+    _TIER_CACHE[key] = result
+    return result
+
+
+def _resolve_tier(company, stage, binds, hits):
+    # binds: (rank, mtime, dossier no, line, stage, tier, stem); rank 1 = dispatch line,
+    # 2 = per-stage table row, 3 = company-level `TIER: Tn` (stage None, so it answers for every volume).
+    def pick(pool):
+        pool = sorted(pool, key=lambda b: (-b[0], b[1], b[2], b[3]), reverse=True)
+        return pool[0], pool
+
+    if stage is not None:
+        mine = [b for b in binds if b[4] in (stage, None)]
+        if mine:
+            top, pool = pick(mine)
+            same_rank = {b[5] for b in pool if b[0] == top[0]}
+            others = sorted({b[4] for b in binds if b[4] not in (stage, None)})
+            return top[5], ("tier %s assigned to Stage %d by %s l.%d (rank %d: %s)%s%s"
+                            % (top[5], stage, top[6], top[3] + 1, top[0],
+                               "dispatch line" if top[0] == 1 else
+                               "per-stage table row" if top[0] == 2 else "company tier line",
+                               "" if len(same_rank) == 1 else
+                               " -- DISAGREES (%s at this rank), newest wins; pass --tier if the "
+                               "dossier means otherwise" % "/".join(sorted(same_rank)),
+                               "" if not others else " (other stages bound separately, s15.2/RD-112)"))
+    if binds and stage is None:
+        pairs = sorted({(b[4], b[5]) for b in binds if b[4] is not None})
+        if pairs:
+            want = 1 if any(sg == 1 for sg, _ in pairs) else pairs[0][0]
+            return (pick([b for b in binds if b[4] == want])[0][5],
+                    "issuances read in research/: %s -- Stage %d shown; each volume is graded at its "
+                    "own stage's tier" % (", ".join("Stage %d %s" % (sg, tr) for sg, tr in pairs), want))
+        top, _pool = pick(binds)
+        return top[5], "company-wide issuance read in research/: %s from %s l.%d" % (
+            top[5], top[6], top[3] + 1)
     if not hits:
         return "exemplar", "no tier stated in this company's research/ dossiers -- exemplar assumed"
     hits.sort(reverse=True)
@@ -614,18 +723,24 @@ def issued_tier(company):
                                      hits[0][5],
                                      "" if len(distinct) == 1 else
                                      " -- %s all mentioned in research/ (%d mentions, %d on a "
-                                     "verdict line); if the dossier's own text names a different tier, "
-                                     "trust the dossier and tell me, because this reader is not the "
-                                     "authority on your finding" % ("/".join(distinct), len(hits),
-                                                                   len(verdict_hits))))
+                                     "verdict line); no per-stage assignment line was found, so this "
+                                     "is the LAST-RESORT reading: if the dossier's own text names a "
+                                     "different tier, trust the dossier and pass --tier explicitly, "
+                                     "because this reader is not the authority on your finding"
+                                     % ("/".join(distinct), len(hits), len(verdict_hits))))
     return latest, note
 
 
 def gate_budgets(company, report, tier):
     caps = {"exemplar": 60000, "core": 22000, "register": 8000,
             "T1": 60000, "T2": 22000, "T3": 8000}
-    cap = caps.get(tier, 60000)
     for md in stage_docs(company):
+        # `auto` resolves PER VOLUME: a company whose probe issues Stage 1 T2 and Stage 3 T3 must not
+        # have its core volume aimed at the register cap (nor its register volume let off at the core one).
+        used = tier
+        if tier in ("auto", "TIER"):
+            used, _why = issued_tier(company, stage=doc_stage(md))
+        cap = caps.get(used, 60000)
         w = len(re.findall(r"\S+", open(md, encoding="utf-8", errors="replace").read()))
         base = os.path.basename(md)
         if w > HARD_CAP:
@@ -635,10 +750,12 @@ def gate_budgets(company, report, tier):
         elif w > cap:
             # A tier cap is a DENSITY TARGET, not a file limit: "make it fit" has previously been
             # answered by deleting evidence. Advisory, so no agent can be told to repair real data.
-            report.fail("advisory", base, "%d words over the %s density target %d -- NOT a split "
-                        "mandate and NOT a defect; recorded so the tier is measurable" % (w, tier, cap))
+            report.fail("advisory", base, "%d words over the %s (this volume's issued tier) density "
+                        "target %d -- NOT a split mandate and NOT a defect; recorded so the tier is "
+                        "measurable" % (w, used, cap))
         else:
-            report.ok("budget", base, "%d words (target %d, hard cap %d)" % (w, cap, HARD_CAP))
+            report.ok("budget", base, "%d words (tier %s target %d, hard cap %d)"
+                      % (w, used, cap, HARD_CAP))
 
 
 # ---------------------------------------------------------------- harness
@@ -728,18 +845,22 @@ def run(company, checks, tier, outdir=None):
         json.dump({"findings": rep.findings}, open(jpath, "w", encoding="utf-8"), indent=1)
         print("written: %s" % mdpath)
     print(md)
-    # §15.6 says an ADVISORY output is not a defect, and the quotes gate writes that word into its own
-    # message -- but the filter only looked at the gate NAME, so Target's re-certifier ran a pass whose
-    # only finding was labelled ADVISORY and still got exit 1. Classify on what the finding says it is.
-    def _advisory(f):
-        # Target's fourth certifier found the residual: gate_quotes files the ADVISORY marker into the
-        # finding's SUBJECT, while this filter read only gate and msg -- so an advisory quote finding
-        # flipped the exit code to 1 and a clean company looked like a failure.
-        return (f["gate"] in ("coverage", "advisory")
-                or "ADVISORY" in str(f.get("msg", "")).upper()[:12]
-                or "ADVISORY" in str(f.get("subject", "")).upper())
-    substantive = [f for f in rep.findings if not _advisory(f)]
+    substantive = [f for f in rep.findings if not is_advisory(f)]
     return len(rep.findings), len(substantive)
+
+
+def is_advisory(f):
+    """§15.6: an ADVISORY output is not a defect, so it must not decide the exit code.
+
+    The filter used to read only the gate NAME, and Target's re-certifier ran a pass whose only finding
+    was labelled ADVISORY yet still got exit 1. gate_quotes writes that marker in its MESSAGE; Target's
+    fourth certifier then found the second half of the bug -- the SAME gate files the marker in the
+    finding's SUBJECT, so a company with zero substantive findings exited 1 anyway. Classify on all three
+    fields, and keep this at module scope so the self-test can drive it with a real finding.
+    """
+    return (f["gate"] in ("coverage", "advisory")
+            or "ADVISORY" in str(f.get("msg", "")).upper()[:12]
+            or "ADVISORY" in str(f.get("subject", "")).upper())
 
 
 # ---------------------------------------------------------------- self-test
@@ -944,6 +1065,76 @@ def self_test():
         print("%-40s %-8s %s" % ("tier regrade beats the probe", "[tier]",
                                  "PASS (%s)" % got if got == "T2" else "*** FAILED: %s %s" % (got, why)))
         ok = ok and got == "T2"
+
+        # Per-stage issuance. GM, Boeing and JPMorgan's authors all reported the same thing on
+        # 2026-10-01/02: `--tier auto` measured T3 while their probe's §5 issued Stage 1 at T2 core,
+        # because the verdict was written as a TABLE ROW or a `Stage 1 -- T2 core` bullet and the reader
+        # only recognised prose verdict lines. The trap line below is real prose from those dossiers:
+        # "No stage reaches T1, and Stage 1 cannot reach T1" must NOT bind Stage 1 to T1.
+        tsc = os.path.join(tmp, "tier_stage_case")
+        os.makedirs(os.path.join(tsc, "research"))
+        open(os.path.join(tsc, "research", "A_chronology_feasibility.md"), "w",
+             encoding="utf-8").write(
+                 "| stage | window | families | tier | w/stage | runs |\n"
+                 "|---|---|---|---|---|---|\n"
+                 "| **Stage 1** | 1799-01-01 -> 1955-12-31 | 2 | **T2 core** | 22k | 6-9 |\n"
+                 "| **Stage 2** | 1956-01-01 -> 1999-12-31 | 1 | **T3 register, PROVISIONAL** "
+                 "| 8k | 3-4 |\n"
+                 "\n- **Stage 1 -- T2 core (22k w/stage, 6-9 runs). Dispatch it.**\n"
+                 "- **Stage 2 -- T3 PROVISIONAL.** One opened carrier flips it to T2.\n"
+                 "\n**Tier discipline, so it cannot be mis-inherited.** No stage reaches T1, and "
+                 "Stage 1 cannot reach T1 through any family a 0-web probe can run.\n")
+        for want, ask, label in (("T2", 1, "stage-1 table row reads T2"),
+                                 ("T3", 2, "stage-2 table row reads T3")):
+            got, why = issued_tier(tsc, stage=ask)
+            print("%-40s %-8s %s" % (label, "[tier]",
+                                     "PASS (%s)" % got if got == want
+                                     else "*** FAILED: %s %s ***" % (got, why)))
+            ok = ok and got == want
+        # The banner `run()` prints resolves with stage=None, and a per-stage dossier reaches that
+        # branch FIRST on every real run -- it crashed on the live dossiers minutes after the per-stage
+        # path passed its own test. So the global call is a control, not a courtesy.
+        got, why = issued_tier(tsc)
+        print("%-40s %-8s %s" % ("global call on a per-stage dossier", "[tier]",
+                                 "PASS (%s / %s...)" % (got, why[:34])
+                                 if got == "T2" and "Stage 1 T2" in why
+                                 else "*** FAILED: %s %s ***" % (got, why)))
+        ok = ok and got == "T2" and "Stage 1 T2" in why
+
+        # ... and the cap must follow the volume, not one company-wide guess: 12,000 words is inside
+        # Stage 1's T2 target and outside the T3 cap the old reader applied to it.
+        open(os.path.join(tsc, "stage_1.md"), "w", encoding="utf-8").write(
+            "# volume\n" + "lorem ipsum dolor sit amet " * 2400)
+        r = Report()
+        gate_budgets(tsc, r, "auto")
+        warn = [f for f in r.findings if f["subject"] == "stage_1.md"]
+        print("%-40s %-8s %s" % ("core volume not capped at register tier", "[budget]",
+                                 "PASS" if not warn else "*** FAILED: %s ***" % warn[:1]))
+        ok = ok and not warn
+
+        # The exit-code half of RD-140: gate_quotes files its ADVISORY marker in the finding's SUBJECT,
+        # so a pass whose only finding is that advisory must still be substantive-free. This fixture
+        # produces the finding by REAL retrieval, not by hand-writing a dict.
+        qc = os.path.join(tmp, "case_adv")
+        shutil.copytree(comp, qc)
+        plant(os.path.join(qc, "stage_1.md"), lambda t:
+              t + '\n### U.2 Nothing\nThe report notes "an entirely invented phrase that appears in '
+                  'no carrier at all in this corpus" (S0001).\n')
+        r = Report()
+        gate_quotes(qc, r, min_words=8)
+        adv = [f for f in r.findings if f["gate"] == "quotes"]
+        fired = bool(adv) and adv[0]["subject"] == "ADVISORY"
+        clean_exit = bool(adv) and not [f for f in r.findings if not is_advisory(f)]
+        print("%-40s %-8s %s" % ("quotes ADVISORY must not fail the exit code", "[exit]",
+                                 "PASS" if fired and clean_exit
+                                 else "*** FAILED: fired=%s findings=%s ***" % (fired, adv[:1])))
+        ok = ok and fired and clean_exit
+        # Negative half: the same gate's real defect class must still count as substantive.
+        still_bad = [f for f in [{"gate": "quotes", "subject": "verbatim", "msg": "3 of 200 unmatched"}]
+                     if not is_advisory(f)]
+        print("%-40s %-8s %s" % ("quotes verbatim defect stays substantive", "[exit]",
+                                 "PASS" if still_bad else "*** FAILED ***"))
+        ok = ok and bool(still_bad)
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     print("\nself-test: %s" % ("PASS" if ok else "FAIL -- a gate cannot catch its own defect"))
