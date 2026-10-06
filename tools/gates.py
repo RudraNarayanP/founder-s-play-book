@@ -732,7 +732,12 @@ def run(company, checks, tier, outdir=None):
     # message -- but the filter only looked at the gate NAME, so Target's re-certifier ran a pass whose
     # only finding was labelled ADVISORY and still got exit 1. Classify on what the finding says it is.
     def _advisory(f):
-        return f["gate"] in ("coverage", "advisory") or str(f["msg"]).upper().startswith("ADVISORY")
+        # Target's fourth certifier found the residual: gate_quotes files the ADVISORY marker into the
+        # finding's SUBJECT, while this filter read only gate and msg -- so an advisory quote finding
+        # flipped the exit code to 1 and a clean company looked like a failure.
+        return (f["gate"] in ("coverage", "advisory")
+                or "ADVISORY" in str(f.get("msg", "")).upper()[:12]
+                or "ADVISORY" in str(f.get("subject", "")).upper())
     substantive = [f for f in rep.findings if not _advisory(f)]
     return len(rep.findings), len(substantive)
 
@@ -870,6 +875,7 @@ def self_test():
             plant(os.path.join(d, "stage_1.md"), lambda t: t + '\nAdvertised as "To licensed '
                   'users of Microsoft BASIC-80 (MBASIC) S435/S45" [OCR: $ list/$ dealer] (S0001).\n')
         cases["quoted OCR price token is print, not a citation"] = plant_quoted_price_token
+
 
         def plant_over_tier_target(d):
             # The old budget gate wrote "(split required)" for a TIER overage, which an honest agent

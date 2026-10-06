@@ -212,3 +212,14 @@ Microsoft's Internet Archive outage banner** (sha256 `e084d52792…`) and carry 
 counts family (b) from those bytes is counting an outage page -- the same class as the RD-132 error-page-as-source
 finding, one shelf over. Whoever owns Target must either retire them with a COR entry or hold family (b) as
 UNANSWERED-with-fetch; it must not stand as a second lineage.
+
+## Owed self-test control (Target recert4 found the bug; my fixture control was unfinished)
+
+`gates.py` `_advisory()` now also reads the finding's `subject`, because `gate_quotes` files the ADVISORY
+marker there and Target exited 1 on a corpus with **zero substantive findings**. The code fix is verified
+live (Target: `Findings 2 | Passes 18`, exit 0, both findings advisory). What is NOT done: a self-test
+control that plants an unmatched attributed quote and asserts the advisory classification. My first attempt
+made the control report `NOT DETECTED BY ITS OWN GATE` -- the fixture's quote span never reaches `gate_quotes`
+finding generation at all -- so I reverted it rather than leave a failing self-test with a green claim.
+Someone must find why the planted span is not attributed (min_words? the anchor requirement? sources.csv
+mapping?) before writing that control. A fix verified only by hand is a fix that can come back.
