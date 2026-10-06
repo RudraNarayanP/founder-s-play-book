@@ -102,3 +102,19 @@ GATE: gates.py --company-dir founders_playbook/01_companies/company_019_centene 
    ancestors. Import `scaffold_company.ALIAS` (reversed) into `resolve_name`, or take `--alias` from the
    command line; every abbreviated slug (`bofa gm jnj rtx att ups`) currently depends on the orchestrator
    remembering to pass a CIK.
+
+## Concrete lead from Cencora's FR-1 (resolved by `tools/legacy_cik.py`, 2026-09-30 03:05)
+
+**CIK 0000011454 = BERGEN BRUNSWIG CORP**, EDGAR perimeter **1994-01-13 -> 2002-02-14**, 190 `recent` rows, and
+the form list includes `10-K, 10-K/A, 10-Q, S-4, S-4/A, 424B4, DEF 14A, POS AM`. So Cencora's proposed W-0
+window (1985-2000) is **not** a filings silence -- it is a different registrant that files, and the probe could
+not reach it because intake only ever addressed the ticker answer (CIK 1140859).
+
+Re-grade brief for `company_010_cencora`: intake CIK 11454 over 1994-01-13->2001-08-28 **into a predecessor
+directory** (`company_010_cencora/predecessors/bergen_brunswig/`), not into the registrant's `sources/sec/` --
+the no-clobber guard is right to refuse a second CIK in the canonical slot, and the lineage must stay
+attributable to its own legal person. Then re-measure family (a) for W-0 and re-issue the tier. Two more CIKs
+to look up the same way: AmeriSource Health Corporation (Delaware 1988) and the 1994-2001 AmeriSourceBergen
+filer. Also worth knowing: six in-window `Drug Store News`/`Chain Store Age` layers naming Bergen Brunswig
+5-35x each are already on **CVS's** shelf, and one 1994 naming sits on **Cardinal's** shelf -- cross-shelf
+reading is legitimate, cross-shelf *citing* needs the id to resolve where the bytes live.
