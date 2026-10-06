@@ -958,10 +958,15 @@ def tally(stored, unanswered, skipped, attempted):
         else:
             by_slot[slot] = bucket
     total = len(stored) + len(unanswered) + len(skipped)
-    msg = ("stored(%d) + unanswered(%d) + skipped(%d) = %d vs attempted(%d) -> %s"
-           % (len(stored), len(unanswered), len(skipped), total, attempted,
-              "OK" if total == attempted and not dups else "BROKEN"))
-    ok = (total == attempted and not dups)
+    unique = len(by_slot)
+    # ExxonMobil's 2026-09-30 run printed `11 + 0 + 67 = 78 vs attempted(78) -> BROKEN`, which reads as a
+    # bug in the checker. It is not: two SKIPPED rows shared one slot, so 78 dispositions cover only 77
+    # slots and a slot went undispositioned. Say both numbers or the line looks self-contradictory.
+    msg = ("stored(%d) + unanswered(%d) + skipped(%d) = %d raw / %d unique slots vs attempted(%d) -> %s%s"
+           % (len(stored), len(unanswered), len(skipped), total, unique, attempted,
+              "OK" if unique == attempted and not dups else "BROKEN",
+              "" if total == unique else " (raw count is inflated by repeated slots, see DOUBLE-COUNTED)"))
+    ok = (unique == attempted and not dups)
     return ok, msg, dups
 
 

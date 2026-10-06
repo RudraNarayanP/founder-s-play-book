@@ -1,0 +1,28 @@
+{
+ "cik": "0002115436",
+ "requested_cik": "2115436",
+ "registrant": "ExxonMobil Holdings Corp",
+ "ticker": "XOM",
+ "tickers": [
+  "XOM"
+ ],
+ "former_names": [],
+ "company_dir": "company_009_exxonmobil",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['exxonmobil'] match registrant 'ExxonMobil Holdings Corp' (CIK 0002115436)"
+ ],
+ "built": "2026-10-06T11:44:11Z",
+ "count": 34,
+ "rows_dropped_no_accession": 1,
+ "rows_without_primaryDocument": 0,
+ "csv_sha1": "e8bbf14e5480b3e6e845da08f97dec8d834f1db8",
+ "csv_bytes": 2316,
+ "paths": {
+  "json": "founders_playbook/01_companies/company_009_exxonmobil\\sources\\_index\\submissions_CIK0002115436.json",
+  "csv": "founders_playbook/01_companies/company_009_exxonmobil\\sources\\_index\\submissions_CIK0002115436.csv",
+  "md": "founders_playbook/01_companies/company_009_exxonmobil\\sources\\_index\\_INDEX_CIK0002115436.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

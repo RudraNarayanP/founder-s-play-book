@@ -2731,14 +2731,27 @@ only `sec_intake`'s own summary lines, resumable through `00_universe/_FLEET_INT
 written itself. Two rules already in this log, re-learned by me rather than by an agent: a dry run must write
 nothing anywhere, and a tool that reads state must check the header before trusting a field.
 
-**88 of 104 Internet-Archive-family queries carried the YEAR facet RD-130 measured as manufacturing
-corporate-print nulls.** Fixing the tool's *handling* (a faceted zero is UNANSWERED, with the remedy named)
-left the *queries* faceted, so a re-run would have re-manufactured the same zeros. `--facet-free` strips
-` AND YEAR:[a TO b]` from the `internet_archive` and `corporate_print` tasks at load time and labels each
-rewritten query `[FACET-FREE per RD-130]`, so the index records which question it asked. A fleet reharvest is
-running overnight on those two families; it writes to the same harvest root the nightly uses, and the merge is
-keyed on query text, so facet-free rows arrive as new evidence instead of overwriting the faceted ones. Task
-#28 closes when the mine re-reads the enlarged index.
+**~~88 of 104 Internet-Archive-family queries carried the YEAR facet RD-130 measured as manufacturing~~**
+**corporate-print nulls. [CORRECTED 2026-09-30 by the PepsiCo probe: the real number is 188, and my fix
+covered fewer than half of them.]** Fixing the tool's *handling* (a faceted zero is UNANSWERED, with the remedy
+named) left the *queries* faceted, so a re-run would have re-manufactured the same zeros. `--facet-free` was
+supposed to strip the facet from the `internet_archive` **and** `corporate_print` tasks at load time and label
+each rewritten query `[FACET-FREE per RD-130]`. As first written it only edited `params["q"]` -- and corporate-print
+tasks carry no `q` at all, they carry `year_range: [1900, 1980]`, which the query builder turns into
+`YEAR:[..]` at line 628. So **all 100 CP tasks stayed faceted through a run whose own log line claimed to have
+de-faceted them**, and the sidecar URL PepsiCo read still ended `…AND%20YEAR%3A%5B1900%20TO%201980%5D`. Measured
+after the fix: **188 queries carried the facet (88 in `q`, 100 in `year_range`), 188 rewritten.** The CP family is
+the one that flipped Walmart's and Target's tiers, so this was the half that mattered.
+
+**The general lesson, which is RD-130's and RD-132's again: a fix is not a fix until the parameter it targets is
+found in every shape it appears in.** I verified my flag by its *printed count* (88 of 104) rather than by a
+sidecar URL on disk, and the printed count was measuring the branch I had written, not the family I had set out
+to repair. An agent reading bytes caught it. Rule now: a tool that claims to transform a query must be verified
+by re-fetching one transformed URL and grepping it for the thing that should be gone.
+
+The facet-free reharvest itself is superseded in part: the first run (207 requests, 1,610 rows) refreshed the
+`internet_archive` family properly and left `corporate_print` faceted; a second CP-only pass is running behind
+this entry, and task #28 is re-opened until its rows land.
 
 **Microsoft's first audit: 20 findings, 0 blocking, 3 HIGH -- and all three HIGH are corpus-level classes.**
 IN-1: `conflicts.csv` U.3 claims 1975 is "corroborated across two independent lineages" when both carriers are

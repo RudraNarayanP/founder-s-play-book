@@ -1,0 +1,28 @@
+{
+ "cik": "0000034088",
+ "requested_cik": "34088",
+ "registrant": "EXXON MOBIL CORP",
+ "ticker": "",
+ "tickers": [],
+ "former_names": [
+  "EXXON CORP"
+ ],
+ "company_dir": "company_009_exxonmobil",
+ "guard": "quarantine",
+ "guard_reasons": [
+  "directory already holds an index for CIK 0002115436; refusing to let CIK 0000034088 share these artefacts"
+ ],
+ "built": "2026-10-06T11:50:47Z",
+ "count": 3557,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 58,
+ "csv_sha1": "2ac99bae295cfb08f14fbd0a57c5009605d10bcd",
+ "csv_bytes": 330017,
+ "paths": {
+  "json": "founders_playbook/01_companies/company_009_exxonmobil\\sources\\_index\\quarantine\\CIK0000034088\\submissions_CIK0000034088.json",
+  "csv": "founders_playbook/01_companies/company_009_exxonmobil\\sources\\_index\\quarantine\\CIK0000034088\\submissions_CIK0000034088.csv",
+  "md": "founders_playbook/01_companies/company_009_exxonmobil\\sources\\_index\\quarantine\\CIK0000034088\\_INDEX_CIK0000034088.md"
+ },
+ "legacy_copy_written": false,
+ "legacy_note": ""
+}

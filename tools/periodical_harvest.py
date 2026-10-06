@@ -1413,17 +1413,26 @@ def drop_year_facet(tasks):
             continue
         p = t.get("params") or {}
         q = p.get("q") or ""
-        if not q:
+        changed = False
+        if q and "YEAR:[" in q.upper():
+            p["q"] = rx.sub("", q)
+            changed = True
+        # A PepsiCo probe (2026-09-30) proved the first version of this function did NOT cover the
+        # corporate-print family: those tasks carry `year_range`, not `q`, so 103 of them kept the facet
+        # the flag claimed to remove and the sidecar URL still ended `AND%20YEAR%3A%5B1900%20TO%201980%5D`.
+        # Clearing year_range is what removes the clause -- the query builder appends YEAR only `if yr`.
+        if p.get("year_range"):
+            p["year_range_dropped"] = list(p["year_range"])
+            p["year_range"] = None
+            changed = True
+        if not changed:
             continue
-        ia += 1
-        if "YEAR:[" not in q.upper():
-            continue
-        p["q"] = rx.sub("", q)
         t["params"] = p
         t["query_label"] = (t.get("query_label") or "") + " [FACET-FREE per RD-130]"
         n += 1
-    print("facet-free: %d of %d Internet-Archive-family queries carried a YEAR facet; %d rewritten"
-          % (n, ia, n))
+        ia += 1
+    print("facet-free: %d Internet-Archive-family queries had a YEAR facet (in `q` or in "
+          "`year_range`); %d rewritten" % (n, n))
     return tasks
 
 

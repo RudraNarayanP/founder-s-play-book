@@ -1,0 +1,66 @@
+# DISPATCH QUEUE — probes held by the 20-concurrent-subagent cap (2026-09-30 01:20)
+
+Every brief here assumes the shared contract in `03_quality_control/PROBE_BRIEF_SHARED.md` (method §15.2 tiers,
+§14 defects, §3 independence, the five families, verified tool forms, 0 web calls, append-as-you-go,
+release-your-claim, report measured). Dispatch one per free slot; a refused dispatch leaves no trace anywhere
+else, so nothing here may be reconstructed from memory later.
+
+## Refused at the cap (dispatch first)
+
+**probe-morganstanley** → `company_039_morganstanley/research/A_chronology_feasibility.md` · budget 85/70
+Fleet record: REFUSED, 0 stored, floor 1993-11-08. Measure `sources/_index/` + `sources/sec/_RUN.json`; if no
+canonical index exists run `sec_intake index "Morgan Stanley" --company-dir <dir>` once and report which
+registrant answered. Thin shelf (2 periodicals, no corporate print).
+Traps: the 1924 split from J.P. Morgan & Co. is the origin but partnership-era documents name a **different
+firm**, and the modern registrant is a later Delaware continuation — read the JPMorgan and Citigroup dossiers as
+the worked examples. `Morgan`/`Stanley` are common surnames and places → entity adjacency only, and test the
+OCR "Moran" variant before asserting any zero. An anniversary history is ONE lineage.
+Gate: `gates.py --company-dir founders_playbook/01_companies/company_039_morganstanley --checks csv,keys --fail-on substantive --out 03_quality_control/morganstanley_s1_probe_gates.md`
+
+**probe-valero** → `company_040_valero/research/A_chronology_feasibility.md` · budget 85/70
+Fleet record: REFUSED/0 stored, **but the post-RD-135 retry stored 30 documents (2.87 MB, 384,391 words)**.
+Measure `_RUN.json`, `_index/` and the XBRL facts to see what landed in which window; 1979-01-01→2001-12-31 is
+PROPOSED and probably starts too early.
+Traps: the operating history was **bought, not built** — today's registrant began as a late-1970s/1980s
+holding/lobbying vehicle for a Texas oil family, and the refining business arrived through a 2001 acquisition of
+an older company already carrying the name (itself named from a Spanish mission/saint). 1979 / 1980 / 1984 /
+2001 are four different legal persons. Deepwater Horizon and the RFCC fires are post-boundary → `(PB)`. Require
+entity adjacency for any capacity claim.
+Gate: `gates.py --company-dir founders_playbook/01_companies/company_040_valero --checks csv,keys --fail-on substantive --out 03_quality_control/valero_s1_probe_gates.md`
+
+## Tranche 3 (not yet drafted)
+
+`fanniemae, stonex, centene, phillips66, statefarm, freddiemac, exxonmobil, dell, meta`
+Two facts to carry into those briefs:
+- **State Farm and the two GSEs are structurally outside the registrant set** — a 0-filings result there is a
+  real perimeter, not a tool failure, and must be written as such (and the corporate-print/periodical families
+  then carry the whole tier).
+- **ExxonMobil: the ticker maps to the wrong legal person.** SEC's own `company_tickers.json` answers
+  `XOM → CIK 2115436 "ExxonMobil Holdings Corp"`; the historic registrant is **CIK 34088 "EXXON MOBIL CORP"**
+  (formerNames `EXXON CORP`, 2 slices), and in-window intake against 2115436 stored **0 documents**. Any probe
+  for rank 9 must say which CIK it addressed and re-resolve by name.
+- `freddiemac`: ticker `FMCK` is unresolved in SEC's ticker file — resolve by registrant name, never a guess.
+- `stonex`: ticker `SNX` answers `TD SYNNEX CORP`, so the guard's refusal was **correct**; find the registrant
+  name from a filing cover page rather than from the brand.
+
+## Re-grade wave (after tranche 3) — the 8-slice cap RD-134 removed
+
+These probes ran against an index that read at most 8 archive slices, so each one's **filings-family verdict is
+provisional** and their tiers may move up: `jpmorgan, citigroup, gm, chevron, disney, boeing, kroger, jnj,
+berkshire, ford`. A re-grade agent re-runs `sec_intake index` (now walking every slice), re-measures the perimeter,
+and either confirms the old tier or supersedes it **in place with the original claim struck through** — never by
+deleting the first verdict.
+
+## Added 02:20 — probe-centene (refused at the cap; dispatch third)
+
+`company_019_centene/research/A_chronology_feasibility.md` · agent probe-centene · budget 80/65
+INTAKE: window 1984-01-01->2002-12-31 PROPOSED; in-window pass stored **30 documents** (20 accessions, floor
+2001-10-09, 1 UNANSWERED) - a young company whose filings genuinely reach its origin, so family (a) can carry a
+stage here. Shelf otherwise bare: 0 corporate print, 0 periodicals.
+TRAPS: 1984 founding vs 1996 Texas IPO - quote what the S-1 prints, not what a later 10-K restates; the business
+is government-sponsored managed care, so a "first repeatable validation" is likely a state contract or a
+membership figure (distinguish an award from a renewal, and find the dated carrier); Medicaid/premium/PPO
+vocabulary matches many firms, require entity adjacency; rapid growth by acquisition means a founding claim and an
+acquired-operating-history claim can both be true of different legal persons.
+GATE: gates.py --company-dir founders_playbook/01_companies/company_019_centene --checks csv,keys
+      --fail-on substantive --out 03_quality_control/centene_s1_probe_gates.md
