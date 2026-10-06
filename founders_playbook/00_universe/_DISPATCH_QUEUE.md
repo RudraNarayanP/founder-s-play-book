@@ -118,3 +118,21 @@ to look up the same way: AmeriSource Health Corporation (Delaware 1988) and the 
 filer. Also worth knowing: six in-window `Drug Store News`/`Chain Store Age` layers naming Bergen Brunswig
 5-35x each are already on **CVS's** shelf, and one 1994 naming sits on **Cardinal's** shelf -- cross-shelf
 reading is legitimate, cross-shelf *citing* needs the id to resolve where the bytes live.
+
+## URGENT one-line fix owed, immediately after `registrant-tools` releases tools/sec_intake.py
+
+**D1 — `tools/sec_intake.py:445`**: the legacy `sources/_index/submissions.json` stores `"cik": 354950` as an
+**int**, so the `.strip()` call raises an uncaught `AttributeError` and **kills `auto`/`index` for the whole
+Sep-25 intake cohort**. Home Depot's probe proved the consequence: a 3,077-row registrant was recorded as
+"0 documents stored", its tier was set at T3, and the real cause was our own downloader -- the probe re-graded
+it to **T2 core** once it worked around the crash with `grab --file`.
+
+Fix: coerce before stripping (`str(...)` at the read site, and normalise on write), then sweep every
+`sources/_index/submissions.json` on disk for an int-typed `cik` and repair the files, and re-run `auto` for the
+companies `_FLEET_INTAKE.tsv` recorded as 0-stored-but-indexed (Home Depot, and check Verizon/AT&T/Wells Fargo/
+Morgan Stanley/Valero/BofA/ExxonMobil/Fannie Mae/State Farm/Freddie Mac). Prove it with a self-test control that
+plants an int `cik` and asserts the run completes. Also sweep the stale records: `_FLEET_INTAKE.tsv` row 38 and
+`_IDENTITY_FIX.log` still assert a refusal the disk now contradicts.
+
+Same file, same agent, second half: D2 (`grab` unpacking 2 from a 3-tuple) is already fixed at RD-138 -- do not
+re-fix it, but confirm the enumeration path returns candidates for an accession D1 used to crash on.
