@@ -16,7 +16,7 @@ auto` now reads it from disk. 40 companies have no `stage_1.md`; 35 have a probe
 |---|---|---|---|
 | s1-meta-p1 | company_017_meta | Header, boundary, §A–§J | T1 (60k/stage) |
 | s1-meta-p2 | company_017_meta | §K–§U + registers for both halves | T1 |
-| s1-dell-p1 | company_041_dell | Header, boundary, §A–§J | T1 |
+| s1-dell-p1 | company_041_dell | Header, boundary, §A–§J | ~~T1~~ **T2 prov.** (probe; my label was wrong) |
 | s1-dell-p2 | company_041_dell | §K–§U + register emissions | T1 |
 | s1-jpmorgan-p1 | company_012_jpmorgan | full §A–§U, 1799/1812-lineage split by person | T2 22k |
 | s1-cigna-p1 | company_014_cigna | full §A–§U, INA + CG + 2018 shell as three persons | T2 22k |
@@ -84,3 +84,16 @@ certifier who is neither author, merger, auditor nor repairer.
 `cigna` (running), `gm` (running), `att` (running), `cvs` (running) -> then `jnj`, `pepsico`, `boeing`,
 `jpmorgan` as their authors close -> `meta` and `dell` need BOTH parts before merging. Every merge is followed
 by audits from different agents and then a certifier who is neither author, merger, auditor nor repairer.
+
+## Correction to MY wave table, from Dell's author (2026-10-07)
+
+I wrote `dell = T1` and `meta = T1` in the table above. **Dell's probe measures T3, T2-PROVISIONAL, and says T1
+is structurally unreachable**; the author wrote to T2 density and logged the disagreement instead of silently
+re-tiering. The rule this re-establishes: **the probe's measured tier governs, not my dispatch label** — §15.2
+sets the tier from the five families, and a label from me is ambition, which is precisely what §15.2 was written
+to stop. Before wave 2/3 dispatch, read each probe's verdict line and put THAT in the brief; where my table
+already sent a wrong tier, the author's NOTES file is the correction to carry into the merge.
+
+Dell's part 1 also declared anchors **U.101–U.111** (not U.1–U.11) because part 1 and part 2 are being written
+concurrently against one id space — so the Dell merge must take the union of both parts' declarations and prove
+parity once, not renumber either part.
