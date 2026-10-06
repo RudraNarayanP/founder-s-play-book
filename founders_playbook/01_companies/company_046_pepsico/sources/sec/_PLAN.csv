@@ -1,0 +1,33 @@
+rank,cik,accession,form,filingDate,document,bytes_in_index_json,why,url,disposition
+1,0000077476,0000077476-95-000002,S-3,1995-01-06,0000077476-95-000002.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000077476/000007747695000002/0000077476-95-000002.txt,fetched this run
+2,0000077476,0000077476-95-000005,424B2,1995-01-18,0000077476-95-000005.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000077476/000007747695000005/0000077476-95-000005.txt,fetched this run
+3,0000077476,0000077476-95-000017,10-K,1995-03-28,0000077476-95-000017.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000077476/000007747695000017/0000077476-95-000017.txt,fetched this run
+4,0000077476,0000077476-95-000016,DEF 14A,1995-03-28,0000077476-95-000016.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000077476/000007747695000016/0000077476-95-000016.txt,fetched this run
+5,0000077476,0000077476-96-000003,8-K,1996-01-10,0000077476-96-000003.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000077476/000007747696000003/0000077476-96-000003.txt,fetched this run
+6,0000077476,0000077476-96-000023,10-K,1996-03-26,0000077476-96-000023.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000077476/000007747696000023/0000077476-96-000023.txt,fetched this run
+7,0000077476,0000077476-97-000007,10-K,1997-03-25,0000077476-97-000007.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000077476/000007747697000007/0000077476-97-000007.txt,fetched this run
+8,0000077476,0000077476-98-000014,10-K,1998-03-24,0000077476-98-000014.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000077476/000007747698000014/0000077476-98-000014.txt,fetched this run
+9,0000077476,0000077476-99-000013,10-K,1999-03-24,0000077476-99-000013.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000077476/000007747699000013/0000077476-99-000013.txt,fetched this run
+10,0000077476,0000077476-99-000018,SC 13G,1999-04-08,0000077476-99-000018.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000077476/000007747699000018/0000077476-99-000018.txt,fetched this run
+11,0000077476,0000077476-00-000006,10-K,2000-03-21,0000077476-00-000006.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000077476/000007747600000006/0000077476-00-000006.txt,fetched this run
+12,0000077476,0000077476-00-000010,10-K/A,2000-03-23,0000077476-00-000010.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000077476/000007747600000010/0000077476-00-000010.txt,fetched this run
+13,0000077476,0000077476-00-000047,8-K,2000-12-04,0001.txt,2722,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000077476/000007747600000047/0001.txt,fetched this run
+14,0000077476,0000077476-00-000047,8-K,2000-12-04,0002.txt,9490,index.json listing (9490 B),https://www.sec.gov/Archives/edgar/data/0000077476/000007747600000047/0002.txt,fetched this run
+15,0000077476,0000077476-00-000047,8-K,2000-12-04,0003.txt,614,index.json listing (614 B),https://www.sec.gov/Archives/edgar/data/0000077476/000007747600000047/0003.txt,fetched this run
+16,0000077476,0000077476-00-000047,8-K,2000-12-04,0000077476-00-000047.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000077476/000007747600000047/0000077476-00-000047.txt,fetched this run
+17,0000077476,0000912057-01-000830,S-4,2001-01-09,a2034530zs-4.txt,760017,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000077476/000091205701000830/a2034530zs-4.txt,fetched this run
+18,0000077476,0000912057-01-000830,S-4,2001-01-09,a2034530zex-23_f.txt,3139,index.json listing (3139 B),https://www.sec.gov/Archives/edgar/data/0000077476/000091205701000830/a2034530zex-23_f.txt,fetched this run
+19,0000077476,0000912057-01-000830,S-4,2001-01-09,a2034530zex-23_h.txt,1800,index.json listing (1800 B),https://www.sec.gov/Archives/edgar/data/0000077476/000091205701000830/a2034530zex-23_h.txt,fetched this run
+20,0000077476,0000912057-01-000830,S-4,2001-01-09,a2034530zex-23_g.txt,1569,index.json listing (1569 B),https://www.sec.gov/Archives/edgar/data/0000077476/000091205701000830/a2034530zex-23_g.txt,fetched this run
+21,0000077476,0000950103-01-500049,S-3,2001-02-28,s3.txt,65923,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000077476/000095010301500049/s3.txt,fetched this run
+22,0000077476,0000950103-01-500049,S-3,2001-02-28,ex5-1.txt,3140,index.json listing (3140 B),https://www.sec.gov/Archives/edgar/data/0000077476/000095010301500049/ex5-1.txt,fetched this run
+23,0000077476,0000950103-01-500049,S-3,2001-02-28,ex23-1.txt,822,index.json listing (822 B),https://www.sec.gov/Archives/edgar/data/0000077476/000095010301500049/ex23-1.txt,fetched this run
+24,0000077476,0000950103-01-500049,S-3,2001-02-28,ex15-1.txt,764,index.json listing (764 B),https://www.sec.gov/Archives/edgar/data/0000077476/000095010301500049/ex15-1.txt,fetched this run
+25,0000077476,0000912057-01-007577,S-4/A,2001-03-13,a2039895zs-4a.txt,753210,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000077476/000091205701007577/a2039895zs-4a.txt,fetched this run
+26,0000077476,0000912057-01-007577,S-4/A,2001-03-13,a2039895zex-4_a.txt,82151,index.json listing (82151 B),https://www.sec.gov/Archives/edgar/data/0000077476/000091205701007577/a2039895zex-4_a.txt,fetched this run
+27,0000077476,0000912057-01-007577,S-4/A,2001-03-13,a2039895zex-99_d.txt,6628,index.json listing (6628 B),https://www.sec.gov/Archives/edgar/data/0000077476/000091205701007577/a2039895zex-99_d.txt,fetched this run
+28,0000077476,0000912057-01-007577,S-4/A,2001-03-13,a2039895zex-99_e.txt,5799,index.json listing (5799 B),https://www.sec.gov/Archives/edgar/data/0000077476/000091205701007577/a2039895zex-99_e.txt,fetched this run
+29,0000077476,0000077476-01-500016,10-K,2001-03-15,k2000.htm,292314,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000077476/000007747601500016/k2000.htm,fetched this run
+30,0000077476,0000077476-01-500016,10-K,2001-03-15,ex21.htm,107434,index.json listing (107434 B),https://www.sec.gov/Archives/edgar/data/0000077476/000007747601500016/ex21.htm,fetched this run
+31,0000077476,0000077476-01-500016,10-K,2001-03-15,ex24.htm,10383,index.json listing (10383 B),https://www.sec.gov/Archives/edgar/data/0000077476/000007747601500016/ex24.htm,SKIPPED beyond --max-docs 30
+32,0000077476,0000077476-01-500016,10-K,2001-03-15,ex23.htm,6446,index.json listing (6446 B),https://www.sec.gov/Archives/edgar/data/0000077476/000007747601500016/ex23.htm,SKIPPED beyond --max-docs 30

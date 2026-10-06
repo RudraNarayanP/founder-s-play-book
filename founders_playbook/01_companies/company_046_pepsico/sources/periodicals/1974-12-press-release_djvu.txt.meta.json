@@ -1,0 +1,9 @@
+{
+ "identifier": "1974-12-press-release",
+ "url": "https://archive.org/download/1974-12-press-release/1974-12%20Press%20Release_djvu.txt",
+ "fetched": "2026-10-06T12:34:35Z",
+ "bytes": 3209,
+ "route": "download/<id>/1974-12 Press Release_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000077476/000091205701000830/a2034530zex-23_g.txt",
+ "fetched": "2026-09-29T19:07:00Z",
+ "sha1": "52030e0e26899c172eb8a79c3017a07ba6ec8a5c",
+ "bytes": 1693,
+ "words": 181,
+ "cik": "0000077476",
+ "registrant": "PEPSICO INC",
+ "accession": "0000912057-01-000830",
+ "document": "a2034530zex-23_g.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

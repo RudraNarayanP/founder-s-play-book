@@ -1,0 +1,9 @@
+{
+ "identifier": "01-pepsi-co",
+ "url": "https://archive.org/download/01-pepsi-co/PepsiCo%2C%20Inc.%20%28PEP%29%20Annual%20Report%202017_djvu.txt",
+ "fetched": "2026-10-06T12:33:49Z",
+ "bytes": 520419,
+ "route": "download/<id>/PepsiCo, Inc. (PEP) Annual Report 2017_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

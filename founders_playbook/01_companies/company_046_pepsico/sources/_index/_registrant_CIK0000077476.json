@@ -1,0 +1,28 @@
+{
+ "cik": "0000077476",
+ "requested_cik": "77476",
+ "registrant": "PEPSICO INC",
+ "ticker": "PEP",
+ "tickers": [
+  "PEP"
+ ],
+ "former_names": [],
+ "company_dir": "company_046_pepsico",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['pepsico'] match registrant 'PEPSICO INC' (CIK 0000077476)"
+ ],
+ "built": "2026-09-29T19:06:31Z",
+ "count": 3058,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 120,
+ "csv_sha1": "05e67d2adbb702aad55b98a2d867c69c105e5351",
+ "csv_bytes": 271915,
+ "paths": {
+  "json": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_046_pepsico\\sources\\_index\\submissions_CIK0000077476.json",
+  "csv": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_046_pepsico\\sources\\_index\\submissions_CIK0000077476.csv",
+  "md": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_046_pepsico\\sources\\_index\\_INDEX_CIK0000077476.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

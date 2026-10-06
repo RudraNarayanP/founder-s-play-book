@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000077476/000095010301500049/ex5-1.txt",
+ "fetched": "2026-09-29T19:07:01Z",
+ "sha1": "eb3e326f287168488e3dad3b5f9994063ffbf389",
+ "bytes": 3223,
+ "words": 486,
+ "cik": "0000077476",
+ "registrant": "PEPSICO INC",
+ "accession": "0000950103-01-500049",
+ "document": "ex5-1.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

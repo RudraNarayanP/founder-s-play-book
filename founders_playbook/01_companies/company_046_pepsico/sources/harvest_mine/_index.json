@@ -1,0 +1,524 @@
+{
+ "window": [
+  "1898-01-01",
+  "1965-12-31"
+ ],
+ "candidates": 43,
+ "mined": 12,
+ "untried_by_limit": 21,
+ "items": [
+  {
+   "identifier": "01-pepsi-co",
+   "date": "1938-01-01",
+   "title_year": "1938",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "PepsiCo Annual Reports: 1938-",
+   "family": "corporate_print",
+   "meta_date": "1938-01-01",
+   "status": "cached",
+   "bytes": 520419,
+   "named_terms": [
+    "pepsi cola"
+   ],
+   "other_terms": [
+    "progressive grocer"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 200,
+   "phrase_hits": 9,
+   "entity_hits": 17,
+   "matched_entities": [
+    "pepsi-cola",
+    "pepsico, inc"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 122,
+     "text": "Two years later, in 1965, Frito-Lay and Pepsi-Cola merged",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 1366,
+     "text": "Lay, Gatorade, Pepsi-Cola, Quaker and Tropicana. Through our operations, authorized bottlers, contract",
+     "context": [
+      "global food and beverage company with a complementary portfolio of enjoyable brands, including Frito-",
+      "manufacturers and other third parties, we make, market, distribute and sell a wide variety of convenient and"
+     ]
+    },
+    {
+     "line": 3080,
+     "text": "environmental control authority, began an audit of a bottling plant of our subsidiary, Pepsi-Cola General",
+     "context": [
+      "As previously disclosed, in January 2011, Wojewodzka Inspekcja Ochrony Srodowiska, the Polish",
+      "Bottlers Poland SP, z.o.o. (PCGB), in Michrow, Poland. In July 2013, Wojewodzka Inspekcja Ochrony"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "cor5_0_s06_ss01_boxrg5_0_2008_006_f61",
+   "date": "1948-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Pepsi-Cola Company's Fourth Annual Exhibition Paintings of the Year",
+   "family": "corporate_print",
+   "meta_date": "1948-01-01",
+   "status": "cached",
+   "bytes": 20875,
+   "named_terms": [
+    "pepsi cola"
+   ],
+   "other_terms": [
+    "progressive grocer"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 25,
+   "phrase_hits": 25,
+   "entity_hits": 25,
+   "matched_entities": [
+    "pepsi-cola"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 5,
+     "text": "PEPSI-COLA COMPANY\u2019S",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 121,
+     "text": "Pepsi-Cola Company is happy to give recognition and encouragement to these",
+     "context": [
+      "",
+      "youthful artists through its annual art project as well as serve those painters who"
+     ]
+    },
+    {
+     "line": 131,
+     "text": "hibition of the Pepsi-Cola Achievement Award Medal, designed by the noted",
+     "context": [
+      "The Company is also pleased to announce the first presentation in this ex\u00ac",
+      "sculptor, William Zoracli, to ten artists whose work was adjudged the next best"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "twelvefullounces0000mart",
+   "date": "1962-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried twelvefullounces0000mart_djvu.txt, twelvefullounces0000mart_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "NPTG19060630",
+   "date": "1906-01-01",
+   "title_year": "1906",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Hong Kong Telegraph 1906-06-30",
+   "family": "internet_archive",
+   "meta_date": "1906-01-01",
+   "status": "cached",
+   "bytes": 196947,
+   "named_terms": [
+    "pepsi cola"
+   ],
+   "other_terms": [
+    "progressive grocer"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "pepsicofritolayannualreports",
+   "date": "",
+   "title_year": "1938",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "The Pepsi-Cola Company, Frito-Lay, PepsiCo, Tricon Global Restaurants, and Yum! Brands Annual Reports: 1938\u20132017",
+   "family": "corporate_print",
+   "meta_date": "",
+   "status": "ok",
+   "bytes": 795597,
+   "named_terms": [
+    "pepsi cola"
+   ],
+   "other_terms": [
+    "progressive grocer"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 12,
+   "phrase_hits": 0,
+   "entity_hits": 8,
+   "matched_entities": [
+    "pepsico,  inc"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 2216,
+     "text": "Corporation,  PepsiCo,  Inc.,  Starbucks  Corporation,  The  Coca-Cola  Company  and  The  Procter  &  Gamble",
+     "context": [
+      "global  growth  companies  including  Colgate-Palmolive  Company,  Kellogg  Company,  McDonald\u2019s",
+      "Company,  over  one,  five  and  ten  years."
+     ],
+     "promoted": "pepsico,  inc"
+    },
+    {
+     "line": 2244,
+     "text": "Depot,  OfficeMax  Incorporated,  PepsiCo,  Inc.,  Staples,  Inc.  and  Walgreen  Co.",
+     "context": [
+      "Lowe\u2019s  Companies,  Inc.,  Macy\u2019s,  Inc.,  Marriott  International,  Inc.,  McDonald\u2019s  Corporation,  Office",
+      ""
+     ],
+     "promoted": "pepsico,  inc"
+    },
+    {
+     "line": 2246,
+     "text": "(3)  Includes  Colgate-Palmolive  Company,  Kellogg  Company,  McDonald\u2019s  Corporation,  PepsiCo,  Inc.,",
+     "context": [
+      "",
+      "Starbucks  Corporation,  The  Coca-Cola  Company  and  The  Procter  &  Gamble  Company."
+     ],
+     "promoted": "pepsico,  inc"
+    }
+   ]
+  },
+  {
+   "identifier": "1974-12-press-release",
+   "date": "1974-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "9th Annual Centennial Basketball Tournament Set Sponsored by Pepsi Cola Canada Ltd.",
+   "family": "corporate_print",
+   "meta_date": "1974-01-01",
+   "status": "cached",
+   "bytes": 3209,
+   "named_terms": [
+    "pepsi cola"
+   ],
+   "other_terms": [
+    "progressive grocer"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 2,
+   "phrase_hits": 2,
+   "entity_hits": 2,
+   "matched_entities": [
+    "pepsi cola"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 25,
+     "text": "SPONSORED BY PEPSI COLA CANADA LTD.",
+     "context": [
+      "OTH ANNUAL CENTENNIAL BASKETBALL TOURNAMENT SET.",
+      ""
+     ]
+    },
+    {
+     "line": 34,
+     "text": "This year's tourney will be sponsored by Pepsi Cola Canada Ltd.",
+     "context": [
+      "",
+      "as part of their expanding contribution to university athletics in Canada."
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "report-100-of-corn-in-frito-lay-sun-chips-completely-gmo",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried report-100-of-corn-in-frito-lay-sun-chips-completely-gmo_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "pepsi-co-inc.-pep-annual-report-2020",
+   "date": "2021-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "PepsiCo 2020 Annual Report",
+   "family": "corporate_print",
+   "meta_date": "2021-01-01",
+   "status": "ok",
+   "bytes": 448866,
+   "named_terms": [
+    "pepsi cola"
+   ],
+   "other_terms": [
+    "progressive grocer"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 200,
+   "phrase_hits": 9,
+   "entity_hits": 17,
+   "matched_entities": [
+    "pepsi-cola",
+    "pepsico, inc"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1208,
+     "text": "Lay, Gatorade, Pepsi-Cola, Quaker and Tropicana. Through our operations, authorized bottlers, contract",
+     "context": [
+      "leading global food and beverage company with a complementary portfolio of brands, including Frito-",
+      "manufacturers and other third parties, we make, market, distribute and sell a wide variety of convenient"
+     ]
+    },
+    {
+     "line": 2560,
+     "text": "Operations from 2009 to 2010, President of Pepsi-Cola North America from 2007 to 2009, Executive Vice",
+     "context": [
+      "number of leadership roles throughout his PepsiCo career, serving as Executive Vice President, Global",
+      "President, Operations from 2006 to 2007, and Senior Vice President, Transformation from 2005 to 2006."
+     ]
+    },
+    {
+     "line": 2849,
+     "text": "including Frito-Lay, Gatorade, Pepsi-Cola, Quaker and Tropicana. Through our operations, authorized",
+     "context": [
+      "PepsiCo is a leading global food and beverage company with a complementary portfolio of brands,",
+      "bottlers, contract manufacturers and other third parties, we make, market, distribute and sell a wide variety"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "pepsi-co-inc.-pep-proxy-statement-2022-05-04",
+   "date": "2022-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "PepsiCo 2021 Annual Report",
+   "family": "corporate_print",
+   "meta_date": "2022-01-01",
+   "status": "ok",
+   "bytes": 451194,
+   "named_terms": [
+    "pepsi cola"
+   ],
+   "other_terms": [
+    "progressive grocer"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 200,
+   "phrase_hits": 9,
+   "entity_hits": 17,
+   "matched_entities": [
+    "pepsi-cola",
+    "pepsico, inc"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1260,
+     "text": "including Lays, Doritos, Cheetos, Gatorade, Pepsi-Cola, Mountain Dew, Quaker and SodaStream.",
+     "context": [
+      "leading global beverage and convenient food company with a complementary portfolio of brands,",
+      "Through our operations, authorized bottlers, contract manufacturers and other third parties, we make,"
+     ]
+    },
+    {
+     "line": 2701,
+     "text": "Operations from 2009 to 2010, President of Pepsi-Cola North America from 2007 to 2009, Executive Vice",
+     "context": [
+      "number of leadership roles throughout his PepsiCo career, serving as Executive Vice President, Global",
+      ""
+     ]
+    },
+    {
+     "line": 2948,
+     "text": "brands, including Lays, Doritos, Cheetos, Gatorade, Pepsi-Cola, Mountain Dew, Quaker and SodaStream.",
+     "context": [
+      "PepsiCo is a leading global beverage and convenient food company with a complementary portfolio of",
+      "Through our operations, authorized bottlers, contract manufacturers and other third parties, we make,"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "pepsi-co-inc.-pep-proxy-statement-2024-05-01",
+   "date": "2024-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "PepsiCo 2023 Annual Report",
+   "family": "corporate_print",
+   "meta_date": "2024-01-01",
+   "status": "ok",
+   "bytes": 580431,
+   "named_terms": [
+    "pepsi cola"
+   ],
+   "other_terms": [
+    "progressive grocer"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 200,
+   "phrase_hits": 0,
+   "entity_hits": 8,
+   "matched_entities": [
+    "pepsico stock",
+    "pepsico, inc"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 321,
+     "text": "PepsiCo, Inc. Long-Term Incentive Plan.",
+     "context": [
+      "Approve the amended and restated",
+      ""
+     ],
+     "promoted": "pepsico, inc"
+    },
+    {
+     "line": 444,
+     "text": "Director Independence 28 Approval of the Amended and Restated PepsiCo, Inc.",
+     "context": [
+      "Board Leadership Structure 25 Compensation Plans 85",
+      "Belniadl Parson Taneactions 28 Long-Term Incentive Plan (Proxy Item No. 4) 86"
+     ],
+     "promoted": "pepsico, inc"
+    },
+    {
+     "line": 459,
+     "text": "Appendix B-PepsiCo, Inc. Long-Term Incentive Plan B-1",
+     "context": [
+      "2023 Director Compensation 44, pensar Information F a",
+      ""
+     ],
+     "promoted": "pepsico, inc"
+    }
+   ]
+  },
+  {
+   "identifier": "pepsi-co-inc.-pep-proxy-statement-2020-05-06",
+   "date": "2020-01-01",
+   "title_year": "2019",
+   "date_mismatch": true,
+   "in_window": false,
+   "title": "PepsiCo 2019 Annual Report",
+   "family": "corporate_print",
+   "meta_date": "2020-01-01",
+   "status": "ok",
+   "bytes": 510463,
+   "named_terms": [
+    "pepsi cola"
+   ],
+   "other_terms": [
+    "progressive grocer"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 200,
+   "phrase_hits": 9,
+   "entity_hits": 17,
+   "matched_entities": [
+    "pepsi-cola",
+    "pepsico, inc"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1374,
+     "text": "Pepsi-Cola, Quaker and Tropicana. Through our operations, authorized bottlers, contract manufacturers and",
+     "context": [
+      "global food and beverage company with a complementary portfolio of brands, including Frito-Lay, Gatorade,",
+      "other third parties, we make, market, distribute and sell a wide variety of convenient beverages, foods and"
+     ]
+    },
+    {
+     "line": 3282,
+     "text": "2010, President of Pepsi-Cola North America from 2007 to 2009, Executive Vice President, Operations from",
+     "context": [
+      "roles throughout his PepsiCo career, serving as Executive Vice President, Global Operations from 2009 to",
+      "2006 to 2007, and Senior Vice President, Transformation from 2005 to 2006. Prior to that, he served as Senior"
+     ]
+    },
+    {
+     "line": 4110,
+     "text": "Frito-Lay, Gatorade, Pepsi-Cola, Quaker and Tropicana. Through our operations, authorized bottlers, contract",
+     "context": [
+      "PepsiCo is a leading global food and beverage company with a complementary portfolio of brands, including",
+      "manufacturers and other third parties, we make, market, distribute and sell a wide variety of convenient"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "pepsi-co-inc.-pep-proxy-statement-2023-05-03",
+   "date": "2023-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "PepsiCo 2022 Annual Report",
+   "family": "corporate_print",
+   "meta_date": "2023-01-01",
+   "status": "ok",
+   "bytes": 470741,
+   "named_terms": [
+    "pepsi cola"
+   ],
+   "other_terms": [
+    "progressive grocer"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 200,
+   "phrase_hits": 7,
+   "entity_hits": 15,
+   "matched_entities": [
+    "pepsi-cola",
+    "pepsico, inc"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1266,
+     "text": "including Lay\u2019s, Doritos, Cheetos, Gatorade, Pepsi-Cola, Mountain Dew, Quaker and SodaStream.",
+     "context": [
+      "leading global beverage and convenient food company with a complementary portfolio of brands,",
+      "Through our operations, authorized bottlers, contract manufacturers and other third parties, we make,"
+     ]
+    },
+    {
+     "line": 2709,
+     "text": "Operations from 2009 to 2010, President of Pepsi-Cola North America from 2007 to 2009, Executive Vice",
+     "context": [
+      "number of leadership roles throughout his PepsiCo career, serving as Executive Vice President, Global",
+      "President, Operations from 2006 to 2007, and Senior Vice President, Transformation from 2005 to 2006."
+     ]
+    },
+    {
+     "line": 2982,
+     "text": "brands, including Lay\u2019s, Doritos, Cheetos, Gatorade, Pepsi-Cola, Mountain Dew, Quaker and SodaStream.",
+     "context": [
+      "PepsiCo is a leading global beverage and convenient food company with a complementary portfolio of",
+      "Through our operations, authorized bottlers, contract manufacturers and other third parties, we make,"
+     ]
+    }
+   ]
+  }
+ ]
+}
