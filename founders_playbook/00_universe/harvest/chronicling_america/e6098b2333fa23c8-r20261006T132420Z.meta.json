@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=Exxon+Standard+Oil+Texas&date1=1890&date2=1975&dateFilterType=yearRange&state=Texas&sort=date",
+ "evidence_file": "e6098b2333fa23c8-r20261006T132420Z.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 84977,
+ "retrieved_at": "2026-10-06T13:26:40Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a464ffc38f399116-IAD",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'Exxon' 'Mobil' Houston Texas 1890-1975",
+ "company": "exxonmobil",
+ "kind": "search"
+}
