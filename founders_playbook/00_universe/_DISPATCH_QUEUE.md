@@ -181,3 +181,17 @@ list of pass records inside one `_RUN.json`) so a second window cannot describe 
 re-count the shelf and report record-vs-shelf disagreement -- which is exactly Defect 2 in the `registrant-tools`
 brief. Extend that brief: also re-run the in-window pass for every company whose `_RUN.json` window does not
 match the `--from/--to` the fleet record says it used (Valero FR-6 is the worked example).
+
+## `tools/legacy_cik.py search` is unreliable -- my own half-fix, owed now
+
+ExxonMobil's probe ran it on four ancestor names (Vacuum Oil, Humble, Socony, Magnolia) and **all four
+parse-failed**, i.e. it reported no candidates for registrants that certainly exist. Its `detail` half is solid
+(Mobil = CIK 0000067182, perimeter 1994-02-14->2000-02-09, found rather than assumed) and its no-output-is-a-null
+rule held, so nobody was misled into a false absence -- but the search path is not doing its job. Cause is known:
+I parse `CIK=(\d{10})` out of the browse-edgar HTML after the ATOM route turned out to carry no names at all
+(`title="ARRAY(0x...)"`), and the row markup varies by query shape. Either parse the `action=getcompany` HTML
+properly or move to `https://www.sec.gov/cgi-bin/browse-edgar?Company=...&action=getcompany&type=a&output=atom`
+variants and assert on a known name (`"vacuum oil"` must return something). Add a self-test control with two
+known-positive names and one known-negative, and until it passes, every dossier must treat `search` silence as
+UNANSWERED rather than as absence -- the ExxonMobil probe did exactly that, which is the only reason the defect
+cost a route and not a conclusion.
