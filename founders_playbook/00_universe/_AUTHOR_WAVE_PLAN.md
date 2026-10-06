@@ -97,3 +97,12 @@ already sent a wrong tier, the author's NOTES file is the correction to carry in
 Dell's part 1 also declared anchors **U.101–U.111** (not U.1–U.11) because part 1 and part 2 are being written
 concurrently against one id space — so the Dell merge must take the union of both parts' declarations and prove
 parity once, not renumber either part.
+
+
+## Tool-form corrections found by authors (put these in every later brief)
+- `ia_text.py` file listing is **`list-files --id <identifier>`**; the form in my first briefs
+  (`list-files <identifier>`) exits `unrecognized arguments`, so a probe reported a route as unrunnable
+  when it was runnable. PepsiCo proved the route works and enumerated 102 layers / 17.86 MB, 27 of them
+  pre-1965 — the first time family (d) has been *counted* for a tail company.
+- The probe's CLI docstring in `tools/ia_text.py` should be aligned with the parser; until then, an agent
+  that hits an argparse error on a documented form must report it rather than conclude the route is dead.
