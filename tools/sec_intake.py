@@ -19,6 +19,17 @@ Stdlib only.  Usage:
 
 Exit codes: 0 ok, 1 partial (some UNANSWERED), 2 hard failure.
 A non-200 is recorded as UNANSWERED, never as a null. See 00_METHOD_AND_STYLE.md s14 r6.
+
+Two guards added by the 2026-10-06 registrant pass, both proved in `selftest`:
+  * `resolve_name` prefers a match on the WHOLE name including its corporate suffix, and
+    refuses a match that only exists after suffixes are deleted -- `NAME-CONFLATION-WARNING`.
+    `corp` and `inc` are both stop words, so "AT&T Corp" used to resolve `name-exact` to the
+    1983 Delaware survivor (CIK 732717) when the name asked for is the 1885 New York
+    registrant (CIK 0000005907). Askers get the candidate list and must pass `--cik`.
+  * every `auto` run ends by re-counting the documents actually on disk in its target
+    `sources/` subtree, writing those numbers into `_RUN.json` beside the in-memory totals,
+    and printing `RECORD/SHELF MISMATCH` (exit 2, never a silent 0) when the record and the
+    bytes disagree in either direction, or a body and its sidecar are found apart.
 """
 
 import argparse
@@ -268,6 +279,33 @@ NAME_STOP_WORDS = {"inc", "incorporated", "corp", "corporation", "co", "company"
                    "llc", "plc", "lp", "l.p", "plc", "the", "and", "group", "holdings",
                    "holding", "sa", "nv", "bv", "gmbh", "ag", "corp.", "new", "delaware"}
 
+# The subset of those stop words that is a LEGAL DESIGNATOR: it says which registrant a
+# name names. `the`/`and`/`group`/`new` are noise for matching purposes and carry no
+# identity claim, so a query containing them can never be contradicted by a title.
+# Inc/Incorporated are one class, Corp/Corporation another, Co/Company a third.
+CORP_SUFFIX_CLASS = {"inc": "inc", "incorporated": "inc", "corp": "corp",
+                     "corporation": "corp", "co": "co", "company": "co", "ltd": "ltd",
+                     "limited": "ltd", "llc": "llc", "lp": "lp", "l.p": "lp",
+                     "plc": "plc", "sa": "sa", "nv": "nv", "bv": "bv", "gmbh": "gmbh",
+                     "ag": "ag"}
+
+
+def corp_suffixes(text):
+    """The designator classes a name string carries: {'corp'} for 'AT&T Corp'.
+
+    Tokens are kept dotted (`l.p`) because stripping them is what made NAME_STOP_WORDS'
+    own `l.p` entry unreachable.
+    """
+    toks = {t.strip(".") for t in re.findall(r"[a-z0-9.]+", (text or "").lower())}
+    return {CORP_SUFFIX_CLASS[t] for t in toks if t in CORP_SUFFIX_CLASS}
+
+
+def _raw_norm(text):
+    """Case/punctuation-folded name that KEEPS every word, suffix included: 'AT&T Corp'
+    -> 'attcorp'. The counterpart to `_norm_name`, which deletes the words that identify
+    the registrant."""
+    return re.sub(r"[^a-z0-9]", "", (text or "").lower())
+
 
 def slug_tokens(company_dir):
     """`company_041_dell` -> ['dell']; `company_016_nvidia` -> ['nvidia']
@@ -442,10 +480,16 @@ def write_index(company_dir, cik, name, ticker, rows, tickers=None, former_names
         legacy = os.path.join(base, "submissions.json")
         if os.path.exists(legacy):
             try:
-                prev = (json.load(open(legacy, encoding="utf-8")).get("cik") or "").strip()
+                # D-1 (Home Depot probe, 2026-09-30): the legacy file stores `"cik": 354950` as an INT, so
+                # `.strip()` raised AttributeError -- and because the `except` named only ValueError/OSError,
+                # the crash escaped and killed `auto`/`index` for the whole Sep-25 intake cohort. A 3,077-row
+                # registrant was recorded as "0 documents stored" and its tier was set from the crash, not from
+                # the archive. Coerce, and catch what an unreadable JSON can actually raise.
+                prev_raw = json.load(open(legacy, encoding="utf-8")).get("cik")
+                prev = str(prev_raw or "").strip()
                 if prev and cik10(prev) != c:
                     legacy_note = ("legacy submissions.json is CIK %s -- left untouched" % cik10(prev))
-            except (ValueError, OSError):
+            except (ValueError, OSError, TypeError, AttributeError):
                 legacy_note = "legacy submissions.json unreadable -- left untouched"
         if not legacy_note:
             _write_verified(legacy, json.dumps(payload, indent=1))
@@ -742,6 +786,116 @@ def version_aside(path):
     return prev
 
 
+SIDECAR_SUFFIX = ".meta.json"
+# Clock granularity, not a fudge: Windows stamps mtimes on a ~15 ms tick, so a body written
+# one tick after the run started can read as older than it. The grace is two ticks -- orders
+# of magnitude below the gap between two intake passes (AT&T's were 28 s apart), so it cannot
+# pull a previous pass's bytes into this run's accounting.
+FRESH_GRACE_SECONDS = 0.05
+# The grep-able token a reader / gate / agent searches for when a record cannot be trusted.
+MISMATCH_TOKEN = "RECORD/SHELF MISMATCH"
+
+
+def shelf_census(d, since=None):
+    """Count what is ACTUALLY on disk under one intake target directory.
+
+    Why this exists (AT&T probe 2026-10-06, `A_chronology_feasibility.md` B-1): the fleet's
+    forward recital pass stored 11 documents (mtimes 11:52:30-32Z, 1996-2000 filings) while
+    `_RUN.json`, written 28 s earlier for the in-window pass, records `attempted 0 / stored
+    0`. A merge or a re-grade agent reads the record and not the shelf, so "nothing stored"
+    becomes a corpus-wide false null. `version_aside()` already stopped records being
+    overwritten; this is the other half -- the record is written at a moment that does not
+    correspond to the bytes, and nothing used to compare the two.
+
+    `_`-prefixed files (`_RUN.json`, `_MANIFEST.csv`, `_PLAN.csv`, `_SKIPPED.csv`,
+    `_UNANSWERED.csv` and their `prev-` versions) are the record, not the corpus, so they are
+    never counted as documents. `since` is a wall clock (time.time() at run start): bodies
+    with mtime >= it are the bytes this run is answerable for, which is the only comparison
+    that survives an additive shelf and two passes per company.
+    """
+    bodies, sidecars, fresh, total_bytes = {}, {}, [], 0
+    for root, _dirs, fnames in os.walk(d):
+        for fn in fnames:
+            p = os.path.join(root, fn)
+            try:
+                st = os.stat(p)
+            except OSError:
+                continue
+            if fn.endswith(SIDECAR_SUFFIX):
+                sidecars[p[:-len(SIDECAR_SUFFIX)]] = st.st_size
+                continue
+            if fn.startswith("_"):
+                continue
+            bodies[p] = st.st_size
+            total_bytes += st.st_size
+            if since is not None and st.st_mtime >= since:
+                fresh.append(p)
+    rel = lambda p: os.path.relpath(p, d).replace(os.sep, "/")  # noqa: E731
+    return {"dir": d, "files": len(bodies), "bytes": total_bytes, "sidecars": len(sidecars),
+            "files_written_during_run": len(fresh), "fresh_paths": sorted(fresh),
+            "bodies_without_sidecar": sorted(rel(p) for p in bodies if p not in sidecars),
+            "sidecars_without_body": sorted(rel(p) for p in sidecars if p not in bodies)}
+
+
+def reconcile_shelf(company_dir, target_dir, stored, run_started):
+    """Prove the run record against the bytes, in BOTH failure directions.
+
+    Returns (ok, shelf_census, [lines]). Four named disagreement classes, each of which is a
+    defect rather than a curiosity:
+
+      RECORD-WITHOUT-BYTES    -- the record claims a document it stored and no body exists (or
+                                 exists at 0 B). This is RD-112's original direction: a
+                                 function that reports success without producing bytes.
+      BYTES-WITHOUT-RECORD    -- a body was written during this run and the record does not
+                                 name it. AT&T's direction, and the one that turns a full
+                                 shelf into a false corpus null downstream.
+      BODY-WITHOUT-SIDECAR    -- bytes nobody can attribute: no url, no sha1, no registrant.
+      SIDECAR-WITHOUT-BODY    -- provenance for a file that is not there.
+
+    Deliberately NOT a check: byte-size equality between the sidecar's `bytes` (raw bytes off
+    the wire) and the body's size on disk (UTF-8 text re-encoded, `errors="replace"`). Those
+    legitimately differ for any document carrying non-UTF-8 bytes, and a detector that fires
+    on correct behaviour gets switched off. Only a 0-byte body is treated as disagreement.
+    """
+    shelf = shelf_census(target_dir, since=run_started)
+    sources_dir = os.path.join(company_dir, "sources")
+    claimed, missing = set(), []
+    for r in stored:
+        p = r.get("path") or ""
+        full = os.path.normcase(os.path.abspath(os.path.join(sources_dir, p))) if p else None
+        if not full or not os.path.exists(full) or os.stat(full).st_size <= 0:
+            missing.append("%s/%s" % (r.get("accession", "?"), r.get("file", "?")))
+        else:
+            claimed.add(full)
+    unrecorded = [rel_p for rel_p in (os.path.normcase(os.path.abspath(p))
+                                      for p in shelf["fresh_paths"])
+                  if rel_p not in claimed]
+    lines = []
+    if missing:
+        lines.append("%s: RECORD-WITHOUT-BYTES -- the record says this run stored %d "
+                     "document(s) whose bytes are NOT on disk: %s"
+                     % (MISMATCH_TOKEN, len(missing), ", ".join(missing[:8])))
+    if unrecorded:
+        lines.append("%s: BYTES-WITHOUT-RECORD -- %d file(s) written during this run are named "
+                     "by no record, so a reader of `_RUN.json` will conclude they were never "
+                     "intaked: %s"
+                     % (MISMATCH_TOKEN, len(unrecorded),
+                        ", ".join(os.path.relpath(p, target_dir).replace(os.sep, "/")
+                                  for p in unrecorded[:8])))
+    if shelf["bodies_without_sidecar"]:
+        lines.append("%s: BODY-WITHOUT-SIDECAR -- %d body/bodies carry no `.meta.json`, so their "
+                     "url, sha1 and registrant are unattributable: %s"
+                     % (MISMATCH_TOKEN, len(shelf["bodies_without_sidecar"]),
+                        ", ".join(shelf["bodies_without_sidecar"][:8])))
+    if shelf["sidecars_without_body"]:
+        lines.append("%s: SIDECAR-WITHOUT-BODY -- %d sidecar(s) describe a file that is not on "
+                     "disk: %s"
+                     % (MISMATCH_TOKEN, len(shelf["sidecars_without_body"]),
+                        ", ".join(shelf["sidecars_without_body"][:8])))
+    ok = not lines
+    return ok, shelf, lines
+
+
 def _write_verified(path, text):
     """Write, then stat it. A function that returns success without producing bytes is
     the defect class this whole pass exists to remove (§15.5 applied to retrieval)."""
@@ -886,6 +1040,18 @@ def resolve_name(name):
     form was only `--ticker/--cik`. So the positional form now works. What it still refuses is to guess
     -- an unmatched or ambiguous name is an error that names the working flags, because silently
     resolving "Dell" to the wrong registrant is the 2026-09-26 CIK-clobber this tool already documents.
+
+    THE CONFLATION GUARD (AT&T probe, 2026-10-06). `NAME_STOP_WORDS` deletes `corp` AND `inc`, so
+    "AT&T Corp" and "AT&T Inc." both normalise to the token set {at, t} and used to return one
+    confident `name-exact` hit -- CIK 732717, i.e. SBC Communications/Southwestern Bell, incorporated
+    Delaware 1983 -- for a name that belongs to CIK 0000005907, American Telephone & Telegraph /
+    AT&T CORP, incorporated New York 1885, perimeter 1994-01-07->2007-01-18. That is not an AT&T
+    problem: for every renamed or merged registrant the survivor and its ancestor share a normalised
+    name, and the wrong CIK returns an empty in-window result that reads as "this company filed
+    nothing" (RD-134's failure mode). So a single stop-word-equal match is only confident when the
+    designators do not disagree, and a designator-exact match is preferred over a token-set match.
+    A query that names NO designator ("Boeing", "AT&T") cannot be contradicted on one, and still
+    resolves -- refusing those would break every shorthand the fleet was briefed to run.
     """
     s = (name or "").strip()
     if not s:
@@ -901,11 +1067,46 @@ def resolve_name(name):
         raise SystemExit("name resolution needs the ticker map, which failed: %s" % note)
     j = json.loads(body)
     want = _norm_name(s)
+    want_raw = _raw_norm(s)
+    # Two strengths of match: `raw` keeps the corporate designator, `loose` is the stop-word-stripped
+    # token set the resolver used to have on its own. raw_hits is always a subset of hits.
+    raw_hits = sorted({(v.get("cik_str"), v.get("title")) for v in j.values()
+                       if want_raw and _raw_norm(v.get("title") or "") == want_raw})
     hits = sorted({(v.get("cik_str"), v.get("title")) for v in j.values()
                    if _norm_name(v.get("title") or "") == want})
-    if len(hits) == 1:
-        return hits[0][0], hits[0][1], "name-exact"
+    if len(raw_hits) == 1:
+        rcik, rtitle = raw_hits[0]
+        if hits and any(c != rcik for c, _t in hits):
+            print("name: %r matched %s (CIK %s) on the whole string INCLUDING its designator; %d other "
+                  "registrant(s) share the stop-word-stripped tokens and were NOT excluded: %s"
+                  % (s, rtitle, rcik, len(hits) - 1,
+                     ", ".join("%s (%s)" % (t, c) for c, t in hits if c != rcik)))
+        print("name: candidates for %r -> %s" % (s, ", ".join("%s (%s)" % (t, c) for c, t in hits)))
+        return rcik, rtitle, "name-exact-designator"
+    if len(hits) == 1 and not raw_hits:
+        cik, title = hits[0]
+        asked, present = corp_suffixes(s), corp_suffixes(title)
+        if asked and asked != present:
+            print("name: *** NAME-CONFLATION-WARNING *** %r and the map's %r reduce to the same "
+                  "tokens only because NAME_STOP_WORDS deletes corporate suffixes." % (s, title))
+            for c, t in hits:
+                print("   CANDIDATE CIK %s -- %s" % (c, t))
+            return None, None, (
+                "NAME-CONFLATION-WARNING %r: the only stop-word-equal registrant is %r (CIK %s), whose "
+                "designator is %s, while the name asked for carries %s -- so the match is an artefact of "
+                "suffix deletion, not an identification. For a renamed or merged company the survivor and "
+                "its ancestor collide exactly this way (AT&T Corp / CIK 0000005907 vs AT&T Inc. / CIK "
+                "732717), and intake on the survivor returns an empty in-window shelf that reads as "
+                "'filed nothing'. Candidates: %s. Choose the registrant and pass --cik; if the name you "
+                "want is absent from company_tickers.json altogether it is a delisted or ancestor "
+                "registrant, reachable ONLY by CIK."
+                % (s, title, cik, "/".join(sorted(present)) or "(none)", "/".join(sorted(asked)),
+                   ", ".join("%s (%s)" % (t, c) for c, t in hits)))
+        if len(hits) == 1:
+            return hits[0][0], hits[0][1], "name-exact"
     if hits:
+        print("name: %d registrants share the stripped tokens of %r: %s"
+              % (len(hits), s, ", ".join("%s (%s)" % (t, c) for c, t in hits)))
         return None, None, "AMBIGUOUS name %r -> %s; pass --cik" % (
             s, ", ".join("%s (%s)" % (t, c) for c, t in hits))
     # Fall back to a unique prefix/containment match, but only when exactly one registrant fits.
@@ -1228,6 +1429,155 @@ def selftest():
               m5["guard"] != "ok")
     finally:
         pass
+
+    # ---- 2026-10-06 registrant pass, defect R-1: `resolve_name` conflating two registrants
+    # whose names differ only by a corporate suffix that NAME_STOP_WORDS deletes. Offline
+    # fixtures throughout -- the self-test must not spend an EDGAR request to prove itself,
+    # and the shape it reproduces is the AT&T probe's, measured live at 11:52Z.
+    real_map_http = globals()["http_get"]
+
+    def map_fixture(rows):
+        payload = json.dumps({str(i): {"cik_str": c, "title": t}
+                              for i, (c, t) in enumerate(rows)})
+        return lambda url, binary=False, tries=3: (200, payload, "ok")
+
+    try:
+        survivor_only = [(732717, "AT&T INC."), (12927, "BOEING CO"), (1018724, "MICROSOFT CORP"),
+                         (354950, "HOME DEPOT, INC."), (320193, "INTL BUSINESS MACHINES")]
+        globals()["http_get"] = map_fixture(survivor_only)
+        c1, t1, v1 = resolve_name("AT&T Corp")
+        check("R-1 'AT&T Corp' vs 'AT&T Inc.' cannot resolve to one name-exact answer",
+              c1 is None and t1 is None and str(v1).startswith("NAME-CONFLATION-WARNING")
+              and "732717" in str(v1), str(v1)[:60])
+        keeps = [(q, resolve_name(q)) for q in ("AT&T Inc.", "AT&T", "Boeing", "Home Depot, Inc.",
+                                                "Microsoft")]
+        check("R-1 NEGATIVE: names that genuinely have one answer still resolve",
+              all(r[0] for r in keeps),
+              "; ".join("%s->%s/%s" % (q, r[0], r[2]) for q, r in keeps))
+        globals()["http_get"] = map_fixture(survivor_only + [(5907, "AT&T CORP")])
+        c2, t2, v2 = resolve_name("AT&T Corp")
+        check("R-1 a designator-exact registrant is preferred over the stop-word-equal one",
+              c2 == 5907 and t2 == "AT&T CORP" and v2 == "name-exact-designator", "%s %s" % (c2, v2))
+        c3, t3, v3 = resolve_name("AT&T")
+        check("R-1 a suffix-free brand naming two registrants stays AMBIGUOUS and lists both",
+              c3 is None and str(v3).startswith("AMBIGUOUS") and "5907" in v3 and "732717" in v3,
+              str(v3)[:60])
+    finally:
+        globals()["http_get"] = real_map_http
+
+    # ---- 2026-10-06 registrant pass, defect R-2: a `_RUN.json` that can record an intake
+    # that did not happen, or fail to record one that did (AT&T shelf 11 docs / record 0).
+    rc_dir = os.path.join(tmp, "company_500_recon")
+    rc_sec = os.path.join(rc_dir, "sources", "sec")
+    os.makedirs(rc_sec, exist_ok=True)
+
+    def put(name, text, sidecar=True):
+        p = os.path.join(rc_sec, name)
+        with open(p, "w", encoding="utf-8", newline="\n") as f:
+            f.write(text)
+        if sidecar:
+            with open(p + ".meta.json", "w", encoding="utf-8") as f:
+                json.dump({"bytes": len(text), "document": name}, f)
+        return p
+
+    try:
+        started = time.time() - 5          # "this run began five seconds ago"
+        put("0000732717-96-000001_a.txt", "RECITAL BODY")
+        _ok, shelf, lines = reconcile_shelf(rc_dir, rc_sec, [], started)
+        check("R-2 a stored document the record says zero for FIRES (AT&T's exact shape)",
+              (not _ok) and any("BYTES-WITHOUT-RECORD" in l for l in lines)
+              and shelf["files"] == 1 and shelf["sidecars"] == 1 and shelf["bytes"] > 0,
+              "; ".join(lines)[:70])
+        _ok, _s, lines = reconcile_shelf(rc_dir, rc_sec, [{"accession": "0000005907-94-000008",
+                                                           "file": "missing.txt",
+                                                           "path": "sec/missing.txt"}], started)
+        check("R-2 a record claiming bytes that are not on disk FIRES",
+              (not _ok) and any("RECORD-WITHOUT-BYTES" in l for l in lines), "; ".join(lines)[:70])
+        put("orphan_body.txt", "NO SIDECAR", sidecar=False)
+        put("orphan.meta.json", "{}", sidecar=False)          # sidecar whose body is absent
+        os.rename(os.path.join(rc_sec, "orphan.meta.json"),
+                  os.path.join(rc_sec, "gone.txt.meta.json"))
+        _ok, shelf, lines = reconcile_shelf(rc_dir, rc_sec, [], started)
+        check("R-2 a body without a sidecar is reported by name",
+              (not _ok) and any("BODY-WITHOUT-SIDECAR" in l for l in lines)
+              and "orphan_body.txt" in shelf["bodies_without_sidecar"], "; ".join(lines)[:70])
+        check("R-2 a sidecar without a body is reported by name",
+              any("SIDECAR-WITHOUT-BODY" in l for l in lines)
+              and "gone.txt" in shelf["sidecars_without_body"], str(shelf["sidecars_without_body"]))
+        clean = os.path.join(tmp, "company_501_clean")
+        clean_sec = os.path.join(clean, "sources", "sec")
+        os.makedirs(clean_sec, exist_ok=True)
+        cstart = time.time() - 0.5     # the run began; the body is written after this instant
+        with open(os.path.join(clean_sec, "d.txt"), "w", encoding="utf-8", newline="\n") as f:
+            f.write("BODY")
+        with open(os.path.join(clean_sec, "d.txt.meta.json"), "w", encoding="utf-8") as f:
+            json.dump({"bytes": 4}, f)
+        _write_verified(os.path.join(clean_sec, "_RUN.json"), '{"stored": 1}')
+        cok, cshelf, clines = reconcile_shelf(clean, clean_sec, [{"accession": "A-B", "file": "d.txt",
+                                                                 "path": "sec/d.txt"}], cstart)
+        check("R-2 NEGATIVE: a run record that matches its shelf stays clean (run artefacts "
+              "excluded from the count)", cok and not clines and cshelf["files"] == 1
+              and cshelf["sidecars"] == 1 and cshelf["files_written_during_run"] == 1,
+              "%s %s" % (cshelf, clines))
+        check("R-2 auto writes the disk numbers into the record and cannot exit 0 on disagreement",
+              '"shelf": {' in src and '"record_shelf_lines": recon_lines' in src
+              and "if not recon_ok:" in src and 'os.path.join(d, "_RUN.json")' in src)
+    finally:
+        pass
+
+    # ---- R-2 end-to-end through `main()`: the whole `auto` branch, with the wire faked, so
+    # the record is written by the code path that writes real records. A stray body appears on
+    # the shelf DURING the run and is named by nothing -- AT&T's eleven unrecorded documents in
+    # miniature. `auto` must see it, write both sets of numbers, and exit 2.
+    e_dir = os.path.join(tmp, "company_502_selftest")
+    e_sec = os.path.join(e_dir, "sources", "sec")
+    real_pace = globals()["POLITE_SECONDS"]
+    try:
+        subs = json.dumps({"name": "SELFTEST RHC", "tickers": [], "formerNames": [], "filings": {
+            "recent": {"accessionNumber": ["0000732717-96-000001"], "form": ["10-K"],
+                       "filingDate": ["1996-03-01"], "primaryDocument": ["a.txt"],
+                       "primaryDocDescription": [""], "reportDate": ["1995-12-31"]},
+            "files": []}})
+        listing = json.dumps({"directory": {"item": [{"name": "a.txt", "size": "1200",
+                                                      "type": "text"}]}})
+        planted = {"n": 0}
+
+        def fake_wire(url, binary=False, tries=3):
+            if "submissions/CIK" in url:
+                return 200, subs, "ok"
+            if url.endswith("index.json"):
+                return 200, listing, "ok"
+            if binary and planted["n"] == 0:
+                # bytes land on the shelf that this run's record will never name
+                planted["n"] += 1
+                os.makedirs(e_sec, exist_ok=True)
+                with open(os.path.join(e_sec, "0000732717-97-000001_b.txt"), "w",
+                          encoding="utf-8", newline="\n") as f:
+                    f.write("unrecorded recital body")
+                with open(os.path.join(e_sec, "0000732717-97-000001_b.txt.meta.json"), "w",
+                          encoding="utf-8") as f:
+                    json.dump({"bytes": 21, "registrant": "SELFTEST RHC"}, f)
+            return 200, b"<html>incorporated under the laws of Delaware in 1983</html>", "ok"
+        globals()["http_get"], globals()["POLITE_SECONDS"] = fake_wire, 0.0
+        argv_save = sys.argv
+        sys.argv = ["sec_intake.py", "auto", "--cik", "732717", "--company-dir", e_dir,
+                    "--from", "1994-01-01", "--to", "1997-12-31", "--max-docs", "2"]
+        try:
+            rc_e2e = main()
+        finally:
+            sys.argv = argv_save
+        rec = json.load(open(os.path.join(e_sec, "_RUN.json"), encoding="utf-8"))
+        check("R-2 end-to-end: auto with an unrecorded body on its shelf exits 2, not 0",
+              rc_e2e == 2 and rec["record_shelf"] == MISMATCH_TOKEN and rec["stored"] == 2
+              and rec["shelf"]["files"] == 3 and rec["shelf"]["files_written_during_run"] == 3,
+              "rc=%s stored=%s shelf=%s" % (rc_e2e, rec["stored"], rec["shelf"]["files"]))
+        check("R-2 end-to-end: the record carries the disk counts beside the in-memory ones",
+              set(rec["shelf"]) >= {"files", "bytes", "sidecars", "files_written_during_run",
+                                    "bodies_without_sidecar", "sidecars_without_body"}
+              and any(MISMATCH_TOKEN in l for l in rec["record_shelf_lines"]),
+              str(rec["record_shelf_lines"])[:70])
+    finally:
+        globals()["http_get"], globals()["POLITE_SECONDS"] = real_http, real_pace
     print("selftest: %d checks, %d failing" % (checks["n"], len(fails)))
     return 1 if fails else 0
 
@@ -1360,6 +1710,9 @@ def main():
     if a.cmd == "auto":
         if rows is None:
             raise SystemExit("auto needs the submissions index")
+        # Wall clock for the shelf census: bodies with an mtime at or after this instant are
+        # bytes THIS run is answerable for. Captured before any document is written.
+        run_started = time.time()
         plan, pre_unanswered, notes, visited, unvisited = build_plan(
             a.cik, rows, a.lo, a.hi, a.docs_per_filing, a.max_docs)
         d = os.path.join(a.company_dir, "sources", "sec")
@@ -1390,6 +1743,7 @@ def main():
             a.company_dir, a.cik, keep, over, pre_unanswered, notes, unvisited, a.max_docs,
             registrant=name)
         ok, msg, dups = tally(stored, unanswered, skipped, attempted)
+        recon_ok, shelf, recon_lines = reconcile_shelf(a.company_dir, d, stored, run_started)
         nameless = sum(1 for u in unanswered if "NAMELESS-ROW" in str(u.get("status", "")))
         version_aside(os.path.join(d, "_MANIFEST.csv"))
         _write_verified(os.path.join(d, "_MANIFEST.csv"), _csv_text(cols, stored))
@@ -1406,6 +1760,17 @@ def main():
                "identity": msg, "identity_ok": ok, "duplicate_slots": dups,
                "bytes": sum(m["bytes"] for m in stored),
                "words": sum(m["words"] for m in stored),
+               # The shelf as the disk reports it, written beside the in-memory totals: a
+               # reader no longer has to choose between the record and the bytes.
+               "shelf": {"dir": os.path.relpath(d, a.company_dir).replace(os.sep, "/"),
+                         "files": shelf["files"], "bytes": shelf["bytes"],
+                         "sidecars": shelf["sidecars"],
+                         "files_written_during_run": shelf["files_written_during_run"],
+                         "bodies_without_sidecar": shelf["bodies_without_sidecar"],
+                         "sidecars_without_body": shelf["sidecars_without_body"]},
+               "record_shelf": "ok" if recon_ok else MISMATCH_TOKEN,
+               "record_shelf_lines": recon_lines,
+               "status": "ok" if recon_ok else MISMATCH_TOKEN,
                "selection_order": SELECTION_ORDER,
                "built": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
         version_aside(os.path.join(d, "_RUN.json"))
@@ -1415,12 +1780,25 @@ def main():
               "nameless pre-2001 listing rows); %d SKIPPED"
               % (len(stored), run["bytes"], words, len(unanswered), nameless, len(skipped)))
         print("auto: IDENTITY stored + unanswered + skipped == attempted -> %s" % msg)
+        # The record-vs-bytes proof, printed beside the tally it used to be impossible to check.
+        print("auto: SHELF census of %s -- %d bodies / %d B / %d sidecars on disk, %d of them "
+              "written during this run; the record above claims stored=%d, bytes=%d"
+              % (run["shelf"]["dir"], shelf["files"], shelf["bytes"], shelf["sidecars"],
+                 shelf["files_written_during_run"], len(stored), run["bytes"]))
+        for line in recon_lines:
+            print("auto: *** %s ***" % line)
+        if recon_lines:
+            print("auto: the run record and the bytes on disk DISAGREE (classes above). `_RUN.json` "
+                  "carries both sets of numbers, but neither may be read as what was intaked until "
+                  "this is resolved -- exiting 2, not 0.")
         if dups:
             print("auto: DOUBLE-COUNTED SLOTS (this is defect D-3, do not trust the tally): %s"
                   % "; ".join(dups[:5]))
         for s in unanswered[:10]:
             print("   UNANSWERED %s %s: %s" % (s["accession"], s["file"], s["status"]))
         if not ok:
+            return 2
+        if not recon_ok:
             return 2
         rc = 1 if unanswered else rc
     return rc
