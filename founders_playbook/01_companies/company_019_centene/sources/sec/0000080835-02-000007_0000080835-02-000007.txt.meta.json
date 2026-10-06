@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0001071739/000008083502000007/0000080835-02-000007.txt",
+ "fetched": "2026-09-29T19:06:58Z",
+ "sha1": "f0d69939cd6580a09aa1300fb6f840619c6cf6ac",
+ "bytes": 13823,
+ "words": 1508,
+ "cik": "0001071739",
+ "registrant": "CENTENE CORP",
+ "accession": "0000080835-02-000007",
+ "document": "0000080835-02-000007.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": true
+}

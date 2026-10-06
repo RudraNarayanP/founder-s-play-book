@@ -64,3 +64,31 @@ vocabulary matches many firms, require entity adjacency; rapid growth by acquisi
 acquired-operating-history claim can both be true of different legal persons.
 GATE: gates.py --company-dir founders_playbook/01_companies/company_019_centene --checks csv,keys
       --fail-on substantive --out 03_quality_control/centene_s1_probe_gates.md
+
+
+## Fleet-level gaps the tail probes exposed (orchestrator work, not agent work) — 2026-09-30 02:40
+
+1. **`queries.json` has no web-archive family at all.** Verizon, Elevance and UPS each independently reported
+   family (b) as UNTRIED with **0 of 3,802 candidate rows carrying that family** — so the five-family verdict
+   is structurally four-family for every company. Needs a per-company CDX task set (`web_archive`) before any
+   tier can be argued to be complete.
+2. **Corporate print is blind to house organs.** The CP tasks' `report_terms` are `annual|report|member|director`,
+   so an employee magazine or a company monthly is invisible by construction (UPS, whose Stage-1 window sits in
+   an era when it printed to member-owners). Add `magazine|review|bulletin|news|herald|organ|chronicle|gazette`
+   as a second CP term set.
+3. **Predecessor vocabulary is missing from the queries.** Elevance's 1944-1960 print is findable only under
+   `Mutual Hospital Insurance` / `Blue Cross of Indiana` / `Associated Insurance Companies`; every probe now
+   *names* those predecessor spellings in its dossier, so the query block must be rebuilt from the probes' own
+   findings, then re-harvested `--facet-free`.
+4. **The never-read EDGAR tail.** UPS measured that filings from 2007-09-03 onward were never opened (its
+   FR-3). The cheapest test of an alternative founding date is a pass over the recent tail — run per company
+   `auto --from 2006-12-31 --to 2026-12-31 --max-docs 25`. (Now safe: `auto` versions its run records instead
+   of overwriting them, per the Elevance finding fixed at RD-136.)
+5. **The registrant guard tests the wrong thing at item level.** It passed Verizon's shelf while **39 of 45
+   corporate-print ids were The Bell Telephone Company of Canada** — a different legal person (third
+   occurrence of the Ford-of-Canada shape). The guard compares the *registrant* to the *directory*; nothing
+   checks the *item* against the company. `harvest_mine`'s entity-adjacency class is the right place for it:
+   a CP item whose naming phrase belongs to a foreign sister should be reported as a decoy, not catalogued.
+6. **UPS: 19/19 `TIER1_CANDIDATE` items were bare-word "ups" decoys** (CIA "FOLLOW UPS", NASA SEV-UPS, ERIC,
+   "Blow-ups"). The mine's classifier is right; the *tier stamp* in the harvest index is not evidence. Any
+   dossier quoting a TIER1_CANDIDATE count as family support is reading a detector's label as a finding.

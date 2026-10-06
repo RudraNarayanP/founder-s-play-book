@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0001071739/000094018001500572/ds1a.txt",
+ "fetched": "2026-09-29T19:06:49Z",
+ "sha1": "cc7403946b508165a996c5312fa3d25afc384983",
+ "bytes": 370195,
+ "words": 45289,
+ "cik": "0001071739",
+ "registrant": "CENTENE CORP",
+ "accession": "0000940180-01-500572",
+ "document": "ds1a.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

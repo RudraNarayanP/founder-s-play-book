@@ -1,0 +1,28 @@
+{
+ "cik": "0001071739",
+ "requested_cik": "1071739",
+ "registrant": "CENTENE CORP",
+ "ticker": "CNC",
+ "tickers": [
+  "CNC"
+ ],
+ "former_names": [],
+ "company_dir": "company_019_centene",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['centene'] match registrant 'CENTENE CORP' (CIK 0001071739)"
+ ],
+ "built": "2026-09-29T19:06:38Z",
+ "count": 3256,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 0,
+ "csv_sha1": "c8ad9ee9c100b3b008d6bed25c061dd76dd83f26",
+ "csv_bytes": 318610,
+ "paths": {
+  "json": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_019_centene\\sources\\_index\\submissions_CIK0001071739.json",
+  "csv": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_019_centene\\sources\\_index\\submissions_CIK0001071739.csv",
+  "md": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_019_centene\\sources\\_index\\_INDEX_CIK0001071739.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

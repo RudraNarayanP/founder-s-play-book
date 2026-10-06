@@ -725,6 +725,23 @@ def xbrl_facts(company_dir, cik, lo, hi, tags):
     return out
 
 
+def version_aside(path):
+    """Keep the previous run record instead of silently overwriting it.
+
+    The Elevance probe (2026-09-30) refused to run a second intake pass for exactly this reason: `auto`
+    rewrites `_RUN.json` / `_MANIFEST.csv` / `_PLAN.csv` / `_SKIPPED.csv` / `_UNANSWERED.csv` in place, so
+    a recital pass after an in-window pass destroys the evidence of what the first pass enumerated, opened,
+    skipped and left UNANSWERED -- and tonight's fleet ran two passes per company. The bytes downloaded are
+    additive; the accounting around them was not.
+    """
+    if not os.path.exists(path) or os.path.getsize(path) <= 0:
+        return None
+    stamp = time.strftime("%Y%m%dT%H%M%SZ", time.gmtime())
+    prev = "%s.prev-%s%s" % (os.path.splitext(path)[0], stamp, os.path.splitext(path)[1])
+    os.replace(path, prev)
+    return prev
+
+
 def _write_verified(path, text):
     """Write, then stat it. A function that returns success without producing bytes is
     the defect class this whole pass exists to remove (§15.5 applied to retrieval)."""
@@ -1355,6 +1372,7 @@ def main():
             prow.append(dict(s, disposition="fetched this run"))
         for s in over:
             prow.append(dict(s, disposition="SKIPPED beyond --max-docs %d" % a.max_docs))
+        version_aside(os.path.join(d, "_PLAN.csv"))
         _write_verified(os.path.join(d, "_PLAN.csv"), _csv_text(plan_cols, prow))
         print("auto: %d accessions in window, %d directories opened, %d document slots "
               "planned, %d kept under --max-docs %d, %d skipped past the cut"
@@ -1373,8 +1391,11 @@ def main():
             registrant=name)
         ok, msg, dups = tally(stored, unanswered, skipped, attempted)
         nameless = sum(1 for u in unanswered if "NAMELESS-ROW" in str(u.get("status", "")))
+        version_aside(os.path.join(d, "_MANIFEST.csv"))
         _write_verified(os.path.join(d, "_MANIFEST.csv"), _csv_text(cols, stored))
+        version_aside(os.path.join(d, "_UNANSWERED.csv"))
         _write_verified(os.path.join(d, "_UNANSWERED.csv"), _csv_text(cols, unanswered))
+        version_aside(os.path.join(d, "_SKIPPED.csv"))
         _write_verified(os.path.join(d, "_SKIPPED.csv"), _csv_text(cols, skipped))
         run = {"cik": cik10(a.cik), "registrant": name, "tickers": ticks,
                "company_dir": os.path.basename(os.path.normpath(a.company_dir)),
@@ -1387,6 +1408,7 @@ def main():
                "words": sum(m["words"] for m in stored),
                "selection_order": SELECTION_ORDER,
                "built": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
+        version_aside(os.path.join(d, "_RUN.json"))
         _write_verified(os.path.join(d, "_RUN.json"), json.dumps(run, indent=1))
         words = sum(m["words"] for m in stored)
         print("auto: %d documents stored (%d bytes, %d words); %d UNANSWERED (of which %d "
