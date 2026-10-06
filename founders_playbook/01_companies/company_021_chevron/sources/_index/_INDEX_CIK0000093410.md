@@ -1,6 +1,6 @@
 # SEC submissions index -- CHEVRON CORP (CIK 0000093410, CVX)
 
-Built by `tools/sec_intake.py` at 2026-09-29 18:25 UTC. **Registrant name for this index: `CHEVRON CORP` (CIK 0000093410)** -- artefacts are keyed by CIK, so a wrong `--cik` cannot overwrite another registrant's index.
+Built by `tools/sec_intake.py` at 2026-09-29 19:07 UTC. **Registrant name for this index: `CHEVRON CORP` (CIK 0000093410)** -- artefacts are keyed by CIK, so a wrong `--cik` cannot overwrite another registrant's index.
 2855 filings enumerated; 0 submissions rows dropped for carrying no accession; 104 rows carry no `primaryDocument` (paper-era shells -- fetchable as `<accession>.txt`).
 
 Registrant guard: **ok** -- slug token(s) ['chevron'] match registrant 'CHEVRON CORP' (CIK 0000093410)

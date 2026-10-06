@@ -2,7 +2,7 @@
 
 Window applied: 1963-01-01 .. 1990-12-31 (deliberately WIDE where the founding date is itself unestablished -- narrowing it here would silently discard the evidence that could establish it).
 
-52 candidate rows in the harvest index; 12 items mined; 39 left untried at the --limit.
+54 candidate rows in the harvest index; 12 items mined; 41 left untried at the --limit.
 
 **Nothing on this page is a finding.** It is held bytes, hit counts and line numbers for an agent to interpret. Zero hits over held KB is a NULL; a missing text layer or a 404/403 is UNANSWERED; an item not attempted is UNTRIED.
 

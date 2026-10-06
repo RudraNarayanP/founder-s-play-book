@@ -3,14 +3,60 @@
   "1978-01-01",
   "1990-12-31"
  ],
- "candidates": 13,
- "mined": 6,
- "untried_by_limit": 6,
+ "candidates": 41,
+ "mined": 12,
+ "untried_by_limit": 23,
  "items": [
+  {
+   "identifier": "1989-sears-christmas-wishbook-catalog",
+   "date": "",
+   "title_year": "1989",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "1989 Sears Christmas Wishbook Catalog",
+   "family": "internet_archive",
+   "meta_date": "",
+   "status": "cached",
+   "bytes": 1219067,
+   "named_terms": [
+    "home depot"
+   ],
+   "other_terms": [
+    "chain store age",
+    "discount store news",
+    "do it yourself"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 17,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "do-it-yourself"
+   ],
+   "sample": [
+    {
+     "line": 65758,
+     "text": "X-ACTO\u00ae do-it-yourself knife set is great for",
+     "context": [
+      "9 E 53004",
+      "cutting linoleum, carpet, wallpaper and"
+     ]
+    }
+   ]
+  },
   {
    "identifier": "Wpo8v92NgjoC",
    "date": "2008-01-01",
    "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried Wpo8v92NgjoC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "qQswSQwJqWUC",
+   "date": "2011-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried qQswSQwJqWUC_djvu.txt",
    "verdict": "UNANSWERED",
    "hits": 0,
    "sample": []
@@ -54,6 +100,136 @@
    "verdict": "UNANSWERED",
    "hits": 0,
    "sample": []
+  },
+  {
+   "identifier": "t2JexBk5PXQC",
+   "date": "2012-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried t2JexBk5PXQC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "homeimprovement100benj",
+   "date": "1995-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried homeimprovement100benj_djvu.txt, homeimprovement100benj_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "491bayshoreboule2820sanf",
+   "date": "2005-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "491 Bayshore Boulevard, Home Depot : final environmental impact report",
+   "family": "corporate_print",
+   "meta_date": "2005-01-01",
+   "status": "ok",
+   "bytes": 1483641,
+   "named_terms": [
+    "home depot"
+   ],
+   "other_terms": [
+    "chain store age",
+    "discount store news",
+    "do it yourself"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 200,
+   "phrase_hits": 200,
+   "entity_hits": 200,
+   "matched_entities": [
+    "home  depot"
+   ],
+   "matched_other_terms": [
+    "do-it-yourself"
+   ],
+   "sample": [
+    {
+     "line": 17,
+     "text": "Home  Depot         documents  dept.",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 65,
+     "text": "HOME  DEPOT",
+     "context": [
+      "491  BAYSHORE  BOULEVARD,",
+      ""
+     ]
+    },
+    {
+     "line": 91,
+     "text": "491  Bayshore  Boulevard,  Home  Depot",
+     "context": [
+      "",
+      "\u2022  Final  Environmental  Impact  Report"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "491bayshoreboul2820sanf_0",
+   "date": "2005-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "491 Bayshore Boulevard, Home Depot : final environmental impact report",
+   "family": "corporate_print",
+   "meta_date": "2005-01-01",
+   "status": "ok",
+   "bytes": 919040,
+   "named_terms": [
+    "home depot"
+   ],
+   "other_terms": [
+    "chain store age",
+    "discount store news",
+    "do it yourself"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 200,
+   "phrase_hits": 200,
+   "entity_hits": 205,
+   "matched_entities": [
+    "home  depot",
+    "stores  group",
+    "stores  sales"
+   ],
+   "matched_other_terms": [
+    "do-it-yourself"
+   ],
+   "sample": [
+    {
+     "line": 14,
+     "text": "Home  Depot",
+     "context": [
+      "491  Bayshore  Boulevard,",
+      ""
+     ]
+    },
+    {
+     "line": 66,
+     "text": "HOME  DEPOT",
+     "context": [
+      "491  BAYSHORE  BOULEVARD,",
+      ""
+     ]
+    },
+    {
+     "line": 117,
+     "text": "\u2022  G.         Community  Commitments  of  Home  Depot,  U.S.A.,  Inc  G-l",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
   }
  ]
 }

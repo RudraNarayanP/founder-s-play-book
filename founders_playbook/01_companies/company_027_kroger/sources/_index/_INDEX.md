@@ -1,6 +1,6 @@
 # SEC submissions index -- KROGER CO (CIK 0000056873, KR)
 
-Built by `tools/sec_intake.py` at 2026-09-29 18:06 UTC. **Registrant name for this index: `KROGER CO` (CIK 0000056873)** -- artefacts are keyed by CIK, so a wrong `--cik` cannot overwrite another registrant's index.
+Built by `tools/sec_intake.py` at 2026-09-29 19:09 UTC. **Registrant name for this index: `KROGER CO` (CIK 0000056873)** -- artefacts are keyed by CIK, so a wrong `--cik` cannot overwrite another registrant's index.
 4126 filings enumerated; 0 submissions rows dropped for carrying no accession; 287 rows carry no `primaryDocument` (paper-era shells -- fetchable as `<accession>.txt`).
 
 Registrant guard: **ok** -- slug token(s) ['kroger'] match registrant 'KROGER CO' (CIK 0000056873)

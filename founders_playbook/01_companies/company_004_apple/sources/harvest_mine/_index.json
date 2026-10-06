@@ -3,9 +3,9 @@
   "1975-01-01",
   "1980-12-31"
  ],
- "candidates": 103,
- "mined": 6,
- "untried_by_limit": 91,
+ "candidates": 179,
+ "mined": 12,
+ "untried_by_limit": 154,
  "items": [
   {
    "identifier": "micro_IA41153056_0224",
@@ -198,7 +198,7 @@
    "title": "Reciprocal Evaluation Tour of U.S. Facilities and Programs for the Blind by Experts from the U.S.S.R. : Final Report fo ",
    "family": "corporate_print",
    "meta_date": "1977-01-01",
-   "status": "ok",
+   "status": "cached",
    "bytes": 78742,
    "named_terms": [
     "apple computer",
@@ -245,6 +245,323 @@
    "verdict": "UNANSWERED",
    "hits": 0,
    "sample": []
+  },
+  {
+   "identifier": "byte-may-1977",
+   "date": "1977-01-01",
+   "title_year": "1977",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "BYTE MAY 1977",
+   "family": "internet_archive",
+   "meta_date": "1977-01-01",
+   "status": "cached",
+   "bytes": 709824,
+   "named_terms": [
+    "apple computer",
+    "apple ii"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 55,
+   "phrase_hits": 6,
+   "entity_hits": 8,
+   "matched_entities": [
+    "apple computer",
+    "apple-ii"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 455,
+     "text": "34 THE APPLE-II Judith Havey",
+     "context": [
+      "Speculations\u2014Lau PRODUCTION MANAGER",
+      "eae ; CIRCULATION MANAGER"
+     ]
+    },
+    {
+     "line": 612,
+     "text": "Apple Computer describes the design",
+     "context": [
+      "turning it on? Stephen Wozniak of",
+      "of such a system in his product"
+     ]
+    },
+    {
+     "line": 5361,
+     "text": "Apple Computer Co",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "byte-magazine-1977-04",
+   "date": "1977-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Byte Magazine Volume 02 Number 04 - Baudot Machines",
+   "family": "internet_archive",
+   "meta_date": "1977-01-01",
+   "status": "cached",
+   "bytes": 681576,
+   "named_terms": [
+    "apple computer",
+    "apple ii"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 19,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 812,
+     "text": "A Nybble on the Apple",
+     "context": [
+      "",
+      "Letters"
+     ]
+    },
+    {
+     "line": 2673,
+     "text": "A Nybble on the Apple",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 2683,
+     "text": "Wozniac, designer of the Apple-U computer,",
+     "context": [
+      "Next month, we'll have an article by Steve",
+      "describing this beautiful new conception of"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "byte-magazine-1980-04",
+   "date": "1980-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Byte Magazine Volume 05 Number 04 - Printed Software Becomes a Reality",
+   "family": "internet_archive",
+   "meta_date": "1980-01-01",
+   "status": "cached",
+   "bytes": 1280581,
+   "named_terms": [
+    "apple computer",
+    "apple ii"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 200,
+   "phrase_hits": 80,
+   "entity_hits": 88,
+   "matched_entities": [
+    "apple computer",
+    "apple corporation",
+    "apple ii"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 113,
+     "text": "Here is a simple interface you can add to an Apple II to allow audio input and output.",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 218,
+     "text": "for the Apple II",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 546,
+     "text": "Apple Computer",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "byte-sept-1977",
+   "date": "1977-01-01",
+   "title_year": "1977",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "BYTE SEPTEMBER 1977",
+   "family": "internet_archive",
+   "meta_date": "1977-01-01",
+   "status": "cached",
+   "bytes": 843147,
+   "named_terms": [
+    "apple computer",
+    "apple ii"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 25,
+   "phrase_hits": 19,
+   "entity_hits": 22,
+   "matched_entities": [
+    "apple computer",
+    "apple ii"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1126,
+     "text": "Like Apple Computer,",
+     "context": [
+      "major brand names.",
+      "Cromemco, DEC, Diablo,"
+     ]
+    },
+    {
+     "line": 2287,
+     "text": "Introducing Apple II.",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 2304,
+     "text": "Apple II* and connect any standard",
+     "context": [
+      "in the color TV. Plug in your new",
+      "cassette recorder/player. Now you\u2019re"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "byte-magazine-1979-04",
+   "date": "1979-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Byte Magazine Volume 04 Number 04 - Low Level Programming",
+   "family": "internet_archive",
+   "meta_date": "1979-01-01",
+   "status": "cached",
+   "bytes": 1186876,
+   "named_terms": [
+    "apple computer",
+    "apple ii"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 113,
+   "phrase_hits": 53,
+   "entity_hits": 61,
+   "matched_entities": [
+    "apple computer",
+    "apple ii",
+    "apple inc"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 384,
+     "text": "20 CROSS-POLLINATING THE APPLE II, by Richard Campbell",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 609,
+     "text": "Apple II. Richard Campbell gets to the core",
+     "context": [
+      "an Apple, or in this case to interface an",
+      "of the problem in Cross-Pollinating the"
+     ]
+    },
+    {
+     "line": 611,
+     "text": "Apple II. page 20",
+     "context": [
+      "of the problem in Cross-Pollinating the",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "byte-magazine-1980-11",
+   "date": "1980-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Byte Magazine Volume 05 Number 11 - High-Resolution Graphics",
+   "family": "internet_archive",
+   "meta_date": "1980-01-01",
+   "status": "cached",
+   "bytes": 2421368,
+   "named_terms": [
+    "apple computer",
+    "apple ii"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 200,
+   "phrase_hits": 160,
+   "entity_hits": 168,
+   "matched_entities": [
+    "apple    computer",
+    "apple    ii",
+    "apple  computer",
+    "apple  computers",
+    "apple  corporation",
+    "apple  ii",
+    "apple ii",
+    "apple. computer"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 369,
+     "text": "148  THREE-DIMENSIONAL  GRAPHICS  FOR  THE  APPLE  II  by  Dan  Sokol  and  John",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 1934,
+     "text": "the  Apple  II \"computer.",
+     "context": [
+      "Simulation  #1  and  #2  .  designed  for  use  with",
+      ""
+     ]
+    },
+    {
+     "line": 1997,
+     "text": "APPLE\u2122  is  a  registered  trademark  of  APPLE  COMPUTER,  INC.",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
   }
  ]
 }

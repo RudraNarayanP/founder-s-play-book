@@ -15,16 +15,16 @@
  "guard_reasons": [
   "slug token(s) ['berkshire'] match registrant 'BERKSHIRE HATHAWAY INC' (CIK 0001067983)"
  ],
- "built": "2026-09-29T17:56:06Z",
+ "built": "2026-09-29T19:01:14Z",
  "count": 2400,
  "rows_dropped_no_accession": 0,
  "rows_without_primaryDocument": 63,
  "csv_sha1": "fd307c5ad21cb5c6b9abfdb7c57366ffe5028a8c",
  "csv_bytes": 208244,
  "paths": {
-  "json": "founders_playbook/01_companies/company_007_berkshire\\sources\\_index\\submissions_CIK0001067983.json",
-  "csv": "founders_playbook/01_companies/company_007_berkshire\\sources\\_index\\submissions_CIK0001067983.csv",
-  "md": "founders_playbook/01_companies/company_007_berkshire\\sources\\_index\\_INDEX_CIK0001067983.md"
+  "json": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_007_berkshire\\sources\\_index\\submissions_CIK0001067983.json",
+  "csv": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_007_berkshire\\sources\\_index\\submissions_CIK0001067983.csv",
+  "md": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_007_berkshire\\sources\\_index\\_INDEX_CIK0001067983.md"
  },
  "legacy_copy_written": true,
  "legacy_note": ""

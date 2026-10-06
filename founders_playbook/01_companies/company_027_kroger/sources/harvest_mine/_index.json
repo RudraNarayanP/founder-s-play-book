@@ -3,9 +3,9 @@
   "1883-01-01",
   "1960-12-31"
  ],
- "candidates": 18,
- "mined": 6,
- "untried_by_limit": 10,
+ "candidates": 26,
+ "mined": 12,
+ "untried_by_limit": 12,
  "items": [
   {
    "identifier": "NNn52klcXpsC",
@@ -19,6 +19,14 @@
    "identifier": "GEA_AQAAMAAJ",
    "date": "1901-01-01",
    "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried GEA_AQAAMAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "BajGB4fFBk0C",
+   "date": "1929-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried BajGB4fFBk0C_djvu.txt",
    "verdict": "UNANSWERED",
    "hits": 0,
    "sample": []
@@ -40,6 +48,22 @@
    "sample": []
   },
   {
+   "identifier": "FeFLAQAAMAAJ",
+   "date": "1922-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried FeFLAQAAMAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "7McuAQAAIAAJ",
+   "date": "1925-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried 7McuAQAAIAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
    "identifier": "PvyrwBlrrQUC",
    "date": "1940-01-01",
    "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried PvyrwBlrrQUC_djvu.txt",
@@ -48,12 +72,126 @@
    "sample": []
   },
   {
-   "identifier": "FeFLAQAAMAAJ",
-   "date": "1922-01-01",
-   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried FeFLAQAAMAAJ_djvu.txt",
+   "identifier": "OWW2v9FmTekC",
+   "date": "1925-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried OWW2v9FmTekC_djvu.txt",
    "verdict": "UNANSWERED",
    "hits": 0,
    "sample": []
+  },
+  {
+   "identifier": "krogercoannualreports",
+   "date": "",
+   "title_year": "1925",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "The Kroger Company Annual Reports: 1925\u20132007, 2009\u20132015",
+   "family": "corporate_print",
+   "meta_date": "",
+   "status": "ok",
+   "bytes": 511713,
+   "named_terms": [],
+   "other_terms": [
+    "big star",
+    "chain store age",
+    "progressive grocer"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 200,
+   "phrase_hits": 0,
+   "entity_hits": 8,
+   "matched_entities": [
+    "kroger co",
+    "kroger stock"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 181,
+     "text": "dividends and stock buybacks. If you had invested $100 in Kroger stock on January 31, 2000, and reinvested",
+     "context": [
+      "annual dividend for the seventh consecutive year and returned more than $928 million to shareholders through",
+      "all dividends issued, your investment would have been worth $233 on January 31, 2014, and Kroger\u2019s Total"
+     ],
+     "promoted": "kroger stock"
+    },
+    {
+     "line": 182,
+     "text": "all dividends issued, your investment would have been worth $233 on January 31, 2014, and Kroger\u2019s Total",
+     "context": [
+      "dividends and stock buybacks. If you had invested $100 in Kroger stock on January 31, 2000, and reinvested",
+      "Shareholder Return in that same period is 123.8%. In March 2014, Kroger\u2019s Board of Directors approved a $1"
+     ],
+     "promoted": "kroger stock"
+    },
+    {
+     "line": 267,
+     "text": "\u2022 Contributing an additional $9.1 million to local organizations in 2013 through The Kroger Co. Foundation.",
+     "context": [
+      "",
+      "In the past five years, our foundation has donated nearly $40 million."
+     ],
+     "promoted": "kroger co"
+    }
+   ]
+  },
+  {
+   "identifier": "Z08SAQAAMAAJ",
+   "date": "1951-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried Z08SAQAAMAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "micro_IA41152647_0718",
+   "date": "1987-01-01",
+   "title_year": "1985",
+   "date_mismatch": true,
+   "in_window": false,
+   "title": "The Spring 1985 High Precision Baseline Test of the JPL GPS-Based Geodetic System: A Final Report",
+   "family": "corporate_print",
+   "meta_date": "1987-01-01",
+   "status": "ok",
+   "bytes": 110951,
+   "named_terms": [],
+   "other_terms": [
+    "big star",
+    "chain store age",
+    "progressive grocer"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 5,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 30,
+     "text": "oe: Peter M. Kroger",
+     "context": [
+      "i. OjarsJ.Sovers",
+      "i Lisa L. Skrumeda"
+     ]
+    },
+    {
+     "line": 87,
+     "text": "15. Supplementary Notes (Authors, continued) Ojars J. Sovers, Peter M. Kroger, Lisa L.",
+     "context": [
+      "",
+      "Skrumeda, James S. Border, Ruth E. Neilan, Charles J. Vegos, Bobby C. Williams,"
+     ]
+    },
+    {
+     "line": 515,
+     "text": "1985; Kroger et al., 1987; Sovers et al., 1984]. The results from these and",
+     "context": [
+      "[e.g., Herring et al., 1986; Christodoulidis et al., 1985; Davidson and Trask,",
+      "other studies are generally consistent with those inferred for geologic time"
+     ]
+    }
+   ]
   }
  ]
 }

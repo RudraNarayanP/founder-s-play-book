@@ -5,16 +5,16 @@
   "CVX"
  ],
  "company_dir": "company_021_chevron",
- "window": "1900-01-01..2030-12-31",
- "max_docs": 40,
+ "window": "1984-12-31..2009-12-31",
+ "max_docs": 30,
  "docs_per_filing": 4,
  "guard": "ok",
- "attempted": 208,
- "stored": 25,
- "unanswered": 16,
- "skipped": 167,
+ "attempted": 200,
+ "stored": 18,
+ "unanswered": 13,
+ "skipped": 169,
  "nameless_rows": 0,
- "identity": "stored(25) + unanswered(16) + skipped(167) = 208 vs attempted(208) -> BROKEN",
+ "identity": "stored(18) + unanswered(13) + skipped(169) = 200 vs attempted(200) -> BROKEN",
  "identity_ok": false,
  "duplicate_slots": [
   "nameless:0000093410-95-000012:1902 in skipped and skipped",
@@ -56,8 +56,8 @@
   "nameless:0000093410-00-000006:1927 in skipped and skipped",
   "nameless:0000093410-00-000006:1927 in skipped and skipped"
  ],
- "bytes": 6889700,
- "words": 850114,
+ "bytes": 5410278,
+ "words": 648628,
  "selection_order": "1. filings whose filingDate falls in --from/--to, sorted filingDate ASCENDING (earliest evidence first); 2. one filing per form key -- S-1/S-4/10-K families keep every filing because version differences are findings, other forms keep the first per (base-form, primaryDocument[:12]); 3. inside a filing, documents in candidate order: the submissions primaryDocument, then named text/html items largest-first, then the full-submission SGML <accession>.txt; 4. --max-docs caps DOCUMENTS, so the stream built by 1-3 is cut at N and every slot past the cut is written to _SKIPPED.csv as 'SKIPPED beyond --max-docs N' -- never dropped.",
- "built": "2026-09-29T18:25:59Z"
+ "built": "2026-09-29T19:07:41Z"
 }

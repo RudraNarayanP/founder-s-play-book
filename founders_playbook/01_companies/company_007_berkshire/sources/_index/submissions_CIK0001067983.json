@@ -15,7 +15,7 @@
  "guard_reasons": [
   "slug token(s) ['berkshire'] match registrant 'BERKSHIRE HATHAWAY INC' (CIK 0001067983)"
  ],
- "built": "2026-09-29T17:56:06Z",
+ "built": "2026-09-29T19:01:14Z",
  "count": 2400,
  "rows_dropped_no_accession": 0,
  "rows_without_primaryDocument": 63,

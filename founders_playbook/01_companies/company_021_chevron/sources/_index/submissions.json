@@ -14,7 +14,7 @@
  "guard_reasons": [
   "slug token(s) ['chevron'] match registrant 'CHEVRON CORP' (CIK 0000093410)"
  ],
- "built": "2026-09-29T18:25:05Z",
+ "built": "2026-09-29T19:07:10Z",
  "count": 2855,
  "rows_dropped_no_accession": 0,
  "rows_without_primaryDocument": 104,

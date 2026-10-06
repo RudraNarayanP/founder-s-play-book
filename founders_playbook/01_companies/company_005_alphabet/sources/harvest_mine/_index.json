@@ -3,9 +3,9 @@
   "1996-01-01",
   "2004-12-31"
  ],
- "candidates": 39,
- "mined": 4,
- "untried_by_limit": 34,
+ "candidates": 44,
+ "mined": 6,
+ "untried_by_limit": 37,
  "items": [
   {
    "identifier": "diH5Zch7IScC",
@@ -13,6 +13,52 @@
    "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried diH5Zch7IScC_djvu.txt",
    "verdict": "UNANSWERED",
    "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "bub_gb_Qx4EAAAAMBAJ",
+   "date": "1998-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Network World",
+   "family": "internet_archive",
+   "meta_date": "1998-01-01",
+   "status": "ok",
+   "bytes": 307686,
+   "named_terms": [],
+   "other_terms": [
+    "larry page"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "yahoo-internet-life-magazine-march-2002",
+   "date": "2002-01-01",
+   "title_year": "2002",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Yahoo Internet Life Magazine March 2002",
+   "family": "internet_archive",
+   "meta_date": "2002-01-01",
+   "status": "ok",
+   "bytes": 258574,
+   "named_terms": [],
+   "other_terms": [
+    "larry page"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
    "sample": []
   },
   {

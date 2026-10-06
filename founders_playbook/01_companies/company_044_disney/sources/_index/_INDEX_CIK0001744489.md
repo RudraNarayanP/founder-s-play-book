@@ -1,6 +1,6 @@
 # SEC submissions index -- Walt Disney Co (CIK 0001744489, DIS)
 
-Built by `tools/sec_intake.py` at 2026-09-29 17:58 UTC. **Registrant name for this index: `Walt Disney Co` (CIK 0001744489)** -- artefacts are keyed by CIK, so a wrong `--cik` cannot overwrite another registrant's index.
+Built by `tools/sec_intake.py` at 2026-09-29 19:05 UTC. **Registrant name for this index: `Walt Disney Co` (CIK 0001744489)** -- artefacts are keyed by CIK, so a wrong `--cik` cannot overwrite another registrant's index.
 1141 filings enumerated; 0 submissions rows dropped for carrying no accession; 0 rows carry no `primaryDocument` (paper-era shells -- fetchable as `<accession>.txt`).
 
 Registrant guard: **ok** -- slug token(s) ['disney'] match registrant 'Walt Disney Co' (CIK 0001744489)

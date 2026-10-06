@@ -3,58 +3,10 @@
   "1879-01-01",
   "1984-12-31"
  ],
- "candidates": 86,
+ "candidates": 138,
  "mined": 12,
- "untried_by_limit": 72,
+ "untried_by_limit": 114,
  "items": [
-  {
-   "identifier": "NASA_NTRS_Archive_19830011631",
-   "date": "1983-01-01",
-   "title_year": "1983",
-   "date_mismatch": false,
-   "in_window": true,
-   "title": "NASA Technical Reports Server (NTRS) 19830011631: Specimen size and geometry effects on fracture toughness of Al2O3 meas",
-   "family": "corporate_print",
-   "meta_date": "1983-01-01",
-   "status": "ok",
-   "bytes": 16834,
-   "named_terms": [
-    "chevron corporation"
-   ],
-   "other_terms": [],
-   "verdict": "BARE_WORD_MATCH",
-   "hits": 26,
-   "phrase_hits": 0,
-   "entity_hits": 0,
-   "matched_entities": [],
-   "matched_other_terms": [],
-   "sample": [
-    {
-     "line": 58,
-     "text": "Chevron-Notch Specimens",
-     "context": [
-      "With Short Rod and Short Bar",
-      ""
-     ]
-    },
-    {
-     "line": 77,
-     "text": "Symposium on Chevron-Notched Specimens:",
-     "context": [
-      "",
-      ""
-     ]
-    },
-    {
-     "line": 110,
-     "text": "short rod and short bar chevron-notch specimens previously calibrated by the au-",
-     "context": [
-      "Plane strain fracture toughness measurements were made on AI2O3 using",
-      "thors for their dimensionless stress Intensity factor coefficients. The measured"
-     ]
-    }
-   ]
-  },
   {
    "identifier": "NASA_NTRS_Archive_19840005539",
    "date": "1983-01-01",
@@ -104,97 +56,49 @@
    ]
   },
   {
-   "identifier": "NASA_NTRS_Archive_20080012230",
-   "date": "1977-01-01",
-   "title_year": "2008",
-   "date_mismatch": true,
-   "in_window": true,
-   "title": "NASA Technical Reports Server (NTRS) 20080012230: Passive chevron replicator",
-   "family": "corporate_print",
-   "meta_date": "1977-01-01",
-   "status": "cached",
-   "bytes": 16576,
-   "named_terms": [
-    "chevron corporation"
-   ],
-   "other_terms": [],
-   "verdict": "BARE_WORD_MATCH",
-   "hits": 30,
-   "phrase_hits": 0,
-   "entity_hits": 0,
-   "matched_entities": [],
-   "matched_other_terms": [],
-   "sample": [
-    {
-     "line": 16,
-     "text": "[54] PASSIVE CHEVRON REPLICATOR",
-     "context": [
-      "",
-      ""
-     ]
-    },
-    {
-     "line": 62,
-     "text": "the replicator uses chevron type elements arranged in",
-     "context": [
-      "replicates bubble domains. In a preferred embodiment,",
-      "an appropriate pattern so as to interact with a pair of"
-     ]
-    },
-    {
-     "line": 88,
-     "text": "PASSIVE CHEVRON REPLICATOR",
-     "context": [
-      "",
-      ""
-     ]
-    }
-   ]
-  },
-  {
-   "identifier": "NASA_NTRS_Archive_19840021180",
-   "date": "1984-01-01",
-   "title_year": "1984",
+   "identifier": "NASA_NTRS_Archive_19780024484",
+   "date": "1978-01-01",
+   "title_year": "1978",
    "date_mismatch": false,
    "in_window": true,
-   "title": "NASA Technical Reports Server (NTRS) 19840021180: Three-dimensional finite-element analysis of chevron-notched fracture ",
+   "title": "NASA Technical Reports Server (NTRS) 19780024484: Chevron cutting: Experiment with new runway mixtures",
    "family": "corporate_print",
-   "meta_date": "1984-01-01",
-   "status": "ok",
-   "bytes": 38244,
+   "meta_date": "1978-01-01",
+   "status": "cached",
+   "bytes": 19542,
    "named_terms": [
     "chevron corporation"
    ],
    "other_terms": [],
    "verdict": "BARE_WORD_MATCH",
-   "hits": 59,
+   "hits": 55,
    "phrase_hits": 0,
    "entity_hits": 0,
    "matched_entities": [],
    "matched_other_terms": [],
    "sample": [
     {
-     "line": 5,
-     "text": "CHEVRON-NOTCHED FRACTURE SPECIMENS",
-     "context": [
-      "THREE-DIMENSIONAL FINITE-ELEMENT ANALYSIS OF",
-      ""
-     ]
-    },
-    {
-     "line": 28,
-     "text": "CHEVRON-NOTCHED FRACTURE SPECIMENS",
+     "line": 7,
+     "text": "CHEVRON cutting --EXPERIMENT WITH NEW",
      "context": [
       "",
-      ""
+      "RUNWAY MIXTURES"
      ]
     },
     {
-     "line": 38,
-     "text": "been calculated for chevron-notched bar and rod fracture specimens using a",
+     "line": 33,
+     "text": "Translation of \"CHEVRON CUTTING- ; Vex such mit",
      "context": [
-      "In this paper, stress-intensity factors and load-line displacements have",
-      "three-dimensional finite-element analysis. Both specimens were subjected to"
+      "",
+      "neuen Laufflachenitaschungen, \" . 5wisaair,_Dept.."
+     ]
+    },
+    {
+     "line": 56,
+     "text": "CHEVRON CUTTING- -EXPERIMENT WITH NEW",
+     "context": [
+      "",
+      "RUNWAY MIXTURES"
      ]
     }
    ]
@@ -251,49 +155,145 @@
    ]
   },
   {
-   "identifier": "NASA_NTRS_Archive_19780024484",
-   "date": "1978-01-01",
-   "title_year": "1978",
+   "identifier": "NASA_NTRS_Archive_19840025763",
+   "date": "1984-01-01",
+   "title_year": "1984",
    "date_mismatch": false,
    "in_window": true,
-   "title": "NASA Technical Reports Server (NTRS) 19780024484: Chevron cutting: Experiment with new runway mixtures",
+   "title": "NASA Technical Reports Server (NTRS) 19840025763: A review of chevron-notched fracture specimens",
    "family": "corporate_print",
-   "meta_date": "1978-01-01",
+   "meta_date": "1984-01-01",
    "status": "cached",
-   "bytes": 19542,
+   "bytes": 67504,
    "named_terms": [
     "chevron corporation"
    ],
    "other_terms": [],
    "verdict": "BARE_WORD_MATCH",
-   "hits": 55,
+   "hits": 147,
    "phrase_hits": 0,
    "entity_hits": 0,
    "matched_entities": [],
    "matched_other_terms": [],
    "sample": [
     {
-     "line": 7,
-     "text": "CHEVRON cutting --EXPERIMENT WITH NEW",
+     "line": 10,
+     "text": "A REVIEW OF CHEVRON-NOTCHED FRACTURE SPECIMENS",
      "context": [
       "",
-      "RUNWAY MIXTURES"
+      ""
      ]
     },
     {
-     "line": 33,
-     "text": "Translation of \"CHEVRON CUTTING- ; Vex such mit",
+     "line": 45,
+     "text": "A REVIEW OF CHEVRON-NOTCHED FRACTURE SPECIMENS",
      "context": [
       "",
-      "neuen Laufflachenitaschungen, \" . 5wisaair,_Dept.."
+      ""
      ]
     },
     {
-     "line": 56,
-     "text": "CHEVRON CUTTING- -EXPERIMENT WITH NEW",
+     "line": 55,
+     "text": "This paper reviews the historical development of chevron-notched fracture",
      "context": [
       "",
-      "RUNWAY MIXTURES"
+      "specimens; it also compares stress-intensity factors and load line displace-"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19840021180",
+   "date": "1984-01-01",
+   "title_year": "1984",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "NASA Technical Reports Server (NTRS) 19840021180: Three-dimensional finite-element analysis of chevron-notched fracture ",
+   "family": "corporate_print",
+   "meta_date": "1984-01-01",
+   "status": "cached",
+   "bytes": 38244,
+   "named_terms": [
+    "chevron corporation"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 59,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 5,
+     "text": "CHEVRON-NOTCHED FRACTURE SPECIMENS",
+     "context": [
+      "THREE-DIMENSIONAL FINITE-ELEMENT ANALYSIS OF",
+      ""
+     ]
+    },
+    {
+     "line": 28,
+     "text": "CHEVRON-NOTCHED FRACTURE SPECIMENS",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 38,
+     "text": "been calculated for chevron-notched bar and rod fracture specimens using a",
+     "context": [
+      "In this paper, stress-intensity factors and load-line displacements have",
+      "three-dimensional finite-element analysis. Both specimens were subjected to"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19830011631",
+   "date": "1983-01-01",
+   "title_year": "1983",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "NASA Technical Reports Server (NTRS) 19830011631: Specimen size and geometry effects on fracture toughness of Al2O3 meas",
+   "family": "corporate_print",
+   "meta_date": "1983-01-01",
+   "status": "cached",
+   "bytes": 16834,
+   "named_terms": [
+    "chevron corporation"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 26,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 58,
+     "text": "Chevron-Notch Specimens",
+     "context": [
+      "With Short Rod and Short Bar",
+      ""
+     ]
+    },
+    {
+     "line": 77,
+     "text": "Symposium on Chevron-Notched Specimens:",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 110,
+     "text": "short rod and short bar chevron-notch specimens previously calibrated by the au-",
+     "context": [
+      "Plane strain fracture toughness measurements were made on AI2O3 using",
+      "thors for their dimensionless stress Intensity factor coefficients. The measured"
      ]
     }
    ]
@@ -347,49 +347,49 @@
    ]
   },
   {
-   "identifier": "NASA_NTRS_Archive_19840025763",
-   "date": "1984-01-01",
-   "title_year": "1984",
-   "date_mismatch": false,
+   "identifier": "NASA_NTRS_Archive_20080012230",
+   "date": "1977-01-01",
+   "title_year": "2008",
+   "date_mismatch": true,
    "in_window": true,
-   "title": "NASA Technical Reports Server (NTRS) 19840025763: A review of chevron-notched fracture specimens",
+   "title": "NASA Technical Reports Server (NTRS) 20080012230: Passive chevron replicator",
    "family": "corporate_print",
-   "meta_date": "1984-01-01",
+   "meta_date": "1977-01-01",
    "status": "cached",
-   "bytes": 67504,
+   "bytes": 16576,
    "named_terms": [
     "chevron corporation"
    ],
    "other_terms": [],
    "verdict": "BARE_WORD_MATCH",
-   "hits": 147,
+   "hits": 30,
    "phrase_hits": 0,
    "entity_hits": 0,
    "matched_entities": [],
    "matched_other_terms": [],
    "sample": [
     {
-     "line": 10,
-     "text": "A REVIEW OF CHEVRON-NOTCHED FRACTURE SPECIMENS",
+     "line": 16,
+     "text": "[54] PASSIVE CHEVRON REPLICATOR",
      "context": [
       "",
       ""
      ]
     },
     {
-     "line": 45,
-     "text": "A REVIEW OF CHEVRON-NOTCHED FRACTURE SPECIMENS",
+     "line": 62,
+     "text": "the replicator uses chevron type elements arranged in",
      "context": [
-      "",
-      ""
+      "replicates bubble domains. In a preferred embodiment,",
+      "an appropriate pattern so as to interact with a pair of"
      ]
     },
     {
-     "line": 55,
-     "text": "This paper reviews the historical development of chevron-notched fracture",
+     "line": 88,
+     "text": "PASSIVE CHEVRON REPLICATOR",
      "context": [
       "",
-      "specimens; it also compares stress-intensity factors and load line displace-"
+      ""
      ]
     }
    ]
@@ -403,7 +403,7 @@
    "title": "Standard Oil Company of California Annual Report 1956",
    "family": "corporate_print",
    "meta_date": "1957-01-01",
-   "status": "ok",
+   "status": "cached",
    "bytes": 68405,
    "named_terms": [
     "chevron corporation"
@@ -443,7 +443,7 @@
    "title": "Standard Oil Company of California Annual Report 1957",
    "family": "corporate_print",
    "meta_date": "1958-01-01",
-   "status": "ok",
+   "status": "cached",
    "bytes": 67323,
    "named_terms": [
     "chevron corporation"
@@ -491,7 +491,7 @@
    "title": "Environmental baseline report for Chevron's proposed syncrude pipeline routes : Clear Creek to La Sal and Clear Creek to",
    "family": "corporate_print",
    "meta_date": "1982-01-01",
-   "status": "ok",
+   "status": "cached",
    "bytes": 360356,
    "named_terms": [
     "chevron corporation"
@@ -539,7 +539,7 @@
    "title": "Standard Oil Company of California Annual Report 1958",
    "family": "corporate_print",
    "meta_date": "1959-01-01",
-   "status": "ok",
+   "status": "cached",
    "bytes": 75124,
    "named_terms": [
     "chevron corporation"

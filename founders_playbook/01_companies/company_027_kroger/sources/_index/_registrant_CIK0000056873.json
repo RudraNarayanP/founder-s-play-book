@@ -12,16 +12,16 @@
  "guard_reasons": [
   "slug token(s) ['kroger'] match registrant 'KROGER CO' (CIK 0000056873)"
  ],
- "built": "2026-09-29T18:06:41Z",
+ "built": "2026-09-29T19:09:20Z",
  "count": 4126,
  "rows_dropped_no_accession": 0,
  "rows_without_primaryDocument": 287,
  "csv_sha1": "2c4a602649c86b3e347f76edde90717458d0ce18",
  "csv_bytes": 378617,
  "paths": {
-  "json": "founders_playbook/01_companies/company_027_kroger\\sources\\_index\\submissions_CIK0000056873.json",
-  "csv": "founders_playbook/01_companies/company_027_kroger\\sources\\_index\\submissions_CIK0000056873.csv",
-  "md": "founders_playbook/01_companies/company_027_kroger\\sources\\_index\\_INDEX_CIK0000056873.md"
+  "json": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_027_kroger\\sources\\_index\\submissions_CIK0000056873.json",
+  "csv": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_027_kroger\\sources\\_index\\submissions_CIK0000056873.csv",
+  "md": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_027_kroger\\sources\\_index\\_INDEX_CIK0000056873.md"
  },
  "legacy_copy_written": true,
  "legacy_note": ""

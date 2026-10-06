@@ -2,7 +2,7 @@
 
 Window applied: 1799-01-01 .. 1960-12-31 (deliberately WIDE where the founding date is itself unestablished -- narrowing it here would silently discard the evidence that could establish it).
 
-62 candidate rows in the harvest index; 12 items mined; 49 left untried at the --limit.
+93 candidate rows in the harvest index; 12 items mined; 80 left untried at the --limit.
 
 **Nothing on this page is a finding.** It is held bytes, hit counts and line numbers for an agent to interpret. Zero hits over held KB is a NULL; a missing text layer or a 404/403 is UNANSWERED; an item not attempted is UNTRIED.
 
@@ -10,15 +10,15 @@ Window applied: 1799-01-01 .. 1960-12-31 (deliberately WIDE where the founding d
 
 | class | here | what it means |
 |---|---|---|
-| `TIER1_CANDIDATE_TEXT` | 1 | a phrase naming this registrant, or its word hard against an identity word (`COSTCO  WHOLESALE`), matched. The string that carried it is in the `promoted by` column, so the label is checkable rather than trusted. |
-| `VARIANT_TERM_HIT` | 1 | a hit on a quoted term that is NOT this registrant's name -- a predecessor (`price club`, `dayton hudson`) or the trade title the query ran inside (`chain store age`). Related and worth opening; not a naming of this company. |
+| `TIER1_CANDIDATE_TEXT` | 2 | a phrase naming this registrant, or its word hard against an identity word (`COSTCO  WHOLESALE`), matched. The string that carried it is in the `promoted by` column, so the label is checkable rather than trusted. |
+| `VARIANT_TERM_HIT` | 0 | a hit on a quoted term that is NOT this registrant's name -- a predecessor (`price club`, `dayton hudson`) or the trade title the query ran inside (`chain store age`). Related and worth opening; not a naming of this company. |
 | `BARE_WORD_MATCH` | 7 | only the company *word* matched, and that word is also a surname, an acronym and a fruit. The 1976 federal education report whose APPLE means *Anecdotal Processing to Promote Learning Experience* is the case that produced this class, at 162 fake Tier-1 hits. |
 | `NULL` | 0 | text held, zero hits. |
 | `UNANSWERED` | 3 | no text reached the corpus, so nothing is known either way. |
 
 A row below `TIER1_CANDIDATE_TEXT` may be cited as a pointer to a file, never as evidence, and never counted in a tier verdict.
 
-Entity vocabulary this pass applied -- **name phrases**: `jpmorgan chase`; **other quoted terms** (predecessors, siblings, trade titles): `chase manhattan`, `successor by merger`. Both come from the harvester's own `query` column, not from a list I typed.
+Entity vocabulary this pass applied -- **name phrases**: `chase manhattan`, `jpmorgan chase`; **other quoted terms** (predecessors, siblings, trade titles): `successor by merger`. Both come from the harvester's own `query` column, not from a list I typed.
 
 | identifier | dates (scan/title) | window | bytes | word hits | entity hits | promoted by | verdict |
 |---|---|---|---|---|---|---|---|
@@ -30,7 +30,7 @@ Entity vocabulary this pass applied -- **name phrases**: `jpmorgan chase`; **oth
 | `NPDP19250817` | 1925-01-01 / title:1925 | in-window | 200,658 | 6 | 0 | - | BARE_WORD_MATCH |
 | `NPCM19271228` | 1927-01-01 / title:1927 | in-window | 244,913 | 17 | 0 | - | BARE_WORD_MATCH |
 | `NPCM19370823` | 1937-01-01 / title:1937 | in-window | 106,307 | 2 | 0 | - | BARE_WORD_MATCH |
-| `sim_business-in-brief_1957-07_16` | 1957-01-01 / title:1957 | in-window | 24,281 | 4 | 0 | - | VARIANT_TERM_HIT |
+| `sim_business-in-brief_1957-07_16` | 1957-01-01 / title:1957 | in-window | 24,281 | 4 | 2 | `chase manhattan` | TIER1_CANDIDATE_TEXT |
 | `letterfrommessrs00jpmorich` | 1913-01-01 | in-window | 46,581 | 6 | 0 | - | BARE_WORD_MATCH |
 | `XS6wCQAAQBAJ` | 2009-01-01 | outside? | 0 | 0 | 0 | - | UNANSWERED |
 | `-2slEQAAQBAJ` | 2024-01-01 | outside? | 0 | 0 | 0 | - | UNANSWERED |

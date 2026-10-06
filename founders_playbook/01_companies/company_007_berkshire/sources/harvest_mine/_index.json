@@ -3,60 +3,10 @@
   "1962-01-01",
   "1978-12-31"
  ],
- "candidates": 62,
- "mined": 8,
- "untried_by_limit": 47,
+ "candidates": 122,
+ "mined": 12,
+ "untried_by_limit": 87,
  "items": [
-  {
-   "identifier": "berkshire-hathaway-brk-annual-report-1974",
-   "date": "1975-01-01",
-   "title_year": "1974",
-   "date_mismatch": true,
-   "in_window": true,
-   "title": "Berkshire Hathaway 1974 Annual Report",
-   "family": "corporate_print",
-   "meta_date": "1975-01-01",
-   "status": "cached",
-   "bytes": 105518,
-   "named_terms": [
-    "berkshire hathaway"
-   ],
-   "other_terms": [],
-   "verdict": "TIER1_CANDIDATE_TEXT",
-   "hits": 67,
-   "phrase_hits": 55,
-   "entity_hits": 63,
-   "matched_entities": [
-    "berkshire hathaway",
-    "hathaway inc"
-   ],
-   "matched_other_terms": [],
-   "sample": [
-    {
-     "line": 1,
-     "text": "BERKSHIRE HATHAWAY inc.",
-     "context": [
-      ""
-     ]
-    },
-    {
-     "line": 10,
-     "text": "Berkshire Hathaway Inc.",
-     "context": [
-      "",
-      ""
-     ]
-    },
-    {
-     "line": 34,
-     "text": "6 Accountants\u2019 Certificate Regarding Financial Statements of Berkshire Hathaway Inc.",
-     "context": [
-      "",
-      "and Consolidated Subsidiaries and Insurance Group"
-     ]
-    }
-   ]
-  },
   {
    "identifier": "berkshire-hathaway-brk-annual-report-1972",
    "date": "1973-01-01",
@@ -73,7 +23,7 @@
    ],
    "other_terms": [],
    "verdict": "TIER1_CANDIDATE_TEXT",
-   "hits": 51,
+   "hits": 54,
    "phrase_hits": 46,
    "entity_hits": 54,
    "matched_entities": [
@@ -103,6 +53,56 @@
      "context": [
       "",
       ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "berkshire-hathaway-brk-annual-report-1974",
+   "date": "1975-01-01",
+   "title_year": "1974",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "Berkshire Hathaway 1974 Annual Report",
+   "family": "corporate_print",
+   "meta_date": "1975-01-01",
+   "status": "cached",
+   "bytes": 105518,
+   "named_terms": [
+    "berkshire hathaway"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 69,
+   "phrase_hits": 55,
+   "entity_hits": 63,
+   "matched_entities": [
+    "berkshire hathaway",
+    "hathaway inc"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "BERKSHIRE HATHAWAY inc.",
+     "context": [
+      ""
+     ]
+    },
+    {
+     "line": 10,
+     "text": "Berkshire Hathaway Inc.",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 34,
+     "text": "6 Accountants\u2019 Certificate Regarding Financial Statements of Berkshire Hathaway Inc.",
+     "context": [
+      "",
+      "and Consolidated Subsidiaries and Insurance Group"
      ]
     }
    ]
@@ -166,10 +166,50 @@
   {
    "identifier": "CAT88901059",
    "date": "1976-01-01",
-   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 500)); tried CAT88901059_djvu.txt, CAT88901059_djvu.txt",
-   "verdict": "UNANSWERED",
-   "hits": 0,
-   "sample": []
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Berkshire Region report for the Massachusetts water resources study : a cooperative river basin survey : Washington Advi",
+   "family": "corporate_print",
+   "meta_date": "1976-01-01",
+   "status": "cached",
+   "bytes": 655541,
+   "named_terms": [
+    "berkshire hathaway"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 200,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 10,
+     "text": "BERKSHIRE  REGION  REPORT",
+     "context": [
+      "",
+      "for  the"
+     ]
+    },
+    {
+     "line": 49,
+     "text": "report  presents  the  results  of  that  study  on  the  Berkshire  Region  which",
+     "context": [
+      "of  the  water  and  related  land  resources  within  the  Commonwealth.  This",
+      "consists  of  the  Housatonic  and  Hudson  River  drainage  areas  within"
+     ]
+    },
+    {
+     "line": 86,
+     "text": "BERKSHIRE  REGION",
+     "context": [
+      "",
+      "TABLE  OF  CONTENTS"
+     ]
+    }
+   ]
   },
   {
    "identifier": "CAT31444852",
@@ -186,13 +226,22 @@
     "berkshire hathaway"
    ],
    "other_terms": [],
-   "verdict": "NULL",
-   "hits": 0,
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 1,
    "phrase_hits": 0,
    "entity_hits": 0,
    "matched_entities": [],
    "matched_other_terms": [],
-   "sample": []
+   "sample": [
+    {
+     "line": 56,
+     "text": "_ Dale E. Hathaway;-at the Annual Summer Meeting of Great Plains Wheat, in Wichita,",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
   },
   {
    "identifier": "berkshireridgewa0000unse",
@@ -203,16 +252,118 @@
    "sample": []
   },
   {
-   "identifier": "berkshire-hathaway-brk-annual-report-1995",
-   "date": "1996-01-01",
-   "title_year": "1995",
+   "identifier": "berkshire-hathaway-brk-annual-report-1988",
+   "date": "1989-01-01",
+   "title_year": "1988",
    "date_mismatch": true,
    "in_window": false,
-   "title": "Berkshire Hathaway 1995 Annual Report",
+   "title": "Berkshire Hathaway 1988 Annual Report",
    "family": "corporate_print",
-   "meta_date": "1996-01-01",
-   "status": "ok",
-   "bytes": 218786,
+   "meta_date": "1989-01-01",
+   "status": "cached",
+   "bytes": 248407,
+   "named_terms": [
+    "berkshire hathaway"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 190,
+   "phrase_hits": 44,
+   "entity_hits": 52,
+   "matched_entities": [
+    "berkshire hathaway",
+    "berkshire shares",
+    "hathaway inc"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "BERKSHIRE HATHAWAY INC.",
+     "context": [
+      "Selected Financial Data at Six-Year Intervals"
+     ]
+    },
+    {
+     "line": 115,
+     "text": "BERKSHIRE HATHAWAY INC. and its subsidiaries engage in a number of diverse business activities.",
+     "context": [
+      "",
+      "The most important of these is the property and casualty insurance and reinsurance business conducted"
+     ]
+    },
+    {
+     "line": 139,
+     "text": "Shareholders of Berkshire Hathaway Inc. in the 1983 Annual Report. Because the material remains",
+     "context": [
+      "",
+      "topical, it is reproduced on this and the following page."
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "berkshire-hathaway-brk-annual-report-1996",
+   "date": "1997-01-01",
+   "title_year": "1996",
+   "date_mismatch": true,
+   "in_window": false,
+   "title": "Berkshire Hathaway 1996 Annual Report",
+   "family": "corporate_print",
+   "meta_date": "1997-01-01",
+   "status": "cached",
+   "bytes": 231608,
+   "named_terms": [
+    "berkshire hathaway"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 200,
+   "phrase_hits": 29,
+   "entity_hits": 37,
+   "matched_entities": [
+    "berkshire hathaway",
+    "berkshire shares",
+    "hathaway inc"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "BERKSHIRE HATHAWAY unc.",
+     "context": [
+      ""
+     ]
+    },
+    {
+     "line": 11,
+     "text": "Berkshire Hathaway Inc. is a holding company owning subsidiaries engaged",
+     "context": [
+      "",
+      "iin a number of diverse business activities. The most important of these is the"
+     ]
+    },
+    {
+     "line": 15,
+     "text": "\u2018report as the Berkshire Hathaway Insurance Group. Included in this group of",
+     "context": [
+      "\u2018reinsurance basis through a number of subsidiaries collectively referred to in this",
+      "\u2018subsidiaries is GEICO Corporation, the seventh largest auto insurer in the"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "1997-berkshire-hathaway-annual-report",
+   "date": "1998-01-01",
+   "title_year": "1997",
+   "date_mismatch": true,
+   "in_window": false,
+   "title": "Berkshire Hathaway 1997 Annual Report",
+   "family": "corporate_print",
+   "meta_date": "1998-01-01",
+   "status": "cached",
+   "bytes": 253519,
    "named_terms": [
     "berkshire hathaway"
    ],
@@ -223,6 +374,8 @@
    "entity_hits": 44,
    "matched_entities": [
     "berkshire hathaway",
+    "berkshire shares",
+    "berkshire stock",
     "hathaway inc"
    ],
    "matched_other_terms": [],
@@ -232,23 +385,125 @@
      "text": "Berkshire Hathaway Inc. is a holding company owning subsidiaries engaged",
      "context": [
       "",
-      "in a number of diverse business activities. The most important of these ts the"
+      "in a number of diverse business activities. The most important of these is the"
      ]
     },
     {
-     "line": 15,
-     "text": "report as the Berkshire Hathaway Insurance Group. On January 2, 1996, a",
+     "line": 33,
+     "text": "Additionally, Berkshire Hathaway Inc. publishes the Buffalo News, a daily",
+     "context": [
+      "",
+      "and Sunday newspaper in Western New York. Other business activities"
+     ]
+    },
+    {
+     "line": 43,
+     "text": "world (FlightSafety International). On January 7, 1998, Berkshire Hathaway",
+     "context": [
+      "Diamond Shops), and training to operators of aircraft and ships throughout the",
+      "completed its previously announced acquisition of International Dairy Queen"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "berkshire-hathaway-1994-annual-report",
+   "date": "1995-01-01",
+   "title_year": "1994",
+   "date_mismatch": true,
+   "in_window": false,
+   "title": "Berkshire Hathaway 1994 Annual Report",
+   "family": "corporate_print",
+   "meta_date": "1995-01-01",
+   "status": "cached",
+   "bytes": 195254,
+   "named_terms": [
+    "berkshire hathaway"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 179,
+   "phrase_hits": 33,
+   "entity_hits": 41,
+   "matched_entities": [
+    "berkshire hathaway",
+    "berkshire stock",
+    "hathaway inc"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 4,
+     "text": "Berkshire Hathaway Inc. is a holding company owning subsidiaries engaged",
+     "context": [
+      "",
+      "in a number of diverse business activities. The most important of these is the"
+     ]
+    },
+    {
+     "line": 8,
+     "text": "report as the Berkshire Hathaway Insurance Group.",
      "context": [
       "reinsurance basis through a number of subsidiaries collectively referred to in this",
-      "subsidiary of the Company acquired all the outstanding shares of GEICO"
+      ""
      ]
     },
     {
-     "line": 18,
-     "text": "Corporation is now a wholly owned subsidiary of Berkshire Hathaway Inc. and",
+     "line": 25,
+     "text": "Additionally, Berkshire Hathaway Inc. publishes the Buffalo News, a daily",
      "context": [
-      "Corporation not then held by Berkshire subsidiaries. Accordingly, GEICO",
-      "henceforth will be included in the Berkshire Hathaway Insurance Group."
+      "",
+      "and Sunday newspaper in upstate New York. Other business activities conducted"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "berkshire-hathaway-annual-report-1982",
+   "date": "1983-01-01",
+   "title_year": "1982",
+   "date_mismatch": true,
+   "in_window": false,
+   "title": "Berkshire Hathaway 1982 Annual Report",
+   "family": "corporate_print",
+   "meta_date": "1983-01-01",
+   "status": "cached",
+   "bytes": 209932,
+   "named_terms": [
+    "berkshire hathaway"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 138,
+   "phrase_hits": 43,
+   "entity_hits": 51,
+   "matched_entities": [
+    "berkshire hathaway",
+    "hathaway inc"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "BERKSHIRE HATHAWAY wc.",
+     "context": [
+      ""
+     ]
+    },
+    {
+     "line": 8,
+     "text": "Berkshire Hathaway Inc.",
+     "context": [
+      "",
+      "1982 ANNUAL REPORT"
+     ]
+    },
+    {
+     "line": 42,
+     "text": "A compilation of the letters from the principal executives of Berkshire Hathaway Inc. and Blue Chip",
+     "context": [
+      "",
+      "Stamps taken from the Annual Reports for the years from 1977 to 1981 is available upon request. Direct"
      ]
     }
    ]

@@ -1,6 +1,6 @@
 # SEC submissions index -- BOEING CO (CIK 0000012927, BA)
 
-Built by `tools/sec_intake.py` at 2026-09-29 17:56 UTC. **Registrant name for this index: `BOEING CO` (CIK 0000012927)** -- artefacts are keyed by CIK, so a wrong `--cik` cannot overwrite another registrant's index.
+Built by `tools/sec_intake.py` at 2026-09-29 19:07 UTC. **Registrant name for this index: `BOEING CO` (CIK 0000012927)** -- artefacts are keyed by CIK, so a wrong `--cik` cannot overwrite another registrant's index.
 4026 filings enumerated; 0 submissions rows dropped for carrying no accession; 85 rows carry no `primaryDocument` (paper-era shells -- fetchable as `<accession>.txt`).
 
 Registrant guard: **ok** -- slug token(s) ['boeing'] match registrant 'BOEING CO' (CIK 0000012927)

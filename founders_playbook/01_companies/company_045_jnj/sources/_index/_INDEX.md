@@ -1,6 +1,6 @@
 # SEC submissions index -- JOHNSON & JOHNSON (CIK 0000200406, JNJ)
 
-Built by `tools/sec_intake.py` at 2026-09-29 17:58 UTC. **Registrant name for this index: `JOHNSON & JOHNSON` (CIK 0000200406)** -- artefacts are keyed by CIK, so a wrong `--cik` cannot overwrite another registrant's index.
+Built by `tools/sec_intake.py` at 2026-09-29 19:05 UTC. **Registrant name for this index: `JOHNSON & JOHNSON` (CIK 0000200406)** -- artefacts are keyed by CIK, so a wrong `--cik` cannot overwrite another registrant's index.
 3371 filings enumerated; 0 submissions rows dropped for carrying no accession; 134 rows carry no `primaryDocument` (paper-era shells -- fetchable as `<accession>.txt`).
 
 Registrant guard: **ok** -- slug token(s) ['jnj'] match registrant 'JOHNSON & JOHNSON' (CIK 0000200406)

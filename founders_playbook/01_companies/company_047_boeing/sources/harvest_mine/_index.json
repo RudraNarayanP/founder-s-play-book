@@ -3,9 +3,642 @@
   "1916-01-01",
   "1940-12-31"
  ],
- "candidates": 8,
- "mined": 0,
- "untried_by_limit": 0,
- "nothing_minable": "no candidate row is TIER1_CANDIDATE or LEAD_ONLY -- every row is UNANSWERED, i.e. the search never answered, so there is nothing to mine; and every row lacks an item_id, so no identifier exists to fetch (the harvest rows are query outcomes, not items)",
- "items": []
+ "candidates": 102,
+ "mined": 12,
+ "untried_by_limit": 90,
+ "items": [
+  {
+   "identifier": "NASA_NTRS_Archive_19730003169",
+   "date": "1972-01-01",
+   "title_year": "1973",
+   "date_mismatch": true,
+   "in_window": false,
+   "title": "NASA Technical Reports Server (NTRS) 19730003169: Space shuttle: Stability and control effectiveness at high and low ang",
+   "family": "corporate_print",
+   "meta_date": "1972-01-01",
+   "status": "cached",
+   "bytes": 507591,
+   "named_terms": [
+    "boeing airplane company",
+    "boeing commercial airplane"
+   ],
+   "other_terms": [
+    "pacific aerospace"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 17,
+   "phrase_hits": 0,
+   "entity_hits": 3,
+   "matched_entities": [
+    "boeing  company"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 206,
+     "text": "The  Boeing  Company",
+     "context": [
+      "",
+      ""
+     ],
+     "promoted": "boeing  company"
+    },
+    {
+     "line": 245,
+     "text": "The  Boeing  Company",
+     "context": [
+      "",
+      ""
+     ],
+     "promoted": "boeing  company"
+    },
+    {
+     "line": 268,
+     "text": "The  Boeing  Company",
+     "context": [
+      "",
+      ""
+     ],
+     "promoted": "boeing  company"
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19740009636",
+   "date": "1974-01-01",
+   "title_year": "1974",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "NASA Technical Reports Server (NTRS) 19740009636: Applicability of NASA (ARC) two-segment approach procedures to Boeing ",
+   "family": "corporate_print",
+   "meta_date": "1974-01-01",
+   "status": "cached",
+   "bytes": 66218,
+   "named_terms": [
+    "boeing airplane company",
+    "boeing commercial airplane"
+   ],
+   "other_terms": [
+    "pacific aerospace"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 35,
+   "phrase_hits": 2,
+   "entity_hits": 2,
+   "matched_entities": [
+    "boeing commercial airplane"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 48,
+     "text": "BOEING COMMERCIAL AIRPLANE COMPANY",
+     "context": [
+      "Prepared under contract NAS2-7561 by",
+      "Seattle, Washington 98124"
+     ]
+    },
+    {
+     "line": 77,
+     "text": "Boeing Commercial Airplane Company",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19770008138",
+   "date": "1976-01-01",
+   "title_year": "1977",
+   "date_mismatch": true,
+   "in_window": false,
+   "title": "NASA Technical Reports Server (NTRS) 19770008138: Mated aerodynamic characteristics investigation for the 0.04 scale mod",
+   "family": "corporate_print",
+   "meta_date": "1976-01-01",
+   "status": "cached",
+   "bytes": 663754,
+   "named_terms": [
+    "boeing airplane company",
+    "boeing commercial airplane"
+   ],
+   "other_terms": [
+    "pacific aerospace"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 17,
+   "phrase_hits": 0,
+   "entity_hits": 4,
+   "matched_entities": [
+    "boeing  co"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 60,
+     "text": "The  Boeing  Co.",
+     "context": [
+      "and  Wind  Tunnel  Test  Staff",
+      ""
+     ],
+     "promoted": "boeing  co"
+    },
+    {
+     "line": 108,
+     "text": "The  Boeing  Co.",
+     "context": [
+      "ORGN.  B-83i>2,  MS  IW-82",
+      ""
+     ],
+     "promoted": "boeing  co"
+    },
+    {
+     "line": 118,
+     "text": "The  Boeing  Co.",
+     "context": [
+      "MS  01-23",
+      ""
+     ],
+     "promoted": "boeing  co"
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19730021280",
+   "date": "1973-01-01",
+   "title_year": "1973",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "NASA Technical Reports Server (NTRS) 19730021280: V/STOL tilt rotor aircraft study. Volume 9: Piloted simulator evaluati",
+   "family": "corporate_print",
+   "meta_date": "1973-01-01",
+   "status": "cached",
+   "bytes": 110069,
+   "named_terms": [
+    "boeing airplane company",
+    "boeing commercial airplane"
+   ],
+   "other_terms": [
+    "pacific aerospace"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 34,
+   "phrase_hits": 0,
+   "entity_hits": 8,
+   "matched_entities": [
+    "boeing company"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 40,
+     "text": "BOEING VERTOL COMPANY",
+     "context": [
+      "Prepared Undar Contrdbt No. NAS2*6606 by",
+      "A Division of tha Boeing Company"
+     ],
+     "promoted": "boeing company"
+    },
+    {
+     "line": 41,
+     "text": "A Division of tha Boeing Company",
+     "context": [
+      "BOEING VERTOL COMPANY",
+      "P. 0. Box 16858"
+     ],
+     "promoted": "boeing company"
+    },
+    {
+     "line": 258,
+     "text": "BOEING VERTOL COMPANY",
+     "context": [
+      "Prepared Under Contract No. NAS2-6598 by",
+      "A Division of the Boeing Company"
+     ],
+     "promoted": "boeing company"
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19750025089",
+   "date": "1975-01-01",
+   "title_year": "1975",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "NASA Technical Reports Server (NTRS) 19750025089: Results of a 0.03- scale aerodynamic characteristics investigation of ",
+   "family": "corporate_print",
+   "meta_date": "1975-01-01",
+   "status": "cached",
+   "bytes": 337205,
+   "named_terms": [
+    "boeing airplane company",
+    "boeing commercial airplane"
+   ],
+   "other_terms": [
+    "pacific aerospace"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 19,
+   "phrase_hits": 0,
+   "entity_hits": 4,
+   "matched_entities": [
+    "boeing  company"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 111,
+     "text": "The  Boeing  Company",
+     "context": [
+      "",
+      ""
+     ],
+     "promoted": "boeing  company"
+    },
+    {
+     "line": 125,
+     "text": "The  Boeing  Company",
+     "context": [
+      "",
+      ""
+     ],
+     "promoted": "boeing  company"
+    },
+    {
+     "line": 142,
+     "text": "The  Boeing  Company",
+     "context": [
+      "",
+      ""
+     ],
+     "promoted": "boeing  company"
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19770013137",
+   "date": "1976-01-01",
+   "title_year": "1977",
+   "date_mismatch": true,
+   "in_window": false,
+   "title": "NASA Technical Reports Server (NTRS) 19770013137: Results of a carrier aircraft (model AX13191-4) verification test in t",
+   "family": "corporate_print",
+   "meta_date": "1976-01-01",
+   "status": "cached",
+   "bytes": 351487,
+   "named_terms": [
+    "boeing airplane company",
+    "boeing commercial airplane"
+   ],
+   "other_terms": [
+    "pacific aerospace"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 25,
+   "phrase_hits": 0,
+   "entity_hits": 4,
+   "matched_entities": [
+    "boeing  company"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 141,
+     "text": "The  Boeing  Company",
+     "context": [
+      "R.  W.  Sendek",
+      "Orgn.  B-8342  M/S  1W-82"
+     ],
+     "promoted": "boeing  company"
+    },
+    {
+     "line": 152,
+     "text": "The  Boeing  Company",
+     "context": [
+      "J.  R.  Cornelius",
+      "Orgn.  B-8342  M/S  1W-82"
+     ],
+     "promoted": "boeing  company"
+    },
+    {
+     "line": 161,
+     "text": "The  Boeing  Company",
+     "context": [
+      "E.  G.  Dickson",
+      "Orgn.  B-8260  M/S  0L-23"
+     ],
+     "promoted": "boeing  company"
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_20050010183",
+   "date": "1952-01-01",
+   "title_year": "2005",
+   "date_mismatch": true,
+   "in_window": false,
+   "title": "NASA Technical Reports Server (NTRS) 20050010183: Structural Vulnerability of the Boeing B-29 Aircraft Wing to Damage by",
+   "family": "corporate_print",
+   "meta_date": "1952-01-01",
+   "status": "cached",
+   "bytes": 27485,
+   "named_terms": [
+    "boeing airplane company",
+    "boeing commercial airplane"
+   ],
+   "other_terms": [
+    "pacific aerospace"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 9,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 27,
+     "text": "STRUCTURAL VULNERABILITY OP IHE BOEING B-29 AIRCRAFP",
+     "context": [
+      "",
+      "WING TO miSkGE BY WARHEAD FRA04EHTS"
+     ]
+    },
+    {
+     "line": 99,
+     "text": "STRUCTURAL VULNERABILITY OF THE BOEING B-29 AIRCRAFT",
+     "context": [
+      "",
+      "WING TO DAMAGE BY WARHEAD FRAGMENTS"
+     ]
+    },
+    {
+     "line": 110,
+     "text": "of a B -29 airplane. The remaining inboard structure of the Boeing B-29",
+     "context": [
+      "of wing tip that must be severed to produce irrevocable loss of control",
+      "wing has then been analyzed and cuirv^es are presented for the estimated"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19930092121",
+   "date": "1952-01-01",
+   "title_year": "1993",
+   "date_mismatch": true,
+   "in_window": false,
+   "title": "NASA Technical Reports Server (NTRS) 19930092121: Effect on Longitudinal Stability and Control Characteristics of a Boei",
+   "family": "corporate_print",
+   "meta_date": "1952-01-01",
+   "status": "cached",
+   "bytes": 43684,
+   "named_terms": [
+    "boeing airplane company",
+    "boeing commercial airplane"
+   ],
+   "other_terms": [
+    "pacific aerospace"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 7,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 6,
+     "text": "CHARACTERISTICS OF A BOEING B-29 AIRPLANE",
+     "context": [
+      "EFFECTS ON LONGITUDINAL STABILITY AND CONTROL",
+      "OF VARIATIONS IN STICK-FORCE AND CONTROL-RATE"
+     ]
+    },
+    {
+     "line": 60,
+     "text": "CHARACTERISTICS OF A BOEING B-29 AIRPLANE",
+     "context": [
+      "EFFECTS ON LONGITUDINAL STABILITY AND CONTROL",
+      "OF VARIATIONS IN STICK-FORCE AND CONTROL-RATE"
+     ]
+    },
+    {
+     "line": 194,
+     "text": "OF A BOEING B-29 AIRPLANE OF VARIATIONS IN STICK-FORCE AND",
+     "context": [
+      "EFFECTS ON LONGITUDINAL STABILITY AND CONTROL CHARACTERISTICS",
+      "CONTROL-RATE CHARACTERISTICS OBTAINED THROUGH USE"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19770011174",
+   "date": "1977-01-01",
+   "title_year": "1977",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "NASA Technical Reports Server (NTRS) 19770011174: Preliminary study of tug-glider freight systems utilizing a Boeing 747",
+   "family": "corporate_print",
+   "meta_date": "1977-01-01",
+   "status": "cached",
+   "bytes": 46875,
+   "named_terms": [
+    "boeing airplane company",
+    "boeing commercial airplane"
+   ],
+   "other_terms": [
+    "pacific aerospace"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 5,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 13,
+     "text": "FREIGHT SYSTEMS UTILIZING A BOEING 747 AS THE TUG",
+     "context": [
+      "PRELIMINARY STUDY OF TUG-GLIDER",
+      ""
+     ]
+    },
+    {
+     "line": 18,
+     "text": ", BOEING 747 AS THE TUG (NASA) 52 p HC A04/MF",
+     "context": [
+      "TUG-GLIDER FREIGHT SYSTEMS UTILIZING A",
+      "&01 ' ' CSCL OIC Unclas"
+     ]
+    },
+    {
+     "line": 60,
+     "text": "UTILIZING A BOEING 747 AS THE TUG",
+     "context": [
+      "PRELIMINARY STUDY OF TUG-GLIDER FREIGHT SYSTEMS",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19770008139",
+   "date": "1976-01-01",
+   "title_year": "1977",
+   "date_mismatch": true,
+   "in_window": false,
+   "title": "NASA Technical Reports Server (NTRS) 19770008139: Mated aerodynamic characteristics investigation for the 0.04 scale mod",
+   "family": "corporate_print",
+   "meta_date": "1976-01-01",
+   "status": "cached",
+   "bytes": 1203968,
+   "named_terms": [
+    "boeing airplane company",
+    "boeing commercial airplane"
+   ],
+   "other_terms": [
+    "pacific aerospace"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 17,
+   "phrase_hits": 0,
+   "entity_hits": 5,
+   "matched_entities": [
+    "boeing  co"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 55,
+     "text": "The  Boeing  Co.",
+     "context": [
+      "and  Wind  Tunnel  Test  Staff",
+      ""
+     ],
+     "promoted": "boeing  co"
+    },
+    {
+     "line": 106,
+     "text": "The  Boeing  Co.",
+     "context": [
+      "",
+      ""
+     ],
+     "promoted": "boeing  co"
+    },
+    {
+     "line": 121,
+     "text": "The  Boeing  Co.",
+     "context": [
+      "MS  OL-23",
+      ""
+     ],
+     "promoted": "boeing  co"
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19750009268",
+   "date": "1975-01-01",
+   "title_year": "1975",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "NASA Technical Reports Server (NTRS) 19750009268: Flight test investigation of the vortex wake characteristics behind a ",
+   "family": "corporate_print",
+   "meta_date": "1975-01-01",
+   "status": "cached",
+   "bytes": 61358,
+   "named_terms": [
+    "boeing airplane company",
+    "boeing commercial airplane"
+   ],
+   "other_terms": [
+    "pacific aerospace"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 2,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 16,
+     "text": "A BOEING 727 DURING TWO-SEGMENT AND NORMAL ILS APPROACHES",
+     "context": [
+      "FLIGHT TEST INVESTIGATION OF THE VORTEX WAKE CHARACTERISTICS BEHIND",
+      "(A Joint NASA/FAA Report)"
+     ]
+    },
+    {
+     "line": 905,
+     "text": "varying distances behind a Boeing 727-200 produced the following comments.",
+     "context": [
+      "flying tlie PA-30 Twin Comanche during deliberate wake vortex encounters at",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19750012383",
+   "date": "1975-01-01",
+   "title_year": "1975",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "NASA Technical Reports Server (NTRS) 19750012383: Feasibility study of the Boeing Small Research Module (BSRM) concept",
+   "family": "corporate_print",
+   "meta_date": "1975-01-01",
+   "status": "cached",
+   "bytes": 279401,
+   "named_terms": [
+    "boeing airplane company",
+    "boeing commercial airplane"
+   ],
+   "other_terms": [
+    "pacific aerospace"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 165,
+   "phrase_hits": 0,
+   "entity_hits": 5,
+   "matched_entities": [
+    "boeing company"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 81,
+     "text": "The Boeing Aerospace Company",
+     "context": [
+      "Space Systems Division",
+      "A Division of The Boeing Company"
+     ],
+     "promoted": "boeing company"
+    },
+    {
+     "line": 82,
+     "text": "A Division of The Boeing Company",
+     "context": [
+      "The Boeing Aerospace Company",
+      "Kent Space Center"
+     ],
+     "promoted": "boeing company"
+    },
+    {
+     "line": 3536,
+     "text": "Test Description . The pattern tests will be conducted at the Boeing Company",
+     "context": [
+      "",
+      "Antenna Range. The antenna will be positioned on the spacecraft model and"
+     ],
+     "promoted": "boeing company"
+    }
+   ]
+  }
+ ]
 }

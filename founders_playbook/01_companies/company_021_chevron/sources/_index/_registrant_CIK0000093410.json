@@ -14,16 +14,16 @@
  "guard_reasons": [
   "slug token(s) ['chevron'] match registrant 'CHEVRON CORP' (CIK 0000093410)"
  ],
- "built": "2026-09-29T18:25:05Z",
+ "built": "2026-09-29T19:07:10Z",
  "count": 2855,
  "rows_dropped_no_accession": 0,
  "rows_without_primaryDocument": 104,
  "csv_sha1": "9847cfc118d65da9ea0fbaf42d3cd3ab9b38f0f6",
  "csv_bytes": 253500,
  "paths": {
-  "json": "founders_playbook/01_companies/company_021_chevron\\sources\\_index\\submissions_CIK0000093410.json",
-  "csv": "founders_playbook/01_companies/company_021_chevron\\sources\\_index\\submissions_CIK0000093410.csv",
-  "md": "founders_playbook/01_companies/company_021_chevron\\sources\\_index\\_INDEX_CIK0000093410.md"
+  "json": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_021_chevron\\sources\\_index\\submissions_CIK0000093410.json",
+  "csv": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_021_chevron\\sources\\_index\\submissions_CIK0000093410.csv",
+  "md": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_021_chevron\\sources\\_index\\_INDEX_CIK0000093410.md"
  },
  "legacy_copy_written": true,
  "legacy_note": ""

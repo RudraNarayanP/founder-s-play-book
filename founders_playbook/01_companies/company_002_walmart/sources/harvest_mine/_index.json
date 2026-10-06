@@ -3,9 +3,9 @@
   "1945-01-01",
   "1972-12-31"
  ],
- "candidates": 69,
- "mined": 6,
- "untried_by_limit": 59,
+ "candidates": 127,
+ "mined": 12,
+ "untried_by_limit": 101,
  "items": [
   {
    "identifier": "1972-annual-report-for-walmart-stores-inc",
@@ -27,11 +27,12 @@
     "walton s"
    ],
    "verdict": "TIER1_CANDIDATE_TEXT",
-   "hits": 0,
+   "hits": 7,
    "phrase_hits": 22,
-   "entity_hits": 22,
+   "entity_hits": 23,
    "matched_entities": [
-    "wal-mart"
+    "wal-mart",
+    "walton  enterprises"
    ],
    "matched_other_terms": [],
    "sample": [
@@ -62,16 +63,16 @@
    ]
   },
   {
-   "identifier": "1996-annual-report-for-walmart-stores-inc",
-   "date": "1996-01-01",
-   "title_year": "1996",
+   "identifier": "1997-annual-report-for-walmart-stores-inc",
+   "date": "1997-01-01",
+   "title_year": "1997",
    "date_mismatch": false,
    "in_window": false,
-   "title": "1996 Annual Report For Walmart Stores Inc",
+   "title": "1997 Annual Report For Walmart Stores Inc",
    "family": "corporate_print",
-   "meta_date": "1996-01-01",
-   "status": "ok",
-   "bytes": 103092,
+   "meta_date": "1997-01-01",
+   "status": "cached",
+   "bytes": 52565,
    "named_terms": [
     "wal mart",
     "wal mart stores"
@@ -81,33 +82,33 @@
     "walton s"
    ],
    "verdict": "TIER1_CANDIDATE_TEXT",
-   "hits": 0,
-   "phrase_hits": 156,
-   "entity_hits": 156,
+   "hits": 15,
+   "phrase_hits": 151,
+   "entity_hits": 151,
    "matched_entities": [
     "wal-mart"
    ],
    "matched_other_terms": [],
    "sample": [
     {
-     "line": 9,
-     "text": "at  our  vending  machines,  Wal-Mart  will  donate  a  nichel  to  local  Edge  Scholarship  Fund,  Competitive  Edge  SenoUwmpfl  help",
+     "line": 37,
+     "text": "1997   WAL-MART  Mt",
      "context": [
       "",
       ""
      ]
     },
     {
-     "line": 16,
-     "text": "WAL-MART",
+     "line": 46,
+     "text": "Wal-Mart  anchors  revitalized  downtown",
      "context": [
       "",
       ""
      ]
     },
     {
-     "line": 19,
-     "text": "Inside  Wal-Mart!",
+     "line": 60,
+     "text": "Wal-Mart  culture  drives  international  growth",
      "context": [
       "",
       ""
@@ -116,16 +117,16 @@
    ]
   },
   {
-   "identifier": "1986-annual-report-for-walmart-stores-inc",
-   "date": "1986-01-01",
-   "title_year": "1986",
+   "identifier": "1998-annual-report-for-walmart-stores-inc",
+   "date": "1998-01-01",
+   "title_year": "1998",
    "date_mismatch": false,
    "in_window": false,
-   "title": "1986 Annual Report For Walmart Stores Inc",
+   "title": "1998 Annual Report For Walmart Stores Inc",
    "family": "corporate_print",
-   "meta_date": "1986-01-01",
+   "meta_date": "1998-01-01",
    "status": "cached",
-   "bytes": 67944,
+   "bytes": 120540,
    "named_terms": [
     "wal mart",
     "wal mart stores"
@@ -135,35 +136,35 @@
     "walton s"
    ],
    "verdict": "TIER1_CANDIDATE_TEXT",
-   "hits": 0,
-   "phrase_hits": 56,
-   "entity_hits": 56,
+   "hits": 9,
+   "phrase_hits": 200,
+   "entity_hits": 200,
    "matched_entities": [
     "wal-mart"
    ],
    "matched_other_terms": [],
    "sample": [
     {
-     "line": 6,
-     "text": "OF  WAL-MART",
+     "line": 28,
+     "text": "WAL-MART  Annual  -jy",
      "context": [
       "",
       ""
      ]
     },
     {
-     "line": 65,
-     "text": "Wal-Mart  Stores",
+     "line": 46,
+     "text": "investment  base,  Wal-Mart  focuses  on  customer",
      "context": [
-      "",
-      ""
+      "With  a  strategy  for  improving  returns  on  our",
+      "and  shareholder  value."
      ]
     },
     {
-     "line": 145,
-     "text": "most  important  role  in  Wal-Mart's  pursuit  of  excellence.",
+     "line": 53,
+     "text": "Letters  to  Wal-Mart",
      "context": [
-      "small  sampling  of  the  many  partner-associates  who  perform  the",
+      "",
       ""
      ]
     }
@@ -178,7 +179,7 @@
    "title": "1985 Annual Report For Walmart Stores Inc",
    "family": "corporate_print",
    "meta_date": "1985-01-01",
-   "status": "ok",
+   "status": "cached",
    "bytes": 67944,
    "named_terms": [
     "wal mart",
@@ -189,7 +190,7 @@
     "walton s"
    ],
    "verdict": "TIER1_CANDIDATE_TEXT",
-   "hits": 0,
+   "hits": 12,
    "phrase_hits": 57,
    "entity_hits": 57,
    "matched_entities": [
@@ -231,7 +232,7 @@
    "title": "1987 Annual Report For Walmart Stores Inc",
    "family": "corporate_print",
    "meta_date": "1987-01-01",
-   "status": "ok",
+   "status": "cached",
    "bytes": 69056,
    "named_terms": [
     "wal mart",
@@ -242,7 +243,7 @@
     "walton s"
    ],
    "verdict": "TIER1_CANDIDATE_TEXT",
-   "hits": 0,
+   "hits": 13,
    "phrase_hits": 61,
    "entity_hits": 61,
    "matched_entities": [
@@ -276,16 +277,16 @@
    ]
   },
   {
-   "identifier": "1998-annual-report-for-walmart-stores-inc",
-   "date": "1998-01-01",
-   "title_year": "1998",
+   "identifier": "1974-annual-report-for-walmart-stores-inc",
+   "date": "1974-01-01",
+   "title_year": "1974",
    "date_mismatch": false,
    "in_window": false,
-   "title": "1998 Annual Report For Walmart Stores Inc",
+   "title": "1974 Annual Report For Walmart Stores Inc",
    "family": "corporate_print",
-   "meta_date": "1998-01-01",
-   "status": "ok",
-   "bytes": 120540,
+   "meta_date": "1974-01-01",
+   "status": "cached",
+   "bytes": 39954,
    "named_terms": [
     "wal mart",
     "wal mart stores"
@@ -295,35 +296,357 @@
     "walton s"
    ],
    "verdict": "TIER1_CANDIDATE_TEXT",
-   "hits": 0,
-   "phrase_hits": 200,
-   "entity_hits": 200,
+   "hits": 9,
+   "phrase_hits": 43,
+   "entity_hits": 43,
    "matched_entities": [
     "wal-mart"
    ],
    "matched_other_terms": [],
    "sample": [
     {
-     "line": 28,
-     "text": "WAL-MART  Annual  -jy",
+     "line": 13,
+     "text": "History  of  Wal-Mart   4",
      "context": [
       "",
       ""
      ]
     },
     {
-     "line": 46,
-     "text": "investment  base,  Wal-Mart  focuses  on  customer",
+     "line": 54,
+     "text": "WAL-MART",
      "context": [
-      "With  a  strategy  for  improving  returns  on  our",
-      "and  shareholder  value."
+      "",
+      "STORES,"
      ]
     },
     {
-     "line": 53,
-     "text": "Letters  to  Wal-Mart",
+     "line": 181,
+     "text": "AND  WAL-MART  ASSOCIATES",
+     "context": [
+      "TO  OUR  STOCKHOLDERS",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "1989-annual-report-for-walmart-stores-inc",
+   "date": "1989-01-01",
+   "title_year": "1989",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "1989 Annual Report For Walmart Stores Inc",
+   "family": "corporate_print",
+   "meta_date": "1989-01-01",
+   "status": "cached",
+   "bytes": 64932,
+   "named_terms": [
+    "wal mart",
+    "wal mart stores"
+   ],
+   "other_terms": [
+    "five and dime",
+    "walton s"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 14,
+   "phrase_hits": 65,
+   "entity_hits": 66,
+   "matched_entities": [
+    "wal-mart",
+    "walton,  co"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "WAL-MART",
+     "context": [
+      ""
+     ]
+    },
+    {
+     "line": 80,
+     "text": "Wal-Mart  Stores",
      "context": [
       "",
+      ""
+     ]
+    },
+    {
+     "line": 245,
+     "text": "Wal-Mart  stores,  21  Sam's  Wholesale",
+     "context": [
+      "an  18  percent  increase.  We  added  145",
+      "Club  units,  two  Wal-Mart  Super-"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "1973-annual-report-for-walmart-stores-inc",
+   "date": "1973-01-01",
+   "title_year": "1973",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "1973 Annual Report For Walmart Stores Inc",
+   "family": "corporate_print",
+   "meta_date": "1973-01-01",
+   "status": "cached",
+   "bytes": 29779,
+   "named_terms": [
+    "wal mart",
+    "wal mart stores"
+   ],
+   "other_terms": [
+    "five and dime",
+    "walton s"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 10,
+   "phrase_hits": 31,
+   "entity_hits": 31,
+   "matched_entities": [
+    "wal-mart"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "WAL-MART  STORES,  INC.",
+     "context": [
+      ""
+     ]
+    },
+    {
+     "line": 171,
+     "text": "To  Our  Stockholders  and  Wal-Mart  Associates",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 175,
+     "text": "was  a  tremendous  year  for  Wal-Mart",
+     "context": [
+      "Fiscal  year  ended  January  31,  1972,",
+      "judged  by  any  standards.  However,  in"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "1982-annual-report-for-walmart-stores-inc",
+   "date": "1982-01-01",
+   "title_year": "1982",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "1982 Annual Report For Walmart Stores Inc",
+   "family": "corporate_print",
+   "meta_date": "1982-01-01",
+   "status": "cached",
+   "bytes": 74087,
+   "named_terms": [
+    "wal mart",
+    "wal mart stores"
+   ],
+   "other_terms": [
+    "five and dime",
+    "walton s"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 11,
+   "phrase_hits": 72,
+   "entity_hits": 72,
+   "matched_entities": [
+    "wal-mart"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 15,
+     "text": "$55.7  million  in  the  prior  year).  Wal-Mart  is  the",
+     "context": [
+      "year  ago)  and  earnings  of  $82.8  million  (up  from",
+      "fastest  growing  major  retailer  in  the  country.  The"
+     ]
+    },
+    {
+     "line": 17,
+     "text": "Company  opened  69  new  Wal-Mart  stores,",
+     "context": [
+      "fastest  growing  major  retailer  in  the  country.  The",
+      "acquired  a  net  of  92  Kuhn's-Big  K  stores  and"
+     ]
+    },
+    {
+     "line": 19,
+     "text": "expanded  18  older  Wal-Mart  stores  during  the",
+     "context": [
+      "acquired  a  net  of  92  Kuhn's-Big  K  stores  and",
+      "past  year.  At  January  31,1 982,  Wal-Mart  operated"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "1990-annual-report-for-walmart-stores-inc",
+   "date": "1990-01-01",
+   "title_year": "1990",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "1990 Annual Report For Walmart Stores Inc",
+   "family": "corporate_print",
+   "meta_date": "1990-01-01",
+   "status": "cached",
+   "bytes": 54096,
+   "named_terms": [
+    "wal mart",
+    "wal mart stores"
+   ],
+   "other_terms": [
+    "five and dime",
+    "walton s"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 11,
+   "phrase_hits": 57,
+   "entity_hits": 57,
+   "matched_entities": [
+    "wal-mart"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "WAL-MART  ANNUAL  REPORT",
+     "context": [
+      ""
+     ]
+    },
+    {
+     "line": 10,
+     "text": "WAL-MART\"",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 65,
+     "text": "Wal-Mart  Stores   1,402  1,259",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "1975-annual-report-for-walmart-stores-inc",
+   "date": "1975-01-01",
+   "title_year": "1975",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "1975 Annual Report For Walmart Stores Inc",
+   "family": "corporate_print",
+   "meta_date": "1975-01-01",
+   "status": "cached",
+   "bytes": 58278,
+   "named_terms": [
+    "wal mart",
+    "wal mart stores"
+   ],
+   "other_terms": [
+    "five and dime",
+    "walton s"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 9,
+   "phrase_hits": 73,
+   "entity_hits": 73,
+   "matched_entities": [
+    "wal-mart"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 183,
+     "text": "Wal-Mart  Expands  Distribution  FnciSitlet",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 204,
+     "text": "It  is  a  pleasure  to  report  that  Wal-Mart  Stores,  Inc..",
+     "context": [
+      "",
+      "once  again,  achieved  record  sales  and  earnings.  Fiscal"
+     ]
+    },
+    {
+     "line": 210,
+     "text": "Wal-Mart  sales  were  $236.2  million  compared  to  $167.6",
+     "context": [
+      "",
+      "million  last  year,  an  increase  of  4)  percent  over  the  previ-"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "1986-annual-report-for-walmart-stores-inc",
+   "date": "1986-01-01",
+   "title_year": "1986",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "1986 Annual Report For Walmart Stores Inc",
+   "family": "corporate_print",
+   "meta_date": "1986-01-01",
+   "status": "cached",
+   "bytes": 67944,
+   "named_terms": [
+    "wal mart",
+    "wal mart stores"
+   ],
+   "other_terms": [
+    "five and dime",
+    "walton s"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 13,
+   "phrase_hits": 56,
+   "entity_hits": 56,
+   "matched_entities": [
+    "wal-mart"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 6,
+     "text": "OF  WAL-MART",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 65,
+     "text": "Wal-Mart  Stores",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 145,
+     "text": "most  important  role  in  Wal-Mart's  pursuit  of  excellence.",
+     "context": [
+      "small  sampling  of  the  many  partner-associates  who  perform  the",
       ""
      ]
     }

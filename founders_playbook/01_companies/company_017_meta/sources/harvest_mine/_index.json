@@ -3,9 +3,9 @@
   "2003-01-01",
   "2012-12-31"
  ],
- "candidates": 45,
- "mined": 6,
- "untried_by_limit": 38,
+ "candidates": 103,
+ "mined": 12,
+ "untried_by_limit": 88,
  "items": [
   {
    "identifier": "NASA_NTRS_Archive_20120010422",
@@ -22,34 +22,154 @@
     "meta platforms"
    ],
    "other_terms": [],
-   "verdict": "NULL",
-   "hits": 0,
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 3,
    "phrase_hits": 0,
    "entity_hits": 0,
    "matched_entities": [],
    "matched_other_terms": [],
-   "sample": []
-  },
-  {
-   "identifier": "larevanchedunsol0000mezr",
-   "date": "2009-01-01",
-   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 403)); tried larevanchedunsol0000mezr_djvu.txt, larevanchedunsol0000mezr_djvu.txt",
-   "verdict": "UNANSWERED",
-   "hits": 0,
-   "sample": []
+   "sample": [
+    {
+     "line": 127,
+     "text": "@ Space Operations Learning Center Facebook Application",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 136,
+     "text": "Learning Center (SOLC) Facebook mo-",
+     "context": [
+      "The proposed Space Operations",
+      "dule, initially code-named \u201cSpaceville,\u201d"
+     ]
+    },
+    {
+     "line": 145,
+     "text": "Spaceville will be a Facebook applica-",
+     "context": [
+      "",
+      "tion/game with the goal of combining"
+     ]
+    }
+   ]
   },
   {
    "identifier": "completeidiotsgu0000aber",
    "date": "2010-01-01",
-   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried completeidiotsgu0000aber_djvu.txt, completeidiotsgu0000aber_djvu.txt",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 500)); tried completeidiotsgu0000aber_djvu.txt, completeidiotsgu0000aber_djvu.txt",
    "verdict": "UNANSWERED",
    "hits": 0,
    "sample": []
+  },
+  {
+   "identifier": "DTIC_ADA563444",
+   "date": "2011-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "DTIC ADA563444: Social Network Privacy: Overcoming Facebook Policies that put Users at Risk",
+   "family": "internet_archive",
+   "meta_date": "2011-01-01",
+   "status": "cached",
+   "bytes": 29138,
+   "named_terms": [
+    "meta platforms"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 98,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 3,
+     "text": "Overcoming  Facebook  policies  that  put  users  at  risk",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 8,
+     "text": "Facing  the  Facebook",
+     "context": [
+      "",
+      "Privacy  Dilemma"
+     ]
+    },
+    {
+     "line": 14,
+     "text": "Facebook.",
+     "context": [
+      "sidered  when  using  such  sites  as",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "DTIC_ADA500836",
+   "date": "2009-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "DTIC ADA500836: Harvesting Ego-Network Data from Facebook: Using the CEMAP Facebook Profile in ORA",
+   "family": "internet_archive",
+   "meta_date": "2009-01-01",
+   "status": "cached",
+   "bytes": 37565,
+   "named_terms": [
+    "meta platforms"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 117,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "Harvesting  Ego-Network  Data  from  Facebook",
+     "context": [
+      ""
+     ]
+    },
+    {
+     "line": 3,
+     "text": "Using  the  CEMAP  Facebook  Profile  in  ORA",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 59,
+     "text": "Harvesting  Ego-Network  Data  from  Facebook.  Using  the  CEMAP",
+     "context": [
+      "",
+      "Facebook  Profile  in  ORA"
+     ]
+    }
+   ]
   },
   {
    "identifier": "facebookallinone0000nels",
    "date": "2012-01-01",
    "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried facebookallinone0000nels_djvu.txt, facebookallinone0000nels_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "larevanchedunsol0000mezr",
+   "date": "2009-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried larevanchedunsol0000mezr_djvu.txt, larevanchedunsol0000mezr_djvu.txt",
    "verdict": "UNANSWERED",
    "hits": 0,
    "sample": []
@@ -71,18 +191,155 @@
    "title": "Using Model-based Overlapping Seed Expansion to detect highly overlapping community structure",
    "family": "internet_archive",
    "meta_date": "2010-01-01",
-   "status": "ok",
+   "status": "cached",
    "bytes": 58425,
    "named_terms": [
     "meta platforms"
    ],
    "other_terms": [],
-   "verdict": "NULL",
-   "hits": 0,
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 8,
    "phrase_hits": 0,
    "entity_hits": 0,
    "matched_entities": [],
    "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 24,
+     "text": "likely to exist in many social networks, such as Facebook friendship networks. In this",
+     "context": [
+      "nodes assigned to more than two communities. Such highly overlapping structure is",
+      "paper we present a scalable algorithm, MOSES, based on a statistical model of commu-"
+     ]
+    },
+    {
+     "line": 65,
+     "text": "Fig. 1 Four communities of a single user (the node in black) of Facebook, as determined by",
+     "context": [
+      "",
+      "MOSES. Two other users (red) have been assigned to both the blue and purple communities."
+     ]
+    },
+    {
+     "line": 117,
+     "text": "analysis of a Facebook friendship network from five US universities.",
+     "context": [
+      "the existence of strong, easily detectable, community structure. We conclude with an",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "arxiv-1111.4503",
+   "date": "2011-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "The Anatomy of the Facebook Social Graph",
+   "family": "internet_archive",
+   "meta_date": "2011-01-01",
+   "status": "cached",
+   "bytes": 51587,
+   "named_terms": [
+    "meta platforms"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 78,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 9,
+     "text": "The Anatomy of the Facebook Social Graph",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 13,
+     "text": "1 Facebook, Palo Alto, CA, USA",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 25,
+     "text": "' We study the structure of the social graph of active Facebook users, the largest social network ever",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "arxiv-1205.3643",
+   "date": "2012-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Capacitated Team Formation Problem on Social Networks",
+   "family": "internet_archive",
+   "meta_date": "2012-01-01",
+   "status": "cached",
+   "bytes": 58816,
+   "named_terms": [
+    "meta platforms"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 3,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 34,
+     "text": "Facebook etc) typically do not contain instances of large",
+     "context": [
+      "tional data-sets from on-line social networks (e.g. Twitter,",
+      "scale collaboration, we have crawled millions of software"
+     ]
+    },
+    {
+     "line": 898,
+     "text": "cial networks (e.g. Twitter, Facebook etc.) do not contain",
+     "context": [
+      "Traditional data-sets gathered from popular on-line so-",
+      "evidence of large scale collaboration and therefore, are not"
+     ]
+    },
+    {
+     "line": 932,
+     "text": "software projects and several meta-data about the users and",
+     "context": [
+      "sets - data-set Dl consists of 1,35,346 users and 9,05,000",
+      "projects (e.g. commit logs, team composition etc.). This"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "entrepreneurs0000durm",
+   "date": "2011-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried entrepreneurs0000durm_djvu.txt, entrepreneurs0000durm_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "aarpfacebooktech0000coll_d2e0",
+   "date": "2012-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried aarpfacebooktech0000coll_d2e0_djvu.txt, aarpfacebooktech0000coll_d2e0_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
    "sample": []
   }
  ]

@@ -1,6 +1,6 @@
 # SEC submissions index -- BERKSHIRE HATHAWAY INC (CIK 0001067983, BRK-B)
 
-Built by `tools/sec_intake.py` at 2026-09-29 17:56 UTC. **Registrant name for this index: `BERKSHIRE HATHAWAY INC` (CIK 0001067983)** -- artefacts are keyed by CIK, so a wrong `--cik` cannot overwrite another registrant's index.
+Built by `tools/sec_intake.py` at 2026-09-29 19:01 UTC. **Registrant name for this index: `BERKSHIRE HATHAWAY INC` (CIK 0001067983)** -- artefacts are keyed by CIK, so a wrong `--cik` cannot overwrite another registrant's index.
 2400 filings enumerated; 0 submissions rows dropped for carrying no accession; 63 rows carry no `primaryDocument` (paper-era shells -- fetchable as `<accession>.txt`).
 
 Registrant guard: **ok** -- slug token(s) ['berkshire'] match registrant 'BERKSHIRE HATHAWAY INC' (CIK 0001067983)
