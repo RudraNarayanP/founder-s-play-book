@@ -165,3 +165,19 @@ re-fix it, but confirm the enumeration path returns candidates for an accession 
    two independent third-party carriers and opened a real conflict: 186 packages on day one per the company's own
    1998 advertising vs `a mere seven packages` per a 2009 third party). Keep the sequencing rule: mine AFTER
    harvest, and re-read any A4 within a few lines of quoting it.
+
+## Correction to my own diagnosis in item 1 above (Valero, 2026-09-30)
+
+I wrote that the wrong in-window counts came from `fleet_intake.measure()` mis-scraping a printed line. **That
+was only half right, and the half I got wrong is the expensive one.** Valero measured the real mechanism: the
+forward recital pass **ran second and rewrote the ledger**, so `sources/sec/_RUN.json` describes
+`2001-12-31..2020-12-31` while the shelf holds **57 docs / 27 accessions / 9,680,991 B** of which **27 docs
+(16 accessions, 6,808,731 B, filingDate 1997-05-13->2001-05-25) are in-window and appear nowhere in
+`_MANIFEST.csv`**. The bytes are on disk; only the accounting describes the wrong pass. Humana's "148 in window"
+is the mis-scrape; Valero's "0 in-window docs" is the overwrite. Two defects, one symptom.
+
+So the owner fix is not only a regex: `auto` must key its run records **per pass** (window in the filename, or a
+list of pass records inside one `_RUN.json`) so a second window cannot describe the first, and `auto` must
+re-count the shelf and report record-vs-shelf disagreement -- which is exactly Defect 2 in the `registrant-tools`
+brief. Extend that brief: also re-run the in-window pass for every company whose `_RUN.json` window does not
+match the `--from/--to` the fleet record says it used (Valero FR-6 is the worked example).
