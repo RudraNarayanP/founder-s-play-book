@@ -92,6 +92,8 @@ def col_counts(rows):
 
 # ---------------------------------------------------------------- gates
 
+HARD_CAP = 60000   # method s9.2: the only word count that is a defect to exceed
+
 def locate(company, name):
     """Company root, then research/. Walmart/Apple/UnitedHealth keep their registers under
     research/ until assembly, and a gate that silently read nothing reported a false clean."""
@@ -194,7 +196,12 @@ def stage_docs(company):
     superseded audit trail, and gating them would resurface retired keys as fresh defects."""
     out = []
     for d in ("", "research"):
-        out += glob.glob(os.path.join(company, d, "stage_*.md"))
+        # A volume map and a claim-record appendix match `stage_*.md` by NAME but are not narrative
+        # volumes: counting them made the coverage line report 3-4 volumes for a 1-volume company
+        # (Tesla, 2026-09-30), and the budget gate would then grade an index at volume caps.
+        out += [p for p in glob.glob(os.path.join(company, d, "stage_*.md"))
+                if "_index" not in os.path.basename(p)
+                and "claim_records" not in os.path.basename(p)]
     if not out:
         out += glob.glob(os.path.join(company, "_parts", "s[0-9]_p[0-9]*.md"))
     return sorted(set(out))
@@ -564,16 +571,55 @@ def gate_corrections(company, report):
                   % len(ids))
 
 
+def issued_tier(company):
+    """The tier THIS company's own dossier issued -- never the loosest default.
+
+    The tier used to be a CLI flag defaulting to `exemplar`, so a T3 register company measured against a
+    60,000-word cap passed by accident (RD-128's "a wrong checker needs a narrower claim"). Scope is
+    `research/` ONLY, and a tier-verdict dossier outranks a passing mention: a merged volume discusses all
+    three tiers while arguing its five-family verdict, and reading THAT as the issuance graded UnitedHealth
+    as T3 on its own narrative's mention. Order: verdict-bearing filename, then dossier number, then mtime.
+    """
+    rx = re.compile(r"\bT([123])\b(?:\s*(?:core|register|exemplar|tier))?", re.I)
+    verdict = re.compile(r"regrade|feasibility|tier|verdict|density", re.I)
+    hits = []
+    for p in glob.glob(os.path.join(company, "research", "*.md")):
+        txt = open(p, encoding="utf-8", errors="replace").read(30000)
+        stem = os.path.basename(p)
+        num = re.match(r"[A-Za-z]+(\d+)", stem)
+        for m in rx.finditer(txt):
+            hits.append((1 if verdict.search(stem) else 0, os.stat(p).st_mtime_ns,
+                         int(num.group(1)) if num else 0, stem, "T" + m.group(1)))
+    if not hits:
+        return "exemplar", "no tier stated in this company's research/ dossiers -- exemplar assumed"
+    hits.sort(reverse=True)
+    latest = hits[0][4]
+    distinct = sorted({h[4] for h in hits})
+    note = ("tier %s from %s%s" % (latest, hits[0][3],
+                                   "" if len(distinct) == 1 else
+                                   " -- %s also stated in this company's files (%d mentions); the most "
+                                   "recent write wins, §15.2 regrade" % (",".join(distinct), len(hits))))
+    return latest, note
+
+
 def gate_budgets(company, report, tier):
-    caps = {"exemplar": 60000, "core": 22000, "register": 8000}
+    caps = {"exemplar": 60000, "core": 22000, "register": 8000,
+            "T1": 60000, "T2": 22000, "T3": 8000}
     cap = caps.get(tier, 60000)
     for md in stage_docs(company):
         w = len(re.findall(r"\S+", open(md, encoding="utf-8", errors="replace").read()))
-        if w > cap:
-            report.fail("budget", os.path.basename(md), "%d words > %s cap %d (split required)"
-                        % (w, tier, cap))
+        base = os.path.basename(md)
+        if w > HARD_CAP:
+            # The only breach that is a defect: a file past the method's own volume limit.
+            report.fail("budget", base, "%d words > the %d hard cap -- split at a section boundary, "
+                        "never renumber (method s9.2/s9.3)" % (w, HARD_CAP))
+        elif w > cap:
+            # A tier cap is a DENSITY TARGET, not a file limit: "make it fit" has previously been
+            # answered by deleting evidence. Advisory, so no agent can be told to repair real data.
+            report.fail("advisory", base, "%d words over the %s density target %d -- NOT a split "
+                        "mandate and NOT a defect; recorded so the tier is measurable" % (w, tier, cap))
         else:
-            report.ok("budget", os.path.basename(md), "%d words (cap %d)" % (w, cap))
+            report.ok("budget", base, "%d words (target %d, hard cap %d)" % (w, cap, HARD_CAP))
 
 
 # ---------------------------------------------------------------- harness
@@ -613,6 +659,9 @@ class Report:
 
 
 def run(company, checks, tier, outdir=None):
+    if tier in ("auto", "TIER"):
+        tier, why = issued_tier(company)
+        print("tier: %s (%s)" % (tier, why))
     rep = Report()
     # A gate that found nothing to read must never report clean.
     regs = [n for n in REGISTERS if locate(company, n)]
@@ -644,13 +693,23 @@ def run(company, checks, tier, outdir=None):
         gate_corrections(company, rep)
     md = rep.render(company)
     if outdir:
-        os.makedirs(outdir, exist_ok=True)
+        # Every brief in this run writes `--out <file>.md`, and the tool only took a directory, so two
+        # agents re-saved stdout by hand and one reported the tool as broken. Accept both now: a path
+        # ending in .md is the file, anything else is the folder the named report lands in.
         base = os.path.basename(company.rstrip("/\\"))
-        open(os.path.join(outdir, "gates_%s.md" % base), "w", encoding="utf-8").write(md)
-        json.dump({"findings": rep.findings}, open(os.path.join(outdir, "gates_%s.json" % base),
-                                                   "w", encoding="utf-8"), indent=1)
+        if outdir.lower().endswith(".md"):
+            mdpath = outdir
+            jpath = outdir[:-3] + ".json"
+            os.makedirs(os.path.dirname(os.path.abspath(mdpath)), exist_ok=True)
+        else:
+            os.makedirs(outdir, exist_ok=True)
+            mdpath = os.path.join(outdir, "gates_%s.md" % base)
+            jpath = os.path.join(outdir, "gates_%s.json" % base)
+        open(mdpath, "w", encoding="utf-8").write(md)
+        json.dump({"findings": rep.findings}, open(jpath, "w", encoding="utf-8"), indent=1)
+        print("written: %s" % mdpath)
     print(md)
-    substantive = [f for f in rep.findings if f["gate"] != "coverage"]
+    substantive = [f for f in rep.findings if f["gate"] not in ("coverage", "advisory")]
     return len(rep.findings), len(substantive)
 
 
@@ -788,6 +847,20 @@ def self_test():
                   'users of Microsoft BASIC-80 (MBASIC) S435/S45" [OCR: $ list/$ dealer] (S0001).\n')
         cases["quoted OCR price token is print, not a citation"] = plant_quoted_price_token
 
+        def plant_over_tier_target(d):
+            # The old budget gate wrote "(split required)" for a TIER overage, which an honest agent
+            # answers by deleting evidence: a density target is not a file limit (s15.2 vs s9.2).
+            # 4,700 repeats x 5 words = 23,500 words: over `core` 22,000, under the 60,000 hard cap.
+            open(os.path.join(d, "stage_2.md"), "w", encoding="utf-8").write(
+                "# volume\n" + "lorem ipsum dolor sit amet " * 4700)
+        cases["tier overage reads advisory"] = plant_over_tier_target
+
+        def plant_over_hard_cap(d):
+            # 12,200 repeats x 5 words = 61,000 words: past the only word count that is a defect.
+            open(os.path.join(d, "stage_3.md"), "w", encoding="utf-8").write(
+                "# volume\n" + "lorem ipsum dolor sit amet " * 12200)
+        cases["hard cap breach is a defect"] = plant_over_hard_cap
+
         GATE_OF = {"unquoted comma shifts fields": "csv",
                    "numeric stage vocabulary": "csv",
                    "duplicate record id": "csv",
@@ -801,7 +874,9 @@ def self_test():
                    "unresolvable source token in narrative": "keys",
                    "correctly escaped doublequote must stay clean": "csv-NEGATIVE",
                    "retraction never reaches the registers": "corrections",
-                   "propagated retraction must stay clean": "corrections-NEGATIVE"}
+                   "propagated retraction must stay clean": "corrections-NEGATIVE",
+                   "tier overage reads advisory": "advisory",
+                   "hard cap breach is a defect": "budget"}
         cases = {k: (GATE_OF[k], v) for k, v in cases.items()}
 
         for tag, (label, (gate_want, mut)) in enumerate(sorted(cases.items()), start=1):
@@ -827,6 +902,18 @@ def self_test():
             ok = False
         else:
             print("%-40s %s" % ("clean fixture", "CLEAN"))
+
+        # issued_tier: the newest write wins, and a disagreement is reported rather than averaged.
+        tc = os.path.join(tmp, "tier_case")
+        os.makedirs(os.path.join(tc, "research"))
+        open(os.path.join(tc, "research", "A_chronology_feasibility.md"), "w",
+             encoding="utf-8").write("tier T3 register on the probe evidence\n")
+        open(os.path.join(tc, "research", "A3_intake_regrade.md"), "w",
+             encoding="utf-8").write("TIER: T2 core after intake\n")
+        got, why = issued_tier(tc)
+        print("%-40s %-8s %s" % ("tier regrade beats the probe", "[tier]",
+                                 "PASS (%s)" % got if got == "T2" else "*** FAILED: %s %s" % (got, why)))
+        ok = ok and got == "T2"
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     print("\nself-test: %s" % ("PASS" if ok else "FAIL -- a gate cannot catch its own defect"))
@@ -838,7 +925,11 @@ def main():
     ap.add_argument("--company-dir")
     ap.add_argument("--checks",
                     default="csv,keys,anchors,quotes,budget,corrections")
-    ap.add_argument("--tier", default="exemplar", choices=["exemplar", "core", "register"])
+    ap.add_argument("--tier", default="auto", choices=["auto", "exemplar", "core", "register",
+                                                       "T1", "T2", "T3"],
+                    help="'auto' (default) reads the tier the company's own dossier issued; an "
+                         "explicit value overrides it. The default used to be 'exemplar', so a T3 "
+                         "company measured against a 60k cap passed by accident.")
     ap.add_argument("--out")
     ap.add_argument("--self-test", action="store_true")
     ap.add_argument("--fail-on", default="substantive", choices=["substantive", "all"],

@@ -173,7 +173,21 @@ def cmd_touch(a):
 
 def cmd_release(a):
     led = load()
-    p = norm(a.path)
+    if getattr(a, "all", False):
+        # A dead agent cannot release its own claims, and an unexpired claim blocks the repairer and
+        # the certifier behind it (Target, 2026-09-30: 14 paths held by an agent that died reporting).
+        if not a.agent:
+            print("release --all needs --agent")
+            return 2
+        mine = [p for p, e in led.items() if e.get("agent") == a.agent]
+        for p in mine:
+            led.pop(p)
+        save(led)
+        print("RELEASED %d path(s) held by %s" % (len(mine), a.agent))
+        for p in mine:
+            print("   %s" % p)
+        return 0
+    p = norm(a.path or "")
     if p not in led:
         print("no claim for %s" % p)
         return 1
@@ -221,12 +235,16 @@ def main():
     t = sub.add_parser("touch")
     t.add_argument("--path", required=True); t.add_argument("--agent")
     r = sub.add_parser("release")
-    r.add_argument("--path", required=True); r.add_argument("--agent")
+    r.add_argument("--path", required=False)
+    r.add_argument("--agent")
+    r.add_argument("--all", action="store_true",
+                   help="release every path held by --agent -- the primitive for a dead agent's residue")
     r.add_argument("--done", action="store_true")
     sub.add_parser("ledger")
+    sub.add_parser("status", help="alias of ledger")
     a = ap.parse_args()
     return {"claim": cmd_claim, "section": cmd_section, "touch": cmd_touch,
-            "release": cmd_release, "ledger": cmd_ledger}[a.cmd](a)
+            "release": cmd_release, "ledger": cmd_ledger, "status": cmd_ledger}[a.cmd](a)
 
 
 if __name__ == "__main__":

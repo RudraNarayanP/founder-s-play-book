@@ -2752,3 +2752,62 @@ I cannot fix by briefing: **UNTRIED vs UNANSWERED is currently kept honest only 
 dead route written as an unattempted one lands on the single route that could raise that company's tier. Open
 defect, logged not solved: `gates.py` should fail any volume whose family table claims UNTRIED while a sidecar
 carrying an http_status exists under that family's path.
+
+### RD-135 -- a truncated listing made me re-dispatch three audits that already existed, and my own registrant guard was refusing the right companies
+
+**I inferred absence from a cut-off list.** To decide what Amazon Stage 3 still needed I ran
+`ls 03_quality_control | grep -i "amazon|audit|stage2|s2" | head -30` and read the first 30 lines, which
+ended inside the Stage-2 names. I concluded Stage 3 had never been audited and dispatched three audit
+agents. It had: **14 `amazon_s3_*` sheets exist**, including `amazon_s3_audit1_chronology.md`,
+`_audit3_numbers.md`, `_audit4_hindsight.md`, `_audit5_adversarial.md` and the repair passes that followed
+them, all from 2026-09-26. The three files I commissioned are 266-byte scaffold stubs; two of the agents are
+re-reading a volume that has already been audited and repaired five times. **Rule, for me specifically: a
+listing that ends at a `head` boundary is not a census** -- count with `wc -l` or grep the exact pattern
+before concluding something is missing. This is §14 rule 8 violated by the person who wrote the rule, and the
+cost is ~30M tokens of duplicated judgment.
+
+**`registrant_guard` was refusing the correct company, not a wrong one.** The identity-fix pass over the 11
+intake refusals showed `*** REFUSED-WRONG-REGISTRANT: EDGAR answered 'HOME DEPOT, INC.' for CIK 0000354950
+but this directory is 'company_025_homedepot'`. The guard required a *whole word* of the registrant name to
+equal a slug token, and a multi-word registrant compresses into a one-word slug: no word of
+`HOME DEPOT, INC.` is `homedepot`. Same false-refusal class for Wells Fargo and Morgan Stanley. Fixed by
+comparing de-spaced forms as a second path, with the D-5 no-clobber signal left exactly as it was -- that is
+what actually caught the 2026-09-26 Dell shell, and the docstring said so. **The whole-word rule was right
+for the incident that produced it and wrong for eight companies that never ran the incident.** A genuine
+refusal is still genuine: `SNX` resolves to `TD SYNNEX CORP` in SEC's own ticker file, so StoneX stays
+refused until someone supplies its registrant rather than its ticker.
+
+**`gates.py` now measures the tier it is grading, and says where it got it.** `--tier` defaults to `auto`,
+which reads the company's own `research/` dossiers; the first version of `issued_tier()` also scanned
+company-root files and immediately graded UnitedHealth **T3** because `stage_1.md` discusses all three tiers
+while arguing its five-family verdict. Scope is `research/` only, and a regrade/feasibility filename
+outranks a passing mention, then the dossier number, then mtime -- and the disagreement is printed, not
+averaged. A tier-cap overage moved to an `advisory` gate (`--fail-on substantive` no longer trips on it)
+because the old message read **"(split required)"**, which an honest agent answers by deleting evidence; the
+only word count that is now a defect is the 60k hard cap. Two self-test controls added for those cases plus
+the regrade tiebreak: **18 controls, self-test PASS**. Also `--out` now accepts a `.md` file path as well as a
+directory (two agents re-saved stdout by hand tonight and one reported the tool as broken), and `stage_docs()`
+no longer counts `stage_1_index.md` or a claim-record volume as narrative -- that inflation reported a
+one-volume company as four.
+
+**`scaffold.py release --agent X --all` exists, because dead agents keep their locks.** Target's repair
+pass-2 agent found my brief's premise false on disk and said so instead of forcing: it was told "the dead
+agent's claims expired", and they were not -- **14 LIVE claims** (ttl 240 min, ~70 min old) held every Target
+path, and its own `claim` attempt was REFUSED at rc=3. My brief had also invented a `status` subcommand that
+does not exist (it is `ledger`), which is now aliased. I released the 14 and the certifier is running. Lesson
+for briefs: *the ledger is the authority on ownership, not my recollection of what died.*
+
+**Tesla merged while I was doing this** (53,553 w, 208 rows from 232 requested across three emissions,
+anchors 23↔23, `S4369–S4392` minted, gates 0 substantive) and its report surfaced a defect I own:
+**`S4222–S4225` denote different documents in Microsoft's and Target's `sources.csv`** -- found by
+`id_mint --audit`, logged as task #31 rather than silently re-keyed, because re-keying without propagation is
+RD-122's 138-dangling-site mistake. It also flagged for the third time that `merge_census.py` cannot see the
+25 rows a probe wrote into `research/*.csv`.
+
+**Overnight fleet result so far**: 40 companies intaked in two lanes (~35 min, inside EDGAR's rate ceiling),
+**15 with nothing stored** -- 11 guard-refused (several now fixed by the de-spaced matcher) and 4 measured
+perimeter nulls. The forward recital pass is what carried goldman (29 files from a 1998 floor), cencora (30
+from 2001), comcast (30), ups (29), pepsico (27), humana (26) and fedex (19, with 12 UNANSWERED) -- filings
+those companies' own Stage-1 windows could never reach. Facet-free reharvest: **207 live requests, 1,610
+candidate rows** (565 TIER1_CANDIDATE, 963 LEAD_ONLY, 47 UNANSWERED, 35 NULL), 94 responses versioned beside
+existing rather than over them. Twelve tail probes are running against those bytes.

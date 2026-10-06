@@ -1,6 +1,868 @@
-# s1_p2.md
+# Tesla — Stage 1
 
-<!-- SCAFFOLDED by tools/scaffold.py at 2026-09-27T00:00:00Z. Owner: tesla-s1-p2. -->
+# Tesla Motors, Inc. — Stage 1 (2003-01 → 2010-06-29), single volume
+
+**Merged file.** Built by the Stage-1 merge pass on 2026-09-30 (agent `tesla-s1-merge`) from
+`_parts/s1_p1.md` (§Header, §Boundary, §A–§F, claim records P1-01–P1-33 and the register emission) and
+`_parts/s1_p2.md` (§G–§U, claim records P2-01–P2-54, its `## Untried` block and the register emission),
+**plus the pre-merge probe dossier `research/A_chronology_feasibility.md` and its three register drafts in
+`research/sources.csv`, `research/conflicts.csv`, `research/data_gaps.csv`, whose 25 rows both parts
+presuppose** (RD-122 and RD-131's three-emissions-not-two rule: `merge_census.py` globs `_parts/*.md` only,
+so it could not see the third emission and under-requested by 25 rows). Nothing was rewritten, reordered,
+trimmed or summarised: each part body below is a **byte-identical contiguous slice** of this file (proof and
+measurements in `_MANIFEST.md` and `03_quality_control/tesla_s1_merge_notes.md`). Merged in part order at
+section boundaries; numbering untouched; `_parts/*` kept read-only with a SUPERSEDED notice appended.
+
+<!-- ANCHORS: U.1-U.23 -->
+
+## Stage 1 merge note
+
+**Tier and the budget finding, stated so the finding is reproducible.** Verdict **T3 register** per §15.2
+(`research/A_chronology_feasibility.md`), **re-issued unchanged** by the later `research/A3_intake_regrade.md`
+— the re-grade moved no family count, so there is no regrade for this merge to obey. It did supersede the
+probe's EDGAR row-count wording (12 SEC-generated REGDEX paper rows exist 2005-02-17 → 2009-01-12; 2003 and
+2004 are genuinely empty; the earliest company-authored document is still the S-1 of 2010-01-29) and that
+correction is carried in Volume 1 and in `S4377`. T3 deliverable = short narrative + full registers with §K,
+§N and §U mandatory; all three are on disk. This volume is far above the 8,000-word T3 figure because both
+author passes wrote at exemplar density. Per RD-122 the tier cap is a **dispatch budget, not a limit on
+written evidence**; §9.6 forbids cutting evidence to fit a file limit; §15.4 makes a missed length target
+legitimate. So `gates.py --tier register` reports a budget finding on this file, and that finding is the
+**known accepted state**, not a defect: nothing was chopped to quiet it. Against the caps that do bind, this
+volume is **under §9.2's 60,000-word hard cap**, so **no §9.3 split was triggered and there is no second
+volume** (measured words in `_MANIFEST.md`).
+
+**Row application: 232 requested → 208 applied, 25 aliased rows folded into 16 collision groups, 0 refused.**
+Per register: `sources.csv` 40 (part 1 12 + part 2 16 + probe 12) → **24**, 8 fold groups;
+`quantitative.csv` 61 (22 + 39) → **61**; `timeline.csv` 47 (26 + 21) → **46**, 1 fold group;
+`conflicts.csv` 22 (probe 6 + part 1 3 + part 2 13) → **23**, one conflict minted at merge;
+`data_gaps.csv` 23 (6 + 10 + 7) → **15**, 7 fold groups; `decisions.csv` 9 → **9**; `validation.csv` 9 → **9**;
+`failures.csv` 11 → **11**; `channels.csv` 10 → **10**. A folding is never a deletion: every aliased row keeps
+its own wording inside a printed `MERGE[…]` tag in the surviving row, with the dossier-local id named as an
+alias. The duplicate-key test ran across **all three emissions in one operation**: 0 duplicate provisional
+`source_id` keys, 0 duplicate `conflict_id` keys. The same-ACCESSION collisions that test surfaced (part 1's
+S-1 primary document against the exhibits filed inside that accession; part 2's DOE exhibit against the same
+accession's primary document) are **different documents** and stay separate rows — one register row per
+document, never per accession (§9.4; §3 filing-lineage rule).
+
+**The 20-row AMBIGUOUS census pair, attributed by content.** Pre-merge, `merge_census.py --verbose` parsed 14
+blocks and could attribute none of two of them (`UNATTRIBUTED s1_p2.md (9 rows)` and `(11 rows):
+AMBIGUOUS:validation.csv,failures.csv`) because the two registers share one 11-column schema — RD-132's
+standing tool defect, whose Tesla instance is exactly 20 rows. Both blocks are written and none dropped: the
+9-row block is `validation.csv`, the 11-row block is `failures.csv`. Evidence, in order of strength: (i)
+content — the nine are first revenue, first delivery, reservation demand, the Daimler line, the capacity push,
+the first positive gross margin, the DOE draw, institutional distribution and the executed offering; the
+eleven are the FY2008 gross loss, the Q4 2008 layoffs, the 2007 cancellations, the repriced notes, the recall,
+the EPA settlement, the filed FY2009 understatement, the significant deficiency, the missing cash-receipt data,
+the deepening equity deficit and the unsupported near-collapse memory; (ii) part 2's own emission instruction
+list and its close-out census both print `validation 9 · failures 11`; (iii) block order — validation precedes
+failures, matching the reference register order. The attribution is printed inside both registers as a
+`MERGE[…]` tag so a cold reader finds the reasoning in the data, not only in the merge notes.
+
+**Source ids: minted `S4369`–`S4392`** by `python tools/id_mint.py --count 24 --company company_043_tesla
+--claim --agent tesla-s1-merge`, allocated **above the highest live id** (next assignable was `S4369`; the
+mint did not re-enter the gap of 37 registry ids never written into any `sources.csv`). The provisional →
+minted binding table is in `03_quality_control/tesla_s1_merge_notes.md`, and the aliases are printed inside
+each surviving row. Citation cells in all nine registers were re-pointed to minted keys; the narrative slices
+keep their dossier-local labels (`P1Sxx`, `P2Sxx`, `P1U-xx`, `P2U-xx`) as protected history, resolved by the
+mapping table — no `S####` pointer in prose is left dangling. **Carried caution:** an `S####` inside quoted
+OCR text is print, not a pointer (RD-131's `S435` dollar amount); nothing inside a quotation was re-pointed.
+
+**Conflicts re-keyed as both parts instructed:** `P1U-07/08/09` → **`U.7`/`U.8`/`U.9`**; `P2U-10`…`P2U-22` →
+**`U.10`…`U.22`**; the probe's `U.1`–`U.6` unchanged. The §U declaration above is **widened from part 2's
+`U.1-U.6` to `U.1-U.23`**, which is precisely the obligation part 2's §U-pre stated: "until that edit happens,
+a green anchors result means the six live rows are declared, not that the conflict set is covered." Part 2's
+own declaration line survives verbatim inside Volume 2; the merge line above is the authoritative one, because
+the anchor gate reads the first declaration in the file. Parity is **23 declared §U anchors ↔ 23
+`conflicts.csv` rows**, re-proved by the post-write census recorded in `_MANIFEST.md`.
+
+**One conflict minted by the merge (`U.23`), and one supersession declined.** Part 2's quantitative row for the
+refundable reservation liability asserts that its figure "SUPERSEDES the 2009-09-30 $24.8m figure part 1
+carried", yet part 2's own channels and decision rows print $26.0m at **2009-12-31** — a period-end for which
+neither emission registered a carrier. "Supersede, don't erase" governs documents; it does not license a
+supersession across two different dates. Part 1's 2009-09-30 row stands, part 2's 2010-03-31 row stands, the
+2009-12-31 value is **UNKNOWN**, and the contradiction is carried as `conflicts.csv` row `U.23` with an anchor
+line at the foot of this file rather than smoothed into a single series. The web budget on this pass was **0
+calls and 0 were made**, so the merge refused the fetch rather than adjudicate against bytes it does not hold;
+the fetch is named in the addendum below.
+
+**`## Untried` carry-forward.** Part 2's eleven items (NEW-1…NEW-11) are carried verbatim inside Volume 2.
+**Part 1's own `## Untried` block is not on disk**: `_parts/s1_p1.md` ends at a stray `#` immediately after its
+last `data_gaps` block, while its body cites "## Untried NEW-1", NEW-2, NEW-3 and NEW-4 four times — RD-132's
+Nvidia defect class, where a pass's own report is not evidence that the bytes exist. Part 2 records that part
+1 listed eleven routes, and every route part 1 names by number is present in part 2's list, so no ROUTE is
+lost; what is unrecoverable is **part 1's wording of them**, and that is reported here rather than
+reconstructed. The probe dossier's eight routes (U-1…U-8) are carried in the addendum at the foot of this file
+with the five-corpus-family status table, which a T3 verdict is required to state.
+
+**Residue NOT applied, and why.** (1) The probe's twelve claim records `F01`–`F12` in
+`research/A_chronology_feasibility.md` are dossier prose, not register rows; the census never requests them and
+Volume 1 cites them by label wherever a part extends or corrects one. (2) The probe's `S0001`–`S0012` hand-fetch
+rows were folded into the scripted rows that describe the same documents, except the two no part registered:
+the CourtListener federal-registry answer (`S4391`) and the explicit no-carrier row for the dispute's own
+documents (`S4392`) — which is exactly why the third emission had to be censused at all. (3) Part 1's
+`P1S10`/`P1S12` and part 2's `P2S01`/`P2S13`/`P2S14`/`P2S15` re-registrations of documents already on the
+register were folded per §9.4 ("never re-define" a source id), with their passages and FETCH REQUESTs preserved
+in the surviving rows. (4) `research/_harvest_queries_tesla.json`, `research/_harvest_queries_tesla_ca2.json`
+and `research/_write_registers_tesla.py` are inputs and a build script, not emissions: untouched, not applied.
+(5) Nothing was refused: 0 emission rows were discarded for being unattributable, including the 20-row
+ambiguous pair.
+
+---
+
+## Volume 1 — part 1 (§Header, §Boundary, §A–§F, claim records P1-01–P1-33 and its register emission)
+
+# Tesla, Inc. — Stage 1, part 1
+
+## Header
+
+STATUS: WRITTEN 2026-09-27 (authoring pass 1, agent `tesla-s1-p1`)
+
+### Dataset, stage, and how to read this part
+
+*One document split for the file cap (method §9.3). Section letters, claim IDs and register-row IDs
+run continuously across parts: **§Header, §Boundary and §A–§F live here (`_parts/s1_p1.md`)**; §G–§U
+and any later appendix belong to subsequent parts. Cross-references use the form
+`(Tesla S1 §B.2, part_1)`. Nothing is renumbered to make a part look self-contained.*
+
+**Dataset:** The Founder's Playbook — forensic reconstruction of what each company in the frozen
+universe (`00_universe/`) looked like while its outcome was still unknown.
+
+**Company (rank 43):** today's registrant **Tesla, Inc.**, CIK 1318605, which this stage writes under
+the name it actually filed under: **Tesla Motors, Inc.** The entity question was settled by the probe
+and is **not** re-opened here.
+
+**Stage:** 1 of 3. **Span:** **2003-01 → 2010-06-29** (the 424B4 final prospectus date, taken as the
+stage's closing edge). **Stage definition:** origin → first real-world experiment → repeatable
+validation → scalable company formation. For a hardware company §7's adaptation rule applies, so the
+four beats are *the concept and the licence, the prototype and the pre-order book, the first delivered
+car and the first filed revenue, and the capital-and-listing formation* — all four are inside this
+window. **Everything after 2010-06-29 is `(PB)` (post-boundary)** and is labelled as such wherever a
+later document is used to say anything about the window.
+
+**File:** part 1 of an expected 3 for Stage 1. Tier **T3 register** (§15.2, re-issued unchanged by
+`research/A3_intake_regrade.md`): short narrative plus registers. **§15.2 makes §K (money), §N
+(decisions) and §U (conflicts) mandatory at T3; they are NOT in this part** (they belong to §I–§U in a
+later part). This part's §B carries the founder-attribution obligation in full, and the conflicts
+raised here are minted into `conflicts.csv` at §U-merge.
+
+**Hindsight firewall (§2).** Nothing in this part treats the eventual company as evidence that a
+2003–2009 decision was rational or inevitable. Three specific applications. (i) The Roadster is
+described as a product with a filed negative gross margin in its first year of revenue
+(§D.3), not as the platform that "made" Tesla. (ii) The Daimler powertrain arrangement of May 2009 is
+recorded as a **single-customer arrangement the registrant itself flagged as terminable and
+concentrated** (§F.3), not as a validation by a legacy OEM. (iii) The words "visionary", "prescient"
+and "inevitable" do not occur in this volume. The company's own 2009–2011 marketing sentences
+("one of America's hottest brands", Advertising Age, November 2009) are quoted **only** as evidence
+that the registrant selected that datum for a prospectus, never as third-party validation.
+**Anti-hagiography test applied per §2 to every coda in this part.**
+
+**Record-selection null (§2, and it is unusually strong here).** What is unrecoverable *because the
+winners' archive is the one that was kept*, and because of filing duty rather than by accident: this
+company had **no SEC reporting obligation whatsoever before 2009-04-09**, so the internal record of
+2003–2008 — who deliberated, what was rejected, what failed, how close the money ran — was never
+filed and largely never printed. Concretely, in the 1,750-filing EDGAR slice for CIK 1318605, the
+12 rows in 2005-02-17 → 2009-01-12 are SEC-generated REGDEX paper entries carrying **no
+company-authored narrative**, and 2003 and 2004 are **empty** (`A3_intake_regrade.md`, §Index;
+`sources/_index/submissions.csv`). Every positive statement this part makes about 2003–2008 is
+therefore **a company telling a securities regulator what happened up to seven years earlier, in a
+document written to sell shares** — `RETROSPECTIVE SOURCE` per §6 on every such row. What is *not*
+lost and is rarely noted: the registrant's **own pre-IPO numbers** survive in filed form
+(statements of operations for FY2006/FY2007/FY2008 and 9M2009 inside the S-1 lineage, §D.3/§F.2), so
+the null is about *decisions and failures*, not about money.
+
+**Confidence (§3):** **High** = 2+ independent origins, or a primary document for its own year;
+**Medium** = one reliable source, or a retrospective-only primary, or a date merely corroborated
+later; **Low** = conflicting, vague, or retrospective-only with no primary carrier;
+**UNKNOWN** = a finding, never a gap to fill or to smooth.
+
+**THE SINGLE-LINEAGE FINDING, stated once and enforced everywhere (§3 filing-lineage rule).** This
+company's Stage 1 is documented by **one registrant in two instrument families and no third voice at
+all**. Held today: **76 documents across 24 accessions** — an S-1 of 2010-01-29 plus **seven** S-1/A
+amendments plus the 424B4 of 2010-06-29 (**one registration lineage, one source**, however many
+files); an FY2010 10-K and its 10-K/A (**one instrument**); a 2011 DEF 14A; 2011–2012 S-1s, 8-Ks and
+SC 13G/As, all `(PB)` for stage purposes. The 336-row XBRL series is **not** a third source: its
+forms are 10-Q / 10-K / 10-K/A only, and its earliest `end` date is **2008-12-31**, so it is
+periodic-report data of 2011-and-later vintage (see §A.3). **Corroboration count for the founding
+period across this entire 59.5 MB corpus is zero independent carriers.** Where the same number appears
+in the S-1, its amendment and the 424B4, that is **one voice speaking three times**, and every
+register row below carries `independence_note` accordingly.
+
+**Quantity discipline (binding on every number in this part).** Each quantity carries (i) its
+**carrier** — the specific accession and document; (ii) its **basis** — fiscal vs calendar year, GAAP
+vs non-GAAP, period-end vs average, **face/gross proceeds vs net proceeds**, and for revenue which
+caption printed it; (iii) the tag **CONTEMPORANEOUS** or **RESTATED** relative to the event it
+describes. On this corpus the tag is nearly always RESTATED in the §6 sense (*a later instrument
+reporting an earlier period*), and it is RESTATED in the accounting sense too where a 2011-vintage
+10-K/10-Q carries an FY2008/FY2009 comparative. No number in this part is presented as if it were
+written at the time it describes, except the three held contracts of §E.2, which are contemporaneous
+documents of the periods they govern.
+
+**ID scheme (§13, read before citing).** `P1-xx` claim records and `P1Sxx` / `P1Qxx` / `P1Txx` /
+`P1Cxx` / `P1Gxx` register rows in this part are **dossier-local**. Global `source_id` blocks are
+assigned **centrally at merge** (§13), so nothing here may be treated as a global key. The probe's
+registers at `research/` hold `S0001`–`S0012` and conflicts `U.1`–`U.6`; **this part does not rewrite
+them and does not reuse their keys.** New conflicts are minted `P1U-07…` with a merge instruction to
+re-key them into the `U.` series alongside the probe's. Probe claim records `F01`–`F12` are cited by
+that label where this part extends or **corrects** them.
+
+---
+
+## Boundary
+
+STATUS: WRITTEN 2026-09-27
+
+**Geometry note.** This section enumerates candidate opening and closing edges, names the held
+document behind each, and says why each rival **fails**. Two of the probe's edges are **extended on
+new evidence** here, one is **corrected**, and the first-financing edge stays where the probe left it:
+**UNKNOWN**.
+
+### 1. Opening edge
+
+| # | Candidate opening edge | Held carrier | Verdict |
+|---|---|---|---|
+| 1 | **2003-07-01 — Delaware incorporation** | S-1 2010-01-29, audited Note 1 `Overview of the Company`: "Tesla Motors, Inc. … was incorporated in the state of Delaware on July 1, 2003" | **ADOPTED**, with the probe's confidence unchanged: **High** that the entity's own filings fix the date, **Medium** that the date is independently right (no Delaware certificate, no county record, no non-corporate carrier held). |
+| 2 | "July 2003" formation, unqualified | same lineage, risk factor: "We were formed in July 2003" | **MERGED into 1, not a rival.** The two strings are different captions of one lineage: an **audited financial-statement note** (`F-…` Note 1) and a **non-audited risk factor**. Note 1 is the stronger carrier and the day-level edge is taken from it. |
+| 3 | 2004-04 (Musk becomes Chairman) / 2004-03 (Straubel joins) | S-1 2010-01-29 director/officer biographies | **REJECTED as the opening edge; RETAINED as §1's person-level layer.** These fix *relationships to* the entity, not the entity's existence. Using them as the opening date would silently adopt one side of the attribution dispute (§B.3). |
+| 4 | 2001 → 2003-06-30 pre-history | **no held document** | **RETAINED AT UNKNOWN, NOT DELETED** (probe's row, unchanged and not weakened). Any account of conception, staffing or funding before incorporation has **zero carrier in this 59.5 MB corpus**. The three earliest `tesla.com` captures (2002-11-25, 2003-02-09, 2003-02-14) **pre-date the entity** and so cannot be its history — domain precedence, probe's U.4, still live. |
+
+**One addition this pass makes to the opening edge, and it is a hard one.** The earliest
+**dated act of the entity** as a commercial actor is now held as bytes and is not the plan:
+**"In May 2004, we entered into a license agreement with AC Propulsion, Inc. ('ACP') and obtained a
+nonexclusive, nontransferable, perpetual license to ACP's patented and proprietary designs, techniques
+and methods that relate to electric vehicle propulsion and integration. As consideration … we paid a
+license fee of $0.5 million"** (S-1 2010-01-29, notes to the financial statements). Between the July
+2003 equity plan (a governance act) and May 2004 there is **no dated corporate act of any kind in the
+held corpus**. See §C.2 for what that licence does and does not bear on the founder question.
+
+### 2. First-financing edge — UNKNOWN, and this pass confirms the probe rather than fixing it
+
+The probe left the first financing's **date** UNKNOWN while the **structure** was filed
+(`research/A_chronology_feasibility.md` N4, and data gap row "First-financing dates 2003-2006 UNKNOWN
+although the share structure is filed"). **This pass re-searched the enlarged corpus and the gap
+survives.** The S-1's preferred-stock table gives Series A at **$0.493 per share, 7,213,000 shares,
+liquidation preference $3,556 thousand, proceeds net $3,549 thousand** and Series B at **$0.740,
+17,459,456 shares, $12,920 / $12,899 thousand** — **with no closing date attached to either**.
+`February 2004` returns **0 occurrences** in the 2010-01-29 S-1 on tag-stripped text (the probe's null,
+reproduced at 10× the bytes). Later rounds **are** dated in the same table: Series C "May 2006 and June
+2006 … totaling $40.0 million", Series D "May 2007 … $45.0 million", Series E "May 2009 … $50.0 million
+of proceeds … 19,901,290 shares … at $2.512". **So the record dates the third round and not the
+first** — which is itself a finding about what a 2010 prospectus chose to reconstruct.
+The fix is the exhibit set (Series A/B purchase agreements), and **the exhibits now held are not those
+agreements** (§E.2: 10.19 and 10.22 are leases, 10.23 is the Lotus supply agreement). Edge stays
+**UNKNOWN**; the route stays open as `## Untried` **NEW-1**.
+
+### 3. Internal markers and the closing edge
+
+| Boundary | Date | Carrier | Contemporaneity | Conf |
+|---|---|---|---|---|
+| Earliest dated entity-wide supply commitment | **2005-07-11** | held exhibit **10.23**, Lotus Cars Limited "Supply Agreement for Products and Services", title page "Dated 11 July 2005" | **CONTEMPORANEOUS** — one of only three held documents written in the period they govern | High |
+| First filed revenue period | **FY2007** | S-1 MD&A: "We recorded our first revenue during the year ended December 31, 2007 which was derived entirely from the online sale of Tesla-branded merchandise after the launch of our Tesla online store in December 2007" | RESTATED (2010 statement about 2007) | High as to the statement |
+| First physical Roadster delivery | **2008-02** | S-1 2010-01-29: "we did not physically deliver our first Tesla Roadster until February 2008" | RESTATED | **NEW: see §B.4/U.5-extension — this datum was not held by the probe and it tightens the probe's "early 2008"** |
+| Volume production | **2008-10** | same lineage: "prior to initiation of volume production of the Tesla Roadster in October 2008" | RESTATED | Medium |
+| **Stage 1 closes / Stage 2 → 3 hand-off** | **2010-06-29** | 424B4 (final prospectus; S-1 declared effective 2010-06-28) | **CONTEMPORANEOUS** | High |
+
+**Why 2010-06-29 and not a later date.** It is the first date in this company's record fixed by a
+document written at the time it describes. Everything before 2009-04-09 is memory-on-file; from here it
+is record. The closing edge is **not** a claim that the company became scalable on that day; it is the
+edge past which this part stops using the registrant's own contemporaneous voice. Material from the
+2011 10-K, the 2011 DEF 14A, the 2011–2012 accessions and the 2011-vintage XBRL is used **only** as
+`(PB)` evidence *about the writing of the record*, and every such use is labelled.
+
+**A boundary this part cannot close, and does not pretend to.** Where Stage 1's "repeatable
+validation" beat falls between 2008-02 (first physical delivery), 2008-10 (volume production), FY2008's
+filed **negative** gross margin and the 937-vehicles-sold count at 2009-12-31 is a judgment the corpus
+does not settle: the three candidate dates are **all one lineage and mutually inconsistent in their
+own arithmetic** (§B.4). It is recorded as a conflict, not averaged.
+
+### Claim records (§Header, §Boundary)
+
+P1-01 Claim: The registrant's audited Note 1 states it was incorporated in Delaware on 2003-07-01. — Date: 2003-07-01 — Source: Form S-1 primary doc `ds1.htm`, acc. 0001193125-10-017054, Notes to Consolidated Financial Statements, Note 1 "Overview of the Company" — Source date: 2010-01-29 — URL: local `sources/sec/0001193125-10-017054_ds1.htm` (2,362,163 B) — Archived: — — Tier: 1 — Class: FACT (as to the statement, in the audited note) / RETROSPECTIVE INTERPRETATION (as to the event) — Passage: "Tesla Motors, Inc. ('Tesla', 'we,' 'us' or 'our') was incorporated in the state of Delaware on July 1, 2003." — Conf: High (statement), Medium (event, single lineage, no registry carrier) — Corroboration: 0 independent — Conflicts: probe U.1
+
+P1-02 Claim: The same lineage states in a non-audited risk factor that it was "formed in July 2003", the month-level counterpart of Note 1. — Date: 2003-07 — Source: S-1 `ds1.htm`, risk factors — Source date: 2010-01-29 — URL: local, same accession — Archived: — — Tier: 1 — Class: FACT (statement) — Passage: "We were formed in July 2003." — Conf: High (statement) — Corroboration: same lineage as P1-01 — Conflicts: probe U.1
+
+P1-03 Claim: Between the July 2003 equity plan and May 2004 the held corpus records no dated corporate act at all; the earliest dated commercial act is a $0.5m perpetual non-exclusive AC Propulsion licence. — Date: 2004-05 — Source: S-1 `ds1.htm`, notes to financial statements, "5. License Agreement" — Source date: 2010-01-29 — URL: local — Archived: — — Tier: 1 — Class: FACT (statement) — Passage: "In May 2004, we entered into a license agreement with AC Propulsion, Inc. ('ACP') and obtained a nonexclusive, nontransferable, perpetual license to ACP's patented and proprietary designs, techniques and methods that relate to electric vehicle propulsion and integration." — Conf: High as to the statement; Medium as to the date (single retrospective carrier) — Corroboration: 0 independent — Conflicts: None
+
+P1-04 Claim: The Lotus supply agreement is held as a filed exhibit dated 11 July 2005, making it one of only three contemporaneous documents in the corpus. — Date: 2005-07-11 — Source: Exhibit 10.23 `dex1023.htm`, acc. 0001193125-10-017054 (568,385 B) — Source date: 2005-07-11 — URL: local `sources/sec/0001193125-10-017054_dex1023.htm` — Archived: — — Tier: 1 — Class: FACT (document with its own date) — Passage: "Supply Agreement for Products and Services - Lotus Cars Limited Exhibit 10.23 Confidential Treatment Requested by Tesla Motors, Inc. Dated 11 July 2005" — Conf: High — Corroboration: 1 (the agreement is a two-party instrument, but both parties' names appear on one held copy — see note) — Conflicts: None. **Note:** `independence_note` records that a **redacted-in-part** two-party contract held as one copy is **one carrier**, and that "Confidential Treatment Requested" means undisclosed terms exist and are **not** in the held bytes.
+
+P1-05 Claim: Series A and Series B preferred closings are undated in the held record although their share counts, prices and net proceeds are filed. — Date: UNKNOWN — Source: S-1 `ds1.htm` preferred-stock table + statement of stockholders' equity — Source date: 2010-01-29 — URL: local — Archived: — — Tier: 1 — Class: FACT (presence of amounts, absence of dates) — Passage: "Series A $ 0.001 $ 0.493 7,213,000 7,213,000 $ 3,556 $ 3,549 * Series B 0.001 0.740 17,459,456 17,459,456 12,920 12,899" — Conf: High — Corroboration: 0 independent — Conflicts: probe data-gap row 3 (this pass **confirms** it on 10× the bytes). **Basis correction made on re-reading the carrier:** the table is Note 6 "Convertible Preferred Stock", **as of September 30, 2009 and marked Unaudited**, and its columns are `Par Value | Share Price | Authorized | Issued and Outstanding | Liquidation Preference | Proceeds, Net`. So `$3,549` is **proceeds, net** and `$3,556` is **liquidation preference** — liquidation preference is **not** gross proceeds and the **gross/face figure is not filed for Series A at all**. The totals row likewise prints `$442,151` liquidation preference and `$319,225` proceeds, net.
+
+P1-06 Claim: Later rounds are dated in the same carrier that leaves the first two undated. — Date: 2006-05/06, 2007-05, 2009-05 — Source: S-1 `ds1.htm`, notes — Source date: 2010-01-29 — URL: local — Archived: — — Tier: 1 — Class: FACT (statement) — Passage: "In May 2006 and June 2006, we completed financing totaling $40.0 million through the issuance of 35,242,290 shares of Series C convertible preferred stock at $1.135 per share." — Conf: High (statement), Medium (event) — Corroboration: 0 independent — Conflicts: None
+
+P1-07 Claim: The 424B4 of 2010-06-29 is the closing edge and the only contemporaneous registration instrument of the stage. — Date: 2010-06-29 — Source: `d424b4.htm`, acc. 0001193125-10-149105 (2,677,451 B) — Source date: 2010-06-29 — URL: local — Archived: — — Tier: 1 — Class: FACT — Passage: NO_VERBATIM_PASSAGE_RECORDED (the fact is the instrument's own filing date, read from `sources/sec/_MANIFEST.csv`) — Conf: High — Corroboration: n/a — Conflicts: None
+
+## A
+
+STATUS: WRITTEN 2026-09-27
+
+### A.1 The state of the company at the stage edge, as its own filing states it
+
+The 2010-01-29 S-1 — the earliest company-authored document in existence for this issuer — describes,
+in its own voice, a company **six weeks from listing** with the following filed position. Every line is
+from that lineage (one source; the 424B4 of 2010-06-29 repeats it at the edge):
+
+| Variable | Value | Carrier (accession / doc) | Confidence |
+|---|---|---|---|
+| Entity and domicile | Tesla Motors, Inc., Delaware, incorporated 2003-07-01 | 0001193125-10-017054 `ds1.htm` Note 1 | High (statement) / Medium (event) |
+| Products in customers' hands at 2009-12-31 | 937 production vehicles sold to customers, "almost all … in the United States and Europe" | `ds1.htm` risk factor | High (statement), Medium (event) |
+| Revenue FY2008 (audited, as filed) | **$14,742 thousand** automotive sales, **including $3,458 thousand of zero-emission-vehicle credit sales** | `ds1.htm` selected financial data / statements of operations | High |
+| Gross margin FY2008 | **$(1,141) thousand — negative** | `ds1.htm` statements of operations | High |
+| Revenue 9M2009 | $93,358 thousand (of which Europe $12,881 thousand; ZEV credits $7,645 thousand) | `ds1.htm` statements of operations + geographic note | High |
+| First revenue period | **FY2007, $73 thousand, entirely Tesla-branded merchandise** sold through an online store launched December 2007 | `ds1.htm` MD&A | High (statement) |
+| Employees | **514 at 2009-12-31**, up from **279 at 2007-12-31**; **≈60 laid off in the quarter ended 2008-12-31** | `ds1.htm` (two places: growth-risk paragraph; 2008 downturn risk factor) | High (statement) |
+| Stores | first store Los Angeles **May 2008**; **10 stores in North America and Europe at 2009-12-31** | `ds1.htm` | High |
+| Accumulated deficit | **$236.4 million** at 2009-09-30; net losses $30.0m FY2006, $78.2m FY2007 | `ds1.htm` | High |
+| Capital raised, all series | preferred: 213,006,077 shares authorised / 208,917,237 issued and outstanding at **2009-09-30, unaudited**; **liquidation preference $442,151 thousand; proceeds, net $319,225 thousand** across Series A–F. **No gross-proceeds total is filed for the series as a whole** | `ds1.htm` Note 6 preferred-stock table | High (statement) |
+| Equity value at risk in 2008 | negative stockholders' equity: **$(199,714) thousand at 2008-12-31** and **$(253,523) thousand at 2009-12-31** | XBRL facts, carriers 10-K and 10-K/A of FY2010 — `(PB)` instrument reporting an in-window balance | High that the number is the registrant's; **RESTATED (2011 vintage)** |
+
+### A.2 What the state summary cannot say
+
+The corpus cannot say what the company **decided**, only what it **filed**. There is no held board
+minute, no held internal memo, no held rejected alternative, and no held contemporaneous third-party
+account of any 2003–2008 event. §2's record-selection null applies with unusual force here, and is
+restated in §A.3 and (at the whole-file level) in §S of a later part: the archive that survives for
+this period is **the one a successful issuer kept in order to raise money**, and it is a single voice.
+
+### A.3 The most important structural finding in this part, stated once
+
+**The company's own pre-IPO numbers reach us only through post-IPO instruments.** This pass verified it
+on the file the fixed downloader produced: `sources/financials/xbrl_early_series.csv`, **336 rows,
+12 distinct tags, forms = 10-Q (173) / 10-K (112) / 10-K/A (51), earliest `end` = 2008-12-31, latest
+2012-12-31, `fy` values beginning 2011**. So the regrade's description of the XBRL set as "pre-IPO money
+carried in the registrant's own XBRL" is right about the *money* and must be tightened about the
+*instrument*: **every XBRL row in this corpus is a `(PB)` document reporting an in-window period**. It
+is registrant-authoritative and it is not contemporaneous. Two consequences bind the registers:
+
+1. An FY2009 figure appearing in **both** the 10-K and the 10-K/A of the same fiscal year is **one
+   lineage**, not two observations — the gate that counts corroboration must fold them. Verified
+   directly: `Revenues 2009-01-01→2009-12-31 = 111,943,000` prints identically in form `10-K` and form
+   `10-K/A`; the same identity holds for `NetIncomeLoss −55,740,000` and `GrossProfit 9,535,000`.
+2. The FY2008 and FY2009 balance-sheet comparatives in the XBRL are **not** the same evidentiary object
+   as the FY2006/FY2007/FY2008 and 9M2009 columns **audited inside the 2010-01-29 S-1**. The former are
+   `(PB)` reprints; the latter are the earliest filed statement of those periods. Where they agree, that
+   is **one registrant agreeing with itself twice**, and the register rows say so.
+
+### A.4 Knowability (§7), for this part
+
+`KNOWABLE` from held bytes: the filed entity date and its captions; the complete preferred-stock
+structure with prices, share counts and gross/net proceeds; FY2006–9M2009 revenue, cost of sales, gross
+profit, headcount and store count as the registrant filed them; three dated in-window contracts; the
+exact date on which the registrant began calling its CEO "one of our founders" (§B.2).
+`NOT KNOWABLE` from any held byte and not knowable by adding more of the same: whether anyone
+"founded" the entity in the sense the question means; what happened between 2003-07-01 and 2004-03;
+the closings of Series A and B; what the disputants said to each other.
+`UNKNOWN`: all of the last four, with routes named in `## Untried`.
+
+### Claim records (§A)
+
+P1-08 Claim: The registrant filed FY2008 automotive revenue of $14,742 thousand including $3,458 thousand of ZEV-credit sales, at a negative gross profit of $(1,141) thousand. — Date: 2008 FY — Source: S-1 `ds1.htm`, selected financial data and audited statements of operations — Source date: 2010-01-29 — URL: local `sources/sec/0001193125-10-017054_ds1.htm` — Archived: — — Tier: 1 — Class: FACT (as filed, audited statements inside the lineage) — Passage: "Automotive sales (including zero emission vehicle credit sales of $3,458, $495 and $7,645, for the periods ended December 31, 2008, September 30, 2008 and 2009, respectively) … Gross profit (loss)" — Conf: High — Corroboration: 0 independent (same lineage repeats it in the 424B4) — Conflicts: None. Basis: **fiscal year ended 2008; GAAP; caption "Automotive sales"; US$ thousands.** Derived, not observed: automotive revenue excluding ZEV credits = 14,742 − 3,458 = **$11,284 thousand**.
+
+P1-09 Claim: The first revenue the registrant ever recognised was $73 thousand of branded merchandise in FY2007, not vehicles. — Date: 2007 FY — Source: S-1 `ds1.htm` MD&A, "Comparison of the Years Ended December 31, 2006 and 2007" — Source date: 2010-01-29 — URL: local — Archived: — — Tier: 1 — Class: FACT (statement) — Passage: "We recorded our first revenue during the year ended December 31, 2007 which was derived entirely from the online sale of Tesla-branded merchandise after the launch of our Tesla online store in December 2007." — Conf: High (statement), Medium (that it is the true first receipt of any kind — no ledger, no bank record, no third party held) — Corroboration: 0 independent — Conflicts: None
+
+P1-10 Claim: Every row of the held XBRL early series is post-IPO-vintage, with earliest period-end 2008-12-31 and fiscal years beginning 2011. — Date: 2008-12-31 → 2012-12-31 — Source: `sources/financials/xbrl_early_series.csv`, 336 rows, enumerated this pass — Source date: UNKNOWN (registry extract produced by the fixed downloader; the extract itself carries no retrieval date field) — URL: local — Archived: n/a — Tier: 1 — Class: FACT (property of the held file) — Passage: NO_VERBATIM_PASSAGE_RECORDED — Conf: High — Corroboration: n/a — Conflicts: None. **This row qualifies, but does not supersede, `A3_intake_regrade.md` §Index's description of the same asset.**
+
+P1-11 Claim: The registrant reported a workforce of 279 at 2007-12-31 and 514 at 2009-12-31, and disclosed that it "had to lay off approximately 60 employees and curtail our expansion plans" in the quarter ended 2008-12-31. — Date: 2008 Q4 — Source: S-1 `ds1.htm`, growth risk factor and 2008 downturn risk factor — Source date: 2010-01-29 — URL: local — Archived: — — Tier: 1 — Class: FACT (statement) — Passage: "during the economic downturn of 2008, we had difficulty raising the necessary funding for our operations and, as a result, in the quarter ended December 31, 2008 we had to lay off approximately 60 employees and curtail our expansion plans" — Conf: High (statement), Medium (the event; single retrospective carrier, "approximately") — Corroboration: 0 independent — Conflicts: None
+
+## B
+
+STATUS: WRITTEN 2026-09-27
+
+**What this section does and does not do.** The founder-credit question is live and contested for this
+company, and this section does **not** resolve it. It records **who is credited, by which held
+document, on which date, at which tier, and what that document cannot support**. Per RD-124's standing
+lesson — *a role recorded in a document is not automatically a founding claim, and an index entry is
+not a fact* — the section separates (i) **office held**, (ii) **capital contributed**, (iii)
+**founder-labelled**, and (iv) **self-described as founder**, because the corpus carries all four at
+different dates and for different people, and collapsing them is exactly how the dispute becomes
+unresearchable. **No output of this section is "co-founder" as a settled fact, and no output is "not a
+founder".**
+
+### B.1 The registrant's dated role layer, 2003–2009
+
+All of it is **one lineage** (S-1 2010-01-29 → its amendments → 424B4 2010-06-29), and all of it is a
+**RETROSPECTIVE SOURCE** for the years it dates (§6). Confidence is **High** *as to the statement*
+and **Medium** *as to the event*, uniformly, because there is no second carrier anywhere in the
+corpus or in any other family this project has reached.
+
+| Person | Office and start date, as filed | Where the earliest instance sits | What the carrier cannot support |
+|---|---|---|---|
+| Elon Musk | "has served as our Product Architect since May 2008, our Chief Executive Officer since October 2008 and as Chairman of our board of directors since April 2004" | S-1 `ds1.htm` 2010-01-29, director/officer biographies | Cannot support any relationship **before 2004-04**, nor that Chairman-at-April-2004 was his *first* relationship, nor that it was not |
+| Kimbal Musk | "has been a member of our Board of Directors since April 2004" | same paragraph-group | Cannot support an employment relationship, an equity role, or any causal connection to the April 2004 date shared with Elon Musk |
+| Jeffrey B. Straubel | "Chief Technology Officer since May 2005 and previously served as our Principal Engineer, Drive Systems from March 2004 to May 2005" | same | Cannot support a founding act; **March 2004 is the earliest date the corpus attaches to any natural person in a Tesla role** |
+| Martin Eberhard | appears **twice** in the 2010-01-29 S-1, both in the Series D related-party disclosure, as a purchaser of **4,097** Series D shares, "a former officer and director" | `ds1.htm` related-party paragraph and purchaser table | Cannot support *when* he was an officer or director, *what* he did, or that he was or was not a founder. **The filing does not say**, and its silence is a drafting fact, not evidence against him |
+| Marc Tarpenning | identical treatment: **4,097** Series D shares, "a former officer and director", 2 occurrences | same | same |
+| Deepak Ahuja | "has served our Chief Financial Officer since July 2008" | same | (post-founder-window hire; recorded because it bounds when the finance function was staffed) |
+
+**The zero count that matters most, and it is a count of whole words on tag-stripped text (probe
+method reproduced on 10× the bytes).** Across the 2010-01-29 S-1 and the FY2010 10-K, **`Gottschlich`
+returns 0 occurrences** and the incorporator / first-director slate of July 2003 is **never
+enumerated**. No held document names who signed the Delaware charter.
+
+### B.2 Who the registrant calls a founder, and from exactly when
+
+This is the load-bearing datum of the part, and **this pass narrows the probe's bracket by one
+document that the probe did not hold.**
+
+The probe recorded (`research/A_chronology_feasibility.md` F05) that "one of our founders" is **absent
+from the 2010-01-29 S-1** and **present in the 2010-04-29 S-1/A**, and explicitly discounted its own
+confidence — "Medium that the bracket is 2010-01-29…04-29 (**2010-03-29 amendment not fetched**)".
+**The fixed downloader has since fetched that amendment** (`0001193125-10-068933`, `ds1a.htm`,
+2,170,026 B). Counted this pass on tag-stripped text across the whole lineage:
+
+| Instrument (held) | Date | "one of our founders" | "founder"/"co-founder" of Tesla, applied to a named person |
+|---|---|---|---|
+| S-1 original, `0001193125-10-017054` | 2010-01-29 | **0** | 0 |
+| **S-1/A, `0001193125-10-068933`** | **2010-03-29** | **0** | 0 |
+| S-1/A, `0001193125-10-099603` | 2010-04-29 | **1** | 1 (Musk) |
+| S-1/A ×3, 2010-05-27 / 06-02 / 06-15 | 2010 | 1 each | 1 each |
+| 424B4, `0001193125-10-149105` | 2010-06-29 | 1 | 1 (Musk) |
+| FY2010 10-K, `0001193125-11-054847` | 2011-03-03 `(PB)` | **0** | **0** — and `founder` = 0, `co-founder` = 0 outright |
+| 2011 DEF 14A, `0001193125-11-092509` | 2011-04-08 `(PB)` | 1 | 1 (Musk) |
+
+**Finding P1-12, stated at the tier the bytes support.** The founder adjective entered this issuer's
+registration statement **between 2010-03-29 and 2010-04-29**, at a single amendment, in a
+director-qualifications paragraph. The bracket is now bounded by **two instruments this pass holds and
+read**, not by an inference across a gap. **Tier 1, Class FACT (a documented drafting change),
+Confidence High** — and, unchanged from the probe, **Confidence UNKNOWN as to why**: nothing in the
+corpus states the motive, and this part does not supply one.
+
+**Two things the narrowing reveals that the probe's wider bracket concealed.**
+
+1. **The 10-K removes the word entirely.** The final prospectus calls the CEO "one of our founders"
+   (2010-06-29) and the periodic report for the *same fiscal year* contains **zero** occurrences of
+   `founder` or `co-founder` (2011-03-03). Two instruments, one issuer, seven months apart, and the
+   adjective is present in the sale document and absent in the annual report. This part records that
+   as a **dated drafting difference inside one lineage** and declines to interpret it (§U-merge).
+2. **The registrant uses founder-language fluently — about other companies.** The *original*
+   2010-01-29 S-1 contains "Mr. Musk **co-founded** PayPal … and Zip2 Corporation", and, in the
+   immediately neighbouring Straubel biography, "Mr. Straubel was the Chief Technical Officer and
+   **co-founder** of Volacom Inc." So the drafting convention is not that the word is unused: it is
+   that **the word is used precisely, attributed to named persons, and — before 2010-04 — never
+   attached to this entity**. That cuts against any reading of the original silence as a stylistic
+   accident, and equally against reading the later addition as evidence about 2003. **Both**
+   implications are recorded; neither is resolved.
+
+### B.3 The three statements the registrant makes about Musk, which are in the same document and are not reconciled by it
+
+Held bytes, 2010-01-29 S-1 — i.e. **before** the founder adjective exists — already contain:
+
+* **Dating.** "Mr. Musk has contributed significantly and actively to us **since our earliest days in
+  April 2004** by recruiting executives and engineers, contributing to the Tesla Roadster's engineering
+  and design, raising capital for us and bringing investors to us, and raising public awareness of our
+  products." This phrase appears **once in the 2010-01-29 S-1, once in the 2010-03-29 amendment, once
+  in the 424B4, and zero times in the 10-K.**
+* **Capital.** "Elon Musk, has been working for an annual base salary of **$33,280**, during his tenure
+  as our Chief Executive Officer in order to help us preserve our cash balances. **Prior to December
+  2009, Mr. Musk also did not receive any equity compensation for his services.**"
+* **Characterisation of his equity.** The compensation-discussion methodology in the same 2010-01-29
+  document: "the vast majority of these CEOs acquired their equity through **compensatory equity grants
+  as opposed to preferred stock acquired via investment**." The **Musk-specific** clause — "as was the
+  case with Mr. Musk" — is **not in the S-1**; it is added in the 2011 DEF 14A (`(PB)`). This part
+  records the difference precisely because conflating the two would attribute to 2010 a sentence first
+  written in 2011.
+
+**The internal tension, named and not smoothed.** The carrier dates the entity's formation to
+**July 2003** and simultaneously dates "our earliest days" to **April 2004**, in the same document,
+without remark. Those two "earliest" claims are nine months apart and are not reconciled by anything in
+the lineage. That is a property of the record, not of this reconstruction; it is minted as conflict
+**P1U-07** below and mirrored into `conflicts.csv`.
+
+### B.4 The Roadster chronology, on which the same lineage gives four dates
+
+The probe's U.5 recorded a conflict between "early 2008" (424B4/S-1) and "≈2008-09" (10-K arithmetic).
+**The enlarged corpus adds two more in-window statements from the original S-1 itself**, and they are
+not mutually consistent as printed:
+
+* "We initially announced that we would begin delivering the Tesla Roadster in June 2007, but due to
+  various design and production delays, **we did not physically deliver our first Tesla Roadster until
+  February 2008**, and we only achieved higher production of this vehicle in the quarter ended
+  December 31, 2008."
+* "we received a significant number of reservations prior to initiation of **volume production of the
+  Tesla Roadster in October 2008**."
+* "**In June 2009, nine months after its commercial introduction**, we launched the 2010 Tesla Roadster,
+  known as the Tesla Roadster 2" — implying a commercial introduction ≈ 2008-09.
+* "**In July 2009, less than one year after the date of the commercial introduction** of the Tesla
+  Roadster, we introduced a new Roadster model, the Tesla Roadster 2" — the same launch, one month
+  later, at a different interval.
+
+Four dated claims, one issuer, one document family, and no reconciliation. **This part does not pick
+one.** What it does establish is narrower and useful: the registrant distinguishes *physical delivery of
+the first car* (February 2008) from *volume production* (October 2008) from *commercial introduction*
+(an undefined milestone it dates two incompatible ways), and a stage edge may be drawn only against a
+named one of those three. Minted as **P1U-08**, extending probe U.5.
+
+### B.5 Founder state at the open of the stage
+
+`UNKNOWN`, and named as such rather than filled. The corpus holds **no** statement by any of the five
+named people about the founding, **no** interview, **no** correspondence, **no** docket, and **no**
+contemporaneous press. What it holds about the founder state is the registrant's 2010 characterisation
+of one person's conduct from April 2004, at Tier 1, in a document written to sell shares — which is
+FOUNDER CLAIM in §3's sense (the founder stated it and the company printed it), classified
+**retrospective**, and it is the whole of the evidence on that row. The probe's conclusion that
+Tesla's founding has "one documentary voice and no second witness" is **not weakened** by this pass's
+tenfold increase in bytes; it is strengthened, because the added bytes are all the same voice plus
+contracts.
+
+### Claim records (§B)
+
+P1-12 Claim: The phrase "one of our founders," applied to Elon Musk, is absent from the 2010-01-29 S-1 and from the 2010-03-29 S-1/A and first appears in the 2010-04-29 S-1/A. — Date: 2010-03-29 → 2010-04-29 — Source: S-1 lineage accessions 0001193125-10-017054 / -068933 / -099603, counted on tag-stripped held bytes — Source date: 2010-04-29 — URL: local `sources/sec/` — Archived: n/a — Tier: 1 — Class: FACT (documented drafting change) + INFERENCE (that a single amendment carried it) — Passage: "the perspective and experience he brings as our Chief Executive Officer, one of our founders and our largest stockholder" — Conf: High (text and bracket), **UNKNOWN (motive)** — Corroboration: 1 lineage, 0 independent — Conflicts: probe U.2; this record **narrows probe F05**
+
+P1-13 Claim: The FY2010 10-K contains zero occurrences of "founder" and "co-founder" although the final prospectus for the same fiscal year contains one. — Date: 2011-03-03 — Source: `d10k.htm` acc. 0001193125-11-054847 vs `d424b4.htm` — Source date: 2011-03-03 — URL: local — Archived: n/a — Tier: 1 — Class: FACT (documented null) — Passage: NO_VERBATIM_PASSAGE_RECORDED — Conf: High — Corroboration: n/a (an absence) — Conflicts: None. **`(PB)` instrument; used here only as evidence about the wording of the record, not about 2003–2008.**
+
+P1-14 Claim: The original 2010-01-29 S-1 applies founder-language to Musk and to Straubel for other companies while applying none of it to Tesla. — Date: 2010-01-29 — Source: `ds1.htm`, director and officer biographies — Source date: 2010-01-29 — URL: local — Archived: — — Tier: 1 — Class: FACT — Passage: "Mr. Straubel was the Chief Technical Officer and co-founder of Volacom Inc., an aerospace firm which designed a specialized high-altitude electric aircraft platform, from 2002 to 2004." — Conf: High — Corroboration: 0 independent (one lineage) — Conflicts: None
+
+P1-15 Claim: The 2010-01-29 S-1 dates Musk's contribution to "our earliest days in April 2004" — a phrase that coexists in the same document with a July 2003 formation date and never appears in the 10-K. — Date: 2010-01-29 (statement) about 2004-04 — Source: `ds1.htm`, compensation discussion — Source date: 2010-01-29 — URL: local — Archived: — — Tier: 1 — Class: FOUNDER CLAIM (corporate, retrospective) — Passage: "Mr. Musk has contributed significantly and actively to us since our earliest days in April 2004 by recruiting executives and engineers, contributing to the Tesla Roadster's engineering and design, raising capital for us" — Conf: High that the sentence is in the 2010-01-29 original; **UNKNOWN as to the accuracy of the characterisation** — Corroboration: same lineage — Conflicts: **P1U-07**
+
+P1-16 Claim: Eberhard and Tarpenning appear in the founding-window corpus only as Series D purchasers of 4,097 shares each, described as "a former officer and director". — Date: 2007-05 (the Series D round the paragraph describes) — Source: `ds1.htm`, related-party disclosures — Source date: 2010-01-29 — URL: local — Archived: — — Tier: 1 — Class: FACT (presence and of description) — Passage: "Martin Eberhard and Marc Tarpenning, each of whom is a former officer and director" — Conf: High — Corroboration: 0 independent — Conflicts: probe U.3 (this record **extends** it: it is not only a missing label but a *quantity held* — 2 occurrences each, both capital-related)
+
+P1-17 Claim: Musk's filed compensation position is a $33,280 base salary with no equity compensation before December 2009. — Date: 2010-01-29 (statement) — Source: `ds1.htm`, executive compensation (5 occurrences of `33,280` in the lineage, 0 in the 10-K) — Source date: 2010-01-29 — URL: local — Archived: — — Tier: 1 — Class: FACT (statement) — Passage: "has been working for an annual base salary of $33,280, during his tenure as our Chief Executive Officer in order to help us preserve our cash balances" — Conf: High (statement) — Corroboration: 0 independent — Conflicts: None. **Basis: a stated annual rate for the CEO's tenure from 2008-10; not a paid-amount total; not a measure of the value of anything.**
+
+P1-18 Claim: No held document names the July 2003 incorporator or the first-director slate. — Date: 2003-07 — Source: exhaustive string search of the held corpus for a charter or slate enumeration; `Gottschlich` = 0 in the 2010-01-29 S-1 — Source date: UNKNOWN — URL: local — Archived: n/a — Tier: 1 as a documented null — Class: UNKNOWN (the underlying fact) — Passage: NO_VERBATIM_PASSAGE_RECORDED — Conf: High that the corpus lacks it — Corroboration: n/a — Conflicts: None
+
+P1-19 Claim: The registrant distinguishes first physical Roadster delivery (February 2008) from volume production (October 2008) from an undefined "commercial introduction" it dates both ≈2008-09 and inconsistently. — Date: 2008-02 / 2008-10 — Source: `ds1.htm`, business section, two passages — Source date: 2010-01-29 — URL: local — Archived: — — Tier: 1 — Class: FACT (four statements) + INFERENCE (that they are three different milestones) — Passage: "we did not physically deliver our first Tesla Roadster until February 2008, and we only achieved higher production of this vehicle in the quarter ended December 31, 2008" — Conf: High (statements), Low (any single "first delivery" edge) — Corroboration: 0 independent — Conflicts: **P1U-08**, extending probe U.5
+
+P1-20 Claim: The "as was the case with Mr. Musk" clause tying his equity to investment rather than compensation is first in the 2011 DEF 14A, not in the 2010 S-1, which carries only the generic methodology sentence. — Date: 2011-04-08 — Source: `ddef14a.htm` acc. 0001193125-11-092509 vs `ds1.htm` — Source date: 2011-04-08 — URL: local — Archived: — — Tier: 1 — Class: FACT (presence/absence) — Passage: "acquired their equity through compensatory equity grants as opposed to preferred stock acquired via investment" (S-1 form, **without** the Musk clause) — Conf: High — Corroboration: 1 board lineage — Conflicts: None. **This record qualifies probe F08, which dated the characterisation to the proxy only; the proxy is confirmed, and the S-1's antecedent is now named.**
+
+## C
+
+STATUS: WRITTEN 2026-09-27
+
+### C.1 The problem, as the entity's own filing framed it
+
+The corpus has **no** carrier for why anyone started this company; that is `UNKNOWN` and stays so
+(§B.5). What it does have is the registrant's 2010 statement of the engineering and capital problem it
+had been working on, and that statement is a legitimate Tier-1 object **about the corporate framing**:
+in sizing the difficulty it says of its own category that the "Toyota Prius and its hybrid powertrain
+took an estimated $1 billion and over four years and the continuing development of the Chevrolet Volt
+hybrid has been estimated to cost $750 million". A company describing its own task by reference to what
+a hybrid program cost is describing a **capital-intensity problem**, not a software problem, and the
+rest of the filing's structure bears that out — the two revenue lines it reports in the window are
+vehicle sales and **regulatory credits**, and the two supply relationships it names first are a
+**component supplier (Lotus)** and a **purchased licence (AC Propulsion)**.
+
+### C.2 The earliest dated act is a purchase of capability, not an invention
+
+"In May 2004, we entered into a license agreement with AC Propulsion, Inc. … nonexclusive,
+nontransferable, perpetual … As consideration under the license agreement, we paid a license fee of
+$0.5 million." Read against §B, this is the sharpest documentary datum this pass adds to the founder
+question, and it must be stated at exactly the tier it earns: **the entity's first dated commercial act
+in the entire held corpus is the acquisition of third-party electric-propulsion intellectual property
+for $500,000, on a non-exclusive basis.** What that supports: the earliest thing the company did with
+money, as filed, was buy technology. What it does **not** support — and this part refuses to infer — is
+anything about who arranged the licence, whether the licensee or the licensor originated the vehicle
+concept, or whether non-exclusivity indicates confidence. **Mechanism UNKNOWN.** Note the corollary the
+firewall requires: a purchased non-exclusive licence is equally incompatible with a "garage invention"
+and with a "capitalist's project" account, so this datum narrows nobody's side of the dispute.
+
+### C.3 The manufacturing problem was outsourced at the point of decision
+
+The Lotus agreement is the other half of §C: "In July 2005, we entered into a supply agreement with
+Lotus pursuant to which Lotus agreed to assist with the design and manufacture of our Tesla Roadster"
+— and the **instrument itself is held**, titled and dated (exhibit 10.23, "Dated 11 July 2005", with
+"Confidential Treatment Requested" on its face). A 2003-founded car company whose first supply contract
+for its first product is dated **two years after the last dated act in the record, and nearly four
+years before its first physical delivery**, is the shape of this company's origin: long gaps in the
+filed record, then externally-sourced capability.
+
+### Claim records (§C)
+
+P1-21 Claim: The registrant sized its own problem in its 2010 filing by reference to the cost and duration of incumbent hybrid programs. — Date: 2010-01-29 — Source: `ds1.htm`, competition/market discussion — Source date: 2010-01-29 — URL: local — Archived: — — Tier: 1 — Class: FACT (the statement exists) / ESTIMATE (the figures quoted are the registrant's estimates of third parties' costs) — Passage: "Toyota Prius and its hybrid powertrain took an estimated $1 billion and over four years and the continuing development of the Chevrolet Volt hybrid has been estimated to cost $750 million" — Conf: High as a statement; **Low as a measurement of anything** (third-party cost estimates, unaudited, basis unspecified) — Corroboration: 0 independent — Conflicts: None
+
+P1-22 Claim: The entity's earliest dated commercial act in the held corpus is a $0.5 million perpetual non-exclusive AC Propulsion licence, May 2004. — Date: 2004-05 — Source: `ds1.htm` Note "5. License Agreement" — Source date: 2010-01-29 — URL: local — Archived: — — Tier: 1 — Class: FACT (statement; the licence itself is not held) — Passage: "As consideration under the license agreement, we paid a license fee of $0.5 millio[n]" — Conf: High (statement), Medium (event) — Corroboration: 0 independent; **the ACP agreement is not among the 76 held documents** — Conflicts: None. **Gap named: a held copy of the licence would convert this from a statement to an instrument; see `## Untried` NEW-1.**
+
+## D
+
+STATUS: WRITTEN 2026-09-27
+
+### D.1 The first experiment, in the order the filing reports it
+
+The held lineage does not present one "first experiment"; it presents a **sequence with two distinct
+failure-adjacent features** that a stage reconstruction must keep separate:
+
+| Date | Event, as filed | Why it belongs on the experiment record |
+|---|---|---|
+| 2003-07 | 2003 Equity Incentive Plan adopted by the board and approved by stockholders | earliest *governance* act; month precision only |
+| 2004-05 | AC Propulsion licence, $0.5m (§C.2) | first *purchased* capability |
+| 2005-07-11 | Lotus supply agreement (held instrument) | first *manufacturing* commitment |
+| from 2006-07 | "Starting in July 2006, we began taking reservations and collecting reservation payments from customers who wished to purchase a Tesla Roadster" | the demand test, run **before** a production car existed |
+| 2006-03 / 2006-05/06 | convertible notes issued March 2006 (converted June 2006); Series C $40.0m | the reservation period is interleaved with financing, not preceded by it |
+| 2007-12 / FY2007 | online store launched December 2007; **first revenue $73 thousand, merchandise** | the first money any customer gave the company was **not for a car** |
+| 2008-02 | first physical Roadster delivered — announced for June 2007, missed | §B.4 |
+| 2008-05 | first retail store, Los Angeles | direct-sales channel begins |
+| 2008-10 | volume production begins | §B.4 |
+| 2008 Q4 | **≈60 laid off, expansion curtailed, "a number of customers canceled their previously placed reservations"** | the experiment's only filed near-failure |
+| 2009-03 | drivable Model S prototype revealed publicly | second product before the first was profitable |
+| 2009-05 | product **recall**, ~346 Roadsters serviced, hub-flange bolt torque defect attributed to "a missed process during manufacture of the Tesla Roadster glider" | a filed quality failure in the supplier's process |
+| 2009-07 | European launch; Roadster 2 | §F |
+
+**The reservation book is the experiment's headline signal, and it is held as a balance, not a
+boast.** Refundable reservation payments recorded as **current liabilities**: **$37.3 million at
+2007-12-31, $48.0 million at 2008-12-31, and $24.8 million at 2009-09-30.** The direction of that
+series — up 29% then down 48% — is the single most informative quantity in the held corpus for the
+2008–2009 period, and the filing does not connect it to the cancellations sentence that sits in a
+different section of the same document. The **arithmetic of the fall is not explained in the carrier**;
+this part reports the three balances and records the mechanism as UNKNOWN rather than attributing the
+decline to the layoff paragraph.
+
+### D.2 What the first experiment did and did not demonstrate
+
+Demonstrated, within the corpus's own terms: that a deposit-bearing pre-order book for an
+electric roadster could reach tens of millions of dollars, and that the company could convert some of
+it — **706 Roadsters recognised for revenue in 9M2009**, **937 production vehicles sold cumulatively by
+2009-12-31**. Did **not** demonstrate, and the filing says so in its own voice: unit economics. FY2008
+gross profit was **negative $(1,141) thousand on $14,742 thousand of automotive sales**, and the same
+line contains **$3,458 thousand of zero-emission-credit sales**, so on the registrant's own numbers the
+car business below the line of credits did not cover its cost of sales in its first year of scale.
+
+### Claim records (§D)
+
+P1-23 Claim: Reservation deposits were taken from July 2006, before a production car existed, and were carried as refundable current liabilities of $37.3m / $48.0m / $24.8m at 2007-12-31 / 2008-12-31 / 2009-09-30. — Date: 2006-07 → 2009-09-30 — Source: `ds1.htm`, notes to financial statements — Source date: 2010-01-29 — URL: local — Archived: — — Tier: 1 — Class: FACT (as filed) — Passage: "refundable reservation payments in the amount of $37.3 million, $48.0 million and $24.8 million, respectively, were recorded as current liabilities on the consolidated balance sheets" — Conf: High — Corroboration: 0 independent — Conflicts: None. **Basis: period-end balance-sheet liabilities, GAAP, US$; refundable, therefore NOT revenue, NOT bookings, and NOT a customer count.**
+
+P1-24 Claim: Taking reservations began July 2006 and volume production did not begin until October 2008, so the demand test ran for roughly 27 months ahead of deliverable product. — Date: 2006-07 → 2008-10 — Source: `ds1.htm` — Source date: 2010-01-29 — URL: local — Archived: — — Tier: 1 — Class: FACT (both endpoints) + ESTIMATE/DERIVED (the interval: 2006-07 to 2008-10 ≈ 27 months) — Passage: "we received a significant number of reservations prior to initiation of volume production of the Tesla Roadster in October 2008" — Conf: High (endpoints), Medium (interval, month-precision only) — Corroboration: 0 independent — Conflicts: None
+
+P1-25 Claim: In the quarter ended 2008-12-31 the company curtailed expansion, laid off ~60 people, and disclosed that customers cancelled previously placed reservations. — Date: 2008 Q4 — Source: `ds1.htm`, risk factors — Source date: 2010-01-29 — URL: local — Archived: — — Tier: 1 — Class: FACT (statement) — Passage: "In addition, during this period a number of customers canceled their previously placed reservations." — Conf: High (statement), Low (magnitude — "a number", unquantified; the balance-sheet fall in P1-23 is **not** attributed to it by the carrier) — Corroboration: 0 independent — Conflicts: None
+
+P1-26 Claim: The first-year scaled Roadster business filed a negative gross profit. — Date: 2008 FY — Source: `ds1.htm` statements of operations — Source date: 2010-01-29 — URL: local — Archived: — — Tier: 1 — Class: FACT (as filed) + DERIVED (cars-only revenue 14,742 − 3,458 = 11,284, shown in P1-08) — Passage: "Gross profit (loss) — 64 (1,141) 561 7,754" — Conf: High — Corroboration: 0 independent — Conflicts: None
+
+P1-27 Claim: A May 2009 recall serviced approximately 346 Roadsters for a hub-flange bolt torque defect the registrant attributed to a missed process in the manufacture of the glider. — Date: 2009-05 — Source: `ds1.htm` — Source date: 2010-01-29 — URL: local — Archived: — — Tier: 1 — Class: FACT (statement) — Passage: "Based on our internal investigation results and in coordination with NHTSA, we initiated a product recall in May 2009." — Conf: High — Corroboration: 0 independent — Conflicts: None
+
+## E
+
+STATUS: WRITTEN 2026-09-27
+
+### E.1 The product as the record describes it, at month precision
+
+Two products and one service line existed inside the window, all three described by one lineage:
+
+* **Tesla Roadster** (performance electric vehicle). Delivered first physically 2008-02; volume from
+  2008-10; **937 production vehicles sold cumulatively at 2009-12-31**; European sales commenced
+  2009-07; first right-hand-drive version delivered 2010-01.
+* **Tesla Roadster 2 / Roadster Sport** (2009 model-year restyle with "improved electric powertrain
+  performance and interior styling, and **lower production costs**"). Its launch is dated **June 2009**
+  in one sentence of the original S-1 and **July 2009** in another, with incompatible intervals to
+  "commercial introduction" (§B.4, P1U-08).
+* **Electric powertrain components** — battery pack and charger, sold **to another automaker**. Daimler
+  work "since March 2008"; formalised **May 2009**; first shipments **November 2009**; first revenue
+  recognised in the quarter ended 2009-12-31. The registrant's own sentence fixes the concentration:
+  "Daimler is currently the sole customer of our electric powertrain business."
+* **Model S**: a drivable prototype revealed 2009-03; ~2,000 reservations at a **minimum refundable
+  payment of $5,000** by 2009-12-31. **Not a product in customers' hands inside the window** — that is
+  `(PB)` and is not narrated here.
+
+**Build content, as filed:** the Roadster's body/glider came from Lotus under the 2005 agreement, and
+the registrant's own recall language places the defect "during manufacture of the Tesla Roadster
+glider" — i.e. the first product's structural body was **a supplier's**, while the battery, drive
+systems and charging work are the parts the lineage describes as its own. The company's first two
+capability purchases (§C.2, §C.3) are therefore load-bearing for product reconstruction, not
+background.
+
+### E.2 The three contemporaneous instruments, which are the only held bytes written during the period
+
+| Exhibit | Held bytes | Date on its face | What it is |
+|---|---|---|---|
+| **10.23** | 568,385 B | **11 July 2005** | Lotus Cars Limited supply agreement for products and services, "Confidential Treatment Requested" |
+| **10.22** | 470,947 B | entered into **as of August 6, 2009** | Commercial lease with **The Board of Trustees of The Leland Stanford Jr. University** |
+| **10.19** | 333,067 B | UNKNOWN (not read at this pass) | Commercial single-tenant lease, James R. Hull |
+
+These three matter out of proportion to their size: they are the **only** documents in a 59.5 MB corpus
+whose own date falls inside the period they govern. Everything else about 2003–2008 is a 2010
+statement. Their existence also **disconfirms** a plausible assumption — that the enlarged intake would
+have surfaced the founding-era paper: the exhibits downloaded are leases and a car-body supply contract,
+**not** the Series A purchase agreement, not the charter, and not any 2003 document. `## Untried` NEW-1
+names the remaining exhibit families unopened.
+
+### E.3 Facility and footprint, at the edge
+
+Manufacturing and headquarters sit in the **San Carlos, California** area in the held record (the Daimler
+Smart fortwo packs were assembled "at our facilities in San Carlos, California"), and the Stanford
+trustee lease of 2009-08-06 is the corresponding instrument on file. Retail footprint at the edge:
+**10 Tesla stores in North America and Europe at 2009-12-31**, of which the filing notes "8 of which
+have been open for less than one year", plus a service programme ("Tesla Rangers") only implemented
+2009-10.
+
+### Claim records (§E)
+
+P1-28 Claim: Daimler was the sole customer of the electric powertrain line, which shipped first in November 2009 and first recognised revenue in the quarter ended 2009-12-31. — Date: 2009-11 — Source: `ds1.htm` — Source date: 2010-01-29 — URL: local — Archived: — — Tier: 1 — Class: FACT (statement) — Passage: "We began shipping the first of these battery packs and chargers in November 2009 and started to recognize revenue for these sales in the quarter ended December 31, 2009." — Conf: High — Corroboration: 0 independent — Conflicts: None
+
+P1-29 Claim: Three held exhibits, and only three, are contemporaneous documents of the period they describe; none is founding-era paper. — Date: 2005-07-11 / 2009-08-06 / UNKNOWN — Source: `sources/sec/0001193125-10-017054_dex1023.htm`, `_dex1022.htm`, `_dex1019.htm` — Source date: 2010-01-29 (filing) — URL: local — Archived: — — Tier: 1 — Class: FACT — Passage: "THIS LEASE is entered into as of August 6, 2009 (the 'Effective Date')" — Conf: High — Corroboration: n/a (each is its own instrument) — Conflicts: None. **Note the negative finding: the enlarged intake did NOT surface the Series A/B purchase agreements or the charter.**
+
+## F
+
+STATUS: WRITTEN 2026-09-27
+
+### F.1 Who the customers were, and how small that number is
+
+The held record permits a customer census and forbids a customer profile. The census: **937 production
+vehicles sold to customers as of 2009-12-31**, "almost all of which were sold in the United States and
+Europe"; **706** of those recognised in 9M2009 alone; **~2,000** Model S reservation holders at
+2009-12-31; and, behind both, a reservation book filed at **$48.0 million** of refundable liabilities
+at its 2008-12-31 peak. Europe contributed **$12,881 thousand of the $93,358 thousand** of 9M2009
+automotive revenue (≈13.8%, derived: 12,881 ÷ 93,358), first European sales 2009-07.
+
+**No named early customer appears anywhere in the held founding-window bytes, and the corpus contains no
+first-customer datum of any kind** — no identity, no date of first sale to a specific buyer, no price
+list, no configuration. **This is a documented null over 59.5 MB, not an unanswered question about the
+world**, and §10's trigger ("the first customer is unknown") is therefore logged as **open research
+debt** in `data_gaps.csv` rather than resolved by narrative.
+
+### F.2 The customer that is not a car buyer
+
+Two revenue captions in the same statements of operations belong to purchasers who are not customers of
+the product at all: **zero-emission-vehicle credits** ($3,458k FY2008; $495k 9M2008; $7,645k 9M2009),
+of which the filing says "We did not recognize revenue from sales of ZEV credits until June 2008"; and
+**deferred development compensation** from Daimler, recognised "as an offset to our research and
+development expenses in an amount of $14.5 million on a straight-line basis" beginning May 2009. Both
+are in-period, both are filed, and neither is a consumer. A reconstruction of "the customer" for this
+company inside this window that names only private buyers of roadsters **understates the revenue base
+by roughly a quarter in FY2008** (derived: 3,458 ÷ 14,742 ≈ 23.5% of automotive sales) and misstates
+the R&D line's net presentation.
+
+### F.3 Where the customer relationship was legally and physically fragile
+
+The same lineage files three constraints that any §F account must carry rather than smooth:
+(i) **channel legality** — "in November 2007, we became aware that the New Motor Vehicle Board of the
+California Department of Transportation has considered whether our reservation policies and advertising
+comply with the California Vehicle Code", with a segregated Washington reservation account opened
+January 2010; (ii) **service thinness** — 10 stores, "8 of which have been open for less than one
+year", and a mobile-service programme only implemented 2009-10; (iii) **concentration and
+terminability** — a single powertrain customer with "the right to terminate any or all of its strategic
+collaboration agreements", plus the risk-factor statement that if Daimler "goes through with this, we
+are likely to lose the only customer in our powertrain business".
+
+### Claim records (§F)
+
+P1-30 Claim: The entire customer base at the stage edge was 937 delivered production vehicles, with 706 recognised in 9M2009 and Europe at $12,881 thousand of 9M2009 automotive revenue. — Date: 2009-12-31 — Source: `ds1.htm` risk factor + geographic note — Source date: 2010-01-29 — URL: local — Archived: — — Tier: 1 — Class: FACT (as filed) + DERIVED (European share 12,881 ÷ 93,358 = 13.8%) — Passage: "as of December 31, 2009 we had only sold 937 production vehicles to customers, almost all of which were sold in the United States and Europe" — Conf: High — Corroboration: 0 independent — Conflicts: None
+
+P1-31 Claim: No identity, date, price or configuration of the first customer is recoverable from the held founding-window corpus. — Date: UNKNOWN — Source: exhaustive search of held bytes — Source date: UNKNOWN — URL: local — Archived: n/a — Tier: 1 as a documented null — Class: UNKNOWN — Passage: NO_VERBATIM_PASSAGE_RECORDED — Conf: High that the corpus lacks it — Corroboration: n/a — Conflicts: None. **§10 research-debt trigger logged; importance High; follow-up named in `## Untried` NEW-4.**
+
+P1-32 Claim: ZEV-credit sales and Daimler development compensation were revenue and expense-offset lines from purchasers who were not product customers. — Date: 2008-06 → 2009 — Source: `ds1.htm` — Source date: 2010-01-29 — URL: local — Archived: — — Tier: 1 — Class: FACT (statement) + DERIVED (credit share 3,458 ÷ 14,742 = 23.5% of FY2008 automotive sales) — Passage: "Upon entering into the final agreement in May 2009, we began recognizing the deferred development compensation as an offset to our research and development expenses in an amount of $14.5 million on a straight-line basis." — Conf: High — Corroboration: 0 independent — Conflicts: None
+
+P1-33 Claim: The registrant filed that California's New Motor Vehicle Board had been examining whether its reservation policies and advertising complied with the Vehicle Code, from November 2007. — Date: 2007-11 — Source: `ds1.htm` — Source date: 2010-01-29 — URL: local — Archived: — — Tier: 1 — Class: FACT (statement) — Passage: "we became aware that the New Motor Vehicle Board of the California Department of Transportation has considered whether our reservation policies and advertising comply with the California Vehicle Code" — Conf: High — Corroboration: 0 independent; **no docket or outcome is held** — Conflicts: None
+
+## Register rows for merge
+
+
+>>> REGISTER ROWS FOR MERGE <<<
+STATUS: WRITTEN 2026-09-27
+
+**Merge instructions, read before applying.** All rows are new. The probe's 25 rows at
+`research/{sources,conflicts,data_gaps}.csv` (`S0001`–`S0012`, `U.1`–`U.6`, 7 gap rows) are **not
+rewritten, not re-keyed and not duplicated here**; collisions fold per RD-122. `source_id` values are
+dossier-local (`P1Sxx`) and the merge mints globals. **Conflicts `P1U-07`, `P1U-08`, `P1U-09` must be
+re-keyed into the `U.` series as `U.7`, `U.8`, `U.9` unless the merge finds those taken.** One
+deliberate non-destruction note: `P1S01` and the probe's `S0001` describe the same accession, and
+**both rows should survive** — the probe's row records the hand fetch, this one the scripted fetch at
+10× the bytes, which is the version evidence §3 asks for. Every row's `access_date` is the downloader's
+own `fetched` value from the provenance sidecar (`2026-09-25`, http_status 200), not this pass's date.
+
+
+>>> REGISTER ROWS FOR MERGE <<<
+
+```csv
+source_id,stage,claim_supported,source_title,author_or_publication,source_type,primary_or_secondary,event_date,publication_date,access_date,url,archived_url,tier,evidence_class,confidence,independence_note,relevant_passage,notes
+P1S01,stage1,P1-01;P1-02;P1-05;P1-06;P1-08;P1-09;P1-11;P1-12;P1-14;P1-15;P1-16;P1-17;P1-19;P1-21;P1-22;P1-23;P1-26;P1-28;P1-30;P1-32;P1-33,Form S-1 registration statement primary document ds1.htm acc 0001193125-10-017054,"Tesla Motors, Inc.",SEC filing,primary,2003-07-01 -> 2009-12-31,2010-01-29,2026-09-25,https://www.sec.gov/Archives/edgar/data/0001318605/000119312510017054/ds1.htm,n/a held locally under sources/sec or sources/financials,1,FACT,High,"ONE LINEAGE with P1S02 P1S03 P1S04 and the 424B4: an S-1 and its amendments and the prospectus that superseded them are one source however many files. 0 independent corroboration for any founding-period statement in this document.","Tesla Motors, Inc. ('Tesla', 'we,' 'us' or 'our') was incorporated in the state of Delaware on July 1, 2003.","2362163 B; sha1 1c11988f0b7a6a585641f4e889b759c91532e731; audited statements FY2006-FY2008 and 9M2009 inside this document are the earliest filed statement of those periods. RETROSPECTIVE SOURCE for all 2003-2008 events."
+P1S02,stage1,P1-12,S-1/A No. 1 primary document ds1a.htm acc 0001193125-10-068933,"Tesla Motors, Inc.",SEC filing,primary,UNKNOWN,2010-03-29,2026-09-25,https://www.sec.gov/Archives/edgar/data/0001318605/000119312510068933/ds1a.htm,n/a held locally under sources/sec or sources/financials,1,FACT,High,same lineage as P1S01 and P1S03; held now and not held by the probe,"one of our founders = 0 occurrences on tag-stripped text","NEW TO THIS PASS. 2170026 B. This is the amendment the probe named as not fetched and used to widen its bracket; its absence of the founder adjective is what narrows the bracket to 2010-03-29 -> 2010-04-29."
+P1S03,stage1,P1-12;P1-14,S-1/A No. 3 primary document ds1a.htm acc 0001193125-10-099603,"Tesla Motors, Inc.",SEC filing,primary,UNKNOWN,2010-04-29,2026-09-25,https://www.sec.gov/Archives/edgar/data/0001318605/000119312510099603/ds1a.htm,n/a held locally under sources/sec or sources/financials,1,FACT,High,same lineage as P1S01,"the perspective and experience he brings as our Chief Executive Officer, one of our founders and our largest stockholder","2189012 B. First held instance of the founder adjective anywhere in the corpus."
+P1S04,stage1,P1-07;P1-13;P1-30,Form 424B4 final prospectus d424b4.htm acc 0001193125-10-149105,"Tesla Motors, Inc.",SEC filing,primary,2010-06-29,2010-06-29,2026-09-25,https://www.sec.gov/Archives/edgar/data/0001318605/000119312510149105/d424b4.htm,n/a held locally under sources/sec or sources/financials,1,FACT,High,same lineage as P1S01 (prospectus superseding the registration statement),We were formed in July 2003.,2677451 B. Stage-1 closing edge. The only registration-lineage document written at the time it describes the offering.
+P1S05,stage1,P1-04;P1-22;P1-29,Exhibit 10.23 Lotus Cars Limited supply agreement and Exhibit 10.22 Stanford commercial lease (dex1023.htm dex1022.htm) acc 0001193125-10-017054,"Tesla Motors, Inc. / Lotus Cars Limited / The Board of Trustees of The Leland Stanford Jr. University",contract filed as SEC exhibit,primary,2005-07-11; 2009-08-06,2010-01-29,2026-09-25,https://www.sec.gov/Archives/edgar/data/0001318605/000119312510017054/dex1023.htm,n/a held locally under sources/sec or sources/financials,1,FACT,High,"two-party instruments, but each held as ONE copy filed by one party; not two independent carriers","Dated 11 July 2005","568385 B + 470947 B. The only held bytes whose own date falls inside the period they govern. Exhibit 10.23 is marked Confidential Treatment Requested, so undisclosed terms exist and are absent."
+P1S06,stage1,P1-10;P1-13,"XBRL early financial series xbrl_early_series.csv (336 rows, tags Revenues NetIncomeLoss GrossProfit Assets Liabilities StockholdersEquity and 6 others)",Securities and Exchange Company Facts registry via tools/sec_intake.py,structured registry extract,primary,2008-12-31 -> 2012-12-31,UNKNOWN,2026-09-26,local: sources/financials/xbrl_early_series.csv,n/a held locally under sources/sec or sources/financials,1,FACT,High,"NOT an independent source: every row's form is 10-Q / 10-K / 10-K/A, and a 10-K and its 10-K/A are one instrument. FY2009 values print identically in 10-K and 10-K/A.",NO_VERBATIM_PASSAGE_RECORDED,"Earliest period-end 2008-12-31; fy begins 2011. Therefore ALL 336 rows are (PB) instruments reporting in-window periods. Negative equity -199714000 at 2008-12-31 and -253523000 at 2009-12-31 reach us this way."
+P1S07,stage1,P1-13;P1-20,FY2010 Form 10-K d10k.htm acc 0001193125-11-054847,"Tesla Motors, Inc.",SEC filing,primary,2010-12-31,2011-03-03,2026-09-25,https://www.sec.gov/Archives/edgar/data/0001318605/000119312511054847/d10k.htm,n/a held locally under sources/sec or sources/financials,1,FACT,High,registrant periodic report; a later instrument of the same corporate voice as P1S01 and distinct from it only as an instrument family,founder = 0 occurrences and co-founder = 0 occurrences on tag-stripped text,1669538 B. (PB) for stage purposes. Used only as evidence about the wording of the record.
+P1S08,stage1,P1-20,2011 DEF 14A ddef14a.htm acc 0001193125-11-092509,"Tesla Motors, Inc. board of directors",SEC filing,primary,2011-04-08,2011-04-08,2026-09-25,https://www.sec.gov/Archives/edgar/data/0001318605/000119312511092509/ddef14a.htm,n/a held locally under sources/sec or sources/financials,1,FACT,High,same registrant board lineage; not independent of P1S01,as opposed to preferred stock acquired via investment as was the case with Mr. Musk,588431 B. (PB). The Musk-specific clause is here and NOT in the 2010-01-29 S-1.
+P1S09,stage1,P1-18,"EDGAR submissions slice sources/_index/submissions.csv for CIK 0001318605, 2003-01-01 -> 2012-12-31",SEC registry index,registry index,primary,2005-02-17 -> 2009-01-12,UNKNOWN,2026-09-26,local: sources/_index/submissions.csv,n/a held locally under sources/sec or sources/financials,1,FACT,High,"an index entry is not a fact (RD-124): the 12 REGDEX rows are SEC-generated paper entries with no company-authored narrative",NO_VERBATIM_PASSAGE_RECORDED,"1750 filings enumerated; 269 in-window rows; 0 with blank primaryDocument; 2003 and 2004 genuinely empty. Supersedes the probe's row-count wording per RD-112."
+P1S10,stage1,P1-16;P1-23,"S-1 related-party and Series D purchaser disclosure, in P1S01","Tesla Motors, Inc.",SEC filing,primary,2007-05,2010-01-29,2026-09-25,same as P1S01,n/a held locally under sources/sec or sources/financials,1,FACT,High,same lineage as P1S01 - listed separately only so the register carries the passage,Martin Eberhard and Marc Tarpenning each of whom is a former officer and director,Series D purchasers: Elon Musk Revocable Trust dated July 22 2003 = 4097877 shares; Eberhard 4097; Tarpenning 4097.
+P1S11,stage1,P1-31,Searched-and-null: exhaustive tag-stripped search of the 76 held SEC documents for any first-customer identity or first-sale date,This pass,documented null,primary,UNKNOWN,UNKNOWN,2026-09-26,local: sources/sec/,n/a held locally under sources/sec,1,UNKNOWN,High,"n/a - this row is the register's evidence that the null has a carrier",NO_VERBATIM_PASSAGE_RECORDED,"59479299 B across 76 documents searched. Zero hits. A null over held bytes, not a claim that no such record exists."
+P1S12,stage1,P1-27,S-1 recall and EPA-penalty disclosure in P1S01,"Tesla Motors, Inc.",SEC filing,primary,2009-04 -> 2009-05,2010-01-29,2026-09-25,same as P1S01,n/a held locally under sources/sec or sources/financials,1,FACT,High,same lineage as P1S01,Based on our internal investigation results and in coordination with NHTSA we initiated a product recall in May 2009.,Also carries the January 2010 EPA administrative settlement of $275000 for selling vehicles in 2009 without a Certificate of Conformity.
+```
+
+
+>>> REGISTER ROWS FOR MERGE <<<
+
+```csv
+company,stage,date,metric,value,unit,source,source_date,evidence_class,confidence,derived_arithmetic,notes
+Tesla Motors Inc,stage1,2008-12-31,automotive sales FY2008 as filed,14742,USD thousands,P1S01,2010-01-29,FACT,High,,"GAAP; fiscal year ended 2008-12-31; caption 'Automotive sales'; CONTEMPORANEOUS to none of the 2003-2008 events but the earliest FILED statement of FY2008. Includes ZEV credits."
+Tesla Motors Inc,stage1,2008-12-31,ZEV credit sales inside FY2008 automotive sales,3458,USD thousands,P1S01,2010-01-29,FACT,High,,parenthetical in the same caption; revenue from a regulatory-credit buyer not a car buyer
+Tesla Motors Inc,stage1,2008-12-31,FY2008 automotive sales excluding ZEV credits,11284,USD thousands,P1S01,2010-01-29,ESTIMATE/DERIVED,High,14742 - 3458 = 11284,arithmetic shown per section 13; this figure is NOT printed anywhere in the filing
+Tesla Motors Inc,stage1,2008-12-31,FY2008 gross profit (loss),-1141,USD thousands,P1S01,2010-01-29,FACT,High,,negative. Cost of sales 15883 exceeded automotive sales 14742 in the first year of scale
+Tesla Motors Inc,stage1,2007-12-31,FY2007 first-ever revenue (merchandise only),73,USD thousands,P1S01,2010-01-29,FACT,High,,GAAP; fiscal year; caption 'Automotive sales' line reads 73 for 2007 and nil for 2006
+Tesla Motors Inc,stage1,2009-09-30,revenue nine months ended 2009-09-30,93358,USD thousands,P1S01,2010-01-29,FACT,High,,GAAP; nine-month period NOT a fiscal year; ZEV credits 7645 inside it
+Tesla Motors Inc,stage1,2009-09-30,European revenue nine months ended 2009-09-30,12881,USD thousands,P1S01,2010-01-29,FACT,High,,from the geographic note; Americas 80477 in the same table
+Tesla Motors Inc,stage1,2009-12-31,European share of 9M2009 automotive revenue,13.8,percent,P1S01,2010-01-29,ESTIMATE/DERIVED,Medium,12881 / 93358 = 0.138,basis is the nine-month period not the fiscal year
+Tesla Motors Inc,stage1,2009-12-31,production vehicles sold cumulatively to customers,937,vehicles,P1S01,2010-01-29,FACT,High,,cumulative since first delivery; 'almost all' US and Europe
+Tesla Motors Inc,stage1,2007-12-31,refundable reservation liability,37.3,USD millions,P1S01,2010-01-29,FACT,High,,balance-sheet current liability at period-end; NOT revenue NOT bookings NOT a customer count
+Tesla Motors Inc,stage1,2008-12-31,refundable reservation liability peak,48.0,USD millions,P1S01,2010-01-29,FACT,High,,period-end balance
+Tesla Motors Inc,stage1,2009-09-30,refundable reservation liability,24.8,USD millions,P1S01,2010-01-29,FACT,High,,the fall between 2008-12-31 and 2009-09-30 is NOT explained by the carrier; mechanism UNKNOWN and not attributed to the disclosed cancellations
+Tesla Motors Inc,stage1,2009-12-31,employees,514,persons,P1S01,2010-01-29,FACT,High,,period-end headcount; 279 at 2007-12-31 in the same carrier
+Tesla Motors Inc,stage1,2008-12-31,employees laid off in the quarter,60,persons,P1S01,2010-01-29,FACT,Medium,,"filing says 'approximately 60'; quarter-end basis, not annual"
+Tesla Motors Inc,stage1,2009-12-31,Tesla stores in North America and Europe,10,stores,P1S01,2010-01-29,FACT,High,,first store Los Angeles May 2008; 8 of the 10 open less than one year
+Tesla Motors Inc,stage1,2009-09-30,preferred stock Series A-F aggregate liquidation preference,442151,USD thousands,P1S01,2010-01-29,FACT,High,,"Column caption as filed is Liquidation Preference, at 2009-09-30, in the Unaudited Note 6 table. This is NOT gross proceeds and NOT face value paid in; a prior draft of this row labelled it gross and that label is withdrawn here."
+Tesla Motors Inc,stage1,2009-09-30,preferred stock Series A-F aggregate proceeds net,319225,USD thousands,P1S01,2010-01-29,FACT,High,,"Column caption as filed is Proceeds, Net - net of issuance costs. Gross/face proceeds are NOT totalled anywhere in the carrier; only the dated rounds state gross prose (Series C 40.0 / D 45.0 / E 50.0 USD millions). Do not present 442151 as gross."
+Tesla Motors Inc,stage1,2007-05,Series D price per share and Trust subscription,2.4403,USD per share,P1S01,2010-01-29,FACT,High,,Elon Musk Revocable Trust dated July 22 2003 bought 4097877 Series D shares; Eberhard and Tarpenning 4097 each
+Tesla Motors Inc,stage1,2004-05,AC Propulsion licence fee,0.5,USD millions,P1S01,2010-01-29,FACT,Medium,,the licence instrument itself is NOT held
+Tesla Motors Inc,stage1,2008-12-31,stockholders equity deficit,(-199714),USD thousands,P1S06,UNKNOWN,FACT,High,,RESTATED and (PB): reaches us only from 2011-vintage 10-K and 10-K/A XBRL. Period-end balance. Negative equity
+Tesla Motors Inc,stage1,2009-12-31,stockholders equity deficit,(-253523),USD thousands,P1S06,UNKNOWN,FACT,High,,RESTATED and (PB) as above; the 10-K and 10-K/A print identically and are ONE instrument
+Tesla Motors Inc,stage1,2009-12-31,FY2009 revenue and net loss as reprinted post-IPO,111943 / (-55740),USD thousands,P1S06,UNKNOWN,FACT,High,,RESTATED (PB instrument). NOTE the FY2009 full-year figure is NOT in the S-1 which carries only 9M2009
+```
+
+
+>>> REGISTER ROWS FOR MERGE <<<
+
+```csv
+company,stage,date_or_range,event,actors,location,source_id,evidence_class,confidence,conflict_ref,notes
+Tesla Motors Inc,stage1,2003-07-01,Delaware incorporation of Tesla Motors Inc,Tesla Motors Inc,Delaware,P1S01,FACT,High,U.1,Date is fixed by the registrant's own audited Note 1 in a 2010 document. RETROSPECTIVE SOURCE. No charter held
+Tesla Motors Inc,stage1,2003-07,2003 Equity Incentive Plan adopted by the board and approved by stockholders,board and stockholders,UNKNOWN,P1S01,FACT,Medium,UNKNOWN,Month precision only in the carrier; the location of adoption is not stated and is not guessed
+Tesla Motors Inc,stage1,2003-07-01 -> 2004-05,no dated corporate act of any kind in the held corpus,Eberhard Tarpenning Straubel Musk?,UNKNOWN,P1S01,UNKNOWN,High,U.1,THE CENTRAL EMPTY INTERVAL. Not an inference of inactivity - a property of a private company with no filing duty
+Tesla Motors Inc,stage1,2004-03,Straubel begins as Principal Engineer Drive Systems,Jeffrey B. Straubel,UNKNOWN,P1S01,FACT,High,UNKNOWN,earliest date the corpus attaches to any natural person in a Tesla role
+Tesla Motors Inc,stage1,2004-04,Elon Musk becomes Chairman of the board; Kimbal Musk becomes a director,Elon Musk; Kimbal Musk,UNKNOWN,P1S01,FACT,High,U.2,Same month for both brothers. The filing does not connect them
+Tesla Motors Inc,stage1,2004-05,AC Propulsion licence acquired for USD 0.5 million (nonexclusive perpetual),Tesla Motors Inc; AC Propulsion Inc,UNKNOWN,P1S01,FACT,Medium,UNKNOWN,earliest dated commercial act of the entity
+Tesla Motors Inc,stage1,2005-07-11,Lotus Cars Limited supply agreement for design and manufacture of the Roadster glider,Tesla Motors Inc; Lotus Cars Limited,UNKNOWN,P1S05,FACT,High,UNKNOWN,HELD INSTRUMENT - one of only three contemporaneous documents in the corpus
+Tesla Motors Inc,stage1,2006-03,convertible notes issued (converted to preferred in June 2006),Tesla and noteholders,UNKNOWN,P1S01,FACT,Medium,UNKNOWN,first dated financing instrument in the record after the licence and the supply contract
+Tesla Motors Inc,stage1,2006-05 -> 2006-06,Series C financing totalling USD 40.0 million at 1.135 per share,Tesla; VantagePoint; Valor; Technology Partners,UNKNOWN,P1S01,FACT,High,UNKNOWN,third round dated - first and second are NOT dated anywhere in the corpus
+Tesla Motors Inc,stage1,2006-07,reservation taking and deposit collection for the Roadster begins,Tesla; prospective customers,UNKNOWN,P1S01,FACT,High,UNKNOWN,demand test run roughly 27 months ahead of volume production
+Tesla Motors Inc,stage1,2007-05,Series D financing USD 45.0 million at 2.440 per share; Musk Trust Eberhard and Tarpenning all purchasers,Tesla; Elon Musk Revocable Trust; Martin Eberhard; Marc Tarpenning,UNKNOWN,P1S10,FACT,High,U.3,the only place in the founding-window corpus where Eberhard and Tarpenning appear
+Tesla Motors Inc,stage1,2007-12,Tesla online store launches; FY2007 first revenue is merchandise of USD 73 thousand,Tesla,UNKNOWN,P1S01,FACT,High,UNKNOWN,first money received from a customer was not for a car
+Tesla Motors Inc,stage1,2008-02,first physical Tesla Roadster delivered,Tesla,UNKNOWN,P1S01,FACT,Medium,U.8,announced for June 2007 and missed. New datum this pass; the probe held only 'early 2008'
+Tesla Motors Inc,stage1,2008-05,first Tesla store opens,Tesla,"Los Angeles, CA",P1S01,FACT,High,UNKNOWN,direct retail channel begins
+Tesla Motors Inc,stage1,2008-10,volume production of the Roadster begins,Tesla,UNKNOWN,P1S01,FACT,Medium,U.8,month precision only; the carrier never defines volume production
+Tesla Motors Inc,stage1,2008 Q4,approximately 60 employees laid off; expansion curtailed; customers cancel reservations,Tesla,UNKNOWN,P1S01,FACT,Medium,UNKNOWN,the filed near-failure. Magnitude of cancellations not quantified in the carrier
+Tesla Motors Inc,stage1,2009-03,drivable Model S prototype revealed publicly; approximately 2000 reservations at USD 5000 minimum by 2009-12-31,Tesla,UNKNOWN,P1S01,FACT,High,UNKNOWN,second product announced before the first had a positive gross margin
+Tesla Motors Inc,stage1,2009-05,product recall of approximately 346 Roadsters for a hub-flange bolt torque defect,Tesla; NHTSA; Lotus (glider manufacture),USA,P1S12,FACT,High,UNKNOWN,defect attributed to a missed process in the SUPPLIER's manufacture
+Tesla Motors Inc,stage1,2009-05,Series E financing USD 50.0 million cash plus conversion of USD 58.2 million and USD 28.0 million of notes; Daimler affiliate Blackstar Investco purchases 19901290 shares at 2.512,Tesla; Daimler via Blackstar; Aabar; VantagePoint,UNKNOWN,P1S01,FACT,High,UNKNOWN,the recapitalisation leg named in the stage brief; the second dated financing with an identified strategic industrial purchaser
+Tesla Motors Inc,stage1,2009-07 -> 2009-06,Roadster 2 and Roadster Sport launched - the carrier dates the same launch both June 2009 and July 2009 at incompatible intervals from commercial introduction,Tesla,UNKNOWN,P1S01,FACT,Low,U.8,recorded as printed; not merged and not averaged
+Tesla Motors Inc,stage1,2009-08-06,Stanford University commercial lease effective date,Tesla; The Board of Trustees of The Leland Stanford Jr. University,UNKNOWN,P1S05,FACT,High,UNKNOWN,HELD INSTRUMENT - the only in-window facility document on file
+Tesla Motors Inc,stage1,2009-11,first battery packs and chargers shipped to Daimler,Tesla; Daimler AG,San Carlos CA,P1S01,FACT,High,UNKNOWN,powertrain line revenue recognised from the quarter ended 2009-12-31
+Tesla Motors Inc,stage1,2009-12-31,937 production vehicles sold cumulatively; 514 employees; 10 stores,Tesla,US and Europe,P1S01,FACT,High,UNKNOWN,the complete customer census available from the corpus
+Tesla Motors Inc,stage1,2010-01-29,S-1 filed - the earliest company-authored document in existence for this issuer; contains no founder label for anyone at Tesla,Tesla Motors Inc,UNKNOWN,P1S01,FACT,High,U.7,Opening of the only documentary voice this stage has
+Tesla Motors Inc,stage1,2010-03-29 -> 2010-04-29,the phrase one of our founders enters the registration statement at a single amendment,board drafting committee,UNKNOWN,P1S02,FACT,High,U.7,BRACKETED BY TWO HELD DOCUMENTS. The probe could not close this because it did not hold the March amendment
+Tesla Motors Inc,stage1,2010-06-29,424B4 final prospectus; Stage 1 closes,Tesla; underwriters,UNKNOWN,P1S04,FACT,High,UNKNOWN,CONTEMPORANEOUS. Everything past this line is (PB)
+```
+
+
+>>> REGISTER ROWS FOR MERGE <<<
+
+```csv
+company,stage,conflict_id,section,claim_a,claim_a_source,claim_a_date,claim_b,claim_b_source,claim_b_date,why_they_differ,evidence_weight,best_supported_interpretation,residual_uncertainty,confidence
+Tesla Motors Inc,stage1,P1U-07,Header B.3,"the entity's own audited note dates its incorporation to 2003-07-01 and a risk factor says 'We were formed in July 2003'","S-1 ds1.htm (P1S01)",2010-01-29,"the same document dates 'our earliest days' to April 2004 in the compensation discussion","S-1 ds1.htm (P1S01)",2010-01-29,one document holds two 'earliest' claims nine months apart without reconciling them; the accounting inception needed a July 2003 date while the narrative of contribution needed April 2004,equal - and not independent; both are the same drafting in the same instrument,Stage 1 opens at the entity date 2003-07-01 (P1-01) and the April 2004 layer is a separate later person-level fact. The phrase 'earliest days' is a characterisation and does NOT move the boundary,whether any of Musk's activity or capital was inside the entity before 2004-04 is unanswerable from held bytes,High (the conflict is documented) UNKNOWN (the underlying question)
+Tesla Motors Inc,stage1,P1U-08,B.4,"the Roadster reached customers 'in early 2008' and the first physical delivery was February 2008; volume production began October 2008","S-1 ds1.htm (P1S01) and 424B4 (P1S04)",2010-01-29 / 2010-06-29,"'commercial introduction' is dated ≈2008-09 by 'In June 2009, nine months after its commercial introduction' and inconsistently by 'In July 2009, less than one year after the date of the commercial introduction'; the FY2010 10-K repeats the nine-month arithmetic",S-1 ds1.htm (P1S01) and 10-K (P1S07),2010-01-29 / 2011-03-03,four dated claims about one product's arrival; the intervals are mutually inconsistent and 'commercial introduction' is never defined in any carrier,all four are the same registrant and none is independent of the others,these are three DIFFERENT milestones (physical delivery / volume production / an undefined commercial introduction) and a stage edge may be drawn only against a named one. The probe's U.5 'early 2008 vs ≈2008-09' is now a four-way datum and this pass does not pick,whether 'commercial introduction' means October 2008 volume production or a later declared milestone; no carrier states it,High that the four statements exist; Low for any single derived edge
+Tesla Motors Inc,stage1,P1U-09,B.2,"the final prospectus calls the CEO 'one of our founders'","424B4 (P1S04) and S-1/A 2010-04-29 (P1S03)",2010-06-29,"the annual report for the same fiscal year in which that prospectus was filed contains zero occurrences of founder or co-founder",FY2010 10-K (P1S07),2011-03-03,two instruments of one issuer seven months apart with opposite vocabulary; a prospectus sells and a periodic report reports,neither is independent of the corporate voice; the 10-K is the later instrument and the prospectus the one written for a sale,the adjective is instrument-specific rather than a settled corporate position. This is the strongest available evidence that the founder label was drafted for a purpose in a document class whose purpose is to sell - and equally that it was not the company's stable usage. Neither reading is adopted here,why the word is absent from the 10-K: no carrier states it,High (both counts verified on held bytes) UNKNOWN (the explanation)
+```
+
+
+>>> REGISTER ROWS FOR MERGE <<<
+
+```csv
+company,stage,gap,why_missing,importance,best_available_evidence,confidence,follow_up_task
+Tesla Motors Inc,stage1,The closings of Series A and Series B preferred (dates) while amounts prices and share counts are filed,the 2010 lineage tabulates the structure without dating the first two rounds; the purchase agreements are not among the 76 held exhibits,High,S-1 preferred-stock table: Series A 0.493 per share 7213000 shares 3556 gross / 3549 net USD thousands; Series B 0.740 17459456 shares 12920 / 12899 (P1S01),UNKNOWN,FETCH REQUEST: sec_intake.py grab --accession 0001193125-10-017054 with no --file to pull the full exhibit index and the Series A/B purchase agreements and the 2003 plan document
+Tesla Motors Inc,stage1,Identity of the July 2003 incorporator and the first-director slate,no corporate-registry document is held and the lineage never enumerates the slate,High,S-1 biographies give role-start dates from March-April 2004 only (P1S01),UNKNOWN,FETCH REQUEST: Delaware Division of Corporations entity file for the 2003-07-01 charter
+Tesla Motors Inc,stage1,First customer identity first-sale date and first-sale price,nothing in 59.5 MB of held founding-window bytes records a named first customer; the filing reports counts not persons,High,937 cumulative vehicles sold at 2009-12-31 and 706 recognised in 9M2009 (P1S01); reservation liability balances 37.3 / 48.0 / 24.8 USD millions (P1-23),UNKNOWN,FETCH REQUEST: 2007-2008 Roadster-delivery press material on tesla.com via a working Wayback route - the only carrier class likely to name a first owner
+Tesla Motors Inc,stage1,What happened between 2003-07-01 and 2004-03,company had no filing duty and no held internal or third-party document covers the interval,High,zero dated corporate acts in the interval except the July 2003 plan adoption (P1S01),UNKNOWN,UNTRIED families: documentary/auction records and per-item periodical page text - see ## Untried NEW-2 and NEW-3
+Tesla Motors Inc,stage1,The founding dispute's own documents (2008-09 docket and the August 2009 company joint statement),no route reached them: CourtListener covers federal courts only and the Archive endpoints were degraded on the probe pass,High,registrant-filed silence: 0 occurrences of 'arbitrat' across the whole held S-1 lineage re-verified this pass (P1S01 P1S02 P1S03 P1S04),UNKNOWN,FETCH REQUEST: San Mateo County Superior Court civil register plus a domain-scoped CDX sweep 2003-2009 then one id_ snapshot
+Tesla Motors Inc,stage1,Whether anyone other than the registrant credited anyone with founding the company in 2003-2006,no in-window periodical or web page text is held by any pass of this project,High,the registrant uses co-founder language fluently for Musk (PayPal Zip2) and Straubel (Volacom) while withholding it from Tesla until 2010-04 (P1S01 P1-14),UNKNOWN,FETCH REQUEST: per-item periodical full-text route (IA fulltext/inside.php) against 2004-2006 automotive and trade magazines - the page-text layer has never been searched for this company
+```
+
+#
+
+---
+
+## Volume 2 — part 2 (§G–§U, claim records P2-01–P2-54, its `## Untried` and its register emission)
 
 # Tesla, Inc. — Stage 1, part 2 (§G–§U)
 
@@ -1884,24 +2746,92 @@ STATUS: WRITTEN 2026-09-27
   cites 16 dossier-local `P2Sxx` ids and part 1 cites 12: the key check is evidently blind to this id form,
   so a dangling `P2Sxx` would pass silently until the merge mints globals.
 
+---
+
+## Untried — merge carry-forward addendum (2026-09-30)
+
+STATUS: WRITTEN by `tesla-s1-merge`. Part 2's `## Untried` (NEW-1…NEW-11) is carried verbatim above inside
+Volume 2; part 1's own block is absent from disk (see the merge note). The probe dossier's eight routes are
+repeated here **as routes, not as findings**, and all eight remain open. Web budget on this pass was 0 calls;
+0 were made; each block below is the `FETCH REQUEST:` the method requires instead.
+
+- **U-1 / FETCH REQUEST** — Wayback: domain-scoped CDX for `tesla.com` 2003→2009
+  (`https://web.archive.org/cdx/search/cdx?url=tesla.com&matchType=domain&from=2003&to=2009&fl=timestamp,original,statuscode`),
+  then one raw `id_` snapshot of the company's **August 2009 joint statement** page about the founder dispute.
+  Bytes → `sources/wayback/`. The Archive answered 504 / "Temporarily Offline" on the probe pass, and the CDX
+  rows now registered at `S4390` are **transcribed, not re-fetched**, so conflict `U.4` rests on a LEAD.
+- **U-2 / FETCH REQUEST** — **San Mateo County Superior Court** civil register (2008–2009, Musk v.
+  Eberhard/Straubel) or any California state-trial-court index. CourtListener (`S4391`) covers federal courts
+  only, so this registry is **UNTRIED, not empty** — a settled filing here would be the corpus's only
+  genuinely independent Tier-1 carrier.
+- **U-3 / FETCH REQUEST** — founders'-own and CEO's-own statements: `python tools/ia_text.py fetch
+  --id elonmuskteslaspa0000vanc --max-mb 20`, recording the HTTP status (the probe's run returned 0 mined
+  without a diagnostic); plus a per-item periodical **page-text** query (`fulltext/inside.php`) against a
+  2004–2006 item. The page-text layer has never been searched for this company.
+- **U-4 / FETCH REQUEST** — `sec_intake.py` exhibit pull for accessions `0001193125-10-017054` and
+  `0001193125-10-149105` **with `--file` per item** (the no-`--file` form invents `index-headers.txt` and 404s —
+  known defect, reported not fixed): certificate and restated charter, Series A–D purchase agreements, the 2003
+  plan documents. This is where the first-financing closing dates sit, and where the 424B4 balance-sheet column
+  heads would settle `U.23`.
+- **U-5 / FETCH REQUEST** — corporate print, family (d): `ia_text.py fetch --id tesla-logo` and
+  `--id teslaroadster0000maur` (both identified by metadata, **neither opened**; a metadata year is not a date
+  and the 2003-labelled Annual-Reports container is a known mis-dating trap).
+- **U-6 / FETCH REQUEST** — the documentary and auction family: founding-era letterhead, invoices, brochure or
+  business-plan sale records, any 2003–2004 document bearing or not bearing a signature. **UNTRIED by every
+  pass of this company and never to be written as a null** — it is the family that on Apple returned founding
+  documents EDGAR and the web cannot reach, and here it is the family most likely to hold something that is
+  neither the company's account nor the founder's.
+- **U-7 / FETCH REQUEST** — Delaware Division of Corporations entity file (the 2003-07-01 charter, the
+  incorporator and first-director slate) and, if reachable, USPTO patent records naming early inventors and
+  assignees 2004–2008.
+- **U-8** — Bay Area and trade press, 2004–2006, through a route not blocked from this egress (Chronicling
+  America 403/404 and the HathiTrust interstitial are UNANSWERED negatives, not nulls; RD-129's rule: prove the
+  request was well-formed before calling a route blocked).
+
+**Corpus-family status as this merge leaves it** (five families, per §14.6 and §15.2 — an untried family is
+never a null): **(a) filings — TRIED and ANSWERED**, 76 held documents / 59,479,299 B / 3,059,480 words plus
+the 336-row XBRL series, the single family with in-window Tier-1 text and the reason T3 holds. **(b) web
+archives — TRIED, UNANSWERED**: one CDX answer retained as transcript and no page bytes; later calls 504 or
+"Temporarily Offline"; negative artefacts kept at `S4390`. **(c) periodicals — TRIED at the metadata layer,
+UNANSWERED below it**: IA `advancedsearch` answered with 6 post-window books and two numFound-0 catalog nulls;
+HathiTrust returned a Cloudflare interstitial and Chronicling America an HTTP 403; **the page-text layer is
+UNTRIED**. **(d) digitised corporate print — TRIED at the metadata layer, items UNTRIED**: numFound 2
+(`tesla-logo`, `teslaroadster0000maur`), creator-scoped 0, neither opened. **(e) auction and museum
+documentary — UNTRIED entirely**, no scripted route in `tools/`, no hand query attempted by any pass.
+
+### U.23 (anchor minted at merge; register home `conflicts.csv`)
+
+* **`U.23`** Part 1's **$24.8m** refundable reservation liability at **2009-09-30** (after the $48.0m peak at
+  2008-12-31) against part 2's **$26.0m** printed at **2009-12-31** in its channels and decision rows while its
+  quantitative note dates part 1's figure to 2009-09-30 and claims to supersede it; the **$26.0m at 2010-03-31**
+  is separately carried and is not in dispute. **Best-supported:** both dated figures stand, the 2009-12-31
+  value is UNKNOWN, the supersession is declined, and Volume 2's "liability held flat across the deposit-policy
+  inversion" reading is not carried as a finding. **Volume home:** Volume 1 §F.2 against Volume 2 §G.4, §J.3 and
+  §P.2.
+
+---
+
+## Merge close-out measurements (measured on the written bytes; for the next reader, not evidence)
+
+STATUS: WRITTEN 2026-09-30 by `tesla-s1-merge`. Word counts, row counts, anchor parity and the gate findings
+are re-measured after the last write and printed in `_MANIFEST.md`, `stage_1_index.md` and
+`03_quality_control/tesla_s1_merge_notes.md`; the figures are not restated here so that a single correction
+cannot leave two numbers disagreeing in this volume.
 
 
+---
 
+## Corrections applied at merge (COR-01…COR-06) — propagation block
 
+STATUS: WRITTEN 2026-09-30 by `tesla-s1-merge`. Full text of each entry is in `CORRECTIONS.md`; §14 rule 10
+requires a retraction to reach the instruction layer **and** the register layer, so each id below is printed
+both in this volume and in the register row that carried the withdrawn or superseded statement.
 
-
-
-<!-- SUPERSEDED 2026-09-30 by the Stage-1 merge pass (agent tesla-s1-merge). DO NOT RE-APPLY.
-     Carried verbatim into stage_1.md as Volume 2 (byte-identical contiguous slice, offset 102736). Its 138
-     rows are in the canonical registers at the company root: sources 16 -> 12 kept (P2S01 folded into S4372,
-     P2S13/P2S15 into S4377, P2S14 into S4375), quantitative 39 -> 39, timeline 21 -> 21, channels 10 -> 10,
-     decisions 9 -> 9, conflicts P2U-10..P2U-22 -> U.10..U.22, data gaps 10 -> 10 (four of them absorbing
-     part-1 and probe rows). The two AMBIGUOUS blocks the census could not attribute (9 rows and 11 rows,
-     identical 11-column schemas) were attributed by CONTENT: the 9-row block is validation.csv, the 11-row
-     block is failures.csv - no row dropped, the reasoning is printed inside both registers. The s U-pre
-     obligation you stated was executed: the ANCHORS declaration is widened to U.1-U.23 in the merged volume.
-     COR-01 declines this part's supersession of part 1's refundable-reservation figure (it supersedes a
-     2009-09-30 datum with a 2010-03-31 one; the 2009-12-31 value is UNKNOWN and the flat-liability reading
-     is not carried); the contradiction is minted as conflicts.csv row U.23 with an anchor line in the
-     volume. COR-06 measures the held-corpus denominator this part reported (85/33) against the disk.
-     Nothing in this notice deletes or alters a byte written by the author pass. -->
+| id | what was withdrawn or superseded | where it lands |
+|---|---|---|
+| `COR-01` | Part 2's claim that its $26.0m refundable-reservation figure **supersedes** part 1's $24.8m. It supersedes a different period-end (2010-03-31 against 2009-09-30), so the supersession is **declined** and the 2009-12-31 value is UNKNOWN | `conflicts.csv` row `U.23`; `quantitative.csv` row "Refundable reservation liability" at 2010-03-31; Volume 1 §F.2 against Volume 2 §G.4/§J.3/§P.2 |
+| `COR-02` | Accession `0001193125-10-099603` labelled "S-1/A No. 3" | `sources.csv` row `S4371`; adjudicated in `conflicts.csv` `U.19` |
+| `COR-03` | "Nothing EDGAR-dated 2003–2008: earliest submission is Form D 2009-04-09" | `sources.csv` row `S4377`; corrected in form, sustained in substance, by `research/A3_intake_regrade.md` |
+| `COR-04` | "Three held exhibits and only three are contemporaneous documents of the period they describe" | `sources.csv` row `S4387`; adjudicated in `conflicts.csv` `U.18` |
+| `COR-05` | "The FY2009 full-year figure is NOT in the S-1" | `quantitative.csv` FY2009 reprinted row; `timeline.csv` row 2010-03-29 |
+| `COR-06` | Three mutually irreconcilable printed denominators for the held corpus (76 documents / 24 accessions; 76 / 28; 85 / 33) | `sources.csv` row `S4378`; measured at close-out to **83 documents across 32 accessions, 59,881,144 B**, with `_MANIFEST.csv` carrying 76 rows across 25 accessions and omitting the 3 corrupted UPLOAD PDFs and the 4 CORRESP letters |

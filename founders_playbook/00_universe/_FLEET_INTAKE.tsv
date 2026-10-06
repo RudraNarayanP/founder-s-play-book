@@ -1,0 +1,41 @@
+slug	company	dir	pass1_status	pass1_docs	pass2_status	pass2_docs	filing_floor	slices_capped	note	state
+phillips66	Phillips 66	company_029_phillips66	rc2/inwindow0/UNANS0	0	rc2/inwindow0/UNANS0	0	2011-11-14	no	no document stored; probes must cite the measured floor, not a null; identity guard refused the write; resolve the CIK by hand	REFUSED
+cvs	CVS Health	company_006_cvs	rc0/inwindow7/UNANS0	7		0	1994-02-10	no		DONE
+marathon	Marathon Petroleum	company_030_marathon	rc0/inwindow8/UNANS0	25		0	2011-01-25	no		DONE
+stonex	StoneX Group	company_031_stonex	rc1/inwindow5/UNANS1	5		0	1996-05-09	no		DONE
+statefarm	State Farm Insurance	company_032_statefarm	rc1/inwindow0/UNANS0	0	rc1/inwindow0/UNANS0	0		no	no document stored; probes must cite the measured floor, not a null; identity guard refused the write; resolve the CIK by hand	REFUSED
+freddiemac	Freddie Mac	company_033_freddiemac	rc1/inwindow0/UNANS0	0	rc1/inwindow0/UNANS0	0		no	no document stored; probes must cite the measured floor, not a null; identity guard refused the write; resolve the CIK by hand	REFUSED
+berkshire	Berkshire Hathaway	company_007_berkshire	rc0/inwindow0/UNANS0	0	rc1/inwindow79/UNANS9	22	1998-08-10	no		DONE
+mckesson	McKesson	company_008_mckesson	rc0/inwindow3/UNANS0	3		0	1995-02-08	no		DONE
+exxonmobil	ExxonMobil Holdings	company_009_exxonmobil	rc1/inwindow0/UNANS0	0	rc1/inwindow0/UNANS0	0	2026-07-01	no	no document stored; probes must cite the measured floor, not a null	EMPTY-PERIMETER
+humana	Humana	company_034_humana	rc0/inwindow0/UNANS0	0	rc1/inwindow148/UNANS5	26	1994-02-01	no		DONE
+cencora	Cencora	company_010_cencora	rc0/inwindow0/UNANS0	0	rc1/inwindow380/UNANS1	30	2001-05-23	no		DONE
+att	AT&T	company_035_att	rc2/inwindow0/UNANS0	0	rc2/inwindow0/UNANS0	0	1994-02-14	no	no document stored; probes must cite the measured floor, not a null; identity guard refused the write; resolve the CIK by hand	REFUSED
+goldman	Goldman Sachs Group	company_036_goldman	rc0/inwindow0/UNANS0	0	rc1/inwindow391/UNANS2	29	1998-08-24	no		DONE
+jpmorgan	JPMorgan Chase	company_012_jpmorgan	rc0/inwindow0/UNANS0	0	rc1/inwindow1197/UNANS7	24	1994-01-20	no		DONE
+comcast	Comcast	company_037_comcast	rc0/inwindow0/UNANS0	0	rc1/inwindow235/UNANS1	30	2002-02-11	no		DONE
+wellsfargo	Wells Fargo	company_038_wellsfargo	rc1/inwindow0/UNANS0	0	rc1/inwindow0/UNANS0	0		no	no document stored; probes must cite the measured floor, not a null; identity guard refused the write; resolve the CIK by hand	REFUSED
+cigna	Cigna Group	company_014_cigna	rc0/inwindow0/UNANS0	0	rc1/inwindow27/UNANS1	30	2018-05-16	no		DONE
+cardinal	Cardinal Health	company_015_cardinal	rc0/inwindow10/UNANS0	10		0	1994-02-09	no		DONE
+morganstanley	Morgan Stanley	company_039_morganstanley	rc2/inwindow0/UNANS0	0	rc2/inwindow0/UNANS0	0	1993-11-08	no	no document stored; probes must cite the measured floor, not a null; identity guard refused the write; resolve the CIK by hand	REFUSED
+valero	Valero Energy	company_040_valero	rc1/inwindow0/UNANS0	0	rc1/inwindow0/UNANS0	0		no	no document stored; probes must cite the measured floor, not a null; identity guard refused the write; resolve the CIK by hand	REFUSED
+dell	Dell Technologies	company_041_dell	rc2/inwindow0/UNANS0	0	rc2/inwindow0/UNANS0	0	2013-07-24	no	no document stored; probes must cite the measured floor, not a null; identity guard refused the write; resolve the CIK by hand	REFUSED
+disney	Walt Disney	company_044_disney	rc0/inwindow0/UNANS0	0	rc0/inwindow0/UNANS0	0	2018-06-25	no	no document stored; probes must cite the measured floor, not a null	EMPTY-PERIMETER
+meta	Meta Platforms	company_017_meta	rc1/inwindow17/UNANS1	30		0	2005-05-06	no		DONE
+jnj	Johnson & Johnson	company_045_jnj	rc0/inwindow0/UNANS0	0	rc1/inwindow116/UNANS5	26	1994-03-10	no		DONE
+elevance	Elevance Health	company_018_elevance	rc1/inwindow128/UNANS1	30		0	2001-08-16	no		DONE
+centene	Centene	company_019_centene	rc1/inwindow20/UNANS1	30		0	2001-10-09	no		DONE
+pepsico	PepsiCo	company_046_pepsico	rc0/inwindow0/UNANS0	0	rc1/inwindow105/UNANS4	27	1995-01-06	no		DONE
+bofa	Bank of America	company_020_bofa	rc1/inwindow0/UNANS0	0	rc1/inwindow0/UNANS0	0		no	no document stored; probes must cite the measured floor, not a null; identity guard refused the write; resolve the CIK by hand	REFUSED
+boeing	Boeing	company_047_boeing	rc0/inwindow0/UNANS0	0	rc1/inwindow0/UNANS0	0	1994-03-15	no	no document stored; probes must cite the measured floor, not a null	EMPTY-PERIMETER
+chevron	Chevron	company_021_chevron	rc0/inwindow0/UNANS0	0	rc2/inwindow131/UNANS13	18	1994-02-03	no		DONE
+ups	United Parcel Service	company_048_ups	rc0/inwindow0/UNANS0	0	rc1/inwindow257/UNANS2	29	1999-07-21	no		DONE
+ford	Ford Motor	company_022_ford	rc0/inwindow0/UNANS0	0	rc1/inwindow212/UNANS7	24	1994-01-20	no		DONE
+rtx	RTX	company_049_rtx	rc0/inwindow8/UNANS0	8		0	1994-01-24	no		DONE
+gm	General Motors	company_023_gm	rc0/inwindow0/UNANS0	0	rc0/inwindow0/UNANS0	0	2009-07-16	no	no document stored; probes must cite the measured floor, not a null	EMPTY-PERIMETER
+fedex	FedEx	company_050_fedex	rc0/inwindow0/UNANS0	0	rc1/inwindow142/UNANS12	19	1997-11-04	no		DONE
+citigroup	Citigroup	company_024_citigroup	rc0/inwindow19/UNANS0	19		0	1994-01-05	no		DONE
+homedepot	Home Depot	company_025_homedepot	rc2/inwindow0/UNANS0	0	rc2/inwindow0/UNANS0	0	1994-04-19	no	no document stored; probes must cite the measured floor, not a null; identity guard refused the write; resolve the CIK by hand	REFUSED
+fanniemae	Fannie Mae	company_026_fanniemae	rc1/inwindow0/UNANS0	0	rc1/inwindow0/UNANS0	0		no	no document stored; probes must cite the measured floor, not a null; identity guard refused the write; resolve the CIK by hand	REFUSED
+kroger	Kroger	company_027_kroger	rc0/inwindow0/UNANS0	0	rc2/inwindow85/UNANS3	28	1994-01-07	no		DONE
+verizon	Verizon Communications	company_028_verizon	rc1/inwindow25/UNANS7	24		0	1994-01-21	no		DONE

@@ -312,6 +312,19 @@ def registrant_guard(company_dir, cik, name, tickers, former_names):
         return True, "unchecked", ["directory slug yields no name token to test"]
     hits = [t for t in slug if t in toks or t in tk]
     if not hits:
+        # A multi-word registrant compresses into a one-word slug: `company_025_homedepot` is
+        # "HOME DEPOT, INC." and no whole WORD of that name is `homedepot`. Whole-word matching was
+        # right for D-5 and wrong here -- it refused the correct company, and did so for Home Depot,
+        # Wells Fargo and Morgan Stanley in the same run. Compare the de-spaced forms too; the no-clobber
+        # signal below is what actually catches the Dell shell, and it is untouched.
+        joined = "".join(slug)
+        squished = [re.sub(r"[^a-z0-9]", "", (name or "").lower())]
+        squished += [re.sub(r"[^a-z0-9]", "", (f if isinstance(f, str) else
+                                               (f or {}).get("name") or "").lower())
+                     for f in (former_names or [])[:40]]
+        if joined and any(joined and joined in s for s in squished):
+            hits = [joined]
+    if not hits:
         reasons.append("no slug token %s appears in registrant name %r / tickers %s / former names"
                        % (slug, name, sorted(tk)))
     own = cik10(cik)
