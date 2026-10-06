@@ -223,3 +223,18 @@ made the control report `NOT DETECTED BY ITS OWN GATE` -- the fixture's quote sp
 finding generation at all -- so I reverted it rather than leave a failing self-test with a green claim.
 Someone must find why the planted span is not attributed (min_words? the anchor requirement? sources.csv
 mapping?) before writing that control. A fix verified only by hand is a fix that can come back.
+
+## Two gaps found by the first author wave (both mine, both small)
+
+1. **`gates.py issued_tier()` misses a verdict written as a table row.** GM's author reported the reader stamped
+   T3 while the dossier's §3 verdict table issues **T2 core** — the heuristic looks for verdict *lines*, and a
+   markdown table row is not one. Authors are told to pass `--tier <issued>` explicitly and say so rather than
+   rewriting prose to satisfy the tool. Fix: read table rows too (`| ... | T2 ... |`) and prefer the row whose
+   heading contains "verdict"/"tier"/"planning".
+2. **A harvest index label reported the wrong year, one file at a time.** GM measured `A4_harvest_mine.md`
+   stamping a 197,373-byte layer `title:1918 / in-window` while the bytes print "TWENTY-NINTH ANNUAL REPORT …
+   YEAR ENDED DECEMBER 31, 1937" and the filename is `gm1937_djvu.txt`. The mine's `date_or_issue` comes from
+   the catalog, and GM's is a *multi-file item with one layer per year* — a known quirk, but the label is still
+   used as if it were the document. Until the mine carries the per-layer title, no dossier may use a harvest
+   `TIER1_CANDIDATE_TEXT` or `title:` cell as dating; the author already treated it that way and it should stay
+   the standard.
