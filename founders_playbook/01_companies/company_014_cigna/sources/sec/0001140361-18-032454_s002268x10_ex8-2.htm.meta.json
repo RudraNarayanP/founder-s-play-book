@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0001739940/000114036118032454/s002268x10_ex8-2.htm",
+ "fetched": "2026-09-29T19:05:04Z",
+ "sha1": "053cbd750e1e623d4f675fbd2592f2c0aaca2125",
+ "bytes": 13273,
+ "words": 921,
+ "cik": "0001739940",
+ "registrant": "Cigna Group",
+ "accession": "0001140361-18-032454",
+ "document": "s002268x10_ex8-2.htm",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

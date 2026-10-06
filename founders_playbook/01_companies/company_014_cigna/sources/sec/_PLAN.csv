@@ -1,0 +1,31 @@
+rank,cik,accession,form,filingDate,document,bytes_in_index_json,why,url,disposition
+1,0001739940,0001140361-18-024107,S-4,2018-05-16,s002268x1_s4.htm,6504356,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001739940/000114036118024107/s002268x1_s4.htm,fetched this run
+2,0001739940,0001140361-18-024107,S-4,2018-05-16,s002268x1_ex3-3.htm,68846,index.json listing (68846 B),https://www.sec.gov/Archives/edgar/data/0001739940/000114036118024107/s002268x1_ex3-3.htm,fetched this run
+3,0001739940,0001140361-18-024107,S-4,2018-05-16,s002268x1_ex3-1.htm,13167,index.json listing (13167 B),https://www.sec.gov/Archives/edgar/data/0001739940/000114036118024107/s002268x1_ex3-1.htm,fetched this run
+4,0001739940,0001140361-18-024107,S-4,2018-05-16,s002268x1_ex99-6.htm,6416,index.json listing (6416 B),https://www.sec.gov/Archives/edgar/data/0001739940/000114036118024107/s002268x1_ex99-6.htm,fetched this run
+5,0001739940,0001140361-18-029349,S-4/A,2018-06-20,s002268x3_s4a.htm,6660878,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001739940/000114036118029349/s002268x3_s4a.htm,fetched this run
+6,0001739940,0001140361-18-029349,S-4/A,2018-06-20,s002268x3_ex10-1.htm,157985,index.json listing (157985 B),https://www.sec.gov/Archives/edgar/data/0001739940/000114036118029349/s002268x3_ex10-1.htm,fetched this run
+7,0001739940,0001140361-18-029349,S-4/A,2018-06-20,s002268x3_ex8-1.htm,13534,index.json listing (13534 B),https://www.sec.gov/Archives/edgar/data/0001739940/000114036118029349/s002268x3_ex8-1.htm,fetched this run
+8,0001739940,0001140361-18-029349,S-4/A,2018-06-20,s002268x3_ex8-2.htm,11603,index.json listing (11603 B),https://www.sec.gov/Archives/edgar/data/0001739940/000114036118029349/s002268x3_ex8-2.htm,fetched this run
+9,0001739940,0001140361-18-031849,S-4/A,2018-07-09,s002268x5_s4a.htm,6730304,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001739940/000114036118031849/s002268x5_s4a.htm,fetched this run
+10,0001739940,0001140361-18-031849,S-4/A,2018-07-09,s002268x5_ex8-1.htm,13387,index.json listing (13387 B),https://www.sec.gov/Archives/edgar/data/0001739940/000114036118031849/s002268x5_ex8-1.htm,fetched this run
+11,0001739940,0001140361-18-031849,S-4/A,2018-07-09,s002268x5_ex8-2.htm,11605,index.json listing (11605 B),https://www.sec.gov/Archives/edgar/data/0001739940/000114036118031849/s002268x5_ex8-2.htm,fetched this run
+12,0001739940,0001140361-18-031849,S-4/A,2018-07-09,s002268x5_ex5-1.htm,10649,index.json listing (10649 B),https://www.sec.gov/Archives/edgar/data/0001739940/000114036118031849/s002268x5_ex5-1.htm,fetched this run
+13,0001739940,0001140361-18-032199,S-4/A,2018-07-12,s002268x7_s4a.htm,6730777,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001739940/000114036118032199/s002268x7_s4a.htm,fetched this run
+14,0001739940,0001140361-18-032199,S-4/A,2018-07-12,s002268x7_ex99-6.htm,7006,index.json listing (7006 B),https://www.sec.gov/Archives/edgar/data/0001739940/000114036118032199/s002268x7_ex99-6.htm,fetched this run
+15,0001739940,0001140361-18-032199,S-4/A,2018-07-12,s002268x7_ex99-2.htm,6810,index.json listing (6810 B),https://www.sec.gov/Archives/edgar/data/0001739940/000114036118032199/s002268x7_ex99-2.htm,fetched this run
+16,0001739940,0001140361-18-032199,S-4/A,2018-07-12,s002268x7_ex99-4.htm,6130,index.json listing (6130 B),https://www.sec.gov/Archives/edgar/data/0001739940/000114036118032199/s002268x7_ex99-4.htm,fetched this run
+17,0001739940,0001140361-18-032454,S-4/A,2018-07-16,s002268x10_s4a.htm,6732255,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001739940/000114036118032454/s002268x10_s4a.htm,fetched this run
+18,0001739940,0001140361-18-032454,S-4/A,2018-07-16,s002268x10_ex8-1.htm,13216,index.json listing (13216 B),https://www.sec.gov/Archives/edgar/data/0001739940/000114036118032454/s002268x10_ex8-1.htm,fetched this run
+19,0001739940,0001140361-18-032454,S-4/A,2018-07-16,s002268x10_ex8-2.htm,13155,index.json listing (13155 B),https://www.sec.gov/Archives/edgar/data/0001739940/000114036118032454/s002268x10_ex8-2.htm,fetched this run
+20,0001739940,0001140361-18-032454,S-4/A,2018-07-16,s002268x10_ex5-1.htm,10693,index.json listing (10693 B),https://www.sec.gov/Archives/edgar/data/0001739940/000114036118032454/s002268x10_ex5-1.htm,fetched this run
+21,0001739940,0000950159-18-000404,8-K,2018-09-21,halfmoon8k.htm,54521,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001739940/000095015918000404/halfmoon8k.htm,fetched this run
+22,0001739940,0000950159-18-000404,8-K,2018-09-21,ex4-2.htm,1360029,index.json listing (1360029 B),https://www.sec.gov/Archives/edgar/data/0001739940/000095015918000404/ex4-2.htm,fetched this run
+23,0001739940,0000950159-18-000404,8-K,2018-09-21,ex4-1.htm,586488,index.json listing (586488 B),https://www.sec.gov/Archives/edgar/data/0001739940/000095015918000404/ex4-1.htm,fetched this run
+24,0001739940,0000950159-18-000404,8-K,2018-09-21,ex4-3.htm,163903,index.json listing (163903 B),https://www.sec.gov/Archives/edgar/data/0001739940/000095015918000404/ex4-3.htm,fetched this run
+25,0001739940,0001140361-18-045493,8-K,2018-12-20,form8k.htm,18774,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001739940/000114036118045493/form8k.htm,fetched this run
+26,0001739940,0001140361-18-045493,8-K,2018-12-20,0001140361-18-045493.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0001739940/000114036118045493/0001140361-18-045493.txt,fetched this run
+27,0001739940,0000950159-18-000533,8-K,2018-12-26,cigna8k.htm,16508,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001739940/000095015918000533/cigna8k.htm,fetched this run
+28,0001739940,0000950159-18-000533,8-K,2018-12-26,0000950159-18-000533.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0001739940/000095015918000533/0000950159-18-000533.txt,fetched this run
+29,0001739940,0000950159-19-000007,8-K,2019-01-07,cigna8k1-7.htm,23536,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001739940/000095015919000007/cigna8k1-7.htm,fetched this run
+30,0001739940,0000950159-19-000007,8-K,2019-01-07,0000950159-19-000007.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0001739940/000095015919000007/0000950159-19-000007.txt,fetched this run

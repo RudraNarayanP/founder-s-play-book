@@ -1,0 +1,31 @@
+{
+ "cik": "0001739940",
+ "requested_cik": "1739940",
+ "registrant": "Cigna Group",
+ "ticker": "CI",
+ "tickers": [
+  "CI"
+ ],
+ "former_names": [
+  "Cigna Corp",
+  "Halfmoon Parent, Inc."
+ ],
+ "company_dir": "company_014_cigna",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['cigna'] match registrant 'Cigna Group' (CIK 0001739940)"
+ ],
+ "built": "2026-09-29T19:04:43Z",
+ "count": 1018,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 0,
+ "csv_sha1": "13dd06fb9287409e9393fd7b10226dc9277662e4",
+ "csv_bytes": 73218,
+ "paths": {
+  "json": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_014_cigna\\sources\\_index\\submissions_CIK0001739940.json",
+  "csv": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_014_cigna\\sources\\_index\\submissions_CIK0001739940.csv",
+  "md": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_014_cigna\\sources\\_index\\_INDEX_CIK0001739940.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

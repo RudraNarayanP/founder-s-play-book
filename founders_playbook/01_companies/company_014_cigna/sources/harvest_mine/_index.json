@@ -1,0 +1,493 @@
+{
+ "window": [
+  "1979-01-01",
+  "1995-12-31"
+ ],
+ "candidates": 96,
+ "mined": 12,
+ "untried_by_limit": 81,
+ "items": [
+  {
+   "identifier": "_c-d4kO2SHsC",
+   "date": "1989-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried _c-d4kO2SHsC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "RBrmuywAFusC",
+   "date": "1992-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried RBrmuywAFusC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "INAC2115_1979",
+   "date": "1979-01-01",
+   "title_year": "1979",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "INA Corporation (1979)",
+   "family": "internet_archive",
+   "meta_date": "1979-01-01",
+   "status": "cached",
+   "bytes": 111357,
+   "named_terms": [
+    "formerly known as cigna"
+   ],
+   "other_terms": [
+    "connecticut general",
+    "ina corporation"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "ina corporation"
+   ],
+   "sample": [
+    {
+     "line": 1,
+     "text": "INA Corporation/Annual Report 1979",
+     "context": [
+      ""
+     ]
+    },
+    {
+     "line": 4,
+     "text": "INA Corporation is among the nation\u2019s oldest commercial",
+     "context": [
+      "",
+      "organizations. Its history dates back to 1792, with the formation"
+     ]
+    },
+    {
+     "line": 36,
+     "text": "INA Corporation Financial Highlights",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "assessingitperfo00wils",
+   "date": "1988-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Assessing I.T. performance : what the experts say",
+   "family": "internet_archive",
+   "meta_date": "1988-01-01",
+   "status": "cached",
+   "bytes": 62186,
+   "named_terms": [
+    "formerly known as cigna"
+   ],
+   "other_terms": [
+    "connecticut general",
+    "ina corporation"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 1,
+   "phrase_hits": 0,
+   "entity_hits": 1,
+   "matched_entities": [
+    "cigna  corporation"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 57,
+     "text": "CIGNA  Corporation",
+     "context": [
+      "",
+      ""
+     ],
+     "promoted": "cigna  corporation"
+    }
+   ]
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp84b00130r000600010246-7",
+   "date": "1980-01-01",
+   "title_year": "1980",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp84b00130r000600010246-7: STAFF MEETING MINUTES OF 9 APRIL 1980",
+   "family": "internet_archive",
+   "meta_date": "1980-01-01",
+   "status": "cached",
+   "bytes": 4428,
+   "named_terms": [
+    "formerly known as cigna"
+   ],
+   "other_terms": [
+    "connecticut general",
+    "ina corporation"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "connecticut general"
+   ],
+   "sample": [
+    {
+     "line": 27,
+     "text": "Connecticut General has agreed to a withdrawal of 50 percent",
+     "context": [
+      "alleviate current shortages in this job category. He reported also",
+      "from the Agency's VIP income fund for investment via the Credit Union in"
+     ]
+    },
+    {
+     "line": 30,
+     "text": "opined that Connecticut General agreed in order to save the VIP account; he",
+     "context": [
+      "higher interest Treasury certificates--14 percent versus 8 percent. He",
+      "noted the is to be returned to the income fund at the end of 6"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp88t00792r000300040001-2",
+   "date": "1988-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp88t00792r000300040001-2: AFRICA REVIEW",
+   "family": "internet_archive",
+   "meta_date": "1988-01-01",
+   "status": "cached",
+   "bytes": 43176,
+   "named_terms": [
+    "formerly known as cigna"
+   ],
+   "other_terms": [
+    "connecticut general",
+    "ina corporation"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 1,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1174,
+     "text": "18 November Economy-Disinvestment. US firm Cigna sells its South African operations to local",
+     "context": [
+      "16 November Unrest. Johannesburg; a limpet mine is discovered and defused at a post office.",
+      "2 management."
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp91-00929r000200960032-0",
+   "date": "1983-01-01",
+   "title_year": "2009",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp91-00929r000200960032-0: FR:CHUKHOL SKIY P.G. TO:CIRMAN Z.",
+   "family": "internet_archive",
+   "meta_date": "1983-01-01",
+   "status": "cached",
+   "bytes": 24680,
+   "named_terms": [
+    "formerly known as cigna"
+   ],
+   "other_terms": [
+    "connecticut general",
+    "ina corporation"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 1,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1071,
+     "text": "water-~nitric acid system. CIGNA, Rez DI CAVE, S.ej3",
+     "context": [
+      "earth nitrates on the biquid--vapor equilibrium of the",
+      "GIONA, A+R.; MARIANI, E. Translated by M. Gerrard from"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp90g00152r001102380002-3",
+   "date": "1987-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp90g00152r001102380002-3: SPEAKING REQUEST NATIONAL SECURITY AND RISK MANAGEMENT CONFERENCE AMERI",
+   "family": "internet_archive",
+   "meta_date": "1987-01-01",
+   "status": "cached",
+   "bytes": 36048,
+   "named_terms": [
+    "formerly known as cigna"
+   ],
+   "other_terms": [
+    "connecticut general",
+    "ina corporation"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 2,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1431,
+     "text": "CIGNA",
+     "context": [
+      "",
+      "1600 Arch Street - 3 Penn Center, Suite 110"
+     ]
+    },
+    {
+     "line": 1436,
+     "text": "The CIGNA Consumer Marketing Department offers",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA41153629_0618",
+   "date": "1992-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Connecticut Task Force on Charter Schools Report. Prepared for the Education Committee of the Connecticut General Assemb",
+   "family": "internet_archive",
+   "meta_date": "1992-01-01",
+   "status": "cached",
+   "bytes": 54748,
+   "named_terms": [
+    "formerly known as cigna"
+   ],
+   "other_terms": [
+    "connecticut general",
+    "ina corporation"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "connecticut general"
+   ],
+   "sample": [
+    {
+     "line": 7,
+     "text": "Connecticut General Assembly and the Connecticut",
+     "context": [
+      "Prepared for the Education Committee of the",
+      "State Board of Education Pursuant to Public Act"
+     ]
+    },
+    {
+     "line": 87,
+     "text": "Education Committee of the Connecticut General Assembly",
+     "context": [
+      "Prepared for the",
+      "and the"
+     ]
+    },
+    {
+     "line": 155,
+     "text": "Connecticut General Assembly",
+     "context": [
+      "Education Committee",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "ERIC_ED460893",
+   "date": "1995-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "ERIC ED460893: The Connecticut General Assembly: Teacher's Manual for Visitation Program of the Connecticut Consortium f",
+   "family": "internet_archive",
+   "meta_date": "1995-01-01",
+   "status": "cached",
+   "bytes": 125176,
+   "named_terms": [
+    "formerly known as cigna"
+   ],
+   "other_terms": [
+    "connecticut general",
+    "ina corporation"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "connecticut general"
+   ],
+   "sample": [
+    {
+     "line": 41,
+     "text": "The Connecticut General Assembly: Teacher's Manual for",
+     "context": [
+      "",
+      "Visitation Program of the Connecticut Consortium for Law and"
+     ]
+    },
+    {
+     "line": 80,
+     "text": "and seven sections, including: (1) \"Introduction to the Connecticut General",
+     "context": [
+      "process. The teacher's manual contains an introduction, a guide for teachers,",
+      ""
+     ]
+    },
+    {
+     "line": 116,
+     "text": "THE CONNECTICUT GENERAL ASSEMBLY",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA40385019_1642",
+   "date": "1989-01-01",
+   "title_year": "1989",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Creative Bath Products, Inc. v. Connecticut General Life Insurance, 492 U.S. 918 (1989) (No. 87-1738)",
+   "family": "internet_archive",
+   "meta_date": "1989-01-01",
+   "status": "cached",
+   "bytes": 94646,
+   "named_terms": [
+    "formerly known as cigna"
+   ],
+   "other_terms": [
+    "connecticut general",
+    "ina corporation"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "connecticut general"
+   ],
+   "sample": [
+    {
+     "line": 15,
+     "text": "CONNECTICUT GENERAL LIFE INSURANCE COMPANY and",
+     "context": [
+      "Le",
+      ""
+     ]
+    },
+    {
+     "line": 190,
+     "text": "CONNECTICUT GENERAL LIFE INSURANCE COM-",
+     "context": [
+      "",
+      "PANY and ROBERT FERINA,"
+     ]
+    },
+    {
+     "line": 203,
+     "text": "Creative Bath Products, Inc. v. Connecticut General Life",
+     "context": [
+      "",
+      "Ins. Co., No. 85 Civ. 4660 (E.D.N.Y. Jan. 6, 1987)"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA40385013_0186",
+   "date": "1991-01-01",
+   "title_year": "1991",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Pierre v. Connecticut General Life Insurance, 502 U.S. 973 (1991) (No. 91-485)",
+   "family": "internet_archive",
+   "meta_date": "1991-01-01",
+   "status": "cached",
+   "bytes": 164349,
+   "named_terms": [
+    "formerly known as cigna"
+   ],
+   "other_terms": [
+    "connecticut general",
+    "ina corporation"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 6,
+   "phrase_hits": 0,
+   "entity_hits": 4,
+   "matched_entities": [
+    "cigna companies",
+    "cigna holdings"
+   ],
+   "matched_other_terms": [
+    "connecticut general"
+   ],
+   "sample": [
+    {
+     "line": 6067,
+     "text": "CIGNA Companies 1050 Connecticut Avenue, N.W.",
+     "context": [
+      "DoREEN A. GAGNON GIBSON, DUNN & CRUTCHER",
+      "Hartford, CT 06152 Washington, D.C. 20036-5303"
+     ],
+     "promoted": "cigna companies"
+    },
+    {
+     "line": 6114,
+     "text": "Connecticut General Corporation is CIGNA Holdings,",
+     "context": [
+      "necticut General Corporation. The parent of",
+      "Inc. The parent of CIGNA Holdings, Inc. is CIGNA"
+     ],
+     "promoted": "cigna holdings"
+    },
+    {
+     "line": 6115,
+     "text": "Inc. The parent of CIGNA Holdings, Inc. is CIGNA",
+     "context": [
+      "Connecticut General Corporation is CIGNA Holdings,",
+      "Corporation. CGLIC\u2019s subsidiaries, other than wholly"
+     ],
+     "promoted": "cigna holdings"
+    }
+   ]
+  }
+ ]
+}

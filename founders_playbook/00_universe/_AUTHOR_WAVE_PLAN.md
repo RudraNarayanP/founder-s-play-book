@@ -106,3 +106,16 @@ parity once, not renumber either part.
   pre-1965 — the first time family (d) has been *counted* for a tail company.
 - The probe's CLI docstring in `tools/ia_text.py` should be aligned with the parser; until then, an agent
   that hits an argparse error on a documented form must report it rather than conclude the route is dead.
+
+## `gate_quotes` cannot match a quotation of our own research files (Cigna merge, 2026-10-07)
+
+Cigna's merge left one finding on the board that it correctly refused to "fix": the volume quotes
+`research/A4_harvest_mine.md` l.5 verbatim, and **`gate_quotes` indexes only `sources/**`**, so a quotation of
+a research dossier can never match. The finding pre-dates the merge (it was in the probe's gate file), and the
+right response was exactly what happened — record the evidence, leave the data alone.
+
+Two consequences for me: (1) quoting a harvest dossier inside a volume is legitimate practice and the gate
+should know it, so the fix is to index `research/*.md` as a corpus of quotable text or to label such spans
+`[research:]` and exempt them; (2) until then, **every merge at every company will carry one permanent false
+advisory**, which trains people to ignore the quote gate — the failure mode §15.6 exists to prevent. Do the
+fix with a self-test control, not by hand-waving it in a manifest.
