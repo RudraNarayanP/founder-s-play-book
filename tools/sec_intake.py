@@ -1343,7 +1343,7 @@ def main():
         if a.file:
             print(json.dumps(grab(a.company_dir, a.cik, a.accession, a.file)))
         else:
-            listing, lnote = doc_listing(a.cik, a.accession)
+            listing, lnote, _lform = doc_listing(a.cik, a.accession)
             if not listing:
                 print(json.dumps({"accession": a.accession, "file": None, "status":
                                   "UNANSWERED -- directory listing failed (%s); no file was guessed"
