@@ -61,3 +61,26 @@ certifier who is neither author, merger, auditor nor repairer.
   agent must request a cited domain (a filing line printing the domain) rather than invent one.
 - Family (e) auction/museum/manuscript has **no tool at all**: it is UNTRIED for every company, structurally.
 - Line numbers are locators; re-measure anything you publish after your last write.
+
+
+## Correct three stale beliefs now circulating in briefs (2026-10-07, merge wave)
+
+1. **`sec_intake auto` and `grab` work.** Two authors have refused to run intake because `auto` "rewrites
+   `_RUN.json`/`_MANIFEST.csv` unconditionally" and `grab` was "broken fleet-wide". Both were fixed today:
+   `version_aside()` keeps the previous run record beside the new one (RD-139, after Home Depot's probe proved
+   the int-`cik` crash had faked an empty archive), and `grab`'s enumeration branch was unpacking 2 values from
+   a 3-tuple (RD-138). Selftests: sec_intake 54/0, gates 18 controls PASS, harvest_mine 9/0, cdx_intake 37/0.
+   A stale tool belief makes an agent request a fetch instead of running a script, which is the thing §15.1
+   exists to prevent.
+2. **Meta: part 2 landed before part 1 and already adopted part 1's anchor ids.** `p2` found part 1's
+   pre-declared `U.1–U.7`, took them verbatim so part 1's `§U.n` cross-references resolve, and added `U.8`
+   itself. So do **not** renumber anchors at the Meta merge, and do not dispatch `merge-meta` until
+   `s1_p1.md` reports its sections complete.
+3. **`--tier auto` cannot see a table-row verdict** (GM and AT&T both reported T3/T2 mismatches). Pass
+   `--tier core|register` explicitly for the budget check and record that you did, instead of editing prose
+   to satisfy a tool.
+
+## Merge queue, in order of readiness (single-part dossiers merge immediately)
+`cigna` (running), `gm` (running), `att` (running), `cvs` (running) -> then `jnj`, `pepsico`, `boeing`,
+`jpmorgan` as their authors close -> `meta` and `dell` need BOTH parts before merging. Every merge is followed
+by audits from different agents and then a certifier who is neither author, merger, auditor nor repairer.
