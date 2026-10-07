@@ -455,18 +455,42 @@ REJECT_IN_QUOTE = re.compile(r"(l\.\s*\d|§|cor-\d|`|\||https?://|\[\d|\bnosuchk
                              r"\bfilingline\b|\bverbatim marker\b|<[^>]+>)", re.I)
 
 
+def _ref_corpus(company):
+    """Our OWN project text, indexed as a second-class quotation target.
+
+    A volume legitimately quotes its probe dossier (`research/A4_harvest_mine.md l.5`) or the method file
+    it is written under, and the Cigna merge proved what happens otherwise: `gate_quotes` indexed only
+    `sources/**`, so a quotation of a research dossier can NEVER match, and every merge at every company
+    carries one permanent false advisory -- Meta's was 10 of 35 spans, all of them project-internal. A
+    permanent false alarm is the thing §15.6 exists to prevent, because it trains people to ignore the
+    quote gate. This is not a licence to fabricate: primary evidence still has to be in `sources/`, and
+    the count of reference-only matches is printed, not hidden.
+    """
+    pbs = os.path.normpath(os.path.join(company, "..", ".."))
+    files = glob.glob(os.path.join(company, "research", "*.md"))
+    files += glob.glob(os.path.join(pbs, "00_METHOD_AND_STYLE.md"))
+    files += glob.glob(os.path.join(pbs, "03_quality_control", "*BRIEF*.md"))
+    files += glob.glob(os.path.join(pbs, "00_universe", "_*.md"))
+    blob = " ".join(_squash(strip_html(open(p, encoding="utf-8", errors="replace").read()))
+                    for p in files if os.path.isfile(p))
+    return blob, len(files)
+
+
 def gate_quotes(company, report, min_words=MIN_QUOTE_WORDS):
     corpus = []
     for pat in ("*.txt", "*.htm", "*.html", "*.sgml", "*.sgm"):
         for p in glob.glob(os.path.join(company, "sources", "**", pat), recursive=True):
             corpus.append(_squash(strip_html(open(p, encoding="utf-8", errors="replace").read())))
     blob = " ".join(corpus)
-    report.note("quotes", "corpus: %d chars of squashed local source text indexed" % len(blob))
+    rblob, rfiles = _ref_corpus(company)
+    report.note("quotes", "corpus: %d chars of squashed local source text indexed (+ %d chars of "
+                "project-internal text from %d research/method/brief files, second-class)"
+                % (len(blob), len(rblob), rfiles))
     if not corpus:
         report.note("quotes", "no local sources -> quote gate UNANSWERED, not passed")
         return
     qre = re.compile(r"\"([^\"]{%d,900})\"" % (min_words * 4))
-    checked = unmatched = skipped = 0
+    checked = unmatched = skipped = refonly = 0
     unattr = []
     misses = []
     for md in stage_docs(company):
@@ -486,6 +510,17 @@ def gate_quotes(company, report, min_words=MIN_QUOTE_WORDS):
                 skipped += 1
                 continue
             bad = [f for f in frags if f not in blob]
+            ref_hit = False
+            if bad and rblob:
+                # Quoted from our own dossier/method/brief rather than from a carrier: legitimate when the
+                # sentence is ABOUT our record (a probe's measurement, a contract line the brief sets), and
+                # it can never match sources/. Count it, report the count, do not call it a defect.
+                rest = [f for f in bad if f not in rblob]
+                if not rest:
+                    bad = []
+                    ref_hit = True
+                else:
+                    bad = rest
             if not attributed:
                 # A quotation with no attribution verb is its own defect class: nothing in
                 # the sentence says who said it, which is where paraphrases enter as quotes.
@@ -493,13 +528,16 @@ def gate_quotes(company, report, min_words=MIN_QUOTE_WORDS):
                     unattr.append((label, bad[0][:110]))
                 continue
             checked += 1
+            if ref_hit:
+                refonly += 1
             if bad:
                 unmatched += 1
                 if len(misses) < 40:
                     misses.append((label, bad[0][:110]))
     rate = (unmatched / checked) if checked else 1.0
-    report.note("quotes", "candidates %d, attributed+checked %d, skipped %d, unmatched %d (%.0f%%)"
-                % (checked + skipped + len(unattr), checked, skipped, unmatched, 100 * rate))
+    report.note("quotes", "candidates %d, attributed+checked %d, skipped %d, unmatched %d (%.0f%%), "
+                "matched-in-project-text-only %d"
+                % (checked + skipped + len(unattr), checked, skipped, unmatched, 100 * rate, refonly))
     if unattr:
         # Advisory only: most of these are scare-quotes and labelled phrases, not
         # citations, so a count is honest signal and a defect list would not be.
@@ -1053,6 +1091,27 @@ def self_test():
             ok = False
         else:
             print("%-40s %s" % ("clean fixture", "CLEAN"))
+
+        # gate_quotes must be able to match a quotation of our OWN dossier (Cigna merge, 2026-10-07;
+        # Meta's merge carried 10 of 35 spans of this class). Before the fix a research/ quotation could
+        # never match, so every merge shipped one permanent false advisory -- and a permanent false alarm
+        # is the defect s15.6 exists to remove, because it trains the reader to ignore the quote gate.
+        rc = os.path.join(tmp, "case_ref")
+        shutil.copytree(comp, rc)
+        os.makedirs(os.path.join(rc, "research"), exist_ok=True)
+        open(os.path.join(rc, "research", "A4_harvest_mine.md"), "w", encoding="utf-8").write(
+            "The mine stored ninety-one documents across four slices and answered nothing else.\n")
+        plant(os.path.join(rc, "stage_1.md"), lambda t:
+              t + '\n### U.9 The record\nThe dossier notes "ninety-one documents across four slices and '
+                  'answered nothing else" (research/A4_harvest_mine.md).\n')
+        r = Report()
+        gate_quotes(rc, r, min_words=8)
+        counted = any("matched-in-project-text-only 1" in n for n in r.notes)
+        print("%-40s %-8s %s" % ("research-dossier quotation matches", "[quotes]",
+                                 "PASS (clean and counted)" if not r.findings and counted
+                                 else "*** FAILED: findings=%s notes=%s ***"
+                                      % (r.findings[:1], [n for n in r.notes if "candidates" in n][:1])))
+        ok = ok and not r.findings and counted
 
         # issued_tier: the newest write wins, and a disagreement is reported rather than averaged.
         tc = os.path.join(tmp, "tier_case")

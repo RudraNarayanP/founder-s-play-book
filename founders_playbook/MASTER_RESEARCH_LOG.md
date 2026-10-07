@@ -2824,3 +2824,132 @@ from 2001), comcast (30), ups (29), pepsico (27), humana (26) and fedex (19, wit
 those companies' own Stage-1 windows could never reach. Facet-free reharvest: **207 live requests, 1,610
 candidate rows** (565 TIER1_CANDIDATE, 963 LEAD_ONLY, 47 UNANSWERED, 35 NULL), 94 responses versioned beside
 existing rather than over them. Twelve tail probes are running against those bytes.
+
+### RD-136 .. RD-141 -- SEVEN ENTRIES EXISTED ONLY AS COMMIT MESSAGES, and this heading is the admission
+
+**The durable log fell behind the repository.** Cigna's auditor reported on 2026-10-07:
+"MASTER_RESEARCH_LOG.md ends at RD-135 -- entries RD-138-RD-141 do not exist." It checked the file rather
+than trusting me, and it is right: commits named RD-136 through RD-141 landed with their full narrative in
+the *commit message*, and the log -- which is what every dispatched agent actually reads -- stopped at
+RD-135. A fact that lives only in git history is invisible to the next agent, and §14 rule 2b says the
+instruction layer is the worst place to leave a stale claim. Compact reconstruction follows; each line is
+the commit's own claim, not a fresh measurement.
+
+- **RD-136** `--facet-free` had not touched the corporate-print family at all: the flag cleared a YEAR
+  clause in `q` while Chronling America tasks carry their years in `year_range`, so the printed count was a
+  verification of the wrong field. Fixed by dropping both and recording `year_range_dropped`; measured 188
+  of 207 IA-family queries rewritten, not the 88 first reported. RD-134 corrected in place.
+- **RD-137** intake run records are now *versioned* (`version_aside`) instead of overwritten; the Bell
+  Canada decoy fixed at the query. Addenda: `sec_intake` lacked the alias map `harvest_mine` has (BofA
+  resolved 7 name forms to 0 candidates while the mine holds 12 entity-bearing docs), the BofA registrant is
+  CIK 70858 = the 1998 NationsBank/MBNA continuation so both the 1904 California and 1791 Boston lines are
+  ancestors, and Bergen Brunswig is CIK 11454 with 1994-2002 filings, which makes Cencora's 1985-2000 window
+  a different registrant rather than a silence.
+- **RD-138** `grab` unpacked 2 values from a 3-tuple and so died on the accession-enumeration branch
+  (untested path); the tier reader graded a company off a *passing mention*; an ADVISORY finding still failed
+  the exit code. Fleet-intake's in-window count was mis-scraped (Humana: dossier 148 vs measured 0) and
+  Valero showed the same symptom has TWO causes -- regex mis-scrape and pass 2 rewriting pass 1's run
+  records, so run records must be keyed per pass. `legacy_cik search` parse-failed on all four ExxonMobil
+  ancestor names: its silence must never read as absence, and it still owes known-positive controls.
+  Home Depot moved T3 to T2 because the empty shelf was our downloader, not a quiet archive.
+- **RD-139** D-1: the legacy `submissions.json` stores `cik` as an **int**, and `.strip()` on it raised
+  AttributeError out of `auto`/`index` for the entire 2026-09-25 intake cohort -- that crash, not an empty
+  archive, is why Home Depot was tiered T3 off a 3,077-row registrant. Family (b) got a scripted route
+  (`cdx_intake.py`, 37-check selftest, 52 verified snapshots), and Target's two `web_archive` files turned
+  out to be Microsoft's outage banner with no sidecar. Tesla reached CERTIFIED-WITH-NAMED-RESIDUALS (46
+  arithmetic identities recomputed, 0 errors; the certifier still caught its repairer short: "11 bodies
+  across 8 accessions" is the 2010 lineage, the true count is 15/11), its closer then introduced a CSV width
+  drift that the gate caught. Target round 3 came back NOT-CERTIFIED on propagation alone, and the real
+  defect was inside a retraction: **COR-22 asserted "calendar year" occurs 0 times in corporate print while
+  FOUR layers print it** -- a false null in a correction marker is worse than the original error, because the
+  marker is the thing later passes trust. Round 4 closed N-1..N-5 and re-measured registers to 22,962 w /
+  168,755 B against the 17,575/141,726 the manifest had been publishing.
+- **RD-140** Target **CERTIFIED-WITH-NAMED-RESIDUALS** (13/13 manifest cells byte-exact; the false zero
+  withdrawn against four carriers), and its certifier found the exit-code bug: `gate_quotes` writes ADVISORY
+  into the finding's **subject**, the filter read only gate and msg. My first fixture for that control failed
+  and I reverted it rather than report a green self-test over unfinished work. Separately, **my nightly merge
+  dropped 2,272 harvest rows** by deduping `candidates.csv` on `(company, family, query, item_id)` when
+  `item_id` is blank on listing-only rows, while my commit message claimed nothing was discarded -- repaired
+  as a full-row union (5,648 rows) with a follow-up commit that names the false claim.
+- **RD-141** the author wave opened: 12 Stage-1 authors against one shared contract, plus
+  `_AUTHOR_WAVE_PLAN.md` and `_DISPATCH_QUEUE.md` so no dispatch depends on my context surviving. Four
+  authors corrected my dispatch labels in print -- I briefed T1 where Dell's, Meta's and PepsiCo's probes
+  measure T3 or T2-provisional, and the rule is now restated for every later wave: **the probe's measured
+  tier governs, not my table.** Two tool-belief corrections were circulated (both `sec_intake auto` and
+  `grab` were already fixed; `ia_text.py` needs `list-files --id <identifier>`, and the documented form
+  without `--id` had made a runnable route look dead). The harvest index also stamped a **1937 annual
+  report as 1918 and in-window**, so no dossier may treat a `title`/`TIER1_CANDIDATE` cell as dating until
+  the mine carries per-layer titles. Cigna merged (78/78 rows) and surfaced the permanent false advisory this
+  entry's RD-142 fixes.
+
+### RD-142 -- the tier reader graded a whole company off one number, my first patch crashed on the branch every real run hits first, and the quote gate could never see its own project text
+
+**`issued_tier()` read a table-row verdict as nothing.** GM, Boeing and JPMorgan's authors each reported the
+same thing: `--tier auto` measured **T3** while their probe's §5 issued **Stage 1 at T2 core** ("14 mentions,
+0 on a verdict line"), so the budget gate aimed the 8,000-word register cap at a 22,000-word core volume, and
+each author worked around my tool by passing `--tier core` explicitly and saying so. Two of the three also
+showed the opposite direction is live: Meta and CVS read **T1** off a passing mention, which silently removes
+the budget signal instead of adding a false one. The tier is not one number per company -- §15.2/RD-112
+issue it **per stage**, and JPMorgan's dossier literally writes Stage 1 T2 with Stages 2-3 T3.
+
+Fix, in `tools/gates.py`: a line now *binds* a tier to a stage in three recognised shapes, ranked --
+(1) a dispatch line `Stage 1 -- T2 core`, (2) a per-stage table row `| **Stage 1** | ... | **T2 core** |`,
+(3) a company-wide `TIER: Tn` line -- and `gate_budgets()` resolves the tier **per volume** from the file's
+own stage number, printing the tier it used in every message. Three hazards are designed out, not hoped away:
+- **Prose cannot bind.** Boeing writes "I would not claim T1 for Stage 1, and I would not claim T3 either"
+  and JPMorgan "No stage reaches T1, and Stage 1 cannot reach T1"; binding on nearest-token proximity would
+  issue Stage 1 as T1 from a sentence whose entire point is that it is NOT T1. The separator run between the
+  stage number and the tier token is therefore restricted to non-word characters.
+- **Sub-window rows are not stage issuances.** CVS grades `S1a origin 1963-1968`, `S1b`, `S1c`, `S1d` and
+  PepsiCo grades `1A 1893-1918`, `1B`, `1C`; those are slices. The row a `stage_1.md` is measured against is
+  the whole-stage one (`| **Whole Stage 1 as dispatched (1963-1996)** | ... | **T2 core** |`).
+- **A disagreement is printed, not averaged.** When two lines of the same rank bind one stage to different
+  tiers the note says `DISAGREES (T1/T2 at this rank), newest wins; pass --tier if the dossier means
+  otherwise`, and the prose-only fallback is labelled `LAST-RESORT reading` rather than presented as a
+  measurement. Verified live: jpmorgan/gm/jnj/boeing S1 now read T2, boeing S2 T3 and S3 T2, unitedhealth
+  S1 T3 with S2/S3 T2 (exactly what its A2 regrade says: "company planning tier = the minimum across stages
+  = T3 -- it does not downgrade Stages 2 and 3, which are dispatched at T2"), tesla T3, target T2, meta T2.
+
+**My own first patch shipped a crash, and the branch it crashed on is the one every real run reaches first.**
+The initial `issued_tier` rewrite shadowed its own comprehension variable -- `"Stage %d %s" % (b[3], b[4])`
+iterating over 2-tuples built from `b` -- and died with `IndexError: tuple index out of range` on
+`issued_tier(company)`, the `stage is None` path that `run()` calls before any gate. My per-stage controls all
+passed while the live call was broken, because I tested the new path and not the banner. The control
+`global call on a per-stage dossier` now exists for exactly that reason. **A self-test that covers the new
+behaviour and not the entry point is not a self-test.**
+
+**`gate_quotes` could never match a quotation of our own dossier, so every merge carried a permanent false
+advisory.** Cigna's merge refused to "fix" a finding on a verbatim quote of `research/A4_harvest_mine.md`
+l.5 -- correct behaviour, wrong tool: the corpus was `sources/**` only. Meta's merge then reported 10 of 35
+unmatched spans and said every one was a quotation of `research/` or of the shared brief. A permanent false
+alarm is precisely what §15.6 exists to prevent, because it trains the reader to ignore the quote gate. The
+gate now indexes project-internal text (the company's `research/*.md`, `00_METHOD_AND_STYLE.md`, the
+`*BRIEF*.md` files, `00_universe/_*.md`) as a **second-class** corpus and prints how many spans matched only
+there, so precision claims stay measurable: Cigna 0 findings with `matched-in-project-text-only 1`; Meta
+10 unmatched becomes 7 real + 3 project-text; CVS 1 real (the author's own in-quotation `[~]` OCR marker,
+which stays an auditor's question, not a silent pass).
+
+**`scaffold.py ledger` died on a directory claim.** `PermissionError: company_010_cencora/sources/web_archive`
+-- a cdx run claims the directory before it contains a file, and the command that tells me which lanes are
+busy is exactly the command I cannot afford to lose at 04:00. `words()` already swallowed `OSError`; the
+pending-block counter did not. Now a non-file path reads `-1` and the loop survives.
+
+**Two process facts I own.** (1) Seven RD entries lived only in commit messages -- see the reconstruction
+above; a fact in git history is invisible to the next agent. (2) I released `merge-meta`'s claims while that
+agent was still running, and separately assumed `s1-dell-p2` was dead-with-no-locks when its claim was LIVE
+with a 70-minute heartbeat; the finisher I dispatched correctly refused to touch the file and reported the
+refusal rather than forcing. **The ledger is the authority on ownership, not my inference from a turn-limit
+notification** -- a completion notice arriving does not mean the paths are free, and one NOT arriving does not
+mean they are.
+
+**Wave state as of this entry.** 18 agents in flight: 7 Stage-1 audits (gm, att, cvs, jnj, pepsico, boeing,
+meta) against the new `03_quality_control/AUDIT_BRIEF_SHARED.md`; 1 repairer for Cigna's audited blocker
+(a held byte at `0001140361-18-024107_s002268x1_s4.htm` l.48371 prints "Originally incorporated on March 6,
+2018", refuting the volume's eight-place claim that **no held byte prints its own incorporation date**); 1
+merger for JPMorgan; 1 finisher for Dell part 2; 8 wave-2 authors (cencora, cardinal, centene, elevance,
+humana, verizon, ups, fedex) at their probes' own T3. Merged and awaiting audit outcome: GM 20,192 w / 114
+rows; AT&T 31,315 / 136; CVS 19,520 / 126; J&J 27,043 / 102; PepsiCo 22,958 / 106; Boeing 34,817 / 211; Meta
+30,212 / 120; Cigna 14,513 / 78. Nine gate reports landed in a **repository-root `03_quality_control/`**
+because briefs wrote "03_quality_control/..." without the `founders_playbook/` prefix -- left in place rather
+than moved, because a live agent holds those paths; the audit brief now states the full path, and the stray
+directory gets consolidated once the lanes drain.

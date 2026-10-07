@@ -60,6 +60,10 @@ certifier who is neither author, merger, auditor nor repairer.
 - `tools/web_domains.json` gates family (b): if a slug is absent, (b) is UNTRIED and that must be said, and the
   agent must request a cited domain (a filing line printing the domain) rather than invent one.
 - Family (e) auction/museum/manuscript has **no tool at all**: it is UNTRIED for every company, structurally.
+- **Report paths are repo-root-relative, so write the whole thing**: `founders_playbook/03_quality_control/<file>.md`.
+  Nine gate reports landed in a repository-root `03_quality_control/` because a brief said
+  `03_quality_control/...`; that stray directory exists now, is untracked, and is NOT the canonical home -- do not
+  add to it, and do not delete from it either while any agent may still hold a path inside it.
 - Line numbers are locators; re-measure anything you publish after your last write.
 
 
@@ -72,18 +76,27 @@ certifier who is neither author, merger, auditor nor repairer.
    a 3-tuple (RD-138). Selftests: sec_intake 54/0, gates 18 controls PASS, harvest_mine 9/0, cdx_intake 37/0.
    A stale tool belief makes an agent request a fetch instead of running a script, which is the thing §15.1
    exists to prevent.
-2. **Meta: part 2 landed before part 1 and already adopted part 1's anchor ids.** `p2` found part 1's
-   pre-declared `U.1–U.7`, took them verbatim so part 1's `§U.n` cross-references resolve, and added `U.8`
-   itself. So do **not** renumber anchors at the Meta merge, and do not dispatch `merge-meta` until
-   `s1_p1.md` reports its sections complete.
-3. **`--tier auto` cannot see a table-row verdict** (GM and AT&T both reported T3/T2 mismatches). Pass
-   `--tier core|register` explicitly for the budget check and record that you did, instead of editing prose
-   to satisfy a tool.
+2. **Meta is merged** (30,212 w / 120 live rows, anchors 8↔8, `S4495–S4509`) and its part-2 anchor story is
+   now history, not a warning: part 2 adopted part 1's `U.1–U.7` and added `U.8`; the merger de-duplicated
+   15 conflict rows to 8 one-per-subject. Nobody renumbers Meta's sections.
+3. **`--tier auto` is FIXED (RD-142) -- stop pinning `--tier core`.** It binds a tier to the stage that
+   issues it, reading per-stage **table rows** and `Stage 1 -- T2 core` dispatch bullets, ranks
+   dispatch-line > table-row > company-wide `TIER: Tn`, grades each volume at its own stage's tier, and prints
+   the tier it used plus any disagreement between same-rank lines. So `gates.py --company-dir <dir> --checks
+   budget` with no `--tier` is now the correct command, and an explicit `--tier` is a override you must
+   *justify*, not a workaround. If the tool still contradicts your dossier, say so in your report and pass the
+   flag -- but the three reports that started this (GM, Boeing, JPMorgan) now resolve T2 for Stage 1 with no
+   override at all.
 
 ## Merge queue, in order of readiness (single-part dossiers merge immediately)
-`cigna` (running), `gm` (running), `att` (running), `cvs` (running) -> then `jnj`, `pepsico`, `boeing`,
-`jpmorgan` as their authors close -> `meta` and `dell` need BOTH parts before merging. Every merge is followed
-by audits from different agents and then a certifier who is neither author, merger, auditor nor repairer.
+
+**Merged, under audit as of RD-142:** `cigna` (14,513 w / 78 rows; auditor FAILED it -- one blocker, held bytes
+do print its incorporation date -- and a repairer is on it), `gm` (20,192 / 114), `att` (31,315 / 136),
+`cvs` (19,520 / 126), `jnj` (27,043 / 102), `pepsico` (22,958 / 106), `boeing` (34,817 / 211), `meta`
+(30,212 / 120). **Still to merge:** `jpmorgan` (running, single part), `dell` (part 2 has 2 `STATUS: PENDING`
+blocks being finished first, and its merge must take the UNION of part 1's `U.101-U.111` and part 2's
+declarations without renumbering either). Every merge is followed by audits from different agents and then a
+certifier who is neither author, merger, auditor nor repairer.
 
 ## Correction to MY wave table, from Dell's author (2026-10-07)
 
@@ -119,3 +132,11 @@ should know it, so the fix is to index `research/*.md` as a corpus of quotable t
 `[research:]` and exempt them; (2) until then, **every merge at every company will carry one permanent false
 advisory**, which trains people to ignore the quote gate — the failure mode §15.6 exists to prevent. Do the
 fix with a self-test control, not by hand-waving it in a manifest.
+
+**SHIPPED, RD-142.** `gate_quotes` now indexes a second-class reference corpus (the company's `research/*.md`,
+`00_METHOD_AND_STYLE.md`, `03_quality_control/*BRIEF*.md`, `00_universe/_*.md`) and prints
+`matched-in-project-text-only N` in its own note, so the exemption is counted rather than hidden. Measured
+effect: Cigna's false advisory is gone (0 findings, 1 project-text match); Meta's 10 unmatched spans become
+7 primary + 3 project-text; CVS's one real case (an in-quotation `[~]` OCR marker) stays visible as a
+question for the auditor instead of disappearing. Control: `research-dossier quotation matches` in
+`gates.py --self-test` (25 controls, all PASS).

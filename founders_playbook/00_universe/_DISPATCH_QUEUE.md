@@ -213,7 +213,7 @@ counts family (b) from those bytes is counting an outage page -- the same class 
 finding, one shelf over. Whoever owns Target must either retire them with a COR entry or hold family (b) as
 UNANSWERED-with-fetch; it must not stand as a second lineage.
 
-## Owed self-test control (Target recert4 found the bug; my fixture control was unfinished)
+## Owed self-test control (Target recert4 found the bug; my fixture control was unfinished) -- CLOSED, RD-142
 
 `gates.py` `_advisory()` now also reads the finding's `subject`, because `gate_quotes` files the ADVISORY
 marker there and Target exited 1 on a corpus with **zero substantive findings**. The code fix is verified
@@ -224,6 +224,16 @@ finding generation at all -- so I reverted it rather than leave a failing self-t
 Someone must find why the planted span is not attributed (min_words? the anchor requirement? sources.csv
 mapping?) before writing that control. A fix verified only by hand is a fix that can come back.
 
+**CLOSED, RD-142.** The control exists (`quotes ADVISORY must not fail the exit code`, plus the inverse
+`quotes verbatim defect stays substantive`) and the classifier is now a module-level `is_advisory(f)` so a
+fixture can drive it without a whole run. **Why the planted span used to produce no finding:** it was neither
+attributed nor over the rate threshold. `gate_quotes` requires the 60 chars before the quotation to carry a
+verb from `QUOTE_INTRO` (`said|stated|notes|reads|titled|per|according to`...), so a neutral "it is called"
+sentence is skipped as unattributed; the span must also survive `REJECT_IN_QUOTE` (no `l.`, `§`, backtick,
+pipe, `[digit`); and the ADVISORY branch fires only when `unmatched/checked > 25%`, so a fixture with several
+matched quotes and one miss exits 0 for the wrong reason. The working fixture appends ONE attributed unmatched
+span to a volume that already holds one attributed matched span: `checked=2, unmatched=1, rate=50%`.
+
 ## Two gaps found by the first author wave (both mine, both small)
 
 1. **`gates.py issued_tier()` misses a verdict written as a table row.** GM's author reported the reader stamped
@@ -231,6 +241,11 @@ mapping?) before writing that control. A fix verified only by hand is a fix that
    markdown table row is not one. Authors are told to pass `--tier <issued>` explicitly and say so rather than
    rewriting prose to satisfy the tool. Fix: read table rows too (`| ... | T2 ... |`) and prefer the row whose
    heading contains "verdict"/"tier"/"planning".
+   **CLOSED by RD-142, and the workaround above is now OBSOLETE:** the reader binds a tier to the stage that
+   issues it (dispatch line > per-stage table row > company-wide `TIER: Tn`), grades each volume at its own
+   stage's tier, prints any disagreement instead of averaging it, and labels the prose-only fallback
+   `LAST-RESORT`. **Do not tell another agent to pin `--tier core`.** Live check: GM/Boeing/JPMorgan/J&J
+   Stage 1 now resolve T2 with no override.
 2. **A harvest index label reported the wrong year, one file at a time.** GM measured `A4_harvest_mine.md`
    stamping a 197,373-byte layer `title:1918 / in-window` while the bytes print "TWENTY-NINTH ANNUAL REPORT …
    YEAR ENDED DECEMBER 31, 1937" and the filename is `gm1937_djvu.txt`. The mine's `date_or_issue` comes from

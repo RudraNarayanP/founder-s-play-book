@@ -207,10 +207,15 @@ def cmd_ledger(a):
     rows = []
     for p, e in sorted(led.items()):
         st = "done" if e.get("done") else ("LIVE" if age_min(e) < int(e.get("ttl", 90)) else "STALE")
-        rows.append((p, e.get("agent", "?"), st, age_min(e), words(os.path.join(REPO, p)),
-                     sum(1 for b in re.split(r"(?m)^(?=## )",
-                         open(os.path.join(REPO, p), encoding="utf-8", errors="replace").read())
-                         if "STATUS: PENDING" in b) if os.path.exists(os.path.join(REPO, p)) else -1))
+        fp = os.path.join(REPO, p)
+        # A claimed path can be a DIRECTORY (a cdx run claims `sources/web_archive` before it has a
+        # file in it), and `open()` on a dir raised PermissionError out of the whole ledger read -- the
+        # command that tells me which lanes are busy. Count text only for real files, -1 means no text.
+        w, pend = (-1, -1) if not os.path.isfile(fp) else (
+            words(fp), sum(1 for b in re.split(r"(?m)^(?=## )",
+                          open(fp, encoding="utf-8", errors="replace").read())
+                          if "STATUS: PENDING" in b))
+        rows.append((p, e.get("agent", "?"), st, age_min(e), w, pend))
     print("%-64s %-22s %-6s %6s %8s %8s" % ("path", "owner", "state", "age", "words", "pending"))
     for r in rows:
         print("%-64s %-22s %-6s %6d %8d %8d" % r)
