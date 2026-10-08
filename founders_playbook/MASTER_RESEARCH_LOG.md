@@ -2993,3 +2993,31 @@ part; Humana's 14,617-word part has 5 `STATUS: PENDING` blocks; UPS (12,215), Ce
 (14,916), Verizon (17,293) and FedEx (5,516) are complete parts waiting for merges; Dell p2 has 2 pending blocks.
 Boeing's merge reported 211 rows applied but **no `CORRECTIONS.md` exists in its directory** -- a bookkeeping
 gap to check, not evidence to distrust.
+
+### RD-144 -- the repository was quietly rewriting the evidence it was meant to protect, and `git status` called it clean
+
+The user authorised pushing the downloaded evidence (3,611 files, 0.83 GB raw, 198 MB packed -- no file over
+45 MB, so nothing trips GitHub's per-file block). Verifying that push found a defect that had nothing to do
+with today's work: **`core.autocrlf=true`** -- a Windows default this project never chose -- had been stripping
+CRLF on the way into the object store. I measured it by sampling `git cat-file` output against the bytes on
+disk: **182 of 399 sampled tracked evidence files (46%) did not match their own file**, including a 1,319 B
+harvest `.meta.json` stored as 1,295 B.
+
+**Why nobody noticed, and why it is dangerous rather than merely untidy:** the working tree still held the
+original bytes, so every local hash check passed and **`git status` reported the tree clean** -- git trusts the
+stat cache and does not re-hash. The failure only appears somewhere else: a fresh clone, or the CI gate
+workflow on Linux, would fetch LF-stripped sources and fail its own sha256 sidecars, i.e. the corpus would
+look fabricated when it is only mis-committed. Two fixes, in the safe order: `.gitattributes` first
+(`-text` on `sources/**`, `harvest/**`, `*.txt/htm/html/sgml/json`) so nothing new is damaged, then
+`git add --renormalize` over the 13,168 tracked evidence paths, which restaged exactly **5,876** files --
+the 400-file sample had predicted ~5,900. Re-sampled after: **0 of 299 blobs differ from disk**.
+
+Also consolidated the stray repository-root `03_quality_control/` the agents landed reports in when briefs
+gave a path without the `founders_playbook/` prefix: 18 files moved into canonical, and 3 of them
+(`att_s1_gates_merge.md/.json`, `cvs_s1_gates_merge.md`) **differ from the canonical copy of the same name**,
+so they were kept side-by-side as `_rootcopy` rather than overwritten -- two passes measured the same company
+and the difference is a fact for the auditor, not noise to tidy.
+
+**Rule for this project:** a repository that stores evidence must state its line-ending policy in tracked
+files, and a clean `git status` is not proof that stored bytes equal disk bytes -- **compare `git cat-file`
+to the file, in a sample, before claiming a corpus is verbatim.**
