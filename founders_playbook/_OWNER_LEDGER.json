@@ -364,132 +364,6 @@
   "ttl": 150,
   "words": 30835
  },
- "founders_playbook/01_companies/company_005_alphabet/CORRECTIONS.md": {
-  "agent": "alphabet-s1-merge",
-  "claimed": "2026-09-29T18:47:13Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:47:13Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_005_alphabet/_MANIFEST.md": {
-  "agent": "alphabet-s1-merge",
-  "claimed": "2026-09-29T18:47:12Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:47:12Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_005_alphabet/_merge_apply.py": {
-  "agent": "alphabet-s1-merge",
-  "claimed": "2026-09-29T18:47:13Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:47:13Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_005_alphabet/_merge_build.py": {
-  "agent": "alphabet-s1-merge",
-  "claimed": "2026-09-29T19:11:33Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T19:11:33Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_005_alphabet/_merge_census_check.py": {
-  "agent": "alphabet-s1-merge",
-  "claimed": "2026-09-29T18:47:13Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:47:13Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_005_alphabet/_merge_docs.py": {
-  "agent": "alphabet-s1-merge",
-  "claimed": "2026-09-29T19:15:18Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T19:15:18Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_005_alphabet/_parts/s1_p1.md": {
-  "agent": "alphabet-s1-merge",
-  "claimed": "2026-09-29T18:47:13Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:47:13Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_005_alphabet/_parts/s1_p2.md": {
-  "agent": "alphabet-s1-p2",
-  "claimed": "2026-09-29T17:51:05Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T17:51:05Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_005_alphabet/channels.csv": {
-  "agent": "alphabet-s1-merge",
-  "claimed": "2026-09-29T18:47:12Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:47:12Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_005_alphabet/conflicts.csv": {
-  "agent": "alphabet-s1-merge",
-  "claimed": "2026-09-29T18:47:12Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:47:12Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_005_alphabet/data_gaps.csv": {
-  "agent": "alphabet-s1-merge",
-  "claimed": "2026-09-29T18:47:12Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:47:12Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_005_alphabet/decisions.csv": {
-  "agent": "alphabet-s1-merge",
-  "claimed": "2026-09-29T18:47:12Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:47:12Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_005_alphabet/failures.csv": {
-  "agent": "alphabet-s1-merge",
-  "claimed": "2026-09-29T18:47:12Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:47:12Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_005_alphabet/quantitative.csv": {
-  "agent": "alphabet-s1-merge",
-  "claimed": "2026-09-29T18:47:11Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:47:11Z",
-  "sections": [],
-  "ttl": 240
- },
  "founders_playbook/01_companies/company_005_alphabet/research/A2_periodical_settlement.md": {
   "agent": "periodicals-alphabet",
   "claimed": "2026-09-25T19:51:31Z",
@@ -532,155 +406,85 @@
   "ttl": 90,
   "words": 6066
  },
- "founders_playbook/01_companies/company_005_alphabet/research/B1_filing_records.md": {
-  "agent": "alphabet-s1-records",
-  "claimed": "2026-09-25T21:01:34Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-25T21:14:06Z",
-  "sections": [
-   "Lineage map",
-   "Founding narrative records",
-   "Earliest financial series",
-   "Equity and control",
-   "Stanford licence",
-   "Dependency and competition rows",
-   "Conflicts",
-   "Nulls",
-   "Untried"
-  ],
-  "ttl": 160
- },
- "founders_playbook/01_companies/company_005_alphabet/sources.csv": {
-  "agent": "alphabet-s1-merge",
-  "claimed": "2026-09-29T18:47:11Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:47:11Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_005_alphabet/stage_1.md": {
-  "agent": "alphabet-s1-merge",
-  "claimed": "2026-09-29T18:47:12Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:47:12Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_005_alphabet/stage_1_index.md": {
-  "agent": "alphabet-s1-merge",
-  "claimed": "2026-09-29T18:47:12Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:47:12Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_005_alphabet/timeline.csv": {
-  "agent": "alphabet-s1-merge",
-  "claimed": "2026-09-29T18:47:11Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:47:11Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_005_alphabet/validation.csv": {
-  "agent": "alphabet-s1-merge",
-  "claimed": "2026-09-29T18:47:12Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:47:12Z",
-  "sections": [],
-  "ttl": 240
- },
  "founders_playbook/01_companies/company_006_cvs/CORRECTIONS.md": {
   "agent": "merge-cvs",
   "claimed": "2026-10-06T21:55:07Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:55:07Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:12:36Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 1477
  },
  "founders_playbook/01_companies/company_006_cvs/_MANIFEST.md": {
   "agent": "merge-cvs",
   "claimed": "2026-10-06T21:55:06Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:55:06Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:12:36Z",
   "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_006_cvs/_parts/s1_p1.md": {
-  "agent": "s1-cvs-p1",
-  "claimed": "2026-10-06T21:26:24Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:47:44Z",
-  "sections": [
-   "Header",
-   "boundary",
-   "A..U",
-   "registers"
-  ],
-  "ttl": 240
+  "ttl": 240,
+  "words": 1453
  },
  "founders_playbook/01_companies/company_006_cvs/channels.csv": {
   "agent": "merge-cvs",
   "claimed": "2026-10-06T21:55:06Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:55:06Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:12:36Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 255
  },
  "founders_playbook/01_companies/company_006_cvs/conflicts.csv": {
   "agent": "merge-cvs",
   "claimed": "2026-10-06T21:55:06Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:55:06Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:12:35Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 961
  },
  "founders_playbook/01_companies/company_006_cvs/data_gaps.csv": {
   "agent": "merge-cvs",
   "claimed": "2026-10-06T21:55:06Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:55:06Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:12:36Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 480
  },
  "founders_playbook/01_companies/company_006_cvs/decisions.csv": {
   "agent": "merge-cvs",
   "claimed": "2026-10-06T21:55:06Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:55:06Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:12:36Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 646
  },
  "founders_playbook/01_companies/company_006_cvs/failures.csv": {
   "agent": "merge-cvs",
   "claimed": "2026-10-06T21:55:06Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:55:06Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:12:36Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 260
  },
  "founders_playbook/01_companies/company_006_cvs/quantitative.csv": {
   "agent": "merge-cvs",
   "claimed": "2026-10-06T21:55:06Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:55:06Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:12:35Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 584
  },
  "founders_playbook/01_companies/company_006_cvs/research/A_chronology_feasibility.md": {
   "agent": "probe-cvs",
@@ -696,57 +500,51 @@
   "agent": "merge-cvs",
   "claimed": "2026-10-06T21:55:06Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:55:06Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:12:35Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 709
  },
  "founders_playbook/01_companies/company_006_cvs/stage_1.md": {
   "agent": "merge-cvs",
   "claimed": "2026-10-06T21:55:05Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:55:05Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:12:35Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 19520
  },
  "founders_playbook/01_companies/company_006_cvs/stage_1_index.md": {
   "agent": "merge-cvs",
   "claimed": "2026-10-06T21:55:07Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:55:07Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:12:36Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 1119
  },
  "founders_playbook/01_companies/company_006_cvs/timeline.csv": {
   "agent": "merge-cvs",
   "claimed": "2026-10-06T21:55:06Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:55:06Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:12:35Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 504
  },
  "founders_playbook/01_companies/company_006_cvs/validation.csv": {
   "agent": "merge-cvs",
   "claimed": "2026-10-06T21:55:06Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:55:06Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:12:36Z",
   "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_007_berkshire/research/A_chronology_feasibility.md": {
-  "agent": "probe-berkshire",
-  "claimed": "2026-09-29T18:14:28Z",
-  "deliverable": "stage1 probe dossier (per-stage tiers + untried list)",
-  "done": false,
-  "heartbeat": "2026-09-29T18:14:28Z",
-  "sections": [
-   "A.0|A.1|A.2|A.3|A.4|A.5|A.6|A.7|A.8|A.9"
-  ],
-  "ttl": 240
+  "ttl": 240,
+  "words": 266
  },
  "founders_playbook/01_companies/company_009_exxonmobil/research/A_chronology_feasibility.md": {
   "agent": "probe-exxonmobil",
@@ -998,47 +796,6 @@
   "ttl": 240,
   "words": 502
  },
- "founders_playbook/01_companies/company_012_jpmorgan/_parts/s1_p1.md": {
-  "agent": "s1-jpmorgan-p1",
-  "claimed": "2026-10-06T21:16:34Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:16:34Z",
-  "sections": [
-   "Header",
-   "boundary",
-   "A..U",
-   "registers"
-  ],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_012_jpmorgan/research/A_chronology_feasibility.md": {
-  "agent": "probe-jpmorgan",
-  "claimed": "2026-09-29T18:46:30Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:46:30Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_013_costco/_parts/s1_p1.md": {
-  "agent": "costco-s1-p1",
-  "claimed": "2026-09-26T11:04:28Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-26T11:04:28Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_013_costco/_parts/s1_p2.md": {
-  "agent": "costco-s1-p2",
-  "claimed": "2026-09-29T17:58:03Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T17:58:03Z",
-  "sections": [],
-  "ttl": 240
- },
  "founders_playbook/01_companies/company_013_costco/research/A3_intake_regrade.md": {
   "agent": "regrade-t3-batch",
   "claimed": "2026-09-25T20:24:55Z",
@@ -1077,50 +834,6 @@
   "ttl": 90,
   "words": 4123
  },
- "founders_playbook/01_companies/company_014_cigna/CORRECTIONS.md": {
-  "agent": "merge-cigna",
-  "claimed": "2026-10-06T21:41:02Z",
-  "deliverable": "",
-  "done": true,
-  "heartbeat": "2026-10-06T21:57:23Z",
-  "sections": [
-   "volume",
-   "registers",
-   "manifest",
-   "index"
-  ],
-  "ttl": 240,
-  "words": 1076
- },
- "founders_playbook/01_companies/company_014_cigna/_MANIFEST.md": {
-  "agent": "merge-cigna",
-  "claimed": "2026-10-06T21:41:02Z",
-  "deliverable": "",
-  "done": true,
-  "heartbeat": "2026-10-06T21:57:22Z",
-  "sections": [
-   "volume",
-   "registers",
-   "manifest",
-   "index"
-  ],
-  "ttl": 240,
-  "words": 1774
- },
- "founders_playbook/01_companies/company_014_cigna/_parts/s1_p1.md": {
-  "agent": "s1-cigna-p1",
-  "claimed": "2026-10-06T21:17:01Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:17:01Z",
-  "sections": [
-   "Header",
-   "boundary",
-   "A..U",
-   "registers"
-  ],
-  "ttl": 240
- },
  "founders_playbook/01_companies/company_014_cigna/channels.csv": {
   "agent": "merge-cigna",
   "claimed": "2026-10-06T21:41:03Z",
@@ -1136,81 +849,6 @@
   "ttl": 240,
   "words": 90
  },
- "founders_playbook/01_companies/company_014_cigna/conflicts.csv": {
-  "agent": "merge-cigna",
-  "claimed": "2026-10-06T21:41:03Z",
-  "deliverable": "",
-  "done": true,
-  "heartbeat": "2026-10-06T21:57:23Z",
-  "sections": [
-   "volume",
-   "registers",
-   "manifest",
-   "index"
-  ],
-  "ttl": 240,
-  "words": 424
- },
- "founders_playbook/01_companies/company_014_cigna/data_gaps.csv": {
-  "agent": "merge-cigna",
-  "claimed": "2026-10-06T21:41:03Z",
-  "deliverable": "",
-  "done": true,
-  "heartbeat": "2026-10-06T21:57:23Z",
-  "sections": [
-   "volume",
-   "registers",
-   "manifest",
-   "index"
-  ],
-  "ttl": 240,
-  "words": 404
- },
- "founders_playbook/01_companies/company_014_cigna/decisions.csv": {
-  "agent": "merge-cigna",
-  "claimed": "2026-10-06T21:41:03Z",
-  "deliverable": "",
-  "done": true,
-  "heartbeat": "2026-10-06T21:57:23Z",
-  "sections": [
-   "volume",
-   "registers",
-   "manifest",
-   "index"
-  ],
-  "ttl": 240,
-  "words": 173
- },
- "founders_playbook/01_companies/company_014_cigna/failures.csv": {
-  "agent": "merge-cigna",
-  "claimed": "2026-10-06T21:41:03Z",
-  "deliverable": "",
-  "done": true,
-  "heartbeat": "2026-10-06T21:57:23Z",
-  "sections": [
-   "volume",
-   "registers",
-   "manifest",
-   "index"
-  ],
-  "ttl": 240,
-  "words": 223
- },
- "founders_playbook/01_companies/company_014_cigna/quantitative.csv": {
-  "agent": "merge-cigna",
-  "claimed": "2026-10-06T21:41:02Z",
-  "deliverable": "",
-  "done": true,
-  "heartbeat": "2026-10-06T21:57:23Z",
-  "sections": [
-   "volume",
-   "registers",
-   "manifest",
-   "index"
-  ],
-  "ttl": 240,
-  "words": 353
- },
  "founders_playbook/01_companies/company_014_cigna/research/A_chronology_feasibility.md": {
   "agent": "probe-cigna",
   "claimed": "2026-10-06T11:47:24Z",
@@ -1220,66 +858,6 @@
   "sections": [],
   "ttl": 240,
   "words": 7190
- },
- "founders_playbook/01_companies/company_014_cigna/sources.csv": {
-  "agent": "merge-cigna",
-  "claimed": "2026-10-06T21:41:02Z",
-  "deliverable": "",
-  "done": true,
-  "heartbeat": "2026-10-06T21:57:23Z",
-  "sections": [
-   "volume",
-   "registers",
-   "manifest",
-   "index"
-  ],
-  "ttl": 240,
-  "words": 872
- },
- "founders_playbook/01_companies/company_014_cigna/stage_1.md": {
-  "agent": "merge-cigna",
-  "claimed": "2026-10-06T21:41:02Z",
-  "deliverable": "",
-  "done": true,
-  "heartbeat": "2026-10-06T21:57:22Z",
-  "sections": [
-   "volume",
-   "registers",
-   "manifest",
-   "index"
-  ],
-  "ttl": 240,
-  "words": 14513
- },
- "founders_playbook/01_companies/company_014_cigna/stage_1_index.md": {
-  "agent": "merge-cigna",
-  "claimed": "2026-10-06T21:41:02Z",
-  "deliverable": "",
-  "done": true,
-  "heartbeat": "2026-10-06T21:57:22Z",
-  "sections": [
-   "volume",
-   "registers",
-   "manifest",
-   "index"
-  ],
-  "ttl": 240,
-  "words": 1141
- },
- "founders_playbook/01_companies/company_014_cigna/timeline.csv": {
-  "agent": "merge-cigna",
-  "claimed": "2026-10-06T21:41:02Z",
-  "deliverable": "",
-  "done": true,
-  "heartbeat": "2026-10-06T21:57:23Z",
-  "sections": [
-   "volume",
-   "registers",
-   "manifest",
-   "index"
-  ],
-  "ttl": 240,
-  "words": 441
  },
  "founders_playbook/01_companies/company_014_cigna/validation.csv": {
   "agent": "merge-cigna",
@@ -1305,15 +883,6 @@
   "sections": [],
   "ttl": 240,
   "words": 8565
- },
- "founders_playbook/01_companies/company_016_nvidia/_parts/s1_p2.md": {
-  "agent": "nvidia-s1-p2",
-  "claimed": "2026-09-29T17:56:19Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T17:56:19Z",
-  "sections": [],
-  "ttl": 240
  },
  "founders_playbook/01_companies/company_016_nvidia/research/A3_intake_regrade.md": {
   "agent": "regrade-t3-batch",
@@ -1351,28 +920,6 @@
   ],
   "ttl": 90,
   "words": 4546
- },
- "founders_playbook/01_companies/company_017_meta/_parts/s1_p1.md": {
-  "agent": "s1-meta-p1",
-  "claimed": "2026-10-06T21:15:15Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:15:15Z",
-  "sections": [
-   "Header",
-   "boundary",
-   "A",
-   "B",
-   "C",
-   "D",
-   "E",
-   "F",
-   "G",
-   "H",
-   "I",
-   "J"
-  ],
-  "ttl": 240
  },
  "founders_playbook/01_companies/company_017_meta/_parts/s1_p2.md": {
   "agent": "s1-meta-p2",
@@ -1439,6 +986,52 @@
   "ttl": 240,
   "words": -1
  },
+ "founders_playbook/01_companies/company_019_centene/_parts/NOTES_centene_p1.md": {
+  "agent": "s1-centene",
+  "claimed": "2026-10-06T23:49:07Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-07T00:50:21Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 1210
+ },
+ "founders_playbook/01_companies/company_019_centene/_parts/s1_p1.md": {
+  "agent": "s1-centene",
+  "claimed": "2026-10-06T23:49:07Z",
+  "deliverable": "stage1 origin->experiment->validation->scalable (T3 register)",
+  "done": true,
+  "heartbeat": "2026-10-07T00:50:21Z",
+  "sections": [
+   "Header",
+   "Boundary",
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F",
+   "G",
+   "H",
+   "I",
+   "J",
+   "K",
+   "L",
+   "M",
+   "N",
+   "O",
+   "P",
+   "Q",
+   "R",
+   "S",
+   "T",
+   "U",
+   "Registers",
+   "Untried"
+  ],
+  "ttl": 240,
+  "words": 10268
+ },
  "founders_playbook/01_companies/company_019_centene/research/A_chronology_feasibility.md": {
   "agent": "probe-centene",
   "claimed": "2026-10-06T12:08:10Z",
@@ -1469,178 +1062,149 @@
   "ttl": 240,
   "words": 7545
  },
- "founders_playbook/01_companies/company_021_chevron/research/A_chronology_feasibility.md": {
-  "agent": "probe-chevron",
-  "claimed": "2026-09-29T18:22:43Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:22:43Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_022_ford/research/A_chronology_feasibility.md": {
-  "agent": "probe-ford",
-  "claimed": "2026-09-29T18:37:56Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:37:56Z",
-  "sections": [],
-  "ttl": 240
- },
  "founders_playbook/01_companies/company_023_gm/CORRECTIONS.md": {
   "agent": "merge-gm",
   "claimed": "2026-10-06T21:51:27Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:51:27Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:10:21Z",
   "sections": [
    "merge"
   ],
-  "ttl": 240
+  "ttl": 240,
+  "words": 2195
  },
  "founders_playbook/01_companies/company_023_gm/_MANIFEST.md": {
   "agent": "merge-gm",
   "claimed": "2026-10-06T21:51:27Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:51:27Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:10:21Z",
   "sections": [
    "merge"
   ],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_023_gm/_parts/s1_p1.md": {
-  "agent": "s1-gm-p1",
-  "claimed": "2026-10-06T21:15:20Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:15:20Z",
-  "sections": [
-   "Header",
-   "boundary",
-   "A..U",
-   "registers"
-  ],
-  "ttl": 240
+  "ttl": 240,
+  "words": 1541
  },
  "founders_playbook/01_companies/company_023_gm/channels.csv": {
   "agent": "merge-gm",
   "claimed": "2026-10-06T21:51:27Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:51:27Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:10:21Z",
   "sections": [
    "merge"
   ],
-  "ttl": 240
+  "ttl": 240,
+  "words": 229
  },
  "founders_playbook/01_companies/company_023_gm/conflicts.csv": {
   "agent": "merge-gm",
   "claimed": "2026-10-06T21:51:26Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:51:26Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:10:21Z",
   "sections": [
    "merge"
   ],
-  "ttl": 240
+  "ttl": 240,
+  "words": 987
  },
  "founders_playbook/01_companies/company_023_gm/data_gaps.csv": {
   "agent": "merge-gm",
   "claimed": "2026-10-06T21:51:26Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:51:26Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:10:21Z",
   "sections": [
    "merge"
   ],
-  "ttl": 240
+  "ttl": 240,
+  "words": 494
  },
  "founders_playbook/01_companies/company_023_gm/decisions.csv": {
   "agent": "merge-gm",
   "claimed": "2026-10-06T21:51:26Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:51:26Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:10:21Z",
   "sections": [
    "merge"
   ],
-  "ttl": 240
+  "ttl": 240,
+  "words": 462
  },
  "founders_playbook/01_companies/company_023_gm/failures.csv": {
   "agent": "merge-gm",
   "claimed": "2026-10-06T21:51:27Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:51:27Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:10:21Z",
   "sections": [
    "merge"
   ],
-  "ttl": 240
+  "ttl": 240,
+  "words": 306
  },
  "founders_playbook/01_companies/company_023_gm/quantitative.csv": {
   "agent": "merge-gm",
   "claimed": "2026-10-06T21:51:26Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:51:26Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:10:20Z",
   "sections": [
    "merge"
   ],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_023_gm/research/A_chronology_feasibility.md": {
-  "agent": "probe-gm",
-  "claimed": "2026-09-29T18:22:53Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:22:53Z",
-  "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 436
  },
  "founders_playbook/01_companies/company_023_gm/sources.csv": {
   "agent": "merge-gm",
   "claimed": "2026-10-06T21:51:26Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:51:26Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:10:20Z",
   "sections": [
    "merge"
   ],
-  "ttl": 240
+  "ttl": 240,
+  "words": 600
  },
  "founders_playbook/01_companies/company_023_gm/stage_1.md": {
   "agent": "merge-gm",
   "claimed": "2026-10-06T21:51:26Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:51:26Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:10:20Z",
   "sections": [
    "merge"
   ],
-  "ttl": 240
+  "ttl": 240,
+  "words": 20192
  },
  "founders_playbook/01_companies/company_023_gm/timeline.csv": {
   "agent": "merge-gm",
   "claimed": "2026-10-06T21:51:26Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:51:26Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:10:20Z",
   "sections": [
    "merge"
   ],
-  "ttl": 240
+  "ttl": 240,
+  "words": 655
  },
  "founders_playbook/01_companies/company_023_gm/validation.csv": {
   "agent": "merge-gm",
   "claimed": "2026-10-06T21:51:27Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:51:27Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:10:21Z",
   "sections": [
    "merge"
   ],
-  "ttl": 240
+  "ttl": 240,
+  "words": 241
  },
  "founders_playbook/01_companies/company_025_homedepot/research/A_chronology_feasibility.md": {
   "agent": "probe-homedepot",
@@ -1651,15 +1215,6 @@
   "sections": [],
   "ttl": 240,
   "words": 17640
- },
- "founders_playbook/01_companies/company_027_kroger/research/A_chronology_feasibility.md": {
-  "agent": "probe-kroger",
-  "claimed": "2026-09-29T17:57:10Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T17:57:10Z",
-  "sections": [],
-  "ttl": 240
  },
  "founders_playbook/01_companies/company_028_verizon/research/A_chronology_feasibility.md": {
   "agent": "probe-verizon",
@@ -1705,87 +1260,81 @@
   "agent": "merge-att",
   "claimed": "2026-10-06T21:58:30Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:58:30Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:13:49Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 1508
  },
  "founders_playbook/01_companies/company_035_att/_MANIFEST.md": {
   "agent": "merge-att",
   "claimed": "2026-10-06T21:58:30Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:58:30Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:13:49Z",
   "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_035_att/_parts/s1_p1.md": {
-  "agent": "s1-att-p1",
-  "claimed": "2026-10-06T21:16:07Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:16:07Z",
-  "sections": [
-   "Header",
-   "boundary",
-   "A..U",
-   "registers"
-  ],
-  "ttl": 240
+  "ttl": 240,
+  "words": 1520
  },
  "founders_playbook/01_companies/company_035_att/channels.csv": {
   "agent": "merge-att",
   "claimed": "2026-10-06T21:58:30Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:58:30Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:13:49Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 400
  },
  "founders_playbook/01_companies/company_035_att/conflicts.csv": {
   "agent": "merge-att",
   "claimed": "2026-10-06T21:58:30Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:58:30Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:13:48Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 1085
  },
  "founders_playbook/01_companies/company_035_att/data_gaps.csv": {
   "agent": "merge-att",
   "claimed": "2026-10-06T21:58:30Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:58:30Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:13:48Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 632
  },
  "founders_playbook/01_companies/company_035_att/decisions.csv": {
   "agent": "merge-att",
   "claimed": "2026-10-06T21:58:30Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:58:30Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:13:48Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 669
  },
  "founders_playbook/01_companies/company_035_att/failures.csv": {
   "agent": "merge-att",
   "claimed": "2026-10-06T21:58:30Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:58:30Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:13:49Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 761
  },
  "founders_playbook/01_companies/company_035_att/quantitative.csv": {
   "agent": "merge-att",
   "claimed": "2026-10-06T21:58:30Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:58:30Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:13:48Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 1073
  },
  "founders_playbook/01_companies/company_035_att/research/A_chronology_feasibility.md": {
   "agent": "probe-att",
@@ -1801,46 +1350,51 @@
   "agent": "merge-att",
   "claimed": "2026-10-06T21:58:29Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:58:29Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:13:48Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 1707
  },
  "founders_playbook/01_companies/company_035_att/stage_1.md": {
   "agent": "merge-att",
   "claimed": "2026-10-06T21:58:29Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:58:29Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:13:48Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 31315
  },
  "founders_playbook/01_companies/company_035_att/stage_1_index.md": {
   "agent": "merge-att",
   "claimed": "2026-10-06T21:58:31Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:58:31Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:13:49Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 832
  },
  "founders_playbook/01_companies/company_035_att/timeline.csv": {
   "agent": "merge-att",
   "claimed": "2026-10-06T21:58:30Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:58:30Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:13:48Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 1290
  },
  "founders_playbook/01_companies/company_035_att/validation.csv": {
   "agent": "merge-att",
   "claimed": "2026-10-06T21:58:30Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:58:30Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:13:48Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 428
  },
  "founders_playbook/01_companies/company_036_goldman/research/A_chronology_feasibility.md": {
   "agent": "probe-goldman",
@@ -1881,50 +1435,6 @@
   "sections": [],
   "ttl": 240,
   "words": 7868
- },
- "founders_playbook/01_companies/company_041_dell/_parts/s1_p1.md": {
-  "agent": "s1-dell-p1",
-  "claimed": "2026-10-06T21:15:57Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:15:57Z",
-  "sections": [
-   "Header",
-   "boundary",
-   "A",
-   "B",
-   "C",
-   "D",
-   "E",
-   "F",
-   "G",
-   "H",
-   "I",
-   "J"
-  ],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_041_dell/_parts/s1_p2.md": {
-  "agent": "s1-dell-p2",
-  "claimed": "2026-10-06T21:15:55Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:15:55Z",
-  "sections": [
-   "K",
-   "L",
-   "M",
-   "N",
-   "O",
-   "P",
-   "Q",
-   "R",
-   "S",
-   "T",
-   "U",
-   "registers"
-  ],
-  "ttl": 240
  },
  "founders_playbook/01_companies/company_041_dell/research/A3_intake_regrade.md": {
   "agent": "regrade-t3-batch",
@@ -2079,33 +1589,6 @@
   "ttl": 240,
   "words": 2247
  },
- "founders_playbook/01_companies/company_043_tesla/_parts/s1_p1.md": {
-  "agent": "tesla-s1-p1",
-  "claimed": "2026-09-26T11:04:48Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-26T11:04:48Z",
-  "sections": [
-   "Header",
-   "Boundary",
-   "A",
-   "B",
-   "C",
-   "D",
-   "E",
-   "F"
-  ],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_043_tesla/_parts/s1_p2.md": {
-  "agent": "tesla-s1-p2",
-  "claimed": "2026-09-29T18:00:22Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:00:22Z",
-  "sections": [],
-  "ttl": 240
- },
  "founders_playbook/01_companies/company_043_tesla/channels.csv": {
   "agent": "tesla-repair-1",
   "claimed": "2026-10-06T12:23:28Z",
@@ -2254,43 +1737,225 @@
   "ttl": 240,
   "words": 541
  },
- "founders_playbook/01_companies/company_044_disney/research/A_chronology_feasibility.md": {
-  "agent": "probe-disney",
-  "claimed": "2026-09-29T18:02:35Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:02:35Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_045_jnj/_parts/s1_p1.md": {
-  "agent": "s1-jnj-p1",
-  "claimed": "2026-10-06T21:15:50Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:15:50Z",
-  "sections": [
-   "Header",
-   "boundary",
-   "A..U",
-   "registers"
-  ],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_046_pepsico/_parts/s1_p1.md": {
-  "agent": "s1-pepsico-p1",
-  "claimed": "2026-10-06T21:16:40Z",
+ "founders_playbook/01_companies/company_045_jnj/CORRECTIONS.md": {
+  "agent": "merge-jnj",
+  "claimed": "2026-10-06T22:01:16Z",
   "deliverable": "",
   "done": true,
-  "heartbeat": "2026-10-06T21:56:01Z",
-  "sections": [
-   "Header",
-   "boundary",
-   "A..U",
-   "registers"
-  ],
+  "heartbeat": "2026-10-06T22:14:10Z",
+  "sections": [],
   "ttl": 240,
-  "words": 25400
+  "words": 541
+ },
+ "founders_playbook/01_companies/company_045_jnj/_MANIFEST.md": {
+  "agent": "merge-jnj",
+  "claimed": "2026-10-06T22:01:16Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:14:10Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 1668
+ },
+ "founders_playbook/01_companies/company_045_jnj/channels.csv": {
+  "agent": "merge-jnj",
+  "claimed": "2026-10-06T22:01:16Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:14:10Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 304
+ },
+ "founders_playbook/01_companies/company_045_jnj/conflicts.csv": {
+  "agent": "merge-jnj",
+  "claimed": "2026-10-06T22:01:16Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:14:10Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 1517
+ },
+ "founders_playbook/01_companies/company_045_jnj/data_gaps.csv": {
+  "agent": "merge-jnj",
+  "claimed": "2026-10-06T22:01:16Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:14:10Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 711
+ },
+ "founders_playbook/01_companies/company_045_jnj/decisions.csv": {
+  "agent": "merge-jnj",
+  "claimed": "2026-10-06T22:01:16Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:14:10Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 595
+ },
+ "founders_playbook/01_companies/company_045_jnj/failures.csv": {
+  "agent": "merge-jnj",
+  "claimed": "2026-10-06T22:01:16Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:14:10Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 407
+ },
+ "founders_playbook/01_companies/company_045_jnj/quantitative.csv": {
+  "agent": "merge-jnj",
+  "claimed": "2026-10-06T22:01:16Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:14:10Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 633
+ },
+ "founders_playbook/01_companies/company_045_jnj/sources.csv": {
+  "agent": "merge-jnj",
+  "claimed": "2026-10-06T22:01:15Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:14:09Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 1689
+ },
+ "founders_playbook/01_companies/company_045_jnj/stage_1.md": {
+  "agent": "merge-jnj",
+  "claimed": "2026-10-06T22:01:15Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:14:09Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 27043
+ },
+ "founders_playbook/01_companies/company_045_jnj/timeline.csv": {
+  "agent": "merge-jnj",
+  "claimed": "2026-10-06T22:01:16Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:14:10Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 777
+ },
+ "founders_playbook/01_companies/company_045_jnj/validation.csv": {
+  "agent": "merge-jnj",
+  "claimed": "2026-10-06T22:01:16Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:14:10Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 480
+ },
+ "founders_playbook/01_companies/company_046_pepsico/CORRECTIONS.md": {
+  "agent": "merge-pepsico",
+  "claimed": "2026-10-06T22:01:54Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:16:28Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 953
+ },
+ "founders_playbook/01_companies/company_046_pepsico/_MANIFEST.md": {
+  "agent": "merge-pepsico",
+  "claimed": "2026-10-06T22:01:54Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:16:28Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 869
+ },
+ "founders_playbook/01_companies/company_046_pepsico/_parts/_tmp_pepsico_layers.json": {
+  "agent": "merge-pepsico",
+  "claimed": "2026-10-06T22:02:03Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:16:29Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 1165
+ },
+ "founders_playbook/01_companies/company_046_pepsico/_parts/s1_p1.md": {
+  "agent": "merge-pepsico",
+  "claimed": "2026-10-06T22:02:02Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:16:29Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 25525
+ },
+ "founders_playbook/01_companies/company_046_pepsico/channels.csv": {
+  "agent": "merge-pepsico",
+  "claimed": "2026-10-06T22:01:55Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:16:29Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 219
+ },
+ "founders_playbook/01_companies/company_046_pepsico/conflicts.csv": {
+  "agent": "merge-pepsico",
+  "claimed": "2026-10-06T22:01:55Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:16:28Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 1598
+ },
+ "founders_playbook/01_companies/company_046_pepsico/data_gaps.csv": {
+  "agent": "merge-pepsico",
+  "claimed": "2026-10-06T22:01:55Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:16:29Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 691
+ },
+ "founders_playbook/01_companies/company_046_pepsico/decisions.csv": {
+  "agent": "merge-pepsico",
+  "claimed": "2026-10-06T22:01:55Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:16:29Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 279
+ },
+ "founders_playbook/01_companies/company_046_pepsico/failures.csv": {
+  "agent": "merge-pepsico",
+  "claimed": "2026-10-06T22:01:55Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:16:29Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 455
+ },
+ "founders_playbook/01_companies/company_046_pepsico/quantitative.csv": {
+  "agent": "merge-pepsico",
+  "claimed": "2026-10-06T22:01:54Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:16:28Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 641
  },
  "founders_playbook/01_companies/company_046_pepsico/research/A_chronology_feasibility.md": {
   "agent": "probe-pepsico",
@@ -2302,28 +1967,165 @@
   "ttl": 240,
   "words": 4632
  },
- "founders_playbook/01_companies/company_047_boeing/_parts/s1_p1.md": {
-  "agent": "s1-boeing-p1",
-  "claimed": "2026-10-06T21:17:30Z",
+ "founders_playbook/01_companies/company_046_pepsico/sources.csv": {
+  "agent": "merge-pepsico",
+  "claimed": "2026-10-06T22:01:54Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:17:30Z",
-  "sections": [
-   "Header",
-   "boundary",
-   "A..U",
-   "registers"
-  ],
-  "ttl": 240
- },
- "founders_playbook/01_companies/company_047_boeing/research/A_chronology_feasibility.md": {
-  "agent": "probe-boeing",
-  "claimed": "2026-09-29T17:56:02Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T17:56:02Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:16:28Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 1727
+ },
+ "founders_playbook/01_companies/company_046_pepsico/stage_1.md": {
+  "agent": "merge-pepsico",
+  "claimed": "2026-10-06T22:01:54Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:16:28Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 22958
+ },
+ "founders_playbook/01_companies/company_046_pepsico/timeline.csv": {
+  "agent": "merge-pepsico",
+  "claimed": "2026-10-06T22:01:54Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:16:28Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 640
+ },
+ "founders_playbook/01_companies/company_046_pepsico/validation.csv": {
+  "agent": "merge-pepsico",
+  "claimed": "2026-10-06T22:01:55Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:16:29Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 274
+ },
+ "founders_playbook/01_companies/company_047_boeing/_MANIFEST.md": {
+  "agent": "merge-boeing",
+  "claimed": "2026-10-06T22:06:11Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:18:46Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 2047
+ },
+ "founders_playbook/01_companies/company_047_boeing/_parts/s1_p1.md": {
+  "agent": "merge-boeing",
+  "claimed": "2026-10-06T22:06:10Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:18:45Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 45006
+ },
+ "founders_playbook/01_companies/company_047_boeing/channels.csv": {
+  "agent": "merge-boeing",
+  "claimed": "2026-10-06T22:06:11Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:18:46Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 532
+ },
+ "founders_playbook/01_companies/company_047_boeing/conflicts.csv": {
+  "agent": "merge-boeing",
+  "claimed": "2026-10-06T22:06:10Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:18:45Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 2045
+ },
+ "founders_playbook/01_companies/company_047_boeing/data_gaps.csv": {
+  "agent": "merge-boeing",
+  "claimed": "2026-10-06T22:06:10Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:18:45Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 1042
+ },
+ "founders_playbook/01_companies/company_047_boeing/decisions.csv": {
+  "agent": "merge-boeing",
+  "claimed": "2026-10-06T22:06:10Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:18:45Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 1128
+ },
+ "founders_playbook/01_companies/company_047_boeing/failures.csv": {
+  "agent": "merge-boeing",
+  "claimed": "2026-10-06T22:06:11Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:18:46Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 708
+ },
+ "founders_playbook/01_companies/company_047_boeing/quantitative.csv": {
+  "agent": "merge-boeing",
+  "claimed": "2026-10-06T22:06:10Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:18:45Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 2524
+ },
+ "founders_playbook/01_companies/company_047_boeing/sources.csv": {
+  "agent": "merge-boeing",
+  "claimed": "2026-10-06T22:06:10Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:18:45Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 2458
+ },
+ "founders_playbook/01_companies/company_047_boeing/stage_1.md": {
+  "agent": "merge-boeing",
+  "claimed": "2026-10-06T22:06:10Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:18:45Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 34817
+ },
+ "founders_playbook/01_companies/company_047_boeing/timeline.csv": {
+  "agent": "merge-boeing",
+  "claimed": "2026-10-06T22:06:10Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:18:45Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 1507
+ },
+ "founders_playbook/01_companies/company_047_boeing/validation.csv": {
+  "agent": "merge-boeing",
+  "claimed": "2026-10-06T22:06:10Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:18:46Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 983
  },
  "founders_playbook/01_companies/company_048_ups/research/A_chronology_feasibility.md": {
   "agent": "probe-ups",
@@ -2372,22 +2174,6 @@
   "ttl": 150,
   "words": 4413
  },
- "founders_playbook/03_quality_control/amazon_s2_recertification_audit6.md": {
-  "agent": "s2-recertify",
-  "claimed": "2026-09-25T19:05:41Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-25T19:21:52Z",
-  "sections": [
-   "Verdict",
-   "Repair-residue sweeps",
-   "Sampled citations",
-   "Blockers",
-   "Tolerable",
-   "Untried"
-  ],
-  "ttl": 150
- },
  "founders_playbook/03_quality_control/amazon_s2_recertification_audit7.md": {
   "agent": "s2-recertify-2",
   "claimed": "2026-09-25T19:55:20Z",
@@ -2425,48 +2211,6 @@
   "ttl": 170,
   "words": 3471
  },
- "founders_playbook/03_quality_control/amazon_s3_audit1_chronology.md": {
-  "agent": "s3-audit-chronology",
-  "claimed": "2026-09-25T19:05:43Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-25T19:18:21Z",
-  "sections": [
-   "Verdict",
-   "Defect register",
-   "Checks that passed",
-   "Things I could not test",
-   "Untried"
-  ],
-  "ttl": 150
- },
- "founders_playbook/03_quality_control/amazon_s3_audit1_chronology_numbers.md": {
-  "agent": "amazon-s3-audit1",
-  "claimed": "2026-09-29T19:10:56Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T19:10:56Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/03_quality_control/amazon_s3_audit2_citation_verbatim.md": {
-  "agent": "amazon-s3-audit2",
-  "claimed": "2026-09-29T19:10:46Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T19:10:46Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/03_quality_control/amazon_s3_audit3_hindsight_adversarial.md": {
-  "agent": "amazon-s3-audit3",
-  "claimed": "2026-09-29T19:10:46Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T19:10:46Z",
-  "sections": [],
-  "ttl": 240
- },
  "founders_playbook/03_quality_control/amazon_s3_audit3_numbers.md": {
   "agent": "s3-audit3-numbers",
   "claimed": "2026-09-25T20:09:17Z",
@@ -2485,38 +2229,6 @@
   ],
   "ttl": 150,
   "words": 4611
- },
- "founders_playbook/03_quality_control/amazon_s3_audit4_hindsight.md": {
-  "agent": "s3-audit-hindsight",
-  "claimed": "2026-09-25T19:05:44Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-25T19:16:06Z",
-  "sections": [
-   "Verdict",
-   "Defect register",
-   "Sweep counts",
-   "Checks passed",
-   "Untestable",
-   "Untried"
-  ],
-  "ttl": 150
- },
- "founders_playbook/03_quality_control/amazon_s3_audit5_adversarial.md": {
-  "agent": "s3-audit-adversarial",
-  "claimed": "2026-09-25T19:05:46Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-25T19:21:09Z",
-  "sections": [
-   "Challenges",
-   "Structural attacks",
-   "Survives",
-   "Does not survive",
-   "Artifact gaps",
-   "Untried"
-  ],
-  "ttl": 150
  },
  "founders_playbook/03_quality_control/amazon_s3_claim_records_residue.md": {
   "agent": "s3-records-residue",
@@ -2683,10 +2395,21 @@
   "agent": "merge-att",
   "claimed": "2026-10-06T21:58:31Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:58:31Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:13:49Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 3555
+ },
+ "founders_playbook/03_quality_control/boeing_s1_merge.md": {
+  "agent": "merge-boeing",
+  "claimed": "2026-10-06T22:06:11Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:18:46Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 2648
  },
  "founders_playbook/03_quality_control/cdx_intake_build.md": {
   "agent": "cdx-intake",
@@ -2702,19 +2425,21 @@
   "agent": "merge-cvs",
   "claimed": "2026-10-06T21:55:07Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:55:07Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:12:36Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 35
  },
  "founders_playbook/03_quality_control/cvs_s1_merge.md": {
   "agent": "merge-cvs",
   "claimed": "2026-10-06T21:55:07Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:55:07Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:12:36Z",
   "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 3042
  },
  "founders_playbook/03_quality_control/fetch_service_1.md": {
   "agent": "fetch-service-1",
@@ -2733,19 +2458,41 @@
   "ttl": 120,
   "words": 3205
  },
- "founders_playbook/03_quality_control/gm_s1_merge.md": {
+ "founders_playbook/03_quality_control/gm_s1_gates_merge.md": {
   "agent": "merge-gm",
-  "claimed": "2026-10-06T21:51:35Z",
+  "claimed": "2026-10-06T22:03:35Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T21:51:35Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:10:21Z",
   "sections": [
-   "census",
-   "ids",
-   "registers",
    "gate"
   ],
-  "ttl": 240
+  "ttl": 240,
+  "words": 545
+ },
+ "founders_playbook/03_quality_control/gm_s1_gates_merge_tiercore.md": {
+  "agent": "merge-gm",
+  "claimed": "2026-10-06T22:03:35Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:10:21Z",
+  "sections": [
+   "gate"
+  ],
+  "ttl": 240,
+  "words": 525
+ },
+ "founders_playbook/03_quality_control/gm_s1_merge.md": {
+  "agent": "merge-gm",
+  "claimed": "2026-10-06T22:12:16Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-06T22:12:16Z",
+  "sections": [
+   "close"
+  ],
+  "ttl": 240,
+  "words": 3717
  },
  "founders_playbook/03_quality_control/intake_hardening.md": {
   "agent": "intake-hardening",
@@ -2763,23 +2510,15 @@
   "ttl": 120,
   "words": 2372
  },
- "founders_playbook/03_quality_control/intake_hardening_2.md": {
-  "agent": "intake-defects-2",
-  "claimed": "2026-09-25T21:00:10Z",
+ "founders_playbook/03_quality_control/jnj_s1_merge.md": {
+  "agent": "merge-jnj",
+  "claimed": "2026-10-06T22:01:17Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-25T21:00:10Z",
-  "sections": [
-   "Reproduce",
-   "D-1 facts empty",
-   "D-2 nameless rows",
-   "D-3 tally identity",
-   "D-4 max-docs",
-   "D-5 CIK guard",
-   "Proof runs",
-   "Still broken"
-  ],
-  "ttl": 150
+  "done": true,
+  "heartbeat": "2026-10-06T22:14:10Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 1725
  },
  "founders_playbook/03_quality_control/microsoft_s1_audit1_chronology_hindsight.md": {
   "agent": "msft-s1-audit1",
@@ -2797,23 +2536,15 @@
   "ttl": 240,
   "words": 6554
  },
- "founders_playbook/03_quality_control/microsoft_s1_audit2_numbers_hindsight.md": {
-  "agent": "msft-audit2",
-  "claimed": "2026-09-29T18:53:26Z",
+ "founders_playbook/03_quality_control/pepsico_s1_merge.md": {
+  "agent": "merge-pepsico",
+  "claimed": "2026-10-06T22:01:55Z",
   "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:53:26Z",
+  "done": true,
+  "heartbeat": "2026-10-06T22:16:29Z",
   "sections": [],
-  "ttl": 240
- },
- "founders_playbook/03_quality_control/microsoft_s1_audit3_citation_verbatim.md": {
-  "agent": "msft-audit3",
-  "claimed": "2026-09-29T18:53:31Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:53:31Z",
-  "sections": [],
-  "ttl": 240
+  "ttl": 240,
+  "words": 4265
  },
  "founders_playbook/03_quality_control/query_coverage_50.md": {
   "agent": "query-coverage",
@@ -2873,44 +2604,6 @@
   "ttl": 240,
   "words": 2533
  },
- "founders_playbook/03_quality_control/target_s1_audit1_chronology_hindsight.md": {
-  "agent": "target-s1-audit1",
-  "claimed": "2026-09-26T11:15:40Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-26T11:15:40Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/03_quality_control/target_s1_audit2_sources_independence.md": {
-  "agent": "target-s1-audit2",
-  "claimed": "2026-09-26T11:02:32Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-26T11:02:32Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/03_quality_control/target_s1_audit3_numbers.md": {
-  "agent": "target-s1-audit3",
-  "claimed": "2026-09-26T11:19:48Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-26T11:19:48Z",
-  "sections": [
-   "Rows re-derived|Denominator and basis defects|Sums that do not foot|CONTEMPORANEOUS-RESTATED mislabels|Precision laundering|Sweep counts|Untried"
-  ],
-  "ttl": 240
- },
- "founders_playbook/03_quality_control/target_s1_certification.md": {
-  "agent": "target-s1-certify",
-  "claimed": "2026-09-29T17:48:02Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T17:48:02Z",
-  "sections": [],
-  "ttl": 240
- },
  "founders_playbook/03_quality_control/target_s1_merge.md": {
   "agent": "target-s1-merge",
   "claimed": "2026-09-26T09:32:57Z",
@@ -2938,15 +2631,6 @@
   "sections": [],
   "ttl": 240,
   "words": 5817
- },
- "founders_playbook/03_quality_control/target_s1_recertification4.md": {
-  "agent": "target-recert4",
-  "claimed": "2026-10-06T13:37:00Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T13:37:00Z",
-  "sections": [],
-  "ttl": 240
  },
  "founders_playbook/03_quality_control/target_s1_repair_pass2.md": {
   "agent": "target-repair-2",
@@ -2981,24 +2665,6 @@
   "sections": [],
   "ttl": 240,
   "words": 2253
- },
- "founders_playbook/03_quality_control/target_s1_repairs.md": {
-  "agent": "target-s1-repair",
-  "claimed": "2026-09-26T11:27:40Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-26T11:27:40Z",
-  "sections": [],
-  "ttl": 240
- },
- "founders_playbook/03_quality_control/tesla_s1_audit1.md": {
-  "agent": "tesla-s1-audit1",
-  "claimed": "2026-10-06T11:48:25Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-10-06T11:48:25Z",
-  "sections": [],
-  "ttl": 240
  },
  "founders_playbook/03_quality_control/tesla_s1_certification.md": {
   "agent": "tesla-cert-1",
@@ -3039,15 +2705,6 @@
   "sections": [],
   "ttl": 240,
   "words": 35
- },
- "founders_playbook/03_quality_control/unitedhealth_s1_audit1.md": {
-  "agent": "uhc-audit1",
-  "claimed": "2026-09-29T18:53:25Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-29T18:53:25Z",
-  "sections": [],
-  "ttl": 240
  },
  "founders_playbook/03_quality_control/walmart_s1_a6_census.md": {
   "agent": "walmart-a6-census",
@@ -3095,24 +2752,6 @@
   ],
   "ttl": 180,
   "words": 75
- },
- "founders_playbook/03_quality_control/walmart_s1_recertification.md": {
-  "agent": "walmart-s1-recertify",
-  "claimed": "2026-09-25T21:07:54Z",
-  "deliverable": "",
-  "done": false,
-  "heartbeat": "2026-09-25T21:16:22Z",
-  "sections": [
-   "Verdict",
-   "Header carriers",
-   "Retraction layers",
-   "Anchor declaration stress test",
-   "Retrospective classing",
-   "Open items held",
-   "Blockers",
-   "Tolerable"
-  ],
-  "ttl": 150
  },
  "founders_playbook/03_quality_control/walmart_s1_repairs.md": {
   "agent": "walmart-s1-repair",

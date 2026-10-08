@@ -2953,3 +2953,43 @@ rows; AT&T 31,315 / 136; CVS 19,520 / 126; J&J 27,043 / 102; PepsiCo 22,958 / 10
 because briefs wrote "03_quality_control/..." without the `founders_playbook/` prefix -- left in place rather
 than moved, because a live agent holds those paths; the audit brief now states the full path, and the stray
 directory gets consolidated once the lanes drain.
+
+### RD-143 -- the fleet did not fail on evidence: 18 lanes died on a provider quota wall, and the corpus is measured rather than remembered
+
+**What happened.** Between ~00:30 and ~04:30 IST on 2026-10-07/08 two platform events killed every lane I had
+in flight. The first, `Queuing failed`, took ten lanes simultaneously about 233 minutes into their runs (GM,
+AT&T and J&J audits, the JPMorgan merge, the Cigna repair, and the Cencora/Elevance/Humana/Verizon authors,
+plus the first PepsiCo audit and Dell part 2). The second, `You've reached your daily usage limit for Chat`,
+took the remaining eight (CVS/Boeing/Meta audits, Cardinal/UPS/FedEx/Marathon/Valero/Wells Fargo authors, the
+PepsiCo re-run). None of these were data failures: no gate went red, no citation was fabricated, no volume was
+lost. **~4.3M tokens were consumed with no reports written, and the lesson is a scheduling one: I ran 18-20
+concurrent lanes against a guidance of ~14, and the queue collapsed the moment the daily ceiling appeared.**
+Every lock is now released (`scaffold.py ledger` shows nothing un-done), so the restart is mechanical.
+
+**The corpus, re-measured from disk rather than from my dispatch table: 19 merged Stage-1 volumes, 734,262
+words, 4,274 register rows.** Amazon 50,814 (SIGNED), Walmart 59,516, Apple 57,502 (registers in `research/`),
+Alphabet 57,358, UnitedHealth 44,996, Microsoft 34,707, JPMorgan 34,637, Costco 46,992, Nvidia 46,691, Target
+42,833 (**CERTIFIED**), Tesla 55,347 (**CERTIFIED**), Meta 30,212, AT&T 31,315, GM 20,192, CVS 19,520, Cigna
+16,812, J&J 27,043, PepsiCo 22,958, Boeing 34,817. **Certified: 2 plus Amazon signed. Audited: 1** (Cigna,
+FAILED, repair half-applied). **Seven merged volumes have never been audited** -- their audit reports are
+35-word stubs because the auditors died before writing.
+
+**Three facts that only a byte-level census shows, and each one changes tomorrow's first hour.**
+1. **JPMorgan's merge is 90% done, not "failed".** Its `stage_1.md` (34,637 w) and all nine registers (214 rows)
+   exist; `merge_census.py` reports **23 missing keyed rows, all `PROV-JP1-*`** -- the id mint never happened --
+   and `CORRECTIONS.md`/`_MANIFEST.md` content/two reports are absent. Resume, do not restart.
+2. **Cigna's false null is still partly standing.** `stage_1.md` now prints "March 6, 2018" 3× and carries 13
+   COR entries, but the withdrawn sentence "No held byte prints…" **still survives in 2 places** and the repair
+   report is empty. The blocker is not closed until those 2 occurrences are superseded and `--checks
+   corrections` proves propagation.
+3. **An inventory I mis-measured twice, in my own hand.** First I read Apple as having zero registers because my
+   scan looked only at the company root -- its nine registers live in `research/`. And `wc -w` on `_parts`
+   showed Marathon/Valero/Wells Fargo at "35 words", which is a scaffold stub, not a part: those three authors
+   died before writing anything. **"Counts need scopes" is a rule I wrote for agents and nearly violated myself
+   in the same minute I wrote the resume file.**
+
+**What died that cannot be recovered cheaply:** Cardinal produced nothing; Elevance reached 3,481 words of a T3
+part; Humana's 14,617-word part has 5 `STATUS: PENDING` blocks; UPS (12,215), Centene (10,268), Cencora
+(14,916), Verizon (17,293) and FedEx (5,516) are complete parts waiting for merges; Dell p2 has 2 pending blocks.
+Boeing's merge reported 211 rows applied but **no `CORRECTIONS.md` exists in its directory** -- a bookkeeping
+gap to check, not evidence to distrust.
