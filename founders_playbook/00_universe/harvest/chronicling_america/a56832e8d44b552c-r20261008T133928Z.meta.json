@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=Phillips+66+OR+%22Phillips+Petroleum%22&date1=1920&date2=2012&dateFilterType=yearRange",
+ "evidence_file": "a56832e8d44b552c-r20261008T133928Z.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 84986,
+ "retrieved_at": "2026-10-08T13:44:46Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a4759508ae279173-SEA",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'Phillips 66' unquoted-digit variant + 'Phillips Petroleum' Bartlesville 1920-2012 (HYPOTHESIS predecessor route)",
+ "company": "phillips66",
+ "kind": "search"
+}
