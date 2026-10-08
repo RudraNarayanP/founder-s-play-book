@@ -1,0 +1,1954 @@
+# FORENSIC LONGITUDINAL DATASET — THE PRICE COMPANY / COSTCO WHOLESALE CORPORATION (merged as Price/Costco, Inc.), STAGE 1
+
+<!-- ANCHORS: U.101-U.115, U.120-U.136 -->
+
+## Stage-1 merge record (merge pass `costco-s1-merge`, 2026-09-30)
+
+STATUS: WRITTEN 2026-09-30. This file is the **merged Stage-1 volume** of `company_013_costco`. It was
+assembled from the two author emissions, `_parts/s1_p1.md` (19,404 words as emitted: §Header, §Boundary,
+§A–§F, claim records Boundary/A–F, 94 register rows) and `_parts/s1_p2.md` (39,647 words as emitted: §G–§U,
+claim records G–U, the UNTRIED list, 105 register rows). **Both part bodies are carried here verbatim and
+contiguously; no section was renumbered, no author sentence rewritten, no paragraph reordered.** The parts are
+now superseded as working volumes and are retained read-only as the audit trail of this merge.
+
+**What is not in the prose, and where it went.** Each part also emitted fenced `csv` register blocks (20
+structured blocks, **199 rows requested**). Per method §9.1(2) and §13, register data lives in CSV and not in a
+prose volume, so the fenced blocks were **applied to the nine registers at this company root** rather than
+reprinted here. **191 rows are on disk** — 199 requested, minus **10 folded duplicates** (3 in `sources.csv`,
+3 in `validation.csv`, 4 in `failures.csv`; every folded row's differing cells are carried verbatim into the
+`notes` cell of the surviving row), plus **2 rows minted by this merge pass** into `data_gaps.csv` to give the
+§U nulls U.120 and U.124 a register address. Nothing was refused and no row was dropped: the fold list, the
+minted rows and the residue are printed in `03_quality_control/costco_s1_merge_notes.md`.
+
+| register | rows on disk |
+|---|---|
+| `sources.csv` | 14 |
+| `quantitative.csv` | 46 |
+| `timeline.csv` | 35 |
+| `conflicts.csv` | 22 |
+| `data_gaps.csv` | 26 |
+| `decisions.csv` | 13 |
+| `validation.csv` | 8 |
+| `failures.csv` | 11 |
+| `channels.csv` | 16 |
+
+**Source ids.** All 17 emitted source rows carried dossier-local provisional ids (`P1S01`–`P1S12`,
+`P2S01`–`P2S05`). **No provisional id was assumed to be a global id and none was reused.** Three of them name
+documents part 1 had already registered (part 2 printed that collision note itself), so 17 provisional ids bind
+to **14** global ids minted centrally for this merge: `python tools/id_mint.py --count 14 --company
+company_013_costco --claim --agent costco-s1-merge` returned the block **S4393–S4406**, allocated above the
+highest live id so no gap was re-entered. The full provisional→global map is in the merge notes and in the
+`notes` cell of every `sources.csv` row (COR-02). Register `source_id` cells were re-pointed to the global ids;
+the volumes' prose keeps the dossier-local aliases, which is what `sources.csv` resolves.
+
+**Anchors.** The §U anchor block is Volume 2's and is carried verbatim: **32 declared anchors — U.101–U.115
+(conflicts, each mapped to its continuing K id) and U.120–U.136 (documented nulls and open routes)**. Measured
+against the registers after the final write: 32 distinct anchor tokens appear in the nine registers, **0
+register-cited anchor is undeclared and 0 declared anchor lacks a register row**. Of the 22 `conflicts.csv`
+rows, 15 carry a §U conflict anchor; the other 7 (K02, K03, K04, K06, K07, K08 and K08-supplement) are part-1
+conflicts that §U deliberately addresses by their **K ids**, not by new U anchors — "Part 1's K01–K08 … remain
+the addresses for everything minted there; no anchor below re-mints a K or P1G id" (§U reading rules, verbatim).
+Two anchors that part 1 had no register row for were given merge-assigned addresses (COR-04): U.112 is now
+printed on conflicts row K05 and U.113 resolves through `timeline.csv`; U.121 and U.132 were attached to the two
+part-1 `data_gaps.csv` rows that already register those nulls, and U.120 and U.124 to the two minted rows.
+
+**Contradictions between the two passes are kept, not resolved by deletion.** Where part 2 read bytes part 1
+had not opened and corrected it, both statements stand in this volume and the site is marked here: **K09 (U.101)**
+answers part 1's open residual on the merger's effective date without changing its adopted boundary;
+**K14 (U.106)** corrects part 1 §B.2's pairing of "~52,000" with the FY1994 filing (47,000 is 1994-08-28;
+52,000 is 1995-09-03); **K16 (U.114)** corrects part 1 §E.1 / record P1G03's "nothing held states an item count"
+(the same accession prints 3,500–4,000 SKUs per warehouse); **K17 (U.115)** corrects part 1 §A.3's "no unit count
+… held for leg C alone" (Item 2 splits the estate by brand at 1994-08-28, Price 75 / Costco 107 U.S.);
+**K18 (U.108)** holds part 1 §A.2 / record A02's FY1993 diluted 240,162 against the Item 6 five-year row whose
+column-to-year assignment no pass has verified; **K08-supplement (U.125)** corrects the probe's document-level
+nulls after the intake regrade. Each of these is a row in `conflicts.csv` with both claims, both carriers and an
+evidence weight; none of the four prose sites above was edited.
+
+**Tier and length.** The probe and the intake regrade put this company at **T2 core** (research/
+`A3_intake_regrade.md` issued T3 PROVISIONAL with family (c) unmeasured; `A4_harvest_mine.md` then returned two
+in-window `TIER1_CANDIDATE_TEXT` periodical items, which is the 2-family condition of §15.2), whose 22,000-word
+figure is a **dispatch budget, a density target** — not a limit on written evidence (RD-122 adjudicates exactly
+this). The volume measures **45,021 words**, inside the §9.2 amber band (40,000–60,000) and below the 60,000
+hard cap, so **no section-boundary split was required or performed**. Nothing was trimmed to make a gate quiet;
+`gates.py --tier core` therefore prints one budget finding on this file, which is the adjudicated non-defect and
+is recorded as such in `_MANIFEST.md` and in the gate report.
+
+## Volume 1 -- carried forward from `_parts/s1_p1.md` (sections Header, Boundary, A-F)
+
+# FORENSIC LONGITUDINAL DATASET — THE PRICE COMPANY / COSTCO WHOLESALE CORPORATION (merged as Price/Costco, Inc.), STAGE 1
+## Volume 1 — sections Header, Boundary, A–F
+
+## Header
+
+STATUS: WRITTEN 2026-09-26 (agent `costco-s1-p1`, first authoring pass)
+
+### Dataset, stage, and how to read this volume
+
+*One document split for the file cap (method §9.3). Section letters, claim IDs, metric IDs and conflict
+numbering run continuously across volumes: **§Header, §Boundary and §A–§F live here (`_parts/s1_p1.md`);
+§G onward, the quantitative table, timeline, snapshot, data gaps, provenance and §U live in later parts.**
+Cross-references of the form `(Costco S1 §D.2, part_1)` name the volume. Nothing is renumbered to make a
+part look self-contained. Tier **T3 register, PROVISIONAL** (§15.2, RD-112): short narrative plus complete
+registers; §K, §N and §U remain mandatory and are written by the passes that own them.*
+
+**Dataset:** The Founder's Playbook — forensic reconstruction of what each company in the frozen universe
+(`00_universe/`) looked like while its outcome was still unknown.
+**Company (rank 13):** today's registrant **Costco Wholesale Corp /NEW**, CIK 909832. This Stage-1 volume
+does **not** write "Costco (1983)". It writes **two separately-argued predecessor legs inside one
+registrant's own memory of them** — The Price Company, which the registrant's filings say "began operations
+in 1976 in San Diego, California", and Costco Wholesale Corporation, which "began operations in 1983 in
+Seattle, Washington" — and it writes them as the registrant's *restated* past, not as an observed present.
+The argument is at `## Boundary`; it is the single most consequential choice in this dossier, and the reason
+is stated there: **the corpus holds no document of any kind generated between 1975 and 1993 by either
+retail leg.**
+**Stage:** 1 of 3. **Span argued:** **1976 → 1993-10-21** (variant 1975 opening held live at **K01**;
+variant close 1993-10-22 held live at **K05**). **Stage definition:** origin → first real-world experiment →
+repeatable validation → scalable company formation. Per §7's adaptation rule the four beats for a retail
+chain are *the concept, the first units, the second-and-third-market proof, and the parent's capital and
+name change*. **Only the first two beats are evidenced by a document generated in-period** — and the
+document that evidences them is a municipal land-use record about one proposed warehouse, not a company
+record. That asymmetry is the finding of this volume and every section below is written against it.
+**File:** part 1 of an expected 3 for Stage 1.
+
+**Hindsight firewall (§2).** Nothing here treats the 1997 split-up, the survival of the Costco name, the
+later registrant's rank among world retailers, or the eventual triumph of the membership warehouse format
+as evidence that 1976 or 1983 was a rational moment, that the incumbents named in the 1994 filing were
+blind, or that the format was destined to inherit wholesale or grocery trade. The words "visionary",
+"prescient" and "revolutionary" do not occur in this volume. The registrant's own retrospective genealogy
+— the sentence "pioneering the membership warehouse concept", printed in 1994 and repeated verbatim in 1995,
+1996 and 1997 — is used **only** as evidence that the merged company told that story in those years, never
+as evidence about 1976. Anti-hagiography test applied per §2 to every coda; the §A coda in particular was
+rewritten until it passed.
+
+**Record-selection null (§2).** Unrecoverable *because the survivor's archive is the one that was kept*: of
+the four EDGAR documents in this corpus carrying every positive statement about the origin years, **not one
+was written before 1994-11-17**, and all four are the *merged* company's text about *both* legs. No internal
+deliberation of either predecessor survives in any held byte — no feasibility study, no rejected site list,
+no opening-day report, no price book, no membership application, no dissent, nothing anyone wrote in 1976 or
+1983 about what they were doing. **Zero** held bytes were produced by Costco Wholesale Corporation before
+its own merger, and **zero** by The Price Company. No independent count of any origin-year figure exists
+behind any company self-report; the one genuinely in-window independent document held (a City and County of
+San Francisco environmental review record, 1991/1992) speaks to a single proposed warehouse and to no year
+before 1989. The FY1994 filing's ten-year financial series is itself a *constructed* record — a
+pooling-of-interests restatement whose own text says prior-period statements "have been restated as though
+the companies had been combined" — so the deepest in-window numbers this dossier can print are numbers that
+did not exist in the form printed until 1993 combined them. See §A.4, §D.3 and Boundary §3.
+
+**Confidence (§3):** **High** = 2+ independent origins, or a primary document speaking about its own year;
+**Medium** = one reliable source, or any retrospective-only primary (every origin-year statement in this
+volume is of this kind), or a claim resting on a fragment read by `grep` rather than a paragraph read whole;
+**Low** = conflicting, vague, or retrospective-only with no primary carrier at all; **UNKNOWN** = a finding,
+never a gap to fill or smooth.
+
+**The single-lineage finding, stated once and enforced everywhere (§3 filing-lineage rule).** Every positive
+statement about the origin years in this corpus traces to **one corporate record in four successive
+posters**: the PriceCostco FY1994 10-K (filed 1994-11-17), the FY1995 10-K405 (1995-11-30), the FY1996
+10-K405 (1996-11-08) and the Costco Companies FY1997 10-K (1997-11-10). The 1983 sentence is *the same
+sentence* in three of them; the 1976 sentence is *the same sentence* in four. Under §3 these are **one
+source re-printed**, and no repetition across those years corroborates anything — it is version evidence.
+`independence_note` carries that on every affected row. The only carriers in this corpus that are *not* that
+lineage are: (i) the San Francisco EIR pair (municipal, independent of the company, 1991/1992); (ii) the
+Quebec `Pric0158` annual-report layers (independent — and about a different company entirely, see §B.4);
+(iii) a fleet-harvest index of Google Books snippets (tertiary, post-boundary); (iv) EDGAR's own index and
+`main.json` metadata (structural facts about the registrant, about nothing else). **Consequence enforced
+below: no retrospective recap carries a FACT about a decision in this volume.** Recaps carry
+FACT-about-the-printing and RETROSPECTIVE INTERPRETATION-about-the-event, in two separate records, always.
+
+**Date and basis conventions, stated once (§6, and the correction of one inherited figure).**
+(i) **Fiscal year.** The registrant reports on a 52/53-week year "consisting of 13 four-week periods and
+ending on the Sunday nearest the end of August" (FY1995 10-K405). Every bare-year figure below is a
+**fiscal** year unless explicitly marked calendar, and the year-ends actually printed in the held bytes are:
+FY1985 1985-09-01 · FY1986 1986-08-31 · FY1987 1987-08-30 · FY1988 1988-08-28 · FY1989 1989-09-03 (**53
+weeks**) · FY1990 1990-09-02 · FY1991 1991-09-01 · FY1992 1992-08-30 · FY1993 1993-08-29 · FY1994 1994-08-28.
+A comparison across those year-ends is therefore not a same-length comparison, and the FY1989 column is one
+week longer than its neighbours. (ii) **Store count basis.** The filed warehouse table is labelled
+"WAREHOUSES IN OPERATION" and carries *Beginning of year / Opened / Closed / End of Year* rows: every count
+below is **period-end**, never an average, and an "opened" figure is a gross addition, not a net one.
+(iii) **Money basis.** All filed money is "DOLLARS IN THOUSANDS, EXCEPT WAREHOUSE AND PER SHARE DATA" as
+printed; "net sales" excludes membership fees, "total revenue" includes them, and "gross margin" is filed
+with an explicit definition — "net sales minus merchandise costs" — which is used here in that sense and in
+no other. Inventory is on **LIFO**, and the filings print the LIFO/FIFO difference by year, so no margin
+figure below is FIFO-comparable. (iv) **Predecessor-scope basis, and it is the one that must never be
+dropped.** Any figure covering fiscal years before 1993 in these documents is a **restated combined**
+Price+Costco figure, not either company's own published number; the label `combined-restated` travels with
+it. (v) `(PB)` marks a fact whose event date falls after this stage's boundary and is used only where a
+post-boundary document's *state* is needed to explain an in-window *mechanism*; it is never a Stage-1 fact.
+
+**ID scheme (§13, read before citing).** Claim records are `A01…F0n` keyed to their section and are
+**dossier-local**; register rows are `P1Sxx` (sources), `P1Qxx` (quantitative), `P1Txx` (timeline),
+`P1Dxx` (decisions), `P1Vxx` (validation), `P1Xxx` (failures), `P1Cxx` (channels), `P1Kxx` (conflicts),
+`P1Gxx` (data gaps) and are likewise **dossier-local**. Global `source_id` blocks are assigned **centrally
+at merge**; nothing here may be treated as a global key, and no id below assumes a range. Line numbers quoted
+from held filings are **locators, not addresses** (§14.12); the sentence is the citation.
+
+**What this pass did and did not re-measure.** Three of the probe's five families — (b) web archives,
+(c) periodicals, (e) documentary — are recorded as UNANSWERED / TRIAL-BY-SCRIPT-but-UNREAD / UNTRIED in
+`research/A_chronology_feasibility.md` and are **not** re-opened here (§15.1: no agent brief may include
+retrieval a script can reach, and `tools/` is not mine). This pass added two things the probe had not read:
+the in-window municipal record and the ten-year filed series, and it refuted one inherited statement about
+the 1983 leg. Both are named where they land.
+
+---
+
+## Boundary
+
+STATUS: WRITTEN 2026-09-26
+
+**Geometry note.** This section enumerates the candidate Stage-1 subjects and dates, names the document
+behind each, and states why each rival **fails** or is **held live** — it does not assert a boundary and
+then defend it rhetorically. Six rivals are named: a rejected registrant identity, a rejected single-origin
+framing, an unresolved opening year, an unresolved closing date, and a rejected name-collision leg. Three of
+them are not resolved and are not resolvable from this corpus; they stay live in the conflicts register.
+
+### 1. The registrant is neither predecessor, and it calls itself both
+
+| Variable | Value | Source | Confidence |
+|---|---|---|---|
+| CIK and current registrant name | 909832, `COSTCO WHOLESALE CORP /NEW`; formerNames `PRICE/COSTCO INC` → `COSTCO COMPANIES INC` | `sources/_index/CIK0000909832-main.json`, as enumerated in `research/A_chronology_feasibility.md` §Entity question (not re-opened this pass) | High (for the index fact) |
+| Earliest filing existing on the CIK | 10-Q, accession 0000912057-94-000012, filed 1994-01-05, report date 1993-11-21, `primaryDocument` blank | `_index/submissions.csv` rows read this pass | High |
+| Earliest filing whose bytes are held here | same accession, 64,490 B, hand-fetched by the probe; `grep -c "1976\|1983"` on it → **0** this pass | `sources/sec/0000912057-94-000012/0000912057-94-000012.txt` | High |
+| Registrant's own statement of its beginning | "Price/Costco, Inc. ('PriceCostco' or the 'Company') began operations in 1976 in San Diego, California as The Price Company ('Price'), pioneering the membership warehouse concept." | P1S02 (10-K405, FY1995), Item 1 | Medium (retrospective-only, one lineage) |
+| Registrant's statement of the merger vehicle | "PriceCostco was formed to effect the Merger." | P1S01 (FY1994 10-K), Note on the Merger | Medium (one lineage) |
+| Merger accounting basis | "The Merger qualified as a 'pooling-of-interests' for accounting and financial reporting purposes … the historical financial statements for periods prior to the consummation of the Merger have been restated as though the companies had been combined." | P1S01 | Medium (one lineage) |
+
+The two statements in the last two rows are the whole boundary problem, and they are not contradictory in
+the way the probe left them. The registrant says of itself, in 1995, that **it** began operations in 1976 as
+The Price Company; and in 1994 that it was a vehicle **formed** to effect a 1993 merger. Read together, and
+read alongside the pooling sentence that sits between them, they mean: *the merged entity has no history of
+its own, so it adopted one by accounting operation.* Pooling-of-interests "treats the combining companies as
+if they had been a single business entity from inception" — the filing's own words. **The 1976 leg is
+therefore not a memory of the registrant's origin; it is the accounting consequence of a choice made in
+1993.** That distinction is what licenses the two-leg framing below, and it is why no single-origin story
+survives contact with these bytes.
+
+### 2. Why Stage 1 is two legs, opened 1976 and 1983, closed 1993-10-21
+
+| # | Candidate subject and boundary | Best document for it | Verdict |
+|---|---|---|---|
+| 1 | **The Price Company leg, 1976 → 1993**, as the corporate-continuity spine | P1S01/P1S02/P1S03/P1S04 all print a 1976 San Diego beginning; P1S01 prints an officer "Chief Executive Officer and a director of Price since 1976" | **ADOPTED as leg P.** The registrant's own spine starts here, and the ten-year filed series (P1S01) is a single combined series from FY1985, so the Price leg carries the *numbers* even where it carries no *documents*. |
+| 2 | **Costco Wholesale Corporation leg, 1983 → 1993**, argued separately, not as a clause of leg P | P1S02/P1S03/P1S04: "Costco Wholesale Corporation began operations in 1983 in Seattle, Washington with a similar membership warehouse concept" | **ADOPTED as leg C, and upgraded on this pass.** The probe held that 1983 was only a *terminus ante quem* for operations, sourced to one executive's service date. Three held filings say more than that and one of them names the city; see §D.1 and `## Untried`. It is still not a *founding* date and no document in this corpus says who founded leg C beyond two men called founders by the company they ran. |
+| 3 | **"Costco founded 1983" as the single origin of the company** | — | **REJECTED.** It collapses a two-lineage record into one brand and imports the modern name backwards. Under §3 the sole carrier of both legs is one restated corporate record; a single-origin choice would silently delete the leg that supplies every number in §A.4. |
+| 4 | **Price Club opened 1975, not 1976** | fleet harvest index row (Google Books snippet, Parnell *Strategic Management*, SAGE, 2013): "Price Club Warehouse was opened in San Diego in 1975 by Sol Price, Robert Price (Sol's son), Rick Libenson, and …" | **HELD LIVE — K01.** One year apart, and the two classes of source disagree in kind: the registrant's four printed years versus a 2013 textbook snippet reached at ~250-character depth, which the harvest index itself says is not obtainable text. The tertiary item is the only held source in this corpus that *names founders of the 1976 leg*; see §B.3. It is cited as a pointer and a lead, never as evidence of the event. |
+| 5 | **The close is 1993-10-22, the first trading day of PriceCostco stock** | P1S01: trading "commenced on October 22, 1993"; shareholder approval of both mergers is dated October 21, 1993 | **HELD LIVE — K05.** The legal act and the market event are one day apart and the filings print both. This volume closes on the **shareholder approvals of 1993-10-21**, because that is the last date on which the registrant's own document places an *act of either predecessor*, and the 1993-11-21 report date of the first filing on the CIK is the first *post*-boundary period-end. |
+| 6 | **A "Price Company" 1976/1977/1978 annual-report run as leg P's own paper** | `sources/periodicals/Pric0158_1977_djvu.txt` (107,938 B) and `_1978` (12,396 B), read this pass | **REJECTED — and this is a name collision, not a near miss.** The masthead reads "LA COMPAGNIE PRICE LIMITEE ANNUAL REPORT 1977 / PRICE", the accounts run in thousands of dollars with "depreciation and depletion", and the operating text is **paper, pulp, kraft and refiner mills**, naming **Abitibi-Price**. `grep` for "price club", "warehouse club", "membership" over both layers → **0 matches in each**. A Quebec paper company with sales of $383,148 thousand in 1977 is not a San Diego warehouse club with restated combined net sales of $2,200,338 thousand in FY1985. See §B.4 and K04. |
+
+### 3. What the boundary cannot do, and is not made to do
+
+The window 1976-01-01 → 1993-10-21 contains, in this corpus, **one document generated during it and about
+the company** — the San Francisco EIR (P1S08, 1991/1992) — and **zero documents generated during it by either
+retail leg.** Everything else called a Stage-1 fact below is one of three things: (a) a post-boundary
+registrant statement *about* an in-window year, tagged `RETROSPECTIVE SOURCE` and capped at Medium; (b) a
+post-boundary third-party or tertiary statement about an in-window year; or (c) a restated figure whose
+in-window existence the predecessor never published. That is a description of the archive, not a defect in
+the reading, and §15.2's tier is stated against it. **A note for the orchestrator, not a re-tier by this
+pass:** under RD-112's per-stage rule the tier here must be measured against *this* window. On that
+measurement family (a) returns in-window *text* but **no in-window document**, and the one in-window
+document held comes from the corporate-print/periodical side and names the registrant only for a 1989-1992
+project. Whether that counts as a second family is a tiering judgment this pass does not own; the bytes and
+the argument are in P1S08 and P1G08.
+
+---
+
+## A — Executive state summary
+
+STATUS: WRITTEN 2026-09-26
+
+### A.1 The state at the close of the window, as one filed paragraph will bear
+
+At the last fiscal year-end falling inside Stage 1 — **FY1993, the 52 weeks ended 29 August 1993**, three
+weeks before the shareholder approvals that close this window — the entity that the registrant later
+described as a single business had **200 warehouses in operation at period-end**, filed **net sales of
+$15,154,685 thousand** and **membership fees and other revenue of $309,129 thousand**, opened **37** new
+units and closed **7**, and printed a **comparable-warehouse sales rate of negative 3 percent** against
+**positive 6 percent** the year before. It did that under two trading symbols on one exchange, in two
+headquarters cities, with two named blocs of board designees, one unionised half of one predecessor's
+hourly workforce, and a related-party orbit around a man the merged company's own proxy identifies as the
+father of its chairman. Every clause of that paragraph is carried by a document written after the window
+closed; the *numbers* are the restated combined series, and the *structure* is the merger settlement.
+This is the state Stage 1 ends in, and the corpus can state it more precisely than it can state anything
+about how either leg began.
+
+### A.2 Load-bearing facts, each with its carrier
+
+| Variable | Value | Source | Confidence |
+|---|---|---|---|
+| Stage-1 close adopted | 1993-10-21 (shareholder approvals of both mergers) | P1S01 "On October 21, 1993, the shareholders of both The Price Company ('Price') and Costco Wholesale Corporation ('Costco') approved the mergers…" | Medium (one lineage; variant at K05) |
+| Leg P opening adopted | 1976, San Diego, California | P1S02/P1S03/P1S04 identical sentence; P1S01 "When Price pioneered the membership warehouse club concept in 1976…" | Medium (retrospective-only, four printings of one corporate record = one source) |
+| Leg C opening adopted | 1983, Seattle, Washington | P1S02/P1S03/P1S04 "Costco Wholesale Corporation … began operations in 1983 in Seattle, Washington" | Medium (retrospective-only, one lineage; **upgraded this pass** — the probe scored 1983 as an inference from an officer's service date) |
+| Leg C month/day, first address, first manager | UNKNOWN | no held document | UNKNOWN — a finding, not a gap to fill |
+| Unit estate at FY1993 period-end (combined-restated) | 200 warehouses | P1S01, Selected Consolidated Financial Data, "WAREHOUSES IN OPERATION / End of Year" | Medium (filed, but restated and combined; CONTEMPORANEOUS only as a 1994 filing event) |
+| FY1993 net sales (combined-restated) | $15,154,685 thousand | P1S01 | Medium (filed and auditable within the lineage; no independent carrier) |
+| FY1993 net income / diluted EPS | $223,247 thousand / $1.00 on 240,162 thousand shares | P1S01 selected data + MD&A "decreased 8% to $223,247" | Medium |
+| Comparable-warehouse sales, FY1992 → FY1993 | +6% → −3% (annual rates as printed) | P1S01 MD&A | Medium |
+| Geographic reach at FY1993 | not stated separately for FY1993; at FY1994 period-end "21 states, 7 Canadian provinces and the United Kingdom"; Canada = 15% of FY1993 net sales | P1S01 | Medium (the 21/7/UK statement is `(PB)`, ten months past the boundary) |
+| Exchange symbols immediately before the close | Price "PCLB", Costco "COST", both on Nasdaq's National Market | P1S01 | Medium (one lineage) |
+| Headquarters immediately before the close | Kirkland, Washington **and** San Diego, California (both, simultaneously) | P1S01 Item 2 | Medium |
+| Merger exchange terms | each Price share → 2.13 PriceCostco shares; each Costco share → 1 | P1S01 | Medium |
+| Merger cost as booked | ~$120 million pre-tax / $80 million after tax, expensed in Q1 FY1994 because pooling required it | P1S01 | Medium (`(PB)` for the booking; the *event* is in-window) |
+| Whether any in-window document was written by either leg | **No** — zero held bytes | this volume's own census of `sources/` | High |
+
+### A.3 What each leg is separately knowable as, inside this window
+
+**Leg P (The Price Company / Price Club).** Nine of the twelve Stage-1 years are, on this corpus, an
+absence rather than a null: the filed series starts at FY1985 and it starts *combined*. What survives
+separately for leg P is thin and personal — one officer "Chief Executive Officer and a director of Price
+since 1976", the same man "President of Price from 1976 until December 1990"; a second officer who "joined
+Price as a warehouse manager in September 1977" (probe's reading of P1S01; not re-verified in these bytes
+this pass, so recorded at §B.2 with that limitation stated); a 1989 one-time special cash dividend of
+"$74,621 or $1.50 per share of Price Common Stock" printed in a footnote to a merged company's balance-sheet
+table; and two Price-designated directors whose board seats were contractually guaranteed only while
+"Sol Price and Robert Price and their affiliates in the aggregate cease to beneficially own at least two
+million shares". That is the whole separable Price record held here: **a family, a dividend, and two seats.**
+
+**Leg C (Costco Wholesale Corporation).** What is separately held about leg C before 1993 is: that it began
+operations in 1983 in Seattle; that two named men are called its founder and co-founder by its own later
+filings; that one of them was "President and Chief Operating Officer of Costco **since its inception**" and
+was "elected Chief Executive Officer in August 1988"; and that a third executive "joined Costco as Vice
+President, Operations in May 1983" and a fourth has been "Senior Vice President, Chief Financial Officer and
+Treasurer of Costco since January 1985" (both from the probe's reading of P1S01 — inherited, and marked as
+such in `P1S01.notes`). **No unit count, no revenue, no member count, no site and no city-of-second-store is
+held for leg C alone anywhere in this corpus.** Its first six years are, quantitatively, indistinguishable
+from the combined series that swallowed them.
+
+### A.4 The one series that reaches into the window — and what kind of thing it is
+
+FY1985→FY1994, all of it printed once, in P1S01, as one restated column set. Read the whole row as
+`combined-restated`, not as either company's published history.
+
+| Fiscal year ended | Warehouses, period-end | Opened (gross) | Net sales, $000 | Membership fees & other, $000 | Net income (loss), $000 |
+|---|---|---|---|---|---|
+| 1985-09-01 | 36 | 14 | 2,200,338 | 40,795 | 40,235 |
+| 1986-08-31 | 47 | 11 | 3,337,361 | 70,695 | 63,368 |
+| 1987-08-30 | 77 | 30 | 4,606,352 | 98,201 | 78,410 |
+| 1988-08-28 | 84 | 10 | 6,042,159 | 125,985 | 104,711 |
+| 1989-09-03 (53 wks) | 104 | 20 | 7,844,539 | 157,621 | 144,044 |
+| 1990-09-02 | 119 | 19 | 9,346,099 | 185,144 | 174,580 |
+| 1991-09-01 | 140 | 23 | 11,813,509 | 228,742 | 218,859 |
+| 1992-08-30 | 170 | 31 | 13,820,380 | 276,998 | 242,407 |
+| 1993-08-29 | 200 | 37 | 15,154,685 | 309,129 | 223,247 |
+| 1994-08-28 `(PB)` | 221 | 29 | 16,160,911 | 319,732 | (112,368) |
+
+Printed alongside the series, and doing the interpretive work: the *Beginning of year* row shows **22**
+warehouses at the start of FY1985, and the *Opened* row shows 14 during it, so a straight subtraction places
+**8** units at the start of FY1985 — i.e. at about September 1984, one year before leg C's filed beginning.
+That arithmetic is printed nowhere; it is `DERIVED` (P1Q11) and it is the single deepest quantitative reach
+into the origin this corpus can produce. **Its meaning is the opposite of its appearance.** Eight combined
+warehouses at September 1984 is *not* Price Club's estate in 1984: it is the two predecessor estates added
+together and projected backwards by an accounting method the filing itself explains. The same caution kills
+the tempting reading of the 1985-87 rows as a growth story about a young company: FY1986 opened 11 units and
+FY1987 opened 30, and no held document says how those 41 openings split between a decade-old San Diego
+business and a four-year-old Seattle one.
+
+**Coda (§7/§14.1 duty on any "so what").** Two readings of this series are available from the bytes, and
+this volume does not choose the flattering one. *Reading A* — the format was compounding: 36 units to 200
+in nine years, net sales up 5.9×, membership-fee revenue up 7.6×, so the model scaled by adding units and
+the fees came after the sales. *Reading B* — the same series is a deceleration narrative: comparable-warehouse
+sales go +6% (FY1992) to −3% (FY1993) to "declined during fiscal 1994 resulting in lower average sales and
+earnings per location" (P1S01's own words), the FY1993 filing attributes the fall to **cannibalisation by the
+company's own new units in existing markets**, competition, deflation in several merchandise categories, a
+weak California economy and a weak Canadian dollar, and gross margin never exceeds 9.3% of net sales across
+the whole decade. Mechanism for Reading B is named *in the filing*; mechanism for Reading A is arithmetic on
+units, and nothing in the corpus says whether the added units were incremental trade or relocated trade —
+the estate "closed" 4, 2, 1, 7 and 8 units in five of these years. **Confidence: Medium for the numbers,
+Low for any inference about which reading describes 1976-1985, because that period is not in the series at
+all.**
+
+---
+
+## B — Founder / company state
+
+STATUS: WRITTEN 2026-09-26
+
+**Why this section is a table and not a story (§3, §10, and the brief's founder warning).** The founding of
+this company is the place where the cheapest narratives are wrongest, because every available sentence about
+it was written by the merged company, about itself, after the outcome of the merger was already known
+inside the firm. What follows therefore records **who is credited as founder by which document, in which
+words, at what tier**, and refuses to convert a role into a founding claim without a carrier. Four of the
+five named people below hold a role that is documented from 1976 or 1983; only two are called founders by
+any held document, and both by the company they ran.
+
+### B.1 Who is credited, by which document, in which words
+
+| Variable | Value | Source | Confidence |
+|---|---|---|---|
+| Named as **"a co-founder of Costco"** | James D. Sinegal | P1S01 ("Mr. Sinegal is a co-founder of Costco and a director of Price Enterprises"); P1S02 ("…and has been a director of Costco **since its inception**"); P1S03; P1S04 ("co-founder of Costco Wholesale Corporation") | Medium — but **one lineage in four printings, not four sources** (§3) |
+| Named as **"a founder of Costco"** | Jeffrey H. Brotman | P1S01, verbatim "He is a founder of Costco and a number of other specialty retail chains"; P1S02 changes this to "a **co**-founder of Costco" | Medium (one lineage); the *wording change across years* is itself the datum — see K06 |
+| Founding of the 1976 leg attributed, in held bytes, to any named person | **No held registrant document attributes it to anyone** | census of P1S01-P1S04 | High (as a statement about this corpus, per §14's rule that a silence claim travels with its perimeter, never as a date) |
+| 1976 leg attributed to named founders, in non-registrant print | "Price Club Warehouse was opened in San Diego in 1975 by Sol Price, Robert Price (Sol's son), Rick Libenson, and …" | P1S11 (fleet harvest index row → Google Books snippet, Parnell, *Strategic Management*, SAGE, 2013, matched page PA372) | **Low** — Tier 3 tertiary, 2013, ~250-char snippet, the underlying volume text **not obtained**; and the year it gives conflicts with every registrant printing (K01) |
+| Sol Price, as the registrant describes him | "a corporation that is wholly owned by Sol Price, **the father of Robert Price**"; related-party aircraft rentals of $710,513 in FY1994; an aircraft purchased from the same corporation for $830,000 on 1993-10-25; "Certain employees who report primarily to Sol Price were employed by Price" | P1S06 (DEF 14A, filed 1994-12-23), paragraph read whole | Medium-High for what the proxy asserts and how it is hedged ("the Company believes that the rental terms were as favorable…"); `(PB)` for FY1994 |
+| Robert E. Price | Chairman of PriceCostco since the Merger, with resignation tendered; previously "Chief Executive Officer and a director of Price **since 1976**", "President of Price from 1976 until December 1990", "Chairman of the Board of Price since January 1989" | P1S01, officer biography paragraph read whole this pass | Medium (one lineage) — **and this is a role, not a founding claim; the filing never calls him a founder** |
+
+**The discipline this table exists to enforce.** The FY1994 10-K is the only held registrant document that
+places a named person at the head of leg P from 1976, and it does so in the language of *employment and
+office*, while using the explicit word "founder" only for leg C's two executives. Anyone who writes
+"Sol Price founded Price Club in 1976" from this corpus is writing a Tier-3 2013 textbook sentence and a
+family relationship as a Tier-1 fact. Anyone who writes "Robert Price founded Price Club" is converting
+"President … from 1976" into an act the document does not describe. Both errors are prevented here by
+keeping the two records apart, and the first is not disproved either: **the founding of leg P is UNANSWERED
+on this corpus, not unknown to history** — the route to an answer is named in P1G01.
+
+### B.2 Company state at the boundary: two firms, one filing, and the settlement that joined them
+
+| Variable | Value | Source | Confidence |
+|---|---|---|---|
+| Legal structure immediately after the act closing Stage 1 | Price and Costco each became a wholly owned subsidiary of Price/Costco, Inc., "formed to effect the Merger"; mergers were with and into **separate** subsidiaries | P1S01 (Note on the Merger); P1S02 "mergers of Price and Costco with and into separate, wholly owned subsidiaries" | Medium |
+| Headquarters | Kirkland, Washington **and** San Diego, California, both maintained; San Diego office to end on completion of the Exchange Transaction | P1S01 Item 2 | Medium |
+| Board settlement | Bylaws define **"Price Designees"** and **"Costco Designees"** as permanent classes; six named to each bloc at the FY1994 filing | P1S01 (names at §B.3 of that document's related-party discussion) | Medium |
+| Price-family grip on those seats | two Price directors' service guaranteed until the earlier of two years after closing or the moment "Sol Price and Robert Price and their affiliates in the aggregate cease to beneficially own at least two million shares" (charitable trusts included) | P1S01 | Medium — the clause is the *dissolution* of the family's governance, written in 1994 about a 1993 agreement |
+| Workforce, at the FY1994 filing | ~52,000 employees about 50% part-time (P1S02, `(PB)`); "All remaining hourly Price employees and all employees of Costco are non-union" | P1S01/P1S02 | Medium |
+| Union coverage | Substantially all of Price's ~11,000 hourly employees in CA, CT, MD, MA, NJ, NY and one Price Club warehouse in Virginia are represented by the International Brotherhood of Teamsters | P1S01/P1S02 | Medium — **and note the asymmetry it proves: the union line runs through the Price leg only, so leg C's 1983-93 labour state is separably knowable and is UNKNOWN here** |
+| Brand architecture at the FY1994 filing | clubs operated "under the 'Price Club' and 'Costco Wholesale' names"; "Members can utilize their memberships at any Price Club or Costco Wholesale location" `(PB)` | P1S01/P1S02 | Medium |
+| 1989 dividend event inside the window | "In 1989 Price paid to its shareholders a one-time special cash dividend of $74,621 or $1.50 per share of Price Common Stock" | P1S01 footnote (a) to Selected Consolidated Financial Data | Medium (one lineage) — but it is a **predecessor-specific** cash fact, one of only two held here |
+| 1989 accounting conformity | stockholders' equity reflects a $20,100 thousand reduction of retained earnings "related to conforming Price's accounting for income tax method to Costco's accounting for income tax method as of fiscal 1989" | P1S01 footnote (b) | Medium |
+
+### B.3 The name collision, and what it forecloses
+
+The harvest index carried three Internet Archive items titled **"Price Company Ltd"** for 1976, 1977 and
+1978, each stamped `TIER1_CANDIDATE` at the time of the fleet run — exactly the class of error RD-124 was
+written to catch. Two of the three are on disk in this company's own `sources/periodicals/`, and this pass
+read them. `Pric0158_1977_djvu.txt` opens "ANNUAL REPORT 1977 PRICE … LA COMPAGNIE PRICE LIMITEE ANNUAL
+REPORT 1977", with a Bill 101 French-name notice, a "PRICE HIGHLIGHTS" table in thousands of dollars
+("Sales, less delivery expenses $383,148", "Depreciation and depletion 20,835"), and running text about
+kraft, papers, refiner mills and **Abitibi-Price**. `grep` over both held layers for `price club`,
+`warehouse club`, `membership`: **0 / 0 / 0 in each file.** This is a Quebec pulp-and-paper issuer whose
+English name happens to be the same three words as leg P's. Consequences, both of them bad and both of them
+accepted: (i) the only 1976-1978 corporate reports physically present in this company's source archive
+**prove nothing about either leg**, and any later pass that reaches for "the Price Company annual report
+1977" as evidence of the warehouse concept is citing a paper mill; (ii) the third item, `Pric0158_1976`, is
+listed in the same index but is **not** held here, so it remains UNTRIED, and it is the same publisher's run —
+its value is as a lead to *Canadian* corporate-print practice, not to San Diego in 1976. Recorded as K04 so
+the classification error itself survives into the registers.
+
+### B.4 Coda: what this state was, before anyone knew what it became
+
+Read as of 1993-10-21 and from the documents' own words, the entity closing Stage 1 was not a winner
+confirming a thesis; it was **two chains of unequal age agreeing to file as one**, holding two
+headquarters, two board blocs defined by which side appointed them, one unionised half-workforce, two
+Nasdaq symbols about to become one, a family whose economic interest was being written down to a two-million-
+share floor, and a combined comparable-sales line already pointing downwards for two consecutive years.
+Nothing in the held bytes lets this volume say the merger was a response to that decline — the filings give
+no reason for the combination at all beyond mechanics — so the mechanism for *why 1993* is recorded as
+**UNKNOWN** (P1G05), with the decline stated next to it as context and not as cause. **Confidence: Medium**
+for the structural facts, **UNKNOWN** for their motivation.
+
+---
+
+## C — Original problem
+
+STATUS: WRITTEN 2026-09-26
+
+**§7 adaptation note.** For a retail chain the standard "original problem" frame — an unmet job a founder
+perceived — has to be answered from two things: what the incumbent structure actually charged and refused,
+and what the concept's own economics claim to fix. This corpus holds the second in the registrant's words
+and almost none of the first, so §C is written as *the problem as the company later described it* plus an
+explicit statement of what nobody in this corpus ever checked.
+
+### C.1 The structure the concept was set against
+
+| Variable | Value | Source | Confidence |
+|---|---|---|---|
+| The incumbents named at the concept's start | "When Price pioneered the membership warehouse club concept in 1976, the dominant companies selling comparable lines of merchandise were **department stores, grocery stores and traditional wholesalers**." | P1S01 | Medium (retrospective, one lineage; verbatim reprinted in P1S03 and P1S04 with "The Price Company" substituted for "Price") |
+| The claim about the buyer's alternative | the concept promises "very low prices on a limited selection of nationally branded and selected private label products in a wide range of merchandise categories", which "will produce rapid inventory turnover and high sales volumes" | P1S02, GENERAL | Medium (one lineage) — **this is a statement of the model, not a measurement of 1976 prices** |
+| The margin claim | the model "enables PriceCostco to operate profitably at **significantly lower gross margins** than traditional wholesalers, discount retailers and supermarkets" | P1S02 | Medium. Filed gross margin for the whole combined decade never exceeds 9.3% of net sales (P1S01), so the claim is at least internally consistent — but the comparator's margins are **not** in this corpus, and no held document gives a 1976 wholesale or grocery margin to compare against |
+| Legal face of the incumbent problem | "It is the policy of the Company to sell at lower than manufacturers' suggested retail prices. **Some manufacturers attempt to maintain the resale price of their products by refusing to sell to the Company** or to other purchasers that do not adhere to suggested retail prices." | P1S01, REGULATION | Medium — the closest thing held to an in-period hostile act against the concept, though printed in 1994 about a continuing regime |
+| Price floors imposed on the company | certain state laws require minimum markups on specific goods such as tobacco and alcoholic beverages and prohibit selling them at different prices in one location | P1S01 | Medium |
+| Whether the 1976 or 1983 opening was a response to any named difficulty | **UNKNOWN — no held document states a motive for either opening** | census of P1S01-P1S04 | UNKNOWN (see P1G05) |
+
+### C.2 What the problem looked like from the buyer's side, and what cannot be recovered
+
+The customer this format courted is legible from its own eligibility rules (§F.1): a **small business,
+licensed professional or institutional employee**, not a walk-in household. Read against §C.1's list of
+incumbents, the shape of the advertised problem is that a licensed buyer who wanted national brands in
+multiple-pack quantities dealt either with a wholesaler's markup or a retailer's shelf price, and the
+warehouse offered a third structure: pay an annual fee, buy at the operator's thin margin, take delivery
+off a pallet. **Mechanism: named by the registrant. Evidence that it was true in 1976 or 1983: none in this
+corpus.** No held document carries a 1976-1983 price comparison, a wholesale quote, a buying-office
+practice, a trade publication's account of what Price Club charged, or a single customer statement — the
+periodical families that would hold those are recorded UNANSWERED / UNREAD in §Untried, and the one
+in-window municipal document (§D.2) is about traffic and earthworks, not prices. **Alternative explanation
+this volume will not exclude:** the "traditional wholesalers" the filing names as the 1976 incumbents may
+have been serving their own customers adequately at prices this format beat only by shifting the source of
+profit from merchandise margin to membership fee — an inversion the filings themselves come close to
+describing (§F.3) and which no held document dates to 1976 at all. **Confidence: Low for any claim about
+what problem was actually unsolved before 1976; Medium for the registrant's later account of what it
+claimed to solve.**
+
+---
+
+## D — First experiment
+
+STATUS: WRITTEN 2026-09-26
+
+### D.1 The two candidate first experiments, and the exact size of the record for each
+
+| Variable | Value | Source | Confidence |
+|---|---|---|---|
+| Leg P first experiment | a warehouse club opened 1976 in San Diego, California. **Nothing further is held: no street, no building, no square footage, no opening date, no first-day takings, no inventory, no first customer, no amount invested.** | P1S02/P1S03/P1S04 (one sentence, four printings) | Medium for year+city+entity, **UNKNOWN for the event itself** |
+| Leg C first experiment | Costco Wholesale Corporation "began operations in 1983 in Seattle, Washington with a similar membership warehouse concept". Same list of absences. | P1S02/P1S03/P1S04 | Medium for year+city+entity, UNKNOWN for the event |
+| Nearest dated operational fact for leg C | an officer "President and Chief Operating Officer of Costco since its inception"; another "elected Chief Executive Officer in August 1988"; (inherited from the probe, not re-verified in these bytes) a VP Operations joining "in May 1983" and a CFO "since January 1985" | P1S01, officer biographies; the last two per `research/A_chronology_feasibility.md` §Family a | Medium; the two inherited dates are marked **inherited-uncorroborated** in P1S01.notes |
+| Earliest dated *unit-creation* process held anywhere in this corpus | **1989-08-25** — application for environmental evaluation filed for a development proposal at Tenth and Harrison Streets, San Francisco | P1S08 | **High — and it is the only such record held, in-window and independent of the company** |
+| Whether 1989 San Francisco was anywhere near the first | No. The combined filed estate already stood at 104 warehouses at FY1989 period-end, so the corpus's earliest forensic unit record post-dates the start of leg C by six years and the opening of leg P by thirteen. | P1S01 warehouse table × P1S08 | High |
+
+### D.2 The one experiment this corpus can actually reconstruct — a warehouse going through a city
+
+Read as a specimen of the format's first contact with a market, the Final EIR is worth more than its page
+count suggests, because nobody writing it had an outcome to protect.
+
+| Variable | Value | Source | Confidence |
+|---|---|---|---|
+| Applicant / sponsor | Costco Wholesale (project referred to as "the Costco Warehouse Project"); case no. **89.469E** | P1S08 | **High** — third-party municipal record, in-window, independent of the lineage of §Header |
+| Site | Tenth and Harrison Streets, San Francisco (South of Market / Show Place Square district) | P1S08 | High |
+| Retail component | **118,500 sq ft** of discount retail "of a type which sometimes is referred to as **'membership wholesale'** or **'big box retail'**"; the transportation analysis had been run when the retail component "contained 120,000 sq. ft. of retail space" | P1S08, PROJECT IMPACTS / Travel Demand | High for the text; the two areas are a 1.25% difference the report itself calls immaterial to its conclusions (see K07) |
+| Employment offered | "about **170 full and part time jobs**"; "The proposed warehouse-type retail use would provide entry level employment opportunities for unskilled and semi-skilled workers" | P1S08, MASTER PLAN POLICIES | High |
+| Housing component of the same scheme | the project "would provide **60 to 80 low-income, affordable dwelling units**" | P1S08 | High |
+| Approvals path | Conditional Use authorization required, with a public hearing before the City Planning Commission under §303 of the Planning Code; "An application for a Site Permit for the project **has not been filed to date**"; no permits may issue before the Final EIR is certified | P1S08 | High |
+| Procedural dates | application 1989-08-25 · EIR determined required 1990-09-20 on an Initial Study · Draft EIR published **1991-12-12**, hearing **1992-01-16**, comment close **1992-01-23** · Final EIR certified **1992-04-16** | P1S08 title page and history paragraph | High — the whole sequence sits inside Stage 1 |
+| Ground studies commissioned for the site | geotechnical and foundation investigations (June 1990), soil sampling and analysis (September 1991) | P1S08 reference list | High |
+| Traffic posture | "Costco maintains…" — the sentence continues into the travel-demand analysis; **this pass read the run-up to it and not the whole passage**, so it is registered as a pointer only (P1S08.notes) | P1S08 | Medium (fragment read) |
+
+**Coda, with its mechanism named.** What this specimen demonstrates is that by 1989-92 the format entering a
+market was: a **~120,000 sq ft single-volume retail box**, carried on a **~170-person** workforce skewing to
+entry-level, proposed **inside an industrial/retail transition district rather than a prime site** — exactly
+the real-estate posture the registrant later described as a design feature — and **bundled with housing to
+obtain a conditional use** in a city whose 1986 charter-era Priority Policies explicitly protected
+"neighborhood-serving retail uses" and "industrial and service land uses". **What it does not demonstrate:**
+that this project was built, that its economics worked, or that San Francisco was representative; the held
+bytes stop at certification and record no permit. **Alternative explanation available from the same bytes:**
+the size and job count are what a *distribution-adjacent* use would look like to a 1990s planning office, so
+the ~170 figure may reflect a small-format urban unit rather than the chain's typical unit — a caution the
+registrant's own "averages approximately 125,000 square feet" (`(PB)`, P1S02) partly answers and wholly fails
+to date. **Confidence: High for every printed value, Low for any inference from this unit to the estate.**
+
+### D.3 What the "first experiment" verdict is, honestly
+
+EMPTY, not UNANSWERED, for the *act* of either opening: the corpus contains no document of any class — no
+trade periodical, no local newspaper, no lease, no photograph, no membership card, no auction ephemeron —
+recording either 1976 or 1983 as an event. UNTRIED for the routes that might still hold one (family (c)
+periodical text layers whose existence with per-issue `_djvu.txt` was proven by the probe but never read;
+chronicling_america, which the fleet harvester could not reach at all: both its `costco` queries are logged
+`UNANSWERED … host halted`; family (b) on an Internet Archive outage; family (e) never attempted). A 500 KB
+Discount Store News 1983 layer with an OCR text layer exists in the world and is not in this archive; that
+is the single highest-value unfilled fact-space on this company, and it is stated here rather than in §S
+because §S belongs to a later part.
+
+---
+
+## E — Product reconstruction
+
+STATUS: WRITTEN 2026-09-26
+
+**§7 adaptation note.** "Product" here is a store, not an artefact with a version history, so this section
+reconstructs the **unit and its operating mechanics**. Where the standard frame wanted a build log, the
+retail equivalent is a spec sheet, and the honest headline is that the spec sheet is post-window: every
+number in E.1 comes from filings dated 1994-1997 describing an in-window *mechanism* with a `(PB)` *value*.
+
+### E.1 The unit, as the operator described it
+
+| Variable | Value | Source | Confidence |
+|---|---|---|---|
+| Typical format size | "PriceCostco's typical warehouse format averages approximately **125,000 square feet**" — `(PB)` value (FY1995 filing) | P1S02 | Medium (one lineage). The independent in-window figure is 118,500-120,000 sq ft for one SF unit (P1S08), which agrees in order of magnitude from an unrelated source |
+| Site doctrine | warehouses "need not be located on prime commercial real estate sites or have elaborate facilities", because "shoppers are attracted principally by the availability of low prices on brand name and selected private label goods" | P1S02 | Medium |
+| Building doctrine | "no-frills, self-service warehouse facilities"; "Floor plans are designed for economy and efficiency in the use of selling space, in the handling of merchandise and in the control of inventory" | P1S02 | Medium |
+| Assortment doctrine | "a limited selection of nationally branded and selected private label products in a wide range of merchandise categories", "often in case, carton or multiple-pack quantities, at attractively low prices" | P1S02 | Medium |
+| SKU count, category weights, private-label share, price points | **UNKNOWN at every date in the window** — nothing held states an item count | — | UNKNOWN (P1G03) |
+| Procurement structure | "buys virtually all of its merchandise **directly from manufacturers** for shipment either directly to PriceCostco's selling warehouses or to a consolidation point where various shipments are combined"; the company maintains "regional cross-docking facilities for the consolidation and distribution of certain shipments to the warehouses" | P1S02 / P1S01 | Medium |
+| Working-capital mechanism | because of high volume and rapid turnover the company "generally has the opportunity to receive cash from the sale of a substantial portion of its inventory **at mature warehouse operations** before it is required to pay all its merchandise vendors, even though PriceCostco takes advantage of early payment terms to obtain payment discounts"; as sales rise, "a greater percentage of the inventory is financed through payment terms provided by vendors rather than by working capital" | P1S02 | Medium — and it is the only self-funding mechanism named anywhere in this corpus |
+| Loss control | by "strictly controlling the entrances and exits of its warehouses and by limiting membership to selected groups and businesses", inventory losses are held "to **less than one-half of one percent of net sales**, well below those of typical discount retail operations" | P1S02 | Medium; the comparator is asserted, not sourced |
+| Ancillary businesses inside the unit | pharmacy, one-hour photo, print shop, optical and food services, which "carry a higher than average gross margin"; plus a manufacturing and ancillary-business EVP and "various processing and packaging facilities" | P1S01 MD&A + officer titles | Medium — the **growth** of gross margin FY1992→FY1993 (9.08%→9.26%) is attributed in part to these, so the unit's margin was already partly non-merchandise |
+| Accounting of the unit year | 52/53-week fiscal year ending the Sunday nearest end of August; "no material seasonal impact … except an increased level of sales and earnings during the Christmas holiday season"; inventory at LIFO | P1S01/P1S02 | Medium |
+| Real-estate posture as at the FY1994 filing | owned-land-and-building vs leased split published **by state and by brand** (e.g. California: Price 40, Costco 42, total 82 across both tenure types); eight Mexico warehouses run "through a 50%-owned joint venture" and **not consolidated**, "one opened in fiscal 1992, two opened in fiscal 1993, five opened in fiscal 1994" | P1S01 Item 2 | Medium. The Mexico row is the only held statement that puts *in-window* units outside the filed series — the 200 at FY1993 period-end excludes them (P1Q14) |
+
+### E.2 What the product was not, and cannot be shown to have been
+
+Nothing held shows the 1976 or 1983 unit resembling the 1995 spec in more than name. The one in-window
+description of the product by a non-company writer calls it **"membership wholesale"** and **"big box
+retail"** — a genre label, current in 1991, applied by a planning office, and consistent with a format that
+had already spread to ~800 clubs across the U.S. and Canada by FY1994 (P1S01, COMPETITION). Whether the
+1976 unit sold hardware, groceries, or a mix; whether it charged an entry fee from the first week; whether
+leg C copied leg P or both copied a third idea — **all UNKNOWN on this corpus**, and all answerable only by
+the unread periodical layers named in §Untried. The two facts closest to product history that the filings
+do give are negative-shaped and should be read as such: manufacturers refusing to sell to the company, and
+state minimum-markup laws the company had to observe, which means the * assortment* the model could offer
+was partly set by which suppliers it could force a price through against.
+
+---
+
+## F — Customer
+
+STATUS: WRITTEN 2026-09-26
+
+**§7 adaptation note.** For a membership warehouse the customer is a **member**, and the member is
+simultaneously a *customer* and a *revenue line*: the fee is booked as revenue, so "customer" and "money"
+are the same fact viewed twice. The standard consumer/revenue split does not apply, and this section is
+written as eligibility → terms → count → what the count is worth, with every `(PB)` value kept apart from
+the in-window evidence of the same mechanism.
+
+### F.1 Who was allowed to be a customer
+
+| Variable | Value | Source | Confidence |
+|---|---|---|---|
+| Classes of member | two primary types: **Business** and **Gold Star (individual)** | P1S02, MEMBERSHIP POLICY | Medium (one lineage; `(PB)` printing) |
+| Business eligibility | "Businesses, including individuals with a **business license, retail sales license or other evidence of business existence**" | P1S02 | Medium |
+| Individual eligibility | "employees of federal, state and local governments, financial institutions, corporations, utility and transportation companies, public and private educational institutions, and other selected organizations" | P1S02 | Medium — note the architecture: an individual is admitted **through an employer**, so the customer base was sold to organisations before it was sold to households |
+| Cross-brand acceptance | "Members can utilize their memberships at any **Price Club or Costco Wholesale** location" | P1S02 | Medium — this is the merger's customer-side mechanism stated plainly, and it is `(PB)` |
+| Whether the 1976 and 1983 openings used these same classes | **UNKNOWN**; no in-window document describes eligibility at either opening | — | UNKNOWN (P1G04) |
+
+### F.2 Terms offered
+
+| Variable | Value | Source | Confidence |
+|---|---|---|---|
+| Business primary card, annual fee | **$30**; additional cards **$15** each | P1S02 (`(PB)` fee levels, printed as "generally pay") | Medium for the 1995 level; **not** a Stage-1 value |
+| Individual (Gold Star) annual fee | **$35**, "which includes a spouse card" | P1S02 (`(PB)`) | Medium for 1995 |
+| The only in-window fee fact held | "annualized effect of **membership fee increases in certain markets implemented in fiscal 1992**" | P1S01 MD&A | Medium — a pricing decision inside the window, with no amount, no market list and no date stated anywhere (P1G06) |
+| Credit and payment terms | "Losses associated with dishonored checks have also been minimal, since individual memberships are limited primarily to members of qualifying groups, and **bank information from business members is verified prior to establishing a check purchase limit**. Memberships are invalidated at the point of sale for those members who have issued dishonored checks" | P1S02 | Medium |
+| Stated purpose of the fee structure | "designed to reinforce customer loyalty and provide a **continuing source of membership fee revenue**" | P1S02 | Medium |
+| Renewal rate, churn, member acquisition cost, marketing channels | **UNKNOWN** at every date; the corpus holds no renewal percentage | — | UNKNOWN (P1G04) |
+
+### F.3 How many customers, and what one customer was worth
+
+| Variable | Value | Source | Confidence |
+|---|---|---|---|
+| Membership counts, at the earliest date any held document gives | "approximately **3.3 million Business memberships** and approximately **6.7 million Gold Star memberships**" as of **1995-09-03** (FY1995 period-end) — `(PB)` | P1S02 | Medium. **No member count exists in this corpus for any date inside Stage 1** |
+| Fee revenue share of net sales, in-window | FY1992 **2.00%** ($276,998k) → FY1993 **2.04%** ($309,129k), both printed; FY1994 derived at **1.98%** ($319,732k / $16,160,911k) | P1S01 | Medium for printed; DERIVED for FY1994 (P1Q13) |
+| Fee revenue per membership, at the one date both are held | ~**$34.1** = $341,360k ÷ (3.3M + 6.7M) at FY1995 — `(PB)`, and the numerator is "membership fees **and other**", so it overstates the pure fee | P1S02, DERIVED (P1Q16) | Low-Medium: arithmetic shown, both inputs are company self-reports of one lineage |
+| Customers as a growth driver, in the company's own attribution | FY1993 fee-revenue growth of 12% attributed to "a continued strong membership base at existing warehouses, membership signups at the thirty-seven new warehouses" and the fiscal-1992 fee increases | P1S01 | Medium — **the only in-window causal statement about customers held anywhere in this corpus** |
+| What the customer was being protected against | shrink: the membership gate is described as a *loss-control* device as much as a pricing device (E.1) | P1S02 | Medium |
+
+**Coda.** The customer relationship this record shows is unusual in one respect that matters for §K's later
+argument and that no summary of this company states: **the customer paid for the privilege of being sold to
+at cost, and the operator's merchandise margin was, by its own account, too thin to fund the business.**
+That is an inversion of the retail default, and the filed series shows it running at a steady ~2% of sales
+for the last two in-window years — which also means that on this corpus the fee was never, at any date the
+numbers reach, a majority of profit; it is a thin, recurring, loyalty-adjacent layer on top of a 9% margin
+business. **Mechanism: named in the filing. Alternative explanation this volume keeps live:** the ~2% fee
+layer may be better read as the *by-product* of a shrink-control device that happened to be monetised,
+since the same filing that prices the fee prices the loss-prevention benefit of the gate in the same
+passage; the corpus holds no evidence of which came first, and the whole ordering of §K's "who was the
+customer for" question is therefore **UNKNOWN** rather than settled. **Confidence: Medium for the
+mechanism, Low for any claim about its origin, and no claim at all is made about intent.**
+
+---
+
+## Claim records — part 1 (§Boundary, §A–§F)
+
+STATUS: WRITTEN 2026-09-26. Field set per the dispatch brief: Claim / Date / Source path / Source date /
+Tier / Class / Passage / Conf / Corroboration / Conflicts. **All source paths are relative to
+`founders_playbook/01_companies/company_013_costco/`. Every passage below was read out of bytes opened on
+this pass**, except the four records marked `INHERITED`, whose carrier is the probe dossier named in them.
+`Corroboration: 1 lineage (n printings)` is the honest form for this company: repetition inside the
+PriceCostco filing family is not independence (§3).
+
+### Boundary
+
+BD01 Claim: The registrant on CIK 909832 describes itself as having begun operations in 1976 in San Diego as The Price Company. — Date: 1976 (asserted), printed 1995-11-30 — Source path: `sources/sec/0000912057-95-010555_0000912057-95-010555.txt` (Item 1, l.169-173) — Source date: 1995-11-30 — Tier: 1 — Class: FACT (about the printing) / RETROSPECTIVE INTERPRETATION (about 1976) — Passage: "Price/Costco, Inc. (PriceCostco or the Company) began operations in 1976 in San Diego, California as The Price Company (Price), pioneering the membership warehouse concept." — Conf: Medium — Corroboration: 1 lineage (4 printings: P1S01, P1S02, P1S03, P1S04) — Conflicts: K01, K02
+BD02 Claim: PriceCostco was created as a merger vehicle in 1993 and did not exist in 1976 or 1983. — Date: 1993-10 — Source path: `sources/sec/0000912057-94-003945_0000912057-94-003945.txt` (l.174-179) — Source date: 1994-11-17 — Tier: 1 — Class: FACT — Passage: "PriceCostco was formed to effect the Merger. Pursuant to the Merger, Price and Costco each became a wholly owned subsidiary of PriceCostco." — Conf: Medium — Corroboration: 1 lineage (2 printings; the FY1995 filing words it as "was formed in October 1993 as a result of a merger") — Conflicts: K02, K06
+BD03 Claim: Because the merger was accounted for as a pooling of interests, all pre-1993 filed figures are restated as though the two chains had always been one. — Date: 1993-10-21 (act); restatement printed 1994-11-17 — Source path: `sources/sec/0000912057-94-003945_0000912057-94-003945.txt` (l.184-191) — Source date: 1994-11-17 — Tier: 1 — Class: FACT — Passage: "The Merger qualified as a pooling-of-interests for accounting and financial reporting purposes." — Conf: Medium — Corroboration: 1 lineage — Conflicts: K03
+BD04 Claim: Costco Wholesale Corporation began operations in 1983 in Seattle, Washington. — Date: 1983 — Source path: `sources/sec/0000912057-95-010555_0000912057-95-010555.txt` (l.172-173); same sentence in `…96-025246…txt` l.178 and `…97-003493…txt` l.181 — Source date: 1995-11-30 — Tier: 1 — Class: FACT (about the printing) / RETROSPECTIVE INTERPRETATION (about 1983) — Passage: "Costco Wholesale Corporation (Costco) began operations in 1983 in Seattle, Washington with a similar membership warehouse concept." — Conf: Medium — Corroboration: 1 lineage (3 printings) — Conflicts: None. **This record supersedes the probe's weaker reading** (`research/A_chronology_feasibility.md` §Boundaries: 1983 as a terminus ante quem only), and the disagreement is recorded here rather than silently adopted.
+BD05 Claim: The only held document generated inside Stage 1 that names the company is a San Francisco environmental review record about one proposed warehouse. — Date: 1989-08-25 → 1992-04-16 — Source path: `sources/periodicals/costcowholesalef1619sanf_djvu.txt` (title page l.9-16; history paragraph l.2703-2706) — Source date: 1992-04-16 — Tier: 1 — Class: FACT / CONTEMPORARY OBSERVATION — Passage: "Draft EIR Publication Date: December 12, 1991 … Final EIR Certification Date: April 16, 1992" — Conf: High — Corroboration: 1 independent origin (municipal; not the filing lineage) — Conflicts: None
+BD06 Claim: The annual reports physically held for 1977 and 1978 under the name Price Company Ltd belong to a Quebec paper company and not to leg P. — Date: 1977, 1978 — Source path: `sources/periodicals/Pric0158_1977_djvu.txt` (l.3-8 masthead; l.74/100/388 Abitibi-Price, papers, refiner) — Source date: 1977 — Tier: 1 (for what it is) — Class: FACT — Passage: "LA COMPAGNIE PRICE LIMITEE ANNUAL REPORT 1977" — Conf: High — Corroboration: 2 (grep over both held layers returns 0 hits for price club / warehouse club / membership) — Conflicts: K04
+BD07 Claim: The first filing existing on the registrant's CIK is a 10-Q filed 1994-01-05 for the period ended 1993-11-21, and it contains no origin-year text. — Date: 1994-01-05 — Source path: `sources/_index/submissions.csv` (row 1994-01-05,10-Q,0000912057-94-000012,1993-11-21) and `sources/sec/0000912057-94-000012/0000912057-94-000012.txt` (grep 1976|1983 → 0) — Source date: 1994-01-05 — Tier: 1 — Class: FACT — Passage: NO_VERBATIM_PASSAGE_RECORDED — Conf: High — Corroboration: 2 (index row plus the bytes themselves) — Conflicts: None
+
+### A — Executive state summary
+
+A01 Claim: At the last fiscal year-end inside Stage 1 the combined-restated estate stood at 200 warehouses at period-end. — Date: 1993-08-29 — Source path: `sources/sec/0000912057-94-003945_0000912057-94-003945.txt` (Selected Consolidated Financial Data, WAREHOUSES IN OPERATION, End of Year column 1993-08-29) — Source date: 1994-11-17 — Tier: 1 — Class: FACT (restated basis) — Passage: "WAREHOUSES IN OPERATION … End of Year … 221 200 170 140 119 104" — Conf: Medium — Corroboration: 1 lineage — Conflicts: K03
+A02 Claim: Combined-restated net sales for FY1993 were $15,154,685 thousand and membership fees and other revenue $309,129 thousand. — Date: FY ended 1993-08-29 — Source path: as A01 (operating data table plus MD&A) — Source date: 1994-11-17 — Tier: 1 — Class: FACT (restated basis) — Passage: "Net sales increased 10% to $15,154,685 in fiscal 1993 from $13,820,380 in fiscal 1992." — Conf: Medium — Corroboration: 1 lineage; the FY1995 10-K405 five-year table repeats both figures — Conflicts: None
+A03 Claim: Comparable-warehouse sales fell from a positive 6 percent annual rate in FY1992 to a negative 3 percent in FY1993. — Date: FY1992, FY1993 — Source path: as A01, MD&A — Source date: 1994-11-17 — Tier: 1 — Class: FACT (restated basis) — Passage: "trended downward in fiscal 1993 -- from a positive 6% annual rate during fiscal 1992, to a negative 3% annual rate during fiscal 1993." — Conf: Medium — Corroboration: 1 lineage — Conflicts: None
+A04 Claim: The company attributed the FY1993 comparable-sales decline partly to its own new units in existing markets. — Date: FY1993 — Source path: as A01, MD&A — Source date: 1994-11-17 — Tier: 1 — Class: RETROSPECTIVE INTERPRETATION (company self-explanation) — Passage: "the effect of sales cannibalization by opening additional warehouses in existing markets" — Conf: Medium — Corroboration: 1 lineage — Conflicts: None
+A05 Claim: Immediately before the boundary the two chains were separately listed on Nasdaq under PCLB and COST and jointly headquartered in Kirkland, Washington and San Diego, California. — Date: 1993-10 — Source path: `sources/sec/0000912057-94-003945_0000912057-94-003945.txt` (Item 2; market paragraph per the probe's reading at L985-989) — Source date: 1994-11-17 — Tier: 1 — Class: FACT — Passage: "The Company's home offices and headquarters are located in Kirkland, Washington and San Diego, California" — Conf: Medium — Corroboration: 1 lineage; the symbols sentence is **INHERITED** from `research/A_chronology_feasibility.md` §Entity question and was not re-read in these bytes on this pass — Conflicts: None
+A06 Claim: Subtracting FY1985 openings from the printed FY1985 beginning count places eight combined warehouses at about September 1984, the deepest quantitative reach of the corpus into the origin. — Date: c. 1984-09 — Source path: as A01 (Beginning of year 22; Opened 14) — Source date: 1994-11-17 — Tier: 1 — Class: ESTIMATE / DERIVED — Passage: "Beginning of year … 77 47 36 22" — Conf: Low — Corroboration: 1 lineage — Conflicts: K03. Arithmetic: 22 − 14 = 8; printed nowhere; **anachronistic by construction** (a restated combined figure projected back past leg C's own filed beginning).
+A07 Claim: No document generated between 1975 and 1993 by either retail leg is held anywhere in this company's source archive. — Date: 1975-01-01 → 1993-12-31 — Source path: census of all 48 files under `sources/` — Source date: 2026-09-26 — Tier: n/a — Class: FACT (about this corpus only) — Passage: NO_VERBATIM_PASSAGE_RECORDED — Conf: High — Corroboration: 1 (this pass's enumeration) — Conflicts: None. Per §14's silence rule this travels as a corpus perimeter, never as an absence in the world.
+
+### B — Founder / company state
+
+B01 Claim: James D. Sinegal is called a co-founder of Costco by the merged registrant's own filings, in four successive years. — Date: 1994-11-17 first printing — Source path: `sources/sec/0000912057-94-003945_0000912057-94-003945.txt` (l.878-882) and `…95-010555…txt` (l.589-595) — Source date: 1994-11-17 — Tier: 1 — Class: FACT (about the naming) — Passage: "Mr. Sinegal is a co-founder of Costco and has been a director of Costco since its inception." — Conf: Medium — Corroboration: 1 lineage (4 printings) — Conflicts: None
+B02 Claim: Sinegal held operating command of leg C from its beginning and took the chief-executive title only in August 1988. — Date: 1983 → 1988-08 — Source path: `sources/sec/0000912057-94-003945_0000912057-94-003945.txt` (l.878-880) — Source date: 1994-11-17 — Tier: 1 — Class: FACT (restated basis) / RETROSPECTIVE — Passage: "He was President and Chief Operating Officer of Costco since its inception and was elected Chief Executive Officer in August 1988." — Conf: Medium — Corroboration: 1 lineage — Conflicts: None
+B03 Claim: Jeffrey H. Brotman is called a founder of Costco in the FY1994 filing and a co-founder in the FY1995 filing. — Date: 1994-11-17; 1995-11-30 — Source path: `…94-003945…txt` l.884-887; `…95-010555…txt` l.600-604 — Source date: 1994-11-17 — Tier: 1 — Class: FACT (about the wording) — Passage: "He is a founder of Costco and a number of other specialty retail chains." — Conf: Medium — Corroboration: 1 lineage — Conflicts: K06
+B04 Claim: No held registrant document attributes the founding of the 1976 leg to any named person. — Date: 1976 (event); 1994-1997 (documents) — Source path: census of P1S01-P1S04 for founded/founder/founded in — Source date: 2026-09-26 — Tier: 1 — Class: FACT (about this corpus) — Passage: NO_VERBATIM_PASSAGE_RECORDED — Conf: High — Corroboration: 4 documents, 1 lineage — Conflicts: None. The absence is the finding; it is not a claim that nobody was credited outside EDGAR.
+B05 Claim: The only held source naming individuals as founders of the 1976 leg is a 2013 academic textbook reached as a Google Books snippet, and it gives 1975. — Date: 2013 (publication) — Source path: `founders_playbook/00_universe/harvest/candidates.csv` (row costco/google_books/StY5DQAAQBAJ, matched page PA372) — Source date: 2026-09-26 (harvest retrieval) — Tier: 3 — Class: RETROSPECTIVE INTERPRETATION — Passage: "Price Club Warehouse was opened in San Diego in 1975 by Sol Price, Robert Price (Sol's son), Rick Libenson, and" — Conf: Low — Corroboration: 0 independent — Conflicts: K01. **Snippet-level only (~250 characters); the volume text was not obtained**, per the same index row's own warning.
+B06 Claim: Robert E. Price is placed at the head of leg P from 1976 in the language of office, never of founding. — Date: 1976 → 1990-12 — Source path: `…94-003945…txt` l.873-876 — Source date: 1994-11-17 — Tier: 1 — Class: FACT — Passage: "He was Chief Executive Officer and a director of Price since 1976 … Mr. Price was President of Price from 1976 until December 1990." — Conf: Medium — Corroboration: 1 lineage — Conflicts: K01
+B07 Claim: The merged company's proxy identifies Sol Price as Robert Price's father and discloses related-party aircraft transactions running across the boundary. — Date: FY1994 disclosure; purchase 1993-10-25 — Source path: `sources/sec/0000950123-94-002087_0000950123-94-002087.txt` (l.940-950, paragraph read whole) — Source date: 1994-12-23 — Tier: 1 — Class: FACT — Passage: "the Company periodically rented aircraft for business purposes from a corporation that is wholly owned by Sol Price, the father of Robert Price, and from a company which leases aircraft from Sol Price." — Conf: Medium — Corroboration: 1 (independent of the 10-K lineage in form, same registrant in substance) — Conflicts: None. Note: the 1993-10-25 purchase date is **four days after** this stage's adopted close.
+B08 Claim: The Price family's board representation was contractually tied to a two-million-share holding floor. — Date: agreement dated 1994-07-28 (`(PB)`), describing a 1993 settlement — Source path: `…94-003945…txt` l.615-624 — Source date: 1994-11-17 — Tier: 1 — Class: FACT — Passage: "Sol Price and Robert Price and their affiliates in the aggregate cease to beneficially own at least two million shares of PriceCostco Common Stock" — Conf: Medium — Corroboration: 1 lineage — Conflicts: None
+B09 Claim: Union coverage at the boundary ran through the Price leg only, leaving leg C's labour state unattested. — Date: FY1994/FY1995 — Source path: `…95-010555…txt` (LABOR, l.600 area after the officer list) — Source date: 1995-11-30 — Tier: 1 — Class: FACT — Passage: "All remaining hourly Price employees and all employees of Costco are non-union." — Conf: Medium — Corroboration: 1 lineage — Conflicts: None
+
+### C — Original problem
+
+C01 Claim: At the concept's start the comparably-merchandised trade was held by department stores, grocery stores and traditional wholesalers. — Date: 1976 (asserted), printed 1994-11-17 — Source path: `…94-003945…txt` l.398-401 — Source date: 1994-11-17 — Tier: 1 — Class: RETROSPECTIVE INTERPRETATION — Passage: "the dominant companies selling comparable lines of merchandise were department stores, grocery stores and traditional wholesalers." — Conf: Medium — Corroboration: 1 lineage (3 printings) — Conflicts: K01
+C02 Claim: The model's stated mechanism was turnover plus vendor-funded inventory, allowing profit at materially lower merchandise margins than wholesalers, discounters and supermarkets. — Date: printed 1995-11-30 about a continuing practice — Source path: `…95-010555…txt` (GENERAL and the turnover paragraphs, l.203-226) — Source date: 1995-11-30 — Tier: 1 — Class: RETROSPECTIVE INTERPRETATION / company self-description — Passage: "enables PriceCostco to operate profitably at significantly lower gross margins than traditional wholesalers, discount retailers and supermarkets." — Conf: Medium — Corroboration: 1 lineage — Conflicts: None. The comparator margins are **absent from this corpus**, so the claim is untested, not confirmed.
+C03 Claim: Manufacturers retaliated against the below-list-price policy by refusing to sell to the company. — Date: printed 1994-11-17 about a continuing regime — Source path: `…94-003945…txt` (REGULATION) — Source date: 1994-11-17 — Tier: 1 — Class: FACT (as the company characterises it; it adds "To date, the Company believes that it has not been materially affected") — Passage: "Some manufacturers attempt to maintain the resale price of their products by refusing to sell to the Company or to other purchasers that do not adhere to suggested retail prices." — Conf: Medium — Corroboration: 1 lineage — Conflicts: None
+C04 Claim: No held document states why either chain was started. — Date: 1976 and 1983 — Source path: census of P1S01-P1S04 — Source date: 2026-09-26 — Tier: 1 — Class: UNKNOWN — Passage: NO_VERBATIM_PASSAGE_RECORDED — Conf: UNKNOWN — Corroboration: 0 — Conflicts: None
+
+### D — First experiment
+
+D01 Claim: The corpus's earliest dated unit-creation record anywhere in this company's archive is an 1989 application for a Costco warehouse at Tenth and Harrison Streets, San Francisco. — Date: 1989-08-25 — Source path: `sources/periodicals/costcowholesalef1619sanf_djvu.txt` l.2703-2705 — Source date: 1992-04-16 — Tier: 1 — Class: FACT / CONTEMPORARY OBSERVATION — Passage: "An application for environmental evaluation for a development proposal on the site was filed on August 25, 1989." — Conf: High — Corroboration: 1 independent origin (municipal) — Conflicts: None
+D02 Claim: The proposed retail component was 118,500 square feet, described by the city in 1991 as membership wholesale or big box retail. — Date: 1991-12-12 (draft publication) — Source path: as D01, l.3331-3336 — Source date: 1992-04-16 — Tier: 1 — Class: FACT — Passage: "1 18,500 sq. ft. of discount retail of a type which sometimes is referred to as membership wholesale or big box retail." — Conf: High — Corroboration: 2 (the 120,000 sq ft figure in the same paragraph is the earlier analysis basis, not an independent source) — Conflicts: K07
+D03 Claim: The unit was expected to employ about 170 people, mostly entry level, and the scheme bundled 60 to 80 affordable dwelling units to clear a conditional-use hearing. — Date: 1991-12-12 — Source path: as D01, l.1460-1478 — Source date: 1992-04-16 — Tier: 1 — Class: FACT — Passage: "The proposed warehouse-type retail use would provide entry level employment opportunities for unskilled and semi-skilled workers." — Conf: High — Corroboration: 1 independent origin — Conflicts: None
+D04 Claim: As far as the held bytes go, the project had not reached a filed site permit when the final report was certified. — Date: 1992-04-16 — Source path: as D01, l.1429-1431 — Source date: 1992-04-16 — Tier: 1 — Class: FACT (bounded: the record ends at certification) — Passage: "An application for a Site Permit for the project has not been filed to date." — Conf: High — Corroboration: 1 independent origin — Conflicts: None. Whether the warehouse was ever built is **UNTRIED**, not answered no.
+D05 Claim: The first experiment of either leg — store, address, date, capital, opening trade — is EMPTY on this corpus. — Date: 1976; 1983 — Source path: census of `sources/` — Source date: 2026-09-26 — Tier: n/a — Class: UNKNOWN — Passage: NO_VERBATIM_PASSAGE_RECORDED — Conf: UNKNOWN — Corroboration: 0 — Conflicts: None. Distinguished from UNANSWERED in §D.3: no request capable of reaching it has been left unanswered; the routes simply have not been run.
+
+### E — Product reconstruction
+
+E01 Claim: The operator's stated typical unit averaged about 125,000 square feet, on no-frills self-service warehouse premises not requiring prime sites. — Date: printed 1995-11-30 about FY1995 (`(PB)`) — Source path: `…95-010555…txt` l.227-234 — Source date: 1995-11-30 — Tier: 1 — Class: FACT (as a 1995 average) — Passage: "PriceCostco's typical warehouse format averages approximately 125,000 square feet." — Conf: Medium — Corroboration: 1 lineage; the 1991 municipal figure of 118,500 sq ft is an **independent** agreement in order of magnitude — Conflicts: None
+E02 Claim: Merchandise was bought direct from manufacturers and shipped to stores or to a consolidation point, with regional cross-docking. — Date: printed 1995-11-30; cross-dock printed 1994-11-17 — Source path: `…95-010555…txt` l.238-241; `…94-003945…txt` Item 2 — Source date: 1995-11-30 — Tier: 1 — Class: FACT — Passage: "buys virtually all of its merchandise directly from manufacturers for shipment either directly to PriceCostco's selling warehouses or to a consolidation point" — Conf: Medium — Corroboration: 1 lineage (2 printings) — Conflicts: None
+E03 Claim: Mature units turned inventory fast enough to collect cash before paying most vendors, and the proportion of vendor-funded inventory rose with sales. — Date: printed 1995-11-30 (`(PB)`) — Source path: `…95-010555…txt` l.217-226 — Source date: 1995-11-30 — Tier: 1 — Class: FACT (mechanism) / company self-description — Passage: "a greater percentage of the inventory is financed through payment terms provided by vendors rather than by working capital." — Conf: Medium — Corroboration: 1 lineage — Conflicts: None
+E04 Claim: The membership gate plus controlled entrances and exits held inventory loss below half a percent of net sales. — Date: printed 1995-11-30 (`(PB)`) — Source path: `…95-010555…txt` (l.246-252 area) — Source date: 1995-11-30 — Tier: 1 — Class: FACT (company assertion; no method given) — Passage: "PriceCostco has been able to limit inventory losses to less than one-half of one percent of net sales" — Conf: Medium — Corroboration: 1 lineage — Conflicts: None
+E05 Claim: Ancillary services inside the unit — pharmacy, one-hour photo, print shop, optical, food services — carried above-average margin and were cited as a reason margin improved in FY1993. — Date: FY1993 — Source path: `…94-003945…txt` MD&A gross-margin paragraph — Source date: 1994-11-17 — Tier: 1 — Class: FACT (company attribution) — Passage: "increased levels of sales from ancillary businesses (pharmacy, one-hour photo, print shop, optical and food services), which carry a higher than average gross margin" — Conf: Medium — Corroboration: 1 lineage — Conflicts: None
+E06 Claim: The eight Mexican clubs open by FY1994 were held through a 50-percent joint venture and were deliberately outside the filed warehouse series, including two opened inside Stage 1. — Date: FY1992-FY1994 openings — Source path: `…94-003945…txt` Item 2 footnote (a) — Source date: 1994-11-17 — Tier: 1 — Class: FACT — Passage: "These warehouses are not included in the number of warehouses open in any period because the joint venture is accounted for on the equity basis" — Conf: Medium — Corroboration: 1 lineage — Conflicts: K03. **This is the one held fact proving the estate in §A.4 is narrower than the company.**
+E07 Claim: Item counts, category mix, private-label share and price points for any date inside Stage 1 are UNKNOWN. — Date: 1976-1993 — Source path: census of `sources/` — Source date: 2026-09-26 — Tier: n/a — Class: UNKNOWN — Passage: NO_VERBATIM_PASSAGE_RECORDED — Conf: UNKNOWN — Corroboration: 0 — Conflicts: None
+
+### F — Customer
+
+F01 Claim: Membership was split between Business members, qualified by licence or evidence of business existence, and Gold Star individuals qualified through their employer's category. — Date: printed 1995-11-30 (`(PB)` rules as then applied) — Source path: `…95-010555…txt` MEMBERSHIP POLICY — Source date: 1995-11-30 — Tier: 1 — Class: FACT — Passage: "Businesses, including individuals with a business license, retail sales license or other evidence of business existence, may become Business members." — Conf: Medium — Corroboration: 1 lineage — Conflicts: None
+F02 Claim: Annual fees at the one date held were $30 for a Business primary card, $15 for each additional card, and $35 for an individual membership including a spouse card. — Date: printed 1995-11-30 (`(PB)`) — Source path: `…95-010555…txt` — Source date: 1995-11-30 — Tier: 1 — Class: FACT — Passage: "an annual membership fee of $30 for the primary membership card with additional membership cards available for an annual fee of $15." — Conf: Medium — Corroboration: 1 lineage — Conflicts: None. **None of these three values is a Stage-1 value**; the only in-window fee fact is F04.
+F03 Claim: Memberships were honoured across both brand names after the merger. — Date: printed 1995-11-30 (`(PB)`) — Source path: `…95-010555…txt` — Source date: 1995-11-30 — Tier: 1 — Class: FACT — Passage: "Members can utilize their memberships at any Price Club or Costco Wholesale location." — Conf: Medium — Corroboration: 1 lineage — Conflicts: None
+F04 Claim: Membership fee revenue held at about two percent of net sales across the last two in-window years, rising 12 percent in FY1993 on a growing member base, new-unit signups and fee increases taken in certain markets during fiscal 1992. — Date: FY1992-FY1993 — Source path: `…94-003945…txt` MD&A membership-fee paragraph — Source date: 1994-11-17 — Tier: 1 — Class: FACT (restated basis) — Passage: "increased 12% from $276,998, or 2.00% of net sales, in fiscal 1992 to $309,129, or 2.04% of net sales in fiscal 1993." — Conf: Medium — Corroboration: 1 lineage — Conflicts: None
+F05 Claim: The company treated dishonoured checks as a membership-validity problem rather than a credit problem, verifying bank information before setting a purchase limit. — Date: printed 1995-11-30 (`(PB)`) — Source path: `…95-010555…txt` l.252-258 — Source date: 1995-11-30 — Tier: 1 — Class: FACT (company assertion) — Passage: "Memberships are invalidated at the point of sale for those members who have issued dishonored checks to PriceCostco." — Conf: Medium — Corroboration: 1 lineage — Conflicts: None
+F06 Claim: Member counts for any date inside Stage 1 are UNKNOWN; the first count in the corpus is roughly ten million memberships at FY1995 period-end. — Date: 1995-09-03 (`(PB)`) — Source path: `…95-010555…txt` — Source date: 1995-11-30 — Tier: 1 — Class: FACT (for 1995) / UNKNOWN (for Stage 1) — Passage: "approximately 3.3 million Business memberships and approximately 6.7 million Gold Star memberships." — Conf: Medium — Corroboration: 1 lineage — Conflicts: None
+
+---
+
+
+## Volume 2 -- carried forward from `_parts/s1_p2.md` (sections G-U, claim records G-U, UNTRIED)
+
+## Volume 2 — sections G–U, claim records G–U, register rows, UNTRIED
+
+STATUS: WRITTEN 2026-09-29 (agent `costco-s1-p2`, second authoring pass; every passage below was read out of
+bytes opened on this pass, and every byte read is named with its path)
+
+### How to read this volume
+
+*One document split for the file cap (method §9.3). Section letters, claim IDs, metric IDs and conflict
+numbering run continuously across volumes: **§Header, §Boundary and §A–§F live in `_parts/s1_p1.md`;
+§G–§U, the claim records for G–U, the register emissions and the UNTRIED list live here.** Cross-references
+of the form `(Costco S1 §D.2, part_1)` name the volume. Nothing is renumbered to make a part look
+self-contained; part 1 is not edited by this pass.*
+
+**What part 1 established and this volume inherits unchanged** (read part 1 before relying on anything here):
+the adopted Stage-1 boundary is **two legs, leg P opened 1976 in San Diego and leg C opened 1983 in Seattle,
+closed 1993-10-21**; the corpus holds **zero documents written between 1975 and 1993 by either retail leg**;
+every positive statement about the origin years traces to **one corporate record in four printings** (FY1994
+10-K, FY1995 and FY1996 10-K405s, FY1997 10-K) and is therefore capped **Medium** and labelled
+`1 lineage (n printings)`; the single genuinely in-window, entity-bearing, non-company document is the
+**City and County of San Francisco Final Environmental Impact Report, case 89.469E** (register id P1S08); and
+the Internet Archive `Pric0158_1976/77/78` "Price Company Ltd" run is **La Compagnie Price Limitée, a Quebec
+paper-and-pulp issuer inside the Abitibi-Price group**, which proves nothing about either leg.
+
+**One boundary correction, made on held bytes and not silently.** Part 1 closed Stage 1 on the shareholder
+approvals of 1993-10-21 and left the effective moment open, writing at P1S01: *"Whether the effective time of
+the mergers fell on the 21st or the 22nd — the held text does not say"* (§R conflict K05, `residual_uncertainty`
+column). **The held text does say it, in two places part 1 did not open.** Item 5 of the same FY1994 10-K
+begins: *"In the Merger, which occurred on October 21, 1993, each share of common stock, par value $.10 per
+share, of Price … was exchanged for 2.13 shares of PriceCostco Common Stock"*
+(`sources/sec/0000912057-94-003945_0000912057-94-003945.txt`, l.978-981), and the Schedule 13D filed by an
+individual — not the company — recites: *"All shares held and the right to acquire shares … were received
+pursuant to the merger of Price/Costco, Inc., which was effective on October 21, 1993"*
+(`sources/sec/0000912057-94-004286_0000912057-94-004286.txt`, l.252-255). **The adopted close stands and is now
+better carried**; what changes is that the 21st is no longer merely the approval date but the date two documents
+give as the merger's occurrence and effectiveness. K05's residual is narrowed, not deleted: neither text states
+a clock time, and neither distinguishes approval from consummation from the filing of the certificate. Recorded
+at **K09** below.
+
+**Identity conventions for this volume (§13, read before citing).** Claim records continue part 1's
+section-keyed scheme: `G01…`, `H01…`, `I01…`, `J01…`, `KS01…`, `L01…`, `M01…`, `N01…`, `O01…`, `P01…`, `Q01…`,
+`S01…`, `T01…`. **§K's claim records are minted `KS01…`, not `K01…`, because the `K0n` namespace is already
+occupied by part 1's conflicts series (K01–K08); the two series would otherwise be indistinguishable in a
+register cell, and `Conflicts: K04` in a claim record must mean one thing only.** This is a collision the
+corpus should have named before any company used `K` twice; it is recorded here rather than fixed silently.
+Register rows minted by this pass use the part-2 prefix — `P2Sxx`, `P2Txx`, `P2Qxx`, `P2Dxx`, `P2Vxx`, `P2Xxx`,
+`P2Cxx`, `P2Gxx` — and are **dossier-local**, as part 1's `P1x` block is. Conflicts **continue part 1's series at
+K09** and do not restart. Anchors are minted in the **U.101 and upward** block, declared in full at §U.
+
+**Collision note the merge must honour (§14 rule 7 recovery form).** Two accessions are registered twice
+across the two volumes because part 1 registered them as pointers it never read and this pass read them:
+the **Schedule 13D of Sol Price** (`P1S07`, stamped `NAME-LEVEL-HIT-ONLY`, "NOT READ for values") is re-registered
+here as **`P2S01`**, and the **8-K of 1994-07-28** (`P1S05`, `NOT-READ-BY-THIS-PASS`, "POINTER ONLY") as
+**`P2S02`**. **These are the same documents, not additional sources.** The merge should fold each pair into one
+row or keep both with an explicit same-accession alias; under the §3 filing-lineage rule neither pair may be
+counted as a second independent origin, and no tier verdict, corroboration count or independence ledger in this
+corpus may move on account of them. Part 1's rows are not edited or deleted.
+
+**Basis and date conventions are part 1's, restated because §M and §S enforce them (§6).** Fiscal years are
+52/53-week years ending the Sunday nearest the end of August, and the year-ends printed in the held bytes are
+FY1985 1985-09-01 · FY1986 1986-08-31 · FY1987 1987-08-30 · FY1988 1988-08-28 · FY1989 1989-09-03 (53 weeks) ·
+FY1990 1990-09-02 · FY1991 1991-09-01 · FY1992 1992-08-30 · FY1993 1993-08-29 · FY1994 1994-08-28. Warehouse
+counts are **period-end**; "Opened" is **gross**; membership-fee revenue is a line called "membership fees **and
+other**"; gross margin is used only in the filing's own defined sense ("net sales minus merchandise costs"),
+on **LIFO**; every figure for a fiscal year before 1993 is **combined-restated**, not either chain's published
+number; the quarterly share-price table in Item 5 is on a **calendar-quarter** basis, which nothing else in the
+dossier is. `(PB)` marks a fact whose event date falls after 1993-10-21 and is used only to explain an
+in-window mechanism; it is never a Stage-1 fact. **A whitespace caution, learned four times this run and again
+here:** EDGAR `.txt` and IA OCR layers double-space inside sentences, so `annual membership`, `Price Club` and
+`$500,000 to $600,000` as single-space patterns return **zero hits on bytes that contain them**. Every count in
+this volume was taken with a flexible whitespace class, and every zero is stated with the pattern that produced
+it.
+
+---
+
+## G — Supply/host side: channels, and the first members as anyone outside the firm described them
+
+STATUS: WRITTEN 2026-09-29
+
+**§7 adaptation note.** The reference frame calls this section "Supply / host side" and the dispatch brief
+calls it "channels and first members". For a membership warehouse the two are one machine running in opposite
+directions: merchandise flows **in** through a buying channel whose whole purpose is to skip the wholesaler, and
+customers flow **in** through a recruitment channel whose whole purpose is to reach a qualified buyer through an
+organisation rather than a household. Both channels are described in the held bytes, and both are described
+**in the present tense by a 1994-97 filing**, so the headline finding of §G is not what the channels were but
+that **no held document dates the first use of any of them**. Where the standard frame wanted a first-customer
+story, the retail equivalent available here is a *member count and a member's behaviour* — and the only
+in-window one in this corpus is in a city's traffic record.
+
+### G.1 The membership-recruitment channel, as the operator described it
+
+| Variable | Value | Source | Confidence |
+|---|---|---|---|
+| Advertising posture | *"PriceCostco's policy is generally to limit advertising and promotional expenses to new warehouse openings and occasional direct mail advertisements to prospective new members. These practices result in very low marketing expenses as compared to typical discount retailers and supermarkets."* | P1S01, Item 1, l.266-270 | Medium (one lineage; the comparator "typical discount retailers" is asserted with no source and no figure) |
+| Business-member recruitment | solicitation of *"businesses in the area who are potential wholesale members"*, *"supported by direct mailings during the period immediately prior to opening"* | P1S01, l.271-273 | Medium |
+| Individual-member recruitment | *"Potential Gold Star (individual) members are contacted by direct mail generally distributed through credit unions, employee associations and other entities representing the individuals who are eligible for Gold Star membership."* | P1S01, l.274-278 | Medium — **this is the channel itself: an employer or association is the distribution medium, so the firm's customer-acquisition channel was another organisation's mail run** |
+| What happens after a base exists | *"After a membership base is established in an area, most new memberships result from word of mouth advertising, follow-up contact by direct mail distributed through regular payroll or other organizational communications to employee groups, and ongoing direct solicitations of prospective wholesale members."* | P1S01, l.279-286 | Medium — the company attributes the majority of later acquisition to a channel it neither buys nor controls |
+| First date of use of any of these channels | **UNKNOWN** — the four printings describe a continuing practice and give no origin date | census of P1S01-P1S04 | UNKNOWN (P2G01) |
+| Marketing or advertising spend, any year | **UNKNOWN** — no dollar figure, no percent of sales, no expense line is printed anywhere in the corpus | census of `sources/` | UNKNOWN (P2G01) |
+
+### G.2 The merchandise-in channel, and the two numbers part 1 recorded as absent
+
+| Variable | Value | Source | Confidence |
+|---|---|---|---|
+| Buying structure | *"buys virtually all of its merchandise directly from manufacturers for shipment either directly to PriceCostco's selling warehouses or to a consolidation point where various shipments are combined so as to minimize freight and handling costs"*, thereby eliminating *"use of central receiving, storing and distributing warehouses and storage of merchandise in locations off the sales floor"* | P1S01, l.218-228 | Medium (one lineage; the same sentence in P1S02 carries the words part 1 quoted) |
+| Assortment discipline, with a number | *"carries only an average of approximately 3,500 to 4,000 active stockkeeping units ('SKU's') per warehouse as opposed to full-line discount retailers which normally stock 40,000 to 60,000 SKU's or more"* | P1S01, l.302-310 | Medium for what the filing prints — **and this refutes part 1's E07/P1G03, which stated that "nothing held states an item count". It is minted as K16 so the correction is a register row, not a quiet overwrite.** The figure is an **average per warehouse**, undated, `(PB)` printing; it is not a 1976 or 1983 spec |
+| Merchandise mix, by fiscal year, in-window | FY1992 / FY1993 / FY1994 as printed: Sundries 32 / 32 / 32; Food 31 / 31 / 31; Hardlines 21 / 21 / 22; Softlines 14 / 13 / 12; Other 2 / 3 / 3 (percent of sales) | P1S01, l.316-340 | Medium — **the only in-window *category* series in this corpus**, and it is combined-restated. Part 1 recorded category weights as UNKNOWN; the bytes carry three years of them |
+| Unit-level merchandising mechanics | merchandise *"stored on racks above the sales floor and displayed on pallets containing large quantities of each item"*; *"Items are not individually price marked, but are keyed or scanned into PriceCostco's electronic cash registers by an identifying item number, thereby allowing price changes without remarking merchandise"*; *"Substantially all manufacturers provide special, larger package sizes and merchandise pre-marked with the item numbers"* | P1S01, l.289-300 | Medium — the last clause is a supplier-adaptation fact: the channel changed the vendors' pack specifications, which is the observable half of "power over the supply chain" that most origin stories assert and no filing here dates |
+| Operating hours | *"warehouses generally operate on a seven-day, 68-hour week"*, weekdays roughly 10:00 a.m. to 8:30 p.m., longer in the holiday season; *"Because these hours of operation are shorter than those of the traditional discount or grocery retailer, labor costs are lower relative to the volume of sales"* | P1S01, l.282-288 | Medium |
+| Supplier concentration | *"No significant portion of merchandise is obtained by PriceCostco from any one of these or other suppliers"*, and the company believes it could replace any source *"without experiencing a substantial disruption of its business"* | P1S01, l.341-352 | Medium — a self-assessment with no carrier; the FY1993 fee-revenue and margin attributions are the only places the same filing speaks concretely about what moved |
+
+### G.3 The first members, in the only in-window independent source that counts them
+
+Part 1 established (F06) that **no member count exists in this corpus for any date inside Stage 1 in the
+company's own records**, the first being 3.3M Business and 6.7M Gold Star at FY1995 period-end. Reading the
+Final EIR again on this pass for a different purpose turned up the exception, and it is not the company's:
+
+| Variable | Value | Source | Confidence |
+|---|---|---|---|
+| Members in one metropolitan market, in-window | *"The present estimated 31,000 San Francisco Costco members now shop at Costco stores outside of the City"* | P1S08, l.13644-13646 (Chapter IX, Summary of Comments and Responses) | **High for the sentence; the figure is the city's, expressly labelled an estimate, with no method, no as-of date and no carrier named** |
+| Existence of a multi-store regional base | *"most trips to the proposed project are expected to originate in San Francisco, as several other Costco stores exist in the Bay Area"* | P1S08, l.13649-13652 | High — an outside observer's statement that leg C already had a Bay Area estate before San Francisco |
+| The two brands in one buyer's mouth, in-window | *"Our present financial conditions dictates that we travel to San Mateo County and seek the lowest prices available for consumer items, i.e. Costco and Price Club."* (Mr. and Ms. Michael Corban, comment submitted to the city) | P1S08, l.13663-13666 | High as a quotation of a 1991-92 public comment — **the only held in-window words of an actual customer, and they name both legs in the same breath as a household budget constraint** |
+| A named official's description of the buyer | *"it's pretty tough to imagine that average Price Club shopper to take public transportation to cart away a lot of the stuff that the average person takes out of the Price Club."* (Edward Sewell, Planning Commissioner) | P1S08, l.11240-11245 | High |
+| The operator's own behaviour as an objector describes it | *"Shopping at Costco for bulk items would be nearly impossible if shoppers were to attempt to carry these bulk items home on the bus."* (Vincent J. Courtney, attorney, office of Davis, Reno & Courtney) | P1S08, l.11258-11263 | High as a quotation; the comment is advocacy, not measurement |
+| The city's stated modelling assumption | *"the EIR notes on pp. 66, 67 and 71 that the transportation analysis assumes that no Costco customers are expected to use public transit. All analysis of trip generation in the EIR assumes that each Costco customer would drive alone to the project site."* | P1S08, l.11266-11274 | High — **the format's economics rest on the car, and the most independent document in this corpus says so as an assumption it adopted rather than a claim it argued** |
+| Overlap between the two legs' memberships, in the company's own mouth | *"the Company experienced a decline in membership renewals at existing warehouses due to overlapping memberships and offering Price and Costco members reciprocal member privileges effective November 1, 1993"* | P1S01, l.1330-1338 | Medium — `(PB)` for the privileges date (ten days past the boundary), but the **overlap condition it describes is an in-window property of the two estates standing side by side** |
+
+**Why this table matters more than its quirkiness suggests.** Every other member fact in this dossier is the
+company reporting itself. The rows above are a planning office, one commissioner, one law firm and two
+households, in 1991-92, describing what the member *did*: held a card issued somewhere else, drove, bought in
+bulk, carted it away, and treated the two brand names as one price. That is the closest this corpus comes to
+in-window evidence of the customer, and it is Tier-1 precisely because nobody writing it had the company's
+outcome to protect. It is also the only place a member count for a Stage-1 date exists at all.
+
+### G.4 What the record cannot say about either channel
+
+There is **no** held evidence of: a first member, a first membership application form, a fee schedule at either
+opening (the 1976 or 1983 level), a renewal percentage before 1993, a marketing budget, a buying office, a
+vendor list, a private-label date or share, a distribution-centre opening, or a first purchase order. Part 1
+recorded the fee levels it could find — and, on this pass, those levels turn out to differ between two
+printings of the same instrument, which is a conflict and not a fact (K10). The channel rows in `channels.csv`
+therefore carry `date_tested = UNKNOWN` almost everywhere; that is the honest state of a dossier whose channel
+evidence is one page of a 1994 annual report and one city's traffic assumptions.
+
+**Coda (§7 duty on any "so what": evidence, mechanism, alternative explanation, confidence).** *Evidence:* the
+recruitment channel described by the firm ran through other organisations (credit unions, employee
+associations, payroll mail) rather than through paid media, and the city's own trip-generation assumption is
+that the member drives alone to carry away bulk. *Mechanism:* the mechanism is named in P1S01 and is economic,
+not rhetorical — an institution that already has a list of qualified buyers transfers the acquisition cost to
+that institution, which is why the filing can claim "very low marketing expenses as compared to typical discount
+retailers"; and a buyer who arrives by car with a cargo space is a buyer whose basket is set by the vehicle,
+which is what pallet-and-case merchandising monetises. *Alternative explanation this volume will not exclude:*
+the same facts are consistent with a firm that simply could not afford broadcast advertising in either 1976 or
+1983, in which case the association-mail channel is a constraint that was later described as a design, and the
+corpus holds nothing capable of separating the two readings, because it holds no marketing budget for any year.
+A second alternative: the 31,000-member figure is the city's estimate produced for a traffic argument, so it may
+be rounded upward for the same reason the objector's transit claim is overstated — an estimate built to make a
+case about congestion is not a membership report. **Confidence: High for every quotation, Medium for the
+mechanism, Low for any claim about which of the two explanations describes 1976 or 1983, and UNKNOWN for the
+first date of every channel named above.**
+
+## H — Market as knowable in-period: the competitive field, and the paths not taken
+
+STATUS: WRITTEN 2026-09-29
+
+**A premise correction, made before the section is written (RD-124: a text hit is not a naming, and a naming is
+not always a rival).** The dispatch brief lists the Stage-1 competitive field as **Price Club, feddy Mart and
+Forus**. Measured against this corpus, that framing does not survive contact with the bytes, in three separate
+ways:
+
+| Item the brief treats as in-field | What the held bytes actually contain | Verdict |
+|---|---|---|
+| **Price Club** as a competitor | "Price Club" is the registrant's **own brand for leg P's clubs**: clubs were *"operated under the 'Price Club' and 'Costco Wholesale' names"*, and the estate table in Item 2 splits every state into a PRICE column and a COSTCO column. In the one in-window independent document, "Price Club" occurs **7 times in the Final EIR and 0 times in the Draft** (pattern `price[[:space:]]+club`, case-insensitive, over the held 568,295 B and 419,592 B OCR layers) — and every one of the 7 is a citizen, a commissioner or an attorney speaking, never a filing calling it a rival | **NOT A COMPETITOR IN THIS RECORD — it is the company.** Writing "Price Club" into a competitor table would be a category error inherited from a brief |
+| **feddy Mart** | `grep -i -o ".\{0,260\}feddy.\{0,400\}"` across every `.txt` under `sources/sec/` and both EIR layers → **0 matches in 15 filing bytes and 2 municipal layers** | **EMPTY on this corpus, perimeted to the files named**; not a null about the sector |
+| **Forus** | same search for `Forus` → **0 matches**; the only joint-venture and licensing vehicles the filings name are the **Mexico clubs 50/49 percent venture**, the **United Kingdom 60 percent subsidiary**, a **Taiwan warehouse through a joint venture** (`(PB)`, FY1997), and **Price Quest / Price Global Trading**, both transferred out to Price Enterprises in 1994-95 | **EMPTY on this corpus**, same perimeter |
+
+**What that leaves.** The segment's own failures — the rival clubs that started, stumbled or were absorbed — are
+**not in this archive at all**. The only held sentence anywhere in the corpus that even gestures at a rival
+retailer's distress is dated 1997 and is about a *non-club*: *"The Company has entered into a purchase agreement
+with Hechinger Company to acquire seven of Hechinger's locations in Michigan. The acquisition is subject to
+certain conditions including third party approvals and permits. The Company intends to invest approximately
+$80,000 in these facilities…"* (P1S04, l.1172-1179) — a `(PB)` consequence recorded here only because it is the
+corpus's single evidence that this format grew by taking another operator's sites, and it names no failure: the
+text says nothing about why Hechinger was releasing seven locations. **Everything else about the field arrives
+as one self-report, printed four times, with the numbers drifting.**
+
+### H.1 The field as the registrant drew it, printing by printing
+
+All four printings open identically — *"The Company operates in the rapidly changing and highly competitive
+merchandising industry. When Price pioneered the membership warehouse club concept in 1976, the dominant
+companies selling comparable lines of merchandise were department stores, grocery stores and traditional
+wholesalers."* — then diverge. The divergence is the datum; the drift is inside **one lineage** and so
+corroborates nothing (§3).
+
+| Printing (filed) | Warehouse-club count asserted | "including the … operated by the Company" | Rivals named beyond the 1976 incumbents | Text added or dropped |
+|---|---|---|---|---|
+| FY1994 10-K, 1994-11-17, l.396-421 | *"Approximately 800 warehouse clubs exist across the U.S. and Canada"* | 221 | Wal-Mart, Kmart, Target; Home Depot, Office Depot, Petsmart, Toys-R-Us, Circuit City, Barnes & Noble Books; The Sharper Image; home shopping; **Smart & Final** ("which operates in Arizona and California"); supermarkets in bulk sizes | the category killers *"have gained major market share in their respective categories"*; and the paragraph ends by attributing *"comparable warehouse sales to decline during fiscal 1994"* to *"this factor, among others"* |
+| FY1995 10-K405, 1995-11-30, l.373-396 | *"Approximately 850 warehouse clubs"* | 240 | same list | category killers now *"have significant market share"* (the gain is gone, the state is); Smart & Final still two states |
+| FY1996 10-K405, 1996-11-08, l.384-407 | *"Approximately 750 warehouse clubs … in North America"* | 247 | same list | Smart & Final now *"operates in Arizona, California and Florida"*; the causal sentence about declining comparable sales **is deleted** |
+| FY1997 10-K, 1997-11-10, l.386-410 | *"Approximately 750 warehouse clubs"* | 254 | **Kmart dropped entirely**; Wal-Mart *"has become the largest retailer"* (was "Wal-Mart and Kmart have become the largest retailers") | *"home shopping **and electronic commerce over the Internet** is becoming increasingly popular"*; "The Price Company" substituted for "Price" in the 1976 sentence |
+
+**Read the four rows as a market record and they yield almost nothing.** The industry count moves 800 → 850 →
+750 → 750 while the company's own estate moves 221 → 240 → 247 → 254, so the asserted denominator **falls by
+roughly 12 percent across three years in which the numerator rises by 15 percent** — an arithmetic consequence
+the filings never mention, and the company's share of the count it prints goes from about 28 percent to about
+34 percent without any statement that the field contracted. **No carrier, method, source, date or definition of
+"warehouse club" is given for any of the four figures.** P1S01's 800 is the only one of them close to the
+window and it is `(PB)` by a month. This is minted as **K12**.
+
+Independently of the filings, the harvest index holds four **post-boundary business-reference and academic
+lines** that describe the market the two legs grew up in, none of which is obtainable text and none of which is
+cited here as evidence — only as leads (§14 rule 8, a Tier-4 or snippet hit must be chased): Hoover's (2004 and
+2006 printings, `no_pages`) *"… Price Club warehouse, in San Diego, to sell in volume to small businesses …
+Merger costs led to a loss the following year …"*; Kelly Hill for Gale/Cengage (1999) *"Costco Wholesale to form
+Price/Costco Inc. Market Forces Driving the Merger … Price Club stores opened in 1991 were in California, where
+29 Price Club …"*; an unnamed 2001 volume *"Price Club and Costco Wholesale, merged. The Price Club facility in
+White Marsh, Maryland, did not have a full … and that method of doing business became the norm after the merger,
+for meat and bakery products …"*; and two 1993/1995-published volumes matched at page level with **no text
+reached** (`Tit2jax_AF8C`, date 1993, matched page PA507, `viewability=no_pages`; `UUM9AQAAIAAJ`, date 1995,
+PA805). The 1993 item is the highest-value unread lead in this class: **if its imprint date is right it is a
+publication from inside the window**, and it has never been opened. Recorded in `## Untried`.
+
+### H.2 Paths not taken, stated only where a held sentence names a path actually taken
+
+The honest form of a counterfactual section on this corpus is a list of the alternatives the documents **did**
+choose, because those are the only places where a road forks in print:
+
+| Fork | What the bytes show | Carrier and basis |
+|---|---|---|
+| **Own versus licence versus joint venture**, market by market | Mexico: a **50 percent joint venture**, later 49 percent after the Exchange Transaction, expressly *"not included in the number of warehouses open in any period because the joint venture is accounted for on the equity basis"*, 8 clubs at 1994-08-28 and 10 at 1994-10-31. United Kingdom: a **60 percent subsidiary**, two warehouses open, a third due June 1995. Seoul: *"In October 1994, under a licensing agreement with PriceCostco, a Price Club opened in Seoul, Korea"* — a fourth mode, in which the company sells the concept and books nothing of the unit's sales. Taiwan: one warehouse through a joint venture (`(PB)`, FY1997) | P1S01 Item 1/Item 2 l.640-665, P1S04 l.1168-1171. All `(PB)` except the two in-window Mexico openings |
+| **Keep the real estate or spin it** | *"PriceCostco does not expect to make significant investments in non-club real estate in the future"* (l.1543-1545) — a path closed in print — followed by the Exchange Transaction: commercial property not integral to merchandising, four warehouse facilities, municipal notes receivable, a note receivable from Atlas Hotels, 51 percent of Price Quest and Price Global Trading, and a 25.5 percent interest in Price Club Mexico conveyed to Price Enterprises for **27 million shares constituting all of Newco's stock**, priced for accounting purposes at an estimated $411,750 against a book basis of $579,000 | P1S01 l.1543-1545, l.445-610, P2S02 l.104-136; FY1995 note in P1S04 l.2125-2160 restates the outcome |
+| **Own the interactive-shopping venture or divest it** | Price Quest *"operated the Quest interactive electronic shopping business and provided other services to members"*; it went to Price Enterprises in 1994 and *"On or about September 1, 1996, Price Quest discontinued the Quest interactive electronic shopping business in the Company's warehouses, but continues to provide other services to members, including auto referral and travel related services."* The FY1997 printing adds **electronic commerce over the Internet** to the competitive list while the company's own e-commerce operation had just been switched off in its warehouses | P1S04 l.2145-2152 and l.401-404 of the FY1997 competition paragraph. `(PB)`; retained because the FY1997 text is the corpus's only evidence of this fork being taken and then abandoned |
+| **Grow the Price brand or the Costco brand** | The estate table by state is the only held place showing the two brands as *geographically separate* rather than overlapping: at 1994-08-28 Price operated **75** and Costco **107** United States warehouses, with Price holding Arizona, Colorado, Maryland, New Mexico, Virginia, parts of New Jersey/New York and **all of Quebec**, and Costco holding Alaska, Florida, Hawaii, Idaho, Montana, Oregon, Utah, Vermont, Washington, New Hampshire and **every Canadian province except Quebec and Nova Scotia** | P1S01 Item 2, l.674-780 |
+| **Acquire a rival club chain** | **No held document records any approach, proposal or agreement to buy another warehouse-club operator.** The only acquisition of another retailer's assets in the corpus is the 1997 Hechinger site purchase, which is not a club transaction | census of the four printings |
+
+**Coda (evidence / mechanism / alternative / confidence).** *Evidence:* four printings of one paragraph, one
+purchase agreement, one licensing sentence, three ownership modes, and a count series that moves with no method.
+*Mechanism:* the filings name one, and it is the causal clause at the end of the FY1994 paragraph — the
+combination of bulk-priced supermarkets, category killers and *"every major metropolitan area has some, if not
+several, club operations"* is offered as the reason *"comparable warehouse sales [declined] during fiscal 1994"*
+— which is a company explaining its own deceleration by crowding, in the same instrument that reports the
+company adding 29 units that year. *Alternative explanation, kept live:* the declining comparable rate is
+attributed **elsewhere in the same MD&A** principally to **self-cannibalisation**, competition, category
+deflation, a poor California economy and a weak Canadian dollar; the competition paragraph selects one of those
+five for the business-risk section and the MD&A lists all five, so the "field" narrative may be a disclosure
+convention rather than a diagnosis, and this corpus holds no external count of clubs with which to test either.
+*Confidence:* **Medium** that these are what the registrant believed it could say in each year (the drift is
+direct evidence of that), **Low** for any inference about the actual size or structure of the 1976-1993 club
+field (no in-window carrier exists for any count at any date), **UNKNOWN** for the fate of every rival the brief
+named. **Hindsight firewall (§2):** no sentence above treats the later disappearance of some of these operators,
+or Costco's survival, as evidence that the 1993 combination or the 1994 spin-off was the right call.
+
+---
+
+## I — Scaling: what the record shows about becoming large
+
+STATUS: WRITTEN 2026-09-29
+
+**§7 adaptation note.** The retail equivalent of "scaling" is an estate curve, a site doctrine, a labour model
+and a capital ladder. All four are held here, and all four are held **as restated combined data printed after
+the boundary**, which is the asymmetry part 1 named at §Boundary 3 and which §I inherits: **the curve is dense
+from FY1985 and empty before it, and the doctrine is undated.**
+
+### I.1 The estate curve, with every basis label attached
+
+The full FY1985–FY1994 series is at `(Costco S1 §A.4, part_1)`. §I adds the two columns that table did not
+print — **Closed**, and **net additions derived from Opened minus Closed** — because scaling is a net
+phenomenon and the filing prints a gross one.
+
+| Fiscal year ended | Opened (gross) | Closed | Net additions (DERIVED) | Implied gross estate growth |
+|---|---|---|---|---|
+| 1985-09-01 | 14 | 0 | +14 | 22 → 36 |
+| 1986-08-31 | 11 | 0 | +11 | 36 → 47 |
+| 1987-08-30 | 30 | 0 | +30 | 47 → 77 |
+| 1988-08-28 | 10 | (3) | +7 | 77 → 84 |
+| 1989-09-03 (53 wks) | 20 | 0 | +20 | 84 → 104 |
+| 1990-09-02 | 19 | (4) | +15 | 104 → 119 |
+| 1991-09-01 | 23 | (2) | +21 | 119 → 140 |
+| 1992-08-30 | 31 | (1) | +30 | 140 → 170 |
+| 1993-08-29 | 37 | (7) | +30 | 170 → 200 |
+| 1994-08-28 `(PB)` | 29 | (8) | +21 | 200 → 221 |
+
+Three observations the printed rows permit and one they do not. **(1)** Openings are lumpy: 10 in FY1988
+against 30 in FY1987 and 37 in FY1993. Closings are zero in FY1985-87, first appear as (3) in FY1988, are zero
+again in the 53-week FY1989, and are non-zero in every year from FY1990 onward — i.e. **the estate was being
+pruned while it grew from FY1990 on**, which turns part 1's §A.4 note ("the estate 'closed' 4, 2, 1, 7 and 8
+units in five of these years") from an aside into a continuous condition of the last four in-window years. **(2)** Net additions are flat at **+30, +30** for FY1992 and FY1993 while gross openings
+rise from 31 to 37, i.e. **the entire increase in building activity in the last full in-window year was
+consumed by closing more units**. That is arithmetic on printed cells (P2Q02), not a filing statement. **(3)**
+The FY1994 fall to 29 openings with 8 closings, plus a management plan of *"30-35 new warehouse clubs"* for
+FY1995, is the shape the dossier is not allowed to read as foresight — it is one year of data and a forward
+statement made twelve months after the window closed. **What the rows do not permit:** any split of an opening
+between leg P and leg C. The by-brand estate is held at exactly one date (1994-08-28) and never for a
+period-end inside the window, so **the curve cannot be decomposed into two chains**, and every "they scaled by
+opening X" statement in this volume is a statement about the pooled pair.
+
+### I.2 The separable-leg estate at the boundary's edge, and a part-1 statement it corrects
+
+| Variable | Value | Source | Confidence |
+|---|---|---|---|
+| Estates by brand at 1994-08-28 `(PB)` | United States: Price **75** (63 owned land-and-building + 12 leased), Costco **107** (84 + 23), total 182. Canada: Price **20**, Costco **17**, total 37. Combined printed total 219, plus the United Kingdom | P1S01 Item 2, l.674-780 | Medium — **this corrects part 1's §A.3 assertion that "no unit count … is held for leg C alone anywhere in this corpus". A brand-split unit count IS held; what is not held is any brand-split count for a date inside Stage 1.** Minted as **K17** so the overwrite is registered, not quiet |
+| Geographic segregation of the legs | Price-heavy in the Mid-Atlantic and Northeast (MD 4, NJ 7, NY 7, VA 9, CT 4) and in Quebec (10 of Quebec's 10); Costco-heavy in the Pacific and Mountain West (WA 16, OR 9, AK 3, MT 3, ID 2, HI 3) and Florida (11) | same table | Medium. **The two chains were not two copies of one map; they were complementary regional estates, and the complementarity is the strongest held argument for why a combination was structurally sensible in 1993 — stated as an observation about the table, not as a claim that anyone in 1993 reasoned from it (no document says that)** |
+| Dated individual acts inside the window, on both legs, newly read | leg C: *"Mr. Lazarus joined Costco Wholesale Corporation in November 1983"*, later named EVP/COO—East Coast Operations in **August 1992**. leg P: *"Mr. Loge joined The Price Company as a Director of Price Club Industries in March 1989 and became a Vice President of The Price Company and President of Price Club Industries in December 1990"*, having previously been VP of Operations of *"Sundale Beverage in Belmont, California"* | P1S04 (FY1997 10-K), l.626-638 | Medium (one lineage) — **this adds a leg-C dated act eight months after the filed 1983 beginning and a leg-P dated act with an operating-company lineage ("Price Club Industries") that part 1's §A.3 did not have.** Neither is a founding claim |
+| Labour model at the two nearest dates | *"As of August 28, 1994, PriceCostco had approximately 47,000 employees, about 50% of which were part time"*; *"As of September 3, 1995, PriceCostco had approximately 52,000 employees, about 50% of which were part time"*. Union line unchanged: *"Substantially all of Price's 11,000 hourly employees in California, Connecticut, Maryland, Massachusetts, New Jersey, New York and one Price Club warehouse in Virginia are represented by the International Brotherhood of Teamsters. All remaining hourly Price employees and all employees of Costco are non-union."* | P1S01 l.388-401; P1S02 l.359-372 | Medium. **Part 1's §B.2 row reads "Workforce, at the FY1994 filing — ~52,000 employees (P1S02, `(PB))"; 52,000 is not the FY1994 filing's figure — 47,000 is, and 52,000 belongs to the FY1995 filing at FY1995 period-end. Minted as K14** |
+| Capital ladder behind the curve | FY1994 additions to property and equipment for clubs *"of $475,000"* thousand, against cash from operations *"approximately $248,000"* thousand; FY1992 additions *"of $533,000"* thousand against operations $296,000 thousand plus **$300,000 thousand of 5 3/4 percent convertible subordinated debentures issued in May 1992** and *"approximately $144,000 generated from the sale of certain properties"*; FY1995 plan $500,000–$600,000 thousand US/Canada plus $50,000–$100,000 thousand international | P1S01 l.1548-1560 and l.1620-1633 | Medium. **The May-1992 debenture issue is an in-window financing event and the only dated capital-markets act of either leg before the merger held anywhere in this corpus** |
+| The unit-economics warning attached to scaling | *"newer units generally operate at significantly lower annual sales volumes than mature units and, therefore, incur higher expense ratios than mature units"*; SG&A rose from **8.67 percent** of net sales in FY1993 to **8.82 percent** in FY1994 *"reflecting a combination of comparable unit sales decreases in the 200 warehouses in operation during both fiscal periods; higher expense ratios at the 29 units opened during fiscal 1994 …; and higher expense factors associated with certain ancillary operations"*; preopening expenses $28,172 (0.19 percent of sales) FY1993 and $24,564 (0.15 percent) FY1994 | P1S01 MD&A, l.1345-1360 | Medium (restated basis) — **the filing states the cost of scaling in the same paragraph as its benefit, and it is the only held text that says growth by addition has a per-unit price** |
+
+**Coda.** The scaling record here is a **curve with a pruned top and an undated doctrine**: the openings are
+known, the closings are known, the split between the two chains is never known, and the site-and-labour model
+that made the curve cheap is described only in the present tense by a company writing after it had built 221
+units. *Mechanism:* the filings' own mechanism is hours-plus-aisle-logistics — a 68-hour week, merchandise racked
+above the sales floor, pallet display, no individual price marks — which converts real-estate and labour cost
+into the thing the format does without, and is the only reason the dossier can give for why 30 net units a year
+was fundable out of operating cash. *Alternative explanation:* the same curve is equally consistent with a
+chain buying sites faster than it could staff or fill them — the FY1993 closing count (7) is the highest in the
+series and lands in the year of the highest opening count (37), and the corpus holds no text connecting the two.
+*Confidence:* **Medium** for every printed count, **Low** for the mechanism, and **UNKNOWN** for whether the
+doctrine that produced them existed before FY1985, because the series starts combined and the doctrine starts in
+a filing printed in 1994.
+
+## J — Money, and the mechanics of the 1993 merger with their carriers
+
+STATUS: WRITTEN 2026-09-29
+
+**Carrier first, because every figure below inherits its limits (§3, §13).** The money in this section comes
+from **five accessions, three of which are one lineage**: the FY1994 10-K (P1S01, 396,621 B — the single
+richest carrier and the only one holding the ten-year series, read this pass at Item 1 l.170-420, Item 2
+l.630-780, Item 5 l.977-1055, Item 6 l.1195-1266, Item 7 l.1270-1420 and l.1540-1640, the debt table at
+l.3016-3052 and the exhibit index at l.1734-1752); the FY1995 10-K405 (P1S02, 309,405 B); the FY1997 10-K
+(P1S04, 604,104 B, read at l.626-638, l.1168-1190 and l.2125-2160); the **8-K of 1994-07-28** (P2S02, 125,566 B,
+Item 5 read whole at l.104-141); and the **Schedule 13D of Sol Price** (P2S01, 9,730 B, read whole). **One of
+those five is not the company talking about itself**: the 13D is an individual's filing under the Securities
+Exchange Act, and it is the only document in this corpus that states a share count, a percentage of a class and
+a trust-by-trust ownership breakdown for the founding family — which is why part 1's P1G01/P1G05 route and this
+volume's §T ledger both turn on it.
+
+### J.1 The terms of the 1993 combination, as printed
+
+| Variable | Value | Carrier and locator | Confidence |
+|---|---|---|---|
+| The act | *"On October 21, 1993, the shareholders of both The Price Company ('Price') and Costco Wholesale Corporation ('Costco') approved the mergers of Price and Costco with and into separate, wholly owned subsidiaries of Price/Costco, Inc."* | P1S01, Item 1 l.173-178 | Medium (one lineage) |
+| The vehicle | *"PriceCostco was formed to effect the Merger. Pursuant to the Merger, Price and Costco each became a wholly owned subsidiary of PriceCostco."* | P1S01, l.178-180 | Medium |
+| Consideration | each Price share (par **$.10**) → **2.13** PriceCostco shares; each Costco share (par **$.0033**) → **1** PriceCostco share | P1S01, Item 1 l.180-184 and Item 5 l.978-983 | Medium. **Par values are legal-capital facts, not valuations; the relative value of the two legs is not derivable from the two ratios without share counts, and the counts of each predecessor are not held anywhere in this corpus** |
+| Effective date, independent carrier | *"received pursuant to the merger of Price/Costco, Inc., which was effective on October 21, 1993"* | P2S01, l.252-255 | **Medium-High — the only non-corporate-lineage statement of the date in the archive**, though the 13D's notice agent is the company's own investor-relations officer, so the *form* is independent and the *information* may not be |
+| Accounting basis | *"The Merger qualified as a 'pooling-of-interests' … treats the combining companies as if they had been a single business entity from inception. Consequently, the historical financial statements for periods prior to the consummation of the Merger have been restated as though the companies had been combined. The financial statements have also been adjusted to conform the accounting policies and interim reporting periods of the separate companies."* | P1S01, l.184-192 | Medium — **the second sentence is a money fact, not a footnote: the two chains' reporting calendars were different enough to require adjustment, and the adjustment was made after the fact** |
+| Market event | *"Prior to October 21, 1993, Price Common Stock was quoted on The Nasdaq Stock Market's National Market under the symbol 'PCLB' and Costco Common Stock … under the symbol 'COST.' Trading in PriceCostco Common Stock commenced on October 22, 1993 … under the symbol 'PCCW.'"* | P1S01, Item 5 l.984-990 | Medium — **this closes part 1's P1G07 for the symbols: the PCLB/COST sentence is present in the script-stored bytes, verified by reading this pass, and is no longer an inherited probe reading** |
+| Governance settlement | Bylaws define **"Price Designees"** and **"Costco Designees"** as standing classes, six named to each; the Costco bloc printed as Brotman, Bernard, DiCerchio, James, Meisenbach, Sinegal | P1S01, l.600-640 area (read this pass) | Medium |
+| Merger costs | *"The fees and expenses related to the Merger and to the consolidation and restructuring of the combining companies (approximately $120 million, or $80 million after tax) were expensed as required under the pooling-of-interests accounting method and were reflected in the consolidated statement of income of PriceCostco in the first quarter of fiscal 1994, the period in which the Merger occurred."* The components are printed: direct transaction costs, consolidation/restructuring of functions, *"costs of the closing of certain excess facilities and sales of related properties"*, severance and relocation, and *"write-offs of certain redundant capitalized costs and other assets"* | P1S01, l.193-205 | Medium. **The event is in-window; the booking is FY1994 `(PB)`. Note what pooling required: because no purchase price could be allocated, the entire cost of combining ran through income — the accounting method that erased the two histories also made the merger visibly expensive** |
+
+### J.2 The capital ladder the two legs left behind, FY1985 → FY1994
+
+All from P1S01 Item 6 (dollars in thousands, combined-restated before 1993, period-end balances):
+
+| Fiscal year-end | Total assets | Property & equipment, net | Short-term debt | Long-term debt and capital lease obligations, net | Stockholders' equity | Working capital (deficit) |
+|---|---|---|---|---|---|---|
+| 1985-09-01 | 476,945 | 134,404 | 0 | 100,425 | 185,881 | 114,924 |
+| 1986-08-31 | 769,799 | 234,813 | 0 | 124,475 | 384,275 | 173,765 |
+| 1987-08-30 | 1,205,843 | 411,590 | 0 | 333,503 | 468,045 | 244,783 |
+| 1988-08-28 | 1,445,814 | 511,784 | 0 | 327,760 | 585,598 | 208,569 |
+| 1989-09-03 | 1,740,332 | 752,912 | 114,000 | 234,017 | 777,730 | 103,252 |
+| 1990-09-02 | 2,029,931 | 935,767 | 139,414 | 199,506 | 988,458 | 14,342 |
+| 1991-09-01 | 2,986,094 | 1,183,432 | 0 | 500,440 | 1,429,703 | 304,703 |
+| 1992-08-30 | 3,576,543 | 1,704,052 | 0 | 813,976 | 1,593,943 | 281,592 |
+| 1993-08-29 | 3,930,799 | 1,966,601 | 23,093 | 812,576 | 1,796,728 | 127,312 |
+| 1994-08-28 `(PB)` | 4,235,659 | 2,146,396 | 149,340 | 795,492 | 1,684,960 | **(113,009)** |
+
+Footnotes printed with the table, and load-bearing: *"(a) In 1989 Price paid to its shareholders a one-time
+special cash dividend of $74,621 or $1.50 per share of Price Common Stock"* and *"(b) In 1989 stockholders'
+equity reflects a $20,100 reduction of retained earnings related to conforming Price's accounting for income tax
+method to Costco's accounting for income tax method as of fiscal 1989."* **Read the two footnotes as the record
+of leg P's last independent act and of the merger's reach backwards**: the Price board paid its own holders a
+special dividend eight years before the combination, in a table that only exists because of the combination, and
+the same table then reduces retained earnings to make the other chain's tax method fit — the 1989 equity line is
+where the two histories are visibly welded.
+
+### J.3 Debt instruments, credit, and the one dated capital-markets act inside the window
+
+| Variable | Value | Carrier | Confidence |
+|---|---|---|---|
+| Convertible subordinated debentures outstanding, as printed | **5 3/4% due May 15, 2002 — $300,000 / $300,000**; **6 3/4% due March 1, 2001 — $285,079 / $287,500**; **5 1/2% due February 28, 2012 — $179,338 / $179,338** (thousand; two columns as printed) | P1S01 debt table l.3050-3052 | Medium. **The exhibit index of the same filing lists indentures for the 5 1/2% and the 6 3/4% series, and one of them is expressly "of Price's" — so at least one of the three series is a predecessor instrument that crossed the boundary inside the pooled balance sheet** |
+| The issue event | *"proceeds from issuance of $300,000 5 3/4% convertible subordinated debentures in May 1992"* | P1S01 l.1620-1626 | Medium — **the only dated debt issuance by either leg inside Stage 1 held anywhere in this corpus** |
+| What interest expense was | *"$46,116 in fiscal 1993 and $50,472 in fiscal 1994 … incurred as a result of the interest on the convertible subordinated debentures and interest on borrowings on the Company's bank lines and commercial paper programs"* | P1S01 MD&A l.1361-1365 | Medium (restated basis) |
+| Committed bank capacity | *"a domestic multiple option loan facility with a group of 14 banks which provides for borrowings of up to $500,000 or for standby support for a $500,000 commercial paper program. Of this amount, $250,000 expires on January 30, 1995, and $250,000 expires on January 30, 1998."* CP outstanding at 1994-08-28: **$149,340**. Canadian subsidiary: a **$65,800** line with three Canadian banks ($29,200 short-term expiring 1994-12-01; $36,600 through 1996-12-01), **nothing drawn**. Letter-of-credit facilities ~**$193,000**, ~**$118,000** outstanding, *"including approximately $53,000 in standby letters for workers' compensation requirements"* | P1S01 l.1588-1613 | Medium. **By FY1997 the same facility is printed with "a group of 12 banks" (P1S04 l.1186-1190) — a bank-group contraction visible across three printings of one sentence** |
+| Dividend policy and its covenant | *"PriceCostco does not pay regular dividends and does not anticipate the declaration of a cash dividend in the forseeable future. Under its two revolving credit agreements, PriceCostco is generally permitted to pay dividends in any fiscal year up to an amount equal to 50% of its consolidated net income for that fiscal year."* | P1S01 l.1049-1055 | Medium — **and it contradicts the inherited shorthand that this company never paid dividends: footnote (a) above records a $74,621 thousand special dividend paid by Price in 1989. The policy sentence is about the merged registrant; the dividend is a predecessor act** |
+| The working-capital mechanism, in the company's own causal words | *"Due to rapid inventory turnover, the Company's operations provide a higher level of supplier trade payables than generally encountered in other forms of retailing. When combined with other current liabilities, the resulting amount typically approaches the current assets needed to operate the business."* FY1994 swing explained: *"working capital was used to finance expansion and merger expenses during fiscal 1994"*, out of a **$67,000** cash decline, an **$81,000** decline in short-term investments and restricted cash, and a **$126,000** increase in notes payable | P1S01 l.1614-1640 | Medium. **This is the sentence that turns the FY1994 working-capital deficit from a warning into a design feature — and note that it is offered as an explanation, not a measurement, in a filing whose FY1993 position was a $127,312 thousand surplus** |
+| Family money at the boundary | Sol Price, "Self-employed investor", La Jolla CA, beneficial owner of **11,366,937** PriceCostco shares = **5.22%** of a class he computes on **217,824,368** shares, held as: 6,125,275 (Sol and Helen Price Trust) + 3,731,760 (Price Family Charitable Trust) + 581,490 (Price Charitable Remainder Trust) + 556,108 (Mandell Weiss Trust, **disclaimed** in row 12) + 341,243 and 31,061 **right to acquire on conversion of $7.69 million and $0.7 million of convertible debentures**. Event date of the filing: **January 3, 1994** | P2S01, l.150-260 | Medium-High for what the form states (**a filer's own arithmetic**: the six tranches foot exactly to 11,366,937, and 11,366,937 ÷ 217,824,368 = 5.218%, so the 5.22 prints correctly); **Low** for the denominator's as-of date |
+
+**One derived number worth stating and showing.** The two conversion tranches imply a single conversion price:
+7,690,000 ÷ 341,243 = **$22.53** and 700,000 ÷ 31,061 = **$22.54**. Two independent pairs of figures on one form
+agreeing to a cent is internal cross-footing, and it says the family held conversion rights in **one** debenture
+series at about **$22.53 a share** — which the FY1994 10-K never prints, and which cannot be matched to a
+certificate, an issue date or a coupon from this corpus, because the filing shows three series and the 13D names
+none (P2Q10, DERIVED).
+
+### J.4 The next money act, held on two carriers: the real-estate exchange
+
+The 8-K read this pass states the deal as filed: *"Price/Costco, Inc. (the 'Registrant') and Price Enterprises,
+Inc., a newly formed Delaware corporation ('Newco'), have entered into an Agreement of Transfer and Plan of
+Exchange, dated July 28, 1994 … the Registrant will contribute certain commercial real estate not integral to the
+Registrant's merchandising operations and certain other assets (the 'Assets') to Newco in exchange for 27 million
+shares of common stock of Newco … which will constitute all of the outstanding shares of common stock of Newco,
+and the assumption by Newco of certain liabilities of the Registrant relating to the Assets"* — then an offer to
+exchange up to 27 million Newco shares for registrant shares **one-for-one**, with a pro-rata acceptance rule and
+two thresholds (**21.6 million** and **27 million**), an option to sell the remainder to Newco for a promissory
+note, and *"The Registrant anticipates that the transactions contemplated by the Agreement will close by calendar
+year-end."* Signed for the registrant by **Donald E. Burdick**. Exhibits include press releases of 1994-07-15 and
+1994-07-28 (P2S02, l.104-160).
+
+The cost of that decision arrives as arithmetic in the FY1997 filing: the disposal loss first estimated at
+**$182,500** thousand in FY1994 was increased by **$83,363** thousand as a non-cash charge in FY1995, printed as
+*"(27 million shares multiplied by $3.0875 per share representing the difference between the estimated and actual
+price per share)"* against *"an average closing sales price of $12.1625 per share for Price Enterprises Common
+Stock"*. **27,000 × 3.0875 = 83,362.5** — the filing's own product, checked (P2Q11). All of it is `(PB)`; it is
+here because it is the only held evidence of what one of the two boundary decisions actually cost, and because
+the estimate that was trued up was struck in FY1994, inside the shadow of the window.
+
+### J.5 What this section cannot name
+
+**Zero held bytes** record: the founding capital of either leg; what it cost to open the first unit in 1976 or
+1983; any pre-1993 balance sheet or income statement of The Price Company or Costco Wholesale Corporation
+separately; when or whether either leg first raised public equity (no S-1 exists on this CIK, and predecessor
+CIKs were never reached); the issuance dates and terms of the 6 3/4% and 5 1/2% series; the number of shares each
+predecessor had outstanding at the merger (which is what makes the 2.13-to-1 ratio unanalysable); or any stated
+reason for combining. **The merger is documented as a settlement and never as a decision.**
+
+**Coda.** *Evidence:* the terms, the pooled costs, the ladder, the covenants, the family's 5.22 percent, and one
+May-1992 debenture issue. *Mechanism:* the mechanism the money itself shows is that **this business was scaled on
+other people's balance sheets before it was scaled on its own** — vendor payment terms financing inventory (part 1,
+§E.1), a working-capital structure the filing says *"typically approaches the current assets needed to operate the
+business"*, $300 million of convertible debentures in FY1992, and 14 banks standing behind $500 million of
+commercial paper; the equity history is the flattest part of the ladder (185,881 to 1,796,728 thousand across nine
+years, mostly from retained earnings, with exactly one dividend taking money out). *Alternative explanation:* the
+same ladder is consistent with a chain that was **always** short of the cash its own growth demanded — closings
+provisions, lease disputes, fee increases taken in two separate years, and a real-estate segment it could only
+exit by booking a $182.5 million loss; the filings' confident sentence that *"earnings, cash flow, and financing
+capacity should be adequate"* is a belief statement, and this corpus holds no independent test of it.
+*Confidence:* **Medium** throughout, one lineage except where stated; **High** only for the internal cross-foots,
+which prove the documents agree with themselves and nothing else.
+
+---
+
+## K — What the record cannot settle
+
+STATUS: WRITTEN 2026-09-29 — **mandatory at every tier (§15.2)**
+
+**Vocabulary used below (method §7): KNOWABLE** = the corpus contains, for a Stage-1 date, a document capable of
+settling the question; **NOT KNOWABLE** = no document of the required class exists anywhere in this archive, and
+the reason is structural, not a missed request; **UNKNOWN** = the question is open and a named route could still
+answer it. **The distinction between NOT KNOWABLE and UNKNOWN is the whole content of this section, and the
+distinction between UNKNOWN and UNTRIED is kept in `## Untried`, not here.**
+
+| # | Question | Verdict | Why, in one sentence naming the missing carrier |
+|---|---|---|---|
+| 1 | What was the 1976 unit — address, date, size, capital, opening trade | **NOT KNOWABLE in this archive** | every held byte is post-1993 except two municipal reports about a 1989 project; the first trade-periodical capable of answering is a Discount Store News / Chain Store Age layer that exists in the world (the probe enumerated DSN microfiche items for 1980-84) and has never been downloaded |
+| 2 | Who founded leg P, and in what capacity | **UNKNOWN, with a route** | no registrant document names a founder of leg P; the only held naming is a 2013 textbook snippet at ~250 characters (K01), and the route to a real answer is the unread Google Books volumes whose imprint dates are **1993 and 1995** |
+| 3 | Whether leg C's 1983 opening copied leg P's model, a common ancestor, or nothing | **NOT KNOWABLE here** | the only word the filings use about the relationship is *"with a similar membership warehouse concept"*, one sentence, four printings, no source and no date attached to the similarity |
+| 4 | Each leg's own pre-1993 financial statements | **NOT KNOWABLE here** | pooling produced a single restated series and the filings say the prior statements *"have been restated as though the companies had been combined"*; the pre-merger accounts were filed with the SEC by two registrants under two CIKs that this project has never resolved |
+| 5 | The share counts of Price and Costco at the merger, hence the relative value of the 2.13 and 1 ratios | **UNKNOWN** | no held document prints either count; P2S01 gives only the merged class denominator (217,824,368 by the filer's own arithmetic) |
+| 6 | The renewal rate of memberships at any Stage-1 date | **NOT KNOWABLE here** | no percentage exists in any held byte; the only renewal statement is qualitative, dated, and about ten days after the boundary (*"a decline in membership renewals … due to overlapping memberships"*, P1S01) |
+| 7 | Membership fees at opening (1976, 1983) | **NOT KNOWABLE here** | the two fee schedules that exist are FY1994 and FY1995 printings of a *continuing* policy, and they disagree with each other (K10) |
+| 8 | How many warehouse clubs existed in the U.S. and Canada at any in-window date | **NOT KNOWABLE here** | the only counts are four company self-reports from 1994-97 (800/850/750/750) with no method, no carrier and no definition; nothing in the corpus counts clubs for 1976, 1983 or 1993 |
+| 9 | Whether the 1989 San Francisco warehouse was built | **UNKNOWN** | the held record stops at certification of the Final EIR and *"An application for a Site Permit for the project has not been filed to date"*; the Draft layer on disk has never been read for a later date, and no city follow-up document is held |
+| 10 | Why the two chains combined in 1993 | **NOT KNOWABLE in this archive** | across four printings, an 8-K, a proxy and a 13D, **not one sentence states a reason**; the filings give ratios, dates, costs and mechanics only. Part 1 minted the same finding as P1G05; §L forbids filling it from the outcome |
+| 11 | Whether the feddy Mart / Forus ventures existed at all in this record | **EMPTY, perimeted** | zero matches for either string across 15 filing layers and 2 municipal layers searched with flexible whitespace; a documented absence from *this* archive, not from the trade |
+| 12 | What either leg's board actually deliberated | **NOT KNOWABLE in principle** | minutes of two private boards for the 1976-1993 period are not in any public corpus the project has reached; the record-selection null (§2) says this absence is structural and no retrieval pass changes it |
+
+**Two statements about the archive that are not about the company, and must not be read as such.** First,
+questions 1, 3, 4, 8 and 12 are **NOT KNOWABLE here** — a fuller archive (trade press, a predecessor CIK, an
+auction lot, a municipal permit file) could answer most of them, which is why they also appear in `## Untried`
+with their routes. Second, question 10 is the one a reader most wants answered and the one no document in this
+corpus will ever answer; the honest deliverable is the list of mechanics around it, not a guess inside it.
+
+## L — Hindsight firewall: the audit performed on this volume
+
+STATUS: WRITTEN 2026-09-29
+
+**Test applied (§2).** Each section above was rewritten until it would still read as plausible had the company
+failed five years later. The specific traps this volume had to refuse, named so that a later auditor can check
+them rather than trust the claim:
+
+| Temptation in this material | What the firewall forbids, and what was written instead |
+|---|---|
+| The 1994 spin-off of the real estate, the 1997 name change toward the Costco side, and the later rank of the surviving chain make 1993's pooling look like the obvious consolidation of an obvious winner | Nothing in §J or §Q treats either outcome as vindication. The Exchange Transaction is recorded with its **$182,500 thousand estimated loss and its $83,363 thousand true-up** — i.e. the decision is evidenced by what it cost, not by what it produced. §H refuses the word "consolidation" as an explanation, because no held sentence uses it |
+| Membership recruited through credit unions and payroll mail looks like a brilliant channel insight | §G offers the alternative that it was **a constraint** — a firm that could not buy media — and records that the corpus holds **no marketing budget for any year** capable of deciding between the two readings. Mechanism named; origin not claimed |
+| "3,500 to 4,000 SKUs versus 40,000 to 60,000" looks like the disciplined assortment that made the format work | §G.2 attaches the date and the basis: it is an **average per warehouse, undated, printed in 1994**. Nothing in the corpus shows the 1976 or 1983 assortment, and §K item 7 refuses the inference |
+| The vendor-funded inventory and the working-capital deficit look like genius float | §J.2/§J.5 state the deficit's mechanical cause as the filing gives it, note that FY1993 was a **$127,312 thousand surplus**, and log the alternative reading — a chain chronically short of the cash its growth demanded. Float is a consequence of turnover, and turnover was the thing that turned negative in FY1993 |
+| The geographic segregation of the two brands (§I.2) looks like proof the merger was strategically obvious | §I.2 says explicitly that the complementarity is an observation about a **1994 table**, and that **no document shows anyone in 1993 reasoning from it**. §K item 10 records that not one held sentence states a reason for the combination |
+| The four printings' club counts (800/850/750/750) and the "every major metropolitan area has some, if not several, club operations" line look like proof of a crowded, maturing format whose shakeout the survivors escaped | §H.1 prints the drift as **unmethod'd self-reports**, refuses to compute a market share over time, and notes the company's share of its own count rises while the count falls — a shape that would be an argument for something if a carrier existed. None does |
+| The EIR's 31,000 San Francisco members and the "several other Costco stores … in the Bay Area" line look like evidence of a national machine by 1991 | §G.3 keeps them at the size of one city's estimate for one company's members in one region, and §D.2 of part 1 already forbade the inference to the estate |
+
+**Record-selection null for this volume (§2, the G–U half of what part 1 stated for A–F).** Unrecoverable
+*because the survivor's archive is the one that was kept*: no Price Club or Costco merchandise catalog, no
+membership card or application, no opening-day program, no lease, no site list, no rejected-market memo, no
+board minute, no trade-press story about either chain before 1989, and **no independent count of anything** —
+every unit, revenue, member, employee, club-population and cost figure in §G–§U traces to the company's own
+later filings except the San Francisco municipal rows, which count one project, one city and one estimate. The
+8-K of 1994-07-28 is filed under **Item 5 "Other Events" only**, with **no Item 3 transition financial
+statements and no pro forma balance sheet** — so the one held document that might have shown what the two
+balance sheets looked like as they separated shows nothing of the kind, and the corpus's silence on the
+split-out's numbers is a *document-class* silence, not a reading failure. **Confidence in this section is a
+statement about the archive, and §K's perimeted verdicts are its operational form.**
+
+---
+
+## M — Numbers with a carrier and a basis
+
+STATUS: WRITTEN 2026-09-29
+
+**Rule enforced here (§6, §8, and the dispatch brief's three basis axes).** No value appears without its
+**carrier** (a register source id, never a bare "the filings") and without its **basis** on three axes at once:
+**fiscal versus calendar**, **period-end versus average**, **gross versus net**; plus the two this company
+cannot do without — **combined-restated versus single-leg**, and **company-asserted versus third-party-measured**.
+Rows part 1 already carried with full basis are pointed at, not re-printed.
+
+| Metric | Value | Carrier | Basis, stated in full |
+|---|---|---|---|
+| Warehouses in operation, FY1993 | 200 | P1S01 | **fiscal** (52 weeks to 1993-08-29) · **period-end** · **combined-restated** · filed figure, no independent carrier |
+| Openings in FY1993 | 37 **gross** / 30 **net** | P1S01; P2Q02 | fiscal · the 37 is a gross addition, 7 units closed in the same year; **the net figure is DERIVED** (37 − 7) and printed nowhere |
+| Openings FY1992 → FY1993 | 31 → 37 gross, **+30 → +30 net** | P1S01; P2Q01 | fiscal · gross vs net is the whole story of this pair: **more building, same growth** |
+| Net sales FY1993 | $15,154,685 thousand | P1S01 | fiscal · **excludes membership fees** · combined-restated · "DOLLARS IN THOUSANDS, EXCEPT WAREHOUSE AND PER SHARE DATA" |
+| Membership fees and other revenue FY1993 | $309,129 thousand = 2.04% of net sales | P1S01 | fiscal · **the line is fees AND OTHER**, so it is not a fee total · percentage is the company's own printed arithmetic |
+| Comparable-warehouse sales FY1992 → FY1993 → FY1994 | +6% → −3% → −3% | P1S01 | fiscal · **a rate over a year, on units open at least a year** — not period-end and not average estate · FY1994 is `(PB)` |
+| Gross margin FY1993 | $1,403,532 thousand = 9.26% of net sales | P1S01 | fiscal · **company-defined** as "net sales minus merchandise costs" · **LIFO**; the filing prints the FIFO difference: a **$5,350 LIFO benefit** in FY1993 and **$2,600** in FY1994, so no margin here is FIFO-comparable |
+| SG&A as a percent of net sales FY1993 → FY1994 | 8.67% → 8.82% | P1S01 | fiscal · a ratio of flows, not a balance · the FY1994 rise is attributed in-print to comparable-unit declines, new-unit expense ratios and ancillary operations |
+| Preopening expenses FY1993 | $28,172 thousand = 0.19% of net sales | P1S01 | fiscal · expense of a period · **a cost of opening, not a cost per opening** — dividing it by 37 units would be a derived figure the corpus does not support, because openings straddle years |
+| Employees | 47,000 at 1994-08-28 `(PB)`; 52,000 at 1995-09-03 `(PB)` | P1S01; P1S02 | **period-end headcount, "approximately"**, ~50% part time · **not an average for the year** · the 11,000 union figure is a subset of one leg's hourly staff only |
+| Memberships | 3.4M Business + 6.4M Gold Star at 1994-08-28; 3.3M + 6.7M at 1995-09-03 `(PB)` | P1S01; P1S02 | period-end · **a count of memberships, not of people or of paying entities** (a Gold Star membership includes a second card) · company self-report · **the Business class falls 0.1M while the total rises** |
+| Members, one city, in-window | "the present estimated **31,000** San Francisco Costco members" | **P1S08** | **undated estimate by a third party**, in a 1991-92 document · counts only holders with San Francisco addresses · the only member figure inside Stage 1 in the corpus · **no method or carrier named** |
+| Unit size | 118,500 sq ft (one SF project) vs "averages approximately 120,000" (FY1994 printing) vs "125,000" (FY1995 printing) | P1S08; P1S01; P1S02 | first is **one proposed unit, period-specific and independent**; second and third are **estate averages `(PB)` from one lineage that disagree with each other** (K11) · no in-window spec exists |
+| Assortment | average ~3,500–4,000 SKUs per warehouse vs 40,000–60,000 for full-line discounters | P1S01 | **average per unit, undated** · comparator unsourced · refutes P1G03's stated null (K16) |
+| Merchandise mix | FY1992 / FY1993 / FY1994: Sundries 32/32/32, Food 31/31/31, Hardlines 21/21/22, Softlines 14/13/12, Other 2/3/3 (percent of sales) | P1S01 | fiscal · **percent of sales, a flow**, combined-restated · the only in-window category series held · **cross-footed on this pass: each printed column sums to 100** (FY1992 32+31+21+14+2, FY1993 32+31+21+13+3, FY1994 32+31+22+12+3), which is the only sense in which the table "checks" |
+| Warehouse-club population | ~800 (1994) / ~850 (1995) / ~750 (1996) / ~750 (1997), "across the U.S. and Canada" | P1S01-P1S04 | **company estimate of a market it belongs to** · `(PB)` at every date · no method, no carrier, no definition of "club" · **K12**; unusable as an industry series |
+| Merger cost | ~$120,000 thousand pre-tax / ~$80,000 thousand after tax | P1S01 | **booked in Q1 FY1994** (`(PB)` event-in-window) · "approximately" · components listed but not individually quantified |
+| Exchange terms | 2.13 PriceCostco shares per Price share; 1 per Costco share; par $.10 and $.0033 | P1S01 | ratio, not value · **relative value not derivable**: predecessor share counts UNKNOWN |
+| Class denominator at 1994-01-03 | 217,824,368 shares implied by the filer's own 5.22% computation | P2S01 | **a filer's arithmetic on a form**, not a board-certified count · as-of date of the denominator UNKNOWN · **cross-foots exactly** with 11,366,937 |
+| Family conversion price | ≈ **$22.53** per share | P2S01, **DERIVED** | 7,690,000 ÷ 341,243 = 22.53; 700,000 ÷ 31,061 = 22.54 · arithmetic shown in-register · series, issue date and terms UNKNOWN |
+| Share bases, five-year per-share table | "Shares used in calculation (000's): 212,772 / 181,336 / 180,887 / 168,324 / 130,367" | P1S01 l.1195-1206 | **column-to-year assignment NOT verified by this pass** — the header row of that table fragment was above the window read, so no year is attached to any of the five values in this dossier. Registered as an open pointer (P2G04) rather than guessed at; it is *not* consistent with the FY1993 diluted count part 1 printed (240,162 thousand), which is itself a reason not to assign years from memory |
+| Interest expense | $46,116 FY1993; $50,472 FY1994 | P1S01 | fiscal · combined-restated · named causes: convertible debentures, bank lines, commercial paper |
+| Property additions FY1994 / FY1992 | $475,000 / $533,000 thousand | P1S01 | fiscal · **additions, not capex accrual or cash capex** · FY1992 includes what debentures and property sales funded |
+| Working capital | $127,312 thousand (FY1993-end) → $(113,009) (FY1994-end) | P1S01 | **period-end balance**, combined · the swing is the merger plus expansion, per the filing |
+
+**Three things this table refuses to do.** It does **not** compute revenue, sales or fee per warehouse, because
+the denominator is a period-end count while the numerator is a year of flow and openings straddle years; the
+corpus never prints such a ratio and inventing one would create a Stage-1 metric the record cannot support. It
+does **not** convert the calendar-quarter share-price table (P1S01 Item 5, calendar 1991 Q1 through 1993 Q4) into
+fiscal-year values, and it records why: the Price column *"has been adjusted to reflect the 2.13 exchange ratio"*
+and the Costco column to two splits (two-for-one effective 1991-04-30; three-for-two effective 1992-03-06), so
+**what is printed for 1991 is not what any trader saw in 1991** — a restatement of price history inside a market
+table, and the sharpest illustration in this dossier that nothing printed after October 1993 is an unmediated
+in-window number. And it does **not** treat the 800/850/750 club counts as a series at all.
+
+---
+
+## N — Contemporaneous versus retrospective, row by row
+
+STATUS: WRITTEN 2026-09-29 — **mandatory at every tier (§15.2)**
+
+**The rule (§6, §3).** A document is **CONTEMPORANEOUS** when it was produced inside the period it speaks about
+and by a party speaking about its own acts or observations; it is **RETROSPECTIVE** when the writing post-dates
+the event. A **filing's own year is contemporaneous for itself**: the FY1994 10-K is a contemporaneous artefact
+of 1994-11-17 and a retrospective source for everything it says about 1976, 1983 or FY1988. This section applies
+the test per row-group so no later pass has to infer it.
+
+| Row group (this volume) | Class actually assigned | Why |
+|---|---|---|
+| Merger approvals, ratios, vehicle, dates, symbols, 2.13/1 terms | **CONTEMPORANEOUS** (a 1994-11-17 document recording an act of 1993-10-21, ~12 months over the boundary but describing the closing act of the window) | The registrant writing about its own formation, in the year it formed. Capped Medium only because the carrier is one lineage |
+| The effective date "October 21, 1993" | CONTEMPORANEOUS ×2 carriers: P1S01 (registrant, 1994) and **P2S01 (an individual's filing, 1994-12-23 as to a 1994-01-03 event)** | the only claim in this volume with two carriers of different filing persons — see §T |
+| FY1985–FY1993 revenue, unit counts, margins, balance-sheet ladder | **RESTATED** — the label part 1 put on P1S01's `evidence_class` and it governs here too | figures for those years exist in this form only because 1993 combined the chains; they are not either company's published numbers and are not "retrospective recollections" either |
+| Merger cost $120,000/$80,000 and its components | CONTEMPORANEOUS as to the booking (Q1 FY1994), `(PB)` as to the expense | the event is in-window, the expense is not |
+| Channel descriptions (§G.1, §G.2) — direct mail through credit unions, SKU average, hours, pallet display, scan-at-register | **RETROSPECTIVE company self-description of a continuing practice**: printed 1994-11-17, no start date attached | this is the class that most often gets read as contemporaneous; every one of those mechanics is evidence that the practice existed in 1994 and that the company described it, and is **not** evidence about 1976 or 1983 |
+| Membership fee schedules, member counts, employee counts | **CONTEMPORANEOUS for their own period-end** (1994-08-28, 1995-09-03) and **`(PB)` for Stage 1** | a headcount or a member count as of a date is a direct record of that date; the date is outside the window |
+| 31,000 SF members; "several other Costco stores … in the Bay Area"; Sewell's and Courtney's comments; the Corbans' comment; the transit assumption | **CONTEMPORANEOUS OBSERVATION**, in-window, third-party, **and the only such class in §G–§U** | written 1991-12/1992-04 about 1991-92 conditions by a lead agency and members of the public; nothing in the lineage touches it |
+| Estate by brand and state at 1994-08-28 (§I.2); the geographic segregation reading | CONTEMPORANEOUS for that date, `(PB)` for Stage 1 | the table is a period snapshot; the *inference* that the chains were complementary is this volume's INFERENCE, labelled as one |
+| Lazarus 1983-11, Loge 1989-03 and 1990-12, and part 1's inherited 1977-09 warehouse manager | **RETROSPECTIVE** (printed 1994/1997 about 1983/1989) — but **dated individual acts inside the window**, which is a different evidentiary use from an origin sentence | Medium, one lineage. These are the closest the corpus comes to in-window activity by name on either leg, and they arrive as memory |
+| Club population 800/850/750/750 | **CONTEMPORANEOUS company estimate of its own market** — the estimate was made in the year it describes, and it is still a self-report with no method | the class and the confidence are separate: contemporary ≠ reliable |
+| Exchange Transaction terms, 27M Newco shares, $182,500 estimate, $83,363 true-up | CONTEMPORANEOUS as to 1994 (P2S02) and 1995-97 (P1S01/P1S04); **all `(PB)` for Stage 1** | used only as a consequence and as a cost signal, never as a Stage-1 fact |
+| The 1993 textbook-free "pioneering the membership warehouse concept" clause | **RETROSPECTIVE INTERPRETATION** carried as FACT-about-the-printing only, per part 1's Header rule | enforced in every record below |
+
+**One inversion worth naming, because this section exists to catch it.** The *most* in-window facts in this whole
+dossier are not the company's numbers but a city's traffic assumptions, a commissioner's analogy about shopping
+carts, and a household's sentence about driving to San Mateo County. The corpus's temporal hierarchy is therefore
+the reverse of its prestige hierarchy: the annual reports are the least contemporary documents in it, and the
+environmental review — a document nobody wrote to sell anything — is the only one that speaks from inside Stage 1.
+
+## O — Failures, with the evidence class named on each
+
+STATUS: WRITTEN 2026-09-29
+
+**§7 adaptation note, and a warning about the word.** Nothing in this corpus records a *business* failure of
+either leg inside Stage 1 — no closed chain, no abandoned market, no failed venture, no loss year, no restatement
+of a predecessor's own accounts — because no in-window document of either leg exists to record one. What the
+archive holds is a set of **negative signals reported by the company after the fact**, plus two failures of this
+project's own instrument. Each row below therefore carries its class explicitly, and the class is the finding.
+
+| Failure or negative signal | Magnitude as printed | Evidence class | Carrier | What it does **not** show |
+|---|---|---|---|---|
+| Comparable-warehouse sales negative in the last full in-window year and again the next | **−3%** FY1993, **−3%** FY1994, after **+6%** FY1992 | FACT (combined-restated) | P1S01 MD&A | that the format failed: 37 gross openings ran in the same year and the filing gives both facts |
+| Management names its own growth as a cause of the decline | *"the effect of sales cannibalization by opening additional warehouses in existing markets"* | RETROSPECTIVE INTERPRETATION (company self-explanation) | P1S01 MD&A | foresight of a limit — no held text projects the effect forward |
+| The estate was being pruned, and the pruning peaked in the last in-window year | closings **(7)** FY1993 against (1) FY1992, (4) FY1990, (3) FY1988, (2) FY1991, (8) FY1994; provisions **$2,000 → $5,000 → $7,500** thousand FY1992→94 | FACT (combined-restated) | P1S01 Item 6 / MD&A | any admission about the concept; the provisions are immaterial against operating income |
+| A site relationship went wrong expensively | **$5,750** thousand of the FY1994 closing provision is *"settlement of a lease dispute"* | FACT, `(PB)` booking | P1S01 MD&A | that it arose in-window — the underlying lease date is unprinted |
+| The business-member class shrank while the company grew | Business memberships **3.4M → 3.3M** across FY1994→FY1995, total 9.8M → 10.0M | FACT, period-end, `(PB)` | P1S01 l.381; P1S02 l.355 | the size of the decline or its cause, which the company attributes elsewhere to *"overlapping memberships"* and reciprocal privileges |
+| Renewals fell, and the company says it expected them to | *"As anticipated, the Company experienced a decline in membership renewals at existing warehouses"* | FACT (company attribution), **no rate printed** | P1S01 l.1334-1338 | magnitude: **no renewal percentage exists anywhere in the corpus, for any year** |
+| A price-leadership format raised its price twice inside and just past the window | fee increases *"in fiscal 1992"* and *"implemented in January 1994"*; fee revenue 2.00% → 2.04% → 1.98% of net sales | FACT (restated carrier; the acts are in-window and `(PB)`) | P1S01 MD&A | amounts, markets or dates for the 1992 round — **P1G06 stands open** |
+| Suppliers refused to sell to the company | *"Some manufacturers attempt to maintain the resale price of their products by refusing to sell to the Company"* | FACT as the company characterises it, **with its own comfort clause attached** ("the Company believes that it has not been materially affected") | P1S01 REGULATION | whether the refusals changed assortment; no supplier list, no year, no count |
+| The one in-window expansion attempt the record follows met procedural friction | a **1989** application; an EIR required in **1990**; a draft published **1991-12-12**; **no Site Permit applied for as at certification, 1992-04-16** | CONTEMPORANEOUS OBSERVATION, third-party | P1S08 | abandonment — the held bytes stop at certification (P2G06) |
+| The decision-maker declined to price the competitive effect | *"The extent to which the proposed Costco store might pose competition to other businesses in San Francisco … is not known."* | CONTEMPORANEOUS, third-party — **an explicit statement that a question was unanswerable** | P1S08 l.13652-13656 | that competition did not matter; the city says only that CEQA does not reach it |
+| FY1994 working capital turned negative for the first time in the printed series | $127,312 → **$(113,009)** thousand, the largest year-on-year swing in ten years | FACT (combined-restated, `(PB)` year) | P1S01 Item 6 / l.1614-1640 | distress: the filing's own cause is expansion plus merger expense, and it calls the deficit a normal consequence of turnover |
+| Non-club real estate was carried at a book basis above what the market would take | estimated loss on disposal **$182,500** thousand; true-up **+$83,363** thousand in FY1995 (27,000 × $3.0875) | FACT, `(PB)`, arithmetic checked | P1S01 l.1400-1420; P1S04 l.2125-2160 | that the segment was mismanaged — no held document prices the properties independently |
+| **This project's own failure, class METHOD DEFECT** | the fleet harvester stamped a Quebec paper-and-pulp issuer **`TIER1_CANDIDATE`** for 1976, 1977 and 1978, and four passes later 36 of 50 `company=costco` index rows still carry that label, most of them *"Compiled military service records"* microfilm | FACT about our instrument, verified by reading both held layers | P1S10; P2S05 (index re-census this pass) | nothing about the company; **it is the RD-124 class, still live in this index** |
+| **A second project failure, class TOOL DEFECT** | `sec_intake auto` reported **"0 documents stored, 0 UNANSWERED"** for a window that held 11 documents and 2,285,245 bytes, and it drops **48 of 59** in-window rows without an UNANSWERED record | FACT, re-measured on the identical command shape | part 1's K08; `research/A3_intake_regrade.md` | that the filings do not exist — they are indexed and unfetched, hence P2G05 |
+
+**Coda (mechanism, alternative, confidence).** The mechanism available from these rows is a single sentence the
+company wrote about itself: newer units *"operate at significantly lower annual sales volumes than mature units
+and, therefore, incur higher expense ratios"*, which makes FY1993's negative comps and FY1994's rising SG&A ratio
+one phenomenon rather than two, and predicts that a chain adding 37 units in a year will report worsening
+per-unit metrics whatever customers do. *Alternative explanation this volume keeps live:* the same pattern is
+consistent with genuine demand saturation — the filing lists *"increased competition in several markets"*,
+category deflation, a poor California economy and a weak Canadian dollar alongside cannibalisation, and this
+corpus holds **no independent count of clubs** (K12) with which to separate "we cannibalised ourselves" from "the
+market filled up". *Confidence:* **Medium** for every printed value, **Low** for the causal ordering, **UNKNOWN**
+for the magnitude of the renewal decline, and **High** only for the two rows whose evidence class is a defect in
+our own tools.
+
+---
+
+## P — Decisions, and the alternatives the record actually documents
+
+STATUS: WRITTEN 2026-09-29
+
+**The scarcity to state before the table.** In §7's decision frame, `Alternatives` is a required column, and on
+this corpus it is **almost always UNKNOWN** — no held document says what either chain considered, rejected or
+debated. **The single exception in the whole dossier is the 1994 exchange agreement, which prints a genuine menu
+of two outcomes with two numeric thresholds.** That asymmetry is itself the finding: the archive documents
+settlements and their mechanics, not choices and their rivals.
+
+| Date | Decision | State before | Information available | Unknowns | Alternatives | Constraints | Rationale | Expected result | Actual result | Evidence | Conf |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1993-10-21 | Shareholders of both chains approve merging **with and into separate subsidiaries** of a newly formed holding company, on 2.13-to-1 and 1-to-1 terms, accounted for as a pooling | two separately listed Nasdaq chains, two HQs, two board traditions, complementary regional estates | each chain's own results by year (to the companies themselves); the ratios; the market quotations both sides had just printed | why this structure rather than an acquisition by either side; what each board projected | **UNKNOWN — no alternative structure is named in any held text** | pooling required restating all prior years as one entity and expensing the ~$120,000 thousand cost of combining | **not stated anywhere in four printings, an 8-K, a proxy and a 13D** | UNKNOWN | a single registrant with one symbol, one class, 200+ warehouses and the deepest filed series in the corpus | P1S01, P2S01 | Medium |
+| fiscal 1992 | Membership fee increases in certain markets | fee revenue at 2.00% of net sales | own fee revenue and its share of sales | which markets, what amounts, what dates | **UNKNOWN** | a ~2% fee layer is a small lever; the format's appeal is price | not stated | UNKNOWN | fee dollars +12% in FY1993 and the share up to 2.04% | P1S01 MD&A | Medium |
+| 1989-08-25 → 1992-04-16 | Enter San Francisco through a Conditional Use application bundling **60-80 affordable dwelling units** with an ~118,500 sq ft retail box | no Costco presence in the city in the held record | the city's 1986 Priority Policies protecting *"neighborhood-serving retail uses"* and industrial land; the §303 hearing path; that no permits issue before certification | whether the housing bundle was necessary or merely sufficient; what the company expected to pay and sell | **documented, in the city's own statutory language:** approval with a *statement of overriding considerations*, or approval outweighed, or — as at certification — *"An application for a Site Permit for the project has not been filed to date"* | South of Market transition district; traffic and earthworks were the ten live issues; a saturated peak parking condition was already observed nearby | **the EIR is a permit record and does not state the applicant's reasoning** | certification of the final report | certified **1992-04-16**; whether it was ever built is UNTRIED | P1S08 (+ P1S09 unread) | **High** — third-party, in-window |
+| May 1992 | Issue **$300,000 thousand of 5 3/4% convertible subordinated debentures** | FY1992 additions to property and equipment of $533,000 thousand against $296,000 thousand of operating cash | the FY1992 funding gap (visible only as arithmetic); equity and credit capacity | terms, underwriters, use-of-proceeds detail, whether bank debt or equity were weighed | **UNKNOWN — not named** | FY1991 and FY1992 short-term debt were **zero at both period-ends** ($0 at 1991-09-01 and 1992-08-30); long-term debt and capital lease obligations stood at $500,440 thousand entering FY1992 | not stated for the issue itself; MD&A simply says the series *"accounted for the increase"* in interest expense | UNKNOWN | long-term debt $199,506 → $500,440 → $813,976 thousand FY1990→92 | P1S01 l.1500-1510, l.1620-1626, Item 6 | Medium |
+| FY1992–FY1993 | Close or relocate units while opening others (7 closed FY1993; 3 FY1992 actions completed) | an estate reported by gross openings | closing provisions $2,000 then $5,000 thousand | which units, which markets, what was wrong with them | **UNKNOWN** | provisions are immaterial against operating income | not stated | UNKNOWN | net additions held at +30 in both years while gross openings rose 31→37 | P1S01 Item 6 / MD&A | Medium |
+| 1992–1993 (Mexico) | Enter Mexico through a **50 percent joint venture**, accounted on the equity basis | no units outside the U.S. and Canada | the filing's own warning that *"These warehouses are not included in the number of warehouses open in any period"* | whether consolidation was considered; the venture's economics | **UNKNOWN** | a partner (Controladora Comercial Mexicana) had to hold the other half | not stated | UNKNOWN | one club opened FY1992, two FY1993, **all invisible in the 200-unit FY1993 count**; by FY1994, eight; by 1997, thirteen | P1S01 Item 2 fn (a); P1S04 l.1181-1183 | Medium |
+| 1993-11-01 `(PB)` | Extend **reciprocal member privileges** across the two brands ten days after the boundary | two membership bases with overlapping holders | the company's own recognition of the overlap | whether the fee loss was measured before or after | **UNKNOWN** | a fee is only charged once per household | *"reinforce customer loyalty and provide a continuing source of membership fee revenue"* | renewal decline described *"As anticipated"* | renewals fell; Business memberships fell 3.4M → 3.3M | P1S01 l.1334-1338; P1S02 | Medium |
+| 1994-07-28 `(PB)` | Spin non-club real estate into Price Enterprises for 27 million shares, then exchange one-for-one with registrant holders down to thresholds of **21.6 million / 27 million** | a merchandising company carrying income property, municipal notes and a hotel note | *"PriceCostco does not expect to make significant investments in non-club real estate in the future"*; book basis $579,000 vs an estimated market value of $411,750 | how the price was struck, who advised, what the board weighed against retention | **documented twice:** pro-rata distribution of the remainder **or** sale of it to Newco for a promissory note; and within the exchange, acceptance pro rata if tenders exceeded 21.6 million | *"Newco … will constitute all of the outstanding shares"*; the registrant's own impairment logic changed because the spun entity *"will not have the same access to capital"* | stated, in part — assets *"not integral to the Company's merchandising operations"* | close *"by calendar year-end"* | FY1994 loss on disposal estimated $182,500 thousand; FY1995 non-cash true-up **+$83,363** thousand at an actual $12.1625 per share | P2S02 l.104-141; P1S01; P1S04 l.2125-2160 | Medium-High for the mechanics, `(PB)` for the stage |
+
+**Reading the `Alternatives` column honestly.** Four of seven rows say **UNKNOWN** and the three that do not say
+it are recording alternatives offered **to somebody else**: a statute's menu to a city hearing officer, and a
+contract's menu to a stockholder deciding whether to tender. **Not one held sentence in this corpus records an
+alternative that either chain considered and did not take.** That is what the record-selection null looks like in
+a decisions table, and it is why §P cannot support a claim about the quality of any Stage-1 decision.
+
+---
+
+## Q — Consequences of the Stage-1 state, labelled as such
+
+STATUS: WRITTEN 2026-09-29
+
+**Every row in this section is post-boundary and is marked `RETROSPECTIVE` or `(PB)` at the row level (§13). A
+consequence is not a Stage-1 fact and none is used anywhere above as one.**
+
+| Consequence | What the held bytes show | Carrier | Label |
+|---|---|---|---|
+| **Two price histories became one** | PCLB and COST quotations stop at 1993-10-21; PCCW begins 1993-10-22 with a Q4 range of $17 1/8 – $21 3/8 and closed at **$15.75 on 1994-10-31**, with **~13,811 stockholders of record** | P1S01 Item 5 | `(PB)`; RETROSPECTIVE as an outcome |
+| **The pooled series became the company's published past** | the FY1997 10-K — under the name **Costco Companies Inc.**, i.e. after the registrant had moved its masthead toward the Seattle leg — still prints *"began operations in 1976 in San Diego, California as The Price Company"* | P1S04 | RETROSPECTIVE; **this is the strongest held evidence that leg P is the registrant's chosen spine, and part 1's Boundary §2 adopts two legs partly because of it** |
+| **The family's money left and stayed** | Sol Price's 13D: 11,366,937 shares, 5.22% by his own arithmetic, six tranches across four trusts, conversion rights on **$7.69 million and $0.7 million** of debentures; the aircraft purchase from a corporation he wholly owned on **1993-10-25** for $830,000 and **$710,513** of FY1994 rentals | P2S01; P1S06 | `(PB)`; the 1993-10-25 date is four days past the boundary and is recorded in part 1's timeline for exactly that reason |
+| **The real-estate exit was paid for twice** | an estimated $182,500 thousand loss on disposal in FY1994, increased by a **non-cash $83,363** thousand in FY1995 because the actual clearing price of the spun shares was $12.1625 against an estimate $3.0875 lower | P1S01; P1S04 | `(PB)`; arithmetic cross-checked this pass |
+| **The ventures the merger inherited were pruned one by one** | Price Quest's *"interactive electronic shopping business"* discontinued in the company's warehouses *"on or about September 1, 1996"*, leaving auto referral and travel services; the Mexico interest acquired back from Price Enterprises in **April 1995** at 25.5 percent of a venture, with Price Club Mexico at **13 warehouses** by 1997-08-31 and the company's stake at 50 percent | P1S04 l.2145-2160, l.1181-1183 | `(PB)` |
+| **The bank line contracted while the estate grew** | *"a group of 14 banks"* (FY1994) → *"a group of 12 banks"* (FY1997), on the same $500,000 program; warehouses 221 → 254 in North America | P1S01 l.1588; P1S04 l.1186-1190 | `(PB)` |
+| **The competitive paragraph edited itself as the decade closed** | the category-killers' status moves from *"have gained major market share"* (1994) to *"have significant market share"* (1995-97); the causal sentence about declining comps disappears after 1994; Kmart is dropped in 1997; **electronic commerce over the Internet is added in 1997** | P1S01-P1S04 | `(PB)`; **within-lineage drift, not corroboration** |
+| **The 1976 leg's labour asymmetry survived the merger only as a sentence** | the Teamsters line stays pinned to Price's 11,000 hourly employees in six states plus one Virginia club, while *"all employees of Costco are non-union"* | P1S02 l.359-372 | `(PB)`; it is a Stage-1 structural fact printed after the fact |
+| **A consequence for this project** | the harvest index for `company=costco` grew from the 38 rows part 1 counted to **50 rows** on the 2026-09-29 run (36 TIER1_CANDIDATE / 7 LEAD_ONLY / 3 UNANSWERED / 2 ERROR / 2 NULL); the four Chronicling America rows are now **404-on-our-path**, not refusals; and **4 of 50 rows have ever been mined** | `00_universe/harvest/candidates.csv`, counted by column this pass | a finding about the archive's growth, which RD-122 requires re-censusing before any merge brief is written |
+
+**Coda.** Read as of the boundary and without the outcome, the entity that closed Stage 1 had produced — in the
+documents' own words — a single class of stock replacing two, a filed history that now began in 1976 for a
+registrant formed in 1993, an estate of 200 counted units that excluded at least three operating clubs in Mexico,
+a fee layer of about two percent that had just started to fall in share while rising in dollars, a founding
+family at 5.22 percent by its own computation with board seats contractually tied to a two-million-share floor,
+and a comparable-sales line at −3 percent whose named cause was the company's own expansion. **Mechanism for any
+of these consequences beyond "the merger happened" is UNKNOWN**; the corpus contains no statement of intent to
+connect the decision to any of its outcomes. **Confidence: Medium** per row, and **no row above is offered as
+evidence that Stage 1 ended well.**
+
+## R — Open conflicts: K09 → K21
+
+STATUS: WRITTEN 2026-09-29
+
+**Continuity and form.** Part 1 minted K01–K08 and this volume **continues the series at K09**; none of part 1's
+eight is closed, superseded or renumbered here, and K05 is *narrowed* by K09 rather than rewritten. Field set per
+method §7 (CLAIM A / CLAIM B / WHY THEY DIFFER / EVIDENCE WEIGHT / BEST-SUPPORTED INTERPRETATION / RESIDUAL
+UNCERTAINTY / CONFIDENCE). Four conflicts are set out in full because they are load-bearing; nine are given in the
+table in the same seven fields, one per column. **Six of the thirteen are conflicts inside a single lineage** —
+the same instrument printed twice and disagreeing with itself — and that class is the one a reader most often
+mis-counts as corroboration.
+
+### K09 — The merger's effective date: part 1's open residual, now answered on held bytes and still not closed
+
+**CLAIM A** — *The Merger occurred / was effective on October 21, 1993.* Two carriers: P1S01 Item 5, l.978
+("In the Merger, which occurred on October 21, 1993") and **P2S01** l.252-255 ("the merger of Price/Costco, Inc.,
+which was effective on October 21, 1993"), the latter filed by an individual rather than the issuer. Source dates
+1994-11-17 and 1994-12-23.
+**CLAIM B** — *The relevant event is 1993-10-22*, the first day of trading in the new security, which is the date
+the market treated as the beginning (P1S01 l.986-988, "Trading in PriceCostco Common Stock commenced on October
+22, 1993").
+**WHY THEY DIFFER** — three different acts in three different registers: the shareholder vote, the legal
+effectiveness of the merger, and the opening of quotation. Part 1 adopted the vote date and recorded that "the
+held text does not say" which day the mergers became effective; **the held text does say it, and part 1 had not
+opened the two places where it is said.**
+**EVIDENCE WEIGHT** — A now rests on two filings of different filing persons, one of them not the issuer; B rests
+on one clause of the same accession as A's first carrier. The market date has no legal weight.
+**BEST-SUPPORTED INTERPRETATION** — Stage 1 closes **1993-10-21**, and the closing is now supported as the
+merger's *occurrence and effectiveness*, not merely the approvals. Part 1's adopted boundary is unchanged; its
+reason is strengthened.
+**RESIDUAL UNCERTAINTY** — neither text states a clock time, and neither distinguishes the date of the vote from
+the date of the certificates from the date of effectiveness; the 13D's sentence is recital language in a form
+prepared with the issuer's investor-relations officer as its notice agent, so the *filing person* is independent
+while the *information* may not be.
+**CONFIDENCE: Medium**, raised from part 1's Low on the residual point, and not High because of the recital
+caveat.
+
+### K12 — The warehouse-club population, four printings, no method
+
+**CLAIM A** — approximately **800** clubs "across the U.S. and Canada" including the company's own 221 (P1S01,
+l.406-407, filed 1994-11-17).
+**CLAIM B** — approximately **850** including 240 (P1S02, 1995-11-30, l.383); approximately **750** "in North
+America" including 247 (P1S03, 1996-11-08, l.394); approximately **750** including 254 (P1S04, 1997-11-10, l.396).
+**WHY THEY DIFFER** — one company's unsourced estimate of its own market, re-struck each November, with a
+geography label that shifts from "the U.S. and Canada" to "North America", and a numerator that grows 15 percent
+while the denominator falls 6-12 percent.
+**EVIDENCE WEIGHT** — four printings of **one** paragraph in **one** lineage: under §3 this is version evidence
+and not four observations. No carrier, sampling frame, date of count or definition of "club" is printed anywhere.
+**BEST-SUPPORTED INTERPRETATION** — the only usable statement is the *qualitative* one that recurs in all four:
+*"every major metropolitan area has some, if not several, club operations."* The numbers are recorded as
+company self-reports of an industry, with **no independent count behind any of them** — which is precisely the
+absence §2's record-selection null names, and why §K item 8 returns NOT KNOWABLE.
+**RESIDUAL UNCERTAINTY** — whether the club population actually fell between 1995 and 1996, whether the ~750
+figures include the company's non-consolidated Mexico and Korea clubs, and whether the 1994 "800" was
+recollected or recomputed; the corpus cannot separate a contracting field from a looser later estimate.
+**CONFIDENCE: Low** for any industry size or trend; **Medium** for the claim that the registrant asserted these
+figures in those years.
+
+### K16 — The item-count null that part 1 recorded, and the bytes that carry the number
+
+**CLAIM A** — part 1, §E.1 and record **E07**: "SKU count, category weights, private-label share, price points —
+**UNKNOWN at every date in the window** — nothing held states an item count", minted as data gap **P1G03**.
+**CLAIM B** — P1S01 l.302-310: *"PriceCostco seeks to limit specific items in each product line to fast selling
+models, sizes and colors and therefore carries only an average of approximately 3,500 to 4,000 active
+stockkeeping units ('SKU's') per warehouse as opposed to full-line discount retailers which normally stock
+40,000 to 60,000 SKU's or more"*, and l.316-340, a category table printed for **fiscal 1992, 1993 and 1994**
+(Sundries 32/32/32, Food 31/31/31, Hardlines 21/21/22, Softlines 14/13/12, Other 2/3/3).
+**WHY THEY DIFFER** — an access gap, not a disagreement: part 1 read this accession down to about l.400 and
+Item 2/Item 5/Item 7 and never opened l.266-352, where both statements sit.
+**EVIDENCE WEIGHT** — B is bytes in the same 396,621 B file A cites; A is a census claim about a corpus, and the
+census was incomplete.
+**BEST-SUPPORTED INTERPRETATION** — **an item count and a category mix ARE held**: the SKU figure as an
+undated average `(PB)`, and the merchandise mix as a genuine three-year in-window (combined-restated) series.
+Part 1's P1G03 is narrowed to what it should have been: *the assortment of the 1976 and 1983 units is
+UNKNOWN*, and the price-point question remains unanswered.
+**RESIDUAL UNCERTAINTY** — no SKU figure exists for any Stage-1 year before FY1992; no private-label share or
+price point is printed anywhere; and the "40,000 to 60,000" comparator is unsourced.
+**CONFIDENCE: Medium** for the printed values, and **High** that they exist in the held file. **This is a
+correction of part 1, registered rather than silently applied.**
+
+### K17 — Whether leg C's estate is held separately from leg P's
+
+**CLAIM A** — part 1, §A.3: *"No unit count, no revenue, no member count, no site and no city-of-second-store is
+held for leg C alone anywhere in this corpus."*
+**CLAIM B** — P1S01 Item 2, l.674-780: the owned/leased warehouse table split by **PRICE** and **COSTCO** columns
+for every state and province — at 1994-08-28, United States **Price 75 / Costco 107**, Canada **Price 20 /
+Costco 17**, with Price holding all ten Quebec clubs and the Mid-Atlantic, Costco holding Washington, Oregon,
+Alaska, Florida, Hawaii, Montana and every other Canadian province.
+**WHY THEY DIFFER** — a *date* question answered as if it were an *existence* question: part 1 is right that no
+brand-split count exists for a Stage-1 period-end, and wrong that none is held at all.
+**EVIDENCE WEIGHT** — B is a filed table; A is a silence claim whose perimeter (part 1's own §14 rule) travelled
+too far.
+**BEST-SUPPORTED INTERPRETATION** — **a brand-split estate count is held at exactly one date, ten months past the
+boundary**, and it is the only held evidence that the two legs were regionally complementary rather than
+duplicative. Leg C remains without revenue, member count or a second-store site.
+**RESIDUAL UNCERTAINTY** — the same split for 1993, 1990 or 1985 is not held; whether the 1994 split reflects
+1983-93 openings or post-merger re-badging cannot be determined from this accession, since the FY1994 filing is
+the first to print brand by state.
+**CONFIDENCE: Medium** for B, and **High** that part 1's A.3 sentence as written overstates the null.
+
+### The remaining conflicts, in the same seven fields
+
+| conflict_id | CLAIM A | CLAIM B | WHY THEY DIFFER | EVIDENCE WEIGHT | BEST-SUPPORTED INTERPRETATION | RESIDUAL UNCERTAINTY | CONF |
+|---|---|---|---|---|---|---|---|
+| **K10** | Business members "generally pay an annual membership fee of **$35** for the primary membership card with additional membership cards available for an annual fee of **from $10 to $15**"; individual members pay **$35** which "includes a second membership card" (P1S01, l.373-380, 1994-11-17) | Business "generally pay an annual membership fee of **$30** … with additional membership cards available for an annual fee of **$15**"; individual "$35 which includes a **spouse card**" (P1S02, l.344-352, 1995-11-30) | One lineage prints a **higher** primary Business fee in the earlier year and a wider additional-card range; the second card becomes a spouse card | two printings of one instrument; neither is sourced to a date of change | the **$30/$15 pair is the FY1995 schedule and the $35/$10-15 pair the FY1994 schedule** — a card-class restructuring in 1995 is the simplest reading, and no held text says one happened | whether this is a price change, a reclassification of classes, or a drafting error; **no fee level for any Stage-1 year exists either way** | Low |
+| **K11** | "PriceCostco's typical warehouse format averages approximately **120,000** square feet" (P1S01, l.236-237) | "… averages approximately **125,000** square feet" (P1S02, l.227-229) | an estate average re-struck a year later, with no distribution printed behind either | one lineage, two printings, both `(PB)` | use **118,500-120,000 sq ft** for the one *measured* unit (P1S08) and treat 120,000/125,000 as successive company averages, not as a spec | whether the change is growth in unit size or noise in the average; no minimum or maximum is printed | Low |
+| **K13** | management intends "an aggregate of approximately **$600 million to $700 million** during fiscal 1995" for US/Canada clubs, international expansion and "activities such as business delivery and ancillary business operations" (P1S01, l.653-660) | the same plan in MD&A: "**$500,000 to $600,000** … in the United States and Canada for real estate, construction, remodeling and equipment …; and approximately **$50,000 to $100,000** for international expansion" (P1S01, l.1597-1603, thousands) | the same filing prints an aggregate range and a component range that sum to **$550,000-$700,000** thousand: the low ends differ by $50,000 thousand | one accession, two sections; the component version is the more specific | the **component figures are the working numbers**; the Item 1 aggregate rounds the bottom up, and the ancillary/business-delivery bucket is not in either range with an amount | whether ancillary activities sit inside the $500-600,000 or on top of it; whether either range was ever met is `(PB)` | Medium |
+| **K14** | "As of **August 28, 1994**, PriceCostco had approximately **47,000** employees, about 50% of which were part time" (P1S01, l.388-390) | part 1, §B.2: "Workforce, at the FY1994 filing — **~52,000** employees about 50% part-time (P1S02, `(PB)`)"; P1S02 in fact reads "As of **September 3, 1995**, PriceCostco had approximately 52,000 employees" (l.359-361) | a carrier/date mismatch: the 52,000 belongs to FY1995 period-end, and the FY1994 filing prints 47,000 at FY1994 period-end | both sentences are real; part 1's row paired the wrong one with the wrong date | **47,000 at 1994-08-28 and 52,000 at 1995-09-03**, each period-end; there is no Stage-1 headcount in the corpus | 1993 and 1985 headcounts are unprinted; whether the FY1994→95 rise is openings or integration is not stated | Medium, and part 1's row is corrected here |
+| **K15** | "PriceCostco is incorporated in the State of **Delaware**" (P1S01, l.354); the 8-K likewise calls Newco "a newly formed **Delaware** corporation" (P2S02, l.118) | the EDGAR subject-company header of the SC 13D prints "STATE OF INCORPORATION: **CA**" for PRICE/COSTCO INC (P2S01, l.33) | one is the registrant's own statement in a filed annual report; the other is index metadata in a third party's form, and California is the state of **Price**, one of the two absorbed companies | the report text outranks a conforming-header field | **Delaware** for the merged registrant; the CA field is most plausibly inherited from the predecessor or mis-keyed, and it is not evidence of incorporation anywhere | the metadata field's provenance is not recoverable from this corpus; the 13G (P2S03) does not print a state field at all, so it cannot arbitrate | Medium |
+| **K18** | part 1, §A.2 / A02: FY1993 diluted EPS $1.00 "on **240,162** thousand shares" | P1S01 Item 6, l.1195-1206 prints "Shares used in calculation (000's): **212,772 181,336 180,887 168,324 130,367**" in a five-column block whose header row this pass did not read | a five-year table whose column-to-year mapping is unverified, set against a figure part 1 attached to FY1993 | neither reading is complete: the fragment is real, the assignment is not | **no year is attached to any of the five values in this dossier**; the register records the row as an open pointer (P2G04), not as a share count for any year | whether the row is primary or fully diluted, and whether it covers FY1990-94 or FY1989-93 | Low; deliberately unresolved |
+| **K19** | A4 (2026-09-26) and the dispatch brief: **33** `company=costco` rows, 4 mined, 2 entity-bearing | part 1, P1S11: **38** rows counted this pass, split 26 TIER1_CANDIDATE / 7 LEAD_ONLY / 3 UNANSWERED / 2 NULL | the index is a **growing** file: the nightly harvest (RD-128) and the 2026-09-29 run added rows after both counts | this pass's count is by column, from the file as it stands today | **50 rows now**: 36 TIER1_CANDIDATE, 7 LEAD_ONLY, 3 UNANSWERED, 2 ERROR, 2 NULL, across internet_archive 30 / google_books 12 / chronicling_america 4 / corporate_print 3 / hathitrust 1. **Still exactly 2 items have ever been mined into evidence** | the count will move again; the merge must re-census before briefing (RD-122), and no tier verdict may rest on a row count | High for today's count; the divergence itself is the finding |
+| **K20** | the dispatch brief treats **Price Club** as one of three Stage-1 competitors | the filings use "Price Club" as the registrant's **own** trading name for leg P's clubs (P1S01 l.381-386, l.674-780; P1S02 "Members can utilize their memberships at any **Price Club** or Costco Wholesale location"), and the EIR's 7 occurrences are shoppers and officials speaking | a name that belongs to the subject is being counted as a rival | the bytes decide this one completely | **"Price Club" is not a competitor in this record.** The competitive field the filings do name is department stores, grocery stores, traditional wholesalers, then Wal-Mart/Kmart/Target, category killers and Smart & Final | whether any *unrelated* operator also traded under "Price Club" — the corpus never searches for that and it stays UNTRIED | High |
+| **K21** | Sol Price's 13D computes his 11,366,937 shares as **5.22%** on a printed denominator of **217,824,368** (P2S01, l.~200) | Capital Group's 13G reports **10,125,590** shares as **5.2%** of the same class (CUSIP 74143W102) at 1996-02-12, printing **no denominator** (P2S03, l.160-183, 282-330) | two 5-percent filings, two years apart, one of them printing no denominator: the 13G's figures imply a class of roughly **193-197 million** shares (10,125,590 ÷ 5.25% to ÷ 5.15%), about **10 percent below** the 13D's denominator | both are third-party filings; neither is a company share-count disclosure | **the class size cannot be fixed from either.** The 13D's denominator is a filer's arithmetic at a 1994-01-03 event date; the 13G's percentage is rounded to one decimal, so its implied denominator is a band, not a number | which share count either filer used, and when; whether repurchases or the Newco exchange changed the class between 1994 and 1996 | Low |
+
+**Note on K21's second carrier.** The SC 13G (P2S03) is **a lineage this volume adds to §T**: an unrelated
+institution's own report of its own holdings, with the standard passive-control recital ("the securities referred
+to above were acquired in the ordinary course of business and were not acquired for the purpose of and do not have
+the effect of changing or influencing the control of the issuer"). It is the **only document in this company's
+archive filed by a party with no relationship to either leg**, and it carries no origin-year statement whatever —
+which is worth stating plainly, because a new lineage with no in-window content changes the independence ledger
+and changes no finding.
+
+---
+
+## S — Fiscal and reporting basis
+
+STATUS: WRITTEN 2026-09-29
+
+| Item | As printed | Carrier | Consequence for anyone using the numbers |
+|---|---|---|---|
+| Fiscal-year definition | *"reports on a 52/53 week fiscal year, consisting of 13 four-week periods and ending on the Sunday nearest the end of August. The first, second and third quarters consist of three periods each, and the fourth quarter consists of four periods (five weeks in the thirteenth period in a 53-week year)."* | P1S01 l.354-362 (P1S02 carries the same definition) | the year is **not** a calendar year and **not** of constant length; a "quarter" here is four weeks, so quarterly comparisons move a month between years |
+| Year-ends actually in the filed series | FY1985 **1985-09-01** · FY1986 **1986-08-31** · FY1987 **1987-08-30** · FY1988 **1988-08-28** · FY1989 **1989-09-03 (53 weeks)** · FY1990 **1990-09-02** · FY1991 **1991-09-01** · FY1992 **1992-08-30** · FY1993 **1993-08-29** · FY1994 **1994-08-28** | P1S01 Item 6 | FY1989 carries an extra week: per-unit and growth figures for it are not length-comparable with FY1988 or FY1990 (part 1's Header rule, enforced in every `quantitative.csv` row here) |
+| Conformity of two calendars | *"The financial statements have also been adjusted to conform the accounting policies and interim reporting periods of the separate companies."* | P1S01 l.190-192 | the pre-1993 columns are a **constructed** series: two different year-ends and policy sets were welded before the numbers were printed, and the FY1989 income-tax conformity reduced retained earnings by **$20,100** thousand to do it |
+| Money units | *"DOLLARS IN THOUSANDS, EXCEPT WAREHOUSE AND PER SHARE DATA"* | P1S01 Item 6/7 | every bare figure in this dossier is thousands; the MD&A also writes round thousands ("$120 million, or $80 million after tax"), so the same quantity appears in two registers |
+| Revenue definitions | **net sales** excludes fees; **membership fees and other** is a separate line; **total revenue** would combine them; **gross margin** is defined *"as net sales minus merchandise costs"* | P1S01 MD&A l.1325-1345 | no margin figure here is comparable to a gross-margin figure computed elsewhere; "fees and other" is **not** a fee total |
+| Inventory basis | **LIFO**; the filing prints the LIFO/FIFO difference: *"a $5,350 LIFO benefit or $.01 per share … in fiscal 1993"* and *"a $2,600 LIFO benefit"* in FY1994 | P1S01 MD&A | margins are not FIFO-comparable in either year, and the benefit is small enough that the LIFO/FIFO choice does not explain the FY1993 margin move |
+| Fee revenue recognition | *"annual membership fees are recognized as income when received."* | P1S02 l.1920 (accounting-policies note) | **the fee line is a cash-timing line, not an earned-over-the-year line** — a change in renewal timing or in the reciprocal-privilege policy moves reported revenue without moving the member base, which is a live issue in the very year the company extended cross-brand privileges |
+| Discontinued operations | non-club real estate is presented as **discontinued**, carrying its own $90,200 thousand provision and the $182,500 thousand estimated disposal loss | P1S01 MD&A l.1395-1420 | the FY1994 headline loss is not comparable to prior years on a continuing-operations basis: income from continuing operations was $110,898 thousand (FY1994) against $202,843 thousand (FY1993) |
+| Per-unit metrics | **no** filed revenue-per-warehouse or fee-per-member figure appears anywhere in the held bytes; the only per-unit statements are the format average (120,000/125,000 sq ft) and the SKU average (3,500-4,000) | census of P1S01-P1S04 | every per-unit number in this dossier is `DERIVED`, carries its arithmetic in `derived_arithmetic`, and is capped Low or Medium accordingly |
+| Off-series units | the Mexico clubs are *"not included in the number of warehouses open in any period because the joint venture is accounted for on the equity basis"*; the UK clubs run through a **60 percent** subsidiary (a `(PB)` disclosure of FY1994 openings) | P1S01 Item 2 fn (a), l.640-660 | the estate series **understates the operating footprint**, in-window: at least three Mexico clubs opened in FY1992-93 are missing from the 200 counted at FY1993-end |
+| Share-based measures | diluted counts move with the debentures' dilutive status — the per-share note describes the 5 3/4% series in *"primary and fully diluted"* and the 6 3/4% in *"fully diluted only"*, then states that for fiscal 1994 the 6 3/4% and 5 1/2% series *"were not dilutive"* | P1S01 l.2380-2390, **read as fragments only on this pass; the paragraph was not opened whole** | do **not** construct a per-share series across FY1993-FY1994 without re-reading that note; registered as a pointer (P2G04) and the reason no EPS row in this volume is labelled comparable |
+| Registrant identity metadata | SIC **5331 RETAIL-VARIETY STORES**; fiscal year end printed as **0830**; IRS number 330572969; San Diego business address **4649 Morena Boulevard** and mail address **4241 Jutland Drive #300**; former names `PRICE/COSTCO INC` → `COSTCO COMPANIES INC` | P2S01 header l.16-48; `sources/_index/CIK0000909832-main.json` via part 1 | a **structural** fact set, useful for locating predecessor filings: the SIC code is the trade classification the SEC assigned, and the "0830" field is the merged company's fiscal convention, not either leg's |
+| Seasonality | *"There is no material seasonal impact on PriceCostco's operations, except an increased level of sales and earnings during the Christmas holiday season."* | P1S01 l.362-366 | a 52/53-week year whose fourth quarter is four periods means **the Christmas quarter is a different length in different years**, which the filing's own quarter definition makes visible |
+
+## T — Independence ledger: which lineages actually exist
+
+STATUS: WRITTEN 2026-09-29
+
+**Purpose (§3, and the RD-125 lesson).** Target's Stage 1 carried an independence ledger that inverted its own
+§H.2 in one section, which is why this ledger enumerates each lineage, names its documents, states what it can
+settle and — in the last column — what it must never be used for. **A lineage is a set of documents no one of
+which is derived from another; multiple printings of one instrument are one lineage, and this dossier's central
+structural fact is that the lineage carrying every origin statement is a single corporate record.**
+
+| Lineage | What it is | Documents in this archive | Can settle | Must never be used for |
+|---|---|---|---|---|
+| **L1 — the PriceCostco / Price corporate record** | the merged registrant and its predecessor leg, speaking about itself, in instruments filed with the SEC | **12 accessions here**: FY1994 10-K (P1S01, 396,621 B), FY1995 10-K405 (P1S02), FY1996 10-K405 (P1S03), FY1997 10-K (P1S04), 8-K 1994-07-28 (P1S05 = P2S02, same document), DEF 14A 1994-12-23 (P1S06), 10-Q 1994-01-05 (held, 64,490 B, zero origin-year text), 10-K/A 1996-03-15 (**held, never read**), S-3 1995-05-17 (**held, never read**), 424B1 1995-06-02 (**held, never read**), plus `sources/sec/_MANIFEST.csv` and `fetch_log.txt` as intake records | what the merged company **said** in 1994-97 about itself, its structure, its markets, its terms, its series, its costs; and the state of the business at FY1994 and FY1995 period-ends | **any independent count, any motive, any Stage-1 date before 1994, and any corroboration of itself.** Four printings of the 1976 sentence are one source; a filing that restates the past does not corroborate the past |
+| **L2 — the City and County of San Francisco proceeding, case 89.469E** | a lead agency's CEQA review of one proposed Costco warehouse | **2 documents, 1 proceeding**: Final EIR (P1S08, 568,295 B, read at title page, project description, master-plan/employment, travel demand, comment-and-response chapter IX) and Draft EIR (P1S09, 419,592 B, **held, essentially unread**) | one in-window project, its size, its jobs, its housing bundle, its procedural dates, the city's transit assumptions, an estimated member count for one city, and the presence of "Price Club" and "Costco" in public speech in 1991-92 | chain-wide economics, the estate, the origin years, or the success of the project; **the two documents are not two corroborations** |
+| **L3 — SEC structural metadata** | what the regulatory index says exists on the CIK | `sources/_index/submissions.csv` (245,397 B), `submissions.json`, `CIK0000909832-submissions-001.json`, `CIK0000909832-main.json`, `_INDEX.md`; register row P1S12 | that the earliest filing on CIK 909832 is the 1994-01-05 10-Q; 2,723 filings enumerated, **59 in the 1983-1997 search window, 48 of them never fetched**; SIC 5331, FYE 0830, former names | any fact about the company's business. **It proves a floor on the record, and nothing above it** |
+| **L4 — La Compagnie Price Limitée** | a Quebec paper-and-pulp issuer inside the Abitibi-Price group whose English name collides with leg P | P1S10: `Pric0158_1977_djvu.txt` (107,938 B), `Pric0158_1978_djvu.txt` (12,396 B), both read; `Pric0158_1976` **not held** | nothing about either retail leg — **0 hits for price club / warehouse club / membership in each layer** | anything at all. It is kept as a **negative artefact** and as the RD-124 exemplar of a false Tier-1 promotion |
+| **L5 — two ownership filings by non-issuers** *(this volume adds the second member)* | Schedule 13D and 13G forms filed by holders of the merged class under their own signatures | **P2S01** Sol Price SC 13D (9,730 B, read whole): 11,366,937 shares, 5.22% on a printed 217,824,368 denominator, six tranches, two conversion rights, event 1994-01-03. **P2S03** Capital Group / Capital Guardian SC 13G (14,757 B, read at the ownership and Item 3-4 fields): 10,125,590 shares, 5.2%, CUSIP 74143W102, filed 1996-02-12, passive-control recital | that two named parties reported holdings of the class on dates of their own choosing; the merger's **effectiveness date as recital**; the existence of convertible debenture conversion rights at ≈$22.53; a **bank/parent-holding-company** holder of the stock | the class's true share count (K21), the family's total economic interest (his son's holdings are absent from this form), or any operating fact. **The 13D's notice agent is the issuer's own investor-relations officer, so its recitals may be issuer-supplied — the form is independent, the prose may not be** |
+| **L6 — the tertiary print layer** | book and business-reference text reached at catalog or snippet depth | Google Books rows for Parnell 2013 (PA372, the 1975 four-founder sentence), Parnell 2013 (PT669), Woodsworth/Emerald 2013 (PA40), Mele/Ephyia **2026** (PT24), Neck 2020 (PT464); Hoover's 2004/2006; Kelly Hill/Gale 1999; an unnamed 2001 volume; and **two volumes imprinted 1993 and 1995 matched at page level with no text reached** | that these statements exist in print, and the leads they carry | **any Tier-1 use. Every one is post-boundary except the two unreached volumes, and none has been obtained at page depth.** Part 1's B05/K01 rests on exactly one of these |
+| **L7 — this project's own instruments** | harvest index, intake manifests, probe and regrade dossiers | `00_universe/harvest/candidates.csv` (50 `company=costco` rows re-censused this pass), `sources/harvest_mine/_index.json`, `research/A_chronology_feasibility.md`, `research/A3_intake_regrade.md`, `research/A4_harvest_mine.md` | what was searched, what answered, what was skipped, and where the bytes came from | evidence about Costco. **A census of a search is not a finding about the subject** — the K08 and K19 rows exist to keep this distinction in the register |
+
+**Independent-origin counts, claim by claim (the number a reader actually wants).**
+
+| Load-bearing claim | Independent origins available | Effective confidence ceiling |
+|---|---|---|
+| Leg P began 1976 in San Diego | **1** (L1, in four printings) | **Medium** — cannot rise without an L2/L6/L7-class carrier, and L6's only carrier contradicts the year |
+| Leg C began 1983 in Seattle | **1** (L1, in three printings) | **Medium** |
+| Sinegal and Brotman founded leg C | **1** (L1) | Medium, and it is a fact about the naming |
+| Who founded leg P | **0** registrant + 1 tertiary, conflicting | **Low / UNANSWERED** |
+| The FY1985-FY1993 series | **1** (L1, restated and combined) | Medium, with the `combined-restated` label mandatory |
+| The 1993 merger terms and costs | **1** (L1) | Medium |
+| **The merger was effective 1993-10-21** | **2 forms** (L1 report text + L5 individual's recital), possibly 1 information source | **Medium** — the best-corroborated Stage-1 date in the dossier, and it is a date of an instrument rather than of an experiment |
+| **A Costco warehouse was proposed in San Francisco 1989-1992, at 118,500 sq ft, ~170 jobs, ~31,000 local members** | **1** (L2) — and it is the **only** claim in Stage 1 with a non-company in-window carrier | **High** |
+| The estate by brand at 1994-08-28 | **1** (L1, `(PB)`) | Medium |
+| A competitive club field of ~800 | **1** (L1 self-report, drifting) | **Low** |
+| The family's stake at 5.22% | **1** (L5, self-reported by the family) | Medium |
+| **Whether anything in §G–§I was true in 1976** | **0** | **UNKNOWN, and that is the answer** |
+
+**Ledger conclusion.** **Four lineages in this archive can carry evidence (L1, L2, L3, L5); one carries leads only
+(L6); two carry nothing about the subject (L4, L7).** For every statement about how either leg *began*, the
+count of independent origins is **one**, and for the founding of leg P it is **zero** — which is why this volume
+holds to part 1's Medium cap and its `1 lineage (n printings)` corroboration form, and why the two documents L5
+adds change the ledger but not a single origin-year verdict.
+
+---
+
+## U — Anchor block
+
+STATUS: WRITTEN 2026-09-29
+<!-- ANCHORS: U.101-U.115, U.120-U.136 -->
+
+**Reading rules.** Every anchor below is declared here and nowhere else; register rows and claim records in this
+volume cite these ids and only these. **U.101–U.115 are conflicts** (each mapped to its continuing K id, which is
+the register key). **U.120–U.136 are the documented nulls and open routes of §G–§U**, each labelled with one of
+the three permitted verdicts — **EMPTY** (searched, perimeted, nothing found), **UNANSWERED** (a request was made
+and failed or returned nothing classifiable), **UNTRIED** (never attempted) — and the verdict is never borrowed
+from a neighbour. Part 1's K01–K08 and P1G01–P1G09 remain the addresses for everything minted there; **no anchor
+below re-mints a K or P1G id, and none closes one.**
+
+### The conflicts
+
+U.101 → **K09** — *Merger effective 1993-10-21 on two carriers; approval-versus-effectiveness and the absence of a clock time survive.* Confidence **Medium**.
+
+U.102 → **K10** — *Business primary fee printed $35 in the FY1994 filing and $30 in the FY1995 filing, with additional cards $10-15 against $15, and a "second membership card" that becomes a "spouse card."* No Stage-1 fee level exists on either side. **Low**.
+
+U.103 → **K11** — *Format average size 120,000 sq ft (FY1994 printing) against 125,000 sq ft (FY1995 printing), neither with a distribution; the one measured unit is the city's 118,500 sq ft.* **Low**.
+
+U.104 → **K12** — *Club population ~800/~850/~750/~750, one lineage, four printings, no method, and the company's own share of its own count rising while its denominator falls.* **Low** as market size; **Medium** as an assertion history.
+
+U.105 → **K13** — *FY1995 capital plan as "aggregate $600-700 million" in Item 1 and "$500,000-$600,000 + $50,000-$100,000 thousand" in MD&A, one accession, two sections, low ends $50,000 thousand apart.* **Medium**.
+
+U.106 → **K14** — *Headcount 47,000 at 1994-08-28 against part 1's row pairing "~52,000" with "the FY1994 filing"; 52,000 belongs to 1995-09-03.* **Medium**; correction of part 1.
+
+U.107 → **K15** — *Delaware in the report text, CA in the EDGAR subject-company header of a third party's form; the merged registrant is Delaware, and the predecessor was California.* **Medium**.
+
+U.108 → **K18** — *The Item 6 row "Shares used in calculation (000's) 212,772 / 181,336 / 180,887 / 168,324 / 130,367" has no column-to-year assignment verified on this pass and does not obviously agree with part 1's FY1993 diluted 240,162.* **Low**; intentionally unresolved, held open at U.136.
+
+U.109 → **K19** — *Harvest index rows for `company=costco`: 33 (A4) → 38 (part 1) → 50 (this pass), with the classification mix now 36/7/3/2/2 and still only 2 items ever mined into evidence.* **High** for today's count; the drift is the finding and RD-122 requires re-censusing before any merge.
+
+U.110 → **K20** — *"Price Club" is the registrant's own brand for leg P in every filing that mentions it and a shopper's word in the EIR; the brief's competitor list is a category error, not a gap in reading.* **High**.
+
+U.111 → **K21** — *Two ownership filings, one class: a 13D denominator of 217,824,368 against a 13G that prints no denominator and implies roughly 193-197 million.* **Low**.
+
+U.112 → **K05 (part 1), as narrowed** — the boundary-date choice (vote date 1993-10-21 adopted; trading date 1993-10-22 held live) is unchanged; what U.101 changes is only the argument for it. **Medium**.
+
+U.113 → **K01 (part 1), unchanged and unclosed** — 1975 (tertiary, 2013, snippet) against 1976 (registrant, four printings). Still **Low**, still requiring an in-window trade-press account that this archive does not contain.
+
+U.114 → **K16** — *Part 1's P1G03 recorded "nothing held states an item count"; the same accession prints an average of 3,500-4,000 SKUs per warehouse and a three-year category table. Correction of a documented null, on bytes part 1 did not open.* **Medium** for the values, **High** that they exist.
+
+U.115 → **K17** — *Part 1's §A.3 recorded "no unit count … held for leg C alone"; Item 2 splits the estate by brand at 1994-08-28 (Price 75 / Costco 107 US). The null was right for Stage-1 dates and wrong about existence.* **Medium**; correction of part 1.
+
+### The documented nulls and open routes
+
+U.120 — Founding capital, first-unit cost, opening-day trade of either leg. **EMPTY** for this archive (all 52 files enumerated; nothing of the class exists here), **UNTRIED** as a route. Answering it needs a 1976/1983 trade-press or documentary carrier; see U.130 and U.131. Confidence in the null: **High** as a corpus statement.
+
+U.121 — Founder identity and capacity for leg P. **UNANSWERED** — the only naming held is a ~250-character snippet of a 2013 volume whose text was never obtained, and the two unreached volumes (imprints **1993**, **1995**) have never been opened. Route: keyed Google Books/HathiTrust page retrieval. **Low**.
+
+U.122 — Marketing and advertising spend, any year. **EMPTY**: no such line appears in any held filing section opened, and MD&A asserts only that expenses are "very low … as compared to typical discount retailers" with no figure and no source. **High** as a corpus statement; the comparator is unusable.
+
+U.123 — Membership renewal rate, any date. **EMPTY**: the only renewal statement is qualitative and post-boundary. **High**.
+
+U.124 — Fee schedule at either opening. **NOT KNOWABLE here**; and the two fee schedules that exist disagree (U.102). **UNKNOWN** in the world — part 1's P1G04 route (trade press) is still UNTRIED.
+
+U.125 — Each leg's separate pre-1993 financial statements. **UNTRIED** — **48 of 59 in-window index filings on this CIK have never been fetched**, and predecessor CIKs have never been resolved (browse-edgar 503s from this machine). A null from the 12 held accessions cannot close this.
+
+U.126 — Whether the 1989 San Francisco warehouse was ever built or opened. **UNTRIED**: the held record stops at certification and the 419,592-byte Draft layer on disk has never been read for a later date.
+
+U.127 — Terms and issue dates of the 6 3/4% and 5 1/2% convertible series. **UNANSWERED**: the indentures are listed as exhibits in the FY1994 filing's exhibit index and their text is not in the stored bytes.
+
+U.128 — The per-share/dilution note (P1S01 l.2380-2390). **UNANSWERED by this pass**: read as grep fragments only; no claim in this volume relies on it, and §S says so.
+
+U.129 — The S-3 of 1995-05-17 (324,751 B), the 424B1 of 1995-06-02 (59,941 B) and the 10-K/A of 1996-03-15 (16,176 B), all held and never read. **UNTRIED**. These are the largest unread bytes in `sources/sec/` and the cheapest remaining Tier-1 text on the company.
+
+U.130 — The trade-periodical family: Discount Store News and Chain Store Age issues 1976-1989, proven by the probe to exist on Internet Archive with text layers (`micro_IA40706901_0406` DSN 1980 … `micro_IA40706915_0204` DSN 1984, with parallel Chain Store Age editions), and **never downloaded**. **UNTRIED**. The IA `text:` route that returned `numFound=0` for the back-file sweep matches **annotations, not OCR**, so that zero is per-param and not a family null.
+
+U.131 — The documentary family (auction and museum sale records): **UNTRIED**, no request ever issued by any pass, no scripted route exists.
+
+U.132 — The web-archive family: **UNANSWERED** — a service-wide "Temporarily Offline" body on the priceclub.com CDX query and one timeout; one of three CDX queries did answer, so the endpoint is not dead. Re-run pending.
+
+U.133 — Chronicling America: **UNANSWERED, with the cause corrected.** The 2026-09-29 run's two `company=costco` queries return **404** bodies (85,273 B of "Page Not Found — Library of Congress" HTML each, `…/chroniclingamerica/search/pages/results/`), which per RD-128/RD-129 means **the path our harvester builds does not exist** — a client defect, not a refusal. Earlier rows for the same queries are logged `SKIPPED: hard stop … host halted`. **No San Diego or Seattle newspaper has been searched for either leg.**
+
+U.134 — HathiTrust: **UNANSWERED** — the `HT 'Price Club' warehouse membership 1976-1989` query is logged SKIPPED, and page text 403s from this machine. Per RD-127 the first result page of a company phrase returns no pre-1990 imprint on the Walmart analogue; **nothing here has been measured for this one.**
+
+U.135 — The two unreached Google Books volumes imprinted **1993** (`Tit2jax_AF8C`, matched page PA507) and **1995** (`UUM9AQAAIAAJ`, PA805), both `viewability=no_pages`. **UNTRIED** — and if the 1993 imprint is right this is the closest thing in the index to an in-window publication about the merger.
+
+U.136 — The Item 6 five-year share-count row (U.108). **UNTRIED by this pass**: the table's header row sits above the window read; the values are recorded in-register as a pointer, and **no year is attached to them anywhere in this dossier**.
+
+**Coda for §U.** Thirty-two anchors are declared here: **15 conflicts (U.101-U.115)** and **17 nulls and open routes
+(U.120-U.136)**. Of the seventeen, **eight are UNTRIED**, six are UNANSWERED, two are EMPTY and one is NOT
+KNOWABLE — a distribution that says the dossier's ceiling is not the archive's ceiling, and that one of the three
+newspaper-and-periodical routes (U.133) has been recorded as refused for five days on the strength of a 404 that
+means *we built the wrong URL*. **What this volume can actually prove is narrow and is stated in one line: on the
+bytes held, Stage 1 contains one in-window independent document, one lineage behind every origin claim, and zero
+documents written by either leg about itself.**
+
+## Claim records — part 2 (§G–§U)
+
+STATUS: WRITTEN 2026-09-29. Field set per the dispatch brief: Claim / Date / Source path / Source date / Tier /
+Class / Passage / Conf / Corroboration / Conflicts. **All source paths are relative to
+`founders_playbook/01_companies/company_013_costco/`.** `Corroboration: 1 lineage (n printings)` is used
+exactly as part 1 defines it; `Conflicts` cites the **K** ids (part 1's K01-K08 are live) and the **U** anchors
+declared at §U. Line numbers are locators, not addresses (§14 rule 12). No record below is `INHERITED` unless the
+word appears in it.
+
+### G — Channels and first members
+
+G01 Claim: The company's stated advertising policy was to limit advertising and promotion to new openings plus occasional direct mail, producing "very low marketing expenses" against an unsourced comparator. — Date: printed 1994-11-17 about a continuing practice — Source path: `sources/sec/0000912057-94-003945_0000912057-94-003945.txt` (Item 1, l.266-270) — Source date: 1994-11-17 — Tier: 1 — Class: FACT (about the policy as printed) / RETROSPECTIVE INTERPRETATION (about its origin) — Passage: "PriceCostco's policy is generally to limit advertising and promotional expenses to new warehouse openings and occasional direct mail advertisements to prospective new members." — Conf: Medium — Corroboration: 1 lineage (this sentence appears in the FY1994 printing; the FY1995-97 printings were not searched for it, so no printing count is claimed) — Conflicts: None. First date of use UNKNOWN (U.122).
+G02 Claim: Individual (Gold Star) members were recruited by direct mail distributed through credit unions, employee associations and other entities representing eligible individuals — the company's principal acquisition channel was another organisation's mailing. — Date: printed 1994-11-17 — Source path: as G01, l.274-278 — Source date: 1994-11-17 — Tier: 1 — Class: FACT (mechanism) — Passage: "Potential Gold Star (individual) members are contacted by direct mail generally distributed through credit unions, employee associations and other entities representing the individuals who are eligible for Gold Star membership." — Conf: Medium — Corroboration: 1 lineage — Conflicts: None.
+G03 Claim: Once a base existed the company attributed most new memberships to word of mouth, payroll-mail follow-up and continuing direct solicitation of wholesale prospects. — Date: printed 1994-11-17 — Source path: as G01, l.279-286 — Source date: 1994-11-17 — Tier: 1 — Class: FACT (company attribution) — Passage: "After a membership base is established in an area, most new memberships result from word of mouth advertising, follow-up contact by direct mail distributed through regular payroll or other organizational communications to employee groups" — Conf: Medium — Corroboration: 1 lineage — Conflicts: None. No test of the attribution exists in the corpus.
+G04 Claim: The warehouse turned merchandise over fast enough that supplier trade payables typically matched the current assets the business needed, which is the filing's own explanation of a working-capital structure. — Date: FY1994 — Source path: as G01, l.1614-1626 — Source date: 1994-11-17 — Tier: 1 — Class: FACT (company assertion) — Passage: "the Company's operations provide a higher level of supplier trade payables than generally encountered in other forms of retailing" — Conf: Medium — Corroboration: 1 lineage — Conflicts: None.
+G05 Claim: A third party inside the window estimated 31,000 San Francisco Costco members who were already shopping outside the city, and noted several other Costco stores in the Bay Area. — Date: 1991-12 → 1992-04 — Source path: `sources/periodicals/costcowholesalef1619sanf_djvu.txt` (l.13644-13652) — Source date: 1992-04-16 — Tier: 1 — Class: FACT (as the city's estimate) / CONTEMPORARY OBSERVATION — Passage: "The present estimated 31,000 San Francisco Costco members now shop at Costco stores outside of the City" — Conf: High for the sentence, **Medium for the figure** (no method, no as-of date, produced to answer a transit objection) — Corroboration: 1 independent origin (municipal; not L1) — Conflicts: None. **The only member count inside Stage 1 anywhere in this corpus.**
+G06 Claim: San Francisco residents named Costco and Price Club together as the reason for driving to another county for low prices, in a comment submitted to the city in 1991-92. — Date: 1991-12 → 1992-01-23 — Source path: as G05, l.13663-13666 — Source date: 1992-04-16 — Tier: 1 — Class: CONTEMPORARY OBSERVATION (a verbatim public comment) — Passage: "Our present financial conditions dictates that we travel to San Mateo County and seek the lowest prices available for consumer items, i.e. Costco and Price Club." — Conf: High — Corroboration: 1 independent origin — Conflicts: U.110. **The only held in-window words of an actual customer, and the only in-window naming of the "Price Club" brand by someone outside the company.**
+G07 Claim: A city planning commissioner and an objector's attorney independently described the format's purchase behaviour as car-borne bulk cart-away, and the city's own transportation analysis assumed zero transit use by customers and one occupant per car. — Date: 1991-12 → 1992-04 — Source path: as G05, l.11240-11245 (Sewell), l.11258-11263 (Courtney), l.11266-11274 (the city's response) — Source date: 1992-04-16 — Tier: 1 — Class: CONTEMPORARY OBSERVATION (comments) / FACT (the stated modelling assumption) — Passage: "All analysis of trip generation in the EIR assumes that each Costco customer would drive alone to the project site." — Conf: High — Corroboration: 1 independent origin (two commenters inside one municipal document are not two origins) — Conflicts: None.
+G08 Claim: Membership counts at the earliest date the registrant prints them were 3.4 million Business and 6.4 million Gold Star, and a year later Business had fallen to 3.3 million while Gold Star rose to 6.7 million. — Date: 1994-08-28 and 1995-09-03 (`(PB)`) — Source path: `sources/sec/0000912057-94-003945_0000912057-94-003945.txt` l.381-385; `sources/sec/0000912057-95-010555_0000912057-95-010555.txt` l.355-358 — Source date: 1994-11-17; 1995-11-30 — Tier: 1 — Class: FACT (period-end self-report, both `(PB)`) — Passage: "As of August 28, 1994, PriceCostco had approximately 3.4 million Business memberships and approximately 6.4 million Gold Star memberships." — Conf: Medium — Corroboration: 1 lineage (2 printings) — Conflicts: None. The decline of the business-member class is a fact of the printings, not of Stage 1.
+
+### H — Market and competition
+
+H01 Claim: No held byte in this corpus mentions feddy Mart or Forus, and the company's own filings use "Price Club" as a brand of the registrant rather than as a competitor. — Date: 1975-01-01 → 1993-12-31 (and all document dates) — Source path: census of 15 `.txt` layers under `sources/sec/` plus both layers under `sources/periodicals/`, patterns `feddy`, `Forus`, `price[[:space:]]+club` applied case-insensitively with a whitespace class — Source date: 2026-09-29 — Tier: n/a — Class: FACT (about this corpus only) — Passage: NO_VERBATIM_PASSAGE_RECORDED — Conf: High as a corpus perimeter — Corroboration: 1 (this pass's enumeration: 0 matches for either proper name; 7 matches for "price club" in the Final EIR, 0 in the Draft) — Conflicts: U.110, K20.
+H02 Claim: The registrant's competition paragraph is one text printed four times with measurable drift: 800, 850, 750 and 750 warehouse clubs against its own 221, 240, 247 and 254. — Date: 1994-11-17; 1995-11-30; 1996-11-08; 1997-11-10 — Source path: P1S01 l.396-421; P1S02 l.373-396; P1S03 l.384-407; P1S04 l.386-410 — Source date: as listed — Tier: 1 — Class: FACT (about the printings) / company ESTIMATE (about the market) — Passage: "Approximately 800 warehouse clubs exist across the U.S. and Canada, including the 221 warehouses operated by the Company, and every major metropolitan area has some, if not several, club operations." — Conf: Medium for the assertion history, **Low for any industry size** — Corroboration: 1 lineage (4 printings; repetition is version evidence, not independent count) — Conflicts: U.104, K12.
+H03 Claim: The named competitors across four printings are large-chain retailers and category specialists — Wal-Mart, Kmart, Target, Home Depot, Office Depot, Petsmart, Toys-R-Us, Circuit City, Barnes & Noble, The Sharper Image, home shopping and Smart & Final — and **not one warehouse-club operator is named in any printing**. — Date: 1994-1997 — Source path: as H02 — Source date: as H02 — Tier: 1 — Class: FACT (about the text) — Passage: "Wal-Mart and Kmart have become the largest retailers in the United States and have recently expanded into food merchandising. Target has also emerged as a significant retail competitor." — Conf: Medium — Corroboration: 1 lineage — Conflicts: U.110.
+H04 Claim: The competitive paragraph edited itself: the category killers' gained share became significant share, Kmart disappeared in 1997, the causal clause about declining comps disappeared after 1994, and electronic commerce over the Internet was added in 1997. — Date: 1994-11-17 → 1997-11-10 — Source path: as H02 — Source date: as H02 — Tier: 1 — Class: FACT (about the wording) — Passage: "New forms of retailing involving modern technology are boosting sales in stores such as The Sharper Image, while home shopping and electronic commerce over the Internet is becoming increasingly popular." (FY1997) — Conf: Medium — Corroboration: 1 lineage (4 printings) — Conflicts: U.104.
+H05 Claim: The company attributed the fiscal 1994 decline in comparable warehouse sales, in its competition section, to the crowded field it had just described. — Date: FY1994 — Source path: P1S01 l.417-421 — Source date: 1994-11-17 — Tier: 1 — Class: RETROSPECTIVE INTERPRETATION (company self-explanation) — Passage: "This factor, among others, has caused comparable warehouse sales to decline during fiscal 1994 resulting in lower average sales and earnings per location" — Conf: Medium — Corroboration: 1 lineage; the same accession lists four other causes in MD&A, which is a second statement in the same source, not a second source — Conflicts: U.104.
+H06 Claim: The only held evidence of this format growing by taking another operator's sites is a 1997 purchase agreement for seven Hechinger locations in Michigan, which states no reason for the disposal. — Date: printed 1997-11-10 (`(PB)`) — Source path: `sources/sec/0001047469-97-003493_0001047469-97-003493.txt` l.1172-1179 — Source date: 1997-11-10 — Tier: 1 — Class: FACT — Passage: "The Company has entered into a purchase agreement with Hechinger Company to acquire seven of Hechinger's locations in Michigan." — Conf: Medium — Corroboration: 1 lineage — Conflicts: None. Post-boundary; recorded as a consequence route only.
+H07 Claim: Four post-boundary tertiary print statements about the field and the founders exist in the harvest index at snippet depth, including two volumes imprinted 1993 and 1995 whose text has never been reached. — Date: 1993, 1995, 1999, 2001, 2004, 2006, 2013, 2020, 2026 imprints — Source path: `founders_playbook/00_universe/harvest/candidates.csv` (rows `company=costco`, `source_family=google_books`; item_ids `Tit2jax_AF8C` PA507 and `UUM9AQAAIAAJ` PA805 both `viewability=no_pages`) — Source date: 2026-09-29 (harvest run) — Tier: 3 — Class: RETROSPECTIVE INTERPRETATION / catalog-level lead — Passage: "Costco Wholesale to form Price / Costco Inc. Market Forces Driving the Merger … Price Club stores opened in 1991 were in California, where 29 Price Club …" (Gale/Cengage, Kelly Hill, 1999, snippet) — Conf: Low — Corroboration: 0 independent — Conflicts: U.113, U.135, K01, K19. **Cited as pointers only; the volumes' text was not obtained.**
+
+### I — Scaling
+
+I01 Claim: The combined-restated estate grew from 22 warehouses at the start of FY1985 to 200 at FY1993 period-end, and net additions were flat at +30 in FY1992 and FY1993 even though gross openings rose from 31 to 37. — Date: FY1985–FY1993 — Source path: P1S01, Item 6 WAREHOUSES IN OPERATION rows, l.1231-1262 — Source date: 1994-11-17 — Tier: 1 — Class: FACT (restated) for the printed rows / ESTIMATE-DERIVED for the net line — Passage: "Beginning of year … 200 170 140 119 104 84 … Opened … 29 37 31 23 19 20 … Closed … (8) (7) (1) (2) (4) --" — Conf: Medium — Corroboration: 1 lineage — Conflicts: U.104. Arithmetic: 37 − 7 = 30 and 31 − 1 = 30; printed nowhere.
+I02 Claim: Closings were zero in FY1985-87, first appeared in FY1988, were zero again in the 53-week FY1989, and were non-zero in every year from FY1990 onward. — Date: FY1985–FY1994 — Source path: as I01 — Source date: 1994-11-17 — Tier: 1 — Class: FACT (restated) — Passage: "Closed … (3) -- -- --" (FY1988-85 block) — Conf: Medium — Corroboration: 1 lineage — Conflicts: None.
+I03 Claim: The filing states that newer units run at significantly lower annual sales volumes and higher expense ratios than mature ones, and SG&A rose from 8.67 to 8.82 percent of net sales while 29 new units opened. — Date: FY1993-FY1994 — Source path: P1S01 MD&A l.1345-1358 — Source date: 1994-11-17 — Tier: 1 — Class: FACT (company-stated mechanism and printed ratios) — Passage: "newer units generally operate at significantly lower annual sales volumes than mature units and, therefore, incur higher expense ratios than mature units" — Conf: Medium — Corroboration: 1 lineage — Conflicts: None.
+I04 Claim: A brand-split estate is held at exactly one date, ten months past the boundary: Price 75 and Costco 107 United States warehouses at 1994-08-28, with Price holding all ten Quebec clubs and the Mid-Atlantic and Costco holding the Pacific, the Mountain West, Florida and the rest of Canada. — Date: 1994-08-28 (`(PB)`) — Source path: P1S01 Item 2, l.674-780 — Source date: 1994-11-17 — Tier: 1 — Class: FACT (period-end, by brand) / INFERENCE (that the legs were regionally complementary) — Passage: "At August 28, 1994, PriceCostco operated warehouse clubs in 21 states, 7 Canadian provinces and the United Kingdom under the 'Price Club' and 'Costco Wholesale' names." — Conf: Medium — Corroboration: 1 lineage — Conflicts: **K17 (this volume) — a correction of part 1's §A.3, anchored at U.115.**
+I05 Claim: Four ownership modes for expansion are documented within three years: a 50 percent equity-basis joint venture in Mexico, a 60 percent subsidiary in the United Kingdom, a licensing agreement under which a Price Club opened in Seoul, and wholly owned domestic construction. — Date: FY1992 → 1994-10 — Source path: P1S01 Item 1/Item 2 l.640-666 and fn (a) — Source date: 1994-11-17 — Tier: 1 — Class: FACT (`(PB)` for UK and Seoul; the Mexico openings are in-window) — Passage: "In October 1994, under a licensing agreement with PriceCostco, a Price Club opened in Seoul, Korea." — Conf: Medium — Corroboration: 1 lineage — Conflicts: None.
+I06 Claim: Dated individual acts inside the window exist on both legs, eight months after leg C's filed beginning and in leg P's own operating subsidiary: Lazarus joined Costco in November 1983; Loge joined The Price Company as a director of Price Club Industries in March 1989. — Date: 1983-11; 1989-03; 1990-12; 1992-08 — Source path: `sources/sec/0001047469-97-003493_0001047469-97-003493.txt` l.626-638 — Source date: 1997-11-10 — Tier: 1 — Class: RETROSPECTIVE (printed 1997 about 1983-92) / FACT about the officer — Passage: "Mr. Lazarus joined Costco Wholesale Corporation in November 1983 and has held various management positions prior to his current position." — Conf: Medium — Corroboration: 1 lineage (1 printing read) — Conflicts: None. **Neither man is called a founder.**
+I07 Claim: Labour coverage kept the two legs legally distinct at the boundary: substantially all of Price's 11,000 hourly employees in six states and one Virginia club were Teamsters-represented while all Costco employees were not. — Date: 1994-08-28 / 1995-09-03 (`(PB)`) — Source path: P1S01 l.388-401; P1S02 l.359-372 — Source date: 1994-11-17; 1995-11-30 — Tier: 1 — Class: FACT — Passage: "All remaining hourly Price employees and all employees of Costco are non-union." — Conf: Medium — Corroboration: 1 lineage (2 printings) — Conflicts: U.106 (the headcount that part 1 paired with the wrong filing).
+
+### J — Money and merger mechanics
+
+J01 Claim: Shareholders of both chains approved mergers with and into separate wholly owned subsidiaries of a holding company formed to effect the merger, on 2.13-to-1 and 1-to-1 terms. — Date: 1993-10-21 — Source path: P1S01 l.173-184 — Source date: 1994-11-17 — Tier: 1 — Class: FACT — Passage: "On October 21, 1993, the shareholders of both The Price Company ('Price') and Costco Wholesale Corporation ('Costco') approved the mergers of Price and Costco with and into separate, wholly owned subsidiaries of Price/Costco, Inc." — Conf: Medium — Corroboration: 1 lineage — Conflicts: U.101, U.112, K05.
+J02 Claim: Two documents — the issuer's annual report and an individual's Schedule 13D — both date the merger's occurrence and effectiveness to 1993-10-21, which part 1 recorded as unstated in the held text. — Date: 1993-10-21 — Source path: P1S01 Item 5 l.978-981; `sources/sec/0000912057-94-004286_0000912057-94-004286.txt` l.252-255 — Source date: 1994-11-17; 1994-12-23 — Tier: 1 — Class: FACT — Passage: "All shares held and the right to acquire shares … were received pursuant to the merger of Price/Costco, Inc., which was effective on October 21, 1993." — Conf: Medium — Corroboration: **2 filing persons, 1 possible information source** (the 13D's notice agent is the issuer's own officer) — Conflicts: U.101, K09. **This is the best-corroborated Stage-1 date in the dossier.**
+J03 Claim: Pooling treatment required both a restatement of every prior year and the expensing of the combination's costs, printed as approximately $120 million pre-tax and $80 million after tax in the first quarter of fiscal 1994. — Date: booked Q1 FY1994; event 1993-10 — Source path: P1S01 l.184-205 — Source date: 1994-11-17 — Tier: 1 — Class: FACT — Passage: "The fees and expenses related to the Merger and to the consolidation and restructuring of the combining companies (approximately $120 million, or $80 million after tax) were expensed as required under the pooling-of-interests accounting method" — Conf: Medium — Corroboration: 1 lineage — Conflicts: U.101.
+J04 Claim: The Price and Costco share quotations were separately printed by calendar quarter through the approval date and stop there; each column is restated — Price by the exchange ratio, Costco by two splits. — Date: calendar 1991 Q1 → 1993 Q4 — Source path: P1S01 Item 5, l.991-1035 — Source date: 1994-11-17 — Tier: 1 — Class: FACT (restated quotations, "as reported in published financial sources") — Passage: "All Costco common share data has been adjusted to reflect a two-for-one stock split effected April 30, 1991 and a three-for-two stock split effected March 6, 1992. All Price common share data has been adjusted to reflect the 2.13 exchange ratio in the Merger." — Conf: Medium — Corroboration: 1 lineage; the underlying quotations are a third-party source the corpus does not hold — Conflicts: U.108. **The only per-leg in-window quantitative series held, and it is an adjusted series, not an observed one.**
+J05 Claim: The ten-year balance-sheet ladder shows stockholders' equity rising from $185,881 to $1,796,728 thousand between FY1985 and FY1993 with exactly one distribution to owners, a $74,621 thousand special dividend paid by Price in 1989. — Date: FY1985–FY1994 — Source path: P1S01 Item 6, l.1214-1262 and footnotes (a)(b) — Source date: 1994-11-17 — Tier: 1 — Class: FACT (combined-restated) — Passage: "In 1989 Price paid to its shareholders a one-time special cash dividend of $74,621 or $1.50 per share of Price Common Stock." — Conf: Medium — Corroboration: 1 lineage — Conflicts: U.106. **The one predecessor-specific cash act held inside the window.**
+J06 Claim: Three convertible subordinated debenture series were outstanding at FY1994 period-end — 5 3/4% due 2002 at $300,000, 6 3/4% due 2001 at $285,079, 5 1/2% due 2012 at $179,338 thousand — and the 5 1/2% series is identified in the same filing's exhibit index as Price's. — Date: 1994-08-28 — Source path: P1S01 debt table l.3050-3052; exhibit index l.1734-1752 — Source date: 1994-11-17 — Tier: 1 — Class: FACT — Passage: "5 3/4% Convertible subordinated debentures due May 15, 2002 … $300,000"; "of the Registration of Price's 5 1/2% Convertible Subordinated Debentures dated" — Conf: Medium — Corroboration: 1 lineage — Conflicts: U.127 (issue dates and terms of two series unrecovered).
+J07 Claim: The only dated capital-markets act by either leg inside Stage 1 is the May 1992 issuance of $300,000 thousand of 5 3/4% convertible debentures, which with property sales and operating cash funded $533,000 thousand of property additions in FY1992. — Date: 1992-05 — Source path: P1S01 l.1620-1633 — Source date: 1994-11-17 — Tier: 1 — Class: FACT (restated carrier; the act is in-window) — Passage: "In fiscal 1992, cash provided from operations was $296,000. These funds combined with proceeds from issuance of $300,000 5 3/4% convertible subordinated debentures in May 1992 and approximately $144,000 generated from the sale of certain properties were used to finance additions to property and" — Conf: Medium — Corroboration: 1 lineage — Conflicts: None.
+J08 Claim: Committed liquidity at FY1994 was a $500,000 thousand multiple-option facility with 14 banks standing behind a $500,000 thousand commercial paper program (half expiring January 1995, half January 1998), plus a $65,800 thousand undrawn Canadian line and about $193,000 thousand of letter-of-credit facilities; the same facility is printed with 12 banks in 1997. — Date: 1994-08-28 (`(PB)`); 1997-08-31 (`(PB)`) — Source path: P1S01 l.1588-1613; P1S04 l.1186-1190 — Source date: 1994-11-17; 1997-11-10 — Tier: 1 — Class: FACT — Passage: "The Company has a domestic multiple option loan facility with a group of 14 banks which provides for borrowings of up to $500,000 or for standby support for a $500,000 commercial paper program." — Conf: Medium — Corroboration: 1 lineage (2 printings) — Conflicts: None.
+J09 Claim: Sol Price reported 11,366,937 PriceCostco shares, 5.22 percent of a 217,824,368-share class he divided himself, across four trusts plus conversion rights on $7.69 million and $0.7 million of debentures, and disclaimed 556,108 of them. — Date: event 1994-01-03; filed 1994-12-23 — Source path: `sources/sec/0000912057-94-004286_0000912057-94-004286.txt` l.150-260 — Source date: 1994-12-23 — Tier: 1 — Class: FACT (a filer's own report of his own holdings) — Passage: "All shares held and the right to acquire shares, with the exception of those shares held as Successor Trustee of the Mandell Weiss Trust, were received pursuant to the merger" — Conf: Medium-High — Corroboration: **1 (an independent filing person; the notice agent is the issuer's)** — Conflicts: U.111, K15 (the same form's header prints CA as the state of incorporation). **The six tranches foot exactly to the reported aggregate; the percentage recomputes to 5.218%.**
+J10 Claim: The two conversion tranches imply a single conversion price of about $22.53 a share, a number the issuer's filings never print. — Date: as at 1994-01-03 — Source path: as J09, l.230-240 — Source date: 1994-12-23 — Tier: 1 — Class: ESTIMATE / DERIVED — Passage: "341,243 Right to acquire through conversion of $7.69 million of Convertible Debentures" — Conf: Low-Medium — Corroboration: 1 document, internally cross-footed — Conflicts: U.127. Arithmetic: 7,690,000 ÷ 341,243 = 22.53; 700,000 ÷ 31,061 = 22.54.
+J11 Claim: The real-estate separation was executed by an Agreement of Transfer and Plan of Exchange dated 1994-07-28, contributing assets to a newly formed Delaware corporation for 27 million shares constituting all its stock, with a one-for-one exchange offer, thresholds at 21.6 million and 27 million, and a documented alternative of pro-rata distribution or sale for a promissory note. — Date: 1994-07-28 (`(PB)`) — Source path: `sources/sec/0000912057-94-002516_0000912057-94-002516.txt` l.104-141 — Source date: 1994-08-05 — Tier: 1 — Class: FACT — Passage: "the Registrant will contribute certain commercial real estate not integral to the Registrant's merchandising operations and certain other assets (the 'Assets') to Newco in exchange for 27 million shares of common stock of Newco" — Conf: Medium-High — Corroboration: 1 lineage — Conflicts: U.107. **Filed under Item 5 only, with no Item 3 transition statements — the corpus's silence on the split's numbers is a document-class silence.**
+J12 Claim: The separation's cost was estimated at $182,500 thousand in FY1994 and increased by a non-cash $83,363 thousand in FY1995 when the spun shares cleared at an average $12.1625 rather than the estimate. — Date: FY1994-FY1995 (`(PB)`) — Source path: P1S01 MD&A l.1400-1420; P1S04 l.2125-2140 — Source date: 1994-11-17; 1997-11-10 — Tier: 1 — Class: FACT / the product is DERIVED and checked — Passage: "(27 million shares multiplied by $3.0875 per share representing the difference between the estimated and actual price per share)" — Conf: Medium — Corroboration: 1 lineage (2 printings) — Conflicts: None. Arithmetic: 27,000 × 3.0875 = 83,362.5.
+
+### KS — What the record cannot settle
+
+KS01 Claim: Not one held sentence in four annual reports, an 8-K, a proxy or two ownership filings states a reason for the 1993 combination. — Date: 1976 → 1997 (documents 1994-1997) — Source path: census of P1S01-P1S04, P2S01, P2S02, P1S06 — Source date: 2026-09-29 — Tier: 1 — Class: UNKNOWN — Passage: NO_VERBATIM_PASSAGE_RECORDED — Conf: UNKNOWN — Corroboration: 0 — Conflicts: U.101, U.112, part 1's P1G05.
+KS02 Claim: The corpus contains no in-window count of warehouse clubs at any date; the only counts are four company estimates from 1994-97. — Date: 1975-1993 — Source path: census of `sources/` — Source date: 2026-09-29 — Tier: n/a — Class: FACT (about this corpus) / the estimates themselves are company ESTIMATE — Passage: NO_VERBATIM_PASSAGE_RECORDED — Conf: High as a perimeter — Corroboration: 0 independent industry carriers — Conflicts: U.104.
+KS03 Claim: No held document records any alternative that either leg considered, and the only documented alternatives in the archive are a statute's menu to a city hearing officer and a contract's menu to a tendering stockholder. — Date: 1975-1994 — Source path: P1S08 l.11226-11234 (the overriding-considerations sentence); P2S02 l.118-136 — Source date: 1992-04-16; 1994-08-05 — Tier: 1 — Class: INFERENCE about the archive — Passage: "a statement of overriding considerations citing the specific reasons why the project benefits outweigh its identified significant effects would be prepared, and the project could be approved." — Conf: Medium — Corroboration: 2 (one municipal, one corporate) — Conflicts: None.
+KS04 Claim: The city expressly declined to determine the project's competitive effect, stating it was not known. — Date: 1992-04-16 — Source path: P1S08 l.13652-13656 — Source date: 1992-04-16 — Tier: 1 — Class: CONTEMPORARY OBSERVATION (a documented refusal to answer) — Passage: "The extent to which the proposed Costco store might pose competition to other businesses in San Francisco, including small businesses in the South of Market area, is not known." — Conf: High — Corroboration: 1 independent origin — Conflicts: U.104. **The only in-window sentence in this corpus that says a competition question cannot be settled.**
+
+### L — Hindsight firewall
+
+L01 Claim: No section of this volume treats the 1994-97 separation, the 1997 rename, or the surviving chain's later rank as evidence that any Stage-1 decision was correct. — Date: n/a (a method statement about this volume) — Source path: `_parts/s1_p2.md` §L table — Source date: 2026-09-29 — Tier: n/a — Class: INFERENCE (audit of the dossier's own text) — Passage: NO_VERBATIM_PASSAGE_RECORDED — Conf: High — Corroboration: 1 (self-audit against §2's anti-hagiography test, applied section by section) — Conflicts: None.
+L02 Claim: The record-selection null for §G–§U is specific: no catalogue, membership card, application, lease, site list, board minute, price book or independent count for either leg survives in the archive. — Date: 1975-1993 — Source path: census of all 52 files under `sources/` — Source date: 2026-09-29 — Tier: n/a — Class: FACT (about this corpus only) — Passage: NO_VERBATIM_PASSAGE_RECORDED — Conf: High — Corroboration: 1 (this pass's enumeration) — Conflicts: None. §2's null, in operational form.
+L03 Claim: The channel record is consistent with two opposite readings — a designed low-cost acquisition mechanism, and a constraint later described as a design — and no held marketing budget decides between them. — Date: 1976 → 1994 — Source path: P1S01 l.266-286 — Source date: 1994-11-17 — Tier: 1 — Class: INFERENCE, both branches stated — Passage: "These practices result in very low marketing expenses as compared to typical discount retailers and supermarkets." — Conf: Low for the origin, Medium for the mechanism — Corroboration: 1 lineage — Conflicts: U.122.
+
+### M — Numbers with carrier and basis
+
+M01 Claim: The 200-unit FY1993 estate excludes at least three operating clubs opened in Mexico inside the window, because the joint venture is equity-accounted. — Date: FY1992-FY1993 — Source path: P1S01 Item 2 fn (a) — Source date: 1994-11-17 — Tier: 1 — Class: FACT — Passage: "These warehouses are not included in the number of warehouses open in any period because the joint venture is accounted for on the equity basis" — Conf: Medium — Corroboration: 1 lineage — Conflicts: U.104, K03.
+M02 Claim: An in-window merchandise mix exists: three fiscal columns of percent-of-sales by category, each cross-footing to 100. — Date: FY1992, FY1993, FY1994 — Source path: P1S01 l.316-340 — Source date: 1994-11-17 — Tier: 1 — Class: FACT (combined-restated; percentage of a flow) — Passage: "SUNDRIES (including candy, snack foods, health and beauty aids, tobacco, alcoholic beverages, soft drinks and cleaning and institutional supplies … 32% 32% 32%" — Conf: Medium — Corroboration: 1 lineage — Conflicts: **K16 (this volume) — part 1's P1G03 and record E07 recorded category weights and an item count as UNKNOWN; both are printed in bytes part 1 did not open. Anchored at U.114.**
+M03 Claim: The corpus holds no revenue-per-warehouse or fee-per-member figure for any date, and every per-unit number in this volume is derived arithmetic carrying its own working. — Date: 1975-1995 — Source path: census of P1S01-P1S04 — Source date: 2026-09-29 — Tier: 1 — Class: FACT (about this corpus) — Passage: NO_VERBATIM_PASSAGE_RECORDED — Conf: High as a perimeter — Corroboration: 1 — Conflicts: None. The one fee-per-member calculation remains part 1's P1Q16, `(PB)` and Low-Medium.
+M04 Claim: The Item 5 quarterly price table is a calendar-quarter series while every other series in the dossier is fiscal, and both its columns are restated rather than observed. — Date: calendar 1991-1993 — Source path: P1S01 Item 5 l.991-1040 — Source date: 1994-11-17 — Tier: 1 — Class: FACT (basis statement) — Passage: "The quotations are as reported in published financial sources." — Conf: Medium — Corroboration: 1 lineage + an unnamed third-party quotation source not held — Conflicts: U.108.
+M05 Claim: FY1989 is a 53-week year inside a series whose other years run 52, so FY1989 per-unit and growth figures are not length-comparable with FY1988 or FY1990. — Date: FY1989 (ended 1989-09-03) — Source path: P1S01 Item 6 column heading; the 52/53-week definition at l.354-362 — Source date: 1994-11-17 — Tier: 1 — Class: FACT (basis) — Passage: "consisting of 13 four-week periods and ending on the Sunday nearest the end of August" — Conf: Medium — Corroboration: 1 lineage — Conflicts: None.
+
+### N — Contemporaneous versus retrospective
+
+N01 Claim: The only CONTEMPORANEOUS in-window evidence in §G–§U is the municipal layer — the 31,000-member estimate, the transit assumption, the comments and the procedural dates; nothing corporate in this dossier is contemporaneous for any Stage-1 year except the merger's own closing acts. — Date: 1989-08-25 → 1993-10-21 — Source path: P1S08; P1S01 Item 1/Item 5 — Source date: 1992-04-16; 1994-11-17 — Tier: 1 — Class: FACT about classification — Passage: NO_VERBATIM_PASSAGE_RECORDED — Conf: High — Corroboration: 2 lineages (L2 and L1) — Conflicts: None.
+N02 Claim: Every channel, format and assortment description in §G and §I is a 1994-97 present-tense description of a continuing practice with no start date attached, and is classified RETROSPECTIVE for Stage-1 purposes even though it is contemporaneous for 1994. — Date: printed 1994-1997 — Source path: as G01, G02, I03 — Source date: 1994-11-17 → 1997-11-10 — Tier: 1 — Class: RETROSPECTIVE INTERPRETATION / company self-description — Passage: NO_VERBATIM_PASSAGE_RECORDED — Conf: High as a classification — Corroboration: 1 lineage — Conflicts: None. **This is the class most often mistaken for in-window evidence, and the reason §K's first five items return NOT KNOWABLE.**
+N03 Claim: Part 1's inherited PCLB/COST symbol statement is now verified in the script-stored bytes, closing half of P1G07. — Date: 1993-10 and earlier — Source path: P1S01 Item 5 l.984-990 — Source date: 1994-11-17 — Tier: 1 — Class: FACT — Passage: "Prior to October 21, 1993, Price Common Stock was quoted on The Nasdaq Stock Market's National Market under the symbol 'PCLB' and Costco Common Stock was quoted on The Nasdaq Stock Market's National Market under the symbol 'COST.'" — Conf: Medium — Corroboration: 1 lineage, now read directly rather than inherited — Conflicts: None. **The May-1983 and January-1985 officer dates in P1G07 remain unverified and are NOT closed by this record.**
+
+### O — Failures
+
+O01 Claim: Comparable-warehouse sales were negative in the last full in-window year and again the next, after a positive FY1992. — Date: FY1992-FY1994 — Source path: P1S01 MD&A l.1316-1325 — Source date: 1994-11-17 — Tier: 1 — Class: FACT (combined-restated) — Passage: "Comparable sales, that is sales in warehouses open for at least a year, were a negative 3% annual rate in fiscal 1994 -- similar to the negative 3% annual rate during fiscal 1993." — Conf: Medium — Corroboration: 1 lineage — Conflicts: U.104.
+O02 Claim: The company named its own expansion as a cause of the decline and named four other causes in the same paragraph. — Date: FY1993-FY1994 — Source path: as O01 — Source date: 1994-11-17 — Tier: 1 — Class: RETROSPECTIVE INTERPRETATION (self-explanation) — Passage: "the effect of sales cannibalization by opening additional warehouses in existing markets; increased competition in several markets; deflation in several merchandise categories" — Conf: Medium — Corroboration: 1 lineage — Conflicts: U.104. **The ordering of the five causes is unstated, which is why §O's mechanism is not the only available reading.**
+O03 Claim: Unit closings peaked in FY1993 at 7 against 1 in FY1992, and the closing provision moved from $2,000 to $5,000 to $7,500 thousand, the last of which contains $5,750 thousand for the settlement of a lease dispute. — Date: FY1992-FY1994 — Source path: P1S01 Item 6 and MD&A l.1352-1360 — Source date: 1994-11-17 — Tier: 1 — Class: FACT — Passage: "The provision includes $5,750 (pre-tax) related to settlement of a lease dispute and additional closing costs related to warehouse clubs closed in prior years" — Conf: Medium — Corroboration: 1 lineage — Conflicts: None.
+O04 Claim: The project the corpus can actually follow through a municipal process had not applied for a Site Permit when its final report was certified, and the record stops there. — Date: 1992-04-16 — Source path: P1S08 (part 1's D04; re-read l.1429-1431 area this pass) — Source date: 1992-04-16 — Tier: 1 — Class: CONTEMPORANEOUS OBSERVATION, bounded — Passage: "An application for a Site Permit for the project has not been filed to date." — Conf: High — Corroboration: 1 independent origin — Conflicts: U.126 (whether it was ever built is UNTRIED).
+O05 Claim: The fleet harvester promoted a Quebec paper-and-pulp issuer to `TIER1_CANDIDATE` for 1976, 1977 and 1978, and 36 of 50 costco index rows still carry that label on the 2026-09-29 census, most of them military-service microfilm. — Date: 2026-09-26 → 2026-09-29 — Source path: `founders_playbook/00_universe/harvest/candidates.csv` counted by column with `classification` read after enumerating the header; refutation already on file as P1S10 — Source date: 2026-09-29 — Tier: n/a — Class: FACT about this project's instrument (METHOD DEFECT) — Passage: NO_VERBATIM_PASSAGE_RECORDED — Conf: High — Corroboration: 2 (the census count and the direct reading of both held layers) — Conflicts: K04, U.109.
+O06 Claim: `sec_intake auto` reported "0 documents stored, 0 UNANSWERED" for a window containing 11 stored documents and 48 unfetched in-window filings, so a clean null from that tool is UNANSWERED until re-proved. — Date: 2026-09-25 → 2026-09-27 — Source path: `research/A3_intake_regrade.md` §Index and §Stored bytes — Source date: 2026-09-27 — Tier: n/a — Class: FACT about this project's instrument (TOOL DEFECT) — Passage: "48 in-window index filings are silently dropped, so '0 UNANSWERED' still does not mean '0 remain'" — Conf: High — Corroboration: 1 re-measurement on the identical command shape — Conflicts: K08, U.125, U.129.
+
+### P — Decisions
+
+P01 Claim: The combination was structured as a merger into a purpose-formed holding company on fixed exchange ratios with pooling accounting, and no alternative structure is named in any held text. — Date: 1993-10-21 — Source path: P1S01 l.173-205 — Source date: 1994-11-17 — Tier: 1 — Class: FACT (structure) / UNKNOWN (alternatives, rationale) — Passage: "PriceCostco was formed to effect the Merger." — Conf: Medium — Corroboration: 1 lineage — Conflicts: U.101, KS01.
+P02 Claim: Membership pricing moved twice within sight of the boundary — increases "in fiscal 1992" and increases "implemented in January 1994" — with no amount, market list or date printed for either. — Date: FY1992; 1994-01 (`(PB)`) — Source path: P1S01 MD&A l.1326-1340 — Source date: 1994-11-17 — Tier: 1 — Class: FACT (the acts) / UNKNOWN (their terms) — Passage: "the partial year effect of membership fee increases implemented in January 1994" — Conf: Medium — Corroboration: 1 lineage — Conflicts: U.102, part 1's P1G06 remains open.
+P03 Claim: Entering San Francisco required a conditional-use path with a public hearing and was accompanied by 60 to 80 affordable dwelling units, and the only alternatives the record documents are statutory outcomes available to the decision-maker. — Date: 1989-08-25 → 1992-04-16 — Source path: P1S08 (part 1's D01-D04; l.11226-11234 read this pass) — Source date: 1992-04-16 — Tier: 1 — Class: FACT / CONTEMPORARY OBSERVATION — Passage: "An application for a Site Permit for the project has not been filed to date." — Conf: High — Corroboration: 1 independent origin — Conflicts: U.126, KS03.
+P04 Claim: The real-estate separation is the one decision in the dossier with a stated partial rationale and documented alternatives. — Date: 1994-07-28 (`(PB)`) — Source path: P2S02 l.104-141; P1S01 l.445-610, l.1543-1545 — Source date: 1994-08-05; 1994-11-17 — Tier: 1 — Class: FACT — Passage: "PriceCostco does not expect to make significant investments in non-club real estate in the future." — Conf: Medium — Corroboration: 1 lineage (2 documents, same registrant) — Conflicts: U.105, U.107.
+
+### Q — Consequences
+
+Q01 Claim: Within three years of the boundary the registrant had dropped one of the two leg names from its competitive paragraph, added internet commerce to it, and was still printing 1976 as its own beginning under a name moved toward the other leg. — Date: 1997-11-10 (`(PB)`) — Source path: P1S04 l.386-410 — Source date: 1997-11-10 — Tier: 1 — Class: FACT about the text / RETROSPECTIVE about the genealogy — Passage: "When The Price Company pioneered the membership warehouse club concept in 1976, the dominant companies selling comparable lines of merchandise were department stores, grocery stores and traditional wholesalers." — Conf: Medium — Corroboration: 1 lineage (4th printing) — Conflicts: K02, U.113.
+Q02 Claim: The business-member class shrank in the two printings after the merger while the total grew, and the company had already predicted a renewal decline from cross-brand reciprocity. — Date: 1993-11-01 → 1995-09-03 (`(PB)`) — Source path: P1S01 l.1334-1338, l.381-385; P1S02 l.355-358 — Source date: 1994-11-17; 1995-11-30 — Tier: 1 — Class: FACT — Passage: "As anticipated, the Company experienced a decline in membership renewals at existing warehouses due to overlapping memberships and offering Price and Costco members reciprocal member privileges effective November 1, 1993." — Conf: Medium — Corroboration: 1 lineage — Conflicts: U.123 (no renewal rate exists to size it).
+Q03 Claim: The ventures the merger inherited were pruned: the interactive-shopping business was switched off in the warehouses on or about 1996-09-01, and the Mexican interest was bought back in April 1995 with the Price Club estate there at 13 warehouses by FY1997 period-end. — Date: 1995-04; 1996-09; 1997-08-31 (`(PB)`) — Source path: P1S04 l.2145-2160, l.1181-1183 — Source date: 1997-11-10 — Tier: 1 — Class: FACT (`(PB)`) — Passage: "On or about September 1, 1996, Price Quest discontinued the Quest interactive electronic shopping business in the Company's warehouses" — Conf: Medium — Corroboration: 1 lineage — Conflicts: None.
+Q04 Claim: A second institutional holder of the class appears in the archive only as a passive 5.2 percent report by a bank and its parent holding company, with a no-control recital. — Date: 1996-02-12 (`(PB)`) — Source path: `sources/sec/0000732812-96-000308_0000732812-96-000308.txt` l.137-185, 282-330 — Source date: 1996-02-12 — Tier: 1 — Class: FACT (a third party's own data) — Passage: "the securities referred to above were aquired in the ordinary course of business and were not acquired for the purpose of and do not have the effect of changing or influencing the control of the issuer" — Conf: Medium — Corroboration: 1 (independent filing person) — Conflicts: U.111. **New lineage in §T, new to this dossier's independence ledger, bearing no Stage-1 fact.**
+
+### S — Fiscal and reporting basis
+
+S01 Claim: The registrant reports on a 52/53-week year of thirteen four-week periods ending the Sunday nearest the end of August, with the extra week falling in the fourth quarter. — Date: printed 1994-11-17 — Source path: P1S01 l.354-362 — Source date: 1994-11-17 — Tier: 1 — Class: FACT — Passage: "and the fourth quarter consists of four periods (five weeks in the thirteenth period in a 53-week year)" — Conf: Medium — Corroboration: 1 lineage — Conflicts: None.
+S02 Claim: Pooling required both a restatement of prior periods and a conformity of the two companies' accounting policies and interim reporting periods, and the FY1989 equity line carries a $20,100 thousand reduction to do it. — Date: 1989 conformity; printed 1994-11-17 — Source path: P1S01 l.190-192; footnote (b), l.1263-1266 — Source date: 1994-11-17 — Tier: 1 — Class: FACT — Passage: "related to conforming Price's accounting for income tax method to Costco's accounting for income tax method as of fiscal 1989" — Conf: Medium — Corroboration: 1 lineage — Conflicts: K03.
+S03 Claim: Membership fees are recognised when received, so the fee line is a cash-timing measure and not revenue earned across a membership year. — Date: printed 1995-11-30 — Source path: P1S02 l.1920 (accounting-policy note) — Source date: 1995-11-30 — Tier: 1 — Class: FACT — Passage: "practice, annual membership fees are recognized as income when received." — Conf: Medium — Corroboration: 1 lineage — Conflicts: U.102. **Bears directly on how the FY1993 fee increase and the 1993-11 reciprocity could move reported revenue without moving the member base.**
+S04 Claim: Merchandise inventory is on LIFO and the filings print the LIFO benefit each year, so no margin printed in this dossier is FIFO-comparable. — Date: FY1993-FY1994 — Source path: P1S01 MD&A l.1341-1345 — Source date: 1994-11-17 — Tier: 1 — Class: FACT — Passage: "The gross margin figures reflect accounting for merchandise inventory costs on the last-in, first-out (LIFO) method." — Conf: Medium — Corroboration: 1 lineage — Conflicts: None.
+S05 Claim: The registrant's own text says it is incorporated in Delaware while the EDGAR subject-company header of a third party's form says CA, and the report text is the load-bearing statement. — Date: 1994-11-17 vs 1994-12-23 metadata — Source path: P1S01 l.354; `sources/sec/0000912057-94-004286_0000912057-94-004286.txt` l.33 — Source date: 1994-11-17; 1994-12-23 — Tier: 1 — Class: FACT (both readings) — Passage: "PriceCostco is incorporated in the State of Delaware" — Conf: Medium — Corroboration: 2 documents of different filing persons, one of them metadata — Conflicts: U.107, K15.
+
+### T — Independence
+
+T01 Claim: For every statement about how either leg began, exactly one lineage exists in this archive, and for the founding of leg P zero registrant carriers exist. — Date: 1975-1993 claims; 1994-1997 documents — Source path: §T ledger; census of P1S01-P1S04 and the harvest index — Source date: 2026-09-29 — Tier: 1 — Class: FACT (about this corpus) — Passage: NO_VERBATIM_PASSAGE_RECORDED — Conf: High — Corroboration: 1 enumeration — Conflicts: K01, U.113, U.121.
+T02 Claim: Two ownership filings by two non-issuers are the only documents in the archive that are not the company speaking about itself, and neither contains an origin-year statement. — Date: 1994-01-03 (filed 1994-12-23); 1996-02-12 — Source path: P2S01; P2S03 — Source date: 1994-12-23; 1996-02-12 — Tier: 1 — Class: FACT — Passage: "10,125,590 Beneficial ownership disclaimed pursuant to Rule 13d-4" — Conf: Medium — Corroboration: 2 independent filing persons — Conflicts: U.111.
+T03 Claim: The single claim in Stage 1 with a non-company in-window carrier is the 1989-1992 San Francisco project, and it is the reason any §G or §D row in this dossier can reach High. — Date: 1989-08-25 → 1992-04-16 — Source path: P1S08 — Source date: 1992-04-16 — Tier: 1 — Class: FACT / CONTEMPORANEOUS OBSERVATION — Passage: "1 18,500 sq. ft. of discount retail of a type which sometimes is referred to as membership wholesale or big box retail." — Conf: High — Corroboration: 1 independent origin (L2) — Conflicts: K07, U.103.
+
+
+
+## Untried
+
+STATUS: WRITTEN 2026-09-29
+
+**Three verdicts, kept apart (§14.6, RD-128, and the dispatch brief).** **EMPTY** = the route was run against
+this archive and returned nothing, perimeted to the query and the params that produced it. **UNANSWERED** = a
+request was made and failed or returned something unclassifiable (403, 404, 429, an offline body, zero bytes).
+**UNTRIED** = never attempted by any pass. **Nothing in this list is a finding about Costco**; every line is a
+statement about the archive, and a route that has never been tried cannot be reported as a null. This pass made
+**no web requests at all** (its brief's retrieval rule is §15.1: no agent may retrieve what a script can reach),
+so everything below is either a script route for the orchestrator or a byte already on disk that nobody has
+opened. Part 1 carried 19 such items and, note for the merge, **wrote references to a `## Untried` section at
+part 1 §Boundary 2, §C.2 and §E.2 but never emitted that section** — this is the first Untried list in either
+volume, and it renumbers nothing.
+
+| # | Route or unread bytes | Family | Verdict | What was actually done | What would answer it |
+|---|---|---|---|---|---|
+| 1 | Discount Store News and Chain Store Age per-issue text layers, 1976-1989 | (c) periodicals | **UNTRIED** | the probe proved the items exist with text layers (`micro_IA40706901_0406` DSN 1980 … `micro_IA40706915_0204` DSN 1984, with parallel Chain Store Age editions); no issue has been downloaded or read by any pass | script-side download of the 1976-1979 and 1982-1983 issues, then a whitespace-flexible grep for `price club`, `costco`, `membership`, `warehouse club` |
+| 2 | An IA phrase search for `"costco"` bounded 1976-1993 | (c) | **UNTRIED** | only `"price club"` was phrase-queried (numFound=1, an unrelated item), and the trade-back-file sweep returned numFound=0 on the annotation field | a per-item route, not a `text:` search: IA `text:` matches annotations, not OCR (measured, not assumed) |
+| 3 | Chronicling America San Diego 1975-1979 and Seattle 1983-1986 | (c) newspapers | **UNANSWERED with the cause known** | the two `company=costco` queries are recorded twice each: 2 rows `SKIPPED: hard stop … host halted` (2026-09-26) and 2 rows **ERROR 404** (2026-09-29), each an 85,273-byte "Page Not Found — Library of Congress" HTML body on disk | fix the harvester's URL path and let CI answer; per RD-128/RD-129 the 404 means the path does not exist, so the sentence "LOC refuses us" has never been evidenced |
+| 4 | HathiTrust page text for `"Price Club" warehouse membership 1976-1989` | (c) | **UNANSWERED** | logged SKIPPED on the 2026-09-29 run; page text 403s from this machine | an egress that can reach HathiTrust; note RD-127's measured analogue on Walmart — the first result page of a company phrase returned nothing pre-1990, so the door may be small |
+| 5 | Auction and museum documentary-sale records (membership cards, opening ephemera, share certificates) | (e) documentary | **UNTRIED — no request has ever been issued by any pass** | the probe consumed its web ceiling on families (c)/(d); `periodical_harvest.py` has no documentary source family at all | WorthPoint / LiveAuctioneers / Heritage searches and UW Libraries or Washington State historical-society holdings; Apple's precedent shows founding documents surface at auction |
+| 6 | Web-archive CDX for `priceclub.com`, `www.priceclub.com`, `costco.com` and an archived browse-edgar company-search page | (b) | **UNANSWERED** (one of three CDX queries answered) | an IA service-wide "Temporarily Offline" body plus one timeout; the endpoint itself answered for a different key | re-run when IA is healthy; expected value is post-1995 corroboration only, and it cannot reach 1976 or 1983 |
+| 7 | **48 of the 59 in-window filings on CIK 909832** (all 10-Qs of 1994, the SC 13E4 of 1994-11-21 and its /A, PRE 14A of 1996-11-29, the S-8s, the 15-12G) | (a) filings | **UNTRIED** | `sec_intake auto` stored 11 and dropped the other 48 without writing an UNANSWERED row (tool defect, K08) | `FETCH REQUEST:` re-run `sec_intake.py auto 909832 --company-dir founders_playbook/01_companies/company_013_costco` with a raised `--max-docs`; the S-3 and 424B1 below are inside this set and are already on disk |
+| 8 | **S-3 filed 1995-05-17, accession 0000891020-95-000177 (324,751 B)** — held on disk, never opened by any pass | (a) | **UNTRIED** | byte count and date only, from `sources/sec/_MANIFEST.csv` | a registration statement is the likeliest held place to find the company *narrating* its own history and use of proceeds |
+| 9 | **424B1 filed 1995-06-02, accession 0000891020-95-000228 (59,941 B)** and **10-K/A filed 1996-03-15, accession 0000912057-96-004594 (16,176 B)** — held, never opened | (a) | **UNTRIED** | as above | the 10-K/A is the cheapest amendment that could change a figure printed in the FY1995 10-K405 |
+| 10 | **Draft EIR case 89.469E (419,592 B), held, unread** | (c)/(d) municipal | **UNTRIED** | this pass measured it: 0 occurrences of `price[[:space:]]+club`, versus 7 in the Final | the project description and the earlier transit assumptions, and whether the 120,000 sq ft figure carries a different member estimate (K07, U.126) |
+| 11 | The traffic, air-quality, geologic and utilities chapters of the **Final** EIR (568,295 B) beyond the passages part 1 and this pass read | (c)/(d) | **UNTRIED** | both passes read the title page, project description, master-plan/employment, travel-demand, comment-and-response and reference-list passages | parking accumulation, trip-generation assumptions and any statement of the chain's existing Bay Area units — the corpus's only in-window operating detail of any kind |
+| 12 | P1S01 l.2380-2390, the per-share/dilution note (read only as grep fragments) | (a) | **UNTRIED** | fragments showing the 5 3/4% series in "primary and fully diluted" and the 6 3/4% and 5 1/2% series "not dilutive" for FY1994 | the full paragraph, before any EPS series is constructed across FY1993-FY1994 (U.128) |
+| 13 | P1S01 Item 6, the header row of the five-year per-share table | (a) | **UNTRIED** | the values 212,772 / 181,336 / 180,887 / 168,324 / 130,367 were read; the column captions were above the window read | the captions, so a year can be attached (U.108, U.136, K18) — **no year is assigned to any of them anywhere in this dossier** |
+| 14 | P1S01 l.445-610 read end to end (this pass read the merger note, the exchange description in part, Item 2, Item 5, Item 6, MD&A, liquidity) | (a) | **PARTLY UNTRIED** | ~2,600 of 6,388 lines opened by reading; the rest by targeted grep | the remainder, including the Note 2 merger-provision analysis table and the lease-payment schedule |
+| 15 | Keyed Google Books retrieval of the two unreached volumes `Tit2jax_AF8C` (imprint 1993, matched page PA507) and `UUM9AQAAIAAJ` (1995, PA805) | (c)/(e) | **UNTRIED** | catalog rows only; `viewability=no_pages` on a keyless request | a keyed API or interlibrary route; a 1993 imprint naming the merger would be the closest thing in the index to an in-window publication (U.135) |
+| 16 | The ~22 IA rows stamped `TIER1_CANDIDATE` that are not this company — Compiled military service records microfilm, joke books, a Supreme Court reporter, `1994 Profiles of female genius` | (c) | **UNTRIED and mislabelled** | counted by column on the 2026-09-29 census: 36 of 50 costco rows still carry the stamp; 4 have ever been mined | they should be **rejected by classification, not opened**: this is RD-124's bare-word class persisting in the index (U.109, K19) |
+| 17 | Legacy CIKs for The Price Company / Price Club Inc / The Costco Companies Inc | (a) | **UNTRIED** | live `browse-edgar` 503s from this machine; EDGAR on CIK 909832 floors at 1994-01-05 | one working company search, then `sec_intake index` against each resolved CIK — **the only route to a pre-1993 balance sheet of either leg** |
+| 18 | California and Washington secretary-of-state incorporation records for either leg | new family | **UNTRIED** — no pass has named this route, and no scripted family covers it | nothing | a filing date and a state of incorporation for the 1976 and 1983 entities, which is the kind of Tier-1 corporate-registry record method §5 asks for and this dossier has never reached |
+| 19 | Trademark and trade-name records for "Price Club" | new family | **UNTRIED** | nothing | whether an unrelated operator ever held the name — the residual uncertainty under K20 |
+| 20 | P1S04 (FY1997 10-K) exhibit 6.1 "PriceSmart" Agreement and the rest of that filing beyond l.386-410, l.626-638, l.1168-1190, l.2125-2160 | (a) | **UNTRIED** | four passages read; the file is 604,104 B | what the brand-licensing path became after the split — a Stage-2 question, recorded here so the next pass does not re-discover the bytes |
+
+**Two honesty notes attached to this list.**
+1. **A null from one family is not a null, and an untried family is not a null either** (§14.6). Items 1-5 and
+6 together mean that **three of the five corpus families have never returned a single in-window document for this
+company**, and that the one family which has (periodicals, via the municipal EIR pair) was reached by accident —
+a harvester matching `COSTCO  WHOLESALE` inside a San Francisco permit record. The tier stays **T3 PROVISIONAL**
+for Stage 1 (RD-112's per-stage rule), and item 1 is the single action most likely to change it.
+2. **`FETCH REQUEST:` blocks are the correct output of this list, not a workaround.** Per §15.1 the routes this
+pass may not drive are: (i) `sec_intake.py auto 909832 --company-dir founders_playbook/01_companies/company_013_costco`
+with a raised document cap, to reach the 48 dropped in-window filings (item 7); (ii) `periodical_harvest.py`
+against the `costco` query block now present in `tools/queries.json`, then per-item download of the DSN/Chain
+Store Age layers (items 1-2); (iii) the Chronicling America endpoint fix and one CI run (item 3). This pass
+**ran no script that writes into `sources/`** and touched no file outside its own path.
+
+**Register-schema note the merge must see (a corpus-wide defect, not a part-2 error).** Seven of the nine
+registers — `quantitative`, `timeline`, `decisions`, `validation`, `failures`, `channels`, `data_gaps` — carry
+**no row-key column in the §13 schema**, so the `P2Qxx`, `P2Txx`, `P2Dxx`, `P2Vxx`, `P2Xxx`, `P2Cxx` and `P2Gxx`
+ids this volume's prose cites (and part 1's `P1Qxx`/`P1Gxx` before it) **are prose-local pointers that no register
+row can resolve**. Only `sources.csv` (`source_id`) and `conflicts.csv` (`conflict_id`) can carry an address. The
+fix belongs to the schema owner, not to a dossier: either add a row-key column, or have the merge mint keys and
+echo the dossier-local id into `notes` as an alias. Recorded here rather than silently worked around, because a
+citation that cannot resolve is the defect this corpus has already paid for twice (§14 rule 12, RD-125's
+stale-pointer class).
+
+**End of part 2.** §G–§U written; claim records G–U minted (`G01-G08`, `H01-H07`, `I01-I07`, `J01-J12`, `KS01-KS04`,
+`L01-L03`, `M01-M05`, `N01-N03`, `O01-O06`, `P01-P04`, `Q01-Q04`, `S01-S05`, `T01-T03`); conflicts continued at
+**K09–K21**; anchors declared at **U.101-U.115 and U.120-U.136**; nine registers emitted for merge and no root
+register created or edited. Parts 1 and 2 are volumes of one document: nothing was renumbered.
+
+
+
+
+
+## Volume 3 -- merge-pass record
+### Register application, fold list and id map (merge pass, 2026-09-30)
+
+**Requested versus applied**, measured from the 20 structured `csv` blocks in the two parts and re-measured on
+the registers after the final write:
+
+| register | rows requested from the parts | folded as duplicates (COR-01, COR-03) | merge-minted | rows on disk |
+|---|---|---|---|---|
+| `sources.csv` | 17 | 3 | 0 | 14 |
+| `quantitative.csv` | 46 | 0 | 0 | 46 |
+| `timeline.csv` | 35 | 0 | 0 | 35 |
+| `conflicts.csv` | 22 | 0 | 0 | 22 |
+| `data_gaps.csv` | 24 | 0 | 2 | 26 |
+| `decisions.csv` | 13 | 0 | 0 | 13 |
+| `validation.csv` | 11 | 3 | 0 | 8 |
+| `failures.csv` | 15 | 4 | 0 | 11 |
+| `channels.csv` | 16 | 0 | 0 | 16 |
+| **total** | **199** | **10** | **2** | **191** |
+
+**Provisional-to-global id map** (the only place these bind; COR-02). Part 1: `P1S01`→S4393 (FY1994 10-K,
+acc. 0000912057-94-003945), `P1S02`→S4394 (FY1995 10-K405), `P1S03`→S4395 (FY1996 10-K405), `P1S04`→S4396
+(FY1997 10-K, Costco Companies Inc), `P1S05`→S4397 (Form 8-K 1994-07-28), `P1S06`→S4398 (DEF 14A 1994-12-23),
+`P1S07`→S4399 (SC 13D naming Sol Price), `P1S08`→S4400 (San Francisco Final EIR, periodical harvest), `P1S09`→
+S4401 (San Francisco Draft EIR), `P1S10`→S4402 (Price Company Ltd annual report 1977), `P1S11`→S4403 (fleet
+harvest candidate index), `P1S12`→S4404 (EDGAR submissions index for CIK 909832). Part 2: `P2S01`→S4399,
+`P2S02`→S4397, `P2S05`→S4403 (**same three documents as part 1's rows, folded, never counted twice**),
+`P2S03`→S4405 (SC 13G, The Capital Group), `P2S04`→S4406 (the intake records `sources/sec/_MANIFEST.csv` and
+`_UNANSWERED.csv`).
+
+**Fold list (10 rows).** `sources.csv`: P2S01/P2S02/P2S05 into P1S07/P1S05/P1S11 — the same accessions and the
+same index file; part 2's own emission note printed this collision and asked for a fold, and method §3 forbids
+counting one lineage twice. `validation.csv`: part 1's "+6 percent comparable sales" (1992-08-30) and "37 gross
+warehouse openings … estate of 200" (1993-08-29) into part 2's restatements of the same two measurements, plus
+part 2's byte-identical duplicate emission of the 1992-04-16 San Francisco member-base row. `failures.csv`: part
+1's "-3 percent comparable sales", "self-cannibalisation" and "$5,750 thousand lease dispute" rows into part 2's
+wider versions of the same three signals (part 2's own notes already recorded that it carried part 1's row), plus
+part 2's byte-identical duplicate emission of the 1992-04-16 row. **Every folded row's differing cells are
+carried verbatim into the `notes` cell of the surviving row**, so the fold is a de-duplication of keys, not of
+evidence.
+
+**Pair examined and deliberately NOT folded (a fold would have destroyed a measurement).**
+`quantitative.csv` at 1993-08-29 carries both `warehouses_opened_in_fiscal_1993_gross` = 37 (part 1) and
+`warehouses_opened_net_of_closings_fiscal_1993` = 30 (part 2, DERIVED, `37 opened minus 7 closed = 30`). The two
+metric names are near-identical and a text-similarity fold would have merged them; they are two different
+measurements of one fiscal year, so both rows are on disk.
+
+**Merge-minted rows (2).** `data_gaps.csv` gained a row each for §U's **U.120** (founding capital, first-unit
+cost, opening-day trade of either leg — EMPTY for this archive, UNTRIED as a route) and **U.124** (the fee
+schedule at either opening — not knowable from the held bytes; the only two fee schedules are post-boundary and
+disagree, K10/U.102). Both were transcribed from the §U declarations, both carry a named follow-up route, and
+neither invents a value.
+
+**Register repair (1).** One `channels.csv` row arrived with the prose value *"never attempted by any pass"* in
+`date_tested`. Per §13 a date column holds a date or `UNKNOWN`, so the cell is now `UNKNOWN` and the prose is
+preserved verbatim in that row's `notes` (COR-05, RD-122's precedent for a prose value in a date column).
+
+**Register-layer repairs deliberately not made.** No numeric `stage` value exists in any of the 199 emitted
+rows: every row of both parts carries the controlled literal `stage1`, so there was nothing to normalise (the
+count is zero and is recorded in `_MANIFEST.md`, because a numeric stage value has already leaked into one
+company's `sources.csv` on this run). No width drift and no empty cell was found in any block. **No value in any
+register was edited to satisfy a gate**; the only cell-level changes this pass made are the re-pointing of
+provisional source ids, the anchor addresses and the one date-column repair above.
+
+**Residue.** No block, row or section was left unapplied. The four `validation.csv`/`failures.csv` blocks that
+`merge_census.py` reports as AMBIGUOUS (5 and 6 rows in part 1, 6 and 9 rows in part 2 — 26 rows) were
+attributed by content and all 26 are on disk. **Nothing in `research/` emitted register rows**: the three
+dossiers there are probe and intake write-ups, so the census scope gap that cost Target 65 rows (RD-122) and the
+one that cost Microsoft 85 (RD-131) does not bite on this company — measured, not assumed.
+
+**Carry-forward UNTRIED routes (Volume 2's `## Untried`, in full there; the short form for the next dispatch).**
+U.129 read the held-but-unopened **S-3 of 1995-05-17 (324,751 B)**, **424B1 of 1995-06-02 (59,941 B)** and
+**10-K/A of 1996-03-15 (16,176 B)** — already on disk, no fetch needed. U.125 the 48 in-window index accessions
+`auto` neither stored nor declared UNANSWERED. U.130 the trade-periodical family (Discount Store News and Chain
+Store Age 1976–1989) proven to exist with text layers on Internet Archive and never downloaded. U.131
+documentary auction/museum records, never requested. U.132 the web-archive family, UNANSWERED on an offline body
+and one timeout. U.133 Chronicling America, whose 404s are our own URL builder per RD-128/RD-129, so **no San
+Diego or Seattle newspaper has ever been searched for either leg**. U.134 HathiTrust, never measured for this
+company. U.135 the two Google Books volumes imprinted 1993 (`Tit2jax_AF8C`) and 1995 (`UUM9AQAAIAAJ`). U.136 the
+Item 6 five-year share-count row.
+
+**FETCH REQUEST** (script work for the orchestrator; this pass made zero web requests and does not fetch):
+`tools/sec_intake.py auto --cik 909832 --company-dir founders_playbook/01_companies/company_013_costco
+--from 1983-01-01 --to 1997-12-31` extended to the 48 nameless in-window accessions (list in
+`sources/_index/submissions.csv`), notably **PRE 14A 1996-11-29 acc. 0000912057-96-027954**, **SC 13E4
+1994-11-21**, **SC 13E4/A 1994-12-07** and the 1995 10-Q run; and the Internet Archive text layers
+**`micro_IA40706901_0406`** (Discount Store News 1980) through **`micro_IA40706915_0204`** (Discount Store News
+1984) with their parallel Chain Store Age editions, plus the Google Books page text of **`Tit2jax_AF8C`** at
+PA507 and **`UUM9AQAAIAAJ`** at PA805.
+
+**Parts status.** `_parts/s1_p1.md` and `_parts/s1_p2.md` each carry an appended `SUPERSEDED 2026-09-30` footer
+pointing here; their bodies were not edited. Full merge record:
+`03_quality_control/costco_s1_merge_notes.md`. Corrections: `CORRECTIONS.md` COR-01–COR-05.

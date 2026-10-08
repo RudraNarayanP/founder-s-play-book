@@ -1,0 +1,27 @@
+company,stage,date,metric,value,unit,source,source_date,evidence_class,confidence,derived_arithmetic,notes
+gm,stage1,1908-09-16,"Initial capitalisation, General Motors Company (N.J.)",$2000,USD par as printed,S4423 L9467,1928,FACT,Medium,NOT_DERIVED,"layer prints $2000 without a comma; not repaired [COR-09: every count in this dossier is line-wise over OCR layers, a floor not a census]"
+gm,stage1,1908-09,Authorised capitalisation after increase,$12500000,USD,S4423 L9467-9468,1928,FACT,Medium,NOT_DERIVED,'increased two weeks later'
+gm,stage1,1908-09,of which seven per cent preferred,$7000000,USD $100 par,S4423 L9468-9469,1928,FACT,Medium,NOT_DERIVED,no additional note
+gm,stage1,1908-09,of which common,$5500000,USD $100 par,S4423 L9469-9470,1928,FACT,Medium,NOT_DERIVED,no additional note
+gm,stage1,1908-10-01,Buick common shares taken in exchange,18870,shares,S4423 L9471,1928,FACT,Medium-High,NOT_DERIVED,founding consideration leg
+gm,stage1,1908-10-01,cash in the founding consideration,$500000,USD,S4423 L9472,1928,FACT,Medium-High,NOT_DERIVED,no additional note
+gm,stage1,1908-10-01,GM preferred par issued to Durant,$2387000,USD par,S4423 L9488,1928,FACT,Medium,NOT_DERIVED,footing only if the donated-back $1000000 counts as issued; see U.10
+gm,stage1,1908-10-01,GM common par issued to Durant,$2193500,USD par,S4423 L9488-9489,1928,FACT,Medium,NOT_DERIVED,no additional note
+gm,stage1,1908,Combined output Ford+Buick+Cadillac+Olds,18411,units,S4423 L9478-9479,1928,FACT,Medium,NOT_DERIVED,figures from records of GM Corporation and The Ford Industries
+gm,stage1,1908,Total American automobile output,65000,units,S4423 L9481,1928,FACT,Medium,NOT_DERIVED,no additional note
+gm,stage1,1908-08-01,Olds Motor Works unsecured liabilities,$1472693,USD,S4423 L9757,1928,FACT,Medium,NOT_DERIVED,gross tangible $2763838; net tangible $1291145 at L9758
+gm,stage1,1908-11-12,Olds acquisition consideration,$1827694 preferred + $1195880 common + $17279 cash,USD,S4423 L9759-9764,1928,FACT,Medium-High,NOT_DERIVED,plus $1044174 of note-liabilities held by S. L. Smith
+gm,stage1,1908-10,TABLE 30 acquisition totals 1908-10,$13161813 net worth; cash $6127668; preferred $7268804; common $8512830,USD,S4423 L9650,1928,FACT,Low-Medium,NOT_DERIVED,columns do not close against rows L9596-9647 in the OCR layer
+gm,stage1,1910-09,Total stock issues to September 1910,$10042100 preferred; $15819830 common,USD,S4423 L9665-9668,1928,FACT,Low,NOT_DERIVED,year digit garbled in layer
+gm,stage1,1910-10-01,Condensed consolidated balance sheet after new financing,fixed assets $14094909.55; patents/agreements $1959416.30; misc investments $408944.07; cash $15000473.66,USD,S4423 L10288-10299,1928,FACT,Medium,NOT_DERIVED,'39000287.90' printed at the inventories label; subtotal or line undecidable (U.10)
+gm,stage1,1910-10,First-lien five-year note issue,$15000000,USD,S4423 L10264,1928 quoting 1910-10-18 print,FACT,Medium-High,NOT_DERIVED,repriced with 20 per cent stock bonus at 96
+gm,stage1,1910,American industry output and value,187000 vehicles; $225000000,units; USD,S4423 L10631-10632,1928,FACT,Medium,NOT_DERIVED,"footnote carrier 'Facts and Figures of the Automobile Industry, 1927'"
+gm,stage1,1910,GM enterprises share of output / wholesale value,21; 22,per cent,S4423 L10633-10635,1928,FACT,Medium,NOT_DERIVED,printed as 'about'
+gm,stage1,1915,American industry output and value,969930 vehicles; $701778000,units; USD,S4423 L10632,1928,FACT,Medium,NOT_DERIVED,no additional note
+gm,stage1,1915,GM enterprises share of output / wholesale value,7.8; 13.3,per cent,S4423 L10637-10643,1928,FACT,Medium,NOT_DERIVED,the measured relative failure of Stage 1
+gm,stage1,1910-15,Implied GM units 1910 and 1915,39300; 75700,units,S4423 L10631-10643,1928,ESTIMATE,Medium,0.21 x 187000 = 39300 ; 0.078 x 969930 = 75700,arithmetic performed on this pass from two printed pairs in one document
+gm,stage1,1910-15,Cumulative write-offs reported by the board,$12531013.19,USD,S4423 L10688-10689,1928 quoting the 1915 annual report,FACT,Medium-High,NOT_DERIVED,1915 report itself not held
+gm,stage1,1915-10-15,First cash dividend on the common,50 per cent = $50 per share; record 1915-09-10,USD per share,S4423 L10693-10696,1928 quoting the 1915 annual report,FACT,Medium-High,NOT_DERIVED,a 'first' by the board's own wording
+gm,stage1,1919,Fisher 60 per cent interest price,about $5800000 cash + $21851000 five-year serial notes,USD,S4423 L11752-11764,1928,FACT,Medium-High,NOT_DERIVED,300000 newly issued no-par shares; four trustees
+gm,stage1,1919,1919 investment and asset movement,unconsolidated investments +$50558960; real estate/plant/equipment $47741698; assets by consolidation $12439459 less $6063229 depreciation,USD,S4423 L11782-11789,1928,FACT,Medium,NOT_DERIVED,company-compiled; underlying 1919-21 annual reports not held
+gm,stage1,1920-11,Durant personal indebtedness estimated by Dow Jones & Co. to 44 brokerage houses,$27000000,USD,S4423 L12456-12458,1928,ESTIMATE,Medium,NOT_DERIVED,estimate at source; carried as estimate not observation
