@@ -140,3 +140,24 @@ effect: Cigna's false advisory is gone (0 findings, 1 project-text match); Meta'
 7 primary + 3 project-text; CVS's one real case (an in-quotation `[~]` OCR marker) stays visible as a
 question for the auditor instead of disappearing. Control: `research-dossier quotation matches` in
 `gates.py --self-test` (25 controls, all PASS).
+
+## Resume batch, 2026-10-08 (written the hour the quota died; every number is a disk measurement)
+
+Send these in this order, **10 lanes maximum**, and read `RESUME_HANDOFF.md` §1-§4 first. Nothing is running
+and the ledger holds 0 live / 0 stale claims, so no dispatch starts with a lock fight.
+
+| agent id | job | the measured delta it must close |
+|---|---|---|
+| `merge-jpmorgan2` | finish, do not restart | `stage_1.md` 34,637 w + nine registers (214 rows) EXIST; 23 `PROV-JP1-*` source ids un-minted; no `CORRECTIONS.md`; `_MANIFEST.md` is 35 words; both reports are stubs |
+| `repair-cigna2` | verify-then-finish | "March 6, 2018" printed 3x, 13 COR entries, BUT `stage_1.md` still says "No held byte prints…" in **2 places** and `cigna_s1_repairs.md` is a stub |
+| `audit-gm2`, `audit-att2`, `audit-cvs2`, `audit-jnj2`, `audit-pepsico2`, `audit-boeing2`, `audit-meta2` | five-lens audit per `AUDIT_BRIEF_SHARED.md` | all seven report files are 35-word stubs; the volumes are 20,192 / 31,315 / 19,520 / 27,043 / 22,958 / 34,817 / 30,212 words with 114/136/126/102/106/211/120 rows |
+| `merge-cencora`, `merge-verizon`, `merge-ups`, `merge-centene`, `merge-fedex` | single-part merges | parts at 14,916 / 17,293 / 12,215 / 10,268 / 5,516 words, **0 PENDING blocks each**; FedEx is thin for T3 and its merger must say so rather than pad |
+| `close-humana-p1` then `merge-humana` | 5 PENDING blocks first | part is 14,617 w with 5 blocks marked `STATUS: PENDING` |
+| `close-dell-p2` then `merge-dell` | 2 PENDING blocks, then union merge | p1 28,786 w + p2 32,398 w; p1 declared anchors `U.101–U.111`; merge takes the UNION and renumbers neither |
+| `s1-elevance2` | continue from 3,481 w | T3 target 8,000; probe issues T3 |
+| `s1-cardinal2`, `s1-marathon`, `s1-valero`, `s1-wellsfargo` | restart, nothing was written | Cardinal: no part at all; Marathon/Valero/Wells Fargo: 35-word scaffold stubs (tiers T3 / T3 / T2 from their own dossiers) |
+| `book-boat-corrections` | check Boeing's missing `CORRECTIONS.md` | merge reported 211 rows applied and the volume exists at 34,817 w, but the directory has no `CORRECTIONS.md` -- bookkeeping gap, not lost evidence |
+
+**Do NOT re-dispatch:** anything already merged (19 volumes, 734,262 words, 4,274 rows -- see §1), and the 1.5 GB
+of newly-downloaded evidence is on disk but deliberately unpushed pending the user's call; the nightly harvest
+workflow is the proven route for evidence.
