@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000049071/000004907101500004/0000049071-01-500004.txt",
+ "fetched": "2026-09-29T19:02:26Z",
+ "sha1": "48310e81e4f7e5425318c92726df1ff32598868f",
+ "bytes": 11365,
+ "words": 970,
+ "cik": "0000049071",
+ "registrant": "HUMANA INC",
+ "accession": "0000049071-01-500004",
+ "document": "0000049071-01-500004.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": true
+}

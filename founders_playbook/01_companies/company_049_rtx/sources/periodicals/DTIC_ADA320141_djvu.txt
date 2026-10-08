@@ -1,0 +1,5796 @@
+LOAN  DOCUMENT 
+
+
+PHOTOGRAPH  THIS  SHEET 
+
+
+LEVEL 
+
+
+INVENTWY 
+
+
+i 
+
+
+DOCUMENT  IDENTIFICATION 
+
+■^o 
+
+
+Ap$)ff7r«i  l«  pw*** 
+
+jy^taiMSM  OWStoatwd 
+
+
+DISTKDUnON  STATEMENT 
+
+
+Nnt 
+
+me  imAC 
+
+IWANNOUNCEn 
+
+JUSTIFICATION 
+
+
+BY 
+
+
+DISTRIBUTION/ 
+
+
+AVAILABILITY  CODES 
+
+
+DISTlUBUnON  UvAILABlLmr  AND/OR  SPECIAL 
+
+
+DATE  ACCESSIONED 
+
+
+DISTRIBUTION  STAMP 
+
+
+DATE  RETURNED 
+
+
+19970117  231 
+
+
+DATE  RECEIVED  IN  DTIC 
+
+
+REGISTERED  OR  CERTIFIED  NUMBER 
+
+
+PHOTOGRAPH  THIS  SHEET  AND  RETURN  TO  DTIC-FDAC 
+
+
+DTIC;^70A 
+
+
+DOCUMQCr  PROCESSING  SHEET 
+
+LOAN  DOCUMENT 
+
+
+IgWfflilWBMUAViEUHBUJM 
+
+STOaCISB3(HAUnBD. 
+
+
+URL  MEMORANDUM  REPORT 
+No.  192 
+
+
+UNITED  STATES  GOVERNMENT 
+
+memorandum 
+
+7103/123 
+
+DATE:  3 1  October  1996 
+
+FROM:  Burton  G.  Hurdle  (Code  7103) 
+
+SUBJECT:  review  OF  REF.  (a)  FOR  DECLASSIFICATION 
+TO:  Code  1221.1 
+'ta:  Code  7100 
+
+(a)  NRL  Confidential  Report  #192  by  H.H.  Elliott,  Jr.,  20  July  1953  (U) 
+
+1.  Reference  (a)  is  a  report  on  the  engineering  testing  of  Serial  No.  1  of  Model 
+QHD  scaiming  sonar  equipment  manufactured  by  Raytheon  Mfg.  Co.,  Submarine 
+Signal  Division,  Waltham,  Mass.  The  tests  were  conducted  to  determine  if  the 
+equipment  complied  with  the  Navy’s  contractual  specifications.  The  tests  were 
+extensive,  including  mechanical,  electronic  and  electrical  tests. 
+
+2.  Serial  No.  1  of  Model  QHD  was  the  only  one  built.  It  was  never  put  into 
+operation.  The  technology  of  this  equipment  has  long  been  superseded. 
+
+3.  Based  on  the  above,  it  is  recommended  that  reference  (a)  be  declassified  with  no 
+restrictions. 
+
+
+THIS  DOCUMENT  IS  BEST 
+QUALITY  AVAILABLE.  THE 
+COPY  FURNISHED  TO  DTIC 
+CONTAINED  A  SIGNIFICANT 
+NUMBER  OF  PAGES  WHICH  DO 
+NOT  REPRODUCE  LEGIBLY. 
+
+
+TEXT 
+
+
+FOR 
+
+NRL  MEMORANDUM  REPORT  NO.  192 
+
+
+DSdASSlPIEDi  By  authopity  of 
+
+Cite  Authority  Bat© 
+
+(T.  _ L^3iL. 
+
+KR'L  Code 
+
+
+Entered  by 
+
+
+1 
+
+
+FINAL  REPORT 
+on 
+
+Engineering  Evaluation  of 
+Scanning  Sonar  Equipment 
+Model  QHD 
+Serial  No«  1 
+
+
+by 
+
+
+,!  H,  H.  Elliott^  Jr. 
+
+
+20  July  1953 
+
+
+Test  Unit 
+
+Technical  Services  Staff 
+Sound  Division 
+Naval  Research  Laboratory 
+Washington  25,  D.  C« 
+
+
+UNCLAJrfPftr 
+
+
+REFERENCES 
+
+
+(a)  BuShd.ps  conf  Itr  Ser  848-063  dtd  20  March  1950 » 
+
+(b)  BuShips  conf  Itf  Ser  848-0112  dtd  13  April  1950. 
+
+(c)  BuShips  conf  Itr  Ser  848-081  dtd  28  March  1952. 
+
+(d)  BuShips  restr  Itr  Ser  848— 13A  dtd  6  May  1952. 
+
+(e)  BuShips  conf  Itr  Sei  814-017  dtd  3  March  1953. 
+
+(f)  BuShips  Contract  Specifications  CS-774  dtd  15 
+May  1947,  Scanning  Sonar  Equipment,  Model  QHD. 
+
+(g)  BuShips  Contract  Specifications  CS-774  Addendum 
+2  dtd  1  August  1950. 
+
+(h)  Militaiy  Specifications  MIL-S-15529  (SHIPS)  dtd 
+1 August  1950,  Modification  to  add  Storage 
+
+F©  St  till®©  o 
+
+(i)  Military  Specifications  MIL-S-15529  (SHIPS) 
+
+Addendum  1  dtd  I5  March  1951. 
+
+(j)  BuShips  Specifications  16E4  (RE)  dtd  15  May  1946 
+General  Specifications  for  Electronic  Equipment. 
+
+(k)  BuShips  Specifications  l6C39  (RE)  dtd  15  June  1946 
+Components,  Application  of,  for  Electronic  Equipment. 
+
+(l)  BuShips  Specifications  16E4  (SHIPS)  dtd  1  August  1949 
+General  Specifications  for  Electronic  Equipment. 
+
+
+LfNCLASSFFrrff 
+
+
+ABSTRACT 
+
+
+A  production  equipment.  Serial  Humber  1  of  the  Model  QHD  Scajining  Sonar  Equip¬ 
+ment  manufactured  by  the  Raytheon  Manufacturing  Company,  Submarine  Signal  Divi¬ 
+sion,  Waltham,  Mass.,  under  contract  HObsr-42064,  was  delivered  to  this  labora¬ 
+tory  for  tests  to  determine  compliance  with  references  (f)  and  (g).  The  equip¬ 
+ment  was  received  20  September  1951*  4  field  change  modification  unit,  the^ 
+
+QHD  Receiver  Storage  Scanner,  was  received  5  Msy  1952.  Engineering  evaluation 
+of  the  equipment  (less  the  modification  unit)  was  started  12  December  1951» 
+Testing  of  the  modification  unit  to  determine  coi^liance  with  references  (h)  and 
+(i)  was  started  22  May  1952.  In  compliance  with  reference  (d)  the  transducer 
+unit  was  returned  to  the  manufacturer  on  8  May  1952  for  correction  of  fault  in 
+the  HCG  section  and  for  modification  of  the  rubber  boot.  The  transducer  was  re¬ 
+turned  to  this  laboratory  on  3  September  1952  and  testing  was  resumed  on  5  Septem¬ 
+ber  1952.  As  directed  by  reference  (e)  the  completion  of  the  Shock  and  Vibra¬ 
+tion  tests  was  cancelled  on  3  March  1953* 
+
+
+PROBLEM  STATUS 
+
+
+This  is  a  final  report  and  concludes  work  on  this  problem. 
+
+
+AUTHORIZATION 
+
+
+NHL  Problem  S07-15 
+BDB  HE-091106 
+BuShips  Problem  S-I5O8 
+
+
+TABLE  OF  CONTENTS 
+
+
+ABSTRACT 
+PROBLEM  STATUS 
+AUTHORIZATION 
+REFERENCES 
+
+
+I. 
+
+II. 
+
+
+III. 
+
+
+IV. 
+
+
+V. 
+
+
+CONCLUSION 
+
+RECOMMENDATIONS 
+
+A.  Mechanical 
+
+B.  Electrical 
+
+C.  Temperature  and  Humidity 
+
+1.  Mechanical 
+
+2.  Electrical 
+DESCRIPTION 
+
+A.  General 
+
+B.  Major  Units 
+INSPECTION,  TESTS  AND  RESULTS 
+
+A.  General 
+
+B.  Mechanical  -  Individual  Units 
+
+C.  Electrical  -  Individual  Units 
+D»  Tefliperature  and  Humidity 
+
+1 .  Mechanical 
+
+2.  Electrical 
+SHOCK  AND  VIBRATION 
+
+
+See  NRL  Memorandum  Report  No.  3853“354A/53 
+
+
+i 
+
+
+1.  Linearity  of  SSI  Vertical  Sweep. 
+
+2.  Scanning  Receiver  Overload  Characteristics. 
+
+3.  Scanning  Receiver  Frequency,  Response  (Narrow  Band-Pass  Operation). 
+
+4.  Scanning  Receiver  Frequency  Response  (Broad  Band-Pass  Operation). 
+
+5.  Effect  of  TVG  on  Scanning  Receiver  Gain. 
+
+6.  Effect  of  RCG  and  TVG  on  Scanning  Receiver  Gain-TVG  Bias  -25  v. 
+
+7.  Effect  of  RCG  and  TVG  on  Scanning  Receiver  Gain-Fixed  RCG. 
+
+8.  First  Oscillator  ODN  Operation. 
+
+9.  Second  Oscillator  ODN  Operation. 
+
+10.  Listening  Receiver  Overload  Characteristic, 
+
+11.  Listening  Receiver  Frequency  Response. 
+
+12.  Effect  of  TVG  on  Listening  Receiver  Gain. 
+
+13.  Effect  of  RCG  and  TVG  on  Listening  Receiver  Gain  (TVG  Bias  -2.5  v  ). 
+
+14.  Effect  of  RCG  and  TVG  on  Listening  Receiver  Gain  (Fixed  Amount  of  RCG). 
+
+15.  Discriminator  Characteristics. 
+
+16.  SSI  Receiver  Phase  Shift  with  Change  in  Input  Frequency  and  Amplitude. 
+
+17.  Driver  Power  Output. 
+
+16,  Commutator  Tube  Overload  Characteristic  with  the  Coupling  Amplifier. 
+
+19.  QHD  Transducer  -  Open  Circuit  Voltage  Response  and  Transmitting 
+Power  Response  of  Individual  Standard  Staves  at  26  kc. 
+
+20.  QHD  Transducer  -  Impedance  an.d  Phase  Angle  of  Individual  Standard 
+Staves  at  26  kc. 
+
+21.  QHD  Transducer  -  Sound  Radiation  Pattern  for  MCC  OperatioHj  Vertical 
+Plane, 
+
+22.  QHD  Transducer  -  Sound  Radiation  Pattern  for  MCC  Operation, 
+
+Vertical  Plane,  Transducer  ffires  to  MCC  Section  Reversed, 
+
+23.  QHD  Transducer  -  Transmitting  Response  of  MCC  Section,  Horizontal  Plane. 
+
+24.  QHD  Transducer  -  Resonance  of  Standard  Section. 
+
+25.  QHD  Transducer  -  Transmitting  Response  of  Standard  Section. 
+
+26.  QHD  Transducer  -  Sound  Radiation  Pattern  of  Standard  Section, 
+
+Vertical  Plane, 
+
+27.  QHD  Transducer  -  Horizontal  Receiving  Beam  Pattern  all  Staves 
+Connected  in  Parallel  Aiding. 
+
+28.  QHD  Transducer  -  Receiving  Beam.  Pattern  after  Commutation,  Zero  Degrees. 
+
+29.  QHD  Transducer  -  Receiving  Beam  Pattern  after  Commutation,  45  Degrees. 
+
+30.  QHD  Transducer  -  Receiving  Beam  Pattern  after  Commutation,  90  Degrees. 
+
+31.  QHD  Transducer  -  Receiving  Beam  Pattern  after  Commutation,  135  Degrees. 
+
+32.  QHD  Transducer  -  Receiving  Beam  Pattern  after  Commutation,  180  Degrees. 
+
+33 •  QHD  Transducer  -  Receiving  Beam  Pattern  after  Commutation,  225  Degrees. 
+
+34.  QHD  Transducer  -  Receiving  Beam  Pattern  after  Commutation,  270  Degrees. 
+
+35.  Transducer  -  Receiving  Beam  Pattern  after  Commutation,  315  Degrees. 
+
+36.  QHD  Transducer  =  Stave  No.  1  Transducer  and  Leng  Network 
+Receiving  Beam  Pattern  without  Commutation. 
+
+37.  QHD  Transducer  -  Stave  No,  7  Transducer  and  Lens  Network 
+Receiving  Beam  Pattern  without  Commutation, 
+
+
+38.  QHD  Transducer  -  Stave  No.  13  Transducer  and  Lens  Netwoik  Receiving 
+Beam  Pattern  vdthout  Commutation. 
+
+39 »  QHD  Transducer  -  Stave  No.  19  Transducer  and  Lens  Network  Receiving 
+Beam  Pattern  without  Commutation. 
+
+40.  QHD  Transducer  -  Stave  No.  25  Transducer  and  Lens  Network  Receiving 
+Beam  Pattern  without  Commutation. 
+
+41 »  QHD  Transducer  ->  Stave  No.  31  Transducer  and  Lens  Network  Receiving 
+
+Beam  Pattern  without  Commutation. 
+
+42.  QHD  Transducer  “  Stave  No.  37  Transducer  and  Lens  Network  Receiving 
+Beam  Pattern  without  Commutation. 
+
+43®  QHD  Transducer  -  Stave  No.  43  Transducer  and  Lens  Network  Receiving 
+Beam  Pattern  without  Commutation. 
+
+44.  QHD  Transducer  -  Sound  Radiation  Pattern  of  MCC  Section  Vertical  Plane. 
+
+45*  Storage  Amplifier  #41  “  Frequency  Characteristic. 
+
+460  Storage  Amplifier  AVC  Characteristics. 
+
+47.  Receiver  Storage  Amnlifier  AVC  Delay  Characteristics  with  33~ 
+Millisecond  Input  Pulse  Duration. 
+
+48.  Alternating  Current  AVC  Delay  Characteristics  of  Storage 
+Amplifier  No.  35. 
+
+49.  Receiver  -  Storage  Amplifier  AVC  Delay  Characteristics  with  67~ 
+Millisecond  Input  Pulse  Duration. 
+
+50.  Receiver  -  Storage  Amplifier  AVC  Delay  Characteristics  with 
+3.3~Millisecond  Input  Pulse  Duration. 
+
+51.  QHD  Transmitting  Frequency  Variation  with  Temperature  Change  -  First 
+Oscillator  Tuning  Reactance  Off. 
+
+52.  QHD  Transmitting  Frequency  Variation  with  Temperature  Change  -  First 
+Oscillator  Tuning  Reactance  On. 
+
+53.  First  Oscillator  Frequency  Variation  with  Temperature  Change  - 
+Tuning  Reactance  Off. 
+
+54.  First  Oscillator  Frequency  Variation  with  Temperature  Change  - 
+Tuning  Reactance  On. 
+
+55.  Second  Oscillator  Frequency  Variation  with  Temperature  Change  - 
+Operating  at  Transmitting  Frequency. 
+
+56.  Second  Oscillator  Frequency  Variation  with  Temperature  Change  -  with 
+Tuning  Reactance  Off. 
+
+57.  Second  Oscillator  Frequency  Variation  with  Temperature  Change  - 
+Tuning  Reactance  On. 
+
+58.  Console  Assembly. 
+
+59.  Console  Assembly  -  Open  View^  Bottom. 
+
+60.  Console  Assembly  -  Open  View^  Top. 
+
+61.  Receiver  Assembly. 
+
+62.  Receiver  Assembly  -  Right  Side  View. 
+
+63.  Receiver  Assembly  ■=  Left  Side  View. 
+
+64.  Amplifier  “  Commutator  Assembly. 
+
+65.  Amplifier  -  Commutator  Assembly  -  Front  View,  Open. 
+
+66.  Amplifier  -  Commutator  Assembly  -  Rear  View. 
+
+
+c:-' 
+
+
+r-i 
+
+
+iii 
+
+
+67.  Servo  Amplifier  Assembly. 
+
+68.  Servo  Amplifier  Assembly  -  Front  View,  Open. 
+
+69.  Sonar  Driver  -  Amplifier. 
+
+70.  Sonar  Driver  -  Amplifier  -  Front  View,  Open. 
+
+71.  Transducer. 
+
+72.  Power  Transformer. 
+
+73.  Motor  -  Generator  Assembly. 
+
+74.  Motor  Starter. 
+
+75.  Motor  Starter  -  Open  View. 
+
+76.  Relay  Assembly. 
+
+77.  Relay  Assembly  -  Open  View. 
+
+78.  Receiver  -  Storage  Scanner  Assembly. 
+
+79.  Receiver  -  Storage  Scanner  Assembly  -  Front  View,  Open. 
+
+80.  Loudspeaker, 
+
+81.  Azimuth  Range  Indicator  (Remote  PPI), 
+
+82.  Azimuth  Range  Indicator  (Remote  PPI)  Side  View, 
+
+83.  Azimuth  Range  Indicator  (Remote  SSI). 
+
+84.  Azimuth  Range  Indicator  (Remote  SSI)  Side  View, 
+
+85.  Operatoi^s  Chair. 
+
+
+iv 
+
+
+UNCLAS^rrlrD 
+
+
+1 
+
+
+CONCLUSION 
+
+
+The  results  of  the  specification  compliance  tests  showed  that  the  equipment^ 
+exclusive  of  the  transducer,  the  transducer  having  failed  nearly  all  of  the 
+specification  requirements,  was  in  general  well  designed,  and  when  operation 
+of  the  entire  equipment  was  obtained  it  appeared  to  be  a  very  capable  sonar 
+system.  However,  due  to  the  many  modes  of  operation  with  their  associated 
+test  switches  the  system  was  made  extremely  complex.  This  complexity  of  .the 
+system  resulted  in  an  equipment  that  was  somewhat  unstable  and  required  fre¬ 
+quent  adjustment.  Due  to  the  great  amount  of  servicing  and  testing  re¬ 
+quired  to  ensure  optimum  performance,  it  is  concluded  that  the  system  is  not 
+suitable  for  Naval  service  where  consistent  operation  is  required. 
+
+
+II.  RECOMMENDATIONS 
+A.  Mechanical 
+
+1.  Dimensions  of  imits  (including  knobs,  mounts  etc.),  should  be 
+within  the  limits  specified  in  ref.  (f),  par.  E-25. 
+
+2.  Accessibility  for  servicing  of  the  power  supply  units  in  the 
+Receiver  Assembly  and  in  the  Amplifier  Commutator  Assembly 
+should  be  improved,  (Ref.  (j),  par.  D>-^2a.) 
+
+3.  Supports  for  receiver  chassis  cover  plates  should  be  re¬ 
+positioned  in  order  that  cover  plate  screws  may  more  easily  be 
+removed  and  reinserted  and  to  prevent  damage  to  panel  gasket 
+when  removing  screws. 
+
+5  "'  i  . 
+
+4.  Screws,  bolts,  etc,,  should  be  so  positioned  as  to  eliminate 
+hazard  of  shorting  to  ground  or  damaging  electronic  components. 
+
+5.  Locking  devices  should  be  provided  for  holding  console  hinged 
+panel  (lower  right  control  panel)  in  the  maintenance  position, 
+(Ref,  (j),  par.  D-2a(3)«) 
+
+6.  Holding  bolts,  when  firmly  seated,  should  securely  hold  and 
+position  the  component  parts.  Loose  or  stripped  bolts,  nuts, 
+etc,,  are  not  acceptable,  (Ref,  (j),  par.  D-17o(4).) 
+
+
+7.  Screws  or  bolts  secured  by  nuts  or  other  retainers  should  not 
+project  beyond  the  retaining  device  by  more  than  l/6-inch  plus 
+1-1/2  threads,  nor  have  less  than  1-1/2  threads  minimum  pro¬ 
+jection*  (Eef.  (j),  par.  D-17f«) 
+
+8.  Lifting  bolts  should  be  provided  to  facilitate  hoisting  and 
+lowering  of  the  equipment.  (Eef.  (l),  par.  3*15«) 
+
+9.  Pliable  washers  should  be  used  with  mounting  bolts  for  glass 
+face  plate  of  the  A2dmuth  Range  Indicator.  (Eef.  (j),  par. 
+D-17o(2).) 
+
+10.  Accessibility  of  the  console  bearing  repeater  dials  and  dial 
+lights  should  be  improved.  (Ref.  (j),  par.  D-2a  (1).) 
+
+H.  Tube  clamps  should  be  so  positioned  that  they  can  readily  be 
+engaged  or  disengaged  without  the  use  of  a  tool.  (Eef.  (j)^ 
+par.  D-lAo) 
+
+12.  Holding  clamp  spade  lugs  should  be  secured  by  two  rivets  or 
+two  spot  welds,  not  one.  (Ref.  (j),  par.  D“17i.) 
+
+13.  Materials  which  support  moisture  penetration  and  fungus  growth, 
+or  are  flammable,  should  not  be  used.  (Eef.  (j),  par.  C“2c.) 
+
+14.  The  indicator  panel  of  the  console  should  contain  the  RCG-TVG" 
+On-Off  switch.  (Ref.  (f),  par.  E-26b.) 
+
+15.  All  inter-connecting  terminal  blocks  should  have  20  percent 
+spare  terminals,  (Ref.  (f),  par.  E-14.) 
+
+16.  Wiring  should  be  arranged  in  a  neat  and  workmanlike  manner. 
+
+Where  feasible,  the  wiring  should  be  cabled  and  properly  secured. 
+(Ref.  (j),  par,  D-llb(2).) 
+
+17.  Conductor  shielding  should  be  properly  grounded. 
+
+18.  No  solder  connection  should  terminate  more  than  three  leads. 
+
+(Ref.  (j),  par,  D-12b,) 
+
+19.  All  component  parts  should  be  correctly  symbol  designated, 
+
+(Ref,  (j),  par.  D-24b.) 
+
+
+2 
+
+
+UNCLASSIFIED 
+
+
+20.  Function  name  plate  or  legible  marking  should  be  displayed 
+adjacent  to  the  control,  switch,  or  handwheel,  (Ref,  (j), 
+par,  D“16L.) 
+
+21.  Circuit  symbols  should  be  clearly  marked  or  stamped  with 
+smudge-proof  ink  or  dye.  Markings  should  not  be  obscure4  by 
+other  components,  (Ref.  (j),  par.  D-24b(2).) 
+
+22.  Transformers  and  chokes  should  be  marked  with  manufacturer®  s 
+name  or  symbol,  the  JAN  type  designation,  rating,  voltage,  ■ 
+inductance,  etc.  (Ref.  (k),  par,  E-22,) 
+
+23.  Capacitors  should  be  of  the  type  and  value  specified  in 
+ref,  (k),  par.  E“4<» 
+
+24.  Resistors  should  be  of  the  type  and  value  specified  in 
+ref.  (k),  par.  E-i8, 
+
+25.  Cable  connectors,  should  be  of  the  type  specified  in 
+ref,  (k),  par,  E-5, 
+
+26.  Vacuum  tubes  should  be  selected  from  types  listed  in  the 
+Preferred  List.  (Ref,  (k),  par,  E-23.) 
+
+27.  Spare  part  components  should  be  of  the  correct  value  and 
+type  for  all  units,  (Ref,  (f),  par.  E“2d.) 
+
+28.  Errors  in  wiring  prints  and  in  the  text  and  diagrams  in  the 
+instruction  books  should  be  corrected.  Missing  portions  of 
+instruction  books  should  be  supplied, 
+
+29.  The  mechanical  cursor  on  the  SSI  raster  is  not  necessary 
+and  should  be  removed, 
+
+30.  The  driver  hi^  voltage  interlock  should  be  made  positive 
+acting  and  reliable. 
+
+31.  The  hinged  cover  plates  on  the  remote  PPI  and  SSI  units 
+should  be  made  to  open  sufficiently  to  permit  easy  visual 
+access  to  the  controls. 
+
+
+CT.; 
+
+O 
+
+O','} 
+
+3] 
+
+nj'j 
+
+
+3 
+
+
+S «  ElQci^ncfil 
+
+
+!•  The  pulse  generator  in  the  console  should  be  madie  to  operate 
+with  all  associated  switches  connected  in  the  circuit* 
+
+2*  The  pulse  generator  should  be  made  to  have  more  stable 
+operation# 
+
+3#  The  amount  of  e3q)and  on  the  PPI  CRT  spiral  expand  should  be 
+made  more  stable# 
+
+4*  The  driver  bias  capacitor  C«S04  should  be  of  higher  voltage 
+rating# 
+
+5«  The  first  oscillator  in  the  scanning  receiver  should  be  made 
+to  operate  without  parasitic  oscillations  when  its  tuning  re¬ 
+actance  is  "on"# 
+
+6#  The  SSI  vertical  sweep  should  be  made  more  linear  and  the 
+distance  presented  on  the  raster  should  be  600  yards  when 
+the  equipment  is  under  the  control  of  the  OKA  recorder# 
+
+7^  The  second  oscillator  tuning  reactance  in  the  scann:mg  re¬ 
+ceiver  should  be  made  to  operate  from  a  sxgnal  received  by 
+the  listening  receiver  and  not  from  the  noise  produced  by 
+the  change  from  transmit  time  operation  to  receive  time 
+operation# 
+
+8#  The  frequency  vernier  control  located  on  the  console  should 
+be  made  to  control  the  frequency  of  the  first  oscillator  by 
+the  amount  and  in  the  direction  as  indicated  on  the  fre^ 
+quency  vernier  dial# 
+
+9#  The  power  supply  unit  in  the  amplifier-commutator  assembly 
+should  be  made  to  supply  the  scanning  field  amplifier  with 
+the  correct  plate  supply  voltage# 
+
+10#  The  100“volt  regulated  power  supply  in  the  receiver^storage 
+scanner  should  be  made  to  regulate  its  output  voltage  within 
+
+^  1  percent  when  the  line  voltage  is  varied  ~  10  percent# 
+
+
+4 
+
+
+(JR'C'uii  S  S  iTf  FO 
+
+
+11,  The  pass  bands  of  the  individual  storage  amplifier  units  should 
+be  made  to  be  approximately  6  db  down  at  24*5  kc  and  26.5  kc. 
+
+12,  The  noise  level  at  the  output  of  several  of  the  individual 
+storage  amplifier  units  should  be  made  0.5  volts  or  less. 
+
+13,  The  AVC  regulation  of  the  individual  storage  amplifier  units 
+should  be  made  to  regulate  the  output  levels  so  that  they  will 
+be  within  t  0.5  db  of  the  average  of  all  the  amplifier  units 
+over  the  input  range  of  100  microvolts  to  1  volt.  Also,  for 
+
+an  input  of  40  microvolts,  the  outputs  of  all  amplifiers  should 
+<  be  made  to  be  alike  within  ±  1  db, 
+
+14,  The  storage  network  and  AVC  in  each  of  the  individual  storage 
+amplifier  tmits  should  be  made  to  discriminate  against  pulses 
+of  shorter  duration  than  35  milliseconds,  and  the  discrimina¬ 
+tion  against  pulses  of  longer  duration  than  35  milliseconds 
+should  be  improved, 
+
+15,  The  transducer  individual  stave  sensitivities  should  be  made 
+to  be  within  ±  2  db  of  the  mean. 
+
+16,  The  transducer  stave  impedances  should  be  made  to  be  within 
+i  10  percent  of  the  mean, 
+
+17,  The  electrical  phase  angles  of  the  transducer  staves  should  be 
+made  to  be  within  i  3  degrees  of  the  mean. 
+
+18,  The  sound  radiation  pattern  of  the  transducer  should  be  improved 
+at  the  larger  depression  angles  when  operating  under  MCC  condi¬ 
+tions,  and  the  nullification  of  the  beam  in  the  horizontal  plane 
+should  be  improved, 
+
+19,  The  average  of  the  main  lobe  transmitting  response  of  the  MCC 
+section  should  be  made  at  least  9.6  db  higher. 
+
+20,  The  transducer  efficiency  should  be  increased  by  eleven  percent, 
+
+21,  The  transmitting  directivity  index  of  the  transducer  should  be 
+improved  by  2,8  db, 
+
+22,  The  sound  radiation  pattern  of  the  main  lobe  in  the  horizontal 
+plane  of  the  standard  section  of  the  transducer  should  be  made 
+to  be  within  i  2  db  of  the  mean. 
+
+
+23.  The  amplitude  of  the  side  lobes  of  the  sound  radiation  pattern 
+of  the  transducer  in  the  vertical  plane  should  be  made  to  be 
+“  10  db  from  the  main  lobe. 
+
+
+24.  The  average  transmitting  response  of  the  standard  section  of 
+the  transducer  should  be  made  at  least  6.8  db  higher* 
+
+.25.  The  open  circuit  receiving  response  of  the  transducer  standard 
+section^  all  staves  connected  in  parallel  aiding^  should  be 
+made  to  be  within  ±  2  db  of  the  mean. 
+
+
+K-wr] 
+
+
+CfJl 
+
+
+26.  The  sound  radiation  pattern  produced  by  the  HOC  operation  should 
+be  made  to  deflect  downward  instead  of  upward. 
+
+
+.27.  The  angular  horizontal  receiving  beam  width  of  the  transducer 
+when  associated  with  the  commutator  tubes  and  the  lag  lines 
+should  be  made  17  degrees  and  the  side  lobes  made  to  be  down 
+18  db  f  jTom  the  main  beam  maximum, 
+
+28.  The  horizontal  receiving  beam  pattern  of  the  transducer  when 
+associated  with  the  lag  lines  should  have  a  directivity  index 
+of  28  db. 
+
+
+C .  Temperature  and  Humidity 
+
+
+1.  Mechanical 
+
+a.  Temperature  tests 
+
+The  equipment  met  specifications  under  conditions  of  the 
+temperature  test. 
+
+b ,  Humidity  test  s 
+
+All  metal  parts  should  be  suitably  protected  against  rust  and 
+corrosion.  Lack  of  this  protection  resulted  in  corrosion  of 
+all  hardware  and  the  chassis  of  the  SSI  receiver.  Improper 
+preparation  and  preservation  resulted  in  rust  at  the  majority 
+of  the  welds ^  in  and  around  holes  and  cut-outs  of  the  main 
+framing^  on  the  top  covers  of  numerous  transformer  and  other 
+metal  casesj,  and  on  some  of  the  hardware  such  as  brackets^ 
+iillen  wrenches j,  etc. 
+
+
+a  M  il 
+
+
+Electrical 
+
+
+Temperature  % 
+
+1)  The  90“cycle  Wein  bridge  oscillator  in  the  console 
+
+should  be  made  to  have  more  stable  operation  at  low  and 
+high  temperatures. 
+
+2}  The  spiral  expand  for  the  PPI  CRT  should  be  made  more 
+stable  with  respect  to  the  amount  of  expand. 
+
+3)  The  stern  mark  cursor  circuit  in  the  console  should  be 
+made  more  stable  with  respect  to  the  phase  between  the 
+stern  mark  cursor  signal  and  the  PPI  spiral  signal. 
+
+4)  The  ultrasonic  operating  frequency  in  the  scanning  re^ 
+ceiver  should  be  made  to  have  less  than  52  cycles  varia¬ 
+tion  over  a  period  of  an  hour  with  a  10-degree  temperature 
+change^  with  the  tuning  reactances  either  off  or  on. 
+
+5) '  The  100-volt  regulated  supply  of  the  receiver  storage 
+
+scanner  should  be  made  to  regulate  properly  under  condi¬ 
+tions  of  low  temperatures. 
+
+
+b.  Humidity  s 
+
+
+1)  The  keying  circuit  should  be  made  to  operate. 
+
+2}  The  spiral  expand  in  the  console  should  be  made  to  operate. 
+
+3)  The  225“Volt  regulated  supply  in  the  console  should  be  made 
+to  regulate. 
+
+4)  The  330-volt  regulated  supply  in  the  console  should  be  made 
+t©  regulate, 
+
+5)  The  first  ultrasonic  oscillator  in  the  scanning  receiver 
+should  be  made  more  stable  with  respect  to  frequency  of 
+oscillation  whether  the  tuning  reactance  is  off  or  on, 
+
+6)  The  second  oscillator  in  the  scanning  receiver  should  be 
+made  more  stable  with  respect  to  the  frequency  of  oscilla¬ 
+tion  when  operating  during  transmission  time. 
+
+
+7)  The  test  set  should  be  mde  to  give  correct  meter  indica¬ 
+tions  . 
+
+8)  The  deflection  amplifier  in  the  amplifier  assembly  should 
+be  made  to  produce  a  spiral  without  noise  and  distortion. 
+
+9)  The  regulated  100-volt  supply  in  the  receiver  storage 
+scanner  should  be  made  to  regulate  within  1  1  percent. 
+
+10)  The  storage  amplifiers  and  the  receiver  storage  scanner 
+brightening  amplifier  should  be  made  to  operate. 
+
+11)  The  300-volt  regulated  supply  in  the  receiver  storage 
+scanner  should  be  made  to  regulate  within  i  1  percent. 
+
+
+III.  DESCRIPTION 
+A.  General 
+
+The  Hodel  QHD  Scanning  Sonar  Echo  Ranging  and  Listening  Equipment  is 
+designed  for  operation  aboard  naval  vessels  of  types  similar  to  the 
+DD-692  class  destroyers.  Its  primary  purpose  to  is  give  a  PPI  (plan 
+position  indication)  display  of  the  surrounding  underwater  objects. 
+
+This  is  accomplished  by  emitting  short  pulses  of  ultrasonic  power 
+in  all  directions  and  rapidly  scanning  (electronically)  the  underwater 
+sound  horizon  for  echo-producing  targets.  The  equipment  is  also  de¬ 
+signed  to  be  used  for  determining  the  range  and  bearing  of  specified 
+targets  for  the  attack  sonar  or  for  fire  control  use.  Reception  along 
+any  fixed  line  of  bearing  for  an  SSI  (sector  scan  indication)  and  aural 
+presentation  is  provided  for  by  an  auxiliary  receiving  channel,  A  servo 
+system  permits  selection  of  any  receiving  sector  desired.  The  equip¬ 
+ment  may  also  be  used  purely  as  a  device  continuously  alert  to  ultra¬ 
+sonic  sound  from  all  bearings.  It  may  also  be  used  for  communication  by 
+telegraphic  code,  A  sound  range  recorder  may  also  be  operated  from  the 
+equipment . 
+
+A  field  change  modification  for  "Storage  Scanning"  is  included.  The 
+purpose  of  the  storage  feature  is  to  utilize  all  the  sound  energy  inherent 
+in  echoes  returning  to  the  QHD  equipment  j,  and  to  prevent  the  loss  of  the 
+echo  energy  occasioned  by  time-sharing  of  the  scanning  beam  over  all 
+azimuthal  bearings. 
+
+
+1,  Console  Assembly j,  Type  C“706/SQS«  (See  Fig.  5S.) 
+
+Tbe  console  comprises  five  unibs.  Tlie  IndiC3,'bor“Control 
+unit  contains  the  PPI  and  SSI  tubes ^  the  training  portion  of  the 
+servo  system  and  various  controls  and  indicator  lights  associated 
+with  the  display  tubes  and  training  system.  The  PPI  tube  displays 
+a  two-dimensional  polar  plot  of  aH  echo-producing  objects  in  the 
+area  surrounding  the  shipj  either  in  relative  or  in  true  bearing 
+as  desired.  The  SSI  tube  displays  a  two-dimensional  rectangular 
+plot  of  a  selected  sector  of  the  PPI  presentation. 
+
+The  Sweep  Generator  Unit  contains  many  of  the  system  timing  cir- 
+cttits^  system  controls  and  indicators.  It  includes  the  Range 
+Sweep  Circuit  and  the  Oscillator  Circuity,  whose  output  is  used 
+for  the  rotating  part  of  the  PPI  spiral  sweep,  for  the  rotations 
+of  the  scanning  beam,  and  for  the  cursor  generating  circuits. 
+
+The  Expander  Circuit,  the  SSI  Horizontal  Sweep  Circuit,  the  S^ 
+Vertical  Sweep  Amplifier,  the  Gated  Sweep  Circuit,  the  SSI  Bright¬ 
+ening  Circuit,  the  Rotation  Booster  Anplifiers,  the  Spiral  Booster 
+Amplifiers,  the  Rotation  Phasing  Units,  and  the  Spiral  Phasing 
+Units  are  also  parts  of  the  Sweep  Generator  Unit, 
+
+The  Timing  Unit  contains  keying  and  timing  circuits  for  the  system. 
+It  consists  of  the  Keying  Circuit,  the  Blanking  Circuit,  The  SQG-1 
+Compensator-Amplifier,  the  QHD  Compensator-Amplifier,  the  Stem  Com¬ 
+pensator-Amplifier,  the  Stem  Mark  Pip  Generator,  Range  Mark  Ri^t 
+and  Left  Pip  Generators,  the  SQG-1  Bearing  Mark  Pip  Generator,  the 
+QHD  Bearing  Mark  Pip  Generator,  the  SQG-1  Bearing  Mark  Gate,  the 
+QHD  Bearing  Mark  Gate,  the  Range  Mark  Gate,  the  Stem  Mark  Gate, 
+the  Cursor  Mixer-Clipper,  the  Brightening  Anplifier,  and  the 
+Voltage  Regulator, 
+
+The  High-Voltage  Power  supply  contains  a  dual  high-voltage  r-f 
+power  supply  for  the  PPI  and  SSI  tubes. 
+
+The  Low-Voltage  Power  Supply  contains  a  three-section  power  supply 
+providing  dc  for  the  other  units  of  the  console. 
+
+
+2«  Receiver  Assembly,  Type  R-354/SQS.  (See  Fig.  6l.) 
+
+This  assembly  consists  of  a  Scanning  Receiver,  a  Listening  Receiver, 
+an  SSI  Receiver,  Test  Set  Unit,  and  a  Power  Supply  for  the  included 
+units • 
+
+
+c: 
+
+r;^ 
+
+r  ( 
+
+i-H 
+
+V~-:\ 
+
+n-j 
+
+cil 
+
+1 
+
+I 
+
+
+The  Scanning  Receiver  acts  as  a  receiver  for  the  scanning  echo 
+signals  during  reception,  and  as  the  signal  generator  for  the  trans¬ 
+mitted  signal  during  transmission.  The  receiver  portion  consists 
+of  one  stage  of  i^f  amplification,  a  crystal-type  mixer,  a  two- 
+stage  narrow  bandpass  i-f  amplifier,  a  broad  bandpass  i-f  ampli¬ 
+fier,  an  infinite  impedance  detector,  and  a  cathode-follower  out¬ 
+put  stage.  The  transmitting  portion  of  the  receiver  consists  of 
+the  first  oscillator,  the  second  oscillator,  the  driver  signal 
+mixer,  the  signal  an^Jlifier,  the  signal  follower,  and  the  signal 
+output  tube • 
+
+The  Listening  Receiver  is  a  superheterodyne-type  receiver  which 
+amplifies  the  listening  echo  signals  and  converts  them  to  500 
+cps.  It  consists  of  a  stage  of  r-f  an?)lification,  a  crystal 
+mixer,  two  i-f  stages,  a  second  mixer,  three  audio  stages,  an 
+RCG  and  TVG  circuit,  an  ODN  circuit,  a  discriminator  rectifier, 
+a  paraphase  amplifier,  and  a  full  wave  rectifier  for  enhancing. 
+
+The  SSI  Receiver  is  a  dual-channel  receiver.  Each  channel  con¬ 
+sists  of  one  stage  of  r-f  an^jlification,  a  mixer,  a  limiter, 
+three  class  A  i-f  stages  (each  followed  by  a  limiter),  a  differ¬ 
+entiating  network,  an  an?)lif ier  stage,  a  cathode  follower,  and 
+a  blocking  oscillator.  The  output  pips  from  the  left  channel 
+control  the  SSI  brightening  circuit  and  the  output  pips  from  the 
+right  channel  trigger  the  horizontal  SSI  sweep  circuit.  The 
+phasing  of  these  output  pips  controls  the  brightening  and  sweep 
+circuits  of  the  SSI  scope  for  sector  scan  indication  of  the  target. 
+
+The  Test  Set  Consists  of  a  vacuum-tube  voltmeter,  an  amplifier, 
+test  switches,  and  a  power  supply.  It  is  designed  to  in^cate 
+whether  signal  transmissions  have  occurred  and  their  relative 
+magnitude.  It  is  also  designed  to  indicate  proper  operation  of 
+the  signal  generation  circuit,  and  in  conjunction  with  the  PPI 
+display,  to  indicate  length  of  signal  transmission. 
+
+The  Power  Supply  provides  regulated  sind  unregulated  d-c  and  un¬ 
+regulated  a-c  for  other  units  in  the  Receiver  Assembly. 
+
+
+10 
+
+
+Amplifier-Coinnnitator  Assembly,  Type  AM-392/SQS.  (See  Fig.  64.) 
+
+This  assembly  comprises  the  Scanning  Commutator  which  consists 
+of  a  special  (Type  QK-255)  radial  beam  tube.  The  radial  beam  tube 
+consists  of  a  cylindrical  cathode,  a  cylindrical  array  of  48  grids, 
+a  cylindrical  shield  and  a  cylindrical  plate,  Rotating-field  coils, 
+which  surround  the  tube,  form  the  electrons  emitted  by  the  cathode 
+into  a  radial  beam.  The  output  of  the  radial  beam  tube  is  the 
+scanning  signal  obtained  by  the  scanning  of  the  48  grids  by  the  ro¬ 
+tating  beam. 
+
+The  Listening  Commutator  consists  of  two  radial  beam  tubes,  and 
+two  beam  forming  and  rotating  magnets  which  are  positioned  by  an 
+appropriate  servo  mechanism.  The  48  grids  of  the  right  radial 
+beam  tube  receive  signals  from  the  48  right  halves  of  the  re¬ 
+ceiving  beams,  and  the  48  grids  of  the  left  radial  beam  tube  re¬ 
+ceive  signals  fran  the  48  left  halves  of  the  receiving  beam.  The 
+servo  mechanism  positions  the  magnets  according  to  information 
+from  the  servo  system,  and  thus  the  output  of  the  radial  beam  tubes 
+consists  of  signals  from  the  receiving  beam  selected  by  the  servo 
+system.  These  signals,  after  amplification,  are  applied  to  their 
+corresponding  channels  of  the  SSI  Receiver. 
+
+The  Scanning  Field  Amplifier  is  a  two-channel  amplifier,  each  con¬ 
+sisting  of  a  four-stage  audio  amplifier.  One  channel  amplifies ' the 
+north-south  rotation  signal  from  the  PPI  stabilization  resolver,  the 
+other  amplifies  the  east-west  rotation  signal  from  the  same  unit. 
+
+The  outputs  of  this  amplifier  are  applied  to  respective  phases  of 
+the  rotation  coils  in  the  Scanning  Commutator, 
+
+The  Coupling  Amplifier  is  a  three-channel  amplifier,  each  ch^el 
+.consisting  of  a  two-stage  r-f  amplifier.  One  channel  amplifies 
+the  scanning  signal  from  the  Scanning  Commutator,  another  ampli¬ 
+fies  the  right  half  of  the  listening  signal  from  the  right  radial 
+beam  tube  in  the  Listening  Commutator,  and  the  third  amplifies  the 
+left  half  of  the  listening  signal  from  the  left  radial  beam  tube 
+in  the  Listening  Commutator,  The  output  of  the  scanning  channel 
+is  applied  to  the  Scanning  Receiver,  while  the  outputs  of  the  ri^fc 
+and  left  listening  channel  are  applied  to  corresponding  channels  of 
+the  SSI  Receiver, 
+
+The  preamplifiers  are  in  eight  units,  each  unit  containing  six 
+identical  preanplifier  channels,  or  48  channels  in  all.  These  ar® 
+two-stage,  fixed-tuned  r-f  amplifiers.  Each  channel  receives  the 
+output  from  one  stave  of  the  standard  section  of  the  transducer, 
+amplifies  it,  and  applies  it  to  the  corresponding  lag  line  of  the 
+lens  network. 
+
+
+ko  Servo  Amplifier  Assembly^,  Type  AM“393/SQS.  (See  Fig,  67) 
+
+This  assembly  contains  the  major  portion  of  the  servo  system. 
+
+It  comprises  the  following  itemss 
+
+a.  Servo  Unit  which  contains  the  synchros ^  servo  motors  and 
+generators^  resolvers  and  gears, 
+
+b.  Servo  Amplifier  Assembly  which  contains  the  following 
+amplifiers  for  the  servo  systems  the  training  servo 
+amplifier 5,  the  listening  commutator  servo  amplifier^ 
+the  PPI  stabilization  servo  amplifier,  the  true-relative 
+servo  amplifier,  and  the  deflection  amplifier.  The 
+latter  is  a  two-channel  audio  amplifier  which  amplifies 
+the  spiral  deflection  signals  for  the  PPI. 
+
+5,  Sonar  Driver-Amplifier,  Type  AM-394/SQS,  (See  Fig,  69") 
+
+This  is  essentially  a  two-stage,  push-pull  amplifier.  (Two  type 
+3X2500F3’s  as  final  power  amplifiers,  driven  by  a  pair  of  type 
+715  C*s),  It  receives  the  excitation  signal  from  the  signal- 
+generating  portion  of  the  Scanning  Receiver,  amplifies  it  to 
+about  40  kw  at  fiai  power  and  applies  it  to  the  transducer  through 
+the  transmit -receive  transfer  relay  circuit.  The  unit  alsq  con¬ 
+tains  various  a-c  power-distributing  and  interlocking  circuits  for 
+the  system, 
+
+6,  Transducer,  Type  CEP“51117-*A .  (See  Fig,  71,) 
+
+This  unit  is  designed  for  transmission  and  reception  of  ultra¬ 
+sonic  frequencies  (26  kc).  It  is  cylindrical  in  shape,  the  side 
+sar-face  a  sou^id-transparqnt  rubber  diaphragm.  It  is  22-5/6 
+
+inches  hi^  and  19  inches  xn  diameter^  and  weight  880  pounds.  The 
+mountij5g  is  designed  for  attachment  to  a  st^dard  type  QC  hoist 
+meehanismi  training  of  the  unit  is  not  required.  The  unit  is  of 
+magnetostrictive  type,  consisting  of  stacks  of  nickel  laminations, 
+magnets,  and  coils  arranged  cylindrically  in  vertical  staves  to 
+provide  omnidirectional  characteristics  in  the  horizontal  plane. 
+An  MCG  section  is  provided  for  depressing  the  transmitted  beam  in 
+order  to  detect  targets  at  close  range. 
+
+
+12 
+
+
+bit  itV 
+
+
+OJjv 
+
+
+7,  Power  Transformer^  Type  CIff'~301223o  (See  Fig.  72.) 
+
+Two  transformers  are  connected  to  the  3“Pii9'S®  440“Volt  supply  in 
+an  open  delta  system  and  provide  3=-phase  110-volt  supply  for  the 
+equipment.  A  78-volt  supply  may  also  be  obtained  from  these  units^ 
+but  is  not  used. 
+
+1  M©tor=<3enerator  Assembly^  Type  PU-200/U.  (See  Fig.  73 •) 
+
+This  unit  consists  of  two  dc  generators j  an  ac  motors  and  an 
+^citer,  all  mounted  on  one  frame  and  mechanically  coupled  to¬ 
+gether.  The  motor  draws  440-volt  3-phase  power  from  the  ship's 
+supply.  The  exciter  produces  440  volts  dc  for  the  fields  of 
+the  gene^'ators  and  for  the  bias  supply  of  the  driver— amplifier. 
+
+The  generators  each  produce  2800  volts  dc^  and  their  outputs  are 
+connected  in  series  to  supply  5^00  volts  dc  to  the  driver-ampli¬ 
+fier. 
+
+9.  Motor  Starter^  Type  GAE  ZL19S1.  (See  Fig.  74* ) 
+
+This  unit  controls  the  starting  and  stopping  of  the  ac  motor  in 
+the  ys/G  assentoly, 
+
+10.  Relay  Ass^nblyi,  Type  SE-84/SQS.  (See  Fig.  76,.) 
+
+This  unit  controls  the  voltage  output  and  dynaMc  braking  of  the 
+generators  in  the  M/G  atssembly.  It  also  contains  the  high— voltage 
+fuses  and  the  combination  r-f  bypass  and  storage  capacitors. 
+
+11.  Receiver-Storage  Scanner  Assembly^  Type  R-522/SQS,  (See  Fig.  7S.) 
+
+This  assembly  contains  49  Storage  An^jlifiers  (48  active^  l^spare)^ 
+a  Scanning  Commutator  (Type  QK-255  radial  beam  tube)^  a  Brighten¬ 
+ing  Amplifier  unit  and  a  regiCLated  Power  Supply.  Each  storage 
+amplifier  unit  is  a  three-stage  r-f  atrgslifier  with  a  bandpass  of 
+approximately  2  kc  centered  at  25.5  kcj  the  output  is  dual  channel. 
+The  Receiver-Storage  Scanner  Commutator  tube  and  brightening  ampli¬ 
+fier  replaces  the  Scanrdng  Commutator  tube  in  the  Amplifier-Com¬ 
+mutator  Assembly  when  the  system  is  switched  to  "Storage”  opera¬ 
+tion. 
+
+
+13 
+
+
+n 
+
+
+12«  Loudspeaker  Uiiitj  Type  LS“l68/U»  (See  Fig.  80.) 
+
+Each  of  the  four  speaker  units  contains  an  "on-off'  switch  and 
+a  step  attenuator  control. 
+
+13.  PPI  Aximuth  Hange  Indicator^  Type  IP-95/SQS.  (See  Fig.  81.) 
+
+The  three  units  supplied  are  identical  and  contain  a  PPI  tube, 
+an  amplifier  for  the  brightening  signal,  a  regulated  low-voltage 
+power  supply,  an  r-f  type  high-voltage  power  supply,  dep.ection 
+coils,  and  various  controls  for  the  PPI  tube.  These  units  re¬ 
+ceive  the  brightening  signals  from  the  Scanning  Receiver  and 
+cursor  generators,  and  the  two— phase  spiral  deflection  signals 
+from  the  Deflection  Amplifier,  and  produce  a  display  identical 
+with  the  PPI  display  on  the  console. 
+
+14.  SSI  Aximuth-Range  Indicator,  Type  IP-96/SQS.  (See  Fig.  83.) 
+
+This  unit  contains  an  SSI  tube,  together  with  an  SSI  horizontal 
+sweep  circuit,  an  SSI  vertical  sweep  circuit,  and  an  SSI  bright¬ 
+ening  circuit  which  are  practically  identical  with  corresponding 
+circuits  in  the  Sweep  Generator.  It  also  contains  an  r-f  type 
+high-voltage  power  supply,  a  dual  low-voltage  power  supply,  and 
+various  controls  for  the  SSI  tube.  The  unit  receives  the  right 
+and  left  pulses  from  the  SSI  Receiver  as  well  as  the  enhancing  and 
+range-sweep  signals  from  the  Sweep  Generator,  and  produces  a  dis¬ 
+play  identical  with  the  SSI  display  on  the  Console. 
+
+15.  Headset  Assembly,  Type  CRP-49621. 
+
+Two  headset  assemblies  supplied  are  used  for  listening  in  place 
+of  the  loudspeakers. 
+
+16»  Operator’s  Chair,  T^T®  CRP  10691.  (See  Fig.  85.) 
+
+The  chair  is  especially  designed  for  the  operator’s  contort  and 
+convenience. 
+
+
+IV.  INSPECTION^  TESTSj  AND  HESULTS 
+
+A.  General  All  Units  and  Accessories 
+
+1.  Gross  weight  and  dimensions  of  crated  unitss 
+
+
+Box  No.  and 
+desription 
+
+?ifeight 
+
+(lbs.) 
+
+Height 
+
+(in.) 
+
+Width 
+
+(in.) 
+
+Depth 
+
+(in.) 
+
+#l~Console 
+
+858 
+
+55~l/2 
+
+29 
+
+33-3/4 
+
+#2“Receiver 
+
+Assembly 
+
+782 
+
+78-1/2 
+
+27-3/4 
+
+24 
+
+#3“Amplifier 
+
+Coranratator 
+
+1252 
+
+78-1/2 
+
+27-1/2 
+
+29 
+
+#4“’Amplifier 
+
+Assembly 
+
+605 
+
+66 
+
+25-1/2 
+
+28-1/4 
+
+Amplifier 
+
+630 
+
+66-1/2 
+
+27-3/4 
+
+32 
+
+#6-Transducer 
+
+1140 
+
+28-1/2 
+
+3I-V2 
+
+33-1/4 
+
+#7-Transformer 
+
+112 
+
+14 
+
+16-1/2 
+
+18 
+
+#8“Transfomer 
+
+113 
+
+14 
+
+16-1/2 
+
+18 
+
+#9“Motor“Gen» 
+
+Assembly 
+
+1900 
+
+27-1/2 
+
+27 
+
+97-3/4 
+
+j^O“Motor 
+
+Starter 
+
+47 
+
+14-1/2 
+
+18-3/ 4 
+
+28 
+
+#ll*="Relay 
+
+Assembly 
+
+305 
+
+35-1/4 
+
+30-1/2 
+
+23-7/P 
+
+§12  to  15“Loud» 
+speakers  (5O) 
+
+200 
+
+14-1/2 
+
+18-3/4 
+
+28 
+
+#16-Chair 
+
+no 
+
+24-1/4 
+
+24 
+
+36 
+
+§1!]  to  19-Remote 
+
+PPI  (184) 
+
+552 
+
+20-1/2 
+
+23-1/2 
+
+31 
+
+#20“Remote  SSI 
+
+227 
+
+20 
+
+31-1/2 
+
+33-1/4 
+
+#21"Cable 
+
+80 
+
+8-3/4 
+
+29 
+
+30-1/4 
+
+#22“Spare 
+
+Box  1 
+
+137 
+
+14-1/2 
+
+29-1/2 
+
+19 
+
+UNCLASSIFIED 
+
+
+Box  No«  and 
+description 
+
+Weight 
+(lbs . ) 
+
+^eight 
+
+TO 
+
+#23“Spare 
+
+Box  2 
+
+119 
+
+14-1/2 
+
+29-1/2 
+
+19 
+
+#24"Spare 
+
+Box  3 
+
+119 
+
+14-1/2 
+
+29-1/2 
+
+19 
+
+#25“Spare 
+
+Box  4 
+
+165 
+
+14-1/2 
+
+29-1/2 
+
+19 
+
+#26“Spare 
+
+Box  5 
+
+165 
+
+14-1/2 
+
+29-1/2 
+
+19 
+
+j^27“^pare 
+
+Box  6 
+
+125 
+
+14-1/2 
+
+29-1/2 
+
+19 
+
+#28“Spare 
+
+Tubes 
+
+118 
+
+24-1/2 
+
+24-1/4 
+
+36-1/4 
+
+#29"Spare 
+
+Tubes 
+
+102 
+
+24-1/2 
+
+24-1/4 
+
+.  36-1/4 
+
+#30“Spare 
+
+Tubes 
+
+58 
+
+17-3/4 
+
+17-1/2 
+
+32 
+
+#31-Spare 
+
+Tubes 
+
+58 
+
+17-3/4 
+
+17-1/2 
+
+32 
+
+Second 
+shipment  s 
+
+• 
+
+j^fL-Storage 
+
+Scanner 
+
+Unit 
+
+1073 
+
+79-1/2 
+
+25-5/8 
+
+27-1/4 
+
+Third 
+shipaent  s 
+
+j^i“Spare 
+
+Box  1 
+
+166 
+
+14-1/2 
+
+29-1/2 
+
+19 
+
+#2“Spare 
+
+Box  2 
+
+132 
+
+14-1/2 
+
+29-1/2 
+
+19 
+
+Total  Gross 
+Weight  *  «  • 
+
+11,450 
+
+Weight  and  dimensions  of  units  uncrated.  Dimensions  are  overall 
+(include  shock-mounts  but  not  mounting  strips).  Relay  unit  was 
+not  supplied  with  shock-moimts . 
+
+
+Unit 
+
+Weight 
+
+(Iba) 
+
+Height 
+
+(in.) 
+
+Width 
+
+(in.) 
+
+Depth 
+
+(in.) 
+
+Console  Assembly 
+C-706/SQS 
+
+653 
+
+48 
+
+22-5/16 
+
+27-15/16 
+
+Receiver  Assembly 
+R-354/SQS 
+
+615 
+
+71-13/16 
+
+21-1/2 
+
+I8-I/16 
+
+Amplifier  Comm.. 
+Assembly  AM-392/SQS 
+(including  Scanning 
+storage  switch  box) 
+fiTithout  switchbox 
+Switchbox  only 
+
+1070 
+
+71“13/i6 
+
+71-13/16 
+
+38-1/4 
+
+23-5/8 
+
+21-3/8 
+
+23-5/8 
+
+20-13/16 
+
+19 
+
+5-1/8 
+
+Senro  Amplifier 
+Assembly  AM-393/SQS 
+
+437 
+
+58-1/2 
+
+23-1/2 
+
+18-3/16 
+
+Driver  Amplifier 
+Assembly  AM-394/SQS 
+
+465 
+
+58-13/16 
+
+21-5/8 
+
+17-15/16 
+
+Transducer 
+
+CRP-51117A 
+
+880 
+
+22-5/8 
+
+19  diameter. 
+
+Power  Transformers 
+CRP-301223  (two)  (90) 
+
+180 
+
+11-3/4 
+
+11-1/8 
+
+10-5/8 
+
+Motor““generator 
+Assembly  PU-200/U 
+
+1804 
+
+19-1/2 
+
+21-1/2 
+
+90-7/8 
+
+Motor-starter 
+
+CAE-211981 
+
+25 
+
+14-15/16 
+
+9 
+
+8-1/4 
+
+Relay  Assembly 
+RE-84/SQ5 
+
+212 
+
+25-3/4 
+
+less 
+
+shock 
+
+mounts 
+
+25 
+
+^16-^ 
+
+less 
+
+shock 
+
+mounts 
+
+Receiver  Storage 
+Scanner  Assembly 
+R-522/SQS 
+
+868 
+
+71-7/8 
+
+21-5/8 
+
+20-9/16 
+
+Loudspeaker  LS-168/U 
+(four-29  lb.  each) 
+
+116 
+
+18-1/16 
+
+14-1/4 
+
+10-5/8 
+
+sjijjssyijjyn 
+
+
+<J-; 
+
+
+Unit 
+
+Weight 
+(lbs . ) 
+
+Height 
+
+(in.) 
+
+Width 
+
+(in.) 
+
+Depth 
+
+(in.) 
+
+Operators  Chair 
+
+61 
+
+18  min. 
+
+26  max. 
+
+22-1/2 
+
+16-1/2 
+
+Azimuth  Range 
+Indicator-PPI 
+IP-95/SQS  (three 
+128  lb. 
+
+384 
+
+each) 
+
+18-5/8 
+
+11 
+
+17-5/8 
+
+Azimuth  Range 
+Indieator-SSI 
+
+ip-96/sqs 
+
+138 
+
+18-9/16 
+
+10-5/16 
+
+20-1/2 
+
+Spare  Parts  Box  1 
+
+105 
+
+12-1/2 
+
+25 
+
+16-5/8 
+
+Spare  Parts  Box  2 
+
+85 
+
+12-1/2 
+
+23 
+
+l6r5/8 
+
+Spare  Parts  Box  3 
+
+88 
+
+12-1/2 
+
+25 
+
+16-5/8 
+
+Spare  Parts  Box  4 
+
+133 
+
+12-1/2 
+
+25 
+
+16-5/8 
+
+Spare  Parts  Box  5 
+
+136 
+
+12-1/2 
+
+25 
+
+16-5/8 
+
+Spare  Parts  Box  6 
+
+93 
+
+12-1/2 
+
+25 
+
+16-5/8 
+
+Miscellaneous 
+Headphones-tubes 
+packed  in  card¬ 
+board  containers 
+
+120 
+
+Field  Change 
+
+Spare  parts  box  1 
+
+139 
+
+12-1/2 
+
+25 
+
+16-5/8 
+
+Spare  parts  box  2 
+
+100 
+
+12-1/2 
+
+25 
+
+16-5/8 
+
+Total  ’TOight  of 
+system  «  .  «  •  •  . 
+
+8,907 
+
+3.  Shippin.g  containers  were  of  proper  construction  for  domestic 
+shipment. 
+
+4«  Two  sets  of  installation  prints  originally  supplied  were  found  to 
+be  not  up-to-date.  Corrected  prints  were  later  supplied. 
+
+5,  Two  instruction  books  (in  manuscript  form)  were  supplied.  Errors 
+noted  in  text  and  in  diagrams  were: 
+
+
+Page  1-6  and  l-7j  par.  (f)  and  (i)  are  same  subject* 
+
+Page  1-14#  par*  t?)^  third  line,  should  read  ac  instead 
+of  dc* 
+
+Page  l-lS,  par.  (f).  Transducer  GRP-5117A,  should  read 
+CEP-51117A. 
+
+Page  1-22,  third  par.  ¥-3113,  a  6v6GT,  should  read  V-3113, 
+a  6l6iiiGA, 
+
+Page  1-23,  third  par.,  G-1101,  G-1148,  should  read  G-1901, 
+C-1948  (occurs  twice) 
+
+Page  1-35,  par.  (e), .V-3305A,  should  read  V-3305B.  Also, 
+in  Fig,  4-9,  V-3305  should  be  designated  as  V-3305A  and 
+¥-3305B« 
+
+Page  i-50,  fifth  par,  GGT  should  read  GTT. 
+
+Page  1-51,  par.  (c),  G-4405  and  B-4406,  should  read 
+G“44G5  and  G—4406 , 
+
+Page  i-61.  Tube  types  listed  were  not  in  full  agreement 
+with  types  used  in  equipment.  Examples s  6AL5  instead  of 
+6AL5W,  5B4W  instead  of  ^4VCA, 
+
+Page  2“5,  par,  (2)|  terminal  4,  5  and  6  of  terminal  strip 
+E-801  are  not  correct  as  the  terminals  mentioned  are  not 
+connected  or  used.' 
+
+Page  2“5,  pair,  (2),  lines  twelve  and  nineteen^  terminals 
+2A-5O  and  2A“5l  of  terminal  strip  EpSOl  should  read  terminals 
+50  and  51  of  terminal  strip  E-8O6, 
+
+Page  2-5,  par.  (c)  line  25;  terminals  lA-120  and  lA-122 
+should  read  terminals  120  and  122, 
+
+Page  2-6,  first  par,  line  3 I  2A-22  and  2A-28  should  read 
+22  and  28, 
+
+Fig,  1-20^  tube  ¥-801  was  a  type  715“C,  not  a  type  3024, 
+
+Block  marked  T-801  should  be  marked  T-805, 
+
+Fig,  1-22,  ikciter  connections  are  not  in  agreement  with  those 
+of  the  generator. 
+
+Fig,  1-231  G-907  to  C-1942  should  read  C-1907  to  0-1942. 
+
+Fig,  l-33o  Tube  ¥-3310B  was  shown  in  two  circuits j  should 
+be  designated  as  7-3310A  and  ¥-33108.  Z-3301  was  designated 
+as  Z"2301o 
+
+Fig.  1-3 5 •  Resolver  G-4202  windings  were  not  marked  in 
+proper  sequence. 
+
+Fig.  1-27.  Tube  ¥-2102  should  be  type  7BP7A, 
+
+Fig,  4"4.  Resistor  R-2334  was  110  K  instead  of  I50  K  as 
+shown. 
+
+Fig.  4”8,  Connection  to  pins  4  and  6  of  ¥-3115  were 
+actually  the  reverse  of  those  shown  on  diagram. 
+
+Fig,  4"10.  Connections  to  Z-3501,  Z-3503,  Z-3504  and 
+Z-3506  were  not  as  shown  on  print.  Terminals  1  and  2  were 
+reversed  and  3  and  4  were  reversed  in  all  cases. 
+
+Fig,  4-10,  ¥-3515  tube  type  marked  on  chassis  did  not 
+
+agree  with  type  shown  on  print. 
+
+Fig,  4“11  and  4“13o  Terminal  board  E-38O3  on  print  was 
+marked'  as  E-38O5  on  chassis. 
+
+Fig,  4-17.  Resistors  R-I617  and  R=l6l8  were"  shown  bh' print 
+as  330  ohms,  but  resistors  in  circuit  were  1,000  Ohigs,  Resistor 
+E-I614  shown  on  print  as  27  K  ohms  was  2,7K  ohms  in  circuit. 
+
+
+19 
+
+
+U  NC  LiV‘Si>  i  if  1  C 
+
+
+r 
+
+
+Fig.  4-24.  7~20Us  typ  6AS7  should  read  6AS7G. 
+
+Fig.  4“30e  Exciter  wiring  connections  were  not  as  shown. 
+
+F1+  instead  of  F2-  connected  to  A1-. 
+
+Print  nufliber  6O896  showed  one  generator  as  type  AN/G32U 
+and  the  other  as  AN/G33U,  but  both  were  type  AK/G33U.  The 
+exciter  should  be  designated  as  AN/G32:U. 
+
+60  Two  instruction  books  (in  manuscript  form)  for  the  QHD  Storage 
+Scanning  modification  wei-e  supplied.  Errors  found  in  text 
+and  in  diagrams  were; 
+
+Page  1-16 j  par.  4?  line  5,  6AL6  tube  type  should  read 
+
+6a15<. 
+
+Table  1-3 •  Tube  type  listed  as  6A57  should  read  6aS7G* 
+
+Table  referred  to  types  6SJ7  and  EL-C3J/Aj  but  spare  parts 
+list  referred  to  same  tubes  as  6SJ7W  and  C3J/A. 
+
+Figs.  1“13j  1-16j  2“1j  2-2^  2-3,  2-4  and  4-1  were  missing 
+from  instruction  book.  Installation  type  prints  were  supplied 
+for  these  missing  diagrams.  Print  number  61391  showed  terminal 
+number  9  on  E~1901;  this  terminal  should  be  number  19. 
+
+Sheet  30,  item  R-4303.  JAN  type  designation  was  incorrect | 
+should  be  RC30BF394N. 
+
+Sheet  5,  item  A-4110  was  listed  incorrectly  as  A-410. 
+
+Parts  list  lacked  all  C-4200  series  items, 
+
+7.  One  major  unit,  the  Relay  Assembly,  was  in  addition  to  the  units 
+required  by  ref.  (f)  par.  1~24» 
+
+8.  Nameplates  vrere  properly  mounted  on  all  units, 
+
+9.  Spare  parts  were  in  accordance  with  specifications,  except  for 
+the  DriTer-Amplafier  spares  which  werb,  in  general,  of  the  wrong 
+values.  Modification  of  this  unit  after  assembly  of  spare  parts 
+accounted  for  this  discrepancy, 
+
+■X:j 
+
+10,  Material  and  workmanship,  with  some  few  exceptions,  were  good, 
+
+11,  Blower  motors  and/or  ventilation  louvers  were  provided  on  all 
+except  the  Relay  Assembly,  the  SSI,  and  PPI  remote  units# 
+
+12,  Accessibility  in  general  was  good|  exceptions  were  as  noted  in  the 
+individual  unit  inspection  report.  Channel-guided  or  pivot 
+construction  was  usually  used  wherever  possible, 
+
+13,  Fungus  and  moistureproofing  of  component  parts  was  not  required 
+by  specifications.  The  material  used,  except  for  the  cardboard 
+framing  of  the  blower  motor  dust  filters,  appeared  to  be  of  a 
+type  that  would  not  support  fungus  growth  or  absorb  moisture. 
+
+14,  Moving  parts.  Adequate  means  have  been  provided  to  protect 
+personnel  from  moving  parts. 
+
+
+20 
+
+
+u  NCL'^'S  dTr  Hu 
+
+
+15*  Special  tools  (eog*  Allen  -wrenches)  in  suitable  holders  were 
+provided  where  needed  in  the  equipment « 
+
+l6*  Controls  in  general  were  properly  arranged  and  housed*  Handles^ 
+knobs^  etCo^  were  of  approved  material  and  properly  secured  to 
+shafts* 
+
+17*  Terminal  strips  in  several  instances  had  less  than  the  required 
+number  of  spare  terminals 
+
+18*  Telephone  jacks  suitable  for  sound-^powered  phenes  were  provided 
+on  all  except  the  Relay  Assembly  and  the  Receiver-Storage 
+Scanner  assembly* 
+
+19  o  Space  heaters  were  provided  in  the  Gonso3,e  and  the  Receiver- 
+Storage  Scanner  assemblies*  They  were  energized  when  the 
+equipment  was  de-energized* 
+
+20*  115'^volt  ae  service  outlets  were  provided  on  all  except  the 
+
+Relay  Assembly  and  the  Receiver-Storage  Scanner  Assemblies* 
+
+21#  The  motor  generator  unit  was  equipped  with  permanently  greased 
+and  sealed  bearings* 
+
+22*  Safety  to  personnel.  The  protective  interlock  and  discharge 
+
+circuit  used  in  the  driver  high  voltage  supply  was  not  reliable 
+and  positive  acting*  However^  a  suitable  discharge  probe  was 
+provided*  Interlocks  on  all  other  units  operated  satisfactorily 
+when  any  front  covero  or  the  top  cover  of  the  Console  unit^  were 
+removed* 
+
+23*  With  the  equipment  de-energized^  115‘-volt  ”power  available” 
+
+remained  on  all  um.ts*  Suitable  ”power  available”  warning  lights 
+were  provided* 
+
+24*  Ground  potential.  All  power  supplies  were  tied  to  a  coimon 
+ground* 
+
+25*  Suitable  test  points  were  provided  in  the  equipment*  High 
+voltage  test  points  were  less  than  1^000  volts  potential* 
+
+26*  Fuses  were  provided  in  the  event  of  an  overload*  Blown  fuse 
+indicators  were  provided  for  the  majority  of  the  fuses* 
+
+27*  Power  requirements  from  the  3“phas^  440-volt  supply  was  approxi¬ 
+mately  a  balanced  load*  Current  required  by  the  system  under 
+various  operating  conditions  with  the  line  voltage  set  at  440 
+volts  was  as  follower 
+
+
+O  3  T  J  T  C  C  F.1,3M  A 
+
+
+Full  Power  -  Receive  Timej,  maxi 
+
+Full  Power  -  Transmit  Times,  max: 
+
+”10  db  during  Receive  Time 
+
+Locked"key  operation 
+
+All  ecjulpment  operating  except 
+the  ffl/g 
+
+M/G  set  starting 
+
+
+Amperes 
+
+Phase 
+
+A 
+
+B_ _ 
+
+C 
+
+9.2 
+
+11.4 
+
+10.6 
+
+13.6 
+
+16 ,8 
+
+15.2 
+
+6.5 
+
+9.0 
+
+8.3 
+
+10.0 
+
+12.0 
+
+11.9 
+
+2.5 
+
+4.2 
+
+3.8 
+
+37.5 
+
+37.5 
+
+37.5 
+
+28.  The  average  power  .required  during  the  full  power  operation  with  the 
+pulse  repetition  rate  as  rapid  as  possible  (one  pulse  every  1«265 
+seconds)  and  pulse  length  as  long  as  possible  (33  milliseconds)  was 
+appro-ximately  7^640  watts  o 
+
+29.  The  power  factor  with  the  equipment  fully  energized  and  pulsed  under 
+the  most  severe  conditions  tvas  0.955  • 
+
+
+30.  The  operator's  chair  was  suitably  constructed  and  was  adjustable  for 
+heigjit.  The  back  rest  was  also  adjustable, 
+
+31.  Vacuum,  tubes.  Reference  (f)  par.  E-30a,  granted  waiver  for  special 
+tube  type  R-2059~T,  Spee.ial  tube  type  used  (radial  beam  tube)  was  a 
+QK“255.  There  were  thirty“t.hree  other  type  tubes  used  in  the  system, 
+34  percent  of  which  were  listed  in  the  Preferred  Parts  List  (PPL)^ 
+
+51  percent  were  not  on  the  PPL  but  were  listed  in  the  Qualified  Parts 
+List  (QPL)^  and  15  percent  were  not  on  either  list. 
+
+
+Mechanical  -  Individual  Units. 
+
+1.  Console  Assembly  C-706/SQSg 
+
+a.  Six  standoff  insulators  for  high  voltage  leads  in  power  supply  were 
+loose. 
+
+b.  Threads  were  stripped  on  hold-down  bolts  for  top  cover  of  high- 
+voltage  power  supply  chassis. 
+
+c.  Threaded  portion  of  spade  lugs  of  condenser  holding  clamps  in 
+numerous  cases  were  too  long.  Exampless  0—2708^  C—2753S  0-27 54? 
+and  G“2755o 
+
+d.  Readability  of  function  designation  markings  on  mounting  board' 
+containing  the  PPI  gating^  range  mark?  spiral  balance  controls? 
+etc,?  was  very  poor.  Ink  color  too  nearly  matched  color  of  the 
+mounting  board. 
+
+
+22 
+
+
+f  V  ^  V'  -iT-  V-'  ”  T^r' 
+
+U  Nt La  5  0  i r  i CD 
+
+
+e«  Function  name  plates  were  missing  for  the  hand  key,  training 
+handwheel,  and  SSI  cursor  knob® 
+
+f.  Symbol  designations  were  missing  for  C-2317,  G-2101,  Ii-2103, 
+R-2333,  R~2334,  R-2335s  R“2465^  R“2467,  S-2110,  S-2113,  S-2704. 
+?=^04,  and  TP=2304c 
+
+go  Circuit  diagi'ara  showing  working  voltage,  current  rating,  etc., 
+was  missing  on  L”2701o 
+
+ho  Symbol  designation  for  L-2701  was  hidden  by  resistor  terminal 
+board. 
+
+i.  Leads  were  too  long  on  the  mounting  board  located  at  the  lower 
+center  of  the  timing  unit  5  same  applies  to  stator  leads  of 
+0“2353rfS.nd;  C»2356. 
+
+
+Some  leads  vrere  not  properly  secured  or  cabled  (lead  to  coil 
+of  K“2701,  leads  on  right  mounting  board  of  timing  xinit,  leads 
+to  E"2204  and.  S“2205). 
+
+k.  In  several  cases,  more  than  three  connections  were  made  to  one 
+terminal  pin  (R=2843|i  R“2875#  R"2876,  and  R“2877  connections 
+went  to  a  common  terminal  pin). 
+
+l.  Capacitors  C»2270,  C-2271,  C-2272,  C-2273^  C-2288,  and  C~2289 
+were  not  JAN  type. 
+
+m. .  Resistor  R“22S4  was  not  JAN  value. 
+
+n.  Terminal  designation  marking  of  conductor  sleeving  was  blurred 
+and  unreadable. 
+
+
+o.  Lower  right  .front  hinged  control  pan.el  vias  not  provided  with 
+a  catch  for  holding  panel  in  the  maintenance  position. 
+
+p.  Cardboard  and  paper  frame  ©f  dUfSt  filter  was  flammable  and 
+moisture  absorbent,  and  would  support  fungus  growth. 
+
+q.  T©  electrically  zero  the  bearing  repeater  synchros  it  was 
+necessary  to  remove  the  synchro  housing  casting.  This  required 
+the  removal  of  four  dial  lights,  of  four  screws  from  the  face 
+of  the  casting,  and  of  eight  screws  from  glass  plate  retainer, 
+plus  ten  electrical  connections  from  the  synchros.  Zeroing  of 
+B-2102  and  B“2103  coiad  have  been  more  easily  accomplished  if 
+the  dial  face  plate  had  been  removable® 
+
+r.  The  holding  screws  of  the  timing  unit  back  cover  plate  were 
+poorly  posit, ioned.  Upper  screw  could  short  R“2853,  R-2854s  and 
+R'-2855  to  ground.  Second  screw  could  damage  R-2876.  Third 
+screw  could  ground  R“2741«  Fourth  screw  could  damage  R-2755* 
+
+
+23 
+
+
+s.  Dial  lights  1-2101  to  2104  on  "true-relative  indicator" 
+were  not  easily  accessible o 
+
+t.  Vacuum  tubes  V-2308j,  V-2711j,  V“2728j,  V-2730  type  6SJ7W,  V-2315 
+
+and  ¥-2322  type  bSNTlT  were  not  types  listed  in  PPL  or  QPL* 
+
+u.  Console  main  terminal  board  was  poorly  designed  from  viewpoint 
+of  accessibility  for  servicing  and  the  location  and  clearance 
+of  cable  entrance  openings# 
+
+V.  Lifting  bolt  holes  were  at  each  top  corner  of  the  assembly 
+but  lifting  bolts  were  not  furnishedo  The  tapped  holes  were 
+not  properly  labeled.  "Lift  Here??# 
+
+w«  The  console  indicator  panel  was  sloped  approximately  30  degrees 
+from,  the  vertical# 
+
+X,  The  indicator  panel  contained  all  switches  and  controls  required 
+by  ref#  (f)  par#  ;  E-‘26bj  except  the  followings 
+
+S,vrichro  Input  selector' switch  was  mounted  on  lower  instru¬ 
+ment  pan.el  of  t-hs  console.# 
+
+it  TVG,  RCG  On“Off  switches  were  not  located  on  the  console 
+but  were  located  in  the  scanning  receiver# 
+
+y#  Although  there  were  a  large  number  of  operating  control^  the 
+number  was  kept  to  a  Kiininmm  consistent  with  proper  operation 
+of  the  equipment# 
+
+Zo  AH  frequently  adjusted  controls  and  test  switches  were  located 
+behind  suitable  covers#  Semi-fixed  and  other  control  switches 
+were  conveniently  mounted  on  the  chassis#  A  hand  telegraph  key 
+ms  properly  mounted  on  the  right  side  of  the  console# 
+
+2.  Receiver  Assembly  R-3.54/SQS 
+
+a»  Frorii  bracket Sc,  for  receiver  chass,is  cover  plate  securing 
+screws j,  were  too  close  to  the  front  panel.  Screws  were  not 
+easily  removed  and  front  panel  rubber  gasket  could  have  been 
+damaged  when  the  screws  were  removed# 
+
+b#  Power  supply  chassis  was  mounted  on  rollers  and  slides  and  no 
+provisions  were  made  for  tilting  of  chassis  to  facilitate 
+servicing#  Bottom,  of  chassis  was  approximately  12  inches 
+above  the  deck^  making  access  to  terminal  connections  of 
+component  parts  extremely  difficult# 
+
+Co  Terminal  designation  markings  of  conductor  sleeving  were 
+blurred  and  practically  unreadable# 
+
+
+UNCLASSIFIED 
+
+
+Numerous  bolts  were  too  long*  Examples?  Holding  bolts  for 
+C“’3109,  C“3338,  t“3102,  L-3801,  T-3105,  T-3304,  and  Z-3104. 
+
+
+e*  Vacuum  tubes  7-3115,  V-3504,  7-3506,  7-3508,  7-3515,  7-3516, 
+7-3517,  7-3519  type  6SJ7W,  and  7-3107,  7-3109,  7-3110,  7-3111, 
+7=3114,  7-3116,  7-3304,  7-3305,  7-3309,  7-3310,  7-3503,  7-3505, 
+7-3507,  7-3509,  7-3.511,  7-35U,  7-3516,  7-3520,  7-3522,  7-3802, 
+7-3803,  7-3804,  7-3805,  7-3806  type  6SN7W,  and  7-3501  type 
+6SL7W  were  not  types  listed  in  PPL  or  QPL* 
+
+
+ri 
+
+
+O’) 
+
+
+H-i 
+
+•"'.j 
+
+n\ 
+
+
+f «  The  scanning  receiver  wiring  in  general  was  not  neat  or  pro¬ 
+perly  cabled,  and  some  wires  were  e^ajessively  long* 
+
+g.  In  the  listening  receiver  a  few  wires  were  excessively  long, 
+uncabled,  or  not  properly  supported*  Examples?  F3X>m  Z-3304 
+to  T-33O51  from  R-3328  to  binding  post  in  center  of  chassis j 
+cable  from  J-3303* 
+
+h.  Type  or  symbol  designation  marking  was  missing  for  G-3328, 
+R-3348,  R-37O8,  and  7-3113 « 
+
+
+i.  Markings  showing  circuit  diagram,  rating,  working  voltage, 
+current,  etc.,  were  missing  on  T-3IO6  and  T—3802* 
+
+
+j.  Circuit  diagram,  rating,  etc.  of  T-3302  were  obscured  by 
+T-3303.  T-3303  was  so  positioned  that  it's  circuit  diagram 
+
+marking  could  not  be  read* 
+
+
+k«  One  svfaging  tool  was  found  in  wiring  of  test  set* 
+
+1.  The  mounting  bolts  of  the  center  terminal  strip  in  the  test 
+set  were  too  long. 
+
+
+m»  There  was  only  one  rivet  in  each  spade  lug  of  holding  clamps 
+
+for  C-38O7. 
+
+
+n.  R-3706  (3300“ ol®,)  was  not  a  JAN  value, 
+
+o*  Terminal  boards  E-3902  and  E-3903  had  less  than  20  percent  spare 
+terminals* 
+
+
+p*  Lifting  bolt  holes  were  at  each  top  comer  of  the  assembly  but 
+lifting  bolts  were  hot  furnished*  The  tapped  holes  were  not 
+labeled  "Lift  Here'?* 
+
+
+3*  Amplifier  Gonmiutator  Assembly  AM-392/SQS 
+
+a.  Height  of  Scanni.ng  Commutator  Selector  switchbox  (attached  to 
+rear  of  Amplified  Commutator  assembly)  was  8-1/4  inches  over 
+the  specification  limit  of  30  inches. 
+
+
+25 
+
+
+b.  Captive  chassis  holding  bolts  of  the  Scanning  Field  Amplifier 
+did  not  firmly  seat  the  unit  when  they  were  fully  tight enedo 
+
+Co  Numerous  component  mounting  bolts  were  too  long.  Examples; 
+
+C-1205^  C-l601j,  C-1623  ^  0-1624^,  C"l803j  C-1806,  C-1818,  L-I6OI, 
+L-1602  and  T-1602. 
+
+do  Terminal  bolts  of  capacitor  bank  in  storage  switching  unit 
+were  too  long  or  too  short  in  several  instances.  Examples; 
+C-1921^  too  shortj  terminals  8B  and  406^  too  long. 
+
+e.  Connection  to  terminal  28  of  E-1701  was  not  properly  secured 
+vdth  a  nut. 
+
+f .  Vacuum  tubes  V-1204^  V-1206^  V-1214  were  types  not  listed  in 
+PPL  or  QPL. 
+
+g.  Tube  clamp  for  V“1213  was  improperly  positioned  for  easy 
+operation. 
+
+h.  Wires  from  pin  54  of  V-1301s  V“1302s  and  V-1701  to  coupling 
+amplifier  were  too  short  to  allow  chassis  to  be  fully  extended 
+to  its  maintenance  position. 
+
+i.  Wires  to  R“l641  and  R“l642  were  not  tied  down. 
+
+j«  Microswitch  S-1104  mounting  bolts  were  loose. 
+
+k.  Shielding  was  not  grounded  on  two  shielded  wires  to  terminal 
+board  E-HIO^  and  on  four  shielded  wires  to  terminal  board 
+E-1102. 
+
+l.  Cable  to  terminal  board  E-I8OI  was  too  long  and  was  improperly 
+
+supported.  _  , 
+
+m.  Four  condensers  on  B-1701  were  not  symbol-designated  nor  were 
+they  accessible. 
+
+n.  Majority  of  component  parts  of  the  ireamplifiers  were  nob  symbol- 
+designated. 
+
+0.  Sound  power  telephone  receptacle  was  unmarked. 
+
+p.  Terminal  boards  E-I3OI  and  E-I302  were  so  positioned  as  to 
+make  it  extremely  difficult  to  adjust  synchros  of  the  listening 
+commutator. 
+
+q.  Cable  connectors  P  and  J-UOl^  1102^  1103s  and  1104  were  not 
+JAN  types. 
+
+
+26 
+
+
+UNCLASSfFxE& 
+
+
+r»  Cardboard  and  paper  frame  of  dust  filter  was  flammable j 
+moisture  absorbent^  and  would  support  fungus  growth# 
+
+s#  Termijial  designation  markings  of  conductor  sleevings  were 
+blurred  and  unreadable.  Examples  E-lbOl,  G*-1301,  0=1302, 
+
+G-1303,  and  G-1304. 
+
+to  Terminal  boards  E-1105,  E“1106,  and  E“1109  had  less  than 
+
+20  percent  spare  terminals,  f&ring  print  showed  E-1106  to  have 
+three  spares j  it  actually  had  one,  E“1108  was  shown  as  having 
+45  terminals  with  19  spares;  actual  terminals  were  43  with  21 
+spares . 
+
+u.  The  power  supply  chassis,  from  a  maintenance  viewpoint,  was 
+
+poorly  engineered.  The  chassis  was  detachable  but  the  cabling, 
+terminal  boards,  etc,,  would  hot  permit  removal  of  unit  without 
+excessive  unhooking  of  cables, 
+
+V,  Connecting  plug  block  of  preamplifier  unit  number  5  was  not 
+properly  centered  for  correct  mating  of  plug  and  receptacle, 
+
+W,  Tube  type  designation  (0A2)  was  missing  on  V-1802, 
+
+X,  Lifting  bolt  holes  were  ai  each  top  corner  of  the  assembly  but 
+lifting  bolts  were  not  furnished.  The  J,apped  holes  were  nob 
+properly  labeled  •’lift  Here*?v« 
+
+4,  Servo  Amplifier  Assembly  Am=393/SQS 
+
+a.  Nuts  of  holding  screws  for  terminal  boards  E-4WJ-,  E-4412, 
+E=4ifl3,  and  E-4414  were  not  sweated  to  panel  to  facilitate 
+send-cing  of  synchros.  These  boards  were  so  positioned  that 
+adjustment  of  synchros  required  removal  of  the  mounting  bolts, 
+
+b.  Numerous  holding  bolts  in  top  chassis  were' too  long'.  Examples^ 
+For  C-4301,  C”4303,  C=4306,  C»4312,  C=4314ir  C-4315,  C-4321, 
+C-4325i,  andL-4303. 
+
+c.  R“4335  chassis  mounting  bracket  was  loose, 
+
+d.  G“4406  rear  cover  plate  was  loose, 
+
+e.  G“4204  nut  was  loose  on  ground  wire  connection, 
+
+f.  Stator  body  support  flange  for  G-4404  was  eccentrife  and  woxild 
+not  allow  for  proper  adjustment  of  the  unit, 
+
+g.  Terminal  boards  E-4401i)  E-4402,  E“4403ji  and  E-4404  had  less 
+than  the  required  20  percent  spare  terminals.  Wiring  print 
+showed  E=4401,  E-4402,  and  E“A403  to  have  14  tenninals;  actually 
+they  each  had  12  terminals 
+
+
+Tube  type-designation  (6v6GT)  was  missing  on  chassis  for 
+V-43O80 
+
+Tube  V-4101  was  designated  on  chassis  as  V-1101. 
+
+Vacuum  tube  7-4103  typ®  6SJ7W,  and  Y—4301S  V“4304j  V“4307> 
+
+V-4309  type  6SN7W  were  types  not  listed  in  PPL  or  QPL. 
+
+Lifting  bolt  holes  were  at  each  top  corner  of  the  assembly  but 
+lifting  bolts  were  not  furnished.  The  tapped  holes  were  not 
+properly  labeled  "Lift  Her©l^» 
+
+The  casting  into  which  the  stator  body  flange  of  G-4404*  a 
+spare  5G  IK  synchro^  fits  was  eccentric  and  did  net  provide 
+adequate  seat  for  the  synchro  flange*  The  synchro  unit 
+Could  not  be  properly  locked  on  electrical  zero  due  to  this 
+defect  in  the  casting* 
+
+5,  Sonar  Driver-Amplifier  AM-394/SQS 
+
+a.  A  mounting  bolt  was  missing  on  terminal  board  E-8O6. 
+
+b*  Sound  power  telephone  receptacle  was  unmarked  and  lacked  cap 
+cover* 
+
+c*  Terminal  boards  E— 803j)  E— 805^  E— 806^  and  E— 808  had  less  than  the 
+required  20  percent  spare  terminals, 
+
+do  Vacuum  tubes  7-801^  7-802  type  715-0^,  7-8035  and  7-804  type 
+3x250073  were  types  not  listed  in  PPL  or  QPL, 
+
+e.  Lifting  bolt  holes  were  at  each  top  corner  of  the  assembly 
+but  lifting  bolts  were  not  furnished*  The  tapped  holes  were 
+pot  properly  labeled  ••lift  Here?* 
+
+6.  Transducer^  Type  CRP-51117-A, 
+
+a.  The  transducer  met  requirements  for  size^  weighty  and  finish* 
+
+b«  Twelve  V4-inch  studs  suitably  spaced  in  the  mounting  plate 
+■  were  provided  for  securing  the  unxt  to  the  bottom  flange  of  a 
+standard  QC  type  training  shaft. 
+
+c*  The  unit  wag  so  designed  that  it  could  be  disassembled  or 
+
+repaired  without  the  use  of  techniques  or  tools  which  are  not 
+ordinarily  available  in  shop^^f  a  naval  base^ 
+
+d.  All  transducer  leads  were  properly  marked  and  suitably  lugged 
+for  connection  to  terminal  boards. 
+
+
+h. 
+
+i* 
+
+k. 
+
+l. 
+
+
+28 
+
+
+U  N  Ct  fi'S  H  r  f  rif~ 
+
+
+e.  Lead  from  segment  20  to  the  connector  block  was  broken.  Cause  ^ 
+of  break  was  apparently  due  to  insufficient  slack  in  lead. 
+
+Repair  was  made  by  the  contractorls  representative. 
+
+f o  Due  to  lack  of  laboratory  facilities^  the  Impulse  Shock  Test 
+and  the  E[ydrostatic  Pressure  Tests  were  not  performed. 
+
+g.  Shock  and  Vibration  Tests  were  not  required,  (Reference  (a), 
+par.  2.) 
+
+7.  Power  Transformer  CRP  301223 • 
+
+
+No  discrepancies  were  noted, 
+
+8,  Motor-Generator  Assembly  PU-200/U 
+
+a.  Connections  from  the  exciter  were  not  as  shown  on  print  No. 
+
+61020,  Al“  and  Fi+  were  commonj  print  showed  Al-  and  F2“  as 
+coimtton. 
+
+b.  Lead  Al-  from  exciter  was  not  labeled, 
+
+9.  Motor  Starter  Type  CAE  211981 
+
+No  discrepancies  were  noted, 
+
+10,  Relay  Assembly  RE-84/SQS 
+
+a.  Terminal  connection  was  loose  on  C“501  and  on  the  -’34G0-volt 
+terminal  board, 
+
+b.  Support  for  G“513  was  loose. 
+
+e.  Terminal  board  E-502  was  not  symbol  designated  and  had  less 
+than  the  required  number  of  spare  terminals, 
+
+d.  Unit  was  not  shock  mounted, 
+
+e.  Very  slight  amotint  of  oil  seepage  from  the  bottom  of  G-503  and 
+C=-504  appeared  hot  to  have  affected  the  capacitors  electrically » . 
+
+1-1  -  Receiver-Storage  Scanner  R-522/SQS 
+
+a.  Mounting  bolts  of  transformers  and  filter  units  and  spade  lugs 
+of  capacitor  holding  clamps  were  too  long,  (Applies  to  49 
+storp:ge  amplifier  \inits.) 
+
+b.  Spade  lug  of  holding  clamp  for  C-4201  was  too  long. 
+
+c.  Plate  cap  of  V-4210  struck  the  bottom  of  the  amplifier  chassis 
+when  the  power  supply  tube  chassis  was  tilted  forward  to  the 
+maintenance  position. 
+
+
+d.  Spare  terminals  were  not  provided  on  terminal  boards  J5-4105j 
+E-4L06^  E-41075  and  E-4108* 
+
+e.  Cardboard  and  paper  frame  of  dust  filters  were  flammable^ 
+moisture  absorbent,  and  would  support  fungus  growth. 
+
+f.  Scan  Gain  potentiometer  was  incorrectly  designated  as 
+R-4316  on  rear  of  chassis, 
+
+g.  Capacitor  C-4409  is  not  JAN  type, 
+
+ho  Resistors  R-^ASA?,  R--4248,  R-4309,  R-431151  R-4316  and  R-4411 
+were  not  JAN  type, 
+
+io  UO-volt  ac  utility  outlet  was  not  provided, 
+
+Jo  Sound  power  phone  outlet  was  not  provided, 
+
+ko  Lifting  bolt  holes  were  at  each  top  corner  of  the  assembly  but 
+lifting  bolts  were  not  furnisHed,  The  tapped  holes  were  not 
+properly  labeled,  "Lift  He,rePo 
+
+12,  Loudspeaker  LS<-l68/tI  (4  units) 
+
+Height  was  I/8  inch  over  the  allowable  18  inches.  Depth  was 
+11/16  inch  over  the  limit  of  9-1/2  inches, 
+
+13,  Azimuth  Range  Indicator  (PPI)  IP=-95/SQS  (3  units) 
+
+a.  Depth  was  1/2  inch  over  the  allowable  limit  of  17-1/2  inches, 
+
+b.  Some  leads  were  excessively  long  and  were  unsecured. 
+
+Eixampless  Pin  2  of  X-204  to  C-2(IL,  from  G-2CXL  to  L-201, 
+from  R-203  t©  pin  2  of  X-204,  and  from  L-201  to  X-204, 
+
+Co  No  circuit  diagram,  voltage  rating,  current  rating,  etc,, 
+were  marked  on  T-201  and  L~201» 
+
+d.  Serial  No,  Is  CRT  was  out  of  its  socket  and  tube  shieid 
+was  bent, 
+
+e.  Serial  Nos,  1  and  3s  front  cover  plates  for  CRT  were  cracked 
+at  lower  mounting  screw  hole, 
+
+f .  Sound  power  telephone  receptacle  was  unmariced  on  all  three 
+unit-s  « 
+
+g.  Resistor  R-284  (50  megohms)  was  not  a  JAN  value, 
+
+h.  Capacitors  C-288  and  C-289  were  not  JAN  values, 
+
+io  Terminal  board  E“201  had  less  than  the  required  20  percent 
+spare  terminals 
+
+
+30 
+
+
+lilYCLhS  S  i  r  i"tij 
+
+
+V-201  tube  type  designation  on  chassis  was  5U4MJA#  Tube 
+in  unit  was  type  5U4G» 
+
+k»  All  necessary  control  knobs  and  switches  were  behind  a 
+
+hinged  panel.  However ^  this  panel  did  not  open  far  enough 
+to  permit  easy  visual  access  to  the  controls. 
+
+14.  Azimuth  Range  Indicator  (SSI)  IP-96/SQS 
+
+a.  T"101  and  T-102  were  not  marked  with  circuit  diagram^ 
+voltage  ratingj  current  rating,  etc. 
+
+b.  Sound  power  telephone  receptacle  was  unmarked. 
+
+C.  R=1(3L  and  R-102  (7500  ohms)  were  r^ot  JAN  value  resistors. 
+
+do  C=170,  G-171,  C-172,  and  C-173  were  not  JAN  value  capacitors. 
+
+e.  Vacuum  tubes  V-109  and  V-118  type  6SN7W  were  not  listed  in 
+the  PPL  or  the  QFL. 
+
+f.  Terminal  board  E-101  had  less  than  the  required  number  of 
+spare  terminals.  Wiring  print  showed  it  to  be  a  20-terminal 
+board  with  5  spare  terminals,  but  it  actually  was  a  17- 
+terminal  block  with  one  spare. 
+
+go  All  necessary  control  knobs  and  switches  were  behind  a 
+
+hinged  panel.  However,  this  panel  did  not  open  far  enough 
+to  permit  easy  visual  access  to  the  controls. 
+
+
+Co  Electrical  -  Individual  Units? 
+
+
+1.  Console  Assembly,  Type  C-706/SQS 
+
+a.  The  sonar  indicator  control  console  contained  the  minimum 
+
+number  of  electronic  components  necessary  for  operation  which 
+nay  require  servicing, 
+
+bo  A  mechanical  cursor  arrangement  was  provided  on  the  SSI. scope 
+that  permitted  the  operator  to  center  horizontally  the  target 
+pip  on  the  SSI  scope.  The  listening  channel  beam  would  then 
+be  centered  on  the  target  bearing.  This  control  was  cumber¬ 
+some  for  the  efficient  operation  of  the  equipment, 
+
+c.  The  synchro  input  selector  switch  selected  either  cBrq 
+(generated  relative  sonar  bearing)  at  36X,  Co  (own  shiffs 
+course)  at  36X,  or  zero  order  to  be  applied  to  the  training 
+servo  system, 
+
+do  The  normal  sweep  circuits  for  the  PPI  and  SSI  were  capable 
+of  being  selected  for  6OO,  2000,  4000.  and  6000-yard  range 
+presentation.  Small  errors  in  actual  range  presentations 
+ViTere  experienced  as  shown  in  table  on  the  following  page. 
+
+
+Specifications  allowed  10  percent  error* 
+
+
+Range  Setting 
+
+Yards 
+
+Actual  Range  Presented 
+Yards 
+
+Percej 
+
+Error 
+
+600 
+
+611 
+
+1.8 
+
+2000 
+
+2080 
+
+4.0 
+
+4000 
+
+3855 
+
+2.95 
+
+^000 
+
+6080 
+
+1.3 
+
+e*  A  cursor^  approximately  one-half  inch  long,  could  be  obtained 
+on  the  outer  edge  of  the  PPI  scope  which  rejseated  Brg  (rela¬ 
+tive  sonar  bearing)  as  accepted  from  an  attack  sonar  equip¬ 
+ment.  Another  cursor  approximately  three  quarters  of  an 
+inch  long^  produced  at  the  outer  edge  of  the  PPI  scopes 
+indicated  the  bearing  of  the  directed  listening  beam  of 
+QHD,  Both  of  these  cursor  lengths  could  be  adjusted  by 
+controls  in  the  Timer  unit* 
+
+f.  The  operator  could  cause  to  be  printed  two  additional 
+
+lines  which  straddle  the  bearing  of  the  listening  beam. # 
+
+They  extended  from  the  center  of  the  scope  to  a  range  as 
+determined  by  the  range  Indicator  control. 
+
+go  In  addition  to  the  stabilized  relative  bearing  presentation 
+on  the  PPI  scope^  stabilized  true  bearing  was  also  provided^ 
+the  stabilization  being  supplied  from  a  unit  such  as  the  Ilk  23. 
+
+h.  Selection  of  either  stabilized  relative  or  stabilized  true 
+bearing  presentation  was  available  to  the  operator  by  means  of 
+Tnie-Relative  switch  on  the  covered  control  panel. 
+
+i.  Provision  was  also  made  for  printing  a  dotted  line  on  the  PPI 
+scope  to  indicate  the  direction  of  the  ship's  stern  when  true 
+bearing  was  being  displayed.  This  feature  in  no  way  affected 
+the  sweep  time  or  the  nomal  functioning  of  the  PPI  scope 
+presentation^  and  functioned  only  when  the  True-Relative  switch 
+was  in  the  True  position* 
+
+j*  True  and  Relative  indicating  lights  and  a  Stabilization  On, 
+light  were  provided  on  the  console  panel*  The  indicating 
+lights  were  such  that  no  objectionable  glare  or  effects 
+were  present  when  the  PPI  and  SSI  scopes  were  viewed  by  the 
+operator* 
+
+k.  In  addition  to  the  nomal  SSI  sweep  which  was  synchronized 
+with  the  PPI  sweepj  the  SSI  sweep  could  be  gated  by  either 
+the  Olffl  range  control  or  an  OKA-1  recorder  or  similar  equip¬ 
+ment.  When  the  SSI  was  gated^  the  sweep  rate  was  the  same 
+as  the  600-yard  rate  regardless  of  PPI  sweep  rate.  This  ' 
+feature  provided  a  full  scale  on  the  SSI  scope  raster  of  ^06 
+
+
+32 
+
+
+r'j 
+
+
+r 
+
+
+yards,  94  yards  short  of  the  correct  600-yard  range.  The 
+sweep  at  the  end  of  the  raster  deviates  from  linearity  by 
+about  8  percent,  (see  Fig.  l). 
+
+l.  When  the  SSI  sweep  was  gated  by  the  QHD  range  control,  the  sweep 
+was  xnitiated  at  the  time  that  the  listenin£  beam  cursors^  on 
+the  PPI, ceased.  Thus,  in  order  to  center  an  echo  on  the  600“ 
+yard  SSI  raster,  the  listening  beam  cursors  had  to  be  reduced 
+in  range  presentation  by  300  yards  less  than  the  target  range, 
+
+m.  When  the  keying  of  the  equipment  was  under  the  control  of  the 
+OKA-1  recorder  (or  similar  BuOrd  equipment),  the  SSI  scope 
+automatically  provided  for  range  gating  so  that  the  target 
+indication  was  centered  vertically  on  the  display. 
+
+n.  For  target  ranges  of  less  than  300  yards,  the  operation  of  the 
+SSI  was  not  changed,  which  was  considered  to  be  normal  opera¬ 
+tion, 
+
+o.  Range  scale  and  keying  repetition  rates  were  selectable  by 
+the  operator  except  when  the  keying  becomes  slaved  to  the 
+OKA-1  recorder  (or  similar  equipment),  in  which  case  the  key¬ 
+ing  function  was  no  longer  under  the  control  of  the  operator, 
+except  for  scanning  rates, 
+
+p.  The  frequency  of  the  Wien  bridge  oscillator  controlling  the 
+transmitted  pulse  length  and  the  scanning  rate  of  the 
+electronic  scanning  tube  and  PPI  could  be  selected  at  approx¬ 
+imately  30,  90  and  300  cycles,  . 
+
+q.  The  30-eycle  scanning  rate  produced  a  transmitted  pulse  length 
+of  33*3  milliseconds,  the  90“Cycle  rate  a  ll»l=ffllllisecond 
+pulse,  and  the  300-cyele  rate  a  3,3-millisecond  pulse. 
+
+These  pulse  lengths  virere  referred  to  in  the  specifica¬ 
+tions  and  indicated  on  the  pulse  length  selector  svidtch  as 
+35,  12  and  3  milliseconds  respectively.  Thus,  these  figures 
+were  used  as  an  approximation  to  the  true  values  for  referring 
+to  the  pulse  length  used.  Even  though  these  figures  were 
+given  in  specifications,  all  of  the  tests  conducted  on  the 
+QHD  equipment  where  pulse  lengths  were  involved  were  33.3 
+milliseconds  where  35  was  specified,  11,1  milliseconds  where 
+12  was  specified,  and  3.3  milliseconds  where  3  was  specified, 
+
+r.  The  actual  operating  frequencies  of  the  Wien  bridge  oscilla= 
+tor  were  29,9  cps.,  91.4  cps.  and  291.3  cps, 
+
+s.  The  frequency  drift  of  the  Wien  bridge  oscillator  over  a 
+period  of  one  hour  from  a  cold  start  was  less  than  0.3 
+percent  of  any  of  the  operating  frequencies. 
+
+
+33 
+
+
+JJlJJiiyJOiJn 
+
+
+t.  When  the  440-volt  supply  was  varied  1  20  percent^  the  Wien 
+bridge  oscillator  frequency  varied  as  shown? 
+
+T.-infi  Voltage  Oscillator  Frequency  in  cps 
+
+
+Cl 
+
+<r';l 
+
+r.? 
+
+r& 
+
+1 
+
+I 
+
+! 
+
+
+352 
+
+30.9 
+
+89.4 
+
+292 
+
+440 
+
+29.3 
+
+89.2 
+
+293 
+
+528 
+
+29.0 
+
+89.0 
+
+293 
+
+u#  All  brightening  amplifiers  for  the  PPI  and  SSI  scopes  operating^ 
+in  connection  lAdth  pulsing  circuits  and  receivers  were  suitable 
+for  their  purposes  <, 
+
+V*  The  envelope  filters  were  not  incorporated  in  the  receivers  as 
+stated 'in  specifications  but  were  located  in  the  console  as¬ 
+sembly*  They  were  designed  to  operate  on  pulse  lengths  of  ap¬ 
+proximately  3^  12  and  35  milliseconds  *  ?ilhen  operating  with  a 
+recorder  there  was  a  definite  improvement  in  the  signal  to  noise 
+ratio*  This  feature  may  be  disabled  at  the  console  by  the  En¬ 
+velope  Filter  sivLtch* 
+
+
+Wo  Operation  of  Test  Switches s 
+
+1)  stall  Sweep.  When  the  Stall  Svreep  switch  was  ''ON'%  the 
+spiral  expand  on  the  PPI  and  the  vertical  sweep  on  the  SSI 
+were  prevented  from  expanding  further.  Thus  the  PPI  spiral 
+expand  and  the  SSI  vertical  sweep  could  be  stopped  at  any 
+points  of  the3.r  travels. 
+
+2)  PPI  Gated.  When  the  PPI  Gated  switch  was  ''ON'S  the  PPI 
+spiral  expand  was  gated.  The  expand  rate  when  the  PPI  was' 
+gated  was  the  same  as  that  for  600-yard  range  presentation. 
+The  time  of  the  gating  was  determined  by  the  range  indicator 
+setting. 
+
+3)  SSI  Gated  By.  The  position  of  the  Gated  By  switch  determined 
+whether  the  SSI  vertical  sweep  was  gated  by  the  range  indica¬ 
+tor  or  was  controlled  by  the  PPI  sweep  rate.  When  the  switch 
+was  in  the  «Bange  Mark”  position^  the  gating  occurred  ac¬ 
+cording  to  the  range  indicator  setting.  When  the  switch  was 
+in  the  “OKA.''  position^  the  vertical  sweep  was  not  gated  but 
+had  the  normal  PPI  sweep  rate.  In  order  for  the  "SSI  Gated 
+By"  switch  to  be  operative  the  "SSI  Gating"  switch  had  to 
+
+be  turned  on.  The  SSI  vertical  sweep  rate  when  gated  was 
+the  same  as  that  for  the  600-yard  range  presentation. 
+
+
+34 
+
+
+4)  Sectioned  Sweep.  This  switch  made  the  sectioned  sweep 
+variable  resistor  operative,  and  caused  the  PPI  spiral  ex¬ 
+pand  to  enlarge  at  the  600-yard  presentation  rate  at  a 
+time' determined  by  the  sectioned  sweep  resistor  setting.^ 
+Thus,  with  the  range  presentation  switch  set  for  any  posi¬ 
+tion,  the  gating  would  occur  at  any  time  between  flybacks 
+according  to  the  sectioned  sweep  resistor  setting.  If  the 
+sectioned  sweep  resistor  setting  was  higher  than  the  setting 
+of  the  range  presentation  switch  there  was  no  gating. 
+
+5)  Listening  Pattern,  ihen  this  switch  was  ''OK",  the  presenta¬ 
+tion  on  the  PPI  and  SSI  CRT  was  no  longer  under  the  control 
+of  the  range  selector  switch  but  the  diameter  of  the  circle 
+presented  on  the  PPI  and  the  amount  of  vertical  travel  of 
+the  presentation  on  the  SSI  CRT  were  deterndned  by  the  amount 
+of  signal  applied  to  the  listening  receiver.  Ten  micro¬ 
+volts  of  signal  at  the  operating  frequency  applied  to  the 
+listening  receiver  caused  the  presentations  to  esspand  fully 
+on  the  PPI  and  SSI  CRT. 
+
+6)  Scan33ing  Pattern.  With  this  switch  in  its  test  position, 
+the  PPI  presentation  was  a  line  from  the  bottom  left  of  the 
+tube  face  to  the  top  right  with  a  large  amount  of  noise 
+visible.  This  noise  varied  with  the  setting  of  the  Pulse 
+Length  selector  switch  and  the  amount  of  bias  on  the  grids; 
+of  the  scanning  commutator  tube.  The  presentation  on  the 
+SSI  CRT  was  not  changed. 
+
+7)  Envelope  Filter.  The  envelope  filter  switch  in  the  normal 
+position  would  allow  the  enhancing  output  from  the  listen¬ 
+ing  receiver  to  emphasize  the  target  information'  on  the  re¬ 
+corder  that  could  be  connected  in  the  QHD  system,  and' to  en¬ 
+hance  the  target  information  on  the  SSI  CRT.  However,  as 
+SSI  gain  was  increased,  the  enhancing  of  the  presentation 
+on  the  SSI  became  less  until  at  full  gain  there  was  no  im¬ 
+provement. 
+
+8)  Ping  Length.  When  the  ping  length  sw3.teh  was  in  the  "Test” 
+position,  the  transmitted  pulse  length  could  be  observed  in 
+the  form  of  a  spiral  on  the  PPI  CRT.  When  the  pulse  genera¬ 
+tor  and  scanning  rates  were  operating  properly,  a  single 
+cycle  spiral  would  appear  at  the  center  of  the  PPI  CRT 
+during  transmission  time* 
+
+9)  Transmitted  Ping  Length  Test.  A  second  ping  length  test 
+which  included  the  operation  of  more  of  the  equipment  could 
+be  made  by  turning  the  Blanking  s-witch  off  and  placing  the 
+
+
+UNCLASSIFIED 
+
+
+Ping  Length  svdtch  and  Driver  Input  test  switch^  located 
+in  the  Test  Set ^  in  the  "Test"  position.  This  test  in¬ 
+cluded  the  operation  of  the  transmitting  portion  of  the 
+scanning  receivdr^  part  of  the  test  set  and  signal  brighten¬ 
+ing  circuit  of  the  console^  as  well  as  the  pulse  timing 'cir¬ 
+cuit  .  Again^  when  the  sections  were  operating  properly^  a 
+single  cycle  spiral  would  appear  on  the  PPI  CRT. 
+
+2.  Receiver  Assembly^  Type  R~354/SQS. 
+
+a.  The  Scanning  Receiver  chassis  contained  the  receiver  amplifier^ 
+the  first  and  second  ultrasonic  oscillators  with  their  tuning 
+reactance  tubes ^  and  a  mixer  circuit  for  the  generation  of  the 
+transmitted  frequency  followed  by  a  suitable  amplifier. 
+
+b.  The  receiver  amplifier  section  had  two  channels^  one  for  broad 
+band  operation  and  the  other  for  narrow  band  operation.  Vi/hen 
+the  QHD  system  was  operating  with  a  3 5-niillisecond  transmitted 
+pulse  lengthy  the  narrow  band  channel  was  automatically  switch¬ 
+ed  on.  When  the  system  was  operating  with  a  12  or  3-milli¬ 
+second  transmitted  pulse  length,  the  broad  band  channel  was  op¬ 
+erative.  The  channel  not  in  use  vfas  cut  off  by  hea'vy  biasing, 
+
+c.  The  maximum  voltage  gain  of  the  broad  band  channel  was  112  db 
+and  the  maximum  voltage  gain  of  the  narrow  band  channel  was 
+126  db.  At  full  gain  both  channels  were  overdriven  when  100 
+microvolts  were  applied  to  the  receiver  input.  Overload  charac¬ 
+teristics  for  both  channels  are  shown  on  Fig.  2. 
+
+d.  The  pass  band  of  the  narrow  band  channel  at  the  6-db  down  points 
+was  1.5  kc  either  side  of  the  operating  frequency.  See  Fig, 
+
+3. 
+
+e.  The  pass  band  of  the  broad  band  channel  at  the  6-db  down  points 
+was  4.5  kc  either  side  of  the  operating  frequency.  See  Fig.  4* 
+
+f.  The  Scanning  Receiver  amplifier  could  be  operated  under  three 
+conditions  of  TVG  (time  variable  gain)  and  RCG  (reverberation 
+controlled  gain).  First,  it  could  be  operated  without  TVG  or 
+RCG,  Second,  it  could  be  operated  with  various  amounts  of  TVG 
+flnd  no  RCG.  Third,  it  could  be  operated  with  RCG  and  various 
+amounts  of  TVG. 
+
+g.  The  time  required  for  recovery  of  the  receiver  gain  when  vari¬ 
+ous  amounts  of  TVG  alone  were  used  is  illustrated  in  Fig,  5« 
+
+
+36 
+
+
+h»  Figure  6  illustrates  the  gain  recovery  time  of  the  receiver 
+
+with  a  fixed  amount  of  TVGj  with  the  BCG  on  and  various  amounts 
+of  signal  applied  to  the  listening  and  scanning  receivers. 
+
+Since  the  RCG  circuit  Was  operated  from  the  signal  received  in 
+the  listening  receiver^  a  signal  had  to  be  supplied  to 'both  the 
+listening  and  scanning  receivers  in  the  proper  ratio  for  an  BCG 
+test  of  the  scanning  receiver.  Fig,  7  shows  the  scanning  re¬ 
+ceiver  recovery' time  with  a  constant  signal  applied  to  the  re¬ 
+ceivers,  RCG  on,  and  different  values  of  TVG. 
+
+i.  The  first  oscillator  was  a  variable  frequency  type  oscillator 
+having  a  range  from  79  kc  to  87,5  kc.  The  main- tuning  dial, 
+which  controlled  the  first  oscillator  frequency,  indicated 
+this  range  as  19  kc  to  27 « 5  kc  as  this  was  the  operating  fre¬ 
+quency  of  the  system  when  the  first  oscillator  was  beat  with 
+the  60-kc  produced  by  the  second  oscillator.  Since  the  first 
+oscillator  frequency  was  supplied  to  all  receivers  to  produce 
+the  i-f  frequency,  and  was  beat  with  the  second  oscillator  fre¬ 
+quency  to  produce  the  transmitted  frequency,  the  entire  QE® 
+system  was  under  unicontrol.  Thus,  the  main  tuning  controlled 
+the  operating  frequency  of  the  receivers  and  transmitter. 
+
+j.  The  trimmer  capacitor  associated  with  the  main  tuning  capacitor, 
+when  the  latter  was  set  for  19  kc,  was  capable  of  varying  the 
+system  operating  frequency  ±  5  percent.  At  23  kc  or  27*5  kc, 
+the  trimmer  was  capable  of  varying  the  oscillator  i  7  percent, 
+
+k.  During  a  warm-up  period  of  one  hour  and  a  half  at  room  tempera¬ 
+ture  and  -with  the  tuning  reactance  off,  the  oscillator  fre¬ 
+quency  drift  was  7  cycles.  Under  the  same  conditions  but  -^^th 
+the  tuning  reactance  on  the  frequency  drift  was  140  cycles. 
+
+l.  Substituting  different  pre-heated  tubes  in  the  oscillator 
+tube  socket  did  not  affect  the  frequency  appreciably. 
+
+m.  With  the  tuning  reactance  on,  the  tuning  reactance  adjustment 
+was  capable  of  varying  the  operating  frequency  i  2,5  percent 
+when  tuned  to  23  kc  or  27  kc.  When  the  operating  frequency 
+was  19  kc,  the  adjustment  was  t  3  pei*cent» 
+
+n.  The  frequency  vernier,  located  on  the  console,  adjusted  the 
+frequency  of  the  first  oscillator.  However,  the  oscillator  fre¬ 
+quency  correction  was  the  opposite  of  that  indicated  on  the  dial. 
+When  adjusting  for  increased  frequency,  the  oscillator  frequency 
+decreased  and  vice  versa.  Also,  the  decreased  frequency  range  of 
+the  control  was  non-linear.  Thus,  at  the  minimum  setting 
+
+(-1.5  kc),  the  oscillator  frequency  changed  3  kc  when  the  os¬ 
+cillator  was  tuned  at  19  or  27  kc,  and  changed  2.6  kc  when  set 
+at  23  kc. 
+
+
+UNCLASSIFIED 
+
+
+o.  During  transmission  time,  the  frequency  of  the  first  oscilla¬ 
+tor  changed  according  to  the  direction  of  the  listening  beam 
+to  correct  for  own  ship*s  doppler.  This  change  in  frequency 
+was  correct  for  a  ship  speed  of  17  knots.  Fig.  8  shows  the 
+change  in  first  oscillator  frequency  with  respect  to  the  direc¬ 
+tion  of  the  listening  beam.  An  ODN  (own  doppler  nullification) 
+disabling  switch  was  incorporated. 
+
+p.  The  frequency  change  of  the  oscillator  when  the  line  voltage 
+was  varied  -  20  percent  was  five  cycles  when  the  tuning  re¬ 
+actance  was  off.  YJith  the  tuning  reactance  on  and  *  2D  per¬ 
+cent  line  voltage  variation,  the  oscillator  frequency  change 
+was  33  cycles. 
+
+q.  Specifications  require  the  ultrasonic  operating  frequency  to 
+be  constant  within  0.2  percent  of  the  frequency  to  which  the 
+equipment  is  tuned  when  the  line  voltage  frequency  is  varied 
+5  percent.  Facilities  for  this  frequency  variation  were  not 
+available  and  the  test  was  not  made. 
+
+r.  The  frequency  change  of  the  oscillator  when  the  oscillator 
+load  was  changed  ±  25  percent  was  0.01  percent. 
+
+s.  The  second  oscillator  was  capable  of  operating  at  two  fre¬ 
+quencies.  During  transmission  time  the  oscillator  frequency 
+was  60.0  kc,  and  during  'receiving  time  the  oscillator  fre¬ 
+quency  was  60.5  kc.  The  tuning  reactance  associated  with 
+this  oscillator  affected  the  oscillator  fi^quency  only  during 
+receiving  time. 
+
+t.  The  tuning  capacitor  was  capable  of  adjusting  the  oscillator 
+frequency  5  percent  of  the  operating  frequency. 
+
+u.  The  ”beat  note  adjustment”,  effective  only  during  transmission 
+time,  was  capable  of  adjusting  the  oscillator  frequency  1.6 
+percent  of  the  operating  frequency. 
+
+V.  The  ODH  adjustment  varied  the  oscillator  frequency  4  percent 
+of  its  operating  frequency. 
+
+w.  The, oscillator  drift  during  a  two-hour  warm-up  period,  with  the 
+"sampling  ODN”  off,  was  58  cycles.  When  the  "sampling  ODN" 
+was  on,  but  without  any  signal  applied  to  the  listening  re¬ 
+ceiver  and  without  the  ODN  relay  operating,  the  frequency  drift 
+during  a  1.5-hour  warm-up  period  was  85  cycles.  The  large 
+majority  of  this  change  occurred  during  the  first  minute  of 
+operation. 
+
+
+38 
+
+
+f 
+
+
+X.  Substituting  different  pre-heated  tubes  in  the  oscillator  tube 
+socket  did  not  affect  the  frequency  appreciably. 
+
+y.  With  the  "Sampling  ODN"  off,  a  line  voltage  variation  of  i  20 
+percent  produced  no  significant  change  in  the  oscillator  fre¬ 
+quency.  The  oscillator  frequency  change  with  t  20  percent  line 
+voltage  variation  but  with  the  "Sampling  ODN"  on  vras  nearly 
+700  cycles.  This  change  in  operating  frequency  was  beyond  the 
+cut-off  range  of  the  filters  used, 
+
+z.  When  the  oscillator  load  impedance  vras  changed  t  25  percent, 
+there  was  no  significant  change  in  the  oscillator  frequency. 
+
+
+aa.  The  frequency  of  the  second  oscillator  is  controlled  by  the^ 
+
+listening  receiver  output  frequency  by  means  of  the  discrimina¬ 
+tor  rectifier  and  tuning  reactance  tube  when  the  second  os¬ 
+cillator  ODN  tuning  reactance  is  on.  This  output  frequency 
+is  in  turn  determined  by  the  receiver  input  frequency,  the 
+first  oscillator- frequency,  and  the  second  oscillator  fre¬ 
+quency.  However,  when  the  QHD  system  was  under  operating  con¬ 
+ditions  of  normal,  echo  ranging,  it  was  found  that  the  second 
+oscillator  frequency  was  not  controlled  by  the  receiver  input 
+frequency.  The  apparent  reason  for  this  is  the  transient  noise 
+produced  in  the  listening  receiver  caused  by  the  change  from 
+transmit  time  to  receive  time  operation.  Since  the  tuning  re¬ 
+actance  tube  samples  the  output  of  the  discriminator  rectifier 
+immediately  after  the  transmitted  pulse,  the  tuning  reactance 
+tube  receives  a  voltage  according  to  the  frequency  of  the  tran¬ 
+sient  noise  in  the  listening  receiver  and  not  the  reverberation 
+frequenc.ies  received.  As  a  result,  the  second  oscillator  fre¬ 
+quency  was  not  determined  by  the  frequency  of  the  signal  re¬ 
+ceived  but  wandered  over  a  range  of  three  himdred  cycles  con¬ 
+tinuously.  (See  Fig,  9«)  Occasionally,  the  drift  was  greater 
+than  four  hundred  cycles  and  oscillations  stopped  altogether. 
+Without  the  second  oscillator  frequency,  the  listening  re¬ 
+ceiver  and  the  scanning  receiver  were  inoperative. 
+
+bbo  The  signal  generator  amplifier  mixes  the  first  oscillator  out¬ 
+put  with  the  transmit  time  second  oscillator  output  and  then 
+amplifies  this  signal  to  a  sufficient  amplitude  to  drive  the 
+driver.  This  amplifier  is  normally  cut  off,  but  a  pulse 
+from  the  timer  unit  during  transmission  time  removes  the  bias 
+and  allows  the  amplifier  to  operate.  Filters  are  employed 
+
+
+39 
+
+
+UNXLASSIFrFir 
+
+
+in  the  amplifier  in  order  that  only  frequendies  between  19  kc 
+and  27  kc^  the  operating  frequency  range  of  the  equipment^  may 
+be  amplified.  The  normal  output  of  the  amplifier  is  approxi¬ 
+mately  40  volts. 
+
+
+<% 
+
+or, 
+
+o;^ 
+
+
+cco  The  Listening  Receiver  chassis  contains  the  listening  receiver 
+amplifier j  the  discriminator  rectifier^  the  enhancing  circuit, 
+and  the  RGG-TVG  circuit. 
+
+
+ddo  The  amplifier  section  has  one  channel  which  is  used  for  all 
+pulse  lengths. 
+
+ee.  The  maximum  voltage  gain  of  the  amplifier  was  134  db.  At  full 
+gain,  the  amplifier  overloaded  when  40  microvolts  were  applied 
+to  the  input.  Overload  characteristics  are  shown  in  Fig,  10. 
+
+The  pass  band  of  the  amplifier  at  the  6  db  down  points  was  250 
+cycles  either  side  of  the  operating  frequency.  For  the  entire 
+frequency  characteristic  of  the  amplifier,  see  Fig.  11. 
+
+ff.  The  amplifier  operated  under  the  same  RCG— TVG  conditions  as  the 
+scanning  receiver.  The  time  required  for  the  recovery  of  the 
+receiver  gain  when  various  amounts  of  TVG  alone  are  used  is 
+illustrated  in  Fig.  12.  The  gain  recovery  time  of  the  ampli¬ 
+fier  with  a  fixed  amount  of  TVG,  with  the  RCG  on  and  various 
+amounts  of  signal  applied  to  the  receiver  input  is  shown  in 
+Fig.  13.  The  effectiveness  of  the  RCG  is  controlled  by  the 
+amount  of  signal  applied  to  the  receiver.  The  gain  recovery 
+time  of  the  receiver  wiien  operating  with  a  fixed  amount  of  in-  , 
+put  signal  with  the  RCG  on  and  various  amounts  of  TVG  is  shown 
+in  Fig,  14* 
+
+gg.  The  voltage  out  of  the  amplifier  remained  constant  within 
+
+t  .75  db  under  combination  of  the  following' conditions?  1)  any 
+setting  of  the  audio  level  control,  2)  one,  two,  or  three 
+speakers  connected  to  the  receiver  amplifier  output,  and  3)  any 
+setting  of  speaker  attenuators  or  off -on  switch. 
+
+hh.  The  db  meter  on  the  audio  output  of  the  receiver  indicated  zero 
+db  with  the  following  meter  switch  positions  and  applied  signals 
+to  the  receiver  inputs 
+
+
+40 
+
+
+11 
+
+
+cr, 
+
+wntf' 
+
+r'j 
+
+T'"" 
+
+V.' 
+
+Meter  Switch  Position 
+
+Input  Signal 
+
+it 
+
+T' 
+
++  7  db 
+
+0.5  microvolts 
+
+5| 
+
++17  db 
+
+1.6  « 
+
++27  db 
+
+5.4  « 
+
++37  db 
+
+30.0  « 
+
+The  discriminator  rectifier  had 
+
+a  normal  operating  range  of 
+
+100  cycles  below  the ' zero  voltage  output  frequency  and  200 
+cycles  above  the  zero  voltage  output  frequency.  The  zero 
+voltage  output  frequency  was  590  cycles  per  second.  If  more 
+than  two  volts  were  applied  to  the  QDH  relay  tube^  the  circuit 
+was  overdriven  and  the  discriminator-  rectifier  no  longer  had 
+the  typical  discriminator  characteristics.  See  Figure  15. 
+
+
+jj.  Under  operating  conditions  the  enhancing  circuit  supplied 
+to  the  console  a  dc  pulse  whose  length  was  determined 
+by  the  length  of  the  pulse  received  and  with  a  maximum 
+amplitude  of  two  volts.  Operation  in  connection  with  the 
+envelope  filters  and  SSI  brightening  was  satisfactory. 
+
+kk.  Bias  supplied  from  TVG  to  the  listening  and  scanning  receivers 
+could  be  varied  from  zero  to  120  volts, 
+
+11,  EGG  could  be  turned  on  or  off  by  means  of  a  suitable  switch, 
+
+mm.  The  effects  of  various  combinations  of  RGG  andTVG  on  the 
+receiver  gains  are  shown  in  Figures  5#  6^  7?  12^  13  and  14, 
+
+
+nn.  The  SSI  Receiver  is  a  two-channel  amplifier,  the  right  channel 
+being  exactly  the  same  as  the  left.  The  voltage  gain  of  each 
+channel  was  approximately  100  db  at  the  lowest  input  voltage 
+level  that  would  cause  the  blocking  oscillators  in  the  output 
+of  the  channels  to  operate,-  However,  the  voltage  from  the 
+blocking  oscillators  remained  constant  as  the  input  signal 
+was  increased.  The  maximam  phase  shift  between  the  output 
+voltages  of  the  two  channels  wh^n  the  input  frequency  was 
+as  much  as  *  200  cycles  away  from  the  correct  operating 
+frequency,  and  the  input  signal  was  varied  from  the  threshold 
+of  operation  to  overload  was  *  l/2  degree  as  indicated  by 
+the  raster  of  the  SSI  CRT.  See  Figure  l6, 
+
+oo.  When  operating  under  normal  input  frequency  and  voltage 
+
+conditions,  but  with  the  load  on  the  output  increased  by  25 
+percent,  the  output  voltage  decreased  3  db.  There  was  no 
+voltage  change  when  the  load  was  decreased  by  25  percent, 
+
+pp,  M-i ni  mum  input  jsignal  necessary  to  give  an  indication  on  the 
+SSI  CRT  was  1(X)  microvolts. 
+
+
+41 
+
+
+qq.  The  test  set  is  a  vacuum  tube  voltmeter  capable  of  measuring 
+the  pulse  amplitude  of  pulses  applied  to  it.  When  measuring 
+pulse  amplitude j  several  pulses  must  be  applied,  depending, 
+on  the  pulse  length,  in  order  for  the  meter  integrating  circuit 
+to  build' up  a  voltage  corresponding  to  the  pulse  amplitude, 
+normally,  the  test  set  monitors  the  signal  transmitted  by  the 
+standard  section  of  the  transducer  by  employing  the  MC 
+section  for  receiving  purposes,  Vilhen  the  system  is  operated 
+under  M3C  conditions  the  monitoring  cannot  be  accomplished 
+
+a.s  the  MC  section  is  being  used  for  transmission  and  is  no 
+longer  connected  to  the  test  set. 
+
+Test  switches  are  provided  to  allow  the  meter  to  also 
+measure  the  pulse  amplitude  as  applied  to  the  driver.  ?}hen 
+this  test  is  being  made,  the  driver  is  no  longer  pulsed. 
+
+The  ratio  of  the  voltage  applied  to  the  test  set  input  to 
+that  indicated  on  the  meter  is  approximately  two  to  one.  Thus, 
+with  a  proper  setting  of  the  potentiometer  at  the  test  set 
+input,  a  forty *volt  signal  will  give  a  twenty-volt  meter 
+indication. 
+
+rr.  Switches  are  also  provided  in  order  that  the  pulse  from 
+the  signal  generator  portion  of  the  scanning  receiver  may 
+be  sent  directly  to  the  PPI  CRT  in  the  console.  The  trans¬ 
+mitted  pulse  length  may  be  measured  by  the  PPI  scanning  rate. 
+
+ss.  Proper  voltages  required  to  operate  the  receivers  ^e  obtained 
+from  the  receiver  power  supply.  The  test  set  has  its  separate 
+power  supply. 
+
+3.  Amplifier-Commutator  Assembly,  Type  AM-392/SQS, 
+
+a.  The  frequenc;"  response  of  the  forty-eight  preamplifiers  was 
+flat  within  *0,5  db  over  the  range  of  operation,  19  to  2?  kc. 
+
+b.  NonnalLy,  the  voltage  gain  of  the  preamplifiers  is  set  for 
+about  500  but  can  be  varied  over  a  large  range.  In  the  input 
+circuit  of  each  preamplifier  there  is  a  coupling  transformer. 
+The  primaries  of  these  transformers  are  connected  through  the 
+uransmit—receive  transfer  relay  to  the  individual  staves  of 
+the  transducer.  Tifhen  the  voltage  applied  to  the  primary 
+reaches  1.2  volts,  a  neon  bulb  on  the  secondary  of  the 
+transformers  fires  and  reduces  the  voltage  applied  to  the 
+first  amplifier  tubes,  protecting  the  grids.  During  trans¬ 
+mission  time  the  voltage  leaking  across  the  transmit-receive 
+transfer  relay  occasionally  reaches  1.2  volts,  necessitating 
+the  protective  device. 
+
+c.  A  signal  of  ohe  microvolt  applied  to  the  preamplifier  input 
+caused  an  indication  on  the  PPI  and  SSI  CET®s  when  the 
+receivers  were  operated  at  maximum  gain. 
+
+
+42 
+
+
+d.  The  variable  capacitors  on  the  secondaries  of  the  input 
+transformers  were  capable  of  shifting  the  phase 
+signal  applied  to  the  first  tube  ±  16  degrees, 
+
+e.  The  PPI  scanning  commutator  beam  rotated  at  approximately 
+30,  90  or  300  rps  as  selected  by  the  operator. 
+
+f.  The  SSI  scanning  commutators  are  trainable  to  any  desired 
+bearing,  as  selected  by  the  operator.  The  training  accuracy 
+
+is  determined  by  the  dynamic  and  static  accuracy  of  the  training 
+servo  system.  Since  the  servo  system  is  capable  of  accepting 
+single  axis  stabilization  orders  from  the  Mk  23  Computer,  the 
+changes  will  be  reflected  in  the  commutator  beam  bearings, 
+
+g.  The  frequency  response  of  the  commutator  tubes  and  their 
+coupling  amplifiers  was  flat  within  *  0,5  db  over  the 
+operating  range  of  the  equipment, 
+
+h.  When  a  signal  is  applied  to  any  one  grid  of  the  listening 
+commutator  tubes  and  the  electron  beam  directed  in  the 
+
+in  the  vicinity  of  the  grid,  a  fairly  constant  signal  out 
+of  the  coupling  amplifier  results  when  the  beam  Is  displaced 
+by  *  2  or  3  degrees  from  the  grid  bearing.  Further  displace- 
+moit  produces  a  rapid  decrease  in  output  voltage.  The  physical 
+bearing  difference  between  each  grid  is  7*5  degrees  and  the 
+apparent  center  of  each  voltage  plateau  varies  from  this  value 
+by  plus  03;*  minus  one  degree .  Each  grid  has  a  different  output 
+characteristic  as  the  beam  bearing  is  changed,  A  comparison 
+of  the  voltage  gains  of  all  the  grids  showed  a  variation  of 
+
+±  1.5  db, 
+
+i.  Men  sisals  of  equal  phase  and  amplitude  were  applied  to 
+corresponding  grids  of  the  right  and  left  commutatcr ' tubes 
+and  the  electron  beam  trained  in  the  vicinity  of  the  grids , 
+the  phase  between' the  voltages  at  the  output  varied  as  much 
+
+as  ±  8  degrees  over  the  effective  bearing  range  of  the  grids. 
+
+This'  did  not  result  in  a  l6-degree  change  in  target  bearing 
+as  indicated  bh  the  SSI' CRT,  as  the  ratib  of  actual  sipal’ 
+phase  shift  applied  to  the  SSI  receiver  to  that  indicated  on 
+the  SSI  CRT' was  about  8  to  I,  Thus,  over  the  effective 
+bearing  range  of  each  pair  of  the  listening  commutator  grids, 
+the  error  appeared  on  the  SSI  CRT  as  plus  or  minus  one  degree 
+or  less.  Of  course,  if  the  electron  beams  can  be  aimed  at 
+the  effective  centeres  of  each  pair  of  grids,  the  apparent 
+error  approac  hes  zero , 
+
+j.  Typical  overload  characteristics  of  the  commutator  tubes  is 
+shown  in  Figure  18. 
+
+
+u  ivc  L  rt  y y  i  r  i 
+
+
+CONFIDENTIAL 
+
+k.  Even  thou^  the  noise  level  (10  millivolts)  applied  to  the 
+input  of  these  tubes  was  high  compared  to  the  si^al  ampli¬ 
+tude  necessary’ (10  microvolts)  to  cause  an  indication  oh  the 
+PPI  CRTj  the  noise  did  not  appear  to  affect  the  operation 
+
+of  the  equipment.  This  noise  had  several  components,  includ- 
+60  cycles,  the  scanning  rate  of  the  tube,  and  some  small 
+amplitude  frequencies  of  3,000  cycles  or  more.  Most  6f  the 
+noise  was  60— cycle.  The  various  scanning  rates  had  no  effect 
+on  the  gain  of  the  tubes. 
+
+l.  The  permanent  magnet  tilt  adjustment  on  the  listening 
+commutator  tubes  appeared  to  have  ample  range.  Also,  the 
+voltage  applied  to  the  tilt  coil  of  the  scanning  commutator 
+tube  appeared  to  have  the  correct  amplitude. 
+
+ra.  The  bias  controls  for  the  commutator  tubes  had  proper  ranges 
+of  adjustment. 
+
+n.  The  scanning  field  amplifier  had  sufficient  output  and  proper 
+wave  shape  at  all  scanning  rates  to  properly  rotate  the 
+electron  beam  in  both  the  scanning  commutator  tube  and  the 
+storage  scanning  tube, 
+
+o.  The  scanning  commutator  selector  switch  assembly  is  located 
+on  the  back  of  the  commutator  assembly  and  contains  manually 
+operated  switches  for  switching  the  equipaent  to  either 
+"normal”  or  "storage  operation ,  The  system  operated  properly 
+in  either  switch  position. 
+
+p.  The  power  supply  unit,  with  one  exception,  provided  the 
+correct  voltages  for  all  units  of  the  assembly.  The 
+exception  was  that  the  plate  supply  for  the  scanning  field 
+amplifier  was  400  volts  instead  of  3^0  volts. 
+
+q.  Pulse  delay  network  units,  Z— 1112,  Z-1114  and  Z— 1129  were 
+found  to  be  defective  (internal  shorts).  They  were  replaced 
+with  spare  units.  The  defective  units  were  returned  to  the 
+contractor  for  repair, 
+
+4.  Servo  Amplifier  Assembly,  Type  AM-^393/SQS. 
+
+;  /' 
+
+a.  The  Deflection  Amplifier  provided  the  necessary  voltages  to  the 
+deflection  coils  on  the  Console  and  remote  PPI's  with  a 
+
+mi ni miitn  amount  Of  distortion  at  all  scanning  rates.  Power 
+was  derived  from  a  suitable  self-contained  power  supply. 
+
+b.  The  Servo  Amplifier  chassis  contains  the  necessary  four 
+separate  servo  amplifiers,  training  servo,  listening  commu¬ 
+tator  servo,  PPI  stabilization  servo,  and  the  PPI  true- 
+relative  servo  amplifier.  The  chassis  also  contains  the 
+slewing  switch  relays,  and  a  power  supply  for  the  amplifiers. 
+
+
+44 
+
+
+UiTCE  A  S  S  if  ItTJ' 
+
+
+c.  Meters  are  provided  to  show' the  electrical  error  in  degrees 
+
+of  the  Brq  servo  amplifier,  and  the  listening  commutator  4 
+
+servo  amplifier.  2| 
+
+d.  Operation  of  all  sections  was  satisfactory.  I 
+
+e.  Mo®t  of  the  synchro  control  system  is  located  in  the  servo  ?; 
+
+unit.  The  control  system  is  capable  of  accepting  the  follow¬ 
+ing  synchro  inputs; 
+
+
+Synchro 
+
+Order 
+
+Speeds 
+
+From 
+
+Into 
+
+cBrq 
+
+B*r'q 
+
+Co 
+
+Go 
+
+Zero  Order 
+Brq 
+
+36X 
+
+IS  &  36i 
+IX 
+
+36X 
+
+IX 
+
+Attack  Director 
+Mk  23  Computer 
+Gyro  Compas 
+
+Gyro  Compass 
+Transformer 
+Attack  Sonar 
+
+Azimuth  Train 
+
+Listening  Channel  Switch 
+Azimuth  Train 
+
+Azimuth  Train 
+
+Azimuth  Train 
+
+Cursor  on  PPI  and 
+remote  PPI's- 
+
+The  equipment  is  capable  of  providing  the  following  synchro 
+outputs; 
+
+Synchro 
+
+Order 
+
+Speeds 
+
+From 
+
+Into 
+
+Brq 
+
+IX  &  36X 
+
+Azimuth  Train 
+
+Attack  Director,  Mk 
+
+23  and  Att/gick  Sonar 
+
+Brq 
+
+IX 
+
+Azimuth  Train 
+
+Cursors  on  ranote 
+repeaters  and  Attack 
+Sonar 
+
+Bq 
+
+:ix 
+
+Azimuth  Train 
+
+Attack  Plotter 
+
+g.  The  training  wheel,  located  on  the  Console,  is  so  geared 
+that  each  revolution  of  the  handvuheel  in  either  direction 
+results,  correspondingly,  in  fifteen  degrees  of  azimuth  train 
+of  the  listening  chemnel  beam. 
+
+h.  Right  or  left  slewing  of  the  directed  listening  channel  is 
+provided  at  a  speed  of  8  rpm*  the  slewing  switch  is  located 
+on  the  Console. 
+
+i.  The  dynamic  accuracy  of  the  listening  channel  training  system 
+was  tested  by  feeding  an  electrical  signal  into  the  one  speed 
+system  represented  by  the  formula  iOsin^nt/ll.  •  This  formula 
+is  interpreted  to  mean  a  signal  that  will  cause  the  listening 
+channel  training  system  to  reverse  its  direction  of  rotation 
+periodically  as  a  sine  function.  The  time  required  for  one 
+
+
+complete  cycle  is  4»4  seconds  and  the  amplitude  of  the 
+excursion  is  30  degrees,  total  travel  being  60  degrees* 
+
+Under  these  conditions  the  training  servo  amplifier  error 
+meter  indicated  a  maximum  lag  error  of  7  •?  mxnutes  in  the 
+clockvdse  direction  and  6*4  minutes  in  the  counterclockwise 
+direction* 
+
+The  listening  commutator  servo  amplifier  error  meter 
+indicated  a  wiflyi  nmm  lag  error  of  8*9  minutes  in  the  clock¬ 
+wise  direction  and  6*8  minutes  in  the  counterclockwise 
+direction* 
+
+All  of  the  errors  are  within  the  specification  limit  of 
+10  minutes* 
+
+j*  The  static  error  at  all  bearings  was  three  minutes  or 
+
+less,  which  is  within  specification  limits  of  five  minutes* 
+
+k*  Relay  K-4303  a  IX  and  36X  changeover  relay  in  the  servo 
+amplifier  was  replaced  with  one  from  spares.  The  original 
+had  sluggish  armature  action. 
+
+
+5*  Sonar  Driver-Amplifier,  Type  AM-394/SQS* 
+
+a*  The  driver  was  capable  of  supplying  at  least  40  kilowatts 
+over  the  operating  frequency  range  of  the  equipment,  19 
+to  27  kc*  Means  are  provided  to  reduce  the  driver  power 
+output  in  two  steps  of  10  db  each* 
+
+b*  Figure  17  shows  the  frequency  characteristics  of  the  driver 
+i^th  various  tuning  capacitors  used* 
+
+c*  The  power  output  of  the  driver  at  the  end  of  a  35“®“il3i.” 
+second  pulse  did  not  decrease  by  more  than  10  percent  of 
+the  maximum  value* 
+
+d.  The  driver  power  output  is  automatically  reduced  3  db  from 
+full  power  fldien  operated  tinder  MCC  conditions* 
+
+e*  The  driver  can  be  keyed  automatically  from  the  Console*  It 
+can  also  be  keyed  from  the  Console  by  a  hand  telegraph  key, 
+or  by  a  test  key  button  on  the  driver*  Normal  driver  power 
+output  under  hand-keyed  conditions  is  400  watts  * 
+
+f.  The  driver  is  capable  of  being  keyed  to  supply  359  12  and  3- 
+millisecond  pulses  with  66anning  rates  of  30,  90  and  3OO 
+cycles  per  second  respectively* 
+
+
+46 
+
+
+UNCLASSrFfTff 
+
+
+g«  With  a  *  10  iiercent  change  in  the  A40-v61t  supply,  the  driver 
+power  output  varied  as  shown  in  the  table  belows 
+
+
+Line 
+
+Voltage 
+
+484 
+
+
+Driver  power  output  in  kilowatts 
+Pull  MCC  '  -lOdb 
+
+Power  Operation  Position 
+
+
+50 
+
+40 
+
+27.5 
+
+
+22.5 
+20 
+
+12.5 
+
+
+4.4 
+4.0 
+
+3.5 
+
+
+-20  lib 
+Position 
+
+1.0 
+
+0.4 
+
+0.05 
+
+
+h.  Except  for  the  driver,  the  equipment  was  operable  within  a' 
+a  few  seconds  after  power  was  applied.  The  warm-up  time  for 
+the  driver  was  two  minutes  and  twelve  seconds. 
+
+
+1.  When  the  driver  is  turned  on  its  blower  motor  starts  immediately 
+and  continues  to  run  for  four  and  one-half  minutes  after  the 
+driver  is  turned  off. 
+
+
+j.  The  driver  disabling  switch  disables  the  driver  without  affect' 
+ing  the  rest  of  the  equipment. 
+
+
+6.  Transducer,  Type  CEP-51117-A. 
+
+a.  Preliminary  tests  on  the  transducer  showed  that  the  trans¬ 
+mitting  response  of  the  UDC  section  was  extremely  poor.  The 
+transducer  was  returned  to  the  contractor  on  8  May  1952  for 
+correction.  On  3  September  1953  the  transducer  was  delivered 
+to  the  Laboratory  s^d  tests  were  continued. 
+
+b.  The  individual  elements  appeared  to  make  uniform  acoustic 
+contact  with  the  water,  sdthough  the  sensitivity  of  several 
+of  the  individual  staves  were  not  within  -2  db  of  the  mean. 
+See  Figure  19. 
+
+c.  Impedances  of  two  of  the  individual  staves  were  not  within 
+*10  percent  of  the  mean  as  required  by  specification.  See 
+Figure  20. 
+
+d.  The  phase  an^es  of  several  of  the  individual  staves  were 
+not  within  *  3  degrees  of  the  mean.  See  Figure  20. 
+
+e»  TWhen  the  transducer  was  operated  under  MCC  conditions 
+
+(with  connections  as  shown  in  wiring  diagram),  the  trans¬ 
+mitted  beam  was  deflected  upward  instead  of  downward.  See 
+Figure  21.  The  MCC  transmitted  beam  was  deflected  down¬ 
+ward  when  these  leads  were  reversed.  See  Figure  22. 
+
+f .  With  MCC  operation  there  was  practically  no  nullification 
+of  the  beam  in  the  horizontal  plane,  and  the  transmitted 
+signal  amplitude  at  the  required  angle  (60  degrees)  was  so 
+
+
+47 
+
+
+UNCIrtSSi-fitiT" 
+
+
+low  (-lydb)  conpared  to  the  maximum  that  detection  of  under¬ 
+water  targets  would  be  doubtful.  See  Figure  22. 
+
+g*  The  average  transmitting  response  for  the  MCC  section  of 
+the  transducer  was  63 *4  db  above  one  dyne  per  square  centi¬ 
+meter  at  a  distance  of  one  meter  with  one  watt  in  the  MCC 
+section.  This  was  9.6  db  below  specification  limits.  See 
+Figure  23. 
+
+h.  The  resonant  frequency  of  the  transducer  was  26  kc  ^  5  percent. 
+See  Figure  24, 
+
+i.  The  Q  of  the  transducer  was  calculated  to  be  7.53  well  within 
+specification  limits.  See  Figure  24, 
+
+j.  The  efficiency  of  the  transducer  standard  section  computed 
+from  the  sound  output  divided  by  the  electrical  input  was  14 
+percent.  This  efficiency  was  based  on  a  transmitting  direct^ 
+ivlty  index  of  8,7  db. 
+
+k«  As  previously  stated^  the  transmitting  directivity  index  of 
+the  standard  section  was  8,7  dbj,  or  2,8  db  below  specifica¬ 
+tion  requirements, 
+
+l.  The  directivity  index  of  the  receiving  beam  patterxas  before 
+commutation  was  not  28  db  as  required  by  specifications. 
+
+Figures  36  through  43  present  the  receiving  beam  patterns 
+every  45  degrees  before  commutation, 
+
+m.  The  sound  radiation  pattern  (main  lobe)  in  the  horizontal 
+plane  of  the  standard  section  of  the  transducer  was  not 
+within  ^2  db  of  the  mean.  See  Figure  25.  The  angular  beam 
+width  of  the  main  transmitted  beam  at  points  10  db  down  was 
+within  the  specification  requirements  of  I6  degrees^  although 
+three  of  the  side  lobes  were  slightly  higher  than  the  allowed 
+-10  db.  See  Figure  26, 
+
+n.  The  average  transmitting  response  for  the  standard  section 
+of  the  transducer  was  70,2  db  above  one  microfaar  at  a  dis= 
+ance  of  one  meter  with  one  watt  in  the  transducer.  This 
+value  is  6,8  db  below  specification  requirements.  See  Figure 
+
+25, 
+
+o.  The  open  circuit  receiving  response  of  the  transducer  (aU 
+staves  connected  parallel  aiding)  was  not  within  =2  db  of  the 
+mean  as  required  by  specifications.  See  Figure  27, 
+
+p.  The  angular  horizontal  receiving  beam  width  of  the  trans¬ 
+ducer  when  associated  with  the  commutator  tubes  and  the  lag 
+lines  was  not  17  degrees  as  required  by  specifications  nor 
+were  the  side  lobes  down  18  db  from  the  main  lobe.  Figures  28 
+through  35  present  the  receiving  beam  patterns  every  45  degree^ 
+
+
+UNCLASSIFrFEr 
+
+
+after  commutation. 
+
+
+q.  The  transducer  operated  satisfactorily  during  the  ''locked 
+key"  operation  test.  The  average  power  supplied  to  the 
+transducer  during  the  24-hour  period  was  400  watts.  No 
+deleterious  effects  were  noted  on  the  transducer  under  these 
+power  conditions  and  with  the  water  temperature  varied 
+between  39  degrees  and  90  degrees  Fahrenheit. 
+
+r.  The  transmitting  response  of  the  MCC  section  in  the 
+vertical  plane  is  shorn  in  Figure  44# 
+
+s.  During  the  "keyed  operation"  test  the  water  temperature 
+was  varied  between  32  degrees  and  88  degrees  Fahrenheit 
+and  the  average  power  supplied  to  the  transducer  was  40 
+kilowatts  during  the  35'”®illis®cond  pulse.  The  pulse 
+repetition  rate  was  the  most  rapid  possible^  that  for  the 
+2000-yard  range  presentation.  No  pernicious  effects  were 
+observed  on  the  transducer  during  or  after  the  48--hour 
+test. 
+
+
+cr; 
+
+US; 'll 
+
+rS 
+
+r.'j 
+
+O'") 
+
+
+7.  Power  Transformer^  Type  CRP”301223. 
+
+These  units  were  satisfactory  under  normal  operation  and  with 
+
+*20  percent  line  voltage  variations. 
+
+8,  Motor-Generator  Assembly^  Type  PU-200/U, 
+
+a.  The  3‘=“Pi^ase  440-volt  ac  meter^  rated  at  10  horsepower^  drives 
+two  dc  generators.  The  dc  generators  are  each  rated  at  2800 
+volts  dc  at  0,6  ampere  rating  when  driven  at  a  speed  of 
+
+3600  rpm.  Maximum  power  rating  of  each  generator  is  5«25  kw. 
+The  2800-volt  generators  are  separately  excited  by  a  440- 
+volt  dc  generator  with  a  current  capacity  of  1,8  amperes. 
+
+The  high  voltage  generators  supply  the  necessaiy  voltage  and 
+power  required  by  the  driver, 
+
+b.  Prior  to  the  beginning  of  electrical  tests j,  the  high 
+voltage  generator  unit  G-33/Uj)  serial  3$  was  found  to 
+have  a  defective  armature  (open  coils).  A  new  armature 
+was  installed  and  the  defective  armature  returned  to  the 
+contractor.  Cause  of  failure  is  unknown. 
+
+c.  The  second  generator  armature  failure  occurred  after  the 
+completion  of  the  shock  and  vibration  tests.  During  these- 
+tests  there  was  no  hint  of  generator  malfunction.  However^ 
+duiang  the  driver  -vibration  test  the  driver  power  output 
+was  lower  than  experienced  previously  even  though  40  kw 
+could  still  be  obtained.  During  the  driver  shock  test  the 
+motor  generator  would  not  provide  the  required  voltage  during 
+
+
+I 
+
+
+transmission  time  and  investigation  revealed  open  arma¬ 
+ture  coils  in  this  case  also*  Although  the  failure  occurred 
+after  the  shock  and  vibration  tests  of  the  motor  generator, 
+it  is  not  certain  that  the  failure  was  the  result  of  these 
+tests « 
+
+
+9,  Motor  Starter,  Tsrpe  CAE-211981 
+
+A  suitable  motor  starter  with  an  overload  relay  and  overload 
+reset  was  previded«  The  operation  of  this  unit  was  satisfactory 
+under  normal  conditions  and  with  *20  percent  line  voltage 
+variations* 
+
+
+10*  Eelay  Assembly,  Type  BE-84/SQS. 
+
+All  of  the  relays  and  other  components  in  this  assembly  functioned 
+
+properly  for  the  normal  operation  of  the  system* 
+
+11*  Receiver-Storage  Scanner  Assembly,  Type  R-522/SQS. 
+
+a*  The  power  consumed  by  the  storage  amplifier  unit  from  the 
+110-volt  single-phase  supply  when  operating  at  full  gain 
+was  1200  watts  at  0.98  power  factor* 
+
+b«  The  300-volt  regulated  power  supply  regulated  within  -0*3 
+percent  under  conditions  of  *10  percent  line  voltage 
+variations  arid  maximum  ©r  adniiiwm  setting  of  the  master 
+gain  control. 
+
+c.  The  regulation  of  the  100-volt  regulated  power  supply  under 
+conditions  of  *10  percent  line  voltage  variation  aad  maximum 
+or  m-T mmnim  settings  of  the  master  gain  control  was  as  follows? 
+
+
+Master  Gain.  Line  100-¥olt  Percent 
+
+
+Setting 
+
+Voltage 
+
+Supply 
+
+Change 
+
+Maximum 
+
+117 
+
+100 
+
+0 
+
+Mniraum 
+
+117 
+
+107 
+
+7 
+
+Maximum 
+
+129 
+
+100 
+
+0 
+
+Minimum 
+
+129 
+
+120 
+
+20 
+
+Maximum 
+
+105 
+
+96 
+
+4 
+
+Mnimum 
+
+105 
+
+100 
+
+0 
+
+Specifications  require  that  there  be  no  more  than  one  percent 
+change  in  output  voltages* 
+
+d*  A  scanning  commitator  tube,  type  QK-255^  capable  of  commutating 
+dc  signals  at  a  rate  of  300  rps  is  provided. 
+
+
+50 
+
+
+U  WOE  AS  Si  hrf  ir"' 
+
+
+e«  A  scanning  commutator  brightening  amplifier  capable  of 
+
+supplying  sufficient  signal  to  the  console  PPI  is  supplied. 
+
+f.  Test  points  are  provided  on  each  storage  amplifier  unit  for 
+measurement  of  the  ac  voltage  supplied  to  the  rectifier  and 
+storage  -section^  and  are  also  provided  to  measure  the  dc 
+output"  In  addition^  test  points  are  provided  in  the 
+brightening  amplifier. 
+
+go  Five  of  the  individual  storage  anplifiers  were  selected  at 
+random  for  frequency  response  tests.  All  five  were  found  to 
+have  their  pass  bands  centered  on  a  frequency  of  25.5  kc. 
+
+The  frequency  response  of  amplifier  number  41  was  selected 
+as  typical  and  is  presented  in  Fig.  45o 
+
+h.  At  frequencies  of  24«5  and  26.5  kc^  the  amplifier  response 
+was  down  0.3  db  and  3o8  db  respectively.  Specifications 
+state  that  it  shall  be  down  6  db*  See  Fig®  45o 
+
+i.  The  output  voltage  over  the  range  of  the  pass  bajid  did  not 
+vary  by  more  than  *ldb  from  the  meanj  this  variation  is 
+within  specification  limits.  See  Fig®  45® 
+
+j.  Under  conditions  of  full  gain  and  a  source  impedance  of 
+500  ohms^,  the  noise  level  of  the  majority  of  the  amplifiers 
+tested  was  within  the  specification  limit  of  0®5  volts  or 
+less.  However^,  amplifiers  numbers  21  and  31  were  found  to 
+have  noise  levels  of  0®65  and  0®55  volts  respectively® 
+
+During  these  tests  it  was  found  that  the  shielded  cable 
+capacitance  and  the  test  meter  input  capacitance  used  to 
+measure  the  output  voltages  produced  a  loading  effect  on 
+the  output  circuit  ®  All  voltage  measurements  made  were 
+taken  with  as  short,  a  cable  as  possible  but  probably  if  the 
+load  on  the  circuit  could  have  been  reduced  to  zero^  higher 
+readings  would  have  been  obtained.  ThiSj,  of  course would 
+result  in  more  of  the  units  failing  to  meet  specifications 
+due  to  an  excessive  output  noise  level. 
+
+ko  At  the  center  of  the  pass  band^  with  an  input  load  impedance 
+of  500  ohms  the  input  signal  required  to  produce  an  output 
+of  20  db  above  the  noise  level  was  four  microvolts  or  less 
+for  all  of  the  units  tested® 
+
+1®  For  the  AVC  regulation  test^  20  percent  of  the  amplifiers 
+
+were  dhecked®  Ebccept  for  amplifiers  number  11  and  number  16^ 
+the  AFC  regulated  the  output  of  each  unit  within  the  limits 
+of  ^o5  db  from,  the  mean  over  the  range  of  100  microvolts  to 
+one  volt  o  See  Fig.  46® 
+
+
+51 
+
+
+m.  Except  for  amplifier  number  11  j,  the  AVC  regulated  the 
+output  of  each  amplifier  tested  within  the  Ixnuts  of 
+
+“1  db  from  the  mean  with  an  input  of  40  microvolts.  See 
+Fig,  46. 
+
+n.  Specifications  require  the  AMS  to  be  delayed  suffici<ltttly 
+so  that  a  35-millisecond  pulse  is  not  decreased  by  more 
+than  10  percent  in  amplitude  during  the  period  of  its 
+reception. 
+
+When  the  equipment  was  operating  under  "storage"  conditions 
+anH  a  35-millisecond  pulse  was  applied  to  the  preamplifier 
+inputs  in  the  scanning  commutator  uhitj  the  pulse  amplitudes 
+from  the  storage  scanner  did  not  decrease  by  more  than  10 
+percent  except  when  the  applied  signal  was  Idss  than  -two 
+microvolts.  (See  Fig,  47.)  However,  under  these  input  con¬ 
+ditions  the  AVC  decreased  the  ac  signal  at  the  output  of  the 
+individual  storage  amplifiers  by  almost  100  percent  when  a 
+35-millisecond  pulse  was  used,  (See  Fig.  48). 
+
+As  seen  on  Fig,  U7»  the  signal  output  from  the  storage 
+scanner  under  normal  operating  conditions  was  forty  times 
+greater  than  required  to  produce  a  recognizable  display  on 
+the  PPI  GET,  This  characteristic  produced  a  very  definite 
+target  display  on  the  PPI  tube, 
+
+o.  Specifications  require  the  rectifier  and  storage  networks 
+to  discriminate  against  signals  of  longer  and  shorter 
+duration  than  35  milliseconds.  When  the  signal  was  longer 
+
+35  milliseconds,  there  was  partial  discrimination  as 
+seen  on  Fig.  49.  If  the  signal  amplitude  was  at  least  two 
+microvolts  and  the  duration  was  of  the  order  of  twice  the 
+normal  pulse  lengtii,  the  discrimination  did  not  become 
+effective  until  40  milliseconds  after  the  si^ial  was 
+initiated, 
+
+p.  The  storage  network  and  AVC  in  each  stora.ge  amplifier  did 
+not  operate  so  as  to  discriminate  against  pulses  of  shorter 
+duration  than  35  milliseconds.  See  Fig.  50. 
+
+12.  Loudspeaker,  Type  LS-168/G, 
+
+When  connected  in  parallel  to  the  nudio  output,  the  power 
+supplied  to  the  foilr  speakers  was  sufficient  for  good  aural 
+response.  The  loudspeakers  were  inoperative  when  the  head¬ 
+phones  were  used, 
+
+13.  Azimuth  Range  Indicator  (PPI),  Type  IP-95/SQS. 
+
+a.  The  remote  PPI  units  satisfactorily  repeated  all  sonar 
+information  presented  on  the  PPI  scope  in  the  Console 
+assembly,  as  well  as  cursor  information  from  the  attack 
+sonar  equipment. 
+
+
+52 
+
+
+UNCLASS IFTED 
+
+
+b.  Switching  means  were  provided  on  the  units  for  turning 
+them  on  and  off* 
+
+Co  Lighted  indicators  were  provided  on  the  units  to  show  the 
+range  scale  presented  on  the  scope o  i 
+
+do  All  necessary  scop4i-adLjus±ment  controls  were  provide®, 
+
+e.  The  QHD  systm  was  designed  to  ein  five 
+
+remote  PPI  units.  Three  were  supplied  for  this  test. 
+
+
+c-;: 
+
+r;j 
+
+r:-. 
+
+!3c--- 
+
+0‘p 
+
+<>> 
+
+l-rl 
+
+
+f’ii 
+
+
+l4o  Azimuth  Range  Indicator  (SSI),  Type  IP”96/S(^o 
+
+a.  The  remote  SSI  units  satisfactorily  repeated  all  sonar  inform 
+mation  presented  on  the  SSI  scope  in  the  Console  assemblyo 
+
+bo  Switching  means  were  provided  on  the  unit  for  turning  it  on 
+and  off, 
+
+c.  Lighted  indicators  were  provided  to  show  the  range  scale 
+presented  on  the  scope, 
+
+d.  All  necessary  scope  adjustment  controls  were  provided, 
+
+e.  The  QHD  system  was  designed  to  accommodate  from  one  to  three 
+remote  SSI  units.  One  unit  was  supplied  for  this  test® 
+
+
+15,  Headphones^  Type  CRP=-49621 
+
+The  headphones  (two  pair)  operated  properly  when  either  one 
+was  plugged  into  a  phone  jack. 
+
+
+Temperature  and 
+
+
+1,  Mechanical 
+
+
+a.  Console  Assembly  C“’706/SQS 
+
+(1)  Temperatures  No  failures, 
+
+(2)  Humiditys 
+
+Rust  on  main  framing  mainly  along  edges^  at  welded 
+joints^  in  and  around  screw  and  bolt  holes,  on  cut-out 
+for  blower  motor  exhaust  port. 
+
+East  on  top  covers  of  transformers  T-2301j,  T‘=2302, 
+T-2303j,  and  T-2304,  on  heater  element  assembly  R-2101, 
+on  cover  cap  of  P-23O3,  and  on  retainer  ring  of  indica¬ 
+tor  lamp  housings  1-2108  and  1-2109 j,  on  Allen  i^enches. 
+
+
+53 
+
+
+on  two  Allen  head  screws  of  training  handwheel  assembly, 
+on  shaft  bushing  of  training  handwheel,  on  springs  of 
+SSI  and  PPI  control  panel  cover  plate,  on  spring  of 
+SSI  cursor  adjustment  assembly,  on  the  bottom  right 
+side  of  the  switching  panel  in  the  Sweep  Generator  unit, 
+on  the  front  cross  brace  bar  of  the  chassis  slide 
+frame,  and  in  the  Timing  Unit  on  the  inserts  for  the 
+holding  screws  of  the  back  cover  plate. 
+
+Corrosion  on  the  cover  plate  of  the  110— volt  service 
+outlet. 
+
+bo  Receiver  Assembly  R-354/SQS 
+
+(1)  Temperatures  No  failures. 
+
+(2)  Humidity s 
+
+Rust  on  main  framing  mainly  along  edges,  at  welded  joints, 
+in  and  around  screw  and  bolt  holes,  and  at  cut-outs. 
+
+Rust  on  the  chassis  slide  bars  of  the  Power  Supply,  SSI, 
+Scanning  and  Listening  units,  on  the  mounting  plate  for 
+the  110-volt  service  receptacle,  on  metal  containers  of 
+C-3333s  C-3340,  C-3346,  C-3706,  L-3701,  L-3702,  L-3801, 
+L-3802,  T-3304,  T-3305,  T-3306,  T-3701,  T-3801,  Z-3303, 
+and  Z-3304* 
+
+Corrosion  on  the  angle  braces  for  the  front  cover  of  the 
+Test  Unit,  on  lock  nuts  for  the  Fusetron  holder,  on  the 
+mountings  of  F-3701,  F-3702,  R-3705,  R-3706,  and  T-3802, 
+and  on  a.n  the  hardware  of  the  SSI  receiver  chassis. 
+
+c.  Anqjlifier  Commutator  Assembly  AlI-392/SQS 
+
+(1)  Temperatures  No  failures. 
+
+(2)  Humiditys 
+
+Rust  bn  main  framing  along  edges,  in  and  around  screw  and 
+bolt  holes,  and  on  some  of  the  welded  joints. 
+
+Rust  on  base  plate  of  tube  socket  XV— 1804,  on  the  knurleiir 
+holding  bolt  for  the  relative  bearing  unit,  on  several  of 
+the  metal  containers  for  the  pulse  delay  networic  filters. 
+
+Corrosion  on  the  removable  cover  plugs  for  the  lifting 
+eye-bolt  holes. 
+
+
+54 
+
+
+iLaX4-L-^<;  V  in  Kj  n 
+
+
+d*  Servo  Amplifier  Assembly  AM-393/SQS 
+(1)  Temperatures  No  failures. 
+
+
+(2)  Humidity  s 
+
+Rust  on  main  framing  in  and  around  screw  and  bolt 
+holes,  and  on  the  majority  of  the  welded  joints. 
+
+Rust  on  the  back  plate  of  the  chassis  release  lever 
+cover  blocks,  on  the  retainer  piece  of  the  chassis 
+maintenance  lock,  on  the  housings  of  G-4202,  G-4204, 
+and  G“4207,  on  mounting  rings  of  V-41Clj  V-4102,  and 
+V~4103,  on  holding  clamps  of  0=4101  and  0-4102,  and 
+on  the  metal  cases  of  T-4301  and  T-4305* 
+
+Corrosion  on  the  removable  cover  plugs  for  the  lifting 
+eye-bolt  holes, 
+
+e.  Driver-Amplifier  AM-394/SQS 
+
+(1)  Temperatures  No  failures, 
+
+(2)  Humidity  s 
+
+Rust  on  main  framing  mainly  along  edges,  at  welded 
+joints  and  in  and  around  screw  and  bolt  holes. 
+
+Rust  on  transformer  cases  (mainly  on  top  covers)  of 
+T-802,  T-8O3,  T-804j  T-8O5  and  T-8O7,  on  supports  for 
+E-8O6,  and  on  the  laminaticns  of  the  time  meter  relay 
+K-804, 
+
+Corrosion  on  some  of  the  hardware,  on  the  air  stream 
+guides,  on  guide  pins  of  the  tube  shield  assemblj.es 
+of  V-8O3  and  V-8Q4,  and  on  the  hanger  assembly  of  the 
+blower  motor  B-8CXL, 
+
+f.  Transducer  CRP-51117-A 
+
+(1)  Temperatures  Not  tested, 
+
+(2)  Humidity s  Not  tested 
+
+g.  Power  Transfomers  CRP-301223 
+
+(1)  Temperatures  Not  tested, 
+
+(2)  Humiditys  Not  tested. 
+
+
+55 
+
+
+h.  Motoj>-Generator  Assembly  PU-200/U 
+
+Temperature  and  Humiditys  No  tests  were  made  as  the  unit 
+was  too  long  to  be  accommodated  in  the  test  chamber. 
+
+i«  Motor  Starter  Type  CAE~211981 
+
+(1)  Ten^jeratures  Not  tested. 
+
+(2)  Humiditys  Not  tested. 
+j«  R^ay  Assembly  EE~84/SQS 
+
+(1)  Temperatures  No  failures. 
+
+(2)  Humiditys 
+
+East  oh  back  mounting  strip; bolt  holes,  a  few  rust 
+spots  on  top  edge  of  C-509,  C-5IO,  G-511  and  C-512. 
+
+Corrosion  on  holding  brackets  of  C”501,  0-502,  G-5O3 
+and  0-504. 
+
+k«  Receiver-Storage  Scanner  R-522/SQS 
+
+(1)  Temperatures  No  failures. 
+
+(2)  Humiditys 
+
+Rust  on  Main  framing  mainly  at  welded  joints  and  in 
+and  around  screw  and  bolt  holes. 
+
+Rust  on  practically  all  of  the  transformer  and  filter 
+containers  in  each  amplifier  unit. 
+
+l.  Loudspeaker  LS-I68/U 
+
+(1)  Temperatures  No  failures. 
+
+(2)  Humiditys  No  failures. 
+
+m.  Azimuth  Range  Indicator  (PPI)  IP-95/SQS 
+
+(1)  Temperatures  No  failures. 
+
+(2)  Humiditys  No  failures. 
+
+n.  Azimuth  Range  Indicator  (SSI)  IP— 96/SQS  Serial  No.  1 
+(1)  Temperatures  No  failures 
+
+
+56 
+
+
+ONCLAS  S  rrttTF 
+
+
+(2)  Humidity; 
+
+
+Rust  on  chassis  slide  bar^  on  C—102  and  G“U7j 
+Allen  wrench  was  con^Jletely  rusted# 
+
+
+2*  Electrical 
+
+a#  Console  Assembly  C“706/SQS 
+
+(1 )  Temperature ; 
+
+During  the  temperature  test^  the  30“Cyd®  300— 
+
+cycle  oscillators  performed  noimially,  but  at  a_ 
+temperature  of  —20  degrees  C#  the  90— cycle  oscillator 
+operated  at  a  frequency  of  63  cycles  for  a  short  time# 
+AlsOj,  after  the  temperature  had  been  stabilized  at 
+50  degrees  C#  for  two  hours ^  the  90-cycle  oscillator 
+frequency  was  63  cycles,  and  did  not  recover  when  the 
+temperature  was  reduced  to  30  degrees  C»  During  the 
+time  that  the  90-cycle  oscillator  was  operating  at  63 
+cycles,  the  oscillator  output  voltage  decreased  to 
+about  half  the  normal  value# 
+
+During  the  tenperature  decrease  from  ambient  room 
+temperature  (approximately  24  degrees  C#)  to  -20 
+degrees  C#,  the  spiral  expand  did  not  expand  to  th® 
+end  of  the  raster  when  the  temperature  reached  0 
+degrees  C#  The  expand  lacked  about  half  an  inch 
+when  the  6000-yard  range  presentation  was  used. 
+Proportionally  smaller  amounts  of  spiral  decrease  were 
+observed  on  the  lower  range  presentations.  Although 
+the  spiral  escpand  recovered  occasionally  at  moderate 
+temperatures  (26  to  36  degrees  C»),  the  reduction 
+prevailed  throughout  the  test#  Due  to  the  lack  of 
+normal  spiral  expand  the  SQS  and  QHD  bearing  markers 
+were  short  and  sometimes  disappeared  altogether  on  the 
+6000-yard  range  presentation# 
+
+During  the  time  the  temperature  was  increased  from  -20 
+degrees  C#  to  plus  10  degrees  G#,  the  stern  mark  cursor 
+increased  in  bearing  by  about  I5  degrees# 
+
+(2)  Humidity  s 
+
+Ihen  the  equipment  was  energized  after  raising  the 
+temperature  from  10  degrees  G#  to  30  degrees  C#  and  with 
+the  humidity  at  65  percent,  the  following  failures 
+occurred S 
+
+
+There  was  no  keying, 
+
+
+UNCLASS  IF lEf 
+
+
+O 
+
+
+r;« 
+
+0[> 
+
+0("^| 
+
+
+►,  There  was  no  spiral  expand  on  the'  PPI. 
+
+>.  The  regulated  225“VOlt  supply  was  275  volts. 
+
+
+i-i-i 
+
+Tl 
+
+
+After  ten  minutes  of  operation  the  spiral  expand  recovered 
+but  the  expand  was  short  on  the  6000“yard  range  presenta¬ 
+tion* 
+
+
+After  fifteen  minutes  of  operation^  the  225“VOlt  supply- 
+recovered  along  with  the  keying,  but  the  spiral  expand 
+on  the  6000-yard  range  presentation  was  still  short* 
+
+After  a  96-hour  period  of  40  degrees  C*  and  95 
+percent  humidity^  the  equipment  was  energized  and  the 
+following  failures  occurred s 
+
+.  There  was  improper  keying  on  aU  pulse  loigths 
+
+.. .  No  spiral  expand  or  SSI  expand* 
+
+. ,  The  225  volt  regulated  supply  was  280  volts. 
+
+There  v^as  no  brighterdng  on  the  PPI  CRT  even  with 
+maximum  threshold* 
+
+The  310“Volt  regulated  supply  was  330  volts* 
+
+After  five  minutes  of  operatioi^  the  225“Volt  supply 
+had  nearly  recovered* 
+
+After  ten  minutes  of  operation  and  with  the  humidity 
+decreased  to  75  perceni^  the  keying  operated  normally* 
+Also,  the  SSI  expand  recovered,  but  there  was  no  PPI 
+expand* 
+
+Finally,  at  a  temperature  of  25  degrees  C»  and  69 
+percent  humidity,  all  sections  recovered  except  for 
+the  SQG  bearing  mark  on  the  6000-yard  range  presentation* 
+Also,  the  spiral  expand  had  become  too  large  and  had 
+to  be  readjusted, 
+
+b*  Receiver  Assembly  R-354/SQS 
+
+(l)  Scanning  Receiver  Tenperature  Tests  Both  the  broad 
+band  and  narrow  band  amplifiers  operated  normally 
+throughout  the  test* 
+
+The  amplifier  section  of  the  signal  generator  functioned 
+properly* 
+
+
+58 
+
+
+Specifications  require  that  the  ultrasonic  operating 
+frequency  of  the  equipment  shall  remain  constant  vdthin 
+0.2  percent  of  the  operating  frequency  under  any  10= 
+degree  C.  variation  in  ambient  temperature  between  the 
+limits  of  10  degrees  C.  and  55  degrees  C.  This  is 
+interpreted  to  mean  that  when  the  operating  frequency 
+is  set  at  any  one  temperature  within  this  range^  and 
+the  temperature  is  then  changed  10  degrees  C.#  that 
+the  frequency  to  which  the  system  has  drifted  is  con= 
+sidered  the  operating  frequency  for  any  further  10= 
+degree  C.  temperature  change^  even  though  the  initial 
+temperature  change  may  cause  the  system  frequency  to 
+drift  beyond  specification  limits  based  on  the  original 
+frequency.  Under  these  conditions^  the  system  frequency 
+may  drift  a  total  of  I56  cycles  in  one  direction  when 
+the  temperature  is  increased  from  20  degrees  C.  to  ^0 
+degrees  C.^  and  still  be  within  specification  limits, 
+the  limit  for  a  lO-degree  C.  temperature  variation 
+being  52  cycles. 
+
+As  seen  an  Fig.  51»  the  system  frequency  drift  was 
+nearly  wa.thin  specification  limits  as  long  as  the  tempera¬ 
+ture  change  was  held  for  less  than  one^half  hour.  If 
+the  increased  temperature  was  held  for  more  than  one- 
+half  hour,  the  frequency  drifted  well  beyond  specifica¬ 
+tion  limits.  (See  frequency  change  between  40  degree® 
+
+C.  and  50  degrees  C.  on  ’^ig.  51*)  This  was  for  operation 
+with  the  first  oscillator  tuning  reactance  "off”.  Fig. 
+
+52  shows  the  equipment  operating  frequency  drift  under 
+the  same  temperature  variation  conditions  but  with  the 
+first  oscillator  tuning  reactance  "On".  As  may  be  seen 
+from  the  graph  (Fig,  52),  the  frequency  drift  is  less 
+than  with  the  tuning  reactance  off,  but  is  still  beyond 
+specification  limits  when  the  increased  temperature  is 
+held  for  more  than  one-half  hour. 
+
+There  are  no  specifications  for  the  individual  oscilla¬ 
+tor  drifts,  but  Fig.  53  through  57  show  the  individual 
+oscillator  drifts  under  all  conditions  of  tuning 
+reactance,  and  receiving  and  transmission  time. 
+
+Fig,  57  shows  the  second  oscillator  frequency  variation 
+as  the  temperature  was  changed,  with  the  tuning 
+reactance  "on".  The  values  shown  are  not  a  true  indica¬ 
+tion  of  the  oscillator  frequency  as  its  frequen<y  varied 
+continuously  in  a  manner  as  shown  in  Figure  9.  Also, 
+notice  that  the  operating  frequency  was  approximately 
+1000  cycles  below  the  correct  second  oscillator  frequency* 
+This  erratic  operation  was  not  an  effect  of  the  temp¬ 
+erature  test  but  was  due  to  noise  in  the  listening 
+receiver  during  the  change  from  transmit  time  operation 
+to  receive  time  operation.  For  further  explanation  of 
+the  incorrect  second  oscillator  tuning  reactance  operation 
+
+
+59 
+
+
+UNCLASSIFIED 
+
+
+S6©  SSCtilOn  SL3.* 
+
+(2)  Scanning  Receiirer  Humidity  Tests  When  the  equipment 
+was  energized  after  the  temperature  increase  from  10 
+degrees  C®  to  3O  degrees  C«  and  with  90  percent  relative 
+humidity  the  following  failures  occurred s 
+
+With  the  first  oscillator  tuning  reactance  "off**, 
+the  first  oscUlator  frequency  increased  800 
+cycles*  This  was  far  beyond  the  equipment  operat¬ 
+ing  frequency  specification  limits  of  52  cycles 
+assuming  no  second  oscillator  frequency  change. 
+
+The  transmit  time  second  oscillator  frequency 
+change  amounted  to  77  cycles.  Assuming  no  first 
+oscillator  frequency  drifts  the  77“Cycle  change 
+would  produce  an  equipment  operating  frequency 
+change  of  more  than  the  allowed  52  cycles. 
+
+With  the  first  oscillator  tuning  reactance  “on", 
+the  first  oscillator  frequency  increased  almost 
+3000  cycles,  well  outside  the  proper  operating 
+region  of  the  oscillator* 
+
+With  the  second  oscillator  tuning  reactance  “on", 
+the  second  oscillator  did  not  operate  at  all.  Even 
+though  the  second  oscillator  tuning  reactance  should 
+have  had  no  effect  on  the  transmit  time  second 
+oscillator  frequency,  this  frequency  changed  more 
+than  a  thousand  cycles  with  the  tuning  reactance 
+on.  With  the  tuning  reactance  "off",  the  frequency 
+change  was  ©.nly  77  cycles  as  stated  above. 
+
+The  scanning  receiver  receiving  channels,  broad  and 
+narrow,  operated  satisfactorily  even  though  the 
+.voltage  outpnat  decreased  about  two-thirds.  This 
+was  probably  the  result  of  the  large  first  oscilla- 
+tor  frequency  change  causing  the  IF  channels  of  the 
+receiver  section  to  operate  at  an  incorrect  frequency* 
+
+The  equipment  was  energized  after  the  96-hour  period  of 
+40-degree  Go  temperature  and  95  percent  relative  humidity, 
+and  the  following  failures  occurred  in  the  Scanning 
+Receivers 
+
+With  the  tuning  reactance  “off",  the  first  oscilla¬ 
+tor  frequency  was  350  cycles  below  the  correct 
+operating  frequency.  Assuming  no  second  oscilla¬ 
+tor  frequency  drift  this  change  would  result  in  a 
+
+
+UNCLASS  f  FfF&- 
+
+
+350=cycle  equipment  operating  frequency  change, 
+well  beyond  the  allowed  52  cycles. 
+
+The  second  oscillator  transmit  time  frequency  decreased 
+200  cycles.  Assuming  no  first  osciallator  frequency* 
+drift,  the  20CH;ycle  change  would  produce  a  200-eycle 
+equipment  operating  frequency  change,  which  would  not 
+meet  specification  limits  of  52  cycles. 
+
+With  the  first  oscillator  tuning  reactance  »on",  the 
+first  oscillator  frequency  was  550  cycles  belcw  the 
+correct  frequency.  Assuming  no  second  oscillator 
+frequency  drift,  the  550-cycle  change  would  result 
+in  a  550“Cycle  equipment  operating  frequency  change, 
+which  would  not  meet  specification  limits  of  52 
+cycles • 
+
+With  the  second  oscillator  tuning  reactance  “on", 
+the  receive  tine  oscillator  did  not  operate. 
+
+Even  though  the  transmit  time  oscillations  of  the 
+second  oscillator  are  supposedly  not  controlled  by 
+the  tuning  reactance,  the  second  oscillator  during 
+transmitting  time  did  not  oscillate  at  all.  In  the 
+previous  test,  but  with  the  tuning  reactance  "off", 
+there  were  oscillations  but  of  the  wrong  frequency. 
+
+After  three  hours  at  a  temperature  of  l6  degrees  C, 
+and  a  relative  humidity  of  60  percent,  the  second 
+oscillator  recovered  and  operated  at  nearly  the 
+correct  frequency, 
+
+(3)  Listening  Receiver  Temperature  Tests  Considering  the 
+first  and  second  oscillator  frequency  changes,  the 
+Listening  Receiver  operated  normally  throughout  the 
+temperature  test, 
+
+(4)  Listening  Receiver  Humidity  Tests  No  failures, 
+
+(5)  SSI  Receiver  Temperature  Tests  No  failures, 
+
+(6)  SSI  Receiver  Humidity  Tests  No  failures, 
+
+(7)  Test  Set  Temperature  Tests  No  failures, 
+
+(8)  Test  Set  Humidity  Tests  When  thS  equipment  was  energized 
+after  the  temperature  increase  from  10  degrees  C,  to 
+
+30  degrees  C,  and  with  90  percent  relative  humidity, 
+the  Test  Set  indicating  neter  reading  was  approximately 
+
+
+6l 
+
+
+UNCLASSIFIED 
+
+
+one“tenth  of  the  correct  value# 
+
+After  the  96-hour  period  of  40  degree  G«  temperature 
+and  95  percent  relative  humidity,  the  equipment  was 
+energized  and  the  Test  Set  meter  failed  to  give  a 
+correct  reading.  Only  after  three  hours  at  a  tempera¬ 
+ture  of  l6  degrees  G.  and  a  relative  humidity  of  60 
+percent  did  the  Test  Set  recover  completely,  although 
+a  partial  recovery  was  experienced  as  soon  as  the 
+temperature  was  lowered# 
+
+#  Amplifier  Commutator  Assembly  AM-392/SQS 
+
+There  were  no  failures  in  this  assembly  during  the  tempera¬ 
+ture  and  humidity  tests# 
+
+#  Servo  Amplifier  Assembly  AIi-393/SQS 
+
+(1)  Temperature  tests  Ko  failures. 
+
+(2)  Humidity  Tests  Except  for  a  distorted  and  noisy  output 
+from  the  deflection  amplifier  when  the  equipment  was 
+energized  after  the  96-hour  period  of  40  degrees  G#  and 
+95  percent  relative  humidity,  there  were  no  failures 
+during  the  humidity  tests.  The  distortion  and  noise 
+from,  the  deflection  amplifier  disappeared  after  a  few 
+minutes  of  operation. 
+
+#  Driver-Amplifier  AM-394/SQS 
+
+(1)  Temperature  tests  Except  for  two  blown  fuses,  there 
+were  no  driver  failures  during  the  temperature  test# 
+
+The  fuse  failures  occurred  at  a  temperature  of  -20 
+degrees  C.  and  at  -10  degrees  C.,  when  the  driver  was 
+being  switched  from  low  to  high  power.  F-803  failed 
+on  both  occasions. 
+
+(2)  Humidity  tests  Since  the  driver  and  console  units  were 
+
+..  .  tested  in  the  .  chamber  at  the  same  time,  the  driver  was 
+
+not  energized  at  the  same  time  as  the  console  because 
+if  the  keying,  which  originates  in  the  console,  was 
+not  correct,  injury  to  the  driver  might  result.  Ihen 
+the  keying  had  recovered,  fifteen  minutes  after  the  con¬ 
+sole  was  energized,  the  driver  was  energized  and  fuse 
+F-801  failed.  A  new  fuse  was  installed  and  operation 
+was  normal. 
+
+After  the  96-hour  test  at  40  degrees  G#  and  95  percent 
+relative  humidity,  the  driver  could  not  be  energized 
+immediately  due  to  improper  keying  in  the  console  unit# 
+Thirty  minutes  after  the  console  was  energized  the 
+driver  was  turned  on.  When  pulsed  both  high  ■roltage. 
+
+
+62 
+
+
+•  0 
+
+
+fuses  failedj,  F-801  and  F~802.  Hew  fuses  were  installed 
+and  operation  was  normal, 
+
+f.  Trafisducer  CRP“51117“A 
+
+(1)  Temperature™-  not  tested. 
+
+(2)  Humidity  —  not  tested. 
+
+g.  Power  Transfomers  CEP-301223 
+
+(1)  Temperature  — >  not  tested, 
+
+(2)  Humidity  — ,  not  tested, 
+
+h.  Ifotor-Generator  Assembly  PU-200/U 
+
+(1)  Temperature  ■—  not  tested, 
+
+(2)  Humidity  -=  not  tested, 
+
+i.  Motor  Starter  Type  GAE-211981 
+
+(1)  Temperature  not  tested, 
+
+(2)  Humidity  not  tested, 
+
+j.  Relay  Assembly  RE-84/SQS 
+
+(1)  Temperature  tests  No  failures 
+
+(2)  Humidity  tests  No  failures 
+
+k.  Receiver  Storage  Scanner  R“522/SQS 
+
+(1)  Temperature  tests 
+
+Except  for  an  occasional  five-volt  variation  in  the 
+regulated  100-volt  supply  when  the  temperatxire  vfas 
+less  than  zero  degrees  C«j  there  were  no  failures  in 
+the  Storage  Unit  during  the  temperature  test, 
+
+(2)  Humidity  tests  When  the  equipment  was  energized  after 
+the  temperature  increase  from  10  degree  C.  to  30  degrees 
+C,  with  §0  percent  relative  humidity j,  the  following 
+failures  occurred s 
+
+The  regulated  lOO-volt  supply  was  84  volts. 
+
+The  storage  amplifiers  would  not  function. 
+
+
+63 
+
+
+HIT  jLi  0M_n 
+
+
+n  # 
+
+
+There  was  a  large  constant  signal  from  the  Storage 
+U^t  causing  an  uncontrollable  brightening  on  the 
+console  PPI  CRT® 
+
+After  fifteen  minutes  of  operation  with  85  percent 
+relative  humidity,  the  regulated  100-volt  supply 
+recovered  to  95  volts®  Operation  as  seen  by  the  PPI 
+presentation  was  near  noima],  but  the  brightening  waa 
+still  too  highs 
+
+After  twenty-two  minutes  of  operation,  the  unit 
+functioned  normallys 
+
+After  the  96-hour  period  of  40  degrees  C#  and  95 
+percent  relative  humidity  the  equipment  was  energized, 
+auid  except  for  the  regulated  100-volt  supply  being  95 
+volts  and  the  regulated  300-volt  supply  being  295 
+volts,  there  were  no  failures®  PPI  presentation  on 
+th®  Consofe  was  normal o 
+
+1®  Loudspeaker  LS-I68/U 
+
+(1)  Temperature  tests  No  failures* 
+
+.(2)  Humidity  tests  No  failures. 
+
+m®  Azimuth  Range  Indicator  (PPI)  IP-95/SQS 
+
+(1)  Temperature  tests  No  failures 
+
+(2)  Humidity  tests  No  failures* 
+
+n®  Azimuth  Range  Indicator  (SSl)  IP-96/SQS 
+
+(1)  Temperature  tests  No  failures® 
+
+(2)  Humidity  tests  No  failures. 
+
+
+V,  SHOCK  AND  VIBR.ATI(U 
+
+
+See  NHL  Memorandum  Report  No®  3S53”354A/53«. 
+
+
+rr  t  Vf—  T^U'-r-tr. 
+
+UNlLiioO  L  t  ILV 
+
+
+I 
+
+
+ILLUSTRATIONS 
+
+FOR 
+
+NRL  MEMORANDUM  REPORT  NO,  192 
+
+
+DECLASSIFIED  I  By  aathority  oC 
+
+Cite  Authority  Date 
+
+_ _ 
+
+Einter^d  by  KRL  Cod® 
+
+
+UNCLASi  IPrifiT 
+
+
+INPUT  FREOUENCr  (KC) 
+
+SCANNING  RECEIVER  FREQUENCY  RESPONSE 
+
+
+FIGURE  3 
+
+
+UT  (DB) 
+
+
+QHD  TEST 
+NRL  1953 
+
+
+BROAD  BAND-PASS  OPERATION 
+
+
+RCGUVGOFF 
+0  OB  =22.5  VOLTS 
+
+
+EQUIPMENT  OPERATING  FREQUENCY  26  KC 
+
+
+22  24  26  28  30  32  34 
+
+INPUT  FREQUENCY  (KC) 
+
+SCANNING  RECEIVER  FREQUENCY  RESPONSE 
+
+
+FIGURE  4 
+
+
+EFFECT  OF  «CG  AND  TVG  ON  SCANNING  RECEIVER  GAIN 
+
+
+QHD  TEST 
+NRL  1953 
+
+
+RELATIVE  BEARING  OF  SOUND  BEAM  (DEGREES) 
+
+
+CROSS  HATCHED  SHOWS  REGION  OF  OSCILLATION 
+
+
+OJ 
+
+cd 
+
+CNJ 
+
+
+cd 
+
+
+o 
+
+cd 
+
+OJ 
+
+
+CT> 
+
+LO 
+
+OJ 
+
+
+OO 
+
+to 
+
+OJ 
+
+
+r'» 
+
+i»Rf^ 
+
+
+Lo  ^  lo  cvj  — : 
+
+c>  o  c>  c>  o 
+
+CO  CO  CO  CO  CO 
+
+m)  AONanoBMj  yoivnioso  qnoobs  3wii3Ai303a 
+
+
+FIGURE  9 
+
+
+FREQUENCY  APPLIED  TO  LISTENING  RECEIVER  (RC) 
+
+
+LISTENING  RECEIVER  OUTPUT  (DB) 
+
+
+INPUT  FREQUENCY  (KC) 
+
+LISTENING  RECEIVER  FREQUENCY  RESPONSE 
+
+
+FIGURE  II 
+
+
+TVG  BIAS  SET  AT  ZERO  VOLTS 
+
+
+FIGURE  13 
+
+
+TIME  (SECONDS) 
+
+EFFECT  OF  RCG  AND  TVG  ON  LISTENING  RECEIVER  GAIN 
+
+
+EFFECT  OF  RCG  ANDTVG  ON  LISTENING  RECEIVER  GAIN 
+
+
+DISCRIMINATOR  CHARACTERISTICS 
+
+
+<=> 
+
+
+iHOia  Ln^ 
+
+mm  iss  Aa  aaivoiQNi  sv  mmi  saaaoaa 
+
+
+FIGURE  16 
+
+
+CHANGE  IN  INPUT  FREQUENCY  AND  AMPLITUDE 
+
+
+ALL  CONDENSERS  IN  CONDENSERS  C-808.809.8I0.8II  IN  °  CONDENSERS  C-808,809  IN 
+
+
+FIGURE  17 
+
+
+DRIVEROPERATING  FREQUENCY  (KILOCYCLES) 
+
+DRIVER  POWER  OUTPUT  OVER  OPERATING  FREQUENCY  RANGE 
+
+
+INPUT  TO  COMMUTATOR  TUBE  GRID  (MILLIVOLTS) 
+
+COMMUTATOR  TUBE  OVERLOAD  CHARACTERISTIC  WITH  THE  COUPLING  AMPLIFIER  26  KC 
+
+
+SPECIFICATION  LIMITS 
+
+
+I— rO 
+COLO 
+
+Lucn 
+
+
+FIGURE  20 
+
+
+STAVE  NUMBER 
+QHD  TRANSDUCER 
+
+IMPEDANCE  AND  PHASE  ANGLE  OF  INDIVIDUAL  STANDARD  STAVES  AT  26  KC 
+
+
+JOP  OF  TRANSDUCER 
+
+
+^  . 
+r,. 
+
+r"' 
+
+
+SOUND  RADIATION  PATTERN  OF  MCC  OPERATION.  VERTICAL  PLANE 
+TRANSDUCER  WIRES  TO  MCC  SECTION  REVERSED  TERMINALS 
+49  TO  50  AND  50  TO  49  ON  BOARD  E  1905 
+
+
+FIGURE  22 
+
+
+U  i'f  L-  L  il  0  5  i  i  IT  Lf 
+
+
+SIGNAL  AMPLITUDE  IN  DB  ABOVE  ONE  MICROBAR  AT  A  DISTANCE 
+OF  ONE  METER  WITH  ONE  AMPERE  IN  QHDTRANSDUCER 
+
+
+no  7 
+
+RESONANT  FREQUENCY  26.7KC  TRANSDUCER  Q=  28.75-251  "  “ 
+
+
+FREQUENCY  (KILOCYCLES) 
+
+
+TRANSDUCER  RESONANCE  OF  STANDARD  SECTION 
+
+
+FOR  SOUND  LEVEL  IN  MICROBARS  SEE  FIG.  NO.  25 
+
+
+r™- 
+
+cr> 
+
+<.o 
+
+I*!'’] 
+
+m 
+
+cn 
+
+
+FIGURE  26 
+
+
+HORIZONTAL  RECEIVING  BEAM  PATTERN 
+ALL  STAVES  CONNECTED  IN  PARALLEL  AIDING  OPEN  CIRCUIT 
+
+
+FIGURE  27 
+
+
+f '  t :  r*  F  4  r-  r  t  r  r*  ' 
+
+U  JN  t  L /i  i  3  1  r  1  L  y 
+
+
+RECEIVING  BEAM  PATTERN  AFTER  COMMUTATION  AS 
+APPLIED  TO  THE  LISTENING  RECEIVER  INPUT 
+
+
+FIGURE  28 
+
+
+fljiJissviiMn 
+
+
+275*  265»  255*  245*  235"  225*  215*  205"  195®  185*  175*  165* 
+
+RECEIVING  BEAM  PATTERN  AFTER  COMMUTATION  AS 
+
+
+APPLIED  TO  THE  LISTENING  RECEIVER  INPUT 
+
+
+J 
+
+
+FIGURE  29 
+
+
+RECEIVING  BEAM  PATTERN  AFTER  COMMUTATION  AS 
+APPLIED  TO  THE  LISTENING  RECEIVER  INPUT 
+
+
+FIGURE  30 
+
+
+031 JISSVIDNn 
+
+
+RECEIVING  BEAM  PATTERN  AFTER  COMMUTATION  AS 
+APPLIED  TO  THE  LISTENING  REGEIVER  INPUT 
+
+
+FIGURE  31 
+
+
+UNCfcAS-S-frlrl)- 
+
+
+RECEIVING  BEAM  PATTERN  AFTER  COMMUTATION  AS 
+APPLIED  TO  THE  LISTENING  RECEIVER  INPUT 
+
+
+FIGURE  32 
+
+
+#  • 
+
+
+95  85  75  65  55  45  35  25  15  5  0  355* 
+
+RECEIVING  BEAM  PATTERN  AFTER  COMMUTATION  AS 
+APPLIED  TO  THE  LISTENING  RECEIVER  INPUT 
+
+
+FIGURE  33 
+
+
+S  yi3M  n 
+
+
+u  Nfct  i 
+
+
+RECEIVING  BEAM  PATTERN  AFTER  COMMUTATION  AS 
+APPLIED  TO  THE  LISTENING  RECEIVER  INPUT 
+
+
+FIGURE  35 
+
+
+UNCLASSIFIED 
+
+
+STAVE*?  TRANSDUCER  AND  LENS  NETWORK  RECEIVING 
+BEAM  PATTERN  WITHOUT  COMMUTATION 
+
+
+FIGURE  37 
+
+
+nn 
+
+
+STAVE^IS  TRANSDUCER  AND  LENS  NETWORK  RECEIVING 
+BEAM  PATTERN  WITHOUT  COMMUTATION 
+
+
+FIGURE  38 
+
+
+UNCLASS  IF- 
+
+
+STAVE%  TRANSDUCER  AND  LENS  NETWORK  RECEIVING 
+BEAM  PATTERN  WITHOUT  COMMUTATION 
+
+
+FICURE  39 
+
+
+UNCLASSIFIED 
+
+
+UNCLAS 
+
+
+37  TRANSDUCER  AND  LENS  NETWORK  RECEIVING 
+BEAN  PATTERN  WITHOUT  COMMUTATION 
+
+
+STAVE  %  TRANSDUCER  AND  LENS  NETWORK  RECEIVING 
+BEAM  PATTERN  WITHOUT  COMMUTATION 
+
+
+FIGURE  43 
+
+
+SOUND  RADIATION  PATTERN  OF  MCC  SECTION  VERTICAL  PLANE 
+FOR  SOUND  LEVEL  IN  MICROBARS  SEE  PLATE  NO.  25 
+
+
+FIGURE  44 
+
+
+UNeLASSIFlfO- 
+
+
+OUTPUT  (DB) 
+
+
+r 
+
+
+INPUT  TO  STORAGE  AMPLIFIERS  (MICROVOLTS) 
+
+
+THE  33  MILLISECOND  PULSES 
+
+
+FIGURE  48 
+
+
+AG  AVC  DELAY  CHARACTERISTICS  OF  STORAGE  AMPLIFIER  =*^35 
+
+TP-4401 
+
+
+OlOCDlOOLOOlOOLOO 
+LO^^rOrOCVJOJ  —  — 
+
+
+iO£fr-diivindi(iosnoA 
+
+
+FIGURE  49 
+
+
+T - 1 - 1 - 1 — r 
+
+
+LU  I 
+CO  uj  U-l 
+
+
+o  c=>  o  o 
+
+io£t-di  IV  Indino  siiM 
+
+
+FIGURE  50 
+
+
+RECEIVER  STORAGE  AMPLIFIER  AVC  DELAY  CHARACTERISTIC 
+
+TP-4301 
+
+WITH  3.3  MILLISECOND  INPUT  PULSE  DURATION 
+
+
+FIGURE  51 
+
+
+TEMPERATURE  (DEGREES  CENTIGRADE) 
+
+TRANSMITTING  FREQUENCY  VARIATION  WITH  TEMPERATURE  CHANGE 
+
+
+o 
+
+
+oo 
+
+Cri 
+
+
+m 
+
+cq:’ 
+
+
+TEMPERATURE  (DEGREES  CENTIGRADE) 
+TRANSMITTING  FREQUENCY  VARIATION  WITH  TEMPERATURE  CHANGE 
+
+
+FIGURE  53 
+
+
+FIGURE  55 
+
+
+TEMPERATURE  (DEGREES  CENTIGRADE) 
+
+SECOND  OSCILLATOR  FREQUENCY  VARIATION  WITH  TEMPERATURE  CHANGE 
+
+
+TUNING  REACTANCE  OFF 
+
+
+SECOND  OSCILLATOR  FREQUENCY  VARIATION  WITH  TEMPERATURE  CHANGE 
+
+
+RECEIVE  TIME  OSCILLATOR  FREQUENCY  TUNED  TO  60.5  KC  AT25*C 
+TUNING  REACTION  ON,  AND  WITH  26  KC  APPLIED  TO  LISTENING  RECEIVER 
+
+
+h- rO 
+com 
+
+LUO> 
+
+
+(S310A001IV) 
+
+
+AONBOOBUJ 
+
+
+80iV1ll0S0  QNOOBS 
+
+
+FIGURE  57 
+
+
+TEMPERATURE  (DEGREES  CENTIGRADE) 
+
+SECOND  OSCILLATOR  FREQUENCY  VARIATION  WITH  TEMPERATURE  CHANGE 
+
+
+CONSOLE  ASSEMBLY 
+TYPE  c:-706/SQS 
+
+
+FIGURE  58 
+
+
+CONSOLE  ASSEMBLY 
+TYPE  C-706/SQS 
+OPEN  VIEW-BOTTOM 
+
+
+FIGURE  59 
+
+
+CONSOLE  ASSEMBLY 
+TYPE  C-706/SQS 
+OPEN  VIEW-TOP 
+
+
+FIGURE  60 
+
+
+o 
+
+
+»"'n 
+
+n;i 
+
+C5 
+
+
+RECEIVER  ASSEMBLY 
+TYPE  R-354/SQS 
+
+
+FIGURE  61 
+
+
+RECEIVER  ASSEMBLY 
+TYPE  R-354/SQS 
+RIGHT  SIDE  VIEW 
+
+
+FIGURE  62 
+
+
+SCANNING 
+
+RECEIVER 
+
+
+^TEST  SET 
+
+
+AMPLIFIER-COMMUTATOR  ASSEMBLY 
+TYPE  AM-392/SQS 
+FRONT  VIEW-OPEN 
+
+
+FIGURE  65 
+
+
+AMPLIFIER-COMMUTATOR  ASSEMBLY 
+TYPE  AM-392/SQS 
+REAR  VIEW 
+
+
+FIGURE  66 
+
+
+JISSVIDMH 
+
+
+SERVO  AMPLIFIER  ASSEMBLY 
+TYPE  AM-393/SQS 
+
+
+FIGURE  67 
+
+
+UNCLASSIFIED 
+
+
+#  • 
+
+
+C’ 
+
+
+SERVO  AMPLIFIER  ASSEMBLY 
+TYPE  AM-393/SQS 
+FRONT  VIEW-OPEN 
+
+
+FIGURE  68 
+
+
+SONAR  DRIVER-AMPLIFIER 
+TYPE  AM-394/SQS 
+
+
+FIGURE  69 
+
+
+SONAR  DRIVER-AMPLIFIER 
+TYPE  AM-394/SQS 
+FRONT  VIEW.OPEN 
+
+
+FIGURE  70 
+
+
+POWER  TRANSFORMER 
+TYPE  CRP-301223 
+
+
+FIGURE  72 
+
+
+m 
+
+o 
+
+
+MOTOR  STARTER 
+TYPE  CAE-211981 
+
+
+FIGURE  74 
+
+
+MOTOR  STARTER 
+TYPE  CAE-211981 
+OPEN  VIEW 
+
+
+L 
+
+
+FIGURE  75 
+
+
+NCLASSIFIED 
+
+
+•» 
+
+
+RELAY  ASSEMBLY 
+TYPE  RE-84/SQS 
+
+
+a 
+
+
+FIGURE  76 
+
+
+UNCLASSIFIED 
+
+
+BELAY  ASSEMBLY 
+TYPE  RE-84/SQS 
+OPEN  VIEW 
+
+
+FIGURE  77 
+
+
+0 
+
+
+RECEIVER- STORAGE  SCANNER  ASSEMBLY 
+TYPE  R-522/SQS 
+
+
+FIGURE  78 
+
+
+UNCLASSIFIED 
+
+
+RECEIVER-STORAGE  SCANNER  ASSEMBLY 
+TYPE  R-522/SQS 
+FRONT  VIEW-OPEN 
+
+
+FIGURE  79 
+
+
+UNCLAS  S  if  I 
+
+
+♦ 
+
+
+LOUDSPEAKER  UNIT 
+TYPE  LS.168/U 
+
+
+FIGURE  80 
+
+
+U  N  CLii  5  Sit  1 1  ij 
+
+
+AZIMUTH  RANGE  INDICATOR 
+TYPE  IP-95/SQS 
+(REMOTE  PPI) 
+
+
+FIGURE  81 
+
+
+li  NCLAS  S  I  rfti/' 
+
+
+n  1 
+
+
+AZIMUTH  RANGE  INDICATOR 
+TYPE  IP-96/SQS 
+(REMOTE  SSI) 
+
+
+FIGURE  S3 
+
+
+UNCLASSIFIED 
+
+

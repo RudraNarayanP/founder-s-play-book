@@ -1,0 +1,9 @@
+{
+ "identifier": "08C-09",
+ "url": "https://archive.org/download/08C-09/08C-09_djvu.txt",
+ "fetched": "2026-10-06T12:01:50Z",
+ "bytes": 134342,
+ "route": "download/<id>/08C-09_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

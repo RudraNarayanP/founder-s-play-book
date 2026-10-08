@@ -1,0 +1,1117 @@
+SEOURITV lISfF-ORIS/lATIOrvj 
+
+unclassified* 
+
+
+CoKT ^ / 
+RM L-^gHOla 
+
+
+
+
+
+RESEARCH MEMORANDUM 
+
+CLASSIFICATION CIIANGS 
+
+
+TO *1 3NCLASS igrep_, 
+
+By Authciity ottX^9ZZL 
+Cbanged by*-Ss5is==i-- 
+
+
+Date^ 
+
+
+STRUCTURAL VULNERABILITY OP IHE BOEING B-29 AIRCRAFP 
+WING TO miSkGE BY WARHEAD FRA04EHTS 
+By Eldon E. Kbrdes and William J- O'Sullivan, Jr. 
+Jiangley Aeronautical Laboratory 
+
+
+Langley Field, Va. 
+
+library COP^ 
+
+For Eeference 
+
+1 MB M 1992 
+
+
+KCO? TO BE ■ESKEN THIS BOCM 
+
+UN^EY research utniER 
+UBRARYNASA 
+
+HAMPTON. VIRGINIA 
+
+
+
+Restriction/Classification 
+
+
+Ttda matarlal contains ln£»iii«tloaa/^onr'ollorl 
+of tl» eaplonaga laws, Tltls 18, lUClieu 
+
+maimer to an unauthorized parson Is p 
+
+
+k 1 States within tbs meaning 
+r revelatk>n of wMch. In any 
+
+
+NATIONAL ADVISORY COMMITTEE 
+FOR AERONAUTICS 
+
+WASHINGTON 
+
+UNCLASSIFIED 
+
+
+-9 
+
+• • • 
+• • • 
+• •• 
+
+
+• • 
+
+• ••• 
+
+• • • 
+• • • 
+
+• • •• 
+
+• • • 
+
+• • 
+
+
+NACA EM L52H01a 
+
+NATIONAL ADVISORY COMMITTEE FOR AERONAUTICS 
+
+RESEARCH MEMORANDUM 
+
+STRUCTURAL VULNERABILITY OF THE BOEING B-29 AIRCRAFT 
+WING TO DAMAGE BY WARHEAD FRAGMENTS 
+By Eldon E. Kordes and Willlajn J. 0* Sullivan^ Jr. 
+
+
+
+SUMMARY 
+
+
+An elementary type of analysis has heen used to determine the amount 
+of wing tip that must be severed to produce irrevocable loss of control 
+of a B -29 airplane. The remaining inboard structure of the Boeing B-29 
+wing has then been analyzed and cuirv^es are presented for the estimated 
+reduction in structural strength due to four general types of damage pro- 
+duced by rod-type warhead fragments. The curves indicate the extent of 
+structural damage required to produce a kill of the aircraft within 
+10 seconds. 
+
+
+INTRODITCTION 
+
+
+In the problem of defense against attacking bomber aircraft, it is 
+desirable that the elimination of the bomber as a threat be accomplished 
+quickly and be evident promptly after defensive action is undertaken in 
+order to minimize the expenditure of antiaircraft weapons. Failure to 
+destroy the aircraft quickly Increases the radar tracking time and thus 
+results in a defensive system that may be saturated by a mass bomber 
+attack so that defensive ability is lost. The employment of warheads 
+producing large fragments, such as the rod type, capable of inflicting 
+severe structural damage to bomber aircraft may afford the desired quick 
+kill detectable by radar tracking. 
+
+The vulnerability of bomber aircraft to gunfire, blasts, and rockets 
+has been investigated experimentally and reported in references 1 to 4. 
+
+Not all these experimental results, however,, can be extrapolated to assess 
+the effectiveness of large fragments, such as the rod type. The objective 
+of this report is the determination of the reduction in structural strength 
+produced by narrow cuts of various lengths in the wing structure of a 
+Boeing B-29 bomber and the determination of the structural members that 
+must be severed to produce a quick structural kill. The problem of evalu- 
+ating the vulnerability of the Boeing B-29 bomber to a quick structural 
+
+
+UNCLASSIFIED 
+
+
+2 
+
+
+NACA RM L52E01a 
+
+
+f 
+
+
+I 
+
+
+• • 
+•• 
+
+
+• •• 
+
+• • 
+• • 
+
+
+kill is herein considered resolvable into two parts: first, determina- 
+
+tion of the minimum aerodynamic damage that must be inflicted to produce 
+irrevocable loss of control j second, determination of the severity of 
+structTiral damage required to cause structural failure in order to pro- 
+duce the minimum or greater aerodynamic damage. The severity of struc- 
+tural damage has been evaluated in terms of the length of cut in the 
+structure and the structural members that are severed. 
+
+
+b 
+
+
+
+I 
+
+L 
+
+L2 
+
+^1 
+
+^2 
+
+M 
+
+P 
+
+q 
+
+s 
+
+T 
+
+
+SYMBOLS 
+
+undamaged wing span, ft 
+
+rolling -moment coefficient of one aileron per unit of aileron 
+deflection, l/ deg 
+
+chord of box beam, ft 
+
+average chord of box beam, ft 
+
+section moment of inertia, in. 
+
+effective length of cut, ft 
+
+lift of one -half of undamaged wing, lb 
+
+lift on damsLged half of wing after severance of tip and before 
+restitution of total wing lift to its original value, lb 
+
+distance from plane of symmetry to center of lift of one -half 
+of undamaged wing, ft 
+
+distance from plane of symmetry to center of lift of damaged 
+half of wing after severance of wing tip, ft 
+
+bending moment, lb -in. 
+
+load, lb 
+
+dynamic pressure, Ib/sq ft 
+area of undamaged wing, sq ft 
+torque, lb -in. 
+
+
+
+
+
+NACA RM L52H01a 
+
+
+3 
+
+
+t 
+
+skin thickness, in. 
+
+
+
+yi 
+
+distance from plane 
+
+of symmetry to tip 
+
+of 
+
+^2 
+
+distance from plane 
+
+of symmetry to tip 
+
+of 
+
+5a 
+
+aileron deflection. 
+
+deg 
+
+
+cr 
+
+stress, Ib/sq in. 
+
+
+
+T 
+
+shear stress, Ib/sq 
+
+in. 
+
+
+
+■undamaged wlng^ ft 
+damaged wing^ ft 
+
+
+AERODYNAMIC ESTIMAOJES 
+
+
+The minimum aerodynamic damage corresponding to tracking radar- 
+evidence of kill of the bomber is considered to be that -which just pro- 
+duces irrevocable loss of control. It is assumed that in order to estab- 
+lish evidence of loss of control the radar -will continue to track the 
+bomber for a period of about 10 seconds after varhead explosion. The 
+period of 10 seconds is considered to be adequate for the aerodynamic 
+damage to be treated on the basis of static stability rather than neces- 
+sitating dynamic -stability considerations. It is recognized that sever- 
+ance of a wing tip by fragments from a warhead leaves the damaged wing 
+with a tip that is probably very ragged. This condition precludes the 
+possibility of all but the crudest of aerodynamic calculations .and there- 
+fore justifies tne approximations employed in the following estimations. 
+
+Selection of flight condition .- It is presiamed that defensive action 
+against the approaching bomber is capable of being undertaken at a range 
+such that the bomber has not yet entered into the over-target bosibing 
+run. Accordingly^ the bomber is assumed to be flying at maximum airspeed 
+in order to minimize the time, that it is -within reach of antiaircraft fire. 
+The airspeed operational limits employed in the aerodynamic and structiiral 
+design of the subsonic B -29 airplane are specified in terms of equivalent 
+airspeed^ thus^ the need for assumption of an altitude of the approaching 
+bomber is eliminated. The assumed weight of the bomber is that of full 
+bomb load and partial fuel load. This choice of loading results in a 
+realistic flight condition for the bomber approaching the target area 
+and this condition is approximated by design condition E^ positive low 
+angle "of attack, of reference 5^ ^or which condition the equivalent air- 
+speed is 3^5 miles per hour and the gross weight is 103,000 pounds. 
+
+Rolling moment produced by loss of wing tip .- A wing panel is con- 
+sidered in the aerodynamic estimates to consist of all wing plan-form area 
+lying to one side of the plane of symmetry, including the aileron and the 
+
+
+k 
+
+
+NACA HM L52H01a 
+
+
+area blanketed by the fuselage and nacelles^ as shown in figure 1. 
+Severance of one wing tip is assumed to produce on the damaged wing 
+panel a spanwise contraction of the lift distribution without altering 
+the spanwise lift distribution of the undamaged wing panel. The con- 
+traction is assumed to be such that the local lift per unit of span at 
+any given fraction of the span of the damaged panel is equal to the local 
+lift per unit of span at the same fraction of the span of the undamaged 
+panel. The span^ lateral center of lift, and lift of the damaged wing 
+panel before and after severance of the tip are then related by 
+
+
+
+( 1 ) 
+
+
+The total lift of the damaged wing is then 
+
+
+^1 ^2 
+
+
+- 
+
+
+and its rolling moment is 
+
+
+Li^i - L2l2 = 
+
+
+
+It is next assumed that, by an increase of the angle of attack, the lift 
+of the dametged wing is restored to that carried by the wing before sever- 
+ance of the tip. The factor by which the lift is increased is then 
+
+
+^^1 
+
+^1 ^2 
+
+
+
+When it is assumed that restoration of lift does not further alter the 
+lateral center of lift on each wing panel, the damaged-wing rolling 
+32ioment is increased by this same factor so that the rolling moment of 
+the damaged wing with restored lift is 
+
+
+NACA RM L52H01a 
+
+
+5 
+
+
+2Lili 
+
+
+
+1 
+
+
++ 
+
+
+
+
+For the assumed flight conditions, the term 2Li is the weight of the 
+
+aii^lane which is 103,000 pounds, and the location of the lateral center 
+of lift Z2. is found from reference 5 "to he 30*6 feet. The rolling 
+moment of the damaged wing in pound-feet is then 
+
+
+3,151,800 
+
+
+
+( 2 ) 
+
+
+Restoring momeiit produced by ailerons .- It is tentatively assumed, 
+and later verified, that the amount of wing tip that must he severed 
+from one wing panel before irrecoverable loss of lateral control is 
+incurred is s\ifficient to include the entire aileron of the damaged wing 
+panel. Accordingly, it is assumed that the available aileron restoring 
+moment is that produced by the one remaining aileron when fully deflected. 
+The rolling moment produced by one aileron can be written as 
+
+
+
+
+( 3 ) 
+
+
+From unpublished measurements of abrupt aileron rolls performed with a 
+B -29 airplane and calculated values of wing damping -moment coefficient 
+in roll obtained by the method of reference 6, the value of for 
+
+one aileron is estimated to be O.OOO 818 . For the assumed flight condi- 
+tion and full aileron deflection of 17 « 5 ^^ the restoring rolling moment 
+obtainable from one aileron is calculated to be 1 , 055^000 pound-feet. 
+Attainment of this aileron rolling moment is contingent upon severance 
+of the wing tip without jamming or destruction of the aileron actuating 
+mechanism of the remaining aileron, and the existence of control forces 
+on the remaining aileron that are within the physical capabilities of 
+the pilot. Each aileron is actuated by a separate control cable. The 
+ailerons are individually trimmed to float in neutral position in the 
+event of severance of the actuating cables. Unpublished flight tests 
+
+
+6 
+
+
+HACA RM L52H01a 
+
+
+\ • 
+• • 
+• • 
+
+
+• •• 
+
+• • 
+• • 
+
+
+• • 
+
+• • • 
+• • 
+
+
+indicate that under the assumed flight conditions the control force 
+produced by full deflection of one aileron is well within the physical 
+capabilities of the pilot. Attainment of the above aileron rolling 
+moment is thus practical. 
+
+Restoring moment produced by dihedral effect .- By deflection of 
+the rudder the airplane can be yawed and a restoring rolling moment 
+achieved from the dihedral effect. The attainable rudder deflection : 
+
+and the dihedral rolling moment in terms of an equivalent aileron deflec- 
+tion can be estimated from unpublished measurements obtained in steady * 
+
+sideslips with a B-29 airplane. From these measurements it is estimated 
+that for the undamaged airplane under the assumed flight conditions the 
+rudder force per unit rudder deflection is about 90 pounds per degree, : 
+
+the rudder force per unit sideslip angle is about I 80 pounds per degree, 
+and the equivalent aileron deflection of a single operable aileron per I 
+
+unit of sideslip angle is about 2.0° per degree. From measurements of 
+control forces applied by pilots it is reasonable to assume that a pilot 
+can apply for a period of 10 seconds a rudder force of 3 OO pounds. , 
+
+When aid of the copilot is assumed, the total applied rudder force is i 
+
+taken as 6 OO pounds so that a rudder deflection of 6 . 66 ° results. It * 
+
+is thus evident that the amount of dihedral rolling moment that can be 
+produced is limited by the rudder control forces rather than by the 
+available rudder deflection which is about 17^. The angle of sideslip * 
+
+produced by 6 OO pounds rudder force is about aJid the equivalent 
+
+deflection of a single aileron is about 6 . 66 °. For the assumed flight I 
+
+condition the dihedral restoring moment for the undamaged airplane is 
+then computed by formula ( 3 ) to be 401,500 pound feet. ■ 
+
+The dihedral restoring moment of the damaged airplane with severed 
+wing tip may be approximated in the following manner: For an airplane j 
+
+like the B-29 having constant dihedral angle along the wing span, the 
+spanwise lift distribution produced by the dihedral effect is theoreti- 
+cally equivalent to a positive change of Incidence of one wing panel and 
+an equal and opposite change of Incidence of the opposite wing panel. i 
+
+Accordingly, the dihedral rolling moment of the undamaged airplane may 
+be written as ■ 
+
+
++ ^^ 2.^1 “ ^ ^^ 1^1 
+
+
+and that of the airplane with severed wing tip as 
+
+
+[ 
+
+ATi2^^ 
+
+
+NACA RM L52H01a 
+
+
+7 
+
+
+• • • 
+• • • 
+• •• 
+
+
+• • 
+
+• ••• 
+
+.• • • 
+• • • 
+
+• • •• 
+
+: • •• 
+
+
+so that the ratio ot the dihedral rolling moments of the damaged and 
+undamaged airplanes is 
+
+
+2 AL^^Zi 
+
+
+In accordance with the assumption of equation (l)^ 
+
+
+72 Z 2 AL 2 
+
+73_ Z^ AL3_ 
+
+
+from which by substitution the ratio of the dihedral moments becomes 
+
+
+
+2 
+
+
+The approximate restoring rolling moment attainable on the damaged air- 
+plane as a function of amount of severed wing tip is _tben 
+
+
+401,500 
+
+
+
+
+
+Amount of severed wing tip producing irrevocable loss of control , - 
+Equating the rolling moment produced by severance of a wing tip to the 
+restoring moment attainable by full deflection of the remaining aileron 
+and the attainable restoring dihedral moment yields for the assumed 
+fligiit condition the amount of wing tip that must be severed before there 
+ensues irrevocable loss of control, or 
+
+
+3,151,800 
+
+
+
+= l,0p5,000 + 401,500 
+
+
+
+Therefore — = O. 58 . The B-29 airplane semispan is 85 O inches. The 
+^1 
+
+outboardmost point of severance producing irrevocable loss of control 
+is then 493 inches from the plane of symmetry, or about I 7 inches inboard 
+of the inboard end of the aileron. 
+
+
+8 
+
+
+KACA RM L52H01a 
+
+
+STRUCTURAL ESTIMATES 
+
+
+The primary wing structiore of the B-29 is a two -spar box with 
+li^t cover skin reinforced with Large hat-type stiffeners. The lower 
+spar caps on both the front and rear spars contribute as much as one- 
+third of the tension-carrying material on the inboard wing panel (sta- 
+tion 0 to 510) because of the wheel-well cutout and. the fuel cell access 
+panels. The wing leading and trailing edges contribute very little to 
+the strength of the wing and hence are not considered in the estimates 
+for the reduction in stiructural strength due to cuts made by warhead 
+fragments. 
+
+Since the aerodynamic estimates indicate that it is possible for 
+the B -29 airplane to fly with the outboard H-2 percent of the span of 
+one -half of the wing removed^ only the inboard panel from station 0 to 
+510 is evaluated for reduction in structural strength. 
+
+In a study of this type, the infinite number of possible combina- 
+tions of rod size, length, orientation, relative position of warhead at 
+time of blast, path of fragments through the structure and possible 
+additive effects of several cuts ’makes the problem of a complete struc- 
+tural analysis for all combinations practically impossible. Thus the 
+following simplifying assumptions have been made and in view of the 
+over-all uncertainties they are belle-ved to be Justified. 
+
+Assumptions .- The assumptions are as follows; 
+
+( 1 ) The inner-wing panel (station 0 to 510) is divided into four 
+bays that are approximately constant in structural configuration and/or 
+net wing loading. The extent of each bay is shown in figure 1 and the 
+net wing loading of Ig for design condition E, positive low angle of 
+attack, (see ref. 5) is given in figure 2. The bays are designated 
+
+(a) Station k2 to I 36 . This bay extends from the fuselage 
+Jxmction to the wheel-well cutout. 
+
+(b) Station I 36 to 202. This bay Includes the wheel-well cut- 
+out and the Inboard engine mount. 
+
+(c) Station 202 to 370 • This bay extends from oufboard of the 
+wheel well to the outboard engine. 
+
+(d) Station 370 to 510 . This bay extends from the outboard 
+engine to the inboard end of the aileron. 
+
+( 2 ) The structural stability under combined loads must "be considered 
+as well as the mem’ber stress developed after damage. 
+
+
+NACA RM L52H01a 
+
+
+9 
+
+
+(3) The rod fragments are assumed to originate at infinity and to 
+he capable of cutting completely through any memher or members of the 
+primary wing stincture. The path of the fragment is taken to be per- 
+pendicular to the plane of the wing. 
+
+(4) All estimates of the reduction in structural strength are based 
+on single rods of various lengths each cutting the undamaged wing. 
+
+(5) All cuts that are parallel to the wing spars are considered to 
+inflict zero damage to the primary wing structure unless a rib is cut. 
+
+(6) The chordwise position of the cut between spars is assumed to 
+be \inimportant j only the amo\mt of stressed material removed is of 
+primary importance . 
+
+(7) If the cut does not include a rib or spar^ the extent of damage 
+to the cover sheet and stringers is equivalent to a chordwise cut equal 
+to the projected length of the actual cut. 
+
+Types of damage .- Because of the random nature of the cut orienta- 
+tion relative to the wing chord and the foregoing assumptions^ it was 
+felt advisable to consider only the fo3J_owing general types of damage 
+for this investigation: 
+
+(1) Various length continuous chordwise cuts through both the upper 
+and lower cover sheets and stringers. Each cut is considered to be 
+centered between the spars. (See fig. 3(a).) 
+
+(2) Various length continuous cuts through one rib and both upper 
+and lower cover sheets. Each cut is assumed to be centered on the rib 
+and at a slight angle to the plane of the rib. (See fig. 3("b)*) 
+
+(3) A cut through either the front or rear spar. This damage is 
+considered to sever completely the upper and lower spar caps and the 
+web. (See fig. 3(c).) 
+
+(4) A cut through one spar and one rib. This cut is considered to- 
+be located near the rib-spar Junction but does not include any stringers. 
+(See fig. 3(d).) 
+
+Estimates of the reduction in structural strength . - The amount of 
+work Involved in making a complete structural analysis of the B-29 air- 
+plane to include the types of deumage listed above and the possible com- 
+binations of this damage would be several times the work required for 
+the original stress analysis of the B-29. Therefore^ the following 
+estimates in the reduction in structural strength of the primary wing 
+structure of the B-29 deduced from elementary calculations and 
+engineering Judgment. 
+
+
+10 
+
+
+NACA RM L52H01a 
+
+
+The results or the InvestigatiorL are given in fig\ire h as the esti- 
+mated reduction in structural strength for the four types of damage 
+considered. A "brief discussion of the analysis procedure and sample 
+calculations for bay (a) (station k2 to 136 ) are presented in the appendix. 
+
+Although the results presented herein do not include analyses of the 
+fuselage and tail surfaces^ it is believed that, because of similar con- 
+struction of the vring and tail surfaces, the results presented for the 
+wing will generally apply to the tall as regards structural damage . For 
+the fuselage, it is felt that approximately 50 percent of the structural 
+material must be removed from a section of the fuselage, excluding the 
+bomb-bay region, to cause structural failure. 
+
+
+DISCUSSION OF RESULTS 
+
+
+From the results shown in figure 4, the following general observa- 
+tions can be made: 
+
+( 1 ) A 10-second structural kill of the airplane cannot be obtained 
+by a full chordwise cut. through the cover sheets and stringers. TMs 
+result is obtained because the spar flanges will behave as short columns 
+across the cut and are capable of carrying load well above the yield 
+stress of the material. The lower spar flanges alone are capable of 
+carrying the tension load. The spar webs are capable of carrying the 
+vertical shear load plus the torsion load in vertical shear. The margin 
+of strength remaining after a full chordwise cut, however, is small 
+enough that other factors such as a deflection of the aileron may be 
+enough to cause failure. 
+
+( 2 ) A cut through one rib and the cover sheets and stringers can 
+produce a 10-second structural kill of the airplane. Damage to a rib 
+effectively Increases the rib spacing so that, if enough cover sheet 
+and stringers are cut, the upper spar flanges can buckle. There is also 
+an appreciable reduction in torsional strength due to damage to a rib 
+and adjacent cover sheet. 
+
+( 3 ) The cutting of one spar can produce a 10-second structural kill 
+only at a section with a large cutout. At a section with a cutout, the 
+one remaining spar and one cover sheet and’ stringers will be structurally 
+unstable under the combined Ig loads. If the spar is cut at a section 
+without a cutout, the cover ^eets and stringers are capable of trans- 
+ferring the spar loads aroimd the cut. 
+
+(4) A 10-second structural kill can be obtained by cutting one spar 
+and one rib. The cutting of either rib adjacent to the spar cut prevents 
+
+
+NACA RM L52H01a 
+
+
+11 
+
+
+the transfer of spar loads around the cut and^ in addition, increases 
+the effective rib spacing and allows the undajmaged spar and cover sheets 
+to become less stable. 
+
+The reductions in structural strength shown in figure h. can be 
+added to a certain extent to obtain a measure of the total damage 
+although most of the effects of the cuts cannot be added in a 1:1 ratio. 
+In general, the extent to which the damage is additive can be stated 
+as follows ; 
+
+(1) The cuts must be in a section between two ribs if the ribs are 
+undamaged. 
+
+(2) Damage to the cover sheets and stringers is additive only to 
+the extent that common stringers are not cut. 
+
+(3) Damage to a spa:r and to the cover sheets and stringers are 
+additive between ribs, particularly if the cover damage is extensive 
+or near the spar cut. 
+
+(4) . In general, the effect of damage between two undamaged ribs 
+is additive but reasonable care must be taken in determining the con- 
+tribution of each cut to the over-all reduction in structural strength. 
+
+Throughout this investigation, no consideration has been given to 
+the redistribution of the spanwise loadings due to a change in angle of 
+.attack caused by damage to the wing structure. Changes in the air load 
+are produced by some types of damage, particularly damage to the spars. 
+
+
+CONCLUDING REMARKS 
+
+
+It has been found by an elementary type of aerodynamic analysis 
+based on static -stability consideration that at least 42 percent or 
+29.7 iest of the tip of one wing panel including the entire aileron 
+must be removed in order to produce irrevocable loss of control of the 
+Boeing B-29 airplane. The remaining inboard part of the wing panel has 
+been considered to be the region in which structural failure must occur 
+to produce a kill of the aircraft within 10 seconds. This inboard part 
+of the Boeing B-29 aiirplane wing was considered to be damaged by rod- 
+type warhead fragments and the main wing structure was analyzed to obtain 
+the estimated reduction in structural strength due to four general types 
+of damage produced by the rod fragments. The extent to which structural 
+strength is reduced by the assumed types of damage has been estimated by 
+engineering judgment and elementary calculations. 
+
+
+
+12 
+
+
+NACA RM L52H01a 
+
+
+The results of the structural analysis indicate that the Boeing B-29 
+airplane wing is relatively invulnerahle to 10 -second-kill damage to the 
+structure by rod-type fragments. In general, \inless a spar is cut the 
+damage must effectively encompass n~l 1 structural material between spars. 
+
+
+Langley Aeronautical Laboratory, 
+
+National Advisory Committee for Aeronautics, 
+Langley Field, Va. 
+
+
+Eldon E. Kordes 
+
+Aeronautical Re search. Scientist 
+
+
+
+Approved: 
+
+Chief of Structures Research Division 
+
+
+
+Chief 
+
+
+
+
+
+Joseph A. Short al 
+tless Aircraft Research Division 
+
+
+JLC 
+
+
+NACA RM L52H01a 
+
+
+13 
+
+
+APPENDIX 
+
+
+SAMPLE CALCULATIONS FOR BAY (a) 
+
+If all the cover sheets and stringers between spars are cut, the 
+torque must be carried by the spar webs and flanges as vertical shear. 
+The net' beam shear and net torque at station 100 for Ig loading are 
+
+T = 4-70,000 lb /in. 
+
+Pg = 20,000 lb 
+
+If the shear and torsion are assumed to be distributed to the spars as 
+shown in the follow^'ng sketch 
+
+
+
+Ik 
+
+
+NACA RM L 52 H 01 a 
+
+
+If the shear is carried by the spar webs only 
+
+
+Tt = Ib/in. (front spar) 
+
+
+Shear stress on front spar web 
+
+
+r =. = 6,1+00 Ib/sq in. 
+
+0.072 ^ ^ ^ 
+
+
+and the allowable shear stress (ref. 5) is 2i^',800 pounds per square inch. 
+Therefore, the shear web is not critical. 
+
+When the same configuration as shown in the preceding sketch is used, 
+the stresses in the spar flanges due to the combined action of beam and 
+chord bending moments are determined as follows: 
+
+= 9.76 X 10^ Ib-ia. 
+
+Me = -620,000 Ib-ln. 
+
+
+Ix = 1^570 
+
+
+ly = 63,850 in.^ 
+
+^y 
+
+
+For flange A (compression) 
+
+
+a = 55,^0 Ib/sq in. 
+
+
+NACA RM L52H01a 
+
+
+15 
+
+
+For flange B (compression) 
+
+
+cr = ^ 3^500 I’b/sq in. 
+
+
+For flange C (tension) 
+
+
+cr = l4,800 Ib/sq in. 
+
+
+For flange D (tension) 
+
+
+a = 13^000 Ib/sq in. 
+
+
+If the yield stress of the flange material is assumed to be the 
+upper limit of the structural, strength^ the two upper flanges are above 
+the critical stress. Although the stresses in the upper flanges are 
+above the yield stress of the material^ the flanges act as short columns 
+across a narrow slit and hence can carry the load without buckling. 
+
+
+l6 
+
+
+WACA RM L52H01a 
+
+
+REFERENCES 
+
+
+1. Weiss^ Herbert K. , and Stein, Arthur: Airplane Vulnerability and 
+
+Overall Armaioent Effectiveness. Memo. Rep. No. k€2f Ballistic 
+Res. Lab., Aberdeen Proving Grounds, May 21, 19^7 • 
+
+2. Sperrazza, Joseph; Vulnerability of B-29 Aircraft to Internal Blast. 
+
+Memo. Rep. No. kSO, Ballistic Res. Lab., Aberdeen Proving Grounds, 
+Apr. 27, 1949. 
+
+3. Robins, Alexander: Evaluation of Damage to B-29 Inner-Wing Panels 
+
+Caused by the 2.75-Inch Folding -Fin Aircraft Rocket. NAVORD 
+Rep, 1902, 'NOTS L26, U. S. Naval Ordnance Test Station, Inyokem, 
+Calif., Aug. 21, 1951. 
+
+i)-. Robins, Alexander: Evaluation of Damage to B-29 Aircraft Structure 
+
+Caused by the 2.75-Inch Aircraft Rocket. NAVORD Rep. 1928, 
+
+NOTS 459 j U. S. Naval Ordnance Test Station, In3rokem, Calif., 
+
+Nov. 27, 1951. 
+
+5. Kruchek, K. : Wing Stress Analysis. Vol. I, Rep. No. B-hk&Sf Boeing 
+
+Aircraft Co . , Aug . 19^3 • 
+
+6. Pearson, Henry A., and Jones, Robert T. : Theoretical Stability and 
+
+Control Characteristics of Wing With Various Amoimts of Taper and 
+Twist. NACA Rep. 635, 1938. 
+
+
+• • • 
+
+• • • 
+
+• •• 
+
+• 
+
+• ••• 
+
+• • • 
+
+• • • 
+
+• • •• 
+
+• • • 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NACA RM L52H01a 
+
+
+
+•«•••: 
+
+
+•• •• 
+
+; • .• 
+
+
+INDEX 
+
+
+Subject 
+
+
+Airplanes - Specific Types 
+Stability and Control 
+Structures 
+
+
+Number 
+
+
+1.7.1 . 2 
+1.8 
+4.3 
+
+
+ABSTRACT 
+
+
+An elemental^ type of analysis has been used to determine the 
+amoiint of wing tip that must be severed to produce irrevocable loss of 
+control of a B-29 airplane. The remaining inboard structure of the 
+B -29 wing has then been analyzed and curves are presented for the esti- 
+mated reduction in structural strength due to four general types of 
+damage produced by rod-type warhead fragments. The curves indicate the 
+extent of structural damage required to produce a kill of the aircraft 
+within 10 seconds. 
+
+
+
+
+I 
+
+
+UNCLASaHEEU- 
+
+
+
+
+
+
+
+
+

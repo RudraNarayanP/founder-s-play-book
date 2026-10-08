@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000101829/000010182919000024/a2019-06x25form8xkothereve.htm",
+ "fetched": "2026-10-06T11:55:28Z",
+ "sha1": "01821707e1a0afc661807dffbc9e5460bb191912",
+ "bytes": 7010,
+ "words": 418,
+ "cik": "0000101829",
+ "registrant": "RTX Corp",
+ "accession": "0000101829-19-000024",
+ "document": "a2019-06x25form8xkothereve.htm",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

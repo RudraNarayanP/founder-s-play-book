@@ -1,0 +1,21 @@
+phillips66     p1=0 p2=0 floor=2011-11-14 no document stored; probes must cite the measured floor, not a null; identity guard refused the write; resolve the CIK by hand
+marathon       p1=25 p2=0 floor=2011-01-25 
+stonex         p1=5 p2=0 floor=1996-05-09 
+statefarm      p1=0 p2=0 floor= no document stored; probes must cite the measured floor, not a null; identity guard refused the write; resolve the CIK by hand
+freddiemac     p1=0 p2=0 floor= no document stored; probes must cite the measured floor, not a null; identity guard refused the write; resolve the CIK by hand
+humana         p1=0 p2=26 floor=1994-02-01 
+att            p1=0 p2=0 floor=1994-02-14 no document stored; probes must cite the measured floor, not a null; identity guard refused the write; resolve the CIK by hand
+goldman        p1=0 p2=29 floor=1998-08-24 
+comcast        p1=0 p2=30 floor=2002-02-11 
+wellsfargo     p1=0 p2=0 floor= no document stored; probes must cite the measured floor, not a null; identity guard refused the write; resolve the CIK by hand
+morganstanley  p1=0 p2=0 floor=1993-11-08 no document stored; probes must cite the measured floor, not a null; identity guard refused the write; resolve the CIK by hand
+valero         p1=0 p2=0 floor= no document stored; probes must cite the measured floor, not a null; identity guard refused the write; resolve the CIK by hand
+dell           p1=0 p2=0 floor=2013-07-24 no document stored; probes must cite the measured floor, not a null; identity guard refused the write; resolve the CIK by hand
+disney         p1=0 p2=0 floor=2018-06-25 no document stored; probes must cite the measured floor, not a null
+jnj            p1=0 p2=26 floor=1994-03-10 
+pepsico        p1=0 p2=27 floor=1995-01-06 
+boeing         p1=0 p2=0 floor=1994-03-15 no document stored; probes must cite the measured floor, not a null
+ups            p1=0 p2=29 floor=1999-07-21 
+rtx            p1=8 p2=0 floor=1994-01-24 
+fedex          p1=0 p2=19 floor=1997-11-04 
+fleet_intake: 20 companies processed

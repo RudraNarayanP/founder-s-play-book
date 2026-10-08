@@ -1,0 +1,30 @@
+{
+ "cik": "0000732712",
+ "requested_cik": "732712",
+ "registrant": "VERIZON COMMUNICATIONS INC",
+ "ticker": "VZ",
+ "tickers": [
+  "VZ"
+ ],
+ "former_names": [
+  "BELL ATLANTIC CORP"
+ ],
+ "company_dir": "company_028_verizon",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['verizon'] match registrant 'VERIZON COMMUNICATIONS INC' (CIK 0000732712)"
+ ],
+ "built": "2026-10-06T12:07:12Z",
+ "count": 10244,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 163,
+ "csv_sha1": "a0aba0cf1577805bb090de3eb5bdaa7f25f64eb9",
+ "csv_bytes": 990071,
+ "paths": {
+  "json": "founders_playbook/01_companies/company_028_verizon\\sources\\_index\\submissions_CIK0000732712.json",
+  "csv": "founders_playbook/01_companies/company_028_verizon\\sources\\_index\\submissions_CIK0000732712.csv",
+  "md": "founders_playbook/01_companies/company_028_verizon\\sources\\_index\\_INDEX_CIK0000732712.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

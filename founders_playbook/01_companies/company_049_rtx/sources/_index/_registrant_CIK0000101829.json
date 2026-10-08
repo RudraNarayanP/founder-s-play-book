@@ -1,0 +1,31 @@
+{
+ "cik": "0000101829",
+ "requested_cik": "101829",
+ "registrant": "RTX Corp",
+ "ticker": "RTX",
+ "tickers": [
+  "RTX"
+ ],
+ "former_names": [
+  "RAYTHEON TECHNOLOGIES CORP",
+  "UNITED TECHNOLOGIES CORP /DE/"
+ ],
+ "company_dir": "company_049_rtx",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['rtx'] match registrant 'RTX Corp' (CIK 0000101829)"
+ ],
+ "built": "2026-10-06T11:58:15Z",
+ "count": 2968,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 157,
+ "csv_sha1": "a85fd8e76bcfd0fcba7375ed5f362c94eab92797",
+ "csv_bytes": 263095,
+ "paths": {
+  "json": "founders_playbook/01_companies/company_049_rtx\\sources\\_index\\submissions_CIK0000101829.json",
+  "csv": "founders_playbook/01_companies/company_049_rtx\\sources\\_index\\submissions_CIK0000101829.csv",
+  "md": "founders_playbook/01_companies/company_049_rtx\\sources\\_index\\_INDEX_CIK0000101829.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

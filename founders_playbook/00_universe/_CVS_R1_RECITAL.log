@@ -1,0 +1,13 @@
+walk: 1 slices (1 fetched, 0 failed), 2968 filing rows, date perimeter 1994-02-10 -> 2026-08-17
+index: 2968 filings from registrant 'CVS HEALTH Corp' (CIK 0000064803, tickers ['CVS'])
+index: registrant guard = ok -- slug token(s) ['cvs'] match registrant 'CVS HEALTH Corp' (CIK 0000064803)
+index: artefacts keyed by CIK -> submissions_CIK0000064803.json, submissions_CIK0000064803.csv, _INDEX_CIK0000064803.md
+index: 0 rows dropped for no accession, 125 without primaryDocument (both counted in the artefacts)
+auto: 65 accessions in window, 22 directories opened, 30 document slots planned, 30 kept under --max-docs 30, 0 skipped past the cut
+auto: selection order -- 1. filings whose filingDate falls in --from/--to, sorted filingDate ASCENDING (earliest evidence first); 2. one filing per form key -- S-1/S-4/10-K families keep every filing because version differences are findings, other forms keep the first per (base-form, primaryDocument[:12]); 3. inside a filing, documents in candidate order: the submissions primaryDocument, then named text/html items largest-first, then the full-submission SGML <accession>.txt; 4. --max-docs caps DOCUMENTS, so the stream built by 1-3 is cut at N and every slot past the cut is written to _SKIPPED.csv as 'SKIPPED beyond --max-docs N' -- never dropped.
+auto: 28 documents stored (6980278 bytes, 943556 words); 3 UNANSWERED (of which 0 nameless pre-2001 listing rows); 97 SKIPPED
+auto: IDENTITY stored + unanswered + skipped == attempted -> stored(28) + unanswered(3) + skipped(97) = 128 raw / 122 unique slots vs attempted(128) -> BROKEN (raw count is inflated by repeated slots, see DOUBLE-COUNTED)
+auto: DOUBLE-COUNTED SLOTS (this is defect D-3, do not trust the tally): nameless:0000950135-97-001475:2336 in skipped and skipped; nameless:0001047469-98-012979:2374 in skipped and skipped; nameless:0000912057-99-006590:2385 in skipped and skipped; nameless:0000912057-99-006590:2392 in skipped and skipped; nameless:0000912057-99-006590:2386 in skipped and skipped
+   UNANSWERED 0000315066-00-000956 0001.txt: UNANSWERED (padded-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/dashed-dir: - UNANSWERED after 2 tries (HTTP 403))
+   UNANSWERED 0000927016-01-001365 0001.txt: UNANSWERED (padded-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/dashed-dir: - UNANSWERED after 2 tries (HTTP 403))
+   UNANSWERED (43 filings) : UNANSWERED NOT-ENUMERATED: 43 in-window filings were never listed because --max-docs 30 was reached; their documents exist but are unknown to this run

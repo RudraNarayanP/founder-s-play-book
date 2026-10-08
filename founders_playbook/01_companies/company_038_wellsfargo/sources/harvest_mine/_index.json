@@ -1,0 +1,194 @@
+{
+ "window": [
+  "1852-01-01",
+  "1998-12-31"
+ ],
+ "candidates": 85,
+ "mined": 12,
+ "untried_by_limit": 69,
+ "items": [
+  {
+   "identifier": "01.-wells-fargo-annual-report-archive",
+   "date": "1919-01-01",
+   "title_year": "1919",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Wells Fargo & Company Annual Reports: 1919-",
+   "family": "corporate_print",
+   "meta_date": "1919-01-01",
+   "status": "cached",
+   "bytes": 1195717,
+   "named_terms": [
+    "wells fargo",
+    "wells fargo bank",
+    "wells fargo company"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 6,
+   "phrase_hits": 200,
+   "entity_hits": 200,
+   "matched_entities": [
+    "wells fargo"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "Cover: Wells Fargo customer Erik Gruber outside his new home in Philadelphia. Learn more on page 34.",
+     "context": [
+      ""
+     ]
+    },
+    {
+     "line": 46,
+     "text": "Wells Fargo Board of Directors, Iam encouraged",
+     "context": [
+      "Looking back on my first year as chair of the",
+      "by the progress the company and our board"
+     ]
+    },
+    {
+     "line": 48,
+     "text": "have made as we build a better Wells Fargo for",
+     "context": [
+      "by the progress the company and our board",
+      "the future."
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "TFQYD05NX58C",
+   "date": "1901-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried TFQYD05NX58C_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "6H4pAAAAYAAJ",
+   "date": "1919-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried 6H4pAAAAYAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "v0MaAQAAIAAJ",
+   "date": "1920-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried v0MaAQAAIAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "W0ocAQAAIAAJ",
+   "date": "1915-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried W0ocAQAAIAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "vC4wAQAAMAAJ",
+   "date": "1910-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried vC4wAQAAMAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "muvrWlWDX7sC",
+   "date": "1912-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried muvrWlWDX7sC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "DxcDAAAAYAAJ",
+   "date": "1915-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried DxcDAAAAYAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "wellsfargoadvanc0000edwa_s8g6",
+   "date": "1949-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried wellsfargoadvanc0000edwa_s8g6_djvu.txt, wellsfargoadvanc0000edwa_s8g6_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "wellsfargo0000ralp",
+   "date": "1961-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried wellsfargo0000ralp_djvu.txt, wellsfargo0000ralp_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "NPDP19380212",
+   "date": "1938-01-01",
+   "title_year": "1938",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Hong Kong Daily Press 1938-02-12",
+   "family": "internet_archive",
+   "meta_date": "1938-01-01",
+   "status": "cached",
+   "bytes": 282316,
+   "named_terms": [
+    "wells fargo",
+    "wells fargo bank",
+    "wells fargo company"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 5,
+   "entity_hits": 5,
+   "matched_entities": [
+    "wells fargo"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 4008,
+     "text": "\u201cWells Fargo.\u201d",
+     "context": [
+      "",
+      "ORIENTAL :\u2014 -"
+     ]
+    },
+    {
+     "line": 4019,
+     "text": "\u201cWells Fargo.\u201d",
+     "context": [
+      "",
+      "STARi\u2014~"
+     ]
+    },
+    {
+     "line": 4045,
+     "text": "WELLS FARGO",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "wellsfargonevada1988davi",
+   "date": "1988-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried wellsfargonevada1988davi_djvu.txt, wellsfargonevada1988davi_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  }
+ ]
+}

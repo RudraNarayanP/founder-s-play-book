@@ -1,0 +1,3 @@
+rank,slot,cik,accession,file,path,bytes,words,status,form,filingDate,url,why,listing
+16,doc:0000950109-00-004026:0001.txt,0001090727,0000950109-00-004026,0001.txt,,0,0,UNANSWERED (padded-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/dashed-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page),424B1,2000-09-25,,primaryDocument,"listing via padded-cik/nodash-dir (4 items, 0 unnamed)"
+,listing:not-enumerated,0001090727,(237 filings),,,0,0,UNANSWERED NOT-ENUMERATED: 237 in-window filings were never listed because --max-docs 30 was reached; their documents exist but are unknown to this run,,,,,

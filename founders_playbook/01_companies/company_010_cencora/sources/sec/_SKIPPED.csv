@@ -1,0 +1,2 @@
+rank,slot,cik,accession,file,path,bytes,words,status,form,filingDate,url,why,listing
+31,doc:0000950109-01-504387:dex44.txt,0001140859,0000950109-01-504387,dex44.txt,,0,0,SKIPPED beyond --max-docs 30 (selection order is documented in the run summary and in _PLAN.csv),S-4,2001-10-19,https://www.sec.gov/Archives/edgar/data/0001140859/000095010901504387/dex44.txt,index.json listing (67887 B),"listing via padded-cik/nodash-dir (17 items, 0 unnamed)"

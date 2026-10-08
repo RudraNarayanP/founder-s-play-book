@@ -1,0 +1,2 @@
+rank,slot,cik,accession,file,path,bytes,words,status,form,filingDate,url,why,listing
+31,doc:0000950159-02-000641:0000950159-02-000641.txt,0001166691,0000950159-02-000641,0000950159-02-000641.txt,,0,0,SKIPPED beyond --max-docs 30 (selection order is documented in the run summary and in _PLAN.csv),8-K,2002-10-30,https://www.sec.gov/Archives/edgar/data/0001166691/000095015902000641/0000950159-02-000641.txt,index.json listing (0 B),"listing via padded-cik/nodash-dir (5 items, 0 unnamed)"

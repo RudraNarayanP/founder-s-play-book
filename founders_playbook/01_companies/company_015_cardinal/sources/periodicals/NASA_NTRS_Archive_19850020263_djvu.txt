@@ -1,0 +1,201 @@
+A NATURAL BIAS APPROACH TO CARDINAL SPLINE CURVES* 
+
+
+G. Yates Fletcher and David F. McAllister 
+North Carolina State University 
+Raleigh, North Carolina 
+
+
+The cardinal spline approach to defining interpo latory curves has been of recent 
+interest in the application of computer graphics to modelling and animation problems 
+[l], [2]. In our formulation of this interpolation problem (C) we desire to obtain 
+a vector valued function V which forms a Cl map from [0,n] into the plane in such a 
+way that V(i) and V'(i) attain prespecified (vector) values P-j_ and Tf for the 
+integers i=0, l,...n. The intent is that the planar curves V(s) pass through each 
+point P. in the direction corresponding to T.. In actual practice it is common for 
+only the interpolation points P. to be user specified. Suitable tangents T. are then 
+provided by some heuristic to complete the specification of (C). If, for instance, 
+the T^ values are computed as 
+
+
+T. 
+
+1 
+
+
+(P. 
+
+
+i + 1 
+
+
+- P. . )/2 
+i-I 
+
+
+( 1 ) 
+
+
+(each tangent is the average of the incoming and outgoing chord vectors to the adja- 
+cent points), then the solution to (C) is the Catmull-Rom spline. Once the tangents 
+T. have been defined we may write the cardinal spline curve V(s) as a collection of 
+segments 
+
+
+V(s) = V (s-i) i ^ s 4 i+1, i=l,...,n-l 
+
+where each curve segment is a Hermite interpolant which may be written simply in 
+
+terms of the cardinal Hermite basis. Defining a vector function of a real variable 
+s by 
+
+tt / \ ri . 2 3 2 3 2 3 2 3. 
+
+H(s) = Ll-3s + zs , 3s -Is , s-zs + z , -s +s J 
+
+
+we may write 
+
+
+V.(s) = H(s)*[P., P. +1 , T., T i+1 ] t . 0$s*l (2) 
+
+For most applications the magnitudes of the tangents T. can be allowed to vary 
+without effecting their primary function which is to furnish a suitable direction for 
+the interpolating curve at each node. The effects of these variations on the resulting 
+curve are perceived subjectively as "shape” changes. They do not alter the funda- 
+mental property of such curves - that they possess a continuously varying unit tangent 
+vector. The effects are best understood by considering a single section of the curve 
+which passes through points P^ and P^ with tangents T^ and T^ . In general, increasing 
+the magnitude of a tangent vector forces the interpolating curve to "stay closer 
+longer” to the line on which the tangent vector lies. Thus increasing the magnitude 
+of one tangent at the expense of the other will "pull" the curve in its direction. 
+
+This effect is called "bias. ” Increasing the magnitudes of both tangents proportion— 
+
+
+^Research supported in part by NASA Grant NAF-103-S4. 
+
+
+55 
+
+
+
+ally, forces the bend more toward the middle; decreasing the magnitudes allows the 
+curve to "leave the tangent directions sooner" and causes a flattening effect called 
+"tension.” A discussion of these effects is given in [3]. 
+
+The important issue here is the point of view that the salient feature of the 
+tangent vectors is the "direction" they impart to the curve and that their magnitudes 
+may be adjusted to effect shape control. A natural question to ask in this context 
+is the following - given the two endpoints and corresponding tangent directions which 
+define a segment on the curve, what should be the default bias, i.e. the ratio of 
+their magnitudes which serves as a base for further adjustments? We feel that this 
+question has a natural answer based on the geometry of each curve segment, one that 
+yields curves with interesting and desirable shape properties. We give a brief sum- 
+mary of our treatment. 
+
+Given a segment with endpoints and and tangents and we solve the 
+equation 
+
+*T 0 * yT, = Pj - P 0 (3) 
+
+for scalar values x and y. There are three primary cases to consider: 
+
+
+i) xy > 0 
+
+ii) xy < 0 
+
+iii) (3) has no solution 
+
+Other cases occur when T^ and T^ lie on the line containing Pq and P^ and are degene- 
+racies which we discuss separately. For case i) we rescale Tq and T^ as xT^ and yT^ 
+respectively. For cases ii) or iii) we solve (3) with Tq replaced by Tq ' , its 
+"reflection" in the line containing Pq and P^. The x and y thus obtained will now 
+satisfy xy > 0, and we proceed as before rescaling Tq (the original Tq) as xTq and 
+T^ as yT ][ . This rescaling is the means by which a "natural" bias for the segment is 
+obtained. See figure 1. 
+
+When the new tangents are multiplied by a common "tension" factor t, the resulting 
+curve segment defined by (2) has the following properties which form our justification 
+for using the word "natural" to describe the biasing technique. 
+
+For case i) 
+
+- For t = 3 the segment has zero curvature at both end points Pq and P^. 
+
+For t < 3 the segment will have no inflection points (changes of conca- 
+vity). For t > 3 the segment will have exactly two inflection points. 
+
+- For t = 2 the 3rd order terms vanish and the resulting curve is in fact 
+
+a parametric quadratic. 
+
+For t = 6 the segment will have a cusp where the curve parameter s = .5. 
+For cases ii) and iii) 
+
+- The curve will intersect the line segment S connecting Pq and P^ exactly 
+once (let Q denote this point). 
+
+
+56 
+
+
+
+- The maximum deviations of the curve from S on either side of Q will be 
+the same. 
+
+- For t = 3 the tangent to the curve at Q is perpendicular to S. 
+
+
+As a consequence of our results for segments falling under case i) we can prove 
+the following theorem. 
+
+Let P 2 , • • . P n be vertices of a convex planar polygon P given in order of 
+
+adjacency, and let tangents be defined by (1) with 
+
+
+T o = 
+
+
+and T 
+
+
+n+1 
+
+
+The closed 
+are biased 
+will form 
+0 < t < 3. 
+
+
+cardinal spline curve (whose segments are defined by (2) where the tangents 
+by the procedure we have outlined and controlled by a tension factor t) 
+the boundary of a convex set C containing P for any value of t such that 
+
+
+In short, a convex control polygon will yield a convex interpolant. We can also give 
+examples where the interpolant fails to be convex if the tangents are left unbiased. 
+
+
+References 
+
+1. Alvy Ray Smith, ”Spline Tutorial Notes - Technical Memo No. 77”, SIGGRAPH 1 83 
+
+Tutorial Notes: Introduction to Computer Animation, pp . 64-75, July, 1983. 
+
+2. D. H. Kochanek, and R. H. Bartels, ”Interpolat ing Splines, with Local Tension, 
+Continuity, and Bias Control”, SIGGRAPH T 84, Minneapolis, July 23-27, 1984, pp . 
+33-41. 
+
+3. J. D. Foley, and A. Van Dam, Fundamentals of Interactive Computer Graphics, pp . 
+514-523, Addison-Wesley , 1983. 
+
+
+57 
+
+
+
+

@@ -1,0 +1,249 @@
+{
+ "window": [
+  "1812-01-01",
+  "1998-12-31"
+ ],
+ "candidates": 156,
+ "mined": 12,
+ "untried_by_limit": 133,
+ "items": [
+  {
+   "identifier": "citibankralphnad00lein",
+   "date": "1973-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried citibankralphnad00lein_djvu.txt, citibankralphnad00lein_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "travelersaidsoci1921trav",
+   "date": "1921-01-01",
+   "title_year": "1921",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Travelers Aid Society of Boston, Inc. Annual Report 1921",
+   "family": "corporate_print",
+   "meta_date": "1921-01-01",
+   "status": "cached",
+   "bytes": 13388,
+   "named_terms": [],
+   "other_terms": [
+    "first national city bank",
+    "formerly known as"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "Firs2314_1969_0",
+   "date": "1969-01-01",
+   "title_year": "1969",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "First National City Bank - Annual Report (1969)",
+   "family": "corporate_print",
+   "meta_date": "1969-01-01",
+   "status": "cached",
+   "bytes": 111014,
+   "named_terms": [],
+   "other_terms": [
+    "first national city bank",
+    "formerly known as"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 84,
+   "phrase_hits": 0,
+   "entity_hits": 1,
+   "matched_entities": [
+    "citicorp systems"
+   ],
+   "matched_other_terms": [
+    "first national city bank"
+   ],
+   "sample": [
+    {
+     "line": 609,
+     "text": "Citicorp Systems Inc. was formed to",
+     "context": [
+      "capital goods outside the United States.",
+      "serve as the focal point for the develop-"
+     ],
+     "promoted": "citicorp systems"
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA41153428_0048",
+   "date": "1982-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Business Issues in an Aging America. A Report from The Travelers Insurance Companies Conference, Managing an Aging Workf",
+   "family": "corporate_print",
+   "meta_date": "1982-01-01",
+   "status": "cached",
+   "bytes": 77122,
+   "named_terms": [],
+   "other_terms": [
+    "first national city bank",
+    "formerly known as"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "travelersaidsoci1922trav",
+   "date": "1922-01-01",
+   "title_year": "1922",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Travelers Aid Society of Boston, Inc. Annual Report 1922",
+   "family": "corporate_print",
+   "meta_date": "1922-01-01",
+   "status": "cached",
+   "bytes": 12120,
+   "named_terms": [],
+   "other_terms": [
+    "first national city bank",
+    "formerly known as"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "CIA-RDP78-03985A000700030034-1",
+   "date": "1953-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "ORGANIZATION AND METHODS SERVICE SURVEY REPORT CENTRAL PROCESSING OF TRAVELERS",
+   "family": "corporate_print",
+   "meta_date": "1953-01-01",
+   "status": "cached",
+   "bytes": 3898,
+   "named_terms": [],
+   "other_terms": [
+    "first national city bank",
+    "formerly known as"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "travelersaidsoci1923trav",
+   "date": "1923-01-01",
+   "title_year": "1923",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Travelers Aid Society of Boston, Inc. Annual Report 1923",
+   "family": "corporate_print",
+   "meta_date": "1923-01-01",
+   "status": "cached",
+   "bytes": 52094,
+   "named_terms": [],
+   "other_terms": [
+    "first national city bank",
+    "formerly known as"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "dli.ministry.19544",
+   "date": "1969-01-01",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried dli.ministry.19544_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "citibankralphnad0000unse",
+   "date": "1974-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried citibankralphnad0000unse_djvu.txt, citibankralphnad0000unse_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "roadstozion0000kurt",
+   "date": "1948-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 403)); tried roadstozion0000kurt_djvu.txt, roadstozion0000kurt_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "tassd_monthly_1915",
+   "date": "1915-01-01",
+   "title_year": "1915",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Travelers' Aid Society of San Diego Monthly Reports, 1915",
+   "family": "corporate_print",
+   "meta_date": "1915-01-01",
+   "status": "cached",
+   "bytes": 49654,
+   "named_terms": [],
+   "other_terms": [
+    "first national city bank",
+    "formerly known as"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "dli.csl.1046",
+   "date": "1969-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Railway Accident Investigation Report on the accident that occurred to unauthorised travelers on the engine and roofs of",
+   "family": "corporate_print",
+   "meta_date": "1969-01-01",
+   "status": "cached",
+   "bytes": 59151,
+   "named_terms": [],
+   "other_terms": [
+    "first national city bank",
+    "formerly known as"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  }
+ ]
+}

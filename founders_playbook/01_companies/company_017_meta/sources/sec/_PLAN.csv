@@ -1,0 +1,31 @@
+rank,cik,accession,form,filingDate,document,bytes_in_index_json,why,url,disposition
+1,0001326801,0001193125-12-034517,S-1,2012-02-01,d287954ds1.htm,2627564,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001326801/000119312512034517/d287954ds1.htm,fetched this run
+2,0001326801,0001193125-12-034517,S-1,2012-02-01,d287954dex231.htm,1937,index.json listing (1937 B),https://www.sec.gov/Archives/edgar/data/0001326801/000119312512034517/d287954dex231.htm,fetched this run
+3,0001326801,0001193125-12-034517,S-1,2012-02-01,0001193125-12-034517.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0001326801/000119312512034517/0001193125-12-034517.txt,fetched this run
+4,0001326801,0001193125-12-046715,S-1/A,2012-02-08,d287954ds1a.htm,111191,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001326801/000119312512046715/d287954ds1a.htm,fetched this run
+5,0001326801,0001193125-12-046715,S-1/A,2012-02-08,d287954dex1011.htm,867779,index.json listing (867779 B),https://www.sec.gov/Archives/edgar/data/0001326801/000119312512046715/d287954dex1011.htm,fetched this run
+6,0001326801,0001193125-12-046715,S-1/A,2012-02-08,d287954dex1013.htm,290102,index.json listing (290102 B),https://www.sec.gov/Archives/edgar/data/0001326801/000119312512046715/d287954dex1013.htm,fetched this run
+7,0001326801,0001193125-12-046715,S-1/A,2012-02-08,d287954dex102.htm,274248,index.json listing (274248 B),https://www.sec.gov/Archives/edgar/data/0001326801/000119312512046715/d287954dex102.htm,fetched this run
+8,0001326801,0001193125-12-101422,S-1/A,2012-03-07,d287954ds1a.htm,2718988,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001326801/000119312512101422/d287954ds1a.htm,fetched this run
+9,0001326801,0001193125-12-101422,S-1/A,2012-03-07,d287954dex1015.htm,620563,index.json listing (620563 B),https://www.sec.gov/Archives/edgar/data/0001326801/000119312512101422/d287954dex1015.htm,fetched this run
+10,0001326801,0001193125-12-101422,S-1/A,2012-03-07,d287954dex1014.htm,616384,index.json listing (616384 B),https://www.sec.gov/Archives/edgar/data/0001326801/000119312512101422/d287954dex1014.htm,fetched this run
+11,0001326801,0001193125-12-101422,S-1/A,2012-03-07,filename32.htm,482408,index.json listing (482408 B),https://www.sec.gov/Archives/edgar/data/0001326801/000119312512101422/filename32.htm,fetched this run
+12,0001326801,0001193125-12-134663,S-1/A,2012-03-27,d287954ds1a.htm,2731855,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001326801/000119312512134663/d287954ds1a.htm,fetched this run
+13,0001326801,0001193125-12-134663,S-1/A,2012-03-27,d287954dex46.htm,46981,index.json listing (46981 B),https://www.sec.gov/Archives/edgar/data/0001326801/000119312512134663/d287954dex46.htm,fetched this run
+14,0001326801,0001193125-12-134663,S-1/A,2012-03-27,d287954dex231.htm,1964,index.json listing (1964 B),https://www.sec.gov/Archives/edgar/data/0001326801/000119312512134663/d287954dex231.htm,fetched this run
+15,0001326801,0001193125-12-134663,S-1/A,2012-03-27,0001193125-12-134663.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0001326801/000119312512134663/0001193125-12-134663.txt,fetched this run
+16,0001326801,0001193125-12-175673,S-1/A,2012-04-23,d287954ds1a.htm,3186079,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001326801/000119312512175673/d287954ds1a.htm,fetched this run
+17,0001326801,0001193125-12-175673,S-1/A,2012-04-23,d287954dex34.htm,154686,index.json listing (154686 B),https://www.sec.gov/Archives/edgar/data/0001326801/000119312512175673/d287954dex34.htm,fetched this run
+18,0001326801,0001193125-12-175673,S-1/A,2012-04-23,d287954dex104.htm,120040,index.json listing (120040 B),https://www.sec.gov/Archives/edgar/data/0001326801/000119312512175673/d287954dex104.htm,fetched this run
+19,0001326801,0001193125-12-175673,S-1/A,2012-04-23,d287954dex33.htm,65860,index.json listing (65860 B),https://www.sec.gov/Archives/edgar/data/0001326801/000119312512175673/d287954dex33.htm,fetched this run
+20,0001326801,0001193125-12-208192,S-1/A,2012-05-03,d287954ds1a.htm,3421117,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001326801/000119312512208192/d287954ds1a.htm,fetched this run
+21,0001326801,0001193125-12-208192,S-1/A,2012-05-03,d287954dex11.htm,188701,index.json listing (188701 B),https://www.sec.gov/Archives/edgar/data/0001326801/000119312512208192/d287954dex11.htm,fetched this run
+22,0001326801,0001193125-12-208192,S-1/A,2012-05-03,d287954dex42a.htm,38781,index.json listing (38781 B),https://www.sec.gov/Archives/edgar/data/0001326801/000119312512208192/d287954dex42a.htm,fetched this run
+23,0001326801,0001193125-12-208192,S-1/A,2012-05-03,d287954dex1016a.htm,37354,index.json listing (37354 B),https://www.sec.gov/Archives/edgar/data/0001326801/000119312512208192/d287954dex1016a.htm,fetched this run
+24,0001326801,0001193125-12-222368,S-1/A,2012-05-09,d287954ds1a.htm,3415758,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001326801/000119312512222368/d287954ds1a.htm,fetched this run
+25,0001326801,0001193125-12-222368,S-1/A,2012-05-09,d287954dex231.htm,2193,index.json listing (2193 B),https://www.sec.gov/Archives/edgar/data/0001326801/000119312512222368/d287954dex231.htm,fetched this run
+26,0001326801,0001193125-12-222368,S-1/A,2012-05-09,0001193125-12-222368.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0001326801/000119312512222368/0001193125-12-222368.txt,fetched this run
+27,0001326801,0001193125-12-232582,S-1/A,2012-05-15,d287954ds1a.htm,3425013,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001326801/000119312512232582/d287954ds1a.htm,fetched this run
+28,0001326801,0001193125-12-232582,S-1/A,2012-05-15,filename30.htm,10104,index.json listing (10104 B),https://www.sec.gov/Archives/edgar/data/0001326801/000119312512232582/filename30.htm,fetched this run
+29,0001326801,0001193125-12-232582,S-1/A,2012-05-15,d287954dex231.htm,2199,index.json listing (2199 B),https://www.sec.gov/Archives/edgar/data/0001326801/000119312512232582/d287954dex231.htm,fetched this run
+30,0001326801,0001193125-12-232582,S-1/A,2012-05-15,0001193125-12-232582.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0001326801/000119312512232582/0001193125-12-232582.txt,fetched this run

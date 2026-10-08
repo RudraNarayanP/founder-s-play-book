@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000019617/000121390024108971/ea0224770-01_424b2.htm",
+ "fetched": "2026-09-29T18:37:34Z",
+ "sha1": "bf77297b84cd90ae245f2d2a7c6382699d325d7c",
+ "bytes": 128417,
+ "words": 10363,
+ "cik": "0000019617",
+ "registrant": "JPMORGAN CHASE & CO",
+ "accession": "0001213900-24-108971",
+ "document": "ea0224770-01_424b2.htm",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

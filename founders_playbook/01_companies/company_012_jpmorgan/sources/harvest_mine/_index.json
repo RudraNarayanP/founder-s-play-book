@@ -1,0 +1,477 @@
+{
+ "window": [
+  "1799-01-01",
+  "1960-12-31"
+ ],
+ "candidates": 93,
+ "mined": 12,
+ "untried_by_limit": 80,
+ "items": [
+  {
+   "identifier": "NPDP19340704",
+   "date": "1934-01-01",
+   "title_year": "1934",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Hong Kong Daily Press 1934-07-04",
+   "family": "internet_archive",
+   "meta_date": "1934-01-01",
+   "status": "cached",
+   "bytes": 292253,
+   "named_terms": [
+    "chase manhattan",
+    "jpmorgan chase"
+   ],
+   "other_terms": [
+    "successor by merger"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 9,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1057,
+     "text": "\u2018Savio in 'th\u00e9\"chase and dg \u201cthe",
+     "context": [
+      "Larwood \u2018hit two \u2018sixes, and he, ,",
+      ""
+     ]
+    },
+    {
+     "line": 1144,
+     "text": "rier who chased the gang, recelved",
+     "context": [
+      "of bandits, during which a fox ter-",
+      "a wound, took place last .week |"
+     ]
+    },
+    {
+     "line": 2350,
+     "text": "IEP: MORGAN & co.",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NPDP19360702",
+   "date": "1936-01-01",
+   "title_year": "1936",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Hong Kong Daily Press 1936-07-02",
+   "family": "internet_archive",
+   "meta_date": "1936-01-01",
+   "status": "cached",
+   "bytes": 291106,
+   "named_terms": [
+    "chase manhattan",
+    "jpmorgan chase"
+   ],
+   "other_terms": [
+    "successor by merger"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 12,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 200,
+     "text": "J. P. MORGAN IS",
+     "context": [
+      "",
+      "SICK)"
+     ]
+    },
+    {
+     "line": 209,
+     "text": "\u201cMr J. Pierpont Morgan, who is",
+     "context": [
+      "",
+      "now: 68 years of age, the American"
+     ]
+    },
+    {
+     "line": 1496,
+     "text": "Chase Nat. Bk. ...... 432",
+     "context": [
+      "",
+      "Chesapeake Corpn: 124"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "armstrong-george-third-zionist-war",
+   "date": "1951-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Armstrong George Third Zionist War",
+   "family": "internet_archive",
+   "meta_date": "1951-01-01",
+   "status": "cached",
+   "bytes": 144610,
+   "named_terms": [
+    "chase manhattan",
+    "jpmorgan chase"
+   ],
+   "other_terms": [
+    "successor by merger"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 9,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 54,
+     "text": "2. That the members of the firms of J. P. Morgan & Co.,",
+     "context": [
+      "",
+      "Kuhn, Loeb & Co., and Lehman Bros. Co., and the members of"
+     ]
+    },
+    {
+     "line": 908,
+     "text": "Chinese War. That is the program of J. P. Morgan & Co., Kuhn,",
+     "context": [
+      "Nations and of the Truman-Acheson-Frankfurter Russian",
+      "Loeb & Co., and of the Rothschild money trust. It is the program"
+     ]
+    },
+    {
+     "line": 1607,
+     "text": "of J. P. Morgan & Co., as Secretary of State; Henry Stimson, at-",
+     "context": [
+      "petence and bungling\u201d that caused Roosevelt to select Stettinius",
+      "torney for Kuhn, Loeb & Co., as Secretary of War; the Zionist"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "chasechasemanhat0000wils",
+   "date": "1986-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried chasechasemanhat0000wils_djvu.txt, chasechasemanhat0000wils_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "NPDP19230426",
+   "date": "1923-01-01",
+   "title_year": "1923",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Hong Kong Daily Press 1923-04-26",
+   "family": "internet_archive",
+   "meta_date": "1923-01-01",
+   "status": "cached",
+   "bytes": 207783,
+   "named_terms": [
+    "chase manhattan",
+    "jpmorgan chase"
+   ],
+   "other_terms": [
+    "successor by merger"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 6,
+   "phrase_hits": 0,
+   "entity_hits": 2,
+   "matched_entities": [
+    "morgan co",
+    "morgan company"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 5447,
+     "text": "PARTNER OF J: P.\"MORGAN CO.",
+     "context": [
+      "\u2018FOUNDED IN MEMORY OF EX:",
+      ""
+     ],
+     "promoted": "morgan co"
+    },
+    {
+     "line": 5455,
+     "text": "\u2018partter of tho J. Po Morgan Company,",
+     "context": [
+      "_asiemory of her husband who was an ex-",
+      "Under\u2019 the new trust three Oxford and"
+     ],
+     "promoted": "morgan company"
+    }
+   ]
+  },
+  {
+   "identifier": "NPDP19250817",
+   "date": "1925-01-01",
+   "title_year": "1925",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Hong Kong Daily Press 1925-08-17",
+   "family": "internet_archive",
+   "meta_date": "1925-01-01",
+   "status": "cached",
+   "bytes": 200658,
+   "named_terms": [
+    "chase manhattan",
+    "jpmorgan chase"
+   ],
+   "other_terms": [
+    "successor by merger"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 6,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 63,
+     "text": "\"Fer thp Purchase, sage aac Oa fer",
+     "context": [
+      "Bruny Acurrs axp Surrax00233",
+      "of Tonnags, Passenger D"
+     ]
+    },
+    {
+     "line": 2281,
+     "text": "\u2018Owing to..the .purchases: effected by:",
+     "context": [
+      "",
+      "Japan during the last'fortnight for ship-"
+     ]
+    },
+    {
+     "line": 2325,
+     "text": "\u201cOn General, Chang's arrival'at, Tsing; | tained by the, people.\u201d - large -purchases for Shanghai ond Tien-| not. theft, \u2018and. Mr.\u2019McCallum asked His .",
+     "context": [
+      "",
+      "h Hum :"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NPCM19271228",
+   "date": "1927-01-01",
+   "title_year": "1927",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "China Mail 1927-12-28",
+   "family": "internet_archive",
+   "meta_date": "1927-01-01",
+   "status": "cached",
+   "bytes": 244913,
+   "named_terms": [
+    "chase manhattan",
+    "jpmorgan chase"
+   ],
+   "other_terms": [
+    "successor by merger"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 17,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1697,
+     "text": "government to limit its purchases",
+     "context": [
+      "department of commerce urging the",
+      "locally and abolish its purchasing"
+     ]
+    },
+    {
+     "line": 1730,
+     "text": "purchases made through the bureau",
+     "context": [
+      "delay occasioned by having their",
+      "of supply. \u2018"
+     ]
+    },
+    {
+     "line": 1738,
+     "text": "they could make their purchases",
+     "context": [
+      "officials that .",
+      "quicker and at much lower prices"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NPCM19370823",
+   "date": "1937-01-01",
+   "title_year": "1937",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "China Mail 1937-08-23",
+   "family": "internet_archive",
+   "meta_date": "1937-01-01",
+   "status": "cached",
+   "bytes": 106307,
+   "named_terms": [
+    "chase manhattan",
+    "jpmorgan chase"
+   ],
+   "other_terms": [
+    "successor by merger"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 2,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 2470,
+     "text": "J . MORGAN. w",
+     "context": [
+      "",
+      "\u201cPOLAND ="
+     ]
+    },
+    {
+     "line": 2476,
+     "text": "ohn Pierpoint Morgan, the _",
+     "context": [
+      "",
+      "\u201cAmerican financiak magnate, who ~"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "sim_business-in-brief_1957-07_16",
+   "date": "1957-01-01",
+   "title_year": "1957",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Business in Brief 1957-07: Iss 16",
+   "family": "internet_archive",
+   "meta_date": "1957-01-01",
+   "status": "cached",
+   "bytes": 24281,
+   "named_terms": [
+    "chase manhattan",
+    "jpmorgan chase"
+   ],
+   "other_terms": [
+    "successor by merger"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 4,
+   "phrase_hits": 2,
+   "entity_hits": 2,
+   "matched_entities": [
+    "chase manhattan"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 16,
+     "text": "THE CHASE MANHATTAN BANK",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 1002,
+     "text": "Chase Manhattan, a leader in",
+     "context": [
+      "",
+      "loans to American industry, is"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "letterfrommessrs00jpmorich",
+   "date": "1913-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Letter from Messrs. J. P. Morgan & co., in response to the invitation of the sub-committee (Hon. A. P. Pujo, chairman) o",
+   "family": "internet_archive",
+   "meta_date": "1913-01-01",
+   "status": "cached",
+   "bytes": 46581,
+   "named_terms": [
+    "chase manhattan",
+    "jpmorgan chase"
+   ],
+   "other_terms": [
+    "successor by merger"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 6,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 24,
+     "text": "^  J.  P.  Morgan  &  Co.,",
+     "context": [
+      "T  ETTER  from   Messrs.",
+      ""
+     ]
+    },
+    {
+     "line": 42,
+     "text": "Letter  from  Messrs.  J.  P.  Morgan  &  Co.,  in  response  to  the",
+     "context": [
+      "",
+      "invitation  of  the  Sub-Committee  (Hon.  A.  P.  Pujo,  Chairman)  of"
+     ]
+    },
+    {
+     "line": 294,
+     "text": "It  has  often  been  observed  that  Mr.  Morgan  aided",
+     "context": [
+      "",
+      "actively  and  effectively  in  the  efforts  to  \"  com-"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "XS6wCQAAQBAJ",
+   "date": "2009-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried XS6wCQAAQBAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "-2slEQAAQBAJ",
+   "date": "2024-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried -2slEQAAQBAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  }
+ ]
+}

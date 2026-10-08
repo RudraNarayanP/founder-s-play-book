@@ -1,0 +1,615 @@
+{
+ "window": [
+  "1923-01-01",
+  "1945-12-31"
+ ],
+ "candidates": 100,
+ "mined": 12,
+ "untried_by_limit": 77,
+ "items": [
+  {
+   "identifier": "001.-walt-disney-company",
+   "date": "1923-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "The Walt Disney Company Annual Reports",
+   "family": "corporate_print",
+   "meta_date": "1923-01-01",
+   "status": "cached",
+   "bytes": 511867,
+   "named_terms": [
+    "disney brothers studio",
+    "walt disney",
+    "walt disney productions"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 200,
+   "phrase_hits": 63,
+   "entity_hits": 71,
+   "matched_entities": [
+    "disney company",
+    "disney international",
+    "disney retail",
+    "disney stores",
+    "walt disney"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 141,
+     "text": "THE WALT DISNEY COMPANY AND SUBSIDIARIES",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 144,
+     "text": "Consolidated Financial Information \u2014 The Walt Disney Company",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 162,
+     "text": "The Walt Disney Company, together with its subsidiaries, is a diversified worldwide entertainment company with",
+     "context": [
+      "",
+      "operations in the following business segments: Media Networks; Parks, Experiences and Products; Studio Entertainment; and"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "Mickey_Mouse_His_Life_And_Art_1930-05",
+   "date": "1930-01-01",
+   "title_year": "1930",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Mickey Mouse: His Life And Art (1930-05)",
+   "family": "internet_archive",
+   "meta_date": "1930-01-01",
+   "status": "cached",
+   "bytes": 226,
+   "named_terms": [
+    "disney brothers studio",
+    "walt disney",
+    "walt disney productions"
+   ],
+   "other_terms": [],
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "wdp-annual-report-1972",
+   "date": "1972-01-01",
+   "title_year": "1972",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "Walt Disney Productions Annual Report 1972",
+   "family": "corporate_print",
+   "meta_date": "1972-01-01",
+   "status": "cached",
+   "bytes": 82852,
+   "named_terms": [
+    "disney brothers studio",
+    "walt disney",
+    "walt disney productions"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 144,
+   "phrase_hits": 80,
+   "entity_hits": 81,
+   "matched_entities": [
+    "disney corporation",
+    "walt disney"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 10,
+     "text": "Look to the name Walt Disney",
+     "context": [
+      "",
+      "for the finest in family entertainment"
+     ]
+    },
+    {
+     "line": 47,
+     "text": "Walt Disney Productions\u2019",
+     "context": [
+      "",
+      "\u201cGolden Anniversary.\u201d"
+     ]
+    },
+    {
+     "line": 73,
+     "text": "Walt Disney, actress Margie Gay, Rudolf",
+     "context": [
+      "Hamilton, Roy O. Disney, Hugh Harman,",
+      "ising, Ub Iwerks, Walker Harman."
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "wdp-annual-report-1974",
+   "date": "1974-01-01",
+   "title_year": "1974",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "Walt Disney Productions Annual Report 1974",
+   "family": "corporate_print",
+   "meta_date": "1974-01-01",
+   "status": "cached",
+   "bytes": 96672,
+   "named_terms": [
+    "disney brothers studio",
+    "walt disney",
+    "walt disney productions"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 159,
+   "phrase_hits": 85,
+   "entity_hits": 85,
+   "matched_entities": [
+    "walt disney"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 36,
+     "text": "of Walt Disney Productions are seven of the films which will",
+     "context": [
+      "Emphasizing the key role of motion pictures in the diversified activities",
+      ""
+     ]
+    },
+    {
+     "line": 48,
+     "text": "\u00a9 1974 Walt Disney Productions",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 75,
+     "text": "\u2018ciated with Walt Disney Productions, and this seems",
+     "context": [
+      "always been a rewarding experience for those of us",
+      "ecially true in times of national stress, when people"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "1968-walt-disney-productions-annual-report",
+   "date": "1968-01-01",
+   "title_year": "1968",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "Walt Disney Productions Annual Report (1968)",
+   "family": "corporate_print",
+   "meta_date": "1968-01-01",
+   "status": "cached",
+   "bytes": 57372,
+   "named_terms": [
+    "disney brothers studio",
+    "walt disney",
+    "walt disney productions"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 78,
+   "phrase_hits": 50,
+   "entity_hits": 50,
+   "matched_entities": [
+    "walt disney",
+    "walt. disney"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 25,
+     "text": "Walt Disney Productions",
+     "context": [
+      "",
+      "1968"
+     ]
+    },
+    {
+     "line": 37,
+     "text": "Walt Disney",
+     "context": [
+      "",
+      "Productions"
+     ]
+    },
+    {
+     "line": 81,
+     "text": "Walt Disney World and Mineral King \u2014 the",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "1971-walt-disney-productions-annual-report",
+   "date": "1971-01-01",
+   "title_year": "1971",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "Walt Disney Productions Annual Report (1971)",
+   "family": "corporate_print",
+   "meta_date": "1971-01-01",
+   "status": "cached",
+   "bytes": 41316,
+   "named_terms": [
+    "disney brothers studio",
+    "walt disney",
+    "walt disney productions"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 89,
+   "phrase_hits": 56,
+   "entity_hits": 56,
+   "matched_entities": [
+    "walt disney"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 4,
+     "text": "WALT DISNEY PRODUCTIONS",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 10,
+     "text": "THE WALT DISNEY WORLD GRAND OPENING SPECTACULAR AND DEDICATION CEREMONY",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 13,
+     "text": "\u201cWalt Disney World is a tribute to the philosophy and life of",
+     "context": [
+      "",
+      "Walter Elias Disney and to the talents, the dedication and"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "wdp-annual-report-1967",
+   "date": "1967-01-01",
+   "title_year": "1967",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "Walt Disney Productions Annual Report 1967",
+   "family": "corporate_print",
+   "meta_date": "1967-01-01",
+   "status": "cached",
+   "bytes": 73670,
+   "named_terms": [
+    "disney brothers studio",
+    "walt disney",
+    "walt disney productions"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 97,
+   "phrase_hits": 57,
+   "entity_hits": 57,
+   "matched_entities": [
+    "walt disney"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 53,
+     "text": "Walt Disney",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 119,
+     "text": "\u00a91967 Walt Disney Productions",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 126,
+     "text": "tory of Walt Disney Productions. For the first time since",
+     "context": [
+      "This past year has been one of great transition in the his-",
+      "its founding in 1923, our company has been without its"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "wdp-annual-report-1983",
+   "date": "1983-01-01",
+   "title_year": "1983",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "Walt Disney Productions Annual Report 1983",
+   "family": "corporate_print",
+   "meta_date": "1983-01-01",
+   "status": "cached",
+   "bytes": 117520,
+   "named_terms": [
+    "disney brothers studio",
+    "walt disney",
+    "walt disney productions"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 122,
+   "phrase_hits": 61,
+   "entity_hits": 62,
+   "matched_entities": [
+    "disney enterprises",
+    "walt disney"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 89,
+     "text": "Walt Disney Productions",
+     "context": [
+      "| WED S.,",
+      "\"Annual Report 1983 \u00b0"
+     ]
+    },
+    {
+     "line": 112,
+     "text": "place Walt Disney Productions on the",
+     "context": [
+      "which the foundations were built that",
+      "threshold of exciting new horizons."
+     ]
+    },
+    {
+     "line": 169,
+     "text": "the 60th anniversary of Walt Disney",
+     "context": [
+      "Financial results for fiscal 1983.",
+      "Productions, were a disappointing"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "wdp-annual-report-1976",
+   "date": "1976-01-01",
+   "title_year": "1976",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "Walt Disney Productions Annual Report 1976",
+   "family": "corporate_print",
+   "meta_date": "1976-01-01",
+   "status": "cached",
+   "bytes": 62135,
+   "named_terms": [
+    "disney brothers studio",
+    "walt disney",
+    "walt disney productions"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 58,
+   "phrase_hits": 33,
+   "entity_hits": 33,
+   "matched_entities": [
+    "walt disney"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "Annual Report 1976 Walt Disney Productions",
+     "context": [
+      ""
+     ]
+    },
+    {
+     "line": 19,
+     "text": "tha Walt Disney Educational Media Company.",
+     "context": [
+      "publishing music and record marketing and",
+      "Here toa will be a permanent home for the"
+     ]
+    },
+    {
+     "line": 21,
+     "text": "Walt Disney Archives and tha Studio s expanded",
+     "context": [
+      "Here toa will be a permanent home for the",
+      "pniniing department"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "resort-report-1985-12-v-02-n-04",
+   "date": "1985-01-01",
+   "title_year": "1985",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "Walt Disney World Resort Report - V02 N04 - 1985-12",
+   "family": "corporate_print",
+   "meta_date": "1985-01-01",
+   "status": "cached",
+   "bytes": 13814,
+   "named_terms": [
+    "disney brothers studio",
+    "walt disney",
+    "walt disney productions"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 14,
+   "phrase_hits": 9,
+   "entity_hits": 9,
+   "matched_entities": [
+    "walt disney"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 6,
+     "text": "Walt Disney World\u00ae",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 104,
+     "text": "WALT DISNEY WORLD ears Sgt Village:",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 225,
+     "text": "WALT DISNEY WORLD VILLAGE",
+     "context": [
+      "DOWER CGNs cate a aaa Food & Bev.",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "wdp-annual-report-1980",
+   "date": "1980-01-01",
+   "title_year": "1980",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "Walt Disney Productions Annual Report 1980",
+   "family": "corporate_print",
+   "meta_date": "1980-01-01",
+   "status": "cached",
+   "bytes": 104942,
+   "named_terms": [
+    "disney brothers studio",
+    "walt disney",
+    "walt disney productions"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 106,
+   "phrase_hits": 74,
+   "entity_hits": 75,
+   "matched_entities": [
+    "disney enterprises",
+    "walt disney"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "Walt Disney Productions 1980 Annual Report",
+     "context": [
+      ""
+     ]
+    },
+    {
+     "line": 55,
+     "text": "Walt Disney Productions, 500 S. Buena Vista Street,",
+     "context": [
+      "siockholder upon written request to the Secretary,",
+      "Burbank, California 91521."
+     ]
+    },
+    {
+     "line": 62,
+     "text": "Suckhiolder Relanons Department, Walt Disney",
+     "context": [
+      "wishing a pamphlet shout the plan should write to the",
+      "Produchon-, 5008. Buena Vista Street, Burbank, California"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "wdp-annual-report-1977",
+   "date": "1977-01-01",
+   "title_year": "1977",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "Walt Disney Productions Annual Report 1977",
+   "family": "corporate_print",
+   "meta_date": "1977-01-01",
+   "status": "cached",
+   "bytes": 94559,
+   "named_terms": [
+    "disney brothers studio",
+    "walt disney",
+    "walt disney productions"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 101,
+   "phrase_hits": 53,
+   "entity_hits": 54,
+   "matched_entities": [
+    "disney enterprises",
+    "walt disney"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 2,
+     "text": "Annual Report 1977 Walt Disney Productions",
+     "context": [
+      "i",
+      ""
+     ]
+    },
+    {
+     "line": 46,
+     "text": "Walt Disney Productions continues to maintain the",
+     "context": [
+      "than the solid proof contained in these pages that",
+      "same kind of youthful vigor"
+     ]
+    },
+    {
+     "line": 54,
+     "text": "Reinforced by this financial strength, Walt Disney",
+     "context": [
+      "",
+      "Productions stands today on another new threshold."
+     ]
+    }
+   ]
+  }
+ ]
+}

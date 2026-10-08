@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000101829/000114036120007906/0001140361-20-007906.txt",
+ "fetched": "2026-10-06T11:58:19Z",
+ "sha1": "e7d6be340480b63a671ab6ac70f8c400f4acba97",
+ "bytes": 279664,
+ "words": 8732,
+ "cik": "0000101829",
+ "registrant": "RTX Corp",
+ "accession": "0001140361-20-007906",
+ "document": "0001140361-20-007906.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": true
+}

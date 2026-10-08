@@ -1,0 +1,356 @@
+{
+ "window": [
+  "1944-01-01",
+  "2014-12-31"
+ ],
+ "candidates": 50,
+ "mined": 12,
+ "untried_by_limit": 30,
+ "items": [
+  {
+   "identifier": "2006MoFinExamBlueCrossBlueShieldofKC",
+   "date": "2006-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Missouri Report of the Association Financial Examination of Blue Cross and Blue Shield of Kansas City as of December 31,",
+   "family": "corporate_print",
+   "meta_date": "2006-01-01",
+   "status": "cached",
+   "bytes": 77115,
+   "named_terms": [
+    "elevance health"
+   ],
+   "other_terms": [
+    "formerly known as",
+    "wellpoint formerly known as"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp79-00999a000200010009-6",
+   "date": "1973-01-01",
+   "title_year": "2000",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp79-00999a000200010009-6: QUANTUM THEORY AND PARAPSYCHOLOGY",
+   "family": "internet_archive",
+   "meta_date": "1973-01-01",
+   "status": "cached",
+   "bytes": 72756,
+   "named_terms": [
+    "elevance health"
+   ],
+   "other_terms": [
+    "formerly known as",
+    "wellpoint formerly known as"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 1,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1543,
+     "text": "elevance of quantum",
+     "context": [
+      "only an introductory",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "wellpointsystemi00grif",
+   "date": "1950-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 403)); tried wellpointsystemi00grif_djvu.txt, wellpointsystemi00grif_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "Well4302_2003",
+   "date": "2003-01-01",
+   "title_year": "2003",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "WellPoint Systems Inc (2003)",
+   "family": "internet_archive",
+   "meta_date": "2003-01-01",
+   "status": "cached",
+   "bytes": 65665,
+   "named_terms": [
+    "elevance health"
+   ],
+   "other_terms": [
+    "formerly known as",
+    "wellpoint formerly known as"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 40,
+   "phrase_hits": 0,
+   "entity_hits": 8,
+   "matched_entities": [
+    "wellpoint systems"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 35,
+     "text": "WellPoint Systems Inc. creates products and services that have transformed",
+     "context": [
+      "",
+      ""
+     ],
+     "promoted": "wellpoint systems"
+    },
+    {
+     "line": 42,
+     "text": "IT projects from strategic and design to complete implementation. WellPoint Systems\u2019",
+     "context": [
+      "tailor-made technology solutions. As a Microsoft Business Solutions partner, we deliver",
+      "mission is to be the dominant supplier of Microsoft based software and solutions."
+     ],
+     "promoted": "wellpoint systems"
+    },
+    {
+     "line": 46,
+     "text": "WellPoint Systems Inc.was founded in 1997 and is headquartered in Calgary, Alberta.",
+     "context": [
+      "",
+      ""
+     ],
+     "promoted": "wellpoint systems"
+    }
+   ]
+  },
+  {
+   "identifier": "comparisonofqual00blue",
+   "date": "1997-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Comparison of quality improvement standards and processes for select public and private entities which monitor performan",
+   "family": "internet_archive",
+   "meta_date": "1997-01-01",
+   "status": "cached",
+   "bytes": 582047,
+   "named_terms": [
+    "elevance health"
+   ],
+   "other_terms": [
+    "formerly known as",
+    "wellpoint formerly known as"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "08C-09",
+   "date": "2006-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Analysis and evaluation of claims processing for the period January 1 ... through December 31 ... administered by Blue C",
+   "family": "corporate_print",
+   "meta_date": "2006-01-01",
+   "status": "cached",
+   "bytes": 134342,
+   "named_terms": [
+    "elevance health"
+   ],
+   "other_terms": [
+    "formerly known as",
+    "wellpoint formerly known as"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "77B8A2FD-BF86-40E7-99B7-3487EA77B96F",
+   "date": "2002-01-01",
+   "title_year": "2000",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "Analysis and evaluation of claims processing for the period January 1, 2000 through December 31, 2001 administered by Bl",
+   "family": "corporate_print",
+   "meta_date": "2002-01-01",
+   "status": "cached",
+   "bytes": 53829,
+   "named_terms": [
+    "elevance health"
+   ],
+   "other_terms": [
+    "formerly known as",
+    "wellpoint formerly known as"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "analysisevaluati2004wolc",
+   "date": "2004-01-01",
+   "title_year": "2002",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "Analysis and evaluation of claims processing for the period January 1, 2002 through December 31, 2003 administered by Bl",
+   "family": "corporate_print",
+   "meta_date": "2004-01-01",
+   "status": "cached",
+   "bytes": 187253,
+   "named_terms": [
+    "elevance health"
+   ],
+   "other_terms": [
+    "formerly known as",
+    "wellpoint formerly known as"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "analysisevaluati2006wolc",
+   "date": "2006-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Analysis and evaluation of claims processing for the period January 1, ...through December 31, .... administered by Blue",
+   "family": "corporate_print",
+   "meta_date": "2006-01-01",
+   "status": "cached",
+   "bytes": 133877,
+   "named_terms": [
+    "elevance health"
+   ],
+   "other_terms": [
+    "formerly known as",
+    "wellpoint formerly known as"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "bluecrossnortheastohioannualreports",
+   "date": "",
+   "title_year": "1957",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Blue Cross of Northeast Ohio Annual Reports: 1957\u20131967, 1969\u20131971, 1979",
+   "family": "corporate_print",
+   "meta_date": "",
+   "status": "ok",
+   "bytes": 74046,
+   "named_terms": [
+    "elevance health"
+   ],
+   "other_terms": [
+    "formerly known as",
+    "wellpoint formerly known as"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "gov.gpo.fdsys.CHRG-111hhrg74091",
+   "date": "2009-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "TERMINATIONS OF HEALTH POLICIES BY INSURANCE COMPANIES: STATE PERSPECTIVES AND LEGISLATIVE SOLUTIONS",
+   "family": "internet_archive",
+   "meta_date": "2009-01-01",
+   "status": "cached",
+   "bytes": 321806,
+   "named_terms": [
+    "elevance health"
+   ],
+   "other_terms": [
+    "formerly known as",
+    "wellpoint formerly known as"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 106,
+   "phrase_hits": 0,
+   "entity_hits": 8,
+   "matched_entities": [
+    "wellpoint, inc"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 192,
+     "text": "Wellpoint, Inc 44",
+     "context": [
+      "",
+      ""
+     ],
+     "promoted": "wellpoint, inc"
+    },
+    {
+     "line": 2651,
+     "text": "OFFICER, CONSUMER BUSINESS, WELLPOINT, INC.; CAROL",
+     "context": [
+      "GROUP; BRIAN A. SASSI, PRESIDENT AND CHIEF EXECUTIVE",
+      "CUTTER, COMMISSIONER, INDIANA DEPARTMENT OF INSUR-"
+     ],
+     "promoted": "wellpoint, inc"
+    },
+    {
+     "line": 3035,
+     "text": "WellPoint, Inc.",
+     "context": [
+      "President and C.E.O., Consumer Business",
+      ""
+     ],
+     "promoted": "wellpoint, inc"
+    }
+   ]
+  },
+  {
+   "identifier": "evidenceteaching00rona",
+   "date": "2012-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried evidenceteaching00rona_djvu.txt, evidenceteaching00rona_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  }
+ ]
+}

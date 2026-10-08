@@ -1,0 +1,477 @@
+{
+ "window": [
+  "1971-01-01",
+  "1985-12-31"
+ ],
+ "candidates": 55,
+ "mined": 12,
+ "untried_by_limit": 38,
+ "items": [
+  {
+   "identifier": "cia-readingroom-document-cia-rdp96-00788r001500120024-8",
+   "date": "1984-01-01",
+   "title_year": "2002",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp96-00788r001500120024-8: CONTRACT EXTENSION DATES, REQUEST FOR",
+   "family": "internet_archive",
+   "meta_date": "1984-01-01",
+   "status": "cached",
+   "bytes": 2877,
+   "named_terms": [],
+   "other_terms": [
+    "fdx corporation",
+    "federal express"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "federal express"
+   ],
+   "sample": [
+    {
+     "line": 74,
+     "text": "YOUR NOTES/AEFERENCE NUMBERS (FIRST 12 CHARACTERS WILL ALSO APPEAR ON INVOICE) peetes RO FEDERAL EXPRESS USE",
+     "context": [
+      "__AIRBILL NO. 4 TAL OR CONSEQUENTIAL DAMAGES ARISING FROM",
+      "AESPECT TO THIS SHIPMENT THIS IS A NON-NEGOTIABLE"
+     ]
+    },
+    {
+     "line": 103,
+     "text": "1 Cl ovenniur pacxaces) (i 0202) \"Ty (7) FEDERAL EXPRESS LOCATION SHOWN | a",
+     "context": [
+      "B PRIORITY 1 & ANIGHT LETTER HOLO FOR PICK-UP AT FOLLOWING ca a 2 '",
+      "(Up t0 76 L88) ae CN sevice GUDE. RECIPIENTS ee C1 RETURN SHEMET -"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "DTIC_ADA387307",
+   "date": "1997-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "DTIC ADA387307: Aircraft Accident Report: Crash during Landing Federal Express, Inc. McDonnel Douglas MD-11, N611FE Newa",
+   "family": "corporate_print",
+   "meta_date": "1997-01-01",
+   "status": "cached",
+   "bytes": 325525,
+   "named_terms": [],
+   "other_terms": [
+    "fdx corporation",
+    "federal express"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 159,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "federal  express"
+   ],
+   "sample": [
+    {
+     "line": 18,
+     "text": "FEDERAL  EXPRESS,  INC.",
+     "context": [
+      "CRASH  DURING  LANDING",
+      ""
+     ]
+    },
+    {
+     "line": 34,
+     "text": "Federal  Express,  Inc.",
+     "context": [
+      "Crash  During  Landing",
+      ""
+     ]
+    },
+    {
+     "line": 61,
+     "text": "National  Transportation  Safety  Board.  2000.  Crash  During  Landing  Federal  Express,  Inc.  McDonnell",
+     "context": [
+      "",
+      "Douglas  MD-ll,  NOllFE,  Newark  International  Airport,  Newark,  New  Jersey,  July  31,  1997.  Aircraft"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "airlineindustry0000unse",
+   "date": "1992-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried airlineindustry0000unse_djvu.txt, airlineindustry0000unse_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "DTIC_ADA273978",
+   "date": "1993-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "DTIC ADA273978: Benchmarking Practices of Air Cargo Carriers: A Case Study Approach",
+   "family": "internet_archive",
+   "meta_date": "1993-01-01",
+   "status": "cached",
+   "bytes": 295534,
+   "named_terms": [],
+   "other_terms": [
+    "fdx corporation",
+    "federal express"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 40,
+   "phrase_hits": 0,
+   "entity_hits": 1,
+   "matched_entities": [
+    "fedex  computer"
+   ],
+   "matched_other_terms": [
+    "federal  express"
+   ],
+   "sample": [
+    {
+     "line": 4558,
+     "text": "Nearly  anyone  with  a  FedEx  computer  terminal  can  see  load",
+     "context": [
+      "a  load  plan,  all  of  the  information  is  stored  in  a  computer.",
+      "plans,  however,  only  the  load  planner  can  make  changes  to"
+     ],
+     "promoted": "fedex  computer"
+    }
+   ]
+  },
+  {
+   "identifier": "overnightsuccess0000trim",
+   "date": "1993-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried overnightsuccess0000trim_djvu.txt, overnightsuccess0000trim_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp89-00063r000300260001-6",
+   "date": "1987-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "CIA Reading Room cia-rdp89-00063r000300260001-6: WEEKLY REPORT FOR PROCUREMENT DIVISION FOR PERIOD ENDING 17 FEBRUARY 19",
+   "family": "internet_archive",
+   "meta_date": "1987-01-01",
+   "status": "cached",
+   "bytes": 34244,
+   "named_terms": [],
+   "other_terms": [
+    "fdx corporation",
+    "federal express"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "federal express"
+   ],
+   "sample": [
+    {
+     "line": 1199,
+     "text": "including United Parcel, Federal Express, etc. will be received",
+     "context": [
+      "Dock. During the construction, all commercial mail deliveries,",
+      "and x-rayed at the North Dock. 25X1"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "disciplineofmark0000trea",
+   "date": "1995-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried disciplineofmark0000trea_djvu.txt, disciplineofmark0000trea_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "6292844-FedEx-Re-FedEx-proposal-Kelly-report",
+   "date": "2019-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "FedEx|Re_FedEx_proposal_Kelly_report",
+   "family": "corporate_print",
+   "meta_date": "2019-01-01",
+   "status": "ok",
+   "bytes": 2043,
+   "named_terms": [],
+   "other_terms": [
+    "fdx corporation",
+    "federal express"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 7,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 5,
+     "text": "Re: FedEx proposal/Kelly report",
+     "context": [
+      "6/6/2018 8:58:07 AM",
+      ""
+     ]
+    },
+    {
+     "line": 15,
+     "text": "Let me know if you need anything else on the FedEx proposal in addition to what I sent you yesterday.",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 40,
+     "text": "Subject: FedEx proposal/Kelly report",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "fed-ex-corporation-fdx-annual-report-2016",
+   "date": "2016-01-01",
+   "title_year": "2016",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "FedEx 2016 Annual Report",
+   "family": "corporate_print",
+   "meta_date": "2016-01-01",
+   "status": "ok",
+   "bytes": 357408,
+   "named_terms": [],
+   "other_terms": [
+    "fdx corporation",
+    "federal express"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 200,
+   "phrase_hits": 0,
+   "entity_hits": 4,
+   "matched_entities": [
+    "fedex corporation"
+   ],
+   "matched_other_terms": [
+    "federal express"
+   ],
+   "sample": [
+    {
+     "line": 113,
+     "text": "FedEx Corporation will",
+     "context": [
+      "",
+      "produce superior financial"
+     ],
+     "promoted": "fedex corporation"
+    },
+    {
+     "line": 207,
+     "text": "collaboratively to achieve overall results for FedEx Corporation.",
+     "context": [
+      "",
+      "This means we do not necessarily maximize the profitability"
+     ],
+     "promoted": "fedex corporation"
+    },
+    {
+     "line": 755,
+     "text": "FedEx Corporation S&P 500 Dow Jones Transportation Average of $197 million ($133 million, net of tax, or $0.46 per diluted share) in the",
+     "context": [
+      "",
+      ": : . F : : _. . fourth quarter to increase the legal reserve associated with the settlement"
+     ],
+     "promoted": "fedex corporation"
+    }
+   ]
+  },
+  {
+   "identifier": "fed-ex-corporation-fdx-annual-report-2013",
+   "date": "2013-01-01",
+   "title_year": "2013",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "FedEx 2013 Annual Report",
+   "family": "corporate_print",
+   "meta_date": "2013-01-01",
+   "status": "ok",
+   "bytes": 486237,
+   "named_terms": [],
+   "other_terms": [
+    "fdx corporation",
+    "federal express"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 200,
+   "phrase_hits": 0,
+   "entity_hits": 8,
+   "matched_entities": [
+    "fedex corporation",
+    "fedex shares"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 32,
+     "text": "FedEx Corporation",
+     "context": [
+      "",
+      ""
+     ],
+     "promoted": "fedex corporation"
+    },
+    {
+     "line": 340,
+     "text": "FedEx Corporation",
+     "context": [
+      "",
+      "942 South Shady Grove Road"
+     ],
+     "promoted": "fedex corporation"
+    },
+    {
+     "line": 1192,
+     "text": "interests with the interests of FedEx\u2019s stockholders, the Board of Directors has established a goal that (i) within four",
+     "context": [
+      "In order to encourage significant stock ownership by our directors and senior officers, and to further align their",
+      "years after joining the Board, each non-management director own FedEx shares valued at three times his or her"
+     ],
+     "promoted": "fedex shares"
+    }
+   ]
+  },
+  {
+   "identifier": "fed-ex-corporation-fdx-proxy-statement-2024-09-23",
+   "date": "2024-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "FedEx 2024 Annual Report",
+   "family": "corporate_print",
+   "meta_date": "2024-01-01",
+   "status": "ok",
+   "bytes": 558597,
+   "named_terms": [],
+   "other_terms": [
+    "fdx corporation",
+    "federal express"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 200,
+   "phrase_hits": 0,
+   "entity_hits": 8,
+   "matched_entities": [
+    "fedex corporation",
+    "fedex enterprise",
+    "fedex international"
+   ],
+   "matched_other_terms": [
+    "federal express"
+   ],
+   "sample": [
+    {
+     "line": 124,
+     "text": "President & CEO, FedEx Corporation",
+     "context": [
+      "RAJ SUBRAMANIAM",
+      ""
+     ],
+     "promoted": "fedex corporation"
+    },
+    {
+     "line": 127,
+     "text": "See \u201cForward-Looking Statements\u201d and \u201cRisk Factors\u201d on pages 24-37 of the FY24 FedEx Corporation Annual Report on Form 10-K,",
+     "context": [
+      "",
+      "included herein, for a discussion of potential risks and uncertainties that could materially affect our future performance."
+     ],
+     "promoted": "fedex corporation"
+    },
+    {
+     "line": 158,
+     "text": "FedEx Corporation",
+     "context": [
+      "Commission file number 1-15829",
+      "(Exact Name of Registrant as Specified in its Charter)"
+     ],
+     "promoted": "fedex corporation"
+    }
+   ]
+  },
+  {
+   "identifier": "fed-ex-corporation-fdx-annual-report-2021",
+   "date": "2021-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "FedEx 2021 Annual Report",
+   "family": "corporate_print",
+   "meta_date": "2021-01-01",
+   "status": "ok",
+   "bytes": 543947,
+   "named_terms": [],
+   "other_terms": [
+    "fdx corporation",
+    "federal express"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 200,
+   "phrase_hits": 0,
+   "entity_hits": 8,
+   "matched_entities": [
+    "fedex corporation",
+    "fedex international"
+   ],
+   "matched_other_terms": [
+    "federal express"
+   ],
+   "sample": [
+    {
+     "line": 82,
+     "text": "underbelly capacity. And for e-commerce, we\u2019re giving customers even more reasons to choose FedEx \u2014 including the addition of",
+     "context": [
+      "supply chains operating. With the same precision, we\u2019re refining our operating plans for the return of commercial airline traffic and",
+      "attractive services like FedEx International Connect Plus \u2014 our day-definite e-commerce delivery service rolling out globally this fiscal year."
+     ],
+     "promoted": "fedex international"
+    },
+    {
+     "line": 83,
+     "text": "attractive services like FedEx International Connect Plus \u2014 our day-definite e-commerce delivery service rolling out globally this fiscal year.",
+     "context": [
+      "underbelly capacity. And for e-commerce, we\u2019re giving customers even more reasons to choose FedEx \u2014 including the addition of",
+      ""
+     ],
+     "promoted": "fedex international"
+    },
+    {
+     "line": 160,
+     "text": "See \u201cForward-Looking Statements\u201d and \u201cRisk Factors\u201d on pages 23-34 of the fiscal 2021 FedEx Corporation Annual Report on",
+     "context": [
+      "",
+      "Form 10-K, included herein, for a discussion of potential risks and uncertainties that could materially affect our future performance."
+     ],
+     "promoted": "fedex corporation"
+    }
+   ]
+  }
+ ]
+}

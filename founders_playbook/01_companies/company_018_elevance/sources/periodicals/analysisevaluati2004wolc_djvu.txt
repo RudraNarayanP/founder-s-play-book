@@ -1,0 +1,6015 @@
+s 
+
+368.014 
+L72AEC 
+2004 
+
+
+Employee  Benefit  Plan  for  the  State  of  Montana 
+
+and  Montana  University  System; 
+and  the  Children's  Health  Insurance  Plan  (CHIP) 
+
+Medical  Claims  and  Pharmacy  Claims  Payment  Audit 
+
+January  1,  2002  -  December  31.  2003 
+
+04C-07 
+
+
+STATF  OOHIMFNTS  COLLECTION 
+
+JAN  20  2005 
+
+MONTANA  SI  Alt  LlbKAR' 
+
+1515  E.  6th  AVE. 
+HELENA    I  : 
+
+
+Prepared  Under  Contract  With: 
+MONTANA  LEGISLATIVE  BRANCH,  AUDIT  DIVISION 
+
+PO  Box  201705,  Helena  MT  59620-1705 
+
+
+Montana  Stale  Library 
+
+
+3  0864  1003  2975  7 
+
+
+STATE  OF  MONTANA, 
+
+MONTANA  UNIVERSITY  SYSTEM  and 
+
+CHILDREN'S  HEALTH  INSURANCE  PLAN 
+
+ANALYSIS  AND  EVALUATION  OF 
+
+CLAIMS  PROCESSING 
+
+FOR  THE  PERIOD 
+
+JANUARY  1,  2002  THROUGH  DECEMBER  31,  2003 
+
+
+ADMINISTERED  BY 
+BLUE  CROSS  BLUE  SHIELD  OF  MONTANA 
+
+FINAL  REPORT 
+DECEMBER,  2004 
+
+
+PRESENTED  BY 
+
+WOLCOTT  &  ASSOCIATES,  INC. 
+12120  STATE  LINE  ROAD,  SUITE  297 
+
+LEAWOOD,  KANSAS  66209 
+
+
+Digitized  by  the  Internet  Archive 
+
+in  2011  with  funding  from 
+
+Montana  State  Library 
+
+
+http://www.archive.org/details/analysisevaluati2004wolc 
+
+
+STATE  OF  MONTANA,  MONTANA  UNIVERSITY  SYSTEM  AND 
+
+CHILDREN'S  HEALTH  INSURANCE  PLAN 
+
+HEALTH  CARE  PLAN  AUDIT 
+
+OF  BLUE  CROSS  BLUE  SHIELD  OF  MONTANA 
+
+JANUARY  1, 2002  -  DECEMBER  31,  2003 
+
+TABLE  OF  CONTENTS 
+
+
+SECTION 
+
+
+PAGE 
+
+
+I-  INTRODUCTION 
+
+
+II  -  STATISTICAL  CLAIM  AUDIT  RESULTS  -  STATE  &  MUS 
+
+
+III  -  STATISTICAL  CLAIM  AUDIT  RESULTS  -  CHIP 
+
+
+IV  -  ELIGIBILITY 
+
+
+V  -  BCBSMT  REIMBURSEMENT 
+
+
+VI  -  CLAIM  PAYMENT  TURNAROUND  TIME 
+
+
+VII  -  COST  CONTATNMENT 
+
+
+VIII  -  LOGIC  AND  OTHER  TEST  RESULTS 
+
+
+LX  -  OTHER  REVIEW  AREAS 
+
+
+X  -  PRIOR  AUDIT  RECOMMENDATIONS 
+
+
+II- 1 
+
+m-i 
+
+rv-i 
+v-i 
+
+VI- 1 
+
+VII- 1 
+
+VII- 1 
+
+LX-l 
+
+X-l 
+
+
+EXHIBITS 
+
+
+DESCRIPTION  OF  ERRORS  -  STATE  &  MUS 
+
+DESCRIPTION  OF  ERRORS  -  CHIP 
+
+RESULTS  OF  SYSTEM  TESTS 
+
+BLUE  CROSS  BLUE  SHIELD  OF  MONTANA  RESPONSE  -  Traditional 
+
+BLUE  CROSS  BLUE  SHIELD  OF  MONTANA  RESPONSE  -  CHIP 
+
+STATE  OF  MONTANA  RESPONSE 
+
+MONTANA  UNIVERSITY  SYSTEM  RESPONSE 
+
+CHILDREN'S  HEALTH  INSURANCE  PLAN  RESPONSE 
+
+
+EXHIBIT  A 
+EXHIBIT  B 
+EXHIBIT  C 
+EXHIBIT  D 
+EXHIBIT  D-l 
+EXHIBIT  E 
+EXHIBIT  F 
+EXHIBIT  G 
+
+
+LEGISLATIVE  AUDIT  DIVISION 
+
+
+Scott  A.  Seacat,  Legislative  Auditor 
+John  W.  Northey,  Legal  Counsel 
+
+
+Deputy  Legislative  Auditors: 
+
+Jim  Pellegrini,  Performance  Audit 
+
+Tori  Hunthausen,  IS  Audit  &  Operations 
+
+James  Gillett,  Financial-Compliance  Audit 
+
+
+December  2004 
+
+
+The  Legislative  Audit  Committee 
+of  the  Montana  State  Legislature: 
+
+Enclosed  is  the  report  on  the  audit  of  the  medical  and  pharmacy  claims  for  the  employee  benefits  plans  at 
+the  State  of  Montana,  the  Montana  University  System,  and  the  Children's  Health  Insurance  Plan  (CHIP) 
+Program  for  the  two  years  ended  December  3 1 ,  2003. 
+
+The  audit  was  conducted  by  Wolcott  &  Associates  under  a  contract  between  the  firm  and  our  office.  The 
+comments  and  recommendations  contained  in  this  report  represent  the  views  of  the  firm  and  not 
+necessarily  the  Legislative  Auditor. 
+
+The  agency's  written  response  to  the  report  recommendations  is  included  in  the  back  of  the  audit  report. 
+
+Respectfully  submitted, 
+
+
+A 
+
+
+Scott  A.  Seacat 
+Legislative  Auditor 
+
+
+04C-07 
+
+
+Room  160,  State  Capitol,  PO  Box  201705  Helena  MT  59620-1705 
+Phone  (406)  444-3 1 22    FAX  (406)  444-9784    E-Mail  lad@state.mt.us 
+
+
+I  -  INTRODUCTION 
+
+The  State  of  Montana  (State)  provides  self- funded  medical  care  and  dental  care  benefits  as 
+part  of  an  overall  employee  benefit  and  compensation  program.  The  plan  covers  approximately 
+1 5,000  employees  and  retirees,  plus  their  dependents  for  a  total  of  32,000  covered  lives. 
+
+The  State  has  negotiated  a  contract  with  Blue  Cross  Blue  Shield  of  Montana  (BCBSMT)  to 
+provide  administration  services  to  its  indemnity  medical  and  dental  plans. 
+
+The  Montana  University  System  (MUS)  is  a  member  of  the  Montana  Association  of  Health 
+Care  Purchasers,  and  has  also  contracted  to  have  their  medical  and  dental  care  benefits  administered 
+by  BCBSMT.  The  plan  covers  approximately  5,000  employees  and  retirees,  plus  their  dependents. 
+
+The  Children's  Health  Insurance  Plan  (CHIP)  is  administered  by  the  Department  of  Public 
+Health  and  Human  Services  (DPHHS),  and  provides  a  fully  insured  medical  care  and  prescription 
+drug  plan  to  qualifying  children  in  the  State  of  Montana.  The  plan  covers  approximately  1 1 ,000 
+children. 
+
+The  State  invited  MUS  and  CHIP  to  participate  in  an  audit  of  BCBSMT's  processing  of 
+medical  care  and  dental  care  claims. 
+
+PURPOSE  OF  SERVICE 
+
+Section  2.18.816,  MCA  requires  the  State  Employee  Benefits  Plan  to  be  audited  every  two 
+years  by  or  at  the  direction  of  the  Legislative  Audit  Division.  Wolcott  &  Associates,  Inc.  was 
+awarded  the  audit  contract  for  the  2002-2003  Plan  Years. 
+
+The  purpose  of  the  service  is  to  comply  with  Section  2.18.816,  MCA. 
+
+The  State  and  MUS  recognize  that  they  have  a  fiduciary  responsibility  to  administer  this  plan 
+(and  other  employee  benefit  plans)  for  the  benefit  of  plan  participants  and  their  dependents  and  in 
+accordance  with  the  plan  provisions.  Both  plan  sponsors  believe  it  is  prudent  to  perform  periodic 
+audit  and  review  services  to  determine  if  the  benefit  plans  they  sponsor  are  meeting  these  objectives. 
+
+AUDIT  TIMING 
+AND  STAFF 
+
+The  Legislative  Audit  Division  advised  Wolcott  &  Associates,  Inc.  that  we  were  awarded  the 
+audit  contract  on  June  2 1 ,  2004.  All  preliminary  work  was  completed  and  the  entrance  meeting  was 
+held  in  Helena  on  September  8,  2004.  On-site  work  at  the  State,  MUS,  CHIP  and  BCBSMT  was 
+performed  during  the  weeks  of  September  7  and  13,  2004. 
+
+On-site  audit  services  were  performed  at: 
+
+
+1-1 
+
+
+State  of  Montana 
+State  Personnel  Division 
+Mitchell  Building 
+Helena,  Montana  59620 
+
+Montana  University  System 
+2500  Broadway 
+Helena,  Montana  59620 
+
+Blue  Cross  &  Blue  Shield  of  Montana 
+560  North  Park  Avenue 
+Helena,  Montana  59601 
+
+Wolcott  &  Associates,  Inc.  staff  involved  in  the  audit  are  listed  below: 
+
+Name  Title  On-site 
+
+
+Brian  Wyman 
+
+Manager 
+
+Yes 
+
+Marie  Pollock 
+
+Vice  President,  Project  Director 
+
+Yes 
+
+Richard  Reese 
+
+Actuary 
+
+No 
+
+Cathy  McKittrick 
+
+Auditor 
+
+Yes 
+
+Jenny  Hill 
+
+Statistician 
+
+No 
+
+SCOPE  OF  AUDIT 
+
+The  scope  of  audit  services  covered  medical  care  and  dental  care  benefit  claims  paid  by 
+BCBSMT  during  the  period  from  January  1,  2002  through  December  31,  2003.  Test  work  was 
+performed  on  633  previously  processed  claims,  all  of  which  were  selected  on  a  stratified,  random 
+(statistical)  basis. 
+
+Claims  Adjudication  Audit 
+
+Elements  of  claims  adjudication  which  were  evaluated  include: 
+
+•  Turnaround  time  required  to  process  each  claim. 
+
+•  Eligibility  of  claimants  to  receive  payment. 
+
+•  Administration  of  coordination  of  benefits,  including  Medicare. 
+
+•  Administration  of  subrogation  provisions. 
+
+•  Calculation  accuracy,  including  Usual,  Customary  and  Reasonable  (UCR)  limits  and 
+
+1-2 
+
+
+computation  of  deductible  and  co-payment  limits. 
+
+•  Completeness  of  necessary  information. 
+
+•  Payee  accuracy,  including  benefit  assignments  to  service  providers. 
+
+•  Consistency  of  payments  to  BCBSMT  member  physicians  and  other  physicians. 
+
+•  Compliance  with  benefit  plan  structure. 
+
+•  Identification  of  duplicate  claim  submissions. 
+
+Test  Claims 
+
+Test  claims  were  prepared  and  entered  into  the  BCBSMT  system  to  test  various  aspects  of 
+the  system's  capabilities.  The  test  claims  addressed  the  following: 
+
+Duplicate  claims. 
+
+Duplicate  claim  logic. 
+
+Claims  for  terminated  individuals. 
+
+Claims  for  terminated  dependents. 
+
+Claims  from  a  fictitious  provider. 
+
+Claims  for  fictitious  services. 
+
+Claims  involving  coordination  of  benefits  with  another  health  care  plan. 
+
+Claims  involving  fees  in  excess  of  the  usual,  customary  and  reasonable  limit 
+established  for  the  plan. 
+
+Claims  for  procedures  and/or  diagnosis  codes  that  are  inconsistent  with  the  patient's 
+sex. 
+
+
+1-3 
+
+
+II  -  STATISTICAL  CLAIM  AUDIT  RESULTS  -  STATE  &  MUS 
+
+The  results  of  our  audit  of  previously  processed  claims  are  presented  in  this  section. 
+
+SAMPLE  SIZE  AND  METHODOLOGY 
+
+The  proposal  request  stated  that  our  sample  size  was  to  be  large  enough  so  as  to  express  the 
+frequency  of  error  with  a  95%  confidence  and  a  precision  of  +  or  -  3%,  assuming  an  error  rate  of  5% 
+or  less.  As  a  result,  we  proposed  to  audit  a  sample  of  422  claims  (21 1  claims  for  each  plan  sponsor). 
+
+The  claims  were  selected  from  the  population  of  claims  paid  by  BCBSMT  between  January 
+1,  2002  and  December  31,  2003.    Prior  to  selection,  the  population  of  claims  was  stratified. 
+
+AUDIT  PROCEDURE 
+
+Information  presented  below  describes  our  test  work  on  the  422  previously  processed  claims 
+(medical  and  dental)  in  our  sample  and  the  errors  identified.  The  test  involved  the  following: 
+
+•  Review  of  previously  processed  claims  to  determine  if  selected  claim  is  a  duplicate  of  a 
+previously  processed  claim. 
+
+•  Review  of  member  specific  coverage  on  BCBSMT's  records  to  the  coverage  indicated  on 
+the  plan's  records. 
+
+•  Verification  that  members  are  employees/retirees  of  the  plan  and  covered  under  the  plan 
+at  the  time  the  claim  was  incurred. 
+
+•  Review  to  determine  that  BCBSMT  is  following  all  procedures  necessary  to  obtain  a 
+reasonable  level  of  coordination  of  benefits  (COB)  recoveries. 
+
+•  Recomputation  of  each  claim  selected  for  testing  to  determine  its  accuracy  including 
+analysis  of  any  refunds  due  and/or  payable. 
+
+•  Review  of  the  nature  of  the  claim  to  ascertain  the  allowability  of  costs  as  defined  in  the 
+contract  (e.g.,  processed  within  the  proper  allowance  and  medical  necessity  guidelines, 
+pre-certification  requirements  and  other  benefit  limitation  guidelines). 
+
+•  Comparison  of  each  claim  to  supporting  documentation  submitted  by  the  member  or  the 
+provider  of  services  to  ensure  that  the  claim  reflects  the  documentation  and  that  it  is 
+properly  authorized  for  payment. 
+
+n-i 
+
+
+•  Comparison  of  each  claim  to  other  claims  for  that  individual  with  the  same  date  of  service 
+to  ensure  congruency  of  payment  with  all  claims  for  that  date  of  service. 
+
+•  Review  of  the  microfilm  copies  and  source  documents,  when  appropriate,  to  determine  if 
+there  are  any  indications  of  fraud. 
+
+DEFINITION  OF  ERROR 
+
+We  defined  an  error  to  be  any  claim  where  the  payment  to  the  participant  or  the  provider  did 
+not  agree  with  the  plan  document  provisions. 
+
+AUDIT  RESULTS 
+
+Of  the  422  claims  in  our  statistical  sample,  9  were  judged  to  contain  a  payment  error.  This 
+represents  a  frequency  of  payment  error  of  2.1%. 
+
+Our  sample  contained  a  total  payment  of  $7, 1 75,7 1 8. 1 8  for  the  422  claims.  The  overpayments 
+totaled  $197,612.42  or  2.75%  of  the  total.  The  underpayments  totaled  $.88  or  0.000%  of  the  total. 
+This  financial  error  rate  is  less  favorable  than  the  .5  to  1  percent  error  rate  normally  observed  during 
+our  audits  of  similar  plans.  It  is  also  less  favorable  than  the  BCBSMT  standard  of  1%. 
+
+The  frequency  of  payment  error  in  our  sample  is  more  favorable  than  the  three  to  five  percent 
+error  rate  normally  observed  during  our  audits  of  similar  plans.  It  is  also  more  favorable  than  the 
+BCBSMT  standard  of  3%.  However,  the  error  rate  is  less  favorable  than  the  1 .2%  error  rate  reported 
+in  the  prior  audit  report. 
+
+There  were  no  errors  identified  for  the  dental  claims  in  our  sample. 
+
+POPULATION  DATA 
+
+Our  sample  was  selected  on  a  stratified  basis.  The  basis  for  stratification  was  paid  amount. 
+This  sampling  method  can  be  expected  to  produce  sample  results  that  differ  from  the  results 
+projected  for  the  population. 
+
+We  have  extended  the  results  of  our  sample  to  the  population  of  claims  paid  during  the  audit 
+period. 
+
+Based  on  this  extension,  we  are  95%  confident  with  a  precision  of  +  or  -  0.5%,  that  the  true 
+frequency  of  error  in  the  population  is  within  the  range  of  1 .6%  to  2.6%. 
+
+
+n-2 
+
+
+Based  on  this  extension,  we  believe  that  the  true  magnitude  of  payment  error  in  the 
+population  is  $242,696  or  (0. 1 7%  of  payments  in  the  population).  The  magnitude  of  payment  error 
+is  the  sum  of  $242,650  in  projected  overpayments  plus  $46  in  projected  underpayments. 
+
+TYPES  OF  ERRORS 
+
+Each  of  the  errors  identified  in  our  sample  is  listed  in  Exhibit  A.  A  discussion  of  error  types 
+is  presented  below. 
+
+A  summary  of  error  by  type  is  presented  below: 
+
+BCBSMT  HEALTH  CARE  CLAIMS 
+
+JANUARY  1,  2002  THROUGH  DECEMBER  31,  2003 
+
+SUMMARY  OF  ERRORS  BY  TYPE 
+
+NET  PAYMENT 
+ERROR 
+
+100.00 
+
+118,664.09 
+
+77,961.23 
+
+886.22  (net) 
+
+$197.611.54 
+
+BCBSMT  has  included  their  response  as  Exhibit  D. 
+
+RECOMMENDATIONS 
+
+Our  recommendations  are  as  follows: 
+
+•  During  a  portion  of  our  audit  period  the  MUS  and  the  State  utilized  an  outside  vendor  for 
+repricing  of  inpatient  hospital  claims.  As  of  August,  2003  these  services  were  to  be 
+performed  by  BCBSMT.  However,  during  a  three  month  time  period,  claims  for  State 
+employees  were  submitted  with  billed  charges  and  BCBSMT  was  making  payment  with 
+the  assumption  these  claims  had  already  been  repriced.  This  has  caused  considerable 
+overpayment  of  claims  for  the  State  (we  identified  $120,122.66).  We  believe  BCBSMT 
+should  review  all  inpatient  claims  processed  and  paid  during  this  time  period  and 
+
+II-3 
+
+
+ERROR  TYPE 
+
+NUMBER 
+
+Application  of  pre-cert  penalty. 
+
+1 
+
+Hospital  discount  application. 
+
+4 
+
+ESRD  -  Medicare  COB 
+
+1 
+
+Other 
+
+3 
+
+Total 
+
+9 
+
+Based  on  this  extension,  we  believe  that  the  true  magnitude  of  payment  error  in  the 
+population  is  $242,696  or  (0. 1 7%  of  payments  in  the  population).  The  magnitude  of  payment  error 
+is  the  sum  of  $242,650  in  projected  overpayments  plus  $46  in  projected  underpayments. 
+
+TYPES  OF  ERRORS 
+
+Each  of  the  errors  identified  in  our  sample  is  listed  in  Exhibit  A.  A  discussion  of  error  types 
+is  presented  below. 
+
+A  summary  of  error  by  type  is  presented  below: 
+
+BCBSMT  HEALTH  CARE  CLAIMS 
+
+JANUARY  1,  2002  THROUGH  DECEMBER  31,  2003 
+
+SUMMARY  OF  ERRORS  BY  TYPE 
+
+
+NET  PAYMENT 
+
+ERROR  TYPE 
+
+NUMBER 
+
+ERROR 
+
+Application  of  pre-cert  penalty. 
+
+1 
+
+100.00 
+
+Hospital  discount  application. 
+
+4 
+
+118,664.09 
+
+ESRD  -  Medicare  COB 
+
+1 
+
+77,961.23 
+
+Other 
+
+3 
+
+886.22  (net) 
+
+Total 
+
+2 
+
+$197,611.54 
+
+BCBSMT  has  included  their 
+
+response  as  Exhibit  D. 
+
+RECOMMENDATIONS 
+
+Our  recommendations  are  as 
+
+follows: 
+
+During  a  portion  of  our  audit  period  the  MUS  and  the  State  utilized  an  outside  vendor  for 
+repricing  of  inpatient  hospital  claims.  As  of  August,  2003  these  services  were  to  be 
+performed  by  BCBSMT.  However,  during  a  three  month  time  period,  claims  for  State 
+and  MUS  employees  were  submitted  with  billed  charges  and  BCBSMT  was  making 
+payment  with  the  assumption  these  claims  had  already  been  repriced.  This  has  caused 
+considerable  overpayment  of  claims  for  the  State  and  MUS  (we  identified  $  1 1 8,664.09). 
+We  believe  BCBSMT  should  review  all  inpatient  claims  processed  and  paid  during  this 
+
+II-3 
+
+
+time  period  and  reimburse  the  State  and  MUS  for  all  overpayments,  including  our  audit 
+findings. 
+
+We  recommend  BCBSMT  reimburse  the  State  for  all  overpayments  made  on  the  ESRD 
+patient.  We  believe  this  individual's  entire  claim  file  has  been  overpaid. 
+
+
+II-4 
+
+
+Ill  -  STATISTICAL  CLAIM  AUDIT  RESULTS  -  CHIP 
+
+The  results  of  our  audit  of  previously  processed  claims  are  presented  in  this  section. 
+
+SAMPLE  SIZE  AND  METHODOLOGY 
+
+The  proposal  request  stated  that  our  sample  size  was  to  be  large  enough  so  as  to  express  the 
+frequency  of  error  with  a  95%  confidence  and  a  precision  of  +  or  -  3%,  assuming  an  error  rate  of  5% 
+or  less.  As  a  result,  we  proposed  to  audit  a  sample  of  21 1  claims. 
+
+The  claims  were  selected  from  the  population  of  claims  paid  by  BCBSMT  between  January 
+1,  2002  and  December  31,  2003.    Prior  to  selection,  the  population  of  claims  was  stratified. 
+
+AUDIT  PROCEDURE 
+
+Information  presented  below  describes  our  test  work  on  the  2 1 1  previously  processed  claims 
+in  our  sample  and  the  errors  identified.  The  test  involved  the  following: 
+
+•  Review  of  previously  processed  claims  to  determine  if  selected  claim  is  a  duplicate  of  a 
+previously  processed  claim. 
+
+•  Review  of  member  specific  coverage  on  BCBSMTs  records  to  the  coverage  indicated  on 
+the  plan's  records. 
+
+•  Verification  that  members  are  eligible  participants  of  the  plan  and  covered  under  the  plan 
+at  the  time  the  claim  was  incurred. 
+
+•  Review  to  determine  that  BCBSMT  is  following  all  procedures  necessary  to  obtain  a 
+reasonable  level  of  coordination  of  benefits  (COB)  recoveries. 
+
+•  Recomputation  of  each  claim  selected  for  testing  to  determine  its  accuracy  including 
+analysis  of  any  refunds  due  and/or  payable. 
+
+•  Review  of  the  nature  of  the  claim  to  ascertain  the  allowability  of  costs  as  defined  in  the 
+contract  (e.g.,  processed  within  the  proper  allowance  and  medical  necessity  guidelines, 
+pre-certification  requirements  and  other  benefit  limitation  guidelines). 
+
+•  Comparison  of  each  claim  to  supporting  documentation  submitted  by  the  member  or  the 
+provider  of  services  to  ensure  that  the  claim  reflects  the  documentation  and  that  it  is 
+properly  authorized  for  payment. 
+
+m-i 
+
+
+•  Comparison  of  each  claim  to  other  claims  for  that  individual  with  the  same  date  of  service 
+to  ensure  congruency  of  payment  with  all  claims  for  that  date  of  service. 
+
+•  Review  of  the  microfilm  copies  and  source  documents,  when  appropriate,  to  determine  if 
+there  are  any  indications  of  fraud. 
+
+DEFINITION  OF  ERROR 
+
+We  defined  an  error  to  be  any  claim  where  the  payment  to  the  participant  or  the  provider  did 
+not  agree  with  the  plan  document  provisions. 
+
+AUDIT  RESULTS 
+
+Of  the  21 1  claims  in  our  statistical  sample,  15  were  judged  to  contain  a  payment  error.  This 
+represents  a  frequency  of  payment  error  of  7.1%. 
+
+Our  sample  contained  a  total  payment  of  $  1 ,569,764.94  for  the  2 1 1  claims.  The  overpayments 
+totaled  $63.02  or  .004%  of  the  total.  The  underpayments  totaled  $101.96  or  0.006%  of  the  total. 
+This  error  rate  is  more  favorable  than  the  .5  to  1  percent  error  rate  normally  observed  during  our 
+audits  of  similar  plans.  It  is  also  more  favorable  than  the  BCBSMT  standard  of  1%. 
+
+The  frequency  of  payment  error  in  our  sample  is  less  favorable  than  the  three  to  five  percent 
+error  rate  normally  observed  during  our  audits  of  similar  plans.  It  is  also  less  favorable  than  the 
+BCBSMT  standard  of  3%.  This  is  the  first  claim  audit  for  CHIP,  therefore  we  cannot  make  any 
+comparisons  to  previous  audit  results. 
+
+POPULATION  DATA 
+
+Our  sample  was  selected  on  a  stratified  basis.  The  basis  for  stratification  was  paid  amount. 
+This  sampling  method  can  be  expected  to  produce  sample  results  that  differ  from  the  results 
+projected  for  the  population. 
+
+We  have  extended  the  results  of  our  sample  to  the  population  of  claims  paid  during  the  audit 
+period. 
+
+Based  on  this  extension,  we  are  95%  confident  with  a  precision  of  +  or  - 1 .2%,  that  the  true 
+frequency  of  error  in  the  population  is  within  the  range  of  5.9%  to  8.3%. 
+
+Based  on  this  extension,  we  believe  that  the  true  magnitude  of  payment  error  in  the 
+population  is  $5,340  or  (0.03%  of  payments  in  the  population).  The  magnitude  of  payment  error  is 
+
+ffl-2 
+
+
+the  sum  of  $3,040  in  projected  overpayments  plus  $2,300  in  projected  underpayments. 
+
+TYPES  OF  ERRORS 
+
+Each  of  the  errors  identified  in  our  sample  is  listed  in  Exhibit  B.  A  discussion  of  error  types 
+is  presented  below. 
+
+A  summary  of  error  by  type  is  presented  below: 
+
+CHIP  HEALTH  CARE  CLAIMS 
+
+JANUARY  1,  2002  THROUGH  DECEMBER  31,  2003 
+
+SUMMARY  OF  ERRORS  BY  TYPE 
+
+
+ERROR  TYPE 
+
+Application  of  mental  health 
+copays. 
+
+Incorrect  application  of  copay 
+for  services  not  requiring  copay. 
+
+Incorrect  application  of  copay 
+for  out-of-state  claims  (ITS). 
+
+Should  have  applied  copay 
+to  office  visit. 
+
+
+NUMBER 
+
+
+NET  PAYMENT 
+ERROR 
+
+
+$    28.00 
+
+
+1 
+
+
+Incorrect  denial  of  audiology 
+
+services  for  newborns.  1 
+
+
+Total 
+
+
+15 
+
+
+(14.00) 
+
+32.02 
+
+3.00 
+
+(87.96) 
+$f38.94) 
+
+
+BCBSMT  has  included  their  response  as  Exhibit  D  -  1  . 
+RECOMMENDATIONS 
+
+Our  recommendations  are  as  follows: 
+
+•    We  believe  the  identified  errors  during  our  audit  are  the  result  of  incorrect  programming 
+in  the  BCBSMT  claim  payment  system.  We  believe  BCBSMT  should  communicate  to 
+
+
+UI-3 
+
+
+CHIP  an  action  plan  for  correcting  all  identified  programming  errors. 
+
+We  idenfied  several  claims  where  subrogation  (Third  Party  Liability)  was  potentially 
+involved.  We  requested  documentation  on  each  of  these  claims.  BCBSMT  indicated  to 
+us  that  they  only  update  the  system  with  notes  when  the  individual  has  submitted  a 
+response  to  the  TPL  letter  issued  by  BCBSMT.  We  believe  BCBSMT  should  be 
+documenting  all  correspondence  sent  to  a  participant,  in  order  to  allow  claim  processors 
+to  have  a  complete  understanding,  at  all  times,  as  to  the  status  of  an  investigation. 
+
+We  identified  a  claim  that  the  automobile  insurance  made  a  payment  to  the  hospital. 
+However,  BCBSMT  did  not  reduce  their  payment  to  the  hospital.  BCBSMT  indicates 
+that  since  the  amount  reimbursed  by  the  automobile  insurance  was  less  than  the  liability 
+to  the  hospital  that  they  do  not  reduce  their  payment.  We  believe  this  payment  procedure 
+is  contrary  to  any  practices  identified  in  other  insurance  companies  with  which  we  are 
+familiar. 
+
+
+III-4 
+
+
+IV  -  ELIGIBILITY 
+
+The  plan  sponsors  use  various  methods  to  report  new  entrants,  changes  and  termination  of 
+coverage  to  BCBSMT.  This  section  describes  the  methods  employed  and  presents  the  results  of  the 
+verification  of  eligibility  for  the  633  (21 1  for  the  3  plan  sponsors)  in  our  sample  where  a  payment 
+was  made  by  BCBSMT. 
+
+STATE  OF  MONTANA 
+
+The  State  prepares  and  sends  to  BCBSMT  a  biweekly  eligibility  tape  showing  each  individual 
+to  be  covered  for  the  coming  month.  BCBSMT  runs  this  tape  and  compares  it  to  the  data  for  the 
+prior  month. 
+
+Eligibility  Verification 
+
+Each  of  the  State  participants  in  our  sample  was  researched  on  the  State  eligibility  system 
+to  verify  that  the  State's  records  indicated  that  coverage  was  in  force  on  the  date  the  services  were 
+rendered. 
+
+No  exceptions  were  noted. 
+
+MONTANA  UNIVERSITY  SYSTEM 
+
+BCBSMT  receives  the  enrollment  data  from  each  campus  on  a  daily  basis.  BCBSMT  then 
+follows  the  same  process  as  the  State. 
+
+Eligibility  Verification 
+
+Each  of  the  MUS  participants  in  our  sample  was  researched  at  the  applicable  campus  to 
+verify  that  the  BCBSMT's  records  indicated  that  coverage  was  in  force  on  the  date  the  services  were 
+rendered.  MUS  records  confirmed  that  all  participants  in  the  sample  were  covered  as  of  the  date  the 
+services  were  rendered. 
+
+No  exceptions  were  noted. 
+
+CHIP 
+
+CHIP  prepares  and  sends  to  BCBSMT  a  monthly  eligibility  tape  showing  each  individual  to 
+be  covered  for  the  month.  BCBSMT  then  follows  the  same  process  as  the  State. 
+
+
+rv-i 
+
+
+1 
+
+
+Eligibility  Verification 
+
+Each  of  the  CHIP  participants  in  our  sample  was  researched  to  verify  that  the  BCBSMT's 
+records  indicated  that  coverage  was  in  force  on  the  date  the  services  were  rendered.  CHIP'S  records 
+confirmed  that  all  participants  in  the  sample  were  covered  as  of  the  date  the  services  were  rendered. 
+
+No  exceptions  were  noted. 
+
+
+IV-2 
+
+
+V  -  BCBSMT  REIMBURSEMENT 
+
+The  State  and  MUS  reimburse  BCBSMT  for  claims  paid  on  behalf  of  subscribers  and  their 
+eligible  dependents.  BCBSMT  credits  the  Plan  Sponsors  for  overpaid  claims  once  they  are 
+corrected. 
+
+CHIP  submits  to  BCBSMT  premiums  on  a  monthly  basis.  This  is  based  on  the  current 
+month's  enrollment  in  the  Plan.  A  detailed  bill  is  sent  to  CHIP  prior  to  the  premium  payment 
+
+The  scope  of  our  service  included  the  measurement  of  the  time  required  by  the  plan  sponsors 
+to  reimburse  BCBSMT  for  claims  processed.  The  results  of  our  test  work  is  presented  below. 
+
+REIMBURSEMENT  PROCESSING  TIME 
+
+BCBSMT  submits  invoices  for  reimbursement  for  claims  paid  during  a  certain  period.  The 
+frequency  of  the  invoices  and  the  payment  terms  differ  for  each  plan  sponsor.  Presented  below  is 
+information  regarding  the  contractual  provision  and  the  actual  time  required  to  reimburse  BCBSMT 
+based  on  records  made  available  to  us. 
+
+State  of  Montana 
+
+The  State  will  bank  wire  transfer  the  requested  amount  within  48  hours  of  the  receipt  of  a 
+phone  call  from  BCBSMT.  BCBSMT  then  sends  the  State  an  invoice  reflecting  the  amount 
+requested. 
+
+We  gathered  invoices  from  January  1 ,  2002  through  December  3 1 .  2003  and  measured  the 
+elapsed  time  between  the  phone  call  and  the  date  payment  was  made  by  the  State. 
+
+A  total  of  5  invoices  were  included  in  our  review. 
+
+We  noted  that  the  state  actually  reimburses  BCBSMT  within  48  hours  of  the  receipt  of  a 
+phone  call  from  BCBSMT.  Therefore,  the  state  reimburses  BCBSMT  before  the  receipt  of  the 
+invoice.  Upon  receipt  of  the  invoice  from  BCBSMT,  the  state  compares  the  amount  requested  to 
+the  wire  transfer  confirmation. 
+
+We  noted  no  exceptions  when  comparing  the  wire  transfer  amount  to  the  invoice  amount. 
+The  amount  requested,  by  phone,  from  BCBSMT  was  paid  within  48  hours  of  the  phone  call  in  all 
+5  cases. 
+
+
+V-l 
+
+
+Montana  University  System 
+
+MUS  will  bank  wire  transfer  the  amount  within  48  hours  of  the  receipt  of  the  invoice. 
+
+We  gathered  invoices  from  January  1 ,  2002  through  December  3 1 ,  2003  and  measured  the 
+elapsed  time  between  the  receipt  of  the  invoice  and  the  date  payment  was  made  by  MUS. 
+
+A  total  of  5  invoices  were  included  in  our  review. 
+
+We  noted  no  exceptions  when  comparing  the  wire  transfer  amount  to  the  invoice  amount. 
+The  amount  requested,  by  phone,  from  BCBSMT  was  paid  within  48  hours  of  the  phone  call  in  all 
+5  cases. 
+
+CHIP 
+
+CHIP  will  send  the  premiums  once  a  month  based  on  current  month's  enrollment.  BCBSMT 
+sends  a  detailed  bill  to  CHIP  for  payment.  The  detailed  bill  is  sent  prior  to  premium  payment. 
+
+We  gathered  invoices  from  January  1 ,  2002  through  December  3 1 ,  2003  and  measured  the 
+elapsed  time  between  the  receipt  of  the  invoice  and  the  date  payment  was  made  by  CHIP. 
+
+A  total  of  3  invoices  were  included  in  our  review. 
+
+We  noted  no  exceptions  when  comparing  the  payment  amount  to  the  invoice  amount.  The 
+amount  invoiced  from  BCBSMT  was  paid  within  10  working  days  in  all  3  cases. 
+
+
+V-2 
+
+
+1 
+
+
+VI  -  CLAIM  PAYMENT  TURNAROUND  TIME 
+
+The  purpose  of  this  section  is  to  present  our  analysis  of  the  claim  turnaround  time 
+information  for  each  of  the  633  claims  in  our  sample. 
+
+Claim  Processing  Time 
+
+Claim  processing  time  or  turnaround  time  for  this  audit  was  measured  from  the  "received 
+date"  as  entered  on  the  claim  document  to  the  date  the  date  the  claim  was  processed. 
+
+Results,  by  plan  sponsor,  are  presented  below. 
+
+State  of  Montana 
+
+For  all  21 1  claims  in  our  sample,  the  turnaround  time  results  are  as  follows: 
+
+Measure  Elapsed  Days 
+
+Mean  9 
+
+Median  2 
+
+Mode  0 
+
+BCBSMT  informed  us  that  company  policy  for  turnaround  time  is  7  day  average  for  non- 
+investigated  claims  and  21  day  average  for  claims  requiring  investigation. 
+
+MUS 
+
+For  all  21 1  claims  in  our  sample,  the  turnaround  time  results  are  as  follows: 
+
+Measure  Elapsed  Days 
+
+Mean  6 
+
+Median  0 
+
+Mode  0 
+
+BCBSMT  informed  us  that  company  policy  for  turnaround  time  is  7  day  average  for  non- 
+investigated  claims  and  21  day  average  for  claims  requiring  investigation. 
+
+CHIP 
+
+For  all  21 1  claims  in  our  sample,  the  turnaround  time  results  are  as  follows: 
+
+VI -1 
+
+
+I 
+
+
+Measure  Elapsed  Days 
+
+Mean  4 
+
+Median  2 
+
+Mode  0 
+
+BCBSMT  informed  us  that  company  policy  for  turnaround  time  is  7  day  average  for  non- 
+investigated  claims  and  21  day  average  for  claims  requiring  investigation. 
+
+
+VI -2 
+
+
+VII  -  COST  CONTAINMENT 
+
+Discussion  regarding  cost  containment  procedures  utilized  at  BCBSMT  is  presented  below. 
+
+CASE  MANAGEMENT 
+
+A  mandatory  pre-admission  notification  provision  is  part  of  each  plan  sponsor's  Plan 
+provisions.  The  notification  procedure  is  used  to  alert  APS  Healthcare  Northwest,  Inc.  (the  case 
+management  firm  utilized  by  the  plans)  of  potentially  large  claims  which  could  be  eligible  for 
+individual  case  management  to  reduce  the  magnitude  of  the  claim. 
+
+Typically,  participants  are  referred  to  case  management  based  on  diagnosis.  However,  APS 
+has  indicated  that  they  receive  these  referrals  from  BCBSMT  and  in  some  cases  from  the  hospital. 
+
+This  procedure  is  can  be  initiated  by  either  the  individual  or  the  provider  of  services. 
+
+BCBSMT  did  not  provide  us  with  information  regarding  denied  claims  for  any  of  the  three 
+plan  sponsors. 
+
+SUBROGATION 
+
+All  claims  that  indicate  an  accident  and/or  work  related  accidents  are  forwarded  to  the 
+Subrogation  Department.  This  Department  then  sets  up  the  file  and  sends  out  a  letter  for  details  of 
+the  accident.  Upon  receipt  of  the  letter,  BCBSMT  then  sends  the  appropriate  letter(s)  in  order  to: 
+(1)  assert  their  subrogation  right,  (2)  notify  participant  that  the  Third  Party  Liability  coverage  is 
+primary  to  the  plan,  or  (3)  recover  payments  made  related  to  a  work  related  injury. 
+
+Subrogation  recovery  information  by  plan  sponsor  is  presented  below. 
+
+The  State  of  Montana 
+
+The  State's  recovery  information  is  detailed  below. 
+
+
+Year 
+
+Auto/Medical 
+
+Subrogation 
+
+ITS  (Blue  Card) 
+
+Workers'  Comp 
+
+1998:  Recovery 
+
+($51,485.60) 
+
+$26,194.44 
+
+$13,210.73 
+
+($45,442.50) 
+
+Savings 
+
+175,922.90 
+
+31,828.04 
+
+0.00 
+
+134,190.50 
+
+1999:  Recovery 
+
+(3,797.11) 
+
+36,972.67 
+
+12,718.12 
+
+50,960.27 
+
+Savings 
+
+71,130.31 
+
+25,816.17 
+
+0.00 
+
+83,304.64 
+
+vn-i 
+
+
+2000:  Recovery 
+
+18,143.31 
+
+21,858.78 
+
+13,988.66 
+
+37,802.43 
+
+Savings 
+
+70,975.74 
+
+33,217.41 
+
+114,068.58 
+
+0.00 
+
+2001:  Recovery 
+
+(38,832.58) 
+
+73,850.84 
+
+5,736.33 
+
+79,115.95 
+
+Savings 
+
+127,987.48 
+
+40,491.34 
+
+0.00 
+
+185,835.91 
+
+2002:  Recovery 
+
+(84,812.05) 
+
+19,418.99 
+
+844.00 
+
+(28,752.44 
+
+Savings 
+
+183,439.33 
+
+53,461.49 
+
+0.00 
+
+226,786.17 
+
+2003:  Recovery 
+
+18,285.92 
+
+37,750.44 
+
+Not  Reported 
+
+75,626.07 
+
+Savings 
+
+179,310.41 
+
+5,554.43 
+
+Not  Reported 
+
+140,248.47 
+
+MUS 
+
+
+MUS's  recovery  information  is  detailed  below. 
+
+
+Year 
+
+Auto/Medical 
+
+Subrogation 
+
+ITS  (Blue  Card) 
+
+Workers'  Comp 
+
+1998:  Recovery 
+
+($3,631.51) 
+
+$24,281.90 
+
+$993.70 
+
+($21,327.55) 
+
+Savings 
+
+33,767.38 
+
+3,266.86 
+
+0.00 
+
+15,196.59 
+
+1999:  Recovery 
+
+40,416.77 
+
+17,157.70 
+
+615.30 
+
+47,949.71 
+
+Savings 
+
+36,593.54 
+
+4,952.87 
+
+0.00 
+
+31,564.47 
+
+2000:  Recovery 
+
+5,078.15 
+
+11,888.61 
+
+1,315.50 
+
+17,757.57 
+
+Savings 
+
+13,224.94 
+
+9,279.09 
+
+0.00 
+
+98,726.63 
+
+2001: Recovery 
+
+(7,030.39) 
+
+19,548.71 
+
+628.00 
+
+11,046.76 
+
+Savings 
+
+40,508.62 
+
+9,642.57 
+
+0.00 
+
+27,253.91 
+
+2002:  Recovery 
+
+5,984.20 
+
+26,923.16 
+
+0.00 
+
+31,834.77 
+
+Savings 
+
+30,196.22 
+
+46,408.89 
+
+0.00 
+
+63,933.57 
+
+2003:  Recovery 
+
+16,235.19 
+
+36,110.50 
+
+Not  Reported 
+
+24,257.35 
+
+Savings 
+
+44,001.91 
+
+1,461.52 
+
+Not  Reported 
+
+27,925.97 
+
+vn-2 
+
+
+FRAUD  INVESTIGATION 
+
+An  active  fraud  investigation  function  is  an  effective  deterrent  to  those  who  may  consider 
+such  activities. 
+
+BCBSMT  has  developed  a  fraud  investigation  program,  which  includes  the  following: 
+
+•  Fraud  Awareness  Program  for  all  claim  processors  and  customer  service 
+representatives. 
+
+•  EOBs  are  sent  to  the  patient  for  every  claim  submitted  to  BCBSMT  for  processing. 
+
+•  BCBSMT  has  developed  a  web  site,  for  which  participants  may  access  to  report 
+possible  fraud. 
+
+•  BCBSMT  had  established  a  fraud  hotline,  which  is  indicated  on  each  EOB  received 
+by  the  member.  The  web  site  address  is  listed  on  every  EOB  the  member  receives. 
+
+•  Every  out-of-state,  non-network  doctor  is  researched  for  licensure  information  from 
+the  appropriate  State  Board  of  Physicians  by  the  BCBS  plan  where  the  provider  is 
+licensed. 
+
+•  The  BCBSMT  claim  system  has  the  ability  to  flag  providers  that  have  been  identified 
+as  having  questionable  billing  practices. 
+
+•  BCBSMT  became  a  corporate  member  of  the  National  Health  Care  Anti-Fraud 
+Association  (NHCAA)  in  2001.  NHCAA  membership  is  comprised  of  numerous 
+private  and  public  sector  organizations  and  individuals  including  various  law 
+enforcement  agencies  and  25  individual  Blue  Cross  Blue  Shield  plans. 
+
+•  BCBSMT  developed  a  new  corporate  fraud  awareness  program  in  200 1 ,  and  training 
+of  employees  from  the  Member  Services  and  Support  area  began  in  the  fall  of  2001 . 
+
+Recoveries 
+
+Recovery  information  for  the  years  1998,  1999,  2000,  2001,  2002  and  2003  is  for  all 
+BCBSMT' s  book  of  business  is  presented  below. 
+
+Year  Recovery 
+
+1998  $143,994.78 
+
+VII -3 
+
+
+1 
+
+
+1999 
+
+$  84,107.10 
+
+2000 
+
+$  96,986.00 
+
+2001 
+
+$270,936.00 
+
+2002 
+
+$571,051.00 
+
+2003 
+
+$440,916.00 
+
+The  above  recovery  dollars  is  based  on  actual  recoveries,  rather  than  projected  savings. 
+
+Based  on  our  review  we  conclude  that  the  investigative  procedures  and  staff  training  are 
+further  advanced  than  many  administrators. 
+
+Note:  CHIP  is  a  fully  insured  plan.   Therefore,  these  recovery  numbers  are  not  tracked 
+individually  for  CHIP. 
+
+
+VH-4 
+
+
+VIII  -  LOGIC  AND  OTHER  TEST  RESULTS 
+
+This  section  presents  the  results  of  test  claims  submitted  to  the  BCBSMT  claim  system  as 
+a  method  of  assessing  the  system's  ability  to  identify  inappropriate  transactions.  The  tests  and  the 
+results  are  discussed  below. 
+
+To  protect  against  issuance  of  actual  check  payments  and  contamination  of  member  history, 
+a  test  cycle  was  used  for  all  test  claims. 
+
+Duplicate  Claims 
+
+The  claim  system  contains  a  series  of  edits  designed  to  identify  duplicate  claims.  If  an  exact 
+match  with  a  previously  processed  claim,  the  claim  is  rejected  as  a  duplicate. 
+
+To  test  the  system's  duplicate  claim  logic,  we  selected  four  previously  processed  claims. 
+Each  claim  was  altered  as  follows: 
+
+•  Change  the  diagnosis. 
+
+•  Change  the  billed  amount. 
+
+•  Change  the  provider  code. 
+
+This  resulted  in  twelve  separate  resubmissions,  each  with  one  of  the  above  changes  made. 
+In  each  case,  the  system  correctly  identified  the  fictitious  resubmissions  as  a  duplicate  claim. 
+
+Finally,  we  submitted  10  previously  processed  claims. 
+
+The  system  correctly  identified  the  10  claims  as  duplicates. 
+
+Overcharging  By  Providers 
+
+BCBSMT  has  developed  fee  allowances  for  professional  services.  Our  review  confirmed  that 
+the  system  will  correctly  calculate  the  allowance. 
+
+We  submitted  five  fictitious  test  claims  where  the  provider's  fee  exceeded  the  allowance.  The 
+claim  processing  system  correctly  identified  all  five  overcharges  and  reduced  the  allowance  to  agree 
+with  the  appropriate  amount. 
+
+Unnecessary  Physician  Services 
+
+The  claim  system  has  several  edits  designed  to  identify  potentially  unnecessary  physician 
+services.  These  edits  involve  matching  diagnosis  codes  to  procedure  codes,  monitoring  the 
+frequency  of  service  and  comparing  the  procedure  to  the  patient's  sex.  In  addition,  claims  from 
+
+vm-i 
+
+
+providers  with  a  history  of  abuses  or  suspect  billing  practices  are  suspended  for  further  evaluation 
+prior  to  payment. 
+
+As  part  of  our  test  work,  we  prepared  and  submitted  five  fictitious  test  claims  where  the 
+patient's  sex  was  not  consistent  with  the  procedure/diagnosis.  All  five  of  the  claims  were  correctly 
+identified  as  inconsistent  with  the  patient's  sex. 
+
+We  also  submitted  five  test  claims  involving  fictitious  type  of  service  codes.  All  five  claims 
+were  correctly  suspended  as  containing  invalid  codes. 
+
+Other  Test  Claims 
+
+Additional  test  claims  processed  are  discussed  below. 
+
+Terminated  Employees  and  Dependents 
+
+We  submitted  ten  fictitious  claims  (five  for  employees  and  five  for  dependents)  for 
+individuals  whose  coverage  had  terminated.  Each  date  of  service  followed  the  date  coverage 
+terminated.  The  system  correctly  rejected  all  10  of  the  claims  as  claims  incurred  following 
+termination  of  coverage. 
+
+Fraudulent  Providers 
+
+We  submitted  five  test  claims  from  a  fictitious  provider.  The  test  claims  were  entered. 
+However,  according  to  procedures,  when  an  invalid  provider  number  was  entered,  the  processor 
+would  forward  the  claim  to  the  Provider  Maintenance  Department  where  further  investigation  is 
+performed. 
+
+Coordination  of  Benefits 
+
+Five  fictitious  claims  were  prepared  for  individuals  whose  history  file  indicated  that  other 
+insurance  coverage  was  present.  All  five  of  these  claims  were  suspended  for  COB  information. 
+
+SUMMARY 
+
+Based  on  our  test  results,  we  conclude  that  the  BCBSMT  system  is  effective  in  identifying 
+erroneous  claims. 
+
+Test  Claim  Summary 
+
+The  findings  from  the  fictitious  claim  testing  are  summarized  as  Exhibit  C  attached  to  this 
+report. 
+
+vm-2 
+
+
+IX  -  OTHER  REVIEW  AREAS 
+
+The  results  of  our  review  in  areas  requested  by  the  three  plan  sponsors  is  as  follows. 
+
+SUSPENDED  CLAIMS 
+
+We  requested  reports  from  BCBSMT  regarding  the  percentage  of  claims  submitted  that  were 
+suspended,  reasons  for  suspension,  and  the  average  length  of  time  before  these  claims  were  paid  or 
+denied. 
+
+BCBSMT  did  not  provide  the  requested  information  for  any  of  the  three  plan  sponsors.  They 
+indicated  to  us  that  this  is  not  a  report  typically  provided  to  plan  sponsors. 
+
+DENIED  CLAIMS 
+
+We  requested  reports  from  BCBSMT  regarding  the  number  of  claims  denied,  including 
+provider  type,  amount  and  if  there  were  multiple  denied  claims  for  one  provider.  In  addition, 
+determine  the  percentage  denied  due  to  ineligibility  of  a  member. 
+
+BCBSMT  did  not  provide  the  requested  information  for  any  of  the  three  plan  sponsors.  They 
+indicated  to  us  that  this  is  not  a  report  typically  provided  to  plan  sponsors. 
+
+PHARMACY  CLAIMS  -  CHIP 
+
+We  were  requested  to  review  the  pharmacy  plan  for  a  formulary  and  analyze  a  sample  of 
+denied  pharmacy  claims. 
+
+BCBSMT  does  not  use  a  drug  formulary  for  CHIP.  Therefore,  no  copy  of  that  plan  is 
+included  in  this  report. 
+
+BCBSMT  also  indicated  to  us  that  there  are  no  denied  pharmacy  claims  for  CHIP  members. 
+Therefore,  there  were  no  claims  to  review. 
+
+However,  CHIP  has  indicated  to  us  that  staff  members  have  received  phone  calls  from  family 
+members  of  eligible  CHIP  children  who  were  unable  to  obtain  a  prescription  for  their  CHIP  children, 
+where  full  payment  was  required  by  the  member.  These  individual  situations  have  been  resolved 
+with  intervention  with  BCBSMT.  Therefore,  there  are  denied  claims  for  CHIP  members,  but 
+BCBSMT  was  unable  to  provide  this  information. 
+
+BCBSMT  does  not  track  these  instances. 
+
+
+EX-1 
+
+
+We  did  verify  with  BCBSMT  that  co-pay  accumulators  for  medical  and  pharmacy  are 
+combined  electronically,  in  order  to  avoid  a  participant  from  exceeding  their  maximum  out-of-pocket 
+copay.  We  also  ran  accumulator  reports  for  5  individuals,  in  order  to  verify  that  the  process  is  being 
+done  appropriately.  No  exceptions  were  identified. 
+
+RESERVES  &  ADMINISTRATIVE  EXPENSES  -  CHIP 
+
+We  were  requested  to  provide  information  regarding  the  use  of  reserves  from  the  CHIP 
+account  and  obtain  a  breakdown  of  administrative  expenses  for  the  plan. 
+
+For  2002-2003,  BCBSMT  indicated  to  us  that  they  credited  the  claims  account  for  75%  of 
+the  reserve  amount  and  contributed  the  remaining  25%  to  the  Caring  Program  for  Children.  No 
+interest  was  accounted  for  in  this  distribution.  BCBSMT  indicated  to  us  that  the  account  was 
+"probably"  an  interest  bearing  account. 
+
+After  reviewing  the  contract,  there  is  no  mention  regarding  reserves  for  the  plan. 
+
+BCBSMT  did  not  provide  a  breakdown  of  administrative  expenses  for  the  plan.  Therefore, 
+we  cannot  include  this  in  the  report.  However,  they  indicate  to  us  that  they  provide  this  information 
+to  CHIP  on  a  yearly  basis  during  the  renewal  process.  CHIP  has  indicated  to  us  that  BCBSTMT 
+does  not  include  a  breakdown  of  administrative  expenses  for  the  plan,  rather  it's  just  an  overall  total 
+of  administrative  expenses. 
+
+Comment 
+
+We  believe  there  have  been  considerable  misunderstandings  regarding  the  reserves  for  the 
+plan.  We  recommend  that  BCBSMT  and  CHIP  discuss  the  possibility  of  a  reserve  agreement. 
+
+We  also  believe  that  BCBSMT  and  CHIP  should  discuss  rate  increases,  including 
+administrative  expenses.  There  is  no  discussion  of  limiting  rate  increases  in  the  contract  between 
+BCBSMT  and  CHIP. 
+
+We  further  believe  that  a  more  thorough  review  of  the  financials  of  the  CHIP  plan,  with 
+regards  to  BCBSMT  premiums  and  reserves,  should  be  performed  by  accounting  professionals. 
+
+INPATIENT  MENTAL  HEALTH  -  CHIP 
+
+We  were  requested  to  review  the  use  of  out-of-state  mental  health  providers  and  attempts  by 
+BCBSMT  to  secure  the  lowest  reimbursement  rate  from  both  in-state  and  out-of-state  from  these 
+providers. 
+
+
+IX-2 
+
+
+1 
+
+
+During  our  review  of  21 1  claims  for  CHIP,  we  did  identify  claims  for  both  out-of-state  and 
+in-state  mental  health  providers.  We  noted  that  for  both  in-state  and  out-of-state,  the  BCBS  network 
+provided  for  discounts  from  these  providers.  If  the  participant  is  subject  to  case  management,  they 
+will  make  an  attempt  to  secure  a  discount  from  any  non-network  providers  (also  network  providers 
+if  the  care  is  deemed  to  be  long-term). 
+
+Out-of-state  providers  are  only  used,  when  in-state  providers  do  not  have  the  necessary  space 
+and/or  services  required  for  the  patient's  treatment.  Our  understanding  is  that  there  is  not  many  in- 
+state facilities  to  treat  severe  mental  health  conditions.  Therefore  out-of-state  facilities  are  typically 
+utilized,  in  order  to  provide  adequate  treatment  for  the  patient. 
+
+
+IX-3 
+
+
+X  -  PRIOR  AUDIT  RECOMMENDATIONS 
+
+The  most  recently  completed  audit  for  the  State  of  Montana  and  Montana  University  System 
+(The  Montana  Power  Company  was  included),  prior  to  this  audit,  was  performed  for  the  period 
+January  1 ,  2000  through  December  3 1 ,  200 1 . 
+
+The  report  for  that  audit,  issued  in  April,  2002,  contained  the  following  recommendations: 
+
+LIFETIME  MAXIMUM 
+
+During  our  test  work  regarding  the  calculation  of  the  State's  $1,000,000  lifetime  maximum 
+provision,  we  noted  that  BCBSMT  must  manually  monitor  the  accumulation  of  benefits  of  both 
+system  claims  and  archived  claims  for  participants  with  high  utilization. 
+
+We  believe  the  manual  monitoring  procedure  may  result  in  inaccurate  processing  of  claims 
+in  excess  of  the  lifetime  benefit.  Therefore,  we  recommend  BCBSMT  establish  a  program  that 
+automatically  accumulates  the  benefits  of  both  archived  claims  and  system  claims. 
+
+Comment 
+
+There  have  been  no  changes  to  this  procedure.  However,  BCBSMT  has  indicated  to  us  that 
+with  the  new  claim  processing  system  (August,  2004)  that  this  procedure  will  be  automated. 
+
+OFFICE  VISIT  COPAYS 
+
+During  our  test  work  of  the  sample  claims,  we  identified  a  situation  where  a  State  employee 
+went  to  two  different  doctors  in  one  day.  BCBSMT  only  applied  one  $  1 5 .00  co-pay,  which  is  their 
+policy  on  all  their  lines  of  business.  We  believe  this  was  not  in  accordance  with  the  State's  plan 
+provision  for  a  $15.00  co-pay  per  office  visit. 
+
+We  requested  BCBSMT  to  verify  that  the  State  was  in  agreement  with  this  procedure.  The 
+State  was  not  in  agreement  and  was  not  aware  that  this  procedure  was  in  place  at  BCBSMT. 
+
+We  believe  BCBSMT  should  reimburse,  to  the  State,  the  overpayments  caused  by  this 
+procedure. 
+
+Comment 
+
+We  did  not  identify  any  similar  situation  during  our  audit.  BCBSMT  has  modified  their 
+policy  to  reflect  the  intentions  of  the  State  plan. 
+
+
+X-l 
+
+
+LARGE  CASE  MANAGEMENT 
+
+During  our  audit  of  the  600  sample  claims,  we  identified  two  high  dollar  claims  that  were 
+not  subject  to  Large  Case  Management.  However,  other  claims  for  the  two  patients  were  subject  to 
+Large  Case  Management. 
+
+We  believe  earlier  intervention  with  Large  Case  Management  could  have  provided  discounts 
+on  these  large  hospital  bills.  We  recommend  BCBSMT  encourage  earlier  intervention  on  these  high 
+dollar  claims. 
+
+Comment 
+
+BCBSMT  has  indicated  to  us  that  they  make  an  aggressive  attempt  to  provide  large  case 
+management  for  potential  high  dollar  claimants. 
+
+"PIGGYBACK"  CLAIMS 
+
+BCBSMT  processes  some  preventive  claims  as  "piggyback",  meaning  the  claim  will  process 
+on  the  preventive  level  first  and  if  the  charges  exceed  the  preventive  maximum,  the  claim  will  then 
+process  on  the  medical  level  where  deductible  and  coinsurance  limits  are  applied. 
+
+We  believe  this  process  contradicts  the  preventive  limits  outlined  in  the  plan  documents. 
+
+We  recommend  BCBSMT  discuss  this  procedure  with  the  State  and  MUS.  In  the  event,  of 
+the  State  and  MUS  disagree,  we  believe  BCBSMT  should  review  all  claims  affected  by  this 
+procedure  and  refund  overpayments  to  the  Plan  Sponsors  and  adjust  deductible  and/or  coinsurance 
+accumulators. 
+
+Comment 
+
+BCBSMT  has  not  made  any  changes  in  their  claim  payment  process  at  the  clients  request. 
+
+
+X-2 
+
+
+EXHIBIT  A 
+
+STATE  OF  MONTANA  &  UNIVERSITY  OF  MONTANA 
+
+HEALTH  CARE  CLAIM  AUDIT 
+
+CLAIMS  PROCESSED  FROM  JANUARY  1,  2002  THROUGH  DECEMBER  31,  2003 
+
+SUMMARY  OF  FINDINGS 
+
+
+CLAIM* 
+
+
+GROUP 
+
+
+PAID 
+AMOUNT 
+
+
+AUDITED 
+AMOUNT 
+
+
+DOLLAR 
+
+VALUE  OF 
+
+ERROR 
+
+
+TYPE 
+
+
+42355813931     UNIVERSITY 
+
+42254847770  STATE 
+12114103980  STATE 
+
+
+1.25 
+
+
+0.00 
+
+
+96,065.86        95,965.86 
+5,639.35  5,640.23 
+
+
+12123109370  STATE  5,834.26  4,948.41 
+
+02310007210      UNIVERSITY  94,704.55  61,557.96 
+
+03104005060      STATE  184,406.96  119,864.52 
+
+03104005020      STATE  49,451.90  32,143.74 
+
+03104005040      UNIVERSITY  50,315.91  46,649.01 
+
+42301847560  STATE  77,961.23 
+
+
+1 .25     Payment  should  have  been  applied  to  the 
+deductible. 
+
+100.00      Inpatient  stay  was  not  precertified.     • 
+
+(0.88)     Member's  out  of  pocket  maximum  is 
+over  by  $.88. 
+
+885.85  Should  have  applied  co-ins. 
+
+33,146.59  Should  have  applied  discount. 
+
+64,542.44  Should  have  applied  discount. 
+
+17,308.16  Should  have  applied  discount. 
+
+3,666.90  Should  have  applied  discount. 
+
+77,961.23       ESRD  COB  error.  Claim  should  have 
+been  coordinated  with  Medicare. 
+
+
+1 
+
+
+TOTALS 
+
+
+564,381.27   366,769.73   197,611.54 
+
+
+EXHIBIT  B 
+
+CHILDREN'S  HEALTH  INSURANCE  PLAN 
+
+SUMMARY  OF  FINDINGS 
+
+AUDIT  PERIOD  JANUARY  1,  2002  THROUGH  DECEMBER  31,  2003 
+
+
+CLAIM* 
+
+
+PAID 
+AMOUNT 
+
+
+AUDITED 
+AMOUNT 
+
+
+DOLLAR 
+
+VALUE  OF 
+
+ERROR 
+
+
+TYPE 
+
+
+13126100280         2,040  64  2,026  64 
+
+
+14.00   Should  have  applied  $5  co-pays  for 
+mental  health,  not  $3. 
+
+
+13101100460    2,040.64      2,026.64 
+
+
+14.00   Should  have  applied  $5  co-pays  for 
+mental  health,  not  $3. 
+
+
+02350005200     4,126.75      4,131.75 
+
+
+(5.00)  Applied  2  ER  copays  when  ER  visit 
+spanned  2  days. 
+
+
+03178216190 
+
+
+189.08  192.08 
+
+
+(3.00)  Applied  copay  in  error  to  anesthesia 
+claim. 
+
+
+12281107910        4,058.31  4,06131 
+
+
+(3.00)  Should  not  have  applied  $3  copay  for 
+outpatient  services.  $5  copay  was 
+applied. 
+
+
+42085836290     101,941.71  101,94124 
+
+
+0.47    ITS  claim  did  not  apply  full  $25  inpatient 
+copay. 
+
+
+41363837000    4,208.95      4,196.95 
+
+
+12.00   ITS  claim  did  not  apply  full  $25  inpatient 
+copay. 
+
+
+03105210290 
+
+
+218.00 
+
+
+215.00 
+
+
+3.00   Should  have  applied  $3  copay  for 
+office  visit. 
+
+
+41346830430     115,018.08         115,014.35 
+
+
+3.73    ITS  claim  did  not  apply  full  $25  inpatient 
+copay. 
+
+
+43254805870  212.45 
+
+
+210.30 
+
+
+2.15   ITS  claim  did  not  apply  full  $25  inpatient 
+copay. 
+
+
+42227835440   85,088.89     85,087.09 
+
+
+1 .80   ITS  claim  did  not  apply  full  $25  inpatient 
+copay. 
+
+
+13118327370  189.08 
+
+
+192.08 
+
+
+(3.00)  Should  not  have  applied  co-pay  to 
+anesthesia  claim. 
+
+
+42026828450      26,336.87  26,325.00 
+
+
+1 1 .87   ITS  claim  did  not  apply  full  $25  inpatient 
+copay. 
+
+
+13223100130   32,095.90     32,139.88 
+
+
+(43.98)  Audiology  charge  on  a  newborn  inpatient 
+claim  was  denied  in  error. 
+
+
+13223100110   32,813.43     32,857.41 
+
+
+(43.98)  Audiology  charge  on  a  newborn  inpatient 
+claim  was  denied  in  error. 
+
+
+TOTALS 
+
+
+410,578.78         410,617.72 
+
+
+(38.94) 
+
+
+1 
+
+
+Exhibit  C 
+
+
+STATE  OF  MONTANA  EMPLOYEE  BENEFIT  PLAN 
+
+BLUE  CROSS  BLUE  SHIELD  OF  MONTANA 
+
+RESULTS  OF  SYSTEM  TESTS 
+
+
+RESULTS 
+
+TEST 
+
+PASS 
+
+All  10 
+
+FAIL                        COMMENT 
+
+Duplicate  Claims  Tests 
+
+Logic  Claims  Tests 
+
+Change  Diagnosis 
+Change  Billed  Amount 
+Change  Provider  Code 
+
+4 
+4 
+4 
+
+Other  Claims  Tests 
+
+Terminated  Member 
+
+AU5 
+
+Terminated  Dependent 
+
+A115 
+
+Fictitious  Provider 
+
+A115 
+
+Fictitious  Service  Code 
+
+A115 
+
+COB  Claims 
+
+A115 
+
+Test/Allowable  Data 
+
+A115 
+
+Inconsistent  With  Sex 
+
+A115 
+
+BlueCross  BlueShield 
+of  Montana 
+
+
+An  independent  Licensee  of  the  Blue  Cross  and  Blue  Shield  Association 
+
+
+December  3,  2004 
+
+
+560  N.  Park  Avanua 
+P.O.  Box  4309 
+Helena,  Montana   50604 
+(406)  444-8200 
+
+Customer  Information  Une: 
+
+1-800-447-7828 
+Website: 
+
+www.bluecrossmontana.com 
+
+
+MARIE  POLLOCK 
+WOLCOTT  &  ASSOCIATES,  INC 
+12120  STATE  LINE  ROAD,  Suite  297 
+LEAWOOD  KS  66209 
+
+
+RE:  Montana  University  System  and  State  of  Montana  Traditional  Claim  Audit 
+
+
+Dear  Marie: 
+
+This  letter  is  in  acknowledgement  of  the  draft  report  for  the  Montana  University  System 
+and  State  of  Montana  Traditional  claim  audit  recently  completed  for  the  audit  period 
+January  1,  2002  through  December  31,  2003. 
+
+This  letter  includes  Blue  Cross  Blue  Shield  of  Montana's  (BCBSMT)  response  to  the 
+Summary  of  Findings  in  Exhibit  A,  and  Recommendations. 
+
+
+Claim 
+
+42355813931 
+
+
+23108713781 
+
+
+"Payment  should  have  been  applied  to  the  deductible."  The  claim 
+is  overpaid  $1.25  (MUS) 
+
+Comment:  BCBSMT  agrees  with  this  finding.  There  is  a  problem 
+in  the  ITS  system  with  deductible/copay  calculation. 
+
+"Billed  as  new  patient.  However  the  provider  had  seen  the 
+participant  before."  Claim  is  overpaid  $2.28  (MUS) 
+
+Comment:      BCBSMT  disagrees  with  this  finding.  This  member 
+has  Medicare  prime.  The  Medicare  coinsurance,  which  is 
+calculated  by  Medicare,  on  assigned  claims,  is  the  only  BCBSMT 
+responsibility.  If  Medicare  accepts  and  processes  the  claim  with 
+the  codes  submitted  by  the  provider,  BCBSMT  honors  the  same 
+codes  and  processes. 
+
+
+1 22 1 83 1 8470  "Paid  for  routine  exam  with  no  connection  with  an  illness  or 
+
+accident."  Claim  is  overpaid  $50.00  (MUS) 
+
+
+Comment:      BCBSMT  disagrees  with  this  finding.  This  claim 
+was  paid  under  the  preventive  benefit  per  Page  65  of  the  of  the 
+benefit  booklet.  "3)  Routine  prostate  exam.  This  exam  is 
+normally  recommended  for  males  ages  50  and  older,  not  to  exceed 
+$50  for  such  an  exam  each  year. 
+
+
+42254847770  "Inpatient  stay  was  not  precertified.' 
+
+$100.00  (State) 
+
+
+The  claim  is  overpaid 
+
+
+Comment:      BCBSMT  disagrees  with  this  finding.  The  member 
+was  admitted  to  the  hospital  for  severe  trauma  and  cerebral  injuries 
+as  the  result  of  a  motor  vehicle  accident.  The  Summary  Plan 
+Document  indicates  that  if  no  one  calls  in  for  certification  the 
+hospital  stay  it  will  be  reviewed  after  the  fact.  Penalty  for  not 
+precertifying  the  hospital  stay  would  include  denying  room  charges 
+unnecessary  for  the  treatment  of  the  patient.  Review  indicates  due 
+to  the  severity  of  the  injuries  and  patient  condition  hospital  stay 
+was  warranted. 
+
+
+12114103980  "Member's  out  of  pocket  maximum  is  over  by  $.88."  The  claim  is 
+
+underpaid  $.88  (State) 
+
+Comment:       BCBSMT  agrees  with  this  finding. 
+
+
+12123109370 
+
+
+"Should  have  applied  co-ins. 
+(State) 
+
+
+The  claim  is  overpaid  $1458.57 
+
+
+Comment:      BCBSMT  agrees  with  this  finding  but  disagrees 
+with  the  overpaid  amount.  This  claim  was  for  newborn  charges  at 
+St  Peters  Hospital,  which  is  a  preferred  facility.  The  copay  on  a 
+preferred  facility  is  15%  and  the  MML  (out  of  pocket)  is  $900  for 
+preferred  providers.  The  total  charge  of  the  claim  is  $5905.65. 
+$5905.65  x  15%  =  $885.85  copay  due  from  member.  The  true 
+overpayment  is  $885.85  not  $1458.57. 
+
+
+02310007210  "Should  have  applied  discount."  The  claim  is  overpaid  $33,146.59 
+
+(State) 
+
+
+Comment:      This  claim  has  been  adjusted  to  apply  the  discount 
+as  submitted  hard  copy  by  the  facility.  Please  see  HDI  discount 
+comment  below. 
+
+
+03 104005060  "Should  have  applied  discount."  The  claim  is  overpaid  $64,542.44 
+
+This  was  incorrectly  listed  in  Exhibit  A  as  the  State  group.   The 
+correct  group  is  MUS. 
+
+Comment:      This  claim  has  been  adjusted  to  apply  the  discount 
+as  submitted  hard  copy  by  the  facility.  Please  see  HDI  discount 
+comment  below. 
+
+
+03104005020  "Should  have  applied  discount."  The  claim  is  overpaid  $17,308.16 
+
+This  was  incorrectly  listed  in  Exhibit  A  as  the  State  group.  The 
+correct  group  is  MUS. 
+
+Comment:      This  claim  has  been  adjusted  to  apply  the  discount 
+as  submitted  hard  copy  by  the  facility.  Please  see  HDI  discount 
+comment  below. 
+
+
+03 104005040  "Should  have  applied  discount."  The  claim  is  overpaid  $3,666.90 
+
+This  was  incorrectly  listed  in  Exhibit  A  as  the  State  group.  The 
+correct  group  is  MUS. 
+
+Comment:      This  claim  has  been  adjusted  to  apply  the  discount 
+as  submitted  hard  copy  by  the  facility.  Please  see  HDI  discount 
+comment  below. 
+
+
+HDI  Discount  Comment:  BCBSMT  agrees  these  claims  (all  for  St  Patrick  Hospital)  are 
+overpaid  and  agrees  with  the  amounts,  however  we  disagree  this  is  a  BCBSMT 
+processing  error. 
+
+These  discount  amounts  were  arranged  outside  of  our  provider  contracts  and  as  such 
+discounts  were  "invisible"  to  BCBSMT.  The  Montana  Association  of  Health  Care 
+Purchasers  (MAHCP)  negotiated  with  Hospitals  on  behalf  of  the  State  of  Montana, 
+Northwestern  Energy  and  Montana  University  Systems.  These  negotiated  agreements  are 
+primarily  with  HDI  (Health  Dynamics  Inc)  but  also  include  some  independent  hospitals. 
+
+Prior  to  8/15/02,  all  claims  received  by  BCBSMT  (through  Health-E  Web)  from  hospitals 
+contracted  with  HDI  already  had  the  "invisible"  discount  applied  to  the  charges. 
+BCBSMT  did  not  have  access  to  the  original  charge  or  the  amount  of  the  discount  and 
+processed  the  claim  based  on  the  already  discounted  charge  submitted  on  the  claim. 
+Questions  regarding  the  discount  amounts  from  providers  were  to  be  directed  to  HDI  and 
+questions  from  the  members  were  to  be  directed  to  the  group  leaders. 
+
+
+Starting  8/15/02  claims  from  all  but  two  hospitals  (St  Patrick  Hospital,  Missoula  and 
+Saint  Vincent  Hospital,  Billings)  were  discounted  in-house  by  BCBS  of  MT.  Claims 
+from  St.  Patrick  and  Saint  Vincent  Hospitals  continued  to  be  discounted  with  the  same 
+procedure  used  prior  to  8/15/02. 
+
+There  was  a  problem  with  claims  submitted  to  BCBSMT  having  an  incorrect  discount  or 
+no  discount,  resulting  in  several  hundred  claims  requiring  adjustment  during  the  months 
+of  July,  August,  and  September  2002.  BCBSMT  worked  closely  with  Don  Creveling  of 
+HDI  to  adjust  these  claims  to  reflect  the  correct  discount  amounts.  It  is  our  assumption 
+the  incorrect  claims  identified  in  the  audit  were  not  addressed  (by  HDI)  with  the  proper 
+person  at  BCBSMT  for  entry/adjustment. 
+
+
+42301 847560  "ESRD  COB  error.  Claim  should  have  been  coordinated  with 
+
+Medicare."  Overpaid  $77,961.23  (State) 
+
+Comment:       BCBSMT  agrees  that  this  claim  is  overpaid  but 
+disagrees  with  the  amount  and  that  it  is  due  to  BCBSMT 
+processing  error.  The  overpayment  amount  cannot  be  determined 
+until  Medicare  has  processed  this  claim.  In  May  2004  BCBSMT 
+discovered  that  the  BCBSMT  primacy  was  incorrect.  The 
+information  from  the  Social  Security  office,  provided  to  Medicare 
+and  BCBSMT,  indicated  that  Medicare  eligibility  was  due  to 
+disability. 
+
+BCBSMT  has  worked  extensively  with  Medicare  to  adjust  these 
+claims  for  Medicare  to  pay  prime. 
+
+We  also  contacted  Paul  Bogumill,  at  the  State,  to  explain  the 
+situation  and  get  his  input  on  how  we  should  proceed.  He  wanted 
+to  us  to  go  back  to  the  Medicare  primacy  date  and  adjust  all  claims 
+that  BCBSMT  paid  primary,  which  we  are  currently  doing. 
+
+
+II-3  RECOMMENDATIONS 
+
+
+"During  a  portion  of  our  audit  period  the  MUS  and  the  State  utilized  an 
+outside  vendor  for  repricing  of  inpatient  hospital  claims.  As  of  August  2003 
+these  services  were  to  be  performed  by  BCBSMT.  However,  during  that  three 
+month  time  period,  claims  for  State  employees  were  submitted  with  billed 
+charges  and  BCBSMT  was  making  payment  with  the  assumption  these  claims 
+had  already  been  repriced.  This  has  caused  considerable  overpayment  of 
+claims  for  the  state  (we  identified  $120,122.66).  We  believe  BCBSMT  should 
+review  all  inpatient  claims  processed  and  paid  during  this  time  period  and 
+reimburse  the  State  for  all  overpayments,  including  our  audit  findings.  We  do 
+not  think  that  this  warrants  a  separate  audit  by  Wolcott  &  Associates,  Inc.  We 
+
+
+believe  the  issue  has  been  resolved.  However,  overpayments  during  that  time 
+period  may  still  exist." 
+
+Comment:  Please  refer  to  the  HDI  Discount  Comment  in  Exhibit  A.  As  of 
+August  2002,  not  2003  BCBSMT  was  "repricing"  the  claims  except  for  Saint 
+Vincent  and  St  Patrick  Hospitals.  All  of  the  claims  reported  in  the  findings  were 
+submitted  by  St  Patrick  Hospital,  and  have  been  adjusted.  Not  all  of  these  claims 
+were  for  the  State  group.  There  were  actually  3  claims  with  a  total  overpayment 
+$85,517.50  for  MUS  and  1  claim  with  at  total  overpayment  of  $33,146.59  for  the 
+State.  BCBSMT  could  only  find  $1 18,664.09  total  overpayment  for  both  groups. 
+It  appears  the  additional  $1,458.57  included  in  your  total  may  have  inadvertently 
+been  pulled  from  the  claim  identified  for  and  incorrect  copay  amount 
+(12123109370). 
+
+Because  this  problem  was  identified  prior  to  the  audit  and  hundreds  of  claims 
+have  already  been  adjusted,  BCBSMT  feels  the  number  of  outstanding  claims  will 
+be  minimal.  BCBSMT  will  however  work  with  the  groups  to  identify  any  other 
+claims  that  may  require  adjustment. 
+
+
+•     "We  recommend  BCBSMT  reimburse  the  State  for  all  overpayments  made  on 
+the  ESRD  patient.  We  believe  this  individual's  entire  claim  file  has  been 
+overpaid." 
+
+Comment:  As  noted  in  Exhibit  A,  we  have  already  begun  working  with  the  State, 
+in  June,  and  adjusting  claims  for  overpayment. 
+
+
+Thank  you  for  the  opportunity  to  comment  on  this  audit  report.  If  your  have  any 
+questions  or  comments,  please  contact  me  at  (406)  447-8730. 
+
+Sincerely, 
+
+Arlene  Troy 
+
+Internal  Audit 
+
+Blue  Cross  and  Blue  Shield  of  Montana 
+
+
+BlueCross  BlueShield 
+^'J^*/ of  Montana 
+
+An  moapenaeni  Licensee  of  me  Blue  Cross  and  Blue  Shield  Association 
+
+December  1,2004 
+
+
+560  n.  Pa*  a™         ExhibUDd 
+RO.  Box  4309 
+
+Hatana,  Montana   59604 
+(406)  444-6200 
+
+Cuatomar  Infonnation  Una: 
+
+1-800-447-7828 
+
+Website: 
+
+www.bluecrossmontana.com 
+
+
+MARIE  POLLOCK 
+WOLCOTT  &  ASSOCIATES,  INC 
+12120  STATE  LINE  ROAD,  Suite  297 
+LEA  WOOD  KS  66209 
+
+
+RE:  Children's  Health  Insurance  Plan  Claim  Audit 
+
+
+Dear  Marie: 
+
+This  letter  is  in  acknowledgement  of  the  draft  report  for  the  Children's  Health  Insurance 
+Plan  claim  audit  recently  completed  for  the  audit  period  January  1 ,  2002  through 
+December  31,  2003. 
+
+This  letter  includes  Blue  Cross  Blue  Shield  of  Montana's  (BCBSMT)  response  to  the 
+Summary  of  Findings  in  Exhibit  B,  and  Recommendations. 
+
+
+Claim 
+
+13126100280 
+
+
+"Should  have  applied  $5  co-pays  for  mental  health,  not  $3."  The 
+claim  is  overpaid  $14.00 
+
+Comment:      BCBSMT  agrees  with  this  finding.  The  system 
+coding  was  corrected  10/06/04. 
+
+
+13101 100460  "Should  have  applied  $5  co-pays  for  mental  health,  not  $3."  The 
+
+claim  is  overpaid  $14.00 
+
+Comment:      BCBSMT  agrees  with  this  finding.  The  system 
+coding  was  corrected  10/06/04. 
+
+
+02350005200  "Applied  2  ER  copays  when  ER  visit  spanned  2  days."  This  claim 
+
+is  underpaid  $5.00 
+
+Comment:      BCBSMT  disagrees  with  this  finding.  CHIP 
+contract  language  indicates  a  $5  copay  is  applicable  for  an  ER 
+visit.  A  $5  copay  is  also  applicable  for  outpatient  hospital  visits 
+
+
+that  do  not  include  an  ER  charge  and  if  the  services  are  for  more 
+than  just  lab  and/or  x-ray.  The  patient  was  seen  in  the  ER  on  1 2/05 
+and  had  surgery  on  that  same  date.  The  hospital  billed  7  hours  of 
+observation  room  for  12/05  and  10  hours  of  observation  room  for 
+12/06.  $5  copay  for  outpatient  service  on  12/06  is  applicable. 
+
+
+03 178216190  "Applied  copay  in  error  to  anesthesia  claim."  This  claim  is 
+
+underpaid  $3.00 
+
+Comment:      BCBSMT  agrees  with  this  finding.  As  a.result  of 
+this  finding,  BCBSMT  corrected  the  system  coding  1 0/06/04. 
+
+
+1 228 1 1 079 1 0  "Should  not  have  applied  a  $3  copay  for  outpatient  services.  $5 
+
+copay  was  applied."  This  claim  is  $3.00  underpaid 
+
+Comment:      BCBSMT  agrees  with  this  finding.  The  system  was 
+incorrectly  coded  to  apply  a  $3  copay  for  outpatient  therapy  in  all 
+circumstances.  As  a  result  of  this  finding  BCBSMT  has  initiated 
+the  correction  for  system  coding. 
+
+
+42085836290  "ITS  claim  did  not  apply  full  $25  inpatient  copay."  This  claim  is 
+
+overpaid  $.47 
+
+Comment:      BCBSMT  agrees  with  this  finding.  There  is  a 
+problem  in  the  ITS  system  with  copay  calculation. 
+
+
+41363837000  "ITS  claim  did  not  apply  full  $25  inpatient  copay."  This  claim  is 
+
+overpaid  $12.00 
+
+Comment:      BCBSMT  agrees  with  this  finding.  There  is  a 
+problem  in  the  ITS  system  with  copay  calculation. 
+
+
+03 105210290  "Should  have  applied  $3.00  copay  for  office  visit."  This  claim  is 
+
+overpaid  $3.00 
+
+Comment:      BCBSMT  agrees  with  this  finding.  This  is  an 
+adjusted  claim.  The  resulting  error  was  due  to  a  manual  error  in 
+the  adjustment. 
+
+
+4 1 346830430  "ITS  claim  did  not  apply  full  $25  inpatient  copay."  This  claim  is 
+
+overpaid  $3.73 
+
+Comment:      BCBSMT  agrees  with  this  finding.  There  is  a 
+problem  in  the  ITS  system  with  copay  calculation. 
+
+
+43254805870  "ITS  claim  did  not  apply  full  $25  inpatient  copay."  This  claim  is 
+
+overpaid  $2.15 
+
+Comment:      BCBSMT  agrees  with  this  finding;  however,  this 
+claim  was  an  outpatient  professional  claim  and  should  have  been  a 
+$3  copay  and  only  an  $.85  copay  was  applied.  There  is  a  problem 
+in  the  ITS  system  with  copay  calculation. 
+
+
+42227835440  "ITS  claim  did  not  apply  full  $25  inpatient  copay."  This  claim  is 
+
+overpaid  $1.80 
+
+Comment:      BCBSMT  agrees  with  this  finding.  There  is  a 
+problem  in  the  ITS  system  with  copay  calculation. 
+
+
+13118327370  "Applied  copay  in  error  to  anesthesia  claim."  This  claim  is 
+
+underpaid  $3.00 
+
+Comment:       BCBSMT  agrees  with  this  finding.  As  a  result  of 
+this  finding,  BCBSMT  corrected  the  system  coding  10/06/04. 
+
+
+42026828450  "ITS  claim  did  not  apply  full  $25  inpatient  copay."  This  claim  is 
+
+overpaid  $11.87 
+
+Comment:      BCBSMT  agrees  with  this  finding.  There  is  a 
+problem  in  the  ITS  system  with  copay  calculation. 
+
+
+13223100130  "Audiology  charge  on  newborn  inpatient  claim  was  denied  in 
+
+error."  Claim  is  underpaid  $43.98 
+
+Comment:      BCBSMT  agrees  with  this  finding.  As  a  result  of 
+this  finding,  BCBSMT  corrected  the  system  coding  10/12/04. 
+
+
+1 3  223 1 00 1 1 0  "Audiology  charge  on  newborn  inpatient  claim  was  denied  in 
+
+error."  Claim  is  underpaid  $43.98 
+
+
+Comment:      BCBSMT  agrees  with  this  finding.  As  a  result  of 
+this  finding  BCBSMT  corrected  the  system  coding  10/12/04. 
+
+
+HI-3  &  m-4  RECOMMENDATIONS 
+
+•    "We  believe  the  identified  errors  during  our  audit  are  the  result  of  incorrect 
+programming  in  the  BCBSMT  claim  payment  system.  We  believe  BCBSMT 
+should  communicate  to  CHIP  an  action  plan  for  correcting  all  identified 
+programming  errors." 
+
+Comment:  As  noted  in  the  comments  for  Exhibit  B,  BCBSMT  has  corrected  the 
+LRSP  copay  coding  errors  identified  in  the  audit  specific  to  claims  that  are  not 
+processed  through  the  BlueCard  Program. 
+
+BCBSMT  will  not  be  making  any  changes  in  the  coding  for  the  copay  error  in  the 
+claims  processed  through  the  BlueCard  Program.  Low  volume  of  claims  affected 
+and  low  dollar  payment  errors  do  not  justify  the  cost  effectiveness  of  changing  the 
+system  coding  at  this  time.  BCBSMT  is  in  the  process  of  converting  to  a  new 
+system.  The  copay  coding  errors  identified  on  BlueCard  claims  have  already 
+been  addressed  and  coding  is  in  place  on  the  new  system  to  ensure  the  correct 
+copay  amounts  are  applied. 
+
+CHIP  is  not  a  self-insured  program  and  is  underwritten  by  BCBSMT.  BCBSMT 
+shares  in  any  surplus  with  DPHHS  but  is  solely  responsible  for  any  losses  for  this 
+group.  For  this  reason,  BCBSMT  applies  standard  business  practices  to  these 
+claims.  It  is  BCBSMT  standard  business  practice  to  not  adjust  claims  for 
+under/over  payment  of  less  than  $25.00  because  it  is  not  cost  effective. 
+BCBSMT,  therefore,  will  not  be  adjusting  any  of  the  payment  errors  identified. 
+
+
+•     "We  identified  several  claims  where  subrogation  (Third  Party  Liability)  was 
+potentially  involved.  We  requested  documentation  on  each  of  these  claims. 
+BCBSMT  indicated  to  us  that  they  only  update  the  system  with  notes  when 
+the  individual  has  submitted  a  response  to  the  TPL  letter  issued  by  BCBSMT. 
+We  believe  BCBSMT  should  be  documenting  all  correspondence  sent  to  a 
+participant,  in  order  to  allow  claim  processors  to  have  a  complete 
+understanding,  at  all  times,  as  to  the  status  of  an  investigation." 
+
+Comment:  Please  refer  to  the  CHIP  Accident  memo  dated  10/14/04.  The 
+problem  with  documentation  occurred  because  TPL  letters  were  not  being  sent  on 
+CHIP  members.  A  fix  was  implemented  on  the  system  10/25/04  so  that  an 
+accident  query  letter  is  system  generated  and  sent  to  the  member.  BCBSMT  has 
+
+
+1 
+
+
+always  documented  any  correspondence  sent  to  and  received  from  "participants". 
+In  these  instances,  there  was  no  correspondence  to  document. 
+
+
+•     "We  identified  a  claim  where  the  automobile  insurance  made  a  payment  to  the 
+hospital.  However,  BCBSMT  did  not  reduce  their  payment  to  the  hospital. 
+BCBSMT  indicates  that  since  the  amount  reimbursed  by  the  automobile 
+insurance  was  less  than  the  liability  to  the  hospital,  they  do  not  reduce  their 
+payment.  We  believe  this  payment  procedure  is  contrary  to  any  practices 
+identified  in  other  insurance  companies  with  which  we  are  familiar." 
+
+Comment:  CHIP  is  not  a  self-insured  program  and  is  underwritten  by  BCBSMT. 
+BCBSMT  shares  in  any  surplus  with  DPHHS  but  is  solely  responsible  for  any 
+losses  for  this  group.  For  this  reason,  BCBSMT  applies  standard  business 
+practices  to  these  claims.  It  is  BCBSMT  standard  business  practice  to  apply  TPL 
+payment  to  the  actual  charges  on  the  claim  not  the  discounted  amount.  In  no 
+instance  does  BCBSMT  reimburse  more  than  the  actual  charge. 
+
+
+Thank  you  for  the  opportunity  to  comment  on  this  audit  report.  If  your  have  any 
+questions  or  comments,  please  contact  me  at  (406)  447-8730. 
+
+
+Arlene  Troy 
+
+Internal  Audit 
+
+Blue  Cross  and  Blue  Shield  of  Montana 
+
+
+1 
+
+
+Exhibit  E 
+
+
+DEPARTMENT  OF  ADMINISTRATION 
+
+STATE  PERSONNEL  DIVISION  ■ 
+
+
+STATE  OF  MONTANA 
+
+Mitchell  Building,  Room  130  (406)  444-3871 
+
+PO  Box  200127  FAX:  (406)  444-0703 
+
+Helena  Montana  59620-0127  http://discoveringmontana.eom/doa/spd/css/ 
+
+
+(I 
+
+
+December  1,2004  [ 
+
+Marie  Pollock,  fflA  ; 
+
+Vice  President 
+
+Wolcott  &  Associates,  Inc. 
+
+12120  State  Line  Road,  Suite  297 
+
+Leawood,  Kansas  66209 
+
+Subject:  Analysis  and  Evaluation  of  Claims  Processing  (Blue  Cross  Blue  Shield  of  Montana) 
+for  the  Period  January  1 ,  2002  through  December  3 1 ,  2003 
+
+Dear  Ms.  Pollock: 
+
+We  received  your  draft  report  on  the  State  of  Montana  Analysis  and  Evaluation  of  Claims 
+Processing  (Blue  Cross  Blue  Shield  of  Montana)  for  the  period  January  1,  2002  through 
+December  31,  2003,  and  we  provide  the  following  responses  to  your  audit  findings  and 
+recommendations. 
+
+Statistical  Claims  Audit  Results 
+
+We  concur  with  the  recommendations  listed  by  Wolcott  &  Associates,  Inc.  regarding 
+BCBSMT  adjudication  of  State  of  Montana  Plan  claims.  The  State  is  currently  discussing 
+with  BCBSMT  the  process  for  correcting  the  re-pricing  on  inpatient  hospital  claims  during 
+three  months  of  2003,  which  constituted  a  substantial  majority  of  the  errors  identified.  We 
+have  also  worked  with  BCBSMT  to  correct  the  overpayment  made  on  the  end-stage  renal 
+disease  (ESRD)  patient. 
+
+Thank  you  for  providing  us  with  the  opportunity  to  respond  to  the  recommendations. 
+
+Sincerely, 
+
+
+Connie  Welsh,  Chief 
+Employee  Benefits  Bureau 
+
+
+\ 
+
+
+MONTANA  UNIVERSITY  SYSTEM  Exhibit  F 
+
+Office  of  the  Commissioner  of  Higher  Education 
+
+2500  Broadway  0  PO  Box  203101  0  Helena,  Montana  59620-3101  0  (406)444-6570  0  FAX  (406)444- 1 469 
+
+
+December  3,  2004 
+
+Marie  Pollock 
+
+Wolcott  &  Associates,  Inc 
+
+12120  State  Line  Road,  Suite  297 
+
+Leawood,  Kansas  66209  \ 
+
+
+( 
+
+
+RE:      State  of  Montana,  Montana  University  System,  CHIP  Claims  Audit 
+
+Dear  Ms  Pollock: 
+
+Thank  you  for  the  opportunity  to  respond  to  your  audit  of  the  Montana  University  System  employee  group 
+insurance  plan  as  administered  by  Blue  Cross  Blue  Shield  of  Montana.   Your  audit  indicates  that 
+BCBSMT's  claims  processing  error  rate  has  slipped  a  little  since  your  last  audit.   It  is  good  to  note  that 
+BCBSMT  is  meeting  or  exceeding  other  evaluation  criteria,  especially  in  fraud  investigative  procedures. 
+The  Montana  University  System  has  been  discussing  and  will  follow-up  on  the  discount  issue  with 
+BCBSMT  and  HDL 
+
+Thank  you  for  the  effort  you  and  your  staff  put  in  on  this  audit. 
+
+Sincerely, 
+
+
+Glen  D.  Leavitt 
+Director  of  Benefits 
+
+
+MONTANA  STATE  UNIVERSITY  -  Campuses  at  Billings,  Bozeman,  Great  Falls,  and  Havre 
+
+THE  UNIVERSITY  OF  MONTANA  -  Campuses  at  Butte,  Dillon,  Helena,  and  Missoula 
+
+Dawson  Community  College  (Glendive)  -  Flathead  Valley  Community  College  (Kalispell)  -  Miles  Community  College  (Miles  City) 
+
+
+DEPARTMENT  OF 
+PUBLIC  HEALTH  AND  HUMAN  SERVICES 
+
+
+Exhibit  G 
+
+
+<*X     JUDY  MARTZ 
+Sr\  GOVERNOR 
+
+
+STATE  OF  MONTANA 
+
+
+www  dphhs. state  mt  us 
+
+
+GAIL  GRAY,  Ed.D. 
+DIRECTOR 
+
+
+PO  Box  4210 
+HELENA.  MT  59604-4210 
+
+
+December  1 ,  2004 
+
+
+TO: 
+
+
+FROM: 
+
+
+Marie  Pollock 
+
+Wolcott  &  Associates,  Inc. 
+
+Mary  Noel,  Chief 
+
+Health  Care  Resources  Bureau 
+
+
+SUBJECT: 
+
+
+Response  to  draft  report  of  BCBSMT  audit  report,  November  2004, 
+for  the  Children's  Health  Insurance  Plan  (CHIP) 
+
+
+I.  Introduction 
+
+Fourth  paragraph:  Please  revise  this  paragraph  to  read:  "The  Children's  Health 
+Insurance  Plan  (CHIP)  is  administered  by  the  Department  of  Public  Health  and  Human 
+Services  (DPHHS),  and  provides  a  fully  insured  medical  care  and  prescription  drug  plan 
+to  qualifying  children  in  the  State  of  Montana.  The  plan  covers  approximately  1 1,000 
+children." 
+
+III.  Statistical  Claim  Audit  Results— CHIP 
+
+
+Exhibit  B  and  summarized  on  page  III-3 
+
+A.  Claim  #s  13126100280  and  13101 100460:  Are  these  outpatient  hospital  visits?  If  not, 
+the  copay  is  $3,  not  $5. 
+
+B.  Claim  #  12281 107910:  The  explanation  is  confusing,  please  clarify.  Is  this  outpatient 
+hospital? 
+
+V.  BCBSMT  Reimbursement 
+
+Page  V-1,  second  paragraph  states,  "CHIP  submits  to  BCBSMT  premiums  on  a  monthly 
+basis.  This  is  based  on  the  previous  month's  enrollment  in  the  Plait" 
+
+Premiums  paid  by  DPHHS  are  for  the  current  month's  enrollment,  hot  the  previous 
+month's  enrollment.  Please  correct. 
+
+
+1 
+
+
+Page  V-2,  first  paragraph  under  CHIP  states,  "CHIP  will  send  the  premiums  once  a 
+month  based  on  previous  month's  enrollment.  BCBSMT  sends  a  detailed  bill  to  CHIP  for 
+payment." 
+
+Premiums  paid  by  DPHHS  are  for  the  current  month's  enrollment,  not  the  previous 
+month's  enrollment.  Please  correct.  In  addition,  BCBSMT's  detailed  bill  is  received  by 
+DPHHS  before  the  premium  payment  is  made.  Please  revise  the  first  paragraph  to 
+reflect  this. 
+
+The  final  sentence  on  the  page  states,  "The  amount  invoiced  from  BCBSMT  was  paid 
+within  10  working  days  in  all  3  cases." 
+
+The  premium  payment  is  always  made  within  one  (1)  day  of  receiving  BCBSMT's 
+detailed  bill.  I  know  one  day  is  "within  10  working  days"  but  I  would  like  the  report  to 
+reflect  that  DPHHS  pays  the  premium  with  one  day.  If  you  have  information  that  does 
+not  support  this,  please  let  me  know. 
+
+VII.  Cost  Containment 
+
+Page  VII-1,  third  paragraph  states,  "Typically,  participants  are  referred  to  case 
+management  based  on  diagnosis.  However,  APS  has  indicated  that  they  receive  these 
+referrals  from  CHIP  and  in  some  cases  from  the  hospital." 
+
+Throughout  the  report,  the  term  "CHIP"  is  used  to  refer  to  the  DPHHS  program.  In  this 
+paragraph,  the  term  "CHIP"  should  be  changed  to  "BCBSMT"  as  DPHHS  does  not 
+make  referrals  to  APS. 
+
+XI.  Other  Review  Areas 
+
+A.  Pharmacy  Claims— CHIP,  page  IX-1 
+
+Third  paragraph  states,  "BCBSMT  also  indicated  to  us  that  there  are  no  denied 
+pharmacy  claims  for  CHIP  members.  Therefore,  there  were  no  claims  to  review." 
+
+CHIP  staff  members  have  received  telephone  calls  from  family  members  of  eligible 
+CHIP  children  who  were  unable  to  obtain  a  prescription  for  their  CHIP  children,  were 
+required  to  pay  more  than  their  copayments,  if  applicable,  or  were  required  to  pay  full 
+price  for  the  medications.  These  individual  situations  have  been  resolved  when  CHIP 
+staff  members  intervene  with  BCBSMT.  However,  we  do  not  know  the  true  magnitude  of 
+this  issue  as  there  may  be  children  whose  family  members  do  not  call  the  CHIP  office 
+when  they  encounter  problems  at  their  pharmacies. 
+
+If  BCBSMT  does  not  track  or  record  these  instances,  please  include  a  statement  in  the 
+report  to  that  effect. 
+
+Is  there  another  way  you  can  obtain  this  information?  If  BCBSMT  doesn't  keep  records, 
+would  Express  Scripts,  Inc.  be  able  to  provide  it? 
+
+B.  Reserves  &  Administrative  Expenses — CHIP,  page  IX-2 
+
+First  paragraph  states,  "BCBSMT  indicated  to  us  that  there  was  no  reserve  agreement 
+for  the  audit  period  2002-2003."  There  was  in  fact  an  agreement  that  was  understood  by 
+
+"An  Equal  Opportunity  Employer" 
+
+
+1 
+
+
+DPHHS  to  be  in  place,  however,  I  do  not  want  to  reopen  this  debate  in  the  report.  The 
+information  we  were  looking  for  was  what  BCBSMT  did  with  the  funds  they  retained  and 
+called  reserves.  If  BCBSMT  did  not  provide  a  breakdown  of  how  the  money  was  used, 
+please  just  state  that  in  the  report.  Please  remove  the  first  sentence  of  this  paragraph. 
+
+C.  Third  paragraph  states,  "BCBSMT  did  not  provide  a  breakdown  of  administrative 
+expenses  for  the  plan.  Therefore,  we  cannot  include  this  in  the  report.  However,  they 
+indicate  to  us  that  they  provide  this  information  to  CHIP  on  a  yearly  basis  during  the 
+renewal  process." 
+
+In  fact,  BCBSMT  does  not  provide  a  breakdown  of  administrative  expenses  during  the 
+
+renewal  process — they  provide  a  total  of  the  administrative  expenses.  That  is  why  we 
+
+asked  for  a  detailed  breakdown  as  part  of  the  audit.  Please  remove  the  last  sentence  of  j 
+
+this  paragraph  from  the  report  or  clarify  to  include  the  DPHHS  position.  < 
+
+i 
+
+D.  Comment  i 
+
+Second  paragraph:  To  which  Montana  law  do  you  refer  when  you  state  there  are  rate 
+increases  and  administrative  expenses  that  "may  disagree  with  Montana  State  Law?" 
+Please  clarify. 
+
+Third  paragraph:  Please  clarify  and  expand.  To  which  "financials  of  the  CHIP  plan"  do 
+you  refer?  When  you  say  "BCBSMT  reimbursement,"  are  you  referring  to  the  premium 
+paid  by  DPHHS?  What  "accounting  professionals"  do  you  recommend — internal, 
+external? 
+
+
+"An  Equal  Opportunity  Employer" 
+
+
+I 
+
+
+STATE  OF  MONTANA  and 
+MONTANA  UNIVERSITY  SYSTEM, 
+
+PRESCRIPTION  DRUG  CLAIM  AUDIT 
+
+FOR  THE  PERIOD 
+
+JANUARY  1,  2002  THROUGH  DECEMBER  31,  2003 
+
+
+ADMINISTERED  BY 
+ECKERD  HEALTH  SERVICES 
+
+FINAL  REPORT 
+DECEMBER  2004 
+
+
+PRESENTED  BY 
+
+WOLCOTT  &  ASSOCIATES,  INC. 
+
+12120  STATE  LANE  ROAD,  SUITE  297 
+
+LEAWOOD,  KANSAS  66209 
+
+
+STATE  OF  MONTANA 
+
+PRESCRIPTION  DRUG  PLAN  AUDIT 
+
+OF  ECKERD  HEALTH  SERVICES 
+
+JANUARY  1,  2002  -  DECEMBER  31,  2003 
+
+TABLE  OF  CONTENTS 
+
+
+SECTION 
+
+
+I-  INTRODUCTION 
+
+
+E  -  STATISTICAL  CLAIM  AUDIT  RESULTS 
+
+
+m  -  ELIGIBILITY 
+
+
+IV  -  LOGIC  AND  CLAIM  TEST  RESULTS 
+
+
+V-  OTHER  REVIEW  ITEMS 
+
+
+PAGE 
+
+1-1 
+
+n-i 
+m-i 
+rv-i 
+
+v-i 
+
+
+EXHIBITS 
+
+
+DESCRIPTION  OF  ERRORS 
+
+
+EHS  RESPONSE 
+
+
+STATE  OF  MONTANA  RESPONSE 
+
+
+MONTANA  UNIVERSITY  SYSTEM  RESPONSE 
+
+
+EXHIBIT  A 
+EXHIBIT  B 
+EXHIBIT  C 
+EXHIBIT  D 
+
+
+I  -  INTRODUCTION 
+
+The  State  of  Montana  (State)  provides  a  prescription  drug  benefit  as  part  of  an  overall 
+employee  benefit  and  compensation  program.  The  plan  covers  approximately  15,000  employees 
+and  retirees,  plus  their  dependents  for  a  total  of  32,000  covered. 
+
+The  State  is  a  member  of  the  Montana  Association  of  Health  Care  Purchasers.  The 
+Assocation  has  negotiated  a  contract  with  TDI  Managed  Care  Services,  Inc.  d/b/a/  Eckerd  Health 
+Services  (EHS)  to  provide  prescription  drug  benefits  to  employees  and  Association  members  that 
+elect  such  benefits.  The  State  has  elected  to  have  its  prescription  drug  benefits  provided  by  EHS. 
+
+The  Montana  University  System  (MUS),  has  contracted  directly  with  EHS  for  the 
+provision  of  prescription  drug  benefits.  The  plan  covers  approximately  6,000  employees  and 
+retirees,  plus  their  dependents. 
+
+PURPOSE  OF  SERVICE 
+
+Section  2.18.816,  MCA  requires  the  State  Employee  Benefits  Plan  to  be  audited  every 
+two  years  by  or  at  the  direction  of  the  Legislative  Audit  Division.  The  Division  issued  a  bid 
+request  on  May,  2004,  for  the  performance  of  this  audit.  Wolcott  &  Associates,  Inc.  was 
+awarded  the  audit  contract. 
+
+The  purpose  of  the  service  is  to  comply  with  Section  2.18.816,  MCA. 
+
+The  State  and  MUS  recognize  that  they  have  a  fiduciary  responsibility  to  administer  this 
+plan  (and  other  employee  benefit  plans)  for  the  benefit  of  plan  participants  and  their  dependents 
+and  in  accordance  with  the  plan  provisions.  Both  sponsors  believe  it  is  prudent  to  perform 
+periodic  audit  and  review  services  to  determine  if  the  benefit  plans  they  sponsor  are  meeting 
+these  objectives. 
+
+AUDIT  TIMING 
+AND  STAFF 
+
+The  Division  advised  Wolcott  &  Associates,  Inc.  that  we  had  been  awarded  the  audit 
+contract.  All  preliminary  work  was  completed  and  the  entrance  meeting  was  held  in  Helena  on 
+September  8,  2004. 
+
+The  on-site  work  started  on  October  5,  2004  at  EHS's  Pittsburgh  corporate  office. 
+
+Eckerd  Health  Services 
+620  Epsilon  Drive 
+Pittsburgh,  PA  15238 
+
+1-1 
+
+
+Wolcott  &  Associates,  Inc.  staff  involved  in  the  audit  are  listed  below: 
+
+Name  Title  On-site 
+
+Marie  Pollock  Vice  President  No 
+
+Brian  Wyman  Manager  Yes 
+
+Richard  Reese  Actuary  No 
+
+SCOPE  OF  AUDIT 
+
+The  scope  of  audit  services  covered  prescription  drug  benefit  claims  paid  by  EHS  during 
+the  period  from  January  1,  2002  through  December  31,  2003.  Test  work  was  performed  on  220 
+previously  processed  claims,  all  of  which  were  selected  on  a  stratified,  random  (statistical)  basis. 
+
+Scope  elements  included: 
+
+•  Eligibility  of  claimants  to  receive  payment. 
+
+•  Calculation  accuracy. 
+
+•  Completeness  of  necessary  information. 
+
+•  Compliance  with  benefit  plan  structure. 
+
+•  Identification  of  duplicate  claim  submissions. 
+
+
+1-2 
+
+
+II  -  STATISTICAL  CLAIM  AUDIT  RESULTS 
+
+The  results  of  our  audit  of  previously  processed  claims  are  presented  in  this  section. 
+
+SAMPLE  SIZE  AND  METHODOLOGY 
+
+The  proposal  request  stated  that  our  sample  size  was  to  be  large  enough  so  as  to  express 
+the  frequency  of  error  with  a  95%  confidence  and  a  precision  of  +  or  -  3%,  assuming  an  error  rate 
+of  5%  or  less.  As  a  result,  we  proposed  to  audit  a  sample  of  220  claims. 
+
+The  claims  were  selected  from  the  population  of  claims  paid  by  EHS  between  January  1, 
+2002  and  December  31,  2003.  Prior  to  selection,  the  population  of  claims  was  stratified. 
+
+The  strata  types  were  as  follows:  (1)  Top  20  highest  dollar  amount  and,  (2)  Electronic  or 
+Mail  Order  (combined). 
+
+AUDIT  PROCEDURE 
+
+Each  sample  claim  was  manually  reprocessed  based  on  the  plan's  provisions  in  force  as  of 
+the  date  the  prescription  was  dispensed.  Ingredient  costs  for  electronic  and  paper  (including  out- 
+of-network)  claims  were  calculated  based  on  Average  Wholesale  Prices  (AWP)  on  the  package 
+size  submitted  or  other  applicable  prices  in  effect  on  the  date  the  prescription  was  dispensed. 
+Ingredient  costs  for  mail  order  claims  were  calculated  based  on  AWP  on  package  size  submitted 
+or  other  applicable  prices  in  effect  on  the  date  the  prescription  was  dispensed. 
+
+The  percentage  discounts,  dispensing  fees,  and  copayment  amounts  were  compared  to  the 
+plan's  agreed  upon  provisions  as  of  the  date  the  prescription  was  dispensed. 
+
+Each  sample  claim's  medication  was  identified  and  compared  to  the  plan's  requirements 
+for: 
+
+Exclusions, 
+
+Pricing  used  at  the  time  the  prescription  was  dispensed, 
+
+Recalculating  payment  amount, 
+
+Appropriate  copayment  (generic,  branded,  etc.) 
+
+Compliance  with  pre-approval  requirements, 
+
+Maximum  number  of  days  supply, 
+
+Refill  timing, 
+
+Formulary  limitations  and, 
+
+Eligibility  of  participant. 
+
+
+n-i 
+
+
+DEFINITION  OF  ERROR 
+
+All  network  pharmacy  claim  (electronic  claims)  payments  were  paid  to  the  retail 
+pharmacy.  All  mail  order  initial  and  refilled  claim  payments  were  paid  to  EHS  mail  order 
+pharmacy. 
+
+We  defined  an  error  to  be  any  claim  where  the  payment  to  the  participant  or  the  pharmacy 
+did  not  agree  with  the  plan  document  provisions. 
+
+AUDIT  RESULTS 
+
+Of  the  220  claims  in  our  statistical  sample,  6  were  judged  to  contain  a  payment  error.  This 
+represents  a  frequency  of  payment  error  of  2.72%.  Of  these  6  claims,  2  were  overpayments  and  4 
+were  underpayments. 
+
+Our  sample  contained  a  total  payment  of  $147,725.11  for  the  220  claims.  The 
+overpayments  totaled  $  5.84  or  .004%  of  the  total.  The  underpayments  totaled  $30.46  or  .02%  of 
+the  total. 
+
+The  sample's  error  magnitude,  extended  to  the  population,  produces  a  projected 
+overpayment  of  $30,056  (.069%  of  $43,488,648)  and  a  projected  underpayment  of  $156,765 
+(.36%  of  43,488,648).  The  error  magnitude  rate  in  the  sample  differs  from  the  error  magnitude 
+rate  when  extended  to  the  population  due  to  the  weighting  of  the  sample  strata. 
+
+As  a  result,  we  are  95  percent  confident  that  the  true  value  of  the  prescription  paid  claims 
+during  the  period  ranges  from  $  44,659,085  (the  $43,488,648  recorded  claims,  plus  the  $126,709 
+projected  net  error,  plus  the  $  1,043,728  value  of  the  2.4  percent  precision)  and  $  42,571,629  (the 
+$43,488,648  recorded  claims,  plus  the  $  126,709  projected  net  error,  less  the  $1,043,728  value  of 
+the  2.4  percent  precision). 
+
+The  EHS  standard  accuracy  rate  is  99  percent  or  more  of  the  gross  dollar  payments  should 
+be  paid  accurately.  We  understand  the  measurement  is  made  by  summing  the  overpayments  and 
+underpayments,  and  dividing  the  result  by  the  total  dollars  and  subtracting  from  100%. 
+
+The  overpayments/underpayments  percentage  from  our  results  (extended  to  the 
+population)  total  0.02  percent.  This  equals  a  payment  accuracy  rate  of  99.98  percent.  These 
+results  are  superior  to  the  EHS  standard  accuracy  rate.  They  are  also  superior  to  the  99%  accuracy 
+standard  established  by  other  claim  processors  with  which  we  are  familiar. 
+
+
+n-2 
+
+
+TYPES  OF  ERRORS 
+
+Each  of  the  errors  identified  in  our  sample  is  listed  in  Exhibit  A.    A  discussion  of  error 
+types  is  presented  below. 
+
+
+EHS  PHARMACY  CLAIMS 
+
+JANUARY  1,  2002  THROUGH  DECEMBER  31,  2003 
+
+SUMMARY  OF  ERRORS  BY  TYPE 
+
+ERROR  TYPE  NUMBER  NET  PAYMENT  ERROR 
+
+Did  not  use  the  correct 
+
+MAC  pricing.  3  $3.61 
+
+Did  not  use  updated  pricing 
+
+to  calculate  ingredient  cost.  2  (25.57) 
+
+Did  not  calculate  copayment 
+
+correctly  I  ( 2.66) 
+
+Total  JS  $(24.62) 
+
+Corrective  Action 
+
+EHS  has  included  their  response  as  Exhibit  B.  We  attempted  to  contact  EHS  in  order  to 
+review  the  4  disputed  errors  (As  indicated  in  EHS*s  response).  However,  EHS  failed  to  respond 
+to  our  calls.  Therefore,  those  4  claims  remain  as  errors. 
+
+CONCLUSION 
+
+Based  on  our  audit  of  220  claims,  we  conclude  EHS  is  processing  the  State  and  MUS 
+claims  in  agreement  with  the  plan  provisions. 
+
+
+II-3 
+
+
+m  -  ELIGIBILITY 
+
+The  State  and  MUS  use  various  methods  to  report  new  entrants,  changes  and  termination 
+of  coverage  to  EHS.  This  section  describes  the  methods  employed  and  presents  the  results  of  the 
+verification  of  eligibility  for  20  of  the  claims  in  our  sample. 
+
+STATE  OF  MONTANA 
+
+The  State  prepares  and  sends  to  EHS  a  biweekly  eligibility  tape  showing  each  individual 
+to  be  covered  for  the  coming  month.  EHS  runs  this  tape  and  compares  it  to  the  data  for  the  prior 
+month.  An  exception  report  is  generated  showing  all  errors  in  the  file.  The  exception  report  is 
+sent  back  to  the  State  for  correction  or  approval  to  go  ahead  and  load  the  file.  If  no  exceptions 
+were  found,  the  file  is  loaded  into  the  claim  system. 
+
+MONTANA  UNIVERSITY  SYSTEM 
+
+Blue  Cross  Blue  Shield  of  Montana  (BCBSMT)  processes  claims  for  the  MUS  health  care 
+plan.  BCBSMT  has  also  contracted  to  provide  eligibility  data  to  EHS  on  behalf  of  MUS. 
+BCBSMT  receives  the  enrollment  data  from  each  campus  on  a  daily  basis  and  transmits  new 
+entrant,  change  and  termination  data  to  EHS  electronically  each  day.  An  exception  report  is 
+generated  showing  all  errors  in  the  file.  The  exception  report  is  sent  back  to  BCBSMT  for 
+correction  or  approval  to  go  ahead  and  load  the  file.  If  no  exceptions  were  found,  the  file  is 
+loaded  into  the  claim  system. 
+
+ELIGIBILITY  VERIFICATION 
+
+Each  of  the  20  participants  in  our  sample  was  researched  on  EHS  eligibility  system  to 
+verify  that  the  participant's  records  indicated  that  coverage  was  in  force  on  the  date  the 
+prescription  was  dispensed. 
+
+No  exceptions  were  noted. 
+
+Eligibility  File  Processing 
+
+During  our  review,  EHS  has  informed  us  that  the  eligibility  files  are  loaded  on  the  same 
+days  that  they  are  received  from  the  State  or  BCBSMT.  However,  EHS  stated  that  they  cannot 
+generate  a  system  report  for  verification  that  the  turnaround  time  for  loading  eligibility  files  are 
+within  two  business  days. 
+
+We  reviewed  the  "Reformat  Summary  History"  report  for  forty  files  noting  the  date 
+received  and  the  date  loaded  was  within  two  business  days. 
+
+
+HI-  1 
+
+
+Eligibility  File  Accuracy 
+
+During  our  review,  EHS  has  informed  us  that  there  is  no  system  report  that  can  be 
+generated  to  show  uploading  accuracy  rate  is  at  least  98%.  EHS  stated  that  if  there  are  no 
+exceptions  found,  the  file  is  uploaded.  For  errors  that  were  generated  during  uploading,  they  are 
+sent  back  to  the  State  or  BCBSMT  for  corrections  or  approvals. 
+
+Identification  Cards  Timeliness 
+
+During  our  fieldwork  at  EHS  office  in  Pittsburgh,  we  noted  that  EHS  cannot  generate  a 
+report  showing  an  average  turnaround  time  for  identification  cards  within  four  business  days  for 
+new  or  replacement  cards.  However,  EHS  stated  that  identification  card  data  is  sent  to  the 
+outsource  vendor  on  a  nightly  basis  to  be  processed  the  following  day. 
+
+CONCLUSION 
+
+We  noted  no  exceptions  were  found  during  our  review  in  the  eligibility  area.  However, 
+EHS  could  not  provide  information  on  uploading  accuracy  rate,  generate  a  report  showing  all  file 
+loads  were  performed  within  two  business  days  or  verification  that  identification  cards  are 
+processed  within  four  business  days.  Not  having  this  information,  Wolcott  &  Associates,  Inc. 
+could  not  obtain  assurance  that  the  upload  accuracy  rate  is  at  least  98%,  that  the  eligibility  file 
+uploads  are  performed  within  two  business  days  or  that  identification  cards  are  generated  within 
+four  business  days. 
+
+
+ni-2 
+
+
+IV  -  LOGIC  AND  CLAIM  TEST  RESULTS 
+
+This  section  presents  the  results  of  test  claims  submitted  to  the  EHS  claim  system  as  a 
+method  of  assessing  the  system's  ability  to  identify  inappropriate  transactions. 
+
+LOGIC  CLAIMS 
+
+We  created  a  total  of  10  fictitious  electronic  claims,  working  with  a  claim  processor  in  the 
+claim  department  in  Pittsburgh.  These  claims  were  submitted  to  the  system  for  processing.  The 
+electronic  claims  were  submitted  to  the  system  in  a  test  mode. 
+
+CLAIMS  TESTED 
+
+We  created  a  series  of  claims  for  the  following  situations: 
+
+•  Two  claims  with  same  medication  with  different  pharmacy, 
+
+•  Two  claims  for  medication  inconsistent  with  the  patient's  gender, 
+
+•  Two  claims  over  age  limit, 
+
+•  Two  claims  over  days  supply  limit  and 
+
+•  Two  claims  requiring  prior  authorization. 
+
+CONCLUSION 
+
+—    Based  on  our  test  results,  we  conclude  that  the  EHS  system  is  effective  in  identifying 
+erroneous  claims. 
+
+
+IV-  1 
+
+
+V  -  OTHER  REVIEW  ITEMS 
+
+Discussion  regarding  other  claim  review  items  are  presented  below. 
+
+PHARMACY  NETWORK  ACCESS 
+
+EHS  agreed,  based  upon  census,  that  100%  of  covered  participants  living  in  suburban 
+areas  will  have  access  to  at  least  one  network  pharmacy  within  five  miles  of  the  participant  and 
+96.4%  of  covered  participants  living  in  rural  areas  will  have  access  to  one  network  pharmacy 
+within  fifteen  miles  of  the  participant. 
+
+We  reviewed  reports  generated  by  EHS  stating  that  State  participants  had  100%  access  to 
+one  network  pharmacy  within  a  five  mile  radius  in  a  suburban  area  and  99.1%  had  access  to  one 
+network  pharmacy  within  a  fifteen  mile  radius  in  a  rural  area. 
+
+We  reviewed  reports  generated  by  EHS  stating  that  MUS  participants  had  100%  access  to 
+one  network  pharmacy  within  a  five  mile  radius  in  a  suburban  area  and  98.9%  had  access  to  one 
+network  pharmacy  within  a  fifteen  mile  radius  in  a  rural  area. 
+
+The  EHS  report  made  three  assumptions  when  performing  this  analysis: 
+
+•  The  basis  for  the  analysis  was  the  zip  code  information  received  from  the  State  and 
+MUS. 
+
+•  Percentages  are  based  on  all  possible  retail  pharmacies  (for  the  State  all  possible  retail 
+pharmacies  met  the  access  standard  of  one  pharmacy  within  five  miles  for  99.8%  of 
+participants  living  in  suburban  areas  and  one  pharmacy  within  fifteen  miles  for  89.8% 
+of  participants  living  in  rural  areas.  For  MUS  all  possible  retail  pharmacies  mef  the 
+access  standard  of  one  pharmacy  within  five  miles  for  98.8%  of  participants  in 
+suburban  areas  and  one  pharmacy  within  fifteen  miles  for  96%  of  participants  living  in 
+rural  areas.) 
+
+•  Distance  was  measured  using  driving  distance. 
+
+Conclusion 
+
+Based  on  the  results  of  our  review  activity,  we  conclude  that  EHS  is  in  compliance  with 
+the  terms  of  the  Association  contract  as  it  relates  to  the  pharmacy  network  access. 
+
+
+V-l 
+
+
+PHARMACY  AUDITING 
+
+EHS  agreed  to  audit  10%  of  active  network  pharmacies  each  year  of  the  contract.  An 
+active  network  pharmacy  is  defmed  as  any  pharmacy  processing  at  least  400  prescriptions  per 
+year. 
+
+EHS  has  two  field  auditors  performing  approximately  two  on-site  field  audits  per  day. 
+Procedural  reviews  with  selected  pharmacists  are  also  performed  during  field  audits.  If  errors  are 
+found,  the  pharmacy  has  30  days  for  rebuttals. 
+
+We  reviewed  reports  generated  by  EHS  showing  total  finalized  audits  of  only  2%  of 
+network  pharmacies  with  over  400  prescriptions  per  year.  EHS  informed  us  that  the  Audit 
+Department  was  not  informed  of  the  change  in  the  final  contract  with  the  State  and  MUS.  The 
+Audit  Department  stated  that  the  "caught  up"  audits  were  completed  by  August.  2004. 
+
+Recoveries 
+
+As  of  the  date  of  this  draft,  EHS  has  not  supplied  us  with  information  on  amount  of  the 
+audit  recoveries. 
+
+Conclusion 
+
+Based  on  the  results  of  our  review  activity,  we  conclude  that  EHS  is  not  in  compliance 
+with  the  terms  of  the  contract  as  it  relates  to  the  auditing  of  network  pharmacies. 
+
+PHARMACY  PARTICIPATION 
+
+EHS  guaranteed  that  no  more  that  25%  of  the  network  pharmacies  will  voluntarily 
+terminate  their  contracts  with  EHS  during  any  calendar  year. 
+
+EHS  has  informed  us  that  they  are  unable  to  generate  a  report  verifying  that  no  more  than 
+25%  of  the  network  pharmacies  voluntarily  terminated  their  contract  with  EHS.  However,  EHS 
+has  stated  that  they  believe  that  no  network  pharmacies  have  terminated  their  contract. 
+
+Conclusion 
+
+Based  on  the  results  of  our  review  activity,  we  are  unable  to  conclude  that  EHS  is  in 
+compliance  with  the  terms  of  the  contract  as  it  relates  to  the  pharmacy  participation. 
+
+CUSTOMER  SERVICE  RESPONSE  TIME 
+
+EHS  guaranteed  that  a  maximum  telephone  answering  time  averages  less  than  30  seconds 
+for  all  customer  service  calls  received.  EHS  also  guaranteed  an  abandonment  rate  of  less  than  5% 
+for  all  customer  service  calls. 
+
+
+V-2 
+
+
+EHS  generated  reports  to  verify  the  average  speed  to  answer  and  the  average  abandonment 
+rate  for  the  State  and  MUS. 
+
+The  report  for  the  State  shows  an  average  speed  to  answer  in  2002  was  1 8  seconds  and  in 
+2003  the  average  speed  to  answer  was  65  seconds.  The  abandonment  rate  for  the  State  in  2002 
+was  3.22%  and  in  2003  the  abandonment  rate  was  7.04%.  EHS  informed  us  that  they  have  paid 
+1%  of  their  administrative  fee  for  failure  to  meet  the  abandonment  rate  and  average  speed  to 
+answer  in  2003. 
+
+The  report  for  the  MUS  shows  an  average  speed  to  answer  in  2002  was  37  seconds  and  the 
+abandonment  rate  in  2002  was  5.31%.  EHS  informed  us  that  they  paid  1%  of  their  administrative 
+fee  for  failure  to  meet  the  abandonment  rate  and  average  speed  to  answer  in  2002. 
+
+EHS  states  that  their  failure  to  meet  these  guarantees  was  caused  by  new  customer  service 
+technology  being  installed  that  caused  the  call  center  to  be  shut  down  for  one  week. 
+
+Conclusion 
+
+Based  on  the  results  of  our  review  activity,  we  conclude  that  EHS  is  not  in  compliance 
+with  the  terms  of  the  contract  as  it  relates  to  the  customer  service  response  time.  However,  we 
+understand  EHS  has  already  paid  the  penalties  associated  with  this  guarantee. 
+
+REBATES 
+
+EHS  agreed  to  rebates  in  an  amount  to  a  90%  pass  through  with  a  minimum  guarantee  of 
+$2.00  per  rebatable  retail  prescription  claim  and  a  minimum  of  $5.25  per  rebatable  mail  order 
+prescription  claim  of  the  market  share  rebate  received  by  EHS. 
+
+EHS  supplied  us  with  copies  of  the  "Flat  Rate  Disbursement  Detail"  showing  all 
+nonrebatable  and  rebatable  prescriptions.  EHS  also  supplied  us  with  a  copy  of  the  corresponding 
+check.  We  recalculated  the  invoices  and  traced  the  total  dollar  amount  to  the  applicable  checks 
+without  exceptions.  However,  we  could  not  verify  what  drug  was  rebatable  or  which  drug  was 
+not. 
+
+Starting  in  2003,  EHS  included  in  their  rebates  for  the  State  and  MUS  an  escalator  amount 
+for  additional  reimbursement.  The  rebate  escalator  amount  is  calculated  by  comparing  the 
+weighted  average  per  paid  prescription  (i.e.  the  discounted  ingredient  cost  plus  dispense  fee  before 
+participant  cost-share)  from  one  year  to  the  same  weighted  average  calculated  in  the  second  year. 
+The  percentage  increase  in  the  weighted  average  is  the  escalator.  However,  we  could  not  verify 
+that  the  escalator  was  calculated  correctly. 
+
+
+V-3 
+
+
+Conclusion 
+
+Based  on  the  results  of  our  review  activity,  we  are  unable  to  conclude  that  EHS  is  in 
+compliance  with  the  terms  of  the  contract  as  it  relates  to  rebates. 
+
+APPLICATION  OF  DEDUCTIBLE 
+
+Beginning  7/01/03  the  State  applied  a  $100.00  retail  deductible,  S250  per  prescription  out 
+of  pocket  maximum  and  $1 160  per  participant  yearly  out  of  pocket  maximum. 
+
+Of  the  220  sample  claims,  we  randomly  selected  20  claims  and  examined  the  participant's 
+history  in  EHS  system  to  verify  that  EHS  updated  the  State  deductible  and  out  of  pocket 
+maximums.  In  all  20  participants,  we  noted  EHS  had  correctly  entered  the  State's  changes  to  the 
+deductible  and  the  participant  out  of  pocket  maximums. 
+
+EHS  stated  that  retail  claims  are  not  suspended.  When  the  pharmacist  enters  the  claim 
+into  the  system,  the  claim  is  either  accepted  or  rejected  (  with  a  rejection  code)  at  that  time.  A 
+message  is  sent  back  to  the  pharmacist  stating  that  the  claim  was  accepted  or  rejected. 
+
+Conclusion 
+
+Based  on  the  results  of  our  review  activity,  we  conclude  that  EHS  has  updated  the  changes 
+to  the  State's  deductible  and  out  of  pocket  maximums  and  that  retail  claims  are  not  suspended. 
+
+DENIAL  CODES 
+
+EHS  supplied  us  with  reports  showing  the  State  and  MUS  claims  that  were  rejected,  the 
+reason  for  the  rejection  and  the  pharmacy  name.  We  sorted  the  reports  to  obtain  the  top  5  reasons 
+for  claim  rejection.  Our  findings  are  presented  below: 
+
+STATE  -  2002 
+
+Reason  Number  of  Claims  Rejected 
+
+Plan  limitations  exceeded  23,028 
+
+Refill  too  soon  10,750 
+
+DUR  reject  error  8,277 
+
+Prior  authorization  required  6,072 
+
+Non-matched  cardholder  ID  4,686 
+
+
+V-4 
+
+
+Total  number  of  claims  rejected  for  2002  was  72,481. 
+
+Total  number  of  claims  rejected  for  filled  after  coverage  has  termed  was  2,511. 
+
+STATE  -  2003 
+
+Reason  Number  of  Claims  Rejected 
+
+Plan  limitations  exceeded  14,272 
+
+Refill  too  soon  11,212 
+
+DUR  reject  error  9,928 
+
+Prior  authorization  required  4,741 
+
+Filled  after  coverage  termed  4,025 
+
+Total  number  of  claims  rejected  for  2003  was  60,152. 
+
+MUS  -  2002 
+
+Reason  Number  of  Claims  Rejected 
+
+Plan  limitation  exceeded  5,842 
+
+Non-matched  cardholder  ID  4,022 
+
+DUR  reject  error  4,006 
+
+
+Refill  too  soon  3,£ 
+
+Product  not  covered  2,384 
+
+Total  number  of  claims  rejected  in  2002  was  26,337. 
+
+Total  number  of  claims  rejected  for  filled  after  coverage  termed  was  1,580. 
+
+
+V-5 
+
+
+MUS  -  2003 
+
+Reason  Number  of  Claims  Rejected 
+
+Plan  limitation  exceeded  6,330 
+
+Non-matched  cardholder  ED  4,571 
+
+Refdl  too  soon  4,540 
+
+DUR  reject  error  3,977 
+
+Product  not  covered  1,792 
+
+Total  number  of  claims  rejected  in  2003  was  27,610. 
+
+Total  number  of  claims  rejected  for  filled  after  coverage  termed  was  1,564. 
+
+Conclusion 
+
+Based  on  the  results  of  our  review  activity,  we  conclude  that  EHS  rejection  codes  are 
+reasonable  and  are  effective  in  the  claim  system. 
+
+PRIOR  AUTHORIZATION 
+
+At  the  State  and  MUS  request,  EHS  has  provide  the  ability  to  selectively  approve  certain 
+drugs  that  would  have  to  be  preapproved  by  the  physician  prior  to  being  filled  at  the  pharmacy. 
+
+If  a  claim  is  entered  into  the  claim  system  that  requires  a  prior  authorization,  the  claim  is 
+rejected  and  sent  back  to  the  pharmacist  with  the  reason  for  the  rejection.  The  pharmacist  can  call 
+a  toll  free  number  to  verify  the  rejection. 
+
+The  physician  may  request  a  form  to  be  faxed  to  their  location  to  be  completed  by  the 
+physician.  Once  completed,  the  physician  will  fax  back  the  prior  authorization  form.  If  the  prior 
+authorization  is  denied,  the  reason  for  the  denial  is  faxed  back  to  the  physician.  EHS  informed  us 
+that  only  physicians  can  obtain  prior  authorization. 
+
+If  a  prior  authorization  is  denied,  EHS  has  an  appeal  process. 
+
+
+V-6 
+
+
+If  the  prior  authorization  is  approved,  the  prior  authorization  number  is  entered  into  the 
+system.  After  one  year,  the  prior  authorization  number  is  expired. 
+
+EHS  generated  reports  showing  prior  authorization  denial  rates  and  turnaround  time  for 
+completed  prior  authorizations.  Our  findings  are  presented  below: 
+
+State 
+
+Year  Denial  Rate 
+
+2002  34.4% 
+
+2003  26.2% 
+MUS 
+
+Year  Denial  Rate 
+
+2002  25.2% 
+
+2003  30.3% 
+
+The  220  claims  in  our  sample  were  also  reviewed  to  ensure  that  all  prior  authorization 
+claims  were  properly  identified  and  the  prior  authorization  process  was  completed.  No  exceptions 
+were  noted. 
+
+EHS  generated  a  report  showing  the  average  turnaround  time  for  prior  authorization  cases. 
+Between  January  1,  2003  and  December  31,  2003  the  average  turnaround  time  for  prior 
+authorization  for  the  State  was  5.96  days  and  6.72  days  for  MUS.  EHS  did  not  track  the 
+turnaround  time  in  2002. 
+
+Conclusion 
+
+Based  on  the  results  of  our  review  activity,  we  conclude  that  EHS  prior  authorization 
+policies  and  procedures  are  being  follow  as  prescribed. 
+
+MAIL  ORDER  PRESCRIPTION 
+
+EHS  guaranteed  that  95%  of  all  mail  service  pharmacist  approved  prescriptions  will  be 
+shipped  within  an  average  of  2  business  days  from  the  date  of  receipt.  EHS  guaranteed  that  98% 
+of  all  mail  service  pharmacist  approved  prescriptions  requiring  intervention  will  be  shipped  within 
+an  average  of  5  business  days  from  the  date  of  receipt.  EHS  also  guaranteed  that  electronic  mail 
+order  claims  will  be  processed  with  a  99%  accuracy  rate. 
+
+
+V-7 
+
+
+EHS  generated  reports  to  verify  the  turnaround  time  and  processing  accuracy  rates.   Our 
+findings  are  presented  below: 
+
+Performance  Results  for  the  State 
+
+Mail  service  processing  time  -  non  intervention: 
+
+Dates  Completion  %  in  2  days 
+
+1/01/02  to  12/31/03  100% 
+
+Mail  service  processing  time  -  intervention: 
+
+Dates  100%  order  fulfillment  in  days 
+
+1/01/02  to  12/31/03  2.4  days 
+
+Dispensing  Accuracy  rate: 
+
+Dates 
+
+
+1/01/02  to  12/31/03 
+
+
+Accuracy  rate  percentage 
+
+99.999% 
+
+
+Performance  Results  for  MUS 
+
+Mail  service  processing  time  -  non  intervention: 
+
+Dates  Completion  %  in  2  days 
+
+1/01/02  to  12/31/03  100% 
+
+Mail  service  processing  time  -  intervention: 
+
+Dates  100%  order  fulfillment  in  days 
+
+1/01/02  to  12/31/03  1.7  days 
+
+Dispensing  Accuracy  rate: 
+
+Dates  Accuracy  rate  percentage 
+
+1/01/02  to  12/31/03  99.99% 
+
+
+V-8 
+
+
+Conclusion 
+
+Based  on  the  results  of  our  review  activity,  we  conclude  that  EHS  is  in  compliance  with 
+the  terms  of  the  contract  as  it  relates  to  the  mail  order  processing  time  and  mail  order  accuracy 
+rate. 
+
+
+V-9 
+
+
+Exhibit  A 
+
+
+STATE  OF  MONTANA  AND  MONTANA  UNIVERSITY  SYSTEM 
+
+PRESCRIPTION  DRUG  CLAIMS 
+
+CLAIMS  PROCESSED  FROM  JANUARY  1,  2002  THROUGH  DECEMBER  31,  2003 
+
+SUMMARY  OF  FINDINGS 
+
+
+CLAIM 
+
+CLAIM  # 
+
+TYPE 
+
+129 
+
+retail 
+
+140 
+
+retail 
+
+141 
+
+retail 
+
+114 
+
+retail 
+
+30 
+
+retail 
+
+204 
+
+retail 
+
+DOS 
+
+
+DOLLAR 
+PAID     AUDITED  VALUE  OF 
+AMOUNT AMOUNT     ERROR 
+
+
+TYPE 
+
+
+3/26/2002  $7.47  9.70 
+
+7/17/2002  5.47  3.74 
+
+8/8/2002  5.24  1.13 
+
+1/17/2002  14.02  16.57 
+
+4/4/2002  192.88  215.90 
+
+7/10/2003  0.00  2.66 
+
+
+-2.23  Did  not  use  correct  MAC  pricing. 
+
+1 .73  Did  not  use  correct  MAC  pricing. 
+
+4.1 1  Did  not  use  correct  MAC  pricing. 
+
+-2.55  Did  not  use  updated  pricing. 
+
+-23.02  Did  not  use  updated  pricing. 
+
+-2.66  Incorrectly  calculated  copayment. 
+
+
+Totals 
+
+
+$212.14      240.00 
+
+
+(22.39) 
+
+
+Exhibit  B 
+State  of  Montana  and  Montana  University  System  Prescription  Drug  Audit 
+
+Wolcott  &  Associates  Draft  Review  by  John  Hatala,  PharamCare/EHS 
+
+
+Review:  Exhibit  A  (PDF  file) 
+
+These  claims  have  been  reviewed  and  here  are  our  findings: 
+
+Claim  number  129,  140,  141,  and  204  all  priced  correct  with  no  discrepancies 
+
+on  the  EHS  system.  We  would  need  more  information  to  see  where  an  error  was 
+
+identified. 
+
+Claim  114  the  pricing  was  updated  on  1/17/02  at  the  end  of  day  21:07:51. 
+Claim  paid  prior  to  on  1/1 7/02.  The  effective  date  of  the  price  AWP  update 
+was  01/04/02. 
+
+Claim  30  the  pricing  was  added  4/1 1/02  claim  paid  on  4/4/02.  The  effective 
+date  of  change  was  4/1 . 
+
+Response:  No  claim  processing  errors  for  the  sample. 
+
+Review:  Audit  Report  (PDF)  pages  I-2  to  V-10 
+
+/  Introduction  - 
+
+Audit  Timing  and  Staff-  should  be  noted  that  the  Wolcott  auditor  was  offered 
+direct  access  to  the  AS400  mainframe  to  review  the  claim  sample;  the  offer  to 
+utilize  the  AS400  for  review  was  declined. 
+
+Add  EHS  Participants  - 
+
+Audit  Coordinator  -  John  Hatala,  Regional  Manager 
+
+Claims  review  -  Theresa  Sorg,  Supervisor  of  Systems  Administration;  support 
+
+staff  was  provided  to  research  claims 
+
+Customer  Service  /  Performance  Statistics  -  Hal  Brandt,  Manager  of  Customer 
+
+Service;  Gina  Tiani  Supervisor  Customer  Service 
+
+Clinical  Department/  Prior  Authorizations-  Teddi  Gianangeli,  Pharm.D.,  Senior 
+
+Clinical  Specialist 
+
+Eligibility  Department  /  Processing  &  Accuracy  -Robin  Hileman,  Supervisor  of 
+
+Eligibility  Systems 
+
+Member  Communications  /  ID  Cards  -  Jamie  Bostard,  Supervisor  of  Member 
+
+Communications 
+
+
+Exhibit  B  (cont.) 
+
+Network  Department  -  Access  &  Pharmacy  Audits  -  Nick  Calla,  RPh,  Esq., 
+
+Director  of  Clinical  Programs  and  Network  Administration;  Heather  Steele, 
+
+Pharmacy  Auditor 
+
+Finance  /  Rebates  -  Deidre  Kramer,  Senior  Financial  Analyst 
+
+Mail  Service  /  Claim  Review-  Christina  Pekich,  Facility  Manager 
+
+//  Statistical  Claim  Audit  Results 
+
+Audit  Procedure  -  Correction;  claims  were  not  reprocessed.  AS  400  mainframe 
+screen  prints  were  utilized  to  review  claims. 
+
+Audit  Results  -  No  Payments  Errors;  section  needs  to  be  revised  to  reflect  100% 
+accuracy  of  the  sample  reviewed. 
+
+Types  of  Errors  -  Modify  to  100%  accuracy;  no  corrective  action  required. 
+
+///  Eligibility 
+
+Eligibility  File  Accuracy  -  Section  should  be  modified  to  reflect  that  while  a 
+summary  system  report  cannot  be  generated  as  Wolcott  preferred,  as  stated  on 
+page  IV -1  of  the  audit,  "We  (Wolcott)  reviewed  the  "Reformatted  Summary 
+History"  report  for  forty  files  noting  the  date  received  and  the  date  loaded  was 
+within  two  business  days."    Similarly,  regarding  ID  cards,  data  was  provided  to 
+support  that  ID  cards  were  issued  within  the  required  timeframe.  But,  only  recent 
+data  was  available  not  for  the  entire  time  period  of  the  audit. 
+
+Conclusion  -  EHS  disputes  the  conclusion.  EHS'  position  is  that  information  was 
+provided  during  the  audit  that  may  not  specifically  match  the  reporting  requested, 
+but  is  satisfactory  to  demonstrate  compliance  with  the  contract  for  the  Eligibility 
+File  Accuracy  and  ID  Card  provisions. 
+
+VI  Logic  and  Claim  Test  Results 
+No  changes. 
+
+VII  Other  Reviews 
+
+Pharmacy  Auditing  -  The  "catch-up"  audits  were  made  in  good  faith  and  have 
+resulted  in  compliance  with  the  contract.  The  State  of  Montana  and  MUS  receive 
+100%  of  all  audit  recoveries  and  this  information  is  available  at  the  time  the 
+recovery  is  returned  to  the  client. 
+
+Pharmacy  Participation  -  EHS'  position  is  that  the  guarantee  is  designed  to 
+assure  network  stability  for  our  clients  and  in  this  regard  we  are  compliant  with 
+the  spirit  of  the  contract. 
+
+
+Exhibit  B  (conU 
+
+Rebates  -  EHS  disputes  the  conclusion.  We  discussed  how  a  review  of  the 
+"rebatable"  drug  data  could  be  performed  and  Wolcott  determined  that  this 
+review  was  not  practical  given  the  time  and  resources  allotted  for  this  audit.  EHS 
+is  compliant  with  the  rebate  terms  of  the  contract.  The  rebate  data  provided  to 
+Wolcott  was  sufficient  to  validate  that  the  escalator  was  calculated  correctly.  The 
+escalator  clause  is  a  very  complex  calculation  an  EHS  would  welcome  the 
+opportunity  to  review  this  aspect  of  the  contract  to  satisfy  the  auditor. 
+
+
+Exhibit  C 
+
+^  DEPARTMENT  OF  ADMINISTRATION 
+
+STATE  PERSONNEL  DIVISION 
+
+STATE  OF  MONTANA 
+
+Mitchell  Building.  Room  130  (406)  444-3871 
+
+PO  Boi  200127  FAX:  (406)  444-0703 
+
+Helena  Montana  59620-0127  http://discoveringmontana.com/doa/spd/css/ 
+
+December  1,2004 
+
+Marie  Pollock,  H1A 
+
+Vice  President 
+
+Wolcott  &  Associates,  Inc. 
+
+12120  State  Line  Road,  Suite  297 
+
+Leawood,  Kansas  66209 
+
+Subject:  Prescription  Drug  Claim  Audit  for  the  Period  January  1,  2002  through 
+December  31,  2003 
+
+Dear  Ms.  Pollock: 
+
+We  received  your  draft  report  on  the  State  of  Montana  Prescription  Drug  Claim  Audit  for  the  period 
+January  1,  2002  through  December  31,  2003,  and  we  provide  the  following  responses  to  your  audit 
+findings  and  recommendations. 
+
+Contractual  Compliance  -  Other  Review  Items 
+
+We  have  reviewed  the  conclusions  listed  by  Wolcott  &  Associates,  Inc.  regarding  EHS  performance 
+measures.  The  State  of  Montana  has  worked  with  EHS  on  a  number  of  these  performance  measures 
+and  where  appropriate  assessed  performance  penalties  as  provided  under  the  contract.  With  regard  to 
+the  requirement  for  Pharmacy  Auditing,  we  concur  that  EHS  should  conduct  the  required  percentage  of 
+active  network  pharmacy  audits.  We  anticipate  these  audits  have  the  potential  to  result  in  claims  cost 
+recovery  for  the  State  Plan.  In  areas  where  Wolcott  &  Associates  was  unable  to  conclude  that  EHS  is 
+in  compliance  with  the  contract,  the  State  will  work  with  EHS  to  document  performance  and  take  any 
+necessary  steps  to  ensure  compliance  with  the  contract. 
+
+In  general,  we  are  pleased  to  see  that  the  error  rate  for  administering  the  pharmacy  benefit  plan  is  very 
+low. 
+
+Thank  you  for  providing  us  with  the  opportunity  to  respond  to  the  recommendations. 
+
+Sincerely, 
+
+
+Connie  Welsh,  Chief 
+Employee  Benefits  Bureau 
+
+
+MONTANA  UNIVERSITY  SYSTEM  Exhibit  D 
+
+Office  of  the  Commissioner  of  Higher  Education 
+
+2500  Broadway  0  PO  Box  203101  0  Helena,  Montana  59620-3101  0  (406)444-6570  0  FAX  (406)444-1469 
+
+
+December  2,  2004 
+
+Marie  Pollock 
+Wolcott  &  Associates,  Inc 
+12120  State  Line  Road,  Suite  297 
+Leawood,  Kansas  66209 
+
+RE:      Claims  Audit  of  EHS  Pharmacy  Benefit  Management 
+
+Dear  Ms  Pollock: 
+
+Thank  you  for  the  opportunity  to  respond  to  your  audit  of  the  Montana  University  System  pharmacy  benefit 
+plan  administered  by  EHS.  Overall  your  audit  indicates  that  EHS  is  administrating  our  pharmacy  benefit 
+plan  with  a  low  error  rate,  although  there  are  other  service  areas  that  are  not  in  compliance  with  our 
+contract. 
+
+The  area  with  the  most  potential  for  claims  cost  recovery  for  the  University  System  is  provider  audits  that 
+should  be  conducted  by  EHS.  The  Montana  University  System  will  ask  EHS  to  comply  with  the  contract 
+and  follow  up  to  verify  that  any  funds  owed  are  collected  and  paid. 
+
+Thank  you  for  the  effort  you  and  your  staff  put  in  on  this  audit. 
+
+Sincerely, 
+
+
+Glen  D.  Leavitt 
+Director  of  Benefits 
+
+
+MONTANA  STATE  UNIVERSITY  -  Campuses  at  Billings,  Bozeman,  Great  Falls,  and  Havre 
+
+THE  UNIVERSITY  OF  MONTANA  -  Campuses  at  Butte,  Dillon,  Helena,  and  Missoula 
+
+Dawson  Community  College  (Glendive)  -  Flathead  Valley  Community  College  (Kalispell)  -  Miles  Community  College  (Miles  City) 
+
+
+STATE  OF  MONTANA, 
+MONTANA  UNIVERSITY  SYSTEM 
+
+
+ANALYSIS  AND  EVALUATION  OF  HMO 
+
+CLAIMS  PROCESSING 
+
+FOR  THE  PERIOD 
+
+JANUARY  1, 2002  THROUGH  DECEMBER  31,  2003 
+
+
+ADMINISTERED  BY 
+
+NEW  WEST  HEALTH  PLAN 
+
+BLUE  CROSS  BLUE  SHIELD  OF  MONTANA 
+
+PEAK  HEALTH  PLAN 
+
+
+FINAL  REPORT 
+DECEMBER,  2004 
+
+
+PRESENTED  BY 
+
+WOLCOTT  &  ASSOCIATES,  INC. 
+
+12120  STATE  LINE  ROAD,  SUITE  297 
+
+LEAWOOD,  KANSAS  66209 
+
+
+STATE  OF  MONTANA  AND  MONTANA  UNIVERSITY  SYSTEM 
+
+HEALTH  MAINTENANCE  ORGANIZATION  CLAIMS  AUDIT 
+
+OF  NEW  WEST  HEALTH  PLAN,  BLUE  CROSS  BLUE  SHIELD  OF  MONTANA  & 
+
+PEAK  HEALTH  PLAN 
+JANUARY  1, 2002  -  DECEMBER  31, 2003 
+
+TABLE  OF  CONTENTS 
+
+
+SECTION  PAGE 
+
+I-  INTRODUCTION  1-1 
+
+II  -  STATISTICAL  CLAIM  AUDIT  RESULTS  -  NWHP  D-l 
+
+III  -  STATISTICAL  CLAIM  AUDIT  RESULTS  -  BCBSMT  HI-1 
+
+IV  -  STATISTICAL  CLAIM  AUDIT  RESULTS  -  PHP  IV- 1 
+
+V  -  ELIGIBILITY  V-l 
+
+VI  -  ID  CARD  ISSUANCE  VI- 1 
+VD  -  CLAIM  PAYMENT  TURNAROUND  TIME  VII- 1 
+VBI  -  OTHER  REVIEW  AREAS  VIII- 1 
+
+
+EXHIBITS 
+
+DESCRIPTION  OF  ERRORS -NEW  WEST  EXHIBIT  A 
+
+DESCRIPTION  OF  ERRORS  -  BCBSMT  EXHIBIT  B 
+
+DESCRIPTION  OF  ERRORS  -  PEAK  HEALTH  PLAN  EXHIBIT  C 
+
+NEW  WEST  HEALTH  PLAN  RESPONSE  EXHIBIT  D 
+
+BLUE  CROSS  BLUE  SHIELD  OF  MONTANA  RESPONSE  EXHIBIT  E 
+
+PEAK  HEALTH  PLAN  RESPONSE  EXHIBIT  F 
+
+STATE  OF  MONTANA  RESPONSE  EXHIBIT  G 
+
+MONTANA  UNIVERSITY  SYSTEM  RESPONSE  EXHIBIT  H 
+
+
+I  -  INTRODUCTION 
+
+The  State  of  Montana  (State)  provides  self- funded  HMO  medical  care  benefit  as  part  of  an 
+overall  employee  benefit  and  compensation  program.  The  plan  covers  approximately  3,000 
+employees  and  retirees,  plus  their  dependents. 
+
+The  State  has  negotiated  a  contract  with  New  West  Health  Plan  (NWHP),  Blue  Cross  Blue 
+Shield  of  Montana  (BCBSMT)  and  Peak  Health  Plan  (PHP)  to  provide  administration  services  to 
+its  plans. 
+
+The  Montana  University  System  (MUS)  is  a  member  of  the  Montana  Association  of  Health 
+Care  Purchasers,  and  has  also  contracted  to  have  their  medical  and  dental  care  benefits  administered 
+by  BCBSMT.  The  plan  covers  approximately  1 ,000  employees  and  retirees,  plus  their  dependents. 
+
+The  State  invited  MUS  to  participate  in  an  audit  of  NWHP,  BCBSMT  and  PHP's  processing 
+of  medical  care  claims. 
+
+PURPOSE  OF  SERVICE 
+
+Section  2.18.816,  MCA  requires  the  State  Employee  Benefits  Plan  to  be  audited  every  two 
+years  by  or  at  the  direction  of  the  Legislative  Audit  Division.  Wolcott  &  Associates,  Inc.  was 
+awarded  the  audit  contract  for  the  2002-2003  Plan  Years. 
+
+The  purpose  of  the  service  is  to  comply  with  Section  2.18.816,  MCA. 
+
+The  State  and  MUS  recognize  that  they  have  a  fiduciary  responsibility  to  administer  this  plan 
+(and  other  employee  benefit  plans)  for  the  benefit  of  plan  participants  and  their  dependents  and  in 
+accordance  with  the  plan  provisions.  Both  plan  sponsors  believe  it  is  prudent  to  perform  periodic 
+audit  and  review  services  to  determine  if  the  benefit  plans  they  sponsor  are  meeting  these  objectives. 
+
+AUDIT  TIMING 
+AND  STAFF 
+
+The  Legislative  Audit  Division  advised  Wolcott  &  Associates,  Inc.  that  we  were  awarded  the 
+audit  contract  on  June  2 1 ,  2004.  All  preliminary  work  was  completed  and  the  entrance  meeting  was 
+held  in  Helena  on  September  8,  2004.  On-site  work  at  the  State,  MUS,  CHIP  and  BCBSMT  was 
+performed  during  the  weeks  of  September  7  and  13, 2004. 
+
+On-site  audit  services  were  performed  at: 
+
+
+State  of  Montana 
+
+State  Personnel  Division 
+
+
+1-1 
+
+
+Mitchell  Building 
+Helena,  Montana  59620 
+
+Montana  University  System 
+2500  Broadway 
+Helena,  Montana  59620 
+
+New  West  Health  Plan 
+40  West  14th  Street,  Suite  3 
+Helena,  Montana  59601 
+
+Blue  Cross  &  Blue  Shield  of  Montana 
+560  North  Park  Avenue 
+Helena,  Montana  59601 
+
+Peak  Health  Plan 
+
+2806  South  Garfield  Street 
+
+Missoula,  Montana  59806 
+
+Wolcott  &  Associates,  Inc.  staff  involved  in  the  audit  are  listed  below: 
+
+Name  Title  On-site 
+
+
+Brian  Wyman 
+
+Manager 
+
+Yes 
+
+Marie  Pollock 
+
+Vice  President,  Project  Director 
+
+Yes 
+
+Richard  Reese 
+
+Actuary 
+
+No 
+
+Cathy  McKittrick 
+
+Auditor 
+
+Yes 
+
+Jenny  Hill 
+
+Statistician 
+
+No 
+
+SCOPE  OF  AUDIT 
+
+The  scope  of  audit  services  covered  medical  care  benefit  claims  paid  by  NWHP,  BCBSMT 
+and  PHP  during  the  period  from  January  1,  2002  through  December  31,  2003.  Test  work  was 
+performed  on  450  previously  processed  claims  (150  claims  per  administrator),  all  of  which  were 
+selected  on  a  stratified,  random  (statistical)  basis. 
+
+Claims  Adjudication  Audit 
+
+Elements  of  claims  adjudication  which  were  evaluated  include: 
+
+•  Turnaround  time  required  to  process  each  claim. 
+
+•  Eligibility  of  claimants  to  receive  payment. 
+
+
+1-2 
+
+
+•  Administration  of  coordination  of  benefits,  including  Medicare. 
+
+•  Administration  of  subrogation  provisions. 
+
+•  Calculation  accuracy,  including  Usual,  Customary  and  Reasonable  (UCR)  limits  and 
+computation  of  deductible  and  co-payment  limits. 
+
+•  Completeness  of  necessary  information. 
+
+•  Payee  accuracy,  including  benefit  assignments  to  service  providers. 
+
+•  Consistency  of  payments  to  member  physicians  and  other  physicians. 
+
+•  Compliance  with  benefit  plan  structure. 
+
+•  Identification  of  duplicate  claim  submissions. 
+
+
+1-3 
+
+
+II  -  STATISTICAL  CLAIM  AUDIT  RESULTS  -  NEW  WEST  HEALTH  PLAN 
+
+The  results  of  our  audit  of  previously  processed  claims  are  presented  in  this  section. 
+
+SAMPLE  SIZE  AND  METHODOLOGY 
+
+The  proposal  request  stated  that  our  sample  size  was  to  be  large  enough  so  as  to  express  the 
+frequency  of  error  with  a  95%  confidence  and  a  precision  of  +  or  -  3%,  assuming  an  error  rate  of  5% 
+or  less.  As  a  result,  we  proposed  to  audit  a  sample  of  150  claims. 
+
+The  claims  were  selected  from  the  population  of  claims  paid  by  BCBSMT  between  January 
+1,  2002  and  December  31,  2003.  Prior  to  selection,  the  population  of  claims  was  stratified. 
+
+NWHP  converted  from  the  Amisys  system  to  the  Diamond  system  in  May,  2003.  As  of  May, 
+2004,  there  was  no  access  to  the  Amisys  system.  Therefore,  our  audit  was  performed  on  claims 
+processed  on  the  Diamond  system.  We  reviewed  the  SAS  70  audit  for  the  Amisys  system,  which 
+was  provided  to  us  by  NWHP. 
+
+AUDIT  PROCEDURE 
+
+Information  presented  below  describes  our  test  work  on  the  1 50  previously  processed  claims 
+in  our  sample  and  the  errors  identified.  The  test  involved  the  following: 
+
+•  Review  of  previously  processed  claims  to  determine  if  selected  claim  is  a  duplicate  of  a 
+previously  processed  claim. 
+
+•  Review  of  member  specific  coverage  on  NWHP's  records  to  the  coverage  indicated  on  the 
+plan's  records. 
+
+•  Verification  that  members  are  employees/retirees  of  the  plan  and  covered  under  the  plan 
+at  the  time  the  claim  was  incurred. 
+
+•  Review  to  determine  that  NWHP  is  following  all  procedures  necessary  to  obtain  a 
+reasonable  level  of  coordination  of  benefits  (COB)  recoveries. 
+
+•  Recomputation  of  each  claim  selected  for  testing  to  determine  its  accuracy  including 
+analysis  of  any  refunds  due  and/or  payable. 
+
+•  Review  of  the  nature  of  the  claim  to  ascertain  the  allowability  of  costs  as  defined  in  the 
+contract  (e.g.,  processed  within  the  proper  allowance  and  medical  necessity  guidelines, 
+pre-certification  requirements  and  other  benefit  limitation  guidelines). 
+
+
+n-i 
+
+
+•  Comparison  of  each  claim  to  supporting  documentation  submitted  by  the  member  or  the 
+provider  of  services  to  ensure  that  the  claim  reflects  the  documentation  and  that  it  is 
+properly  authorized  for  payment. 
+
+•  Comparison  of  each  claim  to  other  claims  for  that  individual  with  the  same  date  of  service 
+to  ensure  congruency  of  payment  with  all  claims  for  that  date  of  service. 
+
+•  Review  of  the  microfilm  copies  and  source  documents,  when  appropriate,  to  determine  if 
+there  are  any  indications  of  fraud. 
+
+DEFINITION  OF  ERROR 
+
+We  defined  an  error  to  be  any  claim  where  the  payment  to  the  participant  or  the  provider  did 
+not  agree  with  the  plan  document  provisions. 
+
+AUDIT  RESULTS 
+
+Of  the  150  claims  in  our  statistical  sample,  18  were  judged  to  contain  a  payment  error.  This 
+represents  a  frequency  of  payment  error  of  12.0%. 
+
+Our  sample  contained  a  total  payment  of  $904,844.75  for  the  1 50  claims.  The  overpayments 
+totaled  $9,27 1 .95  or  1 .02%  of  the  total.  The  underpayments  totaled  $2,067.32  or  0.23%  of  the  total. 
+This  financial  error  rate  is  less  favorable  than  the  .5  to  1  percent  error  rate  normally  observed  during 
+our  audits  of  similar  plans.  It  is  also  less  favorable  than  the  NWHP  standard  of  1%. 
+
+The  frequency  of  payment  error  in  our  sample  is  less  favorable  than  the  three  to  five  percent 
+error  rate  normally  observed  during  our  audits  of  similar  plans.  It  is  also  less  favorable  than  the 
+NWHP  standard  of  3%. 
+
+POPULATION  DATA 
+
+Our  sample  was  selected  on  a  stratified  basis.  The  basis  for  stratification  was  paid  amount. 
+This  sampling  method  can  be  expected  to  produce  sample  results  that  differ  from  the  results 
+projected  for  the  population. 
+
+We  have  extended  the  results  of  our  sample  to  the  population  of  claims  paid  during  the  audit 
+period. 
+
+Based  on  this  extension,  we  are  95%  confident  with  a  precision  of  +  or  -  6.6%,  that  the  true 
+frequency  of  error  in  the  population  is  within  the  range  of  5.4%  to  18.6%. 
+
+
+D-2 
+
+
+Based  on  this  extension,  we  believe  that  the  true  magnitude  of  payment  error  in  the 
+population  is  $107,076  or  (2.8%  of  payments  in  the  population).  The  magnitude  of  payment  error 
+is  the  sum  of  $82,245  in  projected  overpayments  plus  $24,831  in  projected  underpayments. 
+
+TYPES  OF  ERRORS 
+
+Each  of  the  errors  identified  in  our  sample  is  listed  in  Exhibit  A.  A  discussion  of  error  types 
+is  presented  below. 
+
+A  summary  of  error  by  type  is  presented  below: 
+
+NWHP  HEALTH  CARE  CLAIMS 
+
+JANUARY  1,  2002  THROUGH  DECEMBER  31,  2003 
+
+SUMMARY  OF  ERRORS  BY  TYPE 
+
+NET  PAYMENT 
+ERROR  TYPE  NUMBER  ERROR 
+
+
+Incorrect  application 
+of  co-insurance  and/or 
+deductible 
+
+8 
+
+$    4,447.09  net 
+
+Incorrect  application  of 
+copay  provisions. 
+
+6 
+
+12.50  net 
+
+Duplicate  payment. 
+
+1 
+
+121.68 
+
+Incorrect  repricing. 
+
+2 
+
+(266.24)  net 
+
+Payment  of  unlisted 
+procedure. 
+
+I 
+
+2.889.60 
+
+Total 
+
+JJ 
+
+$7,204.63 
+
+NWHP  has  included  their  res 
+
+ponse  as  Exhibit  D. 
+
+n-3 
+
+
+RECOMMENDATIONS 
+
+Our  recommendations  are  as  follows: 
+
+•  We  believe  NWHP  identify  the  magnitude  of  overpayment  caused  by  the  configuration 
+issues  regarding  deductible  and  coinsurance  application.  We  further  recommend  that 
+NWHP  reimburse  the  State  and  MUS  the  amount  of  the  overpayments  identified. 
+
+•  We  recommend  that  NWHP  conduct  further  training  in  the  repricing  of  claims  that 
+contain  multiple  procedures. 
+
+•  We  understand  that  NWHP  is  currently  working  towards  formalizing  their  internal  audit 
+process,  in  order  to  identify  areas  in  need  of  further  training  and/or  configuration 
+modifications. 
+
+•  We  further  understand  that  NWHP  has  instituted  a  manual  review  of  all  claims  for  the 
+State  and  MUS.  They  have  audited  this  process  and  have  reported  to  us  that  the  results 
+are  98%  procedural  accuracy  and  99.9%  financial  accuracy. 
+
+•  We  understand  that  the  State  and  MUS  have  formalized  a  plan  document  as  of  September, 
+2004.  We  believe  NWHP  should  make  the  appropriate  changes  to  the  claim  processing 
+system  to  reflect  the  provisions  of  the  formalized  plan. 
+
+•  We  understand  that  NWHP  plans  on  continuing  the  audit  process  utilizing  the  services 
+of  Wolcott  &  Associates,  Inc.,  and  share  the  results  of  this  audit  process  with  the  State 
+and  MUS.  NWHP  is  also  accepting  responsibility  regarding  payment  of  these  services. 
+
+
+n-4 
+
+
+Ill  -  STATISTICAL  CLAIM  AUDIT  RESULTS  -  BCBSMT 
+
+The  results  of  our  audit  of  previously  processed  claims  are  presented  in  this  section. 
+
+SAMPLE  SIZE  AND  METHODOLOGY 
+
+The  proposal  request  stated  that  our  sample  size  was  to  be  large  enough  so  as  to  express  the 
+frequency  of  error  with  a  95%  confidence  and  a  precision  of  +  or  -  3%,  assuming  an  error  rate  of  5% 
+or  less.  As  a  result,  we  proposed  to  audit  a  sample  of  150  claims. 
+
+The  claims  were  selected  from  the  population  of  claims  paid  by  BCBSMT  between  January 
+1,  2002  and  December  31,  2003.    Prior  to  selection,  the  population  of  claims  was  stratified. 
+
+AUDIT  PROCEDURE 
+
+Information  presented  below  describes  our  test  work  on  the  1 50  previously  processed  claims 
+in  our  sample  and  the  errors  identified.  The  test  involved  the  following: 
+
+•  Review  of  previously  processed  claims  to  determine  if  selected  claim  is  a  duplicate  of  a 
+previously  processed  claim. 
+
+•  Review  of  member  specific  coverage  on  BCBSMT's  records  to  the  coverage  indicated  on 
+the  plan's  records. 
+
+•  Verification  that  members  are  eligible  participants  of  the  plan  and  covered  under  the  plan 
+at  the  time  the  claim  was  incurred. 
+
+•  Review  to  determine  that  BCBSMT  is  following  all  procedures  necessary  to  obtain  a 
+reasonable  level  of  coordination  of  benefits  (COB)  recoveries. 
+
+•  Recomputation  of  each  claim  selected  for  testing  to  determine  its  accuracy  including 
+analysis  of  any  refunds  due  and/or  payable. 
+
+•  Review  of  the  nature  of  the  claim  to  ascertain  the  allowability  of  costs  as  defined  in  the 
+contract  (e.g.,  processed  within  the  proper  allowance  and  medical  necessity  guidelines, 
+pre-certification  requirements  and  other  benefit  limitation  guidelines). 
+
+•  Comparison  of  each  claim  to  supporting  documentation  submitted  by  the  member  or  the 
+provider  of  services  to  ensure  that  the  claim  reflects  the  documentation  and  that  it  is 
+properly  authorized  for  payment. 
+
+IH-1 
+
+
+•  Comparison  of  each  claim  to  other  claims  for  that  individual  with  the  same  date  of  service 
+to  ensure  congruency  of  payment  with  all  claims  for  that  date  of  service. 
+
+•  Review  of  the  microfilm  copies  and  source  documents,  when  appropriate,  to  determine  if 
+there  are  any  indications  of  fraud. 
+
+DEFINITION  OF  ERROR 
+
+We  defined  an  error  to  be  any  claim  where  the  payment  to  the  participant  or  the  provider  did 
+not  agree  with  the  plan  document  provisions. 
+
+AUDIT  RESULTS 
+
+Of  the  150  claims  in  our  statistical  sample,  16  were  judged  to  contain  a  payment  error.  This 
+represents  a  frequency  of  payment  error  of  10.7%. 
+
+Our  sample  contained  a  total  payment  of  $562,599.40  for  the  1 50  claims.  The  overpayments 
+totaled  $6, 1 39.2 1  or  1 .09%  of  the  total.  The  underpayments  totaled  $  1 , 1 92.80  or  0.20%  of  the  total. 
+This  error  rate  is  less  favorable  than  the  .5  to  1  percent  error  rate  normally  observed  during  our  audits 
+of  similar  plans.  It  is  also  less  favorable  than  the  BCBSMT  standard  of  1%. 
+
+The  frequency  of  payment  error  in  our  sample  is  less  favorable  than  the  three  to  five  percent 
+error  rate  normally  observed  during  our  audits  of  similar  plans.  It  is  also  less  favorable  than  the 
+BCBSMT  standard  of  3%. 
+
+POPULATION  DATA 
+
+Our  sample  was  selected  on  a  stratified  basis.  The  basis  for  stratification  was  paid  amount. 
+This  sampling  method  can  be  expected  to  produce  sample  results  that  differ  from  the  results 
+projected  for  the  population. 
+
+We  have  extended  the  results  of  our  sample  to  the  population  of  claims  paid  during  the  audit 
+period. 
+
+Based  on  this  extension,  we  are  95%  confident  with  a  precision  of  +  or  - 1 .4%,  that  the  true 
+frequency  of  error  in  the  population  is  within  the  range  of  9.3%  to  12.1%. 
+
+Based  on  this  extension,  we  believe  that  the  true  magnitude  of  payment  error  in  the 
+population  is  $47,210  or  (8.4%  of  payments  in  the  population).  The  magnitude  of  payment  error  is 
+the  sum  of  $34,477  in  projected  overpayments  plus  $12,733  in  projected  underpayments. 
+
+III-2 
+
+
+TYPES  OF  ERRORS 
+
+Each  of  the  errors  identified  in  our  sample  is  listed  in  Exhibits.  A  discussion  of  error  types 
+is  presented  below. 
+
+A  summary  of  error  by  type  is  presented  below: 
+
+BCBSMT  HEALTH  CARE  CLAIMS 
+
+JANUARY  1,  2002  THROUGH  DECEMBER  31,  2003 
+
+SUMMARY  OF  ERRORS  BY  TYPE 
+
+
+ERROR  TYPE 
+
+
+NUMBER 
+
+
+NET  PAYMENT 
+ERROR 
+
+
+Incorrect  application 
+of  co-insurance  and/or 
+
+
+deductible 
+
+12 
+
+■ 
+
+$    4,328.17  net 
+
+Incorrect  application  of 
+
+copay  provisions. 
+
+1 
+
+(34.24) 
+
+Incorrect  application 
+
+of  out-of-network  benefits. 
+
+2 
+
+917.08  net 
+
+Incorrect  repricing. 
+
+1 
+
+Q64.60) 
+
+Total 
+
+18 
+
+$4,918.51 
+
+BCBSMT  has  included  their  re 
+
+sponse 
+
+:  as  Exhibit  E. 
+
+RECOMMENDATIONS 
+
+Our  recommendations  are  as  follows: 
+
+•  We  believe  the  audit  results  are  less  than  favorable  and  are  due  to  several  coding  issues. 
+We  believe  BCBSMT  should  reimburse  the  State  and  MUS  the  overpayments  in  the 
+population  as  a  result  of  the  coding  issues. 
+
+•  We  understand  that  the  State  and  MUS  have  formalized  a  plan  document  as  of  September, 
+2004.  We  believe  BCBSMT  should  make  the  appropriate  changes  to  the  claim  processing 
+system  to  reflect  the  provisions  of  the  formalized  plan. 
+
+
+m-3 
+
+
+We  further  recommend  that  the  plan  be  audited  during  2005,  in  order  to  verify  that  the 
+provisions  of  the  plan  are  being  processed  appropriately.  We  recommend  that  BCBSMT 
+reimburse  the  State  and  MUS  for  the  performance  of  the  follow-up  audit. 
+
+
+ffl-4 
+
+
+f 
+
+
+IV  -  STATISTICAL  CLAIM  AUDIT  RESULTS  -  PEAK  HEALTH  PLAN 
+
+The  results  of  our  audit  of  previously  processed  claims  are  presented  in  this  section. 
+
+SAMPLE  SIZE  AND  METHODOLOGY 
+
+The  proposal  request  stated  that  our  sample  size  was  to  be  large  enough  so  as  to  express  the 
+frequency  of  error  with  a  95%  confidence  and  a  precision  of  +  or  -  3%,  assuming  an  error  rate  of  5% 
+or  less.  As  a  result,  we  proposed  to  audit  a  sample  of  1 50  claims. 
+
+The  claims  were  selected  from  the  population  of  claims  paid  by  PHP  between  January  1 , 
+2002  and  December  31,  2003.    Prior  to  selection,  the  population  of  claims  was  stratified. 
+
+AUDIT  PROCEDURE 
+
+Information  presented  below  describes  our  test  work  on  the  1 50  previously  processed  claims 
+in  our  sample  and  the  errors  identified.  The  test  involved  the  following: 
+
+•  Review  of  previously  processed  claims  to  determine  if  selected  claim  is  a  duplicate  of  a 
+previously  processed  claim. 
+
+•  Review  of  member  specific  coverage  on  PHP's  records  to  the  coverage  indicated  on  the 
+plan's  records. 
+
+•  Verification  that  members  are  eligible  participants  of  the  plan  and  covered  under  the  plan 
+at  the  time  the  claim  was  incurred. 
+
+•  Review  to  determine  that  PHP  is  following  all  procedures  necessary  to  obtain  a  reasonable 
+level  of  coordination  of  benefits  (COB)  recoveries. 
+
+•  Recomputation  of  each  claim  selected  for  testing  to  determine  its  accuracy  including 
+analysis  of  any  refunds  due  and/or  payable. 
+
+•  Review  of  the  nature  of  the  claim  to  ascertain  the  allowability  of  costs  as  defined  in  the 
+contract  (e.g.,  processed  within  the  proper  allowance  and  medical  necessity  guidelines, 
+pre-certification  requirements  and  other  benefit  limitation  guidelines). 
+
+•  Comparison  of  each  claim  to  supporting  documentation  submitted  by  the  member  or  the 
+provider  of  services  to  ensure  that  the  claim  reflects  the  documentation  and  that  it  is 
+properly  authorized  for  payment. 
+
+rv-i 
+
+
+•  Comparison  of  each  claim  to  other  claims  for  that  individual  with  the  same  date  of  service 
+to  ensure  congruency  of  payment  with  all  claims  for  that  date  of  service. 
+
+•  Review  of  the  microfilm  copies  and  source  documents,  when  appropriate,  to  determine  if 
+there  are  any  indications  of  fraud. 
+
+DEFINITION  OF  ERROR 
+
+We  defined  an  error  to  be  any  claim  where  the  payment  to  the  participant  or  the  provider  did 
+not  agree  with  the  plan  document  provisions. 
+
+AUDIT  RESULTS 
+
+Of  the  150  claims  in  our  statistical  sample,  7  were  judged  to  contain  a  payment  error.  This 
+represents  a  frequency  of  payment  error  of  4.7%. 
+
+Our  sample  contained  a  total  payment  of  $286,286.54  for  the  1 50  claims.  The  overpayments 
+totaled  $283.60  or  0.10%  of  the  total.  The  underpayments  totaled  $406.26  or  0.14%  of  the  total. 
+This  error  rate  is  more  favorable  than  the  .5  to  1  percent  error  rate  normally  observed  during  our 
+audits  of  similar  plans.  It  is  also  more  favorable  than  the  PHP  standard  of  1%. 
+
+The  frequency  of  payment  error  in  our  sample  is  within  the  three  to  five  percent  error  rate 
+normally  observed  during  our  audits  of  similar  plans.  It  is  less  favorable  than  the  PHP  standard  of 
+3%. 
+
+POPULATION  DATA 
+
+Our  sample  was  selected  on  a  stratified  basis.  The  basis  for  stratification  was  paid  amount. 
+This  sampling  method  can  be  expected  to  produce  sample  results  that  differ  from  the  results 
+projected  for  the  population. 
+
+We  have  extended  the  results  of  our  sample  to  the  population  of  claims  paid  during  the  audit 
+period. 
+
+Based  on  this  extension,  we  are  95%  confident  with  a  precision  of  +  or  -  3.9%,  that  the  true 
+frequency  of  error  in  the  population  is  within  the  range  of  0.8%  to  8.6%. 
+
+Based  on  this  extension,  we  believe  that  the  true  magnitude  of  payment  error  in  the 
+population  is  $4,754  or  (0.64%  of  payments  in  the  population).  The  magnitude  of  payment  error  is 
+the  sum  of  $1,549  in  projected  overpayments  plus  $3,205  in  projected  underpayments. 
+
+IV-2 
+
+
+TYPES  OF  ERRORS 
+
+Each  of  the  errors  identified  in  our  sample  is  listed  in  Exhibit  C.  A  discussion  of  error  types 
+is  presented  below. 
+
+A  summary  of  error  by  type  is  presented  below: 
+
+PHP  HEALTH  CARE  CLAIMS 
+
+JANUARY  1,  2002  THROUGH  DECEMBER  31,  2003 
+
+SUMMARY  OF  ERRORS  BY  TYPE 
+
+NET  PAYMENT 
+ERROR  TYPE  NUMBER  ERROR 
+
+Incorrect  application 
+
+of  co-insurance  and/or 
+
+deductible.  3  $     (122.89)  net 
+
+Incorrect  application  of 
+
+copay  provisions.  3  (154.97) 
+
+Incorrect  application 
+
+of  out-of-network  benefits.  I  155.20 
+
+Total  2  $(122.66) 
+
+PHP  has  included  their  response  as  Exhibit  F. 
+
+RECOMMENDATIONS 
+
+Our  recommendation  is  as  follows: 
+
+•  We  believe  the  results  to  be  more  favorable  than  the  other  vendors.  However,  the 
+frequency  of  error  is  still  less  favorable  than  industry  standard.  Therefore,  since  the  State 
+and  MUS  have  formalized  a  plan  document,  we  believe  PHP  should  be  included  in  any 
+follow-up  audit  activity  for  the  HMO  plan.  We  fuerther  recommend  that  PHP  reimburse 
+the  State  and  MUS  for  the  performance  of  the  follow-up  audit. 
+
+
+rv-3 
+
+
+V  -  ELIGIBILITY 
+
+The  plan  sponsors  use  various  methods  to  report  new  entrants,  changes  and  termination  of 
+coverage  to  BCBSMT.  This  section  describes  the  methods  employed  and  presents  the  results  of  the 
+verification  of  eligibility  for  the  450  ( 1 50  claims  per  administrator)  in  our  sample  where  a  payment 
+was  made  by  each  administrator. 
+
+STATE  OF  MONTANA 
+
+The  State  prepares  and  sends  to  the  NWHP  and  BCBSMT  a  biweekly  eligibility  tape  showing 
+each  individual  to  be  covered  for  the  coming  month.  The  administrators  run  this  tape  and  compares 
+it  to  the  data  for  the  prior  month. 
+
+PHP  receives  an  excel  file  showing  eligibility  changes.  They  then  enter  the  new  eligibility 
+changes  in  the  system  manually. 
+
+Eligibility  Verification 
+
+Each  of  the  State  participants  in  our  sample  was  researched  on  the  State  eligibility  system 
+to  verify  that  the  State's  records  indicated  that  coverage  was  in  force  on  the  date  the  services  were 
+rendered. 
+
+No  exceptions  were  noted. 
+
+MONTANA  UNIVERSITY  SYSTEM 
+
+The  administrator's  receive  the  enrollment  data  from  each  campus  on  a  daily  basis.  NWHP, 
+BCBSMT  and  PHP  then  follow  the  same  process  as  the  State. 
+
+Eligibility  Verification 
+
+Each  of  the  MUS  participants  in  our  sample  was  researched  at  the  applicable  campus  to 
+verify  that  the  administrator's  records  indicated  that  coverage  was  in  force  on  the  date  the  services 
+were  rendered.  MUS  records  confirmed  that  all  participants  in  the  sample  were  covered  as  of  the  date 
+the  services  were  rendered. 
+
+No  exceptions  were  noted. 
+
+
+V-l 
+
+
+VI  -  ID  CARD  ISSUANCE 
+
+Upon  entry  of  the  new  eligibility  information  in  each  of  the  administrator's  systems,  an  ID 
+card  is  automatically  generated.  The  procedures  are  the  same  in  each  of  the  three  administrators. 
+
+ID  cards  are  issued  the  following  day  after  an  entry  warrants  the  issuance  of  the  card  at 
+BCBSMT  and  PHP.  NWHP  only  prints  ID  cards  once  a  week,  unless  a  request  for  a  more 
+immediate  turnaround  time  is  received  from  the  plan  sponsor. 
+
+We  believe  the  ID  card  issuance  procedures  at  each  of  the  administrator's  is  consistent  with 
+procedures  at  other  insurance  companies  and  third  party  administrator's  with  which  we  are  familiar. 
+The  only  exception  is  the  the  procedure  at  NWHP  may  cause  some  delay  with  only  printing  ID  cards 
+once  a  week. 
+
+
+VI -1 
+
+
+VII  -  CLAIM  PAYMENT  TURNAROUND  TIME 
+
+The  purpose  of  this  section  is  to  present  our  analysis  of  the  claim  turnaround  time 
+information  for  each  of  the  450  claims  in  our  sample. 
+
+Claim  Processing  Time 
+
+Claim  processing  time  or  turnaround  time  for  this  audit  was  measured  from  the  "received 
+date"  as  entered  on  the  claim  document  to  the  date  the  date  the  claim  was  processed. 
+
+Results,  by  plan  sponsor,  are  presented  below. 
+
+NWHP 
+
+For  all  1 50  claims  in  our  sample,  the  turnaround  time  results  are  as  follows: 
+
+Measure  Elapsed  Days 
+
+Mean  32 
+
+Median  1 5 
+
+Mode  1 
+
+NWHP  informed  us  that  company  policy  for  turnaround  time  is  14  day. 
+
+BCBSMT 
+
+For  all  150  claims  in  our  sample,  the  turnaround  time  results  are  as  follows: 
+
+Measure  Elapsed  Days 
+
+Mean  6 
+
+Median  3.5 
+
+Mode  1 
+
+BCBSMT  informed  us  that  company  policy  for  turnaround  time  is  7  day  average  for  non- 
+investigated  claims  and  21  day  average  for  claims  requiring  investigation. 
+
+PHP 
+
+For  all  1 50  claims  in  our  sample,  the  turnaround  time  results  are  as  follows: 
+
+
+VII -1 
+
+
+Measure  Elapsed  Days 
+
+Mean  26 
+
+Median  23 
+
+Mode  23 
+
+PHP  informed  us  that  company  policy  for  turnaround  time  is  14  days. 
+
+COMMENT 
+
+The  turnaround  time  results  for  NWHP  and  PHP  do  no  meet  their  own  turnaround  time 
+standards  and  do  not  meet  industry  standards.  BCBSMT  do  meet  their  own  turnaround  time 
+standard  and  industry  standards. 
+
+
+VH-2 
+
+
+VIII  -  OTHER  REVIEW  AREAS 
+
+The  results  of  our  review  in  areas  requested  by  the  three  plan  sponsors  is  as  follows. 
+
+SUSPENDED  CLAIMS 
+
+We  requested  reports  from  all  the  administrators.  NWHP  is  the  only  administrator  that 
+provided  the  report  to  Wolcott  &  Associates,  Inc.  regarding  the  percentage  of  claims  submitted  that 
+were  suspended,  reasons  for  suspension,  and  the  average  length  of  time  before  these  claims  were 
+paid  or  denied. 
+
+BCBSMT  did  not  provide  the  requested  information  for  any  of  the  three  plan  sponsors.  They 
+indicated  to  us  that  this  is  not  a  report  typically  provided  to  plan  sponsors. 
+
+PHP  indicated  that  their  system  could  not  provide  this  type  of  report. 
+
+Results  -  NWHP 
+
+NWHP  reported  that  for  the  State,  8,077  claim  lines  were  suspended  for  an  average  length 
+of  time  of  22  days.  The  top  five  reasons  for  suspension  are  as  follows: 
+
+•  Pre-existing  investigation, 
+
+•  Possible  duplicate  claim, 
+
+•  CM  hold  claims  to  be  released,  and 
+
+•  Office  surgery,  pay  under  office  visit  co-pay  until  1/1/04, 
+
+•  Mammogram,  verify  benefits. 
+
+NWHP  reported  that  for  MUS,  5,162  claim  lines  were  suspended  for  an  average  length  of 
+time  of  25  days.  The  top  five  reasons  for  suspension  are  as  follows: 
+
+•  Pre-existing  investigation, 
+
+•  Group  Accumulator, 
+
+•  Possible  duplicate  claim, 
+
+•  Multiple  authorizations,  and 
+
+•  Mammogram,  verify  benefits. 
+
+DENIED  CLAIMS 
+
+We  requested  reports  from  all  the  administrators.  NWHP  and  PHP  were  the  only 
+administrators  that  provided  the  reports  regarding  the  number  of  claims  denied,  including  provider 
+type,  amount  and  if  there  were  multiple  denied  claims  for  one  provider.  In  addition,  determine  the 
+percentage  denied  due  to  ineligibility  of  a  member. 
+
+VIII -1 
+
+
+BCBSMT  did  not  provide  the  requested  information  for  any  of  the  three  plan  sponsors.  They 
+indicated  to  us  that  this  is  not  a  report  typically  provided  to  plan  sponsors. 
+
+Results  -  NWHP 
+
+NWHP  reported  that  3,035  claim  lines  (State  and  MUS  combined)  were  denied. 
+
+NWHP  reported  that  the  top  5  reasons  for  denial  were  as  follows: 
+
+Duplicate  claim  submission, 
+
+Authorization  required  for  service, 
+
+Not  covered  benefit. 
+
+Member  not  eligible  for  date  of  service,  and 
+
+Remit  claim  to  MHNet. 
+
+The  total  amount  for  denied  claims  was  $898,385.27. 
+
+Multiple  claims  were  denied  several  different  providers,  including  all  provider  types.  There 
+were  no  patterns  for  denial  for  any  particular  provider  and/or  type. 
+
+We  calculated  that  3.3%  of  all  the  denials  were  for  member  not  eligible  for  benefits. 
+
+We  calculated  that  26.4%  of  all  the  denials  were  due  to  lack  of  preauthorization  for  services. 
+
+Results  -  PHP 
+
+PHP  did  not  provide  a  count  total  for  denied  claims. 
+
+PHP  reported  that  the  top  5  reasons  for  denial  were  as  follows: 
+
+•  Duplicate  claim  submission, 
+
+•  Plan  limits  for  routine  services, 
+
+•  Not  covered  benefit  -  dental, 
+
+•  Charges  prior  to  and/or  after  effective  date,  and 
+
+•  Pre-existing  condition. 
+
+The  total  amount  for  denied  claims  (State  and  MUS)  was  $166,545.71. 
+
+PHP  did  not  include  providers  and  provider  type  in  their  report. 
+
+We  calculated  that  1 08  claims  were  denied  for  member  not  eligible  for  benefits. 
+
+
+VIII -2 
+
+
+We  noted  that  no  claims  were  denied  due  to  lack  of  preauthorization  for  services. 
+
+Comment 
+
+PHP  indicated  to  us  that  the  State  does  not  require  preauthorization  for  services. 
+
+We  believe  this  may  be  in  conflict  with  the  State's  plan  provisions. 
+
+PREAUTHORIZATION 
+
+A  mandatory  pre-admission  notification  provision  is  part  of  each  plan  sponsor's  Plan 
+provisions.  BCBSMT  and  NWHP  utilize  resources  internally.  PHP  utilizes  the  services  of  Rocky 
+Mountain  Health  Network  for  the  preauthorization  process.  The  procedure  can  be  initiated  by  either 
+the  individual  or  the  provider  of  services.  The  services  requiring  preauthorization  are  typical  with 
+other  plans  with  which  we  are  familiar. 
+
+
+vm-3 
+
+
+EXHIBIT  A 
+
+
+Claim  No. 
+
+
+STATE  OF  MONTANA  AND  MONTANA  UNIVERSITY  SYSTEM 
+
+MANAGED  CARE  CLAIM  AUDIT  -  NEW  WEST  HEALTH  PLAN 
+
+SUMMARY  OF  FINDINGS 
+
+AUDIT  PERIOD  JANUARY  1,  2002  THROUGH  DECEMBER  31,  2003 
+
+
+Group 
+
+
+Amount 
+Paid 
+
+
+Audited 
+Amount 
+
+
+Dollar 
+
+Value  of 
+
+Error  Type 
+
+
+351892a         University  15,938.62      16,594.01 
+
+
+49847a  University 
+
+
+314.00  299.00 
+
+
+(655.39)  The  co-ins.  should  not  have 
+been  applied.  Out-of-pocket 
+was  already  met. 
+
+15.00   Should  have  applied  Co-pay  for 
+well-child  visit. 
+
+
+305301  State 
+
+
+2,520.00        1,890.00 
+
+
+630.00   Should  have  applied  co-insurance 
+for  this  DME.  Out-of-pocket 
+maximum  does  not  apply  to 
+DME. 
+
+
+65703  University 
+
+
+2,793.69       2,343.19 
+
+
+450.50   Should  have  applied  co-insurance 
+to  all  lines.  Out-of-pocket  had 
+not  been  met. 
+
+
+147159  University 
+
+
+21.75  31.75 
+
+
+308232  University 
+160910a         University 
+
+
+116418  State 
+
+
+313.45  241.68 
+
+
+313.77  192.09 
+
+
+313.91  237.18 
+
+
+(10.00)  Applied  a  $25  urgent  care  co-pay 
+to  charges  that  were  indicated 
+performed  in  a  provider's  office, 
+rather  than  an  urgent  care  facility. 
+
+71.77   Should  have  applied  remaining 
+deductible  amount  to  this  claim. 
+
+121.68   Charges  for  one  of  the  dates  of 
+service  should  have  been  denied 
+as  duplicates.  Error  occurred 
+during  adjustment. 
+
+76.73   Should  have  applied  co-insurance 
+to  this  claim. 
+
+
+142142  State 
+
+
+e282389         State 
+
+
+314.75  212.25 
+
+
+17,869.90      16,167.68 
+
+
+102.50   Should  have  applied  $15  co-pay 
+for  office  visit  and  applied 
+co-insurance  for  remaining 
+charges. 
+
+1,702.22   Should  have  applied  co-insurance 
+to  this  claim. 
+
+
+191968  University 
+
+
+2,889.60 
+
+
+2,889.60   Should  not  have  paid  an  unlisted 
+procedure  without  requesting 
+
+
+302681  University 
+
+
+e290833         State 
+
+
+2,996.89        3,071.89 
+
+
+further  information  regarding 
+services  performed. 
+
+(75.00)  Applied  two  ER  co-pays 
+incorrectly. 
+
+
+2,600.63  300.63      2,300.00   Should  have  applied  deductible 
+
+and  co-insurance  to  this  claim. 
+
+
+e1 03870         State 
+
+
+e  123029         State 
+
+
+e1 10077         University 
+
+
+130894  State 
+
+
+485276  State 
+
+
+2,555.72 
+
+
+39.98 
+
+
+39.98 
+
+
+3,733.91      (1,178.19)  Incorrect  repricing  for  member 
+hospital. 
+
+
+49.98 
+
+
+49.98 
+
+
+2,663.26       2,792.00 
+
+
+2,725.47        1,813.52 
+
+
+(10.00)  Applied  a  $25  urgent  care  co-pay 
+to  charges  that  were  indicated 
+performed  in  a  provider's  office, 
+rather  than  an  urgent  care  facility. 
+
+(10.00)  Applied  a  $25  urgent  care  co-pay 
+to  charges  that  were  indicated 
+performed  in  a  provider's  office, 
+rather  than  an  urgent  care  facility. 
+
+(128.74)  Applied  co-insurance  to  claim. 
+Co-insurance  was  already  met. 
+
+911.95    Incorrectly  repriced  multiple 
+surgery  claim. 
+
+
+Totals 
+
+
+57,225.37      50,020.74       7,204.63 
+
+
+EXHIBIT  B 
+
+STATE  OF  MONTANA  AND  MONTANA  UNIVERSITY  SYSTEM 
+
+MANAGED  CARE  CLAIM  AUDIT 
+
+SUMMARY  OF  FINDINGS  -  BCBSMT 
+
+AUDIT  PERIOD  JANUARY  1,  2002  THROUGH  DECEMBER  31,  2003 
+
+
+CLAIM  # 
+
+
+DOLLAR 
+PAID         AUDITED      VALUE  OF 
+GROUP      AMOUNT      AMOUNT        ERROR 
+
+
+TYPE 
+
+
+42309826350  University       1,925.98       2,804.94  (878.96)  Claim  should  have  been  paid  at  non- 
+
+network.  Coding  error. 
+
+
+13031100160  State 
+
+
+1,926.43        1,701.43 
+
+
+225.00   Should  have  applied  charges  to 
+deductible. 
+
+
+13020329830  State 
+
+
+1,721.11        1,288.00  433.11 
+
+
+13177100060  State 
+
+
+13227307810  State 
+
+
+13211336290  State 
+
+
+Claim  processed  incorrectly  due  to 
+coding  error.  Should  have  applied 
+charges  to  deductible. 
+
+
+12284314700  State  1,688.33       1,952.93  (264.60)  Claim  for  multiple  procedures  was 
+
+priced  incorrectly. 
+
+
+1,824.47        1,748.21 
+
+
+12169320810  State 
+
+
+1,732.16        1,747.16 
+
+
+13125100130  University     13,550.25      11,583.11 
+
+
+03308004100  State  11,110.29     11,025.88 
+
+
+76.26   Should  have  applied  co-ins  to  inpatient 
+inhalation  therapy  during  inpatient  stay. 
+
+
+1,808.37        1,367.53  440.84 
+
+
+1,679.28        1,270.71  408.57 
+
+
+13083300370  University       1,884.12        1,367.53  516.59 
+
+
+(15.00) 
+1,967.14 
+84.41 
+
+
+03290004010  State  15,844.93      14,048.89  1,796.04 
+
+
+Should  have  applied  co-ins.  to 
+maternity  claim. 
+
+Should  have  applied  co-ins.  to 
+maternity  claim. 
+
+Should  have  applied  co-ins.  to 
+maternity  claim. 
+
+Should  have  applied  co-ins.  to 
+maternity  claim. 
+
+Should  have  applied  charges  to  co-ins. 
+Coding  error. 
+
+Should  have  applied  charges  to  co-ins. 
+Coding  error. 
+
+Should  have  applied  Out-of-network 
+benefits. 
+
+
+13049112950  State 
+
+
+171.98  206.22 
+
+
+(34.24)  Should  have  only  applied  a  $75  copay 
+for  ER  charges. 
+
+
+42247804300  University  150.00 
+
+
+150.00   Charges  should  have  applied  to 
+
+
+deductible. 
+
+03345259040  State  204.93  191.58  13.35   Claim  should  have  applied  remaining 
+
+co-ins. 
+
+13219108120  State  1,889.00       1,861.10  27.90   Claim  should  have  applied  remaining 
+
+co-ins. 
+
+
+Totals  57,222.63     52,304.12         4,918.51 
+
+
+EXHIBIT  C 
+
+
+STATE  OF  MONTANA  AND  MONTANA  UNIVERSITY  SYSTEM 
+
+MANAGED  CARE  CLAIM  AUDIT 
+
+SUMMARY  OF  FINDINGS  -  PEAK  HEALTH  PLAN 
+
+AUDIT  PERIOD  JANUARY  1,  2002  THROUGH  DECEMBER  31,  2003 
+
+
+CLAIM* 
+
+
+GROUP 
+
+
+DOLLAR 
+PAID         AUDITED      VALUE  OF 
+AMOUNT      AMOUNT        ERROR 
+
+
+TYPE 
+
+
+200306051488  STATE 
+
+
+12,743.66      12,818.66 
+
+
+(75.00)  Should  not  have  applied  $75  ER  co-pay 
+to  inpatient  stay. 
+
+
+200301070446   UNIVERSITY 
+
+
+8.40 
+
+
+8.40  Should  have  applied  charges  to 
+
+deductible.  Services  not  performed  in 
+provider's  office. 
+
+
+200311106536  STATE 
+
+
+1,024.73  904.73 
+
+
+120.00  Should  have  applied  $15  occupational 
+therapy  co-pay  per  visit. 
+
+
+200301231560   STATE 
+
+
+1,163.99        1,008.79 
+
+
+1 55.20   Non-network  VA  hospital  claim  paid 
+at  network  level  benefits. 
+
+
+200209050141    UNIVERSITY  197.59  397.56 
+
+
+(199.97)  Claim  for  ER  visit  should  have  paid 
+
+with  $75  co-pay  then  remaining  charges 
+at  100% 
+
+
+200307210273  STATE 
+
+
+1,099.71        1,404.46 
+
+
+(304.75)  Claim  for  ER  visit  should  have  paid 
+
+with  $75  co-pay  then  remaining  charges 
+at  100% 
+
+
+200306303879  STATE 
+
+
+3,253.07       3,358.13 
+
+
+(105.06)  Applied  incorrect  benefit  level  to  one 
+line  of  inpatient  stay. 
+
+
+200301071718   UNIVERSITY       1,046.13        1,072.36 
+
+
+(26.23)  Applied  deductible  after  it  had  already 
+been  satisfied. 
+
+
+Totals 
+
+
+20,537.28     20,964.69  (427.41) 
+
+
+MEW  WEST 
+
+HEALTH  SERVICES 
+
+
+ExhibitD 
+
+
+New  West  Health  Plan-A  Division  of  New  West  Health  Services 
+
+
+December  1,2004 
+
+
+Marie  Pollock 
+Wolcott  &  Associates,  Inc. 
+12120  State  Line  Road,  Suite  297 
+Leawood,  Kansas  66209 
+
+Re:  Audit  of  State  of  Montana  &  Montana  University  System 
+
+Dear  Ms.  Pollock: 
+
+We  have  reviewed  the  results  of  your  audit  of  New  West  Health  Services'  claims 
+processing  for  the  State  of  Montana  and  U-System  members  for  calendar  years  2002  and 
+2003,  with  the  notation  that,  due  to  a  system  conversion,  the  audit  sample  was  limited  to 
+claims  from  the  post  conversion  period  only  (5/1/03  to  12/31/03). 
+
+The  audit  results  indicate  an  error  rate  that  is  outside  New  West's  normal  operating 
+parameters  and  standard  industry  norms.  Our  review  and  research  have  pinpointed  the 
+primary  causative  factors  and  we  have  taken  substantive  measures  to  correct  the 
+problems.  We  accept  the  serious  nature  of  this  matter  and  pledge  our  full  commitment 
+toward  a  complete  and  satisfactory  resolution. 
+
+The  following  summary  comments  detail  our  analysis  of  the  primary  causative  factors: 
+
+■  New  West  was  challenged  by  a  simultaneous  claims  system  conversion  and  the 
+assimilation  of  a  troubled  insurer,  Montana  Benefits  and  Life  Company  (MBLC); 
+
+•     New  West  historically  outsourced  its  IT  System  including  claims  processing, 
+enrollment  and  premium  billing  until  5/1/03  when,  in  order  to  satisfy  Federal/State 
+HIPAA/DOL  requirements,  we  internalized  these  processes  on  a  new  system; 
+
+■  This  formidable  project  included  the  simultaneous  conversion  of  the  former  MBLC 
+IT  system  and  establishment  of  a  Kalispell  based  operations/customer  service  center; 
+
+■  In-sourcing  these  operational  functions  in  addition  to  the  complex  system 
+configuration,  benefit  set  up,  training  and  incorporation  of  former  MBLC  staff  and 
+newly  hired  staff  clearly  resulted  in  compromised  operations  for  a  period  of  time;  and 
+
+■  Another  significant  challenge,  after  thorough  review,  has  been  the  realization  of  the 
+unclear  components  of  the  State  and  U-System  Summary  Plan  Description  (SPD), 
+which  led  to  misunderstandings  of  benefit  interpretation  and  adjudication  protocols. 
+
+
+"High-quality,  customer  focused  health  insurance  choices  for  all  Montanans" 
+
+222  North  32nd  Street,  Suite  900  130  Neill  Avenue  1203  Highway  2  West,  Suite  45  3700  Russell,  Suite  108 
+
+Billings,  MT  59101  Helena,  MT  59601  Kalispell,  MT  59901  Missoula,  MT  59804 
+
+(888)500-3353  (406)  457-2200  or  (888)  500-3335  (406)  751-3333  or  (877)  889-8405  (888)500-3355 
+
+
+Subsequent  corrective  action  plans: 
+
+■  New  West  removed  the  Director  of  Operations  and  Director  of  IT  during  the  fall  of 
+2003  and  winter  of  2004  and  utilized  a  national  firm  to  provide  interim  management 
+and  system  consulting  services  to  accurately  diagnose  and  establish  corrective  action 
+plans  for  all  noted  problems; 
+
+■  Starting  in  the  second  (2nd)  quarter  of  2004,  and  ending  in  the  fourth  (4th)  quarter  of 
+2004,  New  West  successfully  recruited  a  new  operations  management  team  with  an 
+average  of  20+  years  experience  in  the  health  insurance  industry; 
+
+■  This  operations  management  team  represents  a  diverse  level  of  skill,  talent  and 
+experience  from  several  national  markets.  These  positions  include  a  Director  of 
+Operations,  Director  of  IT,  Claims  Manager,  Configuration  Manager  and  an  Oracle 
+Database  Administrator; 
+
+■  New  West  created  an  Internal  Auditor  position,  reporting  directly  to  the  Chief 
+Executive  Officer  and  the  Board  of  Directors; 
+
+■  New  West  created  a  Quality  Control  position  within  the  Claims  Department  to  lead  a 
+new  continuous  quality  improvement  process  which  includes  routine  claims  audits, 
+identification  and  trending  of  processor  errors  and  follow  up  training  activities; 
+
+■  New  West  hired  Wolcott  &  Associates  to  conduct  a  series  of  ongoing  quarterly 
+audits,  with  focused  feedback  on  problem  identification  and  process/protocol 
+improvement.  These  voluntary  audits,  at  New  West's  expense,  will  continue  until 
+both  the  State  of  Montana/U-System  and  New  West  are  satisfied  that  our  claims 
+processing  performance  has  returned  to  standard  industry  normative  levels; 
+
+■  In  order  to  ensure  an  acceptable  level  of  performance  during  the  completion  of  the 
+corrective  action  activities,  New  West  instituted  a  manual  review  of  all  State/U- 
+System  claims  in  October  2004.  Our  initial  audit  of  this  manual  review  protocol 
+revealed  a  procedural  accuracy  level  of  98%  with  a  financial  accuracy  of  99.9%; 
+
+■  New  West  staff  has  worked  diligently  with  the  State  of  Montana  and  U-System 
+benefit  staff  to  clarify  and  improve  SPD  language  and  protocols.  New  West  has 
+created  new  internal  procedures  to  help  staff  recognize  the  unique  characteristics  of 
+the  State  and  U-System  benefit  plan  and  operating  protocols; 
+
+■  New  West  has  retained  a  nationally  experienced  IT  consulting  firm  to  audit  the  State 
+of  Montana/U-System's  unique  benefit  plan  configuration  to  ensure  the  quick  return 
+to  an  accurate  and  timely  automated  claims  process;  and 
+
+■  New  West  routinely  reconciles  (monthly/quarterly)  all  issues  that  can  periodically 
+result  in  claims  over  or  under  payments  and  makes  adjustments  to  affected  providers, 
+employers  and  members.  New  West  will  continue  this  standard  practice  and  maintain 
+our  compliance  with  the  State  of  Montana/U-System  contract  terms. 
+
+In  conclusion,  New  West  will  conduct  an  exhaustive  effort  and  expend  all  required 
+resources  to  ensure  the  immediate  return  to  a  high  quality  standard  of  performance. 
+We  will  continue  to  work,  in  a  collaborative  and  forthright  manner,  with  State  of 
+Montana/U-System  benefit  personnel  and  auditors  to  regain  your  complete  confidence. 
+
+Sincerely, 
+
+James  D.  Senterfitt 
+Chief  Operating  Officer 
+
+
+Allegiance        ™&e 
+
+Benefit  Plan  Management,  Inc. 
+
+
+RESPONSE  TO  PEAK/MONTANA  UNIVERSITY  SYSTEM  AUDIT  ERROR  LIST 
+
+
+Tnis  Memorandum  should  serve  as  Allegiance  Benefit  Plan  Management's  response  to  the  audit  error  list 
+produced  from  the  Peak/Montana  University  system  audit  for  the  period  January,  2002  tnrough  December  31 , 
+2003. 
+
+After  review  of  the  audit  results,  Allegiance  disagrees  with  the  audit  findings  regarding  several  of  the  claims 
+ident Tied  by  the  auditor  as  claims  payment  errors.  Those  claims  so  identified  are  listed  by  claim  number  and 
+addressed  as  follows: 
+
+Claim  #200305164702.  The  auditor  states  that  a  $15.00  occupational  therapy  copay  should  have  been 
+applied  per  visit  for  these  claims.  Allegiance  disagrees.  These  claims  were  treated  as  partial  hospitalization 
+claims  wherein  under  the  terms  of  the  Plan,  two  days  partial  hospitalization  equal  one  day  of  inpatient 
+hospitalization.  Therefore,  the  claims  are  treated  as  inpatient  treatment  All  occupatonal  tnerapy  was 
+conducted  during  the  partial  hospitalization  stays.  Therefore,  since  these  are  treated  as  inpatient  claims,  the 
+outpatient  occupational  therapy  should  not  apply,  and  the  $15.00  copay  is  therefore  inapplicable.  These  were 
+mental  nervous  claims  paid  under  the  mental  nervous  benefit. 
+
+Claim  #200301231560.  The  auditor  Indicates  that  Veteran's  Administration  hospital  claims  should  be  paid  as 
+non-netwcrk.  Though  technically  this  is  correct,  by  applying  the  in-network  benefit  to  the  VA  charges,  both  the 
+Plan  and  tie  patient  realize  a  savings.  The  charges  paid  by  the  pian  are  much  less  than  if  the  insured  went  to  a 
+non-PPO  provider  We  do  not  want  to  discourage  them  from  seeking  services  at  a  VA  facility  at  reduced 
+charges. 
+
+Claim  #200308040976.  The  auditor  indicates  that  the  claims  for  pre-existing  conditions,  and  the  pre-existing 
+condition  $5,000  limited  benefit  had  been  met.  Therefore,  the  claims  in  excess  of  the  $5,000  pre-existing 
+benefit  should  have  been  denied.  Allegiance  disagrees.  The  pre-existing  condition  was  a  mental -nervous 
+condition.  A  review  of  the  EOBs  and  claims  submitted  indicate  that  those  claims  ceded  with  mental-nervous 
+codes  were,  in  fact,  applied  to  the  pre-existing  condition  benefit.  However,  a  number  of  the  treatments  for  this 
+emergency  admission  were  of  a  more  general  nature,  testing  for  drugs  and  other  physical  health  problems  that 
+by  diagnosis  do  not  appear  related  to  the  pre-existing  diagnosis.  Therefore,  under  the  HIPAA  definition  of  pre- 
+existing condition,  the  pre-existing  condition  limitation  could  not  be  applied  to  these  charges. 
+
+Claim  #200209050141,  #200307210273.  Under  these  claims,  the  auditor  has  indicated  that  the  claims  for  the 
+emergency  room  visit  should  have  been  paid  subject  to  a  S75.00  copay,  and  than  all  remaining  charges  paid  at 
+100%.  However,  the  Plan  clearly  states  that  copays,  such  as  the  $75.00  emergency  room  copay,  apply  only  to 
+facility  services.  In  addition,  we  have  received  clarification  to  that  effect  from  the  Peak  Plan  individuals  (the 
+Paradigm  Group,  in  which  they  indicate  that  ali  other  services,  such  as  physician  services  and  the  like,  are 
+subject  to  the  deductible  and  then  25%  co-insurance).  Therefore,  for  the  two  claims  in  question,  the  $75.00 
+emergency  room  copayment  was  applied  correctly  to  the  facility  charge  and  the  remaining  charges  were 
+applied  to  the  deductible  and  then  paid  with  25%  co-insurance.  They  then  changed  this  to  all  charges  subject 
+to  a  $75.00  copay. 
+
+Claim  #200303100817.  The  auditor  states  that  charges  shouid  have  been  applied  to  coinsurance,  rather  than 
+to  a  copayment,  because  the  services  were  not  provided  in  provider's  office.  That  is  based  upon  the  auditor's 
+reading  of  "place  of  service  22"  code.  However,  from  direction  received  by  Glenn  Leavitt,  Director  of  Benefits, 
+Montana  University  System,  on  September  19,  2003,  this  claim  was  for  a  routine  mammogram,  and  Allegiance 
+was  directed  that  such  routine  csre  was  not  subject  to  coinsurance,  but  was  in  fact  subject  only  to  a  $15.00 
+copay.  Therefore,  the  claim  was  processed  correctly.  They  then  changed  it  to  no  deductible  and  no  co- 
+payment.  They  were  supposed  to  notify  us  of  any  claims  processed  with  a  $15.C0  copay  on  a  case-by-case 
+basis  so  that  we  could  reprocess  with  the  new  guidelines.  This  claim  was  not  brought  to  our  attention: 
+mammograms  are  never  done  in  a  physician's  office  so  would  always  be  coded  P0S22. 
+
+
+280«S  S.  Ga.iiii.ii.,  P.O.  Bos  3(08,  Missoula,  MT  59806-301H  /  Tin  .  (406)  721-2222,  Fax  (4(h>)  721-2252  /  www.abpintps.vcjm 
+
+
+13020 
+
+
+BlueCross  BlueShield 
+of  Montana 
+
+
+An  Independent  Uceneee  o*  the  Blue  Grose  and  Blue  Shield  Association 
+
+
+November  30, 2004 
+
+
+560  N.  Pari*  Avenue 
+PO.  Box  4309 
+Helena,  Montana    St 
+(406)  444-8200 
+
+Customer  Informatk 
+
+1-800-447-7828 
+
+Website: 
+
+www.bluecrossmont: 
+
+
+MARIE  POLLOCK 
+WOLCOTT  &  ASSOCIATES,  INC 
+12120  STATE  LINE  ROAD,  Suite  297 
+LEAWOOD  KS  66209 
+
+
+12284 
+
+
+RE:  Montana  University  System  and  State  of  Montana  Managed  Care  Claim  Audit 
+
+
+1317"! 
+
+
+Dear  Marie: 
+
+This  letter  is  in  acknowledgement  of  the  draft  report  for  the  Montana  University  Syste 
+and  State  of  Montana  Managed  Care  claim  audit  recently  completed  for  the  audit  peril 
+January  1,  2002  through  December  31,  2003. 
+
+This  letter  includes  Blue  Cross  Blue  Shield  of  Montana's  (BCBSMT)  response  to  the 
+Summary  of  Findings  in  Exhibit  B,  and  Recommendations. 
+
+
+1322: 
+
+
+Claim 
+
+42309826350 
+
+
+Exhibit  B 
+
+"Claim  should  have  been  paid  at  non-network.  Coding  error." 
+claim  is  underpaid  $878.96  (MUS) 
+
+Comment:  BCBSMT  agrees  with  this  finding.  The  system 
+coding  was  corrected  1 0/06/04  for  deductible/copay  applicatior 
+in  and  out  of  network  providers.  This  coding  error  was  origina 
+discovered  by  BCBSMT  and  discussed  with  MUS.  Claims  wei 
+not  adjusted  per  the  group's  directive. 
+
+
+13211 
+
+
+1 303 1 1 00 1 60  "Should  have  applied  charges  to  deductible. "  The  claim  is 
+
+overpaid  $225.00  (State) 
+
+Comment:  BCBSMT  agrees  with  this  finding.  The  system 
+coding  was  corrected  10/06/04  for  deductible/copay  applicatioi 
+in  and  out  of  network  providers.  This  coding  error  was  origina 
+discovered  by  BCBSMT  and  discussed  with  the  State.  Claims 
+were  not  adjusted  per  the  group's  directive. 
+
+
+Comment:       BCBSMT  agrees  with  this  finding.  This  coding 
+error  was  originally  discovered  by  BCBSMT  and  discussed  with 
+the  State.  System  coding  was  corrected  10/06/04  for 
+deductible/copay  application  on  maternity  professional  services. 
+Claims  were  not  adjusted  per  the  group's  directive. 
+
+
+1 3083300370  "Should  have  applied  co-ins.  to  maternity  claim, 
+
+overpaid  S5 1 6.59  (MUS) 
+
+
+This  claim  is 
+
+
+Comment:      BCBSMT  agrees  with  this  finding.  This  coding 
+error  was  originally  discovered  by  BCBSMT  and  discussed  with 
+MUS.  System  coding  was  corrected  10/06/04  for  deductible/copay 
+application  on  maternity  professional  services.  Claims  were  not 
+adjusted  per  the  group's  directive. 
+
+
+12169320810  "Should  have  applied  co-ins.  to  maternity  claim."  Auditor's 
+
+statement  should  read,  "Should  not  have  applied  co-ins.  to 
+maternity  claim."  This  claim  is  underpaid  $15.00  (State) 
+
+Comment:      BCBSMT  agrees  with  this  finding.  This  coding 
+error  was  originally  discovered  by  BCBSMT  and  discussed  with 
+the  State.  System  coding  was  corrected  10/06/04  for 
+deductible/copay  application  on  maternity  professional  services. 
+Claims  were  not  adjusted  per  the  group's  directive. 
+
+
+1 3 1 25 1 001 30  "Should  have  applied  charges  to  co-ins. 
+
+is  overpaid  $1967.14  (MUS) 
+
+
+Coding  error."  The  claim 
+
+
+Comment:      BCBSMT  agrees  with  this  finding.  The  system 
+coding  was  corrected  10/06/04  for  deductible/copay  application  on 
+in  and  out  of  network  providers.  This  coding  error  was  originally 
+discovered  by  BCBSMT  and  discussed  with  MUS.  Claims  were 
+not  adjusted  per  the  group's  directive. 
+
+
+03308004100  "Should  have  applied  charges  to  co-ins.  Coding  error.' 
+
+is  overpaid  $84.41  (State) 
+
+
+The  claim 
+
+
+Comment:      BCBSMT  agrees  with  this  finding.  The  system 
+coding  was  corrected  1 0/06/04  for  deductible/copay  application  on 
+in  and  out  of  network  providers.  This  coding  error  was  originally 
+discovered  by  BCBSMT  and  discussed  with  State.  Claims  were 
+not  adjusted  per  the  group's  directive. 
+
+
+03290004010  "Should  have  applied  Out-of-network  benefits."  The  claim  is 
+
+overpaid  Si 796.04  (State) 
+
+Comment:      BCBSMT  agrees  with  this  rinding.  The  system 
+coding  was  corrected  1 0/06/04  for  deductible/copay  application  on 
+in  and  out  of  network  providers.  This  coding  error  was  originally 
+discovered  by  BCBSMT  and  discussed  with  State.  Claims  were 
+not  adjusted  per  the  group's  directive. 
+
+
+13049112950 
+
+
+"Should  have  only  applied  a  $75  copay  for  ER  charges, 
+claim  is  underpaid  $34.24  (State) 
+
+
+This 
+
+
+Comment:      BCBSMT  agrees  with  this  finding.  This  issue  was 
+due  to  incorrect  coding  under  the  Urgent/Emergency  benefit. 
+Deductible  and  copay  were  not  being  applied  correctly.  The 
+system  coding  was  corrected  10/06/04  but  no  claims  were  adjusted, 
+per  the  State's  directive. 
+
+
+42247804300 
+
+
+"Charges  should  have  applied  to  deductible, 
+overpaid  $150.00  (MUS) 
+
+
+The  claim  is 
+
+
+Comment:      BCBSMT  agrees  with  this  finding.  The  system 
+coding  was  corrected  1 0/06/04  for  deductible/copay  application  on 
+in  and  out  of  network  providers.  This  coding  error  was  originally 
+discovered  by  BCBSMT  and  discussed  with  MUS.  Claims  were 
+not  adjusted  per  the  group's  directive. 
+
+
+03345259040  "Claim  should  have  applied  remaining  co-ins."  The  claim  is 
+
+overpaid  $13.35  (State) 
+
+Comment:      BCBSMT  agrees  with  this  finding.  The  system 
+coding  was  corrected  10/06/04  for  deductible/copay  application  on 
+in  and  out  of  network  providers.  This  coding  error  was  originally 
+discovered  by  BCBSMT  and  discussed  with  State.  Claims  were 
+not  adjusted  per  the  group's  directive. 
+
+
+13219108120  "Claim  should  have  applied  remaining  co-ins.r 
+
+overpaid  $27.90  (State) 
+
+
+The  claim  is 
+
+
+Comment:      BCBSMT  agrees  with  this  finding.  The  system 
+coding  was  corrected  1 0/06/04  for  deductible/copay  application  on 
+in  and  out  of  network  providers.  This  coding  error  was  originally 
+discovered  by  BCBSMT  and  discussed  with  State.  Claims  were 
+not  adjusted  per  the  group's  directive. 
+
+
+III-3  RECOMMENDATIONS 
+
+•     "We  believe  the  audit  results  are  less  than  favorable  and  are  due  to  several 
+coding  issues.  We  believe  BCBSMT  should  reimburse  the  State  and  MUS  the 
+overpayments  in  the  population  as  a  result  of  the  coding  issues." 
+
+Comment:  As  noted  in  the  comments  for  Exhibit  B,  BCBSMT  identified  the 
+coding  errors  and  discussed  them  with  the  groups.  No  adjustments  were  made  at 
+the  groups'  directive,  so  there  is  no  reimbursement  to  the  groups  applicable  for 
+the  system  coding  errors. 
+
+
+•     "We  understand  that  the  State  and  MUS  have  formalized  a  plan  document  as 
+of  September  2004.  We  believe  BCBSMT  should  make  the  appropriate 
+changes  to  the  claim  processing  system  to  reflect  the  provisions  of  the 
+formalized  plan." 
+
+Comment:  As  noted  in  the  comments  for  Exhibit  B,  BCBSMT  has  already 
+corrected  the  system  coding  to  reflect  language  in  the  formalized  plan  document 
+for  the  State  of  Montana.  The  University  System  has  no  formalized  plan 
+document,  however  the  coding  changes  made  during  the  audit  should  make  the 
+application  of  benefits  consistent  with  the  State  plan  document. 
+
+
+•    "We  further  recommend  that  the  plan  be  audited  during  2005,  in  order  to 
+verify  that  the  provisions  of  the  plan  are  being  processed  appropriately.  We 
+recommend  that  BCBSMT  reimburse  the  State  and  MUS  for  the  performance 
+of  the  follow-up  audit." 
+
+Comment:  There  were  three  basic  coding  issues  noted  during  the  audit.  The 
+coding  issues  were  deductible/co-payments  for  in  and  out  of  network  providers, 
+co-insurance  for  maternity  claims,  and  claims  processing  under  the 
+urgent/emergency  benefit.  Besides  the  fact  that  there  is  no  language  in  the 
+contract  with  the  State  or  MUS  to  support  this  recommendation,  we  have  resolved 
+the  coding  errors  and  do  not  believe  that  the  issues  are  of  significant  volume  or 
+magnitude  to  warrant  another  audit. 
+
+
+Thank  you  for  the  opportunity  to  comment  on  this  audit  report.  If  your  have  any 
+questions  or  comments,  please  contact  me  at  (406)  447-8730. 
+
+
+Sincerely, 
+
+
+/ 
+/ 
+
+
+Arlene  Troy 
+
+Internal  Audit 
+
+Blue  Cross  and  Blue  Shield  of  Montana 
+
+
+Exhibit  G 
+
+
+DEPARTMENT  OF  ADMINISTRATION 
+
+STATE  PERSONNEL  DIVISION 
+
+STATE  OF  MONTANA 
+
+
+Mitchell  Building,  Room  130 
+PO  Box  200127 
+
+Helena  Montana  59620-0127 
+
+
+(406)  444-3871 
+FAX:  (406)  444-0703 
+
+http://discoverinRmontana.com/doa/spd/css/ 
+
+
+December  1,2004 
+
+Marie  Pollock,  HIA 
+
+Vice  President 
+
+Wolcott  &  Associates,  Inc. 
+
+12120  State  Line  Road,  Suite  297 
+
+Leawood,  Kansas  66209 
+
+Subject:  Analysis  and  Evaluation  of  HMO  Claims  Processing 
+
+for  the  Period  January  1,  2002  through  December  31,  2003 
+
+Dear  Ms.  Pollock: 
+
+
+We  received  your  draft  report  on  the  State  of  Montana  Analysis  and  Evaluation  of  HMO 
+Claims  Processing  for  the  period  January  1,  2002  through  December  31,  2003,  and  we  provide 
+the  following  responses  to  your  audit  findings  and  recommendations. 
+
+New  West  Health  Plan 
+
+We  concur  with  the  recommendations  listed  by  Wolcott  &  Associates,  Inc.  regarding  NWHP 
+adjudication  of  State  of  Montana  HMO  plan  claims.  Prior  to  the  audit  we  began  working  with 
+NWHP  to  identify  and  correct  a  number  of  these  issues,  and  NWHP  has  been  responsive  in 
+addressing  these  issues.  The  State  will  continue  to  work  with  NWHP  to  resolve  these  issues 
+on  a  prospective  basis  as  well  as  correcting  prior  claims  errors. 
+
+Blue  Cross  and  Blue  Shield  of  Montana 
+
+We  concur  with  the  recommendations  listed  by  Wolcott  &  Associates,  Inc.  regarding 
+BCBSMT  adjudication  of  State  of  Montana  HMO  plan  claims.  As  outlined  in  your  audit 
+findings,  the  State  has  formalized  a  plan  document  for  use  in  correcting  coding  issues.  The 
+State  will  continue  to  work  with  BCBSMT  to  resolve  the  outstanding  issues  on  a  prospective 
+basis  as  well  as  correcting  prior  claims  errors. 
+
+Peak  Health  Plan 
+
+We  concur  with  the  recommendations  listed  by  Wolcott  &  Associates,  Inc.  regarding  PHP 
+
+adjudication  of  State  of  Montana  HMO  plan  claims.  The  State  is  working  on  formalizing  a 
+
+
+Exhibit  G 
+
+
+Page  2 
+
+State  of  Montana  Response 
+
+
+plan  document  for  use  by  PHP  to  assist  in  correcting  coding  issues.  Currently  the  State  has 
+observed  a  lower  level  of  errors  in  the  PHP  which  we  believe  will  be  further  reduced  and  meet 
+industry  standards  once  the  plan  document  is  available. 
+
+Thank  you  for  providing  us  with  the  opportunity  to  respond  to  the  recommendations. 
+
+Sincerely, 
+
+
+Connie  Welsh,  Chief 
+Employee  Benefits  Bureau 
+
+
+Exhibit  H 
+MONTANA  UNIVERSITY  SYSTEM  La 
+
+Office  of  the  Commissioner  of  Higher  Education 
+
+
+2500  Broadway  0  PO  Box  203101  0  Helena,  Montana  59620-3101  0  (406)444-6570  0  FAX  (406)444-1469 
+
+
+December  2,  2004 
+
+Marie  Pollock 
+Wolcott  &  Associates,  Inc 
+12120  State  Line  Road,  Suite  297 
+Leawood,  Kansas  66209 
+
+RE:      Audit  of  HMO  Claims  Payment 
+
+Dear  Ms  Pollock: 
+
+Thank  you  for  the  opportunity  to  respond  to  your  audit  of  the  Montana  University  System  employee  group 
+HMO  insurance  plans  as  administered  by  New  West  Health  Plan,  Blue  Cross  Blue  Shield  of  Montana,  and 
+Peak  Health  Plan.  Overall,  your  audit  indicates  that  New  West  Health  Plan  and  BCBSMT's  claims 
+processing  error  rates  do  not  meet  industry  standards  while  Peak  Health  Plan's  error  rates  do,  although  Peak 
+could  do  better.  You  also  indicate  that  New  West  and  Peak  do  not  meet  industry  standards  for  claims  turn 
+around  time.  While  your  recommendations  do  not  require  specific  Montana  University  System  follow-up, 
+you  do  recommend  that  follow  up  audits  be  conducted  in  the  next  calendar  year  to  monitor  the  progress  in 
+the  correction  of  error  rates.  The  University  System  concurs  with  this  recommendation  and  will  request  that 
+the  third  party  administrators  comply  with  your  recommendation. 
+
+Thank  you  for  the  effort  you  and  your  staff  put  in  on  this  audit. 
+
+Sincerely, 
+
+
+Glen  D.  Leavitt 
+Director  of  Benefits 
+
+
+MONTANA  STATE  UNIVERSITY  -  Campuses  at  Billings,  Bozeman,  Great  Falls,  and  Havre 
+
+THE  UNIVERSITY  OF  MONTANA  -  Campuses  at  Butte,  Dillon,  Helena,  and  Missoula 
+
+Dawson  Community  College  (Glendive)  -  Flathead  Valley  Community  College  (Kalispell)  -  Miles  Community  College  (Miles  City) 
+
+

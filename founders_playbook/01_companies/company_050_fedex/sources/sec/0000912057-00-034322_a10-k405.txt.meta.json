@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0001048911/000091205700034322/a10-k405.txt",
+ "fetched": "2026-09-29T19:08:35Z",
+ "sha1": "b2277998258013c487edd72ebdd176c1f7e72f2f",
+ "bytes": 289564,
+ "words": 31873,
+ "cik": "0001048911",
+ "registrant": "FEDEX CORP",
+ "accession": "0000912057-00-034322",
+ "document": "a10-k405.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

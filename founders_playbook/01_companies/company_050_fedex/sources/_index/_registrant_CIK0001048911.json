@@ -1,0 +1,30 @@
+{
+ "cik": "0001048911",
+ "requested_cik": "1048911",
+ "registrant": "FEDEX CORP",
+ "ticker": "FDX",
+ "tickers": [
+  "FDX"
+ ],
+ "former_names": [
+  "FDX CORP"
+ ],
+ "company_dir": "company_050_fedex",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['fedex'] match registrant 'FEDEX CORP' (CIK 0001048911)"
+ ],
+ "built": "2026-09-29T19:08:16Z",
+ "count": 2157,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 36,
+ "csv_sha1": "a325e11bc8c150959e12cc4bcd320ea2c8e440cd",
+ "csv_bytes": 185364,
+ "paths": {
+  "json": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_050_fedex\\sources\\_index\\submissions_CIK0001048911.json",
+  "csv": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_050_fedex\\sources\\_index\\submissions_CIK0001048911.csv",
+  "md": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_050_fedex\\sources\\_index\\_INDEX_CIK0001048911.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

@@ -1,0 +1,33 @@
+{
+ "cik": "0001156039",
+ "requested_cik": "1156039",
+ "registrant": "Elevance Health, Inc.",
+ "ticker": "ELV",
+ "tickers": [
+  "ELV"
+ ],
+ "former_names": [
+  "Anthem, Inc.",
+  "WELLPOINT, INC",
+  "WELLPOINT INC",
+  "ANTHEM INC"
+ ],
+ "company_dir": "company_018_elevance",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['elevance'] match registrant 'Elevance Health, Inc.' (CIK 0001156039)"
+ ],
+ "built": "2026-09-29T19:06:06Z",
+ "count": 2625,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 0,
+ "csv_sha1": "30aebeb1a7c7165ef881f8d406c2c3ac2e0325a4",
+ "csv_bytes": 233499,
+ "paths": {
+  "json": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_018_elevance\\sources\\_index\\submissions_CIK0001156039.json",
+  "csv": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_018_elevance\\sources\\_index\\submissions_CIK0001156039.csv",
+  "md": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_018_elevance\\sources\\_index\\_INDEX_CIK0001156039.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

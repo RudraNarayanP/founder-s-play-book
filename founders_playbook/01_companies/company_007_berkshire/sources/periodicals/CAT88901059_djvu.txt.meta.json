@@ -1,0 +1,9 @@
+{
+ "identifier": "CAT88901059",
+ "url": "https://archive.org/download/CAT88901059/CAT88901059_djvu.txt",
+ "fetched": "2026-09-29T20:00:43Z",
+ "bytes": 655541,
+ "route": "download/<id>/CAT88901059_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

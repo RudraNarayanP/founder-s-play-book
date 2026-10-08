@@ -1,0 +1,9 @@
+{
+ "identifier": "001.-walt-disney-company",
+ "url": "https://archive.org/download/001.-walt-disney-company/Walt%20Disney%20Company%20%28DIS%29%20Annual%20Report%20%282020%29_djvu.txt",
+ "fetched": "2026-10-06T11:59:53Z",
+ "bytes": 511867,
+ "route": "download/<id>/Walt Disney Company (DIS) Annual Report (2020)_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

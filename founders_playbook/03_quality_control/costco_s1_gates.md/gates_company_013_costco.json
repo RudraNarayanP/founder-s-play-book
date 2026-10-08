@@ -1,0 +1,14 @@
+{
+ "findings": [
+  {
+   "gate": "quotes",
+   "subject": "verbatim",
+   "msg": "16 of 74 quoted spans not found in local sources"
+  },
+  {
+   "gate": "advisory",
+   "subject": "stage_1.md",
+   "msg": "46992 words over the core density target 22000 -- NOT a split mandate and NOT a defect; recorded so the tier is measurable"
+  }
+ ]
+}

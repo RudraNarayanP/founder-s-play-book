@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000049071/000004907101500004/mobl8k.htm",
+ "fetched": "2026-09-29T19:02:25Z",
+ "sha1": "ba986019fbb3db1503370c4ff8a4a875fc573371",
+ "bytes": 5319,
+ "words": 229,
+ "cik": "0000049071",
+ "registrant": "HUMANA INC",
+ "accession": "0000049071-01-500004",
+ "document": "mobl8k.htm",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

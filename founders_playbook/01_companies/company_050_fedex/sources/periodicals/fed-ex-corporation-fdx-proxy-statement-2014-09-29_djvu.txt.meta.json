@@ -1,0 +1,9 @@
+{
+ "identifier": "fed-ex-corporation-fdx-proxy-statement-2014-09-29",
+ "url": "https://archive.org/download/fed-ex-corporation-fdx-proxy-statement-2014-09-29/FedEx%20Corporation%20%28FDX%29%20Proxy%20Statement%2C%202014-09-29_djvu.txt",
+ "fetched": "2026-10-06T12:07:18Z",
+ "bytes": 320853,
+ "route": "download/<id>/FedEx Corporation (FDX) Proxy Statement, 2014-09-29_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

@@ -1,0 +1,33 @@
+{
+ "cik": "0000072971",
+ "registrant": "WELLS FARGO & COMPANY/MN",
+ "tickers": [
+  "WFC",
+  "WFC-PY",
+  "WFC-PL",
+  "WFC-PC",
+  "WFCNP",
+  "WFC-PA",
+  "WFC-PD",
+  "WFC-PZ"
+ ],
+ "company_dir": "company_038_wellsfargo",
+ "window": "1998-12-31..2020-12-31",
+ "max_docs": 30,
+ "docs_per_filing": 4,
+ "guard": "ok",
+ "attempted": 139,
+ "stored": 28,
+ "unanswered": 3,
+ "skipped": 108,
+ "nameless_rows": 0,
+ "identity": "stored(28) + unanswered(3) + skipped(108) = 139 vs attempted(139) -> BROKEN",
+ "identity_ok": false,
+ "duplicate_slots": [
+  "nameless:0000940180-00-000552:3365 in skipped and skipped"
+ ],
+ "bytes": 9076720,
+ "words": 1145137,
+ "selection_order": "1. filings whose filingDate falls in --from/--to, sorted filingDate ASCENDING (earliest evidence first); 2. one filing per form key -- S-1/S-4/10-K families keep every filing because version differences are findings, other forms keep the first per (base-form, primaryDocument[:12]); 3. inside a filing, documents in candidate order: the submissions primaryDocument, then named text/html items largest-first, then the full-submission SGML <accession>.txt; 4. --max-docs caps DOCUMENTS, so the stream built by 1-3 is cut at N and every slot past the cut is written to _SKIPPED.csv as 'SKIPPED beyond --max-docs N' -- never dropped.",
+ "built": "2026-10-06T11:50:53Z"
+}

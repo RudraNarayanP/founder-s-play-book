@@ -1,0 +1,190 @@
+{
+ "window": [
+  "1961-01-01",
+  "1985-12-31"
+ ],
+ "candidates": 25,
+ "mined": 12,
+ "untried_by_limit": 12,
+ "items": [
+  {
+   "identifier": "cultura-personal-y-ycultura-nacional",
+   "date": "1964-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Cultura personal y cultura nacional",
+   "family": "internet_archive",
+   "meta_date": "1964-01-01",
+   "status": "cached",
+   "bytes": 26191,
+   "named_terms": [
+    "humana inc"
+   ],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 5,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 101,
+     "text": "bilidad que realzan la existencia humana,",
+     "context": [
+      "\u00e1nimo, rumbo, configuraci\u00f3n y responsa-",
+      "convirtiendo en actos, obras e institucio-"
+     ]
+    },
+    {
+     "line": 329,
+     "text": "dad de la \u00edndole humana, comienza a",
+     "context": [
+      "desciende el verdadero centro de grave-",
+      ""
+     ]
+    },
+    {
+     "line": 363,
+     "text": "Jestad de la persona humana.",
+     "context": [
+      "ideal, ni su aplicaci\u00f3n de respeto a la ma-",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA40385011_1273",
+   "date": "1984-01-01",
+   "title_year": "1984",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "General Hospitals of Humana, Inc. v. Arkansas Statewide Health Coordinating Council, 467 U.S. 1205 (1984) (No. 83-1493)",
+   "family": "internet_archive",
+   "meta_date": "1984-01-01",
+   "status": "cached",
+   "bytes": 218762,
+   "named_terms": [
+    "humana inc"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 154,
+   "phrase_hits": 4,
+   "entity_hits": 12,
+   "matched_entities": [
+    "humana inc",
+    "humana, inc"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 102,
+     "text": ": Humana Inc., a publicly-traded company. .",
+     "context": [
+      "* General Hospitals of Humana, Inc. is a wholly-owned subsidiary of",
+      ""
+     ]
+    },
+    {
+     "line": 1709,
+     "text": "to General Hospitals of Humana Inc. (\u201cHumana\u201d) for the",
+     "context": [
+      "Agency\u201d) which had granted a Certificate of Need (\u201cCON\u201d)",
+      "construction of a 150-bed full service general hospital to be"
+     ]
+    },
+    {
+     "line": 1718,
+     "text": "On January 15, 1982, General Hospitals of Humana Inc.,",
+     "context": [
+      "",
+      "filed an application with the State Agency for a Certificate of"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "gov.uscourts.kywd.135623",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.kywd.135623_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.tnmd.60607",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.tnmd.60607_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.ncwd.119907",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.ncwd.119907_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.alsd.62465",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.alsd.62465_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.ca5.14-20358",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.ca5.14-20358_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.azd.602859",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.azd.602859_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.cand.334008",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.cand.334008_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.cand.287609",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.cand.287609_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.casd.775864",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.casd.775864_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.cod.158387",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.cod.158387_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  }
+ ]
+}

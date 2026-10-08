@@ -1,0 +1,2066 @@
+NASA TM X- 74006 
+
+
+NASA TM X-74006 
+
+
+NASA TECHNICAL 
+
+MEMORANDUM 
+
+
+PRELIMINARY STUDY OF TUG-GLIDER 
+FREIGHT SYSTEMS UTILIZING A BOEING 747 AS THE TUG 
+
+i (NASA-TM-X-74006) PRELIMINARY STUDY OF N77-18118 
+
+TUG-GLIDER FREIGHT SYSTEMS UTILIZING A 
+, BOEING 747 AS THE TUG (NASA) 52 p HC A04/MF 
+&01 ' ' CSCL OIC Unclas 
+
+’ _ G3/03. 17194 
+
+by 
+
+Harry H. Heyson and Willard E. Foss, -Jr. 
+
+Langley Research Center 
+
+
+February 1977 
+
+
+This informal documentation medium is used to provide accelerated or 
+special release of technical information to selected users. The contents 
+may not meet NASA formal editing and publication standards, may be re- 
+vised, or may be incorporated in another publication. 
+
+
+NASA 
+
+National Aeronautics and 
+Space Administration 
+
+Langley Research Center 
+
+Hampton, Virginia 23665 
+
+
+
+
+1. Report No 2 Government Accession No 
+
+TM X-74006 
+
+3 Recipient's Catalog No 
+
+4 Title and Subtitle 
+
+PRELIMINARY STUDY OF TUG-GLIDER FREIGHT SYSTEMS 
+UTILIZING A BOEING 747 AS THE TUG 
+
+5 Report Date 
+
+February 2, 1977 
+
+6 Performing Organization Code 
+
+31 .600 
+
+7 Author(s) 
+
+Harry H. Heyson and Willard E. Foss, Jr. 
+
+8 Performing Organization Report No 
+
+10 Work Unit No 
+
+9 Performing Organization Name and Address 
+
+NASA Langley Research Center 
+Hampton, Virginia 23665 
+
+1 1 Contract or Grant No 
+
+13 Type of Report and Period Covered 
+
+Technical Memorandum 
+
+12 Sponsoring Agency Name and Address 
+
+National Aeronautics & Space Administration 
+Washington, DC 20546 
+
+14 Sponsoring Agency Code 
+
+
+15 Supplementary Notes 
+
+
+1 6 Abstract 
+
+
+Performance of the tug-glider systems is severely limited by ground run. In most 
+cases studied, additional engines are necessary. Except at short ranges for which 
+additional payload can be carried in the tow plane, the productivity of the basic 
+aircraft is degraded by a reduction in cruise speed necessitated by the glider drag. 
+Excessive aspect ratios do not improve system performance because of the increase 
+in glider wing weight. Powered gliders using a tow plane only for takeoff and 
+climb have the potential for a major reduction in fuel consumption. Uncertainty 
+of restrictive regulatory action and the apparently increased airborne investment 
+per unit productivity are obstacles to commercial development. Some military 
+potential may exist, leading to increased commonality of the basic aircraft in both 
+military and commercial use. 
+
+
+17 Key Words (Suggested by Author(s)) 18 Distribution Statement 
+
+AIRCRAFT DESIGN TESTING AND PERFORMANCE , 
+
+GLIDERS, AIR FREIGHT, STATED AIRCRAFT UNCLASSIFIED-UNLIMITED 
+
+19 Security Qassif (of this report) 20 Security Classif (of this page) 21 No of Pages 22 Price* 
+
+Unclassified Unclassified 51 $4.50 
+
+
+For sale by the National Technical Information Service, Springfield Virginia 22161 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PRELIMINARY STUDY OF TUG-GLIDER FREIGHT SYSTEMS 
+UTILIZING A BOEING 747 AS THE TUG 
+
+By Harry H. Heyson and Willard E. Foss, Jr. 
+
+Langley Research Center 
+
+SUMMARY 
+
+
+Performance of the tug-glider systems is severely limited by ground run. In 
+most cases studied, additional engines are necessary. Except at short ranges 
+for which additional payload can be carried m the tow plane, the productivity 
+of the basic aircraft is degraded by a reduction in cruise speed necessitated 
+by the glider drag. Excessive aspect ratios do not improve system performance 
+because of the increase in glider wing weight. Powered gliders using a tow 
+plane only for takeoff and climb have the potential for a major reduction in 
+fuel consumption. Uncertainty of restrictive regulatory action and the 
+apparently increased airborne investment per unit productivity are obstacles 
+to commercial development. Some military potential may exist, leading to 
+increased commonality of the basic aircraft in both military and commercial 
+use. 
+
+
+INTRODUCTION 
+
+
+During the second world war, extensive use was made of towed gliders for 
+transporting men and material during assault operations. The towed glider 
+possessed certain outstanding advantages as a wartime expediency; however, 
+subsequent analyses of towed gliders for peacetime freight transport diverge 
+widely on the overall system efficiency (refs. 1-3). 
+
+A recent paper (ref. 4) has indicated that the productivity of the C-130 
+transport could be increased significantly under certain conditions by using 
+it as a tow plane for gliders. The present study attempts to ascertain whether 
+or not the addition of a glider train to a modern jet freighter results in 
+similar gains. 
+
+As a starting point, several gliders of high aerodynamic efficiency were 
+designed to the point where reasonable estimates of weight and performance 
+could be made. Next the' takeoff performance of the combined tug-glider 
+system was calculated to obtain feasible combinations of takeoff gross weights. 
+Aerodynamic interference and tow-cable drag were examined to determine the 
+best relative locations of the tug and glider in cruise. The tow cable drag 
+and interference factors from this study were incorporated into a modified 
+version of the Vehicle Integration Branch long-range cruise program to obtain 
+the range-payload performance and energy efficiency of the combinations. 
+
+
+ORIGINAL PAGE ES 
+OP POOR QUALITY 
+
+
+
+Using the B-747 as a tow plane leads to severe restraints because of runway 
+distance. In general, significant range-payload performance of the tug-glider 
+system requires the addition of more engines. Since additional engines are 
+needed, the possibility of adding these engines to the glider rather than the 
+tow plane was considered. In this concept, the powered glider is towed to 
+cruise altitude and then continues on its own. This system is compared with 
+the standard B-747 and with the towed glider system. 
+
+The entire analysis has been conducted on the assumption that the towed system 
+is to be operated in commercial service over relatively long ranges. Under 
+such conditions, productivity and efficiency are of paramount concern. 
+Operation in military service, particularly under combat conditions, shifts 
+the primary emphasis to operational flexibility and greatly increases the 
+potential of the system. While no complete analysis of military use was 
+conducted in the present study, a few remarks on military application are 
+included. 
+
+
+SYMBOLS 
+
+A Wing aspect ratio, b'Vs 
+
+b Wing span 
+
+BTU British thermal unit (1 BTU = 1054.35 joules) 
+
+Cp Drag coefficient, (Drag)/qS 
+
+Induced drag coefficient, (Induced drag}/qS 
+Cj_ Lift coefficient, (Lift)/qS 
+
+h Altitude above mean sea level 
+
+L/D Lift-drag ratio, C L /C D 
+
+mac Mean aerodynamic chord 
+
+M Mach number 
+
+q Free-stream dynamic pressure 
+
+S Wing area 
+
+TOGW Takeoff gross weight 
+
+V,*- Free-stream velocity 
+
+W Aircraft weight 
+
+
+2 
+
+
+
+a Angle of attack of tow cable with respect to the free stream 
+
+e Average value of interference downwash angle over the wing of the 
+
+affected aircraft 
+
+eq Average value of the downwash angle over the wing of the aircraft 
+
+causing interference 
+
+ACq. Increment in induced drag coefficient caused by interference from 
+1 a second aircraft 
+
+Subscripts: 
+
+G Glider 
+
+T Tug 
+
+TO Takeoff 
+
+
+RESULTS AND DISCUSSION 
+
+
+High Efficiency Gliders 
+
+Configuration .- Two basic gliders were designed for this study. These gliders 
+together with their lift-drag polars and lift-drag ratios, are illustrated in 
+figures 1 and 2. 
+
+The first glider (fig. 1) had an aspect ratio of 25, a span of 118 m (387.3 ft), 
+a maximum lift-drag ratio of 36.5, and a gross weight of 2.892 MN (650,044 lb) 
+for a payload of 1.334 MN (300,000 lb). A smaller glider with half the pay- 
+load and the same aspect ratio was also designed. The fuselage was somewhat 
+larger in proportion to the wing, reducing the maximum lift-drag ratio, and 
+the payload weight fraction was poorer (Table 1) when compared to the larger 
+glider. Consequently, the smaller glider was eliminated from further 
+consideration. 
+
+A second glider of aspect ratio 14 was also designed (fig. 2). For this 
+glider, the span was 88.4 m (290 ft), the maximum lift-drag ratio was 28, and 
+the gross weight was 2.360 MN (530,451 lb) for the same payload of 1.334 MN 
+(300,000 lb). Comparison of the weight statement (Table II) with the higher 
+aspect-ratio glider shows that the major portion of the weight reduction is 
+in the weight of the wing. 
+
+Design Considerations .- Both gliders use sailplane technology in that they 
+achieve high lift-drag ratios by the use of aspect ratios which are large 
+compared to current powered aircraft. However, there are also major dif- 
+ferences from sailplane configurations. First, the fuselage is relatively 
+larger than that of a sailplane in order to provide volume for the payload. 
+
+The payload for this study was presumed to have a density of 160 kg/m3 
+
+
+ORIGWAE PAGES 
+Of POOR quality 
+
+
+3 
+
+
+
+(10 Ib/ft^) and to be packaged in special containers. The use of a lighter 
+cargo density or of standard 2.4 x 2.4 in (8 x 8 ft) containers would increase 
+the fuselage volume with consequent effects on both weight and drag. Second, 
+compared to typical sailplane wing loadings of 239 to 335 N/m 2 (5 to 7 lb/ft 2 ), 
+the present wing loadings are an order of magnitude greater: 5.17 kN/m 2 
+
+(108 lb/ft 2 ) for an aspect ratio of 25, and 4.21 kN/m 2 (88 lb/ft 2 ') for an 
+aspect ratio of 14. The heavy wing loadings are necessary, not only to obtain 
+aerodynamic compatibility with the B-747 tow plane, but also to achieve 
+reasonable values of wing area, weight, and span. Indeed, it is largely 
+because of the heavy wing loading that the structural weight fraction of 
+these new gliders is so favorable compared to those of reference 4 (fig. 3). 
+
+Landing Considerations .- Since the only reduction in glider weight during 
+flight is the minor amount of fuel consumed by the auxiliary power unit, 
+the landing wing loadings will be as high (or higher) than those of current 
+jet transports. Thus, a high-lift flap system similar to those in current 
+use is required. Such systems create considerable drag, so that cur- 
+rent practice is to use significant amounts of power on landing approach. 
+
+In the absence of power, the glider must either use small flap deflections 
+and land "hot", or must use an approach slope far steeper than the present 
+3-degree slope, thus complicating the present terminal air-traffic control 
+system. Furthermore, the absence of engines precludes the possibility of 
+"go-around" on a missed approach. 
+
+Admittedly, thousands of sailplane tows are made each year with a negligible 
+accident rate and with little or no regulatory interference. The cargo 
+gliders considered herein are extremely large and have landing speeds 
+comparable to jet transports. The extent to which commercial operation of 
+such gliders would be tolerated prior to regulatory action by FAA is 
+problematical . 
+
+
+Excess Thrust 
+
+
+Takeoff . - Figure 4 (from ref. 4) shows the available excess thrust for the 
+C-130 tug of that study as a function of takeoff ground roll. It will be ob- 
+served that the C-130 was designed as an assault transport; thus, major design 
+emphasis was on short-field operation at the expense of transport efficiency. 
+Consequently, large amounts of excess thrust are available if the aircraft 
+is allowed to operate from field lengths typical of commercial airports* 
+
+It is this characteristic Df the aircraft which leads to the increases in 
+productivity demonstrated in reference 4. If constrained to operate out of 
+its design field length, the C-130 would show little or no productivity 
+improvement when using gliders. 
+
+Figure 5 presents the available excess thrust of the B-747 as a function of 
+altitude and Mach number for two gross weights. This figure has been pre- 
+pared , on the basis of the clean configuration and cruise thrust ratings. At 
+the heavier weight (fig. 5(a)), extrapolation of the h = 0 curve to takeoff 
+speed indicates that the B-747 has no excess thrust at takeoff from its design 
+
+
+4 
+
+
+
+field length of 3.17 km (10,400 ft). Indeed, when the drag increase of the 
+takeoff configuration is considered, it is clear that takeoff is only possible 
+because of the increased 5-minute takeoff rating using water injection. On 
+the other hand, at reduced gross weight (fig. 5(b)), there is a reasonable 
+amount of excess thrust at takeoff. This thrust might be employed to take 
+off towing a glider. 
+
+Cruise. - At cruise altitude, and at its cruise Mach number in excess of M = 0.8 
+figure 5 shows that the B-747 has little or no excess thrust. If it is to 
+tow gliders, it is evident that this aircraft must operate at lower than 
+normal altitudes and Mach numbers. The reduced cruise speed will produce 
+an obvious penalty in trying to obtain increased productivity. 
+
+Productivity. - Figure 5 indicates that the B-747 airframe is almost perfectly 
+matched to its engines, and that the total configuration is almost perfectly 
+matched to available field lengths. It is because of this compatibility that 
+the aircraft achieves its remarkable productivity and efficiency. Figure 6 
+shows the productivity of the C-130 (in terms of throughput), with and without 
+a glider, as given by reference 4. A point representing the maximum cargo 
+capability of the basic B-747 has been added for comparison. Because of the 
+impressive performance of the B-747, as well as the inability to accept sig- 
+nificant increases in field length, it is obvious that it is far more difficult 
+to improve the productivity of the B-747 than the C-130 of reference 4. 
+
+
+Takeoff Considerations 
+
+
+Balanced Field Length. - Field length for transport aircraft is generally 
+certificated as a balanced field length where, upon failure of the most 
+critical engine, the aircraft can either continue takeoff over an obstacle 
+or brake to a stop in equal distances. Several possible additional con= 
+siderations should be included for gliders; the safe distance might depend 
+upon which aircraft leaves the ground first, and it might require consider- 
+ation of tow-cable failure. For commercial operation, regulatory agencies 
+could impose restrictions which would seriously affect the required field 
+length. For this reason, only the ground roll is considered herein. This 
+ground roll is determined by a suitably modified form of the equation given 
+in reference 5. 
+
+Aspect Ratio of 25 .- Calculated ground runs for the B-747 with and without 
+the high aspect-ratio glider are presented in figure 7. The calculated 
+ground run of 2.68 km (8,800 ft) is approximately correct for the certificated 
+3.17 km (10,400 ft) runway length of the basic B-747. Therefore, this length 
+will be used throughout the present paper as the maximum allowable field lenoth 
+
+It is- clear from figure 7(a), that the basic B-747 can lift the glider from 
+the runway only when its own gross weight is so low as to preclude the pre- 
+sence of cruise fuel. A major increase in available thrust is required. 
+
+
+
+
+Op 
+
+
+P OQft 
+
+
+Page 
+QUali^ 
+
+
+is 
+
+
+5 
+
+
+
+Consequently, similar calculations are presented in figure 7(b) for a B-747 
+with two additional engines. With the additional engines, the B-747 can have 
+a takeoff gross weight of 3.11 MN (700,000 lb) and still take off while towing 
+the glider. 
+
+Conceptually, the additional engines could be mounted from the fuselage sides 
+in the manner of numerous executive transports. It is estimated that the 
+engines and struts would add approximately five percent to the zero-lift drag 
+of the aircraft. A more serious penalty is the weight increase involved in 
+the installation of the engines, struts, fuel systems, and attachment-point 
+reinforcements. This weight is estimated to total 198 kN (44,450 lb). These 
+penalties would be present on alternate missions when the glider is not used; 
+however, the additional thrust might yield some compensatory benefits by 
+shortening field length or increasing the allowable takeoff gross weight. 
+
+Aspect Ratio of 14.- The lighter weight of the lower aspect-ratio glider leads 
+to significantly better takeoff performance with four engines (fig. 8(a)). In 
+this case, the gross weight of the B-747 may be as great as 2.447 MN (550,000 lb) 
+while taking off with the glider. With six engines (fig. 8(b)), the maximum 
+weight of the B-747 is virtually the same as it was with the high aspect ratio 
+glider, 3.158 MN (710,000 lb). 
+
+Powered Gliders. - An alternative to installing additional engines on the tow 
+plane is to install the extra engines on the glider. This approach eliminates 
+the penalty on the basic aircraft when not towing the glider, and, simultaneously, 
+it may provide adequate cruise power once the powered glider has reached cruise 
+altitude. Thus, the tug need be used only during takeoff and climb, after which 
+the glider can continue without assistance. The weight and drag penalties of 
+the engines must now be applied to the glider, which, in addition, must have 
+increased useful load capability to carry fuel. Scaling the gliders of 
+figures 1 and 2 upward at constant wing loading results in the powered gliders 
+shown in the following table: 
+
+
+A 
+
+25 
+
+14 
+
+b, m 
+
+132 
+
+100 
+
+ft 
+
+433 
+
+329 
+
+S, m2 
+
+697 
+
+720 
+
+ft 2 
+
+7500 
+
+7750 
+
+T0GW, MN 
+
+3.614 
+
+3.048 
+
+lb 
+
+812,500 
+
+685,170 
+
+Total fuel , Mg 
+
+49.90 
+
+51.26 
+
+lb 
+
+110,000 
+
+113,000 
+
+
+6 
+
+
+
+
+As will be shown subsequently, these powered gliders have several interesting 
+characteristics. Not the least of these is the takeoff performance which is 
+shown in figure 9. Since the tug has a short mission involving only takeoff, 
+climb, and return, it requires little fuel. Thus, the B-747 needs only a 
+takeoff weight of about 2.224 MN (500,000 lb) at most. Under these conditions, 
+figure 9 shows that the ground run is always less than that for the fully 
+loaded B-747 operating without a glider. 
+
+
+Interference in Cruise 
+
+
+Tow-Cable Drag .- In addition to the thrust required to propel the glider, 
+thrust must be provided to overcome the drag of the tow cable. Hoerner 
+(ref. 6) gives the drag coefficient of a straight inclined cylinder as: 
+
+C Q = 1.1 sin 3 a + 0.02 
+
+where Cp is based on the product of length and diameter. This drag coef- 
+ficient is used herein for the cable; however, its use is open to several 
+objections. First, the cable is not straight but lies on a curve determined 
+by the combined action of the aerodynamic forces and the cable tension. Thus, 
+the cable length is actually longer than the straight-line distance between 
+tug and glider. Second, and again because the cable is curved, the average 
+drag coefficient of the cable, which depends on sin^a, will be greater than that 
+for a straight cylinder. The actual drag values probably will be significantly 
+greater than those used herein. 
+
+Figure 10 shows the equivalent flat-plate draq area of the cable per 2.54 cm 
+(1 in) of diameter as a function of the qlider position with respect to the tug 
+for an in-line tow. The powerful effect of the sin 3 a term is obvious, since 
+for a constant drag coefficient, the drag contours would be concentric circles. 
+
+It is obvious that the drag contours are rotationally symmetric about a stream- 
+wise line through the attachment point. 
+
+Induced Interference .- The glider and the tug each induce a "downwash" at the 
+other's location. Thus each aircraft will have the performance that would be 
+obtained if it were climbing at this "downwash" angle (which may be negative). 
+
+The interference can be calculated in nondimensional terms from the simple 
+considerations in reference 7; the result being a ratio e/ep of the downwash 
+at the affected aircraft to the mean downwash at the wing of the aircraft 
+causing the interference. This leads to an additional induced drag on the 
+glider of 
+
+
+
+3 PAGE IS 
+
+
+QE POOR QUALITY 
+
+
+7 
+
+
+
+and on the tug 
+
+
+
+In general, e/eg is negative in the second case, and the induced drag 
+of the tug is slightly decreased. At the glider, s/sq may be large and 
+positive or moderately negative depending on the relative positions of tug 
+and glider. 
+
+Combined Effect of Cable and Interference .- The mutual interplay of cable drag 
+and induced interference can be seen most clearly by means of a sample case. 
+Figure 11 presents such calculations for a series of lateral displacements 
+between the tug and the glider. In all cases, the best location for the 
+glider is far behind the tug so as to minimize the downwash caused by the 
+bound vortex. When towing the glider in line with the tug, the glider should 
+also be separated vertically; the best cable angle being about 15 degrees. 
+
+With any significant lateral displacement the preferred vertical position is 
+with the two wings in the same plane. When the lateral displacement is suf- 
+ficiently great, the lift-drag ratio of the glider is actually improved by the 
+mutual interference despite the presence of the cable drag. 
+
+Figure 12 is a similar presentation of effective glider lift-drag ratio in a 
+vertical cross-section five tug spans (about 300 m (1,000 ft)) behind the tug. 
+Careful examination of this figure discloses, as might be expected, that the 
+best efficiency is obtained when one glider wing-tip is centered in one of the 
+rolled-up vortices of the B-747 tug. Because of the known vortex hazard behind 
+the B-747, it was arbitrarily decided to maintain at least 30 m (100 ft) 
+clearance from the plane of the tug wake. Maintaining this clearance would 
+require tighter altitude control than is usually available. 
+
+Chosen Relative Position. - Figure 13 shows the effective lift-drag ratio as a 
+function of lateral separation for the same sample case at the chosen minimum 
+vertical separation. Regardless of cable diameter, the best lateral spacing is 
+1 .4 tug spans. 
+
+The actual required cable diameter depends upon the worst, rather than the best, 
+possible lift-drag ratio within the flight envelope. Determination of the worst 
+case is beyond the scope of the present analysis. In the ensueing calculations, 
+a 2.54 cm (1 in) diameter cable is assumed on the basis that some high tensile- 
+strength material may be adequate. 
+
+In the actual climb-cruise calculations the present sample case was not used. 
+
+The appropriate interference factors were used to adjust the induced drag at 
+each point along the flight path, and a constant flat-plate drag increment was 
+added to the glider. The cable drag for the chosen lateral spacing is shown in 
+figure .14, and the interference factors at the glider and tug are shown in 
+figure 4,5. Their overall effect on the glider and tug of the sample case is 
+illustrated in figure 16. 
+
+
+8 
+
+
+
+The equations for both cable drag and induced interference are symmetric 
+above and below the wake. If the glider is above the tug, the cable pulls 
+upward on the tug, and an additional down-load is required from the tug tail 
+to maintain equilibrium. A similar effect is encountered at the glider so 
+that both aircraft would suffer a penalty in trim drag. The situation is 
+reversed if the glider is low, and both aircraft then enjoy a reduction in 
+trim drag. Thus, the glider should be positioned below the tug in cruise. 
+
+The relative positions are shown in figure 17 where the two aircraft are 
+drawn with the minor bank angles required to offset the side forces caused 
+by cable tension. 
+
+The chosen location for cruise is not possible at takeoff. Positioning the 
+two aircraft prior to takeoff with the full length of cable would cost 300 m 
+(1,000 ft) of runway. Thus, the cable must be short at takeoff and then reeled 
+out during climb. During takeoff, the glider generally lifts first (figs. 7-9) 
+and will be above the tug. At some point during climb, it descends through 
+the tug wake to the low cruise position. No assessment of possible vortex 
+hazards during this maneuver has been made. 
+
+It should be emphasized that this analysis has been based solely upon aero- 
+dynamic efficiency. No examination has been made of effects on either longi- 
+tudinal or lateral -directional stability. The dynamics of the coupled aircraft 
+have not been considered, nor have possible pilot-induced oscillations been 
+examined. Any of these items could prove to be significant restrictions in 
+operational use. 
+
+
+Cruise Performance 
+
+
+Program .- Extensive modifications were made to the Vehicle Integration Branch 
+long-range cruise program in order to calculate the achievable range with the 
+actual matching of tug and glider. Cable drag was accounted for by means of a 
+constant increment in profile drag. A constant interference factor was used 
+to calculate the induced drag due to mutual interference at each combination 
+of tug and glider lift coefficients. 
+
+Reserves . - The calculation of required reserves generally requires calculation 
+of a percentage increment of trip fuel, fuel burned in a missed approach 
+and climb-out and hold at fixed altitude, and flight to an alternate airport. 
+
+It is not clear that the identical requirements (particularly the missed approach) 
+apply to a tug-glider combination. Consequently, a fixed reserve of 19.96 Mg 
+(44,000 lb) of fuel was assumed for the B-747 either alone or as a tug. Half 
+
+of this reserve was assumed for the powered gliders. 
+
+Tug-Glider Combinations with Aspect Ratio of 25 .- It is evident from figure 5 
+that the excess thrust of the 13-/47 is inadequate to provide the same cruise 
+speed with the glider as without the glider. It was found that the best range 
+
+was obtained cruising at a Mach number of 0.6 in all cases. 
+
+
+9 
+
+
+
+Figure 18 presents the calculated range and fuel efficiency of the gliders 
+with an aspect ratio of 25. With a six-engine B-747 tug, this glider can 
+carry a 1.33 MN (300,000 lb) payload over about the same distance as the 
+standard B-747 carries 1.11 MN (250,000 lb). The improvement in gross pay- 
+load is achieved at a cost of about 15 percent in specific fuel consumption. 
+
+Although the maximum payload has been increased, the productivity of the tug- 
+glider combination is less than that of the basic B-747 (fig. 19) because of 
+the reduction in cruise speed. The loss in productivity may be countered by 
+carrying an additional 445 kN (100,000 lb) of payload in the tug for a total 
+payload of 1.78 MN (400,000 lb). The additional payload is obtained at the 
+expense of available fuel so that the maximum range is reduced by one-third 
+(fig. 18). Because of the increased payload, fuel efficiency is improved to 
+the point where it is only slightly worse than that of the basic B-747. 
+
+Powered Glider with Aspect Ratio of 25 .- The powered glider is towed to its 
+absolute ceiling by a standard B-747 acting as the tug. From this point, the 
+tug returns and the powered glider continues alone, achieving a range of about 
+4.44 Mm (2,400 n mi) with a payload of 1.33 MN (300,000 lb) (fig. 18). If 
+available fuel is increased by 22.7 Mg (50,000 lb) at the expense of reducing 
+payload to 1.11 MN (250,000 lb), a range of almost 7.41 Mm (4,000 n mi) is 
+possible. This range is a significant increase over that attainable by the 
+basic B-747 with the same payload; however, the most remarkable attribute of 
+the powered glider is its fuel efficiency. The fuel required per ton-nautical 
+mile by the powered glider, including the fuel used in the takeoff and climb 
+of the B-747 tug, is only half that required by the basic B-747. This fuel 
+saving is as great as that envisioned by the entire NASA Aircraft Energy 
+Efficiency Program. Unfortunately, the fuel saving is accompanied by a 
+substantial loss in productivity (fig. 19). 
+
+Powered Glider with Enroute Engine Failure .- Since the powered glider has so 
+little power, the viability of the concept depends upon its ability to maintain 
+flight in the event of engine failure. This case has been examined for an 
+engine failure at mid-range (fig. 20). After engine failure, the aircraft 
+must descend and decelerate. The thrust deficiency is sufficiently small that 
+the required rate of sink never exceeds 2.54 m/s (500 ft/min). Finally, at 
+M = 0.3 and 1.52 km (5,000 ft) altitude, the available thrust is sufficient to 
+sustain level flight. Under these conditions, the aircraft can reach 3.63 Mm 
+(1,958 n mi) before using reserve fuel. The original destination at 4.44 Mm 
+(2,400 n mi) can be reached using the reserve fuel. 
+
+The engine-out mission cannot be accomplished if the aircraft must maintain 
+the 1.1-percent climb gradient required by FAR part 25 requirements; thus, 
+modification of this regulation would be required prior to development. Further- 
+more, the low engine-out altitude would be a severe restriction for overland 
+flight. . - 
+
+Gliders with Aspect Ratio of 14 .- Figure 21 presents range and fuel efficiency for 
+the lower aspect-ratio gliders, both with a tug and as powered gliders. The 
+decrease in structural weight of the gliders compensates for the lower lift- 
+
+
+10 
+
+
+
+drag ratio since range and fuel efficiency are similar to those of figure 18. 
+Maximum range is actually slightly increased because of the greater amount 
+of fuel carried by the tug. 
+
+One notable difference from the case of the high aspect-ratio glider is that 
+the four-engine tug can take off with the low aspect-ratio glider (fig. 8). 
+
+In this case,, the tug has a relatively light gross weight, carries only a 
+modest amount of fuel, and, consequently, has a relatively short range. 
+
+Optimum Aspect Ratio .- Comparison of figures 18 and 21 shows that, if anything, 
+performance of the tug-glider combinations was improved by reducing the aspect 
+ratio from 25 to 14. These two cases are insufficient to determine the best 
+aspect ratio for the glider; however, an unpublished parametric study by 
+Allen H. Whitehead and Jeffrey A. Yetter of the Langley Research Center 
+suggests that the best aspect ratio may be on the order of 7 (about the same 
+as the B-747 tug). 
+
+
+Staged Aircraft 
+
+
+The remarkable fuel efficiency of the powered gliders results from several 
+factors. First, the powered glider has high aerodynamic efficiency because 
+of its large aspect ratio. Second, the engines are the size required to 
+barely maintain flight with no constraints imposed by takeoff field length 
+or initial rate of climb. Finally, some portion of the gain is achieved by 
+transferring part of the engine weight and required fuel to the tug which 
+operates only in the initial phase of the flight. In effect, the powered- 
+glider system is the aircraft equivalent of the staged rocket system used 
+for orbiting large space payloads. The concept as applied to aircraft is 
+not new. The same scheme was pioneered by the English Short Mayo-Mercury 
+composite aircraft for transatlantic mail service in 1938. 
+
+The magnitude of the staging effect was examined by reconfiguring the powered 
+gliders to four-engine aircraft. The gross weight was held constant while 
+adding the weight and drag of the additional two engines. It was found that 
+takeoff was not a restriction because the aircraft had about the same thrust- 
+weight ratio as the B-747 and, in addition, the new aircraft had improved low- 
+speed performance because of the higher aspect ratios. 
+
+The first effect noted was that the useful load decreased by over 245 KN 
+(55,000 lb) compared to the powered gliders. The new aircraft had to carry 
+not only the weight of the additional engines and fuel system, but also all of 
+the fuel required for takeoff and initial climb. In addition, fuel reserves 
+must be greatly increased. Because of the increase in available thrust, the 
+best cruise speed increased slightly to M = 0.65. At 1.11 MN (250,000 lb) 
+payload, the maximum range for either aspect ratio decreased to about 2.78 Mm 
+(1,500 n mi) from the almost 7.41 Mm (4,000 n mi) maximum range of the powered 
+gliders (fig. 18 and 21) with the same payload. 
+
+
+SSSF page is 
+OOR QUALIFY; 
+
+
+11 
+
+
+
+Fuel efficiency for the four-engine aircraft was found to be midway between 
+the fuel efficiencies for the powered gliders and the basic B-747. Thus, 
+about half the gain in fuel efficiency appears due to the improved aerody- 
+namic efficiency related to the large aspect ratios of the gliders. The other 
+half of the gain in efficiency, as well as a major increase in range capa- 
+bility, is due to staging. 
+
+
+Multiple Tow-Planes 
+
+
+The concept of staging was pursued further by brief examination of a very 
+large glider of aspect ratio 14. The glider had a gross weight of 4.45 MN 
+
+(1,000,000 lb), a payload of 2.52 MN (565,600 lb), and a span of 121.3 m 
+
+(398 ft). This glider was presumed to use two standard B-747 aircraft as 
+tugs for takeoff and initial climb to cruise altitude. Upon reaching cruise 
+altitude, one tug (booster tug) would be released to return. The remaining 
+tug (sustainer tug) would continue on to its destination towing the glider. 
+
+In consideration of typical runway widths and the size of the aircraft involved, 
+placement of all three aircraft on the runway would be difficult. However, if 
+the placement problem is ignored and the ground run is calculated as before, 
+the results shown in figure 22 are obtained. If the booster tug has a takeoff 
+gross weight of 1.78 MN (400,000 lb), which allows about 27.2 Mg (60,000 lb) 
+of total fuel on board, the sustainer tug may have a takeoff gross weight of 
+2.67 MN (600,000 lb) which allows 99.3 Mg (219,000 lb) of fuel to be burned. 
+
+The large drag of the glider and the use of a single tug results in a reduced 
+
+cruise speed of M = 0.5. At this speed, a range of almost 3.33 Mm (1,800 n mi) 
+
+may be achieved (fig. 23). Because of the enormous payload, productivity 
+(fig. 19) is increased over a single B-747. Fuel efficiency is improved by 
+about 5 percent over the basic B-747 (figs. 21 and 23). 
+
+
+Economic Considerations 
+
+
+No complete economic analysis of the glider systems in commercial use is 
+possible. Crew costs are a major factor in determining direct operating cost 
+and this cost is determined, not only by certification requirements on mini- 
+mum crew, but even more on the result of union-management negotiations. The 
+outcome of such negotiations is not predictable; however, the tug-glider con- 
+figurations will require more total crew members than a standard B-747. Long- 
+range flights at low speed in the powered gliders may require multiple crews. 
+
+Initial airborne investment has been examined briefly using the method of 
+reference 8 together with a crude estimate of the effect of quantity on price. 
+In this regard, it must be noted that the B-747 has been in production for 
+over a decade. The quantities already built have a favorable effect on price 
+compared to the price for smaller quantities a new glider. 
+
+
+12 
+
+
+
+Table III presents airborne investment relative to the standard B-747. It was 
+assumed that the number of gliders was 20 percent of the total number of B-747 
+aircraft. Since the gliders are presumed to be of lower technology than the 
+B-747, the lowest cost (turboprop technology) equation of reference 8 was used. 
+Since the tug is only needed briefly by the powered gliders, these systems were 
+charged for only one-fifth the cost of a tug. 
+
+Although Table III shows that several of the configurations listed have less 
+investment cost per unit payload than the B-747, only the lower aspect ratio 
+powered glider achieves a lower investment cost per unit of productivity. This 
+system also results in a reduction of fuel cost which is attractive in itself. 
+The real question is whether or not these savings could compensate for possible 
+increases in maintenance and crew costs. 
+
+
+Regulatory Aspects 
+
+
+Current operation of sailplanes and gliders is remarkably free of regulatory 
+restraint. To a major extent, this freedom results from the low accident rate 
+of current designs, all of which are light and have very low wing loadings. 
+
+The appearance of large, heavily loaded, freight gliders in commercial service 
+could result in a far less permissive regulatory atmosphere. This situation 
+already exists for powered aircraft where the certification of light planes 
+is far simpler and easier than the certification of a commercial transport. 
+
+Numerous potential regulatory problems have been mentioned previously in this 
+paper. These include possible redefinition of balanced field length, landing 
+speeds, fuel reserves, and the need of waivers from current engine-out climb 
+gradients for the powered gliders. Another difficult regulatory problem is 
+that of noise. The initial climb gradients of the systems considered herein 
+are marginal. The tug-glider systems do not appear capable of the rapid climb 
+and engine-cutback maneuvers used by conventional transports to meet the noise 
+restrictions imposed by FAR-36 regulations. 
+
+While there may be satisfactory answers to the regulatory problems, it is 
+clear that they are a major obstacle to commercial development. The lack 
+of definite, assured, requirements creates an atmosphere in which it is 
+unlikely that an aircraft manufacturer would risk his capital to develop a 
+commercial glider system. 
+
+
+Military Use 
+
+
+Historically, glider trains have seen major use only during wartime. Under 
+such conditions gliders have led to increased flexibility. During the second 
+world war. Great Britan found itself with an excess of obsolete bombers and 
+inadequate airborne transport capability. Development of the Horsa and 
+Hamilcar gliders allowed the obsolete bombers to be used in a transport 
+capacity despite their inadequate internal volume. The United States used 
+
+
+OE POOR QUALUXI 
+
+
+13 
+
+
+
+C-47 transports to tow gliders, thereby circumventing the inadequate large- 
+item loading capability of the basic transport aircraft. 
+
+At present, the B-747 glider combination does offer some military advantage. 
+
+The M-60 tank presently can only be carried in the limited number of C-5A 
+aircraft. Redesign of the B-747 to load and contain the M-60 is not only an 
+expensive development but also penalizes weight and performance. On the 
+other hand, the glider could be configured for this unique payload. In such 
+a case, the penalties would only appear when this peculiar application was 
+necessary. Furthermore, the same basic aircraft could be used by both military 
+and commercial users. This commonality would increase the total quantity 
+ordered with a decrease in cost to all users. 
+
+
+CONCLUSIONS 
+
+
+This study of tug-glider combinations using the Boeing 747 as a tow plane indi- 
+cates that: 
+
+1. Performance of the tug-glider systems is severely limited by takeoff 
+ground run. Additional engines would be required by most of the configurations 
+studied. 
+
+2. Productivity of the basic B-747 is generally degraded by the reduction 
+in cruise speed which results from towing a large glider, except at short 
+ranges for which additional payload can be carried within the B-747. 
+
+3. Extreme glider aspect ratio does not improve the performance of the 
+system because of the consequent increase in glider wing weight. An aspect 
+ratio of 14 was as good as or better than an aspect ratio of 25. The best 
+glider aspect ratio may be even lower. 
+
+4. Powered gliders with a tug to assist takeoff and climb to cruise 
+altitude offer the potential of reducing fuel consumption by as much as 
+50 percent. 
+
+5. Federal Air Regulations pertaining to gliders could become much more 
+severe for large, heavily loaded gliders. Uncertainty with respect to regu- 
+latory action is a major obstacle to commercial development. 
+
+6. Most of the configurations studied would require increased investment 
+per unit of productivity. 
+
+7. The glider could be designed to carry specific military items which 
+cannot be loaded into the basic aircraft. Such military use could increase 
+the total production of the tug with consequent cost reductions for both mili- 
+tary and commercial users. 
+
+
+14 
+
+
+
+REFERENCES 
+
+
+1. Klemin, Alexander; and Walling, Walter C.: Aerodynamic Performance of 
+
+the Towed Glider. Journal Aero. Sci., vol . 10, no. 6, June 1943. pp 1 85- 
+196. 
+
+2. Nicks, Oran W.: The Science of Low-Speed Flight. Motorless Flight 
+Research, 1972. (Webber, James L., ed.), NASA CR-2315, Nov. 1973. 
+pp 78-85. 
+
+3. Ogden, Albert S. : Practical Considerations on the Use of Cargo Gliders. 
+
+Aero Digest, vol. 41, no. 4, October 1942. pp 139-142. 
+
+4. Bonner, Tom F. , Jr.; Snow, Daniel B.; Smith, Paul M. ; and Quartero, Carlo B.: 
+A Study of Cargo Transporting Capability Utilizing Towed Gliders. NASA LWP- 
+1102, April 1973. 
+
+5. Perkins, Courtland D. ; and Hage, Robert E.: Airplane Performance Stability 
+
+and Control. John Wiley and Sons, New York, 1949. pp 194-197. 
+
+6. Hoerner, Sighard F. : Fluid-Dynamic Drag. Published by the Author, Brick 
+
+Town, New Jersey, 1965. p 3-11. 
+
+7. Silverstein, Abe; Katzoff, S.; and Bullivant, W. Kenneth: Downwash and 
+
+Wake Behind Plain and Flapped Airfoils. NACA Report 651, 1939. 
+
+8. Anderson, Joseph L.: A Parametric Determination of Transport Aircraft 
+
+Price. Society of Allied Weight Engineers, Paper No. 1071, May 1975. 
+
+
+15 
+
+
+
+TABLE I 
+
+
+WEIGHT STATEMENT FOR GLIDERS WITH ASPECT RATIO OF 25 
+
+
+
+1.334 MN (300,000 lb) PAYLOAD 
+
+0.667 MN (150,000 lb) PAYLOAD 
+
+i 
+
+
+kN 
+
+lb 
+
+KN 
+
+lb 
+
+WING 
+
+1019.07 
+
+229,097 
+
+511.55 
+
+115,000 
+
+HORIZONTAL TAIL 
+
+18.00 
+
+4,047 
+
+7.87 
+
+1,769 
+
+VERTICAL TAIL 
+
+13.55 
+
+3,046 
+
+5.90 
+
+1,327 
+
+FUSELAGE 
+
+212.80 
+
+47,840 
+
+138.78 
+
+31 ,200 
+
+LANDING GEAR 
+
+106.76 
+
+24,000 
+
+53.38 
+
+12,000 
+
+TOTAL STRUCTURE 
+
+1370.18 
+
+308,030 
+
+717.48 
+
+161,296 
+
+SURFACE CONTROLS 
+
+32.47 
+
+7,300 
+
+16.23 
+
+3,650 
+
+AUX. POWER UNIT 
+
+2.10 
+
+472 
+
+2.10 
+
+472 
+
+FUEL SYSTEM (APU) 
+
+7.53 
+
+1,692 
+
+7.53 
+
+1 ,692 
+
+INSTRUMENTS 
+
+3.44 
+
+773 
+
+3.44 
+
+733 
+
+HYDRAULICS 
+
+3.08 
+
+693 
+
+3.08 
+
+693 
+
+ELECTRICAL 
+
+9.34 
+
+2,100 
+
+9.34 
+
+2,100 
+
+AVIONICS 
+
+9.05 
+
+2,034 
+
+9.05 
+
+2,034 
+
+CARGO TIE-DOWNS 
+
+20.02 
+
+4,500 
+
+10.01 
+
+2,250 
+
+TOTAL SYSTEMS AND EQUIPMENT 
+
+87.03 
+
+19,564 
+
+60.78 
+
+13,664 
+
+EMPTY WEIGHT 
+
+1457.21 
+
+327,594 
+
+778.26 
+
+174,960 
+
+CREW (2 MAN) 
+
+2.00 
+
+450 
+
+2.00 
+
+450 
+
+OPERATING WEIGHT, EMPTY 
+
+1459.21 
+
+328,044 
+
+780.26 
+
+175,410 
+
+GROSS CARGO 
+
+1334.47 
+
+300,000 
+
+667.23 
+
+150,000 
+
+ZERO FUEL WEIGHT 
+
+2793.68 
+
+628,044 
+
+1447.49 
+
+325,410 
+
+APU FUEL (10 HRS) 
+
+97.86 
+
+22,000 
+
+97.86 
+
+22,000 
+
+TAKEOFF GROSS WEIGHT 
+
+2891.54 
+
+650,044 
+
+1545.35 
+
+347,410 
+
+
+
+
+
+
+TABLE II 
+
+
+WEIGHT STATEMENT FOR GLIDER WITH ASPECT RATIO OF 14 
+
+
+WING 
+
+HORIZONTAL TAIL 
+VERTICAL TAIL 
+FUSELAGE 
+LANDING GEAR 
+
+TOTAL STRUCTURE 
+
+SURFACE CONTROLS 
+AUX. POWER UNIT 
+FUEL SYSTEM (APU) 
+INSTRUMENTS 
+HYDRAULICS 
+ELECTRICAL 
+AVIONICS 
+CARGO TIE-DOWNS 
+
+TOTAL SYSTEMS AND EQUIPMENT 
+
+EMPTY WEIGHT 
+
+CREW (2 MAN) 
+
+! OPERATING WEIGHT, EMPTY 
+GROSS CARGO 
+ZERO FUEL WEIGHT 
+
+APU FUEL (10 HR) 
+
+’ TAKEOFF GROSS WEIGHT 
+
+
+kN 
+
+lb 
+
+
+495.84 
+
+111 ,469 " 
+
+
+24.26 
+
+5,453 
+
+
+10.12 
+
+2,275 
+
+
+212.80 
+
+47,840 
+
+
+95.19 
+
+21 ,400 
+
+t 
+
+
+838.21 
+
+188,437 1 
+
+* 
+
+\ 
+
+32.47 
+
+7,300 I 
+
+i 
+
+i 
+
+2.10 
+
+472 j 
+
+\ 
+
+7.53 
+
+1 ,692 1 
+
+\ 
+
+i 
+
+i 
+
+3.44 \ 773 ! 
+
+3.08 } 693 1 
+
+( 
+
+9.34 
+
+2,100 
+
+| 
+
+9.05 
+
+2,034 
+
+
+20.02 
+
+4,500 
+
+! 
+
+87.03 
+
+19,564 
+
+j 
+
+925.24 
+
+208,001 
+
+i 
+
+s 
+
+2.00 
+
+; 450 
+
+1 
+
+927.24 
+
+| 208,451 
+
+I 
+
+i 
+
+1334.47 
+
+300,000 
+
+l 
+
+2261 .71 
+
+508,451 
+
+<< 
+
+i 
+
+s 
+
+97.86 
+
+j 22,000 
+
+i 
+
+I 
+
+3 
+
+2359.57 
+
+\ 530,451 
+
+
+17 
+
+
+
+
+
+TABLE III 
+
+
+AIRBORNE INVESTMENT RELATIVE TO B-747 
+
+
+CONFIGURATION 
+
+PER UNIT PAYLOAD 
+
+PER UNIT PRODUCTIVITY 
+
+PAYLOAD, MN 
+
+x 10-3, i b 
+
+1.11 
+
+250 
+
+1.33 
+
+300 
+
+1.78 
+
+400 
+
+1.11 
+
+250 
+
+1.33 
+
+300 
+
+1.78 
+
+400 
+
+BASIC B-747 
+
+1.00 
+
+
+
+1.00 
+
+
+
+6-ENGINE B-747 + A = 25 GLIDER 
+
+
+1.40 
+
+1.05 
+
+
+1.87 
+
+1.41 
+
+4-ENGINE B-747 + A = 14 GLIDER 
+
+
+1.15 
+
+0.87 
+
+
+1.55 
+
+1.16 
+
+6-ENGINE B-747 + A = 14 GLIDER 
+
+
+1.29 
+
+0,97 
+
+
+1.73 
+
+1.30 
+
+A = 25 POWERED GLIDER 
+
+0.92 
+
+0.77 
+
+
+1.24 
+
+1.03 
+
+
+A = 14 POWERED GLIDER 
+
+0.81 
+
+0.67 
+
+
+1.08 
+
+> 
+
+0.90 1 
+
+
+18 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+UI 8*09 
+
+
+
+
+
+
+
+
+
+
+60.8 m 
+099.6 ft) 
+
+
+
+L_ 
+
+.005 
+
+
+— 1 — 
+
+• 01 0 
+
+
+•015 .020 .025 .030 
+
+C D 
+
+(c) Lift-drag polar, 
+
+
+— l 
+.035 
+
+
+Figure 2. - Concluded. 
+
+
+
+
+
+
+
+
+
+
+Cargo throughput, . p .^ yJ°aO s P ee d , # ton/ hr 
+
+
+Range, Mm 
+
+
+0 2 4 6 8 10 
+
+
+
+1 2 3 4 5 6 
+
+
+-3 
+
+Range x 10 , n mi 
+
+
+Figure 6. - Cargo system throughput for a single glider towed by 
+a C-130 at an altitude of 4.57 Km (15 000 ft). 
+
+(After reference 4) 
+
+
+29 
+
+
+Cargo throughput, KN/s 
+
+
+
+TOGW-j. x 70 , lb 
+
+
+1 
+
+
+Figure 7. 
+
+
+5 2.0 2.5 3.0 3.5 
+
+TOGW-p MN 
+
+(a) 4 engines 
+
+
+- Ground run required by A = 25 glider with B-747 tug. 
+TOGW « 2.892 MN (650 044 lb) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TOGW r 
+(a) A = 25, TOGW 
+
+
+MM 
+
+j 15 3.614 MN (812 500 lb). 
+
+
+Figure 9. - Ground run required by powered glider with B-747 tug 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1 
+
+
+0 12 3 4 5 
+
+Tug spans behind mac 
+
+(e) Glider 1.75 tug span to side of tug. 
+
+Figure 11. - Concluded. 1 
+
+
+39 
+
+
+Tug spans above mac 
+
+
+
+
+
+
+'Sideward spacing, tug spans 
+
+
+Figure 13. - Effective lift-drag ratio of the glider of figures 11 and 
+12 when towed 0.5 tug span above wake and 5.0 tug scans 
+behind the tug mac. 
+
+
+41 
+
+
+
+Tug spans above mac 
+
+
+
+Tug spans above mac 
+
+
+
+(i 
+
+
+
+(b) At tug. 
+
+Figure 15. - Hondtinenslonal dovmwash angle e/e^ for glider behind and 1.4 tug spans 
+to side of B-747 tug. Assympti ons are those of figure 11. 
+
+
+43 
+
+
+
+Tag spans behind wac 
+
+
+(b) Tug 
+
+figure 16. - Sample calculation of effective lift-drag rati o for 8-747 tug tmmg 
+
+a glider 1.4 tug spans to the sufe. Assuwotions are those of figure 11. 
+
+
+44 
+
+
+Figure 17. - Approximate relative positions of tug and glider. 
+
+
+4 ^ 
+
+On 
+
+
+
+Energy efficiency, J/N-m 
+
+
+
+
+
+
+
+
+AT ti tude 
+
+
+00 
+
+
+0 
+
+r 
+
+
+Range, Mm 
+
+
+2 
+
+
+
+
+5 
+
+n 
+
+
+
+12 
+
+
+10 
+
+
+H6 
+
+
+-j 4 
+
+
+
+
+Figure 20. - Flight profiles for powered glider (A = 25) using a B-747 tug for takeoff 
+and climb to altitude. TOGW T - 2.002 MM (450 000 lb), T0GW Q = 3.614 MM 
+
+(812 500 lb), payload « 1.334 MN (300 000 lb). 
+
+
+Altitude 
+
+
+
+
+
+
+
+
+
+Ground run 
+
+
+Sustainer tug V TQ , m/s 
+
+60 70 80 90 
+
+1 1 T T T" “T — f 
+
+
+Sustainer tug V^.g, kt 
+
+HO 120 130 140 150 160 
+
+I 1 1 1 f ~ — T~" 
+
+
+170 180 
+
+~T 1 
+
+
+
+f l 1 1 I 
+
+1.5 2.0 2.5 3.0 3.5 
+
+
+Sustainer tug TOGW, MN 
+
+
+Figure 22. - Ground run required by large glider with two B-747 tuqs 
+TOGWg * 4.448 MN (1 000 000 lb), bg = 121.3 m (398 ft). 
+
+Payload « 2.516 MN (565 500 lb). 
+
+
+
+Altitude 
+
+
+UNIT 
+
+BOOSTER 
+
+TUG 
+
+SUSTAINER 
+
+TUG 
+
+CARGO 
+
+GLIDER 
+
+T0GW, MN 
+
+1.779 
+
+2.669 
+
+4.448 
+
+lb 
+
+400 000 
+
+600 000 
+
+1 000 000 
+
+Fuel , Mg 
+
+5.443 
+
+99.354 
+
+— 
+
+lb 
+
+12 000 
+
+219 038 
+
+- - 
+
+Payload, MN 
+
+_ 
+
+- 
+
+2.516 
+
+lb 
+
+- 
+
+- 
+
+565 500 
+
+
+Range, Mm 
+
+0 1 • 2 3 
+
+
+
+-3 
+
+Range x 10 , n mi 
+
+
+Figure 23. - Maximum performance mission of 4.448 MN (1 000 000 lb) glider 
+
+(A * 14) with B-747 booster and sustainer tugs. Energy efficiency 
+is 0.542 J/Nm (8465 BTU/Ton-n mi). 
+
+
+Altitude, Km 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

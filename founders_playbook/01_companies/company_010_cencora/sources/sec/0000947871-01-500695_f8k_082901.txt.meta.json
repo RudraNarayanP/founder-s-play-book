@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0001140859/000094787101500695/f8k_082901.txt",
+ "fetched": "2026-09-29T19:02:28Z",
+ "sha1": "1782bbaa24214b8a0b8dadca054843db50fb98f5",
+ "bytes": 9153,
+ "words": 1074,
+ "cik": "0001140859",
+ "registrant": "Cencora, Inc.",
+ "accession": "0000947871-01-500695",
+ "document": "f8k_082901.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

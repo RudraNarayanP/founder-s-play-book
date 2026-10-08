@@ -1,0 +1,561 @@
+{
+ "window": [
+  "1920-01-01",
+  "1997-12-31"
+ ],
+ "candidates": 71,
+ "mined": 12,
+ "untried_by_limit": 48,
+ "items": [
+  {
+   "identifier": "cia-readingroom-document-cia-rdp67b00074r000500020003-8",
+   "date": "1965-01-01",
+   "title_year": "2000",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp67b00074r000500020003-8: ADVISORY REPORT OF FINAL AUDIT RAYTHEON COMPANY",
+   "family": "corporate_print",
+   "meta_date": "1965-01-01",
+   "status": "cached",
+   "bytes": 3231,
+   "named_terms": [
+    "rtx corporation"
+   ],
+   "other_terms": [
+    "e systems",
+    "formerly known as",
+    "hughes aircraft"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 1,
+   "phrase_hits": 0,
+   "entity_hits": 1,
+   "matched_entities": [
+    "raytheon company"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 24,
+     "text": "Raytheon Company",
+     "context": [
+      "",
+      ""
+     ],
+     "promoted": "raytheon company"
+    }
+   ]
+  },
+  {
+   "identifier": "DTIC_ADA312323",
+   "date": "1994-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "DTIC ADA312323: Technical Manual Transfer Using: T.O. 31R2-2FRCl8l-42. Raytheon Company's Data Supporting: ESC/MSK's MIL",
+   "family": "corporate_print",
+   "meta_date": "1994-01-01",
+   "status": "cached",
+   "bytes": 57054,
+   "named_terms": [
+    "rtx corporation"
+   ],
+   "other_terms": [
+    "e systems",
+    "formerly known as",
+    "hughes aircraft"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 8,
+   "phrase_hits": 0,
+   "entity_hits": 4,
+   "matched_entities": [
+    "raytheon  company"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 17,
+     "text": "Raytheon  Company's  Data",
+     "context": [
+      "",
+      "Supporting:"
+     ],
+     "promoted": "raytheon  company"
+    },
+    {
+     "line": 68,
+     "text": "Raytheon  Company's  Data  Supporting:",
+     "context": [
+      "",
+      "ESC/MSK's  MILSTAR  Program"
+     ],
+     "promoted": "raytheon  company"
+    },
+    {
+     "line": 153,
+     "text": "Raytheon  Company",
+     "context": [
+      "",
+      ""
+     ],
+     "promoted": "raytheon  company"
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19800017025",
+   "date": "1980-01-01",
+   "title_year": "1980",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "NASA Technical Reports Server (NTRS) 19800017025: Critique of the Hughes Aircraft shuttle Ku band leading edge bit synch",
+   "family": "corporate_print",
+   "meta_date": "1980-01-01",
+   "status": "cached",
+   "bytes": 11994,
+   "named_terms": [
+    "rtx corporation"
+   ],
+   "other_terms": [
+    "e systems",
+    "formerly known as",
+    "hughes aircraft"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "hughes aircraft"
+   ],
+   "sample": [
+    {
+     "line": 32,
+     "text": "CRITIQUE OF THE HUGHES AIRCRAFT SHUTTLE",
+     "context": [
+      "",
+      "KU-BAND LEADING EDGE BIT SYNCHRONIZER"
+     ]
+    },
+    {
+     "line": 68,
+     "text": "A bit synchronizer proposed by Hughes Aircraft (Culver City)",
+     "context": [
+      "",
+      "is analyzed via timing diagrams in a noise-free environment. This syn-"
+     ]
+    },
+    {
+     "line": 71,
+     "text": "proposed by P. H. Conway [1] of Hughes Aircraft Company (HAC).",
+     "context": [
+      "chronizer is, in part, a substantial revision of the bit synchronizer",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "DTIC_ADA312286",
+   "date": "1992-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "DTIC ADA312286: Raster Transfer Test Using: Raytheon Company's Data MIL-R-28002A (Raster) Quick Short Test Report.",
+   "family": "corporate_print",
+   "meta_date": "1992-01-01",
+   "status": "cached",
+   "bytes": 20116,
+   "named_terms": [
+    "rtx corporation"
+   ],
+   "other_terms": [
+    "e systems",
+    "formerly known as",
+    "hughes aircraft"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 8,
+   "phrase_hits": 0,
+   "entity_hits": 6,
+   "matched_entities": [
+    "raytheon  company"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 12,
+     "text": "Raytheon  Company's  Data",
+     "context": [
+      "",
+      "MIL-R-28002A  (Raster)"
+     ],
+     "promoted": "raytheon  company"
+    },
+    {
+     "line": 49,
+     "text": "Raytheon  Company's  Data",
+     "context": [
+      "",
+      ""
+     ],
+     "promoted": "raytheon  company"
+    },
+    {
+     "line": 253,
+     "text": "Raytheon  Company's  interpretation  and  use  of  the  CALS  stan^ds  in  transferring  tech\u00ac",
+     "context": [
+      "The  puq)ose  of  the  informal  test,  reported  in  this  QSTR,  was  to  analyze",
+      "nical  publication  data.  Raytheon  used  its  CALS  Technical  Data  Interchange  System  to"
+     ],
+     "promoted": "raytheon  company"
+    }
+   ]
+  },
+  {
+   "identifier": "DTIC_ADA312708",
+   "date": "1992-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "DTIC ADA312708: Technical Publication Transfer Test Using Hughes Aircraft Company MIL-D-28OOO (IGES) MIL-M-28OO1 (SGML) ",
+   "family": "corporate_print",
+   "meta_date": "1992-01-01",
+   "status": "cached",
+   "bytes": 23991,
+   "named_terms": [
+    "rtx corporation"
+   ],
+   "other_terms": [
+    "e systems",
+    "formerly known as",
+    "hughes aircraft"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "hughes  aircraft"
+   ],
+   "sample": [
+    {
+     "line": 14,
+     "text": "Using  Hughes  Aircraft",
+     "context": [
+      "TVansfer  Test",
+      "Company"
+     ]
+    },
+    {
+     "line": 52,
+     "text": "Using  Hughes  Aircraft  Company",
+     "context": [
+      "Technical  Publication  Transfer  Test",
+      "MIL-D-28000  (I6ES)"
+     ]
+    },
+    {
+     "line": 217,
+     "text": "analyze  Hughes  Aircraft  Company's  interpretation  and  use  of  the",
+     "context": [
+      "The  purpose  of  the  informal  test  reported  in  this  QSTR  was  to",
+      "CALS  Standards  in  transferring  technical  publications  data."
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "DTIC_ADA221452",
+   "date": "1988-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "DTIC ADA221452: Report of Survey Conducted at Hughes Aircraft Company, Tucson, Arizona",
+   "family": "corporate_print",
+   "meta_date": "1988-01-01",
+   "status": "cached",
+   "bytes": 42940,
+   "named_terms": [
+    "rtx corporation"
+   ],
+   "other_terms": [
+    "e systems",
+    "formerly known as",
+    "hughes aircraft"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "hughes  aircraft"
+   ],
+   "sample": [
+    {
+     "line": 9,
+     "text": "HUGHES  AIRCRAFT  COMPANY",
+     "context": [
+      "",
+      "MISSILE  SYSTEMS  GROUP"
+     ]
+    },
+    {
+     "line": 59,
+     "text": "Hughes  Aircraft  Company  Missile  Systems  Group",
+     "context": [
+      "Best  Manufacturing  Practices  Survey  Conducted  at",
+      "Tucson,  AZ"
+     ]
+    },
+    {
+     "line": 333,
+     "text": "Hughes  Aircraft  Company,  Missile  Systems  Group  (MSG)  was  to  identify  best  practices,",
+     "context": [
+      "The  purpose  of  the  Best  Manufacturing  Practices  (BMP)  review  conducted  at",
+      "review  manufacturing  problems,  and  document  the  results.  The  intent  is  to  extend  the  use"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19960002042",
+   "date": "1995-01-01",
+   "title_year": "1996",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "NASA Technical Reports Server (NTRS) 19960002042: Flight test evaluation of the E-systems Differential GPS category 3 au",
+   "family": "corporate_print",
+   "meta_date": "1995-01-01",
+   "status": "cached",
+   "bytes": 403526,
+   "named_terms": [
+    "rtx corporation"
+   ],
+   "other_terms": [
+    "e systems",
+    "formerly known as",
+    "hughes aircraft"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "TNM_Cover_-_Ratheon_Company_Annual_Report_1965",
+   "date": "1965-01-01",
+   "title_year": "1965",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Cover - Raytheon Company Annual Report 1965:",
+   "family": "corporate_print",
+   "meta_date": "1965-01-01",
+   "status": "ok",
+   "bytes": 38,
+   "named_terms": [
+    "rtx corporation"
+   ],
+   "other_terms": [
+    "e systems",
+    "formerly known as",
+    "hughes aircraft"
+   ],
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "micro_IA41153549_0300",
+   "date": "1978-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "The Effects of Photo Characteristics Upon Location Determination in a Photogrammetric Facility. Final Report.",
+   "family": "corporate_print",
+   "meta_date": "1978-01-01",
+   "status": "cached",
+   "bytes": 78051,
+   "named_terms": [
+    "rtx corporation"
+   ],
+   "other_terms": [
+    "e systems",
+    "formerly known as",
+    "hughes aircraft"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 3,
+   "phrase_hits": 0,
+   "entity_hits": 2,
+   "matched_entities": [
+    "raytheon company"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 100,
+     "text": "Raytheon Company/Autometric",
+     "context": [
+      "E. Sewell and R. Bradie",
+      "A. Harabedian"
+     ],
+     "promoted": "raytheon company"
+    },
+    {
+     "line": 186,
+     "text": "by personnel from Raytheon Company/Autometric and Human Factors Research",
+     "context": [
+      "ties for research on senso: systems. The present study was conducted",
+      "Inc. under contract DAHC19-73-C-0031 with program direction from Abraham"
+     ],
+     "promoted": "raytheon company"
+    }
+   ]
+  },
+  {
+   "identifier": "pilotdatacollect00unit",
+   "date": "1973-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "A Pilot data collection effort in the California desert : final report",
+   "family": "corporate_print",
+   "meta_date": "1973-01-01",
+   "status": "cached",
+   "bytes": 49945,
+   "named_terms": [
+    "rtx corporation"
+   ],
+   "other_terms": [
+    "e systems",
+    "formerly known as",
+    "hughes aircraft"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 3,
+   "phrase_hits": 0,
+   "entity_hits": 2,
+   "matched_entities": [
+    "raytheon   company",
+    "raytheon  company"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 36,
+     "text": "RAYTHEON   COMPANY",
+     "context": [
+      "",
+      ""
+     ],
+     "promoted": "raytheon   company"
+    },
+    {
+     "line": 123,
+     "text": "The  Raytheon  Company,  Autometric  Operation  began  working  with  the",
+     "context": [
+      "",
+      "BLM  in  1972  with  the  general  objective  of  determining  realistic  levels  of  resource"
+     ],
+     "promoted": "raytheon  company"
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA41153513_0027",
+   "date": "1977-01-01",
+   "title_year": "1977",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "1977 Teacher Intern Project. Final Report.",
+   "family": "corporate_print",
+   "meta_date": "1977-01-01",
+   "status": "cached",
+   "bytes": 64800,
+   "named_terms": [
+    "rtx corporation"
+   ],
+   "other_terms": [
+    "e systems",
+    "formerly known as",
+    "hughes aircraft"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 17,
+   "phrase_hits": 0,
+   "entity_hits": 4,
+   "matched_entities": [
+    "raytheon employees"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1198,
+     "text": "regular Raytheon employees wno had been working for the com-",
+     "context": [
+      "first of these groups was a randomly selected number of",
+      "pany for more than six months. They represented an extensive"
+     ],
+     "promoted": "raytheon employees"
+    },
+    {
+     "line": 1248,
+     "text": "end of August. The Raytheon employees did not retake the",
+     "context": [
+      "teacners, management trainees, and college students at the",
+      "test, since their scores were used as the base line and they"
+     ],
+     "promoted": "raytheon employees"
+    },
+    {
+     "line": 1367,
+     "text": "lower attitude score than the base line Raytheon employees.",
+     "context": [
+      "it may be seen that the college interns show a significantly",
+      "This is true botn for the concept words \"capitalism\" and"
+     ],
+     "promoted": "raytheon employees"
+    }
+   ]
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp96b01172r000300020005-3",
+   "date": "1982-01-01",
+   "title_year": "2000",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp96b01172r000300020005-3: SUNDAY TELEGRAPH - ARTICLE ON GEOFFREY PRIME",
+   "family": "internet_archive",
+   "meta_date": "1982-01-01",
+   "status": "cached",
+   "bytes": 13871,
+   "named_terms": [
+    "rtx corporation"
+   ],
+   "other_terms": [
+    "e systems",
+    "formerly known as",
+    "hughes aircraft"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  }
+ ]
+}

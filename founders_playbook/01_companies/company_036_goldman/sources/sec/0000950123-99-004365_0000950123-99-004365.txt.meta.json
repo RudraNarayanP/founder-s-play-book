@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000886982/000095012399004365/0000950123-99-004365.txt",
+ "fetched": "2026-09-29T19:03:56Z",
+ "sha1": "62efc10157e989db94b91c1e4f1d117fa06706c9",
+ "bytes": 1391278,
+ "words": 187276,
+ "cik": "0000886982",
+ "registrant": "GOLDMAN SACHS GROUP INC",
+ "accession": "0000950123-99-004365",
+ "document": "0000950123-99-004365.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": true
+}

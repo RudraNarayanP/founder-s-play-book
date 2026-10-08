@@ -1,0 +1,9 @@
+{
+ "identifier": "tariffstablesofd00wellrich",
+ "url": "https://archive.org/download/tariffstablesofd00wellrich/tariffstablesofd00wellrich_djvu.txt",
+ "fetched": "2026-10-06T12:00:37Z",
+ "bytes": 24865,
+ "route": "download/<id>/tariffstablesofd00wellrich_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

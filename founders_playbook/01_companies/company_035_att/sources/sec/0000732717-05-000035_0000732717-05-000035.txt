@@ -1,0 +1,295 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ TLK1MY36uGyF9lTLgwNqIWU8kP1FZOSzlFkfV4cn7txm6LoqAexlynpfiWiqd2m4
+ zCkb9V8BpGmGY329b+xG/g==
+
+<SEC-DOCUMENT>0000732717-05-000035.txt : 20050111
+<SEC-HEADER>0000732717-05-000035.hdr.sgml : 20050111
+<ACCEPTANCE-DATETIME>20050111160030
+ACCESSION NUMBER:		0000732717-05-000035
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20050111
+ITEM INFORMATION:		Results of Operations and Financial Condition
+FILED AS OF DATE:		20050111
+DATE AS OF CHANGE:		20050111
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			SBC COMMUNICATIONS INC
+		CENTRAL INDEX KEY:			0000732717
+		STANDARD INDUSTRIAL CLASSIFICATION:	TELEPHONE COMMUNICATIONS (NO RADIO TELEPHONE) [4813]
+		IRS NUMBER:				431301883
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-08610
+		FILM NUMBER:		05523561
+
+	BUSINESS ADDRESS:	
+		STREET 1:		175 E HOUSTON
+		STREET 2:		ROOM 9-Q-04
+		CITY:			SAN ANTONIO
+		STATE:			TX
+		ZIP:			78205
+		BUSINESS PHONE:		2108214105
+
+	MAIL ADDRESS:	
+		STREET 1:		175 E HOUSTON
+		STREET 2:		ROOM 9-Q-04
+		CITY:			SAN ANTONIO
+		STATE:			TX
+		ZIP:			78205
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	SOUTHWESTERN BELL CORP
+		DATE OF NAME CHANGE:	19920703
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<FILENAME>jan11_8k.htm
+<DESCRIPTION>JANUARY 11, 2005 PRESS RELEASE.
+<TEXT>
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+
+
+<H1 align=center><FONT face="Times New Roman, Times, Serif" size=4>UNITED STATES<BR>SECURITIES AND EXCHANGE COMMISSION </FONT></H1>
+
+<!-- MARKER FORMAT-SHEET="Head Major Center Bold" FSL="Default" -->
+<A name=A004></A>
+<H1 align=center><FONT face="Times New Roman, Times, Serif" size=4>WASHINGTON, DC 20549 </FONT></H1>
+
+<!-- MARKER FORMAT-SHEET="Center Rule" FSL="Default" -->
+<P align=center>_________________ </P>
+
+<!-- MARKER FORMAT-SHEET="Head Major Center Bold" FSL="Default" -->
+<A name=A005></A>
+<H1 align=center><FONT face="Times New Roman, Times, Serif" size=4>FORM 8-K </FONT></H1>
+
+<!-- MARKER FORMAT-SHEET="Head Major Center Bold" FSL="Default" -->
+<A name=A006></A>
+<H1 align=center><FONT face="Times New Roman, Times, Serif" size=4>CURRENT REPORT <BR>Pursuant to Section 13 or 15(d) of<BR>the Securities Exchange Act of 1934</FONT></H1>
+
+<!-- MARKER FORMAT-SHEET="Head Center Underline" FSL="Default" -->
+<A name=A009></A>
+<P align=center><FONT face="Times New Roman, Times, Serif" size=2>Date of report (Date of earliest event reported) <U> January 11, 2005</U> </FONT></P>
+
+<!-- MARKER FORMAT-SHEET="Head Center Underline" FSL="Default" -->
+<A name=A010></A>
+<P align=center><FONT face="Times New Roman, Times, Serif" size=3><B><U>SBC COMMUNICATIONS INC.</U> </B></font><BR><FONT face="Times New Roman, Times, Serif" size=2>(Exact Name of Registrant as Specified in Charter) </FONT></P>
+
+<P align=left><FONT face="Times New Roman, Times, Serif" size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<U>Delaware </U>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<U>1-8610</U>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<U>43-1301883</U><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(State or Other Jurisdiction of &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Commission File Number) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(IRS Employer
+Identification No.)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Incorporation)</FONT></P>
+
+<!-- MARKER FORMAT-SHEET="Head Sub 2 Left" FSL="Default" -->
+<A name=A012></A>
+<P align=left><FONT face="Times New Roman, Times, Serif" size=2><I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</I> </FONT></P>
+
+<P align=center><FONT face="Times New Roman, Times, Serif" size=2><U>175 E. Houston, San Antonio, Texas 78205</U><BR>(Address of Principal Executive Offices) (Zip Code) </font>
+<!-- MARKER FORMAT-SHEET="Para Large Indent" FSL="Default" --></P>
+
+<P align=center><FONT face="Times New Roman, Times, Serif" size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registrant&#146;s telephone number, including area code <U>(210) 821-4105</U> </FONT></P>
+
+<!-- MARKER FORMAT-SHEET="Center Rule" FSL="Default" -->
+<P align=center><FONT face="Times New Roman, Times, Serif" size=2>__________________________________ <BR>(Former Name or Former Address, if Changed Since Last Report) </FONT></P>
+
+<!-- MARKER FORMAT-SHEET="Head Minor Center" FSL="Default" -->
+
+<P><FONT face="Times New Roman, Times, Serif" size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction A.2. below): </FONT></P>
+
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TR vAlign=bottom>
+<TD align=left width="5%"><FONT face="Times New Roman, Times, Serif" size=2>&nbsp;</FONT></TD>
+<TD align=left width="5%"><FONT face="Times New Roman, Times, Serif" size=2>|_|</FONT></TD>
+<TD align=left width="90%"><FONT face="Times New Roman, Times, Serif" size=2>Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)</FONT></TD></TR>
+</TABLE>
+
+
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TR vAlign=bottom>
+<TD align=left width="5%"><FONT face="Times New Roman, Times, Serif" size=2>&nbsp;</FONT></TD>
+<TD align=left width="5%"><FONT face="Times New Roman, Times, Serif" size=2>|_|</FONT></TD>
+<TD align=left width="90%"><FONT face="Times New Roman, Times, Serif" size=2>Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)</FONT></TD></TR>
+</TABLE>
+
+
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TR vAlign=bottom>
+<TD align=left width="5%"><FONT face="Times New Roman, Times, Serif" size=2>&nbsp;</FONT></TD>
+<TD align=left width="5%"><FONT face="Times New Roman, Times, Serif" size=2>|_|</FONT></TD>
+<TD align=left width="90%"><FONT face="Times New Roman, Times, Serif" size=2>Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240-14d-2(b))</FONT></TD></TR>
+</TABLE>
+
+
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TR vAlign=bottom>
+<TD align=left width="5%"><FONT face="Times New Roman, Times, Serif" size=2>&nbsp;</FONT></TD>
+<TD align=left width="5%"><FONT face="Times New Roman, Times, Serif" size=2>|_|</FONT></TD>
+<TD align=left width="90%"><FONT face="Times New Roman, Times, Serif" size=2>Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))</FONT></TD></TR>
+</TABLE>
+
+<BR>
+<!-- MARKER PAGE="sheet: 1; page: 1" -->
+<HR SIZE=5 COLOR=GRAY NOSHADE>
+<BR>
+<BR>
+
+<!-- MARKER FORMAT-SHEET="Head Major Left Bold" FSL="Default" -->
+<A NAME=A001></A>
+<H1 ALIGN=LEFT><FONT FACE="Times New Roman, Times, Serif" SIZE=3>Item&nbsp;2.02
+Results of Operation and Financial Condition. </FONT></H1>
+
+<!-- MARKER FORMAT-SHEET="Para Flush" FSL="Default" -->
+<P><FONT FACE="Times New Roman, Times, Serif" SIZE=2>On January 11, 2005, we issued a
+press release that is furnished as an exhibit as part of this report: </FONT></P>
+
+<!-- MARKER FORMAT-SHEET="Head Left" FSL="Default" -->
+<A NAME=A002></A>
+<P ALIGN=LEFT><FONT FACE="Times New Roman, Times, Serif" SIZE=2>(c) Exhibits </FONT></P>
+
+<!-- MARKER FORMAT-SHEET="Head Sub 2 Left" FSL="Default" -->
+<A NAME=A003></A>
+<P ALIGN=LEFT><FONT FACE="Times New Roman, Times, Serif" SIZE=2><I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;99.1
+Press release dated January 11, 2005.</I> </FONT></P>
+
+
+<!-- MARKER PAGE="sheet: 2; page: 2" -->
+<HR SIZE=5 COLOR=GRAY NOSHADE>
+
+
+<P align=center><FONT FACE="Times New Roman, Times, Serif" SIZE=2><b>Signature</b></font></p>
+
+<P><FONT FACE="Times New Roman, Times, Serif" SIZE=2>Pursuant to the
+requirements of the Securities Exchange Act of 1934, the Registrant has duly
+caused this report to be signed on its behalf by the undersigned hereunto duly
+authorized. </FONT></P>
+
+ <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TR vAlign=bottom>
+<TH></TH>
+<TH></TH></TR>
+<TR vAlign=top>
+<TD width="50%"><FONT face="Times New Roman, Times, Serif" size=2></FONT></TD>
+<TD width="50%"><FONT face="Times New Roman, Times, Serif" size=2>SBC Communications Inc. </FONT></TD></TR>
+<TR vAlign=top>
+<TD width="50%"><FONT face="Times New Roman, Times, Serif"></FONT></TD>
+<TD width="50%"><FONT face="Times New Roman, Times, Serif"></FONT><BR><FONT size=2>By:<U> /s/ John J. Stephens </U></FONT></TD></TR>
+<TR vAlign=top>
+<TD width="50%"><FONT face="Times New Roman, Times, Serif" size=2></FONT></TD>
+<TD width="50%"><FONT face="Times New Roman, Times, Serif"></FONT><FONT size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;John J. Stephens</FONT></TD></TR>
+<TR vAlign=top>
+<TD width="50%"><FONT face="Times New Roman, Times, Serif" size=2></FONT></TD>
+<TD width="50%"><FONT face="Times New Roman, Times, Serif"></FONT><FONT size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vice President and Controller</FONT> </TD></TR>
+</TABLE>
+
+
+<!-- MARKER FORMAT-SHEET="Head Left" FSL="Default" -->
+<P align=left><FONT face="Times New Roman, Times, Serif" size=2>Date: January 11, 2005 </FONT></P>
+
+</BODY>
+</HTML>
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-99
+<SEQUENCE>2
+<FILENAME>ex99_1.htm
+<DESCRIPTION>PRESS RELEASE
+<TEXT>
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+
+<!-- MARKER FORMAT-SHEET="Para Flush" FSL="Default" -->
+<P><FONT FACE="Times New Roman, Times, Serif" SIZE=2>For more information, contact: <BR>Anne Vincent<BR> (210) 351-3778 or (210)
+748-1740<BR>anne.vincent@sbc.com </FONT></P>
+
+<!-- MARKER FORMAT-SHEET="Head Major Center Bold 1" FSL="Default" -->
+<A NAME=A001></A>
+<H1 ALIGN=CENTER><FONT FACE="Times New Roman, Times, Serif" SIZE=3>SBC Communications
+Expects Fourth-QuarterReported <BR>Earnings To Include Charges </FONT></H1>
+
+<!-- MARKER FORMAT-SHEET="Para Flush" FSL="Default" -->
+<P><FONT FACE="Times New Roman, Times, Serif" SIZE=2>SAN ANTONIO, Jan. 11, 2005 &#150; SBC
+Communications Inc. (NYSE: SBC) today said that it expects its fourth-quarter 2004
+reported earnings will include charges totaling approximately $250 million, or $0.05 per
+diluted share, related to previously announced work force reductions and changes to its
+management pension plan. </FONT></P>
+
+<!-- MARKER FORMAT-SHEET="Para Indent" FSL="Default" -->
+<P><FONT FACE="Times New Roman, Times, Serif" SIZE=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Approximately
+$150 million of the total are cash charges for severance payments related to the work
+force reductions. During 2004, SBC had a net reduction in its total work force of more
+than 6,000, as the company continued to streamline and standardize operations while
+enhancing service. Approximately half of SBC&#146;s full-year force reduction came in the
+fourth quarter. SBC said in the fourth quarter that expected work force reductions could
+exceed 10,000 jobs through the end of 2005. </FONT></P>
+
+<!-- MARKER FORMAT-SHEET="Para Indent" FSL="Default" -->
+<P><FONT FACE="Times New Roman, Times, Serif" SIZE=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also,
+in the fourth quarter, SBC amended its management pension plan to use only its traditional
+service pension formula alternative for future benefit accruals. This change, which
+required the recognition of unamortized prior service costs associated with its cash
+balance pension formula alternative, is expected to result in approximately $100 million
+of non-cash charges. </FONT></P>
+
+<!-- MARKER FORMAT-SHEET="Para Indent" FSL="Default" -->
+<P><FONT FACE="Times New Roman, Times, Serif" SIZE=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;These
+charges are separate from previously announced expected merger integration and accounting
+costs at Cingular Wireless, of which SBC owns 60 percent. </FONT></P>
+
+<!-- MARKER FORMAT-SHEET="Para Indent" FSL="Default" -->
+<P><FONT FACE="Times New Roman, Times, Serif" SIZE=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SBC&#146;s
+overall operating results for the quarter will be addressed in its earnings release
+scheduled for Wednesday, Jan. 26, 2005. </FONT></P>
+
+<!-- MARKER FORMAT-SHEET="Head Major Left Bold" FSL="Default" -->
+<A NAME=A002></A>
+<H1 ALIGN=LEFT><FONT FACE="Times New Roman, Times, Serif" SIZE=3>Cautionary Language
+Concerning Forward-Looking Statements </FONT></H1>
+
+<!-- MARKER FORMAT-SHEET="Para Flush" FSL="Default" -->
+<P><FONT FACE="Times New Roman, Times, Serif" SIZE=2>Information set forth in this news
+release contains financial estimates and other forward-looking statements that are subject
+to risks and uncertainties, and actual results may differ materially. A discussion of
+factors that may affect future results is contained in SBC&#146;s filings with the
+Securities and Exchange Commission. SBC disclaims any obligation to update or revise
+statements contained in this news release based on new information or otherwise. </FONT></P>
+
+<!-- MARKER FORMAT-SHEET="Para Flush" FSL="Default" -->
+<P><FONT FACE="Times New Roman, Times, Serif" SIZE=2>SBC Communications Inc. is a Fortune
+50 company whose subsidiaries, operating under the SBC brand, provide a full range of
+voice, data, networking, e-business, directory publishing and advertising, and related
+services to businesses, consumers and other telecommunications providers. SBC holds a 60
+percent ownership interest in Cingular Wireless, which serves more than 46 million
+wireless customers. SBC companies provide high-speed DSL Internet access lines to more
+American consumers than any other provider and are among the nation&#146;s leading
+providers of Internet services. SBC companies also now offer satellite TV service.
+Additional information about SBC and SBC products and services is available at
+<U>www.sbc.com</U>. </FONT></P>
+
+</BODY>
+</HTML>
+
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

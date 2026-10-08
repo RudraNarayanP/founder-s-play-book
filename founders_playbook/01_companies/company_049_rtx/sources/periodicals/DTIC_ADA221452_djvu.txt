@@ -1,0 +1,1160 @@
+AD-A221  452 
+
+
+* 
+
+
+REPORT  OF  SURVEY  CONDUCTED  AT 
+
+HUGHES  AIRCRAFT  COMPANY 
+MISSILE  SYSTEMS  GROUP 
+
+TUCSON,  ARIZONA 
+
+AUGUST  1988 
+
+
+DTIC 
+
+
+j  RlTTPISUnOr?  STATEMENT  A 
+
+|  Appro  red  fcr  oublic  re  lea** 
+
+
+90  04  28  0^0 
+
+
+DoD  4245.7-M 
+
+TRANSITION  FROM  DEVELOPMENT  TO  PRODUCTION 
+
+CRITICAL  PATH  TEMPLATES 
+
+
+REPORT  DOCUMENTATION  PAGE 
+
+
+Form  Approved 
+0 MB  No.  0704-0188 
+
+
+Public  reporting  burden  for  this  collection  of  information  ■*  estimated  to  average  1  hour  per  response,  including  the  time  for  reviewing  instructions,  searching  cutting  data  sources, 
+gathering  and  maintaining  the  data  needed,  and  completing  and  reviewing  the  collection  of  information.  Send  comments  regarding  this  burden  estimate  or  any  other  asoect  of  this 
+collection  of  information,  including  suggestions  for  reducing  this  burden,  to  Washington  neadouarters  Services.  Directorate  for  information  Operations  and  heports,  1215  Jefferson 
+Davis  Highway,  Suite  1204.  Arlington.  VA  22202-4302.  and  to  the  Office  of  Management  and  Budget.  Paperwork  deduction  Project  (0704-0188),  Washington,  DC  20503. 
+
+
+1.  AGENCY  USE  ONLY  (Leave  blank) 
+
+
+2.  REPORT  DATE 
+
+Aug  88 
+
+
+4.  TITLE  AND  SUBTITLE 
+
+Best  Manufacturing  Practices  Survey  Conducted  at 
+Hughes  Aircraft  Company  Missile  Systems  Group 
+Tucson,  AZ 
+
+
+6.  AUTHOR(S) 
+
+Office  of  the  Assistant  Secretary  of  the  Navy  (RDA) 
+Best  Manufacturing  Practices  Program 
+
+
+7.  PERFORMING  ORGANIZATION  NAME(S)  AND  AOORESS(ES) 
+Office  of  the  Assistant  Secretary  of  the  Navy 
+(Research,  Development  &  Acquisition) 
+
+Product  Integrity  Directorate 
+Washington,  D.C.  ;',0  C'  ~  ':5c 
+
+
+3.  REPORT  TYPE  AND  DATES  COVERED 
+
+BMP  Report  Aug  88 
+
+
+5.  FUNDING  NUMBERS 
+
+
+8.  PERFORMING  ORGANIZATION 
+REPORT  NUMBER 
+
+
+9.  SPONSORING  /MONITORING  AGENCY  NAME(S)  AND  ADDRESS(ES) 
+
+
+10.  SPONSORING/MONITORING 
+AGENCY  REPORT  NUMBER 
+
+
+Same  as  Number  7 . 
+
+
+12a.  DISTRIBUTION /AVAILABILITY  STATEMENT 
+
+
+12b.  DISTRIBUTION  CODE 
+
+
+13.  ABSTRACT  (Maximum  200  words) 
+
+...  7htpurpOSe  of  the  Best  Manufacturing  Practices  (BMP)  survey  conducted  at 
+dns  facility  was  to  identify  their  best  practices,  review  manufacturing  problems  L 
+document  the  results.  The  intent  is  to  extend  the  use  of  progressive  m^agTmm 
+echniques  as  well  as  high  technology  equipment  and  processes  throughouf  the 
+U.S.  industrial  base.  The  actual  exchange  of  detailed  data  will  be  between 
+ontractors  at  their  discretion.  A  company  point  of  contact  is  listed  in  the  report 
+
+in  a  Vf  i?tCnt  ofuthe,BMP  Program  is  to  use  this  documentation  as  the  initial  step 
+in  a  voluntary  technology  sharing  process  among  the  industry.  P 
+
+
+14.  SUBJECT  TERMS  ^ 
+
+- 
+
+17.  security  classification 
+
+18.  SECURITY  CLASSIFICATION 
+
+19.  SECURITY  CLASSIFICATION 
+
+OF  REPORT 
+
+OF  THIS  PAGE 
+
+OF  ABSTRACT 
+
+UNCLASSIFIED 
+
+UNCLASSIFIED 
+
+UNCLASSIFIED 
+
+15.  NUMBER  OF  PAGES 
+
+it 
+
+
+16.  PRICE  CODE 
+
+
+20.  LIMITATION  OF  ABSTRACT 
+
+
+Standard  Form  298  (Rev  2-89) 
+
+(•rntneM  by  ANSI  Std  Z3M8 
+
+
+CONTENTS 
+
+
+1.  INTRODUCTION .  1 
+
+1.1  SCOPE  .  1 
+
+1.2  REVIEW  PROCESS  .  1 
+
+1.3  BMP  REVIEW  TEAM .  2 
+
+
+2.  BEST  PRACTICES  .  3 
+
+2.1  DESIGN 
+
+DESIGN  POLICY 
+
+
+Design  for  Standardization  and  Assembly 
+
+Engineering  Information  Database  . 
+
+Technical  Symposia  . 
+
+"Lessons  Learned"  Feedback  System  ... 
+Engineering  Standards  and  Procedures  . 
+DESIGN  REVIEW 
+
+
+Design  Review  Coordinator  .  5 
+
+COMPUTER-AIDED  DESIGN 
+
+Computer  Aided  Engineering  and  Design  .  5 
+
+2.2  TEST 
+
+INTEGRATED  TEST 
+
+Design  Testability  Assessment  .  6 
+
+2.3  PRODUCTION 
+
+MANUFACTURING  PLAN 
+
+Universal  Standard  for  Magnifying  Power  .  6 
+
+PIECE  PART  CONTROL 
+
+Edge  Bar  Coding  of  Circuit  Boards  .  7 
+
+DEFECT  CONTROL 
+
+Production  Quality  Indicators  .  7 
+
+Corrective  Action  Boards  .  7 
+
+Scrap,  Rework,  and  Repair  (SRR)  Reduction  System  .  7 
+
+SPECIAL  TEST  EQUIPMENT 
+
+Optical  Augmented  Semi-automatic  Inspection  System  (OASIP'/Optical 
+
+Semi-automatic  Inspection  (OSI)  .  8 
+
+COMPUTER  AIDED  MANUFACTURING 
+
+Computer  Integrated  Manufacturing  .  8 
+
+Automated  Hybrid  Production  Equipment  .  9 
+
+
+I 
+
+
+co  oo  •<*  ^  T 
+
+
+CONTENTS  (Continued) 
+
+
+2.4  FACILITIES 
+
+MODERNIZATION 
+
+Central  Stores  .  10 
+
+Engineering  Analysis  Laboratory  .  1 1 
+
+2.5  LOGISTICS 
+
+TRAINING  MATERIALS  AND  EQUIPMENT 
+
+Personnel  Development  .  1 1 
+
+2.6  MANAGEMENT 
+
+MANUFACTURING  STRATEGY 
+
+Planning  Packaging  .  12 
+
+PERSONNEL  REQUIREMENTS 
+
+Career  Enrichment  Program  .  1 2 
+
+
+3.  PROBLEM  AREAS .  13 
+
+3.1  DESIGN 
+
+DESIGN  POLICY 
+
+Incorporation  of  Military  Specs  &  Standards  into  Corp.  Databases  .  13 
+
+Availability  of  MIL-SPECS  on  Electronic  Media  .  1 3 
+
+3.2  PRODUCTION 
+
+MANUFACTURING  PLAN 
+
+Inspection  to  Specific  Military  Standards  .  13 
+
+
+4.  SUMMARY  .  15 
+
+
+/ 
+
+
+STATEMENT  "A"  per  Adrienne  Gould 
+Office  of  the  Assistant  Sec.  of  Navy 
+Attn:  EDA-PI ,  Washington,  DC  20360-5000 
+TELECON  4/27/90  VG 
+
+
+Vu-i"  'O’ 
+
+NTIS  cfc-*, 
+
+our  I* 
+
+red 
+
+JuStlt  iC  J  liu'  ■  _ 
+
+q 
+
+□ 
+
+By 
+
+1  Distribution  ( 
+
+1 _ 
+
+A'-  1  ■ 
+
+•  les 
+
+D‘-»  ..,,,1 
+
+of 
+
+V(  . 
+
+1 
+
+SECTION  1 
+
+
+INTRODUCTION 
+
+
+1.1  SCOPE 
+
+The  purpose  of  the  Best  Manufacturing  Practices  (BMP)  review  conducted  at 
+Hughes  Aircraft  Company,  Missile  Systems  Group  (MSG)  was  to  identify  best  practices, 
+review  manufacturing  problems,  and  document  the  results.  The  intent  is  to  extend  the  use 
+of  high  technology  equipment  and  processes  throughout  industry.  The  ultimate  goal  is  to 
+strengthen  the  U.S.  industrial  base,  solve  manufacturing  problems,  improve  quality  and 
+reliability,  and  reduce  the  cost  of  defense  systems. 
+
+To  accomplish  this,  a  team  of  DoD  engineers  reviewed  Hughes  MSG  in  Tucson, 
+Arizona  to  identify  the  most  advanced  manufacturing  processes  and  techniques  used  in 
+that  facility.  Manufacturing  problems  that  had  the  potential  of  being  industry  wide 
+problems  were  also  reviewed  and  documented  for  further  investigation  in  future  BMP 
+reviews.  Demonstrated  industry  wide  problems  are  submitted  to  the  Navy’s  Electronics 
+Manufacturing  Productivity  Facility  (EMPF)  for  investigation  and  resolution. 
+
+The  review  was  conducted  on  8-11  August  1988  by  a  team  of  DoD  personnel 
+identified  on  page  2  of  this  report.  Hughes  MSG  is  primarily  engaged  in  design, 
+development,  and  production  of  advanced  tactical  missile  systems. 
+
+Tire  results  of  BMP  reviews  are  entered  into  a  data  base  to  track  best  practices  and 
+manufacturing  problems.  The  information  gathered  is  available  for  dissemination  through 
+an  easily  accessible  central  computer.  The  actual  exchange  of  detailed  data  will  be 
+between  contractors  at  their  discretion. 
+
+The  results  of  this  review  should  not  be  used  to  rate  Hughes  MSG  among  other 
+defense  electronics  contractors.  A  contractor’s  willingness  to  participate  in  the  BMP 
+program  and  the  results  of  a  survey  have  no  bearing  on  one  contractor’s  performance  over 
+another’s.  The  documentation  in  this  report  and  other  BMP  reports  is  not  intended  to  be 
+all  inclusive  of  a  contractor’s  best  practices  or  problems.  Only  selected  non-proprietary 
+practices  are  reviewed  and  documented  by  the  BMP  survey  team. 
+
+1.2  REVIEW  PROCESS 
+
+This  review  was  performed  under  the  general  survey  guidelines  established  by  the 
+Department  of  the  Navy.  The  review  concentrated  on  the  functional  areas  of  design,  test, 
+production,  facilities,  logistics,  management,  and  transition  planning.  The  team  evaluated 
+Hughes  MSG  policy,  practices,  and  strategy  in  these  areas.  Furthermore,  individual 
+practices  reviewed  were  categorized  as  they  relate  to  the  critical  path  templates  of  the 
+DoD  4245 ,7-M,  "Transition  From  Development  To  Production."  Hughes  MSG  identified 
+potential  best  practices  and  potential  industry  wide  problems.  These  practices  and 
+problems  and  other  areas  of  interest  identified  were  discussed,  reviewed,  and  documented 
+for  dissemination  throughout  the  U.S.  industrial  base. 
+
+
+1 
+
+
+The  format  for  this  survey  consisted  of  formal  briefings  and  discussions  on  best 
+practices  and  problems.  Time  was  spent  on  the  factory  floor  reviewing  practices, 
+processes,  and  equipment.  In-depth  discussions  were  conducted  to  better  understand  and 
+document  the  practices  and  problems  identified. 
+
+1.3  BMP  REVIEW  TEAM 
+
+
+Team  Member 
+
+Alan  Criswell 
+
+(215)  897-6684 
+
+
+Ed  Turissini 
+
+(317)  353-7965 
+
+
+Agency 
+
+Naval  Industrial  Resources 
+Support  Activity 
+Philadelphia,  PA 
+
+Naval  Avionics  Center 
+Indianapolis,  IN 
+
+
+John  Wiegand  Naval  Weapons  Support  Center 
+
+(812)854-3240  Crane,  IN 
+
+
+Dave  Zeph  Naval  Avionics  Center 
+
+(317)  353-7961  Indianapolis,  IN 
+
+
+Steve  Rapp  Naval  Weapons  Support  Center 
+
+(812)854-1694  Crane,  IN 
+
+
+Gretchen  Cooper  Naval  Weapons  Support  Center 
+
+(812)854-1854  Crane,  IN 
+
+
+CDR  Mark  Cooper  NAVSEA  DET  519 
+(805)  756-257 1  Long  Beach,  CA 
+
+
+Pat  Reaves  Naval  Ocean  Systems  Center 
+
+(619)553-5381  San  Diego,  CA 
+
+
+Steve  Linder  Office  of  the  Assistant 
+
+(202)  692- 1146  Secretary  of  the  Navy  (S&L) 
+
+(RM&QA-PA) 
+
+Washington,  DC 
+
+
+CDR  Rick  Purcell  Office  of  the  Assistant 
+(202)  692-3422  Secretary  of  the  Navy  (S&L) 
+
+(RM&QA-PI) 
+
+Washington,  DC 
+
+
+Larry  Halbig  Naval  Avionics  Center 
+
+(317)  353-7075  Indianapolis, IN 
+
+
+Role 
+
+Team  Chairman 
+
+
+Team  Leader 
+
+Design/Test 
+
+
+Team  Leader 
+Production/Facilities 
+
+
+Team  Leader 
+Management/Logistics 
+
+
+2 
+
+
+SECTION  2 
+
+
+BEST  PRACTICES 
+
+
+The  practices  listed  in  tliis  section  are  those  identified  by  the  BMP  survey  team  as 
+having  the  potential  of  being  among  the  best  in  the  electronics  industry. 
+
+2.1  DESIGN 
+
+DESIGN  POLICY 
+
+Design  for  Standardization  and  Assembly 
+
+Policies  and  practices  at  Hughes  reflect  the  importance  of  designing  for 
+manufacturability  as  an  integral  part  of  the  design  process.  Hughes  has  established 
+policies  for  cost  reduction  and  product  improvement  which  stress  design  standardization 
+to  establish  uniformity  through  standardization  components  and  hardware.  These  goals 
+are  accomplished  by  several  means,  including  the  following: 
+
+Manufacturing  personnel  become  involved  in  the  design  activity  as  early  as  the 
+conceptual  stage. 
+
+Manufacturing  provides  continually  enhanced  and  upgraded  suggestions  for  the 
+design  engineering  manuals. 
+
+Manufacturing  has  developed  training  programs  for  the  design  activity  on  subjects 
+such  as  electro-mechanical  assembly,  through-hole  printed  wiring  board  assembly, 
+high-speed  through-hole  PWB  assembly,  and  surface  mount  PWB  assembly. 
+
+Engineering  Information  Database 
+
+Hughes  Aircraft’s  Tracked  Requirements,  Audits  and  Feedback  for  Information 
+Control  (TRAFFIC)  program  is  a  valuable  teclmical  information  resource.  TRAFFIC  is  a 
+database  containing  : 
+
+Engineering  and  manufacturing  standards 
+
+Contractual  requirements  applicable  to  various  projects 
+
+Exceptions  to  contractual  requirements 
+
+Military  specifications 
+
+Configuration  management  data 
+
+Transition  from  Development  to  Production  Templates 
+
+Tliis  information,  including  graphics  data,  is  available  on-line  at  Hughes  MSG 
+tlirough  personal  computers  using  high-resolution  screens  for  the  graphics.  The 
+infonnation  can  be  searched  for  key  words  or  plirases,  lists  can  be  created,  and  hard  copy 
+made.  This  on-line  data  will  eventually  replace  all  printed  copies  of  manuals,  standards, 
+and  procedures  at  MSG.  The  system  will  ensure  the  latest  infonnation  is  available  to  a 
+wide  variety  of  company  personnel  and  reduce  the  time  spent  by  engineering  and 
+production  personnel  searching  for  data.  The  system  is  versatile,  user  friendly,  and 
+should  significantly  improve  communications  within  MSG. 
+
+
+3 
+
+
+Technical  Symposia 
+
+
+Hughes  Aircraft  holds  technical  symposia  for  its  employees.  Management  picks 
+topics  it  wishes  to  stress.  Outside  speakers  are  invited  to  augument  Hughes  personnel. 
+Presentations  are  documented  and  published  in  professional  quality  proceedings. 
+Speakers  are  recognized  by  the  inclusion  of  their  career  biographies  and  pictures  in  the 
+proceedings.  This  will  accomplish  the  following: 
+
+Signal  employees  on  topics  of  prime  interest  to  management. 
+
+Imply  corporate  policy  in  the  selected  area. 
+
+Cross-pollinate  employees  in  different  management  units  by  the  exchange  of 
+technical  approaches,  views,  philosophy,  etc. 
+
+Identify  experts  who  could  be  contacted  by  other  employees  for  advice  and 
+assistance. 
+
+Boost  attitudes  of  professionalism  among  technical  employees. 
+
+Recognize  outstanding  contributors. 
+
+lessons  Learned"  Feedback  System 
+
+Corporate  policies  and  practices  at  Hughes  MSG  are  sensitive  to  the  lessons  learned 
+on  past  programs.  This  is  made  possible  by  a  formal  lessons  learned  feedback  procedure. 
+
+Manufacturing  identifies  production  problems  through  the  entire  life  cycle  of  a 
+product  (1)  through  intimate  manufacturing  involvement  in  the  design  process,  (2)  during 
+manufacture  of  proof-of-manufacturing  models,  (3)  during  first  article  reviews, 
+
+(4)  through  trouble  and  failure  reports,  and  (5)  through  inspection  records  at  product 
+quality  inspection  points. 
+
+The  manufacturing  corrective  action  board  gathers  and  passes  the  information  to  the 
+Design  Process  Corrective  Action  Board  (DPCAB),  which  is  the  focal  point  for 
+improving  design  processes.  It  is  chaired  by  the  vice  president  for  engineering  and  its 
+members  include  senior  manufacturing  and  design  engineers. 
+
+The  DPCAB  ensures  that  lessons  learned  are  incorporated  into  future  designs  by 
+(1)  directing  changes  to  design  process  practices  and  procedures,  (2)  directing  changes  to 
+company  standards,  (3)  issuing  a  lessons  learned  bulletin,  and  (4)  initiating  needed 
+training  through  the  Engineer  Training  Committee. 
+
+Engineering  Standards  and  Procedures 
+
+Hughes  MSG  has  prepared  an  extensive  series  of  engineering  standards  and 
+procedures  manuals  which  cover  topics  such  as: 
+
+Standard  Parts 
+
+Design  for  Producibility 
+
+Design  for  Testability 
+
+Configuration  Management 
+
+Configuration  Control 
+
+Engineering  Design  Management 
+
+Systems  Engineering 
+
+Contract  Requirements  Flowdown 
+
+Design  Review 
+
+Transition  to  Production 
+
+Design  Process  Corrective  Action 
+
+Checking  Engineering  Documentation 
+
+
+4 
+
+
+Publication  of  these  standards  and  procedures  is  necessary  to  impose  design 
+discipline  by  company  management.  Extensively  documenting  the  many  aspects  of 
+design,  development,  and  transition  to  production  permits  all  engineering  personnel  to 
+know  company  policy  ^nd  procedures. 
+
+DESIGN  REVIEW 
+
+Design  Review  Coordinator 
+
+Each  Hughes  MSG  laboratory  has  a  designated  design  review  coordinator 
+responsible  for  ensuring  that  Hughes  standards  for  design  reviews  are  followed.  These 
+standards  cover  the  specialities  that  must  be  represented  on  the  design  review  panel, 
+procedures  for  identifying  action  items,  etc. 
+
+The  design  review  coordinator  is  responsible  for  ensuring  that  action  items  identified 
+by  a  design  review  panel  are  addressed  within  a  prescribed  time  period,  archiving  design 
+review  data,  and  preparing  summary  reports. 
+
+Design  review  coordinators  are  senior  project  or  staff  engineers.  Coordination  of 
+design  reviews  is  only  one  of  their  responsibilities.  They  are  headed  by  a  division  design 
+review  coordinator. 
+
+Detailed  reviews  are  performed  at  the  unit  or  sub-system  level.  The  responsible  unit 
+engineer  organizes  the  design  review  and  selects  the  panelists.  A  monthly  schedule  of 
+design  reviews  is  distributed. 
+
+COMPUTER-AIDED  DESIGN 
+
+Computer  Aided  Engineering  and  Design 
+
+Hughes  MSG  has  aggressively  implemented  both  mechanical  and  electrical 
+Computer  Aided  Engineering  and  Design  (CAE/CAD).  Through  the  use  of  extensive 
+circuit  simulation,  they  have  effectively  eliminated  the  breadboard  cycle  from  the 
+development  of  digital  systems.  Simulations  of  analog  circuits  are  performed  to  the 
+extent  that  the  technology  permits. 
+
+The  use  of  CAE/CAD  for  mechanical  design  and  drafting  has  resulted  in  significant 
+savings: 
+
+25%  reduction  in  drafting  costs 
+
+40%  reduction  in  optics  drafting  manhours 
+
+30%  savings  in  data  preparation  for  optics  analysis  systems 
+
+60%  savings  in  N/C  programming 
+
+reduction  of  printed  wiring  fabrication  setup  from  four  weeks  to  one  week. 
+
+Hughes  Aircraft  has  invested  heavily  in  CAE  for  both  design  and  manufacturing.  It 
+appears  to  have  placed  a  priority  on  integrating  data  from  electronic  and  mechanical 
+design  tools  to  a  single  system. 
+
+
+5 
+
+
+Mentor  Graphics  software  running  on  Apollo  computers  is  used  as  front-end 
+electronic  CAE  workstations.  Apollo-Mentor  was  originally  used  only  for  schematic 
+capture  and  was  characterized  as  under  used  by  Hughes  MSG  personnel.  Apollo-Mentor 
+is  now  used  extensively  for  digital  logic  simulation  and,  to  a  lesser  extent,  for  analog 
+circuit  simulation.  Timing  analysis  and  fault  and  other  digital  simulations  are  performed 
+with  Teradyne  Lasar  6  software  running  on  VAX  computers.  Printed  wiring  board 
+(PWB)  layout  is  performed  on  IBM  computers  using  Interactive  PRANCE/CADAM 
+(IPC)  software.  CADAM  is  used  for  all  mechanical  CAD.  Data  transfer  from 
+Apollo-Mentor  to  VAX-Lasar  6  and  IBM/CADAM  is  by  a  simple  netlist. 
+
+
+2.2  TEST 
+
+INTEGRATED  TEST 
+Design  Testability  Assessment 
+
+Hughes  MSG  has  put  in  place  major  directive  documents  requiring  products 
+designed  by  MSG  be  evaluated  for  testability  assessment.  Projects  are  being  evaluated 
+for  test  thoroughness  and  fault  isolation  testing.  Hughes  MSG’s  general  design  for 
+testability  philosophy  centers  on  reviewing  circuits  and  making  recommendations  for 
+incorporating  testability  criteria  before  designs  are  frozen.  An  important  element  of  this 
+philosophy  is  MSG’s  concern  for  developing  commonality  in  automated  test  equipment 
+between  the  development  and  production  phases  of  a  program. 
+
+In  addition,  Hughes  MSG  has  created  a  testability  panel  consisting  of  personnel  from 
+engineering,  logistics  support,  producibility,  factory  operations,  and  standards.  The  panel 
+serves  as  a  forum  for  discussing  testability  problems,  lessons  learned,  and 
+recommendations  for  improving  techniques.  The  panel  also  provides  consulting  services 
+to  projects/programs  throughout  MSG. 
+
+
+2.3  PRODUCTION 
+MANUFACTURING  PLAN 
+Universal  Standard  for  Magnifying  Power 
+
+Several  years  ago,  Hughes  discovered  that  many  magnification  aids  are  not  of  the 
+advertised  power  and  there  is  no  recognized  optical  equation  for  determining  magnifying 
+power  and  no  universally  accepted  standard  for  magnifying  power. 
+
+Hughes  corporate  established  a  visual  inspection  task  team  leader  whose 
+responsibility  was  to  develop  near,  short,  and  long-term  solutions.  The  team  developed  a 
+standard  definition,  analyzed  and  described  magnifying  power  for  visual  magnification, 
+and  established  realistic  functional  tolerances.  The  end  result  was  the  design  and  use  of 
+an  instrument  which  measures  magnifying  power. 
+
+
+6 
+
+
+PIECE  PART  CONTROL 
+
+
+Edge  Bar  Coding  of  Circuit  Boards 
+
+The  sometimes  difficult  decision  to  surrender  valuable  circuit  board  real  estate  in 
+order  to  accommodate  board  markings  has  been  eased  by  developing  a  method  for  laser 
+marking  the  part  serial  numb  *  using  bar  codes  on  the  edges  of  boards.  Not  only  can  the 
+boards  be  tracked  through  the  manufacturing  process  using  these  markings,  but  they  can 
+be  more  easily  identified  among  densely  packed  adjacent  boards  when  servicing  the 
+assembled  system. 
+
+
+DEFECT  CONTROL 
+Production  Quality  Indicators 
+
+Hughes  MSG  has  implemented  a  very  effective  defect  reduction  and  control  system. 
+It  is  a  plant-wide  process  feedback  system  using  points  in  the  manufacturing  flow  that 
+have  been  determined  critical  to  the  quality  of  the  product.  The  points  are  called 
+Production  Quality  Indicator  (PQIs)  for  hardware  manufacturing  processes  and 
+Production  Support  Indicators  (PSIs)  for  non-hardware  operations;  e.g.,  engineering 
+drawings.  The  system  functions  as  a  real-time  process  control  and  also  provides 
+infonnation  for  tracking  defect  causes  and  defect  reduction.  The  indicators  provide  data 
+required  for  corrective  actions  to  maintain  high  product  quality.  These  data  are 
+prominently  displayed  on  the  factory  floor  and  reproduced  in  key  management  reports. 
+
+
+Corrective  Action  Boards 
+
+Corrective  Action  Boards  (CABs)  are  used  at  Hughes  MSG  to  manage  corrective 
+actions  at  all  levels  throughout  the  factory.  The  boards  meet  regularly  and  review  data 
+from  ttie  work  measurement  system;  the  scrap,  rework,  and  repair  system;  Production 
+Quality  Indicator  (PQI)  and  Production  Support  Indicator  (PS1)  data;  audits;  and  Team 
+Activity  reports.  The  CABs  identify  required  corrective  actions,  assign  responsibility, 
+and  conduct  follow-up  to  ensure  actions  are  completed.  The  CABs  are  very  effective 
+because  they  have  access  to  excellent  real-time  information  from  the  factory  floor  and  can 
+provide  the  appropriate  level  of  management  attention  to  individual  problems. 
+
+
+Scrap,  Rework,  and  Repair  (SRR)  Reduction  System 
+
+Scrap  and  rework  are  typically  major  cost  drivers  in  defense  electronics  but  often  the 
+elements  and  sources  of  these  costs  are  poorly  understood  and  managed.  Hughes  MSG 
+has  developed  a  very  effective  system  for  tracking  and  managing  Scrap,  Rework,  and 
+Repair  (SRR).  The  system  provides  a  means  to  accurately  identify  SRR  costs;  segregate 
+them  into  discrete,  manageable  elements;  and  establish  meaningful  reporting  and  control 
+techniques.  Its  objective  is  to  understand  and  control  SRR  elements  to  achieve  corrective 
+action  and  cost  reduction. 
+
+
+7 
+
+
+A  key  element  of  the  Hughes  MSG  system  is  recognizing  that  traditional  techniques 
+do  not  provide  the  most  accurate  picture  for  identifying  and  effecting  corrective  action 
+because,  while  they  compare  SRR  labor  hours  to  total  labor  hours,  they  do  not  account  for 
+material  cost  of  scrap  or  consider  product  output.  The  MSG  system  measures  SRR  as  a 
+percentage  of  the  value  of  product  produced  during  the  same  time  period.  Using  the  work 
+measurement  system  (described  separately),  each  element  of  SRR  is  identified  by  a 
+rework  code  showing  whether  the  cause  was  related  to  workmanship,  engineering,  test, 
+vendor,  or  process.  Using  this  infonnation,  those  responsible  for  performing  and 
+managing  manufacturing  operations  can  initiate  corrective  actions  and  establish  SRR 
+reduction  goals.  Goals  are  established  at  multiple  management  levels  from  factory  level 
+to  work  center  level.  Annual  goals  are  set  and  re-evaluated  semi-annually.  These  goals 
+form  the  basis  of  performance  measurement  and  identification  of  corrective  action  and 
+also  provide  the  basis  for  future  program  estimates  and  proposals. 
+
+SPECIAL  TEST  EQUIPMENT 
+
+Optical  Augmented  Semi-automatic  Inspection  System  (OASIS) 
+
+Optical  Semi-automatic  Inspection  (OSI) 
+
+Several  years  ago,  Hughes  MSG  discovered  that  many  magnification  aids  were 
+incorrectly  marked  as  to  their  magnifying  power  and  were  poorly  designed  for  inspector 
+comfort.  As  an  outgrowth  of  their  efforts  to  solve  these  problems,  Hughes  MSG  designed 
+two  special  optical  inspection  systems:  Optical  Augmented  Semi-automatic  Inspection 
+System  (OASIS)  and  Optical  Semi-automatic  Inspection  (OSI). 
+
+OASIS  is  a  system  developed  for  the  repetitive  visual  inspection  of  products  having 
+separate  points  to  be  inspected.  The  system  consists  of  a  stationary  optical  magnification 
+aid  and  a  computer-controlled  table.  The  table  is  programmed  to  present  the  inspector 
+with  inspection  points  at  their  best  visual  aspect  for  the  optimum  time.  In  addition,  the 
+system  has  features  which  reduce  inspector  fatigue,  thereby  reducing  the  opportunity  for 
+error. 
+
+OSI  is  an  advanced  simple  axis  microscope  designed  for  solder  inspection.  It  is  a 
+4X/10X  long  eye  relief,  enhanced  depth  perception  microscope.  The  system  consists  of  a 
+one-eye  stationary  optical  magnification  designed  for  inspector  comfort.  There  are  plans 
+to  incorporate  a  computer-controlled  inspection  table  which  would  decrease  inspection 
+tunes. 
+
+In  the  development  of  the  OASIS  and  OSI,  Hughes  MSG  used  a  novel  optical  design 
+which  differs  significantly  from  the  nearest  prior  technology. 
+
+COMPUTER  AIDED  MANUFACTURING 
+
+Computer  Integrated  Manufacturing 
+
+Hughes  MSG  has  implemented  a  shop  floor  CIM  system  in  its  microelectronics 
+(hybrid)  manufacturing  area.  The  installation  provides  shop  floor  conUol  by  tracking 
+work-in-progress,  controlling  where  it  goes,  collecting  history  and  quality  data,  and 
+routing  rework. 
+
+Approximately  six  years  ago,  when  Hughes  MSG  made  the  decision  to  pursue  CIM, 
+there  were  no  commercially  available  packages  which  fitted  their  needs.  They  decided  to 
+create  a  package.  This  involved  designing  the  hardware  architecture  and  writing  all  the 
+software. 
+
+
+8 
+
+
+The  computer  hardware  includes  an  IBM  3081  and  a  Computervision  CGP/200C 
+CAD/CAM  system.  Hughes  is  in  the  process  of  standardizing  on  CADAM  as  a 
+CAD/CAM  system.  PC-AT  and  Motorola  68000  microprocessors  serve  as  the  interfaces 
+between  the  Tandem  shop  floor  host  computer  and  individual  workstations.  The 
+following  equipment  is  currently  integrated  into  the  CIM  system: 
+
+Quantrad  Laser 
+Universal  die  attach 
+Hughes  Tucson  die  verify 
+Hughes  Model  2600  wire  pull 
+K  &  S  wire  pull 
+HP  functional  test 
+SSEC  seam  sealer 
+AMI  bum  in 
+SMI  molytab/punch 
+
+Interface  is  made  from  the  operator  to  the  workstation  through  a  combination  of  bar 
+code  readers,  touch  screens,  and  keyboards. 
+
+Some  important  features  of  the  shopfloor  CIM  system  are:  paperless  planning, 
+lot-size-one  flexibility,  and  computer  controlled  machinery.  The  system  electronically 
+distributes  instructions  to  the  operators  at  their  workstations.  This  insures  the  operator  is 
+following  the  precise  instruction  for  the  work  in  progress,  as  well  as  reducing  the  amount 
+of  paperwork  needed.  Hughes  MSG  reports  that  by  implementing  the  system,  they  were 
+able  to  increase  production  by  330%  while  maintaining  employees  at  the  same  level.  The 
+commitment  to  the  system  is  showing  benefits  in  other  areas  of  the  facility.  There  are 
+plans  to  implement  the  system  in  the  circuit  card  assembly  area  with  people  now 
+experienced  enough  to  accomplish  the  task  quickly. 
+
+Automated  Hybrid  Production  Equipment 
+
+Hughes  MSG  has  invested  considerable  resources  in  upgrading  their  hybrid 
+manufacturing  facility.  In  order  to  automate  the  facility,  Hughes  MSG  has  bought 
+off-the-shelf  equipment  that  can  be  used  for  die  attach,  wire  bonding,  and  package 
+sealing.  Through  its  in-house  engineering  lab,  Hughes  MSG  has  developed  equipment 
+where  none  has  been  available  to  meet  specific  production  problems.  It  is  quite 
+innovative  to  have  the  in-house  capabilities  to  design  and  develop  unique  production 
+equipment. 
+
+Two  notable  items  that  have  been  designed  and  fabricated  by  Hughes  MSG 
+engineers  are  the  auto  wire  verify  system  and  the  auto  wire  pull  tester.  The  auto  wire 
+verify  system  is  semi-automatic  equipment  used  to  verify  that  hybrid  components  have 
+been  wire  bonded  correctly.  This  is  done  after  wire  bond  pull  and  prior  to  pre-cap  visual 
+inspections.  The  equipment  also  has  some  utility  in  discovering  other  defects  prior  to  the 
+pre-cap  inspection.  A  very  interesting  feature  of  this  system  is  the  overlay  of  CAD 
+database  information  on  the  computer  screen  to  assist  the  operator  in  verifying  a  proper 
+wire  bond  location.  CAD  information  is  used  in  other  areas  such  as  die  attach,  and  this  is 
+considered  to  be  a  best  practice. 
+
+
+9 
+
+
+The  second  piece  of  unique  equipment  designed  and  built  by  Hughes  is  an  automatic 
+wire  pull  tester.  This  tester  receives  test  requirements  via  a  CIM  interface  unit  and 
+automatically  sets  up  the  parameters  necessary  to  do  100%  pull  test  inspection.  Based  on 
+the  part  number  under  test,  the  wire  locations  and  pull  force  are  automatically  provided  to 
+the  tester.  The  tester  uses  optical  techniques  in  addition  to  the  design  data  base  to  locate 
+wires  that  may  have  been  mis-registered  during  the  bonding  process.  This  tester  is 
+currently  commercially  available  from  Hughes  Carlsbad  Industrial  Products  Division  as 
+Automatic  Pull  Tester  Model  No.  2600. 
+
+Overall,  Hughes  MSG  has  done  an  excellent  job  in  automating  their  hybrid  assembly 
+operation.  They  have  achieved  many  quality  and  productivity  improvements  including: 
+reducing  touch  labor  by  more  than  50%,  reducing  scrap  by  more  than  35%,  increasing 
+first  test  yields  from  68%  to  85%,  reducing  rework  by  25%,  reducing  production  control 
+support  by  25%,  and  demonstrating  a  95%  inventory  accuracy. 
+
+2.4  FACILITIES 
+
+MODERNIZATION 
+
+Central  Stores 
+
+An  automated  material  handling  system  has  been  installed  which  attempts  to  track 
+each  part  that  enters  or  leaves  the  system.  The  small-parts  hardware  consists  of  eighteen 
+Richard-Wilcox  2050  rotating  bin  carousels  and  an  IBM  PC -AT  and  Intermec  8635  bar 
+code  printer  at  each  carousel  connected  to  a  3-Com  network  server.  This  system  is  linked 
+in  turn  to  a  Tandem  computer  for  inventory  control  and  to  the  IBM  system  for  Material 
+Requirements  Planning  (MRP).  The  software,  developed  by  Hughes  MSG  and  Intermec 
+for  the  carousels  and  by  Hughes  MSG  for  MRP  and  inventory  control  functions,  provides 
+on-line  control  capabilities  at  all  levels. 
+
+Black  conductive  corrugated  paper  trays  are  used  in  the  carousels  instead  of  plastic. 
+At  an  average  cost  of  $1.46  each,  versus  $24-$30  for  conductive  plastic,  they  represent  a 
+substantial  cost  savings  even  when  considering  average  service  life. 
+
+Kitting  is  not  done  at  the  end-of-carousel  pick-put  stations,  but  rather  at  a  single 
+kitting  station.  As  items  from  the  carousel  stations  are  fed  via  conveyor  to  the  kitting 
+operator,  the  item  bar  codes  are  wanded.  Adjacent  to  the  operator  are  racks  containing 
+various  kit  totes,  each  having  a  signal  light  associated  with  its  rack  position.  The  operator 
+simply  places  the  part  in  the  illuminated  tote,  and  the  tenninal  notifies  when  a  kit  is 
+complete. 
+
+The  potential  cost  reductions  are  significant.  Floor  space  has  been  reduced  from 
+225,000  to  24,000  square  feet,  seven  locations  have  been  consolidated  to  one,  three  shifts 
+were  reduced  to  one,  overtime  has  essentially  been  eliminated,  and  pick-put  times  average 
+60  seconds. 
+
+Current  operation  is  essentially  paperless,  helping  create  inventory  accuracies  greater 
+than  95%.  Industrial  Engineering  feels  that  most  of  the  remaining  inaccuracies  are 
+created  by  their  single  remaining  piece  of  paper,  a  receiving  "induct"  form,  and  is 
+studying  methods  to  electronically  streamline  this. 
+
+
+10 
+
+
+Engineering  Analysis  Laboratory 
+
+The  Engineering  Analysis  Laboratory  provides  plantsite  teclmical  engineering 
+support  for  components,  materials  and  processes.  It  also  provides  components  and 
+materials  failure  and  chemical  and  metallurgical  analysis. 
+
+What  makes  the  approach  a  best  practice  centers  about  the  failure 
+analysis-destructive  physical  analysis  concept  and  its  application  to  problem  solving, 
+corrective  action,  and  problem  avoidance.  Failure  analysis  is  a  science  and,  as  such,  is 
+used  to  determine  the  reason  for  failure  whether  related  to  a  component,  solder  joint,  or 
+metal  fatigue,  for  example.  By  then  taking  this  analysis,  a  corrective  action  can  be 
+implemented  that  really  corrects  the  problem.  This  is  a  key  ingredient  to  any  successful 
+part  of  corrective  action  implementation  and  the  resulting  improvement  to  reliability. 
+
+Failure  analysis  laboratory  equipment 
+
+Magnaflux  real  time  X-ray,  MXF-150M 
+Cambridge  200  and  90  scanning  electron  microscopes 
+Princeton  Gamma  Tech  System  4  X-ray  analyzer 
+Tegal  plasmoline  plasma  etcher,  211 
+
+Chemical  analysis  laboratory 
+
+Hewlett  Packard  Model  5995  gas  chromatograph/mass  spectrophotometer 
+EG7G  Model  384  analyzer 
+Varian  3700  gas  chromatograph 
+
+Analect  Fourier  6160  transfonn  infrared  spectrophotometer 
+Liquid  chromatograph 
+
+Dynamic  mechanical  thennal  analyzer,  Polymar  Labs  DMTA2 
+
+Perkin  Elmer  TA&7  thennal  analyzer 
+
+Perkin  Elmer  3030B  atomic  absorption  spectrophotometer 
+
+Metallurgical  Laboratory 
+
+Cambridge  600  stereoscan  scanning  electron  microscope 
+
+Kevex  X-ray  analyzer 
+
+Leci  DM400  microhardness  tester 
+
+Wilson  Rockwell  hardness  tester 
+
+Hollis  &  Multicore  meniscographs 
+
+Instron  Model  1125  universal  tensile  tester 
+
+2.5  LOGISTICS 
+
+TRAINING  MATERIALS  AND  EQUIPMENT 
+Personnel  Development 
+
+Hughes  has  established  a  formal  training  program  for  the  advancement  of 
+engineering  personnel  in  the  disciplines  of  project  (unit)  engineering.  Hie  advantage  of 
+company  training  over  general  management  training  is  that  specific  company  policies, 
+procedures  and  standards  can  be  taught. 
+
+
+11 
+
+
+Specific  topics  covered  are: 
+
+
+The  role  of  the  Project  (Unit)  Engineer 
+Design  for  quality 
+Design  disciplines 
+Design  resources 
+
+Design  for  transition  to  production 
+
+The  courses  are  taught  by  Hughes  project  engineers  and  managers.  Courses  are  held 
+one  night  per  week  for  two  hours  over  sixteen  weeks. 
+
+2.6  MANAGEMENT 
+
+MANUFACTURING  STRATEGY 
+Planning  Packaging 
+
+The  planning  package  contains  the  step-by-step  process  instructions  required  for 
+operator  assembly  of  the  many  complex  devices  fabricated  on  the  Hughes  MSG  factory 
+floor.  A  package  is  generated  for  each  assembly.  The  techniques,  equipment,  and 
+processes  are  developed  with  high  yields,  high  reliability,  and  low  cost  in  mind. 
+Considerable  discipline  and  control  are  demonstrated  to  ensure  correct  instructions  are 
+available  to  the  operator.  Each  package  is  thoroughly  reviewed  before  release  to  the 
+manufacturing  floor.  As  instructions  evolve  and  before  final  release,  they  are  completely 
+checked  out  with  the  operator,  equipment,  procedure,  and  product.  The  package  is 
+currently  paper,  but  it  is  in  the  process  of  being  integrated  into  the  Computer  Integrated 
+Manufacturing  (CIM)  paperless  factory  program. 
+
+PERSONNEL  REQUIREMENTS 
+
+Career  Enrichment  Program 
+
+As  part  of  its  strategic  plan  to  position  itself  competitively  over  the  next  decade, 
+Hughes  MSG  has  begun  its  Career  Enrichment  Program  (CEP).  The  CEP  is  a  joint 
+management-union  effort  designed  to  enhance  work  force  productivity  by  providing 
+hourly  workers  with  career  advancement  and  increased  pay  for  skill  development.  Team 
+spirit  will  be  cultivated  even  as  individual  productivity  is  rewarded.  The  goal:  achieving  a 
+competitive,  stable,  and  cohesive  work  force. 
+
+The  program  was  developed  using  lessons  learned  from  other  companies  with 
+similar  programs.  Good  communications  between  the  union,  management,  and  initial 
+participants  were  key  to  developing  a  spirit  of  trust  and  cooperation.  Gradual 
+implementation  using  pilot  programs  over  the  next  18  months  is  planned.  Workers  are 
+encouraged  to  acquire  additional  skills  to  fill  new  job  classifications  which  combine 
+several  former  classifications  into  one  job.  Other  features  of  the  program  include:  no  jobs 
+lost  as  a  result  of  the  program,  extensive  OJT  and  skill  training,  tuition  assistance  and 
+training  programs  instituted  at  local  schools,  pay  for  new  knowledge  or  skills  even  if  not 
+used,  and  career-path  advancement. 
+
+The  CEP  is  an  aggressive  program  for  achieving  major  cultural  change  within  the 
+company  that,  at  inception,  appears  well  planned  and  readily  managed. 
+
+
+12 
+
+
+SECTION  3 
+
+
+PROBLEM  AREAS 
+
+
+3.1  DESIGN 
+
+DESIGN  POLICY 
+
+Incorporation  of  Military  Specs  &  Standards  into  Corp.  Databases 
+
+Hughes  MSG  is  experiencing  problems  obtaining  military  standards  and 
+specifications  in  a  format  that  will  allow  it  to  enter  them  into  the  automated 
+requirement/document  database.  Hughes  has  worked  with  Defense  Standardization 
+Program  Office,  Defense  Electronic  Supply  Center,  Naval  Forms  and  Publications  Center, 
+and  Air  Force  ESD/AVSE,  but  has  not  yet  received  the  documents  in  an  automated 
+format. 
+
+Hughes  MSG  also  stated  that  present  military  standards/specifications  page  fonnats 
+are  not  compatible  with  typical  personal  computer  80  character/line  fonnats.  Inputters  are 
+forced  to  either  extend  the  screen  or  to  wrap  the  ends  of  sentences  on  the  monitor. 
+
+Availability  of  MIL-SPECS  on  Electronic  Media 
+
+Hughes  MSG  appears  to  have  done  an  excellent  job  of  making  it’s  engineering 
+procedures  and  practices  available  on  most  of  its  computer  terminals.  Hughes  MSG  has 
+also  manually  entered  some  key  MIL-SPECS.  It  would  like  to  have  all  MIL-SPECS 
+available  on-line,  but  there  is  no  official  source  on  electronic  media. 
+
+Hughes  MSG  has  identified  several  agencies  who  have  electronically  transcribed 
+MIL-SPECS  to  electronic  media.  In  particular,  Defense  Electronic  Suppply  Center 
+(DESC)  has  a  considerable  number  of  these  specifications  entered  into  a  Wang  word 
+processing  system.  However,  DESC  refuses  to  furnish  a  copy  of  this  media  despite  the 
+Hughes  MSG  offer  to  pay  for  the  copying  and  media  costs  and  to  sign  a  release  in  the 
+event  of  errors  in  the  electronic  transcriptions. 
+
+It  would  be  to  the  DoD’s  advantage  to  provide  MIL-SPECS  already  available  on 
+electronic  media  to  interested  contractors  and  to  establish  a  program  and  policy  to  make 
+official  MIL-SPECS  on  electronic  media  as  soon  as  possible. 
+
+3.2  PRODUCTION 
+
+MANUFACTURING  PLAN 
+Inspection  to  Specific  Military  Standards 
+
+Hughes  MSG  stated  that  both  WS6536  and  DOD-STD-2000  still  need  attention  and, 
+if  not  changed,  will  cause  major  difficulties  and  extensive  non-reliability  related  cost 
+increases  to  the  inspection  process  and  to  the  product  itself.  Hughes  MSG 
+interdepartmental  correspondence  of  30  July  87  (Ref.  5D60.7-87/215)  and  Hughes  MSG 
+letter  of  16  Sept.  87  (Ref.  T-24456)  detail  further  changes  to  6536  and  2000. 
+
+
+13 
+
+
+SECTION  4 
+
+
+SUMMARY 
+
+
+Hughes  MSG  has  implemented  a  defect  reduction  and  control  system  through  the 
+collection  of  data  at  critical  points  in  the  manufacturing  flow.  These  points,  called 
+Production  Quality  Indicators  (PQIs)  for  hardware  manufacturing  processes,  provide  the 
+data  required  for  corrective  actions  to  maintain  high  product  quality. 
+
+Information  is  available  to  enhance  the  product  design  process  through  the  Hughes 
+Aircraft’s  Tracked  Requirements,  Audits,  and  Feedback  for  Information  Control 
+(TRAFFIC)  program  database.  Hughes  MSG  has  stressed,  tlirough  policies  and 
+programs,  that  a  product  is  to  be  designed  for  testability 
+
+Hughes  MSG  has  instituted  a  successful  Computer  Integrated  Manufacturing  (CIM) 
+system  in  their  hybrid  microelectronics  manufacturing  area. 
+
+The  point  of  contact  for  this  BMP  survey  is: 
+
+Mr.  Eugene  Vitale 
+
+Manager,  Manufacturing  Technology  Systems 
+
+(602)794-1612 
+
+Hughes  Aircraft  Company 
+Missile  Systems  Group 
+Bldg.  801,  MS  G10 
+P.O.  Box  11337 
+Tucson,  A Z  85734 
+
+
+15 
+
+

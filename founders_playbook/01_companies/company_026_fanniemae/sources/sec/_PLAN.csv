@@ -1,0 +1,32 @@
+rank,cik,accession,form,filingDate,document,bytes_in_index_json,why,url,disposition
+1,0000310522,0000315066-95-000022,SC 13G,1995-01-10,0000315066-95-000022.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000310522/000031506695000022/0000315066-95-000022.txt,fetched this run
+2,0000310522,0000315066-01-000917,SC 13G/A,2001-02-15,0001.txt,13110,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000310522/000031506601000917/0001.txt,fetched this run
+3,0000310522,0000315066-01-000917,SC 13G/A,2001-02-15,0000315066-01-000917.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000310522/000031506601000917/0000315066-01-000917.txt,fetched this run
+4,0000310522,0000315066-02-001306,SC 13G/A,2002-02-15,filing.txt,12897,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000310522/000031506602001306/filing.txt,fetched this run
+5,0000310522,0000315066-02-001306,SC 13G/A,2002-02-15,0000315066-02-001306.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000310522/000031506602001306/0000315066-02-001306.txt,fetched this run
+6,0000310522,0000950133-03-001151,10-K,2003-03-31,w84239e10vk.htm,2869405,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000310522/000095013303001151/w84239e10vk.htm,fetched this run
+7,0000310522,0000950133-03-001151,10-K,2003-03-31,w84239exv99w1.htm,2909,index.json listing (2909 B),https://www.sec.gov/Archives/edgar/data/0000310522/000095013303001151/w84239exv99w1.htm,fetched this run
+8,0000310522,0000950133-03-001151,10-K,2003-03-31,w84239exv99w2.htm,2895,index.json listing (2895 B),https://www.sec.gov/Archives/edgar/data/0000310522/000095013303001151/w84239exv99w2.htm,fetched this run
+9,0000310522,0000950133-03-001151,10-K,2003-03-31,0000950133-03-001151.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000310522/000095013303001151/0000950133-03-001151.txt,fetched this run
+10,0000310522,0000950133-03-001338,8-K,2003-04-15,w85410e8vk.htm,9371,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000310522/000095013303001338/w85410e8vk.htm,fetched this run
+11,0000310522,0000950133-03-001338,8-K,2003-04-15,w85410exv99w1.htm,305005,index.json listing (305005 B),https://www.sec.gov/Archives/edgar/data/0000310522/000095013303001338/w85410exv99w1.htm,fetched this run
+12,0000310522,0000950133-03-001338,8-K,2003-04-15,w85410exv99w2.htm,155977,index.json listing (155977 B),https://www.sec.gov/Archives/edgar/data/0000310522/000095013303001338/w85410exv99w2.htm,fetched this run
+13,0000310522,0000950133-03-001338,8-K,2003-04-15,0000950133-03-001338.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000310522/000095013303001338/0000950133-03-001338.txt,fetched this run
+14,0000310522,0000928385-03-001188,DEF 14A,2003-04-17,ddef14a.htm,739687,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000310522/000092838503001188/ddef14a.htm,fetched this run
+15,0000310522,0000928385-03-001188,DEF 14A,2003-04-17,0000928385-03-001188.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000310522/000092838503001188/0000928385-03-001188.txt,fetched this run
+16,0000310522,0000950133-03-001840,8-K,2003-05-14,w86624e8vk.htm,7439,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000310522/000095013303001840/w86624e8vk.htm,fetched this run
+17,0000310522,0000950133-03-001840,8-K,2003-05-14,w86624exv99w1.htm,205161,index.json listing (205161 B),https://www.sec.gov/Archives/edgar/data/0000310522/000095013303001840/w86624exv99w1.htm,fetched this run
+18,0000310522,0000950133-03-001840,8-K,2003-05-14,0000950133-03-001840.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000310522/000095013303001840/0000950133-03-001840.txt,fetched this run
+19,0000310522,0000950133-03-001961,8-K,2003-05-21,w86955e8vk.htm,8152,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000310522/000095013303001961/w86955e8vk.htm,fetched this run
+20,0000310522,0000950133-03-001961,8-K,2003-05-21,w86955exv99w1.htm,4430,index.json listing (4430 B),https://www.sec.gov/Archives/edgar/data/0000310522/000095013303001961/w86955exv99w1.htm,fetched this run
+21,0000310522,0000950133-03-001961,8-K,2003-05-21,0000950133-03-001961.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000310522/000095013303001961/0000950133-03-001961.txt,fetched this run
+22,0000310522,0000950133-03-001997,8-K,2003-05-23,w87005e8vk.htm,8735,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000310522/000095013303001997/w87005e8vk.htm,fetched this run
+23,0000310522,0000950133-03-001997,8-K,2003-05-23,w87005exv99w1.htm,752286,index.json listing (752286 B),https://www.sec.gov/Archives/edgar/data/0000310522/000095013303001997/w87005exv99w1.htm,fetched this run
+24,0000310522,0000950133-03-001997,8-K,2003-05-23,0000950133-03-001997.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000310522/000095013303001997/0000950133-03-001997.txt,fetched this run
+25,0000310522,0000950133-03-002156,8-K,2003-06-13,w87454e8vk.htm,7551,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000310522/000095013303002156/w87454e8vk.htm,fetched this run
+26,0000310522,0000950133-03-002156,8-K,2003-06-13,w87454exv99w1.htm,218485,index.json listing (218485 B),https://www.sec.gov/Archives/edgar/data/0000310522/000095013303002156/w87454exv99w1.htm,fetched this run
+27,0000310522,0000950133-03-002156,8-K,2003-06-13,0000950133-03-002156.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000310522/000095013303002156/0000950133-03-002156.txt,fetched this run
+28,0000310522,0000950133-03-002390,8-K,2003-07-15,w88406e8vk.htm,10101,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000310522/000095013303002390/w88406e8vk.htm,fetched this run
+29,0000310522,0000950133-03-002390,8-K,2003-07-15,w88406exv99w2.htm,413800,index.json listing (413800 B),https://www.sec.gov/Archives/edgar/data/0000310522/000095013303002390/w88406exv99w2.htm,fetched this run
+30,0000310522,0000950133-03-002390,8-K,2003-07-15,w88406exv99w3.htm,198767,index.json listing (198767 B),https://www.sec.gov/Archives/edgar/data/0000310522/000095013303002390/w88406exv99w3.htm,fetched this run
+31,0000310522,0000950133-03-002390,8-K,2003-07-15,w88406exv99w1.htm,13260,index.json listing (13260 B),https://www.sec.gov/Archives/edgar/data/0000310522/000095013303002390/w88406exv99w1.htm,SKIPPED beyond --max-docs 30

@@ -1,0 +1,31 @@
+{
+ "cik": "0000037996",
+ "requested_cik": "37996",
+ "registrant": "FORD MOTOR CO",
+ "ticker": "F",
+ "tickers": [
+  "F",
+  "F-PB",
+  "F-PC",
+  "F-PD"
+ ],
+ "former_names": [],
+ "company_dir": "company_022_ford",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['ford'] match registrant 'FORD MOTOR CO' (CIK 0000037996)"
+ ],
+ "built": "2026-09-29T19:07:45Z",
+ "count": 4445,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 246,
+ "csv_sha1": "2bac4a427050c4481aa4ef762fab94c7a22398de",
+ "csv_bytes": 413818,
+ "paths": {
+  "json": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_022_ford\\sources\\_index\\submissions_CIK0000037996.json",
+  "csv": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_022_ford\\sources\\_index\\submissions_CIK0000037996.csv",
+  "md": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_022_ford\\sources\\_index\\_INDEX_CIK0000037996.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

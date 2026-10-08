@@ -1,0 +1,14 @@
+{
+ "findings": [
+  {
+   "gate": "quotes",
+   "subject": "ADVISORY",
+   "msg": "7 of 8 checked spans unmatched (88%) -- gate precision is not established, treat as a triage list, NOT as defects"
+  },
+  {
+   "gate": "advisory",
+   "subject": "stage_1.md",
+   "msg": "27043 words over the core density target 22000 -- NOT a split mandate and NOT a defect; recorded so the tier is measurable"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0001035002/000103570402000158/d94896ex10-16.txt",
+ "fetched": "2026-10-06T11:45:34Z",
+ "sha1": "8017767783cb5a3f61d0afbc6b500ad93e7f4c2f",
+ "bytes": 252228,
+ "words": 37772,
+ "cik": "0001035002",
+ "registrant": "VALERO ENERGY CORP/TX",
+ "accession": "0001035704-02-000158",
+ "document": "d94896ex10-16.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

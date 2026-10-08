@@ -1,0 +1,610 @@
+{
+ "window": [
+  "1791-01-01",
+  "1998-12-31"
+ ],
+ "candidates": 122,
+ "mined": 12,
+ "untried_by_limit": 93,
+ "items": [
+  {
+   "identifier": "bankofamericadat2619sanf",
+   "date": "1977-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Bank of America data processing center parking structure Twelfth and Kissling Streets : final environmental impact repor",
+   "family": "corporate_print",
+   "meta_date": "1977-01-01",
+   "status": "cached",
+   "bytes": 342480,
+   "named_terms": [
+    "bank of america"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 50,
+   "entity_hits": 50,
+   "matched_entities": [
+    "bank  of  america"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 13,
+     "text": "^  BANK  OF  AMERICA  DATA  PROCESSING  CENTER",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 114,
+     "text": "Bank  of  America  data",
+     "context": [
+      "",
+      "processing  center"
+     ]
+    },
+    {
+     "line": 303,
+     "text": "The  proposed  Bank  of  America  data  center  parking  structure  would  provide  about",
+     "context": [
+      "",
+      "850  parking  spaces  for  bank  employees  who  work  at  the  existing  data  center  at  One"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "01-bank-of-america-bac",
+   "date": "1998-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Bank of America Annual Reports",
+   "family": "corporate_print",
+   "meta_date": "1998-01-01",
+   "status": "cached",
+   "bytes": 1332198,
+   "named_terms": [
+    "bank of america"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 7,
+   "phrase_hits": 200,
+   "entity_hits": 200,
+   "matched_entities": [
+    "bank of america"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "Bank of America a",
+     "context": [
+      ""
+     ]
+    },
+    {
+     "line": 4,
+     "text": "Bank of America Corporation",
+     "context": [
+      "",
+      "2012 Annual Report"
+     ]
+    },
+    {
+     "line": 51,
+     "text": "This is Bank of America",
+     "context": [
+      "",
+      "today. Meeting a world of"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA41153448_0117",
+   "date": "1981-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Insuring Your Property. The CIRcular: Consumer Information Report 29.",
+   "family": "corporate_print",
+   "meta_date": "1981-01-01",
+   "status": "cached",
+   "bytes": 31005,
+   "named_terms": [
+    "bank of america"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 4,
+   "entity_hits": 4,
+   "matched_entities": [
+    "bank of america"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 8,
+     "text": "INSTITUTION Bank of America NT & SA, San Francisco, CA.",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 305,
+     "text": "COPYRIGHT \u00a9 BANK OF AMERICA NTASA 1981",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 1174,
+     "text": "Prepared by Bank of America, Box 37128, San Francisco, California 94137",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA41153448_0114",
+   "date": "1983-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "What's in Your Credit Report? The CIRcular: Consumer Information Report 22.",
+   "family": "corporate_print",
+   "meta_date": "1983-01-01",
+   "status": "cached",
+   "bytes": 15855,
+   "named_terms": [
+    "bank of america"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 4,
+   "entity_hits": 4,
+   "matched_entities": [
+    "bank of america"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 8,
+     "text": "INSTITUTION Bank of America NT & SA, San Francisco, CA.",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 14,
+     "text": "AVAILABLE FROM Bank of America, Dept. 3401, Box 37128, San",
+     "context": [
+      "",
+      "Francisco, CA 94137 (first set free, $0.10 pe\u2019 copy"
+     ]
+    },
+    {
+     "line": 285,
+     "text": "BANK OF AMERICA NT&S A 1979. 1980. 1981. 1983",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA41153448_0115",
+   "date": "1983-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Money Management for Children and Parents. The CIRcular: Consumer Information Report 25.",
+   "family": "corporate_print",
+   "meta_date": "1983-01-01",
+   "status": "cached",
+   "bytes": 17172,
+   "named_terms": [
+    "bank of america"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 4,
+   "entity_hits": 4,
+   "matched_entities": [
+    "bank of america"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 15,
+     "text": "INSTITUTION Bank of America NT & SA, San Francisco, CA.",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 311,
+     "text": "COPYRIGHT \u00a9 BANK OF AMERICA NT&SA 1979, 1961, 1983",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 566,
+     "text": "Prepared by Bank of America, Box 37128, San Francisco, California 94137 (3)",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA41153448_0111",
+   "date": "1982-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Solar Energy: Uses for Your Home. The CIRcular: Consumer Information Report 15.",
+   "family": "corporate_print",
+   "meta_date": "1982-01-01",
+   "status": "cached",
+   "bytes": 28708,
+   "named_terms": [
+    "bank of america"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 4,
+   "entity_hits": 4,
+   "matched_entities": [
+    "bank of america"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 8,
+     "text": "INSTITUTION Bank of America NT & SA, San Francisco, CA.",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 280,
+     "text": "BANK OF AMERICA NTASA 1977, 1978. 1979. 1980 198). 1982",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 938,
+     "text": "Prepared by Bank of America, Box 37128, San Francisco, California 94137 (ER)",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA41153448_0106",
+   "date": "1983-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Ways to Save Your Money. The CIRcular: Consumer Information Report 2.",
+   "family": "corporate_print",
+   "meta_date": "1983-01-01",
+   "status": "cached",
+   "bytes": 33346,
+   "named_terms": [
+    "bank of america"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 5,
+   "entity_hits": 5,
+   "matched_entities": [
+    "bank of america"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 8,
+     "text": "INSTITUTION Bank of America NT & SA, San Francisco, CA.",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 14,
+     "text": "AVAILABLE FROM Bank of America, Dept. 3401, Box 37128, San",
+     "context": [
+      "",
+      "Francisco, CA 94137 (first set free, $0.10 per copy"
+     ]
+    },
+    {
+     "line": 288,
+     "text": "COPYRIGHT \u00a9 BANK OF AMERICA NTA&SA 1979 1981, 1983",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA41153448_0108",
+   "date": "1983-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Ways to Finance an Education. The CIRcular: Consumer Information Report 8.",
+   "family": "corporate_print",
+   "meta_date": "1983-01-01",
+   "status": "cached",
+   "bytes": 33213,
+   "named_terms": [
+    "bank of america"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 4,
+   "entity_hits": 4,
+   "matched_entities": [
+    "bank of america"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 9,
+     "text": "INSTITUTION Bank of America NT & SA, San Francisco, CA,",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 299,
+     "text": "COPYRIGHT \u00a9 BANK OF AMERICA NTASA 1976, 1979, 1980. 1982, 1963 ya",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 1078,
+     "text": "Prepared by Bank of America, Box 37128, San Francisco, California 94137 Ui",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA41153448_0105",
+   "date": "1980-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Personal Money Planner. The CIRcular: Consumer Information Report 14.",
+   "family": "corporate_print",
+   "meta_date": "1980-01-01",
+   "status": "cached",
+   "bytes": 19410,
+   "named_terms": [
+    "bank of america"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 5,
+   "entity_hits": 5,
+   "matched_entities": [
+    "bank of america"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 31,
+     "text": "Bank of America NT & SA, San Francisco,",
+     "context": [
+      "",
+      "Mar 80"
+     ]
+    },
+    {
+     "line": 35,
+     "text": "Bank of America, Dept. 3401, Box 37128, San",
+     "context": [
+      "6p.; For related documents, see CE 800 122-133.",
+      "Francisco, CA 94137 (first set free, $0.10 per copy"
+     ]
+    },
+    {
+     "line": 315,
+     "text": "COPYRIGHT \u00a9 BANK OF AMERICA NT & SA 1977. 1980",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA41153448_0112",
+   "date": "1980-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Managing Your Credit. The CIRcular: Consumer Information Report 18.",
+   "family": "corporate_print",
+   "meta_date": "1980-01-01",
+   "status": "cached",
+   "bytes": 15446,
+   "named_terms": [
+    "bank of america"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 5,
+   "entity_hits": 5,
+   "matched_entities": [
+    "bank of america"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 31,
+     "text": "Bank of America NT & SA, San Francisco, CA.",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 36,
+     "text": "Bank of America, Dept. 3401, Box 37128, San",
+     "context": [
+      "3p.; For related documents, see CE 800 121-133.",
+      "Francisco, CA 94137 (first set free, $0.10 per copy"
+     ]
+    },
+    {
+     "line": 304,
+     "text": "COPYRIGHT \u00a9 BANK OF AMERICA NT&SA 1978. 1980",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA41153448_0116",
+   "date": "1981-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "New Life for Old Houses. The CIRcular: Consumer Information Report 28.",
+   "family": "corporate_print",
+   "meta_date": "1981-01-01",
+   "status": "cached",
+   "bytes": 32428,
+   "named_terms": [
+    "bank of america"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 4,
+   "entity_hits": 4,
+   "matched_entities": [
+    "bank of america"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 8,
+     "text": "INSTITUTION Bank of America NT & SA, San Francisco, CA.",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 280,
+     "text": "COPYRIGHT \u00a9 BANK OF AMERICA NT&SA 1981",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 1066,
+     "text": "Prepared by Bank of America, Box 37128, San Francisco, California 94137 (BR)",
+     "context": [
+      "",
+      "AD-278 (3/81)"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA41153448_0107",
+   "date": "1982-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "How to Balance Your Checkbook. The CIRcular: Consumer Information Report 1.",
+   "family": "corporate_print",
+   "meta_date": "1982-01-01",
+   "status": "cached",
+   "bytes": 30706,
+   "named_terms": [
+    "bank of america"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 8,
+   "entity_hits": 8,
+   "matched_entities": [
+    "bank of america"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 8,
+     "text": "INSTITUTION Bank of America NT & SA, San Francisco, CA.",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 14,
+     "text": "AVAILABLE FROM Bank of America, Dept. 3401, Box 37128, San",
+     "context": [
+      "",
+      "Francisco, CA 94137 (first set free, $0.10 per copy"
+     ]
+    },
+    {
+     "line": 27,
+     "text": "IDENTIFIERS Bank of America; *Checking Accounts; PF Project",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  }
+ ]
+}

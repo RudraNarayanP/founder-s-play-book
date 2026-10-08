@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000895421/000095013097001437/0000950130-97-001437.txt",
+ "fetched": "2026-10-06T11:46:54Z",
+ "sha1": "e6b4a32b92a941bc8a30aee4ce822f05cf14fd0f",
+ "bytes": 746880,
+ "words": 92113,
+ "cik": "0000895421",
+ "registrant": "MORGAN STANLEY",
+ "accession": "0000950130-97-001437",
+ "document": "0000950130-97-001437.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": true
+}

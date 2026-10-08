@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503867/dex1.txt",
+ "fetched": "2026-09-29T19:06:29Z",
+ "sha1": "8fe49edcaaa0c4b62aac29cc624a3e70b9ea5c11",
+ "bytes": 148704,
+ "words": 21950,
+ "cik": "0001156039",
+ "registrant": "Elevance Health, Inc.",
+ "accession": "0000950131-01-503867",
+ "document": "dex1.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

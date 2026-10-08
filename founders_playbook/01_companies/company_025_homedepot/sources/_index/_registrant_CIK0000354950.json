@@ -1,0 +1,23 @@
+{
+ "cik": "0000354950",
+ "requested_cik": "354950",
+ "registrant": "HOME DEPOT, INC.",
+ "ticker": "HD",
+ "tickers": [
+  "HD"
+ ],
+ "former_names": [
+  "HOME DEPOT INC"
+ ],
+ "company_dir": "company_025_homedepot",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['homedepot'] match registrant 'HOME DEPOT, INC.' (CIK 0000354950)"
+ ],
+ "built": "2026-10-06T11:54:53Z",
+ "count": 3077,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 72,
+ "csv_sha1": "fa7e61ed887073c4d349aa11a43231aa8487cc11",
+ "csv_bytes": 285227
+}

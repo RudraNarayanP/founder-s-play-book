@@ -1,0 +1,2352 @@
+NASA CR-1 14678 
+
+tv ~VUE Public 
+
+
+APPLICABILITY OF NASA (ARC) 
+TWO-SEGMENT APPROACH PROCEDURES TO 
+BOEING AIRCRAFT 
+
+
+By Robert L. Allison 
+
+
+Reproduced by 
+
+NATIONAL TECHNICAL 
+INFORMATION SERVICE 
+
+U S Department of Commerce 
+Springfield, VA. 22151 
+
+
+January 1974 
+
+
+I 14678 ) APPLICABILITY IxflT&Sh 
+
+BOEING T AIECBaFT K !R AP - HOACH 5E0C£Ct) BES 10 
+AIRCHAFI (Boeing Conaexcial 
+
+Airplane Co., Seattle) 
+
+
+r 
+
+
+CSC! 01c G3/02 
+
+
+N 74* 17749 s ] 
+
+
+Unclas 
+31545 J 
+
+
+Prepared under contract NAS2-7561 by 
+BOEING COMMERCIAL AIRPLANE COMPANY 
+Seattle, Washington 98124 
+
+for 
+
+Ames Research Center 
+
+NATIONAL AERONAUTICS AND SPACE ADMINISTRATION 
+
+
+2. Government Accession No, 
+
+
+3, Recipient's Catalog No. 
+
+
+4, Title and Subtitle 
+
+APPLICABILITY OF NASA (ARC) TWO-SEGMENT APPROACH 
+PROCEDURES TO BOEING AIRCRAFT 
+
+
+7. Author(s) 
+
+Robert L. Allison (see foreword) 
+
+
+9, Performing Organization Name and Address 
+
+Boeing Commercial Airplane Company 
+
+P.O. Box 3707 
+
+Seattle, Washington 98124 
+
+
+12. Sponsoring Agency Name and Address 
+
+National Aeronautics and Space Administration 
+Washington, D.C. 20546 
+
+
+15. Supplementary Notes 
+
+NASA Technical Monitor: Mr. Kenneth C. White 
+
+Ames Research Center 
+
+
+5. Report Date 
+
+January 1974 
+
+
+6. Performing Organization Code 
+
+
+8. Performing Organization Report No. 
+
+D6-41336 
+
+
+10. Work Unit No. 
+
+
+1 1. Contract or Grant No. 
+
+NAS2-7561 
+
+
+13. T ype of Report and Period Covered 
+
+Contractor report 
+
+
+14. Sponsoring Agency Code 
+
+
+16. Abstract 
+
+
+Tliis report presents the results of an engineering study to determine the feasibility of applying 
+the NASA (ARC) two-segment approach procedures and avionics to the Boeing fleet of commercial 
+jet transports. The specific procedures and avionics considered were those developed by United 
+Airlines and Collins Radio for use in the UAL 727-200 line operational evaluation phase 
+(May-October 1973) of the NASA two-segment approach program. This feasibility study does not 
+include simulation or flight test and is concerned with the speed/path control and systems 
+compatibility aspects of the procedures rather than the noise benefits. 
+
+Path performance data are provided for representative Boeing 707/727/737/747 passenger 
+models. Thrust margin (AT) requirements for speed/path control are analyzed for still air and 
+shearing tailwind conditions. The Collins avionics configuration and two alternate avionics 
+configurations are reviewed for compatibility with existing systems. Certification of the 
+two-segment equipment and possible effects on existing airplane certification are discussed. 
+Operational restrictions on use of the procedures with current autothrottles and in icing or reported 
+tailwind conditions are recommended. Using the NASA/UAL 727 procedures as a baseline, 
+maximum upper glide slopes for representative 707/727/737/747 models are defined as a starting 
+point for further study and/or flight evaluation programs. 
+
+
+17. Key Words (Suggested by Author(s) ) 
+
+Noise abatement approach 
+Two-segment glide slope 
+Path guidance 
+Speed/path control 
+ailwind shear 
+
+
+19. Security Classif. (of this report) 
+
+Unclassified 
+
+
+18. Distribution Statement 
+
+
+Unclassified —Unlimited 
+
+
+20. Security Classif. (of this page) 
+
+Unclassified 
+
+
+'For sale by the National Technical Information Service, Springfield. Virginia 22151 
+
+
+/ 
+
+
+
+
+
+
+
+
+
+
+
+
+FOREWORD 
+
+
+This study was conducted under NASA contract NAS2-7561, administered by the Ames 
+Research Center. Mr. Clark White was the NASA technical monitor. 
+
+
+The work was accomplished within the Technology Department of the Boeing Commercial 
+Airplane Company, Seattle, Washington. Participating engineers were as follows: 
+
+R. L. Allison Principal investigator 
+
+
+G. A. Chenkovich 
+A. C. Marley 
+
+R. E. Buchholz 
+
+D. B. Swanson 
+
+
+Flight controls (autopilot/flight director) 
+
+Aerodynamics 
+
+Propulsion 
+
+
+This report has been reviewed and approved by: 
+
+
+l.C.Ub 
+
+F. C. Hall 
+Program Manager 
+
+Vry^ — *- — 
+
+W. A. Reinhart 
+
+Chief Engineer, Technology 
+
+707/727/737 Division 
+
+
+
+Chief Engineer, Technology 
+747 Division 
+
+
+u 
+
+
+
+CONTENTS 
+
+
+Page 
+
+1.0 SUMMARY 1 
+
+2.0 INTRODUCTION 3 
+
+2.1 Background 3 
+
+2.2 Operational Criteria 3 
+
+2.3 Units of Measurement 5 
+
+3.0 TASK I-PATH PERFORMANCE ANALYSES 5 
+
+3.1 Thrust Data 7 
+
+3.2 Trimmed Path Performance 13 
+
+3.2.1 Data . 13 
+
+3.2.2 Computation 13 
+
+3.2.3 Limits 22 
+
+3.3 Thrust Margins 22 
+
+3.3.1 Path Corrections 24 
+
+3.3.2 Tailwind (Also See Sec. 4.6) 26 
+
+3.4 Procedures Review 27 
+
+3.4.1 Gear 29 
+
+3.4.2 Reduced Landing Flaps (Maximum Flaps for 747) 29 
+
+3.4.3 Speeds 29 
+
+3.4.4 Transition Altitude 29 
+
+3.4.5 Upper Glide Slope Angles 30 
+
+4.0 TASK II-AIRPLANE SYSTEMS REVIEW 30 
+
+4.1 Purpose 30 
+
+4.2 NASA System Description 32 
+
+4.3 Avionics Mechanization Concepts 32 
+
+4.3.1 Configuration A (Collins Unit) 34 
+
+4.3.2 Alternate Configurations (B and C) 37 
+
+4.4 Associated Equipment . . 37 
+
+4.5 Modification Requirements 41 
+
+4.6 Certification Program 41 
+
+4.6.1 Existing Systems 42 
+
+4.6.2 Two-Segment System 43 
+
+5.0 TASK III— PROGRAM REVIEW 45 
+
+6.0 CONCLUSIONS AND RECOMMENDATIONS 46 
+
+
+f 
+
+t 
+
+
+REFERENCES 
+
+
+47 
+
+
+
+APPLICABILITY OF NASA (ARC) 
+
+
+TWO-SEGMENT APPROACH PROCEDURES TO 
+BOEING AIRCRAFT 
+
+
+By Robert L. Allison 
+
+
+1.0 SUMMARY 
+
+
+The purpose of this feasibility study is to complement the NASA-Ames Research Center 
+evaluation of two-segment approaches by making a preliminary determination of their applicability 
+to the Boeing 707/727/737/747 fleet. This study did not include simulation, flight testing, or noise 
+comparisons and considered only nominal airframe/engine characteristics for sea-level standard-day 
+conditions, all engines operating. The results represent engineering judgments, based on static 
+analyses, experience, and available data, and are intended for use by NASA in conducting studies 
+and test programs. This report should not be interpreted as a final Boeing recommendation 
+concerning procedures and systems to be introduced into airline service. 
+
+The NASA/UAL procedures used for the 727 line evaluation of two-segment glide slopes 
+appear feasible for application to the Boeing fleet. However, the maximum upper glide slope angles 
+recommended for representative passenger models are as follows: 
+
+• 707-5.5° • 737-5° 
+
+• 727-6° i 747-5.5° 
+
+Due to the reduced nominal power settings, the upper glide slopes listed above are not compatible 
+with current autothrottles and are not recommended for use in icing conditions or when tailwinds 
+are reported. These glide slopes and operational limitations are based on using the 707/727/737 
+reduced (certified) landing flap positions and the 747 maximum flap position, which is comparable 
+to the reduced flap positions for the other models. The angles shown provide the same thrust 
+margin from idle (AT = -1.2° for the minim um-weight case) for ail models. The adequacy of this 
+margin should be determined from NASA/UAL flight test results. Analyses of the thrust margin 
+required for path control (still air) and for speed control in shearing tailwinds are presented herein. 
+The latter shows that thrust margin requirements for a specified tailwind profile are proportional to 
+the glide slope angle, being greater for a steep approach than for a normal ILS. 
+
+
+
+Restricting usage of two-segment approaches to nonicing, nontailwind conditions is not viewed 
+as a disadvantage of two-segment glide slopes when compared to other noise-abatement approach 
+techniques. In fact, one advantage of the NASA two-segment system, when compared to steeper 
+ILS beams, is that current ILS glide slope angles and procedures remain available as a backup for use 
+in adverse weather conditions. 
+
+The NASA concept for providing two-segment path guidance using the existing ILS and an 
+airborne computer (with DME and altitude inputs) appears feasible for application to any jet 
+transport. The avionics developed by Collins for the NASA/UAL 727 evaluation are generally 
+compatible with the Boeing fleet and are expected to provide satisfactory flight director and 
+single-channel autopilot performance to category II minimums. However, the Collins configuration 
+uses the “altitude hold” mode of the existing autopilot/flight director; hence, it is not suitable for 
+approaches to lower weather minimums with autoland (multichannel) systems. Several other areas 
+of concern regarding fleet retrofit, monitoring, and autopilot/ flight director certification were also 
+noted in this study. Alternate configurations using already certified approach modes should be 
+considered when defining hardware for large-scale fleet retrofit. Regardless of the configuration 
+implemented, modifications to existing equipment are required but can be minimized by 
+two-segment system input/output circuitry design. 
+
+Certification can be accomplished by either the operational method where individual airlines 
+obtain supplemental type certificates applicable to their particular aircraft, or by the engineering 
+method where the airframe manufacturer obtains type-certificate revisions applicable to all airlines. 
+Either method will require flight testing, performance evaluation, and failure analyses, with the 
+extent of the required program dependent on the avionics configuration selected. 
+
+The overall NASA/UAL/Collins effort is quite comprehensive and should provide valuable data 
+concerning the operational suitability of two-segment approaches. When procedures and hardware 
+are defined for fleetwide implementation, noise trades for the alternate flap settings should be 
+conducted (i.e., increased flaps allow steeper upper segments but increase noise on the ILS), and 
+further consideration should be given to nonstandard days, variations from nominal airframe/engine 
+characteristics, alternate avionics configurations, monitoring, and to the compatibility (reliability, 
+failure modes, flight checks) of DME facilities. 
+
+
+2 
+
+
+
+2.0 INTRODUCTION 
+
+
+2.1 BACKGROUND 
+
+The NASA-Ames Research Center has implemented a program to further develop and evaluate 
+the operational feasibility of the two-segment landing approach as a means of reducing community 
+noise near airports. The program includes the development and evaluation of avionics that will aid 
+the pilot in making two-segment approaches. Flight evaluations have been completed for the Boeing 
+727 and are in progress for the DC-8. The 727 system requires a DME ground station collocated 
+with the ILS glide slope transmitter, while the DC-8 system requires R-NAV capability. 
+
+The NASA program involves the participation of an engineering contractor (Collins Radio) to 
+design and fabricate the avionics and an airline contractor (United Air Lines) to develop the 
+procedures in a simulation study, to install the equipment in the evaluation aircraft, to conduct an 
+engineering flight evaluation, and, finally, to conduct a line operational evaluation of the equipment 
+and procedures. The 727 line evaluation was conducted during regularly scheduled passenger service 
+using a UAL 727-200 flown by line pilots on the California-Oregon route. 
+
+This study complements the above program by making a preliminary determination of the 
+applicability of the two-segment approach to the entire fleet of Boeing commercial jet transports. 
+The aircraft of interest are the 707, 727, 737, and 747. This is a feasibility study and does not 
+include simulation or flight test. The required tasks are: 
+
+• Task I— path performance analyses 
+
+« Task IJ— airplane systems review 
+
+• Task III— program review 
+
+
+2.2 OPERATIONAL CRITERIA 
+
+A general statement, sometimes made in discussions of noise-abatement approaches, is that it 
+should be possible to use the same procedure* for all approaches, VFR or IFR. Provision of IFR 
+capability is very desirable with respect to crew training and proficiency and need not adversely 
+
+
+'““Procedure” implies a total definition of all operational variables such as flap position, glide slope angle, etc. 
+
+
+3 
+
+
+
+affect the noise benefits. However, analyses of noise-abatement approach procedures show there are 
+operational limitations associated with the noise reduction. These limitations result when the 
+procedure reduces the approach thrust below the level required to provide a particular operational 
+capability. In general, approach procedures that require less thrust than current ILS procedures will 
+be quieter but will also be restricted to less severe tailwind/icing conditions. Auto throttle 
+compatibility may also be affected. 
+
+Thus, if a single new procedure were developed to replace current ILS procedures, the 
+potential noise benelits of the new procedure and the operational flexibility available with current 
+ILS procedures would be compromised. Since gear/ flap/speed schedules for the two-segment 
+approach are very similar to normal ILS procedures, it appears preferable to specify upper-segment 
+glide slope angles that will maximize noise benefits for the majority of approach conditions and to 
+retain current ILS glide slopes for use in unusual weather conditions. 
+
+
+Consistent with the above rationale, the following operational criteria were defined for use in 
+this study: 
+
+• Upper Glide Slope Angle: For purposes of this study, it is not necessary to use the same 
+upper glide slope angle for all models. The glide slopes for each model should be the 
+steepest considered feasible, with adequate margins provided for speed/path control. 
+However, glide slopes steeper than 6° are not to be specified until feasibility is 
+demonstrated by simulator or flight tests (beyond the scope of this study). 
+
+• Wind and Weather: Requirements for instrument approaches to category II minimums 
+should be satisfied, except that the upper segment need not be compatible with icing or 
+reported tailwind conditions. This assumes that normal ILS procedures will be retained 
+for use in these weather conditions. While the upper-segment glide slope need not provide 
+a margin for speed/path control in reported (sustained) tailwinds, sufficient margin 
+should be provided to cope with random tail gusts likely to be encountered in turbulence. 
+
+• Autopilot Compatibility: The capability to fly coupled two-segment approaches to 
+category II minimums is required. Compatibility with a category III autopilot (or a 
+category II autopilot with autoland) is desirable. 
+
+• Autothrottle Compatibility: The ability to use autothrottles is desirable, particularly for 
+the 747. However, the upper glide slope should not be reduced solely for the purpose of 
+providing autothrottle compatibility. 
+
+
+4 
+
+
+
+2.3 UNITS OF MEASUREMENT 
+
+
+Calculations were made in the U.S. customary system of units and converted to SI units using 
+conversion factors from reference 1. Both the U.S. customary and the SI units are shown on the 
+data plots. 
+
+The maximum and minimum weight conditions are identified on the data plots by showing the 
+airplane weight in pounds. The corresponding gravitational forces in newtons are listed in table I for 
+reference: 
+
+
+TABLE !. —AIRPLANE WEIGHTS 
+
+
+— 
+
+Model 
+
+Flap 
+
+position 
+
+Landing weights 
+
+Maximum 
+
+Minimum 
+
+1 000 lb 
+
+1000 N 
+
+1000 lb 
+
+1000 N 
+
+707-300B (Adv)/C 
+
+40 
+
+247 
+
+1098 
+
+160 
+
+712 
+
+(JT3D-3B1 
+
+50 
+
+
+
+
+
+727-200 
+
+30 
+
+154.5 
+
+687 
+
+110 
+
+489 
+
+(JT8D-9) 
+
+40 
+
+142,5 
+
+634 
+
+
+
+737-200 
+
+30 
+
+103 
+
+458 
+
+66 
+
+294 
+
+(JT8D-9) 
+
+40 
+
+
+
+
+
+747-200B 
+
+25 
+
+564 
+
+2509 
+
+380 
+
+1690 
+
+(JT9D-7) 
+
+30 
+
+
+
+
+
+
+3.0 TASK I— PATH PERFORMANCE ANALYSES 
+
+
+This task involves presentation of thrust data, steady-state flightpath angle (7) capabilities, 
+approach speeds, and flap placards for representative passenger models of Boeing 707/727/737/747 
+aircraft and review of the 727 two-segment approach procedures defined by NASA/UAL for 
+feasibility of application to the Boeing fleet. 
+
+Steady-state flightpath angle ( 7 ) data are summarized on figure 1 for two power settings, at 
+speeds (1.3 V g + 15) corresponding to the upper-segment glide slope speed selected by NASA/UAL 
+for the 727 procedure. Since current autothrottle aft limits are set above engine idle, the path angle 
+at the autothrottle aft limit would be shallower than for engine idle (sec. 3.2.3). Upper-segment 
+glide slope capabilities (earth referenced) are less than the 7 capabilities (referenced to the air mass) 
+shown on figure 1, due to the margins necessary for speed/path control (sec. 3.3). 
+
+
+5 
+
+
+
+
+notes: 
+
+
+GEAR DOWN 
+SEA LEVEL , STD - DAV 
+V» ». , 5y s t»5 
+
+
+
+FIGURE 1.— TRIMMED FLIGHTPATH ANGLE (y) FOR BOEING TRANSPORTS 
+
+
+6 
+
+
+
+
+
+
+
+
+
+
+
+
+
+The NASA/UAL two-segment approach procedures for the 727 are defined on figure 2. The 6° 
+upper glide slope is flown with gear down using the minimum certified flap position (30), at a speed 
+(V re f + 1 5) slightly higher than the normal final approach speed. Transition to the ILS glide slope is 
+begun at about 1000 ft of altitude and is completed above 500 ft. Speed is allowed to bleed down 
+to the normal final approach speed, and thrust is advanced to the normal approach thrust during the 
+transition. Thereafter, the approach is the same as for a normal ILS. 
+
+These procedures appear feasible for application to the Boeing fleet with the maximum upper 
+glide slopes and operational limitations shown in figure 2. The glide slopes and operational 
+limitations are based on the use of the reduced (certified) landing flap position for the 
+707/727/737. The maximum flap *position was used for the 747 because the 747 landing 
+configurations are relatively cleaner than for the other models; e,g., the 727 minimum certified 
+landing flap position is the same as the 747 maximum flap position. 
+
+The upper glide slopes shown on figure 2 provide the same thrust margin from idle for all 
+models. Shallower glide slopes would be required if based on the autothrottle aft limit or the 
+minimum power setting for inlet anti-ice. At present, “flight idle” is used for 747 approaches; but it 
+is feasible to use “minimum idle” if required for noise abatement. The other models (707/727/737) 
+have no “flight idle” limit. 
+
+The adequacy of the thrust margin (equivalent to a AT =-l .2° path modulation capability for 
+the minimum-weight case) should be determined from NASA/UAL 727 flight test results. Analyses 
+indicate that it should be sufficient for speed/path control under normal approach conditions, but 
+that additional margin would be necessary for the tailwind profile considered. 
+
+
+3.1 THRUST DATA 
+
+Figures 3 through 6 present the throttle/EPR/thrust relationships for nominal JT3D-3B (707), 
+JT8D-9 (727/737), and JT9D-7 (747) engines. These data are based on estimates for “nominal” 
+engines and are valid, for purposes of this feasibility study, for the conditions shown on the plots. 
+However, substantial variations from the nominal should be expected. Engine characteristics at low 
+power settings (near idle) are not well defined because of considerable engine-to-engine variations 
+and other factors. The relationship between EPR and power lever angle is particularly uncertain due 
+to rigging tolerances and differences in the surge bleed valve operating points. Very little flight test 
+data are available regarding the thrust/EPR/Nj relationships at power settings below that required 
+for a normal ILS approach. 
+
+
+7 
+
+
+
+00 
+
+
+NOTE: 
+
+E> REDUCED (CERTIFIED) FLAP POSITIONS: FOR 707/727/737 MAX FOR 747 
+0D> PROVIDES A 7 =-1.2° MARGIN FROM MIN. IDLE (AT MIN WEIGHT) 
+
+3 UPPER GLIDE SLOPES NOT COMPATIBLE WITH: 
+
+• ICING CONDITIONS 
+
+• REPORTED TAILWINDS 
+
+• CURRENT AUTOTHROTTLES 
+
+
+NASA/UAL 
+
+
+MAXIMUM UPPER GLIDE SLOPES 
+MODEL 
+
+707-300B ADV/C 
+-► 727-200 
+737-200 
+747-200 
+
+
+
+FIGURE 2.—APPUCA TiON OF NASA/UAL TWO-SEGMENT APPROACHES TO BOEING AIRCRAFT 
+
+
+
+engine PRESSURE RATIO (EPRI 
+
+
+2.2 K 
+
+
+2.0 
+
+
+EPR VS. TLA 
+
+• NOMINAL ENGINE 
+
+• NO CABLE LOAD 
+
+• NO ENGINE AIRBLEED 
+
+• SEA LEVEL STATIC 
+
+• NOT TO BE USED FOR POWER SETTING 
+
+
+IN -FLIGHT THRUST SETTINGS 
+(SEA LEVEL, STD DAY, NO ANTI - ICING BLEED) 
+
+
+T T2 = 5r F (288°K) 
+
+
+1.8 
+
+
+U 
+
+
+1.4 
+
+
+L2 
+
+
+1.0 L- 
+
+
+
+2.2 
+
+
+2.0 h 
+
+
+- 1.8 h 
+
+
+1.6 
+
+
+£Z 
+
+
+NOMINAL IDLE 
+
+
+J- 
+
+
+HANDLE STOP 
+
+— i t 
+
+
+10 20 30 40 50 
+
+FORWARD THRUST LEVER ANGLE (DEGREES) 
+
+
+70 
+
+
+1.2 
+
+
+® 
+
+CD 
+
+© 
+
+
+TAKE-OFF, T/C BLEED OFF 
+TAKE-OFF. T/C BLEED ON 
+MAX CONT, T/C BLEED OFF 
+MAX CONT, T/C BLEED ON 
+
+ESTIMATED IDLE THRUST 
+M; 0, 890 LB 1 3959 N) 
+
+M = 0.1, 820 LB (364BN) 
+
+M- 0.2, 680 LB (3025NI 
+Mi 0.3, 500 LB (2224N) 
+
+
+FN/SAM VS. EPR 
+
+
+
+1000 NEWTONS 
+30 40 
+
+
+VALID WITH OR Wl THOUT AIRBLEED 
+DATA BELOW EPR OF 1.2 ARE 
+EXTRAPOLATED AND SHOULD BE USED 
+FOR STUDY ONLY, NOT FOR POWER 
+SETTING 
+
+DATA PRESENTED DO NOT ACCOUNT 
+FOR ENGINE VARIATIONS 
+IDLE EPR AND THRUST WILL VARY WITH 
+ENGINE TRIM, ENGINE DETERIORATION 
+AND AMBIENT CONDITION, AND ARE 
+NOT IDENTIFIED ON THIS CHART 
+60 70 
+
+
+
+FIGURE 3.— NOMINAL ENGINE CHARACTERISTIC FOR LANDING APPROACH STUDY -707 -320B/C 
+AIRPLANE, JT3D-3B ENGINE 
+
+
+INSTALLED NET THRUST FN (1000 LB) 
+
+
+
+ENGINE PRESSURE RATIO (EPR) 
+
+
+O 
+
+
+EPR VS. TLA 
+
+
+
+2.2 h 
+
+
+IN • flight thrust settings 
+(SEA LEVEL, STD DAY, NO ANTI - I CING BLEED) 
+© TAKE-OFF, A/C BLEED OFF 
+(2) TAKE-OFF, A/C BLEED ON 
+® MAX CONT, A/C BLEED OFF 
+(i) MAX CONT. A/C BLEED ON 
+ESTIMATED IDLE THRUST: 
+
+M=0, »40 LB 
+
+0.1, 580 LB 
+M = 0.2, 350 LB 
+M * 0.3, 120 LB 
+
+
+M = .3 .2 .1 
+
+
+V5. EPR 
+
+« VALID WITH OR WITHOUT AIRBLEEO 
+
+• DATA BELOW EPR OF 1.2 ARE 
+EXTRAPOLATED AND SHOULD BE USED 
+FOR STUOY ONLY, NOT FOR POWER 
+SETTING 
+
+• DATA PRESENTED DO NOT ACCOUNT 
+FOR ENGINE VARIATIONS 
+
+• IDLE EPR AND THRUST WILL VARY WITH 
+ENGINE TRIM. ENGINE DETERIORATION 
+AND ANBIENT CONDITION, AND ARE 
+NOT IDENTIFIED ON THIS CHART 
+
+
+
+FIGURE 4.— NOMINAL ENGINE CHARACTERISTIC FOR LANDING APPROACH STUDY -727-200 AIRPLANE, 
+JT8D-9 ENGINE 
+
+
+INSTALLED NET THRUST FN <1000 LB) 
+
+
+
+ENGINE PRESSURE RATIO (EPR) 
+
+
+EPR VS.. TLA 
+
+
+IN - FLIGHT THRUST SETTINGS 
+
+
+
+2.4 h 
+
+
+2.2 k 
+
+
+2.0 r 
+
+
+i-e h 
+
+
+(SEA LEVEL. STD DAY, NO ANTI - ICING BLEED I 
+
+(1) TAKE-OFF, A/C BLEED OFF 
+
+(2) TAKE-OFF . A/C BLEED ON 
+
+(D MAX CONT, A/C BLEED OFF 
+© MAX CONT, A/ C BLEED ON 
+ESTIMATED IDLE THRUST: 
+
+M = 0, 840 LB (3737N) 
+
+M = 0.1, 580 LB (2580N) 
+
+M - 0.2, 350 LBO657N) 
+
+M - OJ, 120 LB (634N) 
+
+
+M-.3 .2 ,1 
+
+
+
+VS. EPR 
+
+• VALID WITH OR WITHOUT AIRBLEED 
+
+• DATA BELOW EPR OF 1.2 ARE 
+EXTRAPOLATED AND SHOULD BE USED 
+FOR STUDY ONLY, NOT FOR POWER 
+SETTING 
+
+• DATA PRESENTED DO NOT ACCOUNT 
+FOR ENGINE VARIATIONS 
+
+• IDLE EPR AND THRUST WILL VARY WITH 
+ENGINE TRIM, ENGINE DETERIORATION 
+AND AMBIENT CONDITION, AND ARE 
+NOT IDENTIFIED ON THIS CHART 
+
+
+lOOO NEWTONS 
+30 40 
+
+
+50H 
+
+
+
+Ho 
+
+
+H2 
+
+
+FIGURE 5.— NOMINAL ENGINE CHARACTERISTIC FOR LANDING APPROACH STUDY-737-200 AIRPLANE , 
+JT8D-9 ENGINE 
+
+
+INSTALLED NET THRLfi T FN (1000 LB 
+
+
+
+ENGINE PRESSURE RATIO (EPRI 
+
+
+(O 
+
+
+EPR VS. TLA 
+
+NOMINAL ENGINE 
+NO CABLE LOAD 
+NO ENGINE AIRBLEED 
+SEA LEVEL, M r.2 
+
+MIN. IDLE 
+
+FLIGHT IDLE 
+
+NOT TO BE USED FOR 
+POWER SETTING 
+
+
+
+T TZ - IS.* F (266° K) 
+
+
+59 (288°K> 
+
+
+100 (31 TK) 
+
+
+typical surge bleed switching 
+
+(VARIATION BETWEEN ENGINES IS SIGNIFICANT) 
+
+
+IDLE 
+
+
+FUEL CONTROL 
+STOP 
+
+I HANDLE STOP 
+
+_i * —lit 
+
+
+10 20 30 40 50 M 
+
+FORWARD THRUST LEVER ANGLE (DEGREES) 
+
+
+70 
+
+
+FN/& At) VS. EPR 
+
+« VALID WITH OR WITHOUT AIRBLEED 
+• VALID FOR STD. AND NON-STD 
+TEMP. DAY 
+
+
+
+FIGURE 6.— NOMINAL ENGINE CHARACTERISTIC FOR LANDING APPROACH STUDY-747-200 AIRPLANE, 
+JT9D-7 ENGINE 
+
+
+INSTALLED NET THRUST FNUOOO LB) 
+
+
+
+
+3.2 TRIMMED PATH PERFORMANCE 
+
+
+3.2.1 Data 
+
+Figures 7 through 1 4 show computed values of the trimmed flightpath angle (zero-wind glide 
+slope) 7 for the Boeing 707-300B Advanced/C, 727-200, 737-200 basic, and 747-200. The 
+relationship between 7 and EPR (nominal engine) is shown for each model with the gear down and 
+the flaps in two landing positions. Each flap setting is shown at two weights. The larger weight is the 
+current maximum certificated landing weight for the particular flap setting. The smaller weight is 
+based on approximately the sum of the operating empty weight plus minimum fuel reserves with no 
+allowance for payload. 
+
+
+3.2.2 Computation 
+
+For conventional airplanes in straight flight, the steady-state flightpath angle (7) relative to the 
+air mass is determined by the thrust-to-weight ratio (T/W), drag-to-lift ratio, (D/L), and inertial 
+deceleration (dV/dt) in accordance with the following equation: 
+
+7 =T/W-D/L-~ (1) 
+
+(rad) § at 
+
+The 7 /EPR relationships were obtained by first computing the thrust (F n ) required for trim and 
+then determining the corresponding EPR from the generalized thrust curves presented in section 
+3.1. The thrust required for trim was computed for a constant equivalent airspeed descent using the 
+following equation: 
+
+F n = W[D/L+7(1 + 0.567 M 2 )] 
+
+
+where: 
+
+7 is negative for a descent 
+
+0.567 M 2 results from the dV/dt term of equation (1 ) 
+The D/L data were obtained from certificated drag polars. 
+
+
+13 
+
+
+
+EPt*> 
+
+
+\.\ 
+
+
+1.0 
+
+
+
+FIGURE 7.-C0MPUTED APPROACH PATH, LANDING FLAPS 40-707 300B ADVANCED /C 
+14 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A\PfrFEED - VSTSOT^ 
+
+
+• ?>EA LEVEL 
+
+• DAY 
+
+
+
+FIGURE 9.-C0MPUTED APPROACH PATH, LANDING F LAPS 30-727-200 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HPR 
+
+
+
+FIGURE 10.-COMPUTED APPROACH PATH, LANDING FLAPS 40-727-200 
+
+
+17 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+• *CAVXV€A- 
+
+
+
+FfGURE 14.— COMPUTED APPROACH PATH, LANDING FLAPS 30-747-200 B 
+
+
+21 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.2.3 Limits 
+
+
+For a given weight (W) and drag-to-lift ratio (D/L), the steep glide slope capability is limited by 
+the minimum attainable thrust. Two of the engine operating limits considered are indicated on the 
+data plots. These are: 
+
+• Idle: Two idle limits are shown for the 747. For the current 747, the “flight idle” limit is 
+activated when airborne with a flap position greater than 22 (normal for landing). 
+However, it appears feasible to remove the “flight idle” limit if required for 
+noise-abatement approaches. There is no separate “flight idle” limit for the 707/727/737. 
+
+• Anti-Ice: The flight manuals specify a minimum Nj to be maintained in icing conditions 
+to provide adequate bleed air temperature and quantity for engine inlet anti-ice. The 
+dashed lines labeled as percentage Nj show the approximate EPR associated with the 
+minimum Nj requirements. Anti-ice is not necessary at the ambient conditions for these 
+plots, but the lines are shown to indicate the limits placed upon the glide slope obtainable 
+if it is desired to maintain the specified Nj . For actual icing conditions (colder), the EPR 
+corresponding to the specified Nj is higher than the value shown. This further reduces the 
+sleep glide slope capability. 
+
+The trimmed 7 capability corresponding to these two limits is summarized in figure 1 for a 
+V ref + 1 5 approach speed. It is important to note that the figure 1 data apply to nominal engines on 
+a standard day with no margin for modulating thrust to control speed or path. 
+
+If autothrottles are used for speed control, a third limitation on minimum thrust must be 
+considered. The autothrottle aft limit is set higher than engine idle for all models. Consequently, the 
+trimmed path angle at the autothrottle aft limit will be shallower by the amount shown on figure 
+15. The figure 15 increments depend only on the change in T/W between the auto throttle and 
+manual throttle limits, so they are approximately applicable to either flap position. 
+
+
+3.3 THRUST MARGINS 
+
+The upper glide slope angle should be shallower than the nominal trimmed idle-thrustT 
+capability of the airplane. This is desirable to provide an allowance for several factors including: 
+
+• Variations from nominal airframe/engine characteristics 
+
+• Nonstandard days 
+
+
+22 
+
+
+
+
+
+
+• Tailwinds 
+
+
+• Path corrections. 
+
+It was agreed to conduct this feasibility study for nominal airplanes on standard days, so the first 
+two factors have not been analyzed. 
+
+The thrust margins (from idle) required for speed control during path corrections and in 
+shearing tailwind conditions are discussed below. 
+
+3.3.1 Path Corrections 
+
+Figure 16 illustrates the effect of the path modulation capability (A7) on the distance required 
+to correct a one-dot deviation above glide slope. The A 7 capability is the difference between the 
+glide slope angle and the earth-referenced 7 £ capability of the airplane. For a given glide slope 
+angle, the A 7 capability is increased by headwinds and decreased by tailwinds, as discussed below. 
+
+The A X distances on figure 16 show the distance traveled while correcting a one-dot deviation 
+from the glide slope. The one-dot magnitude was selected arbitrarily, since the expected glideslope 
+deviations for two-segment approaches were not available. A one-dot deviation is typical of the 
+“window” defined for category II flight director certification. For the current NASA/UAL/Collins 
+system, a one-dot deviation on the upper glide slope corresponds to a 250-ft altitude error 
+(independent of X distance). The cutoff on the allowable distance is based on the assumption that a 
+tracking error of this magnitude will probably occur only during glide slope capture (3500 ft for 
+LAX); and that it should be possible to correct the error before reaching the start-transition altitude 
+(1050 ft). 
+
+The idle thrust data on figure 1 show that the NASA/UAL procedure for the 727 (flaps 30 and 
+6° upper glide slope) provides aA7 = -1.2° capability for still-air, minimum-weight conditions. 
+Figure 16 indicates this will be satisfactory, particularly since: 
+
+• Some overspeed can be tolerated on the upper path (this increases the A 7 capability due 
+to the drag increase). 
+
+• The transition altitude is high enough to adjust to target speed prior to landing. 
+
+• Normally, the aircraft will be operating at heavier weights and in a headwind. 
+
+However, the adequacy of the A 7 capability should be determined from a review of the operational 
+flight test results. 
+
+
+24 
+
+
+
+
+PATH MODULATION CAPABILITY 
+
+
+FIGURE 16.— GROUND DISTANCE REQUIRED TO CORRECT ONE DOT GLIDE SLOPE OFFSET 
+
+25 
+
+
+
+
+
+
+
+
+
+
+3.3.2 Tailwind (Also See Sec. 4.6) 
+
+
+The thrust margin required for speed/path control in a shearing tail wind was analyzed. An 
+equation was developed that shows that the thrust margin required for speed control in a given tail 
+wind is proportional to the glide slope angle, being greater for steeper glide slopes. 
+
+3.3.2. 1 Derivation of Equation 
+
+The derivation of an equation for computing the thrust modulation required for speed control 
+was suggested by reference 2, which pointed out that a shearing tailwind has two effects on thrust 
+requirements. 
+
+1) Path Angle Effect: When tracking a glide slope in a tailwind, the flightpath angle (7) 
+relative to the air mass is steeper than the earth-referenced glide slope (7^^). The 
+relationship between the two is a function of wind speed (V w ) and true airspeed (V^) 
+and can be derived from the small-angle approximation for sink rate (dh/dt) 
+
+dh/dt- T V A =7 earth (V A + V w ) 
+
+(Ground speed) 
+
+2) Deceleration Effect: An airplane flying in a tailwind is immersed in an air mass that is 
+moving in the same direction as the airplane. If the air mass slows down, relative to the 
+earth, then the airplane must slow down (ground speed) by the same amount to maintain 
+constant airspeed. Since wind speed is usually considered to shear as a function of 
+altitude (e.g., 4 kn per 100 ft) then the inertial deceleration required to maintain constant 
+speed can be computed from: 
+
+dV/dt = dV w /dh x dh/dt 
+
+* dV w /dh x V G x 7 earth 
+
+(Wind (Ground (Glide slope) 
+shear) speed) 
+
+
+26 
+
+
+
+The above equations can be combined with equation (1) to obtain the difference in thrust 
+required between still air and shearing tailwind conditions. This difference is given by: 
+
+
+AT / W dearth 
+(rad) 
+
+
+
+(1.69)' 
+
+
+rv ^ (Speeds in knots) 
+dh (Altitude in feet) 
+
+
+( 2 ) 
+
+
+3.3. 2.2 Data for 10-Kn Reported Tailwind 
+
+Figure 17 presents the thrust margin requirements that result from equation (2) for a tailwind 
+profile based on a 10-kn reported wind with a severe shear corresponding to very stable, 
+(nonturbulent) atmospheric conditions. The wind speed is 35 kn at altitudes above 1 500 ft. 
+
+The thrust margin A T/W is sometimes expressed in terms of the AT capability (at constant 
+speed) and is shown in that form on figure 17. Although the figure 17 data are expressed in terms of 
+AY, the thrust margin is required for speed control on the glide slope, and no allowance for path 
+tracking errors is included. 
+
+The data for the 3° path illustrate the relative magnitudes of the path angle and deceleration 
+effects for the particular tailwind profile used in the study. It is seen that (for this wind profile) the 
+path angle (wind velocity) effect predominates at higher altitudes, while the deceleration (wind 
+shear) effect predominates closer to the ground at altitudes below the NASA/UAL transition height. 
+
+As seen from equation (2), the thrust margin required for a particular wind profile at a given 
+altitude is proportional to^ ear th* The figure 17 data show that the thrust margin required for a 6° 
+path exceeds the AY= -1.2° margin provided by procedures defined on figure 2. Hence, the glide 
+slopes shown on figure 2 would have to be reduced to provide compatibility with the tailwind 
+profile used for this study. This is not recommended, however, for reasons discussed in 
+section 4.6.1. 
+
+
+3.4 PROCEDURES REVIEW 
+
+The 727 two-segment glide slope procedure recommended by NASA/UAL for further 
+evaluation by line pilots in revenue service is illustrated on figure 2. This procedure was reviewed for 
+feasibility with respect to the approach path performance capability of the Boeing fleet, considering 
+such factors as safety, stall margins, wind shear, engine response, FAR 25 requirements, ATC 
+procedures, etc. Since terminal area maneuvering, upper glide slope capture, and ILS glide slope 
+tracking below 500 ft are essentially the same as for normal ILS approaches, only the steep glide 
+slope and transition phases are discussed. 
+
+
+27 
+
+
+
+/ 
+
+^ILWjNO^OMPAmSON^ 
+
+
+
+
+THRUST MARGIN RE<**D FOR 
+SPEED CONTROL IN OEFINED TAILWIND 
+
+
+degrees 
+
+
+• NO A.LLOWRNCC FOR 
+
+
+
+METERS 
+
+FEET 
+
+
+FIGURE 17.-ANALYS/SOF THRUST MODULATION IN SHEARING TAILWINDS 
+
+
+28 
+
+
+
+
+The aspects of the procedure discussed in sections 3.4.1 through 3.4.4 below, appear 
+satisfactory for all Boeing models. The upper path angles depend on the model and operational 
+criteria. 
+
+
+3.4.1 Gear 
+
+Gear extension during upper glide slope capture is consistent with normal ILS procedures and 
+is recommended from a safety, pilot workload, and checklist compatibility point of view. The 
+added drag, while contributing to aerodynamic noise, allows the use of steeper glide slopes. 
+
+3.4.2 Reduced Landing Flaps (Maximum Flaps for 747) 
+
+All Boeing models have at least two certified landing flap positions (the 737 has three). Use of 
+the reduced flap position is satisfactory where field length permits. Some 707/727/747 operators 
+have blocked the maximum flap position so that only the reduced setting is available to their pilots. 
+The reduced flap setting reduces noise on the ILS glide slope but decreases the steep glide slope 
+capability. Noise trades were not calculated in this study but should be considered before making a 
+final recommendation regarding the flap position and path angle. The results of such a trade study 
+would be highly dependent on the criteria used for evaluating noise. Since the certified landing 
+configurations for the 747 are relatively cleaner than for the other models, maximum flaps were 
+used to define the 747 glide slope, while reduced flaps were used for the 707/727/737. 
+
+3.4.3 Speeds 
+
+The two-segment approach speeds (V re f +15 upper segment, V re f + 5 on ILS) appear to be 
+safe and reasonable for flying the designated profile with all models. The nominal transition is a 
+very gentle maneuver requiring a nominal load factor on the order of 1.01 g to accomplish a 3° 
+change in path angle over a 30-sec time period. If speeds are maintained at or above the specified 
+values, FAR 25 stall margins will be adequate. The 10-kn speed bleed during the transition is 
+considered desirable (in spite of the trim change) because engine response is slow at power settings 
+near idle. The extra 10 kn should allow the pilot to perform a smoother spoolup with less concern 
+about speed undershoots. 
+
+3.4.4 Transition Altitude 
+
+The hazardous nature of operating turbojet aircraft at high sink rates and low power settings 
+‘‘close to the ground” has long been recognized. The difficult question of “how close is too close?” 
+has been the subject of a number of simulator and flight evaluations. The altitudes selected by 
+NASA/UAL appear reasonable and safe from an engineering point of view, if the pilots consistently 
+track the beam. The UAL 727 on-line evaluation should provide useful data in this area. 
+
+
+29 
+
+
+
+Figure 1 8a shows the relationship of the NASA/UAL two-segment glide slope to the airport 
+obstacle clearance plane specified by FAR 77.25. Figure 18b shows the altitude separation between 
+the nominal profile and the highest allowable obstacle. Since there is adequate obstacle clearance, 
+and since the transition allows about 30 sec for spoolup to normal approach power, the nominal 
+profile is compatible with engine response characteristics. However, a potentially hazardous 
+situation could develop if the pilot were distracted at the start-transition altitude since, timewise, 
+the aircraft is about 30 sec above the obstacles if the high sink rate is maintained. 
+
+Approach and landing climb gradient certification under FAR 25 is discussed in section 4.6.1. 
+
+3.4.5 Upper Glide Slope Angles 
+
+Maximum glide slope angles for each model were selected in accordance with the operational 
+criteria presented in section 2.0. The maximum glide slope angles provide aA7 =-1.2° path 
+modulation capability relative to idle thrust for the nominal airframe/engine, at minimum weight, in 
+still air, on a standard day, with minimum landing flaps (maximum flaps for 747), and at V ref + 1 5. 
+This is consistent with the NASA/UAL procedure for the 727. The recommended maximum upper 
+glide slope angles and the corresponding flap positions and operational limitations are defined on 
+figure 2. 
+
+Restricting use of two-segment approaches to nonicing, non tailwind conditions is not viewed 
+as a disadvantage of two-segment glide slopes when compared to other noise-abatement approach 
+techniques. In fact, one advantage of the NASA two-segment system, when compared to steeper 
+ILS beams, is that current ILS glide slope angles and procedures remain available as a backup for use 
+in adverse weather conditions. If it is determined that these operational limitations significantly 
+detract from the usefulness of two-segment procedures, it is possible, though not recommended, to 
+provide the required capability by reducing the upper path angle or using increased flaps (for 
+customer aircraft so equipped). 
+
+
+4.0 TASK ll-AIRPLANE SYSTEMS REVIEW 
+
+
+4.1 PURPOSE 
+
+The purpose of this task is to assess the adequacy of the autopilot, flight director, and other 
+associated systems currently installed in Boeing aircraft for performing two-segment approaches. 
+Emphasis is on equipment modification and recertiiication aspects. Consideration was limited to 
+systems and procedures similar to those used for the UAL 727 line evaluation. 
+
+
+30 
+
+
+
+
+
+
+
+
+
+
+4.2 NASA SYSTEM DESCRIPTION 
+
+The NASA two-segment approach system provides the capability to fly two-segment glide 
+slopes, using either the flight director or autopilot, under VFR or IFR conditions. The normal ILS 
+beam is used for lower segment guidance, while the upper path is computed by the airborne system. 
+
+The two-segment system developed by Collins Radio for the UAL 727 evaluation computes 
+the upper path using DME range (DME ground station collocated with the ILS glide slope), field 
+elevation (pilot input), and barometric altitude. Guidance and monitoring information are displayed 
+to the pilot via the flight director (ADI), the horizontal situation indicator (HSI), and the approach 
+progress display annunciator panel. 
+
+
+4.3 AVIONICS MECHANIZATION CONCEPTS 
+
+Detailed hardware mechanization of the two-segment control laws can be accomplished in 
+several different ways while retaining the two-segment path reference concepts developed and 
+evaluated by NASA/Collins/UAL. The extent of the fleet retrofit and certification program and the 
+ability to use existing system capabilities (e.g., autoland) during two-segment approaches may 
+depend on the mechanization concept selected. Consequently, two alternate avionics configurations 
+were considered in this study, while using the UAL 727 installation as a baseline. 
+
+The three avionics configurations considered are outlined on figure 1 9. All three use the same 
+path reference information as provided by the ILS beam and the existing Collins two-segment 
+computer. The differences are in the method and degree of utilization of existing autopilot/flight 
+director hardware. Configuration A (Collins unit) uses the “altitude hold” mode for the entire 
+approach. Configuration B is the same as configuration A until the ILS beam is captured, at which 
+point control is switched to the existing approach mode. Configuration C uses the “approach” 
+mode for the entire approach. 
+
+Configuration A was implemented by Collins and has been successfully flight tested on the 
+UAL 727. Installation of this unit in other Boeing models is feasible, based on control law 
+similarity, although design differences will arise because of variations in ship’s wiring and logic signal 
+requirements. Interfacing with the various autopilot and flight director computers is facilitated by 
+use of the “altitude hold” mode. This configuration appears suitable for conducting two-segment 
+approaches to category II minimums and should not adversely affect current system certification 
+
+
+32 
+
+
+
+CONFIGURATION A 
+
+2 SEGMENT SYSTEM 
+
+
+
+CONFIGURATION B 
+
+2 SEGMENT SYSTEM 
+
+
+
+CONFIGURATION C 
+
+
+2 SEGMENT SYSTEM 
+
+
+
+FIGURE 19.— COM PA R I SON OF TWO-SEGMENT A V/ONICS CONFIGURATION 
+
+
+33 
+
+
+
+
+for normal ILS approaches. However, it does not use the existing “approach” mode hardware and 
+prohibits the use of autoland** (multichannel) for two-segment operation on those airplanes so 
+equipped. 
+
+The alternate configurations (B and C) take advantage of the existing “approach” mode 
+hardware, which is already certified, and are compatible with autoland systems. This could permit 
+two-segment computer commonality throughout the fleet, thereby eliminating the development of 
+a separate set of hardware for autoland systems only. However, configurations B and C are more 
+dependent than configuration A on individual autopilot and flight director system characteristics 
+and may require more internal modifications to these existing systems. 
+
+It is premature to conclude which avionics configuration is preferable for fleet retrofit until 
+detailed analyses (beyond the scope of this feasibility study) have been conducted. Customer 
+requirements regarding, avionics commonality and autoland capability, and the extent of the 
+required certification effort, should be considered. Detailed configuration definition analyses prior 
+to production are viewed as an essential part of a large-scale fleet retrofit program and could be 
+conducted in a reasonably short time. 
+
+Design, operational, and certification considerations for the three mechanization concepts are 
+summarized in table II. The following sections provide additional details and discussions of the 
+avionics configurations considered. 
+
+4.3.1 Configuration A (Collins Unit) 
+
+Figure 20 is a simplified block diagram illustrating how the existing Collins unit provides the 
+capability for flying both the upper and lower segments through a typical (727) autopilot. The 
+two-segment computer control signal is sent through an interface unit into the “altitude hold” 
+mode of the autopilot. The “glide slope engage” relays are not activated. Upper-segment guidance is 
+based on DME, field elevation, and barometric altitude. Lower-segment guidance is based on 
+DME-programmed ILS glide slope deviation. Path damping for both segments is accomplished 
+through “washed out” barometric altitude rate. 
+
+While compatible with category II systems, use of the Collins configuration for autoland 
+operation would require a redesign of the autopilot “altitude hold” mode to provide multichannel 
+capability. A multichannel system provides fail-passive or fail-operational capability, which is 
+
+
+**“ Autoland” is used herein as a general term to include all systems approved for operation below category II 
+minimums. 
+
+
+34 
+
+
+
+TABLE H.—CONFfGURA TfON DIFFERENCES 
+
+
+Configuration 
+
+Design 
+
+considerations 
+
+Multichannel 
+
+capability 
+
+Failure 
+
+analysis 
+
+Performance 
+
+analysis 
+
+Test program 
+(conducted 
+by manufacturer) 
+
+Letter 
+
+Description 
+
+A 
+
+Existing Collins 
+unit; controls 
+entire approach 
+with a command 
+signal into the 
+"altitude hold" 
+mode 
+
+• Implements a 
+new set of 
+control laws 
+
+• Requires 
+sensor (CADC, 
+DME, altimeter) 
+modification 
+
+None 
+
+Required for 
+complete 
+approach, 
+especially new 
+hardware and 
+sensors 
+
+Must prove that 
+tracking meets 
+Advisory Circular 
+criteria 
+throughout 
+approach 
+
+• Approximately 80 
+approaches per 
+aircraft type 
+
+• Demonstrate 
+performance to lower 
+weather minima 
+
+• Demonstrate system 
+failures during lower 
+segment tracking 
+
+B 
+
+Same as A for 
+upper segment; 
+control trans- 
+ferred to 
+"approach" 
+mode after lower 
+segment capture 
+
+• Requires 
+change in 
+autopilot logic 
+
+• Requires sensor 
+(CADC, DME, 
+altimeter) 
+modification 
+
+Same as 
+existing 
+autopilot 
+
+Required for 
+upper segment 
+and transition 
+only; existing 
+analysis used 
+for lower 
+segment 
+
+Must prove that 
+lower segment 
+tracking not 
+affected by 
+transition 
+
+•Approximately 30 
+approaches per 
+aircraft type 
+
+• Lower segment already 
+certified; must 
+demonstrate that 
+transition does not 
+affect lower segment 
+performance 
+
+C 
+
+Entire approach 
+controlled via a 
+steering signal 
+through the 
+"approach" 
+mode 
+
+Same as B 
+
+Same as B 
+
+Same as B 
+
+Same as B 
+
+Same as B 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+required for operation below category II minimums. Design consideration must be given to 
+minimizing tracking errors between channels and to including such items as equalization, confidence 
+testing, and fault detection. 
+
+
+4.3,2 Alternate Configurations (B and C) 
+
+Two other techniques considered for mechanizing the two-segment approach hardware take 
+advantage of the already certified approach modes and retain the autoland capability. Simplified 
+block diagrams of these configurations (B and C) are presented as figures 2 1 and 22, respectively. 
+Configuration B uses the Collins two-segment computer for upper-segment control and transition to 
+the ILS through the “altitude hold” mode of the existing autopilot. However, upon reaching a 
+prescribed ILS beam deviation, lower-segment control is transferred to the already certified 
+approach mode. This transfer of control requires actuation of the several “glide slope engage” relays 
+within the existing autopilot system at a low altitude. 
+
+Configuration C uses the existing approach mode during the entire two-segment approach and 
+thus does not require autopilot mode switching during the transition. A steering signal generated 
+within the two-segment computer (differs from the Collins unit) provides command information for 
+upper-segment capture and track and for transition to the ILS. During the transition, the path 
+reference signal source is switched from the two-segment computer to the normal ILS, while the 
+autopilot remains in the approach mode. To use the approach mode on the upper segment, it is 
+necessary to provide a signal (comparable to ILS beam capture) that will close the “glide slope 
+engage” relays during upper-segment capture. Other logic signals may be required depending on the 
+particular autopilot/flight director system characteristics. 
+
+
+4.4 ASSOCIATED EQUIPMENT 
+
+The following components are required for two-segment operation on a single-channel basis. In 
+addition, this list contains their availability in Boeing aircraft. 
+
+VHF NAV RCVR At least two are available in every aircraft; they are standardized on ARINC 
+547 characteristics. 
+
+Autopilot Single-channel systems are used in a majority of the 707, 727, 737 fleet. Some 
+
+707s and 727s are provided with monitored or dual-channel systems. All 747s 
+have at least dual-channel systems with, in some cases, triple channels. 
+
+
+37 
+
+
+
+
+FIGURE 21.— SIMPLIFIED TWO-, 
+
+
+
+NOTE: 
+
+1. 6/S ENG. = LOWER SEGMENT CAPTURE (L/SQ 
+
+
+- CONFIGURA T/ON B 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+controller 
+
+
+
+NOTE: 
+
+1. G/S = UPPER SEGMENT CAPTURE (U/SC) 
+
+
+FIGURE 22.— SIMPLIFIED TWO-SEGMENT SYSTEM-CONFIGURATION C 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Autothrottle 
+
+
+Attitude source 
+(vertical gyro 
+or INS) 
+
+Radio 
+
+altimeter 
+
+
+DME 
+
+
+CADC 
+
+
+Barometric 
+
+altimeters 
+
+
+Single-channel systems provide fail-safe operation down to category I or II 
+minimums. Monitored and dual-channel systems provide fail-passive operation 
+for autoland. Triple-channel systems provide for category Ilia fail-operational 
+approaches. 
+
+“Altitude hold” mode and “approach” mode control laws are similar 
+throughout the fleet. The 747 triple-channel approach equations are probably 
+the most unique but also the most adaptable. Each individual system has its 
+own peculiarities with respect to interfacing. 
+
+Some of the fleet has provisions for or installation of the system; all 747s are 
+equipped with autothrottles. Section 3.2.3 discusses the penalty, due to aft 
+limit requirements, that will result from using current autothrottles during 
+two-segment approaches. 
+
+All aircraft are equipped with at least two attitude sources. 
+
+
+Majority of fleet has at least one system with provisions for a second. The 
+autopilot and flight director systems use the radio altimeter output for gain 
+programming, initiation of time-based programming, and logic trip points. 
+
+Majority of domestic fleet uses two Collins 860E-2 DMEs, which are 
+standardized on ARINC 52 ID. Boeing is in the process of standardizing new 
+aircraft with ARINC 568, which provides the pulse-pair output needed for the 
+Collins two-segment computer. 
+
+A modification is available from Collins to provide the pulse-pair output on the 
+860E-2 DMEs. 
+
+Majority of the 727, 737, and 707 fleet uses either a single or dual Honeywell 
+or Kollsman unit standardized on ARINC 545. The early 707s have either a 
+KIFIS system or nothing at all. The 747 uses dual CADCs standardized on 
+ARINC 565. Any modifications to the 747 CADC require an ARINC change. 
+All of the CADC units have an ac synchro altitude output that is not com- 
+patible with the existing Collins unit. 
+
+The Boeing fleet in general utilizes either a servopneumatic or electric 
+barometric altimeter. Most have a barometric corrected altitude output that is 
+
+
+40 
+
+
+
+an ac signal. The altimeters on the 707, 121 , and 737 have a barometrically 
+corrected altitude output via a barometric potentiometer that is used mainly 
+for cabin pressure control (both the captain’s and first officer’s units). The 
+majority of the 747s have servopneumatic altimeters with a few customers 
+having electric. 
+
+
+4.5 MODIFICATION REQUIREMENTS 
+
+Depending on the two-segment system configuration, several modifications will be required. 
+These modifications, although not specifically defined, will occur within the autopilot and flight 
+director computers in addition to the two-segment computer. Interfacing and aircraft wiring 
+modifications will also be required to accommodate the new computers and customer variations. 
+Development testing with the preproduction hardware will determine what modifications will be 
+required for the production hardware. Since the transition to the 3° glide slope is slow and gentle, 
+there appears to be no requirement for changes to the autopilot authority limit or auto-stab trim 
+rates. The existing Collins unit requires a modification of the CADC and barometric altimeter to 
+provide a linear altitude output. It would be more desirable for the Collins unit to be modified for 
+acceptance, of the present CADC signal. The addition of a second potentiometer to the barometric 
+altimeter is dependent on available space and should be avoided. 
+
+
+4.6 CERTIFICATION PROGRAM 
+
+The NASA /Collins two-segment approach system was evaluated in West Coast passenger 
+service by UAL. The Collins unit was installed in a 727-222 airplane, S/N 19913, equipped with an 
+SP-50 autopilot. FAA approval for the installation was by supplemental type certificate (STC) 
+SA 2679 WE, which permits use of the system during revenue flights on that particular aircraft to 
+category I minimums. While approaches to category II minimums were not approved by the STC, it 
+is expected that category II capability can be demonstrated by systems using this mechanization 
+concept (configuration A). 
+
+Certification of additional installations could be obtained by the individual airlines using the 
+STC method. An alternate method would be for the airframe manufacturer to obtain a revision to 
+the basic type certificate. The main advantage is that the manufacturer could take into account the 
+many system options and configurations in use by the airlines. The certification program should 
+also consider possible limitations on the existing airplane certification resulting from the new 
+operating procedures. 
+
+
+41 
+
+
+
+4.6.1 Existing Systems 
+
+
+Installation of the two-segment system will not affect existing certification for normal ILS 
+approaches, provided the autopilot/flight director analyses are updated to show that safety has not 
+been compromised. When the system is used to fly two-segment approaches, however, several 
+possible limitations on current airplane certification must be considered. These include: 
+
+• FAR 25 Climb Gradients: Landing climb gradient certification under FAR 25 is based on 
+the thrust attainable within 8 sec after the throttles have been advanced following a 
+cutback to idle from approach power. When using the NASA/UAL two-segment approach 
+procedure, transition to the normal ILS beam is completed above 500 ft (see sec. 3.4.4). 
+Thus, it is expected that FAR 25 climb gradient certification will not be affected because 
+normal approach power is established above decision altitudes, and the basic climb 
+performance with reduced flap settings is better than with maximum flaps. However, if 
+the two-segment procedure is interpreted by the FAA as reducing the “approach” power, 
+then the landing climb gradient certification would be affected and redemonstration of 
+engine acceleration would be required for the 707/727/737. 
+
+• Autothrottles: The trimmed power setting for the upper glide slope is below current 
+autothrottle aft limits (for the procedures shown on figure 2). Consequently, current 
+autothrottles cannot be certified for two-segment operation (unless shallower glide slopes 
+and/or increased flap settings are used). 
+
+• Anti-Ice: The trimmed power setting for the upper glide slope is below currently 
+published operating limits for the wing deice and engine inlet anti-icing systems. 
+Certification of the two-segment approach system should be limited to nonicing 
+conditions. 
+
+• Tailwinds: Tailwinds, particularly shearing tailwinds, require power reduction for airspeed 
+control. Increasing the glide slope angle reduces the tailwind capability. As discussed in 
+section 3.3.2, the upper glide slope could be reduced to provide adequate thrust margin 
+(from idle) for speed control in a prescribed tailwind. This is not recommended, however, 
+for several reasons: 
+
+a) Wind profiles (velocity /shear) are not sufficiently well defined, in terms of 
+probability of occurrence, to ensure an acceptable frequency of go-arounds. 
+
+b) Decreasing the glide slope will reduce the noise benefits of the two-segment 
+
+procedures for the vast majority of (nontailwind) approaches. A normal ILS could 
+
+be flown in tailwinds. 
+
+42 
+
+
+
+c) The two-segment procedure requires operating the engines at low power settings 
+where the engine acceleration is slower than for a normal approach. Tailwinds 
+further reduce the power setting and require higher sink rates to track the glide 
+slope. If the tailwind shear ceases abruptly, rapid engine acceleration (similar to that 
+available during a normal approach) is required to avoid an underspeed. 
+
+Consequently, certification for two-segment operation in reported tailwind conditions is 
+not recommended. 
+
+
+4.6.2 Two-segment System 
+
+The Collins unit does not use the existing autopilot/flight director approach mode. It is, in 
+effect, a new approach mode and must be certified as such. The autopilot/flight director 
+recertification procedure is described in the following sections. 
+
+4.6. 2.1 Applicable Certification Criteria 
+
+
+System certification for lower weather minima operation is based on the requirements set 
+forth in the FAA Advisory Circulars listed below. 
+
+
+Category I and II 
+Category II 
+
+Category II with autoland 
+Category Ilia 
+
+
+AC 120-29 
+AC 20-31 
+AC 20-5 7 A 
+AC 120-28 A 
+
+
+Advisory Circulary 1 20-29 sets forth the criteria for certifying the airborne system and ground 
+facility to category I or II lower weather minimums. In addition, it presents such items as 
+operational requirements, a maintenance program, systems performance requirements, and obstacle 
+clearance criteria. 
+
+Advisory Circular 20-3 1 sets forth the criteria for certifying an airborne system to category II 
+lower weather minimums. These same criteria are presented in AC 120-29, appendix 1. However, all 
+Boeing category II certifications are based on AC 20-31 since the AC 120 series is primarily 
+addressed to the air carrier. 
+
+
+Advisory Circular 20-57A sets forth the criteria for certifying a category II system with 
+autoland capability. This includes performance requirements for the ILS facility and the touchdown 
+dispersion requirements for the system. Also included is a description of the wind model to be used 
+for simulation evaluation of the system. 
+
+
+43 
+
+
+
+Advisory Circular 120-28A sets forth the criteria for approval of category Ilia systems. It 
+presents operational concepts, requirements for airports and ground facilities, pilot training and 
+proficiency programs, operations procedures, maintenance programs, and the operations demonstra- 
+tion and data collection program. Airworthiness approval of the airborne system is based on the 
+same requirements presented in AC 20-31 and AC 20-57 A. The requirements for fault analyses and 
+reliability studies are also an integral part of AC 1 20-28A. 
+
+Note: Standards and flight checks similar to those for category II or Ilia ILS facilities should 
+be established for the DME stations to ensure reliability and accuracy. 
+
+4. 6. 2. 2 Engineering Effort 
+
+Depending on the two-segment configuration, an engineering analysis must be conducted for 
+the following items to provide an optimum and certifiable system. 
+
+• A simulation of the two-segment system for each aircraft model must be established for 
+adequate evaluation of system performance and failure effects and to optimize the 
+two-segment control laws. 
+
+9 The interfacing required for compatibility between the system and the particular aircraft 
+must be developed. 
+
+• Failure modes and effects analyses must be conducted to determine circuit changes and 
+periodic test requirements. 
+
+s Test program procedures for laboratory testing, aircraft functional testing, and specific 
+flight test conditions must be established. 
+
+4.6. 2. 3 Flight Test Program 
+
+The chosen configuration will require a development and certification test program. The 
+certification will follow the guidelines established during previous certification programs. Table II 
+denotes, in general, the type of certification program for each configuration. The program size is 
+based on the particular configuration and the lower weather minima desired. 
+
+The program effort required for configuration A would include a performance evaluation, an 
+extensive failure analysis, and a reliability analysis. Existing certification data used for previous 
+performance substantiation would not be applicable to this configuration. 
+
+
+44 
+
+
+
+The program effort required for configurations B and C would include mainly an evaluation of 
+the upper-segment control and transition to the lower segment. The evaluation would include 
+performance aspects in addition to a failure analysis of the transition. Since the lower-segment 
+control system is already certified for a particular lower weather minimum, no specific testing need 
+be accomplished. 
+
+The number of approaches required for a test program is dependent on the particular 
+configuration and on whether the program is conducted by the airplane manufacturer or by the 
+individual airline. For example, if a category fl certification is desired on a particular aircraft type 
+with configuration A, the aircraft manufacturer could conduct a program of approximately 80 
+approaches using the engineering criteria, whereas an airline would be required (by AC 1 20-29) to 
+conduct a minimum of 300. The 80 approaches include development and the opportunity to 
+incorporate improvements and changes, while the 300 approaches are after a specific production 
+system has been established. 
+
+The types of flight test conditions that would be required include a sampling of approaches in 
+wind and variations in weight and center of gravity, etc., to evaluate system tracking ability and to 
+substantiate computer results. Simulated faults, such as ramps and hardovers at various altitudes, 
+would be required to evaluate system safety if the already certified conditions do not apply. 
+
+
+5.0 TASK III— PROGRAM REVIEW 
+
+
+This task involves review of the overall NASA two-segment approach evaluation program. The 
+UAL and Collins progress reports were reviewed. The overall program appears to provide valuable 
+data concerning the operational suitability of two-segment approaches. It is recommended that 
+airspeed variations from V r£ f and the number of times the maximum flap position was used to 
+avoid overspeed/go-around be included in the flight evaluation documentation. These data, along 
+with representative time histories, will be useful in substantiating that the desired approach speed 
+margins are maintained and that the thrust margin (AT = -1.2°) used to define the upper glide slope 
+angle for the Boeing fleet (fig. 2) is adequate when the procedure is used in an operational 
+environment. 
+
+
+45 
+
+
+
+6.0 CONCLUSIONS AND RECOMMENDATIONS 
+
+
+1. The NASA/UAL approach procedures appear feasible for application to the Boeing fleet, with 
+the maximum upper glide slopes and operational restrictions shown on figure 2. However, this 
+study did not include simulation or flight test and did not consider nonstandard conditions, 
+variations from nominal airframe/engine characteristics, or noise trades. Therefore, these 
+procedures should be used as a starting point for further study or test programs but should not 
+be interpreted as a final Boeing recommendation concerning procedures and systems to be 
+introduced into airline service. 
+
+2. Normal ILS procedures should be retained for use in icing conditions or when tailwinds are 
+reported. 
+
+3. With the exception of the autothrottles, autopilot, and flight director, existing airplane 
+systems (e.g., flaps, trim, hydraulics, etc.) are compatible, without major modification, with 
+the two-segment approach procedures defined on figure 2. The upper glide slope capability 
+would be substantially reduced (due to the autothrottle aft limit) if compatibility with existing 
+autothrottles is required. It should be noted that redemonstration of engine acceleration for 
+FAR 25 climb gradient certification would be required for the 707/727/737 if the 
+two-segment procedure results in a redefinition of “approach power” (see sec. 4.6). 
+
+4. The Collins avionics configuration (A) can be easily interfaced with the autopilot/flight 
+director computers to provide single-channel category II capability, and the modifications 
+required to the CADC and barometric altimeter systems could be minimized by redesign of the 
+two-segment avionics input/output circuitry. However, Collins avionics configuration A is not 
+compatible with autoland systems. The use of an alternate avionics configuration (e.g., 
+configurations B or C) would be required to provide autoland capability. This may allow 
+two-segment system commonality throughout the Boeing fleet and reduce the certification 
+effort. Regardless of the avionics configuration, interfacing and wiring modifications will be 
+required, which will differ between the various airplane models. 
+
+5. System implementation should include the development and certification of production 
+hardware for each model, evaluation of DME stations to ensure that reliability and accuracy 
+requirements are met, and possible additional certification requirements for ILS installations 
+(for compatibility with the two-segment system). Regarding avionics certification, the airframe 
+manufacturer could obtain a revision to the basic type certificate that covers, with a single test 
+program, the wide variations in configurations among customers of a given model. 
+
+
+46 
+
+
+
+REFERENCES 
+
+
+1. Mechtly, E. A.: The International System of Units, Physical Constants, and Conversion 
+Factors. NASA SP-7012, 1969. 
+
+2. Melvin, W. W. (Delta Airlines): Wind Shear on the Approach. Shell Aviation News 
+No. 393, 1971. 
+
+
+47 
+
+
+

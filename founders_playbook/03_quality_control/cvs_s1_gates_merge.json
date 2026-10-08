@@ -1,0 +1,14 @@
+{
+ "findings": [
+  {
+   "gate": "csv",
+   "subject": "quantitative.csv",
+   "msg": "source_date carries no four-digit year: ['-']"
+  },
+  {
+   "gate": "quotes",
+   "subject": "verbatim",
+   "msg": "1 of 11 quoted spans not found in local sources"
+  }
+ ]
+}

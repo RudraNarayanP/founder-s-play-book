@@ -1,0 +1,9 @@
+{
+ "identifier": "byte-magazine-1980-11",
+ "url": "https://archive.org/download/byte-magazine-1980-11/1980_11_BYTE_05-11_High-Resolution_Graphics_djvu.txt",
+ "fetched": "2026-09-29T19:56:45Z",
+ "bytes": 2421368,
+ "route": "download/<id>/1980_11_BYTE_05-11_High-Resolution_Graphics_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

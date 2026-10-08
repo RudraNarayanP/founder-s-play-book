@@ -1,0 +1,28 @@
+{
+ "cik": "0001534701",
+ "requested_cik": "1534701",
+ "registrant": "Phillips 66",
+ "ticker": "PSX",
+ "tickers": [
+  "PSX"
+ ],
+ "former_names": [],
+ "company_dir": "company_029_phillips66",
+ "guard": "quarantine",
+ "guard_reasons": [
+  "no slug token ['phillips66'] appears in registrant name 'Phillips 66' / tickers ['psx'] / former names"
+ ],
+ "built": "2026-09-29T19:30:38Z",
+ "count": 1272,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 0,
+ "csv_sha1": "d800c478ae331203996123b6af340608c7b55e3b",
+ "csv_bytes": 110282,
+ "paths": {
+  "json": "founders_playbook/01_companies/company_029_phillips66\\sources\\_index\\quarantine\\CIK0001534701\\submissions_CIK0001534701.json",
+  "csv": "founders_playbook/01_companies/company_029_phillips66\\sources\\_index\\quarantine\\CIK0001534701\\submissions_CIK0001534701.csv",
+  "md": "founders_playbook/01_companies/company_029_phillips66\\sources\\_index\\quarantine\\CIK0001534701\\_INDEX_CIK0001534701.md"
+ },
+ "legacy_copy_written": false,
+ "legacy_note": ""
+}

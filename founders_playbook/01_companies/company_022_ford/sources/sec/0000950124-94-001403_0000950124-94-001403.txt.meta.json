@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000037996/000095012494001403/0000950124-94-001403.txt",
+ "fetched": "2026-09-29T19:07:55Z",
+ "sha1": "56796bc94a0071915a9f72da0a67f492bc0ab998",
+ "bytes": 352628,
+ "words": 50671,
+ "cik": "0000037996",
+ "registrant": "FORD MOTOR CO",
+ "accession": "0000950124-94-001403",
+ "document": "0000950124-94-001403.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": true
+}

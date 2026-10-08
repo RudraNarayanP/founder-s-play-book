@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0001467858/000119312510215159/dex231.htm",
+ "fetched": "2026-09-29T18:25:15Z",
+ "sha1": "82932fe52c8f8c87383c7b29fbcdb2b914656ae1",
+ "bytes": 4595,
+ "words": 411,
+ "cik": "0001467858",
+ "registrant": "General Motors Co",
+ "accession": "0001193125-10-215159",
+ "document": "dex231.htm",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

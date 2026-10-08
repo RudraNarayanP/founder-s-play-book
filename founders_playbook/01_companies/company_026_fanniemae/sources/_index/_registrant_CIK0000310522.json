@@ -1,0 +1,45 @@
+{
+ "cik": "0000310522",
+ "requested_cik": "310522",
+ "registrant": "FEDERAL NATIONAL MORTGAGE ASSOCIATION FANNIE MAE",
+ "ticker": "FNMA",
+ "tickers": [
+  "FNMA",
+  "FNMFN",
+  "FNMAM",
+  "FNMAN",
+  "FNMAI",
+  "FNMAT",
+  "FNMAK",
+  "FNMAL",
+  "FNMFM",
+  "FNMAO",
+  "FNMAG",
+  "FNMFO",
+  "FNMAH",
+  "FNMAJ",
+  "FNMAP",
+  "FNMAS"
+ ],
+ "former_names": [
+  "FEDERAL NATIONAL MORTGAGE ASSOCIATION"
+ ],
+ "company_dir": "company_026_fanniemae",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['fanniemae'] match registrant 'FEDERAL NATIONAL MORTGAGE ASSOCIATION FANNIE MAE' (CIK 0000310522)"
+ ],
+ "built": "2026-10-06T11:50:59Z",
+ "count": 7135,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 6,
+ "csv_sha1": "d4aaf15461d25c86f9b13333ed7a25ea90cbc782",
+ "csv_bytes": 747799,
+ "paths": {
+  "json": "founders_playbook/01_companies/company_026_fanniemae\\sources\\_index\\submissions_CIK0000310522.json",
+  "csv": "founders_playbook/01_companies/company_026_fanniemae\\sources\\_index\\submissions_CIK0000310522.csv",
+  "md": "founders_playbook/01_companies/company_026_fanniemae\\sources\\_index\\_INDEX_CIK0000310522.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

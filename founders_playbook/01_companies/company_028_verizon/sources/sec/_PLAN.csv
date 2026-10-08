@@ -1,0 +1,22 @@
+rank,cik,accession,form,filingDate,document,bytes_in_index_json,why,url,disposition
+1,0000732712,0000950134-01-000656,8-K,2001-02-01,d83777e8-k.txt,3259,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000732712/000095013401000656/d83777e8-k.txt,fetched this run
+2,0000732712,0000950134-01-000656,8-K,2001-02-01,d83777ex99.txt,69264,index.json listing (69264 B),https://www.sec.gov/Archives/edgar/data/0000732712/000095013401000656/d83777ex99.txt,fetched this run
+3,0000732712,0000950134-01-000656,8-K,2001-02-01,d83777ex12.txt,2513,index.json listing (2513 B),https://www.sec.gov/Archives/edgar/data/0000732712/000095013401000656/d83777ex12.txt,fetched this run
+4,0000732712,0000950134-01-000656,8-K,2001-02-01,0000950134-01-000656.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000732712/000095013401000656/0000950134-01-000656.txt,fetched this run
+5,0000732712,0000950134-01-000809,8-K,2001-02-07,d83932e8-k.txt,3449,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000732712/000095013401000809/d83932e8-k.txt,fetched this run
+6,0000732712,0000950134-01-000809,8-K,2001-02-07,d83932ex99.txt,9239,index.json listing (9239 B),https://www.sec.gov/Archives/edgar/data/0000732712/000095013401000809/d83932ex99.txt,fetched this run
+7,0000732712,0000950134-01-000809,8-K,2001-02-07,0000950134-01-000809.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000732712/000095013401000809/0000950134-01-000809.txt,fetched this run
+8,0000732712,0000893220-01-000257,DEF 14A,2001-03-12,w45684def14a.txt,265799,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000732712/000089322001000257/w45684def14a.txt,fetched this run
+9,0000732712,0000893220-01-000257,DEF 14A,2001-03-12,0000893220-01-000257.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000732712/000089322001000257/0000893220-01-000257.txt,fetched this run
+10,0000732712,0000950109-01-000760,10-K405,2001-03-23,0001.txt,475375,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000732712/000095010901000760/0001.txt,fetched this run
+11,0000732712,0000950109-01-000760,10-K405,2001-03-23,0011.txt,148113,index.json listing (148113 B),https://www.sec.gov/Archives/edgar/data/0000732712/000095010901000760/0011.txt,fetched this run
+12,0000732712,0000950109-01-000760,10-K405,2001-03-23,0013.txt,137775,index.json listing (137775 B),https://www.sec.gov/Archives/edgar/data/0000732712/000095010901000760/0013.txt,fetched this run
+13,0000732712,0000950109-01-000760,10-K405,2001-03-23,0012.txt,108020,index.json listing (108020 B),https://www.sec.gov/Archives/edgar/data/0000732712/000095010901000760/0012.txt,fetched this run
+14,0000732712,0000950134-01-002703,8-K,2001-03-28,d85539e8-k.txt,5884,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000732712/000095013401002703/d85539e8-k.txt,fetched this run
+15,0000732712,0000950134-01-002703,8-K,2001-03-28,0000950134-01-002703.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000732712/000095013401002703/0000950134-01-002703.txt,fetched this run
+16,0000732712,0000950109-01-500508,SC 13G,2001-04-06,dsc13g.txt,14670,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000732712/000095010901500508/dsc13g.txt,fetched this run
+17,0000732712,0000950109-01-500508,SC 13G,2001-04-06,0000950109-01-500508.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000732712/000095010901500508/0000950109-01-500508.txt,fetched this run
+18,0000732712,0000950134-01-500722,8-K,2001-04-25,d86473e8-k.txt,3987,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000732712/000095013401500722/d86473e8-k.txt,fetched this run
+19,0000732712,0000950134-01-500722,8-K,2001-04-25,d86473ex99-1.txt,53577,index.json listing (53577 B),https://www.sec.gov/Archives/edgar/data/0000732712/000095013401500722/d86473ex99-1.txt,fetched this run
+20,0000732712,0000950134-01-500722,8-K,2001-04-25,d86473ex99-2.txt,1959,index.json listing (1959 B),https://www.sec.gov/Archives/edgar/data/0000732712/000095013401500722/d86473ex99-2.txt,fetched this run
+21,0000732712,0000950134-01-500722,8-K,2001-04-25,0000950134-01-500722.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000732712/000095013401500722/0000950134-01-500722.txt,SKIPPED beyond --max-docs 20

@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0001467858/000119312510240253/filename18.htm",
+ "fetched": "2026-09-29T18:25:25Z",
+ "sha1": "80b7a8ae178b8ed83e5cdeabd9d2071c813e6e87",
+ "bytes": 33821,
+ "words": 1499,
+ "cik": "0001467858",
+ "registrant": "General Motors Co",
+ "accession": "0001193125-10-240253",
+ "document": "filename18.htm",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

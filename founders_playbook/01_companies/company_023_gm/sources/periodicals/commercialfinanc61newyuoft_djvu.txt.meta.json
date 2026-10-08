@@ -1,0 +1,9 @@
+{
+ "identifier": "commercialfinanc61newyuoft",
+ "url": "https://archive.org/download/commercialfinanc61newyuoft/commercialfinanc61newyuoft_djvu.txt",
+ "fetched": "2026-09-29T18:33:49Z",
+ "bytes": 8388633,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

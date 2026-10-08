@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0001510295/000119312511013935/d1012b.htm",
+ "fetched": "2026-09-29T19:01:12Z",
+ "sha1": "d7b7e90f79e9cceaef44e83aad5ecc41b5d25c4d",
+ "bytes": 39375,
+ "words": 1080,
+ "cik": "0001510295",
+ "registrant": "Marathon Petroleum Corp",
+ "accession": "0001193125-11-013935",
+ "document": "d1012b.htm",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

@@ -1,0 +1,28 @@
+{
+ "cik": "0000005907",
+ "requested_cik": "0000005907",
+ "registrant": "AT&T CORP",
+ "ticker": "",
+ "tickers": [],
+ "former_names": [
+  "AMERICAN TELEPHONE & TELEGRAPH CO"
+ ],
+ "company_dir": "company_035_att",
+ "guard": "quarantine",
+ "guard_reasons": [
+  "directory already holds an index for CIK 0000732717; refusing to let CIK 0000005907 share these artefacts"
+ ],
+ "built": "2026-10-06T11:59:53Z",
+ "count": 1255,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 320,
+ "csv_sha1": "2e1f6e92deed036e1b5b86d827a11145a6229f62",
+ "csv_bytes": 88782,
+ "paths": {
+  "json": "founders_playbook/01_companies/company_035_att\\sources\\_index\\quarantine\\CIK0000005907\\submissions_CIK0000005907.json",
+  "csv": "founders_playbook/01_companies/company_035_att\\sources\\_index\\quarantine\\CIK0000005907\\submissions_CIK0000005907.csv",
+  "md": "founders_playbook/01_companies/company_035_att\\sources\\_index\\quarantine\\CIK0000005907\\_INDEX_CIK0000005907.md"
+ },
+ "legacy_copy_written": false,
+ "legacy_note": ""
+}

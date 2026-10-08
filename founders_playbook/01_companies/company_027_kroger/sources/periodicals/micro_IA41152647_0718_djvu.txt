@@ -1,0 +1,3808 @@
+JW -4.3- Cre | 
+
+
+creams (3297S F 
+JPL Publication 87-35 49 4 
+(WASA-CR- 1826 86) THE SPRING 1985 HIGH w88-21577 
+
+
+PRECISION BASELINE TEST OF THE JPL GPS-BASED 
+
+GEODETIC SYSTEM Final Report (Jet 
+
+Propulsion Lab.) 79 p CSCL O8E Uaclas 
+< G3/43 01348754 
+
+
+The Spring 1985 High Precision 
+y Baseline Test of the JPL GPS-Based 
+1 ¥ Geodetic System 
+
+A Final Report 
+
+
+. John M. Davidson 
+4 Catherine L. Thornton 
+, Scott A. Stephens 
+" Geoffrey Blewitt 
+: Stephen M. Lichten 
+i. OjarsJ.Sovers 
+oe: Peter M. Kroger 
+i Lisa L. Skrumeda 
+i & James S. Border 
+Ruth E. Neilan 
+Charles J. Vegos 
+i 2 Bobby G. Williams 
+> Jeffrey T. Freymuelier 4 ; 
+‘¢ Timothy H. Dixon 
+William G. Melbourne | 
+
+
+November 15, 1987 
+
+
+TECHNICAL REPORT STANDARD TITLE PAGE 
+1. Report No. 87-35 2. Government Accession No. | 3. Recipient’s Coteleg No. 
+
+
+Sn 7 
+
+
+4. Title and Subtitle 5. Report Dete 
+
+The Spring 1985 High Precision Baseline Test of the November 15, 1987 
+
+JPL GPS-Based Geodetic System 6. Performing Organization Code 
+A Final Report 
+
+
+7. Author) John M. Davidson, Catherine L. Thornton, . 
+Scott A. Stephens, Geoffrey Blewitt, Stephen M. Lichen 
+
+
+9. Performing Organization Neme and Address 10. Work Unit No. 
+
+
+JET PROPULSION LABORATOKY 
+
+California Institute of Technology 11. Contract or Grant No. 
+4800 Oak Grove Drive NAS7-918 
+Pasadena, California 91109 13. Type of Report and Period Covered 
+
+
+External Report 
+
+
+8. Performing Organization Report No. 
+
+
+12. Sponsoring ~gency Nome and Address JPL Publication 
+
+
+RATIONAL AERONAUTICS AND SPACE ADMINISTRATION 
+14. Sponsering Agency Code 
+“ashingten, BS. S0505 RES BP-676-59-31-20-30 
+
+
+15. Supplementary Notes (Authors, continued) Ojars J. Sovers, Peter M. Kroger, Lisa L. 
+Skrumeda, James S. Border, Ruth E. Neilan, Charles J. Vegos, Bobby C. Williams, 
+Jeffrey T. Freymueller, Timothy H. Dixon, William G. Melbourne 
+
+
+16. Abstrect 
+
+The Spring 1985 High Precision Baseline Test (HPBT) of the JPL GPS-Based Geodetic 
+Measuring System was conducted between March 28, 1985, and April 5, 1985. It involved 
+over a dozen collaborating institutions, with organization and coordination under 
+NASA/JPL leadership, and vas designed to meet a number of objectives. Foremost among 
+these was the demonstration of a level of accuracy of 1-2:10’, or better, for baselines 
+ranging in length up to several hundreds of kilomweters. 
+
+These objectives were all met with e« high degree of success, with respect to the 
+demonstration of system accuracy in particular. The results from six baselines ranging 
+in length from 70 to 729 km were examined for repeatability and, in the case of three 
+baselines, vere compared to results from colocated VLBI systems. Repeatability was 
+found to be 5:10© (RMS) for the north baseline coordinate, independent of baseline 
+length, while for the east coordinate RMS repeatability was found to be larger han 
+this by factors of 2-4. The GPS-based results were found to be in agreement with those 
+from colocated VLBI measurements, when corrected for the physical separations of the 
+VLBI and GPS antennas (typically on the order of 0.5 km), at the level of 1-2:107 in 
+all coordinates, indepeadent of baseline length. ‘The results for baseline repeatabil- 
+ity are consistent with the current GPS error budget, but the GPS-VLBI intercomparisons 
+disagree at a somewhat larger level than expected. We hypothesize that these differ- 
+ences gay result from errors in the local Survey measurements used to correct for the 
+separations of the GPS and VLBI antenna reference centers. 
+
+
+17. Key Words Gelected by Auther(s)) 18. Distribution Stotement 
+Geodesy; Geophysics Unclassified; unlir‘ 
+
+
+19. Security Classif. (of this report) | 20. Security Clamif. (of this page) | 21. No. of Pages 
+Unclassified Unc lassi fied 
+
+
+.. 
+
+
+JPL Publication 87-35 
+
+
+The Spring 1985 High Precision 
+Baseline Test of the JPL GPS-Based 
+Geodetic System 
+
+
+A Final Report 
+
+
+John M. Davidson 
+Catherine L. Thornton 
+Scott A. Stephens 
+Geoffrey Biewitt 
+Stephen M. Lichten 
+Ojars J. Sovers 
+Peter M. 
+
+Lisa L. Skrumeda 
+James S. Border 
+Ruth E. Neilan 
+Charles J. Vegos 
+Bobby G. Williams 
+Jeffrey T. Freymuelier 
+Timothy H. Dixon 
+William G. Melbourne 
+
+
+November 15, 1987 
+
+
+? 
+
+
+The research described in this publication was camed out by the Jet Propulsion 
+Laboratory. California Institute of Technology. under a contract with the National 
+Aeronautics and Space Adrrurustraton 
+
+
+Reference herein to any specific commercial product. process. or serice by trade 
+name_ trademark. manufacturer. or otherwse. does not constitute or imply ts 
+endorsement by the United States Government or the Jet Propulsion Laboratory, 
+Califorma institute of Technology 
+
+
+; 
+
+
+PREFACE 
+
+
+During the years 1979 to 1983, JEL conducted a feasibility study to 
+examine the use of the NAVSTAR satellites of the Global Positioning System 
+(GPS) as microwave radio sources for precise geodetic measurements in lieu of 
+compact radio sources distributed throughout the universe. The work was funded 
+by NASA. 
+
+In 1984, Congress mandated NASA to establish a civilian geodynamics 
+activity in the Caribbean. JPL, having demonstrated the feasibility and 
+affordability of instrumentation based on using the Global Positioning System, 
+was assigned the responsibility of implementation and early deployment in the 
+Caribbean of this space-oriented geodetic system. It was expected that this 
+capability would provide densification requirements necessary for intensive 
+study of regional deformation at the tectonic plete boundaries. After an 
+intensive and extensive study of the existing positional and navigational 
+instrumentation, JPL arrived at the appropriate system design necessary to 
+achieve accuracies of at least 1 part in 100 million. Soon thereafter, JPL 
+organized a measurement session, using most of the available data acquisition 
+receivers to establish the state-of-the-art. From the onset of this program, 
+it was obvious that NASA could not muster the resources to implement and 
+operate this capability. Therefore, JPL called on universities and agencies, 
+all of which were vitally interested in the outcome of this instrumentation, 
+to cooperate in meeting the objectives of this project. This report presents 
+the findings of the first measurement sessions, conducted in March of 1985. 
+
+
+We are pleased to report that we achieved an outstanding collaborative activity 
+
+
+which we expect will carry us throughout the next several years. As of the 
+
+
+.- 
+
+
+date of this document, we are preparing a report of the second measurement 
+session, conducted with the cooperation of the Mexican agencies in Baja 
+< California. Field operations for this second session were conducted in 
+November of 1985. , 
+TN) A engl 
+
+
+" N. A. Renzetti, Manager 
+
+
+JPL Geodynamics Program 
+
+
+PP ee ee 
+
+
+? 
+? 
+
+
+The authors grateiully acknowledge the assistance of many of their JPL 
+colleagues in carrying out the development of the G?S-based geodetic systems 
+and collecting the data from the Spring 1985 High Precision Baseline Test, as 
+described in this report. In particular, we acknowledge: J. L. Fanselow, 
+
+J. B. Thomas, T. P. Yunck and L. E. Young for contributing many key technical 
+insights; L. E. Young for providing the SERIES-X receivers; S. J. DiNardo for 
+assistance with logistics and field operations; D. M. Tralli and B. C. Beckman 
+for assistance in developing the data analysis software; J. E. Jordan and J. K. 
+Gunckel for reduction of the water vapor radiometer and surface meteorology 
+data; and R. E. West for conscientious maintenance of the VAX 11/785 computer 
+system on which the software was developed and the data analysis performed; and 
+R. N. Treuhaft for an excellent critical reading of this report. 
+
+We acknowledge the many positive interactions with Dr. Robert King of the 
+Massachusetts Institute of Technology and Dr. James Clynch of the Applied 
+Research Laboratory, University of Texas, in the course of the collection and 
+analysis of the data. We acknowledge the collaborative roles of the many 
+institutions that contributed to the successful execution of the field oper- 
+ations, including: the Applied Research Laboratory of the University of Texas, 
+the Air Force Geophysical Laboratory, the U.S. Defense Mapping Agency, the U.S. 
+National Geodetic Survey, the Naval Surface Weapons Center, the Pacific Missile 
+Test Center, the Texas Department of Highways, the Texas Instruments Corpora- 
+tion, the U.S. Geological Survey, and the University Navstar Consortium. We 
+
+
+acknowledge the assistance of the Applied Research Laboratory, University of 
+
+
+Texas, in delogging the TI-4100 receiver cassette tapes. 
+
+
+We also acknowledge with thanks the long-term support of NASA managers 
+
+
+Mr. T. L. Fischetti, Dr. E. A. Flinn and Dr. S. G. Tilford. 
+
+
+ee rn aw 
+
+
+ae 1. ree 
+
+
+ABSTRACT 
+
+
+The Spring 1985 High Precision Baseline Test (HPBT) of the JPL GPS-Based 
+Geodetic Measuring System was conducted between March 28, 1985, and April 5, 
+1985. It involved over a cozen collaborating institutions, with organization 
+and coordination under NASA/JPL leadership, and was designed to meet a number 
+of objectives. Foremost among these was the demonstration of a level of 
+accuracy of 1-2:10’, or better, for baselines ranging in length up to several 
+hundreds of kilometers. In addition, the HPBT was designed to meet a number 
+of secondary objectives, including the development of efficient procedures for 
+planning and coordirating large-scale GPS field exercises, the establ: hment 
+of institutional interfaces for future cooperative ventures, the initiation of 
+a series of calibration measurements on well-determined VLBI baselines, the 
+testing of the GPS data analysis software and analysis procedures, and an 
+initial site occupation designed to monitor uplift in the Long Valley caldera 
+region near Mammoth Lakes, California. 
+
+These objectives were all met with a high degree of success, with respect 
+to the demonstration of system accuracy in particular. The results from six 
+baselines ranging in length from 70 to 729 km were examined for repeatability 
+and, in the case of three baselines, were compared to results from colocated 
+VLBI systems. Repeatability was found to be 5:10° (RMS) for the north 
+baseline coordinate, independent of baseline length, while for the east 
+coordinate RMS repeatability was found to be larger than this by factors of 
+2-4. The GPS-based results were found to be in agreement with those from 
+colocated VLBI measurements, when corrected for the physical separations of 
+
+
+the VLBI and GPS antennas (typicaliy on the order of 0.5 kw), at the level of 
+
+
+vii 
+
+
++ 
+Za 
+a. 
+. 
+— 
+~_ 
+
+
+1-2:107 in all coordinates, independent of baseline length. The results for 
+baseline repeatability are consistent with the current GPS error budget, but 
+the GPS-VLBI intercomparisons disagree at a somewhat larger level than 
+expected. We hypothesize that these differences may result from errors in the 
+local survey measurements used to correct for the separations of the GPS and 
+
+
+VLBI antenna reference centers. 
+
+
+viii 
+
+
+The Spring 1985 High Precision Baseline Test (HPBT) of the JPL GPS-Based 
+“ Geodetic Measuring System was conducted between March 28, 1985, and April 5, 
+- 1985. It involved over a dozen collaborating institutions, with organization 
+and coordination under NASA/ JPL leadership, and was designed to meet a number 
+. of objectives. Foremost among these was the demonstration of a level of 
+accuracy of 1-2:107, or better, for baselines ranging in length up to several 
+hundreds of kilometers. In addition, the HPBT #as designed to meet a number 
+of secondary objectives, including the development of efficient procedures for 
+planning and coordiaating large-scale CPS field exercises, the establisiment 
+of institutional interfaces for future cooperative ventures, the initiation of 
+@ series of calibration measurements on well-determined VLBI baselines, the 
+testing of the GPS data analysis software and analysis procedures, and an 
+initial site occupation designed to monitor uplift in the Long Valley caldera 
+region near Mammoth Lakes, California. 
+
+These objectives were all met with a high degree of success, with respect 
+to the demonstration of systes accuracy in particular. The results from six 
+baselines ranging in length from 70 to 729 km wee examined for repeatability 
+and, in the case of three baselines, vere compared to results from colocated 
+VLBI systems. Repeatability was found to be 5:10° (RMS) for the north 
+baseline coordinate, independent of baseline length, while for the east 
+
+; coordinate RMS repeatability was found to be larger than this by factors of 
+2-4. The GPS-based results were found to be in agreement with those from 
+colocated VLBI measurements, when corrected for the physical separations of 
+the VLBI and GPS antennas (typically on the order of 0.5 km), at the level of 
+
+
+vii 
+
+
+“Y 
+
+
+CONTENTS 
+
+I. Introduction ....-.ssc«cceerecececec cece ee oe ee l 
+
+II. The Spring 1985 High Precision Baseline Test ........ 2 
+F Itt. The Fiducial Network Concept .....+++++eeee8e8s 5 
+
+IV. Data Analysis ....22cceccecercccee ee eecees 8 
+
+v. Beeuite «cc rece eseeseeseeeeeceeeeeeees 15 
+
+VI. Discussion of Errors ....++++++#+e+e2e2e2es8 2 ee oe 18 
+
+VII. Summary and Conclusion ......4+++++2+ee8e 28 ees 32 
+
+VIII. ee a ae ae a a a a a a a 2 2 ee 
+
+List of Tables 
+
+1. Spring 1985 HPBT Participating Institutions and Organizations . . 41 
+f 2. Summary of Field Equipment Information ......++++++++ + 42 
+‘ 3. A Priori Geocentric Station Monument Coordinates ........-+.- 44 
+: 4. Offsets of Antenna Phase Centers from Station 
+
+Reference Monuments ....-+-++ +22 eee eee eee eee: 45 
+
+5. Station Monument Identifications ........-+--+-+2++2+ 46 of 
+< 6. Estimated and Considered Parameters .....-+ ++ 222+ ees 47 
+© 7. Baseline Results from the Spring 1985 HPBT .....+4+++e+e-s 49 
+y 
+z List of Figures 
+
+
+1. A schematic picture of North America as it would app-ar from a 
+GPS satellite passing over the Galapagos Islands is shown ... . 54 
+
+
+2. A schematic illustration of the fiducial network approach for 
+GPS—-based geodesy is shown... +++ +2 e+ see eee ee eee 55 
+
+
+3. Covariance analysis results show expected baseline accuracies 
+from the Spring 1985 HPBT for the Mojave/Owens Valley baseline .. 56 
+
+
+ll. 
+
+
+12. 
+
+
+13. 
+
+
+14. 
+
+
+CONTENTS (Continued) 
+
+
+Day-to-day repeatability and comparison to colocated VLBI for 
+the OVRO/Mcjave baseline between the two SERIES-X receivers 
+i 3 shown e. 7 . . * . _ _ . . 7 . . . _ * 7 — - . a 7. _ . . 7 i * 
+
+
+The day-to-day RMS repeatability about the mean of the north 
+component is shown for all baselines connecting the receivers 
+at tne Mojave, OVRO, Hat Creek and Mammoth Lakes See se 6s #4 « 
+
+
+Differences between colocated GPS and VLBI measurement are shown 
+for the eight baselines connecting the five receivers located 
+at the Mojave, OVRO and Hat Creek sites ... S48 6 we ow 
+
+
+Consider error (RSS of all three components; see Section VI) 
+
+in the mobile baselines, resulting from fiducial station location 
+error, as a function of mobile baseline length is shown for the 
+ae eee Se 6 4 ee eS ee le ee es i. 
+
+
+Post-fit residuals and cross-correlations for the TI-4100 
+carrier phase data of Apri! 3 and 4, 1985, are shown ....... 
+
+
+Post-fit residuals and cross correlations for the SERIES-X 
+carrier phase data of April 3 and 4, 1985, are shown ..... — 
+
+
+The formal error in the vertical baseline component for the 
+Mo jave/OVRO baseline, between TI-4100 receivers, is shown as 
+a function of troposphere a priori ee ee ee 
+
+
+The formal errors in the north for the OVRO/Mammoth (70 km), 
+OVRC/Mojave (245 km) and Mojave/Mammoth (313 km) baselines are 
+shown for a variety of hypothetical fiducial Outage scenarios .. 
+
+
+The formal errors in the east for the OVRO/Mammoth (70 km), 
+OVRO/Mojave (245 km) and Mojave/Mammoth (313 km) baselines are 
+shown for a variety of hypothetical fiducial outage scenarios .. 
+
+
+The total error budget for the north component of the 245 km 
+OVRO/Mojave baseline between the SERIES-X receivers is shown... 
+
+
+The total error budget for the east component of the 245 km 
+OVRO/Mojave baseline between the SERIES-X receivers is shown... 
+
+
+57 
+
+
+53 
+
+
+60 
+
+
+61 
+
+
+62 
+
+
+64 
+
+
+65 
+
+
+66 
+
+
+67 
+
+
+I. Introduction 
+
+
+Over the past fifteen years, the space geodetic techniques of satellite 
+lase ranging (SLR) and very long baseline interferometry (VLBI) have been 
+applied to the measurement of earth orientation and global crustal motion 
+[e.g., Herring et al., 1986; Christodoulidis et al., 1985; Davidson and Trask, 
+1985; Kroger et al., 1987; Sovers et al., 1984]. The results from these and 
+other studies are generally consistent with those inferred for geologic time 
+spans [Minster and Jordan, 1978]. However, the low resolution provided by the 
+sparse VLBI and SLR networks provides a strong incentive for network 
+densification. Increased resolution is particularly motivated near tectonic 
+plate boundar‘es, where extensive, non-uniform, and possibly time-varying 
+strain fields may exist. 
+
+Geodetic systems utilizing signals from the Global Positioning System 
+(GPS) satellites have long been recognized as holding the key to such densi- 
+fication [e.g., Melbourne et ai., 1986]. These satellites broadcast phase- 
+modulated signals at two L-band frequencies (1575.41 MHz and 1227.60 MHz) and 
+have already attracted many civilian users for applications in navigation, 
+precise orbiter tracking and geodesy. The intensity of the GPS satellite 
+signals—-up to 108 times that of the natural radio sources typically used in 
+VLBI geodesy-—-has led to the development of GPS-based geodetic receivers which 
+are relatively transportable, inexpensive, and easy to operate [e.g., Crow 
+et al., 1984; Biock et al., 1985]. In parallel with this, large software 
+systems have been developed at JPL, and other centers, fer analysis of GPS 
+
+
+geodetic data. 
+
+
+? 
+
+
+rr ee Ms . 
+
+
+a” E> prened ¢ mamma er er 
+
+
+A test of these systems in the regions. context (i.e., involving 
+baselines of up to several hundred kilometers in length) was conducted under 
+NASA/Jet Propulsion Laboratory (JPL) leadership in the Spring of 1985. The 
+principal objective of this test was the wemonstration of geodetic quality 
+accuracy for the total GPS system, including satellite constellation, field 
+equipment, and data analysis software and procedures. In principle, the 
+accuracy of GPS-based systems may eventually rival that already attained by 
+VLBI-based systems, where differential positioning accuracies of 1:10°, or 
+better, are now routinely attained. However, for purposes of this test, an 
+initial goal of 1-2:107 was set. This will establish the sensitivity of the 
+GPS systems to expected regional deformation rates of 3-5 cm/yr, for monitoring 
+programs spanning no more than several years. In this work, we will show that 
+
+
+this goal was achieved for baselines ranging from 70 to 729 km in length. 
+
+
+II. The Spring 1985 High Precision Baseline Test 
+
+
+Objectives of the Test 
+
+The Spring 1985 High Precision Baseline Test (HPBT) involved over a dozen 
+collaborating institutions (Table 1) and was crganized and coordinated by NASA/ 
+JPL. The test was designed to meet a number of objectives. Foremost among 
+these was the demonstration of a level of accuracy of 1-2:107, or better. 
+Central to the achievement of this accuracy goal is the fiducial network 
+approach for high-accuracy GPS-based geodesy, which is discussed in detail in 
+Section III. Other major objectives of the HPBT included the development of 
+efficient procedures for planning and coordinating large-scale GPS field 
+
+
+exercises, the establishment of institutional interfaces for future cooperative 
+
+
+——-_- 
+
+
+7. ae Tae 
+
+
+7 Gy 
+
+
+ventures, the initiation of a series of calibration measurements on well- 
+determined VLBI baselines, the testing of the GPS data analysis software and 
+analysis procedures, and an initial site occupation designed to monitor uplift 
+in the Long Valley caldera region near Mammoth Lakes, California. In 
+addition, this test was designed to permit an assessment of the performance of 
+the participating GPS receiver types and facilitate the testing of water vapor 
+
+
+radiometers (WVRs) for the calibration of GPS data. 
+
+
+Criteria for Site Selection 
+
+In the HPBT, a total of fifteen receivers were deployed to ten sites 
+across the United States. These sites fell into four classes: fiducial sites 
+(see Section III), mobile calibration sites, other mobile sites and one 
+scientifically motivated site. One site served in two of these roles. In the 
+selection of the fiducial site locations, the VLBI stations of the NOAA/NGS 
+POLARIS Project were chosen, with sites located near Westford, MA; Richmond, 
+FL; and Ft. Davis, TX. In addition, a fourth fiducial receiver was located at 
+the Owens Valley Radio Observatory (OVRO) near Big Pine, CA. In the selection 
+of the mobile calibration sites, it was necessary to choose VLBI observatories 
+whose positions were accurately measured with respect to fiducial network, so 
+that the GPS-based results could be compared with those based on colocated VLBI 
+measurements. Accordingly, sites at the Mojave VLBI station of the NASA 
+Crustal Dynamics Project, near Barstow, CA; the Owens Valley Radio Observatory; 
+and the Hat Creek Radio Observatory, near Hat Creek, CA, were selected as the 
+endpoints for the calibration baselines. Other mobile GPS receivers, belonging 
+
+
+to various of the collaborating institutions, recorded data during the HPBT. 
+
+
+These were not located at sites of either well-established a priori location or 
+
+
+‘fh 
+
+
+of scientific interest and are not treated further in this work. They include 
+receivers located at Pt. Mugu, CA; Austin, TX; and Dahlgren, VA. 
+
+To demonstrate the applicability of GPS-based geodesy to a scientific 
+problem of current interest, one mobile receiver was deployed to a site near 
+Mammoth Lakes, CA, to investigate ground deformation in the Long Valley 
+caldera region. This site was established as part of a JPL-Caltech program 
+designed to supplement ongoing geodetic measurements by the U.S. Geological 
+Survey (USGS). Part of the USGS program consists of leveling surveys, designed 
+to monitor vertical motion associated with the uplift of a resurgent dome in 
+the Long Valley caldera. This is thought to be due to the intrusion of magma 
+into a shallow (< 10 km depth) crustal reservoir [Savage and Clark, 1982; 
+Rundle and Whitcomb, 1984], and represents a potential volcanic hazard. A 
+detailed analysis and discussion of the results from the occupation of the 
+
+
+Long Valley site will be presented in a separate report. 
+
+
+Description of Field Operations 
+
+The Spring 1985 HPBT took place between March 28, 1985, and April 5, 1985. 
+Fifteen GPS receivers were placed at ten sites as described in the preceding 
+subsections. These ten sites were equipped with a variety of GPS receiver 
+types, including SERIES-X [Crow et al., 1984], TI-4100 [Henson et al., 1985] 
+and Air Force Geophysical Laboratories (AFGL) dual-frequency receivers [Ladd 
+and Counselman, 1985]. Frequency standards used in different phases of the 
+test included hydrogen masers, Rb clocks and quartz crystal clocks. Three of 
+the sites in California were instrumented with WVRs. A summary of receiver, 
+clock and WVR deployment information is given in Table 2. As of late March 
+
+
+1985, the GPS constellation was configured so that it came together over North 
+
+
+—  » - Ss: Ye cel ss 
+
+
+1 
+
+
+me # 
+
+
+America once per sidereal day, remaining above any local horizon for approxi- 
+mately six hours. The satellite configuration, or geometry, was virtually 
+identical from day to day. In California at that time, this six hour view 
+period began at approximately 04:00 GMT (8:00 p.m. Pacific Standard Time). 
+The dates on which sessions were successfully conducted include the six days 
+from March 31, 1985, through April 5, 1985. A map showing the locations of 
+
+
+the receivers deployed in this test is presented in Figure 1. 
+III. The Fiducial Network Concept 
+
+
+Unification of the GPS and VLBI Coordinate Systems 
+
+The accuracy of GPS-based measurements depends in large part on the accur- 
+acies with which the GPS satellite orbits have been determined. Currently 
+available post-fit ephemerides define a self-consistent frame of reference at 
+the level of approximately 1:10°. Given expected rates of crustal motion of 
+< 5 cm/yr, a geodetic measurement program relying on post-fit ephemerides, and 
+requiring temporal resolution of less than a decade, would be sensitive to 
+such motions over distances of no more than several tens of km. On the other 
+hand, a reference system relying on VLBI or SLR measurements to establish and 
+maintain coordinate system orientation and scaling is potentially self- 
+consistent at a level of 1:10° or better. Hence, a GPS network tied to the 
+VLBI coordinate system could be utilized for geodetic measurement on a regional 
+scale, or greater. 
+
+A means of establishing this frame tie and improving the accuracy of the 
+GPS ephemeris——and hence of GPS-based baseline measurements—has been actively 
+
+
+pursued at JPL and is known as the fiducial network approach. In this 
+
+
+= a 
+
+
+= we 8, SE Peas 
+
+
+approach, three or sore receivers are placed at locations, called fiducial 
+sites, whose positions have been well-established by VLBI. Additional 
+receivers, known as mobile receivers, are placed at sites of geodetic 
+interest. The fiducial network must be well extended in both latitude and 
+longitude, and should be of a scale size somewhat larger than that 
+
+of the mobile receiver network. During a GPS-based measurement, the fiducial 
+receivers record data jointly with the mobile receivers, enabling simultaneous 
+determination of accurate GPS satellite orbits and geodetic baselines. To the 
+extent that orbital dynamics, clocks and atmospheric effects are adequately 
+modeled, the accuracy of the mobile receiver locations will reflect that of the 
+fiducial receiver locations to which they are referenced. 
+
+It should be noted that by locating the fiducial receivers at VLBI 
+stations, the GPS orbit and baseline solutions are inherently expressed in the 
+coordinate system of the extragalactic radio sources. This has the aesthetic 
+appeal of unifying the GPS and VLBI results in an inertial, or absolute, frame 
+of reference and has the practical benefits of permitting their simultaneous 
+display, direct comparison and combined use in geophysical interpretation. A 
+schematic illustration of the fiducial network method for accurate GPS-based 
+
+
+geodesy is shown in Figure 2. 
+
+
+Covariance Analysis Results 
+
+In earlier considerations of the fiducial approach to GPS-based geodesy, 
+and in designing the Spring 1985 HPBT, covariance analyses were performed to 
+predict system performance for the baselines to be occupied. Figure 3 summar- 
+
+
+izes the covariance analysis results for one of these baselines, the 245 km 
+
+
+Mojave/Owens Valley baseline [Davidson et al., 1985], based on the actual 
+
+
+observing scenario that had been planned for the HPBT. This scenario involved 
+one continuous observing session of six hours, with observations recorded every 
+six minutes. The error model assumptions were as follows. Zenith troposphere 
+calibration accuracy was taken to be 2 cm at stations where WVR data were taken 
+and 5 cm otherwise; fiducial baseline accuracy was taken to be 3 cm in all 
+coordinates; e priori satellite position and velocity at epoch were taken to be 
+10 m and 1 mm/sec, respectively; uncertainty in geocenter location was taken 
+
+to be 20 cm in all coordinates; modeling of solar radiation pressure on the 
+
+
+GPS spacecraft was assumed to be accurate to within 5% of the total effect; 
+
+
+the value of GM was taken to be accurate to 1:10°; the error in the gravity 
+
+
+model was taken to be 50% of the difference between the GEM6 and the APL5.0 
+gravity models; the elevation angle cutoff at each station was taken to be 15 
+degrees; the data type used was carrier phase (i.e., integrated doppler); 
+
+and data noise was taken to be 2 cm. These error model assumptions were the 
+standard ones used for the systems to be deploved in the HPBT and their valid- 
+ity was borne out in the analysis of experimental data several months later. 
+Two covariance analyses based on the observing plan of the HPBT were made, one 
+in which the satellite epoch states were estimated (i.e., using the fiducial 
+network approach) and one in which they were fixed at their a priori values 
+(i.e., as if it were a two-station experiment with no fiducial network and no 
+orbit estimation). An intermediate case in which satellite orbits were esti- 
+mated, but in which none of the GPS receivers had well-established a priori 
+locations (i.e., a free network solution in which all stations were mobile 
+stations), gives results between the two extremes shown in Figure 3. As this 
+figure shows, the use of a fiducial network and orbit estimation is expected 
+
+
+to improve accuracy for this baseline by factors of from five in the vertical 
+
+
+to forty in the north. As we shall see, this prediction via covariance 
+analy-i> of system performance in the HPBT was borne out in the results from 
+
+
+the actual HPBT date. 
+
+
+IV. Data Analysis 
+
+
+The GIPSY Software 
+
+The GIPSY (GPS Inferred Positioning SYstem) software for GPS data analysis 
+was developed at JPL between January 1985 and the present. It consists of over 
+70,000 lines of code, approximately one-third of which were adapted from pre- 
+existing software systems, such as the VLBI data analysis code MASTERFIT 
+(Sovers and Fanselow, 1986] and the spacecraft orbital dynamics modeling code 
+Double Precision Trajectory Program (DPTRAJ) (Moyer, 1971]. The remaining 
+
+
+two-thirds consist of newly written code, much of which is also used in the 
+
+
+OASIS (Orbit Analysis SImulation System) covariance analysis software system 
+
+
+(Wu and Thornton, 1985]. Briefly, GIPSY consists of: a comprehensive front 
+end for data editing, phase connection, atmospheric calibrations and data 
+compression; FESCHED, an experiment scheduling program which generates 
+observing schedules, rise-set tables and plots, satellite ground and sky 
+tracks, and artificial data for covariance analysis; PATH-VARY, a program 
+which generates satellite trajectories and integrates variational equations to 
+form transition matrices for satellite states and dynamic model parameters; 
+GPSOMC (observed minus calculated), which computes an accurate model 
+observable and pre-fit residuals; OAFILTER, a U - D factorized batch 
+sequential process noise filter to do parameter estimation and covariance 
+analysis; and an output processor to display orbits, baselines and parameter 
+
+
+solutions and covariances. Model accuracy in GIPSY is believed to be better 
+
+
+than 1 cm. GIPSY has a number of flexible clock modeling options, including 
+white (uncorrelated) or colored process noise, which, in the case of white 
+noise, is analogous to (though more general than) double differencing, and 
+representation as polynomials of degree one or two over specified data arcs. 
+In addition, singly or doubly differenced observables can be explicitly 
+generated. The software is capable of combining data from different receiver 
+types and of processing different data types (e.g., carrier phase and 
+pseudorange) simultaneously. Estimated and considered (see Section VI) 
+parameters may include satellite position and velocity at epoch, station 
+position and velocity, station and satellite clocks, range biases (for carrier 
+phase data), three solar radiation coefficients for each satellite, zenith 
+tropospheric delay, rate-of-change, and mapping parameters at each station, 
+earth orientation parameters, corrections to precession and nutation, 
+geocenter coordinates, solid earth tide Love numbers and tidal phase, 
+coordinate scale error, and the general relativity y-factor of the Brans- 
+Dicke theory. (It should be noted that in current processing, especially 
+involving data arcs oi six hours or less, only a subset of these parameters is 
+estimated.) The GIPSY software is written in FORTRAN and runs on any of the 
+VAX 11/700 or 8000 series or on the new MicroVAX II series, running under the 
+VMS version 4.4 (or higher) operating system. Detailed mathematical descrip- 
+
+
+tions of the model observables and partial derivatives generated in the OMC 
+
+
+module are presented in a separate report [Sovers and Border, 1987]. Mathe- 
+
+
+matical descripticns of the operations performed by the OAFILTER module have 
+
+
+been given by Bierman [1977] and Wu et al. [1986]. 
+
+
+i 
+, 
+' 
+
+
+A Priori Receiver Coordinates 
+
+The VLBI-based baseline solutions used to establish the coordinates of the 
+fiducial and calibration sites in a consistent reference frame were those of 
+global solution S284C of Ryan and Ma [1985]. The quoted formal uncertainties 
+in three dimensions for these coordinates range from slightly less than 1 cm 
+to slightly less than 2 cm. In addition, an unimplemented relativity correc- 
+tion in the model calculations of the VLBI data analysis software used by those 
+authors has introduced a scale error of approximately 1.4:10° in the fiducial 
+baseline length estimates reported in that work. 
+
+The local survey measurements used to relate the VLBI antenna intersection 
+of axes to local survey monuments (invariably within 1 km of the VLBI antenna) 
+were taken from the Crustal Dynamics Project: Catalogue of Site Information 
+(NASA, 1983]. The precision of these survey measurements is quoted in that 
+reference as being “subcentimeter," but it is noted further that their true 
+accuracy may be somewhat worse, owing to distortions in the NAD27 coordinate 
+system, in which the local surveys were made. However, we claim that unde- 
+tected errors on the order of 4 cm may persist in the local survey data. We 
+base this conjecture on two facts. First, two significant surs ~ errors were 
+discovered in the course of the present work, one of 20 cm at Ft. Davis by 
+R. W. King [personal communication, 1986] and one of 35 cm at OVRO by the 
+authors. Second, observed systematic differences between VLBI and GPS 
+measurements occur at about this level on a number of baselines in such a way 
+as to indicate local survey error as a possible explanation. This evidence is 
+presented and discussed in Section V. 
+
+The GPS antenna site vectors, relating a reference point on the antenna 
+
+
+to a nearby monument (usually directly beneath the antenna by a distance of 
+
+
+10 
+
+
+— a  , BIO eee ees 
+
+
+1-2 m), are measured in the field by receiver operators. The precision of 
+these relatively simple measurements is on the order of 0.2 cm. The locations 
+of the separate Ll and L2 phase centers with respect to this reference point 
+were taken from Sims [1985]. In that work, it is also shown that the measured 
+locations of the Ll and L2 reference points of the TI-4100 antennas differ by 
+up to 1 cm between different antennas and there are phase variations as a func- 
+tion of satellite elevation and azimuth at about that level. In addition, 
+phase center locations may suffer effective shifts in location owing to reflec- 
+tions (i.e., multipathing; see Section VI) from nearby surfaces. These 
+
+effects limit site vector accuracy for these antennas to approximately 1 cm. 
+Similar shifts may occur in the cases of the SERIES-X and AFGL antennas, but 
+they have not been well-studied or documented, and we make no attempt to 
+quantify them here. For purposes of error assessment in this work, we make the 
+assumption that the size of these effects for these antennas is similar to that 
+reported for the TI-4100 antenna. 
+
+A correction for the offset of the origin of the VLBI coordinate system 
+from the geocenter was made, based on a least-squares fit of colocation data 
+from four sites to determine offset-of-origin and rotation of the VLBI and SLR 
+coordinate frames [R. W. King, personal communication, 1986]. The estimated 
+
+
+size of this offset in meters (SLR - VLBI) is 1.752, -1.179 and 0.304 in 
+
+
+geocentric x, y and z, respectively. The accuracy of this correction is taken 
+
+
+to be 10 cm [Smith et al., 1985; Tapley et al., 1985]. 
+We do not expect temporal baseline changes from crustal deformation to be 
+a significant source of error for the fiducial and mobile calibration baselines 
+
+
+involved in this work, because they all lie within the North American plate. 
+
+
+; 
+. 
+? 
+: 
+
+
+‘th 
+
+
+Repeated VLBI measurement of these baselines spanning many years limits 
+uncertainty in station location from this error source to approximately 1 cm 
+(Herring et al., 1986]. 
+
+Geocentric coordinates used in this work for the reference monuments over 
+which the fiducial and mobile calibration GPS receivers were placed are given 
+in Table 3; site vectors connecting reference monuments to antenna phase 
+centers are given in Table 4; and monument identification information is given 
+
+
+in Table 5. 
+
+
+A Priori Satellite Ephemeris 
+
+The nominal orbits used in this work to initialize the parameter 
+estimation were based on the precise ephemeris provided to us by the Naval 
+Surface Weapons Center (NSWC). The NSWC orbits at that time were computed in 
+the WGS-72 coordinate system, with reference epoch AlL950.0, from a one-week 
+fit (plus a one-week prediction) and are thought to be internally consistent 
+at the level of 15-20 meters. Because the coordinates of the fiducial sites 
+used in this work are expressed in the VLBI coordinate system, with reference 
+epoch J2000.0, it was decided to transform the NSWC orbits to correct for the 
+large difference between the two reference epoch definitions, before they were 
+used to initialize data Processing. In addition, they were scaled to account 
+for the different values of GM used in the NSWC and GIPSY software systems. 
+The remaining difference between the two coordinate systems consisted mainly 
+of a fairly large offset in longitude. Previously published values for this 
+offset range from 0.5 to 0.8 arcsec [Hothem et al., 1982). An estimation from 
+the Spring 1985 HPBT data itself has been made by Lichten et al. [1986], who 
+
+
+report a value of 0.68 arcsec (3.3 yrad) in UTl - UTC, consistent with the 
+
+
+12 
+
+
+~ & —e Sr 2 a he 
+
+
+¢ 
+
+‘ 
+> 
+f 
+
+
+earlier report. Rotations about the x- and y-axes were estimated to be 
+
+
+smaller by over an order of magnitude. 
+
+
+Atmospheric Calibrations 
+
+Removal of propagation media distortions was done essentially as has been 
+done in VLBI-based geodesy (which is also a microwave-based technique) for a 
+number of years [e.g., Davidson and Trask, 1985]. Briefly, the techniques 
+used were as follows. Removal of ionosphere effects was based on an assumed 
+inverse-squared frequency dependence for ionosphere dispersion, with carrier 
+phase data, recorded simultaneously at the Ll and L2 frequencies (1575.41 MHz 
+and 1227.60 MHz), combined to create ionosphere-free observables. Calibration 
+of the dry troposphere at the local zenith was obtained directly from the 
+surface barometric pressure; mapping of the dry air mass from the zenith to the 
+satellite line-of-sight was done using the mapping algorithm of Lanyi [1984]. 
+Calibration of the zenith wet troposphere was obtained from WVR data, when 
+that was available, and otherwise from surface meteorology (SM) data used as 
+input to atmospheric models. The reduction of WVR data was according to the 
+algorithm of Robinson [1986] and the reduction of the SM data used the +f 
+algorithm of Chao [1973]. Mapping of the wet troposphere delay to the 
+satellite line-of-sight was also done as per Lanyi [1984]. The accuracy at 
+zenith of these combined troposphere c+#‘‘brations was taken to be 2 cm and 
+6 cm, for WVR and SM data, respectively, with the exception of the calibrations 
+based on the DSN prototype WVR located at Hat Creek, C4 (Table 2). Calibra- 
+tions based on this WVR were assigned an uncertainty of 6 cm, based on the 
+behavior in initial parameter adjustments of the estimated additive constant 
+delay at zenith and on the fact that this WVR is an early prototype known to 
+
+
+have relatively large instrumental instabilities. 
+
+
+13 
+
+
+ee er ee ye 
+e a 
+
+
+Estimation of Parameters 
+
+In our initial processing, we focused on a representative subset of the 
+HPBT data. This subset consisted of the carrier phase data from the AFGL 
+receivers located at the POLARIS VLBI sites (see Section II); the SERIES-X 
+receivers located at Mojave and OVRO; the TI-4100 receivers located at Mojave, 
+OVRO, Mammoth Lakes and Hat Creek; and observing GPS satellites GPS 1, GPS 3, 
+GPS 4, GPS 6, GPS 8, GPS 9 and GPS 10 (launch sequence numbers). Pseudorange 
+data were not used because of the high level of multipath error. (See Section 
+VI.) Data were processed separately for each of the 6 hour sessions on 
+March 31, 1985, through April 5, 1985. Estimated parameters included satellite 
+positions and velocities at epoch, a separate constant correction at all 
+stations to the zenith troposphere delay, mobile station coordinates, station 
+and spacecraft clock cffsets, and range biases. Uncertainties in unestiaated 
+parameters included in the computation of covariances include uncertainties in 
+fiducial station coordinates, geocenter coordinates, solar radiation param- 
+eters, coordinate scale, and earth orientation parameters. The stations 
+treated as mobile stations in the parameter estimation included the SERIES-X 
+receiver at Mojave and the TI-4199 receivers at Mojave, OVRO, Hat Creek and 
+Mammoth Lakes. The stations treated as fiducial receivers included the 
+SERIES-X receiver at OVRO and the AFGL receivers at the POLARIS VLBI sites. 
+Clock offsets were treated as stochastic parameters, with a white noise error 
+model, which is equivalent to clock removal via explicit double-differencing. 
+Data noise was adjusted to attain a x? per degree of freedom of unity. This 
+noise, or weighting, was initially adjusted separately for each receiver type, 
+based on the RMS scatter of post-fit residuals; however, RMS scatter was found 
+
+
+to lie consistently in the range 7-8 mm, independent of receiver type. Hence, 
+
+
+14 
+
+
+r 
+
+
+3 em a a = 
+=, _—— a. eee a - SF Lod ae oar 
+
+
+Pry) Reena ee ae 
+
+
+- 
+* 
+
+
+a uniform data noise was adopted for all carrier phase observables. The data 
+
+
+noise adopted was 1.0 cm for all six sessions. A summary of estimated and 
+
+
+considered parameters and their a priori uncertainties is given in Table 6. 
+
+
+V. Results 
+
+
+Estimated Parameters and Covariances 
+
+Baseline results for each of the six days from March 31, 1985, through 
+April 5, 1985 are given in Table 7. (For some baselines, station outages have 
+reduced the number of daily solutions to five or four.) This table gives the 
+offsets of the GPS-based daily solutions from the VLBI-based a priori baseline 
+values (see Table 5), with the sign sense being: offset=solution-a priori. 
+Two uncertainties are given in Table 7 for each daily solution: a formal 
+standard error and a total absolute error. These differ in that the latter 
+includes contributions from several important systematic error sources, 
+including errors in fiducial position, earth orientation, coordinate scale, 
+solar radiation pressure modeling, and geocenter location. Also given for 
+each baseline component are: the weighted mean value of the daily solutions; 
+the weighted RMS scatter about the mean; and the x? per degree of freedom 
+in calculating the mean. The weights used in computing the mean values are 
+the inverse squares of the formal standard errors of the daily solutions. Two 
+uncertainties are given for each mean value. These correspond to those given 
+for the daily solutions, with the formal standard error of the mean given by 
+RMS//N-— 1 and with the total absolute error of the mean (as with the daily 
+solutions) including contributions from systematic error sources. In the case 
+
+
+of the total absolute error of the mean, an additional error contribution of 
+
+
+15 
+
+
+4 
+
+# 
+| 
+“ 
+
+
+‘t 
+
+
+4 cm accounting for mobile site survey error is quadratically summed to the 
+systematic error contributions listed above. A quantitative discussion of 
+
+
+these error sources is presented in the following section. 
+
+
+Baseline Repeatability 
+
+Day-to-day repeatability of estimated baseline components defines measure- 
+ment precision, provides a lower limit on system inherent accuracy and can 
+give important insight into system performance. Values of RMS repeatability 
+are given in Table 7 for all eight baselines connecting the receivers at the 
+Mojave, OVRO and Hat Creek sites. A plot showing typical results in the 
+horizontal plane is given in Figure 4 for the 245 km length OVRO/Mojave base- 
+line between the two SERIES-X receivers. Repeatability about the mean in the 
+
+
+north is 0.6 cm (RMS), or 3:10°, while in the east it is 1:107. In the : 
+
+
+case of the north component, this repeatability approaches that attained for 
+mobile VLBI measurements for baselines of this length [Davidson and Trask, 
+1985; Kroger et al., 1987]. When the north repeatability is examined for all 
+of the baselines between GPS receivers located in California, including those 
+involving the receiver located near Mammoth Lakes, it is seen to be a strong a 
+function of length, being very close to 5:10° for all baselines, with lengths 
+ranging from 70 km to 729 km (Figure 5). For the case of the east and vertical 
+components, the day-to-day repeatability taken over all baselines is uncorre- 
+lated with length and falls in the range 1-2:107. These results meet the 
+accuracy objectives set for the Spring 1985 Test (see Section I) and represent 
+a level of system performance which would provide sensitivity to expected 
+regional deformation rates for geodetic monitoring programs spanning only 
+
+
+several years. The causes of the larger day-to-day scatter in the east and 
+
+
+16 
+
+
+vertical, as opposed to the north, and the prospects for 1:108 precision in 
+
+
+all components are discussed in Section VI. 
+
+
+Comparison of GPS and VLBI Baselines 
+
+Comparison of GPS measurements with results from an independent technique 
+of comparable accuracy, such as VLBI, provides an additional test of GPS system 
+absolute accuracy. In this subsection, we compare GPS and VLBI results for the 
+eight baselines (length > 1 km) connecting the five GPS receivers located at 
+the Mojave, OVRO and Hat Creek VLBI sites. (See Table 2.) From Table 7 and 
+Figure 4, we see that the colocated GPS and VLBI baseline measurements typ- 
+ically differ in the horizontal plane by 5 cm, with differences in some cases 
+ranging up to 10 cm. When these differences are plotted for all eight base- 
+lines, a systematic pattern appears. Figure 6 shows the weighted averages of 
+the single-day solutions for March 31, 1985, through April 5, 1985 for each of 
+the eight baselines. In this figure, we see that while all four of the Mojave/ 
+OVRO baselines differ from the VLBI measurement by about 8 cm, they agree with 
+each other within the measurement precision, as defined by the RMS repeatabil- 
+ity for each individual baseline (Table 7). This is especially true in the 
+case of the better-determined north baseline components, for which the agree- 
+ment among these four baselines is better than 1 cm. Similar conclusions may 
+be drawn regarding the two Hat Creek/OVRO baselines and the two Mojave/Hat 
+Creek baselines. This highly systematic grouping by baseline of GPS/VLBI 
+differences strongly suggests the presence of errors on the order of 4 cm in 
+the local (length < 1 km) surveys which are used to correct for the physical 
+separations of the VLBI antenna reference point (the intersection of the 
+azimuth and elevation axes) and the local network. This and other error 
+
+
+sources are discussed in the following section. 
+
+
+; 
+
+
+fa 
+
+
+VI. Discussion of Errors 
+
+
+In this section, we discuss the sources of error in the results presented 
+in Section V. Error sources are categorized as either associated or not 
+associated with parameters that are estimated in the least-squares sense. They 
+are also categorized as being sources of systematic or random error. Within 
+this framework, an error budget is developed for the specific example of the 
+245 km length OVRO/Mojave baseline. Tests are made of the dependence of mobile 
+baseline accuracy on data noise, multipathing, a priori information and fidu- 
+cial network GPS constellation geometry. Comparisons are then made between 
+this error budget and the results presented in the previous section for day-to- 
+
+
+day baseline repeatability and for GPS/VLBI baseline intercomparison. 
+
+
+Systematic Errors Associated With Non-Estimated Parameters 
+
+Many model parameters are not adjusted in the least-squares estimation 
+process. These include fiducial station coordinates, earth orientation param- 
+eters, a coordinate scale factor, solar radiation parameters, and geocenter 
+coordinates. (See Table 6 for a more complete tabulation of these.) In the 
+case of all but the first of these parameters, estimation was not attempted, 
+because the HPBT data lack the strength to make meaningful estimations of 
+their values. In the case of the fiducial station coordinates, estimation is 
+precluded by the requirement that a consistent definition of the GPS coordinate 
+frame be maintained for all GPS geodetic results. 
+
+The contributions of uncertainties in these non-estimated parameters to 
+the covariances of the estimated parameters of interest (i.e., mobile baseline 
+
+
+components) are calculated using a technique known as consider analysis [e.g., 
+
+
+18 
+
+
+= 
+
+
+-~ . 
+
+
+Yunck and Wu, 1983; Bierman, 1977]. The non-estimated parameters to which 
+
+this approach is applied are known as considered parameters and the resulting 
+contributions to mobile baseline covariances are known as consider errors. The 
+consider errors for non-estimated parameters in this work (listed in Table 6) 
+were computed, and all, with the exception of those associated with fiducial 
+station uncertainties, were found to be negligible, being < 1 mm in size. 
+
+The consider errors associated with fiducial station location uncertain- 
+ties are much larger than this. These were determined for all mobile baselines 
+connecting the six receivers located at the Mojave, OVRO, Hat Creek and Mammoth 
+Lakes sites. An a priori uncertainty of 4 cm was assumed in each coordinate 
+for each of the four fiducial receivers, with local survey error providing the 
+dominant contribution to this. (See Section IV.) These consider errors were 
+found to be relatively large and to scale with baseline length. A plot of 
+this length dependence is shown in Figure 7, with the separate contributions 
+shown for the individual fiducial stations. 
+
+Several important features are evident in this figure. First, for the 
+particular network of fiducial and mobile stations used in the Spring 1985 
+HPBT, the uncertainties in mobile baselines (all of which are located in 
+California) are most sensitive to errors in the locations of the fiducial 
+stations at OVRO, CA, and Ft. Davis, TX, with sensitivity to fiducial station 
+errors at Westford, MA, and Richmond, FL, being smaller by factors of 3-4. 
+Second, the total (three-dimensional) consider error for regional mobile 
+baselines (of length < 1000 km) is 8 cm, or less. From these facts one can 
+conclude that reduction of local survey error to the level of a few 
+millimeters, which is well within the capability of current techniques, would 
+
+
+leave VLBI baseline error as the dominant contributor to uncertainty in 
+
+
+19 
+
+
+=> ag SS FF cel a0 pa os eer 
+
+
+- %& =e w S = =_ 
+
+
+fiducial station location and reduce fiducial station consider error by a 
+factor of almost ten to less than a centimeter even for baselines approaching 
+
+
+1000 km in length. 
+
+
+Systematic Errors Associated With Estimated Parameters 
+
+Since it is rarely the case that the phenomena of nature are modeled with 
+perfect realism, it is necessary to ask what systematic errors might arise in 
+the mobile baselines because of modeling errors associated with estimated 
+parameters. Three sets of parameters deserve particular examination in this 
+regard: those describing the spacecraft trajectories, the troposphere, and 
+the ionosphere. 
+
+
+To investigate modeling errors in the case of spacecraft trajectories, a 
+
+
+? 
+; 
+
+
+covariance analysis was performed to determine the sensitivity to errors in the ' 
+gravity field, solar oblateness, the solar flux constant, the value of GM, and 
+
+
+uncertainties in solar panel positioning [J. S. Border, personal communication, 
+
+
+a peek over 
+
+
+1987]. These error sources were found to be negligible, particularly for the 
+relatively short arcs and regional extent of the observing network of the 
+Spring 1985 HPBT. In addition, to validate implementation of the orbital 
+dynamics model in software, comparisons were made between trajectories gen- 
+erated by the JPL-developed PATH-VARY code and those generated by similar 
+codes developed independently at the Aerospace Corporation and the Defense 
+
+5 Mapping Agency. In these comparisons, six-parameter spacecraft epoch states 
+> were numerically integrated forward in time using all three codes. Agreement 
+was observed in all cases at the level of 14 cm, or better, for arcs of up to 
+8 days in length. Based on these tests, we conclude that virtually no system- 
+atic error arises in this work from the mismodeling of spacecraft orbital 
+
+
+dynamics. 
+
+
+20 
+
+
+In the case of the troposphere, the zenith delay at each station was 
+modeled as the sum of wet and dry calibrations and an estimated additive 
+constant delay having the scale height of the wet troposphere component. In 
+conditions of high humidity, such as may be encountered in the tropical 
+climates (e.g., the Caribbean and South America), the modeling error resulting 
+from this approach may be significant, owing to the possible existence of 
+horizontal gradients, which may be variable in both space and time [e.g., 
+Treuhaft and Lanyi, 1987]. Further, an effective zenith error in the applied 
+calibrations may not be well-represented by a constant, owing to both instru- 
+mental and meteorological effects. In the present work, however, especially 
+given the relative quiescence of the troposphere in most of the United States, 
+this representation may be adequate to assure that no substantial systematic 
+error arises from mismodeling of the troposphere. Nevertheless, acknowledging 
+the possible presence of these error sources, and lacking a more quantitative 
+understanding of their significance, we have represented them in our error 
+model by a 1 cm systematic (consider) error in the zenith dry troposphere and 
+a 0.5 cm uncertainty in each mobile horizontal baseline component. 
+
+It warrants mention that a stochastic white noise representation of the 
+clocks-—-in effect, elimination of clocks by double differencing--assures that 
+no systematic error in the mobile baselines arises from the mismodeling of 
+clocks. This may not generally be the case in future work, should other 
+representations of clock behavior--such as linear, quadratic or stochastic 
+colored noise—-be used. 
+
+In the case of the ionosphere, dispersive effects are removed using an 
+assumed inverse-squared frequency dependence, as described earlier. (See 
+
+
+Section IV.) The size of higher-order effects on the dual frequency phase 
+
+
+21 
+
+
+observable was calculated for the worst-case scenario of observation during 
+
+
+solar maximum at midday at low elevation. It was found to be less than 1 cm 
+
+
+[S. A. Stephens, personal communication, 1986]. Since the Spring 1985 HPBT 
+
+
+took place during the solar minimum and at night, we conclude that systematic 
+errors due to ionosphere mismodeling are reduced by over an order of magnitude 
+
+
+from the worst case and are negligible. 
+
+
+Random Errors 
+
+Those estimated parameters for which no significant modeling errors exist 
+are removed as sources of systematic error by means of their adjustment in the 
+least-squares estimation process. Parameters in this class include all those 
+listed as estimated in Table 6, with the possible exception, as noted above, 
+of those characterizing the troposphere. The impact of these parameters on 
+computed baseline covariances (i.e., formal errors) may be significant, 
+depending in size on a combination of factors, including observable noise, a 
+priori information, and network geometry. However, it must be emphasized that 
+parameters in this class are not to be regarded as sources of error, in the 
+sense that their impact on the system performance is always appropriately 
+reflected in the size of the computed baseline covariances. To investigate 
+the dependence of baseline accuracy in the Spring 1985 HPBT on these factors, 
+
+
+test runs were made as described in the following subsections. 
+
+
+The effect of observable noise 
+The dependence of baseline formal errors on the assumed uncertainty, 
+or noise, ascribed to the observable data will, in the absence of a priori 
+
+
+information and consider errors, be exactly linear. Since the analysis of the 
+
+
+present work involves both of these, this linearity cannot be assumed. To 
+investigate the dependence of formal errors on data noise, a subset of the 
+HPBT data was reprocessed using a data noise of 2.0 cm, twice that adopted in 
+Section IV based on post-fit RMS scatter. It was found that baseline formal 
+errors scaled linearly with input data noise to within a few percent. This 
+means that baseline precision will benefit directly and significantly in future 
+experiments when improvements in the field equipment, calibrations or modeling 
+in software reduce post-fit RMS scatter and mandate the use of smaller values 
+
+
+for the data noise. 
+
+
+b. The effect of multipathing 
+GPS signals which reach the receiver antenna indirectly after 
+reflection from surfaces either near the broadcasting antenna or on the ground 
+may sum coherently (and generally out of phase) with the direct signal and 
+cause an error in the measured values of the phase and group delay observables. 
+This phenomenon is known as multipathing and is highly dependent on antenna 
+design and environment. 
+
+To examine the HPBT carrier phase data for evidence of ground-based multi- 
+pathing and to investigate dependence on antenna design, meteorologically and 
+ionospherically calibrated carrier phase observables were double-differenced, 
+with the stations and satellites chosen to maximize the length of the arc. A 
+model observable was subtracted, and a low-order polynomial was fit to the 
+residual. The final residual, after removal of the fitted polynomial, should 
+exhibit only the effects of system noise, tropospheric and instrumental 
+fluctuations, and multipathing. Of these, only multipathing will be periodic 
+
+
+on a sidereal day. Hence, if multipath is a significant contribution to error 
+
+
+23 
+
+
+[ 
+’ 
+
+
+in the observables, data from consecutive days will be correlated. Figures 8 
+and 9 show these post-fit residuals and cross-correlations for the TI-4100 and 
+SERIES-X data, respectively, from the Mojave and OVRO sites for two days of the 
+HPBT [Stephens et al., 1986]. These figures show multipathing to be strong 
+for the TI-4100 antennas, but relatively weak for the SERIES-X antennas. This 
+difference is not unexpected, since the SERIES-X antennas were placed closer 
+to the ground (Table 4) and were equipped with back-plane absorbers, both of 
+which suppress multipathing [e.g., Counselman et al., 1981; Crow et al., 1985; 
+Bishop et al., 1985]. Studies are currently under way at JPL to determine the 
+optimum ground-based receiver antenna design and environment for geodetic and 
+tracking applications using GPS signals [L. E. Young, personal communication, 
+1987]. 
+
+To examine the filter output for evidence of ground-based multipathing, 
+the post-fit RMS scatter was tabulated for: (a) all receivers, (b) separate < 
+receiver types, and (c) individual receivers. It was found that the RMS 
+scatter of undifferenced, ionosphere calibrated carrier phase observables, 
+when all receivers were included, was about 7.5 mm, substantially larger (in 
+an RSS sense) than the values inferred from Figures 8 and 9 for the multi- ee 
+pathing components alone, which were 4 mm for TI-4100 receivers and 2 mm for 
+SERIES-X receivers [Stephens et al., 1986]. In addition, it was found that 
+the RMS scatters for cases (b) and (c) were also about 7.5 mm, independent of 
+which receiver was used. From this, we conclude that ground-based multipath 
+was not the dominant component in the data residuals and was not a limitation 
+on system precision during the HPBT for solutions using the carrier phase data 
+type. 4 
+
+For analyses utilizing the pseudorange data type, the situation is much 
+
+
+different. Pseudorange is attractive because of its greater information 
+
+
+24 
+
+
+i 
+, 
+t 
+
+
+’ ' 
+content (no range biases need be estimated), its immunity to cycle slips and 
+
+
+its high tolerance of outages [Yunck, 1985]. However, examination of post-fit 
+
+
+residuals in analyses attempted using pseudorange indicates a ground-based 
+
+
+multipathing component of 50 cm, or greater, for this data type [Lichten and 
+Border, 1987]. This is not unexpected, since multipath error scales roughly 
+with wavelength, which for pseudorange is 100 times that for carrier phase 
+{[Yunck, 1985]. However, it should be noted that pseudorange may become the 
+data type of choice within the next few years, with the advent of advanced GPS 
+receivers, equipped with improved antennas capable of delivering high precision 
+(< 10 cm) pseudorange [Meehan et al., 1987]. Indeed, covariance analysis has 
+shown that pseudorange with measurement noise of 20 cm, or better, will provide 
+orbit and baseline precision comparable to that obtained using carrier phase 
+with measurement noise of 1 cm [Bertiger et al., 1986]. 
+
+Multipathing from the GPS spacecraft is expected to vary slowly with time 
+and hence be a possible source of systematic error. This phenomenon is also 
+
+
+under current study at JPL [Young et al., 1985; R. Neilan, 1986]. 
+
+
+C. The effect of a priori information e7 
+
+The dependence of baseline formal errors on the a priori uncertain- 
+
+ties, or constraints, applied to other estimated parameters may be significant. 
+
+This is particularly the case when a priori and post-fit formal errors are com- 
+
+parable, indicating that for these parameters, and possibly for others, the 
+
+filter solutions do not derive their strength from the observable data alone. 
+
+An examination of post-fit uncertainties in this work shows that only in the 
+
+case of the troposphere parameters is it likely that significant a priori 
+
+
+information has been supplied. For example, the estimated zenith troposphere 
+
+
+25 
+
+
+> 
+(+) 3 
+- 
+- -f } - 
+
+
+-. ~, Y ie = 
+ —] & ~ oo ,, Se be £ ana owes 
+
+
+7 
+
+
+corrections at Mojave and OVRO have formal errors typically in the range 
+1.0-1.5 cm, only slightly smaller than the adopted value of 2.0 cm, repre- 
+senting the combined accuracy of the wet and dry troposphere calibrations. 
+
+To investigate this dependence, the data from April 2, 1985, were 
+processed through the filter a number of times, with a wide range of values 
+used for the troposphere a priori uncertainty at the Mojave and OVRO 
+stations. Figure 10 shows a plot of the formal error in the vertical baseline 
+component for the Mojave/OVRO baseline, the component usually most sensitive 
+to troposphere calibration errors, as a function of troposphere a priori 
+uncertainty. For a troposphere calibration accuracy of 2.0 cm, used in this 
+work to represent the combined uncertainty in the wet and dry tropospheres, 
+the resulting improvement in vertical baseline precision is only 7%. Even for 
+a total troposphere error of 1.0 cm, it would have been only 14%. From this 
+figure, one can infer that the use of external troposphere calibration for the 
+processing of the data from the Spring 1985 HPBT contributed little to the 
+precision of the estimated vertical baseline components. Further, one can 
+infer that external calibration would have contributed significantly to this 
+precision only if it had been on the order of 0.5 cm or better. 
+
+It should be emphasized that the above conclusions relate to the Spring 
+1985 HPBT only and should not be extrapolated to GPS-based geodesy in general. 
+There are several reasons for withholding from this generalization. First, 
+WVR-based calibration is in fact expected to eventually attain an accuracy of 
+0.5 cm or better [Gary et 2l1., 1985]. Further, in conditions of high humidity, 
+such as may be encountered in the Caribbean and South America, the existence of 
+azimuthal asymmetries in the troposphere [e.g., Treuhaft and Lanyi, 1987] may 
+mandate the use of WVRs for calibration via satellite copointing. In addi- 
+
+
+tion, the improved quality of GPS data from new receivers [Meehan et al., 
+
+
+26 
+
+
+? 
+
+
+—_- 
+
+
+1987] may increase the sensitivity of baseline solutions to calibration errors. 
+Lastly, the above claim implicitly assumes the validity of the error model and 
+disregards the fact that the WVR calibrations provide information on “he time- 
+dependence of the wet troposphere delay; important complementary information 
+
+regarding troposphere-related errors will be provided by studies (in progress) 
+
+
+of baseline repeatability as a function of calibration technique. 
+
+
+d. The effect of fiducial network geometry 
+The dependence of baseline formal errors on fiducial network 
+
+geometry must be understood in order to plan for future experiments. In 
+addition, it is important to be able to predict the consequences of the loss 
+of one or more fiducial stations during an experiment, an all too possible 
+occurrence. To investigate this dependence, a subset of the Spring 1985 HPBT 
+data was reprocessed using hypothetical single--station outages at Ft. Davis, 
+Richmond and Westford in different runs. The case of a hypothetical outage at 
+two stations simultaneously, Westford and Richmond, was also investigated. 
+Finally, the case of a five-station fiducial network (Westford, Richmond, Ft. 
+Davis, Mojave and OVRO) was run. The resulting formal errors in the horizontal 
+plane for the OVRO/Mammoth (70 km), OVRO/Mojave (245 km) and Mojave/Mammoth 
+(313 km) baselines are displayed in Figures 11 and 12. From these figures, we 
+see that while the addition of a fifth fiducial station provides only a slight 
+improvement in baseline precision, the loss of a station, reducing the fiducial 
+network to three stations, results in a serious loss of precision, particularly 
+in the case of the longer two of these three baselines. By far, the most 
+
+
+serious loss of precision occurs when the Westford station is lost to the 
+
+
+27 
+
+
+f 
+; 
+‘ 
+/ 
+
+
+? 
+
+
+oS 
+
+
+» 
+
+
+fiducial network. This is not surprising, since the loss of Westford would 
+result in the greatest reduction in geometric extent, for both the north and 
+the east directions, of the fiducial network. We also see that the loss of 
+two fiducial stations, requiring the use of a more local fiducial network 
+consisting of Ft. Davis, Mojave and OVRO, results in serious loss of precision 
+for even the short OVRO/Mammoth baseline. 
+
+We conclude that the minimal fiducial network for GPS-based regional 
+geodesy using the current receiver systems consists of four stations, with a 
+fifth station highly desirable to Protect against the possibility of an outage 
+somewhere within the fiducial network. We must add the following caveat: this 
+conclusion may not apply when improved data quality (including usable pseudo- 
+range) and vastly different receiver networks exist, and it will have to be 
+
+
+reexamined from time to time as the GPS systems evolve. 
+
+
+e. The effect of GPS satellite geometry and time-tag offsets 
+Baseline results in this work (e.g., Figure 4 and Table 7) show the 
+
+precision of the eastern baseline component to be worse than that for the north 
+by factors of 2-4. This asymmetry is related to receiver time tag errors and 
+the necessity of estimating carrier phase biases without accurate pseudorange 
+or good a priori constraints. All ground tracks of GPS satellites at mid- 
+latitudes run almost exactly north to south (or south to north). Because of 
+this, the estimates of both carrier phase bias and time tag offsets from UTC 
+are correlated with the estimated longitude of a given receiver relacive to 
+some reference receiver [Blewitt, 1987a]. 
+
+In future experiments, this eastern error can be reduced by a factor ot 
+
+
+about two, if the receiver time tags are synchronized to UTC to within a 
+
+
+28 
+
+
+oT, RO PP alae ees lk, 
+~ s wan a 3 = “- = 
+
+
+microsecond. This would permit the application of a priori time tag con- 
+straints, breaking the correlation with longitude. Alternatively, even impre- 
+cise (e.g., 1 meter) pseudorange may be used in conjunction with carrier phase 
+to establish clock synchronization, if there is no significant (> 1 psec) 
+offset between the pseudorange and carrier phase time tags. This eastern error 
+can be reduced by an additional factor of two by "optimizing" the carrier phase 
+biases, using the extra information that they can assume only integer values 
+
+
+[Blewitt, 1987b]. 
+
+
+A GPS Error Budget 
+
+In this subsection, a GPS baseline error budget is presented for the 
+specific case of the 245 km OVRO/Mojave baseline between the SERIES-X 
+receivers. This error budget includes the contributions from all significant 
+error sources, including consider errors, modeling errors in estimated 
+parameters, and formal, or random, errors, as discussed in the preceding 
+subsections. That is, it represents our current understanding of the absolute 
+accuracy of the JPL-developed GPS-based geodetic systems used in the Spring 
+1985 HPBT. This error budget is shown for the horizontal plane in Figures 13 
+and 14. In these figures, the separate consider errors for geocenter 
+uncertainty, solar radiation pressure uncertainty, coordinate scale error, 
+earth orientation errors, and fiducial coordinate errors are shown. The a 
+priori uncertainties used for these parameters are listed in Table 6. (The 
+consider errors for the other non-estimated parameters are even smaller than 
+those shown in the two figures.) 
+
+
+A 0.5 cm uncertainty representing the possible existence of horizontal 
+
+
+gradients in the troposphere (i.e., modeling error) [Davidson and Trask, 1985] 
+
+
+and the formal errors are also shown. 
+
+
+In examining these figures, we see that three error sources dominate all 
+others: the fiducial station consider errors, troposphere modeling errors and 
+formal errors. Further, we see that for the northern baseline component, no 
+one of these three dominates, although the formal error is the smallest; for 
+the eastern baseline component, the formal error is the largest. The total 
+absolute accuracy inferred for the Spring 1985 HPBT results from the aggregate 
+of all contributions is about 1.6 cm in the north and 2.6 cm in the east, or 
+6:10° and 1:10’, respectively. 
+
+In the next subsections, we compare this error budget with the experi- 
+
+
+mental results from this work for day-to-day repeatability of GPS measurement 
+
+
+and with the results for colocated GPS and VLBI measurement. 
+
+
+Comparison of the Error Budget with Baseline Repeatability 
+
+Before comparing the results for day-to-day repeatability (Section V and 
+Table 7) with the error budget presented in the preceding subsection, we must 
+first recognize that not all of the error sources which contribute to the 
+total absolute uncertainty will diminish the ability of che GPS-based systems 
+to make reproducible measurements on short time scales. Indeed, we note that 
+the only error source which is likely to have affected repeatability for the 
+HPBT is the formal, or random, error. 
+
+Fiducial coordinate consider errors will not affect repeatability, because 
+they will, to the extent that an identical observing schedule was followed on 
+all days, be common to all days of the HPBT. Since the schedules were nom- 
+inally identical on all days, differing slightly in practice only because of 
+occasional outages within the network, we car dismiss fiducial coordinate 
+errors as having contributed significantly to degradation of day-to-day repeat- 
+
+
+ability. Similar arguments may be made in the case of troposphere modeling 
+
+
+30 
+
+
+ee ome) 
+
+
+ee 
+
+
+a 
+
+
+oe 
+
+
+errors, especially in view of the relatively small wet troposphere delays at 
+the North American sites. However, this claim is made with less confidence 
+than in the case of the fiducial sites, because the character of unmodeled 
+horizontal gradients may sometimes change on a time scale of less than the 
+six-day span of the HPBT. 
+
+Accepting these assumptions, we predict from our error budget an RMS 
+repeatability of about 0.4 cm in the north and 2.4 cm in the east for the 
+Mo jave/OVRO baseline between SERIES-X receivers. From the earlier summaries 
+given in Section V and Table 7, we have, for the HPBT data, observed values of 
+0.6 cm and 2.5 cm, respectively. This is in excellent agreement with the 
+prediction of the error budget, although the small sample size (4 measurements) 
+
+
+leaves open the possibility that this agreement is somewhat specious. 
+
+
+Comparison of the Error Budget with GPS/VLBI Differences 
+
+Before comparing GPS/VLBI baseline differences with the predictions of the 
+GPS error budget, we must first recognize that there is an additional error 
+source that contributes to the total uncertainty in the comparison (but not to 
+the uncertainty in either the GPS or VLBI result alone). This is the 4 cm 
+uncertainty (see Section IV) in the local (length < 1 km) site survey measure- 
+ments which must be used at the mobile GPS sites to relate the VLBI- and GPS- 
+based measurements. Thus, the total uncertainty for either component in this 
+comparison is given by the summation in quadrature of this 4 cm survey error 
+and the total (RSS) uncertainty shown in Figure 13 or 14. 
+
+From this, we obtain an uncertainty (one standard deviation) in the 
+difference of the GPS and VLBI measurements of 4.3 cm in the north and 4.8 cm 
+in the east for the Mojave/OVRO baseline between SERIES-X receivers. 
+
+
+Consult-—- 
+
+
+ing the earlier summaries given in Section V and Table 7, we have, from the 
+
+
+31 
+
+
+HPBT experimental results, mean values of 2.1 cm anc 5.6 cm, respectively, for 
+this baseline, in agreement with the predictions of our error budget. Similar 
+conclusions apply to the other GPS/VLBI comparisoas made in Figure 6. 
+
+It should be noted that the uncertainty in these GPS/VLBI intercomparisons 
+is dominated by the hypothesized 4 cm error in the local survey measurement. 
+If this survey error is reduced to the level of a few millimeters, which is 
+certainly within the capability of current techniques, then the uncertainty in 
+the VLBI/ GPS intercomparison will decrease substantially, to about 1.8 cm 
+(north) and 2.6 cm (east) for the above example of the Mo jave/OVRO SERIES-X 
+baseline, enabling a much more stringent test of the accuracy of the GPS-based 
+geodetic systems. Because of this fact, new local surveys of the Mojave and 
+OVRO sites using mobile VLBI measurement are planned for the Fall of 1987. 
+Similar resurveys of the POLARIS VLBI sites are being considered [R. J. Coates 
+
+
+and J. W. Ryan, personal communication, 1987]. 
+
+
+VII. Summary and Conclusion 
+
+
+In this report, we have presented a description of the Spring 1985 High 
+Precision Baseline Test (HPBT), in which a collaborative effort was mounted 
+under the leadership of the Jet Propulsion Laboratory to conduct a measurement 
+campaign involving over a dozen institutions and having fourteen GPS-based 
+geodetic systems deployed to ten sites across the United States. In analysis 
+of the HPBT data, it was demonstrated that system performance was at a level 
+of 1-2:107 for baselines approaching 1000 km in length, thus meeting the 
+accuracy objectives of the test. System precision was shown to be better than 
+
+
+this for some baseline components by a factor of 2-4. Although this level of 
+
+
+accuracy meets the minimum criterion for usefulness in a program of scientific 
+research, it falls short by an order of magnitude, or more, of the performance 
+
+
+level of current VLBI-based systems. However, insights gained in the course 
+
+
+- 
+of analyzing the HPBT data confirm the expectation that GPS-based geodesy will 
+¥ eventually rival the accuracy of VLBI systems. Several specific improvements 
+required in the GPS system to reach this accuracy goal have been cited in the 
+‘ preceding text. We summarize them here briefly. 
+a. Improved fiducial site surveys are required to reduce fiducial 
+baseline uncertainty to < 1 cm. 
+a b. Improved troposphere calibration data must be taken, particularly 
+in regions of high humidity. This will require more and improved 
+WVRs, capable of GPS satellite copointing, and improved and 
+i standardized surface meteorology sensors. 
+> c. Improved antenna design and environmental control are required to 
+' reduce multipathing for pseudorange observables to a few 
+centimeters. 
+d. Improved receivers are required which can view all visible satel- ; 
+4 lites, eliminate cycle slips in carrier phase data, synchronize 
+
+
+time tags to within 1 psec of UTC for both carrier phase and 
+pseudorange, and deliver precision (< 10 cm) pseudorange. 
+
+e. Improved analytical techniques are required which will fully exploit 
+the above improvements. These include: the use of data from 
+
+
+multiple days in estimating ephemerides; the use of statistical, or 
+
+
+em es ‘e , ) 
+
+
+x stochastic, models as more representative of clock, troposphere and 2 
+
+
+(possibly) ionosphere behavior; and the use of bias optimization to 
+
+
+33 
+
+
+incorporate the discrete character of the range biases into the 
+estimation of baselines. 
+
+f. Although it is not in our power to affect the GPS constellation 
+itself, we note that, using the most recent launch schedule, the 
+current GPS constellation of six Block I satellites will have been 
+replaced by twenty-four Block II satellites by the end of 1992. 
+This will not only improve observing geometry (given the implementa- 
+tion of item (d) above), but it will also permit experiments to be 
+conducted at any hour of the day. (Presumably, they will always be 
+done at night, when the troposphere and ionosphere are more stable 
+and the effect of the ionosphere is minimal.) 
+
+Covariance analysis, combined with our experience with new data collected 
+since the HPBT, indicates that when the above improvements have been implemen- 
+ted, GPS-based geodetic systems will rival the VLBI-based systems in accuracy, 
+while being an order of magnitude less expensive to both obtain and operate. 
+This will open the door to the participation in geodetic measurement programs 
+by many organizations for which VLBI-based geodesy is now too costly. That 
+participation in turn will lead to increased resolution in the measurement of 
+regional strain fields and intercontinental crustal motion, leading ultimately 
+
+
+to more stringent tests of models of tectonic plate driving forces and to an 
+
+
+improved understanding of the interior structure of the Earth. 
+
+
+VIII. References 
+
+
+Bertiger, W. I., S. C. Wu, J. S. Border, S. M. Lichten, B. G. Williams and 
+T. J. Wu, High precision GPS orbit determination using March 1985 demon- 
+stration data, AIAA 24th Aerospace Sciences Meeting, paper AIAA-86-0089, 
+
+
+Reno, NV, January 1986. 
+
+
+Bierman, G. J., Factorization methods for discrete sequential estimation, 
+
+
+241 pp., Academic Press, New York, NY, 1977. 
+
+Bishop, G. J., J. A. Klobuchar and P. H. Doherty, Multipath effects of the 
+determination of absolute ionospheric time delay from GPS signals, Radio 
+Sci., 20, 388-396, 1985. 
+
+Blewitt, G., On improving the estimation of relative longitude in GPS-based 
+systems, JPL Interoffice Memorandum 335.1-87-41 (internal document), Jet 
+Propulsion Laboratory, Pasadena, CA, May 1987. 
+
+Blewitt, G., The expectation value approach to optimization of range biases in 
+
+
+carrier phase observables (abstract), Eos Trans. AGU, 68, 285, 1987. 
+
+
+Bock, Y., R. I. Abbot, C. C. Counselman III, S. A. Gourevitch, and R. W. King, 
+Establishment of three-dimensional geodetic control by interferometry 
+
+
+with the Global Positioning System, J. Geophys. Res., 90, 7689-7703, 1985. 
+
+
+Chao, C. C., A new method to predict wet zenith range correction from surface 
+measurements, JPL Technical Report 32-1526, 14, pp. 33-41, Jet Propulsion 
+Laboratory, Pasadena, CA, 1973. 
+
+Christodoulidis, D. C., D. E. Smith, R. Kolenkiewicz, S. M. Klosko, M. H. 
+Torrence, and P. G. Dunn, Observing tectonic plate motions and deforma- 
+
+
+tions from satellite laser ranging, J. Geophys. Res., 90, 9249-9264, 1985. 
+
+
+i 
+‘ 
+' 
+
+
+¥ 
+
+
+Counselman, C.C., III, and S. A. Gourevitch, Miniature interferometer terminals 
+for earth surveying: ambiguity and multipath with global positioning 
+
+
+system, IEEE Trans. Geosci. Remote Sens., GE-19, 244-252, 1981. 
+
+
+Crow, R. B., F. R. Bletzacker, R. J. Najarian, G. H. Purcell, Jr., J. I. 
+Statman, and J. B. Thomas, SERIES-X final engineering report, JPL Internal 
+Document D-1476, Jet Propulsion Laboratory, Pasadena, CA, August 1984. 
+
+Davidson, J. M. and D. W. Trask, Utilization of mobile VLBI for geodetic mea- 
+
+
+surements, IEEE Trans. Geosci. Remote Sens., GE-23, 426-437, 1985. 
+
+
+Davidson, J. M., C. L. Thornton, T. H. Dixon, C. J. Vegos, L. E. Young, and 
+T. P. Yunck, The March 1985 demonstration of the fiducial network concept: 
+
+
+a preliminary report, in Proceedings of the First International Symposium 
+
+
+on Precise Positioning with the Global Positioning System, edited by 
+
+
+C. Goad, pp. 603-612, NOAA, Rockville, MD, 1985; and TDA Progress Report 
+
+
+42-85, pp. 212-218, Jet Propulsion Laboratory, Pasadena, CA, 1986. 
+Gary, B. L., S. J. Keihm and M. A. Janssen, Optimum strategies and performance 
+for the remote sensing of path-delay using ground-based microwave radiom- 
+
+
+eters, IEEE Trans. Geosci. Remote Sens., GE-23, 479-484, 1985. 
+
+
+Hensen, D. J., E. A. Collier and K. R. Schneider, Geodetic applications of the 
+
+
+Texas Instruments TI-4100 GPS navigator, Proceedings of the First Inter- 
+
+
+national Symposiua on Precise Positioning with the Global Positioning 
+
+
+System, edited by C. Goad, pp- 191-200, NOAA, Rockville, MD, 1985. 
+Herring, T. A., I. I. Shapiro, T. A. Clark, C. Ma, J. W. Ryan, B. R. Schupler, 
+
+C. A. Knight, G. Lundqvist, D. B. Shaffer, N. R. Vandenberg, B. E. Corey, 
+
+H. F. Hinteregger, A. E. E. Rogers, J. C. Weber, A. R. Whitney, 
+
+G. Elgered, B. 0. Ronnang, and J. L. Davis, Geodesy by radio interfer- 
+
+
+ometry: evidence for contemporary plate motion, J. Geophys. Res., 91, 
+
+
+8341-8347, 1986. 
+
+
+BS u& 
+
+
+Hothem, L. D., T. Vincenty, and R. E. Moose, Relationship between doppler and 
+other advanced geodetic system measurements based on global data, in 
+
+
+Proceedings of the Third International Geodetic Symposium on Satellite 
+
+
+Doppler Positioning, New Mexico State University, NM, February 1982. 
+
+
+Kroger, P. M., G. A. Lyzenga, K. S. Wallace, and J. M. Davidson, Tectenic 
+motion in the western United States inferred from very long baseline 
+
+
+interferometry measurements, 1980-1986, submitted to J. Geophys. Res., 
+
+
+March 1987. 
+Ladd, J. W., and C. C. Counselman III, The Macrometer II™ dual-band inter- 
+
+
+ferometric surveyor, in Proceedings of the First International Symposium 
+
+
+on Precise Positioning with the Global Positioning System, edited by C. 
+
+
+Goad, pp. 175-180, NOAA, Rockville, MD, 1985. 
+
+
+Lanyi, G., Tropospheric calibration in radio interferometry, in Proceedings of 
+
+
+the International Symposium on Space Techniques for Geodynamics, edited 
+
+
+by J. Somogyi and Ch. Reigber, pp. 184-195, IAG/COSPAR, Sopron, Hungary, 
+July 9-13, 1984. 
+
+Lichten, S. M., J. S. Border, S.-C. Wu, B. G. Williams, and T. P. Yunck, Pre- 
+cise GPS orbit determination results from 1985 field tests, paper 
+presented at AIAA/AAS Astrodynamics Conference, Williamsburg, VA, 
+
+August 18-20, 1986. 
+Lichten, S. M., and J. S. Border, Strategies for high precision GPS orbit 
+
+
+determination, submitted to J. Geophys. Res., June 1987. 
+
+
+Meehan, T. K., J. M. Srinivasan, J. B. Thomas, T. N. Munson, R. E. Neilan and 
+L. E. Young, Baseline tests of the JPL ROGUE receiver (abstract), Pro- 
+
+
+ceedings of the General Assembly, International Union of Geodesy and 
+
+
+Geophysics, Vancouver, B.C., Canada, 1987. 
+
+
+——— —— 
+
+
+> 
+: 
+
+
+Melbourne, W. G., J. M. Davidson, T. H. Dixon, M. P. Golombek, C. L. Thornton 
+and C. J. Vegos, GPS measurement system development for regional geodesy: 
+operating plan, JPL Internal Document D-3562, Jet Propulsion Laboratory, 
+Pasadena, CA, August 1986. 
+
+Minster, J. B., and T. H. Jordan, Present-day plate motions, J. Geophys. Res., 
+83, 5331-5354, 1978. 
+
+Moyer, T. D., Mathematical formulation of the double-precision orbit determi- 
+nation program (DPODP), JPL Technical Report 32-1527, Jet Propulsion 
+Laboratory, Pasadena, CA, May 1971. 
+
+NASA, Crustal Dynamics Project catalogue cof site information, NASA/GSFC Tech- 
+nical Report X-904-83-14, Goddard Space Flight Center, Greenbelt, MD, 
+September 1983. 
+
+Neiian, R. E., An experimental investigation of the effect of GPS satellite 
+multipath, ROMI M. S. Thesis, University of Wisconsin, Madison, WI, 1986. 
+
+Robinson, S. E., A new algorithm for microwave delay estimation from water 
+
+
+vapor radiometer data, TDA Progress Report 42-87, pp. 149-157, Jet 
+
+
+Propulsion Laboratory, Pasadena, CA, 1986. 
+Rundle, J. B., and J. H. Whitcomb, A model for deformation in Long Valley, 
+
+
+California, 1980-1983, J. Geophys. Res., 89, 9371-9380, 1984. 
+
+
+Ryan, J. W., and C. Ma, Crustal Dynamics Project data analysis: fixed station 
+
+
+VLBI geodetic results, NASA/GSFC Technical Memorandum 86229, Goddard 
+
+
+Space Flight Center, Greenbelt, MD, October 1985. 
+Savage, J. C., and M. M. Clark, Magmatic resurgence in Long Valley caldera, 
+
+
+California: possible cause of the 1980 Mammoth Lakes earthquakes, 
+
+
+“s-"-~ 
+
+
+Sims, M. L., Phase center variation in the geodetic TI 4100 receiver system's 
+
+
+conical spiral antenna, in Proceedings of the First International Sym 
+
+
+posium on Precise Positioning with the Global Positioning System, edited 
+
+
+Smith, D. E., D. C. Christodoulidis, R. Kolenkiewicz, P. J. Dunn, S. M. Klosko, 
+M. H. Torrence, S. Fricke and S. Blackwell, A global geodetic reference 
+
+
+frame from LAGEOS ranging, J. Geophys. Res., 90, 9221-9234, 1985. 
+
+
+Sovers, 0. J., and J. S. Border, Observation modei and parameter partials for 
+the JPL geodetic GPS modeling software "GPSOMC," JPL Publication 87-21, 
+Jet Propulsion Laboratory, Pasadenz, CA, August 1987. 
+
+Sovers, 0. J., and J. L. Fanselow, Observation model and parameter partials 
+for the JPL VLBI parameter estimation software "MASTERFIT"-1986, JPL 
+Publication 83-39, Rev. 2, Jet Propulsion Laboratory, Pasadena, CA, 
+August 1986. 
+
+Sovers, 0. J., J. B. Thomas, J. L. Fanselow, E. J. Cohen, G. H. Purcell, Jr., 
+D. H. Rogstad, L. J. Skjerve and D. L. Spitzmesser, Radio interferometric 
+determination of intercontinental baselines and earth orientation uti- 
+
+
+lizing Deep Space Network antennas: 1971 to 1980, J. Gecphys. Res., 89, 
+
+
+7597-7607, 1984. 
+Stephens, S. A., J. M. Davidson, C. L. Thornton and G. Blewitt, GPS receiver 
+performance intercomparisons from the 1985 Spring and Fall High Precision 
+
+
+Baseline Tests (abstract), Eos Trans. AGU, 67, 262, 1986. 
+
+
+Tapley, B. D., B. E. Schutz and R. J. Eanes, Station coordinates, baselines and 
+
+
+Earth rotation from LAGEOS laser ranging, J. Geophys. Res., 90, 9235-9248, 
+
+
+1985. 
+Treuhaft, R. N., and G. E. Lanyi, The effect of the dynamic wet troposphere on 
+
+
+radio interferometric measurements, Radio Sci., 22, 251-265, 1987. 
+
+
+39 
+
+
+- - wee we lee 
+
+
+Wu, S.-C., W. I. Bertiger, J. S. Border, S. M. Lichten, R. F. Sunseri, B. G. 
+
+
+Williams, P. J. Wolff, and J. T. Wu, OASIS mathematical description, 
+
+
+V 1.0, JPL Internal Document D-3139, Jet Propulsion Laboratory, Pasadena, 
+
+
+CA, 1986. 
+Wu, S.-C., and C. L. Thornton, OASIS——a new GPS covariance and simulation 
+
+
+analysis software system, in Proceedings of the First International Sym 
+
+
+posium on Precise Positioning System, edited by C. Goad, pp. 337-346, 
+
+
+NOAA, Rockville, MD, 1985. 
+Young, L. E., R. £. Neilan and F. R. Bletzacker, GPS satellite multipath: an 
+
+
+experimental investigation, in Proceedings of the First International Sym 
+
+
+posium on Precise Positioning with the Global Positioning System, edited 
+
+
+by C. Goad, pp. 423-432, NOAA, Rockville, MD, 1985. 
+
+Yunck, T. P., Multipath and the geodetic use of P code, JPL Interoffice Memo- 
+randum 335.1-331 (internal document), Jet Propulsion Laboratory, 
+Pasadena, CA, August 1985. 
+
+Yunck., T. P., and S.-C. Wu, Tracking geosynchronous satellites by very-long- 
+
+
+baseline interferometry, J. Guidance, Control, and Dynamics, 6, 382-386, 
+
+
+19835. 
+
+
+Table 1. Spring 1985 HPBT Participating Institutions and Organizations 
+
+
+NASA Geodynamics Program 
+Applied Research Laboratory 
+Air Force Geophysical Laboratory 
+Bendix Corporation 
+California Institute of Technology 
+Crustal Dynamics Project 
+Defense Mapping Agency 
+Haystack Observatory 
+Interferometrics Incorporated 
+Jet Propulsion Laboratory 
+
+
+National Geodetic Survey y 
+
+
+> 
+: 
+; 
+Z 
+
+
+Naval Surface Weapons Center 
+Pacific Missile Test Center 
+r Texas Department of Highways 
+Texas Instruments Corporation 
+United States Geological Survey 
+
+
+University Navstar Consortium 
+
+
+fee 3. Ae "e , ’ 
+
+
+4 
+> 
+
+a 
+no 
+
+
+Table 2. Summary of Field Equipment Information 
+
+
+Station Receiver WVR2@ Frequency Standard 
+Austin, TX ARL TI-4100 Quartz 
+Dahlgren, VA ARL TI-4100 Quartz 
+Ft. Davis, TX TDH TI-4100 : H-Maser 
+
+AFGL dual-frequency H-Maser 
+Hat Creek, CA TI-4100 DSN Prototype Various” 
+Mammoth Lakes, CA  ARL TI-4100 Quartz/Rb° 
+Mojave, CA JPL SERIES-X CDP JCl H-Maser 
+TI TI-4100 Various” 
+OVRO, CA JPL SERIES--X CDP Prototype H-Maser 
+TI TI-4100 Various? 
+Pt. Mugu, CA PMTC TI-4100 Quartz 
+Richmond, FL ARL TI-4100 H-Maser 
+AFGL dual-frequency H-Maser 
+Westford, MA ARL TI-4100 Quartz 
+AFGL dual-frequency H-Maser 
+
+
+? Institutional cognizance of GPS receivers and WVRs used in the HPBT 
+is denoted by the first set of initials in these two columns. The meanings of 
+those abbreviations are as follows: AFGL, Air Force Geophysical Laboratory; 
+ARL, Applied Research Laboratory; CDP, NASA Crustal Dynamics Project; DSN, 
+NASA Deep Space Network; JPL, Jet Propulsion Laboratory; PMTC, Pacific Missile 
+Testing Center; TDH, Texas Department of Highways; TI, Texas Instruments Cor- 
+poration. The different WVR types are as follows. The prototype WVRs were 
+
+
+developed at JPL for the CDP in 1980-1984. The retrofit WVRs are prototype 
+
+
+42 
+
+
+models which have been upgraded by the Bendix Corporation under contract to the 
+
+
+CDP. The JOl WVR is a new prototype developed at JPL for the CDP in 1984-1985. 
+
+
+These receivers were operated using Rb clocks on March 31 and April 1; 
+quartz oscillators on Aprii 2, 3, and 5; and hydrogen masers on April 4, with 
+
+
+the objective of investigating the dependence of baseline accuracy on the 
+
+
+frequency standard. 
+
+
+© This receiver was operated using a Rb clock on March 31, April 1 and 
+April 4, and quartz oscillators on April 2, 3, and 5. No hydrogen maser was 
+
+
+available at this site. 
+
+
+43 
+
+
+918 S9xBT YIOUMBW IOJ SaQBUTPI00D dU] 
+saey pue [C861] BW Pue uBAY WOIZ ATID9ITP UayRQ 918 S9TUTeII9OUN JsUL 
+Suty °M “Yu Aq peptaoad 19320003 ay3 03 UOFIIEIIOD B puB f[ER61 *VSVN] UOTJeWIOZUT a3TS jo aNZ0TeIeD 
+
+
+32eforg Sotueukg TeIsNIzy ey2 UT peUTezUOD UOT ZeWI0ZUT ABAANS 9y3 [S861] BW Pue uBhy Jo DHEZS UOTINTOS 
+
+
+“UOFINTOS 389q INO J9T Jer YOU Op pue LgdH S861 BuTadg ay. wo1z eIep Sq5 UO peseq 
+
+
+*[9861 ‘uot IeoTUNUMO0D Teuosiad } 
+
+
+“810119 ST}BWaISAS aTQTSsod 103 juUN0DDe 03 pajuem%ne useq jou 
+
+
+IGTA T®qOT2 uo peseq a2e ‘sayxe] YyJOUMEW 103 e804} 3dod>oxe *2Tqey Sty. ut peAetdstp saqeutpiz009 [Ty 
+
+
+00°0* 997°61896z% 
+
+
+10°0* 698°€9S0%ZZ 
+
+
+700°0* 886°68Z2St4- 
+
+
+€10°0* €65°%S0429S- 
+
+
+£00°0 
+
+
++ SIT°O17Z64%1 
+
+
+S00°0+ O78°LIE196 
+
+
+O0OTY-IL*194V 
+
+
+OOTY-IL*194V 
+
+
+p10j3399" 
+
+
+puoayoty 
+
+
+10°0+ €€L°BSE9BERE 600°0* 6S2°8978Z74- 700°0* L10°€7960%z- OOT#-IL AST TBA suemo 
+10°O* S66°9898€8E 600°0+ 89€°Z08Z/%4- 700°0* E0E*ZZ470T4z- X-Sa1¥uasS ASTRA suamo 
+10°O* €S9°L77899€ O10°0F SZLZ°1LS9%94- 700°0* 066°€9S9SEZ- OOT#-IL aaeloy 
+10°O* 1[UuS°Z97899E O10°0+ OSE*ET99%94- 700°0+ ESE*%Z79SEz- X-Sa1¥4aS aaelow 
+0Z°O+ LSZ°9ZLS/8E 002°0* 0%2°Z0282%7%- 00Z°O* SS6°lE%y7HyzZ- OOT?-IL Saxe] yOUMEW 
+10°O* EVE°6ILL9T4 Z10°O+ LI9°6LSEZI4- S00°0* 662° 1Z8€ZSz- OOT7-IL 49019 3eR 
+00°0* O£€9°Ev0ZEZE 800°0* 8ES*6S0ZEES- €00°O* 6S2°161"ZET- 0OT”-IL* 1D4Vv STABq *3g 
+(S82930m) z (S19j0m) A (s2930m) x JBATII904 uot3#3S 
+SO9IVUFPIOOD JUSUMUOW UOTIBIS DT1IVSeD0eH TFzOCTIg YW ‘*E BTqRL 
+y 3 ® 4 ” ‘ rT) 
+
+
+4G 
+
+
+SE FP ree | 
+
+
+= 
+» 
+
+
+-* 
+> 
+
+
+~ 
+
+
+——_ 
+
+
+Table 4. Offsets of Antenna Phase Centers from Station Reference Monuments 
+
+
+Station Receiver East (meters) North (meters) Vertical (meters) 
+“ 
+oa Ft. Davis AFGL -39.150 -61.521 3.412 
+Ft. Davis TI-4100 0.000 0.000 1.096 
+Hat Creek TI-4100 0.000 0.000 0.346 
+Mammoth Lakes TI-4100 0.000 0.000 wer 
+' Mo jave SERIES-X 0.000 -0.625 0.778 
+Mo jave TI-4100 0.000 0.000 1.744 
+, Owens Valley | SERIES-X 0.005 ~0.625 0.906 
+:. Owens Valley TI-4100 0.000 0.000 1.749 
+Richmond AFGL -11.772 -30.567 6.569 
+Richmond TI-4100 0.000 0.000 2.764 | 
+Westford AFGL 3.470 -45.131 0.742 
+‘ Westtord TI-4100 -0.003 -0.017 2.804 
+4 
+‘ The offsets given reference the effective phase centers for the dual- 
+- frequency observable. The sign sense of these offsets is antenna-monument= ‘ 
+€ offset. 
+‘ 
+; * The TI-4100 antenna at Mammoth Lakes was stowed and redeployed each 
+" day. The vertical offsets in meters for the separate days were as follows for 
+“a March 31, 1985, through April 5, 1985, respectively: 1.892, 1.797, 1.803, 
+i; 1.800, 1.803, and 1.826. 
+ail 
+
+
+45 
+
+
+= = 2 SR FP eas 
+
+
+——s .- 5 
+
+
+Table 5. Station Monument Identifications 
+
+
+Site Monument 
+Station Receiver Number Inscription 
+
+
+Ft. Davis® AFGL,TI-4100 7216 HARVARD RM 4 1980 
+
+
+Hat Creek TI-4100 7218 LM No. 1 M 
+
+
+Mammoth Lakes TI-4100 Dept. Interior, Center 
+for Earthquake Research 
+
+
+Mojave SERIES-X MOJAVE NCMN NO. 1 1983 
+Mojave TI-4100 MOJAVE NCMN NO. 3 1983 
+Owens Valley SERIES-X MOBLAS 7114 1979 
+
+Owens Valley TI-4100 BP ARIES 3 
+
+Richmond* AFGL, TI-4100 TIMER 1962 
+
+
+Westford@ AFGL,TI-4100 OCP 3 
+
+
+All data displayed in this table are taken from the Crustal Dynamics 
+Project Catalogue of Site Information (NASA, 1983], except for that relating 
+to the Mammoth Lakes site, for which the monument was established in the field 
+
+
+during the HPBT by the U.S. Geological Survey. 
+
+
+° The AFGL and TI-4100 receivers at Ft. Davis, Richmond and Westford 
+
+
+were referenced to the same monument. 
+
+
+g-Ol X 4° Ppereptsuog @TVIG sIeUTPI00O 
+vesn 1 pezept suo YIOTD sousr9azoy 
+
+Sites dee ¢1-9l x ¢°0 
+99U82 991 Joy persptsuo9 S19 {oOWeIeY UOTIETPeY ABTOS 
+
+
+- 
+one +s 
+
+
+— 
+Ko 
+ore 
+
+
+gu0FIeI9TI00y 
+
+
+P 
+pezeptsuog atToq-A 
+
+
+pezeptsuog @[0q-x 
+
+
+be ee od 
+
+
+,esu 1°0O peizsptsuo) OLN - Tin 
+w> OI pereptsuo) S9eUTPI00D 193uU99005 
+
+
+oot te 
+
+
+w2 T pe19ptsuog9 sazsydsodozy Aaq yRTUeZ 
+
+
+svuuezue Sid ‘IGTA AUTT wo pereptsuog qghPaans 9318 @TTqOW 
+
+
+wo 4 9P229PTsuog q®228UTPz009 uoTawIS TeFONPTY 
+
+
+3y3tT JO peeds = 9 2 xX 998 Q°OT poe eutisy sesetg o8uey 
+
+
+— * 
+——e SO 2 
+: 
+
+
+@S8tTOUu BzTYA ‘IT38BYI0RS 298 1 poe zeuwtisy e211 2jyezl990edg pue uoTIeIS 
+wy Zz pe ewT3 sy SO9ISUTPAOOD UOTIBIS FT TQOW 
+
+@194Me8 19 wo 0°9 
+SHAM OWAO ‘eaefow w> 0°Z pe ew sq sezeydsodozy 39m YITUSZ 
+998 /my | pezewT3sq yoody 38 S8TIFIOTSA 93TT197"S 
+
+
+wy OZ pezewyt3sg yoody 38 sajeUuTp1009 9371197" 
+
+
+Aquye 190un quewzee1] sa owerey 
+F20F4d V 
+
+
+819}0WBIBY PeI9pTsuoD pue pezeUT sy °*9 FTqQPL 
+
+
+‘ung pue y3z1eqg ‘33e199000ds 
+
+
+ay JO ouetd ay 02 [eWAOU S$9910j [epow 02 pasN st 33T[1[993eS 19d Az9{0OWeIed UOTIBI9T9I08 2u0,, 
+
+
+‘uns pue yjIeg ‘3 3e19900ds 
+
+
+942 jO suetd 943 ut BUTAT 899203 TOpow 02 paesn ore 3RTTT99"S 190d sz9jOWeIed 9oURIDETIO2 omL,, 
+
+
+*siajoweied parepzsuod 30 UOTSSNISTpP B 103 [A UOTIIEg 92g. 
+
+
+*20119 UOTIeTIBA aseyd BeuUsqUe Sq5 puw 10119 ABZAINS 338 [RIOT 
+
+
+*z0119 SUT [9S9eq IGIA WOIZ SUOTINGTIQUOD spN{oUT seTJUTeIZe90UN TazOTAd B UOTIeIS STTqGow puP TRFOMPTA, 
+
+
+*H90T2 X-SaIWaS OUAO 
+
+
+9u2 SBA STYI *‘sosBD YsOW 10y ‘*90U9I9J91 OWT} BINTOSQe UB sUTJeP 02 PeXTJ 9q YSHM AIOTO 21ZutTs Ve 
+
+
+48 
+
+
+Table 7. Baseline Results from 
+
+
+the Spring 1985 HPBT 
+
+
+Baseline®: 
+
+
+Date 
+
+
+OVRO(SX)/MOJAVE(SX) 245 km 
+
+
+East 
+
+
+North 
+
+
+Vertical 
+
+
+Length 
+
+
+90 
+
+
+92 
+
+
+93 
+
+
+5.3 (2.2) (2.7) 
+~0.5 (1.7) (2.3) 
+2.4 (1.6) (2.2) 
+
+
+3.4 (2.8) (3.2) 
+
+
+5.8 (0.4) (1. 
+4.8 (0.3) (1. 
+6.0 (0.3) (1. 
+
+
+6.0 (0.9) (1. 
+
+
+(1.8) (3. 
+(2.1) (2. 
+(1.4) (3. 
+
+
+(1.9) (3. 
+
+
+(1.1) (2.0) 
+(0.9) (1.9) 
+(0.8) (1.9) 
+
+
+(1.6) (1.9) 
+
+
+x2/a.£.4 
+
+
+2.1 (1.4) (6.7) 
+2.5 
+
+
+1.6 
+
+
+5.6 (0.4) (7. 
+
+
+0.6 
+
+
+2.4 
+
+
+(2.0) (6. 
+
+
+(0.5) (7.4) 
+
+
+Baseline®: 
+
+
+Date 
+
+
+OVRO(SX)/MOJAVE(TI) 245 km 
+
+
+East 
+
+
+North 
+
+
+Vertical 
+
+
+90 
+
+
+92 
+
+
+93 
+
+
+of 
+
+
+-0.1 (2.4) (2.8) 
+5.0 (2.1) (2.4) 
+7.4 (2.0) (2.4) 
+9.4 (2.7) (3.1) 
+
+
+7.6 (3.6) (3.9) 
+
+
+5.9 (0.6) (1. 
+4.9 (0.4) (1. 
+6.6 (0.4) (1. 
+6.6 (0.9) (1. 
+
+
+3.7 (1.1) Q. 
+
+
+7 (2.4) (G3. 
+ol (2.1) (2. 
+4 (1.6) (3. 
+.1 (2.0) (3. 
+
+
+.9 (2.6) (3. 
+
+
+5.6 (1.8) (6.8) 
+3.6 
+
+
+2.2 
+
+
+5.7 (0.5) (7. 
+
+
+1.0 
+
+
+3.0 
+
+
+4 (1.5) (6. 
+ol 
+
+
+ae 
+
+
+so <2. . : 
+we TL, et Y Fo eee | 
+
+
+Table 7. Baseline Results from the Spring 1985 HPBT (Continued ) 
+
+
+Baseline®: OVRO(TI)/MOJAVE(SX) 245 km 
+
+
+Date East North Vertical Length 
+
+
+90 10.0 (2.3) (2.7) 6.6 (0.5) (1.4) -2.7 (1.2) (3.5) -0.4 (1.1) 
+91 2.9 (3.0) (3.3) 4.3 (0.7) (1.5) -19.9 (1.9) (3.2) -1.7 (1.2) 
+92 ~2.3 (2.2) (2.6) 5.3 (0.5) (1.3) -15.3 (2.7) (2.9) -5.5 (1.2) 
+93 3.6 (2.1) (2.4) 6.3 (0.5) (1.4) -10.5 (1.7) (3.4) -3.3 (1.0) 
+
+
+94 4.2 (2.8) (3.2) 6.4 (0.9) (1.0) -1.8 (2.0) (3.3) -3.3 (1.6) 
+
+
+3.6 (2.3) (7.0) 5.9 (0.4) (7.0) -8.1 (3.8) (7.5) -2.8 (1.0) 
+RMs“* 4.7 0.9 Pp 1.9 
+
+
+x2/a.£.4 3.7 2.3 
+
+
+Baseline®: OVRO(TI)/MOJAVE(TI) 245 km 
+
+
+Date East North Vertical 
+
+
+(0.6) (1.5) -2 (2.5) 
+(0.4) (1.4) . -8) 
+(0.5) (1.3) . -5) 
+(0.5) (1.4) : 8) 
+(0.9) (1.0) ‘ 1) 
+
+
+(1.1) (1.9) : -7) 
+
+
+(0.4) (7.0) : -9) 
+
+
+Sy 7s ee 
+em eg EEO Pre. 
+
+
+Table 7. 
+
+
+Baseline Resulte from the Spring 1985 HPBT (Continued) 
+
+
+Baseline®: 
+
+
+Date 
+
+
+OVRO(SX)/HAT CREEK(TI) 484 km 
+
+
+East 
+
+
+North 
+
+
+Vertical 
+
+
+Length 
+
+
+90 
+92 
+93 
+
+
+94 
+
+
+1.7 (3.0) (3 
+-7 (3.1) (3 
+
+
+4 (2.7) (3. 
+
+
+-1 (5.2) (6 
+
+
+9 (5.1) (5. 
+
+
+-8) 
+
+
+-5) 
+
+
+3) 
+
+
+-0) 
+
+
+7) 
+
+
+0.0 (0.6) (2. 
+3.1 (0.8) (3. 
+1.4 (0.7) (3. 
+5.0 (1.9) (2. 
+
+
+6.7 (2.0) (4. 
+
+
+-l (2.9) (3. 
+-2 (3.0) (3. 
+2 (2.3) (4. 
+-6 (3.5) (4. 
+
+
+-5 (3.6) (4. 
+
+
+-0.5 (1.7) 
+-1.9 (1.6) 
+-4.0 (1.4) 
+-9.3 (3.0) 
+
+
+-7 (2.0) 
+
+
+x2/d.£.4 
+
+
+(3.2) (7. 
+
+
+3) 
+
+
+1.7 (1.0) (7. 
+
+
+2.0 
+
+
+5.2 
+
+
+(2.3) (6. 
+
+
+(1.2) 
+
+
+Baseline®: 
+
+
+Date 
+
+
+OVRO(TI)/HAT 
+
+
+East 
+
+
+CREEK(TI) 484 km 
+
+
+North 
+
+
+Vertical 
+
+
+90 
+91 
+92 
+93 
+
+
+94 
+
+
+(2.6) 
+(2.4) 
+(2.8) 
+(2.3) 
+(5.1) 
+
+
+(5.1) 
+
+
+(0.6) 
+(0.6) 
+(0.8) 
+(0.7) 
+(1.8) 
+(1.7) 
+
+
+(2.5) (3. 
+
+
+(2.7) (3. 
+
+
+(2.9) (3. 
+
+
+(2.4) (3. 
+
+
+(3.5) (4. 
+
+
+(3. 
+
+
+(2.2) 
+
+
+(0.8) 
+
+
+(1. 
+
+
+tt, TE Pe ees 8: 
+
+
+F 
+
+
+ae ee 
+
+
+Table 7. Baseline Results from the Spring 1985 HPBT (Continued) 
+
+
+Baseline*: MOJAVE(SX)/HAT CREEK(TI) 729 km 
+
+
+Date East North Vertical Length 
+
+
+90 4.4 (3.6) (5.2) -4.8 (0.8) (4. «4 (2.8) (4. -2.6 (1.9) (5.2) 
+91 2.3 (3.8) (5.3) -3.0 (1.0) (4. -2 (3.0) (4. -5.2 (1.7) (5.1) 
+92 8.4 (3.4) (4.6) -0.6 (0.9) (4. -2 (3.0) (4. ~6.1 (1.7) (4.9) 
+93 6.5 (3.1) (4.4) -4.2 (0.9) (4. -9 (2.5) (4. -8.0 (1.6) (4.8) 
+
+
+94 19.8 (7.2) (8.6) -1.9 (2.5) (3. 4 (4.6) (5. -12.4 (4.3) (5.3) 
+
+
+4.5 (3.3) (7.3) -3.2 (0.9) (7. 9 (2.9) (7. -6.0 (1.3) (7.4) 
+
+
+6.6 1.8 . 2.6 
+
+
+x2/a.£.4 3.2 3.4 
+
+
+Baseline#: MOJAVE(TI)/HAT CREEK(TI)729 
+
+
+Date East North Vertical 
+
+
+90 -O (3.7) (5. ° 9) (4. ° -4) 
+91 -O (3.1) (4. ° -8) (4. . -9) 
+92 -9 (3.2) (4. . -9) (4. . -9) 
+93 -5 (3.0) (4. ° 9) (4. . -6) 
+94 -7 (7.1) (8. ° -6) (3. . -6) 
+
+
+(6.3) (7. ‘ -1) (5. ‘ -1) 
+
+
+(1.3) (6. ‘ -2) (7. ‘ -3) 
+
+
+Table 7. Baseline Results from the Spring 1985 HPBT (Continued) 
+
+
+This table gives offsets of solutions from VLBI-based values. 
+
+
+The “baseline result" is the leftmost of the three numbers in each column. 
+The other two numbers, in parentheses, denote the formal standard error and the 
+total absolute error, respectively. These differ in that the latter includes 
+contributions from systematic error sources. All values are in centimeters, 
+
+
+except for w"/6.8.. which is dimensionless. 
+
+
+* Receiver types are denoted by SX (SERIES-X) or TI (TI-4100). The 
+sign sense for coordinates of the baseline Station A/Station B is Baseline = 
+A - B, where A and B are the respective station vectors. 
+
+° This is a weighted mean, with weights given by the inverse squares of 
+
+
+the formal standard errors. The formai standard error of the mean = 
+
+
+RMS//N - 1. 
+
+
+© The weighted RMS is computed with respect to the weighted mean and 
+
+
+does not account for error in the mean. 
+
+
+d 
+
+
+x2 per degree of freedom is calculated using formal standard 
+
+
+errors. 
+
+
+A FIDUCIAL STATION 
+4 MOBILE STATION 
+
+
+Figure 1. A schematic picture of North America as it would appear from a 
+GPS satellite passing over the Galapagos Islands is shown. The sites to which 
+mobile and fiducial receivers were deployed during the Spring 1985 HPBT are 
+
+
+denoted by open and closed triangles, respectively. 
+
+
+ewe TL , SRT eee 
+
+
+H% QUASAR 
+
+
+GPS SATELLITE 
+~~ 
+
+
+IY 
+
+
+@ FIDUCIAL STATION 
+© MOBILE STATION 
+
+
+Figure 2. A schematic illustration of the fiducial network approach for 
+GPS-based geodesy is shown. The fiducial station data enable the simultaneous 
+estimation of GPS satellite orbits and mobile station locations. VLBI obser- 
+vations establish accurate fiducial station baselines and tie the GPS results 
+
+
+to the inertial frame of the quasars. 
+
+
+50 F- 
+
+
+UNCERTAINTY, cm 
+
+
+26 
+
+
+10 
+
+
+L_YZZ 
+
+
+hehathathetet 
+
+
+LENGTH = 235 km 
+
+
+DATA TYPE: CARRIER 
+INTEGRATED 
+DOPPLER 
+
+
+A PRIORI ORBIT 
+UNCERTAINTY 10m 
+
+
+WITHOUT FIDUCIAL 
+STATION 
+
+
+F WITH FIDUCIAL 
+STATIONS 
+
+
+VERTICAL EAST 
+ACCURACY 
+
+
+from the Spring 1985 HPBT for the Mojave/Owens Valley baseline. 
+
+
+two scenarios are displayed, illustratirg the expected improvement in accuracy 
+
+
+NORTH 
+
+
+Figure 3. Covariance analysis results show expected baseline accuracies 
+
+
+’ resulting from utilization of the fiducial network approach. 
+
+
+Results for 
+
+
+—— t La | 7 Aa t 7 i t t Ls t 1 _— -. As 
+- RMS (N)=0.6 cm 4 
+_ RMS (E) =2.4 cm ~ 
+5+ + oul 
+= _ = 
+= 
+= 5 4 
+p= 
+cx 
+oO 
+2 - 4 
+~ = 
+0 _ — 
++ VLBI ’ 
+= a ' 
+| LENGTH = 245km : 4 
+i 4 A = | a \ i i i. | A. i i A , A. A A. 
+TT t 
+-5 0 5 
+EAST ‘cm) 
+
+
+Figure 4. Day-to-day repeatability and comparison to collocated VLBI for 
+the OVRO/Mojave baseline between the two SERIES-X receivers is shown. Repeat- 
+ability about the mean in the north is 0.6 cm (RMS), or 3:10”, while in the 
+east it is 1:10’. The GPS-based result differs by about 6 cm, or 2:107 an 
+the horizontal plane from the colocated VLBI measurement. This difference is 
+larger than can be readily explained and may be due to errors in the local 
+
+
+surveys correcting for the physical separations of the GPS and VLBI antennas. 
+
+
+57 
+
+
+T T T T T T T Fee T 
+4 
+s 
+s 
+4 
+¢ 4 
+r y 
+¢ 
+s 
+/ 
+¢ 
+¢ 
+- , = 
+¢ 
+-1n7 s 
+1:10 e 
+/ 
+= 7 198 
+= 5+ Ps 5:10 si 
+- 
+_ e - 
+= 4 er 
+Ww - . 
+E y _- 
+< = ’ a” 4 
+Oo . a® 
+7 
+2 6 
+Ww 4 a ise 
+¢ - 
+/ - 
+e. - 
+‘ e- 
+. e-- 
+4 oe * 
+~ 4 ao 4 
+4 - 
+- 
+Pi re 
+-e 
+4 - 
+- 
+| ” Ug @ : 
+¢ oe 
+55 ® 
+- 
+e. 
+-. «& 
+i 
+0 = 4 4 = = L . 1 1 4 1 
+500 1000 
+
+
+BASELINE LENGTH (km) 
+
+
+Figure 5. The day-to-day RMS repeatability about the mean of the north 
+component is shown for all baselines connecting the receivers at the Mojave, 
+OVRO, Hat Creek and Mammoth Lakes sites. This repeatability consistently 
+falls near 10°, or better, for all of these baselines, which range in length 
+
+
+from 7U km to 729 km. 
+
+
+10 il LJ , i] t ' A tT 1 ‘ ' ' t T t 
+O OVRO/MOJAVE 
+
+
+O HAT CREEK/OVRO 
+
+
+4 MOJAVE/HAT CREEK 
+
+
+r ~ 
+= 
+= o—+ _ 
+pu 
+= VLBI 
+= + © . 
+A 
+A 4 
+
+
+a EAST (cm) 
+
+
+| Figure 6. Differences between colocated GPS and VLBI measurement are 
+
+) 
+
+| r shown for the eight baselines connecting the five receivers located at the 
+Mojave, OVRO and Hat Creek sites. (See Table 2.) The Systematic grouping of 
+
+
+results by station pairs strongly suggests the presence of local survey errors. 
+
+
+59 
+
+
+A a \ 
++ / 
+
+
+ia a lie 
+
+
+T T ’ i * q a 
+mo FT. DAVIS 
+E 
+= 
+7) 
+cc q 7 
+9 OVRO 
+cc 
+Ww 
+Ww 
+Zz aa 
+al 
+Ww 
+7) 
+< 
+o 
+gee __ | WESTFORD 
+i ee _ oe 2222257 >>4 RICHMOND 
+S _ apese= 4 4 | a 1 i 
+0 ne a ° 
+20¢ 400 600 aed 
+
+
+BASELINE LENGTH (cm) 
+Figure 7. Consider error (RSS of all three components; see Section VI) 
+in the mobile baselines, resulting from fiducial station location error, as a 
+function of mobile baseline length is shown for the Spring 1985 HPBT. An 
+
+
+uncertainty of 4 cm was assumed in each coordinate for each of the four 
+
+
+fiducial receivers. 
+
+
+4 
+t 
+& 
+ns 
+
+
+10 
+i. 
+om 
+E 4 
+= 
+w 
+_ a 
+< 
+5 
+oO _— 
+77) 
+w a 
+c 
+or 
+5 l i L l | 1 l l 1 l l 1 l l | l 
+6 7 8 
+4 ‘JTC (hours) 
+a 
+z Wy 
+= 
+- 
+Ss 1k 
+Ww 
+c 
+c _— 
+ro) 
+So ok 
+oll VS aoe a as a —_— a , | 4 i — 
+-1.0 -0.5 0 0.5 1.0 
+
+
+TIME OFFSET FROM ONE SIDEREAL DAY (hours) 
+
+
+Figure 8. Post-fit residuals and cross-correlations for the TI-4100 
+carrier phase data of April 3 and 4, 1985, are shown. These data have been 
+meteorologically and ionospherically calibrated, double-differenced (GPS 6 and 
+GPS 8 transmitters, Mojave and OVRO receivers), and fitted to a tenth-order 
+polynomial. Multipath error will be periodic on a sidereal day, resulting in 
+correlation between the upper and lower plots. The high correlation for an 
+
+
+offset of exactly one sidereal day indicates substantial multipathing error 
+
+
+for the TI-4100 antenna. 
+
+
+RESIDUALS (cm) 
+
+
+CORRELATION 
+
+
+10 
+= 
+5E 
+0 — 
+l l l l | i i 1 i i i l i l | 
+j 6 7 8 
+7 UTC (hours) 
+i os 
+° OOO pT ON mn Oe AO vod ott eh enn eet, 
+a l — l l l l i l | co a? a i 
+
+
+TIME OFFSET FROM ONE SIDEREAL DAY (hours) 
+
+
+Figure 9. Post-fit residuals and cross correlations for the SERIES-X 
+carrier phase data of April 3 and 4, 1985, are shown. These data have been 
+treated as described in the caption for Figure 8. The small correlation for 
+
+
+an offset of exactly one sidereal day indicates relatively small multipath 
+
+
+error for the SERIES-X antennas. 
+
+
+3 T T T T T T “"T T T T T T T T T T T T T 
+‘RCRA S es NTS NES ee A PRIORI = INFINITY _ 
+me ee Ears Biss cegaice stent ? 
+
+a one 
+
+2 ae d ees 
+_ o 
+Ww 
+” aa ~ 
+2) 
+2 aa 
+F ° 4 
+- 
+4 a re 4 
+
+Q co A PRIORI = ZERO 
+
+1oO_----------------------------------- $55 5 - 
+
+me _— = 
+
+ULTIMATE SCAMS CURRENT SCAMS 
+
+he ee 4 
+ULTIMATE J01 CURRENT J01 
+
+0 a 4 i i | 1 rn ot 1 | A i L i it L LL i L 
+0 0.5 1.0 1.5 2.0 
+
+
+TROPOSPHERE A PRIORI (cm) 
+
+Figure 10. The formal error in the vertical baseline component for the 
+Mojave/OVRO baseline, between TI-4100 receivers, is shown as a function of 
+troposphere a priori uncertainty. Also shown are the current and ultimate 
+calibration accuracies for two of the WVR models currently in use in JPL's GPS 
+field exercises [S. E. Robinson, personal communication, 1987]. From this 
+plot, we infer that in the case of the Spring 1985 HPBT, external troposphere 
+calibration data contributed little to the precision of estimated vertical 
+
+
+baseline components. (See Section VI.) 
+
+
+63 
+
+
+0” agp eee 4 
+
+
+4 
+
+
+“NSNANANSANYS 
+
+
+NANI TIT 
+
+
+WAVAVAWAS 
+NAZNAZNZN SY 
+
+
+\ 
+
+
+FORMAL ERROR (cm) 
+
+
+NF NTN 
+NANZN 
+V 
+
+
+yy» 
+
+
+NAN 
+\N4N¢ 
+“N4NINTI CF 
+
+
+SNANANG 
+
+
+\ 
+
+
+SHH 
+
+
+CNSNANSINVING 
+“NFNANANSZNY 
+“NSN INISS 
+“NYNSANSANG 
+
+
+>>» 
+
+
+La 
+
+
+MOJAVE/MAMMOTH 
+
+
+BASELINE 
+
+Figure 11. The formal errors in the north for the OVRO/Mammoth (70 km), 
+OVRO/Mojave (245 km) and Mo jave/Mammoth (313 km) baselines are Shown for a 
+variety of hypothetical fiducial Outage scenarios. These include Single- 
+Station Outages at Westford, Richmond and Ft. Davis (cases b, c and d) and a 
+two-station Outage involving Westford and Richmond (case e). In the latter 
+case, Ft. Davis, Mojave and OVRO are used as a more localized fiducial network. 
+The formal errors for the standard case of a four-station fiducial network 
+
+
+(with no Outages) of Westford, Richmond, Ft. Davis and OVRO are shown as case 
+
+
+64 
+
+
+- 
+245 km 313 km 
+a. FOUR FIDUCIAL STATIONS 
+4+- (STANDARD CASE) eS. - 
+’ b. THREE FIDUCIAL STATIONS: * 
+4 NO FT. DAVIS k 
+c. THREE FIDUCIAL STATIONS: " 
+= NO RICHMOND 
+a) . d. THREE FIDUCIAL STATIONS; 4 
+x NO WESTFORD 
+° e. LOCAL FIDUCIAL NETWORK 
+= = f. FIVE FIDUCIAL STATIONS 
+z a 
+= 2 ~~ Py ON as , 
+S Sw 
+(e) 70 km Pai ’ 
+7 G Pt os 
+IN ‘ O SAW 
+7 22 WN| 
+IN © inN Vv\ 
+q * 8 € @ ef 4 Ze v~ e 
+/ lez WwW 
+IN as AN 
+|7 “7UN 
+>= + —ePIAN 
+WAY \ NS VMN 
+Niz “UN | 4 *~ 44YUN 
+9 ™~ ae at N \ SAW. | 
+A OVRO/MAMMOTH OVRO/MOJAVE MOJAVE/M 4MMOTH 
+> 
+j BASELINE 
+* 
+x Figure 12. The formal errors in the east for the OVRO/Mammoth (70 km) e 
+: OVRO/Mojave (245 km) and Mojave/Mammoth (313 km) baselines are shown for a 
+variety of hypothetical fiducial Outage scenarios. The case designations have 
+the same meaning as in Figure ll. 
+Ss. 
+WE 
+PF a 
+f 
+‘ea 
+_ 65 
+*- 
+
+
+‘ . 4 ts eet 
+=> Ba Pees ae (eet , .¥ ; 
+aS ae 
+
+
+4 
+TOTAL 
+(RSS) 
+L 4 
+GEO- SOLAR COORD. EARTH FIDUCIAL HORIZ. FORMAL 
+
+; ys CENTER RAD. SCALE ORIENT. COORD. TROP. ERROR 
+> 2 
+: 5 
+
+5 2+ ad 
+
+a 
+q x ‘ 
+4 Ee 
+
+2 
+{ re) 
+
+O ‘ 
+4 WN 
+| L S : 
+Ls \N 
+‘ 
+| \ 
+<N} . 
+‘ NRA 
+
+
+SOURCE OF ERROR 
+
+
+Figure 13. The total error budget for the north component of the 245 km 
+OVRO/Mojave baseline between the SERIES-X receivers is shown. This error 
+budget includes the contributions from all significant error sources, including 
+consider errors, modeling errors in estimated parameters, and random, or 
+
+
+formal, errors. 
+
+
+66 
+
+
+GEO- SOLAR COORD. EARTH FIDUCIAL HORIZ. FORMAL 
+CENTER RAD. SCALE ORIENT. COORD. TROP. ERROR 
+
+
+x 
+
+
+CONTRIBUTION (cm) 
+N 
+t 
+
+
+SOURCE OF ERROR 
+
+
+Figure 14. The total error budget for the east component of the 245 km 
+
+
+OVRO/Mojave baseline between the SERIES-X receivers is shown. This error 
+
+
+budget includes contributions as noted for Figure 13. 
+
+

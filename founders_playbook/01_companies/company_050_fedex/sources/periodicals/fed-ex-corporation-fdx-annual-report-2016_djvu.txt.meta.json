@@ -1,0 +1,9 @@
+{
+ "identifier": "fed-ex-corporation-fdx-annual-report-2016",
+ "url": "https://archive.org/download/fed-ex-corporation-fdx-annual-report-2016/FedEx%20Corporation%20%28FDX%29%20Annual%20Report%2C%202016_djvu.txt",
+ "fetched": "2026-10-06T12:21:11Z",
+ "bytes": 357408,
+ "route": "download/<id>/FedEx Corporation (FDX) Annual Report, 2016_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

@@ -1,0 +1,9 @@
+{
+ "identifier": "nationalcitybank00nati_0",
+ "url": "https://archive.org/download/nationalcitybank00nati_0/nationalcitybank00nati_0_djvu.txt",
+ "fetched": "2026-09-29T18:42:56Z",
+ "bytes": 21749,
+ "route": "download/<id>/nationalcitybank00nati_0_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "verified TLS"
+}

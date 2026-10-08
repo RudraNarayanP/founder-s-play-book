@@ -1,0 +1,9 @@
+{
+ "identifier": "cia-readingroom-document-06395705",
+ "url": "https://archive.org/download/cia-readingroom-document-06395705/06395705_djvu.txt",
+ "fetched": "2026-10-06T12:07:08Z",
+ "bytes": 6700,
+ "route": "download/<id>/06395705_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

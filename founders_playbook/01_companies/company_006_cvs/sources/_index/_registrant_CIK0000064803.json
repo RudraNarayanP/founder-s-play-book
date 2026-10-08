@@ -1,0 +1,33 @@
+{
+ "cik": "0000064803",
+ "requested_cik": "64803",
+ "registrant": "CVS HEALTH Corp",
+ "ticker": "CVS",
+ "tickers": [
+  "CVS"
+ ],
+ "former_names": [
+  "CVS CAREMARK CORP",
+  "CVS/CAREMARK CORP",
+  "CVS CORP",
+  "MELVILLE CORP"
+ ],
+ "company_dir": "company_006_cvs",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['cvs'] match registrant 'CVS HEALTH Corp' (CIK 0000064803)"
+ ],
+ "built": "2026-10-06T12:12:40Z",
+ "count": 2968,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 125,
+ "csv_sha1": "3c7a729144ce303fe2718ee553fc5f3f922ded4a",
+ "csv_bytes": 265994,
+ "paths": {
+  "json": "founders_playbook/01_companies/company_006_cvs\\sources\\_index\\submissions_CIK0000064803.json",
+  "csv": "founders_playbook/01_companies/company_006_cvs\\sources\\_index\\submissions_CIK0000064803.csv",
+  "md": "founders_playbook/01_companies/company_006_cvs\\sources\\_index\\_INDEX_CIK0000064803.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

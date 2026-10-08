@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000732717/000119312505015481/d425.htm",
+ "fetched": "2026-10-06T11:58:02Z",
+ "sha1": "1ebf425cf00ad88fcf11ea9e4a538b6c7b863e72",
+ "bytes": 11549,
+ "words": 1009,
+ "cik": "0000732717",
+ "registrant": "(not resolved this run)",
+ "accession": "0001193125-05-015481",
+ "document": "d425.htm",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

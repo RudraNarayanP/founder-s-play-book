@@ -1,0 +1,30 @@
+{
+ "cik": "0001035002",
+ "requested_cik": "1035002",
+ "registrant": "VALERO ENERGY CORP/TX",
+ "ticker": "VLO",
+ "tickers": [
+  "VLO"
+ ],
+ "former_names": [
+  "VALERO REFINING & MARKETING CO"
+ ],
+ "company_dir": "company_040_valero",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['valero'] match registrant 'VALERO ENERGY CORP/TX' (CIK 0001035002)"
+ ],
+ "built": "2026-10-06T11:45:15Z",
+ "count": 2272,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 159,
+ "csv_sha1": "576e786a0f36ff321b29ab353b0364e1149135ab",
+ "csv_bytes": 197026,
+ "paths": {
+  "json": "founders_playbook/01_companies/company_040_valero\\sources\\_index\\submissions_CIK0001035002.json",
+  "csv": "founders_playbook/01_companies/company_040_valero\\sources\\_index\\submissions_CIK0001035002.csv",
+  "md": "founders_playbook/01_companies/company_040_valero\\sources\\_index\\_INDEX_CIK0001035002.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

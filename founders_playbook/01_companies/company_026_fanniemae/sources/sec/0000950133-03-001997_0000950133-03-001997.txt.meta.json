@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000310522/000095013303001997/0000950133-03-001997.txt",
+ "fetched": "2026-10-06T11:51:30Z",
+ "sha1": "7953c72954dfe8456248516440c84e0b70f25e5e",
+ "bytes": 765338,
+ "words": 16956,
+ "cik": "0000310522",
+ "registrant": "FEDERAL NATIONAL MORTGAGE ASSOCIATION FANNIE MAE",
+ "accession": "0000950133-03-001997",
+ "document": "0000950133-03-001997.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": true
+}

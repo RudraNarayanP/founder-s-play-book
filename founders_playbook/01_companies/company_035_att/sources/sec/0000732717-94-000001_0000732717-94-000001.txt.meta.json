@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000732717/000073271794000001/0000732717-94-000001.txt",
+ "fetched": "2026-10-06T11:56:01Z",
+ "sha1": "ccb53f7001703790189ee3d6a561a4f07c65d695",
+ "bytes": 28052,
+ "words": 3149,
+ "cik": "0000732717",
+ "registrant": "AT&T INC.",
+ "accession": "0000732717-94-000001",
+ "document": "0000732717-94-000001.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": true
+}

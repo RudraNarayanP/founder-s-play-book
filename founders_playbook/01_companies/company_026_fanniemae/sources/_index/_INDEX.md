@@ -1,0 +1,49 @@
+# SEC submissions index -- FEDERAL NATIONAL MORTGAGE ASSOCIATION FANNIE MAE (CIK 0000310522, FNMA)
+
+Built by `tools/sec_intake.py` at 2026-10-06 11:50 UTC. **Registrant name for this index: `FEDERAL NATIONAL MORTGAGE ASSOCIATION FANNIE MAE` (CIK 0000310522)** -- artefacts are keyed by CIK, so a wrong `--cik` cannot overwrite another registrant's index.
+7135 filings enumerated; 0 submissions rows dropped for carrying no accession; 6 rows carry no `primaryDocument` (paper-era shells -- fetchable as `<accession>.txt`).
+
+Registrant guard: **ok** -- slug token(s) ['fanniemae'] match registrant 'FEDERAL NATIONAL MORTGAGE ASSOCIATION FANNIE MAE' (CIK 0000310522)
+
+**This file is the source of truth for what exists.** Do not re-search EDGAR for
+coverage; grep `submissions.csv` and report a form as absent only from this list.
+
+## Earliest filing per form
+
+| form | filed | accession | primary document |
+|---|---|---|---|
+| SC 13G | 1995-01-10 | 0000315066-95-000022 |  |
+| SC 13G/A | 1996-03-15 | 0000315066-96-001361 |  |
+| NO ACT | 2002-07-12 | 9999999997-02-038962 | 9999999997-02-038962.paper |
+| 10-12G | 2003-03-31 | 0000950133-03-001102 | w82877e10v12g.htm |
+| 10-K | 2003-03-31 | 0000950133-03-001151 | w84239e10vk.htm |
+| 3 | 2003-03-31 | 0000950133-03-001167 | w84775ve3.htm |
+| 8-K | 2003-04-15 | 0000950133-03-001338 | w85410e8vk.htm |
+| ARS | 2003-04-17 | 9999999997-03-017885 | 9999999997-03-017885.paper |
+| DEF 14A | 2003-04-17 | 0000928385-03-001188 | ddef14a.htm |
+| 4 | 2003-04-23 | 0001209191-03-002527 | i2899.htm |
+| 10-Q | 2003-05-15 | 0000950133-03-001892 | w86147e10vq.htm |
+| 8-K/A | 2003-10-29 | 0000950133-03-003598 | w91097e8vkza.htm |
+| NT 10-Q | 2004-11-15 | 0000950133-04-004333 | w68592ntnt10vq.htm |
+| NT 10-K | 2005-03-17 | 0000950133-05-001101 | w06919nt10vk.htm |
+| 4/A | 2006-02-01 | 0001209191-06-006673 | xslF345X02/doc4a.xml |
+| 3/A | 2006-03-24 | 0001209191-06-019855 | xslF345X02/doc3a.xml |
+| 5 | 2006-11-09 | 0001209191-06-058663 | xslF345X02/doc5.xml |
+| 25 | 2007-01-18 | 0000950133-07-000159 | w29079e25.htm |
+| DEFA14A | 2007-11-02 | 0000950133-07-004363 | w37889l2defa14a.htm |
+| UPLOAD | 2007-12-19 | 0000000000-07-061410 | filename1.pdf |
+| CORRESP | 2008-01-23 | 0000950133-08-000224 | filename1.htm |
+| CERTNYS | 2008-07-28 | 9999999997-08-034147 | 9999999997-08-034147.paper |
+| 8-A12B | 2008-07-29 | 0000950133-08-002530 | w64083be8va12b.htm |
+| 8-A12G | 2008-07-29 | 0000950133-08-002531 | w64083ce8va12g.htm |
+| ABS-15G | 2012-02-08 | 0000310522-12-000003 | 15GaFile_01_of_39_8207_9302.htm |
+| ABS-15G/A | 2012-02-08 | 0000310522-12-000034 | 15GaFile_32_of_39_1001_1006.htm |
+| 10-K/A | 2012-03-09 | 0001193125-12-105455 | d307691d10ka.htm |
+| SC 13D | 2013-11-15 | 0001193125-13-443212 | d630953dsc13d.htm |
+| SC 13D/A | 2014-03-31 | 0001193125-14-122908 | d701296dsc13da.htm |
+| 15-12G | 2020-06-05 | 0000310522-20-000261 | form15document.htm |
+| IRANNOTICE | 2025-07-30 | 0000310522-25-000468 | irannotice.htm |
+
+## UNANSWERED slices (never report these as absent)
+
+(none)

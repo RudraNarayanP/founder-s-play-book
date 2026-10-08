@@ -1,0 +1,43 @@
+{
+ "cik": "0000895421",
+ "requested_cik": "895421",
+ "registrant": "MORGAN STANLEY",
+ "ticker": "MS",
+ "tickers": [
+  "MS",
+  "MS-PK",
+  "MS-PE",
+  "MS-PA",
+  "MS-PF",
+  "MS-PI",
+  "MS-PL",
+  "MS-PO",
+  "MS-PP",
+  "MS-PQ"
+ ],
+ "former_names": [
+  "MORGAN STANLEY",
+  "MORGAN STANLEY",
+  "MORGAN STANLEY DEAN WITTER & CO",
+  "MORGAN STANLEY DEAN WITTER DISCOVER & CO",
+  "DEAN WITTER DISCOVER & CO"
+ ],
+ "company_dir": "company_039_morganstanley",
+ "guard": "quarantine",
+ "guard_reasons": [
+  "no slug token ['morganstanley'] appears in registrant name 'MORGAN STANLEY' / tickers ['ms', 'ms-pa', 'ms-pe', 'ms-pf', 'ms-pi', 'ms-pk', 'ms-pl', 'ms-po', 'ms-pp', 'ms-pq'] / former names"
+ ],
+ "built": "2026-09-29T19:30:34Z",
+ "count": 109763,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 1188,
+ "csv_sha1": "b8b1251f67bc7ff4106b404a6b6d2167a7b86895",
+ "csv_bytes": 10025498,
+ "paths": {
+  "json": "founders_playbook/01_companies/company_039_morganstanley\\sources\\_index\\quarantine\\CIK0000895421\\submissions_CIK0000895421.json",
+  "csv": "founders_playbook/01_companies/company_039_morganstanley\\sources\\_index\\quarantine\\CIK0000895421\\submissions_CIK0000895421.csv",
+  "md": "founders_playbook/01_companies/company_039_morganstanley\\sources\\_index\\quarantine\\CIK0000895421\\_INDEX_CIK0000895421.md"
+ },
+ "legacy_copy_written": false,
+ "legacy_note": ""
+}

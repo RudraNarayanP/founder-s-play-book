@@ -1,0 +1,248 @@
+{
+ "window": [
+  "1984-01-01",
+  "2000-12-31"
+ ],
+ "candidates": 109,
+ "mined": 12,
+ "untried_by_limit": 95,
+ "items": [
+  {
+   "identifier": "quintetinmajork50000rudo",
+   "date": "1986-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 403)); tried quintetinmajork50000rudo_djvu.txt, quintetinmajork50000rudo_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "isbn_9789686769388",
+   "date": "1997-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried isbn_9789686769388_djvu.txt, isbn_9789686769388_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "isbn_9780892140244_50",
+   "date": "2000-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried isbn_9780892140244_50_djvu.txt, isbn_9780892140244_50_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "isbn_9780793301386",
+   "date": "1990-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 403)); tried isbn_9780793301386_djvu.txt, isbn_9780793301386_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp75b00380r000800070007-4",
+   "date": "2000-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp75b00380r000800070007-4: S. 3393 AND S. 3399",
+   "family": "internet_archive",
+   "meta_date": "2000-01-01",
+   "status": "cached",
+   "bytes": 1324,
+   "named_terms": [
+    "formerly known as stonex",
+    "stonex group"
+   ],
+   "other_terms": [
+    "formerly known as"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 2,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 54,
+     "text": "STATINTL tices in Government.",
+     "context": [
+      "",
+      ": Sense rence Rr mask UR 666,90, PPo, PO/)"
+     ]
+    },
+    {
+     "line": 71,
+     "text": "ae ein STATINTL",
+     "context": [
+      "",
+      "Ey ae |"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp87t00758r000101580001-3",
+   "date": "1987-01-01",
+   "title_year": "1986",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp87t00758r000101580001-3: MONTHLY INDEX PHOTOGRAPHIC EXPLOITATION PRODUCTS DECEMBER 1986",
+   "family": "internet_archive",
+   "meta_date": "1987-01-01",
+   "status": "cached",
+   "bytes": 64706,
+   "named_terms": [
+    "formerly known as stonex",
+    "stonex group"
+   ],
+   "other_terms": [
+    "formerly known as"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 4,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 822,
+     "text": "AUGUSTO CESAR SANDINO INTL AIRFIELD NU NPC CA $00112888",
+     "context": [
+      "ASH SHUAYBAH PORT FACS SHUAIBA KU NPC CA $00112755",
+      "BAKHTARAN AIRFIELD IR NPC CA $00112525"
+     ]
+    },
+    {
+     "line": 1647,
+     "text": "05D AUGUSTO CESAR SANDINO INTL AIRFIELD NU NpC CA $C-628827-86 $039112888 25x1",
+     "context": [
+      "25X1",
+      "$C-628927-86"
+     ]
+    },
+    {
+     "line": 2061,
+     "text": "35\u20ac AUGUSTO CESAR SANDINO INTL AIRFIELD NU NPC CA 50011288",
+     "context": [
+      "35\u20ac ASH SHUAYBAH PORT FACS SHUAIB, KU NPC CA $00112755",
+      "352 BAYANDELGER ARMY BKS AL 2 MG NPC CA $09112782"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp88t00539r000100070004-9",
+   "date": "1986-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp88t00539r000100070004-9: BANKING REFORM IN CHINA: CONSTRUCTING AN ECONOMIC LEVER",
+   "family": "internet_archive",
+   "meta_date": "1986-01-01",
+   "status": "cached",
+   "bytes": 20530,
+   "named_terms": [
+    "formerly known as stonex",
+    "stonex group"
+   ],
+   "other_terms": [
+    "formerly known as"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 1,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 693,
+     "text": "DEPUTY ASSISTANT SECRETARY FOR INTL",
+     "context": [
+      "STATE ADDRESS : RICHARD J SMITH 1 125 125",
+      "FINANCE AND DEVELOPMENT"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp88-00798r000600080002-8",
+   "date": "1987-01-01",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried cia-rdp88-00798r000600080002-8_djvu.txt, cia-readingroom-document-cia-rdp88-00798r000600080002-8_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp71t00730r000600100133-9",
+   "date": "2000-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp71t00730r000600100133-9: THE [ ] ZAMBIA PROBLEM",
+   "family": "internet_archive",
+   "meta_date": "2000-01-01",
+   "status": "cached",
+   "bytes": 1211,
+   "named_terms": [
+    "formerly known as stonex",
+    "stonex group"
+   ],
+   "other_terms": [
+    "formerly known as"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "micro_IA40243801_1055",
+   "date": "1990-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Intl. Convention on Elimination of All Forms of Racial Discrimination",
+   "family": "internet_archive",
+   "meta_date": "1990-01-01",
+   "status": "cached",
+   "bytes": 951,
+   "named_terms": [
+    "formerly known as stonex",
+    "stonex group"
+   ],
+   "other_terms": [
+    "formerly known as"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "us-sprint-geo-rus",
+   "date": "1990-01-01",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried us-sprint-geo-rus_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "1994annualbookof0000unse",
+   "date": "1994-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 403)); tried 1994annualbookof0000unse_djvu.txt, 1994annualbookof0000unse_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  }
+ ]
+}

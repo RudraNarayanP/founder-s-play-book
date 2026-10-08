@@ -1,0 +1,31 @@
+rank,cik,accession,form,filingDate,document,bytes_in_index_json,why,url,disposition
+1,0001156039,0000950130-01-503971,S-1,2001-08-16,ds1.txt,724155,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001156039/000095013001503971/ds1.txt,fetched this run
+2,0001156039,0000950130-01-503971,S-1,2001-08-16,dex21.txt,331665,index.json listing (331665 B),https://www.sec.gov/Archives/edgar/data/0001156039/000095013001503971/dex21.txt,fetched this run
+3,0001156039,0000950130-01-503971,S-1,2001-08-16,dex22.txt,256710,index.json listing (256710 B),https://www.sec.gov/Archives/edgar/data/0001156039/000095013001503971/dex22.txt,fetched this run
+4,0001156039,0000950130-01-503971,S-1,2001-08-16,dex1022.txt,186719,index.json listing (186719 B),https://www.sec.gov/Archives/edgar/data/0001156039/000095013001503971/dex1022.txt,fetched this run
+5,0001156039,0000950131-01-503652,S-1,2001-10-01,ds1.txt,917940,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503652/ds1.txt,fetched this run
+6,0001156039,0000950131-01-503652,S-1,2001-10-01,dex12.txt,3767,index.json listing (3767 B),https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503652/dex12.txt,fetched this run
+7,0001156039,0000950131-01-503652,S-1,2001-10-01,dex233.txt,1908,index.json listing (1908 B),https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503652/dex233.txt,fetched this run
+8,0001156039,0000950131-01-503652,S-1,2001-10-01,dex231.txt,813,index.json listing (813 B),https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503652/dex231.txt,fetched this run
+9,0001156039,0000950131-01-503651,S-1/A,2001-10-01,ds1a.txt,751385,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503651/ds1a.txt,fetched this run
+10,0001156039,0000950131-01-503651,S-1/A,2001-10-01,dex1.txt,121715,index.json listing (121715 B),https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503651/dex1.txt,fetched this run
+11,0001156039,0000950131-01-503651,S-1/A,2001-10-01,dex16i.txt,29441,index.json listing (29441 B),https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503651/dex16i.txt,fetched this run
+12,0001156039,0000950131-01-503651,S-1/A,2001-10-01,dex41.txt,7851,index.json listing (7851 B),https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503651/dex41.txt,fetched this run
+13,0001156039,0000950131-01-503776,S-1/A,2001-10-15,ds1a.txt,926487,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503776/ds1a.txt,fetched this run
+14,0001156039,0000950131-01-503776,S-1/A,2001-10-15,dex45.txt,279838,index.json listing (279838 B),https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503776/dex45.txt,fetched this run
+15,0001156039,0000950131-01-503776,S-1/A,2001-10-15,dex43.txt,214628,index.json listing (214628 B),https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503776/dex43.txt,fetched this run
+16,0001156039,0000950131-01-503776,S-1/A,2001-10-15,dex46.txt,101938,index.json listing (101938 B),https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503776/dex46.txt,fetched this run
+17,0001156039,0000950131-01-503775,S-1/A,2001-10-15,ds1a.txt,759034,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503775/ds1a.txt,fetched this run
+18,0001156039,0000950131-01-503775,S-1/A,2001-10-15,dex31.txt,103021,index.json listing (103021 B),https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503775/dex31.txt,fetched this run
+19,0001156039,0000950131-01-503775,S-1/A,2001-10-15,dex231.txt,793,index.json listing (793 B),https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503775/dex231.txt,fetched this run
+20,0001156039,0000950131-01-503775,S-1/A,2001-10-15,0000950131-01-503775.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503775/0000950131-01-503775.txt,fetched this run
+21,0001156039,0000950131-01-503867,S-1/A,2001-10-26,ds1a.txt,926808,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503867/ds1a.txt,fetched this run
+22,0001156039,0000950131-01-503867,S-1/A,2001-10-26,dex1.txt,148580,index.json listing (148580 B),https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503867/dex1.txt,fetched this run
+23,0001156039,0000950131-01-503867,S-1/A,2001-10-26,dex410.txt,119655,index.json listing (119655 B),https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503867/dex410.txt,fetched this run
+24,0001156039,0000950131-01-503867,S-1/A,2001-10-26,dex25.txt,13218,index.json listing (13218 B),https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503867/dex25.txt,fetched this run
+25,0001156039,0000950131-01-503866,S-1/A,2001-10-26,ds1a.txt,762791,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503866/ds1a.txt,fetched this run
+26,0001156039,0000950131-01-503866,S-1/A,2001-10-26,dex1018.txt,32403,index.json listing (32403 B),https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503866/dex1018.txt,fetched this run
+27,0001156039,0000950131-01-503866,S-1/A,2001-10-26,dex231.txt,809,index.json listing (809 B),https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503866/dex231.txt,fetched this run
+28,0001156039,0000950131-01-503866,S-1/A,2001-10-26,0000950131-01-503866.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503866/0000950131-01-503866.txt,fetched this run
+29,0001156039,0000950131-01-503917,424B4,2001-10-30,d424b4.txt,902412,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503917/d424b4.txt,fetched this run
+30,0001156039,0000950131-01-503917,424B4,2001-10-30,0000950131-01-503917.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0001156039/000095013101503917/0000950131-01-503917.txt,fetched this run

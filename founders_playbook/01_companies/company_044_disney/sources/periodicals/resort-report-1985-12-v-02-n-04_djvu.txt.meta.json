@@ -1,0 +1,9 @@
+{
+ "identifier": "resort-report-1985-12-v-02-n-04",
+ "url": "https://archive.org/download/resort-report-1985-12-v-02-n-04/Resort%20Report%20-%201985-12%20-%20V02N04_djvu.txt",
+ "fetched": "2026-10-06T12:00:40Z",
+ "bytes": 13814,
+ "route": "download/<id>/Resort Report - 1985-12 - V02N04_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

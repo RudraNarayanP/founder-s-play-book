@@ -1,0 +1,32 @@
+{
+ "cik": "0001177394",
+ "requested_cik": "1177394",
+ "registrant": "TD SYNNEX CORP",
+ "ticker": "SNX",
+ "tickers": [
+  "SNX"
+ ],
+ "former_names": [
+  "SYNNEX CORP",
+  "SYNNEX INFORMATION TECHNOLOGIES INC"
+ ],
+ "company_dir": "company_031_stonex",
+ "guard": "quarantine",
+ "guard_reasons": [
+  "no slug token ['stonex'] appears in registrant name 'TD SYNNEX CORP' / tickers ['snx'] / former names",
+  "directory already holds an index for CIK 0000913760; refusing to let CIK 0001177394 share these artefacts"
+ ],
+ "built": "2026-10-06T11:53:34Z",
+ "count": 3282,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 0,
+ "csv_sha1": "947f18d971dabcf1322d94a83145b906e8fce195",
+ "csv_bytes": 302822,
+ "paths": {
+  "json": "founders_playbook/01_companies/company_031_stonex\\sources\\_index\\quarantine\\CIK0001177394\\submissions_CIK0001177394.json",
+  "csv": "founders_playbook/01_companies/company_031_stonex\\sources\\_index\\quarantine\\CIK0001177394\\submissions_CIK0001177394.csv",
+  "md": "founders_playbook/01_companies/company_031_stonex\\sources\\_index\\quarantine\\CIK0001177394\\_INDEX_CIK0001177394.md"
+ },
+ "legacy_copy_written": false,
+ "legacy_note": ""
+}

@@ -1,0 +1,209 @@
+{
+ "window": [
+  "1869-01-01",
+  "1950-12-31"
+ ],
+ "candidates": 91,
+ "mined": 12,
+ "untried_by_limit": 78,
+ "items": [
+  {
+   "identifier": "flyer_20240620",
+   "date": "1933-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Flyers for the Hyperborean Wisdom",
+   "family": "internet_archive",
+   "meta_date": "1933-01-01",
+   "status": "cached",
+   "bytes": 2096,
+   "named_terms": [
+    "goldman sachs",
+    "goldman sachs co",
+    "goldman sachs group"
+   ],
+   "other_terms": [],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "KingLeonardWilliamBabylonianMagicAndSorcery",
+   "date": "",
+   "title_year": "1896",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "1896 King Babylonian Magic And Sorcery satanism nwo illuminati freemasons astrology",
+   "family": "internet_archive",
+   "meta_date": "",
+   "status": "cached",
+   "bytes": 437811,
+   "named_terms": [
+    "goldman sachs",
+    "goldman sachs co",
+    "goldman sachs group"
+   ],
+   "other_terms": [],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "HomiliesOfFeastsAndSundaysByCatholicChurchFathers1901",
+   "date": "",
+   "title_year": "1901",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Homilies Of Feasts And Sundays By Catholic Church Fathers 1901",
+   "family": "internet_archive",
+   "meta_date": "",
+   "status": "cached",
+   "bytes": 839042,
+   "named_terms": [
+    "goldman sachs",
+    "goldman sachs co",
+    "goldman sachs group"
+   ],
+   "other_terms": [],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "3gWaTkXKzhgC",
+   "date": "2010-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried 3gWaTkXKzhgC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "XediUP9CiLQC",
+   "date": "2010-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried XediUP9CiLQC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "GE6_DAAAQBAJ",
+   "date": "2016-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried GE6_DAAAQBAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "rtUvBlY83TIC",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried rtUvBlY83TIC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "l8SevxCqA9oC",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried l8SevxCqA9oC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "W8FGEQAAQBAJ",
+   "date": "2022-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried W8FGEQAAQBAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "german-ww-2-physics-anthology-berserker-books",
+   "date": "1988-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "German WW 2 Physics Anthology (Berserker Books)",
+   "family": "internet_archive",
+   "meta_date": "1988-01-01",
+   "status": "cached",
+   "bytes": 2063265,
+   "named_terms": [
+    "goldman sachs",
+    "goldman sachs co",
+    "goldman sachs group"
+   ],
+   "other_terms": [],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "the-sacred-proto-writing-of-mankind-herman-wirth-berserker-books",
+   "date": "1988-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "The Sacred Proto Writing Of Mankind (Herman Wirth_Berserker Books)",
+   "family": "internet_archive",
+   "meta_date": "1988-01-01",
+   "status": "cached",
+   "bytes": 1708647,
+   "named_terms": [
+    "goldman sachs",
+    "goldman sachs co",
+    "goldman sachs group"
+   ],
+   "other_terms": [],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "angel-to-some-demon-to-others_202406",
+   "date": "1973-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "Angel To Some Demon To Others",
+   "family": "internet_archive",
+   "meta_date": "1973-01-01",
+   "status": "cached",
+   "bytes": 14058,
+   "named_terms": [
+    "goldman sachs",
+    "goldman sachs co",
+    "goldman sachs group"
+   ],
+   "other_terms": [],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  }
+ ]
+}

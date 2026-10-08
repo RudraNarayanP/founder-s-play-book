@@ -1,0 +1,9 @@
+{
+ "identifier": "DTIC_ADA359870",
+ "url": "https://archive.org/download/DTIC_ADA359870/DTIC_ADA359870_djvu.txt",
+ "fetched": "2026-10-06T12:07:05Z",
+ "bytes": 349897,
+ "route": "download/<id>/DTIC_ADA359870_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

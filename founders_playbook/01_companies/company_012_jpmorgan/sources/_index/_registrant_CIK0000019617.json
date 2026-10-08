@@ -1,0 +1,41 @@
+{
+ "cik": "0000019617",
+ "requested_cik": "19617",
+ "registrant": "JPMORGAN CHASE & CO",
+ "ticker": "JPM",
+ "tickers": [
+  "JPM",
+  "JPM-PC",
+  "AMJB",
+  "JPM-PD",
+  "JPM-PJ",
+  "JPM-PK",
+  "JPM-PL",
+  "JPM-PM",
+  "VYLD"
+ ],
+ "former_names": [
+  "JPMORGAN CHASE & CO",
+  "J P MORGAN CHASE & CO",
+  "CHASE MANHATTAN CORP /DE/",
+  "CHEMICAL BANKING CORP"
+ ],
+ "company_dir": "company_012_jpmorgan",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['jpmorgan'] match registrant 'JPMORGAN CHASE & CO' (CIK 0000019617)"
+ ],
+ "built": "2026-09-29T19:03:53Z",
+ "count": 167820,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 611,
+ "csv_sha1": "5d91e2fcd5f255b9396a6828d582a4e11421b961",
+ "csv_bytes": 14802909,
+ "paths": {
+  "json": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_012_jpmorgan\\sources\\_index\\submissions_CIK0000019617.json",
+  "csv": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_012_jpmorgan\\sources\\_index\\submissions_CIK0000019617.csv",
+  "md": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_012_jpmorgan\\sources\\_index\\_INDEX_CIK0000019617.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

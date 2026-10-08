@@ -1,0 +1,9 @@
+{
+ "identifier": "german-ww-2-physics-anthology-berserker-books",
+ "url": "https://archive.org/download/german-ww-2-physics-anthology-berserker-books/German%20WW2%20Physics%20Anthology%20%28Berserker%20Books%29__djvu.txt",
+ "fetched": "2026-10-06T12:12:18Z",
+ "bytes": 2063265,
+ "route": "download/<id>/German WW2 Physics Anthology (Berserker Books)__djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

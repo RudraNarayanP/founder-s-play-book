@@ -1,0 +1,51 @@
+slug	company	dir	pass1_status	pass1_docs	pass2_status	pass2_docs	filing_floor	slices_capped	note	state
+amazon	Amazon	company_001_amazon		0		0				DONE
+walmart	Walmart	company_002_walmart		0		0				DONE
+unitedhealth	UnitedHealth Group	company_003_unitedhealth		0		0				DONE
+apple	Apple	company_004_apple		0		0				DONE
+alphabet	Alphabet (Google)	company_005_alphabet		0		0				DONE
+cvs	CVS Health	company_006_cvs		0		0				DONE
+berkshire	Berkshire Hathaway	company_007_berkshire		0		0				DONE
+mckesson	McKesson	company_008_mckesson		0		0				DONE
+exxonmobil	ExxonMobil Holdings	company_009_exxonmobil		0		0				DONE
+cencora	Cencora	company_010_cencora		0		0				DONE
+microsoft	Microsoft	company_011_microsoft		0		0				DONE
+jpmorgan	JPMorgan Chase	company_012_jpmorgan		0		0				DONE
+costco	Costco Wholesale	company_013_costco		0		0				DONE
+cigna	Cigna Group	company_014_cigna		0		0				DONE
+cardinal	Cardinal Health	company_015_cardinal		0		0				DONE
+nvidia	Nvidia	company_016_nvidia		0		0				DONE
+meta	Meta Platforms	company_017_meta		0		0				DONE
+elevance	Elevance Health	company_018_elevance		0		0				DONE
+centene	Centene	company_019_centene		0		0				DONE
+bofa	Bank of America	company_020_bofa		0		0				DONE
+chevron	Chevron	company_021_chevron		0		0				DONE
+ford	Ford Motor	company_022_ford		0		0				DONE
+gm	General Motors	company_023_gm		0		0				DONE
+citigroup	Citigroup	company_024_citigroup		0		0				DONE
+homedepot	Home Depot	company_025_homedepot		0		0				DONE
+fanniemae	Fannie Mae	company_026_fanniemae		0		0				DONE
+kroger	Kroger	company_027_kroger		0		0				DONE
+verizon	Verizon Communications	company_028_verizon		0		0				DONE
+phillips66	Phillips 66	company_029_phillips66		0		0				DONE
+marathon	Marathon Petroleum	company_030_marathon		0		0				DONE
+stonex	StoneX Group	company_031_stonex		0		0				DONE
+statefarm	State Farm Insurance	company_032_statefarm		0		0				DONE
+freddiemac	Freddie Mac	company_033_freddiemac		0		0				DONE
+humana	Humana	company_034_humana		0		0				DONE
+att	AT&T	company_035_att		0		0				DONE
+goldman	Goldman Sachs Group	company_036_goldman		0		0				DONE
+comcast	Comcast	company_037_comcast		0		0				DONE
+wellsfargo	Wells Fargo	company_038_wellsfargo		0		0				DONE
+morganstanley	Morgan Stanley	company_039_morganstanley		0		0				DONE
+valero	Valero Energy	company_040_valero		0		0				DONE
+dell	Dell Technologies	company_041_dell		0		0				DONE
+target	Target	company_042_target		0		0				DONE
+tesla	Tesla	company_043_tesla		0		0				DONE
+disney	Walt Disney	company_044_disney		0		0				DONE
+jnj	Johnson & Johnson	company_045_jnj		0		0				DONE
+pepsico	PepsiCo	company_046_pepsico		0		0				DONE
+boeing	Boeing	company_047_boeing		0		0				DONE
+ups	United Parcel Service	company_048_ups		0		0				DONE
+rtx	RTX	company_049_rtx		0		0				DONE
+fedex	FedEx	company_050_fedex		0		0				DONE

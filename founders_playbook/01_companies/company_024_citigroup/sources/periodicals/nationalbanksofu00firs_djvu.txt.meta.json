@@ -1,0 +1,9 @@
+{
+ "identifier": "nationalbanksofu00firs",
+ "url": "https://archive.org/download/nationalbanksofu00firs/nationalbanksofu00firs_djvu.txt",
+ "fetched": "2026-09-29T18:45:14Z",
+ "bytes": 298956,
+ "route": "download/<id>/nationalbanksofu00firs_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

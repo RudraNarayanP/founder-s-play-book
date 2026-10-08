@@ -1,0 +1,9 @@
+{
+ "identifier": "arxiv-1111.4503",
+ "url": "https://archive.org/download/arxiv-1111.4503/1111.4503_djvu.txt",
+ "fetched": "2026-10-06T12:29:27Z",
+ "bytes": 51587,
+ "route": "download/<id>/1111.4503_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

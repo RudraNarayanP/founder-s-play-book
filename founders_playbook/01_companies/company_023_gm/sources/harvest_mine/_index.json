@@ -1,0 +1,315 @@
+{
+ "window": [
+  "1908-01-01",
+  "1930-12-31"
+ ],
+ "candidates": 111,
+ "mined": 12,
+ "untried_by_limit": 97,
+ "items": [
+  {
+   "identifier": "yndIAQAAMAAJ",
+   "date": "1909-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried yndIAQAAMAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "I1SmQH86zxIC",
+   "date": "1928-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried I1SmQH86zxIC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "61sgJTm2wF8C",
+   "date": "1929-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried 61sgJTm2wF8C_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "GrdvdLXgLNgC",
+   "date": "1928-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried GrdvdLXgLNgC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "cHgpAAAAYAAJ",
+   "date": "1917-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried cHgpAAAAYAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "ou0bAAAAIAAJ",
+   "date": "1926-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried ou0bAAAAIAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "IyZKAQAAMAAJ",
+   "date": "1920-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried IyZKAQAAMAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "NPSH19290609",
+   "date": "1929-01-01",
+   "title_year": "1929",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Hong Kong Sunday Herald 1929-06-09",
+   "family": "internet_archive",
+   "meta_date": "1929-01-01",
+   "status": "cached",
+   "bytes": 332625,
+   "named_terms": [
+    "general motors",
+    "general motors corporation"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 2,
+   "phrase_hits": 8,
+   "entity_hits": 8,
+   "matched_entities": [
+    "general motors"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 14708,
+     "text": "GENERAL MOTORS",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 14714,
+     "text": "General Motors has formed an",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 14733,
+     "text": "The General Motors analysis of",
+     "context": [
+      "",
+      "the European economic situation"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "financialhistory00selt",
+   "date": "1928-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "A financial history of the American automobile industry : a study of the ways in which the leading American producers of",
+   "family": "internet_archive",
+   "meta_date": "1928-01-01",
+   "status": "cached",
+   "bytes": 669597,
+   "named_terms": [
+    "general motors",
+    "general motors corporation"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 6,
+   "phrase_hits": 200,
+   "entity_hits": 201,
+   "matched_entities": [
+    "formerly sales",
+    "general motors"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 461,
+     "text": "Warriner, and Howard Chapin, of the General Motors",
+     "context": [
+      "Thomas S. Merrill, Frank F. Kolbe, A. B. C. Hardy, A. P.",
+      "Corporation; W. H. Alford and the late James J. Storrow, of"
+     ]
+    },
+    {
+     "line": 521,
+     "text": "9. The General Motors Combination",
+     "context": [
+      ". The Ford-Buick-Reo-Maxwell Combination Project",
+      "10. The United States Motor Fiasco"
+     ]
+    },
+    {
+     "line": 581,
+     "text": "IV. THE GENERAL Motors CorporaTION",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "daytonwrightairp00gene",
+   "date": "1920-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Dayton-Wright airplanes : commercial and pleasure aircraft of distinction",
+   "family": "internet_archive",
+   "meta_date": "1920-01-01",
+   "status": "cached",
+   "bytes": 42441,
+   "named_terms": [
+    "general motors",
+    "general motors corporation"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 2,
+   "entity_hits": 2,
+   "matched_entities": [
+    "general  motors"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 18,
+     "text": "General  Motors  Corporation,",
+     "context": [
+      "",
+      "Dayton-Wri^ht  Division,"
+     ]
+    },
+    {
+     "line": 31,
+     "text": "Copyright.  1920  by  The  General  Motors  Corporation,  Dayton-W right  Division,  Dayton,  Ohio.",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "general-motors-annual-reports",
+   "date": "",
+   "title_year": "1918",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "General Motors Annual Reports 1918 - 1940",
+   "family": "corporate_print",
+   "meta_date": "",
+   "status": "ok",
+   "bytes": 197373,
+   "named_terms": [
+    "general motors",
+    "general motors corporation"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 1,
+   "phrase_hits": 162,
+   "entity_hits": 162,
+   "matched_entities": [
+    "general motors"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 4,
+     "text": "GENERAL MOTORS CORPORATION",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 17,
+     "text": "GENERAL MOTORS",
+     "context": [
+      "",
+      "CORPORATION"
+     ]
+    },
+    {
+     "line": 191,
+     "text": "GENERAL Motors ACCEPTANCE ee . ..... \u0422\u041e\u0419",
+     "context": [
+      "laneous Operations . . . ETE S",
+      "PRICES FROM AN ECONOMIC STANDPOINT . . . . . . , 33"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NewProfitsInDeliveringBuildingMaterialsTheReportOfANation-wide",
+   "date": "1931-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "New profits in delivering building materials : the report of a nation-wide survey of building supply dealers' truck oper",
+   "family": "corporate_print",
+   "meta_date": "1931-01-01",
+   "status": "cached",
+   "bytes": 82206,
+   "named_terms": [
+    "general motors",
+    "general motors corporation"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 4,
+   "entity_hits": 4,
+   "matched_entities": [
+    "general motors"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 23,
+     "text": "GENERAL MOTORS TRUCK COMR4NY",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 31,
+     "text": "General Motors Truck Company has been placing increasing emphasis",
+     "context": [
+      "with individual users, and in particular with various lines of business.",
+      "on study of the needs of individual truck owTiers. With this end in view,"
+     ]
+    },
+    {
+     "line": 69,
+     "text": "General Motors Truck Company",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  }
+ ]
+}

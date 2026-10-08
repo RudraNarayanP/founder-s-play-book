@@ -1,0 +1,637 @@
+{
+ "window": [
+  "1866-01-01",
+  "1999-12-31"
+ ],
+ "candidates": 134,
+ "mined": 12,
+ "untried_by_limit": 109,
+ "items": [
+  {
+   "identifier": "mobrat00unit",
+   "date": "1976-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Mobil Oil Corporation, failure to deliver natural gas to the interstate market: report",
+   "family": "corporate_print",
+   "meta_date": "1976-01-01",
+   "status": "cached",
+   "bytes": 121995,
+   "named_terms": [
+    "exxon mobil corp",
+    "exxonmobil holdings"
+   ],
+   "other_terms": [
+    "exxon corporation",
+    "mobil oil",
+    "standard oil"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 200,
+   "phrase_hits": 0,
+   "entity_hits": 1,
+   "matched_entities": [
+    "exxon  corp"
+   ],
+   "matched_other_terms": [
+    "mobil  oil"
+   ],
+   "sample": [
+    {
+     "line": 2406,
+     "text": "minimum  daily  delivery  obligation\"  condition.  See.  for  example,  Exxon  Corp..",
+     "context": [
+      "commencing  deliveries  under  certificates  containing  the  standard  \"certificated",
+      "Docket  No.  CT74?528,  order  issued  January  2, 1976."
+     ],
+     "promoted": "exxon  corp"
+    }
+   ]
+  },
+  {
+   "identifier": "standard-oil-company-of-california-annual-report-1956",
+   "date": "1957-01-01",
+   "title_year": "1956",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "Standard Oil Company of California Annual Report 1956",
+   "family": "corporate_print",
+   "meta_date": "1957-01-01",
+   "status": "cached",
+   "bytes": 68405,
+   "named_terms": [
+    "exxon mobil corp",
+    "exxonmobil holdings"
+   ],
+   "other_terms": [
+    "exxon corporation",
+    "mobil oil",
+    "standard oil"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "standard oil"
+   ],
+   "sample": [
+    {
+     "line": 61,
+     "text": "STANDARD OIL COMPANY OF CALIFORNIA < \\",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 102,
+     "text": "STANDARD OIL COMPANY OF CALIFORNIA",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 573,
+     "text": ".. In Standard Oil",
+     "context": [
+      "1.0",
+      "Company of California"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "standard-oil-company-of-california-annual-report-1957",
+   "date": "1958-01-01",
+   "title_year": "1957",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "Standard Oil Company of California Annual Report 1957",
+   "family": "corporate_print",
+   "meta_date": "1958-01-01",
+   "status": "cached",
+   "bytes": 67323,
+   "named_terms": [
+    "exxon mobil corp",
+    "exxonmobil holdings"
+   ],
+   "other_terms": [
+    "exxon corporation",
+    "mobil oil",
+    "standard oil"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "standard oil"
+   ],
+   "sample": [
+    {
+     "line": 600,
+     "text": "STANDARD OIL COMPANY OF CALIFORNIA",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 633,
+     "text": "their chief areas of interest were Standard Oil",
+     "context": [
+      "bean countries. The companies involved and",
+      "Company of California, Western Operations,"
+     ]
+    },
+    {
+     "line": 637,
+     "text": "Mountain areas; Standard Oil Company of",
+     "context": [
+      "nia Company in the Gulf Coast and Rocky",
+      "Texas in Texas and New Mexico; Pasotex"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "pureoiltrustvsst00oilc",
+   "date": "1901-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Pure Oil Trust vs. Standard Oil Company, being the report of an investigation by the United States Industrial Commission",
+   "family": "corporate_print",
+   "meta_date": "1901-01-01",
+   "status": "cached",
+   "bytes": 3294656,
+   "named_terms": [
+    "exxon mobil corp",
+    "exxonmobil holdings"
+   ],
+   "other_terms": [
+    "exxon corporation",
+    "mobil oil",
+    "standard oil"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "standard  oil"
+   ],
+   "sample": [
+    {
+     "line": 50,
+     "text": "STANDARD  OIL  COMPANY,",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 96,
+     "text": "It  soon  became  evident  that  the  Standard  Oil  Company  was  to  be  the  chief",
+     "context": [
+      "the  commission  began  an  investigation  of  trusts  and  industrial  combinations.",
+      "subject  of  this  investigation.  Vice-Chairman  Thomas  W.  Phillips,  who  has"
+     ]
+    },
+    {
+     "line": 99,
+     "text": "active  competitor  of  the  Standard  Oil  Company,  presided  at  nearly  all  of  the",
+     "context": [
+      "amassed  a  large  fortune  in  the  oil  industry,  and  who  for  years  has  been  an",
+      "meetings  of  the  commission  in  the  absence  of  Senator  Kyle,  the  chairman."
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "standard-oil-company-of-california-annual-report-1958",
+   "date": "1959-01-01",
+   "title_year": "1958",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "Standard Oil Company of California Annual Report 1958",
+   "family": "corporate_print",
+   "meta_date": "1959-01-01",
+   "status": "cached",
+   "bytes": 75124,
+   "named_terms": [
+    "exxon mobil corp",
+    "exxonmobil holdings"
+   ],
+   "other_terms": [
+    "exxon corporation",
+    "mobil oil",
+    "standard oil"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "standard oil"
+   ],
+   "sample": [
+    {
+     "line": 24,
+     "text": "Standard Oil Company of California 1958 Annual Report",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 62,
+     "text": "Standard Oil Company of California",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 168,
+     "text": "Standard Oil Company of California",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "pureoiltrustvss00derrgoog",
+   "date": "1901-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Pure Oil Trust vs. Standard Oil Company : being the report of an investigation by the United States Industrial Commissio",
+   "family": "corporate_print",
+   "meta_date": "1901-01-01",
+   "status": "cached",
+   "bytes": 3193448,
+   "named_terms": [
+    "exxon mobil corp",
+    "exxonmobil holdings"
+   ],
+   "other_terms": [
+    "exxon corporation",
+    "mobil oil",
+    "standard oil"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "standard  oil"
+   ],
+   "sample": [
+    {
+     "line": 67,
+     "text": "STANDARD  OIL  COMPANY,",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 99,
+     "text": "It  soon  became  evident  that  the  Standard  Oil  Company  was  to  be  the  chief",
+     "context": [
+      "the  commission  began  an  Investigation  of  trusts  and  iDdustrlol  combinations.",
+      "subject  ol  tbls  Inveatlgallon.  Vice-Chairman  Thomas  W.  Phillips,  who  has"
+     ]
+    },
+    {
+     "line": 102,
+     "text": "active  competitor  of  the  Standard  Oil  Company,  presided  at  nearly  all  of  the",
+     "context": [
+      "amassed  a  large  fortune  In  the  oil  Industry,  and  who  for  years  has  been  an",
+      "meetings  of  the  commission  In  the  absence  of  Senator  Kyle,  the  chairman."
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "standard-oil-company-of-california-annual-report-1959",
+   "date": "1960-01-01",
+   "title_year": "1959",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "Standard Oil Company of California Annual Report 1959",
+   "family": "corporate_print",
+   "meta_date": "1960-01-01",
+   "status": "cached",
+   "bytes": 69335,
+   "named_terms": [
+    "exxon mobil corp",
+    "exxonmobil holdings"
+   ],
+   "other_terms": [
+    "exxon corporation",
+    "mobil oil",
+    "standard oil"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "standard oil"
+   ],
+   "sample": [
+    {
+     "line": 40,
+     "text": "Standard Oil Company of California",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 560,
+     "text": "Standard Oil Company of California",
+     "context": [
+      "Review of Operations \u00ab Western Hemisphere",
+      ""
+     ]
+    },
+    {
+     "line": 596,
+     "text": "Standard Oil Company of California, Western",
+     "context": [
+      "",
+      "Operations, Inc. in the Far West, Alaska and the"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "standard-oil-company-of-california-annual-report-1960",
+   "date": "1961-01-01",
+   "title_year": "1960",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "Standard Oil Company of California Annual Report 1960",
+   "family": "corporate_print",
+   "meta_date": "1961-01-01",
+   "status": "cached",
+   "bytes": 71360,
+   "named_terms": [
+    "exxon mobil corp",
+    "exxonmobil holdings"
+   ],
+   "other_terms": [
+    "exxon corporation",
+    "mobil oil",
+    "standard oil"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "standard oil"
+   ],
+   "sample": [
+    {
+     "line": 8,
+     "text": "ww STANDARD OIL COMPANY OF CALIFORNIA",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 38,
+     "text": "Standard Oil Company of California",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 1767,
+     "text": "STANDARD OIL COMPANY OF CALI FORNIA, SUR eat eee AND pores ial",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA41153045_0441",
+   "date": "1975-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Generalized Method for the User Evaluation of Purchased Information Services. Report Number Three; Monthly Report (Octob",
+   "family": "corporate_print",
+   "meta_date": "1975-01-01",
+   "status": "cached",
+   "bytes": 5585,
+   "named_terms": [
+    "exxon mobil corp",
+    "exxonmobil holdings"
+   ],
+   "other_terms": [
+    "exxon corporation",
+    "mobil oil",
+    "standard oil"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 4,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 33,
+     "text": "Exxon Research and Engineering Co., Linden, N.J.",
+     "context": [
+      "Monthly Report (October 1 to November 30, 1975).",
+      "National Science Foundation, Washington, D.C."
+     ]
+    },
+    {
+     "line": 49,
+     "text": "Exxon Research and Engineering Company",
+     "context": [
+      "Technology; University Libraries; *Use Studies",
+      ""
+     ]
+    },
+    {
+     "line": 76,
+     "text": "information services at the Exxon Research and Engineering Company",
+     "context": [
+      "library. A surwey of usage patterns for scientific and technical",
+      "Central Library was planned. (PF)"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA41153438_0701",
+   "date": "1977-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "User Values in the Selection of Information Services. Final Report.",
+   "family": "corporate_print",
+   "meta_date": "1977-01-01",
+   "status": "cached",
+   "bytes": 195001,
+   "named_terms": [
+    "exxon mobil corp",
+    "exxonmobil holdings"
+   ],
+   "other_terms": [
+    "exxon corporation",
+    "mobil oil",
+    "standard oil"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 15,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 10,
+     "text": "INSTITUTION Exxon Research and Engineering Co., Linden, N.J.",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 15,
+     "text": "REPORT NO EXXON /GERU.1IDK.77",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 103,
+     "text": "Exxon Research and Engineering Company",
+     "context": [
+      "",
+      "Government Research Laboratories"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA41155163_0728",
+   "date": "1984-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Science Education in the United States: Essential Steps for Achieving Fundamental Improvement. A Report on a Meeting of ",
+   "family": "corporate_print",
+   "meta_date": "1984-01-01",
+   "status": "cached",
+   "bytes": 47553,
+   "named_terms": [
+    "exxon mobil corp",
+    "exxonmobil holdings"
+   ],
+   "other_terms": [
+    "exxon corporation",
+    "mobil oil",
+    "standard oil"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 8,
+   "phrase_hits": 0,
+   "entity_hits": 1,
+   "matched_entities": [
+    "exxon corp"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 11,
+     "text": "INSTITUTION EXXON Corp., New York, N.Y.",
+     "context": [
+      "",
+      ""
+     ],
+     "promoted": "exxon corp"
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA41152954_0005",
+   "date": "1985-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Teacher Education and the Liberal Arts. Wingspread Conference of the Associated Colleges of the Midwest Report (October ",
+   "family": "corporate_print",
+   "meta_date": "1985-01-01",
+   "status": "cached",
+   "bytes": 65522,
+   "named_terms": [
+    "exxon mobil corp",
+    "exxonmobil holdings"
+   ],
+   "other_terms": [
+    "exxon corporation",
+    "mobil oil",
+    "standard oil"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 5,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 10,
+     "text": "INSTITUTION EXXON Education Foundation, New York, N.Y.",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 70,
+     "text": "THE EXXON EDUCATION FOUNDATION",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 250,
+     "text": "addition to the Exxon Education Foundation (EEF); the Rockefeller",
+     "context": [
+      "The ACM conference was observed by one foundation in particular in",
+      "Foundation (RF) was observing the ACM generally, and was considering"
+     ]
+    }
+   ]
+  }
+ ]
+}

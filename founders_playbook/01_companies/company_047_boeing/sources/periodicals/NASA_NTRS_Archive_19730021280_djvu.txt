@@ -1,0 +1,7569 @@
+REPRODOCtBILITY OF THE ORI(^M PAGE IS POOR. 
+
+
+
+
+
+
+i 
+
+|S(. 
+
+
+rmsnrCR.114602 
+
+
+I 
+
+f 
+
+
+V/STOL TILT ROTOR AIRCRAFT STUDY 
+PILOTED SIMULATOR EVALUATION OF THE 
+BOEING VERTOL MODEL 222 
+TILT ROTOR AIRCRAFT 
+
+
+VOLUME IX 
+
+
+FEBRUARY 1973 
+
+
+Distribution of this Report is provided in 
+the interest of infbrmetion exchenge. Re* 
+sponsibility for the contmts resides in 
+the author^r organization that prepare it 
+
+
+Prepared Undar Contrdbt No. NAS2*6606 by 
+BOEING VERTOL COMPANY 
+A Division of tha Boeing Company 
+P. 0. Box 16858 
+
+Philadelphia, Penmyivania 19142 
+fpr 
+
+Ames Resea rch Center 
+
+National Aeronautkis and Space Administration 
+end 
+
+UnRad Statm Army Air Mobility Reaaaroh R Devilopmant 
+
+Ames Directo ra ta 
+
+
+ro OK LC Z 
+
+Oi O M 1 H > 
+
+o 3 5 T cn 
+
+W a n > 
+
+W I 
+
+> O 
+\£> ^ W 
+
+to CD O t“i I 
+O 
+
+n (t 
+
+H- W 
+DC d 
+O 
+
+
+4^ < 
+ON O 
+• PI 
+^ rP 
+UN O 
+
+Ci 
+
+o 
+
+
+to 
+
+H -P 
+C 3 ON 
+ri O 
+►< to 
+
+
+^ < 
+C \ 
+r" CO 
+G H 
+0 3 0 
+
+
+3 ^ ,1 M 
+
+^ t'- ^ 
+
+p- 
+
+H* rr. ^ 
+
+O M W 
+fU (tI !“• O 
+
+CL M O ► 3 
+
+(X : 2 S O 
+P-* O hJ lx' 
+
+< 
+
+
+n K 
+
+tn ^ 
+
+n 
+
+t-* p * 
+p 
+
+o ^ 
+
+
+n 
+
+
+u> 
+
+\ 
+
+o 
+
+M 
+
+
+C. 
+
+
+K) O 
+ON M 
+
+
+'.25 
+
+-4 
+
+UJ 
+
+I 
+
+
+Boeing 022248Q6i>1 
+
+
+
+
+
+
+
+t* 
+
+
+< 
+
+
+
+
+
+
+
+
+
+
+\/ 
+
+
+
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+e 
+
+II 
+
+0 
+
+(j 
+
+11 
+
+
+li 
+
+8 
+
+y 
+
+i: 
+
+[ 
+
+I 
+
+I 
+
+
+NASA CR-114602 
+
+h\lAlLiitU& TV Tttff f>06LlO 
+
+V/STOL TILT ROTOR AIRCRAFT STUDY 
+PILOTED SIMULATOR EVALUATION OF THE 
+BOEING VERTOL MODEL 222 TILT ROTOR AIRCRAFT 
+
+
+VOLUME IX 
+
+
+By: H. Rosenstein 
+
+M. A. McVeigh 
+P. A. Mollenkof 
+
+
+February 1973 
+
+
+Distribution of tnis Report is provided in 
+the interest of information exchange. Re- 
+sponsibility for the contents resides in 
+the author or organization that prepared it. 
+
+
+Prepared Under Contract No. NAS2-6598 by 
+BOEING VERTOL COMPANY 
+A Division of the Boeing Company 
+P. 0. Box 16858 
+
+Philadelphia, Pennsylvania 19142 
+for 
+
+Ames Research Center 
+
+National Aeronautics and Space Administration 
+
+and 
+
+t:nited States Army Air Mobility Research & Development Laboratory 
+
+Ames Directorate 
+
+
+
+
+
+Boeing D222-10052-1 
+
+
+FOREWORD 
+
+
+This report is one of a series prepared by The Boeing Vertol 
+Company, Philadelphia, Pennsylvania for the National Aeronaut- 
+ics and Space Administration, Ames Research Center, Moffett 
+Field, California under contract NAS2-6598. The studies re- 
+ported under Volumes I through IV and VIII through X were 
+jointly funded by NASA and the U. S. Army Air Mobility Research 
+and Development Laboratory, Ames Directorate. Volumes V 
+through VII were funded by the U. S. Air Force Flight Dynamics 
+Laboratory, Wright Patterson Air Force Base, Ohio. 
+
+This contract was administered by the National Aeronautics and 
+Space Administration. Mr. Richard J. Abbott was the Contract 
+Administrator, Mr. Gary B. Churchill, Tilt Rotor Research Air- 
+craft Project Office, was the Technical Monitor, and coordina- 
+tioii and liaison with the U. S. Air Force Flight Dynamics 
+Laboratory was through Mr. D. Fraga. The Boeing Vertol Company 
+Project Engineer for the work presented in this report was 
+Mr. H. Rosens tein. 
+
+
+The complete list of reports published under this contract is 
+as follows ; 
+
+Volume I — Conceptual Design of Useful Military 
+
+and/or Commercial Aircraft, NASA CR- 
+114437 
+
+
+Volume II 
+Volume III 
+
+Volume IV 
+
+Volume V 
+Volume VI 
+
+Volume VII 
+
+
+Preliminary Design of Research Air- 
+craft, NASA CR-114438 
+
+Overall Research Aircraft Project 
+Plan, Schedules, and Estimated Cost, 
+NASA CR-114439 
+
+Wind Tunnel Investigation Plan for 
+a Full Scale Tilt Rotor Research 
+Aircraft, CR-114440 
+
+Definition of Stowed Rotor Research 
+Aircraft, NASA CR-114598 
+
+Preliminary Design of a Composite 
+Wing for Tilt Rotor Aircraft, 
+
+NASA CR-114599 
+
+Tilt Rotor Flight Control Program 
+Feedback Studies, NASA CR-114600 
+
+
+preceding page blank not filmed 
+
+ill 
+
+
+
+
+
+
+
+
+
+.1 
+
+
+II 
+
+
+
+
+t 
+
+i 
+
+
+I 
+
+
+1; 
+
+
+B 
+
+e 
+
+0 
+
+0 
+
+0 
+
+
+li 
+
+IJ 
+
+(i 
+
+I 
+
+I 
+
+I 
+
+
+
+Volume VIII — Mathematical Model for a Real Time 
+
+Simulation of a Tilt Rotor Aircraft 
+(Boeing Vertol Model 222) , NASA 
+CR-114601 
+
+Volume IX — Piloted Simulator Evaluation of 
+
+The Boeing Vertol Model 222 Tilt 
+Rotor Aircraft, NASA CR-114602 
+
+Volume X — Performance and Stability Test of 
+
+a 1/4.622 Froude Scaled Boeing 
+Vertol Model 222 Tilt Rotor Air- 
+craft (Phase I), NASA CR-114603 
+
+
+iv 
+
+
+t 
+
+
+i 
+
+I 
+
+{ 
+
+I 
+
+t 
+
+
+
+
+
+TABLE OF CONTENTS 
+
+
+PAGE 
+
+FOREWORD iii 
+
+LIST OF ILLUSTRATIONS vi 
+
+NOMENCLATURE ix 
+
+1.0 SUMMARY 1 
+
+2.0 INTRODUCTION 4 
+
+3.0 AIRCRAFT DESCRIPTION 6 
+
+4.0 MATHEMATICAL MODEL DESCRIPTION 11 
+
+5.0 DATA BASIS 13 
+
+6.0 FLIGHT SIMULATION FACILITIES DESCRIPTION ... 14 
+
+7.0 PILOT STATION DEFINITION 20 
+
+8.0 SIMULATION RUN PROGRAM 27 
+
+9.0 PILOTED RESULTS 29 
+
+9.1 FAMILIARIZATION 31 
+
+9.2 HOVER MODE STUDIES 32 
+
+9.3 TRANSITION MODE STUDIES 39 
+
+9.4 CRUISE MODE STUDIES 46 
+
+9.5 EVALUATION OF MAXIMUM NACELLE RATES IN 
+
+TRANSITION 54 
+
+9.6 EVALUATION OF HELICOPTER FLIGHT MODE . . 54 
+
+10.0 CONCLUSIONS AND RECOMMENDATIONS 55 
+
+11.0 REFERENCES 57 
+
+APPENDIX A - TIME HISTORIES OF SELECTED PILOTED 
+
+MANEUVERS 58 
+
+
+V 
+
+
+
+LIST OP ILLUSTRATIONS 
+
+
+F IGURE NO . TITLE PAGE 
+
+1 SUMMARY OF USES FOR PILOTED FLIGHT 
+
+SIMULATION 5 
+
+2 MODEL 222 TILT ROTOR NASA RESEARCH 
+
+AIRCRAFT 7 
+
+3 FLIGHT CONTROL MIXING 8 
+
+4 SALIENT FEATURE OF MATH MODEL 12 
+
+5 EXTERNAL VIEW OF BOEING SMALL MOTION BASE 
+
+FLIGHT SIMULATOR 16 
+
+6 INTERNAL ARRANGEMENT OF SIMULATOR CAB . . 17 
+
+7 MODEL 222 PLOT STATION FEATURE SUMMARY . . 21 
+
+8 SIMULATOR INSTRUMENT PANEL LAYOUT ... 22 
+
+9 POWER LEVER/COLLECTIVE CONTROL FOR 
+
+MODEL 222 SIMULATION 24 
+
+10 MODEL 222 CONTROL FORCE GRADIENTS AND 
+
+BREAKOUT FORCES 25 
+
+A. 1(a) SLOW PILOTED TRANSITION AND RECONVERSION 
+
+SAS AND LAS ON 60 
+
+A. Kb) SLOW PILOTED TRANSITION AND RECONVERSION 
+
+SAS AND LAS ON 61 
+
+A. 1(c) SLOW PILOTED TRANSITION AND RECONVERSION 
+
+SAS AND LAS ON 62 
+
+A. 2 (a) RAPID PILOTED TRANSITION AND RECONVERSION 
+
+SAS AND LAS ON 63 
+
+A. 2(b) RAPID PILOTED TRANSITION AND RECONVERSION 
+
+SAS AND LAS ON 64 
+
+A. 2(c) RAPID PILOTED TRANSITION AND RECONVERSION 
+
+SAS AND LAS ON 65 
+
+A. 3 PILOTED TIME HISTORY - RESPONSE TO LONGI- 
+
+TUDINAL STICK PULSES IN HOVER, SAS AND 
+LAS ON, 1n=90* 66 
+
+
+v; 
+
+%• y 
+
+
+I [ 
+
+
+1'^ 
+
+
+: tl 
+
+
+•-! ! 
+
+
+•: 1 11 
+
+■>! ii 
+
+
+.V ' 
+
+
+J 
+
+
+I: 
+
+
+li 
+
+
+I 
+
+
+
+FIGURE NO. 
+
+
+A. 4 
+
+
+A. 5 
+
+
+A. 6 
+
+
+A. 7 
+
+
+A. 8 
+
+
+A. 9(a) 
+A. 9(b) 
+A. 10 
+
+A.n 
+
+A. 12 
+
+A. 13 
+
+
+LIST OF ILLUSTRATIONS 
+
+TITLE PAGE 
+
+PILOTED TIME HISTORY - RESPONSE TO 
+LATERAL STICK AND RUDDER PEDAL 
+PULSES IN HOVER, SAS AND LAS ON, 
+
+1n = 90« 67 
+
+PILOTED TIME HISTORY - RESPONSE TO 
+LONGITUDINAL STICK PULSES IN HOVER, 
+
+SAS AND LAS OFF, i^^=90® 68 
+
+PILOTED TIME HISTORY - RESPONSE TO 
+LATERAL STICK AND RUDDER PEDAL 
+PULSES IN HOVER, SAS AND LAS OFF, 
+
+1^=90“ 69 
+
+PILOTED TIME HISTORY - RESPONSE TO 
+LONGITUDINAL STICK PULSES IN TRANSI- 
+TION, SAS AND LAS ON, 1^=70“, 
+
+V=80 KNOTS 70 
+
+PILOTED TIME HISTORY - RESPONSE TO 
+LATERAL STICK AND RUDDER PEDAL PULSES 
+IN TRANSITION, SAS AND LAS ON, 
+
+1^=70®, V=80 KNOTS 71 
+
+PILOTED TIME HISTORY - HELICOPTER MODE 
+
+MANEUVERS, SAS AND LAS ON, i„=90® . . 72 
+
+N 
+
+PILOTED TIME HISTORY - HELICOPTER MODE 
+MANEUVERS, SAS AND LAS ON, ijj=90* . . 73 
+
+PILOTED TIME HISTORY - PARTIAL POWER 
+DESCENTS IN TRANSITION, SAS AND LAS 
+ON l.^=70®, V=70 KNOTS 74 
+
+PILOTED TIME HISTORY - RESPONSE TO 
+LONGITUDINAL STICK PULSES AT 140 
+KNOTS, LAS ON, 75 
+
+PILOTED TIME HISTORY - RESPONSE TO 
+LONGITUDINAL STICK PULSES AT 140 KNOTS, 
+
+LAS OFF, 1^=0* 76 
+
+PILOTED TIME HISTORY - RESPONSE TO 
+LATERAL AND RUDDER PEDAL PULSES AT 
+140 KNOTS, /AS ON, 1n=0® 77 
+
+vii 
+
+
+
+
+77 
+
+
+
+LIST OF ILLUSTRATIONS 
+
+
+FIGURE NO. TITLE PAGE 
+
+
+A. 14 PILOTED TIME HISTORY - RESPONSE TO LATERAL 
+
+STICK AND RUDDER PEDAL PULSES AT 140 
+KNOTS LAS OFF, %=0* 78 
+
+A. 15 PILOTED TIME HISTORY - RESPONSE TO 
+
+LONGITUDINAL STICK PULSES AT 260 KNOTS, 
+
+LAS ON, 1^=0* 7 9 
+
+A. 16 PILOTED TIME HISTORY - RESPONSE TO 
+
+LONGITUDINAL STICK PULSES AT 260 KNOTS, 
+
+LAS OFF, 80 
+
+A. 17 PILOTED TIME HISTORY - RESPONSE TO LATERAL 
+
+STICK AND RUDDER PEDAL PULSES AT 260 KNOTS, 
+
+LAS ON, iN=0* 81 
+
+A. 18 PILOTED TIME HISTORY - RESPONSE TO LATERAL 
+
+STICK AND RUDDER PEDAL PULSES AT 260 KNOTS, 
+
+LAS OFF, iN=0* 82 
+
+
+viii ' 
+
+
+
+NOMENCLATURE 
+
+
+Symbol 
+
+Definition 
+
+Units 
+
+h 
+
+Aircraft altitude 
+
+Ft. 
+
+• 
+
+h 
+
+Aircraft rate of climb 
+
+Ft/sec 
+
+
+Nacelle angle 
+
+Rad. 
+
+P 
+
+Aircraft roll rate^ positive 
+when rolling clockwise (right 
+wing down) 
+
+Rad/sec 
+
+q 
+
+Aircraft pitch rate, positive 
+when pitching nose up 
+
+Rad/sec 
+
+r 
+
+Aircraft yaw rate, positive 
+when yawing nose right 
+
+Rad/sec 
+
+u 
+
+Aircraft longitudinal component 
+of velocity 
+
+Ft/sec 
+
+V 
+
+Aircraft lateral component 
+of velocity 
+
+Ft/sec 
+
+
+Fuselage angle of attack 
+
+Deg . 
+
+6p 
+
+Fuselage sideslip angle 
+
+Deg. 
+
+
+Longitudinal stick position, 
+positive aft 
+
+Inches 
+
+*^^3 AS 
+
+Longitudinal SAS link position 
+
+Inches 
+
+5th 
+
+Power lever/collective control 
+position 
+
+Inches 
+
+5 
+
+e 
+
+Elevator angle, positive trailing 
+edge down 
+
+Rad . 
+
+'f 
+
+Flap angle, positive wing 
+trailing edge down 
+
+Deg. 
+
+
+Rudder pedal position, right 
+rudder positive 
+
+Inches 
+
+^^SAS 
+
+Rudder pedal SAS link position 
+
+Inches 
+
+
+ix 
+
+
+
+nomenclature 
+
+
+Symbol 
+
+Definition 
+
+Units 
+
+^ s 
+
+Lateral stick position, positive 
+to the right 
+
+Inches 
+
+^SsAS 
+
+Lateral SAS link position 
+
+Inches 
+
+e 
+
+Aircraft pitch attitude, 
+positive nose up 
+
+Deg. 
+
+^0.75 
+
+Rotor collective pitch at three 
+quarters radius station 
+
+Deg. 
+
+
+Aircraft roll attitude, positive 
+right wing down 
+
+Deg. 
+
+'i' 
+
+Aircraft yaw attitude, positive 
+nose right 
+
+Deg. 
+
+ri 
+
+Change in rotor rotational speed 
+
+Rad/sec 
+
+
+X 
+
+
+
+1 . 0 SUMM AT. ' 
+
+This document presents the result r -il time piloted 
+
+simulation conducted to investigi c . a.- ndling qualities and 
+
+performance of the Boeing Model 2 ti' otor aircraft design 
+as described in Reference (1). Thx. ted evaluation was 
+
+conducted during the period from Septeuiber 25, 197 2 through 
+October 28, 1972. Since this was the first piloted simulation 
+of the Model 222, the run program (which is shown and de- 
+scribed in Section 8 cjf this document) was set up to broadly 
+cover all regimes of flight (hover, transition, cruise, climbs, 
+descents, etc.) and to identify potential problem areas. 
+
+During the above mentioned time period approximately 34 hours 
+of piloted simulations were conducted. 
+
+The aircraft represented in this simulation was the Model 222 
+as described in Boeing Vertol's preliminary design study of 
+March 1972 (Reference 1). It differs from the aircraft of 
+Boeing Vertol's January 1973 proposal in several respects, the 
+most important being: - 
+
+(a) The simulation model had outboard flaperons 
+and spoilers only, whereas the January 1973 
+aircraft has full span flaperons and spoilers. 
+
+(b) The simulation model had .6 rad/sec ^ control 
+power in pitch and 1.0 rad/sec^ in roll, 
+compared to 1.2 rad/sec ^ and 2.0 rad/sec ^ 
+respectively for the January 1973 proposal. 
+
+(c) The load alleviation system on the model 
+senses nacelle pitching and yawing moments 
+to feed back into cyclic pitch. The January 
+1973 aircraft senses pitch and yaw angle 
+and dynamic pressure. 
+
+(d) The longitudinal stability augmentation 
+system in this simulation model incorporated 
+a pitch attitude feedback loop. In addition, 
+the SAS moved the elevator and longitudinal 
+cyclic pitch actuators. In the January 
+
+1973 proposal the pitch attitude feedback 
+was removed from the stability augmentation 
+system and incorporated into the autopilot, 
+and the longitudinal SAS moves only the longi- 
+tudinal cyclic pitch actuator. These changes 
+were made in order to simplify the design of 
+the aircraft. 
+
+An eleven degree-of-f reedom mathematical model i.e., 6 air- 
+frame, rotor RPM, first wing vertical bending and torsion and 
+2 nacelle degrees of freedom was formulated and is described 
+
+
+1 
+
+
+
+
+
+V/ 
+% ' 
+
+
+<; 
+
+
+
+
+
+in Volume VIII of this series of reports. The ma thematiral 
+f5ciel was mechanized and used to drive the Booing Small Motion 
+dase Flight Simulator (SMBFS). The SMBFS provides initial 
+motion cues only and was modified to represent the Model 272 . 
+These modifications included the addition of power lever/ 
+collective pitch control mounted on the left arm re-^t wit!i a 
+nacelle incidence switch located on the grip, an instrument 
+panel designed to represent the tilt rotor, and an appropriate 
+; >rce feel system. Otner elements of the pilot's control s- 
+tem i.e., beep trira, mag. brake, stick and peJals were satis- 
+factory and required no modification. The command pilot in 
+the Model 222 is in the right seat. 
+
+Visual displays were computer-generated and projectc'd onto a 
+'cn en in front of the pilot. Two displays Wt>re used for 
+this evaluation; a ship deck for hover and a mountainous scene 
+with a road and telep’ one poles for the cruise mode. The 
+majority of the piloted simulation was however, conducted 
+using the road only. 
+
+The Model 222 tilt rotor aircraft was evaluatid at the design 
+.ross weight of 12,000 lbs. with the nacelle-horizontal cen- 
+ter of gravity located at 28% chord (most aft center of gravi- 
+ty at this weight} . 
+
+.’no cun program consisted of pilot familiarization, hover mr,de 
+stuciies, transition mode studies, cruise mode studies, evaj.ua- 
+tion of maximum nacelle rates in transition and helicopter 
+flight mode studies. Salient findings and conclusions are as 
+follows : 
+
+1. An efficient cockpit design (instrument 
+panel layout and placement of primary 
+controls) is required to minimize pilot 
+workload during transition. 
+
+2. There is no "best wav " trimming the 
+Model 222 in transition and reconversion. 
+
+Since the pilot has a nacelle tilt cor.ti.ol, 
+it is possible to trim the aircraft at 
+many different combinations of ti)t angle, 
+and body attitude. 
+
+3. The Model 222 wr.s flown from hover to 
+maximum speed and back to a hover with 
+the stability augmentation system off. 
+
+4. The aircraft Is docile and easy to 
+control through transition and recon- 
+version. The changes made in the longi- 
+tudinal 3AS in the January 1973 proposal 
+
+
+I 
+
+
+
+
+j 
+
+
+i 
+
+1 
+
+
+1 
+
+
+I 
+
+
+
+I 
+
+
+
+
+
+2 
+
+
+and described in item (d) above could impact on 
+the docile transition and reconversion character- 
+istics on the 100 to 140 knot speed range. These 
+should be re-ev«luated by piloted simulation. 
+
+Relatively low rotor inertia requires careful design 
+and tailoring of the thrust a.nd power management 
+system to Insure precise altitude hold capability in 
+hover low speed flight modes. 
+
+The Model 222 *s longitudinal handling character- 
+istics in the cruise mode (nacelle horizontal and 
+SAS off) are satisfactory. The cruise mode lateral 
+directional evaluation showed a coupled roll/spiral 
+mode from the end of transition to maximum speed, and 
+high dihedral effect. These were annoying to the 
+pilot but easily controllable. These can be completely 
+eliminated by SAS feeding back roll rate into ruddor, 
+and sideslip angle into aileron. 
+
+The descent/deceleration/wing stall boundary in the 
+helicopter mode was i.nvest^gated. These preliminary 
+evaluations indicate that if the wing is allowed to 
+Ftall during steep approaches, the rate of descent 
+builds up rapidly and recovery close to the ground may 
+be difficult. It is fel" that insufficient cues in 
+the nudge base simulator (such as ch<? -.ges in noise 
+level and no buffet onset indication) and relative 
+pilot unfamiliarity with the vehicle are complicating 
+factors and additional pilot training and familiar- 
+ization would obviate any problem in this area. 
+
+With the wing leading edge umbrellas or with spoilers 
+open, descent capability is improved. It should be 
+noted that descent rates up to 1500 ft/min at low 
+speed have been achieved. 
+
+A preliminary evaluation of maximum nacelle til rates 
+in rapid acceleration transitions and reconversion' 
+was conducted. One rapid transition and reconversion 
+run was conducted with the nacelle tilt rate liriLed 
+to 5*/sec (nominal maximum value is 10*/sec) . The 
+pilot indicated that lower maximum rates might be de- 
+sirable in the high speed end of transition (100 KT 
+140 KTS) to minimize pitch attitude changes at these 
+conditions, while higher nacelle rates are acce ; cable 
+at lower speeds. Additional work is required i.n this 
+area to evaluate the desirability of establisning a 
+schedule of maximum nacelle tilt rates, and to optimize 
+control scheduling. 
+
+
+3 
+
+
+
+2.0 INTRODUCTION 
+
+
+Piloted simulation is a useful and important tool in the 
+design, development and test of new flight vehicles. Figure 
+1 shows a summary of some of these uses as they could be 
+applied to the Model 222 Tilt Rotor. 
+
+hi: a part of Contract NAS2-6598 Boeing Vertol developed a 
+uathematical model of the Model 222 Tilt Rotor aircraft, in- 
+tended primarily for use with the FSAA at Ames. As a further 
+adaition to the same contract Boeing Vertol programmed this 
+aath model on its hybrid computer and used it to drive the 
+Small Motion Base Flight Simulator for preliminary pilot eva- 
+luation of a tilt rotor aircraft. The results of this simula- 
++-xon are presented in this report. 
+
+
+4 
+
+
+
+7 
+
+
+v; 
+
+
+I 
+
+I 
+
+i 
+
+
+I 
+
+
+
+
+I 
+
+
+.1 ^ 
+i ? '/ 
+
+
+
+
+y 
+
+i 
+
+I 
+
+I 
+
+I 
+
+i 
+
+0 
+
+e 
+
+II 
+
+n 
+
+1 ! 
+
+
+1 ! 
+
+IJ 
+
+
+
+I, 
+
+I 
+
+1 
+
+
+
+• Evaluation of Tilt Rotor Handling Qualities 
+
+I 
+
+o Stability and Control j 
+
+o Control System Optimization 
+
+o Evaluation of Man-in-the-Loop System Compatibility 
+o Evaluation of Malfunction Effects 
+
+• Evaluation of Tilt Rotor Performance \ 
+
+I 
+
+o Maneuver Capability 
+
+o VTOL and STOL Takeoff and Landing Capability 
+
+I 
+
+! 
+
+• As a Tool to Evaluate Configuration Changes 
+
+I 
+1 
+
+Cockpit Layout i 
+
+Tail Size 
+Geometry 
+
+i 
+
+SAS Configuration i 
+
+I 
+
+Elastic Characteristics 
+
+i 
+
+I 
+
+I 
+
+• As a Flight Test Support Tool 
+
+o Development of Emergency Techniques 
+
+o Familiarization of Flight Crews with Aircraft 
+Characteristics Prior to Flight 
+
+o Correlation Studies 
+
+o Exploration of Flight-Discovered Phenomena 
+
+
+o 
+
+Changes 
+
+in 
+
+o 
+
+Changes 
+
+in 
+
+o 
+
+Changes 
+
+in 
+
+o 
+
+Changes 
+
+in 
+
+o 
+
+Changes 
+
+in 
+
+
+FIGURE 1. SUMMARY OF USES FOR PILOTED PLIGHT SIMULATION 
+
+
+; 
+
+
+
+
+I 
+
+i 
+
+
+■"1 
+
+
+5 
+
+
+
+
+I 
+
+! I 
+
+I '• 
+
+
+] ( 
+
+I 
+
+5 
+
+I i ' 
+
+I 
+
+
+! : 
+
+li 
+
+
+i 
+
+
+.X 
+
+V , 
+
+
+
+1 . 
+
+
+II 
+
+u 
+
+
+I! 
+
+f . 
+i 
+
+
+I 
+
+
+
+
+ii 
+
+
+11 
+
+G 
+
+
+
+! 
+
+I 
+
+1 
+
+
+
+3.0 AIRCRAFT DESCRIPTION 
+
+
+The Boeing Model 222 Tilt Rotor Research Aircraft is a three 
+place, twin turbine engine aircraft, with two rotors displaced 
+laterally and is designed to demonstrate “Proof of Concept** 
+for follow-on military or commercial tilt rotor airplanes. 
+Fo.gure 2 is a 3-view of the aircraft and provides the general 
+arrangement and salient dimensional data. It should be noted 
+that the aircraft simulated is tho March 1972 version of the 
+model, as described in Reference 1. The aircraft incorporates 
+two 1550 horsepower Lycoming T53-L-13B engines (modified) , each 
+driving a three-bladed , soft-in-plane hingeless rotor. The 
+rotors are interconnected by cross shafts, which transfer 
+single engine power to both rotors in the event of an engine 
+failure. Wing leading edge umbrellas, coupled with 30% chord 
+single-slotted flaps capable of 70° deflection, are used at 
+hover and low forward speed to minimize vertical drag or down- 
+load on the wing. These have been programmed to open or clo:.e 
+at a dynamic pressure corresponding to 50 KIAS, and a nacelle 
+angle of 75°. 
+
+Control of the Model 222 is accomplished utilizing rotor longi- 
+tudinal cyclic, differential cyclic, rotor thrust, and differ- 
+ential collective control in conjunction with airplane control 
+surfaces. The airplane control surfaces consist of elevator, 
+rudder and aileron/spoiler controls. The rotor controls pro- 
+vide the major portion of the control power at low speeds but 
+are phased out as a function of decreasing nacelle incidence 
+angle as speed increases and the airplane controls become re- 
+latively more effective. Figure 3 presents a summary of the 
+primary moment-producing controls for each of the three flight 
+modes . 
+
+
+In the version of the Model 222 used for this simulation, the 
+thrust vectoring effect of longitudinal cyclic is amplified 
+by providing a soft mounting for the nacelle in pitch so that the 
+hub moment generated by cyclic tilts the nacelles simultaneously 
+for longitudinal control and differentially for directional 
+control. Note that in later versions of the aircraft the same 
+effect is obtained by positive actuation of the nacelle. An 
+artificial feel system is provided which varies the control 
+feel forces about all three axes as a function of dynamic pres- 
+sure to improve control force harmony and provide desirable 
+levels of feel forces for handling qualities and flight safety 
+considerations . 
+
+
+On the Model 222, longitudinal cyclic is connected to the stick 
+for longitudinal control and to the pedals for directional 
+control. Both longitudinal and lateral cyclic are programed 
+with nacelle tilt to minimize pivot moments as part of the load 
+
+
+6 
+
+
+
+
+REPRODUCIBILITY OF THE ORIGINAL PAGE IS POOR. 
+
+
+
+7 
+
+POLDOUT FRAME 
+
+
+FIGURE 2 MODEL 222-1 TILT ROTOR RESEARCH A] 
+
+
+
+
+.. ll , 
+
+
+
+FLIGHT MODE 
+
+PRIMARY CONTROLS 
+
+Helicopter (Hover) 
+
+
+- Pitch 
+
+Longitudinal Cyclic 
+
+' 
+
+- Roll 
+
+Differential Collective ■ 
+
+- Yaw 
+
+Differential Longitudinal C^'clic j 
+
+1 
+
+Transition ! 
+
+1 
+
+- Pitch 
+
+Longitudinal Cyclic and Elevator ' 
+
+- Roll 
+
+Differential Collective, 
+Differential Longitudinal Cyclic, 
+Aileron and Spoiler 
+
+- Yaw 
+
+Differential Longitudinal Cyclic, 
+Differential Collective and 
+Rudder 
+
+i 
+
+Airplane i 
+
+' - Pitch 
+
+Elevator 
+
+i - Roll 
+
+1 
+
+Aileron and Spoiler 
+
+t 
+
+- Yaw 
+
+1 
+
+1 
+
+Rudder 
+
+
+NOTE: Airplane control surfaces are operative at all times. 
+
+
+FIGURE 3. FLIGHT CONTROL MIXING 
+
+
+8 
+
+
+
+
+
+
+
+alleviation system (LAS) . Roll control in hover is achieved 
+by differential collective pitch. Roll control in transition 
+utilizes phased differential collective pitch, differential 
+longitudinal cyclic and differential nacelle tilt in conjunction 
+with the spoilers and flaperons. 
+
+The rudder and elevator control surfaces are conventional. 
+
+Roll control surfaces in this simulation consist of upward- 
+operating semi-span spoilers, and downward-operation of the outboard 
+flaps. This permits use of more efficient single-slotted 
+flaps for low speed loiter in the cruise configuration and per- 
+mits reduction of yaw due to roll control input because of the 
+favorable yaw due to spoiler combine<-’ with the adverse yaw due 
+to aileron control. 
+
+The stability augmentation system (SAS) , used for this piloted 
+simulation study consists of a pitch, roll and yaw SAS. The 
+pitch SAS incorporates pitch rate, pitch attitude and longi- 
+tudinal stick pickoff feedback loops. The SAS moves the elevator 
+and longitudinal cyclic pitch actuators. Longitudinal SAS is . 
+
+used in hover and transition and is phased out in the cruise > 
+
+mode. The roll SAS consists of roll rate, roll attitude and a 
+lateral stick pickoff. These are phased out in the cruise \ 
+
+mode. A roll attitude hold mode is included to be used in the » 
+
+cruise configuration. The yaw SAS consists of roll rate, yaw : 
+
+rate and yaw attitude hold. These are phased out in cruise. ^ 
+
+The roll and yaw SAS's move both rotor and aerodynamic control ; 
+
+surfaces. | 
+
+The load alleviation system (LAS) utilizes longitudinal and i 
+
+lateral cyclic pitch feedback loops to zero out the rotor hub j| 
+
+moments . ^ 
+
+
+The thrust/collective pitch is controlled by throttle type 
+levers in the cockpit, which » in hover, command direc:;Iy both 
+engine power and collective pitch. The governor adjuircs the 
+collective pitch to maintain constant rpm. Overtravel of t .e 
+cockpit levers is provided beyond the normal maximum power 
+position. The overtravel is entered by passing through a gate 
+which shuts off the governor, so that in the overtravel position 
+the lever directly controls collective pitch only and can be 
+used just like a helicopter collective pitch lever to perform 
+a collective flare. The mechanical interconnect from thrust/ 
+collective lever to collective pitch is phased out during tran- 
+sition so that in cruise the pilot demands power only, and 
+pitch is governed to maintain rpm like a conventional propeller 
+airplane . 
+
+It should be noted that the aircraft simulated during this 
+program is not the same as described in Boeing Document D222- 
+10050, Volumes I to XII (Study of V/STOL Tilt Rotor Research 
+Aircraft Program - Phase I). The aircraft geometry is essentially 
+
+
+
+
+
+
+
+
+
+
+
+
+
+the same. Weights, inertias, aerodynamic data, load allevia- 
+tion and SAS configuration have been revised. While futu e 
+piloted simulation studies may yield 
+
+quantitative results, the qualitative results and trends should 
+be similar. 
+
+
+
+
+k M «•« 
+
+
+
+
+
+I 
+
+1 
+
+I 
+
+1 
+
+
+4.0 MATHEMATICAL MODEL DESCRIPTION 
+
+
+The mathematical model of the Model 222 Tilt Rotor aircraft 
+used to drive the Boeing Small Motion Flight Simulator (SMBFS) 
+is described in Volume VIII of this series of reports, and is 
+an eleven degree of freedom total force model. This model 
+includes the basic six degree of freedom rigid body outer 
+loop equations written about the instantaneous center of gravi- 
+ty with the inertial and aerodynamic terms included. The 
+rotor is treated as a point source of forces and moments with 
+appropriate response time lags and actuator dynamics. The 
+wing has one vertical bending and one v;inq torsion degree of 
+freedom. These structural degrees of freedom are treated on 
+a "quasistatic" basis; i.e., the natural frequencies of vibra- 
+tion of the structure are much higher than the frequencies of 
+the rigid body motion, and the coupling is in the aerodynamic 
+terms. Each nacelle has an independent pitch degree of free- 
+dom about the wing pivot. The aerodynamics of the wing, tail, 
+rotors, landing gear and fuselage are included. Wing and tail 
+mutual interference effects and turbine engine performance and 
+dynamic responses are represented. 
+
+The control system elements represented include pilot command 
+(longitudinal and lateral stick, pedals, nacelle position and 
+rate, power) , three-axis stability augmentation systems (SAS) , 
+thrust management system (includes rotor constant speed 
+governor) and a load alleviation system (LAS) . The LAS system 
+incorporates feedback to rotor cyclic and collective pitch for 
+purposes of improving stability, blade load reduction, gust 
+alleviation and increased damping of aeroelastic modes. Con- 
+trol system actuator dynamics are represented by appropriate 
+second order systems. Figure 4 is a summary of the salient 
+features of the mathematical model used for this study. 
+
+
+
+11 
+
+
+
+
+
+
+( 1 ) 
+
+
+Full Flight Envelope Capability with Total Force 
+Representation 
+
+
+(2) 6 Rigid Body Degrees of Freedom 
+
+
+(3) Independent Nacelle Pitch Degree of Freedom 
+
+
+(4) 2 Elastic Degrees of Freedom 
+
+
+(5) 1 Rotor Rotational Degree of Freedom 
+
+
+(6) Includes the Aerodyncm\ics of: 
+
+• Rotors 
+
+• Wings 
+
+• Rotor/Wing & Wing/Rotor Interference 
+
+• Fuselage 
+
+• Landing Gear 
+
+• Tail Surfaces 
+
+• Engines 
+
+
+(7) Control System Elements; 
+
+e Pilot Command 
+e SAS 
+
+e Load Alleviation System (LAS) 
+
+e Thrust and Power Management System 
+
+
+(8) Aeroelastic Representation 
+
+• Wing Vertical Bending 
+
+• Wing Torsion 
+
+• Nacelle Pitching Degree of Freedom 
+
+
+FIGURE 4. SALIENT FEATURES OF MATH MODEL 
+
+
+12 
+
+
+
+
+* 5 - 
+
+
+
+
+4 «• 1*^ 
+
+
+\; 
+
+♦ > 
+
+
+
+
+
+
+i 
+
+
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+
+5.0 DATA BASIS 
+
+
+The Model 222 aircraft used in this simulation study is de- 
+scribed in Reference 1. The data basis for this aircraft 
+was, for the most part, obtained using analytical methods. 
+
+These methods have been generally substantiated by test data 
+obtained from wind tunnel tests on similar tilt rotor con- 
+figurations. At the time input data for the simulation was 
+being prepared (June 1972) , there existed only a limited quan- 
+tity of wind tunnel test data on the actual Model 222 config- 
+uration. Although a comparison of these limited test results 
+v/ith the corresponding analytical data indicates favorable 
+agreement, it must be emphasized that the data base utilized 
+for the simulation is subject to modification pending the out- 
+come of further wind tunnel tests. In view of this, and the 
+differences in aircraft characteristics previously noted, it 
+should be borne in mind that pilot comments on handling 
+characteristics, flying qualities, and performance of the 
+Model 222, in future piloted simulation studies that incorp- 
+orate a more complete data base may yield small differences 
+in quantitative results although the qualitative results and 
+trends should be similar. 
+
+Rotor data used in the mathematical model were predicted from 
+four Boeing-developed computer programs. Hover and cruise 
+performance (thrust-power) were obtained using a propeller 
+performance analysis computer program (B-92) , which uses an 
+explicit vortex influence technique theory (Reference 5) . 
+Transition performance data, in-plane forces and moments and 
+cyclic pitch effects were estimated using computer program 
+DB8 (Ucfarcnce b) . This program uses strip theory, combined 
+with unsteady aerodynamic and non-uniform downwash to compute 
+aeroelastic '*otor loads. In-plane elastic rotor derivatives 
+(both static and rate) in axial flow were estimated using 
+computer program C41 (Reference 3) . Elastic rotor rate deri- 
+vatives in transition were estimated using computer program 
+C-49 (Reference 4) . Correlation with rotor test data is shown 
+in Volume VIII, Section 7 . 0 of this series of reports. Wing, 
+tail, fuselage and nacelle aerodynamics were estimated using 
+DATCOM (Reference 2), combined with increments and trends 
+derived from References 7 and 8. Rotor ground effects also 
+were obtained from Reference 7. Aircraft geometry, weights and 
+inertia are as specified in Reference 1. 
+
+
+13 
+
+
+i 
+
+
+% 
+
+
+1 
+
+
+I 
+
+
+
+
+
+
+7 
+
+
+
+
+% 
+
+
+
+
+! 
+
+
+6.0 FLIGHT SIMULATION FACILITIES DESCRIPTION 
+
+
+The Flight Simulation Facility is an integrated laboratory 
+complex for performing unmanned and piloted real-time flight 
+simulation studies of aircraft, control systems, and instru- 
+mentation concepts and configurations. It is comprised of two 
+laboratories, the Flight Simulator Laboratory and the Hybrid 
+Simulation Laboratory. These two laboratories are located in 
+separate buildings and are interconnected by electrical cabling. 
+
+Flight Simulator Laboratory 
+
+The Flight Simulator Laboratory contains a six degree-of- 
+freedom small motion base simulator, a pilot station equipped 
+with an adaptable instrument panel and a wide-range variable 
+flight control force-feel system, a cockpit-mounted out-of-the- 
+window collimated visual-simulation display, a visual simula- 
+tion scene generating system and associated interface, and 
+control and readout hardware. 
+
+
+The variable flight control force-feel system incorporates 
+actual aircraft flight controls modified to have load cells 
+at the points of pilot applied forces, and to be positioned 
+by hydraulic servo-actuators controlled by computer signals 
+developed from the load cell force signals and control posi- 
+tion feedback signals. Any desired relationship between pilot 
+effort and control position can be simulated. The system 
+offers high signal-to-noise ratios, and responds to forces 
+ranging from an ounce to more than a hundred pounds. The 
+visual display system presents the pilot with x bright colli- 
+mated out-of-the-window symbolic visual scene. The visual 
+scene is computer generated, offering both latitude in scene 
+content and an unconstrained flight path and maneuver cap- 
+ability. The generated scene is reproduced by a 600 line 
+black and white television system for viewing by the pilot 
+through a large collimating lens. The pilot's field of view 
+measures 38 degrees vertically by 53 degrees horizontally, 
+and had a depression angle of zero (0) degrees. 
+
+
+Small Motion Base Flight Simulator 
+
+Facility Description: The small motion base simulator provides 
+
+six-degree-of-freedom motion employing the relatively rigid 
+strut actuator concept. The small travels of the actuators 
+result in approximately uncoupled motion and deliver nudge- 
+type acceleration cues to the pilot of satisfactory validity. 
+Three of the six electro-hydraulic actuator struts are vertical 
+and three are horizontal. The Moog valves of the struts re- 
+spond to command signals generated from the mathematical model 
+programmed on the hybrid computing system. The cockpit is 
+equipped with a variable flight controls force-feel system and 
+
+
+i 
+
+
+
+I 
+
+J 
+
+
+4 
+
+
+
+
+1 4 /^ 
+
+
+
+
+14 
+
+
+
+a cockpit-mounted out-of-the-wii.viow collimated visual display 
+Figure 5 shows the external structural details of the motion 
+base and cab, and Figure 6 shows the internal arrangement of 
+the simulator cab. 
+
+Testing Capabilities: This facility permits a wide variety 
+
+of studies and pilot evaluations of aircraft hand] ing and 
+flying qualities, automatic and manual flight cont ol systems 
+and design criteria definition for the praid, economical, 
+manageable, and safe development of aircraft and aircraft 
+systems. The facility is particularly adapted to the study 
+of V/STOL aircraft because of its capability for providing 
+cockpit motion in slx-degrees-of-freedom. 
+
+
+Motion System Performance 
+Payload (including pilot) 
+
+Travel Limits (stop-to-stop total) ; 
+
+
+Vertical 5 in. 
+Longitudinal 5 in. 
+Lateral 5 in. 
+Pitch 13 deg 
+Roll 19 deg 
+Yaw 19 deg 
+Pitch Tilt 26 deg 
+
+
+770 lb 
+
+
+Rate Limits with Zero Acceleration: 
+
+
+Vertical 
+
+Longitudinal 
+
+Lateral 
+
+Pitch 
+
+Roll 
+
+Yaw 
+
+
++ 26 in/sec 
++ 41 in/sec 
++ 26 in/sec 
++ 69 deg/sec 
++ 97 deg/sec 
++155 deg/sec 
+
+
+Acceleration Limits for Zero Rates (incremental values) : 
+
+
+Vertical 
+
+Longitudinal 
+
+Lateral 
+
+Pitch 
+
+Roll 
+
+Yaw 
+
+
++ 64.4 ft/seej^ 
++ 35.4 ft/sec^ 
++ 28.9 ft/sec^ 
++ 248 deg/sec^ 
++ 414 deg/sec^ 
++ 745 deg/sec^ 
+
+
+During the piloted simulation effort, it was necessary to 
+tailor the motion system of the nudge base simulator. The 
+motion system required tailoring for the tilt rotor in the 
+vertical and longitudinal axes. The vertical acceleration 
+capability of the tilt rotor aircraft in cruise flight was 
+significantly higher than that of the other aircraft used to 
+
+
+15 
+
+
+REPRODUCIBILITY OF tHE ORIGINAL PAGE IS POOR. ' 
+
+
+
+
+1 
+
+
+16 
+
+
+
+
+
+
+7 
+
+
+
+
+establish the motion system dynamic characteristics. In order 
+to keep the simulator from hitting its motion limits, the ver- 
+tical axis gain was reduced. 
+
+The longitudinal acceleration capability of the tilt rotor 
+aircraft was also higher than the acceleration experiences in 
+helicopters. It was found that the long term cockpit tilt 
+used to represent longitudinal acceleration was very dis- 
+orienting to the pilot. In order to eliminate this disorienta- 
+tion, the cockpit longitudinal tilt due to acceleration was 
+attenuated by a factor of 4. 
+
+Visual Simulation System 
+
+The Visual Simulation System comprises two main subsystems: 
+the Image Generating System and the Visual Display System. 
+
+The image generation of a landing zone and horizon line are 
+provided by a high-speed repetitive operating analog computer. 
+This computer is part of the general purpose Hybrid Simulation 
+laboratory. The capability, therefore, exists for expansion 
+or adjustment of the visual scene to suit the customer's 
+simulation task requirements. A number of different visual 
+scenes have been used to date. One is the symbolic representa- 
+tion of a helicopter landing pad on a destroyer afterdeck. 
+
+This particular display is capable of handling up to four surf- 
+aces (i.e. upper deck, lower deck, etc.) plus horizon line 
+with perturbation of ship and aircraft motion. 
+
+The Visual Display Systems contains an Image Transfer Unit and 
+a Visual Display Unit. 
+
+The Image Transfer Unit has a closed-circuit television camera 
+looking at the face of a 5-inch oscilloscope through a beam 
+splitter. The display computed oy the Image Generating System 
+as time-varying X and Y signals produces an animated pictograph 
+on the scope which the camera converts into a video signal. 
+
+The video drives an 9-inch monitor at the camera station for 
+focusing and alinement reference, and a 14-inch monitor at the 
+test observer station. It also works the Visual Display Unit 
+consisting of a 23-inch television monitor attached to the 
+Flight Simulator cab behind a 16-1/2 by 22-1/2 inch plastic 
+collimating lens in the front window position. The pilot thus 
+views a bright, enlarged, infinity-focused picture through a 
+38-degree by 53-degree sighting aperture. Head-position paral- 
+lax is eliminated by the lens which lends an apperance of 
+real-world depth to the scene. To assist the pilot in per- 
+ceiving the picture as representing the outside world, a model 
+of an aircraft nose boom is mounted between the collimating 
+lens and the face of the 23-inch monitor. It appears in 
+realistic 3-D outside his window. A beam-splitter permits the 
+insertion of various instrument indications as a heads-up 
+display presentation in. the window. Lateral acceleration, 
+
+
+18 
+
+
+
+
+
+
+
+
+
+
+f 
+
+
+
+I 
+
+
+i 
+
+11 
+
+
+li 
+
+
+
+1 
+
+
+velocity and position/ and longitudinal velocity and position 
+indications have been provided in this manner. 
+
+Hybrid Simulation Laboratory 
+
+The Hybrid Simulation Laboratory consists of an IBM 360/44 
+digital coirputer system connected to five Applied Dynamics, 
+
+Inc. analog computers, providing capability for solving time- 
+critical problems. The Hybrid system is connected to the 
+limited-motion base flight simulator and includes a disc system, 
+magnetic tape units, data adapter units, processing unit, card 
+read/punch, printer, display stations and digital function 
+generators. 
+
+The Hybrid system combines the best operational features of 
+the analog and digital computers, thereby permitting system 
+simulation involving the interaction of several technologies, 
+such as flight control, aerodynamic performance, and vibratory 
+analysis. Hybrid simulations have the ability to run in real 
+time and include system parameters in a voltage analogy. This 
+permits inclusion of flight hardware and actual loop— closure 
+effects into system analysis. More sophisticated flight simu- 
+lations are realized on the ground, materially reducing in- 
+flight development programs and their attendant expenses. 
+
+
+
+if 
+
+
+
+
+
+
+
+
+
+19 
+
+
+
+
+
+
+* ' i 
+
+
+7.0 PILOT STATION DEFINITION 
+
+
+The cab of the Small Motion Base Simulator was configured to 
+represent the Model 222 aircraft. The configuration changes 
+included instrument panel modifications, design and fabrication 
+of the power lever/collective control and nacelle incidence 
+control, modification of the pilots force feel system to pro- 
+vide the proper breakout forces and gradients as a function 
+of dynamic pressure, and electro-mechanical limits placed on 
+stick and pedal travel to properly simulate maximum control 
+travels. Additional features include a magnetic brake on 
+stick and pedals and "back drives" on the primary controls to 
+provide initial control position trim in the cab. Although 
+there is only one seat in the cab, instruments and primary 
+controls were positioned such that the pilot flew as if from 
+the right seat, as in conventional helicopters. A summary of 
+Model 222 pilot station features are shown in Figure 7. 
+
+Instrument Panel Layout 
+
+The instrument panel of the simulator was modi'ied to represent 
+the Model 222 configuration. The standard "tee arrangement 
+of the primary flight instrument was retained and the location 
+of instruments unique to the Model 222 were defined after con- 
+sultation with the project test pilot. 
+
+Figure 8 is a photograph of the simulator control panel. In- 
+struments not labeled were not used for this simulation. 
+
+Nacelle angle, sideward speed and "g" meter were located on the 
+left side of the panel. Engine condition, rotor RPM, angle of 
+attack and flap position were grouped on the right side of the 
+panel. It should be noted, however, that as the test program 
+progressed, it became evident that the engine torquemeters are 
+more properly placed on the left side of the panel. Space 
+constraints precluded making this change in the simulator. 
+
+Transmission limits and normal rotor RPM positions were marked 
+on the appropi late instruments. Dual engine and single engine 
+transmission limits are indicated by red index marks on the 
+engine torquemeter dials. The dual engine transmission limit 
+was placed at 74% torque and the single engine limits at 97% 
+torque. Red index marks were placed at 100% and 70% rotor 
+RPM, the normal hover and cruise values. Since rotor RPM is 
+automatically scheduled as a function of nacelle angle, the 
+index marks merely provide an indication that the automatic 
+system is operational. 
+
+Primary Controls 
+
+The control stick and pedals in the simulator required no modi- 
+fication for the Model 222 simulation. Longitudinal stick 
+
+
+i 
+
+
+\ 
+
+
+\ 
+
+S' ^ 
+
+{ m 
+
+r 
+
+
+
+
+\ 
+
+% 
+
+
+20 
+
+
+
+»•/ 
+
+
+CAB INSTRUMENTATION: 
+
+
+Instrument 
+
+
+Vertical Situation Indicator 
+Horizontal Situation Indicator 
+Airspeed 
+
+Pressure Altimeter 
+Radar Altimeter 
+Rate of Climb 
+Turn and Bank 
+
+"g" Meter 
+Nacelle Angle 
+Clock 
+
+Sideward Velocity 
+Angle of Attack 
+Wing Flap Position 
+Rotor Speed 
+
+Engine Torque Meters (2) 
+
+PRIMARY FLIGHT CONTROLS 
+
+Stick (+6" Long.; +5" Lateral) 
+
+Pedals T+2.5") 
+
+Power Lever (0-*-8" Normal; 0-*-10" Emergency) 
+
+Nacelle Position Thumb Switch 
+
+MISCELLANEOUS EQUIPMENT AND FEATURES 
+
+Back Drives to Trim Stick and Pedals while in Initial 
+Condition (I.C.) 
+
+Landing Gear Up - Down Switch with Indicator Light , 
+
+SAS ON-OFF Switch 
+
+Detent Switches on Spring Cartridges (Pedals & Lateral Stick) 
+Magnetic Brake on Pedals, Long, and Lateral Controls 
+Long, and Lateral Beep Force Trim on Stick I 
+
+Power Lever Null Meter 
+Toe Brakes 
+
+Specified Force Feel System j 
+
+i 
+
+I 
+
+
+Range 
+
++90® Pitch and Roll 
++120® Heading 
+0 - 520 KIAS 
+0 10,000 Ft 
+
+0 1000 Ft 
+
++ 6000 FT/MIN 
++3 Needle Widths 
++1 1/2 Ball Widths 
+-1, +3 "g" 
+
+0 120 ° 
+
++ 40 Knots 
++ 20 ° 
+
+0 100 ° 
+
+0 125% 
+
+0 - 125% 
+
+
+FIGURE 7. MODEL 222 PILOT STATION FEATURE SUMMARY 
+
+
+21 
+
+
+
+FIGURE 8. SIMULATOR INSTRUMENT PANEL ARRANGEMENT 
+
+
+
+
+
+
+
+
+
+
+
+
+
+v; 
+
+
+
+
+y ' 
+
+
+
+
+
+1 
+
+[ 
+
+ii 
+
+1 : 
+
+i; 
+
+t 
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+
+I 
+
+
+travel was mechanically limited to 12 inches, lateral stick 
+travel was mechanically limited to +5 inches and pedal travel 
+was mechanically limited to +2.5 inches. A beep force trim 
+"hat" switch was mounted on the stick. This enabled the pilot 
+to zero out longitudinal and lateral stick forces and also 
+was used for precise trimming of the aircraft at cruise speeds. 
+
+A compromise beep trim rate of 1/2 inch/sec was used for most 
+of the test program. A magnetic brake, operated by a button 
+on the stick, was used to zero the stick and pedal forces 
+simultaneously. This was used primarily in the low conversion 
+speed range. Detents on the lateral stick and pedals were set 
+at +.050 inches. 
+
+The Model 222 Tilt Rotor uses a single lever to command the 
+power of both engines, and to provide collective pitch lead 
+in hover and transition with rotor speed controlled through a 
+governor. Rotor speed is programmed as a function of nacelle 
+incidence angle. Rotor speed is maintained at 551 RPM to a 
+nacelle angle of 45°. From 45° to 0°, the rotor speed is 
+linearly decreased to 386 RPM. A proportional thumb switch 
+with detent, breakout and gradient, mounted in the hand grip, 
+controls nacelle tilt. The power lever arrangement, shown in 
+Figure 9, is mounted on the left arm rest. This can be rotated 
+up for easier pilot entrance and exit. The power lever/collec- 
+tive control has a normal travel of eight inches (measured 
+horizontally at approximately the center of the hand grip) and 
+simulates the range of engine powers from flight idle to maxi- 
+mum power. For single or dual engine failures, direct pilot 
+control of collective pitch for a flare is provided by sliding 
+the power lever through a detent on the arm rest. This turns 
+off the rotor governor and transforms the power lever into a 
+collective lever. Two inches of overtravel (measured horizon- 
+tally) were provided in the simulator. There was essentially 
+no breakout or gradient (except that provided by friction) in 
+the power lever. 
+
+Stick and pedal breakout forces and gradients were developed 
+to meet the stick force per "g" requirements for satisfactory 
+flying qualities as specified in MIL-F-8785B (ASG) ; and to im- 
+prove control harmony amom, ^xes . Stick and pedal force gra- 
+dients are specified as a fuuc ion of dynamic pressure, with 
+the breakout forces constant. The breakout forces and gradients 
+used in the Model 222 simulation are shown in Figure 10 for 
+the longitudinal and lateral sticks and rudder pedals. 
+
+Two computer generated visual displays were available for use 
+during the test program. One is a symbolic representation of 
+a helicopter landing pad on a destroyer afterdeck. In this 
+display the body axis geometry is transformed through an earth 
+axis system to a point in the aircraft, with the result that 
+ship and aircraft motion are independently possible. This 
+can be used for the hover and near-hover mode. The other 
+
+23 
+
+
+i 
+
+i 
+
+i 
+
+
+
+
+
+
+
+
+
+1&7903 
+
+
+FIGURE 9. POWER LEVER/COLLECTIVE CONTROL FOR M222 SIMULATION 
+
+
+
+
+
+display is a symbolic representation of a road with telephone 
+poles on the side for reference. Mountains are provided in 
+the background. This is used primarily for cruise mode studies, 
+although it was used almost exclusively for the Model 222 
+simulator program. 
+
+Additional features of the cab included a landing gear up-down 
+lever with indicator light, toe brakes on the directional 
+pedals and SAS on-off switches. The simulator's primary con- 
+trols i.e., stick and pedals are back driven to an initial 
+trim position from signals computed in the mathematical model. 
+Initial power lever/collective control trim is accomplished 
+by the pilot by moving the lever until the power lever trim 
+indicator (null meter) is zero. The simulator can then be 
+"flown" by depressing the operate switch. While the simulator 
+is in operate, the backdrives are inoperative. 
+
+
+
+
+
+
+
+% > 
+
+
+8.0 SIMULATOR RUN PROGRAM 
+
+
+The run program developed for the Model 222 piloted simulation 
+was predicated on evaluating the full flight envelope, with 
+approximately equal emphasis on all flight modes. Since the 
+scope of this program was large, and the objective was to 
+evaluate the full flight envelope, there were some conditions 
+that were not evaluated in depth. These areas are note! in 
+Section 10 and are recommended as subjects for additional 
+work. The simulator run plan was as follows. 
+
+1 . Familiarization 
+
+a) General comments on cockpit layout 
+
+b) "Learn to fly" 
+
+2 . Hover Mode Studies 
+
+a) Height control capability 
+
+- adequacy of control 
+
+- precision of control 
+
+b) Longitudinal and lateral stick and pedal 
+pulses (from trimmed flight conditions) 
+
+c) SAS evaluation (evaluate on, off; rate, 
+attitude, LAS) 
+
+d) Control sensitivity 
+
+e) Control response to large inputs 
+
+- adequacy of respo.ise 
+
+- control coupling 
+
+f) Response in gusts 
+
+g) Engine out operation 
+
+3 . Transition Mode Studies 
+
+a) Slow acceleration and deceleration through 
+transition 
+
+b) Rapid acceleration and deceleration through 
+transition 
+
+c) Control sensitivity (roll, pitch and yaw) 
+
+d) Longitudinal and lateral stick and pedal 
+pulses (from trimmed flight conditions) 
+
+
+27 
+
+
+♦/ > 
+
+
+
+
+r-** im m* 
+
+
+e) SAS evaluation (evaluate on, off; rate, 
+attitude, LAS) 
+
+f) Control response to large inputs 
+
+- adequacy of response 
+
+- control coupling 
+
+g) Response in gusts 
+
+h) Flight path control (including low speed 
+climbs and descents) 
+
+- adequacy of control 
+
+- precision of control 
+
+i) Control sensitivity 
+
+j) Engine out operation 
+
+4. Cruise Mode Studies 
+
+
+a) Longitudinal, lateral stic)c and pedal pulses 
+(from trimmed flight conditions) 
+
+b) SAS evaluation (evaluate on, off; rate, 
+attitude, LAS) 
+
+c) Maximum acceleration and deceleration 
+
+d) Control response to large inputs 
+
+“ adequacy 
+- control coupling 
+
+e) Response to gusts 
+
+f) Climbs and descents 
+
+g) Engine out operation 
+
+5. Evaluation of Maximum Nacelle Rates in Transition 
+
+6. Evaluate Helicopter Flight Mode 
+
+Voice recorder, used part of the time, and 36 channels of 
+brush recorder data were obtained for each maneuver except 
+for the familiarization runs where only brush recorded data 
+were obtained. These will be retained for future reference. 
+
+
+28 
+
+
+9.0 PILOTED RESULTS 
+
+
+This section contains the pilot comments that were obtained 
+during the piloted simulation portion of this program. The 
+primary experience of the Tilt Rotor project pilot is in flying 
+helicopters. His experience in flight testing of V/STOL air 
+craft X 3 limited. Therefore, the comments presented herein 
+should be interpreted accordingly. During discussions held 
+prior to the start of this phase, the pilot was instructed to 
+be as critical as possible to enable the Tilt Rotor project 
+to define the significant problem areas. Although the Model 
+222 as simulated had generally acceptable stability and hand- 
+ling characteristics, the following modifications have been 
+incorporated as the result of the pilots comments presented 
+in this section. 
+
+e Hover control power and sensitivity have been 
+increased as follows: - 
+
+
+( 1 , 
+
+1 Axis jControl Sensitivity Rad/Sec 
+
+Control Sensitivity Rad/Sec^ 1 
+
+1 1 This Simulation 1 Current 
+
+This Simulation 
+
+Current 
+
+1 Pitchl .6 '1.2 
+
+.1 
+
+.2 
+
+j Roll 1 1.0 2.0 
+
+.2 
+
+.4 
+
+Yaw ! .5 .5 
+
+1 ! 1 
+
+.2 1 
+
+1 
+
+.2 
+
+
+e Lateral control power in transition and cruisr 
+was increased by using full spa.n ailerons and 
+spoilers compared to partial span ailerons and 
+spoilers used in this simulation 
+
+e Throttle sensitivity in the hover and low speed 
+flight modes was reduced. 
+
+e The governor was modified for improved response 
+
+e Representation of engine dynamics was modified 
+to more closelv match actual engine response 
+characteristics . 
+
+e Stability Augmentation System (SAS) refined. 
+
+The hover and low speed SAS gains and shaping 
+were modified to obtain improved response. 
+Cruise mode roll and yaw SAS feedback loops 
+were added to eliminate roll/spiral coupling 
+and to reduce the high dihedral effect. 
+
+
+
+
+
+
+
+
+I 
+
+e 
+
+I 
+
+I 
+
+I 
+
+I 
+
+1 
+
+i 
+
+
+
+
+
+1 
+
+
+I 
+
+
+« 
+
+
+» * 
+
+
+
+It should be noted that the above list is not all-inclusive, 
+but is provided to illustrate the importance of early piloted 
+simulation as an aid in the aircraft design. A further dis- 
+cussion of the piloted simulation results and pilot comments 
+is in Section 10. 
+
+These piloted studies were all conducted for an aircraft 
+gross weight of 12,000 lb with the center of gravity at 28% 
+chord (most aft CG at this weight) . Configuration details and 
+aerodynamic characteristics are as described in Roference 1 
+and summarized in Section 3.0. It is to be emphasized that the 
+aircraft simulated during this program is not the same as de- 
+scribed in Boeing Document D222-10050, Volumes 1 to 11 (Study 
+of V/STOL Tilt Rotor Research Aircraft Program - Phase I). 
+
+The aircraft geometry is essentially the same. Weights, 
+inertias^ aerodynamic data, load alleviation, and SAS configura- 
+tions have been revised. 
+
+The pilot comments are presented in the same Oi.der as shown in 
+the run plan. Generally where the size of the control inputs 
+is not noted, the pilot was attempting to put in 1-second 
+pulses (1 inch of control at low speed and 1/2 inch in the 
+cruise mode). 
+
+
+
+
+
+30 
+
+
+S.l FAMILIARIZATION 
+
+
+9.1.1 General Comments on Cockpit Layout 
+
+The following items were noted concerning the cockpit layout. 
+
+a. Nacelle tilt indicator is a primary flight 
+instrument and should be located near the 
+basic Tee. Rate of climb, airspeed, torque- 
+meter and nacelle tilt indicator should be 
+located on the same side of the basic Tee. 
+
+b. Nacelle tilt switch arrangement needs further 
+investigation. Switch position (cyclic stick 
+or thrust lever), direction of travel, force 
+gradient and breakout, proportional rate, 
+fixed rate beep or two rate beep need 
+evaluation. 
+
+9.1.2 "Learn to Fly" 
+
+Much time was spent in trying to determine the best way of 
+flying through transition. The aircraft is very toleranw of 
+a wide range of nacelle tilt angles and body attitudes. 
+
+The most comfortable or convenient combination may be selected 
+for the particular task to be performed. The operation of the 
+aircraft in the cruise mode is conventional. 
+
+During this period the following items were noted. 
+
+a. Operation with nacelle incidence above zero 
+
+at speeds above about 160 knots is undesirable. 
+Positive prevention of such operation should 
+be considered. An automatic up stop at 90 to 
+95® is desirable to facilitate reconversion. 
+
+Positive pilot action should be required to 
+go beyond this setting. 
+
+b. The mag. orake is too coarse to be used for 
+trim in the cruise range and should be locked. 
+
+
+31 
+
+
+
+
+9.2 HOVER MODE STUDIES 
+
+
+9.2.1 Height Control Capability in Hover 
+
+The height control capability of the Model 222 was evaluated 
+by performing a series of vertical climbs and descents to 
+specified altitudes. Adequacy and precision of control were 
+evaluated. The pilot comments for these maneuvers follow: - 
+
+
+Initial 
+
+Condition 
+
+HOVER 
+
+All SAS on (Roll, 
+pitch, yaw) . 
+
+Load Alleviation 
+System (LAS) on. 
+
+
+Maneuver 
+
+
+Pilot Comments 
+
+
+Perform rapid Difficult to control rate 
+climbs to 50', of climb with existing 
+150', and 250' power lever sensitivity, 
+altitude. Then The combination of high 
+descend rapidly throttle sensitivity and 
+from 250 'to poor external visual cues 
+
+150' to 50'. resulted in overshooting 
+
+target altitudes by as 
+much as 50 ' . A +10% torque 
+change in this maneuver 
+typically resulted in +1000 
+ft/min vertical rate. 
+
+
+As above but 
+at low verti- 
+cal rates and 
+50' increments 
+in altitude 
+
+
+This was a more natural 
+altitude change and was 
+much easier to control. 
+
+2 to 3% changes in torque 
+gave 200 to 300 ft/min 
+vertical rates. The 
+maneuvers were fairly well 
+controlled although the 
+power lever was still quite 
+sensitive. Pitch, roll, and 
+yaw were flown hands off and 
+these axes seemed well 
+stabilized. 
+
+
+Vertical control. Small altitude corrections 
+
+
+Small height 
+changes. Tas)c 
+was to hold al- 
+titude as 
+closely as 
+possible after 
+small changes 
+in altitude 
+were made. 
+
+
+were difficult to achieve 
+and the difficulty was com- 
+pounded by poor visual cues. 
+The slightest pressure on 
+the power lever was suffi- 
+cient to change altitude 
+by a few feet. The power 
+lever sensitivity was not 
+adequate for a precision 
+hover. Plus or minus 4 feet 
+was the best the pilot 
+could achieve. 
+
+
+32 
+
+
+Initial 
+
+Condition 
+
+
+Maneuver 
+
+
+Pilot Comments 
+
+
+Plus or minus 2 feet alti- 
+tude could be held with a 
+lot of work. Once trimmed, 
+the aircraft held fairly 
+well . 
+
+
+9.2.2 Control Pulses, SAS Evaluation and Control Sensitivity 
+in Hover 
+
+
+Control pulses (longitudinal, lateral stick and pedal), evalua- 
+tion of aircraft characteristics with various SAS and LAS feed- 
+back loops off, and control sensitivity were evaluated. Ilote 
+that the SAS evaluation was not a malfunction analysis nut an 
+evaluation of aircraft handling qualities with various compo- 
+nents inoperative. The pilot comments for these maneuvers 
+follow: - 
+
+
+Initial 
+
+Condition , Maneuver 
+
+HOVER - 
+
+SAS and Load Pitch Pulse 
+
+Alleviation 
+
+System (LAS) On 
+
+
+Roll Pulse 
+
+
+Yaw Pulse 
+
+
+HOVER - LAS On Roll Pulses 
+
+Roil Attitude 
+SAS Off 
+
+
+Pilot Comments 
+
+
+Aircraft behaves well, 
+returns to trim attitude 
+with no oscillation. Con- 
+trol sensitivity adequate. 
+
+Well behaved response. 
+Control sensitivity 
+adequate . 
+
+Well behaved response. 
+Control sensitivity ade- 
+quate. The yaw axis was 
+heavily damped and stopped 
+immediately when the pedal 
+input was removed. 
+
+Fairly long period, ( 20 
+
+sec), neutral, damped roll 
+oscillation 
+
+
+All Roll SAS Roll Pulses Slow roll divergence 
+
+Off 
+
+
+33 
+
+
+Initial 
+
+Condition 
+
+
+Maneuver 
+
+
+Pilot Comments 
+
+
+Pitch Attitude 
+SAS Off 
+
+
+All Pitch SAS 
+Off 
+
+
+Yaw SAS Off 
+
+
+HOVER-LAS Off 
+All SAS On 
+
+
+HOVER - LAS Off 
+Roll SAS off 
+
+
+Pitch Pulses - Pitch oscillation developed. 
+Nose Up Nose came up 10®, checked at 
+
+zero , then pitched down to 
+-5® attitude. Oscillation 
+was neutrally damped. 
+
+
+Pitch Pulses 
+Nose Down 
+
+
+Pitch Pulses 
+
+
+Yaw Pulses 
+
+
+Developed 3 degrees nose 
+down attitude on input. 
+
+A plus or minus 4 to 5 de- 
+gree neutrally damped 
+oscillation developed. 
+
+No significant change from 
+SAS on. Pitch axis slowly 
+divergent and oscillatory. 
+
+Not much inherent damping 
+in yaw although sensitivity 
+was good. Yaw axis cama 
+back to trim and went di- 
+vergent in the opposite 
+direction. This effect was 
+not repeatable and may be 
+a function of not getting 
+pedals back to trim. Feet 
+off pedals gave a left yaw 
+rate that required 1/8 inch 
+right pedal to check. Yaw 
+axis very lightly damped. 
+
+
+Pitch, Roll The pitch and roll axes 
+
+and Yaw Pulses looked about the saune. 
+
+The yaw axis again was 
+heavily damped and stopped 
+immediately when pedal in- 
+put was removed. There 
+were no apparent differences 
+LAS on and LAS off. 
+
+
+Roll Pulses Roll oscillations of 
+
+shorter period than with 
+LAS on, neutral to con- 
+vergent. Control response 
+was sluggish. 
+
+
+34 
+
+
+Initial 
+
+Condition 
+
+
+Maneuver 
+
+
+Pilot Comments 
+
+
+Pitch SAS Off 
+
+
+Yaw SAS Off 
+
+
+HOVER-All SAS 
+and LAS Off 
+
+
+HOVER-All SAS 
+Off, LAS On 
+
+
+Pitch Pulses 
+
+
+Yaw Pulses 
+
+
+Pulses about 
+all axes 
+
+
+Power changes had quite an 
+effect on pitch. The pitch axis 
+response to pulse inputs was 
+slowly divergent and not much 
+different from that with LAS on. 
+Response rather sluggish. 
+
+Sensitivity and response was 
+very similar to LAS on flight. 
+
+The aircraft was manageable. 
+There was some yaw-pitch coup- 
+ling present; right pedal gave 
+pitch down and left pedal gave 
+pitch up.* The longitudinal 
+stick trim position was more 
+forward than with SAS on. In 
+hands-off condition aircraft 
+was unstable with a tendency to 
+yaw left. SAS off control sen- 
+sitivity was adequate. 
+
+
+Pulses about 
+all axes 
+
+
+Nc significant change from 
+LAs off. 
+
+
+9.2.3 Response to Large Inputs in Hover 
+
+
+The response to large control inputs was evaluated. The pilot 
+comments for these maneuvers are shown below ;- 
+
+
+Initial 
+
+Condition Maneuver Pilot Comments 
+
+
+HOVER- SAS and 
+LAS On 
+
+
+Response to 
+large inputs 
+
+- Pitch 
+
+- Roll 
+
+- Yaw 
+
+
+A 2 inch longitudinal stick in- 
+put produced a 5 degree attitude 
+change. 2.5 inches of lateral 
+stick resulted in 15 degrees of 
+bank. Applied 2.5 inches of 
+pedal; response was well damped. 
+Adequacy of response difficult 
+to evaluate because of motion 
+cues . 
+
+
+*Note ; This is the result of engine inertial 
+
+coupling since both engines turn in the saune 
+direction. 
+
+
+35 
+
+
+. u 
+
+
+-13Pk‘ 
+
+
+Initial 
+
+Condition 
+
+HOVER-LAS On 
+Pitch SAS Off 
+
+
+Maneuver 
+
+Large inputs in 
+pitch, roll and 
+yaw 
+
+
+Yaw SAS Off 
+
+
+Large Inputs 
+
+
+Roll SAS Off 
+
+
+Large Inputs 
+
+
+Pilot Comments 
+
+Except for laiqer excur- 
+sions from trim pitch 
+attitude, response was 
+not very dirlurent fiom 
+SAS on. Roll inputs 
+resulted in a small 
+amount of pi ter. up. 
+
+Right pedal inputs caused 
+pitch down, left pedal, 
+pitch up. 
+
+Yaw war more responsive 
+than with SAS on. Vne 
+response was very sensi- 
+tive and inherent damping 
+was low. Yaw axis was un- 
+stable in hover. Pitch 
+inputs gave no coupling. 
+Roll inputs gave some 
+proverse transient coupling 
+
+Aside from roil instabi- 
+lity, roll response was not 
+very different from SAS 
+on. With full lateral 
+input, initial response 
+was the same as SAS on. 
+Sensitivity was low for 
+smaller inputs. Pitch 
+inputs gave no coupling. 
+
+Yaw inputs gave lateral 
+velocity and roll due to 
+dihedral effect. 
+
+
+9.2.4 Response to Gusts in Hover 
+
+The response of the Model 222 in random turbulence was studied 
+during this piloted evaluation. Pilot comments arc shown for 
+4 and 3ft/sec RMS turbulence. It should be noted ti at ti.os., 
+are .moderately severe random turbulence levels. 
+
+
+Initial 
+
+Condition 
+
+HOVER-All SAS 
+and LAS On 
+
+
+Maneuver 
+
+
+Pilot Comments 
+
+
+Evaluation of Attempted to hold alti- 
+
+response in gusts, tude at 95 feet. Used 
+RMS gust velocity rate of climb instru- 
+3ft/sec ment to hold altitude. 
+
+
+36 
+
+
+Initial 
+
+condition 
+
+
+HOVER-LAS , 
+SAS On 
+
+
+Maneuver 
+
+
+Pilot Comments 
+
+
+Torque varied between 33« 
+and 70% as commanded by 
+the pilot. Started at 93 
+feet altitude and ended up 
+at 195 feet. The task oi 
+changing altitude and trying 
+to stabilize was difficult 
+with this level of gust. 
+Acceleration cues really 
+needed to modulate power 
+successfully. 
+
+
+Evaluation of 
+response in 
+gusts. RMS 
+gust velocity 
+4 ft/sec 
+
+
+Flown with hands off on 
+pitch, roll, and yaw. The 
+vertical axis was very 
+difficult to hold. in 
+severe gusts pitch holds 
++5 degrees, roll holds +3 
+degrees, yaw v'as pretty 
+much locked on. It was 
+impossible to trim out at 
+any particular altitude. 
+Power was 50% for hover 
+plus or minus 20% to hold 
+altitude. Rate of climb 
+went t300 feet per minute 
+and occasionally to +1000 
+feet per minute. Rotor 
+RPM held well. 
+
+
+9.2.5 Engine Out Operation in Hover 
+
+
+During this maneuver, one engine was failed with the aircraft 
+in a steady hover, to evaluate the engine out landing capability. 
+The pilot comments are noted below. 
+
+Initial 
+
+Condition Maneuver Pilot Comments 
+
+
+HOVER- All SAS On 
+and LAS On 
+
+
+Single engine 
+failure from 
+loo ft. 
+
+
+Develops lOOOft/min rate of 
+descent in about 1 sec 
+after failure. Starting at 
+80 ft of altitude, use of 
+forward throttle into over- 
+travel region, checked de- 
+scent at 40 ft. 100 ft/min 
+rate of climb obtained at 
+full forward throttle. 
+
+
+37 
+
+
+Initial 
+
+Condition 
+
+
+Maneuver 
+
+
+Pilot Conun^nt 
+
+
+Detent position on throttl 
+checked rate of descent to 
+500 feet per minute. rra.. 
+sient following failuie i. x 
+
+
+9.3 TRANSITION MODE STUDIES 
+
+
+9.3.1 Slow and Rapid Acceleration and Deceleration Through 
+Transition 
+
+
+Slow and rapid accelerations and decelerations were evaluated. 
+These were conducted with the stability augmentation and the 
+load alleviation system on. During the pilot familiarization 
+portion of this program, the pilot flew a slow acceleration 
+through transition to 150 knots and back to hover with the SAS 
+and LAS inoperative. He stated that it required considerable 
+pilot effort and attention. It should be noted that this 
+situation (all SAS and LAS off) would require several malfunctions 
+in the automatic stabilization system because of the dual and/ 
+or triple redundancy. The pilot comments of the slow and rapid 
+acceleration and deceleration characteristics of the Model 222 
+through transition with the SAS and LAS on, follow. 
+
+
+Initial 
+
+Condition Maneuver Pilot Con'ur.ents 
+
+HOVER-All SAS Slow acceleration Difficult to control alti- 
+
+on LAS On from hover to tude. The motion-base 
+
+airplane flight postural tilt gave decep- 
+tive motion cues. Other- 
+wise docile. 
+
+Rapid acceleration Strong pitch-down motion 
+from hover to air- aggravated by postural 
+plane flight tilt makes this maneuver 
+
+difficult. Full aft stick 
+was required to hold alti- 
+tude near zero . 
+
+Rapid deceleration Requires considerable tech- 
+from cruise nique. With a fixed-rate 
+
+nacelle tilt control there 
+was a tendency to overshoot 
+on required nacelle angle. 
+
+As minimum power speed was 
+approached rate of climb 
+was controlled with pitch 
+attitude. Upon reaching 
+minimum power speed prompt 
+use of throttle was required 
+to prevent a sharp increase 
+in descent rate. 
+
+Slow deceleration No difficulty encountered, 
+from cruise Close control of altitude 
+
+required. 
+
+
+39 
+
+
+9.3.2 Control Sensitivity and Aircraft Response to Longitu- 
+dinal Stick » Lateral Stick and Pedal Pulses in Transition 
+
+Control sensitivity and aircraft response to longitudinal stick, 
+lateral stick and pedal pulses in transition were evaluated for 
+20 knot intervals through transition. 20, 80 and 120 knots have 
+been selected as the conditions to show the pilot comments, 
+ihe stability augmentation system (SAS) and load alleviation 
+lystem were in operation. The pilot comments for these maneu- 
+vers follow. 
+
+Initial 
+
+-ondition Maneuver Pilot Comir.ents 
+
+
+V=20 Knots Pitch Pulses 
+
+Nacelle Angle Pitch Up 
+-85* 
+
+All SAS & LAS On 
+
+Pitch Down 
+Roll Pulses 
+
+
+Pedal Pulses 
+
+
+V=80 Knots Pitch Pulses 
+
+Nacelle Angle 
+=60* 
+
+Pitch Attitude 
+=4* 
+
+All SAS & LAS On 
+
+
+Roll Pulses 
+
+
+Pedal Pulses 
+
+V=120 Knots Pitch Pulses 
+
+Nacelle Angle 
+= 20 * 
+
+All SAS i LAS On Roll Pulses 
+
+Pedal Pulses 
+
+
+3° attitude c'.aage and a 
+return to trim following 
+a 5® overshoot 
+
+Same as pitch up pulse 
+
+Same as the response in 
+hover 
+
+Same as the response in 
+hover 
+
+Pitch - less apparent pitch 
+response, due to higher 
+stick forces. There was 
+more damping than at 20 
+knots. Sensitivity of the 
+response a bit sluggish 
+with the higher damping. 
+
+Aircraft rolls to a bank 
+angle and holds well. 
+
+Some small sideslip angle 
+develops. 
+
+Aircraft is hlc.-.iy damped. 
+
+Response well damped and 
+sluggish, similar to 80 kts 
+Control response was adequate. 
+
+Roll response seems better 
+with good bank angle hold. 
+
+Response was a little weak, 
+with high dihedral effect. 
+
+
+40 
+
+
+
+
+
+9.3.3 SAS Evaluation in Transition 
+
+'ihc response of the Model 222 to various SAS configurations in 
+
+
+transition was evaluated at 80 
+•presented below. 
+
+Initial 
+
+Condition Maneuver 
+
+-jO Knots Pitch Pulses 
+
+LAS On 
+
+'.cll & Yaw SAS 
+On 
+
+Pitch rate and 
+longitudinal 
+•Jtick pickoff on, 
+pitch attitude off 
+
+Same as above Pitch Pulses 
+
+with pitch rate 
+feedback off 
+LAS On 
+
+Same as above Pitch Pulses 
+
+All pitch SAS 
+Off, LAS On 
+
+
+Same as above. Pitch Pulses 
+LAS Off 
+
+
+V*80 Knots Roll Pulses 
+
+LAS On 
+Pitch & Yaw 
+SAS On , 
+
+Roll -ttitude hold Off 
+
+Same as above Roll Pulses 
+
+with rate and 
+attitude roll 
+SAS Off, LAS On 
+
+
+knots. The pilot comments are 
+
+
+Pilot Comment 
+
+Trimmed at CO-’ na;elle inci- 
+dence, 5° pitch attitude, and 
+40% torque. The pitch axis v/as 
+convergent and returns to trim 
+in about 2 seconds with a 1.5 
+degree overshoot. Pitch damp- 
+ing was high. 
+
+
+Pitch response onl^ slightly 
+less stable but still convergent 
+
+
+There was an apparent degrada- 
+tion of sensitivity without the 
+pickoff. Pitch response had a 
+small overshoot and developed 
+a convergent long period oscil- 
+lation. 
+
+Longitudinal st.:k trim moved 
+1/2 to 3/4 of an inch more 
+forward. One inch pitch pulse 
+generated 3-4 degrees of atti- 
+tude. Long period oscillation 
+developed with longer period 
+than LAS on case. The pitch re- 
+sponse generally very similar 
+to LAS on case. 
+
+Input genera Peu 7-S degrees of 
+bank angle with a very slow 
+return to trim. Roll contrcj. 
+sensitivity seemed low. 
+
+
+The basic aircraft had good 
+roll response. Poll rate 
+damped out reasonably well 
+with a very slow return to 
+trim. 
+
+
+
+
+Initial 
+
+Condition Maneuver 
+
+LAS On Roll Pulses 
+
+Roll SAS Off 
+
+
+Same as above Roll Pulses 
+LAS Off 
+
+
+80 Knots LAS On 
+Roll and pitch 
+SAS On 
+
+Yaw attitude 
+hold off 
+
+Pedal 
+
+Pulses 
+
+Same as above 
+Yaw SAS Off 
+Roll into Yaw 
+SAS Function 
+On 
+
+Pedal 
+
+Pulses 
+
+Same as above 
+all Yaw SAS Off 
+
+Pedal 
+
+Pulses 
+
+Same as above 
+LAS Off 
+
+Pedal 
+
+Pulses 
+
+
+Pilot Comment 
+
+Roll response was highly damped 
+and similar to SAS on i.e./ 
+sluggish 
+
+Roll response similar to LAS 
+on case above. Slight roll 
+angle overshoot and a slow 
+return to trjm. 
+
+Response was stiff and highly 
+damped to pedal inputs and also 
+very sluggish. Pedal forces 
+were unexplainably high lor this 
+case. (Force feel system 
+malfunction) 
+
+Pedal pulses generated 2 cycles 
+of fishtailing with high pedal 
+forces again. (Force feel 
+system malfunction) 
+
+
+Same response as above 
+
+
+Similar to LAS on case above. 
+No apparent change in yaw re- 
+sponse occurred with LAS off. 
+
+
+5*3*^ Control Response to Large Inputs in Transition 
+
+
+Aircraft respon.se characteristics to large inputs were eva- 
+luated and found to be similar to small input responses except 
+for amplitude. 
+
+9.3.5 Aircraft Response to Gusts in T r ansition 
+
+The response of the Model 222 to random turbulence at 80 )cnots 
+in transition was evaluated. An RMS gust value of 4 ft/ sec was 
+used. The pilots comments are noted below. 
+
+
+Initial 
+
+Condition Maneuver Pilot Comments 
+
+
+V«80 Knots 
+All SAS On 
+LAS On 
+
+
+Response to Holding vertical airspeed was 
+a RMS gust the only problem. Held rate 
+of climb with pitch attitude. 
+
+
+42 
+
+
+V/ 
+
+* J 
+
+
+Initial 
+
+Condition 
+
+
+Maneuver 
+
+Same as above, 
+hands off 
+
+
+Pilot Comments 
+
+Pitch and roll attitude 
+disturbances averaged about 
++ 1 degree from tri... Air- 
+speed varied about +5 knots 
+from trim. Rate of climb 
+varied +500 ft/min about turn. 
+
+
+9.3.6 Flight Path Control Evaluation in Transition 
+
+
+Flight path control capability of the Model 222 was evaluated 
+for several conditions. The pilots comments for these maneuvers 
+is noted below. 
+
+
+Initial 
+
+Condition 
+
+V»230 Knots 
+3000 ft alti- 
+tude All SAS On 
+LAS On 
+
+
+Same as above 
+but with maxi- 
+mum nacelle 
+beep rate set 
+at 5*/sec for 
+transition 
+
+V«60 knots 
+SAS On LAS On 
+7 0** Nacelle 
+incidence 
+
+
+Maneuver 
+
+Decelerate to 
+160 knots, 2500 ft 
+of altitude after 
+a 90** heading 
+change , then 
+stabilize on a 
+500 ft/min rate 
+of descent, and 
+decelerate through 
+transition to hover 
+at 1000 ft alti- 
+tude. 
+
+
+Same as above 
+
+
+Investigate rates 
+of descent and 
+maneuverability 
+
+
+Pilot Comments 
+
+Decelerated to 150 knots 
+with no difficulty and 
+brought nacelles up to 
+25 degrees incidence. At 
+100 knots altitude or rate 
+of climb required pilot 
+attention. Stabilized 
+on a 500 ft/min rate of 
+descent at 120 knots and 
+continued to beep nacelles 
+up reaching 80 knots withoi:; 
+difficulty. Failed to 
+apply power and lost con- 
+trol at approximately 80 
+degrees nacelle incidence. 
+
+Decelerationthrough transi- 
+tion accor.piished with a 
+gain in altitude of 100 to 
+200 ft. Lower maximum 
+nacelle rates would be de- 
+sirable at the high speed 
+end of transition. 
+
+Set up a rate of descent 
+of 500 ft/mxi ut 35% torque 
+(40% required for level 
+flight) . Banked aircraft 
+to 15** and obtained 700ft/ 
+min rate of descent. 
+
+Banked aircraft to 20° 
+and obtained 1000 ft/min 
+rate of descent. 
+
+
+43 
+
+
+V 
+
+
+
+
+Initial 
+
+Condition 
+
+
+Maneuver 
+
+
+Same as 
+above at 
+65 Knots 
+
+
+Wings-level , 
+partial power 
+rates o£ de- 
+scent 
+
+
+Decreasing 
+
+Power 
+
+
+Pilot Conuneni-s 
+
+Aircraft was well behaved. 
+Leveled ofl and reduced power 
+to maintain iOOO ft/min descent, 
++2 degree long period pitch 
+oscillation developed. 
+
+Attempted a 1500 ft/min rate 
+of descent unsatisfactorily. 
+Lost control after pitch down, 
+due to wing stall and failure 
+to apply power. 
+
+Trimmed at zero rate of climb, 
+
+65 knots, 5 deg. angle of 
+attack, 2600 ft altitude. 
+Recorded aiiglc of attack, vs 
+rate of descent as follows: 
+i_j^g 10 deg '3 500 ft/min 
+
+15 deg @ 1200 ft/min 
+
+18 deg @ 1500 ft/min 
+
+Lost control after pitch- 
+down due to wing stall. 
+
+
+90 Knots, SAS 
+On, LAS On, 45® 
+nacelle inci- 
+dence 37% torque 
+and 6.5® pitch 
+attitude at 
+zero rate of 
+climb 
+
+
+Achieve rates 
+of descent 
+in 500 ft/min 
+increments by 
+reducing power 
+
+
+Reached 500 ft/min descent 
+at 90 knots, 4® pitch atti- 
+tude 7.5 degrees angle of 
+attack and 30% torque with 
+no difficulty. 
+
+A descent of 1000 ft/mxn was 
+obtained at 2''% torque, 7 
+degrees angle of attack, and 
+1 degree pitch attitude. 
+
+A 1500 ft/min yielded 10 de- 
+grees angle of attack and 
+-2 degrees pitch atritude 
+(nose down) . 
+
+A 2000 ft/min rate of descent 
+required an angle of attack 
+of 1? degrees. 
+
+Pilot elected to oo to 
+4000 ft/min rate of descent 
+and noted increased nose 
+down attitude re ;uired to 
+utaintain airspeed. 
+
+
+
+
+-j. 
+
+
+44 
+
+
+
+
+Initial 
+
+Condition Maneuver 
+
+80 Knots, SAS Same as above 
+
+On, LAS On, 
+
+5“ Pitch atti- 
+tude 6“ angle 
+of attack, 
+and 37% torque 
+60 degree nacelle 
+incidence 
+
+
+40 Knots S^S On, Same as 
+LAS On, 80 degrees above 
+nacelle incidence, 
+
+5 degrees pitch 
+attitude, and 
+zero rate of 
+climb 
+
+
+Pilot Comments 
+
+The following trim rates of 
+descent were flown: 
+
+500 ft/min 2° pitch atti- 
+tude and 6 degrees angle 
+of attack 
+
+1000 fu/min §1° pitch atti- 
+tude and 10 degrees angle 
+of attack 
+
+1500 ft/min @ 0° (level) 
+pitch attitude and 14 
+degrees angle of attack 
+A 2000 ft/min point was flown. 
+
+The following trim rates of 
+descent were flown at the 
+listed conditions: 
+
+500 ft/min P 4° angle of 
+attack 
+
+1000 ft/min at 4° angle of 
+attack 
+
+1500 ft/min at 18° angle of 
+attack and 50 knots. 
+
+A slight pitch oscillation 
+developed at 1500 ft/min and 
+50 knots airspeed. 
+
+
+!■ 
+
+
+9.3.7 Engine Out Operation in Transition 
+
+
+Engine failures in transition were not evaluated per se. The 
+effect of reducing power is adequately covered in Section 
+9.3.6. Powers used were less than available with a single 
+engine. The engine out transients and the ability to control 
+altitude precisely at low speed (near hover) with single engine 
+power were not evaluated. These should be evaluated at a later 
+date . 
+
+
+
+
+
+
+
+
+9.4 CRUISE MODE STUDIES 
+
+
+9.4.1 Longitudinal Stick, Lateral Stick and Pedal Pulses in 
+Cruxse 
+
+
+This section presents the pilot comments obtained from control 
+pulses in the cruise mode. Responses to longi'cudinal stick, 
+lateral stick and pedal pulses were examined over a range of 
+speeds from 140 knots to 260 knots. The simulated aircraft 
+does not have cruise SAS. These studies were all conducted with 
+the load alleviation system (LAS) on. The pulses in cruise 
+were generally 1/2 inch for 1 secend. Pilot comments for these 
+studies are presented below. 
+
+
+Initial 
+
+Condition Maneuver Pilot Comments 
+
+
+Control re- Trim 
+
+sponse charac- 
+teristics at 140 Pitch Pulses 
+knots. Pitch Nose Up 
+
+attitude=6 . 5° 
+
+Torque = 35% Nose Down 
+
+
+Difficult to trim in roll - tends 
+to fall off 
+
+Reasonably well damped and 
+returns to trim 
+
+Well damped and returns to trim 
+
+
+Roll Pulses 
+
+Left Roll Rolled 5 or 6 degrees with a 
+
+very slow return to trim 
+
+Right Roll Rolled 5 degrees with a very 
+slow return to trim 
+
+
+Pedal Pulses Yaw rate reasonably well damped. 
+
+Dihedral effect apparent and 
+symmetrical . 
+
+
+Control re- Pitch Pulses 
+
+sponse charac- Nose Up 
+teristics at 
+160 knots. 
+
+Pitch atti- 
+tude =5° 
+
+Torque =40% 
+
+Nose Down 
+
+Roll Pulses 
+Left Roll 
+
+
+Pitched up 5°, overshot to 2 ° 
+below trim attitude. Developed 
+a very slow convergent pitch 
+oscillation indicates poor trim- 
+ability. Pitch oscillation not 
+noticed at 140 knots. 
+
+Same characteristics i.e. - 
+reasonably symmetrical. 
+
+Reached 10° bank angle and 
+developed slight sideslip and 
+slowly returned to zero bank 
+angle with very long period. 
+
+
+46 
+
+
+Initial 
+
+Condition 
+
+
+Maneuver 
+
+
+Pilot Conments 
+
+
+Roll Pulses 
+Right Roll 
+
+
+Pedal Pulses 
+
+
+Control re- Trim 
+
+sponse character- 
+istics at 180 
+
+knots. Pitch Pitch Pulses 
+
+attitude = 3.5® 
+
+Torque = 42% 
+
+LAS On 
+
+
+Roll Pulses 
+Left Roll 
+
+
+Right Roll 
+Pedal Pulses 
+
+
+Control re- Pitch Pulse 
+
+sponse character- Nose Up 
+istics at 200 knots. 
+
+Trim pitch atti- 
+tude = 1.5° 
+
+Torque = 50% 
+
+LAS On 
+
+
+Nose Down 
+
+
+Roll Pulses 
+Left Roll 
+
+
+Symmetrical roll response. In- 
+puts essentially h ands off i.e. 
+no pitch inputs . 
+
+Input generated a 3 needle width 
+yaw rate. Aircraft rolled 20 
+degrees after input. The yaw 
+axis was well damped with a 
+slight overshoot and slightly 
+oscillatory . 
+
+Difficulty in attaining trim. 
+Aircraft was sensitive to rate 
+of climb with pitch attitude. 
+
+Very slight oscillation that 
+was more noticeable for nose 
+down inputs . There was a very 
+slowly divergent long period 
+oscillation. 
+
+
+Reached 10° bank angle and gene- 
+rated a little bit of sideslip 
+that returned to zero slip. 
+
+Symmetrical response. 
+
+Inputs generated 2 needle width 
+yaw rates. Dihedral effect 
+drove bank angle to 15° right 
+for right inputs and 10° left 
+for left inputs. 
+
+
+Input excited a pitching oscilla- 
+tion of long period, plus or minus 
+a couple of degrees attitude, 
+plus or minus 5 knots airspeed, 
+plus or minus 500 to 800 ft/min 
+rate of climb. Long period seemed 
+neutrally damped. 
+
+Input gave . 4g ' s , response 
+similar to nose up input. 
+
+
+Achieves bank angle and slowly 
+returns to zero bank 
+
+
+47 
+
+
+
+
+
+
+Initial 
+
+Condition Maneuver 
+
+Roll Pulses 
+Right Roll 
+
+
+Yaw Pulses 
+
+
+Beep Trim 
+
+
+Control re- Pitch Pulses 
+
+sponse charac- Nose Up 
+teristics at 
+
+255 knots* Trim Nose Down 
+
+pitch attitude 
+
+= 1 ® 
+
+Torque = 58% 
+
+LAS On 
+
+Roll Pulses 
+
+
+Yaw Pulses 
+
+
+Control re- Pitch Pulses 
+
+sponse charac- Nose Up 
+teristics at 
+260 knots. 
+
+Trim pitch atti- 
+tude = 0.0® 
+
+Torque = 75% 
+
+LAS On 
+
+
+Pilot Comment 
+
+
+Similar to left input. Heavily 
+damped oscillatory response 
+with first peak nose left. 
+
+Similar to response at 180 kts . 
+single needle width rate gene- 
+rated 10 degrees of bank angle. 
+
+Vernier beep response was too 
+slow for rolx beep inputs. Be- 
+cause of the difficuly of trim- 
+ming in roll there was a ten- 
+dency to over control. The ten- 
+dency to overcontrol existed 
+when the stick wasused for ver- 
+nier control . 
+
+
+Input generated .4g's and pitch 
+attitude of 4 degrees 
+
+Input generated at 2 to 3 de- 
+grees attitude change with a 
+4 degree trim overshoot. Phugoid 
+slowly damped out. 
+
+Initial response was non-oscilla- 
+tory and damped out and returned 
+to trim slowly. 
+
+A 1 needle width rate banked 
+aircraft 10 degrees and was 
+symmetrical . 
+
+
+Input generated .4g's, 3 to 3.5 
+degrees pitch attitude chanc 
+and returned to trim, slight 
+undershoot in rate of descent 
+to 300 ft/min. Airspeed changed 
+about 5 knots. Total airspeed 
+variation was plus 2 kts to minus 
+4 kts . 
+
+
+
+
+Nose Down Input was .5g's, 3 degree attitude 
+
+generated 1000 ft/min rate of 
+descent. Returned to trim and 
+overshot to 500 ft/min rate of 
+climb. Long term phugoid of +2 
+knots and +1 degree pitch attF- 
+
+
+
+Initial 
+
+Condition 
+
+
+Maneuver 
+
+
+Pilot Conunents 
+
+
+Roll Pulses 
+Left 
+
+
+Pedal Pulses 
+Right Pedal 
+
+
+Left Pedal 
+
+
+Repeat Inputs 
+Right 
+
+
+Left 
+
+
+Input generated 10° bank angle 
+that came back to 5 degrees rathe 
+quickly, follov/ed by slow return 
+to 4 degrees , the aircraft re- 
+mained at 4 degrees. 
+
+
+Generated a 1 needle width yaw 
+rate, 10 degree right bank, 
+then a 10 degre e left bank which 
+was well coordinated and drifted 
+to 13 or 14 degrees left bank 
+
+Developed left roll angle. 
+Asymmetri : response attributed 
+to being out of trim. 
+
+
+Generated i needle width rate 
+and 15 degrees of bank, then 
+returned. 
+
+Generated 1 needle width rate 
+and 8 degrees of bank, then 
+returned. 
+
+
+9.4.2 SAS Evaluation in Cruise 
+
+Since the simulated aircraft does not have a cruise stability 
+augmentation system, aircraft response to longitudinal stick, 
+lateral stick and pedal pulses were evaluated with the load 
+alleviation system (LAS) off. These runs were conducted at 
+140, 180, and 260 knots. The load alleviation system simulated 
+zeros out the rotor hub moments. The pulses in cruise were 
+generally 1/2 inch for 1 second, except where noted. Pilot 
+comments are shown below for these maneuvers. 
+
+
+Initial 
+
+Condition 
+
+Control re- 
+sponse charac- 
+teristics at 
+140 knots. LAS 
+off - Trimmed 
+at 5.5° pitch 
+attitude. 
+Torque » 35% 
+
+
+Maneuver 
+
+Pitch Pulses 
+Nose Up 
+
+
+Pilot Comments 
+
+Pitched up 2 to 3 degrees , re- 
+turned to trim and undershot. 
+
+No tendency to diverge and re- 
+turns to trim airspeed and piten 
+attitude well. 
+
+
+49 
+
+
+Initial 
+
+Condition Maneuver 
+
+Pitch Pulses 
+Nose Down 
+
+
+Roll Pulses 
+
+
+Pedal Pulses 
+
+
+Control re- Pitch Pulses 
+
+sponse charac- Nose Up 
+teristics at 
+180 knots. LAS 
+off 
+
+Trimmed at 3® 
+pitch attitude 
+Torque 43% 
+
+Nose Down 
+
+
+Roll Pulses 
+Left Roll 
+
+
+Right Roll 
+
+
+Control re- Pedal Pulses 
+
+sponse charac- 
+teristics at 260 
+knots. LAS Off 
+Trimmed at 0® 
+pitch attitude 
+and 75% torque 
+
+
+Pilot Comments 
+
+
+Pitched down 2.5 degrees, nose 
+up overshoot with a very slight 
+airspeed change and returns to 
+trim well. 
+
+Very sluggish in roll for 1 inch 
+inputs with a slight tendency 
+for long period roll oscillation. 
+
+Sluggish resp< nse with strong 
+dihedral effect. A 1 needle 
+width rate generates 8 degrees 
+of bank angle. 
+
+Generated 3 degree attitude change 
+with slow return. Airspeed fell 
+to 160 knots. Neutrally damped 
+long period between 180 and 160 
+kts . Attitude excursion reached 
+max. nose up 7 deg. possibly due 
+to mis trim. 
+
+Pitched down 3 deg. from trim 
+and gained 10 kts airspeed, pitch 
+attitude returned through trim 
+and reached 5® nose up, airspeed 
+dropped to 170 knots +10 knot 
+oscillation about trim. 
+
+
+Aircraft continued to roll after 
+rnmcval of input. Tendency to 
+spiral instability. 
+
+Response was symmetrical. Roll 
+response was sluggish and diffi- 
+cult to trim. Required large 
+and long inputs to maneuver. 
+
+Response similar to lower 
+speeds, with high dihedral 
+effect . 
+
+
+50 
+
+
+
+
+
+Initial 
+
+Condition Maneuver Pilot Conunents 
+
+Pitch Pulses 
+
+Nose Up Response was fairly well damped 
+
+initially. Aircraft came back 
+to trim and overshot airspeed by 
+10 kts . Long term oscillation 
+was about the same as lower 
+airspeeds, i.e., +10 knots. 
+
+Nose Down Response reached . 5g ' s initial- 
+
+ly and was well damped. Low 
+amplitude long period oscilla- 
+tion was apparent. 
+
+Roll Pulses 
+
+Left Roll Aircraft was difficult to trim 
+
+in roll with LAS off. Initially 
+rolled to 10“ left with a slow, 
+very slow, return to wings level. 
+Response was slightly uns^'mme- 
+trical, probably due to mistrim. 
+Roll axis tended to fall off one 
+way or the other at random. 
+
+Pedal Pulses Similar dihedral effect charac- 
+teristics as lower speeds. 
+
+
+9.4.3 Maximum Acceleration and Deceleration in Cruise 
+
+Maximum acceleration and deceleration characteristics of the 
+Model 222 were investigated. The aircraft was accelerated 
+from 140 knots to 250 knots and then decelerated to 140 knots. 
+
+The pilot comments for this maneuver is shown below. 
+
+Initial 
+
+Condition Maneuver Pilot Comments 
+
+Level flight Acceleration at The aircraft accelerated 
+
+at 140 knots maximum power to slower than anticipated 
+
+LAS On 250 knots, then developing 500 foot per 
+
+decelerate back minute rate of climb. Rate 
+to 140 knots of climb was sensitive to 
+
+pitch attitude changes. 
+
+The roll axis was unsteady 
+but controllable. The con- 
+trol harmony between roll and 
+pitch was net very good. The 
+force feel system did not have 
+a positive feel around zero 
+force. Transients easily 
+controllable. 
+
+
+
+4 
+
+
+
+51 
+
+
+
+
+
+
+I 
+
+
+
+I 
+
+I 
+
+t 
+
+I 
+
+I 
+
+i; 
+
+I! 
+
+1 ! 
+
+li 
+
+
+
+
+li 
+
+ti 
+
+|j 
+
+i 
+
+
+I 
+
+
+
+9.4.4 Control Response to Large Inputs 
+
+Aircraft response to large control inputs in the cruise mode 
+were investigated at 140 knots. The load alleviation system 
+was on. Pilot comments are shown below. 
+
+
+Initial 
+
+Condition Maneuver Pilot Comments 
+
+
+Level flight 
+ut 140 kts. 
+LAS On 
+
+
+2" pitch pulse Control response was adequate 
+2" roll pulse in all axes. There was no 
+2.5" pedal pulse undesirable coupling except 
+
+for the high dihedral effect. 
+Trimmability was quite poor, 
+particularly in roll. 
+
+
+9.4.5 Response to Gusts in the Cruise Mode 
+
+The response of the Model 222 to random turbulence in the 
+cruise mode was investigated at 140, 180, 225 and 250 knots. 
+The load alleviation system was on. Pilot comments for these 
+maneuvers are as follows. 
+
+Initial 
+
+
+Condition 
+
+Maneuver 
+
+Pilot Comments 
+
+Level Flight 
+
+4 ft/sec 
+
+Most active in pitch axis with 
+
+at V=140 Kts 
+
+RMS gust 
+
+very little yaw disturbance. 
+
+LAS On 
+
+
+Trimmability was poor, however, 
+the aircraft returned to trim 
+after upsets. 
+
+Level Flight at 
+
+
+Gust response similar to 140 
+
+V=180 Kts. 
+LAS On 
+
+
+knots . 
+
+Level Flight 
+
+
+Response similar to 140 knots, 
+
+at V»225 Kts 
+
+
+but the vertical upsets became 
+
+LAS On 
+
+
+mere abrupt. Aircraft returned 
+to trim after gust upsets. 
+
+Level Flight 
+
+
+Response similar to 225 knots. 
+
+at V-250 Kts 
+
+
+Aircraft did not diverge due to 
+
+LAS On 
+
+
+gusts, and airspeed drifted 
++15 knots. 
+
+
+
+
+9.4.6 Climbs and Descents in the Cruise Mode 
+
+
+Aircraft response during steady state climb and descents in 
+the cruise mode were evaluated. The pilot started from sea 
+level and climbed to 10,000 feet holding airspeed at 150 knots. 
+
+
+i.-iitial 
+
+Condition Maneuver Pilot Comments 
+
+
+.juvel Flight 
+V=150 Knots 
+LAS On 
+
+
+Climb to Aircraft climbed at 1700 ft/ 
+
+10,000 ft min, no prcblem in holding 
+
+at 150 Kts. airspeed. 
+
+
+Level Flight Descend to 
+
+V V=150 Knots Sea Level 
+
+L7 S On 
+
+
+Pulled off power and descended 
+at 1000 ft/min. Pitch attitude 
+between 2 and 3 degrees . Air- 
+craft well behaved. 
+
+
+9.4.7 Engine Out Operation in Cruise Mode 
+
+
+Aircraft response to engine failure in the cruise mode was 
+evaluated. At 250 knots one engine was failed, with the re- 
+sponse noted. This was repeated at 250 kts with two engines 
+failed. Pilot comments are noted. 
+
+
+Initial 
+
+Condition Maneuver 
+
+Level Flight Fail one 
+
+@ 250 Knots engine 
+
+LAS On 
+
+
+Level Flight Fail two 
+
+@ 250 Knots engines 
+
+LAS On 
+
+
+Pilot Comments 
+
+
+With one engine failed and 
+hands off, the aircraft is 
+well behaved. The roll axis 
+is unstable but aircraft is 
+easily controllable. Tran- 
+sients mild. The aircraft 
+stabilized at 150 knots. 
+
+Same as with single engine 
+failure except pilot applied 
+power to stabilize at 150 
+knots . 
+
+
+53 
+
+
+
+9.5 EVALUATION OF MAXIMUM NACELLE RATES IN TRANSITION 
+
+
+This was evaluated in Section 9.3.6. The maximum nacelle 
+rate capability was reduced to 5 deg/sec (from a nominal 
+10 deg/sec) . The pilot indicated that lower maximum rates 
+might be desirable in the high speed end of transition (100 
+to 140 knots) to minimize pitch attitude changes at these con- 
+ditions / while higher nacelle rates are acceptable at lower 
+speeds. Additional work is required in this area to evaluate 
+the desirability of establishing a schedule of maximum nacelle 
+tilt rates. 
+
+
+9.6 EVALUATION OF HELICOPTER FLIGHT MODE 
+
+
+Evaluation of the helicopter flight mode was conducted for 
+several incidence angles. The procedure was to establish a 
+nacelle incidence angle and then accelerate at that incidence 
+angle. The pilots comments are shown below. It should be 
+noted that this type of operation results in extreme nose 
+down pitch attitudes at the higher speeds and some negative 
+speed stability. 
+
+
+Initial 
+
+Condition Maneuver Pilot Comments 
+
+
+All SAS and 
+LAS On 
+
+Nacelle inci 
+dence =90'^ 
+
+
+Accelerate to 10 deg nose down @ 80 knots 
+
+160 knots at 15 deg nose down @ 100 knots 
+
+constant alti- 
+tude 
+
+
+Nacelle Same 
+
+incidence » 80° 
+
+
+Longitudinal stick trim aft 
+with increasing airspeed be- 
+tween 50 knots and 80 knots 
+(reversal) . The stick moves 
+forward between 80 and 100 
+knots. 
+
+
+Nacelle Same 
+
+incidence » 70° 
+
+
+Nacelle 
+
+incidence 
+
+
+45‘ 
+
+
+Longitudinal stick reversal 
+at about 80 knots starts for- 
+ward at 90 knots. 
+
+100 knots 5° nose down, 
+stick is moving fwd. 160 
+knots 10° nose down nacelles 
+beep down automatically. 
+
+
+Same 
+
+
+54 
+
+
+Accelerated to 160 knots. 
+Trimmed at a 4° nose down 
+altitude at that speed. 
+
+
+10.0 CONCLUSIONS AND RECOMMENDATIONS 
+
+
+1. The math model was successfully progreonmed for the hybrid 
+computer and checked out on the Small Motion Base Flight 
+Simulator . 
+
+2. Nacelle tilt indicator is a primary flight instrument 
+and should be located near the basic Tee. Rate of climb, 
+airspeed, torquemeter and nacelle tilt indicator should 
+be located on the same side of the basic Tee. 
+
+. Nacelle tilt switch arrangement needs further investiga- 
+tion. Switch position (cyclic stick or thrust lever) , 
+direction of travel, force gradient and breakout, pro- 
+portional rate, fixed rate beep or two rate beep need 
+evaluation. 
+
+4 . Operation with nacelle incidence above zero at speeds 
+above about 160 knots is undesirable. Positive prevention 
+of such operation should be considered. An automatic 
+
+up stop at 90 to 95° is desirable to facilitate reconver- 
+sion. Positive pilot action should be required to go 
+beyond this setting, 
+
+5. The mag. brake is too coarse to be used for trim in the 
+cruise range and should be locked. 
+
+6. Governor characteristics and thrust/collective pitch 
+lever sensitivity need to be carefully tailored to faci- 
+litate accurate altitude control in hover. 
+
+7. Hover and transition characteristics are acceptable SAS off 
+and good SAS on. They can be further improved by increas- 
+ing control sensitivity in pitch and roll. The aircraft 
+was successfully flown through transition SAS off. 
+
+8. Overtravel of the thrust/collective lever to provide posi- 
+tion control of pitch for a collective flare is highly 
+desirable for use in event of engine failure. 
+
+9. Descent rates of 1500 ft/min achievable without problem. 
+Higher descent rates at speeds around 60 kts may result in 
+wing stall and rapid further increase in descent rate if 
+power is not applied rapidly. Further investigation is 
+needed in this area. 
+
+10. Longitudinal characteristics in cruise satisfactory. 
+
+The aircraft modelled had a roll/spiral coupling in cruise 
+making it hard to trim in roll. It also showed very large 
+dihedral effect. A cruise SAS should be provided in the 
+lateral/directional axes. 
+
+
+55 
+
+
+11. Tilt rates around 10®/sec appeared quite acceptable at 
+high nacelle angles, but lower rates are preferred at 
+the high speed end of transition. 
+
+12. The aircraft can b'' flown in the helicopter mode up to 
+about 100 kts but this results in larje nose down attitudes. 
+Early initiation of nacelle tilt provides a more comfort- 
+able and easily controlled transition. 
+
+
+56 
+
+
+
+
+
+
+11.0 REFERENCES 
+
+
+1. "V/STOL Tilt Rotor Aircraft Study, Vol. II, Preliminary 
+Design of Research Aircraft", NASA CR-114438, Boeing 
+Company, Vertol Division, Philadelphia, Pa., March 1972. 
+
+2. USAF Stability and Control DATCOM, Air Force Flight 
+Dynamics Laboratory, October 1960, (Revised September 
+1970) . 
+
+3. Reed, T. J., "User Report" Prop/Rotor Dynamic Derivative 
+Program C41 J.N.", Boeing Document D210-10116-1 , Vertol 
+Division, The Boeing Company, Philadelphia, Pa., June 1970. 
+
+4. Amos, A. K.; Miao, W. , "Program C~49; Kouor Stability 
+Derivatives", Boeing Interoffice Memorandum, 8-7453-1-2483, 
+Vertol Division, The Boeing Company, Philadelphia, Pa., 
+
+July 1971. 
+
+5. Davenport, F.J., "Analys; . of Propeller and Rotor Per- 
+formance in Static and Axial Flight by an Explicit Vortex 
+Influence Technique", Boeing Document R-372, Boeing Company, 
+Vertol Division, Philadelphia, Pa., February 1965. 
+
+6. Tarzanin, F. and Thomas, E. , "Aeroelastic Rotor Analysis”, 
+Boeing Document D8-0614, Boeing Company, Vertol Division, 
+Philadelphia, Pa., May 1967. 
+
+7. Magee, J.P. et al, "Test Program II, Wind Tunnel Test of a 
+Powered Tilt Rotor Performance Model, Volume VI, Results 
+and Analysis", Boeing Documc.it D213-10000-6 , Boeing 
+Company, Vertol Division, Philadelphia, Pa., August 1370. 
+
+8. Smith M.C., "University of Maryland Wind Tunnel Test 489, 
+Force, Moment and Downwash Measurements on a Rigid Rotor 
+and Semispan Wing", (4 volumes), Boei.ig Document D8-1062-1, 
+The Boeing Company, Vertol Division, Philadelphia, Pa., 
+
+March 1968. 
+
+
+
+
+
+
+
+
+
+APPENDIX A - TIME HISTORIES OF SELECTi::D PILCfED MANEUVERS 
+
+Aircraft time histories of the Boeing Vertol Model 222 Tilt 
+Rotor for selected piloted maneuvers are presented in this 
+appendix. They were selected to illustrate some of the per- 
+tinent pilot comments described in Sootion 9.0. These piloted 
+studies were all conducted for an aircraft gr j ss weight of 
+12,000 lb with the nacelles down (ij^=0) center of gravity at 
+28% mean aerodynamic chord (most aft C.d. at this weight). 
+Configuration details and aerodynamic characteristics are as 
+described in Referancu 1 and summarized in Section 3.0. 
+
+Figure A. 1(a) througii A, 1(c) shov? a slow transition from hover 
+to cruise (approximately 80 seconds) and a reconversion to the 
+hover mode (approximately 140 seconds) . All pertinent inform- 
+ation concerning the longitudinal and lateral directional axes 
+are shown. In addition, information on the SAS motions, 
+power/collective levcr travel, rotor coilect.ivo pitch, flap 
+angle, nacelle angle, and governor behavior are shown. Figures 
+A. (a) through A. 2(c) show the same information for a rapid 
+transition from the hover mode to the cruise mode (approxi- 
+mately 13 seconds) and a reconversion to the hover mode (approxi- 
+mately 15 seconds) . For slow transitions, the aircraft is 
+docile. As can be noted for the rapid transitions, holding 
+altitude would require considerable pilot effort, although it 
+is anticipat'd it would become easier with additional pilot ex- 
+perience witn this vehicle. All stability augmentation (SAS) 
+and load alleviation systems (LAS) were operating for these 
+runs . 
+
+Figures A. 3 and A. 4 show the Model 222 's r sponse to longitu- 
+uinal and lateral directional control pulses in hover with all 
+SAS and LAS systems functioning. Figures A. 5 and A. 6 show this 
+information with the SAS and LAS off. The pitch and yaw axes 
+exhibit inherent damping provided by the hingeless rotors. The 
+yaw axis is unstable. This is attributed to the lack of inherent 
+damping in this axis. All tilt rotor aircraft, however, regard- 
+less of the type of rotor system would have this characteristic. 
+It should be noted that fuselage angle of attack and sideslip 
+are undefined for the hover mode in the mathematical model, 
+and therefore those craecs should be disregarded for these 
+runs. 
+
+Figures A./ and A. 8 show aircraft response to longitudinal 
+and lateral directional control pulses in the transition mode 
+at 80 knots. The nacelle angle is 70 degrees. Figures A. 9 (a) 
+and A. 9(b) show helicopter mode maneuvers. With the nacelles 
+at 90 degrees, the Model 222 is at a 15 degree noso down atti- 
+tude at 100 knots, and the longitudinal sticx is approximately 
+3 inches forward. Figure A. 10 shows a series of partial power 
+descents at '0 knots with the nac-^lle angle at 70 degrees. 
+
+
+
+
+
+%* > 
+
+
+I 
+
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+f 
+
+
+i 
+
+I 
+
+
+I 
+
+
+
+
+I 
+
+I 
+
+I 
+
+
+Descent rates in excess of approxirately 1500 ft/min could be 
+achieved before wing stall occurred Figures A. 7 through A. 10 
+were obtained with the SAS and LAS systems operating. 
+
+Figures A, 11 through A. 14 show longitudinal and lateral direc- 
+tiono.l pulses at 140 knots in the cruise mode (ij^=0) with the 
+load alleviation system on and off. It should be noted that 
+at this time, the Model 222 did not have a cruise SAS. There 
+is virtually no difference in response LAS on or off. The 
+aircraft is heavi''v damped in the longitudinal axis. In the 
+lateral directionaj. there is roll/spiral coupling which 
+
+makes it difficult to tilm and a large dihedral effect. Both 
+of these characteristics were eliminated in B' eing Vertol's 
+January 1973 proposal with a cruise mode stability augmentation 
+system. Figures A. ' 5 through A. 18 show the same information 
+for the cruise mode at 260 knots. 
+
+
+
+
+i REPRODUCIBILITY OF THE ORIGINAL PAGE IS POOR. 
+
+ii; . H 
+
+
+
+
+
+
+ROLL RATE (p* 0- 
+
+- RADIANS/SECONO _ , 
+
+
+RC’.L ANGLE l«t 
+D'-GREEC 
+
+
+10 -I j J 
+
+20 - i I 
+
+
+.-ATtRAL STIC . 2- 
+
+DEKtCTION (iSi O' 
+
+' li^ChES ^ . 
+
+
+VA'# RATE 10 
+PADIANS.'SECONO 
+
+
+• hilH!! 
+
+
+II U tl 
+
+
+ii i : 
+
+
+ill ! 
+
+
+YAW ANGLE (i^) 
+-DEGREES 
+
+
+RUDDER PEDAL 1 - 
+
+DEFLECTION («r) O- 
+
+- INCHES 
+
+
+LATERAL 
+VELOCITY (ul 
+-FEET/SECOND 
+
+
+SIDESLIP ANGLE I^E? 
+-DEGREES ®1 
+
+- lOi 
+
+
+\ i 1 1 . 1 ! n I i j ; 1 ! 
+
+I ‘ I ‘ ‘ I ' M ' ' I 
+
+t : ! : I 1 1 H I 
+
+
+! 1 1 1 ! ! H 
+Miliiim 
+
+
+1 1 J j ! 1 1 ! !i I : ( h 1 1 i : ( 1 
+
+
+liiUi!! 
+
+
+
+|il ii! liiilili'l 
+MfHrmltr- 
+
+
+
+
+! M I ! I ! i i I i II 
+! ! I ! ■ ; I 1 ! M 
+
+
+ii!! I 
+
+! M I I I 
+
+
+! llii I 
+niiMlIl'i: 
+
+
+
+! I : : ; i i 
+
+iliilll 
+
+
+j i wr.t.-oorLB j 
+
+' CG AF’ (28% MAC ^ 01 ‘ 
+
+j J I j . SAS. LASON I 
+
+} fliniTHHHim 
+
+
+Hltll ! 
+
+(H!H I 
+
+
+! i ! i i i ! i 1 ! f-i 
+
+
+■■Hi I- — 
+
+
+miiiijy i!!iiu!i i'ii 
+
+
+j j j i I j I ! 
+
+
+i ' I 
+
+I ■! 
+
+
+TTTTp 
+
+1 1 i ] t : 
+
+
+
+ilHMIil 
+
+
+■ I fill! i 
+T’’TrrT-TTtf 
+i If* II I I I 
+I . 1 I t ! ‘ I ! I I I lit 
+
+
+
+
+t .Ml. 
+
+|M it 
+
+
+
+Figure A. 1(a). Slow Piloted Transition and Reconversion SAS and LAS On 
+
+
+6 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Figurt A.2U). PHotf*!! Transition and Racoovarsion SAS and LAS On 
+
+
+
+
+
+
+
+
+
+
+PITCH RATE (q) 
+
+~ RADIANS/SECOND ° 
+
+- .1 
+
+- .2 
+
+
+P.TCH A'^TITUDE id) ! Q 
+-DEGREES 0‘Ti^ i 
+
+- 10---I ! -t- ♦ 
+
+- 20 - -I ' M 
+
+
+LONGITUDINAL 
+STICK 2- 
+
+DEFLECTION <6B) 0- 
+
+- INCHES - 2 ■ 
+
+
+-44 t 
+
+
+480 ■ -i 
+
+LONGITUDINAL 350 44 
+VELOCITY (u) 4 
+
+~ FEET/SECOND 
+
+120 - 
+
+
+: ! ! I I 
+
+
+
+. r t I . i 
+
+. t * I I I I I 
+
+
+it 
+
+
+RATE OF 
+CLIMB (h) 
+
+- FEET/SECOND 
+
+
+40- i 
+20 - ^ 
+0 --t- 
+-20. 
+
+- 40- i 
+
+
+1^- 
+
+
+20 SEC 
+
+
+t ♦ f i i 
+
+I . t ) I 
+
+i I I I t 
+
+
+
+I t i ! i 
+
+
+
+
+
+i i i It i t 
+
+WT = 12.000 LB 
+
+CG: AFT (28% MAC @ = 0) 
+
+SAS, LAS ON 
+
+Ik. = 90° 
+
+
+
+1 ! ; i 
+
+
+4000- I 
+
+ALTITUDE (h) 3000- 
+
+-FEET 2000- 
+
+
+! M • 
+
+Ml’ 
+
+> M I 
+
+
+FUSELAGE 
+ANGLE OF 
+ATTACK (ttpl 
+DEGREES 
+
+
+36- 
+
+18- 
+
+0 - 
+
+- 18- 
+- 36- 
+
+
+14 ( 1 i : u 
+
+I M Uil 
+
+
+!■ Ir!:| 
+!': li : : ! 
+
+
+I : ‘ 
+
+
+it| 
+
+. f 1 -M t ; i 
+
+
+i * . ^ 
+
+
+t 1 1 ♦ t 
+
+i i . T i 
+
+
+ELEVATOR 
+ANGLE <6e) 
+RADIANS 
+
+
+- 4-1 11 
+
+
+» f f ^ t » ^ 
+
+
+M 
+
+t * * 
+
+i • ■ • ! 
+
+1 . . . . i t . 
+
+: . . . 1 j . 
+
+
+1 > < 
+
+: • • t 
+
+t * ' 
+
+-1 
+
+1 
+
+j 
+
+1 * ^ 
+
+' 1 , ‘ ; 
+
+[ * 1 *)* 4- 
+
+^ i ♦ 
+
+t ■ ‘ 
+
+fl M 1 : ‘ ' 
+
+
+1 * ' 
+
+t ‘ ‘ t M I ' 
+
+f I— 
+
+fl 
+
+1 ; ; ; :i i 1 
+I • • ■ r.t. 
+
+i « p 
+
+1 i..t 
+
+
+» I f 
+
+1 i I ‘ 
+
+
+t ( 
+
+t M ■ 
+
+i 1 1 
+
+I I f - 
+
+
+
+i ♦ 1 i 
+
+
+
+
+f ^ ^ 
+
+I . i I 
+i t ^ 
+
+
+Figure A.3, Piloted Time History - Response to Longitudinal Stick Pulses in Hover, SAS and LAS Oft, i 
+
+
+
+
+REPRODUCIBILITY OF THE ORIGINAL PAGE IS POOR. 
+
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+
+I 
+
+I 
+
+f 
+
+
+i 
+
+I 
+
+4 
+
+I 
+
+I 
+
+I 
+
+4 
+
+I 
+
+I 
+
+I 
+
+
+k4» i.4AtAA. , tAA«tki AA ^ i t > i ^ , t iii ti t « t , > i it t i i *1 , t i Ai t . 1 Al , i i ^ 1 4 ilLi f i m > il y ^ i » f ^ 
+
+
+ROLL RATE (p) 
+
+- t AOfANS/SECOND 
+
+
+2H , ‘ t 
+
+1 
+
+0^^ 
+
+
+
+
+ROLL ANCLE (p) 
+)EGREES 
+
+
+
+
+20' 
+10 H 
+0- 
+10 - 
+
+
+
+!V 
+
+
+■P' 
+
+
+i 
+
+
+. i I . 
+
+
+- 20- 
+
+i| 
+
+,1 : : 1 : 
+I i 
+
+^ ^ • t 1 
+
+1 
+
+■■ilHllhi 
+
+i I ’ ’ ’ i 
+
+hi:^ 
+
+LATERAL STICK 2 - 
+
+deflection (5S) 0 - 
+
+^ - INCHES ^ 2 ^ 
+
+
+I (1 
+
+
+. : . . ; . 1 i 
+
+
+
+I -4. 
+
+
+
+
+.2- 
+
+
+
+
+
+( ■ I 
+
+
+
+
+
+
+[-•— 20SPr-^ 
+
+
+YAW RATf. ir) 
+
+^ RAOIANS/SECOND 
+
+
+YAW ANGLE 
+- DEGREES 
+
+
+RUDDER PEDAL 
+DEPLECTtON (Ar) 
+- INCHES 
+
+
+lateral 
+
+VELOCITY lu) 
+-FEET/SECOND 
+
+
+36H 
+
+FUSELAGE 
+
+SIDESLIP ANGLE Wf) ® 
+^DEGREES 
+
+:d 
+
+
+
+Ftgurt A 4 Pilottd Tim« History ~ Respom# to L«rtral Sack arul RuQd*»r Pk|»I Puhvi m hovpr SAS *nd 
+LAS Or.. 1 ^,- 90° 
+
+
+67 
+
+
+PITCH RATE (q) 
+
+' RADIANS/SECOND 
+
+
+•’I ( M ATTITUDE |(M 
+DEGREES 
+
+
+LONGITUDINAL 
+
+STICK 
+
+deflection («BI 
+' INCHES 
+
+
+LONGITUDINAL 
+VELOCITY (u) 
+
+- FEET/SECOND 
+
+
+RATE OF 
+CLIMB (hi 
+- FEET/SECONO 
+
+
+ALTITUDE (hi 
+-FEET 
+
+
+FUSELAGE 
+ANGLE OF 
+ATTACK (q^l 
+- DEGREES 
+
+
+ELEVATOR 
+ANGLE (Atl 
+- RADIANS 
+
+
+
+Figure A.5. Piloted Time History - Response to Longitudinal Stick Pulses in Hove. , SAS and LAS Off, 
+
+
+
+
+
+non n/^ji 
+
+- «A0IANS/SEC0WD 
+
+
+I i f i . . 
+
+^irKT^ 
+
+
+
+
+. ; . > * . ; V , . ... 
+
+M : r 
+
+
+
+R0LL/‘^3Lt <♦) 
+• OCGMtES 
+
+
+lateral fTtCK 
+OE«^LECTtON 
+
+
+YAW RATE <r) 
+
+^ 8ADIAN5/SECONO 
+
+
+YAW ANGLE 
+- DEGREES 
+
+
+n\jr 'RRCDAl 
+0E^wi.CTl0N(5f» 
+- INCHES 
+
+
+20 -J ‘ 
+10 - - 
+o4t 
+
+- n -■ I 
+
+- 20 -4 
+
+
+
+
+1 !J 1 1 
+
+
+
+
+' f ■ • • 1 1 1 ; i !'(:. hi- !:-[:[ ii ! r t i 1 1 1 iJ-ufHi 1 1 1 
+
+
+
+
+t * M 
+
+
+- 2 - 4 ^ 
+
+. ( < . ♦ I 
+
+- 4— , . H . 
+
+
+.2 -4 t ♦ t ' I 
+
+. ' • t u ' : 
+
+
+i;H-tti-iiltt::ii;:;;i-ilitff|li 
+
+
+
+
+
+
+n-;-: 
+
+• i t f i 
+
+
+“1 
+
+♦ - » 
+
+.i H 
+
+1 ' ' i 
+
+M 1 ^ ' 
+
+
+1. 
+
+
+t “ 
+
+it i-:1] 
+
+1 
+
+r^' 
+1 1 
+
+t . 
+
+* ! 
+
+! ! t : 
+1 1 1 1 1 
+
+r+-H-4 
+
+'Hli 
+
+[ t ; ri 
+
+
+
+
+f,, • > ' ' ' i 
+
+
+lateral 
+
+20 - 
+10 - 
+
+VELOCITY \v\ 
+
+0 - 
+
+- FEET/SECONO 
+
+- 10 - 
+
+FUSELAGE 
+
+- 20 - 
+
+J6 - 
+18 - 
+
+SIOESUR ANGLE 
+
+1 0 - 
+
+^OIGREkFS 
+
+- 18 - 
+
+
+- 36 - 
+Ftguft A 6 
+
+
+:iil!;:..;i |i 
+
+» . . i . . . . i , I ! 1 
+
+; ; y 
+
+
+rr i-i I ; I 1 i . U 
+
+; WT- 12.000 Ld ; t 
+
+I ! CG AFTi28%MAC©»^‘ 0)^1 
+
+‘ • sas, las off f ! 
+
+* - 90'’ ; i 
+
+
+t ’ t t ^ ’ M : 
+* wl ! f * f t 
+
+
+^ : i • : : i ] : h ! : ! ! I : : i i 1 1 1 H : i 4 1 ! : 
+
+
+;\y;i 
+
+
+! • ’ I ' 
+
+
+• ’ M 
+
+f [ ! : 
+
+
+yiniili 
+
+
+ri * ' 
+
+
+LAS OH. ifci = 90'" 
+
+
+
+
+
+PITCH RATE (q) 
+RADIANS/SECONO 
+
+
+PITCH ATT«TUOE |^?l 
+~ D£GHr-^:Z 
+
+
+LONGITUDINAL 
+
+STICK 
+
+DEFLECTION (fiB| 
+-'INCHES 
+
+
+LONGITUDINAL 
+VELOCITY |U) 
+-'FEET/SECCND 
+
+
+RATE OF 
+CLIMB (rtl 
+- FEET/SECOND 
+
+
+mL ITUDE (h) 
+- FEET 
+
+
+FUSELAGE 
+ANGLE OF 
+ATTACK (ttj:) 
+-DEGREES 
+
+
+ELEVATOR 
+ANGLE ;5e) 
+- RADIANS 
+
+
+Figure A.7. 
+
+
+
+Piloted Time History - Response to Longitudin?' Stick Pulses in Transition, SAS and LAS 
+On, i|^ = 70°, V = 80 Knots 
+
+
+70 
+
+
+
+
+
+ROLL RATE (P) 
+
+- RADIANS/SECONO 
+
+
+ROLL ANGLE (<t>) 
+~ DEGREES 
+
+
+LATERAL STICK 
+DEFLECTION (5S) 
+~ INCHES 
+
+
+YAW RATE ( r) 
+
+** RADIANS/SECOND 
+
+
+7 
+
+YAW ANGLE (^) 
+- DEGREES 
+
+
+RUDDER PEDAL 
+DEFLECTION (6r) 
+~ INCHES 
+
+
+LATERAL 
+VELOCITY (u» 
+
+^ FEET/SECOND 
+
+
+FUSELAGE 
+SIDESLIP ANGLE (0p 
+-♦DEGREES 
+
+
+
+Figure A.8. Piloted Time History - Response to Lateral Stick and Rudder Pedal Pulses In Transition, 
+SAS and LAS On, i^j *= 70° V = 80 Knots 
+
+
+71 
+
+
+OD 
+
+
+I he UKTUIWawGtlS 
+
+
+
+esponse to Lateral Stick and Rudder Pedal Pulses in Transition, 
+i'' V ** 80 Knots 
+
+
+71 
+
+
+REPRODUCIBILITY OF THE ORIGINAL PAGE IS POOR. 
+
+
+ROLL RATE (pi 
+~ RAOIANS/SECONO 
+
+
+ROLL ANGLE («) 
+~ DEGREES 
+
+
+LATERAL STICK 
+R EFLECTION (SSI 
+~ INCHES 
+
+
+YAW RATE (r| 
+
+- ra:,ians/secono 
+
+
+YAW ANGLE (^| 
+- DEGREES 
+
+
+RUDDER PEDAL 
+DEFLECTION (Sr) 
+~ INCHES 
+
+
+LATERAL 
+VELCXITY lu) 
+
+- FEET/SECOND 
+
+
+FUSELAGE 
+SIDESLIP ANGLE ISp) 
+DEGREES 
+
+
+
+• i ) H 
+
+
+< I ! t I 
+
+
+, -I 1 I h' 
+
+
+: • P1 ft 
+
+
+
+i j : I i i t ii J, 
+
+
+
+
+
+
+M 1 4 M ; 
+
+• I i { I I 
+
+
+4 f H t 
+
+
+4 i 4 j ; 
+
+
+
+iMi: 
+
+
+; II Mi 
+
+
+: ! M": 
+
+
+-! h I I : M n 
+
+
+t ( f i • f j 
+
+I J . . M I 
+
+
+4 p * - 4 i 
+
+I f . 1 > : I 
+
++I4t 
+
+I I * 4 i ; 1 I 
+
+iiliiiif 
+
+
+^ ; f t I ( 
+
+J JJ I ,_i j 
+
+
+jlillM - 
+
+■i - -i i I : : 
+
+
+' : t ; H 
+
+
+
+
+
+
+) • ; -I - • . t . . 
+
+■ ■'I'V! I ! 1 1 I I I [ I ! I { I f 
+
+1 WT - 12.000 LB I ! 
+
+j CG Af^T ( 28 % MAC @ = 0 ) ! J 
+
+i ISAS. LAS ON ^ 
+
+
+
+
+i ) ! m 
+
+
+i ! M i t ; i I 
+
+
+! 1 I ' ‘ t -t 
+
+
+I I I ; I 
+
+'‘''If' ■ 
+
+
+iffftti:: 
+
+
+Figure A.O(a). Piloted Time History - Helicopter Mode Maneuvers, SAS and LAS On, i,^^ « 90 ° 
+
+
+L 
+
+
+I' 
+
+
+PITCH RATE (a) 
+
+-- radians/second 
+
+
+PITCH ATTITUDE (0) 
+-DEGRPFS 
+
+
+LONGITUDINAL 
+
+STICK 
+
+DEFLECTION 
+- INCHES 
+
+
+LONGITUDINAL 
+VELOCITY (u) 
+-FEET/SECOND 
+
+
+RATE OF 
+CLIMB <M 
+-FEET/SECOND 
+
+
+ALTITUDE |h| 
+-FEET 
+
+
+fuselage 
+ANGLE OF 
+ATTACK (ttp) 
+-DEGREES 
+
+
+ELEVATOR 
+ANGLE (6tl 
+- » AOIANS 
+
+
+
+Figure A.9(b). Piloted Time Hiitorv Hehcopter Mode Maneuvers, SAS and LAS On. 
+
+
+90 ^ 
+
+
+
+
+PITCH RATE (q) 
+
+- RAOIANS/SECOND 
+
+
+
+1 ! i 1 1 
+
+
+
+• ; 1 
+
+.: ! I . 
+
+1 . . t . . 
+
+
+! 1- i t ;-r 
+
+
+t 1 i ‘ i ! ! ; I t 
+
+. . 1 . , ! ; i t 1 
+
+
+H ! 
+
+
+PITCH ATTITUDE (9) 
+- DEGREES 
+
+
+LONGITUDINAL 
+
+STICK 
+
+DEFLECTION |6B) 
+•“ INCHES 
+
+
+LONGITUDINAL 
+VELOCITY (u) 
+FEET/SECOND 
+
+
+RATE OF 
+CLIMB (h) 
+
+- TEET/SECOND 
+
+
+ALTITUDE (h) 
+~FEET 
+
+
+FUSELAGE 
+ANGLE OF 
+ATTACK (ttp) 
+DEGREES 
+
+
+ELFVATOR 
+ANGL^ (St) 
+^ RADIANS 
+
+
+
+r ! T : ; t 
+
+; vr M r 
+
+I t t 
+
+
+lU-h 
+
+
+
+■ • I "-1 
+
+
+j f -t- + 
+
+
+I I ^ I 
+
+I -4_-+.fc uu 
+
+
+i.i f-L-! 
+
+! ; I t 
+
+
+:-i I * . 
+
+-il. [ ; 
+
+
+
+20 SEC; 
+
+f-H-l 
+
+
+i 44! I!-- II- 
+
+. .! J.il.l 1 I l . : i I 
+
+WT = 12,000 LB 
+CG; AFT (28% MAC @ = 0) ‘ 
+
+SAS, LAS ON 
+:iN = 70 ° 
+
+
+
+[+4+4i4-l 
+
+
+“1 
+
+I 
+
+i- 
+
+
+
+
+I 
+
+
+
+— 
+
+— ■ 
+
+
+
+
+- 
+
+
+
+
+- 
+
+
+
+
+- 
+
+
+
+
+” - 
+
+... 
+
+
+
+
+- 
+
+
+
+
+L4J 
+
+3 
+
+
+■ — 1 i 
+
+f-I_! H- 
+
+
+- 
+
+
+- 
+
+
+- 
+
+-■ 
+
+
+
+
+
+
+
+- 
+
+- 
+
+
+- 
+
+
+- 
+
+- 
+
+-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+IIX 
+
+
+
+Figure A.10. Piloted Time History - Partial Power Descents in Transition, SAS and LAS On, i|y| * 70®, 
+V - 70 Knots 
+
+
+
+I 
+
+
+.r. t ' 
+
+
+
+
+7 i. 
+
+\; 
+
+-4 * > 
+
+
+
+
+PITCH RATE (q) 
+RADIANS/SECONO 
+
+
+PITCH ATTITUDE («> 
+~ DEGREES 
+
+
+LONGITUDINAL 
+
+STICK 
+
+DEFLECTION (6B) 
+~ INCHES 
+
+
+LONGITUDINAL 
+VELOCITY (u) 
+FEET/SECOND 
+
+
+RATE OF 
+CLIMB (h» 
+
+- FEET/SECOND 
+
+
+ALTITUDE Ih) 
+-FEET 
+
+
+FUSELAGE 
+ANGLE OP 
+ATTACK (Op) 
+- DEGREES 
+
+
+ELEVATOR 
+ANGLE («tl 
+- RADIANS 
+
+
+
+Figure A.1 1 . Piloted Time History - Response to Longitudinal Stick Pulses at 140 Knott, LAS On, 1^*0° 
+
+
+
+
+
+
+75 
+
+
+
+v; 
+
+
+
+i 
+
+I 
+
+1 
+
+1 
+
+I 
+
+t 
+
+Is 
+
+1 ; 
+
+1 ; 
+
+
+
+r 
+
+
+I 
+
+! 
+
+
+PITCH RATE (q) 
+
+<• RAOIANS/SECONO 
+
+
+PITCH ATTITUDE (P) 
+- DEGREES 
+
+
+LONGITUDINAL 
+
+STICK 
+
+DEFLECTION (6B) 
+- INCHES 
+
+
+LONGITUDINAL 
+VELOCITY lul 
+- FEET/SECONO 
+
+
+RATE OF 
+CLIMB (h) 
+
+~ FEET/SECOND 
+
+
+ALTITUDE (h) 
+' FEET 
+
+
+FUSELAGE 
+ANGLE OF 
+ATTACK (Of) 
+- DEGREES 
+
+
+ELEVATOR 
+ANGLE (6c| 
+RADIANS 
+
+
+
+Figure A.12. Piloted Time History - Response to I imgitudinal Stick Pul<'es at 140 Knots, LAS Off, i^J 
+
+
+I 
+
+
+fi 
+
+
+
+
+
+76 
+
+
+
+ROLL RAT*^ «p* 
+-RADI A 4 : ->£CO^C 
+
+
+ROLL ANM ' (^’ 
+-DEGREES 
+
+
+lateral STsCK 
+OEF' ‘ wTlON (^.S) 
+- INCHES 
+
+
+YAW RATE (r) 
+-RADIANS/SECONO 
+
+
+YAW ANCLE i\if) 
+-DEGREES 
+
+
+RUDDER PEDAL 
+DEFLECTION |50 
+- INCHES 
+
+
+lateral 
+
+VELOCITY iu) 
+-FEET/SECONO 
+
+
+FUSELAGE 
+
+SIDES! ‘P ANGLE (0^) 
+
+-DEGREES 
+
+
+
+Figure A.I3. Piloted Tirr^t Hutory - Reiponie to Literal Stick end Rudder Pedel Pulse* at 140 Krwti. 
+LAS On. 
+
+
+
+
+
+
+
+
+REPROQUCIBILITY OF THE ORIGINAL PAGE IS POOR. 
+
+
+PITCH RATE (q) 
+
+- RAOIANS/SECOND 
+
+
+■fii 1-1;! !M- 
+
+
+I . I . 
+
+
+iEC -f-1 
+
+
+PITCH ATTITUDE id) 
+' DECREES 
+
+
+LONGITUDINAL 
+
+STICK 
+
+DEFLECTION (SB) 
+' INCHES 
+
+
+I ■ I ' ' ! 
+
+
+LONGITUDINAL 
+VELOCITY (u) 
+
+" FEET/SECOND 
+
+
+I ‘ 
+
+
+
+RATE OF 
+CLIMB (h) 
+
+~ FEET/SECOND 
+
+
+ALTITUDE (h) 
+- PEET 
+
+
+FUSELAGE 
+ANGLE OF 
+ATTACK (ap) 
+- DEGREES 
+
+
+L EVATOR 
+angle (S«) 
+- RADIANS 
+
+
+! t ) ‘ • 
+
+
+I ALTITUDE RECORDER OFF I 'N 
+
+
+' ; l-l. i i I ; I ^ 
+
+1 1 ' 1 1 I li: i ; ♦ : 1 1 
+
+nil 
+
+; ; — i.j i ; { j I i 1 
+
+
+i f i t 
+
+
+ji ij 
+
+
+WT ^ 12,000 LB 
+
+CG; AFT (28% MAC @ = Oi 
+
+LAS ON 
+
+
+! 1 ' i ‘ ! 
+
+
+k U 1 H n,i 
+
+
+higuic A.15 Piloted Time History - Response to Lortgitudinal Stick Pulses et 260 Knot>, LAS On, iiu > 0° 
+
+
+
+
+1 ' 
+
+
+M i : ; 1 U 1 1 ! 
+
+
+U4*4W II* ‘ a A^ **-**4 
+
+
+flTCHMTKql 1 
+
+- RADIAWS/SfcCONO 0 
+
+
+'•ITCH ATTITUDE («) 
+-DEGREES 
+
+
+LONGtTUDINAt 
+
+STICK 
+
+DEFLECTION (53) 
+- INCHES 
+
+
+LONGITUDINAL 360 
+
+
+VELOCITY (u) 
+
+
+-FEET/SECOND ,20 
+
+
+RATE OF 
+CLIMB (h) 
+
+- FEET/SECOND 
+
+
+ALTITUDE Ih) 
+- PEET 
+
+
+FUSELAGE 
+ANGLE OF 
+ATTACK (O^) 
+
+- degrees 
+
+
+ELEVATOR 
+ANGLE (5t) 
+- RADIANS 
+
+
+t 1 . I i ) 
+
+
+
+
+i':;!ii!|i! ■ 
+
+■ : I 1 : . i 
+
+■ I ! 1 I I : 
+
+. ■ 1 i ! : : I 1 
+
+, . 1 ; 1 , I 1 : 
+
+
+
+
+70SI.C -L| 
+
+
+
+
+240 -I ^ * 
+
+
+; 1 1 : ; 
+
+
+i . : * ; ( 
+
+i 
+
+i 
+
+
+' ‘ t 
+
+I • t * * 
+
+
+‘ ' I i t t I ! I 
+
+
+I » . I ♦ . . . 
+
+
+I i . . , » . . t 
+
+
+
+
+i 1 ; 1 . ; . 
+
+
+ALTITUDE RECORDEO OFF ‘ 
+
+! : i ! t 11 1 1 I . ; I 1 . i : 
+
+; 1 . : 1 : ’ : 1 : : t . 1 : 
+
+
+WT - 12,000 LB 
+
+CG AFT 128% MAC 0» 
+
+
+: i M : 
+
+
+t * t I M 
+I • t ' i M * 
+t ♦ i ♦ I I . , F 
+
+
+lit lltf 
+
+' 1 M t t 
+
+
+
+■ t * * t t 
+
+
+
+
+Fiqure A 16 Pilottd Tim« Hiitory - Rttponw to Lonq'tudin»l Stick FuUet «t 260 Knoti. LAS Off, = 0° 
+
+
+
+ROLL RATE (p) 
+RAOIANS/SECONO 
+
+
+ROLL ANGLE 
+DEGREES 
+
+
+LATERAL STICK 
+DEFLECTION |6S) 
+- INCHES 
+
+
+YAW RATE (rl 
+RADIANS/SECOND 
+
+
+YAW ANGLE i4>) 
+- DEGREES 
+
+
+RUDDER PEDAL 
+DEFLECTION |6r) 
+- INCHES 
+
+
+LATERAL 
+VELOCITY (vl 
+- FEET/SECOND 
+
+
+
+FUSELAGE 
+SIDESLIP ANGLE {0^) 
+- DEGREES 
+
+
+Figurt A.17. Pilottd 'dm* History - Rasponi* to Lateral Stick and Rudder Pedal Pulses at 260 Knott. 
+LAS On, 1^-0° 
+
+
+Rtipontt to Latwal Stick and Rudder Pedal Puiiai et 26T' Knott, 
+
+
+
+
+ROLL RATE Ip) 
+
+~ RAOIANS/SECONO 
+
+
+ROLL ANGLE {(p) 
+~ DEGREES 
+
+
+LATERAL STICK 
+DEFLECTION («S) 
+- INCHES 
+
+
+YAW RATE Ir) 
+
+- RADIANS/SECOND 
+
+
+YAW ANGLE (^) 
+DEGREES 
+
+
+RUDDER PEDAL 
+DEFLECTION (6r) 
+~ INCHES 
+
+
+LATERAL 
+VELOCITY (tf) 
+FEET/SECOND 
+
+
+FUSELAGE 
+SIDESLIP ANGLE 
+^DEGREES 
+
+
+
+Figure A.17. Piloted Time History - Response to Leterai Stick and Rudder Pedal Pulses at 260 Knots, 
+LASOn.l^-O® 
+
+
+81 
+
+
+
+
+
+
+rC.L PATE (p» 
+
+^ P40IANS/SCCONO 
+
+
+mm 
+
+
+
+ROLL ANGLE 
+-DEGREES 
+
+
+LATfRAL STICK 
+DEFLECTION (6S) 
+- INCHES 
+
+
+YAW RATE (r| 
+
+- RADIANS/SECOND 
+
+
+YAW ANGLE i^f) 
+-DEGREES 
+
+
+RUDDER PEDAL 
+DEFLECTION (6r) 
+- INCHES 
+
+
+LATERAL 
+VELOCITY (u) 
+-FEET/SECOND 
+
+
+.2.4 L-4- - i — i.j. 1-1 M t j- I — 
+
+t Ml 1 1 1 ! ^ 
+
+Mjini-jiitlf - 
+
+r^uirlJ rttmiiOT 
+
+
+’°Tl t^ 
+
+20-U..— f- 
+
+
+! I i ! 
+i 1 t-ll. 
+
+
+4 l|t 1 1 i : ! t |i ] i ■ 
+
+
+H-H r M -- - h: 1;: 
+
+i !:!4 t! ! ^Ilp+T IT'' M * '- 
+
+--1 1 ■ i ‘ * I i - -i - - -- ! 1 j- 
+
+
+. : 4 - 20 sec -H ! 1 i i 1 . 
+
+_ _ _|_L .--H f[-— |-f- t -j-'IlH 
+
+-1 -41- i4-i-44 • -i-h- - i-: M-f "M H 
+
+
+I- It I i'H ! I t ■‘+T---11 I 
+
+
+
+
+i in u\ .11 
+
+
+I U.-i-f-lM 114 
+
+
+36 
+
+18 " - - — 
+
+- 18--1- i- 
+
+
+-I- I 1 • - I 
+
+."i-iTl i i 
+
+
+UiUl 
+
+
+--f. I I I . 1 , . ^4 . . 4 t 
+i 1 t I i i * ' ' ♦ ‘ ' 
+
+I- 4-^ -1 1 1 • ' t f t f 
+
+| m | I I I M il 
+
+Lii-!4iuir 1 
+
+
+tl 
+
+1 • 
+
+r- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+— 
+
+
+- 1. 
+
+
+! ] ^ i ! I M I 1 I 1 1 1 f'T 1 ; 14 j. j. , , i 
+
+j 1 WT= 12.000 LB ' ^ * j j ; 
+
+1 I CG AFT (28% MAC ® 'n ' 0) i j ' j 
+
+1 r LASOFF I 1 I ! M M 
+
+
+1 j 
+
+
+4i-i-i 1 1 1 
+
+
+FUSELAGE 
+
+SIDESLIP ANGLE (0p) 0* 
+
+--DEGREES 9 
+
+- 18 
+
+
+Mi ; 
+
+
+-1 lj}ili.iiiMtl 1 
+
+U * * t ! i ! V 1 M }' 
+
+
+iMtl 
+
+
+
+Milt 
+
+MMl 
+
+
+t t M U 
+I i j I ' I I 
+
+
+I I i : 
+
+1 IM M 1 1 
+
+
+I Mi 
+
+
+i I ! i N 
+
+
+MjlMMlM 
+
+
+Figure A.18. Piloted Time HiMory - Reipome to Leterel Stick end Rudder Pedel Pulie* et 260 Knott, 
+LAS 0«, iN * 0“ 
+
+
+82 
+
+
+
+

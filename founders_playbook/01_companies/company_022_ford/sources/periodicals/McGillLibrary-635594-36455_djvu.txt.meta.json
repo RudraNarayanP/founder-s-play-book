@@ -1,0 +1,9 @@
+{
+ "identifier": "McGillLibrary-635594-36455",
+ "url": "https://archive.org/download/McGillLibrary-635594-36455/635594_djvu.txt",
+ "fetched": "2026-09-29T18:39:38Z",
+ "bytes": 6820,
+ "route": "download/<id>/635594_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

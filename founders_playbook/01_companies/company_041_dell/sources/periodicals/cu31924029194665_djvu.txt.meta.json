@@ -1,0 +1,9 @@
+{
+ "identifier": "cu31924029194665",
+ "url": "https://archive.org/download/cu31924029194665/cu31924029194665_djvu.txt",
+ "fetched": "2026-10-06T12:17:24Z",
+ "bytes": 193456,
+ "route": "download/<id>/cu31924029194665_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

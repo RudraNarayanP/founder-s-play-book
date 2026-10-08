@@ -1,0 +1,9 @@
+{
+ "identifier": "byte-magazine-1980-04",
+ "url": "https://archive.org/download/byte-magazine-1980-04/1980_04_BYTE_05-04_Printed_Software_Becomes_a_Reality_djvu.txt",
+ "fetched": "2026-09-29T19:56:23Z",
+ "bytes": 1280581,
+ "route": "download/<id>/1980_04_BYTE_05-04_Printed_Software_Becomes_a_Reality_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

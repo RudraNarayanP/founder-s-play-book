@@ -1,0 +1,9 @@
+{
+ "findings": [
+  {
+   "gate": "quotes",
+   "subject": "ADVISORY",
+   "msg": "66 of 157 checked spans unmatched (42%) -- gate precision is not established, treat as a triage list, NOT as defects"
+  }
+ ]
+}

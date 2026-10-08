@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0001166691/000095012302001136/e56461s4s-4.txt",
+ "fetched": "2026-10-06T11:49:12Z",
+ "sha1": "87df8ad78d7d112a19f26c05dd9808ac5b5e440d",
+ "bytes": 3079683,
+ "words": 403557,
+ "cik": "0001166691",
+ "registrant": "COMCAST CORP",
+ "accession": "0000950123-02-001136",
+ "document": "e56461s4s-4.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

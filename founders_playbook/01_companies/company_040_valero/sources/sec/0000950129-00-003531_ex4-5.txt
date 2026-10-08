@@ -1,0 +1,2427 @@
+<DOCUMENT>
+<TYPE>EX-4.5
+<SEQUENCE>5
+<FILENAME>ex4-5.txt
+<DESCRIPTION>PLEDGE AGREEMENT
+<TEXT>
+
+<PAGE>   1
+                                                                     EXHIBIT 4.5
+
+                            VALERO ENERGY CORPORATION
+
+                                       and
+
+                BANK ONE TRUST COMPANY, N.A., as Collateral Agent
+
+                                       and
+
+            BANK ONE TRUST COMPANY, N.A., as Securities Intermediary
+
+                                       and
+
+                THE BANK OF NEW YORK, as Purchase Contract Agent
+
+
+
+                                PLEDGE AGREEMENT
+
+
+                            Dated as of June 28, 2000
+
+
+<PAGE>   2
+
+
+                                TABLE OF CONTENTS
+
+<TABLE>
+
+
+<S>     <C>          <C>                                                                           <C>
+Section 1.  Definitions.............................................................................1
+
+Section 2.  Pledge..................................................................................5
+        Section 2.1  Pledge.........................................................................5
+        Section 2.2  Control; Financing Statement...................................................5
+        Section 2.3  Termination....................................................................5
+
+Section 3.  Distributions on Pledged Collateral.....................................................6
+        Section 3.1  Income Distributions...........................................................6
+        Section 3.2  Principal Payments Following Termination Event.................................6
+        Section 3.3  Principal Payments Prior To or On Purchase Contract Settlement Date............6
+        Section 3.4  Payments to Purchase Contract Agent............................................7
+        Section 3.5  Assets Not Properly Released...................................................7
+
+Section 4.  Control.................................................................................7
+        Section 4.1  Establishment of Collateral Account............................................7
+        Section 4.2  Treatment as Financial Assets..................................................8
+        Section 4.3  Sole Control by Collateral Agent...............................................8
+        Section 4.4  Securities Intermediary's Location.............................................8
+        Section 4.5  No Other Claims................................................................8
+        Section 4.6  Investment and Release.........................................................8
+        Section 4.7  Statements and Confirmations...................................................9
+        Section 4.8  Tax Allocations................................................................9
+        Section 4.9  No Other Agreements............................................................9
+        Section 4.10 Powers Coupled With An Interest................................................9
+
+Section 5.  Initial Deposit; Establishment of Treasury PEPS Units and
+            Reestablishment of PEPS Units...........................................................9
+        Section 5.1  Initial Deposit of Trust Preferred Securities..................................9
+        Section 5.2  Establishment of Treasury PEPS Units...........................................9
+        Section 5.3  Reestablishment of PEPS Units.................................................11
+        Section 5.4  Termination Event.............................................................13
+        Section 5.5  Cash Settlement...............................................................14
+        Section 5.6  Early Settlement..............................................................15
+        Section 5.7  Application of Proceeds in Settlement of Purchase Contracts...................16
+        Section 5.8  Tax Event Redemption..........................................................17
+
+Section 6.  Voting Rights - Trust Preferred Securities and Pledged Senior Deferrable Notes.........17
+
+Section 7.  Rights and Remedies....................................................................18
+        Section 7.1  Rights and Remedies of the Collateral Agent...................................18
+        Section 7.2  Substitution of Senior Deferrable Notes.......................................19
+        Section 7.3  Tax Event Redemption..........................................................19
+        Section 7.4  Substitutions.................................................................20
+</TABLE>
+
+                                       i
+
+
+<PAGE>   3
+
+
+
+<TABLE>
+<S>    <C>           <C>                                                                           <C>
+Section 8.   Representations and Warranties; Covenants.............................................20
+        Section 8.1  Representations and Warranties................................................20
+        Section 8.2  Covenants.....................................................................21
+
+Section 9.  The Collateral Agent and the Securities Intermediary...................................21
+        Section 9.1  Appointment, Powers and Immunities............................................21
+        Section 9.2  Instructions of the Company...................................................22
+        Section 9.3  Reliance by Collateral Agent and Securities Intermediary......................23
+        Section 9.4  Rights in Other Capacities....................................................23
+        Section 9.5  Non-Reliance on Collateral Agent and Securities Intermediary..................23
+        Section 9.6  Compensation and Indemnity....................................................23
+        Section 9.7  Failure to Act................................................................24
+        Section 9.8  Resignation of Collateral Agent and Securities Intermediary...................25
+        Section 9.9  Right to Appoint Agent or Advisor.............................................26
+        Section 9.10 Survival......................................................................26
+        Section 9.11 Exculpation...................................................................27
+
+Section 10.  Amendment.............................................................................27
+        Section 10.1  Amendment Without Consent of Holders.........................................27
+        Section 10.2  Amendment With Consent of Holders............................................27
+        Section 10.3  Execution of Amendments......................................................28
+        Section 10.4  Effect of Amendments.........................................................28
+        Section 10.5  Reference to Amendments......................................................29
+
+Section 11.  Miscellaneous.........................................................................29
+        Section 11.1  No Waiver....................................................................29
+        Section 11.2  Governing Law................................................................29
+        Section 11.3  Notices......................................................................29
+        Section 11.4  Successors and Assigns.......................................................30
+        Section 11.5  Counterparts.................................................................30
+        Section 11.6  Severability.................................................................30
+        Section 11.7  Expenses, etc. ..............................................................30
+        Section 11.8  Security Interest Absolute...................................................31
+        Section 11.9  Notice of Tax Event, Tax Event Redemption and Termination Event..............31
+</TABLE>
+
+
+                                       ii
+
+<PAGE>   4
+
+
+<TABLE>
+<S>         <C>                                                                                   <C>
+EXHIBIT A   INSTRUCTION FROM PURCHASE CONTRACT AGENT TO COLLATERAL
+              AGENT (Establishment of Treasury PEPS Units)........................................A-1
+
+EXHIBIT B   INSTRUCTION FROM COLLATERAL AGENT TO SECURITIES
+              INTERMEDIARY (Establishment of Treasury PEPS Units).................................B-1
+
+EXHIBIT C   INSTRUCTION FROM PURCHASE CONTRACT AGENT TO COLLATERAL
+              AGENT (Reestablishment of PEPS Units )..............................................C-1
+
+EXHIBIT D   INSTRUCTION FROM COLLATERAL AGENT TO SECURITIES
+              INTERMEDIARY (Reestablishment of PEPS Units)........................................D-1
+
+EXHIBIT E   NOTICE OF CASH SETTLEMENT FROM SECURITIES INTERMEDIARY
+              TO PURCHASE CONTRACT AGENT (Cash Settlement Amounts)................................E-1
+</TABLE>
+
+
+                                       iii
+
+<PAGE>   5
+
+
+                                PLEDGE AGREEMENT
+
+
+         PLEDGE AGREEMENT, dated as of June 28, 2000, among Valero Energy
+Corporation, a Delaware corporation (the "COMPANY"), Bank One Trust Company,
+N.A., a national banking association, as collateral agent (in such capacity,
+together with its successors in such capacity, the "COLLATERAL AGENT"), Bank One
+Trust Company, N.A. a national banking association, as securities intermediary
+with respect to the Collateral Account (in such capacity, together with its
+successors in such capacity, the "SECURITIES INTERMEDIARY"), and The Bank of New
+York, as purchase contract agent and as attorney-in-fact of the Holders from
+time to time of the Securities under the Purchase Contract Agreement (in such
+capacity, together with its successors in such capacity, the "PURCHASE CONTRACT
+AGENT").
+
+                                    RECITALS
+
+         The Company and the Purchase Contract Agent are parties to the Purchase
+Contract Agreement dated as of the date hereof (as modified and supplemented and
+in effect from time to time, the "PURCHASE CONTRACT AGREEMENT"), pursuant to
+which there may be issued up to 6,000,000 Premium Equity Participating Security
+Units--PEPS(SM) Units (the "SECURITIES") (including 900,000 Securities relating
+to the over-allotment option granted to the underwriters pursuant to the
+Underwriting Agreement).
+
+         Each PEPS Unit, at issuance, consists of a unit comprised of (a) a
+stock purchase contract (the "PURCHASE CONTRACT") under which the Holder will
+purchase from the Company on the Purchase Contract Settlement Date, for an
+amount equal to $25 (the "STATED AMOUNT"), a number of shares of Valero Energy
+Corporation, Inc. common stock, par value $0.01 ("COMMON STOCK"), equal to the
+Settlement Rate, and (b) beneficial ownership of a Trust Preferred Security (a
+"PREFERRED SECURITY") issued by VEC Trust I (the "TRUST"), having a liquidation
+amount equal to the Stated Amount and maturing on August 18, 2005.
+
+         Pursuant to the terms of the Purchase Contract Agreement and the
+Purchase Contracts, the Holders of the Securities have irrevocably authorized
+the Purchase Contract Agent, as attorney-in-fact of such Holders, among other
+things, to execute and deliver this Agreement on behalf of such Holders and to
+grant the pledge provided herein of the Collateral Account to secure the
+Obligations.
+
+         Accordingly, the Company, the Collateral Agent, the Securities
+Intermediary and the Purchase Contract Agent, on its own behalf and as
+attorney-in-fact of the Holders from time to time of the Securities, agree as
+follows:
+
+SECTION 1. DEFINITIONS.
+
+         For all purposes of this Agreement, except as otherwise expressly
+provided or unless the context otherwise requires:
+
+
+
+
+
+                                        1
+
+<PAGE>   6
+
+
+
+         (a) the terms defined in this Article have the meanings assigned to
+them in this Article and include the plural as well as the singular;
+
+         (b) the words "HEREIN," "HEREOF" and "HEREUNDER" and other words of
+similar import refer to this Agreement as a whole and not to any particular
+Article, Section, Exhibit or other subdivision;
+
+
+         (c) the following terms which are defined in the UCC shall have the
+meanings set forth therein: "CERTIFICATED SECURITY," "CONTROL," "FINANCIAL
+ASSET," "ENTITLEMENT ORDER," "SECURITIES ACCOUNT" and "SECURITY ENTITLEMENT;"
+
+         (d) the following terms have the meanings assigned to them in the
+Purchase Contract Agreement: "ACT," "BANKRUPTCY CODE," "BOARD RESOLUTION,"
+"BUSINESS DAY," "CASH SETTLEMENT," "CERTIFICATE," "EARLY SETTLEMENT," "EARLY
+SETTLEMENT AMOUNT," "EARLY SETTLEMENT DATE," "HOLDER," "OFFICERS' CERTIFICATE,"
+"OPINION OF COUNSEL," "OUTSTANDING SECURITIES," "PEPS UNIT," "PURCHASE
+CONTRACT," "PURCHASE CONTRACT SETTLEMENT DATE," "PURCHASE PRICE," "REMARKETING
+AGENT," "REMARKETING AGREEMENT," "SENIOR DEFERRABLE NOTES," "SETTLEMENT RATE,"
+"TERMINATION EVENT," "TREASURY PEPS UNIT," and "UNDERWRITING AGREEMENT;"
+
+         (e) the following terms have the meanings assigned to them in the
+Amended and Restated Declaration of Trust of VEC Trust I, of even date herewith
+(the "DECLARATION"): "APPLICABLE OWNERSHIP INTEREST," "APPLICABLE PRINCIPAL
+AMOUNT," "FAILED REMARKETING," "INDENTURE," "INDENTURE TRUSTEE," "PRIMARY
+TREASURY DEALER," "PROPERTY TRUSTEE," "QUOTATION AGENT," "REDEMPTION AMOUNT,"
+"REDEMPTION PRICE," "TAX EVENT," "TAX EVENT REDEMPTION," "TAX EVENT REDEMPTION
+DATE," and "TREASURY PORTFOLIO;" and
+
+         (f) the following terms have the meanings given to them in this Section
+1(f):
+
+                  "AGREEMENT" means this Pledge Agreement, as the same may be
+         amended, modified or supplemented from time to time.
+
+                  "CASH" means any coin or currency of the United States as at
+         the time shall be legal tender for payment of public and private debts.
+
+                  "COLLATERAL ACCOUNT" means the collective reference to:
+
+                  (1) the securities account of Bank One Trust Company, N.A., as
+         Collateral Agent, maintained by the Securities Intermediary and
+         designated "Bank One Trust Company, N.A., as Collateral Agent of Valero
+         Energy Corporation, as pledgee of The Bank of New York, as the Purchase
+         Contract Agent on behalf of and as attorney-in-fact for the Holders";
+
+                  (2) all investment property and other financial assets from
+         time to time credited to the Collateral Account, including, without
+         limitation, (A) the Preferred Securities and security entitlements
+         relating thereto which are a component of the PEPS Units from time to
+         time, (B) the Applicable Ownership Interests (as specified in Clause
+         (A) of the
+
+
+                                       2
+<PAGE>   7
+
+
+         definition of such term) of the Holders with respect to the Treasury
+         Portfolio which are a component of the PEPS Units from time to time;
+         (C) the Senior Deferrable Notes and security entitlements relating
+         thereto which are a component of the PEPS Units from time to time, (D)
+         any Treasury Securities and security entitlements relating thereto
+         delivered from time to time upon establishment of Treasury PEPS Units
+         in accordance with Section 5.2 hereof and (E) payments made by Holders
+         pursuant to Section 5.5 hereof;
+
+                  (3) all Proceeds of any of the foregoing (whether such
+         Proceeds arise before or after the commencement of any proceeding under
+         any applicable bankruptcy, insolvency or other similar law, by or
+         against the pledgor or with respect to the pledgor); and
+
+                  (4) all powers and rights now owned or hereafter acquired
+         under or with respect to the Collateral Account
+
+         ((2), (3) and (4), being collectively referred to as the "COLLATERAL").
+
+         "COMPANY" means the Person named as the "COMPANY" in the first
+paragraph of this instrument until a successor shall have become such, and
+thereafter "COMPANY" shall mean such successor.
+
+         "OBLIGATIONS" means, with respect to each Holder, the collective
+reference to all obligations and liabilities of such Holder under such Holder's
+Purchase Contract, the Purchase Contract Agreement, and this Agreement or any
+other document made, delivered or given in connection herewith or therewith, in
+each case whether on account of principal, interest (including, without
+limitation, interest accruing before and after the filing of any petition in
+bankruptcy, or the commencement of any insolvency, reorganization or like
+proceeding, relating to such Holder, whether or not a claim for post-filing or
+post-petition interest is allowed in such proceeding), fees, indemnities, costs,
+expenses or otherwise (including, without limitation, all fees and disbursements
+of counsel to the Company or the Collateral Agent or the Securities Intermediary
+that are required to be paid by the Holder pursuant to the terms of any of the
+foregoing agreements).
+
+         "PERMITTED INVESTMENTS" means any one of the following which shall
+mature not later than the next succeeding Business Day:
+
+(1) any evidence of indebtedness with an original maturity of 365 days or less
+issued, or directly and fully guaranteed or insured, by the United States of
+America or any agency or instrumentality thereof (provided that the full faith
+and credit of the United States of America is pledged in support of the timely
+payment thereof or such indebtedness constitutes a general obligation of it);
+(2) deposits, certificates of deposit or acceptances with an original maturity
+of 365 days or less of any institution which is a member of the Federal Reserve
+System having combined capital and surplus and undivided profits of not less
+than $200.0 million at the time of deposit (and which may include the Collateral
+Agent); (3) investments with an original maturity of 365 days or less of any
+Person that is fully and unconditionally guaranteed by a bank referred to in
+clause (2); (4) repurchase agreements and reverse repurchase agreements relating
+to marketable direct obligations issued or unconditionally guaranteed by the
+United States Government or issued by any agency thereof and backed as to timely
+payment by the full faith and credit of the United
+
+
+                                       3
+<PAGE>   8
+
+States Government; (5) investments in commercial paper, other than commercial
+paper issued by the Company or its affiliates, of any corporation incorporated
+under the laws of the United States or any State thereof, which commercial paper
+has a rating at the time of purchase at least equal to "A-1" by Standard &
+Poor's Ratings Services ("S&P") or at least equal to "P-1" by Moody's Investors
+Service, Inc. ("MOODY'S"); and (6) investments in money market funds (including,
+but not limited to, money market funds managed by the Collateral Agent or an
+affiliate of the Collateral Agent) registered under the Investment Company Act
+of 1940, as amended, rated in the highest applicable rating category by S&P or
+Moody's.
+
+         "PERSON" means any legal person, including any individual, corporation,
+estate, partnership, joint venture, association, joint-stock company, limited
+liability company, trust, unincorporated organization or government or any
+agency or political subdivision thereof.
+
+         "PLEDGE" means the lien and security interest created by this
+Agreement.
+
+         "PLEDGED PREFERRED SECURITIES" means the Preferred Securities and
+security entitlements with respect thereto from time to time credited to the
+Collateral Account and not then released from the Pledge.
+
+         "PLEDGED SENIOR DEFERRABLE NOTES" means Senior Deferrable Notes and
+security entitlements with respect thereto from time to time credited to the
+Collateral Account and not then released from the Pledge.
+
+         "PLEDGED TREASURY SECURITIES" means Treasury Securities and security
+entitlements with respect thereto from time to time credited to the Collateral
+Account and not then released from the Pledge.
+
+         "PROCEEDS" has the meaning ascribed thereto in the UCC and includes,
+without limitation, all interest, dividends, cash, instruments, securities,
+financial assets (as defined in Section 8-102(a)(9) of the UCC) and other
+property received, receivable or otherwise distributed upon the sale, exchange,
+collection or disposition of any financial assets from time to time held in the
+Collateral Account.
+
+         "PURCHASE CONTRACT AGENT" has the meaning specified in the paragraph
+preceding the recitals of this Agreement.
+
+         "TRADES" means the Treasury/Reserve Automated Debt Entry System
+maintained by the Federal Reserve Bank of New York pursuant to the TRADES
+Regulations.
+
+         "TRADES REGULATIONS" means the regulations of the United States
+Department of the Treasury, published at 31 C.F.R. Part 357, an amended from
+time to time. Unless otherwise defined herein, all terms defined in the TRADES
+Regulations are used herein as therein defined.
+
+         "TRANSFER" means in the case of certificated securities in registered
+form, delivery as provided in Section 8-301(a) of the UCC, indorsed to the
+transferee or in blank by an effective endorsement; in the case of Treasury
+Securities, registration of the transferee as the owner of such Treasury
+Securities on TRADES; and in the case of security entitlements, including,
+
+
+                                       4
+<PAGE>   9
+
+without limitation, security entitlements with respect to Treasury Securities, a
+securities intermediary indicating by book entry that such security entitlement
+has been credited to the transferee's securities account.
+
+
+         "TREASURY SECURITIES" means zero-coupon U.S. treasury securities (Cusip
+No. 912820BG1) which mature on August 15, 2003.
+
+         "UCC" means the Uniform Commercial Code as in effect in the State of
+New York from time to time.
+
+         "VALUE" means, with respect to any item of Collateral on any date, as
+to (1) Cash, the face amount thereof and (2) Treasury Securities, the aggregate
+principal amount thereof at maturity and (3) the Preferred Securities, the
+liquidation amount thereof.
+
+         SECTION 2.        PLEDGE.
+
+         SECTION 2.1       PLEDGE.
+
+         Each Holder, acting through the Purchase Contract Agent as such
+Holder's attorney-in-fact, hereby pledges and grants to the Collateral Agent, as
+agent of and for the benefit of the Company, a continuing first priority
+security interest in and to, and a lien upon and right of set-off against, all
+of such Holder's right, title and interest in and to the Collateral Account to
+secure the prompt and complete payment and performance when due (whether at
+stated maturity, by acceleration or otherwise) of the Obligations. The
+Collateral Agent shall have all of the rights, remedies and recourses with
+respect to the Collateral afforded a secured party by the UCC, in addition to,
+and not in limitation of, the other rights, remedies and recourses afforded to
+the Collateral Agent by this Agreement.
+
+         SECTION  2.2      CONTROL; FINANCING STATEMENT.
+
+         (a) The Collateral Agent shall have control of the Collateral Account
+pursuant to the provisions of Section 4 of this Agreement.
+
+         (b) Subsequent to the date of initial issuance of the Securities, the
+Purchase Contract Agent shall deliver to the Collateral Agent a financing
+statement prepared by the Company for filing in the Office of the Secretary of
+State of the State of New York and any other jurisdictions which the Company
+deems necessary, signed by the Purchase Contract Agent, as attorney-in-fact for
+the Holders, as Debtors, and describing the Collateral.
+
+         SECTION  2.3      TERMINATION.
+
+         As to each Holder, this Agreement and the Pledge created hereby shall
+terminate upon the satisfaction of such Holder's Obligations. Upon such
+termination, the Securities Intermediary shall Transfer such Holder's portion of
+the Collateral to the Purchase Contract Agent for
+
+
+
+                                       5
+<PAGE>   10
+
+distribution to such Holder in accordance with his interest, free and clear of
+any lien, pledge or security interest created hereby.
+
+
+
+         SECTION 3.        DISTRIBUTIONS ON PLEDGED COLLATERAL.
+
+         SECTION 3.1       INCOME DISTRIBUTIONS.
+
+         All income distributions received by the Securities Intermediary on
+account of the Preferred Securities, the Applicable Ownership Interest (as
+specified in clause (A) of the definition of such term) of the Treasury
+Portfolio, the Senior Deferrable Notes or Permitted Investments from time to
+time held in the Collateral Account shall be distributed to the Purchase
+Contract Agent (ABA No. 021000018, GLA No. 111-565, A/C No. 072645, Re: Valero
+Energy Corp.) for the benefit of the applicable Holders as provided in the
+Purchase Contracts or Purchase Contract Agreement.
+
+         SECTION 3.2       PRINCIPAL PAYMENTS FOLLOWING TERMINATION EVENT.
+
+         All payments received by the Securities Intermediary following a
+Termination Event of (1) the liquidation amount of Pledged Preferred Securities
+or securities entitlements thereto, or (2) the Applicable Ownership Interests
+(as specified in Clause (A) of the definition thereof) of the Treasury
+Portfolio, (3) the aggregate principal amount of the Pledged Senior Deferrable
+Notes or securities entitlements thereto, or (4) the principal amount of the
+Pledged Treasury Securities, shall be distributed to the Purchase Contract Agent
+for the benefit of the applicable Holders for distribution to such Holders in
+accordance with their respective interests.
+
+         SECTION 3.3       PRINCIPAL PAYMENTS PRIOR TO OR ON PURCHASE CONTRACT
+                           SETTLEMENT DATE.
+
+         (a) Subject to the provisions of Section 7.2, and except as provided in
+clause 3.3(b) below, if no Termination Event shall have occurred, all payments
+received by the Securities Intermediary of (1) the liquidation amount with
+respect to the Pledged Preferred Securities or security entitlements with
+respect thereto, (2) Applicable Ownership Interests (as specified in Clause (A)
+of the definition thereof) of the Treasury Portfolio, (3) the aggregate
+principal amount with respect to the Pledged Senior Deferrable Notes or security
+entitlements with respect thereto or (4) the principal amount of Pledged
+Treasury Securities, shall be held and invested in Permitted Investments until
+the Purchase Contract Settlement Date and on the Purchase Contract Settlement
+Date distributed to the Company as provided in Section 5.7 hereof. Any balance
+remaining in the Collateral Account shall be distributed to the Purchase
+Contract Agent for the benefit of the applicable Holders for distribution to
+such Holders in accordance with their respective interests. Upon the request of
+the Securities Intermediary, the Company shall instruct the Securities
+Intermediary as to the type of Permitted Investments in which any payments made
+under this Section shall be invested, provided, however, that if the Company
+fails to deliver such instructions by 10:30 a.m. (New York City time), the
+Securities Intermediary shall invest such payments in the Permitted Investments
+described in clause 6 of the definition of Permitted Investments.
+
+                                       6
+<PAGE>   11
+
+         (b) All payments received by the Securities Intermediary of (1) the
+liquidation amount of Preferred Securities or security entitlements with respect
+thereto, (2) Applicable Ownership interests (as specified in Clause (A) of the
+definition thereof) of the Treasury Portfolio, (3) the aggregate principal
+amount with respect to the Senior Deferrable Notes or security entitlements with
+respect thereto or (4) the principal amount of Treasury Securities or security
+entitlements with respect thereto, that, in each case, have been released from
+the Pledge shall be distributed to the Purchase Contract Agent for the benefit
+of the applicable Holders for distribution to such Holders in accordance with
+their respective interests.
+
+         SECTION 3.4       PAYMENTS TO PURCHASE CONTRACT AGENT.
+
+         The Securities Intermediary shall use all commercially reasonable
+efforts to deliver payments to the Purchase Contract Agent hereunder to the
+account designated by the Purchase Contract Agent for such purpose not later
+than 12:00 p.m. (New York City time) on the Business Day such payment is
+received by the Securities Intermediary; provided, however, that if such payment
+is received on a day that is not a Business Day or after 11:00 A.M. (New York
+City time) on a Business Day, then the Securities Intermediary shall use all
+commercially reasonable efforts to deliver such payment no later than 10:30 a.m.
+(New York City time) on the next succeeding Business Day.
+
+         SECTION  3.5      ASSETS NOT PROPERLY RELEASED.
+
+         If the Purchase Contract Agent or any Holder shall receive any
+principal payments on account of financial assets credited to the Collateral
+Account and not released therefrom in accordance with this Agreement, the
+Purchase Contract Agent or such Holder shall hold the same as trustee of an
+express trust for the benefit of the Company and, upon receipt of an Officers'
+Certificate of the Company so directing, promptly deliver the same to the
+Securities Intermediary for credit to the Collateral Account or to the Company
+for application to the Obligations of the Holders, and the Purchase Contract
+Agent and Holders shall acquire no right, title or interest in any such payments
+of principal amounts so received.
+
+         SECTION  4.       CONTROL
+
+         SECTION  4.1      ESTABLISHMENT OF COLLATERAL ACCOUNT.
+
+         The Securities Intermediary hereby confirms that:
+
+                  (1) the Securities Intermediary has established the Collateral
+         Account;
+
+                  (2) the Collateral Account is a securities account;
+
+                  (3) subject to the terms of this Agreement, the Securities
+         Intermediary shall treat the Purchase Contract Agent as entitled to
+         exercise the rights that comprise any financial asset credited to the
+         Collateral Account;
+
+
+                                       7
+<PAGE>   12
+
+                  (4) all property delivered to the Securities Intermediary
+         pursuant to this Agreement or the Purchase Contract Agreement will be
+         credited promptly to the Collateral Account;
+
+                  (5) all securities or other property underlying any financial
+         assets credited to the Collateral Account shall be registered in the
+         name of the Securities Intermediary, indorsed to the Securities
+         Intermediary or in blank, or credited to another securities account
+         maintained in the name of the Securities Intermediary, and in no case
+         will any financial asset credited to the Collateral Account be
+         registered in the name of the Purchase Contract Agent or any Holder,
+         payable to the order of the Purchase Contract Agent or any Holder or
+         specially indorsed to the Purchase Contract Agent or any Holder.
+
+         SECTION  4.2      TREATMENT AS FINANCIAL ASSETS.
+
+                  Each item of property (whether investment property, financial
+         asset, security, instrument or cash) credited to the Collateral Account
+         shall be treated as a financial asset.
+
+         SECTION 4.3       SOLE CONTROL BY COLLATERAL AGENT.
+
+         Except as provided in Section 6, at all times prior to the termination
+of the Pledge, the Collateral Agent shall have sole control of the Collateral
+Account, and the Securities Intermediary shall take instructions and directions
+with respect to the Collateral Account solely from the Collateral Agent. If at
+any time the Securities Intermediary shall receive an entitlement order issued
+by the Collateral Agent and relating to the Collateral Account, the Securities
+Intermediary shall comply with such entitlement order without further consent by
+the Purchase Contract Agent or any Holder or any other Person. Until termination
+of the Pledge, the Securities Intermediary will not comply with any entitlement
+orders issued by the Purchase Contract Agent or any Holder.
+
+         SECTION 4.4       SECURITIES INTERMEDIARY'S LOCATION.
+
+         The Collateral Account, and the rights and obligations of the
+Securities Intermediary, the Collateral Agent, the Purchase Contract Agent and
+the Holders with respect thereto, shall be governed by the laws of the State of
+New York. Regardless of any provision in any other agreement, for purposes of
+the UCC, New York shall be deemed to be the Securities Intermediary's location.
+
+         SECTION  4.5      NO OTHER CLAIMS.
+
+         Except for the claims and interest of the Collateral Agent and of the
+Purchase Contract Agent and the Holders in the Collateral Account, the
+Securities Intermediary (without making any investigation) does not know of any
+claim to, or interest in, the Collateral Account or in any financial asset
+credited thereto. If any person asserts any lien, encumbrance or adverse claim
+(including any writ, garnishment, judgment, warrant of attachment, execution or
+similar process) against the Collateral Account or in any financial asset
+carried therein, the Securities Intermediary will promptly notify the Collateral
+Agent and the Purchase Contract Agent.
+
+
+                                       8
+<PAGE>   13
+
+         SECTION  4.6      INVESTMENT AND RELEASE.
+
+         All proceeds of financial assets from time to time deposited in the
+Collateral Account shall be invested and reinvested as provided in this
+Agreement. At all times prior to termination of the Pledge, no property shall be
+released from the Collateral Account except in accordance with this Agreement or
+upon written instructions of the Collateral Agent.
+
+
+         SECTION 4.7       STATEMENTS AND CONFIRMATIONS.
+
+         The Securities Intermediary will promptly send copies of all
+statements, confirmations and other correspondence concerning the Collateral
+Account and any financial assets credited thereto simultaneously to each of the
+Purchase Contract Agent and the Collateral Agent at their addresses for notices
+under this Agreement.
+
+         SECTION 4.8       TAX ALLOCATIONS.
+
+         The Purchase Contract Agent shall report all items of income, gain,
+expense and loss recognized in the Collateral Account, to the extent such
+reporting is required by law, to the Internal Revenue Service and all state and
+local taxing authorities under the names and taxpayer identification numbers of
+the Holders which are the beneficial owners thereof. Neither the Securities
+Intermediary nor the Collateral Agent shall have any tax reporting duties
+hereunder.
+
+         SECTION 4.9       NO OTHER AGREEMENTS.
+
+         The Securities Intermediary has not entered into, and prior to the
+termination of the Pledge will not enter into, any agreement with any other
+Person relating to the Collateral Account or any financial assets credited
+thereto, including, without limitation, any agreement to comply with entitlement
+orders of any Person other than the Collateral Agent.
+
+         SECTION  4.10     POWERS COUPLED WITH AN INTEREST.
+
+         The rights and powers granted in this Section 4 to the Collateral Agent
+have been granted in order to perfect its security interests in the Collateral
+Account, are powers coupled with an interest and will be affected neither by the
+bankruptcy of the Purchase Contract Agent or any Holder nor by the lapse of
+time. The obligations of the Securities Intermediary under this Section 4 shall
+continue in effect until the termination of the Pledge.
+
+         SECTION  5.       INITIAL DEPOSIT; ESTABLISHMENT OF TREASURY PEPS UNITS
+                           AND RE-ESTABLISHMENT OF PEPS UNITS
+
+         SECTION  5.1      INITIAL DEPOSIT OF TRUST PREFERRED SECURITIES.
+
+         Prior to or concurrently with the execution and delivery of this
+Agreement, the Purchase Contract Agent, on behalf of the initial Holders of the
+PEPS Units, shall Transfer to the Securities Intermediary, for credit to the
+Collateral Account, the Preferred Securities or security entitlements relating
+thereto, and the Securities Intermediary shall indicate by book-entry that a
+securities entitlement to such Preferred Securities has been credited to the
+Collateral Account.
+
+
+                                       9
+<PAGE>   14
+
+         SECTION 5.2       ESTABLISHMENT OF TREASURY PEPS UNITS.
+
+         (a) So long as no Tax Event Redemption shall have occurred, and the
+Trust shall not have been dissolved and liquidated, at any time prior to or on
+the seventh Business Day immediately preceding August 18, 2003, a Holder of PEPS
+Units shall have the right to establish or reestablish Treasury PEPS Units by
+substitution of Treasury Securities or security entitlements with respect
+thereto for the Pledged Preferred Securities comprising a part of such Holder's
+PEPS Units in integral multiples of 40 PEPS Units by:
+
+                  (1) Transferring to the Securities Intermediary for credit to
+         the Collateral Account Treasury Securities or security entitlements
+         with respect thereto having a Value equal to the aggregate liquidation
+         amount of the Pledged Preferred Securities to be released, accompanied
+         by a notice, substantially in the form of Exhibit C to the Purchase
+         Contract Agreement, whereupon the Purchase Contract Agent shall deliver
+         to the Collateral Agent a notice, substantially in the form of Exhibit
+         A hereto, (A) stating that such Holder has Transferred Treasury
+         Securities or security entitlements with respect thereto to the
+         Securities Intermediary for credit to the Collateral Account, (B)
+         stating the Value of the Treasury Securities or security entitlements
+         with respect thereto Transferred by such Holder and (C) requesting that
+         the Collateral Agent release from the Pledge the Pledged Preferred
+         Securities that are a component of such PEPS Units; and
+
+                  (2) delivering the related PEPS Units to the Purchase Contract
+         Agent.
+
+         Upon receipt of such notice and confirmation that Treasury Securities
+or security entitlements with respect thereto have been credited to the
+Collateral Account as described in such notice, the Collateral Agent shall
+instruct the Securities Intermediary by a notice, substantially in the form of
+Exhibit B hereto, to release such Pledged Preferred Securities from the Pledge
+by Transfer to the Purchase Contract Agent for distribution to such Holder, free
+and clear of any lien, pledge or security interest created hereby.
+
+         (b) If a Tax Event Redemption has occurred and the Treasury Portfolio
+has become a component of the PEPS Units, a Holder of PEPS Units shall not have
+the right to establish or reestablish Treasury PEPS Units.
+
+         (c) If no Tax Event Redemption shall have occurred, but the Trust shall
+have been dissolved and liquidated, and the Senior Deferrable Notes have become
+a component of the PEPS Units, at any time on or prior to the seventh Business
+Day immediately preceding August 18, 2003, a Holder of PEPS Units shall have the
+right to substitute Treasury Securities or security entitlements with respect
+thereto for the Pledged Senior Deferrable Notes comprising a part of such
+Holder's PEPS Units in integral multiples of 40 PEPS Units by:
+
+                  (1) Transferring to the Securities Intermediary for credit to
+         the Collateral Account Treasury Securities or security entitlements
+         with respect thereto having a Value equal to the aggregate principal
+         amount at maturity of Pledged Senior Deferrable Notes to be released,
+         accompanied by a notice, substantially in the form of Exhibit C to the
+         Purchase Contract Agreement, whereupon the Purchase Contract Agent
+         shall deliver to the
+
+
+                                       10
+<PAGE>   15
+
+         Collateral Agent a notice, substantially in the form of Exhibit A
+         hereto, (A) stating that such Holder has Transferred Treasury
+         Securities or security entitlements with respect thereto to the
+         Securities Intermediary for credit to the Collateral Account, (B)
+         stating the Value of the Treasury Securities or securities entitlements
+         with respect thereto Transferred by such Holder and (C) requesting that
+         the Collateral Agent release from the Pledge the Pledged Senior
+         Deferrable Notes that are a component of such PEPS Units; and
+
+                  (2) delivering the related PEPS Units to the Purchase Contract
+         Agent.
+
+         Upon receipt of such notice and confirmation that Treasury Securities
+or security entitlements with respect thereto have been credited to the
+Collateral Account as described in such notice, the Collateral Agent shall
+instruct the Securities Intermediary by a notice, substantially in the form of
+Exhibit B hereto, to release such Pledged Senior Deferrable Notes from the
+Pledge by Transfer to the Purchase Contract Agent for distribution to such
+Holder free and clear of any lien, pledge or security interest created hereby.
+
+         (d) Upon credit to the Collateral Account of Treasury Securities or
+security entitlements with respect thereto delivered by a Holder of PEPS Units
+and receipt of the related instruction from the Collateral Agent, the Securities
+Intermediary shall release the Pledged Preferred Securities or the Pledged
+Senior Deferrable Notes, as the case may be, and shall promptly transfer the
+same to the Purchase Contract Agent for distribution to such Holder, free and
+clear of any lien, pledge or security interest created hereby.
+
+         SECTION 5.3       RE-ESTABLISHMENT OF PEPS UNITS.
+
+         (a) So long as no Tax Event Redemption shall have occurred, and the
+Trust shall not have been dissolved and liquidated, at any time on or prior to
+the seventh Business Day immediately preceding August 18, 2003, a Holder of
+Treasury PEPS Units shall have the right to reestablish PEPS Units by
+substitution of Preferred Securities or security entitlements with respect
+thereto for Pledged Treasury Securities in integral multiples of 40 Treasury
+PEPS Units by:
+
+                  (1) Transferring to the Securities Intermediary for credit to
+         the Collateral Account Preferred Securities or security entitlements
+         with respect thereto having a liquidation amount equal to the Value of
+         the Pledged Treasury Securities to be released, accompanied by a
+         notice, substantially in the form of Exhibit C to the Purchase Contract
+         Agreement, whereupon the Purchase Contract Agent shall deliver to the
+         Collateral Agent a notice, substantially in the form of Exhibit C
+         hereto, stating that such Holder has Transferred Trust Preferred
+         Securities or security entitlements with respect thereto to the
+         Securities Intermediary for credit to the Collateral Account and
+         requesting that the Collateral Agent release from the Pledge the
+         Pledged Treasury Securities related to such Treasury PEPS Units; and
+
+                  (2) Delivering the related Treasury PEPS Units to the Purchase
+         Contract Agent.
+
+                                       11
+<PAGE>   16
+
+         Upon receipt of such notice and confirmation that Preferred Securities
+or security entitlements thereto have been credited to the Collateral Account as
+described in such notice, the Collateral Agent shall instruct the Securities
+Intermediary by a notice in the form provided in Exhibit D to release such
+Pledged Treasury Securities from the Pledge by Transfer to the Purchase Contract
+Agent for distribution to such Holder, free and clear of any lien, pledge or
+security interest created hereby.
+
+         (b) If a Tax Event Redemption has occurred and the Treasury Portfolio
+has become a component of the PEPS Units, a holder of a Treasury PEPS Unit shall
+not have the right to reestablish a PEPS Unit.
+
+         (c) If no Tax Event Redemption shall have occurred, but the Trust shall
+have been dissolved and liquidated, and the Senior Deferrable Notes have become
+a component of the PEPS Units, at any time on or prior to the seventh Business
+Day immediately preceding August 18, 2003, a Holder of Treasury PEPS Units shall
+have the right to reestablish PEPS Units by substitution of Senior Deferrable
+Notes or security entitlements with respect thereto for Pledged Treasury
+Securities in integral multiples of 40 Treasury PEPS Units by:
+
+                  (1) Transferring to the Securities Intermediary for credit to
+         the Collateral Account Senior Deferrable Notes or security entitlements
+         with respect thereto having a principal amount equal to the Value of
+         the Pledged Treasury Securities to be released, accompanied by a
+         notice, substantially in the form of Exhibit C to the Purchase Contract
+         Agreement, whereupon the Purchase Contract Agent shall deliver to the
+         Collateral Agent a notice, substantially in the form of Exhibit C
+         hereto, stating that such Holder has Transferred the Senior Deferrable
+         Notes or security entitlements with respect thereto to the Securities
+         Intermediary for credit to the Collateral Account and requesting that
+         the Collateral Agent release from the Pledge the Pledged Treasury
+         Securities related to such Treasury PEPS Units; and
+
+                  (2) delivering the related Treasury PEPS Units to the Purchase
+         Contract Agent.
+
+         Upon receipt of such notice and confirmation that Senior Deferrable
+Notes or security entitlements with respect thereto have been credited to the
+Collateral Account as described in such notice, the Collateral Agent shall
+instruct the Securities Intermediary by a notice in the form provided in Exhibit
+D to release such Pledged Treasury Securities from Pledge by Transfer to the
+Purchase Contract Agent for distribution to such Holder, free and clear of any
+lien, pledge or security interest created hereby.
+
+         (d) Upon credit to the Collateral Account of Preferred Securities or
+security entitlements with respect thereto or Senior Deferrable Notes or
+security entitlements with respect thereto, as the case may be, delivered by a
+Holder of Treasury PEPS Units and receipt of the related instruction from the
+Collateral Agent, the Securities Intermediary shall release the Pledged Treasury
+Securities and shall promptly transfer the same to the Purchase Contract Agent
+for distribution to such Holder, free and clear of any lien, pledge or security
+interest created hereby.
+
+
+                                       12
+<PAGE>   17
+
+         SECTION 5.4       TERMINATION EVENT.
+
+         (a) Upon receipt by the Collateral Agent of written notice from the
+Company or the Purchase Contract Agent that a Termination Event has occurred,
+the Collateral Agent shall release all Collateral from the Pledge and shall
+promptly Transfer:
+
+                  (1) any Pledged Preferred Securities or security entitlements
+         with respect thereto or the Applicable Ownership Interest (as specified
+         in clause (A) of the definition of such term) of the Treasury Portfolio
+         (if a Tax Event Redemption has occurred and the Treasury Portfolio has
+         become a component of the PEPS Units) or the Pledged Senior Deferrable
+         Notes (if the Trust has been dissolved and liquidated, and the Senior
+         Deferrable Notes or security entitlements with respect thereto have
+         become a component of the PEPS Units);
+
+                  (2) any Pledged Treasury Securities, and
+
+                  (3) payments by Holders (or the Permitted Investments of such
+         payments) pursuant to Section 5.5 hereof,
+
+to the Purchase Contract Agent for the benefit of the Holders for distribution
+to such Holders in accordance with their respective interests, free and clear of
+any lien, pledge or security interest or other interest created hereby;
+provided, however, if any Holder shall be entitled to receive less than $1,000
+with respect to his interest in the Applicable Ownership Interest (as specified
+in clause (A) of the definition of such term) of the Treasury Portfolio, the
+Purchase Contract Agent shall have the right to dispose of such interest for
+cash and deliver to such Holder cash in lieu of delivering the Applicable
+Ownership Interest (as specified in clause (A) of the definition of such term)
+of the Treasury Portfolio.
+
+         (b) If such Termination Event shall result from the Company's becoming
+a debtor under the Bankruptcy Code, and if the Collateral Agent shall for any
+reason fail promptly to effectuate the release and Transfer of all Pledged
+Preferred Securities, the Applicable Ownership Interest (as specified in clause
+(A) of the definition of such term) of the Treasury Portfolio, the Pledged
+Senior Deferrable Notes, the Pledged Treasury Securities or payments by Holders
+(or the Permitted Investments of such payments) pursuant to Section 5.5 hereof,
+as the case may be, as provided by this Section 5.4, the Purchase Contract Agent
+shall:
+
+                  (1) use its best efforts to obtain an opinion of a nationally
+         recognized law firm reasonably acceptable to the Collateral Agent to
+         the effect that, as a result of the Company's being the debtor in such
+         a bankruptcy case, the Collateral Agent will not be prohibited from
+         releasing or Transferring the Collateral as provided in this Section
+         5.4, and shall deliver such opinion to the Collateral Agent within ten
+         days after the occurrence of such Termination Event, and if (A) the
+         Purchase Contract Agent shall be unable to obtain such opinion within
+         ten days after the occurrence of such Termination Event or (B) the
+         Collateral Agent shall continue, after delivery of such opinion, to
+         refuse to effectuate the release and Transfer of all Preferred
+         Securities, Applicable Ownership Interest (as specified in clause (A)
+         of the definition of such term) of the Treasury Portfolio, all the
+         Pledged Senior Deferrable Notes, the Pledged Treasury Securities, the
+         payments by Holders or the Permitted Investments of such payments
+         pursuant to Section 5.5 hereof or
+
+
+                                       13
+<PAGE>   18
+
+
+         the Proceeds of any of the foregoing, as the case may be, as provided
+         in this Section 5.4, then the Purchase Contract Agent shall within
+         fifteen days after the occurrence of such Termination Event commence an
+         action or proceeding in the court having jurisdiction of the Company's
+         case under the Bankruptcy Code seeking an order requiring the
+         Collateral Agent to effectuate the release and transfer of all Pledged
+         Preferred Securities, Applicable Ownership Interest (as specified in
+         clause (A) of the definition of such term) of the Treasury Portfolio,
+         all the Pledged Senior Deferrable Notes, the Pledged Treasury
+         Securities, or the payments by Holders or the Permitted Investments of
+         such payments pursuant to Section 5.5 hereof, or as the case may be, as
+         provided by this Section 5.4; or
+
+                  (2) commence an action or proceeding like that described in
+         clause 5.4(b)(1) hereof within ten days after the occurrence of such
+         Termination Event.
+
+
+         SECTION  5.5      CASH SETTLEMENT.
+
+         (a) Upon receipt by the Collateral Agent of (1) a notice from the
+Purchase Contract Agent promptly after the receipt by the Purchase Contract
+Agent of a notice from a Holder of PEPS Units that such Holder has elected, in
+accordance with the procedures specified in Section 5.4(a)(i) or (d)(i) of the
+Purchase Contract Agreement, respectively, to effect a Cash Settlement and (2)
+payment by such Holder by deposit in the Collateral Account prior to or on 11:00
+a.m. (New York City time) on the fifth Business Day immediately preceding August
+18, 2003, in the case of a PEPS Unit, unless a Tax Event Redemption has
+occurred, or on the Business Day prior to August 18, 2003 in the case of
+Treasury PEPS or a PEPS Unit, if a Tax Event Redemption has occurred, of the
+Purchase Price in lawful money of the United States by certified or cashier's
+check or wire transfer of immediately available funds payable to or upon the
+order of the Securities Intermediary, then the Collateral Agent shall:
+
+                  (1) instruct the Securities Intermediary promptly to invest
+         any such Cash in Permitted Investments;
+
+                  (2) release from the Pledge the PEPS Unit holder's or the
+         Treasury PEPS Unit holder's related Pledged Preferred Securities,
+         Applicable Ownership Interest (as specified in clause (A) of the
+         definition of such term) of the Treasury Portfolio, the Pledged Senior
+         Deferrable Notes or Pledged Treasury Securities, as applicable, as to
+         which such Holder has elected to effect a Cash Settlement pursuant to
+         this Section 5.5(a); and
+
+                  (3) instruct the Securities Intermediary to Transfer all such
+         Pledged Preferred Securities, Applicable Ownership Interest (as
+         specified in clause (A) of the definition of such term) of the Treasury
+         Portfolio, Pledged Senior Deferrable Notes or the Pledged Treasury
+         Securities, as the case may be, to the Purchase Contract Agent for the
+         benefit of such Holder, in each case free and clear of the Pledge
+         created hereby, for distribution to such Holder.
+
+         Upon the request of the Securities Intermediary, the Company shall
+instruct the Securities Intermediary as to the type of Permitted Investments in
+which any such Cash shall be invested;
+
+
+                                       14
+<PAGE>   19
+
+provided, however, that if the Company fails to deliver such instructions by
+10:30 a.m. (New York City time), the Securities Intermediary shall invest such
+Cash in the Permitted Investments described in clause 6 of the definition of
+Permitted Investments.
+
+         Upon receipt of the proceeds upon the maturity of the Permitted
+Investments on the Purchase Contract Settlement Date, the Collateral Agent shall
+(A) instruct the Securities Intermediary to pay the portion of such proceeds and
+deliver any certified or cashier's checks received, in an aggregate amount equal
+to the Purchase Price, to the Company on the Purchase Contract Settlement Date,
+and (B) instruct the Securities Intermediary to release any amounts in excess of
+the Purchase Price earned from such Permitted Investments to the Purchase
+Contract Agent for distribution to such Holder.
+
+         (a) If a Holder of PEPS Units (if a Tax Event Redemption shall not have
+occurred) notifies the Purchase Contract Agent as provided in paragraph
+5.4(a)(i) of the Purchase Contract Agreement of its intention to pay the
+Purchase Price in cash, but fails to make such payment as required by paragraph
+5.4(a)(ii) of the Purchase Contract Agreement, such Holder shall be deemed to
+have consented to the disposition of such Holder's Pledged Preferred Securities
+or Pledged Senior Deferrable Notes in accordance with paragraph 5.4(a)(iii) of
+the Purchase Contract Agreement.
+
+         (b) If a Holder of a Treasury PEPS Unit or a Holder of PEPS Unit (if a
+Tax Event Redemption shall have occurred) notifies the Purchase Contract Agent
+as provided in paragraph 5.4(d)(i) of the Purchase Contract Agreement of its
+intention to pay the Purchase Price in cash, but fails to make such payment as
+required by paragraph 5.4(d)(ii) of the Purchase Contract Agreement, such Holder
+shall be deemed to have elected to pay the Purchase Price in accordance with
+paragraph 5.4(d)(iii) of the Purchase Contract Agreement.
+
+         (c) As soon as practicable after 11:00 a.m. (New York City time) on the
+fifth Business Day immediately preceding the Purchase Contract Settlement Date,
+the Securities Intermediary shall deliver to the Purchase Contract Agent a
+notice, substantially in the form of Exhibit E hereto, stating (i) the amount of
+cash that it has received with respect to the Cash Settlement of PEPS Units and
+(ii) the amount of cash that it has received with respect to the Cash Settlement
+of Treasury PEPS Units.
+
+         SECTION 5.6       EARLY SETTLEMENT.
+
+         Upon receipt by the Collateral Agent of a notice from the Purchase
+Contract Agent that a Holder of Securities has elected to effect Early
+Settlement of its obligations under the Purchase Contracts forming a part of
+such Securities in accordance with the terms of the Purchase Contracts and
+Section 5.9 of the Purchase Contract Agreement (which notice shall set forth the
+number of such Purchase Contracts as to which such Holder has elected to effect
+Early Settlement), and that the Purchase Contract Agent has received from such
+Holder, and paid to the Company as confirmed in writing by the Company, the
+related Early Settlement Amounts pursuant to the terms of the Purchase Contracts
+and the Purchase Contract Agreement and that all conditions to such Early
+Settlement have been satisfied, then the Collateral Agent shall release from the
+Pledge, (1) Pledged Preferred Securities or the appropriate Applicable Ownership
+
+
+                                       15
+<PAGE>   20
+Interest (as specified in clause (A) of the definitions at such term) of the
+Treasury Portfolio or Pledged Senior Deferrable Notes in the case of a Holder of
+PEPS Units or (2) Pledged Treasury Securities, in the case of a Holder of
+Treasury PEPS Units, with a Value equal to the product of (x) the Stated Amount
+times (y) the number of Purchase Contracts as to which such Holder has elected
+to effect Early Settlement, and shall instruct the Securities Intermediary to
+Transfer all such Pledged Preferred Securities or the appropriate Applicable
+Ownership Interest (as specified in clause (A) of the definitions at such term)
+of the Treasury Portfolio or Pledged Senior Deferrable Notes or Pledged Treasury
+Securities, as the case may be, to the Purchase Contract Agent for the benefit
+of such Holder, in each case free and clear of the Pledge created hereby, for
+distribution to such Holder. A Treasury PEPS Unit holder may settle early only
+in integral multiples of 40 Purchase Contracts.
+
+         SECTION 5.7       APPLICATION OF PROCEEDS IN SETTLEMENT OF PURCHASE
+                           CONTRACTS.
+
+         (a) If a Holder of PEPS Units (if a Tax Event Redemption has not
+occurred) has not elected to make an effective Cash Settlement by notifying the
+Purchase Contract Agent in the manner provided for in Section 5.4(a)(i) in the
+Purchase Contract Agreement, or has given such notice but failed to deliver the
+required cash prior to 11:00 A.M. (New York City time) on the fifth Business Day
+immediately preceding August 18, 2003, such Holder shall be deemed to have
+elected to pay for the shares of Common Stock to be issued under such Purchase
+Contracts from the Proceeds of the remarketing of the related Pledged Preferred
+Securities or Pledged Senior Deferrable Notes. Upon notice of such event from
+the Purchase Contract Agent, the Collateral Agent shall instruct the Securities
+Intermediary to Transfer the related Pledged Preferred Securities or Pledged
+Senior Deferrable Notes to the Remarketing Agent for remarketing. Upon receiving
+such Pledged Preferred Securities or Pledged Senior Deferrable Notes, the
+Remarketing Agent, pursuant to the terms of the Remarketing Agreement, will use
+reasonable efforts to remarket such Pledged Preferred Securities or Pledged
+Senior Deferrable Notes. The Remarketing Agent will deposit the Proceeds of such
+remarketing (less $0.0625 per each Preferred Security remarketed, which shall be
+retained by the Remarketing Agent as a fee for its services in the Remarketing)
+in the Collateral Account, and the Securities Intermediary shall invest the
+Proceeds of the remarketing in Permitted Investments in clause 6 of the
+definition of Permitted Investments. On the Purchase Contract Settlement Date,
+the Purchase Contract Agent shall give written direction to the Collateral Agent
+specifying the instruction the Collateral Agent shall give to the Securities
+Intermediary in order to apply a portion of the Proceeds from such remarketing
+equal to the aggregate liquidation amount of the Preferred Securities or
+aggregate principal amount of such Pledged Senior Deferrable Note to satisfy in
+full such Holder's obligations to pay the Purchase Price to purchase the shares
+of Common Stock under the related Purchase Contracts and the balance of the
+Proceeds from the remarketing, if any, that shall be transferred to the Purchase
+Contract Agent for the benefit of such Holder for distribution to such Holder.
+
+         If the Remarketing Agent advises the Collateral Agent in writing that
+there has been a Failed Remarketing, thus resulting in an event of default under
+the Purchase Contract Agreement and hereunder, the Collateral Agent, for the
+benefit of the Company shall, at the written direction of the Company, dispose
+of the Pledged Preferred Securities or Pledged Senior Deferrable Notes
+
+
+                                       16
+<PAGE>   21
+
+
+in accordance with applicable law and satisfy in full, from such disposition,
+such Holder's obligations to pay the Purchase Price for the shares of Common
+Stock.
+
+         (b) If a Holder of a Treasury PEPS Unit or a Holder of PEPS Unit (if a
+Tax Event Redemption has occurred) has not elected to make an effective Cash
+Settlement by notifying the Purchase Contract Agent in the manner provided for
+in Section 5.4(d)(i) of the Purchase Contract Agreement, or has given such
+notice but failed to make such payment in the manner required by Section
+5.4(d)(ii) of the Purchase Contract Agreement, such Holder shall be deemed to
+have elected to pay for the shares of Common Stock to be issued under such
+Purchase Contracts from the Proceeds of the related Pledged Treasury Securities
+or such Applicable Ownership Interest (as specified in clause (A) of the
+definition of such term) of the Treasury Portfolio, as the case may be.
+Promptly, after 11:00 a.m. (New York City time) on the Business Day immediately
+prior to the Purchase Contract Settlement Date, the Securities Intermediary
+shall invest the Cash Proceeds of the maturing Pledged Treasury Securities or
+such Applicable Ownership Interest (as specified in clause (A) of the definition
+of such term) of the Treasury portfolios, as the case may be, in Permitted
+Investments in clause 6 of the definition of Permitted Investments, unless prior
+to 10:30 a.m. (New York City time), the Company shall otherwise instruct the
+Securities Intermediary as to the type of Permitted Investments in which any
+such Cash Proceeds shall be invested. Without receiving any instruction from any
+such Holder, the Collateral Agent shall apply the Proceeds of the related
+Pledged Treasury Securities or such Applicable Ownership Interest (as specified
+in clause (A) of the definition of such term) of the Treasury Portfolio, as the
+case may be, to the settlement of such Purchase Contracts on the Purchase
+Contract Settlement Date. In the event the sum of the Proceeds from the related
+Pledged Treasury Securities or such Applicable Ownership Interest (as specified
+in clause (A) of the definition of such term) of the Treasury Portfolio as the
+case may be, and the investment earnings from the investment in Permitted
+Investments exceeds the aggregate Purchase Price of the Purchase Contracts being
+settled thereby, the Collateral Agent shall instruct the Securities Intermediary
+to distribute such excess, when received, to the Purchase Contract Agent for the
+benefit of such Holder for distribution to such Holder.
+
+         SECTION 5.8       TAX EVENT REDEMPTION.
+
+         If the Securities Intermediary receives notice that a Tax Event
+Redemption has occurred prior to the Purchase Contract Settlement Date, the
+Securities Intermediary shall apply the Redemption Amount to purchase the
+Treasury Portfolio and the Securities Intermediary shall credit the Applicable
+Ownership Interest (as specified in clause (A) of the definition of such term)
+of the Treasury Portfolio to the Collateral Account and shall transfer the
+Applicable Ownership Interest (as specified in clause (B) of the definition of
+such term) of the Treasury Portfolio to the Purchase Contract Agent for
+distribution to the Holders of the PEPS Units. Upon credit to the Collateral
+Account of the Applicable Ownership Interest (as specified in clause (A) of the
+definition of such term) of the Treasury Portfolio having a Value equal to the
+liquidation amount of the Pledged Preferred Securities or the aggregate
+principal amount of the Pledged Senior Deferrable Notes, the Securities
+Intermediary shall release the Pledged Preferred Securities or the Pledged
+Senior Deferrable Notes, as applicable, from the Collateral Account and shall
+promptly transfer the Pledged Preferred Securities to the Trust and the Pledged
+Senior Deferrable Notes to the Company, as applicable.
+
+
+
+
+                                       17
+<PAGE>   22
+SECTION  6.     VOTING RIGHTS - TRUST PREFERRED SECURITIES AND
+                PLEDGED SENIOR DEFERRABLE NOTES
+
+         The Purchase Contract Agent may exercise, or refrain from exercising,
+any and all voting and other consensual rights pertaining to the Pledged
+Preferred Securities or the Pledged Senior Deferrable Notes or any part thereof
+for any purpose not inconsistent with the terms of this Agreement and in
+accordance with the terms of the Purchase Contract Agreement; provided, that the
+Purchase Contract Agent shall not exercise or shall not refrain from exercising
+such right, as the case may be, if, in the judgment of the Purchase Contract
+Agent, such action would impair or otherwise have a material adverse effect on
+the value of all or any of the Pledged Preferred Securities or the Pledged
+Senior Deferrable Notes; and provided, further, that the Purchase Contract Agent
+shall give the Company and the Collateral Agent at least five Business Days'
+prior written notice of the manner in which it intends to exercise, or its
+reasons for refraining from exercising, any such right. Upon receipt of any
+notices and other communications in respect of any Pledged Preferred Securities
+or the Pledged Senior Deferrable Notes, including notice of any meeting at which
+holders of the Preferred Securities or the Pledged Senior Deferrable Notes are
+entitled to vote or solicitation of consents, waivers or proxies of holders of
+the Preferred Securities or Senior Deferrable Notes, the Collateral Agent shall
+use reasonable efforts to send promptly to the Purchase Contract Agent such
+notice or communication, and as soon as reasonably practicable after receipt of
+a written request therefor from the Purchase Contract Agent, execute and deliver
+to the Purchase Contract Agent such proxies and other instruments in respect of
+such Pledged Preferred Securities or the Pledged Senior Deferrable Notes (in
+form and substance satisfactory to the Collateral Agent) as are prepared by the
+Purchase Contract Agent with respect to the Pledged Preferred Securities or the
+Pledged Senior Deferrable Notes.
+
+SECTION  7.     RIGHTS AND REMEDIES.
+
+         SECTION  7.1.     RIGHTS AND REMEDIES OF THE COLLATERAL AGENT.
+
+         (a) In addition to the rights and remedies specified in Section 5.7
+hereof or otherwise available at law or in equity, after an event of default (as
+specified in Section 7.1(b) below) hereunder, the Collateral Agent shall have
+all of the rights and remedies with respect to the Collateral of a secured party
+under the UCC (whether or not the UCC is in effect in the jurisdiction where the
+rights and remedies are asserted) and the TRADES Regulations and such additional
+rights and remedies to which a secured party is entitled under the laws in
+effect in any jurisdiction where any rights and remedies hereunder may be
+asserted. Without limiting the generality of the foregoing, such remedies may
+include, to the extent permitted by applicable law, (1) retention of the Pledged
+Preferred Securities, Pledged Senior Deferrable Notes, Pledged Treasury
+Securities or the appropriate Applicable Ownership Interest (as specified in
+clause (A) of the definition of such term) in full satisfaction of the Holders'
+obligations under the Purchase Contracts and the Purchase Contract Agreement or
+(2) sale of the Pledged Preferred Securities, Pledged Senior Deferrable Notes,
+Pledged Treasury Securities or the appropriate Applicable Ownership Interest (as
+specified in clause (A) of the definition of such term) in one or more public or
+private sales.
+
+
+                                       18
+<PAGE>   23
+
+
+
+         (b) Without limiting any rights or powers otherwise granted by this
+Agreement to the Collateral Agent, in the event the Collateral Agent is unable
+to make payments to the Company on account of the appropriate Applicable
+Ownership Interest (as specified in clause (A) of the definition of such term)
+of the Treasury Portfolio, or on account of principal payments of any Pledged
+Treasury Securities as provided in Section 3 hereof, in satisfaction of the
+Obligations of the Holder of the PEPS Units (if a Tax Event Redemption has
+occurred) of which such appropriate Applicable Ownership Interest (as specified
+in clause (A) of the definition of such term) of the Treasury Portfolio or the
+Holder of the Treasury PEPS Units of which such Pledged Treasury Securities, as
+applicable, is a part under the related Purchase Contracts, the inability to
+make such payments shall constitute an event of default hereunder and the
+Collateral Agent shall have and may exercise, with reference to such Pledged
+Treasury Securities or the appropriate Applicable Ownership Interest (as
+specified in clause (A) of the definition of such term) of the Treasury
+Portfolio, as applicable, any and all of the rights and remedies available to a
+secured party under the UCC and the TRADES Regulations after default by a
+debtor, and as otherwise granted herein or under any other law.
+
+         (c) Without limiting any rights or powers otherwise granted by this
+Agreement to the Collateral Agent, the Collateral Agent is hereby irrevocably
+authorized to receive and collect all payments of (i) the liquidation amount of
+the Pledged Preferred Securities, (ii) the principal amount of the Pledged
+Senior Deferrable Notes, (iii) the principal amount of the Pledged Treasury
+Securities and (iv) the principal amount of the Applicable Ownership Interest
+(as specified in clause (A) of the definition of such term) of the Treasury
+Portfolio, subject, in each case, to the provisions of Section 3 hereof, and as
+otherwise granted herein.
+
+         (d) The Purchase Contract Agent and each Holder of Securities agrees
+that, from time to time, upon the written request of the Collateral Agent or the
+Purchase Contract Agent, such Holder shall execute and deliver such further
+documents and do such other acts and things as the Collateral Agent may
+reasonably request in order to maintain the Pledge, and the perfection and
+priority thereof, and to confirm the rights of the Collateral Agent hereunder.
+The Purchase Contract Agent shall have no liability to any Holder for executing
+any documents or taking any such acts requested by the Collateral Agent
+hereunder, except for liability for its own negligent acts, its own negligent
+failure to act or its own willful misconduct.
+
+         SECTION 7.2       SUBSTITUTION OF SENIOR DEFERRABLE NOTES.
+
+         If the Trust shall have been dissolved and liquidated prior to the
+Purchase Contract Settlement Date, the Securities Intermediary shall transfer to
+the Collateral Agent Senior Deferrable Notes having a Value equal to the
+liquidation amount of the Pledged Preferred Securities for credit to the
+Collateral Account. Upon credit to the Collateral Account of such Senior
+Deferrable Notes, the Collateral Agent shall release the Pledged Preferred
+Securities from the Collateral Account and shall promptly transfer the same to
+the Trust.
+
+         SECTION  7.3      TAX EVENT REDEMPTION.
+
+         Upon the occurrence of a Tax Event Redemption prior to the Purchase
+Contract Settlement Date, the Redemption Price payable on the Tax Event
+Redemption Date with respect
+
+
+                                       19
+<PAGE>   24
+
+
+to the Applicable Principal Amount shall be credited to the Collateral Account
+by the Property Trustee or, in case there has been a dissolution of the Trust
+and the distribution of the related Senior Deferrable Notes, by the Indenture
+Trustee, on or prior to 12:30 p.m., New York City time on such Tax Event
+Redemption date, by federal funds check or wire transfer of immediately
+available funds. The Collateral Agent is hereby authorized to present the
+Pledged Preferred Securities or the Pledged Senior Deferrable Notes for payment
+as may be required by their respective terms. Upon receipt of such funds, the
+Pledged Preferred Securities or Pledged Senior Deferrable Notes, as the case may
+be, shall be released from the Collateral Account. In the event such funds are
+credited to the Collateral Account, the Collateral Agent, at the written
+direction of the Company, shall instruct the Securities Intermediary to (a)
+apply an amount equal to the Redemption Amount of such Redemption Price to
+purchase the Treasury Portfolio from the Quotation Agent for credit to the
+Collateral Account and (b) promptly remit the remaining portion of such
+Redemption Price, if any, to the Purchase Contract Agent for payment to the
+Holders of PEPS Units.
+
+         SECTION 7.4       SUBSTITUTIONS.
+
+         Whenever a Holder has the right to substitute Treasury Securities,
+Trust Preferred Securities, Senior Deferrable Notes or security entitlements for
+any of them or the appropriate Applicable Ownership Interest of the Treasury
+Portfolio, as the case may be, for financial assets held in the Collateral
+Account, such substitution shall not constitute a novation of the security
+interest created hereby.
+
+SECTION  8.     REPRESENTATIONS AND WARRANTIES; COVENANTS.
+
+         SECTION 8.1       REPRESENTATIONS AND WARRANTIES.
+
+         Each Holder from time to time, acting through the Purchase Contract
+Agent as attorney- in-fact (it being understood that the Purchase Contract Agent
+shall not be liable for any representation or warranty made by or on behalf of a
+Holder), hereby represents and warrants to the Collateral Agent (with respect to
+such Holder's interest in the Collateral), which representations and warranties
+shall be deemed repeated on each day a Holder Transfers Collateral that:
+
+                  (1) such Holder has the power to grant a security interest in
+         and lien on the Collateral;
+
+                  (2) such Holder is the sole beneficial owner of the Collateral
+         and, in the case of Collateral delivered in physical form, is the sole
+         holder of such Collateral and is the sole beneficial owner of, or has
+         the right to Transfer, the Collateral it Transfers to the Securities
+         Intermediary for credit to the Collateral Account, free and clear of
+         any security interest, lien, encumbrance, call, liability to pay money
+         or other restriction other than the security interest and lien granted
+         under Section 2 hereof;
+
+                  (3) upon the Transfer of the Collateral to the Securities
+         Intermediary for credit to the Collateral Account, the Collateral
+         Agent, for the benefit of the Company, will have a
+
+
+                                       20
+<PAGE>   25
+
+
+         valid and perfected first priority security interest therein (assuming
+         that any central clearing operation or any securities intermediary or
+         other entity not within the control of the Holder involved in the
+         Transfer of the Collateral, including the Collateral Agent and the
+         Securities Intermediary, gives the notices and takes the action
+         required of it hereunder and under applicable law for perfection of
+         that interest and assuming the establishment and exercise of control
+         pursuant to Section 4 hereof); and
+
+                  (4) the execution and performance by the Holder of its
+         obligations under this Agreement will not result in the creation of any
+         security interest, lien or other encumbrance on the Collateral other
+         than the security interest and lien granted under Section 2 hereof or
+         violate any provision of any existing law or regulation applicable to
+         it or of any mortgage, charge, pledge, indenture, contract or
+         undertaking to which it is a party or which is binding on it or any of
+         its assets.
+
+         SECTION  8.2      COVENANTS.
+
+         The Holders from time to time, acting through the Purchase Contract
+Agent as their attorney-in-fact (it being understood that the Purchase Contract
+Agent shall not be liable for any covenant made by or on behalf of a Holder),
+hereby covenant to the Collateral Agent that for so long as the Collateral
+remains subject to the Pledge:
+
+                  (1) neither the Purchase Contract Agent nor such Holders will
+         create or purport to create or allow to subsist any mortgage, charge,
+         lien, pledge or any other security interest whatsoever over the
+         Collateral or any part of it other than pursuant to this Agreement; and
+
+                  (2) neither the Purchase Contract Agent nor such Holders will
+         sell or otherwise dispose (or attempt to dispose) of the Collateral or
+         any part of it except for the beneficial interest therein, subject to
+         the Pledge hereunder, transferred in connection with the Transfer of
+         the Securities.
+
+SECTION 9.   THE COLLATERAL AGENT AND THE SECURITIES INTERMEDIARY.
+
+         It is hereby agreed as follows:
+
+         SECTION 9.1       APPOINTMENT, POWERS AND IMMUNITIES.
+
+         The Collateral Agent shall act as agent for the Company hereunder with
+such powers as are specifically vested in the Collateral Agent by the terms of
+this Agreement, together with such other powers as are reasonably incidental
+thereto. The Collateral Agent shall:
+
+                  (1) have no duties or responsibilities except those expressly
+         set forth in this Agreement and no implied covenants or obligations
+         shall be inferred from this Agreement against the Collateral Agent, nor
+         shall the Collateral Agent be bound by the provisions of any agreement
+         by any party hereto beyond the specific terms hereof;
+
+
+                                       21
+<PAGE>   26
+
+                  (2) not be responsible for any recitals contained in this
+         Agreement, or in any certificate or other document referred to or
+         provided for in, or received by it under, this Agreement, the
+         Securities or the Purchase Contract Agreement, or for the value,
+         validity, effectiveness, genuineness, enforceability or sufficiency of
+         this Agreement (other than as against the Collateral Agent), the
+         Securities or the Purchase Contract Agreement or any other document
+         referred to or provided for herein or therein or for any failure by the
+         Company or any other Person (except the Collateral Agent) to perform
+         any of its obligations hereunder or thereunder or for the perfection,
+         priority or, except as expressly required hereby, maintenance of any
+         security interest created hereunder;
+
+                  (3) not be required to initiate or conduct any litigation or
+         collection proceedings hereunder (except pursuant to directions
+         furnished under Section 9.2 hereof, subject to Section 9.6 hereof);
+
+                  (4) not be responsible for any action taken or omitted to be
+         taken by it hereunder or under any other document or instrument
+         referred to or provided for herein or in connection herewith or
+         therewith, except for its own negligence or willful misconduct; and
+
+                  (5) not be required to advise any party as to selling or
+         retaining, or taking or refraining from taking any action with respect
+         to, any securities or other property deposited hereunder.
+
+Subject to the foregoing, during the term of this Agreement, the Collateral
+Agent shall take all reasonable action in connection with the safekeeping and
+preservation of the Collateral hereunder.
+
+         No provision of this Agreement shall require the Collateral Agent to
+expend or risk its own funds or otherwise incur any financial liability in the
+performance of any of its duties hereunder. In no event shall the Collateral
+Agent be liable for any amount in excess of the Value of the Collateral.
+Notwithstanding the foregoing, each of the Collateral Agent and the Securities
+Intermediary in its individual capacity hereby waives any right of setoff,
+bankers' lien, liens or perfection rights as securities intermediary or any
+counterclaim with respect to any of the Collateral.
+
+         SECTION  9.2      INSTRUCTIONS OF THE COMPANY.
+
+         The Company shall have the right, by one or more written instruments
+executed and delivered to the Collateral Agent, to direct the time, method and
+place of conducting any proceeding for the realization of any right or remedy
+available to the Collateral Agent, or of exercising any power conferred on the
+Collateral Agent, or to direct the taking or refraining from taking of any
+action authorized by this Agreement; provided, however, that (i) such direction
+shall not conflict with the provisions of any law or of this Agreement and (ii)
+the Collateral Agent shall be adequately indemnified as provided herein. Nothing
+contained in this Section 9.2 shall impair the right of the Collateral Agent in
+its discretion to take any action or omit to take any action which it deems
+proper and which is not inconsistent with such direction.
+
+
+                                       22
+<PAGE>   27
+
+         SECTION  9.3      RELIANCE BY COLLATERAL AGENT AND SECURITIES
+                           INTERMEDIARY.
+
+         Each of the Securities Intermediary and the Collateral Agent shall be
+entitled to rely upon any certification, order, judgment, opinion, notice or
+other written communication (including, without limitation, any thereof by
+e-mail or similar electronic means, telecopy, telex or facsimile) believed by it
+to be genuine and correct and to have been signed or sent by or on behalf of the
+proper Person or Persons (without being required to determine the correctness of
+any fact stated therein) and consult with and rely upon advice, opinions and
+statements of legal counsel and other experts selected by the Collateral Agent
+and the Securities Intermediary. As to any matters not expressly provided for by
+this Agreement, the Collateral Agent and the Securities Intermediary shall in
+all cases be fully protected in acting, or in refraining from acting, hereunder
+in accordance with instructions given by the Company in accordance with this
+Agreement.
+
+         SECTION  9.4      RIGHTS IN OTHER CAPACITIES.
+
+         The Collateral Agent and the Securities Intermediary and their
+affiliates may (without having to account therefor to the Company) accept
+deposits from, lend money to, make their investments in and generally engage in
+any kind of banking, trust or other business with the Purchase Contract Agent,
+any other Person interested herein and any Holder of Securities (and any of
+their respective subsidiaries or affiliates) as if it were not acting as the
+Collateral Agent or the Securities Intermediary, as the case may be, and the
+Collateral Agent, the Securities Intermediary and their affiliates may accept
+fees and other consideration from the Purchase Contract Agent and any Holder of
+Securities without having to account for the same to the Company; provided that
+each of the Securities Intermediary and the Collateral Agent covenants and
+agrees with the Company that it shall not accept, receive or permit there to be
+created in favor of itself and shall take no affirmative action to permit there
+to be created in favor of any other Person, any security interest, lien or other
+encumbrance of any kind in or upon the Collateral other than the lien created by
+the Pledge.
+
+         SECTION  9.5      NON-RELIANCE ON COLLATERAL AGENT AND SECURITIES
+                           INTERMEDIARY.
+
+         Neither the Securities Intermediary nor the Collateral Agent shall be
+required to keep itself informed as to the performance or observance by the
+Purchase Contract Agent or any Holder of Securities of this Agreement, the
+Purchase Contract Agreement, the Securities or any other document referred to or
+provided for herein or therein or to inspect the properties or books of the
+Purchase Contract Agent or any Holder of Securities. Neither the Collateral
+Agent nor the Securities Intermediary shall have any duty or responsibility to
+provide the Company with any credit or other information concerning the affairs,
+financial condition or business of the Purchase Contract Agent or any Holder of
+Securities (or any of their respective affiliates) that may come into the
+possession of the Collateral Agent or the Securities Intermediary or any of
+their respective affiliates.
+
+         SECTION  9.6      COMPENSATION AND INDEMNITY.
+
+         The Company agrees to:
+
+
+
+                                       23
+<PAGE>   28
+
+
+                  (1) pay the Collateral Agent and the Securities Intermediary
+         from time to time such compensation as shall be agreed in writing
+         between the Company and the Collateral Agent or the Securities
+         Intermediary, as the case may be, for all services rendered by them
+         hereunder;
+
+                  (2) indemnify and hold harmless the Collateral Agent, the
+         Securities Intermediary and each of their respective directors,
+         officers, agents and employees (collectively, the "INDEMNITEES"),
+         harmless from and against any and all claims, liabilities, losses,
+         damages, fines, penalties and expenses (including reasonable fees and
+         expenses of counsel) (collectively, "LOSSES" and individually, a
+         "LOSS") that may be imposed on, incurred by, or asserted against, the
+         Indemnitees or any of them for following any instructions or other
+         directions upon which either the Collateral Agent or the Securities
+         Intermediary is entitled to rely pursuant to the terms of this
+         Agreement; and
+
+                  (3) in addition to and not in limitation of paragraph (2)
+         immediately above, indemnify and hold the Indemnitees and each of them
+         harmless from and against any and all Losses that may be imposed on,
+         incurred by or asserted against, the Indemnitees or any of them in
+         connection with or arising out of the Collateral Agent's or the
+         Securities Intermediary's acceptance or performance of its powers and
+         duties under this Agreement, provided the Collateral Agent or the
+         Securities Intermediary has not acted with negligence or engaged in
+         willful misconduct or bad faith with respect to the specific Loss
+         against which indemnification is sought.
+
+         SECTION  9.7      FAILURE TO ACT.
+
+         In the event of any ambiguity in the provisions of this Agreement or
+any dispute between or conflicting claims by or among the parties hereto or any
+other Person with respect to any funds or property deposited hereunder, then at
+its sole option, each of the Collateral Agent and the Securities Intermediary
+shall be entitled, after prompt notice to the Company and the Purchase Contract
+Agent, to refuse to comply with any and all claims, demands or instructions with
+respect to such property or funds so long as such dispute or conflict shall
+continue, and the Collateral Agent and the Securities Intermediary shall not be
+or become liable in any way to any of the parties hereto for its failure or
+refusal to comply with such conflicting claims, demands or instructions. The
+Collateral Agent and the Securities Intermediary shall be entitled to refuse to
+act until either:
+
+                  (1) such conflicting or adverse claims or demands shall have
+         been finally determined by a court of competent jurisdiction or settled
+         by agreement between the conflicting parties as evidenced in a writing
+         satisfactory to the Collateral Agent or the Securities Intermediary; or
+
+                  (2) the Collateral Agent or the Securities Intermediary shall
+         have received security or an indemnity satisfactory to it sufficient to
+         save it harmless from and against any and all loss, liability or
+         reasonable out-of-pocket expense which it may incur by reason of its
+         acting.
+
+                                       24
+
+<PAGE>   29
+
+
+The Collateral Agent and the Securities Intermediary may in addition elect to
+commence an interpleader action or seek other judicial relief or orders as the
+Collateral Agent or the Securities Intermediary may deem necessary.
+Notwithstanding anything contained herein to the contrary, neither the
+Collateral Agent nor the Securities Intermediary shall be required to take any
+action that is in its opinion contrary to law or to the terms of this Agreement,
+or which would in its opinion subject it or any of its officers, employees or
+directors to liability.
+
+         SECTION  9.8      RESIGNATION OF COLLATERAL AGENT AND SECURITIES
+                           INTERMEDIARY.
+
+                  (a) Subject to the appointment and acceptance of a successor
+         Collateral Agent as provided below:
+
+                           (1) the Collateral Agent may resign at any time by
+                  giving notice thereof to the Company and the Purchase Contract
+                  Agent as attorney-in-fact for the Holders of Securities;
+
+
+                           (2) the Collateral Agent may be removed at any time
+                  by the Company; and
+
+                           (3) if the Collateral Agent fails to perform any of
+                  its material obligations hereunder in any material respect for
+                  a period of not less than 20 days after receiving written
+                  notice of such failure by the Purchase Contract Agent and such
+                  failure shall be continuing, the Collateral Agent may be
+                  removed by the Purchase Contract Agent.
+
+The Purchase Contract Agent shall promptly notify the Company of any removal of
+the Collateral Agent pursuant to clause (3) of the immediately preceding
+sentence. Upon any such resignation or removal, the Company shall have the right
+to appoint a successor Collateral Agent. If no successor Collateral Agent shall
+have been so appointed and shall have accepted such appointment within 30 days
+after the retiring Collateral Agent's giving of notice of resignation or the
+Company or the Purchase Contract Agent giving notice of such removal, then the
+retiring Collateral Agent may petition any court of competent jurisdiction for
+the appointment of a successor Collateral Agent. The Collateral Agent shall be a
+bank or a national banking association which has an office (or an agency office)
+in New York City with a combined capital and surplus of at least $50,000,000 and
+shall not be the Purchase Contract Agent or any of its affiliates. Upon the
+acceptance of any appointment as Collateral Agent hereunder by a successor
+Collateral Agent, such successor Collateral Agent shall thereupon succeed to and
+become vested with all the rights, powers, privileges and duties of the retiring
+Collateral Agent, and the retiring Collateral Agent shall take all appropriate
+action to transfer any money and property held by it hereunder (including the
+Collateral) to such successor Collateral Agent. The retiring Collateral Agent
+shall, upon such succession, be discharged from its duties and obligations as
+Collateral Agent hereunder. After any retiring Collateral Agent's resignation
+hereunder as Collateral Agent, the provisions of this Section 9 shall continue
+in effect for its benefit in respect of any actions taken or omitted to be taken
+by it while it was acting as the Collateral Agent.
+
+         (b) Subject to the appointment and acceptance of a successor Securities
+Intermediary as provided below:
+
+
+
+                                       25
+<PAGE>   30
+
+
+                  (1) the Securities Intermediary may resign at any time by
+         giving notice thereof to the Company and the Purchase Contract Agent as
+         attorney-in-fact for the Holders of Securities;
+
+                  (2) the Securities Intermediary may be removed at any time by
+         the Company; and
+
+                  (3) if the Securities Intermediary fails to perform any of its
+         material obligations hereunder in any material respect for a period of
+         not less than 20 days after receiving written notice of such failure by
+         the Purchase Contract Agent and such failure shall be continuing, the
+         Securities Intermediary may be removed by the Purchase Contract Agent.
+
+The Purchase Contract Agent shall promptly notify the Company of any removal of
+the Securities Intermediary pursuant to clause (3) of the immediately preceding
+sentence. Upon any such resignation or removal, the Company shall have the right
+to appoint a successor Securities Intermediary. If no successor Securities
+Intermediary shall have been so appointed and shall have accepted such
+appointment within 30 days after the retiring Securities Intermediary's giving
+of notice of resignation or the Company or the Purchase Contract Agent giving
+notice of such removal, then the retiring Securities Intermediary may petition
+any court of competent jurisdiction for the appointment of a successor
+Securities Intermediary. The Securities Intermediary shall be a bank or a
+national banking association which has an office (or an agency office) in New
+York City with a combined capital and surplus of at least $50,000,000 and shall
+not be the Purchase Contract Agent or any of its affiliates. Upon the acceptance
+of any appointment as Securities Intermediary hereunder by a successor
+Securities Intermediary, such successor Securities Intermediary shall thereupon
+succeed to and become vested with all the rights, powers, privileges and duties
+of the retiring Securities Intermediary, and the retiring Securities
+Intermediary shall take all appropriate action to transfer any money and
+property held by it hereunder (including the Collateral) to such successor
+Securities Intermediary. The retiring Securities Intermediary shall, upon such
+succession, be discharged from its duties and obligations as Securities
+Intermediary hereunder. After any retiring Securities Intermediary's resignation
+hereunder as Securities Intermediary, the provisions of this Section 9 shall
+continue in effect for its benefit in respect of any actions taken or omitted to
+be taken by it while it was acting as the Securities Intermediary.
+
+         SECTION  9.9      RIGHT TO APPOINT AGENT OR ADVISOR.
+
+         The Collateral Agent shall have the right to appoint agents or advisors
+in connection with any of its duties hereunder, and the Collateral Agent shall
+not be liable for any action taken or omitted by, or in reliance upon the advice
+of, such agents or advisors selected in good faith. The appointment of agents
+pursuant to this Section 9.9 shall be subject to prior consent of the Company,
+which consent shall not be unreasonably withheld.
+
+         SECTION  9.10     SURVIVAL.
+
+         The provisions of this Section 9 shall survive termination of this
+Agreement and the resignation or removal of the Collateral Agent or the
+Securities Intermediary.
+
+
+                                       26
+<PAGE>   31
+
+
+         SECTION  9.11     EXCULPATION.
+
+         Anything contained in this Agreement to the contrary notwithstanding,
+in no event shall the Collateral Agent or the Securities Intermediary or their
+officers, directors, employees or agents be liable under this Agreement to any
+third party for indirect, special, punitive, or consequential loss or damage of
+any kind whatsoever, including, but not limited to, lost profits, whether or not
+the likelihood of such loss or damage was known to the Collateral Agent or the
+Securities Intermediary, or any of them.
+
+SECTION  10       AMENDMENT.
+
+         SECTION  10.1     AMENDMENT WITHOUT CONSENT OF HOLDERS.
+
+         Without the consent of any Holders, the Company, the Collateral Agent,
+the Securities Intermediary and the Purchase Contract Agent, at any time and
+from time to time, may amend this Agreement, in form satisfactory to the
+Company, the Collateral Agent, the Securities Intermediary and the Purchase
+Contract Agent, to:
+
+                  (1) evidence the succession of another Person to the Company,
+         and the assumption by any such successor of the covenants of the
+         Company;
+
+                  (2) evidence and provide for the acceptance of appointment
+         hereunder by a successor Collateral Agent, Securities Intermediary or
+         Purchase Contract Agent;
+
+                  (3) add to the covenants of the Company for the benefit of the
+         Holders, or surrender any right or power herein conferred upon the
+         Company, provided such covenants or such surrender do not adversely
+         affect the validity, perfection or priority of the Pledge created
+         hereunder; or
+
+                  (4) cure any ambiguity (or formal defect), correct or
+         supplement any provisions herein which may be inconsistent with any
+         other such provisions herein, or make any other provisions with respect
+         to such matters or questions arising under this Agreement, provided
+         such action shall not adversely affect the interests of the Holders.
+
+         SECTION  10.2     AMENDMENT WITH CONSENT OF HOLDERS.
+
+         With the consent of the Holders of not less than a majority of the
+Purchase Contracts at the time outstanding, by Act of such Holders delivered to
+the Company, the Purchase Contract Agent, the Securities Intermediary or the
+Collateral Agent, as the case may be, the Company, when duly authorized, the
+Purchase Contract Agent, the Securities Intermediary and the Collateral Agent
+may amend this Agreement for the purpose of modifying in any manner the
+provisions of this Agreement or the rights of the Holders in respect of the
+Securities; provided, however, that no such supplemental agreement shall,
+without the unanimous consent of the Holders of each Outstanding Security
+adversely affected thereby:
+
+
+                                       27
+<PAGE>   32
+
+
+
+                  (1) Change the amount or type of Collateral underlying a
+         Security (except for the rights of holders of PEPS Units to substitute
+         the Treasury Securities for the Pledged Preferred Securities or the
+         Pledged Senior Deferrable Notes, as the case may be, or the rights of
+         Holders of Treasury PEPS Units to substitute Preferred Securities or
+         Senior Deferrable Notes, as applicable, for the Pledged Treasury
+         Securities), impair the right of the Holder of any Security to receive
+         distributions on the underlying Collateral or otherwise adversely
+         affect the Holder's rights in or to such Collateral; or
+
+                  (2) otherwise effect any action that would require the consent
+         of the Holder of each Outstanding Security affected thereby pursuant to
+         the Purchase Contract Agreement if such action were effected by an
+         agreement supplemental thereto; or
+
+                  (3) reduce the percentage of Purchase Contracts the consent of
+         whose Holders is required for any such amendment;
+
+provided that if any amendment or proposal referred to above would adversely
+affect only the PEPS Units or only the Treasury PEPS Units, then only the
+affected class of Holders as of the record date for the Holders entitled to vote
+thereon will be entitled to vote on such amendment or proposal, and such
+amendment or proposal shall not be effective except with the consent of Holders
+of not less than a majority of such class; provided, further, that the unanimous
+consent of the Holders of each outstanding Purchase Contract of such class
+affected thereby shall be required to approve any amendment or proposal
+specified in clauses (1) through (3) above.
+
+         It shall not be necessary for any Act of Holders under this Section to
+approve the particular form of any proposed amendment, but it shall be
+sufficient if such Act shall approve the substance thereof.
+
+         SECTION  10.3     EXECUTION OF AMENDMENTS.
+
+         In executing any amendment permitted by this Section, the Collateral
+Agent, the Securities Intermediary and the Purchase Contract Agent shall be
+entitled to receive and (subject to Section 7.1 of the Purchase Contract
+Agreement with respect to the Purchase Contract Agent) shall be fully protected
+in relying upon, an Opinion of Counsel stating that the execution of such
+amendment is authorized or permitted by this Agreement and that all conditions
+precedent, if any, to the execution and delivery of such amendment have been
+satisfied.
+
+         SECTION  10.4     EFFECT OF AMENDMENTS.
+
+         Upon the execution of any amendment under this Section, this Agreement
+shall be modified in accordance therewith, and such amendment shall form a part
+of this Agreement for all purposes; and every Holder of Certificates theretofore
+or thereafter authenticated, executed on behalf of the Holders and delivered
+under the Purchase Contract Agreement shall be bound thereby.
+
+
+                                       28
+<PAGE>   33
+
+
+         SECTION  10.5     REFERENCE TO AMENDMENTS.
+
+         Certificates authenticated, executed on behalf of the Holders and
+delivered after the execution of any amendment pursuant to this Section may, and
+shall if required by the Collateral Agent or the Purchase Contract Agent, bear a
+notation in form approved by the Purchase Contract Agent and the Collateral
+Agent as to any matter provided for in such amendment. If the Company shall so
+determine, new Security Certificates so modified as to conform, in the opinion
+of the Collateral Agent, the Purchase Contract Agent and the Company, to any
+such amendment may be prepared and executed by the Company and authenticated,
+executed on behalf of the Holders and delivered by the Purchase Contract Agent
+in accordance with the Purchase Contract Agreement in exchange for Outstanding
+Security Certificates.
+
+SECTION 11.   MISCELLANEOUS.
+
+         SECTION  11.1     NO WAIVER.
+
+         No failure on the part of the Collateral Agent, the Securities
+Intermediary or any of their respective agents to exercise, and no course of
+dealing with respect to, and no delay in exercising, any right, power or remedy
+hereunder shall operate as a waiver thereof; nor shall any single or partial
+exercise by the Collateral Agent, the Securities Intermediary or any of their
+respective agents of any right, power or remedy hereunder preclude any other or
+further exercise thereof or the exercise of any other right, power or remedy.
+The remedies herein are cumulative and are not exclusive of any remedies
+provided by law.
+
+         SECTION  11.2     GOVERNING LAW.
+
+         THIS AGREEMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH,
+THE LAWS OF THE STATE OF NEW YORK. The Company, the Collateral Agent, the
+Securities Intermediary and the Holders from time to time of the Securities,
+acting through the Purchase Contract Agent as their attorney-in-fact, hereby
+submit to the nonexclusive jurisdiction of the United States District Court for
+the Southern District of New York and of any New York state court sitting in New
+York City for the purposes of all legal proceedings arising out of or relating
+to this Agreement or the transactions contemplated hereby. The Company, the
+Collateral Agent, the Securities Intermediary and the Holders from time to time
+of the Securities, acting through the Purchase Contract Agent as their
+attorney-in-fact, irrevocably waive, to the fullest extent permitted by
+applicable law, any objection which they may now or hereafter have to the laying
+of the venue of any such proceeding brought in such a court and any claim that
+any such proceeding brought in such a court has been brought in an inconvenient
+forum.
+
+         SECTION  11.3     NOTICES.
+
+         All notices, requests, consents and other communications provided for
+herein (including, without limitation, any modifications of, or waivers or
+consents under, this Agreement) shall be given or made in writing (including,
+without limitation, by telecopy) delivered to the intended recipient at the
+"ADDRESS FOR NOTICES" specified below its name on the signature pages hereof or,
+as to any party, at such other address as shall be designated by such party in a
+notice to the other parties. Except as otherwise provided in this Agreement, all
+such communications shall be
+
+
+                                       29
+<PAGE>   34
+
+
+deemed to have been duly given when transmitted by telecopier or personally
+delivered or, in the case of a mailed notice, upon receipt, in each case given
+or addressed as aforesaid.
+
+         SECTION  11.4     SUCCESSORS AND ASSIGNS.
+
+         This Agreement shall be binding upon and inure to the benefit of the
+respective successors and assigns of the Company, the Collateral Agent, the
+Securities Intermediary and the Purchase Contract Agent, and the Holders from
+time to time of the Securities, by their acceptance of the same, shall be deemed
+to have agreed to be bound by the provisions hereof and to have ratified the
+agreements of, and the grant of the Pledge hereunder by, the Purchase Contract
+Agent.
+
+         SECTION  11.5     COUNTERPARTS.
+
+         This Agreement may be executed in any number of counterparts, all of
+which taken together shall constitute one and the same instrument, and any of
+the parties hereto may execute this Agreement by signing any such counterpart.
+
+         SECTION  11.6     SEVERABILITY.
+
+         If any provision hereof is invalid and unenforceable in any
+jurisdiction, then, to the fullest extent permitted by law, (i) the other
+provisions hereof shall remain in full force and effect in such jurisdiction and
+shall be liberally construed in order to carry out the intentions of the parties
+hereto as nearly as may be possible and (ii) the invalidity or unenforceability
+of any provision hereof in any jurisdiction shall not affect the validity or
+enforceability of such provision in any other jurisdiction.
+
+         SECTION  11.7     EXPENSES, ETC.
+
+         The Company agrees to reimburse the Collateral Agent and the Securities
+Intermediary for:
+
+                  (1) all reasonable costs and expenses of the Collateral Agent
+         and the Securities Intermediary (including, without limitation, the
+         reasonable fees and expenses of counsel to the Collateral Agent and the
+         Securities Intermediary), in connection with (i) the negotiation,
+         preparation, execution and delivery or performance of this Agreement
+         and (ii) any modification, supplement or waiver of any of the terms of
+         this Agreement;
+
+                  (2) all reasonable costs and expenses of the Collateral Agent
+         and the Securities Intermediary (including, without limitation,
+         reasonable fees and expenses of counsel) in connection with (i) any
+         enforcement or proceedings resulting or incurred in connection with
+         causing any Holder of Securities to satisfy its obligations under the
+         Purchase Contracts forming a part of the Securities and (ii) the
+         enforcement of this Section 11.7;
+
+                  (3) all transfer, stamp, documentary or other similar taxes,
+         assessments or charges levied by any governmental or revenue authority
+         in respect of this Agreement or any other
+
+
+                                       30
+<PAGE>   35
+
+         document referred to herein and all costs, expenses, taxes, assessments
+         and other charges incurred in connection with any filing, registration,
+         recording or perfection of any security interest contemplated hereby;
+
+                  (4) all fees and expenses of any agent or advisor appointed by
+         the Collateral Agent and consented to by the Company under Sections 9.3
+         and 9.9 of this Agreement; and
+
+                  (5) any other out-of-pocket costs and expenses reasonably
+         incurred by the Collateral Agent and the Securities Intermediary in
+         connection with the performance of their duties hereunder.
+
+         SECTION  11.8     SECURITY INTEREST ABSOLUTE.
+
+         All rights of the Collateral Agent and security interests hereunder,
+and all obligations of the Holders from time to time hereunder, shall be
+absolute and unconditional irrespective of:
+
+                  (1) any lack of validity or enforceability of any provision of
+         the Purchase Contracts or the Securities or any other agreement or
+         instrument relating thereto;
+
+                  (2) any change in the time, manner or place of payment of, or
+         any other term of, or any increase in the amount of, all or any of the
+         obligations of Holders of the Securities under the related Purchase
+         Contracts, or any other amendment or waiver of any term of, or any
+         consent to any departure from any requirement of, the Purchase Contract
+         Agreement or any Purchase Contract or any other agreement or instrument
+         relating thereto; or
+
+                  (3) any other circumstance which might otherwise constitute a
+         defense available to, or discharge of, a borrower, a guarantor or a
+         pledger.
+
+         SECTION 11.9       NOTICE OF TAX EVENT, TAX EVENT REDEMPTION AND
+                            TERMINATION EVENT.
+
+         Upon the occurrence of a Tax Event, a Tax Event Redemption or a
+Termination Event, the Company shall deliver written notice to the Collateral
+Agent and the Securities Intermediary. Upon the written request of the
+Collateral Agent or the Securities Intermediary, the Company shall inform such
+party whether or not a Tax Event, a Tax Event Redemption or a Termination Event
+has occurred.
+
+                       [SIGNATURES ON THE FOLLOWING PAGE]
+
+
+                                       31
+<PAGE>   36
+
+
+
+
+         IN WITNESS WHEREOF, the parties hereto have caused this Agreement to be
+duly executed as of the day and year first above written.
+
+
+----------------------------------           -----------------------------------
+VALERO ENERGY CORPORATION                    THE BANK OF NEW YORK as
+                                             Purchase Contract Agent and as
+                                             attorney-in-fact of the Holders
+                                             from time to time of the Securities
+
+By:                                          By:
+   -------------------------------               -------------------------------
+   Name: John D. Gibbons                         Name:
+   Title: Vice President and Chief               Title:
+           Financial Officer
+
+
+
+Address for Notices:                         Address for Notices:
+
+Valero Energy Corporation                    The Bank of New York
+One Valero Place                             101 Barclay Street
+P.O. Box 500                                 21 West
+San Antonio, Texas 78212 (78292-0500)        New York, NY 10286
+Attention: Jay D. Browning                   Attention: Corporate Trust Trustee
+Telecopy: (210) 370-2988                     Administration
+With a copy to: Donna M. Titzman             Telecopy: (212) 815-5915
+Telecopy: (210) 370-2497
+
+
+
+----------------------------------           -----------------------------------
+BANK ONE TRUST COMPANY, N.A.,                BANK ONE TRUST COMPANY, N.A.,
+as Collateral Agent                          as Securities Intermediary
+
+By:                                          By:
+   -------------------------------               -------------------------------
+   Name:                                         Name:
+   Title:                                        Title:
+
+Address for Notices:                         Address for Notices:
+
+Bank One Trust Company, N.A.                 Bank One Trust Company, N.A.
+One North State Street, 9th Floor            One North State Street, 9th Floor
+Chicago, Illinois 60670-0126                 Chicago, Illinois 60670-0126
+Attention:  Corporate Trust                  Attention:  Corporate Trust
+             Administration                               Administration
+Telecopy: (312) 407-1708                     Telecopy: (312) 407-1708
+
+
+
+                                       32
+<PAGE>   37
+
+                                                                       EXHIBIT A
+
+                                   INSTRUCTION
+                          FROM PURCHASE CONTRACT AGENT
+                               TO COLLATERAL AGENT
+                     (Establishment of Treasury PEPS Units)
+
+
+Bank One Trust Company, N.A.
+One North State Street, 9th Floor
+Chicago, Illinois 60670-0126
+Attention:  Corporate Trust Administration
+Telecopy: (312) 407-1708
+
+         Re:      PEPS Units of Valero Energy Corporation. (the "COMPANY") and
+                  VEC Trust I
+
+                  The securities account of Bank One Trust Company, N.A., as
+                  Collateral Agent, maintained by the Securities Intermediary
+                  and designated "The Bank One Trust Company, N.A., as
+                  Collateral Agent of Valero Energy Corporation, as pledgee of
+                  The Bank of New York, as the Purchase Contract Agent on behalf
+                  of and as attorney-in-fact for the Holders" (the "COLLATERAL
+                  ACCOUNT")
+
+         Please refer to the Pledge Agreement, dated as of June 28, 2000 (the
+"PLEDGE AGREEMENT"), among the Company, you, as Collateral Agent, Bank One Trust
+Company, N.A., as Securities Intermediary, and the undersigned, as Purchase
+Contract Agent and as attorney-in- fact for the holders of PEPS Units from time
+to time. Capitalized terms used herein but not defined shall have the meaning
+set forth in the Pledge Agreement.
+
+         We hereby notify you in accordance with Section 5.2 of the Pledge
+Agreement that the holder of securities named below (the "HOLDER") has elected
+to substitute $__________ Value of Treasury Securities or security entitlements
+thereto in exchange for [an equal Value of [Pledged Preferred Securities]
+[Pledged Senior Deferrable Notes] relating to _________ PEPS Units] and has
+delivered to the undersigned a notice stating that the Holder has Transferred
+such Treasury Securities or security entitlements thereto to the Securities
+Intermediary, for credit to the Collateral Account.
+
+         We hereby request that you instruct the Securities Intermediary, upon
+confirmation that such Treasury Securities or security entitlements thereto have
+been credited to the Collateral Account, to release to the undersigned [an equal
+Value of [Pledged Preferred Securities] [Pledged Senior Deferrable Notes]] in
+accordance with Section 5.2 of the Pledge Agreement. We also hereby confirm that
+no Tax Event Redemption has occurred.
+
+
+                                      A-1
+<PAGE>   38
+
+                                   THE BANK OF NEW YORK,
+Date:                              as Purchase Contract Agent and as
+      ---------------------        attorney-in-fact of the Holders from time to
+                                   time of the Securities
+
+
+                                   By:
+                                       -----------------------------------------
+                                       Name:
+                                       Title:
+
+
+                                      A-2
+<PAGE>   39
+
+Please print name and address of Holder electing to substitute Treasury
+Securities or security entitlements thereto for the [Pledged Preferred
+Securities] [Pledged Senior Deferrable Notes]:
+
+
+
+-------------------------------------            -------------------------------
+                Name                             Social Security or other
+                                                 Taxpayer Identification Number,
+                                                 if any
+
+
+-------------------------------------
+               Address
+
+
+-------------------------------------
+
+
+-------------------------------------
+
+
+                                      A-3
+<PAGE>   40
+
+                                                                       EXHIBIT B
+
+                                   INSTRUCTION
+                              FROM COLLATERAL AGENT
+                           TO SECURITIES INTERMEDIARY
+                     (Establishment of Treasury PEPS Units)
+
+
+Bank One Trust Company, N.A., as Securities Intermediary
+One North State Street, 9th Floor
+Chicago, Illinois 60670-0126
+Attention:  Corporate Trust Administration
+Telecopy: (312) 407-1708
+
+         Re:      PEPS Units of Valero Energy Corporation (the "COMPANY") and
+                  VEC Trust I
+
+                  The securities account of Bank One Trust Company, N.A., as
+                  Collateral Agent, maintained by the Securities Intermediary
+                  and designated "The Bank One Trust Company, N.A., as
+                  Collateral Agent of Valero Energy Corporation, as pledgee of
+                  The Bank of New York, as the Purchase Contract Agent on behalf
+                  of and as attorney-in-fact for the Holders" (the "COLLATERAL
+                  ACCOUNT")
+
+         Please refer to the Pledge Agreement, dated as of June 28, 2000 (the
+"PLEDGE AGREEMENT"), among the Company, you, as Securities Intermediary, The
+Bank of New York, as Purchase Contract Agent and as attorney-in-fact for the
+holders of PEPS Units from time to time, and the undersigned, as Collateral
+Agent. Capitalized terms used herein but not defined shall have the meanings set
+forth in the Pledge Agreement.
+
+         When you have confirmed that $__________ Value of Treasury Securities
+or security entitlements thereto has been credited to the Collateral Account by
+or for the benefit of _________, as Holder of PEPS Units (the "HOLDER"), you are
+hereby instructed to release from the Collateral Account [an equal Value of
+[Preferred Securities or security entitlements thereto] [Senior Deferrable Notes
+or security entitlements thereto]] relating to _____ PEPS Units of the Holder]
+by Transfer to the Purchase Contract Agent.
+
+                                          BANK ONE TRUST COMPANY, N.A.,
+                                          as Collateral Agent
+
+Dated:
+      -----------------------
+                                          By:
+                                              ----------------------------------
+                                              Name:
+                                              Title:
+
+
+                                       B-1
+
+
+<PAGE>   41
+
+
+
+Please print name and address of Holder:
+
+
+-------------------------------------            -------------------------------
+                Name                             Social Security or other
+                                                 Taxpayer Identification Number,
+                                                 if any
+
+
+-------------------------------------
+               Address
+
+
+-------------------------------------
+
+
+-------------------------------------
+
+
+                                       B-2
+
+
+<PAGE>   42
+
+
+                                                                       EXHIBIT C
+
+                                   INSTRUCTION
+                          FROM PURCHASE CONTRACT AGENT
+                               TO COLLATERAL AGENT
+                        (Reestablishment of PEPS Units )
+
+
+Bank One Trust Company, N.A.
+One North State Street, 9th Floor
+Chicago, Illinois 60670-0126
+Attention:  Corporate Trust Administration
+Telecopy: (312) 407-1708
+
+         Re:      ________________ PEPS Units of Valero Energy Corporation (the
+                  "COMPANY") and VEC Trust I
+
+         Please refer to the Pledge Agreement dated as of June 28, 2000 (the
+"PLEDGE AGREEMENT"), among the Company, you, as Collateral Agent, Bank One Trust
+Company, N.A., as Securities Intermediary, and the undersigned, as Purchase
+Contract Agent and as attorney-in- fact for the holders of PEPS Units from time
+to time. Capitalized terms used herein but not defined shall have the meaning
+set forth in the Pledge Agreement.
+
+         We hereby notify you in accordance with Section 5.3(a) of the Pledge
+Agreement that the holder of securities listed below (the "HOLDER") has elected
+to substitute [$ _______ Value of [Preferred Securities or security entitlements
+thereto] [Senior Deferrable Notes or security entitlements thereto]] in exchange
+for $__________ Value of Pledged Treasury Securities and has delivered to the
+undersigned a notice stating that the holder has Transferred such [Preferred
+Securities or security entitlements thereto] [Senior Deferrable Notes or
+security entitlements thereto] to the Securities Intermediary, for credit to the
+Collateral Account.
+
+         We hereby request that you instruct the Securities Intermediary, upon
+confirmation that such [Preferred Securities or security entitlements thereto]
+[Senior Deferrable Notes or security entitlements thereto] have been credited to
+the Collateral Account, to release to the undersigned $__________ Value of
+Treasury Securities or security entitlements thereto related to _____ PEPS Units
+of such Holder in accordance with Section 5.3(a) of the Pledge Agreement. We
+also hereby confirm that no Tax Event Redemption has occurred.
+
+                                          THE BANK OF NEW YORK,
+                                          as Purchase Contract Agent
+
+Date:                                     By:
+      -------------------                     ----------------------------------
+                                              Name:
+                                              Title:
+
+
+                                       C-1
+
+
+<PAGE>   43
+
+Please print name and address of Holder electing to substitute [Preferred
+Securities or security entitlements thereto] [Pledged Senior Deferrable Notes or
+security entitlements thereto] for Pledged Treasury Securities:
+
+
+
+-------------------------------------            -------------------------------
+                Name                             Social Security or other
+                                                 Taxpayer Identification Number,
+                                                 if any
+
+
+-------------------------------------
+               Address
+
+
+-------------------------------------
+
+
+-------------------------------------
+
+
+                                       C-2
+
+
+<PAGE>   44
+
+
+                                                                       EXHIBIT D
+
+                                   INSTRUCTION
+                              FROM COLLATERAL AGENT
+                           TO SECURITIES INTERMEDIARY
+                         (Reestablishment of PEPS Units)
+
+
+Bank One Trust Company, N.A., as Securities Intermediary
+One North State Street, 9th Floor
+Chicago, Illinois 60670-0126
+Attention:  Corporate Trust Administration
+Telecopy: (312) 407-1708
+
+         Re:      _____________________ PEPS Units of Valero Energy Corporation
+                  (the "COMPANY") and VEC Trust I
+
+                  The securities account of Bank One Trust Company, N.A., as
+                  Collateral Agent, maintained by the Securities Intermediary
+                  and designated "The Bank One Trust Company, N.A., as
+                  Collateral Agent of Valero Energy Corporation, as pledgee of
+                  the Bank of New York, as the Purchase Contract Agent on behalf
+                  of and as attorney-in-fact for the Holders" (the "COLLATERAL
+                  ACCOUNT")
+
+         Please refer to the Pledge Agreement dated as of June 28, 2000 (the
+"PLEDGE AGREEMENT"), among the Company, you, as Securities Intermediary, The
+Bank of New York, as Purchase Contract Agent and as attorney-in-fact for the
+holders of PEPS Units from time to time, and the undersigned, as Collateral
+Agent. Capitalized terms used herein but no defined shall have the meaning set
+forth in the Pledge Agreement.
+
+         When you have confirmed that $ __________ Value of [Preferred
+Securities or security entitlements thereto] [Senior Deferrable Notes or
+security entitlements thereto] has been credited to the Collateral Account by or
+for the benefit of ________________, as Holder of PEPS Units (the "HOLDER"), you
+are hereby instructed to release from the Collateral Account $ ________________
+Value of Treasury Securities or security entitlements thereto by Transfer to the
+Purchase Contract Agent.
+
+                                              BANK ONE TRUST COMPANY, N.A.,
+                                              as Collateral Agent
+
+
+Dated:                                        By:
+       --------------------                       ------------------------------
+                                                  Name:
+                                                  Title:
+
+
+                                       D-1
+
+
+<PAGE>   45
+
+
+-------------------------------------            -------------------------------
+                Name                             Social Security or other
+                                                 Taxpayer Identification Number,
+                                                 if any
+
+
+-------------------------------------
+               Address
+
+
+-------------------------------------
+
+
+-------------------------------------
+
+
+                                       D-2
+
+
+<PAGE>   46
+
+
+                                                                       EXHIBIT E
+
+             NOTICE OF CASH SETTLEMENT FROM SECURITIES INTERMEDIARY
+                           TO PURCHASE CONTRACT AGENT
+                            (Cash Settlement Amounts)
+
+The Bank of New York
+101 Barclay Street
+21 West
+New York, NY 10286
+Attention: Corporate Trust Trustee Administration
+Telecopy: (212) 815-5915
+
+         Re:      _____________________ PEPS Units of Valero Energy Corporation
+                  (the "COMPANY") and VEC Trust I
+
+         Please refer to the Pledge Agreement dated as of June 28, 2000 (the
+"PLEDGE AGREEMENT"), by and among you, the Company, Bank One Trust Company,
+N.A., as Collateral Agent and the undersigned, as Securities Intermediary.
+Unless otherwise defined herein, terms defined in the Pledge Agreement are used
+herein as defined therein.
+
+         In accordance with Section 5.5(d) of the Pledge Agreement, we hereby
+notify you that as of 11:00 a.m. (New York City time) on the fifth Business Day
+immediately preceding August 18 2003, we have received (i) $ _______________ in
+immediately available funds paid in an aggregate amount equal to the Purchase
+Price to the Company on the Purchase Contract Settlement Date with respect to
+________________ PEPS Units and (ii) $ ___________ in immediately available
+funds paid in an aggregate amount equal to the Purchase Price to the Company on
+the Purchase Contract Settlement Date with respect to ______ Treasury PEPS
+Units.
+
+                                              BANK ONE TRUST COMPANY, N.A.,
+                                              as Securities Intermediary,
+
+
+Date:                                         By:
+       --------------------                       ------------------------------
+                                                  Name:
+                                                  Title:
+
+                                      E-1
+</TEXT>
+</DOCUMENT>

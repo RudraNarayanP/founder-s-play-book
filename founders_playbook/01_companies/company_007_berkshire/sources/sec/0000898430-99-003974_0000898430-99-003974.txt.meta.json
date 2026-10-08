@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0001067983/000089843099003974/0000898430-99-003974.txt",
+ "fetched": "2026-09-29T19:01:30Z",
+ "sha1": "e391ed6db055105c0016e10ae4fb28588ab6da78",
+ "bytes": 76442,
+ "words": 10341,
+ "cik": "0001067983",
+ "registrant": "BERKSHIRE HATHAWAY INC",
+ "accession": "0000898430-99-003974",
+ "document": "0000898430-99-003974.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": true
+}

@@ -1,0 +1,14 @@
+walk: 2 slices (2 fetched, 0 failed), 3557 filing rows, date perimeter 1994-03-04 -> 2026-09-25
+index: 3557 filings from registrant 'EXXON MOBIL CORP' (CIK 0000034088, tickers [])
+index: registrant guard = quarantine -- directory already holds an index for CIK 0002115436; refusing to let CIK 0000034088 share these artefacts
+index: artefacts keyed by CIK -> submissions_CIK0000034088.json, submissions_CIK0000034088.csv, _INDEX_CIK0000034088.md
+index: 0 rows dropped for no accession, 58 without primaryDocument (both counted in the artefacts)
+*** REFUSED-WRONG-REGISTRANT: EDGAR answered 'EXXON MOBIL CORP' for CIK 0000034088 but this directory is 'company_009_exxonmobil'. Everything went to founders_playbook/01_companies/company_009_exxonmobil\sources\_index\quarantine\CIK0000034088; no canonical index was touched.
+*** Re-run with the legacy registrant's CIK, or --allow-mismatch if you are certain. This is the 2026-09-26 Dell/1571996 clobber, D-5.
+walk: 2 slices (2 fetched, 0 failed), 3557 filing rows, date perimeter 1994-03-04 -> 2026-09-25
+index: 3557 filings from registrant 'EXXON MOBIL CORP' (CIK 0000034088, tickers [])
+index: registrant guard = quarantine -- directory already holds an index for CIK 0002115436; refusing to let CIK 0000034088 share these artefacts
+index: artefacts keyed by CIK -> submissions_CIK0000034088.json, submissions_CIK0000034088.csv, _INDEX_CIK0000034088.md
+index: 0 rows dropped for no accession, 58 without primaryDocument (both counted in the artefacts)
+*** REFUSED-WRONG-REGISTRANT: EDGAR answered 'EXXON MOBIL CORP' for CIK 0000034088 but this directory is 'company_009_exxonmobil'. Everything went to founders_playbook/01_companies/company_009_exxonmobil\sources\_index\quarantine\CIK0000034088; no canonical index was touched.
+*** Re-run with the legacy registrant's CIK, or --allow-mismatch if you are certain. This is the 2026-09-26 Dell/1571996 clobber, D-5.

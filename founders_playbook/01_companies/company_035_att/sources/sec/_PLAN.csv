@@ -1,0 +1,10 @@
+rank,cik,accession,form,filingDate,document,bytes_in_index_json,why,url,disposition
+1,0000732717,0000732717-05-000033,SC 13G/A,2005-01-10,telkom13ga2.txt,13792,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000732717/000073271705000033/telkom13ga2.txt,fetched this run
+2,0000732717,0000732717-05-000033,SC 13G/A,2005-01-10,0000732717-05-000033.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000732717/000073271705000033/0000732717-05-000033.txt,fetched this run
+3,0000732717,0000732717-05-000035,8-K,2005-01-11,jan11_8k.htm,9478,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000732717/000073271705000035/jan11_8k.htm,fetched this run
+4,0000732717,0000732717-05-000035,8-K,2005-01-11,ex99_1.htm,4493,index.json listing (4493 B),https://www.sec.gov/Archives/edgar/data/0000732717/000073271705000035/ex99_1.htm,fetched this run
+5,0000732717,0000732717-05-000035,8-K,2005-01-11,0000732717-05-000035.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000732717/000073271705000035/0000732717-05-000035.txt,fetched this run
+6,0000732717,0000732717-05-000038,8-K,2005-01-26,dec8k.htm,10307,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000732717/000073271705000038/dec8k.htm,fetched this run
+7,0000732717,0000732717-05-000038,8-K,2005-01-26,ex99_2.htm,382365,index.json listing (382365 B),https://www.sec.gov/Archives/edgar/data/0000732717/000073271705000038/ex99_2.htm,SKIPPED beyond --max-docs 6
+8,0000732717,0000732717-05-000038,8-K,2005-01-26,ex99_1.htm,21995,index.json listing (21995 B),https://www.sec.gov/Archives/edgar/data/0000732717/000073271705000038/ex99_1.htm,SKIPPED beyond --max-docs 6
+9,0000732717,0000732717-05-000038,8-K,2005-01-26,0000732717-05-000038.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000732717/000073271705000038/0000732717-05-000038.txt,SKIPPED beyond --max-docs 6

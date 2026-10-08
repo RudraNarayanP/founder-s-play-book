@@ -1,0 +1,34 @@
+rank,cik,accession,form,filingDate,document,bytes_in_index_json,why,url,disposition
+1,0001035002,0000950129-02-000148,SC 13D,2002-01-10,h93340sc13d.txt,71436,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001035002/000095012902000148/h93340sc13d.txt,fetched this run
+2,0001035002,0000950129-02-000148,SC 13D,2002-01-10,h93340ex99-h.txt,3665,index.json listing (3665 B),https://www.sec.gov/Archives/edgar/data/0001035002/000095012902000148/h93340ex99-h.txt,fetched this run
+3,0001035002,0000950129-02-000148,SC 13D,2002-01-10,0000950129-02-000148.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0001035002/000095012902000148/0000950129-02-000148.txt,fetched this run
+4,0001035002,0000898822-02-000035,8-K,2002-01-11,form8k-jan11.txt,7050,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001035002/000089882202000035/form8k-jan11.txt,fetched this run
+5,0001035002,0000898822-02-000035,8-K,2002-01-11,exhibit99-1.txt,4071,index.json listing (4071 B),https://www.sec.gov/Archives/edgar/data/0001035002/000089882202000035/exhibit99-1.txt,fetched this run
+6,0001035002,0000898822-02-000035,8-K,2002-01-11,exhibit99-2.txt,3175,index.json listing (3175 B),https://www.sec.gov/Archives/edgar/data/0001035002/000089882202000035/exhibit99-2.txt,fetched this run
+7,0001035002,0000898822-02-000035,8-K,2002-01-11,exhibit3-1.txt,1139,index.json listing (1139 B),https://www.sec.gov/Archives/edgar/data/0001035002/000089882202000035/exhibit3-1.txt,fetched this run
+8,0001035002,0000950128-02-000156,SC 13G,2002-01-25,j91889fxsc13g.txt,14092,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001035002/000095012802000156/j91889fxsc13g.txt,fetched this run
+9,0001035002,0000950128-02-000156,SC 13G,2002-01-25,0000950128-02-000156.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0001035002/000095012802000156/0000950128-02-000156.txt,fetched this run
+10,0001035002,0000888002-02-000064,SC 13G,2002-02-11,vlo_g.txt,18220,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001035002/000088800202000064/vlo_g.txt,fetched this run
+11,0001035002,0000888002-02-000064,SC 13G,2002-02-11,vlo_e.txt,1167,index.json listing (1167 B),https://www.sec.gov/Archives/edgar/data/0001035002/000088800202000064/vlo_e.txt,fetched this run
+12,0001035002,0000888002-02-000064,SC 13G,2002-02-11,0000888002-02-000064.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0001035002/000088800202000064/0000888002-02-000064.txt,fetched this run
+13,0001035002,0001068144-02-000033,SC 13G,2002-02-12,vlo0.txt,7112,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001035002/000106814402000033/vlo0.txt,fetched this run
+14,0001035002,0001068144-02-000033,SC 13G,2002-02-12,0001068144-02-000033.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0001035002/000106814402000033/0001068144-02-000033.txt,fetched this run
+15,0001035002,0000315066-02-001049,SC 13G/A,2002-02-14,filing.txt,12649,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001035002/000031506602001049/filing.txt,fetched this run
+16,0001035002,0000315066-02-001049,SC 13G/A,2002-02-14,0000315066-02-001049.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0001035002/000031506602001049/0000315066-02-001049.txt,fetched this run
+17,0001035002,0001035704-02-000158,10-K405,2002-03-14,d94896e10-k405.txt,441176,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001035002/000103570402000158/d94896e10-k405.txt,fetched this run
+18,0001035002,0001035704-02-000158,10-K405,2002-03-14,d94896ex10-17.txt,304537,index.json listing (304537 B),https://www.sec.gov/Archives/edgar/data/0001035002/000103570402000158/d94896ex10-17.txt,fetched this run
+19,0001035002,0001035704-02-000158,10-K405,2002-03-14,d94896ex10-16.txt,252097,index.json listing (252097 B),https://www.sec.gov/Archives/edgar/data/0001035002/000103570402000158/d94896ex10-16.txt,fetched this run
+20,0001035002,0001035704-02-000158,10-K405,2002-03-14,d94896ex2-2.txt,231823,index.json listing (231823 B),https://www.sec.gov/Archives/edgar/data/0001035002/000103570402000158/d94896ex2-2.txt,fetched this run
+21,0001035002,0000950134-02-002076,8-K,2002-03-14,d94988e8-k.txt,4615,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001035002/000095013402002076/d94988e8-k.txt,fetched this run
+22,0001035002,0000950134-02-002076,8-K,2002-03-14,d94988ex16.txt,546,index.json listing (546 B),https://www.sec.gov/Archives/edgar/data/0001035002/000095013402002076/d94988ex16.txt,fetched this run
+23,0001035002,0000950134-02-002076,8-K,2002-03-14,0000950134-02-002076.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0001035002/000095013402002076/0000950134-02-002076.txt,fetched this run
+24,0001035002,0000950129-02-001437,S-3,2002-03-22,h94967s-3.txt,301870,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001035002/000095012902001437/h94967s-3.txt,fetched this run
+25,0001035002,0000950129-02-001437,S-3,2002-03-22,h94967ex4-13.txt,308979,index.json listing (308979 B),https://www.sec.gov/Archives/edgar/data/0001035002/000095012902001437/h94967ex4-13.txt,fetched this run
+26,0001035002,0000950129-02-001437,S-3,2002-03-22,h94967ex4-6.txt,246365,index.json listing (246365 B),https://www.sec.gov/Archives/edgar/data/0001035002/000095012902001437/h94967ex4-6.txt,fetched this run
+27,0001035002,0000950129-02-001437,S-3,2002-03-22,h94967ex4-9.txt,244601,index.json listing (244601 B),https://www.sec.gov/Archives/edgar/data/0001035002/000095012902001437/h94967ex4-9.txt,fetched this run
+28,0001035002,0000950134-02-003140,DEF 14A,2002-04-02,d95261ddef14a.txt,118977,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001035002/000095013402003140/d95261ddef14a.txt,fetched this run
+29,0001035002,0000950134-02-003140,DEF 14A,2002-04-02,0000950134-02-003140.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0001035002/000095013402003140/0000950134-02-003140.txt,fetched this run
+30,0001035002,0000950129-02-001907,8-K,2002-04-15,h96018e8-k.txt,4342,primaryDocument,https://www.sec.gov/Archives/edgar/data/0001035002/000095012902001907/h96018e8-k.txt,fetched this run
+31,0001035002,0000950129-02-001907,8-K,2002-04-15,h96018ex1-1.txt,75948,index.json listing (75948 B),https://www.sec.gov/Archives/edgar/data/0001035002/000095012902001907/h96018ex1-1.txt,SKIPPED beyond --max-docs 30
+32,0001035002,0000950129-02-001907,8-K,2002-04-15,h96018ex4-1.txt,46813,index.json listing (46813 B),https://www.sec.gov/Archives/edgar/data/0001035002/000095012902001907/h96018ex4-1.txt,SKIPPED beyond --max-docs 30
+33,0001035002,0000950129-02-001907,8-K,2002-04-15,h96018ex5-1.txt,5417,index.json listing (5417 B),https://www.sec.gov/Archives/edgar/data/0001035002/000095012902001907/h96018ex5-1.txt,SKIPPED beyond --max-docs 30

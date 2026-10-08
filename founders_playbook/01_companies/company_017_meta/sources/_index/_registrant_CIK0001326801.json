@@ -1,0 +1,30 @@
+{
+ "cik": "0001326801",
+ "requested_cik": "1326801",
+ "registrant": "Meta Platforms, Inc.",
+ "ticker": "META",
+ "tickers": [
+  "META"
+ ],
+ "former_names": [
+  "Facebook Inc"
+ ],
+ "company_dir": "company_017_meta",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['meta'] match registrant 'Meta Platforms, Inc.' (CIK 0001326801)"
+ ],
+ "built": "2026-09-29T19:05:30Z",
+ "count": 4194,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 0,
+ "csv_sha1": "410949e106f6394811ce7d0b1d3eb435e053fbe9",
+ "csv_bytes": 415173,
+ "paths": {
+  "json": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_017_meta\\sources\\_index\\submissions_CIK0001326801.json",
+  "csv": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_017_meta\\sources\\_index\\submissions_CIK0001326801.csv",
+  "md": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_017_meta\\sources\\_index\\_INDEX_CIK0001326801.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

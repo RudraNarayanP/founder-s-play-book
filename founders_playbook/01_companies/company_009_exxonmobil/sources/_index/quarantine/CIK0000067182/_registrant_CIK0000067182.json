@@ -1,0 +1,27 @@
+{
+ "cik": "0000067182",
+ "requested_cik": "0000067182",
+ "registrant": "MOBIL CORP",
+ "ticker": "",
+ "tickers": [],
+ "former_names": [],
+ "company_dir": "company_009_exxonmobil",
+ "guard": "quarantine",
+ "guard_reasons": [
+  "no slug token ['exxonmobil'] appears in registrant name 'MOBIL CORP' / tickers [] / former names",
+  "directory already holds an index for CIK 0000034088; refusing to let CIK 0000067182 share these artefacts"
+ ],
+ "built": "2026-10-06T12:07:26Z",
+ "count": 124,
+ "rows_dropped_no_accession": 1,
+ "rows_without_primaryDocument": 124,
+ "csv_sha1": "a1d4d2e102b8a0b3286ae5b9fca14e1b60f4897d",
+ "csv_bytes": 6592,
+ "paths": {
+  "json": "founders_playbook/01_companies/company_009_exxonmobil\\sources\\_index\\quarantine\\CIK0000067182\\submissions_CIK0000067182.json",
+  "csv": "founders_playbook/01_companies/company_009_exxonmobil\\sources\\_index\\quarantine\\CIK0000067182\\submissions_CIK0000067182.csv",
+  "md": "founders_playbook/01_companies/company_009_exxonmobil\\sources\\_index\\quarantine\\CIK0000067182\\_INDEX_CIK0000067182.md"
+ },
+ "legacy_copy_written": false,
+ "legacy_note": ""
+}

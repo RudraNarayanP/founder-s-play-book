@@ -1,0 +1,804 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ SIu/g2COtcyj/+QepcJwyKZ3IseLnJfrpa9cTkQoSIv//gyS7R8CHm++od3LRzxs
+ cqOduSBx/VE46qC+5gm6xA==
+
+<SEC-DOCUMENT>/in/edgar/work/0000898430-00-002064/0000898430-00-002064.txt : 20000719
+<SEC-HEADER>0000898430-00-002064.hdr.sgml : 20000719
+ACCESSION NUMBER:		0000898430-00-002064
+CONFORMED SUBMISSION TYPE:	S-3
+PUBLIC DOCUMENT COUNT:		3
+FILED AS OF DATE:		20000718
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			BERKSHIRE HATHAWAY INC
+		CENTRAL INDEX KEY:			0001067983
+		STANDARD INDUSTRIAL CLASSIFICATION:	 [6331
+]		IRS NUMBER:				470813844
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+</COMPANY-DATA>
+
+		FILING VALUES:
+			FORM TYPE:		S-3
+			SEC ACT:		
+			SEC FILE NUMBER:	333-41686
+			FILM NUMBER:		674943
+</FILING-VALUES>
+
+			BUSINESS ADDRESS:	
+				STREET 1:		1440 KIEWIT PLZ
+				CITY:			OMAHA
+				STATE:			NE
+				ZIP:			68131
+				BUSINESS PHONE:		4023461400
+</BUSINESS-ADDRESS>
+
+				MAIL ADDRESS:	
+					STREET 1:		1440 KIEWIT PLAZA
+					CITY:			OMAHA
+					STATE:			NE
+					ZIP:			68131
+</MAIL-ADDRESS>
+
+					FORMER COMPANY:	
+						FORMER CONFORMED NAME:	NBH INC
+						DATE OF NAME CHANGE:	19980810
+</FORMER-COMPANY>
+</FILER>
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>S-3
+<SEQUENCE>1
+<FILENAME>0001.txt
+<DESCRIPTION>FORM S-3
+<TEXT>
+
+<PAGE>
+
+     As filed with the Securities and Exchange Commission on July 18, 2000
+                             Registration No. 333-
+- --------------------------------------------------------------------------------
+                      SECURITIES AND EXCHANGE COMMISSION
+                            Washington, D.C. 20549
+
+                            ______________________
+                                   FORM S-3
+                            REGISTRATION STATEMENT
+                                     Under
+                          THE SECURITIES ACT OF 1933
+
+                              ____________________
+
+                            BERKSHIRE HATHAWAY INC.
+            (Exact name of Registrant as specified in its Charter)
+
+                             ____________________
+
+            Delaware                                   47-0813844
+   (State or Other Jurisdiction                     (I.R.S. Employer
+of Incorporation or Organization)                Identification Number)
+
+                               1440 Kiewit Plaza
+                            Omaha, Nebraska  68131
+                                (402) 346-1400
+         (Address, Including Zip Code, and Telephone Number, Including
+            Area Code, of Registrant's Principal Executive Offices)
+
+                             ____________________
+
+                                Marc D. Hamburg
+                            Berkshire Hathaway Inc.
+                               1440 Kiewit Plaza
+                            Omaha, Nebraska  68131
+                                (402) 346-1400
+           (Name, Address, Including Zip Code, and Telephone Number,
+                  Including Area Code, of Agent For Service)
+
+                            ______________________
+                                  Copies To:
+
+        Mary Ann Lyman                            Michael E. Morgan
+  Munger, Tolles & Olson LLP               Lane Powell Spears Lubersky LLP
+    355 South Grand Avenue                        1420 Fifth Avenue
+Los Angeles, California  90071                Seattle, Washington 98101
+        (213) 683-9100                              (206) 223-7000
+
+                            _______________________
+
+  Approximate date of commencement of the proposed sale to public:  From time to
+time after the effective date of this Registration Statement as determined by
+the selling shareholders on the basis of market conditions and other factors.
+
+  If the only securities being registered on this form are being offered
+pursuant to dividend or interest reinvestment plans, please check the following
+box. [_]
+
+  If any of the securities being registered on this form are to be offered on a
+delayed or continuous basis pursuant to Rule 415 under the Securities Act of
+1933, other than securities offered only in connection with dividend or interest
+reinvestment plans, check the following box.  [X]
+
+  If this form is filed to register additional securities for an offering
+pursuant to Rule 462(b) under the Securities Act, please check the following box
+and list the Securities Act registration statement number of the earlier
+effective registration statement for the same offering. [_]
+
+  If this form is a post-effective amendment filed pursuant to Rule 462(c) under
+the Securities Act, check the following box and list the Securities Act
+registration statement number of the earlier effective registration statement
+for the same offering. [_]
+
+  If delivery of the prospectus is expected to be made pursuant to Rule 434,
+please check the following box. [_]
+<PAGE>
+
+                        CALCULATION OF REGISTRATION FEE
+<TABLE>
+<CAPTION>
+ ====================================================================================================================
+     Title of Each                                     Proposed Maximum     Proposed Maximum     Amount of
+   Class of Securities                Amount to be      Offering Price          Aggregate       Registration
+    to be Registered                   Registered        Per Unit(1)       Offering Price(1)       Fee
+- ---------------------------------------------------------------------------------------------------------------------
+<S>                                   <C>              <C>                 <C>                  <C>
+Class A Common Stock, par value        1,043 shares      $54,150              $56,948,431        $15,035
+   $5.00 per share
+Class B Common Stock, par value          263 shares      $1,787
+   $.1667 per share
+=====================================================================================================================
+</TABLE>
+
+(1) Pursuant to Rule 457(c) under the Securities Act of 1933, as amended, the
+    proposed maximum offering price per share and the proposed maximum aggregate
+    offering price are estimated solely for the purpose of calculating the
+    registration fee required under Section 6(b) of the Securities Act and are
+    based upon the average of the high and low prices for a share of Class A
+    Common Stock and a share of Class B Common Stock, as applicable, of
+    Berkshire Hathaway Inc. on the New York Stock Exchange Composite Tape on
+    July 11, 2000.
+
+                             _____________________
+
+The Registrant hereby amends this Registration Statement on such date or dates
+as may be necessary to delay its effective date until the Registrant shall file
+a further amendment which specifically states that this Registration Statement
+shall thereafter become effective in accordance with Section 8(a) of the
+Securities Act of 1933 or until this Registration Statement shall become
+effective on such date as the Commission, acting pursuant to said Section 8(a),
+may determine.
+<PAGE>
+
+PROSPECTUS
+
+                            BERKSHIRE HATHAWAY INC.
+
+             1,043 Shares of Class A Common Stock ($5.00 par value)
+             263 Shares of Class B Common Stock ($.1667 par value)
+
+This Prospectus relates to 1,043 shares of the Class A Common Stock, par value
+$5.00 per share and 263 shares of Class B Common Stock, par value $.1667 per
+share of Berkshire Hathaway Inc.  The New York Stock Exchange lists both the
+Class A Common Stock, which trades under the symbol "BRK.A", and the Class B
+Common Stock, which trades under the symbol "BRK.B".  The shares covered by this
+prospectus are being offered by certain selling shareholders who acquired them
+as consideration in our acquisition of The Ben Bridge Corporation.  See "Selling
+Shareholders."
+
+The selling shareholders may sell the shares from time to time in one or more
+transactions.  They may sell the shares on the New York Stock Exchange, through
+brokers or dealers, or otherwise, at market prices then prevailing, or in
+negotiated transactions.  They may also offer the shares in one or more
+underwritten offerings, on a firm commitment or best efforts basis.  The
+underwriters in any underwritten offering and the terms and conditions of any
+such offering will be described in a supplement to this prospectus.  See "Plan
+of Distribution."
+
+We will not receive any of the proceeds from the sale of the shares.
+
+NEITHER THE SECURITIES AND EXCHANGE COMMISSION NOR ANY STATE SECURITIES
+COMMISSION HAS APPROVED OR DISAPPROVED OF THESE SECURITIES OR PASSED UPON THE
+ADEQUACY OR ACCURACY OF THIS PROSPECTUS.  ANY REPRESENTATION TO THE CONTRARY IS
+A CRIMINAL OFFENSE.
+
+No dealer, salesperson or any individual has been authorized to give any
+information, or to make any representations, other than those contained or
+incorporated by reference in this prospectus or in a prospectus supplement, in
+connection with the offer made by this prospectus and any prospectus supplement,
+and, if given or made, such information or representations must not be relied
+upon as having been authorized by us or the selling shareholders.  Neither the
+delivery of this prospectus or any prospectus supplement nor any sale made
+hereunder or thereunder shall, under any circumstances, create an implication
+that there has been no change in our affairs since the date of this prospectus
+or any prospectus supplement or that the information contained or incorporated
+by reference in this prospectus or any prospectus supplement is correct as of
+any time subsequent to their dates.  This prospectus and any prospectus
+supplement shall not constitute an offer to sell or a solicitation of an offer
+to buy any of the shares in any jurisdiction to any person to whom it is
+unlawful to make such offer or solicitation in such jurisdiction.
+
+The date of this prospectus is July __, 2000.
+<PAGE>
+
+                            BERKSHIRE HATHAWAY INC.
+
+  We are a holding company which owns subsidiaries engaged in a number of
+diverse business activities.  The most important of these is the property and
+casualty insurance business, which is conducted on both a direct and reinsurance
+basis through a number of subsidiaries.  Included in this group of subsidiaries
+is GEICO Corporation, the sixth largest auto insurer in the United States, and
+General Re Corporation, one of the four largest reinsurers in the world.
+
+  The investment portfolios of our insurance subsidiaries include meaningful
+equity ownership percentages of other publicly traded companies, including
+American Express Company, The Coca-Cola Company,  Federal Home Loan Mortgage
+Corporation, The Gillette Company, The Washington Post Company, and Wells Fargo
+& Company.  Much information about these publicly owned companies is available,
+including information released from time to time by the companies themselves.
+
+  Our non-insurance subsidiaries conduct a variety of other business activities,
+including the publication of a daily and Sunday newspaper in Western New York
+(Buffalo News), the manufacture and sale of boxed chocolates and other
+confectionery products (See's Candies), diversified manufacturing and
+distribution (managed by Scott Fetzer and whose principal products are sold
+under the Kirby and Campbell Hausfeld brand names), retailing of home
+furnishings (Nebraska Furniture Mart, R.C. Willey Home Furnishings, Star
+Furniture Company and Jordan's Furniture, Inc.), manufacture, import and
+distribution of footwear (H.H. Brown Shoe Company, Lowell Shoe, Inc. and Dexter
+Shoe Company), retailing of fine jewelry (Borsheim's, Helzberg's Diamond Shops
+and Ben Bridge), providing training to operators of aircraft and ships
+throughout the world (FlightSafety International), providing fractional
+ownership programs for general aviation aircraft (Executive Jet), licensing and
+servicing a system of almost 6,000 Dairy Queen Stores (Dairy Queen), and renting
+furniture and accessories (CORT Furniture Rental).
+
+  Operating decisions for the various businesses are made by managers of the
+business units.  Investment decisions and all other capital allocation decisions
+are made for Berkshire and its subsidiaries by Warren E. Buffett, in
+consultation with Charles T. Munger.  Mr. Buffett is Chairman and Mr. Munger is
+Vice Chairman of our board of directors.
+
+  Our executive offices are located at 1440 Kiewit Plaza, Omaha, Nebraska 68131,
+and our telephone number is (402) 346-1400.
+
+                                USE OF PROCEEDS
+
+ We will not receive any of the proceeds from the selling shareholders' sale of
+the shares.
+<PAGE>
+
+                              SELLING SHAREHOLDERS
+
+  We issued the shares offered by this prospectus to the selling shareholders
+pursuant to an Agreement and Plan of Merger dated as of May 18, 2000, by and
+among Berkshire, BBC Acquisition Sub, Inc., and the then-shareholders of Ben
+Bridge.  Each of the former Ben Bridge shareholders is referred to individually
+as a "selling shareholder," and all of them are referred to collectively as the
+"selling shareholders."  All selling shareholders who held offices or other
+positions with Ben Bridge prior to the merger hold the same positions with Ben
+Bridge after the merger.
+
+  Immediately following the effectiveness of the merger, the selling
+shareholders held, in the aggregate, 1,043 shares of our Class A Common Stock,
+which is less than one percent of our outstanding Class A Common Stock, and 263
+shares of our Class B Common Stock, which is less than one percent of our
+outstanding Class B Common Stock.  Because a selling shareholder may offer
+pursuant to this prospectus all or some part of the Class A Common Stock and
+Class B Common Stock which he or it holds, and because the offering may or may
+not be an underwritten offering on a firm commitment basis, we cannot estimate
+as of the date hereof the number of shares to be offered for sale by a selling
+shareholder or the number of shares that will be held by a selling shareholder
+upon termination of such offering.  See "Plan of Distribution."
+
+  The following table sets forth information with respect to beneficial
+ownership of our Class A Common Stock and Class B Common Stock as of the date of
+this prospectus by each selling shareholder.
+
+<TABLE>
+<CAPTION>
+           Shareholder Name                           Number of Shares
+           ----------------                           ----------------
+                                        Class A Common Stock     Class B Common Stock
+                                        --------------------     --------------------
+<S>                                     <C>                      <C>
+Edward L. Bridge                               300 shares              11 shares
+
+Jonathan J. Bridge                             300 shares              11 shares
+
+Daniel E. Bridge                               217 shares              23 shares
+
+Bradley S. Bridge                              110 shares              25 shares
+
+Theodore A. Bridge                             110 shares              25 shares
+
+Donald J. Ellis                                  1 share               28 shares
+
+Rebecca Bridge                                   1 share               28 shares
+
+Robert L. Bridge, as custodian for               1 share               28 shares
+Marc D. Bridge under the Washington
+UTMA                                             1 share               28 shares
+
+Robert L. Bridge, as custodian for
+Lisa Bridge under the Washington UTMA            1 share               28 shares
+
+Herbert M. Bridge, as custodian for
+Zachary Bridge under the Washington              1 share               28 shares
+UTMA
+
+Herbert M. Bridge, as custodian for
+Jacob Bridge under the Washington                1 share               28 shares
+UTMA
+</TABLE>
+
+Other required information relating to any selling shareholder will be set forth
+in a prospectus supplement as necessary.
+<PAGE>
+
+                              PLAN OF DISTRIBUTION
+
+  Any or all of the shares which are the subject of this prospectus may be sold
+from time to time to purchasers directly by a selling shareholder.  Sales of the
+shares may also be made pursuant to Rule 144 under the Securities Act, where
+applicable.  Alternatively, a selling shareholder may from time to time offer
+any or all of the shares on the New York Stock Exchange, through brokers or
+dealers, or otherwise.  The shares may also be offered in one or more
+underwritten offerings, on a firm commitment or best efforts basis.  We will
+receive no proceeds from the sale of the shares by the selling shareholders.
+
+  The shares may be sold from time to time in one or more transactions at a
+fixed offering price, which may be changed, or at varying prices determined at
+the time of sale or at negotiated prices.  Such prices will be determined by a
+selling shareholder or by agreement between a selling shareholder and his or its
+underwriters, dealers, brokers or agents.
+
+  Any underwriters, dealers, brokers or agents participating in the distribution
+of the shares may receive compensation in the form of underwriting discounts,
+concessions, commissions or fees from a selling shareholder and/or purchasers of
+shares, for whom they may act.  In addition, a selling shareholder and any such
+underwriters, dealers, brokers or agents that participate in the distribution of
+shares may be deemed to be underwriters under the Securities Act, and any
+profits on the sale of shares by them and any discounts, commissions or
+concessions received by any of such persons may be deemed to be underwriting
+discounts and commissions under the Securities Act.  Those who act as
+underwriter, broker, dealer or agent in connection with the sale of the shares
+will be selected by a selling shareholder and may have other business
+relationships with us and our subsidiaries or affiliates in the ordinary course
+of business.
+
+  At any time a particular offer of shares is made by a selling shareholder, a
+prospectus supplement will be distributed, if required, which will set forth the
+identity of, and certain information relating to, such selling shareholder, the
+aggregate amounts of shares being offered and the terms of the offering,
+including the name or names of any underwriters, dealers or agents, any
+discounts, commissions and other items constituting compensation from such
+selling shareholder and any discounts, commissions or concessions allowed or
+reallowed or paid to dealers.  Such prospectus supplement and, if necessary, a
+post-effective amendment to the registration statement of which this prospectus
+is a part will be filed with the Securities and Exchange Commission to reflect
+the disclosure of additional information with respect to the distribution of the
+shares.
+
+  The merger agreement provides that we will indemnify a selling shareholder
+against certain liabilities, including liabilities under the Securities Act.
+The merger agreement also provides for our indemnification by a selling
+shareholder for certain liabilities, including liabilities under the Securities
+Act.
+
+                                 LEGAL MATTERS
+
+  Munger, Tolles & Olson LLP, Los Angeles, California, as counsel for Berkshire
+has delivered to us an opinion as to the validity of the shares.  Ronald L.
+Olson, a partner of Munger, Tolles & Olson LLP, is a Berkshire director.  He and
+other attorneys in such firm beneficially own an aggregate of less than 1% of
+our outstanding common stock.
+
+                                    EXPERTS
+
+  The financial statements and related financial statement schedules
+incorporated in this prospectus by reference from our Annual Report on Form 10-K
+for the year ended December 31, 1999 have been audited by Deloitte & Touche LLP,
+independent auditors, as stated in their reports which are incorporated herein
+by reference, and have been so incorporated in reliance upon the reports of such
+firm given upon their authority as experts in accounting and auditing.
+
+                      WHERE YOU CAN FIND MORE INFORMATION
+
+  We are subject to the informational requirements of the Securities Exchange
+Act of 1934, as amended, and
+<PAGE>
+
+accordingly we file reports, proxy statements and other information with the
+Securities and Exchange Commission. Such reports, proxy statements and other
+information filed can be inspected and copied at the Commission's public
+reference room, 450 Fifth Street, N.W., Washington, D.C. 20549, and at the
+following regional offices of the Commission: Seven World Trade Center, 13th
+Floor, New York, New York 10048, and 500 West Madison Street, Suite 1400,
+Chicago, Illinois 60661. Copies of such material can be obtained from the public
+reference section of the Commission, 450 Fifth Street, N.W., Washington, D.C.
+20549 at prescribed rates. The Commission maintains a web site
+(http://www.sec.gov) containing reports, proxy and information statements and
+ ------------------
+other information of registrants, including us, that file electronically with
+the Commission. In addition, our Class A Common Stock and Class B Common Stock
+is listed on the New York Stock Exchange, and reports, proxy statements and
+other information concerning Berkshire can be inspected at the offices of the
+New York Stock Exchange, 20 Broad Street, New York, New York 10005.
+
+  We have filed with the Commission a registration statement on Form S-3 (herein
+together with all amendments and exhibits, referred to as the "Registration
+Statement") under the Securities Act of 1933, as amended.  This prospectus does
+not contain all of the information set forth in the Registration Statement,
+certain parts of which are omitted in accordance with the rules and regulations
+of the Commission.  For further information, reference is hereby made to the
+Registration Statement, which may be obtained from the Commission at its
+principal office in Washington, D.C. upon payment of charges prescribed by the
+Commission.
+<PAGE>
+
+                INCORPORATION OF CERTAIN DOCUMENTS BY REFERENCE
+
+  The following documents which we have filed with the Commission pursuant to
+Section 13 of the Exchange Act (File No. 1-14905) are incorporated herein by
+reference:  (i) our Annual Report on Form 10-K for the year ended December 31,
+1999; (ii) our Quarterly Report on Form 10-Q for the quarter ended March 31,
+2000; (iii) our Form 8-K filed with the Commission on June 20, 2000, (iv) our
+Form 8-K/A filed with the Commission on June 27, 2000, and (v) the description
+of our Class A Common Stock and our Class B Common Stock included in the
+Registration Statement on Form 8-A filed with the Commission on March 30, 1999.
+
+  All documents filed by us pursuant to Section 13(a), 13(c), 14 or 15(d) of the
+Exchange Act subsequent to the date of this prospectus, and prior to the
+termination of the offering of the shares, shall be deemed to be incorporated by
+reference into this prospectus.
+
+  Any statement contained in this prospectus, in any prospectus supplement, or
+in a document incorporated or deemed to be incorporated by reference herein or
+therein shall be deemed to be modified or superseded for purposes of this
+prospectus and any prospectus supplement to the extent that a statement
+contained in this prospectus, any prospectus supplement, or in any subsequently
+filed document which also is or is deemed to be incorporated by reference herein
+or therein modifies or supersedes such statement.  Any such statement so
+modified or superseded shall not be deemed, except as so modified or superseded,
+to constitute a part of this prospectus or any prospectus supplement.
+
+  We will provide without charge to each person, including any beneficial owner,
+to whom a copy of this prospectus is delivered, upon the written or oral request
+of any such person, a copy of any or all of the information that has been
+incorporated by reference in the prospectus but not delivered with the
+prospectus, except the exhibits to such information (unless such exhibits are
+specifically incorporated by reference into such information).  Written requests
+for such copies should be directed to Forrest N. Krutter, Berkshire Hathaway
+Inc., 1440 Kiewit Plaza, Omaha, Nebraska 68131.  Telephone requests for such
+copies should be directed to Forrest N. Krutter at (402) 346-1400.
+<PAGE>
+
+                                    PART II
+
+                    INFORMATION NOT REQUIRED IN PROSPECTUS
+
+Item 14.  Other Expenses of Issuance and Distribution
+
+The following expenses of this offering will be borne by Berkshire:*
+
+  SEC Registration Fee                                                 $15,035
+  NYSE Listing Fees...................................................   5,000
+  Legal Fees and Expenses.............................................   5,000
+  Accounting Fees and Expenses........................................   5,000
+  Miscellaneous.......................................................     965
+     Total                                                             -------
+                                                                       $31,000
+
+______________________________
+*  All amounts other than the SEC registration fee are estimated.
+
+Item 15.  Indemnification of Directors and Officers.
+
+  Section 145 of the General Corporation Law of Delaware empowers Berkshire to
+indemnify, subject to the standards therein prescribed, any person in connection
+with any action, suit or proceeding brought or threatened by reason of the fact
+that such person is or was a director, officer, employee or agent of Berkshire
+or is or was serving as such with respect to another corporation or other entity
+at the request of Berkshire.  Section 10 of Berkshire's By-Laws provides that
+Berkshire shall, to the fullest extent permitted by Section 145 of the General
+Corporation Law of Delaware, indemnify directors and officers of Berkshire from
+and against any and all of the expenses, liabilities or other matters referred
+to in or covered by said Section.
+
+   Additionally, as permitted by said Section and Berkshire's By-Laws, Berkshire
+has entered into indemnification agreements with each of its directors and
+officers. The indemnification agreements provide (a) for indemnification to the
+fullest extent permitted by law against any and all expenses (including
+attorneys' fees and all other costs and obligations of any nature whatever),
+judgments, fines, penalties and amounts paid in settlement (including all
+interest, assessments and other charges paid or payable in connection therewith)
+of any claim as well as any taxes imposed on the director or officer as a result
+of the actual or deemed receipt of any payments under the agreement, unless a
+person or body appointed by Berkshire's Board of Directors determines that such
+indemnification is not permitted under applicable law; (b) for the prompt
+advancement of expenses to the director or officer, including attorneys' fees
+and all other costs, fees, expenses and obligations paid or incurred in
+connection with investigating, defending, being a witness or participating in
+(including on appeal), or preparing to defend, be a witness in or participate in
+any threatened, pending or completed action, suit or proceeding, alternate
+dispute resolution mechanism or any inquiry, hearing or investigation related to
+the fact that such director or officer is or was a director, officer, employee,
+agent or fiduciary of Berkshire or is or was serving at the request of Berkshire
+as a director, officer, employee, trustee, agent or fiduciary of another
+corporation, partnership, joint venture, employee benefit plan, trust or other
+enterprise, or any reason of anything done or not done by such director or
+officer in any such capacity, and for reimbursement to Berkshire if it is found
+that such director or officer is not entitled to such indemnification under
+applicable law; (c) a mechanism through which the director or officer may seek
+court relief in the event Berkshire's Board of Directors (or other person or
+body appointed by such Board) determines that the director or officer would not
+be permitted to be indemnified under applicable law (and therefore is not
+entitled to indemnification under the indemnification agreement); and (d)
+indemnification against all expenses (including attorneys' fees) incurred in
+seeking to collect from Berkshire an indemnity claim or advancement of expenses
+or in seeking to recover under a directors' and officers' liability insurance
+policy, regardless of whether successful or not (provided that such expenses
+shall not be indemnified if a court of competent jurisdiction determines that
+each of the material assertions made by the director or officer in a proceeding
+seeking such collection or recovery was not made in good faith or was
+frivolous).  The indemnification agreements, however, expressly deny
+indemnification for any judgment rendered pursuant to Section 16(b) of the
+Securities Exchange Act of 1934 against a director or officer for an accounting
+of profits made from the purchase and sale of securities of Berkshire.
+
+   The indemnification agreements impose upon Berkshire the burden of
+proving that the director or officer is not entitled to indemnification in any
+particular case, and the indemnification agreements negate certain presumptions
+which might otherwise be drawn against a director or officer in connection with
+the termination of actions in certain circumstances. The indemnification
+agreements give Berkshire the right to assume the defense of any proceeding if
+it is obligated to pay the expenses of such proceeding, and require Berkshire's
+consent before it is liable for any settlement. Berkshire and the indemnified
+party acknowledge that in some circumstances Federal law or public policy may
+override Delaware law and prohibit indemnification. The indemnification
+agreements also provide that a director's or officer's rights thereunder are not
+exclusive of any other rights he may have under Delaware law, directors' and
+officers' insurance, Berkshire's By-Laws or otherwise; however, the
+indemnification agreements do prevent double payment and they prevail where
+inconsistent with the indemnification provisions of the By-Laws. While not
+requiring the maintenance of directors' and officers' liability insurance, the
+indemnification agreements require that the director or officer be provided with
+the maximum coverage provided to any Berkshire director or officer if there is
+such a policy. Further, the indemnification agreements provide that if Berkshire
+pays a director or officer pursuant to an indemnification agreement, Berkshire
+will be subrogated to such director's or officer's rights to recover from third
+parties.
+
+  As permitted by Section 102 of the General Corporation Law of Delaware,
+Berkshire's Restated Certificate of Incorporation includes as Article Eighth
+thereof a provision eliminating, to the extent permitted by Delaware law, the
+personal liability of each director of Berkshire to Berkshire or any of its
+shareholders for monetary damages resulting from breaches of such director's
+fiduciary duty of care.
+
+Item 16.  Exhibits.
+
+Exhibit Number      Description of Document
+- --------------      -----------------------
+
+  5                 Opinion of Munger, Tolles & Olson LLP.
+
+  23.1              Consent of Deloitte & Touche LLP.
+
+  23.2              Consent of Munger, Tolles & Olson LLP (contained in
+                    Exhibit 5).
+
+  24                Power of attorney (see page II-3).
+
+
+                                     II-1
+<PAGE>
+
+Item 17.  Undertakings.
+
+The undersigned registrant hereby undertakes:
+
+  (1)  To file, during any period in which offers or sales are being made, a
+post-effective amendment to this registration statement to include any material
+information with respect to the plan of distribution not previously disclosed in
+the registration statement or any material change to such information in the
+registration statement;
+
+  (2)  That, for the purpose of determining any liability under the Securities
+Act, each such post-effective amendment shall be deemed to be a new registration
+statement relating to the securities offered therein, and the offering of such
+securities at that time shall be deemed to be the initial bona fide offering
+thereof;
+
+  (3)  To remove from registration by means of a post-effective amendment any of
+the securities being registered which remain unsold at the termination of the
+offering; and
+
+  (4)  That, for purposes of determining any liability under the Securities Act,
+each filing of the registrant's annual report pursuant to Section 13(a) or 15(d)
+of the Exchange Act that is incorporated by reference in the registration
+statement shall be deemed to be a new registration statement relating to the
+securities offered therein, and the offering of such securities at that time
+shall be deemed to be the initial bona fide offering thereof.
+
+  Insofar as indemnification for liabilities arising under the Securities Act
+may be permitted to directors, officers and controlling persons of the
+registrant pursuant to the provisions described under Item 15 above, or
+otherwise, the registrant has been advised that in the opinion of the Commission
+such indemnification is against public policy as expressed in the Securities Act
+and is, therefore, unenforceable.  In the event that a claim for indemnification
+against such liabilities (other than the payment by the registrant of expenses
+incurred or paid by a director, officer or controlling person of the registrant
+in the successful defense of any action, suit or proceeding) is asserted by such
+director, officer or controlling person in connection with the securities being
+registered, the registrant will, unless in the opinion of its counsel the matter
+has been settled by controlling precedent, submit to a court of appropriate
+jurisdiction the question whether such indemnification by it is against public
+policy as expressed in the Securities Act and will be governed by the final
+adjudication of such issue.
+
+                                     II-2
+<PAGE>
+
+                                  SIGNATURES
+
+  Pursuant to the requirements of the Securities Act of 1933, the Registrant
+certifies that it has reasonable grounds to believe that it meets all of the
+requirements for filing on Form S-3 and has duly caused this Registration
+Statement to be signed on its behalf by the undersigned, thereunto duly
+authorized, in the City of Omaha, State of Nebraska, on July 18, 2000.
+
+BERKSHIRE HATHAWAY INC.
+
+By     /s/ Marc D. Hamburg
+  ------------------------------------------
+          Marc D. Hamburg
+  Vice President and Chief Financial Officer
+
+                               POWER OF ATTORNEY
+
+  Each of the undersigned hereby constitutes and appoints Warren E. Buffett,
+Charles T. Munger and Marc D. Hamburg, or any one of them, each with full power
+of substitution and resubstitution, such person's true and lawful attorney-in-
+fact and agent, in such person's name and on such person's behalf, in any and
+all capacities, to sign any and all amendments to this Registration Statement,
+including any post-effective amendments, and to file the same, with all exhibits
+thereto, and other documents in connection therewith, with the Securities and
+Exchange Commission.
+
+  Pursuant to the requirements of the Securities Act of 1933, this Registration
+Statement has been signed by the following persons in the capacities and on the
+dates indicated.
+
+<TABLE>
+<CAPTION>
+Signature                     Title                                       Date
+- ---------                     -----                                       ----
+<S>                           <C>                                         <C>
+   /s/ Warren E. Buffett      Chairman of the Board and Director          July 18, 2000
+- ----------------------------  (principal executive officer)
+Warren E. Buffett
+
+   /s/ Marc D. Hamburg        Vice President and Chief Financial          July 18, 2000
+- ----------------------------  Officer (principal financial officer)
+Marc D. Hamburg
+
+   /s/ Daniel J. Jaksich      Controller (principal accounting officer)   July 18, 2000
+- ----------------------------
+Daniel J. Jaksich
+
+   /s/ Charles T. Munger      Vice-Chairman of the Board and Director     July 18, 2000
+- ----------------------------
+Charles T. Munger
+
+   /s/ Susan T. Buffett       Director                                    July 18, 2000
+- ----------------------------
+Susan T. Buffett
+
+   /s/ Malcolm G. Chace       Director                                    July 18, 2000
+- ----------------------------
+Malcolm G. Chace
+
+   /s/ Walter Scott, Jr.      Director                                    July 18, 2000
+- ----------------------------
+Walter Scott, Jr.
+
+   /s/ Howard G. Buffett      Director                                    July 18, 2000
+- ----------------------------
+Howard G. Buffett
+
+   /s/ Ronald L. Olson        Director                                    July 18, 2000
+- ----------------------------
+Ronald L. Olson
+</TABLE>
+
+                                     II-3
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-5
+<SEQUENCE>2
+<FILENAME>0002.txt
+<DESCRIPTION>OPINION OF MUNGER, TOLLES & OLSON
+<TEXT>
+
+<PAGE>
+
+                    [MUNGER, TOLLES & OLSON LLP LETTERHEAD]
+
+                                                                       EXHIBIT 5
+
+                                 July 18, 2000
+
+Berkshire Hathaway Inc.
+1440 Kiewit Plaza
+Omaha, Nebraska 68131
+
+  Re:  Registration Statement on Form S-3
+       ----------------------------------
+
+  Gentlemen:
+
+  We have examined the Registration Statement on Form S-3 proposed to be filed
+by you with the Securities and Exchange Commission on July 18, 2000 (the
+"Registration Statement") in connection with the registration under the
+Securities Act of 1933, as amended, of 1,043 shares of Class A Common Stock, par
+value $5 per share, and 263 shares of Class B Common Stock, par value $.1667 per
+share, of Berkshire Hathaway Inc. (the "Shares"), for offer and sale by certain
+of shareholders of Berkshire Hathaway Inc. (the "Selling Shareholders").  As
+your counsel in connection therewith, we have examined the proceedings taken by
+you in connection with the sale of the Shares to the Selling Shareholders.
+
+  Based upon the foregoing, it is our opinion that the Shares are now, and when
+sold in the manner referred to in the Registration Statement will be, validly
+issued, fully paid, and nonassessable.
+
+  We hereby consent to the use of this opinion as an exhibit to the Registration
+Statement, and further consent to the reference to this firm appearing under the
+heading "Legal Matters" in the prospectus which is contained in the Registration
+Statement.
+
+                              Very truly yours,
+
+                              /s/ Munger, Tolles & Olson LLP
+
+                              MUNGER, TOLLES & OLSON LLP
+
+                                     II-4
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-23.1
+<SEQUENCE>3
+<FILENAME>0003.txt
+<DESCRIPTION>CONSENT OF DELOITTE & TOUCHE
+<TEXT>
+
+<PAGE>
+
+                                                                    EXHIBIT 23.1
+
+                         INDEPENDENT AUDITORS' CONSENT
+
+We consent to the incorporation by reference in this Registration Statement of
+Berkshire Hathaway Inc. on Form S-3 of our report dated March 3, 2000, appearing
+in the Annual Report on Form 10-K of Berkshire Hathaway Inc. for the year ended
+December 31, 1999 and to the reference to us under the heading "Experts" in the
+Prospectus which is part of this Registration Statement.
+
+Deloitte & Touche LLP
+Omaha, Nebraska
+July 17, 2000
+
+                                     II-5
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

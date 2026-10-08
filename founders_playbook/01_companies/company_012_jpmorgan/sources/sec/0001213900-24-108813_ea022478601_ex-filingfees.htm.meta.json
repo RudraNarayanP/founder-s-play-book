@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000019617/000121390024108813/ea022478601_ex-filingfees.htm",
+ "fetched": "2026-09-29T18:38:03Z",
+ "sha1": "84a2ccbad0cc6cc7f25b7a504f8716baad0187ab",
+ "bytes": 4715,
+ "words": 57,
+ "cik": "0000019617",
+ "registrant": "JPMORGAN CHASE & CO",
+ "accession": "0001213900-24-108813",
+ "document": "ea022478601_ex-filingfees.htm",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

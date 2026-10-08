@@ -1,0 +1,123 @@
+{
+ "window": [
+  "1886-01-01",
+  "1960-12-31"
+ ],
+ "candidates": 24,
+ "mined": 12,
+ "untried_by_limit": 12,
+ "items": [
+  {
+   "identifier": "John0851_1970",
+   "date": "1970-01-01",
+   "title_year": "1970",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "Johnson and Johnson (1970)",
+   "family": "internet_archive",
+   "meta_date": "1970-01-01",
+   "status": "cached",
+   "bytes": 33583,
+   "named_terms": [
+    "johnson and johnson",
+    "johnson johnson"
+   ],
+   "other_terms": [],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.moeb.425961",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.moeb.425961_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.moeb.426030",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.moeb.426030_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.moeb.426142",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.moeb.426142_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.moeb.426358",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.moeb.426358_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.mowb.352359",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.mowb.352359_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.laed.236813",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.laed.236813_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.moeb.426028",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.moeb.426028_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.moeb.426394",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.moeb.426394_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.moeb.426359",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.moeb.426359_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "flatarmycreating0000pont_i0b1",
+   "date": "2013-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 403)); tried flatarmycreating0000pont_i0b1_djvu.txt, flatarmycreating0000pont_i0b1_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.njd.385833",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.njd.385833_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  }
+ ]
+}

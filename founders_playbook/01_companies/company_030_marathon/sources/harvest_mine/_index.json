@@ -1,0 +1,416 @@
+{
+ "window": [
+  "1887-01-01",
+  "2011-12-31"
+ ],
+ "candidates": 71,
+ "mined": 12,
+ "untried_by_limit": 58,
+ "items": [
+  {
+   "identifier": "kMeudoDQwpUC",
+   "date": "2003-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried kMeudoDQwpUC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "internationaldir0000unse_o5t3",
+   "date": "2010-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried internationaldir0000unse_o5t3_djvu.txt, internationaldir0000unse_o5t3_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp87t00685r000200400003-1",
+   "date": "1986-01-01",
+   "title_year": "2004",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp87t00685r000200400003-1: TERRORISM REVIEW",
+   "family": "internet_archive",
+   "meta_date": "1986-01-01",
+   "status": "cached",
+   "bytes": 133241,
+   "named_terms": [
+    "marathon oil",
+    "marathon petroleum"
+   ],
+   "other_terms": [
+    "midwest oil"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 1,
+   "phrase_hits": 1,
+   "entity_hits": 1,
+   "matched_entities": [
+    "marathon petroleum"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 3963,
+     "text": "Marathon Petroleum pipelines near Munich. | 25X11",
+     "context": [
+      "West Germany: Anarchistic Cells claim responsibility for bombing the Deutsche",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "PanO0734_1971",
+   "date": "1971-01-01",
+   "title_year": "1971",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Pan Ocean Oil Corporation (1971)",
+   "family": "internet_archive",
+   "meta_date": "1971-01-01",
+   "status": "cached",
+   "bytes": 53904,
+   "named_terms": [
+    "marathon oil",
+    "marathon petroleum"
+   ],
+   "other_terms": [
+    "midwest oil"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "gov.gpo.fdsys.CHRG-107shrg89115",
+   "date": "2002-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "THE TENNESSEE VALLEY AUTHORITY AND FINANCIAL DISCLOSURE",
+   "family": "internet_archive",
+   "meta_date": "2002-01-01",
+   "status": "cached",
+   "bytes": 177615,
+   "named_terms": [
+    "marathon oil",
+    "marathon petroleum"
+   ],
+   "other_terms": [
+    "midwest oil"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 3,
+   "phrase_hits": 2,
+   "entity_hits": 2,
+   "matched_entities": [
+    "marathon oil"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1976,
+     "text": "MARATHON OIL COMPANY PROFESSOR OF ENERGY POLICY",
+     "context": [
+      "EXECUTIVE DIRECTOR, CENTER FOR ENERGY STUDIES",
+      "LOUISIANA STATE UNIVERSITY"
+     ]
+    },
+    {
+     "line": 3462,
+     "text": "Marathon Oil Company Professor of Energy Policy",
+     "context": [
+      "Executive Director, Center for Energy Studies",
+      "Louisiana State University"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp89-01114r000100020067-1",
+   "date": "1973-01-01",
+   "title_year": "2006",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp89-01114r000100020067-1: LETTER TO MR. HARRY FISHER FROM NEIL A. STEIN",
+   "family": "internet_archive",
+   "meta_date": "1973-01-01",
+   "status": "cached",
+   "bytes": 3773,
+   "named_terms": [
+    "marathon oil",
+    "marathon petroleum"
+   ],
+   "other_terms": [
+    "midwest oil"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 1,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 115,
+     "text": "Marathon 071",
+     "context": [
+      "",
+      "McDonnell Douglas"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "gov.gpo.fdsys.CHRG-108shrg95501",
+   "date": "2004-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "MONEY LAUNDERING AND FOREIGN CORRUPTION: ENFORCEMENT AND EFFECTIVENESS OF THE PATRIOT ACT",
+   "family": "internet_archive",
+   "meta_date": "2004-01-01",
+   "status": "cached",
+   "bytes": 2708281,
+   "named_terms": [
+    "marathon oil",
+    "marathon petroleum"
+   ],
+   "other_terms": [
+    "midwest oil"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 200,
+   "phrase_hits": 39,
+   "entity_hits": 39,
+   "matched_entities": [
+    "marathon oil"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 299,
+     "text": "Steven P. Guidry, Central Africa Business Unit Leader, Marathon Oil Com-",
+     "context": [
+      "",
+      "pany, Houston, Texas 66"
+     ]
+    },
+    {
+     "line": 720,
+     "text": "Marathon Oil Company 870",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 722,
+     "text": "b. Correspondence sent on behalf of Marathon Oil Company, dated Sep-",
+     "context": [
+      "",
+      "tember 21, 2004, to the Permanent Subcommittee on Investigations,"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA40385601_1436",
+   "date": "1964-01-01",
+   "title_year": "1964",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Hunt Oil Co. v. Marathon Oil Co., 376 U.S. 910 (1964) (No. 694)",
+   "family": "internet_archive",
+   "meta_date": "1964-01-01",
+   "status": "cached",
+   "bytes": 202888,
+   "named_terms": [
+    "marathon oil",
+    "marathon petroleum"
+   ],
+   "other_terms": [
+    "midwest oil"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 13,
+   "phrase_hits": 9,
+   "entity_hits": 9,
+   "matched_entities": [
+    "marathon oil"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 32,
+     "text": "MARATHON OIL COMPANY;",
+     "context": [
+      "VEPSUS * oe",
+      "(Formerly The Ohio Oi} Company?,-ET AL."
+     ]
+    },
+    {
+     "line": 213,
+     "text": "MARATHON OIL: COMPANY,\u201d",
+     "context": [
+      "",
+      "- oxmerly The Ohio \u2018Oil Com any) \u00a2 \"ET AL."
+     ]
+    },
+    {
+     "line": 1169,
+     "text": "1. On Marathon Oil Cempany and The Pardee Com-",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA40385018_0456",
+   "date": "1985-01-01",
+   "title_year": "1985",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Tenneco West, Inc. v. Marathon Oil Co., 474 U.S. 845 (1985) (No. 85-75)",
+   "family": "internet_archive",
+   "meta_date": "1985-01-01",
+   "status": "cached",
+   "bytes": 184675,
+   "named_terms": [
+    "marathon oil",
+    "marathon petroleum"
+   ],
+   "other_terms": [
+    "midwest oil"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 56,
+   "phrase_hits": 24,
+   "entity_hits": 24,
+   "matched_entities": [
+    "marathon oil"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 21,
+     "text": "MARATHON OIL COMPANY, an Ohio corporation.",
+     "context": [
+      "VS.",
+      ""
+     ]
+    },
+    {
+     "line": 179,
+     "text": "Tenneco West, Inc. v. Marathon Oil Co., 564 F.Supp.",
+     "context": [
+      "",
+      "381 (C.D. Cal. 1983), rev\u2019d, 756 F.2d 769 (9th Cir."
+     ]
+    },
+    {
+     "line": 185,
+     "text": "Tenneco West, Inc. v. Marathon Oil Co., 756 F.2d 769",
+     "context": [
+      "Appendix B",
+      "le es Ais cha ees ee de 8 es Bl"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "formermarathonoi00illi",
+   "date": "2009-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Former Marathon Oil Station, 1130-1154 Bellwood Ave., Bellwood, Illinois",
+   "family": "internet_archive",
+   "meta_date": "2009-01-01",
+   "status": "cached",
+   "bytes": 3661,
+   "named_terms": [
+    "marathon oil",
+    "marathon petroleum"
+   ],
+   "other_terms": [
+    "midwest oil"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "micro_IA40385605_1089",
+   "date": "1971-01-01",
+   "title_year": "1971",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Marathon Oil Co. v. Bruce, 403 U.S. 918 (1971) (No. 1586)",
+   "family": "internet_archive",
+   "meta_date": "1971-01-01",
+   "status": "cached",
+   "bytes": 136301,
+   "named_terms": [
+    "marathon oil",
+    "marathon petroleum"
+   ],
+   "other_terms": [
+    "midwest oil"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 93,
+   "phrase_hits": 16,
+   "entity_hits": 16,
+   "matched_entities": [
+    "marathon oil"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 7,
+     "text": "MARATHON OIL COMPANY \u00bb @ Corporation; and",
+     "context": [
+      "",
+      "ROBERT LEHMAN, et al, d/b/a LEHMAN BROTHERS,"
+     ]
+    },
+    {
+     "line": 28,
+     "text": "Marathon Oil Company",
+     "context": [
+      "Attorney for Petitioner",
+      ""
+     ]
+    },
+    {
+     "line": 207,
+     "text": "MARATHON OIL COMPANY, a corporation; and",
+     "context": [
+      "",
+      "ROBERT LEHMAN, et al, d/b/a LEHMAN BROTHERS,"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "environmentalris0000vict",
+   "date": "2004-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried environmentalris0000vict_djvu.txt, environmentalris0000vict_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  }
+ ]
+}

@@ -1,0 +1,313 @@
+{
+ "window": [
+  "1885-01-01",
+  "1984-12-31"
+ ],
+ "candidates": 67,
+ "mined": 12,
+ "untried_by_limit": 48,
+ "items": [
+  {
+   "identifier": "DTIC_ADA189360",
+   "date": "1987-01-01",
+   "title_year": "1893",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "DTIC ADA189360: Ada (Trade Name) Compiler Validation Summary Report: AT&T UNIX Ada, Release 1.0 3B2/600.",
+   "family": "corporate_print",
+   "meta_date": "1987-01-01",
+   "status": "cached",
+   "bytes": 59814,
+   "named_terms": [
+    "at t"
+   ],
+   "other_terms": [
+    "american telephone and telegraph",
+    "bell labs",
+    "southwestern bell"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 1,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 17,
+     "text": "S6-11-25-ATT",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "somecommentsona00chicgoog",
+   "date": "1908-01-01",
+   "title_year": "1907",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "Some comments on the 1907 Annual report of American telephone and telegraph company",
+   "family": "corporate_print",
+   "meta_date": "1908-01-01",
+   "status": "cached",
+   "bytes": 60341,
+   "named_terms": [
+    "at t"
+   ],
+   "other_terms": [
+    "american telephone and telegraph",
+    "bell labs",
+    "southwestern bell"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "american telephone and telegraph"
+   ],
+   "sample": [
+    {
+     "line": 408,
+     "text": "the report of the American Telephone and Telegraph Company. The pub-",
+     "context": [
+      "by other Independent companies, are unfortunate to the extent implied in",
+      "lic for more than six years had \u00abi joyed the lower rates of .the Citizens Com-"
+     ]
+    },
+    {
+     "line": 735,
+     "text": "obliged to pay tribute to the American Telephone and Telegraph Company",
+     "context": [
+      "upon its revenue which the Independent companies have not. It has been",
+      "for license to do business and to use telephone instrum\u00abits, and has been"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "report-of-a-conference-held-at-the-office-of-the-american-telephone-and-telegraph-company",
+   "date": "1887-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Report Of A Conference Held At The Office Of The American Telephone And Telegraph Company",
+   "family": "corporate_print",
+   "meta_date": "1887-01-01",
+   "status": "cached",
+   "bytes": 334305,
+   "named_terms": [
+    "at t"
+   ],
+   "other_terms": [
+    "american telephone and telegraph",
+    "bell labs",
+    "southwestern bell"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "american telephone and telegraph",
+    "american telephone and. telegraph"
+   ],
+   "sample": [
+    {
+     "line": 24,
+     "text": "AMERICAN TELEPHONE AND. TELEGRAPH COMPANY. 2",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 90,
+     "text": "AMERICAN TELEPHONE AND TELEGRAPH COMPANY,",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 2446,
+     "text": "AMERICAN TELEPHONE AND TELEGRAPH Co.,",
+     "context": [
+      "",
+      "| EXECUTIVE OFFICE,"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "DTIC_ADA189269",
+   "date": "1987-01-01",
+   "title_year": "1892",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "DTIC ADA189269: ADA (Trade Name) Validation Summary Report: AT&T UNIX Ada, Release 1.0 3B2/400 with MAU.",
+   "family": "corporate_print",
+   "meta_date": "1987-01-01",
+   "status": "cached",
+   "bytes": 59696,
+   "named_terms": [
+    "at t"
+   ],
+   "other_terms": [
+    "american telephone and telegraph",
+    "bell labs",
+    "southwestern bell"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 1,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 9,
+     "text": "86-1 1-25 -ATT",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "annualreportofdi00amer_14",
+   "date": "1914-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Annual report of the directors of American Telephone & Telegraph Company to the stockholders for the year ending ...",
+   "family": "corporate_print",
+   "meta_date": "1914-01-01",
+   "status": "cached",
+   "bytes": 136506,
+   "named_terms": [
+    "at t"
+   ],
+   "other_terms": [
+    "american telephone and telegraph",
+    "bell labs",
+    "southwestern bell"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "american  telephone  and  telegraph"
+   ],
+   "sample": [
+    {
+     "line": 11,
+     "text": "AMERICAN  TELEPHONE  AND  TELEGRAPH  COMPANY",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 135,
+     "text": "AMERICAN  TELEPHONE  AND  TELEGRAPH",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 340,
+     "text": "and  of  the  American  Telephone  and  Telegraph  Com\u00ac",
+     "context": [
+      "Estimates  of  all  the  associated  operating  companies",
+      "pany  for  all  new  construction  requirements  in  1914  have"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "DTIC_ADA197243",
+   "date": "1987-01-01",
+   "title_year": "1972",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "DTIC ADA197243: Ada (Trade Name) Compiler Validation Summary Report: Irvine Compiler Corporation. ICC Ada Compiler, Rele",
+   "family": "corporate_print",
+   "meta_date": "1987-01-01",
+   "status": "cached",
+   "bytes": 57073,
+   "named_terms": [
+    "at t"
+   ],
+   "other_terms": [
+    "american telephone and telegraph",
+    "bell labs",
+    "southwestern bell"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "birthbabyhoodoft00wats",
+   "date": "1940-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried birthbabyhoodoft00wats_djvu.txt, birthbabyhoodoft00wats_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "xEJbUdD0uBsC",
+   "date": "1921-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried xEJbUdD0uBsC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "DFUSAQAAMAAJ",
+   "date": "1901-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried DFUSAQAAMAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "KOBRAQAAMAAJ",
+   "date": "1928-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried KOBRAQAAMAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "qYIphO8ACGAC",
+   "date": "1925-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried qYIphO8ACGAC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "2xVAAAAAYAAJ",
+   "date": "1915-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried 2xVAAAAAYAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  }
+ ]
+}

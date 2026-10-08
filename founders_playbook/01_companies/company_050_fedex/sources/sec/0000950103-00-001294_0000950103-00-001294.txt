@@ -1,0 +1,638 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ HUls96aFNR87uulX4tTQ7BRa73+F+EuyOQIsTkltnVnvILljLN/rSq6UNCqTgZM1
+ LeIyYdCMgNwtfxDhvrd8hQ==
+
+<SEC-DOCUMENT>/in/edgar/work/0000950103-00-001294/0000950103-00-001294.txt : 20001123
+<SEC-HEADER>0000950103-00-001294.hdr.sgml : 20001123
+ACCESSION NUMBER:		0000950103-00-001294
+CONFORMED SUBMISSION TYPE:	SC 13D
+PUBLIC DOCUMENT COUNT:		1
+FILED AS OF DATE:		20001122
+
+SUBJECT COMPANY:	
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AMERICAN FREIGHTWAYS CORP
+		CENTRAL INDEX KEY:			0000846729
+		STANDARD INDUSTRIAL CLASSIFICATION:	 [4213
+]		IRS NUMBER:				742391754
+		STATE OF INCORPORATION:			AR
+		FISCAL YEAR END:			1231
+</COMPANY-DATA>
+
+		FILING VALUES:
+			FORM TYPE:		SC 13D
+			SEC ACT:		
+			SEC FILE NUMBER:	005-40826
+			FILM NUMBER:		775672
+</FILING-VALUES>
+
+			BUSINESS ADDRESS:	
+				STREET 1:		2200 FORWARD DR
+				CITY:			HARRISON
+				STATE:			AR
+				ZIP:			72601
+				BUSINESS PHONE:		8707419000
+</BUSINESS-ADDRESS>
+
+				MAIL ADDRESS:	
+					STREET 1:		2200 FORWARD DR
+					CITY:			HARRISON
+					STATE:			AR
+					ZIP:			72601
+</MAIL-ADDRESS>
+</SUBJECT-COMPANY>
+
+					FILED BY:		
+
+						COMPANY DATA:	
+							COMPANY CONFORMED NAME:			FEDEX CORP
+							CENTRAL INDEX KEY:			0001048911
+							STANDARD INDUSTRIAL CLASSIFICATION:	 [4513
+]							IRS NUMBER:				621721435
+							STATE OF INCORPORATION:			DE
+							FISCAL YEAR END:			1231
+</COMPANY-DATA>
+
+							FILING VALUES:
+								FORM TYPE:		SC 13D
+</FILING-VALUES>
+
+								BUSINESS ADDRESS:	
+									STREET 1:		942 SOUTH SHADY GROVE ROAD
+									CITY:			MEMPHIS
+									STATE:			TN
+									ZIP:			38120-
+									BUSINESS PHONE:		9013693600
+</BUSINESS-ADDRESS>
+
+									MAIL ADDRESS:	
+										STREET 1:		6075 POPLAR AVENUE
+										CITY:			MEMPHIS
+										STATE:			TN
+										ZIP:			38119
+</MAIL-ADDRESS>
+
+										FORMER COMPANY:	
+											FORMER CONFORMED NAME:	FDX CORP
+											DATE OF NAME CHANGE:	19971103
+</FORMER-COMPANY>
+</FILED-BY>
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>SC 13D
+<SEQUENCE>1
+<FILENAME>0001.txt
+<TEXT>
+
+
+================================================================================
+
+
+                                 UNITED STATES
+                       SECURITIES AND EXCHANGE COMMISSION
+                             Washington, D.C. 20549
+
+                            -----------------------
+
+                                  SCHEDULE 13D
+                                 (Rule 13d-101)
+            INFORMATION TO BE INCLUDED IN STATEMENTS FILED PURSUANT
+           TO RULE 13d-1(a) AND AMENDMENTS THERETO FILED PURSUANT TO
+                                 RULE 13d-2(a)
+
+                        AMERICAN FREIGHTWAYS CORPORATION
+                                (Name of Issuer)
+
+                                  COMMON STOCK
+                            $.01 PAR VALUE PER SHARE
+                         (Title of Class of Securities)
+
+                            -----------------------
+
+                                   02629V108
+                                 (CUSIP Number)
+
+                               FEDEX CORPORATION
+                       (Name of Person Filing Statement)
+
+                              KENNETH R. MASTERSON
+                               FedEx Corporation
+                           942 South Shady Grove Road
+                               Memphis, TN 38120
+                           Telephone: (901) 818-7200
+                     (Name, Address and Telephone Number of
+                      Person Authorized to Receive Notices
+                              and Communications)
+
+                               November 12, 2000
+                    (Date of Event which Requires Filing of
+                                this Statement)
+
+                            -----------------------
+
+     If the filing person has previously filed a statement on Schedule 13G to
+report the acquisition which is the subject of this Schedule 13D, and is filing
+this statement because of Rule 13d-1(e), 13d-1(f) or 13d-1(g), check the
+following: |_|
+
+================================================================================
+
+
+<PAGE>
+
+
+                                  SCHEDULE 13D
+
+- --------------------                                         -------------------
+CUSIP No.  02629V108                                         Page 2 of 10  Pages
+- --------------------                                         -------------------
+
+- --------------------------------------------------------------------------------
+ 1        NAME OF REPORTING PERSON
+          S.S. OR I.R.S. IDENTIFICATION NO. OF ABOVE PERSON
+
+          FedEx Corporation
+- --------------------------------------------------------------------------------
+ 2        CHECK THE APPROPRIATE BOX IF A MEMBER OF A GROUP
+                                                                        (a)  |_|
+                                                                        (b)  |_|
+- --------------------------------------------------------------------------------
+ 3        SEC USE ONLY
+
+- --------------------------------------------------------------------------------
+ 4        SOURCE OF FUNDS
+
+          OO
+- --------------------------------------------------------------------------------
+ 5        CHECK BOX IF DISCLOSURE OF LEGAL PROCEEDINGS IS REQUIRED PURSUANT
+          TO ITEMS 2(d) or 2(e)  |_|
+
+- --------------------------------------------------------------------------------
+ 6        CITIZENSHIP OR PLACE OF ORGANIZATION
+
+          DELAWARE
+- --------------------------------------------------------------------------------
+                                      7    SOLE VOTING POWER
+
+                                           5
+       NUMBER OF SHARES              -------------------------------------------
+  BENEFICIALLY OWNED BY EACH          8    SHARED VOTING POWER
+    REPORTING PERSON WITH
+                                           12,179,540
+                                     -------------------------------------------
+                                      9    SOLE DISPOSITIVE POWER
+
+                                           5
+                                     -------------------------------------------
+                                     10    SHARED DISPOSITIVE POWER
+
+                                           12,179,540
+- --------------------------------------------------------------------------------
+11        AGGREGATE AMOUNT BENEFICIALLY OWNED BY EACH REPORTING PERSON
+
+          12,179,545
+
+- --------------------------------------------------------------------------------
+12        CHECK BOX IF THE AGGREGATE AMOUNT IN ROW (11) EXCLUDES CERTAIN SHARES
+                                                                            |_|
+
+- --------------------------------------------------------------------------------
+13        PERCENT OF CLASS REPRESENTED BY AMOUNT IN ROW (11)
+
+          37%
+
+- --------------------------------------------------------------------------------
+14        TYPE OF REPORTING PERSON
+
+          CO
+- --------------------------------------------------------------------------------
+
+
+                                       2
+<PAGE>
+
+
+   Item 1. Security and Issuer.
+
+     The class of equity securities to which this statement relates is the
+common stock, par value $.01 per share (the "Shares"), of American Freightways
+Corporation, an Arkansas corporation (the "Issuer"). The principal executive
+offices of the Issuer are located at 2200 Forward Drive, Harrison, Arkansas
+72610.
+
+   Item 2. Identity and Background.
+
+     (a)-(c) and (f) The name of the person filing this statement is FedEx
+Corporation ("FedEx"), a Delaware corporation. The principal executive offices
+of FedEx are located at 942 South Shady Grove Road, Memphis, Tennessee 38120.
+The name, business address, present principal occupation or employment and
+citizenship of each of its directors and executive officers are set forth in
+Schedule A.
+
+     (d)-(e) During the last five years, neither FedEx nor, to the best
+knowledge of FedEx, any of the persons set forth on Schedule A, was convicted
+in a criminal proceeding (excluding traffic violations or similar
+misdemeanors). During the last five years, neither FedEx nor, to the best
+knowledge of FedEx, any of the persons set forth on Schedule A, was a party to
+a civil proceeding of a judicial or administrative body of competent
+jurisdiction and as a result of such proceeding was or is subject to a
+judgment, decree or final order enjoining future violations of, or prohibiting
+or mandating activities subject to, U.S. federal or state securities laws or
+finding any violations with respect to such laws.
+
+   Item 3. Source and Amount of Funds or Other Consideration.
+
+     The total purchase price for the five Shares purchased by FedEx was
+$140.65. These funds came from working capital.
+
+   Item 4. Purpose of Transaction.
+
+     On November 12, 2000, FedEx, FDX, Inc., a wholly-owned subsidiary of
+FedEx, and the Issuer entered into an Agreement and Plan of Merger (the "Merger
+Agreement"). The Merger Agreement contemplates an acquisition of the Issuer by
+FedEx by means of (i) a tender offer (the "Offer") for up to 50.1% of the
+Shares of the Issuer at a price of $28.13 per Share followed by (ii) a merger
+of the Issuer with and into FDX, Inc. (the "Merger"), whereupon the separate
+existence of the Issuer will cease and FDX, Inc. will be the surviving
+corporation. In connection with the Offer, FedEx filed a Tender Offer Statement
+on Schedule TO (the "Schedule TO") with the Securities and Exchange Commission
+(the "SEC") on November 20, 2000. The Merger Agreement is attached as Exhibit
+(d)(1) to the Schedule TO and is incorporated herein by reference.
+
+     On November 12, 2000, in connection with the execution of the Merger
+Agreement, FedEx entered into an Irrevocable Proxy and Voting Agreement ( the
+"Voting Agreement") with F.S. Garrison, Chairman of the Issuer, Tom Garrison, a
+Director and President and Chief Executive Officer of the Issuer, Will
+Garrison, a Director and Corporate Vice President, Chief Operating Officer, and
+Secretary/Treasurer of the Issuer and other members of their families and/or
+various family corporations, trusts and charitable foundations (the "Garrison
+Family") (each, a "Stockholder"). The identity and address of such Stockholders
+and the class and number of shares of capital stock of the Issuer owned by each
+such Stockholder are as set forth immediately following the signature pages to
+the Voting Agreement.
+
+     The following is a summary of the material provisions of the Voting
+Agreement. This summary is qualified in its entirety by reference to the
+complete text of the Voting Agreement which is attached as Exhibit (d)(2) to
+the Schedule TO and incorporated herein by reference.
+
+     The Garrison Family has agreed to vote all Shares that each member is
+entitled to vote, at the time of any vote to approve and adopt the Merger
+Agreement, the Merger and all agreements related to the Merger and any actions
+related thereto at any meeting of the shareholders of the Issuer, and at any
+adjournment thereof, at which such
+
+
+                                       3
+<PAGE>
+
+
+Merger Agreement and other related agreements (or any amended version thereof),
+or such other actions, are submitted for the consideration and vote of the
+shareholders of the Issuer, in favor of the approval and adoption of the Merger
+Agreement, the Merger and the transactions contemplated by the Merger
+Agreement.
+
+     The Garrison Family also has agreed that it will not vote any Shares that
+it is entitled to vote in favor of the approval of any (i) Acquisition Proposal
+(as defined in the Merger Agreement), (ii) reorganization, recapitalization,
+liquidation or winding up of the Issuer or any other extraordinary transaction
+involving the Issuer, (iii) corporate action the consummation of which would
+frustrate the purposes, or prevent or delay the consummation, of the
+transactions contemplated by the Merger Agreement or (iv) other matter relating
+to, or in connection with, any of the foregoing matters. The Garrison Family
+has granted FedEx an irrevocable proxy coupled with an interest to vote any of
+the Shares it is entitled to vote or otherwise use such voting power in the
+manner contemplated by the foregoing.
+
+     The Voting Agreement prohibits the Garrison Family from granting any
+proxies or entering into any voting trust or other agreement or arrangement
+with respect to the voting of any Shares beneficially owned by them and from
+acquiring, selling, assigning, transferring, encumbering or otherwise disposing
+of any Shares during the term of the Agreement, subject to the exceptions
+described in this paragraph. The Garrison Family has the right to tender, at
+its option, up to 1.0 million Shares into the Offer. In addition, to satisfy
+the Minimum Condition (as defined in the Merger Agreement), FedEx has the right
+to require members of the Garrison Family to tender up to an additional 1.0
+million Shares into the Offer, and members of the Garrison Family, at their
+option, may tender additional Shares into the Offer, so long as the total
+number of Shares tendered by the Garrison Family into the Offer (including any
+Shares that FedEx has required members of the Garrison Family to tender into
+the Offer) is not more than 3.2 million.
+
+     The Voting Agreement terminates four months after the termination of the
+Merger Agreement, except that when the Merger Agreement is terminated, the
+number of Shares subject to the Voting Agreement is reduced by 1.0 million (net
+of any Shares tendered by the Garrison Family into the Offer) and if the Merger
+Agreement is terminated because the Board of Directors of the Issuer has failed
+to make, withdrawn or modified in a manner adverse to FedEx its approval or
+recommendation of the Merger Agreement, the Offer or the Merger, the obligation
+of the Garrison Family to tender up to 1.0 million Shares into the Offer at the
+request of FedEx automatically terminates.
+
+     Except as described herein or in the Schedule TO and except as
+contemplated by the Merger Agreement, FedEx currently has no plans or proposals
+relating to or that would result in the matters set forth in paragraphs (a)
+through (j) of Item 4 of Schedule 13D.
+
+   Item 5. Interest in Securities of the Issuer.
+
+     (a) FedEx is the record owner of five Shares. In addition, FedEx has shared
+power to vote, in respect of certain matters, and shared dispositive power, in
+certain circumstances, with respect to 12,179,540 Shares.
+
+     (b) FedEx has sole power to vote and dispose of five Shares. FedEx has
+shared power to vote, in respect of certain matters, and shared dispositive
+power, in certain circumstances, with respect to 12,179,540 Shares or 37% of
+the Shares outstanding as of November 10, 2000.
+
+     (c) The five Shares owned of record by FedEx were acquired at a purchase
+price per Share of $28.13 in a privately negotiated transaction on November 12,
+2000. Except for this purchase and the 12,179,540 Shares subject to the Voting
+Agreement described in Item 4 above, during the past sixty days, neither FedEx
+nor, to the best knowledge of FedEx, any of the persons set forth on Schedule
+A, has effected any transactions in the Shares.
+
+     (d) Inapplicable.
+
+     (e) Inapplicable.
+
+
+                                       4
+<PAGE>
+
+
+   Item 6. Contracts, Arrangements, Understandings or Relationships with
+           Respect to Securities of the Issuer.
+
+     Except for the arrangements described in Item 4 above, to the best
+knowledge of FedEx, there are no contracts, arrangements, understandings or
+relationships (legal or otherwise) between the persons enumerated in Item 2 and
+any other person with respect to any securities of the Issuer, including, but
+not limited to, transfer or voting of any of the securities, finder's fees,
+joint ventures, loan or option arrangements, puts or calls, guarantees of
+profits, division of profits or loss, or the giving or withholding of proxies.
+
+   Item 7. Material to be Filed as Exhibits.
+
+   Exhibit 1:  Agreement and Plan of Merger dated as of November 12, 2000
+               between FedEx, FDX, Inc. and the Issuer (incorporated by
+               reference to Exhibit (d)(1) to the Schedule TO filed by FedEx
+               Corporation on November 20, 2000).
+
+   Exhibit 2:  Voting Agreement dated as of November 12, 2000, between FedEx and
+               the Garrison Family (incorporated by reference to Exhibit (d)(2)
+               to the Schedule TO filed by FedEx Corporation on November 20,
+               2000).
+
+
+                                       5
+<PAGE>
+
+
+     After reasonable inquiry and to the best of my knowledge and belief, I
+certify that the information set forth in this statement is true, complete and
+correct.
+
+                                         FEDEX CORPORATION
+
+Dated: November 22, 2000.
+                                         By: /s/ Kenneth R. Masterson
+                                            ----------------------------------
+                                            Name:  Kenneth R. Masterson
+                                            Title: Executive Vice President,
+                                                   General Counsel and Secretary
+
+
+                                       6
+<PAGE>
+
+
+                                                                      SCHEDULE A
+
+             DIRECTORS AND EXECUTIVE OFFICERS OF FEDEX CORPORATION
+
+     The name, current principal occupation or employment and material
+occupations, positions, offices, or employment for the past five years, of each
+director and executive officer of FedEx are set forth below. Unless otherwise
+indicated below, the business address of each director and officer is c/o FedEx
+Corporation, 942 South Shady Grove Road, Memphis, TN 38120. Where no date is
+shown, the individual has occupied the position indicated for the past five
+years. Unless otherwise indicated, each occupation set forth opposite an
+individual's name refers to employment with FedEx. References herein to "FedEx"
+mean FedEx Corporation and references to "FedEx Express" mean its subsidiary,
+Federal Express Corporation. All directors and officers listed below are
+citizens of the United States, except for Paul S. Walsh, who is a British
+citizen.
+
+1.  Directors of FedEx
+
+<TABLE>
+<S>                                           <C>
+                                                       Current Principal Occupation or Employment
+                  Name                                      and Five-Year Employment History
+                  ----                             -------------------------------------------------
+
+James L. Barksdale.............................Managing.Partner, The Barksdale Group, a venture capital firm,
+                                               from April 1999 to present; President and Chief Executive Officer
+                                               of Netscape Communications Corporation, a provider of software,
+                                               services and Web site resources to Internet users, from January
+                                               1995 to March 1999; President, Chief Executive Officer and Chief
+                                               Operating Officer of AT&T Wireless Services (formerly McCaw
+                                               Cellular Communications, Inc. (collectively, "McCaw")), a cellular
+                                               telecommunications company, from September 1994 to January
+                                               1995; President and Chief Operating Officer of McCaw from
+                                               January 1992 to September 1994; Executive Vice President and
+                                               Chief Operating Officer of FedEx Express from April 1983 to
+                                               January 1992; Director of FedEx Express from April 1983 to
+                                               October 1991; Senior Vice President-Data Systems of FedEx
+                                               Express from February 1979 to April 1983. Director, America
+                                               Online, Inc., HomeGrocer.com, Inc., Liberate Technologies, The
+                                               Robert Mondavi Corporation, Sun Microsystems, Inc. and 3Com
+                                               Corporation.
+
+Robert L. Cox..................................Partner, Waring.Cox, a law firm, for more than the past five years;
+                                               Secretary of FedEx Express from June 1971 to September 1993.
+
+Ralph D. DeNunzio..............................President of Harbor Point Associates, Inc., a private investment and
+                                               consulting firm, since October 1987.  Director, Harris Corporation
+                                               and NIKE, Inc.
+
+Judith L. Estrin...............................President and Chief Executive Officer of Packet Design, Inc., an
+                                               Internet technology company, since May 2000; Senior Vice
+                                               President and Chief Technology Officer of Cisco Systems, Inc., a
+                                               networking systems company, from April 1998 to April 2000;
+                                               President and Chief Executive Officer of Precept Software, Inc., a
+                                               computer software company, from March 1995 to April 1998;
+                                               Consultant from September 1994 to March 1995. Director, Sun
+                                               Microsystems, Inc. and The Walt Disney Company.
+
+
+                                                    A-1
+
+
+<PAGE>
+
+
+                                                      Current Principal Occupation or Employment
+                  Name                                      and Five-Year Employment History
+                  ----                             -------------------------------------------------
+Philip Greer...................................Senior Managing Director of Weiss, Peck & Greer, L.L.C., an
+                                               investment management firm, since 1995; General Partner of Weiss,
+                                               Peck & Greer from 1970 to 1995. Director, Network Computing
+                                               Devices, Inc. and The Robert Mondavi Corporation.
+
+J. R. Hyde, III................................Chairman of Pittco Management, LLC, an investment management
+                                               company, since January 1998; President of Pittco, Inc., an
+                                               investment company, since April 1989; Chairman of AutoZone,
+                                               Inc., an auto parts retail chain, from May 1986 to March 1997;
+                                               Chief Executive Officer of AutoZone, Inc. from May 1986 to
+                                               December 1996. Director, AutoZone, Inc.
+
+Shirley A. Jackson.............................President of Rensselaer Polytechnic Institute, a technological
+                                               university, since July 1999; Chairman and Commissioner of the
+                                               United States Nuclear Regulatory Commission from July 1995 to
+                                               June 1999; Commissioner of the United States Nuclear Regulatory
+                                               Commission from May 1995 to July 1995; Professor of Physics at
+                                               Rutgers University from July 1991 to May 1995. Director, Newport
+                                               News Shipbuilding Inc., Sealed Air Corporation, USX Corporation
+                                               and UtiliCorp United Inc.
+
+George J. Mitchell.............................Special Counsel to Verner, Liipfert, Bernhard, McPherson and
+                                               Hand, a law firm, since January 1995; Member of the United States
+                                               Senate from May 1980 to January 1995. Director, Casella Waste
+                                               Systems, Inc., Staples, Inc., Starwood Hotels & Resorts Worldwide,
+                                               Inc., Unilever PLC, UnumProvident Corporation, The Walt Disney
+                                               Company and Xerox Corporation.
+
+Joshua I. Smith................................Vice Chairman and President of iGate, Inc., a broadband
+                                               networking company, since June 2000; Chairman, President and
+                                               Chief Executive Officer of The MAXIMA Corporation, an
+                                               information and data processing firm, from 1978 to June 2000. The
+                                               MAXIMA Corporation filed for reorganization in federal
+                                               bankruptcy court in June 1998. Director, The Allstate Corporation,
+                                               CardioComm Solutions Inc. and Caterpillar Inc.
+
+Frederick W. Smith.............................Chairman, President and Chief Executive Officer of FedEx  since
+                                               January 1998; Chairman of FedEx Express since 1975; Chairman,
+                                               President and Chief Executive Officer of FedEx Express from 1983
+                                               to January 1998; Chief Executive Officer of FedEx Express from
+                                               1977 to January 1998; President of FedEx Express from 1971 to
+                                               1975. Director, Value America, Inc.
+
+Paul S. Walsh..................................Group Chief Operating Officer of Diageo plc, a consumer food and
+                                               beverage company, since January 2000; Chairman, President and
+                                               Chief Executive Officer of The Pillsbury Company, a wholly-owned
+                                               subsidiary of Diageo plc, from April 1996 to January 2000; Chief
+                                               Executive Officer of The Pillsbury Company from January 1992 to
+                                               April 1996. Director, Ceridian Corporation and Diageo plc.
+
+
+                                                    A-2
+<PAGE>
+
+                                                      Current Principal Occupation or Employment
+                  Name                                      and Five-Year Employment History
+                  ----                             -------------------------------------------------
+Peter S. Willmott..............................Chairman and Chief Executive Officer of Willmott Services, Inc., a
+                                               retail and consulting firm, since June 1989; Chief Executive Officer
+                                               and President of Zenith Electronics Corporation, an electronics
+                                               manufacturing company, from July 1996 to January 1998 (Zenith
+                                               Electronics Corporation filed for reorganization in federal
+                                               bankruptcy court in August 1999); President and Chief Operating
+                                               Officer of FedEx Express from September 1980 to May 1983;
+                                               Executive Vice President of FedEx Express from 1977 to 1980;
+                                               Senior Vice President-Finance and Administration of FedEx
+                                               Express from 1974 to 1977. Director, Security Capital Group
+                                               Incorporated.
+
+
+2. Executive Officers of FedEx
+
+
+                                                      Current Principal Occupation or Employment
+                  Name                                      and Five-Year Employment History
+                  ----                             -------------------------------------------------
+Robert B. Carter...............................Executive Vice President and Chief Information Officer of FedEx
+                                               since June 2000; Corporate Vice President and Chief Technology
+                                               Officer of FedEx from February 1998 to June 2000; Vice President
+                                               - Corporate Systems Development of FedEx Express from
+                                               September 1993 to February 1998; Managing Director - Systems
+                                               Development of FedEx Express from April 1993 to September
+                                               1993.
+
+T. Michael Glenn...............................Executive Vice President - Market Development and Corporate
+                                               Communications of FedEx since January 1998; Senior Vice
+                                               President - Marketing, Customer Service and Corporate
+                                               Communications of FedEx Express from June 1994 to January
+                                               1998; Senior Vice President - Marketing and Corporate
+                                               Communications of FedEx Express from December 1993 to June
+                                               1994; Senior Vice President -Worldwide Marketing Catalog
+                                               Services and Corporate Communications of FedEx Express from
+                                               June 1993 to December 1993; Senior Vice President - Catalog and
+                                               Remail Services of FedEx Express from September 1992 to June
+                                               1993; Vice President - Marketing of FedEx Express from August
+                                               1985 to September 1992; and various management positions in sales
+                                               and marketing and senior sales specialist of FedEx Express from
+                                               1981 to 1985.
+
+
+                                                    A-3
+
+
+<PAGE>
+
+
+                                                      Current Principal Occupation or Employment
+                  Name                                      and Five-Year Employment History
+                  ----                             -------------------------------------------------
+Alan B. Graf, Jr...............................Executive Vice President and Chief Financial Officer of FedEx
+                                               since January 1998; Executive Vice President and Chief Financial
+                                               Officer of FedEx Express from February 1996 to January 1998;
+                                               Senior Vice President and Chief Financial Officer of FedEx Express
+                                               from December 1991 to February 1996; Vice President and
+                                               Treasurer of FedEx Express from August 1987 to December 1991;
+                                               and various management positions in finance and a senior financial
+                                               analyst of FedEx Express from 1980 to 1987.
+
+James S. Hudson................................Corporate Vice President - Strategic Financial Planning and Control
+                                               and Principal Accounting Officer of FedEx since January 1998;
+                                               Vice President - Corporate and Strategic Financial Planning of
+                                               FedEx Express from January 1997 to January 1998; Vice President,
+                                               Controller and Chief Accounting Officer of FedEx Express from
+                                               December 1994 to January 1997; Vice President-Finance - Europe,
+                                               Africa and Mediterranean of FedEx Express from July 1992 to
+                                               December 1994; and various management positions in finance at
+                                               FedEx Express from 1974 to 1992.
+
+Kenneth R. Masterson...........................Executive Vice President, General Counsel and Secretary of FedEx
+                                               since January 1998; Executive Vice President, General Counsel and
+                                               Secretary of FedEx Express from February 1996 to January 1998;
+                                               Senior Vice President, General Counsel and Secretary of FedEx
+                                               Express from September 1993 to February 1996; Senior Vice
+                                               President and General Counsel of FedEx Express from February
+                                               1981 to September 1993; and Vice President - Legal of FedEx
+                                               Express from January 1980 to February 1981.
+
+Frederick W. Smith.............................Chairman, President and Chief Executive Officer of FedEx since
+                                               January 1998; Chairman of FedEx Express since 1975; Chairman,
+                                               President and Chief  Executive Officer of FedEx Express from April
+                                               1993 to January 1998;  Chief Executive Officer of FedEx Express
+                                               from 1977 to January 1998; and President of FedEx Express from
+                                               June 1971 to February 1975.
+
+
+                                                     A-4
+</TABLE>
+
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

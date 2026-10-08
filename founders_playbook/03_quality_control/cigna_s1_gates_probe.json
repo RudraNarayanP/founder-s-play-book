@@ -1,0 +1,9 @@
+{
+ "findings": [
+  {
+   "gate": "quotes",
+   "subject": "verbatim",
+   "msg": "1 of 5 quoted spans not found in local sources"
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "identifier": "ERIC_ED073079",
+ "url": "https://archive.org/download/ERIC_ED073079/ERIC_ED073079_djvu.txt",
+ "fetched": "2026-09-29T17:53:43Z",
+ "bytes": 171126,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

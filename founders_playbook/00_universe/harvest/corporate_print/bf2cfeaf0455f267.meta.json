@@ -1,0 +1,25 @@
+{
+ "url": "https://archive.org/advancedsearch.php?q=%28creator%3A%28%22johnson%20%26%20johnson%22%29%29%20AND%20%28title%3A%28annual%29%20OR%20title%3A%28report%29%20OR%20title%3A%28catalog%29%29%20AND%20mediatype%3A%28texts%29&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=date&fl%5B%5D=year&fl%5B%5D=mediatype&fl%5B%5D=collection&fl%5B%5D=creator&rows=20&page=1&output=json",
+ "evidence_file": "bf2cfeaf0455f267.json",
+ "http_status": 200,
+ "content_type": "application/json",
+ "bytes": 456,
+ "retrieved_at": "2026-10-06T12:03:40Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "",
+ "retry_after": "",
+ "note": "",
+ "source": "corporate_print",
+ "query_label": "CP jnj corporate print by creator 1886-1980 [FACET-FREE per RD-130]",
+ "company": "jnj",
+ "kind": "search"
+}

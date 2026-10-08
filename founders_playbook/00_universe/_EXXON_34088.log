@@ -1,0 +1,10 @@
+walk: 2 slices (2 fetched, 0 failed), 3557 filing rows, date perimeter 1994-03-04 -> 2026-09-25
+index: 3557 filings from registrant 'EXXON MOBIL CORP' (CIK 0000034088, tickers [])
+index: registrant guard = ok -- slug token(s) ['exxonmobil'] match registrant 'EXXON MOBIL CORP' (CIK 0000034088)
+index: artefacts keyed by CIK -> submissions_CIK0000034088.json, submissions_CIK0000034088.csv, _INDEX_CIK0000034088.md
+index: 0 rows dropped for no accession, 58 without primaryDocument (both counted in the artefacts)
+auto: 11 accessions in window, 11 directories opened, 11 document slots planned, 11 kept under --max-docs 30, 0 skipped past the cut
+auto: selection order -- 1. filings whose filingDate falls in --from/--to, sorted filingDate ASCENDING (earliest evidence first); 2. one filing per form key -- S-1/S-4/10-K families keep every filing because version differences are findings, other forms keep the first per (base-form, primaryDocument[:12]); 3. inside a filing, documents in candidate order: the submissions primaryDocument, then named text/html items largest-first, then the full-submission SGML <accession>.txt; 4. --max-docs caps DOCUMENTS, so the stream built by 1-3 is cut at N and every slot past the cut is written to _SKIPPED.csv as 'SKIPPED beyond --max-docs N' -- never dropped.
+auto: 11 documents stored (2961190 bytes, 332653 words); 0 UNANSWERED (of which 0 nameless pre-2001 listing rows); 67 SKIPPED
+auto: IDENTITY stored + unanswered + skipped == attempted -> stored(11) + unanswered(0) + skipped(67) = 78 vs attempted(78) -> BROKEN
+auto: DOUBLE-COUNTED SLOTS (this is defect D-3, do not trust the tally): nameless:0000950103-99-000247:911 in skipped and skipped; nameless:0000950103-99-000247:906 in skipped and skipped

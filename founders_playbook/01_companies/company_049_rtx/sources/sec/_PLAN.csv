@@ -1,0 +1,9 @@
+rank,cik,accession,form,filingDate,document,bytes_in_index_json,why,url,disposition
+1,0000101829,0001140361-20-007906,8-K,2020-04-03,nc10010681x1_8k.htm,40064,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000101829/000114036120007906/nc10010681x1_8k.htm,fetched this run
+2,0000101829,0001140361-20-007906,8-K,2020-04-03,R1.htm,45194,index.json listing (45194 B),https://www.sec.gov/Archives/edgar/data/0000101829/000114036120007906/R1.htm,fetched this run
+3,0000101829,0001140361-20-007906,8-K,2020-04-03,nc10010681x1_ex99-1.htm,28768,index.json listing (28768 B),https://www.sec.gov/Archives/edgar/data/0000101829/000114036120007906/nc10010681x1_ex99-1.htm,fetched this run
+4,0000101829,0001140361-20-007906,8-K,2020-04-03,0001140361-20-007906.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000101829/000114036120007906/0001140361-20-007906.txt,fetched this run
+5,0000101829,0001140361-20-008397,8-K,2020-04-08,nc10010681x2_8k.htm,162991,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000101829/000114036120008397/nc10010681x2_8k.htm,fetched this run
+6,0000101829,0001140361-20-008397,8-K,2020-04-08,nc10010681x2_ex99-1.htm,2609553,index.json listing (2609553 B),https://www.sec.gov/Archives/edgar/data/0000101829/000114036120008397/nc10010681x2_ex99-1.htm,fetched this run
+7,0000101829,0001140361-20-008397,8-K,2020-04-08,nc10010681x2_ex99-2.htm,1024573,index.json listing (1024573 B),https://www.sec.gov/Archives/edgar/data/0000101829/000114036120008397/nc10010681x2_ex99-2.htm,fetched this run
+8,0000101829,0001140361-20-008397,8-K,2020-04-08,nc10010681x2_ex2-1.htm,505600,index.json listing (505600 B),https://www.sec.gov/Archives/edgar/data/0000101829/000114036120008397/nc10010681x2_ex2-1.htm,fetched this run

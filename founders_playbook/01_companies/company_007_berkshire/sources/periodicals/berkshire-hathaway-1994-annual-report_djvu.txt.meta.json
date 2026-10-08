@@ -1,0 +1,9 @@
+{
+ "identifier": "berkshire-hathaway-1994-annual-report",
+ "url": "https://archive.org/download/berkshire-hathaway-1994-annual-report/Berkshire%20Hathaway%201994%20Annual%20Report_djvu.txt",
+ "fetched": "2026-09-29T20:01:30Z",
+ "bytes": 195254,
+ "route": "download/<id>/Berkshire Hathaway 1994 Annual Report_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

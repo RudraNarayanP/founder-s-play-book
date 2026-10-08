@@ -1,0 +1,9 @@
+{
+ "identifier": "01.-wells-fargo-annual-report-archive",
+ "url": "https://archive.org/download/01.-wells-fargo-annual-report-archive/Wells%20Fargo%20%26%20Company%20%28WFC%29%20Annual%20Report%201987_djvu.txt",
+ "fetched": "2026-10-06T12:04:41Z",
+ "bytes": 170502,
+ "route": "download/<id>/Wells Fargo & Company (WFC) Annual Report 1987_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

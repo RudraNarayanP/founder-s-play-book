@@ -1,0 +1,133 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ VcELGW6t6co+n6Du/iM58MgeO0fGrVCSZ6q6NG3R1nQV5lv4jHla5rUO8xORXsUu
+ Ef/dMyUKWDvdwdKqW0Mt9Q==
+
+<SEC-DOCUMENT>/in/edgar/work/20000605/0000019617-00-000110/0000019617-00-000110.txt : 20000919
+<SEC-HEADER>0000019617-00-000110.hdr.sgml : 20000919
+ACCESSION NUMBER:		0000019617-00-000110
+CONFORMED SUBMISSION TYPE:	424B2
+PUBLIC DOCUMENT COUNT:		1
+FILED AS OF DATE:		20000605
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			CHASE MANHATTAN CORP /DE/
+		CENTRAL INDEX KEY:			0000019617
+		STANDARD INDUSTRIAL CLASSIFICATION:	 [6021
+]		IRS NUMBER:				132624428
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+</COMPANY-DATA>
+
+		FILING VALUES:
+			FORM TYPE:		424B2
+			SEC ACT:		
+			SEC FILE NUMBER:	333-94393
+			FILM NUMBER:		648900
+</FILING-VALUES>
+
+			BUSINESS ADDRESS:	
+				STREET 1:		270 PARK AVE
+				CITY:			NEW YORK
+				STATE:			NY
+				ZIP:			10017
+				BUSINESS PHONE:		2122706000
+</BUSINESS-ADDRESS>
+
+				MAIL ADDRESS:	
+					STREET 1:		270 PARK AVENUE
+					CITY:			NEW YORK
+					STATE:			NY
+					ZIP:			10017
+</MAIL-ADDRESS>
+
+					FORMER COMPANY:	
+						FORMER CONFORMED NAME:	CHEMICAL BANKING CORP
+						DATE OF NAME CHANGE:	19920703
+</FORMER-COMPANY>
+
+						FORMER COMPANY:	
+							FORMER CONFORMED NAME:	CHEMICAL NEW YORK CORP
+							DATE OF NAME CHANGE:	19880508
+</FORMER-COMPANY>
+</FILER>
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>424B2
+<SEQUENCE>1
+<FILENAME>0001.txt
+<DESCRIPTION>MTN FILING
+<TEXT>
+
+Pricing Supplement No.105L Dated June 2, 2000         Rule 424(b)(2)
+(To Prospectus dated February 11, 2000 and             File No's.333-94393
+Prospectus Supplement dated February 11, 2000)             and 33-64261
+
+THE CHASE MANHATTAN CORPORATION
+
+
+[X]	Senior Medium -Term Notes, Series C  Due From Nine
+	Months to Thirty Years from Date of Issue
+
+[  ]	Subordinated Medium Term Notes, Series A Due From
+	Nine Months to Thirty Years from Date of Issue
+
+	Principal Amount: $100,000,000.00
+	Issue Price: VARIOUS
+	Commission or Discount: $100,000.00
+	Proceeds to Company:  $99,900,000.00
+
+ Agent: CHASE SECURITIES INC.
+
+	Agent's Capacity:  [ ]     As agent    [x]  As principal
+
+	If as principal
+		[ ]   The Notes are being offered at varying prices to
+		        prevailing market prices at the time of sale
+
+		[x]   The Notes are being offered at a fixed initial public
+		        offering price equal to the Issue Price (as a
+		        percentage of Principal Amount).
+
+	Original Issue Date: JUNE 7, 2000
+	Stated Maturity:	   	JUNE 7, 2002
+
+	Form:  [X]   Book-entry [  ]   Certificated
+	Currency:   U.S. Dollars
+
+[X] 	Fixed Rate Note:
+    Interest Rate: 7.36%
+
+[]Floating Rate Note:   CD[   ]   Commercial Paper Rate [   ]
+			     Federal Fund Effective Rate [ ] CMT [ ]
+			     LIBOR Telerate []  LIBOR Reuter [  ]
+			     Treasury Rate [ ]     Prime Rate   [ ]
+
+	Initial Interest Rate:
+
+	Int.Determ.Dates:
+
+
+	Interest Payment Dates: THE 7TH OF JUNE AND DECEMBER
+
+ Interest  Reset Dates:
+
+
+	Index Maturity:
+	Spread (+/-):
+ Spread Multiplier:
+ Maximum Interest Rate:
+	Minimum Interest Rate:
+	Optional Redemption  :   Yes [ ]       No  [x]
+
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

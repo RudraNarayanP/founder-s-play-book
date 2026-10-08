@@ -1,0 +1,591 @@
+CP lane finished (or 60 min elapsed); starting the post-facet mine pass
+{
+ "apple": {
+  "window": [
+   "1975-01-01",
+   "1980-12-31"
+  ],
+  "candidates": 179,
+  "mined": 12,
+  "bytes": 7956610,
+  "entity_naming": 6,
+  "variant_term": 0,
+  "bare_word_only": 5,
+  "null": 0,
+  "unanswered": 1
+ },
+ "att": {
+  "window": [
+   "1885-01-01",
+   "1984-12-31"
+  ],
+  "candidates": 67,
+  "mined": 12,
+  "bytes": 707735,
+  "entity_naming": 0,
+  "variant_term": 3,
+  "bare_word_only": 2,
+  "null": 1,
+  "unanswered": 6
+ },
+ "berkshire": {
+  "window": [
+   "1962-01-01",
+   "1978-12-31"
+  ],
+  "candidates": 122,
+  "mined": 12,
+  "bytes": 2097529,
+  "entity_naming": 7,
+  "variant_term": 0,
+  "bare_word_only": 3,
+  "null": 0,
+  "unanswered": 2
+ },
+ "boeing": {
+  "window": [
+   "1916-01-01",
+   "1940-12-31"
+  ],
+  "candidates": 102,
+  "mined": 12,
+  "bytes": 3699095,
+  "entity_naming": 8,
+  "variant_term": 0,
+  "bare_word_only": 4,
+  "null": 0,
+  "unanswered": 0
+ },
+ "bofa": {
+  "window": [
+   "1791-01-01",
+   "1998-12-31"
+  ],
+  "candidates": 122,
+  "mined": 12,
+  "bytes": 1931967,
+  "entity_naming": 12,
+  "variant_term": 0,
+  "bare_word_only": 0,
+  "null": 0,
+  "unanswered": 0
+ },
+ "cardinal": {
+  "window": [
+   "1971-01-01",
+   "1995-12-31"
+  ],
+  "candidates": 64,
+  "mined": 12,
+  "bytes": 433968,
+  "entity_naming": 0,
+  "variant_term": 0,
+  "bare_word_only": 5,
+  "null": 0,
+  "unanswered": 7
+ },
+ "cencora": {
+  "window": [
+   "1985-01-01",
+   "2000-12-31"
+  ],
+  "candidates": 2,
+  "mined": 2,
+  "bytes": 7722,
+  "entity_naming": 0,
+  "variant_term": 0,
+  "bare_word_only": 0,
+  "null": 2,
+  "unanswered": 0
+ },
+ "centene": {
+  "window": [
+   "1984-01-01",
+   "2002-12-31"
+  ],
+  "candidates": 31,
+  "mined": 12,
+  "bytes": 0,
+  "entity_naming": 0,
+  "variant_term": 0,
+  "bare_word_only": 0,
+  "null": 0,
+  "unanswered": 12
+ },
+ "chevron": {
+  "window": [
+   "1879-01-01",
+   "1984-12-31"
+  ],
+  "candidates": 138,
+  "mined": 12,
+  "bytes": 1260552,
+  "entity_naming": 1,
+  "variant_term": 0,
+  "bare_word_only": 11,
+  "null": 0,
+  "unanswered": 0
+ },
+ "cigna": {
+  "window": [
+   "1979-01-01",
+   "1995-12-31"
+  ],
+  "candidates": 96,
+  "mined": 12,
+  "bytes": 720794,
+  "entity_naming": 2,
+  "variant_term": 5,
+  "bare_word_only": 3,
+  "null": 0,
+  "unanswered": 2
+ },
+ "citigroup": {
+  "window": [
+   "1812-01-01",
+   "1998-12-31"
+  ],
+  "candidates": 156,
+  "mined": 12,
+  "bytes": 378441,
+  "entity_naming": 1,
+  "variant_term": 0,
+  "bare_word_only": 0,
+  "null": 7,
+  "unanswered": 4
+ },
+ "comcast": {
+  "window": [
+   "1963-01-01",
+   "1990-12-31"
+  ],
+  "candidates": 54,
+  "mined": 12,
+  "bytes": 3193238,
+  "entity_naming": 2,
+  "variant_term": 4,
+  "bare_word_only": 0,
+  "null": 0,
+  "unanswered": 6
+ },
+ "cvs": {
+  "window": [
+   "1963-01-01",
+   "1996-12-31"
+  ],
+  "candidates": 70,
+  "mined": 12,
+  "bytes": 6276968,
+  "entity_naming": 3,
+  "variant_term": 2,
+  "bare_word_only": 0,
+  "null": 5,
+  "unanswered": 2
+ },
+ "dell": {
+  "window": [
+   "1984-01-01",
+   "1992-12-31"
+  ],
+  "candidates": 40,
+  "mined": 12,
+  "bytes": 3009000,
+  "entity_naming": 0,
+  "variant_term": 0,
+  "bare_word_only": 5,
+  "null": 7,
+  "unanswered": 0
+ },
+ "disney": {
+  "window": [
+   "1923-01-01",
+   "1945-12-31"
+  ],
+  "candidates": 100,
+  "mined": 12,
+  "bytes": 1256945,
+  "entity_naming": 11,
+  "variant_term": 0,
+  "bare_word_only": 0,
+  "null": 0,
+  "unanswered": 1
+ },
+ "elevance": {
+  "window": [
+   "1944-01-01",
+   "2014-12-31"
+  ],
+  "candidates": 50,
+  "mined": 12,
+  "bytes": 1702736,
+  "entity_naming": 2,
+  "variant_term": 0,
+  "bare_word_only": 1,
+  "null": 7,
+  "unanswered": 2
+ },
+ "exxonmobil": {
+  "window": [
+   "1866-01-01",
+   "1999-12-31"
+  ],
+  "candidates": 134,
+  "mined": 12,
+  "bytes": 7275307,
+  "entity_naming": 2,
+  "variant_term": 7,
+  "bare_word_only": 3,
+  "null": 0,
+  "unanswered": 0
+ },
+ "fanniemae": {
+  "window": [
+   "1938-01-01",
+   "1970-12-31"
+  ],
+  "candidates": 75,
+  "mined": 12,
+  "bytes": 1151964,
+  "entity_naming": 0,
+  "variant_term": 5,
+  "bare_word_only": 0,
+  "null": 3,
+  "unanswered": 4
+ },
+ "fedex": {
+  "window": [
+   "1971-01-01",
+   "1985-12-31"
+  ],
+  "candidates": 55,
+  "mined": 12,
+  "bytes": 2606412,
+  "entity_naming": 5,
+  "variant_term": 3,
+  "bare_word_only": 1,
+  "null": 0,
+  "unanswered": 3
+ },
+ "ford": {
+  "window": [
+   "1903-01-01",
+   "1950-12-31"
+  ],
+  "candidates": 178,
+  "mined": 12,
+  "bytes": 145304,
+  "entity_naming": 12,
+  "variant_term": 0,
+  "bare_word_only": 0,
+  "null": 0,
+  "unanswered": 0
+ },
+ "freddiemac": {
+  "window": [
+   "1970-01-01",
+   "1990-12-31"
+  ],
+  "candidates": 44,
+  "mined": 12,
+  "bytes": 1569489,
+  "entity_naming": 3,
+  "variant_term": 5,
+  "bare_word_only": 0,
+  "null": 0,
+  "unanswered": 4
+ },
+ "gm": {
+  "window": [
+   "1908-01-01",
+   "1930-12-31"
+  ],
+  "candidates": 111,
+  "mined": 12,
+  "bytes": 1324242,
+  "entity_naming": 5,
+  "variant_term": 0,
+  "bare_word_only": 0,
+  "null": 0,
+  "unanswered": 7
+ },
+ "goldman": {
+  "window": [
+   "1869-01-01",
+   "1950-12-31"
+  ],
+  "candidates": 91,
+  "mined": 12,
+  "bytes": 5064919,
+  "entity_naming": 0,
+  "variant_term": 0,
+  "bare_word_only": 0,
+  "null": 6,
+  "unanswered": 6
+ },
+ "homedepot": {
+  "window": [
+   "1978-01-01",
+   "1990-12-31"
+  ],
+  "candidates": 41,
+  "mined": 12,
+  "bytes": 3621748,
+  "entity_naming": 2,
+  "variant_term": 1,
+  "bare_word_only": 0,
+  "null": 0,
+  "unanswered": 9
+ },
+ "humana": {
+  "window": [
+   "1961-01-01",
+   "1985-12-31"
+  ],
+  "candidates": 25,
+  "mined": 12,
+  "bytes": 244953,
+  "entity_naming": 1,
+  "variant_term": 0,
+  "bare_word_only": 1,
+  "null": 0,
+  "unanswered": 10
+ },
+ "jnj": {
+  "window": [
+   "1886-01-01",
+   "1960-12-31"
+  ],
+  "candidates": 24,
+  "mined": 12,
+  "bytes": 33583,
+  "entity_naming": 0,
+  "variant_term": 0,
+  "bare_word_only": 0,
+  "null": 1,
+  "unanswered": 11
+ },
+ "jpmorgan": {
+  "window": [
+   "1799-01-01",
+   "1960-12-31"
+  ],
+  "candidates": 93,
+  "mined": 12,
+  "bytes": 1558492,
+  "entity_naming": 2,
+  "variant_term": 0,
+  "bare_word_only": 7,
+  "null": 0,
+  "unanswered": 3
+ },
+ "kroger": {
+  "window": [
+   "1883-01-01",
+   "1960-12-31"
+  ],
+  "candidates": 26,
+  "mined": 12,
+  "bytes": 622664,
+  "entity_naming": 1,
+  "variant_term": 0,
+  "bare_word_only": 1,
+  "null": 0,
+  "unanswered": 10
+ },
+ "marathon": {
+  "window": [
+   "1887-01-01",
+   "2011-12-31"
+  ],
+  "candidates": 71,
+  "mined": 12,
+  "bytes": 3604339,
+  "entity_naming": 6,
+  "variant_term": 0,
+  "bare_word_only": 1,
+  "null": 2,
+  "unanswered": 3
+ },
+ "mckesson": {
+  "window": [
+   "1969-01-01",
+   "1995-12-31"
+  ],
+  "candidates": 67,
+  "mined": 12,
+  "bytes": 1275489,
+  "entity_naming": 1,
+  "variant_term": 0,
+  "bare_word_only": 2,
+  "null": 1,
+  "unanswered": 8
+ },
+ "meta": {
+  "window": [
+   "2003-01-01",
+   "2012-12-31"
+  ],
+  "candidates": 103,
+  "mined": 12,
+  "bytes": 247297,
+  "entity_naming": 0,
+  "variant_term": 0,
+  "bare_word_only": 6,
+  "null": 0,
+  "unanswered": 6
+ },
+ "morganstanley": {
+  "window": [
+   "1924-01-01",
+   "1960-12-31"
+  ],
+  "candidates": 73,
+  "mined": 12,
+  "bytes": 1275864,
+  "entity_naming": 3,
+  "variant_term": 1,
+  "bare_word_only": 0,
+  "null": 0,
+  "unanswered": 8
+ },
+ "pepsico": {
+  "window": [
+   "1898-01-01",
+   "1965-12-31"
+  ],
+  "candidates": 43,
+  "mined": 12,
+  "bytes": 3998742,
+  "entity_naming": 9,
+  "variant_term": 0,
+  "bare_word_only": 0,
+  "null": 1,
+  "unanswered": 2
+ },
+ "phillips66": {
+  "window": [
+   "1917-01-01",
+   "2002-12-31"
+  ],
+  "candidates": 138,
+  "mined": 12,
+  "bytes": 1586286,
+  "entity_naming": 6,
+  "variant_term": 0,
+  "bare_word_only": 0,
+  "null": 0,
+  "unanswered": 6
+ },
+ "rtx": {
+  "window": [
+   "1920-01-01",
+   "1997-12-31"
+  ],
+  "candidates": 71,
+  "mined": 12,
+  "bytes": 769557,
+  "entity_naming": 6,
+  "variant_term": 3,
+  "bare_word_only": 0,
+  "null": 2,
+  "unanswered": 1
+ },
+ "statefarm": {
+  "window": [
+   "1922-01-01",
+   "1960-12-31"
+  ],
+  "candidates": 112,
+  "mined": 12,
+  "bytes": 3872,
+  "entity_naming": 1,
+  "variant_term": 0,
+  "bare_word_only": 0,
+  "null": 0,
+  "unanswered": 11
+ },
+ "stonex": {
+  "window": [
+   "1984-01-01",
+   "2000-12-31"
+  ],
+  "candidates": 109,
+  "mined": 12,
+  "bytes": 88722,
+  "entity_naming": 0,
+  "variant_term": 0,
+  "bare_word_only": 3,
+  "null": 2,
+  "unanswered": 7
+ },
+ "ups": {
+  "window": [
+   "1907-01-01",
+   "1960-12-31"
+  ],
+  "candidates": 59,
+  "mined": 12,
+  "bytes": 1391844,
+  "entity_naming": 0,
+  "variant_term": 2,
+  "bare_word_only": 9,
+  "null": 0,
+  "unanswered": 1
+ },
+ "valero": {
+  "window": [
+   "1979-01-01",
+   "2001-12-31"
+  ],
+  "candidates": 15,
+  "mined": 12,
+  "bytes": 27264,
+  "entity_naming": 2,
+  "variant_term": 0,
+  "bare_word_only": 3,
+  "null": 0,
+  "unanswered": 7
+ },
+ "verizon": {
+  "window": [
+   "1877-01-01",
+   "2000-12-31"
+  ],
+  "candidates": 205,
+  "mined": 12,
+  "bytes": 513023,
+  "entity_naming": 0,
+  "variant_term": 1,
+  "bare_word_only": 0,
+  "null": 11,
+  "unanswered": 0
+ },
+ "walmart": {
+  "window": [
+   "1945-01-01",
+   "1972-12-31"
+  ],
+  "candidates": 127,
+  "mined": 12,
+  "bytes": 723164,
+  "entity_naming": 12,
+  "variant_term": 0,
+  "bare_word_only": 0,
+  "null": 0,
+  "unanswered": 0
+ },
+ "wellsfargo": {
+  "window": [
+   "1852-01-01",
+   "1998-12-31"
+  ],
+  "candidates": 85,
+  "mined": 12,
+  "bytes": 1478033,
+  "entity_naming": 2,
+  "variant_term": 0,
+  "bare_word_only": 0,
+  "null": 0,
+  "unanswered": 10
+ }
+}

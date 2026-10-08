@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0001048911/000091205700034322/ex-10_37.txt",
+ "fetched": "2026-09-29T19:08:37Z",
+ "sha1": "5b3beb776a5ffcd571463a3f676d0ef104dac6bc",
+ "bytes": 47781,
+ "words": 6307,
+ "cik": "0001048911",
+ "registrant": "FEDEX CORP",
+ "accession": "0000912057-00-034322",
+ "document": "ex-10_37.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

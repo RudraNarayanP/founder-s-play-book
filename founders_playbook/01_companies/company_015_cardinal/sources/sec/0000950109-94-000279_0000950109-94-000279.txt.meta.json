@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000721371/000095010994000279/0000950109-94-000279.txt",
+ "fetched": "2026-09-29T19:05:23Z",
+ "sha1": "6087e64c40afa705978b5c0b853ee914c2b478c4",
+ "bytes": 71031,
+ "words": 9273,
+ "cik": "0000721371",
+ "registrant": "CARDINAL HEALTH INC",
+ "accession": "0000950109-94-000279",
+ "document": "0000950109-94-000279.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": true
+}

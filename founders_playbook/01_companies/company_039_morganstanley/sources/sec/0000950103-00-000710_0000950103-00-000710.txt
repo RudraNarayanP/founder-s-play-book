@@ -1,0 +1,1141 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ U5vgJzMDgRK6Swgm5Gl/IVhdf+HHm1d6Rn4VfOcgZp2z0kE+OzeYP8k326KPA/po
+ TOQ9J/Hzj81c/5uUc6nakQ==
+
+<SEC-DOCUMENT>/in/edgar/work/20000608/0000950103-00-000710/0000950103-00-000710.txt : 20000919
+<SEC-HEADER>0000950103-00-000710.hdr.sgml : 20000919
+ACCESSION NUMBER:		0000950103-00-000710
+CONFORMED SUBMISSION TYPE:	424B2
+PUBLIC DOCUMENT COUNT:		1
+FILED AS OF DATE:		20000608
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			MORGAN STANLEY DEAN WITTER & CO
+		CENTRAL INDEX KEY:			0000895421
+		STANDARD INDUSTRIAL CLASSIFICATION:	 [6199
+]		IRS NUMBER:				363145972
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1130
+</COMPANY-DATA>
+
+		FILING VALUES:
+			FORM TYPE:		424B2
+			SEC ACT:		
+			SEC FILE NUMBER:	333-34392
+			FILM NUMBER:		651528
+</FILING-VALUES>
+
+			BUSINESS ADDRESS:	
+				STREET 1:		1585 BROADWAY
+				CITY:			NEW YORK
+				STATE:			NY
+				ZIP:			10036
+				BUSINESS PHONE:		2127614000
+</BUSINESS-ADDRESS>
+
+				MAIL ADDRESS:	
+					STREET 1:		1585 BROADWAY
+					STREET 2:		38TH FLOOR
+					CITY:			NEW YORK
+					STATE:			NY
+					ZIP:			10036
+</MAIL-ADDRESS>
+
+					FORMER COMPANY:	
+						FORMER CONFORMED NAME:	DEAN WITTER DISCOVER & CO
+						DATE OF NAME CHANGE:	19960315
+</FORMER-COMPANY>
+</FILER>
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>424B2
+<SEQUENCE>1
+<FILENAME>0001.txt
+<TEXT>
+
+
+
+PROSPECTUS SUPPLEMENT
+(To Prospectus dated May 18, 2000)
+
+                                 $3,000,000,000
+                        Morgan Stanley Dean Witter & Co.
+
+                      $2,500,000,000 7 3/4% NOTES DUE 2005
+                         $500,000,000 8% NOTES DUE 2010
+
+                            -----------------------
+
+                  Interest payable on June 15 and December 15
+
+                            -----------------------
+
+We will not redeem the ntoes prior to maturity unless we choose to upon the
+occurrence of certain events involving U.S. taxation. See "Description of
+Notes--Tax Redemption" in this prospectus supplement.
+
+                            -----------------------
+
+           NOTES DUE 2005 -- PRICE 100% AND ACCRUED INTEREST, IF ANY
+           NOTES DUE 2010 -- PRICE 100% AND ACCRUED INTEREST, IF ANY
+
+                            -----------------------
+
+                                                 Underwriting
+                                 Price to        Discounts and    Proceeds to
+                                  Public          Commissions       Company
+                                 --------        -------------    ------------
+Per Note Due 2005...........     100.000%            .350%           99.650%
+   Total....................  $2,500,000,000       $8,750,000    $2,491,250,000
+
+Per Note Due 2010...........     100.000%            .450%           99.550%
+   Total....................   $500,000,000        $2,250,000    $497,750,000
+
+The Securities and Exchange Commission and state securities regulators have not
+approved or disapproved these securities, or determined if this prospectus
+supplement or the accompanying prospectus is truthful or complete. Any
+representation to the contrary is a criminal offense.
+
+Morgan Stanley & Co. Incorporated expects to deliver the notes to purchasers,
+in registered book-entry form only, through The Depository Trust Company,
+Clearstream, Luxembourg or Euroclear, as the case may be, on June 9, 2000.
+
+                            -----------------------
+
+                           MORGAN STANLEY DEAN WITTER
+
+ABN AMRO INCORPORATED                                          BARCLAYS CAPITAL
+BLAYLOCK & PARTNERS, L.P.                                        COMMERZBANK AG
+CREDIT LYONNAIS SECURITIES                           MURIEL SIEBERT & CO., INC.
+ORMES CAPITAL MARKETS, INC.                       RBC DOMINION SECURITIES CORP.
+UTENDAHL CAPITAL PARTNERS, L.P.            WESTDEUTSCHE LANDESBANK GIROZENTRALE
+THE WILLIAMS CAPITAL GROUP, L.P.
+
+
+June 6, 2000
+
+<PAGE>
+
+
+                               TABLE OF CONTENTS
+
+                                                                           Page
+                                                                           ----
+                             Prospectus Supplement
+Summary of the Offerings....................................................S-3
+Description of Notes........................................................S-5
+United States Federal Taxation.............................................S-10
+ERISA......................................................................S-12
+Underwriters...............................................................S-13
+
+                                   Prospectus
+Summary......................................................................3
+Where You Can Find More Information..........................................7
+Consolidated Ratios of Earnings to Fixed Charges and
+  Earnings to Fixed Charges and Preferred Stock Dividends....................8
+Morgan Stanley Dean Witter...................................................9
+Use of Proceeds..............................................................9
+Description of Debt Securities..............................................10
+Description of Units........................................................18
+Description of Warrants.....................................................23
+Description of Purchase Contracts...........................................26
+Description of Capital Stock................................................27
+Forms of Securities.........................................................40
+Plan of Distribution........................................................43
+Legal Matters...............................................................44
+Experts.....................................................................44
+ERISA Matters for Pension Plans and Insurance Companies.....................45
+
+                            -----------------------
+
+You should rely only on the information contained or incorporated by reference
+in this prospectus supplement and the accompanying prospectus dated May 18,
+2000. We have not authorized anyone to provide you with information different
+from that contained or incorporated by reference in this prospectus supplement
+and the accompanying prospectus. We are offering to sell, and seeking offers to
+buy, only the notes described in this prospectus supplement and the
+accompanying prospectus, and we are offering to sell and seeking offers to buy
+these notes only in jurisdictions where offers and sales are permitted. In this
+prospectus supplement, the "Company," "we," "us," "MSDW" and "our" refer to
+Morgan Stanley Dean Witter & Co.
+
+The distribution of this prospectus supplement and the accompanying prospectus
+and the offering of the notes in certain jurisdictions may be restricted by
+law. Persons outside the United States who come into possession of this
+prospectus supplement and the accompanying prospectus must inform themselves
+about and observe any restrictions relating to the offering of the notes and
+the distribution of this prospectus supplement and the accompanying prospectus
+outside the United States.
+
+
+                                      S-2
+<PAGE>
+
+
+                            SUMMARY OF THE OFFERINGS
+
+     The following summary describes the 7 3/4% Notes Due 2005 and the 8% Notes
+Due 2010 we are offering to you in general terms only. You should read the
+summary together with the more detailed information that is contained in the
+rest of this prospectus supplement and in the accompanying prospectus.
+
+Issuer.......................   Morgan Stanley Dean Witter & Co.
+
+Aggregate Principal Amount...   $2,500,000,000 7 3/4% Notes Due 2005 and
+                                $500,000,000 8% Notes Due 2010, collectively
+                                referred to as the "notes."
+
+Maturity Date................   June 15, 2005 for the 7 3/4% Notes Due 2005 and
+                                June 15, 2010 for the 8% Notes Due 2010
+
+Issue Date for the Notes.....   June 9, 2000
+
+Issue Price..................   100% for the 7 3/4% Notes Due 2005 and
+                                100% for the 8% Notes Due 2010
+
+Interest Payment Dates.......   Each June 15 and December 15, commencing
+                                December 15, 2000 for both the 7 3/4% Notes Due
+                                2005 and the 8% Notes Due 2010.
+
+Early Redemption.............   We will not redeem the notes unless we choose
+                                to upon the occurrence of certain events
+                                involving U.S. taxation. Please read the section
+                                "Description of Notes--Tax Redemption" in this
+                                prospectus supplement.
+
+Form.........................   Fully registered global notes in book-entry
+                                form.
+
+Minimum Denominations........   $1,000 and multiples thereof
+
+CUSIP........................   617446DW6 for the 7 3/4% Notes Due 2005 and
+                                617446DX4 for the 8% Notes Due 2010
+
+Common Code..................   011278604 for the 7 3/4% Notes Due 2005 and
+                                011278639 for the 8% Notes Due 2010
+
+ISIN.........................   US617446DW69 for the 7 3/4% Notes Due 2005 and
+                                US617446DX43 for the 8% Notes Due 2010
+
+Trustee for the Notes........   The Chase Manhattan Bank
+
+Delivery and Clearance.......   We will deposit the global notes for the 7 3/4%
+                                Notes Due 2005 and the 8% Notes Due 2010 with
+                                The Depository Trust Company in New York.  You
+                                may hold an interest in the global notes through
+                                The Depository Trust Company, Clearstream,
+                                Luxembourg or Euroclear, directly as a
+                                participant of any such system or indirectly
+                                through organizations which are participants in
+                                such systems.
+
+How to Reach Us..............   Our principal executive offices are located at
+                                1585 Broadway, New York, New York 10036,
+                                telephone number (212) 761-4000.
+
+
+                                      S-3
+<PAGE>
+
+
+                CONSOLIDATED RATIO OF EARNINGS TO FIXED CHARGES
+
+The following table sets forth our consolidated ratio of earnings to fixed
+charges for the periods indicated. The fiscal year information for 1996 and
+1995 combines the historical financial information of Dean Witter, Discover &
+Co. ("Dean Witter Discover") for the years ended December 31, 1996 and 1995
+with the historical financial information of Morgan Stanley Group Inc. ("Morgan
+Stanley") for the fiscal years ended November 30, 1996 and 1995. Subsequent to
+the merger of Morgan Stanley with and into Dean Witter Discover on May 31,
+1997, we adopted a fiscal year end of November 30. The fiscal year information
+for 1997 and subsequent periods reflects the change in fiscal year end.
+
+<TABLE>
+                                       Three Months Ended                    Fiscal year
+                                    --------------------------    ------------------------------------
+                                          (Unaudited)
+                                    February 29,  February 28,
+                                        2000          1999        1999    1998    1997    1996    1995
+                                    ------------  ------------    ----    ----    ----    ----    ----
+<S>                                     <C>           <C>         <C>     <C>     <C>     <C>     <C>
+Consolidated ratio of earnings
+  to fixed charges................      1.6           1.5         1.6     1.4     1.4     1.3     1.3
+</TABLE>
+
+For purposes of calculating the ratio of earnings to fixed charges, earnings
+are the sum of:
+
+     o    pre-tax income;
+
+     o    fixed charges; and
+
+     o    amortization of capitalized interest;
+
+less:
+
+     o    capitalized interest.
+
+Fixed charges are the sum of:
+
+     o    interest expensed and capitalized;
+
+     o    amortized premiums, discounts and capitalized expenses related to
+          indebtedness; and
+
+     o    our estimate of the interest within rental expenses.
+
+
+                                      S-4
+<PAGE>
+
+
+                              DESCRIPTION OF NOTES
+
+     The following description of the particular terms of the 7 3/4% Notes Due
+2005, which we refer to as the "notes due 2005," and the 8% Notes Due 2010,
+which we refer to as the "notes due 2010" and, together with the notes due
+2005, as the "notes," offered hereby supplements the description of the general
+terms and provisions of the debt securities set forth in the prospectus, to
+which description reference is hereby made. The notes are referred to in the
+prospectus as the "offered debt securities." The following summary of the notes
+is qualified in its entirety by reference to the senior indenture referred to
+in the prospectus.
+
+General
+
+     The notes due 2005 will initially be limited to $2,500,000,000 in
+aggregate principal amount and will mature on June 15, 2005. The notes due 2010
+will initially be limited to $500,000,000 in aggregate principal amount and
+will mature on June 15, 2010. The notes will constitute senior debt and will
+rank pari passu with all other unsecured and unsubordinated indebtedness of
+MSDW, subject to certain statutory exceptions in the event of liquidation upon
+insolvency. The notes will be issued in fully registered form only, in
+denominations of $1,000 and multiples thereof. Principal of and interest on the
+notes will be payable, and the transfer of notes will be registrable, through
+the depositary as described below. We may create and issue additional notes due
+2005 or notes due 2010 with the same terms as the notes due 2005 or the notes
+due 2010 offered hereby so that the additional notes will form a single series
+with the notes due 2005 or the notes due 2010 offered hereby, as appropriate.
+
+     We will not redeem the notes prior to maturity unless we choose to upon
+the occurrence of certain events involving U.S. taxation. See "--Tax
+Redemption" below.
+
+     The senior indenture permits the defeasance of the notes upon the
+satisfaction of the conditions described under "Description of Debt
+Securities--Discharge, Defeasance and Covenant Defeasance" in the prospectus.
+The notes are subject to these defeasance provisions.
+
+     As used herein, "business day" means any day, other than a Saturday or
+Sunday, that is neither a legal holiday nor a day on which banking institutions
+are authorized or required by law or regulation to close in The City of New
+York.
+
+     Each of the notes due 2005 and the notes due 2010 will bear interest from
+June 9, 2000 at the respective applicable annual rate set forth on the cover
+page of this prospectus supplement, payable semiannually on June 15 and
+December 15 (each an "interest payment date"), commencing December 15, 2000 to
+the person in whose name such notes are registered at the close of business on
+the preceding June 1 or December 1, as applicable. Such interest will be
+computed on the basis of a 360-day year of twelve 30-day months.
+
+     If any interest payment date falls on a day that is not a business day,
+the interest payment shall be postponed to the next day that is a business day,
+and no interest on such payment shall accrue for the period from and after such
+interest payment date. If the maturity date of the notes due 2005 or the notes
+due 2010 falls on a day that is not a business day, the payment of interest and
+principal may be made on the next succeeding business day, and no interest on
+such payment shall accrue for the period from and after the maturity date.
+
+     Interest payments for the notes due 2005 and the notes due 2010 will
+include accrued interest from and including the date of issue or from and
+including the last date in respect of which interest has been paid, as the case
+may be, to but excluding the interest payment date or maturity date, as the
+case may be.
+
+Book-Entry, Delivery and Form
+
+     The notes will be issued in the form of one or more fully registered
+global notes (the "global notes") which will be deposited with, or on behalf
+of, The Depository Trust Company, New York, New York (the "depositary" or
+"DTC") and registered in the name of Cede & Co., the depositary's nominee.
+Beneficial interests in the global notes will be represented through book-entry
+accounts of financial institutions acting on behalf of beneficial owners as
+direct and indirect participants in the depositary. Investors may elect to hold
+interests in the global notes held by the depositary through Clearstream
+Banking, societe anonyme, "Clearstream, Luxembourg," or Morgan Guaranty Trust
+Company of
+
+
+                                      S-5
+<PAGE>
+
+
+New York, Brussels Office, as operator of the Euroclear System, "Euroclear," if
+they are participants of such systems, or indirectly through organizations
+which are participants in such systems. Clearstream, Luxembourg and Euroclear
+will hold interests on behalf of their participants through customers'
+securities accounts in Clearstream, Luxembourg's and Euroclear's names on the
+books of their respective depositaries, which in turn will hold such interests
+in customers' securities accounts in the depositaries' names on the books of
+the depositary. Citibank, N.A. will act as depositary for Clearstream,
+Luxembourg and The Chase Manhattan Bank will act as depositary for Euroclear,
+in such capacities, the "U.S. depositaries." Except as set forth below, the
+global notes may be transferred, in whole and not in part, only to another
+nominee of the depositary or to a successor of the depositary or its nominee.
+
+     The depositary has advised MSDW as follows: the depositary is a
+limited-purpose trust company organized under the New York Banking Law, a
+"banking organization" within the meaning of the New York Banking Law, a member
+of the Federal Reserve System, a "clearing corporation" within the meaning of
+the New York Uniform Commercial Code, and a "clearing agency" registered
+pursuant to the provisions of Section 17A of the Securities Exchange Act of
+1934, as amended. The depositary holds securities deposited with it by its
+participants and facilitates the settlement of transactions among its
+participants in such securities through electronic computerized book-entry
+changes in accounts of the participants, thereby eliminating the need for
+physical movement of securities certificates. The depositary's participants
+include securities brokers and dealers (including the underwriters), banks,
+trust companies, clearing corporations and certain other organizations, some of
+whom (and/or their representatives) own the depositary. Access to the
+depositary book-entry system is also available to others, such as banks,
+brokers, dealers and trust companies that clear through or maintain a custodial
+relationship with a participant, either directly or indirectly.
+
+     According to the depositary, the foregoing information with respect to the
+depositary has been provided to the financial community for informational
+purposes only and is not intended to serve as a representation, warranty or
+contract modification of any kind.
+
+     Clearstream, Luxembourg advises that it is incorporated under the laws of
+Luxembourg as a bank. Clearstream, Luxembourg holds securities for its
+customers, "Clearstream, Luxembourg customers," and facilitates the clearance
+and settlement of securities transactions between Clearstream, Luxembourg
+customers through electronic book-entry transfers between their accounts.
+Clearstream, Luxembourg provides to Clearstream, Luxembourg customers, among
+other things, services for safekeeping, administration, clearance and
+settlement of internationally traded securities and securities lending and
+borrowing. Clearstream, Luxembourg interfaces with domestic securities markets
+in over 30 countries through established depository and custodial
+relationships. As a bank, Clearstream, Luxembourg is subject to regulation by
+the Luxembourg Commission for the Supervision of the Financial Sector
+(Commission de Surveillance du Secteur Financier). Clearstream, Luxembourg
+customers are recognized financial institutions around the world, including
+underwriters, securities brokers and dealers, banks, trust companies, clearing
+corporations and certain other organizations. Clearstream, Luxembourg's U.S.
+customers are limited to securities brokers and dealers and banks. Indirect
+access to Clearstream, Luxembourg is also available to other institutions such
+as banks, brokers, dealers and trust companies that clear through or maintain a
+custodial relationship with a Clearstream, Luxembourg customer.
+
+     Distributions with respect to the notes held through Clearstream,
+Luxembourg will be credited to cash accounts of Clearstream, Luxembourg
+customers in accordance with its rules and procedures, to the extent received
+by the U.S. depositary for Clearstream, Luxembourg.
+
+     The Euroclear operator advises that the Euroclear system was created in
+1968 to hold securities for its participants, "Euroclear participants," and to
+clear and settle transactions between Euroclear participants through
+simultaneous electronic book-entry delivery against payment, thereby
+eliminating the need for physical movement of certificates and any risk from
+lack of simultaneous transfers of securities and cash. The Euroclear system
+provides various other services, including securities lending and borrowing and
+interfaces with domestic markets in several countries. Euroclear is operated by
+the Brussels, Belgium office of Morgan Guaranty Trust Company of New York, the
+"Euroclear operator," under contract with Euroclear Clearance Systems S.C., a
+Belgian cooperative corporation, the "cooperative." All operations are
+conducted by the Euroclear operator, and all Euroclear securities clearance
+accounts and Euroclear cash accounts are accounts with the Euroclear operator,
+not the cooperative. The cooperative establishes policy for Euroclear on behalf
+of Euroclear participants. Euroclear participants include banks (including
+central banks), securities brokers and dealers and other professional financial
+intermediaries and include the underwriters. Indirect access to Euroclear
+
+
+                                      S-6
+<PAGE>
+
+
+is also available to other firms that clear through or maintain a custodial
+relationship with a Euroclear participant, either directly or indirectly.
+
+     The Euroclear operator is the Belgian branch of a New York banking
+corporation which is a member bank of the Federal Reserve System. As such, it
+is regulated and examined by the Board of Governors of the Federal Reserve
+System and the New York State Banking Department, as well as the Belgian
+Banking Commission.
+
+     Securities clearance accounts and cash accounts with the Euroclear
+operator are governed by the Terms and Conditions Governing Use of Euroclear
+and the related Operating Procedures of the Euroclear System, and applicable
+Belgian law, collectively, the "terms and conditions." The terms and conditions
+govern transfers of securities and cash within Euroclear, withdrawals of
+securities and cash from Euroclear, and receipts of payments with respect to
+securities in Euroclear. All securities in Euroclear are held on a fungible
+basis without attribution of specific certificates to specific securities
+clearance accounts. The Euroclear operator acts under the terms and conditions
+only on behalf of Euroclear participants and has no record of or relationship
+with persons holding through Euroclear participants.
+
+     Distributions with respect to the notes held beneficially through the
+Euroclear system will be credited to the cash accounts of Euroclear
+participants in accordance with the terms and conditions, to the extent
+received by the U.S. depositary for Euroclear.
+
+     The Euroclear operator further advises that investors that acquire, hold
+and transfer interests in the notes by book- entry through accounts with the
+Euroclear operator or any other securities intermediary are subject to the laws
+and contractual provisions governing their relationship with their
+intermediary, as well as the laws and contractual provisions governing the
+relationship between such an intermediary and each other intermediary, if any,
+standing between themselves and the global notes.
+
+     The Euroclear operator advises as follows: Under Belgian law, investors
+that are credited with securities on the records of the Euroclear operator have
+a co-property right in the fungible pool of interests in securities on deposit
+with the Euroclear operator in an amount equal to the amount of interests in
+securities credited to their accounts. In the event of the insolvency of the
+Euroclear operator, Euroclear participants would have a right under Belgian law
+to the return of the amount and type of interests in securities credited to
+their accounts with the Euroclear operator. If the Euroclear operator does not
+have a sufficient amount of interests in securities on deposit of a particular
+type to cover the claims of all participants credited with such interests in
+securities on the Euroclear operator's records, all participants having an
+amount of interests in securities of such type credited to their accounts with
+the Euroclear operator will have the right under Belgian law to the return of
+their pro-rata share of the amount of interests in securities actually on
+deposit.
+
+     Under Belgian law, the Euroclear operator is required to pass on the
+benefits of ownership in any interests in securities on deposit with it (such
+as dividends, voting rights and other entitlements) to any person credited with
+such interests in securities on its records.
+
+     Individual certificates in respect of the notes will not be issued in
+exchange for the global notes, except in very limited circumstances. If DTC
+notifies MSDW that it is unwilling or unable to continue as a clearing system
+in connection with the global notes or ceases to be a clearing agency
+registered under the Exchange Act, and a successor clearing system is not
+appointed by MSDW within 90 days after receiving such notice from DTC or upon
+becoming aware that DTC is no longer so registered, we will issue or cause to
+be issued individual certificates in registered form on registration of
+transfer of, or in exchange for, book-entry interests in the notes represented
+by such global notes upon delivery of such global notes for cancellation.
+
+     Title to book-entry interests in the notes will pass by book-entry
+registration of the transfer within the records of Clearstream, Luxembourg,
+Euroclear or DTC, as the case may be, in accordance with their respective
+procedures. Book- entry interests in the notes may be transferred within
+Clearstream, Luxembourg and within the Euroclear system and between
+Clearstream, Luxembourg and the Euroclear system in accordance with procedures
+established for these purposes by Clearstream, Luxembourg and the Euroclear
+operator. Book-entry interests in the notes may be transferred within DTC in
+accordance with procedures established for this purpose by DTC. Transfers of
+book-entry interests in the notes among Clearstream, Luxembourg and the
+Euroclear operator and DTC may be effected in accordance with procedures
+established for this purpose by Clearstream, Luxembourg, the Euroclear operator
+and DTC.
+
+
+                                      S-7
+<PAGE>
+
+
+     A further description of the depositary's procedures with respect to the
+global notes is set forth in the prospectus under "Forms of Securities-Global
+Securities." The depositary has confirmed to MSDW, the underwriters and the
+trustee that it intends to follow such procedures.
+
+Global Clearance and Settlement Procedures
+
+     Initial settlement for the notes will be made in immediately available
+funds. Secondary market trading between DTC participants will occur in the
+ordinary way in accordance with the depositary's rules and will be settled in
+immediately available funds using the depositary's Same-Day Funds Settlement
+System. Secondary market trading between Clearstream, Luxembourg customers
+and/or Euroclear participants will occur in the ordinary way in accordance with
+the applicable rules and operating procedures of Clearstream, Luxembourg and
+Euroclear and will be settled using the procedures applicable to conventional
+Eurobonds in immediately available funds.
+
+     Cross-market transfers between persons holding directly or indirectly
+through the depositary on the one hand, and directly or indirectly through
+Clearstream, Luxembourg customers or Euroclear participants, on the other, will
+be effected through the depositary in accordance with the depositary's rules on
+behalf of the relevant European international clearing system by its U.S.
+depositary; however, such cross-market transactions will require delivery of
+instructions to the relevant European international clearing system by the
+counterparty in such system in accordance with its rules and procedures and
+within its established deadlines (European time). The relevant European
+international clearing system will, if the transaction meets its settlement
+requirements, deliver instructions to its U.S. depositary to take action to
+effect final settlement on its behalf by delivering interests in the notes to
+or receiving interests in the notes from the depositary, and making or
+receiving payment in accordance with normal procedures for same-day funds
+settlement applicable to the depositary. Clearstream, Luxembourg customers and
+Euroclear participants may not deliver instructions directly to their
+respective U.S. depositaries.
+
+     Because of time-zone differences, credits of interests in the notes
+received in Clearstream, Luxembourg or the Euroclear system as a result of a
+transaction with a DTC participant will be made during subsequent securities
+settlement processing and dated the business day following the depositary
+settlement date. Such credits or any transactions involving interests in such
+notes settled during such processing will be reported to the relevant
+Clearstream, Luxembourg customers or Euroclear participants on such business
+day. Cash received in Clearstream, Luxembourg or the Euroclear system as a
+result of sales of interests in the notes by or through a Clearstream,
+Luxembourg customer or a Euroclear participant to a DTC participant will be
+received with value on the depositary settlement date but will be available in
+the relevant Clearstream, Luxembourg or Euroclear cash account only as of the
+business day following settlement in the depositary.
+
+     Although the depositary, Clearstream, Luxembourg and Euroclear have agreed
+to the foregoing procedures in order to facilitate transfers of interests in
+the notes among participants of the depositary, Clearstream, Luxembourg and
+Euroclear, they are under no obligation to perform or continue to perform such
+procedures and such procedures may be changed or discontinued at any time.
+
+Tax Redemption
+
+     We may redeem the notes due 2005 or the notes due 2010, or both, at our
+option at any time prior to maturity, upon the giving of a notice of redemption
+as described below, at a redemption price equal to 100% of the principal amount
+thereof, together with accrued interest to the date fixed for redemption, if we
+determine that, as a result of any change in or amendment to the laws (or any
+regulations or rulings promulgated thereunder) of the United States or of any
+political subdivision or taxing authority thereof or therein affecting
+taxation, or any change in official position regarding the application or
+interpretation of such laws, regulations or rulings, which change or amendment
+becomes effective on or after the date of this prospectus supplement, we have
+or will become obligated to pay additional amounts (as defined below) with
+respect to notes as described below under "Payment of Additional Amounts."
+Prior to the giving of any notice of redemption pursuant to this paragraph,
+MSDW shall deliver to the trustee (i) a certificate stating that MSDW is
+entitled to effect such redemption and setting forth a statement of facts
+showing that the conditions precedent to the right of MSDW to so redeem have
+occurred and (ii) an opinion of independent counsel satisfactory to the trustee
+to such effect based on such statement of facts; provided that no such notice
+of redemption shall be given earlier than 60 days
+
+
+                                      S-8
+<PAGE>
+
+
+prior to the earliest date on which MSDW would be obligated to pay such
+additional amounts if a payment in respect of the notes were then due.
+
+     Notice of redemption will be given not less than 30 nor more than 60 days
+prior to the date fixed for redemption, which date and the applicable
+redemption price will be specified in the notice. Such notice will be given in
+accordance with "Notices" below.
+
+Payment of Additional Amounts
+
+     We will, subject to certain exceptions and limitations set forth below,
+pay such additional amounts, the "additional amounts," to the beneficial owner
+of any note who is a non-United States person as may be necessary in order that
+every net payment of the principal of and interest on that note and any other
+amounts payable on that note, after withholding for or on account of any
+present or future tax, assessment or governmental charge imposed upon or as a
+result of such payment by the United States (or any political subdivision or
+taxing authority thereof or therein), will not be less than the amount provided
+for in that note to be then due and payable. MSDW will not, however, be
+required to make any payment of additional amounts to any beneficial owner for
+or on account of:
+
+          (a) any such tax, assessment or other governmental charge that would
+     not have been so imposed but for (i) the existence of any present or
+     former connection between such beneficial owner (or between a fiduciary,
+     settlor, beneficiary, member or shareholder of such beneficial owner, if
+     such beneficial owner is an estate, a trust, a partnership or a
+     corporation) and the United States and its possessions, including, without
+     limitation, such beneficial owner (or such fiduciary, settlor,
+     beneficiary, member or shareholder) being or having been a citizen or
+     resident thereof or being or having been engaged in a trade or business or
+     present therein or having, or having had, a permanent establishment
+     therein or (ii) the presentation by or on behalf of the beneficial owner
+     of any such note for payment on a date more than 15 days after the date on
+     which such payment became due and payable or the date on which payment
+     thereof is duly provided for, whichever occurs later;
+
+          (b) any estate, inheritance, gift, sales, transfer or personal
+     property tax or any similar tax, assessment or governmental charge;
+
+          (c) any tax, assessment or other governmental charge imposed by
+     reason of such beneficial owner's past or present status as a personal
+     holding company or foreign personal holding company or controlled foreign
+     corporation or passive foreign investment company with respect to the
+     United States or as a corporation that accumulates earnings to avoid
+     United States federal income tax or as a private foundation or other
+     tax-exempt organization;
+
+          (d) any tax, assessment or other governmental charge that is payable
+     otherwise than by withholding from payments on or in respect of any note;
+
+          (e) any tax, assessment or other governmental charge required to be
+     withheld by any paying agent from any payment of principal of, or interest
+     on, any note, if such payment can be made without such withholding by any
+     other paying agent in a city in Western Europe;
+
+          (f) any tax, assessment or other governmental charge that would not
+     have been imposed but for the failure to comply with certification,
+     information or other reporting requirements concerning the nationality,
+     residence or identity of the beneficial owner of such note, if such
+     compliance is required by statute or by regulation of the United States or
+     of any political subdivision or taxing authority thereof or therein as a
+     precondition to relief or exemption from such tax, assessment or other
+     governmental charge;
+
+          (g) any tax, assessment or other governmental charge imposed by
+     reason of such beneficial owner's past or present status as the actual or
+     constructive owner of 10% or more of the total combined voting power of
+     all classes of stock of MSDW entitled to vote or as a direct or indirect
+     subsidiary of ours; or
+
+          (h) any combination of items (a), (b), (c), (d), (e), (f) or (g);
+
+
+                                      S-9
+<PAGE>
+
+
+nor shall additional amounts be paid with respect to any payment on a note to a
+non-United States person who is a fiduciary or partnership or other than the
+sole beneficial owner of such payment to the extent such payment would be
+required by the laws of the United States (or any political subdivision
+thereof) to be included in the income, for tax purposes, of a beneficiary or
+settlor with respect to such fiduciary or a member of such partnership or a
+beneficial owner who would not have been entitled to the additional amounts had
+such beneficiary, settlor, member or beneficial owner held its interest in the
+note directly.
+
+     The term "non-United States person" has the meaning set forth below under
+"United States Federal Taxation - Tax Consequences to Non-United States
+Persons."
+
+Notices
+
+     Notices to holders of the notes will be given by mailing such notices to
+each holder by first class mail, postage prepaid, at the respective address of
+each holder as that address appears upon the books of MSDW. Notices given to
+the depositary, as holder of the global notes, will be passed on to the
+beneficial owners of the notes in accordance with the standard rules and
+procedures of the depositary and its direct and indirect participants,
+including Clearstream, Luxembourg and the Euroclear operator.
+
+                         UNITED STATES FEDERAL TAXATION
+
+     The following summary describes the material United States federal income
+and certain estate tax consequences of ownership and disposition of the notes.
+This summary provides general information only and is directed solely to
+original beneficial owners purchasing notes at the "issue price," that is, the
+first price to the public at which a substantial amount of the notes in an
+issue is sold (excluding sales to bond houses, brokers or similar persons or
+organizations acting in the capacity of underwriters, placement agents or
+wholesalers). This summary is based on the Internal Revenue Code of 1986, as
+amended to the date hereof, the "Code," existing administrative pronouncements
+and judicial decisions, existing and proposed Treasury Regulations currently in
+effect, and interpretations of the foregoing, changes to any of which
+subsequent to the date of this prospectus supplement may affect the tax
+consequences described herein, possibly with retroactive effect. This summary
+discusses only notes held as capital assets within the meaning of Section 1221
+of the Code. This summary does not discuss all of the tax consequences that may
+be relevant to a beneficial owner in light of his particular circumstances or
+to beneficial owners subject to special rules, such as certain financial
+institutions, insurance companies, dealers in securities, persons holding notes
+in connection with a hedging transaction, "straddle," conversion transaction or
+other integrated transaction or persons who have ceased to be United States
+citizens or to be taxed as resident aliens. If you are considering the purchase
+of notes you should consult your tax advisor with regard to the application of
+the United States federal income and estate tax laws to their particular
+situations as well as any tax consequences arising under the laws of any state,
+local or foreign taxing jurisdiction.
+
+Tax Consequences to United States Persons
+
+     For purposes of the following discussion, "United States person" means a
+beneficial owner of a note that is for United States federal income tax
+purposes (i) a citizen or resident of the United States, (ii) a corporation or
+partnership (including an entity treated as a corporation or partnership for
+United States federal income tax purposes) created or organized in or under the
+laws of the United States, any state thereof or the District of Columbia, (iii)
+an estate the income of which is subject to United States federal income
+taxation regardless of its source, or (iv) a trust if a court within the United
+States is able to exercise primary supervision of the administration of the
+trust and one or more United States persons have the authority to control all
+substantial decisions of the trust.
+
+     Payments of Interest. Interest on a note will generally be taxable to a
+United States person as ordinary interest income at the time it is accrued or
+is received in accordance with the United States person's method of accounting
+for tax purposes.
+
+     Sale, Exchange or Retirement of the Notes. Upon the sale, exchange or
+retirement of a note, a United States person will recognize taxable gain or
+loss equal to the difference between the amount realized on the sale, exchange
+or retirement and the United States person's adjusted tax basis in the note.
+For these purposes, the amount realized does not include any amount
+attributable to accrued interest on the note. Amounts attributable to accrued
+interest are treated
+
+
+                                     S-10
+<PAGE>
+
+
+as interest as described under "Payments of Interest" above. A United States
+person's adjusted tax basis in a note generally will equal the cost of the note
+to the United States person.
+
+     In general, gain or loss realized on the sale, exchange or redemption of a
+note will be capital gain or loss. You should consult your tax advisor
+regarding the treatment of capital gains (which may be taxed at lower rates
+than ordinary income for taxpayers who are individuals, trusts or estates) and
+losses (the deductibility of which is subject to limitations).
+
+     Backup Withholding and Information Reporting. Backup withholding and
+information reporting requirements may apply to certain payments of principal,
+premium and interest on a note, and to payments of proceeds of the sale or
+redemption of a note, to certain non-corporate United States persons. We, our
+agent, a broker or any paying agent, as the case may be, will be required to
+withhold from any payment a tax equal to 31 percent of such payment if the
+United States person fails to furnish or certify his correct taxpayer
+identification number to the payor in the manner required, fails to certify
+that such United States person is not subject to backup withholding, or
+otherwise fails to comply with the applicable requirements of the backup
+withholding rules. Any amounts withheld under the backup withholding rules from
+a payment to a United States person may be credited against such United States
+person's United States federal income tax and may entitle such United States
+person to a refund, provided that the required information is furnished to the
+United States Internal Revenue Service.
+
+Tax Consequences to Non-United States Persons
+
+     As used herein, the term "non-United States person" means a beneficial
+owner of a note that is, for United States federal income tax purposes, (i) a
+nonresident alien individual, (ii) a foreign corporation, (iii) a nonresident
+alien fiduciary of a foreign estate or trust or (iv) a foreign partnership one
+or more of the members of which is, for United States federal income tax
+purposes, a nonresident alien individual, a foreign corporation or a
+nonresident alien fiduciary of a foreign estate or trust.
+
+     Income and Withholding Tax. Subject to the discussion below concerning
+backup withholding, payments of principal and interest on a note by us or a
+paying agent to a non-United States person, and gain realized on the sale,
+exchange or other disposition of such note, will not be subject to United
+States federal income or withholding tax, provided that: (i) such non-United
+States person does not own, actually or constructively, 10 percent or more of
+the total combined voting power of all classes of our stock entitled to vote,
+is not a controlled foreign corporation related, directly or indirectly, to us
+through stock ownership, and is not a bank receiving interest described in
+Section 881(c)(3)(A) of the Code; (ii) the statement required by Section 871(h)
+or Section 881(c) of the Code has been provided with respect to the beneficial
+owner, as discussed below; (iii) such non-United States person is not an
+individual who is present in the United States for 183 days or more in the
+taxable year of disposition, and such individual does not have a "tax home" (as
+defined in Section 911(d)(3) of the Code) or an office or other fixed place of
+business in the United States; and (iv) such payment and gain are not
+effectively connected with the conduct by such holder of a trade or business in
+the United States.
+
+     Section 871(h) and 881(c) of the Code and applicable regulations require
+that, in order to obtain the portfolio interest exemption from withholding tax,
+either the beneficial owner of a note, or a securities clearing organization,
+bank or other financial institution that holds customers' securities in the
+ordinary course of its trade or business (a "financial institution") and that
+is holding the note on behalf of such beneficial owner, file a statement with
+the withholding agent to the effect that the beneficial owner of the note is a
+non-United States person. Under United States Treasury Regulations, such
+requirement will be fulfilled if the beneficial owner of a note certifies on
+Internal Revenue Service Form W-8, Form W-8BEN, Form W-8IMY or any successor
+form, as appropriate, under penalties of perjury, that it is a non-United
+States person and provides its name and address, and any financial institution
+holding the note on behalf of the beneficial owner files a statement with the
+withholding agent to the effect that it has received such a statement from the
+owner (and furnishes the withholding agent with a copy thereof). With respect
+to a note held by a foreign partnership, under current law, the Form W-8, Form
+W-8BEN, Form W-8IMY or any successor form, as appropriate, may be provided by
+the foreign partnership. However, for payments with respect to a note after
+December 31, 2000, unless the foreign partnership has entered into a
+withholding agreement with the Internal Revenue Service, a foreign partnership
+will be required, in addition to providing a Form W-8, Form W-8BEN, Form W-8IMY
+or any successor form, as appropriate, to attach an appropriate certification
+by each partner. If you are a prospective investor, you should
+
+
+                                     S-11
+<PAGE>
+
+
+consult your tax advisor regarding possible additional reporting requirements,
+including requirements respecting foreign partnerships and their partners.
+
+     Under Section 2105(b) of the Code, a note held by an individual who is not
+a citizen or resident of the United States at the time of his death will not be
+subject to United States federal estate tax as a result of such individual's
+death, provided that the individual does not own, actually or constructively,
+10 percent or more of the total combined voting power of all classes of our
+stock entitled to vote and, at the time of such individual's death, payments
+with respect to such note would not have been effectively connected to the
+conduct by such individual of a trade or business in the United States.
+
+     Backup Withholding and Information Reporting. Under current Treasury
+Regulations, backup withholding at 31% will not apply to payments by us or any
+paying agent made on a note if the certifications required by Sections 871(h)
+and 881(c) are received, provided in each case that we or such paying agent, as
+the case may be, do not have actual knowledge that the payee is a United States
+person.
+
+     Under current Treasury Regulations, payments on the sale, exchange or
+other disposition of a note made to or through a foreign office of a broker
+generally will not be subject to backup withholding. However, if such broker is
+a United States person, a controlled foreign corporation for United States tax
+purposes, a foreign person 50 percent or more of whose gross income is
+effectively connected with a United States trade or business for a specified
+three-year period or, in the case of payments made after December 31, 2000, a
+foreign partnership with certain connections to the United States, information
+reporting will be required unless the broker has in its records documentary
+evidence that the beneficial owner is a non-United States person and certain
+other conditions are met or the beneficial owner otherwise establishes an
+exemption. Backup withholding may apply to any payment which such broker is
+required to report if such broker has actual knowledge that the payee is a
+United States person. Payments to or through the United States office of a
+broker will be subject to backup withholding and information reporting unless
+the payee certifies, under penalties of perjury, that it is a non-United States
+person or otherwise establishes an exemption.
+
+     If you are a non-United States person, you should consult your tax advisor
+regarding the application of information reporting and backup withholding in
+your particular situation, the availability of an exemption therefrom, and the
+procedure for obtaining such an exemption, if available. Any amounts withheld
+from a payment to a non-United States person under the backup withholding rules
+will be allowed as a credit against such non-United States person's United
+States federal income tax liability and may entitle such non-United States
+person to a refund, provided that the required information is furnished to the
+Internal Revenue Service.
+
+                                     ERISA
+
+     We and certain of our affiliates, including Morgan Stanley & Co.
+Incorporated, "MS & Co.," Morgan Stanley & Co. International Limited, "MSIL,"
+and Dean Witter Reynolds Inc., "DWR," may each be considered a "party in
+interest" within the meaning of the Employee Retirement Income Security Act of
+1974, as amended ("ERISA"), or a "disqualified person" within the meaning of
+the Code with respect to many employee benefit plans. Prohibited transactions
+within the meaning of ERISA or the Code may arise, for example, if the notes
+are acquired by or with the assets of a pension or other employee benefit plan
+with respect to which MS & Co., MSIL, DWR or any of their affiliates is a
+service provider, unless the notes are acquired pursuant to an exemption from
+the prohibited transaction rules.
+
+     The acquisition of the notes may be eligible for one of the exemptions
+noted below if such acquisition:
+
+     (a) (i) is made solely with the assets of a bank collective investment
+fund and (ii) satisfies the requirements and conditions of Prohibited
+Transaction Class Exemption ("PTCE") 91-38 issued by the Department of Labor,
+the "DOL";
+
+     (b) (i) is made solely with assets of an insurance company pooled separate
+account and (ii) satisfies the requirements and conditions of PTCE 90-1 issued
+by the DOL;
+
+     (c) (i) is made solely with assets managed by a qualified professional
+asset manager and (ii) satisfies the requirements and conditions of PTCE 84-14
+issued by the DOL;
+
+
+                                     S-12
+<PAGE>
+
+
+     (d) is made solely with assets of a governmental plan (as defined in
+Section 3(32) of ERISA) which is not subject to the provisions of Section 401
+of the Code;
+
+     (e) (i) is made solely with assets of an insurance company general account
+and (ii) satisfies the requirements and conditions of PTCE 95-60 issued by the
+DOL; or
+
+     (f) (i) is made solely with assets managed by an in-house asset manager
+and (ii) satisfies the requirements and conditions of PTCE 96-23 issued by the
+DOL.
+
+     Under ERISA, the assets of a pension or other employee benefit plan may
+include assets held in the general account of an insurance company which has
+issued an insurance policy to such plan or assets of an entity in which the
+plan has invested. Thus, any insurance company, pension or employee benefit
+plan or entity holding assets of such a plan proposing to invest in the notes
+should consult with its legal counsel prior to such investment.
+
+                                  UNDERWRITERS
+
+     Under the terms and subject to the conditions contained in an underwriting
+agreement dated as of the date hereof, the underwriters named below, for whom
+MS & Co. is acting as global representative, have severally agreed to purchase,
+and we have agreed to sell to them, severally, the respective principal amount
+of the notes due 2005 and the notes due 2010, set forth opposite their names
+below:
+
+                                              Principal Amount  Principal Amount
+Name                                         of notes due 2005 of notes due 2005
+- ----                                         ----------------- -----------------
+Morgan Stanley & Co. Incorporated............  $1,950,000,000    $445,000,000
+ABN AMRO Incorporated .......................  $   50,000,000    $  5,000,000
+Barclays Bank PLC ...........................  $   50,000,000    $  5,000,000
+Blaylock & Partners, L.P. ...................  $   50,000,000    $  5,000,000
+Commerzbank AG ..............................  $   50,000,000    $  5,000,000
+Credit Lyonnais Securities (USA), Inc. ......  $   50,000,000    $  5,000,000
+Muriel Siebert & Co., Inc. ..................  $   50,000,000    $  5,000,000
+Ormes Capital Markets, Inc. .................  $   50,000,000    $  5,000,000
+RBC Dominion Securities Corp.................  $   50,000,000    $  5,000,000
+Utendahl Capital Partners, L.P...............  $   50,000,000    $  5,000,000
+Westdeutsche Landesbank Girozentrale ........  $   50,000,000    $  5,000,000
+The Williams Capital Group, L.P..............  $   50,000,000    $  5,000,000
+                                               --------------    ------------
+           Totals............................  $2,500,000,000    $500,000,000
+                                               ==============    ============
+
+     The underwriting agreement provides that the obligations of the
+underwriters to pay for and accept delivery of the notes are subject to the
+approval of certain legal matters by its counsel and to certain other
+conditions. The underwriters are obligated to take and pay for all of the notes
+due 2005 if any notes due 2005 are taken and to take and pay for all of the
+notes due 2010 if any notes due 2010 are taken.
+
+     The underwriters initially propose to offer part of the notes due 2005
+directly to the public at the public offering price set forth on the cover page
+hereof and part to certain dealers at a price that represents a concession not
+in excess of .20% of the principal amount of the notes due 2005. The
+underwriters may allow, and those dealers may reallow, a concession not in
+excess of .10% of the principal amount of the notes due 2005 to certain other
+dealers. After the initial offering of the notes due 2005, the offering price
+and other selling terms may from time to time be varied by the underwriters.
+
+     The underwriters initially propose to offer part of the notes due 2010
+directly to the public at the public offering price set forth on the cover page
+hereof and part to certain dealers at a price that represents a concession not
+in excess of .30% of the principal amount of the notes due 2010. The
+underwriters may allow, and those dealers may reallow, a concession not in
+excess of .250% of the principal amount of the notes due 2010 to certain other
+dealers. After the initial offering of the notes due 2010, the offering price
+and other selling terms may from time to time be varied by the underwriters.
+
+
+                                     S-13
+<PAGE>
+
+
+     The aggregate proceeds to MSDW are set forth on the cover page hereof
+before deducting our expenses in offering the notes. We estimate that we will
+spend approximately $1,380,000 for printing, rating agency, trustee's and legal
+fees and other expenses allocable to the offering.
+
+     We have agreed to indemnify the underwriters against certain liabilities,
+including liabilities under the Securities Act of 1933, as amended, or to
+contribute to payments the underwriters may be required to make in respect
+thereof.
+
+     The notes are offered for sale in those jurisdictions in the United
+States, Europe and Asia where it is legal to make such offers.
+
+     Each underwriter has represented and agreed that it will comply with all
+applicable laws and regulations in force in any jurisdiction in which it
+purchases, offers, sells or delivers the notes or possesses or distributes this
+prospectus supplement or the accompanying prospectus and will obtain any
+consent, approval or permission required by it for the purchase, offer or sale
+by it of the notes under the laws and regulations in force in any jurisdiction
+to which it is subject or in which it makes such purchases, offers or sales and
+MSDW shall not have responsibility therefor.
+
+     With respect to notes to be offered or sold in the United Kingdom, each
+underwriter and any dealer participating in the distribution of such notes has
+represented and agreed, or will represent and agree, that: (i) it has not
+offered or sold, and, prior to the expiry of the period of six months from the
+issue date of the notes, will not offer or sell any notes to persons in the
+United Kingdom except to persons whose ordinary activities involve them in
+acquiring, holding, managing or disposing of investments (as principal or
+agent) for the purposes of their businesses or otherwise in circumstances which
+have not resulted and will not result in an offer to the public in the United
+Kingdom within the meaning of the Public Offers of Securities Regulations 1995;
+(ii) it has complied and will comply with all applicable provisions of the
+Financial Services Act of 1986 with respect to anything done by it in relation
+to such notes in, from or otherwise involving the United Kingdom; and (iii) it
+has only issued or passed on and will only issue or pass on in the United
+Kingdom any document received by it in connection with the issue of the notes,
+other than any document which consists of or any part of listing particulars,
+supplementary listing particulars or any other document required or permitted
+to be published by the listing rules under Part IV of the Financial Services
+Act of 1986, to a person who is of a kind described in Article 11(3) of the
+Financial Services Act 1986 (Investment Advertisements) (Exemptions) Order
+1996, as amended, or is a person to whom such document may otherwise lawfully
+be issued or passed on.
+
+     Purchasers of the notes may be required to pay stamp taxes and other
+charges in accordance with the laws and practices of the country of purchase in
+addition to the issue price set forth on the cover page hereof.
+
+     The notes have not been, and will not be, registered under the Securities
+and Exchange Law of Japan. Accordingly, the notes may not be offered or sold,
+directly or indirectly, in Japan or to, or for the benefit of, any resident of
+Japan (which term as used herein means any person resident in Japan including
+any corporation or other entity organized under the laws of Japan) or to others
+for the reoffering or resale, directly or indirectly, in Japan or to a resident
+of Japan except pursuant to an exemption from the registration requirements of,
+and otherwise in compliance with, the Securities and Exchange Law of Japan and
+other relevant laws and regulations of Japan.
+
+     The notes may not be offered or sold in the Federal Republic of Germany
+other than in compliance with the provisions of the German Sales Prospectus Act
+(Wertpapier-Verkaufsprospektgesetz) of December 13, 1990, as amended, and of
+any other laws applicable in the Federal Republic of Germany governing the
+issue, offering and sale of securities.
+
+     This prospectus supplement and the accompanying prospectus may be used by
+MS & Co. and other affiliates of ours in connection with offers and sales of
+the notes in market-making transactions at negotiated prices related to
+prevailing market prices at the time of sale or otherwise. MS & Co. and such
+other affiliates of ours may act as principal or agent in such transactions.
+
+     MS & Co. is a wholly-owned subsidiary of ours. MS & Co.'s participation in
+the offering of the notes will be conducted in compliance with Rule 2720 of the
+Conduct Rules of the National Association of Securities Dealers, Inc.
+
+     The underwriters do not intend to confirm sales to accounts over which
+they exercise discretionary authority.
+
+
+                                     S-14
+<PAGE>
+
+
+     In order to facilitate the offering of the notes, the underwriters may
+engage in transactions that stabilize, maintain or otherwise affect the price
+of the notes. Specifically, the underwriters may overallot in connection with
+the offering of the notes, creating a short position in the notes for its own
+account. In addition, to cover overallotments or to stabilize the price of the
+notes, the underwriters may bid for, and purchase, the notes in the open
+market. Finally, in the offering of the notes, the underwriters may reclaim
+selling concessions allowed to a dealer for distributing the notes in the
+offering if the underwriters repurchase previously distributed notes in
+transactions to cover short positions, in stabilization transactions or
+otherwise. Any of these activities may stabilize or maintain the market price
+of the notes above independent market levels. The underwriters are not required
+to engage in these activities and may end any of these activities at any time.
+
+
+                                     S-15
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

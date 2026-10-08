@@ -1,0 +1,353 @@
+{
+ "window": [
+  "1963-01-01",
+  "1990-12-31"
+ ],
+ "candidates": 54,
+ "mined": 12,
+ "untried_by_limit": 41,
+ "items": [
+  {
+   "identifier": "bc-1988-01-04",
+   "date": "1988-01-01",
+   "title_year": "1988",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Broadcasting Magazine (January 4, 1988)",
+   "family": "internet_archive",
+   "meta_date": "1988-01-01",
+   "status": "cached",
+   "bytes": 487203,
+   "named_terms": [
+    "comcast corporation"
+   ],
+   "other_terms": [
+    "cable television"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 15,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "cable television"
+   ],
+   "sample": [
+    {
+     "line": 788,
+     "text": "Cable regulation. National Cable Television",
+     "context": [
+      "",
+      "Association has unveiled survey that shows"
+     ]
+    },
+    {
+     "line": 1572,
+     "text": "George Gillett Jr 00.5. Cable Television",
+     "context": [
+      "tions to company managed and 55% held by",
+      "Group, new limited partnership headed .by ML"
+     ]
+    },
+    {
+     "line": 2075,
+     "text": "Jan. 11\u2014/ndiana Cable Television Association annu-",
+     "context": [
+      "",
+      "al seminar and legislative reception. Columbia Club,"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "bc-1987-11-23",
+   "date": "1987-01-01",
+   "title_year": "1987",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Broadcasting Magazine (November 23, 1987)",
+   "family": "internet_archive",
+   "meta_date": "1987-01-01",
+   "status": "cached",
+   "bytes": 501915,
+   "named_terms": [
+    "comcast corporation"
+   ],
+   "other_terms": [
+    "cable television"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 14,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "cable television"
+   ],
+   "sample": [
+    {
+     "line": 321,
+     "text": "ranging study of cable television",
+     "context": [
+      "Administration to conduct. wide-",
+      ""
+     ]
+    },
+    {
+     "line": 456,
+     "text": "invited National Cable Television",
+     "context": [
+      "cable, Television Operators Caucus",
+      "Association President Jim Mooney to"
+     ]
+    },
+    {
+     "line": 903,
+     "text": "tions barring them Irom entering cable television",
+     "context": [
+      "calling on Congress and FCC to drop prohibi-",
+      "business in areas where they provide telephone."
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "bc-1989-01-16",
+   "date": "1989-01-01",
+   "title_year": "1989",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Broadcasting Magazine (January 16, 1989)",
+   "family": "internet_archive",
+   "meta_date": "1989-01-01",
+   "status": "cached",
+   "bytes": 647970,
+   "named_terms": [
+    "comcast corporation"
+   ],
+   "other_terms": [
+    "cable television"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 7,
+   "phrase_hits": 0,
+   "entity_hits": 2,
+   "matched_entities": [
+    "comcast corp"
+   ],
+   "matched_other_terms": [
+    "cable television"
+   ],
+   "sample": [
+    {
+     "line": 15650,
+     "text": "chief financial officer of Comcast Corp.,",
+     "context": [
+      "ously at that time,\" said Julian Brodsky,",
+      "but he said the company was not looking at"
+     ],
+     "promoted": "comcast corp"
+    },
+    {
+     "line": 16218,
+     "text": "lyn along with MSO's Comcast Corp. and",
+     "context": [
+      "prising black businessman J. Bruce Llewel-",
+      "Lenfest Communications. However, part of"
+     ],
+     "promoted": "comcast corp"
+    }
+   ]
+  },
+  {
+   "identifier": "bc-1990-05-28",
+   "date": "1990-01-01",
+   "title_year": "1990",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Broadcasting Magazine (May 28, 1990)",
+   "family": "internet_archive",
+   "meta_date": "1990-01-01",
+   "status": "cached",
+   "bytes": 507743,
+   "named_terms": [
+    "comcast corporation"
+   ],
+   "other_terms": [
+    "cable television"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 12,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "cable television"
+   ],
+   "sample": [
+    {
+     "line": 80,
+     "text": "National Cable Television Association holds its",
+     "context": [
+      "",
+      "annual meeting in Atlanta under banner \"Vision for the"
+     ]
+    },
+    {
+     "line": 1901,
+     "text": "July 15-18\u2014Cable Television Administration",
+     "context": [
+      "",
+      "and Marketing Society annual conference. San"
+     ]
+    },
+    {
+     "line": 1913,
+     "text": "Southern Cable Television Association. Washing",
+     "context": [
+      "Sept. 16-18\u2014Eastern Cable Show, sponsored by",
+      "ton Convention Center. Washington."
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "bc-1988-11-14",
+   "date": "1988-01-01",
+   "title_year": "1988",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Broadcasting Magazine (November 14, 1988)",
+   "family": "internet_archive",
+   "meta_date": "1988-01-01",
+   "status": "cached",
+   "bytes": 575822,
+   "named_terms": [
+    "comcast corporation"
+   ],
+   "other_terms": [
+    "cable television"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 8,
+   "phrase_hits": 1,
+   "entity_hits": 2,
+   "matched_entities": [
+    "comcast corporation"
+   ],
+   "matched_other_terms": [
+    "cable television"
+   ],
+   "sample": [
+    {
+     "line": 18769,
+     "text": "Comcast Corporation",
+     "context": [
+      "",
+      "and"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "bc-1988-11-07",
+   "date": "1988-01-01",
+   "title_year": "1988",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Broadcasting Magazine (November 7, 1988)",
+   "family": "internet_archive",
+   "meta_date": "1988-01-01",
+   "status": "cached",
+   "bytes": 472585,
+   "named_terms": [
+    "comcast corporation"
+   ],
+   "other_terms": [
+    "cable television"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 5,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "cable television"
+   ],
+   "sample": [
+    {
+     "line": 240,
+     "text": "Cable television industry remains under fire",
+     "context": [
+      "",
+      "on allegations it is \"unregulated monopoly\u201d"
+     ]
+    },
+    {
+     "line": 567,
+     "text": "tem operators, Cable Television Laboratories",
+     "context": [
+      "Consortium formed by several cable sys-",
+      "Inc. (Cable Labs), has been organized to per-"
+     ]
+    },
+    {
+     "line": 1301,
+     "text": "National Cable Television Association re-",
+     "context": [
+      "",
+      "leased must-carry survey Sept. 13 that it said"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "F4AUAQAAMAAJ",
+   "date": "1988-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried F4AUAQAAMAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "-L0gAQAAMAAJ",
+   "date": "1989-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried -L0gAQAAMAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "-0eTDAAAQBAJ",
+   "date": "2016-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried -0eTDAAAQBAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "nmthncESYIoC",
+   "date": "2012-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried nmthncESYIoC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "SVrsDwAAQBAJ",
+   "date": "2020-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried SVrsDwAAQBAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "ooCghX5smGYC",
+   "date": "2014-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried ooCghX5smGYC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  }
+ ]
+}

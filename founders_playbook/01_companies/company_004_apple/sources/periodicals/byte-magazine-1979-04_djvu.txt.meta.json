@@ -1,0 +1,9 @@
+{
+ "identifier": "byte-magazine-1979-04",
+ "url": "https://archive.org/download/byte-magazine-1979-04/1979_04_BYTE_04-04_Low_Level_Programming_djvu.txt",
+ "fetched": "2026-09-29T19:56:33Z",
+ "bytes": 1186876,
+ "route": "download/<id>/1979_04_BYTE_04-04_Low_Level_Programming_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

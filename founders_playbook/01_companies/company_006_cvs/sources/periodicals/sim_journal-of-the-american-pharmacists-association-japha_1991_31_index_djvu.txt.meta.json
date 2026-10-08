@@ -1,0 +1,9 @@
+{
+ "identifier": "sim_journal-of-the-american-pharmacists-association-japha_1991_31_index",
+ "url": "https://archive.org/download/sim_journal-of-the-american-pharmacists-association-japha_1991_31_index/sim_journal-of-the-american-pharmacists-association-japha_1991_31_index_djvu.txt",
+ "fetched": "2026-09-29T17:59:20Z",
+ "bytes": 39082,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

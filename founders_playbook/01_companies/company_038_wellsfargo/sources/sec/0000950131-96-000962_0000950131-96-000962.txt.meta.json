@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000072971/000095013196000962/0000950131-96-000962.txt",
+ "fetched": "2026-10-06T11:49:50Z",
+ "sha1": "1b4a31d969f448861c6a0b14bab08f47eaaac393",
+ "bytes": 526236,
+ "words": 58663,
+ "cik": "0000072971",
+ "registrant": "WELLS FARGO & COMPANY/MN",
+ "accession": "0000950131-96-000962",
+ "document": "0000950131-96-000962.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": true
+}

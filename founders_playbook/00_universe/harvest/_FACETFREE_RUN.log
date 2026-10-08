@@ -1,0 +1,218 @@
+facet-free: 88 of 104 Internet-Archive-family queries carried a YEAR facet; 88 rewritten
+[2026-09-29T19:04:39Z] FETCH  internet_archive / IA walton five-and-dime
+[2026-09-29T19:04:41Z] FETCH  internet_archive / IA waltons store 1945-1965 [FACET-FREE per RD-130]
+[2026-09-29T19:04:47Z] FETCH  internet_archive / IA walton retail trade press 1945-1965 [FACET-FREE per RD-130]
+[2026-09-29T19:04:52Z] FETCH  internet_archive / IA $1.25 store
+[2026-09-29T19:04:54Z] FETCH  corporate_print / CP walmart annual-report run 1970-1998 (EXEMPLAR)
+[2026-09-29T19:04:57Z] FETCH  corporate_print / CP walmart pre-FY1972 corporate print 1962-1971
+[2026-09-29T19:05:00Z] FETCH  corporate_print / CP text availability FY1972 AR
+[2026-09-29T19:05:01Z] FETCH  corporate_print / CP FY1972 AR full text (direct server)
+[2026-09-29T19:05:03Z] FETCH  internet_archive / IA charter med 1971-1980 [FACET-FREE per RD-130]
+[2026-09-29T19:05:06Z] FETCH  internet_archive / IA metropolitan health plans
+[2026-09-29T19:05:09Z] FETCH  internet_archive / IA unitedhealthcare
+[2026-09-29T19:05:15Z] FETCH  internet_archive / IA united healthplan / physicians health plan minnesota [FACET-FREE per RD-130]
+[2026-09-29T19:05:19Z] FETCH  corporate_print / CP unitedhealth annual reports 1977-1995
+[2026-09-29T19:05:22Z] FETCH  corporate_print / CP unitedhealth corporate-print by creator 1971-1995
+[2026-09-29T19:05:25Z] FETCH  corporate_print / CP apple annual/shareholder reports 1976-1995
+[2026-09-29T19:05:31Z] FETCH  corporate_print / CP apple corporate print by creator 1976-1995
+[2026-09-29T19:05:37Z] FETCH  corporate_print / CP text availability apple 1989 corporate report
+[2026-09-29T19:05:39Z] FETCH  internet_archive / IA Yahoo Internet Life / Network World tech-press sweep 1998-2004 [FACET-FREE per RD-130]
+[2026-09-29T19:05:43Z] FETCH  internet_archive / IA magazine_rack/computermagazines annotation sweep for 'google' 1998-2004 [FACET-FREE per RD-130]
+[2026-09-29T19:05:49Z] FETCH  internet_archive / IA founder-name query 1998-2000 (kept as a canary -- returned 0, DO NOT read as absence) [FACET-FREE per RD-130]
+[2026-09-29T19:05:54Z] FETCH  corporate_print / CP alphabet/google annual + shareholder print 1998-2006
+[2026-09-29T19:05:58Z] FETCH  corporate_print / CP google corporate print by creator 1998-2006
+[2026-09-29T19:06:02Z] FETCH  internet_archive / IA 'Amazon.com' / Cadabra periodical text 1994-2002 [FACET-FREE per RD-130]
+[2026-09-29T19:06:06Z] FETCH  internet_archive / IA tech/business-press title sweep for 'Amazon' 1995-2002 [FACET-FREE per RD-130]
+[2026-09-29T19:06:11Z] FETCH  corporate_print / CP amazon annual/shareholder print 1997-2005
+[2026-09-29T19:06:15Z] FETCH  corporate_print / CP amazon corporate print by creator 1994-2005
+[2026-09-29T19:06:19Z] FETCH  internet_archive / IA CVS drug store periodical text 1960-1995 (wide, un-refined) [FACET-FREE per RD-130]
+[2026-09-29T19:06:25Z] FETCH  internet_archive / IA 'Drug Store News'/'Pharmacy Times' back-file sweep 1960-1995 [FACET-FREE per RD-130]
+[2026-09-29T19:06:30Z] FETCH  corporate_print / CP cvs annual/shareholder print 1960-1998 (wide, un-refined)
+[2026-09-29T19:06:35Z] FETCH  corporate_print / CP cvs corporate print by creator 1960-1998
+[2026-09-29T19:06:39Z] FETCH  internet_archive / IA Berkshire Hathaway periodical text 1948-1998 (wide, un-refined) [FACET-FREE per RD-130]
+[2026-09-29T19:06:44Z] FETCH  internet_archive / IA insurance trade-press + Forbes back-file sweep 1948-1998 [FACET-FREE per RD-130]
+[2026-09-29T19:06:47Z] FETCH  corporate_print / CP berkshire annual/shareholder print 1948-1998 (wide, un-refined)
+[2026-09-29T19:06:52Z] FETCH  corporate_print / CP berkshire corporate print by creator 1948-1998
+[2026-09-29T19:06:58Z] FETCH  internet_archive / IA McKesson periodical text 1900-1995 (wide, un-refined) [FACET-FREE per RD-130]
+[2026-09-29T19:07:04Z] FETCH  internet_archive / IA wholesale-drug trade-press sweep 1930-1995 [FACET-FREE per RD-130]
+[2026-09-29T19:07:05Z] FETCH  corporate_print / CP mckesson annual/shareholder print 1930-1998 (wide, un-refined)
+[2026-09-29T19:07:07Z] FETCH  corporate_print / CP mckesson corporate print by creator 1930-1998
+[2026-09-29T19:07:13Z] FETCH  internet_archive / IA 'Exxon Mobil Corp' / 'ExxonMobil Holdings' periodical text 1890-1999 [FACET-FREE per RD-130]
+[2026-09-29T19:07:17Z] FETCH  internet_archive / IA petroleum trade-journal back-file sweep 1920-1999 [FACET-FREE per RD-130]
+[2026-09-29T19:07:18Z] FETCH  corporate_print / CP exxon/mobil annual & shareholder print 1900-1999 (wide, un-refined)
+[2026-09-29T19:07:22Z] FETCH  corporate_print / CP exxon/mobil corporate print by creator 1900-1999
+[2026-09-29T19:07:25Z] FETCH  internet_archive / IA Cencora / name-discovery periodical text 1985-2010
+[2026-09-29T19:07:27Z] FETCH  internet_archive / IA pharmaceutical-wholesale trade press + Philadelphia business press 1985-2010 [FACET-FREE per RD-130]
+[2026-09-29T19:07:29Z] FETCH  corporate_print / CP cencora annual/shareholder print 1985-2025 (wide, un-refined)
+[2026-09-29T19:07:32Z] FETCH  corporate_print / CP cencora corporate print by creator + predecessor-name discovery 1985-2025
+[2026-09-29T19:07:34Z] FETCH  internet_archive / IA BYTE / Popular Electronics back-file sweep for 'Microsoft' 1975-1985 [FACET-FREE per RD-130]
+[2026-09-29T19:07:36Z] FETCH  internet_archive / IA Homebrew Computer Club newsletter layer 1974-1980 (same host layer that carried Apple/Microsoft periodical evidence)
+[2026-09-29T19:07:40Z] FETCH  corporate_print / CP microsoft annual/shareholder print 1975-1995
+[2026-09-29T19:07:43Z] FETCH  corporate_print / CP microsoft corporate print by creator 1975-1995 (Apple-verified creator form)
+[2026-09-29T19:07:45Z] FETCH  internet_archive / IA JPMorgan Chase / predecessor-name periodical text 1900-1999 [FACET-FREE per RD-130]
+[2026-09-29T19:07:49Z] FETCH  internet_archive / IA banking trade-press back-file sweep 1900-1999 [FACET-FREE per RD-130]
+[2026-09-29T19:07:51Z] FETCH  corporate_print / CP jpmorgan + predecessor annual/shareholder print 1900-1999 (wide, un-refined)
+[2026-09-29T19:07:55Z] FETCH  corporate_print / CP jpmorgan corporate print by creator 1900-1999
+[2026-09-29T19:08:00Z] FETCH  internet_archive / IA 'Costco' / 'Price Club' periodical text 1976-1998 [FACET-FREE per RD-130]
+[2026-09-29T19:08:04Z] FETCH  internet_archive / IA 'Discount Store News'/'Chain Store Age'/'Stores' back-file sweep 1976-1998 [FACET-FREE per RD-130]
+[2026-09-29T19:08:07Z] FETCH  corporate_print / CP costco + price club annual/shareholder print 1976-1998
+[2026-09-29T19:08:10Z] FETCH  corporate_print / CP costco/price corporate print by creator 1976-1998
+[2026-09-29T19:08:12Z] FETCH  internet_archive / IA Cigna / predecessor names periodical text 1900-1995 (wide, un-refined) [FACET-FREE per RD-130]
+[2026-09-29T19:08:15Z] FETCH  internet_archive / IA insurance + health-underwriting trade press 1940-1995
+[2026-09-29T19:08:16Z] FETCH  corporate_print / CP cigna + predecessor annual/shareholder print 1940-1998 (wide, un-refined)
+[2026-09-29T19:08:21Z] FETCH  corporate_print / CP cigna corporate print by creator 1940-1998
+[2026-09-29T19:08:23Z] FETCH  internet_archive / IA BYTE / Homebrew newsletter layer for 'Apple Computer' 1975-1982 [FACET-FREE per RD-130]
+[2026-09-29T19:08:27Z] FETCH  internet_archive / IA Cardinal Health periodical text 1970-1998 (wide, un-refined) [FACET-FREE per RD-130]
+[2026-09-29T19:08:33Z] FETCH  internet_archive / IA healthcare-distribution trade press 1970-1998 [FACET-FREE per RD-130]
+[2026-09-29T19:08:36Z] FETCH  corporate_print / CP cardinal annual/shareholder print 1970-1998 (wide, un-refined)
+[2026-09-29T19:08:41Z] FETCH  corporate_print / CP cardinal corporate print by creator 1970-1998
+[2026-09-29T19:08:44Z] FETCH  internet_archive / IA tech-press title sweep for NVIDIA 1993-2000 [FACET-FREE per RD-130]
+[2026-09-29T19:08:49Z] FETCH  internet_archive / IA NVIDIA founder/roadshow print 1993-2002 [FACET-FREE per RD-130]
+[2026-09-29T19:08:54Z] FETCH  corporate_print / CP nvidia annual/shareholder print 1993-2005
+[2026-09-29T19:08:58Z] FETCH  corporate_print / CP nvidia corporate print by creator 1993-2005
+[2026-09-29T19:08:59Z] FETCH  internet_archive / IA Facebook tech/business press 2003-2012 [FACET-FREE per RD-130]
+[2026-09-29T19:09:04Z] FETCH  internet_archive / IA magazine title sweep for Facebook 2004-2014 [FACET-FREE per RD-130]
+[2026-09-29T19:09:07Z] FETCH  corporate_print / CP meta/facebook annual & shareholder print 2004-2016
+[2026-09-29T19:09:10Z] FETCH  corporate_print / CP meta/facebook corporate print by creator 2004-2016
+[2026-09-29T19:09:12Z] FETCH  internet_archive / IA Elevance / predecessor-name periodical text 1940-2005 (wide, un-refined) [FACET-FREE per RD-130]
+[2026-09-29T19:09:14Z] FETCH  internet_archive / IA managed-care trade press 1970-2005
+[2026-09-29T19:09:16Z] FETCH  corporate_print / CP elevance + predecessor annual/shareholder print 1970-2022 (wide, un-refined)
+[2026-09-29T19:09:19Z] FETCH  corporate_print / CP elevance corporate print by creator 1970-2022
+[2026-09-29T19:09:23Z] FETCH  internet_archive / IA Centene periodical text 1980-2005 (wide, un-refined) [FACET-FREE per RD-130]
+[2026-09-29T19:09:25Z] FETCH  internet_archive / IA Medicaid/managed-care trade press 1984-2010 [FACET-FREE per RD-130]
+[2026-09-29T19:09:26Z] FETCH  corporate_print / CP centene annual/shareholder print 1984-2010 (wide, un-refined)
+[2026-09-29T19:09:29Z] FETCH  corporate_print / CP centene corporate print by creator 1984-2010
+[2026-09-29T19:09:32Z] FETCH  internet_archive / IA 'Bank of America' + predecessor names periodical text 1900-1998 [FACET-FREE per RD-130]
+[2026-09-29T19:09:38Z] FETCH  internet_archive / IA banking trade press + California business press 1900-1998
+[2026-09-29T19:09:41Z] FETCH  corporate_print / CP bofa + predecessor annual/shareholder print 1900-1998 (wide, un-refined)
+[2026-09-29T19:09:44Z] FETCH  corporate_print / CP bofa corporate print by creator 1900-1998
+[2026-09-29T19:09:47Z] FETCH  internet_archive / IA Chevron periodical text 1900-1999 (wide, un-refined) [FACET-FREE per RD-130]
+[2026-09-29T19:09:50Z] FETCH  internet_archive / IA petroleum trade-journal back-file sweep 1920-1999 [FACET-FREE per RD-130]
+[2026-09-29T19:09:52Z] FETCH  corporate_print / CP chevron annual/shareholder print 1900-1999 (wide, un-refined)
+[2026-09-29T19:09:56Z] FETCH  corporate_print / CP chevron corporate print by creator 1900-1999
+[2026-09-29T19:10:01Z] FETCH  internet_archive / IA Ford periodical text 1900-1960 (wide, un-refined) [FACET-FREE per RD-130]
+[2026-09-29T19:10:04Z] FETCH  internet_archive / IA automotive trade-journal back-file sweep 1900-1970 [FACET-FREE per RD-130]
+[2026-09-29T19:10:08Z] FETCH  corporate_print / CP ford annual/shareholder print 1900-1975 (wide, un-refined)
+[2026-09-29T19:10:13Z] FETCH  corporate_print / CP ford corporate print by creator 1900-1975
+[2026-09-29T19:10:20Z] FETCH  internet_archive / IA General Motors periodical text 1900-1960 (wide, un-refined) [FACET-FREE per RD-130]
+[2026-09-29T19:10:26Z] FETCH  internet_archive / IA automotive + business trade press 1908-1970 [FACET-FREE per RD-130]
+[2026-09-29T19:10:29Z] FETCH  corporate_print / CP gm annual/shareholder print 1908-1975 (wide, un-refined)
+[2026-09-29T19:10:30Z] FETCH  corporate_print / CP gm corporate print by creator 1908-1975
+[2026-09-29T19:10:35Z] FETCH  internet_archive / IA Citigroup/Citicorp + predecessor names periodical text 1900-1998 [FACET-FREE per RD-130]
+[2026-09-29T19:10:38Z] FETCH  internet_archive / IA banking trade press New York 1900-1998
+[2026-09-29T19:10:40Z] FETCH  corporate_print / CP citigroup + predecessor annual/shareholder print 1900-1998 (wide, un-refined)
+[2026-09-29T19:10:42Z] FETCH  corporate_print / CP citigroup corporate print by creator 1900-1998
+[2026-09-29T19:10:45Z] FETCH  internet_archive / IA 'Home Depot' periodical text 1970-1998 [FACET-FREE per RD-130]
+[2026-09-29T19:10:48Z] FETCH  internet_archive / IA 'Chain Store Age'/'Discount Store News'/'Stores' back-file sweep 1970-1998 [FACET-FREE per RD-130]
+[2026-09-29T19:10:49Z] FETCH  corporate_print / CP homedepot annual/shareholder print 1975-1998
+[2026-09-29T19:10:52Z] FETCH  corporate_print / CP homedepot corporate print by creator 1975-1998
+[2026-09-29T19:10:55Z] FETCH  internet_archive / IA Fannie Mae periodical text 1930-1995 (wide, un-refined) [FACET-FREE per RD-130]
+[2026-09-29T19:10:58Z] FETCH  internet_archive / IA mortgage/savings trade press 1930-1995
+[2026-09-29T19:11:00Z] FETCH  corporate_print / CP fanniemae annual/shareholder print 1938-1998 (wide, un-refined)
+[2026-09-29T19:11:02Z] FETCH  corporate_print / CP fanniemae corporate print by creator 1938-1998
+[2026-09-29T19:11:05Z] FETCH  internet_archive / IA 'Progressive Grocer' back-file sweep for Kroger 1900-1970 [FACET-FREE per RD-130]
+[2026-09-29T19:11:07Z] FETCH  internet_archive / IA Kroger periodical text + 'Chain Store Age'/'Stores' 1900-1990 [FACET-FREE per RD-130]
+[2026-09-29T19:11:10Z] FETCH  corporate_print / CP kroger annual/shareholder print 1900-1990 (wide, un-refined)
+[2026-09-29T19:11:12Z] FETCH  corporate_print / CP kroger corporate print by creator 1900-1990
+[2026-09-29T19:11:15Z] FETCH  internet_archive / IA Verizon + Bell predecessor periodical text 1900-2005 [FACET-FREE per RD-130]
+[2026-09-29T19:11:19Z] FETCH  internet_archive / IA telecom trade press back-file sweep 1900-2000 [FACET-FREE per RD-130]
+[2026-09-29T19:11:21Z] FETCH  corporate_print / CP verizon + Bell predecessor annual/shareholder print 1900-2005 (wide, un-refined)
+[2026-09-29T19:11:23Z] FETCH  corporate_print / CP verizon corporate print by creator 1900-2005
+[2026-09-29T19:11:25Z] FETCH  internet_archive / IA 'Phillips 66'/'Phillips Petroleum' periodical text 1920-2015 [FACET-FREE per RD-130]
+[2026-09-29T19:11:28Z] FETCH  internet_archive / IA petroleum trade-journal sweep 1930-2015 [FACET-FREE per RD-130]
+[2026-09-29T19:11:31Z] FETCH  corporate_print / CP phillips66 + Phillips Petroleum annual/shareholder print 1930-2015 (wide, un-refined)
+[2026-09-29T19:11:35Z] FETCH  corporate_print / CP phillips66 corporate print by creator 1930-2015
+[2026-09-29T19:11:37Z] FETCH  internet_archive / IA Marathon Petroleum / Marathon Oil periodical text 1900-2015 [FACET-FREE per RD-130]
+[2026-09-29T19:11:39Z] FETCH  internet_archive / IA petroleum trade-journal sweep + Findlay/Tampa local print 1920-2015 [FACET-FREE per RD-130]
+[2026-09-29T19:11:41Z] FETCH  corporate_print / CP marathon + predecessor annual/shareholder print 1920-2015 (wide, un-refined)
+[2026-09-29T19:11:44Z] FETCH  corporate_print / CP marathon corporate print by creator 1920-2015
+[2026-09-29T19:11:46Z] FETCH  internet_archive / IA StoneX/FCStone/INTL periodical text 1980-2020 [FACET-FREE per RD-130]
+[2026-09-29T19:11:50Z] FETCH  internet_archive / IA commodity/futures trade press sweep 1980-2020 [FACET-FREE per RD-130]
+[2026-09-29T19:11:55Z] FETCH  corporate_print / CP stonex + predecessor annual/shareholder print 1980-2022 (wide, un-refined)
+[2026-09-29T19:11:58Z] FETCH  corporate_print / CP stonex corporate print by creator + name-discovery 1980-2022
+[2026-09-29T19:12:01Z] FETCH  internet_archive / IA State Farm periodical text 1920-1995 (wide, un-refined) [FACET-FREE per RD-130]
+[2026-09-29T19:12:06Z] FETCH  internet_archive / IA insurance trade press + State Farm's own member magazine back-file 1925-1995
+[2026-09-29T19:12:08Z] FETCH  corporate_print / CP statefarm annual/statutory print 1920-1998 (wide, un-refined)
+[2026-09-29T19:12:11Z] FETCH  corporate_print / CP statefarm corporate print by creator 1920-1998
+[2026-09-29T19:12:15Z] FETCH  internet_archive / IA Freddie Mac periodical text 1960-1995 [FACET-FREE per RD-130]
+[2026-09-29T19:12:19Z] FETCH  internet_archive / IA housing-finance trade press 1960-1995
+[2026-09-29T19:12:21Z] FETCH  corporate_print / CP freddiemac annual/shareholder print 1965-1998 (wide, un-refined)
+[2026-09-29T19:12:23Z] FETCH  corporate_print / CP freddiemac corporate print by creator 1965-1998
+[2026-09-29T19:12:25Z] FETCH  internet_archive / IA AT&T / Bell System periodical text 1880-1995 (wide, un-refined) [FACET-FREE per RD-130]
+[2026-09-29T19:12:27Z] FETCH  internet_archive / IA telecom trade press + company-owned magazine back-file 1900-1995 [FACET-FREE per RD-130]
+[2026-09-29T19:12:30Z] FETCH  corporate_print / CP att + Bell predecessor annual/shareholder print 1885-1995 (wide, un-refined)
+[2026-09-29T19:12:33Z] FETCH  corporate_print / CP att corporate print by creator 1885-1995
+[2026-09-29T19:12:36Z] FETCH  internet_archive / IA Goldman Sachs periodical text 1900-1995 (wide, un-refined) [FACET-FREE per RD-130]
+[2026-09-29T19:12:38Z] FETCH  internet_archive / IA securities/banking trade press 1900-1995
+[2026-09-29T19:12:41Z] FETCH  corporate_print / CP goldman annual/shareholder print 1900-1995 (wide, un-refined)
+[2026-09-29T19:12:45Z] FETCH  corporate_print / CP goldman corporate print by creator 1900-1995
+[2026-09-29T19:12:46Z] FETCH  internet_archive / IA Comcast periodical text 1963-2000 [FACET-FREE per RD-130]
+[2026-09-29T19:12:50Z] FETCH  internet_archive / IA cable-industry trade press 1970-2000 [FACET-FREE per RD-130]
+[2026-09-29T19:12:53Z] FETCH  corporate_print / CP comcast annual/shareholder print 1963-2000
+[2026-09-29T19:12:55Z] FETCH  corporate_print / CP comcast corporate print by creator + cable guides 1963-2000
+[2026-09-29T19:12:58Z] FETCH  internet_archive / IA Wells Fargo periodical text 1850-1995 (wide, un-refined) [FACET-FREE per RD-130]
+[2026-09-29T19:13:00Z] FETCH  internet_archive / IA banking + California business press 1850-1995
+[2026-09-29T19:13:02Z] FETCH  corporate_print / CP wellsfargo annual/shareholder print 1850-1995 (wide, un-refined)
+[2026-09-29T19:13:05Z] FETCH  corporate_print / CP wellsfargo corporate print by creator 1850-1995
+[2026-09-29T19:13:07Z] FETCH  internet_archive / IA Morgan Stanley + predecessor periodical text 1920-2000 [FACET-FREE per RD-130]
+[2026-09-29T19:13:10Z] FETCH  internet_archive / IA securities-industry trade press 1920-2000
+[2026-09-29T19:13:12Z] FETCH  corporate_print / CP morganstanley + predecessor annual/shareholder print 1920-2000 (wide, un-refined)
+[2026-09-29T19:13:15Z] FETCH  corporate_print / CP morganstanley corporate print by creator 1920-2000
+[2026-09-29T19:13:19Z] FETCH  internet_archive / IA Valero + predecessor periodical text 1960-2005 [FACET-FREE per RD-130]
+[2026-09-29T19:13:23Z] FETCH  internet_archive / IA petroleum trade-journal sweep 1960-2010 [FACET-FREE per RD-130]
+[2026-09-29T19:13:27Z] FETCH  corporate_print / CP valero + predecessor annual/shareholder print 1960-2005 (wide, un-refined)
+[2026-09-29T19:13:28Z] FETCH  corporate_print / CP valero corporate print by creator 1960-2005
+[2026-09-29T19:13:30Z] FETCH  internet_archive / IA BYTE back-file sweep 'PC's Limited'/'Dell' 1984-1996 [FACET-FREE per RD-130]
+[2026-09-29T19:13:34Z] FETCH  internet_archive / IA PC/tech press + mail-order trade press for Dell 1984-1998 [FACET-FREE per RD-130]
+[2026-09-29T19:13:36Z] FETCH  corporate_print / CP dell + PC's Limited annual/shareholder print 1984-2000
+[2026-09-29T19:13:39Z] FETCH  corporate_print / CP dell corporate print by creator 1984-2000
+[2026-09-29T19:13:42Z] FETCH  internet_archive / IA 'Discount Store News'/'Chain Store Age'/'Stores' sweep for Target + Dayton Hudson 1946-1990 [FACET-FREE per RD-130]
+[2026-09-29T19:13:44Z] FETCH  internet_archive / IA 'Women's Wear Daily' + general business press for Dayton/Target 1946-1990 [FACET-FREE per RD-130]
+[2026-09-29T19:13:47Z] FETCH  corporate_print / CP target + Dayton Hudson annual/shareholder print 1946-1999
+[2026-09-29T19:13:50Z] FETCH  corporate_print / CP target/Dayton corporate print by creator 1940-1999
+[2026-09-29T19:13:53Z] FETCH  internet_archive / IA Tesla periodical text 2003-2015 [FACET-FREE per RD-130]
+[2026-09-29T19:13:58Z] FETCH  internet_archive / IA automotive + tech press title sweep for Tesla 2003-2015 [FACET-FREE per RD-130]
+[2026-09-29T19:14:01Z] FETCH  corporate_print / CP tesla annual/shareholder print 2003-2015
+[2026-09-29T19:14:05Z] FETCH  corporate_print / CP tesla corporate print by creator 2003-2015
+[2026-09-29T19:14:07Z] FETCH  internet_archive / IA Disney periodical text 1920-1970 (wide, un-refined) [FACET-FREE per RD-130]
+[2026-09-29T19:14:11Z] FETCH  internet_archive / IA exhibition/film trade press + business press 1920-1970 [FACET-FREE per RD-130]
+[2026-09-29T19:14:12Z] FETCH  corporate_print / CP disney annual/shareholder print 1923-1985 (wide, un-refined)
+[2026-09-29T19:14:16Z] FETCH  corporate_print / CP disney corporate print by creator 1923-1985
+[2026-09-29T19:14:18Z] FETCH  internet_archive / IA J&J periodical text 1880-1970 (wide, un-refined) [FACET-FREE per RD-130]
+[2026-09-29T19:14:22Z] FETCH  internet_archive / IA pharmacy/pharmaceutical trade press 1880-1970 [FACET-FREE per RD-130]
+[2026-09-29T19:14:25Z] FETCH  corporate_print / CP jnj annual/shareholder print 1886-1980 (wide, un-refined)
+[2026-09-29T19:14:28Z] FETCH  corporate_print / CP jnj corporate print by creator 1886-1980
+[2026-09-29T19:14:30Z] FETCH  internet_archive / IA Pepsi-Cola / Frito-Lay periodical text 1890-1975 (wide, un-refined) [FACET-FREE per RD-130]
+[2026-09-29T19:14:33Z] FETCH  internet_archive / IA beverage/food trade press + 'Progressive Grocer' 1900-1980 [FACET-FREE per RD-130]
+[2026-09-29T19:14:36Z] FETCH  corporate_print / CP pepsico + predecessor annual/shareholder print 1900-1980 (wide, un-refined)
+[2026-09-29T19:14:39Z] FETCH  corporate_print / CP pepsico corporate print by creator 1900-1980
+[2026-09-29T19:14:41Z] FETCH  internet_archive / IA Boeing periodical text 1910-1970 (wide, un-refined) [FACET-FREE per RD-130]
+[2026-09-29T19:14:44Z] FETCH  internet_archive / IA aviation trade-press back-file sweep 1910-1975 [FACET-FREE per RD-130]
+[2026-09-29T19:14:46Z] FETCH  corporate_print / CP boeing annual/shareholder print 1916-1980 (wide, un-refined)
+[2026-09-29T19:14:48Z] FETCH  corporate_print / CP boeing corporate print by creator 1916-1980
+[2026-09-29T19:14:51Z] FETCH  internet_archive / IA UPS periodical text 1900-1975 (wide, un-refined) [FACET-FREE per RD-130]
+[2026-09-29T19:14:55Z] FETCH  internet_archive / IA trucking/transport trade press 1910-1980 [FACET-FREE per RD-130]
+[2026-09-29T19:14:57Z] FETCH  corporate_print / CP ups annual print 1919-1985 (wide, un-refined; a mutual-style registrant may print member rather than shareholder reports)
+[2026-09-29T19:15:02Z] FETCH  corporate_print / CP ups corporate print by creator 1919-1985
+[2026-09-29T19:15:04Z] FETCH  internet_archive / IA RTX/Raytheon/Hughes/E-Systems periodical text 1920-2020 (wide, un-refined) [FACET-FREE per RD-130]
+[2026-09-29T19:15:07Z] FETCH  internet_archive / IA defense/aerospace trade press 1950-2000 [FACET-FREE per RD-130]
+[2026-09-29T19:15:09Z] FETCH  corporate_print / CP rtx + predecessor annual/shareholder print 1950-2020 (wide, un-refined)
+[2026-09-29T19:15:12Z] FETCH  corporate_print / CP rtx corporate print by creator 1950-2020
+[2026-09-29T19:15:17Z] FETCH  internet_archive / IA Federal Express periodical text 1965-1995 [FACET-FREE per RD-130]
+[2026-09-29T19:15:22Z] FETCH  internet_archive / IA air-cargo/trucking trade press 1960-2000 [FACET-FREE per RD-130]
+[2026-09-29T19:15:26Z] FETCH  corporate_print / CP fedex + predecessor annual/shareholder print 1971-2000
+[2026-09-29T19:15:30Z] FETCH  corporate_print / CP fedex corporate print by creator 1971-2000
+[2026-09-29T19:15:33Z] FETCH  internet_archive / IA Humana periodical text 1960-1995 (wide, un-refined) [FACET-FREE per RD-130]
+[2026-09-29T19:15:36Z] FETCH  internet_archive / IA health-care trade press 1960-1995 [FACET-FREE per RD-130]
+[2026-09-29T19:15:39Z] FETCH  corporate_print / CP humana annual/shareholder print 1960-1995 (wide, un-refined)
+[2026-09-29T19:15:40Z] FETCH  corporate_print / CP humana corporate print by creator 1960-1995
+[2026-09-29T19:15:44Z] wrote E:\founder's playbook\founders_playbook\00_universe\harvest\candidates.csv (3802 rows)
+[2026-09-29T19:15:44Z] wrote manifest (1653 files)
+
+PER-FAMILY OUTCOMES (this run):
+  corporate_print        tasks=103 fetched=103 cached=0   skipped=0   http={'200': 103} rows={'TIER1_CANDIDATE': 389, 'UNANSWERED': 45, 'LEAD_ONLY': 120}
+  internet_archive       tasks=104 fetched=104 cached=0   skipped=0   http={'200': 104} rows={'LEAD_ONLY': 843, 'NULL': 35, 'TIER1_CANDIDATE': 176, 'UNANSWERED': 2}
+
+DONE. network requests: 207 / cap 420   (cache: OFF, so every row below is a live answer from this egress)
+  evidence written: 206 file(s), unchanged: 1, versioned-beside-existing: 94
+candidate rows: 1610  {'LEAD_ONLY': 963, 'NULL': 35, 'TIER1_CANDIDATE': 565, 'UNANSWERED': 47}

@@ -1,0 +1,9 @@
+{
+ "identifier": "1989-sears-christmas-wishbook-catalog",
+ "url": "https://archive.org/download/1989-sears-christmas-wishbook-catalog/1989%20Sears%20Christmas%20Wishbook%20Catalog_djvu.txt",
+ "fetched": "2026-10-06T12:12:33Z",
+ "bytes": 1219067,
+ "route": "download/<id>/1989 Sears Christmas Wishbook Catalog_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

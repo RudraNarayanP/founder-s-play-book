@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000831001/000095010324005429/dp209949_exfilingfees.htm",
+ "fetched": "2026-09-29T18:38:43Z",
+ "sha1": "f86fc4c3a63bd3afaa148f5c9c247c502829ed58",
+ "bytes": 11298,
+ "words": 162,
+ "cik": "0000831001",
+ "registrant": "CITIGROUP INC",
+ "accession": "0000950103-24-005429",
+ "document": "dp209949_exfilingfees.htm",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

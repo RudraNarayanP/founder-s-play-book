@@ -1,0 +1,28 @@
+{
+ "cik": "0001090727",
+ "requested_cik": "1090727",
+ "registrant": "UNITED PARCEL SERVICE INC",
+ "ticker": "UPS",
+ "tickers": [
+  "UPS"
+ ],
+ "former_names": [],
+ "company_dir": "company_048_ups",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['ups'] match registrant 'UNITED PARCEL SERVICE INC' (CIK 0001090727)"
+ ],
+ "built": "2026-09-29T19:07:21Z",
+ "count": 3215,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 29,
+ "csv_sha1": "09d2c0b1f0ef121f0518d29ca981699547e0a308",
+ "csv_bytes": 291326,
+ "paths": {
+  "json": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_048_ups\\sources\\_index\\submissions_CIK0001090727.json",
+  "csv": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_048_ups\\sources\\_index\\submissions_CIK0001090727.csv",
+  "md": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_048_ups\\sources\\_index\\_INDEX_CIK0001090727.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

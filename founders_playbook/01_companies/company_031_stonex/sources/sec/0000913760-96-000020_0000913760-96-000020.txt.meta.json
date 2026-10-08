@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000913760/000091376096000020/0000913760-96-000020.txt",
+ "fetched": "2026-09-29T19:01:39Z",
+ "sha1": "48e886911741359a80e8535155ae13eb037c42dd",
+ "bytes": 13717,
+ "words": 1580,
+ "cik": "0000913760",
+ "registrant": "StoneX Group Inc.",
+ "accession": "0000913760-96-000020",
+ "document": "0000913760-96-000020.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": true
+}

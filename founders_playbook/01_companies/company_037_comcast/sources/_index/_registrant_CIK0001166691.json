@@ -1,0 +1,31 @@
+{
+ "cik": "0001166691",
+ "requested_cik": "1166691",
+ "registrant": "COMCAST CORP",
+ "ticker": "CMCSA",
+ "tickers": [
+  "CMCSA",
+  "CCZ"
+ ],
+ "former_names": [
+  "AT&T COMCAST CORP"
+ ],
+ "company_dir": "company_037_comcast",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['comcast'] match registrant 'COMCAST CORP' (CIK 0001166691)"
+ ],
+ "built": "2026-10-06T11:49:05Z",
+ "count": 3515,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 0,
+ "csv_sha1": "18881e296d890ef971d86a310bc575841536fd48",
+ "csv_bytes": 319387,
+ "paths": {
+  "json": "founders_playbook/01_companies/company_037_comcast\\sources\\_index\\submissions_CIK0001166691.json",
+  "csv": "founders_playbook/01_companies/company_037_comcast\\sources\\_index\\submissions_CIK0001166691.csv",
+  "md": "founders_playbook/01_companies/company_037_comcast\\sources\\_index\\_INDEX_CIK0001166691.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

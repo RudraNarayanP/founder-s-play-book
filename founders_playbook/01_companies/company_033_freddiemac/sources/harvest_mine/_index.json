@@ -1,0 +1,433 @@
+{
+ "window": [
+  "1970-01-01",
+  "1990-12-31"
+ ],
+ "candidates": 44,
+ "mined": 12,
+ "untried_by_limit": 31,
+ "items": [
+  {
+   "identifier": "cia-readingroom-document-cia-rdp89-00066r000700060001-1",
+   "date": "1985-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp89-00066r000700060001-1: REPORT TO THE RANKING MINORITY MEMBER, COMMITTEE ON EDUCATION AND LABOR",
+   "family": "internet_archive",
+   "meta_date": "1985-01-01",
+   "status": "cached",
+   "bytes": 98700,
+   "named_terms": [
+    "freddie mac"
+   ],
+   "other_terms": [
+    "federal home loan mortgage",
+    "federal home loan mortgage corporation"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "federal home loan mortgage"
+   ],
+   "sample": [
+    {
+     "line": 227,
+     "text": ". Federal Home Loan Mortgage Corporation, most",
+     "context": [
+      "",
+      "nonappropriated fund instrumentalities (such as the"
+     ]
+    },
+    {
+     "line": 1044,
+     "text": "Federal Home Loan Mortgage Corp. 430 4 102 536 5.0 7.8 (0.8) [6] .",
+     "context": [
+      "Natl. Oceanic & Atmospheric Admin. 375 167 (i) 542 110.8 0.0 {3] - 163.1",
+      "Tax Court 14 \"1 0 25 7.3 0.0 [3] 6.3 _"
+     ]
+    },
+    {
+     "line": 1124,
+     "text": "Federal Home Loan Mortgage Corp. 7.8 7.2 5.4 4.3",
+     "context": [
+      "Natl. Oceanic & Atmospheric Admin. [3] 0.0 0.0 0.0 0.0",
+      "Tax Court [3] 0.0 0.0 0.0 0.0"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "DTIC_ADA270234",
+   "date": "1990-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "DTIC ADA270234: Secondary Mortgage Market: Information on Underwriting and Home Loans in the Atlanta Area",
+   "family": "internet_archive",
+   "meta_date": "1990-01-01",
+   "status": "cached",
+   "bytes": 114310,
+   "named_terms": [
+    "freddie mac"
+   ],
+   "other_terms": [
+    "federal home loan mortgage",
+    "federal home loan mortgage corporation"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 98,
+   "entity_hits": 98,
+   "matched_entities": [
+    "freddie  mac"
+   ],
+   "matched_other_terms": [
+    "federal  home  loan  mortgage"
+   ],
+   "sample": [
+    {
+     "line": 75,
+     "text": "Federal  Home  Loan  Mortgage  Corporation  (Freddie  Mac),  which",
+     "context": [
+      "data  of  the  Federal  National  Mortgage  Association  (Fannie  Mae)  and  the",
+      "together  market  most  of  the  dollar  value  of  mortgages  sold  in  the  sec\u00ac"
+     ]
+    },
+    {
+     "line": 106,
+     "text": "through  June  30,  1989.  Unlike  P'annie  Mae,  Freddie  Mac,  and  in  o.  va",
+     "context": [
+      "five-county  metropolitan  Atlanta  area  during  the  {)eriod  July  I,  1987,",
+      "could  not  provide  us  with  loan  data  at  the  zip  code  level.  Therefon*.  we"
+     ]
+    },
+    {
+     "line": 128,
+     "text": "Fannie  Mae  and  Freddie  Mac  provide  similar  guidance  to  lenders  from",
+     "context": [
+      "",
+      "whom  they  purchase  mortgages.  Each  agency  .sets  out  its  .standards  in  a"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp88g01332r001100120011-5",
+   "date": "1986-01-01",
+   "title_year": "2001",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp88g01332r001100120011-5: ROUTING AND RECORD SHEET",
+   "family": "internet_archive",
+   "meta_date": "1986-01-01",
+   "status": "cached",
+   "bytes": 44177,
+   "named_terms": [
+    "freddie mac"
+   ],
+   "other_terms": [
+    "federal home loan mortgage",
+    "federal home loan mortgage corporation"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "federal home loan mortgage"
+   ],
+   "sample": [
+    {
+     "line": 170,
+     "text": "Sec. 245, Secondary financing by Federal Home Loan Mortgage Co:",
+     "context": [
+      "",
+      "solar energy and en conserving im, 3"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA41152637_1194",
+   "date": "1988-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Federal Home Loan Mortgage Corporation Act",
+   "family": "internet_archive",
+   "meta_date": "1988-01-01",
+   "status": "cached",
+   "bytes": 260615,
+   "named_terms": [
+    "freddie mac"
+   ],
+   "other_terms": [
+    "federal home loan mortgage",
+    "federal home loan mortgage corporation"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 200,
+   "entity_hits": 200,
+   "matched_entities": [
+    "freddie mac"
+   ],
+   "matched_other_terms": [
+    "federal home loan mortgage"
+   ],
+   "sample": [
+    {
+     "line": 129,
+     "text": "The market value of Freddie Mac Preferred .............-csssssessecssssesseessnneeesenee",
+     "context": [
+      "The a S. eg | ET",
+      "Appendix A\u2014Article from \u201cBottomline\u201d STII cacissttneteamesasieiaetiithmesinien"
+     ]
+    },
+    {
+     "line": 386,
+     "text": "IN DECEMBER OCF 1984, FREDDIE MAC WAS GIVEN THE RIGHT TO ISSUE 15",
+     "context": [
+      "",
+      "MILLION SHARES OF NON-VOTING PARTICIPATING PREFERRED STOCK. THIS STOCK WAS"
+     ]
+    },
+    {
+     "line": 389,
+     "text": "WHICH HAD CAPITALIZED FREDDIE MAC AT ITS ORIGIN IN 1970. THIS STOCK",
+     "context": [
+      "DISTRIBUTED AS A DIVIDEND TO MEMBERS OF THE FEDERAL HOME LOAN BANK SYSTEM",
+      "DISTRIBUTION WAS VIEWED AS AN INJECTION OF MUCH NEEDED CAPITAL AT A TIME"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp90m00005r001300070026-8",
+   "date": "1988-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp90m00005r001300070026-8: ATTACHED FO YOUR INFORMATION IS A COPY OF OUR MOST CURRENT LEGISLATIVE ",
+   "family": "internet_archive",
+   "meta_date": "1988-01-01",
+   "status": "cached",
+   "bytes": 49418,
+   "named_terms": [
+    "freddie mac"
+   ],
+   "other_terms": [
+    "federal home loan mortgage",
+    "federal home loan mortgage corporation"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "federal home loan mortgage"
+   ],
+   "sample": [
+    {
+     "line": 361,
+     "text": "FEDERAL HOME LOAN MORTGAGE CORPORATION........ceees ois",
+     "context": [
+      "FEDERAL HOME LOAN BANK BOARD... .cecccccccccccccccece",
+      "Federal Insecticide, Fungicide and Rodenticide Act"
+     ]
+    },
+    {
+     "line": 1281,
+     "text": "FEDERAL HOME LOAN MORTGAGE CORPORATION",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp88g01332r000800990016-9",
+   "date": "1986-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp88g01332r000800990016-9: CODES FOR IDENTIFICATION OF FEDERAL AND FEDERALLY-ASSISTED ORGANIZATION",
+   "family": "internet_archive",
+   "meta_date": "1986-01-01",
+   "status": "cached",
+   "bytes": 66176,
+   "named_terms": [
+    "freddie mac"
+   ],
+   "other_terms": [
+    "federal home loan mortgage",
+    "federal home loan mortgage corporation"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "federal home loan mortgage"
+   ],
+   "sample": [
+    {
+     "line": 473,
+     "text": "Federal Home Loan Mortgage Corporation",
+     "context": [
+      "Federal Home Loan Banks (12)",
+      "Office of Finance"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA41152606_0820",
+   "date": "1982-01-01",
+   "title_year": "1981",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "Review of the Federal Home Loan Mortgage Corporation's Audit for 1981",
+   "family": "internet_archive",
+   "meta_date": "1982-01-01",
+   "status": "cached",
+   "bytes": 32088,
+   "named_terms": [
+    "freddie mac"
+   ],
+   "other_terms": [
+    "federal home loan mortgage",
+    "federal home loan mortgage corporation"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "federal home loan mortgage"
+   ],
+   "sample": [
+    {
+     "line": 12,
+     "text": "REVIEW OF THE FEDERAL HOME LOAN MORTGAGE",
+     "context": [
+      "",
+      "CORPORATION\u2019S AUDIT FOR 1981"
+     ]
+    },
+    {
+     "line": 25,
+     "text": "A REPORT ON THE AUDIT OF THE FEDERAL HOME LOAN MORTGAGE CORPO-",
+     "context": [
+      "",
+      "RATION\u2019S FINANCIAL STATEMENTS FOR THE YEAR ENDED DECEMBER 31, 1981"
+     ]
+    },
+    {
+     "line": 53,
+     "text": "Federal Home Loan Mortgage Corporation's",
+     "context": [
+      "GAO reviewed the report on the audit of the",
+      "1981 financial statements and the work of"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "bEHadqS9X-YC",
+   "date": "1996-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried bEHadqS9X-YC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "iD8-bWporl8C",
+   "date": "2007-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried iD8-bWporl8C_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "LWPrRbiNEo8C",
+   "date": "2004-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried LWPrRbiNEo8C_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "0UFMAQAAQBAJ",
+   "date": "2013-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried 0UFMAQAAQBAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "governmentspons00devegoog",
+   "date": "1991-01-01",
+   "title_year": "1991",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "Government-sponsored Housing Enterprises Financial Safety and Soundness Act of 1991 : hearings before the Subcommittee o",
+   "family": "internet_archive",
+   "meta_date": "1991-01-01",
+   "status": "cached",
+   "bytes": 904005,
+   "named_terms": [
+    "freddie mac"
+   ],
+   "other_terms": [
+    "federal home loan mortgage",
+    "federal home loan mortgage corporation"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 200,
+   "entity_hits": 200,
+   "matched_entities": [
+    "freddie mac"
+   ],
+   "matched_other_terms": [
+    "federal home loan mortgage"
+   ],
+   "sample": [
+    {
+     "line": 530,
+     "text": "tutions like Fannie Mae, Freddie Mac, and place them under the",
+     "context": [
+      "how they would structurally change the secondary mortgage insti-",
+      "jurisdiction of HUD."
+     ]
+    },
+    {
+     "line": 553,
+     "text": "stances that cause it to be \u2014 I mean, indeed, Freddie Mac and",
+     "context": [
+      "the immediate future \u2014 not that there are extraordinary circum-",
+      "Fannie Mae are doing a fine job, but we have \u2014 and a wonderful job"
+     ]
+    },
+    {
+     "line": 676,
+     "text": "Fannie Mae and Freddie Mac are doing very, very well. I want to",
+     "context": [
+      "ital standards and levels are very important. Mr. Chairman,",
+      "publicly thank them for the great job they are doing in Ohio with"
+     ]
+    }
+   ]
+  }
+ ]
+}

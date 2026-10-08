@@ -1,0 +1,30 @@
+{
+ "cik": "0000927653",
+ "requested_cik": "927653",
+ "registrant": "MCKESSON CORP",
+ "ticker": "MCK",
+ "tickers": [
+  "MCK"
+ ],
+ "former_names": [
+  "MCKESSON HBOC INC"
+ ],
+ "company_dir": "company_008_mckesson",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['mckesson'] match registrant 'MCKESSON CORP' (CIK 0000927653)"
+ ],
+ "built": "2026-09-29T19:01:54Z",
+ "count": 2515,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 200,
+ "csv_sha1": "ea986bcd6017905eb13288b8f3c5990d9c42a735",
+ "csv_bytes": 216875,
+ "paths": {
+  "json": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_008_mckesson\\sources\\_index\\submissions_CIK0000927653.json",
+  "csv": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_008_mckesson\\sources\\_index\\submissions_CIK0000927653.csv",
+  "md": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_008_mckesson\\sources\\_index\\_INDEX_CIK0000927653.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

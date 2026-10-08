@@ -1,0 +1,2879 @@
+DOCURENT RESUME 
+
+
+ED 769 918 IR 007 208 
+
+AUTHOR Sewell, E.3; And Others 
+
+TITLE The Effects of Photo Characteristics Upon Location 
+Determination in a Photogrammetric Facility. Final 
+Report. 
+
+INSTITUTION Army Research Inst. for the Behavioral and Social 
+
+
+SPONS AGENCY 
+
+
+Sciences, Arlington, Va.; Raytheon 
+Company/Autometric, Wayland, Mass. 
+
+Department of the Aray, Washington, D.C. Office of 
+the Assistant Chief of Staff for Intelligence. 
+
+
+REPORT NO ART -TP-346 
+
+PUB DATE Oc+ 78 
+
+CONTRACT DAHC-19 -7 3-C-00 314 
+
+NOTE 50p.; No* available in hard copy due +o marginal 
+
+
+legibility 3; Study conducted in collaboration with 
+Human Factors Research, Inc. 
+
+
+EDRS PRICE 
+DESCRIPTORS 
+
+
+MFO1 Plus Postage. PC Not Available from EDRS. 
+Military Training; *Photographs, *Visual 
+Discrimination 
+IDENTIFIERS *Aerial Photography; Photographic Data Base 
+ABSTRACT 
+
+The operator of the Army Analytical Photogrammetric 
+Positioning System (APPS) must perform a critical step in the 
+coordinate determination procedure by the subjective comparison of 
+dissimilar images. H2 must correlate reconnaissance mission imager 
+with aerotriangulated photographic stereoscopic pairs, known as data 
+base imagery, and visually identify the imag2 position on the data 
+base of a target detected on the mission image. Results obtained from 
+40 image interpreters performing this task using vertical, oblique, 
+and panoramic mission imagery are given. Two levels of tarqe+ 
+position difficulty were established: A-points located at terrain or 
+man-made features mutually identifiabJe on both mission and data base 
+imagery, and B-points remote from terrain or man-made features 
+mutually identifiable on mission and dat: base imagery. (Author) 
+
+
+Peet SES SELES SSS SSE SES ESS ES SES ESE SESE SESE SET ESS SESE SESE SRS SESS SSS SSS SS SS SS F 
+* Reproductions supplied by EDRS are the bes* that can be made * 
+
+
+* from the original document. ° 
+SKERKKKKKRKKKK KKK KK EK KKK KKK KKK RAK KKK KM KK KEK KKK KKK KK KKK KEKE RK KKK KK KK 
+
+
+ED169918 
+
+
+LR007 294 
+
+
+US DEPARTMENT OF HEALTH 
+EDUCATION 6 WELFARE 
+NATIONAL INSTITUTE OF 
+
+
+Technical Paper 346 EDUCATION 
+
+
+THIS DOCUNENT HAS BEEN REPRO- 
+DUCED EXACT. Y AS RECEIVED FROM 
+THE PERSON OR ORGANIZATION ORIGIN. 
+ATING IT POINT. OF VIEW OR OPINIONS 
+STATED DO NOT VECESSARILY REPRE- 
+SENT OFFICIAL NATIONAL INSTITUTE OF 
+EDUCATION POSITION OR POLICY 
+
+
+THE EFFECTS OF PHOTO CHARACTERISTICS 
+UPON LOCATION DETERMINATION IN A 
+PHOTOGRAMMETRIC FACILITY 
+
+
+E. Sewell and R. Bradie 
+Raytheon Company/Autometric 
+A. Harabedian 
+‘duman Factors Research, Inc. 
+
+
+and 
+
+
+T. E. Jeffrey 
+U.S. Army Research Institute 
+
+
+HUMAN FACTORS TECHNICAL AREA 
+
+
+Submitted as complete and 
+technically accurate, by: 
+Edgar M. Johnson Frank J. Harris, Acting Director 
+Technical Area Chief ORGANIZATIONS AND SYSTEMS 
+RESEARCH LABORATORY 
+
+
+Approved By: 
+
+
+Joseph Zeidner 
+TECHNICAL DIRECTOR 
+
+
+U.S. ARMY RESEARCH INSTITUTE FOR THE BEHAVIORAL AND SOCIAL SCIENCES 
+5001 Eisenhower Avenue, Alexandria, Virginia 22333 
+
+
+Office, Deputy Chief of Staff for Personnel 
+Department of the Army 
+
+
+October 1978 
+
+
+Army Project Number Contract DAHC19-73-C-0031 
+2Q162106A 722 Surveillance Systems 
+? 
+
+
+Approved for public release; distribution unlimited. 
+
+
+>) 
+hes 
+
+
+FOREWORD 
+
+
+The Human Factors Technical Area is concerned with the demands 
+of the future battlefields for increased man-machine complexity to ac- 
+quire, transmit, process, disseminate, and utilize information. The 
+research is focused on the interface problems and interactions within 
+command and control centers and is concerned with such areas as topo- 
+graphic products and procedures, tactical symbology, user-oriented sys- 
+tems, information management, staff operations and procedures, and sen- 
+sor systems integration and utilization. 
+
+
+One critical aspect of intelligence information from aerial sen- 
+sor is the accurate location of targets. Recently, the Army has devel- 
+oped the Analytical Photogrammetric Positioning System (APPS) which 
+provides an improved capability for target positioning. However, there 
+are several unknown factors in this system associated with the human 
+interface. The present publication deals with the determination of the 
+speed and accuracy with which operators can transfer terrain positions 
+from relatively large-scale mission photographs to small-scale data- 
+base vertical photographs and the dependence of such performance on the 
+characteristics of the photographs used. This is a critical factor of 
+the overall job performed by the operator of the APPS. Results indi- 
+cate that the most important variables were: how close the target is 
+to an identifiable terrain detail; whether the target is in the fore- 
+ground or background of a non-vertical image; and the resolution of the 
+mission imagery. 
+
+
+Research in the area of sensor systems integraticn and utiliza- 
+tion is conducted as an in-house effort augmented through contracts 
+with organizations selected for their unique capabilities and facili- 
+ties for research on senso: systems. The present study was conducted 
+by personnel from Raytheon Company/Autometric and Human Factors Research 
+Inc. under contract DAHC19-73-C-0031 with program direction from Abraham 
+H. Birnbaum. This effort is responsive to requirements of Army Project 
+2Q162106A722, the U.S. Army Engineer Topographic Laboratory, Ft. Belvoir, 
+Va., and the Assistant Chief of Staff for Intelligence. Special require- 
+men:cs are contained in Human Resource Needs 73-65. 
+
+
+SEPH ER 
+xhnical Director 
+
+
+THE EFFECTS OF PHOTO CHARACTERISTICS UPON LOCATION DETERMINATION IN A 
+Pi,OTOGRAMMETRIC FACILITY 
+
+
+BRIEF 
+
+
+Requirement: 
+
+
+To determine how well an image interpreter can transfer image 
+points from reconnaissance (stimulus) photography to a small-scale 
+photog: ‘aphic data base, using photography from vertical frame, oblique 
+frame, and panoramic cameras as stimulus imagery. 
+
+
+Procedure: 
+
+
+Points selected for transferring were: Type A points appearing 
+on identifiable jyround objects, and Type B points more than 200 meters 
+from identifiable ground objects. These were marked on negatives of 
+high- and low-altitude vertical photographs, high- and low-aliitude 
+panoramic photographs, and un oblique photograph, using varying scales. 
+Transparent prints and paper prints were made from each negative. A 
+photographic data base at a scale of 1:100,000 was obtained for each 
+area covered by the stimulus imagery. 
+
+
+After a short pretest training period, 40 Army image interpreters 
+were required to transfer 30 points from each of the four different 
+types of stimulus photograph to the appropriate data base by marking 
+the selected points. Time required to transfer each point was recorded. 
+Coordinates of the marked points were compared to the true coordinates, 
+and error vectors listed. The effects of resolution, scale, and posi- 
+tion on location accuracy were statistically tested and described. 
+
+
+Findings: 
+
+
+Point-transfer accuracy was effected most by the relationship of 
+a point to identifiable detail imaged on both the stimulus and data 
+base photography. MTvpe A points were located more accurately than 
+Type B points by ratios of 3:1 to 6:l. 
+
+
+2] 
+
+
+Accuracy was also affected by the position of a point in the Near 
+ov Far portion of a non-vertical photogiraph. (Near is defined as the 
+half of the photouraph closest to the vertical. Far is the horizon- 
+half of the photograph.) Points in the Near portion were located more 
+accurately than points in the Far portion. Examples of error magnitudes 
+at the 75th percentile are: 
+
+
+Oblique, B-Points Near- 54 meters Far- 229 meters 
+High Pan, A-Points Near- 14 meters Far- 32 meters 
+
+
+The difference in ground resolution (paper print vs. transparency) 
+was most significant for Type A points on the Low Pan imagery. The 
+transfer error for the transparent print was 25 meters compared to 165 
+meters for the paper prints. For other mission imagery the resolution 
+difference was of no practical consequence. 
+
+
+Under the conditions of these tests, transfer errors of less than 
+20 meters can be met 50% of the time for Type A points on all imagery 
+and 75% of the time for Vertical and Near High and Near Low Pan photos. 
+Only the Vertical imagery is adequate for keeping Type B point transfer 
+errors to 20 meters. 
+
+
+Test subjects preferred transparencies to paper prints for the stimu- 
+lus imagery and they preferred transmitted light (light table) to re- 
+flected light (high-intensity lamp) even for paper prints. 
+
+
+Utilization of Findings: 
+
+
+This study showed clearly that large errors may result in the point 
+transfer process. Targets appearing on identifiable features visible on 
+both the mission and data base imagery (Type A point:;) can generally be 
+transferred to within 30 meters at 75th percentile. However, even for 
+Type A points, when the resolution of the mission imagery falls too low 
+because of scale and position, the accuracy deteriorates rapidly. ror 
+this case an acceptabie level of resolution can be maintained by using 
+transparent prints instead of paper prints. Transfer accuracy improves 
+Overall when transparent prints are used. This scrongly suggests the 
+use of equipment on which transparencies can be viewed and the opera- 
+tional use of transparencies instead of paper prints. 
+
+
+Type B points cannot be transferred visually to acceptable accu- 
+racies with any consistency. Since most target points are likely to be 
+Type B peints, a way must be found for improving the transferring of 
+these point:s. 
+
+
+oa 
+x 
+
+
+The difference in transfer error between scales for vertical mis- 
+sion imagery was not operationally significant. This does not mean 
+that scale is not an important factor. Rather, it indicates that the 
+ground resolution of all vertical mission imagery used in the tests 
+was higher than the corresponding data base ground resolution. It 
+follows that higher quality data base photography might permit better 
+utilization of vertical mission imagery in the transferring process. 
+Higher ground resoiution can be obtained by better cameras (lens-film 
+combinations) or by larger scale data bases. 
+
+
+THE EFFECTS OF PHOTO CHARACTERISTICS UPON LOCATION DETERMINATION IN A 
+PHOTOGRAMMETRIC FACILITY 
+CONTENTS 
+Page 
+INTRODUCTION . 1 
+Scale of the Data Base ... ‘2% : a eee 2 
+Scale and Geometry of Reconnaissance Photography ° 2 
+Dee SRRUUES «sc de ee 8 8 8 6 6 ee Oe ee 3 
+GUOMUEEVE + 8s + se ee ee 8 3 
+DR ik Oe ie ee a oe ce 8 Oe 8 ee ee ee ee 3 
+eR 6 ee ae ee oe a a ee he ee Se 3 
+Experimental Design .. +s» <«se-essee08ee 3 
+SUR SOOES: 6 a Sw ea wee es eS ee ee ee ke ° 4 
+Variables... — 4 
+Development of fuperinental Materials co ha 2 ee ee ee 7 
+Paeee SORE 6 ee ce ee Be we ea a eo Oo ek Oe OE ew we 12 
+Subject Training .. eee Se 80 eo ee eae 12 
+Dat'a Cullection (Principal Tests) ae ey ee de ee ee a 12 
+Statistical Computatione ...s6<s+eeb8-s 14 
+POURS 6 8s OO i 8 ee Ee ee ace ee A 15 
+a Sa, ee 8 ee Sa ee ee ee eee Na ee eee : 17 
+Pe BOEOE 408 sv ce ee be ek 8 ee eS 8 See 17 
+MOGOCEON GEFOTS. . 5 + & 6 6 8 6 oe tk we ek ew O 17 
+Paes TEeeee Tae 4 6 eee eee Or eee ® 35 
+SUMMARY AND DISCUSSION . . ~. » we we we we ® 37 
+Cee 4 we Ss ee ee oc ee ee ew 40 
+APPENDIX A. ANALYTICAL PHOTOGRAMMETRIC POSITIONING SYSTEM (APPS). 43 
+DAU EL 6 Sa ewe 8 8 8 ke 88 eee a ee 47 
+
+
+~~”) 
+
+
+~; 
+
+
+Table l. 
+re 
+
+
+3. 
+
+
+4. 
+
+
+ll. 
+
+
+12. 
+
+
+13. 
+
+
+14. 
+
+
+15. 
+
+
+16. 
+
+
+Page 
+
+LIST OF TABLES 
+Experimental conditions by groups ........s++«+s-. 5 
+Creer OC. Bieetee Sactes by eroune «6 66 we RT hk ws 6 
+
+
+Characteristics of the mission and data 
+DOSe DUC ORTONe 6 5 a OR we oe ce es eee 8 
+
+
+Vertical mission photos mean location error 
+Peers) On A BORNEO. he a ie ee ee ue ee 19 
+
+
+Vertical mission photos analysis of variance 
+of location errors (meters) for A points .......- 19 
+
+
+Vertical mission photos mean location error 
+(mcters) for B points .. Cee ee ee ee ee ee 21 
+
+
+Vertical mission photos analysis of vaviance 
+of location errors (meters) for B points ........ 21 
+
+
+Oblique mission photos mean location error 
+Pees cee BD ONUNOe 6 he Ws wh 6 8 ee we 8 ee ee 23 
+
+
+Oblique mission photos analysis of variance 
+of location errors (meters) for A points ........ 23 
+
+
+Oblique mission photos mean location error 
+cee, Or © DOERR E oS ea Chee 8 Re ee ee cele 25 
+
+
+Oblique mission photos analysis of variance 
+of location errors (meters) for B points ........ 25 
+
+
+High pan mission photos mean location error 
+SeReere? 205 A OOGUEE.. +4 eh Be se ew en ee 8 27 
+
+
+High pan mission photos analysis of variance 
+of location errors (meters) for A points ........ 27 
+
+
+High pan mission photos mean location error 
+pepeeees TOG SD OOIRER Wok sk 8 a 8 ae ke ee ee eee 30 
+
+
+High pan mission photos analysis of variance 
+of location errors (meters) for B points ........ 30 
+
+
+Low pan mission photos mean location error 
+Copenees Tet & OOGRER «he st ee ee eR 8 ae 32 
+
+
+Page 
+
+
+17. Low pan mission photos analysis of variance 
+of location errors (meters) for A points ......s..-s 32 
+
+
+18. Low pan mission photos mean location error 
+Cupane? SON DP POUMEe 2 tb te tte tte tee tl ol 34 
+
+
+19. Low pan mission photos analysis of variance 
+of location errors (meters) for B points .....+s+-. 34 
+
+
+20. Summary of results for location errors .....+ +4. 37 
+
+
+LIST OF FIGURES 
+
+
+Figure 1. Vertical mission imagery and associated data base... 9 
+2. High altitude pan mission imagery ....++ e+e. 10 
+3s . REGMOREESR, FVEreIeIe GEER HO 2 8 et tt htt te tll ll 
+
+4, Test subject transferring a point from mission 
+ameeery CO GEA DASR 2s tw ts tw tte te ett ttt tl 13 
+5. Typical layout for a local transformation. ...... 16 
+6. Typical printout for a local transformation. ..... 16 
+
+
+7. Typical printout showing the comparison of a subject's 
+location of points to the true locations ....... 18 
+
+
+8. Cumulative percentage of location errors: 
+vertical mission photos/A pointe (N=542) ....446-. 20 
+
+
+9. Cumulative percentage of location errors: 
+vertical mission photos/B points (N*550) ....+46-. 22 
+
+
+10. Cumulative percentage of location errors: 
+oblique sission photos/\ points (N*529) .....+8+68-s 24 
+
+
+ll. Cumtative percentage of location errors: 
+Oblieue mission protoe/S poimte . . 1. + + se we we ho 26 
+
+
+12. Cumulative percentage of location errors: 
+high pan mission photos/A points; Print Type ..... 28 
+
+
+13. Cumulative percentage of location errors: 
+high pan mission photos/A points; Position ...... 29 
+
+
+Q 
+
+
+14, 
+
+
+15. 
+
+
+16. 
+
+
+Cumulative percentage of location errors: 
+
+
+high pan mission potos/B points 
+
+
+Cumulative percentage of location errors: 
+
+
+low pan mission photos/A points . 
+
+
+Cumulative percentage of location errors: 
+
+
+low pan mission photos/B points . 
+
+
+Page 
+
+
+31 
+
+
+33 
+
+
+36 
+
+
+THE EFFECTS OF PHOTO CHARACTERISTICS UPON LOCATION 
+DETERMINATION IN A PHOTOGRAMMETRIC FACILITY 
+
+
+INTRODUCTION 
+
+
+Many photogrammetric applications require the locating and marking 
+of the images of the same ground point on one or more sensor records. 
+In aerial triangulation, pass points and control points are transferred 
+stereoscopically from one photograph to one or more overlapping photo- 
+graphs. In terrestrial photogrammetry, identical image points on two 
+photographs must be measured. Target images found on reconnaissance 
+imagery are often transferred to a map or some other type of data base 
+so their ground positions can be found. The accuracy with which a point 
+can be transferred from one sensor record to another is a function of 
+many factors, such as resolution, scale, relative attitudes, target/en- 
+virons relations and technique and equipment used. Also, the intended 
+application dictates, to some extent, the care that is given to such 
+transfers. 
+
+
+There is a continuing need for more accurate and faster means of 
+acquiring aiming data for the artillery. This is especially true in 
+areas where adequate maps are’ not available. The United States Army 
+Engineer Topographic Laboratory, Ft. Belvoir, Va. has developed an 
+instrument which, together with a precision photographic data base, pro- 
+vides a new capability for target positioning. This instrument is 
+called the Analytical Photogrammetric Positioning System (APPS)4% It 
+consists essentially of a mirror stereoscope mounted over a coordinate 
+measuring system whose outputs are fed to an interface unit and then to 
+a programmable desk calculator. Two overlapping data base photographs 
+are mounted on the two stages of the mirror stereoscope. After pre- 
+liminary indexing and checking, index marks are placed over a point of 
+interest and the attached calculator computes the X, Y, and Z ground 
+coordinates of the point of interest. The inherent accuracy of the 
+APPS has been found to be adequate for locating the artillery field 
+piece and the target and for some other types of ground surveying. 
+
+The unknown factor in this positioning system is the error associated 
+with the transferring of points to a data base from several types of 
+
+photographic imagery of different scales and resolutions, and the re- 
+lationships of the target to features in the scene (target/environs). 
+
+
+1’~, more detailed description of the APPS is given in Appendix A. 
+
+
+I] 
+
+
+Transferring of image points from one photograph to another seems 
+straightforward and quite exact. This may be true under some circum- 
+stances but not under others. It has been shown in precision photogram- 
+metric applications that when a reasonably good stereo model can be 
+formed with two photographs, conjugate images can be marked on the 
+photographs with very high accuracy--ten (10) micrometers or less. But 
+when the two photographs differ in scale,resolution, attitude, etc., 
+the problem becomes one of trying to match two dissimilar types of 
+photographs. Some of the differences that must be considered are dis- 
+cussed below. 
+
+
+Scale of the Data Base 
+
+
+The scale or the photo data bases now being used with the APPS is 
+1:100,000. Data base scales as small as 1:160,000 are being considered . 
+for adoption. At a scale of 1:100,000, ten micrometers on the data base 
+represents one meter on the ground. A maximum of 20 meters per coordi- 
+nate dimension has been projected in the APPS error budget tor the 
+transfer accuracy of points located in friendly terrain, while 50 meters 
+per dimension for transfer accuracy of points located in enemy terrain 
+has been allocated. This means that a target point must be transferred 
+to the data base with aa accuracy of 1/5 millimeter (200 micrometers). 
+This leaves very little margin for error, and in areas with few or no 
+prominent scene features it may be extremely difficult to transfer a 
+point "by association" to this accuracy. 
+
+
+Scale and Geometry of Reconnaissance Photography 
+
+
+Targets can be imaged by any one of a variety of reconnaissance 
+cameras. Panoramic and oblique cameras produce photographic imagery 
+that has geometry different from that produced by vertical frame 
+cameras. The farther the target is from the vertical, the greater the 
+difference in geometry. As the horizon is approached it becomes dif-- 
+ficult even to locate the general area in which the target is located, 
+one reason being that the scale becomes smaller as one moves from the 
+nadir towards the horizon, and ground features become masked by higher 
+elevations on the camera side of the scene. ‘These conditions, plus 
+the fact that, usually, there is a large scale difference between the 
+mission imagery and the photo data base, are important factors when 
+trying to correlate two dissimilar types of imagery to the required 
+accuracy. Of course the scale of the data base can be enlarged opti- 
+cally so it will be closer to the mission imagery scale. The optics 
+of the APPS are fixed at 6X so that was the maximum enlargement permit- 
+ted for this study. Even if zoom optics are vermitted, very Little 
+additional useful information can be expected unless the data base 
+photography is of unusually fine quality. 
+
+
+12 
+
+
+Other Factors 
+
+
+Some of the other factors that can cause problems in transferring 
+points are: 
+
+
+* Seasonal differences in the time of exposure of the 
+data base photography and the mission imagery. 
+
+
+* Different acquisition times of the data base and the 
+mission photography. New roads, railroads, and 
+housing developments, different water levels of rivers 
+and lakes, different crop patterns, etc. may be on 
+one photograph and not the other. This may cause con- 
+fusion in transferring points. 
+
+
+OBJECTIVE 
+
+
+The objective of this study was to determine how well an image 
+interpreter could transfer image points from a reconnaissance photo- 
+graph to a small scale photographic data base. Tests were designed to 
+determine both the accuracy and the speed of transfer. Mission (recon- 
+naissance) photographs used in the tests were selected frames from 
+oblique, panoramic and vertical frame cameras at various scales and 
+resolutions. The data bases were vertical mapping photographs at 
+1:100,000 scale. 
+
+
+SCOPE 
+
+
+This study was limited to the one act of transferring points from 
+one type of photography (mission imagery) to another type of photog- 
+raphy (data base). The transferring was done visually, i.e., no instru- 
+mental aids, other than small tube-type or linen tester magnifiers, were 
+allowed. APPS operations were approximated by using, in thi’. study, the 
+same type of photographic material used in APPS, by limiting the magni- 
+fication of the data base to 6X, and by using the same scale data base. 
+The tests were designed to provide information on the accuracy and speed 
+of transferring points from mission imagery for combinations of the 
+following variables: 
+
+
+* Types of imagery (vertical, panoramic, oblique) 
+* Scale 
+* Resolution (positive transpar>ncy vs. paper print) 
+
+
+* Point/environs relsiticaship. 
+
+
+METHOD 
+
+
+Experimental Design 
+
+
+The experimental design for the vertical mission photos was a 
+2x2 factorial. The effects of Print Type, Scale, and the interaction 
+between the two variables were between groups. The experimental 
+design for each of the non-vertical photos was also a 2x2 factorial. 
+The effect of Print Type was between groups, but the effects of 
+
+
+— 
+
+
+Position and the interaction between the two variables were within 
+groups. As can be seen in Table 1, each group of subjects transferred 
+the points from four mission photos--one vertical photo and three non- 
+vertical  “4rtos, 
+
+
+Table 2 shows the order in which the four mission photos were 
+presented to each of the groups. Within each group, half of the sub- 
+jects were given one sequence cf the four photos and the other half 
+another sequence. The photo sequences were varied across groups 
+to control for the effects of time-correlatec variables, such .s bore- 
+dom, fatigue, and learning. An equal number of subjects were presented 
+with each non-vertical photo, first, second, third, and fourth. For 
+example, five subjects worked with By the oblique transparency first, 
+a different five subjects with it second, etc. An equal number of 
+subjects were presented with each vertical photo either first and 
+second, or third and fourth. 
+
+
+For each photo, half of the subjects transferred the points in 
+one sequence and the remaining half in the reverse sequence. In the 
+case of the non-vertical photos, half of the subjects transferred the 
+points starting at the horizon and working toward the nadir, and the 
+other half transferred the points in reverse sequence. This was done 
+to minimize any bias in performance cn the Near and Far points and on 
+the A and B points due to the potential effects of any time-correlated 
+variables. 
+
+
+‘Subjects 
+
+
+Forty enlisted image interpreters from the 18* Military Intelli- 
+gence Battalion, Aerial Reconnaissance Support (1St MIBARS), Ft. Bragg, 
+North Carolina served as subjects. The experience of the image inter- 
+preters ranged from one year to over twenty years. The forty subjects 
+were assigned randomly in equal numbers to one of four groups. A given 
+combination of Print Tyre and Scale for the vertical photographs was 
+assigned to each group. Thus no subject viewed the same scene more 
+than once. Transparencies of each of the non-vertical photos were 
+assigned to two groups and Paper Prints to the two remaining groups. 
+Here, again, no subject viewed the same scene more than once. The 
+experimental condition by groups is shown in Table l. 
+
+
+Variables 
+
+
+the vertical mission photos and two for the oblique, the high pan, and 
+the low pan mission photos. The independent variables for the vertical 
+photos were scale and ground resolution. Scale change was achieved by 
+selecting different flight altitudes and resolution difference was 
+achieved by the use of paper prints and transparencies of the mission 
+photos. Hereafter these two variables will be referred to as Scale ~ 
+and Print Type. The independent variables for each of the non-vertical 
+photos were Print Type and Position of the point (Far vs. Near). Near 
+points are defined as those located in the half of the photo which is 
+
+
+14 
+
+
+fa Tha 
+
+
+Table 1 
+EXPERIMENTAL CONDITIONS BY GROUPS 
+
+
+MISSION PHOTO PRINT TYPE 
+Trans- 
+SCALE Paper parency 
+L ay 
+Vertical — Gp_t Gp 2 
+Smal] Gp 4 Gp 3 
+PRINT TYPE 
+Trans- 
+POSITION Paper parency 
+Far Gp 3 Gp 1 
+Oblique + + 
+on Gp 4 Gp 2 
+PRINT TYPE 
+Trans- 
+POSITION Paper arency 
+rar Gp 3 Gp 1 
+High Pan + + 
+Rear Gp 4 Gp 2 
+PRINT TYPE 
+Trans- 
+POSITION Paper parency 
+Far Gp 1 Gp 3 
+Low Pan + + 
+‘ Near Gp 2 Gp 4 
+
+
+4/10 subjects in a group (Gp). Each cell represents a photo. 
+
+
+at. 
+
+
+Table 2 
+
+
+ORDER OF MISSION PHOTOS BY GROUPS 
+
+
+| ORDER 
+GROUP tN Ist 2nd 3rd 4th 
+Gp 1 5 Ay By D> C, 
+5 D> C, Ay By 
+Gp 2 5 By D2 C; A; 
+5 C, ay By D2 
+Gp 3 5 Aw Ba D, C2 
+5 D, C A» Bo 
+Gp 4 3 Ba Dy C2 A, 
+4 C2 Ai Bo Dy 
+NOTE: A = Vertical Photos 
+1 = Small Scale/Transparency 
+2 = Small Scale/Paper Print 
+3 = Large Scale/Transparency 
+» = Large Scale/Paper Print 
+B = Oblique Photos 
+C = High Par Photos 
+D = Low Pan Photos 
+
+
+Fer 8, €, and 0 
+
+
+Transparency 
+Paper Print 
+
+
+or 
+Lo 
+
+
+closest to the vertical. Far points are defined as those located in 
+the horizon-half of the photograph. 
+
+
+Dependent Variables. The dependent variables for these tests 
+were the location error (in micrometers), and the time (in seconds) 
+
+
+required to transfer a peine. 
+
+
+Control Variables - The control variables were the two types of 
+points, A and B. The points were selected in terms of significant 
+
+
+background detail, i.e., point/environs. 
+
+
+Development of Experimental Materials 
+
+
+Stimulus Imagery. Mission imagery was chosen that was representa- 
+tive of Army reconnaissance photography as to type, quality and scale. 
+Further, che test materials issued to the subjects were printed on two 
+types of emulsion bases--paper and transparent(film). Preliminary tests 
+confirmed that more of the available resolution in the negatives was 
+retained by transparent prints than by paper prints, (A 40 lines/mm photo 
+negative contacted onto standard photo;'raphic pape. produces paper 
+prints having a ground resolution of abcut 22 lines/mm, The same negative 
+contact printed onto copy film produces transparencies having a ground 
+resolution of about 32 lines/mm. An 80 lines/mm negative yields 30 lines/mm 
+paper prints and 55 lines/mm transparencies), One portion of the experiment 
+was designed to compare transfer performance when using paper prints ("low" 
+resolution) with performance using transparent prints ("high" resolution). 
+The characteristics of the mission and data base imagery are shown in 
+Table 3. 
+
+
+. Point Selection. Transfer points were selected by examining the 
+mission and the data base photographs using 6X magnifiers. The points 
+were selected carefully so they could be classified logically in terms 
+of their proximity to features. Although three levels of proximity were 
+considered originally, it was found that a two-level classification, 
+Type A and Type B, was more meaningful. The two types of points are 
+defined as: 
+
+
+Type A - Points on a feature identifiable on both the 
+mission and the data base photographs. (For 
+example, a point on a road intersection, a 
+building corner, a bridge, or a drainage 
+pattern.) 
+
+
+Type B - Points which are more than 200 meters from 
+a point identifiable on both the mission 
+and data base photographs. 
+
+
+Test Materials. Test material produced for each subject con- 
+sisted of four frames of mission imagery and their associated data 
+bases. Two frames were paper prints and two were transparent prints. 
+The data bases were printed on a pigmented film base. 
+
+
+a, Fa 
+
+
+Table 3 
+
+
+CHARACTERTSTICS OF THE MISSION AND 
+THE DATA BASE PHOTOGRAPHY 
+
+
+Mission Photography 
+
+
+Code Location Type of Piiotography Scale Photo Base 
+Al Ft.Belvoir,Va. High Alt.Vertical 1:20,000 Transparency 
+A2 Ft.Belvoir,Va. High Alt.Vertica] &/ 1:26,000 Paper 
+£3 Ft.Belvoir,Va. Low Alt.Vertical i:5,000 Transparency 
+a4 Ft.Belvoir,Va. Low Alt.Vertical 1:5,000 Paper 
+Bl Ft.Sill,Okla. Low Oblique 1:10,000 Transparency 
+(at nadiz) . 
+B2 Ft .$ill1,Okla. Low Oblique 1:10,060 Paper 
+Cl Alexandria,Va. High Alt.Panoramic2/ 1:30,000 Transparency 
+C2 Alexandria,Va. High Alt.Panoramic £250°8dd”? Paper 
+D1 Syracuse,N.Y. Low Alt.Panoramic 1: 30,000 Transparency 
+(at nadir) 
+D2 Syracuse,N.Y. Low Alt.Panoramic 1: 30,000 Pa er 
+
+
+Data Base Photography 
+
+
+Code Location Scale Photo Base 
+A Ft.Belvoir,Va.2/ 1:100, 000 Cronapaque?/ 
+B Ft.Sill, Okla. : 1:100,000 * Cronapaque 
+C Alexandria, Va.5/ 1: 100,000 Cronapaque 
+D 
+
+
+Syracuse,N.Y. 1:100,000- Cronapaque 
+
+
+2 See Figure ]. - : 
+-/ See Figure 2 
+=, See Figure 3 
+Cronapaque is the trade name for a translucent, low-shrink film 
+used for the APPS data base. Commercial or trade names are given 
+only in the interest of precision in reporting experimental pro- : 
+cedures. Use of the nz 2s does not constitute official endorsement 
+by the Army or by the U.S. Army Research Instituté for the Behavioral 
+and Social Sciences. 
+
+
+2) 
+YQ 
+
+
+Pilot Tests 
+
+
+Pilot tests were conducted prior to the principal tests. The purpose 
+of titese tests was to provide a realistic assessment of the test materials, 
+test equipment, test procedures, mensuration, and data processing. Also, 
+these tests provided useful data on the time that would be required to 
+conduct the principal tests, Personnel from the Army Research Institute, 
+the Engineer Topoyraphic Laboratories, and the contractor participated 
+in the tests. Ali pilot test data were measured, graded and analyzed. 
+
+
+Subject Training 
+
+
+Test equipment, consisting of a light tzeble, two six-power magni- 
+fiers, a point marker, an electrical timer, and a high intensity goose- 
+neck lamp, was issued to each subject (See Figure 4). Photographs of the 
+APPS equipment were st.own, the equipment was described and the subjects 
+were told the purpose of the tests. They were instructed on use of the 
+test equipment and on techiiques for makinz point transfers. Sample 
+mission and data base photographs were issued and the subjects were asked 
+to practice transferring points from a mission photo to the data base. 
+Instructor personnel observed the subjects to ensure that each one was 
+adequately prepared for the tests. 
+
+
+Data Collection (Principal Tests) 
+
+
+A packet of test material containing all mission photos, data base 
+photos, and sheets for recording the time taken for each transfer was 
+issued to- each subject. ‘the subjects were told that, even though time 
+was being recorded, there was no time limitation and that accuracy, not 
+speed, was of paramount importance. Each subject was required to trans- 
+fer 30 points on each of four4nission photographs by marking the location 
+of each point on a data base and recording the time taken to transfer 
+each point. 
+
+
+It required from 1 to 1 hours to trausfer the 30 points from a 
+single mission photograph. After each session, a critique was held to 
+get the views of the test subjects concerning the tests aud the test 
+equipment. . All tests were completed in seven working days. 
+
+
+“ 
+
+
+Five mission photos were used in the tests but the two verticals 
+covered the same ground area. Only one vertical mission photo was 
+assigned to a subject. 
+
+
+a 
+
+
+: 19 
+
+
+Statistical Computations 
+
+
+Preliminary Screening of Data. Inspection of the location error 
+data revealed that 3 of the 40 subjects did not follow the procedures 
+adeyuately, so these subjects’ data were not usea, In addition, one 
+subject's data for the high pan photo Paper A points were not used. It 
+was apparent that on half of the Far points, he had misidentified the 
+appropriate features in the data base. 
+
+
+The data from three points in the low pan photos were also elimi- 
+nated from the analyses. One point was a Far A point, one a Near A 
+point, and one a Far B point. One of the points was eliminated because 
+a valid so’ution could not be obtained for its true location. The other 
+two points were eliminated because over half of the subjects did not 
+attempt to cransfer them. Thus for the low pan photos there remained 
+a total of 7 Far A points, 6 Wear A puints, 7 Far B points, and 7 Near 
+B points. 
+
+
+About 245 percent of the required transfers were either missing or 
+could not be scored for the following reasons: tte subject made a long 
+scratch or the pinnvrick was so large that the intended location vf the point 
+could not be determined; he selected the wrong pont; or, by far the meet 
+common reason, no pinprick could be found on the data base, or the subject 
+noted that he could not find the point on the data base photo. 
+
+
+After the study was completed, it was discovered that, due to a 
+clerical error, half of the subjects assigned to the oblique photos 
+were not given the point numbers appropriate for these photos. Instead, 
+they were given the 39 point numbers approprirte for the vortica! 
+photos. As a consequence, these subjects transferred 14 A points and 
+16 B points instead of 15 of each type. Ten A points and 7 PB points 
+were in common with the points transferred by the other half of the 
+subjects. This did not seriously affect the data analyses. 
+
+
+Preparation of the Data for Statistical Analysis. The measure of 
+each subject's location error perforrance for a particular exper imental 
+condition was the nedian of the errors he made on the points for that 
+condition. fhe median rather than the mean error was used because, for 
+many of the subjects, the distribution of errors across points was 
+venerally positively skewed; that is, many subjects male a large error 
+on one or two of the points. If a subject was missing an error score 
+for @ particular point, he was assigned an artificial score, which was 
+the median of the other subject's errors tor that point. 
+
+
+For the vertical photos, two median errors were computed for each 
+subject--one based on 15 A points, and one based on 15 B points. for 
+the non-vertical photos, four wedians were-computed for each subject; 
+for the high pan photos, the medians were based on 8 A and 8 B Far 
+points, and 7 A and 7 B Near points; tor the low pan plotos, the 
+
+
+peg Noe 
+
+
+<a 
+
+
+medians were based on 7 A and 7 B Far points, and 6 A and 7 B Near 
+points; for the oblique phutos, the medians for half of the subjects 
+were based on 8 A and 8 B Far points and 7 A and 7 B Near points; and 
+for the other half of the subjects, the medians were based on 8 A and 
+8 B Far points, and 6 A and 8 B Near points. 
+
+
+Means of the subject's median errors were used in tescing the 
+Statistical significance of the effects of the various independent vari- 
+ables. The statistical tests (analysis of variance and t¢t tests) were 
+used to test not only the significance, but to determine whether or not 
+levels of the independent variables should be combined for descriptive 
+purposes. 
+
+
+Scoring 
+
+
+Point Location Standards. Point location standards (school 
+solutions) were established for each frame of mission imagery. 
+
+
+The A points on the mission photo were located visually on the 
+data base and the location of each point was marked with a pin prick. 
+The B points could not be transterred accurately in this way. A series 
+of tests showed that sufficient accuracy could be attained by analyti- 
+caliy transferring the B points from the missior to the data base photo- 
+g-aphs. To perform this, an eight-parameter projective transformation 
+was chosen and programmed on a CDC 6600 digital computer. 
+
+
+The true locations of the points were determined in the following 
+manner. Each mission photo, which had been marked with A and B points, 
+was placed in a precision comparator and the coordinates of all points 
+were measured and recorded on punched cards. The corresponding data 
+base photo was placed ip the comparator and the fiducial markers and 
+all A points were measured and recorded on punched cards. A series of 
+local transformations was set up. A local transformation was made up 
+of B points surrounded by A points. (Additional. "control" points were 
+added in areas where there werte not enough A points to effect a strong 
+transformation.) Since the A points were measured on both the mission 
+and the data basé photographs, transformation parameters cculd be 
+computed. Using these transformation parameters, the B points 
+(measured on the mission imagery only) were transformed into the data 
+base coordinate system. The computer program printed out the X and Y 
+residuals of the A points. ‘The size of the residuals was a good indi- 
+cation of how well the B points had been transformed. A typical layout 
+of A and B points for an oblique local transformation is shown in 
+Figure 5. The computer printout tor this is shown in Figure 6. 
+
+
+The true locations, then, are the data base comparator coordinates 
+of the A points and the transformed locations of the B points, in the 
+data base coordinate system. 
+
+
+© "A" Points 
+
+
+"B" Points 
+
+
+Figure 5. - Typical Layout For A Locai Transformation 
+
+
+FORT SILL 
+
+
+SCAU T 6 8 8 T € 8 
+
+
+vALUES 
+
+
+<930 
+‘a 
+_<s09% 
+
+
+e002 
+
+
+CAL A 
+E1707 St 
+Lah eSecyd 
+aPsOscourll 
+aduledeuur 
+A715S55e008 
+
+
+Tu 
+2019 
+2122 
+e033 
+2uee 
+Jsoed 
+
+
+mE 
+
+
+Io 
+et 2t19 
+> 2.22 
+2293 
+2044 
+2uo2 
+
+
+Cat Y 
+870392600 
+462376. ive 
+WIL950 90% ri 
+SOLuree JEU 
+4O7I7Ge 4b 
+
+
+RMS XK @ 
+
+
+we 
+
+
+6.360129 
+
+
+x 
+LSC7HT LUNs 
+197725.35)4 
+A73533S2.0585 
+Loulseeius 
+A7asvve 50d 
+
+
+uv REO 
+
+
+x 
+5733464.999 
+Be7sise usd 
+0J03/6.3)) 
+5 ISL be ued 
+571577. 304 
+
+
+TRAN X 
+1317+9.796- 
+1577i4.251 
+173625.7 3" 
+163740.94u 
+171568 .655 
+
+
+RMS 
+
+
+TRANSFORMED 
+
+
+v 
+
+
+Y 
+4d7oSy.duC 
+482573, 300 
+GYL4S0.0UL 
+Gdlvereeeud 
+&3757Oee0d 
+
+
+&tLues 
+
+
+Y 
+569773.399 
+doisi2svcl 
+55%J50.0u0 
+ad IZ0L.I IC 
+
+
+257272,.0u0 - 
+
+
+TRAN Y 
+4d7TOS7L44% 
+&32578.155 
+9.457.351 
+&A4599.611 
+487077.4533 
+
+
+722106 
+
+
+VALVE S$ 
+
+
+Note: All values in micrometers 
+
+
+RES X 
+2.7236 
+13,749 
+
+6.246 
+L,uay 
+"13.655 
+
+
+RES Y¥ 
+1.156 
+2165 
+
+“4.331 
+2359 
+2167 
+
+
+éia7 
+evll 
+2ucs 
+2343 
+e05. 
+Zate 
+«375 
+2s.0 
+<o46 
+
+
+Figure 6. - Typical Printout 
+
+
+tu 
+
+
+x 
+192797.249 
+19%09% 2499 
+A7A6s6.251 
+153u/70.631 
+1/2.802992 
+afeUSL 14S 
+175125.95% 
+1/db60%.451 
+Loicd0.u47 
+
+
+Y 
+491503.597 
+404 260.747 
+48945$3,265 
+460477.193 
+4%84569.,295 
+#6d019.331 
+464711. $46 
+SB3S4eC. 401 
+464%230.698 
+
+
+For A Local Transformation 
+oe 
+Od tw 
+
+
+aide 
+
+
+Mensuration aad Error Vector Computation. Each of the forty 
+(40) test subjects transferred thirty (30) points to each of four data 
+base photographs. Each data base was placed in a precision comparator 
+and the coordinates of the four fiducial marks and the 30 points were 
+measured. The output of these measurements was a punched card for each 
+transferred point showing the Subject Number, the Mission Photo Code 
+(Bi, B2, Ci, etc.) and the x and y coordinates of the point. 
+
+
+Programs were written for the CDC 6600 computer to process the 
+measurement data. A transformation program was used to place the sub- 
+ject's measurements into the appropriate data base coordinate system. 
+Thus, the coordinates of all points on the subject's data base could be 
+compared directly with the true coordinates of their conjugate points. 
+The computer printout contained the errors in x and y and the error 
+vector (location error) for each point, in micrometers (See Figure 7). 
+At the scale of the data base (1:100,000), ten micrometers equals one 
+meter on the ground, 
+
+
+RESULTS 
+Marking Error 
+
+
+One factor that has a direct bearing on transfer accuracy is the 
+accuracy with which a person can mark a pre-selected point. Tests 
+made with six subjects showed that, at a scale of 1:100,000, the error 
+in marking was less than two meters on the ground. 
+
+
+Location Errors 
+
+
+The location errors for each type of mission photo are described 
+in the following four sections. Within each section, the results for 
+the A points are presented first, and those for the B points second, 
+
+For each type of point, there is a table of error means ty levels of 
+
+the independent variables, statistical tests of the effects of the inde- 
+pendent variables, and a description (or descriptions) of the location 
+error in the form of cumulative percentage distributions. Descriptive 
+statistics based on the cumulative percentage of error in meters were 
+considered more appropriate than those based on the normal distribution 
+assumption because the distribution of errors was positively skewed. 
+
+
+A cumulative percentage distribution was presented for each level 
+of the independent variables if the effects of that variable were sta- 
+
+. tistically significant (p < .05). If the effects of a variable were not 
+statistically significant, the data were combined into a composite 
+cumulative percentage distribution, Artificial error scores are not 
+included in these distributions. 
+
+
+Vertical Mission Photos. Table 4 shows the error means for the 
+vertical photo A points. I[t is apparent from the table that there were 
+only small and negligible differences among the means for the different 
+combinations of Print Type and Scale, 
+
+
+c 
+' ee 
+ae) 
+
+
+olJe 
+
+
+SUOTIBIOT] anal seul OL szuTOg Jo uot wI07 
+
+
+s,a9efqns y jo uosziedwog eyy BuzMoYs InoQUTIg teotdé4y y - *Z vanstTy 
+
+
+Cau Xx 
+190000,000 
+107+76,000 
+205052,000 
+202375,090 
+
+
+oi XK 
+1U3234,000 
+194734,00C 
+113711,0090 
+1263353.906 
+i23i/7y,c70 
+134244,090 
+16 2444,000 
+Lowi2>.090 
+127% sa0.030 
+
+
+1233459,.0J30 
+Tere rr Pr) 
+157345.090 
+4+ 4379.339 
+12-3555,u000 
+171352,000 
+137215, 300 
+17S$352,009 
+17437+,0693 
+175125,0290 
+1/79917,300 
+1774357, 290 
+17393904,000 
+7 jodve,~ ddd 
+17)30y.910 
+157216 ,890 
+Lc 1l2@55,00u 
+
+
+CAL Y 
+500000,000 
+#75399.000 
+«71266, 000 
+516095, 000 
+
+
+CAL Y 
+-§9500,000 
+#468614, 000 
+#21299, 000 
+475212, 909 
+475951, 00 
+433594, 900 
+4A#3612, 000 
+479919,000 
+475049, 000 
+475729,060 
+#9175..90600 
+335072, 090 
+04%201,900 
+4979235, 09C0 
+&77562, 504 
+47%772,909 
+4#90120,C990 
+63u%60, Ud 
+42@+593, 000 
+&AL285,909 
+#9145¢. 009 
+6543005, 9090 
+&A4722, 000 
+$0 5se.009 
+«30504, 000 
+o69329,000 
+45-59, 304 
+4446592, 900 
+w SHAS. JUD 
+4o4245,00) 
+
+
+SUGJECT 3 HI-RES FT.SIUL. 
+a ee ae eS oh ee a eS 
+10 x Y 
+stessess_ 100909,3n0 §00000,000 
+teataate 107670.000 &75999,000 
+testcase 205962,300 &71263,000 
+tateraae 292975.,309 §16695,.000 
+MEASUREO VALUES 
+Io x Y 
+1001 §00300,300 §00000,000 
+1992 507277,300 479936,000 
+1993 694332.,090 47 3444,000 
+1004 693110.900 $15666.000 
+TRAN X TRAN ¥ RES Xx 
+100000,000 §00990,000 ~,000 
+167476,200 475999,000 -,000 
+205962,000 #71263,000 -,600 
+202976,000 $106°5,000 000 
+R41S X = - £03000 RMS Y ® «000000 
+TRANS FORMEO 24 EE DS 
+TRAN X TRAN Y RES x 
+1047%6.702 4$9526.961 417.298 
+1943440,030 4 46447.125 45,030 
+137446,.5860 4#41525,.569 -33.560 
+129077, 342 &76036.459 “6,542 
+122766,323 474169.619 410.677 
+134249,31¢ &68433,531 -446,319 
+14490461.,.969 463°27,505 -1597.959 
+1+4170,499 479%466,103 m4, AGZ 
+127776.,is2 4675%59,.603 209.646 
+1+°1935,532 &74°07,665 579.408 
+1*2.72, 4508 4691175,225 284.632 
+101547.9%7 4$5465.191 3,403 
+154274%.226 494£°14,207 66.772 
+1°3953.0353 476207,3°9 “15,634 
+los742, 303 S77 4b .915 #-1274.603 
+147229.133 674773,48350 “175.189 
+104372,070 490699.426 6.9359 
+168536.770 +AE435,650 5A,239 
+172076,.216 456571, 0466 -96.916 
+16,.7677.677 4$15945.598 -264.4677 
+17343-.366 &91422.,116 “7.306 
+174551,985 4#66634.755 -457.985 
+173254, 327 484°69.796 “131,327 
+17606$.763 460026,469 7152.769 
+177974.<75 «#90066.516 #107,475 
+172406,500 GAGL7E, 084 199,60) 
+179734.761 4&#30560,565 252,761 
+17357°51.765 &84°25,892 -95.7605 
+1¢2617,291 #66: 51.956 “103,291 
+131837.,422 &64~-.04,2U9 “561,622 
+
+
+RES Y¥ 
+«000 
+0,900 
+-,000 
+-,000 
+
+
+RES Y 
+73,019 
+-73,125 
+36.549 
+173.161 
+-238.,619 
+-35.531 
+164.4695 
+-27,103 
+-2010,403 
+1621, 355 
+130.775 
+-i3.,191 
+“13,207 
+22,6461 
+-$4.915 
+-1,430 
+44.550 
+21.956 
+-21.595 
+335,458 
+26.755 
+“47.796 
+359.5460 
+537.484 
+-255.065 
+“127.563 
+-33, 6e2 
+33.946 
+“159,200 
+
+
+ERR VECTOR 
+
+
+ERR VECTOR 
+424 
+66 
+
+
+ft ® 
+
+
+bs & 
+
+
+Table 4 
+
+
+VERTICAL MISSION PHOTOS 
+MEAN LOCATION ERROR (METiRS) FOR A POINTS 
+
+
+PRINT TYPE 
+Trans- Mean 
+SCALE Paper parency Total 
+Larage 7.6 5.9 
+| (io)ay | (8) hs 
+8.7 nes 
+Smal] (10) (10) 73 
+Mean i. 
+Total 8.2 6.5 7.4 
+
+
+ayNumber of subjects. 
+
+
+An analysis of variance of the data (Table 5) indicated that the 
+effects of Scale, Print Type, and the interaction between the variables 
+were rot statistically significant. The data from all levels of the 
+independent variables were combined, 
+
+
+wy Table 5 
+VERTICAL MISSION PHOTOS 
+
+
+ANALYSIS OF VARIANCE OF 
+LOCATION ERRORS (METERS) FOR A POINTS 
+
+
+_ Sourep df MS F 
+Scale (A) 1 12.28 1.48 
+Prints (B) 1 24.52 2.96 
+A xB 1 8 <8 
+Error 33 8.27 
+
+
+Figure 8 shows the cumulative percentage of locacion error (in 
+meters) for the A points. The figure may be interpreted as follows: if 
+the interest is in the typical or average error on these points, select 
+50% (the median) on the ordinate and read the value on the abscissa 
+(location error) that corresponds to the point where 50% intersects the 
+
+
+ae 
+
+
+100 
+
+
+(TAGE 
+
+
+® 
+! 
+
+
+CUMULATIVE PERCE 
+
+
+20 + 
+
+
+5 10 15 20 25 30 35 40 45 50 55 
+
+
+LOCATION ERRORS 
+(METERS ) 
+
+
+Figure 8. Cumulative percentage of location errors: vertical 
+mission photos/A points (N=542). 
+
+
+function. In Figure 8 that value is 8 meters. This means that half of 
+
+the errors were less than 8 meters and half were greater than 8 meters. 
+
+If the interest is not in typical performance, but rather in some point 
+below, say 75% of the errors fall, select 75% on the ordinate and determine 
+the corresponding error value on the abscissa. In Figure 8 that value is 
+ll meters. In other words, 75% of the errors were less than 1l meters 
+
+and 25% were greater than ]1 meters. Interpretations may be made in the 
+same way for other percentages. 
+
+
+Table 6 shows the error means for the vertical photo B points. 
+Though the mean errors for the Paper Prints were. slightly larger than 
+they were for the Transparencies, an analysis of variance (Table 7) 
+showed that the effects of Print Type, Scale, and the interaction between 
+the variables were not statistically significant. The data from all 
+levels of the independent variables were combined. 
+
+
+on 
+rat 
+
+
+= tin 
+
+
+Table 6 
+
+
+VERTICAL MISSION PHOTOS 
+MEAN LOCATION ERROR (METERS) FOR B POINTS 
+
+
+PRINT TYPE 
+
+| Trans- Mean 
+SCALE Paper | parency Total 
+
+Large + 20.0 
+
+Smal] a7 .7 20.7 
+
+(10) (9) 23.9 
+Mean 
+tated 25.5 20.4 23.0 
+
+
+2Number of subjects. 
+
+
+Table 7 
+
+
+VERTICAL MISSION PHOTOS 
+ANALYSIS OF VARIANCE OF 
+LOCATION ERRORS (METERS) FOR B POINTS 
+
+
+Source df MS F 
+Scale (A) 1 34.59 <1 
+Print (B) ¥ 242.61 3.73 
+A xB 1 13.83 <1 
+Error 33 64.98 
+
+
+Figure 9 shows the cumulative percentage of location errors for 
+the vertical photo B points. The median error was about 20 meters. 
+
+
+-2l-s) bey 
+
+
+100 
+
+
+CUMULATIVE PERCENTAGE 
+
+
+LOCATION ERRORS 
+(METERS ) 
+
+
+Figure 9. Cumulative percentage of location errers: vertical 
+mission photos/B points (N=550). 
+
+
+Oblique Mission Photos. Table 8 shows the error means for the 
+oblique photo A points. (The means are based on the performance of two 
+subgroups of subjects. As pointed out earlier, the two subgroups did 
+not transfer all of the same points.) The error means were larger for 
+the Far points than for the Near points and larger for the Paper than 
+for the Transparency. 
+
+
+Table 8 
+
+
+OBLIQUE MISSION PHOTOS 
+MEAN LOCATION ERROR (METERS) FOR A POINTS 
+
+
+sais teins PRINT TYPE | 
+OF Trans- | Mean 
+POINTS Paver Darency Total 
+24.6 20.8 
+16.6 9.3 ; 
+Mean 
+Total 20.6 15.0 17.8 
+
+
+But an analysis of variance (Table 9) indicated that the effects 
+of Position, Print Type, and the interaction between the variables were 
+not statistically significant. he data from all levels of the inde- 
+pendent variables were combined. 
+
+
+Table 9 
+
+
+OBLIQUE MISSION PHOTOS 
+ANALYSIS OF VARIANCE OF 
+LOCATION ERRORS (NETERS) FOR A POINTS 
+
+
+Source df MS F 
+Between 
+Subjects 36 
+Prints (A) 1 1,915 3.57 
+Groups 1 1,080 2.01 
+Error 34 Sa 
+Within 
+Subjects 
+
+
+Position (B) 
+A x B 
+Error 
+
+
+CUMULATIVE PERCENTAGE 
+
+
+Figure 10 shows the cumulative percentage of location error for 
+the oblique photo A points. The median error was about 11 meters. 
+
+
+l 
+
+
+l i i j 
+10 20 30 40 50 60 70 80 90 100 110 120 130 140 
+
+
+iT 1 me j 1 
+
+
+LOCATION ERRORS 
+(METERS) 
+
+
+Figure 10. Cumulative percentage of location errors: oblique 
+mission photos/A points (N=529). 
+
+
+Note that the median error is somewhat smaller than the mean total 
+of 17.8 meters shown in Table 8. This difference is due to the posi- 
+tive skew of the error distribution, If a distribution of measures is 
+positively skewed, the mean will be larger than the median, and the 
+magnitude of the difference between the mean and the median will depend 
+upon the amount of skew. Differences between the means and medians 
+will be evident in the remaining results and will not be commented on 
+further. 
+
+
+Table 10 shows the ercor means for the oblique photo B points. 
+(As with the A points, the means are based on the performance of two 
+subgroups.) The error means were larger for the Far points than for 
+the Near points for bech Print ‘'ypes, but there was no substantial, 
+consistent difference between the means for Print Types. 
+
+
+ry . 
+wi 
+Bills 
+
+
+Table 10 
+
+
+OBLIQUE MISSION PHOTOS 
+MEAN LOCATION ERROR (METERS) FOR B POINTS 
+
+
+POSITION PRIWT TYPE 
+OF Trans- Mean 
+POTNTS Paner parency Total 
+132.2 “ 428.3 
+Far (19) (18) 135.0 
+35.5 34.4 
+Mean 
+Total 83.8 86.3 85.0 
+
+
+An analysis of variance (Table 11) indicated that only the effect 
+of Position was statistically significant (p < .01). The data from the 
+two Print Types were combined for the Near and for the Far points. 
+
+
+Table 11 
+
+
+OBLIQUE MISSION PHOTOS 
+ANALYSIS OF VARIANCE OF 
+LOCATION ERRORS (METERS) FOR B POINTS 
+
+
+Source df MS F 
+
+Between 
+
+Subjects 36 
+Prints (A) 1 114 <1,0 
+Groups 1 556 <1.0 
+Error 34 4,150 
+
+Within . 
+
+Subjects LY ae 
+Position (8) 1 185,626 58.24** 
+A xB 1 237 <1.0 
+Error 35 3,187 
+
+
+et, < .01 
+
+
+CUMULATIVE PERCENTAGE 
+
+
+Figure ll shows the cumulative percentage of error for the Near 
+and for the Far B points. The median error for the Near points was 29 
+meters and for the Far points 104 meters. 
+
+
+100 
+
+
+20 rd Near Om=— (N=269) 
+4 Far @m—— = ("=285) 
+
+
+0 € lj i L l L L Ln A. 
+
+
+50 100 150 200 250 300 350 400 450 
+
+
+LOCATION ERRORS 
+(METERS) 
+
+
+Figure 11. Cumulative percentage of location errors: oblique 
+mission photos/8 points. 
+
+
+High Pan Mission Photos. Table 12 shows the error means for the 
+high pan photo A points. The error means were larger for the Far points 
+than for the Near points for both Print Types, larger for the Paper than 
+for the Transparency for both Positions. 
+
+
+~26= 
+
+
+Table 12 
+
+
+HIGH PAN MISSION PHOTOS 
+MEAN LOCATION ERROR (METERS) FOR A POINTS 
+
+
+POSITION PRINT TYPE 
+OF Trans- Nean 
+POINTS Paoer parency || Total 
+20.6 2.8 6 as 
+7 (18) (18) 
+10.9 Pe 
+— (18) (18) 8.6. 
+Mean 
+Tote? 15.8 9.0 12.4 
+
+
+An analysis of variance (Table 13) indicated that the effects of 
+both Print Type and Position were statistically significant (p < .01), 
+but the interaction between the two variables was not. The data from 
+the two Positions were combined for the Paper and for the Transparency, 
+and, similarly, the data from the two Print Types were combined for the 
+Near and for the Far points. 
+
+
+Table 13 
+
+
+HIGH PAN MISSION PHOTOS 
+ANALYSIS OF VARIANCE OF 
+LOCATION ERRORS (METERS) FOR A POINTS 
+
+
+Source df MS F 
+Between 
+Subjects 35 
+Prints (A) 1 832 9.04** 
+Error 34 92 
+Within 
+Subjects 36 
+Position (B) 1 1,039 20.78** 
+A x-B 1 Fo 1.54 
+Error 34 50 
+“ee < <0) 
+99 
+Wy 
+
+
+at. 
+
+
+Figures 12 and 13 show the cumulative percentage of .errors tor the 
+Paper and Transparency and for the Near and Far points. Tle median 
+error for the Paper was 12 meters and for the Transparency 8 meters. 
+The median error for the Far points was 12 meters and for the Near 
+points 7 meters. 
+
+
+100 
+
+
+~ 
+oO 
+' 
+
+
+O mame Transparency 
+(N=270) 
+
+
+20 @=———— Paper (N=259) 
+
+
+CUMULATIVE PERCENTAGE 
+
+
+0 L 1 A. 1 1 rt 1 1 i oe 1 st 1 1 
+
+
+© wee ee 6&6 Rh DB WM We Ne 101m 14 
+
+
+LOCATION ERRORS 
+(METERS ) 
+
+
+Figure 12. Cumulative percentage of location errors. High pan 
+mission photos/A.points; Print Type. 
+
+
+CUMULATIVE PERCENTAGE 
+
+
+100 
+
+
+90- 
+80} 
+70 
+60F 
+50- 
+40r 
+
+re) 
+30} ! O—— Near (N=249) 
+20r e—— Far (N=280) 
+10 
+0 l 1 1 li l | 1 1 1 1 1 e | 
+
+6 0 @ 6 BD OO A SBS Be MO Te ie Ie 
+LOCATTON ERRORS 
+(METERS) 
+Figure 13. Cumulative percentage of location errors: high pan 
+
+
+mission photos/A points; Position. 
+
+
+Table 14 shows the error means for the high pan photo B points, 
+The error means were larger for the Far points than for the Near 
+points for both Print Types, but there was essentially no difference 
+
+
+between the means for the Paper and Transparency. 
+
+
+Table 14 
+
+
+HIGH PAN MISSION PHOTOS 
+MEAN LOCATION { RROR (METERS) FOR B POINTS 
+
+
+POSITION |t PRINT TYPE 
+OF Trans- Nean 
+POIKTS Paper parency Total 
+57.1 5° .0 | 
+Far (19) Cay: 56.6 
+38.2 $8.3 
+eer 1 Sh. Ak 
+Mean 
+Total 47.6 | 45.7 46.7 
+
+
+An analysis of variance (Table 15) indicated that only the effect 
+of Position was statistically significant (p < .01).- The data from the 
+
+
+Paper and Transparency were combined for the Near and for the Far 
+points. 
+
+
+Table 15 
+
+
+HIGH PAN MISSION PHOTOS 
+ANALYSIS OQ VARIANCE OF 
+LOCATION ERRORS (METERS) FOR B POINTS 
+
+
+Source df MS F 
+Between 
+Subjects 36 
+Print (A) 1 76 <1.0 
+Error 35 749 
+Within 
+Subjects 37 
+Position (8) 1 7,238 20.8** 
+A x B 1 se] <1.0 
+Error 35 348 
+#%p < .01 
+Or 
+‘Jy 
+
+
+oSiin 
+
+
+Figure 14 shows the cumulative percentage of location error for 
+the high pan mission photo Near and Far B points. The median error for 
+the Far points was 48 meters, und for the Near points 34 meters. 
+
+
+100 a oe 
+80 
+
+0 70h 
+
+x 
+
+us 
+
+“60 
+
+[oa 
+
+a 
+
+uy 90 F 
+
+e 
+
+= 40 - 
+
+pom | 
+
+530+ 
+
+ee 4 Om=— Near (N=254) 
+v6 @m—— Far (N=294) 
+10 rd 
+
+0 1 1 iL L Ss t Jj i Otte | i <8 j 
+
+
+20 40 60 80 100 120 140 160 180 200 220 240 2¢0 280 
+
+
+LOCATION ERRORS 
+(METERS ) 
+
+
+Figure 14. Cumulative percentage of location errors: high pan 
+mission photos/B points. 
+
+
+Low Pan Mission Photos. Table 16 shows the error means for the 
+low pan photo A points. The mean error for the Paper/Far points was 
+considerably larger than for any of the other three combinations of Print 
+Type and Position, and the error mean for the Transparency/Far point was 
+somewhat larger than that for the Transparency/Near point. 
+
+
+-3]l- 
+
+
+Table 16 
+LOW PAN MISSION PHOTOS 
+
+
+MEAN LOCATION ERROR (METERS) FOR A POINTS 
+
+
+POSITION PRINT TYPE 
+OF Trans- Mean 
+_POLits Paper parency Total 
+59.1 15.6 
+su (18) (19) 37.4 
+6.3 os 
+om (18) as) | 6.7 
+Mean 
+Total 32.7 11.4 22.0 
+
+
+An analysis of variance (Table 17) indicated that the effects of 
+Print Type and Position were statistically significant (p <« .05 and 
+-Ol, respectively) as well as the interaction between the two variables 
+
+
+(p < .O1). 
+
+
+Table 17 
+
+
+LOW PAN MISSION PHOTOS 
+ANALYSIS OF VARIANCE OF 
+LOCATION ERRORS (METERS) FOR A POINTS 
+
+
+Source df MS F 
+Between 
+Subjects 36 
+Prints (A) 1 8,410 4,09* 
+Error 35 2,054 
+Within 
+Subjects a7 
+Position (B) 1 16,743 8.61** 
+AxB 1 9,031 4,64** 
+Error 35 1,944 
+
+
+"pn < .05 
+""p < .01 
+
+
+It is apparent from inspection of Table 16 that the statistical 
+significance of the two variables is due almost entirely to the large 
+error on the Paper/Far poiut combination. A ¢t test for correlated ob- 
+servations indicated that for the Paper the difference between the 
+means for the Far and Near points was statistically significant 
+(¢ = 2.59, p < .02 df 1 and 17); but, for the Transparency, the dif- 
+ference between the means for the Far and Near Points was not statis- 
+tically significant (¢ = 1.67). Consequently, only the data from Paper 
+and Transparency Near points were combined, 
+
+
+Figure 15 shows the cumulative percentage of error for the low pan 
+photo A points. Three cumulative percentage distributions are shown: 
+one for the Near points, one for the Transparency/Far points, and one 
+for the Paper/Far points, The median error for the Near points and the 
+
+
+Transparency/Far points was about 8 meters, and for the Paper/Far 
+points about 19 meters. 
+
+
+oo oan hes 
+90F 96 ia — 
+7 eee rk — 
+
+80 “a 
+uJ 
+e 70 
+= 
+‘5 60 
+tS 
+iu 509 
+. 
+“40 
+2 Oma Near (N=218) 
+S 30 
+
+Far 
+20 . Transparency 
+(if=124) 
+1l0¢ 
+r 
+ok ee | s l 1 i l l 1 1 1 i ae 
+
+
+30 60 90 120 150 180 210 240 270 300 330 360 390 420 
+
+
+LOCATION ERRORS 
+(METERS) 
+
+
+Figure 15. Cunulative percentage of location errors: low pan 
+mission photos/A points. 
+
+
+Table 18 shows the error means for the low pan photo B points. 
+The error means for the Far points were considerably larger than 
+those for the Near points for both the Paper and Transparency. The 
+difference between means for the Paper Near and Far points was con- 
+siderably larger than the difference between the means for the Trans- 
+parency Near and Far points. There was little difference between the 
+means for the Paper and Transparency Near points. 
+
+
+Table 18 
+
+
+LOW PAN MISSION PHOTOS 
+MEAN LOCATION ERROR (METERS) FOR B POINTS 
+
+
+RT i 
+POSITION PRINT TYPE 
+OF Trans- Mean 
+POINTS Paner parency Total 
+225.1 117.8 
+42.5 48.3 
+Near : (12) (19) id 
+Mean 
+Total 133.8 83.0 108.4 
+
+
+An analysis of variance (Table 19) indicated that effects of Print 
+Type, Position, and the interaction between the two variables “era 
+statistically significant (p < .05, .01, .0l1, respectively). 
+
+
+Table 19 
+
+
+LOW PAN MISSION PHOTOS 
+ANALYSIS OF VARIANCE OF 
+LOCATION ERRORS (METERS) FOR B POINTS 
+
+
+Source df MS F 
+Between 
+Subjects 36 
+Prints (A) 1 47,568 7.12% 
+Error 35 6,677 
+Within 
+Subjects 37 
+Location (B) 1 286,792 53.76** 
+| 1 $9,112~ 11.067* 
+-rror 35 a, 939 
+
+
+A t test for correlated observations indicated that the difference 
+between means for the Paper Near and Far points and for the Transparency 
+Far and Near points was statistically significant: the values for ft 
+were 5.44 (p < .01, df 1 and 18) and 5.97 (p < .01, df 1 and 17). At 
+test for uncorrelated observations indicated that the difference between 
+means for the Paper and Transparency Far points was also statistically 
+significant (t = 3.02, p < .01, df 1 and 21)34 The difference between 
+means for the Paper and Transparency Near points was not statistically 
+significant. Consequently, only the data from oe Paper and Trans- 
+parency Near points were combined, 
+
+
+Figure 16 shows the cumulative percentage of error for the low pan 
+photo B points. Three cumulative percentage distributions are shown: 
+one for the Near points, one for the Paper/Far points, and one for the 
+Transparency/Far points. The median error for the Near points was 39 
+meters; for the Paper/Far points, about 183 meters; and for the Trans- 
+parency/Far points, about 100 meters. 
+
+
+Point Transfer Times 
+
+
+Visual inspection of the times taken to transfer the points re- 
+vealed no practical differences between the levels of independent 
+variables of Scale, Print Type, or Position. ‘The differences 
+among the levels of the variable were on the order of fractions of a 
+minute. Generally speaking, the mean time taken to transfer points 
+was about 30 seconds on the vertical photos and about 50 seconds on 
+the non-vertical photos. 
+
+
+74 is 21 instead of 36 because the variance of the two samples was not 
+homogeneous. This technique of testing hypothesis about the difference 
+between two means when the population variances are not equal is de- 
+scribed by Welch, B. L. (1947). In Winer, J. B., Statistteal Princt- 
+ples in Experimental Design, p. 37. New York: McGraw-Hill, 1962. 
+
+
+CUMULATIVE PERCENTAGE 
+
+
+100 
+
+
+: 3 
+i Qwese Near (N=255) 
+; eum, Paper (N=119) 
+Far i, Transparency 
+(N=119) 
+= 
+l \ ! i i i 1 1 i 
+
+
+100 200 300 400 500 600 700 &00 969 
+
+
+LOCATION ERRORS 
+(METERS ) 
+
+
+Figure 16. Cumulative percentage of location errors: low pan 
+mission photos/B points. 
+
+
+SUMMARY AND DISCUSSION 
+
+
+Because of the large number of independent variables and types of 
+mission photos, a summary of the location error results is provided in 
+
+
+Table 20. 
+Table 20 
+SUMMARY OF RESULTS FOR LOCATION ERRORS 
+MISSION INDEPENDENT | STATISTICALLY | LEVELS OF | ERROR (METERS) | 
+PHOTO POINTS | VARIABLE SIGNIFICANT VARIABLE 25% 50. 75% 
+- A Scale No All levels 4 J "1 
+Print No combined 
+Vertical 
+5 B Scale No All levels 12 20 36 
+Print No combined 
+; All levels 
+A Print No combined 6 "1 28 
+Position No 
+Oblique y 
+B Print No. Far: 44 104 | 229 
+Position Yes Neard/ 14 29 54 
+Paper 6 12 35 3 
+Print Yes Stas : 
+A parency od 
+Far 6 12 a2 
+Position Yes — 
+Near 3 7 14 
+High Pan 
+Print No Fara/ ZZ 48 97 
+B 
+Position Yes Near ?/ 15 34 72 
+Far- 8 19 | 165 
+Print Yes Paper 
+Far- 
+Trans- 5 8 25 
+S parency 
+Position Yes Neara/ 4 8 10 
+Low Pan 
+: Far- 60 |133 | 433 
+Paper 
+Print Yes Far- ges 
+Trans- 38 160 7355 
+B parency moe 8 
+Position Yes Neard/ 18 39 150 
+
+
+aata from Print Types combined. 
+
+
+The table shows for each mission photo and for the A and B points 
+separately whether or not the independent variables were statistically 
+Significant; the levels of the independent variables for which accumu- 
+lative percentage distribution was computed; and the error correspond- 
+ing to each of three selected cumulative percentages. Each percentage 
+and associated error may be interpreted as follows: for example, con- 
+sider the vertical mission photo A points; 25% of the location errors 
+were less than 4 meters, 50% were less than 7 meters, and 75% were less 
+than 11 meters. 
+
+
+The location error for the three percentages is shown to allow the 
+reader to assess the skew of the error distributions. The direction 
+and the amount of skew may be computed by comparing (75%,-50%,) to 
+(50%,-25%,.) where e is the location error. If the first term is larger 
+than the second, the distribution is positively skewed; if the first 
+term is smaller than the second term, the distribution is negatively 
+skewed; and if the two terms are equal, the distribution is symmetrical. 
+The magnitude of the difference in these two terms indica*es the amount 
+of skew. 
+
+
+It is evident from inspection of Table 20 that nearly all of the 
+distributions were positively skewed, with the exception of that for 
+the vertical photo A points““and for the low pan photo Near A points. 
+The positive skew is attributable to two factors: for most of the mis- 
+sion photos, a few of the points were far more difficult to locate accu- 
+rately than the remaining points and this was particularly true for the 
+B points and for the Far points; on some points, a few subjects made 
+errors consic.erably larger than those made by the remaining subjects. 
+
+
+Now to consider the effects of independent variables of Scale, 
+Print Type (Resolution), and Position (Near, Far). The scale of the 
+vertical mission photos did not affect the magnitude of error. This was 
+true for the A points, points that were on easily identifiable features, 
+and for the B points--points that were not close to such features. Scale 
+did not affect the error magnitude possibly because the two scales pro- 
+vided sufficient detail for locating the points on the data base. 
+
+
+The variable of Print Type did not affect location error for the 
+vertical or oblique mission photos. It did have a statistically sig- 
+nificant but small effect for the high pan photo. A points (Paper = 
+12 meter median error; Transparency = 8 meter median error); a slightly 
+larger effect for the low pan photo Far A points (Paper = 19 meters, 
+Transparency = 8 meters); and a pronounced effect for the low pan photo 
+Far B points (Paper = 183 meters; Transparency = 100 meters). 
+
+
+Performance with the transparencies was considerably better than 
+it was with the Paper prints only on the Far portion of the low pan 
+photos. This seems to indicate that -the ground resolution in the Far 
+portion of the mission negative was close to a level where even a 
+
+
+“/This has a slight positive skew but is neglible compared to the others. 
+
+
+424 
+-38- 2% 
+
+
+small degradation would cause a significant loss of the detail useful 
+for accurate point transfer. Apparently the transparency preserved 
+more of this useful detail than the Paper print. Generally, the small 
+degradation caused by the Paper print was not as harmful for the other 
+mission photos because the overall quality of the negatives was suffic- 
+iently high so that a small loss in ground resolution did not cause a 
+Significant loss of detail useful in point transferring. 
+
+
+As expected, the variable of Position significantly affected loca- 
+tion error. The error for the Far points was usually larger than for 
+the Near points and the difference in the magnitude of the error was 
+larger for the B points than for the A points. The probable explana- 
+tion of the larger error for the Far points is that they were in the 
+portion of the mission photo in which the distances between scene 
+features are not linearly prwoportional to their corresponding features 
+on the data base, whereas the Near points were in the portion of the 
+photo in which the distances were closer to linear. It was undoubtedly 
+more difficult to locate points where the distances were non-linear. 
+The effects of Position were larger for the B points than fur the A 
+points because, by definition, the A points were located on identi- 
+fiable features while the B points were relatively far removed from 
+such features. 
+
+
+The location error for the non-vertical-photo Near A points was 
+not much larger than that for the vertical photo A points. For the 
+vertical photos, the 50% (median) and 75% location errors were 7 and 11 
+meters; for the non-vertical photos, the 50% error ranged from 7 to 
+1l meters and the 75% error ranged from 10 to 28 meters. Eut the error 
+for the Near B points was considerably larger than that for the verti- 
+cal photo B points. For the vertical photo, the 50% and 75% errors 
+were 20 and 36 meters; for the Near B points, the 50% error ranged from 
+29 to 39 meters, and the 75% error ranged from 54 to 150 meters. 
+
+These results indicate that she location error for the vertical 
+mission photos and for the near portion of the non-vertical mission 
+photos are comparable tor only specific kinds of points--those Located 
+on or very close to identifiable features in the scene. 
+
+
+For the B points, the location errors for the vertical mission 
+photos and for the Far portion of the non-vertical photos were not 
+comparable: the 50% error fwr the Far points ranged from.48 meters for 
+the high pan photos to about 140 meters (mean of 183 and 100 meters) 
+for the low pan photos; the 75% error ranged from 97 meters (high pan 
+photos) to about 335 meters (mean of 433 and 233 meters) for the low 
+pan photos. 
+
+
+The results of this study, as summarized in Table 20 should be 
+useful in assessing the operational capabilities of the APPS for tar- 
+gets appearing on various types of reconnaissance photography. [It is 
+apparent that B-typé targets usually cannot be transferred visually to 
+acceptable accuracies except from vertical mission imagery. This indi- 
+cates that other means for transferring B-type targets should be found. 
+
+
+x = 
+
+
+Cverall improvement in point transfer accuracy might be achieved by 
+judicious selection of operators plus specialized training. 
+
+
+This report should be useful to G-2 air officers and reconnais- 
+Sance aircraft pilots because it shows clearly the value of acquiring 
+targets in a near vertical mode. Of course, operationally, this is 
+sometimes not possible but at least the operational personnel will know 
+the loss of transfer accuracy that will result when targets are imaged 
+in the Far portion of a panoramic or oblique frame. 
+
+
+There may be some advantage in viewing the data base or the mis- 
+sion photography in a stereo mode and still further advantage if both 
+are viewed in stereo. Stereo was not used in this study but, based on 
+past related experience, the use of stereo might improve both A point 
+and B point accuracy, but the greatest improvement would be to B points. 
+
+
+During the main tests it required an average of less than one 
+minute per point to effect a transfer. However, there are two steps in 
+the transfer process. The first is finding on the data base the area 
+covered by the mission photo. In some preliminary tests this was found 
+to be so time consuming (up to 30 minutes) that transparent templates 
+were furnished each test subject so he could quickly locate the areas 
+on the data bases. In areas having limited cultural and prominent 
+natural features, the location of the general area of the mission photo 
+could become a major problem. The training of interpreters to more 
+quickly relate one photo to another, when there is a large disparity in 
+scale and geometry, seems essential for efficient operation of the APPS. 
+The second step is the finding and marking of the point of interest on 
+the data base. 
+
+
+CONCLUSIONS 
+
+
+Based on the results of this study and on general observations 
+made during the testing phase it is concluded that: 
+
+
+* The tests were conducted according to the test plan 
+and were successful in fulfilling the stated objectives. 
+
+
+* The following variables were found to be practically 
+significant: 
+
+
+Position (Far or Near. portion of the format 
+of non-verticai imagery) 
+
+
+Point/Environs (Relationship of point to ‘ 
+identifiable detail) 
+
+
+Resolution (Transparency vs. Paper Print) - 
+significant only for some combinations 
+of conditions 
+
+
+* The variable found to be not practically significant 
+is: 
+
+
+Scale (within operational ranges - vertical 
+
+
+hot ; 
+photography) Af 
+
+
+fu 
+
+
+-40- 
+
+
+« Under the conditions of the experiment, transfer CEP 
+of less than 20 meters was obtained for 50 percent of 
+the A points transferred from all mission types and 
+75 percent of the transfers were within a CEP of 20 
+meters for Vertical missions, for the Near portion of 
+High and Low Panoramic missions, and for film trans- 
+parencies tor the High Panoramic mission irrespective 
+of target position on the image. Only the Vertical 
+mission imagery was adequate for the purpose of pro- 
+viding a CEP or 20 meters for the transfer of 50 per- 
+cent of the B points. 
+
+
+Test subjects preferred transparencies to paper prints 
+for mission imagery and they preferred transmitted 
+light (light table) to reflected light (high intensity 
+lamp),even for paper prints. 
+
+
+* The cumulative percentage curves are useful in estimat- 
+
+
+ing transfer errors for different kinds of mission 
+imagery. 
+
+
+bore 
+bs 
+
+
+41 
+
+
+APPENDIX A 
+
+
+ANALYTICAL PHOTOGRAMMETRIC POSITIONING SYSTEM: (APPS) 
+
+
+The Analytical Photogrammetric Positioning System (APPS) is a 
+point positioning system developed at the US Army Engineer Topographic 
+Laboratories (USAETL), Fort Belvoir, Virginia. The APPS has evolved 
+as a solution to the problem of determining X, Y, Z coordinates of 
+points of interest anywhere in or forward of a Corps-size area ina 
+matter of minutes. 
+
+
+Photogrammetric theory and techniques have been combined with the 
+capabilities of a desk top programmable calculator to provide for 
+utilization of the analytical methods of determining position, unlike 
+the more classical analog methods found in photogrammetric map 
+compilation instruments. The problem is treated as an intersection 
+problem for which universally accepted solution techniques are 
+available. Numerical data are accepted for certain known parameters, 
+and measured photo coordinates are treated as the observed parameters, 
+thereby solving for the unknown X, Y, Z coordinates of a point. 
+
+
+There are two parts to the APPS; (1) a Data Base (DB) consisting 
+of mapping quality aerial photography and its associated numerical 
+data, and (2) an assemblage of mensuration and data processing equip- 
+ment with associated software. 
+
+
+The DB is the key element of the APPS. It is rigorously prepared 
+as part of the normal mapping process and only then extracted from 
+that process for application to the APPS. The DB is mathematically ad- 
+justed by an analytical] procedure known as aerial block triangulation 
+which is based upon the method of least squares. Given two points of 
+known horizontal positions (X,Y) and three poiats of known elevation 
+(Z), one can determine the six orientation parameters of a photograph, 
+whether dealing with one overlapping pair of photographs or overlapping 
+coverage of entire countries. Use is made of redundant control data 
+whenever possible to reduce accumulation of small uncorrected systematic 
+errors and random errors. The adjustment is held to ground control. 
+
+
+The DB photograph requires no special processing such as rectifi- 
+cation. It is annotated with orientation points called index points 
+and with check points. Its associated numerical data includes interior 
+and exterior orientation parameters, photo coordinates of the index 
+points, and geocentric coordinates of the check points. APPS cquipment 
+calibration parameters are also incorporated in the numerical data. 
+
+
+The other portion of the APPS, the hardware, is primarily an 
+assemblage of conmercial, off-the-shelf items that will accept the DB 
+and perform the necessary measurements and computations for X, Y, Z 
+
+
+= 
+G 
+
+
+lh Ree 
+
+
+coordinates, The current package represents first generation compo- 
+nents. Modifications and add-ons have been envisioned to increase the 
+flexibility of the system. 
+
+
+There are five major component items of equipment to include: 
+(1) a modified Zeiss Stercotopey (2) an operator control box, (3) an 
+interface unit, (4) a Hewlett-Packard“(HP) 9810A programmable calcu- 
+latory and (5) an HP cassette memoryY See Figure Al. 
+
+
+The Stereotope provides the capability for stereoscopic viewing 
+and parallax measurement by the X, Y and X-parallax motions it pos- 
+sesses. To extract these measurements, a Bendix X, Y digitized data 
+gridis installed under the Stereotope baseplate and a signal cursor is 
+connected to the moveable photocarriage. Also, a shaft angle encoder 1 
+is connected to the X-parallax motion drive. 
+
+
+The operator control box provides a simple means of selecting a - 
+particular operation for the APPS to perform, i.e., zero the baseplate 
+data grid datum, or index the DB stereomodel, etc. 
+
+
+The interface unit converts cursor signals to the HP language and 
+subsequently HP language to a desired output language. 
+
+
+The HP 9810A programmable calculator and the HP cassette memory 
+function together. The memory holds the software programming and DB 
+files on tape covering a Corps size area for sequential access by the 
+calculator. The calculator uses the program and one numerical DB file 
+at a time together with the input from the Stereotope through the 
+interface to compute the A, Y, Z coordinates oi a point. 
+
+
+In practice, the operator uses a photo index overlay to determine 
+which DB stereo pair of photographs to place on the Stereotope. He 
+inserts the magnetic tape cassette containing the program and DB 
+numerical data files for that model into the cassette memory. He then 
+activates the cassette memory to load the program by use oi a magnetic 
+card. The card also contains the Stereotope calibration parameters 
+mentioned earlier. He then calls in the DB file for the model being 
+used by keyboard commands. Each photo of the model is oriented inde- 
+pendently using the index points mentioned earlier. The photo coordi- 
+nates of four index points are measured and a transformation computa- 
+tion made to relate the measured photo coordinates to the adjusted 
+photo coordinates. The operator then observes and measures a check 
+point, this time in stereo, to ascectain that he correctly oriented 
+the model. He must agree with the known coordinates of the check 
+point within established tolerances before he can proceed. Once he is 
+signalled to proceed he then observes the point of interest, measures 
+and computes the X, Y, Z coordinates of the point and obtains a print- 
+out on paper tape of the UTM Zone, Easting, Northing and elevation in 
+meters. 
+
+
+“/Commerical or trade names are given only in the interest of precision 
+in reporting experimental procedures. Use of the names does not con- 
+stitute official endorsement by the Army or by the U.S. Army Research 
+Institute for the Behavorial and Social Sciences. 
+
+
+-44- $9 
+
+
+Test results conclude that horizontal position locations deter- 
+mined with the APPS are approximately equivalent to third-order ground 
+surveys. This is readily achieved by personnel having previous train- 
+
+
+ing in the interpretation of aerial photographs and additional 16-40 
+hours instruction on the APPS, 
+
+
+The APPS is packaged for transport in three militarized carrying 
+cases for a total weight of 478 pounds and a volume of 27.42 cubic 
+It requires 600 watts of power at 110v, 60 Hz. 
+
+
+feet. 
+
+

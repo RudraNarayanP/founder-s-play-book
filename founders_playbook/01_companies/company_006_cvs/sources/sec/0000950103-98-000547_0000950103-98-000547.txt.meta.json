@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000064803/000095010398000547/0000950103-98-000547.txt",
+ "fetched": "2026-10-06T12:13:02Z",
+ "sha1": "113ac81b666056afb82a1d69f608cde124a754a6",
+ "bytes": 117028,
+ "words": 15986,
+ "cik": "0000064803",
+ "registrant": "CVS HEALTH Corp",
+ "accession": "0000950103-98-000547",
+ "document": "0000950103-98-000547.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": true
+}

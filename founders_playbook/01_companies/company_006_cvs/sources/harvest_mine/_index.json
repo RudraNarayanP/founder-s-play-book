@@ -1,0 +1,375 @@
+{
+ "window": [
+  "1963-01-01",
+  "1996-12-31"
+ ],
+ "candidates": 70,
+ "mined": 12,
+ "untried_by_limit": 57,
+ "items": [
+  {
+   "identifier": "sprowlsamericanp0000spro",
+   "date": "1974-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried sprowlsamericanp0000spro_djvu.txt, sprowlsamericanp0000spro_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "micro_IA40706951_0252",
+   "date": "1995-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Drug Store News for the Pharmacist",
+   "family": "internet_archive",
+   "meta_date": "1995-01-01",
+   "status": "cached",
+   "bytes": 412228,
+   "named_terms": [],
+   "other_terms": [
+    "consumer drug stores",
+    "drug store news",
+    "pharmacy times"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 1,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "drug store news",
+    "drug store. news"
+   ],
+   "sample": [
+    {
+     "line": 207,
+     "text": "received, along with your telephone number. We'll do everything possible to solve the problem at once. Write to Subscriber Services, Drug Store News, P.O. Box 31182, Tampa. Fla.",
+     "context": [
+      "For customer service call Joan Ferrero/Donny White at (813) 664-6707 or Fax (813) 664-6886. Problem with your subscription? Send us full details, including the mailing label from the last",
+      ""
+     ]
+    },
+    {
+     "line": 214,
+     "text": "Drug Store News For the Pharmacist (ISSNO89 19828) is published monthly\u2014pius a Pharmacist's Reference to Patient Counseling in Decermber\u2014by Lebhar-Friedman Inc., 425 Park Ave., New",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 222,
+     "text": "send address changes to Subscription Dept., Drug Store News For the Pharmacist, P.O. Box 31185, Tampa, Fla.",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "sim_journal-of-the-american-pharmacists-association-japha_1983_23_index",
+   "date": "1983-01-01",
+   "title_year": "1983",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "American Pharmacy 1983: Vol 23 Index",
+   "family": "internet_archive",
+   "meta_date": "1983-01-01",
+   "status": "cached",
+   "bytes": 67074,
+   "named_terms": [],
+   "other_terms": [
+    "consumer drug stores",
+    "drug store news",
+    "pharmacy times"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "micro_IA40706944_0407",
+   "date": "1993-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Drug Store News",
+   "family": "internet_archive",
+   "meta_date": "1993-01-01",
+   "status": "cached",
+   "bytes": 1831676,
+   "named_terms": [],
+   "other_terms": [
+    "consumer drug stores",
+    "drug store news",
+    "pharmacy times"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 76,
+   "phrase_hits": 0,
+   "entity_hits": 1,
+   "matched_entities": [
+    "cvs sales"
+   ],
+   "matched_other_terms": [
+    "drug store news",
+    "pharmacy times"
+   ],
+   "sample": [
+    {
+     "line": 34175,
+     "text": "CVS sales advance",
+     "context": [
+      "",
+      ""
+     ],
+     "promoted": "cvs sales"
+    }
+   ]
+  },
+  {
+   "identifier": "sim_journal-of-the-american-pharmacists-association-japha_1990_30_index",
+   "date": "1990-01-01",
+   "title_year": "1990",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "American Pharmacy 1990: Vol 30 Index",
+   "family": "internet_archive",
+   "meta_date": "1990-01-01",
+   "status": "cached",
+   "bytes": 58919,
+   "named_terms": [],
+   "other_terms": [
+    "consumer drug stores",
+    "drug store news",
+    "pharmacy times"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "micro_IA40706938_0038",
+   "date": "1990-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Drug Store News",
+   "family": "internet_archive",
+   "meta_date": "1990-01-01",
+   "status": "cached",
+   "bytes": 1560994,
+   "named_terms": [],
+   "other_terms": [
+    "consumer drug stores",
+    "drug store news",
+    "pharmacy times"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 56,
+   "phrase_hits": 0,
+   "entity_hits": 1,
+   "matched_entities": [
+    "cvs sales"
+   ],
+   "matched_other_terms": [
+    "drug store news"
+   ],
+   "sample": [
+    {
+     "line": 37894,
+     "text": "CVS sales leap",
+     "context": [
+      "",
+      ""
+     ],
+     "promoted": "cvs sales"
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA40706948_0070",
+   "date": "1994-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Drug Store News",
+   "family": "internet_archive",
+   "meta_date": "1994-01-01",
+   "status": "cached",
+   "bytes": 2147187,
+   "named_terms": [],
+   "other_terms": [
+    "consumer drug stores",
+    "drug store news",
+    "pharmacy times"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 142,
+   "phrase_hits": 0,
+   "entity_hits": 1,
+   "matched_entities": [
+    "cvs stores"
+   ],
+   "matched_other_terms": [
+    "drug store news"
+   ],
+   "sample": [
+    {
+     "line": 38242,
+     "text": "of CVS stores on West Coast, roll-",
+     "context": [
+      "drug stores in Midwest, conversion",
+      "out of Vision prototype, slight ad-"
+     ],
+     "promoted": "cvs stores"
+    }
+   ]
+  },
+  {
+   "identifier": "sim_journal-of-the-american-pharmacists-association-japha_1981_21_index",
+   "date": "1981-01-01",
+   "title_year": "1981",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "American Pharmacy 1981: Vol 21 Index",
+   "family": "internet_archive",
+   "meta_date": "1981-01-01",
+   "status": "cached",
+   "bytes": 69310,
+   "named_terms": [],
+   "other_terms": [
+    "consumer drug stores",
+    "drug store news",
+    "pharmacy times"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "sim_journal-of-the-american-pharmacists-association-japha_1991_31_index",
+   "date": "1991-01-01",
+   "title_year": "1991",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "American Pharmacy 1991: Vol 31 Index",
+   "family": "internet_archive",
+   "meta_date": "1991-01-01",
+   "status": "cached",
+   "bytes": 39082,
+   "named_terms": [],
+   "other_terms": [
+    "consumer drug stores",
+    "drug store news",
+    "pharmacy times"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "bwb_P9-ECG-775",
+   "date": "1977-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried bwb_P9-ECG-775_djvu.txt, bwb_P9-ECG-775_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "sim_pharmacy-times_1989_55_index",
+   "date": "1989-01-01",
+   "title_year": "1989",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Pharmacy Times 1989: Vol 55 Index",
+   "family": "internet_archive",
+   "meta_date": "1989-01-01",
+   "status": "cached",
+   "bytes": 38668,
+   "named_terms": [],
+   "other_terms": [
+    "consumer drug stores",
+    "drug store news",
+    "pharmacy times"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "pharmacy times"
+   ],
+   "sample": [
+    {
+     "line": 289,
+     "text": "120 Pharmacy Times - December 1989",
+     "context": [
+      "Clinical Pharmacy Services Make A Heartburn, Facts About.............. 11:46 Jenny A. Partridge ................ %B",
+      "q"
+     ]
+    },
+    {
+     "line": 581,
+     "text": "120 Pharmacy Times - December 1989",
+     "context": [
+      "Clinical Pharmacy Services Make A Heartburn, Facts About.............. 11:46 Jenny A. Partridge ................ %B",
+      "q"
+     ]
+    },
+    {
+     "line": 868,
+     "text": "December 1989 - Pharmacy Times 121",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "sim_journal-of-the-american-pharmacists-association-japha_1986_26_index",
+   "date": "1986-01-01",
+   "title_year": "1986",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "American Pharmacy 1986: Vol 26 Index",
+   "family": "internet_archive",
+   "meta_date": "1986-01-01",
+   "status": "cached",
+   "bytes": 51830,
+   "named_terms": [],
+   "other_terms": [
+    "consumer drug stores",
+    "drug store news",
+    "pharmacy times"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  }
+ ]
+}

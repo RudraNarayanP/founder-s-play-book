@@ -1,0 +1,9 @@
+{
+ "identifier": "marathon-automotive-service-guide-1964",
+ "url": "https://archive.org/download/marathon-automotive-service-guide-1964/Marathon%20Automotive%20Service%20Guide%201964%20_djvu.txt",
+ "fetched": "2026-09-29T18:10:11Z",
+ "bytes": 938881,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

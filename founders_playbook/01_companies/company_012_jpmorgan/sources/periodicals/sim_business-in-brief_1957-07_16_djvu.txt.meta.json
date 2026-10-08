@@ -1,0 +1,9 @@
+{
+ "identifier": "sim_business-in-brief_1957-07_16",
+ "url": "https://archive.org/download/sim_business-in-brief_1957-07_16/sim_business-in-brief_1957-07_16_djvu.txt",
+ "fetched": "2026-09-29T18:41:21Z",
+ "bytes": 24281,
+ "route": "download/<id>/sim_business-in-brief_1957-07_16_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

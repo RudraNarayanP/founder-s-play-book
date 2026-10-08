@@ -1,0 +1,1342 @@
+NATIONAL ADVISORY COMMITTEE 
+FOR AERONAUTICS 
+
+
+EFFECTS ON LONGITUDINAL STABILITY AND CONTROL 
+CHARACTERISTICS OF A BOEING B-29 AIRPLANE 
+OF VARIATIONS IN STICK-FORCE AND CONTROL-RATE 
+CHARACTERISTICS OBTAINED THROUGH USE OF 
+A BOOSTER IN THE ELEVATOR-CONTROL SYSTEM 
+
+
+By CHARLES W. MATHEWS, DONALD B. TALMAGE, and JAMES B. WHITTEN 
+
+
+For sale by the Superintendent of Documents. U. S. Government Printing Office, Washington 25. D. C. Yearly subscription. $9.75; foreign, $11.00; 
+
+
+REPORT 1076 
+
+
+THIS DOCUMENT ON LOAN FROM THE FIIES OF 
+
+
+
+
+
+1952 
+
+
+
+single copy price varies according to siae 
+
+
+
+
+
+/ 
+
+
+J& 
+
+
+X - 
+
+
+* 
+
+
+
+
+
+
+
+
+
+REPORT 1076 
+
+
+EFFECTS ON LONGITUDINAL STABILITY AND CONTROL 
+CHARACTERISTICS OF A BOEING B-29 AIRPLANE 
+OF VARIATIONS IN STICK-FORCE AND CONTROL-RATE 
+CHARACTERISTICS OBTAINED THROUGH USE OF 
+A BOOSTER IN THE ELEVATOR-CONTROL SYSTEM 
+
+
+By CHARLES W. MATHEWS, DONALD B. TALMAGE, and JAMES B. WHITTEN 
+
+
+Langley Aeronautical Laboratory 
+Langley Field, Va. 
+
+
+i 
+
+
+National Advisory Committee for Aeronautics 
+
+Headguarters, 17 '2 1+ F Street NW, Washington 25 , D. C. 
+
+Created by act of Congress approved March 3, 1915, for the supervision and direction of the scientific study 
+of the problems of flight (U. S. Code, title 50, sec. 151). Its membership was increased from 12 to 15 by act 
+approved March 2, 1929, and to 17 by act approved May 25, 1948. The members are appointed by the President, 
+and serve as such without compensation. 
+
+Jerome C. Hunsaker, Sc. D., Massachusetts Institute of Technology, Chairman 
+
+Alexander Wetmore, Sc. D., Secretary, Smithsonian Institution, Vice Chairman 
+
+
+Detlev W. Bronk, Ph. D., President, Johns Hopkins Univer- 
+sity. 
+
+John H. Cassady, Vice Admiral, United States Navy, Deputy 
+Chief of Naval Operations. 
+
+Edward U. Condon, Ph. D., Director, National Bureau of 
+Standards. 
+
+Hon. Thomas W. S. Davis, Assistant Secretary of Commerce. 
+
+James H. Doolittle, Sc. D., Vice President, Shell Oil Co. 
+
+R. M. Hazen, B. S., Director of Engineering, Allison Division, 
+General Motors Corp. 
+
+William Littlewood, M. E., Vice President, Engineering, 
+American Airlines, Inc. 
+
+Theodore C. Lonnquest, Rear Admiral, United States Navy, 
+Deputy and Assistant Chief of the Bureau of Aeronautics. 
+
+
+Hon. Donald W. Nyrop, Chairman, Civil Aeronautics Board. 
+
+Donald L. Putt, Major General, United States Air Force, 
+Acting Deputy Chief of Staff (Development). 
+
+Arthur E. Raymond, Sc. D., Vice President, Engineering, 
+Douglas Aircraft Co., Inc. 
+
+Francis W. Reichelderfer, Sc. D., Chief, United States 
+Weather Bureau. 
+
+Gordon P. Saville, Major General, United States Air Force, 
+Deputy Chief of Staff (Development). 
+
+Hon. Walter G. Whitman, Chairman, Research and Develop- 
+ment Board, Department of Defense. 
+
+Theodore P. Wright, Sc. D., Vice President for Research, 
+Cornell University. 
+
+
+Hugh L. Dryden, Ph. D, Director 
+
+
+John F. Victory, LL. D., Executive Secretary 
+
+
+John W. Crowley, Jr., B. S., Associate Director for Research 
+
+
+E. H. Chamberlin, Executive Officer 
+
+
+Henry J. E. Reid, D. Eng., Director, Langley Aeronautical Laboratory, Langley Field, Va. 
+
+Smith J. DeFrance, B. S., Director Ames Aeronautical Laboratory, Moffett Field, Calif. 
+
+Edward R. Sharp, Sc. D., Director, Lewis Flight Propulsion Laboratory, Cleveland Airport, Cleveland, Ohio 
+
+
+TECHNICAL COMMITTEES 
+
+Aerodynamics Operating Problems 
+
+Power Plants for Aircraft Industry Consulting 
+
+Aircraft Construction 
+
+
+Coordination of Research Needs of Military and Civil Aviation 
+Preparation of Research Programs 
+Allocation of Problems 
+Prevention of Duplication 
+Consideration of Inventions 
+
+
+Langley Aeronautical Laboratory, 
+Langley Field, Va. 
+
+
+Ames Aeronautical Laboratory, Lewis Flight Propulsion Laboratory, 
+Moffett Field, Calif. Cleveland Airport, Cleveland, Ohio 
+
+
+Conduct , under unified control , for all agencies , of scientific research on the fundamental problems of Jlight 
+
+
+Office of Aeronautical Intelligence, 
+
+Washington, D. C. 
+
+Collection t classification , compilation , and dissemination of scientific and technical information on aeronautics 
+
+
+II 
+
+
+REPORT 1076 
+
+
+EFFECTS ON LONGITUDINAL STABILITY AND CONTROL CHARACTERISTICS 
+OF A BOEING B-29 AIRPLANE OF VARIATIONS IN STICK-FORCE AND 
+CONTROL-RATE CHARACTERISTICS OBTAINED THROUGH USE 
+OF A BOOSTER IN THE ELEVATOR-CONTROL SYSTEM 1 
+
+By Charles W. Mathews, Donald B. Talmage, and James B. Whitten 
+
+
+SUMMARY 
+
+The longitudinal stability and control characteristics of a 
+Boeing B-29 airplane have been measured with a booster incor- 
+porated in the elevator -control system. Tests were made to 
+determine the effects on the handling qualities of the test air- 
+plane of variations in the pilot's control-force gradients as well 
+as the effects of variations in the maximum rate oj control 
+motion supplied by the booster system. 
+
+The variations of elevator-control force with normal acceler- 
+ation for the test airplane without boost were about 90 pounds 
+per g at an indicated airspeed of 160 miles per hour and about 
+llfi pounds per g at 250 miles per hour. These control forces 
+were considered by the pilots to be tolerable but heavy. Use of 
+the booster to reduce these control-force gradients by a factor of 
+about 2.8 appreciably improved the control characteristics of the 
+test airplane. Reduction of the force gradients by a factor of 
+about 4-6 through use of the booster also resulted in satisfactory 
+control characteristics in terms of the pilots' opinions of their 
+ability to control the airplane precisely in normal flight ma- 
+neuvers, although these force gradients were not so desirable as 
+with the boost ratio of 2.8. The effect of these lower force gra- 
+dients on the probability of exceeding the limit load factor could 
+not be investigated. 
+
+The results of the control-rate investigation indicate that large 
+airplanes may have satisfactory handling qualities with the 
+booster adjusted to give much lower rates of control motion than 
+those normally used by pilots. During landings of the test air- 
+plane, high rates of control motion were used by the pilots both 
+without the booster and with the booster operating under condi- 
+tions where high control rates were available from the system, 
+but other landings, which were made with the rate of elevator 
+motion restricted to values as low as 7° per second, were satis- 
+factory from the standpoint of the pilots' opinions of the 
+handling qualities of the airplane. 
+
+INTRODUCTION 
+
+There is a current trend to the use of booster systems for 
+operating the control surfaces of airplanes. The use of 
+boosters results primarily from a need for alleviating the 
+large control forces associated with large airplanes, for im- 
+proving the maneuvering capabilities of high-speed fighter 
+
+1 Supersedes NACA TN 2238, “Effects on Longitudinal Stability and Control Charactei 
+Through Use of a Booster in the Elevator-Control System” by Charles W. Mathews, Donald 
+
+
+airplanes where control deflections are limited by the physical 
+capabilities of pilots, and for improving the control-force 
+characteristics where the aerodynamic hinge moments of the 
+control surfaces have unsatisfactory variations. 
+
+Because the requirements for boosters involve considera- 
+tion of the airplane and the pilot, the National Advisory 
+Committee for Aeronautics has undertaken a flight investi- 
+gation of a booster system installed in the elevator-control 
+system of a Boeing B-29 airplane. An analysis and bench 
+test of this booster are presented in reference 1 . 
+
+When boosters are used, two alternatives exist with re- 
+gard to the provision of pilot’s control forces. For many 
+systems a given percentage of the aerodynamic hinge moment 
+on the control surface is fed back to the pilot’s stick while 
+for other systems, where the aerodynamic hinge moments 
+have unsatisfactory variations, no feedback of the aero- 
+dynamic forces is provided and the stick forces are created 
+mechanically. The present investigation was concerned 
+with the type of system which provides for a feedback of the 
+aerodynamic forces. The test booster system had provision 
+for varying the magnitude of this force feedback over a 
+wide range, and the effects of the magnitude of the pilot’s 
+stick forces on the handling qualities of the test airplane 
+were investigated. 
+
+Another important booster parameter affecting airplane 
+handling qualities is the maximum rate of control motion 
+supplied by the system. The test booster had provisions 
+for varying the maximum available control rate, and the 
+effects of such variations were investigated. 
+
+Measurements of the longitudinal stability and control 
+characteristics were obtained for the test airplane both 
+without the booster and with the booster operating to pro- 
+vide various stick-force and control-rate characteristics. 
+Results obtained from these measurements are presented 
+herein. 
+
+SYMBOLS 
+
+F e elevator-control force 
+q c impact pressure 
+5 C elevator deflection 
+C N normal-force coefficient 
+n limit load factor 
+
+ristics of a B-29 Airplane of Variations in Stick- Force and Control-Rate Characteristics Obtained 
+B. Talmage, and James B. Whitten, 1951. 
+
+
+1 
+
+
+2 
+
+
+REPORT 1076 NATIONAL ADVISORY COMMITTEE FOR AERONAUTICS 
+
+
+BOOSTER INSTALLATION 
+
+A description of l lit' booster and a discussion of its oper- 
+ation are given in reference 1 . The schematic arrangement 
+of the system is shown in figure 1 and a photograph of the 
+test unit is shown as figure 2. The booster was installed 
+on the pilot’s side (left side) of the elevator-control system 
+of the B-29 airplane. The orientation of the booster in the 
+airplane is shown in figure 3. This booster system had 
+been tested previously as a bench setup. Results of these 
+bench tests, reported in reference 1, show that this system is 
+satisfactorily free from chatter, dead spots, excessive lag, 
+friction, and other undesirable characteristics which might 
+adversely affect the pilot’s opinions of the handling qualities 
+of the test airplane. 
+
+Several important features of the flight -test version of the 
+booster system are not described in reference 1. With re- 
+gard to variations in the magnitudes of the control forces, 
+
+
+the part of the total elevator hinge moment fed back to 
+the pilot was made adjustable through use of a manual 
+control. The ratio of total control force to pilot-held force 
+(boost ratio) is equal to the ratio of the length l to the 
+length d shown in figure 1, and the manual control changed 
+the boost ratio by varying the position of the point A shown 
+in figure 1. With regard to variations in maximum avail- 
+able control rate, this booster is built around a variable- 
+displacement hydraulic pump and operates so that the 
+velocity of the control surface is proportional to the error 
+in position between the control surface and the stick. The 
+flight-test version of the booster was rigged so that a 1 K° 
+error in position (referred to the stick) would produce the 
+maximum available flow of fluid from the pump. This con- 
+dition corresponds to the maximum rate of control motion 
+when the control rate is not restricted by other means that 
+are discussed subsequently. Mechanical stops (see fig. 1) 
+were placed in the system so that when this \){° error in 
+
+
+
+
+(b) 
+
+
+Con trot- surface velocity up 
+
+
+
+Control -surface velocity down 
+
+
+(a) Booster arrangement. 
+
+(b) Hydraulic-pump operation. 
+
+Figure 1.— Schematic arrangement of the booster unit used in the elevator-control system of the B-29 airplane. 
+
+
+STABILITY AND CONTROL OF A B~29 AIRPLANE WITH A BOOSTER IN THE ELEVATOR-CONTROL SYSTEM 
+
+
+3 
+
+
+position was attained, the stick could be moved no faster 
+than at a rate corresponding to the maximum of the system 
+(an elevator rate of 100° per second with no restriction). 
+In addition to these fixed stops, a set of adjustable stops 
+were placed on the pump control arm as a means for further 
+restricting the maximum control rate. The push-pull rod 
+to the pump control arm was not rigidly attached but was 
+attached with a preloaded spring arrangement. This de- 
+vice was used so that, in spite of a rate restriction, the pilot 
+could still move his stick (against the spring force) at any 
+rate desired until the fixed stops were contacted (1%° error 
+in stick position). These springs were preloaded to 8)2 
+pounds as measured at the stick. The ratio between 
+motions of the control arm and the stick was 15 radians per 
+radian. 
+
+A set of centering springs was installed on the pump control 
+arm to prevent a small residual oscillation from occurring in 
+the boost system. This oscillation has been encountered 
+during bench tests (see reference 1) and was eliminated 
+through use of centering springs. These springs, which 
+supply a damping force at the stick proportional to the rate 
+of control motion, had a constant of 0.06-pound stick force 
+per degree per second rate-of-control motion. A small 
+dashpot type of viscous damper was connected to the control 
+arm in order to smooth further the action of the servovalve 
+which operated the pump. The damper applied 0.065 inch- 
+pound torque to the control arm per degree per second rate of 
+motion of the control arm. The torque on the control arm 
+required to overcome the static friction in the servovalve was 
+
+
+
+Figure 2.— The booster unit used in the elevator-control system of the B-29 airplane. 
+
+
+0.047 inch-pound. The force required at the stick to over- 
+come the friction in the linkages to the control arm was 
+approximately )\ pound. Installation of a control-position 
+pickup on the pump control arm, however, increased the 
+friction present at the stick to about 1 % pounds. This 
+control-position pickup also increased the constant of the 
+centering springs by a small amount. The electric motor 
+used to drive the variable-displacement pump of the booster 
+unit is rated at 2 horsepower and 4,000 rpm. The pump 
+delivers about 3.3 gallons per minute at maximum displace- 
+ment and the maximum operating pressure is 1,250 pounds 
+per square inch. The estimated increase in the gross weight 
+of the test airplane resulting from installation of the booster 
+unit is 80 pounds; however, no particular effort was made to 
+minimize the weight of the installation. 
+
+The booster output was applied to a quadrant beneath the 
+pilot’s stick and operated the elevator through the cable 
+system in the airplane. (See fig. 3.) A cam-operated cable 
+clamp was used as a safety device so that the pilot’s cable 
+system could be disconnected from the quadrant in event of 
+boost failure. Use of this device was possible because the 
+cable systems to the elevator from the pilot’s and copilot’s 
+stick are independent in the B-29 airplane. In addition, 
+a manually operated hydraulic bypass was provided. 
+
+The longitudinal control system of the test airplane was 
+selected for the booster investigation because elevator-force 
+variations were felt to be the most critical from handling- 
+qualities considerations and because rate-of-elevator move- 
+ment is important at least during landings and take-offs. 
+The B-29 airplane was chosen for these tests because it repre- 
+sents a large airplane having inherent elevator-force varia- 
+tions that are satisfactory but having elevator forces that 
+are somewhat high in relation to the present handling- 
+finalities requirements. The test airplane was flown at a 
+gross weight of about 108,000 pounds and with the center of 
+gravity at about 25 percent of the mean aerodynamic chord. 
+A three- view drawing of the B-29 airplane is presented in 
+figure 4, and some general specifications of the airplane are 
+listed in table I. 
+
+INSTRUMENTATION AND MEASUREMENTS 
+
+
+Standard NACA instruments were used. The following 
+table presents a list of these instruments and the quantities 
+that were measured: 
+
+
+Measured quantity 
+
+NACA instrument 
+
+Stick position - 
+
+Mechanical control position recorder. 
+
+Electrical control position recorder. 
+
+Mechanical control position recorder. 
+
+Mechanical control position recorder. 
+
+Strain-gage wheel force recorder. 
+
+Hydraulic pressure recorder. 
+
+Airspeed recorder and indicator. 
+
+Recording and indicating normal accelerometers. 
+Pitch turnmeter. 
+
+Timer synchronizing all records. 
+
+Elevator position - 
+
+Booster-control-arin position 
+
+Stick quadrant position. 
+
+Elevator-control force 
+
+Booster hydraulic pressure 
+
+Airspeed 
+
+Normal acceleration 
+
+Pitch ins: velocity 
+
+
+
+
+The airspeed system utilized in these tests was the service 
+svstem oi the airplane. 1 he flush static oiifices of this 
+system are located on the side of the fuselage just rearward 
+
+
+4 
+
+
+REPORT 1076 NATIONAL ADVISORY COMMITTEE FOR AERONAUTICS 
+
+
+of the pilot’s cockpit. These orifices were calibrated for 
+position error through use of an NACA trailing airspeed 
+head. The airspeed used herein corresponds to the reading 
+of a standard Air Force-Navy indicator connected to a 
+pitot-static head which is free from position error. This 
+airspeed is equal to true airspeed under standard sea-level 
+conditions. 
+
+RESULTS ANI) DISCUSSION 
+
+General. — An initial phase of the investigation was con- 
+cerned with tests to determine whether the incorporation of 
+(he booster system in the B-29 airplane altered the control 
+characteristics in any way other than to change the magni- 
+tude of the control forces. 
+
+
+The measured static longitudinal stability characteristics 
+of the test airplane are presented in figure 5 for conditions of 
+boost ratio 1 (no boost), boost ratio 2.8, and boost ratio 4.6 
+where boost ratio is defined as the ratio of the total control 
+force to the control force held by the pilot. In the figure, 
+pilot's elevator force divided by impact pressure F e !q[c and 
+elevator deflection from neutral b e are plotted against air- 
+plane normal-force coefficient C N . Results measured in 
+steady flight for the clean condition are shown in figure 5 (a), 
+and corresponding results are presented in figure 5 (b) for 
+the landing condition. 
+
+As would be expected, no alterations in stick-fixed charac- 
+teristics ( b e against C N ) resulted from use of the booster. 
+
+
+
+L-64873 
+
+
+Figure 3. — Orientation of booster unit in B-29 airplane. 
+
+
+STABILITY AND CONTROL OF A B~29 AIRPLANE WITH A BOOSTER IN THE ELEVATOR-CONTROL SYSTEM 
+
+
+
+Figure 4. -Three-view drawing of B-29 airplane. 
+
+
+REPORT 1076 NATIONAL ADVISORY COMMITTEE FOR AERONAUTICS 
+
+
+
+
+
+(a) Clean condition. Flaps and gear up; normal rated power. (b) Landing condition. Flaps and gear down; power off. 
+
+Figure 5. — Effect of the booster on the static longitudinal stability characteristics of the B-29 airplane. 
+
+
+Although the elevator-force variations with normal-force 
+coefficient were reduced approximately in inverse proportion 
+to the boost ratio, the general behavior of these variations 
+was not significantly altered by the booster. Note, for 
+example, that the results for the clean condition (fig. 5 (a)), 
+both with and without boost, show that the control forces 
+tended to lighten as the stalling speed was approached. The 
+flight data obtained from these static-stability tests showed 
+appreciably more scatter with boost off than with boost on 
+particularly at high normal-force coefficients (low speeds). 
+The difference in the scatter obtained between boost-on and 
+boost-off tests is a reflection of the fact that the pilots 
+could attain and hold a given trim speed more easily with the 
+booster operating. This scatter is probably caused by the 
+large magnitude of the friction present in the elevator- 
+control system of the test airplane (about 25 lb when 
+measured on the ground). This friction was reduced along 
+with the aerodynamic forces through use of the booster. 
+
+In order to determine whether the booster altered the 
+control characteristics of the test airplane under conditions 
+of rapid control movements or with the controls free, a series 
+of abrupt pull-ups were made, each followed by release of the 
+control stick. These maneuvers were made both with boost 
+
+
+ratio 2.8 and without boost. The available rate of control 
+motion for the tests with boost on was 100° per second. 
+Time histories of the airplane motions, control motions, and 
+control forces obtained during these tests at an indicated 
+airspeed of 160 miles per hour are presented in figure 6 (a) 
+and time histories obtained at- 250 miles per hour are pre- 
+sented in figure 6 (b). The curves showing the rate of con- 
+trol motion presented in the time histories with boost on were 
+determined from measurements of the position of the pump 
+control arm which is proportional to control rate. Similar 
+variations were not obtained for the boost-off tests because 
+the method of measurement was not applicable to the direct 
+control system. 
+
+Comparison of the boost-off and boost-on time histories at 
+both airspeeds shows that the pilot applied a much more 
+abrupt control deflection when working against the smaller 
+forces encountered with the booster in operation. In both 
+cases the pilot intended to apply control as abruptly as 
+possible. Even for the rapid control motions used in the 
+boost-on tests, no appreciable lag existed between motion of 
+the stick and the control surface. (See fig. 6.) For the 
+abrupt pull-up at 160 miles per hour with boost ratio 2.8 the 
+
+
+STABILITY AND CONTROL OF A B 29 AIRPLANE WITH A BOOSTER IN THE ELEVATOR-CONTROL SYSTEM 
+
+
+7 
+
+
+
+(a) Indicated airspeed; 160 miles per hour. 
+
+Fir, i re 6. Time histories of abrupt pull-ups of the B-29 airplane each followed by release of the control stick showing the effects of the booster 
+
+
+stick-force variation shown in figure 6 (a) exhibits a peak 
+which is not present for the pull-up without boost. This 
+force peak, which is in phase with the rate of control motion, 
+results at least in part from the use of centering springs on 
+the pump control arm. This component of the control force 
+opposes the control velocity. I he force is of significant 
+magnitude only when this rate of control motion is very high 
+as may be seen by the lack of this force peak lor the abrupt 
+pull-up, boost on, at 250 miles per hour where the stick was 
+
+
+moved at a slower rate. This characteristic was not objec- 
+tionable to the pilots. Results of other handling-qualities 
+investigations have indicated that such forces may be 
+advantageous since a more adequate warning ot possible 
+large normal accelerations is presented to the pilot whenever 
+control is applied rapidly. Another point worth noting from 
+these time histories is that the largest control rate used by 
+the pilot, when he purposely attempted to apply abrupt 
+control, was about 70° per second. 
+
+
+217188—52 2 
+
+
+/ 
+
+
+8 
+
+
+REPORT 1076 — NATIONAL ADVISORY COMMITTEE FOR AERONAUTICS 
+
+
+Boost ratio t.O ( booster off) Boost ratio 2.8 
+
+
+
+(b) Indicated airspeed; 250 miles per»hour. 
+Figure 6.— Concluded. 
+
+
+The stick-free dynamic characteristics of the test airplane 
+are also indicated by the time histories presented in figure 6. 
+For both airspeeds and for both boost conditions, the motions 
+of the controls and airplane following release of the stick 
+were deadbeat. At an indicated airspeed of 160 miles per 
+hour, both with and without boost, the elevator did not 
+return to its trim position following release of the stick. 
+
+
+This condition results from the aforementioned control 
+friction and, since the friction exists between the booster 
+and the elevator, the use of boost does not affect the center- 
+ing tendency. At higher speeds the centering tendency of 
+the elevator was much improved because of the larger magni- 
+tude of the aerodynamic hinge moments in relation to the 
+control friction. (See fig. 6 (b).) 
+
+
+9 
+
+
+STABILITY AND CONTROL OF A B~29 AIRPLANE WITH A BOOSTER IN THE ELEVATOR-CONTROL SYSTEM 
+
+
+Control-force investigation. — The variations of elevator 
+force with normal acceleration (in g units) as measured in 
+turns are presented in figure 7 for various values of boost 
+ratio. Variations are shown for indicated airspeeds of 160, 
+200, and 250 miles per hour in figures 7 (a), 7 (b), and 
+7 (c), respectively. 
+
+The use of the booster in the B-29 airplane decreased the 
+elevator-force gradients in approximately inverse proportion 
+to the boost ratio, but otherwise did not significantly affect 
+the control characteristics of the test airplane in steady 
+turning flight. As indicated in figure 7, the control-force 
+gradients of the test airplane increased with increasing air- 
+speed. Without boost and at an indicated airspeed of 250 
+miles per hour, the force gradient is about 140 pounds per g 
+normal acceleration; whereas at 160 miles per hour the force 
+gradient is about 90 pounds per g . The pilots conducting 
+these tests felt that the control forces encountered without 
+boost were tolerable but heavy. The large force gradients 
+at high speeds contribute to pilot fatigue when flying in for- 
+mation, flying through rough air, or flying under other con- 
+ditions where frequent control applications are required. 
+The decrease in force gradient with decreasing airspeed, 
+however, had the advantage of improving the handling 
+qualities of the test airplane during landings over those 
+
+
+
+(a) Indicated airspeed; 160 miles per hour. 
+
+Fic.ure 7— E fleet of the booster on the variation of elevator-control force with normal 
+acceleration for the B-29 airplane as measured in turns. 
+
+
+existing for several other large airplanes. Because of this 
+decrease with speed, the test airplane with boost off could be 
+landed with one hand on the control wheel and without the 
+necessity for retrimming when the power is cut prior to ground 
+contact although the forces were high under this condition. 
+
+With the booster operating at boost ratio 2.8 the control- 
+force gradients measured in turns were reduced to about 30 
+pounds per g at 160 miles per hour and to about 50 pounds 
+per g at 250 miles per hour. In the opinion of the test 
+pilots, force gradients of these magnitudes were much more 
+desirable than those encountered without boost. The max- 
+imum permissible normal acceleration (fould be obtained at 
+high speed without an objectionably large amount of pilot 
+effort, but the gradients were still large enough to provide 
+the pilot with adequate control feel. The longitudinal con- 
+trol characteristics of the airplane during landings were 
+considered excellent. With the lower force gradients, the 
+pilots found that errors in the approach just prior to ground 
+contact were easier to correct so that good “touchdowns 1 ’ 
+could be made even with relatively poor approaches. 
+
+
+
+(b) Indicated airspeed; 200 miles per hour. 
+Fioi re 7.— Continued. 
+
+
+10 
+
+
+REPORT 1076 — NATIONAL ADVISORY COMMITTEE FOR AERONAUTICS 
+
+
+
+(c) Indicated airspeed; 2.50 miles per hour. 
+
+Fioure 7. — Concluded. 
+
+As shown in figure 7 , use of boost ratio 4.6 resulted in force 
+gradients of the test airplane of about 30 pounds per g at 
+250 miles per hour and about 20 pounds per g at 160 miles 
+per hour. The pilots, however, still considered force gradients 
+of these magnitudes satisfactory and, although these gra- 
+dients were not so desirable as those obtained with boost 
+ratio 2.8, they were more desirable than the gradients ob- 
+tained without boost from consideration of the handling 
+qualities. Possibly this opinion might have been altered if 
+the force gradients of the test airplane had not increased 
+with speed. This contention is borne out to some extent by 
+the test results for boost ratio 8.2; under this condition, the 
+force gradient was about 17 pounds per g at 250 miles per 
+hour, but the gradients were considered undesirably light 
+by the pilots throughout the speed range of the tests. 
+
+
+The control-force gradients specified as satisfactory in 
+present handling-qualities requirements for the airplane class 
+which includes the test airplane are given in the following 
+form (reference 2): 
+
+1 20 
+
+Maximum force per q - 
+
+n— 1 
+
+4 5 
+
+Minimum force per q -- 
+
+where n is defined as the limit load factor and is included as 
+an integral part of the specification in an attempt to com- 
+pensate for differences in the strength of airplanes. The 
+relationship between the specified force gradients and those 
+that were measured for the test airplane is somewhat vague 
+in that the limit load factor varies with gross weight. The 
+limit load factor of the test airplane is 3 g at the design gross 
+weight of 105,000 pounds but is reduced to 2.67 g at 120,000 
+pounds (a more normal operating gross weight). With 
+either limit load factor, however, the force gradients for the 
+test airplane without boost are appreciably above the upper 
+specified limit; whereas, with a boost ratio of 2.8, the force 
+gradients are entirely within the specified limits. The force 
+gradients of the test airplane with a boost ratio of 4.6 w r ere 
+near or somewhat below r the lower specified limit. 
+
+The effect of lov r force gradients on the probability of 
+exceeding the limit load factor during abrupt evasive ma- 
+neuvers was not investigated because an evaluation of this 
+effect would require an extremely great amount of fligli t 
+experience with airplanes having low force gradients. For 
+airplanes with very low' limit load factors, the range of 
+control-force gradients dictated by handling-qualities consider- 
+ations may tend to endanger the structural integrity of the 
+airplane ; for this case, an immediate need is indicated for a 
+means of load limitation other than the control-force gra- 
+dients encountered in normal flying. 
+
+The effect of the magnitude of the elevator-control force 
+gradients on the handling qualities of the test airplane dur- 
+ing landings is indicated in figure 8. Time histories of 
+three landings are presented. A landing without boost is 
+show n in figure 8 (a), a landing with boost ratio 2.8 is shown 
+in figure 8 (b), and a landing with boost ratio 4.6 is shown in 
+figure 8 (c). 
+
+The time histories indicate that pilot technique in perform- 
+ing landings is similar regardless of the magnitude of the 
+control forces. In general, control w^as applied during the 
+test landings by a series of abrupt applications of pull force 
+followed almost immediately by a partial release of the force 
+without actually pushing on the stick. The peak pull forces 
+which were applied during the landings without boost were 
+generally about 80 pounds. This peak value is high in 
+
+
+STABILITY AND CONTROL OF A B~29 AIRPLANE WITH A BOOSTER IN THE ELEVATOR-CONTROL SYSTEM 
+
+
+11 
+
+
+
+terms of the physical capabilities of a normal pilot when using 
+one hand for control application. Because control was 
+applied in an almost continuous series of abrupt force 
+applications, the magnitude of these peak forces is also 
+
+
+indicative of appreciable work required on the part of the 
+pilot. 
+
+During the landing with the booster operating at boost 
+ratio 2.8 (fig. 8 (b)) the peak pull forces used were about 40 
+
+
+12 
+
+
+REPORT 1076 — NATIONAL ADVISORY COMMITTEE FOR AERONAUTICS 
+
+
+
+(b) Boost ratio, 2.8. 
+Figuke 8. — Continued. 
+
+
+pounds. Although the peak force reduction over the condi- 
+tion of boost off is appreciable, the force reduction is not as 
+great as would be expected from the difference in boost 
+ratio. These results indicate that the pilot used larger 
+elevator deflections to control the airplane when the forces 
+were reduced. For the landing with boost ratio 4.6 the 
+peak pull forces were about 20 pounds (fig. 8 (c)) except 
+immediately before ground contact where the pilot applied 
+rapid corrective control. This characteristic of applying 
+rapid corrections just before touchdown was noted for 
+several other landings where the booster was used; however 
+
+
+without boost, such action was rarely taken, apparently 
+because the forces involved were large. 
+
+Control-rate investigation. — There are several additional 
+results concerned with pilot technique during landings that 
+are worth noting. As shown in figure 8, the largest rate of 
+elevator motion involved in the abrupt control applications 
+during landings was about 40° per second. In spite of these 
+rapid con (j-ol movements, however, the time histories show 
+that the normal accelerations and pitching velocities were 
+small and that abrupt control deflections were applied ovei 
+such short time intervals that the flight path of the airplane 
+
+
+STABILITY ANI) CONTROL OF A B -29 AIRPLANE WITH A BOOSTER IN THE ELEVATOR-CONTROL SYSTEM 
+
+
+13 
+
+
+
+(c) Boost ratio, 4.0. 
+Fioure 8.— Concluded. 
+
+
+was not significantly altered. These observations indicate 
+that the rapid control application is merely a feature of pilot 
+technique. 
+
+The preceding statements concerning the usual pilot 
+control technique used in landings may have an important 
+bearing on the maximum control rates that are required in a 
+booster system. Since the airplane does not significantly 
+respond to control applications applied over a short time 
+interval, satisfactory landings could possibly be made with 
+smoother control movements involving much lower rates of 
+control motion. In order to investigate this possibility, a 
+
+
+series of boost-on landings were made with the maximum 
+control rate of the system restricted to low values. Time 
+histories of three landings using restricted control rates in 
+the booster system are presented in figure 9. Landings with 
+rate restrictions of approximately 20°, 10°, and 7° per second 
+are shown in figures 9 (a), 9 (b), and 9 (c), respectively. 
+
+During landings with restricted control rates, the pilot 
+invariably called for higher rates than were available just 
+before ground contact. This condition is indicated in figure 9 
+by the dashed lines representing the maximum available 
+control rate. For these conditions, the pilot moved the 
+
+
+14 
+
+
+REPORT 1076 — NATIONAL ADVISORY COMMITTEE FOR AERONAUTICS 
+
+
+
+FioURE 9.— Time histories of landings of the B-29 airplane showing the effects of variation in maximum available rate of control motion supplied by the booster. Boost ratio, 2.8. 
+
+
+control stick faster than the rate at which the elevator was 
+moved by the booster, but these differences in stick and 
+elevator rate did not exist over a sufficiently long time 
+interval to cause the pilot’s stick to contact the fixed stops 
+in the system (1J4° error in position). The lag in the elevator 
+motion even for the largest rate restriction was never large 
+enough to be detected by the pilot in terms of the airplane 
+response. 
+
+Also indicated by the time histories in figure 9 is a pro- 
+gressive reduction in the rate which the pilot moved the stick 
+as the available elevator rate was reduced, even though the 
+stick could be moved at any desired rate within the fixed 
+stop limits. This result apparently stems from the force 
+feedback of the preloaded springs which connected the 
+push-pull rod to the pump control arm. These springs 
+deflected whenever rates higher than the maximum available 
+
+
+were called for by the pilot. Although this force feedback 
+was not objectionable to the pilots, there is a possibility of 
+making this force feedback small (weak springs) and elimi- 
+nating the fixed stops in the system. With such modifica- 
+tions the pilot could move the stick without limit at any rate 
+though the system rate was restricted. The pilot would 
+then have no indication of a restricted rate of control motion 
+unless the restriction could be detected in the response of 
+the airplane. 
+
+With the system as used for the present tests, the pilots 
+felt that the handling qualities of the airplane were satis- 
+factory even with the control rate restricted to the lowest 
+value of 7° per second. As mentioned previously, some 
+detection of the rate restriction was possible because of the 
+forces applied by the preloaded springs. Apparently no 
+real sense of lack of control was encountered, however, 
+
+
+STABILITY AND CONTROL OF A B-29 AIRPLANE WITH A BOOSTER IN THE ELEVATOR-CONTROL SYSTEM 
+
+
+15 
+
+
+
+(b) Maximum available rate, 10° per second. 
+Figure 9.— Continued. 
+
+
+possibly because the pilot could continue to move the stick 
+against the spring force. 
+
+During several landings with restricted control rates the 
+pilot intentionally started the landing flare well off the 
+ground and had to correct for this error. Other landings 
+were made in which the flare was delayed beyond the point 
+where it would normally have been initiated. Even with the 
+lowest available control rates used in these tests, no com- 
+plications were involved in correcting for these conditions. 
+
+Although results are presented herein only for landings, 
+which were felt to be the most important maneuver from the 
+standpoint of rate of elevator motion, the handling charac- 
+teristics of the test airplane with restricted control rates 
+were qualitatively investigated for other flight conditions. 
+
+
+No unsatisfactory characteristics were evident during normal 
+take-off where the control stick is held forward until take-off 
+speed is approached and then gradually pulled back to lift 
+the nose wheel. Another take-off* technique was also 
+investigated as being more critical than the normal pro- 
+cedure. For this test, the stick was held full back from the 
+beginning of the take-off run. Under these conditions, the 
+airplane has an unstable pitching tendency when the nose 
+wheel rises off the ground, but even with the lowest available 
+rate of elevator motion, the pilot experienced no difficulty 
+in controlling this pitching tendency. During the tests, the 
+pilots could easily contact the fixed stops (I/2 0 error in stick 
+position) during taxying and also in flight by purposely 
+moving the stick in an abrupt manner. In normal maneuvers, 
+
+
+16 
+
+
+REPORT 1076 — NATIONAL ADVISORY COMMITTEE FOR AERONAUTICS 
+
+
+
+(c) Maximum available rate, 7° per second. 
+Figure 9.— Concluded. 
+
+
+other than landings, however, the elevator rates used 
+did not exceed a value corresponding to the greatest rate 
+restriction of 7° per second. 
+
+The results of this investigation indicate that airplanes 
+may have satisfactory handling qualities with a booster 
+having much lower control rates available than those nor- 
+mally used by pilots. These results, however, are not 
+intended to provide a quantitative indication of minimum 
+satisfactory control rates since they apply strictly to the test 
+airplane in the configurations used in the tests. The static 
+stability characteristics of the test airplane shown in figure 
+5 indicate that at the test center-of-gravity position only 
+moderate variations of elevator deflection with normal-force 
+
+
+coefficient were required. Possibly with a more forward 
+center-of-gravity position somewhat larger control rates 
+would be necessary in order to provide satisfactory control 
+characteristics. In addition, past handling-qualities experi- 
+ence on other airplane types indicates a possibility that 
+higher rates of control motion would be required on smaller 
+airplanes. 
+
+CONCLUSIONS 
+
+Measurements of the longitudinal stability and control 
+characteristics of a Boeing B-29 airplane have been made 
+with a control-surface booster incorporated in the elevator- 
+control system. Effects of variations in the magnitude of 
+the pilot’s control force were determined as well as effects of 
+
+
+STABILITY AND CONTROL OF A B~29 AIRPLANE WITH A BOOSTER IN THE ELEVATOR-CONTROL SYSTEM 
+
+
+17 
+
+
+variations in the maximum rate of control motion supplied 
+by the booster system. The following conclusions were 
+drawn: 
+
+1. The longitudinal stability and control characteristics 
+of the B-29 airplane were not significantly altered through 
+use of the booster except for a reduction in the magnitude of 
+the control-force gradients. 
+
+2. The elevator control-force variations with normal 
+acceleration for the B-29 airplane without boost were about 
+140 pounds per g at an indicated airspeed of 250 miles per 
+hour and about 90 pounds per g at 160 miles per hour. The 
+pilots conducting these tests felt that the control forces 
+without boost were tolerable but heavy. 
+
+3. Use of the booster to adjust the control-force gradients 
+to about 50 pounds per g at 250 miles per hour and about 30 
+pounds per g at 160 miles per hour appreciably improved the 
+handling qualities of the test airplane. 
+
+4. Further reduction in control-force gradients through 
+use of the booster to about 30 pounds per g at 250 miles per 
+hour and about 20 pounds per g at 160 miles per hour still 
+provided satisfactory control forces in terms of pilots’ 
+opinions of their ability to control the airplane precisely in 
+normal flight maneuvers. From consideration of the han- 
+dling qualities these force gradients were more satisfactory 
+than those encountered without boost but were not so 
+desirable as the range stated in conclusion 2. The effect 
+of these lower force gradients or the probability of exceeding 
+the limit load factor could not be investigated. 
+
+5. The highest rate of elevator-control motion used by the 
+pilots during landings of the test airplane was about 40° 
+per second. The highest rate of control motion obtained 
+when the pilot purposely moved the control rapidly in an 
+abrupt pull-up was about 70° per second. 
+
+6. During the part of the landings where high control 
+rates were used, large control deflections were held for such 
+short time intervals that the flight path of the airplane v r as 
+not significantly altered. 
+
+7. During boost-on landings with the available rate of 
+control motion restricted to values as low as 7° per second, 
+no unsatisfactory control characteristics were encountered. 
+The pilots did not note any undesirable restrictions on their 
+ability to move the control stick rapidly regardless of the 
+rate of control motion available possibly because the stick 
+could be moved at any rate desired (against light preloaded 
+springs) until an error of 1 K° was attained between the stick 
+
+
+and the control surface. This large a value of error was not 
+encountered during these landings. 
+
+8. Qualitative investigation of other flight conditions such 
+as take-offs and normal flying indicated that no unsatisfac- 
+tory control characteristics resulted from restricting the rate 
+of control motion to 7° per second. 
+
+
+Langley Aeronautical Laboratory, 
+
+National Advisory Committee for Aeronautics, 
+Langley Field, Va., April 12 , 1950. 
+
+REFERENCES 
+
+1. Mathews, Charles W., and Kleckner, Harold F.: Theoretical 
+
+Analysis and Bench Tests of a Control-Surface Booster Employing 
+a Variable Displacement Hydraulic Pump. NACA RM L6H30, 
+1 945. 
+
+2. Anon.: Flying Qualities of Piloted Airplanes. U. S. Air Force 
+
+Specification No. 1815-B, June 1, 1948. 
+
+TABLE I 
+
+GENERAL SPECIFICATIONS OF B-29 AIRPLANE 
+
+
+General: 
+
+Manufacturer 
+
+Type 
+
+Engines: 
+
+Manufacturer 
+
+Type 
+
+Normal rating 
+
+Propellers: 
+
+Manufacturer 
+
+Hub No 
+
+Blade No 
+
+Wing: 
+
+Area (including ailerons), sq ft__ 
+
+Area (flaps extended), sq ft 
+
+Aspect ratio 
+
+Taper ratio 
+
+Aileron area (total), sq ft 
+
+Flap area, sq ft 
+
+Horizontal tail: 
+
+Area, sq ft 
+
+Aspect ratio 
+
+Taper ratio - - 
+
+Elevator area, sq ft 
+
+Vertical tail: 
+
+Fin area (including dorsal), sq ft 
+Rudder area, sq ft __ - __ 
+
+
+Boeing Aircraft Corp. 
+TB-29-56-BYV 
+
+
+Wright Aeronautical Corp. 
+
+R3350-23A 
+
+2,000 lip at 2,400 rpm 
+
+Hamilton Standard 
+
+24-F60-35 
+
+6521A-0 
+
+1, 739 
+
+2, 071 
+
+11.5 
+
+0. 43 
+
+129 
+
+332 
+
+333 
+
+5 . 55 
+
+0.42 
+
+115 
+
+132 
+
+65. 5 
+
+
+U. S. GOVERNMENT PRINTING OFFICE: 1953 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,3492 @@
+AFCTN  Report 
+94-080 
+
+
+AFCTB-ID 
+
+94-038 
+
+
+it 
+
+
+Technical  Manual  Transfer  Using: 
+
+TO.  31R2-2FRC181-42 
+
+Raytheon  Company's  Data 
+Supporting: 
+
+ESC/MSK's  MILSTAR  Program 
+
+
+(Contract  #F19628-89-C-0131/LRIP) 
+
+MIL-STD-1840A 
+MIL-D-28000A  (IGES) 
+MIL-M-28001A  (SGML) 
+MIL-D-28003  (CGM) 
+
+
+Quick  Short  Test  Report 
+
+
+08  May  1994 
+
+
+Prepared  for 
+
+Electronic  Systems  Center 
+Air  Force  CALS  Program  Office 
+HQ  ESC/AV-2 
+
+
+4027  Colonel  Glenn  Hwy  Suite  300 
+Dayton  OH  45431-1672 
+
+
+CiSTRIBUnON  STATEMENT  A 
+
+Approved  for  public  release; 
+_  _  Kstribulioa  Uniiadte^ 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB-ID 
+
+94-038 
+
+
+Technical  Manual  Transfer 
+TO  31R2-2FRC181-42 
+
+Using: 
+
+Raytheon  Company's  Data  Supporting: 
+ESC/MSK's  MILSTAR  Program 
+
+(Contract  #F19628-89-C-0131/LRIP) 
+
+MIL-STD-1840A 
+MIL-D-28000A  OGES) 
+MIL-M-28001A  (SGML) 
+MIL-D-28003  (CGM) 
+
+Quick  Short  Test  Report 
+
+08  May  1994 
+
+
+Prepared  By 
+
+Air  Force  CiALS  Test  Bed 
+Wright -Patterson  AFB,  OH  45433 
+
+AFCTB  Contact 
+
+Gary  Lammers 
+(513)  427-2295 
+
+AFCTN  Contact 
+
+Mel  Lammers 
+(513)  427-2295 
+
+
+QtJALIT?  mSPBCTlD  3 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+DISCLAIMER 
+
+
+This  doctiment  was  prepared  as  an  account  of  the  work  spon¬ 
+sored  by  the  Air  Force.  Neither  the  United  States  Govern¬ 
+ment,  the  Air  Force,  nor  any  of  their  employees  makes  any 
+warranty,  express  or  implied,  or  assiames  any  legal  liability 
+or  responsibility  for  the  accuracy,  completeness,  or  use¬ 
+fulness  of  any  information,  apparatus,  product,  or  process 
+disclosed,  nor  represents  that  its  use  would  not  infringe  on 
+privately  owned  rights.  Reference  herein  to  any  specific' 
+commercial  products,  process,  or  service  by  trade  name, 
+trademark,  manufacturer,  or  otherwise,  does  not  necessarily 
+constitute  or  iitply  its  endorsement,  recommendation,  or 
+favoring  by  the  United  States  Government  or  the  Air  Force. 
+The  views  and  opinions  of  authors  expressed  herein  do  not 
+necessarily  state  or  reflect  those  of  the  United  States 
+Government  or  the  Air  Force,  and  shall  not  be  used  for 
+advertising  or  product  endorsement  purposes. 
+
+
+Available  to  the  public  from  the 
+National  Technical  Information  Service 
+U.S.  Department  of  Commerce 
+5285  Port  Royal  Road 
+Springfield,  VA  22161 
+
+
+This  report  and  those  involved  in  its  preparation  do  not 
+endorse  any  product,  process,  or  company  stated  herein.  Use 
+of  these  means  by  anyone  does  not  imply  certification  by  the 
+Air  Force  CALS  Test  Network  (AFCTN) . 
+
+
+Air  Force  CALS  Test  Bed 
+
+Notification  of  T est  Results 
+
+08  May  1994 
+
+This  notice  documents  the  results  of  an  Air  Force  CALS  Test  Bed  (AFCTB)  Quick 
+Short  Test  Report  (QSTR)  evaluation  of  data  submitted  by: 
+
+Raytheon  Company 
+
+Identified  as  follows: 
+
+Tide:  Technical  Manual  Transfer  TO  31R2-2FRC 181-42 
+
+Program:  MILSTAR 
+
+Program  Office:  ESC/MSK 
+
+Contract  No.:  F19628-89-C-0131/LRIP 
+
+QSTRNo.:  AFCTB-ID  94-038 
+
+Received  on  the  following  media:  9-Track  Tape 
+
+The  results  of  the  AFCTB  Quick  Short  Test  evaluation  are  as  follows: 
+
+
+MIL-STD-1840A  Standard  Pass 
+
+MIL-STD-1840A  Media  Format:  Pass 
+
+MIL-D-28000A  IGES:  Pass 
+
+MIL-M-28001 A  SGML:  Pass 
+
+MIL-R-28002A  Raster:  N/A 
+
+MIL-D-28003  CGM:  Pass 
+
+
+Formal  results  with  associated  disclaimer  are  documented  and  available  from  the 
+AFCTB. 
+
+Air  Force  CALS  Test  Bed 
+HQ  ESC/A V-2P 
+
+4027  Colonel  Glenn  Highway,  Suite  300 
+Dayton,  OH  45431-1672 
+
+Phone:  513-257-3085  FAX:  513-257-5881 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+Contents 
+
+1.  Introduction . 1 
+
+1.1.  Ba  ckgr  ound . 1 
+
+1.2.  Purpose . 2 
+
+2.  Test  Parameters . 3 
+
+3.  1840A  Analysis . 6 
+
+3.1.  External  Packaging . 6 
+
+3.2.  Transmission  Envelope . 6 
+
+3.2.1.  Tape  Formats . 6 
+
+3.2.2.  Declaration  and  Header  Fields . 7 
+
+4 .  IGES  Analysis . 7 
+
+5.  SGML  Analysis . 9 
+
+6.  Raster  Analysis . 10 
+
+7 .  CGM  Analysis . . 10 
+
+8.  Conclusions  and  Recommendations . .13 
+
+9  .  Appendix  A  -  Tapetool  Report  Logs . 14 
+
+9.1.  Tape  Catalog . 14 
+
+9.2.  Tape  Evaluation  Log . 15 
+
+9.3.  Tape  File  Set  Validation  Log . 16 
+
+9.4.  Other  Tape  Reading  Logs . 20 
+
+
+iii 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+10.  Appendix  B  -  Detailed  IGES  Analysis . 21 
+
+10.1.  File  D001Q020 . 21 
+
+10.1.1.  Parser/Verifier  Log . 21 
+
+10.1.2.  Parser  Log  -  IGESWorks . 27 
+
+10.1.3.  Output  CADLeaf . 30 
+
+10.1.4.  Output  CALSView  . 31 
+
+10.1.5.  Output  IGESView . 32 
+
+10.1.6.  Output  iges2draw/IslandDraw . 33 
+
+10.1.6.1.  Normal  Translation . 33 
+
+10.1.6.2.  Bounded  Data  Translation. .. .33 
+
+11.  Appendix  C  -  Detailed  SGML  Analysis . 34 
+
+11.1.  Parser  Log . 34 
+
+11.1.1.  DTD  Log  File . 34 
+
+11.2.  Exoterica  XGMLNormalizer  Parser . 35 
+
+11.3.  Exoterica  validator  Parser . 35 
+
+11.4.  Serna  Mark-it  Log . 35 
+
+11.5.  Public  Domain  sgmls  Log . 35 
+
+12.  Appendix  E  -  Detailed  CGM  Analysis . 3  7 
+
+12.1.  File  D001C005 . 37 
+
+12.1.1.  Parser  Log  MetaCheck . 37 
+
+12.1.2.  validcgm  Log . 39 
+
+12.1.3.  Output  CADLeaf . 40 
+
+12.1.4.  Output  CALSView . 41 
+
+12.1.5.  Output  cgm2 draw/  Is landDraw . 42 
+
+
+IV 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+12.1.6.  Output  Designer . 43 
+
+12.1.7.  Output  Freelance . 44 
+
+12.1.8.  Output  Harvard  Graphics . 45 
+
+12.1.9.  Output  IslandDraw  v4 . 0  . 46 
+
+12.1.10.  Output  X-Change . 47 
+
+12.1.11.  Output  Ventura  Publ isher . 48 
+
+
+V 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+1.  Introduction 
+1.1  Background 
+
+
+The  Department  of  Defense  (DoD)  Air  Force  Continuous  Acqui¬ 
+sition  and  Life-cycle  Support  (CALS)  Test  Network  (AFCTN)  is 
+conducting  tpsts  of  the  military  standard  for  the  Automated 
+Interchange  of  Technical  Information,  MIL-STD-1840A,  and  its 
+companion  suite  of  military  specifications.  The  AFCTN  is  a 
+DoD  sponsored  confederation  of  voluntary  participants  from 
+industry  and  government  managed  by  the  Electronic  Systems 
+Center  (ESC) . 
+
+The  primary  objective  of  the  AFCTN  is  to  evaluate  the 
+effectiveness  of  the  CALS  standards  for  technical  data 
+interchange  and  to  demonstrate  the  technical  capabilities 
+and  operational  suitability  of  those  standards.  Two  general 
+categories  of  tests  are  performed  to  evaluate  the  standards; 
+formal  and  informal . 
+
+Formal  tests  are  large  and  comprehensive,  which  follow  a 
+written  test  plan,  require  specific  authorization  from  the 
+DoD,  and  may  take  months  to  prepare,  execute,  and  report. 
+
+Informal  tests  are  quick  and  short,  used  by  the  AFCTN 
+technical  staff,  to  broaden  the  testing  base.  They  include 
+representative  samples  of  the  many  systems  and  applications 
+used  by  AFCTN  participants.  They  also  allow  the  AFCTN  staff 
+to  gain  feedback  from  many  industry  and  government  inter¬ 
+pretations  of  the  standards,  to  increase  the  base  of  par¬ 
+ticipation  in  the  CALS  initiative,  and  respond  to  the  many 
+requests  for  help  that  come  from  participants.  Participants 
+take  part  voluntarily,  benefit  by  receiving  an  evaluation  of 
+their  latest  implementation  (interpretation)  of  the  stan¬ 
+dards,  interact  with  the  AFCTN  technical  staff,  gain  expe¬ 
+rience  using  the  standards,  and  develop  increased  confidence 
+in  them.  The  results  of  informal  tests  are  reported  in 
+Quick  Short  Test  Reports  (QSTRs)  that  briefly  svimmarize  the 
+standard (s)  tested,  the  hardware  and  software  used,  the 
+nature  of  the  test,  and  the  results. 
+
+
+1 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+1.2  Purpose 
+
+
+The  purpose  of  the  informal  test,  reported  in  this  QSTR,  was 
+to  analyze  Raytheon's  interpretation  and  use  of  the  CALS 
+standards  in  transferring  technical  manual  data.  Raytheon 
+used  its  CALS  Technical  Data  Interchange  System  to  System  to 
+produce  data,  in  accordance  with  the  standards,  and  deliv¬ 
+ered  it  to  the  AFCTN  technical  staff  on  a  9 -track  magnetic 
+tape.  The  delivered  package  is  a  sample  of  ESC/MSK's 
+MILSTAR  data  delivered  to  the  government. 
+
+
+2 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+2.  Test  Parameters 
+
+
+Test  Plan; 
+
+Date  of 
+Evaluation: 
+
+Evaluator: 
+
+
+Data 
+
+Originator: 
+
+
+Data 
+
+Description: 
+
+
+Data 
+
+Source  System: 
+
+1840 
+
+
+AFCTB  94-038 
+
+
+8  May  1994 
+
+George  El wood 
+Air  Force  CALS  Test  Bed 
+DET  2  HQ  ESC/AV-2P 
+4027  Colonel  Glenn  Hwy 
+Suite  300 
+
+Dayton  OH  45431-1672 
+
+
+James  M.  Leighton 
+Raytheon  Company 
+Equipment  Division 
+1001  Boston  Post  Road 
+Marlborough  MA  01752 
+(508)  490-1332 
+
+Major  William  Kent 
+HQ  ESC/MSK 
+MILSTAR  Program 
+Hanscom  AFB  MA  01731-5000 
+
+
+Technical  Manual  Test 
+
+1  Document  Declaration  file 
+4  Docijment  Type  Definitions  (DTD) 
+
+13  Initial  Graphics  Exchange  Specification 
+(IGES)  files 
+
+1  Text/Standard  Generalized  Markup  Language 
+(SGML)  file 
+
+7  Computer  Graphics  Metafile  (CGM)  files 
+
+
+HARDWARE 
+
+SOFTWARE 
+
+
+Beta  Testing  Under  Non-Disclosure 
+Beta  Testing  Under  Non-Disclosure 
+
+
+3 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+IGES 
+
+
+HARDWARE 
+
+Beta  Testing  Under  Non-Disclosure 
+
+SOFTWARE 
+
+Beta  Testing  Under  Non-Disclosure 
+
+
+Text /SGML 
+
+HARDWARE 
+
+Beta  Testing  Under  Non-Disclosure 
+
+SOFTWARE 
+
+Beta  Testing  Under  Non-Disclosure 
+
+
+CGM 
+
+
+HARDWARE 
+
+Beta  Testing  Under  Non-Disclosure 
+
+SOFTWARE 
+
+Beta  Testing  Under  Non-Disclosure 
+
+
+Evaluation  Tools  Used: 
+
+
+MIL-STD-1840A  (TAPE) 
+
+
+SUN  3/280 
+
+AFCTN  Tape  tool  vl.2.10  UNIX 
+XSoft  CAPS /CALS  V40.4 
+
+
+MIL-D-28000  (IGES) 
+
+HP  735 
+
+InterCAP  X-Change  v7.82 
+SGI  Indigo2 
+
+IGES  Data  Analysis  (IDA)  CALSView 
+Sun  SparcStation  2 
+
+ArborText  iges2<3raw 
+Carberry  CADLeaf  Plus  v3.1 
+IDA  Parser /Verifier  v92 
+IDA  IGESView  v3.05 
+
+International  TechneGroup  Incorporated 
+(ITI)  IGES /Works  vl.3 
+Rosetta  Technologies  Prepare 
+Rosetta  Technologies  Preview  v3.2 
+
+
+MIL-M-28001  (SGML) 
+
+SUN  SparcStation  2 
+
+ArborText  ADEPT  v4.2.1 
+
+
+4 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+Standards 
+
+Tested: 
+
+
+PC  486/50 
+
+Exoterica  XGMLNormalizer  vl.2e3.2 
+Exoterica  Validator  v2.2  exl 
+SoftQuad  Author/Editor  v2.1 
+McAfee  &  McAdam  Serna  Mark- it  v2,3 
+Public  Domain  sgmls 
+
+
+MIL -D- 28003  (COM) 
+
+HP  735 
+
+InterCAP  X- Change  v7,82 
+SGI  Indigo  2 
+
+IDA  CALSView 
+SUN  SparcStation  2 
+
+ArborText  cgm2draw 
+Carberry  CADLeaf  Plus  v3,l 
+Island  Software  IslandDraw  v‘3.0 
+Island  Software  IslandDraw  v4.0 
+
+PC  486/50 
+
+Advanced  Technology  Center 
+
+(ATC)  MetaCheck  R  2.10 
+Software  Publishing  Corporation 
+
+(SPC)  Harvard  Graphics  v3.05 
+Inset  Systems  HiJaak  Pro 
+Lotus  Freelance  v2.01 
+Micrografx  Designer  v4.0 
+Corel  Ventura  Publisher 
+
+
+MIL-STD-1840A 
+
+MIL-D-28000A 
+
+MIL-M-28001A 
+
+MIL-D-28003 
+
+
+5 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+3.  1840A  Analysis 
+3.1  External  Packaging 
+
+
+The  tape  arrived  at  the  Air  Force  CALS  Test  Bed  (AFCTB)  en¬ 
+closed  in  a  commercial  overnight  padded  bag.  The  exterior 
+of  the  bag  was  marked  with  a  magnetic  tape  warning  label,  as 
+required  by  MIL-STD-1840A,  para.  5. 3. 1.3. 
+
+The  tape  was  not  enclosed  in  a  barrier  bag  or  barrier  sheet 
+material,  as  required  by  MIL-STD-1840A,  para.  5. 3. 1.2. 
+Inspection  of  the  tape  reel  showed  the  label  indicating  the 
+recording  density,  as  required  by  MIL-STD-1840A,  para. 
+5.3.1.  A  packing  list  showing  all  files  recorded  on  the 
+tape  was  not  enclosed. 
+
+
+3.2  Transmission  Envelope 
+
+
+The  9 -track  tape  received  by  the  AFCTB  contained  MIL-STD- 
+1840A  files.  The  files  were  named  per  the  standard  conven¬ 
+tions. 
+
+3.2.1  Tape  Formats 
+
+
+The  tape  was  run  through  the  AFCTN  Ta.pBt.ool  vl.2.10  utility. 
+No  errors  were  encountered  while  evaluating  the  contents  of 
+the  tape  labels. 
+
+The  tape  was  read  using  XSoft's  CAPS  2:eadl840A  utility 
+without  any  reported  errors.  However,  this  utility  process 
+resulted  in  the  loss  of  three  of  the  four  DTDs_.  This  oc¬ 
+curred  because  the  four  DTDs  had  identical  destination  sys¬ 
+tem  document  (dstdocid)  record  values  and  the  CAPS  TBa(H84:0A 
+utility  renames  the  files  using  the  dstdocid  record  values. 
+(MIL-STD-1840A  permits  identical  dstdocid  values  for  multi¬ 
+ple  files;  MIL-STD-1840B  corrected  this  problem) . 
+
+The  physical  structure  of  the  tape  meets  the  CALS  MIL-STD- 
+1840A  requirements. 
+
+
+6 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+3.2.2  Declaration  and  Header  Fields 
+
+
+No  errors  were  reported  in  the  Document  Declaration  file  and 
+data  file  headers.  This  portion  of  the  tape  meets  the  CALS 
+MIL-STD-1840A  requirements. 
+
+
+4.  IGES  Analysis 
+
+
+The  tape  contained  13  IGES  files.  These  files  were  evalu¬ 
+ated  using  IDA'S  parser/verifier  set  for  CALS  Class  I.  This 
+utility  reported  that  all  files  meet  the  specification  de¬ 
+fined  in  MIL-D-28000A,  Amendment  1.  No  CALS  errors  were 
+reported;  however,  all  files  had  some  basic  IGES  errors. 
+The  reported  errors  were  arcs  with  end  points  not  meeting. 
+These  errors  were  not  noticeable  as  viewed  in  a  technical 
+illustration. 
+
+The  required  conformance  statement  was  found  in  the  start 
+section  of  all  files. 
+
+The  AFCTB  has  several  tools  for  viewing  IGES  files.  These 
+tools  are  not  used  to  generate  a  pass/fail  but  to  report  how 
+commercially  available  software  can  handle  the  files.  Many 
+of  these  products  are  used  in  the  development  of  technical 
+publications  and  are  good  indicators  of  usability.  The  use 
+of  these  products  is  not  an  endorsement  nor  an  indication  of 
+CALS  capability.  All  operations  were  performed  using  the 
+default  settings. 
+
+All  files  were  viewed  by  at  least  three  different  utilities. 
+Because  of  the  nvimber  of  submitted  files,  only  two  files 
+were  selected  for  detailed  analysis. 
+
+The  files  were  converted  using  ArborText's  igres2draw  utility 
+with  no  reported  errors.  The  resulting  files  were  read  into 
+Island  Software's  IslandDraw,  displayed  and  printed  without 
+a  reported  error.  When  viewed,  some  files  only  displayed 
+part  of  the  image.  This  is  due  to  a  negative  value  for  the 
+origin  point  of  the  drawing.  Using  an  undocumented  feature 
+of  the  iges2draw  utility,  this  problem  can  be  corrected.  In 
+file  D001Q020  additional  lines  were  noted.  This  file  had 
+the  arrowheads  added  using  IGES  entity  230,  sectioned  area. 
+Part  of  the  lines  were  to  be  blanked.  The  iges2draw  utility 
+did  not  blank  these  areas  which  resulted  in  extra  lines 
+added  to  the  image. 
+
+
+7 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+/ 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+According  to  Chris  Moffett  of  ArborText,  Inc.,  "This  (or  These) 
+problem (s)  may  be  due  {to}  the  method  in  which  the  original  file  was 
+generated . ” 
+
+
+The  files  were  read  into  Carberry's  CADLeaf  software  without 
+a  reported  error.  CADLeaf  also  displayed  some  partial 
+images.  These  were  also  due  to  the  negative  X  and  Y  origin 
+points  of  the  image  being  bound.  When  the  "bound  data" 
+option  was  selected  the  entire  image  was  displayed.  This 
+utility  also  displayed  the  added  230  entity  lines. 
+
+The  files  were  read  using  IDA'S  CALSView.  The  complete 
+image  was  displayed  with  this  utility.  The  added  lines  from 
+the  entity  230  were  displayed. 
+
+The  files  were  read  using  IDA'S  IGESView  and  IGESView  for 
+Windows.  The  complete  image  was  displayed  with  this  prod¬ 
+uct.  The  added  lines  from  the  entities  230  was  also  dis¬ 
+played  in  file  D001Q020. 
+
+The  files  were  read  using  InterCAPS's  X-Ch^ge.  The  added 
+lines  in  file  D001Q020  were  not  noted  in  this  application. 
+
+The  files  were  read  using  ITI's  IGESWorks  without  a  reported 
+error.  The  files  were  displayed  and  printed.  In  file 
+D001Q020  no  arrowheads  were  displayed. 
+
+
+The  IGES  files  meet  the  CALS  MIL-D-28000A  specification. 
+Some  basic  IGES  errors  were  reported,  but  these  do  not 
+effect  the  displayed  image  in  a  technical  manual.  The 
+negative  origin  point  caused '  problems  in  somie  software 
+applications.  The  use  of  entity  230,  sectioned  area  to 
+create  arrowheads,  resulted  in  added  lines  in  some  applica¬ 
+tions.  These  lines  should  have  been  blanked,  but  displayed. 
+
+
+8 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+5.  SGML  Analysis 
+
+
+The  tape  contained  four  DTD  and  one  SGML  files.  The  AFCTB 
+has  several  parsers  available  for  evaluating  submitted  DTD 
+and  text  files.  These  tools  are  not  used  to  generate  a 
+pass/fail  but  to  report  how  commercially  available  software 
+can  handle  the  files.  These  products  are  used  in  the 
+development  of  technical  publications  and  are  good  indica¬ 
+tors  of  usability.  The  use  of  these  products  is  not  an 
+endorsement  nor  an  indication  of  CALS  capability.  All 
+operations  were  performed  using  the  default  settings  unless 
+specified  in  the  report. 
+
+The  text  and  DTD  files  were  evaluated  using  another  parser 
+available  within  the  AFCTB.  This  parser  could  not  handle 
+the  "IGNORE"  statements  in  the  DTD.  These  were  commented 
+out  and  the  DTDs  parsed  without  a  reported  error. 
+
+The  text  and  DTD  files  were  evaluated  using  the  Exoterica 
+Validator  exl  parser.  One  warning  for  a  mixed  content  model 
+was  issued. 
+
+The  text  and  DTD  files  were  tested  using  the  Exoterica 
+XGMLNormalizer  parser.  No  errors  or  warnings  were  issued  by 
+this  utility. 
+
+The  text  DTD  files  were  evaluated  using  McAfee  &  McAd- 
+am's  Serna  Mark- it  ■v2. 3  parser.  No  errors  or  warnings  were 
+issued  by  this  utility. 
+
+The  text  and  DTD  files  were  evaluated  using  the  Public 
+Domain  sgmls  parser.  This  parser  reported  errors  in  the 
+BSPEC  DTD  in  the  marked  section  area.  It  also  reported 
+errors  for  all  graphics.  The  graphics  callouts  had  been 
+commented  out  by  the  AFCTB  evaluation.  Thus,  the  reported 
+errors  are  not  considered  errors  for  this  report. 
+
+The  text  file  was  imported  into  ArborText's  Adept  software. 
+No  errors  were  issued  by  the  parser.  Because  no  FOSI  was 
+available  for  this  document  type,  it  could  not  be  published. 
+
+The  text  and  DTD  files  meet  the  CALS  MIL-M-28001A  specifi¬ 
+cation. 
+
+
+9 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+6.  Raster  Analysis 
+
+
+No  Raster  files  were  included  in  this  evaluation. 
+
+
+7.  CGM  Analysis 
+
+
+The  tape  contained  seven  CGM  files.  The  files  were  evalu¬ 
+ated  using  ATC's  MetaCheck  with  CALS  options.  This  utility 
+reported  that  all  files  meet  the  CALS  MIL-D-28003  specifi¬ 
+cation. 
+
+The  CGM  files  were  evaluated  using  the  beta  AFCTN  validcgm 
+utility.  This  utility  did  not  report  any  errors  in  the 
+files . 
+
+The  AFCTB  has  several  tools  for  viewing  CGM  files.  These 
+tools  are  not  used  to  generate  a  pass/fail  but  to  report  how 
+commercially  available  software  can  handle  the  files.  Many 
+of  these  products  are  used  in  the  development  of  technical 
+publications  and  are  good  indicators  of  usability.  The  use 
+of  these  products  is  not  an  endorsement  nor  and  indication 
+of  CALS  capability.  All  operations  were  performed  using  the 
+default  settings. 
+
+The  CGM  files  were  converted  using  ArborText's  cgm2draw 
+utility  without  a  reported  error.  The  resulting  files  were 
+read  into  Island  Software's  IslandDraw  v3.1,  displayed  and 
+printed.  All  files  when  initially  displayed  were  black. 
+The  background  color  had  to  be  removed  in  order  to  display 
+the  image.  The  word  CAUTION,  in  the  text  of  file  DO 0 ICO 01, 
+was  longer  than  the  graphic  and  not  centered.  The  three 
+colxomns  of  text  in  file  D001C005  ran  together. 
+
+The  files  were  read  into  Carberry's  CADLeaf  software  and 
+displayed.  The  background  color  in  all  images  had  to  be 
+changed  to  white  in  order  to  display  the  graphic.  The  text 
+in  file  DOOlCOOl  was  longer  than  the  graphic  and  not  cen¬ 
+tered.  The  colximn  text  in  file  D001C005  overlapped. 
+
+The  files  were  read  into  iDA's  CALSView.  The  background 
+color  had  to  be  changed  in  order  to  display  the  image.  'The 
+black  background  color  had  to  be  removed  in  order  to  view 
+the  images.  The  text  in  file  DOOlCOOl  was  centered  on  the 
+graphic  but  was  displayed  as  lines.  The  three  coliimn  text 
+in  file  D001C005  ran  together. 
+
+
+10 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+The  files  were  imported  into  the  Micrografx  Designer  without 
+a  reported  error.  The  background  color  was  not  an  issue 
+with  these  files.  The  text  in  file  DOOlCOOl  was  very  small, 
+covering  approximately  5  percent  of  the  area  across  the  top 
+of  the  graphic.  The  three  column  text  in  file  D001C005 
+displayed  correctly  in  this  utility. 
+
+
+According  to  Michael  Harrison  of  Micrografx,  Inc.,  "Micrografx  is  aware 
+of  the  problems  associated  with  reading  these  files  and  is  working  on  a 
+solution  to  be  implemented  in  a  future  release  of  our  products . " 
+
+
+The  files  were  imported  into  Lotus'  Freelance  and  displayed. 
+The  background  color  had  to  be  removed  in  order  to  display 
+the  images.  The  text  in  file  DOOlCOOl  was  very  small, 
+covering  approximately  5  percent  of  the  area  across  the  top 
+of  the  graphic.  The  three  column  text  in  file  D001C005 
+overlapped. 
+
+The  files  were  imported  into  SPC's  Harvard  Graphics  v3.05 
+without  a  reported  error.  The  background  color  had  to  be 
+changed  in  order  to  display  the  image.  The  three  column 
+text  in  file  DO 0 ICO 05  overlapped. 
+
+The  files  were  read  into  Inset  Systems'  HiJaak  Pro  without  a 
+reported  error.  The  background  color  had  to  be  changed  in 
+order  to  display  the  images.  The  three  column  text  in  file 
+DO 0 ICO 05  overlapped. 
+
+The  files  were  imported  directly  into  Island  Software's 
+IslandDraw  v4.0  without  a  reported  error.  The  background 
+color  had  to  be  changed  in  order  to  display  the  image.  In 
+file  DOOlCOOl  the  text  did  not  display.  The  graphic  image 
+had  additional  areas  displayed.  Parts  of  the  image  did  not 
+display  in  file  D001C005.  The  three  column  text  displayed 
+correctly. 
+
+The  files  were  read  into  InterCAP's  X-Change  without  a 
+reported  error.  The  background  color  had  to  be  removed  in 
+order  to  display  the  image.  The  text  in  file  DOOlCOOl  did 
+not  display  correctly.  The  three  column  text  in  file 
+DO 0 ICO 05  overlapped. 
+
+The  files  were  imported  into  Corel's  Ventura  Publisher 
+without  a  reported  error.  The  background  color  was  not  and 
+issue  with  this  software.  The  text  in  file  DOOlCOOl  was 
+
+
+11 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+very  small.  The  three  column  text  in  file  D001C005  dis¬ 
+played  correctly. 
+
+While  the  CGM  files  meet  the  CALS  MIL-D-28003  specification, 
+all  software  applications  in  the  AFCTB  had  problems  with  the 
+them.  Most  applications  required  the  background  color  be 
+removed  or  changed  before  the  image  could  be  viewed.  Text 
+font  problems  were  noted  in  some  files. 
+
+
+12 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+8.  Conclusions  and  Reconunendations 
+
+The  tape  from  Raytheon  reported  no  errors  in  its  physical 
+structure  or  CALS  headers,  and  meets  the  CALS  MIL-STD-1840A 
+requirements . 
+
+The  IGES  files  meet  the  CALS  MIL-D-28000A,  AmencJment  One 
+specification.  However,  some  applications  had  problems  with 
+the  negative  origin  point  and  the  use  of  entity  230  (sect¬ 
+ion  area)  for  the  arrowhead. 
+
+The  SGML  files  meet  the  CALS  MIL-M-28001A  specification. 
+
+The  files  could  be  parsed  without  a  reported  error.  The  use 
+of  multiple  DTDs  within  the  MIL-STD-1840A  envelop  may  cause 
+problems  on  some  systems.  If  the  files  are  renamed  using 
+information  in  the  CALS  header,  which  is  identical  in  two  or 
+more  DTDs,  all  but  one  of  the  DTDs  will  be  lost. 
+
+The  CGM  files  meet  the  CALS  MIL-D-28003  specification.  How¬ 
+ever,  most  software  applications  in  the  AFCTB  had  problems 
+with  the  black  background  and  graphics.  The  background  had 
+to  be  removed  and  the  color  changed  in  order  to  view  the 
+image.  Text  font  problems  cause  text  overlap  and  a  wide 
+range  of  sizes  in  different  illustrations. 
+
+Even  though  the  tape  and  submitted  files  meet  the  CALS 
+MIL-STD-1840A  requirements,  work  was  necessary  to  make  most 
+of  the  graphic  files  usable  in  the  systems  available  within 
+the  AFCTB. 
+
+
+13 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+9.  Appendix  A  -  Tapetool  Report  Logs 
+9.1  Tape  Catalog 
+
+
+CALS  Test  Network  Catalog  Evaluation  -  Version  1.2;  Release  10  (C) 
+Standards  referenced: 
+
+MIL-STD-1840A  (1987)  -  Automated  Interchange  of  Technical  Information 
+
+ANSI  X3.27  (1987)  -  File  Structure  and  labeling  of  Magnetic  Tapes 
+
+for  Information  Interchange 
+ANSI  X3.4  (1986)  -  Coded  Character  Sets  -  7  Bit  ASCII 
+
+
+Fri  May  6  13:33:31  1994 
+
+MIL-STD-1840A  File  Catalog 
+
+File  Set  Directory:  /cals/ul210/Set067 
+
+
+File  Name 
+
+
+File  Type 
+
+
+Page :  1 
+
+
+Record 
+
+Format/  Block  Selected/ 
+
+Length  Length/Total  Extracted 
+
+
+DOOl 
+
+DOOlCOOl 
+
+D001C002 
+
+
+D001G008 
+
+D001G009 
+
+DOOlGOlO 
+
+DOOlGOll 
+
+D001Q012 
+
+D001Q013 
+
+
+D001Q024 
+
+D001T025 
+
+
+Document  Declaration 
+CGM 
+
+ccai 
+
+
+D/00260  02048/000001  Extracted 
+F/00080  00800/000003  Extracted 
+F/00080  00800/000003  Extracted 
+
+
+««<  PART  OF  LOG  FILE  REMOVED  HERE  »»> 
+
+
+DTD 
+
+DTD 
+
+DTD 
+
+DTD 
+
+IGES 
+
+IGES 
+
+
+D/00260  02048/000001 
+D/00260  02048/000013 
+D/00260  02048/000002 
+D/00260  02048/000002 
+F/00080  02000/000106 
+F/00080  02000/000023 
+
+
+Extracted 
+
+Extracted 
+
+Extracted 
+
+Extracted 
+
+Extracted 
+
+Extracted 
+
+
+««<  PART  OF  LOG  FILE  REMOVED  HERE  »»> 
+
+
+IGES 
+
+Text 
+
+
+F/00080  02000/000058  Extracted 
+D/00260  02048/000034  Extracted 
+
+
+Catalog  Process  terminated  normally. 
+
+
+14 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+9.2  Tape  Evaluation  Log 
+
+
+CALS  Test  Network  Tape  Evaluation  -  Version  1.2;  Release  10  (C) 
+Standards  referenced: 
+
+ANSI  X3.27  (1987)  -  File  Structure  and  labeling  of  Magnetic  Tapes 
+
+for  Information  Interchange 
+ANSI  X3.4  (1986)  -  Coded  Character  Sets  -  7  Bit  ASCII 
+
+Fri  May  6  13:32:40  1994 
+
+ANSI  Tape  Insert  Log 
+
+Allocating  tape  drive  /dev/rmtO . . . 
+
+/dev/ rmtO  allocated . 
+
+VOLlONAOOl 
+
+Label  Identifier:  VOLl 
+Volume  Identifier:  ONAOOl 
+Volume  Accessibility: 
+
+Owner  Identifier: 
+
+Label  Standard  Version:  4 
+
+HDRIDOOI  ONAOOIOOOIOOOIOOOOOO  94077  00000  000000 
+
+Label  Identifier:  HDRl 
+File  Identifier:  DOOl 
+File  Set  Identifier:  ONAOOl 
+File  Section  Niamber:  0001 
+File  Sequence  Number:  0001 
+Generation  Number:  0000 
+Generation  Version  Number:  00 
+Creation  Date:  94077 
+Expiration  Date:  00000 
+File  Accessibility: 
+
+Block  Count :  000000 
+Implementation  Identifier: 
+
+««<  PART  OF  LOG  FILE  REMOVED  HERE  »»> 
+
+############  End  of  Volume  ONAOOl  ############## 
+
+############  End  Of  Tape  File  Set  ############## 
+
+Deallocating  /dev/rmtO , . . 
+
+Tape  Import  Process  terminated  normally. 
+
+
+15 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+9.3  Tape  File  Set  Validation  Log 
+
+
+CALS  Test  Network  File  Set  Evaluation  -  Version  1.2;  Release  10  (C) 
+Standards  referenced: 
+
+MIL-STD-1840A  (1987)  ~  Automated  Interchange  of  Technical  Information 
+
+Fri  May  6  13:33:31  1994 
+MIL-STD-1840A  File  Set  Evaluation  Log 
+File  Set:  Set067 
+Found  file:  DOOl 
+
+Extracting  Document  Declaration  Header  Records... 
+
+Evaluating  Document  Declaration  Header  Records... 
+
+srcsys:  O'Neil  &  Assoc.  CAGE  83007 
+
+srcdocid:  TO  31R2 -2FRC181-42 
+
+srcrelid:  NONE 
+
+chglvl :  ORIGINAL 
+
+dteisu:  19940303 
+
+dstsys:  Raytheon  CAGE  49956 
+
+dstdocid:  TO  31R2 -2FRC181-42 
+
+dstrelid:  NONE 
+
+dtetm:  19940318 
+
+dlvacc :  NONE 
+
+filcnt:  C7,G4,Q13,T1 
+
+ttlcls:  UNCLASSIFIED 
+
+doccls:  UNCLASSIFIED 
+
+doctyp:  Technical  Publication 
+
+docttl :  NONE 
+
+Found  file:  DOOlCOOl 
+Extracting  CGM  Header  Records. . . 
+
+Evaluating  CGM  Header  Records. . . 
+
+srcdocid:  TO  31R2 -2FRC181-42 
+
+dstdocid:  TO  31R2 -2FRC181-42 
+
+txtfilid:  W 
+
+figid:  A 
+
+srcgph:  ESDCAU 
+
+doccls:  UNCLASSIFIED 
+
+notes:  NONE 
+
+Saving  CGM  Header  File:  D001C001_HDR 
+Saving  CGM  Data  File:  D001C001_CGM 
+
+
+16 
+
+
+V 
+
+
+AFCTN  Test  Report  AFCTB  Test  Report 
+
+94-080  94-038 
+
+
+««<  PART  OF  LOG  FILE  REMOVED  HERE  »>» 
+
+
+Found  file:  D001G008 
+Extracting  DTD  Header  Records... 
+Evaluating  DTD  Header  Records . . . 
+
+srcdocid:  TO  31R2-2FRC181-42 
+dstdocid:  TO  31R2-2FRC181-42 
+notes:  NONE 
+
+Saving  DTD  Header  File:  D001G008_HDR 
+Saving  DTD  Data  File:  D001G008_DTD 
+
+Found  file:  D001G009 
+Extracting  DTD  Header  Records... 
+Evaluating  DTD  Header  Records... 
+
+srcdocid:  TO  31R2-2FRC181-42 
+dstdocid:  TO  31R2-2FRC181-42 
+notes :  BSPEC 
+
+Saving  DTD  Header  File:  D001G009_HDR 
+Saving  DTD  Data  File:  D001G009_DTD 
+
+Fovind  file:  DOOlGOlO 
+Extracting  DTD  Header  Records . . . 
+Evaluating  DTD  Header  Records... 
+
+srcdocid:  TO  31R2-2FRC181-42 
+dstdocid:  TO  31R2-2FRC181-42 
+notes:  calsf igs . sgin 
+
+Saving  DTD  Header  File:  D001G010_HDR 
+Saving  DTD  Data  File:  D001G010_DTD 
+
+Found  file:  DOOlGOll 
+Extracting  DTD  Header  Records . . . 
+Evaluating  DTD  Header  Records  — 
+
+srcdocid:  TO  31R2-2FRC181-42 
+dstdocid:  TO  31R2-2FRC181-42 
+notes:  calstabs.sgm 
+
+Saving  DTD  Header  File:  D001G011_HDR 
+Saving  DTD  Data  File:  D001G011_DTD 
+
+
+17 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+Poland  file:  D001Q012 
+Extracting  IGES  Header  Records . . . 
+
+Evaluating  IGES  Header  Records . . . 
+
+srcdocid:  TO  31R2-2FRC181-42 
+
+dstdocid:  TO  31R2-2FRC181-42 
+
+txtfilid;  W 
+
+figid:  1-1 
+
+srcgph:  MlOOl 
+
+doccls:  UNCLASSIFIED 
+
+notes:  NONE 
+
+Saving  IGES  Header  File:  D001Q012_HDR 
+Saving  IGES  Data  File:  D001Q012_IGS 
+
+««<  PART  OF  LOG  FILE  REMOVED  HERE  »»> 
+
+
+Found  file:  D001Q024 
+Extracting  IGES  Header  Records... 
+
+Evaluating  IGES  Header  Records . . . 
+
+srcdocid:  TO  31R2-2FRC181-42 
+
+dstdocid:  TO  31R2-2FRC181-42 
+
+txtfilid:  W 
+
+figid:  FO-5 
+
+srcgph:  T4211 
+
+doccls:  UNCLASSIFIED 
+
+notes :  NONE 
+
+Saving  IGES  Header  File:  D001Q024_HDR 
+Saving  IGES  Data  File:  D001Q024_IGS 
+
+Found  file:  D001T025 
+Extracting  Text  Header  Records . . . 
+
+Evaluating  Text  Header  Records . . . 
+
+srcdocid:  TO  31R2-2FRC181-42 
+dstdocid:  TO  31R2-2FRC181-42 
+txtfilid:  W 
+doccls:  UNCLASSIFIED 
+notes ;  NONE 
+
+Saving  Text  Header  File:  D001T025_HDR 
+Saving  Text  Data  File:  D001T025_TXT 
+
+Evaluating  numbering  scheme . . . 
+
+No  errors  were  encoiontered  during  numbering  scheme  evaluation. 
+Niombering  scheme  evaluation  conplete . 
+
+
+18 
+
+
+AFCTN  Test  Report  AFCTB  Test 
+
+94-080 
+
+
+Checking  file  count... 
+
+No  errors  were  encountered  during  file  count  verification. 
+File  Count  verification  complete. 
+
+No  errors  were  encountered  in  Document  DOOl. 
+
+No  errors  were  encoiantered  in  this  File  Set. 
+
+MIL-STD-1840A  File  Set  Evaluation  Complete. 
+
+
+Report 
+
+94-038 
+
+
+19 
+
+
+9.4  Other  Tape  Reading  Logs 
+
+
+/cals/caps/Bin/readl840A:  —  Read  declaration  file  'DOOl  ’  - 
+
+/cals/caps/Bin/readl840A:  writing  data  file  'aftb9438/T031R2-2FRC181-4/ESDC!AU.C.cgm' . 
+
+/cals/caps/Biri/readl840A:  writing  data  file  'aftb9438/T031R2-2FRC18l-4/TXTRESD.C.cgm» . 
+
+/cals/caps/Bin/readl840A:  writing  data  file  'aftb9438/TO31R2-2FRC181-4/M1002 .C.cgm' . 
+
+/cals/caps/Bin/readl840A:  writing  data  file  'aftb9438/TO31R2-2FRC181-4/M1007 .C.cgm’ . 
+
+/cals/caps/Bin/readl840A:  writing  data  file  'aftb9438/TO31R2-2FRC181-4/M1008.C.cgin' . 
+
+/cals/caps/Bin/readl840A:  writing  data  file  »aftb9438/TO31R2-2FRC181-4/M1009 .C.cgm’ . 
+
+/cals/caps/Bin/readl840A:  writing  data  file  'aftb9438/TO31R2**2FRC181-4/iyil016  .C.cgm’ . 
+
+/cals/caps/Bin/readl840A:  writing  data  file 
+
+^aftb9438/T031R2-2FRC181«4/T031R22FRC18142.G.dtd’ . 
+
+/cals/caps/Bin/readl840A:  writing  data  file 
+' af tb9  438 /T03 1R2 - 2  FRCl 81-4 /T03 1R2  2  FRCl 8 14  2 . G . dt d  * . 
+
+/cals/caps/Bin/readl840A:  writing  data  file 
+’ af tb9  438 /T03 1R2 - 2  FRCl 8 1-4 /T03 1R2  2  FRCl 8 14  2 . G . dt d '  . 
+
+/cals/caps/Bin/readl840A:  writing  data  file 
+'aftb9438/T031R2-2FRC181-4/T031R22FRC18142 .G.dtd' . 
+
+/cals/caps/Bin/readl840A:  writing  data  file  ' aftb9438/T031R2 -2FRC181-4/M1001 .Q. igs ' . 
+
+/cals/caps/Bin/readl840A:  writing  data  file  'aftb9438/TO31R2-2FRC181-4/M1003A.Q.igs* . 
+
+/cals/caps/Bin/readl840A:  writing  data  file  » aftb9438/TO31R2-2FRC181-4/M1004A.Q. igs » . 
+
+/cals/caps/Bin/readl840A:  writing  data  file  » aftb9438/T031R2 -2FRC181-4/M1005A.Q. igs » . 
+
+/cals/caps/Bin/readl840A:  writing  data  file  ' aftb9438/T031R2 -2FRC181-4/M1006A.Q. igs ' . 
+
+/cals/caps/Bin/readl840A:  writing  data  file  ' aftb9438/TO31R2-2FRC181“4/M1010A.Q. igs ' . 
+
+/cals/caps/Bin/readl840A:  writing  data  file  'aftb9438/TO31R2-2FRC181-4/M1011A.Q.igs' . 
+
+/cals/caps/Bin/readl840A:  writing  data  file  'aftb9438/TO31R2-2FRC181-4/M1012A.Q.igs* . 
+
+/cals/caps/Bin/readl840A:  writing  data  file  'aftb9438/TO31R2-2FRC181-4/M1013A.Q.igs' . 
+
+/cals/caps/Bin/readl840A:  writing  data  file  'aftb9438/TO31R2-2FRC181-4/M1014A.Q.igs' . 
+
+/cals/caps/Bin/readl840A:  writing  data  file  'aftb9438/TO31R2-2FRC181-4/M1015A.Q.igs' . 
+
+/cals/caps/Bin/readl840A:  writing  data  file  ' aftb9438/TO31R2-2FRC181-4/M10B22 .Q.igs ' . 
+
+/cals/caps/Bin/readl840A:  writing  data  file  ' af tb9438/T031R2-2FRC181-4/T4211 .Q. igs ' . 
+
+/cals/caps/Bin/readl840A:  writing  data  file  'aftb9438/T031R2-2FRC181-4/W.T.sgm’ . 
+
+--  declaration  file  indicates  1  files  of  type  T 
+
+--  declaration  file  indicates  4  files  of  type  G 
+
+--  declaration  file  indicates  0  files  of  type  H 
+
+--  declaration  file  indicates  13  files  of  type  Q 
+--  declaration  file  indicates  0  files  of  type  R 
+
+--  declaration  file  indicates  7  files  of  type  C 
+
+--  declaration  file  indicates  0  files  of  type  X 
+
+--  declaration  file  indicates  0  files  of  type  P 
+
+--  declaration  file  indicates  0  files  of  type  Z 
+
+
+20 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+10.  Appendix  B  -  Detailed  IGES  Analysis 
+
+10.1  FileD001Q020 
+
+10.1.1  Parser  A^erifier  Log 
+
+
+*********************************** 
+*****  iges  parser/verifier  ***** 
+
+*****  MARCH  1993  ***** 
+*****  IGES  Data  Analysis  ***** 
+*****  (708)  344-1815  ***** 
+*********** ************* *********** 
+
+
+Input  file  is  q020.igs 
+
+Checking  conformance  to  CALS  Class  I  (MIL-D-28000A  2/10/92) 
+Today  is  May  6,  1994  2:42  PM 
+
+*********************************** 
+
+*****  CHECK  FILE  SYNTAX  ***** 
+*********************************** 
+
+
+Section  Records 
+
+
+267  Entities) 
+
+No  syntax  errors  detected. 
+
+
+Start 
+
+Global 
+
+Directory 
+
+Parameter 
+
+Terminate 
+
+
+5 
+
+3 
+
+534  ( 
+
+320 
+1 
+
+
+*********************************** 
+
+*****  SUMMARY  AND  STATISTICS  **** 
+*********************************** 
+
+
+***  File  and  Product  Name  Information  *** 
+
+
+File  name  from  sender  = 
+File  creation  Date. Time  = 
+Model  change  Date. Time  = 
+Author  = 
+Department  = 
+Product  name  from  sender  = 
+Destination  product  name  = 
+
+
+'M10.13.dwg’ 
+
+’940210.123030' 
+
+T  t 
+
+'Gary  Hahn’ 
+
+t  t 
+
+'Corel  Expert' 
+
+f  ? 
+
+
+21 
+
+
+AFCTN  Test  Report  AFCTB  Test 
+
+94-080 
+
+
+***  Parameter  Delimiters  *** 
+
+Delimiter  =  ' , ' 
+
+Terminator  =  ' ; ' 
+
+***  Originating  System  Data  *** 
+
+System  ID  =  'Corel  Expert  version  5.0* 
+
+Preprocessor  version  =  '5.0* 
+
+Specification  version  =  6  (IGES  4.0) 
+
+
+***  Precision  levels  ***■ 
+
+Integer  bits  =  16 
+
+Floating  point  -  Exponent  =  38  Mantissa  =  7 
+
+Double  precision  -  Exponent  =  38  Mantissa  =  7 
+
+
+***  Global  Model  Data  *** 
+
+
+Model  scale 
+Unit  flag 
+Units 
+
+Line  weights 
+Maximum  line  thickness 
+Minimum  line  thickness 
+Granularity 
+Maximum  coordinate 
+
+
+l.OOOOE+00 
+
+1 
+
+'INCH' 
+
+3 
+
+4.166667E-02 
+
+1.388889E-02 
+
+l.OOOOOOE-05 
+
+1.491070E+01 
+
+
+Drafting  standard  applicable  to  original  data  is  not  specified. 
+
+
+***  Status  Flag  Summary  *** 
+
+
+Blank  status:  Visible  267 
+
+Blanked  0 
+
+Independence :  Independent  201 
+
+Physically  Subordinate  64 
+
+Logically  Subordinate  2 
+
+Totally  Subordinate  0 
+
+Entity  use:  Geometry  218 
+
+Annotation  46 
+
+Definition  2 
+
+Other  1 
+
+Logical/Positional  0 
+
+2D  parametric  0 
+
+Construction  geometry  0 
+
+Not  Specified  0 
+
+
+Report 
+
+94-038 
+
+
+22 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+Hierarchy:  Structure  DE  applies  267 
+
+Subordinate  DE  applies  0 
+
+Hierarchy  property  applies  0 
+
+Not  Specified  0 
+
+***  Entity  Occurrence  Counts  *** 
+
+
+Entity 
+
+Form 
+
+Level 
+
+Count 
+
+Type 
+
+100 
+
+0 
+
+0 
+
+3 
+
+Circular  arc 
+
+102 
+
+0 
+
+0 
+
+9 
+
+Composite  curve 
+
+104 
+
+1 
+
+0 
+
+3 
+
+Conic  arc  -  ellipse 
+
+110 
+
+0 
+
+0 
+
+191 
+
+Line 
+
+124 
+
+0 
+
+0 
+
+3 
+
+Transformation  matrix 
+
+212 
+
+0 
+
+0 
+
+46 
+
+General  note 
+
+230 
+
+0 
+
+0 
+
+9 
+
+Sectioned  area  (Standard  Crosshatching) 
+
+404 
+
+0 
+
+0 
+
+1 
+
+Drawing 
+
+406 
+
+16 
+
+0 
+
+1 
+
+Property  -  Drawing  size 
+
+410 
+
+0 
+
+0 
+
+1 
+
+View  -  Orthographic  parallel 
+
+***  Entity  Count  by  Level  *** 
+
+Level  Count 
+0  267 
+
+***  Labeling  Information  *** 
+
+100%  of  the  entities  are  labeled. 
+Unlabeled  0 
+
+
+Label 
+
+Count 
+
+Label 
+
+Count 
+
+Label 
+
+Count 
+
+View 
+
+1* 
+
+Line 
+
+191* 
+
+GNote 
+
+46* 
+
+Arc 
+
+2* 
+
+Corrposit 
+
+9 
+
+Section 
+
+9* 
+
+Circle 
+
+1* 
+
+Matrix 
+
+3* 
+
+Ellipse 
+
+3* 
+
+Property 
+
+1 
+
+Drawing 
+
+1* 
+
+NITPICK  2327:  One  or  more  of  the  flagged  entity  labels  are  not  right- justified. 
+
+***  Line  Fonts  Used  in  Data  *** 
+
+100  102  104  106  108  110  112  114 
+
+--------  Undefined 
+
+3  9  -  -  -  157  -  -  Solid 
+
+Dashed 
+
+
+23 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+3 
+
+
+Phantom 
+Center- line 
+34  -  -  Dotted 
+
+-  ~  -  User  defined 
+
+
+116  118  120  122  124  125  126  128 
+
+
+Undefined 
+
+Solid 
+
+
+<««  PART  OF  LOG  FILE  REMOVED  HERE  »»> 
+
+
+***  Line  Widths  Used  in  Data  *** 
+
+Weight  Count  Width 
+
+Defaulted  197  (0.0139) 
+
+1  70  (0.0139) 
+
+***  Colors  Used  in  Data  *** 
+
+Defaulted  24 
+
+Green  243 
+
+************* ********** ************ 
+*****  entity  ANMiYSIS  ***** 
+
+*********************************** 
+
+***  Entity  type:  100  ' 
+
+***  Entity  type:  102 
+
+
+ERROR  2033:  End  points  of  curves  D  225  and  D  227  disjoint  by 
+
+7.470000E-02  at  D  231. 
+
+ERROR  2033:  End  points  of  curves  D  227  and  D  229  disjoint  by 
+
+7.209840E-02  at  D  231. 
+
+ERROR  2033:  Messages  regarding  disjoint  composite  curves  suppressed. 
+
+
+***  Entity  type:  104 
+
+
+WARNING  2265: 
+WARNING  2039: 
+WARNING  2265: 
+WARNING  2039: 
+WARNING  2265: 
+WARNING  2039: 
+
+
+Start  point  off  conic  by  1.594979E-05  at  D 
+End  point  off  conic  by  6.735962E-05  at  D 
+Start  point  off  conic  by  1.594979E-05  at  D 
+End  point  off  conic  by  6.735962E-05  at  D 
+Start  point  off  conic  by  1.594979E-05  at  D 
+End  point  off  conic  by  6.735962E-05  at  D 
+
+
+407. 
+
+407. 
+
+427. 
+
+427. 
+
+431. 
+
+431. 
+
+
+24 
+
+
+AFCTN  Test  Report  AFCTB  Test 
+
+94-080 
+
+
+***  Entity  type:  110 
+
+191  lines  averaging  6.068996E-01  units  -- 
+***  Entity  type:  124 
+
+3  transformation  matrices,  3  non- zero  translations. 
+
+NOTE  2341:  3  matrices  contain  translation  information. 
+
+***  Entity  type:  212 
+
+46  text  strings  in  data  file. 
+
+Average  text  aspect  ratio  in  file  is  0.9024965. 
+
+Minimum  text  aspect  ratio  in  file  is  0.9008403. 
+
+Maximum  text  aspect  ratio  in  file  is  0.9071421. 
+
+FONTS  USED  IN  FILE 
+
+FONT  COUNT  NAME 
+
+1  46  Default  ASCII  Style 
+
+
+***  Entity  type:  230 
+
+
+NITPICK 
+
+2076:  Entity  does 
+
+not 
+
+have 
+
+Annotation 
+
+flag 
+
+set 
+
+at 
+
+D 
+
+233. 
+
+NITPICK 
+
+2076:  Entity  does 
+
+not 
+
+have 
+
+Annotation 
+
+flag 
+
+set 
+
+at 
+
+D 
+
+243. 
+
+NITPICK 
+
+2076:  Entity  does 
+
+not 
+
+have 
+
+Annotation 
+
+flag 
+
+set 
+
+at 
+
+D 
+
+261. 
+
+NITPICK 
+
+2076 :  Entity  does 
+
+not 
+
+have 
+
+Annotation 
+
+flag 
+
+set 
+
+at 
+
+D 
+
+289. 
+
+NITPICK 
+
+2076:  Entity  does 
+
+not 
+
+have 
+
+Annotation 
+
+flag 
+
+set 
+
+at 
+
+D 
+
+323. 
+
+NITPICK 
+
+2076:  Entity  does 
+
+not 
+
+have 
+
+Annotation 
+
+flag 
+
+set 
+
+at 
+
+D 
+
+329. 
+
+NITPICK 
+
+2076:  Entity  does 
+
+not 
+
+have 
+
+Annotation 
+
+flag 
+
+set 
+
+at 
+
+D 
+
+339. 
+
+NITPICK 
+
+2076:  Entity  does 
+
+not 
+
+have 
+
+Annotation 
+
+flag 
+
+set 
+
+at 
+
+D 
+
+355. 
+
+NITPICK 
+
+2076:  Entity  does 
+
+not 
+
+have 
+
+Annotation 
+
+flag 
+
+set 
+
+at 
+
+D 
+
+377. 
+
+***  Entity  type:  404 
+
+NITPICK  2074:  Entity  use  flag  must  be  1  for  Drawing  entity  at  D  533 
+Drawing  at  D  533  contains  1  views. 
+
+Drawing  at  D  533  contains  0  annotation  entities. 
+
+***  Entity  type:  406 
+
+***  Entity  type:  410 
+
+
+Report 
+
+94-038 
+
+
+25 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+NITPICK  2073:  Entity  use  flag  must  be  1  for  View  entity  at  D  1. 
+
+Scale  of  view  at  D  1  is  l.OOOOOOE+00. 
+
+Orthographic  View  entity  at  D  1  has  0  clipping  planes  specified. 
+
+XMIN  =  Not  Set  XMAX  =  Not  Set 
+
+YMIN  =  Not  Set  YMAX  =  Not  Set 
+
+ZMIN  =  Not  Set  ZMAX  =  Not  Set 
+
+***  Message  Summary  *** 
+
+2007:  46  Mathematical  discontinuities. 
+
+2015:  6  Mathematically  incorrect  definitions. 
+
+2016:  11  Invalid  entity  use  flag. 
+
+***  Error  Summary  *** 
+
+0  fatal  errors 
+0  severe  errors 
+46  errors 
+6  warnings 
+0  cautions 
+12  nitpicks 
+1  notes 
+
+***  End  of  Analysis  of  q020.igs  *** 
+
+
+26 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+10.1.2  Parser  Log  -  IGESWorks 
+
+
+IGES /Works  vl.4.1 
+
+International  TechneGroup  Incorporated 
+Validation  Logfile 
+
+Date:  May  09,  94  Model:  q020 
+
+********************  Validation  Parameters  ******************** 
+
+TOLERANCE  CONFIGURATION  VALUES 
+
+
+ZERO_TOL 
+
+MODEL_SPACE_PNT_COIN 
+
+PARM_SPACE_PNT_COINJ 
+
+ISO_PARM_CURVE_TOL 
+
+NON_CONV_TOL 
+
+KNOT_COIN_TOL 
+
+SAME_INTER__TOL 
+
+PARALLEL_LINES_TOL 
+
+ANGLE_COIN_TOL 
+
+PNT_PROJ_TOL 
+
+COLIN_TOL 
+
+COPLANAR_TOL 
+
+ZERO_NORMAL_TOL 
+
+SAME_TANGENT_TOL 
+
+SAME_CURVATURE_TOL 
+
+SAME_DERIVATIVE_TOL 
+
+MODEL  LINEAR  APPROX  ' 
+
+
+**************  Entity  Listing  Before  Validation  *************** 
+
+
+Count 
+
+Type 
+
+Form 
+
+Description 
+
+3 
+
+100 
+
+0 
+
+Circular  Arc 
+
+9 
+
+102 
+
+0 
+
+Composite  Curve 
+
+3 
+
+104 
+
+1 
+
+Ellipse 
+
+191 
+
+110 
+
+0 
+
+Line 
+
+3 
+
+124 
+
+0 
+
+Transformation  Matrix 
+
+46 
+
+212 
+
+0 
+
+General  Note  (Simple) 
+
+9 
+
+230 
+
+0 
+
+Section  Area  (Standard  Fill) 
+
+1 
+
+404 
+
+0 
+
+Drawing  (form  0) 
+
+1 
+
+406 
+
+16 
+
+Property  (Drawing  Size) 
+
+1 
+
+410 
+
+0 
+
+View 
+
+267  - 
+
+Number  of 
+
+entities  in 
+
+selection  list 
+
+*********************  Entity  Validation  *********************** 
+
+
+***  Warning  (IEVM_LABEL_NOT_RJ)  *** 
+
+(DE  1,  TF  410:0)  The  Label  Display  field  in  this  entity's  DE  section  was  not 
+
+
+=  l.OOOOOOe-13 
+TOL  =  l.OOOOOOe-03 
+m  =  l.OOOOOOe-08 
+=  l.OOOOOOe-08 
+=  l.OOOOOOe-12 
+=  l.OOOOOOe-10 
+=  l.OOOOOOe-12 
+=  l.OOOOOOe-07 
+=  l.OOOOOOe-05 
+=  l.OOOOOOe-07 
+=  l.OOOOOOe-07 
+=  l.OOOOOOe-08 
+=  l.OOOOOOe-06 
+=  l.OOOOOOe-04 
+=  l.OOOOOOe-04 
+=  l.OOOOOOe-03 
+?OL  =  2.220446e-16 
+
+
+27 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+set  for  right  justification. 
+
+Action  taken:  The  Label  Display  field  has  been  set  to  be  right- justified. 
+
+<«<<  PART  OF  LOG  FILE  REMOVED  HERE  >>>>>  • 
+
+***  Warning  (IEVM_NON_CONTINUOUS_102)  *** 
+
+(DE  231,  TF  102:0)  This  Composite  Curve  entity  (102)  is  not  continuous  within 
+the  stated  tolerance .  The  terminate  point  of  the  first  curve  does  not  equal 
+the  start  point  of  the  next  curve. 
+
+Action  taken:  The  curve  was  made  continuous  by  the  following  actions. 
+
+DE  225  was  reversed.  DE  227  was  reversed.  DE  229  was  reversed. 
+
+<«<<  PART  OF  LOG  FILE  REMOVED  HERE  »>» 
+
+***  Warning  (IEVM_BAD_START_POINT_104)  *** 
+
+(DE  407,  TF  104:1)  The  start  point  for  this  Conic  Arc  entity  (104)  is  not  on 
+the  conic.  Start  point  value  found  was  -1 . 1200710e-01,  1.1631390e-01. 
+
+Action  taken:  The  start  point  has  been  moved  7 .7191029e-05  units,  from 
+-1.1200710e-01,  1 .1631390e-01  to  -1 . 1208429e- 01,  1 . 1631390e-01 . 
+
+***  Warning  (IEVM_BAD_END_POINT_104)  *** 
+
+(DE  407,  TF  104:1)  The  end  point  for  this  Conic  Arc  entity  (104)  is  not  on 
+the  conic.  Start  point  value  found  was  1 .4170260e-01,  1 . 0923000e-01 . 
+
+Action  taken:  The  end  point  has  been  moved  2 .4218468e-04  units,  from 
+1 .4170260e-01,  1 .0923000e-01  to  1 ,4146042e- 01 ,  1 . 0923000e- 01 . 
+
+<«<<  PART  OF  LOG  FILE  REMOVED  HERE  »>» 
+
+
+Entity  Validation  Summary: 
+
+Entity  Number 
+
+Type  Form  Count  Valid 
+
+
+Number  of 
+Corrected 
+Warnings  Errors 
+
+
+Number  of 
+Uncorrected 
+Warnings  Errors 
+
+
+Global 
+
+Section 
+
+1 
+
+1 
+
+0 
+
+100 
+
+0 
+
+3 
+
+0 
+
+3 
+
+102 
+
+0 
+
+9 
+
+1 
+
+0 
+
+104 
+
+1 
+
+3 
+
+0 
+
+3 
+
+110 
+
+0 
+
+221 
+
+30 
+
+191 
+
+124 
+
+0 
+
+3 
+
+0 
+
+3 
+
+212 
+
+0 
+
+46 
+
+0 
+
+46 
+
+230 
+
+0 
+
+9 
+
+0 
+
+9 
+
+404 
+
+0 
+
+1 
+
+0 
+
+1 
+
+406 
+
+16 
+
+1 
+
+1 
+
+0 
+
+410 
+
+0 
+
+1 
+
+0 
+
+1 
+
+Totals : 
+
+298 
+
+33 
+
+257 
+
+14  0 
+
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+
+0 
+
+
+28 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+The  following  message  was  issued  and  suppressed  252  times: 
+
+The  Label  Display  field  in  this  entity's  DE  section  was  not  set  for  right 
+justification. 
+
+The  following  message  was  issued  and  suppressed  3  times: 
+
+This  Composite  Curve  entity  (102)  is  not  continuous  within  the  stated  tolerance 
+The  terminate  point  of  the  first  curve  does  not  equal  the  start  point  of  the 
+next  curve. 
+
+A  message  is  suppressed  when  it  has  been  issued  more  than  5  times.  This  value 
+is  controlled  by  the  'MAX_MESSAGE'  configuration  parameter. 
+
+
+AFCTN  Test  Report  AFCTB  Test  Report 
+
+Oii-Hon  94-038 
+
+
+10.1.3  Output  CADLeaf 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+10.1.4  Output  CALSView 
+
+CONSCAN  MOTOR  A2 
+
+
+3-PHASE 
+
+MOTOR 
+
+POWER 
+
+
+r\r^ 
+
+
+MOTOR 
+
+
+31 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+10.1.6  Output  igesldraw/IslandDraw 
+10.1.6.1  Normal  Translation 
+
+
+10.1.6.2  Bounded  Data  Translation 
+
+
+12D/1D 
+
+0020 
+
+Bound  Data 
+
+
+AFCTN  Test  Report  AFCTB  Test 
+
+94-080 
+
+
+11.  Appendix  C  -  Detailed  SGML  Analysis 
+
+11.1  Parser  Log 
+
+11.1.1  DTD  Log  File 
+
+
+SGML  Document  Type  Definition  Parser 
+An  SGML  System  Conforming  to 
+International  Standard  ISO  8879 
+Standard  Generalized  Markup  Language 
+
+Log  file;  '9438.LOG' 
+
+SDO  File :  ' ctndecl . sdo ' 
+
+Namecase  General  is  yes. 
+
+Namecase  Entity  is  no. 
+
+Parsing  DTD  file:  '9438.dtd' 
+
+Parsing  DOCTYPE  TM 
+
+This  DTD  conforms  to  the  ISO  8879  standard 
+DTO  file  '9438.DTO'  created 
+closing  statistics: 
+
+Capacity  points:  27352 
+
+Bytes  of  DTO  file  string  space:  7759 
+SGML  descriptor  blocks:  3348 
+
+Document  Type  Definition  is  compliant  and  parsed  normally. 
+
+Program  status  code :  0 . 
+
+
+Report 
+
+94-038 
+
+
+34 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+11.2  Exoterica  XGMLNormalizer  Parser 
+
+
+No  reported  errors  or  warnings . 
+
+11.3  Exoterica  validator  Parser 
+
+
+<!--  **Waming**  in  "i:\94038\BSPEC.DTD"  (entity  "%BSPEC")/  line  1, 
+used  in  ”\xgml\9438 .dtd" ,  line  1: 
+
+An  element  with  mixed  content  should  permit  data  characters  {"#PCDATA") 
+everywhere . 
+
+The  element  being  declared  is  "WARNING” . 
+
+<! ELEMENT  warning  -  -  (title?,  (%txt;  |  para  |  list)+)  > 
+
+<!ATTLIST  (wami 
+
+/\  -■> 
+
+< ! -  -  1  warning  reported .  - - > 
+
+11.4  Serna  Mark-it  Log 
+
+
+No  reported  errors  or  warnings. 
+
+11.5  Public  Domain  sgmls  Log 
+
+sgmls:  In  file  included  at  9438. dtd,  line  64: 
+
+SGML  error  at  BSPEC.DTD,  line  67  at 
+Incorrect  character  in  markup;  markup  terminated 
+sgmls:  In  file  included  at  9438. dtd,  line  64: 
+
+SGML  error  at  BSPEC.DTD,  line  67  in  declaration  parameter  4: 
+
+MDC  delimiter  (>)  expected;  following  text  may  be  misinterpreted 
+sgmls:  In  file  included  at  943 8. dtd,  line  64: 
+
+SGML  error  at  BSPEC.DTD,  line  68  at  ”] " : 
+
+Incorrect  character  in  markup;  markup  terminated 
+sgmls:  In  file  included  at  943 8. dtd,  line  64: 
+
+SGML  error  at  BSPEC.DTD,  line  68  in  declaration  parameter  4: 
+
+MDC  delimiter  (>)  expected;  following  text  may  be  misinterpreted 
+sgmls:  SGML  error  at  i:\94038\t025.txt,  line  119  at 
+
+BOARDNO  =  "ESDCAU”  ENTITY  attribute  not  general  entity;  may  affect 
+processing  Element  structure:  TM  FRONT  INTRO  PO  PI  FIGURE 
+
+
+35 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+<<<<<  PART  OF  LOG  FILE  REMOVED  HERE  »»> 
+
+
+TOTALCAP  62371 
+ENTCAP  11392 
+ENTCHCAP  3493 
+ELEMCAP  3840 
+GRPCAP  23072 
+EXGRPCAP  896 
+EXNMCAP  3872 
+ATTCAP  5984 
+ATTCHCAP  315 
+AVGRPCAP  9248 
+NOTCAP  96 
+NOTCHCAP  163 
+IDCAP  0 
+IDREFCAP  0 
+MAPCAP  0 
+LKSETCAP  0 
+LKNMCAP  0 
+
+
+36 
+
+
+APCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+12.  Appendix  E  -  Detailed  CGM  Analysis 
+
+12.1  FileDOOlCOOS 
+
+12.1.1  Parser  Log  MetaCheck 
+
+
+MetaCheck  Version  2.10  --  CGM/MIL-D-28003  Conformance  Analyzer 
+Copyright  1988-93  CGM  Technology  Software 
+Execution  Date:  05/06/94  Time:  14:29:25 
+
+
+Metafile  Examined 
+
+Pictures  Examined 
+Elements  Examined 
+Bytes  Examined 
+
+
+:  i:\94038\c005.cgm 
+
+:  All 
+:  All 
+:  All 
+
+
+Tracing  not  selected. 
+
+====:==:=======  CGM  Conformance  Violation  Report  ============== 
+
+
+No  Errors  Detected 
+
+CALS  CGM  Profile  (MIL-D-28003)  Report  ============ 
+
+
+No  profile  discrepancies  detected. 
+================  Conformance  Summary  Report  = 
+
+
+MetaCheck  Version  2.10  --  CGM/MIL-D-28003  Conformance  Analyzer 
+Copyright  1988-93  CGM  Technology  Software 
+Execution  Date:  05/06/94  Time:  14:29:33 
+
+
+Name  of  CGM  under  test:  i:\94038\c005.cgm 
+Encoding  :  Binary 
+
+
+Pictures  Examined  :  All 
+Elements  Examined  :  All 
+Bytes  Examined  :  All 
+
+
+BEGIN  METAFILE  string  :  >ml008< 
+
+METAFILE  DESCRIPTION  :  >AUTO-TROL/REL-l . 0  MIL-D-28003/BASIC- < 
+
+>1< 
+
+
+37 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+Picture  1  starts  at  octet  offset  122:  >inl008< 
+
+Conformance  Svimmary  :  This  file  conforms  to  the  CGM  specification. 
+
+This  file  meets  the  CALS  CCM  Profile  (MIL-D-28003) . 
+
+Summary  of  Testing  Performed  and  Errors  Found: 
+
+1  Pictures  Tested 
+506  Elements  Tested 
+46408  Octets  Tested 
+
+I  No  Errors  Were  Detected  | 
+
+================  End  of  Conformance  Report  ================== 
+
+
+38 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+12.1.2  validcgm  Log 
+
+
+Analysis  for  file  cOOS.cgm  using  table  table 
+(0,  1)  occurred  1  time 
+(0,  2)  occurred  1  time 
+(0,  3)  occurred  1  time 
+(0,  4)  occurred  1  time 
+(0,  5)  occurred  1  time 
+(1,  1)  occurred  1  time 
+(1,  2)  occurred  1  time 
+(1,  7)  occurred  l.time 
+(1,  8)  occurred  1  time 
+(1,  9)  occurred  1  time 
+(1,  11)  occurred  1  time 
+
+(1,  13)  occurred  1  time 
+
+(2,  1)  occurred  1  time 
+(2,  3)  occurred  1  time 
+{2,  4)  occurred  1  time 
+(2,  5)  occurred  1  time 
+(2,  6)  occurred  1  time 
+(2,  7)  occurred  1  time 
+(4,  1)  occurred  405  times 
+(4,  4)  occurred  35  times 
+(4,  17)  occurred  3  times 
+
+(4,  18)  occurred  4  times 
+
+(5,  3)  occurred  4  times 
+(5,  4)  occurred  4  times 
+
+
+(5, 
+
+10) 
+
+occurred 
+
+1 
+
+time 
+
+(5, 
+
+14) 
+
+occurred 
+
+1 
+
+time 
+
+(5, 
+
+15) 
+
+occurred 
+
+5 
+
+times 
+
+(5, 
+
+16) 
+
+occurred 
+
+1 
+
+time 
+
+(5, 
+
+18) 
+
+occurred 
+
+1 
+
+time 
+
+(5, 
+
+22) 
+
+occurred 
+
+1 
+
+time 
+
+(5, 
+
+23) 
+
+occurred 
+
+1 
+
+time 
+
+(5, 
+
+28) 
+
+occurred 
+
+1 
+
+time 
+
+(5. 
+
+30) 
+
+occurred 
+
+1 
+
+time 
+
+(5, 
+
+34) 
+
+occurred 
+
+20  times 
+
+39 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+12.1.3  Output  CADLeaf 
+
+
+K}o.oe 
+
+LEGEND : 
+
+2.  MOTOR  HOUSXNG  6  STANDOFF  (4  EA)  FLATWASHER  (6  E A ) 
+
+2  MEASUREMENT  ACCESB  SCREW  (4  EA) 12  LAMINATED  SHIM 
+
+3  HOLD  /  INDICATINCS  F^MaTG-SE  ASSEMBLES  MOTOR  TAB 
+
+4  POST  (4  EA)  9  SCREW  (3  EA )  1 4  ELECTRONICS  ASSEMBL 
+
+5  DRIVE  SHAFT  10  LOCKWASHER  (^5  E^^JXTURE  TAB 
+
+
+40 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+12.1.4  Output  CALSView 
+
+
+41 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+APCTB  Test  Report 
+94-038 
+
+
+LEGEND: 
+
+.  MOTOR  HOUSING  6  STANDOFF  (4  EA 
+;  MEASUREMENT  ACCESS  SCREW  (4  EA)  1 
+
+
+MEASUREMENT  ACCESS  SCREW 
+HOLD  /  INDICATING  BDTMfHDR 
+POST  (4  EAI  9  SCREW 
+
+DRIVE  SHAFT  10  LOCO 
+
+
+-  .  FLATWASHER  (6  EA 
+
+:ss  SCRE1\  (4  Da)  laminated  SHIM 
+BDTMfHDR  ASSEMBLIg  MOTOR  TAB 
+
+9  SCREW  (3  E^  ,U  ELECTRONICS  ASSEMBLY 
+
+10  LOCKW ASHER  (doEARIXTURE  TAB 
+
+
+42 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+LEGEND: 
+
+1  MOTOR  HOUSING  6  STANDOFF  (4  EA) 
+
+2  MEASUREMENT  ACCESS  7  SCREW  (4  EA) 
+
+3  HOLD /INDICATING  FIXTURE  8  MOTOR  ASSEMBLY 
+
+4  POST  (4  EA)  9  SCREW  (3  EA) 
+
+5  DRIVE  SHAFT  ^  10  LOCKWASHER  (3  EA) 
+
+
+MO  .08 
+
+
+11  FLATWASHER  (6  EA) 
+
+12  LAMINATED  SHIM 
+
+13  MOTOR  TAB 
+
+14  ELECTRONICS  ASSEMBLY 
+
+15  FIXTURE  TAB 
+
+
+43 
+
+
+AFCTN  Test  Report  AFCTB  Test  Report 
+
+94-080  94-038 
+
+
+LEGEND; 
+
+1  MOTOR  HOUSING  6  STANDOFF  (4  EA)  11  FLATWASHER  (6  EA) 
+
+2  MEASUREMENT  ACCESS  7  SCREW  (4  ^  12  LAMINATED  SHIM 
+
+3  HOLD  /  INDICATING  FIXTU8EMOTOR  ASS^BLY  13  MOTOR  TAB 
+
+4  POST  (4  EAT  9  SCREW  [3  EA)  14  ELECTRONICS  ASSEMBLY 
+
+5  DRIVE  SHAR-  10  LOCKwAsHER  (3  EA5  FIXTURE  TAB 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+12.1.8  Output  Harvard  Graphics 
+
+
+45 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+12.1.9  Output  IslandDraw  v4.0 
+
+
+Mio.oe 
+
+LEGSKD: 
+
+1  KOTOR  HOUSING  6  STANDOF."  (<  EA)  11  FLATWASHE?.  (6  EA) 
+
+2  KEASUREKrOrr  ACCESS  7  SCREW  (<  EAJ  12  LAMINATED  SHIM 
+
+3  HOLD  /  INDICATING  FIXTJRE  S  KOTOR  ASSEMBLY  13  KOTOR  TAB 
+
+4  POST  (4  EA)  5  SCREW  {2  EA)  ELECTRONICS  ASSEMBLY 
+
+5  DRIVE  SHAFT  10  LOCKWASHER  (3  EA)  15  FIXTURE  TAB 
+
+
+46 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+12.1.10 
+
+
+Output  X-Change 
+
+
+LEGEND: 
+
+n  ®  STANDOFF  (4  EA)U  FLATWA^TTPR  (P,  pa'^ 
+
+2  ^^OTEMENT'  ACCESg  SCREW  (4  EA)  S  LA^A^ 
+
+A  FTSrnm'OR  ASSEMBL^  N^TOR  TAB 
+
+
+47 
+
+
+AFCTN  Test  Report 
+94-080 
+
+
+AFCTB  Test  Report 
+94-038 
+
+
+12.1.11  Output  Ventura  Publisher 
+
+
+MIO.OS 
+
+
+LEGEND: 
+
+1  MOTOR  HOUSING  6  STANDOFF  (4  EA)  11  FLATWASHER  (6  EA) 
+
+2  MEASUREMENT  ACCESS  7  SCREW  (4  EA)  12  LAMINATED  SHIM 
+
+3  HOLD/ INDICATING  FOaURE  8  MOTOR  ASSEMBLY  13  MOTOR  TAB 
+
+4  POST  (4  EA)  S  SCREW  (3  EA)  14  ELECTFONICS  ASSEMBLY 
+
+5  DRIVE  SHAFT  10  LOCKWASHER  (3  EA)  15  FIXTURE  TAB 
+
+
+48 
+
+

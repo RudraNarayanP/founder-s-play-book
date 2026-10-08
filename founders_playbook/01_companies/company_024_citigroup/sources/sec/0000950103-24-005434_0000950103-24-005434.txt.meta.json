@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000831001/000095010324005434/0000950103-24-005434.txt",
+ "fetched": "2026-09-29T18:38:37Z",
+ "sha1": "5491b5d2714928660a2e750ff20caa016a63e3d6",
+ "bytes": 272140,
+ "words": 15980,
+ "cik": "0000831001",
+ "registrant": "CITIGROUP INC",
+ "accession": "0000950103-24-005434",
+ "document": "0000950103-24-005434.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": true
+}

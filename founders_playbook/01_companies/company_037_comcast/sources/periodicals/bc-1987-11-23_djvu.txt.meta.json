@@ -1,0 +1,9 @@
+{
+ "identifier": "bc-1987-11-23",
+ "url": "https://archive.org/download/bc-1987-11-23/November%2023%2C%201987%20Broadcasting%20Magazine_djvu.txt",
+ "fetched": "2026-09-29T17:58:56Z",
+ "bytes": 501915,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

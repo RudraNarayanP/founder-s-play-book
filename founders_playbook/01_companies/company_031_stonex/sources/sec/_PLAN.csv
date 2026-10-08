@@ -1,0 +1,7 @@
+rank,cik,accession,form,filingDate,document,bytes_in_index_json,why,url,disposition
+1,0000913760,0000913760-96-000020,SC 13D,1996-06-24,0000913760-96-000020.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000913760/000091376096000020/0000913760-96-000020.txt,fetched this run
+2,0000913760,0000913760-97-000004,DEF 14A,1997-01-14,0000913760-97-000004.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000913760/000091376097000004/0000913760-97-000004.txt,fetched this run
+3,0000913760,0000913760-97-000005,S-3,1997-01-28,0000913760-97-000005.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000913760/000091376097000005/0000913760-97-000005.txt,fetched this run
+4,0000913760,0000913760-97-000010,SC 13G,1997-02-14,0000913760-97-000010.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000913760/000091376097000010/0000913760-97-000010.txt,fetched this run
+5,0000913760,0000913760-00-000048,8-K,2000-09-13,0001.txt,1848,primaryDocument,https://www.sec.gov/Archives/edgar/data/0000913760/000091376000000048/0001.txt,fetched this run
+6,0000913760,0000913760-00-000048,8-K,2000-09-13,0000913760-00-000048.txt,0,index.json listing (0 B),https://www.sec.gov/Archives/edgar/data/0000913760/000091376000000048/0000913760-00-000048.txt,fetched this run

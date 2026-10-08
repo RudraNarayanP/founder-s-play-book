@@ -1,0 +1,9 @@
+{
+ "identifier": "dc_circ_1952_11247_11241_11242_11245_11252_wis_v_fed_power_commn",
+ "url": "https://archive.org/download/dc_circ_1952_11247_11241_11242_11245_11252_wis_v_fed_power_commn/dc_circ_1952_11247_11241_11242_11245_11252_djvu.txt",
+ "fetched": "2026-10-06T12:36:30Z",
+ "bytes": 1117732,
+ "route": "download/<id>/dc_circ_1952_11247_11241_11242_11245_11252_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

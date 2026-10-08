@@ -1,0 +1,9 @@
+{
+ "identifier": "bc-1988-11-07",
+ "url": "https://archive.org/download/bc-1988-11-07/BC-1988-11-07_djvu.txt",
+ "fetched": "2026-09-29T17:58:51Z",
+ "bytes": 472585,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

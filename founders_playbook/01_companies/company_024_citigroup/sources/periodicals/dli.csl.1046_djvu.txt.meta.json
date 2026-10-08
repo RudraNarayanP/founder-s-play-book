@@ -1,0 +1,9 @@
+{
+ "identifier": "dli.csl.1046",
+ "url": "https://archive.org/download/dli.csl.1046/1046_djvu.txt",
+ "fetched": "2026-10-06T11:55:21Z",
+ "bytes": 59151,
+ "route": "download/<id>/1046_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

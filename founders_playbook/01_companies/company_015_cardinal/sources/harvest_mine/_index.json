@@ -1,0 +1,315 @@
+{
+ "window": [
+  "1971-01-01",
+  "1995-12-31"
+ ],
+ "candidates": 64,
+ "mined": 12,
+ "untried_by_limit": 46,
+ "items": [
+  {
+   "identifier": "NASA_NTRS_Archive_19740006639",
+   "date": "1974-01-01",
+   "title_year": "1974",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "NASA Technical Reports Server (NTRS) 19740006639: Flight test data for a Cessna Cardinal. [steady state performance and ",
+   "family": "corporate_print",
+   "meta_date": "1974-01-01",
+   "status": "cached",
+   "bytes": 27819,
+   "named_terms": [
+    "cardinal health"
+   ],
+   "other_terms": [
+    "formerly known as"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 24,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 28,
+     "text": "FOR A CESSNA CARDINAL",
+     "context": [
+      "FLIGHT TEST DATA",
+      ""
+     ]
+    },
+    {
+     "line": 57,
+     "text": "FLIGHT TEST DATA FOR A CESSNA CARDINAL",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 105,
+     "text": "a standard Cessna 177B Cardinal airplane. The airplane was fully instrumented to",
+     "context": [
+      "This report contains the results of a flight test analysis of the performance of",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19850020263",
+   "date": "1985-01-01",
+   "title_year": "1985",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "NASA Technical Reports Server (NTRS) 19850020263: A Natural Bias Approach to Cardinal Spline Curves",
+   "family": "corporate_print",
+   "meta_date": "1985-01-01",
+   "status": "cached",
+   "bytes": 6495,
+   "named_terms": [
+    "cardinal health"
+   ],
+   "other_terms": [
+    "formerly known as"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 5,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "A NATURAL BIAS APPROACH TO CARDINAL SPLINE CURVES*",
+     "context": [
+      ""
+     ]
+    },
+    {
+     "line": 9,
+     "text": "The cardinal spline approach to defining interpo latory curves has been of recent",
+     "context": [
+      "",
+      "interest in the application of computer graphics to modelling and animation problems"
+     ]
+    },
+    {
+     "line": 41,
+     "text": "T. have been defined we may write the cardinal spline curve V(s) as a collection of",
+     "context": [
+      "cent points), then the solution to (C) is the Catmull-Rom spline. Once the tangents",
+      "segments"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "cardinaldividear00noto",
+   "date": "1998-01-01",
+   "title_year": "1995",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "Cardinal Divide area baseline survey water quality and aquatic biota 1995-96 : data report",
+   "family": "corporate_print",
+   "meta_date": "1998-01-01",
+   "status": "cached",
+   "bytes": 41687,
+   "named_terms": [
+    "cardinal health"
+   ],
+   "other_terms": [
+    "formerly known as"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 28,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "CARDINAL  DIVIDE  AREA  BASELINE  SURVEY",
+     "context": [
+      "WATER  QUALITY  AND  AQUATIC  BIOTA"
+     ]
+    },
+    {
+     "line": 50,
+     "text": "Table  1 .  List  of  sampling  sites  during  the  Cardinal  Divide  survey,  1995-96.",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 52,
+     "text": "Table  2.  Water  quality  data  for  the  Cardinal  Divide  area,  1995-96.",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "saopaulogrowthpo0000unse",
+   "date": "1978-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried saopaulogrowthpo0000unse_djvu.txt, saopaulogrowthpo0000unse_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "micro_IA41152927_0526",
+   "date": "1972-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Cardinal Principles Report: An Educational Classic.",
+   "family": "corporate_print",
+   "meta_date": "1972-01-01",
+   "status": "cached",
+   "bytes": 186841,
+   "named_terms": [
+    "cardinal health"
+   ],
+   "other_terms": [
+    "formerly known as"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 100,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 8,
+     "text": "TITLE Cardinal Principles Report: An Educational",
+     "context": [
+      "",
+      "Classic."
+     ]
+    },
+    {
+     "line": 22,
+     "text": "IDENTIFIERS *Cardinal Principles Report",
+     "context": [
+      "*Evaluation; *Secondary Education",
+      ""
+     ]
+    },
+    {
+     "line": 29,
+     "text": "Secondary Education\" (C.R.S.EF.), otherwise known as the Cardinal",
+     "context": [
+      "\"A Report of the Commission on Reorganization of",
+      "Principles Report, is examined in this document. Emphasis is placed"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "ERIC_ED073079",
+   "date": "1972-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "ERIC ED073079: Cardinal Principles Report: An Educational Classic.",
+   "family": "corporate_print",
+   "meta_date": "1972-01-01",
+   "status": "cached",
+   "bytes": 171126,
+   "named_terms": [
+    "cardinal health"
+   ],
+   "other_terms": [
+    "formerly known as"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 92,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 30,
+     "text": "Cardinal Principles Report: An Educational",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 43,
+     "text": "\u2666Cardinal Principles Report",
+     "context": [
+      "\u2666Evaluation; ^Secondary Education",
+      ""
+     ]
+    },
+    {
+     "line": 50,
+     "text": "Secondary Education\" (C.R.S.E.)\u00bb otherwise known as the Cardinal",
+     "context": [
+      "\"A Report of the Commission on Reorganization of",
+      "Principles Report, is examined in this document. Emphasis is placed"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "ZbBkDAAAQBAJ",
+   "date": "2016-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried ZbBkDAAAQBAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "vYlFDAAAQBAJ",
+   "date": "2016-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried vYlFDAAAQBAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "iXtAAQAAIAAJ",
+   "date": "1978-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried iXtAAQAAIAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "H0kcIn9nGqwC",
+   "date": "1994-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried H0kcIn9nGqwC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "RdxrWjdEyJAC",
+   "date": "2004-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried RdxrWjdEyJAC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "VMQwCwAAQBAJ",
+   "date": "2012-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried VMQwCwAAQBAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  }
+ ]
+}

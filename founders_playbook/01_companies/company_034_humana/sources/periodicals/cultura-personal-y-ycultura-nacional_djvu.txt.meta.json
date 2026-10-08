@@ -1,0 +1,9 @@
+{
+ "identifier": "cultura-personal-y-ycultura-nacional",
+ "url": "https://archive.org/download/cultura-personal-y-ycultura-nacional/Delgado%2C%20H.%20%281964%29.%20Cultura_djvu.txt",
+ "fetched": "2026-10-06T12:15:33Z",
+ "bytes": 26191,
+ "route": "download/<id>/Delgado, H. (1964). Cultura_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

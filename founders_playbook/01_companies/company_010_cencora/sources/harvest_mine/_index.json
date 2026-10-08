@@ -1,0 +1,61 @@
+{
+ "window": [
+  "1985-01-01",
+  "2000-12-31"
+ ],
+ "candidates": 2,
+ "mined": 2,
+ "untried_by_limit": 0,
+ "items": [
+  {
+   "identifier": "cia-readingroom-document-cia-rdp75-00001r000100120020-2",
+   "date": "1966-01-01",
+   "title_year": "2002",
+   "date_mismatch": true,
+   "in_window": false,
+   "title": "CIA Reading Room cia-rdp75-00001r000100120020-2: (UNTITLED)",
+   "family": "internet_archive",
+   "meta_date": "1966-01-01",
+   "status": "cached",
+   "bytes": 4057,
+   "named_terms": [
+    "cencora formerly known as"
+   ],
+   "other_terms": [
+    "formerly known as"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp75-00149r000100700001-6",
+   "date": "1966-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "CIA Reading Room cia-rdp75-00149r000100700001-6: WASHED IN",
+   "family": "internet_archive",
+   "meta_date": "1966-01-01",
+   "status": "cached",
+   "bytes": 3665,
+   "named_terms": [
+    "cencora formerly known as"
+   ],
+   "other_terms": [
+    "formerly known as"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  }
+ ]
+}

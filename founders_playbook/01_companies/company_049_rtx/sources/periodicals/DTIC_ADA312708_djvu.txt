@@ -1,0 +1,1043 @@
+CTN  Test  Report 
+
+
+CALS  TESTNEmORK  92-005 
+
+
+AFTB-ID 
+
+91-039 
+
+
+Technical  Publication 
+TVansfer  Test 
+Using  Hughes  Aircraft 
+Company 
+
+
+MIL-D-28000  (IGES) 
+MIL-M-28001  (SGML) 
+
+
+Quick  Short  Test  Report 
+
+
+2  April  1992 
+
+
+Prepared  for 
+
+Air  Force  Materiel  Command 
+
+
+19960826  091 
+
+
+IPlSTRIBimON  STATEMETtfl 
+
+Approved  for  public  release; 
+Distributio&  Uuliadte^ 
+
+
+CTN  Test  Report 
+92-005 
+
+2  April  1992 
+
+
+AFTB-ID-91-039 
+
+
+Technical  Publication  Transfer  Test 
+Using  Hughes  Aircraft  Company 
+MIL-D-28000  (I6ES) 
+MIL-M-28001  (SGML) 
+
+
+Quick  Short  Test  Report 
+2  April  1992 
+
+
+Prepared  By 
+
+Air  Force  CALS  Test  Bed 
+Wright -Patterson  AFB,  OH  45433 
+
+AFTB  Contact 
+
+Gary  Lairaners 
+(513)  257-3085 
+
+
+CTN  Contact 
+
+Mel  Lammers 
+(513)  257-3085 
+
+
+Prepared  for 
+
+Air  Force  Materiel  Command 
+CALS  Test  Network  (AFMC/ENCT) 
+Wright-Patterson  AFB,  OH  45433-5000 
+
+
+CTN  Test  Report 
+92-005 
+
+
+AFTB- ID-91, -039 
+
+
+DISCLAIMER 
+
+This  report  and  those  involved  in  its  preparation  do  not  endorse  any 
+product,  process,  or  company  stated  herein.  Use  of  these  means  by  anyone 
+does  not  imply  certification  by  the  CALS  Test  Network. 
+
+
+ii 
+
+
+CTN  Test  Report 
+92-0  05 
+
+
+AFTB-ID-91-039 
+
+
+Contents 
+
+1.  Introduction . 1 
+
+1.1.  Background . 1 
+
+1.2.  Purpose . .  -  1 
+
+2.  Test  Parameters . 2 
+
+3.  184 OA  Analysis . 4 
+
+3.1.  External  Packaging . 4 
+
+3.2.  Transmission  Envelope . 4 
+
+3.2.1.  Tape  Formats . ' . 4 
+
+3.2.2.  Declaration  and  Header  Fields . 5 
+
+4.  IGES  Analysis . 6 
+
+5.  SGML  Analysis . 6 
+
+6.  Raster  Analysis . 6 
+
+7 .  CGM  Analysis . 7 
+
+8.  Conclusions  and  Recommendations . 8 
+
+9.  Appendix  A  -  Tape  Tool  Report  Logs . A-l 
+
+9.1  Tape  Catalog . . A-l 
+
+9.2  Tape  Evaluation  Log . A-2 
+
+9.3  Tape  File  Set  Validation  Log . A-2 
+
+lO  .  Appendix  B  -  SGML  Parser  Logs . B- 1 
+
+10.1.  XGML  Parser  Log . b-1 
+
+10, .2.  DataLogics  Parser  Log . .B-1 
+
+
+iii 
+
+
+CTN  Test  Report  AFTB-ID-91-039 
+
+9  2  ■  0  05 
+
+
+11.  Appendix  C  -  IGES  Error  Log . C-1 
+
+11.1.  CADKEY . C-1 
+
+11.2.  Preview  ERROR  LOG . C-2 
+
+
+CTN  Test  Report 
+9  2-  0  05 
+
+
+AFTB-ID-91-039 
+
+
+1 .  Introduction 
+1 . 1  Background 
+
+The  DoD  Computer-aided  Acquisition  and  Logistics  Support  (CALS) 
+Test  Network  (CTN)  is  conducting  tests  of  the  military  standard 
+for  the  Automated  Interchange  of  Technical  Information,  MIL-STD- 
+1840A,  and  its  companion  suite  of  military  specifications.  The 
+CTN  is  a  DoD- sponsored  confederation  of  voluntary  participants 
+from  industry  and  government  managed  by  the  Air  Force  Logistics 
+Command . 
+
+The  primary  objective  of  the  CTN  is  to  evaluate  the  effectiveness 
+of  the  CALS  standards  (Standards)  for  technical  data  interchange 
+and  to  demonstrate  the  technical  capabilities  and  operational 
+suitability  of  those  Standards.  Two  general  categories  of  tests 
+are  performed  to  evaluate  the  Standards,  formal  and  informal. 
+Formal  tests  are  large,  comprehensive  tests  that  follow  a  written 
+test  plan,  require  specific  authorization  from  DoD,  and  may  take 
+months  to  prepare,  execute,  and  report. 
+
+Informal  tests  are  used  by  the  CTN  technical  staff  to  broaden  the 
+testing  base  by  including  representative  samples  of  the  many 
+systems  and  applications  used  by  CTN  participants.  They  also 
+allow  the  CTN  staff  to  gain  feedback  from  many  industry  and 
+government  interpretations  of  the  Standards,  to  increase  the  base 
+of  participation  in  the  CALS  initiative,  and  to  respond,  in  a 
+timely  manner,  to  the  many  requests  for  help  that  come  from 
+participants.  Participants  take  part  voluntarily  and  are  bene¬ 
+fited  by  receiving  an  evaluation  of  their  latest  implementation 
+(interpretation)  of  the  Standards,  interacting  with  the  CTN 
+technical  staff,  gaining  experience  in  use  of  the  Standards,  and 
+developing  increased  confidence  in  them.  The  results  of  informal 
+tests  are  reported  in  Quick  Short  Test  Reports  (QSTRs)  that 
+briefly  summarize  the  standard (s)  tested,  the  hardware  and  soft¬ 
+ware  used,  the  nature  of  the  test,  and  the  results. 
+
+
+1 . 2  Purpose 
+
+
+The  purpose  of  the  informal  test  reported  in  this  QSTR  was  to 
+analyze  Hughes  Aircraft  Company's  interpretation  and  use  of  the 
+CALS  Standards  in  transferring  technical  publications  data. 
+Hughes  Aircraft  used  its  CALS  Technical  Data  Interchange  System 
+to  produce  data  in  accordance  with  the  standards  and  delivered  it 
+to  the  CTN  technical  staff  on  a  9 -track  magnetic  tape. 
+
+
+1 
+
+
+CTN  Test  Report 
+92-0  05 
+
+AFTB-ID-91-039 
+
+2.  Test  Parameters 
+
+Test  Plan: 
+
+AFTB  91-039 
+
+Date  of 
+Evaluation: 
+
+24  June  1991 
+
+Evaluator: 
+
+George  Elwood 
+
+Air  Force  CALS  Test  Bed 
+
+AFMC(I)/ENCT 
+
+Wright -Patterson  AFB,  OH  45433 
+
+Data 
+
+Originator: 
+
+K.W.  Virgil 
+
+Hughes  Aircraft  Company 
+
+Building  801/M18 
+
+P.O.  Box  11337 
+
+Tucson,  AZ  85734 
+
+Data 
+
+Description: 
+
+Technical  Manual  Test 
+
+1  document  declaration  file 
+
+1  DTD 
+
+1  IGES  file 
+
+1  TEXT  file 
+
+Data 
+
+Source  System: 
+
+IGES 
+
+HARDWARE 
+
+Unknown 
+
+SOFTWARE 
+
+Unknown 
+
+Text /SGML 
+
+HARDWARE 
+
+Unknown 
+
+SOFTWARE 
+
+Unknown 
+
+Evaluation 
+
+Tools  Used: 
+
+MIL-STD-1840A  (TAPE) 
+
+SUN  3/280 
+
+CTN  TAPETOOL  (vl.2.8)  UNIX 
+
+Agfa  Compugraphics  CALS 
+
+2 
+
+CTN  Test  Report 
+9  2-005 
+
+
+AFTB-ID-91-039 
+
+
+Standards 
+
+Tested: 
+
+
+]{IL>D-28000  (I6ES) 
+
+SUN  3/60 
+
+Preview 
+Igesview 
+Cheetah  Gold  486 
+
+AutoCAD  386  Rll 
+CADRE Y  386v4 
+
+MIL-M-28001  (SOIL) 
+
+Cheetah  Gold  486 
+
+Exoterica  XGML 
+DataLogics  ParseStation 
+
+
+MIL-STD-1840A 
+
+MIL-D-28000 
+
+MIL-M-28001 
+
+
+CTN  Test  Report 
+92  -0G5 
+
+
+AFTB-ID-91-039 
+
+
+3.  1840A  Analysis 
+
+
+3.1  External  Packaging 
+
+The  tape  arrived  at  the  Air  Force  Test  Bed  enclosed  in  an  en¬ 
+velope  and  not  in  a  box  meeting  ASTM  D  3951.  The  exterior  of  the 
+envelope  was  not  marked  with  the  required  magnetic  tape  warning 
+label,  MIL-STD-1840A,  para.  5. 3. 1.3. 
+
+The  tape  was  not  enclosed  in  a  barrier  bag  or  barrier  sheet 
+material  as  required  by  MIL-STD-1840A,  para.  5. 3. 1.2.  Inspection 
+of  the  tape  reel  showed  a  lack  of  the  required  label  indicating 
+the  recording  density  as  required  by  MIL-STD- 1840A,  para.  5.3.1. 
+Some  9-track  tape  units  require  this  bits-per-inch  (BPI)  to  be  set  manually. 
+
+No  packing  list  was  enclosed  showing  all  files  that  were  recorded  on  the  tape. 
+
+
+3.2  Transmission  Envelope 
+
+The  9 -track  tape  received  by  the  Air  Force  Test  Bed  contained 
+MIL-STD- 1840A  files.  The  files  were  named  per  the  standard 
+conventions . 
+
+
+3.2.1  Tape  Formats 
+
+The  1840A  tape  was  run  through  the  AFTB  TAPETOOL  utility  version 
+1.2.8.  Four  notes  were  reported  while  evaluating  the  contents 
+of  the  tape  labels.  All  of  these  notes  pertain  to  "Invalid 
+record  size  encountered"  errors.  All  of  the  notes  are  shown  in 
+Appendix  A,  Section  One,  Tape  Catalog. 
+
+These  notes  related  to  the  tape  label  Record  Length  field  for 
+Type  D  files.  Type  D  files  contain  variable  length  records  that 
+do  not  span  blocks.  All  of  the  Type  D  files  written  on  the  tape 
+were  flagged  with  an  illegal  value  for  Record  Length.  The  DOOl, 
+and  DOOlTOOl  files  were  expected  to  be  Type  D  according  to  MIL- 
+STD-1840A.  The  CTN  TAPETOOL  Software  expects  a  value  of  260  in 
+the  Record  Length  field  but  encountered  a  record  length  of  256. 
+MIL-STD-1840A  para.  5. 2. 1.3  requires  the  variable  record  size  be 
+a  maximum  of  256  bytes.  ANSI  X3.27  para.  7.2.3  further  states 
+that  the  length  of  a  Record  Control  Word  (RCW)  must  be  included 
+in  a  Measured  Data  Unit  (MDU)  record  length  computation.  This 
+adds  four  bytes  to  the  256  for  an  MDU  total  of  260  bytes.  ANSI 
+X3.27  para.  8. 5. 2. 6  states  that  the  Record  Length  field  for  Type 
+D  files  shall  contain  the  maximum  length  of  an  MDU.  While  MIL- 
+
+
+4 
+
+
+CTN  Test  Report 
+9  2-005 
+
+
+AFTB-ID-91-039 
+
+
+STD-1840A  permits  variable  length  records,  some  software  programs 
+are  sensitive  to  the  number  260  because  it  is  used  to  limit  the 
+record  size  when  unblocking  data. 
+
+No  other  errors  were  reported. 
+
+
+3.2.2  Declaration  and  Header  Fields 
+
+One  error  was  found  in  the  Document  Declaration  File  header.  In 
+Document  Declaration  File  DOOl,  an  Invalid  change  level  was 
+flagged.  The  error  related  to  use  of  the  characters  01-00. 
+MIL-STD- 1840A,  para.  5 . 1 . 1 . 2,  shows  the  change  level  as 
+"ORIGINAL".  Only  "ORIGINAL"  or  the  change  number  and  date  is 
+permitted  in  this  record. 
+
+
+chglvl;  01-00 
+
+***  ERROR  (MIL-STD-1840A;  5. 1.1. 2)  -  Invalid  change  level  encountere 
+***  NOTE  (MIL-STD-1840A;  5. 1.1. 2)  -  Change  level  should  be  the  word 
+a  Revision  Number  followed  by  a  Change  Level  Number  followed  by 
+a  Change  Level  Date.  They  should  be  separated  by  a  comma  or  space 
+
+
+The  two  data  files,  DOOlTOOl  and  DOOIQOOI,  had  serious  errors  in 
+the  header  records.  All  of  the  record  identifiers  were  in  upper 
+case.  MIL- STD- 1840A,  para.  5.1.4,  shows  all  of  these  record 
+headers  in  lower  case.  Since  UNIX  is  case  sensitive,  this  is  a 
+critical  error.  Because  of  these  errors,  the  header  information 
+was  not  evaluated  by  the  program.  A  manual  inspection  revealed 
+no  errors.  The  error  log  is  shown  in  Appendix  A,  Part  Two,  in 
+this  report. 
+
+The  tape  was  also  read  using  the  AGFA  Compugraphics  "readl840A" 
+utility.  Because  of  the  incorrect  record  names  (UPPER  CASE) ,  the 
+program  would  not  read  any  of  the  files. 
+
+The  actual  file  names  on  the  tape  were  incorrect.  MIL-STD- 1840A, 
+para.  5 . 1.3,  requires  that  files  be  numbered  starting  at  001  and 
+incremented  by  one  for  each  file.  File  DOOlTOOl  should  have  been 
+named  D001T002.  A  suggested  change  to  MIL- STD- 1840A  has  been 
+made  to  change  the  file  n\imbering  to  the  method  used  on  the  tape. 
+
+
+5 
+
+
+CTN  Test  Report 
+9  2-  0  05 
+
+
+AFTB-ID-91-039 
+
+
+4.  I6ES  Analysis 
+
+The  IGES  file  was  tested  against  four  IGES  translators  available 
+in  the  AFTB.  Two  on  the  UNIX  system,  Igesview  and  Preview,  and 
+two  on  the  MSDOS  system,  AutoCAD  and  CADKEY.  Hard  copies  of  the 
+resulting  plots  are  included  in  Appendix  C  on  this  report.  The 
+only  program  to  generate  an  error  message  was  Rosetta's  Preview. 
+This  message  is  not  an  error  with  the  file  but  a  statement  of 
+limitation  with  the  Sun  system  and  Preview  in  the  double  preci¬ 
+sion  area.  It  is  limited  to  32-bit  floating  point  while  the 
+sending  system  was  capable  of  64- bit  floating  point  precision. 
+
+Note  that  on  the  AutoCAD  hard  copy  only  a  small  part  of  the 
+drawing  was  displayed.  This  is  a  problem  with  the  AutoCAD  IGES 
+translator.  AutoCTUD  did  translate  the  file  but  only  showed  a 
+small  part  included  within  a  "paper  space."  Working  with  Au- 
+toDesk,  the  entire  image  was  displayed  on  the  screen.  This 
+process  took  several  steps.  Use  of  the  AutoCAD  IGES  translator 
+could  result  in  this  problem  in  a  document  if  the  document  pro¬ 
+cessing  software  used  AutoCAD  DXF  file  structure. 
+
+The  UNIX  based  systems  did  not  display  any  text  while  both  MS-DOS 
+systems  did.  The  problem  of  the  text  may  be  related  to  the 
+Subordinate  Entity  Switch  being  set  physically  dependent. 
+
+All  systems  displayed  the  arrow  as  a  series  of  lines  starting 
+from  the  point  and  expanding  out.  Note  this  feature  in  the 
+CADKEY  detailed  drawing.  This  is  a  correct  presentation  as  there 
+are  no  214  Form  3  entities  in  the  file. 
+
+Although  shown  as  solid  lines  on  the  Preview  hard  copy,  the 
+dotted  lines  showed  as  dotted  lines  on  the  screen. 
+
+
+5.  SGML  Analysis 
+
+The  text  file  from  this  document  was  tested  using  the  Software 
+Exoterica  XGML  parser.  The  file  parsed  without  error. 
+
+The  text  file  was  also  parsed  using  the  DataLogics  Parsers tat ion. 
+Again,  the  file  parsed  without  error. 
+
+
+6.  Raster  Analysis 
+
+
+No  raster  files  on  tape. 
+
+
+CTN  Test  Report 
+9  2-  0  05 
+
+
+AFTB-ID-91-039 
+
+
+7.  CGM  Analysis 
+
+No  CGM  files  on  tape. 
+
+
+CTN  Test  Report 
+92-0  05 
+
+
+AFTB-ID-91-039 
+
+
+8.  Conclusions  and  Recommendations 
+
+In  summary,  the  MIL- STD- 1840A  tape  from  Hughes  Aircraft 
+Company  had  some  serious  tape  header  problems.  The  incorrect 
+header  format  caused  one  tape  reading  utility  to  fail  immedi¬ 
+ately.  Because  of  this  format  problem,  the  tape  did  not  meet 
+MIL-STD-1840A. 
+
+The  errors  with  the  IGES  have  not  been  pinpointed.  The  errors 
+may  be  in  the  IGES  translators  in  use  by  the  AFTB.  All  transla¬ 
+tors  generated  usable  images  except  AutoCAD,  which  required  sev¬ 
+eral  steps  to  move  the  image  into  a  viewable  area. 
+
+The  text  file  was  parsed  without  error  using  two  different  pars¬ 
+ers. 
+
+
+8 
+
+
+CTN  Test  Report 
+92-0  05 
+
+
+AFTB-ID-91-039 
+
+
+9.  Appendix  A  -  Tape  Tool  Report  Logs 
+9.1  Tape  Catalog 
+
+
+CALS  Test  Network  Catalog  Evaluation  -  Version  1.2;  Release  Number  8 
+Standards  referenced: 
+
+MIL-STD-1840A  (1987)  -  Automated  Interch6uige  of  Technical  Information 
+ANSI  X3.27  (1987)  -  File  Structure  and  Labelling  of  Magnetic  Tapes 
+
+for  Information  Interchange 
+ANSI  X3.4  (1986)  -  Coded  Character  Sets  -  7  Bit  ASCII 
+
+Mon  Jun  24  11:08:53  1991 
+
+MIL-STD-1840A  File  Catalog 
+
+File  Set  Directory:  /cals/tapetool8/Set023 
+
+
+Page :  1 
+
+Record 
+
+Format/  Block  Selected/ 
+
+File  Name  File  Type  Length  Length/Total  Extracted 
+
+
+DOOl  Document  Declaration  D/00256  02048/000001  Extracted 
+
+***  NOTE  (MIL-STD-1840A;  5.2. 1.3)  -  Unexpected  maxlmtun  variable  record  size 
+encountered.  Header  ->  256,  Expected  ->  260 
+***  NOTE  (ANSI  X3.27;  8. 5. 2. 6)  -  Record  Length  for  Recording  Format  Type  D 
+shall  be  the  maximum  length  of  a  Measured  Data  Unit  (MDU)  . 
+
+***  note  (ANSI  X3.27;  7.2.3)  -  A  variable  length  record  shall  be  contained 
+In  an  HDD.  An  MDU  consists  of  a  four  byte  Record  Control  Word  (RCW) 
+followed  Immediately  by  the  variable  record. 
+
+***  NOTE  (ANSI  X3.4)  -  A  Record  Control  Word  shall  consist  of  four  characters 
+that  express  the  sum  of  the  lengths  of  the  RCW  and  the  variable  record. 
+DOOlTOOl  Text  D/00256  02048/000003  Extracted 
+
+***  NOTE  (MIL-STDt1840A;  5. 2. 1.4)  -  Unexpected  maximum  variable  record  size 
+encountered.  Header  ->  256,  Expected  ->  260 
+DOOIQOOI  IGES  F/00080  02000/000071  Extracted 
+
+Catalog  Process  terminated  with  0  error (s),  0  warning (s),  and  5  note(s). 
+
+
+A-1 
+
+
+CTN  Test  Report 
+9  2-  0  05 
+
+
+AFTB-ID-91-039 
+
+
+9.2  Tape  Evaluation  Log 
+
+CALS  Test  Network  Tape  Evaluation  -  Version  1.2;  Release  Number  8 
+Standards  referenced: 
+
+ANSI  X3.27  (1987)  -  File  Structure  and  Labelling  of  Magnetic  Tapes 
+
+for  Information  Interchange 
+ANSI  X3.4  (1986)  -  Coded  Character  Sets  -  7  Bit  ASCII 
+
+Mon  Jun  24  11:08:48  1991 
+
+ANSI  Tape  Import  Log 
+
+Allocating  tape  drive  /dev/rmtO . . . 
+
+/dev/rmtO  allocated. 
+
+
+««<  PART  OF  LOG  REMOVED  HERE  »»> 
+############  End  Of  Tape  File  Set  ############## 
+Deallocating  /dev/rmtO... 
+
+Tape  Import  Process  terminated  normally. 
+
+
+9.3  Tape  File  Set  Validation  Log 
+
+CALS  Test  Network  File  Set  Evaluation  -  Version  1.2;  Release  Number  8 
+Stcindards  referenced: 
+
+MIL-STD-ld40A  (1987)  -  Automated  Interchange  of  Technical  Information 
+Mon  Jun  24  11:08:53  1991 
+MIL-STD-1840A  File  Set  Evaluation  Log 
+File  Set:  Set023 
+Found  file:  DOOl 
+
+Extracting  Document  Declaration  Header  Records .. . 
+
+Evaluating  Document  Declaration  Header  Records... 
+
+srcsys :  IBM  LDL 
+srcdocid:  9317 
+
+srcrelid:  Hughes  Sample  documenmt 
+chglvl:  01-00 
+
+***  error  (MIL-STD-1840A;  5. 1.1. 2)  -  Invalid  change  level  encountered. 
+
+*•*  note  (MIL-STD-1840A;  5. 1.1. 2)  -  Change  level  should  be  the  word  ORIGINAL  or 
+a  Revision  Niunber  followed  by  a  Change  Level  Number  followed  by 
+
+
+A- 2 
+
+
+CTN  Test  Report 
+92-0  05 
+
+
+AFTB-ID-91-039 
+
+
+a  Change  Level  Date .  They  should  be  separated  by  a  comma  or  space . 
+
+dteisu:  19910614 
+dstsys:  af 
+
+dstdocid:  AF. 01. 0003 
+
+dst relid:  SAMPLE  TECH  MANUAL 
+
+dtetrn:  19910615 
+
+dlvacc:  AF-04-55 
+
+filcnt:  Tl,  Q1 
+
+ttlcls:  UNCLASSIFIED 
+
+doccls:  UNCLASSIFIED 
+
+doctyp:  SGML 
+
+docttl:  HUGHES  SAMPLE 
+
+1  error (s),  0  warning (s),  and  1  note(s)  were  encountered 
+in  Document  Declaration  File  DOOl. 
+
+
+Found  file:  DOOlTOOl 
+Extracting  Text  Header  Records. . . 
+
+Evaluating  Text  Header  Records... 
+
+SRCDOCID:  9317 
+
+***  ERROR  (MIL -STD- 184 OA;  5.1.4)  -  Invalid  Text  header; 
+
+field  name.  Es^ected  «>  srcdocld: 
+
+***  iioTE  -  The  value  In  the  header  field  may  not  be  evaluated. 
+***  itote  -  Correction  made  In  new  %s  Header  File. 
+
+DSTDOCID:  AF. 01. 0003 
+
+***  ERROR  (MIL -STD- 184 OA;  5.1.4)  -  Invalid  Text  header; 
+
+field  name.  Esqpected  =>  dstdocid: 
+
+***  NOTE  -  The  value  in  the  header  field  may  not  be  evaluated. 
+***  NOTE  -  Correction  made  in  new  %s  Header  File. 
+
+TXTFILID:  W 
+
+***  ERROR  (MIL -STD- 184 OA;  5.1.4)  -  Invalid  Text  header; 
+
+field  narnie.  Expected  b>  txtfilid: 
+
+***  NOTE  -  The  value  in  the  header  field  may  not  be  evaluated. 
+***  note  -  Correction  made  in  new  %s  Header  File. 
+
+DOCCLS:  UNCLASSIFIED 
+
+***  ERROR  (MIL -STD- 184 OA;  5.1.4)  -  Invalid  Text  header; 
+
+field  name.  Expected  »>  doccls: 
+
+***  note  -  The  value  in  the  header  field  may  not  be  evaluated. 
+***  NOTE  -  Correction  made  in  new  %s  Header  File. 
+
+NOTES:  Base  SGML  file  on  the  tape 
+
+***  ERROR  (Mli?-STD-1840A;  5.1.4)  -  Invalid  Text  header; 
+field  name.  Expected  s>  notes: 
+
+***  NOTE  -  The  value  in  the  header  field  may  not  be  evaluated. 
+***  note  -  Correction  made  in  new  %s  Header  File. 
+
+5  error (s),  0  warning (s),  and  10  note(s)  were  encountered 
+in  Text  File  DOOlTOOl. 
+
+
+A-3 
+
+
+CTN  Test  Report 
+92  -0  05 
+
+
+AFTB-ID-91-039 
+
+
+Saving  Text  Header  File;  D001T001_HDR 
+Saving  Text  Data  File:  D001T001_TXT 
+
+Found  file:  DOOIQOOI 
+Extracting  IGES  Header  Records... 
+
+Evaluating  IGES  Header  Records... 
+
+SRCDOCID:  9317 
+
+***  ERROR  (MIL-STD”1840Af  5.1.4)  -  Invalid  IGES  header; 
+
+field  name.  Esqpected  ■>  srcdocld: 
+
+***  NOTE  "  The  value  in  the  header  field  may  not  be  evaluated. 
+***  note  -  Correction  made  in  new  %s  Header  File. 
+
+DSTDOCID:  AF. 01. 0003 
+
+***  ERROR  (MIL -STD- 184 OA;  5.1.4)  -  invalid  IGES  header; 
+
+field  name.  Expected  =>  dstdocld: 
+
+***  NOTE  -  The  value  in  the  header  field  may  not  be  evaluated. 
+***  note  -  Correction  made  in  new  %s  Header  File. 
+
+TXTFILID:  A 
+
+***  ERROR  (MIL -STD- 184 OA;  5.1.4)  -  Invalid  IGES  header; 
+
+field  name.  Expected  =>  txtfllid; 
+
+***  NOTE  -  The  value  in  the  header  field  may  not  be  evaluated. 
+***  NOTE  -  Correction  made  in  new  %s  Header  File. 
+
+FIGID:  1 
+
+***  ERROR  (MIL-STD-1840A;  5.1.4)  -  Invalid  IGES  header; 
+field  name.  Expected  =>  flgld: 
+
+***  NOTE  -  The  value  in  the  header  field  may  not  be  evaluated. 
+***  NOTE  -  Correction  aiade  in  new  %s  Header  File. 
+
+SRCGPH:  hughes 1 
+
+***  ERROR  (MIL -STD- 184 OA;  5.1.4)  -  Invalid  IGES  header; 
+
+field  name.  Escpected  s>  srcgph: 
+
+***  NOTE  -  The  value  in  the  header  field  may  not  be  evaluated. 
+***  NOTE  -  Correction  made  in  new  %s  Header  File. 
+
+DOCCLS:  UNCLASSIFIED 
+
+***  ERROR  (MIL -STD- 184 OA;  5.1.4)  -  Invalid  IGES  header; 
+
+field  name.  Expected  =>  doccls: 
+
+***  NOTE  -  The  value  in  the  header  field  may  not  be  evaluated. 
+***  NOTE  -  Correction  made  in  new  %s  Header  File. 
+
+NOTES:  Drawing  of  a  wing 
+
+**•  ERROR  (MIL-STD-1840A;  5.1.4)  -  Invalid  IGES  header; 
+field  name.  Esqpected  »>  notes: 
+
+***  NOTE  -  The  value  in  the  header  field  may  not  be  evaluated. 
+***  note  -  Correction  made  in  new  %s  Header  File. 
+
+7  error (s),  0  warning (s),  and  14  note(s)  were  encountered 
+in  IGES  File  DOOIQOOI. 
+
+Saving  IGES  Header  File;  D001Q001_HDR 
+Saving  IGES  Data  File:  D001Q001_IGS 
+
+Evaluating  numbering  scheme... 
+
+
+A-4 
+
+
+CTN  Test  Report 
+92-0  05 
+
+
+AFTB-ID-91-039 
+
+
+***  ERROR  (MIL-STD-1840A;  5.1.3)  -  The  data  files  for  Document  DOOl 
+were  not  numbered  properly. 
+
+***  note  (MIL-STD>1840A;  5.1.3)  -  The  first  data  file  for  a 
+Document  shall  use  ”001"  and  the  nundser  shall  Increment 
+sequentially  for  each  file  of  the  Document  so  that  each 
+file  has  a  unique  file  name. 
+
+Renumbering  data  files... 
+
+Renumbering  Text  File  from  =>  DOOlTOOl  to  =>  D001T002 
+
+Updating  Map  File  for  Document  DOOl 
+
+***  NOTE  -  1  file(s)  were  renumbered. 
+
+Numbering  scheme  evaluation  complete. 
+
+Checking  file  count... 
+
+No  errors  were  encountered  during  file  count  verification. 
+
+File  Count  verification  complete. 
+
+A  total  of  14  error (s),  0  warning (s),  and  25  note(s)  were 
+
+encountered  In  Document  DOOl. 
+
+A  grand  total  of  14  error (s),  0  warning (s),  and  25  note(s)  were 
+
+encoxmtered  In  this  File  Set. 
+
+MIL-STD-1840A  File  Set  Evaluation  Complete. 
+
+
+A-5 
+
+
+CTN  Test  Report 
+9  2-0  05 
+
+
+AFTB- ID-91-039 
+
+
+10.  Appendix  B  -  SGML  Parser  Logs 
+
+10.1  ,  XOIL  Parser  Log 
+No  reported  errors. 
+
+10.2  DataLoglcs  Parser  Log 
+No  reported  errors . 
+
+
+B-1 
+
+
+CTN  Test  Report 
+92-005 
+
+
+i 
+
+
+AFTB-ID-91-039 
+
+
+11.  Appendix  C  -  IGES  Error  Log 
+
+11.1  CADKEY 
+
+
+hughes • igs  - >  hughes .prt 
+Start  section: 
+
+
+IGES  version  -  4.0 
+
+Date  of  creation:  06/07/91 
+
+Entities  Translated: 
+
+20  Circular  Arc  types 
+2  Conic  Arc  types 
+
+122  Copious  Data  types  i 
+
+114  Line  types 
+20  Point  types 
+
+2  Transformation  Matrix  types 
+38  Associativity  Instance  types 
+1  Drawing  type 
+
+1  View  type 
+
+Entities  Not  Translated; 
+
+2  Property  types 
+
+Special  Notes 
+
+View  Entities 
+
+View  at  D:5  placed  in  Level  #241 
+Drawing  Entities 
+
+Drawing  at  D:1  placed  in  Level  #241  and  contains  1  views 
+
+
+C-1 
+
+
+CTN  Test  Report 
+9  2- 0  05 
+
+
+AFTB-ID-91-039 
+
+
+11.2  Preview  ERROR  LOG 
+
+
+ERROR  REPORT  FOR  FILE  D001Q001_IGS 
+
+
+>>  File  record  length  is  80 
+
+
+Terminate  section  report  : 
+
+
+File  Section  #lines 
+
++ . + 
+
+I  START  1  I 
+
+I  GLOBAL  2  I 
+
+I  DIRECTORY  ENTRY  654  j 
+
+I  PARAMETER  DATA  1097  j 
+
+I  TERMINATE  1  j 
+
+I  TOTAL  1755  j 
+
++ . + 
+
+
+(Expect  80  X  1755  =  140400  bytes) 
+
+
+. . preliminary  format  scam  conplete - . 
+
+>>  WARNING:  Cannot  use  maximum  power  of  10  requested. 
+
+:  Requested  maximum  power  of  308  using  307. 
+
+:  Field  11  line  1  of  GLOBAL  section.  (Max.  Exp.  for  Double) 
+
+IH, ,1H;, ,4HTEST,7HIBM  CAD, 3H1 . 0, 32 , 38 , 6 , 308 , 15 , , 1 . 0, 1, 2HIN, 10000 , 100 . 0,  G 
+
+
+Found  0  errors  and  1  warnings 
+
+

@@ -1,0 +1,71 @@
+== exxonmobil CIK=2115436 window=1866-01-01..1999-12-31
+auto: selection order -- 1. filings whose filingDate falls in --from/--to, sorted filingDate ASCENDING (earliest evidence first); 2. one filing per form key -- S-1/S-4/10-K families keep every filing because version differences are findings, other forms keep the first per (base-form, primaryDocument[:12]); 3. inside a filing, documents in candidate order: the submissions primaryDocument, then named text/html items largest-first, then the full-submission SGML <accession>.txt; 4. --max-docs caps DOCUMENTS, so the stream built by 1-3 is cut at N and every slot past the cut is written to _SKIPPED.csv as 'SKIPPED beyond --max-docs N' -- never dropped.
+auto: 0 documents stored (0 bytes, 0 words); 0 UNANSWERED (of which 0 nameless pre-2001 listing rows); 0 SKIPPED
+auto: IDENTITY stored + unanswered + skipped == attempted -> stored(0) + unanswered(0) + skipped(0) = 0 vs attempted(0) -> OK
+auto: selection order -- 1. filings whose filingDate falls in --from/--to, sorted filingDate ASCENDING (earliest evidence first); 2. one filing per form key -- S-1/S-4/10-K families keep every filing because version differences are findings, other forms keep the first per (base-form, primaryDocument[:12]); 3. inside a filing, documents in candidate order: the submissions primaryDocument, then named text/html items largest-first, then the full-submission SGML <accession>.txt; 4. --max-docs caps DOCUMENTS, so the stream built by 1-3 is cut at N and every slot past the cut is written to _SKIPPED.csv as 'SKIPPED beyond --max-docs N' -- never dropped.
+auto: 0 documents stored (0 bytes, 0 words); 0 UNANSWERED (of which 0 nameless pre-2001 listing rows); 0 SKIPPED
+auto: IDENTITY stored + unanswered + skipped == attempted -> stored(0) + unanswered(0) + skipped(0) = 0 vs attempted(0) -> OK
+freddiemac TICKER_FMCK_UNRESOLVED
+== homedepot CIK=354950 window=1978-01-01..1990-12-31
+    prev = (json.load(open(legacy, encoding="utf-8")).get("cik") or "").strip()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'strip'
+    prev = (json.load(open(legacy, encoding="utf-8")).get("cik") or "").strip()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'strip'
+== valero CIK=1035002 window=1979-01-01..2001-12-31
+   UNANSWERED 0000950129-00-002684 0002.txt: UNANSWERED (padded-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/dashed-dir: - UNANSWERED after 2 tries (HTTP 403))
+   UNANSWERED 0000038777-00-000375 0001.txt: UNANSWERED (padded-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/dashed-dir: - UNANSWERED after 2 tries (HTTP 403))
+   UNANSWERED (7 filings) : UNANSWERED NOT-ENUMERATED: 7 in-window filings were never listed because --max-docs 30 was reached; their documents exist but are unknown to this run
+auto: 30 documents stored (2872260 bytes, 384391 words); 1 UNANSWERED (of which 0 nameless pre-2001 listing rows); 3 SKIPPED
+auto: IDENTITY stored + unanswered + skipped == attempted -> stored(30) + unanswered(1) + skipped(3) = 34 vs attempted(34) -> OK
+   UNANSWERED (342 filings) : UNANSWERED NOT-ENUMERATED: 342 in-window filings were never listed because --max-docs 30 was reached; their documents exist but are unknown to this run
+== morganstanley CIK=895421 window=1924-01-01..1960-12-31
+auto: selection order -- 1. filings whose filingDate falls in --from/--to, sorted filingDate ASCENDING (earliest evidence first); 2. one filing per form key -- S-1/S-4/10-K families keep every filing because version differences are findings, other forms keep the first per (base-form, primaryDocument[:12]); 3. inside a filing, documents in candidate order: the submissions primaryDocument, then named text/html items largest-first, then the full-submission SGML <accession>.txt; 4. --max-docs caps DOCUMENTS, so the stream built by 1-3 is cut at N and every slot past the cut is written to _SKIPPED.csv as 'SKIPPED beyond --max-docs N' -- never dropped.
+auto: 0 documents stored (0 bytes, 0 words); 0 UNANSWERED (of which 0 nameless pre-2001 listing rows); 0 SKIPPED
+auto: IDENTITY stored + unanswered + skipped == attempted -> stored(0) + unanswered(0) + skipped(0) = 0 vs attempted(0) -> OK
+   UNANSWERED 0000950103-00-001114 0008.txt: UNANSWERED (padded-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/dashed-dir: - UNANSWERED after 2 tries (HTTP 403))
+   UNANSWERED 0000950103-00-001114 0007.txt: UNANSWERED (padded-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/dashed-dir: - UNANSWERED after 2 tries (HTTP 403))
+   UNANSWERED 0000950103-00-001114 0002.txt: UNANSWERED (padded-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/dashed-dir: - UNANSWERED after 2 tries (HTTP 403))
+== phillips66 CIK=1534701 window=1917-01-01..2002-12-31
+auto: selection order -- 1. filings whose filingDate falls in --from/--to, sorted filingDate ASCENDING (earliest evidence first); 2. one filing per form key -- S-1/S-4/10-K families keep every filing because version differences are findings, other forms keep the first per (base-form, primaryDocument[:12]); 3. inside a filing, documents in candidate order: the submissions primaryDocument, then named text/html items largest-first, then the full-submission SGML <accession>.txt; 4. --max-docs caps DOCUMENTS, so the stream built by 1-3 is cut at N and every slot past the cut is written to _SKIPPED.csv as 'SKIPPED beyond --max-docs N' -- never dropped.
+auto: 0 documents stored (0 bytes, 0 words); 0 UNANSWERED (of which 0 nameless pre-2001 listing rows); 0 SKIPPED
+auto: IDENTITY stored + unanswered + skipped == attempted -> stored(0) + unanswered(0) + skipped(0) = 0 vs attempted(0) -> OK
+auto: 30 documents stored (24350441 bytes, 530452 words); 1 UNANSWERED (of which 0 nameless pre-2001 listing rows); 3 SKIPPED
+auto: IDENTITY stored + unanswered + skipped == attempted -> stored(30) + unanswered(1) + skipped(3) = 34 vs attempted(34) -> OK
+   UNANSWERED (99 filings) : UNANSWERED NOT-ENUMERATED: 99 in-window filings were never listed because --max-docs 30 was reached; their documents exist but are unknown to this run
+== wellsfargo CIK=72971 window=1852-01-01..1998-12-31
+auto: 30 documents stored (12570735 bytes, 1564535 words); 1 UNANSWERED (of which 0 nameless pre-2001 listing rows); 76 SKIPPED
+auto: IDENTITY stored + unanswered + skipped == attempted -> stored(30) + unanswered(1) + skipped(76) = 107 vs attempted(107) -> OK
+   UNANSWERED (12 filings) : UNANSWERED NOT-ENUMERATED: 12 in-window filings were never listed because --max-docs 30 was reached; their documents exist but are unknown to this run
+   UNANSWERED 0000072971-00-000027 0001.txt: UNANSWERED (padded-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/dashed-dir: - UNANSWERED after 2 tries (HTTP 403))
+   UNANSWERED 0000072971-00-000028 0001.txt: UNANSWERED (padded-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/dashed-dir: - UNANSWERED after 2 tries (HTTP 403))
+   UNANSWERED (5411 filings) : UNANSWERED NOT-ENUMERATED: 5411 in-window filings were never listed because --max-docs 30 was reached; their documents exist but are unknown to this run
+== fanniemae CIK=310522 window=1938-01-01..1970-12-31
+auto: selection order -- 1. filings whose filingDate falls in --from/--to, sorted filingDate ASCENDING (earliest evidence first); 2. one filing per form key -- S-1/S-4/10-K families keep every filing because version differences are findings, other forms keep the first per (base-form, primaryDocument[:12]); 3. inside a filing, documents in candidate order: the submissions primaryDocument, then named text/html items largest-first, then the full-submission SGML <accession>.txt; 4. --max-docs caps DOCUMENTS, so the stream built by 1-3 is cut at N and every slot past the cut is written to _SKIPPED.csv as 'SKIPPED beyond --max-docs N' -- never dropped.
+auto: 0 documents stored (0 bytes, 0 words); 0 UNANSWERED (of which 0 nameless pre-2001 listing rows); 0 SKIPPED
+auto: IDENTITY stored + unanswered + skipped == attempted -> stored(0) + unanswered(0) + skipped(0) = 0 vs attempted(0) -> OK
+auto: IDENTITY stored + unanswered + skipped == attempted -> stored(29) + unanswered(2) + skipped(2) = 33 vs attempted(33) -> OK
+   UNANSWERED 0000315066-01-000917 0001.txt: UNANSWERED (padded-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/dashed-dir: - UNANSWERED after 2 tries (HTTP 403))
+   UNANSWERED (331 filings) : UNANSWERED NOT-ENUMERATED: 331 in-window filings were never listed because --max-docs 30 was reached; their documents exist but are unknown to this run
+== bofa CIK=70858 window=1791-01-01..1998-12-31
+index: 0 rows dropped for no accession, 605 without primaryDocument (both counted in the artefacts)
+*** REFUSED-WRONG-REGISTRANT: EDGAR answered 'BANK OF AMERICA CORP /DE/' for CIK 0000070858 but this directory is 'company_020_bofa'. Everything went to founders_playbook/01_companies/company_020_bofa\sources\_index\quarantine\CIK0000070858; no canonical index was touched.
+*** Re-run with the legacy registrant's CIK, or --allow-mismatch if you are certain. This is the 2026-09-26 Dell/1571996 clobber, D-5.
+index: 0 rows dropped for no accession, 605 without primaryDocument (both counted in the artefacts)
+*** REFUSED-WRONG-REGISTRANT: EDGAR answered 'BANK OF AMERICA CORP /DE/' for CIK 0000070858 but this directory is 'company_020_bofa'. Everything went to founders_playbook/01_companies/company_020_bofa\sources\_index\quarantine\CIK0000070858; no canonical index was touched.
+*** Re-run with the legacy registrant's CIK, or --allow-mismatch if you are certain. This is the 2026-09-26 Dell/1571996 clobber, D-5.
+== att CIK=732717 window=1885-01-01..1984-12-31
+auto: selection order -- 1. filings whose filingDate falls in --from/--to, sorted filingDate ASCENDING (earliest evidence first); 2. one filing per form key -- S-1/S-4/10-K families keep every filing because version differences are findings, other forms keep the first per (base-form, primaryDocument[:12]); 3. inside a filing, documents in candidate order: the submissions primaryDocument, then named text/html items largest-first, then the full-submission SGML <accession>.txt; 4. --max-docs caps DOCUMENTS, so the stream built by 1-3 is cut at N and every slot past the cut is written to _SKIPPED.csv as 'SKIPPED beyond --max-docs N' -- never dropped.
+auto: 0 documents stored (0 bytes, 0 words); 0 UNANSWERED (of which 0 nameless pre-2001 listing rows); 0 SKIPPED
+auto: IDENTITY stored + unanswered + skipped == attempted -> stored(0) + unanswered(0) + skipped(0) = 0 vs attempted(0) -> OK
+   UNANSWERED 0000732717-00-000049 0001.txt: UNANSWERED (padded-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/dashed-dir: - UNANSWERED after 2 tries (HTTP 403))
+   UNANSWERED 0000732717-00-000049 0002.txt: UNANSWERED (padded-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/dashed-dir: - UNANSWERED after 2 tries (HTTP 403))
+   UNANSWERED (478 filings) : UNANSWERED NOT-ENUMERATED: 478 in-window filings were never listed because --max-docs 30 was reached; their documents exist but are unknown to this run
+== stonex CIK=1177394 window=1984-01-01..2000-12-31
+index: 0 rows dropped for no accession, 0 without primaryDocument (both counted in the artefacts)
+*** REFUSED-WRONG-REGISTRANT: EDGAR answered 'TD SYNNEX CORP' for CIK 0001177394 but this directory is 'company_031_stonex'. Everything went to founders_playbook/01_companies/company_031_stonex\sources\_index\quarantine\CIK0001177394; no canonical index was touched.
+*** Re-run with the legacy registrant's CIK, or --allow-mismatch if you are certain. This is the 2026-09-26 Dell/1571996 clobber, D-5.
+index: 0 rows dropped for no accession, 0 without primaryDocument (both counted in the artefacts)
+*** REFUSED-WRONG-REGISTRANT: EDGAR answered 'TD SYNNEX CORP' for CIK 0001177394 but this directory is 'company_031_stonex'. Everything went to founders_playbook/01_companies/company_031_stonex\sources\_index\quarantine\CIK0001177394; no canonical index was touched.
+*** Re-run with the legacy registrant's CIK, or --allow-mismatch if you are certain. This is the 2026-09-26 Dell/1571996 clobber, D-5.

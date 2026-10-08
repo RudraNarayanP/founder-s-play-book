@@ -1,0 +1,142 @@
+{
+ "window": [
+  "1922-01-01",
+  "1960-12-31"
+ ],
+ "candidates": 112,
+ "mined": 12,
+ "untried_by_limit": 98,
+ "items": [
+  {
+   "identifier": "cia-readingroom-document-cia-rdp80-00809a000700030578-6",
+   "date": "1951-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp80-00809a000700030578-6: REPORTS ON PROGRESS OF HUANG-TIEN-FAN STATE FARM IN CHEKIANG",
+   "family": "corporate_print",
+   "meta_date": "1951-01-01",
+   "status": "cached",
+   "bytes": 3872,
+   "named_terms": [
+    "state farm",
+    "state farm mutual automobile insurance"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 2,
+   "entity_hits": 2,
+   "matched_entities": [
+    "state farm"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 64,
+     "text": "HUANG-TIEN-FAN STATE FARM IN CHEKIANG",
+     "context": [
+      "REPORTS ON PROGRESS OF",
+      ""
+     ]
+    },
+    {
+     "line": 99,
+     "text": "+ present, the state farm is employing over 22 cadres and 258 agricultural",
+     "context": [
+      "",
+      "workers. About 9,400 mou is under cultivation with 4,000 mou devoted to rice."
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "kPqol0cgyh4C",
+   "date": "1929-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried kPqol0cgyh4C_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "CJUpAQAAMAAJ",
+   "date": "1928-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried CJUpAQAAMAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "EU4gAQAAMAAJ",
+   "date": "1930-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried EU4gAQAAMAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "j-pJAQAAMAAJ",
+   "date": "1929-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried j-pJAQAAMAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "lgn-vMSLIDgC",
+   "date": "1930-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried lgn-vMSLIDgC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "wlGCx8nvNzkC",
+   "date": "1930-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried wlGCx8nvNzkC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "VzTafbhUxuQC",
+   "date": "1929-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried VzTafbhUxuQC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "jtZxG0cxtRIC",
+   "date": "1930-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried jtZxG0cxtRIC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "59oZAQAAIAAJ",
+   "date": "1930-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried 59oZAQAAIAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "2pUjAQAAIAAJ",
+   "date": "1927-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried 2pUjAQAAIAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "JK8ZAQAAIAAJ",
+   "date": "1926-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried JK8ZAQAAIAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  }
+ ]
+}

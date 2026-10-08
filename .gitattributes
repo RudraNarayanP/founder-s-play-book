@@ -1,0 +1,12 @@
+# Evidence bytes are provenance: sources/ layers and harvest responses carry sha256 sidecars computed
+# from the exact downloaded bytes, so line-ending conversion would make every future hash check lie.
+# (core.autocrlf=true is a Windows default, not this project's decision -- RD-143.)
+founders_playbook/01_companies/**/sources/** -text
+founders_playbook/00_universe/harvest/** -text
+*.txt -text
+*.htm -text
+*.html -text
+*.sgml -text
+*.sgm -text
+*.json -text
+*.meta.json -text

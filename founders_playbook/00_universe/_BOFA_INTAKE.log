@@ -1,0 +1,14 @@
+walk: 21 slices (21 fetched, 0 failed), 52562 filing rows, date perimeter 1994-02-22 -> 2026-10-06
+index: 52562 filings from registrant 'BANK OF AMERICA CORP /DE/' (CIK 0000070858, tickers ['BAC', 'BML-PG', 'BML-PL', 'BAC-PB', 'BAC-PK', 'BAC-PE', 'BAC-PL', 'BAC-PM', 'BAC-PN', 'BAC-PO', 'BAC-PP', 'BAC-PQ', 'BAC-PS', 'BACRP', 'BML-PH', 'BML-PJ', 'MER-PK'])
+index: registrant guard = quarantine -- no slug token ['bofa'] appears in registrant name 'BANK OF AMERICA CORP /DE/' / tickers ['bac', 'bac-pb', 'bac-pe', 'bac-pk', 'bac-pl', 'bac-pm', 'bac-pn', 'bac-po', 'bac-pp', 'bac-pq', 'bac-ps', 'bacrp', 'bml-pg', 'bml-ph', 'bml-pj', 'bml-pl', 'mer-pk'] / former names
+index: artefacts keyed by CIK -> submissions_CIK0000070858.json, submissions_CIK0000070858.csv, _INDEX_CIK0000070858.md
+index: 0 rows dropped for no accession, 605 without primaryDocument (both counted in the artefacts)
+*** REFUSED-WRONG-REGISTRANT: EDGAR answered 'BANK OF AMERICA CORP /DE/' for CIK 0000070858 but this directory is 'company_020_bofa'. Everything went to founders_playbook/01_companies/company_020_bofa\sources\_index\quarantine\CIK0000070858; no canonical index was touched.
+*** Re-run with the legacy registrant's CIK, or --allow-mismatch if you are certain. This is the 2026-09-26 Dell/1571996 clobber, D-5.
+walk: 21 slices (21 fetched, 0 failed), 52562 filing rows, date perimeter 1994-02-22 -> 2026-10-06
+index: 52562 filings from registrant 'BANK OF AMERICA CORP /DE/' (CIK 0000070858, tickers ['BAC', 'BML-PG', 'BML-PL', 'BAC-PB', 'BAC-PK', 'BAC-PE', 'BAC-PL', 'BAC-PM', 'BAC-PN', 'BAC-PO', 'BAC-PP', 'BAC-PQ', 'BAC-PS', 'BACRP', 'BML-PH', 'BML-PJ', 'MER-PK'])
+index: registrant guard = quarantine -- no slug token ['bofa'] appears in registrant name 'BANK OF AMERICA CORP /DE/' / tickers ['bac', 'bac-pb', 'bac-pe', 'bac-pk', 'bac-pl', 'bac-pm', 'bac-pn', 'bac-po', 'bac-pp', 'bac-pq', 'bac-ps', 'bacrp', 'bml-pg', 'bml-ph', 'bml-pj', 'bml-pl', 'mer-pk'] / former names
+index: artefacts keyed by CIK -> submissions_CIK0000070858.json, submissions_CIK0000070858.csv, _INDEX_CIK0000070858.md
+index: 0 rows dropped for no accession, 605 without primaryDocument (both counted in the artefacts)
+*** REFUSED-WRONG-REGISTRANT: EDGAR answered 'BANK OF AMERICA CORP /DE/' for CIK 0000070858 but this directory is 'company_020_bofa'. Everything went to founders_playbook/01_companies/company_020_bofa\sources\_index\quarantine\CIK0000070858; no canonical index was touched.
+*** Re-run with the legacy registrant's CIK, or --allow-mismatch if you are certain. This is the 2026-09-26 Dell/1571996 clobber, D-5.

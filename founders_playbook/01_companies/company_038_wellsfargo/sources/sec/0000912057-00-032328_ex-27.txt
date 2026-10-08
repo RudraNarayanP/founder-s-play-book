@@ -1,0 +1,76 @@
+<DOCUMENT>
+<TYPE>EX-27
+<SEQUENCE>2
+<FILENAME>ex-27.txt
+<DESCRIPTION>EXHIBIT 27
+<TEXT>
+
+<TABLE> <S> <C>
+
+<PAGE>
+<ARTICLE> 9
+<LEGEND>
+THIS SCHEDULE CONTAINS SUMMARY FINANCIAL INFORMATION EXTRACTED FROM THE
+8-K FOR THE PERIOD ENDED JUNE 30, 2000 AND IS QUALIFIED IN ITS
+ENTIRETY BY REFERENCE TO SUCH FINANCIAL INFORMATION.
+</LEGEND>
+<MULTIPLIER> 1,000,000
+
+<S>                             <C>
+<PERIOD-TYPE>                   6-MOS
+<FISCAL-YEAR-END>                          DEC-31-2000
+<PERIOD-START>                             JAN-01-2000
+<PERIOD-END>                               JUN-30-2000
+<CASH>                                          14,168
+<INT-BEARING-DEPOSITS>                               0
+<FED-FUNDS-SOLD>                                 3,409
+<TRADING-ASSETS>                                     0
+<INVESTMENTS-HELD-FOR-SALE>                     34,604
+<INVESTMENTS-CARRYING>                               0
+<INVESTMENTS-MARKET>                                 0
+<LOANS>                                        135,046
+<ALLOWANCE>                                      3,349
+<TOTAL-ASSETS>                                 234,159
+<DEPOSITS>                                     146,448
+<SHORT-TERM>                                    26,304
+<LIABILITIES-OTHER>                             10,856
+<LONG-TERM>                                     27,424
+<PREFERRED-MANDATORY>                                0
+<PREFERRED>                                        265
+<COMMON>                                         2,777
+<OTHER-SE>                                      20,085
+<TOTAL-LIABILITIES-AND-EQUITY>                 234,159
+<INTEREST-LOAN>                                  6,139
+<INTEREST-INVEST>                                1,218
+<INTEREST-OTHER>                                   722
+<INTEREST-TOTAL>                                 8,071
+<INTEREST-DEPOSIT>                               1,632
+<INTEREST-EXPENSE>                               3,161
+<INTEREST-INCOME-NET>                            4,910
+<LOAN-LOSSES>                                      515
+<SECURITIES-GAINS>                               (641)
+<EXPENSE-OTHER>                                  5,103
+<INCOME-PRETAX>                                  3,294
+<INCOME-PRE-EXTRAORDINARY>                       2,049
+<EXTRAORDINARY>                                      0
+<CHANGES>                                            0
+<NET-INCOME>                                     2,049
+<EPS-BASIC>                                       1.26
+<EPS-DILUTED>                                     1.25
+<YIELD-ACTUAL>                                    5.56
+<LOANS-NON>                                        801
+<LOANS-PAST>                                         0
+<LOANS-TROUBLED>                                     3
+<LOANS-PROBLEM>                                      0
+<ALLOWANCE-OPEN>                                 3,170
+<CHARGE-OFFS>                                      717
+<RECOVERIES>                                       217
+<ALLOWANCE-CLOSE>                                3,349
+<ALLOWANCE-DOMESTIC>                                 0
+<ALLOWANCE-FOREIGN>                                  0
+<ALLOWANCE-UNALLOCATED>                              0
+
+
+</TABLE>
+</TEXT>
+</DOCUMENT>

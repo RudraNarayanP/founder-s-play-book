@@ -1,0 +1,1701 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ UJkcS1Wfakt9YJnlqXfFSi0H5PIm/1DP9OMwQKexIboxwvC9rPALXIQEQNpA04px
+ PWhysvs5dzzGaLkW+VKlOg==
+
+<SEC-DOCUMENT>/in/edgar/work/0000950103-00-500124/0000950103-00-500124.txt : 20001128
+<SEC-HEADER>0000950103-00-500124.hdr.sgml : 20001128
+ACCESSION NUMBER:		0000950103-00-500124
+CONFORMED SUBMISSION TYPE:	SC 13D
+PUBLIC DOCUMENT COUNT:		2
+FILED AS OF DATE:		20001127
+GROUP MEMBERS:		VERIZON COMMUNICATIONS INC
+GROUP MEMBERS:		VERIZON WIRELESS INC.
+
+SUBJECT COMPANY:	
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			PRICE COMMUNICATIONS CORP
+		CENTRAL INDEX KEY:			0000355787
+		STANDARD INDUSTRIAL CLASSIFICATION:	 [4833
+]		IRS NUMBER:				132991700
+		STATE OF INCORPORATION:			NY
+		FISCAL YEAR END:			1231
+</COMPANY-DATA>
+
+		FILING VALUES:
+			FORM TYPE:		SC 13D
+			SEC ACT:		
+			SEC FILE NUMBER:	005-34130
+			FILM NUMBER:		777320
+</FILING-VALUES>
+
+			BUSINESS ADDRESS:	
+				STREET 1:		45 ROCKEFELLER PLZ
+				STREET 2:		STE 3201
+				CITY:			NEW YORK
+				STATE:			NY
+				ZIP:			10020
+				BUSINESS PHONE:		2127575600
+</BUSINESS-ADDRESS>
+
+				MAIL ADDRESS:	
+					STREET 1:		45 ROCKEFELLER PLAZA
+					STREET 2:		SUITE 3201
+					CITY:			NEW YORK
+					STATE:			NY
+					ZIP:			10020
+</MAIL-ADDRESS>
+</SUBJECT-COMPANY>
+
+					FILED BY:		
+
+						COMPANY DATA:	
+							COMPANY CONFORMED NAME:			VERIZON COMMUNICATIONS INC
+							CENTRAL INDEX KEY:			0000732712
+							STANDARD INDUSTRIAL CLASSIFICATION:	 [4813
+]							IRS NUMBER:				232259884
+							STATE OF INCORPORATION:			DE
+							FISCAL YEAR END:			1231
+</COMPANY-DATA>
+
+							FILING VALUES:
+								FORM TYPE:		SC 13D
+</FILING-VALUES>
+
+								BUSINESS ADDRESS:	
+									STREET 1:		1095 AVE OF THE AMERICAS
+									CITY:			NEW YORK
+									STATE:			NY
+									ZIP:			10036
+									BUSINESS PHONE:		2123952121
+</BUSINESS-ADDRESS>
+
+									MAIL ADDRESS:	
+										STREET 1:		1717 ARCH ST 47TH FL
+										STREET 2:		1717 ARCH ST 47TH FL
+										CITY:			PHILADELPHIA
+										STATE:			PA
+										ZIP:			19103
+</MAIL-ADDRESS>
+
+										FORMER COMPANY:	
+											FORMER CONFORMED NAME:	BELL ATLANTIC CORP
+											DATE OF NAME CHANGE:	19920703
+</FORMER-COMPANY>
+</FILED-BY>
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>SC 13D
+<SEQUENCE>1
+<FILENAME>sc13.htm
+<TEXT>
+
+<HTML>
+<head>
+   <TITLE>PRICE COMMUNICATIONS CORPORATION</TITLE>
+</head>
+<body>
+&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="665" >
+<tr VALIGN=BOTTOM>
+<td ALIGN=CENTER COLSPAN="3">
+<hr ALIGN="center" WIDTH="100%" SIZE="2">
+<br><b><font size=+1>UNITED STATES</font></b>
+<br><b><font size=+1>SECURITIES AND EXCHANGE COMMISSION</font></b></td>
+</tr>
+
+<tr VALIGN=BOTTOM>
+<td ALIGN=CENTER COLSPAN="3"><b><font size=-1>Washington, D.C. 20549</font></b>
+<hr ALIGN="CENTER" SIZE="1" WIDTH="20%"></td>
+</tr>
+
+<tr VALIGN=BOTTOM>
+<td ALIGN=CENTER COLSPAN="3"><b><font size=+1>SCHEDULE 13D</font></b></td>
+</tr>
+
+<tr VALIGN=BOTTOM>
+<td ALIGN=CENTER COLSPAN="3"><b><font size=-1>Under the Securities Exchange
+Act of 1934</font></b></td>
+</tr>
+
+<tr VALIGN=BOTTOM>
+<td ALIGN=CENTER COLSPAN="3"><b>&nbsp;</b></td>
+</tr>
+
+<tr VALIGN=BOTTOM>
+<td ALIGN=CENTER COLSPAN="3"><b><font size=+1>PRICE COMMUNICATIONS CORPORATION</font></b></td>
+</tr>
+
+<tr VALIGN=BOTTOM>
+<td ALIGN=CENTER COLSPAN="3"><font size=-2>(Name of Issuer)</font></td>
+</tr>
+
+<tr VALIGN=BOTTOM>
+<td ALIGN=CENTER COLSPAN="3">
+<br><b><font size=+0>Common Stock</font></b>
+<br><b><font size=+0>$0.01 PAR VALUE</font></b></td>
+</tr>
+
+<tr VALIGN=BOTTOM>
+<td ALIGN=CENTER COLSPAN="3"><font size=-2>(Title of Class of Securities)</font></td>
+</tr>
+
+<tr VALIGN=BOTTOM>
+<td ALIGN=CENTER COLSPAN="3">
+<hr ALIGN="CENTER" SIZE="1" WIDTH="20%"></td>
+</tr>
+
+<tr VALIGN=BOTTOM>
+<td ALIGN=CENTER COLSPAN="3"><b><font size=-1>741437305</font></b></td>
+</tr>
+
+<tr VALIGN=BOTTOM>
+<td ALIGN=CENTER COLSPAN="3"><font size=-2>(Cusip Number)</font></td>
+</tr>
+
+<tr VALIGN=BOTTOM>
+<td ALIGN=CENTER><b>&nbsp;</b></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER COLSPAN="3"><b>&nbsp;<font size=-1>VERIZON COMMUNICATIONS
+INC.</font></b>
+<br><b><font size=-1>VERIZON WIRELESS INC.</font></b></td>
+</tr>
+
+<tr VALIGN=BOTTOM>
+<td ALIGN=CENTER COLSPAN="3">&nbsp;<font size=-2>(Name of Persons Filing
+Statement)</font></td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER COLSPAN="3"><b><font size=-1>&nbsp;Edward Langston</font></b>
+<br><b><font size=-1>Chief Financial Officer</font></b>
+<br><b><font size=-1>Verizon Wireless Inc.</font></b>
+<br><b><font size=-1>180 Washington Valley Road</font></b>
+<br><b><font size=-1>Bedminster, NJ 07921</font></b>
+<br><b><font size=-1>Tel No.: 908-306-7000&nbsp;</font></b>
+<br><font size=-2>(Name, Address and Telephone Number of</font>
+<br><font size=-2>Person Authorized to Receive Notices</font>
+<br><font size=-2>and Communications)</font></td>
+
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER COLSPAN="3">&nbsp;</td>
+</tr>
+
+<tr ALIGN=CENTER>
+<td ALIGN=CENTER><b><font size=-2>With a copy to:</font></b>
+<br><b><font size=-1>Diane G. Kerr</font></b>
+<br><b><font size=-1>Davis Polk &amp; Wardwell</font></b>
+<br><b><font size=-1>450 Lexington Avenue</font></b>
+<br><b><font size=-1>New York, New York 10017</font></b>
+<br><b><font size=-1>Tel No.:212-450-4336</font></b></td>
+
+<td></td>
+
+<td>
+<br><b><font size=-1>Frederic V. Salerno</font></b>
+<br><b><font size=-1>Verizon Communications Inc.</font></b>
+<br><b><font size=-1>1095 6th Avenue</font></b>
+<br><b><font size=-1>New York, NY 10036</font></b>
+<br><b><font size=-1>Tel No.: 212-395-2121</font></b></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER COLSPAN="3">&nbsp;<font size=-2>(Name, Address and Telephone
+Number ofPerson Authorized to Receive Noticesand Communications)</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER COLSPAN="3">
+<br><b><font size=-1>November 14, 2000</font></b>
+<br><font size=-2>(Date of Event which Requires Filing of this Statement)</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER COLSPAN="3">
+<hr ALIGN="CENTER" SIZE="1" WIDTH="20%"></td>
+</tr>
+
+<tr>
+<td ALIGN=LEFT COLSPAN="3"><font size=-1>&nbsp;&nbsp;&nbsp;&nbsp; If the
+filing person has previously filed a statement on Schedule 13G to report
+the acquisition which is the subject of this Schedule 13D, and is filing
+this statement because of 13(d)-1(e), 13d-1(f) or 13d-1(g), check the following:<font face="wingdings">o&nbsp;</font></font>
+<p>
+<hr ALIGN="CENTER" SIZE="2" WIDTH="100%">
+<br>&nbsp;</td>
+</tr>
+</TABLE>
+
+<table BORDER CELLSPACING=0 CELLPADDING=3 COLS=3 WIDTH="685" >
+<tr>
+<td VALIGN=TOP WIDTH="33%"></td>
+
+<td VALIGN=TOP WIDTH="33%"></td>
+
+<td VALIGN=TOP WIDTH="33%"></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER COLSPAN="3"><b><font face="Arial"><font size=-1>SCHEDULE
+13D</font></font></b></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER><font face="Arial"><font size=-1>CUSIP No. 741437305</font></font></td>
+
+<td></td>
+
+<td ALIGN=CENTER COLSPAN="3"><font face="Arial"><font size=-1>Page 2 of
+12 Pages</font></font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td COLSPAN="6"></td>
+</tr>
+</TABLE>
+
+<table BORDER CELLSPACING=0 CELLPADDING=3 COLS=4 WIDTH="665" >
+<tr>
+<td VALIGN=TOP WIDTH="50"></td>
+
+<td VALIGN=TOP WIDTH="150"></td>
+
+<td VALIGN=TOP WIDTH="50"></td>
+
+<td VALIGN=TOP WIDTH="400"></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER><font face="Arial"><font size=-1>1</font></font></td>
+
+<td COLSPAN="3"><font face="Arial"><font size=-1>NAME OF REPORTING PERSON&nbsp;</font></font>
+<br><font face="Arial"><font size=-1>S.S. OR I.R.S. IDENTIFICATION NO.
+OF ABOVE PERSON</font></font>
+<p><b><font face="Arial"><font size=-1>Verizon Communications Inc.</font></font></b></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER><font face="Arial"><font size=-1>2</font></font></td>
+
+<td COLSPAN="3"><font face="Arial"><font size=-1>CHECK THE APPROPRIATE
+BOX IF A MEMBER OF A GROUP*</font></font>
+<div align=right><font face="Arial"><font size=-1>(a)</font></font> <font face="wingdings"><font size=-1>o</font></font>
+<br><font face="Arial"><font size=-1>(b)</font></font> <font face="wingdings"><font size=-1>x</font></font></div>
+</td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER><font face="Arial"><font size=-1>3</font></font></td>
+
+<td COLSPAN="3"><font face="Arial"><font size=-1>SEC USE ONLY</font></font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER><font face="Arial"><font size=-1>4</font></font></td>
+
+<td COLSPAN="3"><font face="Arial"><font size=-1>SOURCE OF FUNDS</font></font>
+<p><b><font face="Arial"><font size=-1>N/A</font></font></b></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER><font face="Arial"><font size=-1>5</font></font></td>
+
+<td COLSPAN="3"><font face="Arial"><font size=-1>CHECK BOX IF DISCLOSURE
+OF LEGAL PROCEEDINGS IS REQUIRED PURSUANT TO ITEMS 2(d) or 2(e)</font></font>
+<div align=right><font face="wingdings"><font size=-1>o</font></font></div>
+</td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER><font face="Arial"><font size=-1>6</font></font></td>
+
+<td COLSPAN="3"><font face="Arial"><font size=-1>CITIZENSHIP OR PLACE OF
+ORGANIZATION</font></font>
+<p><b><font face="Arial"><font size=-1>Delaware</font></font></b></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER COLSPAN="2" ROWSPAN="4"><font face="Arial"><font size=-1>NUMBER
+OF SHARES</font></font>
+<br><font face="Arial"><font size=-1>BENEFICIALLY OWNED BY</font></font>
+<br><font face="Arial"><font size=-1>EACH REPORTING PERSON WITH</font></font></td>
+
+<td ALIGN=CENTER VALIGN=TOP><font face="Arial"><font size=-1>7</font></font></td>
+
+<td VALIGN=TOP><font face="Arial"><font size=-1>SOLE VOTING POWER</font></font></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=TOP><font face="Arial"><font size=-1>8</font></font></td>
+
+<td VALIGN=TOP><font face="Arial"><font size=-1>SHARED VOTING POWER</font></font>
+<p><b><font face="Arial"><font size=-1>6,582,989*</font></font></b></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=TOP><font face="Arial"><font size=-1>9</font></font></td>
+
+<td VALIGN=TOP><font face="Arial"><font size=-1>SOLE DISPOSITIVE POWER</font></font></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=TOP><font face="Arial"><font size=-1>10</font></font></td>
+
+<td VALIGN=TOP><font face="Arial"><font size=-1>SHARED DISPOSITIVE POWER</font></font>
+<p><b><font face="Arial"><font size=-1>6,582,989*</font></font></b></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER><font face="Arial"><font size=-1>11</font></font></td>
+
+<td COLSPAN="3"><font face="Arial"><font size=-1>AGGREGATE AMOUNT BENEFICIALLY
+OWNED BY EACH REPORTING PERSON</font></font>
+<p><b><font face="Arial"><font size=-1>6,582,989*</font></font></b></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER><font face="Arial"><font size=-1>12</font></font></td>
+
+<td COLSPAN="3"><font face="Arial"><font size=-1>CHECK BOX IF THE AGGREGATE
+AMOUNT IN ROW (11) EXCLUDES CERTAIN SHARES*</font></font>
+<div align=right><font face="wingdings"><font size=-1>o</font></font></div>
+</td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER><font face="Arial"><font size=-1>13</font></font></td>
+
+<td COLSPAN="3"><font face="Arial"><font size=-1>PERCENT OF CLASS REPRESENTED
+BY AMOUNT IN ROW (11)</font></font>
+<p><b><font face="Arial"><font size=-1>11.9%*&nbsp;</font></font></b></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER><font face="Arial"><font size=-1>14</font></font></td>
+
+<td COLSPAN="3"><font face="Arial"><font size=-1>TYPE OF REPORTING PERSON&nbsp;</font></font>
+<p><b><font face="Arial"><font size=-1>CO</font></font></b></td>
+</tr>
+</TABLE>
+
+<table BORDER=0 WIDTH="665" >
+<tr VALIGN=TOP>
+<td ALIGN=LEFT><font face="Arial"><font size=-1>SEC 1746 (2-98) 2 of 12</font></font>
+<br><b><font face="Arial"><font size=-1>*&nbsp; The Reporting Person disclaims
+beneficial ownership of such shares and this statement shall not be construed
+as an admission that the Reporting Person is the beneficial owner of any
+securities covered by this statement.</font></font></b></td>
+</tr>
+</TABLE>
+
+<br>&nbsp;
+<table BORDER CELLSPACING=0 CELLPADDING=3 COLS=3 WIDTH="685" >
+<tr>
+<td VALIGN=TOP WIDTH="33%"></td>
+
+<td VALIGN=TOP WIDTH="33%"></td>
+
+<td VALIGN=TOP WIDTH="33%"></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER COLSPAN="3"><b><font face="Arial"><font size=-1>SCHEDULE
+13D</font></font></b></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER><font face="Arial"><font size=-1>CUSIP No. 741437305</font></font></td>
+
+<td></td>
+
+<td ALIGN=CENTER COLSPAN="3"><font face="Arial"><font size=-1>Page 3 of
+12 Pages</font></font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td COLSPAN="6"></td>
+</tr>
+</TABLE>
+
+<table BORDER CELLSPACING=0 CELLPADDING=3 COLS=4 WIDTH="665" >
+<tr>
+<td VALIGN=TOP WIDTH="50"></td>
+
+<td VALIGN=TOP WIDTH="150"></td>
+
+<td VALIGN=TOP WIDTH="50"></td>
+
+<td VALIGN=TOP WIDTH="400"></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER><font face="Arial"><font size=-1>1</font></font></td>
+
+<td COLSPAN="3"><font face="Arial"><font size=-1>NAME OF REPORTING PERSON&nbsp;</font></font>
+<br><font face="Arial"><font size=-1>S.S. OR I.R.S. IDENTIFICATION NO.
+OF ABOVE PERSON</font></font>
+<p><b><font face="Arial"><font size=-1>Verizon Wireless Inc.</font></font></b></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER><font face="Arial"><font size=-1>2</font></font></td>
+
+<td COLSPAN="3"><font face="Arial"><font size=-1>CHECK THE APPROPRIATE
+BOX IF A MEMBER OF A GROUP*</font></font>
+<div align=right><font face="Arial"><font size=-1>(a)</font></font> <font face="wingdings"><font size=-1>o</font></font>
+<br><font face="Arial"><font size=-1>(b)</font></font>&nbsp; <font face="wingdings"><font size=-1>x</font></font></div>
+</td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER><font face="Arial"><font size=-1>3</font></font></td>
+
+<td COLSPAN="3"><font face="Arial"><font size=-1>SEC USE ONLY</font></font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER><font face="Arial"><font size=-1>4</font></font></td>
+
+<td COLSPAN="3"><font face="Arial"><font size=-1>SOURCE OF FUNDS</font></font>
+<p><b><font face="Arial"><font size=-1>N/A</font></font></b></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER><font face="Arial"><font size=-1>5</font></font></td>
+
+<td COLSPAN="3"><font face="Arial"><font size=-1>CHECK BOX IF DISCLOSURE
+OF LEGAL PROCEEDINGS IS REQUIRED PURSUANT TO ITEMS 2(d) or 2(e)</font></font>
+<div align=right><font face="wingdings"><font size=-1>o</font></font></div>
+</td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER><font face="Arial"><font size=-1>6</font></font></td>
+
+<td COLSPAN="3"><font face="Arial"><font size=-1>CITIZENSHIP OR PLACE OF
+ORGANIZATION</font></font>
+<p><b><font face="Arial"><font size=-1>DE</font></font></b></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER COLSPAN="2" ROWSPAN="4"><font face="Arial"><font size=-1>NUMBER
+OF SHARES</font></font>
+<br><font face="Arial"><font size=-1>BENEFICIALLY OWNED BY</font></font>
+<br><font face="Arial"><font size=-1>EACH REPORTING PERSON WITH</font></font></td>
+
+<td ALIGN=CENTER VALIGN=TOP><font face="Arial"><font size=-1>7</font></font></td>
+
+<td VALIGN=TOP><font face="Arial"><font size=-1>SOLE VOTING POWER</font></font></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=TOP><font face="Arial"><font size=-1>8</font></font></td>
+
+<td VALIGN=TOP><font face="Arial"><font size=-1>SHARED VOTING POWER</font></font>
+<p><b><font face="Arial"><font size=-1>6,582,989*</font></font></b></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=TOP><font face="Arial"><font size=-1>9</font></font></td>
+
+<td VALIGN=TOP><font face="Arial"><font size=-1>SOLE DISPOSITIVE POWER</font></font></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=TOP><font face="Arial"><font size=-1>10</font></font></td>
+
+<td VALIGN=TOP><font face="Arial"><font size=-1>SHARED DISPOSITIVE POWER</font></font>
+<p><b><font face="Arial"><font size=-1>6,582,989*</font></font></b></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER><font face="Arial"><font size=-1>11</font></font></td>
+
+<td COLSPAN="3"><font face="Arial"><font size=-1>AGGREGATE AMOUNT BENEFICIALLY
+OWNED BY EACH REPORTING PERSON</font></font>
+<p><b><font face="Arial"><font size=-1>6,582,989*</font></font></b></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER><font face="Arial"><font size=-1>12</font></font></td>
+
+<td COLSPAN="3"><font face="Arial"><font size=-1>CHECK BOX IF THE AGGREGATE
+AMOUNT IN ROW (11) EXCLUDES CERTAIN SHARES*</font></font>
+<div align=right><font face="wingdings"><font size=-1>o</font></font></div>
+</td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER><font face="Arial"><font size=-1>13</font></font></td>
+
+<td COLSPAN="3"><font face="Arial"><font size=-1>PERCENT OF CLASS REPRESENTED
+BY AMOUNT IN ROW (11)</font></font>
+<p><b><font face="Arial"><font size=-1>11.9%*</font></font></b></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER><font face="Arial"><font size=-1>14</font></font></td>
+
+<td COLSPAN="3"><font face="Arial"><font size=-1>TYPE OF REPORTING PERSON&nbsp;</font></font>
+<p><b><font face="Arial"><font size=-1>CO</font></font></b></td>
+</tr>
+</TABLE>
+
+<table BORDER=0 WIDTH="665" >
+<tr VALIGN=TOP>
+<td ALIGN=LEFT><font face="Arial"><font size=-1>SEC 1746 (2-98) 3 of 12</font></font>
+<br><b><font face="Arial"><font size=-1>*&nbsp; The Reporting Person disclaims
+beneficial ownership of such shares and this statement shall not be construed
+as an admission that the Reporting Person is the beneficial owner of any
+securities covered by this statement.</font></font></b></td>
+</tr>
+</TABLE>
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="665" >
+<tr>
+<td><b><i><font size=-1>Item 1. Security and Issuer.</font></i></b>
+<p><font size=-1>The class of equity securities to which this statement
+relates is the common stock, $.01 par value per share (the "Shares"), of
+Price Communications Corporation, a New York corporation (the "Issuer").&nbsp;
+The principal executive offices of the Issuer are located at 45 Rockefeller
+Plaza, New York, New York, 10020.</font>
+<p><b><i><font size=-1>Item 2. Identity and Background.</font></i></b>
+<p><font size=-1>(a)-(c) and (f)&nbsp; The names of the persons filing
+this statement are Verizon Communications Inc., a Delaware corporation
+("Verizon"), and Verizon Wireless Inc., a Delaware corporation and indirect
+wholly owned subsidiary of Verizon Communications ("Verizon Wireless,"
+together with Verizon, the "Reporting Persons").</font>
+<br><font size=-1>The address of the principal business and the principal
+office of Verizon is 1095 Avenue of the Americas, New York, NY 10036.&nbsp;
+The name, business address, present principal occupation or employment,
+and citizenship of each director and executive officer of Verizon is set
+forth on Schedule A, and is incorporated herein by reference.&nbsp; Verizon
+is a domestic and international provider of communications and communications
+related services, including wireline telecommunications services, wireless
+communications services, and publishing businesses.</font>
+<p><font size=-1>The address of the principal business and the principal
+office of Verizon Wireless is 180 Washington Valley Road, Bedminster, NJ
+07921.&nbsp; The name, business address, present principal occupation or
+employment, and citizenship of each director and executive officer of Verizon
+Wireless is set forth on Schedule B, and is incorporated herein by reference.&nbsp;
+The principal business of Verizon Wireless is the provision of wireless
+voice and data services in the United States.</font>
+<p><font size=-1>(d)-(e)&nbsp; During the last five years, none of the
+Reporting Persons nor, to the best knowledge of any of the Reporting Persons,
+any of the persons set forth on Schedule A or Schedule B was convicted
+in a criminal proceeding (excluding traffic violations or similar misdemeanors).&nbsp;
+During the last five years, none of the Reporting Persons nor, to the best
+knowledge of any of the Reporting Persons, any of the persons set forth
+on Schedule A or Schedule B was a party to a civil proceeding of a judicial
+or administrative body of competent jurisdiction and as a result of such
+proceeding was or is subject to a judgment, decree or final order enjoining
+future violations of, or prohibiting or mandating activities subject to,
+U.S. Federal or State securities laws or finding any violations with respect
+to such laws.</font>
+<br>&nbsp;
+<p><b><i><font size=-1>Item 3. Source and Amount of Funds or Other Consideration.</font></i></b>
+<p><font size=-1>On November 14, 2000, Robert Price and Kim Pressman (the
+"Stockholders") entered into a voting agreement (the "Voting Agreement",
+described in Item 6 below and attached hereto as Exhibit 1) with Verizon
+Wireless with respect to certain Shares beneficially owned by such Stockholders.&nbsp;
+No Shares were purchased by Verizon Wireless pursuant to the Voting Agreement
+and thus no funds were used for such purpose.</font>
+<p><b><i><font size=-1>Item 4. Purpose of Transaction.</font></i></b>
+<p><font size=-1>On November 14, 2000, the Issuer, Price Communications
+Cellular Inc., a Delaware corporation, Price Communications Cellular Holdings,
+Inc., a Delaware corporation, Price Communications Wireless, Inc., a Delaware
+corporation ("Price Wireless", and the foregoing collectively the "Price
+Corporations"), Verizon Wireless, Cellco Partnership, a Delaware general
+partnership ("Cellco"), and VWI Acquisition Corporation, a newly-formed
+Delaware corporation and a wholly-owned subsidiary of Verizon Wireless
+entered into a Transaction Agreement (the "Transaction Agreement").&nbsp;
+Pursuant to the terms of the Transaction Agreement, Price Wireless will
+transfer its business of constructing, developing, managing and operating
+cellular telephone systems to Cellco, in exchange for a partnership interest
+in Cellco and Verizon Wireless will acquire Price Wireless in exchange
+for Class A common stock, $.001 par value, of Verizon Wireless ("Verizon
+Wireless Shares").&nbsp; The consummation of the transactions contemplated
+by the Transaction Agreement is subject to the completion of an initial
+public offering of Verizon Wireless Shares prior to September 30, 2001
+and other customary conditions, including regulatory approvals and the
+approval by the stockholders of the Issuer.</font>
+<p><font size=-1>As an inducement to Verizon Wireless entering into the
+Transaction Agreement, the Stockholders entered into the Voting Agreement
+with Verizon Wireless described in Item 6 below.</font>
+<p><font size=-1>Except for the transactions contemplated by the Transaction
+Agreement and as set forth above, neither Verizon Wireless nor, to the
+best of Verizon Wireless's knowledge, any of the persons listed in Schedule
+A hereto has any plan or proposal which relates to or would result in any
+of the transactions described in subparagraphs (a) through (j) of Item
+4 of Schedule 13D.</font>
+<p><b><i><font size=-1>Item 5. Interest in Securities of the Issuer.</font></i></b>
+<p><font size=-1>(a) As a result of the Voting Agreement, the Reporting
+Persons may be deemed for the purposes of Rule 13d-3 promulgated under
+the Securities Exchange Act of 1934, as amended, to beneficially own 6,582,989
+Shares, representing, for the purposes of Rule 13d-3, approximately 11.9%
+of the fully-diluted outstanding shares of voting stock of the Issuer.&nbsp;
+Each of Verizon and Verizon Wireless, however, hereby disclaims beneficial
+ownership of such Shares, and this statement shall not be construed as
+an admission that either Verizon or Verizon Wireless is, for any or all
+purposes, the beneficial owner of the securities covered by this statement.</font>
+<p><font size=-1>Except as set forth in this Item 5(a), none of the Reporting
+Persons nor, to the best knowledge of any of the Reporting Persons, any
+of the persons set forth on Schedule A or Schedule B hereto owns beneficially
+any Shares.</font>
+<p><font size=-1>&nbsp;(b) Except to the extent that it may be deemed to
+by virtue of the Voting Agreement, the Reporting Persons do not have sole
+power to vote or to direct the vote, shared power to vote or to direct
+the vote, or the sole or shared power to dispose or to direct the disposition
+of any of the Shares.</font>
+<p><font size=-1>The Reporting Persons may be deemed in certain circumstances
+as more fully described in Item 6 to have the shared power with the Stockholders
+to vote 6,582,989 Shares.&nbsp; However, the Reporting Persons (i) are
+not entitled to any rights as a shareholder of the Company as to the Shares
+that are subject to the Voting Agreement and (ii) disclaim any beneficial
+ownership of the Shares which are covered by the Voting Agreement. The
+information required by Item 2 relating to the Stockholders is set forth
+on Schedule C.</font>
+<p><font size=-1>&nbsp;(c) Except for the execution and delivery of the
+Voting Agreement and Transaction Agreement, none of the Reporting Persons
+nor, to the best knowledge of any of the Reporting Persons, any of the
+persons set forth on Schedule A or Schedule B hereto has effected any transaction
+in the Shares during the past 60 days.</font>
+<p><font size=-1>(d) Not applicable.</font>
+<p><font size=-1>(e) Not applicable.</font>
+<p><b><i><font size=-1>Item 6. Contracts, Arrangements, Understandings
+or Relationships with Respect to Securities of the Issuer.</font></i></b>
+<p><font size=-1>Pursuant to the Voting Agreement, the Stockholders have
+agreed to vote all Shares that such Stockholders are entitled to vote at
+the time of any vote to approve and adopt the Transaction Agreement and
+all transactions contemplated by the Transaction Agreement at any meeting
+of the stockholders of the Issuer, and at any adjournment thereof, at which
+such Transaction Agreement and other related agreements (or any amended
+version thereof), or the transactions contemplated by the Transaction Agreement,
+are submitted for consideration and vote of the stockholders of the Issuer.&nbsp;
+The Stockholders have also agreed that they will not vote any Shares in
+favor of (other than an Alternative Agreement (as defined below) entered
+into in accordance with the Transaction Agreement and matters relating
+to, or in connection with the Alternative Agreement) the approval of any
+(i) Acquisition Proposal (as defined below), (ii) action or set of actions
+which, if consummated, would constitute a change of control, (iii) reorganization,
+recapitalization, liquidation or winding up of the Issuer or any other
+extraordinary transaction involving the Issuer, (iv) corporate action the
+consummation of which would frustrate the purposes, or prevent or delay
+the consummation, of the transactions contemplated by the Transaction Agreement
+or (v) other matters relating to, or in connection with, any of the foregoing
+matters.</font>
+<br><font size=-1>Each Stockholder has granted an irrevocable proxy to
+Verizon Wireless, appointing Verizon Wireless as such Stockholder's attorney-in-fact
+and proxy, with full power of substitution, for and in such Stockholders
+name, to vote, express consent or dissent, or otherwise use such voting
+power as provided above with respect to all the Shares of such Stockholder.</font>
+<p><font size=-1>Each Stockholder has also further agreed that they will
+not, without the prior written consent of Verizon Wireless, directly or
+indirectly (other than pursuant to the terms of the Voting Agreement and
+except that Kim Pressman is permitted to transfer up to 3,000 Shares of
+the Issuer in bona fide gifts), (i) grant any proxies or enter into any
+voting trust or other agreement or arrangement with respect to the voting
+of any of their Shares (other than the proxy granted to Verizon Wireless)
+or (ii) sell, assign, transfer, encumber or otherwise dispose of, or enter
+into any contract, option or other arrangement or understanding with respect
+to the direct or indirect sale, assignment, transfer, encumbrance or other
+disposition of, any Shares during the term of the Voting Agreement.&nbsp;
+Each Stockholder has also agreed that they will not seek or solicit any
+such acquisition or sale, assignment, transfer, encumbrance or other disposition
+or any such contract, option or other arrangement.</font>
+<p><font size=-1>Each Stockholder has agreed that each of the Price Corporations
+will not, and will not permit their officers, directors, affiliates, related
+entities, agents or representatives (other than as permitted by the Transaction
+Agreement) to (i) solicit, initiate, knowingly encourage, conduct or engage
+in any substantive discussions, or enter into any agreement or understanding
+with any other person or entity regarding (a) the transfer, directly or
+indirectly, of any of the capital stock of any of the Price Corporations,
+any material portion of the assets of any of the Price Corporations or
+the business of Price Wireless which would reasonably anticipated in the
+case of the Issuer to result in a change of control, (b) any investment
+by any other person or entity in capital stock of any of the Price Corporations
+or the business of Price Wireless (other than in the case of Price Communications
+Corporation, such investments which will not, or are reasonably likely
+not to constitute a change of control), or (c) any joint venture relating
+to the business of Price Wireless or other similar transaction involving
+any of the Price Corporations or the business of Price Wireless; or (ii)
+disclose any nonpublic information relating to any of the Price Corporations
+or the business of Price Wireless, or afford access to the properties,
+books or records of any of the Price Corporations that relate, in whole
+or in part, to the business of Price Wireless, to any other person or entity
+that may be considering acquiring or has acquired an interest in any of
+the Price Corporations or the business of Price Wireless or engaging in
+any transaction of the type described in clause (i) above.&nbsp;</font>
+<p><font size=-1>"Acquisition Proposal" means, other than the transactions
+contemplated by the Transaction Agreement, any offer or proposal for, any
+indication of interest in, or any submission of inquiries from any third
+party relating to (A) any acquisition or purchase, direct or indirect,
+of 20% or more of the consolidated assets of the Issuer and its subsidiaries
+or over 20% of any class of equity or voting securities of the Issuer,
+any Price Corporation or over 20% of any class of equity or voting securities
+of any one or more of Price Wireless' subsidiaries whose assets, individually
+or in the aggregate, constitute more than 20% of the consolidated assets
+of the Issuer and its subsidiaries, (B) any tender offer (including a self-tender
+offer) or exchange offer that, if consummated, would result in such third
+party's beneficially owning 20% or more of any class of equity or voting
+securities of the Issuer, any Price Corporation or over 20% of any class
+of equity or voting securities of any one or more Price Wireless' subsidiaries
+whose assets, individually or in the aggregate, constitute more than 20%
+of the consolidated assets of the Issuer and its subsidiaries, or (C) a
+merger, consolidation, share exchange, business combination, sale of substantially
+all the assets, reorganization, recapitalization, liquidation, dissolution
+or other similar transaction involving the Issuer, any Price Corporation
+or over 20% of any class of equity or voting securities of any one or more
+Price Wireless' subsidiaries whose assets, individually or in the aggregate,
+constitute more than 20% of the consolidated assets of the Issuer and its
+subsidiaries; provided that, notwithstanding the foregoing, the acquisition
+by any institutional investor of any securities of the Issuer, directly
+or indirectly, in connection with its investment operations in the ordinary
+course of business shall not constitute an "Acquisition Proposal" if (I)
+such investor and its affiliates do not at any time beneficially own voting
+securities of the Issuer representing more than 30% of the total voting
+power of all outstanding voting securities of the Issuer and (II) such
+activities are for investment purposes only and are not, alone or in concert
+with others, in connection with any plan, arrangement, understanding, proposal,
+or intention to influence, or affect control over the management, board
+of directors or policies of the Issuer, provided further that, notwithstanding
+the foregoing, an Acquisition Proposal shall be deemed to exist if at any
+time such investor or its affiliates shall fail to, or no longer, comply
+with (I) or (II) of the foregoing.</font>
+<p><font size=-1>"Alternative Agreement" means, a binding written agreement
+concerning an Acquisition Proposal that constitutes a Superior Proposal.</font>
+<p><font size=-1>"Superior Proposal" means any bona fide, unsolicited written
+Acquisition Proposal on terms that the Board of Directors of the Issuer
+determines in good faith by a majority vote, on the basis of the advice
+of a financial advisor of nationally recognized reputation and taking into
+account all the terms and conditions of the Acquisition Proposal, including
+any break-up fees, expense reimbursement provisions and conditions to consummation,
+are more favorable and provide greater value to all the Issuer's shareholders
+than as provided under the Transaction Agreement and for which financing,
+to the extent required, is then either fully committed or reasonably determined
+to be available by the Board of Directors of the Issuer; provided that,
+notwithstanding the fact that the transactions contemplated by the Transaction
+Agreement do not contemplate the distribution of consideration to the Issuer's
+shareholders, for purposes of determining whether an Acquisition Proposal
+is a Superior Proposal, the transactions contemplated by the Transaction
+Agreement shall be deemed to have an aggregate value of at least $2,060
+million to such shareholders, assuming they were consummated.</font>
+<p><font size=-1>The Voting Agreement is attached hereto as Exhibit 1 and
+is incorporated herein by reference.</font>
+<p><b><i><font size=-1>Item 7. Material to be Filed as Exhibits.</font></i></b></td>
+</tr>
+</TABLE>
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=5 COLS=3 WIDTH="665" >
+<tr>
+<td WIDTH="10%"></td>
+
+<td ALIGN=CENTER WIDTH="20%"></td>
+
+<td ALIGN=LEFT WIDTH="70%"></td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+
+<td><u><font size=-1>Exhibit Number</font></u></td>
+
+<td><u><font size=-1>Title</font></u></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td>&nbsp;</td>
+
+<td><font size=-1>1.</font></td>
+
+<td><font size=-1>Voting Agreement dated as of November 14, 2000 among
+Verizon Wireless Inc., Robert Price and Kim Pressman.</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td>&nbsp;</td>
+
+<td></td>
+
+<td></td>
+</tr>
+</TABLE>
+
+<br>&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 COLS=2 WIDTH="665" >
+<tr>
+<td WIDTH="50%" left">&nbsp;</td>
+
+<td WIDTH="50%" left">&nbsp;</td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER COLSPAN="2"><b><font size=-1>SIGNATURES</font></b></td>
+</tr>
+
+<tr>
+<td WIDTH="50%" left">&nbsp;</td>
+
+<td WIDTH="50%" left">&nbsp;</td>
+</tr>
+
+<tr>
+<td COLSPAN="2"><font size=-1>After reasonable inquiry and to the best
+knowledge and belief of the undersigned, the undersigned certifies that
+the information set forth in this statement is true, complete and correct.</font>
+<p><font size=-1>Date: November 27, 2000</font></td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+
+<td><font size=-1>VERIZON CIOMMUNICATIONS INC.</font>
+<br>&nbsp;
+<p><font size=-1>By:<u>&nbsp; /s/ Marianne Drost</u></font>
+<br><font size=-1>Name:&nbsp; Marianne Drost</font>
+<br><font size=-1>Title:&nbsp;&nbsp;&nbsp; Corporate Secretary</font>
+<p><font size=-1>VERIZON WIRELESS INC.</font>
+<br>&nbsp;
+<p><font size=-1>By:<u>&nbsp; /s/ S. Mark Tuller</u></font>
+<br><font size=-1>Name:&nbsp; S. Mark Tuller</font>
+<br><font size=-1>Title:&nbsp;&nbsp; Vice President and Secretary</font></td>
+</tr>
+</TABLE>
+
+<br>&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 COLS=2 WIDTH="665" >
+<tr>
+<td WIDTH="50%" left">&nbsp;</td>
+
+<td WIDTH="50%" left">&nbsp;</td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER COLSPAN="2"></td>
+</tr>
+
+<tr>
+<td WIDTH="50%" left">&nbsp;</td>
+
+<td WIDTH="50%" left">&nbsp;</td>
+</tr>
+
+<tr>
+<td COLSPAN="2"></td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+
+<td></td>
+</tr>
+</TABLE>
+
+<br>&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=5 COLS=2 WIDTH="665" >
+<tr>
+<td WIDTH="50%"></td>
+
+<td WIDTH="50%">&nbsp;</td>
+</tr>
+
+<tr>
+<td ALIGN=RIGHT COLSPAN="2"><font size=-1>Schedule A</font></td>
+</tr>
+
+<tr>
+<td WIDTH="50%">&nbsp;</td>
+
+<td WIDTH="50%">&nbsp;</td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER COLSPAN="2"><font size=-1>&nbsp;<b>DIRECTORS AND EXECUTIVE
+OFFICERS OF VERIZON COMMUNICATIONS INC.</b></font></td>
+</tr>
+
+<tr>
+<td ALIGN=LEFT COLSPAN="2">
+<br><font size=-1>The name, business address, title, present principal
+occupation or employment of each of the directors and executive officers
+of Verizon Communications Inc. ("Verizon") are set forth below.&nbsp; If
+no business address is given the director's or officer's business address
+is 1095 Avenue of the Americas, New York, NY 10036.&nbsp; Unless otherwise
+indicated, each occupation set forth opposite an individual's name refers
+to Verizon.&nbsp; Unless otherwise indicated below, all of the persons
+listed below are citizens of the United States of America.</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td ALIGN=CENTER VALIGN=BOTTOM><b><u><font size=-2>Name, Business Address</font></u></b></td>
+
+<td ALIGN=CENTER VALIGN=CENTER><b><u><font size=-2>Present Principal Occupation
+Including Name and</font></u></b>
+<br><b><u><font size=-2>Address of Employer</font></u></b></td>
+</tr>
+
+<tr>
+<td><i><font size=-1>Directors</font></i></td>
+
+<td></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>James R. Barker</font></td>
+
+<td><font size=-1>Chairman of The Interlake Steamship Company and Vice
+Chairman of Mormac Marine Group, Inc. and Moran Towing Company. Director
+of The Pittston Company; Eastern Enterprises.</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>Edward H. Budd</font></td>
+
+<td><font size=-1>Director of Delta Air Lines, Inc.</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>Richard L. Carrion</font></td>
+
+<td><font size=-1>Chairman, President and Chief Executive Officer, Popular,
+Inc. (bank holding company) and Chairman, President and Chief Executive
+Officer, Banco Popular de Puerto Rico.</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>Robert F. Daniell</font></td>
+
+<td><font size=-1>Director of Shell Oil Company.</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>Helene L. Kaplan</font></td>
+
+<td><font size=-1>Of Counsel to the law firm of Skadden, Arps, Slate, Meagher
+&amp; Flom LLP. Director of The Chase Manhattan Corporation; Exxon Mobil
+Corporation; The May Department Stores Company; Metropolitan Life Insurance
+Company.</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>Charles R. Lee</font></td>
+
+<td><font size=-1>Chairman and Co-Chief Executive Officer. Director of
+United Technologies Corporation, USX Corporation and The Procter &amp;
+Gamble Company.</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>Sandra O. Moose</font></td>
+
+<td><font size=-1>Senior Vice President and Director of The Boston Consulting
+Group, Inc. Director of Rohm and Haas Company and 27 investment companies
+sponsored by The New England Funds.</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>Joseph Neubauer&nbsp;</font></td>
+
+<td><font size=-1>Chairman and Chief Executive Officer, ARAMARK Corporation
+(managed services). Director of CIGNA Corporation; Federated Department
+Stores; First Union Corporation.</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>Thomas H. O'Brien</font></td>
+
+<td><font size=-1>Chairman and Chief Executive Officer, The PNC Financial
+Services Group, Inc. Director of Blackrock, Inc.; Hilb, Rogal and Hamilton
+Company; USAirways.</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>Russell E. Palmer</font></td>
+
+<td><font size=-1>Chairman and Chief Executive Officer, The Palmer Group
+(investment firm). Director of Honeywell International Inc.; The May Department
+Stores Company; Safeguard Scientifics, Inc.; Federal Home Loan Mortgage
+Corporation.</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>Hugh B. Price</font></td>
+
+<td><font size=-1>President and Chief Executive Officer, National Urban
+League. Director of Metropolitan Life Insurance Company; Sears, Roebuck
+and Co.</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>Ivan G. Seidenberg</font></td>
+
+<td><font size=-1>President and Co-Chief Executive Officer. Director of
+American Home Products Corporation; Boston Properties, Inc.; CVS Corporation;
+Honeywell International Inc.; Viacom, Inc.</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>Walter V. Shipley</font></td>
+
+<td><font size=-1>Director of Champion International Corporation; Exxon
+Mobil Corporation.</font></td>
+</tr>
+
+<tr>
+<td><font size=-1>John W. Snow</font></td>
+
+<td><font size=-1>Chairman, President and Chief Executive Officer, CSX
+Corporation (rail freight). Director of Circuit City Stores, Inc.; Johnson
+&amp; Johnson; USX Corporation.</font></td>
+</tr>
+
+<tr>
+<td><font size=-1>John R. Stafford</font></td>
+
+<td><font size=-1>Chairman, President and Chief Executive Officer, American
+Home Products Corporation (healthcare and agriculture products). Director
+of The Chase Manhattan Corporation; Deere &amp; Company; Honeywell International
+Inc.</font></td>
+</tr>
+
+<tr>
+<td><font size=-1>Robert D. Storey</font></td>
+
+<td><font size=-1>Partner, Cleveland law firm of Thompson, Hine &amp; Flory
+LLP. Director of The Proctor &amp; Gamble Company; The May Department Stores
+Company</font></td>
+</tr>
+</TABLE>
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=5 COLS=2 WIDTH="665" >
+<tr VALIGN=TOP>
+<td ALIGN=CENTER VALIGN=BOTTOM><b><u><font size=-2>Name</font></u></b></td>
+
+<td ALIGN=CENTER VALIGN=BOTTOM><b><u><font size=-2>Title</font></u></b></td>
+</tr>
+
+<tr>
+<td><i><font size=-1>Executive Officers</font></i>
+<br><i><font size=-1>(Who Are Not Directors)</font></i></td>
+
+<td></td>
+</tr>
+
+<tr>
+<td VALIGN=TOP><font size=-1>Lawrence T. Babbio, Jr.</font></td>
+
+<td><font size=-1>Vice Chairman and President</font></td>
+</tr>
+
+<tr>
+<td><font size=-1>Mary Beth Bardin</font></td>
+
+<td><font size=-1>Executive Vice President - Public Affairs and Communications</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>William P. Barr</font></td>
+
+<td><font size=-1>Executive Vice President and General Counsel</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>David H. Benson</font></td>
+
+<td><font size=-1>Executive Vice President - Strategy, Development and
+Planning</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>William F. Heitmann</font></td>
+
+<td><font size=-1>Senior Vice President and Treasurer</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>Charles R. Lee</font></td>
+
+<td><font size=-1>Chairman and Co-Chief Executive Officer</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>Michael T. Masin</font></td>
+
+<td><font size=-1>Vice Chairman and President</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>Frederic V. Salerno</font></td>
+
+<td><font size=-1>Vice Chairman and Chief Financial Officer</font></td>
+</tr>
+
+<tr>
+<td><font size=-1>Ezra D. Singer</font></td>
+
+<td><font size=-1>Executive Vice President - Human Resources</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>Dennis F. Strigl</font></td>
+
+<td><font size=-1>Executive Vice President and President - Domestic Wireless</font></td>
+</tr>
+
+<tr>
+<td><font size=-1>Lawrence R. Whitman</font></td>
+
+<td><font size=-1>Senior Vice President and Controller</font></td>
+</tr>
+</TABLE>
+
+<br>&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=5 COLS=2 WIDTH="665" >
+<tr>
+<td WIDTH="50%">&nbsp;</td>
+
+<td WIDTH="50%">&nbsp;</td>
+</tr>
+
+<tr>
+<td ALIGN=RIGHT COLSPAN="2"><font size=-1>Schedule B</font></td>
+</tr>
+
+<tr>
+<td WIDTH="50%">&nbsp;</td>
+
+<td WIDTH="50%">&nbsp;</td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER COLSPAN="2"><b><font size=-1>DIRECTORS AND EXECUTIVE OFFICERS
+OF VERIZON WIRELESS INC.</font></b></td>
+</tr>
+
+<tr>
+<td ALIGN=LEFT COLSPAN="2">
+<br><font size=-1>The name, business address, title, present principal
+occupation or employment of each of the directors and executive officers
+of Verizon Wireless Inc. ("Verizon Wireless") are set forth below.&nbsp;
+If no business address is given the director's or officer's business address
+is 180 Washington Valley Road, Bedminster, NJ 07921.&nbsp; Unless otherwise
+indicated, each occupation set forth opposite an individual's name refers
+to Verizon Wireless.&nbsp; All of the persons listed below are citizens
+of the United States of America, except for Mr. Langston, who is a citizen
+of the United Kingdom.</font></td>
+</tr>
+
+<tr VALIGN=BOTTOM>
+<td ALIGN=CENTER><b><u><font size=-2>Name, Business Address</font></u></b></td>
+
+<td ALIGN=CENTER VALIGN=CENTER><b><u><font size=-2>Present Principal Occupation
+Including Name and</font></u></b>
+<br><b><u><font size=-2>Address of Employer</font></u></b></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><i><font size=-1>Directors</font></i></td>
+
+<td></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>Dennis F. Strigl</font></td>
+
+<td><font size=-1>President and Chief Executive Officer.&nbsp; President
+and Chief Executive Officer, Cellco Partnership.</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>&nbsp;</font></td>
+
+<td></td>
+</tr>
+
+<tr ALIGN=CENTER VALIGN=TOP>
+<td><b><u><font size=-2>Name</font></u></b></td>
+
+<td><b><u><font size=-2>Title</font></u></b></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><i><font size=-1>Executive Officers</font></i>
+<br><i><font size=-1>(Who Are Not Directors)</font></i></td>
+
+<td></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>Edward Langston</font></td>
+
+<td><font size=-1>Chief Financial Officer and Chief Accounting Officer</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>&nbsp;S. Mark Tuller</font></td>
+
+<td><font size=-1>Vice President and Secretary</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td></td>
+
+<td></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td></td>
+
+<td></td>
+</tr>
+</TABLE>
+
+<br>&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=5 COLS=2 WIDTH="665" >
+<tr>
+<td WIDTH="50%">&nbsp;</td>
+
+<td WIDTH="50%">&nbsp;</td>
+</tr>
+
+<tr>
+<td ALIGN=RIGHT COLSPAN="2"><font size=-1>Schedule C</font></td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER COLSPAN="2"></td>
+</tr>
+
+<tr>
+<td ALIGN=LEFT COLSPAN="2">
+<br><font size=-1>&nbsp;&nbsp;&nbsp;&nbsp; To the knowledge of the Reporting
+Persons, the name, business address, title, present principal occupation
+or employment of each of the Stockholders are as set forth below.&nbsp;
+If no business address is given the Stockholder's business address is 45
+Rockefeller Plaza, New York, New York 10020.&nbsp; Unless otherwise indicated
+below, all of the persons listed below are citizens of the United States
+of America.&nbsp; To the knowledge of the Reporting Persons, neither of
+the persons listed below has during the last five years been convicted
+in a criminal proceeding (excluding traffic violations or similar misdemeanors)
+or been a party to a civil proceeding of a judicial or administrative body
+of competent jurisdiction and as a result of such proceeding was or is
+subject to a judgment, decree or final order enjoining future violations
+of, or prohibiting or mandating activities subject to, federal or state
+securities laws or finding any violation with respect to such laws.</font></td>
+</tr>
+
+<tr VALIGN=BOTTOM>
+<td ALIGN=CENTER><b><u><font size=-2>Name, Business Address</font></u></b></td>
+
+<td ALIGN=CENTER VALIGN=CENTER><b><u><font size=-2>Present Principal Occupation
+Including Name and</font></u></b>
+<br><b><u><font size=-2>Address of Employer</font></u></b></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>Robert Price</font></td>
+
+<td><font size=-1>Director, President and Treasurer, Price Communications
+Corporation</font></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td><font size=-1>Kim Pressman</font></td>
+
+<td><font size=-1>Vice President and Chief Financial Officer, Price Communications
+Corporation</font></td>
+</tr>
+</TABLE>
+
+</body>
+</HTML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-1
+<SEQUENCE>2
+<FILENAME>ex1.txt
+<DESCRIPTION>VOTING AGREEMENT
+<TEXT>
+
+21301/003/13D/EDGAR/VOT-AGT.ED
+
+                                VOTING AGREEMENT
+
+         AGREEMENT, dated as of November 14, 2000 among Verizon Wireless Inc.,
+a Delaware corporation ("Acquiror") and each of the Persons listed on the
+signature pages hereof (each, a "Stockholder").
+
+         WHEREAS, in order to induce Acquiror to enter into the Transaction
+Agreement dated as of the date hereof (the "Transaction Agreement") with Price
+Communications Corporation, a New York corporation, Price Communications
+Cellular Inc., a Delaware corporation, Price Communications Cellular Holdings,
+Inc., a Delaware corporation (collectively, the "Sellers"), Price
+Communications Wireless, Inc., a Delaware corporation (the "Company"), Acquiror
+has requested each Stockholder, and each Stockholder has agreed, to enter into
+this Agreement with respect to all shares of capital stock of any Seller or of
+the Company that such Stockholder may beneficially own on the date hereof or
+hereafter acquire or otherwise be entitled to vote at the time of any vote to
+approve and adopt the Transaction Agreement, the Merger and all other
+Contemplated Transactions (collectively, the "Shares").
+
+         NOW, THEREFORE, the parties hereto agree as follows:
+
+                                   ARTICLE 1
+                      GRANT OF PROXY AND VOTING AGREEMENT
+
+         SECTION 1.01. Voting Agreement. Each Stockholder hereby agrees to vote
+all Shares that such Stockholder is entitled to vote at the time of any vote to
+approve and adopt the Transaction Agreement, the Merger and all other
+Contemplated Transactions and all agreements and any actions related to any of
+the Contemplated Transactions at any meeting of the stockholders of the Company
+or any Seller, as applicable, and at any adjournment thereof, at which such
+Transaction Agreement and other related agreements (or any amended version
+thereof), or the Merger or any other Contemplated Transaction, or such other
+actions, are submitted for the consideration and vote of the stockholders of
+the Company or any Seller, as applicable. Each Stockholder hereby agrees that
+it will not vote any Shares in favor of (other than an Alternative Agreement
+entered into in accordance with the Transaction Agreement and matters relating
+to, or in connection with the Alternative Agreement) the approval of any (i)
+Acquisition Proposal, (ii) action or set of actions which, if consummated,
+would constitute a Change of Control, (iii) reorganization, recapitalization,
+liquidation or winding up of the Company or any other extraordinary transaction
+involving the Company, (iv) corporate action the consummation of which would
+frustrate the purposes, or
+
+
+<PAGE>
+
+
+prevent or delay the consummation, of the transactions contemplated by the
+Transaction Agreement or (v) other matter relating to, or in connection with,
+any of the foregoing matters.
+
+         SECTION 1.02. Irrevocable Proxy. Each Stockholder hereby revokes any
+and all previous proxies granted with respect to its Shares. By entering into
+this Agreement, each Stockholder hereby grants a proxy appointing Acquiror as
+such Stockholder's attorney-in-fact and proxy, with full power of substitution,
+for and in such Stockholder' name, to vote, express, consent or dissent, or
+otherwise to utilize such voting power in the manner provided by Section 1.01
+above with respect to all the Shares of such Stockholder. The proxy granted by
+each Stockholder pursuant to this Article 1 is irrevocable and is granted in
+consideration of Acquiror entering into this Agreement and the Transaction
+Agreement and incurring certain related fees and expenses. The proxy granted by
+each Stockholder pursuant hereto shall be revoked upon termination of this
+Agreement in accordance with its terms.
+
+                                   ARTICLE 2
+               REPRESENTATIONS AND WARRANTIES OF EACH STOCKHOLDER
+
+         Each Stockholder, severally and not jointly, represents and warrants
+to Acquiror that:
+
+         SECTION 2.01. Authorization; Enforceability. If such Stockholder is
+not a natural Person, the execution, delivery and performance by such
+Stockholder of this Agreement and the consummation by such Stockholder of the
+transactions contemplated hereby are within the powers of such Stockholder.
+This Agreement constitutes a valid and binding Agreement of such Stockholder.
+If such Stockholder is executing this Agreement in a representative or
+fiduciary capacity, the Person signing this Agreement has full power and
+authority to enter into and perform this Agreement. If such Stockholder is a
+natural Person, the Shares beneficially owned by such Stockholder do not
+constitute marital property under applicable laws, or if such Shares constitute
+marital property, the consent of such Shareholder's spouse is not required for
+the execution and delivery of this Agreement or the performance by such
+Stockholder of the obligations of the Stockholder hereunder. If this Agreement
+is being executed in a representative or fiduciary capacity, the Person signing
+this Agreement has full power and authority to enter into and perform this
+Agreement.
+
+         SECTION 2.02.  Non-Contravention.  The execution, delivery and
+performance by each Stockholder of this Agreement and the consummation of the
+
+
+                                       2
+<PAGE>
+
+
+transactions contemplated hereby do not and will not (i) if such Stockholder is
+not a natural Person, violate the certificate of incorporation or bylaws or
+other constituent documents of such Stockholder, (ii) violate any applicable
+law, rule, regulation, judgment, injunction, order or decree, (iii) require any
+consent or other action by any Person under, constitute a default under, or
+give rise to any right of termination, cancellation or acceleration or to a
+loss of any benefit to which such Stockholder are entitled under any provision
+of any agreement or other instrument binding on such Stockholder or (iv) result
+in the imposition of any Lien on any assets of such Stockholder.
+
+         SECTION 2.03. Ownership of Shares. Such Stockholder is the record and
+beneficial owners of the Shares set forth on the page immediately following the
+signature pages hereof opposite such Stockholder's name, free and clear of any
+Lien and any other limitation or restriction (including any restriction on the
+right to vote or otherwise dispose of the Shares).
+
+         SECTION 2.04. Total Shares. Except for the Shares set forth on the
+signature page hereto, such Stockholder does not beneficially own or otherwise
+have the right to vote any (i) shares of capital stock or voting securities of
+the Company, (ii) securities of the Company convertible into or exchangeable
+for shares of capital stock or voting securities of the Company or (iii)
+options or other rights to acquire from the Company any capital stock, voting
+securities or securities convertible into or exchangeable for capital stock or
+voting securities of the Company.
+
+         SECTION 2.05. Finder's Fees. Subject to and by complying with Section
+6.18 of the Transaction Agreement, no investment banker, broker, finder or
+other intermediary is entitled to a fee or commission from any of the Sellers
+in respect of this Agreement based upon any arrangement or agreement made by or
+on behalf of such Stockholder.
+
+                                   ARTICLE 3
+                   REPRESENTATIONS AND WARRANTIES OF ACQUIROR
+
+         Acquiror represents and warrants to each Stockholder that:
+
+         SECTION 3.01. Corporate Authorization. The execution, delivery and
+performance by Acquiror of this Agreement and the consummation by Acquiror of
+the transactions contemplated hereby are within the corporate powers of
+Acquiror and have been duly authorized by all necessary corporate action. This
+Agreement constitutes a valid and binding Agreement of Acquiror.
+
+
+                                       3
+<PAGE>
+
+
+                                   ARTICLE 4
+                         COVENANTS OF EACH STOCKHOLDER
+
+         Each Stockholder, severally and not jointly, hereby covenants and
+agrees that:
+
+         SECTION 4.01. No Proxies for or Encumbrances on Shares. Except
+pursuant to the terms of this Agreement and except that Kim Pressman may
+transfer up to 3,000 shares of Price Communications Corporation in bona fide
+gifts, such Stockholder shall not, without the prior written consent of
+Acquiror, directly or indirectly, (i) grant any proxies or enter into any
+voting trust or other agreement or arrangement with respect to the voting of
+any Shares (other than the Proxy Agreement) or (ii) sell, assign, transfer,
+encumber or otherwise dispose of, or enter into any contract, option or other
+arrangement or understanding with respect to the direct or indirect sale,
+assignment, transfer, encumbrance or other disposition of, any Shares during
+the term of this Agreement. Such Stockholder shall not seek or solicit any such
+acquisition or sale, assignment, transfer, encumbrance or other disposition or
+any such contract, option or other arrangement or understanding and agree to
+notify Acquiror promptly, and to provide all details requested by Acquiror, if
+such Stockholder shall be approached or solicited, directly or indirectly, by
+any Person with respect to any of the foregoing.
+
+         SECTION 4.02. Other Offers. Except as permitted by the Transaction
+Agreement, except with respect to the Florida Business if the Acquiror fails to
+make the Florida Election prior to January 31, 2001, and the Price
+Corporations' interest in the North Carolina 15 RSA A-Side cellular market,
+each of the Price Corporations and the Company will not, and will not permit
+their officers, directors, Affiliates, related entities, agents or
+representatives to (i) solicit, initiate, knowingly encourage, conduct or
+engage in any substantive discussions, or enter into any agreement or
+understanding with any other person or entity regarding (a) the transfer,
+directly or indirectly, of any of the capital stock of any of the Price
+Corporations or the Company, any material portion of the assets of any of the
+Price Corporations, the Company or the Business which would reasonably
+anticipated in the case of Price Parent to result in a Change of Control (other
+than an event that is a Change of Control solely by reason of subparagraph (i)
+of the definition of "Change of Control"), (b) any investment by any other
+person or entity in capital stock of any of the Price Corporations, the Company
+or the Business (other than in the case of Price Parent, such investments which
+will not, or are reasonably likely not to constitute a Change of Control (other
+than an event that is a Change of Control solely by reason of subparagraph (i)
+of the definition of "Change of Control")), or (c) any joint venture relating
+to the Business or other similar transaction involving any of the Price
+Corporations, the Company or the
+
+
+                                       4
+<PAGE>
+
+
+Business; or (ii) disclose any nonpublic information relating to any of the
+Price Corporations, the Company or the Business, or afford access to the
+properties, books or records of any of the Price Corporations or the Company
+that relate, in whole or in part, to the Business, to any other person or
+entity that may be considering acquiring or has acquired an interest in any of
+the Price Corporations, the Company or the Business or engaging in any
+transaction of the type described in clause (i) above. Any party hereto
+becoming aware of any inquiry or request by another person or entity with
+respect to any such transfer or disclosure shall promptly notify Acquiror of
+such inquiry, indicate the identity of the offeror and the terms and conditions
+of any proposals or offers or the nature of any inquiries or contacts, and
+thereafter keep Acquiror informed, on a current basis, of the status and terms
+of any such proposals or offers and the status of any such inquiries or
+contacts. None of the Price Corporations of the Company shall release any third
+party from, or waive any provision of, any confidentiality or standstill
+agreement to which any of the Price Corporations or the Company is a party if
+the agreement relates, in whole or in part, to the Business.
+
+         SECTION 4.03. Appraisal Rights. Each Stockholder agrees not to
+exercise any rights (including, without limitation, under Section 910 of the
+Business Corporation Law of the State of New York and under Section 262 of the
+General Corporation Law of the State of Delaware) to demand appraisal of any
+Shares which may arise with respect to the Merger.
+
+                                   ARTICLE 5
+                                 MISCELLANEOUS
+
+         SECTION 5.01. Further Assurances. Acquiror and each Stockholder will
+each execute and deliver, or cause to be executed and delivered, all further
+documents and instruments and use their best efforts to take, or cause to be
+taken, all actions and to do, or cause to be done, all things necessary, proper
+or advisable under applicable laws and regulations, to consummate and make
+effective the transactions contemplated by this Agreement; provided that this
+Section 5.01 shall in no way limit, restrict or restrain the ability of each
+Stockholder to exercise its fiduciary duties as a director or officer of any of
+the Sellers, so long as each Stockholder acts in accordance with Section 8.09
+of the Transaction Agreement.
+
+         SECTION 5.02.  Amendments; Termination.  Any provision of this
+Agreement may be amended or waived if, but only if, such amendment or waiver
+is in writing and is signed, in the case of an amendment, by each party to this
+Agreement or in the case of a waiver, by the party against whom the waiver is to
+
+
+                                       5
+<PAGE>
+
+
+be effective.  This Agreement shall terminate on the date of termination of the
+Transaction Agreement in accordance with its terms.
+
+         SECTION 5.03. Expenses. Except as otherwise provided in the
+Transaction Agreement, all costs and expenses incurred in connection with this
+Agreement shall be paid by the party incurring such cost or expense.
+
+          SECTION 5.04. Successors and Assigns. The provisions of this
+Agreement shall be binding upon and inure to the benefit of the parties hereto
+and their respective successors and assigns; provided that no party may assign,
+delegate or otherwise transfer any of its rights or obligations under this
+Agreement without the consent of the other parties hereto, except that Acquiror
+may transfer or assign its rights and obligations, in whole or from time to
+time in part, to any one or more of its Affiliates.
+
+         SECTION 5.05.  Governing Law.  This Agreement shall be construed in
+accordance with and governed by the laws of the State of New York.
+
+         SECTION 5.06. Counterparts; Effectiveness. This Agreement may be
+signed in any number of counterparts, each of which shall be an original, with
+the same effect as if the signatures thereto and hereto were upon the same
+instrument. This Agreement shall become effective when each party hereto shall
+have received counterparts hereof signed by all of the other parties hereto.
+
+         SECTION 5.07. Severability. If any term, provision or covenant of this
+Agreement is held by a court of competent jurisdiction or other authority to be
+invalid, void or unenforceable, the remainder of the terms, provisions and
+covenants of this Agreement shall remain in full force and effect and shall in
+no way be affected, impaired or invalidated.
+
+         SECTION 5.08. Specific Performance. The parties hereto agree that
+irreparable damage would occur in the event any provision of this Agreement is
+not performed in accordance with the terms hereof and that the parties shall be
+entitled to specific performance of the terms hereof in addition to any other
+remedy to which they are entitled at law or in equity.
+
+         SECTION 5.09. Subsidiaries. Each Stockholder that holds any capital
+stock or other equity interests of any other Stockholder agrees to vote all
+such capital stock or other equity interests, and to take all other actions
+that may be necessary or desirable, in order to cause such other Stockholder to
+comply with the provisions of this Agreement; provided that this Section 5.09
+shall in no way limit, restrict or restrain the ability of each Stockholder to
+exercise its fiduciary
+
+
+                                       6
+<PAGE>
+
+
+duties as a director or officer of any of the Sellers, so long as each
+Stockholder acts in accordance with Section 8.09 of the Transaction Agreement.
+
+         SECTION 5.10. Cooperation. Robert Price agrees to use his reasonably
+best efforts to facilitate the appointment of Steven Price as guardian of the
+property of his minor children and the appointment of Eileen Farbman as
+guardian of the property of her minor children and not to contest or challenge
+the authority of Steven Price or Eileen Farbman in such capacity.
+
+         SECTION 5.11. Capitalized Terms. Capitalized terms used but not
+defined herein shall have the respective meanings set forth in the Transaction
+Agreement.
+
+
+                                       7
+<PAGE>
+
+
+         IN WITNESS WHEREOF, the parties hereto have caused this Agreement to
+be duly executed as of the day and year first above written.
+
+
+                                            ACQUIROR:
+                                            VERIZON WIRELESS INC.
+
+                                            By: /s/ Dennis F. Strigl
+                                                --------------------------------
+                                                Name:  Dennis F. Strigl
+                                                Title: President and Chief
+                                                       Executive Officer
+
+
+                                            STOCKHOLDERS:
+
+                                            ROBERT PRICE
+
+                                            By: /s/ Robert Price
+                                                --------------------------------
+                                                Name:  Robert Price
+                                                Title:
+
+
+                                            KIM PRESSMAN
+
+                                            By: /s/ Kim Pressman
+                                                --------------------------------
+                                                Name:  Kim Pressman
+                                                Title:
+
+
+                                       8
+<PAGE>
+
+
+
+
+Names of Stockholder       Class of Stock       Shares Owned or Entitled to Vote
+- --------------------       --------------       --------------------------------
+
+Robert Price                    Common                      6,203,100
+
+Kim Pressman                    Common                        379,889
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

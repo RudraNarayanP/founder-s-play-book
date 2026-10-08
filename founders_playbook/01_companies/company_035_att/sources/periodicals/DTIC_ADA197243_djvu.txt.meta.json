@@ -1,0 +1,9 @@
+{
+ "identifier": "DTIC_ADA197243",
+ "url": "https://archive.org/download/DTIC_ADA197243/DTIC_ADA197243_djvu.txt",
+ "fetched": "2026-09-29T17:49:56Z",
+ "bytes": 57073,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

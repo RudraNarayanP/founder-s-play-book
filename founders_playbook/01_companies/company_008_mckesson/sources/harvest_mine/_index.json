@@ -1,0 +1,231 @@
+{
+ "window": [
+  "1969-01-01",
+  "1995-12-31"
+ ],
+ "candidates": 67,
+ "mined": 12,
+ "untried_by_limit": 54,
+ "items": [
+  {
+   "identifier": "m0OkScrANH4C",
+   "date": "1995-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried m0OkScrANH4C_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "vYlFDAAAQBAJ",
+   "date": "2016-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried vYlFDAAAQBAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "ZbBkDAAAQBAJ",
+   "date": "2016-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried ZbBkDAAAQBAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "zGNdqqufumEC",
+   "date": "1995-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried zGNdqqufumEC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "micro_IA40385002_0162",
+   "date": "1990-01-01",
+   "title_year": "1990",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "McKesson Corp. v. Division of Alcoholic Beverages and Tobacco, Fla. Dept. of Business Regulation, 496 U.S. 18 (1990) (No",
+   "family": "internet_archive",
+   "meta_date": "1990-01-01",
+   "status": "cached",
+   "bytes": 143793,
+   "named_terms": [],
+   "other_terms": [],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "ERIC_ED130304",
+   "date": "1976-01-01",
+   "title_year": "1976",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "ERIC ED130304: Options in Education, Transcript for March 29, 1976: Learning to File Your Income Tax, Decline of the Use",
+   "family": "internet_archive",
+   "meta_date": "1976-01-01",
+   "status": "cached",
+   "bytes": 59069,
+   "named_terms": [],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 6,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 70,
+     "text": "McKesson, and Dave Mil4s;",
+     "context": [
+      "moderators; Barry Mailer;",
+      "and William Joyce; George"
+     ]
+    },
+    {
+     "line": 240,
+     "text": "just for kids - w/Reporter Mike McKesson",
+     "context": [
+      ". and Curriculum Developers of a consumer education project",
+      ""
+     ]
+    },
+    {
+     "line": 832,
+     "text": "early as kindergarten^. - Reporl.er lMike -McKesson of member station",
+     "context": [
+      "students to be wise consumers sorhething that can begin as",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA40385003_0251",
+   "date": "1976-01-01",
+   "title_year": "1976",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Foremost-McKeeson, Inc. v. Provident Securities Co., 423 U.S. 232 (1976) (No. 74-742)",
+   "family": "internet_archive",
+   "meta_date": "1976-01-01",
+   "status": "cached",
+   "bytes": 1063607,
+   "named_terms": [],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 156,
+   "phrase_hits": 0,
+   "entity_hits": 8,
+   "matched_entities": [
+    "mckesson, inc"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 11,
+     "text": "FOREMOST-McKESSON, INC.,",
+     "context": [
+      "",
+      ""
+     ],
+     "promoted": "mckesson, inc"
+    },
+    {
+     "line": 31,
+     "text": "Foremost-McKesson, Inc.",
+     "context": [
+      "Attorney for Petitioner",
+      ""
+     ],
+     "promoted": "mckesson, inc"
+    },
+    {
+     "line": 229,
+     "text": "Foremost-McKesson, Inc.,",
+     "context": [
+      "",
+      "Petitioner,"
+     ],
+     "promoted": "mckesson, inc"
+    }
+   ]
+  },
+  {
+   "identifier": "simpletruthpoems0000levi",
+   "date": "1994-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried simpletruthpoems0000levi_djvu.txt, simpletruthpoems0000levi_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "storyofforemostm0000mori",
+   "date": "1979-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried storyofforemostm0000mori_djvu.txt, storyofforemostm0000mori_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "history0000knig",
+   "date": "1980-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried history0000knig_djvu.txt, history0000knig_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "DTIC_ADA113164",
+   "date": "1981-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "DTIC ADA113164: Evaluation of Dental N2O Anesthesia Equipment.",
+   "family": "internet_archive",
+   "meta_date": "1981-01-01",
+   "status": "cached",
+   "bytes": 9020,
+   "named_terms": [],
+   "other_terms": [],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 2,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 100,
+     "text": "and  the  Narco-McKesson  Brown  scavenging  mask  were  used  during  the",
+     "context": [
+      "anesthesia  machine  and  scavenging  mask,  the  Fraser-Barlake  machine,",
+      "survey.  When  the  Porter  MXR  machine  was  used  with  Brown  mask,  the"
+     ]
+    },
+    {
+     "line": 268,
+     "text": "The  Narco-McKesson  (Brown)  scavenging  mask  used  during  this  survey  was  a",
+     "context": [
+      "",
+      "completely  leak-free  scavenging  mask  and  dearly  superior  to  the  inadequate"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "unitedstatesofam0000unse_f6r3",
+   "date": "1982-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried unitedstatesofam0000unse_f6r3_djvu.txt, unitedstatesofam0000unse_f6r3_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  }
+ ]
+}

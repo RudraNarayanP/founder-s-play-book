@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000831001/000148105724005317/form424b2.htm",
+ "fetched": "2026-09-29T18:38:24Z",
+ "sha1": "3cc427f5555a219cb7fb960ff3926ec84c2847bf",
+ "bytes": 137932,
+ "words": 8138,
+ "cik": "0000831001",
+ "registrant": "CITIGROUP INC",
+ "accession": "0001481057-24-005317",
+ "document": "form424b2.htm",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

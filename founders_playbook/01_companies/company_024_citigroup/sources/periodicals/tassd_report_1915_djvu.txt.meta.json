@@ -1,0 +1,9 @@
+{
+ "identifier": "tassd_report_1915",
+ "url": "https://archive.org/download/tassd_report_1915/tassd_report_1915_djvu.txt",
+ "fetched": "2026-09-29T17:58:13Z",
+ "bytes": 21862,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

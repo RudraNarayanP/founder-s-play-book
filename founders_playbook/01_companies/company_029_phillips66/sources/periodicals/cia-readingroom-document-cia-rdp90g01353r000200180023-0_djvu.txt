@@ -1,0 +1,4510 @@
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+®Zo 
+
+
+ROUTING AND RECORD SHEET 
+
+
+SUBJECT: (Optional) 
+
+
+ISB Field Trip Minutes - 10-11 December 1987 
+
+
+; EXTENSION | NO. 
+
+STAT ER 0801-88 
+
+STAT SA/EXDIR 
+7E12 HOS 24 February 1988 
+
+
+TO: {Officer designation, room number, and ; f 
+building) OFFICER'S | COMMENTS (Number each comment to show from whom [ 
+i | eecewven | ronwanoeo INITIALS to whom. Draw a line across column offer each comment.) | 
+s FORWARDED 
+1. 
+Executive Registry 
+7E12 HQS 
+
+
+USE PREVIOUS 5. : ’ 
+For 61 0 evo ¥ U.S. Government Printing Office: 1985—494-834/49156 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+Lan 
+
+
+STAT 
+
+
+STAT 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+ER 0801-88 
+24 February 1988 
+
+
+MEMORANDUM FOR: Information Systems Board 
+
+
+FROM: 
+Special Assistant to the Executive Director 
+SUBJECT: ISB Field Trip Minutes - 10-11 December 1987 
+1. Vice President for 
+
+
+Engineering and Scientific Computing within IBM's Data Systems 
+Division, described his company's strategy for supercomputers. 
+Copies of his presentation slides are not available as originally 
+promised. During the discussion, expressed 
+interest in pursuing other potential applications for special 
+purpose processors in IBM mainframes, such as text processing. A 
+follow-up meeting has been arranged at the working level. A copy 
+of a paper written by Fred Brooks, titled "No Silver Bullets," is 
+attached. ; 
+
+
+2. IBM Director of Engineering and 
+Technology, described his company's plans for personal computers. 
+
+
+3. Consultant for Computing Systems at the 
+IBM Watson Research Lab, discussed the implications for central 
+services posed by large-scale interactive computing in the 
+workplace. Additional copies of his handouts are available. 
+
+
+4, The Board met with Chairman of Citicorp's 
+Corporate Technical Committee. Citicorp and the Agency are 
+dealing with many of the same issues related to the management of 
+information technology. 
+
+
+5. The Board met with Assistant Vice President of 
+NYNEX. . 
+6. bf IBM's Corporate Information Systems 
+
+
+described how IBM links its internal investment in data 
+processing to its overall business strategy. A copy of his 
+presentation slides is attached. - 
+
+
+Attachment 
+
+
+STAT 
+
+
+STAT 
+
+
+STAT 
+
+
+STAT 
+
+
+STAT 
+
+
+STAT 
+
+
+STAT 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+aq 
+
+
+SUBJECT: ISB Field Trip Minutes - 10-11 December 1987 
+
+
+STAT DCI/EXDIR (24 Feb 88) 
+Distribution: 
+Orig - Each Addressee 
+1 - ER 
+
+
+1 - ISB File 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+As 
+
+
+| 
+# 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+Essence and Accidents of 
+
+
+Frederick P. Brooks, Jr. 
+
+
+University of North Carolina at Chapel Hill 
+
+
+Fashioning complex 
+conceptual constructs 
+is the essence; 
+accidental tasks arise 
+in representing the 
+constructs in 
+language. Past 
+progress has so 
+reduced the accidental 
+tasks that future 
+progress now depends 
+upon addressing the 
+essence. 
+
+
+10 
+
+
+f all the monsters that fill the 
+O nightmares of our folklore, none 
+terrify more than werewolves, 
+
+
+because they transform unexpectedly 
+from the familiar into horrors. For these, 
+
+
+.one seeks bullets of silver that can magic- 
+
+
+ally lay them to rest. 
+The familiar software project, at least as 
+
+
+seen by the nontechnical manager, has 
+
+
+something of this character; it is usually in- 
+nocent and straightforward, but is capable 
+of becoming a monster of missed sched- 
+ules, blown budgets, and flawed products. 
+So we hear desperate cries for a silver 
+bullet—something to make software costs 
+drop as rapidly as computer hardware 
+costs do. . 
+
+But, as we look to the horizon of a 
+decade hence, we see no silver bullet. 
+There is no single development, in either 
+
+
+_ technology or in management technique, 
+
+
+that by itself promises even one order-of- 
+magnitude improvement in productivity, 
+in reliability, in simplicity. In this article, I 
+shall try to show why, by examining both 
+
+
+the nature of the software problem andthe - 
+
+
+properties of the bullets proposed. 
+Skepticism is not pessimism, however. 
+Although we see no startling break- 
+
+
+This articte was first published in Information Process- 
+ing ‘86, ISBN No. 0-444-70077-3, H.-J. Kugler, ed., 
+Elsevier Science Publishers B.V. (North-Holland) © 
+IFIP 1986. 
+
+
+throughs—and indeed, I believe such to be 
+inconsistent with the nature of soft- 
+ware—many encouraging innovations are 
+under way. A disciplined, consistent effort 
+to develop, propagate, and exploit these 
+innovations should indeed yield an order- 
+of-magnitude improvement. There is no 
+royal road, but there is a road. 
+
+
+The first step toward the management | 
+
+
+of disease was replacement of demon 
+theories and humours theories by the germ 
+theory. That very step, the beginning of 
+hope, in itself dashed all hopes of magical 
+solutions. It told workers that progress 
+would be made stepwise, at great effort, 
+and that a persistent, unremitting care 
+would have to be paid to a discipline of 
+cleanliness. So it is with software engi- 
+neering today. 
+
+
+Does it have to be 
+hard?— Essential 
+difficulties 
+
+Not only are there no silver bullets now 
+
+
+in view, the very nature of software makes 
+it unlikely that there will be any—no in- 
+
+
+-ventions that will do for software prod- 
+
+
+uctivity, reliability, and simplicity what 
+electronics, transistors, and large-scale 
+integration did for computer hardware. 
+
+
+COMPUTER 
+
+
+_ Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 - CIA-RDP90G01353R000200180023-0 - 
+
+
+We cannot expect ever to see twofold gains 
+every two years. 
+
+
+First, one must observe that the anom- 
+aly is not that software progress is so slow, 
+but that computer hardware progress is so 
+fast. No other technology since civilization 
+began has seen six orders of magnitude in 
+performance-price gain in 30 years. In no 
+other technology can one choose to take 
+the gain in either improved performance 
+or in reduced costs. These gains flow from 
+the transformation of computer manufac- 
+ture. from an assembly industry into a pro- 
+cess industry. 
+
+Second, to see what rate of progress one 
+can expect in software technology, let us 
+examine the difficulties of that tech- 
+nology. Following Aristotle, I divide them 
+into essence, the difficulties inherent in the 
+nature of software, and accidents, those 
+difficulties that today attend its proc; 
+tion but are not inherent. 
+
+
+The essence of a software entity is acon- 
+struct of interlocking concepts: data sets, 
+relationships among data items, algo- 
+rithms, and invocations of functions. This 
+essence is abstract in that such a concep- 
+tual construct is the same under many dif- 
+ferent representations. It is nonetheless 
+highly precise and richly detailed. 
+
+I believe the hard part of building soft- 
+ware to be the specification, design, and 
+testing of this conceptual construct, not 
+the labor of representing it and testing the 
+fidelity of the representation. We still 
+make syntax errors, to be sure; but they 
+are fuzz compared with the conceptual 
+errors in most systems. 
+
+If this is true, building software will 
+always be hard. There is inherently no 
+silver bullet. 
+
+Let us consider the inherent properties 
+of this irreducible essence of modern soft- 
+ware systems: complexity, conformity, 
+changeability, and invisibility. 
+
+
+Complexity. Software entities are more 
+complex for their size than perhaps any 
+other human construct because no two 
+parts are alike (at least above the statement 
+level). If they are, we make the two similar 
+parts into a subroutine—open or closed. 
+In this respect, software systems differ 
+profoundly from computers, buildings, or 
+automobiles, where repeated elements 
+abound. 
+
+Digital computers are themselves more 
+complex than most things people build: 
+They have very large numbers of states. 
+This makes conceiving, describing, and 
+testing them hard. Seftware systems have 
+
+
+April 1987 
+
+
+orders-of-magnitude more states than 
+computers do. 
+
+Likewise, a scaling-up of a software en- 
+tity is not merely a repetition of the same 
+elements in larger sizes, it is necessarily an 
+increase in the number of different ele- 
+ments. In most cases, the elements interact 
+with each other in some nonlinear fashion, 
+and the complexity of the whole increases 
+much more than linearly. 
+
+The complexity of software is an essen- 
+tial property, not an accidental one. 
+Hence, descriptions of a software entity 
+that abstract away its complexity often 
+abstract away its essence. For three cen- 
+turies, mathematics and the physical 
+sciences made great strides by constructing 
+simplified models of complex phenomena, 
+deriving properties from the models, and 
+verifying those properties by experiment. 
+This paradigm worked because the com- 
+plexities ignored in the models were not 
+the essential properties of the phenomena. 
+It does not work when the complexities are 
+the essence. 
+
+Many of the classic problems of devel- 
+oping software products derive from this 
+essential complexity and its nonlinear in- 
+creases with size. From the complexity 
+comes the difficulty of communication 
+among team members, which leads 
+to product flaws, cost overruns, 
+schedule delays. From the 
+complexity comes the 
+
+
+difficulty of enumerating, much less 
+understanding, all the possible states of 
+the program, and from that comes the 
+unreliability. From complexity of function 
+comes the difficulty of invoking function, 
+which makes programs hard to use. From 
+complexity of structure comes the diffi- 
+culty of extending programs to new func- 
+
+
+tions without creating side effects. From . 
+
+
+complexity of structure come the un- 
+visualized states that constitute security 
+trapdoors. 
+
+Not only technical problems, but 
+management problems as well come from 
+the complexity. It makes overview hard, 
+thus impeding conceptual integrity. It 
+
+
+makes it hard to find and control all the - 
+
+
+loose ends. It creates the tremendous 
+learning and understanding burden that 
+makes personnel turnover a disaster. 
+
+
+Conformity. Software people are not 
+alone in facing complexity. Physics deals 
+
+
+The Photo Source international Inc. 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA- RDP90G01353R000200180023. 0 
+
+
+Bt 
+
+
+i Sa wee 
+
+
+ag 
+
+
+On! 
+
+
+with terribly complex objects even at the 
+“‘fundamental’’ particle level. The phys- 
+icist labors on, however, in a firm faith 
+that there are unifying principles to be 
+found, whether in quarks or in unified- 
+field theories. Einstein argued that there 
+must be simplified explanations of nature, 
+because God is not capricious or arbitrary. 
+
+No such faith comforts the software en- 
+gineer. Much of the complexity that he 
+
+
+’ must master is arbitrary complexity, 
+
+
+forced without rhyme or reason by the 
+many human institutions and systems to 
+which his interfaces must conform. These 
+differ from interface to interface, and 
+from time to time, not because of necessity 
+but only because they were designed by 
+different people, rather than by God. 
+
+In many cases, ‘the software must con- 
+form because it is the most recent arrival 
+on the scene. In others, it must conform 
+because it is perceived as the most 
+conformable. But in all cases, much com- 
+plexity comes from conformation to other 
+interfaces; this complexity cannot be 
+simplified out by any redesign of the soft- 
+ware alone. 
+
+
+Changeability. The software entity is 
+constantly subject to pressures for change. 
+Of course, so are buildings, cars, com- 
+puters. But manufactured things are infre- 
+quently changed after manufacture; they 
+are superseded by later models, or essen- 
+tial changes are incorporated into later- 
+serial-number copies of the same basic 
+design. Call-backs of automobiles are 
+really quite infrequent; field changes of 
+computers somewhat less so. Both are 
+much less frequent than modifications to 
+fielded software. 
+
+In part, this is so because the software of 
+a system embodies its function, and the 
+function is the part that most feels the 
+
+
+pressures of change. In part it is because 
+
+
+software can be changed more easily—it is 
+pure thought- -stuff, infinitely malleable. 
+Buildings do i in fact get changed, but the 
+high costs of change, understood by all, 
+serve to dampen the whims of the 
+changers. 
+
+All successful software gets changed. 
+Two processes are at work. First, as a soft- 
+ware product is found to be useful, people 
+try it in new cases at the edge of or beyond 
+the original domain. The pressures for ex- 
+tended function come chiefly from users 
+who like the basic function and invent new 
+uses for it. 
+
+Second, successful software survives 
+beyond the normal life of the machine 
+vehicle for which it is first written. If not 
+
+
+12 
+
+
+new computers, then at least new disks, 
+new displays, new printers come along; 
+and the software must be conformed to its 
+new vehicles of opportunity. 
+
+In short, the software product is embed- 
+ded in a cultural matrix of applications, 
+
+
+_users, laws, and machine vehicles. These 
+
+
+all change continually, and their changes 
+inexorably force change upon the software 
+product. 
+
+
+Invisibility. Software is invisible and un- 
+
+
+visualizable. Geometric abstractions are . 
+
+
+powerful tools. The floor plan of a build- 
+ing helps both architect and client evaluate 
+spaces, traffic flows, views. Contra- 
+dictions and omissions become obvious. 
+
+
+Despite progress in 
+restricting and simplifying 
+software structures, they 
+remain inherently 
+unvisualizable, and thus 
+do not permit the mind to 
+use some of its most 
+powerful conceptual tools. 
+
+
+Scale drawings of mechanical parts and 
+stick-figure models of molecules, al- 
+though abstractions, serve the same pur- 
+
+
+pose. A geometric reality is captured in a . 
+
+
+geometric abstraction. 
+
+The reality of software is not inherently 
+embedded in space. Hence, it has no ready 
+geometric representation in the way that 
+land has maps, silicon chips have dia- 
+grams, computers have connectivity 
+schematics. As soon as we attempt to dia- 
+gram software structure, we find it to con- 
+stitute not one, but several, general 
+directed graphs superimposed one upon 
+another. The several graphs may represent 
+the flow of control, the flow of data, pat- 
+terns of dependency, time sequence, 
+name-space relationships. These graphs 
+are usually not even planar, much less 
+hierarchical. Indeed, one of the ways of 
+establishing conceptua! control over such 
+structure is to enforce link cutting until 
+one or more of the graphs becomes hierar- 
+chical.! 
+
+In spite of progress in restricting and 
+simplifying the structures of software, 
+they remain inherently unvisualizable, and 
+thus do not permit the mind to use some of 
+its most powerful conceptual tools. This 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 CIA-RDP90G01353R000200180023-0 * 
+
+
+lack not only impedes the process of 
+design within one mind, it severely hinders 
+communication among minds. 
+
+
+Past breakthroughs 
+solved accidental 
+difficulties 
+
+
+If we examine the three steps in soft- 
+ware-technology development that have 
+been most fruitful in the past, we discover 
+that each attacked a different major dif- 
+ficulty in building software, but that those 
+difficulties have been accidental, not 
+essential, difficulties. We can also see the 
+natural limits to the extrapolation of each 
+such attack. 
+
+
+High-level languages. Surely the most 
+powerful stroke for software productivity, 
+reliability, and simplicity has been the pro- 
+gressive use of high-level languages for 
+programming. Most observers credit that 
+
+
+. development with at least a factor of five 
+
+
+in productivity, and with concomitant 
+gains in reliability, simplicity, and com- 
+prehensibility. 
+
+What does a high-level language ac- 
+complish? It frees a program from much 
+of its accidental complexity. An abstract 
+program consists of conceptual con- 
+structs: operations, data types, sequences, 
+and communication. The concrete ma- 
+chine program is concerned with bits, reg- 
+isters, conditions, branches, channels, 
+disks, and such. To the extent that the 
+high-level language embodies the con- 
+structs one wants in the abstract program 
+and avoids all lower ones, it eliminates a 
+whole level of complexity that was never 
+inherent in the program at all. 
+
+The most a high-level language can do is 
+to furnish all the constructs that the pro- 
+grammer imagines in the abstract pro- 
+gram. To be sure, the level of our thinking 
+about data structures, data types, and 
+operations is steadily rising, but at an ever- 
+
+
+‘decreasing rate. And language devel- 
+
+
+opment approaches closer and closer to 
+the sophistication of users. 
+
+Moreover, at some point the elabora- 
+tion of a high-level language creates a tool- 
+mastery burden that increases, not re- 
+duces, the intellectual task of the user who 
+rarely uses the esoteric constructs. 
+
+
+Time-sharing. Time-sharing brought a 
+major improvement in the productivity of 
+programmers and in the quality of their 
+product, although not so large as that 
+
+
+COMPUTER 
+
+
+- Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA- RDP90G01353R000200180023- 0 
+
+
+brought by high-level languages. 
+Time-sharing attacks a quite different 
+difficulty. Time-sharing preserves im- 
+mediacy, and hence enables one to main- 
+tain an overview of complexity. The slow 
+turnaround of batch programming means 
+that one inevitably forgets the minutiae, if 
+not the very thrust, of what one was think- 
+_ing when he stopped programming and 
+called for compilation and execution. This 
+interruption is costly in time, for one must 
+refresh one’s memory. The most serious 
+effect may well be the decay of the grasp of 
+all that is going on in a complex system. 
+Slow turnaround, like machine-lan- 
+guage complexities, is an accidental rather 
+than an essential difficulty of the software 
+process. The limits of the potential con- 
+tribution of time-sharing derive directly. 
+The principal effect of time-sharing is to 
+shorten system response time. As this 
+response time goes to zero, at some point it 
+passes the human threshold of noticeabil- 
+ity, about 100 milliseconds. Beyond that 
+threshold, no benefits are to be expected. 
+
+
+Unified programming environments. 
+Unix and Interlisp, the first integrated pro- 
+gramming environments to come into 
+widespread use, seem to have improved 
+productivity by integral factors. Why? 
+
+They attack the accidental difficulties 
+that result from using individual programs 
+together, by providing integrated libraries, 
+unified file formats, and pipes and filters. 
+As a result, conceptual structures that in 
+principle could always call, feed, and use 
+one another can indeed. easily do so in 
+practice. 
+
+This breakthrough in turn stimulated 
+the development of whole toolbenches, 
+since each new tool could be applied to any 
+programs that used the standard formats. 
+
+Because of these successes, environ- 
+ments are the subject of much of today’s 
+software-engineering research. We look at 
+their promise and limitations in the next 
+section. 
+
+
+Hopes for the silver 
+
+
+Now let us consider the technical devel- 
+opments that are most often advanced as 
+potential silver bullets. What problems do 
+they address—the problems of essence, or 
+the remaining accidental difficulties? Do 
+they offer revolutionary advances, or in- 
+cremental ones? 
+
+
+Ada and other high-level language ad- 
+vances. One of the most touted recent de- 
+
+
+April 1987 
+
+
+To slay the werewolf 
+
+
+Why a silver bullet? Magic, of course. Silver is identified with the moon and thus 
+has magic properties. A silver bullet offers the fastest, most powerful, and safest 
+way to slay the fast, powerful, and incredibly dangerous werewolf. And what could _ 
+be more natural than using the moon-metal to destroy a creature transformed 
+under the light of the full moon? 
+
+The legend of the werewolf is probably one of the oldest monster legends 
+around. Herodotus in the fifth century BC gave us the first written report of 
+werewolves when he mentioned a tribe north of the Black Sea, called the Neuri, 
+who supposedly turned into wolves a few days each year. Herodotus wrote that he 
+didn’t believe it. 
+
+Sceptics aside, many people have believed in people turning into wolves or 
+other animals. In medieval Europe, some people were killed because they were 
+thought to be werewolves. In those times, it didn’t take being bitten by a werewolf 
+to become one. A bargain with the devil, using a special potion, wearing a special 
+belt, or being cursed by a witch could all turn a person into a werewolf. However, 
+medieval werewolves could be hurt and killed by normal weapons. The problem 
+was to overcome their strength and cunning. 
+
+Enter the fictional, not legendary, werewolf. The first major werewolf movie, The 
+Werewolf of London, in 1935 created the two-legged man-wolf who changed into a 
+monster when the moon was full. He became a werewolf after being bitten by one, 
+and could be killed only with a silver bullet. Sounc familiar? 
+
+Actually, we owe many of today’s ideas about werewolves to Lon Chaney Jr.’s 
+unforgettable 1941 portrayal in The Wolf Man. Subsequent films seldom strayed far 
+from the mythology of the werewolf shown in that movie. But that movie strayed 
+far from the original mythology of the werewolf. 
+
+Would you believe that before fiction took over the legend, werewolves weren't 
+troubled by silver bullets? Vampires were the ones who couldn't stand them. Of 
+course, If you rely on the legends, your only salvation If unarmed and attacked by a 
+werewolf is to climb an ash tree or run into a field of rye. Not so easy to find In an 
+urban setting, and hardly recognizable to the average movie audience. 
+
+What should you watch out for? People whose eyebrows grow together, whose 
+index finger is longer than the middle finger, and who have hair growing on their 
+palms. Red or black teeth are a definite signal of possible trouble. 
+
+Take warning, though. The same symptoms mark people suffering from hyper- 
+trichosis (people born with hair covering their bodies) or porphyria. tn porphyria, a 
+person’s body produces toxins called porphyrins. Consequently, light becomes 
+painful, the skin grows hair, and the teeth may turn red. Worse for the victim’s 
+reputation, his or her increasingly bizarre behavior makes people even more 
+suspicious of the other symptoms. It seems very likely that the sufferers of this 
+disease unwittingly contributed to the current legend, although in earlier times 
+they were evidently not accused of murderous tendencies. 
+
+it is worth noting that the film tradition often makes the werewolf a rather sym- 
+pathetic character, an innocent transformed against his (or rarely hen will into a 
+monster. As the gypsy said in The Wolf Man, 
+
+
+Even a man who is pure at heart, 
+
+And says his prayers at night, 
+
+Can become a wolf when the wolfbane blooms, 
+And the moon is full and bright. 
+
+
+— Nancy Hays 
+Assistant Editor 
+
+
+The Bettman Archive 
+
+
+| Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA- RDP90G01353R000200180023- 0 
+
+
+2 : — 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/0 
+
+
+velopments is Ada, a general-purpose 
+high-level language of the 1980’s. Ada not 
+only reflects evolutionary improvements 
+‘in language concepts, but indeed em- 
+bodies features to encourage modern 
+design and modularization. Perhaps the 
+Ada philosophy is more of an advance 
+than the Ada language, for it is the 
+philosophy of modularization, of abstract 
+data types, of hierarchical structuring. 
+Ada is over-rich, a natural result of the 
+process by which requirements were laid 
+on its design. That is not fatal, for sub- 
+setted working vocabularies can solve the 
+learning problem, and hardware advances 
+
+
+will give us the cheap MIPS to pay for the - 
+
+
+compiling costs. Advancing the structur- 
+ing of software systems is indeed a very 
+good use for the increased MIPS our 
+dollars will buy. Operating systems, loudly 
+decried in the 1960’s for their memory and 
+cycle costs, have proved to be an excellent 
+form in which to use some of the MIPS 
+and cheap memory bytes of the past hard- 
+ware surge. ; 
+
+Nevertheless, Ada will not prove to be 
+the silver bullet that slays the software 
+productivity monster. It is, after all, just 
+another high-level language, and the big- 
+gest payoff from such languages came 
+from the first transition—the transition up 
+from the accidental complexities of the 
+machine into the more abstract statement 
+of step-by-step solutions. Once those ac- 
+cidents have been removed, the remaining 
+ones will be smaller, and the payoff from 
+their removal will surely be less. 
+
+I predict that a decade from now, when 
+the effectiveness of Ada is assessed, it will 
+be seen to have made a substantial dif- 
+ference, but not because of any particular 
+language feature, nor indeed because of all 
+of them combined. Neither will the new 
+Ada environments prove to be the cause of 
+the improvements. Ada’s greatest contri- 
+bution will be that switching to it occa- 
+sioned training programmers in modern 
+software-design techniques. 
+
+
+Object-oriented programming. Many 
+students of the art hold out more hope for 
+object-oriented programming than for 
+any of the other technical fads of the day. 2 
+| am among them. Mark Sherman of Dart- 
+mouth notes on CSnet News that one must 
+be careful to distinguish two separate ideas 
+that go under that name: abstract data 
+types and hierarchical types. The concept 
+of the abstract data type is that an object’s 
+type should be defined by a name, a set of 
+proper values, and a set of proper opera- 
+tions rather than by its storage structure, 
+
+
+14. 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 
+
+
+of EG Re 
+
+
+which should be hidden. Examples ate 
+
+
+Ada packages (with private types) and = 
+Modula’s modules. 
+
+
+Hierarchical types, such as Simula-67's - 
+classes, allow one to define general in- © 
+terfaces that can be further refined by pro- 
+viding subordinate types. The two con- 
+cepts are orthogonal—one may have 
+hierarchies without hiding and hiding 
+without hierarchies. Both concepts repre- 
+sent real advances in the art of building 
+software. 
+
+Each removes yet another accidental 
+difficulty from the process, allowing the 
+designer to express the essence of the 
+design without having to express large 
+amounts of syntactic material that add no 
+
+
+Many students of the art 
+hold out more hope for 
+object-oriented 
+programming than for 
+other technical fads of 
+the day. 
+
+
+information content. For both abstract 
+types and hierarchical types, the result is to 
+remove a higher-order kind of accidental 
+difficulty and allow a higher-order expres- 
+sion of design. 
+
+Nevertheless, such advances can do no 
+more than to remove all the accidental dif- 
+ficulties from the expression of the design. 
+The complexity of the design itself is essen- 
+tial, and such attacks make no change 
+whatever in that. An order-of-magnitude 
+gain can be made by object-oriented pro- 
+gramming only if the unnecessary type- 
+specification underbrush still in our pro- 
+gramming language is itself nine-tenths of 
+the work involved in designing a program 
+product. I doubt it. 
+
+
+Artificial intelligence. Many people ex- 
+pect advances in artificial intelligence to 
+provide the revolutionary breakthrough 
+that will give order-of-magnitude gains in 
+software productivity and quality.? I do 
+not. To see why, we must dissect what is 
+meant by ‘‘artificial intelligence.” 
+
+D.L. Parnas has clarified the termi- 
+nological chaos 4: 
+
+Two quite different definitions of Al 
+are in common use today. AI-1: The use 
+of computers to solve problems that 
+previously could only be solved by apply- 
+ing human intelligence. AI-2: The use ofa 
+specific set of programming techniques 
+known as heuristic or rule-based pro- 
+
+
+2 ° 
+
+
+Sera 
+
+
+tify a body of technology that is unique to 
+this field. . . . Most of the work is prob- 
+lem-specific, and_‘some abstraction or 
+creativity is required to see howto transfer 
+it. oe es se) 
+
+I agree completely with this critique. 
+The techniques used for speech recog- 
+nition seem to have little in common with 
+those used for image recognition, and 
+both are different from those used in 
+expert systems. I have a hard time seeing 
+how image recognition, for example, will 
+make any appreciable difference in pro- 
+gramming practice. The same problem is 
+true of speech recognition. The hard thing 
+about building software is deciding what 
+one wants to say, not saying it. No facilita- 
+tion of expression can give more than mar- 
+ginal gains. 
+
+Expert-systems technology, AlI-2, 
+deserves a section of its own. 
+
+
+Expert systems. The most advanced 
+part of the artificial intelligence art, and 
+the most widely applied, is the technology 
+for building expert systems. Many soft- 
+ware scientists are hard at work applying 
+this technology to the software-building 
+environment. +> What is the concept, and 
+what are the prospects? 
+
+An expert system is a program that 
+contains a generalized inference engine 
+and a rule base, takes input data and 
+assumptions, explores the inferences 
+derivable from the rule base, yields 
+conclusions and advice, and offers to 
+explain its results by retracing its reasoning 
+for the user. The inference engines typ- 
+ically can deal with fuzzy or probabilistic 
+data and rules, in addition to purely deter- 
+ministic logic. 
+
+Such systems offer some clear advan- 
+tages over programmed algorithms 
+designed for arriving at the same solutions 
+to the same problems: 
+
+¢ Inference-engine technology is devel- 
+
+oped in an application-independent 
+way, and then applied to many uses. 
+One can justify much effort on the in- 
+ference engines. Indeed, that 
+technology is well advanced. 
+
+¢ The changeable parts of the 
+
+application-peculiar materials are en- 
+
+
+COMPUTER 
+
+
+SRS aR rae. - a . 
+CIA-RDP90G01 353R0002001 80023-0 
+
+
+~~ CIA-RDP90G01353R000200180023-0 
+
+
+coded in the rule base in a uniform 
+fashion, and tools are provided for 
+developing, changing, testing, and 
+documenting the rule base. This reg- 
+ularizes much of the complexity of 
+the application itself. 
+
+The power of such systems does not 
+come from ever-fancier inference mecha- 
+nisms, but rather from ever-richer knowl- 
+edge bases that reflect the real world more 
+accurately. I believe that the most impor- 
+tant advance offered by the technology is 
+the separation of the application complex- 
+ity from the program itself. 
+
+How can this technology be applied to 
+the software-engineering task? In many 
+ways: Suchi systems can suggest interface 
+
+
+. rules, advise on testing strategies, remem- 
+
+
+ber bug-type frequencies, and offer opti- 
+mization hints. 
+
+Consider an imaginary testing advisor, 
+for example. In its most rudimentary 
+form, the diagnostic expert system is very 
+like a pilot’s checklist, just enumerating 
+suggestions as to possible causes of diffi- 
+
+
+‘culty. As more and more system structure 
+
+
+is embodied in the rule base, and as the 
+rule base takes more sophisticated account 
+of the trouble symptoms reported, the 
+testing advisor becomes more and more 
+particular in the hypotheses it generates 
+and the tests it recommends. Such an 
+expert system may depart most radically 
+from the conventional ones in that its rule 
+base should probably be hierarchically 
+modularized in the same way the corre- 
+sponding software product is, so that as 
+the product is modularly modified, the 
+diagnostic rule base can be modularly 
+modified as well. 
+
+The work required to generate the 
+diagnostic rules is work that would have to 
+be done anyway in generating the set of 
+test cases for the modules and for the sys- 
+tem. If it is done in a suitably general 
+manner, with both a uniform structure for 
+rules and a good inference engine avail- 
+able, it may actually reduce the total labor 
+of generating bring-up test cases, and help 
+as well with lifelong maintenance and 
+modification testing. In the same way, one 
+can postulate other advisors, probably 
+many and probably simple, for the other 
+parts of the software-construction task. 
+
+Many difficulties stand in the way of the 
+early realization of useful expert-system 
+advisors to the program developer. A 
+crucial part of our imaginary scenario is 
+the development of easy ways to get from 
+program-structure specification to the 
+automatic or semiautomatic generation of 
+diagnostic rules. Even more difficult and 
+
+
+April 1987 
+
+
+: Declassified inPart= Ganitized Cony Approved for Release 2012/07/02 - CIA-RDP90G01353R000200 180023. 
+
+
+important is the twofold task of know!l- 
+edge acquisition: finding articulate, self- 
+analytical experts who know why they do 
+things, and developing efficient tech- 
+niques for extracting what they know and 
+distilling it into rule bases. The essential 
+prerequisite for building an expert system 
+is to have an expert. 
+
+The most powerful contribution by ex- 
+pert systems will surely be to put at the ser- 
+vice of the inexperienced programmer the 
+experience and accumulated wisdom of 
+the best programmers. This is no small 
+contribution. The gap between the best 
+software engineering practice and the 
+average practice is very wide—perhaps 
+wider than in any other engineering 
+discipline. A tool that disseminates good 
+practice would be important. 
+
+
+“Automatic” programming. For almost 
+40 years, people have been anticipating 
+and writing about ‘‘automatic program- 
+ming,’’ or the generation of a program for 
+solving a problem from a statement of the 
+problem specifications. Some today write 
+as if they expect this technology to provide 
+the next breakthrough.$ 
+
+Parnas‘ implies that the term is used 
+for glamor, not for semantic content, 
+asserting, 
+
+In short, automatic programming 
+always has been a euphemism for program- 
+
+
+ming with a higher-level language than was 
+presently available to the programmer. 
+
+
+He argues, in essence, that in most cases 
+it is the solution method, not the problem, 
+whose specification has to be given. 
+
+One can find exceptions. The technique 
+of building generators is very powerful, 
+and it is routinely used to good advantage 
+in programs for sorting. Some systems for 
+integrating differential equations have 
+also permitted direct specification of the 
+problem, and the systems have assessed 
+the parameters, chosen from a library of 
+methods of solution, and generated the 
+programs. 
+
+These applications have very favorable 
+properties: 
+
+¢ The problems are readily charac- 
+terized by relatively few parameters. 
+
+
+The Bettman Archive 
+
+
+e There are many known methods of 
+solution to provide a library of alter- 
+natives, — 
+
+© Extensive analysis has led to explicit 
+rules for selecting solution techniques, 
+given problem parameters. 
+
+It is hard to see how such techniques 
+generalize to the wider world of the or- 
+dinary software system, where cases with 
+such neat properties are the exception. It is 
+hard even to imagine how this break- 
+through in generalization could occur. 
+
+
+Graphical programming. A favorite - 
+
+
+subject for PhD dissertations in software 
+engineering is graphical, or visual, pro- 
+gramming-—the application of computer 
+graphics to software design. ©? Sometimes 
+the promise held out by such an approach 
+is postulated by analogy with VLSI chip 
+design, in which computer graphics plays 
+so fruitful a role. Sometimes the theorist 
+justifies the approach by considering 
+flowcharts as the ideal program-design 
+medium and by providing powerful 
+facilities for constructing them. 
+
+Nothing even convincing, much less ex- 
+citing, has yet emerged from such efforts. I 
+am persuaded that nothing will. 
+
+In the first place, as I have argued 
+elsewhere,® the flowchart is a very poor 
+abstraction of software structure. Indeed, 
+it is best viewed as Burks, von Neumann, 
+and Goldstine’s attempt to provide a 
+desperately needed high-level control lan- 
+guage for their proposed computer. In the 
+pitiful, multipage, connection-boxed 
+form to which the flowchart has today 
+been elaborated, it has proved to be useless 
+as a design 
+tool— 
+program- 
+mers 
+draw 
+
+
+beclassitied in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA- RDP90G01353R000200180023- 0 
+
+
+"7 
+
+
+2 
+
+
+art 
+
+
+flowcharts after, not before, writing the 
+programs they describe. 
+
+Second, the screens of today are too 
+‘small, in pixels, to show both the scope 
+and the resolution of any seriously detailed 
+software diagram. The so-called ‘‘desktop 
+metaphor” of today’s workstation is in- 
+stead an ‘“‘airplane-seat’”” metaphor. Any- 
+one who has shuffled a lap full of papers 
+while seated between two portly. passen- 
+gers will recognize the difference—one can 
+see only a very few things at once. The true 
+desktop provides overview of, and ran- 
+dom access to, ascore of pages. Moreover, 
+when fits of creativity run strong, more 
+than one programmer or writer has been 
+known to abandon the desktop for the 
+more spacious floor. The hardware tech- 
+nology will have to advance quite substan- 
+tially before the scope of our scopes is suf- 
+ficient for the software-design task. 
+
+More fundamentally, as I have argued 
+above, software is very difficult to 
+visualize. Whether one diagrams control 
+flow, variable-scope nesting, variable 
+cross-references, dataflow, hierarchical 
+data structures, or whatever, one feels 
+only one dimension of the intricately in- 
+terlocked software elephant. If one 
+superimposes all the diagrams generated 
+by the many relevant views, it is difficult to 
+extract any global overview. The VLSI 
+analogy is fundamentally misleading —a 
+chip design is a layered two-dimensional 
+description whose geometry reflects its 
+realization in 3-space. A software system 
+is not. 
+
+
+Program verification. Much of the ef- 
+fort in modern programming goes into 
+testing and the repair of bugs. Is there 
+perhaps a silver bullet to be found by 
+eliminating the errors at the source, in the 
+system-design phase? Can both productiv- 
+ity and product reliability be radically 
+enhanced by following the profoundly dif- 
+ferent strategy of proving designs correct 
+before the immense effort is poured into 
+implementing and testing them? 
+
+Ido not bélieve we will find productivity 
+magic here. Program verification is a very 
+powerful concept, and it will be very im- 
+portant for such things as secure operat- 
+ing-system kernels. The technology does 
+not promise, however, to save labor. Veri- 
+fications are so much work that only a 
+few substantial programs have ever been 
+verified. 
+
+Program verification does not mean 
+error-proof programs. There is no magic 
+here, either. Mathematical proofs also can 
+be faulty. So whereas verification might 
+
+
+16 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 
+
+
+reduce tne Progranitesing 10ag, Il Cammut 
+eliminate it. 
+
+More seriously, even perfect prograin 
+verification can only establish that a pro- 
+gram meets its specification. The hardest 
+part of the software task is arriving at a 
+
+
+complete and consistent specification, and . 
+
+
+much of the essence of building a program 
+is in fact the debugging of the specification. 
+
+
+Environments and tools. How much 
+more gain can be expected from the ex- 
+ploding researches into better program- 
+ming environments? One’s instinctive 
+reaction is that the big-payoff prob- 
+lems—hierarchical file systems, uniform 
+file formats to make possible uniform pro- 
+
+
+Language-specific smart 
+editors promise at most 
+freedom from 
+
+syntactic errors and 
+simple semantic errors. 
+
+
+gram interfaces, and generalized tools— 
+were the first attacked, and have been 
+solved. Language-specific smart editors 
+are developments not yet widely used in 
+practice, but the most they promise is 
+freedom from syntactic errors and simple 
+semantic errors. 
+
+Perhaps the biggest gain yet to be real- 
+ized from programming environments is 
+the use of integrated database systems to 
+keep track of the myriad details that must 
+be recalled accurately by the individual 
+programmer and kept current for a group 
+of collaborators on a single system. 
+
+Surely this work is worthwhile, and 
+surely it will bear some fruit in both 
+productivity and reliability. But by its very 
+nature, the return from now on must be 
+marginal. 
+
+
+Workstations. What gains are to be ex- 
+pected for the software art from the cer- 
+tain and rapid increase in the power and 
+memory capacity of the individual work- 
+station? Well, how many MIPS can one 
+use fruitfully? The composition and edit- 
+ing of programs and documents is fully 
+supported by today’s speeds. Compiling 
+could stand a boost, but a factor of 10 in 
+machine speed would surely leave think- 
+time the dominant activity in the program- 
+mer’s day. Indeed, it appears to beso now. 
+
+More powerful workstations we surely 
+welcome. Magical enhancements from 
+them we cannot expect. 
+
+
+: CIA-RDP90G01353R000200180023- 0} 
+
+
+PTODUSLUY ALaUND Yin UT 
+conceptual essence 
+
+
+Even though no technological 
+breakthrough promises to give the sort of 
+magical results with which we are so fami- 
+liar in the hardware area, there is both an 
+abundance of good work going on now, 
+and the promise of steady, if unspecta- 
+cular progress. 
+
+All of the technological attacks on the 
+accidents of the software process are 
+fundamentally limited by the productivity 
+equation: 
+
+
+time of task=)y (frequency) ; X (time); 
+i 
+
+
+If, as I believe, the conceptual compo- 
+nents of the task are now taking most of 
+the time, then no amount of activity on the 
+task components that are merely the ex- 
+pression of the concepts can give large 
+productivity gains. 
+
+Hence we must consider those attacks 
+that address the essence of the software 
+problem, the formulation of these com- 
+plex conceptual structures. Fortunately, 
+some of these attacks are very promising. 
+
+
+Buy versus build. The most radical 
+possible solution for constructing soft- 
+ware is not to construct it at all. 
+
+Every day this becomes easier, as more 
+and more vendors offer more and better 
+software products for a dizzying variety of 
+applications. While we software engineers 
+have labored on production methodology, 
+the personal-computer revolution has 
+created not one, but many, mass markets 
+for software. Every newsstand carries 
+monthly magazines, which sorted by 
+machine type, advertise and review dozens 
+of products at prices from a few dollars to 
+a few hundred dollars. More specialized 
+sources offer very powerful products for 
+the workstation and other Unix markets. 
+Even software tools and environments can 
+be bought off-the-shelf. [ have elsewhere 
+proposed a marketplace for individual 
+modules. ? 
+
+Any such product is cheaper to buy than 
+to build afresh. Even at a cost of one hun- 
+dred thousand dollars, a purchased piece 
+of software is costing only about as much 
+as one programmer-year. And delivery is 
+immediate! Immediate at least for prod- 
+ucts that really exist, products whose de- 
+veloper can refer products to a happy user. 
+Moreover, such products tend to be much 
+better documented and somewhat better 
+maintained than home-grown software. 
+
+
+COMPUTER 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+a 
+"Es 
+Ss 
+
+
+ant 
+
+
+w 
+
+
+Qac»count unwn ve 
+
+
+The development of the mass market is, 
+I believe, the most profound long-run 
+trend in software engineering. The cost of 
+software has always been development 
+cost, not replication cost. Sharing that 
+cost among even a few users radically cuts 
+the per-user cost. Another way of looking 
+at it is that the use of n copies of a software 
+system effectively multiplies the produc- 
+tivity of its developers by nm. That is an 
+enhancement of the productivity of the 
+discipline and of the nation. 
+
+The key issue, of course, is applicabil- 
+ity. Can I use an available off-the-shelf 
+package to perform my task? A surprising 
+thing has happened here. During the 
+1950’s and 1960’s, study after study 
+showed that users would not use off-the- 
+shelf packages for payroll, inventory con- 
+trol, accounts receivable, and so on. The 
+requirements were too specialized, the 
+case-to-case variation too high. During the 
+1980’s, we find such packages in high 
+demand and widespread use. What has 
+changed? 
+
+Not the packages, really. They may be 
+somewhat more generalized and some- 
+what more customizable than formerly, 
+but not much. Not the applications, 
+either. If anything, the business and scien- 
+tific needs of today are more diverse and 
+complicated than those of 20 years ago. 
+
+The big change has been in the hard- 
+ware/software cost ratio. In 1960, the 
+buyer of a two-million dollar machine felt 
+that he could afford $250,000 more for a 
+customized payroll program, one that 
+slipped easily and nondisruptively into the 
+computer-hostile social environment. To- 
+day, the buyer of a $50,000 office machine 
+cannot conceivably afford a customized 
+payroll program, so he adapts the payroll 
+procedure to the packages available. Com- 
+puters are now so commonplace, if not yet 
+so beloved, that the adaptations are ac- 
+cepted as a matter of course. 
+
+There are dramatic exceptions to my 
+argument that the generalization of soft- 
+ware packages has changed little over the 
+years: electronic spreadsheets and simple 
+database systems. These powerful tools, 
+
+
+puters day in and day out on various ap- 
+plications without ever writing a program. 
+Indeed, many of these users cannot write 
+new programs for their machines, but they 
+are nevertheless adept at solving new prob- 
+lems with them. 
+
+I believe the single most powerful soft- 
+ware-productivity strategy for many or- 
+ganizations today is to equip the 
+computer-naive intellectual workers who 
+are on the firing line with personal com- 
+puters and good generalized writing, 
+drawing, file, and spreadsheet programs 
+and then to turn them loose. The same 
+Strategy, carried out with generalized 
+mathematical and statistical packages and 
+some simple programming capabilities, 
+will also work for hundreds of laboratory 
+scientists. : 
+
+
+Requirements refinement and rapid 
+prototyping. The hardest single part of 
+building a software system is deciding 
+precisely what to build. No other part of 
+the conceptual work is as difficult as 
+establishing the detailed technical re- 
+quirements, including all the interfaces to 
+people, to machines, and to other software 
+systems. No other part of the work so crip- 
+ples the resulting system if done wrong. 
+No other part is more difficult to rectify 
+later. 
+
+Therefore, the most important function 
+that the software builder performs for the 
+client is the iterative extraction and refine- 
+ment of the product requirements. For the 
+truth is, the client does not know what he 
+wants. The client usually does not know 
+what questions must be answered, and he 
+has almost never thought of the problem 
+in the detail necessary for specification. 
+Even the simple answer—‘‘Make the new 
+
+
+software system work like our old manual _ 
+
+
+information-processing system’’ ‘ 
+—is in fact too simple. One never * 
+wants exactly that. Complex 
+
+software systems are, 
+
+
+ns 
+cy 
+
+
+moreover, things that act, that move, that 
+work. The dynamics of that action are 
+hard to imagine. So in planning any soft- 
+ware-design activity, it is necessary to 
+allow for an extensive iteration between 
+the client and the designer as part of the 
+system definition. 
+
+I would go a step further and assert that 
+it is really impossible for a client, even 
+working with a software engineer, to 
+specify completely, precisely, and correct- 
+ly the exact requirements of a modern soft- © 
+ware product before trying some versions 
+of the product. 
+
+Therefore, one of the most promising of 
+the current technological efforts, and one 
+that attacks the essence, not the accidents, 
+of the software problem, is the devel- 
+opment of approaches and tools for rapid 
+prototyping of systems as prototyping is 
+part of the iterative specification of 
+requirements. 
+
+A prototype software system is one that 
+simulates the important interfaces and 
+performs the main functions of the in- 
+tended system, while not necessarily being 
+bound by the same hardware speed, size, 
+or cost constraints. Prototypes typically 
+perform the mainline tasks of the applica- 
+tion, but make no attempt to handle the 
+exceptional tasks, respond correctly to in- 
+valid inputs, or abort cleanly. The purpose 
+of the prototype is to make real the con- 
+ceptual structure specified, so that the 
+client can test it for consistency and 
+usability. 
+
+Much of present-day software-acquisi- 
+tion procedure rests upon the assumption. 
+that one can specify a satisfactory system 
+in advance, get bids for its construction, 
+have it built, and install it. I think 
+this assumption is fundamentally 1 
+
+wrong, and that many : 
+software-acquisition 
+
+
+so obvious in retrospect and yet so late in 
+appearing, lend themselves to myriad 
+
+
+or uses, some quite unorthodox. Articles and 
+A even books now abound on how to tackle 
+a unexpected tasks with the spreadsheet. 
+d- Large numbers of applications that would 
+le- formerly have been written as custom pro- 
+a grams in Cobol or Report Program Gener- 
+ch ator are now routinely done with these 
+oh tools. The Bettman Archive Sie 
+Many users now operate their own com- 
+ER 
+
+
+April 1987 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 3 
+
+
+Declassified in Part - Sanitized Copy Approved for Release. 2012/07/02 : 
+
+
+spring from that fallacy. Hence, they can- 
+not be fixed without fundamental revi- 
+sion—revision that provides for iterative 
+development and specification of pro- 
+totypes and products. 
+
+
+Incremental development—grow, don’t 
+build, software. I still remember the jolt I 
+felt in 1958 when I first heard a friend talk 
+about building a program, as opposed to 
+writing one. In a flash he broadened my 
+whole view of the software process. The 
+metaphor shift was powerful, and accu- 
+rate. Today we understand how like other 
+building processes the construction of 
+software is, and we freely use other 
+elements of the metaphor, such as specifi- 
+cations, assembly of components, and 
+scaffolding. 
+
+The building metaphor has outlived its 
+usefulness. It is time to change again. If, as 
+I believe, the conceptual structures we 
+construct today are too complicated to be 
+specified accurately in advance, and too 
+complex to be built faultlessly, then we 
+must take a radically different approach. 
+
+Let us turn to nature and study com- 
+plexity in living things, instead of just the 
+dead works of man. Here we find con- 
+structs whose complexities thrill us with 
+awe. The brain alone is intricate beyond 
+mapping, powerful beyond imitation, rich 
+in diversity, self-protecting, and self- 
+renewing. The secret is that it is grown, not 
+built. 
+
+So it must be with our software systems. 
+Some years ago Harlan Mills proposed 
+that any software system should be grown 
+by incremental development. !° That is, 
+the system should first be made-to run, 
+even if it does nothing useful except call 
+the proper set of dummy subprograms. 
+Then, bit by bit, it should be fleshed out, 
+with the subprograms in turn being devel- 
+oped—into actions or calls to empty stubs 
+in the level below. 
+
+I have seen most dramatic results since I 
+began urging this technique on the project 
+builders in my Software Engineering 
+Laboratory class. Nothing in the past 
+
+
+decade has so radically changed my own’ 
+
+
+practice, or its effectiveness. The ap- 
+proach necessitates top-down design, for 
+it is a top-down growing of the software. It 
+allows easy backtracking. It lends itself to 
+early prototypes. Each added function 
+and new provision for more complex data 
+or circumstances grows organically out of 
+what is already there. 
+
+The morale effects are startling. En- 
+thusiasm jumps when there is a running 
+system, even a simple one. Efforts re- 
+
+
+18 
+
+
+double when the first picture from a new 
+graphics software system appears on the 
+screen, even if it is only a rectangle. One 
+always has, at every stage in the process, a 
+working system. I find that teams can 
+grow much more complex entities in four 
+months than they can build. 
+
+The same benefits can be realized on 
+large projects as on my small ones. !! 
+
+
+Great designers. The central question in 
+
+
+how to improve.the software art centers, 
+as it always has, on people. 
+
+We can get good designs by following 
+good practices instead of poor ones. Good 
+design practices can be taught. Program- 
+mers are among the most intelligent part 
+of the population, so they can learn good 
+practice. Hence, a major thrust in the 
+United States is to promulgate good 
+modern practice. New curricula, new 
+literature, new organizations such as the 
+Software Engineering Institute, all have 
+come into being in order to raise the level 
+of our practice from poor to good. This is 
+entirely proper. 
+
+Nevertheless, I do not believe we can 
+make the next step upward in the same 
+way. Whereas the difference between poor 
+conceptual designs and good ones may lie 
+in the soundness of design method, the 
+difference between good designs and great 
+ones surely does not. Great designs come 
+from great designers. Software construc- 
+tion is a creative process. Sound 
+methodology can empower and liberate 
+the creative mind; it cannot inflame or 
+inspire the drudge. 
+
+The differences are not minor—they are 
+rather like the differences between Salieri 
+and Mozart. Study after study shows that 
+the very best designers produce structures 
+that are faster, smaller, simpler, cleaner, 
+and produced with less effort. '? The dif- 
+
+
+SMe SIP ARERR eat inntluinaisiee este titer einer RES 
+
+
+CIA-RDP90G01353R000200180023-0 
+
+
+are those that are the prod- 
+j designing minds, great 
+.. Consides, Unix, APL, Pascal, 
+
+Modula,’ the’ Smalltalk interface, even 
+Fortran; and contrast them with Cobol, 
+PL/I, Algol, MYS/370, _ MS-DOS. 
+(See Table 1.) «22 
+
+Hence, although I strongly support the 
+technology-transfer and curriculum-de- 
+velopment efforts now under way, I think 
+the most important single effort we can 
+mount is to develop ways to grow great 
+designers. Do 
+
+No software organization < can ignore 
+this challenge. Good managers, scarce 
+though they be, are no scarcer than good 
+designers. Great designers and great 
+managers are both very rare. Most 
+organizations spend considerable effort in 
+finding and cultivating the management 
+prospects; I know of none that spends 
+equal effort in finding and developing the 
+great designers upon whom the technical 
+excellence of the products will ultimately 
+depend. 
+
+My first proposal is that each software 
+organization must determine and pro- 
+claim that great designers are as important 
+to its success as great managers are, and 
+that they can be expected to be similarly 
+nurtured and rewarded. Not only salary, 
+but the perquisites of recognition—office 
+size, furnishings, personal technical equip- 
+ment, travel funds, staff support—must 
+be fully equivalent. 
+
+How to grow great designers? Space 
+
+
+‘ does not permit a lengthy discussion, but 
+
+
+some steps are obvious: 
+
+
+¢ Systematically identify top designers 
+as early as possible. The best are often not 
+the most experienced. 
+
+* Assign a career mentor to be respon- 
+sible for the development of the prospect, 
+and carefully keep a career file. 
+
+¢ Devise and maintain a career-devel- 
+opment plan for each prospect, including 
+carefully selected apprenticeships with top 
+designers, episodes of advanced formal 
+education, and short courses, all inter- 
+
+
+‘ spersed with solo-design and technical- ~ 
+
+
+leadership assignments. _ 
+
+¢ Provide opportunities for growing 
+designers to interact with and stimulate 
+each other.0 
+
+
+COMPUTER 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA- RDP90G01353R000200180023- -0 - 
+
+
+2R_ Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+ae 
+
+
+Declassi 
+
+
+ie 
+
+
+fied in Part - 
+
+
+SN i oes ee ge Rees 
+
+
+Sanitized Copy Appr 
+
+
+Acknowledgments 
+
+
+ES SB ae 
+
+
+oved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 J 
+
+
+artificial intelligence and software engi- 
+neering), J. Mostow, guest ed., Vol. 11, 
+No. 11, Nov. 1985, pp. 1257-1267. 
+
+
+. Computer (special issue on visual pro- . 
+
+
+gramming), R.B. Graphton and T. 
+Ichikawa, guest eds., Vol. 18, No. 8, Aug. 
+
+
+. G. Raeder, ‘‘A Survey of Current 
+
+
+Graphical Programming Techniques,” 
+Computer (special issue on visual pro- 
+gramming), R.B. Graphton and T. 
+Ichikawa, guest eds., Vol. 18, No. 8, Aug. 
+
+
+FP. Brooks, The Mythical Man-Month, 
+1975, Addison-Wesley, Reading, Mass., 
+
+
+Defense Science Board, Report of the 
+Task Force on Military Software, in press. 
+
+
+I thank Gordon Bell, Bruce Buchanan, Rick 6 
+Hayes-Roth, Robert Patrick, and, most 
+especially, David Parnas for their insights and 
+stimulating ideas, and Rebekah Bierly for the 1985, 
+technical production of this article. 7 : 
+References Paihia 
+1. D.L. Parnas, ‘‘Designing Software for New York, Chapter 14. 
+Ease of Extension and Contraction,” 9 
+IEEE Trans. Software Engineering, Vol. 
+5, No. 2, Mar. 1979, pp. 128-138. 10 
+
+
+2. G. Booch, ‘‘Object-Oriented Design,’’ 
+Software Engineering with Ada, 1983, 
+Benjamin/Cummings, Menlo Park, 
+Calif. 
+
+3. IEEE Trans. Software Engineering 
+
+
+11. 
+(special issue on artificial intelligence and 
+software engineering), J. Mostow, guest 
+ed., Vol. 11, No. 11, Nov. 1985. 
+4. D.L. Parnas, ‘‘Software Aspects of 
+Strategic Defense Systems,’’ American 19. 
+
+
+Scientist, Nov. 1985. 
+
+
+5. R. Balzer, ‘‘A 15-Year Perspective on 
+Automatic Programming,” JEEE Trans. 
+Software Engineering (special issue on 
+
+
+DIRECTOR 
+
+
+. H.D. Mills, “Top-Down Programming in 
+
+
+Large Systems,’’ in Debugging Tech- 
+niques in Large Systems, R. Ruskin, ed., 
+Prentice-Hall, Englewood Cliffs, N.J., 
+1971. 
+
+
+B.W. Boehm, ‘‘A Spiral Model of 
+Software Development and Enhance- 
+ment,’’ 1985, TRW tech. report 
+21-371-85, TRW, Inc., 1 Space Park, 
+Redondo Beach, CA 90278. ~ 
+
+H. Sackman, W.J. Erikson, and E.E. 
+Grant, ‘‘Exploratory Experimental 
+Studies Comparing Online and Offline 
+Programming Performance,’’ CACM, 
+Vol. 11, No. 1, Jan. 1968, pp. 3-11. 
+
+
+Frederick P, Brooks is Kenan Professor of 
+
+
+. Computer Science at the University of North 
+
+
+Carolina in Chapel Hill. He is best known as the 
+‘father of the IBM System/360 computer fam- 
+ily,’’ having served as project manager for the 
+System/360 hardware and later as project man- 
+ager for the Operating System/360 software. 
+
+At Chapel Hill, Brooks founded the UNC 
+Dept. of Computer Science and has par- 
+ticipated in the establishment and guiding of the 
+Microelectronics Center of North Carolina, the 
+Triangle Universities Computation Center, and 
+the North Carolina Educational Computing 
+Service. He has received the National Meda! of 
+Technology, a Guggenheim Fellowship, and the 
+McDowell and Computer Pioneer awards of 
+the Computer Society of the LEEE. 
+
+Brooks received his PhD (in what is today 
+computer science) from Harvard, where he was 
+a student of Howard Aiken. 
+
+
+Readers may write to F.P. Brooks at the 
+University of North Carolina, Dept. of Com- 
+puter Science, Chapel Hill, NC 27514. 
+
+
+UNIVERSITY COMPUTER CENTER 
+
+
+The University of Massachusetts at Amherst invites 
+
+
+‘applications and nominations for the position of Direc- 
+
+
+tor, University Computing Center, a position beginning 
+September 1, 1987 or as soon as possible thereafter. 
+Located in the Connecticut River Valley, UMA is a com- 
+prehensive, public university with an enroliment of 
+
+
+The Director is responsible for planning and directing 
+the overall activity of the University Computer Center, 
+
+
+’ which provides instructional and research computing 
+
+
+services to students and to faculty. 
+
+Qualifications: Candidates should have experience in 
+the management of academic or research computer ser- 
+vices. We seek a person who understands the effective 
+management and direction of a complex enterprise, who 
+has demonstrated leadership ability, and who can work 
+well with peers in planning and negotiation. Doctorate 
+and faculty experience preferred. Salary commensurate 
+with qualifications and experience. 
+
+
+Deadline for applications is April 22, 1987. Letters of ap- 
+plication should include a current resume, a brief state- 
+ment of qualifications for the position, and the names, 
+addresses, and telephone numbers of at least three refer- 
+ences who are familiar with the applicant's professional 
+experience. 
+
+
+Applications should be sent to: 
+
+
+Charles Moran, Chair, UCC Director Search Committee 
+Office of Computing and information Systems 
+
+362 Whitmore Administration Building 
+
+University of Massachusetts 
+
+Amherst, MA 01003 
+
+
+The University of Massachusetts Is an ; 
+Affirmative Action/Equal Opportunity Employer. 
+
+
+VO Architects 
+Software Professionals 
+Performance Analysts 
+
+
+Digital's Northeast Technology Center in 
+Shrewsbury, Massachusetts develops mass storage 
+systems for Digital’s entire range of VAX* systems. 
+These include memories, optical and small 
+magnetic disks, and high speed tapes. 
+
+
+We seek to lead the technological advancement 
+of intelligent I/O subsystems and distributed file 
+systems. 
+
+
+Our Systems Group is seeking a team of profes- 
+sionals for development of an intelligent [/O subsys- 
+tem that provides distributed file services. We par- 
+ticipate in architectural committees on controllers, 
+tape loaders, buses, networks, file systems and pro- 
+tocols. We construct performance models to aid in 
+architectural analysis. Our software team constructs 
+both advanced development prototypes and soft- 
+ware products for media and resource managerhent. 
+
+
+A graduate degree and/or at least three years’ 
+experience are preferred. If your technical interest 
+is in one of these areas, please send your resume 
+to: Chris Larkin, Department 0487 7812, 
+Digital Equipment Corporation, 333 South 
+Street, Shrewsbury, MA 01545-4112. ; 
+
+
+* Trademark of Digital Equipment Corporation. 
+We are an affirmative action employer. 
+
+
+po - 
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+a &. , . , ; ; eee 
+8 2) : é o i 
+
+
+A- 121 
+
+
+- STRATEGIC 
+— INVESTMENT 
+_ METHODOLOGY 
+
+
+DR. F.C. TOSCANO 
+JEAN-LUC MOYAUX 
+
+
+CORP. INFORMATION SYSTEMS 
+18M CORPORATION : 
+
+
+FCTS1487A 
+
+
+(c) Copyright IBM Corporation 1987. All rights reserved 
+
+
+A127 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 | 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R0002001 80023-0 
+
+
+a) 
+” 
+
+
+A-121 | 
+
+
+S.1.M. OVERVIEW. 
+
+
+OBJECTIVE. 
+
+
+2 EXPLAIN A METHOD USED INTERNALLY BY IBM TO. 
+_ DEVELOP INFORMATION SYSTEMS STRATEGIES 
+
+
+° DESCRIBE STEPS FOR A JOINT S.1.M. STUDY 
+
+
+OUTLINE 
+e INFORMATION SYSTEMS IN IBM 
+e STRATEGIC INVESTMENT METHODOLOGY | 
+
+
+-— BACKGROUND 
+
+
+DESCRIBING I/S INVESTMENTS 
+
+
+LINKING 1/S TO BUSINESS STRATEGY 
+
+
+-e  S.1.M. STUDY PLAN | 
+
+
+FCT9387: 
+
+
+(S) Copyright IBM 1987 
+A121, 
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 | 
+
+
+tte 
+
+
+“ 
+v 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+IBM Organization 
+
+
+Corporate 
+Office | 
+
+
+Corp. Finance 
+& Planning 
+Staffs 
+
+
+Corporate 
+Operations 
+
+
+Staffs 
+
+
+General 
+Counsel 
+
+
+ROLM Credit Corp 
+
+
+e . 
+- | Information V/S and 
+Systems 
+roup. Group 
+- @ NCMD e CPD e DSD 
+¢ SWMD e ESD ¢ GPD 
+@NDOD 
+® NSD 
+
+
+07/16/875269CTIM 
+(-) Copyright IBM 1987 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 CIA-RDP90G01353R000200180023-0 ~~ 
+
+
+Law & 
+External 
+Relations 
+
+
+e 
+
+
+Americas 
+Group 
+
+
+© Canada 
+® Latin America 
+
+
+Chief 
+Scientist 
+
+
+Research 
+
+
+| Europe 
+Middle East 
+
+
+Africa 
+
+
+* Corporate 
+Business 
+Units 
+
+
+e Japan 
+e Southeast Asia 
+China 
+
+
+*New Zealand 
+
+
+127, 
+
+
+A 
+
+
+tui 
+
+
+tee 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+IBM Organization 
+| | Corporate ; 
+Office 
+
+
+2% 
+
+
+Lew & 
+
+
+Corporate 
+
+
+Corp. Finance 
+& Planning Operations eonejal External 
+Staffs Statts Counsel _ Relations 
+
+
+‘eo 
+
+
+Credit Corp 8% 
+
+
+21% 4% | 9% , 1 3% 
+
+
+e 
+
+
+Chief 
+Scientist 
+e e 
+Corporate 
+
+
+Units 
+
+
+e . 
+Information V/s V/S and 
+ams . Technology Storage pulelices tees x 
+roup Group Group es . 
+e NCMD CPD ° GID *°DSD ° Canada nce 
+sd eae ® ESD °siTD @ GPD © Latin America seauheis Asia 
+©China 
+@ NSD @ Australia 
+eeeene 1986 [/S EXPENDITURES | | New Zealand 
+
+
+(c) Copyright IBM 1987 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 - CIA-RDP90G01353R000200180023-0 _ 
+
+
+INFORMATION SYSTEMS IN. IBN 
+
+
+WORLD ~ WIDE 
+
+
+1h. 
+~1/S PERSONNEL = 6.6 
+(THOUSANDS) - —— 
+INSTALLED INVENTORY 85 
+(MILLION POINTS) | 
+[/S CAPITAL ADDITIONS = i 
+(BILLIONS) | | 
+\/S EXPENDITURES = 
+(BILLIONS) : 
+“OF REVENUE = (ws Ss«* HL 
+peta () een TBM 1987 
+
+
+49) 
+
+
+a2 
+
+
+YOM. 
+
+
+A-—921, _ 
+i bot 
+
+
+601 
+
+
+oe 
+
+
+6.4 
+
+
+29872M 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 CIA-RDP90G01353R000200180023-0 
+
+
+of 
+
+
+| MARKETING 
+
+
+py 
+0 
+
+
+— ‘on 
+
+
+“a 22% 
+NG 
+
+
+20% < | 
+bi eocinen . 
+
+
+Ker 
+
+
+MANUFACTUR| 
+
+
+210873 
+
+
+| Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+L/S PERSONNEL DISTRIBUTION — 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 — 
+
+
+INTERNAL 1/S GROWTH 
+
+
+A121: 
+
+
+1000 
+
+
+900 
+800 
+700 
+
+
+600 | 
+
+
+500 —- 
+1/5 EXPENSE 
+
+
+400 
+
+
+aA Sms OO aoe oOo 
+
+
+my [BM REVENUE 
+
+
+200 
+100 
+
+
+1976 ‘718 80 82 84 "86 
+A127. . (<) Copyright ont ore . _ 
+
+
+- Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0° tt 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 _ 
+
+
+A- 121 
+Hee 
+
+
+1000 
+900 / 1/8 EQUIPMENT 
+800 
+700 
+600 
+500 | | 
+|/S EXPENSE 
+
+
+400 
+
+
+aqq—=Z rani fFOD womans 
+
+
+300 ya . 7 
+| | 7 [BM REVENUE 
+
+
+200 | | 
+1/5. HEADCOUNT 
+
+
+_ ss | 
+1976 = '78 ‘8000 82 84 ‘86 
+
+
+Soe . ) Copyright IBM 1987 
+A-121 : 
+
+
+- Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+“ “-210875M 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+CORPORATE INFORMATION SYSTEMS STRATEGY 
+| IAUTMIZE THE BUSINESS BENEFITS 10 ay 
+OF INFORMATION PROCESSING BY: 
+0 INTEGRATING INFORMATION PROCESSING INTO THE BUSINESS 
+0 MANAGING INFORWAT ON PROCESSING RESOURCES EFFECTIVELY 
+
+
+AND EFFICIENTLY 
+
+
+0 ACTIVELY SEEKING TARGETS OF OPPORTUNITY = 
+
+
+2118708M 
+() Copyright IBM 1987 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+A924 
+
+
+VIEWS OF 1/S_ 
+
+
+|/S = EXPENSE - 
+
+
+o UP IS BAD. 
+o DOWN IS GOOD 
+o ONE-YEAR BUDGET FOCUS 
+
+
+TRADITIONAL: 
+
+
+| HARDWARE = ASSET 
+| REMAINDER = EXPENSE 
+
+
+ACCOUNTING: 
+
+
+o ACCEPTED ACCOUNT ING PROCEDURES 
+0. TAX AND P&L CONSIDERATIONS 
+
+
+‘| 1/S = ASSET : 
+
+
+9 UP-FRONT. INVESTMENT 
+o LONG USEFUL LIFE 
+0 PERIODIC MAINTENANCE 
+
+o REPLACEMENT OR SCRAP 
+
+
+MANAGEMENT PLANNING: 
+
+
+211879CM 
+. () Copyright IBM 1987 . 
+A121 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+| _ Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+| NEEDED 
+
+
+A MANAGEMENT TOOL 
+PS PARIL VASES 
+
+
+DEVELOPMENT OF 
+
+
+\/S INVESTMENT 
+
+
+STRATEGIES 
+
+
+27110M 
+
+
+(<) Copyright IBM 1987 
+
+
+- Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+¢ 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+STRATEGIC INVESTMENT METHODOLOGY 
+
+
+BACKGROUND 
+
+
+0 NOLAN NORTON'S COMPUTER EXECUTIVE SYMPOS!UM 
+
+
+BANK OF AMERICA 
+
+
+DUPONT 
+GENERAL DYNAMICS 
+GENERAL TELEPHONE 
+
+
+0 APPROACH | 
+- IDENTIFY ISSUES 
+
+
+- PROVIDE PRACTICAL TOOLS 
+
+
+0 TOPIC: ECONOMICS OF COMPUTING 
+- DESCRIBE I/S AS AN INVESTMENT 
+
+
+DEVELOP KNOWLEDGE 
+
+
+IBM 
+WERRILL LYNCH 
+
+MORGAN GUARANTEE 
+
+PHILLIPS PETROLEUM 
+
+
+- DEVELOP 1/S INVESTMENT STRATEGIES 
+
+
+ASt2ar 
+
+
+EVALUATE RETURN 
+
+
+(c) Copyright IBM 1987 
+
+
+JLM31 901M 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+A- 121 
+on) 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+| Sh RATEGIC INVESTMENT METHODOLOGY 
+WHAT IS S.1.M? 
+PRACTICAL, SIMPLE TOOL TO HELP SENIOR MANAGEMENT 
+o UNDERSTAND 1/S AS AN INVESTMENT 
+— = NON-TECHNICAL 
+~ MACRO VIEW 
+o RELATE I/S INVESTMENT TO BUSINESS STRATEGIES | 
+0 EVALUATE STRATEGIC IMPACT OF CHANGE 
+“= BUSINESS DIRECTIONS 
+
+
+- [/S RESOURCE ALLOCATION 
+
+
+0 ‘COMMUNICATE WITH 1/S MANAGERS 
+
+
+06/12/875221 USM 
+
+
+is. ey te © Copyright.IBM 1987 
+A- 121 ae a 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 - CIA-RDP90G01353R000200180023-0 
+
+
+A- 121 
+4 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+LSTRATEGIC INVESTMENT. METHODOLOGY 
+
+
+KEY EVENTS 
+
+
+(1984 - METHODOLOGY DEVELOPMENT 
+4985 - PILOT TESTING AND EVALUATION 
+= SIX IBM UNITS 
+
+
+= BENEFITS AND CONSTRAINTS © 
+
+
+1986 - INTERNAL IMPLEMENTATION PROGRAM 
+
+
+= "OPTIONAL USE" APPROACH 
+— $33 SEMINARS, 750 MANAGERS 
+- USED BY 20+ LOCATIONS 
+—- APPLICABLE WHEREVER 
+|/S RESOURCE TRADE-OFFS | 
+» EXPLICIT BUSINESS STRATEGIES 
+- CUSTOMIZED AS APPROPRIATE 
+
+
+1987 - PILOT CUSTOMER PROGRAM 
+
+
+A-121. 
+t 
+
+
+06/12/875221JM6M 
+
+
+() Copyright IBM 1987 
+A- 121 é 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+_. Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+Strategic Investment Methodology 
+
+
+E2052 
+
+
+COSA EAB OO AASNNAASAA 
+
+
+Business 
+otralegies 
+Objectives 
+
+Customer Partnership 
+
+
+Alignment 
+
+
+eoseseconetetorenen es 
+SOCCOCOEOOO. "eo 
+
+
+CAAA AK A / \, 
+POI ‘es 
+SRR REINS 
+
+
+IS 
+Investment 
+
+
+955 
+0.006. Oe 
+0302020005654 
+
+
+segmentation 
+
+
+Nature of l/S Products 
+Users . 
+Types of Resources: 
+
+
+Management Styles 
+
+
+' Product Leadership 
+a Growth 2 
+8 Cfliciency , 
+a Profitablity 
+ae (c) Copyright oe 1987 © 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+A- 121 
+on 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+MEASURING I/S INVESTMENT 
+
+
+» EXTENT. 
+5 «HARDWARE 
+_ SOFTWARE. 
+; PEOPLE 
+
+
+e¢ FACILITIES 
+> SCOPE | 
+: | /S MANAGED 
+
+
+USER MANAGED | 
+° PURCHASED SERVICES 
+
+
+FT¥298716 © 
+
+
+eects (c) Copyright IBM 1987  . 
+A-~121 ; : 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+A~ 121 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+| 
+STRATEGIC 
+INVESTMENT 
+METHODOLOGY — 
+
+
+ry 
+
+
+” MANAGEMENT 
+APPROACH 
+
+
+Venture 
+
+
+feoisAyd 
+
+feula}xq 
+@INJONs|Se UY. 
+S3OYNOSSY 
+
+
+jeuoyNyysu 
+
+
+feuo|ssejolg 
+|aUUOS194 
+apisyig 
+134}0 
+
+
+SONM04LHOd 
+— ABojouyoa| 
+
+
+— Development fa 
+
+
+ff 
+
+
+4 
+
+
+‘DESCRIPTION OF 1/S INVESTMENT 
+72108717 | 
+© ecpyeiant aah 1987 
+
+
+A121 
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+_A~ 121 
+
+
+e 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+FOR EACH 
+
+
+STUDY 
+
+
+USERS: WHO ARE WE INVESTING FOR? 
+0 FUNCTIONAL VIEW | 
+
+
+— DEVELOPMENT 
+
+— MANUFACTURING ° 
+MARKETING | 
+
+SERVICE 
+
+-— SUPPORT FUNCTION 
+
+
+o ADDITIONAL VIEWS 
+| —- JOB CLASSES 
+~- PRODUCT LINE | 
+— MARKET SEGMENT 
+
+
+e) ; 
+0 
+O 
+FCT94871 
+Lee. (<) Copyright IBM 1987 
+A~121 : 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0t* 
+
+
+A- 121 
+
+
+CUSTOMIZED | 
+
+
+F 
+
+
+4 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+PORTFOLIO DEFINITIONS © 
+
+
+e INSTITUTIONAL 
+
+
+AUTOMATE FUNDAMENTAL BUSINESS PROCESSES 
+OF ORGANIZATION | | 
+
+
+e PROFESSIONAL 
+AUTOMATE OR SUPPORT THE INDIVIDUAL 
+OR PROFESSIONAL DISCIPLINES 
+¢ OFFICE SYSTEMS 
+« DECISION SUPPORT SYSTEMS 
+
+
+e PHYSICAL 
+SUBSTITUTE PHYSICAL ACTIVITY WITH 
+TECHNOLOGY 
+
+
+ve EXTERNAL os | 
+DIRECT. INTERFACE WITH NON-EMPLOYEES 
+
+
+PACTS TOUET >: VENDORS,...) 
+
+
+© INFRASTRUCTURE 
+INVESTMENTS AND TECHNOLOGY SHARED BY 
+MULTIPLE PORTFOLIOS , 
+
+
+™2108719 
+
+
+(<) Copyright IBM 1987 
+A-121 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 - CIA-RDP90G01353R000200180023-0 
+
+
+A- 121 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+4 . . . , piece 
+
+
+A- 121 
+
+
+OUTSIDE 
+
+
+RESOURCES 
+
+
+O TECHNOLOGY 
+
+
+PROCESSORS 
+—~ STORAGE 
+—~ WORKSTATIONS 
+—~ NETWORK 
+== MISC, 
+o PEOPLE 
+o OUTSIDE 
+-o OTHER 
+
+
+72108720 
+
+
+ae () Copyright IBM 1987 
+A~121 : in : ; 
+
+
+-Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+é 
+
+
+MANAGEMENT APPROACH 
+
+
+Or cr ¥ 
+
+
+CENTRAL MANAGEMENT OF 
+SHARED RESOURCES 
+
+
+VENTURE 
+
+
+MANAGEMENT OF HIGH RISK, 
+HIGH POTENTIAL EXPERIMENTAL 
+PROJECTS 
+
+
+RETAIL 
+
+
+MANAGEMENT OF WIDE 
+DISTRIBUTION TO USERS OF 
+LOW COST TECHNOLOGY 
+
+
+-2118721A 
+
+
+(c) copyraght IBM 1987 
+A-121 
+| Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA- RDP90G01353R000200180023- 0 | 
+
+
+A- 121 
+
+
+E 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+’ 
+
+
+“MANAGEMENT APPROACH CHARACTERISTICS 
+a ee 
+
+
+UTILITY 
+
+
+STRUCTURED MANAGEMENT SYSTEM 
+
+FORMAL PROCEDURES AND STANDARDS 
+MEASUREMENTS AND CONTROLS 
+
+FOCUS ON EFFICIENCY 
+
+MINIMIZE RISK 
+
+‘mp = TARGET: RELIABLE, LOW COST SERVICE 
+
+
+0 09 0.0 0 
+
+
+VENTURE 
+
+
+o ENTREPRENEURIAL ENVIRONMENT 
+o EXPERIMENTAL IN NATURE ~ 
+o FLEXIBLE MANAGEMENT SYSTEM 
+
+
+° BUDGET. PLANNED 
+
+° FOCUS ON OVERALL EFFECTIVENESS 
+
+oO REASONABLE RISK TAKING . 
+
+ase) TARGET: "PUNCH THROUGH" ... WILL MIGRATE 
+RETAIL 
+
+
+o LOW COST PER UNIT 
+
+° ACCEPTED AS VALUABLE. 
+
+© ACQUISITION CONTROL 
+
+© INDIVIDUALLY MANAGED 
+
+0 CENTRAL SUPPORT/MARKET ING 
+m=) TARGET: MASS PENETRATION 
+
+
+2118721M 
+
+
+oe () Copyright. IBM 1987 
+A- 121 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+A-121 . 
+
+
+s 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+STRATEGIC _ 
+INVESTMENT. 
+METHODOLOGY 
+
+
+MANAGEMEN 
+APPROACH 
+
+
+uti 
+
+
+me) hoes 
+oO =— |U —) 
+
+=] = => =o 
+4 Sis |Z oO o © bp) 
+a 3/2 |% a/s | 
+= Sia jo |S 1s oOo |a 7 x 
+— Sio |p &S | 2 Qa © =O 
+© p iz = a @ = CO 
+(ep) 2 oO — m 
+
+isp) 
+
+
+EHS att 
+
+
+ean i ie 
+ie Service. Coen 
+CP ewer YT 
+
+
+| users | 
+
+
+DESCRIPTION OF \/S INVESTMENT 
+
+
+72108722 
+
+
+© Copyright IBM 1987 
+A~ 121 ; 
+
+
+_ Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA- RDP90G01353R000200180023- 0 
+
+
+A-—121 . 
+
+
+oy 
+
+
+STRATEGIC 
+INVESTMENT — 
+_ METHODOLOGY 
+
+
+MANAGEMENT 
+APPROACH 
+
+
+: 
+2 
+
+
+PRODUCT 
+MANAGEMENT 
+
+
+RESOURCE 
+MANAGEMENT 
+
+
+faUuo|ssejOld 
+9JN}ONSBJju| 
+JaUUOSI8d 
+
+
+So04140d 
+ABiojouyoas 
+
+
+Development 
+Manufacturing 
+
+
+Marketing 
+
+
+ORGANIZATION 
+
+
+MARKET 
+
+
+ANALYSIS STRUCTURE 
+
+
+Service — 
+
+
+Support - 
+
+
+72108723 
+
+
+tke (<) Copyright IBM 1987 
+A- 121 : 
+
+
+— Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+A-121 
+
+
+| + 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+Strategic Investment Methodology 
+
+
+aa IP Pe VF GO C8 
+
+
+“ 
+onasetonatatecsnatetsnnatee cone’ 
+etetalatctetetetetetatetetetcte’ ecto 
+
+
+strategic 
+
+
+v 
+se 
+, 
+2 
+x 
+
+
+\7 
+8 
+. 
+és 
+05 
+
+
+\AAZ 
+BH 
+xX? 
+S25 8 
+SSeS 
+
+
+S50505 
+
+
+5 
+RRR 
+KR 
+
+
+AAA? 
+OCS 
+505 
+eset 
+CxO 
+
+
+Business 
+strategies 
+
+
+Objectives 
+
+
+» Customer Partnership 
+« Product Leadership 
+a Growth | 
+
+
+Ffficiency 
+Profitability = 
+Part 2 
+
+
+FCT61173 
+
+
+o 
+onecenes 
+Os 
+
+
+Ta 
+, 
+OOD? 
+
+
+BAAAAA KD 
+ORR & 
+
+
+ES Alignment Investments 
+
+
+‘Segmentation 
+
+
+a (Users 
+
+
+() Copyright IBM 1987 
+A121 : 
+
+
+Ja Nature of IS Product 
+
+
+la. Types of Resources 
+ja Management Styles 
+
+
+A- 121 
+
+
+9 
+
+
+ Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+» 
+
+
+ALIGNMENT WITH BUSINESS STRATESY 
+
+
+_ _ BUSINESS 
+STRATEGIES 
+
+
+/sS — 
+INVESTMENT | 
+
+
+(Ea 
+
+
+' 723 08724 
+
+
+(c) _ Copyright IBM 1987 | 
+
+
+A~121 
+
+
+- Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+A- 121 
+rood 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 
+
+
+A- 
+Declassified in Part - Sanitized Copy Approved for Relea 
+
+
+2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+STRATEGIC ANALYSIS | 
+
+
+BUSINESS STRATEGIES 
+USER IMPACT 
+PORTFOLIO LEVERAGE 
+
+_ STRATEGIC IMPORTANCE. 
+
+
+PORTFCLICS sum. STRATEGIC 
+
+
+WINN 
+
+
+TARGET 
+~ AREAS 
+
+
+OUMMOC 
+
+
+. PR — eee VEEN | 
+
+
+WINS 
+SASS 
+
+
+M3191 2\W 
+
+
+© Copyright IBM 1987 | 
+
+
+e 2012/07/02 : CIA-RDP90G01353R000200180023-0 | 
+
+
+| 
+| 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+A- 121. 
+
+
+S..M. STRATEGY LINKAGE 
+
+
+STEP 1 - BUSINESS STRATEGIES | 
+=) DESCRIBE AND WEIGHT IMPORTANCE. 
+
+
+5 = MOST 
+1 = LEAST - 
+EXAMPLE a 
+| WEIGHT 
+o GROW BUSINESS VOLUMES _ 3 : a 
+o SUSTAIN PROFITABILITY | 5 
+0 ANTICIPATE DEMAND VARIATIONS - y 
+
+
+o FACILITATE ORGANIZATIONAL FLEXIBILITY 2 | 
+
+
+72108728 
+
+
+() Sonera IBM 1987 
+
+
+-A~427 | 
+fe ‘Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+a 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+A- 121 
+
+
+S.1.M. STRATEGY LINKAGE 
+
+
+STEP 2 - USER IMPACT 
+
+
+0 QUANTIFY IMPACT OF EACH USER 
+
+
+5 = MOST 
+1 = LEAST 
+O = NONE 
+EXAMPLE | 
+_ STRATEGIES 
+
+
+GROWTH | PROFIT | DEMAND | FLEXIB. 
+
+
+USERS 
+
+
+72108727 
+
+
+FINANCE 
+
+
+© Copyright IBM 1987 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+A-~121 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+ws. 
+
+
+S.1.M. STRATEGY LINKAGE 
+
+
+STEP 3 - USERS’ STRATEGIC UNITS 
+
+
+-o MULTIPLY STRATEGY WEIGHT BY 
+CORRESPONDING USER IMPACT 
+
+
+-o ADD UP FOR EACH USER 
+
+
+EXAMPLE 
+
+
+FINANCE 
+
+
+72108728 
+
+
+© - Copyright IBM 1987 
+
+
+A~121 
+
+
+. A-1121 
+
+
+- Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+S.LM. STRATEGY LINKAGE 
+
+
+STEP 4 - PORTFOLIO LEVERAGE 
+> o QUANTIFY LEVERAGE OF EACH 
+PORTFOLIO TYPE FOR EACH USER. 
+
+
+5 = MOST — 
+1 = LEAST 
+. 0 = NOT APPLICABLE 
+“EXAMPLE | 
+PCORTFCLICS 
+
+
+USERS 
+
+
+MARKETING 
+(49) 
+
+
+SERVICE 
+(33) 
+
+
+FINANCE 
+(33) 
+
+
+72108729 
+
+
+co. Copyright IBM 1987 
+A~ 121 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+A- 121 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+S.LM. STRATEGY LINKAGE. 
+
+
+STEP 5A - STRATEGIC IMPORTANCE 
+o MULTIPLY PORTFOLIO LEVERAGES BY 
+
+
+CORRESPONDING USER'S STRATEGIC. 
+UNITS 
+
+
+EXAMPLE 
+
+
+MARKETING 
+
+
+SERVICE 
+
+
+FINANCE 
+
+
+- 72108730 
+
+
+; ar . ©) Copyright IBM 1987 
+“A- 121 
+
+
+-. Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+A- 121 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+S.LM. STRATEGY LINKAGE 
+STEP 5B - STRATEGIC IMPORTANCE 
+
+
+A= 121 
+
+
+-o NORMALIZE STRATEGIC UNITS TO 100% - 
+
+
+EXAMPLE 
+
+
+| MARKETING 7 
+| SERVICE - 
+
+
+FINANCE 
+
+
+72108731 
+
+
+(<) “Copyright IBM 1987 
+
+
+A-.121 
+
+
+- Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+S.LM. STRATEGY LINKAGE _ 
+
+
+STEP 6 — STRATEGIC TARGET AREAS — 
+o DETERMINE CUT-OFF LEVELS 
+o IDENTIFY "GREY CELLS" 
+
+
+TS IS 
+oe 
+
+
+“EXAMPLE © 
+
+
+MARKETING 
+
+
+SERVICE 
+
+
+‘CUT-OFF LEVELS 
+8.0% Rayp * 
+6.0% 
+
+
+72108732 
+
+
+ee, (c) ' Copyright IBM 1987 
+A-~121 ; . 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 — 
+
+
+A-~ 121 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+A121 
+
+
+S..M. STRATEGIC ANALYSIS” 
+CURRENT 1/S INVESTMENT (PERCENT) 
+
+
+EXAMPLE 
+
+
+USERS | 
+na 
+
+
+-| SERVICE 
+
+
+PORTFOLICS 
+
+
+FINANCE 
+
+
+2108725 
+
+
+- | (c) Copyright IBM 1987 
+i : : A-~121 - ; 
+
+
+| Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+S.1.M. STRATEGIC ANALYSIS 
+
+
+CURRENT INVESTMENT IN "GREY CELLS" 
+
+
+EXAMPLE 
+PORTFOLIOS 
+USERS INST | PROF | EXT | INF 
+
+
+MARKETING 
+
+
+74148701 
+
+
+(©) Copyright IBM 1987 
+A- “121 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+A-121 - 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+S.I.M. STRATEGIC ANALYSIS 
+
+
+DELTA MATRIX 
+
+
+o SUBSTRACT STRATEGIC IMPORTANCE — 
+FROM 1/S INVESTMENT. 7 
+
+
+EXAMPLE 
+
+
+fe ee ees 
+INST | are! EXT INF 
+
+
+“MARKETING 
+
+
+' : 
+
+
+FINANCE 
+
+
+72108733 
+(<) Copyright IBM 1987 
+A- 121 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01 353R0002001 80023-0 
+
+
+A-121 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+“A- 121. 
+
+
+S. L M. STRATEGIC ANALYSIS 
+~ CHANGE IN. BUSINESS STRATEGY | 
+
+
+OLD. ew 
+
+
+| WEIGe Ween. 
+0 GROWTH BUSINESS VOLUMES 4 DELETE 
+0 SUSTAIN PROFITABILITY , Se 4 
+0 Gis re VARIATIONS 1 E 
+o ACHIEVE ORGANIZ. FLEXIBILITY 2, 7 DELETE 
+Oo OPERATE AT LEAST COST time _ 2 
+
+
+N 
+
+
+72108734 
+
+
+(<) Copyright IBM 1987 
+A- 121 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA- RDP90G01353R000200180023-0 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+op 
+
+
+A-— 121° 
+
+
+_ SLM. STRATEGIC ANALYSIS 
+
+
+TOO MANIA 
+
+
+INST | PROF 
+
+
+OLD DELTA MATRIX 
+
+
+NEW DELTA MATRIX 
+
+
+INST EXT | INF 
+
+a 
+| | | 
+
+| Service | a ee: 
+a 
+fe fet 
+
+
+2118735M 
+
+
+hace () Copyright IBM 1987 
+
+
+ee Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+eo, 
+
+
+LINKING 1/S INVESTMENTS | 
+AND BUSINESS STRATEGIES 
+
+
+DREAAARARABRLAK EASE AMMA 
+
+
+@ |< | & = 
+B. Ss a : 
+Sif |/s2 = : 
+= ag 
+Development / 
+/ 
+
+
+SO35JM 7M 
+
+
+() Copyright IBM 1987 
+
+
+; A- var . 
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+A- 321 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+* 
+
+
+STRATEGIC INVESTMENT METHODOLOGY STUDY 
+
+
+STEPS TO A S.1.M. STUDY 
+
+
+1. EXECUTIVE COMMITMENT 
+o EXECUTIVE SPONSOR 
+0 «STUDY TEAMS APPOINTED 
+
+
+2. STUDY KICK-OFF. 
+0 11/2 DAY SESSION 
+(0 6S.1.M. TRAINING 
+
+
+ou. Salat, “STUDY 
+o ONE-WEEK PLANNING SESSION 
+0 
+
+
+|/S INVESTMENT STRATEGY 
+
+
+5221M00M 
+
+
+| ©) COAT IDE IBM ooe3 
+A- “421 : 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+A-~ 21: 
+
+
+Oe 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+STRATEGIC 
+
+
+INVESTMENT METHODOLOGY stuDY| 
+
+
+PARTICIPANTS 
+EXECUTIVE TEAM 
+e EXECUTIVE SPONSOR 
+
+
+4 SELECTED FUNCTIONAL EXECUTIVES 
+
+
+PROJECT TEAM 
+
+
+SENIOR MANAGERS 
+
+
+INFORMATION SYSTEMS 
+- FINANCE. 
+. BUSINESS PLANS 
+= KEY USER FUNCT IONS 
+> 1BM MARKETING TEAM 
+
+
+-  S.1.M. SPECIALIST 
+
+
+FCTS1873 
+
+
+(<) Copyzxight IBM 1987 
+A127 at 7 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+A- 121 
+
+
+\e 
+
+
+| _ Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+STRATEGIC INVESTMENT METHODOLOGY STUDY 
+AGENDA: KICK-OFF 
+
+
+HALF-DAY; EXECUTIVE AND PROJECT TEAMS 
+| , INTRODUCTION 
+: Baie OVERVIEW 
+4 CUSTOMER ORGANI ZAT ION/FUNCT IONS 
+
+
+° PRELIMINARY CUSTOMIZATION OF S.I.M. MODEL 
+
+
+ONE DAY: PROJECT TEAM ONLY 
++ DATA REQUIREMENTS 
+“ SOFTWARE "HANDS ON" 
+- PROJECT PLAN | 
+
+
+. «PROJECT TEAM ASSIGNMENTS 
+
+
+FCT64871 
+
+
+| (c) Copyright IBM 1987. 
+~A~ 121 - ; : , 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+“A- 1921 
+
+
+-  Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+S.1.M. STUDY: REQUIRED INFORMATION 
+
+
+a. DATA TO BUILD UP S.1.M. FRAVEWORK: 
+CURRENT TECHNICAL/FINANCIAL DATA 
+
+
+b. BUSINESS STRATEGIES (10 - 15 MAJOR} 
+
+
+/  JLM62971 
+
+
+| (c) Copyright IBM 1987 
+
+
+‘A121 
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 —s 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+oO ee 
+
+
+S.1.M. STRATEGY LINKAGE 
+SIM. STRATEGY LINKAGE 
+
+
+INPUT = MAJOR BUSINESS STRATEGIES 
+
+
+° 
+
+
+"SUPPORTING BUSINESS OBJECTIVE 
++ Aes “OBJECTIVE: WHAT TO ACHIEVE 
+- STRATEGY: HOW TO DO IT 
+
+
+~ DIRECTIONAL IN NATURE 
+
+
+AGREED-UPON BY EXECUTIVES 
+
+
+FORMALLY DOCUMENTED OR NOT 
+
+
+FOCUS ON 10 TO 15 KEY STRATEGIES 
+
+
+- FEWER: TOO BROAD 
+
+
+= MORE: TOO SPECIFIC 
+
+
+FCT91145 
+
+
+() Copyright IBM 1987 
+A~121 
+
+
+A- 121 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 - CIA-RDP90G01353R000200180023-0 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+ome 
+
+
+STRATEGIC INVESTMENT METHODOLOGY STUDY 
+
+
+AGENDA: S.1.M. STUDY 
+
+
+' DAY 1 DATA ANALYSIS AND ALLOCATION 
+DESCRIPTION OF I/S INVESTMENT 
+
+
+DAY 2 LINKAGE TO BUSINESS STRATEGIES x 
+_ ~ STRATEGIC TARGET AREAS Ok 
+DAY 3 ALIGNMENT OF I/S AND BUSINESS STRATEGIES 
+
+
+ANALYSIS OF OPPORTUNITIES 
+
+
+DAY 4 | [/S INVESTMENT STRATEGY 
+RECOMMEND BOTAON PLAN 
+
+
+DAY 5 PREPARATION OF FINAL REPORT | 
+| EXECUTIVE PRESENTATION - * 
+
+
+\ PARTICIPATION: 
+- PROJECT TEAM ALL WEEK 
+
+
+4 = EXECUTIVE TEAM WHERE INDICATED BY x 
+
+
+a. 
+& 
+g 
+
+
+x 
+FCTS1872 
+re 
+
+
+() copyErgne IBM 1987 
+/ A124 
+
+
+Deciagsifiédii in Asai Sanitized Copy Approved for Release 2012/07/02 : CIA- RDP90G01353R000200180023- 0 
+
+
+A~121 . 
+
+
+a 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+a 
+:. @ 
+
+
+FINAL S.1.M. STUDY REPORT 
+
+
+: DESCRIBE CURRENT ENV! RONMENT 
+= V/s RESOURCES 
+~ BUSINESS STRATEGIES 
+2 LINK 1/S TO BUSINESS STRATEGIES 
+
+
+° IDENTIFY OPPORTUNITIES TO IMPROVE STRATEGIC 
+ALIGNMENT 3 
+
+
+- EMPTY STRATEGIC TARGET AREAS : 
+— NON-STRATEGIC INVESTMENTS 
+
+* | RECOMMEND 1/S STRATEGY 
+
+DEVELOP STRATEGIC ACTION PLAN 
+- PROJECTS 
+
+
+= RESOURCES 
+
+
+- SCHEDULES 
+
+
+ -FCTO1144 
+
+
+(c) Copyright IBM 1987 
+A-121 
+Declassified in Part - Sanitized Copy Kibived for Release Sada: CIA-RDP90G01353R000200180023-0 
+
+
+A-121 . 
+
+
+¥ 
+
+
+a 
+
+
+ys 2? 
+
+
+STRATEGIC INVESTMENT METHODOLOGY 
+
+
+HELPS SENIOR MANAGEMENT: 
+
+
+» UNDERSTAND 1/S AS AN INVESTMENT 
+~ NON-TECHNICAL 
+
+
+— MACRO VIEW | 
+
+
+» RELATE 1/S INVESTMENT TO BUSINESS DIRECTIONS 
+RECOGNIZE OMISSION/ALIGNMENT PROBLEMS 
+
+
+> EVALUATE STRATEGIC IMPACT OF us RESOURCE 
+ALLOCATIONS 
+
+
+74148702 
+
+
+() Copyright IBM.1987 
+A~121 
+
+
+_. Declassified in Part - - Sanitized Copy Approved for Release 2012/07/02 : CIA- RDP90G01353R000200180023- 0 
+
+
+Declassified in Part - Sanitized Copy Approved for Release 2012/07/02 : CIA-RDP90G01353R000200180023-0 
+
+
+Wd 
+
+
+a art 
+
+

@@ -1,0 +1,28 @@
+{
+ "cik": "0000049071",
+ "requested_cik": "49071",
+ "registrant": "HUMANA INC",
+ "ticker": "HUM",
+ "tickers": [
+  "HUM"
+ ],
+ "former_names": [],
+ "company_dir": "company_034_humana",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['humana'] match registrant 'HUMANA INC' (CIK 0000049071)"
+ ],
+ "built": "2026-09-29T19:01:52Z",
+ "count": 3466,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 311,
+ "csv_sha1": "d6676226bc18e43ae8724d83a0552beb816307a9",
+ "csv_bytes": 305929,
+ "paths": {
+  "json": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_034_humana\\sources\\_index\\submissions_CIK0000049071.json",
+  "csv": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_034_humana\\sources\\_index\\submissions_CIK0000049071.csv",
+  "md": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_034_humana\\sources\\_index\\_INDEX_CIK0000049071.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

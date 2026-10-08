@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0001090727/000094018099001230/0000940180-99-001230.txt",
+ "fetched": "2026-09-29T19:07:41Z",
+ "sha1": "5bfb7c813e140a48c7fd051fbb4d034027710407",
+ "bytes": 463267,
+ "words": 57706,
+ "cik": "0001090727",
+ "registrant": "UNITED PARCEL SERVICE INC",
+ "accession": "0000940180-99-001230",
+ "document": "0000940180-99-001230.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": true
+}

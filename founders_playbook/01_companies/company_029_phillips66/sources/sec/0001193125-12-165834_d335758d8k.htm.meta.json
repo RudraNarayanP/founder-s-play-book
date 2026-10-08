@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0001534701/000119312512165834/d335758d8k.htm",
+ "fetched": "2026-10-06T11:48:33Z",
+ "sha1": "efd727da670915e7315445c8d436fba83b15f555",
+ "bytes": 20346,
+ "words": 981,
+ "cik": "0001534701",
+ "registrant": "Phillips 66",
+ "accession": "0001193125-12-165834",
+ "document": "d335758d8k.htm",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000732717/000073271705000038/dec8k.htm",
+ "fetched": "2026-10-06T11:57:32Z",
+ "sha1": "61c20d7253d4a7ba836cc670b474b6d1d3f4cb94",
+ "bytes": 10537,
+ "words": 354,
+ "cik": "0000732717",
+ "registrant": "AT&T INC.",
+ "accession": "0000732717-05-000038",
+ "document": "dec8k.htm",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

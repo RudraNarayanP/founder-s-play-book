@@ -1,0 +1,3256 @@
+NASA CONTRACTOR 
+REPORT 
+
+
+r««» 
+
+CO 
+
+CO 
+
+CVI 
+
+I 
+
+oc 
+
+
+<s. 
+
+<✓> 
+
+
+<£ 
+
+
+
+FLIGHT TEST DATA 
+FOR A CESSNA CARDINAL 
+
+by David L. Kohlman 
+
+
+Prepared by 
+
+THE UNIVERSITY OF KANSAS CENTER FOR RESEARCH, INC. 
+
+Lawrence, Kansas 
+
+for Langley Research Center 
+
+
+A CR-2337 
+
+
+NATIONAL AERONAUTICS AND SPACE ADMINISTRATION • WASHINGTON, D. C. • JANUARY 1974 
+
+
+
+1. Report No. 2. Government Accession No. 
+
+NASA CR-2337 
+
+3. Recipient's Catalog No. 
+
+4. Title and Subtitle 
+
+FLIGHT TEST DATA FOR A CESSNA CARDINAL 
+
+5. Report Date 
+
+JANUARY 1974 
+
+6. Performing Organization Code 
+
+7. Author(s) 
+
+David L. Kohlman 
+
+8. Performing Organization Report No. 
+
+FRL 72-001 
+
+10. Work Unit No. 
+
+736-60-01 
+
+9. Performing Organization Name and Address 
+
+University of Kansas 
+Lawrence, Kansas 
+
+11. Contract or Grant No. 
+
+NGR 17-002-072 
+
+13. Type of Report and Period Covered 
+
+Contractor Report 
+
+12. Sponsoring Agency Name and Address 
+
+National Aeronautics and Space Administration 
+Washington, DX, 2Q5A6 1 
+
+14. Sponsoring Agency Code 
+
+15. Supplementary Notes 
+
+This is a topical report. 
+
+16. Abstract 
+
+
+This report contains the results of a flight test analysis of the performance of 
+a standard Cessna 177B Cardinal airplane. The airplane was fully instrumented to 
+
+OBTAIN STEADY STATE PERFORMANCE, STICK-FIXED DYNAMIC STABILITY CHARACTERISTICS, AND 
+ROLL RESPONSE DATA. RESULTS OBTAINED INCLUDE GRAPHS OF Cl VERSUS “, Cp VERSUS Cl, 
+
+AND SPEED-POWER RELATIONSHIPS. DYNAMIC DATA INCLUDE PHUGOID AND DUTCH ROLL CHARACTER- 
+ISTICS, AND ROLL RESPONSE CHARACTERISTICS. 
+
+
+17. Key Words (Suggested by Author(s)) 
+
+High-wing light plane 
+Performance 
+Stability and control 
+
+
+18. Distribution Statement 
+
+UNCLASSIFIED - UNLIMITED 
+
+
+19. Security Classif. (of this report) 
+
+20. Security Classif. (of this page) 
+
+21. No. of Pages 
+
+22. Price* 
+
+Unclassified 
+
+UNCLASSIFIED 
+
+34 
+
+$3.00 
+
+
+For sale by the National Technical Information Service, Springfield, Virginia 22151 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TABLE OF CONTENTS 
+
+
+Title Page 
+
+Nomenclature 1 
+
+Summary 2 
+
+Introduction 2 
+
+Instrumentation System 2 
+
+Lift and Drag Characteristics 5 
+
+Trim Characteristics 18 
+
+Roll Performance 18 
+
+Longitudinal Dynamic Characteristics 24 
+
+Dutch Roll Characteristics 26 
+
+Stall Performance 26 
+
+References 26 
+
+Appendix 30 
+
+
+iii 
+
+
+
+NOMENCLATURE 
+
+
+Symbol 
+
+a 
+
+6 
+
+a 
+
+p o 
+
+6 flap 
+
+stab 
+
+AR 
+
+CAS 
+
+C d 
+
+P 
+
+C L 
+
+C D 
+
+e 
+
+R/C 
+
+S 
+
+w 
+
+THP 
+
+THP 
+
+e 
+
+V 
+
+e 
+
+W 
+
+
+Definition 
+
+Airplane Angle of Attack 
+Sideslip Angle 
+Density Ratio, p/p 
+
+o 
+
+Standard Sea Level Density 
+
+Dutch Roll Damping Ratio 
+
+Flap Deflection 
+
+Stabilizer Deflection 
+
+Aspect Ratio 
+
+Calibrated Airspeed 
+
+Zero Lift Drag Coefficient 
+
+Airplane Lift Coefficient 
+
+Airplane Drag Coefficient 
+
+Induced Drag Efficiency Factor 
+
+Rate of Climb 
+
+Wing Area 
+
+Thrust Horsepower 
+
+Equivalent Thrust Horsepower 
+
+Equivalent Velocity 
+
+Gross Weight 
+
+
+Units 
+
+
+Deg. 
+
+Deg. 
+
+
+0.002378 Slugs/Ft 
+
+
+Deg. 
+
+Deg. 
+
+
+MPH 
+
+
+Ft /Min 
+Ft 2 
+
+Horsepower 
+
+Horsepower 
+
+MPH 
+
+Lbs. 
+
+
+
+SUMMARY 
+
+
+This report contains the results of a flight test analysis of the perfor- 
+mance of a standard Cessna 177B Cardinal airplane. The airplane was fully in- 
+strumented to obtain steady state performance, stick-fixed dynamic stability 
+characteristics, and roll response data. Results obtained include graphs of 
+C L versus a, C^ versus C^, and speed-power relationships. Dynamic data include 
+phugoid and dutch roll characteristics, and roll response characteristics. Flight 
+test data agree quite well with handbook cruise data for the production airplane. 
+
+INTRODUCTION 
+
+In July, 1970, a Cessna 177B Cardinal airplane was donated to the Flight 
+Research Laboratory of the University of Kansas Center for Research, Inc. by 
+the Cessna Aircraft Company. This airplane, N1910F, serial number 17700002, 
+was the second Cardinal manufactured, and was subsequently modified for use 
+as a 1970 model prototype. Aerodynamically , it is almost identical to a pro- 
+duction 1970 Cardinal, and it has the same type of engine. The only external 
+differences are the presence of an instrumentation boom on each wing tip and a 
+slight permanent deformation of the wings- due to a previous structural integrity test. 
+
+The purpose of the tests reported herein is to provide a set of base data 
+on the Cardinal to compare with the performance of the same airplane after 
+advanced technology wings have been installed. The new wings were designed 
+and manufactured as a part of a program to investigate aerodynamic improve- 
+ments in the design of light aircraft. The program is being conducted under 
+NASA Grant NGR 17-002-072 by the staff of the Flight Research Laboratory. 
+
+Results of flight tests of the modified Cardinal will be reported in a 
+subsequent document. 
+
+INSTRUMENTATION SYSTEM 
+
+The instrumentation system was designed, fabricated, installed, and 
+calibrated by the Cessna Aircraft Company according to specifications of 
+the Flight Research Laboratory. The instrumentation was designed as a 
+
+2 
+
+
+
+complete unit module to facilitate easy installation and removal. It con- 
+sists of a baseplate on which is mounted an oscillograph, attitude gyro, 
+static inverter, signal conditioning box, accelerometer, airspeed-altitude 
+recorder, intervalometer , and 24-volt batteries. The signal conditioning 
+box provides bias and balance controls for the transducer outputs. 
+
+The control surface transducers (linear potentiometers) are connected 
+directly to the surfaces to eliminate the effect of cable stretch. 
+
+The airspeed transducer consists of a swivel-head airspeed boom on the 
+left wing tip and a differential pressure transducer. Sideslip and angle of 
+attack are measured by vanes mounted on a boom on the right wing tip and 
+attached to precision potentiometers. 
+
+Manifold pressure is sensed by an absolute pressure transducer connected 
+with the existing indicator plumbing. Engine speed is measured with a mag- 
+netic sensor. 
+
+Photographs of the instrumentation module and wing tip booms are shown 
+in Figures 1, 2,- and 3, Table I lists the parameters which are recorded 
+on film strips in the two recorders. 
+
+Table I Measured Parameters and Design Specifications for 
+
+
+Cardinal 
+
+Instrumentation System 
+
+
+Variable 
+
+Range 
+
+Accuracy 
+
+Airspeed, V 
+
+40 - 170 mph 
+
+± 1 % 
+
+Altitude, h 
+
+0-10,000 ft. 
+
+± 1 % 
+
+Angle of attack, a 
+
+-4° - +20° 
+
+± 0.5° 
+
+Sideslip, g 
+
+-15° - +15° 
+
+± 0.5° 
+
+Pitch angle, 0 
+
+-15° - +15° 
+
+± 0.5° 
+
+Roll angle, <j> 
+
+-75° - +75° 
+
+± 0.5° 
+
+Rudder deflection, 6 
+
+r 
+
+-24° - +24° 
+
+± 0.5° 
+
+Stabilator deflection, 5 
+
+e 
+
+-20° - + 5° 
+
+± 0.5° 
+
+Right aileron deflection, 6 
+
+K 
+
+-20° - +20° 
+
+± 0.5° 
+
+Left aileron deflection, <5^ 
+
+-20° - +20° 
+
+± 0.5° 
+
+Normal load factor, n 
+
+z 
+
+- 1 - + 3 
+
+± 0.01 
+
+Engine speed, RPM 
+
+500 - 2800 
+
+± 1 % 
+
+Manifold pressure, p^ 
+
+5-30 in. Hg 
+
+± 1 % 
+
+
+
+
+Figure 1 
+Cardinal Data 
+Sensing and Recording 
+Instrumentation System 
+
+
+
+Figure 2 
+Angle of Attack 
+and Sideslip Vanes, 
+Right Wingtip Boom 
+
+
+
+Figure 3 
+
+Weathervaning Pitot- 
+Static Tube, Left 
+Wingtip Boom 
+
+
+4 
+
+
+
+LIFT AND DRAG CHARACTERISTICS 
+
+
+The lift and drag characteristics of the Cardinal were determined from 
+
+I 
+
+a series of steady, level flight data points conducted at two altitudes, 2500 
+ft. and 7500 ft. MSL pressure altitude. Two different center of gravity lo- 
+cations were tested. 
+
+Engine brake horsepower was determined from engine manifold pressure, 
+rpm, pressure altitude, ambient temperature, and the power chart supplied by 
+the engine manufacturer. The power predicted from the engine chart was then 
+reduced by 5% to account for losses from inlet temperature rise and miscellaneous 
+losses . 
+
+Thrust horsepower was determined from brake horsepower, propeller rpm, air 
+density, true airspeed and propeller performance charts. The actual calculations 
+were performed with the aid of a computer program supplied by Cessna Aircraft 
+Company. The program output consists of propeller efficiency, horsepower, and 
+thrust. 
+
+Lift and drag were determined by the following equations: 
+
+D = T cose (1) 
+
+L = W - T sin0 
+
+Weight was determined for each point by plotting the approximate fuel 
+consumed versus time using the known fuel consumption characteristics and approx- 
+imate power settings, and the initial and final weight of the airplane. 
+
+
+Drag characteristics were determined as follows. As shown in Reference 1, 
+
+thrust horsepower may be expressed in the following manner: 
+
+C 3 o 
+
+r -, d p S V T7 2 
+
+a - — E — °— w . e + (2) 
+
+1100 275TreARp S V 
+
+owe 
+
+‘ \ + + ** (3) 
+
+o w 
+
+
+Thus if THP (V ) is plotted as a function of V , a normal drag polar 
+e e e 
+
+will appear as a straight line, and C, and e can be determined from the slope. 
+
+
+5 
+
+
+
+and intercept, K 2 of the line. (Note that is converted to ft/sec in 
+
+
+Equations 4 and 5) 
+
+
+_ Kl 348.4 
+
+a p S 
+p o w 
+
+
+(4) 
+
+
+w 
+
+
+403 . 4irARp S K 2 ■ 
+o w ^ 
+
+
+(5) 
+
+
+Data from flights 5, 7, 9, 10, 11 and 13 were plotted in Figures 4 
+
+through 9. A straight line approximation was drawn using the least squares 
+
+method. An average slope and intercept for all flights were then computed to 
+
+determine and e for both the clean and full flap configurations. 
+
+P 
+
+The Cessna 177 Handbook cruise performance was developed by Cessna from 
+their flight test data. For comparison, the specified altitude, manifold 
+pressure, rpm, and airspeed in the Handbook were treated as flight test data 
+and THP^ was obtained in the same manner as all other flight test data in 
+
+this report. The resulting Handbook points are plotted in Figure 10 along 
+
+with data from flights 9, 10 and 13, converted to a 2500 lb. gross weight. 
+
+The agreement is very close. 
+
+Table II. shows a comparison of e and C^ calculated from flight test 
+
+P 
+
+data for Cardinal N1910F and the Handbook data. 
+
+
+Table II Drag Characteristics Determined 
+
+From Flight 
+
+Test 
+
+and Handbook Data 
+
+C d 
+
+P 
+
+e 
+
+Handbook - Clean 
+
+0.0258 
+
+0.564 
+
+Flight Test - Clean 
+
+0.0267 
+
+0.564 
+
+Flight Test - Full Flaps 
+
+0.0462 
+
+0.545 
+
+
+Clearly the agreement is quite good for the clean airplane. As might be 
+expected, the induced drag efficiency factor, e, is identical, but the zero 
+lift drag of the test airplane is slightly higher than indicated in the 
+
+
+
+F=IG . -4- — STEAPf SsTATEr 
+PeWFORMAKCE ~ PUGiMT 
+
+
+7 
+
+
+
+
+
+
+FUS . S> - STEAOr' STATE 
+FtHPORMAMCE - FUSHT T 
+
+8 
+
+
+o\ x) 
+
+
+
+
+
+
+12.0 
+
+
+
+PIS. . Os ~ SVGADV TTTATer 
+P>eRPOG2NAA.VJ C.E. ~ PUSWT <? 
+
+
+9 
+
+
+
+
+
+
+
+10 
+
+
+<PeR.5=OS3 AWCE 
+
+
+PUVGxWT VO 
+
+
+
+
+»a.o 
+
+
+
+PIS* . S ~ STE^DV STAT6 
+PGRFORMASC£ ~ PUGWT l l 
+
+
+11 
+
+
+
+
+
+
+
+PIG. <9 ~ G-TEADV STATE 
+PGRPORMAVOCE ~ FUSHT \3 
+
+
+
+
+
+
+
+X=\Ga. IO ~ OOMPAP'SOKl OP 
+t=v_\e»wrr -test awd h^nd boc< 
+
+CRU»«t P=E.RF50RN/\A»s»C.& 
+
+
+13 
+
+
+
+
+
+Handbook. However, the test airplane had instrumentation booms on each wing and 
+was not in the brand new condition of the airplanes used for the Handbook data. 
+Furthermore, the wings on the test airplane had a slight permanent deformation due 
+to a previous structural integrity test. 
+
+The full flaps configuration increased substantially and reduced e 
+
+P 
+
+slightly, as would be expected. 
+
+The final averaged drag polar and horsepower-velocity curves for the test 
+Cardinal are presented in Figures 11 and 12. These will be the basis of compari- 
+son with the modified Cardinal. Note that in the clean configuration the maxi- 
+mum lift to drag ratio is L/^ = 11.0. 
+
+max 
+
+As a further check on the data recorded and the accuracy of the thrust 
+horsepower program, the maximum rate-of-climb and corresponding airspeed were 
+calculated using the curve in Figure 12 for two altitudes. The results are shown 
+in Table III. The computed rates of climb are slightly lower than Handbook values 
+because of the higher zero lift drag coefficient, and the speed for maximum 
+rate-of-climb is in perfect agreement. 
+
+Table III Cardinal Climb Performance 
+
+
+Altitude 
+
+
+
+Computed From 
+Fit. Test Data 
+
+Cardinal 
+
+Handbook 
+
+2500 Ft. 
+
+Max. 
+
+R/C 
+
+706 Ft/Min 
+
+712 Ft/Min 
+
+
+Best 
+
+R/C Speed V g 
+
+90 MPH 
+
+90 MPH 
+
+7500 Ft. 
+
+Max. 
+
+R/C 
+
+416 Ft/Min 
+
+457 Ft/Min 
+
+
+Best 
+
+R/C Speed V 
+
+85 MPH 
+
+85.5 MPH 
+
+Note 
+
+that 
+
+the computed 
+
+maximum airspeed at 2500 ft. 
+
+and 7500 ft. are 
+
+
+146.5 mph and 130 mph CAS respectively. These are very close to observed 
+values. 
+
+Figure 13 is a plot of lift versus angle of attack for the clean and 
+full flaps configurations. The data is in good agreement except for the low 
+C^ data of flight 13 which showed a consistent deviation for which no expla- 
+
+
+
+
+FIG. II ~ FUGHT TE.ST 
+DRAG POUARS 
+
+
+15 
+
+
+
+
+EQUIVALENT THRUST l-ORS&FDW&R — TVtP> 
+
+
+
+16 
+
+
+RIG. 12 —PLIGHT TEST FCW5R 
+RQSlUIREO G.VAO AVA.M-A.BV-'er 
+
+
+
+
+
+
+
+»=■!<=>. — CARDIMAL TRIMMED 
+
+V_\ Cl_lPS's/E5> 
+
+17 
+
+
+
+
+nation could be found. 
+
+
+The trimmed lift curve slopes are as follows: 
+
+Clean C = 0.0582 per deg. 
+
+Li 
+
+a 
+
+Full Flaps C = 0.0651 per deg. 
+
+Li 
+
+a 
+
+The shift in angle of attack caused by full flap deflection at constant 
+C is approximately 7.5° at C T = 0.6. 
+
+TRIM CHARACTERISTICS 
+
+Horizontal stabilizer angle as a function of airspeed was measured. The 
+results are shown in Figures 14 and 15 for the clean and full flaps con- 
+figurations. The stick-fixed speed stability is positive over the entire 
+speed range but decreases with the flaps down. As expected, there is a linear 
+relationship between 6 gt and C L * While the stability decreases with an aft 
+shift in center of gravity, the difference was not large enough to extrapolate 
+to the neutral point with acceptable accuracy. 
+
+Stability derivatives obtained from the data were as follows: 
+
+Clean C L = - 0.126 deg -1 
+
+5 stab _ CG = 19% MAC 
+
+Full Flaps C T = - 0.235 deg 1 
+
+L 6 , 
+stab 
+
+ROLL PERFORMANCE 
+
+Roll data were obtained by two methods. In the first, the airplane was 
+stabilized in level flight. The ailerons were then given a full deflection 
+as rapidly as possible and held until the roll angle reached 60°. The rudder 
+pedals were held fixed. Data were recorded for two airspeeds, 80 mph and 
+120 mph CAS. In the second, the airplane was rolled past a bank angle of 
+45° , then rolled with full aileron deflection through an opposite bank angle 
+of 45°. Rudder pedals were held fixed and the initial airspeed was 120 mph CAS. 
+
+The data are summarized in Table IV. In addition, Figures 16 and 17 
+show time histories of rolls from 0° through 30° for 80 mph and 120 mph CAS. 
+
+
+
+
+. \A- ~ STAB^UZER 
+TRIM DACV A. 
+
+
+19 
+
+
+L_i5=r 
+
+
+
+^>TAe>U_\ 2 &R 
+
+
+a 
+
+
+
+<£0 80 IOO 1 20 140 
+
+BOUIVAUEMT VELOCITY — - V e (mPL\) 
+
+KiOTt 1 
+
+
+'■ O PUSHT <5 • ca = \A- MAC. 
+
+□ R_\eaMrr io ; ca = 1*9 ji mac. 
+
+A FLIGHT 13 ; CO = 19% MAO 
+
+2 . • = 20 oo PEET 
+
+\ = 7500 peer- 
+
+
+20 
+
+
+PVCO ■OPGEO “sTABU-VVY AMO 
+
+WAaiLIZER TRIM 
+
+
+
+Table IV Summary of Roll Data - Flight 
+
+
+J3\>~ 
+
+pjcvj 
+
+
+X 
+
+
+vO 
+
+vO 
+
+i — I 
+
+OO 
+
+ON 
+
+m 
+
+ON 
+
+m 
+
+o 
+
+
+ON 
+
+ON 
+
+m 
+
+CM 
+
+o 
+
+m 
+
+o 
+
+ON 
+
+CO 
+
+ON 
+
+00 
+
+00 
+
+co 
+
+00 
+
+ON 
+
+ON 
+
+ON 
+
+CO 
+
+ON 
+
+co 
+
+O 
+
+o 
+
+o 
+
+o 
+
+o 
+
+o 
+
+o 
+
+o 
+
+o 
+
+o 
+
+o 
+
+o 
+
+o 
+
+d 
+
+o 
+
+d 
+
+o 
+
+d 
+
+o 
+
+o 
+
+CJ 
+
+a 
+
+
+
+
+
+
+
+
+
+w 
+
+w 
+
+
+
+
+
+
+
+
+
+CO 
+
+CO 
+
+
+
+
+
+
+
+
+
+\ 
+
+•"-s. 
+
+
+
+
+
+
+
+
+
+o 
+
+o 
+
+
+
+
+
+
+
+
+
+vo 
+
+r- 
+
+m 
+
+m 
+
+1 — 1 
+
+rH 
+
+o 
+
+i — i 
+
+CM 
+
+co 
+
+i — ! 
+
+rH 
+
+rH 
+
+rH 
+
+rH 
+
+rH 
+
+rH 
+
+rH 
+
+i — 1 
+
+I — 1 
+
+f 
+
+1 
+
++ 
+
++ 
+
+1 
+
+1 
+
++ 
+
++ 
+
+1 
+
++ 
+
+
+o 
+
+co 
+
+II 
+
+cq -ei 
+
+
+vO 
+
+o 
+
+o 
+
+o 
+
+O 
+
+o 
+
+oo 
+
+o 
+
+CM 
+
+CO 
+
+O 
+
+
+in 
+
+• 
+
+• 
+
+t — 1 
+
+CM 
+
+rH 
+
+CM 
+
+CM 
+
+CM 
+
+
+00 
+
+rH 
+
+i — 1 
+
+1 
+
+1 
+
++ 
+
++ 
+
+1 
+
+1 
+
++ 
+
++ 
+
+o 
+
+m 
+
+
+o 
+
+0 
+
+0 
+
+o 
+
+in 
+
+0 
+
+in 
+
+0 
+
+« 
+
+
+rH 
+
+ON 
+
+CO 
+
+• 
+
+• 
+
+CO 
+
+00 
+
+1 
+
+| 
+
+rH 
+
++ 
+
++ 
+
+1 
+
+CO 
+
+1 
+
+CO 
+
++ 
+
++ 
+
+
+o 
+
+w 
+
+CO 
+
+
+on cr» 
+
+
+LO in 
+
+co co 
+I l 
+
+
+hT rO 
+co co 
++ + 
+
+
+<r <r 
+uo m 
+
+i I 
+
+
+mj- co 
+in in 
++ + 
+
+
+co co 
+
+m m 
+
+I + 
+
+
+0 
+
+■u 
+
+o 
+
+a) o 
+
+0 
+W 
+w 
+
+1 1 
+
+CM 
+
+CM 
+
+CO 
+
+CO 
+
+o 
+
+•<r 
+
+o 
+
+6 m 
+
+
+o 
+
+rH 
+
+O 
+
+r-' 
+
+
+
+
+-H II 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+H -ej 
+
+»H 
+
+rH 
+
+rH 
+
+rH 
+
+o 
+
+o 
+
+o 
+
+O 
+
+
+cu , 
+a) V) | 
+P* <tf| 
+w 
+p 
+
+
+O 
+
+oo 
+
+
+o 
+
+00 
+
+
+o 
+
+00 
+
+
+o 
+
+00 
+
+
+o 
+
+(N 
+
+rH 
+
+
+o 
+
+CM 
+
+rH 
+
+
+o 
+
+CM 
+
+
+o 
+
+CM 
+
+
+O 
+
+CM 
+
+
+O 
+
+CM 
+
+
+O 
+
+o 
+
+o 
+
+st 
+
+
+o o o 
+
+o o o 
+
+O iH *H 
+
+<r hj- mt 
+
+
+o o 
+
+o o 
+
+o o 
+
+<J- MT 
+
+
+P 
+
+o 
+
+•rH 
+
+
+
+■u 
+
+u 
+
+
+
+U 
+
+U 
+
+o 
+
+in 
+
+<r 
+
+pi 
+
+o 
+
+in 
+
+U 
+
+
+■M 
+
+42 
+
+42 
+
+U 
+
+■w 
+
+42 
+
+rG 
+
+o 
+
+o 
+
+O 
+
+* 4 H 
+
+4 H 
+
+00 
+
+00 
+
+UH 
+
+MH 
+
+OO 
+
+00 
+
+4 H 
+
+4 J 
+
+(U 
+
+a) 
+
+a> 
+
+•H 
+
+•rl 
+
+0 ) 
+
+Q) 
+
+•H 
+
+•H 
+
+Pi 
+
+.-2 
+
+U 
+
+•H 
+
+P) 
+
+
+
+
+
+
+
+Pi 
+
+p i 
+
+0 
+
+in 
+
+o 
+
+n 
+
+
+C • 
+*H O 
+
+o 2; 
+
+Ph 
+
+
+uo vo 
+
+
+oo on 
+
+
+21 
+
+
+
+
+I 2 2> A 5> €> 
+
+TIME- (SEC) 
+
+
+cwa . \<o ~ \_OW SOU. T1M6 W-USSrcSW-r' 
+
+
+22 
+
+
+
+
+
+Note that there are two roll criteria used in handling quality specifi- 
+
+1 
+
+cations, time to <f> = 30° and steady state helix angle, pb/2V. For light 
+aircraft, the normally specified criteria are: time to roll to 30° should 
+
+be less than 1.0 sec. as a desirable level, with the minimum acceptable 
+level being a roll to 30° in 2.0 seconds or less (Reference 2); roll helix 
+angle, pb/2V should be greater than 0.07. 
+
+At low speed, the time to roll to 30° is just slightly above the minimum 
+desirable level. At high speed, this criteria is easily met. The pb/2V cri- 
+terion is satisfied easily at all speeds. 
+
+At low speed the average maximum roll rate is 34. 8° /sec. At high speed, 
+the average maximum roll rate is 54.5°/sec. There is good agreement in the 
+steady state roll rates achieved in the 0° to 30° rolls and the 45° to 45° 
+roll maneuvers. 
+
+Also of interest is the amount of adverse yaw generated by aileron inputs. 
+
+As shown in Table IV, at low speed the slideslip angle ranges from 8.5° to 11° 
+
+at <j> = 30° with sideslip rates exceeding 15° /sec. At high speed the side- 
+slip magnitude is reduced because of the higher roll rate, but sideslip rates 
+are approximately ll°/sec. During the recovery maneuver the sideslip angle 
+increased to over 20° at low speed. As can be seen in Figures 16 and 17, 
+
+the large sideslip angle caused some rudder deflection due to cable stretching, 
+
+even though the rudder pedals were held fixed. 
+
+LONGITUDINAL DYNAMIC CHARACTERISTICS 
+
+Longitudinal dynamic data were taken in the following manner. The air- 
+plane was stabilized and trimmed in level flight. The elevator was deflected 
+to provide a longitudinal disturbance, then returned to the original trimmed 
+position. The resulting phugoid mode was then allowed to oscillate through 
+several cycles. Lateral inputs were made as required to keep the wings level. 
+
+The results are summarized in Table V. Frequency and damping ratios 
+
+
+24 
+
+
+
+Table V Phugoid Mode Characteristics of the Cardinal 
+
+
+9! 
+
+
+o 
+
+
+•H 
+
+P0 
+
+U 
+
+! <d o 
+
+■H 
+
+i H W 
+
+X) 
+
+03 Q 
+
+G 
+
+to 
+
+O 
+
+
+o 
+
+
+
+CNJ 
+
+I 
+
+
+m 
+
+CN 
+
+
+O 
+3 W 
+Q 
+
+
+vO 
+
+vO 
+
+
+vO 
+
+vO 
+
+
+00 
+
+o 
+
+
+o 
+
+o 
+
+
+03 
+
+
+CO 
+
+O 
+
+ON 
+
+PO 
+
+\D 
+
+vO 
+
+vo 
+
+m 
+
+h 4 
+
+
+
+m 
+
+<T 
+
+V ✓ 
+
+CN 
+
+CN 
+
+CN 
+
+CN 
+
+
+s~\\ 
+
+Os 
+
+Os 
+
+Os 
+
+ON 
+
+u 
+
+Os 
+
+Os 
+
+Os 
+
+ON 
+
+
+
+
+
+
+
+00 
+
+00 
+
+00 
+
+00 
+
+5^2 
+
+rH 
+
+r-H 
+
+r-H 
+
+r-H 
+
+
+XI 
+
+d) \ 
+
+a) pa 
+
+(x pm 
+
+W g 
+
+
+o 
+
+00 
+
+
+o 
+
+00 
+
+
+o 
+
+CO 
+
+
+o 
+
+00 
+
+
+00 
+
+G O 
+
+•H *H 
+
+Q, 4-t 
+
+S Ctf 
+cd pci 
+Q 
+
+
+vO 
+
+O 
+
+o 
+
+
+o 
+
+o 
+
+
+m 
+
+<r 
+
+o 
+
+o 
+
+
+•<r 
+
+o 
+
+o 
+
+
+O 
+• W 
+cr 03 
+
+o 
+
+r-*. 
+
+ON 
+
+
+QJ ^ 
+
+CO 
+
+in 
+
+co 
+
+CN 
+
+U Q 
+
+cO 
+
+co 
+
+co 
+
+CO 
+
+Pm 
+
+• 
+
+• 
+
+• 
+
+• 
+
+pci 
+
+o 
+
+o 
+
+o 
+
+o 
+
+
+o o 
+
+o 
+
+VO 
+
+m 
+
+
+•h pj 
+
+• 
+
+• 
+
+• 
+
+• 
+
+M 03 
+
+ON 
+
+r^- 
+
+oo 
+
+ON 
+
+a) w 
+PM 
+
+1 — 1 
+
+r-H 
+
+T— 1 
+
+i - 1 
+
+
+c 
+
+o 
+
+PM -H 
+(d -u 
+
+P-< (n 
+
+o 
+
+PM 
+
+
+o 
+
+o 
+
+
+o 
+
+o 
+
+
+o 
+
+O 
+
+m 
+
+
+o 
+
+O 
+
+CO 
+
+
+C 
+
+D 
+
+cci 
+
+
+6 
+
+!z 
+
+
+oo on o 
+
+t-H i — I r-H CN 
+
+
+25 
+
+
+
+were determined from analysis of the oscillograph data assuming a standard 
+second order dynamic system model. Note that there is only a slight difference 
+in characteristics with flaps deployed, with both frequency and damping 
+appearing to decrease with increased flap deflection. 
+
+DUTCH ROLL CHARACTERISTICS 
+
+As is usually the case with light, single engine aircraft, the dutch roll 
+mode was highly damped. A time history of a typical dutch roll excitation is 
+shown in Figures 18 and 19. The maneuver was initiated by inducing a large side- 
+slip angle with the rudder, then centering the rudder and aileron quickly while 
+allowing the oscillation to damp. The high damping ratio makes it extremely 
+difficult to extract accurate quantitative results from the data, but the fre- 
+quency appears to be approximately 1.60 rad/sec and the damping ratio in excess 
+of 0.5 at 80 mph CAS. At 120 mph CAS, the frequency is approximately 2.1 rad/sec 
+and the damping ratio in excess of 0.4. 
+
+STALL PERFORMANCE 
+
+A total of 21 stalls were performed to' determine the stall speeds for both 
+the clean and flaps down configurations. Stalls were initiated by reducing the 
+power to idle and decelerating at approximately one knot per second from an air- 
+speed of about 10 to 15 knots above anticipated stall speed. Stall speed was de- 
+fined as the calibrated airspeed at which the nose of the airplane pitched down 
+involuntarily. 
+
+Table VI summarizes the stall data. The measured stall speeds of 64.7 and 
+
+55.0 mph for the clean and full flap configurations compare with Handbook values 
+
+of 63 and 53 mph respectively. Note that C^ was somewhat higher for flights 
+
+max 
+
+with a rearward c.g. location as would be expected. 
+
+REFERENCES 
+
+1. Petersen, F. S. , "Aircraft and Engine Performance"; Naval Air Test Center, 
+Patuxent River, Maryland 1958. 
+
+2. Ellis, David R. , "Flying Qualities of Small General Aviation Airplanes, 
+
+Part 4"; Report No. FAA-KD-71-118 , Dept, of Transportation, FAA, December 1971. 
+
+
+26 
+
+
+A.I L.6ROK1 
+
+
+RUOOGR 
+
+
+
+
+
+
+Table VI Summary of Cardinal Stall Data 
+
+
+
+
+
+
+
+
+
+
+c 
+
+Fit. 
+
+Run 
+
+IAS-MPH Weight 
+
+C.G. Location Flaps 
+
+
+Alt. 
+
+SlAX 
+
+5 
+
+14 
+
+65 
+
+2440 
+
+19% c 
+
+0° 
+
+
+7500 
+
+1.28 
+
+
+15 
+
+65 
+
+2400 
+
+19% 
+
+0° 
+
+
+7500 
+
+1.28 
+
+
+16 
+
+55 
+
+2400 
+
+. 19% 
+
+30° 
+
+
+7500 
+
+1.80 
+
+
+17 
+
+55 
+
+2400 
+
+19% 
+
+30° 
+
+
+7500 
+
+1.80 
+
+7 
+
+26 
+
+65 
+
+2500 
+
+21% 
+
+0° 
+
+
+7500 
+
+1.32 
+
+
+27 
+
+65 
+
+2500 
+
+21% 
+
+0° 
+
+
+7500 
+
+1.32 
+
+
+30 
+
+53 
+
+2500 
+
+21% 
+
+30° 
+
+
+7500 
+
+1.98 
+
+
+31 
+
+53 
+
+2500 
+
+21% 
+
+30° 
+
+
+7500 
+
+1.98 
+
+9 
+
+21 
+
+65 
+
+2290 
+
+14% 
+
+0° 
+
+
+7500 
+
+1. 21 
+
+
+22 
+
+65 
+
+2290 
+
+14% 
+
+0° 
+
+
+7500 
+
+1. 21 
+
+
+25 
+
+54 
+
+2290 
+
+14% 
+
+30° 
+
+
+7500 
+
+1.75 
+
+
+26 
+
+53 
+
+2290 
+
+14% 
+
+30° 
+
+
+7500 
+
+1.82 
+
+
+27 
+
+54 
+
+2290 
+
+14% 
+
+30° 
+
+
+7500 
+
+1.75 
+
+10 
+
+12 
+
+62 
+
+2460 
+
+19% 
+
+0° 
+
+
+7500 
+
+1.42 
+
+
+13 
+
+63 
+
+2460 
+
+19% 
+
+0° 
+
+
+7500 
+
+1.38 
+
+
+14 
+
+62 
+
+2460 
+
+19% 
+
+0° 
+
+
+7500 
+
+1.42 
+
+
+18 
+
+55 
+
+2460 
+
+19% 
+
+30° 
+
+
+7500 
+
+1.82 
+
+
+19 
+
+55 
+
+2460 
+
+19% 
+
+30° 
+
+
+7500 
+
+1.95 
+
+
+20 
+
+53 
+
+2460 
+
+19% 
+
+30° 
+
+
+7500 
+
+1.95 
+
+13 
+
+25 
+
+55 
+
+2450 
+
+19% 
+
+30° 
+
+
+7500 
+
+1.80 
+
+
+26 
+
+65 
+
+2450 
+
+19% 
+
+0° 
+
+
+7500 
+
+1.29 
+
+
+Average 
+
+C li M . 
+
+(Flaps=0) = 
+
+1.35 
+
+For Wt. = 2500 
+
+LBS. 
+
+
+
+
+MAX 
+
+
+
+Stall Speed = 
+
+64. 
+
+7 MPH 
+
+
+
+Average 
+
+Cl may 
+
+(Flaps=30° ) 
+
+= 1.84 
+
+(6 f = 0) 
+
+
+
+
+
+
+MAX 
+
+
+
+Stall Speed = 
+
+55. 
+
+0 MPH 
+
+
+
+29 
+
+
+
+APPENDIX 
+
+
+Configuration Details of the 
+Cessna Cardinal 
+
+
+
+Configuration Details of the Cessna Cardinal 
+
+
+Aircraft Co. Drawing No. 1703001, 
+WING 
+
+Total Wing Area 
+
+Wing Span 
+
+Aspect Ratio 
+
+Taper Ratio 
+
+Dihedral Angle 
+
+Incidence: 
+
+Root 
+
+Tip 
+
+FLAP 
+
+Area (both) 
+
+Type 
+
+Deflection 
+% of Wing at L.E. 
+
+Span (each) 
+
+HORIZONTAL STABILATOR 
+Area 
+Tab Area 
+Span 
+
+Aspect Ratio 
+Taper Ratio 
+Deflection 
+Tab Deflection 
+VERTICAL STABILIZER 
+
+Area (including rudder) 
+
+Span 
+
+Aspect Ratio 
+Taper Ratio 
+L.E. Sweep Angle 
+Rudder Area 
+Rudder Travel 
+
+
+General Arrangement Model 177". 
+
+175 ft. 2 
+36 ft. 
+
+7.4 
+
+0.7 
+
+I. 5° 
+
+3.5° 
+
+.5° 
+
+29.5 ft. 2 
+Single Slot 
+0° up; 30° down 
+70 
+
+116 in. 
+
+35 ft. 2 
+2.59 ft. 2 
+
+II. 83 ft. 
+
+4.0 
+
+1.0 
+
+20° up; 5° down ±1° 
+
+2° up; 7° down ±1° 
+
+18.81 ft. 2 
+4.78 ft. 
+
+2.031 
+.553 
+39° 42' 
+
+6.41 ft. 2 
+24°L; 24°R ±1° 
+
+
+The following data on the Cessna Cardinal are taken from the Cessna 
+
+II 
+
+
+
+
+
+Table VI 
+
+Summary 
+
+of Cardinal Stall 
+
+Data 
+
+
+
+Fit. 
+
+Run 
+
+IAS-MPH 
+
+Weight 
+
+C.G. Location 
+
+Flaps 
+
+Alt. 
+
+l max 
+
+5 
+
+14 
+
+65 
+
+2440 
+
+19% c 
+
+0° 
+
+7500 
+
+1. 28 
+
+
+15 
+
+65 
+
+2400 
+
+19% 
+
+0° 
+
+7500 
+
+1.28 
+
+
+16 
+
+55 
+
+2400 
+
+. 19% 
+
+30° 
+
+7500 
+
+1.80 
+
+
+17 
+
+55 
+
+2400 
+
+19% 
+
+O 
+
+O 
+
+co 
+
+7500 
+
+1.80 
+
+7 
+
+26 
+
+65 
+
+2500 
+
+21% 
+
+0° 
+
+7500 
+
+1.32 
+
+
+27 
+
+65 
+
+2500 
+
+21% 
+
+0° 
+
+7500 
+
+1.32 
+
+
+30 
+
+53 
+
+2500 
+
+21% 
+
+CO 
+
+o 
+
+o 
+
+7500 
+
+1. 98 
+
+
+31 
+
+53 
+
+2500 
+
+21% 
+
+co 
+
+O 
+
+o 
+
+7500 
+
+1.98 
+
+9 
+
+21 
+
+65 
+
+2290 
+
+14% 
+
+0° 
+
+7500 
+
+1.21 
+
+
+22 
+
+65 
+
+2290 
+
+14% 
+
+0° 
+
+7500 
+
+1.21 
+
+
+25 
+
+54 
+
+2290 
+
+14% 
+
+30° 
+
+7500 
+
+1.75 
+
+
+26 
+
+53 
+
+2290 
+
+14% 
+
+30° 
+
+7500 
+
+1.82 
+
+
+27 
+
+54 
+
+2290 
+
+14% 
+
+0 
+
+O 
+
+co 
+
+7500 
+
+1.75 
+
+10 
+
+12 
+
+62 
+
+2460 
+
+19% 
+
+0° 
+
+7500 
+
+1.42 
+
+
+13 
+
+63 
+
+2460 
+
+19% 
+
+0° 
+
+7500 
+
+1.38 
+
+
+14 
+
+62 
+
+2460 
+
+19% 
+
+0° 
+
+7500 
+
+1.42 
+
+
+18 
+
+55 
+
+2460 
+
+19% 
+
+30° 
+
+7500 
+
+1.82 
+
+
+19 
+
+55 
+
+2460 
+
+19% 
+
+30° 
+
+7500 
+
+1.95 
+
+
+20 
+
+53 
+
+2460 
+
+19% 
+
+30° 
+
+7500 
+
+1.95 
+
+13 
+
+25 
+
+55 
+
+2450 
+
+19% 
+
+30° 
+
+7500 
+
+1.80 
+
+
+26 
+
+65 
+
+2450 
+
+19% 
+
+0° 
+
+7500 
+
+1.29 
+
+
+Average C 
+
+1j MAX 
+
+(Flaps=0) = 1.35 
+
+For Wt. = 2500 LBS. 
+
+
+Stall Speed = 64.7 MPH 
+
+Average C 
+
+rlAX 
+
+(Flaps=30° ) = 1.84 
+
+(«* = °> 
+
+
+Stall Speed = 55.0 MPH 
+
+
+29 
+
+
+
+Configuration Details of the Cessna Cardinal Cont'd 
+
+
+aileron 
+
+Area (both) 
+
+Aft of hinge line 
+
+Forward of hinge line 
+
+Deflection 
+
+
+14.09 ft. 2 
+4.77 ft. 2 
+
+20° up; 15° down ±2° 
+
+
+32 
+
+
+NASA-Langley, 1974 2 CR“2337 
+
+
+
+NATIONAL AERONAUTICS AND SPACE ADMINISTRATION 
+WASHINGTON, D.C. 20546 
+
+
+OFFICIAL BUSINESS 
+PENALTY FOR PRIVATE USE $300 
+
+
+SPECIAL FOURTH-CLASS RATE 
+BOOK 
+
+
+postage and fees paid 
+
+NATIONAL AERONAUTICS AND 
+SPACE ADMINISTRATION 
+451 
+
+
+
+e 
+
+
+POSTMASTER : 
+
+
+If Undeliverable (Section 158 
+Postal Manual) Do Not Return 
+
+
+"The aeronautical and space activities of the United States shall be 
+conducted so as to contribute ... to the expansion of human knoivl- 
+edge of phenomena in the atmosphere and space. The Administration 
+shall provide for the widest practicable and appropriate dissemination 
+of information concerning its activities and the results thereof.” 
+
+— National Aeronautics and Space Act of 1958 
+
+
+NASA SCIENTIFIC AND TECHNICAL PUBLICATIONS 
+
+
+TECHNICAL REPORTS: Scientific and 
+technical information considered important, 
+complete, and a lasting contribution to existing 
+knowledge. 
+
+TECHNICAL NOTES: Information less broad 
+in scope but nevertheless of importance as a 
+contribution to existing knowledge. 
+
+TECHNICAL MEMORANDUMS: 
+
+Information receiving limited distribution 
+because of preliminary data, security classifica- 
+tion, or other reasons. Also includes conference 
+proceedings with either limited or unlimited 
+distribution. 
+
+CONTRACTOR REPORTS: Scientific and 
+technical information generated under a NASA 
+contract or grant and considered an important 
+contribution to existing knowledge. 
+
+
+TECHNICAL TRANSLATIONS: Information 
+published in a foreign language considered 
+to merit NASA distribution in English. 
+
+SPECIAL PUBLICATIONS: Information 
+derived from or of value to NASA activities. 
+Publications include final reports of major 
+projects, monographs, data compilations, 
+handbooks, sourcebooks, and special 
+bibliographies. 
+
+TECHNOLOGY UTILIZATION 
+PUBLICATIONS: Information on technology 
+used by NASA that may be of particular 
+interest in commercial and other non-aerospace 
+applications. Publications include Tech Briefs, 
+Technology Utilization Reports and 
+Technology Surveys. 
+
+
+Details on the availability of these publications may be obtained from: 
+
+SCIENTIFIC AND TECHNICAL INFORMATION OFFICE 
+
+NATIONAL AERONAUTICS AND SPACE ADMINISTRATION 
+
+Washington, D.C. 20546 
+
+
+
+

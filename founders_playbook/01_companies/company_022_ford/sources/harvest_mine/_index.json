@@ -1,0 +1,593 @@
+{
+ "window": [
+  "1903-01-01",
+  "1950-12-31"
+ ],
+ "candidates": 178,
+ "mined": 12,
+ "untried_by_limit": 140,
+ "items": [
+  {
+   "identifier": "McGillLibrary-635611-36509",
+   "date": "1948-01-01",
+   "title_year": "1948",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Ford Motor Company of Canada. Annual Report. 1948-7-31",
+   "family": "corporate_print",
+   "meta_date": "1948-01-01",
+   "status": "cached",
+   "bytes": 28529,
+   "named_terms": [
+    "ford motor",
+    "ford motor car company",
+    "ford motor company"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 36,
+   "phrase_hits": 11,
+   "entity_hits": 11,
+   "matched_entities": [
+    "ford motor"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 149,
+     "text": "To the Shareholders of Ford Motor Company of Canada, Limited:",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 185,
+     "text": "mercial vehicles imported from Ford Motor Company, Limited, Dagenham,",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 285,
+     "text": "industry in Canada, the factory of Ford Motor Company of Canada, Limited in Windsor, Ontario, occupies",
+     "context": [
+      "Largest automotive plant in the Dominion, and employing more persons than any other manufacturing",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "McGillLibrary-635589-36440",
+   "date": "1925-01-01",
+   "title_year": "1925",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Ford Motor Company of Canada. Annual Report. 1925-7-31",
+   "family": "corporate_print",
+   "meta_date": "1925-01-01",
+   "status": "cached",
+   "bytes": 5853,
+   "named_terms": [
+    "ford motor",
+    "ford motor car company",
+    "ford motor company"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 15,
+   "phrase_hits": 5,
+   "entity_hits": 5,
+   "matched_entities": [
+    "ford motor"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 64,
+     "text": "FORD MOTOR COMPANY OF AUSTRALIA (PTY.) LIMITED",
+     "context": [
+      "AFFILIATED COMPANIES",
+      ""
+     ]
+    },
+    {
+     "line": 74,
+     "text": "FORD MOTOR COMPANY OF SOUTH AFRICA, LIMITED",
+     "context": [
+      "",
+      "PORT ELIZABETH"
+     ]
+    },
+    {
+     "line": 127,
+     "text": "FORD MOTOR COMPAN\\",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "McGillLibrary-635612-36512",
+   "date": "1949-01-01",
+   "title_year": "1949",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Ford Motor Company of Canada. Annual Report. 1949-7-31",
+   "family": "corporate_print",
+   "meta_date": "1949-01-01",
+   "status": "cached",
+   "bytes": 35191,
+   "named_terms": [
+    "ford motor",
+    "ford motor car company",
+    "ford motor company"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 47,
+   "phrase_hits": 14,
+   "entity_hits": 14,
+   "matched_entities": [
+    "ford motor"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 16,
+     "text": "FORD MOTOR COMPANY OF CANADA,",
+     "context": [
+      "",
+      "LIMITED"
+     ]
+    },
+    {
+     "line": 31,
+     "text": "annual meeting of shareholders of Ford Motor Company",
+     "context": [
+      "Notice is hereby given that a special general and",
+      "of Canada, Limited will be held at the head office of the"
+     ]
+    },
+    {
+     "line": 201,
+     "text": "To the Shareholders of Ford Motor Company of Canada, Limited:",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "McGillLibrary-635598-36467",
+   "date": "1934-01-01",
+   "title_year": "1934",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Ford Motor Company of Canada. Annual Report. 1934-7-31",
+   "family": "corporate_print",
+   "meta_date": "1934-01-01",
+   "status": "cached",
+   "bytes": 9659,
+   "named_terms": [
+    "ford motor",
+    "ford motor car company",
+    "ford motor company"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 13,
+   "phrase_hits": 11,
+   "entity_hits": 11,
+   "matched_entities": [
+    "ford motor"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 7,
+     "text": "FORD MOTOR COMPANY OF CANADA",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 29,
+     "text": "FORD MOTOR COMPANY OF CANADA, LIMITED",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 56,
+     "text": "FORD MOTOR COMPANY OF CANADA, LIMITED",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "McGillLibrary-635596-36461",
+   "date": "1932-01-01",
+   "title_year": "1932",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Ford Motor Company of Canada. Annual Report. 1932-7-31",
+   "family": "corporate_print",
+   "meta_date": "1932-01-01",
+   "status": "cached",
+   "bytes": 5352,
+   "named_terms": [
+    "ford motor",
+    "ford motor car company",
+    "ford motor company"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 5,
+   "phrase_hits": 2,
+   "entity_hits": 2,
+   "matched_entities": [
+    "ford motor"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 80,
+     "text": "FORD MOTOR COMPAN'",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 123,
+     "text": "We have audited the books and accounts of Ford Motor Company of Canada,",
+     "context": [
+      "",
+      "Limited, for the year ended December 31st, 1932, and have obtained all the"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "McGillLibrary-635602-36479",
+   "date": "1938-01-01",
+   "title_year": "1938",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Ford Motor Company of Canada. Annual Report. 1938-7-31",
+   "family": "corporate_print",
+   "meta_date": "1938-01-01",
+   "status": "cached",
+   "bytes": 9512,
+   "named_terms": [
+    "ford motor",
+    "ford motor car company",
+    "ford motor company"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 14,
+   "phrase_hits": 10,
+   "entity_hits": 10,
+   "matched_entities": [
+    "ford motor"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "FORD MOTOR COMPANY OF CANADA,",
+     "context": [
+      "Et Mi Tie; D"
+     ]
+    },
+    {
+     "line": 28,
+     "text": "FORD MOTOR COMPANY OF CANADA, LIMITED",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 61,
+     "text": "FORD MOTOR COMPANY OF CANADA, LIMITED",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "McGillLibrary-635587-36434",
+   "date": "1923-01-01",
+   "title_year": "1923",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Ford Motor Company of Canada. Annual Report. 1923-7-31",
+   "family": "corporate_print",
+   "meta_date": "1923-01-01",
+   "status": "cached",
+   "bytes": 5851,
+   "named_terms": [
+    "ford motor",
+    "ford motor car company",
+    "ford motor company"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 13,
+   "phrase_hits": 2,
+   "entity_hits": 2,
+   "matched_entities": [
+    "ford motor"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 97,
+     "text": "FORD MOTOR COMPAN",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 124,
+     "text": "We certify that we have audited the books and accounts of Ford Motor Company",
+     "context": [
+      "",
+      "of Canada, Limited, for the year ending July 31st, 1923, and have obtained all the"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "McGillLibrary-635601-36476",
+   "date": "1937-01-01",
+   "title_year": "1937",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Ford Motor Company of Canada. Annual Report. 1937-7-31",
+   "family": "corporate_print",
+   "meta_date": "1937-01-01",
+   "status": "cached",
+   "bytes": 9716,
+   "named_terms": [
+    "ford motor",
+    "ford motor car company",
+    "ford motor company"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 13,
+   "phrase_hits": 11,
+   "entity_hits": 11,
+   "matched_entities": [
+    "ford motor"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "FORD MOTOR COMPANY OF CANADA,",
+     "context": [
+      "LIMITED"
+     ]
+    },
+    {
+     "line": 33,
+     "text": "FORD MOTOR COMPANY OF CANADA,",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 63,
+     "text": "FORD MOTOR COMPANY OF CANADA, LIMITED",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "McGillLibrary-635585-36428",
+   "date": "1920-01-01",
+   "title_year": "1920",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Ford Motor Company of Canada. Annual Report. 1920-7-31",
+   "family": "corporate_print",
+   "meta_date": "1920-01-01",
+   "status": "cached",
+   "bytes": 4898,
+   "named_terms": [
+    "ford motor",
+    "ford motor car company",
+    "ford motor company"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 7,
+   "phrase_hits": 1,
+   "entity_hits": 1,
+   "matched_entities": [
+    "ford motor"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 65,
+     "text": "FORD MOTOR COMPAD",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "McGillLibrary-635597-36464",
+   "date": "1933-01-01",
+   "title_year": "1933",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Ford Motor Company of Canada. Annual Report. 1933-7-31",
+   "family": "corporate_print",
+   "meta_date": "1933-01-01",
+   "status": "cached",
+   "bytes": 7878,
+   "named_terms": [
+    "ford motor",
+    "ford motor car company",
+    "ford motor company"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 5,
+   "phrase_hits": 3,
+   "entity_hits": 3,
+   "matched_entities": [
+    "ford motor"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 71,
+     "text": "Shareholders of Ford Motor Company of Canada, Limited,",
+     "context": [
+      "Notice is hereby given that the Annual Meeting of",
+      "will be held at the Head Office of the Company, at East"
+     ]
+    },
+    {
+     "line": 159,
+     "text": "FORD MOTOR COMPAN",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 224,
+     "text": "We have audited the books and accounts of Ford Motor Company of Canada,",
+     "context": [
+      "",
+      "Limited, for the year ended December 31st, 1933, and have obtained all the"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "McGillLibrary-635610-36503",
+   "date": "1946-01-01",
+   "title_year": "1946",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Ford Motor Company of Canada. Annual Report. 1946-7-31",
+   "family": "corporate_print",
+   "meta_date": "1946-01-01",
+   "status": "cached",
+   "bytes": 18030,
+   "named_terms": [
+    "ford motor",
+    "ford motor car company",
+    "ford motor company"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 15,
+   "phrase_hits": 10,
+   "entity_hits": 10,
+   "matched_entities": [
+    "ford motor"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 60,
+     "text": "shareholders of Ford Motor Company of Canada, Limited will be held",
+     "context": [
+      "Notice is hereby given that a special general and annual meeting of",
+      "at the head office of the Company at Windsor, Ontario, April 28th, 1947,"
+     ]
+    },
+    {
+     "line": 150,
+     "text": "Ford Motor Company of Malaya, Limited written",
+     "context": [
+      "Reinstatement of amount of investment in shares of",
+      "OEE TED AAA errr fy) ofan ena, te Seman ts pete 418,847"
+     ]
+    },
+    {
+     "line": 177,
+     "text": "FORD MOTOR COMPAN",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "McGillLibrary-635592-36449",
+   "date": "1928-01-01",
+   "title_year": "1928",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Ford Motor Company of Canada. Annual Report. 1928-7-31",
+   "family": "corporate_print",
+   "meta_date": "1928-01-01",
+   "status": "cached",
+   "bytes": 4835,
+   "named_terms": [
+    "ford motor",
+    "ford motor car company",
+    "ford motor company"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 9,
+   "phrase_hits": 2,
+   "entity_hits": 2,
+   "matched_entities": [
+    "ford motor"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 90,
+     "text": "FORD MOTOR COMPAN",
+     "context": [
+      "",
+      "BALANC"
+     ]
+    },
+    {
+     "line": 120,
+     "text": "We certify that we have audited the books and accounts of Ford Motor Company",
+     "context": [
+      "",
+      "of Canada, Limited, for the year ended December 31st, 1928, and have obtained all"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000034088/000095010995000647/0000950109-95-000647.txt",
+ "fetched": "2026-10-06T11:55:11Z",
+ "sha1": "64e048101d5b29677e7fc6096eafb4791e4c249c",
+ "bytes": 242356,
+ "words": 23800,
+ "cik": "0000034088",
+ "registrant": "EXXON MOBIL CORP",
+ "accession": "0000950109-95-000647",
+ "document": "0000950109-95-000647.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": true
+}

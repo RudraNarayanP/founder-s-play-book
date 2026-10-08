@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000019617/000001961794000048/0000019617-94-000048.txt",
+ "fetched": "2026-09-29T19:04:19Z",
+ "sha1": "34229b6960c2bdff3a5675d986687dd535d6c449",
+ "bytes": 5319,
+ "words": 515,
+ "cik": "0000019617",
+ "registrant": "JPMORGAN CHASE & CO",
+ "accession": "0000019617-94-000048",
+ "document": "0000019617-94-000048.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": true
+}

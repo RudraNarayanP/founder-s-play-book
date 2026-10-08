@@ -1,0 +1,9 @@
+{
+ "findings": [
+  {
+   "gate": "coverage",
+   "subject": "registers",
+   "msg": "no register CSVs at root or research/ -- csv/anchors gates DID NOT RUN"
+  }
+ ]
+}

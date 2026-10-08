@@ -1,0 +1,1588 @@
+
+fJhSFt-Cfc.- /£ 5 ; 
+
+
+NASA Contractor Report 165656 
+
+
+
+Analysis of GOES 
+Imagery and Digitized 
+Data for the SEV-UPS 
+Period, August 1979 
+
+
+Clinton J. Bowley 
+Hsiao-hua K. Burke 
+James C. Barnes 
+
+ENVIRONMENTAL RESEARCH & TECHNOLOGY, INC. 
+
+696 Virginia Road 
+
+Concord, Massachusetts 01742 
+
+
+CONTRACT NAS1-16108 
+FEBRUARY 1981 
+
+
+NASA 
+
+National Aeronautics and 
+Space Administration 
+
+Langley Research Center 
+
+Hampton, Virginia 23665 
+
+
+
+f £6 2 4 1981 
+
+
+La r. r 
+
+
+
+
+
+NASA Contractor Report 165656 
+
+
+Analysis of GOES 
+Imagery and Digitized 
+Data for the SEV-UPS 
+Period, August 1979 
+
+
+Clinton J. Bowley 
+Hsiao-hua K. Burke 
+James C. Barnes 
+
+ENVIRONMENTAL RESEARCH & TECHNOLOGY, INC. 
+
+696 Virginia Road 
+
+Concord, Massachusetts 01742 
+
+CONTRACT NASI- 16108 
+FEBRUARY 1981 
+
+
+NASA 
+
+National Aeronautics and 
+Space Administration 
+
+Langley Research Center 
+
+Hampton, Virginia 23665 
+
+
+
+
+
+FOREWORD 
+
+
+This study was performed by Environmental Research & Technology, 
+
+Inc. (ERT) for the National Aeronautics and Space Administration, Langley 
+Research Center (NASA/LaRC) under Contract No. NAS1-16108. The authors 
+wish to thank Mr. Wendell G. Ayers and Mr. George L. Maddrea, Jr., of the 
+Environmental Field Measurements Branch, Marine and Applications Tech- 
+nology Division, for their assistance throughout the contract period. 
+
+Because of the loss of contrast in the reproduction process, the 
+GOES images (Appendices A and B) are not reproduced as part of the report 
+but are on file at NASA Langley Research Center, in Hampton, Virginia. 
+Those wishing to review these images may contact Mr. Maddrea, at the 
+Langley Research Center, Hampton, Virginia 23665, or phone him at Area 
+Code 804/827-2486. 
+
+
+
+This Page Intentionally Left Blank 
+
+
+
+TABLE OF CONTENTS 
+
+
+Page 
+
+
+FOREWORD iii 
+
+LIST OF FIGURES vii 
+
+1. INTRODUCTION 1 
+
+1.1 Purpose and Objectives 1 
+
+1.2 Review of Previous Studies 2 
+
+1.3 Report Contents 3 
+
+2. ANALYSIS OF GOES IMAGERY 4 
+
+2.1 Analysis Procedure 4 
+
+2.2 Descriptive Summary of Synoptic Weather Patterns 
+
+for August 1979 5 
+
+3. ANALYSIS OF DIGITIZED GOES DATA FOR PERIOD OF 
+
+ELEVATED POLLUTION EPISODE 8 
+
+3.1 Selection of Pollution Episode (from imagery analysis) 8 
+
+3.2 Processing and Analysis of GOES Digitized Data 9 
+
+3.3 Comparison Between GOES Digitized and Imagery Data 10 
+
+4. MODEL SIMULATION OF AREAL AEROSOL CONTENT 18 
+
+4.1 Review of Modeling Technique 18 
+
+4.2 Comparison of Model Results with GOES Digitized Data 19 
+
+5. CONCLUSIONS 26 
+
+6. REFERENCES 28 
+
+APPENDIX A - ANALYZED GOES VISIBLE IMAGES 
+
+1-31 August 1979 29 
+
+APPENDIX B - REPROCESSED GOES VISIBLE IMAGES 
+
+6-11 August 1979 29 
+
+
+
+
+V 
+
+
+
+This Page Intentionally Left Blank 
+
+
+
+LIST OF FIGURES 
+
+
+Figure 
+
+
+Page 
+
+3-1 
+
+Portion of digital printout of 9 August 1979 
+
+11 
+
+3-2 _ 
+
+Map showing areal averages of digital brightness 
+values for 6 August 1979 
+
+12 
+
+3-3 
+
+Map showing areal averages of digital brightness 
+values for 7 August 1979 
+
+13 
+
+3-4 
+
+Map showing areal averages of digital brightness 
+values for 8 August 1979 
+
+14 
+
+3-5 
+
+Map showing areal averages of digital brightness 
+values for 9 August 1979 
+
+15 
+
+3-6 
+
+Map showing areal averages of digital brightness 
+values for 10 August 1979 
+
+16 
+
+3-7 
+
+Map showing areal averages of digital brightness 
+values for 11 August 1979 
+
+17 
+
+4-1 
+
+Graph showing typical surface reflectance of water, 
+snow, dry soil and vegetation 
+
+21 
+
+4-2 
+
+Graph showing ratio of brightness intensity in 
+visible range compared to normal atmosphere case for 
+various sulfate concentrations 
+
+22 
+
+4-3 
+
+Graph showing relative intensities in visible range 
+for various surface reflectivities through normal 
+atmosphere 
+
+23 
+
+4-4 
+
+Graph showing predicted number of brightness counts 
+from GOES visible sensor as a function of sulfate 
+concentration over land and ocean 
+
+25 
+
+
+Vll 
+
+
+
+1. INTRODUCTION 
+
+
+1.1 Purpose and Objectives 
+
+The Southeastern Virginia Urban Plume Study (SEV-UPS) is a program 
+to address air quality problems and scientific understanding of the 
+production of secondary pollutants in the troposphere downwind of urban 
+complexes with remote sensing technology. As part of the study, an 
+experiment using aircraft remote sensing techniques was conducted in the 
+Norfolk, Virginia urban area during August 1979. In support of that 
+experiment, data from the GOES satellite were collected and analyzed for 
+the month of August. The purpose of the GOES data analysis was to pro- 
+vide a detailed summary of the synoptic meteorological conditions for 
+use m the evaluation of air quality data collected during the month- 
+long period of the SEV-UPS experiment. 
+
+The objectives of the study of GOES data were as follows: (1) 
+
+collect GOES sectorized images covering the eastern United States (from 
+approximately North Carolina to New England and west to the Mississippi 
+River) for up to three observation times each day of the period; (2) 
+perform an analysis of the imagery based on the observed cloud patterns 
+and other weather data, indicating on clear overlays features such as 
+low pressure centers, fronts and squall lines, surface and upper level 
+wind flow patterns, and fog/haze areas; (3) prepare an overall summary 
+of the synoptic conditions for the entire month of August; (4) review 
+the GOES imagery to determine whether any regional haze patterns asso- 
+ciated with elevated pollution episodes can be detected; and (5) if a 
+haze pattern is apparent at some time during the sample period, analyze 
+the extent and density of the haze using GOES digitized data. 
+
+With regard to the latter two objectives, a regional haze pattern 
+was detected in the GOES images during the period of 6-11 August; ground- 
+based aerosol measurements indicated a moderately high pollution episode 
+did cover a portion of the eastern United States during that period. 
+Digitized GOES data were acquired on magnetic tape from NASA/Langley 
+Research Center for one observation time on each day of the 6-11 August 
+period; in addition to analysis of the digital brightness levels, a 
+model simulation of the total aerosol content was also performed. 
+
+
+1 
+
+
+
+1.2 Review of Previous Studies 
+
+
+In a recent study to evaluate the capabilities of satellite imagery 
+for monitoring regional air pollution episodes, satellite data were 
+compared with ground-based aerosol measurements from an extensive 
+regional network (Barnes et al., 1979). The satellite data used in the 
+study were from the NOAA/VHRR (Very High Resolution Radiometer) , GOES 
+(Geosynchronous Operational Environmental Satellite), and Landsat. The 
+ground-based data were obtained from the SURE (Sulfate Regional Experi- 
+ment) , a comprehensive measurement program undertaken in 1977 because 
+sulfates had been found to be a major component of the particles in the 
+regional hazes that occasionally occur over the northeastern United 
+States (Mueller et al., 1979). 
+
+In the study by Barnes et al. (1979), data were analyzed for three 
+cases, each of which represented a significant pollution episode based 
+on low surface visibility and high sulfate levels. The results of the 
+analysis showed that when a regional air pollution episode has built up 
+over a period of three to five days to a point where sulfate levels of 
+
+3 
+
+>30 yg/m are being measured, a haze pattern that correlates closely 
+with the area of reported low surface visibilities (<_ four miles) and 
+high sulfate levels can be detected in satellite visible-channel imagery. 
+The extent and transport of the haze pattern could be monitored from the 
+satellite data over the period of the maximum intensity of the episode. 
+
+In other cases, with lower levels of sulfate being measured, the haze 
+patterns were more difficult to detect in the imagery. The results of 
+the analysis were also evaluated in terms of the spatial and temporal 
+measurement requirements of remote sensors for monitoring regional air 
+pollution episodes; these measurement requirements are discussed in a 
+separate report (Burke et al., 1979). 
+
+As part of these investigations, a limited sample of NOAA/VHRR 
+digitized data was also analyzed, and a computer program was developed 
+to simulate various atmospheric conditions, including normal clear 
+conditions as well as conditions with clouds or pollution layers. The 
+program, which can be applied to both the visible and infrared spectral 
+ranges, consists of an atmospheric transmittance model and a radiative 
+transfer model with the capability of performing multiple scattering 
+
+
+2 
+
+
+
+computations. The advantages of the model are that: (1) it is fast and 
+
+requires little computational time to achieve satisfactory accuracy; and 
+(2) it allows vertical inhomogeneity and the inclusion of surface effects. 
+Estimates of aerosol loading derived from the model agreed quite well 
+with the VHRR digitized reflectance values and surface aerosol and visi- 
+bility measurements; the model, thus, proved to be a promising technique 
+for assessing the capabilities of satellites to monitor pollution episodes. 
+
+The analysis of imagery from the various satellite systems indicated 
+that in terms of orbital characteristics and areal coverage, the GOES 
+geostationary system has the greatest potential application for monitor- 
+ing pollution episodes on a regional scale. The principal advantage of 
+a GOES satellite is its capability to provide more frequent observations 
+(every half hour), which increases the probability for acquiring a cloud- 
+free observation, and enables a region to be viewed at varying sun angles. 
+GOES also has the capability to provide information on diurnal variations 
+of pollutant episodes. For regional monitoring, the spatial resolution 
+of the existing GOES visible channel sensor proved to be adequate. 
+
+1.3 Report Contents 
+
+The analysis of the GOES imagery is discussed in Section 2, together 
+with the descriptive summary of the synoptic weather conditions for the 
+month. The processing and analysis of the GOES digitized data for the 
+period during which the regional haze pattern was evident in the imagery 
+are discussed in Section 3. The results of the model simulation, includ- 
+ing comparison with the digitized GOES data, are given in Section 4, and 
+the conclusions are presented in Section 5. 
+
+Appendices A and B contain the analyzed GOES images. Because of the 
+loss of contrast m the reproduction process, however, the GOES images 
+(Appendics A and B) are not reproduced as part of the report but are on 
+file at NASA Langley Research Center. Those wishing to review these 
+images may contact NASA at the address given in the Foreword. 
+
+
+3 
+
+
+
+2. ANALYSIS OF GOES IMAGERY 
+
+
+2.1 Analysis Procedure 
+
+The GOES (Geostationary Operational Environmental Satellite) system 
+provides satellite data on a routine basis. These data can be used 
+together with standard surface and upper air observations as an input to 
+synoptic analysis over land areas; over ocean areas, GOES often provides 
+the only source of data for meteorological analysis. Since 1974, two 
+GOES satellites have been stationed over the equator in earth synchro- 
+nous orbits in positions to view the eastern and western United States. 
+Because of their earth synchronous orbits, these satellites provide 
+coverage of the earth f s disc on an essentially continuous basis, with 
+data being collected every one-half hour. The GOES sensor system is the 
+VISSR (Visible Infrared Spin-Scan Radiometer), a two-channel radiometer. 
+The visible channel operates in the 0.55 to 0.70 ym wavelength at a 
+maximum spatial resolution of 1 km; the infrared channel operates in the 
+10.5 to 12.5 ym wavelength at a resolution of 7 km. The visible channel 
+data can be processed at different resolutions depending on the size of 
+the area viewed. 
+
+Two GOES images per day viewing the eastern half of the United 
+States were acquired from the NOAA Satellite Data Services Division 
+(SDSD) for the entire month of August 1979. These were the 2 km sector- 
+ized, visible images for 1500 GMT (1000 EST) and the infrared images for 
+1900 GMT (1400 EST). The analysis was carried out primarily using the 
+1500 GMT visible images. The infrared images were examined each day to 
+assess whether any significant changes had occurred in the cloud patterns 
+during the four-hour interval and whether any additional cloud informa- 
+tion could be derived from the infrared cloud-top temperatures, partic- 
+ularly with regard to the development of afternoon convective cloudiness. 
+It became apparent, however, that the infrared images did not offer 
+much additional information, due in part, perhaps, to their poorer 
+resolution. The analysis was concentrated, therefore, on the visible- 
+channel imagery. 
+
+The analysis of the synoptic weather patterns on the entire GOES 
+visible data set was completed utilizing both the 1200 GMT and 1800 GMT 
+National Weather Service surface facsimile charts. The synoptic features 
+
+
+4 
+
+
+analyzed on clear acetate overlays included the locations of low pres- 
+sure centers, fronts, squall lines, haze and fog areas, and the surface 
+and 700 mb wind flow patterns. Large, open arrows were used to indicate 
+surface wind flow regimes, while the 700 mb winds were plotted for each 
+of the upper level reporting stations. 
+
+The GOES images with the overlays are included as an appendix to 
+this report. The satellite images provide a more detailed indication of 
+the cloud distribution on each day than can be derived from the surface 
+and upper air reports alone. The images also provide an indication of 
+the synoptic pattern off the coast to the east of the SEV-UPS area, 
+where other data are lacking. 
+
+2.2 Descriptive Summary of Synoptic Weather Patterns for 
+the Eastern United States During August 1979, Derived 
+from GOES Images and Standard Meteorological Charts 
+
+A weak cold front moved slowly eastward across the Ohio Valley and 
+mid-Atlantic states on 2 and 3 August, becoming nearly stationary along 
+the coastal region on 4 and 5 August. The western extent of the Bermuda 
+High which was located over the extreme southeastern states early in this 
+period, expanded northward behind the front on 4 August, and hot, humid 
+tropical maritime air dominated much of the eastern half of the United 
+States until 12 August. 
+
+During the period from 4 to 12 August, daytime maximum temperatures 
+ranged from about 30° to 35°C (86° to 95°F) throughout the eastern half 
+of the U.S., while dew point temperatures ranged from the low to mid 
+20°C (67° to 76°F). Surface winds were generally light and variable 
+throughout the region until 7 August, as the surface pressure gradient 
+was extremely weak. On 7 August, winds became generally light southerly 
+as far north as Ohio and Pennsylvania as the surface pressure gradient 
+increased somewhat. 
+
+The analysis of late morning visibility isopleths, derived from the 
+National Weather Service (NWS) hourly weather data for the period of 5 
+to 11 August, showed broad areas of the eastern U.S. experiencing visi- 
+bilities of less than four miles m haze, with a number of isolated 
+smaller areas of two miles or less visibility in haze. 
+
+By 12 August, a large anticyclone (high pressure system) had 
+
+
+5 
+
+
+
+advanced southeastward across the Great Lakes region and cooler dryer air 
+extended all the way from eastern Canada, southwestward across the Ohio 
+Valley into Oklahoma and Texas. A frontal system extended northeastward 
+across Georgia, the Carolinas, and off the Virginia coast to just south 
+of Cape Cod, and light ram fell in a narrow band along coastal sections 
+from Virginia northeastward as far as Nova Scotia. The hot, humid, 
+tropical air and accompanying pollution haze was now located well off the 
+coast to the east of the frontal system. 
+
+The high pressure ridge moved eastward off the coast late on 14 
+August as a cold front in advance of another large anticylcone moved 
+rapidly southeastward across the Ohio Valley region. On 15 August, the 
+cold front extended from the Cape Hatteras region westward across 
+Tennessee and Arkansas into Oklahoma, with cool dry air to the north, and 
+warm, humid, tropical air to the south. High temperatures on this day 
+generally ranged from 16°C to 19°C to the north of the cold front, and 
+from 30°C to 33 °C to the south of the front. 
+
+The center of this second anticyclone advanced southeastward across 
+the Great Lakes during 16 August, and was centered over the mid-Atlantic 
+coastal region late on 17 August. As surface wind flow became southerly 
+behind the high pressure system on 18 August, warm, humid, tropical air 
+moved northward across the eastern half of the U.S., with considerable 
+haze being reported across the southern Gulf states into Tennessee and 
+Kentucky, and light rainfall was reported over much of the northeast 
+out ahead of a warm front located over western New York state and Penn- 
+sylvania. By 19 August, haze was being reported over much of the eastern 
+half of the U.S*, as far north as New York and southern New England. A 
+weak frontal system pushed southward across Virginia, Kentucky, and into 
+southern Illinois on 20 August, restricting the haze to the region of the 
+Carolinas, Tennessee, Georgia and Alabama through 21 August. By 22 
+August, haze was only reported over North Carolina and southern Virginia 
+out ahead of an approaching warm front. High pressure was centered over 
+New England on this date, so that the haze was associated with a light 
+easterly surface flow off the water. 
+
+With high pressure centers building east of New England and east of 
+Florida on 23 August, and a low pressure disturbance moving northeast- 
+ward across the Great Lakes region, surface winds gradually shifted into 
+
+
+6 
+
+
+a southerly flow across the eastern third of the U.S., with a small 
+pocket of haze still present over Virginia and the Carolinas. 
+
+The low pressure disturbance was centered just south of James Bay 
+on 24 August, and a trailing cold front extended southward across the 
+eastern Great Lakes and Ohio Valley into western Tennessee, with the 
+warm front extending southeastward across New York and Pennsylvania to 
+off the mid-Atlantic coast. Winds were light southerly within the warm 
+sector covering the eastern third of the U.S., and a band of showers 
+were reported out ahead of the cold front in the Ohio Valley region 
+extending southward to the eastern Gulf coast. No haze was reported on 
+this day. 
+
+The cold front became stationary over the eastern coastal states on 
+25 August, and eventually weakened and dissipated by 27 August as the 
+western extent of the Bermuda High advanced westward over the eastern 
+third of the country. This westward expansion of the Bermuda High con- 
+tinued until the end of the month, with light southerly surface wind 
+flow affecting the entire eastern half of the United States by 29 and 30 
+August . 
+
+
+7 
+
+
+3. ANALYSIS OF DIGITIZED GOES DATA 
+FOR PERIOD OF ELEVATED POLLUTION EPISODE 
+
+
+3.1 Selection of Pollution Episode (from imagery analysis) 
+
+One of the objectives of the study was to determine whether a 
+regional haze pattern associated with an elevated pollution episode 
+could be detected in the GOES images. Although the overall synoptic 
+weather pattern during August was not conducive to the development of a 
+severe pollution episode, such as the July 1978 episode analyzed in the 
+earlier study (Barnes et al., 1979), the synoptic weather charts des- 
+cribed in the previous section did indicate several areas where reduced 
+visibilities in haze were reported. The haze reports were the most 
+widespread during the period of 6-11 August. 
+
+The initial GOES data set revealed little indication of the haze 
+patterns reported on the six-hourly surface weather charts for the 6-11 
+August period. In order to determine whether the difficulty in detecting 
+any haze patterns might be due to the low contrast of the matte photo- 
+prints, a request was made to have the 1500 GMT visible images repro- 
+cessed at a higher contrast. Examination of these reprocessed 2 km 
+sectorized GOES images showed that the widespread haze patterns, which 
+extended across the middle Atlantic and southeastern states into the 
+Tennessee-Alabama region, were considerably more apparent than in the 
+initial data set. This was particularly true of the haze patterns 
+extending well off the east coast over the darker background of the 
+cloud-free ocean areas. The reprocessed GOES images for 6-11 August are 
+also included in the appendix. 
+
+To provide a further assessment of the haze patterns, TIROS-N 
+visible satellite imagery for the same period were also acquired for 
+comparison with the GOES data. A review of these data showed, however, 
+that the haze patterns were not as evident in the TIROS-N images as in 
+the GOES 2 km sectorized images. The difference was primarily the 
+result of the approximately 4*2 hour later time frame (1930 GMT) of the 
+TIROS-N orbital crossing over the area of interest. By the mid-afternoon 
+(local time), considerable low level cumuliform cloudiness had developed 
+across the haze region obscuring much of the haze evident earlier in the 
+day; some dissipation of the haze may also have occurred by mid-afternoon. 
+
+
+8 
+
+
+The haze patterns detectable in the GOES images correspond closely 
+with the areas of low visibility (2 to 4 miles) reported in the surface 
+observations. Moreover, surface-based aerosol measurements from report- 
+ing sites in the TVA and SURE networks indicate higher sulfate levels 
+
+3 
+
+during the 6-11 August period, with some values exceeding 30 pg/m . 
+Therefore, although the pollution levels were not as high as those 
+measured in some episodes, such as during July 1978, the haze patterns 
+were considered to be sufficiently distinct, so that the period was 
+selected as an episode of air pollution with regional haze clearly 
+identifiable in the satellite imagery. For this period, GOES digitized 
+tape data were acquired from NASA/LaRC. The data on file at LaRC were 
+averaged to 8 km resolution, but were deemed adequate for study of the 
+reflectance values over the relatively broad haze regions. 
+
+3.2 Processing and Analysis of GOES Digitized Data 
+
+The output of visible data from the GOES VISSR sensor system is 
+digitized on-board the satellite and transmitted in real-time to earth. 
+The quantization of the visible data is 6 bits such that the data 
+ranges between 1 and 64 digital counts, with higher numbers representing 
+brighter intensities. 
+
+The field-of-view of the VISSR sensor system provides a nominal 
+ground resolution of approximately 1 km. It provides eight parallel 
+west-east visible data lines per west-east scan, covering the 8 km 
+north-south band scanned by each step of the scanning mirror. The 
+digital data obtained from NASA/LaRC, however, was already reduced to 
+the 8 km band; therefore, each pixel of the digital data provided to 
+ERT was of the size of 8 km resolution. 
+
+The episode of 6-11 August 1979 was considered the best case to 
+perform the digital data analysis. The procedure for data analysis was 
+different from the previous studies (Barnes et al., 1979; Burke et al., 
+1979) in that the data were processed for the entire region of interest 
+instead of for selected scan lines only. The analysis was also extended 
+to include the ocean in order to understand both the transport of the 
+haze and also its characteristics over an ocean background. 
+
+After preliminary analysis of the data, it was decided that m 
+order to evaluate a regional haze pattern, further reduction in the 
+
+
+9 
+
+
+
+scale of the digital printouts would be necessary . Therefore, a further 
+averaging (1 to 4) of the data was carried out, and the tapes were 
+processed *?or the southeastern part of the country and the coastal 
+Atlantic ocean region for the entire six-day (6-11 August 1979) period. 
+
+A portion of the processed data for the Tennessee Valley area and 
+southeastern states on 9 August is shown in Figure 3-1. Cloud areas can 
+be identified because they have brightness values of 25 or greater, 
+whereas the normal background has a typical value of 17 or less. Com- 
+parison with the visibility and surface-based aerosol measurements 
+indicates that brightness values of 18-19 are representative of moderate 
+haze conditions, and brightness values of 20 or greater with more severe 
+haze conditions, such as seen in the Tennessee Valley area. 
+
+3.3 Comparison Between GOES Digitized and Imagery Data 
+
+The GOES digitized data were plotted on the same base map as was 
+used for the analysis of the imagery. The areal averages are presented 
+for each of the six days in Figures 3-2 to 3-7. Over land, normal 
+(haze free) conditions were present in the northern part of the U.S. 
+and Canada. Haze-free conditions were also observed in southern areas 
+on most days and along the Atlantic coast on 11 August. Brightness 
+values of 18-19 are typical of moderate haze areas. Over the ocean, 
+the transport of the haze pattern is also apparent. Brightness values 
+of less than 12 were representative of clear conditions. Brightness 
+values up to 16 represented moderate haze conditions, whereas values of 
+17-18 were typical of more pronounced haze patterns. 
+
+Haze patterns also were easily recognizable m the Gulf Stream 
+area. On 11 August, for example, clear conditions were evident m the 
+Atlantic Ocean area immediately off the coast, but there was a distinct 
+haze pattern further to the east. This haze pattern was a few hundred 
+kilometers wide and was surrounded by clear conditions both on the east 
+and west sides. 
+
+In summary, the analysis of the digitized data indicates that cloud 
+and clear (haze-free) areas can be easily distinguished both over land 
+and over ocean. Moreover, haze patterns are also well defined m the 
+maps plotted from the averaged digitized reflectance values. It appears, 
+therefore, that the digital data presentation is superior to the imagery, 
+where contrast is sometimes not significant enough to define the haze pattern. 
+
+
+10 
+
+
+
++ 1 i + t tyv 1*T ttt y t* r-r r r t r »tt'. r «\*» y t r » -r r r r r tt r ■» t t rr r 'r t t r -r t t t TTTTTftttTi'TtttTt Ttt Off t ( O O ( 0 ( (l 
+
++ + +(f»Sfrflq § + + + + ♦+ + + + + + + + + + + + + +» + ♦■» + + + +++ +++>+++ + + + + + + + + + + + + ♦ + + + + + ++•«• + +++++ + + +» + Q9J 0 7 778787778 
+t^8w9999frC?ft^+^ + + + + ++++ + ++ + + + + + ++ + + ++++++ ++++♦++ +++ + + + *5 + + + + + + + + + + + +++++++++++ + +\ft 00 77 77 7 7 
+
+999999999999+ + + + + ++ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + ++ + ♦+ + ♦ + + + + + + + + + + + + + + + + + + + + + + »?087 7 07 8 
+999999 999 99 9 9W + + + + 0 + + + + + + + + + + +++ + + +++ + + +++++++ + + + + + + + ++ + + + 4 + + 4 ++++++++++++++++++ + + + +<898887 
+99 9 999 999 9 9 99J> * +++++++ + +++ + + + + ♦ + ♦ + + + + + + +++++* + +++ + + + + + + + + + + ♦+ + ♦ +++* +^9% + + + + + + + + + + ++»99 998 
+8999 99999 99JkKt + + + + 9 ++ + + + + + + + + ++++++♦++++++++++++++++++++++++++++++ + +Jb (>/+ + + + + + + + + + + + + 4^998 8 
+99999 99 99>ftf + + -»*+iW>0 0 fpUkO o 000 + 444 + 44 + 44+ + 4 + 4 + + + + 4 + 4 + 4 + + + + + 4 + 4 ++++++^tf9 {?'++ + 4 + + + + + + + + + + + 4 + H 
+
+99999990ii#^ + +>» 9 9oV/9 9i + 00 0 + + + + + + + + + + + + + + + + + + + + + + + + 0 <fnft> + 4 8444 + + + <U)iX*rV + + + + + + + + + + + + + + + + + + «» 
+
+
+98889999999/^999099. ^ 
+9999999999^99999999999/+ + + +4O9OOO0(h/£ 
+89999999999990999990999 
+99999999999999999999999 03*3 + + <1044^ + + + + 
+99099999898899999999909999% + + + + + + + + + 
+89999999998899990999999999 
+389999999999999999999989999^999999 
+
+
+► +^++++++ + + + +X 
+** + + + ■♦>%•• fl} + « 
+
+
+
+
++++ 
+
+++++^^+^♦+^+^♦ +> 99999 
++ +++++ + + + + + 4/^9999099; 
++++ + + + G + + + + tf9^889O09 0i 
+
+
++ + + + +++++ + ++++ + + + ijf%+ + + + + +++ 
+
+^0 + + + + + + +++#^ + + + + + i4q-9 + + 0 + + + 
+
+109\+ + + h 
+
+
+8 8 o9 
+8789 
+778^*++ 
+
+9J} 999999989 999 9 9 990000 9 9_f^ + + 41 + + + + 
+
+9 0/^jsO 9 9 93EE5SpSiJ> 9 t 12iJ , + + + ++++++ + + + + + 
+
+
+)9896988999t 
+
+
+m807f 
+r99999978J 
+
+
+99999 U 
+
+*9999999899999999999904980999980990999 
+
+*8899999989999999999889888899934999999 0+&0+++++ ++++M 0^ 699090099} + +ML+++++J 
+J99 99999898 999 3998 8898998888 99^^ 999^+4 + 0 ++^rfllTCT^ 9 999999 9999 (/+ + + 
+J999899999999998 8999989988889 8V9<S^SW> + 0+++ + 09„090099/^999999<> 1 + + + + + 
+
+
++ + 498 
+
+
+> ++.+ ++++1 
+
+
+)+9988990000( 
+
+
+J99999988899999999999M999899998999S 
+599999999999999899999^999999099899^ 
+J08998806999999999499w)*99999<y 
+
+
+> + + + O+j&+++^GK) + + Q0ff9 
+
+) + 0++V(J+ + + + Q4 + + + + + o7o 
+
+_ ►o +++ ++4i/+ ++++oo + 
+
+599999999889989999®I^^999^£+ + + 0 + 000+++ + ++++fl^ + + + 00 + + 
+*99999901*0999999999990 00 09999^^+0 + + 0 + + + + + + + 08^0 
+^^^2^0^999999990 9 999999^899 0^22^+ + + + + + + 
+
+'JO 0 + 0 + 0 + 0 8 9 9999 93>£9 9 9/+00 + + 0 +| 
+
+) + 0- ++ +- 05* 0+ O 0089 
+
+
++ +770-8 0 + +++\| 
+
++ 0 + + + + +++++T+++ ++++ + + + + ++++++■< 
+++++O+++0+++++++++++++++++++* 
+
++ + + + + + + +4 + + + + + + + + +W 
+++++++ 0+++++++++++1 
+0 + 0 + + + +++ + + +++++•< 
++ 4+0 0+ + ++^ 
+
+
+88891 
+
+9988999999 
+
+8898888388 
+999988 888888888 890' 
+
+
+►+++0 +++++++ *9999 
+>• + + + 0 ++++ + + 0 499909 
+►+++ 0 ++ + + + 0 0 *\9 
+> + ++++++ + 0 + + + CV9f9 
+►+++♦+++++++ 0 4 
+
+
+1 »0000 +++0 + ++++90+ + + Oh 
+1 0 + + + 090 + + 00++++00 + + h 
+
++ + +j 
+
+£9999] 
+
+
+98888O9998/r8888883806Q9«88 99^^)O + + + + + + '+ + + + ++- 
+6 9888886 99*68088 7 868 688 88 8 80 999(rW+ + ++++++ + + + + C 
+9999899999y8 87987 888888898889099999W^+ + 0 + + + + (3 
+
+
+t,0 + ++++++ + + + 
+
+>++++++++++>6^)99988888^788087788888999899999999 
+)999999999888(£jJ^OO++ + ytf7999990877 /7'B 7 877 77787 88 8 8988892^^999 
+) 0 +++++++++ + 0 0 4999999998 00999 
+- + +++++++++ +++ 0\9999 88 3 8 89899/) + 
+
+
+f + 0< 
+
+
+9899988909^^ 8 88 77 8a3a999888999aW/9°99999^i999<0 0(/098< 
+9 8 9 9 8 8 3 8 8 9 98888878888999888689 8 9 9 9 v*5v9 8 8 9 ^><j 998* 
+
+
+> + ++++ +++ + + + + + + 0$a999 0998 8 9(1 
+h + + + 4 + ±+ + + + + + + .+ +,^V^ 9 9 9 q AiiA^J 
+5 ++4 + + + 4 44 4 + 4 44^000^^(1998 09^99 0988 8 7 30809^ 
+
+
+3980087 888898 988 9989998898 6898999999 099988* 
+|'MJU0OT0 '11 064^88 9999888 88909899999 988 88 7 8f 
+*8 61 7 88888998 88 83>8<99 0 99986 8 309990 89908868 30* 
+
+
+>9\f+ ++++ + + + + + + +++ + + 4 00 <$9999 9 99999999980 9 
+»99>^^ + o + + + +++^+ ++++ + + (rt)i9O999090 90 98 0^8008 
+>88999^)0 0 00 ++++ + + + + 00 + 0000*899999990808 0008 87 8 
+
+
+7870930998809909880O* 
+
+
+*999909* 
+
+
+88999 9 9998 8 80 888 88 998 8^i9| 
+793888988888808889999099? 
+
+
+'09O9O9W™>+++OO + + + + + + OO<iO 0^99999908 30 8 7 88 8889^6 8 9989889398^8 yT!9990 0999 
+!9999o99999^O^fJ%(L++^ + + + + d0 0 0aTnn\0 998837 888808000^890 99990^49^^90 009909 420*!! 
+
+00 0 00 OoVo^X)OOp999999s3999999080^8999999999O999(K9O9 099999^0 01 
+
+
+1990998083089? 
+{9909998808771 
+*999990986 Si 
+
+
+19999999999 
+>9999999999 ^TH + G 
+*8999999998999 
+9999909088800009 
+80889998 800080089 99j> 0 + ^9 
+998 999888/* <jf&989899 
+
+
+r80777: 
+
+
+^ 999999999999999 * 099 ^ 
+
+
+1,9999 C 
+
+
+0 0 0 0 00000 U 0 01) 99999 9 99999999^9 99 
+
+
+^90090999999999(3 
+
+*4*99999999991 
+wA999909999C 
+? 8 99*9 9 9 0 0 9 <1 
+
+
+)0000( 
+
+
+^9990099t0^88J^7877777; 
+999990J^T777777777{ 
+99^f777777808888< 
+99999^87 7777 77 8899(^+5 
+9 < ^+587 77 7 77 7 7 77 88Pr t 
+9 9 9 0 8,0^75^77 77 77 77 7*; 
+
+'999^988087a£^J>3^977 7 7 777 
+899883^8 7y*rt^7^7jb 7 737 87 7 88? 
+99899999999O999893099089908^88080999909900990 99898tJ<++399 v ^8008JT2>^<3655b6W40V6?r^7 7aa88J 
+98893089990009999099090998930888888089 0 868 8 38 8 838889999990^87 7>5^aa55 0 5554S5a5556^ri>94+'+!t 
+9989000999999990999909990 88 8887778888 9.9 90870787888888777778^ 
+
+
+000000 . 
+
+QQQi Hf999999 
+998 &9 9999999099 
+99999O98i^/6^0909808888a8»089 8999999 
+909999998888 7 0088998080 7889 A08 888909999999999899999999 
+9999900998998000888880 7 7 88 8 &808 88 808888 99099999999*/+ 
+
+
+88888880989985998099800071 
+800009009990099003777777776667677780739007777677777 
+998809898999690900888087457760900770879077777777776 
+
+
+554444544433344345566*668097 
+7 7777 7 800880887 7 7 7777787 7877777 7 6^4 4434334 334 3444a4S4 454^?7 s; 67 7 
+
+7 7 77 7^ 333 333 333 3 33 3444 44444 34 4 a45^§ 
+
+
+908888089 ff+00 80 7 8 1 009788^77609900900307 07767 7077 7 7 7 7 b660 5 1 1 3 3 3 3 4 * 
+
+
+
+? 2 333 33344 3 3 44 3 3644 5 4444 
+5435544334 
+
+
+90077707 771)7 777 700000090 
+77 7777777 7407 777iJ^N 
+77777777807 8078 < j+(5/T 
+7 087 7 7 
+888908>(,9^ 
+
+7 7 0/T++\^++ +++++ + + + + + + + ♦ + + + + + + ♦ + + + + + + + + + + H 
+08/+ + O + + ++-»<^+ + + + + +>4+ + > + tffi » + + + + + +++ +++ + + + |. _ _ . 
+
+
+ruinuni. 
+nuiiMiin/ 
+
+ru in -m u 1/42 24j 
+
+l 1 11 — : 1 1-1 iis3^+++++++++++++/2 
+
+
+: mu-nn<543^ 
+lUll-nilj 
+
+
+^ + + + + + + + ♦ + + (i 
+t++++++i 
+
+
+8H0 7a9908 7(lU(l\l? 1 - 1 ^11 1111111 U 1 M5\+W 
+
+
+< Jr e c>* «/>•»« 
+
+
+7 a 3 -> 
+
+
+Figure 3-1 A portion of the digital printout of 9 August 1979, show- 
+ing the Tennessee Valley area and southeastern United 
+States. The approximate state boundaries are indicated. 
+The brightness values represented by a single digit are as 
+follows; the plus (+) symbol represents a value of greater 
+than 20 counts, zero represents 20, 9 equals 19, 8 equals 
+18, etc. The minus (-) symbol represents a brightness 
+value of 10 or less. 
+
+
+11 
+
+
+
+4 - 
+
+
+
+12 
+
+
+Figure 3-2 Map showing areal averages of digitial brightness values 
+for 6 August 1979„ 
+
+
+
+
+
+
+
+
+
+
+
+
+14 
+
+
+Map showing areal averages of digital brightnes 
+
+for R Anmicf 1070 
+
+
+
+
+
+15 
+
+
+Figure 3-5 Map showing areal averages of digital brightness values 
+for 9 August 1979. 
+
+
+
+
+
+
+
+
+
+m :,^4 
+
+A-” >r ' 
+
+
+x 
+
+
+vir 
+
+
+
+d.. 
+
+
+
+oc 
+
+UJ K 
+> - 
+O VI 
+
+
+£ Si 
+2 V 
+
+
+
+
+
+Figure 3-7 Map showing areal averages of digital brightness values 
+for 11 August 1979. 
+
+
+
+
+
+4. MODEL SIMULATION OF AREAL AEROSOL CONTENT 
+
+
+4.1 Review of Modeling Technique 
+
+The modeling approach for inferring aerosol loading of a haze 
+pattern has been described in detail in previous reports (Barnes et al., 
+1979; Burke et al., 1979). In summary, the absorption coefficients of 
+aerosol particles in the visible spectral range, are always much smaller 
+than the scattering coefficients, such that the single scattering albedo 
+is always close to 1. Moreover, the scattering-to-mass ratio maximizes 
+at a particle radius of about 0.3 ym, indicating that particles in the 
+size range of a few tenths of microns are much more effective light 
+scatterers than either larger or smaller particles. Although sulfate 
+particles contribute only part of the total mass of pollutants, they 
+dominate the optical properties (the light scattering effect) over other 
+pollutants because their size range is generally a few tenths of microns, 
+which is the range of the most effective light scatterers. Because of 
+this feature, it is feasible to detect and monitor pollution episodes 
+with high sulfate concentrations from a space-borne sensor. 
+
+In addition to sulfates, concentrations of other particulates also 
+have to be taken into consideration for radiative transfer model compu- 
+tations. These other optical contributors include other particulates 
+and nitrogen dioxide. Defining the concentration and the size distribu- 
+tion of various pollutants is a complex task, however, as it depends upon 
+wind speeds, relative humidity, mixing heights, and other meteorological 
+conditions; the approach described in the previous reports, therefore, 
+models the various pollutants using the Labadie plume size distribution. 
+
+In this approach, it is necessary to assume corresponding particulate 
+concentration values in addition to those of sulfates, since fixed 
+values of other particulates independent of sulfate concentration are not 
+realistic. Generally speaking, although concentrations of sulfate and 
+total particulates are not directly related, there is a tendency for 
+higher concentrations of total particulates with increasing sulfate 
+concentrations. This effect is adopted for pairing the sulfate and 
+particulate concentrations. 
+
+Another parameter to be defined is the mixing height of the pollution 
+
+
+18 
+
+
+
+layer. The mixing height is determined from various meteorological 
+conditions, and for surface pollutants is generally of the order of 
+1500 m; this value was used for the model computations in this study. 
+
+In addition to the mixing height, the surface reflectivity is yet 
+another variable to be determined. The surface reflectivity varies with 
+the wavelength of the sensor, as well as with surface conditions. The 
+effect of surface reflectivity is discussed in more detail in Section 4.2. 
+The procedure of model computation can be summarized as follows: 
+
+1) select an atmospheric model including prescribed 
+temperature, humidity and gas constitutent profiles, 
+background visibility and surface reflectivity; 
+
+2) define the solar angle and the satellite view angle; 
+
+3) compute the atmospheric opacity and single scattering 
+profiles at defined wavelength; 
+
+4) perform the radiative transfer compilation for 
+intensity observed from satellite; 
+
+5) introduce additional amount of sulfate and particu- 
+lates representative of the regional concentrations 
+and define the mixing height; 
+
+6) repeat 3 and 4 to obtain the new intensity and thus 
+the brightness contrast; and 
+
+7) repeat 5 and 6 for different concentrations. 
+
+The computer program developed in the previous studies referenced 
+above, consists of an atmospheric transmittance model and a radiative 
+transfer model with the capability of performing multiple scattering 
+computation in a fast and accurate fashion. The results of model compu- 
+tations as applied to this study are summarized in the next section. 
+
+4.2 Comparison of Model Results with GOES Digitized Data 
+
+The model analysis performed under Task 5 of the present study was 
+extended to include an ocean background to demonstrate that the technique 
+can be applied to various surfaces with different reflectivities. 
+
+
+19 
+
+
+
+Figure 4-1 shows the average surface reflectivity for a range of surface 
+types. The GOES visible sensor is most sensitive to a wavelength of 
+about 0.6 pm. At this wavelength, reflectivity of non-snow land surfaces 
+is typically 0.1. This value was used in previous studies and proved to 
+be sufficiently accurate. Over water, the surface reflectivity is around 
+0.0S. 
+
+Model computations were carried out using these surface reflectivity 
+values of 0.1 and 0.05, respectively. The computed ratios of satellite 
+observed intensity against normal background condition for various sul- 
+fate concentrations are shown in Figure 4-2. The normal background is 
+
+3 
+
+assumed to be an atmosphere with sulfate concentration of 10 yg/m , 
+consistent with the U.S. Northeast summertime averages. It is also 
+assumed in the computation that the solar angle and sensor look angle 
+are near vertical. 
+
+As seen in Figure 4-2, the contrast for a sulfate concentration of 
+3 
+
+40 yg/m' is 1.3 times the normal background for a surface reflectivity 
+of 0.1. For a surface reflectivity of 0.05, the contrast ratio is 1.6. 
+
+In other words, for the same amount of aerosol loading the contrast 
+against normal conditions is more enhanced over surfaces with lower 
+reflectivities. The implication is that haze is more observable over a 
+water surface than a land background. In Figure 4-3, the relative 
+intensity (brightness) seen through a normal atmosphere for a range of 
+surface reflectivities (0 - 0.2) is plotted. The relative intensity is 
+normalized to one for a surface reflectivity of 0.1. As can be seen, 
+the intensity for a surface reflectivity of 0.05 is only 0.64 of that 
+over a surface with a reflectivity of 0.1. The ratio over a surface 
+with a reflectivity of 0.15 is 1.65. 
+
+It is obvious that the observed intensities are strongly related 
+to surface reflectivities. The optimal approach for interpreting 
+observed intensities (brightness) is to (1) define average surface 
+reflectivity according to general surface types, (2) establish "base 
+values" from observing the number of intensity or brightness counts under 
+normal (cloud free and haze free) conditions, (3) compute the ratio of 
+observed intensity to the base value, and (4) infer the aerosol loading 
+from the computed intensity ratio. 
+
+The results of computation of the predicted number of "counts" for 
+
+
+20 
+
+
+
+REFLECTANCE 
+
+
+
+.4 .6 .8 1.0 2 4 6 8 10 12 14 
+
+
+WAVELENGTH (/xm) 
+
+
+Figure 4-1 
+
+
+Typical surface reflectance of water, snow, dry soil and 
+vegetation (after McClatchey et al., 1972). 
+
+
+RATIO OF INTENSITY 
+TO NORMAL BACKGROUND 
+
+
+
+SULFATE CONCENTRATION (j»g/m'') 
+
+
+Figure 4-2 Ratio of brightness intensity in the visible range as 
+
+viewed from space compared to normal atmosphere case for 
+various sulfate concentrations (assuming sulfate concen- 
+tration of 10, yg/m 3 as normal background value). 
+
+
+
+
+
+
+
+Figure 4-3 Relative intensities in the visible range as viewed from 
+space for various surface reflectivities through normal 
+background atmosphere a 
+
+
+
+the GOES visible sensor for various sulfate concentrations is shown in 
+Figure 4-4. The counts under normal conditions for ocean and land 
+surfaces are <12 and <17 respectively. This is consistent with the 
+assumption of .05 and „1 surface reflectivities. For a haze with sul- 
+
+3 
+
+fate content of approximately 25 yg/m , the counts over ocean and land 
+are in the ranges of 14-15 and 18-19, respectively. For a high concen- 
+
+3 
+
+tration, up to 40 yg/m , the counts are approximately 18 over ocean and 
+20 over land. 
+
+These inferred values are quite consistent with the maps of GOES 
+digital counts presented in Section 3.3. Of particular interest are the 
+higher intensities (>20) observed in the Tennessee Valley areas on both 
+9 and 10 August; these higher counts are consistent with the elevated 
+sulfate levels measured on those dates (TVA and SURE data), and the 
+lower visibilities reported. 
+
+Over the ocean, distinct patterns are also observed. The transport 
+of the haze pattern can be easily defined. Despite the lack of suffi- 
+cient surface truth measurements over the ocean areas, the observed 
+intensity pattern is consistent with what had previously been observed 
+over land. 
+
+
+24 
+
+
+
+NO. OF COUNTS FROM 
+
+
+
+Figure 4-4 
+
+
+Predicted number of brightness counts from GOES visible 
+sensor as a function of sulfate concentration over land 
+and ocean. 
+
+
+
+5. CONCLUSIONS 
+
+
+The purpose of the study was to analyze GOES imagery together with 
+standard meteorological data for August 1979 and, if a regional haze 
+pattern was clearly detectable in the imagery, to acquire and analyze 
+GOES digitized data for the period of the haze episode. The analyzed 
+GOES images provide an additional source of meteorological input useful 
+in the evaluation of air quality data collected during the month-long 
+period of the SEV-UPS experiment. Furthermore, a clearly defined 
+regional haze pattern was evident in the GOES images during the period 
+of 6-11 August; an analysis of digitized data was, therefore, carried 
+out for this period. 
+
+Analysis of the imagery indicates that even though the GOES visible 
+channel data are not as sensitive as the data from the current NOAA 
+satellites, regional haze patterns are, nevertheless, clearly detectable 
+in the images. Moreover, the observed haze patterns correspond closely 
+with areas indicated in surface-based measurements to have reduced 
+visibilities and elevated pollution levels. When using GOES imagery, 
+however, the photographic processing can be important with regard to 
+haze detection; the regional haze patterns were much better defined in 
+reprocessed, higher-contrast images than in the original photoprints. 
+
+Because of potential variations in photoprocessing, the GOES digital 
+data presentation appears to be superior to the imagery for haze detec- 
+tion. Even using reduced-resolution averaged data, the results of the 
+analysis indicate that digitial reflectance counts can be directly 
+related to haze intensity. For the period of the elevated pollution 
+episode, clear, haze-free land areas had reflectances generally <17 
+counts, whereas cloud reflectances were >25 counts. Counts of 18-19 
+were consistently observed in areas of moderate haze, and counts of >20 
+were observed in areas of more intense haze, where surface-based measure- 
+
+3 
+
+ments of sulfate levels generally exceeded 30 yg/m . Over the ocean, 
+the normal background was generally <12 counts, whereas moderate hazes 
+were observed to have up to 16 counts, and the more intense hazes con- 
+sistently 17-18 counts. 
+
+A model simulation of areal aerosol content indicates that atmo- 
+spheric haze is more observable over backgrounds of low reflectance 
+
+
+26 
+
+
+
+(water) than higher reflectance (land). The observed intensities, 
+therefore, are strongly related to the surface reflectivies. The model 
+results agree closely with the observed GOES digital reflectance counts, 
+providing further indication that satellite remote sensing can be a use- 
+ful tool for monitoring regional elevated pollution episodes. 
+
+
+27 
+
+
+
+6. REFERENCES 
+
+
+Barnes, J.C. C.J. Bowley and H.K. Burke, 1979: Evaluation of the Capa- 
+
+bilities of Satellite Imagery for Monitoring Regional Air Pollution 
+Episodes (NASA Contractor Report 159107), Final Report under Con- 
+tract No. NAS1-15307 for NASA Langley Research Center, Environmental 
+Research § Technology, Inc., Concord, Mass. 
+
+Burke, H.K., C.J. Bowley and J.C. Barnes, 1979: Evaluation of the 
+
+Spatial and Temporal Measurement Requirements of Remote Sensing 
+for Monitoring Regional Air Pollution Episodes (NASA Contractor 
+Report 159092), Final Report under Contract No. NAS1-15531 for NASA 
+Langley Research Center, Environmental Research f) Technology, Inc., 
+Concord, Mass. 
+
+McClatchey, R.A., R.W. Fenn, J.E.A. Selby, F.E. Volz and J.S. Garin, 
+
+1972: Optical Properties of the Atmosphere - 3rd Edition, AFCRL-72- 
+
+0497. 
+
+Mueller, P.K. et al., 1979: The Occurrence of Atmospheric Aerosols in 
+
+the Northeastern United States , paper presented at the Conference 
+of Aerosols: Anthropogenic and Natural Sources and Transport, New 
+
+York Academy of Sciences, New York, NY. 
+
+
+28 
+
+
+
+APPENDIX A 
+
+ANALYZED GOES VISIBLE IMAGES: 1-31 AUGUST 1979 
+
+
+APPENDIX B 
+
+REPROCESSED GOES VISIBLE IMAGES: 6-11 AUGUST 1979 
+
+
+The GOES images are on file at NASA Lang-ley 
+Research Center. Those wishing to review 
+these images should contact NASA at the 
+address given in the Foreword. 
+
+
+29 
+
+
+
+1 Report No 
+NASA CR-165656 
+
+
+2 Government Accession No. 
+
+
+3. Recipient's Catalog No 
+
+
+4 Title and Subtitle 
+
+Analysis of GOES Imagery and Digitized Data for the 
+SEV-UPS Period, August 1979 
+
+
+5 Report Date 
+February 1981 
+
+
+6 Performing Organization Code 
+
+
+7 Author(s) 
+
+C.J. Bowley, H 0 K. Burke and J 0 C 0 Barnes 
+
+
+8 Performing Organization Report No 
+
+A533F 
+
+
+10 Work Unit No 
+
+
+9 Performing Organization Name and Address 
+
+Environmental Research & Technology, Inc. 
+
+696 Virginia Road 
+
+Concord, Massachusetts 01742 
+
+
+11 Contract or Grant No 
+NAS1-16108 
+
+
+12 Sponsoring Agency Name and Address 
+
+National Aeronautics § Space Administration 
+Washington, D.C. 20546 
+
+
+13 Type of Report and Period Covered 
+
+Contractor Report 
+
+
+14 Sponsoring Agency Code 
+
+
+15 Supplementary Notes 
+
+NASA/Lang] ey Research Center Technical Monitor: 
+
+
+G.L. Maddrea, Jr. 
+
+
+Final Report 
+
+
+16 Abstract 
+
+In support of the Southeastern Virginia Urban Plume Study (SEV-UPS), GOES satellite 
+imagery was analyzed for the month of August 1979. The analyzed GOES images provide an 
+additional source of meteorological input useful in the evaluation of air quality data 
+collected during the month-long period of the SEV-UPS experiment. In addition to the 
+imagery analysis, GOES digitized data were analyzed for the period of 6-11 August, a 
+period during which a regional haze pattern was detectable m the imagery. 
+
+
+The results of the study indicate that the observed haze patterns correspond closely 
+with areas shown in surface-based measurements to have reduced visibilities and 
+elevated pollution levels. Moreover, the results of the analysis of digitized data 
+indicate that digital reflectance counts can be directly related to haze intensity both 
+over land and ocean. The model results agree closely with the observed GOES digital 
+reflectance counts, providing further indication that satellite remote sensing can be 
+a useful tool for monitoring regional elevated pollution episodes. 
+
+
+17 Key Words (Suggested by Author(s)) 
+satellite data analysis 
+GOES imagery 
+SEV-UPS data period 
+
+18 Distribution Statement 
+
+Unclassified - Unlimited 
+
+19 Security Classif {of this report) 
+
+Unclassified 
+
+20 Security Classif {of this page) 
+Unclassified 
+
+21 No of Pages 
+29 
+
+22 Price* 
+
+
+N-305 
+
+
+For sale by the National Technical Information Service, Springfield, Virginia 22161 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+End of Document 
+
+
+

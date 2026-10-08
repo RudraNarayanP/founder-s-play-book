@@ -1,0 +1,542 @@
+{
+ "window": [
+  "1907-01-01",
+  "1960-12-31"
+ ],
+ "candidates": 59,
+ "mined": 12,
+ "untried_by_limit": 43,
+ "items": [
+  {
+   "identifier": "cia-readingroom-document-0000920852",
+   "date": "1954-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "CIA Reading Room 0000920852: (EST PUB DATE) REPORT RE EXPLOITATION AND FOLLOW UPS (HANDWRITTEN)",
+   "family": "corporate_print",
+   "meta_date": "1954-01-01",
+   "status": "cached",
+   "bytes": 230,
+   "named_terms": [
+    "united parcel service"
+   ],
+   "other_terms": [
+    "of america"
+   ],
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp80-00809a000600390262-8",
+   "date": "1951-01-01",
+   "title_year": "1950",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp80-00809a000600390262-8: NORTHEAST REPORTS INDUSTRIAL PROGRESS IN 1950; FENG-MAN HYDROELECTRIC P",
+   "family": "corporate_print",
+   "meta_date": "1951-01-01",
+   "status": "cached",
+   "bytes": 8886,
+   "named_terms": [
+    "united parcel service"
+   ],
+   "other_terms": [
+    "of america"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 1,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 44,
+     "text": "FENG-MAN HYDROELECTRIC PLANT Ups POWER OUTPUT",
+     "context": [
+      "NORTHEAST REPORTS INDUSTRIAL PROGRESS IN 19503",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19930092496",
+   "date": "1942-01-01",
+   "title_year": "1993",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "NASA Technical Reports Server (NTRS) 19930092496: Control-Motion Studies of the PBM-3 Flying Boat in Abrupt Pull-Ups",
+   "family": "corporate_print",
+   "meta_date": "1942-01-01",
+   "status": "cached",
+   "bytes": 23963,
+   "named_terms": [
+    "united parcel service"
+   ],
+   "other_terms": [
+    "of america"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 14,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 23,
+     "text": "IN ABRUPT PULL-UPS",
+     "context": [
+      "CONTROL-MOTION STUDIES OF THE PBM-3 FLYING BOAT",
+      "By Henry A. Pearson and Leland K. Smull"
+     ]
+    },
+    {
+     "line": 69,
+     "text": "IN ABRUPT PULL-UPS",
+     "context": [
+      "CONTROL-MOTION STUDIES 0? THE PBM-3 PLYING BOAT",
+      "By Henry A. Pearson and Leland K\u00ab Smull"
+     ]
+    },
+    {
+     "line": 209,
+     "text": "third phase was the actual pull-ups in flight. The relation",
+     "context": [
+      "which the elevator was moved as rapidly as possible; and the",
+      "of these various phases to each other will become apparent"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19930086564",
+   "date": "1951-01-01",
+   "title_year": "1993",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "NASA Technical Reports Server (NTRS) 19930086564: Tabulated Pressure Coefficients and Aerodynamic Characteristics Measur",
+   "family": "corporate_print",
+   "meta_date": "1951-01-01",
+   "status": "cached",
+   "bytes": 79337,
+   "named_terms": [
+    "united parcel service"
+   ],
+   "other_terms": [
+    "of america"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 7,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 17,
+     "text": "AND IN PULL-UPS AT MACH NUMBERS",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 57,
+     "text": "AND IN PULL-UPS AT MACH NUMBERS",
+     "context": [
+      "BELL X-l AIRPLANE IN AN UNACCELERATED STALL",
+      "OF 0.74, 0.75, 0.94, AND 0.97"
+     ]
+    },
+    {
+     "line": 67,
+     "text": "stall and in pull-ups at Mach numbers of 0.74, 0.75, 0.94, and O. 97 .",
+     "context": [
+      "X-l research airplane. The data were obtained in an unaccelerated",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19930081063",
+   "date": "1928-01-01",
+   "title_year": "1993",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "NASA Technical Reports Server (NTRS) 19930081063: Pressure distribution on wing ribs of the VE-7 and TS airplanes in fli",
+   "family": "corporate_print",
+   "meta_date": "1928-01-01",
+   "status": "cached",
+   "bytes": 25415,
+   "named_terms": [
+    "united parcel service"
+   ],
+   "other_terms": [
+    "of america"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 6,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 39,
+     "text": "PART II: PULL-UPS",
+     "context": [
+      "",
+      "By R. V. Rhode"
+     ]
+    },
+    {
+     "line": 70,
+     "text": "PART II : PULL-UPS.",
+     "context": [
+      "AND TS AIRPLANES IN FLIGHT.",
+      "By R. V- Rhode."
+     ]
+    },
+    {
+     "line": 79,
+     "text": "particular maneuver of flight. The results for pull-ups are pre-",
+     "context": [
+      "tics, on wing and tail ribs of the VE-7 and TS airplanes for a",
+      "sented in the form of curves which show the variation of pressure"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19930086369",
+   "date": "1950-01-01",
+   "title_year": "1993",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "NASA Technical Reports Server (NTRS) 19930086369: Tabulated Pressure Coefficients and Aerodynamic Characteristics Measur",
+   "family": "corporate_print",
+   "meta_date": "1950-01-01",
+   "status": "cached",
+   "bytes": 116224,
+   "named_terms": [
+    "united parcel service"
+   ],
+   "other_terms": [
+    "of america"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 7,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 24,
+     "text": "BELL X-1 AIRPLANE IN PULL-UPS AT MACH",
+     "context": [
+      "CHARACTERISTICS MEASURED ON THE WING OF THE",
+      "NUMBERS FROM 0.53 TO 0.99"
+     ]
+    },
+    {
+     "line": 92,
+     "text": "BELL X-1 AIRPLANE IN PULL-UPS AT MACH",
+     "context": [
+      "CHARACTERISTICS MEASURED ON THE WING OF THE",
+      "NUMBERS FROM 0.53 TO 0.99"
+     ]
+    },
+    {
+     "line": 101,
+     "text": "research airplane. The data were obtained in 10 pull-ups at Mach numbers",
+     "context": [
+      "presented for six spanvise stations on the left wing of the Bell X-1",
+      "from 0.53 to 0.99*"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NPDP19300107",
+   "date": "1930-01-01",
+   "title_year": "1930",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Hong Kong Daily Press 1930-01-07",
+   "family": "internet_archive",
+   "meta_date": "1930-01-01",
+   "status": "cached",
+   "bytes": 295388,
+   "named_terms": [
+    "united parcel service"
+   ],
+   "other_terms": [
+    "of america"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 2,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "of america"
+   ],
+   "sample": [
+    {
+     "line": 2815,
+     "text": "hind the seedes in one. of America\u2019s",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "blowupsonresurfa00gres",
+   "date": "1976-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "Blow-ups on Resurfaced Concrete Pavements : Final Report",
+   "family": "corporate_print",
+   "meta_date": "1976-01-01",
+   "status": "cached",
+   "bytes": 176023,
+   "named_terms": [
+    "united parcel service"
+   ],
+   "other_terms": [
+    "of america"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 59,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 12,
+     "text": "BLOW-UPS  ON  RESURFACED",
+     "context": [
+      "",
+      "CONCRETE  PAVEMENTS"
+     ]
+    },
+    {
+     "line": 38,
+     "text": "BLOW-UPS  ON  RESURFACED  CONCRETE  PAVEMENTS",
+     "context": [
+      "Final  Report",
+      ""
+     ]
+    },
+    {
+     "line": 49,
+     "text": "research  study  entitled  \"Pavement  Blow-ups  and  Resurfacing\".",
+     "context": [
+      "The  attached  Final  Report  is  submitted  on  the  JHRP",
+      "The  Report  is  titled  \"Blow-ups  for  Resurfaced  Concrete  Pave-"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "ERIC_ED221842",
+   "date": "1982-01-01",
+   "title_year": "1842",
+   "date_mismatch": true,
+   "in_window": false,
+   "title": "ERIC ED221842: Idea-Mapping: The Technique and Its Use in the Classroom or Simulating the \"Ups\" and \"Downs\" of Reading C",
+   "family": "corporate_print",
+   "meta_date": "1982-01-01",
+   "status": "cached",
+   "bytes": 61601,
+   "named_terms": [
+    "united parcel service"
+   ],
+   "other_terms": [
+    "of america"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 3,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 37,
+     "text": "Classroom or Simulating the \"Ups\" and \"Downs\" of",
+     "context": [
+      "Idea-Mapping: The Technique and Its Use in the",
+      "Reading Comprehension. Reading Education Report No,"
+     ]
+    },
+    {
+     "line": 139,
+     "text": "SIMULATING THE ''UPS\" AND \"DOWNS'' ^",
+     "context": [
+      "",
+      "OF READING COMPREHENSION"
+     ]
+    },
+    {
+     "line": 194,
+     "text": "Simulatjng the-^'Ups^' and ''Downs\" of Reading Comprehension",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19800018384",
+   "date": "1980-01-01",
+   "title_year": "1980",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "NASA Technical Reports Server (NTRS) 19800018384: The 1979 Southeastern Virginia Urban Plume Study (SEV-UPS): Surface an",
+   "family": "corporate_print",
+   "meta_date": "1980-01-01",
+   "status": "cached",
+   "bytes": 306810,
+   "named_terms": [
+    "united parcel service"
+   ],
+   "other_terms": [
+    "of america"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 74,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 13,
+     "text": "STUDY (SEV-UPS): SURFACE AND AIRBORNE",
+     "context": [
+      "1979 SOUTHEASTERN VIRGINIA URBAN PLUME",
+      "STUDIES"
+     ]
+    },
+    {
+     "line": 44,
+     "text": "1979 SOUTHEASTERN VIRGINIA URBAN PLUME STUDY (SEV-UPS):",
+     "context": [
+      "",
+      "SURFACE AND AIRBORNE STUDIES"
+     ]
+    },
+    {
+     "line": 110,
+     "text": "dits at SEV-UPS sites during the program.",
+     "context": [
+      "Pasquini and Dr. W. C. Eaton, who conducted the instrument performance au-",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "jprs-report_jprs-ups-85-013",
+   "date": "1985-01-01",
+   "title_year": "1984",
+   "date_mismatch": true,
+   "in_window": false,
+   "title": "USSR Report: Political and Sociological Affairs \u2014 Table of Contents: JPRS-UPS-84-057, 6 July 1984 - JPRS-UPS-84-114, 26 ",
+   "family": "corporate_print",
+   "meta_date": "1985-01-01",
+   "status": "cached",
+   "bytes": 248978,
+   "named_terms": [
+    "united parcel service"
+   ],
+   "other_terms": [
+    "of america"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 64,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "of america"
+   ],
+   "sample": [
+    {
+     "line": 6978,
+     "text": "Voice of America",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "NASA_NTRS_Archive_19810007997",
+   "date": "1981-01-01",
+   "title_year": "1981",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "NASA Technical Reports Server (NTRS) 19810007997: Analysis of GOES imagery and digitized data for the SEV-UPS period, Au",
+   "family": "corporate_print",
+   "meta_date": "1981-01-01",
+   "status": "cached",
+   "bytes": 48989,
+   "named_terms": [
+    "united parcel service"
+   ],
+   "other_terms": [
+    "of america"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 10,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 11,
+     "text": "Data for the SEV-UPS",
+     "context": [
+      "Imagery and Digitized",
+      "Period, August 1979"
+     ]
+    },
+    {
+     "line": 55,
+     "text": "Data for the SEV-UPS",
+     "context": [
+      "Imagery and Digitized",
+      "Period, August 1979"
+     ]
+    },
+    {
+     "line": 272,
+     "text": "The Southeastern Virginia Urban Plume Study (SEV-UPS) is a program",
+     "context": [
+      "",
+      "to address air quality problems and scientific understanding of the"
+     ]
+    }
+   ]
+  }
+ ]
+}

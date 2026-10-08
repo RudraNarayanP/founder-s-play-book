@@ -1,0 +1,28 @@
+{
+ "cik": "0001510295",
+ "requested_cik": "1510295",
+ "registrant": "Marathon Petroleum Corp",
+ "ticker": "MPC",
+ "tickers": [
+  "MPC"
+ ],
+ "former_names": [],
+ "company_dir": "company_030_marathon",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['marathon'] match registrant 'Marathon Petroleum Corp' (CIK 0001510295)"
+ ],
+ "built": "2026-09-29T19:01:06Z",
+ "count": 1884,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 0,
+ "csv_sha1": "3496d879ee37d020ada7c73ecdf0dd4b424b4761",
+ "csv_bytes": 161042,
+ "paths": {
+  "json": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_030_marathon\\sources\\_index\\submissions_CIK0001510295.json",
+  "csv": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_030_marathon\\sources\\_index\\submissions_CIK0001510295.csv",
+  "md": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_030_marathon\\sources\\_index\\_INDEX_CIK0001510295.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

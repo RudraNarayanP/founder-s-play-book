@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0001326801/000119312512046715/d287954ds1a.htm",
+ "fetched": "2026-09-29T19:05:39Z",
+ "sha1": "03d65b716db4e168bb89a92bb976f6e415d872ba",
+ "bytes": 111309,
+ "words": 4137,
+ "cik": "0001326801",
+ "registrant": "Meta Platforms, Inc.",
+ "accession": "0001193125-12-046715",
+ "document": "d287954ds1a.htm",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

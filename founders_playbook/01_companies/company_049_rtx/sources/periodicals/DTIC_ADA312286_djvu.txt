@@ -1,0 +1,1140 @@
+CALS  TEST  NETWORK 
+
+
+AFCTN  Test  Report  AFCTB-ID 
+
+93-032  92-050 
+
+
+Raster  Transfer  Test 
+using: 
+
+Raytheon  Company's  Data 
+MIL-R-28002A  (Raster) 
+Quick  Short  Test  Report 
+
+
+01  September  1992 
+
+
+Prepared  for 
+
+
+— ";T  4o,-  I 
+
+
+Electronic  Systems  Center 
+
+
+THIS  DOCUMENT  IS  BEST 
+QUALITY  AVAILABLE.  THE 
+COPY  FURNISHED  TO  DTIC 
+CONTAINED  A  SIGNIFICANT 
+NUMBER  OF  PAGES  WHICH  DO 
+NOT  REPRODUCE  LEGIBLY. 
+
+
+AFCTN  Test  Report 
+93-032 
+
+
+AFCTB-ID 
+
+92-050 
+
+
+Raster  Transfer  Test 
+Using: 
+
+Raytheon  Company's  Data 
+
+MIL-R-28002A  (Raster) 
+
+Quick  Short  Test  Report 
+1  September  1992 
+
+
+Prepared  By 
+
+Air  Force  CALS  Test  Bed 
+Wright -Patterson  AFB,  OH  45433 
+
+AFCTB  Contact 
+
+Gary  Lammers 
+(513)  427-2295 
+
+AFCTN  Contact 
+
+Mel  Lammers 
+(513)  427-2295 
+
+
+imC  QTJA^TT  INSPECTED  5 
+
+
+AFCTN  Test  Report 
+93-032 
+
+
+AFCTB  Test  Report 
+92-050 
+
+
+DISCLAIMER 
+
+
+This  document  was  prepared  as  an  account  of  the  work  sponsored  by  the  Air  Force. 
+Neither  the  United  States  Government,  the  Air  Force,  nor  any  of  their  employees, 
+makes  any  warranty,  express  or  implied,  or  assumes  any  legal  liability  or  responsibility 
+for  the  accuracy,  completeness,  or  usefiilness  of  any  information,  apparatus,  product, 
+or  process  disclosed,  nor  rq)resents  that  its  use  would  not  infringe  on  privately  owned 
+rights.  Reference  herein  to  any  specific  commercial  products,  process,  or  service  by 
+trade  name,  trademark,  manufacturer,  or  otherwise,  does  not  necessarily  constitute  or 
+imply  its  endorsement,  recommendation,  or  favoring  by  the  United  States  Government 
+or  the  Air  Force.  The  views  and  opinions  of  authors  expressed  herein  do  not  necessar¬ 
+ily  state  or  reflect  those  of  the  United  States  Government  or  the  Air  Force,  and  shall 
+not  be  used  for  advertising  or  product  endorsement  purposes. 
+
+
+Available  to  the  public  from  the 
+National  Technical  Information  Service 
+U.S.  Department  of  Commerce 
+5285  Port  Royal  Rd. 
+Springfield,  VA  22161 
+
+
+This  report  and  those  involved  in  its  preparation  do  not  endorse  any  product,  process, 
+or  company  stated  herein.  Use  of  these  means  by  anyone  does  not  imply  certification 
+by  the  Air  Force  CALS  Test  Network  (AFCTN). 
+
+
+AFCTN  Test  Report  AFCTB  Test  Report 
+
+93-032  92-050 
+
+
+Contents 
+
+1.  Introduction . 1 
+
+1.1.  Background . 1 
+
+1.2.  Purpose . 2 
+
+2 .  Test  Parameters . 3 
+
+3.  1 84 OA  Analysis . 5 
+
+3.1.  External  Packaging . 5 
+
+3.2.  Transmission  Envelope . 5 
+
+3.2.1.  Tape  Formats . 5 
+
+3.2.2.  Declaration  and  Header  Fields . 5 
+
+4.  IGES  Analysis . 6 
+
+5.  SGML  Analysis . 6 
+
+6.  Raster  Analysis . 6 
+
+7.  CGM  Analysis . 7 
+
+8.  Conclusions  and  Recommendations . 7 
+
+9.  Appendix  A  -  Tapetool  Report  Logs . 8 
+
+9.1.  Tape  Catalog . 8 
+
+9.2.  Tape  Evaluation  Log . 9 
+
+9.3.  Tape  File  Set  Validation  Log . 13 
+
+9.4.  Other  Tape  Reading  Logs . 15 
+
+10.  Appendix  B  -  Detailed  Raster  Analysis . 16 
+
+10.1.  File  D001R013 . 16 
+
+10.1.1.  Output  IslandPaint . 16 
+
+
+1 
+
+
+AFCTN  Test  Report 
+93-032 
+
+
+AFCTB  Test  Report 
+92-050 
+
+
+10-1.2.  Output  Preview . 17 
+
+10.2.  File  D001R029 . 18 
+
+10.2.1.  Output  IslandPaint . 18 
+
+10.2.2.  Output  Preview . 19 
+
+10.3.  File  D001R046 . 20 
+
+10.3.1.  Output  IslandPaint . 20 
+
+10.3.2.  Output  Preview . 21 
+
+10.3.3.  Output  Ventura  Publisher;  R013/R046 . . . .22 
+
+10.3.4.  Output  Ventura  Publisher;  R046/R046 . . . .23 
+
+
+ii 
+
+
+AFCTN  Test  Report 
+93-032 
+
+
+AFCTB  Test  Report 
+92-050 
+
+
+1.  Introduction 
+1.1  Background 
+
+
+The  Department  of  Defense  (DoD)  Air  Force  Continuous  Acquisition  and  Life-Cycle 
+Support  (CALS)  Test  Network  (AFCTN)  is  conducting  tests  of  the  military  standard 
+for  the  Automated  Interchange  of  Technical  Information,  MIL-STD-1840A,  and  its 
+companion  suite  of  milita^  specifications.  The  AFCTN  is  a  DoD  sponsored  confeder¬ 
+ation  of  voluntary  participants  from  industry  and  government  managed  by  the  Elec¬ 
+tronic  Systems  Center  (ESC). 
+
+The  primary  objective  of  the  AFCTN  is  to  evaluate  the  effectiveness  of  the  CALS 
+standards  for  technical  data  interchange  and  to  demonstrate  the  tecWcal  capabilities 
+and  operational  suitability  of  those  standards.  Two  general  categories  of  tests  are  per¬ 
+form^  to  evaluate  the  standards;  formal  and  informal. 
+
+Formal  tests  are  large  and  comprehensive,  which  follow  a  written  test  plan,  require 
+specific  authorization  from  the  DoD,  and  may  take  months  to  prepare,  execute,  and 
+report. 
+
+Informal  tests  are  quick  and  short,  used  by  the  AFCTN  technical  staff,  to  broaden  the 
+testing  base.  They  include  rq)resentative  samples  of  the  many  systems  and  applications 
+used  by  AFCTN  participants.  They  also  allow  the  AFCTN  staff  to  gain  feedback  from 
+many  industry  and  government  interpretations  of  the  standards,  to  increase  the  base  of 
+participation  in  the  CALS  initiative,  and  respond  to  the  many  requests  for  help  that 
+come  from  participants.  Participants  take  part  voluntarily,  benefit  by  receiving  an 
+evaluation  of  their  latest  implementation  (interpretation)  of  the  standards,  interact  with 
+the  AFCTN  technical  staff,  gain  experience  using  the  standards,  and  develop  increased 
+confidence  in  them.  The  results  of  informal  tests  are  report^  in  Quick  Short  Test 
+Reports  (QSTRs)  that  briefly  summarize  the  standard(s)  tested,  the  hardware  and 
+software  used,  the  nature  of  the  test,  and  the  results. 
+
+
+1 
+
+
+AFCTN  Test  Report 
+93-032 
+
+
+AFCTB  Test  Report 
+92-050 
+
+
+1.2  Purpose 
+
+
+The  puq)ose  of  the  informal  test,  reported  in  this  QSTR,  was  to  analyze 
+Raytheon  Company's  interpretation  and  use  of  the  CALS  stan^ds  in  transferring  tech¬ 
+nical  publication  data.  Raytheon  used  its  CALS  Technical  Data  Interchange  System  to 
+produce  data,  in  accordance  with  the  standards,  and  delivered  it  to  the  AFCTN  techni¬ 
+cal  staff  on  a  9-track  magnetic  tape. 
+
+
+2 
+
+
+AFCTN  Test  Report 
+93-032 
+
+
+AFCTB  Test  Report 
+92-050 
+
+
+2.  Test  Parameters 
+
+
+Test  Plan: 
+
+Date  of 
+Evaluation: 
+
+Evaluator: 
+
+
+Data 
+
+Originator: 
+
+
+Data 
+
+Description: 
+
+
+Data 
+
+Source  System: 
+
+
+AFCTB  92-050 
+
+
+1  September  1992 
+
+George  Elwood 
+Air  Force  CALS  Test  Bed 
+HQ  ESC/ENCP 
+Suite  200 
+
+4027  Colonel  Glenn  Hwy 
+Dayton  OH  45431-1672 
+
+
+Lynn  B,  Wiles 
+Raytheon  Corr^ciny 
+Missile  System  Division 
+350  Lowell  Street 
+Andover  MA  01810 
+
+
+Technical  Manual  Test 
+
+1  Document  Declaration  file 
+52  Raster  files 
+
+
+Raster 
+
+
+HARDWARE 
+
+Unknown 
+
+SOFTWARE 
+
+Unknown 
+
+
+Evaluation  Tools  Used: 
+
+NIL-STD-1840A  (TAPE) 
+
+SUN  3/280 
+
+AFCTN  Tape tool  Vl.2,8  UNIX 
+
+AGFA  Compugraphics  CAPS /CALS  v40.4 
+
+
+3 
+
+
+AFCTN  Test  Report 
+93-032 
+
+
+AFCTB  Test  Report 
+92-050 
+
+
+Standards 
+
+Tested: 
+
+
+MIL-R-28002  (Raster) 
+
+SUN  SparcStation  2 
+
+ArborText  g42tiff 
+
+AFCTN  validg4 
+
+AFCTN  calstb.475 
+
+Island  Graphics  IslcLzidPaint  v3.0 
+
+Rosetta  Technologies  Preview 
+
+Cheetah 
+
+Inset  Systems  Hi JaaJc  v2.02 
+Software  Publishing  Corporation 
+
+(SPC)  Harvard  Graphics  v3.0 
+Xerox  Ventura  Publisher 
+
+
+MIL-STD-1840A 
+
+MIL-R-28002A 
+
+
+4 
+
+
+AFCTN  Test  Report 
+93-032 
+
+
+AFCTB  Test  Report 
+92-050 
+
+
+3.  1840A  Analysis 
+
+3.1  External  Packaging 
+
+
+The  tape  arrived  at  the  Air  Force  CALS  Test  Bed  (AFCTB)  en¬ 
+closed  in  a  box  in  accordance  with  the  ASTM  D  3951.  The 
+exterior  of  the  box  was  marked  with  the  magnetic  tape 
+warning  lc±>el,  as  required  by  MIL-STD-1840A,  para.  5. 3. 1.3. 
+
+The  tape  was  enclosed  in  a  barrier  bag  as  required  by 
+MIL-STD-1840A,  para.  5. 3. 1.2.  Inspection  of  the  tape  reel 
+showed  the  label  indicating  the  recording  density,  as  re¬ 
+quired  by  MIL-STD-1840A,  para.  5.3.1.  Enclosed  in  the  box 
+was  a  packing  list  showing  all  files  recorded  on  the  tape. 
+
+
+3.2  Transmission  Envelope 
+
+
+The  9 -track  tape  received  by  the  AFCTB  contained  MIL-STD- 
+1840A  files.  The  files  were  named  per  the  standard  conven¬ 
+tions  . 
+
+
+3.2.1  Tape  Formats 
+
+
+The  1840A  tape  was  arun  through  the  AFCTN  Tapetool  vl.2.8 
+utility.  No  errors  were  encountered  while  evaluating  the 
+contents  of  the  tape  labels. 
+
+The  tape  was  also  read  using  AGFA'S  CAPS  readl840A  tape 
+utility  without  any  reported  problems. 
+
+
+3.2.2  Declaration  and  Header  Fields 
+
+
+No  errors  were  reported  in  the  Document  Declaration  file 
+or  data  header  records. 
+
+
+5 
+
+
+AFCTN  Test  Report 
+93-032 
+
+
+AFCTB  Test  Report 
+92-050 
+
+
+4«  IGES  Analysis 
+
+
+No  Initial  Graphics  Exchange  Specification  (IGES)  files  were 
+included  on  the  tape. 
+
+
+5.  SGML  Analysis 
+
+
+No  Standard  Generalized  Markup  Language  (SGML)  files  were 
+included  on  the  tape. 
+
+
+6.  Raster  Analysis 
+
+
+The  tape  contained  52  Raster  images.  All  52  images  were 
+checked  using  the  AFCTN  validg4  utility.  This  utility  re¬ 
+ported  all  files  were  valid  MIL-R-28002A  files.  Selected 
+files  were  imported  into  the  AFCTN  calstb.475  viewing 
+utility  without  a  reported  problem.  The  images  were  clean 
+with  no  orphan  pixels  noted.  The  images  were  scanned 
+straight.  File  D001R046  displayed  a  slight  notable  angle. 
+
+A  selection  of  files  were  converted  using  Rosetta  Tech¬ 
+nologies'  Prepare  with  no  reported  problems.  The  resulting 
+files  were  viewed  and  printed.  The  hard  copies  of  these 
+files  are  included  in  the  Appendix  of  this  report. 
+
+The  same  files  were  converted  using  TlrborText's  g42tiff  with 
+no  reported  problems.  The  resulting  files  were  viewed  and 
+printed  using  Island  Graphics'  IslandPaint. 
+
+The  same  files  were  converted  to  an  IMG  format  on  the  PC 
+using  Inset  Systems'  HiJaak  with  no  reported  problems.  They 
+were  also  converted  to  a  PCX  format.  The  PCX  format  files 
+were  seen  through  a  Viewer  with  no  problems.  The  IMG  files 
+were  imported  into  the  Xerox  Ventura  Publisher  and  a  hard 
+copy  is  included  in  the  Appendix  of  this  report. 
+
+The  Raster  files  meet  the  CALS  MIL-R-28002A  specification. 
+
+
+6 
+
+
+AFCTN  Test  Report 
+93-032 
+
+
+AFCTB  Test  Report 
+92-050 
+
+
+7.  CGM  Analysis 
+
+
+No  Computer  Graphics  Metafile  (CGM)  files  were  included  on 
+the  tape. 
+
+
+8.  Conclusions  and  Reconunendations 
+
+
+In  summary,  the  MIL-STD-1840A  tape  from  Raytheon  Company 
+was  correct.  The  tape  could  be  read  properly  using  the 
+AFCTN  Tapetool  and  AGFA'S  readl840A  without  any  reported 
+errors . 
+
+The  Raster  images  on  the  tape  were  all  valid  files.  They 
+were  converted,  viewed,  and  printed  without  a  problem.  The 
+quality  of  the  images  was  good. 
+
+The  tape  provided  by  the  Raytheon  Company  meets  the  CALS 
+MIL-STD- 1840A  requirements. 
+
+
+7 
+
+
+AFCTN  Test  Report 
+93-032 
+
+
+AFCTB  Test  Report 
+92-050 
+
+
+9.  Appendix  A  -  Tapetool  Report  Logs 
+9.1  Tape  Catalog 
+
+
+Air  Force  CALS  Test  Network  Catalog  Evaluation  -  Version  1.2;  Release  Number  8 
+Standards  referenced: 
+
+MIL-STD-1840A  (1987)  -  Automated  Interchange  of  Technical  Information 
+ANSI  X3.27  (1987)  -  File  Structure  and  labeling  of  Magnetic  Tapes 
+
+for  Information  Interchange 
+ANSI  X3.4  (1986)  -  Coded  Character  Sets  -  7  Bit  ASCII 
+
+Tue  Sep  1  07:55:08  1992 
+
+MIL-STD-1840A  File  Catalog 
+
+File  Set  Directory:  /calB/tapetool8/Set083 
+
+
+File  Name 
+
+File  Type 
+
+Record 
+
+Format/ 
+
+Length 
+
+Block 
+
+Length/Total 
+
+Page :  1 
+
+Selected/ 
+
+Extracted 
+
+DOOl 
+
+Document  Declaration 
+
+D/00260 
+
+02048/000001 
+
+Extracted 
+
+DOOlROOl 
+
+Raster 
+
+F/00128 
+
+02048/000022 
+
+Extracted 
+
+D001R002 
+
+Raster 
+
+F/00128 
+
+02048/000020 
+
+Extracted 
+
+D001R003 
+
+Raster 
+
+F/00128 
+
+02048/000027 
+
+Extracted 
+
+<<<<<  PART  OF  LOG 
+
+REMOVED  HERE  »»> 
+
+D001R050 
+
+Raster 
+
+F/00128 
+
+02048/000028 
+
+Extracted 
+
+D001R051 
+
+Raster 
+
+F/00128 
+
+02048/000030 
+
+Extracted 
+
+D001R052 
+
+Raster 
+
+F/00128 
+
+02048/000028 
+
+Extracted 
+
+Catalog  Process  terminated  normally. 
+
+
+AFCTN  Test  Report 
+93-032 
+
+
+AFCTB  Test  Report 
+92-050 
+
+
+9.2  Tape  Evaluation  Log 
+
+
+Air  Force  CALS  Test  Network  Tape  Evaluation  -  Version  1.2;  Release  Number  8 
+Standards  referenced: 
+
+ANSI  X3.27  (1987)  -  File  Structure  and  labeling  of  Magnetic  Tapes 
+
+for  Information  Interchange 
+ANSI  X3.4  (1986)  -  Coded  Character  Sets  -  7  Bit  ASCII 
+
+Tue  Sep  1  07:53:57  1992 
+
+ANSI  Tape  Iitport  Log 
+
+Allocating  tape  drive  /dev/rmtO _ 
+
+/dev/rmtO  allocated. 
+
+VOLICALSOI 
+
+Label  Identifier:  VOLl 
+Volume  Identifier:  CALSOl 
+Volume  Accessibility: 
+
+Owner  Identifier: 
+
+Label  Standard  Version:  4 
+
+HDRIDOOI  CALSOIOOOIOOOIOOOOOO  92227  00000  000000 
+
+Label  Identifier:  HDRl 
+File  Identifier:  DOOl 
+File  Set  Identifier:  CALSOl 
+File  Section  Number:  0001 
+File  Sequence  Number:  0001 
+Generation  Number:  0000 
+Generation  Version  Number:  00 
+Creation  Date:  92227 
+Expiration  Date:  00000 
+File  Accessibility: 
+
+Block  Count:  000000 
+Iirplementation  Identifier: 
+
+HDR2D0204800260  00 
+
+Label  Identifier:  HDR2 
+Recording  Format :  D 
+Block  Length:  02048 
+Record  Length:  00260 
+Offset  Length:  00 
+
+
+9 
+
+
+AFCTN  Test  Report 
+93-032 
+
+
+AFCTB  Test  Report 
+92-050 
+
+
+************  Tape  Mark  *************** 
+
+Actual  Block  Size  Found  =  2048  Bytes. 
+
+Number  of  data  blocks  read  =1. 
+
+************  Tape  Mark  *************** 
+
+EOFIDOOI  CALSOIOOOIOOOIOOOOOO  92227  00000  000001 
+
+Lcibel  Identifier:  EOFl 
+File  Identifier:  DOOl 
+File  Set  Identifier:  CALSOl 
+File  Section  Number:  0001 
+File  Sequence  Number:  0001 
+Generation  Number:  0000 
+Generation  Version  Number:  00 
+Creation  Date:  92227 
+Expiration  Date:  00000 
+File  Accessibility: 
+
+Block  Count:  000001 
+Implementation  Identifier: 
+
+EOF2D0204800260  00 
+
+Label  Identifier:  EOF2 
+Recording  Format:  D 
+Block  Length:  02048 
+Record  Length:  00260 
+Offset  Length:  00 
+
+************  Tape  Mark  *************** 
+
+HDRIDOOIROOI  CALS0100010002000000  92227  00000  000000 
+
+Label  Identifier:  HDRl 
+File  Identifier:  DOOlROOl 
+File  Set  Identifier:  CALSOl 
+File  Section  Number:  0001 
+File  Sequence  Nimnber:  0002 
+Generation  Number:  0000 
+Generation  Version  Number:  00 
+Creation  Date:  92227 
+Expiration  Date:  00000 
+File  Accessibility: 
+
+Block  Count:  000000 
+
+
+10 
+
+
+AFCTN  Test  Report 
+93-032 
+
+
+AFCTB  Test  Report 
+92-050 
+
+
+In^lementation  Identifier: 
+
+HDR2F0204800128  00 
+
+Label  Identifier:  HDR2 
+Recording  Format :  F 
+Block  Length:  02048 
+Record  Length:  00128 
+Offset  Length:  00 
+
+************  Tape  Mark  *************** 
+
+Actual  Block  Size  Found  =  2048  Bytes . 
+
+Number  of  data  blocks  read  =  22. 
+
+************  Tape  Mark  *************** 
+
+EOFIDOOIROOI  CALS0100010002000000  92227  00000  000022 
+
+Label  Identifier:  EOFl 
+File  Identifier:  DOOlROOl 
+File  Set  Identifier:  CALSOl 
+File  Section  Number:  0001 
+File  Sequence  Number:  0002 
+Generation  Number:  0000 
+Generation  Version  Number:  00 
+Creation  Date:  92227 
+Expiration  Date:  00000 
+File  Accessibility: 
+
+Block  Count:  000022 
+Implementation  Identifier: 
+
+EOF2F0204800128  00 
+
+Label  Identifier:  EOF2 
+Recording  Format :  F 
+Block  Length:  02048 
+Record  Length:  00128 
+Offset  Length:  00 
+
+************  Tape  Mark  *************** 
+
+
+««<  PART  OF  LOG  REMOVED  HERE  »»> 
+************  Tape  Mark  *************** 
+
+
+11 
+
+
+AFCTN  Test  Report 
+93-032 
+
+
+AFCTB  Test  Report 
+92-050 
+
+
+EOF1D001R052  CALS0100010053000000  92227  00000  000028 
+
+Label  Identifier:  EOFl 
+File  Identifier:  D001R052 
+File  Set  Identifier:  CALSOl 
+File  Section  Number:  0001 
+File  Sequence  Niomber:  0053 
+Generation  Number:  0000 
+Generation  Version  Number:  00 
+Creation  Date:  92227 
+Expiration  Date:  00000 
+File  Accessibility: 
+
+Block  Count:  000028 
+Implementation  Identifier: 
+
+EOF2F0204800128  00 
+
+Label  Identifier:  EOF2 
+Recording  Format :  F 
+Block  Length:  02048 
+Record  Length:  00128 
+Offset  Length:  00 
+
+*’k*-k**ie*ie-kieie  Tape  Mark  *************** 
+
+************  Tape  Mark  *********i*f***** 
+
+############  End  of  Volume  CALSOl  ############## 
+############  End  Of  Tape  File  Set  ############## 
+Deallocating  /dev/mtO . . . 
+
+Tape  Iit5>ort  Process  terminated  normally. 
+
+
+12 
+
+
+AFCTN  Test  Report 
+93-032 
+
+
+AFCTB  Test  Report 
+92-050 
+
+
+9.3  Tape  File  Set  Validation  Log 
+
+Air  Force  CALS  Test  Network  File  Set  Evaluation  -  Version  1.2;  Release  Number  8 
+Standards  referenced: 
+
+MIL-STD-1840A  (1987)  -  Automated  Interchange  of  Technical  Information 
+MIL-R-28002  (1989)  -  Raster  Graphics  Representation  In  Binary 
+
+Format,  Requirements  For 
+
+Tue  Sep  1  07:55:09  1992 
+
+MIL- STD- 184 OA  File  Set  Evaluation  Log 
+
+File  Set:  Set083 
+
+Found  file:  DOOl 
+
+Extracting  Document  Declaration  Header  Records . . . 
+
+Evaluating  Document  Declaration  Header  Records _ 
+
+srcsys:  Raytheon  MSD,  350  Lowell  St.  Andover,  MA  01810  R.  B.  Goodwin,  Andover  Eng'g 
+ANF-B16  (508)  470-7425 
+
+srcdocid:  PDPATRIOT  18876  AX  DDCTN  C 
+
+srcrelid:  NONE 
+
+Chglvl:  ORIGINAL 
+
+dteisu:  19920814 
+
+dstsys:  DSREDS 
+
+dstdocid:  NONE 
+
+dstrelid:  NONE 
+
+dtetm:  19920814 
+
+dlvacc:  NONE 
+
+filcnt:  R52 
+
+ttlcls:  UNCLASSIFIED 
+
+doccls:  UNCLASSIFIED 
+
+doctyp :  Product  Data 
+
+docttl :  Patriot  Missile  System 
+
+Found  file:  DOOlROOl 
+
+Extracting  Raster  Header  Records . . . 
+
+Evaluating  Raster  Header  Records . . . 
+
+srcdocid:  SDSD11444470  18876  F  AX  OOOIOOOIUDCTNOOOI  CC 
+
+dstdocid:  SD11444470 
+
+txtfilid:  NONE 
+
+figid:  NONE 
+
+srcgph:  NONE 
+
+doccls:  UNCLASSIFIED 
+
+
+13 
+
+
+AFCTN  Test  Report 
+93-032 
+
+
+AFCTB  Test  Report 
+92-050 
+
+
+rtype :  1 
+
+rorient:  000,270 
+rpelcnt:  004549,003525 
+rdensty:  0200 
+
+notes:  ANTENNA  ELEMENT- IFF  INTERCONNECTING  DIAG. 
+
+Saving  Raster  Header  File:  D001R001__HDR 
+Saving  Raster  Data  File:  D001R001_GR4 
+
+««<  PART  OF  LOG  REMOVED  HERE  »»> 
+
+
+Found  file:  D001R052 
+
+Extracting  Raster  Header  Records... 
+
+Evaluating  Raster  Header  Records . . . 
+
+srcdocid:  ED11449203  18876  C  AX  OOOlOOOlUDCTNOOOl  CC 
+
+dstdocid:  11449203 
+
+txtfilid:  NONE 
+
+figid:  NONE 
+
+srcgph:  NONE 
+
+doccls:  UNCLASSIFIED 
+
+rtype :  1 
+
+rorient:  000,270 
+rpelcnt:  004545,003520 
+rdensty:  0200 
+note  s :  FLANGE ,  TUBE 
+
+Saving  Raster  Header  File:  D001R052_HDR 
+Saving  Raster  Data  File:  D001R052_GR4 
+
+Evaluating  niombering  scheme . . . 
+
+No  errors  were  encountered  during  numbering  scheme  evaluation. 
+Numbering  scheme  evaluation  coirplete. 
+
+Checking  file  count... 
+
+No  errors  were  encountered  during  file  count  verification. 
+
+File  Count  verification  con^lete. 
+
+No  errors  were  encountered  in  Document  DOOl. 
+
+No  errors  were  encountered  in  this  File  Set. 
+
+MIL-STD-1840A  File  Set  Evaluation  Coit5)lete. 
+
+
+14 
+
+
+AFCTN  Test  Report 
+93-032 
+
+
+AFCTB  Test  Report 
+92-050 
+
+
+9.4  Other  Tape  Reading  LOGs 
+
+No  reported  errors. 
+
+
+15 
+
+
+AFCTN  Test  Report 
+93-032 
+
+
+APCTB  Test  Report 
+92-050 
+
+
+10.  Appendix  B  -  Detailed  Raster  Analysis 
+
+10.1  FileD001R013 
+
+10.1.1  Output  IsIandPaint 
+
+
+L6 
+
+
+17 
+
+
+18 
+
+
+AFCTN  Test  Report 
+93-032 
+
+
+AFCTB  Test  Report 
+92-050 
+
+
+10.2.2  Output  Preview 
+
+
+19 
+
+
+AFCTN  Test  Report  AFCTB  Test  Report 
+
+93-032  92-050 
+
+
+10.3  FileD001R046 
+10.3.1  OutDut  TslandPaint 
+
+
+20 
+
+
+AFCTN  Test  Report 
+93-032 
+
+
+AFCTB  Test  Report 
+92-050 
+
+
+10.3.2  Output  Preview 
+
+
+21 
+
+
+22 
+
+
+AFCTN  Test  Report 
+93-032 
+
+
+TIFCTB  Test  Report 
+92-050 
+
+
+23 
+
+

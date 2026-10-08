@@ -1,0 +1,9 @@
+{
+ "identifier": "sim_pharmacy-times_1989_55_index",
+ "url": "https://archive.org/download/sim_pharmacy-times_1989_55_index/sim_pharmacy-times_1989_55_index_djvu.txt",
+ "fetched": "2026-10-06T11:58:36Z",
+ "bytes": 38668,
+ "route": "download/<id>/sim_pharmacy-times_1989_55_index_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

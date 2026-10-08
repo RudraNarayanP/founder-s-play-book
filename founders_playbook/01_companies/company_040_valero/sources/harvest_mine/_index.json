@@ -1,0 +1,307 @@
+{
+ "window": [
+  "1979-01-01",
+  "2001-12-31"
+ ],
+ "candidates": 15,
+ "mined": 12,
+ "untried_by_limit": 1,
+ "items": [
+  {
+   "identifier": "ANA-DIG-THENEWSARUBA-D0216-05-20051104-DOC",
+   "date": "2005-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "Valero Refinery Aruba is hiring!, original article",
+   "family": "internet_archive",
+   "meta_date": "2005-01-01",
+   "status": "cached",
+   "bytes": 1993,
+   "named_terms": [
+    "formerly known as valero",
+    "valero energy",
+    "valero energy corporation"
+   ],
+   "other_terms": [
+    "diamond shamrock"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 5,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "Valero Refinery Aruba is hiring!",
+     "context": [
+      "The Promenade Restaurant in San Nicholas was the site for hundreds of island residents to take advantage"
+     ]
+    },
+    {
+     "line": 3,
+     "text": "of the opportunity to get a job at the Valero Refinery this past Thursday and Friday. David Smith,",
+     "context": [
+      "The Promenade Restaurant in San Nicholas was the site for hundreds of island residents to take advantage",
+      "Community and Government Affairs Director for Valero stated they expected to take applications and"
+     ]
+    },
+    {
+     "line": 4,
+     "text": "Community and Government Affairs Director for Valero stated they expected to take applications and",
+     "context": [
+      "of the opportunity to get a job at the Valero Refinery this past Thursday and Friday. David Smith,",
+      "interview over 400 candidates by the time the job fair was done."
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "ANA-DIG-THENEWSARUBA-D0046-01-20050903-DOC",
+   "date": "2005-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "The first annual \"Aruba Way\" Golf Tournament raises $55,000 for the Washington Center for Children, original article",
+   "family": "internet_archive",
+   "meta_date": "2005-01-01",
+   "status": "cached",
+   "bytes": 3175,
+   "named_terms": [
+    "formerly known as valero",
+    "valero energy",
+    "valero energy corporation"
+   ],
+   "other_terms": [
+    "diamond shamrock"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 9,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 8,
+     "text": "day of golf was donated by of Tierra del Sol, while Valero Refinery donated the trophies and dinner.",
+     "context": [
+      "buffet awards dinner on the Tierra del Sol terrace. Tournament fees will all be donated to the center and the",
+      "The \u201cAruba Way\u201d is a charitable program sponsored by Valero Refinery Aruba, which gets its main funds"
+     ]
+    },
+    {
+     "line": 9,
+     "text": "The \u201cAruba Way\u201d is a charitable program sponsored by Valero Refinery Aruba, which gets its main funds",
+     "context": [
+      "day of golf was donated by of Tierra del Sol, while Valero Refinery donated the trophies and dinner.",
+      "from donations made by Valero Refinery employees. They specify a percentage of their salaries to be"
+     ]
+    },
+    {
+     "line": 10,
+     "text": "from donations made by Valero Refinery employees. They specify a percentage of their salaries to be",
+     "context": [
+      "The \u201cAruba Way\u201d is a charitable program sponsored by Valero Refinery Aruba, which gets its main funds",
+      "deducted, and the refinery matches that amount, which will produce 500,000 Arubian florins to be donated"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "6382447-Valero-Benicia-Exceedance-Investigation-Report",
+   "date": "2019-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "Valero Benicia Exceedance Investigation Report",
+   "family": "corporate_print",
+   "meta_date": "2019-01-01",
+   "status": "ok",
+   "bytes": 10553,
+   "named_terms": [
+    "formerly known as valero",
+    "valero energy",
+    "valero energy corporation"
+   ],
+   "other_terms": [
+    "diamond shamrock"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 10,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 3,
+     "text": "Valero'",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 6,
+     "text": "Valero Benicia Refinery",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 15,
+     "text": "I, 000 ppm (\"Incident\"). Valero Benicia Refinery (\"Valero\" or \"Refinery\") promptly shutdown the Fluid",
+     "context": [
+      "",
+      "Coker; however, this did not resolve the elevated FGS Stack CO. Multiple processing units, including the"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "gov.uscourts.cand.173961",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.cand.173961_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.laed.144436",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.laed.144436_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.tnwd.97261",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.tnwd.97261_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "ANA-DIG-THENEWSARUBA-D0072-03-20060209-DOC",
+   "date": "2006-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "Valero announces a new scholarship program for Aruban students, original article",
+   "family": "internet_archive",
+   "meta_date": "2006-01-01",
+   "status": "cached",
+   "bytes": 3446,
+   "named_terms": [
+    "formerly known as valero",
+    "valero energy",
+    "valero energy corporation"
+   ],
+   "other_terms": [
+    "diamond shamrock"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 14,
+   "phrase_hits": 1,
+   "entity_hits": 3,
+   "matched_entities": [
+    "valero employees",
+    "valero energy"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 28,
+     "text": "Valero Energy Corporation, A Fortune 500 Company based out of San Antonio, Texas has already awarded",
+     "context": [
+      "The scholarship program has existed for a number of years within the international Valero community, and",
+      "more than two million dollars to 269 students related to Valero employees wherever the company has"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "gov.uscourts.cacd.793552",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.cacd.793552_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.laed.135477",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.laed.135477_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.oked.17485",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.oked.17485_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.uscourts.txnd.248740",
+   "date": "",
+   "status": "UNANSWERED -- no text layer resolved (HTTP 404); tried gov.uscourts.txnd.248740_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "ANA-DIG-THENEWSARUBA-D0078-05-20070214-DOC",
+   "date": "2007-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "CEO and Chairman of Valero Energy Corporation, Bill Klesse, clarifies the position of Valero Aruba refinery on the BBO, ",
+   "family": "internet_archive",
+   "meta_date": "2007-01-01",
+   "status": "cached",
+   "bytes": 8097,
+   "named_terms": [
+    "formerly known as valero",
+    "valero energy",
+    "valero energy corporation"
+   ],
+   "other_terms": [
+    "diamond shamrock"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 27,
+   "phrase_hits": 2,
+   "entity_hits": 3,
+   "matched_entities": [
+    "valero corporation",
+    "valero energy"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "CEO and Chairman of Valero Energy Corporation, Bill Klesse, clarifies the position of",
+     "context": [
+      "Varlero Aruba refinery on the BBO"
+     ]
+    },
+    {
+     "line": 3,
+     "text": "Oranjestad, February 14, 2007-The CEO and Chairman of Valero Energy Corporation, Mr. Bill",
+     "context": [
+      "Varlero Aruba refinery on the BBO",
+      ""
+     ]
+    }
+   ]
+  }
+ ]
+}

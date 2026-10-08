@@ -1,0 +1,439 @@
+{
+ "window": [
+  "1984-01-01",
+  "1992-12-31"
+ ],
+ "candidates": 40,
+ "mined": 12,
+ "untried_by_limit": 16,
+ "items": [
+  {
+   "identifier": "DTIC_ADA199042",
+   "date": "1987-01-01",
+   "title_year": "1990",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "DTIC ADA199042: Ada Compiler Validation Summary Report: Certificate Number: 871211W1. 09007, R. R. Software, Inc., JANUS",
+   "family": "corporate_print",
+   "meta_date": "1987-01-01",
+   "status": "cached",
+   "bytes": 92941,
+   "named_terms": [
+    "dell computer",
+    "dell computer corporation"
+   ],
+   "other_terms": [
+    "pc s limited"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "DTIC_ADA206527",
+   "date": "1988-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "DTIC ADA206527: ADA Compiler Validation Summary Report: Certificate Number: 880624W1. 09125, R. R. Software, Inc., Inter",
+   "family": "corporate_print",
+   "meta_date": "1988-01-01",
+   "status": "cached",
+   "bytes": 89738,
+   "named_terms": [
+    "dell computer",
+    "dell computer corporation"
+   ],
+   "other_terms": [
+    "pc s limited"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "DTIC_ADA210817",
+   "date": "1989-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "DTIC ADA210817: Ada Compiler Validation Summary Report: Certificate Number: 890113W1. 10021 R. R. Software, Inc. JANUS/A",
+   "family": "corporate_print",
+   "meta_date": "1989-01-01",
+   "status": "cached",
+   "bytes": 95721,
+   "named_terms": [
+    "dell computer",
+    "dell computer corporation"
+   ],
+   "other_terms": [
+    "pc s limited"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "DTIC_ADA220594",
+   "date": "1989-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "DTIC ADA220594: Ada Compiler Validation Summary Report: Certificate Number: 890919W1. 10157 R. R. Software, Inc., Janus/",
+   "family": "corporate_print",
+   "meta_date": "1989-01-01",
+   "status": "cached",
+   "bytes": 98386,
+   "named_terms": [
+    "dell computer",
+    "dell computer corporation"
+   ],
+   "other_terms": [
+    "pc s limited"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "DTIC_ADA211962",
+   "date": "1989-01-01",
+   "title_year": "1962",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "DTIC ADA211962: Ada Compiler Validation Summary Report. Certificate Number: 890113W1. 10023, R. R. Software, Inc. JANUS/",
+   "family": "corporate_print",
+   "meta_date": "1989-01-01",
+   "status": "cached",
+   "bytes": 96494,
+   "named_terms": [
+    "dell computer",
+    "dell computer corporation"
+   ],
+   "other_terms": [
+    "pc s limited"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "DTIC_ADA211965",
+   "date": "1989-01-01",
+   "title_year": "1965",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "DTIC ADA211965: Ada Compiler Validation Summary Report. Certificate Number: 890113W1. 10023, R. R. Software, Inc. JANUS/",
+   "family": "corporate_print",
+   "meta_date": "1989-01-01",
+   "status": "cached",
+   "bytes": 36159,
+   "named_terms": [
+    "dell computer",
+    "dell computer corporation"
+   ],
+   "other_terms": [
+    "pc s limited"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "DTIC_ADA210818",
+   "date": "1989-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "DTIC ADA210818: Ada Compiler Validation Summary Report: Certificate Number: 890113W1. 10021 R. R. Software, Inc. JANUS/A",
+   "family": "corporate_print",
+   "meta_date": "1989-01-01",
+   "status": "cached",
+   "bytes": 96227,
+   "named_terms": [
+    "dell computer",
+    "dell computer corporation"
+   ],
+   "other_terms": [
+    "pc s limited"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "DTIC_ADA298471",
+   "date": "1995-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "DTIC ADA298471: Little Dell Lake Foundation Report.",
+   "family": "corporate_print",
+   "meta_date": "1995-01-01",
+   "status": "cached",
+   "bytes": 953168,
+   "named_terms": [
+    "dell computer",
+    "dell computer corporation"
+   ],
+   "other_terms": [
+    "pc s limited"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 200,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 4,
+     "text": "LITTLE  DELL  LAKE",
+     "context": [
+      "",
+      "FOUNDATION  REPORT"
+     ]
+    },
+    {
+     "line": 44,
+     "text": "LITTLE  DELL  LAKE",
+     "context": [
+      "",
+      "FOUNDATION  REPORT"
+     ]
+    },
+    {
+     "line": 92,
+     "text": "UTTLE  DELL  LAKE",
+     "context": [
+      "",
+      "SALT  LAKE  CITY  STREAMS,  UTAH"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "DTIC_ADA425243",
+   "date": "1994-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "DTIC ADA425243: Little Dell Lake, Salt Lake City Streams, Utah, Embankment Criteria and Performance Report",
+   "family": "corporate_print",
+   "meta_date": "1994-01-01",
+   "status": "cached",
+   "bytes": 1015500,
+   "named_terms": [
+    "dell computer",
+    "dell computer corporation"
+   ],
+   "other_terms": [
+    "pc s limited"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 137,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "LITTLE  DELL  LAKE",
+     "context": [
+      ""
+     ]
+    },
+    {
+     "line": 61,
+     "text": "1 .  Little  Dell  Lake,  Salt  Lake  City  Streams,  Utah,  Embankment  Criteria  and",
+     "context": [
+      "",
+      "Performance  Report,  August  1 994"
+     ]
+    },
+    {
+     "line": 104,
+     "text": "LITTLE  DELL  LAKE",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA41155130_0548",
+   "date": "1999-01-01",
+   "title_year": "1995",
+   "date_mismatch": true,
+   "in_window": false,
+   "title": "Rhode Island Project for Children Who Are Deaf-Blind, 1995-1999. Final Report.",
+   "family": "corporate_print",
+   "meta_date": "1999-01-01",
+   "status": "cached",
+   "bytes": 25413,
+   "named_terms": [
+    "dell computer",
+    "dell computer corporation"
+   ],
+   "other_terms": [
+    "pc s limited"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 2,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 51,
+     "text": "Susan J. Dell, Ph.D",
+     "context": [
+      "Submitted by",
+      "Rhode Island Project for Children who are Deaf-Blind"
+     ]
+    },
+    {
+     "line": 210,
+     "text": "Susan J. Dell, Ph.D., and Margaret McNemey, M. Ed share the responsibility of provid",
+     "context": [
+      "Rhode Island Project fi nd employed a core staff of two individual",
+      "services to project participants. Ms. McNeme t.SFIE,p ed technical assistance and"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "cu31924029194665",
+   "date": "1921-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "Changes in mental traits with age determined by annual re-tests, y Fowler Dell Brooks ..",
+   "family": "corporate_print",
+   "meta_date": "1921-01-01",
+   "status": "ok",
+   "bytes": 193456,
+   "named_terms": [
+    "dell computer",
+    "dell computer corporation"
+   ],
+   "other_terms": [
+    "pc s limited"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 4,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 103,
+     "text": "FOWLER DELL BROOKS",
+     "context": [
+      "By",
+      ""
+     ]
+    },
+    {
+     "line": 129,
+     "text": "FOWLER DELL BROOKS",
+     "context": [
+      "By",
+      ""
+     ]
+    },
+    {
+     "line": 154,
+     "text": "Copyright, 192 1, by Fowler Dell Brooks",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "changesinmentalt00broouoft",
+   "date": "1921-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "Changes in mental traits with age determined by annual re-tests, y Fowler Dell Brooks ..",
+   "family": "corporate_print",
+   "meta_date": "1921-01-01",
+   "status": "ok",
+   "bytes": 215797,
+   "named_terms": [
+    "dell computer",
+    "dell computer corporation"
+   ],
+   "other_terms": [
+    "pc s limited"
+   ],
+   "verdict": "BARE_WORD_MATCH",
+   "hits": 5,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 8,
+     "text": "Brooks,  Fowler  Dell",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 21,
+     "text": "FOWLER  DELL  BROOKS",
+     "context": [
+      "By",
+      ""
+     ]
+    },
+    {
+     "line": 48,
+     "text": "FOWLER  DELL  BROOKS",
+     "context": [
+      "By",
+      ""
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+# SEC submissions index -- Phillips 66 (CIK 0001534701, PSX)
+
+Built by `tools/sec_intake.py` at 2026-10-06 11:48 UTC. **Registrant name for this index: `Phillips 66` (CIK 0001534701)** -- artefacts are keyed by CIK, so a wrong `--cik` cannot overwrite another registrant's index.
+1273 filings enumerated; 0 submissions rows dropped for carrying no accession; 0 rows carry no `primaryDocument` (paper-era shells -- fetchable as `<accession>.txt`).
+
+Registrant guard: **ok** -- slug token(s) ['phillips66'] match registrant 'Phillips 66' (CIK 0001534701)
+
+**This file is the source of truth for what exists.** Do not re-search EDGAR for
+coverage; grep `submissions.csv` and report a form as absent only from this list.
+
+## Earliest filing per form
+
+| form | filed | accession | primary document |
+|---|---|---|---|
+| 10-12B | 2011-11-14 | 0001193125-11-310771 | d250454d1012b.htm |
+| CORRESP | 2011-11-14 | 0001193125-11-310755 | filename1.htm |
+| UPLOAD | 2011-12-12 | 0000000000-11-071188 | filename1.pdf |
+| 10-12B/A | 2012-01-03 | 0001193125-12-000705 | d250454d1012ba.htm |
+| CERTNYS | 2012-04-05 | 9999999997-12-005846 | 9999999997-12-005846.paper |
+| 3 | 2012-04-12 | 0001181431-12-023887 | xslF345X02/rrd342098.xml |
+| 8-K | 2012-04-17 | 0001193125-12-165834 | d335758d8k.htm |
+| S-3ASR | 2012-05-01 | 0001193125-12-201013 | d342948ds3asr.htm |
+| S-8 | 2012-05-01 | 0001193125-12-201045 | d343351ds8.htm |
+| 4 | 2012-05-02 | 0001181431-12-026962 | xslF345X03/rrd343736.xml |
+| 10-Q | 2012-05-16 | 0001193125-12-236055 | d313009d10q.htm |
+| S-4 | 2012-11-05 | 0001193125-12-452147 | d431366ds4.htm |
+| EFFECT | 2012-11-15 | 9999999995-12-003282 | xslEFFECTX01/primary_doc.xml |
+| 424B3 | 2012-11-16 | 0001193125-12-474088 | d431366d424b3.htm |
+| 4/A | 2012-12-19 | 0001181431-12-065859 | xslF345X03/rrd364176.xml |
+| SC 13G | 2013-01-30 | 0001086364-13-001381 | phillips.66.txt |
+| 10-K | 2013-02-22 | 0001534701-13-000006 | psx_20121231-10k.htm |
+| DEF 14A | 2013-03-27 | 0001193125-13-127542 | d473113ddef14a.htm |
+| DEFA14A | 2013-03-27 | 0001193125-13-127834 | d473113ddefa14a.htm |
+| ARS | 2013-03-28 | 9999999997-13-007172 | 9999999997-13-007172.paper |
+| S-8 POS | 2013-05-13 | 0001104659-13-040707 | a13-12001_1s8pos.htm |
+| 11-K | 2013-06-21 | 0001534701-13-000013 | psx12312012-11k.htm |
+| SC 13G/A | 2014-02-10 | 0001305227-14-000047 | phillips.66.txt |
+| SC 13D | 2014-03-11 | 0001534701-14-000053 | phillips66-schedule13dfili.htm |
+| 424B2 | 2014-11-13 | 0001193125-14-411165 | d818753d424b2.htm |
+| FWP | 2014-11-13 | 0001193125-14-409818 | d818753dfwp.htm |
+| SC 13D/A | 2014-12-03 | 0001534701-14-000125 | psxptidmouth13d.htm |
+| PRE 14A | 2015-03-09 | 0001047469-15-001803 | a2222939zpre14a.htm |
+| 3/A | 2016-03-07 | 0001534701-16-000121 | xslF345X02/wf-form3a_145738242772180.xml |
+| 5 | 2018-02-08 | 0001534701-18-000044 | xslF345X03/wf-form5_151812963245276.xml |
+| PX14A6G | 2020-04-02 | 0001214659-20-003092 | r41200px14a6g.htm |
+| 425 | 2021-10-27 | 0001534701-21-000197 | psx425forphoenix8-k.htm |
+| S-4/A | 2022-01-21 | 0001193125-22-014895 | d250126ds4a.htm |
+| 144 | 2023-08-07 | 0001965353-23-000094 | xsl144X01/primary_doc.xml |
+| DFAN14A | 2025-03-04 | 0000921895-25-000692 | dfan14a10168303_03042025.htm |
+| PREC14A | 2025-03-04 | 0001193805-25-000261 | prec14a10168303_03042025.htm |
+| SCHEDULE 13G/A | 2025-03-06 | 0000932471-25-000360 | xslSCHEDULE_13G_X01/primary_doc.xml |
+| PRRN14A | 2025-03-21 | 0000921895-25-000850 | prrn14a10168303_03212025.htm |
+| DEFC14A | 2025-04-03 | 0000921895-25-000972 | defc14a10168303_04032025.htm |
+| DFRN14A | 2025-04-14 | 0001193805-25-000464 | e664386_dfrn14a-phillips66.htm |
+| 144/A | 2026-02-06 | 0001628280-26-006033 | xsl144X01/primary_doc.xml |
+| SCHEDULE 13D | 2026-04-03 | 0001652795-26-000005 | xslSCHEDULE_13D_X02/primary_doc.xml |
+| SCHEDULE 13G | 2026-04-29 | 0002100121-26-000569 | xslSCHEDULE_13G_X02/primary_doc.xml |
+
+## UNANSWERED slices (never report these as absent)
+
+(none)

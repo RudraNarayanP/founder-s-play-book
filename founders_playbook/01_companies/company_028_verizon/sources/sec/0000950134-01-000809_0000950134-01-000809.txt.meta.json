@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000732712/000095013401000809/0000950134-01-000809.txt",
+ "fetched": "2026-10-06T12:07:21Z",
+ "sha1": "17cfc1733d4f890cbb78cab47adf44292d97ac49",
+ "bytes": 14445,
+ "words": 1199,
+ "cik": "0000732712",
+ "registrant": "VERIZON COMMUNICATIONS INC",
+ "accession": "0000950134-01-000809",
+ "document": "0000950134-01-000809.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": true
+}

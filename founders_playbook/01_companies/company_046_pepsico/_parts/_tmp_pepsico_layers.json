@@ -1,0 +1,415 @@
+{
+ "identifier": "01-pepsi-co",
+ "text_layers": 102,
+ "note": "a bound run may hold one layer per year; --file picks the volume, and each lands on its own path",
+ "files": [
+  {
+   "name": "01 PepsiCo_djvu.txt",
+   "size": 26
+  },
+  {
+   "name": "Pepsi Bottling Group (PBG) Annual Report 1999_djvu.txt",
+   "size": 150478
+  },
+  {
+   "name": "Pepsi Bottling Group (PBG) Annual Report 2000_djvu.txt",
+   "size": 198
+  },
+  {
+   "name": "Pepsi Bottling Group (PBG) Annual Report 2001_djvu.txt",
+   "size": 174786
+  },
+  {
+   "name": "Pepsi Bottling Group (PBG) Annual Report 2002_djvu.txt",
+   "size": 205472
+  },
+  {
+   "name": "Pepsi Bottling Group (PBG) Annual Report 2003_djvu.txt",
+   "size": 211358
+  },
+  {
+   "name": "Pepsi Bottling Group (PBG) Annual Report 2004_djvu.txt",
+   "size": 232597
+  },
+  {
+   "name": "Pepsi Bottling Group (PBG) Annual Report 2006_djvu.txt",
+   "size": 330479
+  },
+  {
+   "name": "Pepsi Bottling Group (PBG) Annual Report 2007_djvu.txt",
+   "size": 341102
+  },
+  {
+   "name": "Pepsi Bottling Group (PBG) Annual Report 2008_djvu.txt",
+   "size": 350361
+  },
+  {
+   "name": "PepsiAmericas, Inc. (PAS) Annual Report 1999_djvu.txt",
+   "size": 8153
+  },
+  {
+   "name": "PepsiAmericas, Inc. (PAS) Annual Report 2000_djvu.txt",
+   "size": 188813
+  },
+  {
+   "name": "PepsiAmericas, Inc. (PAS) Annual Report 2004_djvu.txt",
+   "size": 24487
+  },
+  {
+   "name": "PepsiAmericas, Inc. (PAS) Annual Report 2005_djvu.txt",
+   "size": 26529
+  },
+  {
+   "name": "PepsiAmericas, Inc. (PAS) Annual Report 2007_djvu.txt",
+   "size": 416156
+  },
+  {
+   "name": "PepsiAmericas, Inc. (PAS) Report 1999 (Whitman Corporation-WH)_djvu.txt",
+   "size": 20216
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1938_djvu.txt",
+   "size": 16075
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1939_djvu.txt",
+   "size": 30522
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1940_djvu.txt",
+   "size": 26216
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1941_djvu.txt",
+   "size": 37313
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1942_djvu.txt",
+   "size": 52394
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1943_djvu.txt",
+   "size": 51977
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1944_djvu.txt",
+   "size": 49619
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1945_djvu.txt",
+   "size": 37331
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1946_djvu.txt",
+   "size": 29749
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1947_djvu.txt",
+   "size": 28256
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1948_djvu.txt",
+   "size": 36034
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1949_djvu.txt",
+   "size": 22649
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1950_djvu.txt",
+   "size": 30309
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1951_djvu.txt",
+   "size": 39478
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1952_djvu.txt",
+   "size": 40733
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1953_djvu.txt",
+   "size": 31849
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1954_djvu.txt",
+   "size": 37051
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1955_djvu.txt",
+   "size": 42105
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1956_djvu.txt",
+   "size": 34633
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1957_djvu.txt",
+   "size": 33381
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1958 (Frito-Lay)_djvu.txt",
+   "size": 31338
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1959 (Frito-Lay)_djvu.txt",
+   "size": 24066
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1960 (Frito-Lay)_djvu.txt",
+   "size": 30533
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1961 (Frito-Lay)_djvu.txt",
+   "size": 33249
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1962 (Frito-Lay)_djvu.txt",
+   "size": 29527
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1963 (Frito-Lay)_djvu.txt",
+   "size": 30225
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1964 (Frito-Lay)_djvu.txt",
+   "size": 31240
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1965_djvu.txt",
+   "size": 70338
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1966_djvu.txt",
+   "size": 50766
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1967_djvu.txt",
+   "size": 49207
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1968_djvu.txt",
+   "size": 57084
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1969_djvu.txt",
+   "size": 56364
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1970_djvu.txt",
+   "size": 50009
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1971_djvu.txt",
+   "size": 62660
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1972_djvu.txt",
+   "size": 66526
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1973_djvu.txt",
+   "size": 75997
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1974_djvu.txt",
+   "size": 89377
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1975_djvu.txt",
+   "size": 91559
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1976_djvu.txt",
+   "size": 107179
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1977_djvu.txt",
+   "size": 112487
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1978_djvu.txt",
+   "size": 105227
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1979_djvu.txt",
+   "size": 112143
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1980_djvu.txt",
+   "size": 128434
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1981_djvu.txt",
+   "size": 139481
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1982_djvu.txt",
+   "size": 129321
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1983_djvu.txt",
+   "size": 123197
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1985_djvu.txt",
+   "size": 155515
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1986_djvu.txt",
+   "size": 161352
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1987_djvu.txt",
+   "size": 154412
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1988_djvu.txt",
+   "size": 179054
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1989_djvu.txt",
+   "size": 177276
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1990_djvu.txt",
+   "size": 197696
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1991_djvu.txt",
+   "size": 196980
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1992_djvu.txt",
+   "size": 207383
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1993_djvu.txt",
+   "size": 217213
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1994_djvu.txt",
+   "size": 215522
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1995_djvu.txt",
+   "size": 279571
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1996_djvu.txt",
+   "size": 199708
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1997_djvu.txt",
+   "size": 122905
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1998_djvu.txt",
+   "size": 174720
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 1999_djvu.txt",
+   "size": 192442
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2000_djvu.txt",
+   "size": 178228
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2001_djvu.txt",
+   "size": 216185
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2002_djvu.txt",
+   "size": 223655
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2003_djvu.txt",
+   "size": 289339
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2004_djvu.txt",
+   "size": 429660
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2005_djvu.txt",
+   "size": 266057
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2006_djvu.txt",
+   "size": 337374
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2007_djvu.txt",
+   "size": 268763
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2008_djvu.txt",
+   "size": 279942
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2009_djvu.txt",
+   "size": 350502
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2010_djvu.txt",
+   "size": 383141
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2011_djvu.txt",
+   "size": 339640
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2012_djvu.txt",
+   "size": 384724
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2013_djvu.txt",
+   "size": 466371
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2014_djvu.txt",
+   "size": 483527
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2015_djvu.txt",
+   "size": 490119
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2016_djvu.txt",
+   "size": 513361
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2017_djvu.txt",
+   "size": 520419
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2018_djvu.txt",
+   "size": 494102
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2019_djvu.txt",
+   "size": 510463
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2020_djvu.txt",
+   "size": 448866
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2021_djvu.txt",
+   "size": 451194
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2022_djvu.txt",
+   "size": 470741
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2023_djvu.txt",
+   "size": 478106
+  },
+  {
+   "name": "PepsiCo, Inc. (PEP) Annual Report 2024_djvu.txt",
+   "size": 478295
+  }
+ ]
+}

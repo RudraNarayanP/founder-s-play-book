@@ -1,0 +1,267 @@
+-v- 
+
+Valero' 
+
+
+Valero Benicia Refinery 
+
+March 23, 2019 FGS Stack CO Exceedance Root Cause Analysis 
+Report Completion Date: July 12, 2019 
+
+I. OVERVIEW 
+
+On the afternoon of March 23, 2019, Flue Gas Scrubber ("FGS") carbon monoxide ("CO") increased above 
+
+I, 000 ppm ("Incident"). Valero Benicia Refinery ("Valero" or "Refinery") promptly shutdown the Fluid 
+Coker; however, this did not resolve the elevated FGS Stack CO. Multiple processing units, including the 
+Pipestill Unit, were shut down on March 24, 2019. 
+
+After the Pipestill Unit was shut down, the Refinery conducted inspections to assess the mechanical 
+integrity of the equipment. Inspections on the Fluid Coker Unit revealed no mechanical damage of 
+concern, but inspections on the Atmospheric Pipestill Furnace ("F-105") identified furnace tube bulging 
+and leaks. Material failure analysis testing conducted by an external expert identified high temperature 
+creep as the cause of the F-105 tube damage. 
+
+Valero promptly convened an Investigation Team to identify the cause of the Incident. The Investigation 
+Team subsequently determined that the furnace tubes were exposed to elevated temperatures with low- 
+to no-flow conditions during a non-routine Pipestill Unit restart in November 2018, creating an 
+opportunity for coke to form inside of the tubes. The coke inside the tubes led to increased tube 
+temperatures during normal operation, which in turn led to accelerated creep damage. 
+
+II. RESPONSE ACTIONS 
+
+Consistent with the Company's commitment to transparency, Valero made required and courtesy 
+notifications to relevant agencies in connection with the Incident. 
+
+Valero also retained a third-party consultancy to conduct air monitoring in the surrounding community. 
+The results of this monitoring were within normal urban levels and below action levels. Valero's fence line 
+monitoring system, which is approved by the Bay Area Air Quality Management District, was operational 
+throughout the event. As a precaution, the City of Benicia on March 23,2019 issued a community warning 
+for sensitive individuals with respiratory issues to limit time outdoors. The City lifted this warning later 
+that same day. There were no injuries in connection with the Incident. 
+
+Based on the Investigation Team's conclusions and recommendations, Valero implemented several 
+improvements prior to restarting the Refinery to help safeguard against recurrence. 
+
+
+1 
+
+
+III. INVESTIGATION METHOD AND TEAM 
+
+
+On March 23, 2019, Valero convened a team to investigate the root cause of the Incident using a causal 
+analysis method consistent with applicable state and federal regulations and the Refinery's Incident 
+Investigation Reporting Procedures. The Investigation Team included Refinery personnel with expertise in 
+Process Safety, Operations, Maintenance, Inspection, and other pertinent areas. The team also consulted 
+with third-party and Valero technical experts. The team reviewed various materials in connection with the 
+investigation into the Incident, including, but not limited to: process data, electronic shift logs, air 
+monitoring data, the Pipestill Unit Process Hazard Analysis, third-party expert testing results, sample 
+analyses, equipment specifications, and other information. 
+
+IV. PROCESS OVERVIEW 
+
+Process units relevant to the Incident include the Fluid Catalytic Cracker ("FCCU"), the Fluid Coker, the 
+Pipestill furnaces, and the FGS. To summarize the process flow at a high level, CO gas from the Fluid Coker 
+and FCCU are mixed and enter the Pipestill furnaces, F-105 and F-106 (Vacuum Pipestill Furnace) where 
+the CO gas is incinerated. The flue gases from these furnaces contain air pollutants that require emissions 
+control consistent with state and federal environmental requirements. Accordingly, the flue gas from the 
+Pipestill furnaces flows to Selective Catalytic Reactors to reduce nitrogen oxides. The flue gas then flows 
+through a Waste Heat Boiler to produce steam and cool the gas. Flue gas then flows through a series of 
+scrubbers to remove particulate matter and sulfur oxides before exiting the FGS Stack. 
+
+V. CAUSAL ANALYSIS 
+A. Initiating Event 
+
+In November 2018, a low- to no-flow condition in the F-105 tubes occurred during a restart after an 
+unplanned shutdown without full unit de-inventory of the Pipestill Unit. Specifically, during the restart on 
+November 3, 2018, a safety valve on the Crude Preheat Train ("SV-107") lifted, allowing crude oil flow to 
+bypass F-105. When this condition was discovered, SV-107 was immediately replaced with its spare. The 
+Pipestill Unit startup was completed on November 4, 2018, with no further issues. It was not appreciated 
+at the time, however, that the crude oil bypass of F-105 exposed the furnace tubes to elevated 
+temperatures with low-to no-flow, creating an opportunity for coke to form inside of the tubes. Following 
+the November 2018 restart, SV-107 was inspected and tested by a third-party expert. The expert 
+confirmed during off-site testing and inspection that no damage occurred to SV-107 and that the valve 
+did lift and reseat within code tolerances. 
+
+In reviewing prior data relating to the November 2018 restart, the Investigation Team determined that a 
+hydraulic surge event during restart likely caused SV-107 to lift. SV-107 is a pilot operated valve with a 
+remote sensing line that relies on process pressure to drive full reseating of the valve. Since the hydraulic 
+surge event took place over a very short time period, it is possible that the process pressure directly after 
+this event was insufficient to reseat the valve. 
+
+
+2 
+
+
+
+B. March 2019 Event Analysis 
+
+In early March 2019, the FGS Stack began experiencing relatively minor CO fluctuations while the Fluid 
+Coker was experiencing burner level instability. Because Fluid Coker instability can lead to elevated coke 
+fines in the flue gas through carryover, such instability was considered to be a cause of the increase in FGS 
+Stack CO during that timeframe. Operational moves on F-105 were made in response to the elevated CO, 
+which appeared successful in directionally reducing the FGS Stack CO; however, these moves resulted in 
+furnace tube metal temperature ("TMT") increases that can directionally accelerate the furnace tube 
+creep life consumption rate. 
+
+On March 23, 2019, the Refinery experienced another sudden increase of FGS Stack CO. In response to 
+this development, the Fluid Coker was immediately shut down. This did not directionally improve the FGS 
+Stack CO, indicating that the Fluid Coker was not the primary contributor. When the Pipestill Unit was 
+shut down a few hours later (when feed was ceased), the FGS Stack CO reduced. This supports the 
+conclusion that furnace tube leaks led to the incomplete combustion of crude and subsequent elevated 
+FGS Stack CO. 
+
+Post-shutdown inspection data showed that F-105 "D" and "E" pass tube leaks are attributable to 
+excessive creep damage. Inspection data also showed "C" pass experienced leaks; however, process data 
+trended by the Investigation Team indicates that unlike passes "D" and "E," "C" pass normalized flow did 
+not drop significantly after the start-up in November 2018. Therefore, it is possible that "C" pass was not 
+the first pass to leak, but could have subsequently leaked as a collateral effect of the initial leaks found in 
+"D" and "E" passes. 
+
+VI. Findings and Recommendations 
+
+The March 2019 FGS Stack CO exceedance was the result of F-105 tube failures. The damage mechanism 
+for the F-105 tube failures was high temperature creep. This damage mechanism was verified through 
+third-party metallurgical analysis of the furnace tubes. The creep was caused by operating at TMTs above 
+normal. The high TMTs were caused by the insulating effect of coke inside of the tubes. The coke was 
+formed due to low- to no-flow condition in the tubes during a start-up in November 2018. This low- to no¬ 
+flow condition was caused by SV-107 internally lifting and diverting flow around F-105. 
+
+The Investigation Team developed the findings, interim recommendations (implemented before the May 
+2019 restart), and final recommendations, below, in connection with the investigation into the Incident. 
+Some of these recommendations may not be directly related to the root causes of the Incident, but are 
+considered beneficial to enhanced operation of F-105. 
+
+
+3 
+
+
+
+March 23, 2019 FGS Stack CO Exceedance: Findings and Recommendations 
+
+Ref. 
+
+Finding 
+
+HCA Recommendation 
+
+Target Date 
+
+1 
+
+From November 2018 to 
+March 2019, F-105 tubes 
+experienced accelerated 
+creep, which was not timely 
+identified and mitigated, 
+leading to the tubes' 
+subsequent failure and FGS 
+Stack CO exceedances in 
+March 2019 
+
+Procedural: Implement enhanced Process 
+Engineering Monitoring for F-105 and F-106 
+furnace operations for possible flow 
+restrictions 
+
+Implemented on 
+May 5, 2019 
+
+2a 
+
+Localized coke build-up in 
+the F-105 tubes was not 
+effectively detected by 
+existing temperature 
+indicators 
+
+Active: While detection of localized coking 
+is a common industry challenge, consider 
+enhancing temperature monitoring in 
+additional areas of F-105: 
+
+• Restore 24 TMTs on tubes on West end 
+of F-105 box 
+
+• Add 24 TMTs on tubes on East end of F- 
+105 box 
+
+Implemented 
+from April 25- 
+26, 2019, prior 
+to May 2019 
+startup 
+
+2b 
+
+F-105 tube leak was not 
+rapidly discerned 
+
+Active: To aid in furnace monitoring, 
+operations restored CO and 02 analyzer 
+functionality 
+
+Implemented 
+from April 25- 
+26, 2019, prior 
+to May 2019 
+startup 
+
+3 
+
+The Pipestill Unit 
+Consequence of Deviation 
+("COD") table did not 
+include effective guidance 
+on the time limit for 
+operation of F-105 in start¬ 
+up, low flow conditions 
+
+Procedural: Review and revise COD table to 
+provide additional guidance regarding 
+consequences of deviating from normal 
+operating limits during start-up, low flow 
+conditions 
+
+Implementation 
+due date: 
+
+October 1, 2019 
+
+4 
+
+SV-107 may not have 
+reseated immediately, 
+which allowed for an 
+
+extended diversion of flow 
+from F-105 
+
+Active: Material build-up in the pilot system 
+can adversely affect the ability of the valve 
+to reseat. Evaluate optimal size of sensing 
+line for S\/-107 to minimize potential for 
+material build-up in the pilot system 
+
+Implementation 
+due date: 
+
+October 1, 2019 
+
+Procedural: Update, as appropriate, 
+
+Pipestill procedure(s) to reduce likelihood 
+of flow diversion from F-105 
+
+Implemented 
+before May 
+
+2019 restart 
+
+
+4 
+
+
+
+

@@ -1,0 +1,9 @@
+{
+ "identifier": "formermarathonoi00illi",
+ "url": "https://archive.org/download/formermarathonoi00illi/formermarathonoi00illi_djvu.txt",
+ "fetched": "2026-10-06T12:23:00Z",
+ "bytes": 3661,
+ "route": "download/<id>/formermarathonoi00illi_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

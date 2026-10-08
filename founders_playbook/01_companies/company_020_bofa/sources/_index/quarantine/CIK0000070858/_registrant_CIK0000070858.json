@@ -1,0 +1,47 @@
+{
+ "cik": "0000070858",
+ "requested_cik": "70858",
+ "registrant": "BANK OF AMERICA CORP /DE/",
+ "ticker": "BAC",
+ "tickers": [
+  "BAC",
+  "BML-PG",
+  "BML-PL",
+  "BAC-PB",
+  "BAC-PK",
+  "BAC-PE",
+  "BAC-PL",
+  "BAC-PM",
+  "BAC-PN",
+  "BAC-PO",
+  "BAC-PP",
+  "BAC-PQ",
+  "BAC-PS",
+  "BACRP",
+  "BML-PH",
+  "BML-PJ",
+  "MER-PK"
+ ],
+ "former_names": [
+  "BANKAMERICA CORP/DE/",
+  "NATIONSBANK CORP"
+ ],
+ "company_dir": "company_020_bofa",
+ "guard": "quarantine",
+ "guard_reasons": [
+  "no slug token ['bofa'] appears in registrant name 'BANK OF AMERICA CORP /DE/' / tickers ['bac', 'bac-pb', 'bac-pe', 'bac-pk', 'bac-pl', 'bac-pm', 'bac-pn', 'bac-po', 'bac-pp', 'bac-pq', 'bac-ps', 'bacrp', 'bml-pg', 'bml-ph', 'bml-pj', 'bml-pl', 'mer-pk'] / former names"
+ ],
+ "built": "2026-10-06T12:07:43Z",
+ "count": 52562,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 605,
+ "csv_sha1": "d2469bf32fe6cb466ddc210fdee279b380b5577f",
+ "csv_bytes": 4434230,
+ "paths": {
+  "json": "founders_playbook/01_companies/company_020_bofa\\sources\\_index\\quarantine\\CIK0000070858\\submissions_CIK0000070858.json",
+  "csv": "founders_playbook/01_companies/company_020_bofa\\sources\\_index\\quarantine\\CIK0000070858\\submissions_CIK0000070858.csv",
+  "md": "founders_playbook/01_companies/company_020_bofa\\sources\\_index\\quarantine\\CIK0000070858\\_INDEX_CIK0000070858.md"
+ },
+ "legacy_copy_written": false,
+ "legacy_note": ""
+}

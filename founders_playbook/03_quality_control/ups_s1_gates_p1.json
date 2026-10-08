@@ -1,0 +1,19 @@
+{
+ "findings": [
+  {
+   "gate": "coverage",
+   "subject": "registers",
+   "msg": "no register CSVs at root or research/ -- csv/anchors gates DID NOT RUN"
+  },
+  {
+   "gate": "quotes",
+   "subject": "verbatim",
+   "msg": "2 of 10 quoted spans not found in local sources"
+  },
+  {
+   "gate": "advisory",
+   "subject": "s1_p1.md",
+   "msg": "12216 words over the T3 (this volume's issued tier) density target 8000 -- NOT a split mandate and NOT a defect; recorded so the tier is measurable"
+  }
+ ]
+}

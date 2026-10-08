@@ -1,0 +1,9 @@
+{
+ "identifier": "cia-readingroom-document-cia-rdp80-00809a000600390262-8",
+ "url": "https://archive.org/download/cia-readingroom-document-cia-rdp80-00809a000600390262-8/cia-rdp80-00809a000600390262-8_djvu.txt",
+ "fetched": "2026-10-06T12:44:01Z",
+ "bytes": 8886,
+ "route": "download/<id>/cia-rdp80-00809a000600390262-8_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

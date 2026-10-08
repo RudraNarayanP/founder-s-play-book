@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0001534701/000119312512200916/d341711dex104.htm",
+ "fetched": "2026-10-06T11:48:37Z",
+ "sha1": "7d34c99e988875e67388e1d5b1957804df753931",
+ "bytes": 418154,
+ "words": 34449,
+ "cik": "0001534701",
+ "registrant": "Phillips 66",
+ "accession": "0001193125-12-200916",
+ "document": "d341711dex104.htm",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": false
+}

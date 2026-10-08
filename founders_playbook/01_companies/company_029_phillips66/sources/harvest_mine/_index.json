@@ -1,0 +1,325 @@
+{
+ "window": [
+  "1917-01-01",
+  "2002-12-31"
+ ],
+ "candidates": 138,
+ "mined": 12,
+ "untried_by_limit": 125,
+ "items": [
+  {
+   "identifier": "nXLDIgvUa4QC",
+   "date": "1957-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried nXLDIgvUa4QC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "OrsZAAAAMAAJ",
+   "date": "1990-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried OrsZAAAAMAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "fXzrPyaNBMcC",
+   "date": "1987-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried fXzrPyaNBMcC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "sPuWltm5VHkC",
+   "date": "1968-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried sPuWltm5VHkC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "MR4hAQAAIAAJ",
+   "date": "1959-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried MR4hAQAAIAAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "o-S1DFZBOp4C",
+   "date": "1968-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried o-S1DFZBOp4C_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "dc_circ_1952_11247_11241_11242_11245_11252_wis_v_fed_power_commn",
+   "date": "1952-01-01",
+   "title_year": "1952",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "State of Wisconsin v. Federal Power Commission (D.C. Cir. 1952)",
+   "family": "internet_archive",
+   "meta_date": "1952-01-01",
+   "status": "cached",
+   "bytes": 1117732,
+   "named_terms": [
+    "phillips 66",
+    "phillips petroleum"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 187,
+   "entity_hits": 187,
+   "matched_entities": [
+    "phillips petroleum"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 143,
+     "text": "Gas Act, the provisions of that Act apply to Phillips Petroleum",
+     "context": [
+      "\u201cgathering of natural gas\u201d in Section 1 (b) of the Natural",
+      "Company's transportation of natural gas in interstate com\u00ac"
+     ]
+    },
+    {
+     "line": 180,
+     "text": "Gas Act, the provisions of that Act apply to Phillips Petroleum",
+     "context": [
+      "\u201cgathering of natural gas\u201d in Section 1 (b) of the Natural",
+      "Company\u2019s transportation of natural gas in interstate com\u00ac"
+     ]
+    },
+    {
+     "line": 392,
+     "text": "In the Matter of Phillips Petroleum Company, Opinion No. 217,",
+     "context": [
+      "App. D. C. 235, 127 F. 2d 153; cert, den., 316 U. S. 700... 25, 26, 31",
+      "Docket No. G-114S, Federal Power Commission, mimeo\u00ac"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "Phil1411_1988",
+   "date": "1988-01-01",
+   "title_year": "1988",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Phillips Petroleum Company (1988)",
+   "family": "internet_archive",
+   "meta_date": "1988-01-01",
+   "status": "cached",
+   "bytes": 148722,
+   "named_terms": [
+    "phillips 66",
+    "phillips petroleum"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 22,
+   "entity_hits": 22,
+   "matched_entities": [
+    "phillips 66",
+    "phillips petroleum"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1,
+     "text": "PHILLIPS PETROLEUM COMPANY *\"ANNUAL; REPORT 1988.",
+     "context": [
+      ""
+     ]
+    },
+    {
+     "line": 66,
+     "text": "Phillips Petroleum Company In Brief",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 195,
+     "text": "standards for all stations bearing the Phillips 66 shield and",
+     "context": [
+      "its brand image by championing strict appearance .",
+      "building a number of company-operated stations."
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "DTIC_AD0261024",
+   "date": "1961-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "DTIC AD0261024: GAS TURBINE AND JET ENGINE FUELS",
+   "family": "internet_archive",
+   "meta_date": "1961-01-01",
+   "status": "cached",
+   "bytes": 24052,
+   "named_terms": [
+    "phillips 66",
+    "phillips petroleum"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 5,
+   "entity_hits": 5,
+   "matched_entities": [
+    "phillips  petroleum"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 42,
+     "text": "PHILLIPS  PETROLEUM  COMPANY",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 45,
+     "text": "PHILLIPS  PETROLEUM  COMPANY  -  RESEARCH  DIVISION  REPOIT  2873-61R",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 101,
+     "text": "PHILLIPS  PETROLEUM  CGHPANT",
+     "context": [
+      "",
+      "BARTLESVILLE,  OKLAHOMA"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp90g01353r000200180023-0",
+   "date": "1988-01-01",
+   "title_year": "2001",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp90g01353r000200180023-0: ISB FIELD TRIP MINUTES - 10-11 DECEMBER 1987",
+   "family": "internet_archive",
+   "meta_date": "1988-01-01",
+   "status": "cached",
+   "bytes": 90305,
+   "named_terms": [
+    "phillips 66",
+    "phillips petroleum"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 1,
+   "entity_hits": 1,
+   "matched_entities": [
+    "phillips petroleum"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 2788,
+     "text": "PHILLIPS PETROLEUM",
+     "context": [
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp62-00328a000100100002-3",
+   "date": "1956-01-01",
+   "title_year": "1956",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp62-00328a000100100002-3: PROPELLANTS SEMINAR 13-14 JUNE 1956 LIQUID PROPELLANTS (WITH APPENDIXES",
+   "family": "internet_archive",
+   "meta_date": "1956-01-01",
+   "status": "cached",
+   "bytes": 197648,
+   "named_terms": [
+    "phillips 66",
+    "phillips petroleum"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 2,
+   "entity_hits": 2,
+   "matched_entities": [
+    "phillips petroleum"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 1421,
+     "text": "working with these compounds. Phillips Petroleum also has been engaged",
+     "context": [
+      "of the US Naval Air Rocket Test Station at Dover, New Jersey, has been",
+      ""
+     ]
+    },
+    {
+     "line": 3617,
+     "text": "Chemical Co.; Olin Mathieson; Phillips Petroleum; Westvaco Chlor-",
+     "context": [
+      "Corporation; North American Aviation; Air Reduction; Buffalo Electro-",
+      "Alkali Division; Wyandotte Chemical; and various aircraft and petro-"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp02-06341r000302420011-5",
+   "date": "1975-01-01",
+   "title_year": "2001",
+   "date_mismatch": true,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp02-06341r000302420011-5: TELLING ALL: FULL-DISCLOSURE PUSH BY SEC ON FIRMS ALARMS CRITICS",
+   "family": "internet_archive",
+   "meta_date": "1975-01-01",
+   "status": "cached",
+   "bytes": 7827,
+   "named_terms": [
+    "phillips 66",
+    "phillips petroleum"
+   ],
+   "other_terms": [],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 1,
+   "entity_hits": 1,
+   "matched_entities": [
+    "phillips petroleum"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 58,
+     "text": ": .Phillips Petroleum, Gulf and Northrop :",
+     "context": [
+      "and my stock price, do it.\u2019\u2019) a Al",
+      "have, as part of consent settlements of SECO"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "findings": [
+  {
+   "gate": "coverage",
+   "subject": "registers",
+   "msg": "no register CSVs at root or research/ -- csv/anchors gates DID NOT RUN"
+  },
+  {
+   "gate": "coverage",
+   "subject": "narrative",
+   "msg": "no stage_*.md volumes found -- keys/anchors gates DID NOT RUN"
+  }
+ ]
+}

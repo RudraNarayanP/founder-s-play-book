@@ -1,0 +1,24 @@
+{
+ "findings": [
+  {
+   "gate": "coverage",
+   "subject": "registers",
+   "msg": "no register CSVs at root or research/ -- csv/anchors gates DID NOT RUN"
+  },
+  {
+   "gate": "keys",
+   "subject": "_parts/s1_p1.md",
+   "msg": "unresolvable source tokens: S4554, S4555, S4556, S4557, S4558, S4559, S4560, S4561"
+  },
+  {
+   "gate": "quotes",
+   "subject": "ADVISORY",
+   "msg": "3 of 11 checked spans unmatched (27%) -- gate precision is not established, treat as a triage list, NOT as defects"
+  },
+  {
+   "gate": "advisory",
+   "subject": "s1_p1.md",
+   "msg": "10268 words over the T3 (this volume's issued tier) density target 8000 -- NOT a split mandate and NOT a defect; recorded so the tier is measurable"
+  }
+ ]
+}

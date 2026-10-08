@@ -1,0 +1,31 @@
+{
+ "cik": "0001140859",
+ "requested_cik": "1140859",
+ "registrant": "Cencora, Inc.",
+ "ticker": "COR",
+ "tickers": [
+  "COR"
+ ],
+ "former_names": [
+  "AMERISOURCEBERGEN CORP",
+  "AMERISOURCE BERGEN CORP"
+ ],
+ "company_dir": "company_010_cencora",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['cencora'] match registrant 'Cencora, Inc.' (CIK 0001140859)"
+ ],
+ "built": "2026-09-29T19:02:03Z",
+ "count": 2567,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 0,
+ "csv_sha1": "c4835b574a44d99833fb297e6223460216c704b6",
+ "csv_bytes": 231224,
+ "paths": {
+  "json": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_010_cencora\\sources\\_index\\submissions_CIK0001140859.json",
+  "csv": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_010_cencora\\sources\\_index\\submissions_CIK0001140859.csv",
+  "md": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_010_cencora\\sources\\_index\\_INDEX_CIK0001140859.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

@@ -1,0 +1,2 @@
+rank,slot,cik,accession,file,path,bytes,words,status,form,filingDate,url,why,listing
+5,doc:0000913760-00-000048:0001.txt,0000913760,0000913760-00-000048,0001.txt,,0,0,UNANSWERED (padded-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/nodash-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page | bare-cik/dashed-dir: 404 HTTP 404 b'<Error><Code>NoSuchKey</Code>' page),8-K,2000-09-13,,primaryDocument,"listing via padded-cik/nodash-dir (4 items, 0 unnamed)"

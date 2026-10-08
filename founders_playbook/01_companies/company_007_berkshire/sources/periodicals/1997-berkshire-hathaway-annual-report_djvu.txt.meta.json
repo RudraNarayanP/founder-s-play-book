@@ -1,0 +1,9 @@
+{
+ "identifier": "1997-berkshire-hathaway-annual-report",
+ "url": "https://archive.org/download/1997-berkshire-hathaway-annual-report/1997%20Berkshire%20Hathaway%20Annual%20Report_djvu.txt",
+ "fetched": "2026-09-29T20:01:26Z",
+ "bytes": 253519,
+ "route": "download/<id>/1997 Berkshire Hathaway Annual Report_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

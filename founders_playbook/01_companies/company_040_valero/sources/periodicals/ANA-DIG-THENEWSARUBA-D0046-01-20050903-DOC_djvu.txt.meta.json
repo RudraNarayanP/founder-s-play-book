@@ -1,0 +1,9 @@
+{
+ "identifier": "ANA-DIG-THENEWSARUBA-D0046-01-20050903-DOC",
+ "url": "https://archive.org/download/ANA-DIG-THENEWSARUBA-D0046-01-20050903-DOC/ANA-DIG-THENEWSARUBA-D0046-01-20050903-DOC_djvu.txt",
+ "fetched": "2026-09-29T18:23:23Z",
+ "bytes": 3175,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

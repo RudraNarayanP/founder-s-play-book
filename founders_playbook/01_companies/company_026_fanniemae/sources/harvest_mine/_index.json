@@ -1,0 +1,322 @@
+{
+ "window": [
+  "1938-01-01",
+  "1970-12-31"
+ ],
+ "candidates": 75,
+ "mined": 12,
+ "untried_by_limit": 58,
+ "items": [
+  {
+   "identifier": "annualreport02assogoog",
+   "date": "1968-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Annual report",
+   "family": "corporate_print",
+   "meta_date": "1968-01-01",
+   "status": "cached",
+   "bytes": 522671,
+   "named_terms": [
+    "fannie mae"
+   ],
+   "other_terms": [
+    "federal national mortgage",
+    "federal national mortgage association"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "annualreport05assogoog",
+   "date": "1968-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "Annual report",
+   "family": "corporate_print",
+   "meta_date": "1968-01-01",
+   "status": "cached",
+   "bytes": 90809,
+   "named_terms": [
+    "fannie mae"
+   ],
+   "other_terms": [
+    "federal national mortgage",
+    "federal national mortgage association"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp86t00268r000100010009-3",
+   "date": "1957-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp86t00268r000100010009-3: JOINT STATEMENT OF GEORGE M. HUMPHREY, SECRETARY OF THE TREASURY, AND P",
+   "family": "internet_archive",
+   "meta_date": "1957-01-01",
+   "status": "cached",
+   "bytes": 92277,
+   "named_terms": [
+    "fannie mae"
+   ],
+   "other_terms": [
+    "federal national mortgage",
+    "federal national mortgage association"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "federal national mortgage"
+   ],
+   "sample": [
+    {
+     "line": 831,
+     "text": "Federal National Mortgage Association (net):",
+     "context": [
+      "Housing and Home Finance Agency--Continued",
+      "Subscription to capital stock, secondary"
+     ]
+    },
+    {
+     "line": 1870,
+     "text": "Federal National Mortgage Association:",
+     "context": [
+      "Housing and Home Finance Agency:",
+      "Loans for secondary market operations (net)\u2019.. 46,580, 225 -29, 619,994 41,247,495 94,481,309"
+     ]
+    },
+    {
+     "line": 1984,
+     "text": "Federal National Mortgage Association:",
+     "context": [
+      "Federal Savings and Loan Insurance Corp ....... 000, ,000, 18,500,000 15,000,000",
+      "Guaranteed securities ..........00....c0cc0ee 2,773,300 8,500, 100 25,192,450 9,580, 950"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp80-01240a000500050007-6",
+   "date": "1956-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp80-01240a000500050007-6: Public Law 854 - 84th Congress Chapter 804 - 2d Session H. R. 7619",
+   "family": "internet_archive",
+   "meta_date": "1956-01-01",
+   "status": "cached",
+   "bytes": 101833,
+   "named_terms": [
+    "fannie mae"
+   ],
+   "other_terms": [
+    "federal national mortgage",
+    "federal national mortgage association"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "federal national mortgage"
+   ],
+   "sample": [
+    {
+     "line": 237,
+     "text": "39) President of the Federal National Mortgage Association.",
+     "context": [
+      "38) Librarian of Congress.",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp80-01240a000500050008-5",
+   "date": "1953-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp80-01240a000500050008-5: FEDERAL EXECUTIVE PAY, CIVIL SERVICE RETIREMENT, AND OTHER MATTERS",
+   "family": "internet_archive",
+   "meta_date": "1953-01-01",
+   "status": "cached",
+   "bytes": 114910,
+   "named_terms": [
+    "fannie mae"
+   ],
+   "other_terms": [
+    "federal national mortgage",
+    "federal national mortgage association"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "federal national mortgage"
+   ],
+   "sample": [
+    {
+     "line": 305,
+     "text": "(89) President of the Federal National Mortgage Association.",
+     "context": [
+      "(38) Librarian of Congress.",
+      "(40) Public Printer."
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp80-01240a000500050014-8",
+   "date": "1952-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp80-01240a000500050014-8: Public Law 375 - 82d Congress Chapter 369 - 2d Session H. R. 6947 AN AC",
+   "family": "internet_archive",
+   "meta_date": "1952-01-01",
+   "status": "cached",
+   "bytes": 70287,
+   "named_terms": [
+    "fannie mae"
+   ],
+   "other_terms": [
+    "federal national mortgage",
+    "federal national mortgage association"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "federal national mortgage"
+   ],
+   "sample": [
+    {
+     "line": 1197,
+     "text": "\u201cFederal National Mortgage Association\u201d (increase of $244,000",
+     "context": [
+      "' \u201cSalaries and expenses, defense production activities\u201d, $40,000;",
+      "in the limitation upon the amount which may be used for adminis-"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp65b00383r000300150002-6",
+   "date": "1963-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp65b00383r000300150002-6: AUTHORIZING ONE ADDITIONAL ASSISTANT SECRETARY OF STATE, AND FOR OTHER ",
+   "family": "internet_archive",
+   "meta_date": "1963-01-01",
+   "status": "cached",
+   "bytes": 33975,
+   "named_terms": [
+    "fannie mae"
+   ],
+   "other_terms": [
+    "federal national mortgage",
+    "federal national mortgage association"
+   ],
+   "verdict": "NULL",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [],
+   "sample": []
+  },
+  {
+   "identifier": "cia-readingroom-document-cia-rdp80-01240a000500060012-9",
+   "date": "1964-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": true,
+   "title": "CIA Reading Room cia-rdp80-01240a000500060012-9: Public Law 88-426 88th Congress, H.R. 11049",
+   "family": "internet_archive",
+   "meta_date": "1964-01-01",
+   "status": "cached",
+   "bytes": 125202,
+   "named_terms": [
+    "fannie mae"
+   ],
+   "other_terms": [
+    "federal national mortgage",
+    "federal national mortgage association"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "federal national mortgage"
+   ],
+   "sample": [
+    {
+     "line": 2098,
+     "text": "(95) President of the Federal National Mortgage Association.",
+     "context": [
+      "(93) Members, United States Tariff Commission.",
+      "(95) Special Assistant to the Secretary (Health and Medical"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "GfIrbypRXbQC",
+   "date": "2006-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried GfIrbypRXbQC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "7Anqx6v08sEC",
+   "date": "1996-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried 7Anqx6v08sEC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "iD8-bWporl8C",
+   "date": "2007-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried iD8-bWporl8C_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "bEHadqS9X-YC",
+   "date": "1996-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried bEHadqS9X-YC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  }
+ ]
+}

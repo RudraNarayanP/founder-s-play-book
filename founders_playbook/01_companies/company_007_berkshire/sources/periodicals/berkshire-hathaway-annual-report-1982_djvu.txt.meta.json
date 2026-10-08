@@ -1,0 +1,9 @@
+{
+ "identifier": "berkshire-hathaway-annual-report-1982",
+ "url": "https://archive.org/download/berkshire-hathaway-annual-report-1982/Berkshire%20Hathaway%20Annual%20Report%201982_djvu.txt",
+ "fetched": "2026-09-29T20:01:34Z",
+ "bytes": 209932,
+ "route": "download/<id>/Berkshire Hathaway Annual Report 1982_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

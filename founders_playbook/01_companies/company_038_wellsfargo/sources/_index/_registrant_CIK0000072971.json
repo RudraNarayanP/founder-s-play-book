@@ -1,0 +1,38 @@
+{
+ "cik": "0000072971",
+ "requested_cik": "72971",
+ "registrant": "WELLS FARGO & COMPANY/MN",
+ "ticker": "WFC",
+ "tickers": [
+  "WFC",
+  "WFC-PY",
+  "WFC-PL",
+  "WFC-PC",
+  "WFCNP",
+  "WFC-PA",
+  "WFC-PD",
+  "WFC-PZ"
+ ],
+ "former_names": [
+  "WELLS FARGO & CO/MN",
+  "NORWEST CORP"
+ ],
+ "company_dir": "company_038_wellsfargo",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['wellsfargo'] match registrant 'WELLS FARGO & COMPANY/MN' (CIK 0000072971)"
+ ],
+ "built": "2026-10-06T11:49:55Z",
+ "count": 17483,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 698,
+ "csv_sha1": "285df4aff827d50728ff3139d29a781be9308d38",
+ "csv_bytes": 1664311,
+ "paths": {
+  "json": "founders_playbook/01_companies/company_038_wellsfargo\\sources\\_index\\submissions_CIK0000072971.json",
+  "csv": "founders_playbook/01_companies/company_038_wellsfargo\\sources\\_index\\submissions_CIK0000072971.csv",
+  "md": "founders_playbook/01_companies/company_038_wellsfargo\\sources\\_index\\_INDEX_CIK0000072971.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

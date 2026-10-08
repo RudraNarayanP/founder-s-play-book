@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000927653/000089843095001058/0000898430-95-001058.txt",
+ "fetched": "2026-09-29T19:01:58Z",
+ "sha1": "19d63efb59d937eb5d8e736f955a4c8ecd647a67",
+ "bytes": 1313,
+ "words": 125,
+ "cik": "0000927653",
+ "registrant": "MCKESSON CORP",
+ "accession": "0000898430-95-001058",
+ "document": "0000898430-95-001058.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": true
+}

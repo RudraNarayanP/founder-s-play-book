@@ -1,0 +1,34 @@
+{
+ "cik": "0000831001",
+ "requested_cik": "831001",
+ "registrant": "CITIGROUP INC",
+ "ticker": "C",
+ "tickers": [
+  "C",
+  "C-PN",
+  "C-PR"
+ ],
+ "former_names": [
+  "CITIGROUP INC",
+  "TRAVELERS GROUP INC",
+  "TRAVELERS INC"
+ ],
+ "company_dir": "company_024_citigroup",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['citigroup'] match registrant 'CITIGROUP INC' (CIK 0000831001)"
+ ],
+ "built": "2026-09-29T19:08:41Z",
+ "count": 92937,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 1184,
+ "csv_sha1": "5a3bd50c993fa668b3753eb7397d889f55e79c59",
+ "csv_bytes": 8746377,
+ "paths": {
+  "json": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_024_citigroup\\sources\\_index\\submissions_CIK0000831001.json",
+  "csv": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_024_citigroup\\sources\\_index\\submissions_CIK0000831001.csv",
+  "md": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_024_citigroup\\sources\\_index\\_INDEX_CIK0000831001.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

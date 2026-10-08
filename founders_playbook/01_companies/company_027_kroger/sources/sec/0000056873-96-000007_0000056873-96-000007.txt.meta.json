@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000056873/000005687396000007/0000056873-96-000007.txt",
+ "fetched": "2026-09-29T19:09:46Z",
+ "sha1": "e940564b6f8fab9f44225ed990ac4abf0e974915",
+ "bytes": 91397,
+ "words": 7607,
+ "cik": "0000056873",
+ "registrant": "KROGER CO",
+ "accession": "0000056873-96-000007",
+ "document": "0000056873-96-000007.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": true
+}

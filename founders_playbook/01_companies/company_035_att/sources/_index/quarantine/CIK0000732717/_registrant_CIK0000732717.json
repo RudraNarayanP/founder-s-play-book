@@ -1,0 +1,34 @@
+{
+ "cik": "0000732717",
+ "requested_cik": "732717",
+ "registrant": "AT&T INC.",
+ "ticker": "T",
+ "tickers": [
+  "T",
+  "TBB",
+  "T-PA",
+  "T-PC"
+ ],
+ "former_names": [
+  "SBC COMMUNICATIONS INC",
+  "SOUTHWESTERN BELL CORP"
+ ],
+ "company_dir": "company_035_att",
+ "guard": "quarantine",
+ "guard_reasons": [
+  "no slug token ['att'] appears in registrant name 'AT&T INC.' / tickers ['t', 't-pa', 't-pc', 'tbb'] / former names"
+ ],
+ "built": "2026-09-29T19:31:20Z",
+ "count": 7917,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 198,
+ "csv_sha1": "6aee63335105ea032557e22436330cf749fcf2c7",
+ "csv_bytes": 750926,
+ "paths": {
+  "json": "founders_playbook/01_companies/company_035_att\\sources\\_index\\quarantine\\CIK0000732717\\submissions_CIK0000732717.json",
+  "csv": "founders_playbook/01_companies/company_035_att\\sources\\_index\\quarantine\\CIK0000732717\\submissions_CIK0000732717.csv",
+  "md": "founders_playbook/01_companies/company_035_att\\sources\\_index\\quarantine\\CIK0000732717\\_INDEX_CIK0000732717.md"
+ },
+ "legacy_copy_written": false,
+ "legacy_note": ""
+}

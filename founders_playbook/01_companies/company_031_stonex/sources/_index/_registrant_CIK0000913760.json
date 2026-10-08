@@ -1,0 +1,31 @@
+{
+ "cik": "0000913760",
+ "requested_cik": "913760",
+ "registrant": "StoneX Group Inc.",
+ "ticker": "SNEX",
+ "tickers": [
+  "SNEX"
+ ],
+ "former_names": [
+  "INTL FCSTONE INC.",
+  "INTERNATIONAL ASSETS HOLDING CORP"
+ ],
+ "company_dir": "company_031_stonex",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['stonex'] match registrant 'StoneX Group Inc.' (CIK 0000913760)"
+ ],
+ "built": "2026-09-29T19:01:35Z",
+ "count": 2374,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 136,
+ "csv_sha1": "d8f0eb9c9906b1255b09f2e6ea09c3b99699b265",
+ "csv_bytes": 225916,
+ "paths": {
+  "json": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_031_stonex\\sources\\_index\\submissions_CIK0000913760.json",
+  "csv": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_031_stonex\\sources\\_index\\submissions_CIK0000913760.csv",
+  "md": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_031_stonex\\sources\\_index\\_INDEX_CIK0000913760.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

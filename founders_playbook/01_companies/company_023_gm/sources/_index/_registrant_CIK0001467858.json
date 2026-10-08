@@ -1,0 +1,28 @@
+{
+ "cik": "0001467858",
+ "requested_cik": "1467858",
+ "registrant": "General Motors Co",
+ "ticker": "GM",
+ "tickers": [
+  "GM"
+ ],
+ "former_names": [],
+ "company_dir": "company_023_gm",
+ "guard": "ok",
+ "guard_reasons": [
+  "slug token(s) ['gm'] match registrant 'General Motors Co' (CIK 0001467858)"
+ ],
+ "built": "2026-09-29T19:08:15Z",
+ "count": 2138,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 0,
+ "csv_sha1": "2a5616fc00a55248235bac8bcf3190e5c0eb3274",
+ "csv_bytes": 203794,
+ "paths": {
+  "json": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_023_gm\\sources\\_index\\submissions_CIK0001467858.json",
+  "csv": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_023_gm\\sources\\_index\\submissions_CIK0001467858.csv",
+  "md": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_023_gm\\sources\\_index\\_INDEX_CIK0001467858.md"
+ },
+ "legacy_copy_written": true,
+ "legacy_note": ""
+}

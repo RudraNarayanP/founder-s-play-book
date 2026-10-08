@@ -1,0 +1,16 @@
+{
+ "url": "https://www.sec.gov/Archives/edgar/data/0000200406/000095012394000687/0000950123-94-000687.txt",
+ "fetched": "2026-09-29T19:06:01Z",
+ "sha1": "6dac835d66fe847a34789da73ca9d7c34d52e684",
+ "bytes": 231224,
+ "words": 21766,
+ "cik": "0000200406",
+ "registrant": "JOHNSON & JOHNSON",
+ "accession": "0000950123-94-000687",
+ "document": "0000950123-94-000687.txt",
+ "url_form": "padded-cik/nodash-dir",
+ "http_status": 200,
+ "tried_before": [],
+ "html_stripped_word_count": true,
+ "full_submission_sgml": true
+}

@@ -1,0 +1,9 @@
+{
+ "identifier": "wdp-annual-report-1977",
+ "url": "https://archive.org/download/wdp-annual-report-1977/WDP%20Annual%20Report%201977_djvu.txt",
+ "fetched": "2026-10-06T12:01:15Z",
+ "bytes": 94559,
+ "route": "download/<id>/WDP Annual Report 1977_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}

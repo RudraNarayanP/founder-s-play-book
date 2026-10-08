@@ -1,0 +1,31 @@
+{
+ "cik": "0001571996",
+ "requested_cik": "1571996",
+ "registrant": "Dell Technologies Inc.",
+ "ticker": "DELL",
+ "tickers": [
+  "DELL"
+ ],
+ "former_names": [
+  "Dell Technologies Inc",
+  "Denali Holding Inc."
+ ],
+ "company_dir": "company_041_dell",
+ "guard": "quarantine",
+ "guard_reasons": [
+  "legacy submissions.json belongs to CIK 0000826083, not 0001571996"
+ ],
+ "built": "2026-09-29T19:05:37Z",
+ "count": 1958,
+ "rows_dropped_no_accession": 0,
+ "rows_without_primaryDocument": 0,
+ "csv_sha1": "c93841ab2d8798b40666c0e3a49efcaeb0a4fec0",
+ "csv_bytes": 167973,
+ "paths": {
+  "json": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_041_dell\\sources\\_index\\quarantine\\CIK0001571996\\submissions_CIK0001571996.json",
+  "csv": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_041_dell\\sources\\_index\\quarantine\\CIK0001571996\\submissions_CIK0001571996.csv",
+  "md": "E:\\founder's playbook\\founders_playbook\\01_companies\\company_041_dell\\sources\\_index\\quarantine\\CIK0001571996\\_INDEX_CIK0001571996.md"
+ },
+ "legacy_copy_written": false,
+ "legacy_note": ""
+}

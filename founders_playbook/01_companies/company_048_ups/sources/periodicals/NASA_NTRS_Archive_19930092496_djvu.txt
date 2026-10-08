@@ -1,0 +1,2338 @@
+\ik copy 
+
+NO. >- W 
+
+
+
+MR Nov. 1942 
+
+
+
+NATIONAL ADVISORY COMMITTEE FOR AERONAUTICS 
+
+
+
+WARTIME REPORT 
+
+ORIGINALLY ISSUED 
+
+November 19k2 aa 
+Memorandum Report 
+
+CONTROL-MOTION STUDIES OF THE PBM-3 FLYING BOAT 
+IN ABRUPT PULL-UPS 
+By Henry A. Pearson and Leland K. Smull 
+
+
+
+Langley Memorial Aeronautical Laboratory 
+Langley Field, Va. 
+
+FILE COPY 
+
+To be returned to 
+the files of the National 
+Advisory Committee 
+for Aeronautics 
+Washington, D. C 
+
+
+
+NACA 
+
+
+
+WASHINGTON 
+
+
+
+NACA WARTIME REPORTS are reprints of papers originally issued to provide rapid distribution of 
+advance research results to an authorized group requiring them for the war effort. They were pre- 
+viously held under a security status but are now unclassified. Some of these reports were not tech- 
+nically edited. All have been reproduced without change in order to expedite general distribution. 
+
+
+
+L - 577 
+
+
+
+MEMORANDUM REPORT 
+for 
+
+Army Air Forces, Materiel Command 
+
+and 
+
+Bureau of Aeronautics, Navy Department 
+CONTROL-MOTION STUDIES 0? THE PBM-3 PLYING BOAT 
+IN ABRUPT PULL-UPS 
+By Henry A. Pearson and Leland K« Smull 
+INTRODUCTION 
+
+?cr some time it lias been felt that the strength 
+requirements of control surfaces should be placed on a more 
+rational basis and that they should in some manner be related 
+to the acceleration, rolling, and yawing performance required 
+of the airplane on which they are installed. Due to the 
+fact that existing requirements were easily applied and few 
+failures of control surfaces had occurred until recently,, 
+the rational methods, although they were available, were not 
+used. This was in part due to the fact that they were, in 
+general, too long and, in addition, that the critical types 
+of control motion were not known,. 
+
+Recent failures in which both the horizontal and vertical 
+tail surfaces were apparently Involved have resulted in a 
+desire to use the more rational methods in spite of the extra 
+work that will be necessary. A first step, that of simpli- 
+fying the theoretical methods as much as possible, has 
+already been undertaken (reference 1). So far the results 
+have been confined to horizontal tail, and they show, as 
+
+
+
+_ 2 
+
+
+
+would be expected, that for the maneuver condition the up 
+tail load is dependent mainly upon the normal acceleration 
+while down tail load depends upon the rate at which the 
+controls are moved. Both the naxiraiiia up and down tail 
+loads, however, vary with the static stability of the 
+airplane . 
+
+The second phase of the problem, that of determining 
+the rate of control movement, is not amenable to analytical 
+treatment since it will depend both upon physiological and 
+psychological factors. Thus, in order to obtain data on 
+this point, it is necessary to determine by actual test the 
+most critical stick motions which might be used in the 
+different airplane categories. 
+
+To obta5.n such data, the best procedure would be to 
+determine by statistical methods the rates of movement 
+actually used by various pilots in performing maneuvers. 
+If, however, it could be shown that the control- surface 
+loads are reasonable, even allowing for the most rapid rates 
+possible, then a quicker and certainly more conservative 
+method, as far as the controls are concerned, would be to use 
+the greatest rates which a pilot can impose. 
+
+The present paper is the first of a number of control- 
+motion studies that are to be made in flight covering a 
+range of types and sizes of modern airplanes. The control- 
+motion studies reported herein were made on a large flying 
+
+
+
+boat, the PSI!-; . The control mechanism of this airplane is 
+typical of the cab "le -type systems that are incorporated in 
+large transport., cargo, or bomber airplanes as well as those 
+employed in flying boats, For this reason, the data 
+presented are prcfoably representative for most large airplanes 
+utilizing cable systems. 
+
+The tests reported herein were conducted at the Naval 
+Air Station during the period from September 1 to October 1, 
+19li_2; with, the cooperation of the Bureau of aeronautics, 
+Navy Department * 
+
+APPARATUS 
+
+Airplane . - The essential characteristics of the P3M-J 
+flying boat (fig* 1) are as follows: 
+
+Span, feet 118 
+
+Length, feet oO 
+
+Wing area, square feet . . , li+p7 
+
+Horizontal tail area, square feet 2I4.2 
+
+Elevator area, square feet « . Jbc2 
+
+Balance area . . « 23c55 
+
+Distance from center of gravity to center 
+
+of lift of the horizontal tail, feet . . . . o . . c IjJL.O 
+Design gross weight, pounds Il6,500 
+
+Record ing instruments » - Two control-position recorders 
+
+were used to determine the notion of the elevator. One was 
+
+mounted between the rudder pedals (fig. 2) to measure the 
+
+longitudinal motion of the control yoke which was the motion 
+
+impressed on the elevator. The other was mounted in the 
+
+rear gunner f s turret (fig. J) and was attached directly to 
+
+the elevator torque tube to measure the angular movement of 
+
+
+
+- h - 
+
+
+
+the elevator. The control wheel on the co-pilot's side was 
+
+replaced with one equipped to record control force (fig, h) . 
+
+In addition to the above instruments , a standard NACA 
+recording acceierometer and a turn meter to record the 
+pitching velocity of the airplane were also installed at the 
+center of gravity of the airplane (fig. 5) • One-tenth 
+second timing was impressed on all the records to give time 
+histories of the recorded motions, accelerations,- and 
+velocities . 
+
+In addition to the results recorded by the above instru- 
+ments, observations were made at the start of each run of the 
+pressure altitude, indicated airspeed, and manifold pressure 
+from the airplane's instruments. 
+
+METHOD AND RESULTS 
+
+The program of tests carried out on the PBM-3 divided 
+itself naturally into three phases: The first phase was a 
+determination of the stability characteristics in steady 
+level flight and the computation of possible tail loads In 
+maneuvers; the second phase was a series of ground runs in 
+which the elevator was moved as rapidly as possible; and the 
+third phase was the actual pull-ups in flight. The relation 
+of these various phases to each other will become apparent 
+from the following: 
+
+Stability runs and preliminary computations , - A number 
+of unusual factors were involved in carrying out the present 
+
+
+
+- 5 - 
+
+program and as a result careful preparations were made to 
+reduce any hazards that might occur. Since the tail loads 
+were expected to be quite severe in the type of pull-ups to 
+be made, it was necessary to compare the loading conditions 
+for which the tail was actually designed with calculated 
+loadings using the fastest possible stick motions. For 
+such calculations a number of aerodynamic parameters were 
+necessary. Seme of these were determined in flight while 
+others were obtained from wind-tunnel data. The flight 
+tests required to determine these parameters consisted of a 
+number of steady flight runs at various airspeeds throughout 
+the speed range with the center of gravity at 25 and 3l|~ 
+percent of the mean aerodynamic chord. In these tests two 
+power conditions were used, one being approximately full 
+power while the other was with the engine throttled. The 
+pertinent data obtained during these tests are given in 
+table 1 wherein up elevator and up tab are designated by 
+minus signs. The elevator setting given is that measured 
+at the tail and so does not include any cable stretch; the 
+tab setting listed is that necessary for trim under the 
+given flight condition. 
+
+The data obtained from these tests, together with that 
+obtained in subsequent ground tests on the rates of stick 
+motion, enabled a computation to be made of the maximum 
+tail load likely to be encountered in flight. The computed 
+
+
+
+- 6 - 
+
+
+
+values of the tail load using maximum rates were then compared 
+with the design tail loads in order to determine whether the 
+pull-ups could be made with safety. 
+
+As a matter of record, the load factor and tail-load 
+variation computed for an actual rapid pull-up are given in 
+figure 6 for the center-of -gravity location of 28 percent mean 
+aerodynamic, chord , The computed values were obtained by the 
+method of reference 1 in conjunction with the actual .elevator 
+motion measured in flight and the characteristics listed in 
+table 2. The limit design loads for the horizontal tail as 
+obtained from the manufacturer are given in table J. For 
+comparison, the load;; computed for the pull-up of figure 6 are 
+also given in this table* 
+
+Gr ound runs . - Following the steady flight stability 
+tests, a series of abrupt elevator deflections were made, 
+with the ship sitting on the ramp, in which time histories 
+were obtained of the elevator motion impressed at the stick 
+and that obtained at the torque tube* In the first series 
+of ground te$ts, instructions were given to four different 
+pilots to move the controls as rapidly as possible with no 
+restriction as to the amount of travel. The variation of 
+the measured quantities obtained in these tests are given in 
+figure 7. 
+
+In addition to the above tests, a series of three pull- 
+backs was made, in which the control was to be moved as 
+
+
+
+- 7 - 
+
+rapidly as possible, subject to the restriction that the 
+control be moved less than 12 inches. This restriction 
+was imposed In order to simulate what was believed might 
+actually occur in flight where the pilot would be constrained, 
+by the airplane's characteristics as well as by both physio- 
+logical and psychological factors, to smaller deflections, 
+The results of this short series of tests are given in 
+figure 8 where the elevator angle impressed at the stick and 
+the control travel are represented by a single curve with 
+different ordinate - scales . 
+
+In addition to the point-by-point evaluation of the 
+film records that was necessary to obtain the time history 
+given in figures 7 and 8, the maximu m rates were obtained 
+directly from the record films by measuring the maximum 
+slopes, • The maximum rates so determined, which may differ 
+slightly from that obtained from the plotted time histories, 
+are summarized in table 1+ in the columns labelled ,r ground 
+runs • " 
+
+Pull-ups , - Upon completing the ground runs and 
+determining that the tail loads to be encountered did not 
+exceed the design values, a series of 2k pull-ups were made 
+from power-on level flight. The pull-ups were made at 
+three initial airspeeds of approximately l81f, 200, and 220 
+miles per hour at each of two center-of -gravity positions, 
+namely 21 and JO percent mean, aerodynamic chord. These 
+
+
+
+- 8 - 
+
+
+
+pull-ups were all made within a period of less than 50 minutes 
+by the pilot who was most familiar with the ship. 
+
+The Instructions given to the pilot were to pull up to 
+approximately a 5g acceleration, at each of the three speeds 
+and two center-of -gravity positions, using two types of 
+control motion. A repeat run was to be made for each condi- 
+tion. In both types of control motion, the pull-back was 
+to be made as rapidly as possible only in one type, designated 
+type II; an effort was to be made to move the stick more than 
+was necessary and then to prevent overshooting 3g by an 
+abrupt control reversal. In the other type, designated 
+type I j the control was to be moved as rapidly as possible 
+only to the amount necessary to give 3g. 
+
+Figure 9 is the record of the accelerations obtained 
+with the V-G recorder during the 2I4. pull-ups. Figures 10 
+through 21 give the time histories of the recorded quantities 
+measured in the pull-ups. They are arranged in a manner so 
+that comparison can be made directly between the so-called 
+type I and type II pull-ups. The maximum control forces 
+measured, are listed with each of the runs. 
+
+The maximum rates of elevator and stick movement measured 
+directly from the record films are shown in figure 22 plotted 
+against indicated airspeed. Different symbols are used to 
+designate both the type of elevator motion and the center-of- 
+gravity position* In figure 23, the increments in elevator 
+
+
+
+- 9 - 
+
+movement required to effect the pull-ups are plotted versus 
+airspeed for the tv/o. center-of -gravity positions used. 
+
+DISCUSSION 
+
+As may be seen from the time histories of the ground 
+runs (figc 7)> there was an initial lag between the control 
+and the elevator motion. During the initial accelerating 
+period of the control column, the cable pulley system 
+
+stretched storing potential energy which, during the latter- 
+part of the pull-bach, caused the elevator to catch up and, 
+in some cases, actually to lead the control.. At the end of 
+the motion, the stored kinetic energy caused both the control 
+and the elevator to travel beyond the static limz-ts of the 
+system. 4 
+
+Lxaminat ion of the maximum rates of control movement 
+attained (see table i|) in the ground tests indicated no 
+marked or consistent differences between the various pilots. 
+The maximum rates obtained ranged from 82 to 111 inches per 
+second, all of which were slightly higher than the average 
+maximum value of about 80 inches per second, quoted in 
+reference 2„ 
+
+V/hen a mental restriction as to the amount of travel 
+was imposed (see fig. 8), the maximum rates obtained were 
+only about one-third of that obtained with no restriction. 
+It is believed that the imposition of a restriction as to the 
+amount of travel will always result in a somewhat smaller 
+
+
+
+- 10 - 
+
+
+
+maximum rate although the reductions may not be as drastic as 
+in the present case. For the PBM-? the spring of the control 
+system was such as to cause a ranid feedback during the 
+latter part of the notion which, in some cases, was greater 
+than the pilot could control. This may have influenced the 
+results somewhat in the case of the restricted motions. 
+
+The results of the flight tests (figs. 10 to 21) all have 
+one thing in common, namely that the elevator angle reached 
+was considerably less than that Impressed at the stick. As 
+shown in figure 2J, at 181+ miles per hour the ratio of the 
+actual to the impressed angle is about 0 c L|-5, whereas at the 
+highest speed tested (220 miles per hour) this ratio is about 
+
+0.37* 
+
+The springiness of the control system also had a marked 
+effect on the "type of motion." As may be seen from 
+figures 10 to 21, the only difference actually obtained 
+between the two types is that the pilot, in trying to carry out 
+instructions, pushed forward more in the type II pull-up than 
+in the type I pull-up. The "give" in the system as well as 
+the disadvantageous position in which the pilot had his arms, 
+with the control moved back about 10 inches, prevented him 
+from using more elevator than would normally be required for 
+a 3g pull-up. The results shown in figure 2 J clearly 
+indicate this variation in that at a given speed the elevator 
+angle increment is the same regardless of the type of motion 
+that was specified. 
+
+
+
+- 11 - 
+
+The maximum rates of control movement (see fig. 22) 
+decreased with an increase in the initial airspeed. A 
+comparison of the rates obtained on the ground with those 
+taken in flight (table ].;.) indicates the flight values to be 
+on the average about one -third less. This is somewhat 
+contradictory to previous thoughts (based on the ground test 
+reported in reference 2) on the subject that, provided the 
+forces are within the pilot 1 s limitation, they have little 
+if any effect on the movement t It is possible in the 
+present case that, in spite of the pilot's statement that he 
+had no hesitancy in pulling the control back as rapidly as 
+possible and the observer T s opinion that this was done, some 
+psychological element entered. 
+
+It is thought that the decrease in rate of movement 
+with airspeed that is shown in figure 22 is due to the 
+increased aerodynamic resistance encountered as the speed 
+increased. The decrease in rate that is shown with the 
+center of gravity moved to the rear is thought to be due to 
+fatigue on the part of the pilot since the tests with the 
+center of gravity at JO percent were performed after those 
+with the center of gravity at 26 percent and all of them 
+were performed within a period of JO minutes. 
+
+
+
+- 12 - 
+
+
+
+CONCLUSIONS 
+The results of the tests indicate: 
+
+1. That the elasticity of the elevator control system 
+
+of the PBM-3 was such as to limit the obtainable 
+acceleration to about for center-of -gravity 
+
+positions in the usual operating range, that is, 
+26 to JO percent mean aerodynamic chord, and for 
+the range of airspeeds covered by the tests. 
+
+2. That the maximum rates of stick movement obtained 
+
+in the ground tests did not vary materially with 
+
+various pilots; the rates measured tended to be 
+
+slightly higher than previously measured value. 
+
+3 • That the maximum measured rates of stick 
+
+movement obtained in flight were about one-third 
+
+less than on the ground; for design purposes a 
+
+maximum rate of 20rr inches per second should be 
+
+adequate for airplanes of this size 0 
+
+Lang ley Memorial Aeronautical Laboratory, 
+
+National Advisory Committee for Aeronautics, 
+Langley Field, Va., November 12, l^l\2. 
+
+
+
+-13 - 
+
+
+
+REFERENCES 
+
+
+
+1. P err son., Henry A.: Derivption of Chrrts for Determining 
+
+the Horizontal Tail Load Variation with Any Elevator 
+Motion. NACA ARR, Jen. 1943. 
+
+2. Hertel, Heinrich: Determination of the Maximum Control 
+
+Poroea end Attainable Quickness in the Operation of 
+Airplane Controls. NACA TM No. 583, 1930. 
+
+
+
+TA3LE 1 
+
+DATA RKCORDHD DURING STABILITY RUNS 
+
+
+
+Weight 45SSo C$. Q 25% Power on 
+
+
+
+Weight 44,3So eg. G)34-.5% Po 
+
+
+
+V 
+mph 
+
+
+
+
+Alt, 
+
+ft 
+
+
+£/ets 
+
+setftng 
+
+
+Tab 
+sett in g 
+
+
+V 
+mph 
+
+
+PPM 
+
+
+Alp, 
+ft 
+
+
+E/e<s 
+
+
+fob 
+setting 
+
+
+tC4 
+
+
+2295 
+
+
+8IOO 
+
+
+-4 6 
+
+
++2.4- 
+
+
+104 
+
+
+2235 
+
+
+7360 
+
+
+19 
+
+
+- 2.0 
+
+
+115 
+
+
+
+
+83 GO 
+
+
+-2.1 
+
+
++ .2 
+
+
+IIS 
+
+
+Z2SO 
+
+
+7800 
+
+
+4.6 
+
+
+-2.3 
+
+
+126 
+
+
+2295 
+
+
+S590 
+
+
++0 6 
+
+
+-to 
+
+
+126 
+
+
+Z300 
+
+
+8000 
+
+
+5.1 
+
+
+-3.4 
+
+
+133 
+
+
+2235 
+
+
+9/ZO 
+
+
+2.6 
+
+
+-sz 
+
+
+I3S 
+
+
+Z300 
+
+
+3250 
+
+
+S3 
+
+
+-3.1 
+
+
+150 
+
+
+2 305 
+
+
+9450 
+
+
+3.3 
+
+
+-z.o 
+
+
+ISO 
+
+
+Z30S 
+
+
+345o 
+
+
+65 
+
+
+-37 
+
+
+/6i 
+
+
+2300 
+
+
+9430 
+
+
+4-Z 
+
+
+-zz 
+
+
+161 
+
+
+23IO 
+
+
+&600 
+
+
+71 
+
+
+-35 
+
+
+1 7 Z 
+
+
+23/0 
+
+
+94O0 
+
+
+46 
+
+
+-2 6 
+
+
+17Z 
+
+
+23/0 
+
+
+3£oo 
+
+
+7 1 
+
+
+-40 
+
+
+ISf 
+
+
+23 IO 
+
+
+9030 
+
+
+
+
+-3 O 
+
+
+IS4 
+
+
+23'£ 
+
+
+320O 
+
+
+7 4 
+
+
+-4.2 
+
+
+136 
+
+
+23IO 
+
+
+&700\ 
+
+
+1 
+
+
+-3.1 
+
+
+1 9b 
+
+
+2315 
+
+
+76>oo 
+
+
+7 6 
+
+
+-45 
+
+i 
+
+
+
+Note - Tab setting recorded /s that required for trirn } 
+tr?/r?o>3 //?ct/ce?fes op &/?p/e> 
+
+
+
+Weight 45550 e.g. <£) 25% Power off 
+
+
+
+Weight 44350 c 9 @34S% Power off 
+
+
+
+V 
+mph 
+
+
+PPM 
+
+
+\ Aft 
+
+1 ft 
+
+
+Elev, 
+setting 
+
+
+Tab 
+setting 
+
+
+v. 
+
+mph 
+
+
+PPM 
+
+< 
+
+
+A/t, 
+
+ft. 
+
+
+£/er. 
+Selling 
+
+
+Tab 
+setting 
+
+
+104 
+
+
+2295 
+
+
+3800 
+
+
+-4.6 
+
+
+f Zl 
+
+
+104- 
+
+
+2295 
+
+
+4400 
+
+
+28 
+
+
+-23 
+
+
+115 
+
+
+2295 
+
+
+3900 
+
+
+-12 
+
+
+O 
+
+
+1/5 
+
+
+2295 
+
+
+4400 
+
+
+4-6 
+
+
+-34 
+
+
+126 
+
+
+Z300 
+
+
+4000 
+
+
+l.O 
+
+
+-0.8 
+
+
+IZ6 
+
+
+2295 
+
+
+4400 
+
+
+5.5 
+
+
+-3-4 
+
+
+138 
+
+
+2320 
+
+
+4100 
+
+
+2.3 
+
+
+-1.2 
+
+
+133 
+
+
+2295 
+
+
+4SOO 
+
+
+6.9 
+
+
+-4o 
+
+
+150 
+
+
+Z3ZO 
+
+
+4400 
+
+
+3.6 
+
+
+-2.7 
+
+
+150 
+
+
+2285 
+
+
+480O 
+
+
+6.5 
+
+
+-4-.0 
+
+
+16/ 
+
+
+2320 
+
+
+4400 
+
+
+4.2 
+
+
+-ZO 
+
+
+161 
+
+
+2305 
+
+
+4900 
+
+
+6.9 
+
+
+-4o 
+
+
+I7Z 
+
+
+2320 
+
+
+Sooo 
+
+
+4 6 
+
+
+-2.4 
+
+
+17 Z 
+
+
+Z305 
+
+
+5300 
+
+
+74 
+
+
+-40 
+
+
+184 
+
+
+2320 
+
+
+5500 
+
+
+5.3 
+
+
+-25 
+
+
+/84 
+
+
+Z305 
+
+
+6000 
+
+
+7-6 
+
+
+-3 3 
+
+
+196 
+
+
+2305 
+
+
+700O 
+
+
+S.5 
+
+
+-30 
+
+
+196 
+
+
+2306 
+
+
+6400 
+
+
+7. 7 
+
+
+-40 
+
+
+
+N AT I ON AL ADV I SORY 
+COMMITTEE FOR AERONAUT ICS 
+
+
+
+TABLE 2 
+
+CONSTANTS USED IN COMPUTATIONS 0? PBM-J PLYING BOAT 
+
+
+
+S wing area, square feet • • • 
+
+S t tail area, square feet * . 2l|_2 
+
+S e elevator area, square feet 96 ♦ 2 
+
+b v/ing span, feet . . 118 
+
+ft* tail soan, feet . , ........ 20 
+
+x\ : distance from aerodynamic center tail 
+
+to center of gravity, feet . . -i+l.O 
+
+ky radius of gyration in pitch, feet 15-0 
+
+W gross weight at time of pull-up, pounds . .... ^,000 
+
+slope of airplane lift curve including 
+da thrust component and with tail surfaces 
+
+in place 5*0 
+
+K empirical damping factor . . . • "... 1.1 
+
+TU tail efficiency factor, q^/q 1.0 
+
+d0 
+
+— — horizontal tail lift curve slope/radian . . . - . lj.«3 
+da t 
+
+elevator effectiveness slope 1.83 
+
+d5 
+
+m airplane mass, slugs , . . . . . « llj.00 
+
+A aspect ratio b /S . . . . . 9»9 
+
+p air density (58OO feet), slugs per cubic foot . . 0.002 
+
+~ downwash factor 0.55 
+
+da 
+
+dC m 4. 
+
+- rate of change of elevator moment 
+
+t with camber * . . -0.1 
+
+
+
+Table 3 
+
+Summary of limit loading conditions 
+for horizontal tail of PBM-3 
+
+
+
+
+
+
+
+Angle of attack 
+load 
+
+
+Deflected control 
+surface load 
+
+
+Net 
+
+
+oad 
+
+
+
+
+
+
+Right 
+
+
+Left 
+
+
+Right 
+
+
+Left 
+
+
+Right 
+
+
+Left 
+
+
+Balancing load 
+e.g. forward 
+24.4% 
+
+
+- 2769 
+
+
+- 2769 
+
+
+2882 
+
+
+2304- 
+
+
+132 
+
+
+170 
+
+
+Balancing load 
+e.g. aft 35.5 % 
+
+
+-Z893 
+
+
+-2893 
+
+
+364-0 
+
+
+3485 
+
+
+692 
+
+
+692 
+
+
+Vertica 1 gust 
+load 
+
+
+
+
+
+
+
+
+
+
+4431 
+
+
+4431 
+
+
+Horizontal 
+gust load 
+
+
+
+
+
+
+
+
+
+
+-331 
+
+
+33 ! 
+
+
+Maneuver 
+load 
+
+
+
+
+
+
+
+
+
+
+44-31 
+
+
+4431 
+
+
+Landi ng 
+inertia load 
+
+
+
+
+
+
+
+
+
+
+65 05 
+
+
+6505 
+
+
+£ 5 
+
+Sf'i 
+
+
+eg. 
+
+26%MAC 
+
+
+
+
+
+
+
+
+
+
+1980 
+-2262 
+
+
+I960 
+-2262 
+
+
+loads 
+d fror 
+rde d v 
+of i on. 
+
+
+e.g. 
+28% MAC 
+
+
+
+
+
+
+
+
+
+
+2060 
+-2094 
+
+
+2060 
+-2094 
+
+
+— <D O t 
+
+— +- o 
+
+° It 
+
+
+e.g. 
+30% MAC 
+
+
+
+
+
+
+
+
+
+
+2445 
+-2089 
+
+
+2445 
+-2089 
+
+
+
+Mote: Minu* indicates down load 
+
+
+
+NATIONAL ADVISORY 
+COMMITTEE FOR AERONAUTICS 
+
+
+
+L-577 
+
+Table 
+
+
+
+Elevator control motion rates measured on PBM-3 
+
+
+
+Stick ong/c rate 
+rteg/sec 
+
+
+Stick travel rate 
+in. /sec. 
+
+
+£/e vator angle rate 
+deg /sec. 
+
+
+night 
+
+
+Ground runs 
+
+
+Flight 
+
+
+Ground runs 
+
+
+Flight 
+
+
+Ground rum 
+
+
+i / / 
+
+Foil 
+
+1 r/iuW 
+
+
+Short 
+
+/fir uw 
+
+
+Full 
+I nrow 
+
+
+Short 
+
+
+Full 
+1 nn?N 
+
+
+ohorf 
+
+Throw, 
+
+
+zoz 
+
+
+134 
+
+
+
+
+70 
+
+f Ls 
+
+
+71 
+
+
+51 
+
+
+
+
+
+
+61 
+
+
+46 
+
+
+IOC 
+
+
+ou 
+
+
+174 
+
+
+147 
+
+
+154 
+
+
+38 
+
+
+66 
+
+
+56 
+
+
+92 
+
+
+
+
+65 
+
+
+50 
+
+
+Id 1 
+
+
+r\l 
+
+
+ne 
+
+
+159 
+
+
+160 
+
+
+89 
+
+
+67 
+
+
+(hi 
+
+
+95 
+
+
+54 
+
+
+68 
+
+
+49 
+
+
+135 
+
+
+G5 
+
+
+133 
+
+
+163 
+
+
+186 ■ 
+
+
+
+
+74 
+
+
+65 
+
+
+III 
+
+
+
+
+70 
+
+
+48 
+
+
+153 
+
+
+
+
+176 
+
+
+176 
+
+
+134 
+
+
+
+
+67 
+
+
+61 
+
+
+30 
+
+
+
+
+oo 
+
+
+49 
+
+
+171 
+
+
+
+
+170 
+
+
+126 
+
+
+161 
+
+
+
+
+65 
+
+
+4Q 
+
+
+96 
+
+
+
+
+69 
+
+
+43 
+
+
+181 
+
+
+
+
+192 
+
+
+142 
+
+
+138 
+
+
+
+
+73 
+
+
+54 
+
+
+82 
+
+
+
+
+47 
+
+
+44 
+
+
+183 
+
+
+\ 
+
+
+160 
+
+
+/65 
+
+
+158 
+
+
+
+
+61 
+
+
+65 
+
+
+94 
+
+
+
+
+60 
+
+
+54 
+
+
+180 
+
+
+
+
+155 
+
+
+152 
+
+
+147 
+
+
+
+
+59 
+
+
+50 
+
+
+87 
+
+
+
+
+42 
+
+
+42 
+
+
+185 
+
+
+
+
+163 
+
+
+1/6 
+
+
+164 
+
+
+
+
+62 
+
+
+44 
+
+
+93 
+
+
+
+
+45 
+
+
+4/ 
+
+
+180 
+
+
+
+
+144 
+
+
+130 
+
+
+
+
+
+
+55 
+
+
+50 
+
+
+
+
+
+
+51 
+
+
+41 
+
+
+
+
+
+
+143 
+
+
+150 
+
+
+
+
+
+
+57 
+
+
+51 
+
+
+
+
+
+
+45 
+
+
+45 
+
+
+
+
+
+
+
+NATIONAL ADV I SORY 
+COMMITTEE FOR AERONAUTICS 
+
+
+
+Figure 2.- Control position recorder for recording 
+
+stick motion. 
+
+
+
+
+Figure 3.- Control position recorder for recording 
+
+elevator motion. 
+
+
+
+Figure 4.- Wheel control force recorder mounted 
+stick for recording maximum control force. 
+
+
+
+Figure 5.- Recording acceierometer, recording turnmeter 
+and timer mounted at center of gravity of the airplane. 
+
+
+
+I 
+
+
+
+pi 
+
+
+
+-40- 
+
+
+
+m 
+
+
+
+m 
+
+
+
+iiLili 
+
+
+
+/plait 
+
+Mm 
+
+
+
+;_ii^-i.fr..— T 
+
+
+
+•:-0 
+
+
+
+.•JPOl 
+
+
+
+==* I t 
+
+
+
+If 
+
+
+
+Pit 
+
+St 
+
+
+
+imb. 
+
+
+
+ombuteiiLq. ! ;i 5 - 
+
+
+
+1a ir 
+
+
+
+10 
+
+
+
+m 
+
+
+
+aid ccxT*c^;dfeq To 
+
+
+
+Fair 
+
+
+
+none 
+
+
+
+iiiii 
+
+
+
+L5-79 
+
+
+
+5 2^ 4- - t^-^t 
+
+
+
+
+
+V-G records obtained in 2l\. pull-ups on PEM-5 airplane. 
+
+
+
+NATIONAL ADVISORY 
+CO MM J TT EE FOR AERONAUTICS 
+
+
+
+TTFTTiT - : :r-r—rr~:.:;;/.::rf : {::.:? ^~ 
+
+
+
+
+■§§■ 
+
+
+
+i 
+
+
+
+
+mm 
+
+SB 
+
+
+
+. : I.:..: I plipl 
+
+
+
+1 
+
+
+
+ft 
+
+
+
+
+ft 
+
+
+
+■ 
+
+
+
+'Br 
+
+m 
+
+
+
+— . Yarj.Qt.ihns 
+
+
+
+a ■ on.. 
+
+
+
+PA m i 
+
+
+
+to- 
+
+
+
+mm 
+
+: y tea 
+
+
+
+1 
+
+
+
+*'lipr 
+
+
+
+
+
+
+I < ;l f 
+
+;rhf ;n - : t 
+
+
+
+J. 1-1 l. 
+
+
+
+:.a.dfZ6 Jo MAC* Mt/ai airs^^rW/mnhl/nd/J 
+
+
+
+L-577 
+
+
+
+
+mm 
+
+
+
+m 
+
+
+
+I: 
+1 
+
+
+
+I 
+
+
+
+^1 
+
+
+
+i K 1 ! 
+
+
+
+
+
+
+
+
+
+
+
+
+
+iii I ' ■: i 1 / i ; L_i_J.: 
+
+
+
+m 
+
+
+
+I 
+
+
+
+j UXU 
+
+I 1 ■pjf -pi' , ;f 
+
+
+
+LmX|::i:ii 
+
+I r ■■* - 
+
+
+
+mm. 
+
+
+
+■ 
+
+
+
+rr 
+
+
+
+•3 • 
+
+
+
+m 
+
+
+
+PI 
+
+ill 
+
+
+
+I 
+
+
+
+secork. 
+
+
+
+ill 
+
+
+
+1 
+
+
+
+1 t I : rl :::{:: 
+
+
+
+Tope I/. 
+
+
+
+Mi 
+5©h 
+
+
+
+wmm 
+
+
+
+St 
+
+
+
+o 
+
+Pi 
+
+
+
+'M 
+
+
+
+m 
+
+
+
+P 
+
+
+
+m 
+
+
+
+■mm 
+
+
+
+i 
+
+h5 
+
+
+
+

@@ -1,0 +1,290 @@
+{
+ "window": [
+  "1924-01-01",
+  "1960-12-31"
+ ],
+ "candidates": 73,
+ "mined": 12,
+ "untried_by_limit": 59,
+ "items": [
+  {
+   "identifier": "PvyrwBlrrQUC",
+   "date": "1940-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried PvyrwBlrrQUC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "internetadvertis00mary",
+   "date": "1997-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried internetadvertis00mary_djvu.txt, internetadvertis00mary_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "rMA25YykAFQC",
+   "date": "1989-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried rMA25YykAFQC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "sM-9EQAAQBAJ",
+   "date": "2019-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried sM-9EQAAQBAJ_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "AKyGOCZWMJQC",
+   "date": "1985-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 503)); tried AKyGOCZWMJQC_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "19890828-robert-baldwin-morgan-stanley-ceo-lodestar-group-chairman",
+   "date": "1989-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "Robert Baldwin of Morgan Stanley",
+   "family": "internet_archive",
+   "meta_date": "1989-01-01",
+   "status": "cached",
+   "bytes": 1901,
+   "named_terms": [
+    "morgan stanley",
+    "morgan stanley co",
+    "morgan stanley group"
+   ],
+   "other_terms": [
+    "dean witter"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 2,
+   "entity_hits": 2,
+   "matched_entities": [
+    "morgan stanley"
+   ],
+   "matched_other_terms": [],
+   "sample": [
+    {
+     "line": 16,
+     "text": "former Morgan Stanley chair-",
+     "context": [
+      "nies may be getting a cail from",
+      "man Robert Baldwin. After five"
+     ]
+    },
+    {
+     "line": 63,
+     "text": "who built Morgan Stanley intoa",
+     "context": [
+      "trusted.\u201d No wonder. Baldwin,",
+      "Wail Street powerhouse during"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "houseofmorganame0000cher",
+   "date": "1990-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried houseofmorganame0000cher_djvu.txt, houseofmorganame0000cher_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "painewebberartco0000unse",
+   "date": "1995-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 403)); tried painewebberartco0000unse_djvu.txt, painewebberartco0000unse_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "gov.gpo.fdsys.CHRG-106hhrg66775",
+   "date": "1999-01-01",
+   "title_year": "",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "IMPACT OF U.S. TAX RULES ON INTERNATIONAL COMPETITIVENESS",
+   "family": "internet_archive",
+   "meta_date": "1999-01-01",
+   "status": "cached",
+   "bytes": 929463,
+   "named_terms": [
+    "morgan stanley",
+    "morgan stanley co",
+    "morgan stanley group"
+   ],
+   "other_terms": [
+    "dean witter"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 0,
+   "phrase_hits": 7,
+   "entity_hits": 7,
+   "matched_entities": [
+    "morgan stanley"
+   ],
+   "matched_other_terms": [
+    "dean witter"
+   ],
+   "sample": [
+    {
+     "line": 170,
+     "text": "Morgan Stanley Dean Witter & Co., Harvey B. Mogenson 106",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 4439,
+     "text": "Morgan Stanley, Dean",
+     "context": [
+      "Microsoft Corporation",
+      "Witter & Co."
+     ]
+    },
+    {
+     "line": 8700,
+     "text": "TOR, MORGAN STANLEY DEAN WITTER & CO.; ON BEHALF OF",
+     "context": [
+      "STATEMENT OF HARVEY B. MOGENSON, MANAGING DIREC-",
+      "THE COALITION OF SERVICE INDUSTRIES"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "isbn_9780874208474",
+   "date": "2000-01-01",
+   "status": "UNANSWERED -- no text layer resolved (UNANSWERED after 3 tries (HTTP 401)); tried isbn_9780874208474_djvu.txt, isbn_9780874208474_djvu.txt",
+   "verdict": "UNANSWERED",
+   "hits": 0,
+   "sample": []
+  },
+  {
+   "identifier": "witterunilifeblood00jeanrich",
+   "date": "1967-01-01",
+   "title_year": "1967",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "The University, the community, and the lifeblood of business : oral history transcript / and related material, 1967-1968",
+   "family": "internet_archive",
+   "meta_date": "1967-01-01",
+   "status": "cached",
+   "bytes": 237480,
+   "named_terms": [
+    "morgan stanley",
+    "morgan stanley co",
+    "morgan stanley group"
+   ],
+   "other_terms": [
+    "dean witter"
+   ],
+   "verdict": "VARIANT_TERM_HIT",
+   "hits": 0,
+   "phrase_hits": 0,
+   "entity_hits": 0,
+   "matched_entities": [],
+   "matched_other_terms": [
+    "dean  witter"
+   ],
+   "sample": [
+    {
+     "line": 384,
+     "text": "the  administration  office  of  Dean  Witter  &\u2022",
+     "context": [
+      "on  the  second  floor  of  the  building  that  houses",
+      "Co.,  at  45  Montgomery  Street  in  San  Francisco."
+     ]
+    },
+    {
+     "line": 464,
+     "text": "Forming  Dean  Witter  &  Co.,  1924   35",
+     "context": [
+      "",
+      ""
+     ]
+    },
+    {
+     "line": 666,
+     "text": "with  my  cousin,  Dean  Witter,  these  many  years,",
+     "context": [
+      "[pronounced  Gene]  because  I  have  been  in  business",
+      "and  there  has  been  confusion  because  of  the  similarity"
+     ]
+    }
+   ]
+  },
+  {
+   "identifier": "micro_IA40386013_1278",
+   "date": "1997-01-01",
+   "title_year": "1997",
+   "date_mismatch": false,
+   "in_window": false,
+   "title": "Childs v. PaineWebber Inc., 522 U.S. 870 (1997) (No. 97-325)",
+   "family": "internet_archive",
+   "meta_date": "1997-01-01",
+   "status": "cached",
+   "bytes": 107020,
+   "named_terms": [
+    "morgan stanley",
+    "morgan stanley co",
+    "morgan stanley group"
+   ],
+   "other_terms": [
+    "dean witter"
+   ],
+   "verdict": "TIER1_CANDIDATE_TEXT",
+   "hits": 200,
+   "phrase_hits": 0,
+   "entity_hits": 8,
+   "matched_entities": [
+    "painewebber inc"
+   ],
+   "matched_other_terms": [
+    "dean witter"
+   ],
+   "sample": [
+    {
+     "line": 93,
+     "text": "450 REC. confirming that Painewebber Inc. VIOLATED",
+     "context": [
+      "pertaining to claims that is court record NO. 40 of CV F 90",
+      "securities laws of the state of California with me BE"
+     ],
+     "promoted": "painewebber inc"
+    },
+    {
+     "line": 97,
+     "text": "Painewebber Inc. for the purpose of defrauding me?",
+     "context": [
+      "any NASD arbitrators who were most probably bought by",
+      ""
+     ],
+     "promoted": "painewebber inc"
+    },
+    {
+     "line": 189,
+     "text": "14. Is the Supreme Court aware that Painewebber Inc.",
+     "context": [
+      "",
+      "uses the NASD arbitration for receiving money from those"
+     ],
+     "promoted": "painewebber inc"
+    }
+   ]
+  }
+ ]
+}

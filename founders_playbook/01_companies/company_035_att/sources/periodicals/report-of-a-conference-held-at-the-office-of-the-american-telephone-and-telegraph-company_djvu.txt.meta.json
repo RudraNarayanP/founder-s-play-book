@@ -1,0 +1,9 @@
+{
+ "identifier": "report-of-a-conference-held-at-the-office-of-the-american-telephone-and-telegraph-company",
+ "url": "https://archive.org/download/report-of-a-conference-held-at-the-office-of-the-american-telephone-and-telegraph-company/Report%20of%20a%20conference%20held%20at%20the%20office%20of%20the%20American%20Telephone%20and%20Telegraph%20Company_djvu.txt",
+ "fetched": "2026-09-29T17:50:01Z",
+ "bytes": 334305,
+ "route": "download/<id>/<id>_djvu.txt (OCR text layer)",
+ "note": "the `text:` field in advancedsearch matches ANNOTATIONS, not this layer",
+ "transport": "UNVERIFIED TLS -- re-check before citing at High confidence"
+}
