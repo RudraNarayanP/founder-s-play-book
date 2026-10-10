@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=McKesson+drug+wholesaler&date1=1900&date2=1995&dateFilterType=yearRange&sort=date",
+ "evidence_file": "d7784cef67921461-r20261010T124056Z.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 90347,
+ "retrieved_at": "2026-10-10T12:43:09Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a485b5876a32fc89-MSP",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'McKesson' drug wholesaler 1900-1995",
+ "company": "mckesson",
+ "kind": "search"
+}
