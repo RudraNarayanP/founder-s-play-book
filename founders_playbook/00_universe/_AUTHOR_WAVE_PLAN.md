@@ -161,3 +161,24 @@ and the ledger holds 0 live / 0 stale claims, so no dispatch starts with a lock 
 **Do NOT re-dispatch:** anything already merged (19 volumes, 734,262 words, 4,274 rows -- see §1), and the 1.5 GB
 of newly-downloaded evidence is on disk but deliberately unpushed pending the user's call; the nightly harvest
 workflow is the proven route for evidence.
+
+
+## Gates baseline, measured 2026-10-08 with zero model lanes (put these into the audit briefs)
+
+`03_quality_control/_GATES_BASELINE_2026-10-08.md` ran `gates.py --tier auto --fail-on substantive` over all
+19 merged volumes and read findings back from the JSON, not the prose. **14 substantive findings** total:
+
+- **jpmorgan 4** (`anchors`, `keys`, `quotes`) -- expected: its merge died before the id mint, so 23
+  `PROV-JP1-*` keys resolve to nothing. **Fix the merge first; do not send an auditor onto a broken key space.**
+- **cigna 2** (`corrections`, `keys`) -- the `corrections` gate failing is the mechanical proof that the
+  repairer's propagation is incomplete (the two surviving "No held byte prints..." sentences). The repairer's
+  finish job is defined by this row, not by my prose.
+- **cvs 2** (`csv`, `quotes`) -- `csv` is new since the merge: a register width/vocabulary defect the auditor
+  must locate per row.
+- **walmart, unitedhealth, apple, costco, meta, pepsico 1 each**, all `quotes` -- the known secondary-print
+  gap (task #15), not a fabrication signal.
+- **clean (0 substantive):** amazon, alphabet, microsoft, gm, att, target, tesla, jnj, boeing, nvidia.
+
+Tier column is what the fixed reader resolved per company (jpmorgan/cvs/cigna/meta T2; unitedhealth/costco/
+pepsico/tesla T3; amazon/apple/walmart T1) -- so an auditor should never pin `--tier` and should quote this
+table if the dossier disagrees.
