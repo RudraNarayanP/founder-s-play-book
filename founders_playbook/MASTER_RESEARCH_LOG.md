@@ -3021,3 +3021,39 @@ and the difference is a fact for the auditor, not noise to tidy.
 **Rule for this project:** a repository that stores evidence must state its line-ending policy in tracked
 files, and a clean `git status` is not proof that stored bytes equal disk bytes -- **compare `git cat-file`
 to the file, in a sample, before claiming a corpus is verbatim.**
+
+### RD-145 -- my own provenance fix made provenance worse for 1,079 files, and the checker I wrote to look for that is what found it
+
+**The sequence, with the numbers.** RD-144 stopped git from translating bytes by adding `.gitattributes` and
+running `git add --renormalize` over the 13,168 tracked evidence paths, which restaged **5,876** files so that
+`blob == disk`. That was right for the files whose disk content was the fetched content, and **wrong for the
+ones whose disk content had already been altered** -- and I did not know which was which until I built the
+checker. `tools/provenance_check.py` re-reads every sidecar against the file it names and classes the
+disagreement (self-test: 6 planted cases -- OK / SIZE / HASH / MISSING / NO_EVIDENCE / UNPARSEABLE -- all
+caught). First real census over 6,024 sidecars: **OK 3,038, SIZE 1,079, HASH 0, MISSING 1, UNPARSEABLE 0,
+NO_EVIDENCE 1,906** (listing-only responses, not damage).
+
+**The mechanism, proved rather than guessed.** Every SIZE row had the same shape: disk bigger than the sidecar
+by exactly the file's own CRLF count (88,224 vs 85,274 = 2,950 lines; 84,977 vs 84,977+delta in 1,079 of
+1,079 cases, **no counter-example, no lone CR byte**). Tracing one file through my own commits settled it:
+`HEAD~2` stored 85,274 B LF which equals the sidecar's number -- **correct**; `HEAD~1`, after my renormalize,
+stored 88,224 B CRLF -- **wrong**. The nightly runner writes LF on Linux; `core.autocrlf=true` checked those
+blobs out as CRLF on this machine; my renormalize then faithfully froze the phantom bytes into history. So the
+defect was in the working tree, not the store, and "make the store match the disk" was the wrong direction for
+exactly that set.
+
+**Repaired, with a test that can tell transcription from damage.** For each sidecar: if converting the file's
+CRLF back to LF reproduces its recorded byte count exactly, the fetched bytes are recoverable and were
+restored in place (1,079 files, 0 refusals). `.gitattributes` now leads with `* -text` so git stops
+translating in either direction, and the post-repair census reads **OK 4,118, SIZE 0, MISSING 0, HASH 0**.
+The single MISSING row was real and unrelated to line endings: Walmart's 941,197 B SEC *Securities Traded on
+Exchanges* document kept its old hash filename in the sidecar after the file was renamed descriptively. The
+sizes matched byte-for-byte, so the sidecar was repaired to name the file -- **never the file rewritten to
+match the sidecar.**
+
+**Rule.** A fix that makes two representations agree has to be told *which representation is the authority*.
+Mine made the store match the disk and the disk was the corrupted copy; the sidecar written at fetch time was
+the third witness, and only checking all three caught it. **Record the byte count at the moment of retrieval,
+then verify against it, and treat any "clean" `git status` as silence rather than evidence.** Related:
+RD-144, and §15.5 -- a checker earns its place by catching its author's mistake, which this one did within
+minutes of being written.
