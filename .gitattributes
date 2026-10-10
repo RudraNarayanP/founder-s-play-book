@@ -1,3 +1,7 @@
+# Whole-repository: this corpus stores fetched bytes and hashes them, so git must never translate
+# line endings on the way in OR on the way out. The per-extension rules below are kept for documentation.
+* -text
+
 # Evidence bytes are provenance: sources/ layers and harvest responses carry sha256 sidecars computed
 # from the exact downloaded bytes, so line-ending conversion would make every future hash check lie.
 # (core.autocrlf=true is a Windows default, not this project's decision -- RD-143.)

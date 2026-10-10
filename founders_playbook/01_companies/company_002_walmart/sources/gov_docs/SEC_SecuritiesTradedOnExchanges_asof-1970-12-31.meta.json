@@ -1,6 +1,6 @@
 {
  "url": "https://archive.org/download/securitiestraded1970unit/securitiestraded1970unit_djvu.txt",
- "evidence_file": "117f58117ad37959.txt",
+ "evidence_file": "SEC_SecuritiesTradedOnExchanges_asof-1970-12-31_IA-securitiestraded1970unit.txt",
  "http_status": 200,
  "content_type": "text/plain; charset=utf-8",
  "bytes": 941197,
@@ -16,6 +16,6 @@
  "cf_mitigated": "",
  "cf_ray": "",
  "retry_after": "",
- "note": "",
+ "note": "evidence_file repaired 2026-10-08 by the provenance census: the document was renamed from the hash form to a descriptive name and the sidecar was never updated; size verified byte-for-byte before the repair",
  "task": "A5 txt-securities-traded-1970"
 }
