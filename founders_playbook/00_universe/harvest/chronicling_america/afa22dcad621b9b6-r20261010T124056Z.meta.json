@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=Cadabra+Seattle&date1=1994&date2=1998&dateFilterType=yearRange&state=Washington",
+ "evidence_file": "afa22dcad621b9b6-r20261010T124056Z.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 90347,
+ "retrieved_at": "2026-10-10T12:42:46Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a485b4f52d96acff-MSP",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'Cadabra' Seattle 1994-1998 (NAME-VARIANT: repo/brief-attested predecessor spelling)",
+ "company": "amazon",
+ "kind": "search"
+}

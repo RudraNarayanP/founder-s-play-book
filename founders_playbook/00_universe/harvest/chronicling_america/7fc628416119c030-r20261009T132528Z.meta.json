@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22formerly+known+as%22+StoneX+OR+FCStone+OR+INTL&date1=1980&date2=2025&dateFilterType=yearRange&state=New+York",
+ "evidence_file": "7fc628416119c030-r20261009T132528Z.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 84986,
+ "retrieved_at": "2026-10-09T13:31:04Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a47dbe5a298610e5-ORD",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA NAME-DISCOVERY '\"formerly known as\" StoneX' / 'FCStone' / 'INTL' 1980-2025 (HYPOTHESIS routes to the former registrant names)",
+ "company": "stonex",
+ "kind": "search"
+}
