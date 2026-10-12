@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/titles/results/?format=json&terms=Bentonville",
+ "evidence_file": "91070c2595d2f240-r20261012T153909Z.json",
+ "http_status": 503,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 90264,
+ "retrieved_at": "2026-10-12T15:39:39Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a49732706cf6a385-SEA",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA-CANARY titles Bentonville (reachability probe, 1 request)",
+ "company": "walmart",
+ "kind": "titles"
+}
