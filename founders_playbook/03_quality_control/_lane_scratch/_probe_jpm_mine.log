@@ -1,0 +1,16 @@
+{
+ "jpmorgan": {
+  "window": [
+   "1799-01-01",
+   "1960-12-31"
+  ],
+  "candidates": 62,
+  "mined": 12,
+  "bytes": 1558492,
+  "entity_naming": 1,
+  "variant_term": 1,
+  "bare_word_only": 7,
+  "null": 0,
+  "unanswered": 3
+ }
+}

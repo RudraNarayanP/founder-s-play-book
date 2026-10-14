@@ -1,0 +1,11 @@
+identity: 'RTX Corp' resolved to CIK 101829 (RTX Corp) by name-exact
+walk: 1 slices (1 fetched, 0 failed), 2968 filing rows, date perimeter 1994-01-24 -> 2026-10-05
+index: 2968 filings from registrant 'RTX Corp' (CIK 0000101829, tickers ['RTX'])
+index: registrant guard = ok -- slug token(s) ['rtx'] match registrant 'RTX Corp' (CIK 0000101829)
+index: artefacts keyed by CIK -> submissions_CIK0000101829.json, submissions_CIK0000101829.csv, _INDEX_CIK0000101829.md
+index: 0 rows dropped for no accession, 157 without primaryDocument (both counted in the artefacts)
+auto: 4 accessions in window, 2 directories opened, 8 document slots planned, 8 kept under --max-docs 8, 0 skipped past the cut
+auto: selection order -- 1. filings whose filingDate falls in --from/--to, sorted filingDate ASCENDING (earliest evidence first); 2. one filing per form key -- S-1/S-4/10-K families keep every filing because version differences are findings, other forms keep the first per (base-form, primaryDocument[:12]); 3. inside a filing, documents in candidate order: the submissions primaryDocument, then named text/html items largest-first, then the full-submission SGML <accession>.txt; 4. --max-docs caps DOCUMENTS, so the stream built by 1-3 is cut at N and every slot past the cut is written to _SKIPPED.csv as 'SKIPPED beyond --max-docs N' -- never dropped.
+auto: 8 documents stored (4697163 bytes, 117460 words); 1 UNANSWERED (of which 0 nameless pre-2001 listing rows); 0 SKIPPED
+auto: IDENTITY stored + unanswered + skipped == attempted -> stored(8) + unanswered(1) + skipped(0) = 9 raw / 9 unique slots vs attempted(9) -> OK
+   UNANSWERED (2 filings) : UNANSWERED NOT-ENUMERATED: 2 in-window filings were never listed because --max-docs 8 was reached; their documents exist but are unknown to this run
