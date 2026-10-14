@@ -3057,3 +3057,41 @@ the third witness, and only checking all three caught it. **Record the byte coun
 then verify against it, and treat any "clean" `git status` as silence rather than evidence.** Related:
 RD-144, and §15.5 -- a checker earns its place by catching its author's mistake, which this one did within
 minutes of being written.
+
+### RD-146 -- JPMorgan's merge was already minted; the resume's "23 missing ids" was the census reading the part, and the quote gate was eating a real sentence
+
+**Measured before any write, because the resume brief said the mint had never happened.**
+`00_universe/_ID_BLOCKS.tsv` already held S4531–S4553 for `company_012_jpmorgan` / `merge-jpmorgan`.
+`sources.csv` already had those 23 keys and zero `PROV-*`. `stage_1.md` already carried the 2026-10-07
+MERGE RECORD, including the binding `PROV-JP1-nn` → `S(4530+nn)` and an explicit decision not to seed
+`CORRECTIONS.md`. `_MANIFEST.md` and both QC reports were still the 35-word stubs. **No second block was
+minted.** `merge_census.py` still prints `sources.csv missing 23`, all `PROV-JP1-*`, because it compares the
+read-only part's key strings to the live register. That line is the re-mint, not 23 lost rows. The
+validation/failures pair is still `AMBIGUOUS` (identical schemas); 14 and 10 were re-counted and not moved.
+The census's content hints are the decisions block, and they were not used.
+
+**Two gate findings were the merger's own preamble, not the evidence.** `declared_anchors()` takes the first
+`ANCHORS:` comment. The MERGE RECORD illustrated the part's comment with an ellipsis (`U.001 … U.013`), which
+does not expand, so the authoritative set was `{U.001, U.013}` while §U contains all thirteen sections. The
+illustration no longer contains the token `ANCHORS:`; the declaration on line 174 is the one the gate reads,
+and the re-run is 13↔13. Separately, `` `S4529–S4530` `` (Cigna's already-claimed range, discussed, not
+cited) left `S4530` unprotected because the gate protects the id before an en-dash and not the id after it.
+Adding the word `range` put `S4530` in the protected-history note. It was not added to `sources.csv`.
+
+**The quote gate deleted a verbatim sentence and then reported it missing.** `strip_html` used `<[^>]+>`.
+On the Chemical Bank history an OCR debris match opening `<^^  X-` ran 12,458 characters and contained
+lines 1887–1889, "The pressure in the money market has not been so great since the spring of 1837 as it is
+at this moment." The pattern now requires an HTML name that starts with a letter. `--self-test` passes,
+including that shape as a control. Boeing and GM, re-run to temp files, still exit 0 under
+`--fail-on substantive`. JPMorgan's quote finding went from 5/24 to **4/24**. The four that remain are
+named in `03_quality_control/jpmorgan_s1_merge.md` and were not rewritten: one is the merger quoting its
+own FR-6 instruction, one is an ellipsis across a booklet sentence whose two sides are both on disk, and
+two are OCR normalisations (`Bervice`/`Marketa`, `ohn`/`Veft Flashing`/`Gydnia`).
+
+**`CORRECTIONS.md` stays absent.** The 2026-10-07 merger recorded that decision. No `data_gaps` row asks
+for the file. An empty file would turn "gate DID NOT RUN" into "names no COR-nn". The id map is in the
+volume. This pass wrote `_MANIFEST.md` (34,641 words on `stage_1.md`, 214 register rows) and the merge
+report. It did not audit and it did not certify. The remaining substantive gate is `quotes`.
+`scaffold.py save` was also rewriting the owner ledger from CRLF to LF on every claim, which would
+have made all 2,793 lines look changed. It now keeps the newline the file already uses. A round-trip
+of the untouched ledger is byte-identical, and this pass's ledger diff is the five `done` rows only.

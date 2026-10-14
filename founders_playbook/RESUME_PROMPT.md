@@ -37,7 +37,7 @@ Every company directory lives in `founders_playbook/01_companies/company_<rank>_
 ## 3. Tools (all stdlib Python, all self-testing — use them, do not reinvent)
 | tool | verified command |
 |---|---|
-| `tools/gates.py` | `python tools/gates.py --company-dir <dir> --out <path>` — `--tier auto` resolves the tier **per volume** from the company's own probe (fixed in RD-142; do NOT pin `--tier`). `--self-test` = 25 controls PASS |
+| `tools/gates.py` | `python tools/gates.py --company-dir <dir> --out <path>` — `--tier auto` resolves the tier **per volume** from the company's own probe (fixed in RD-142; do NOT pin `--tier`). `--self-test` PASS, 26 printed controls (the 26th, RD-146, is the OCR-angle-bracket quote that must not be swallowed) |
 | `tools/scaffold.py` | `claim` / `release --agent X --all` / `ledger` (alias `status`) / `section` / `touch` |
 | `tools/merge_census.py` | `--company-dir <dir> --verbose` — run BEFORE any merge write; `validation.csv` vs `failures.csv` print AMBIGUOUS (identical schemas) — adjudicate by row and say how |
 | `tools/id_mint.py` | `--count N --company <dir> --claim --agent <id>` — allocate above the highest live id, never re-enter a gap, **never enter `S4222-S4229`** (a known Microsoft/Target collision, task #31) |
@@ -53,15 +53,19 @@ Every company directory lives in `founders_playbook/01_companies/company_<rank>_
 `tools/_tmp_*.py` are leftover agent scratch — not maintained, don't extend them.
 
 ## 4. State as measured on disk (git `fa9db9e6`, tree clean, 0 live claims)
-- **19 merged Stage-1 volumes: 734,262 words, 4,274 register rows.** Amazon 50,814 (**SIGNED**) · Walmart 59,516
+- **19 merged Stage-1 volumes: 734,266 words, 4,274 register rows.** Amazon 50,814 (**SIGNED**) · Walmart 59,516
   · Apple 57,502 (registers in `research/`) · Alphabet 57,358 · Tesla 55,347 (**CERTIFIED**) · UnitedHealth
   44,996 · Target 42,833 (**CERTIFIED**) · AT&T 31,315 · Nvidia 46,691 · Costco 46,992 · Boeing 34,817 ·
-  JPMorgan 34,637 · Microsoft 34,707 · Meta 30,212 · J&J 27,043 · PepsiCo 22,958 · GM 20,192 · CVS 19,520 ·
-  Cigna 16,812.
+  JPMorgan 34,641 · Microsoft 34,707 · Meta 30,212 · J&J 27,043 · PepsiCo 22,958 · GM 20,192 · CVS 19,520 ·
+  Cigna 16,812. The +4 words against the 2026-10-08 census are two preamble edits in JPMorgan's MERGE RECORD
+  (RD-146); re-measure before quoting the total again.
 - **Certified: 2** (Tesla, Target) + Amazon signed. **Audited with a verdict: 1** (Cigna — FAILED: 1 blocker,
   8 findings, `03_quality_control/cigna_s1_audit1.md`).
-- **Gates baseline (2026-10-08, `03_quality_control/_GATES_BASELINE_2026-10-08.md`): 14 substantive findings.**
-  jpmorgan 4 (`anchors`,`keys`,`quotes`); cigna 2 (`corrections`,`keys`); cvs 2 (`csv`,`quotes`); walmart,
+- **Gates baseline file (2026-10-08, `03_quality_control/_GATES_BASELINE_2026-10-08.md`) still says 14 substantive findings.**
+  That file was not rewritten. JPMorgan's row in it (4: `anchors`, `keys`, `quotes`) is stale: the 2026-10-14
+  re-run clears anchors and keys and leaves `quotes` at 4 of 24 (RD-146). Boeing and GM were re-run to temp
+  files and still exit 0 under `--fail-on substantive`. The other companies were not re-gated this pass.
+  In that file: cigna 2 (`corrections`,`keys`); cvs 2 (`csv`,`quotes`); walmart,
   unitedhealth, apple, costco, meta, pepsico 1 each (all `quotes` = the secondary-print gap, task #15, not
   fabrication); the other 10 volumes clean.
 - **Parts complete, unmerged (0 PENDING blocks):** Cencora 14,916 · Verizon 17,293 · UPS 12,215 · Centene
@@ -75,8 +79,12 @@ Every company directory lives in `founders_playbook/01_companies/company_<rank>_
 - Boeing has 211 rows merged but **no `CORRECTIONS.md`** — bookkeeping gap, check it.
 
 ## 5. Next actions, in order
-1. **Finish JPMorgan's merge** (it is ~90% done: volume + nine registers exist). 23 `PROV-JP1-*` source ids were
-   never minted; `CORRECTIONS.md` missing; `_MANIFEST.md` is a 35-word stub; no merge report.
+1. **JPMorgan's merge is closed as bookkeeping (RD-146).** S4531–S4553 were already in `_ID_BLOCKS.tsv` and
+   in `sources.csv` — do not mint them again. `merge_census.py` still prints 23 missing `PROV-JP1-*` keys
+   because the read-only part keeps the provisional strings; that is the re-mint, not 23 lost rows.
+   `CORRECTIONS.md` stays absent on the merger's recorded decision. `_MANIFEST.md` and
+   `03_quality_control/jpmorgan_s1_merge.md` are written. The open item is the `quotes` finding (4/24),
+   for an auditor who is not this merger, and the four spans are named in the merge report.
 2. **Finish Cigna's repair** from `cigna_s1_audit1.md`: the blocker is that a held byte DOES print the
    registrant's incorporation date (`sources/sec/0001140361-18-024107_s002268x1_s4.htm` l.48371 — "(Originally
    incorporated on March 6, 2018 under the name Halfmoon Parent, Inc.)") while the volume claims the opposite in

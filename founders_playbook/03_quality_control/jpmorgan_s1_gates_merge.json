@@ -1,0 +1,14 @@
+{
+ "findings": [
+  {
+   "gate": "quotes",
+   "subject": "verbatim",
+   "msg": "4 of 24 quoted spans not found in local sources"
+  },
+  {
+   "gate": "advisory",
+   "subject": "stage_1.md",
+   "msg": "34641 words over the T2 (this volume's issued tier) density target 22000 -- NOT a split mandate and NOT a defect; recorded so the tier is measurable"
+  }
+ ]
+}

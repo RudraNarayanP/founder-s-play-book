@@ -56,9 +56,21 @@ def load():
 
 def save(d):
     os.makedirs(os.path.dirname(LEDGER), exist_ok=True)
+    # The ledger is a shared file. Rewriting CRLF to LF makes every line look changed
+    # and is the same class of damage as RD-145: a save that normalises bytes it was
+    # not asked to change. Keep the newline the file already uses.
+    newline = "\n"
+    trailing = True
+    if os.path.exists(LEDGER):
+        raw = open(LEDGER, "rb").read()
+        if b"\r\n" in raw[:2000]:
+            newline = "\r\n"
+        trailing = raw.endswith(b"\n")
     tmp = LEDGER + ".tmp"
-    with open(tmp, "w", encoding="utf-8") as f:
+    with open(tmp, "w", encoding="utf-8", newline=newline) as f:
         json.dump(d, f, indent=1, sort_keys=True)
+        if trailing:
+            f.write("\n")
     os.replace(tmp, LEDGER)
 
 

@@ -59,7 +59,7 @@ written with the `\n` endings §13 requires.) Every `stage` cell on disk reads t
 `tools/id_mint.py --audit` first: 449 issued ids, range `S0001–S4528`, 197 registry claims, `next assignable:
 S4529`. The mint (`--count 23 --company company_012_jpmorgan --claim --agent merge-jpmorgan`) returned
 **S4531–S4553**, not S4529–S4551: between that audit and the mint a concurrent Cigna repair pass claimed
-`S4529–S4530`, which is precisely the race the registry exists to absorb. My block is contiguous, **above every
+the range `S4529–S4530`, which is precisely the race the registry exists to absorb. My block is contiguous, **above every
 live id at the moment of minting**, re-enters no gap, and does not touch the known live collision range
 **`S4222–S4229`** (one id cited by both `company_011_microsoft` and `company_042_target`), which was neither
 allocated into nor repaired here. Binding: `PROV-JP1-nn` → **S(4530+nn)**, i.e. `PROV-JP1-01`→**S4531** …
@@ -104,7 +104,7 @@ not misfiled failures.
 
 ### Anchor ↔ conflict parity — 13 ↔ 13 ↔ 13, proven by re-running the census
 
-13 anchors declared on one line (`<!-- ANCHORS: U.001 … U.013 -->`, part l.18) ↔ 13 `### U.nnn` sections written in
+13 anchors declared on one line (the part's anchor comment lists U.001 through U.013, part l.18) ↔ 13 `### U.nnn` sections written in
 §U (l.773–l.823) ↔ 13 `conflicts.csv` rows keyed **U.001–U.013** — same ids, same order, all three ways (measured).
 Before the merge the census reported `conflicts.csv requested 13 / present 0 / missing 13` and `sources.csv
 requested 23 / missing 23` = **TOTAL missing keyed rows: 36**. After it, `conflicts.csv` reports

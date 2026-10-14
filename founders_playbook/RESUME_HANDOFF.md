@@ -1,7 +1,23 @@
 # RESUME HANDOFF — read this first if you are starting this project cold
 
-**Current block: 2026-10-08 ~04:30 IST (supersedes every section below it; the 09-23/24/25/30 blocks are kept as
-history and are KNOWN-STALE in their status columns — do not quote them).**
+**Current block: 2026-10-14 (supersedes the 2026-10-08 block below it on the JPMorgan facts only; everything
+else in that block was not re-measured this pass).**
+
+JPMorgan Stage 1 was finished as bookkeeping, not re-merged. Before any write, S4531–S4553 were already
+claimed in `00_universe/_ID_BLOCKS.tsv` and already used as the 23 keys in `sources.csv`. The resume's
+"23 ids never minted" was `merge_census.py` comparing `PROV-JP1-*` in the read-only part to S-ids in the
+live register. No second block was minted. `CORRECTIONS.md` is still absent, on purpose: the 2026-10-07
+MERGE RECORD says no `data_gaps` row asked for it, and an empty file would turn "gate DID NOT RUN" into
+"names no COR-nn". `_MANIFEST.md` and `03_quality_control/jpmorgan_s1_merge.md` are now written.
+`stage_1.md` is **34,641 words** (was 34,637; two preamble edits). Gates re-run with `--tier auto`:
+anchors 13↔13 pass, keys pass, **quotes still substantive at 4 of 24**. Those four spans are named in the
+merge report and were not rewritten. `gates.py` `strip_html` no longer treats OCR `<...>` debris as a tag
+(it was deleting the verbatim 1839 money-market sentence); `--self-test` passes. This pass did not audit
+and did not certify. Next value is still Cigna's repair, then the seven unaudited volumes — not a new
+JPMorgan mint. Detail: RD-146.
+
+**Previous block: 2026-10-08 ~04:30 IST (the JPMorgan sentences in it are superseded by the block above;
+the 09-23/24/25/30 blocks are kept as history and are KNOWN-STALE in their status columns — do not quote them).**
 
 ## 1. State, measured from disk this hour
 

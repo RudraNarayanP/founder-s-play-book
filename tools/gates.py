@@ -37,7 +37,12 @@ REGISTERS = ["timeline.csv", "quantitative.csv", "conflicts.csv", "sources.csv",
 STAGE_VOCAB = {"stage1", "stage2", "stage2-consequence", "stage3", ""}
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 MIN_QUOTE_WORDS = 8
-TAG_RE = re.compile(r"<[^>]+>")
+# OCR layers print "<" and ">" as plate debris. The old `<[^>]+>` class treated any
+# such pair as markup and, on the Chemical Bank history, deleted a 12,458-character
+# span beginning `<^^  X-` that contained the verbatim 1839 sentence "The pressure
+# in the money market...". A tag stripped here has to look like HTML: a name that
+# starts with a letter, then optional attributes, and no nested "<".
+TAG_RE = re.compile(r"</?[a-zA-Z][a-zA-Z0-9]*(\s[^<>]{0,300})?/?>")
 WS_RE = re.compile(r"\s+")
 
 NARR_GLOBS = {
@@ -1112,6 +1117,27 @@ def self_test():
                                  else "*** FAILED: findings=%s notes=%s ***"
                                       % (r.findings[:1], [n for n in r.notes if "candidates" in n][:1])))
         ok = ok and not r.findings and counted
+
+        # OCR angle brackets are not HTML. The Chemical Bank history's plate debris
+        # `<^^  X- ...>` spanned 12,458 characters and deleted a quotation that is
+        # verbatim on disk. The gate must still find that sentence.
+        oc = os.path.join(tmp, "case_ocr_angles")
+        shutil.copytree(comp, oc)
+        open(os.path.join(oc, "sources", "ocr.txt"), "w", encoding="utf-8").write(
+            "plate debris <^^  X- Cut &<^&S**^ or Bearer,\n\n"
+            "The pressure in the money market has not been so great since the spring "
+            "of 1837 as it is at this moment.\n")
+        plant(os.path.join(oc, "stage_1.md"), lambda t:
+              t + '\nA financial writer stated "The pressure in the money market has not '
+                  'been so great since the spring of 1837 as it is at this moment" '
+                  '(S0001).\n')
+        r = Report()
+        gate_quotes(oc, r, min_words=8)
+        kept = not any(f["gate"] == "quotes" and f.get("subject") == "verbatim"
+                       for f in r.findings)
+        print("%-40s %-8s %s" % ("OCR angle brackets must not swallow a quote", "[quotes]",
+                                 "PASS" if kept else "*** FAILED: findings=%s ***" % r.findings[:2]))
+        ok = ok and kept
 
         # issued_tier: the newest write wins, and a disagreement is reported rather than averaged.
         tc = os.path.join(tmp, "tier_case")
