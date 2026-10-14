@@ -18,7 +18,13 @@ JPMorgan mint and not a second Cigna repair. Detail: RD-146.
 
 **Cigna, same day (RD-147).** The 2026-10-06 repair had updated the prose and left the registers teaching
 "no held byte prints" the incorporation date. Propagation is now in the CSVs. S4529/S4530 were already
-minted and are now rows. Gates exit 0, 0 findings. Not certified.
+minted and are now rows. Gates exit 0, 0 findings. Not certified. Detail:
+`03_quality_control/cigna_s1_repairs.md`.
+
+**Audits, same day.** The seven stub audits (GM, AT&T, CVS, J&J, PepsiCo, Boeing, Meta) were replaced with
+the gates-and-census readings. Four have no substantive gate finding. CVS, PepsiCo, and Meta fail on the
+quote or csv gate; the classes of those misses are in the audit files. No quantitative row was recomputed,
+and nothing was repaired. Ready-part merges are still unstarted.
 
 **Previous block: 2026-10-08 ~04:30 IST (the JPMorgan sentences in it are superseded by the block above;
 the 09-23/24/25/30 blocks are kept as history and are KNOWN-STALE in their status columns — do not quote them).**

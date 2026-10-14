@@ -3117,3 +3117,16 @@ sentences the first repair missed (§R, §U.1, claim A02) are withdrawn in place
 does not add; the nine registers are **81**. `_parts/` was not edited. Gates re-run: **0 findings**,
 exit 0, 12 retractions reach both layers. This pass does not certify. Detail:
 `03_quality_control/cigna_s1_repairs.md`.
+
+### RD-148 -- the seven stub audits were replaced with a gates-and-census pass, and that pass is not a certification
+
+GM, AT&T, J&J, and Boeing: `gates.py --tier auto` exit 0. Their quote misses sit above 25% and are labelled
+ADVISORY. Boeing has no `CORRECTIONS.md`; the volume says none was issued, and the gate therefore did not run.
+CVS exit 1: `quantitative.csv` source_date `-` on the explicit UNKNOWN origin-quantity row, and 1 of 11
+quotes. PepsiCo exit 1: 1 of 12 quotes, the TLS caveat, which is in `.meta.json` sidecars the quote index
+does not read. Meta exit 1: 6 of 35 quotes. One of them, the Zuckerberg working-capital sentence, is in
+`0001193125-12-232582_d287954ds1a.htm` l.19576; `&#146;` is not decoded by `strip_html`. Census "missing"
+source keys on all seven are the provisional ids in the read-only parts. Live key counts match the minted
+blocks, except Meta's 20 requested vs 15 live, which the merge report accounts for as five aliases. No
+volume was edited. No quantitative row was recomputed. These reports must not be used to certify.
+

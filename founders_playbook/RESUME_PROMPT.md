@@ -90,8 +90,13 @@ Every company directory lives in `founders_playbook/01_companies/company_<rank>_
    row updated, S4529/S4530 written (already minted, not minted again), failures row 7 added. Gates exit 0,
    0 findings, 12 retractions in both layers, 81 register rows. `cigna_s1_repairs.md` is written. A
    certifier who is not the repairer has not signed it.
-3. **Audit the 7 unaudited merged volumes** (GM, AT&T, CVS, J&J, PepsiCo, Boeing, Meta) against
-   `03_quality_control/AUDIT_BRIEF_SHARED.md`. Their report files are stubs; nothing has been judged.
+3. **The seven volumes have a first audit (2026-10-14), and it is not a five-lens certification.** Gates and
+   census were re-run. GM, AT&T, J&J, and Boeing have no substantive gate finding (Boeing still has no
+   `CORRECTIONS.md`; the volume says none was issued). CVS fails on a `source_date` of `-` and 1 unmatched
+   quote. PepsiCo's one unmatched span is the TLS caveat, which lives in `.meta.json` sidecars the quote
+   index does not read. Meta fails 6 of 35 quotes; one of those six is in the S-1 and missed because
+   `&#146;` is not decoded. Reports: `03_quality_control/<slug>_s1_audit1.md`. Every quantitative row was
+   **not** recomputed. Do not certify from these audits.
 4. **Merge the ready parts** (Cencora, Verizon, UPS, Centene, FedEx), then close Humana's 5 and Dell's 2
    PENDING blocks and merge those two.
 5. **Then certify** companies whose audits pass — a certifier who is neither author, merger, auditor nor
