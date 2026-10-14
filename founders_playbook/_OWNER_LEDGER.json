@@ -854,6 +854,16 @@
   "ttl": 90,
   "words": 4123
  },
+ "founders_playbook/01_companies/company_014_cigna/_MANIFEST.md": {
+  "agent": "repair-cigna-finish",
+  "claimed": "2026-10-14T18:14:03Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-14T18:17:04Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 1919
+ },
  "founders_playbook/01_companies/company_014_cigna/channels.csv": {
   "agent": "merge-cigna",
   "claimed": "2026-10-06T21:41:03Z",
@@ -869,6 +879,56 @@
   "ttl": 240,
   "words": 90
  },
+ "founders_playbook/01_companies/company_014_cigna/conflicts.csv": {
+  "agent": "repair-cigna-finish",
+  "claimed": "2026-10-14T18:14:03Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-14T18:17:04Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 456
+ },
+ "founders_playbook/01_companies/company_014_cigna/data_gaps.csv": {
+  "agent": "repair-cigna-finish",
+  "claimed": "2026-10-14T18:14:03Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-14T18:17:04Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 469
+ },
+ "founders_playbook/01_companies/company_014_cigna/decisions.csv": {
+  "agent": "repair-cigna-finish",
+  "claimed": "2026-10-14T18:14:03Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-14T18:17:04Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 174
+ },
+ "founders_playbook/01_companies/company_014_cigna/failures.csv": {
+  "agent": "repair-cigna-finish",
+  "claimed": "2026-10-14T18:14:03Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-14T18:17:04Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 298
+ },
+ "founders_playbook/01_companies/company_014_cigna/quantitative.csv": {
+  "agent": "repair-cigna-finish",
+  "claimed": "2026-10-14T18:14:03Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-14T18:17:04Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 364
+ },
  "founders_playbook/01_companies/company_014_cigna/research/A_chronology_feasibility.md": {
   "agent": "probe-cigna",
   "claimed": "2026-10-06T11:47:24Z",
@@ -878,6 +938,46 @@
   "sections": [],
   "ttl": 240,
   "words": 7190
+ },
+ "founders_playbook/01_companies/company_014_cigna/sources.csv": {
+  "agent": "repair-cigna-finish",
+  "claimed": "2026-10-14T18:14:03Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-14T18:17:04Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 1068
+ },
+ "founders_playbook/01_companies/company_014_cigna/stage_1.md": {
+  "agent": "repair-cigna-finish",
+  "claimed": "2026-10-14T18:14:02Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-14T18:17:04Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 16948
+ },
+ "founders_playbook/01_companies/company_014_cigna/stage_1_index.md": {
+  "agent": "repair-cigna-finish",
+  "claimed": "2026-10-14T18:14:03Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-14T18:17:04Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 1139
+ },
+ "founders_playbook/01_companies/company_014_cigna/timeline.csv": {
+  "agent": "repair-cigna-finish",
+  "claimed": "2026-10-14T18:14:03Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-14T18:17:04Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 481
  },
  "founders_playbook/01_companies/company_014_cigna/validation.csv": {
   "agent": "merge-cigna",
@@ -2440,6 +2540,36 @@
   "sections": [],
   "ttl": 240,
   "words": 2551
+ },
+ "founders_playbook/03_quality_control/cigna_s1_gates_repair2.json": {
+  "agent": "repair-cigna-finish",
+  "claimed": "2026-10-14T18:17:03Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-14T18:17:04Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 4
+ },
+ "founders_playbook/03_quality_control/cigna_s1_gates_repair2.md": {
+  "agent": "repair-cigna-finish",
+  "claimed": "2026-10-14T18:17:03Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-14T18:17:04Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 313
+ },
+ "founders_playbook/03_quality_control/cigna_s1_repairs.md": {
+  "agent": "repair-cigna-finish",
+  "claimed": "2026-10-14T18:14:03Z",
+  "deliverable": "",
+  "done": true,
+  "heartbeat": "2026-10-14T18:17:04Z",
+  "sections": [],
+  "ttl": 240,
+  "words": 523
  },
  "founders_playbook/03_quality_control/cvs_s1_gates_merge.md": {
   "agent": "merge-cvs",

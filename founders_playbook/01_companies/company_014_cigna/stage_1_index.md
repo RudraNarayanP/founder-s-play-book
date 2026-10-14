@@ -40,7 +40,7 @@ The verbatim text stays in `_parts/s1_p1.md` as the emission of record. Claim re
 
 | anchor | what it holds | register home |
 |---|---|---|
-| `U.1` | "incorporated in Delaware in 1981" (a recital about Cigna Corporation) vs the registrant's own identity as Halfmoon Parent, Inc., renamed 2018-12-20; the registrant's incorporation date printed nowhere | `conflicts.csv` U.1; echoed in `timeline.csv` (3 rows: UNKNOWN birth, 2018-05-16 floor, 2018-12-20 closing) and `sources.csv` S4407/S4408 |
+| `U.1` | "incorporated in Delaware in 1981" (a recital about Cigna Corporation) vs the registrant's own identity as Halfmoon Parent, Inc., renamed 2018-12-20; the incorporation date is **2018-03-06** (s4.htm l.48371 and l.5011). ~~printed nowhere~~ withdrawn, COR-04 | `conflicts.csv` U.1; `timeline.csv` 2018-03-06 row; `sources.csv` S4407/S4408 |
 | `U.2` | 1792: whose origin and what class of statement — one retrospective self-report, 2 occurrences corpus-wide, capped Medium, never a founding date for the registrant | `conflicts.csv` U.2; `timeline.csv` 1792 row; `quantitative.csv` census row; `sources.csv` S4410 |
 | `U.3` | the 1982 combination (no held byte) and the 1850s-1872 second ancestor (never queried) — inherited assertion vs query-scope silence | `conflicts.csv` U.3; `timeline.csv` 1982 hypothesis row; `data_gaps.csv` rows 3 and 4 |
 | `U.4` | machine tier read vs issued tier (T3 tie-break vs T2 core PROVISIONAL) | `conflicts.csv` U.4; `sources.csv` S4422 |

@@ -13,8 +13,12 @@ MERGE RECORD says no `data_gaps` row asked for it, and an empty file would turn 
 anchors 13↔13 pass, keys pass, **quotes still substantive at 4 of 24**. Those four spans are named in the
 merge report and were not rewritten. `gates.py` `strip_html` no longer treats OCR `<...>` debris as a tag
 (it was deleting the verbatim 1839 money-market sentence); `--self-test` passes. This pass did not audit
-and did not certify. Next value is still Cigna's repair, then the seven unaudited volumes — not a new
-JPMorgan mint. Detail: RD-146.
+and did not certify. Next value is the seven unaudited volumes, then the ready-part merges — not a new
+JPMorgan mint and not a second Cigna repair. Detail: RD-146.
+
+**Cigna, same day (RD-147).** The 2026-10-06 repair had updated the prose and left the registers teaching
+"no held byte prints" the incorporation date. Propagation is now in the CSVs. S4529/S4530 were already
+minted and are now rows. Gates exit 0, 0 findings. Not certified.
 
 **Previous block: 2026-10-08 ~04:30 IST (the JPMorgan sentences in it are superseded by the block above;
 the 09-23/24/25/30 blocks are kept as history and are KNOWN-STALE in their status columns — do not quote them).**

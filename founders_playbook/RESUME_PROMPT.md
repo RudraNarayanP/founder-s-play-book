@@ -85,11 +85,11 @@ Every company directory lives in `founders_playbook/01_companies/company_<rank>_
    `CORRECTIONS.md` stays absent on the merger's recorded decision. `_MANIFEST.md` and
    `03_quality_control/jpmorgan_s1_merge.md` are written. The open item is the `quotes` finding (4/24),
    for an auditor who is not this merger, and the four spans are named in the merge report.
-2. **Finish Cigna's repair** from `cigna_s1_audit1.md`: the blocker is that a held byte DOES print the
-   registrant's incorporation date (`sources/sec/0001140361-18-024107_s002268x1_s4.htm` l.48371 — "(Originally
-   incorporated on March 6, 2018 under the name Halfmoon Parent, Inc.)") while the volume claims the opposite in
-   eight places; the `corrections` gate still fails, which is proof the propagation is incomplete. Verify every
-   item yourself — the auditor published that 8 of its 12 residual misses were its own false positives.
+2. **Cigna's repair is propagated (RD-147).** The prose and `CORRECTIONS.md` already withdrew the false
+   incorporation null; the registers did not. They do now: birth row `2018-03-06` / S4407, U.1 and the gap
+   row updated, S4529/S4530 written (already minted, not minted again), failures row 7 added. Gates exit 0,
+   0 findings, 12 retractions in both layers, 81 register rows. `cigna_s1_repairs.md` is written. A
+   certifier who is not the repairer has not signed it.
 3. **Audit the 7 unaudited merged volumes** (GM, AT&T, CVS, J&J, PepsiCo, Boeing, Meta) against
    `03_quality_control/AUDIT_BRIEF_SHARED.md`. Their report files are stubs; nothing has been judged.
 4. **Merge the ready parts** (Cencora, Verizon, UPS, Centene, FedEx), then close Humana's 5 and Dell's 2

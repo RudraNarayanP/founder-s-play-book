@@ -3095,3 +3095,25 @@ report. It did not audit and it did not certify. The remaining substantive gate 
 `scaffold.py save` was also rewriting the owner ledger from CRLF to LF on every claim, which would
 have made all 2,793 lines look changed. It now keeps the newline the file already uses. A round-trip
 of the untouched ledger is byte-identical, and this pass's ledger diff is the five `done` rows only.
+
+### RD-147 -- Cigna's repair had been written into the prose and not into the registers
+
+**Measured before the edit.** COR-04…COR-12 were already in `CORRECTIONS.md` and in `stage_1.md`'s repair
+table. The registers still taught the withdrawn claim. `timeline.csv` dated Halfmoon Parent's birth
+`UNKNOWN` and said "no held byte prints it". `conflicts.csv` U.1 said the date "is printed nowhere".
+`sources.csv` was 16 rows; S4529 and S4530 were cited in the volume and were not rows, though both ids
+were already in `_ID_BLOCKS.tsv` under `repair-cigna`. `failures.csv` was 6 rows. `gates.py` reported
+COR-04…COR-12 reaching the volume and no register. `cigna_s1_repairs.md` was a 35-word stub.
+
+**The byte, re-read, not taken from the correction file.**
+`sources/sec/0001140361-18-024107_s002268x1_s4.htm` line 48371 prints
+`(Originally incorporated on March 6, 2018 under the name Halfmoon Parent, Inc.)` and line 5011 prints
+`New Cigna was incorporated on March 6, 2018`. The CIA lines and the annuity sentence named in COR-08 and
+COR-07 are on the lines the correction file cites.
+
+**Applied, not re-narrated.** The birth row is `2018-03-06` / FACT / S4407. U.1 and the incorporation gap
+withdraw the null in the cell. S4529 and S4530 are rows. Failures has the annuity row. Three prose
+sentences the first repair missed (§R, §U.1, claim A02) are withdrawn in place. The volume's "79 rows"
+does not add; the nine registers are **81**. `_parts/` was not edited. Gates re-run: **0 findings**,
+exit 0, 12 retractions reach both layers. This pass does not certify. Detail:
+`03_quality_control/cigna_s1_repairs.md`.

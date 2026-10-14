@@ -27,12 +27,12 @@ overage would be advisory and would **not** be evidence to delete.
 | File | Words | Bytes | Contents | Status |
 |---|---|---|---|---|
 | `stage_1.md` | **14,513** | 94,432 | merge record (assembly, 78-row application account, `CG01–CG16`→**S4407–S4422** id map, folds, anchor parity, two tier frames, carry-forward, COR-01…COR-03) + the author's body **unchanged and unre-numbered** (Header, §boundary, §A–§U with §U.1–§U.6, 25 claim records A01…S01, `## UNTRIED` 9 items) + the register-application record | **MERGED 2026-10-06**; one volume; under every cap that applies |
-| `sources.csv` | 872 | 9,346 | 16 data rows × 18 cols, keys **S4407–S4422**, `independence_note` per row, three SEC/lineage collapses honoured, 3 decoy rows + 1 unheld pointer row kept as UNTRIED carriers | APPLIED 16/16 |
+| `sources.csv` | 1,068 | 10,953 | 18 data rows × 18 cols: S4407–S4422 plus S4529 (naming) and S4530 (decoy). Measured 2026-10-14 after the rows were written. The merge count was 16. COR-08 COR-12 | APPLIED 16/16 at merge; +2 at repair |
 | `quantitative.csv` | 353 | 3,511 | 15 × 12 — the INA 1979 printed set plus 1 ESTIMATE, 1 DERIVED (flagged mixed bases) and 1 corpus-census row | APPLIED 15/15 |
 | `timeline.csv` | 441 | 4,241 | 14 × 11 — Line 1 (1792 → 1994/95), Line 2 (1982 as hypothesis only), Line 3 (UNKNOWN incorporation, 2018 floor, 2018-12-20 closing) | APPLIED 14/14 |
 | `data_gaps.csv` | 404 | 3,381 | 12 × 8 — 6 High / 4 Medium / 2 Low; follow-up tasks cite FR-1…FR-7; row 12 is the record-selection null named as a permanent deliverable | APPLIED 12/12 |
 | `conflicts.csv` | 424 | 3,606 | 6 × 15 — **U.1–U.6, one row per declared anchor, 1:1 with §U** | APPLIED 6/6 |
-| `failures.csv` | 223 | 2,139 | 6 × 11 — adverse signals; block bound at merge (COR-02) | APPLIED 6/6 |
+| `failures.csv` | 298 | 2,709 | 7 × 11 — the merge's 6 adverse rows plus the 1979 annuity revenue decline (COR-07), measured 2026-10-14 | APPLIED 6/6 at merge; +1 at repair |
 | `validation.csv` | 150 | 1,503 | 4 × 11 — validating signals; block bound at merge (COR-02) | APPLIED 4/4 |
 | `decisions.csv` | 173 | 1,715 | 3 × 15 — HMO International 1978-12; the 1979 prepaid expansion mix; the 1979 underwriting posture | APPLIED 3/3 |
 | `channels.csv` | 90 | 908 | 2 × 11 — acquire-then-brand; hospital management contracts | APPLIED 2/2 |
@@ -52,7 +52,7 @@ Upload batch 1 = the readable stage volume; batch 2 = the nine registers + index
 | File | Words | Bytes | Contents | Why retained |
 |---|---|---|---|---|
 | `_parts/s1_p1.md` | 16,016 | 114,204 | the whole author emission: Header, §boundary, §A–§U, 25 claim records, `## UNTRIED`, and the nine fenced register blocks (78 rows, l.492–l.651) — **plus the `SUPERSEDED 2026-10-06` footer the merge appended** (15,707 words are the author's body and blocks; 309 words and 1,956 bytes are the footer) | the emission of record. The merge moved register data out of it and edited nothing above the footer; the footer supersedes **placement and keys only** — no narrative word needed correction. The three merge corrections (key / propagation / schema) are in `CORRECTIONS.md` |
-| `_parts/NOTES_cigna_p1.md` | 1,003 | 7,830 | the author's log: byte-verification pass, new evidence mined, register tally, refusals, gate record | shows what the merge accepted and what the author refused to claim |
+| `_parts/NOTES_cigna_p1.md` | **1,111** | 7,830 | the author's log. The 1,003-word figure was stale (COR-12); bytes were already 7,830. Re-measured 2026-10-14: 1,111 words. | shows what the merge accepted and what the author refused to claim |
 
 ## Research dossiers (scope of record — not touched by the merge)
 
