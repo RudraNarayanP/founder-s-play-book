@@ -1,0 +1,14 @@
+{
+ "findings": [
+  {
+   "gate": "keys",
+   "subject": "stage_1.md",
+   "msg": "unresolvable source tokens: S4529, S4530"
+  },
+  {
+   "gate": "corrections",
+   "subject": "registers",
+   "msg": "9 retraction(s) reach the prose but NOT any register, so the register layer still teaches the withdrawn claim: COR-04, COR-05, COR-06, COR-07, COR-08, COR-09, COR-10, COR-11, COR-12"
+  }
+ ]
+}
