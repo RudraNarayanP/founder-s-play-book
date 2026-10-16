@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22Walt+Disney%22+Burbank&date1=1920&date2=1970&dateFilterType=yearRange&state=California&sort=date",
+ "evidence_file": "e2523ee748f8022c.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 85016,
+ "retrieved_at": "2026-10-16T11:40:28Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a4b6c9f71a8592a0-IAD",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'Walt Disney' Burbank California film 1920-1970",
+ "company": "disney",
+ "kind": "search"
+}

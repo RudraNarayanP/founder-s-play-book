@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22Tesla+Motors%22+electric+vehicle&date1=2003&date2=2012&dateFilterType=yearRange&sort=date",
+ "evidence_file": "ca8c86cdf062fa14.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 85016,
+ "retrieved_at": "2026-10-16T11:40:20Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a4b6c9c22aa292a0-IAD",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA 'Tesla Motors' electric vehicle 2003-2012",
+ "company": "tesla",
+ "kind": "search"
+}

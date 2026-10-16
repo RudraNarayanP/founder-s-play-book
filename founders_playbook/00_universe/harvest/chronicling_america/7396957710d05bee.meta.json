@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22PC%27s+Limited%22+computers&date1=1984&date2=1990&dateFilterType=yearRange&state=Texas",
+ "evidence_file": "7396957710d05bee.json",
+ "http_status": 404,
+ "content_type": "text/html; charset=utf-8",
+ "bytes": 85016,
+ "retrieved_at": "2026-10-16T11:40:05Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a4b6c963aac192a0-IAD",
+ "retry_after": "",
+ "note": "",
+ "source": "chronicling_america",
+ "query_label": "CA \"PC's Limited\" Texas 1984-1989 (NAME-VARIANT: repo-attested predecessor name -- a misnamed host/filer is what produced the false null here before)",
+ "company": "dell",
+ "kind": "search"
+}
