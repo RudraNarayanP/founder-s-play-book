@@ -1,4 +1,4 @@
-# Chronicling America endpoint test -- 2026-10-21T12:06:21Z
+# Chronicling America endpoint test -- 2026-10-22T12:09:39Z
 
 Run from the GitHub Actions egress (or any host) to decide which URL shape answers, because
 from this project's development machine every shape 403s and a 403 cannot be told apart from
@@ -8,11 +8,11 @@ a wrong path. `periodical_harvest.py` currently uses `www.loc.gov/chroniclingame
 
 | shape | verdict | status | bytes | detail |
 |---|---|---|---|---|
-| `loc-global-chronicling-america` | ANSWERED | 200 | 1,798,076 | json parsed, top-level size=39 (schema unknown -- read it before counting) |
-| `loc-global-fa-collection` | ANSWERED | 200 | 127,527 | json parsed, top-level size=12 (schema unknown -- read it before counting) |
-| `ca-legacy-pages-results` | NOT-FOUND | 404 | 84,987 | 404 -- the path does not exist (our own defect, not a block) |
+| `loc-global-chronicling-america` | ANSWERED | 200 | 1,798,095 | json parsed, top-level size=39 (schema unknown -- read it before counting) |
+| `loc-global-fa-collection` | ANSWERED | 200 | 127,526 | json parsed, top-level size=12 (schema unknown -- read it before counting) |
+| `ca-legacy-pages-results` | NOT-FOUND | 404 | 85,015 | 404 -- the path does not exist (our own defect, not a block) |
 | `ca-legacy-newspapers-api` | CHALLENGED | 403 | 5,941 | Cloudflare bot challenge |
-| `cronidam-new-api` | NOT-FOUND | 404 | 2,283 | 404 -- the path does not exist (our own defect, not a block) |
+| `cronidam-new-api` | NOT-FOUND | 404 | 2,326 | 404 -- the path does not exist (our own defect, not a block) |
 | `www-chroniclingamerica-path` | NOT-FOUND | 404 | 85,015 | 404 -- the path does not exist (our own defect, not a block) |
 | `www-collections-page-json` | ANSWERED | 200 | 2,360,482 | json parsed, top-level size=39 (schema unknown -- read it before counting) |
 
