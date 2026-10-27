@@ -1,4 +1,4 @@
-# Chronicling America endpoint test -- 2026-10-26T13:21:15Z
+# Chronicling America endpoint test -- 2026-10-27T12:29:31Z
 
 Run from the GitHub Actions egress (or any host) to decide which URL shape answers, because
 from this project's development machine every shape 403s and a 403 cannot be told apart from
@@ -8,12 +8,12 @@ a wrong path. `periodical_harvest.py` currently uses `www.loc.gov/chroniclingame
 
 | shape | verdict | status | bytes | detail |
 |---|---|---|---|---|
-| `loc-global-chronicling-america` | ANSWERED | 200 | 1,798,097 | json parsed, top-level size=39 (schema unknown -- read it before counting) |
+| `loc-global-chronicling-america` | ANSWERED | 200 | 1,798,077 | json parsed, top-level size=39 (schema unknown -- read it before counting) |
 | `loc-global-fa-collection` | ANSWERED | 200 | 127,526 | json parsed, top-level size=12 (schema unknown -- read it before counting) |
-| `ca-legacy-pages-results` | NOT-FOUND | 404 | 85,015 | 404 -- the path does not exist (our own defect, not a block) |
+| `ca-legacy-pages-results` | NOT-FOUND | 404 | 84,987 | 404 -- the path does not exist (our own defect, not a block) |
 | `ca-legacy-newspapers-api` | CHALLENGED | 403 | 5,941 | Cloudflare bot challenge |
-| `cronidam-new-api` | NOT-FOUND | 404 | 2,327 | 404 -- the path does not exist (our own defect, not a block) |
-| `www-chroniclingamerica-path` | NOT-FOUND | 404 | 85,015 | 404 -- the path does not exist (our own defect, not a block) |
+| `cronidam-new-api` | NOT-FOUND | 404 | 2,283 | 404 -- the path does not exist (our own defect, not a block) |
+| `www-chroniclingamerica-path` | NOT-FOUND | 404 | 84,987 | 404 -- the path does not exist (our own defect, not a block) |
 | `www-collections-page-json` | ANSWERED | 200 | 2,360,483 | json parsed, top-level size=39 (schema unknown -- read it before counting) |
 
 **Probe query:** `"Wal-Mart" Bentonville` (1960-1969), chosen because the corpus is being mined for exactly this phrase and the collection advertises open OCR full text 1777-2016 -- so a working route should not return zero.
