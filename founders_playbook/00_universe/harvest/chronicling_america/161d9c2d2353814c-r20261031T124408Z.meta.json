@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22Wal-Mart+Stores%22&date1=1968&date2=1975&dateFilterType=yearRange&state=Arkansas",
+ "evidence_file": "161d9c2d2353814c-r20261031T124408Z.json",
+ "http_status": 429,
+ "content_type": "application/json; charset=utf-8",
+ "bytes": 973,
+ "retrieved_at": "2026-10-31T12:44:16Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "rate_limited",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a532c00a0aa84c9c-MSP",
+ "retry_after": "594",
+ "note": "Retry-After 594s exceeds honour cap; stopped",
+ "source": "chronicling_america",
+ "query_label": "CA 'Wal-Mart Stores' Arkansas 1968-1975",
+ "company": "walmart",
+ "kind": "search"
+}

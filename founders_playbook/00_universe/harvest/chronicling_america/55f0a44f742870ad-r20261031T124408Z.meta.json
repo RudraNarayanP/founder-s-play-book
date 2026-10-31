@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/bulk/?format=json",
+ "evidence_file": "55f0a44f742870ad-r20261031T124408Z.json",
+ "http_status": 429,
+ "content_type": "application/json; charset=utf-8",
+ "bytes": 973,
+ "retrieved_at": "2026-10-31T12:44:10Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "rate_limited",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a532bfe48a4da20d-MSP",
+ "retry_after": "600",
+ "note": "Retry-After 600s exceeds honour cap; stopped",
+ "source": "chronicling_america",
+ "query_label": "CA-CANARY bulk inventory listing (reachability probe)",
+ "company": "walmart",
+ "kind": "bulk"
+}
