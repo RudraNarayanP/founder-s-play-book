@@ -1,0 +1,25 @@
+{
+ "url": "https://www.loc.gov/chroniclingamerica/search/pages/results/?format=json&andtext=%22Walton%27s%22+Newport&date1=1945&date2=1955&dateFilterType=yearRange&state=Missouri",
+ "evidence_file": "ddd94903c9aa985c-r20261116T155914Z.json",
+ "http_status": 429,
+ "content_type": "application/json; charset=utf-8",
+ "bytes": 973,
+ "retrieved_at": "2026-11-16T15:59:26Z",
+ "ext": ".json",
+ "client": "python-urllib",
+ "request_headers": {
+  "User-Agent": "FoundersPlaybook-harvest/1.0 (research tool for THE FOUNDER'S PLAYBOOK; contact: research@example.org)",
+  "Accept": "application/json, text/plain, */*"
+ },
+ "tls_verify": "on",
+ "error_class": "rate_limited",
+ "redirect_location": "",
+ "cf_mitigated": "",
+ "cf_ray": "a5b7b3f12f098018-IAD",
+ "retry_after": "1192",
+ "note": "Retry-After 1192s exceeds honour cap; stopped",
+ "source": "chronicling_america",
+ "query_label": "CA \"Walton's\" Newport MISSOURI 1945-1955 (kept deliberately)",
+ "company": "walmart",
+ "kind": "search"
+}
