@@ -1,4 +1,4 @@
-# Chronicling America endpoint test -- 2026-11-16T16:07:11Z
+# Chronicling America endpoint test -- 2026-11-17T16:19:01Z
 
 Run from the GitHub Actions egress (or any host) to decide which URL shape answers, because
 from this project's development machine every shape 403s and a 403 cannot be told apart from
